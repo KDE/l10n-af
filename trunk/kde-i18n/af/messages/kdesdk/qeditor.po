@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qeditor VERSION\n"
-"POT-Creation-Date: 2002-11-24 03:02+0100\n"
+"POT-Creation-Date: 2004-01-16 01:44+0100\n"
 "PO-Revision-Date: 2002-09-27 16:43+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,7 +25,7 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: cindent.cpp:158
+#: cindent.cpp:78 qeditor_view.cpp:712
 msgid "Indent"
 msgstr "Inkeep"
 
@@ -37,7 +37,7 @@ msgstr "Soek Teks"
 msgid "Replace Text"
 msgstr "Vervang Teks"
 
-#: koFind.cpp:75 koFind.cpp:368
+#: koFind.cpp:75 koFind.cpp:369
 msgid "Find"
 msgstr "Soek"
 
@@ -93,79 +93,79 @@ msgstr "Gekose teks"
 msgid "&Prompt on replace"
 msgstr "Por op vervang"
 
-#: koFind.cpp:265
+#: koFind.cpp:266
 msgid "Any Character"
 msgstr "Enige Karakter"
 
-#: koFind.cpp:266
+#: koFind.cpp:267
 msgid "Start of Line"
 msgstr "Begin van Lyn"
 
-#: koFind.cpp:267
+#: koFind.cpp:268
 msgid "End of Line"
 msgstr "Einde van Lyn"
 
-#: koFind.cpp:268
+#: koFind.cpp:269
 msgid "Set of Characters"
 msgstr "Stel van Karakters"
 
-#: koFind.cpp:269
+#: koFind.cpp:270
 msgid "Repeats, Zero or More Times"
 msgstr "Herhaal, Nul of Meer  times "
 
-#: koFind.cpp:270
+#: koFind.cpp:271
 msgid "Repeats, One or More Times"
 msgstr "Herhaal, Een of Meer  times "
 
-#: koFind.cpp:271
+#: koFind.cpp:272
 msgid "Optional"
 msgstr "Opsionele"
 
-#: koFind.cpp:272
+#: koFind.cpp:273
 msgid "Escape"
 msgstr "Escape"
 
-#: koFind.cpp:273
+#: koFind.cpp:274
 msgid "TAB"
 msgstr "Oortjie"
 
-#: koFind.cpp:274
+#: koFind.cpp:275
 msgid "Newline"
 msgstr "Nuwe reel"
 
-#: koFind.cpp:275
+#: koFind.cpp:276
 msgid "Carriage Return"
 msgstr ""
 
-#: koFind.cpp:276
+#: koFind.cpp:277
 msgid "White Space"
 msgstr "Wit Spasie"
 
-#: koFind.cpp:277
+#: koFind.cpp:278
 msgid "Digit"
 msgstr "Syfer"
 
-#: koFind.cpp:316
+#: koFind.cpp:317
 msgid "Complete text found"
 msgstr "Volledige teks gevind"
 
-#: koFind.cpp:345
+#: koFind.cpp:346
 msgid "You must enter some text to search for."
 msgstr "Jy moet invoer sommige teks na soektog vir."
 
-#: koFind.cpp:356
+#: koFind.cpp:357
 msgid "Invalid regular expression."
 msgstr "Ongeldige gewone uitdrukking."
 
-#: koFind.cpp:372 koReplace.cpp:98
+#: koFind.cpp:373 koReplace.cpp:98
 msgid "&Yes"
 msgstr "Ja"
 
-#: koFind.cpp:374
+#: koFind.cpp:375
 msgid "Find next '%1'"
 msgstr "Soek volgende '%1'"
 
-#: koFind.cpp:390
+#: koFind.cpp:391
 msgid "No match was found."
 msgstr "Nee ooreenstem was gevind."
 
@@ -185,126 +185,262 @@ msgstr "Vervang '%1' met '%2'?"
 msgid "No text was replaced."
 msgstr "Nee teks was vervang."
 
-#: qeditor.cpp:172
+#: markerwidget.cpp:60
+msgid "Bookmark"
+msgstr ""
+
+#: markerwidget.cpp:61
+msgid "Breakpoint"
+msgstr ""
+
+#: qeditor.cpp:178
 msgid "&Application"
 msgstr "Aansoek"
 
 #: qeditor_factory.cpp:203
-msgid "Qt Designer Based Text Editor"
-msgstr "Qt Ontwerper Gebaseerde Teks Redigeerder"
+msgid "QEditor (based on the editor of Qt-Designer)"
+msgstr ""
 
-#: qeditor_part.cpp:726
+#: qeditor_part.cpp:797
 msgid "QEditor Options"
 msgstr ""
 
-#: qeditor_part.cpp:731
+#: qeditor_part.cpp:802
 msgid "General"
 msgstr "Algemeen"
 
-#: qeditor_part.cpp:737
+#: qeditor_part.cpp:808
 msgid "Highlighting"
 msgstr "Verligting"
 
-#: qeditor_view.cpp:566
+#: qeditor_view.cpp:682
+msgid "Reloa&d"
+msgstr ""
+
+#: qeditor_view.cpp:685
+msgid "<b>Reload</b><p>Reloads the current document from disk."
+msgstr ""
+
+#: qeditor_view.cpp:688
+msgid "Reverts the most recent editing actions."
+msgstr ""
+
+#: qeditor_view.cpp:690
+msgid "Reverts the most recent undo operation."
+msgstr ""
+
+#: qeditor_view.cpp:693
+msgid "Cuts the selected text and moves it to the clipboard."
+msgstr ""
+
+#: qeditor_view.cpp:695
+msgid "Copies the selected text to the clipboard."
+msgstr ""
+
+#: qeditor_view.cpp:698
+msgid "Pastes previously copied or cut clipboard contents."
+msgstr ""
+
+#: qeditor_view.cpp:700
+msgid "Selects the entire text of the current document."
+msgstr ""
+
+#: qeditor_view.cpp:703
+msgid ""
+"Opens a dialog and lets you choose a line that you want the cursor to move "
+"to."
+msgstr ""
+
+#: qeditor_view.cpp:705
+msgid "Looks up the first occurence of a piece of text or regular expression."
+msgstr ""
+
+#: qeditor_view.cpp:707
+msgid ""
+"Looks up a piece of text or regular expression and replace the result with "
+"some given text."
+msgstr ""
+
+#: qeditor_view.cpp:709
 msgid "&Indent"
 msgstr "Inkeep"
 
-#: qeditor_view.cpp:570
+#: qeditor_view.cpp:713
+msgid "<b>Indent</b><p>Indents a selected block of text."
+msgstr ""
+
+#: qeditor_view.cpp:715
+msgid "Collapse All Blocks"
+msgstr ""
+
+#: qeditor_view.cpp:718
+msgid "Collapse all blocks"
+msgstr ""
+
+#: qeditor_view.cpp:719
+msgid "<b>Collapse all blocks</b><p>Collapses all blocks in the current document."
+msgstr ""
+
+#: qeditor_view.cpp:721
+msgid "Expand All Blocks"
+msgstr ""
+
+#: qeditor_view.cpp:724
+msgid "Expand all blocks"
+msgstr ""
+
+#: qeditor_view.cpp:725
+msgid "<b>Expand all blocks</b><p>Expands all blocks in the current document."
+msgstr ""
+
+#: qeditor_view.cpp:727
 msgid "Start Macro"
 msgstr "Begin Makro"
 
-#: qeditor_view.cpp:574
+#: qeditor_view.cpp:730
+#, fuzzy
+msgid "Start macro"
+msgstr "Begin Makro"
+
+#: qeditor_view.cpp:731
+msgid "<b>Start macro</b><p>Starts recording a macro based on the editor input."
+msgstr ""
+
+#: qeditor_view.cpp:733
 msgid "Stop Macro"
 msgstr "Stop Makro"
 
-#: qeditor_view.cpp:578
+#: qeditor_view.cpp:736
+#, fuzzy
+msgid "Stop macro"
+msgstr "Stop Makro"
+
+#: qeditor_view.cpp:737
+msgid "<b>Stop macro</b><p>Stops recording a macro."
+msgstr ""
+
+#: qeditor_view.cpp:739
 msgid "Execute Macro"
 msgstr "Uitvoer Makro"
 
-#: qeditor_view.cpp:582
+#: qeditor_view.cpp:742
+#, fuzzy
+msgid "Execute macro"
+msgstr "Uitvoer Makro"
+
+#: qeditor_view.cpp:743
+msgid "<b>Execute macro</b><p>Executes previously recorded macro."
+msgstr ""
+
+#: qeditor_view.cpp:745
 msgid "&Configure Editor..."
 msgstr "Konfigureer Redigeerder..."
 
-#: rc.cpp:6 rc.cpp:16 rc.cpp:27
+#: qeditor_view.cpp:748
+#, fuzzy
+msgid "Configure editor"
+msgstr "Konfigureer Redigeerder..."
+
+#: qeditor_view.cpp:749
+msgid "<b>Configure editor</b><p>Opens an editor configuration dialog."
+msgstr ""
+
+#: rc.cpp:7 rc.cpp:19 rc.cpp:31
 msgid "Form1"
 msgstr "Vorm1"
 
-#: rc.cpp:7
+#: rc.cpp:8
 msgid "Word wrap"
 msgstr "Woord oorvloei"
 
-#: rc.cpp:8
+#: rc.cpp:9
 msgid "Parentheses matching"
 msgstr "Aanhalingstekens ooreenstemmende"
 
-#: rc.cpp:9
+#: rc.cpp:10
 msgid "Show markers"
 msgstr "Vertoon merkers"
 
-#: rc.cpp:10
+#: rc.cpp:11
 msgid "Show line number"
 msgstr "Vertoon lyn nommer"
 
-#: rc.cpp:11
+#: rc.cpp:12
 msgid "Show folding markers"
 msgstr ""
 
-#: rc.cpp:12
-msgid "Goto Line"
+#: rc.cpp:13
+#, fuzzy
+msgid "Go to Line"
 msgstr "Gaan na Lyn"
 
-#: rc.cpp:13
+#: rc.cpp:14
 msgid "Line number:"
 msgstr "Lyn nommer:"
 
-#: rc.cpp:17
-msgid "&Bold"
-msgstr "Vetdruk"
+#: rc.cpp:16
+msgid "Alt+O"
+msgstr ""
 
 #: rc.cpp:18
-msgid "&Italic"
-msgstr "Kursief"
-
-#: rc.cpp:19
-msgid "&Underline"
-msgstr "Onderstreep"
+msgid "Alt+C"
+msgstr ""
 
 #: rc.cpp:20
-msgid "Size:"
-msgstr "Grootte:"
-
-#: rc.cpp:21
-msgid "Font:"
-msgstr "Skrif tipe:"
-
-#: rc.cpp:23
-msgid "Color:"
-msgstr "Kleur:"
-
-#: rc.cpp:24
 msgid "Element:"
 msgstr "Element:"
 
-#: rc.cpp:25
-msgid "preview"
-msgstr "voorskou"
-
-#: rc.cpp:26
+#: rc.cpp:21
 msgid "Preview:"
 msgstr "Voorskou:"
 
+#: rc.cpp:22
+msgid "preview"
+msgstr "voorskou"
+
+#: rc.cpp:24
+msgid "Size:"
+msgstr "Grootte:"
+
+#: rc.cpp:25
+msgid "&Bold"
+msgstr "Vetdruk"
+
+#: rc.cpp:26
+msgid "Color:"
+msgstr "Kleur:"
+
+#: rc.cpp:27
+msgid "Adjust All..."
+msgstr ""
+
 #: rc.cpp:28
+msgid "&Italic"
+msgstr "Kursief"
+
+#: rc.cpp:29
+msgid "&Underline"
+msgstr "Onderstreep"
+
+#: rc.cpp:30
+msgid "Font:"
+msgstr "Skrif tipe:"
+
+#: rc.cpp:32
 msgid "Tab size:"
 msgstr "Oortjie grootte:"
 
-#: rc.cpp:29
+#: rc.cpp:33
 msgid "Indent size:"
 msgstr "Inkeep grootte:"
 
-#: rc.cpp:30
+#: rc.cpp:34
 msgid "Continuation size:"
 msgstr "Vervolging grootte:"
 
-#: rc.cpp:31
+#: rc.cpp:35
 msgid "Comment offset:"
 msgstr "Kommentaar afwyking:"
+
+#~ msgid "Qt Designer Based Text Editor"
+#~ msgstr "Qt Ontwerper Gebaseerde Teks Redigeerder"
