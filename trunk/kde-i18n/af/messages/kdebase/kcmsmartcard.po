@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmartcard VERSION\n"
-"POT-Creation-Date: 2003-08-08 01:23+0200\n"
+"POT-Creation-Date: 2004-07-20 01:20+0200\n"
 "PO-Revision-Date: 2002-11-07 11:29+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,20 +25,18 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: rc.cpp:1
-msgid "Form2"
-msgstr "Form2"
-
 #: rc.cpp:2
-msgid "<b>Unable to contact the KDE smartcard service!</b>"
+#, fuzzy, no-c-format
+msgid "<b>Unable to contact the KDE smartcard service.</b>"
 msgstr "<b>Nie moontlik na kontak die Kde smartkaart diens!</b>"
 
-#: rc.cpp:3
+#: rc.cpp:4
+#, no-c-format
 msgid "Possible Reasons"
 msgstr "Moontlik Redes"
 
-#: rc.cpp:4
-#, fuzzy
+#: rc.cpp:6
+#, fuzzy, no-c-format
 msgid ""
 "\n"
 "1) The KDE daemon, 'kded' is not running. You can restart it by running the "
@@ -57,23 +55,23 @@ msgstr ""
 "Jy sal benodig na herkompileer Die kdelibs paket met libpcsclite "
 "geïnstalleer."
 
-#: rc.cpp:5
-msgid "SmartcardBase"
-msgstr "Smartcardbase"
-
-#: rc.cpp:6
+#: rc.cpp:11
+#, no-c-format
 msgid "Smartcard Support"
 msgstr "Smartkaart Ondersteun"
 
-#: rc.cpp:7
+#: rc.cpp:13
+#, no-c-format
 msgid "&Enable smartcard support"
 msgstr "Aktiveer smartkaart ondersteun"
 
-#: rc.cpp:8
+#: rc.cpp:15
+#, no-c-format
 msgid "Enable &polling to autodetect card events"
 msgstr "Aktiveer stemmery na outospeur kaart aktiwiteite"
 
-#: rc.cpp:9
+#: rc.cpp:17
+#, no-c-format
 msgid ""
 "In most cases you should have this enabled. It allows KDE to automatically "
 "detect card insertion and reader hotplug events."
@@ -81,11 +79,13 @@ msgstr ""
 "In mees gevalle jy moet het hierdie geaktiveer. Dit laat toe Kde na "
 "automaties verklik kaart invoeg en leser warmprop aktiwiteite."
 
-#: rc.cpp:10
+#: rc.cpp:19
+#, no-c-format
 msgid "Automatically &launch card manager if inserted card is unclaimed"
 msgstr "Automaties lanseer kaart bestuurder as ingesit kaart is ongeeis"
 
-#: rc.cpp:11
+#: rc.cpp:21
+#, no-c-format
 msgid ""
 "When you insert a smartcard, KDE can automatically launch a management tool "
 "if no other application attempts to use the card."
@@ -93,35 +93,43 @@ msgstr ""
 "Wanneer jy voeg by 'n smartkaart, Kde kan automaties lanseer 'n bestuuring "
 "program as nee ander aansoek probeerslae na gebruik die kaart."
 
-#: rc.cpp:12
+#: rc.cpp:23
+#, no-c-format
 msgid "&Beep on card insert and removal"
 msgstr "Biep op kaart voeg by en verwydering"
 
-#: rc.cpp:13
+#: rc.cpp:25
+#, no-c-format
 msgid "Readers"
 msgstr "Lesers"
 
-#: rc.cpp:14
+#: rc.cpp:27
+#, no-c-format
 msgid "Reader"
 msgstr "Leser"
 
-#: rc.cpp:15
+#: rc.cpp:29
+#, no-c-format
 msgid "Type"
 msgstr "Tipe"
 
-#: rc.cpp:16
+#: rc.cpp:31
+#, no-c-format
 msgid "Subtype"
 msgstr "Subtipe"
 
-#: rc.cpp:17
+#: rc.cpp:33
+#, no-c-format
 msgid "SubSubtype"
 msgstr "Subsubtipe"
 
-#: rc.cpp:18
+#: rc.cpp:35
+#, no-c-format
 msgid "PCSCLite Configuration"
 msgstr "Pcsclite Opstelling"
 
-#: rc.cpp:19
+#: rc.cpp:37
+#, no-c-format
 msgid ""
 "To add new readers you have to modify /etc/readers.conf file and re-start "
 "pcscd"
@@ -129,40 +137,52 @@ msgstr ""
 "Na voeg by nuwe lesers jy het Na verander /etc/lesers.conf lêer en re-start "
 "pcscd"
 
-#: smartcard.cpp:66
+#: smartcard.cpp:60
+msgid "kcmsmartcard"
+msgstr "kcmsmartcard"
+
+#: smartcard.cpp:60
+msgid "KDE Smartcard Control Module"
+msgstr "Kde Smartkaart Kontrole Module"
+
+#: smartcard.cpp:62
+msgid "(c) 2001 George Staikos"
+msgstr "(c) 2001 George Staikos"
+
+#: smartcard.cpp:74
 msgid "Change Module..."
 msgstr "Verander Module..."
 
-#: smartcard.cpp:128
+#: smartcard.cpp:136
 msgid "Unable to launch KCardChooser"
 msgstr "Nie moontlik na lanseer Kcardchooser"
 
-#: smartcard.cpp:177
+#: smartcard.cpp:185
 msgid "No card inserted"
 msgstr "Nee kaart ingesit"
 
-#: smartcard.cpp:216
+#: smartcard.cpp:224
 msgid "Smart card support disabled"
 msgstr "Luukse kaart ondersteun gestremde"
 
-#: smartcard.cpp:227
+#: smartcard.cpp:235
 #, fuzzy
 msgid "No readers found. Check 'pcscd' is running"
 msgstr "Nee lesers gevind.Bevestig 'pcscd' is wat loop"
 
-#: smartcard.cpp:250 smartcard.cpp:270
+#: smartcard.cpp:258 smartcard.cpp:278
 msgid "NO ATR or no card inserted"
 msgstr ""
 
-#: smartcard.cpp:282
+#: smartcard.cpp:290
 msgid "Managed by: "
 msgstr "Beheer deur: "
 
-#: smartcard.cpp:292
+#: smartcard.cpp:300
 msgid "No module managing this card"
 msgstr "Nee module te bestuur hierdie kaart"
 
-#: smartcard.cpp:381
+#: smartcard.cpp:389
 msgid ""
 "<h1>smartcard</h1> This module allows you to configure KDE support for "
 "smartcards. These can be used for various tasks such as storing SSL "
@@ -173,14 +193,8 @@ msgstr ""
 "Hierdie kan wees gebruik word vir verskeie take soos as storing Ssl "
 "sertifikate en afteken in na die stelsel."
 
-#: smartcard.cpp:390
-msgid "kcmsmartcard"
-msgstr "kcmsmartcard"
+#~ msgid "Form2"
+#~ msgstr "Form2"
 
-#: smartcard.cpp:390
-msgid "KDE Smartcard Control Module"
-msgstr "Kde Smartkaart Kontrole Module"
-
-#: smartcard.cpp:392
-msgid "(c) 2001 George Staikos"
-msgstr "(c) 2001 George Staikos"
+#~ msgid "SmartcardBase"
+#~ msgstr "Smartcardbase"
