@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcontrol VERSION\n"
-"POT-Creation-Date: 2002-09-24 02:59+0200\n"
+"POT-Creation-Date: 2004-01-10 01:27+0100\n"
 "PO-Revision-Date: 2002-11-07 11:29+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,15 +25,15 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: aboutwidget.cpp:40 main.cpp:92
+#: aboutwidget.cpp:38 main.cpp:91
 msgid "KDE Control Center"
 msgstr "Kde Kontrole Sentrum"
 
-#: aboutwidget.cpp:42
+#: aboutwidget.cpp:40
 msgid "Configure your desktop environment."
 msgstr "Konfigureer jou werkskerm omgewing."
 
-#: aboutwidget.cpp:44
+#: aboutwidget.cpp:42
 msgid ""
 "Welcome to the \"KDE Control Center\", a central place to configure your "
 "desktop environment. Select an item from the index on the left to load a "
@@ -43,11 +43,11 @@ msgstr ""
 "werkskerm omgewing. Kies 'n item van die indeks op die links na las 'n "
 "opstelling module."
 
-#: aboutwidget.cpp:50 main.cpp:96
+#: aboutwidget.cpp:48 main.cpp:95
 msgid "KDE Info Center"
 msgstr "Kde Inligting Sentrum"
 
-#: aboutwidget.cpp:54
+#: aboutwidget.cpp:52
 msgid ""
 "Welcome to the \"KDE Info Center\", a central place to find information "
 "about your computer system."
@@ -55,45 +55,47 @@ msgstr ""
 "Welkom na die \"Kde Inligting Sentrum\", 'n sentraal plek na soek informasie "
 "aangaande jou rekenaar stelsel."
 
-#: aboutwidget.cpp:58
+#: aboutwidget.cpp:56
+#, fuzzy
 msgid ""
-"Click on the \"<b>Help</b>\" tab on the left to view help for the active "
-"control module. Use the \"<b>Search</b>\" tab if you are unsure where to "
-"look for a particular configuration option."
+"Click on the \"Help\" tab on the left to view help for the active control "
+"module. Use the \"Search\" tab if you are unsure where to look for a "
+"particular configuration option."
 msgstr ""
 "Kliek op die \"<b>Hulp</b>\" oortjie op die links na besigtig Hulp vir die "
 "aktief kontrole module. Gebruik die \"<b>Soektog</b>\" oortjie as jy word "
 "onseker waar na kyk vir 'n spesifieke opstelling opsie."
 
-#: aboutwidget.cpp:64
+#: aboutwidget.cpp:62
 msgid "KDE version:"
 msgstr "Kde weergawe:"
 
-#: aboutwidget.cpp:65
+#: aboutwidget.cpp:63
 msgid "User:"
 msgstr "Gebruiker:"
 
-#: aboutwidget.cpp:66
+#: aboutwidget.cpp:64
 msgid "Hostname:"
 msgstr "Masjien naam:"
 
-#: aboutwidget.cpp:67
+#: aboutwidget.cpp:65
 msgid "System:"
 msgstr "Stelsel:"
 
-#: aboutwidget.cpp:68
+#: aboutwidget.cpp:66
 msgid "Release:"
 msgstr "Vrylaat:"
 
-#: aboutwidget.cpp:69
+#: aboutwidget.cpp:67
 msgid "Machine:"
 msgstr "Masjien:"
 
-#: dockcontainer.cpp:43 modules.cpp:157
-msgid "<big>Loading...</big>"
+#: dockcontainer.cpp:142
+#, fuzzy
+msgid "<big><b>Loading...</b></big>"
 msgstr "<big>Laaiïng van...</big>"
 
-#: dockcontainer.cpp:87 toplevel.cpp:344
+#: dockcontainer.cpp:209 toplevel.cpp:325
 msgid ""
 "There are unsaved changes in the active module.\n"
 "Do you want to apply the changes before running the new module or discard "
@@ -103,7 +105,7 @@ msgstr ""
 "Doen jy wil hê na wend aan die verander voor wat loop die nuwe module of "
 "gooi weg die verander?"
 
-#: dockcontainer.cpp:90 toplevel.cpp:347
+#: dockcontainer.cpp:212 toplevel.cpp:328
 msgid ""
 "There are unsaved changes in the active module.\n"
 "Do you want to apply the changes before exiting the Control Center or "
@@ -113,15 +115,18 @@ msgstr ""
 "Doen jy wil hê na wend aan die verander voor besig om toe te maak die "
 "Kontrole Sentrum of gooi weg die verander?"
 
-#: dockcontainer.cpp:93 toplevel.cpp:350
+#: dockcontainer.cpp:215 toplevel.cpp:331
 msgid "Unsaved Changes"
 msgstr "Ongestoorde Verander"
 
-#: helpwidget.cpp:60
-msgid "<br><br>To read the full manual click <a href=\"%1\">here</a>."
+#: helpwidget.cpp:57
+#, fuzzy
+msgid ""
+"<p>Use the \"Whats This\" (Shift+F1) to get help on specific "
+"options.</p><p>To read the full manual click <a href=\"%1\">here</a>.</p>"
 msgstr "<br><br>Na lees die volgrote hand kliek <a href=\"%1\">hier</a>."
 
-#: helpwidget.cpp:67
+#: helpwidget.cpp:64
 msgid ""
 "<h1>KDE Info Center</h1>"
 "There is no quick help available for the active info module."
@@ -135,7 +140,7 @@ msgstr ""
 "<br>Kliek <a href = \"kinfocenter/index.html\">hier</a>"
 " na lees die algemeen Inligting Sentrum hand."
 
-#: helpwidget.cpp:72
+#: helpwidget.cpp:69
 msgid ""
 "<h1>KDE Control Center</h1>There is no quick help available for the active "
 "control module."
@@ -149,82 +154,73 @@ msgstr ""
 "<br>Kliek <a href = \"kcontrol/index.html\">hier</a> na lees die algemeen "
 "Kontrole Sentrum hand."
 
-#: kcminit.cpp:38 kcmshell.cpp:54
-msgid "Configuration module to open."
+#: kcminit.cpp:35
+msgid "List modules that are run at startup."
+msgstr ""
+
+#: kcminit.cpp:36
+#, fuzzy
+msgid "Configuration module to run."
 msgstr "Opstelling module na open."
 
-#: kcminit.cpp:65
+#: kcminit.cpp:63
 msgid "KCMInit"
 msgstr "Kcminit"
 
-#: kcminit.cpp:67
+#: kcminit.cpp:65
 msgid "KCMInit - runs startups initialization for Control Modules."
 msgstr "Kcminit - loop opstart inisialisasie vir Kontrole Modules."
 
-#: kcminit.cpp:101 kcmshell.cpp:84
+#: kcminit.cpp:109
 msgid "Module %1 not found!"
 msgstr "Module %1 nie gevind!"
 
-#: kcmshell.cpp:53
+#: kcmshell.cpp:55
 msgid "List all possible modules"
 msgstr "Lys alle moontlik modules"
 
-#: kcmshell.cpp:55
+#: kcmshell.cpp:56
+msgid "Configuration module to open."
+msgstr "Opstelling module na open."
+
+#: kcmshell.cpp:57
 msgid "Specify a particular language."
 msgstr "Spesifiseer 'n spesifieke taal."
 
-#: kcmshell.cpp:56
+#: kcmshell.cpp:58
 msgid "Window ID to embed into."
 msgstr "Venster Id na inbed binnein."
 
-#: kcmshell.cpp:57
+#: kcmshell.cpp:59
 msgid "Do not display main window."
 msgstr "Doen nie vertoon hoof venster."
 
-#: kcmshell.cpp:135
+#: kcmshell.cpp:136 kcmshell.cpp:223
 msgid "KDE Control Module"
 msgstr "Kde Kontrole Module"
 
-#: kcmshell.cpp:137
+#: kcmshell.cpp:138
 msgid "A tool to start single KDE control modules"
 msgstr "'n program na begin enkel Kde kontrole modules"
 
-#: kcmshell.cpp:141 main.cpp:115 main.cpp:117
+#: kcmshell.cpp:142 main.cpp:115 main.cpp:117
 msgid "Current Maintainer"
 msgstr "Huidige Onderhouer"
 
-#: kcmshell.cpp:271
-msgid "There was an error loading the module."
-msgstr "Daar was 'n fout laaiïng van die module."
-
-#: kcmshell.cpp:271
-msgid ""
-"<qt>"
-"<p>The diagnostics is:"
-"<br>%1"
-"<p>Possible reasons:</p>"
-"<ul>"
-"<li>An error occurred during your last KDE upgrade leaving an orphaned "
-"control module"
-"<li>You have old third party modules lying around.</ul>"
-"<p>Check these points carefully and try to remove the module mentioned in "
-"the error message. If this fails, consider contacting your distributor or "
-"packager.</p></qt>"
+#: kcmshell.cpp:160
+msgid "The following modules are available:"
 msgstr ""
-"<qt>"
-"<p>Die diagnose terugvoer is:"
-"<br>%1"
-"<p>Moontlik redes:</p>"
-"<ul>"
-"<li>'n fout voorgekom gedurende jou laaste Kde opgradering verlaat 'n "
-"verwese kontrole module"
-"<li>Jy het ou derde party modules liggende omtrent.</ul>"
-"<p>"
-"Bevestig hierdie punte versigtig en probeer na verwyder Die module genoem in "
-"Die fout boodskap. As hierdie vaal, beskou kontak maak na jou verspreider of "
-"verpakker.</p></qt>"
 
-#: kcrootonly.cpp:31
+#: kcmshell.cpp:181
+msgid "No description available"
+msgstr ""
+
+#: kcmshell.cpp:229 kcmshell.cpp:301
+#, c-format
+msgid "Configure - %1"
+msgstr ""
+
+#: kcrootonly.cpp:30
 msgid ""
 "<big>You need super user privileges to run this control "
 "module.</big><br>Click on the \"Administrator Mode\" button below."
@@ -232,39 +228,27 @@ msgstr ""
 "<big>Jy benodig super gebruiker voorregte na hardloop hierdie kontrole "
 "module.</big><br>Kliek op die \"Administrateur Modus\" knoppie onder."
 
-#: kecdialog.cpp:43
-msgid "Settings"
-msgstr "Instellings"
-
-#: kecdialog.cpp:139
-msgid ""
-"There was an error loading module\n"
-"'%1'\n"
-"The diagnostics is:\n"
-"%2"
-msgstr ""
-"Daar was 'n fout laaiïng van module\n"
-"'%1'\n"
-"Die diagnose terugvoer is:\n"
-"%2"
-
-#: main.cpp:93
+#: main.cpp:92
 msgid "The KDE Control Center"
 msgstr "Die Kde Kontrole Sentrum"
 
-#: main.cpp:94 main.cpp:98
+#: main.cpp:93 main.cpp:97
 msgid "(c) 1998-2002, The KDE Control Center Developers"
 msgstr "(c) 1998-2002, Die Kde Kontrole Sentrum Ontwikkelaars"
 
-#: main.cpp:97
+#: main.cpp:96
 msgid "The KDE Info Center"
 msgstr "Die Kde Inligting Sentrum"
 
-#: moduletreeview.cpp:55
+#: modules.cpp:153
+msgid "<big>Loading...</big>"
+msgstr "<big>Laaiïng van...</big>"
+
+#: moduletreeview.cpp:65
 msgid "The %1 configuration group. Click to open it."
 msgstr "Die %1 opstelling groep. Kliek na open dit."
 
-#: moduletreeview.cpp:57
+#: moduletreeview.cpp:67
 msgid ""
 "This treeview displays all available control modules. Click on one of the "
 "modules to receive more detailed information."
@@ -272,11 +256,11 @@ msgstr ""
 "Hierdie boom aansig vertoon alle beskikbaar kontrole modules. Kliek op een "
 "van die modules na ontvang meer gedetaileerde informasie."
 
-#: proxywidget.cpp:62
+#: proxywidget.cpp:54
 msgid "The currently loaded configuration module."
 msgstr "Die huidiglik gelaai opstelling module."
 
-#: proxywidget.cpp:96
+#: proxywidget.cpp:88
 msgid ""
 "<b>Changes in this module require root access.</b>"
 "<br>Click the \"Administrator Mode\" button to allow modifications in this "
@@ -286,7 +270,7 @@ msgstr ""
 "<br>Kliek die \"Administrateur Modus\" knoppie na toelaat veranderinge in "
 "hierdie module."
 
-#: proxywidget.cpp:100
+#: proxywidget.cpp:92
 msgid ""
 "This module requires special permissions, probably for system-wide "
 "modifications. Therefore it is required that you provide the root password "
@@ -298,11 +282,11 @@ msgstr ""
 "in staat na verander die modules eienskappe. as lang as jy moet nie verskaf "
 "die wagwoord, die module sal wees gestremde."
 
-#: proxywidget.cpp:219
+#: proxywidget.cpp:211
 msgid "&Reset"
 msgstr "Herstel"
 
-#: proxywidget.cpp:220
+#: proxywidget.cpp:212
 msgid "&Administrator Mode"
 msgstr "Administrateur Modus"
 
@@ -314,69 +298,102 @@ msgstr "Modus"
 msgid "Icon &Size"
 msgstr "Ikoon Grootte"
 
-#: searchwidget.cpp:90
+#: searchwidget.cpp:79
 msgid "Se&arch:"
 msgstr "Soektog:"
 
-#: searchwidget.cpp:97
+#: searchwidget.cpp:86
 msgid "&Keywords:"
 msgstr "Sleutelwoorde:"
 
-#: searchwidget.cpp:104
+#: searchwidget.cpp:93
 msgid "&Results:"
 msgstr "Resultate:"
 
-#: toplevel.cpp:97
+#: toplevel.cpp:83
 msgid "Choose between Index, Search and Quick Help"
 msgstr "Kies tussen Indeks, Soektog en Vinnige Hulp"
 
-#: toplevel.cpp:103
+#: toplevel.cpp:89
 msgid "&Index"
 msgstr "Indeks"
 
-#: toplevel.cpp:114
-msgid "S&earch"
+#: toplevel.cpp:100
+#, fuzzy
+msgid "Sear&ch"
 msgstr "Soektog"
 
-#: toplevel.cpp:118
+#: toplevel.cpp:104
 msgid "Hel&p"
 msgstr "Hulp"
 
-#: toplevel.cpp:219
+#: toplevel.cpp:201
 msgid "&Icon View"
 msgstr "Ikoon Besigtig"
 
-#: toplevel.cpp:224
+#: toplevel.cpp:206
 msgid "&Tree View"
 msgstr "Boom Besigtig"
 
-#: toplevel.cpp:229
+#: toplevel.cpp:211
 msgid "&Small"
 msgstr "Klein"
 
-#: toplevel.cpp:234
+#: toplevel.cpp:216
 msgid "&Medium"
 msgstr "Medium"
 
-#: toplevel.cpp:239
+#: toplevel.cpp:221
 msgid "&Large"
 msgstr "Groot"
 
-#: toplevel.cpp:243 toplevel.cpp:360 toplevel.cpp:454
+#: toplevel.cpp:225 toplevel.cpp:341 toplevel.cpp:395
 msgid "About Current Module"
 msgstr "Aangaande Huidige Module"
 
-#: toplevel.cpp:254 toplevel.cpp:319
+#: toplevel.cpp:236 toplevel.cpp:306
 msgid "&Report Bug..."
 msgstr "Raporteer Fout..."
 
-#: toplevel.cpp:321
+#: toplevel.cpp:308
 msgid "Report Bug on Module %1..."
 msgstr "Raporteer Fout op Module %1..."
 
-#: toplevel.cpp:447
+#: toplevel.cpp:388
 #, c-format
 msgid ""
 "_: Help menu->about <modulename>\n"
 "About %1"
 msgstr "Aangaande %1"
+
+#~ msgid "Settings"
+#~ msgstr "Instellings"
+
+#~ msgid "There was an error loading the module."
+#~ msgstr "Daar was 'n fout laaiïng van die module."
+
+#~ msgid ""
+#~ "<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>An error "
+#~ "occurred during your last KDE upgrade leaving an orphaned control "
+#~ "module<li>You have old third party modules lying around.</ul><p>Check "
+#~ "these points carefully and try to remove the module mentioned in the "
+#~ "error message. If this fails, consider contacting your distributor or "
+#~ "packager.</p></qt>"
+#~ msgstr ""
+#~ "<qt><p>Die diagnose terugvoer is:<br>%1<p>Moontlik redes:</p><ul><li>'n "
+#~ "fout voorgekom gedurende jou laaste Kde opgradering verlaat 'n verwese "
+#~ "kontrole module<li>Jy het ou derde party modules liggende omtrent.</"
+#~ "ul><p>Bevestig hierdie punte versigtig en probeer na verwyder Die module "
+#~ "genoem in Die fout boodskap. As hierdie vaal, beskou kontak maak na jou "
+#~ "verspreider of verpakker.</p></qt>"
+
+#~ msgid ""
+#~ "There was an error loading module\n"
+#~ "'%1'\n"
+#~ "The diagnostics is:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "Daar was 'n fout laaiïng van module\n"
+#~ "'%1'\n"
+#~ "Die diagnose terugvoer is:\n"
+#~ "%2"
