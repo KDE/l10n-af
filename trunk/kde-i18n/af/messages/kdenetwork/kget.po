@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kget VERSION\n"
-"POT-Creation-Date: 2005-01-20 01:23+0100\n"
+"POT-Creation-Date: 2005-02-23 01:23+0100\n"
 "PO-Revision-Date: 2002-09-27 16:40+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -101,7 +101,7 @@ msgstr "%1% van %2 - %3"
 msgid "%1 of %2"
 msgstr "%1 van %2"
 
-#: dlgIndividual.cpp:233 transfer.cpp:575 transfer.cpp:576
+#: dlgIndividual.cpp:233 transfer.cpp:595 transfer.cpp:596
 msgid "Stalled"
 msgstr "Gestol"
 
@@ -143,27 +143,27 @@ msgstr ""
 msgid "System"
 msgstr "Stelsel"
 
-#: dlgSystem.cpp:65
+#: dlgSystem.cpp:70
 #, fuzzy
 msgid "Sound file name for action 'added':"
 msgstr "Klank lêernaam vir aksie 'added':"
 
-#: dlgSystem.cpp:69
+#: dlgSystem.cpp:74
 #, fuzzy
 msgid "Sound file name for action 'started':"
 msgstr "Klank lêernaam vir aksie 'started':"
 
-#: dlgSystem.cpp:73
+#: dlgSystem.cpp:78
 #, fuzzy
 msgid "Sound file name for action 'finished':"
 msgstr "Klank lêernaam vir aksie 'finished':"
 
-#: dlgSystem.cpp:77
+#: dlgSystem.cpp:82
 #, fuzzy
 msgid "Sound file name for action 'finished-all':"
 msgstr "Klank lêernaam vir aksie 'finished-all':"
 
-#: dlgSystem.cpp:83
+#: dlgSystem.cpp:88
 #, fuzzy
 msgid ""
 "*.wav|WAV Files\n"
@@ -300,13 +300,13 @@ msgstr ""
 "Kon nie lees lêer:\n"
 "%1"
 
-#: kmainwidget.cpp:178
-msgid "Starting offline"
-msgstr "Beginne af-lyn"
-
-#: kmainwidget.cpp:241 kmainwidget.cpp:1681
+#: kmainwidget.cpp:241 kmainwidget.cpp:1697 kmainwidget.cpp:2133
 msgid "Offline"
 msgstr "Af-lyn"
+
+#: kmainwidget.cpp:242
+msgid "Starting offline"
+msgstr "Beginne af-lyn"
 
 #: kmainwidget.cpp:332
 msgid "&Export Transfer List..."
@@ -336,27 +336,27 @@ msgstr "Beweeg na Begin"
 msgid "Move to &End"
 msgstr "Beweeg na Einde"
 
-#: kmainwidget.cpp:350 transfer.cpp:132
+#: kmainwidget.cpp:350 transfer.cpp:126
 msgid "&Resume"
 msgstr "Voortgaan"
 
-#: kmainwidget.cpp:351 transfer.cpp:134
+#: kmainwidget.cpp:351 transfer.cpp:128
 msgid "&Pause"
 msgstr "Pouseer"
 
-#: kmainwidget.cpp:353 transfer.cpp:138
+#: kmainwidget.cpp:353 transfer.cpp:132
 msgid "Re&start"
 msgstr "Herbegin"
 
-#: kmainwidget.cpp:355 transfer.cpp:140
+#: kmainwidget.cpp:355 transfer.cpp:134
 msgid "&Queue"
 msgstr "Wagtou"
 
-#: kmainwidget.cpp:356 transfer.cpp:142
+#: kmainwidget.cpp:356 transfer.cpp:136
 msgid "&Timer"
 msgstr "Tydhouer"
 
-#: kmainwidget.cpp:357 transfer.cpp:144
+#: kmainwidget.cpp:357 transfer.cpp:138
 msgid "De&lay"
 msgstr "Vertraging"
 
@@ -406,11 +406,11 @@ msgstr "Log Venster"
 msgid "Drop &Target"
 msgstr "Laat val Teiken"
 
-#: kmainwidget.cpp:392 kmainwidget.cpp:2055 kmainwidget.cpp:2062
+#: kmainwidget.cpp:392 kmainwidget.cpp:2071 kmainwidget.cpp:2078
 msgid " Transfers: %1 "
 msgstr " Oordragte: %1 "
 
-#: kmainwidget.cpp:393 kmainwidget.cpp:2056 kmainwidget.cpp:2063
+#: kmainwidget.cpp:393 kmainwidget.cpp:2072 kmainwidget.cpp:2079
 msgid " Files: %1 "
 msgstr " Lêers: %1 "
 
@@ -634,51 +634,52 @@ msgid ""
 "*|All Files"
 msgstr ""
 
-#: kmainwidget.cpp:685
+#: kmainwidget.cpp:689
 msgid "Quitting..."
 msgstr "Besig om te verlaat..."
 
-#: kmainwidget.cpp:690
+#: kmainwidget.cpp:694
 msgid ""
 "Some transfers are still running.\n"
 "Are you sure you want to close KGet?"
 msgstr ""
 
-#: kmainwidget.cpp:801
+#: kmainwidget.cpp:805
 #, fuzzy
 msgid "Are you sure you want to delete these transfers?"
 msgstr "Word jy seker jy wil hê na uitvee hierdie oordra?"
 
-#: kmainwidget.cpp:802 kmainwidget.cpp:811 kmainwidget.cpp:2086
-#: kmainwidget.cpp:2354
+#: kmainwidget.cpp:806 kmainwidget.cpp:815 kmainwidget.cpp:2102
+#: kmainwidget.cpp:2372
 msgid "Question"
 msgstr "Vraag"
 
-#: kmainwidget.cpp:810
+#: kmainwidget.cpp:814
 msgid "Are you sure you want to delete this transfer?"
 msgstr "Word jy seker jy wil hê na uitvee hierdie oordra?"
 
-#: kmainwidget.cpp:838
+#: kmainwidget.cpp:842
 #, c-format
 msgid ""
 "_n: The transfer you wanted to delete completed before it could be deleted.\n"
 "%n transfers you wanted to delete completed before they could be deleted."
 msgstr ""
 
-#: kmainwidget.cpp:854
-msgid "Pausing all jobs"
+#: kmainwidget.cpp:858
+#, fuzzy
+msgid "Stopping all jobs"
 msgstr "Pouseer alle werke"
 
-#: kmainwidget.cpp:948 kmainwidget.cpp:1012
+#: kmainwidget.cpp:952 kmainwidget.cpp:1016
 #, fuzzy
 msgid "Open Transfer"
 msgstr "Open oordra:"
 
-#: kmainwidget.cpp:948 kmainwidget.cpp:1012
+#: kmainwidget.cpp:952 kmainwidget.cpp:1016
 msgid "Open transfer:"
 msgstr "Open oordra:"
 
-#: kmainwidget.cpp:958 kmainwidget.cpp:2332
+#: kmainwidget.cpp:962 kmainwidget.cpp:2350
 #, c-format
 msgid ""
 "Malformed URL:\n"
@@ -687,7 +688,7 @@ msgstr ""
 "Misformde Url:\n"
 "%1"
 
-#: kmainwidget.cpp:1095 kmainwidget.cpp:1174 kmainwidget.cpp:1230
+#: kmainwidget.cpp:1099 kmainwidget.cpp:1178 kmainwidget.cpp:1238
 #, fuzzy
 msgid ""
 "Destination file \n"
@@ -698,100 +699,96 @@ msgstr ""
 "Bestemming lêer alreeds bestaan\n"
 " doen jy wil hê na oorskryf?"
 
-#: kmainwidget.cpp:1298
+#: kmainwidget.cpp:1306
 msgid "Starting another queued job."
 msgstr "Beginne nog 'n getou werk."
 
-#: kmainwidget.cpp:1309
-msgid "Cannot continue offline status"
-msgstr "Kan nie gaan voort af-lyn status"
-
-#: kmainwidget.cpp:1679
+#: kmainwidget.cpp:1695
 msgid "Offline mode on."
 msgstr "Af-lyn modus op."
 
-#: kmainwidget.cpp:1684
+#: kmainwidget.cpp:1700
 msgid "Offline mode off."
 msgstr "Af-lyn modus af."
 
-#: kmainwidget.cpp:1709
+#: kmainwidget.cpp:1725
 msgid "Expert mode on."
 msgstr "Ervare modus op."
 
-#: kmainwidget.cpp:1711
+#: kmainwidget.cpp:1727
 msgid "Expert mode off."
 msgstr "Ervare modus af."
 
-#: kmainwidget.cpp:1730
+#: kmainwidget.cpp:1746
 #, fuzzy
 msgid "Use last folder on."
 msgstr "Gebruik laaste gids op."
 
-#: kmainwidget.cpp:1732
+#: kmainwidget.cpp:1748
 #, fuzzy
 msgid "Use last folder off."
 msgstr "Gebruik laaste gids af."
 
-#: kmainwidget.cpp:1750
+#: kmainwidget.cpp:1766
 msgid "Auto disconnect on."
 msgstr "Outo ontkoppel op."
 
-#: kmainwidget.cpp:1752
+#: kmainwidget.cpp:1768
 msgid "Auto disconnect off."
 msgstr "Outo ontkoppel af."
 
-#: kmainwidget.cpp:1771
+#: kmainwidget.cpp:1787
 msgid "Auto shutdown on."
 msgstr "Outo afskakel op."
 
-#: kmainwidget.cpp:1773
+#: kmainwidget.cpp:1789
 msgid "Auto shutdown off."
 msgstr "Outo afskakel af."
 
-#: kmainwidget.cpp:1794
+#: kmainwidget.cpp:1810
 msgid "Auto paste on."
 msgstr "Outo plak op."
 
-#: kmainwidget.cpp:1797
+#: kmainwidget.cpp:1813
 msgid "Auto paste off."
 msgstr "Outo plak af."
 
-#: kmainwidget.cpp:2057 kmainwidget.cpp:2064
+#: kmainwidget.cpp:2073 kmainwidget.cpp:2080
 msgid " Size: %1 "
 msgstr " Grootte: %1 "
 
-#: kmainwidget.cpp:2058
+#: kmainwidget.cpp:2074
 msgid " Time: %1 "
 msgstr " Tyd: %1 "
 
-#: kmainwidget.cpp:2059
+#: kmainwidget.cpp:2075
 msgid " %1/s "
 msgstr " %1/s "
 
-#: kmainwidget.cpp:2065
+#: kmainwidget.cpp:2081
 #, fuzzy
 msgid " Time: %1 %2/s"
 msgstr " Tyd: %1 "
 
-#: kmainwidget.cpp:2085
+#: kmainwidget.cpp:2101
 msgid "Do you really want to disconnect?"
 msgstr "Doen jy rerig wil hê na ontkoppel?"
 
-#: kmainwidget.cpp:2093
+#: kmainwidget.cpp:2109
 msgid "Disconnecting..."
 msgstr "Besig om te ontkoppel..."
 
-#: kmainwidget.cpp:2162
+#: kmainwidget.cpp:2127
 #, fuzzy
 msgid "We are online."
 msgstr "Ons word aan-lyn!"
 
-#: kmainwidget.cpp:2165
+#: kmainwidget.cpp:2132
 #, fuzzy
 msgid "We are offline."
 msgstr "Ons word af-lyn!"
 
-#: kmainwidget.cpp:2344
+#: kmainwidget.cpp:2362
 #, c-format
 msgid ""
 "Already saving URL\n"
@@ -800,7 +797,7 @@ msgstr ""
 "Alreeds stooring Url\n"
 "%1"
 
-#: kmainwidget.cpp:2354
+#: kmainwidget.cpp:2372
 #, fuzzy
 msgid ""
 "Already saved URL\n"
@@ -1243,86 +1240,94 @@ msgstr ""
 msgid "Konqueror Integration"
 msgstr "Konqueror Integrasie"
 
-#: transfer.cpp:275
+#: transfer.cpp:273
 #, c-format
 msgid "Copy file from: %1"
 msgstr "Kopie lêer van: %1"
 
-#: transfer.cpp:276
+#: transfer.cpp:274
 #, c-format
 msgid "To: %1"
 msgstr "Na: %1"
 
-#: transfer.cpp:298
+#: transfer.cpp:296
 msgid "unknown"
 msgstr ""
 
-#: transfer.cpp:389
+#: transfer.cpp:387
 #, c-format
 msgid "Attempt number %1"
 msgstr "Poog nommer %1"
 
-#: transfer.cpp:404
+#: transfer.cpp:400
+msgid "Stopping"
+msgstr ""
+
+#: transfer.cpp:422
 msgid "Pausing"
 msgstr "Pouseer"
 
-#: transfer.cpp:463
+#: transfer.cpp:483
 #, fuzzy
 msgid "Queueing"
 msgstr "Wagtou plasing"
 
-#: transfer.cpp:478
+#: transfer.cpp:498
 msgid "Scheduling"
 msgstr "Skedulering"
 
-#: transfer.cpp:502
+#: transfer.cpp:522
 msgid "Delaying"
 msgstr "Vertraging"
 
-#: transfer.cpp:532
+#: transfer.cpp:552
 msgid "Download finished"
 msgstr "Aflaai klaar gemaak"
 
-#: transfer.cpp:579 transfer.cpp:669
+#: transfer.cpp:599 transfer.cpp:689
 msgid ""
 "_: OK as in 'finished'\n"
 "OK"
 msgstr ""
 
-#: transfer.cpp:580 transfer.cpp:586
+#: transfer.cpp:600 transfer.cpp:606
 msgid "0 MB/s"
 msgstr "0  mb /s"
 
-#: transfer.cpp:581 transfer.cpp:587
+#: transfer.cpp:601 transfer.cpp:607
 msgid "00:00:00"
 msgstr "00:00:00"
 
-#: transfer.cpp:590
+#: transfer.cpp:610
 msgid "%1/s"
 msgstr "%1/s"
 
-#: transfer.cpp:612
+#: transfer.cpp:632
 msgid "Total size is %1 bytes"
 msgstr "Totaal grootte is %1 grepe"
 
-#: transfer.cpp:628
+#: transfer.cpp:648
 #, fuzzy
 msgid "The file size does not match."
 msgstr "Die lêer grootte doen nie ooreenstem!"
 
-#: transfer.cpp:630
+#: transfer.cpp:650
 msgid "File Size checked"
 msgstr "Lêer Grootte nagegaan"
 
-#: transfer.cpp:750
+#: transfer.cpp:770
 msgid ""
 "Malformed URL:\n"
 msgstr ""
 "Misformde Url:\n"
 
-#: transfer.cpp:870
+#: transfer.cpp:909
 msgid "Download resumed"
 msgstr "Aflaai hervat"
+
+#: transfer.cpp:1002
+msgid "checking if file is in cache...no"
+msgstr ""
 
 #: transferlist.cpp:66
 msgid "S"
@@ -1416,6 +1421,9 @@ msgstr ""
 #: kget_plug_in/kget_plug_in.cpp:150
 msgid "No Links"
 msgstr ""
+
+#~ msgid "Cannot continue offline status"
+#~ msgstr "Kan nie gaan voort af-lyn status"
 
 #~ msgid "Automatically resume if possible"
 #~ msgstr "Automaties voortgaan as moontlik"
