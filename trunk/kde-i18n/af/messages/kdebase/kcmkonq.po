@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq VERSION\n"
-"POT-Creation-Date: 2002-11-16 02:57+0100\n"
+"POT-Creation-Date: 2003-11-14 01:27+0100\n"
 "PO-Revision-Date: 2002-11-07 11:28+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -13,26 +13,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: behaviour.cpp:57 rootopts.cpp:125
+#: behaviour.cpp:46
 msgid "Misc Options"
 msgstr "Allerande Opsies"
 
-#: behaviour.cpp:73
-msgid "&Open directories in separate windows"
+#: behaviour.cpp:62
+#, fuzzy
+msgid "Open folders in separate &windows"
 msgstr "Open gidse in aparte vensters"
 
-#: behaviour.cpp:74
+#: behaviour.cpp:63
 msgid ""
 "If this option is checked, Konqueror will open a new window when you open a "
-"directory, rather than showing that directory's contents in the current "
-"window."
+"folder, rather than showing that folders's contents in the current window."
 msgstr ""
 
-#: behaviour.cpp:81
+#: behaviour.cpp:70
 msgid "&Show network operations in a single window"
 msgstr "Vertoon netwerk operasies in 'n enkel venster"
 
-#: behaviour.cpp:84
+#: behaviour.cpp:73
 msgid ""
 "Checking this option will group the progress information for all network "
 "file transfers into a single window with a list. When the option is not "
@@ -42,11 +42,12 @@ msgstr ""
 "lêer oordragte binnein 'n enkel venster met 'n lys. Wanneer die opsie is "
 "nie nagegaan, alle oordragte verskyn in 'n aparte venster."
 
-#: behaviour.cpp:92
-msgid "&Show file tips"
+#: behaviour.cpp:81
+#, fuzzy
+msgid "Show file &tips"
 msgstr "Vertoon lêer leidrade"
 
-#: behaviour.cpp:95
+#: behaviour.cpp:84
 msgid ""
 "Here you can control if, when moving the mouse over a file, you want to see "
 "a small popup window with additional information about that file"
@@ -54,11 +55,12 @@ msgstr ""
 "Hier jy kan kontrole as, wanneer beweeg die muis bo 'n lêer, jy wil hê na "
 "sien 'n klein opspring venster met aditionele informasie aangaande wat lêer"
 
-#: behaviour.cpp:109
-msgid "&Show previews in file tips"
+#: behaviour.cpp:104
+#, fuzzy
+msgid "Show &previews in file tips"
 msgstr "Vertoon voorskoue in lêer leidrade"
 
-#: behaviour.cpp:112
+#: behaviour.cpp:107
 msgid ""
 "Here you can control if you want the popup window to contain a larger "
 "preview for the file, when moving the mouse over it."
@@ -66,18 +68,29 @@ msgstr ""
 "Hier jy kan kontrole as jy wil hê die opspring venster na bevat 'n grootter "
 "voorskou vir die lêer, wanneer beweeg die muis bo dit."
 
+#: behaviour.cpp:110
+msgid "Rename icons in&line"
+msgstr ""
+
+#: behaviour.cpp:111
+msgid ""
+"Checking this option will allow files to be renamed by clicking directly on "
+"the icon name. "
+msgstr ""
+
 #: behaviour.cpp:117
 msgid "Home &URL:"
 msgstr "Huis Url:"
 
 #: behaviour.cpp:122
-msgid "Select Home Directory"
+#, fuzzy
+msgid "Select Home Folder"
 msgstr "Kies Huis Gids"
 
 #: behaviour.cpp:127
 msgid ""
-"This is the URL (e.g. a directory or a web page) where Konqueror will jump "
-"to when the \"Home\" button is pressed. This usually is your home dirctory, "
+"This is the URL (e.g. a folder or a web page) where Konqueror will jump to "
+"when the \"Home\" button is pressed. This is usually your home folder, "
 "symbolized by a 'tilde' (~)."
 msgstr ""
 
@@ -86,17 +99,14 @@ msgid "Ask Confirmation For"
 msgstr "Vra Bevestiging Vir"
 
 #: behaviour.cpp:136
+#, fuzzy
 msgid ""
 "This option tells Konqueror whether to ask for a confirmation when you "
 "\"delete\" a file. "
 "<ul>"
-"<li><em>Move To Trash:</em> moves the file to your trash directory, from "
-"where it can be recovered very easily.</li> "
-"<li><em>Delete:</em> simply deletes the file.</li> "
-"<li><em>Shred:</em> not only deletes the file, but overwrites the area on "
-"the disk where the file is stored, making recovery impossible. You should "
-"not remove confirmation for this method unless you routinely work with very "
-"confidential information.</li></ul>"
+"<li><em>Move To Trash:</em> moves the file to your trash folder, from where "
+"it can be recovered very easily.</li> "
+"<li><em>Delete:</em> simply deletes the file.</li> </li></ul>"
 msgstr ""
 "Hierdie opsie sê vir Konqueror hetsy na vra vir 'n bevestiging wanneer jy "
 "\"uitvee\" 'n lêer. "
@@ -111,86 +121,16 @@ msgstr ""
 "bevestiging vir Hierdie metode tensy jy op gereelde basis werk met baie "
 "konfidentiële informasie.</li></ul>"
 
-#: behaviour.cpp:148
-msgid "Move to trash"
+#: behaviour.cpp:145
+#, fuzzy
+msgid "&Move to trash"
 msgstr "Beweeg na gemors"
 
-#: behaviour.cpp:152
-msgid "Shred"
-msgstr "Versnipper"
-
-#: behaviour.cpp:157
-msgid ""
-"With this option activated, only one instance of Konqueror will exist in the "
-"memory of your computer at any moment, no matter how many browsing windows "
-"you open, thus reducing resource requirements."
-"<p>Be aware that this also means that, if something goes wrong, all your "
-"browsing windows will be closed simultaneously."
+#: behaviour.cpp:147
+msgid "D&elete"
 msgstr ""
-"Met hierdie opsie geaktiveer, slegs een voorbeeld van Konqueror sal bestaan "
-"in die geheue van jou rekenaar na enige oomblik, nee geag hoe veel blaaiïng "
-"vensters jy open, dus verminder hulpbron benodighede."
-"<p>Wees bewus wat hierdie asook beteken wat, as iets gaan verkeerde, alle "
-"jou blaaiïng vensters sal Wees gesluit gelyktydig."
 
-#: behaviour.cpp:163
-msgid ""
-"With this option activated, only one instance of Konqueror will exist in the "
-"memory of your computer at any moment, no matter how many local browsing "
-"windows you open, thus reducing resource requirements."
-"<p>Be aware that this also means that, if something goes wrong, all your "
-"local browsing windows will be closed simultaneously"
-msgstr ""
-"Met hierdie opsie geaktiveer, slegs een voorbeeld van Konqueror sal bestaan "
-"in die geheue van jou rekenaar na enige oomblik, nee geag hoe veel plaaslike "
-"blaaiïng vensters jy open, dus verminder hulpbron benodighede."
-"<p>Wees bewus wat hierdie asook beteken wat, as iets gaan verkeerde, alle "
-"jou plaaslike blaaiïng vensters sal Wees gesluit gelyktydig"
-
-#: behaviour.cpp:169
-msgid ""
-"With this option activated, only one instance of Konqueror will exist in the "
-"memory of your computer at any moment, no matter how many web browsing "
-"windows you open, thus reducing resource requirements."
-"<p>"
-"Be aware that this also means that, if something goes wrong, all your web "
-"browsing windows will be closed simultaneously"
-msgstr ""
-"Met hierdie opsie geaktiveer, slegs een voorbeeld van Konqueror sal bestaan "
-"in die geheue van jou rekenaar na enige oomblik, nee geag hoe veel web "
-"blaaiïng vensters jy open, dus verminder hulpbron benodighede."
-"<p>Wees bewus wat hierdie asook beteken wat, as iets gaan verkeerde, alle "
-"jou web blaaiïng vensters sal Wees gesluit gelyktydig"
-
-#: behaviour.cpp:176
-msgid "Minimize Memory Usage"
-msgstr "Minimeer Geheue Gebruik"
-
-#: behaviour.cpp:180
-msgid "&Never"
-msgstr "Moet nooit"
-
-#: behaviour.cpp:181
-msgid ""
-"Disables the minimization of memory usage and allows you to make each "
-"browsing activity independent from the others"
-msgstr ""
-"Deaktiveer die minimisering van geheue gebruik en laat toe jy na maak elke "
-"blaaiïng aktiwiteit onafhanklike van die andere"
-
-#: behaviour.cpp:184
-msgid "For &local browsing only (recommended)"
-msgstr "Vir plaaslike blaaiïng slegs (aanbeveel)"
-
-#: behaviour.cpp:187
-msgid "For &Web browsing only"
-msgstr "Vir Web blaaiïng slegs"
-
-#: behaviour.cpp:190
-msgid "Alwa&ys (use with care)"
-msgstr "Altyd (gebruik met versigtigheid)"
-
-#: behaviour.cpp:342
+#: behaviour.cpp:270
 msgid ""
 "<h1>Konqueror Behavior</h1> You can configure how Konqueror behaves as a "
 "file manager here."
@@ -198,27 +138,27 @@ msgstr ""
 "<h1>Konqueror Gedrag</h1> Jy kan konfigureer hoe Konqueror gedrag as 'n "
 "lêer bestuurder hier."
 
-#: browser.cpp:109
+#: browser.cpp:50
 msgid "&Appearance"
 msgstr "Voorkoms"
 
-#: browser.cpp:110
+#: browser.cpp:51
 msgid "&Behavior"
 msgstr "Gedrag"
 
-#: browser.cpp:111
-msgid "&Previews"
-msgstr "Voorskoue"
+#: browser.cpp:52
+msgid "&Previews && Meta-Data"
+msgstr ""
 
-#: browser.cpp:113
+#: browser.cpp:56
 msgid "&Quick Copy && Move"
 msgstr "Vinnige Kopie && Beweeg"
 
-#: desktop.cpp:66
+#: desktop.cpp:69
 msgid "N&umber of desktops: "
 msgstr "Nommer van werkskerms: "
 
-#: desktop.cpp:71
+#: desktop.cpp:75
 msgid ""
 "Here you can set how many virtual desktops you want on your KDE desktop. "
 "Move the slider to change the value."
@@ -226,268 +166,47 @@ msgstr ""
 "Hier jy kan stel hoe veel virtuele werkskerms jy wil hê op jou Kde "
 "werkskerm. Beweeg die skuiwer na verander die waarde."
 
-#: desktop.cpp:81
+#: desktop.cpp:86
 msgid "Desktop &Names"
 msgstr "Werkskerm Name"
 
-#: desktop.cpp:87 desktop.cpp:89
+#: desktop.cpp:92 desktop.cpp:94
 msgid "Desktop %1:"
 msgstr "Werkskerm %1:"
 
-#: desktop.cpp:91 desktop.cpp:92 desktop.cpp:93 desktop.cpp:94
+#: desktop.cpp:96 desktop.cpp:97 desktop.cpp:98 desktop.cpp:99
 #, c-format
 msgid "Here you can enter the name for desktop %1"
 msgstr "Hier jy kan invoer die naam vir werkskerm %1"
 
-#: desktop.cpp:165 desktop.cpp:183
+#: desktop.cpp:112
+msgid "Mouse wheel over desktop switches desktop"
+msgstr ""
+
+#: desktop.cpp:220 desktop.cpp:241
 #, c-format
 msgid "Desktop %1"
 msgstr "Werkskerm %1"
 
-#: desktop.cpp:174
+#: desktop.cpp:232
+#, fuzzy
 msgid ""
-"<h1>Desktop Number & Names</h1>In this module, you can configure how many "
-"virtual desktops you want and how these should be labelled."
+"<h1>Multiple Desktops</h1>"
+"In this module, you can configure how many virtual desktops you want and how "
+"these should be labeled."
 msgstr ""
 "<h1>Werkskerm Nommer & Name</h1>In hierdie module, jy kan konfigureer hoe "
 "veel virtuele werkskerms jy wil hê en hoe hierdie moet wees geëtiketeer."
 
-#: fontopts.cpp:60
-msgid "&Standard font:"
-msgstr "Standaard skrif tipe:"
-
-#: fontopts.cpp:64
-msgid "This is the font used to display text in Konqueror windows."
-msgstr "Hierdie is die skrif tipe gebruik word na vertoon teks in Konqueror vensters."
-
-#: fontopts.cpp:75
-msgid "Font si&ze:"
-msgstr "Skrif tipe grootte:"
-
-#: fontopts.cpp:83
-msgid "This is the font size used to display text in Konqueror windows."
-msgstr ""
-"Hierdie is die skrif tipe grootte gebruik word na vertoon teks in Konqueror "
-"vensters."
-
-#: fontopts.cpp:91
-msgid "Normal te&xt color:"
-msgstr "Normale teks kleur:"
-
-#: fontopts.cpp:95
-msgid "This is the color used to display text in Konqueror windows."
-msgstr "Hierdie is die kleur gebruik word na vertoon teks in Konqueror vensters."
-
-#: fontopts.cpp:122
-msgid "&Text background color:"
-msgstr "Teks agtergrond kleur:"
-
-#: fontopts.cpp:130
-msgid "This is the color used behind the text for the icons on the desktop."
-msgstr ""
-"Hierdie is die kleur gebruik word agter die teks vir die ikoone op die "
-"werkskerm."
-
-#: fontopts.cpp:141
-msgid "&Word-wrap icon text"
-msgstr "Word-wrap ikoon teks"
-
-#: fontopts.cpp:145
-msgid ""
-"Checking this option will wrap long filenames to multiple lines, rather than "
-"showing only the part of the filename that fits on a single line."
-"<p> Hint: if you uncheck this option, you can still see the word-wrapped "
-"filename by pausing the mouse pointer over the icon."
-msgstr ""
-"Toetsing hierdie opsie sal oorvloei lang lêername na veelvuldige lyne, "
-"eerder as te wys slegs die deel van die lêernaam wat pas op 'n enkel "
-"lyn."
-"<p> Leidraad: as jy ontkies hierdie opsie, jy kan nogsteeds sien die "
-"word-wrapped lêernaam deur pouseer die muis wyser bo die ikoon."
-
-#: fontopts.cpp:154
-msgid "&Underline filenames"
-msgstr "Onderstreep lêername"
-
-#: fontopts.cpp:158
-msgid ""
-"Checking this option will result in filenames being underlined, so that they "
-"look like links on a web page. Note: to complete the analogy, make sure that "
-"single click activation is enabled in the mouse control module."
-msgstr ""
-"Toetsing hierdie opsie sal resultaat in lêername te wees geonderstreep, "
-"sodat wat hulle kyk hou van skakel op 'n web bladsy. Nota: na volledige die "
-"analogie, maak seker wat enkel kliek aktivering is geaktiveer in die muis "
-"kontrole module."
-
-#: fontopts.cpp:167
-msgid "Display file sizes in b&ytes"
-msgstr "Vertoon lêer grotes in grepe"
-
-#: fontopts.cpp:171
-msgid ""
-"Checking this option will result in file sizes being displayed in bytes. "
-"Otherwise file sizes are being displayed in kilobytes or megabytes if "
-"appropriate."
-msgstr ""
-"Toetsing hierdie opsie sal resultaat in lêer grotes te wees vertoon in "
-"grepe. Andersins lêer grotes word te wees vertoon in kilogrepe of megagrepe "
-"as geskikte."
-
-#: fontopts.cpp:361
-msgid ""
-"<h1>Konqueror Appearance</h1> You can configure how Konqueror looks as a "
-"file manager here."
-msgstr ""
-"<h1>Konqueror Voorkoms</h1>"
-" Jy kan konfigureer hoe Konqueror kyk as 'n lêer bestuurder hier."
-
-#: previews.cpp:49
-msgid "Allow previews and \"Folder Icons Reflect Contents\" on protocols:"
-msgstr "Toelaat voorskoue en \"Kabinet Ikoone Reflekteer Inhoud\" op protokolle:"
-
-#: previews.cpp:80
-msgid ""
-"This option makes it possible to choose when the file previews and smart "
-"folder icons in the File Manager should be activated.\n"
-"In the list of protocols that appear, select which ones are fast enough for "
-"you to allow previews to be generated."
-msgstr ""
-"Hierdie opsie maak dit moontlik na kies wanneer die lêer voorskoue en "
-"luukse kabinet ikoone In die lêer Bestuurder moet wees geaktiveer.\n"
-"In die lys van protokolle wat verskyn, kies wat ene word vinnige genoeg vir "
-"jy na toelaat voorskoue na wees gegenereer."
-
-#: previews.cpp:85
-msgid "Maximum file size:"
-msgstr "Maksimum lêer grootte:"
-
-#: previews.cpp:88
-msgid " MB"
-msgstr "  mb "
-
-#: previews.cpp:94
-msgid "Increase size of previews relative to icons"
-msgstr "Vermeerder grootte van voorskoue relatiewe na ikoone"
-
-#: previews.cpp:97
-msgid "Use thumbnails embedded in files"
-msgstr "Gebruik duimnaelskets ingebedde in lêers"
-
-#: previews.cpp:101
-msgid ""
-"Select this to use thumbnails that are found inside some file types (e.g. "
-"JPEG). This will increase speed and reduce disk usage. Deselect it if you "
-"have files that have been processed by programs which create inaccurate "
-"thumbnails, such as ImageMagick."
-msgstr ""
-"Kies hierdie na gebruik duimnaelskets wat word gevind binne in sommige lêer "
-"tipes (e.g. Jpeg). hierdie sal vermeerder spoed en verminder disket gebruik. "
-"Ontkies dit as jy het lêers wat het al geprosesseer deur programme wat skep "
-"onakuraat duimnaelskets, soos as Imagemagick."
-
-#: previews.cpp:164
-msgid ""
-"<h1>Preview Options</h1> Here you can modify the behavior of Konqueror when "
-"it shows the files in a directory."
-"<h2>The list of protocols:</h2> check the protocols over which previews "
-"should be shown, uncheck those over which they shouldn't. For instance, you "
-"might want to show previews over SMB if the local network is fast enough, "
-"but you might disable it for FTP if you often visit very slow FTP sites with "
-"large images."
-"<h2>Maximum File Size:</h2> select the maximum file size for which previews "
-"should be generated. For instance, if set to 1 MB (the default), no preview "
-"will be generated for files bigger than 1 MB, for speed reasons."
-msgstr ""
-
-#: rootopts.cpp:68
+#: desktopbehavior_impl.cpp:72
 msgid "Sound Files"
 msgstr "Klank Lêers"
 
-#: rootopts.cpp:136
-msgid "Enable desktop &menu"
-msgstr "Aktiveer werkskerm kieslys"
-
-#: rootopts.cpp:138
-msgid ""
-"Check this option if you want the desktop popup menus to appear at the top "
-"of the screen in the style of Macintosh. This setting is independent of the "
-"global top-level menu setting that applies to KDE applications."
-msgstr ""
-"Bevestig hierdie opsie as jy wil hê die werkskerm opspring kieslyste na "
-"verskyn na die bo van die skerm in die styl van Macintosh. hierdie opset is "
-"onafhanklike van die globale bo-level kieslys opset wat van toepassing is na "
-"Kde programme."
-
-#: rootopts.cpp:143
-msgid "E&nable icons on desktop"
-msgstr "Aktiveer ikoone op werkskerm"
-
-#: rootopts.cpp:145
-msgid ""
-"Uncheck this option if you do not want to have icons on the desktop. Without "
-"icons the desktop will be somewhat faster but you will no longer be able to "
-"drag files to the desktop."
-msgstr ""
-"Ontkies hierdie opsie as jy doen nie wil hê na het ikoone op die werkskerm. "
-"Sonder om te ikoone die werkskerm sal wees ietwat vinniger maar jy sal nee "
-"langer wees in staat na trek lêers na die werkskerm."
-
-#: rootopts.cpp:150
-msgid "&Show hidden files on desktop"
-msgstr "Vertoon weg gesteekte lêers op werkskerm"
-
-#: rootopts.cpp:152
-msgid ""
-"If you check this option, any files in your desktop directory that begin "
-"with a period (.) will be shown. Usually, such files contain configuration "
-"information, and remain hidden from view."
-"<p> For example, files which are named \".directory\" are plain text files "
-"which contain information for Konqueror, such as the icon to use in "
-"displaying a directory, the order in which files should be sorted, etc. You "
-"should not change or delete these files unless you know what you are doing!"
-msgstr ""
-"as jy bevestig hierdie opsie, enige lêers in jou werkskerm gids wat begin "
-"met 'n periode (.) sal wees vertoon. Gewoonlik, soos lêers bevat opstelling "
-"informasie, en bly weg gesteekte van besigtig."
-"<p> Vir voorbeeld, lêers wat word genaamd \".gids\" word eenvoudig teks "
-"lêers wat bevat informasie Vir Konqueror, soos as die ikoon na gebruik in "
-"vertooning 'n gids, die volgorde in wat lêers moet wees gesorteer, etc. jy "
-"moet nie verander of uitvee hierdie lêers tensy jy ken wat jy word doen!"
-
-#: rootopts.cpp:162
-msgid "Pro&grams in desktop window"
-msgstr "Programme in werkskerm venster"
-
-#: rootopts.cpp:164
-msgid ""
-"Check this option if you want to run X11 programs that draw into the desktop "
-"such as xsnow, xpenguin or xmountain. If you have problems with applications "
-"like netscape that check the root window for running instances, disable this "
-"option."
-msgstr ""
-"Bevestig hierdie opsie as jy wil hê na hardloop X11 programme wat teken "
-"binnein die werkskerm soos as xsneeu, xpikkewyn of xberg. as jy het probleme "
-"met programme hou van netscape wat Bevestig die root venster vir wat loop "
-"instansies, deaktiveer hierdie opsie."
-
-#: rootopts.cpp:171
-msgid "Show Previews For"
-msgstr "Vertoon Voorskoue Vir"
-
-#: rootopts.cpp:172
-msgid "Select for which types of files you want to enable preview images"
-msgstr "Kies vir wat tipes van lêers jy wil hê na aktiveer voorskou beelde"
-
-#: rootopts.cpp:178
-msgid "Clicks on Desktop"
-msgstr "Klieke op Werkskerm"
-
-#: rootopts.cpp:183
+#: desktopbehavior_impl.cpp:130
 msgid "&Left button:"
 msgstr "Links knoppie:"
 
-#: rootopts.cpp:184
+#: desktopbehavior_impl.cpp:131
 msgid ""
 "You can choose what happens when you click the left button of your pointing "
 "device on the desktop:"
@@ -495,11 +214,11 @@ msgstr ""
 "Jy kan kies wat gebeur wanneer Jy kliek die links knoppie van jou aanwys "
 "toestel op die werkskerm:"
 
-#: rootopts.cpp:187
+#: desktopbehavior_impl.cpp:134
 msgid "Right b&utton:"
 msgstr "Regterkant knoppie:"
 
-#: rootopts.cpp:188
+#: desktopbehavior_impl.cpp:135
 msgid ""
 "You can choose what happens when you click the right button of your pointing "
 "device on the desktop:"
@@ -507,11 +226,7 @@ msgstr ""
 "Jy kan kies wat gebeur wanneer Jy kliek die regterkant knoppie van jou "
 "aanwys toestel op die werkskerm:"
 
-#: rootopts.cpp:199 rootopts.cpp:224
-msgid "Edit..."
-msgstr "Redigeer..."
-
-#: rootopts.cpp:206 rootopts.cpp:257
+#: desktopbehavior_impl.cpp:151 desktopbehavior_impl.cpp:197
 msgid ""
 " "
 "<ul>"
@@ -544,11 +259,7 @@ msgstr ""
 "wees bruikbare vir vinnig toegang te kry tot programme as jy hou van na hou "
 "die paneel (asook bekend as \"Kicker\") weg gesteekte van besigtig.</li></ul>"
 
-#: rootopts.cpp:222
-msgid "Middle &button:"
-msgstr "Middelste knoppie:"
-
-#: rootopts.cpp:230
+#: desktopbehavior_impl.cpp:172
 msgid ""
 "You can choose what happens when you click the middle button of your "
 "pointing device on the desktop: "
@@ -583,53 +294,34 @@ msgstr ""
 "wees bruikbare vir vinnig toegang te kry tot programme as Jy hou van na hou "
 "die paneel (asook bekend as \"Kicker\") weg gesteekte van besigtig.</li></ul>"
 
-#: rootopts.cpp:250
-msgid "Edi&t..."
-msgstr "Redigeer..."
-
-#: rootopts.cpp:291
-msgid "Devices"
-msgstr "Toestelle"
-
-#: rootopts.cpp:294
-msgid "Displa&y devices on desktop"
-msgstr "Vertoon toestelle op werkskerm"
-
-#: rootopts.cpp:299
-msgid "Types to Display"
-msgstr "Tipes na Vertoon"
-
-#: rootopts.cpp:300
-msgid "Deselect the device types which you do not want to see on the desktop"
-msgstr "Ontkies die toestel tipes wat jy doen nie wil hê na sien op die werkskerm"
-
-#: rootopts.cpp:349
+#: desktopbehavior_impl.cpp:261
 msgid "No Action"
 msgstr "Nee Aksie"
 
-#: rootopts.cpp:350
+#: desktopbehavior_impl.cpp:262
 msgid "Window List Menu"
 msgstr "Venster Lys Kieslys"
 
-#: rootopts.cpp:351
+#: desktopbehavior_impl.cpp:263
 msgid "Desktop Menu"
 msgstr "Werkskerm Kieslys"
 
-#: rootopts.cpp:352
+#: desktopbehavior_impl.cpp:264
 msgid "Application Menu"
 msgstr "Aansoek Kieslys"
 
-#: rootopts.cpp:353
+#: desktopbehavior_impl.cpp:265
 msgid "Custom Menu 1"
 msgstr "Pasmaak Kieslys 1"
 
-#: rootopts.cpp:354
+#: desktopbehavior_impl.cpp:266
 msgid "Custom Menu 2"
 msgstr "Pasmaak Kieslys 2"
 
-#: rootopts.cpp:530
+#: desktopbehavior_impl.cpp:472
+#, fuzzy
 msgid ""
-"<h1>Desktop</h1>\n"
+"<h1>Behavior</h1>\n"
 "This module allows you to choose various options\n"
 "for your desktop, including the way in which icons are arranged and\n"
 "the pop-up menus associated with clicks of the middle and right mouse\n"
@@ -645,73 +337,413 @@ msgstr ""
 "Gebruik die \"Wat is Hierdie?\" (Verskuiwende+F1) na kry hulp op spesifieke "
 "opsies."
 
-#: rootopts.cpp:559
+#: fontopts.cpp:57
+msgid "&Standard font:"
+msgstr "Standaard skrif tipe:"
+
+#: fontopts.cpp:61
+msgid "This is the font used to display text in Konqueror windows."
+msgstr "Hierdie is die skrif tipe gebruik word na vertoon teks in Konqueror vensters."
+
+#: fontopts.cpp:76
+msgid "Font si&ze:"
+msgstr "Skrif tipe grootte:"
+
+#: fontopts.cpp:84
+msgid "This is the font size used to display text in Konqueror windows."
+msgstr ""
+"Hierdie is die skrif tipe grootte gebruik word na vertoon teks in Konqueror "
+"vensters."
+
+#: fontopts.cpp:92
+msgid "Normal te&xt color:"
+msgstr "Normale teks kleur:"
+
+#: fontopts.cpp:96
+msgid "This is the color used to display text in Konqueror windows."
+msgstr "Hierdie is die kleur gebruik word na vertoon teks in Konqueror vensters."
+
+#: fontopts.cpp:123
+msgid "&Text background color:"
+msgstr "Teks agtergrond kleur:"
+
+#: fontopts.cpp:131
+msgid "This is the color used behind the text for the icons on the desktop."
+msgstr ""
+"Hierdie is die kleur gebruik word agter die teks vir die ikoone op die "
+"werkskerm."
+
+#: fontopts.cpp:142
+msgid "&Word-wrap icon text"
+msgstr "Word-wrap ikoon teks"
+
+#: fontopts.cpp:146
+msgid ""
+"Checking this option will wrap long filenames to multiple lines, rather than "
+"showing only the part of the filename that fits on a single line."
+"<p> Hint: if you uncheck this option, you can still see the word-wrapped "
+"filename by pausing the mouse pointer over the icon."
+msgstr ""
+"Toetsing hierdie opsie sal oorvloei lang lêername na veelvuldige lyne, "
+"eerder as te wys slegs die deel van die lêernaam wat pas op 'n enkel "
+"lyn."
+"<p> Leidraad: as jy ontkies hierdie opsie, jy kan nogsteeds sien die "
+"word-wrapped lêernaam deur pouseer die muis wyser bo die ikoon."
+
+#: fontopts.cpp:155
+msgid "&Underline filenames"
+msgstr "Onderstreep lêername"
+
+#: fontopts.cpp:159
+msgid ""
+"Checking this option will result in filenames being underlined, so that they "
+"look like links on a web page. Note: to complete the analogy, make sure that "
+"single click activation is enabled in the mouse control module."
+msgstr ""
+"Toetsing hierdie opsie sal resultaat in lêername te wees geonderstreep, "
+"sodat wat hulle kyk hou van skakel op 'n web bladsy. Nota: na volledige die "
+"analogie, maak seker wat enkel kliek aktivering is geaktiveer in die muis "
+"kontrole module."
+
+#: fontopts.cpp:168
+msgid "Display file sizes in b&ytes"
+msgstr "Vertoon lêer grotes in grepe"
+
+#: fontopts.cpp:172
+msgid ""
+"Checking this option will result in file sizes being displayed in bytes. "
+"Otherwise file sizes are being displayed in kilobytes or megabytes if "
+"appropriate."
+msgstr ""
+"Toetsing hierdie opsie sal resultaat in lêer grotes te wees vertoon in "
+"grepe. Andersins lêer grotes word te wees vertoon in kilogrepe of megagrepe "
+"as geskikte."
+
+#: fontopts.cpp:362
+#, fuzzy
+msgid ""
+"<h1>Appearance</h1> You can configure how Konqueror looks as a file manager "
+"here."
+msgstr ""
+"<h1>Konqueror Voorkoms</h1>"
+" Jy kan konfigureer hoe Konqueror kyk as 'n lêer bestuurder hier."
+
+#: previews.cpp:65
+#, fuzzy
+msgid ""
+"<p>Allow previews, \"Folder Icons Reflect Contents\", and retrieval of "
+"meta-data on protocols:</p>"
+msgstr "Toelaat voorskoue en \"Kabinet Ikoone Reflekteer Inhoud\" op protokolle:"
+
+#: previews.cpp:70
+msgid "Select Protocols"
+msgstr ""
+
+#: previews.cpp:78
+msgid "Local Protocols"
+msgstr ""
+
+#: previews.cpp:80
+msgid "Internet Protocols"
+msgstr ""
+
+#: previews.cpp:108
+#, fuzzy
+msgid ""
+"This option makes it possible to choose when the file previews, smart folder "
+"icons, and meta-data in the File Manager should be activated.\n"
+"In the list of protocols that appear, select which ones are fast enough for "
+"you to allow previews to be generated."
+msgstr ""
+"Hierdie opsie maak dit moontlik na kies wanneer die lêer voorskoue en "
+"luukse kabinet ikoone In die lêer Bestuurder moet wees geaktiveer.\n"
+"In die lys van protokolle wat verskyn, kies wat ene word vinnige genoeg vir "
+"jy na toelaat voorskoue na wees gegenereer."
+
+#: previews.cpp:113
+#, fuzzy
+msgid "&Maximum file size:"
+msgstr "Maksimum lêer grootte:"
+
+#: previews.cpp:117
+msgid " MB"
+msgstr "  mb "
+
+#: previews.cpp:124
+#, fuzzy
+msgid "&Increase size of previews relative to icons"
+msgstr "Vermeerder grootte van voorskoue relatiewe na ikoone"
+
+#: previews.cpp:128
+#, fuzzy
+msgid "&Use thumbnails embedded in files"
+msgstr "Gebruik duimnaelskets ingebedde in lêers"
+
+#: previews.cpp:134
+msgid ""
+"Select this to use thumbnails that are found inside some file types (e.g. "
+"JPEG). This will increase speed and reduce disk usage. Deselect it if you "
+"have files that have been processed by programs which create inaccurate "
+"thumbnails, such as ImageMagick."
+msgstr ""
+"Kies hierdie na gebruik duimnaelskets wat word gevind binne in sommige lêer "
+"tipes (e.g. Jpeg). hierdie sal vermeerder spoed en verminder disket gebruik. "
+"Ontkies dit as jy het lêers wat het al geprosesseer deur programme wat skep "
+"onakuraat duimnaelskets, soos as Imagemagick."
+
+#: previews.cpp:200
+msgid ""
+"<h1>Preview Options</h1> Here you can modify the behavior of Konqueror when "
+"it shows the files in a folder."
+"<h2>The list of protocols:</h2> check the protocols over which previews "
+"should be shown, uncheck those over which they shouldn't. For instance, you "
+"might want to show previews over SMB if the local network is fast enough, "
+"but you might disable it for FTP if you often visit very slow FTP sites with "
+"large images."
+"<h2>Maximum File Size:</h2> select the maximum file size for which previews "
+"should be generated. For instance, if set to 1 MB (the default), no preview "
+"will be generated for files bigger than 1 MB, for speed reasons."
+msgstr ""
+
+#: rc.cpp:1
+msgid "General"
+msgstr ""
+
+#: rc.cpp:2
+#, fuzzy
+msgid "&Show icons on desktop"
+msgstr "Vertoon weg gesteekte lêers op werkskerm"
+
+#: rc.cpp:3
+msgid ""
+"Uncheck this option if you do not want to have icons on the desktop. Without "
+"icons the desktop will be somewhat faster but you will no longer be able to "
+"drag files to the desktop."
+msgstr ""
+"Ontkies hierdie opsie as jy doen nie wil hê na het ikoone op die werkskerm. "
+"Sonder om te ikoone die werkskerm sal wees ietwat vinniger maar jy sal nee "
+"langer wees in staat na trek lêers na die werkskerm."
+
+#: rc.cpp:4
+#, fuzzy
+msgid "Allow pro&grams in desktop window"
+msgstr "Programme in werkskerm venster"
+
+#: rc.cpp:5
+msgid ""
+"Check this option if you want to run X11 programs that draw into the desktop "
+"such as xsnow, xpenguin or xmountain. If you have problems with applications "
+"like netscape that check the root window for running instances, disable this "
+"option."
+msgstr ""
+"Bevestig hierdie opsie as jy wil hê na hardloop X11 programme wat teken "
+"binnein die werkskerm soos as xsneeu, xpikkewyn of xberg. as jy het probleme "
+"met programme hou van netscape wat Bevestig die root venster vir wat loop "
+"instansies, deaktiveer hierdie opsie."
+
+#: rc.cpp:6
+#, fuzzy
+msgid "Show &tooltips"
+msgstr "Vertoon lêer leidrade"
+
+#: rc.cpp:7
+msgid "Menu Bar at Top of Screen"
+msgstr ""
+
+#: rc.cpp:8
+msgid "&None"
+msgstr ""
+
+#: rc.cpp:9
+msgid "If this option is selected, there is no menu bar at the top of the screen."
+msgstr ""
+
+#: rc.cpp:10
+#, fuzzy
+msgid "&Desktop menu bar"
+msgstr "Werkskerm Kieslys"
+
+#: rc.cpp:11
+msgid ""
+"If this option is selected, there is one menu bar at the top of the screen "
+"which shows the desktop menus."
+msgstr ""
+
+#: rc.cpp:12
+msgid "&Current application's menu bar (Mac OS-style)"
+msgstr ""
+
+#: rc.cpp:13
+msgid ""
+"If this option is selected, applications won't have their menu bar attached "
+"to their own window anymore. Instead, there is one menu bar at the top of "
+"the screen which shows the menus of the currently active application. You "
+"might recognize this behavior from Mac OS."
+msgstr ""
+
+#: rc.cpp:14
+msgid "Mouse Button Actions"
+msgstr ""
+
+#: rc.cpp:15
+#, fuzzy
+msgid "Middle button:"
+msgstr "Middelste knoppie:"
+
+#: rc.cpp:16
+#, fuzzy
+msgid "Left button:"
+msgstr "Links knoppie:"
+
+#: rc.cpp:17
+#, fuzzy
+msgid "Right button:"
+msgstr "Regterkant knoppie:"
+
+#: rc.cpp:18 rc.cpp:19 rc.cpp:20
+msgid "Edit..."
+msgstr "Redigeer..."
+
+#: rc.cpp:21
+msgid "File Icons"
+msgstr ""
+
+#: rc.cpp:22
+msgid "Automatically &line up icons"
+msgstr ""
+
+#: rc.cpp:23
+msgid ""
+"Check this option if you want to see your icons automatically aligned to the "
+"grid when you move them."
+msgstr ""
+
+#: rc.cpp:24
+#, fuzzy
+msgid "Show &hidden files"
+msgstr "Vertoon weg gesteekte lêers op werkskerm"
+
+#: rc.cpp:25
+#, fuzzy
+msgid ""
+"<p>If you check this option, any files in your desktop directory that begin "
+"with a period (.) will be shown. Usually, such files contain configuration "
+"information, and remain hidden from view.</p>\n"
+"<p>For example, files which are named \".directory\" are plain text files "
+"which contain information for Konqueror, such as the icon to use in "
+"displaying a directory, the order in which files should be sorted, etc. You "
+"should not change or delete these files unless you know what you are "
+"doing!</p>"
+msgstr ""
+"as jy bevestig hierdie opsie, enige lêers in jou werkskerm gids wat begin "
+"met 'n periode (.) sal wees vertoon. Gewoonlik, soos lêers bevat opstelling "
+"informasie, en bly weg gesteekte van besigtig."
+"<p> Vir voorbeeld, lêers wat word genaamd \".gids\" word eenvoudig teks "
+"lêers wat bevat informasie Vir Konqueror, soos as die ikoon na gebruik in "
+"vertooning 'n gids, die volgorde in wat lêers moet wees gesorteer, etc. jy "
+"moet nie verander of uitvee hierdie lêers tensy jy ken wat jy word doen!"
+
+#: rc.cpp:26
+#, fuzzy
+msgid "Show Icon Previews For"
+msgstr "Vertoon Voorskoue Vir"
+
+#: rc.cpp:27
+#, fuzzy
+msgid "Select for which types of files you want to enable preview images."
+msgstr "Kies vir wat tipes van lêers jy wil hê na aktiveer voorskou beelde"
+
+#: rc.cpp:28
+#, fuzzy
+msgid "Device Icons"
+msgstr "Toestelle"
+
+#: rc.cpp:29
+#, fuzzy
+msgid "&Show device icons:"
+msgstr "Vertoon toestelle op werkskerm"
+
+#: rc.cpp:30
+#, fuzzy
+msgid "Device Types to Display"
+msgstr "Tipes na Vertoon"
+
+#: rc.cpp:31
+#, fuzzy
+msgid "Deselect the device types which you do not want to see on the desktop."
+msgstr "Ontkies die toestel tipes wat jy doen nie wil hê na sien op die werkskerm"
+
+#: rootopts.cpp:70
 msgid "Des&ktop path:"
 msgstr "Werkskerm gids soeklys:"
 
-#: rootopts.cpp:566
+#: rootopts.cpp:77
+#, fuzzy
 msgid ""
-"This directory contains all the files which you see on your desktop. You can "
-"change the location of this directory if you want to, and the contents will "
+"This folder contains all the files which you see on your desktop. You can "
+"change the location of this folder if you want to, and the contents will "
 "move automatically to the new location as well."
 msgstr ""
 "Hierdie gids bevat alle die lêers wat jy sien op jou werkskerm. jy kan "
 "verander die ligging van Hierdie gids as jy wil hê na, en die inhoud sal "
 "beweeg automaties na die nuwe ligging as goed."
 
-#: rootopts.cpp:572
+#: rootopts.cpp:85
 msgid "&Trash path:"
 msgstr "Gemors gids soeklys:"
 
-#: rootopts.cpp:579
+#: rootopts.cpp:92
+#, fuzzy
 msgid ""
-"This directory contains deleted files (until you empty the trashcan). You "
-"can change the location of this directory if you want to, and the contents "
-"will move automatically to the new location as well."
+"This folder contains deleted files (until you empty the trashcan). You can "
+"change the location of this folder if you want to, and the contents will "
+"move automatically to the new location as well."
 msgstr ""
 "Hierdie gids bevat uitgevee lêers (totdat jy leeg die asblik). jy kan "
 "verander die ligging van Hierdie gids as jy wil hê na, en die inhoud sal "
 "beweeg automaties na die nuwe ligging as goed."
 
-#: rootopts.cpp:587
+#: rootopts.cpp:100
 msgid "A&utostart path:"
 msgstr "Outomatiese begin gids soeklys:"
 
-#: rootopts.cpp:594
+#: rootopts.cpp:107
+#, fuzzy
 msgid ""
-"This directory contains applications or links to applications (shortcuts) "
-"that you want to have started automatically whenever KDE starts. You can "
-"change the location of this directory if you want to, and the contents will "
-"move automatically to the new location as well."
+"This folder contains applications or links to applications (shortcuts) that "
+"you want to have started automatically whenever KDE starts. You can change "
+"the location of this folder if you want to, and the contents will move "
+"automatically to the new location as well."
 msgstr ""
 "Hierdie gids bevat programme van skakel na programme (kortpaaie) wat jy wil "
 "hê na het beginne automaties wanneer ook al Kde beginne. jy kan verander "
 "die ligging van Hierdie gids as jy wil hê na, en die inhoud sal beweeg "
 "automaties na die nuwe ligging as goed."
 
-#: rootopts.cpp:603
+#: rootopts.cpp:116
 msgid "D&ocuments path:"
 msgstr "Dokumente gids soeklys:"
 
-#: rootopts.cpp:610
-msgid "This directory will be used by default to load or save documents from or to."
+#: rootopts.cpp:123
+#, fuzzy
+msgid "This folder will be used by default to load or save documents from or to."
 msgstr ""
 "Hierdie gids sal wees gebruik word deur verstek na las of stoor dokumente "
 "van of na."
 
-#: rootopts.cpp:635 rootopts.cpp:698 rootopts.cpp:737
+#: rootopts.cpp:148 rootopts.cpp:215 rootopts.cpp:254
 msgid "Trash"
 msgstr "Gemors"
 
-#: rootopts.cpp:722 rootopts.cpp:749
+#: rootopts.cpp:239 rootopts.cpp:266
 msgid "Autostart"
 msgstr "Outomatiese begin"
 
-#: rootopts.cpp:726
+#: rootopts.cpp:243
 msgid "Desktop"
 msgstr "Werkskerm"
 
-#: rootopts.cpp:796
+#: rootopts.cpp:310
 msgid ""
 "The path for '%1' has been changed.\n"
 "Do you want me to move the files from '%2' to '%3'?"
@@ -719,11 +751,11 @@ msgstr ""
 "Die gids soeklys vir '%1' het al het verander.\n"
 "Doen jy wil hê my na beweeg Die lêers van '%2' na '%3'?"
 
-#: rootopts.cpp:797
+#: rootopts.cpp:311
 msgid "Confirmation required"
 msgstr "Bevestiging benodig"
 
-#: rootopts.cpp:831
+#: rootopts.cpp:388
 msgid ""
 "<h1>Paths</h1>\n"
 "This module allows you to choose where in the filesystem the files on your "
@@ -735,3 +767,94 @@ msgstr ""
 "jou werkskerm moet wees gestoor.\n"
 "Gebruik die \"Wat is Hierdie?\" (Verskuiwende+F1) na kry hulp op spesifieke "
 "opsies."
+
+#, fuzzy
+#~ msgid "Sh&red"
+#~ msgstr "Versnipper"
+
+#~ msgid "Enable desktop &menu"
+#~ msgstr "Aktiveer werkskerm kieslys"
+
+#~ msgid ""
+#~ "Check this option if you want the desktop popup menus to appear at the "
+#~ "top of the screen in the style of Macintosh. This setting is independent "
+#~ "of the global top-level menu setting that applies to KDE applications."
+#~ msgstr ""
+#~ "Bevestig hierdie opsie as jy wil hê die werkskerm opspring kieslyste na "
+#~ "verskyn na die bo van die skerm in die styl van Macintosh. hierdie opset "
+#~ "is onafhanklike van die globale bo-level kieslys opset wat van toepassing "
+#~ "is na Kde programme."
+
+#~ msgid "E&nable icons on desktop"
+#~ msgstr "Aktiveer ikoone op werkskerm"
+
+#~ msgid "Clicks on Desktop"
+#~ msgstr "Klieke op Werkskerm"
+
+#~ msgid "Edi&t..."
+#~ msgstr "Redigeer..."
+
+#~ msgid "&Previews"
+#~ msgstr "Voorskoue"
+
+#~ msgid ""
+#~ "With this option activated, only one instance of Konqueror will exist in "
+#~ "the memory of your computer at any moment, no matter how many browsing "
+#~ "windows you open, thus reducing resource requirements.<p>Be aware that "
+#~ "this also means that, if something goes wrong, all your browsing windows "
+#~ "will be closed simultaneously."
+#~ msgstr ""
+#~ "Met hierdie opsie geaktiveer, slegs een voorbeeld van Konqueror sal "
+#~ "bestaan in die geheue van jou rekenaar na enige oomblik, nee geag hoe "
+#~ "veel blaaiïng vensters jy open, dus verminder hulpbron benodighede."
+#~ "<p>Wees bewus wat hierdie asook beteken wat, as iets gaan verkeerde, alle "
+#~ "jou blaaiïng vensters sal Wees gesluit gelyktydig."
+
+#~ msgid ""
+#~ "With this option activated, only one instance of Konqueror will exist in "
+#~ "the memory of your computer at any moment, no matter how many local "
+#~ "browsing windows you open, thus reducing resource requirements.<p>Be "
+#~ "aware that this also means that, if something goes wrong, all your local "
+#~ "browsing windows will be closed simultaneously"
+#~ msgstr ""
+#~ "Met hierdie opsie geaktiveer, slegs een voorbeeld van Konqueror sal "
+#~ "bestaan in die geheue van jou rekenaar na enige oomblik, nee geag hoe "
+#~ "veel plaaslike blaaiïng vensters jy open, dus verminder hulpbron "
+#~ "benodighede.<p>Wees bewus wat hierdie asook beteken wat, as iets gaan "
+#~ "verkeerde, alle jou plaaslike blaaiïng vensters sal Wees gesluit "
+#~ "gelyktydig"
+
+#~ msgid ""
+#~ "With this option activated, only one instance of Konqueror will exist in "
+#~ "the memory of your computer at any moment, no matter how many web "
+#~ "browsing windows you open, thus reducing resource requirements.<p>Be "
+#~ "aware that this also means that, if something goes wrong, all your web "
+#~ "browsing windows will be closed simultaneously"
+#~ msgstr ""
+#~ "Met hierdie opsie geaktiveer, slegs een voorbeeld van Konqueror sal "
+#~ "bestaan in die geheue van jou rekenaar na enige oomblik, nee geag hoe "
+#~ "veel web blaaiïng vensters jy open, dus verminder hulpbron benodighede."
+#~ "<p>Wees bewus wat hierdie asook beteken wat, as iets gaan verkeerde, alle "
+#~ "jou web blaaiïng vensters sal Wees gesluit gelyktydig"
+
+#~ msgid "Minimize Memory Usage"
+#~ msgstr "Minimeer Geheue Gebruik"
+
+#~ msgid "&Never"
+#~ msgstr "Moet nooit"
+
+#~ msgid ""
+#~ "Disables the minimization of memory usage and allows you to make each "
+#~ "browsing activity independent from the others"
+#~ msgstr ""
+#~ "Deaktiveer die minimisering van geheue gebruik en laat toe jy na maak "
+#~ "elke blaaiïng aktiwiteit onafhanklike van die andere"
+
+#~ msgid "For &local browsing only (recommended)"
+#~ msgstr "Vir plaaslike blaaiïng slegs (aanbeveel)"
+
+#~ msgid "For &Web browsing only"
+#~ msgstr "Vir Web blaaiïng slegs"
+
+#~ msgid "Alwa&ys (use with care)"
+#~ msgstr "Altyd (gebruik met versigtigheid)"
