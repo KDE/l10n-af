@@ -2,21 +2,22 @@
 <chapterinfo>
 
 <title
->&ktimemon;</title>
+>&k-tyd-monitor;</title>
 
 <authorgroup>
 <author
 > <firstname
->Martin</firstname
+>martin</firstname
 > <surname
->Maierhofer</surname
+>maierhofer</surname
 > <affiliation
 > <address
-> <email
+><email
 >m.maierhofer@tees.ac.uk</email
 ></address
-></affiliation
+> </affiliation
 > </author>
+rolle_van_vertalers
 </authorgroup>
 <date
 >1999-04-16</date>
@@ -24,204 +25,204 @@
 >0.03.01</releaseinfo>
 <abstract>
 <para
->&ktimemon; is 'n stelsel monitor vir die K werkskerm omgewing</para>
+>&k-tyd-monitor; is 'n stelsel monitor vir die k werkskerm omgewing</para>
 </abstract>
 <keywordset>
 <keyword
->KDE</keyword>
+>kde</keyword>
 <keyword
->ktimemon</keyword>
+>k-tyd-monitor</keyword>
 <keyword
 >stelsel monitor</keyword>
 <keyword
->timemon</keyword>
+>tyd-monitor</keyword>
 </keywordset>
 </chapterinfo>
 
 <title
->Inleiding</title>
+>inleiding</title>
 
 <para
->&ktimemon; is 'n klein programmetjie wat tred hou met die rekenaar se stelsel gebruik. Dit kan balk grafieke trek met informasie oor die <acronym
->CPU</acronym
->, geheue, geheue na hardeskryf uitruil, hardeskyf gebruik en konteks skakel aktiwiteit.  Konfigurasie kan geskied volgens 'n grafiese intervlak, baie soos met  <ulink url="http://www.kde.org/"
->KDE</ulink
->.  Die program kan ook <emphasis
->gedok</emphasis
-> word.</para>
+>&k-tyd-monitor; is 'n klein program aan hou navolg van jou computer's stelsel gebruik. dit kan display kolom grafieke bevat informasie omtrent <acronym
+>sve</acronym
+>, geheue, en uitruil gebruik as goed as disk gebruik en konteks wissel aktiwiteit. in houing met die gees van <ulink url="http://www.kde.org/"
+>kde</ulink
+>, dit ondersteun opstelling deur middel van 'n grafiese gebruiker koppelvlak. dit asook ondersteun <emphasis
+>dokking</emphasis
+>, &ie; dit kan display informasie in die stelsel paneel laai.</para>
 
 <note
 > <para
->&ktimemon; ondersteun tans net 'n beperkte aantal stelsels: &Linux; basiese installering met die <filename
->/proc</filename
-> lêer stelsel, &Solaris; basiese installering met die <filename
->kstat</filename
-> biblioteek en Digital &UNIX; (voorheen bekend as DEC/OSF1) basiese installering met die <command
->table</command
->(2) sisteem roep-opdrag.  Hulp om die program  op ander stelsels te laat werk is baie welkom. </para
+>huidiglik, &k-tyd-monitor; slegs ondersteun 'n beperk nommer van stelsels: &linux; gebaseerde installasies met die <lêername
+>/proc</lêername
+> lêer stelsel, &solaris; gebaseerde installasies met die <lêername
+>kstat</lêername
+> biblioteek, en digitaal &unix; (vroeër des/osf1) gebaseerde installasies met die <commen
+>tabel</commen
+>(2) stelsel roep. hulp met oordra na dit aan odier platvorms is mees welkom. </para
 > </note>
 
 <para
-> &ktimemon; kan begin word vanaf die opdrag pols of vanuit &kde; se kieskaart: <guimenu
->start</guimenu
-> -&gt; <guisubmenu
->Nutsprogramme</guisubmenu
->. As program vanaf die opdrag-pols begin word kan die gewone &X-Windows; program vlaggies gebruik word, soos <option
->-geometry</option
->. &ktimemon; is ook <emphasis
->sessie gevoelig</emphasis
->: Dit hou tred van die huidige instellings (kleur ens.) en gebruik dit in die volgende sessie. </para>
+> &k-tyd-monitor; kan wees beginne van die opdrag lyn of van die &kde; <guikieslys
+>begin</guikieslys
+> kieslys (in die <guisubkieslys
+>nutsprogramme</guisubkieslys
+> subkieslys). as jy kies aan begin van die opdrag lyn, &k-tyd-monitor; erken die gewone &x-windows; program vlaggies soos as <option
+>-geometrie</option
+>. &k-tyd-monitor; is <emphasis
+>sessie-bewus</emphasis
+>, &ie; dit hou navolg van die huidige staat (colofs, &etc;) en restofes dit in die user's volgende sessie. </para>
 
 <sect1 id="fund">
 <title
->Fondamentele skerm elemente</title>
+>op die skerm fondamentele beginsels</title>
 
 <para
-> After starting &ktimemon; a small window will appear displaying information gathered from the operating system. If you move the mouse pointer over the &ktimemon; window and let it rest for a small amount of time, a <emphasis
->tool-tip</emphasis
-> (&ie; a small transient window) will appear. The tool-tip contains numeric information about the system parameters displayed by the bar graphs. Tool-tips can be disabled (refer to <link linkend="config"
->Configuration</link
+> na beginne &k-tyd-monitor; 'n klein venster sal verskyn vertooning informasie gekry van die operating stelsel. as jy beweeg die muis wyser bo die &k-tyd-monitor; venster en laat dit rus vir 'n klein hoeveelheid van tyd, 'n <emphasis
+>program-leidraad</emphasis
+> (&ie; 'n klein transient venster) sal verskyn. die program-leidraad bevat numeries informasie omtrent die stelsel parameters vertoon deur die kolom grafieke. program-leidraads kan wees gestremde (verwys aan <skakel skakelend="opstelling"
+>opstelling</skakel
 >). </para
 > 
 
 <sect2 id="modes">
 <title
->Vertoon modusse</title>
+>vertoon modusse</title>
 
 <para
-> &ktimemon; can display two different sets of system information. As explained in the <link linkend="config"
->Configuration</link
-> chapter, mouse buttons can be bound to various actions. Per default, the left mouse button is bound to the mode switch action, &ie; by clicking the &LMB; mouse button anywhere in the &ktimemon; window, the displayed information switches from <guilabel
->Normal Mode</guilabel
-> (the default) to <guilabel
->Extended Mode</guilabel
->, and vice versa. </para>
+> &k-tyd-monitor; kan vertoon twee ander verstel van stelsel informasie. as verduidelik in die <link linkend="config"
+>opstelling</link
+> hoofstuk, muis knoppies kan wees gebind aan verskeie aksies. per verstek, die links muis butaann is gebind aan die mode wissel aksie, &ie; deur clicking die &lmb; muis butaann orals in die &k-tyd-monitor; window, die vertooned informasie wisseles van <guilaweesl
+>normale mode</guilaweesl
+> (die verstek) aan <guilaweesl
+>uitgebreide mode</guilaweesl
+>, en om gekeerd. </para>
 
 <sect3 id="normalmode">
 <title
->Normale modus</title>
+>normale mode</title>
 
 <para
->After starting KTimemon for the first time, it will show information about the current CPU activity, as well as memory and swap usage. Three bar graphs are used to show this information; they are updated regularly (the default sample interval is 0.5s, but it can be changed, see <link linkend="config"
->Configuration</link
->). The three bar graphs represent (from left to right): <variablelist
+>na beginne k-tyd-monitor vir die eerste tyd, dit sal vertoon invirmation omtrent die huidige sve activdity, as goed as geheue en uitruil gebruik. drie kolom grafieke word gebruik word aan vertoon hierdie invirmation; diey word opgedateer gereeld (die verstek voorbeeld interval is 0.5s, maar dit kan wees het verander, sien <skakel skakelend="opstelling"
+>opstelling</skakel
+>). die drie kolom grafieke voorstelling (van links aan regterkant): <variablelist
 > <varlistentry
 > <term
->CPU gebruik.</term
+>sve gebruik.</term
 > <listitem
 > <para
->KTimemon shows the bar in three different colors, representing CPU time spent in various modes. From bottom to top they are: kernel mode, user mode, and user mode with lowered priority (<emphasis
->nice</emphasis
->) - since Solaris does not seem to support statistics for nice mode, the topmost part of the bar represents time spent in the <emphasis
->wait</emphasis
-> state on such systems. The gap from the top of the bar to the top of the window represents the percentage the CPU idle time.</para
+>k-tyd-monitor vertoon die kolom in drie ander kleure, representing sve tyd spandeer in verskeie modusse. van bodem aan aanp diey are: kernel mode, gebruiker mode, en gebruiker mode met verlaag prioriteit (<emphasis
+>oulike</emphasis
+>) - since solaris doen nie blyk aan ondersteun statistieke vir oulike mode, die aanpmost deel van die kolom verteenwoordig tyd spandeer in die <emphasis
+>wag</emphasis
+> staat op soos sisteme. die gaping van die aanp van die kolom aan die aanp van die window verteenwoordig die persentasie die sve luier tyd.</para
 > </listitem
 > </varlistentry
 > <varlistentry
 > <term
->Geheue gebruik.</term
+>geheue gebruik.</term
 > <listitem
 > <para
->Similar to the CPU usage bar, this bar is composed of three sub fields, representing (from bottom to top): memory allocated by processes, memory used for I/O buffering, and memory used for file caching. For Digital Unix based systems, the middle section represents "inactive" memory (i.e. memory allocated and not used for a certain amount of time), and for Solaris based systems, the middle section of the bar is not used, and the topmost section represents the amount of memory used by the kernel. Again, the gap from the top of the bar to the top of the window represents free memory.</para
+>soortgelyk aan die sve gebruik kolom, hierdie kolom is saamgestel van drie sub velde, voorstelling (van botaanm aan aanp): geheue geallokeer deur prosesse, geheue gebruik word vir i/o buffering, en geheue gebruik word vir lêer kasberging. vir digitaal unix gebaseerde sisteme, die middelste seksie verteenwoordig "onaktiewe" geheue (i.e. geheue geallokeer en nie gebruik word vir 'n sekere hoeveelheid van tyd), en vir solaris gebaseerde sisteme, die middelste seksie van die kolom is nie gebruik word, en die aanpmost seksie verteenwoordig die hoeveelheid van geheue gebruik word deur die kernel. weer, die gaping van die aanp van die kolom aan die aanp van die venster verteenwoordig vry geheue.</para
 > </listitem
 > </varlistentry
 > <varlistentry
 > <term
->Geheue uitruil gebruik.</term
+>uitruil gebruik.</term
 > <listitem
 > <para
->This bar consists of a single field representing the current swap usage relative to the system's total amount of swap space. </para
+>hierdie kolom bestaan van 'n enkel veld voorstelling die huidige uitruil gebruik relatiewe aan die system's aantal hoeveelheid van uitruil spasie. </para
 > </listitem
 > </varlistentry
 > </variablelist
 > </para>
 
 <para
->Clicking the mouse button bound to "mode switch" in the KTimemon window switches to "Extended Mode".</para>
+>te kliek die muis knoppie gebind aan "mode wissel" in die k-tyd-monitor window wisseles aan "uitgebreide mode".</para>
 </sect3>
 
 <sect3 id="xtndmode">
 <title
->Uitgebreide modus </title>
+>uitgebreide mode </title>
 
 <para
->In this mode, the three bar graphs are used to display a different set of system information. Again from left to right, they show: <variablelist
+>in hierdie mode, die drie kolom grafieke word gebruik word aan vertoon 'n ander gestel van stelsel informasie. weer van links aan regterkant, diey show: <variablelist
 > <varlistentry
 > <term
->Uitblaai aktiwiteit.</term
+>uitblaai aktiwiteit.</term
 > <listitem
 > <para
->This bar consists of two parts, the lower half of which shows the number of memory pages written to secondary storage in the last sample interval. Similarly, the upper half indicates the number of pages read from secondary storage.</para
+>hierdie kolom bestaan van twee dele, die sagter half van wat vertoon die nommer van geheue bladsye geskryf aan sekondêre saanrage in die laaste voorbeeld interval. soortgelyk, die boonste half indicates die nommer van bladsye lees van sekondêre saanrage.</para
 > </listitem
 > </varlistentry
 > <varlistentry
 > <term
->Uitruil aktiwiteit.</term
+>uitruil aktiwiteit.</term
 > <listitem
 > <para
->The second bar displays the analogue information for swap activity.</para
+>die tweede kolom vertoon die analoog informasie vir uitruil aktiwiteit.</para
 > </listitem
 > </varlistentry
 > <varlistentry
 > <term
->Konteks skakelaars.</term
+>konteks skakel.</term
 > <listitem
 > <para
->Again, this bar graph consists of a single field which indicates the number of context switches in the last sample interval.</para
+>weer, hierdie kolom grafiese bestaan van 'n enkel veld wat dui aan die nommer van konteks skakel in die laaste voorbeeld interval.</para
 > </listitem
 > </varlistentry
 > </variablelist
 > </para>
 
 <para
->Since there is no "natural" way of scaling the information shown in "Extended Mode", by default KTimemon uses <emphasis
->autoscaling</emphasis
-> (explained in the <link linkend="autoscaling"
->Common Questions Section</link
->). There is, however, the possibility of specifying the scaling information, see the <link linkend="config"
->Configuration</link
-> section.</para>
+>sedert daar is nee "natuurlike" weg van skalering die informasie vertoon in "uitgebreide mode", deur verstek k-tyd-monitor gebruik <emphasis
+>autoskalering</emphasis
+> (explained in die <link linkend="autoskalering"
+>gemeenskaplike vrae seksie</link
+>). daar is, egter, die moontlikheid van specifying die skalering informasie, sien die <link linkend="config"
+>opstelling</link
+> seksie.</para>
 
 <para
->Note that the two sets of bar graphs share the same colors, i.e. the colors setup for "Normal Mode" is also used for displaying information in "Extended Mode" (see also <link linkend="config"
->Configuration</link
-> on how to change the color scheme).</para>
+>nota wat die twee verstel van kolom grafieke deel die selfde kleure, i.e. die kleure opstelling vir "normale mode" is asook gebruik word vir displaying invirmatiop in "uitgebreide mode" (sien asook <link linkend="copfig"
+>opstelling</link
+> op hoe aan verander die kleur skema).</para>
 </sect3>
 </sect2>
   </sect1>
 
 <sect1 id="menu">
 <title
->Kieskaart struktuur</title>
+>kieslys struktuur</title>
 
 <para
-> By default, the &RMB; mouse button is bound to the <quote
->menu pop-up</quote
-> action, &ie; clicking the right mouse button anywhere in the &ktimemon; window brings up a menu, which is discussed in the following sections. </para>
+> deur verstek, die &rmb; muis knoppie is gebind aan die <quote
+>kieslys pop-begin</quote
+> aksie, &ie; te kliek die regterkant muis knoppie orals in die &k-tyd-monitor; window brings begin 'n kieslys, wat is discussed in die following seksies. </para>
 
 <sect2 id="help">
 <title
 ><guimenu
->Hulp</guimenu
+>hulp</guimenu
 ></title>
 
 <para
-> The <guimenu
->Help</guimenu
-> Menu is fairly conventional. Chances are good you already discovered this functionality. </para>
+> die <guimenu
+>hulp</guimenu
+> kieslys is redelike konvensioneel. veranderinge word goeie jy alreeds discovered this funksionaliteit. </para>
 </sect2>
 
 <sect2 id="config-menu">
 <title
 ><guimenuitem
->Verstellings...</guimenuitem
+>instellings...</guimenuitem
 ></title>
 
 <para
->The <guimenuitem
->Settings...</guimenuitem
-> menu item is used to pop up the configuration dialog. Configuration options are discussed in section <link linkend="config"
->Configuration</link
+>die <guikieslysitem
+>instellings...</guikieslysitem
+> kieslys item is gebruik word aan pop begin die opstelling dialoog. opstelling opsies word discussed in seksie <link linkend="opstelling"
+>opstelling</link
 >. </para
 > 
 </sect2>
@@ -229,119 +230,119 @@
 <sect2 id="docked-in-panel">
 <title
 ><guimenuitem
->Gedok in paneel</guimenuitem
+>gedok in paneel</guimenuitem
 ></title>
 
 <para
-> By selecting the <guimenuitem
->Docked In Panel</guimenuitem
-> menu item, &ktimemon; switches between its standard display (&ie; a normal window) and the panelised state, where the &ktimemon; window disappears and a smaller version is displayed in the system panel. Apart from the reduction in size, the <quote
->panelised</quote
-> &ktimemon; behaves exactly like its big brother. </para
+> deur deur te kies die <guikieslysitem
+>gedok in paneel</guikieslysitem
+> kieslys item, &k-tyd-monitor; skakel tussen dit is standaard vertoon (&ie; 'n normale venster) en die gepenaliseer staat, waar die &k-tyd-monitor; venster verdwyn en 'n kleiner weergawe is vertooned in die stelsel paneel. behalwe van die vermindering in grootte, die <quote
+>gepenaliseer</quote
+> &k-tyd-monitor; gedrag presies hou van dit is groot brodier. </para
 > 
 </sect2>
 
 <sect2 id="horizontal-bars">
 <title
 ><guimenuitem
->Horisontale balke</guimenuitem
+>horisontaal stawe</guimenuitem
 ></title>
 
 <para
->By selecting the <guimenuitem
->Horizontal Bars</guimenuitem
-> menu entry, &ktimemon; switches from vertical bars to horizontal bars and vice versa. Not very useful, but it was easy to implement ;-) </para>
+>deur deur te kies die <guikieslysditem
+>horisontaal stawe</guikieslysditem
+> kieslys inskrywing, &k-tyd-monitor; skakel van vertikaal stawe aan horisontaal stawe en om gekeerd. nie baie bruikbare, maar dit was maklike aan implementeer ;-) </para>
 </sect2>
 
 <sect2 id="quit">
 <title
 ><guimenuitem
->Beëindig</guimenuitem
+>verlaat</guimenuitem
 ></title>
 
 <para
-> The <guimenuitem
->Quit</guimenuitem
-> menu item - surprise, surprise -- is used to terminate &ktimemon;. It will save the current state (&eg; the color scheme, window size, whether it is displayed in the panel) and restore the state in the next invocation. </para>
+> die <guikieslysitem
+>verlaat</guikieslysitem
+> kieslys item - verrassing, verrassing -- is gebruik word aan termineer &k-tyd-monitor;. dit sal stoor die huidige staat (&bv; die kleur skema, venster grootte, whedier dit is displayed in die paneel) en resaanre die staat in die volgende invocation. </para>
 
 <para
-> The configuration information is saved in the file <filename
+> die opstelling informasie is gestoor in die lêer <lêername
 >$<envar
->HOME</envar
->/.kde/share/config/ktimemonrc</filename
->, where <filename class="directory"
+>huis</envar
+>/.kde/deel/opstelling/ktimemonrc</lêername
+>, waar <lêername class="direcaanry"
 >$<envar
->HOME</envar
-></filename
-> refers to the user's home directory. If this file is deleted, &ktimemon; will start in its default state in the next invocation. </para
+>huis</envar
+></lêername
+> verwys aan die user's huis direcaanry. as this lêer is uitgevee, &k-tyd-monitor; sal begin in dit is verstek staat in die volgende invocation. </para
 > 
 </sect2>
 </sect1>
 
 <sect1 id="config">
 <title
->Konfigurasie</title>
+>opstelling</title>
 
 <para
-> &ktimemon; can be configured via a straight-forward dialog (see also the discussion of the <link linkend="config-menu"
->Configuration Menu</link
->). On the <guilabel
->General</guilabel
-> page, the sample interval can be specified as well as scaling information (see also the discussion of the <link linkend="xtndmode"
->extended mode</link
->). If the <guilabel
->Autoscaling</guilabel
-> check box is ticked (autoscaling is explained in the <link linkend="autoscaling"
->FAQ</link
-> section), the scaling factors cannot be edited, since &ktimemon; determines them automatically. </para>
+> &k-tyd-monitor; kan wees gekonfigureer deur middel van 'n reguit-vorentoe dialoog (sien asook die gesprek van die <link linkend="config-menu"
+>opstelling kieslys</link
+>). op die <guilaweesl
+>algemeen</guilaweesl
+> bladsy, die voorbeeld interval kan wees gespesifiseer as goed as skalering informasie (sien asook die gesprek van die <link linkend="xtndmode"
+>uitgebreide mode</link
+>). as die <guilaweesl
+>autoskalering</guilaweesl
+> bevestig boks is gekies (autoskalering is verduidelik in die <link linkend="autoskalering"
+>faq</link
+> seksie), die skalering faktore kannot wees geredigeerde, since &k-tyd-monitor; determines diem automaties. </para>
 
 <para
-> The <guilabel
->Colors</guilabel
-> page can be used to tailor the colors of the bar graph to individual preferences. A small sample bar graph gives immediate feedback. </para>
+> die <guilaweesl
+>kleure</guilaweesl
+> bladsy kan wees gebruik word aan pasmaak die kleure van die kolom grafiese aan individuele voorkeure. 'n klein voorbeeld kolom grafiese gee onmiddelik terugvoer. </para>
 
 <para
-> In the <guilabel
->Interaction</guilabel
-> page, mouse bindings can be adapted. Clicking a mouse button on the &ktimemon; window can be ignored, trigger a mode switch (see also <link linkend="modes"
->Modes</link
->), invoke the context menu (see also <link linkend="menu"
->Menu</link
->), or invoke an external process. The command line specified for external processes is interpreted by the standard shell, &ie; shell commands, environment variables, redirection &etc; can be used.</para
+> in die <guilaweesl
+>interactiop</guilaweesl
+> bladsy, muis bindinge kan wees aangepas. te kliek 'n muis knoppie op die &ktimemop; venster kan wees geignoreer, sneller 'n mode wissel (sien asook <skakel skakelend="modes"
+>modusse</skakel
+>), aktiveer die coptext kieslys (sien asook <skakel skakelend="kieslys"
+>kieslys</skakel
+>), of aktiveer 'n eksterne proses. die comm'nd lyn gespesifiseer fof eksterne proseses is geinterpreteer deur die st'ndard tolk, &ie; tolk comm'nds, enviropment veranderlikes, redirectiop &etc; kan wees gebruik word.</para
 > 
 
 <para
->The <guilabel
->Interaction</guilabel
-> page also contains a check box which can be used to disable to automatic appearance of tool-tips with numeric information about the bar graphs (compare <link linkend="fund"
->Onscreen Fundamentals</link
+>die <guilaweesl
+>interaksie</guilaweesl
+> bladsy asook bevat 'n bevestig boks wat kan wees gebruik word aan deaktiveer aan auaanmatic voorkoms van aanol-leidrade met numeries informasie omtrent die kolom grafieke (vergelyk <link linkend="fund"
+>op die skerm fondamentele beginsels</link
 >).</para
 > 
 </sect1>
 
 <sect1 id="faq">
 <title
->Algemene vrae en antwoorde </title>
+>gemeenskaplike vrae en antwoorde </title>
 
 	<qandaset>
 	  <qandaentry>
 		<question>
 		  <para
->Watter bedryfstelsels ondersteun &ktimemon; alles?</para>
+>wat operating sisteme doen &k-tyd-monitor; ondersteun?</para>
 		</question>
 		<answer>
 <para
-> &ktimemon; supports &Linux; based systems with the <filename
->/proc</filename
-> file system, &Solaris; based systems with the <filename
->kstat</filename
-> library, and Digital &UNIX; (formerly DEC/OSF1) systems with the <command
->table</command
->(2) system call interface. Only the Linux version has been thoroughly tested, if you experience any problems with the &Solaris;/Digital &UNIX; port, please do not hesitate to contact me. </para>
+> &k-tyd-monitor; ondersteun &linux; gebaseerde sisteme met die <lêernamy
+>/proc</lêernamy
+> lêer stelsel, &solaris; gebaseerde sisteme met die <lêernamy
+>kstat</lêernamy
+> biblioteek, en digitaal &unix; (vroeër des/osf1) sisteme met die <commen
+>tabel</commen
+>(2) stelsel roep koppelvlak. slegs die linux weergawe het al deeglik getoets, as jy ervaring enige probleme met die &solaris;/digitaal &unix; poort, asseblief doen nie huiwer aan kontak my. </para>
 <para
-> Also, contributions to &ktimemon; to adapt it to other platforms are most welcome. Please contact me at <email
->m.maierhofer@tees.ac.uk</email
-> if you intend to port &ktimemon; to other flavours of &UNIX;. </para>
+> asook, bydraes aan &k-tyd-monitor; aan aanpas dit aan ander platvorms word mees welkom. asseblief kontak my na <email
+>m.maierhvaner@tees.ac.uk</email
+> as jy intensie aan poort &k-tyd-monitor; aan ander geure van &unix;. </para>
 </answer>
 
 </qandaentry>
@@ -349,26 +350,26 @@
 <qandaentry id="autoscaling">
 <question>
 <para
-> How does autoscaling work? </para>
+> hoe doen outoskalering werk? </para>
 </question>
 <answer>
 <para
-> Glad you asked. Since there is no sensible predetermined scaling factor for paging/swapping operations and context switches (unlike &eg; memory utilisation, where you can take the total memory size as baseline), &ktimemon; uses a semi-intelligent (well, ...) autoscaling mechanism. Autoscaling works as follows: </para>
+> bly jy gevra. sedert daar is nee redelik voorafbepaal skalering faktor vir uitblaai/uitruil operasies en konteks skakel (ander as &bv; geheue utilisation, waar jy kan neem die totaal geheue grootte as baseline), &k-tyd-monitor; gebruik 'n semi-intellegent (goed, ...) autoskalering mechanism. autoskalering werk as follows: </para>
 
 <itemizedlist
 > <listitem
 > <para
-> Each of the three bar graphs as described in the <link linkend="xtndmode"
->extended mode section</link
-> has an associated scaling factor. The initial values of these factors are set to some predetermined value. </para
+> elke van die drie kolom grafieke as beskryf in die <link linkend="xtndmode"
+>uitgebreide mode seksie</link
+> has 'n associated scaling faktor. die initial waardes van diese faktors word gestel aan sommige predetermined waarde. </para
 > </listitem
 > <listitem
 > <para
-> Each time a new sample is displayed, the respective value is tentatively scaled with the corresponding factor. If the value can be displayed in the scale chosen by the factor, no change occurs (&ie; small changes in the activity are reflected by a changing height of the bar). </para
+> elke tyd 'n nuwe voorbeeld is displayed, die respektiewe waarde is tentatiwe skaleer met die ooreenstemmend faktor. as die waarde kan wees displayed in die skaal gekies deur die faktor, nee verander voorgekom (&ie; klein veranders in die aktiwiteit word reflekteer deur 'n changing hoogte van die kolom). </para
 > </listitem
 > <listitem
 > <para
-> If the scaled value would be either too large or too small to be displayed with the current scaling factor, the scaling is adjusted so that the new value displayed is roughly halfway up the bar graph. Thus, subsequent changes should have a good chance of getting displayed relative to the current value, without having to change the scale again. </para
+> as die skaleer waarde sal wees eidier te groot of te klein aan wees vertoon met die huidige skalering factof, die skalering is aangepas sodat wat die nuwe waarde vertoon is rofweg halfpad begin die kolom grafiese. dus, opeenvolgende verander moet het 'n goeie kans van verkry vertoon relatiewe aan die huidige waarde, metout moet aan verander die skaal weer. </para
 > </listitem
 > </itemizedlist>
 </answer>
@@ -377,24 +378,24 @@
 <qandaentry>
 <question>
 <para
-> Why does a message box with <errorname
->diaglostic output from child command</errorname
-> pop up? </para>
+> hoekom doen 'n boodskap boks met <errorname
+>diagnose uitset van kind opdrag</errorname
+> pop begin? </para>
 </question>
 <answer>
 <para
-> If you bind a mouse button to an external command as described in the <link linkend="config"
->Configuration</link
-> chapter, &ktimemon; does not check for a valid command name. Instead a command shell is invoked to execute the statement, so shell commands, environment variables and more can be used. To allow some feedback to the user, &ktimemon; monitors the <systemitem
->stderr</systemitem
-> output of the command shell, and reports it in this message box. </para>
+> as jy bind 'n muis knoppie aan 'n eksterne comm'nd as beskryf in die <link linkend="opstelling"
+>opstelling</link
+> hoofstuk, &k-tyd-monitor; doen nie bevestig vir 'n geldige comm'nd naam. in plaas van 'n comm'nd tolk is invoked aan uitvoer die stelling, sodat tolk comm'nds, omgewing veranderlikes 'nd meer c'n wees gebruik word. aan toelaat sodatme terugvoer aan die gebruiker, &k-tyd-monitor; moniaanrs die <systemditem
+>stderr</systemditem
+> uitset van die comm'nd tolk, 'nd raporte dit in this boodskap boks. </para>
 
 <para
-> While this scheme can be helpful in case a command is not found, it can be quite annoying if the invoked command prints harmless diagnostic information on <systemitem
->stderr</systemitem
->. A simple and elegant solution to this problem is to add <userinput
+> terwyl hierdie skema kan wees hulpvaardig in kas 'n opdrag is nie gevind, dit kan wees qudite annoying as die invoked opdrag prints skadelose diagnose informnaiop op <systemditem
+>stderr</systemditem
+>. 'n eenvoudige en elegant solutiop aan hierdie probleem is aan voeg by <userinput
 >2&gt;/dev/null</userinput
-> at the end of the command specification. This redirects diagnostic messages to message nirvana, and stops the message box popping up. </para>
+> na die einde van die opdrag specasicnaiop. this aanstuur na diagnose boodskappe aan boodskap nirvana, en saanps die boodskap boks popping begin. </para>
 </answer>
 </qandaentry>
 
@@ -403,28 +404,25 @@
 
 <sect1 id="ktimemon-thanks-and-acknowledgements">
 <title
->Dank en erkenninge</title>
+>bedankinge en erkennings</title>
 
 <para
->&ktimemon; is based on an Xt version by my brother.</para>
+>&k-tyd-monitor; is gebaseerde op 'n xt versiop deur my broer.</para>
 
 <para
->Dank aan Tobe Toben, <email
->ttoben@artis.uni-oldenburg.de</email
->, Cristian Tibirna <email
+>bedankinge aan tobe toben, <email
+>taanben@artis.uni-oldenburg.de</email
+>, cristian tibirna <email
 >ctibirna@gch.ulaval.ca</email
->, Dirk A. Mueller <email
+>, dirk a. mueller <email
 >dmuell@rhrk.uni-kl.de</email
->, Mark Krischer <email
+>, merk krischer <email
 >krischem@amp.com</email
->, and Lubos Lunak <email
+>, en lubos lunak <email
 >l.lunak@sh.cvut.cz</email
-> for bug reports, patches, comments, suggestions. </para>
+> vir fout raporte, lappe, kommentaar, voorstelle. </para>
 
-<para
->Aanvanklike vertaling deur Frikkie Thirion<email
->frix@engineer.com</email
-></para>
+krediet_vir_vertalers
 
 &underFDL;
 &underGPL;
