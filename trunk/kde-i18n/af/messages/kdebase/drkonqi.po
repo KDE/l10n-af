@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi VERSION\n"
-"POT-Creation-Date: 2003-12-09 01:30+0100\n"
+"POT-Creation-Date: 2004-07-14 01:18+0200\n"
 "PO-Revision-Date: 2002-11-07 11:27+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,136 +25,160 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: backtrace.cpp:85
+#: backtrace.cpp:83
 msgid "Could not generate a backtrace as the debugger '%1' was not found."
 msgstr ""
 
-#: debugger.cpp:67
+#: debugger.cpp:65
 msgid "C&opy"
 msgstr "Kopie"
 
-#: debugger.cpp:84
+#: debugger.cpp:82
 msgid "Done."
 msgstr "Klaar."
 
-#: debugger.cpp:103
+#: debugger.cpp:102
 #, c-format
 msgid "Backtrace saved to %1"
 msgstr ""
 
-#: debugger.cpp:107
-msgid "Can't create a file to save backtrace to"
+#: debugger.cpp:106
+msgid "Cannot create a file in which to save the backtrace"
 msgstr ""
 
-#: debugger.cpp:112
+#: debugger.cpp:111
+#, fuzzy
 msgid "Select Filename"
 msgstr "Kies Lêernaam"
 
-#: debugger.cpp:124
-msgid "Can't open file %1 for writing"
+#: debugger.cpp:119
+msgid "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
 
-#: debugger.cpp:132
-msgid "Unable to create backtrace."
+#: debugger.cpp:121
+msgid "Overwrite File?"
+msgstr ""
+
+#: debugger.cpp:122
+msgid "&Overwrite"
+msgstr ""
+
+#: debugger.cpp:134
+msgid "Cannot open file %1 for writing"
+msgstr ""
+
+#: debugger.cpp:142
+#, fuzzy
+msgid "Unable to create a valid backtrace."
 msgstr "Nie moontlik na skep terugsoektog."
 
-#: debugger.cpp:137
+#: debugger.cpp:143
+msgid ""
+"This backtrace appears to be of no use.\n"
+"This is probably because your packages are built in a way which prevents "
+"creation of proper backtraces, or the stack frame was seriously corrupted in "
+"the crash.\n"
+"\n"
+msgstr ""
+
+#: debugger.cpp:152
 msgid "Loading backtrace..."
 msgstr "Laaiïng van terugsoektog..."
 
-#: debugger.cpp:155
+#: debugger.cpp:170
 msgid "Loading symbols..."
 msgstr "Laaiïng van simbole..."
 
-#: drbugreport.cpp:55
+#: drbugreport.cpp:54
 msgid "You have to edit the description before the report can be sent."
 msgstr "Jy het na redigeer die beskrywing voor die raporteer kan wees gestuur."
 
-#: krashconf.cpp:76
+#: krashconf.cpp:74
 msgid "unknown"
 msgstr "onbekende"
 
-#: main.cpp:44
-msgid "KDE Crash Handler gives the user feedback if a program crashed."
+#: main.cpp:42
+#, fuzzy
+msgid "KDE crash handler gives the user feedback if a program crashed"
 msgstr "Kde Omval Handteerder gee die gebruiker terugvoer as 'n program het gestaak."
 
-#: main.cpp:48
+#: main.cpp:46
 msgid "The signal number that was caught"
 msgstr "Die sein nommer wat was gevang het"
 
-#: main.cpp:49
+#: main.cpp:47
 msgid "Name of the program"
 msgstr "Naam van die program"
 
-#: main.cpp:50
+#: main.cpp:48
 msgid "Path to the executable"
 msgstr "Gids soeklys na die uitvoerbare"
 
-#: main.cpp:51
+#: main.cpp:49
 msgid "The version of the program"
 msgstr "Die weergawe van Die program"
 
-#: main.cpp:52
+#: main.cpp:50
 msgid "The bug address to use"
 msgstr "Die fout adres na gebruik"
 
-#: main.cpp:53
+#: main.cpp:51
 msgid "Translated name of the program"
 msgstr "Vertaalde naam van die program"
 
-#: main.cpp:54
+#: main.cpp:52
 msgid "The PID of the program"
 msgstr "Die Pid van Die program"
 
-#: main.cpp:55
+#: main.cpp:53
 msgid "Startup ID of the program"
 msgstr "Opstart Id van die program"
 
-#: main.cpp:56
+#: main.cpp:54
 msgid "The program was started by kdeinit"
 msgstr "Die program was beginne deur kdeinit"
 
-#: main.cpp:57
+#: main.cpp:55
 msgid "Disable arbitrary disk access"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:69
 msgid "The KDE Crash Handler"
 msgstr "Die Kde Omval Handteerder"
 
-#: toplevel.cpp:61
+#: toplevel.cpp:59
 msgid "&Bug report"
 msgstr "Fout raporteer"
 
-#: toplevel.cpp:62
+#: toplevel.cpp:60
 msgid "&Debugger"
 msgstr "Ontfouter"
 
-#: toplevel.cpp:66
+#: toplevel.cpp:64
 msgid "&General"
 msgstr "Algemeen"
 
-#: toplevel.cpp:81
+#: toplevel.cpp:79
 msgid "&Backtrace"
 msgstr "Terugsoektog"
 
-#: toplevel.cpp:105
+#: toplevel.cpp:103
 msgid "<p><b>Short description</b></p><p>%1</p>"
 msgstr "<p><b>Kort beskrywing</b></p><p>%1</p>"
 
-#: toplevel.cpp:109
+#: toplevel.cpp:107
 msgid "<p><b>What is this?</b></p><p>%1</p>"
 msgstr "<p><b>Wat is hierdie?</b></p><p>%1</p>"
 
-#: toplevel.cpp:113
+#: toplevel.cpp:111
 msgid "<p><b>What can I do?</b></p><p>%1</p>"
 msgstr "<p><b>Wat kan I doen?</b></p><p>%1</p>"
 
-#: toplevel.cpp:118
+#: toplevel.cpp:116
 msgid "<p><b>Application crashed</b></p><p>The program %appname crashed.</p>"
 msgstr "<p><b>Aansoek het gestaak</b></p><p>Die program %appname het gestaak.</p>"
 
-#: toplevel.cpp:137
+#: toplevel.cpp:135
 msgid ""
 "<p>Do you want to generate a backtrace? This will help the developers to "
 "figure out what went wrong.</p>\n"
@@ -171,15 +195,15 @@ msgstr ""
 "beskrywing van die fout en informasie op hoe na herproduseer dit. dit is nie "
 "moontlik na regmaak die fout sonder om te 'n gepaste beskrywing.</b></p>"
 
-#: toplevel.cpp:149
+#: toplevel.cpp:147
 msgid "Include Backtrace"
 msgstr "Sluit in Terugsoektog"
 
-#: toplevel.cpp:217
+#: toplevel.cpp:215
 msgid "It was not possible to generate a backtrace."
 msgstr "Dit was nie moontlik na genereer 'n terugsoektog."
 
-#: toplevel.cpp:218
+#: toplevel.cpp:216
 #, fuzzy
 msgid "Backtrace Not Possible"
 msgstr "Terugsoektog nie Moontlik"

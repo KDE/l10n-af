@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_smtp VERSION\n"
-"POT-Creation-Date: 2003-07-31 01:32+0200\n"
+"POT-Creation-Date: 2004-07-14 01:19+0200\n"
 "PO-Revision-Date: 2002-11-07 11:29+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -53,21 +53,24 @@ msgstr "Nee aanpasbaar geldigheidsverklaring metodes gevind."
 
 #: command.cc:202
 msgid ""
-"You have requested to authenticate to the server, but the server doesn't "
+"You have requested to authenticate to the server, but the server does not "
 "seem to support authentication.\n"
 "Try disabling authentication entirely."
 msgstr ""
 
 #: command.cc:208
+#, fuzzy
 msgid ""
-"Your SMTP server doesn't support %1.\n"
+"Your SMTP server does not support %1.\n"
 "Choose a different authentication method."
 msgstr ""
+"Jou Smtp bediener doen nie ondersteun Tls. Deaktiveer Tls, as jy wil hê na "
+"konnekteer sonder om te enkripsie."
 
 #: command.cc:262
 #, fuzzy
 msgid ""
-"Your SMTP server doesn't support %1.\n"
+"Your SMTP server does not support %1.\n"
 "Choose a different authentication method.\n"
 "%2"
 msgstr ""
@@ -77,7 +80,7 @@ msgstr ""
 #: command.cc:267
 #, fuzzy, c-format
 msgid ""
-"Your SMTP server doesn't support authentication.\n"
+"Your SMTP server does not support authentication.\n"
 "%2"
 msgstr ""
 "Jou Smtp bediener doen nie ondersteun Tls. Deaktiveer Tls, as jy wil hê na "
@@ -122,41 +125,42 @@ msgstr "Die bediener reageer: \"%1\""
 msgid "This is a temporary failure. You may try again later."
 msgstr ""
 
-#: smtp.cc:151
+#: smtp.cc:158
 msgid "The application sent an invalid request."
 msgstr ""
 
-#: smtp.cc:213
+#: smtp.cc:220
 msgid "The sender address is missing."
 msgstr "Die stuurder adres is kort."
 
-#: smtp.cc:221
+#: smtp.cc:228
 msgid "SMTPProtocol::smtp_open failed (%1)"
 msgstr "smtp protokol::smtp_open gevaal (%1)"
 
-#: smtp.cc:229
+#: smtp.cc:236
 msgid ""
 "Your server does not support sending of 8-bit messages.\n"
 "Please use base64 or quoted-printable encoding."
 msgstr ""
 
-#: smtp.cc:308
+#: smtp.cc:315
 #, fuzzy
 msgid "Invalid SMTP response (%1) received."
 msgstr "Ongeldige Smtp antwoord ontvang."
 
-#: smtp.cc:490
+#: smtp.cc:497
 #, fuzzy, c-format
 msgid ""
 "The server did not accept the connection.\n"
 "%1"
 msgstr "Die bediener het nie aanvaar Die verbinding: \"%1\""
 
-#: smtp.cc:540
+#: smtp.cc:554
+#, fuzzy
 msgid "Username and password for your SMTP account:"
 msgstr "Gebruikernaam en wagwoord vir jou Smtp rekening:"
 
-#: smtp.cc:542
+#: smtp.cc:556
 msgid "When prompted, you ran away."
 msgstr "Wanneer gepor, jy hardloop weg."
 
