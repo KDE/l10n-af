@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cervisia VERSION\n"
-"POT-Creation-Date: 2002-11-20 02:54+0100\n"
+"POT-Creation-Date: 2003-11-11 01:59+0100\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,388 +25,513 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: annotatedlg.cpp:110
+#: addremovedlg.cpp:31
+msgid "CVS Add"
+msgstr "Cvs Voeg by"
+
+#: addremovedlg.cpp:32
+msgid "CVS Add Binary"
+msgstr "Cvs Voeg by Binêre"
+
+#: addremovedlg.cpp:33
+msgid "CVS Remove"
+msgstr "Cvs Verwyder"
+
+#: addremovedlg.cpp:40
+msgid "Add the following files to the repository:"
+msgstr "Voeg by die volgende lêers na die stoorplek:"
+
+#: addremovedlg.cpp:41
+msgid "Add the following binary files to the repository:"
+msgstr "Voeg by die volgende binêre lêers na die stoorplek:"
+
+#: addremovedlg.cpp:42
+msgid "Remove the following files from the repository:"
+msgstr "Verwyder die volgende lêers van die stoorplek:"
+
+#: addremovedlg.cpp:62
+msgid "This will also remove the files from your local working copy!"
+msgstr ""
+
+#: addrepositorydlg.cpp:34
+msgid "Add Repository"
+msgstr "Voeg by Stoorplek"
+
+#: addrepositorydlg.cpp:42 checkoutdlg.cpp:67
+msgid "&Repository:"
+msgstr "Stoorplek:"
+
+#: addrepositorydlg.cpp:55
+msgid "Use remote &shell (only for :ext: repositories):"
+msgstr ""
+
+#: addrepositorydlg.cpp:62
+msgid "Invoke this program on the server side:"
+msgstr ""
+
+#: addrepositorydlg.cpp:70
+msgid "&Compression Level"
+msgstr "Saampersing Vlak"
+
+msgid "0"
+msgstr "0"
+
+#: addrepositorydlg.cpp:75
+msgid "1"
+msgstr "1"
+
+#: addrepositorydlg.cpp:76
+msgid "2"
+msgstr "2"
+
+#: addrepositorydlg.cpp:77
+msgid "3"
+msgstr "3"
+
+#: addrepositorydlg.cpp:146
+msgid "Repository Settings"
+msgstr "Stoorplek Instellings"
+
+#: annotatectl.cpp:76
 #, c-format
 msgid "CVS Annotate: %1"
 msgstr "Cvs Agteraanvoeg: %1"
 
-#: annotatedlg.cpp:132
+#: annotatectl.cpp:87
 msgid "CVS Annotate"
 msgstr "Cvs Agteraanvoeg"
 
 #: cervisiapart.cpp:133
+msgid "This KPart is non-functional, because we couldn't start the cvs DCOP service!"
+msgstr ""
+
+#: cervisiapart.cpp:145
+#, fuzzy
+msgid ""
+"F - All files are hidden, the tree shows only folders\n"
+"N - All up-to-date files are hidden\n"
+"R - All removed files are hidden"
+msgstr ""
+"F - Alle lêers word weg gesteekte, die boom vertoon slegs gidse\n"
+"N - Alle up-to-date lêers word weg gesteekte\n"
+"R - Alle verwyder lêers word weg gesteekte"
+
+#: cervisiapart.cpp:184
+msgid "Remote CVS working folders are not supported."
+msgstr ""
+
+#: cervisiapart.cpp:193
+msgid "You can not change to a different folder while there is a running cvs job."
+msgstr ""
+
+#: cervisiapart.cpp:212
 msgid "O&pen Sandbox..."
 msgstr ""
 
-#: cervisiapart.cpp:136
-msgid "Opens a CVS working directory in the main window"
+#: cervisiapart.cpp:215
+#, fuzzy
+msgid "Opens a CVS working folder in the main window"
 msgstr "Maak oop 'n Cvs werksaam gids in die hoof venster"
 
-#: cervisiapart.cpp:140
+#: cervisiapart.cpp:219
 msgid "Recent Sandboxes"
 msgstr ""
 
-#: cervisiapart.cpp:144
+#: cervisiapart.cpp:223
 msgid "&Insert ChangeLog Entry..."
 msgstr "Voeg by Veranderinge-log Inskrywing..."
 
-#: cervisiapart.cpp:147
-msgid "Inserts a new intro into the file ChangeLog in the toplevel directory"
+#: cervisiapart.cpp:226
+#, fuzzy
+msgid "Inserts a new intro into the file ChangeLog in the toplevel folder"
 msgstr "Voeg in 'n nuwe intro binnein die lêer Veranderinge-log in die bovlak gids"
 
-#: cervisiapart.cpp:154
-msgid "Updates (cvs update) the selected files and directories"
+#: cervisiapart.cpp:233
+#, fuzzy
+msgid "Updates (cvs update) the selected files and folders"
 msgstr "Opdateer (cvs dateer op) die gekose lêers en gidse"
 
-#: cervisiapart.cpp:158 settingsdlg.cpp:115
+#: cervisiapart.cpp:237
 msgid "&Status"
 msgstr "Status"
 
-#: cervisiapart.cpp:161
-msgid "Updates the status (cvs -n update) of the selected files and directories"
+#: cervisiapart.cpp:240
+#, fuzzy
+msgid "Updates the status (cvs -n update) of the selected files and folders"
 msgstr "Opdateer die status (cvs -n dateer op) van die gekose lêers en gidse"
 
-#: cervisiapart.cpp:168
+#: cervisiapart.cpp:247
 msgid "Opens the marked file for editing"
 msgstr "Maak oop die gemerkte lêer vir redigering"
 
-#: cervisiapart.cpp:172
+#: cervisiapart.cpp:251
 msgid "Reso&lve..."
 msgstr "Oplos..."
 
-#: cervisiapart.cpp:175
+#: cervisiapart.cpp:254
 msgid "Opens the resolve dialog with the selected file"
 msgstr "Maak oop die oplos dialoog met die gekose lêer"
 
-#: cervisiapart.cpp:179
+#: cervisiapart.cpp:258
 msgid "&Commit..."
 msgstr "Stuur in..."
 
-#: cervisiapart.cpp:182
+#: cervisiapart.cpp:261
 msgid "Commits the selected files"
 msgstr "Stuur in die gekose lêers"
 
-#: cervisiapart.cpp:186
+#: cervisiapart.cpp:265
 msgid "&Add to Repository..."
 msgstr "Voeg by na Stoorplek..."
 
-#: cervisiapart.cpp:189
+#: cervisiapart.cpp:268
 msgid "Adds (cvs add) the selected files to the repository"
 msgstr "Voeg by (cvs voeg by) die gekose lêers na die stoorplek"
 
-#: cervisiapart.cpp:193
+#: cervisiapart.cpp:272
 msgid "Add &Binary..."
 msgstr "Voeg by Binêre..."
 
-#: cervisiapart.cpp:196
+#: cervisiapart.cpp:275
 msgid "Adds (cvs -kb add) the selected files as binaries to the repository"
 msgstr ""
 
-#: cervisiapart.cpp:200
-msgid "&Remove From Repository"
+#: cervisiapart.cpp:279
+#, fuzzy
+msgid "&Remove From Repository..."
 msgstr "Verwyder Van Stoorplek"
 
-#: cervisiapart.cpp:203
+#: cervisiapart.cpp:282
 msgid "Removes (cvs remove) the selected files from the repository"
 msgstr "Verwyder (cvs verwyder) die gekose lêers van die stoorplek"
 
-#: cervisiapart.cpp:207
+#: cervisiapart.cpp:286
 msgid "Rever&t"
 msgstr "Ongedaan maak"
 
-#: cervisiapart.cpp:210
+#: cervisiapart.cpp:289
 msgid "Reverts (cvs update -C) the selected files (only cvs 1.11)"
 msgstr "Maak ongedaan (cvs dateer op -C) die gekose lêers (slegs cvs 1.11)"
 
-#: cervisiapart.cpp:221
+#: cervisiapart.cpp:300
 msgid "Stops any running sub-processes"
 msgstr "Stop enige wat loop sub-processes"
 
-#: cervisiapart.cpp:226
+#: cervisiapart.cpp:305
 msgid "Browse &Log..."
 msgstr "Blaai Log..."
 
-#: cervisiapart.cpp:229
+#: cervisiapart.cpp:308
 msgid "Shows the revision tree of the selected file"
 msgstr "Vertoon die hersiening boom van die gekose lêer"
 
-#: cervisiapart.cpp:234
+#: cervisiapart.cpp:313
 msgid "Browse Multi-File Log..."
 msgstr "Blaai Multi-File Log..."
 
-#: cervisiapart.cpp:238
+#: cervisiapart.cpp:317
 msgid "&Annotate..."
 msgstr "Agteraanvoeg..."
 
-#: cervisiapart.cpp:241
+#: cervisiapart.cpp:320
 msgid "Shows a blame-annotated view of the selected file"
 msgstr ""
 
-#: cervisiapart.cpp:245
-msgid "&Difference to Repository..."
+#: cervisiapart.cpp:324
+#, fuzzy
+msgid "&Difference to Repository (BASE)..."
 msgstr "Verskil na Stoorplek..."
 
-#: cervisiapart.cpp:248
-msgid "Shows the differences of the selected file to the BASE version"
+#: cervisiapart.cpp:327
+#, fuzzy
+msgid ""
+"Shows the differences of the selected file to the checked out version (tag "
+"BASE)"
 msgstr "Vertoon die verskille van die gekose lêer na die Basis weergawe"
 
-#: cervisiapart.cpp:252
+#: cervisiapart.cpp:331
+#, fuzzy
+msgid "Difference to Repository (HEAD)..."
+msgstr "Verskil na Stoorplek..."
+
+#: cervisiapart.cpp:334
+#, fuzzy
+msgid ""
+"Shows the differences of the selected file to the newest version in the "
+"repository (tag HEAD)"
+msgstr "Vertoon die verskille van die gekose lêer na die Basis weergawe"
+
+#: cervisiapart.cpp:338
 msgid "Last &Change..."
 msgstr "Laaste Verander..."
 
-#: cervisiapart.cpp:255
+#: cervisiapart.cpp:341
 msgid "Shows the differences between the last two revisions of the selected file"
 msgstr ""
 
-#: cervisiapart.cpp:259
+#: cervisiapart.cpp:345
 msgid "&History..."
 msgstr "Geskiedenis..."
 
-#: cervisiapart.cpp:262
+#: cervisiapart.cpp:348
 msgid "Shows the CVS history as reported by the server"
 msgstr "Vertoon die Cvs geskiedenis as raporteer deur die bediener"
 
-#: cervisiapart.cpp:266
+#: cervisiapart.cpp:352
 msgid "&Unfold File Tree"
 msgstr "Oop vou Lêer Boom"
 
-#: cervisiapart.cpp:270
+#: cervisiapart.cpp:356
 msgid "Opens all branches of the file tree"
 msgstr ""
 
-#: cervisiapart.cpp:274
+#: cervisiapart.cpp:360
 msgid "&Fold File Tree"
 msgstr "Vou Lêer Boom"
 
-#: cervisiapart.cpp:277
+#: cervisiapart.cpp:363
 msgid "Closes all branches of the file tree"
 msgstr ""
 
-#: cervisiapart.cpp:284
+#: cervisiapart.cpp:370
 msgid "&Tag/Branch..."
 msgstr ""
 
-#: cervisiapart.cpp:287
+#: cervisiapart.cpp:373
 msgid "Creates a tag or branch for the selected files"
 msgstr ""
 
-#: cervisiapart.cpp:291
+#: cervisiapart.cpp:377
 msgid "&Delete Tag..."
 msgstr "Uitvee Etiket..."
 
-#: cervisiapart.cpp:294
+#: cervisiapart.cpp:380
 msgid "Deletes a tag from the selected files"
 msgstr "Deletes 'n etiket van die gekose lêers"
 
-#: cervisiapart.cpp:298
+#: cervisiapart.cpp:384
 msgid "&Update to Tag/Date..."
 msgstr "Dateer op na Etiket/Datum..."
 
-#: cervisiapart.cpp:301
+#: cervisiapart.cpp:387
 msgid "Updates the selected files to a given tag, branch or date"
 msgstr ""
 
-#: cervisiapart.cpp:305
+#: cervisiapart.cpp:391
 msgid "Update to &HEAD"
 msgstr "Dateer op na Kop"
 
-#: cervisiapart.cpp:308
+#: cervisiapart.cpp:394
 msgid "Updates the selected files to the HEAD revision"
 msgstr "Opdateer die gekose lêers na die Kop hersiening"
 
-#: cervisiapart.cpp:312
+#: cervisiapart.cpp:398
 msgid "&Merge..."
 msgstr "Saamvlans..."
 
-#: cervisiapart.cpp:315
+#: cervisiapart.cpp:401
 msgid "Merges a branch or a set of modifications into the selected files"
 msgstr ""
 
-#: cervisiapart.cpp:319
+#: cervisiapart.cpp:405
 msgid "&Add Watch..."
 msgstr "Voeg by Waarneem..."
 
-#: cervisiapart.cpp:322
+#: cervisiapart.cpp:408
 msgid "Adds a watch for the selected files"
 msgstr "Voeg by 'n waarneem vir die gekose lêers"
 
-#: cervisiapart.cpp:326
+#: cervisiapart.cpp:412
 msgid "&Remove Watch..."
 msgstr "Verwyder Waarneem..."
 
-#: cervisiapart.cpp:329
+#: cervisiapart.cpp:415
 msgid "Removes a watch from the selected files"
 msgstr "Verwyder 'n waarneem van die gekose lêers"
 
-#: cervisiapart.cpp:333
+#: cervisiapart.cpp:419
 msgid "Show &Watchers"
 msgstr "Vertoon Toeskouers"
 
-#: cervisiapart.cpp:336
+#: cervisiapart.cpp:422
 msgid "Shows the watchers of the selected files"
 msgstr "Vertoon die toeskouers van die gekose lêers"
 
-#: cervisiapart.cpp:340
+#: cervisiapart.cpp:426
 msgid "Ed&it Files"
 msgstr "Redigeer Lêers"
 
-#: cervisiapart.cpp:343
+#: cervisiapart.cpp:429
 msgid "Edits (cvs edit) the selected files"
 msgstr "Redigeer (cvs redigeer) die gekose lêers"
 
-#: cervisiapart.cpp:347
+#: cervisiapart.cpp:433
 msgid "U&nedit Files"
 msgstr ""
 
-#: cervisiapart.cpp:350
+#: cervisiapart.cpp:436
 msgid "Unedits (cvs unedit) the selected files"
 msgstr ""
 
-#: cervisiapart.cpp:354
+#: cervisiapart.cpp:440
 msgid "Show &Editors"
 msgstr "Vertoon Redigeerders"
 
-#: cervisiapart.cpp:357
+#: cervisiapart.cpp:443
 msgid "Shows the editors of the selected files"
 msgstr "Vertoon die redigeerders van die gekose lêers"
 
-#: cervisiapart.cpp:361
+#: cervisiapart.cpp:447
 msgid "&Lock Files"
 msgstr "Sluit Lêers"
 
-#: cervisiapart.cpp:364
+#: cervisiapart.cpp:450
 msgid "Locks the selected files, so that others can't modify them"
 msgstr ""
 
-#: cervisiapart.cpp:368
+#: cervisiapart.cpp:454
 msgid "Unl&ock Files"
 msgstr "Sluit oop Lêers"
 
-#: cervisiapart.cpp:371
+#: cervisiapart.cpp:457
 msgid "Unlocks the selected files"
 msgstr "Ontsluit die gekose lêers"
 
-#: cervisiapart.cpp:375
+#: cervisiapart.cpp:461
 msgid "Create &Patch Against Repository"
 msgstr "Skep Lap Teen Stoorplek"
 
-#: cervisiapart.cpp:378
+#: cervisiapart.cpp:464
 msgid "Creates a patch from the modifications in your sandbox"
 msgstr ""
 
-#: cervisiapart.cpp:385
+#: cervisiapart.cpp:471
 msgid "&Checkout..."
 msgstr "Uitboek..."
 
-#: cervisiapart.cpp:388
+#: cervisiapart.cpp:474
 msgid "Allows you to checkout a module from a repository"
 msgstr "Laat toe jy na uitboek 'n module van 'n stoorplek"
 
-#: cervisiapart.cpp:392
+#: cervisiapart.cpp:478
 msgid "&Import..."
 msgstr "In voer..."
 
-#: cervisiapart.cpp:395
+#: cervisiapart.cpp:481
 msgid "Allows you to import a module into a repository"
 msgstr "Laat toe jy na in voer 'n module binnein 'n stoorplek"
 
-#: cervisiapart.cpp:399
+#: cervisiapart.cpp:485
 msgid "&Repositories..."
 msgstr ""
 
-#: cervisiapart.cpp:402
+#: cervisiapart.cpp:488
 msgid "Configures a list of repositories you regularly use"
 msgstr ""
 
-#: cervisiapart.cpp:409
+#: cervisiapart.cpp:495
 msgid "Hide All &Files"
 msgstr "Steek weg Alle Lêers"
 
-#: cervisiapart.cpp:412
-msgid "Determines whether only directories are shown"
+#: cervisiapart.cpp:498
+#, fuzzy
+msgid "Determines whether only folders are shown"
 msgstr "Bepaal hetsy slegs gidse word vertoon"
 
-#: cervisiapart.cpp:416
+#: cervisiapart.cpp:502
 msgid "Hide Up-&To-Date Files"
 msgstr "Steek weg Up-To-Date Lêers"
 
-#: cervisiapart.cpp:419
+#: cervisiapart.cpp:505
 msgid "Determines whether up-to-date files are hidden"
 msgstr "Bepaal hetsy up-to-date lêers word weg gesteekte"
 
-#: cervisiapart.cpp:423
+#: cervisiapart.cpp:509
 msgid "Hide Removed Files"
 msgstr "Steek weg Verwyder Lêers"
 
-#: cervisiapart.cpp:426
+#: cervisiapart.cpp:512
 msgid "Determines whether removed files are hidden"
 msgstr "Bepaal hetsy verwyder lêers word weg gesteekte"
 
-#: cervisiapart.cpp:430
+#: cervisiapart.cpp:516
 msgid "Hide Non-CVS Files"
 msgstr "Steek weg Non-CVS Lêers"
 
-#: cervisiapart.cpp:433
+#: cervisiapart.cpp:519
 msgid "Determines whether files not in CVS are hidden"
 msgstr "Bepaal hetsy lêers nie in Cvs word weg gesteekte"
 
-#: cervisiapart.cpp:437
-msgid "Create &Directories on Update"
+#: cervisiapart.cpp:523
+#, fuzzy
+msgid "Hide Empty Folders"
+msgstr "Steek weg Verwyder Lêers"
+
+#: cervisiapart.cpp:526
+#, fuzzy
+msgid "Determines whether folders without visible entries are hidden"
+msgstr "Bepaal hetsy verwyder lêers word weg gesteekte"
+
+#: cervisiapart.cpp:530
+#, fuzzy
+msgid "Create &Folders on Update"
 msgstr "Skep Gidse op Dateer op"
 
-#: cervisiapart.cpp:440
-msgid "Determines whether updates create directories"
+#: cervisiapart.cpp:533
+#, fuzzy
+msgid "Determines whether updates create folders"
 msgstr "Bepaal hetsy opdateer skep gidse"
 
-#: cervisiapart.cpp:444
-msgid "&Prune Empty Directories on Update"
+#: cervisiapart.cpp:537
+msgid "&Prune Empty Folders on Update"
 msgstr ""
 
-#: cervisiapart.cpp:447
-msgid "Determines whether updates remove empty directories"
+#: cervisiapart.cpp:540
+#, fuzzy
+msgid "Determines whether updates remove empty folders"
 msgstr "Bepaal hetsy opdateer verwyder leeg gidse"
 
-#: cervisiapart.cpp:451
+#: cervisiapart.cpp:544
 msgid "&Update Recursively"
 msgstr "Dateer op Rekursief"
 
-#: cervisiapart.cpp:454
+#: cervisiapart.cpp:547
 msgid "Determines whether updates are recursive"
 msgstr "Bepaal hetsy opdateer word rekursief"
 
-#: cervisiapart.cpp:458
+#: cervisiapart.cpp:551
 msgid "C&ommit && Remove Recursively"
 msgstr "Stuur in && Verwyder Rekursief"
 
-#: cervisiapart.cpp:461
+#: cervisiapart.cpp:554
 msgid "Determines whether commits and removes are recursive"
 msgstr "Bepaal hetsy stuur in en verwyder word rekursief"
 
-#: cervisiapart.cpp:465
+#: cervisiapart.cpp:558
 msgid "Do cvs &edit Automatically When Necessary"
 msgstr "Doen cvs redigeer Automaties Wanneer Nodige"
 
-#: cervisiapart.cpp:468
+#: cervisiapart.cpp:561
 msgid "Determines whether automatic cvs editing is active"
 msgstr "Bepaal hetsy automaties cvs redigering is aktief"
 
-#: cervisiapart.cpp:472
+#: cervisiapart.cpp:565
 msgid "Configure Cervisia..."
 msgstr "Konfigureer Cervisia..."
 
-#: cervisiapart.cpp:475
+#: cervisiapart.cpp:568
 msgid "Allows you to configure the Cervisia KPart"
 msgstr "Laat toe jy na konfigureer die Cervisia K-deel"
 
-#: cervisiapart.cpp:485
+#: cervisiapart.cpp:578
 msgid "CVS &Manual"
 msgstr "Cvs Hand"
 
-#: cervisiapart.cpp:488
+#: cervisiapart.cpp:581
 msgid "Opens the help browser with the CVS documentation"
 msgstr "Maak oop die hulp blaaier met die Cvs dokumentasie"
 
-#: cervisiapart.cpp:559
+#: cervisiapart.cpp:635
 msgid ""
 "Cervisia %1\n"
 "(Using KDE %2)\n"
@@ -425,61 +550,80 @@ msgid ""
 "See the ChangeLog file for a list of contributors."
 msgstr ""
 
-#: cervisiapart.cpp:572
+#: cervisiapart.cpp:648
 msgid "About Cervisia"
 msgstr "Aangaande Cervisia"
 
-#: cervisiapart.cpp:579 main.cpp:35
-msgid "Cervisia"
+#: cervisiapart.cpp:656
+#, fuzzy
+msgid "Cervisia Part"
 msgstr "Cervisia"
 
-#: cervisiapart.cpp:581 main.cpp:36
+#: cervisiapart.cpp:657 main.cpp:113
 msgid "A CVS frontend"
 msgstr "'n Cvs voorprogram"
 
-#: cervisiapart.cpp:583 main.cpp:38
+#: cervisiapart.cpp:659 main.cpp:114
 msgid "Copyright (c) 1999-2002 Bernd Gehrmann"
 msgstr ""
 
-#: cervisiapart.cpp:590 cervisiashell.cpp:123
+#: cervisiapart.cpp:662 main.cpp:117
+msgid "Original author and former maintainer"
+msgstr ""
+
+#: cervisiapart.cpp:664 main.cpp:119
+msgid "Maintainer"
+msgstr ""
+
+#: cervisiapart.cpp:666 main.cpp:121
+msgid "Developer"
+msgstr ""
+
+#: cervisiapart.cpp:669 main.cpp:124
+#, fuzzy
+msgid "Conversion to KPart"
+msgstr "Cervisia"
+
+#: cervisiapart.cpp:679
 msgid "Open Sandbox"
 msgstr ""
 
-#: cervisiapart.cpp:640
+#: cervisiapart.cpp:736
 msgid "CVS Edit"
 msgstr "Cvs Redigeer"
 
-#: cervisiapart.cpp:1153 diffdlg.cpp:360
+#: cervisiapart.cpp:1227 diffdlg.cpp:259
 msgid "CVS Diff"
 msgstr "Cvs Diff"
 
-#: cervisiapart.cpp:1168 resolvedlg.cpp:270
+#: cervisiapart.cpp:1239 resolvedlg.cpp:265
 msgid "Could not open file for writing."
 msgstr "Kon nie open lêer vir om te skryf."
 
-#: cervisiapart.cpp:1317
+#: cervisiapart.cpp:1364
 msgid "The revision looks invalid."
 msgstr "Die hersiening kyk ongeldige."
 
-#: cervisiapart.cpp:1324
+#: cervisiapart.cpp:1371
 msgid "This is the first revision of the branch."
 msgstr ""
 
-#: cervisiapart.cpp:1434
+#: cervisiapart.cpp:1489
 msgid "Invoking help on Cervisia"
 msgstr "Aktivering hulp op Cervisia"
 
-#: cervisiapart.cpp:1441
+#: cervisiapart.cpp:1496
 msgid "Invoking help on CVS"
 msgstr "Aktivering hulp op Cvs"
 
-#: cervisiapart.cpp:1460
+#: cervisiapart.cpp:1532
 msgid "Done"
 msgstr "Klaar"
 
-#: cervisiapart.cpp:1475
+#: cervisiapart.cpp:1554
+#, fuzzy
 msgid ""
-"This is not a CVS directory.\n"
+"This is not a CVS folder.\n"
 "If you did not intend to use Cervisia, you can switch view modes within "
 "Konqueror."
 msgstr ""
@@ -487,125 +631,113 @@ msgstr ""
 "If jy het nie intensie na gebruik Cervisia, jy kan wissel besigtig modusse "
 "binne in Konqueror."
 
-#: cervisiashell.cpp:46
-msgid ""
-"F - All files are hidden, the tree shows only directories\n"
-"N - All up-to-date files are hidden\n"
-"R - All removed files are hidden"
-msgstr ""
-"F - Alle lêers word weg gesteekte, die boom vertoon slegs gidse\n"
-"N - Alle up-to-date lêers word weg gesteekte\n"
-"R - Alle verwyder lêers word weg gesteekte"
-
-#: cervisiashell.cpp:81
+#: cervisiashell.cpp:90
 msgid "Allows you to configure the toolbar"
 msgstr "Laat toe jy na konfigureer die nutsbalk"
 
-#: cervisiashell.cpp:87
+#: cervisiashell.cpp:96
 msgid "Allows you to customize the keybindings"
 msgstr "Laat toe jy na pasmaak die sleutel bindinge"
 
-#: cervisiashell.cpp:92
+#: cervisiashell.cpp:101
 msgid "Exits Cervisia"
 msgstr "Uitgaan Cervisia"
 
-#: cervisiashell.cpp:100
+#: cervisiashell.cpp:109
 msgid "Invokes the KDE help system with the Cervisia documentation"
 msgstr "Aktiveer die Kde hulp stelsel met die Cervisia dokumentasie"
 
-#: cervisiashell.cpp:105
+#: cervisiashell.cpp:114
 msgid "Opens the Bug report dialog"
 msgstr "Maak oop die Fout raporteer dialoog"
 
-#: cervisiashell.cpp:110
+#: cervisiashell.cpp:119
 msgid "Displays the version number and copyright information"
 msgstr "Vertoon die weergawe nommer en kopiereg informasie"
 
-#: cervisiashell.cpp:115
+#: cervisiashell.cpp:124
 msgid "Displays the information about KDE and its version number"
 msgstr "Vertoon die informasie aangaande Kde en sy weergawe nommer"
 
-#: changelogdlg.cpp:50
+#: changelogdlg.cpp:43
 msgid "Edit ChangeLog"
 msgstr "Redigeer Veranderinge-log"
 
-#: changelogdlg.cpp:92
+#: changelogdlg.cpp:87
 msgid "The ChangeLog file could not be written."
 msgstr "Die Veranderinge-log lêer kon nie wees geskryf."
 
-#: changelogdlg.cpp:138
+#: changelogdlg.cpp:107
 msgid "A ChangeLog file does not exist. Create one?"
 msgstr "'n Veranderinge-log lêer doen nie bestaan. Skep een?"
 
-#: changelogdlg.cpp:140
+#: changelogdlg.cpp:109
 msgid "Create"
 msgstr "Skep"
 
-#: changelogdlg.cpp:149
+#: changelogdlg.cpp:118
 msgid "The ChangeLog file could not be read."
 msgstr "Die Veranderinge-log lêer kon nie wees lees."
 
-#: checkoutdlg.cpp:42 checkoutdlg.cpp:307
+#: checkoutdlg.cpp:48 checkoutdlg.cpp:308
 msgid "CVS Checkout"
 msgstr "Cvs Uitboek"
 
-#: checkoutdlg.cpp:42
+#: checkoutdlg.cpp:48
 msgid "CVS Import"
 msgstr "Cvs In voer"
 
-#: checkoutdlg.cpp:60 repositorydlg.cpp:372
-msgid "&Repository:"
-msgstr "Stoorplek:"
-
-#: checkoutdlg.cpp:67 checkoutdlg.cpp:83
+#: checkoutdlg.cpp:74 checkoutdlg.cpp:90
 msgid "&Module:"
 msgstr "Module:"
 
-#: checkoutdlg.cpp:74 mergedlg.cpp:46 tagdlg.cpp:49 updatedlg.cpp:44
+#: checkoutdlg.cpp:81 mergedlg.cpp:50 tagdlg.cpp:53 updatedlg.cpp:50
 msgid "Fetch &List"
 msgstr "Gaan haal Lys"
 
-#: checkoutdlg.cpp:89
+#: checkoutdlg.cpp:96
 msgid "&Branch tag:"
 msgstr ""
 
-#: checkoutdlg.cpp:110
-msgid "Working &directory:"
+#: checkoutdlg.cpp:115
+#, fuzzy
+msgid "Working &folder:"
 msgstr "Werksaam gids:"
 
-#: checkoutdlg.cpp:119
+#: checkoutdlg.cpp:124
 msgid "&Vendor tag:"
 msgstr "Verkoper etiket:"
 
-#: checkoutdlg.cpp:126
+#: checkoutdlg.cpp:131
 msgid "&Release tag:"
 msgstr "Vrylaat etiket:"
 
-#: checkoutdlg.cpp:133
+#: checkoutdlg.cpp:138
 msgid "&Ignore files:"
 msgstr "Ignoreer lêers:"
 
-#: checkoutdlg.cpp:140
+#: checkoutdlg.cpp:145
 msgid "&Comment:"
 msgstr "Kommentaar:"
 
-#: checkoutdlg.cpp:143
+#: checkoutdlg.cpp:148
 msgid "Import as &binaries"
 msgstr ""
 
-#: checkoutdlg.cpp:211
-msgid "Please choose an existing working directory."
+#: checkoutdlg.cpp:244
+#, fuzzy
+msgid "Please choose an existing working folder."
 msgstr "Asseblief kies 'n bestaande werksaam gids."
 
-#: checkoutdlg.cpp:216
+#: checkoutdlg.cpp:249
 msgid "Please specify a module name."
 msgstr "Asseblief spesifiseer 'n module naam."
 
-#: checkoutdlg.cpp:225
+#: checkoutdlg.cpp:258
 msgid "Please specify a vendor tag and a release tag."
 msgstr "Asseblief spesifiseer 'n verkoper etiket en 'n vrylaat etiket."
 
-#: checkoutdlg.cpp:231
+#: checkoutdlg.cpp:264
 msgid ""
 "Tags must start with a letter and may contain\n"
 "letters, digits and the characters '-' and '_'."
@@ -613,39 +745,15 @@ msgstr ""
 "Etiket moet begin met 'n brief en dalk mag bevat\n"
 "letters, syfers en die karakters '-' en '_'."
 
-#: commitdlg.cpp:35
-msgid "CVS Add"
-msgstr "Cvs Voeg by"
-
-#: commitdlg.cpp:36
-msgid "CVS Add Binary"
-msgstr "Cvs Voeg by Binêre"
-
 #: commitdlg.cpp:37
-msgid "CVS Remove"
-msgstr "Cvs Verwyder"
-
-#: commitdlg.cpp:38
 msgid "CVS Commit"
 msgstr "Cvs Stuur in"
-
-#: commitdlg.cpp:43
-msgid "Add the following files to the repository:"
-msgstr "Voeg by die volgende lêers na die stoorplek:"
-
-#: commitdlg.cpp:44
-msgid "Add the following binary files to the repository:"
-msgstr "Voeg by die volgende binêre lêers na die stoorplek:"
-
-#: commitdlg.cpp:45
-msgid "Remove the following files from the repository:"
-msgstr "Verwyder die volgende lêers van die stoorplek:"
 
 #: commitdlg.cpp:46
 msgid "Commit the following &files:"
 msgstr "Stuur in die volgende lêers:"
 
-#: commitdlg.cpp:57
+#: commitdlg.cpp:55
 msgid "Older &messages:"
 msgstr "Ouer boodskappe:"
 
@@ -653,178 +761,246 @@ msgstr "Ouer boodskappe:"
 msgid "&Log message:"
 msgstr "Log boodskap:"
 
-#: commitdlg.cpp:138
+#: commitdlg.cpp:74 logdlg.cpp:60
+msgid "&Diff"
+msgstr "Diff"
+
+#: commitdlg.cpp:130
 msgid "Current"
 msgstr "Huidige"
 
-#: diffdlg.cpp:75
+#: diffdlg.cpp:80
 msgid "Synchronize scroll bars"
 msgstr "Sinkroniseer rol stawe"
 
-#: diffdlg.cpp:269
+#: diffdlg.cpp:92 diffdlg.cpp:411
+msgid "%1 differences"
+msgstr "%1 verskille"
+
+#: diffdlg.cpp:229
 #, c-format
 msgid "CVS Diff: %1"
 msgstr "Cvs Diff: %1"
 
-#: diffdlg.cpp:271 repositorydlg.cpp:126
-msgid "Repository"
-msgstr "Stoorplek"
+#: diffdlg.cpp:231
+#, fuzzy
+msgid "Repository:"
+msgstr "Stoorplek:"
 
-#: diffdlg.cpp:272 diffdlg.cpp:275
+#: diffdlg.cpp:232 diffdlg.cpp:235
 msgid "Revision "
 msgstr "Hersiening "
 
-#: diffdlg.cpp:274
-msgid "Working dir"
+#: diffdlg.cpp:234
+#, fuzzy
+msgid "Working dir:"
 msgstr "Werksaam gids"
 
-#: diffdlg.cpp:493 resolvedlg.cpp:290
+#: diffdlg.cpp:409 resolvedlg.cpp:285
 msgid "%1 of %2"
 msgstr "%1 van %2"
 
-#: diffdlg.cpp:495
-msgid "%1 differences"
-msgstr "%1 verskille"
+#: entry.cpp:36
+msgid "Locally Modified"
+msgstr "Plaaslik Veranderde"
 
-#: historydlg.cpp:59 historydlg.cpp:334
+#: entry.cpp:39
+msgid "Locally Added"
+msgstr "Plaaslik Bygevoeg"
+
+#: entry.cpp:42
+msgid "Locally Removed"
+msgstr "Plaaslik Verwyder"
+
+#: entry.cpp:45
+msgid "Needs Update"
+msgstr "Verlang Dateer op"
+
+#: entry.cpp:48
+msgid "Needs Patch"
+msgstr "Verlang Lap"
+
+#: entry.cpp:51
+msgid "Needs Merge"
+msgstr "Verlang Saamvlans"
+
+#: entry.cpp:54
+msgid "Up to date"
+msgstr "Begin na datum"
+
+#: entry.cpp:57
+msgid "Conflict"
+msgstr "Konflik"
+
+#: entry.cpp:60
+msgid "Updated"
+msgstr "Opgedateer"
+
+#: entry.cpp:63
+msgid "Patched"
+msgstr "Gelapde"
+
+#: entry.cpp:66
+msgid "Removed"
+msgstr "Verwyder"
+
+#: entry.cpp:69
+msgid "Not in CVS"
+msgstr "Nie in Cvs"
+
+#: entry.cpp:72
+msgid "Unknown"
+msgstr "Onbekende"
+
+#: historydlg.cpp:102 historydlg.cpp:351
 msgid "Commit, Modified "
 msgstr "Stuur in, Veranderde "
 
-#: historydlg.cpp:60 historydlg.cpp:335
+#: historydlg.cpp:103 historydlg.cpp:352
 msgid "Commit, Added "
 msgstr "Stuur in, Bygevoeg "
 
-#: historydlg.cpp:61 historydlg.cpp:336
+#: historydlg.cpp:104 historydlg.cpp:353
 msgid "Commit, Removed "
 msgstr "Stuur in, Verwyder "
 
-#: historydlg.cpp:67 historydlg.cpp:327
+#: historydlg.cpp:110 historydlg.cpp:344
 msgid "Checkout "
 msgstr "Uitboek "
 
-#: historydlg.cpp:73
+#: historydlg.cpp:116 loginfo.cpp:58
 msgid "Tag"
 msgstr "Etiket"
 
-#: historydlg.cpp:96 loglist.cpp:170
+#: historydlg.cpp:140 loglist.cpp:114
 msgid "Date"
 msgstr "Datum"
 
-#: historydlg.cpp:97
+#: historydlg.cpp:141
 msgid "Event"
 msgstr "Gebeurtenis"
 
-#: historydlg.cpp:98 loglist.cpp:169
+#: historydlg.cpp:142 loglist.cpp:113
 msgid "Author"
 msgstr "Outeur"
 
-#: historydlg.cpp:99 loglist.cpp:168 updateview.cpp:663
+#: historydlg.cpp:143 loglist.cpp:112 updateview.cpp:43
 msgid "Revision"
 msgstr "Hersiening"
 
-#: historydlg.cpp:101
-msgid "Repo path"
-msgstr ""
+#: historydlg.cpp:145
+#, fuzzy
+msgid "Repo Path"
+msgstr "Verlang Lap"
 
-#: historydlg.cpp:107
+#: historydlg.cpp:149
 msgid "Show c&ommit events"
 msgstr "Vertoon stuur in aktiwiteite"
 
-#: historydlg.cpp:110
+#: historydlg.cpp:152
 msgid "Show ch&eckout events"
 msgstr "Vertoon uitboek aktiwiteite"
 
-#: historydlg.cpp:113
+#: historydlg.cpp:155
 msgid "Show &tag events"
 msgstr "Vertoon etiket aktiwiteite"
 
-#: historydlg.cpp:116
+#: historydlg.cpp:158
 msgid "Show &other events"
 msgstr "Vertoon ander aktiwiteite"
 
-#: historydlg.cpp:119
+#: historydlg.cpp:161
 msgid "Only &user:"
 msgstr "Slegs gebruiker:"
 
-#: historydlg.cpp:121
+#: historydlg.cpp:163
 msgid "Only &filenames matching:"
 msgstr "Slegs lêername ooreenstemmende:"
 
-#: historydlg.cpp:123
-msgid "Only &directories matching:"
-msgstr "Slegs gidse ooreenstemmende:"
+#: historydlg.cpp:165
+#, fuzzy
+msgid "Only &folders matching:"
+msgstr "Slegs lêername ooreenstemmende:"
 
-#: historydlg.cpp:294 historydlg.cpp:299
+#: historydlg.cpp:306 historydlg.cpp:312
 msgid "CVS History"
 msgstr "Cvs Geskiedenis"
 
-#: historydlg.cpp:328
+#: historydlg.cpp:345
 msgid "Tag "
 msgstr "Etiket "
 
-#: historydlg.cpp:329
+#: historydlg.cpp:346
 msgid "Release "
 msgstr "Vrylaat "
 
-#: historydlg.cpp:330
+#: historydlg.cpp:347
 msgid "Update, Deleted "
 msgstr "Dateer op, Uitgevee "
 
-#: historydlg.cpp:331
+#: historydlg.cpp:348
 msgid "Update, Copied "
 msgstr "Dateer op, Gekopieer "
 
-#: historydlg.cpp:332
+#: historydlg.cpp:349
 msgid "Update, Merged "
 msgstr "Dateer op, Saamgevlans "
 
-#: historydlg.cpp:333
+#: historydlg.cpp:350
 msgid "Update, Conflict "
 msgstr "Dateer op, Konflik "
 
-#: historydlg.cpp:337
+#: historydlg.cpp:354
 msgid "Unknown "
 msgstr "Onbekende "
 
-#: logdlg.cpp:54
+#: logdlg.cpp:59
+msgid "&Annotate"
+msgstr "Agteraanvoeg"
+
+#: logdlg.cpp:82
 msgid "&Tree"
 msgstr "Boom"
 
-#: logdlg.cpp:56
+#: logdlg.cpp:83
 msgid "&List"
 msgstr "Lys"
 
-#: logdlg.cpp:68
+#: logdlg.cpp:84
+msgid "CVS &Output"
+msgstr ""
+
+#: logdlg.cpp:90
 msgid ""
-"Choose revision A by clicking with the leftmouse button,\n"
+"Choose revision A by clicking with the left mouse button,\n"
 "revision B by clicking with the middle mouse button."
 msgstr ""
 
-#: logdlg.cpp:95
+#: logdlg.cpp:113
 msgid "Revision A:"
 msgstr "Hersiening 'n:"
 
-#: logdlg.cpp:95
+#: logdlg.cpp:113
 msgid "Revision B:"
 msgstr "Hersiening B:"
 
-#: logdlg.cpp:105
+#: logdlg.cpp:121
 msgid "Select by tag:"
 msgstr "Kies deur etiket:"
 
-#: logdlg.cpp:113
+#: logdlg.cpp:129
 msgid "Author:"
 msgstr "Outeur:"
 
-#: logdlg.cpp:121
+#: logdlg.cpp:136
 msgid "Date:"
 msgstr "Datum:"
 
-#: logdlg.cpp:129
+#: logdlg.cpp:143
 msgid "Comment/Tags:"
 msgstr "Kommentaar/Etiket:"
 
-#: logdlg.cpp:144
+#: logdlg.cpp:159
 msgid ""
 "This revision is used when you click Annotate.\n"
 "It is also used as the first item of a Diff operation."
@@ -832,366 +1008,379 @@ msgstr ""
 "Hierdie hersiening is gebruik word wanneer jy kliek Agteraanvoeg.\n"
 "It is asook gebruik word as die eerste item van 'n Diff operasie."
 
-#: logdlg.cpp:147
+#: logdlg.cpp:162
 msgid "This revision is used as the second item of a Diff operation."
 msgstr "Hierdie hersiening is gebruik word as die tweede item van 'n Diff operasie."
 
-#: logdlg.cpp:166 settingsdlg.cpp:90
-msgid "&Diff"
-msgstr "Diff"
+#: logdlg.cpp:183
+msgid ""
+"_: to view something\n"
+"&View"
+msgstr ""
 
-#: logdlg.cpp:168
-msgid "&Annotate"
-msgstr "Agteraanvoeg"
-
-#: logdlg.cpp:233
+#: logdlg.cpp:229
 #, c-format
 msgid "CVS Log: %1"
 msgstr "Cvs Log: %1"
 
-#: logdlg.cpp:239
+#: logdlg.cpp:235
 msgid "CVS Log"
 msgstr "Cvs Log"
 
-#: logdlg.cpp:342 loglist.cpp:93
-msgid ""
-"\n"
-"Tag: "
-msgstr ""
-"\n"
-"Tag: "
-
-#: logdlg.cpp:349 logdlg.cpp:351
-msgid ""
-"\n"
-"Branchpoint: "
-msgstr ""
-
-#: logdlg.cpp:357 loglist.cpp:117
-msgid ""
-"\n"
-"On branch: "
-msgstr ""
-
-#: logdlg.cpp:390
+#: logdlg.cpp:377
 msgid " (Branchpoint)"
 msgstr ""
 
-#: logdlg.cpp:414
-msgid "Please select revisions A and B first."
+#: logdlg.cpp:397
+msgid "Please select revision A or B first."
 msgstr ""
 
-#: loglist.cpp:171
+#: logdlg.cpp:418
+#, fuzzy
+msgid "View File"
+msgstr "Redigeer Lêers"
+
+#: logdlg.cpp:445
+msgid "Please select revision A or revisions A and B first."
+msgstr ""
+
+#: loginfo.cpp:52
+msgid "Branchpoint"
+msgstr ""
+
+#: loginfo.cpp:55
+msgid "On Branch"
+msgstr ""
+
+#: loglist.cpp:115
 msgid "Branch"
 msgstr ""
 
-#: loglist.cpp:172
+#: loglist.cpp:116
 msgid "Comment"
 msgstr "Kommentaar"
 
-#: loglist.cpp:173
+#: loglist.cpp:117
 msgid "Tags"
 msgstr "Etiket"
 
-#: main.cpp:31
+#: logplainview.cpp:50
+#, fuzzy, c-format
+msgid "revision %1"
+msgstr "Hersiening "
+
+#: logplainview.cpp:53
+msgid "Select for revision A"
+msgstr ""
+
+#: logplainview.cpp:56
+msgid "Select for revision B"
+msgstr ""
+
+#: logplainview.cpp:59
+msgid "date: %1; author: %2"
+msgstr ""
+
+#: main.cpp:107
 msgid "The sandbox to be loaded"
 msgstr ""
 
-#: main.cpp:32
+#: main.cpp:108
 msgid "Show resolve dialog for the given file"
 msgstr "Vertoon oplos dialoog vir die gegewe lêer"
 
-#: mergedlg.cpp:33
+#: main.cpp:109
+#, fuzzy
+msgid "Show log dialog for the given file"
+msgstr "Vertoon oplos dialoog vir die gegewe lêer"
+
+#: main.cpp:112
+msgid "Cervisia"
+msgstr "Cervisia"
+
+#: mergedlg.cpp:32
 msgid "CVS Merge"
 msgstr "Cvs Saamvlans"
 
-#: mergedlg.cpp:38
+#: mergedlg.cpp:43
 msgid "Merge from &branch:"
 msgstr ""
 
-#: mergedlg.cpp:56
+#: mergedlg.cpp:59
 msgid "Merge &modifications:"
 msgstr "Saamvlans veranderinge:"
 
-#: mergedlg.cpp:59
+#: mergedlg.cpp:62
 msgid "between tag: "
 msgstr "tussen etiket: "
 
-#: mergedlg.cpp:64
+#: mergedlg.cpp:66
 msgid "and tag: "
 msgstr "en etiket: "
 
-#: mergedlg.cpp:69 updatedlg.cpp:60
+#: mergedlg.cpp:70 updatedlg.cpp:65
 msgid "Fetch L&ist"
 msgstr "Gaan haal Lys"
 
-#: mergedlg.cpp:125 tagdlg.cpp:143 updatedlg.cpp:124
+#: misc.cpp:68
 msgid "CVS Status"
 msgstr "Cvs Status"
 
-#: protocolview.cpp:65
+#: protocolview.cpp:79
 msgid "There is already a job running"
 msgstr "Daar is alreeds 'n werk wat loop"
 
-#: protocolview.cpp:120
+#: protocolview.cpp:168 protocolview.cpp:198
 msgid ""
 "[Exited with status %1]\n"
 msgstr ""
 "[Uitgegaan met status %1]\n"
 
-#: protocolview.cpp:122
+#: protocolview.cpp:170 protocolview.cpp:200
 msgid ""
 "[Finished]\n"
 msgstr ""
 "[Klaar gemaak]\n"
 
-#: protocolview.cpp:125
+#: protocolview.cpp:173 protocolview.cpp:203
 msgid ""
 "[Aborted]\n"
 msgstr ""
 "[Gekanselleer]\n"
 
-#: rc.cpp:6 rc.cpp:15
+#: rc.cpp:7 rc.cpp:18
 msgid "&Advanced"
 msgstr "Gevorderde"
 
-#: rc.cpp:7 rc.cpp:16
+#: rc.cpp:8 rc.cpp:19
 msgid "&Repository"
 msgstr "Stoorplek"
 
-#: repositorydlg.cpp:65
+#: repositorydlg.cpp:75 repositorydlg.cpp:121
 msgid "Logged in"
 msgstr "Gelog in"
 
-#: repositorydlg.cpp:65
+#: repositorydlg.cpp:75 repositorydlg.cpp:121
 msgid "Not logged in"
 msgstr "Nie gelog in"
 
-#: repositorydlg.cpp:67
+#: repositorydlg.cpp:77 repositorydlg.cpp:123
 msgid "No login required"
 msgstr "Nee aanteken benodig"
 
-#: repositorydlg.cpp:112
+#: repositorydlg.cpp:131
 msgid "Configure Access to Repositories"
 msgstr ""
 
-#: repositorydlg.cpp:127
+#: repositorydlg.cpp:144
+msgid "Repository"
+msgstr "Stoorplek"
+
+#: repositorydlg.cpp:145
 msgid "Method"
 msgstr "Metode"
 
-#: repositorydlg.cpp:128
+#: repositorydlg.cpp:146
 msgid "Compression"
 msgstr "Saampersing"
 
-#: repositorydlg.cpp:129 updateview.cpp:662
+#: repositorydlg.cpp:147 settingsdlg.cpp:338 updateview.cpp:42
 msgid "Status"
 msgstr "Status"
 
-#: repositorydlg.cpp:134
+#: repositorydlg.cpp:156
 msgid "&Add..."
 msgstr "Voeg by..."
 
-#: repositorydlg.cpp:136
-msgid "&Settings..."
-msgstr "Instellings..."
+#: repositorydlg.cpp:157
+#, fuzzy
+msgid "&Modify..."
+msgstr "Stuur in..."
 
-#: repositorydlg.cpp:139
+#: repositorydlg.cpp:160
 msgid "Login..."
 msgstr "Aanteken..."
 
-#: repositorydlg.cpp:140
+#: repositorydlg.cpp:161
 msgid "Logout..."
 msgstr "Teken af..."
 
-#: repositorydlg.cpp:294
+#: repositorydlg.cpp:316
 msgid "This repository is already known."
 msgstr "Hierdie stoorplek is alreeds bekend."
 
-#: repositorydlg.cpp:368
-msgid "Add Repository"
-msgstr "Voeg by Stoorplek"
-
-#: repositorydlg.cpp:385
-msgid "Use remote &shell (only for :ext: repositories):"
+#: repositorydlg.cpp:402
+msgid "Login failed."
 msgstr ""
 
-#: repositorydlg.cpp:392
-msgid "&Compression Level"
-msgstr "Saampersing Vlak"
+#: repositorydlg.cpp:422
+#, fuzzy
+msgid "CVS Logout"
+msgstr "Cvs Log"
 
-msgid "0"
-msgstr "0"
-
-#: repositorydlg.cpp:397
-msgid "1"
-msgstr "1"
-
-#: repositorydlg.cpp:398
-msgid "2"
-msgstr "2"
-
-#: repositorydlg.cpp:399
-msgid "3"
-msgstr "3"
-
-#: repositorydlg.cpp:455
-msgid "Repository Settings"
-msgstr "Stoorplek Instellings"
-
-#: resolvedlg.cpp:50
+#: resolvedlg.cpp:71
 msgid "Your version (A):"
 msgstr "Jou weergawe ('n):"
 
-#: resolvedlg.cpp:53
+#: resolvedlg.cpp:79
 msgid "Other version (B):"
 msgstr "Ander weergawe (B):"
 
-#: resolvedlg.cpp:65
+#: resolvedlg.cpp:90
 msgid "Merged version:"
 msgstr "Saamgevlans weergawe:"
 
-#: resolvedlg.cpp:119
-msgid "Sa&ve As..."
-msgstr "Stoor As..."
-
-#: resolvedlg.cpp:191
+#: resolvedlg.cpp:186
 #, c-format
 msgid "CVS Resolve: %1"
 msgstr "Cvs Oplos: %1"
 
-#: resolvedlg.cpp:292
+#: resolvedlg.cpp:287
 msgid "%1 conflicts"
 msgstr "%1 konflik"
 
-#: settingsdlg.cpp:60
+#: settingsdlg.cpp:76
 msgid "Configure Cervisia"
 msgstr "Konfigureer Cervisia"
 
-#: settingsdlg.cpp:70
-msgid "&General"
-msgstr "Algemeen"
-
-#: settingsdlg.cpp:72
-msgid "&User name for the change log editor:"
-msgstr "Gebruiker naam vir die verander log redigeerder:"
-
-#: settingsdlg.cpp:77
-msgid "&Path to cvs:"
-msgstr "Gids soeklys na cvs:"
-
-#: settingsdlg.cpp:81 settingsdlg.cpp:195
+#: settingsdlg.cpp:117
 msgid "&Editor:"
 msgstr "Redigeerder:"
 
-#: settingsdlg.cpp:92
+#: settingsdlg.cpp:120
+msgid "Use &DCOP"
+msgstr "Gebruik Dcop"
+
+#: settingsdlg.cpp:126
+msgid "&Client:"
+msgstr "Kliënt:"
+
+#: settingsdlg.cpp:132
+msgid "&Object:"
+msgstr "Voorwerp:"
+
+#: settingsdlg.cpp:279
+#, fuzzy
+msgid "General"
+msgstr "Algemeen"
+
+#: settingsdlg.cpp:283
+msgid "&User name for the change log editor:"
+msgstr "Gebruiker naam vir die verander log redigeerder:"
+
+#: settingsdlg.cpp:291
+msgid "&Path to CVS executable, or 'cvs':"
+msgstr ""
+
+#: settingsdlg.cpp:307
+#, fuzzy
+msgid "Diff"
+msgstr "Diff"
+
+#: settingsdlg.cpp:310
 msgid "&Number of context lines in diff dialog:"
 msgstr "Nommer van konteks lyne in diff dialoog:"
 
-#: settingsdlg.cpp:97
+#: settingsdlg.cpp:315
 msgid "Additional &options for cvs diff:"
 msgstr "Aditionele opsies vir cvs diff:"
 
-#: settingsdlg.cpp:101
+#: settingsdlg.cpp:319
 msgid "Tab &width in diff dialog:"
 msgstr "Oortjie wydte in diff dialoog:"
 
-#: settingsdlg.cpp:106
+#: settingsdlg.cpp:324
 msgid "External diff &frontend:"
 msgstr "Eksterne diff voorprogram:"
 
-#: settingsdlg.cpp:117
+#: settingsdlg.cpp:341
 msgid ""
 "When opening a sandbox from a &remote repository,\n"
 "start a File->Status command automatically"
 msgstr ""
 
-#: settingsdlg.cpp:119
+#: settingsdlg.cpp:343
 msgid ""
 "When opening a sandbox from a &local repository,\n"
 "start a File->Status command automatically"
 msgstr ""
 
-#: settingsdlg.cpp:127
-msgid "Ad&vanced"
+#: settingsdlg.cpp:356
+#, fuzzy
+msgid "Advanced"
 msgstr "Gevorderde"
 
-#: settingsdlg.cpp:129
+#: settingsdlg.cpp:359
 msgid "&Timeout after which a progress dialog appears (in ms):"
 msgstr "Tydverstreke na wat 'n vordering dialoog verskyn (in mev):"
 
-#: settingsdlg.cpp:135
+#: settingsdlg.cpp:365
 msgid "Default compression &level:"
 msgstr "Verstek saampersing vlak:"
 
-#: settingsdlg.cpp:149
-msgid "&Appearance"
-msgstr "Voorkoms"
+#: settingsdlg.cpp:374
+msgid "Utilize a running or start a new ssh-agent process"
+msgstr ""
 
-#: settingsdlg.cpp:151
+#: settingsdlg.cpp:397
 msgid "Font for &Protocol Window..."
 msgstr "Skrif tipe vir Protokol Venster..."
 
-#: settingsdlg.cpp:152
+#: settingsdlg.cpp:399
 msgid "Font for A&nnotate View..."
 msgstr "Skrif tipe vir Agteraanvoeg Besigtig..."
 
-#: settingsdlg.cpp:153
+#: settingsdlg.cpp:401
 msgid "Font for D&iff View..."
 msgstr "Skrif tipe vir Diff Besigtig..."
 
-#: settingsdlg.cpp:154
-msgid "Split main window &horizontally"
-msgstr "Skei hoof venster horisontaal"
+#: settingsdlg.cpp:403
+#, fuzzy
+msgid "Font for ChangeLog View..."
+msgstr "Skrif tipe vir Agteraanvoeg Besigtig..."
 
-#: settingsdlg.cpp:161
-msgid "Co&lors"
+#: settingsdlg.cpp:407
+#, fuzzy
+msgid "Colors"
 msgstr "Kleure"
 
-#: settingsdlg.cpp:163
+#: settingsdlg.cpp:411
 msgid "Conflict:"
 msgstr "Konflik:"
 
-#: settingsdlg.cpp:167
+#: settingsdlg.cpp:415
 msgid "Diff change:"
 msgstr "Diff verander:"
 
-#: settingsdlg.cpp:171
+#: settingsdlg.cpp:419
 msgid "Local change:"
 msgstr "Plaaslike verander:"
 
-#: settingsdlg.cpp:175
+#: settingsdlg.cpp:423
 msgid "Diff insertion:"
 msgstr "Diff invoeg:"
 
-#: settingsdlg.cpp:179
+#: settingsdlg.cpp:427
 msgid "Remote change:"
 msgstr "Afgeleë verander:"
 
-#: settingsdlg.cpp:183
+#: settingsdlg.cpp:431
 msgid "Diff deletion:"
 msgstr "Diff uitveeïng:"
 
-#: settingsdlg.cpp:198
-msgid "Use &DCOP"
-msgstr "Gebruik Dcop"
+#: settingsdlg.cpp:435
+msgid "Split main window &horizontally"
+msgstr "Skei hoof venster horisontaal"
 
-#: settingsdlg.cpp:204
-msgid "&Client:"
-msgstr "Kliënt:"
-
-#: settingsdlg.cpp:210
-msgid "&Object:"
-msgstr "Voorwerp:"
-
-#: tagdlg.cpp:36
+#: tagdlg.cpp:39
 msgid "CVS Delete Tag"
 msgstr "Cvs Uitvee Etiket"
 
-#: tagdlg.cpp:36
+#: tagdlg.cpp:39
 msgid "CVS Tag"
 msgstr "Cvs Etiket"
 
-#: tagdlg.cpp:47 tagdlg.cpp:67
+#: tagdlg.cpp:51 tagdlg.cpp:68
 msgid "&Name of tag:"
 msgstr "Naam van etiket:"
 
@@ -1203,11 +1392,11 @@ msgstr ""
 msgid "&Force tag creation even if tag already exists"
 msgstr "Forseer etiket skep al as etiket alreeds bestaan"
 
-#: tagdlg.cpp:118
+#: tagdlg.cpp:110
 msgid "You must define a tag name."
 msgstr "Jy moet definieer 'n etiket naam."
 
-#: tagdlg.cpp:126
+#: tagdlg.cpp:118
 msgid ""
 "Tag must start with a letter and may contain letters, digits and the "
 "characters '-' and '_'."
@@ -1219,121 +1408,109 @@ msgstr ""
 msgid "CVS Update"
 msgstr "Cvs Dateer op"
 
-#: updatedlg.cpp:37
+#: updatedlg.cpp:43
 msgid "Update to &branch: "
 msgstr ""
 
-#: updatedlg.cpp:54
+#: updatedlg.cpp:59
 msgid "Update to &tag: "
 msgstr "Dateer op na etiket: "
 
-#: updatedlg.cpp:70
-msgid ""
-"Update to &date:\n"
-"(Possible format: 'yyyy-mm-dd')"
+#: updatedlg.cpp:74
+#, fuzzy
+msgid "Update to &date ('yyyy-mm-dd'):"
 msgstr ""
 "Dateer op na datum:\n"
 "(Moontlik formaat: 'yyyy-mm-dd')"
 
-#: updateview.cpp:591 updateview.cpp:678
-msgid "Locally Modified"
-msgstr "Plaaslik Veranderde"
-
-#: updateview.cpp:593 updateview.cpp:676
-msgid "Locally Added"
-msgstr "Plaaslik Bygevoeg"
-
-#: updateview.cpp:595 updateview.cpp:677
-msgid "Locally Removed"
-msgstr "Plaaslik Verwyder"
-
-#: updateview.cpp:597 updateview.cpp:673
-msgid "Needs Update"
-msgstr "Verlang Dateer op"
-
-#: updateview.cpp:599 updateview.cpp:674
-msgid "Needs Patch"
-msgstr "Verlang Lap"
-
-#: updateview.cpp:601 updateview.cpp:675
-msgid "Needs Merge"
-msgstr "Verlang Saamvlans"
-
-#: updateview.cpp:603 updateview.cpp:679
-msgid "Up to date"
-msgstr "Begin na datum"
-
-#: updateview.cpp:605 updateview.cpp:680
-msgid "Conflict"
-msgstr "Konflik"
-
-#: updateview.cpp:607 updateview.cpp:670
-msgid "Updated"
-msgstr "Opgedateer"
-
-#: updateview.cpp:609 updateview.cpp:671
-msgid "Patched"
-msgstr "Gelapde"
-
-#: updateview.cpp:611 updateview.cpp:672
-msgid "Removed"
-msgstr "Verwyder"
-
-#: updateview.cpp:613 updateview.cpp:681
-msgid "Not in CVS"
-msgstr "Nie in Cvs"
-
-#: updateview.cpp:614 updateview.cpp:682
-msgid "Unknown"
-msgstr "Onbekende"
-
-#: updateview.cpp:661
+#: updateview.cpp:41
 msgid "File Name"
 msgstr "Lêer Naam"
 
-#: updateview.cpp:664
+#: updateview.cpp:44
 msgid "Tag/Date"
 msgstr "Etiket/Datum"
 
-#: updateview.cpp:665
+#: updateview.cpp:45
 msgid "Timestamp"
 msgstr "Tydmerk"
 
-#: watchdlg.cpp:33
+#: watchdlg.cpp:29
 msgid "CVS Watch Add"
 msgstr "Cvs Waarneem Voeg by"
 
-#: watchdlg.cpp:33
+#: watchdlg.cpp:29
 msgid "CVS Watch Remove"
 msgstr "Cvs Waarneem Verwyder"
 
-#: watchdlg.cpp:38
+#: watchdlg.cpp:36
 msgid "Add watches for the following events:"
 msgstr "Voeg by hou dop vir die volgende aktiwiteite:"
 
-#: watchdlg.cpp:39
+#: watchdlg.cpp:37
 msgid "Remove watches for the following events:"
 msgstr "Verwyder hou dop vir die volgende aktiwiteite:"
 
-#: watchdlg.cpp:42
+#: watchdlg.cpp:40
 msgid "&All"
 msgstr "Alle"
 
-#: watchdlg.cpp:47
+#: watchdlg.cpp:45
 msgid "&Only:"
 msgstr "Slegs:"
 
-#: watchdlg.cpp:56
+#: watchdlg.cpp:53
 msgid "&Commits"
 msgstr "Stuur in"
 
-#: watchdlg.cpp:60
+#: watchdlg.cpp:57
 msgid "&Edits"
 msgstr "Redigeer"
 
-#: watchdlg.cpp:64
+#: watchdlg.cpp:61
 msgid "&Unedits"
 msgstr ""
+
+#: watchersdlg.cpp:54
+#, fuzzy
+msgid "Watcher"
+msgstr "Gelapde"
+
+#: watchersdlg.cpp:56
+msgid "Unedit"
+msgstr ""
+
+#: watchersdlg.cpp:57
+#, fuzzy
+msgid "Commit"
+msgstr "Stuur in"
+
+#: watchersdlg.cpp:85 watchersdlg.cpp:91
+#, fuzzy
+msgid "CVS Watchers"
+msgstr "Vertoon Toeskouers"
+
+#~ msgid "Only &directories matching:"
+#~ msgstr "Slegs gidse ooreenstemmende:"
+
+#~ msgid "&Appearance"
+#~ msgstr "Voorkoms"
+
+#~ msgid "&Settings..."
+#~ msgstr "Instellings..."
+
+#~ msgid "&Path to cvs:"
+#~ msgstr "Gids soeklys na cvs:"
+
+#~ msgid ""
+#~ "\n"
+#~ "Tag: "
+#~ msgstr ""
+#~ "\n"
+#~ "Tag: "
+
+#~ msgid "Sa&ve As..."
+#~ msgstr "Stoor As..."
 
 #~ msgid "Shows or hides the toolbar"
 #~ msgstr "Vertoon of steek weg die nutsbalk"
