@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard VERSION\n"
-"POT-Creation-Date: 2004-08-04 01:18+0200\n"
+"POT-Creation-Date: 2004-12-11 01:18+0100\n"
 "PO-Revision-Date: 2002-11-07 11:30+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -13,12 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: KSysGuardApplet.cc:304 WorkSheet.cc:93
+#: KSysGuardApplet.cc:313 WorkSheet.cc:93
 #, c-format
 msgid "Cannot open the file %1."
 msgstr ""
 
-#: KSysGuardApplet.cc:313 WorkSheet.cc:101
+#: KSysGuardApplet.cc:322 WorkSheet.cc:101
 msgid "The file %1 does not contain valid XML."
 msgstr "Die lêer %1 doen nie bevat geldige Xml."
 
@@ -34,7 +34,7 @@ msgstr ""
 msgid "The file %1 has an invalid worksheet size."
 msgstr "Die lêer %1 het 'n ongeldige werkvel grootte."
 
-#: KSysGuardApplet.cc:448 WorkSheet.cc:221
+#: KSysGuardApplet.cc:460 WorkSheet.cc:221
 #, c-format
 msgid "Cannot save file %1"
 msgstr ""
@@ -48,15 +48,15 @@ msgstr "Die klipbord doen nie bevat 'n geldige vertoon beskrywing."
 msgid "It is impossible to connect to '%1'."
 msgstr "Onmoontlik na konnekteer na '%1'!"
 
-#: KSysGuardApplet.cc:194 WorkSheet.cc:322
+#: KSysGuardApplet.cc:200 WorkSheet.cc:322
 msgid "Select Display Type"
 msgstr "Kies Vertoon Tipe"
 
-#: KSysGuardApplet.cc:195 WorkSheet.cc:323
+#: KSysGuardApplet.cc:201 WorkSheet.cc:323
 msgid "&Signal Plotter"
 msgstr "Sein Plotter"
 
-#: KSysGuardApplet.cc:196 WorkSheet.cc:324
+#: KSysGuardApplet.cc:202 WorkSheet.cc:324
 msgid "&Multimeter"
 msgstr "Multimeter"
 
@@ -68,11 +68,11 @@ msgstr "Balkgrafiek"
 msgid "S&ensorLogger"
 msgstr "Sensorlogger"
 
-#: KSysGuardApplet.cc:243 WorkSheet.cc:457
+#: KSysGuardApplet.cc:252 WorkSheet.cc:457
 msgid "Do you really want to delete the display?"
 msgstr "Doen jy rerig wil hê na uitvee die vertoon?"
 
-#: KSysGuardApplet.cc:243 WorkSheet.cc:458
+#: KSysGuardApplet.cc:252 WorkSheet.cc:458
 #, fuzzy
 msgid "Delete Display"
 msgstr "Kies Vertoon Tipe"
@@ -98,8 +98,9 @@ msgstr "Gebruik dateer op interval van werkvel"
 msgid "Update interval:"
 msgstr "Dateer op interval:"
 
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 68
 #: KSGAppletSettings.cc:67 WorkSheetSettings.cc:91 ksgrd/TimerSettings.cc:51
-#: rc.cpp:14
+#: rc.cpp:21
 #, no-c-format
 msgid " sec"
 msgstr " sek"
@@ -218,13 +219,15 @@ msgstr "Voorgrond kleur:"
 msgid "Second foreground color:"
 msgstr "Voorgrond kleur:"
 
-#: ksgrd/StyleSettings.cc:61 rc.cpp:84
+#. i18n: file ./SensorDisplayLib/SensorLoggerSettingsWidget.ui line 107
+#: ksgrd/StyleSettings.cc:61 rc.cpp:132
 #, no-c-format
 msgid "Alarm color:"
 msgstr "Alarm kleur:"
 
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 241
 #: SensorDisplayLib/DancingBarsSettings.cc:143 SensorDisplayLib/LogFile.cc:90
-#: ksgrd/StyleSettings.cc:68 rc.cpp:62 rc.cpp:74 rc.cpp:82
+#: ksgrd/StyleSettings.cc:68 rc.cpp:96 rc.cpp:114 rc.cpp:129
 #, no-c-format
 msgid "Background color:"
 msgstr "Agtergrond kleur:"
@@ -238,7 +241,7 @@ msgstr "Skrif tipe grootte:"
 msgid "Sensor Colors"
 msgstr "Sensor Kleure"
 
-#: ksgrd/ColorPicker.cc:50 ksgrd/StyleSettings.cc:91
+#: ksgrd/StyleSettings.cc:91
 msgid "Change Color..."
 msgstr "Verander Kleur..."
 
@@ -256,7 +259,7 @@ msgstr "Gebruiker Las"
 msgid "Idle Load"
 msgstr "Luier Las"
 
-#: Workspace.cc:96 Workspace.cc:105 ksgrd/SensorManager.cc:52 ksysguard.cc:153
+#: Workspace.cc:96 Workspace.cc:105 ksgrd/SensorManager.cc:52 ksysguard.cc:155
 msgid "System Load"
 msgstr "Stelsel Las"
 
@@ -304,7 +307,7 @@ msgstr "Vry Geheue"
 msgid "Process Count"
 msgstr "Proses Tel"
 
-#: ksgrd/SensorManager.cc:64 ksgrd/SensorManager.cc:143
+#: ksgrd/SensorManager.cc:64 ksgrd/SensorManager.cc:144
 msgid "Process Controller"
 msgstr "Proses Beheerder"
 
@@ -414,7 +417,7 @@ msgstr "Sokets"
 msgid "Total Number"
 msgstr "Totaal Nommer"
 
-#: ksgrd/SensorManager.cc:91 ksgrd/SensorManager.cc:144
+#: ksgrd/SensorManager.cc:91 ksgrd/SensorManager.cc:145
 msgid "Table"
 msgstr "Tabel"
 
@@ -436,109 +439,114 @@ msgid "Battery Charge"
 msgstr "Batery Laai"
 
 #: ksgrd/SensorManager.cc:96
+#, fuzzy
+msgid "Battery Usage"
+msgstr "Batery Laai"
+
+#: ksgrd/SensorManager.cc:97
 msgid "Remaining Time"
 msgstr "Oor Tyd"
 
-#: ksgrd/SensorManager.cc:97
+#: ksgrd/SensorManager.cc:98
 msgid "Interrupts"
 msgstr "Interrupts"
 
-#: ksgrd/SensorManager.cc:98
+#: ksgrd/SensorManager.cc:99
 msgid "Load Average (1 min)"
 msgstr "Las Gemiddelde (1 min)"
 
-#: ksgrd/SensorManager.cc:99
+#: ksgrd/SensorManager.cc:100
 msgid "Load Average (5 min)"
 msgstr "Las Gemiddelde (5 min)"
 
-#: ksgrd/SensorManager.cc:100
+#: ksgrd/SensorManager.cc:101
 msgid "Load Average (15 min)"
 msgstr "Las Gemiddelde (15 min)"
 
-#: ksgrd/SensorManager.cc:101
+#: ksgrd/SensorManager.cc:102
 msgid "Clock Frequency"
 msgstr "Horlosie Frekwensie"
 
-#: ksgrd/SensorManager.cc:102
+#: ksgrd/SensorManager.cc:103
 msgid "Hardware Sensors"
 msgstr "Hardeware Sensors"
 
-#: ksgrd/SensorManager.cc:103
+#: ksgrd/SensorManager.cc:104
 msgid "Partition Usage"
 msgstr "Partisie Gebruik"
 
-#: ksgrd/SensorManager.cc:104
+#: ksgrd/SensorManager.cc:105
 msgid "Used Space"
 msgstr "Gebruik word Spasie"
 
-#: ksgrd/SensorManager.cc:105
+#: ksgrd/SensorManager.cc:106
 msgid "Free Space"
 msgstr "Vry Spasie"
 
-#: ksgrd/SensorManager.cc:106
+#: ksgrd/SensorManager.cc:107
 msgid "Fill Level"
 msgstr "Opvul Vlak"
 
-#: ksgrd/SensorManager.cc:110
+#: ksgrd/SensorManager.cc:111
 #, c-format
 msgid "CPU%1"
 msgstr "CPU%1"
 
-#: ksgrd/SensorManager.cc:112
+#: ksgrd/SensorManager.cc:113
 #, c-format
 msgid "Disk%1"
 msgstr "Disk%1"
 
-#: ksgrd/SensorManager.cc:117
+#: ksgrd/SensorManager.cc:118
 #, c-format
 msgid "Fan%1"
 msgstr "Fan%1"
 
-#: ksgrd/SensorManager.cc:119
+#: ksgrd/SensorManager.cc:120
 #, c-format
 msgid "Temperature%1"
 msgstr "Temperature%1"
 
-#: ksgrd/SensorManager.cc:122
+#: ksgrd/SensorManager.cc:123
 msgid "Total"
 msgstr "Totaal"
 
-#: ksgrd/SensorManager.cc:128
+#: ksgrd/SensorManager.cc:129
 #, c-format
 msgid "Int%1"
 msgstr "Int%1"
 
-#: ksgrd/SensorManager.cc:135
+#: ksgrd/SensorManager.cc:136
 msgid ""
 "_: the unit 1 per second\n"
 "1/s"
 msgstr "1/s"
 
-#: ksgrd/SensorManager.cc:136
+#: ksgrd/SensorManager.cc:137
 msgid "kBytes"
 msgstr "Kgrepe"
 
-#: ksgrd/SensorManager.cc:137
+#: ksgrd/SensorManager.cc:138
 msgid ""
 "_: the unit minutes\n"
 "min"
 msgstr "min"
 
-#: ksgrd/SensorManager.cc:138
+#: ksgrd/SensorManager.cc:139
 msgid ""
 "_: the frequency unit\n"
 "MHz"
 msgstr "Mhz"
 
-#: ksgrd/SensorManager.cc:141
+#: ksgrd/SensorManager.cc:142
 msgid "Integer Value"
 msgstr "Heelgetal Waarde"
 
-#: ksgrd/SensorManager.cc:142
+#: ksgrd/SensorManager.cc:143
 msgid "Floating Point Value"
 msgstr "Wissel Punt Waarde"
 
-#: ksgrd/SensorManager.cc:279
+#: ksgrd/SensorManager.cc:280
 #, fuzzy
 msgid "Connection to %1 has been lost."
 msgstr "Verbinding na %1 het al verloor!"
@@ -574,7 +582,7 @@ msgid ""
 "worksheet (Menu File->New) before you can drag sensors here."
 msgstr ""
 
-#: Workspace.cc:101 ksysguard.cc:158
+#: Workspace.cc:101 ksysguard.cc:160
 msgid "Process Table"
 msgstr "Proses Tabel"
 
@@ -818,14 +826,16 @@ msgstr "Redigeer Balkgrafiek Voorkeure"
 msgid "Range"
 msgstr "Omvang"
 
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 25
 #: SensorDisplayLib/DancingBarsSettings.cc:50 WorkSheetSettings.cc:48
-#: rc.cpp:32 rc.cpp:66 rc.cpp:76 rc.cpp:90
+#: rc.cpp:48 rc.cpp:102 rc.cpp:120 rc.cpp:144
 #, no-c-format
 msgid "Title"
 msgstr "Titel"
 
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 36
 #: SensorDisplayLib/DancingBarsSettings.cc:54
-#: SensorDisplayLib/FancyPlotterSettings.cc:63 rc.cpp:34
+#: SensorDisplayLib/FancyPlotterSettings.cc:63 rc.cpp:51
 #, no-c-format
 msgid "Enter the title of the display here."
 msgstr "Invoer die titel van die vertoon hier."
@@ -862,12 +872,14 @@ msgstr ""
 "Invoer die maksimum waarde vir die vertoon hier. As beide waardes word 0 "
 "automaties omvang verklikker is geaktiveer."
 
-#: SensorDisplayLib/DancingBarsSettings.cc:84 rc.cpp:40
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 61
+#: SensorDisplayLib/DancingBarsSettings.cc:84 rc.cpp:60
 #, no-c-format
 msgid "Alarms"
 msgstr "Alarms"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:87 rc.cpp:16 rc.cpp:50
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 78
+#: SensorDisplayLib/DancingBarsSettings.cc:87 rc.cpp:24 rc.cpp:75
 #, no-c-format
 msgid "Alarm for Minimum Value"
 msgstr "Alarm vir Minimum Waarde"
@@ -878,27 +890,32 @@ msgstr "Alarm vir Minimum Waarde"
 msgid "Enable alarm"
 msgstr "Aktiveer alarm"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:92 rc.cpp:20 rc.cpp:54
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 92
+#: SensorDisplayLib/DancingBarsSettings.cc:92 rc.cpp:30 rc.cpp:81
 #, no-c-format
 msgid "Enable the minimum value alarm."
 msgstr "Aktiveer die minimum waarde alarm."
 
-#: SensorDisplayLib/DancingBarsSettings.cc:95 rc.cpp:22 rc.cpp:56
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 120
+#: SensorDisplayLib/DancingBarsSettings.cc:95 rc.cpp:33 rc.cpp:84
 #, no-c-format
 msgid "Lower limit:"
 msgstr "Sagter beperk:"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:105 rc.cpp:24 rc.cpp:42
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 144
+#: SensorDisplayLib/DancingBarsSettings.cc:105 rc.cpp:36 rc.cpp:63
 #, no-c-format
 msgid "Alarm for Maximum Value"
 msgstr "Alarm vir Maksimum Waarde"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:110 rc.cpp:28 rc.cpp:46
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 158
+#: SensorDisplayLib/DancingBarsSettings.cc:110 rc.cpp:42 rc.cpp:69
 #, no-c-format
 msgid "Enable the maximum value alarm."
 msgstr "Aktiveer die maksimum waarde alarm."
 
-#: SensorDisplayLib/DancingBarsSettings.cc:113 rc.cpp:30 rc.cpp:48
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 186
+#: SensorDisplayLib/DancingBarsSettings.cc:113 rc.cpp:45 rc.cpp:72
 #, no-c-format
 msgid "Upper limit:"
 msgstr "Boonste beperk:"
@@ -1079,7 +1096,8 @@ msgstr "Tel:"
 msgid "Enter the number of horizontal lines here."
 msgstr "Invoer die nommer van horisontaal lyne hier."
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:167 rc.cpp:88
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 35
+#: SensorDisplayLib/FancyPlotterSettings.cc:167 rc.cpp:141
 #, no-c-format
 msgid "Text"
 msgstr "Teks"
@@ -1109,8 +1127,9 @@ msgstr ""
 "slegs bruikbare vir miniprogram vertoon. die kolom is slegs sigbare as die "
 "vertoon is groot genoeg."
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:192 rc.cpp:58 rc.cpp:68 rc.cpp:78
-#: rc.cpp:92
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 206
+#: SensorDisplayLib/FancyPlotterSettings.cc:192 rc.cpp:87 rc.cpp:105
+#: rc.cpp:123 rc.cpp:147
 #, no-c-format
 msgid "Colors"
 msgstr "Kleure"
@@ -1153,16 +1172,16 @@ msgstr "Beweeg Begin"
 msgid "Move Down"
 msgstr "Beweeg Ondertoe"
 
-#: SensorDisplayLib/SensorLogger.cc:153 SensorDisplayLib/SensorLoggerDlg.cc:28
+#: SensorDisplayLib/SensorLogger.cc:152 SensorDisplayLib/SensorLoggerDlg.cc:28
 msgid "Sensor Logger"
 msgstr "Sensor Logger"
 
-#: SensorDisplayLib/SensorDisplay.cc:154 SensorDisplayLib/SensorLogger.cc:382
+#: SensorDisplayLib/SensorDisplay.cc:154 SensorDisplayLib/SensorLogger.cc:381
 #, fuzzy
 msgid "&Properties"
 msgstr "Werkvel Eienskappe"
 
-#: SensorDisplayLib/SensorDisplay.cc:155 SensorDisplayLib/SensorLogger.cc:383
+#: SensorDisplayLib/SensorDisplay.cc:155 SensorDisplayLib/SensorLogger.cc:382
 msgid "&Remove Display"
 msgstr "Verwyder Vertoon"
 
@@ -1192,44 +1211,45 @@ msgstr ""
 "<i>Eienskappe</i> inskrywing van die opspring kieslys. kies <i>Verwyder</i> "
 "Na uitvee die vertoon van die werkvel.</p>%1</qt>"
 
-#: SensorDisplayLib/SensorLogger.cc:138
+#: SensorDisplayLib/SensorLogger.cc:137
 msgid "Logging"
 msgstr "Afteken"
 
-#: SensorDisplayLib/SensorLogger.cc:139 rc.cpp:12
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 48
+#: SensorDisplayLib/SensorLogger.cc:138 rc.cpp:18
 #, no-c-format
 msgid "Timer Interval"
 msgstr "Tydhouer Interval"
 
-#: SensorDisplayLib/SensorLogger.cc:140
+#: SensorDisplayLib/SensorLogger.cc:139
 #, fuzzy
 msgid "Sensor Name"
 msgstr "Sensor naam"
 
-#: SensorDisplayLib/SensorLogger.cc:141
+#: SensorDisplayLib/SensorLogger.cc:140
 #, fuzzy
 msgid "Host Name"
 msgstr "Masjien naam"
 
-#: SensorDisplayLib/SensorLogger.cc:142
+#: SensorDisplayLib/SensorLogger.cc:141
 #, fuzzy
 msgid "Log File"
 msgstr "Loglêer"
 
-#: SensorDisplayLib/SensorLogger.cc:385
+#: SensorDisplayLib/SensorLogger.cc:384
 msgid "&Remove Sensor"
 msgstr "Verwyder Sensor"
 
-#: SensorDisplayLib/SensorLogger.cc:386
+#: SensorDisplayLib/SensorLogger.cc:385
 #, fuzzy
 msgid "&Edit Sensor..."
 msgstr "Redigeer Sensor"
 
-#: SensorDisplayLib/SensorLogger.cc:398
+#: SensorDisplayLib/SensorLogger.cc:397
 msgid "St&op Logging"
 msgstr "Stop Afteken"
 
-#: SensorDisplayLib/SensorLogger.cc:400
+#: SensorDisplayLib/SensorLogger.cc:399
 msgid "S&tart Logging"
 msgstr "Begin Afteken"
 
@@ -1417,69 +1437,94 @@ msgstr "Onvoldoende regte na maak netjies proses %1!"
 msgid "Invalid argument."
 msgstr "Ongeldige argument!"
 
-#: rc.cpp:18 rc.cpp:52
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 89
+#: rc.cpp:27 rc.cpp:78
 #, no-c-format
 msgid "&Enable alarm"
 msgstr "Aktiveer alarm"
 
-#: rc.cpp:26 rc.cpp:44
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 155
+#: rc.cpp:39 rc.cpp:66
 #, no-c-format
 msgid "E&nable alarm"
 msgstr "Aktiveer alarm"
 
-#: rc.cpp:36
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 44
+#: rc.cpp:54
 #, no-c-format
 msgid "&Show unit"
 msgstr "Vertoon eenheid"
 
-#: rc.cpp:38
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 47
+#: rc.cpp:57
 #, no-c-format
 msgid "Enable this to append the unit to the title of the display."
 msgstr ""
 "Aktiveer hierdie na voeg-agteraan-by die eenheid na die titel van die "
 "vertoon."
 
-#: rc.cpp:60
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 225
+#: rc.cpp:90
 #, no-c-format
 msgid "Normal digit color:"
 msgstr "Normale syfer kleur:"
 
-#: rc.cpp:64
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 233
+#: rc.cpp:93
 #, no-c-format
 msgid "Alarm digit color:"
 msgstr "Alarm syfer kleur:"
 
-#: rc.cpp:70 rc.cpp:80
+#. i18n: file ./SensorDisplayLib/ListViewSettingsWidget.ui line 82
+#: rc.cpp:108 rc.cpp:126
 #, no-c-format
 msgid "Text color:"
 msgstr "Teks kleur:"
 
-#: rc.cpp:72
+#. i18n: file ./SensorDisplayLib/ListViewSettingsWidget.ui line 90
+#: rc.cpp:111
 #, no-c-format
 msgid "Grid color:"
 msgstr "Rooster kleur:"
 
-#: rc.cpp:86
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 17
+#: rc.cpp:138
 #, no-c-format
 msgid "Log File Settings"
 msgstr "Log Lêer Instellings"
 
-#: rc.cpp:96
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 94
+#: rc.cpp:150
+#, fuzzy, no-c-format
+msgid "Foreground Color:"
+msgstr "Voorgrond kleur:"
+
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 102
+#: rc.cpp:153
+#, fuzzy, no-c-format
+msgid "Background Color:"
+msgstr "Agtergrond kleur:"
+
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 187
+#: rc.cpp:161
 #, no-c-format
 msgid "Select Font..."
 msgstr "Kies Skrif tipe..."
 
-#: rc.cpp:98
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 199
+#: rc.cpp:164
 #, no-c-format
 msgid "Filter"
 msgstr "Filter"
 
-#: rc.cpp:100
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 238
+#: rc.cpp:167
 #, no-c-format
 msgid "&Add"
 msgstr "Voeg by"
 
-#: rc.cpp:104
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 254
+#: rc.cpp:173
 #, no-c-format
 msgid "&Change"
 msgstr "Verander"
@@ -1508,11 +1553,11 @@ msgstr "Invoer die nommer van kolomme die staat moet het."
 msgid "Enter the title of the worksheet here."
 msgstr "Invoer die titel van die werkvel hier."
 
-#: KSysGuardApplet.cc:197
+#: KSysGuardApplet.cc:203
 msgid "&Dancing Bars"
 msgstr "Dans Stawe"
 
-#: KSysGuardApplet.cc:224 KSysGuardApplet.cc:377
+#: KSysGuardApplet.cc:233 KSysGuardApplet.cc:386
 msgid ""
 "The KSysGuard applet does not support displaying of this type of sensor. "
 "Please choose another sensor."
@@ -1520,7 +1565,7 @@ msgstr ""
 "Die Ksysguard miniprogram doen nie ondersteun vertooning van hierdie tipe "
 "van sensor. Asseblief kies nog 'n sensor."
 
-#: KSysGuardApplet.cc:320
+#: KSysGuardApplet.cc:329
 msgid ""
 "The file %1 does not contain a valid applet definition, which must have a "
 "document type 'KSysGuardApplet'."
@@ -1528,7 +1573,7 @@ msgstr ""
 "Die lêer %1 doen nie bevat 'n geldige miniprogram definisie, wat moet het "
 "'n dokument tipe 'KSysGuardApplet'."
 
-#: KSysGuardApplet.cc:465
+#: KSysGuardApplet.cc:477
 msgid "Drag sensors from the KDE System Guard into this cell."
 msgstr "Trek sensors van die Kde Stelsel Wag binnein hierdie sel."
 
@@ -1540,11 +1585,11 @@ msgstr "Sensor Blaaier"
 msgid "Sensor Type"
 msgstr "Sensor Tipe"
 
-#: SensorBrowser.cc:79
+#: SensorBrowser.cc:81
 msgid "Drag sensors to empty cells of a worksheet or the panel applet."
 msgstr "Trek sensors na leeg selle van 'n werkvel of die paneel miniprogram."
 
-#: SensorBrowser.cc:88
+#: SensorBrowser.cc:90
 msgid ""
 "The sensor browser lists the connected hosts and the sensors that they "
 "provide. Click and drag sensors into drop zones of a worksheet or the panel "
@@ -1559,7 +1604,7 @@ msgstr ""
 "veelvuldige sensors. Eenvoudig trek ander sensors op na Die vertoon na voeg "
 "by meer sensors."
 
-#: SensorBrowser.cc:149
+#: SensorBrowser.cc:151
 #, fuzzy
 msgid "Drag sensors to empty fields in a worksheet."
 msgstr "Trek sensors na leeg velde in 'n werkvel"
@@ -1569,7 +1614,7 @@ msgstr "Trek sensors na leeg velde in 'n werkvel"
 msgid "KDE system guard"
 msgstr "Kde Stelsel Wag"
 
-#: ksysguard.cc:71 ksysguard.cc:527
+#: ksysguard.cc:71 ksysguard.cc:531
 msgid "KDE System Guard"
 msgstr "Kde Stelsel Wag"
 
@@ -1600,19 +1645,23 @@ msgstr "Ontkoppel Bediener"
 msgid "&Worksheet Properties"
 msgstr "Werkvel Eienskappe"
 
-#: ksysguard.cc:124
+#: ksysguard.cc:122
+msgid "Load Standard Sheets"
+msgstr ""
+
+#: ksysguard.cc:126
 msgid "Configure &Style..."
 msgstr "Konfigureer Styl..."
 
-#: ksysguard.cc:139
+#: ksysguard.cc:141
 msgid "Do you really want to restore the default worksheets?"
 msgstr ""
 
-#: ksysguard.cc:140
+#: ksysguard.cc:142
 msgid "Reset All Worksheets"
 msgstr ""
 
-#: ksysguard.cc:422
+#: ksysguard.cc:411
 #, c-format
 msgid ""
 "_n: 1 Process\n"
@@ -1621,27 +1670,31 @@ msgstr ""
 "1 Proses\n"
 "%n Prosesse"
 
-#: ksysguard.cc:432
+#: ksysguard.cc:421
 msgid "Memory: %1 %2 used, %3 %4 free"
 msgstr "Geheue: %1 %2 gebruik word, %3 %4 vry"
 
-#: ksysguard.cc:440
+#: ksysguard.cc:479
+msgid "No swap space available"
+msgstr ""
+
+#: ksysguard.cc:481
 msgid "Swap: %1 %2 used, %3 %4 free"
 msgstr "Uitruil: %1 %2 gebruik word, %3 %4 vry"
 
-#: ksysguard.cc:486
+#: ksysguard.cc:490
 msgid "Show only process list of local host"
 msgstr "Vertoon slegs proses lys van plaaslike bediener"
 
-#: ksysguard.cc:487
+#: ksysguard.cc:491
 msgid "Optional worksheet files to load"
 msgstr "Opsionele werkvel lêers na las"
 
-#: ksysguard.cc:529
+#: ksysguard.cc:533
 msgid "(c) 1996-2002 The KSysGuard Developers"
 msgstr "(c) 1996-2002 Die Ksysguard Ontwikkelaars"
 
-#: ksysguard.cc:537
+#: ksysguard.cc:541
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
