@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcontrol VERSION\n"
-"POT-Creation-Date: 2004-07-20 01:20+0200\n"
+"POT-Creation-Date: 2004-12-14 01:21+0100\n"
 "PO-Revision-Date: 2002-11-07 11:29+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -46,6 +46,10 @@ msgstr ""
 #: aboutwidget.cpp:48 main.cpp:95
 msgid "KDE Info Center"
 msgstr "Kde Inligting Sentrum"
+
+#: aboutwidget.cpp:50
+msgid "Get system and desktop environment information"
+msgstr ""
 
 #: aboutwidget.cpp:52
 msgid ""
@@ -155,55 +159,6 @@ msgstr ""
 "<br>Kliek <a href = \"kcontrol/index.html\">hier</a> na lees die algemeen "
 "Kontrole Sentrum hand."
 
-#: kcmshell.cpp:55
-msgid "List all possible modules"
-msgstr "Lys alle moontlik modules"
-
-#: kcmshell.cpp:56
-#, fuzzy
-msgid "Configuration module to open"
-msgstr "Opstelling module na open."
-
-#: kcmshell.cpp:57
-#, fuzzy
-msgid "Specify a particular language"
-msgstr "Spesifiseer 'n spesifieke taal."
-
-#: kcmshell.cpp:58
-#, fuzzy
-msgid "Window ID to embed into"
-msgstr "Venster Id na inbed binnein."
-
-#: kcmshell.cpp:59
-#, fuzzy
-msgid "Do not display main window"
-msgstr "Doen nie vertoon hoof venster."
-
-#: kcmshell.cpp:146 kcmshell.cpp:236
-msgid "KDE Control Module"
-msgstr "Kde Kontrole Module"
-
-#: kcmshell.cpp:148
-msgid "A tool to start single KDE control modules"
-msgstr "'n program na begin enkel Kde kontrole modules"
-
-#: kcmshell.cpp:152 main.cpp:115 main.cpp:117
-msgid "Current Maintainer"
-msgstr "Huidige Onderhouer"
-
-#: kcmshell.cpp:173
-msgid "The following modules are available:"
-msgstr ""
-
-#: kcmshell.cpp:194
-msgid "No description available"
-msgstr ""
-
-#: kcmshell.cpp:242 kcmshell.cpp:317
-#, c-format
-msgid "Configure - %1"
-msgstr ""
-
 #: kcrootonly.cpp:30
 msgid ""
 "<big>You need super user privileges to run this control "
@@ -224,6 +179,10 @@ msgstr "(c) 1998-2002, Die Kde Kontrole Sentrum Ontwikkelaars"
 #: main.cpp:96
 msgid "The KDE Info Center"
 msgstr "Die Kde Inligting Sentrum"
+
+#: main.cpp:115 main.cpp:117
+msgid "Current Maintainer"
+msgstr "Huidige Onderhouer"
 
 #: modules.cpp:153
 msgid "<big>Loading...</big>"
@@ -276,12 +235,14 @@ msgstr "Herstel"
 msgid "&Administrator Mode"
 msgstr "Administrateur Modus"
 
-#: rc.cpp:4 rc.cpp:10
+#. i18n: file kcontrolui.rc line 5
+#: rc.cpp:6 rc.cpp:15
 #, no-c-format
 msgid "&Mode"
 msgstr "Modus"
 
-#: rc.cpp:6 rc.cpp:12
+#. i18n: file kcontrolui.rc line 9
+#: rc.cpp:9 rc.cpp:18
 #, no-c-format
 msgid "Icon &Size"
 msgstr "Ikoon Grootte"
@@ -358,6 +319,31 @@ msgid ""
 "About %1"
 msgstr "Aangaande %1"
 
+#~ msgid "List all possible modules"
+#~ msgstr "Lys alle moontlik modules"
+
+#, fuzzy
+#~ msgid "Configuration module to open"
+#~ msgstr "Opstelling module na open."
+
+#, fuzzy
+#~ msgid "Specify a particular language"
+#~ msgstr "Spesifiseer 'n spesifieke taal."
+
+#, fuzzy
+#~ msgid "Window ID to embed into"
+#~ msgstr "Venster Id na inbed binnein."
+
+#, fuzzy
+#~ msgid "Do not display main window"
+#~ msgstr "Doen nie vertoon hoof venster."
+
+#~ msgid "KDE Control Module"
+#~ msgstr "Kde Kontrole Module"
+
+#~ msgid "A tool to start single KDE control modules"
+#~ msgstr "'n program na begin enkel Kde kontrole modules"
+
 #, fuzzy
 #~ msgid "Configuration module to run."
 #~ msgstr "Opstelling module na open."
@@ -377,20 +363,8 @@ msgstr "Aangaande %1"
 #~ msgid "There was an error loading the module."
 #~ msgstr "Daar was 'n fout laaiïng van die module."
 
-#~ msgid ""
-#~ "<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>An error "
-#~ "occurred during your last KDE upgrade leaving an orphaned control "
-#~ "module<li>You have old third party modules lying around.</ul><p>Check "
-#~ "these points carefully and try to remove the module mentioned in the "
-#~ "error message. If this fails, consider contacting your distributor or "
-#~ "packager.</p></qt>"
-#~ msgstr ""
-#~ "<qt><p>Die diagnose terugvoer is:<br>%1<p>Moontlik redes:</p><ul><li>'n "
-#~ "fout voorgekom gedurende jou laaste Kde opgradering verlaat 'n verwese "
-#~ "kontrole module<li>Jy het ou derde party modules liggende omtrent.</"
-#~ "ul><p>Bevestig hierdie punte versigtig en probeer na verwyder Die module "
-#~ "genoem in Die fout boodskap. As hierdie vaal, beskou kontak maak na jou "
-#~ "verspreider of verpakker.</p></qt>"
+#~ msgid "<qt><p>The diagnostics is:<br>%1<p>Possible reasons:</p><ul><li>An error occurred during your last KDE upgrade leaving an orphaned control module<li>You have old third party modules lying around.</ul><p>Check these points carefully and try to remove the module mentioned in the error message. If this fails, consider contacting your distributor or packager.</p></qt>"
+#~ msgstr "<qt><p>Die diagnose terugvoer is:<br>%1<p>Moontlik redes:</p><ul><li>'n fout voorgekom gedurende jou laaste Kde opgradering verlaat 'n verwese kontrole module<li>Jy het ou derde party modules liggende omtrent.</ul><p>Bevestig hierdie punte versigtig en probeer na verwyder Die module genoem in Die fout boodskap. As hierdie vaal, beskou kontak maak na jou verspreider of verpakker.</p></qt>"
 
 #~ msgid ""
 #~ "There was an error loading module\n"
