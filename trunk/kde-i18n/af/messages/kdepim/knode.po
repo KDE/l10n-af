@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knode VERSION\n"
-"POT-Creation-Date: 2003-01-09 03:15+0100\n"
+"POT-Creation-Date: 2005-01-31 01:33+0100\n"
 "PO-Revision-Date: 2002-09-27 16:40+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,21 +25,82 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: knaccountmanager.cpp:148
-msgid "Cannot create a directory for this account!"
+#: aboutdata.cpp:30
+msgid "Maintainer"
+msgstr "Onderhouer"
+
+#: aboutdata.cpp:31
+#, fuzzy
+msgid "Former maintainer"
+msgstr "Onderhouer"
+
+#: aboutdata.cpp:45
+msgid "KNode"
+msgstr "Knode"
+
+#: aboutdata.cpp:47
+msgid "A newsreader for KDE"
+msgstr "'n nuusleser vir Kde"
+
+#: aboutdata.cpp:49
+#, fuzzy
+msgid "Copyright (c) 1999-2005 the KNode authors"
+msgstr "Kopiereg (c) 1999-2001 die Knode outeure"
+
+#: headerview.cpp:44 knfilterconfigwidget.cpp:34
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: headerview.cpp:45 headerview.cpp:442 knfilterconfigwidget.cpp:36
+msgid "From"
+msgstr "Van"
+
+#: headerview.cpp:46 headerview.cpp:78 knfilterconfigwidget.cpp:57
+msgid "Score"
+msgstr "Telling"
+
+#: headerview.cpp:47 knfilterconfigwidget.cpp:61
+msgid "Lines"
+msgstr "Lyne"
+
+#: headerview.cpp:48 headerview.cpp:226
+msgid "Date"
+msgstr "Datum"
+
+#: headerview.cpp:75 kncollectionview.cpp:52
+msgid "View Columns"
+msgstr ""
+
+#: headerview.cpp:77
+#, fuzzy
+msgid "Line Count"
+msgstr "Vertoon lyn tel"
+
+#: headerview.cpp:224
+msgid "Date (thread changed)"
+msgstr ""
+
+#: headerview.cpp:451
+#, fuzzy
+msgid "Newsgroups / To"
+msgstr "Nuusgroepe/Na"
+
+#: knaccountmanager.cpp:140
+#, fuzzy
+msgid "Cannot create a folder for this account."
 msgstr "Kan nie skep 'n gids vir hierdie rekening!"
 
-#: knaccountmanager.cpp:162
+#: knaccountmanager.cpp:154
 msgid "This account cannot be deleted since there are some unsent messages for it."
 msgstr ""
 "Hierdie rekening kan nie wees uitgevee sedert daar word sommige ongestuurde "
 "boodskappe vir dit."
 
-#: knaccountmanager.cpp:164
+#: knaccountmanager.cpp:156
 msgid "Do you really want to delete this account?"
 msgstr "Doen jy rerig wil hê na uitvee hierdie rekening?"
 
-#: knaccountmanager.cpp:170
+#: knaccountmanager.cpp:162
 msgid ""
 "At least one group of this account is currently in use.\n"
 "The account cannot be deleted at the moment."
@@ -48,8 +109,9 @@ msgstr ""
 "Die rekening kan nie wees uitgevee Na Die oomblik."
 
 #: knarticlecollection.cpp:55
+#, fuzzy
 msgid ""
-"Memory allocation failed!\n"
+"Memory allocation failed.\n"
 "You should close this application now\n"
 "to avoid data loss."
 msgstr ""
@@ -57,53 +119,55 @@ msgstr ""
 "Jy moet maak toe hierdie aansoek nou\n"
 "na vermy data verlies."
 
-#: knarticlefactory.cpp:143
+#: knarticlefactory.cpp:144
+#, fuzzy
 msgid ""
 "The author has requested a reply by email instead\n"
-"of a followup to the newsgroup. (Followup-To: poster)"
+"of a followup to the newsgroup. (Followup-To: poster)\n"
+"Do you want to reply in public anyway?"
 msgstr ""
 "Die outeur het versoekte 'n antwoord deur e-pos in plaas van\n"
 "van 'n opvolg na Die nuusgroep. (opvolg-na: stuurder)"
 
-#: knarticlefactory.cpp:193
+#: knarticlefactory.cpp:195
 msgid "The author requested a mail copy of your reply. (Mail-Copies-To header)"
 msgstr "Die outeur versoekte 'n pos kopie van jou antwoord. (pos-Copies-To opskrif)"
 
-#: knarticlefactory.cpp:280
+#: knarticlefactory.cpp:283
 msgid "This article contains attachments. Do you want them to be forwarded as well?"
 msgstr ""
 "Hierdie artikel bevat aanhegsels. Doen jy wil hê hulle na wees aangestuurde "
 "as goed?"
 
-#: knarticlefactory.cpp:307
+#: knarticlefactory.cpp:310
 msgid "Forwarded message (begin)"
 msgstr "Aangestuurde boodskap (begin)"
 
-#: knarticlefactory.cpp:309
+#: knarticlefactory.cpp:312
 msgid " Subject"
 msgstr " Onderwerp"
 
-#: knarticlefactory.cpp:310
+#: knarticlefactory.cpp:313
 msgid " From"
 msgstr " Van"
 
-#: knarticlefactory.cpp:311
+#: knarticlefactory.cpp:314
 msgid " Date"
 msgstr " Datum"
 
-#: knarticlefactory.cpp:312
+#: knarticlefactory.cpp:315
 msgid " Newsgroup"
 msgstr " Nuusgroep"
 
-#: knarticlefactory.cpp:322
+#: knarticlefactory.cpp:325
 msgid "Forwarded message (end)"
 msgstr "Aangestuurde boodskap (einde)"
 
-#: knarticlefactory.cpp:361
+#: knarticlefactory.cpp:364
 msgid "Do you really want to cancel this article?"
 msgstr "Doen jy rerig wil hê na kanseleer hierdie artikel?"
 
-#: knarticlefactory.cpp:365
+#: knarticlefactory.cpp:368
 msgid ""
 "Do you want to send the cancel\n"
 "message now or later?"
@@ -111,43 +175,58 @@ msgstr ""
 "Doen jy wil hê na stuur die kanseleer\n"
 "boodskap nou of later?"
 
-#: knarticlefactory.cpp:365
+#: knarticlefactory.cpp:368
 msgid "Question"
 msgstr "Vraag"
 
-#: knarticlefactory.cpp:365
+#: knarticlefactory.cpp:368
 msgid "&Now"
 msgstr "Nou"
 
-#: knarticlefactory.cpp:365
+#: knarticlefactory.cpp:368
 msgid "&Later"
 msgstr "Later"
 
-#: knarticlefactory.cpp:380 knarticlefactory.cpp:457 kncomposer.cpp:1253
-msgid "You have no valid news accounts configured!"
+#: knarticlefactory.cpp:383 knarticlefactory.cpp:460 kncomposer.cpp:1493
+#, fuzzy
+msgid "You have no valid news accounts configured."
 msgstr "Jy het nee geldige nuus rekeninge gekonfigureer!"
 
-#: knarticlefactory.cpp:441
+#: knarticlefactory.cpp:444
 msgid "Do you really want to supersede this article?"
 msgstr "Doen jy rerig wil hê na supersede hierdie artikel?"
 
-#: knarticlefactory.cpp:572
+#: knarticlefactory.cpp:575
 msgid "This article cannot be edited."
 msgstr "Hierdie artikel kan nie wees geredigeerde."
 
-#: knarticlefactory.cpp:619
+#: knarticlefactory.cpp:602 knarticlefactory.cpp:901
+msgid ""
+"<qt>The signature generator program produced the following "
+"output:<br><br>%1</qt>"
+msgstr ""
+
+#: knarticlefactory.cpp:628
 msgid "Article has already been sent."
 msgstr "Artikel het alreeds al gestuur."
 
-#: knarticlefactory.cpp:636
-msgid "Unable to load article!"
+#: knarticlefactory.cpp:645
+#, fuzzy
+msgid "Unable to load article."
 msgstr "Nie moontlik na las artikel!"
 
-#: knarticlefactory.cpp:661
-msgid "Unable to load the outbox-folder!"
+#: knarticlefactory.cpp:670
+#, fuzzy
+msgid "Unable to load the outbox-folder."
 msgstr "Nie moontlik na las die outbox-folder!"
 
-#: knarticlefactory.cpp:784
+#: knarticlefactory.cpp:744
+msgid ""
+"You have aborted the posting of articles. The unsent articles are stored in "
+"the \"Outbox\" folder."
+msgstr ""
+
+#: knarticlefactory.cpp:793
 msgid ""
 "Please set a hostname for the generation\n"
 "of the message-id or disable it."
@@ -155,30 +234,43 @@ msgstr ""
 "Asseblief stel 'n masjien naam vir die genereering\n"
 "van die message-id of deaktiveer dit."
 
-#: knarticlefactory.cpp:830
-msgid "Please enter a valid email address."
-msgstr "Asseblief invoer 'n geldige e-pos adres."
+#: knarticlefactory.cpp:836
+msgid ""
+"Please enter a valid email address at the identity tab of the account "
+"configuration dialog."
+msgstr ""
 
-#: knarticlefactory.cpp:914
-msgid "Emails cannot be canceled or superseded!"
+#: knarticlefactory.cpp:839
+msgid ""
+"Please enter a valid email address at the identity section of the "
+"configuration dialog."
+msgstr ""
+
+#: knarticlefactory.cpp:921
+#, fuzzy
+msgid "Emails cannot be canceled or superseded."
 msgstr "Epos adresse kan nie wees gekanseleer of superseded!"
 
-#: knarticlefactory.cpp:920
-msgid "Cancel messages cannot be canceled or superseded!"
+#: knarticlefactory.cpp:927
+#, fuzzy
+msgid "Cancel messages cannot be canceled or superseded."
 msgstr "Kanseleer boodskappe kan nie wees gekanseleer of superseded!"
 
-#: knarticlefactory.cpp:925
-msgid "Only sent articles can be canceled or superseded!"
+#: knarticlefactory.cpp:932
+#, fuzzy
+msgid "Only sent articles can be canceled or superseded."
 msgstr "Slegs gestuur aktikels kan wees gekanseleer of superseded!"
 
-#: knarticlefactory.cpp:930
-msgid "This article has already been canceled or superseded!"
+#: knarticlefactory.cpp:937
+#, fuzzy
+msgid "This article has already been canceled or superseded."
 msgstr "Hierdie artikel het alreeds al gekanseleer of superseded!"
 
-#: knarticlefactory.cpp:937
+#: knarticlefactory.cpp:944
+#, fuzzy
 msgid ""
 "This article cannot be canceled or superseded,\n"
-"because its message-id has not been created by KNode!\n"
+"because its message-id has not been created by KNode.\n"
 "But you can look for your article in the newsgroup\n"
 "and cancel (or supersede) it there."
 msgstr ""
@@ -187,7 +279,7 @@ msgstr ""
 "Maar jy kan kyk vir jou artikel in die nuusgroep\n"
 "en kanseleer (of supersede) dit daar."
 
-#: knarticlefactory.cpp:974
+#: knarticlefactory.cpp:978
 msgid ""
 "This article does not appear to be from you.\n"
 "You can only cancel or supersede your own articles."
@@ -195,7 +287,7 @@ msgstr ""
 "Hierdie artikel doen nie verskyn na wees van jy.\n"
 "jy kan slegs kanseleer of supersede jou eie aktikels."
 
-#: knarticlefactory.cpp:979
+#: knarticlefactory.cpp:983
 msgid ""
 "You have to download the article body\n"
 "before you can cancel or supersede the article."
@@ -203,16 +295,21 @@ msgstr ""
 "Jy het na aflaai die artikel liggaam\n"
 "voor Jy kan kanseleer of supersede die artikel."
 
-#: knarticlefactory.cpp:1068
-msgid "Failed tasks:"
-msgstr "Gevaal take:"
-
-#: knarticlefactory.cpp:1089
+#: knarticlefactory.cpp:1071
 msgid "Errors While Sending"
 msgstr "Foute Terwyl Stuur"
 
-#: knarticlefactory.cpp:1113
-msgid "<b>Error message:</b></br>"
+#: knarticlefactory.cpp:1077
+msgid "Errors occurred while sending these articles:"
+msgstr ""
+
+#: knarticlefactory.cpp:1078
+msgid "The unsent articles are stored in the \"Outbox\" folder."
+msgstr ""
+
+#: knarticlefactory.cpp:1107
+#, fuzzy
+msgid "<b>Error message:</b><br>"
 msgstr "<b>Fout boodskap:</b></br>"
 
 #: knarticlefilter.cpp:35
@@ -263,133 +360,151 @@ msgid ""
 "threads with own articles"
 msgstr "rygdrade met eie aktikels"
 
-#: knarticlemanager.cpp:85
+#: knarticlemanager.cpp:83
 msgid "Save Attachment"
 msgstr "Stoor Aanhegsel"
 
-#: knarticlemanager.cpp:108
+#: knarticlemanager.cpp:106
 msgid "Save Article"
 msgstr "Stoor Artikel"
 
-#: knarticlemanager.cpp:190
+#: knarticlemanager.cpp:188
 msgid " Creating list..."
 msgstr " Te skep lys..."
 
-#: knarticlemanager.cpp:402 knfilterconfigwidget.cpp:36 knode.cpp:175
-msgid "From"
-msgstr "Van"
-
-#: knarticlemanager.cpp:411
-msgid "Newsgroups/To"
-msgstr "Nuusgroepe/Na"
-
-#: knarticlemanager.cpp:573 kngroup.cpp:400
+#: knarticlemanager.cpp:576 kngroup.cpp:423
 msgid "no subject"
 msgstr "nee onderwerp"
 
-#: knarticlemanager.cpp:578
+#: knarticlemanager.cpp:581
 msgid "Do you really want to delete these articles?"
 msgstr "Doen jy rerig wil hê na uitvee hierdie aktikels?"
 
-#: knarticlemanager.cpp:995 kngroupbrowser.cpp:414 kngroupbrowser.cpp:427
-#: knode.cpp:360
+#: knarticlemanager.cpp:582
+#, fuzzy
+msgid "Delete Articles"
+msgstr "Uitvee Artikel"
+
+#: knarticlemanager.cpp:1017 kngroupbrowser.cpp:415 kngroupbrowser.cpp:428
+#: knmainwidget.cpp:356
 msgid " (moderated)"
 msgstr " (moderated)"
 
-#: knarticlemanager.cpp:997
+#: knarticlemanager.cpp:1019
 msgid " %1: %2 new , %3 displayed"
 msgstr " %1: %2 nuwe , %3 vertoon"
 
-#: knarticlemanager.cpp:1001
+#: knarticlemanager.cpp:1023
 #, c-format
 msgid " Filter: %1"
 msgstr " Filter: %1"
 
-#: knarticlemanager.cpp:1010
+#: knarticlemanager.cpp:1032
 msgid " %1: %2 displayed"
 msgstr " %1: %2 vertoon"
 
-#: knarticlewidget.cpp:75
+#: knarticlewidget.cpp:92
 msgid "Article Source"
 msgstr "Artikel Bron"
 
-#: knarticlewidget.cpp:143
+#: knarticlewidget.cpp:162
 msgid "&Open Link"
 msgstr "Open Skakel"
 
-#: knarticlewidget.cpp:144
-msgid "&Copy Link Location"
-msgstr "Kopie Skakel Ligging"
+#: knarticlewidget.cpp:163
+msgid "&Copy Link Address"
+msgstr ""
 
-#: knarticlewidget.cpp:146
+#: knarticlewidget.cpp:164
+msgid "Bookmark This Link"
+msgstr ""
+
+#: knarticlewidget.cpp:167
+msgid "&Add to Address Book"
+msgstr ""
+
+#: knarticlewidget.cpp:168
+msgid "&Open in Address Book"
+msgstr ""
+
+#: knarticlewidget.cpp:169
+msgid "&Copy to Clipboard"
+msgstr ""
+
+#: knarticlewidget.cpp:172
 msgid "&Open Attachment"
 msgstr "Open Aanhegsel"
 
-#: knarticlewidget.cpp:147
+#: knarticlewidget.cpp:173
 #, fuzzy
 msgid "&Save Attachment..."
 msgstr "Stoor Aanhegsel"
 
-#: knarticlewidget.cpp:151
+#: knarticlewidget.cpp:177
 msgid "&Save..."
 msgstr "Stoor..."
 
-#: knarticlewidget.cpp:157
+#: knarticlewidget.cpp:183
 msgid "&Followup to Newsgroup..."
 msgstr "Opvolg na Nuusgroep..."
 
-#: knarticlewidget.cpp:159
+#: knarticlewidget.cpp:185
 msgid "Reply by E&mail..."
 msgstr "Antwoord deur E-pos..."
 
-#: knarticlewidget.cpp:161
+#: knarticlewidget.cpp:187
 msgid "Forw&ard by Email..."
 msgstr "Vorentoe deur E-pos..."
 
-#: knarticlewidget.cpp:163
+#: knarticlewidget.cpp:189
 msgid ""
 "_: article\n"
 "&Cancel Article"
 msgstr "Kanseleer Artikel"
 
-#: knarticlewidget.cpp:165
+#: knarticlewidget.cpp:191
 #, fuzzy
 msgid "S&upersede Article"
 msgstr "Supersede Artikel..."
 
-#: knarticlewidget.cpp:167
+#: knarticlewidget.cpp:193
 msgid "&Verify PGP Signature"
 msgstr "Bevestig Pgp Handtekening"
 
-#: knarticlewidget.cpp:169
+#: knarticlewidget.cpp:195
 msgid "Show &All Headers"
 msgstr "Vertoon Alle Opskrifte"
 
-#: knarticlewidget.cpp:172
+#: knarticlewidget.cpp:197
+#, fuzzy
+msgid "Hide &All Headers"
+msgstr "Vertoon Alle Opskrifte"
+
+#: knarticlewidget.cpp:199
 msgid "&Unscramble (Rot 13)"
 msgstr "Unscramble (Rot 13)"
 
-#: knarticlewidget.cpp:174
+#: knarticlewidget.cpp:201
 msgid "U&se Fixed Font"
 msgstr "Gebruik Vasgemaakte Skrif tipe"
 
-#: knarticlewidget.cpp:177
+#: knarticlewidget.cpp:204
 msgid "&View Source"
 msgstr "Besigtig Bron"
 
-#: knarticlewidget.cpp:180
+#: knarticlewidget.cpp:207
 msgid "Chars&et"
 msgstr "Karakterstel"
 
-#: knarticlewidget.cpp:183 knarticlewidget.cpp:1731
+#: knarticlewidget.cpp:210 knarticlewidget.cpp:1849
 msgid "Automatic"
 msgstr "Automaties"
 
-#: knarticlewidget.cpp:188
+#: knarticlewidget.cpp:215
 msgid "Charset"
 msgstr "Karakterstel"
 
-#: knarticlewidget.cpp:282
+#: knarticlewidget.cpp:320
 msgid ""
 "End of article reached.\n"
 "Continue from the beginning?"
@@ -397,11 +512,11 @@ msgstr ""
 "Einde van artikel bereik.\n"
 "Gaan voort van die begin?"
 
-#: knarticlewidget.cpp:283 knarticlewidget.cpp:291 knarticlewidget.cpp:300
+#: knarticlewidget.cpp:321 knarticlewidget.cpp:329 knarticlewidget.cpp:338
 msgid "Find"
 msgstr "Soek"
 
-#: knarticlewidget.cpp:290
+#: knarticlewidget.cpp:328
 msgid ""
 "Beginning of article reached.\n"
 "Continue from the end?"
@@ -409,93 +524,103 @@ msgstr ""
 "Begin van artikel bereik.\n"
 "Gaan voort van die einde?"
 
-#: knarticlewidget.cpp:299
+#: knarticlewidget.cpp:337
 msgid "Search string '%1' not found."
 msgstr "Soektog string '%1' nie gevind."
 
-#: knarticlewidget.cpp:802 knarticlewidget.cpp:812
-msgid "Internal error: Malformed identifier!"
+#: knarticlewidget.cpp:778
+msgid "%1 not found"
+msgstr ""
+
+#: knarticlewidget.cpp:865 knarticlewidget.cpp:875
+#, fuzzy
+msgid "Internal error: Malformed identifier."
 msgstr "Intern fout: Misformde identifiseerder!"
 
-#: knarticlewidget.cpp:873
-msgid "<bodyblock><b><font size=+1 color=red>An error occurred!</font></b><hr><br>"
+#: knarticlewidget.cpp:936
+#, fuzzy
+msgid "<bodyblock><b><font size=+1 color=red>An error occurred.</font></b><hr><br>"
 msgstr "<bodyblock><b><font size=+1 color=red>'n fout voorgekom!</font></b><hr><br>"
 
-#: knarticlewidget.cpp:934
-msgid "Unable to load the article!"
+#: knarticlewidget.cpp:997
+#, fuzzy
+msgid "Unable to load the article."
 msgstr "Nie moontlik na las die artikel!"
 
-#: knarticlewidget.cpp:975
-msgid "<b><font size=+1 color=red>An error occurred!</font></b><hr><br>"
+#: knarticlewidget.cpp:1038
+#, fuzzy
+msgid "<b><font size=+1 color=red>An error occurred.</font></b><hr><br>"
 msgstr "<b><font size=+1 color=red>'n fout voorgekom!</font></b><hr><br>"
 
-#: knarticlewidget.cpp:999
+#: knarticlewidget.cpp:1062
 msgid "the article contains no data"
 msgstr "die artikel bevat nee data"
 
-#: knarticlewidget.cpp:1054
+#: knarticlewidget.cpp:1135
 msgid "%1%2:%3"
 msgstr "%1%2:%3"
 
-#: knarticlewidget.cpp:1098
+#: knarticlewidget.cpp:1180
 msgid "References:"
 msgstr "Verwysings:"
 
-#: knarticlewidget.cpp:1107
+#: knarticlewidget.cpp:1189
 msgid "no references"
 msgstr "nee verwysings"
 
-#: knarticlewidget.cpp:1120
-msgid "Unknown charset! Default charset is used instead."
+#: knarticlewidget.cpp:1202
+#, fuzzy
+msgid "Unknown charset. Default charset is used instead."
 msgstr "Onbekende karakterstel! Verstek karakterstel is gebruik word in plaas van."
 
-#: knarticlewidget.cpp:1148
-msgid "Cannot find a signature in this message!"
+#: knarticlewidget.cpp:1230
+#, fuzzy
+msgid "Cannot find a signature in this message."
 msgstr "Kan nie soek 'n handtekening in hierdie boodskap!"
 
-#: knarticlewidget.cpp:1156
+#: knarticlewidget.cpp:1238
 #, c-format
 msgid "Message was signed with unknown key 0x%1."
 msgstr "Boodskap was geondertekende met onbekende sleutel 0x%1."
 
-#: knarticlewidget.cpp:1159
-msgid "The validity of the signature can't be verified."
+#: knarticlewidget.cpp:1241
+msgid "The validity of the signature cannot be verified."
 msgstr ""
 
-#: knarticlewidget.cpp:1176
+#: knarticlewidget.cpp:1258
 msgid "Message was signed by %1 (Key ID: 0x%2)."
 msgstr "Boodskap was geondertekende deur %1 (Sleutel Id: 0x%2)."
 
-#: knarticlewidget.cpp:1180
+#: knarticlewidget.cpp:1262
 #, c-format
 msgid "Message was signed by %1."
 msgstr "Boodskap was geondertekende deur %1."
 
-#: knarticlewidget.cpp:1188
+#: knarticlewidget.cpp:1270
 msgid "The signature is valid, but the key's validity is unknown."
 msgstr "Die handtekening is geldige, maar Die key's geldigheid is onbekende."
 
-#: knarticlewidget.cpp:1192
+#: knarticlewidget.cpp:1274
 msgid "The signature is valid and the key is marginally trusted."
 msgstr ""
 
-#: knarticlewidget.cpp:1196
+#: knarticlewidget.cpp:1278
 msgid "The signature is valid and the key is fully trusted."
 msgstr "Die handtekening is geldige en Die sleutel is volledig vertroude."
 
-#: knarticlewidget.cpp:1200
+#: knarticlewidget.cpp:1282
 msgid "The signature is valid and the key is ultimately trusted."
 msgstr ""
 
-#: knarticlewidget.cpp:1204
+#: knarticlewidget.cpp:1286
 msgid "The signature is valid, but the key is untrusted."
 msgstr "Die handtekening is geldige, maar Die sleutel is wantroue."
 
-#: knarticlewidget.cpp:1210
+#: knarticlewidget.cpp:1292
 msgid "Warning: The signature is bad."
 msgstr "Waarskuwing: Die handtekening is slegte."
 
-#: knarticlewidget.cpp:1237
+#: knarticlewidget.cpp:1319
 msgid ""
 "<br><bodyblock><b>This article has the MIME type "
 "&quot;message/partial&quot;, which KNode cannot handle yet."
@@ -507,23 +632,23 @@ msgstr ""
 "<br>Intussen jy kan stoor die artikel as 'n teks lêer en hersaamstel dit "
 "deur hand.</b></bodyblock></qt>"
 
-#: knarticlewidget.cpp:1340
+#: knarticlewidget.cpp:1424
 msgid "name"
 msgstr "naam"
 
-#: knarticlewidget.cpp:1340
+#: knarticlewidget.cpp:1424
 msgid "mime-type"
 msgstr "mime-tipe"
 
-#: knarticlewidget.cpp:1340
+#: knarticlewidget.cpp:1424
 msgid "description"
 msgstr "beskrywing"
 
-#: knarticlewidget.cpp:1345
+#: knarticlewidget.cpp:1429
 msgid "unnamed"
 msgstr "nie-genaamd"
 
-#: knarticlewidget.cpp:1453
+#: knarticlewidget.cpp:1540
 msgid ""
 "<qt>Do you want treat the selected text as an <b>email address</b> or a "
 "<b>message-id</b>?</qt>"
@@ -531,309 +656,344 @@ msgstr ""
 "<qt>Doen jy wil hê behandel die gekose teks as 'n <b>e-pos adres</b> of 'n "
 "<b>message-id</b>?</qt>"
 
-#: knarticlewidget.cpp:1454
+#: knarticlewidget.cpp:1541
 msgid "Address or ID"
 msgstr "Adres of Id"
 
-#: knarticlewidget.cpp:1454
+#: knarticlewidget.cpp:1541
 msgid "&Email"
 msgstr "E-pos"
 
-#: knarticlewidget.cpp:1454
+#: knarticlewidget.cpp:1541
 msgid "&Message-Id"
 msgstr "Message-Id"
 
-#: knarticlewidget.cpp:1749 kncomposer.cpp:994
+#: knarticlewidget.cpp:1688
+#, fuzzy
+msgid "Print Article"
+msgstr "Vorige Artikel"
+
+#: knarticlewidget.cpp:1867 kncomposer.cpp:1219
 msgid "Select Charset"
 msgstr "Kies Karakterstel"
 
-#: knarticlewidget.cpp:1870
+#: knarticlewidget.cpp:1996
 msgid ""
 "_: collection of article headers\n"
 "Approved"
 msgstr "Goedgekeur"
 
-#: knarticlewidget.cpp:1871
+#: knarticlewidget.cpp:1997
 msgid ""
 "_: collection of article headers\n"
 "Content-Transfer-Encoding"
 msgstr "Content-Transfer-Encoding"
 
-#: knarticlewidget.cpp:1872
+#: knarticlewidget.cpp:1998
 msgid ""
 "_: collection of article headers\n"
 "Content-Type"
 msgstr "Content-Type"
 
-#: knarticlewidget.cpp:1873
+#: knarticlewidget.cpp:1999
 msgid ""
 "_: collection of article headers\n"
 "Control"
 msgstr "Kontrole"
 
-#: knarticlewidget.cpp:1874
+#: knarticlewidget.cpp:2000
 msgid ""
 "_: collection of article headers\n"
 "Date"
 msgstr "Datum"
 
-#: knarticlewidget.cpp:1875
+#: knarticlewidget.cpp:2001
 msgid ""
 "_: collection of article headers\n"
 "Distribution"
 msgstr "Verspreiding"
 
-#: knarticlewidget.cpp:1876
+#: knarticlewidget.cpp:2002
 msgid ""
 "_: collection of article headers\n"
 "Expires"
 msgstr "Verstrek"
 
-#: knarticlewidget.cpp:1877
+#: knarticlewidget.cpp:2003
 msgid ""
 "_: collection of article headers\n"
 "Followup-To"
 msgstr "Followup-To"
 
-#: knarticlewidget.cpp:1878
+#: knarticlewidget.cpp:2004
 msgid ""
 "_: collection of article headers\n"
 "From"
 msgstr "Van"
 
-#: knarticlewidget.cpp:1879
+#: knarticlewidget.cpp:2005
 msgid ""
 "_: collection of article headers\n"
 "Lines"
 msgstr "Lyne"
 
-#: knarticlewidget.cpp:1880
+#: knarticlewidget.cpp:2006
 msgid ""
 "_: collection of article headers\n"
 "Mail-Copies-To"
 msgstr "Mail-Copies-To"
 
-#: knarticlewidget.cpp:1881
+#: knarticlewidget.cpp:2007
 msgid ""
 "_: collection of article headers\n"
 "Message-ID"
 msgstr "Message-ID"
 
-#: knarticlewidget.cpp:1882
+#: knarticlewidget.cpp:2008
 msgid ""
 "_: collection of article headers\n"
 "Mime-Version"
 msgstr "Mime-Version"
 
-#: knarticlewidget.cpp:1883
+#: knarticlewidget.cpp:2009
 msgid ""
 "_: collection of article headers\n"
 "NNTP-Posting-Host"
 msgstr "NNTP-Posting-Host"
 
-#: knarticlewidget.cpp:1884
+#: knarticlewidget.cpp:2010
 msgid ""
 "_: collection of article headers\n"
 "Newsgroups"
 msgstr "Nuusgroepe"
 
-#: knarticlewidget.cpp:1885
+#: knarticlewidget.cpp:2011
 msgid ""
 "_: collection of article headers\n"
 "Organization"
 msgstr "Organisasie"
 
-#: knarticlewidget.cpp:1886
+#: knarticlewidget.cpp:2012
 msgid ""
 "_: collection of article headers\n"
 "Path"
 msgstr "Gids soeklys"
 
-#: knarticlewidget.cpp:1887
+#: knarticlewidget.cpp:2013
 msgid ""
 "_: collection of article headers\n"
 "References"
 msgstr "Verwysings"
 
-#: knarticlewidget.cpp:1888
+#: knarticlewidget.cpp:2014
 msgid ""
 "_: collection of article headers\n"
 "Reply-To"
 msgstr "Reply-To"
 
-#: knarticlewidget.cpp:1889
+#: knarticlewidget.cpp:2015
 msgid ""
 "_: collection of article headers\n"
 "Sender"
 msgstr "Stuurder"
 
-#: knarticlewidget.cpp:1890
+#: knarticlewidget.cpp:2016
 msgid ""
 "_: collection of article headers\n"
 "Subject"
 msgstr "Onderwerp"
 
-#: knarticlewidget.cpp:1891
+#: knarticlewidget.cpp:2017
 msgid ""
 "_: collection of article headers\n"
 "Supersedes"
 msgstr "Supersedes"
 
-#: knarticlewidget.cpp:1892
+#: knarticlewidget.cpp:2018
 msgid ""
 "_: collection of article headers\n"
 "To"
 msgstr "Na"
 
-#: knarticlewidget.cpp:1893
+#: knarticlewidget.cpp:2019
 msgid ""
 "_: collection of article headers\n"
 "User-Agent"
 msgstr "User-Agent"
 
-#: knarticlewidget.cpp:1894
+#: knarticlewidget.cpp:2020
 msgid ""
 "_: collection of article headers\n"
 "X-Mailer"
 msgstr "X-Mailer"
 
-#: knarticlewidget.cpp:1895
+#: knarticlewidget.cpp:2021
 msgid ""
 "_: collection of article headers\n"
 "X-Newsreader"
 msgstr "X-Newsreader"
 
-#: knarticlewidget.cpp:1896
+#: knarticlewidget.cpp:2022
 msgid ""
 "_: collection of article headers\n"
 "X-No-Archive"
 msgstr "X-No-Archive"
 
-#: knarticlewidget.cpp:1897
+#: knarticlewidget.cpp:2023
 msgid ""
 "_: collection of article headers\n"
 "XRef"
 msgstr "Xref"
 
-#: knarticlewidget.cpp:1899
+#: knarticlewidget.cpp:2025
 msgid ""
 "_: collection of article headers\n"
 "Groups"
 msgstr "Groepe"
 
-#: kncleanup.cpp:58
+#: kncleanup.cpp:62
 msgid "Deleting expired articles in <b>%1</b>"
 msgstr "Uitveeïng verstrek aktikels in <b>%1</b>"
 
-#: kncleanup.cpp:64
+#: kncleanup.cpp:68
 msgid "Compacting folder <b>%1</b>"
 msgstr "Kompakteer kabinet <b>%1</b>"
 
-#: kncleanup.cpp:186
+#: kncleanup.cpp:193
 msgid "<b>%1</b><br>expired: %2<br>left: %3"
 msgstr "<b>%1</b><br>verstrek: %2<br>links: %3"
 
-#: kncleanup.cpp:254
+#: kncleanup.cpp:261
 msgid "Cleaning Up"
 msgstr "Maak skoon Begin"
 
-#: kncleanup.cpp:262
+#: kncleanup.cpp:269
 msgid "Cleaning up. Please wait..."
 msgstr "Maak skoon begin. Asseblief wag..."
 
-#: kncomposer.cpp:93
+#: kncollectionview.cpp:45 knconfigwidgets.cpp:1558 kngroupbrowser.cpp:88
+msgid "Name"
+msgstr "Naam"
+
+#: kncollectionview.cpp:54
+#, fuzzy
+msgid "Unread Column"
+msgstr "Ongeleeste"
+
+#: kncollectionview.cpp:55
+#, fuzzy
+msgid "Total Column"
+msgstr "Kies Sorteer Kolom"
+
+#: kncollectionview.cpp:109 kncollectionview.cpp:113 kncollectionview.cpp:399
+msgid "Unread"
+msgstr "Ongeleeste"
+
+#: kncollectionview.cpp:111 kncollectionview.cpp:410
+msgid "Total"
+msgstr "Totaal"
+
+#: kncomposer.cpp:82
+msgid "Edit Recent Addresses..."
+msgstr ""
+
+#: kncomposer.cpp:211
 msgid "&Send Now"
 msgstr "Stuur Nou"
 
-#: kncomposer.cpp:96
+#: kncomposer.cpp:214
 msgid "Send &Later"
 msgstr "Stuur Later"
 
-#: kncomposer.cpp:99
+#: kncomposer.cpp:217
 msgid "Save as &Draft"
 msgstr "Stoor as Rofwerk"
 
-#: kncomposer.cpp:102
+#: kncomposer.cpp:220
 msgid "D&elete"
 msgstr "Uitvee"
 
-#: kncomposer.cpp:124
+#: kncomposer.cpp:236
 msgid "Paste as &Quotation"
 msgstr "Plak as Aanhaling"
 
-#: kncomposer.cpp:134
+#: kncomposer.cpp:247
 msgid "Append &Signature"
 msgstr "Voeg-agteraan-by Handtekening"
 
-#: kncomposer.cpp:137
+#: kncomposer.cpp:250
 msgid "&Insert File..."
 msgstr "Voeg by Lêer..."
 
-#: kncomposer.cpp:140
+#: kncomposer.cpp:253
 msgid "Insert File (in a &box)..."
 msgstr "Voeg by Lêer (in 'n boks)..."
 
-#: kncomposer.cpp:143
+#: kncomposer.cpp:256
 msgid "Attach &File..."
 msgstr "Aanheg Lêer..."
 
-#: kncomposer.cpp:146
+#: kncomposer.cpp:259
 msgid "Sign Article with &PGP"
 msgstr "Teken Artikel met Pgp"
 
-#: kncomposer.cpp:158
+#: kncomposer.cpp:266 kncomposer.cpp:1918
+msgid "&Properties"
+msgstr "Eienskappe"
+
+#: kncomposer.cpp:271
 msgid "Send &News Article"
 msgstr "Stuur Nuus Artikel"
 
-#: kncomposer.cpp:161
+#: kncomposer.cpp:274
 msgid "Send E&mail"
 msgstr "Stuur E-pos"
 
-#: kncomposer.cpp:164
+#: kncomposer.cpp:277
 msgid "Set &Charset"
 msgstr "Stel Karakterstel"
 
-#: kncomposer.cpp:170
+#: kncomposer.cpp:283
 msgid "Set Charset"
 msgstr "Stel Karakterstel"
 
-#: kncomposer.cpp:174
+#: kncomposer.cpp:287
 msgid "&Word Wrap"
 msgstr "Woord Oorvloei"
 
-#: kncomposer.cpp:179
+#: kncomposer.cpp:292
 msgid "Add &Quote Characters"
 msgstr "Voeg by Aangaling Karakters"
 
-#: kncomposer.cpp:182
+#: kncomposer.cpp:295
 msgid "&Remove Quote Characters"
 msgstr "Verwyder Aangaling Karakters"
 
-#: kncomposer.cpp:185
+#: kncomposer.cpp:298
 msgid "Add &Box"
 msgstr "Voeg by Boks"
 
-#: kncomposer.cpp:188
+#: kncomposer.cpp:301
 msgid "Re&move Box"
 msgstr "Verwyder Boks"
 
-#: kncomposer.cpp:191
+#: kncomposer.cpp:304
 msgid "Get &Original Text (not re-wrapped)"
 msgstr "Kry Oorspronklike Teks (nie re-wrapped)"
 
-#: kncomposer.cpp:195
+#: kncomposer.cpp:308
 msgid "S&cramble (Rot 13)"
 msgstr "Maak deurmekaar (Rot 13)"
 
-#: kncomposer.cpp:200
+#: kncomposer.cpp:313
 msgid "Start &External Editor"
 msgstr "Begin Eksterne Redigeerder"
 
-#: kncomposer.cpp:329 kncomposer.cpp:332 kncomposer.cpp:952
+#: kncomposer.cpp:537 kncomposer.cpp:540 kncomposer.cpp:1177
 msgid "<posted & mailed>"
 msgstr "<posted & mailed>"
 
-#: kncomposer.cpp:330 kncomposer.cpp:953
+#: kncomposer.cpp:538 kncomposer.cpp:1178
 msgid ""
 "<posted & mailed>\n"
 "\n"
@@ -841,23 +1001,26 @@ msgstr ""
 "<posted & mailed>\n"
 "\n"
 
-#: kncomposer.cpp:351
-msgid "Please enter a subject!"
+#: kncomposer.cpp:559
+#, fuzzy
+msgid "Please enter a subject."
 msgstr "Asseblief invoer 'n onderwerp!"
 
-#: kncomposer.cpp:359
-msgid "Please enter a newsgroup!"
+#: kncomposer.cpp:567
+#, fuzzy
+msgid "Please enter a newsgroup."
 msgstr "Asseblief invoer 'n nuusgroep!"
 
-#: kncomposer.cpp:368
+#: kncomposer.cpp:576
+#, fuzzy
 msgid ""
 "You are crossposting to more than 12 newsgroups.\n"
-"Please remove all newsgroups in which your article is off-topic!"
+"Please remove all newsgroups in which your article is off-topic."
 msgstr ""
 "Jy word kruispos na meer as 12 nuusgroepe.\n"
 "Asseblief verwyder alle nuusgroepe in wat jou artikel is off-topic!"
 
-#: kncomposer.cpp:373
+#: kncomposer.cpp:581
 msgid ""
 "You are crossposting to more than five newsgroups.\n"
 "Please reconsider whether this is really useful\n"
@@ -869,23 +1032,24 @@ msgstr ""
 "en verwyder groepe in wat jou artikel is off-topic.\n"
 "Doen Jy wil hê na re-edit die artikel of stuur dit in elkgeval?"
 
-#: kncomposer.cpp:374 kncomposer.cpp:379 kncomposer.cpp:389 kncomposer.cpp:459
-#: kncomposer.cpp:473 kncomposer.cpp:479
+#: kncomposer.cpp:582 kncomposer.cpp:591 kncomposer.cpp:603 kncomposer.cpp:673
+#: kncomposer.cpp:687 kncomposer.cpp:693
 msgid "&Send"
 msgstr "Stuur"
 
-#: kncomposer.cpp:374 kncomposer.cpp:379 kncomposer.cpp:389 kncomposer.cpp:459
-#: kncomposer.cpp:474 kncomposer.cpp:479
+#: kncomposer.cpp:582 kncomposer.cpp:591 kncomposer.cpp:603 kncomposer.cpp:673
+#: kncomposer.cpp:688 kncomposer.cpp:693
 msgid ""
 "_: edit article\n"
 "&Edit"
 msgstr "Redigeer"
 
-#: kncomposer.cpp:378
+#: kncomposer.cpp:587
+#, fuzzy
 msgid ""
 "You are crossposting to more than two newsgroups.\n"
-"Please use the \"Followup-To\" header to direct\n"
-"the replies to your article into one group.\n"
+"Please use the \"Followup-To\" header to direct the replies to your article "
+"into one group.\n"
 "Do you want to re-edit the article or send it anyway?"
 msgstr ""
 "Jy word kruispos na meer as twee nuusgroepe.\n"
@@ -893,15 +1057,16 @@ msgstr ""
 "die antwoorde na jou artikel binnein een groep.\n"
 "Doen Jy wil hê na re-edit die artikel of stuur dit in elkgeval?"
 
-#: kncomposer.cpp:383
+#: kncomposer.cpp:597
+#, fuzzy
 msgid ""
 "You are directing replies to more than 12 newsgroups.\n"
-"Please remove some newsgroups from the \"Followup-To\" header!"
+"Please remove some newsgroups from the \"Followup-To\" header."
 msgstr ""
 "Jy word aanstuur antwoorde na meer as 12 nuusgroepe.\n"
 "Asseblief verwyder sommige nuusgroepe van die \"Followup-na\" opskrif!"
 
-#: kncomposer.cpp:388
+#: kncomposer.cpp:602
 msgid ""
 "You are directing replies to more than five newsgroups.\n"
 "Please reconsider whether this is really useful.\n"
@@ -911,36 +1076,38 @@ msgstr ""
 "Asseblief heroorweeg hetsy hierdie is rerig bruikbare.\n"
 "Doen Jy wil hê na re-edit die artikel of stuur dit in elkgeval?"
 
-#: kncomposer.cpp:395
-msgid "Please enter the email address!"
+#: kncomposer.cpp:609
+#, fuzzy
+msgid "Please enter the email address."
 msgstr "Asseblief invoer die e-pos adres!"
 
-#: kncomposer.cpp:447
+#: kncomposer.cpp:661
 msgid ""
-"Your message contains characters that aren't included\n"
-"in the \"us-ascii\" character set. Please choose\n"
-"a suitable character set in the \"Options\" menu!"
+"Your message contains characters which are not included\n"
+"in the \"us-ascii\" character set; please choose\n"
+"a suitable character set from the \"Options\" menu."
 msgstr ""
 
-#: kncomposer.cpp:452
-msgid "You can't post an empty message!"
+#: kncomposer.cpp:666
+msgid "You cannot post an empty message."
 msgstr ""
 
-#: kncomposer.cpp:458
+#: kncomposer.cpp:672
+#, fuzzy
 msgid ""
-"Your article seems to consist entirely of quoted text.\n"
-"Do you want to re-edit the article or send it anyway?"
+"Your article seems to consist entirely of quoted text;\n"
+"do you want to re-edit the article or send it anyway?"
 msgstr ""
 "Jou artikel blyk na bestaan geheel en al van aangehaalde teks.\n"
 "Doen jy wil hê na re-edit die artikel of stuur dit in elkgeval?"
 
-#: kncomposer.cpp:463
+#: kncomposer.cpp:677
 msgid ""
-"You can't post an article consisting\n"
-"entirely of quoted text!"
+"You cannot post an article consisting\n"
+"entirely of quoted text."
 msgstr ""
 
-#: kncomposer.cpp:471
+#: kncomposer.cpp:685
 msgid ""
 "Your article contains lines longer than 80 characters.\n"
 "Do you want to re-edit the article or send it anyway?"
@@ -948,7 +1115,7 @@ msgstr ""
 "Jou artikel bevat lyne langer as 80 karakters.\n"
 "Doen jy wil hê na re-edit die artikel of stuur dit in elkgeval?"
 
-#: kncomposer.cpp:478
+#: kncomposer.cpp:692
 msgid ""
 "Your signature is more than 8 lines long.\n"
 "You should shorten it to match the widely accepted limit of 4 lines.\n"
@@ -958,55 +1125,59 @@ msgstr ""
 "Jy moet verkort dit na ooreenstem die wyd aanvaar beperk van 4 lyne.\n"
 "Doen Jy wil hê na re-edit die artikel of stuur dit in elkgeval?"
 
-#: kncomposer.cpp:483
+#: kncomposer.cpp:697
+#, fuzzy
 msgid ""
-"Your signature exceeds the widely accepted limit of 4 lines.\n"
-"Please consider shortening your signature.\n"
-"Otherwise, you will probably annoy your readers"
+"Your signature exceeds the widely-accepted limit of 4 lines:\n"
+"please consider shortening your signature;\n"
+"otherwise, you will probably annoy your readers."
 msgstr ""
 "Jou handtekening oorskry die wyd aanvaar beperk van 4 lyne.\n"
 "Asseblief beskou verkort van Jou handtekening.\n"
 "Andersins, jy sal waarskynlik irriteer Jou lesers"
 
-#: kncomposer.cpp:503
+#: kncomposer.cpp:717
 msgid ""
-"You haven't configured your preferred signing key yet.\n"
-"Please specify it in the global identity configuration,\n"
-"in the account properties or in the group properties!\n"
+"You have not configured your preferred signing key yet;\n"
+"please specify it in the global identity configuration,\n"
+"in the account properties or in the group properties.\n"
 "The article will be sent unsigned."
 msgstr ""
 
-#: kncomposer.cpp:510
+#: kncomposer.cpp:724
 msgid "Send Unsigned"
 msgstr "Stuur Ongeteken"
 
-#: kncomposer.cpp:663
+#: kncomposer.cpp:879
 msgid "Do you want to save this article in the draft folder?"
 msgstr "Doen jy wil hê na stoor hierdie artikel in die rofwerk kabinet?"
 
-#: kncomposer.cpp:794
+#: kncomposer.cpp:1010
 msgid "Insert File"
 msgstr "Voeg by Lêer"
 
-#: kncomposer.cpp:867
+#: kncomposer.cpp:1092
 msgid "Attach File"
 msgstr "Aanheg Lêer"
 
-#: kncomposer.cpp:943
+#: kncomposer.cpp:1168
+#, fuzzy
 msgid ""
-"The poster doesn't want a mail copy of your reply (Mail-Copies-To: nobody).\n"
-"Please respect his request."
-msgstr ""
+"The poster does not want a mail copy of your reply (Mail-Copies-To: "
+"nobody);\n"
+"please respect their request."
+msgstr "Die outeur versoekte 'n pos kopie van jou antwoord. (pos-Copies-To opskrif)"
 
-#: kncomposer.cpp:944
+#: kncomposer.cpp:1169
 msgid "&Send Copy"
 msgstr "Stuur Kopie"
 
-#: kncomposer.cpp:1010
-msgid "This will replace all text you have written!"
+#: kncomposer.cpp:1235
+#, fuzzy
+msgid "This will replace all text you have written."
 msgstr "Hierdie sal vervang alle teks jy het geskryf!"
 
-#: kncomposer.cpp:1025
+#: kncomposer.cpp:1249
 msgid ""
 "No editor configured.\n"
 "Please do this in the settings dialog."
@@ -1014,7 +1185,7 @@ msgstr ""
 "Nee redigeerder gekonfigureer.\n"
 "Asseblief doen hierdie in die instellings dialoog."
 
-#: kncomposer.cpp:1084
+#: kncomposer.cpp:1308
 msgid ""
 "Unable to start external editor.\n"
 "Please check your configuration in the settings dialog."
@@ -1022,51 +1193,51 @@ msgstr ""
 "Nie moontlik na begin eksterne redigeerder.\n"
 "Asseblief bevestig jou opstelling in die instellings dialoog."
 
-#: kncomposer.cpp:1107
+#: kncomposer.cpp:1331 kncomposer.cpp:2386
 msgid "Spellcheck"
 msgstr "Speltoets"
 
-#: kncomposer.cpp:1140
+#: kncomposer.cpp:1366
 msgid "News Article"
 msgstr "Nuus Artikel"
 
-#: kncomposer.cpp:1142
+#: kncomposer.cpp:1368
 msgid "Email"
 msgstr "E-pos"
 
-#: kncomposer.cpp:1144
+#: kncomposer.cpp:1370
 msgid "News Article & Email"
 msgstr "Nuus Artikel & E-pos"
 
-#: kncomposer.cpp:1148
+#: kncomposer.cpp:1374
 msgid " OVR "
 msgstr " Ovr "
 
-#: kncomposer.cpp:1150
+#: kncomposer.cpp:1376
 msgid " INS "
 msgstr " Byvoeg "
 
-#: kncomposer.cpp:1152
+#: kncomposer.cpp:1378
 msgid " Type: %1 "
 msgstr " Tipe: %1 "
 
-#: kncomposer.cpp:1153
+#: kncomposer.cpp:1379
 msgid " Charset: %1 "
 msgstr " Karakterstel: %1 "
 
-#: kncomposer.cpp:1155 kncomposer.cpp:1162
+#: kncomposer.cpp:1381 kncomposer.cpp:1388
 msgid " Column: %1 "
 msgstr " Kolom: %1 "
 
-#: kncomposer.cpp:1156 kncomposer.cpp:1163
+#: kncomposer.cpp:1382 kncomposer.cpp:1389
 msgid " Line: %1 "
 msgstr " Lyn: %1 "
 
-#: kncomposer.cpp:1204
+#: kncomposer.cpp:1427
 msgid "No Subject"
 msgstr "Nee Onderwerp"
 
-#: kncomposer.cpp:1366
+#: kncomposer.cpp:1647 kncomposer.cpp:2416
 msgid ""
 "ISpell could not be started.\n"
 "Please make sure you have ISpell properly configured and in your PATH."
@@ -1075,35 +1246,39 @@ msgstr ""
 "Asseblief maak seker jy het Ispell behoorlik gekonfigureer en in jou Gids "
 "soeklys."
 
-#: kncomposer.cpp:1371
+#: kncomposer.cpp:1652 kncomposer.cpp:2421
 msgid "ISpell seems to have crashed."
 msgstr "Ispell blyk na het het gestaak."
 
-#: kncomposer.cpp:1436
+#: kncomposer.cpp:1659
+msgid "No misspellings encountered."
+msgstr ""
+
+#: kncomposer.cpp:1734
 msgid "T&o:"
 msgstr "Na:"
 
-#: kncomposer.cpp:1437
+#: kncomposer.cpp:1735
 msgid "&Browse..."
 msgstr "Blaai..."
 
-#: kncomposer.cpp:1445
+#: kncomposer.cpp:1745
 msgid "&Groups:"
 msgstr "Groepe:"
 
-#: kncomposer.cpp:1446
+#: kncomposer.cpp:1746
 msgid "B&rowse..."
 msgstr "Blaai..."
 
-#: kncomposer.cpp:1456
+#: kncomposer.cpp:1756
 msgid "Follo&wup-To:"
 msgstr "Followup-To:"
 
-#: kncomposer.cpp:1462
+#: kncomposer.cpp:1764
 msgid "S&ubject:"
 msgstr "Onderwerp:"
 
-#: kncomposer.cpp:1475
+#: kncomposer.cpp:1794
 msgid ""
 "You are currently editing the article body\n"
 "in an external editor. To continue, you have\n"
@@ -1113,63 +1288,65 @@ msgstr ""
 "in 'n eksterne redigeerder. Na gaan voort, Jy het\n"
 "Na maak toe die eksterne redigeerder."
 
-#: kncomposer.cpp:1476
+#: kncomposer.cpp:1795
 msgid "&Kill External Editor"
 msgstr "Stop Eksterne Redigeerder"
 
-#: kncomposer.cpp:1556
-msgid "A&dd"
+#: kncomposer.cpp:1909
+#, fuzzy
+msgid "A&dd..."
 msgstr "Voeg by"
 
-#: kncomposer.cpp:1565
-msgid "&Properties"
-msgstr "Eienskappe"
+#: kncomposer.cpp:2043
+#, fuzzy
+msgid "Suggestions"
+msgstr "Vraag"
 
-#: kncomposer.cpp:1866
+#: kncomposer.cpp:2483
 msgid "Type"
 msgstr "Tipe"
 
-#: kncomposer.cpp:1867
+#: kncomposer.cpp:2484
 msgid "Size"
 msgstr "Grootte"
 
-#: kncomposer.cpp:1868 kngroupbrowser.cpp:88 kngrouppropdlg.cpp:73
+#: kncomposer.cpp:2485 kngroupbrowser.cpp:89 kngrouppropdlg.cpp:73
 msgid "Description"
 msgstr "Beskrywing"
 
-#: kncomposer.cpp:1869
+#: kncomposer.cpp:2486
 msgid "Encoding"
 msgstr "Enkodering"
 
-#: kncomposer.cpp:1917
+#: kncomposer.cpp:2534
 msgid "Attachment Properties"
 msgstr "Aanhegsel Eienskappe"
 
-#: kncomposer.cpp:1930 kngrouppropdlg.cpp:79
+#: kncomposer.cpp:2547 kngrouppropdlg.cpp:79
 msgid "Name:"
 msgstr "Naam:"
 
-#: kncomposer.cpp:1932
+#: kncomposer.cpp:2549
 msgid "Size:"
 msgstr "Grootte:"
 
-#: kncomposer.cpp:1939
+#: kncomposer.cpp:2556
 msgid "Mime"
 msgstr "Mime"
 
-#: kncomposer.cpp:1946
+#: kncomposer.cpp:2563
 msgid "&Mime-Type:"
 msgstr "Mime-tipe:"
 
-#: kncomposer.cpp:1951
+#: kncomposer.cpp:2568
 msgid "&Description:"
 msgstr "Beskrywing:"
 
-#: kncomposer.cpp:1965
+#: kncomposer.cpp:2582
 msgid "&Encoding:"
 msgstr "Enkodering:"
 
-#: kncomposer.cpp:1998
+#: kncomposer.cpp:2615
 msgid ""
 "You have set an invalid mime-type.\n"
 "Please change it."
@@ -1177,7 +1354,7 @@ msgstr ""
 "Jy het stel 'n ongeldige mime-tipe.\n"
 "Asseblief verander dit."
 
-#: kncomposer.cpp:2003
+#: kncomposer.cpp:2620
 msgid ""
 "You have changed the mime-type of this non-textual attachment\n"
 "to text. This might cause an error while loading or encoding the file.\n"
@@ -1188,260 +1365,192 @@ msgstr ""
 "die lêer.\n"
 "Gaan voort?"
 
-#: knconfig.cpp:133
-msgid "Cannot open the signature file!"
+#: knconfig.cpp:135
+#, fuzzy
+msgid "Cannot open the signature file."
 msgstr "Kan nie open die handtekening lêer!"
 
-#: knconfig.cpp:146
-msgid "Cannot run the signature generator!"
+#: knconfig.cpp:148
+#, fuzzy
+msgid "Cannot run the signature generator."
 msgstr "Kan nie hardloop die handtekening genereerder!"
 
-#: knconfig.cpp:185
+#: knconfig.cpp:187
 msgid "Background"
 msgstr "Agtergrond"
 
-#: knconfig.cpp:189
+#: knconfig.cpp:191
 #, fuzzy
 msgid "Alternate Background"
 msgstr "Aktief Item Agtergrond"
 
-#: knconfig.cpp:193
+#: knconfig.cpp:195
 msgid "Header Decoration"
 msgstr "Opskrif Versiering"
 
-#: knconfig.cpp:197
+#: knconfig.cpp:199
 msgid "Normal Text"
 msgstr "Normale Teks"
 
-#: knconfig.cpp:201
+#: knconfig.cpp:203
 msgid "Quoted Text - First level"
 msgstr "Aangehaalde Teks - Eerste vlak"
 
-#: knconfig.cpp:205
+#: knconfig.cpp:207
 msgid "Quoted Text - Second level"
 msgstr "Aangehaalde Teks - Tweede vlak"
 
-#: knconfig.cpp:209
+#: knconfig.cpp:211
 msgid "Quoted Text - Third level"
 msgstr "Aangehaalde Teks - Derde vlak"
 
-#: knconfig.cpp:213
+#: knconfig.cpp:215
 msgid "Link"
 msgstr "Skakel"
 
-#: knconfig.cpp:217
+#: knconfig.cpp:219
 msgid "Read Thread"
 msgstr "Lees Rygdraad"
 
-#: knconfig.cpp:221
+#: knconfig.cpp:223
 msgid "Unread Thread"
 msgstr "Ongeleeste Rygdraad"
 
-#: knconfig.cpp:225
+#: knconfig.cpp:227
 msgid "Read Article"
 msgstr "Lees Artikel"
 
-#: knconfig.cpp:229
+#: knconfig.cpp:231
 msgid "Unread Article"
 msgstr "Ongeleeste Artikel"
 
-#: knconfig.cpp:233
-msgid "Active Item Background"
-msgstr "Aktief Item Agtergrond"
-
 #: knconfig.cpp:237
-msgid "Selected Item Background"
-msgstr "Gekose Item Agtergrond"
-
-#: knconfig.cpp:243
 msgid "Article Body"
 msgstr "Artikel Liggaam"
 
-#: knconfig.cpp:247
+#: knconfig.cpp:241
 msgid "Article Body (Fixed)"
 msgstr "Artikel Liggaam (Vasgemaakte)"
 
-#: knconfig.cpp:250 knconfigmanager.cpp:185
+#: knconfig.cpp:244 knconfigpages.cpp:166
 msgid "Composer"
 msgstr "Saamsteller"
 
-#: knconfig.cpp:254
+#: knconfig.cpp:248
 msgid "Group List"
 msgstr "Groep Lys"
 
-#: knconfig.cpp:257 knconfigwidgets.cpp:878
+#: knconfig.cpp:251 knconfigwidgets.cpp:986
 msgid "Article List"
 msgstr "Artikel Lys"
 
-#: knconfigmanager.cpp:102
-msgid "Preferences"
-msgstr "Voorkeure"
-
-#: knconfigmanager.cpp:110 knconfigmanager.cpp:127 knconfigmanager.cpp:133
-msgid "Accounts"
-msgstr "Rekeninge"
-
-#: knconfigmanager.cpp:114 knconfigmanager.cpp:143 knconfigmanager.cpp:149
-#: knconfigmanager.cpp:155 knconfigmanager.cpp:161 knconfigmanager.cpp:167
-#: knconfigmanager.cpp:173
-msgid "Reading News"
-msgstr "Lees Nuus"
-
-#: knconfigmanager.cpp:118 knconfigmanager.cpp:179 knconfigmanager.cpp:185
-#: knconfigmanager.cpp:191
-msgid "Posting News"
-msgstr "Pos Nuus"
-
-#: knconfigmanager.cpp:122
-msgid "Identity"
-msgstr "Identiteit"
-
-#: knconfigmanager.cpp:122
-msgid "Personal Information"
-msgstr "Persoonlike Informasie"
-
-#: knconfigmanager.cpp:127
-msgid " News"
-msgstr " Nuus"
-
-#: knconfigmanager.cpp:128
+#: knconfigpages.cpp:103
 msgid "Newsgroup Servers"
 msgstr "Nuusgroep Bedieners"
 
-#: knconfigmanager.cpp:133
-msgid " Mail"
-msgstr " Pos"
-
-#: knconfigmanager.cpp:134
+#: knconfigpages.cpp:104
 msgid "Mail Server (SMTP)"
 msgstr "Pos Bediener (Smtp)"
 
-#: knconfigmanager.cpp:138
-msgid "Customize Visual Appearance"
-msgstr "Pasmaak Visuele Voorkoms"
-
-#: knconfigmanager.cpp:143 knconfigwidgets.cpp:996 knconfigwidgets.cpp:1802
-#: knconfigwidgets.cpp:2019
+#: knconfigpages.cpp:139 knconfigwidgets.cpp:1980 knconfigwidgets.cpp:2215
 msgid "General"
 msgstr "Algemeen"
 
-#: knconfigmanager.cpp:144
-msgid "General Options"
-msgstr "Algemeen Opsies"
-
-#: knconfigmanager.cpp:149
+#: knconfigpages.cpp:140
 msgid "Navigation"
 msgstr "Navigering"
 
-#: knconfigmanager.cpp:150
-msgid "Customize Keyboard Navigation"
-msgstr "Pasmaak Sleutelbord Navigering"
-
-#: knconfigmanager.cpp:155
+#: knconfigpages.cpp:141
 msgid "Scoring"
 msgstr "Telling"
 
-#: knconfigmanager.cpp:156
-msgid "Scoring Rules"
-msgstr "Telling Reëls"
-
-#: knconfigmanager.cpp:161
-msgid " Filters"
+#: knconfigpages.cpp:142
+#, fuzzy
+msgid "Filters"
 msgstr " Filters"
 
-#: knconfigmanager.cpp:162
-msgid "Article Filters"
-msgstr "Artikel Filters"
-
-#: knconfigmanager.cpp:167
+#: knconfigpages.cpp:143
 msgid "Headers"
 msgstr "Opskrifte"
 
-#: knconfigmanager.cpp:168
-msgid "Customize Displayed Article Headers"
-msgstr "Pasmaak Vertoon Artikel Opskrifte"
-
-#: knconfigmanager.cpp:173
+#: knconfigpages.cpp:144
 msgid "Viewer"
 msgstr "Aansig"
 
-#: knconfigmanager.cpp:174
-msgid "Customize Article Viewer Behavior"
-msgstr "Pasmaak Artikel Aansig Gedrag"
-
-#: knconfigmanager.cpp:179
+#: knconfigpages.cpp:165
 msgid "Technical"
 msgstr "Tegniese"
 
-#: knconfigmanager.cpp:180
-msgid "Technical Settings"
-msgstr "Tegniese Instellings"
-
-#: knconfigmanager.cpp:186
-msgid "Customize Composer Behavior"
-msgstr "Pasmaak Saamsteller Gedrag"
-
-#: knconfigmanager.cpp:191
+#: knconfigpages.cpp:167
 msgid "Spelling"
 msgstr "Spelling"
 
-#: knconfigmanager.cpp:192
-msgid "Spell Checker Behavior"
-msgstr "Spel Toetser Gedrag"
-
-#: knconfigmanager.cpp:196
-msgid "Signing/Verifying"
-msgstr "Getekende/Verifieër"
-
-#: knconfigmanager.cpp:197
-msgid "Protect your privacy by signing and verifying postings"
-msgstr "Beskerm jou privaatheid deur getekende en verifieër possers"
-
-#: knconfigmanager.cpp:201
-msgid "Cleanup"
-msgstr "Skoonmaak"
-
-#: knconfigmanager.cpp:201
-msgid "Preserving Disk Space"
-msgstr "Preserveer Disket Spasie"
-
-#: knconfigwidgets.cpp:56 knconfigwidgets.cpp:408
+#: knconfigwidgets.cpp:60 knconfigwidgets.cpp:471
 msgid "&Name:"
 msgstr "Naam:"
 
-#: knconfigwidgets.cpp:62
+#: knconfigwidgets.cpp:63
+msgid ""
+"<qt>"
+"<p>Your name as it will appear to others reading your articles.</p>"
+"<p>Ex: <b>John Stuart Masterson III</b>.</p></qt>"
+msgstr ""
+
+#: knconfigwidgets.cpp:70
 msgid "Organi&zation:"
 msgstr "Organisasie:"
 
-#: knconfigwidgets.cpp:68
+#: knconfigwidgets.cpp:73
+msgid ""
+"<qt>"
+"<p>The name of the organization you work for.</p>"
+"<p>Ex: <b>KNode, Inc</b>.</p></qt>"
+msgstr ""
+
+#: knconfigwidgets.cpp:80
 msgid "Email a&ddress:"
 msgstr "E-pos adres:"
 
-#: knconfigwidgets.cpp:74
+#: knconfigwidgets.cpp:83
+msgid ""
+"<qt>"
+"<p>Your email address as it will appear to others reading your "
+"articles</p><p>Ex: <b>nospam@please.com</b>.</qt>"
+msgstr ""
+
+#: knconfigwidgets.cpp:90
 msgid "&Reply-to address:"
 msgstr "Reply-to adres:"
 
-#: knconfigwidgets.cpp:80
+#: knconfigwidgets.cpp:93
+msgid ""
+"<qt>"
+"<p>When someone reply to your article by email, this is the address the "
+"message will be sent. If you fill in this field, please do it with a real "
+"email address.</p><p>Ex: <b>john@doe.com</b>.</p></qt>"
+msgstr ""
+
+#: knconfigwidgets.cpp:101
 msgid "&Mail-copies-to:"
 msgstr "Mail-copies-to:"
 
-#: knconfigwidgets.cpp:86
+#: knconfigwidgets.cpp:107
 msgid "Chan&ge..."
 msgstr "Verander..."
 
-#: knconfigwidgets.cpp:87
+#: knconfigwidgets.cpp:108
 msgid "Your OpenPGP Key"
 msgstr "Jou Openpgp Sleutel"
 
-#: knconfigwidgets.cpp:88
+#: knconfigwidgets.cpp:109
 msgid "Select the OpenPGP key which should be used for signing articles."
 msgstr "Kies die Openpgp sleutel wat moet wees gebruik word vir getekende aktikels."
 
-#: knconfigwidgets.cpp:91
+#: knconfigwidgets.cpp:111
 msgid "Signing ke&y:"
 msgstr "Getekende sleutel:"
 
-#: knconfigwidgets.cpp:94
+#: knconfigwidgets.cpp:114
 msgid ""
 "<qt>"
 "<p>The OpenPGP key you choose here will be used to sign your "
@@ -1451,131 +1560,168 @@ msgstr ""
 "<p>Die Openpgp sleutel jy kies hier sal wees gebruik word na teken jou "
 "aktikels.</p></qt>"
 
-#: knconfigwidgets.cpp:105
+#: knconfigwidgets.cpp:126
 msgid "&Use a signature from file"
 msgstr "Gebruik 'n handtekening van lêer"
 
-#: knconfigwidgets.cpp:111
+#: knconfigwidgets.cpp:130
+msgid "<qt><p>Mark this to let KNode read the signature from a file.</p></qt>"
+msgstr ""
+
+#: knconfigwidgets.cpp:133
 msgid "Signature &file:"
 msgstr "Handtekening lêer:"
 
-#: knconfigwidgets.cpp:118 knconfigwidgets.cpp:1104 knconfigwidgets.cpp:2071
+#: knconfigwidgets.cpp:138
+msgid ""
+"<qt>"
+"<p>The file from which the signature will be read.</p>"
+"<p>Ex: <b>/home/robt/.sig</b>.</p></qt>"
+msgstr ""
+
+#: knconfigwidgets.cpp:143 knconfigwidgets.cpp:1231 knconfigwidgets.cpp:2274
 msgid "Choo&se..."
 msgstr "Kies..."
 
-#: knconfigwidgets.cpp:122
+#: knconfigwidgets.cpp:147
 msgid "&Edit File"
 msgstr "Redigeer Lêer"
 
-#: knconfigwidgets.cpp:127
+#: knconfigwidgets.cpp:152
 msgid "&The file is a program"
 msgstr "Die lêer is 'n program"
 
-#: knconfigwidgets.cpp:131
+#: knconfigwidgets.cpp:154
+msgid ""
+"<qt>"
+"<p>Mark this option if the signature will be generated by a "
+"program</p><p>Ex: <b>/home/robt/gensig.sh</b>.</p></qt>"
+msgstr ""
+
+#: knconfigwidgets.cpp:159
 msgid "Specify signature &below"
 msgstr "Spesifiseer handtekening onder"
 
-#: knconfigwidgets.cpp:199
+#: knconfigwidgets.cpp:246
 msgid "Choose Signature"
 msgstr "Kies Handtekening"
 
-#: knconfigwidgets.cpp:209
-msgid "You must specify a filename!"
+#: knconfigwidgets.cpp:257
+#, fuzzy
+msgid "You must specify a filename."
 msgstr "Jy moet spesifiseer 'n lêernaam!"
 
-#: knconfigwidgets.cpp:215
-msgid "You have specified a directory!"
+#: knconfigwidgets.cpp:263
+#, fuzzy
+msgid "You have specified a folder."
 msgstr "Jy het gespesifiseer 'n gids!"
 
-#: knconfigwidgets.cpp:252 knconfigwidgets.cpp:1219 knconfigwidgets.cpp:1542
-#: knconfigwidgets.cpp:1845
-msgid "&New..."
-msgstr "Nuwe..."
+#: knconfigwidgets.cpp:304 knconfigwidgets.cpp:1363 knconfigwidgets.cpp:1705
+#: knconfigwidgets.cpp:2027
+msgid "&Add..."
+msgstr ""
 
-#: knconfigwidgets.cpp:260 knconfigwidgets.cpp:1227 knconfigwidgets.cpp:1550
-#: knconfigwidgets.cpp:1853
+#: knconfigwidgets.cpp:308 knconfigwidgets.cpp:1371 knconfigwidgets.cpp:1709
+#: knconfigwidgets.cpp:2035
 msgid ""
 "_: modify something\n"
 "&Edit..."
 msgstr "Redigeer..."
 
-#: knconfigwidgets.cpp:264
+#: knconfigwidgets.cpp:316
 msgid "&Subscribe..."
 msgstr "Teken in..."
 
-#: knconfigwidgets.cpp:336
+#: knconfigwidgets.cpp:397
 #, c-format
 msgid "Server: %1"
 msgstr "Bediener: %1"
 
-#: knconfigwidgets.cpp:337
+#: knconfigwidgets.cpp:398
 #, c-format
 msgid "Port: %1"
 msgstr "Poort: %1"
 
-#: knconfigwidgets.cpp:340
+#: knconfigwidgets.cpp:401
 msgid "Server: "
 msgstr "Bediener: "
 
-#: knconfigwidgets.cpp:341
+#: knconfigwidgets.cpp:402
 msgid "Port: "
 msgstr "Poort: "
 
-#: knconfigwidgets.cpp:400 knfilterdialog.cpp:34 kngrouppropdlg.cpp:34
+#: knconfigwidgets.cpp:463 knfilterdialog.cpp:34 kngrouppropdlg.cpp:34
 #, c-format
 msgid "Properties of %1"
 msgstr "Eienskappe van %1"
 
-#: knconfigwidgets.cpp:400
+#: knconfigwidgets.cpp:463
 msgid "New Account"
 msgstr "Nuwe Rekening"
 
-#: knconfigwidgets.cpp:404
+#: knconfigwidgets.cpp:467
 msgid "Ser&ver"
 msgstr "Bediener"
 
-#: knconfigwidgets.cpp:414 knconfigwidgets.cpp:532
+#: knconfigwidgets.cpp:477 knconfigwidgets.cpp:630
 msgid "&Server:"
 msgstr "Bediener:"
 
-#: knconfigwidgets.cpp:420 knconfigwidgets.cpp:537
+#: knconfigwidgets.cpp:483 knconfigwidgets.cpp:636
 msgid "&Port:"
 msgstr "Poort:"
 
-#: knconfigwidgets.cpp:427 knconfigwidgets.cpp:544
+#: knconfigwidgets.cpp:490 knconfigwidgets.cpp:644
 msgid "Hol&d connection for:"
 msgstr "Hou verbinding vir:"
 
-#: knconfigwidgets.cpp:428 knconfigwidgets.cpp:436 knconfigwidgets.cpp:543
-#: knconfigwidgets.cpp:549 knconfigwidgets.cpp:888
+#: knconfigwidgets.cpp:491 knconfigwidgets.cpp:499 knconfigwidgets.cpp:643
+#: knconfigwidgets.cpp:650 knconfigwidgets.cpp:996
 msgid " sec"
 msgstr " sek"
 
-#: knconfigwidgets.cpp:434 knconfigwidgets.cpp:550
+#: knconfigwidgets.cpp:497 knconfigwidgets.cpp:651
 msgid "&Timeout:"
 msgstr "Tydverstreke:"
 
-#: knconfigwidgets.cpp:440
+#: knconfigwidgets.cpp:503
 msgid "&Fetch group descriptions"
 msgstr "Gaan haal groep beskrywings"
 
-#: knconfigwidgets.cpp:448
+#: knconfigwidgets.cpp:511
 msgid "Server requires &authentication"
 msgstr "Bediener benodig geldigheidsverklaring"
 
-#: knconfigwidgets.cpp:453
+#: knconfigwidgets.cpp:516
 msgid "&User:"
 msgstr "Gebruiker:"
 
-#: knconfigwidgets.cpp:459
+#: knconfigwidgets.cpp:522
 msgid "Pass&word:"
 msgstr "Wagwoord:"
 
-#: knconfigwidgets.cpp:471 kngrouppropdlg.cpp:146
+#: knconfigwidgets.cpp:528
+msgid "Enable &interval news checking"
+msgstr ""
+
+#: knconfigwidgets.cpp:533
+msgid "Check inter&val:"
+msgstr ""
+
+#: knconfigwidgets.cpp:534
+msgid " min"
+msgstr ""
+
+#: knconfigwidgets.cpp:547 kngrouppropdlg.cpp:146
 msgid "&Identity"
 msgstr "Identiteit"
 
-#: knconfigwidgets.cpp:489
+#: knconfigwidgets.cpp:550 kngrouppropdlg.cpp:149
+#, fuzzy
+msgid "&Cleanup"
+msgstr "Skoonmaak"
+
+#: knconfigwidgets.cpp:574
 msgid ""
 "Please enter an arbitrary name for the account and the\n"
 "hostname of the news server."
@@ -1583,260 +1729,258 @@ msgstr ""
 "Asseblief invoer 'n arbitêre naam vir die rekening en die\n"
 "masjien naam van die nuus bediener."
 
-#: knconfigwidgets.cpp:527
+#: knconfigwidgets.cpp:625
 msgid "&Use external mail program"
 msgstr "Gebruik eksterne pos program"
 
-#: knconfigwidgets.cpp:704
+#: knconfigwidgets.cpp:812
 msgid "&Use custom colors"
 msgstr "Gebruik pasmaak kleure"
 
-#: knconfigwidgets.cpp:708
+#: knconfigwidgets.cpp:816
 msgid "Cha&nge..."
 msgstr "Verander..."
 
-#: knconfigwidgets.cpp:722
+#: knconfigwidgets.cpp:826
 msgid "Use custom &fonts"
 msgstr "Gebruik pasmaak skriftipes"
 
-#: knconfigwidgets.cpp:726
+#: knconfigwidgets.cpp:830
 msgid "Chang&e..."
 msgstr "Verander..."
 
-#: knconfigwidgets.cpp:730
-msgid "Defaul&ts"
-msgstr "Verstek"
-
-#: knconfigwidgets.cpp:877
+#: knconfigwidgets.cpp:985
 msgid "Article Handling"
 msgstr "Artikel Handtering"
 
-#: knconfigwidgets.cpp:879
+#: knconfigwidgets.cpp:987
 msgid "Memory Consumption"
 msgstr "Geheue Gebruik"
 
-#: knconfigwidgets.cpp:882
+#: knconfigwidgets.cpp:990
 msgid "Check for new articles a&utomatically"
 msgstr "Bevestig vir nuwe aktikels automaties"
 
-#: knconfigwidgets.cpp:884
+#: knconfigwidgets.cpp:992
 msgid "&Maximum number of articles to fetch:"
 msgstr "Maksimum nommer van aktikels na gaan haal:"
 
-#: knconfigwidgets.cpp:885
+#: knconfigwidgets.cpp:993
 msgid "Mar&k article as read after:"
 msgstr "Merk artikel as lees na:"
 
-#: knconfigwidgets.cpp:889
+#: knconfigwidgets.cpp:997
 msgid "Mark c&rossposted articles as read"
 msgstr "Merk kruisgeposte aktikels as lees"
 
-#: knconfigwidgets.cpp:891
+#: knconfigwidgets.cpp:999
 msgid "Smart scrolli&ng"
 msgstr "Luukse rolling"
 
-#: knconfigwidgets.cpp:892
+#: knconfigwidgets.cpp:1000
 msgid "Show &whole thread on expanding"
 msgstr "Vertoon volledige rygdraad op uitbreiding"
 
-#: knconfigwidgets.cpp:893
+#: knconfigwidgets.cpp:1001
 msgid "Default to e&xpanded threads"
 msgstr "Verstek na uitgebreide rygdrade"
 
-#: knconfigwidgets.cpp:894
+#: knconfigwidgets.cpp:1002
 msgid "Show article &score"
 msgstr "Vertoon artikel telling"
 
-#: knconfigwidgets.cpp:895
+#: knconfigwidgets.cpp:1003
 msgid "Show &line count"
 msgstr "Vertoon lyn tel"
 
-#: knconfigwidgets.cpp:896
+#: knconfigwidgets.cpp:1004
 #, fuzzy
 msgid "Show unread count in &thread"
 msgstr "Vertoon volledige rygdrade"
 
-#: knconfigwidgets.cpp:900
+#: knconfigwidgets.cpp:1008
 msgid "Cach&e size for headers:"
 msgstr "Kas grootte vir opskrifte:"
 
-#: knconfigwidgets.cpp:903
+#: knconfigwidgets.cpp:1011
 msgid "Cache si&ze for articles:"
 msgstr "Kas grootte vir aktikels:"
 
-#: knconfigwidgets.cpp:1001
-msgid "Emulate the &keyboard behavior of KMail"
-msgstr "Emuleer die sleutelbord gedrag van Kpos"
-
-#: knconfigwidgets.cpp:1006
+#: knconfigwidgets.cpp:1122
 msgid "\"Mark All as Read\" Triggers Following Actions"
 msgstr "\"Merk Alle as Lees\" Sneller Volgende Aksies"
 
-#: knconfigwidgets.cpp:1011
+#: knconfigwidgets.cpp:1127
 msgid "&Switch to the next group"
 msgstr "Wissel na die volgende groep"
 
-#: knconfigwidgets.cpp:1016
+#: knconfigwidgets.cpp:1134
 msgid "\"Mark Thread as Read\" Triggers Following Actions"
 msgstr "\"Merk Rygdraad as Lees\" Sneller Volgende Aksies"
 
-#: knconfigwidgets.cpp:1021
+#: knconfigwidgets.cpp:1139
 msgid "Clos&e the current thread"
 msgstr "Maak toe die huidige rygdraad"
 
-#: knconfigwidgets.cpp:1023
+#: knconfigwidgets.cpp:1141
 msgid "Go &to the next unread thread"
 msgstr "Gaan na die volgende ongeleeste rygdraad"
 
-#: knconfigwidgets.cpp:1028
+#: knconfigwidgets.cpp:1149
 msgid "\"Ignore Thread\" Triggers Following Actions"
 msgstr "\"Ignoreer Rygdraad\" Sneller Volgende Aksies"
 
-#: knconfigwidgets.cpp:1033
+#: knconfigwidgets.cpp:1154
 msgid "Close the cu&rrent thread"
 msgstr "Maak toe die huidige rygdraad"
 
-#: knconfigwidgets.cpp:1035
+#: knconfigwidgets.cpp:1156
 msgid "Go to the next &unread thread"
 msgstr "Gaan na die volgende ongeleeste rygdraad"
 
-#: knconfigwidgets.cpp:1079
+#: knconfigwidgets.cpp:1205
 msgid "Attachments"
 msgstr "Aanhegsels"
 
-#: knconfigwidgets.cpp:1080
+#: knconfigwidgets.cpp:1206
 msgid "Browser"
 msgstr "Blaaier"
 
-#: knconfigwidgets.cpp:1083
+#: knconfigwidgets.cpp:1209
 msgid "Show fancy header deco&rations"
 msgstr "Vertoon deftige opskrif versierings"
 
-#: knconfigwidgets.cpp:1084
+#: knconfigwidgets.cpp:1210
 msgid "Re&wrap text when necessary"
 msgstr "Heromvou teks wanneer nodige"
 
-#: knconfigwidgets.cpp:1085
+#: knconfigwidgets.cpp:1211
 msgid "Re&move trailing empty lines"
 msgstr "Verwyder agterste leeg lyne"
 
-#: knconfigwidgets.cpp:1086
+#: knconfigwidgets.cpp:1212
 msgid "Show sig&nature"
 msgstr "Vertoon handtekening"
 
-#: knconfigwidgets.cpp:1087
+#: knconfigwidgets.cpp:1213
 msgid "Interpret te&xt format tags"
 msgstr "Interpreteer teks formaat etiket"
 
-#: knconfigwidgets.cpp:1089
+#: knconfigwidgets.cpp:1215
 msgid "Recognized q&uote characters:"
 msgstr "Herken aangaling karakters:"
 
-#: knconfigwidgets.cpp:1091
+#: knconfigwidgets.cpp:1217
 msgid "Show attachments &inline if possible"
 msgstr "Vertoon aanhegsels inlyn as moontlik"
 
-#: knconfigwidgets.cpp:1092
+#: knconfigwidgets.cpp:1218
 msgid "Open a&ttachments on click"
 msgstr "Open aanhegsels op kliek"
 
-#: knconfigwidgets.cpp:1093
+#: knconfigwidgets.cpp:1219
 msgid "Show alternati&ve contents as attachments"
 msgstr "Vertoon alternatiewe inhoud as aanhegsels"
 
-#: knconfigwidgets.cpp:1102
+#: knconfigwidgets.cpp:1222
+#, fuzzy
+msgid "Default Browser"
+msgstr "Verstek"
+
+#: knconfigwidgets.cpp:1227
+#, fuzzy
+msgid "Other Browser"
+msgstr "Kies Blaaier"
+
+#: knconfigwidgets.cpp:1229
 msgid "Open &links with:"
 msgstr "Open skakel met:"
 
-#: knconfigwidgets.cpp:1197
+#: knconfigwidgets.cpp:1341
 msgid "Choose Browser"
 msgstr "Kies Blaaier"
 
-#: knconfigwidgets.cpp:1231 knconfigwidgets.cpp:1566
+#: knconfigwidgets.cpp:1375 knconfigwidgets.cpp:1729
 msgid "&Up"
 msgstr "Begin"
 
-#: knconfigwidgets.cpp:1235 knconfigwidgets.cpp:1570
+#: knconfigwidgets.cpp:1379 knconfigwidgets.cpp:1733
 msgid "Do&wn"
 msgstr "Ondertoe"
 
-#: knconfigwidgets.cpp:1320
+#: knconfigwidgets.cpp:1470
 msgid "Really delete this header?"
 msgstr "Rerig uitvee hierdie opskrif?"
 
-#: knconfigwidgets.cpp:1380
+#: knconfigwidgets.cpp:1534
 msgid "Header Properties"
 msgstr "Opskrif Eienskappe"
 
-#: knconfigwidgets.cpp:1392
+#: knconfigwidgets.cpp:1546
 msgid "H&eader:"
 msgstr "Opskrif:"
 
-#: knconfigwidgets.cpp:1398
+#: knconfigwidgets.cpp:1552
 msgid "Displayed na&me:"
 msgstr "Vertoon naam:"
 
-#: knconfigwidgets.cpp:1404 kngroupbrowser.cpp:87 knode.cpp:131
-msgid "Name"
-msgstr "Naam"
-
-#: knconfigwidgets.cpp:1408
+#: knconfigwidgets.cpp:1562
 msgid "&Large"
 msgstr "Groot"
 
-#: knconfigwidgets.cpp:1409
+#: knconfigwidgets.cpp:1563
 msgid "&Bold"
 msgstr "Vetdruk"
 
-#: knconfigwidgets.cpp:1410
+#: knconfigwidgets.cpp:1564
 msgid "&Italic"
 msgstr "Kursief"
 
-#: knconfigwidgets.cpp:1411
+#: knconfigwidgets.cpp:1565
 msgid "&Underlined"
 msgstr "Geonderstreep"
 
-#: knconfigwidgets.cpp:1414
+#: knconfigwidgets.cpp:1568
 msgid "Value"
 msgstr "Waarde"
 
-#: knconfigwidgets.cpp:1418
+#: knconfigwidgets.cpp:1572
 msgid "L&arge"
 msgstr "Groot"
 
-#: knconfigwidgets.cpp:1419
+#: knconfigwidgets.cpp:1573
 msgid "Bol&d"
 msgstr "Vetdruk"
 
-#: knconfigwidgets.cpp:1420
+#: knconfigwidgets.cpp:1574
 msgid "I&talic"
 msgstr "Kursief"
 
-#: knconfigwidgets.cpp:1421
+#: knconfigwidgets.cpp:1575
 msgid "U&nderlined"
 msgstr "Geonderstreep"
 
-#: knconfigwidgets.cpp:1491
+#: knconfigwidgets.cpp:1648
 msgid "Default score for &ignored threads:"
 msgstr "Verstek telling vir geignoreer rygdrade:"
 
-#: knconfigwidgets.cpp:1496
+#: knconfigwidgets.cpp:1654
 msgid "Default score for &watched threads:"
 msgstr "Verstek telling vir dopgehou rygdrade:"
 
-#: knconfigwidgets.cpp:1536
+#: knconfigwidgets.cpp:1699
 msgid "&Filters:"
 msgstr "Filters:"
 
-#: knconfigwidgets.cpp:1554
+#: knconfigwidgets.cpp:1713
 msgid "Co&py..."
 msgstr "Kopie..."
 
-#: knconfigwidgets.cpp:1561
+#: knconfigwidgets.cpp:1724
 msgid "&Menu:"
 msgstr "Kieslys:"
 
-#: knconfigwidgets.cpp:1574
+#: knconfigwidgets.cpp:1737
 msgid ""
 "Add\n"
 "&Separator"
@@ -1844,7 +1988,7 @@ msgstr ""
 "Voeg by\n"
 "Skeier"
 
-#: knconfigwidgets.cpp:1578
+#: knconfigwidgets.cpp:1741
 msgid ""
 "&Remove\n"
 "Separator"
@@ -1852,153 +1996,161 @@ msgstr ""
 "Verwyder\n"
 "Skeier"
 
-#: knconfigwidgets.cpp:1809
+#: knconfigwidgets.cpp:1987
 msgid "Cha&rset:"
 msgstr "Karakterstel:"
 
-#: knconfigwidgets.cpp:1813
+#: knconfigwidgets.cpp:1992
 msgid "Allow 8-bit"
 msgstr "Toelaat 8-bit"
 
-#: knconfigwidgets.cpp:1814
+#: knconfigwidgets.cpp:1993
 msgid "7-bit (Quoted-Printable)"
 msgstr "7-bit (Quoted-Printable)"
 
-#: knconfigwidgets.cpp:1815
+#: knconfigwidgets.cpp:1994
 msgid "Enco&ding:"
 msgstr "Enkodering:"
 
-#: knconfigwidgets.cpp:1818
+#: knconfigwidgets.cpp:1998
 msgid "Use o&wn default charset when replying"
 msgstr "Gebruik eie verstek karakterstel wanneer antwoord"
 
-#: knconfigwidgets.cpp:1821
+#: knconfigwidgets.cpp:2002
 msgid "&Generate message-id"
 msgstr "Genereer message-id"
 
-#: knconfigwidgets.cpp:1826
-msgid "Ho&stname:"
+#: knconfigwidgets.cpp:2007
+#, fuzzy
+msgid "Ho&st name:"
 msgstr "Masjien naam:"
 
-#: knconfigwidgets.cpp:1834 knconfigwidgets.cpp:1970
+#: knconfigwidgets.cpp:2016 knconfigwidgets.cpp:2166
 msgid "X-Headers"
 msgstr "X-Headers"
 
-#: knconfigwidgets.cpp:1849
+#: knconfigwidgets.cpp:2031
 msgid "Dele&te"
 msgstr "Uitvee"
 
-#: knconfigwidgets.cpp:1857
-msgid "Don't add the \"&User-Agent\" identification header"
+#: knconfigwidgets.cpp:2042
+#, fuzzy
+msgid "Do not add the \"&User-Agent\" identification header"
 msgstr "Moet nie voeg by die \"User-Agent\" identifikasie opskrif"
 
-#: knconfigwidgets.cpp:2025
+#: knconfigwidgets.cpp:2221
 msgid "Word &wrap at column:"
 msgstr "Woord oorvloei na kolom:"
 
-#: knconfigwidgets.cpp:2031
+#: knconfigwidgets.cpp:2229
 msgid "Appe&nd signature automatically"
 msgstr "Voeg-agteraan-by handtekening automaties"
 
-#: knconfigwidgets.cpp:2038
+#: knconfigwidgets.cpp:2237
 msgid "Reply"
 msgstr "Antwoord"
 
-#: knconfigwidgets.cpp:2045
+#: knconfigwidgets.cpp:2244
 msgid "&Introduction phrase:"
 msgstr "Inleiding frase:"
 
-#: knconfigwidgets.cpp:2047
+#: knconfigwidgets.cpp:2246
+#, fuzzy
 msgid ""
 "Placeholders: %NAME=name, %EMAIL=email address,\n"
-"%DATE=date, %MSID=message-id, %GROUP=group name"
+"%DATE=date, %MSID=message-id, %GROUP=group name, %L=line break"
 msgstr ""
 "Plekhouers: %NAME=naam, %EMAIL=e-pos adres,\n"
 "%DATE=datum, %MSID=message-id, %GROUP=groep naam"
 
-#: knconfigwidgets.cpp:2049
+#: knconfigwidgets.cpp:2249
 msgid "Rewrap quoted te&xt automatically"
 msgstr "Heromvou aangehaalde teks automaties"
 
-#: knconfigwidgets.cpp:2052
+#: knconfigwidgets.cpp:2253
 msgid "Include the a&uthor's signature"
 msgstr "Sluit in die outeur se handtekening"
 
-#: knconfigwidgets.cpp:2055
+#: knconfigwidgets.cpp:2257
 msgid "Put the cursor &below the introduction phrase"
 msgstr "Plaas die plekaanduier onder die inleiding frase"
 
-#: knconfigwidgets.cpp:2062
+#: knconfigwidgets.cpp:2265
 msgid "External Editor"
 msgstr "Eksterne Redigeerder"
 
-#: knconfigwidgets.cpp:2069
+#: knconfigwidgets.cpp:2272
 msgid "Specify edi&tor:"
 msgstr "Spesifiseer redigeerder:"
 
-#: knconfigwidgets.cpp:2075
+#: knconfigwidgets.cpp:2279
 #, c-format
 msgid "%f will be replaced with the filename to edit."
 msgstr "%f sal wees vervang met die lêernaam na redigeer."
 
-#: knconfigwidgets.cpp:2077
+#: knconfigwidgets.cpp:2281
 msgid "Start exte&rnal editor automatically"
 msgstr "Begin eksterne redigeerder automaties"
 
-#: knconfigwidgets.cpp:2128
+#: knconfigwidgets.cpp:2338
 msgid "Choose Editor"
 msgstr "Kies Redigeerder"
 
-#: knconfigwidgets.cpp:2170
+#: knconfigwidgets.cpp:2383
 msgid "KNode Specific Options"
 msgstr "Knode Spesifieke Opsies"
 
-#: knconfigwidgets.cpp:2174
+#: knconfigwidgets.cpp:2387
 msgid "Ch&eck signatures automatically"
 msgstr "Bevestig handtekeninge automaties"
 
-#: knconfigwidgets.cpp:2206
-msgid "Newsgroups"
-msgstr "Nuusgroepe"
+#: knconfigwidgets.cpp:2430
+msgid "&Use global cleanup configuration"
+msgstr ""
 
-#: knconfigwidgets.cpp:2212
+#: knconfigwidgets.cpp:2435
+#, fuzzy
+msgid "Newsgroup Cleanup Settings"
+msgstr "Nuusgroep Bedieners"
+
+#: knconfigwidgets.cpp:2441
 msgid "&Expire old articles automatically"
 msgstr "Vertrek ou aktikels automaties"
 
-#: knconfigwidgets.cpp:2217 knconfigwidgets.cpp:2223 knconfigwidgets.cpp:2229
-#: knconfigwidgets.cpp:2255 knfilterconfigwidget.cpp:59
+#: knconfigwidgets.cpp:2446 knconfigwidgets.cpp:2455 knconfigwidgets.cpp:2462
+#: knconfigwidgets.cpp:2537 knfilterconfigwidget.cpp:59
 msgid " days"
 msgstr " dae"
 
-#: knconfigwidgets.cpp:2218
+#: knconfigwidgets.cpp:2447
 msgid "&Purge groups every:"
 msgstr "Maak skoon groepe elke:"
 
-#: knconfigwidgets.cpp:2224
+#: knconfigwidgets.cpp:2456
 msgid "&Keep read articles:"
 msgstr "Hou lees aktikels:"
 
-#: knconfigwidgets.cpp:2230
+#: knconfigwidgets.cpp:2463
 msgid "Keep u&nread articles:"
 msgstr "Hou ongeleeste aktikels:"
 
-#: knconfigwidgets.cpp:2234
-msgid "&Remove articles that aren't available on the server"
+#: knconfigwidgets.cpp:2468
+msgid "&Remove articles that are not available on the server"
 msgstr ""
 
-#: knconfigwidgets.cpp:2237
+#: knconfigwidgets.cpp:2472
 msgid "Preser&ve threads"
 msgstr "Behou rygdrade"
 
-#: knconfigwidgets.cpp:2244
+#: knconfigwidgets.cpp:2526
 msgid "Folders"
 msgstr "Gidse"
 
-#: knconfigwidgets.cpp:2250
+#: knconfigwidgets.cpp:2532
 msgid "Co&mpact folders automatically"
 msgstr "Kompak gidse automaties"
 
-#: knconfigwidgets.cpp:2256
+#: knconfigwidgets.cpp:2538
 msgid "P&urge folders every:"
 msgstr "Maak skoon gidse elke:"
 
@@ -2011,9 +2163,10 @@ msgid "Start Conversion..."
 msgstr "Begin Omskakeling..."
 
 #: knconvert.cpp:74
+#, fuzzy
 msgid ""
 "<b>Congratulations, you have upgraded to KNode version "
-"%1!</b>"
+"%1.</b>"
 "<br>Unfortunately this version uses a different format for some data-files, "
 "so in order to keep your existing data it is necessary to convert it first. "
 "This is now done automatically by KNode. If you want to, a backup of your "
@@ -2031,7 +2184,8 @@ msgid "Create backup of old data"
 msgstr "Skep rugsteun van ou data"
 
 #: knconvert.cpp:85
-msgid "save backup in:"
+#, fuzzy
+msgid "Save backup in:"
 msgstr "stoor rugsteun in:"
 
 #: knconvert.cpp:100
@@ -2067,7 +2221,8 @@ msgid "Please select a valid backup path."
 msgstr "Asseblief kies 'n geldige rugsteun gids soeklys."
 
 #: knconvert.cpp:217
-msgid "<b>The backup failed!</b>. Do you want to continue anyway?"
+#, fuzzy
+msgid "<b>The backup failed</b>; do you want to continue anyway?"
 msgstr "<b>Die rugsteun gevaal!</b>. Doen jy wil hê na gaan voort in elkgeval?"
 
 #: knconvert.cpp:229
@@ -2076,11 +2231,13 @@ msgid "created backup of the old data-files in %1"
 msgstr "geskep rugsteun van die ou data-files in %1"
 
 #: knconvert.cpp:231
-msgid "backup failed!!"
+#, fuzzy
+msgid "backup failed."
 msgstr "rugsteun gevaal!!"
 
 #: knconvert.cpp:254
-msgid "conversion of folder \"Drafts\" to version 0.4 failed !!"
+#, fuzzy
+msgid "conversion of folder \"Drafts\" to version 0.4 failed."
 msgstr "omskakeling van kabinet \"Rofwerk stukke\" na weergawe 0.4 gevaal !!"
 
 #: knconvert.cpp:257
@@ -2092,7 +2249,8 @@ msgid "nothing to be done for folder \"Drafts\""
 msgstr "niks na wees klaar vir kabinet \"Rofwerk stukke\""
 
 #: knconvert.cpp:268
-msgid "conversion of folder \"Outbox\" to version 0.4 failed !!"
+#, fuzzy
+msgid "conversion of folder \"Outbox\" to version 0.4 failed."
 msgstr "omskakeling van kabinet \"Uitgaande boks\" na weergawe 0.4 gevaal !!"
 
 #: knconvert.cpp:271
@@ -2104,7 +2262,8 @@ msgid "nothing to be done for folder \"Outbox\""
 msgstr "niks na wees klaar vir kabinet \"Uitgaande boks\""
 
 #: knconvert.cpp:282
-msgid "conversion of folder \"Sent\" to version 0.4 failed !!"
+#, fuzzy
+msgid "conversion of folder \"Sent\" to version 0.4 failed."
 msgstr "omskakeling van kabinet \"Gestuur\" na weergawe 0.4 gevaal !!"
 
 #: knconvert.cpp:285
@@ -2115,10 +2274,6 @@ msgstr "omgeskakel kabinet \"Gestuur\" na weergawe 0.4"
 msgid "nothing to be done for folder \"Sent\""
 msgstr "niks na wees klaar vir kabinet \"Gestuur\""
 
-#: knfilterconfigwidget.cpp:34 knode.cpp:174
-msgid "Subject"
-msgstr "Onderwerp"
-
 #: knfilterconfigwidget.cpp:38
 msgid ""
 "The following placeholders are supported:\n"
@@ -2128,7 +2283,8 @@ msgstr ""
 "%MYNAME=eie naam, %MYEMAIL=eie e-pos adres"
 
 #: knfilterconfigwidget.cpp:41
-msgid "Subject + &From"
+#, fuzzy
+msgid "Subject && &From"
 msgstr "Onderwerp + Van"
 
 #: knfilterconfigwidget.cpp:45
@@ -2147,17 +2303,9 @@ msgstr "Message-IDs"
 msgid "&Status"
 msgstr "Status"
 
-#: knfilterconfigwidget.cpp:57 knode.cpp:176 knode.cpp:538
-msgid "Score"
-msgstr "Telling"
-
 #: knfilterconfigwidget.cpp:59
 msgid "Age"
 msgstr "Ouderdom"
-
-#: knfilterconfigwidget.cpp:61 knode.cpp:177 knode.cpp:547
-msgid "Lines"
-msgstr "Lyne"
 
 #: knfilterconfigwidget.cpp:64
 msgid "&Additional"
@@ -2187,11 +2335,11 @@ msgstr "Wend aan op:"
 msgid "Sho&w in menu"
 msgstr "Vertoon in kieslys"
 
-#: knfilterdialog.cpp:95
+#: knfilterdialog.cpp:100
 msgid "Please provide a name for this filter."
 msgstr "Asseblief verskaf 'n naam vir hierdie filter."
 
-#: knfilterdialog.cpp:98
+#: knfilterdialog.cpp:103
 msgid ""
 "A filter with this name exists already.\n"
 "Please choose a different name."
@@ -2199,15 +2347,16 @@ msgstr ""
 "'n filter met hierdie naam bestaan alreeds.\n"
 "Asseblief kies 'n ander naam."
 
-#: knfiltermanager.cpp:267
+#: knfiltermanager.cpp:266
 msgid "Do you really want to delete this filter?"
 msgstr "Doen jy rerig wil hê na uitvee hierdie filter?"
 
-#: knfiltermanager.cpp:352
-msgid "ERROR: no such filter!"
+#: knfiltermanager.cpp:355
+#, fuzzy
+msgid "ERROR: no such filter."
 msgstr "Fout: nee soos filter!"
 
-#: knfiltermanager.cpp:378
+#: knfiltermanager.cpp:381
 msgid "Select Filter"
 msgstr "Kies Filter"
 
@@ -2215,88 +2364,89 @@ msgstr "Kies Filter"
 msgid " Loading folder..."
 msgstr " Laaiïng van kabinet..."
 
-#: knfoldermanager.cpp:49
+#: knfoldermanager.cpp:48
 msgid "Local Folders"
 msgstr "Plaaslike Gidse"
 
-#: knfoldermanager.cpp:53
+#: knfoldermanager.cpp:52
 msgid "Drafts"
 msgstr "Rofwerk stukke"
 
-#: knfoldermanager.cpp:57
+#: knfoldermanager.cpp:56
 msgid "Outbox"
 msgstr "Uitgaande boks"
 
-#: knfoldermanager.cpp:61
+#: knfoldermanager.cpp:60
 msgid "Sent"
 msgstr "Gestuur"
 
-#: knfoldermanager.cpp:91
-msgid "Cannot load index-file!"
+#: knfoldermanager.cpp:89
+#, fuzzy
+msgid "Cannot load index-file."
 msgstr "Kan nie las index-file!"
 
-#: knfoldermanager.cpp:146
+#: knfoldermanager.cpp:144
 msgid "New folder"
 msgstr "Nuwe kabinet"
 
-#: knfoldermanager.cpp:295
+#: knfoldermanager.cpp:296
 msgid "Import MBox Folder"
 msgstr "In voer Mboks Kabinet"
 
-#: knfoldermanager.cpp:304
+#: knfoldermanager.cpp:305
 msgid " Importing articles..."
 msgstr " Met die invoering van aktikels..."
 
-#: knfoldermanager.cpp:370
+#: knfoldermanager.cpp:371
 msgid " Storing articles..."
 msgstr " Storing aktikels..."
 
-#: knfoldermanager.cpp:397
+#: knfoldermanager.cpp:398
 msgid "Export Folder"
 msgstr "Voer uit Kabinet"
 
-#: knfoldermanager.cpp:401
+#: knfoldermanager.cpp:402
 msgid " Exporting articles..."
 msgstr " Uitvoer van aktikels..."
 
-#: kngroup.cpp:849
+#: kngroup.cpp:900
 msgid " Scoring..."
 msgstr " Telling..."
 
-#: kngroup.cpp:891
+#: kngroup.cpp:942
 msgid " Reorganizing headers..."
 msgstr " Herorganiseer opskrifte..."
 
-#: kngroup.cpp:992
+#: kngroup.cpp:1043
 #, c-format
 msgid "Cannot load saved headers: %1"
 msgstr "Kan nie las gestoor opskrifte: %1"
 
-#: kngroupbrowser.cpp:53
+#: kngroupbrowser.cpp:54
 msgid "S&earch:"
 msgstr "Soektog:"
 
-#: kngroupbrowser.cpp:54
+#: kngroupbrowser.cpp:55
 msgid "Disable &tree view"
 msgstr "Deaktiveer boom besigtig"
 
-#: kngroupbrowser.cpp:56
+#: kngroupbrowser.cpp:57
 msgid "&Subscribed only"
 msgstr "Ingeteken slegs"
 
-#: kngroupbrowser.cpp:58
+#: kngroupbrowser.cpp:59
 msgid "&New only"
 msgstr "Nuwe slegs"
 
-#: kngroupbrowser.cpp:66
+#: kngroupbrowser.cpp:67
 msgid "Loading groups..."
 msgstr "Laaiïng van groepe..."
 
-#: kngroupbrowser.cpp:360
+#: kngroupbrowser.cpp:361
 msgid "Groups on %1: (%2 displayed)"
 msgstr "Groepe op %1: (%2 vertoon)"
 
-#: kngroupbrowser.cpp:413 kngroupbrowser.cpp:426 kngrouppropdlg.cpp:99
+#: kngroupbrowser.cpp:414 kngroupbrowser.cpp:427 kngrouppropdlg.cpp:99
 msgid "moderated"
 msgstr "moderated"
 
@@ -2358,7 +2508,7 @@ msgstr "Geskep sedert hierdie datum:"
 msgid "Checking for new groups..."
 msgstr "Toetsing vir nuwe groepe..."
 
-#: kngroupmanager.cpp:422
+#: kngroupmanager.cpp:419
 msgid ""
 "Do you really want to unsubscribe\n"
 "from these groups?"
@@ -2366,7 +2516,7 @@ msgstr ""
 "Doen jy rerig wil hê na afteken\n"
 "van hierdie groepe?"
 
-#: kngroupmanager.cpp:467
+#: kngroupmanager.cpp:460
 msgid ""
 "The group \"%1\" is being updated currently.\n"
 "It is not possible to unsubscribe from it at the moment."
@@ -2374,7 +2524,7 @@ msgstr ""
 "Die groep \"%1\" is te wees opgedateer huidiglik.\n"
 "Dit is nie moontlik na afteken van Dit na Die oomblik."
 
-#: kngroupmanager.cpp:535
+#: kngroupmanager.cpp:529
 msgid ""
 "This group cannot be expired because it is currently being updated.\n"
 " Please try again later."
@@ -2384,9 +2534,10 @@ msgstr ""
 " Asseblief probeer weer later."
 
 #: kngroupmanager.cpp:662
+#, fuzzy
 msgid ""
-"You don't have any groups for this account.\n"
-"Do you want to fetch a current list?"
+"You do not have any groups for this account;\n"
+"do you want to fetch a current list?"
 msgstr ""
 "Jy moet nie het enige groepe vir hierdie rekening.\n"
 "Doen Jy wil hê na gaan haal 'n huidige lys?"
@@ -2469,516 +2620,407 @@ msgstr ""
 "Asseblief wees bewus wat jou artikel sal nie verskyn in enige groep\n"
 "totdat dit het al goedgekeur deur die moderators van die moderated groep."
 
-#: knnetaccess.cpp:45 knnetaccess.cpp:52
-msgid ""
-"Internal error:\n"
-"Failed to open pipes for internal communcation!"
-msgstr ""
-"Intern fout:\n"
-"Gevaal na open pype vir Intern kommunikasie!"
-
-#: knnetaccess.cpp:109
-msgid "Internal Error: No account set for this job!"
-msgstr "Intern Fout: Nee rekening stel vir hierdie werk!"
-
-#: knnetaccess.cpp:253
-msgid ""
-"You need to supply a username and a\n"
-"password to access this server"
-msgstr ""
-"Jy benodig na verskaf 'n gebruikernaam en 'n\n"
-"wagwoord na toegang verkry hierdie bediener"
-
-#: knnetaccess.cpp:254
-msgid "Authorization Dialog"
-msgstr "Geldigheidstoets Dialoog"
-
-#: knnetaccess.cpp:254
-msgid "Server:"
-msgstr "Bediener:"
-
-#: knnetaccess.cpp:344 knnetaccess.cpp:404
-msgid " Connecting to server..."
-msgstr " Maak koppeling na bediener..."
-
-#: knnetaccess.cpp:348
-msgid " Loading group list from disk..."
-msgstr " Laaiïng van groep lys van disket..."
-
-#: knnetaccess.cpp:352
-msgid " Writing group list to disk..."
-msgstr " Om te skryf groep lys na disket..."
-
-#: knnetaccess.cpp:356
-msgid " Downloading group list..."
-msgstr " Aflaaiïng groep lys..."
-
-#: knnetaccess.cpp:360
-msgid " Looking for new groups..."
-msgstr " Besig om te soek vir nuwe groepe..."
-
-#: knnetaccess.cpp:364
-msgid " Downloading group descriptions..."
-msgstr " Aflaaiïng groep beskrywings..."
-
-#: knnetaccess.cpp:368
-msgid " Downloading new headers..."
-msgstr " Aflaaiïng nuwe opskrifte..."
-
-#: knnetaccess.cpp:372
-msgid " Sorting..."
-msgstr " Besig om te sorteer..."
-
-#: knnetaccess.cpp:376
-msgid " Downloading article..."
-msgstr " Aflaaiïng artikel..."
-
-#: knnetaccess.cpp:380
-msgid " Sending article..."
-msgstr " Stuur artikel..."
-
-#: knnetaccess.cpp:384 knnetaccess.cpp:418
-msgid "0 Bytes"
-msgstr "0 Grepe"
-
-#: knnetaccess.cpp:390 knnetaccess.cpp:426
-msgid "%1 Bytes"
-msgstr "%1 Grepe"
-
-#: knnetaccess.cpp:392 knnetaccess.cpp:428
-msgid "%1 KB"
-msgstr "%1 Kb"
-
-#: knnetaccess.cpp:411
-msgid " Sending mail..."
-msgstr " Stuur pos..."
-
-#: knnntpclient.cpp:76 knnntpclient.cpp:315
-msgid "Unable to read the group list file"
-msgstr "Nie moontlik na lees die groep lys lêer"
-
-#: knnntpclient.cpp:85
-msgid ""
-"The group list could not be retrieved.\n"
-"The following error occurred:\n"
-msgstr ""
-"Die groep lys kon nie wees geonttrek.\n"
-"Die volgende fout voorgekom:\n"
-
-#: knnntpclient.cpp:147 knnntpclient.cpp:272
-msgid ""
-"The group descriptions could not be retrieved.\n"
-"The following error occurred:\n"
-msgstr ""
-"Die groep beskrywings kon nie wees geonttrek.\n"
-"Die volgende fout voorgekom:\n"
-
-#: knnntpclient.cpp:208 knnntpclient.cpp:321
-msgid "Unable to write the group list file"
-msgstr "Nie moontlik na skryf die groep lys lêer"
-
-#: knnntpclient.cpp:218
-msgid ""
-"New groups could not be retrieved.\n"
-"The following error occurred:\n"
-msgstr ""
-"Nuwe groepe kon nie wees geonttrek.\n"
-"Die volgende fout voorgekom:\n"
-
-#: knnntpclient.cpp:337
-msgid ""
-"No new articles could be retrieved for\n"
-"%1/%2!\n"
-"The following error occurred:\n"
-msgstr ""
-"Nee nuwe aktikels kon wees geonttrek vir\n"
-"%1/%2!\n"
-"Die volgende fout voorgekom:\n"
-
-#: knnntpclient.cpp:364
-msgid ""
-"No new articles could be retrieved!\n"
-"The server sent a malformatted response:\n"
-msgstr ""
-"Nee nuwe aktikels kon wees geonttrek!\n"
-"Die bediener gestuur 'n verkeerd geformatteer antwoord:\n"
-
-#: knnntpclient.cpp:433 knnntpclient.cpp:526
-msgid ""
-"Article could not be retrieved.\n"
-"The following error occurred:\n"
-msgstr ""
-"Artikel kon nie wees geonttrek.\n"
-"Die volgende fout voorgekom:\n"
-
-#: knnntpclient.cpp:461
-msgid ""
-"<br>"
-"<br>The article you requested isn't available on your news server."
-"<br>You can try to get it from <a "
-"href=\"http://groups.google.com/groups?q=msgid:%1&ic=1\">"
-"groups.google.com</a>."
-msgstr ""
-
-#: knnntpclient.cpp:551
-msgid ""
-"Unable to connect.\n"
-"The following error occurred:\n"
-msgstr ""
-"Nie moontlik na konnekteer.\n"
-"Die volgende fout voorgekom:\n"
-
-#: knnntpclient.cpp:597 knnntpclient.cpp:657
-msgid ""
-"Authentication failed!\n"
-"Check your username and password."
-msgstr ""
-"Geldigheidsverklaring gevaal!\n"
-"Bevestig jou gebruikernaam en wagwoord."
-
-#: knnntpclient.cpp:617 knnntpclient.cpp:674 knnntpclient.cpp:695
-#, c-format
-msgid ""
-"Authentication failed!\n"
-"Check your username and password.\n"
-"\n"
-"%1"
-msgstr ""
-"Geldigheidsverklaring gevaal!\n"
-"Bevestig jou gebruikernaam en wagwoord.\n"
-"\n"
-"%1"
-
-#: knnntpclient.cpp:708 knprotocolclient.cpp:420
-#, c-format
-msgid ""
-"An error occurred:\n"
-"%1"
-msgstr ""
-"'n fout voorgekom:\n"
-"%1"
-
-#: knode.cpp:94
+#: knmainwidget.cpp:95
 msgid "Article Viewer"
 msgstr "Artikel Aansig"
 
-#: knode.cpp:113
+#: knmainwidget.cpp:114
 msgid "Group View"
 msgstr "Groep Besigtig"
 
-#: knode.cpp:132
-msgid "Total"
-msgstr "Totaal"
-
-#: knode.cpp:133
-msgid "Unread"
-msgstr "Ongeleeste"
-
-#: knode.cpp:159
+#: knmainwidget.cpp:144
 msgid "Header View"
 msgstr "Opskrif Besigtig"
 
-#: knode.cpp:178
-msgid "Date"
-msgstr "Datum"
+#: knmainwidget.cpp:158
+msgid "Reset Quick Search"
+msgstr ""
 
-#: knode.cpp:331
+#: knmainwidget.cpp:165
+msgid ""
+"<b>Reset Quick Search</b>"
+"<br>Resets the quick search so that all messages are shown again."
+msgstr ""
+
+#: knmainwidget.cpp:169
+#, fuzzy
+msgid "&Search:"
+msgstr "Soektog:"
+
+#: knmainwidget.cpp:326
 msgid " Ready"
 msgstr " Gereed"
 
-#: knode.cpp:356
+#: knmainwidget.cpp:352
 msgid "KDE News Reader"
 msgstr "Kde Nuus Leser"
 
-#: knode.cpp:564
+#: knmainwidget.cpp:545
 msgid "&Next Article"
 msgstr "Volgende Artikel"
 
-#: knode.cpp:566
+#: knmainwidget.cpp:546
+#, fuzzy
+msgid "Go to next article"
+msgstr "Groepe vir hierdie artikel:"
+
+#: knmainwidget.cpp:548
 msgid "&Previous Article"
 msgstr "Vorige Artikel"
 
-#: knode.cpp:568
+#: knmainwidget.cpp:549
+#, fuzzy
+msgid "Go to previous article"
+msgstr "Vorige Artikel"
+
+#: knmainwidget.cpp:551
 msgid "Next Unread &Article"
 msgstr "Volgende Ongeleeste Artikel"
 
-#: knode.cpp:570
+#: knmainwidget.cpp:553
 msgid "Next Unread &Thread"
 msgstr "Volgende Ongeleeste Rygdraad"
 
-#: knode.cpp:572
+#: knmainwidget.cpp:555
 msgid "Ne&xt Group"
 msgstr "Volgende Groep"
 
-#: knode.cpp:574
+#: knmainwidget.cpp:557
 msgid "Pre&vious Group"
 msgstr "Vorige Groep"
 
-#: knode.cpp:576
+#: knmainwidget.cpp:559
 msgid "Read &Through Articles"
 msgstr "Lees Deur Aktikels"
 
-#: knode.cpp:581
-msgid "Account &Properties..."
+#: knmainwidget.cpp:564
+msgid "Focus on Next Folder"
+msgstr ""
+
+#: knmainwidget.cpp:568
+msgid "Focus on Previous Folder"
+msgstr ""
+
+#: knmainwidget.cpp:572
+#, fuzzy
+msgid "Select Folder with Focus"
+msgstr "Kies Sorteer Kolom"
+
+#: knmainwidget.cpp:577
+#, fuzzy
+msgid "Focus on Next Article"
+msgstr "Volgende Artikel"
+
+#: knmainwidget.cpp:581
+#, fuzzy
+msgid "Focus on Previous Article"
+msgstr "Vorige Artikel"
+
+#: knmainwidget.cpp:585
+#, fuzzy
+msgid "Select Article with Focus"
+msgstr "Gaan haal Artikel met Id"
+
+#: knmainwidget.cpp:591
+#, fuzzy
+msgid "Account &Properties"
 msgstr "Rekening Eienskappe..."
 
-#: knode.cpp:583
+#: knmainwidget.cpp:593
 msgid "&Rename Account"
 msgstr "Herbenaam Rekening"
 
-#: knode.cpp:585
+#: knmainwidget.cpp:595
 msgid "&Subscribe to Newsgroups..."
 msgstr "Teken in na Nuusgroepe..."
 
-#: knode.cpp:587
+#: knmainwidget.cpp:597
 msgid "&Expire All Groups"
 msgstr "Vertrek Alle Groepe"
 
-#: knode.cpp:589
+#: knmainwidget.cpp:599
 msgid "&Get New Articles in All Groups"
 msgstr "Kry Nuwe Aktikels in Alle Groepe"
 
-#: knode.cpp:591
+#: knmainwidget.cpp:601
+#, fuzzy
+msgid "&Get New Articles in All Accounts"
+msgstr "Kry Nuwe Aktikels in Alle Groepe"
+
+#: knmainwidget.cpp:603
 msgid "&Delete Account"
 msgstr "Uitvee Rekening"
 
-#: knode.cpp:593
+#: knmainwidget.cpp:605
 msgid "&Post to Newsgroup..."
 msgstr "Pos na Nuusgroep..."
 
-#: knode.cpp:597
-msgid "Group &Properties..."
+#: knmainwidget.cpp:609
+#, fuzzy
+msgid "Group &Properties"
 msgstr "Groep Eienskappe..."
 
-#: knode.cpp:599
+#: knmainwidget.cpp:611
 #, fuzzy
 msgid "Rename &Group"
 msgstr "Herbenaam Groep"
 
-#: knode.cpp:601
+#: knmainwidget.cpp:613
 msgid "&Get New Articles"
 msgstr "Kry Nuwe Aktikels"
 
-#: knode.cpp:603
+#: knmainwidget.cpp:615
 msgid "E&xpire Group"
 msgstr "Vertrek Groep"
 
-#: knode.cpp:605
+#: knmainwidget.cpp:617
 msgid "Re&organize Group"
 msgstr "Herorganiseer Groep"
 
-#: knode.cpp:607
+#: knmainwidget.cpp:619
 msgid "&Unsubscribe From Group"
 msgstr "Afteken Van Groep"
 
-#: knode.cpp:609
+#: knmainwidget.cpp:621
 msgid "Mark All as &Read"
 msgstr "Merk Alle as Lees"
 
-#: knode.cpp:611
+#: knmainwidget.cpp:623
 msgid "Mark All as U&nread"
 msgstr "Merk Alle as Ongeleeste"
 
-#: knode.cpp:613
+#: knmainwidget.cpp:625
 #, fuzzy
 msgid "Mark Last as Unr&ead..."
 msgstr "Merk Laaste as Ongeleeste..."
 
-#: knode.cpp:617
+#: knmainwidget.cpp:630
+msgid "&Configure KNode..."
+msgstr ""
+
+#: knmainwidget.cpp:636
 msgid "&New Folder"
 msgstr "Nuwe Kabinet"
 
-#: knode.cpp:619
+#: knmainwidget.cpp:638
 msgid "New &Subfolder"
 msgstr "Nuwe Subkoevert"
 
-#: knode.cpp:621
+#: knmainwidget.cpp:640
 msgid "&Delete Folder"
 msgstr "Uitvee Kabinet"
 
-#: knode.cpp:623
+#: knmainwidget.cpp:642
 msgid "&Rename Folder"
 msgstr "Herbenaam Kabinet"
 
-#: knode.cpp:625
+#: knmainwidget.cpp:644
 msgid "C&ompact Folder"
 msgstr "Kompak Kabinet"
 
-#: knode.cpp:627
+#: knmainwidget.cpp:646
 msgid "Co&mpact All Folders"
 msgstr "Kompak Alle Gidse"
 
-#: knode.cpp:629
+#: knmainwidget.cpp:648
 msgid "&Empty Folder"
 msgstr "Leeg Kabinet"
 
-#: knode.cpp:631
+#: knmainwidget.cpp:650
 msgid "&Import MBox Folder..."
 msgstr "In voer Mboks Kabinet..."
 
-#: knode.cpp:633
+#: knmainwidget.cpp:652
 msgid "E&xport as MBox Folder..."
 msgstr "Voer uit as Mboks Kabinet..."
 
-#: knode.cpp:637
+#: knmainwidget.cpp:656
 msgid "S&ort"
 msgstr "Sorteer"
 
-#: knode.cpp:639
+#: knmainwidget.cpp:658
 msgid "By &Subject"
 msgstr "Deur Onderwerp"
 
-#: knode.cpp:640
+#: knmainwidget.cpp:659
 msgid "By S&ender"
 msgstr "Deur Stuurder"
 
-#: knode.cpp:641
+#: knmainwidget.cpp:660
 msgid "By S&core"
 msgstr "Deur Telling"
 
-#: knode.cpp:642
+#: knmainwidget.cpp:661
 msgid "By &Lines"
 msgstr "Deur Lyne"
 
-#: knode.cpp:643
+#: knmainwidget.cpp:662
 msgid "By &Date"
 msgstr "Deur Datum"
 
-#: knode.cpp:647
+#: knmainwidget.cpp:666
 msgid "Sort"
 msgstr "Sorteer"
 
-#: knode.cpp:650
+#: knmainwidget.cpp:669
 msgid "&Filter"
 msgstr "Filter"
 
-#: knode.cpp:653
+#: knmainwidget.cpp:672
 msgid "Filter"
 msgstr "Filter"
 
-#: knode.cpp:655
+#: knmainwidget.cpp:674
 msgid "&Search Articles..."
 msgstr "Soektog Aktikels..."
 
-#: knode.cpp:657
+#: knmainwidget.cpp:676
 msgid "F&ind in Article..."
 msgstr "Soek in Artikel..."
 
-#: knode.cpp:659
+#: knmainwidget.cpp:678
 msgid "&Refresh List"
 msgstr "Verfris Lys"
 
-#: knode.cpp:661
+#: knmainwidget.cpp:680
 msgid "&Collapse All Threads"
 msgstr "Toevou Alle Rygdrade"
 
-#: knode.cpp:663
+#: knmainwidget.cpp:682
 msgid "E&xpand All Threads"
 msgstr "Vergroot Alle Rygdrade"
 
-#: knode.cpp:665
+#: knmainwidget.cpp:684
 msgid "&Toggle Subthread"
 msgstr "Wissel Subrugdraad"
 
-#: knode.cpp:667
+#: knmainwidget.cpp:686
 msgid "Show T&hreads"
 msgstr "Vertoon Rygdrade"
 
-#: knode.cpp:672
+#: knmainwidget.cpp:688
+#, fuzzy
+msgid "Hide T&hreads"
+msgstr "Vertoon Rygdrade"
+
+#: knmainwidget.cpp:693
 msgid "Mark as &Read"
 msgstr "Merk as Lees"
 
-#: knode.cpp:674
+#: knmainwidget.cpp:695
 msgid "Mar&k as Unread"
 msgstr "Merk as Ongeleeste"
 
-#: knode.cpp:676
+#: knmainwidget.cpp:697
 msgid "Mark &Thread as Read"
 msgstr "Merk Rygdraad as Lees"
 
-#: knode.cpp:678
+#: knmainwidget.cpp:699
 msgid "Mark T&hread as Unread"
 msgstr "Merk Rygdraad as Ongeleeste"
 
-#: knode.cpp:680
+#: knmainwidget.cpp:701
 msgid "Open in Own &Window"
 msgstr "Open in Eie Venster"
 
-#: knode.cpp:684
+#: knmainwidget.cpp:705
 msgid "&Edit Scoring Rules..."
 msgstr "Redigeer Telling Reëls..."
 
-#: knode.cpp:686
+#: knmainwidget.cpp:707
 msgid "Recalculate &Scores"
 msgstr "Herbereken Telling"
 
-#: knode.cpp:688
+#: knmainwidget.cpp:709
 msgid "&Lower Score for Author..."
 msgstr "Sagter Telling vir Outeur..."
 
-#: knode.cpp:690
+#: knmainwidget.cpp:711
 msgid "&Raise Score for Author..."
 msgstr "Lig Telling vir Outeur..."
 
-#: knode.cpp:692
+#: knmainwidget.cpp:713
 msgid "&Ignore Thread"
 msgstr "Ignoreer Rygdraad"
 
-#: knode.cpp:694
+#: knmainwidget.cpp:715
 msgid "&Watch Thread"
 msgstr "Waarneem Rygdraad"
 
-#: knode.cpp:698
+#: knmainwidget.cpp:719
 msgid "Sen&d Pending Messages"
 msgstr "Stuur Uitstaande Boodskappe"
 
-#: knode.cpp:700
+#: knmainwidget.cpp:721
 msgid "&Delete Article"
 msgstr "Uitvee Artikel"
 
-#: knode.cpp:702
+#: knmainwidget.cpp:723
 msgid "Send &Now"
 msgstr "Stuur Nou"
 
-#: knode.cpp:704
+#: knmainwidget.cpp:725
 msgid ""
 "_: edit article\n"
 "&Edit Article..."
 msgstr "Redigeer Artikel..."
 
-#: knode.cpp:708
+#: knmainwidget.cpp:729
 msgid "Stop &Network"
 msgstr "Stop Netwerk"
 
-#: knode.cpp:712
+#: knmainwidget.cpp:733
 msgid "&Fetch Article with ID..."
 msgstr "Gaan haal Artikel met Id..."
 
-#: knode.cpp:724
+#: knmainwidget.cpp:737
 msgid "Show &Group View"
 msgstr "Vertoon Groep Besigtig"
 
-#: knode.cpp:726
+#: knmainwidget.cpp:739
+#, fuzzy
+msgid "Hide &Group View"
+msgstr "Groep Besigtig"
+
+#: knmainwidget.cpp:740
 msgid "Show &Header View"
 msgstr "Vertoon Opskrif Besigtig"
 
-#: knode.cpp:728
+#: knmainwidget.cpp:742
+#, fuzzy
+msgid "Hide &Header View"
+msgstr "Opskrif Besigtig"
+
+#: knmainwidget.cpp:743
 msgid "Show &Article Viewer"
 msgstr "Vertoon Artikel Aansig"
 
-#: knode.cpp:730
+#: knmainwidget.cpp:745
+#, fuzzy
+msgid "Hide &Article Viewer"
+msgstr "Artikel Aansig"
+
+#: knmainwidget.cpp:746
+msgid "Show Quick Search"
+msgstr ""
+
+#: knmainwidget.cpp:748
+msgid "Hide Quick Search"
+msgstr ""
+
+#: knmainwidget.cpp:749
 msgid "Switch to Group View"
 msgstr "Wissel na Groep Besigtig"
 
-#: knode.cpp:733
+#: knmainwidget.cpp:752
 msgid "Switch to Header View"
 msgstr "Wissel na Opskrif Besigtig"
 
-#: knode.cpp:736
+#: knmainwidget.cpp:755
 msgid "Switch to Article Viewer"
 msgstr "Wissel na Artikel Aansig"
 
-#: knode.cpp:908
+#: knmainwidget.cpp:837
 msgid ""
 "KNode is currently sending articles. If you quit now you might lose these "
 "articles.\n"
@@ -2988,27 +3030,27 @@ msgstr ""
 "aktikels.\n"
 "Doen jy wil hê na verlaat in elkgeval?"
 
-#: knode.cpp:1719
+#: knmainwidget.cpp:1507
 msgid "Do you really want to unsubscribe from %1?"
 msgstr "Doen jy rerig wil hê na afteken van %1?"
 
-#: knode.cpp:1749
+#: knmainwidget.cpp:1537
 msgid "Mark Last as Unread"
 msgstr "Merk Laaste as Ongeleeste"
 
-#: knode.cpp:1750
+#: knmainwidget.cpp:1538
 msgid "Enter how many articles should be marked unread:"
 msgstr "Invoer hoe veel aktikels moet wees gemerkte ongeleeste:"
 
-#: knode.cpp:1793
+#: knmainwidget.cpp:1581
 msgid "You cannot delete a standard folder."
 msgstr "Jy kan nie uitvee 'n standaard kabinet."
 
-#: knode.cpp:1796
+#: knmainwidget.cpp:1584
 msgid "Do you really want to delete this folder and all its children?"
 msgstr "Doen jy rerig wil hê na uitvee hierdie kabinet en alle sy kinders?"
 
-#: knode.cpp:1800
+#: knmainwidget.cpp:1588
 msgid ""
 "This folder cannot be deleted because some of\n"
 " its articles are currently in use."
@@ -3016,11 +3058,11 @@ msgstr ""
 "Hierdie kabinet kan nie wees uitgevee omdat sommige van\n"
 " sy aktikels word huidiglik in gebruik."
 
-#: knode.cpp:1813
+#: knmainwidget.cpp:1601
 msgid "You cannot rename a standard folder."
 msgstr "Jy kan nie herbenaam 'n standaard kabinet."
 
-#: knode.cpp:1843
+#: knmainwidget.cpp:1631
 msgid ""
 "This folder cannot be emptied at the moment\n"
 "because some of its articles are currently in use."
@@ -3028,21 +3070,219 @@ msgstr ""
 "Hierdie kabinet kan nie wees leeg gemaak word nie na die oomblik\n"
 "omdat sommige van sy aktikels word huidiglik in gebruik."
 
-#: knode.cpp:1847
+#: knmainwidget.cpp:1635
 msgid "Do you really want to delete all articles in %1?"
 msgstr "Doen jy rerig wil hê na uitvee alle aktikels in %1?"
 
-#: knode.cpp:1882
+#: knmainwidget.cpp:1670
 msgid "Select Sort Column"
 msgstr "Kies Sorteer Kolom"
 
-#: knode.cpp:2157
+#: knmainwidget.cpp:2047
 msgid "Fetch Article with ID"
 msgstr "Gaan haal Artikel met Id"
 
-#: knode.cpp:2160
+#: knmainwidget.cpp:2051
 msgid "&Message-ID:"
 msgstr "Message-ID:"
+
+#: knmainwidget.cpp:2056
+#, fuzzy
+msgid "&Fetch"
+msgstr "Aanheg"
+
+#: knnetaccess.cpp:50 knnetaccess.cpp:57
+#, fuzzy
+msgid ""
+"Internal error:\n"
+"Failed to open pipes for internal communication."
+msgstr ""
+"Intern fout:\n"
+"Gevaal na open pype vir Intern kommunikasie!"
+
+#: knnetaccess.cpp:119
+#, fuzzy
+msgid "Internal Error: No account set for this job."
+msgstr "Intern Fout: Nee rekening stel vir hierdie werk!"
+
+#: knnetaccess.cpp:229
+#, fuzzy
+msgid "KNode NNTP"
+msgstr "Knode"
+
+#: knnetaccess.cpp:255
+#, fuzzy
+msgid "KNode SMTP"
+msgstr "Knode"
+
+#: knnetaccess.cpp:292
+msgid ""
+"You need to supply a username and a\n"
+"password to access this server"
+msgstr ""
+"Jy benodig na verskaf 'n gebruikernaam en 'n\n"
+"wagwoord na toegang verkry hierdie bediener"
+
+#: knnetaccess.cpp:293
+#, fuzzy
+msgid "Authentication Failed"
+msgstr "Geldigheidstoets Dialoog"
+
+#: knnetaccess.cpp:293
+msgid "Server:"
+msgstr "Bediener:"
+
+#: knnetaccess.cpp:384 knnetaccess.cpp:446
+msgid " Connecting to server..."
+msgstr " Maak koppeling na bediener..."
+
+#: knnetaccess.cpp:389
+msgid " Loading group list from disk..."
+msgstr " Laaiïng van groep lys van disket..."
+
+#: knnetaccess.cpp:394
+msgid " Writing group list to disk..."
+msgstr " Om te skryf groep lys na disket..."
+
+#: knnetaccess.cpp:399
+msgid " Downloading group list..."
+msgstr " Aflaaiïng groep lys..."
+
+#: knnetaccess.cpp:404
+msgid " Looking for new groups..."
+msgstr " Besig om te soek vir nuwe groepe..."
+
+#: knnetaccess.cpp:409
+msgid " Downloading group descriptions..."
+msgstr " Aflaaiïng groep beskrywings..."
+
+#: knnetaccess.cpp:414
+msgid " Downloading new headers..."
+msgstr " Aflaaiïng nuwe opskrifte..."
+
+#: knnetaccess.cpp:419
+msgid " Sorting..."
+msgstr " Besig om te sorteer..."
+
+#: knnetaccess.cpp:424
+msgid " Downloading article..."
+msgstr " Aflaaiïng artikel..."
+
+#: knnetaccess.cpp:429
+msgid " Sending article..."
+msgstr " Stuur artikel..."
+
+#: knnetaccess.cpp:454
+msgid " Sending mail..."
+msgstr " Stuur pos..."
+
+#: knnntpclient.cpp:77 knnntpclient.cpp:316
+msgid "Unable to read the group list file"
+msgstr "Nie moontlik na lees die groep lys lêer"
+
+#: knnntpclient.cpp:86
+msgid ""
+"The group list could not be retrieved.\n"
+"The following error occurred:\n"
+msgstr ""
+"Die groep lys kon nie wees geonttrek.\n"
+"Die volgende fout voorgekom:\n"
+
+#: knnntpclient.cpp:148 knnntpclient.cpp:273
+msgid ""
+"The group descriptions could not be retrieved.\n"
+"The following error occurred:\n"
+msgstr ""
+"Die groep beskrywings kon nie wees geonttrek.\n"
+"Die volgende fout voorgekom:\n"
+
+#: knnntpclient.cpp:209 knnntpclient.cpp:322
+msgid "Unable to write the group list file"
+msgstr "Nie moontlik na skryf die groep lys lêer"
+
+#: knnntpclient.cpp:219
+msgid ""
+"New groups could not be retrieved.\n"
+"The following error occurred:\n"
+msgstr ""
+"Nuwe groepe kon nie wees geonttrek.\n"
+"Die volgende fout voorgekom:\n"
+
+#: knnntpclient.cpp:338
+#, fuzzy
+msgid ""
+"No new articles could be retrieved for\n"
+"%1/%2.\n"
+"The following error occurred:\n"
+msgstr ""
+"Nee nuwe aktikels kon wees geonttrek vir\n"
+"%1/%2!\n"
+"Die volgende fout voorgekom:\n"
+
+#: knnntpclient.cpp:365
+#, fuzzy
+msgid ""
+"No new articles could be retrieved.\n"
+"The server sent a malformatted response:\n"
+msgstr ""
+"Nee nuwe aktikels kon wees geonttrek!\n"
+"Die bediener gestuur 'n verkeerd geformatteer antwoord:\n"
+
+#: knnntpclient.cpp:452 knnntpclient.cpp:545
+msgid ""
+"Article could not be retrieved.\n"
+"The following error occurred:\n"
+msgstr ""
+"Artikel kon nie wees geonttrek.\n"
+"Die volgende fout voorgekom:\n"
+
+#: knnntpclient.cpp:480
+msgid ""
+"<br>"
+"<br>The article you requested is not available on your news server;"
+"<br>you could try to get it from <a "
+"href=\"http://groups.google.com/groups?q=msgid:%1&ic=1\">"
+"groups.google.com</a>."
+msgstr ""
+
+#: knnntpclient.cpp:570 knsmtpclient.cpp:95
+msgid ""
+"Unable to connect.\n"
+"The following error occurred:\n"
+msgstr ""
+"Nie moontlik na konnekteer.\n"
+"Die volgende fout voorgekom:\n"
+
+#: knnntpclient.cpp:616 knnntpclient.cpp:676
+#, fuzzy
+msgid ""
+"Authentication failed.\n"
+"Check your username and password."
+msgstr ""
+"Geldigheidsverklaring gevaal!\n"
+"Bevestig jou gebruikernaam en wagwoord."
+
+#: knnntpclient.cpp:636 knnntpclient.cpp:693 knnntpclient.cpp:714
+#, fuzzy, c-format
+msgid ""
+"Authentication failed.\n"
+"Check your username and password.\n"
+"\n"
+"%1"
+msgstr ""
+"Geldigheidsverklaring gevaal!\n"
+"Bevestig jou gebruikernaam en wagwoord.\n"
+"\n"
+"%1"
+
+#: knnntpclient.cpp:727 knprotocolclient.cpp:420
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%1"
+msgstr ""
+"'n fout voorgekom:\n"
+"%1"
 
 #: knprotocolclient.cpp:177 knprotocolclient.cpp:187
 msgid "Unable to resolve hostname"
@@ -3083,29 +3323,53 @@ msgstr ""
 msgid "Communication error"
 msgstr "Kommunikasie fout"
 
-#: knsearchdialog.cpp:34
+#: knsearchdialog.cpp:35
 msgid "Search for Articles"
 msgstr "Soektog vir Aktikels"
 
-#: knsearchdialog.cpp:38
-msgid "Sta&rt Search"
-msgstr "Begin Soektog"
+#: knsearchdialog.cpp:39
+#, fuzzy
+msgid "Sea&rch"
+msgstr "Soektog:"
 
-#: knsearchdialog.cpp:40
-msgid "&New Search"
-msgstr "Nuwe Soektog"
+#: knsearchdialog.cpp:41
+#, fuzzy
+msgid "C&lear"
+msgstr "Skoonmaak"
 
-#: knsearchdialog.cpp:43
+#: knsearchdialog.cpp:44
 msgid "Sho&w complete threads"
 msgstr "Vertoon volledige rygdrade"
 
-#: knsmtpclient.cpp:95
+#: knserverinfo.cpp:99
 msgid ""
-"Unable to connect.\n"
-"The following error ocurred:\n"
+"KWallet is not available. It is strongly recommended to use KWallet for "
+"managing your passwords.\n"
+"However, KNode can store the password in its configuration file instead. The "
+"password is stored in an obfuscated format, but should not be considered "
+"secure from decryption efforts if access to the configuration file is "
+"obtained.\n"
+"Do you want to store the password for server '%1' in the configuration file?"
 msgstr ""
-"Nie moontlik na konnekteer.\n"
-"Die volgende fout voorgekom:\n"
+
+#: knserverinfo.cpp:107
+msgid "KWallet Not Available"
+msgstr ""
+
+#: knserverinfo.cpp:108
+#, fuzzy
+msgid "Store Password"
+msgstr "Wagwoord:"
+
+#: knserverinfo.cpp:109
+msgid "Do Not Store Password"
+msgstr ""
+
+#: knserverinfo.cpp:171
+msgid ""
+"The wallet could not be opened. This error is most probably caused by "
+"providing a wrong password."
+msgstr ""
 
 #: knstatusfilter.cpp:101
 msgid "Is read:"
@@ -3131,104 +3395,222 @@ msgstr "Waar"
 msgid "False"
 msgstr "Vals"
 
-#: knstringfilter.cpp:109
+#: knstringfilter.cpp:102
 msgid "Does Contain"
 msgstr "Doen Bevat"
 
-#: knstringfilter.cpp:110
+#: knstringfilter.cpp:103
 msgid "Does NOT Contain"
 msgstr "Doen Nie Bevat"
 
-#: knstringfilter.cpp:114
+#: knstringfilter.cpp:107
 msgid "Regular expression"
 msgstr "Gewone uitdrukking"
 
-#: main.cpp:28
-msgid "A 'news://server/group' URL."
-msgstr "'n 'news://bediener/group' Url."
-
-#: main.cpp:36
-msgid "KNode"
-msgstr "Knode"
-
-#: main.cpp:38
-msgid "A newsreader for KDE"
-msgstr "'n nuusleser vir Kde"
-
-#: main.cpp:40
-#, fuzzy
-msgid "Copyright (c) 1999-2002 the KNode authors"
-msgstr "Kopiereg (c) 1999-2001 die Knode outeure"
-
-#: main.cpp:44
-msgid "Maintainer"
-msgstr "Onderhouer"
-
-#: rc.cpp:3
+#. i18n: file kncomposerui.rc line 27
+#: rc.cpp:9
+#, no-c-format
 msgid "&Attach"
 msgstr "Aanheg"
 
-#: rc.cpp:4
+#. i18n: file kncomposerui.rc line 33
+#: rc.cpp:12
+#, no-c-format
 msgid "Optio&ns"
 msgstr "Opsies"
 
-#: rc.cpp:10
+#. i18n: file kncomposerui.rc line 97
+#: rc.cpp:21
+#, no-c-format
+msgid "Spell Result"
+msgstr ""
+
+#. i18n: file knodeui.rc line 43
+#: rc.cpp:33
+#, no-c-format
 msgid "&Go"
 msgstr "Gaan"
 
-#: rc.cpp:11
+#. i18n: file knodeui.rc line 53
+#: rc.cpp:36
+#, no-c-format
 msgid "A&ccount"
 msgstr "Rekening"
 
-#: rc.cpp:12
+#. i18n: file knodeui.rc line 62
+#: rc.cpp:39
+#, no-c-format
 msgid "G&roup"
 msgstr "Groep"
 
-#: rc.cpp:13
+#. i18n: file knodeui.rc line 75
+#: rc.cpp:42
+#, no-c-format
 msgid "Fol&der"
 msgstr "Kabinet"
 
-#: rc.cpp:14 rc.cpp:21
+#. i18n: file knodeui.rc line 89
+#: rc.cpp:45 rc.cpp:66
+#, no-c-format
 msgid "&Article"
 msgstr "Artikel"
 
-#: rc.cpp:15
+#. i18n: file knodeui.rc line 109
+#: rc.cpp:48
+#, no-c-format
 msgid "Sc&oring"
 msgstr "Telling"
 
-#: utilities.cpp:173
-msgid ""
-"A file named %1 already exists.\n"
-"Do you want to replace it?"
+#: utilities.cpp:175
+#, fuzzy
+msgid "<qt>A file named <b>%1</b> already exists.<br>Do you want to replace it?</qt>"
 msgstr ""
 "'n lêer genaamd %1 alreeds bestaan.\n"
 "Doen jy wil hê na vervang dit?"
 
-#: utilities.cpp:174
+#: utilities.cpp:176
 msgid "&Replace"
 msgstr "Vervang"
 
-#: utilities.cpp:462
+#: utilities.cpp:464
+#, fuzzy
 msgid ""
-"Unable to load/save configuration!\n"
-"Wrong permissions on home directory?\n"
-"You should close KNode now to avoid data loss!"
+"Unable to load/save configuration.\n"
+"Wrong permissions on home folder?\n"
+"You should close KNode now to avoid data loss."
 msgstr ""
 "Nie moontlik na las/stoor opstelling!\n"
 "Verkeerde regte op huis gids?\n"
 "Jy moet maak toe Knode nou na vermy data verlies!"
 
-#: utilities.cpp:468
-msgid "Unable to load/save file!"
+#: utilities.cpp:470
+#, fuzzy
+msgid "Unable to load/save file."
 msgstr "Nie moontlik na las/stoor lêer!"
 
-#: utilities.cpp:474
-msgid "Unable to save remote file!"
+#: utilities.cpp:476
+#, fuzzy
+msgid "Unable to save remote file."
 msgstr "Nie moontlik na stoor afgeleë lêer!"
 
-#: utilities.cpp:480
-msgid "Unable to create temporary file!"
+#: utilities.cpp:482
+#, fuzzy
+msgid "Unable to create temporary file."
 msgstr "Nie moontlik na skep tydelike lêer!"
+
+#: knode_options.h:25
+#, fuzzy
+msgid "A 'news://server/group' URL"
+msgstr "'n 'news://bediener/group' Url."
+
+#~ msgid "Please enter a valid email address."
+#~ msgstr "Asseblief invoer 'n geldige e-pos adres."
+
+#~ msgid "Failed tasks:"
+#~ msgstr "Gevaal take:"
+
+#~ msgid "&Copy Link Location"
+#~ msgstr "Kopie Skakel Ligging"
+
+#~ msgid "Active Item Background"
+#~ msgstr "Aktief Item Agtergrond"
+
+#~ msgid "Selected Item Background"
+#~ msgstr "Gekose Item Agtergrond"
+
+#~ msgid "Preferences"
+#~ msgstr "Voorkeure"
+
+#~ msgid "Accounts"
+#~ msgstr "Rekeninge"
+
+#~ msgid "Reading News"
+#~ msgstr "Lees Nuus"
+
+#~ msgid "Posting News"
+#~ msgstr "Pos Nuus"
+
+#~ msgid "Identity"
+#~ msgstr "Identiteit"
+
+#~ msgid "Personal Information"
+#~ msgstr "Persoonlike Informasie"
+
+#~ msgid " News"
+#~ msgstr " Nuus"
+
+#~ msgid " Mail"
+#~ msgstr " Pos"
+
+#~ msgid "Customize Visual Appearance"
+#~ msgstr "Pasmaak Visuele Voorkoms"
+
+#~ msgid "General Options"
+#~ msgstr "Algemeen Opsies"
+
+#~ msgid "Customize Keyboard Navigation"
+#~ msgstr "Pasmaak Sleutelbord Navigering"
+
+#~ msgid "Scoring Rules"
+#~ msgstr "Telling Reëls"
+
+#~ msgid "Article Filters"
+#~ msgstr "Artikel Filters"
+
+#~ msgid "Customize Displayed Article Headers"
+#~ msgstr "Pasmaak Vertoon Artikel Opskrifte"
+
+#~ msgid "Customize Article Viewer Behavior"
+#~ msgstr "Pasmaak Artikel Aansig Gedrag"
+
+#~ msgid "Technical Settings"
+#~ msgstr "Tegniese Instellings"
+
+#~ msgid "Customize Composer Behavior"
+#~ msgstr "Pasmaak Saamsteller Gedrag"
+
+#~ msgid "Spell Checker Behavior"
+#~ msgstr "Spel Toetser Gedrag"
+
+#~ msgid "Signing/Verifying"
+#~ msgstr "Getekende/Verifieër"
+
+#~ msgid "Protect your privacy by signing and verifying postings"
+#~ msgstr "Beskerm jou privaatheid deur getekende en verifieër possers"
+
+#~ msgid "Preserving Disk Space"
+#~ msgstr "Preserveer Disket Spasie"
+
+#~ msgid "&New..."
+#~ msgstr "Nuwe..."
+
+#~ msgid "Emulate the &keyboard behavior of KMail"
+#~ msgstr "Emuleer die sleutelbord gedrag van Kpos"
+
+#~ msgid "Newsgroups"
+#~ msgstr "Nuusgroepe"
+
+#~ msgid "0 Bytes"
+#~ msgstr "0 Grepe"
+
+#~ msgid "%1 Bytes"
+#~ msgstr "%1 Grepe"
+
+#~ msgid "%1 KB"
+#~ msgstr "%1 Kb"
+
+#~ msgid "Sta&rt Search"
+#~ msgstr "Begin Soektog"
+
+#~ msgid "&New Search"
+#~ msgstr "Nuwe Soektog"
+
+#~ msgid ""
+#~ "Unable to connect.\n"
+#~ "The following error ocurred:\n"
+#~ msgstr ""
+#~ "Nie moontlik na konnekteer.\n"
+#~ "Die volgende fout voorgekom:\n"
 
 #~ msgid ""
 #~ "Internal error:\n"
