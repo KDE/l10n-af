@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonsole VERSION\n"
-"POT-Creation-Date: 2002-09-19 02:58+0200\n"
+"POT-Creation-Date: 2003-10-25 01:34+0200\n"
 "PO-Revision-Date: 2002-11-07 11:28+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,13 +25,13 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: kcmkonsole.cpp:49
+#: kcmkonsole.cpp:44
 msgid ""
 "_: normal line spacing\n"
 "Normal"
 msgstr "Normale"
 
-#: kcmkonsole.cpp:152
+#: kcmkonsole.cpp:155
 msgid ""
 "The Ctrl+S/Ctrl+Q flow control setting will only affect newly started "
 "Konsole sessions.\n"
@@ -39,7 +39,16 @@ msgid ""
 "existing Konsole sessions."
 msgstr ""
 
-#: kcmkonsole.cpp:180
+#: kcmkonsole.cpp:163
+msgid ""
+"You have chosen to enable bidirectional text rendering by default.\n"
+"Note that bidirectional text may not always be shown correctly, especially "
+"when selecting parts of text written right-to-left. This is a known issue "
+"which cannot be resolved at the moment due to the nature of text handling in "
+"console-based applications."
+msgstr ""
+
+#: kcmkonsole.cpp:186
 msgid ""
 "<h1>Konsole</h1> With this module you can configure Konsole, the KDE "
 "terminal application. You can configure the generic Konsole options (which "
@@ -51,57 +60,59 @@ msgstr ""
 "asook wees gekonfigureer te gebruik die Rmb) en jy kan redigeer die skemas "
 "en sessies beskikbaar na Konsole."
 
-#: kcmkonsole.cpp:190
+#: kcmkonsole.cpp:196
 msgid "KCM Konsole"
 msgstr "Kcm Konsole"
 
-#: kcmkonsole.cpp:191
+#: kcmkonsole.cpp:197
 msgid "KControl module for Konsole configuration"
 msgstr "Kcontrol module vir Konsole opstelling"
 
 #: rc.cpp:1
-msgid "KCMKonsoleDialog"
-msgstr ""
-
-#: rc.cpp:2
 msgid "&General"
 msgstr "Algemeen"
 
-#: rc.cpp:3
+#: rc.cpp:2
 msgid "Misc"
 msgstr "Allerande"
 
-#: rc.cpp:4
-msgid "Show terminal si&ze when resizing"
+#: rc.cpp:3
+#, fuzzy
+msgid "Show terminal si&ze after resizing"
 msgstr "Vertoon terminaal grootte wanneer hervergrooting"
 
-#: rc.cpp:5
+#: rc.cpp:4
 msgid "Show &frame"
 msgstr "Vertoon raam"
 
-#: rc.cpp:6
-msgid "&Confirm quit with open sessions"
+#: rc.cpp:5
+#, fuzzy
+msgid "&Confirm quit when closing more then one session"
 msgstr "Bevestig verlaat met open sessies"
 
-#: rc.cpp:7
+#: rc.cpp:6
 msgid "&Blinking cursor"
 msgstr "Flikkerende plekaanduier"
 
-#: rc.cpp:8
+#: rc.cpp:7
 msgid "&Require Ctrl key for drag and drop"
 msgstr "Vereis Ctrl sleutel vir trek en laat val"
 
-#: rc.cpp:9
+#: rc.cpp:8
 msgid "Triple click selects &only from the current word forward"
 msgstr "Drievoudige kliek kies slegs van die huidige woord vorentoe"
 
-#: rc.cpp:10
+#: rc.cpp:9
 msgid "Allow progr&ams to resize terminal window"
 msgstr "Toelaat programme na hervergroot terminaal venster"
 
-#: rc.cpp:11
+#: rc.cpp:10
 msgid "Use Ctrl+S/Ctrl+Q flow control"
 msgstr "Gebruik Ctrl+S/Ctrl+Q vloei kontrole"
+
+#: rc.cpp:11
+msgid "Enable bidirectional text rendering"
+msgstr ""
 
 #: rc.cpp:12
 msgid "&Line spacing:"
@@ -147,7 +158,7 @@ msgstr "Tolk kleur:"
 msgid "&Bold"
 msgstr "Vetdruk"
 
-#: rc.cpp:24 rc.cpp:83
+#: rc.cpp:24 rc.cpp:76
 msgid "Custom"
 msgstr "Pasmaak"
 
@@ -311,139 +322,141 @@ msgstr "Transparent"
 msgid "Konsole Session Editor"
 msgstr "Konsole Sessie Redigeerder"
 
-#: rc.cpp:66
-msgid "General"
-msgstr "Algemeen"
-
 #: rc.cpp:67
-msgid "&Name:"
-msgstr "Naam:"
-
-#: rc.cpp:68
-msgid "E&xecute:"
-msgstr "Uitvoer:"
-
-#: rc.cpp:69
-msgid "&Directory:"
-msgstr "Gids:"
-
-#: rc.cpp:70
-msgid "Session"
-msgstr "Sessie"
-
-#: rc.cpp:71
-msgid "Sa&ve Session..."
-msgstr "Stoor Sessie..."
-
-#: rc.cpp:72
-msgid "&Remove Session"
-msgstr "Verwyder Sessie"
-
-#: rc.cpp:74
 msgid "<Default>"
 msgstr "<Default>"
 
-#: rc.cpp:75
+#: rc.cpp:68
 msgid "Normal"
 msgstr "Normale"
 
-#: rc.cpp:76
+#: rc.cpp:69
 msgid "Tiny"
 msgstr "Baie klein"
 
-#: rc.cpp:77
+#: rc.cpp:70
 msgid "Small"
 msgstr "Klein"
 
-#: rc.cpp:78
+#: rc.cpp:71
 msgid "Medium"
 msgstr "Medium"
 
-#: rc.cpp:79
+#: rc.cpp:72
 msgid "Large"
 msgstr "Groot"
 
-#: rc.cpp:80
+#: rc.cpp:73
 msgid "Huge"
 msgstr "Baie groot"
 
-#: rc.cpp:81
+#: rc.cpp:74
 msgid "Linux"
 msgstr "Linux"
 
-#: rc.cpp:82
+#: rc.cpp:75
 msgid "Unicode"
 msgstr "Unicode"
 
-#: rc.cpp:84
+#: rc.cpp:77
 msgid "&Font:"
 msgstr "Skrif tipe:"
 
-#: rc.cpp:85
+#: rc.cpp:78
 msgid "Sc&hema:"
 msgstr "Skema:"
 
-#: rc.cpp:86
+#: rc.cpp:79
 msgid "$&TERM:"
 msgstr "$Terme:"
 
-#: rc.cpp:87
+#: rc.cpp:80
 msgid "&Keytab:"
 msgstr "Keytab:"
 
-#: rc.cpp:88
+#: rc.cpp:82
 msgid "&Icon:"
 msgstr "Ikoon:"
 
-#: schemaeditor.cpp:244 schemaeditor.cpp:562 sessioneditor.cpp:106
+#: rc.cpp:83
+msgid "Session"
+msgstr "Sessie"
+
+#: rc.cpp:84
+msgid "Sa&ve Session..."
+msgstr "Stoor Sessie..."
+
+#: rc.cpp:85
+msgid "&Remove Session"
+msgstr "Verwyder Sessie"
+
+#: rc.cpp:86
+msgid "General"
+msgstr "Algemeen"
+
+#: rc.cpp:87
+msgid "&Name:"
+msgstr "Naam:"
+
+#: rc.cpp:88
+msgid "E&xecute:"
+msgstr "Uitvoer:"
+
+#: rc.cpp:89
+msgid "&Directory:"
+msgstr "Gids:"
+
+#: schemaeditor.cpp:245 schemaeditor.cpp:566 sessioneditor.cpp:113
 msgid "untitled"
 msgstr "ongetiteld"
 
-#: schemaeditor.cpp:264
+#: schemaeditor.cpp:270
 msgid "Select Background Image"
 msgstr "Kies Agtergrond Beeld"
 
-#: schemaeditor.cpp:311
+#: schemaeditor.cpp:317
 msgid "You are trying to remove a system schema. Are you sure?"
 msgstr "Jy word probeer na verwyder 'n stelsel skema. word Jy seker?"
 
-#: schemaeditor.cpp:312
+#: schemaeditor.cpp:318
 msgid "Removing System Schema"
 msgstr "Verwydering Stelsel Skema"
 
-#: schemaeditor.cpp:322
+#: schemaeditor.cpp:330
+#, fuzzy
 msgid ""
 "Cannot remove the schema.\n"
-"Maybe it is a system schema\n"
+"Maybe it is a system schema.\n"
 msgstr ""
 "Kan nie verwyder die skema.\n"
 "Miskien dit is 'n stelsel skema\n"
 
-#: schemaeditor.cpp:323
+#: schemaeditor.cpp:331
 msgid "Error Removing Schema"
 msgstr "Fout Verwydering Skema"
 
-#: schemaeditor.cpp:350 sessioneditor.cpp:288
-msgid "Filename:"
-msgstr "Lêernaam:"
-
-#: schemaeditor.cpp:351
+#: schemaeditor.cpp:356
 msgid "Save Schema"
 msgstr "Stoor Skema"
 
-#: schemaeditor.cpp:430
+#: schemaeditor.cpp:357 sessioneditor.cpp:295
+msgid "Filename:"
+msgstr "Lêernaam:"
+
+#: schemaeditor.cpp:435
+#, fuzzy
 msgid ""
 "Cannot save the schema.\n"
-"Maybe permission denied\n"
+"Maybe permission denied.\n"
 msgstr ""
 "Kan nie stoor die skema.\n"
 "Miskien reg verbied\n"
 
-#: schemaeditor.cpp:431
+#: schemaeditor.cpp:436
 msgid "Error Saving Schema"
 msgstr "Fout Stooring Skema"
 
-#: schemaeditor.cpp:497
+#: schemaeditor.cpp:500
 msgid ""
 "The schema has been modified.\n"
 "Do you want to save the changes?"
@@ -451,31 +464,31 @@ msgstr ""
 "Die skema het al veranderde.\n"
 "Doen jy wil hê na stoor Die verander?"
 
-#: schemaeditor.cpp:499
+#: schemaeditor.cpp:502
 msgid "Schema Modified"
 msgstr "Skema Veranderde"
 
-#: schemaeditor.cpp:543
+#: schemaeditor.cpp:546
 msgid "Cannot find the schema."
 msgstr "Kan nie soek die skema."
 
-#: schemaeditor.cpp:544 schemaeditor.cpp:554
+#: schemaeditor.cpp:547 schemaeditor.cpp:558
 msgid "Error Loading Schema"
 msgstr "Fout Laaiïng van Skema"
 
-#: schemaeditor.cpp:553
+#: schemaeditor.cpp:557
 msgid "Cannot load the schema."
 msgstr "Kan nie las die skema."
 
-#: sessioneditor.cpp:88
+#: sessioneditor.cpp:99
 msgid "XTerm (XFree 4.x.x)"
 msgstr "Xterm (Xfree 4.x.x)"
 
-#: sessioneditor.cpp:164
+#: sessioneditor.cpp:167
 msgid "Unnamed"
 msgstr "Nie-genaamd"
 
-#: sessioneditor.cpp:240
+#: sessioneditor.cpp:248
 msgid ""
 "The session has been modified.\n"
 "Do you want to save the changes?"
@@ -483,34 +496,39 @@ msgstr ""
 "Die sessie het al veranderde.\n"
 "Doen jy wil hê na stoor Die verander?"
 
-#: sessioneditor.cpp:242
+#: sessioneditor.cpp:250
 msgid "Session Modified"
 msgstr "Sessie Veranderde"
 
-#: sessioneditor.cpp:258
+#: sessioneditor.cpp:266
 msgid "Konsole Default"
 msgstr "Konsole Verstek"
 
-#: sessioneditor.cpp:289
+#: sessioneditor.cpp:294
 msgid "Save Session"
 msgstr "Stoor Sessie"
 
-#: sessioneditor.cpp:327
+#: sessioneditor.cpp:330
 msgid "You are trying to remove a system session. Are you sure?"
 msgstr "Jy word probeer na verwyder 'n stelsel sessie. word Jy seker?"
 
-#: sessioneditor.cpp:328
+#: sessioneditor.cpp:331
 msgid "Removing System Session"
 msgstr "Verwydering Stelsel Sessie"
 
-#: sessioneditor.cpp:335
+#: sessioneditor.cpp:338
+#, fuzzy
 msgid ""
 "Cannot remove the session.\n"
-"Maybe it is a system session\n"
+"Maybe it is a system session.\n"
 msgstr ""
 "Kan nie verwyder die sessie.\n"
 "Miskien dit is 'n stelsel sessie\n"
 
-#: sessioneditor.cpp:336
+#: sessioneditor.cpp:339
 msgid "Error Removing Session"
 msgstr "Fout Verwydering Sessie"
+
+#, fuzzy
+#~ msgid "&Folder:"
+#~ msgstr "Vetdruk"
