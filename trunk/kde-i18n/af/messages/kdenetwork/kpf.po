@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpf VERSION\n"
-"POT-Creation-Date: 2004-12-16 01:20+0100\n"
+"POT-Creation-Date: 2005-01-20 01:23+0100\n"
 "PO-Revision-Date: 2002-11-07 11:35+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -150,27 +150,27 @@ msgstr "%1  mb /s"
 msgid "Idle"
 msgstr "Luier"
 
-#: ConfigDialogPage.cpp:48 PropertiesDialogPlugin.cpp:318 ServerWizard.cpp:133
+#: ConfigDialogPage.cpp:51 PropertiesDialogPlugin.cpp:326 ServerWizard.cpp:132
 msgid "&Listen port:"
 msgstr "Luister poort:"
 
-#: ConfigDialogPage.cpp:49 PropertiesDialogPlugin.cpp:319 ServerWizard.cpp:136
+#: ConfigDialogPage.cpp:52 PropertiesDialogPlugin.cpp:327 ServerWizard.cpp:135
 msgid "&Bandwidth limit:"
 msgstr "Bandwydte beperk:"
 
-#: ConfigDialogPage.cpp:56 PropertiesDialogPlugin.cpp:321 ServerWizard.cpp:142
+#: ConfigDialogPage.cpp:59 PropertiesDialogPlugin.cpp:329 ServerWizard.cpp:141
 msgid "&Server name:"
 msgstr ""
 
-#: ConfigDialogPage.cpp:59 PropertiesDialogPlugin.cpp:329
+#: ConfigDialogPage.cpp:66 PropertiesDialogPlugin.cpp:340
 msgid "&Follow symbolic links"
 msgstr "Volg simboliese skakel"
 
-#: ConfigDialogPage.cpp:77 ServerWizard.cpp:163
+#: ConfigDialogPage.cpp:84 ServerWizard.cpp:171
 msgid " kB/s"
 msgstr " Kb/s"
 
-#: ConfigDialogPage.cpp:126 PropertiesDialogPlugin.cpp:391 ServerWizard.cpp:78
+#: ConfigDialogPage.cpp:133 PropertiesDialogPlugin.cpp:403 ServerWizard.cpp:82
 msgid ""
 "<p>Specify the network `port' on which the server should listen for "
 "connections.</p>"
@@ -178,7 +178,7 @@ msgstr ""
 "<p>Spesifiseer die netwerk `port' op wat die bediener moet luister vir "
 "koppelinge.</p>"
 
-#: ConfigDialogPage.cpp:135 PropertiesDialogPlugin.cpp:400 ServerWizard.cpp:91
+#: ConfigDialogPage.cpp:142 PropertiesDialogPlugin.cpp:412 ServerWizard.cpp:95
 msgid ""
 "<p>Specify the maximum amount of data (in kilobytes) that will be sent out "
 "per second.</p>"
@@ -186,13 +186,13 @@ msgid ""
 "connections with kpf to hog your connection.</p>"
 msgstr ""
 
-#: ConfigDialogPage.cpp:148 PropertiesDialogPlugin.cpp:413
+#: ConfigDialogPage.cpp:155 PropertiesDialogPlugin.cpp:425
 msgid "<p>Specify the maximum number of connections allowed at any one time.</p>"
 msgstr ""
 "<p>Spesifiseer die maksimum nommer van koppelinge toegelaat na enige een "
 "tyd.</p>"
 
-#: ConfigDialogPage.cpp:157
+#: ConfigDialogPage.cpp:164
 msgid ""
 "<p>Allow serving of files which have a symbolic link in the path from / to "
 "the file, or are a symbolic link themselves.</p>"
@@ -201,7 +201,7 @@ msgid ""
 "involved.</p>"
 msgstr ""
 
-#: ConfigDialogPage.cpp:171
+#: ConfigDialogPage.cpp:178
 msgid ""
 "<p>"
 "Specify the text that will be sent upon an error, such as a request for a "
@@ -210,13 +210,6 @@ msgstr ""
 "<p>"
 "Spesifiseer die teks wat sal wees gestuur van 'n fout, soos as 'n versoek "
 "vir 'n bladsy wat doen nie bestaan op hierdie bediener.</p>"
-
-#: ConfigDialogPage.cpp:180 PropertiesDialogPlugin.cpp:436
-#: ServerWizard.cpp:121
-msgid ""
-"<p>Specify name that will be used when announcing this server on network. "
-"</p>"
-msgstr ""
 
 #: DirectoryLister.cpp:188
 msgid " MB"
@@ -267,11 +260,40 @@ msgstr ""
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: PropertiesDialogPlugin.cpp:183
+#: Help.cpp:38
+msgid ""
+"<p>Specify the name that will be used when announcing this server on "
+"network.</p>"
+msgstr ""
+
+#: Help.cpp:41
+msgid ""
+"<p>The Zeroconf daemon is not running. See the Handbook for more "
+"information."
+"<br/>Other users will not see this system when browsing the network via "
+"zeroconf, but sharing will still work.</p>"
+msgstr ""
+
+#: Help.cpp:46
+msgid ""
+"<p>Zeroconf support is not available in this version of KDE. See the "
+"Handbook for more information."
+"<br/>Other users will not see this system when browsing the network via "
+"zeroconf, but sharing will still work.</p>"
+msgstr ""
+
+#: Help.cpp:51
+msgid ""
+"<p>Unknown error with Zeroconf."
+"<br/>Other users will not see this system when browsing the network via "
+"zeroconf, but sharing will still work.</p>"
+msgstr ""
+
+#: PropertiesDialogPlugin.cpp:186
 msgid "&Sharing"
 msgstr "Deeling"
 
-#: PropertiesDialogPlugin.cpp:277
+#: PropertiesDialogPlugin.cpp:285
 msgid ""
 "<p>To share files via the web, you need to be running an 'applet' in your "
 "KDE panel. This 'applet' is a small program which provides file sharing "
@@ -281,24 +303,24 @@ msgstr ""
 "'applet' in jou Kde paneel. Hierdie 'applet' is 'n klein program wat verskaf "
 "lêer deeling instaad tot.</p>"
 
-#: PropertiesDialogPlugin.cpp:287
+#: PropertiesDialogPlugin.cpp:295
 msgid "Start Applet"
 msgstr "Begin Miniprogram"
 
-#: PropertiesDialogPlugin.cpp:294 PropertiesDialogPlugin.cpp:554
+#: PropertiesDialogPlugin.cpp:302 PropertiesDialogPlugin.cpp:558
 msgid "Applet status: <strong>not running</strong>"
 msgstr "Miniprogram status: <strong>nie wat loop</strong>"
 
-#: PropertiesDialogPlugin.cpp:316
+#: PropertiesDialogPlugin.cpp:324
 #, fuzzy
 msgid "Share this directory on the &Web"
 msgstr "Deel hierdie gids op die web"
 
-#: PropertiesDialogPlugin.cpp:337
+#: PropertiesDialogPlugin.cpp:349
 msgid "kB/s"
 msgstr "Kb/s"
 
-#: PropertiesDialogPlugin.cpp:366
+#: PropertiesDialogPlugin.cpp:378
 msgid ""
 "<p>Setting this option makes all files in this directory and any "
 "subdirectories available for reading to anyone who wishes to view "
@@ -319,7 +341,7 @@ msgstr ""
 "geheime, jou adresboek, etc.</p>"
 "<p>Nota wat jy kan nie deel jou huis gids (%1)</p>"
 
-#: PropertiesDialogPlugin.cpp:422
+#: PropertiesDialogPlugin.cpp:434
 msgid ""
 "<p>Allow serving of files which have a symbolic link in the path from / to "
 "the file, or are a symbolic link themselves.</p>"
@@ -327,19 +349,19 @@ msgid ""
 "understand the issues involved.</p>"
 msgstr ""
 
-#: PropertiesDialogPlugin.cpp:507
+#: PropertiesDialogPlugin.cpp:511
 msgid "Applet status: <strong>starting...</strong>"
 msgstr "Miniprogram status: <strong>beginne...</strong>"
 
-#: PropertiesDialogPlugin.cpp:519
+#: PropertiesDialogPlugin.cpp:523
 msgid "Applet status: <strong>failed to start</strong>"
 msgstr "Miniprogram status: <strong>gevaal na begin</strong>"
 
-#: PropertiesDialogPlugin.cpp:532
+#: PropertiesDialogPlugin.cpp:536
 msgid "Applet status: <strong>running</strong>"
 msgstr "Miniprogram status: <strong>wat loop</strong>"
 
-#: PropertiesDialogPlugin.cpp:674
+#: PropertiesDialogPlugin.cpp:678
 #, fuzzy
 msgid ""
 "<p>Before you share a directory, be <strong>absolutely certain</strong>"
@@ -358,20 +380,20 @@ msgstr ""
 "<p>As jy het 'n stelsel administrateur, asseblief vra vir reg Voor Deeling "
 "'n gids in hierdie weg.</p>"
 
-#: PropertiesDialogPlugin.cpp:689
+#: PropertiesDialogPlugin.cpp:693
 msgid "Warning - Sharing Sensitive Information?"
 msgstr "Waarskuwing - Deeling Sensitief Informasie?"
 
-#: PropertiesDialogPlugin.cpp:690
+#: PropertiesDialogPlugin.cpp:694
 msgid "&Share Directory"
 msgstr "Deel Gids"
 
-#: ServerWizard.cpp:48
+#: ServerWizard.cpp:52
 #, c-format
 msgid "New Server - %1"
 msgstr "Nuwe Bediener - %1"
 
-#: ServerWizard.cpp:61
+#: ServerWizard.cpp:65
 msgid ""
 "<p>Specify the directory which contains the files you wish to "
 "share.</p>"
@@ -383,27 +405,27 @@ msgstr ""
 "<p><em>Waarskuwing</em>: Doen nie deel enige gidse wat bevat sensitief "
 "informasie!</p>"
 
-#: ServerWizard.cpp:130
+#: ServerWizard.cpp:129
 msgid "&Root directory:"
 msgstr "Root gids:"
 
-#: ServerWizard.cpp:220
+#: ServerWizard.cpp:228
 msgid "Root Directory"
 msgstr "Root Gids"
 
-#: ServerWizard.cpp:221
+#: ServerWizard.cpp:229
 msgid "Listen Port"
 msgstr "Luister Poort"
 
-#: ServerWizard.cpp:222
+#: ServerWizard.cpp:230
 msgid "Bandwidth Limit"
 msgstr "Bandwydte Beperk"
 
-#: ServerWizard.cpp:224
+#: ServerWizard.cpp:232
 msgid "Server Name"
 msgstr ""
 
-#: ServerWizard.cpp:391
+#: ServerWizard.cpp:399
 #, c-format
 msgid "Choose Directory to Share - %1"
 msgstr "Kies Gids na Deel - %1"
@@ -463,6 +485,24 @@ msgstr "Http weergawe nie ondersteunde"
 #: Utils.cpp:355
 msgid "Unknown"
 msgstr "Onbekende"
+
+#: WebServer.cpp:174
+msgid "Successfully published this new service to the network (ZeroConf)."
+msgstr ""
+
+#: WebServer.cpp:174
+msgid "Successfully Published the Service"
+msgstr ""
+
+#: WebServer.cpp:178
+msgid ""
+"Failed to publish this new service to the network (ZeroConf).  The server "
+"will work fine without this, however."
+msgstr ""
+
+#: WebServer.cpp:178
+msgid "Failed to Publish the Service"
+msgstr ""
 
 #: _translatorinfo.cpp:1
 msgid ""
