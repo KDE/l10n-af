@@ -1,12 +1,12 @@
 # WEB-Translator generated file. UTF-8 test:äëïöü
 # Copyright (C) 2001 Free Software Foundation, Inc.
-# Frikkie Thirion <frix@engineer.com>, 2001.
+# Frikkie Thirion <frix@expertron.co.za>, 2001,2002.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kformula VERSION\n"
-"POT-Creation-Date: 2002-01-30 04:27+0100\n"
-"PO-Revision-Date: 2002-01-10 09:30+0200\n"
+"POT-Creation-Date: 2002-07-15 02:51+0200\n"
+"PO-Revision-Date: 2002-07-09 12:43+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
@@ -17,16 +17,12 @@ msgstr ""
 msgid "E&lement"
 msgstr "element"
 
-#: rc.cpp:3
-msgid "Add..."
-msgstr "voeg by..."
-
 #: rc.cpp:4 rc.cpp:13
 msgid "Matrix"
 msgstr "matrix"
 
 #: rc.cpp:6
-msgid "Increase/Decrease options.."
+msgid "Increase/Decrease Options.."
 msgstr "vermeerder/verklein opsies.."
 
 #: rc.cpp:11
@@ -37,112 +33,74 @@ msgstr "element"
 msgid "Symbol"
 msgstr "simbool"
 
-#: kfconfig.cc:32
+#: formulastring.cc:42
+msgid "Formula String"
+msgstr "formule string"
+
+#: formulastring.cc:104
+msgid "Parser Error"
+msgstr "leser fout"
+
+#: fsparser.cc:449
+msgid "Aborted parsing at %1:%2"
+msgstr "gekanselleer verwerking na %1:%2"
+
+#: fsparser.cc:557 fsparser.cc:572 fsparser.cc:583 fsparser.cc:595
+#: fsparser.cc:606 fsparser.cc:613
+msgid "'%3' expected at %1:%2"
+msgstr "'%3' verwag na %1:%2"
+
+#: fsparser.cc:616
+msgid "Null columns in Matrix at %1:%2"
+msgstr "null kolomme in matrix na %1:%2"
+
+#: fsparser.cc:619
+msgid "Null rows in Matrix at %1:%2"
+msgstr "null rye in matrix na %1:%2"
+
+#: fsparser.cc:629
+msgid "Unexpected token at %1:%2"
+msgstr "onverwagte token na %1:%2"
+
+#: fsparser.cc:774
+msgid "A single '.' is not a number at %1:%2"
+msgstr "'n enkel '.' is nie 'n nommer na %1:%2"
+
+#: kfconfig.cc:33
 msgid "Configure KFormula"
 msgstr "konfigureer kformula"
 
-#: kfconfig.cc:36
+#: kfconfig.cc:38
 msgid "Formula"
 msgstr "formule"
 
-#: kfconfig.cc:36
-msgid "Formula settings"
+#: kfconfig.cc:38
+msgid "Formula Settings"
 msgstr "formule instellings"
 
+#: kfconfig.cc:43
+msgid "Math Fonts"
+msgstr "wiskunde skriftipes"
+
+#: kfconfig.cc:43
+msgid "Math Fonts Settings"
+msgstr "wiskunde skriftipes instellings"
+
+#: kformula_view.cc:107
+msgid "Size"
+msgstr "grootte"
+
+#: kformula_view.cc:133
+msgid "Edit Formula String..."
+msgstr "redigeer formule string..."
+
+#: kformula_view.cc:240
+msgid "Read Formula String"
+msgstr "lees formule string"
+
 #: main.cc:30
-msgid "File To Open"
+msgid "File to open"
 msgstr "lêer aan open"
-
-#: matrixwidget.cc:34
-msgid "KFormula - Matrix Element Setup"
-msgstr "kformula - matrix element opstelling"
-
-#: matrixwidget.cc:37
-msgid "General"
-msgstr "algemeen"
-
-#: matrixwidget.cc:46
-msgid "Size & Space:"
-msgstr "grootte & spasie:"
-
-#: matrixwidget.cc:51
-msgid "Columns:"
-msgstr "kolomme:"
-
-#: matrixwidget.cc:58
-msgid "Rows"
-msgstr "rye"
-
-#: matrixwidget.cc:68
-msgid "Space:"
-msgstr "spasie:"
-
-#: matrixwidget.cc:81
-msgid "Borders:"
-msgstr "grense:"
-
-#: matrixwidget.cc:84 matrixwidget.cc:90 matrixwidget.cc:96
-#: matrixwidget.cc:102 matrixwidget.cc:108 matrixwidget.cc:114
-msgid "No Border"
-msgstr "nee grens"
-
-#: matrixwidget.cc:85 matrixwidget.cc:91 matrixwidget.cc:97
-#: matrixwidget.cc:103 matrixwidget.cc:109 matrixwidget.cc:115
-msgid "Single Line"
-msgstr "enkel lyn"
-
-#: matrixwidget.cc:86 matrixwidget.cc:92 matrixwidget.cc:98
-#: matrixwidget.cc:104 matrixwidget.cc:110 matrixwidget.cc:116
-msgid "Double Line"
-msgstr "dubbel lyn"
-
-#: matrixwidget.cc:121
-msgid "Internal Horizontal"
-msgstr "intern horisontaal"
-
-#: matrixwidget.cc:125
-msgid "Internal Vertical"
-msgstr "intern vertikaal"
-
-#: matrixwidget.cc:156
-msgid "Vertical:"
-msgstr "vertikaal:"
-
-#: matrixwidget.cc:162
-msgid "Fixed Row"
-msgstr "vasgemaakte ry"
-
-#: matrixwidget.cc:170
-msgid "Half Matrix"
-msgstr "half matrix"
-
-#: matrixwidget.cc:179
-msgid "Row Midline"
-msgstr ""
-
-#: matrixwidget.cc:182
-msgid "Over the row"
-msgstr "bo die ry"
-
-#: matrixwidget.cc:185
-msgid "Under the row"
-msgstr "onder die ry"
-
-#: matrixwidget.cc:196
-msgid "Horizontal:"
-msgstr "horisontaal:"
-
-#: matrixwidget.cc:199
-msgid "Center "
-msgstr "sentrum "
-
-#: matrixwidget.cc:200
-msgid "Left side"
-msgstr "links kant"
-
-#: matrixwidget.cc:201
-msgid "Right side"
-msgstr "regterkant kant"
 
 #: kformula_aboutdata.h:27
 msgid "KOffice Formula Editor"
@@ -151,6 +109,14 @@ msgstr "koffice formule redigeerder"
 #: kformula_aboutdata.h:32
 msgid "KFormula"
 msgstr "kformula"
+
+#: kformula_aboutdata.h:38
+msgid "for your advice to look at TeX first"
+msgstr ""
+
+#: kformula_aboutdata.h:39
+msgid "for the sweet icons"
+msgstr ""
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -162,10 +128,4 @@ msgstr "WEB-Vertaler (http://kde.af.org.za)"
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "frix@engineer.com"
-
-#~ msgid "Vertical align"
-#~ msgstr "vertikaal oplyn"
-
-#~ msgid "Horizontal align"
-#~ msgstr "horisontaal oplyn"
+msgstr "frix@expertron.co.za"
