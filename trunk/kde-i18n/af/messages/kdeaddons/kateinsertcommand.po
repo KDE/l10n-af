@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kateinsertcommand VERSION\n"
-"POT-Creation-Date: 2002-08-26 03:02+0200\n"
+"POT-Creation-Date: 2003-12-30 01:35+0100\n"
 "PO-Revision-Date: 2002-11-07 11:26+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -13,60 +13,62 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: plugin_kateinsertcommand.cpp:103
+#: plugin_kateinsertcommand.cpp:85
 msgid "Insert Command..."
 msgstr "Voeg by Opdrag..."
 
-#: plugin_kateinsertcommand.cpp:130
+#: plugin_kateinsertcommand.cpp:112
 msgid "A process is currently being executed."
 msgstr "'n proses is huidiglik te wees uitgevoerde."
 
-#: plugin_kateinsertcommand.cpp:130
+#: plugin_kateinsertcommand.cpp:113
 msgid "Error!"
 msgstr "Fout!"
 
-#: plugin_kateinsertcommand.cpp:212
+#: plugin_kateinsertcommand.cpp:199
 msgid "Could not kill command :o(("
 msgstr "Kon nie stop opdrag :o(("
 
-#: plugin_kateinsertcommand.cpp:212 plugin_kateinsertcommand.cpp:250
+#: plugin_kateinsertcommand.cpp:199 plugin_kateinsertcommand.cpp:241
 msgid "Oops!"
 msgstr "Oeps!"
 
-#: plugin_kateinsertcommand.cpp:218
-msgid "Executing command:"
-msgstr "Uitvoer van opdrag:"
-
-#: plugin_kateinsertcommand.cpp:218
-msgid "Press Cancel to abort"
+#: plugin_kateinsertcommand.cpp:206
+#, fuzzy
+msgid ""
+"Executing command:\n"
+"%1\n"
+"\n"
+"Press 'Cancel' to abort."
 msgstr "Druk Kanseleer na staak"
 
-#: plugin_kateinsertcommand.cpp:250
+#: plugin_kateinsertcommand.cpp:240
 #, c-format
 msgid "Command exited with status %1"
 msgstr "Opdrag uitgegaan met status %1"
 
-#: plugin_kateinsertcommand.cpp:286
+#: plugin_kateinsertcommand.cpp:281
 msgid "Insert Command"
 msgstr "Voeg by Opdrag"
 
-#: plugin_kateinsertcommand.cpp:293
+#: plugin_kateinsertcommand.cpp:288
 msgid "Enter &command:"
 msgstr "Invoer opdrag:"
 
-#: plugin_kateinsertcommand.cpp:303
-msgid "Choose &working directory:"
+#: plugin_kateinsertcommand.cpp:300
+#, fuzzy
+msgid "Choose &working folder:"
 msgstr "Kies werksaam gids:"
 
-#: plugin_kateinsertcommand.cpp:313
+#: plugin_kateinsertcommand.cpp:310
 msgid "Insert Std&Err messages"
 msgstr "Voeg by Stderr boodskappe"
 
-#: plugin_kateinsertcommand.cpp:316
+#: plugin_kateinsertcommand.cpp:313
 msgid "&Print command name"
 msgstr "Druk opdrag naam"
 
-#: plugin_kateinsertcommand.cpp:320
+#: plugin_kateinsertcommand.cpp:318
 msgid ""
 "Enter the shell command, the output of which you want inserted into your "
 "document. Feel free to use a pipe or two if you're in that mood;-)"
@@ -75,14 +77,15 @@ msgstr ""
 "dokument. Gevoel vry na gebruik 'n pyp of twee as jy're in wat bui;-)"
 
 #: plugin_kateinsertcommand.cpp:321
+#, fuzzy
 msgid ""
-"Sets the working directory of the command. The command executed is 'cd <dir>"
+"Sets the working folder of the command. The command executed is 'cd <dir>"
 " && <command>'"
 msgstr ""
 "Verstel die werksaam gids van die opdrag. die opdrag uitgevoerde is 'cd "
 "<dir> && <opdrag>'"
 
-#: plugin_kateinsertcommand.cpp:322
+#: plugin_kateinsertcommand.cpp:324
 msgid ""
 "Check this if you want the error output from <command> inserted too.\n"
 "Some commands, such as locate, print everything to STDERR"
@@ -90,7 +93,7 @@ msgstr ""
 "Bevestig hierdie as jy wil hê die fout uitset van <command> ingesit te.\n"
 "Sommige opdragte, soos as opspoor, druk alles na Stderr"
 
-#: plugin_kateinsertcommand.cpp:323
+#: plugin_kateinsertcommand.cpp:327
 msgid ""
 "If you check this, the command string will be printed followed by a newline "
 "before the output."
@@ -98,31 +101,34 @@ msgstr ""
 "As jy bevestig hierdie, die opdrag string sal wees printed volg deur 'n nuwe "
 "reel voor die uitset."
 
-#: plugin_kateinsertcommand.cpp:362
+#: plugin_kateinsertcommand.cpp:374
 msgid "Remember"
 msgstr "Onthou"
 
-#: plugin_kateinsertcommand.cpp:364
+#: plugin_kateinsertcommand.cpp:376
 msgid "co&mmands"
 msgstr "opdragte"
 
-#: plugin_kateinsertcommand.cpp:371
+#: plugin_kateinsertcommand.cpp:383
 msgid "Start In"
 msgstr "Begin In"
 
-#: plugin_kateinsertcommand.cpp:373
-msgid "Application &working directory"
+#: plugin_kateinsertcommand.cpp:385
+#, fuzzy
+msgid "Application &working folder"
 msgstr "Aansoek werksaam gids"
 
-#: plugin_kateinsertcommand.cpp:374
-msgid "&Document directory"
+#: plugin_kateinsertcommand.cpp:386
+#, fuzzy
+msgid "&Document folder"
 msgstr "Dokument gids"
 
-#: plugin_kateinsertcommand.cpp:375
-msgid "&Latest used working directory"
+#: plugin_kateinsertcommand.cpp:387
+#, fuzzy
+msgid "&Latest used working folder"
 msgstr "Nuutste gebruik word werksaam gids"
 
-#: plugin_kateinsertcommand.cpp:382
+#: plugin_kateinsertcommand.cpp:395
 msgid ""
 "Sets the number of commands to remember. The command history is saved over "
 "sessions."
@@ -130,18 +136,19 @@ msgstr ""
 "Verstel die nommer van opdragte na onthou. die opdrag geskiedenis is gestoor "
 "bo sessies."
 
-#: plugin_kateinsertcommand.cpp:383
+#: plugin_kateinsertcommand.cpp:398
+#, fuzzy
 msgid ""
 "<qt>"
-"<p>Decides what is suggested as <em>working directory</em> for the "
+"<p>Decides what is suggested as <em>working folder</em> for the "
 "command.</p>"
-"<p><strong>Application Working Directory (default):</strong> The directory "
-"from which you launched the application hosting the plugin, usually your "
-"home directory.</p>"
-"<p><strong>Document Directory:</strong> The directory of the document. Used "
-"only for local documents."
-"<p><strong>Latest Working Directory:</strong> The directory used last time "
-"you used this plugin.</p></qt>"
+"<p><strong>Application Working Folder (default):</strong> The folder from "
+"which you launched the application hosting the plugin, usually your home "
+"folder.</p>"
+"<p><strong>Document Folder:</strong> The folder of the document. Used only "
+"for local documents.</p>"
+"<p><strong>Latest Working Folder:</strong> The folder used last time you "
+"used this plugin.</p></qt>"
 msgstr ""
 "<qt>"
 "<p>Besluit wat is voorgestel as <em>werksaam gids</em> vir die "
@@ -153,3 +160,6 @@ msgstr ""
 "slegs vir plaaslike dokumente."
 "<p><strong>Nuutste werksaam gids:</strong> die gids Gebruik word laaste tyd "
 "jy Gebruik word hierdie inplak.</p></qt>"
+
+#~ msgid "Executing command:"
+#~ msgstr "Uitvoer van opdrag:"
