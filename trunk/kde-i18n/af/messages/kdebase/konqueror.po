@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2000-09-19 01:21+0200\n"
+"POT-Creation-Date: 2001-02-11 01:33+0100\n"
 "PO-Revision-Date: Thu Dec 23 1999 16:02:47+0200\n"
 "Last-Translator: Schalk W. Cronje <schalkc@ntaba.co.za>\n"
 "Language-Team: Afrikaans <kde-i18n@af.org.za>\n"
@@ -27,89 +27,153 @@ msgid "&Go"
 msgstr "Voor&waarts"
 
 #: rc.cpp:7
-#, fuzzy
-msgid "&Configure"
-msgstr "Konfigureer E-pos"
-
-#: rc.cpp:8
 msgid "&Window"
 msgstr "&Venster"
 
-#: rc.cpp:9 rc.cpp:11 rc.cpp:13 rc.cpp:17
-msgid "Icon Mode"
-msgstr ""
+#: rc.cpp:9 rc.cpp:12 rc.cpp:20 rc.cpp:24
+#, fuzzy
+msgid "Icon Size"
+msgstr "volgend Grootte"
 
-#: rc.cpp:10 rc.cpp:12 rc.cpp:14 rc.cpp:18
+#: dirtree/history_module/history_module.cpp:239 rc.cpp:10 rc.cpp:13
 #, fuzzy
 msgid "Sort"
 msgstr "Sorteer..."
 
-#: rc.cpp:15 rc.cpp:19
+#: rc.cpp:17
+msgid "&Bookmark"
+msgstr ""
+
+#: rc.cpp:21 rc.cpp:25
 #, fuzzy
 msgid "Show details"
 msgstr "Sorteer..."
 
-#: rc.cpp:16
+#: rc.cpp:23
 #, fuzzy
 msgid "Show details..."
 msgstr "Sorteer..."
 
-#: konq_factory.cc:197
+#: rc.cpp:28
+msgid "Form1"
+msgstr ""
+
+#: dirtree/history_module/history_module.cpp:283 rc.cpp:29
+#, fuzzy
+msgid "History settings"
+msgstr "Lêergids"
+
+#: rc.cpp:30
+msgid "Limits"
+msgstr ""
+
+#: rc.cpp:31
+msgid "URLs e&xpire after"
+msgstr ""
+
+#: rc.cpp:32
+msgid "Maximum &number of URLs"
+msgstr ""
+
+#: rc.cpp:33
+msgid "Custom fonts for..."
+msgstr ""
+
+#: rc.cpp:34
+msgid "URLs newer than"
+msgstr ""
+
+#: rc.cpp:35 rc.cpp:37
+msgid "Choose font..."
+msgstr ""
+
+#: rc.cpp:36
+msgid "URLs older than"
+msgstr ""
+
+#: rc.cpp:38
+#, fuzzy
+msgid "Details"
+msgstr "Sorteer..."
+
+#: rc.cpp:39
+msgid "Detailed Tooltips"
+msgstr ""
+
+#: rc.cpp:40
+msgid ""
+"Shows the number of times visited and the dates of first and last visit "
+"additionally to the URL"
+msgstr ""
+
+#: konq_factory.cc:189
 #, fuzzy
 msgid "Konqueror"
 msgstr "Konqueror: Soektog"
 
-#: konq_factory.cc:199
+#: konq_factory.cc:191
 msgid "Web browser, file manager, ..."
 msgstr ""
 
-#: konq_factory.cc:202
-msgid "kfm author"
-msgstr ""
-
-#: konq_factory.cc:203
+#: konq_factory.cc:194
 msgid "developer (parts, I/O lib) and maintainer"
 msgstr ""
 
-#: konq_factory.cc:204
+#: konq_factory.cc:195
 msgid "developer (framework, parts)"
 msgstr ""
 
-#: konq_factory.cc:205
+#: konq_factory.cc:196 konq_factory.cc:213
 msgid "developer (framework)"
 msgstr ""
 
-#: konq_factory.cc:206
+#: konq_factory.cc:197
 msgid "developer"
 msgstr ""
 
-#: konq_factory.cc:207
+#: konq_factory.cc:198
 msgid "developer (List views)"
 msgstr ""
 
-#: konq_factory.cc:208 konq_factory.cc:209 konq_factory.cc:210
-#: konq_factory.cc:211
+#: konq_factory.cc:199 konq_factory.cc:200 konq_factory.cc:201
+#: konq_factory.cc:202
 msgid "developer (HTML rendering engine)"
 msgstr ""
 
-#: konq_factory.cc:212
+#: konq_factory.cc:203
 msgid "developer (HTML rendering engine, I/O lib)"
 msgstr ""
 
-#: konq_factory.cc:213 konq_factory.cc:214 konq_factory.cc:215
+#: konq_factory.cc:204 konq_factory.cc:205 konq_factory.cc:206
 msgid "developer (I/O lib)"
 msgstr ""
 
-#: konq_factory.cc:216 konq_factory.cc:217
+#: konq_factory.cc:207 konq_factory.cc:208
 msgid "developer (Java applet support)"
 msgstr ""
 
-#: konq_factory.cc:218
+#: konq_factory.cc:209
 msgid "developer (JavaScript)"
 msgstr ""
 
-#: konq_factory.cc:219
+#: konq_factory.cc:210
 msgid "developer (Netscape plugin support)"
+msgstr ""
+
+#: konq_factory.cc:211
+msgid "developer (SSL support)"
+msgstr ""
+
+#: konq_factory.cc:212
+msgid "developer (I/O lib, Authentication support)"
+msgstr ""
+
+#: konq_factory.cc:214
+msgid "graphics / icons"
+msgstr ""
+
+#: konq_factory.cc:215
+msgid "kfm author"
 msgstr ""
 
 #: konq_frame.cc:76
@@ -121,7 +185,12 @@ msgid ""
 "view or detailed view, and possibly a terminal emulator window."
 msgstr ""
 
-#: konq_frame.cc:210
+#: konq_frame.cc:128
+#, fuzzy
+msgid "Remove View"
+msgstr "Verwyder aktiewe aansig"
+
+#: konq_frame.cc:226
 #, fuzzy
 msgid "stalled"
 msgstr "gestaak"
@@ -141,21 +210,25 @@ msgstr "Aan die druk..."
 msgid "Show %1"
 msgstr ""
 
-#: konq_main.cc:40
+#: konq_main.cc:43
 msgid "Start without a default window."
 msgstr ""
 
-#: konq_main.cc:41
+#: konq_main.cc:44
 #, fuzzy
 msgid "Profile to open."
 msgstr "Ligging "
 
-#: konq_main.cc:42
+#: konq_main.cc:45
+msgid "Mimetype to use for this URL, (e.g. text/html or inode/directory)."
+msgstr ""
+
+#: konq_main.cc:46
 #, fuzzy
 msgid "Location to open."
 msgstr "Ligging "
 
-#: konq_mainwindow.cc:335 konq_mainwindow.cc:341
+#: konq_mainwindow.cc:372
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -164,292 +237,295 @@ msgstr ""
 "Gebrekkige URL\n"
 "%1"
 
-#: konq_mainwindow.cc:508
+#: konq_mainwindow.cc:377
+#, c-format
+msgid ""
+"Protocol not supported\n"
+"%1"
+msgstr ""
+
+#: konq_mainwindow.cc:565
+#, fuzzy
 msgid ""
 "Could not create view for %1\n"
-"Check your installation"
+"The diagnostics is:\n"
+"%2"
 msgstr ""
 "Kon nie aansig vir %1 skep nie\n"
 "Toets u installasie"
 
-#: konq_mainwindow.cc:846
+#: konq_mainwindow.cc:915
 #, fuzzy
 msgid "Open Location"
 msgstr "Maak URL oop:"
 
-#: konq_mainwindow.cc:1043
+#: konq_mainwindow.cc:931
+msgid "Can't create the find part, check your installation."
+msgstr ""
+
+#: konq_mainwindow.cc:1195
 msgid "Canceled."
 msgstr ""
 
-#: konq_mainwindow.cc:1489
-#, fuzzy
-msgid "Copy files"
-msgstr "Deselekteer lêers:"
-
-#: konq_mainwindow.cc:1490
-#, fuzzy
-msgid "Move files"
-msgstr "Deselekteer lêers:"
-
-#: konq_mainwindow.cc:1740
+#: konq_mainwindow.cc:1804
 #, c-format
 msgid "No permissions to write to %1"
 msgstr ""
 
-#: konq_mainwindow.cc:2044 konq_mainwindow.cc:2355
+#: konq_mainwindow.cc:1817
+msgid "to"
+msgstr ""
+
+#: konq_mainwindow.cc:1852
+#, fuzzy
+msgid "Copy selected files from"
+msgstr "Deselekteer lêers:"
+
+#: konq_mainwindow.cc:1868
+#, fuzzy
+msgid "Move selected files from"
+msgstr "Deselekteer lêers:"
+
+#: konq_mainwindow.cc:2229 konq_mainwindow.cc:2573
 msgid "&Move to Trash"
 msgstr "Skuif na &Gemors"
 
-#: konq_mainwindow.cc:2169
+#: konq_mainwindow.cc:2369
 msgid "Stop Fullscreen Mode"
 msgstr ""
 
-#: konq_mainwindow.cc:2190 konq_mainwindow.cc:2340
+#: konq_mainwindow.cc:2395 konq_mainwindow.cc:2557
 msgid "Fullscreen Mode"
 msgstr ""
 
-#: konq_mainwindow.cc:2251
+#: konq_mainwindow.cc:2486
 #, fuzzy
 msgid "Edit File Type..."
 msgstr "Lêer&tipes"
 
-#: konq_mainwindow.cc:2252
+#: konq_mainwindow.cc:2487
 msgid "Properties..."
 msgstr ""
 
-#: konq_mainwindow.cc:2253
+#: konq_mainwindow.cc:2488
 msgid "New &Window"
 msgstr "Nuwe &Venster"
 
-#: konq_mainwindow.cc:2254
+#: konq_mainwindow.cc:2489
 msgid "&Duplicate Window"
 msgstr ""
 
-#: konq_mainwindow.cc:2257
+#: konq_mainwindow.cc:2493
 #, fuzzy
 msgid "&Run Command..."
 msgstr "&Loop..."
 
-#: konq_mainwindow.cc:2258
+#: konq_mainwindow.cc:2494
 msgid "Open &Terminal..."
 msgstr "Maak &terminaal oop..."
 
-#: konq_mainwindow.cc:2259
+#: konq_mainwindow.cc:2495
 msgid "&Open Location..."
 msgstr "Maak URL &oop"
 
-#: konq_mainwindow.cc:2260
+#: konq_mainwindow.cc:2497
 msgid "&Find file..."
 msgstr ""
 
-#: konq_mainwindow.cc:2265
+#: konq_mainwindow.cc:2502
 msgid "&Use index.html"
 msgstr ""
 
-#: konq_mainwindow.cc:2266
+#: konq_mainwindow.cc:2503
 msgid "Lock to current location"
 msgstr ""
 
-#: konq_mainwindow.cc:2267
-msgid "Unlock all views"
-msgstr ""
+#: konq_mainwindow.cc:2504
+#, fuzzy
+msgid "Unlock view"
+msgstr "Skakel"
 
-#: konq_mainwindow.cc:2268
+#: konq_mainwindow.cc:2505
 #, fuzzy
 msgid "Link view"
 msgstr "Skakel"
 
-#: konq_mainwindow.cc:2271
+#: konq_mainwindow.cc:2508
 msgid "&Up"
 msgstr "&Op"
 
-#: konq_mainwindow.cc:2277
+#: konq_mainwindow.cc:2512
 msgid "&Back"
 msgstr "&Vorige"
 
-#: konq_mainwindow.cc:2285
+#: konq_mainwindow.cc:2516
 msgid "&Forward"
 msgstr "&Volgende"
 
-#: konq_mainwindow.cc:2296
+#: konq_mainwindow.cc:2520
+#, fuzzy
+msgid "History"
+msgstr "Lêergids"
+
+#: konq_mainwindow.cc:2524
 msgid "Home URL"
 msgstr ""
 
-#: konq_mainwindow.cc:2298
+#: konq_mainwindow.cc:2526
 msgid "App&lications"
 msgstr "App&likasies"
 
-#: konq_mainwindow.cc:2299
-msgid "Directory Tree"
-msgstr "Gidsboom"
+#: konq_mainwindow.cc:2527
+msgid "SideBar Configuration"
+msgstr ""
 
-#: konq_mainwindow.cc:2300
+#: konq_mainwindow.cc:2528
 msgid "Trash"
 msgstr ""
 
-#: konq_mainwindow.cc:2301
+#: konq_mainwindow.cc:2529
 msgid "Templates"
 msgstr ""
 
-#: konq_mainwindow.cc:2302
+#: konq_mainwindow.cc:2530
 msgid "Autostart"
 msgstr ""
 
-#: konq_mainwindow.cc:2306 konq_mainwindow.cc:2541
-#, fuzzy, c-format
-msgid "Save View Profile %1"
+#: konq_mainwindow.cc:2534 konq_mainwindow.cc:2833
+#, fuzzy
+msgid "&Save View Profile"
 msgstr "Stoor/verwyder aansigprofiel"
 
-#: konq_mainwindow.cc:2307
-msgid "Sa&ve View Properties In Directory"
+#: konq_mainwindow.cc:2535
+msgid "View Properties Saved In &Directory"
 msgstr ""
 
-#: konq_mainwindow.cc:2309
+#: konq_mainwindow.cc:2537
 #, fuzzy
 msgid "Remove Directory Properties"
 msgstr "Vertoon Gidsboom"
 
-#: konq_mainwindow.cc:2313
-#, fuzzy
-msgid "File &Manager..."
-msgstr "Konfigureer Lêer&bestuurder..."
-
-#: konq_mainwindow.cc:2314
-#, fuzzy
-msgid "File &Associations..."
-msgstr "Konfigureer Lêer&assosiasies..."
-
-#: konq_mainwindow.cc:2316
-#, fuzzy
-msgid "&Browser..."
-msgstr "Deur&blaai..."
-
-#: konq_mainwindow.cc:2317
-msgid "&Internet Keywords..."
-msgstr ""
-
-#: konq_mainwindow.cc:2318
-msgid "&Cookies..."
-msgstr ""
-
-#: konq_mainwindow.cc:2319
-#, fuzzy
-msgid "&Proxies..."
-msgstr "Deur&blaai..."
-
-#: konq_mainwindow.cc:2320
-msgid "Cr&yptography..."
-msgstr ""
-
-#: konq_mainwindow.cc:2322
-msgid "&Key Bindings..."
-msgstr ""
-
-#: konq_mainwindow.cc:2323
-#, fuzzy
-msgid "&Toolbars..."
-msgstr "Konfigureer &Sleutel..s"
-
-#: konq_mainwindow.cc:2326
+#: konq_mainwindow.cc:2546
 #, fuzzy
 msgid "Split View &Left/Right"
 msgstr "Breek aansig &vertikaal"
 
-#: konq_mainwindow.cc:2327
+#: konq_mainwindow.cc:2547
 #, fuzzy
 msgid "Split View &Top/Bottom"
 msgstr "Breek aansig &horisontaal"
 
-#: konq_mainwindow.cc:2328
+#: konq_mainwindow.cc:2548
 msgid "New View On Right"
 msgstr ""
 
-#: konq_mainwindow.cc:2329
+#: konq_mainwindow.cc:2549
 msgid "New View At Bottom"
 msgstr ""
 
-#: konq_mainwindow.cc:2330
+#: konq_mainwindow.cc:2550
 #, fuzzy
 msgid "&Remove Active View"
 msgstr "Verwyder aktiewe aansig"
 
-#: konq_mainwindow.cc:2335
-msgid "Save/Remove View Profile"
-msgstr "Stoor/verwyder aansigprofiel"
+#: konq_mainwindow.cc:2552
+#, fuzzy
+msgid "&Configure View Profiles..."
+msgstr "Konfigureer &Sleutel..s"
 
-#: konq_mainwindow.cc:2336
-msgid "Load View Profile"
+#: konq_mainwindow.cc:2553
+#, fuzzy
+msgid "Load &View Profile"
 msgstr "Laai aansigprofiel"
 
-#: konq_mainwindow.cc:2353
+#: konq_mainwindow.cc:2570
 msgid "&Stop"
 msgstr "&Stop"
 
-#: konq_mainwindow.cc:2357
+#: keditbookmarks/toplevel.cpp:172 konq_mainwindow.cc:2572
+msgid "&Rename"
+msgstr ""
+
+#: konq_mainwindow.cc:2575
 msgid "&Shred"
 msgstr ""
 
-#: konq_mainwindow.cc:2362 konq_mainwindow.cc:2364
-msgid "Location "
+#: konq_mainwindow.cc:2577
+msgid "Animated Logo"
+msgstr ""
+
+#: konq_mainwindow.cc:2580
+#, fuzzy
+msgid "L&ocation "
 msgstr "Ligging "
 
-#: konq_mainwindow.cc:2369
+#: konq_mainwindow.cc:2582
+#, fuzzy
+msgid "Location Bar"
+msgstr "Ligging "
+
+#: konq_mainwindow.cc:2587
 msgid "Clear location bar"
 msgstr ""
 
-#: konq_mainwindow.cc:2378
+#: konq_mainwindow.cc:2605
+#, fuzzy
+msgid "Show &Extra Toolbar"
+msgstr "Vertoon &liggingsbalk"
+
+#: konq_mainwindow.cc:2606
 #, fuzzy
 msgid "Show &Location Toolbar"
 msgstr "Vertoon &liggingsbalk"
 
-#: konq_mainwindow.cc:2379
+#: konq_mainwindow.cc:2607
 #, fuzzy
 msgid "Show &Bookmark Toolbar"
 msgstr "Vertoon &boekmerkbalk"
 
-#: konq_mainwindow.cc:2386
+#: konq_mainwindow.cc:2613
 msgid ""
 "Click this button to display the previous document<br><br>\n"
 "\n"
 "You can also select the <b>Back Command</b> from the Go menu."
 msgstr ""
 
-#: konq_mainwindow.cc:2388
+#: konq_mainwindow.cc:2615
 msgid "Display the previous document"
 msgstr ""
 
-#: konq_mainwindow.cc:2390
+#: konq_mainwindow.cc:2617
 msgid ""
 "Click this button to display the next document<br><br>\n"
 "\n"
 "You can also select the <b>Forward Command</b> from the Go Menu."
 msgstr ""
 
-#: konq_mainwindow.cc:2393
+#: konq_mainwindow.cc:2620
 msgid ""
 "Click this button to display your 'Home URL'<br><br>\n"
 "\n"
-"You can configure the location this button brings you to in the<b>File "
+"You can configure the location this button brings you to in the <b>File "
 "Manager Configuration</b> in the <b>KDE Control Center</b>"
 msgstr ""
 
-#: konq_mainwindow.cc:2396
+#: konq_mainwindow.cc:2623
 #, fuzzy
 msgid "Enter your home directory"
 msgstr "Lêergids"
 
-#: konq_mainwindow.cc:2398
+#: konq_mainwindow.cc:2625
 msgid ""
 "Reloads the currently displayed document<br><br>\n"
 "\n"
 "You can also select the <b>Reload Command</b> from the View menu."
 msgstr ""
 
-#: konq_mainwindow.cc:2400
+#: konq_mainwindow.cc:2627
 msgid "Reload the current document"
 msgstr ""
 
-#: konq_mainwindow.cc:2402
+#: konq_mainwindow.cc:2629
 msgid ""
 "Click this button to cut the currently selected text or items and move it to "
 "the system clipboard<br><br>\n"
@@ -457,11 +533,11 @@ msgid ""
 "You can also select the <b>Cut Command</b> from the Edit menu."
 msgstr ""
 
-#: konq_mainwindow.cc:2405
+#: konq_mainwindow.cc:2632
 msgid "Moves the selected text/item(s) to the clipboard"
 msgstr ""
 
-#: konq_mainwindow.cc:2407
+#: konq_mainwindow.cc:2634
 msgid ""
 "Click this button to copy the currently selected text or items to the system "
 "clipboard<br><br>\n"
@@ -469,11 +545,11 @@ msgid ""
 "You can also select the <b>Copy Command</b> from the Edit menu."
 msgstr ""
 
-#: konq_mainwindow.cc:2410
+#: konq_mainwindow.cc:2637
 msgid "Copies the selected text/item(s) to the clipboard"
 msgstr ""
 
-#: konq_mainwindow.cc:2412
+#: konq_mainwindow.cc:2639
 msgid ""
 "Click this button to paste the previously cutted or copied clipboard "
 "content<br><br>\n"
@@ -481,308 +557,872 @@ msgid ""
 "You can also select the <b>Paste Command</b> from the Edit menu."
 msgstr ""
 
-#: konq_mainwindow.cc:2415
+#: konq_mainwindow.cc:2642
 msgid "Pastes the clipboard content"
 msgstr ""
 
-#: konq_mainwindow.cc:2417
+#: konq_mainwindow.cc:2644
 msgid ""
 "Click this button to print the currently displayed document<br><br>\n"
 "\n"
 "You can also select the <b>Print Command</b> from the View menu."
 msgstr ""
 
-#: konq_mainwindow.cc:2419
+#: konq_mainwindow.cc:2646
 msgid "Print the current document"
 msgstr ""
 
-#: konq_mainwindow.cc:2421
+#: konq_mainwindow.cc:2648
 msgid ""
 "Click this button to abort loading the document<br><br>\n"
 "\n"
 "You can also select the <b>Stop Command</b> from the View menu."
 msgstr ""
 
-#: konq_mainwindow.cc:2423
+#: konq_mainwindow.cc:2650
 msgid "Stop loading the document"
 msgstr ""
 
-#: konq_mainwindow.cc:2428
+#: konq_mainwindow.cc:2655
 msgid "Open index.html when entering a directory, if present"
 msgstr ""
 
-#: konq_mainwindow.cc:2429
+#: konq_mainwindow.cc:2656
 msgid ""
 "A locked view can't change directories. Use in combination with 'link view' "
 "to explore many files from one directory"
 msgstr ""
 
-#: konq_mainwindow.cc:2430
-msgid ""
-"Removes locking for all views. Unlock a single view is not possible since it "
-"can't be activated."
+#: konq_mainwindow.cc:2657
+msgid "Unlocks the current view, so that it becomes normal again."
 msgstr ""
 
-#: konq_mainwindow.cc:2431
+#: konq_mainwindow.cc:2658
 msgid ""
 "Sets the view as 'linked'. A linked view follows directory changes done in "
 "other linked views"
 msgstr ""
 
-#: konq_mainwindow.cc:2847
+#: konq_mainwindow.cc:2718
+#, fuzzy
+msgid "Copy files"
+msgstr "Deselekteer lêers:"
+
+#: konq_mainwindow.cc:2719
+#, fuzzy
+msgid "Move files"
+msgstr "Deselekteer lêers:"
+
+#: konq_mainwindow.cc:2832
+#, fuzzy
+msgid "&Save View Profile \"%1\""
+msgstr "Stoor/verwyder aansigprofiel"
+
+#: konq_mainwindow.cc:3176
 #, c-format
 msgid "Open With %1"
 msgstr ""
 
-#: konq_mainwindow.cc:2873
+#: konq_mainwindow.cc:3223
 msgid "View Mode"
 msgstr ""
 
-#: konq_profiledlg.cc:68
+#: konq_profiledlg.cc:72
 #, fuzzy
 msgid "Profile Management"
 msgstr "Konqueror: Profielbestuur"
 
-#: konq_profiledlg.cc:75
+#: konq_profiledlg.cc:79
 msgid "Enter Profile Name :"
 msgstr "Tik profielnaam in:"
 
-#: konq_profiledlg.cc:93
+#: konq_profiledlg.cc:101
 #, fuzzy
 msgid "Save URLs in profile"
 msgstr "Stoor/verwyder aansigprofiel"
 
-#: konq_profiledlg.cc:98
+#: konq_profiledlg.cc:105
 #, fuzzy
 msgid "Save window size in profile"
 msgstr "Stoor/verwyder aansigprofiel"
 
-#: konq_profiledlg.cc:108
+#: konq_profiledlg.cc:115
 msgid "Delete Selected Profile"
 msgstr "Wis gekose profiel"
 
-#: konq_profiledlg.cc:112
+#: konq_profiledlg.cc:119
 #, fuzzy
 msgid "Rename Selected Profile"
 msgstr "Wis gekose profiel"
 
-#: konq_profiledlg.cc:183
+#: konq_profiledlg.cc:196
 msgid "Rename profile '%1'"
 msgstr ""
 
-#: konq_profiledlg.cc:184
+#: konq_profiledlg.cc:197
 msgid "Rename profile"
 msgstr ""
 
-#: konq_run.cc:196
+#: konq_run.cc:134
+msgid ""
+"There appears to be a misconfiguration. You have associated konqueror with "
+"%1, but it can't handle this file type."
+msgstr ""
+
+#: konq_run.cc:234
 #, fuzzy
 msgid "Do you really want to execute '%1' ? "
 msgstr "Wil u werklik die lêer(s) uitvee?"
 
-#: konq_run.cc:210
+#: konq_run.cc:248
 msgid "Open '%1' using '%2'?"
 msgstr ""
 
-#: konq_run.cc:212
+#: konq_run.cc:250
 msgid "Open '%1' ?"
 msgstr ""
 
-#: konq_run.cc:214
+#: konq_run.cc:252
 #, fuzzy
 msgid "Save to disk"
 msgstr "Stoor as"
 
-#: konq_run.cc:229
+#: konq_run.cc:267
 msgid "Save as"
 msgstr "Stoor as"
 
-#: iconview/konq_iconview.cc:210 listview/konq_listview.cc:579
+#: iconview/konq_iconview.cc:215 listview/konq_listview.cc:596
 #, fuzzy
 msgid "Show &Hidden Files"
 msgstr "Vertoon &dotlêers"
 
-#: iconview/konq_iconview.cc:211
-msgid "&Image Preview"
-msgstr "B&eeldvoorskou"
+#: iconview/konq_iconview.cc:216
+#, fuzzy
+msgid "Preview"
+msgstr "Aan die druk..."
 
-#: iconview/konq_iconview.cc:217
+#: iconview/konq_iconview.cc:228
 msgid "by Name (Case Sensitive)"
 msgstr "volgende Naam (kassensitief)"
 
-#: iconview/konq_iconview.cc:218
+#: iconview/konq_iconview.cc:229
 msgid "by Name (Case Insensitive)"
 msgstr "volgens Naam (kasonsensitief)"
 
-#: iconview/konq_iconview.cc:219
+#: iconview/konq_iconview.cc:230
 #, fuzzy
 msgid "by Size"
 msgstr "volgend Grootte"
 
-#: iconview/konq_iconview.cc:220
+#: iconview/konq_iconview.cc:231
 #, fuzzy
 msgid "by Type"
 msgstr "Lêer&tipes"
 
-#: iconview/konq_iconview.cc:237
+#: iconview/konq_iconview.cc:248
 #, fuzzy
 msgid "Directories first"
 msgstr "Lêergids"
 
-#: iconview/konq_iconview.cc:238
+#: iconview/konq_iconview.cc:249
 msgid "Descending"
 msgstr "Dalende orde"
 
-#: iconview/konq_iconview.cc:253 listview/konq_listview.cc:569
+#: iconview/konq_iconview.cc:264 listview/konq_listview.cc:590
 msgid "&Select..."
 msgstr "&Selekteer..."
 
-#: iconview/konq_iconview.cc:254 listview/konq_listview.cc:570
+#: iconview/konq_iconview.cc:265 listview/konq_listview.cc:591
 msgid "&Unselect..."
 msgstr "&Deselekteer..."
 
-#: iconview/konq_iconview.cc:256 listview/konq_listview.cc:572
+#: iconview/konq_iconview.cc:267 listview/konq_listview.cc:593
 msgid "U&nselect All"
 msgstr "Desele&kteer Alles"
 
-#: iconview/konq_iconview.cc:257 listview/konq_listview.cc:573
+#: iconview/konq_iconview.cc:268 listview/konq_listview.cc:594
 msgid "&Invert Selection"
 msgstr "Keer seleks&ie om"
 
-#: iconview/konq_iconview.cc:259
-#, fuzzy
-msgid "&Default Size"
-msgstr "(Verstek)"
-
-#: iconview/konq_iconview.cc:260 listview/konq_listview.cc:575
-#, fuzzy
-msgid "&Large"
-msgstr "&Groot aansig"
-
-#: iconview/konq_iconview.cc:261 listview/konq_listview.cc:576
-msgid "&Medium"
-msgstr ""
-
-#: iconview/konq_iconview.cc:262 listview/konq_listview.cc:577
-#, fuzzy
-msgid "&Small"
-msgstr "&Klein aansig"
-
-#: iconview/konq_iconview.cc:275 listview/konq_listview.cc:580
-msgid "Background Color..."
-msgstr "Agtergrondkleur..."
-
-#: iconview/konq_iconview.cc:276 listview/konq_listview.cc:581
-msgid "Background Image..."
-msgstr "Agtergrondbeeld..."
-
-#: iconview/konq_iconview.cc:388 listview/konq_listview.cc:351
+#: iconview/konq_iconview.cc:358 listview/konq_listview.cc:362
 msgid "Select files:"
 msgstr "Selekteer lêers:"
 
-#: iconview/konq_iconview.cc:417 listview/konq_listview.cc:374
+#: iconview/konq_iconview.cc:387 listview/konq_listview.cc:385
 msgid "Unselect files:"
 msgstr "Deselekteer lêers:"
 
-#: listview/konq_listview.cc:282
+#: iconview/konq_iconview.cc:520 listview/konq_listviewwidget.cc:533
+msgid "You do not have enough permissions to read <b>%1</b>"
+msgstr ""
+
+#: listview/konq_listview.cc:279
 #, fuzzy
 msgid "MimeType"
 msgstr "Lêer&tipes"
 
-#: listview/konq_listview.cc:283
+#: listview/konq_listview.cc:280
 #, fuzzy
 msgid "Size"
 msgstr "volgend Grootte"
 
-#: listview/konq_listview.cc:284
+#: listview/konq_listview.cc:281
 msgid "Modified"
 msgstr ""
 
-#: listview/konq_listview.cc:285
+#: listview/konq_listview.cc:282
 msgid "Accessed"
 msgstr ""
 
-#: listview/konq_listview.cc:286
+#: listview/konq_listview.cc:283
 msgid "Created"
 msgstr ""
 
-#: listview/konq_listview.cc:287
+#: listview/konq_listview.cc:284
 msgid "Permissions"
 msgstr ""
 
-#: listview/konq_listview.cc:288
+#: listview/konq_listview.cc:285
 msgid "Owner"
 msgstr ""
 
-#: listview/konq_listview.cc:289
+#: listview/konq_listview.cc:286
 msgid "Group"
 msgstr ""
 
-#: listview/konq_listview.cc:290
+#: listview/konq_listview.cc:287
 msgid "Link"
 msgstr "Skakel"
 
-#: listview/konq_listview.cc:291
+#: keditbookmarks/toplevel.cpp:123 listview/konq_listview.cc:288
 msgid "URL"
 msgstr ""
 
-#: listview/konq_listview.cc:293
+#: listview/konq_listview.cc:290
 #, fuzzy
 msgid "File Type"
 msgstr "Lêer&tipes"
 
-#: listview/konq_listview.cc:557
+#: listview/konq_listview.cc:578
 #, fuzzy
 msgid "Show &Modification Time"
 msgstr "Ligging "
 
-#: listview/konq_listview.cc:558
+#: listview/konq_listview.cc:579
 #, fuzzy
 msgid "Show &File Type"
 msgstr "Vertoon &dotlêers"
 
-#: listview/konq_listview.cc:559
+#: listview/konq_listview.cc:580
 #, fuzzy
 msgid "Show MimeType"
 msgstr "Vertoon &dotlêers"
 
-#: listview/konq_listview.cc:560
+#: listview/konq_listview.cc:581
 msgid "Show &Access Time"
 msgstr ""
 
-#: listview/konq_listview.cc:561
+#: listview/konq_listview.cc:582
 #, fuzzy
 msgid "Show &Creation Time"
 msgstr "Ligging "
 
-#: listview/konq_listview.cc:562
+#: listview/konq_listview.cc:583
 #, fuzzy
 msgid "Show &Link Destination"
 msgstr "Vertoon &liggingsbalk"
 
-#: listview/konq_listview.cc:563
+#: listview/konq_listview.cc:584
 #, fuzzy
 msgid "Show Filesize"
 msgstr "Vertoon &dotlêers"
 
-#: listview/konq_listview.cc:564
+#: listview/konq_listview.cc:585
 msgid "Show Owner"
 msgstr ""
 
-#: listview/konq_listview.cc:565
+#: listview/konq_listview.cc:586
 msgid "Show Group"
 msgstr ""
 
-#: listview/konq_listview.cc:566
-msgid "Show permissions"
+#: listview/konq_listview.cc:587
+msgid "Show Permissions"
 msgstr ""
 
-#: listview/konq_listview.cc:567
+#: listview/konq_listview.cc:588
 msgid "Show URL"
 msgstr ""
 
-#: listview/konq_listviewwidget.cc:224 listview/konq_textviewwidget.cc:87
+#: listview/konq_listview.cc:597
+#, fuzzy
+msgid "Case Insensitive Sort"
+msgstr "Kassensitief"
+
+#: listview/konq_listviewwidget.cc:248 listview/konq_textviewwidget.cc:92
 msgid "Name"
 msgstr ""
+
+#: dirtree/history_module/history_item.cpp:109
+msgid ""
+"<qt><center><b>%1</b></center><hr>First visited: %2<br>Last visited: "
+"%3<br>Number of times visited: %4</qt>"
+msgstr ""
+
+#: dirtree/history_module/history_module.cpp:93
+#, fuzzy
+msgid "&Remove entry"
+msgstr "Verwyder aktiewe aansig"
+
+#: dirtree/history_module/history_module.cpp:95
+#, fuzzy
+msgid "C&lear History"
+msgstr "Lêergids"
+
+#: dirtree/history_module/history_module.cpp:101
+msgid "By &Name"
+msgstr ""
+
+#: dirtree/history_module/history_module.cpp:106
+msgid "By &Date"
+msgstr ""
+
+#: dirtree/history_module/history_module.cpp:387
+#: dirtree/history_module/history_module.cpp:390
+#: dirtree/history_module/history_module.cpp:465
+#: dirtree/history_module/history_module.cpp:483
+msgid "minutes"
+msgstr ""
+
+#: dirtree/history_module/history_module.cpp:388
+#: dirtree/history_module/history_module.cpp:391
+#: dirtree/history_module/history_module.cpp:464
+#: dirtree/history_module/history_module.cpp:482
+msgid "days"
+msgstr ""
+
+#: dirtree/history_module/history_module.cpp:468
+#: dirtree/history_module/history_module.cpp:486
+msgid "day"
+msgstr ""
+
+#: dirtree/history_module/history_module.cpp:469
+#: dirtree/history_module/history_module.cpp:487
+msgid "minute"
+msgstr ""
+
+#: keditbookmarks/main.cpp:31
+msgid "File to edit"
+msgstr ""
+
+#: keditbookmarks/main.cpp:38
+msgid "KEditBookmarks"
+msgstr ""
+
+#: keditbookmarks/main.cpp:39
+#, fuzzy
+msgid "Konqueror Bookmarks Editor"
+msgstr "Konqueror Weergawe "
+
+#: keditbookmarks/main.cpp:41
+msgid "(c) 2000, KDE developers"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:45
+msgid "Bookmarks"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:122
+msgid "Bookmark"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:161 keditbookmarks/toplevel.cpp:331
+msgid "Import Netscape Bookmarks"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:163
+msgid "Export To Netscape Bookmarks"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:164 keditbookmarks/toplevel.cpp:346
+msgid "Import Mozilla Bookmarks"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:165
+msgid "Export To Mozilla Bookmarks"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:173
+msgid "Chan&ge Icon"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:174
+msgid "&Create New Folder"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:175
+msgid "&Insert separator"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:176
+msgid "&Sort alphabetically"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:177
+msgid "Set As &Toolbar Folder"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:178
+#, fuzzy
+msgid "&Open In Konqueror"
+msgstr "Konqueror: Soektog"
+
+#: keditbookmarks/toplevel.cpp:179
+msgid "Test &Link"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:180
+msgid "Show Netscape Bookmarks in Konqueror windows"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:309
+msgid "Delete item"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:315
+msgid "Create Folder"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:321
+msgid "Insert separator"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:328 keditbookmarks/toplevel.cpp:343
+msgid "Import as a new subfolder or replace all the current bookmarks ?"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:329
+msgid "Netscape Import"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:329 keditbookmarks/toplevel.cpp:344
+msgid "As New Folder"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:332
+msgid "Netscape Bookmarks"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:344
+msgid "Mozilla Import"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:347
+msgid "Mozilla Bookmarks"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:377
+msgid "Cut item"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:470
+msgid "Bookmark Editor"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:491
+msgid "Renaming"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:498
+msgid "URL change"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:515
+#, fuzzy
+msgid "Icon change"
+msgstr "volgend Grootte"
+
+#: keditbookmarks/toplevel.cpp:557
+#, fuzzy
+msgid "Drop items"
+msgstr "Deselekteer lêers:"
+
+#: keditbookmarks/toplevel.cpp:566
+#, c-format
+msgid "Copy %1"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:577
+#, c-format
+msgid "Move %1"
+msgstr ""
+
+#: keditbookmarks/toplevel.cpp:675
+msgid ""
+"The bookmarks have been modified.\n"
+"Save changes ?"
+msgstr ""
+
+#: about/konq_aboutpage.cc:94 about/konq_aboutpage.cc:134
+#: about/konq_aboutpage.cc:196
+msgid "Conquer your Desktop!"
+msgstr ""
+
+#: about/konq_aboutpage.cc:95 about/konq_aboutpage.cc:135
+#: about/konq_aboutpage.cc:197
+msgid "Please enter a term or an address to be searched on the Internet."
+msgstr ""
+
+#: about/konq_aboutpage.cc:96 about/konq_aboutpage.cc:99
+#: about/konq_aboutpage.cc:136 about/konq_aboutpage.cc:198
+msgid "Introduction"
+msgstr ""
+
+#: about/konq_aboutpage.cc:97 about/konq_aboutpage.cc:137
+#: about/konq_aboutpage.cc:199 about/konq_aboutpage.cc:201
+msgid "Tips"
+msgstr ""
+
+#: about/konq_aboutpage.cc:98 about/konq_aboutpage.cc:138
+#: about/konq_aboutpage.cc:139 about/konq_aboutpage.cc:200
+#, fuzzy
+msgid "Specifications"
+msgstr "App&likasies"
+
+#: about/konq_aboutpage.cc:100
+#, fuzzy, c-format
+msgid "Welcome to Konqueror %1."
+msgstr "&Aangaande Konqueror..."
+
+#: about/konq_aboutpage.cc:101
+msgid ""
+"With Konqueror you have your filesystem at your command, browsing local or "
+"networked drives with equal ease. Thanks to the component technology used "
+"throughout KDE 2, Konqueror is also a full featured, easy to use, and "
+"comfortable Web Browser, which you can use to explore the internet."
+msgstr ""
+
+#: about/konq_aboutpage.cc:106
+msgid ""
+"Simply enter the internet address (e.g. <A "
+"HREF=\"http://www.kde.org\">http://www.kde.org</A>) of the webpage you want "
+"and press enter. Or choose one of the entries in your bookmark-menu."
+msgstr ""
+
+#: about/konq_aboutpage.cc:109
+msgid ""
+"If you want to go back to the previous webpage, press the button <IMG "
+"WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp;(\"back\") in the toolbar."
+msgstr ""
+
+#: about/konq_aboutpage.cc:112
+msgid ""
+"To go back to the home-directory of your local filesystem press <IMG "
+"WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; (\"Home\"). "
+msgstr ""
+
+#: about/konq_aboutpage.cc:114
+msgid ""
+"For more detailed documentation on Konqueror click <A HREF=\"%1\">here</A>"
+msgstr ""
+
+#: about/konq_aboutpage.cc:140
+msgid ""
+"Konqueror is designed to embrace and support Internet standards. The aim is "
+"to fully implement the officially sanctioned standards from organisations "
+"such as the W3 and OASIS, while also adding extra support for other common "
+"usability features that arise as de facto standards across the internet. "
+"Along with this support, for such functions as favicons, Internet Keywords, "
+"and <A HREF=\"%1\">XBEL bookmarks</A>, Konqueror also implements:"
+msgstr ""
+
+#: about/konq_aboutpage.cc:147
+msgid "S P E C I F I C A T I O N S"
+msgstr ""
+
+#: about/konq_aboutpage.cc:148
+msgid "Supported standards"
+msgstr ""
+
+#: about/konq_aboutpage.cc:149
+msgid "Additional requirements*"
+msgstr ""
+
+#: about/konq_aboutpage.cc:150
+msgid ""
+"<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A "
+"HREF=\"%2\">HTML 4.01</A>"
+msgstr ""
+
+#: about/konq_aboutpage.cc:152 about/konq_aboutpage.cc:154
+#: about/konq_aboutpage.cc:171 about/konq_aboutpage.cc:173
+#: about/konq_aboutpage.cc:178
+msgid "built-in"
+msgstr ""
+
+#: about/konq_aboutpage.cc:153
+msgid "<A HREF=\"%1\">Cascading Style Sheets</A> (CSS 1, partially CSS 2)"
+msgstr ""
+
+#: about/konq_aboutpage.cc:155
+msgid "<A HREF=\"%1\">ECMA-262</A> Edition 3 (equals roughly Javascript 1.5)"
+msgstr ""
+
+#: about/konq_aboutpage.cc:156
+msgid ""
+"Javascript disabled (globally). Enable Javascript <A HREF=\"%1\">here</A>"
+msgstr ""
+
+#: about/konq_aboutpage.cc:157
+msgid ""
+"Javascript enabled (globally). Configure Javascript <A "
+"HREF=\\\"%1\\\">here</A>"
+msgstr ""
+
+#: about/konq_aboutpage.cc:158
+msgid "Secure <A HREF=\"%1\">Java</A><SUP>&reg;</SUP> support"
+msgstr ""
+
+#: about/konq_aboutpage.cc:159
+msgid ""
+"JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">Blackdown</A>, <A "
+"HREF=\"%2\">IBM</A>, <A HREF=\"%3\">Kaffe</A> or <A HREF=\"%4\">Sun</A>)"
+msgstr ""
+
+#: about/konq_aboutpage.cc:161
+msgid "Enable Java (globally) <A HREF=\"%1\">here</A>"
+msgstr ""
+
+#: about/konq_aboutpage.cc:162
+msgid ""
+"Netscape Communicator<SUP>&reg;</SUP> plugins (for viewing <A "
+"HREF=\"%1\">Flash</A>, <A HREF=\"%2\">Real</A>Audio, <A "
+"HREF=\"%3\">Real</A>Video, etc.)"
+msgstr ""
+
+#: about/konq_aboutpage.cc:165
+msgid ""
+"OSF/Motif<SUP>&reg;</SUP>-compatible library (<A HREF=\"%1\">Open Motif</A> "
+"or <A HREF=\"%2\">LessTif</A>)"
+msgstr ""
+
+#: about/konq_aboutpage.cc:167
+msgid "Secure Sockets Layer"
+msgstr ""
+
+#: about/konq_aboutpage.cc:168
+msgid "(TLS/SSL v2/3) for secure communications up to 168bit"
+msgstr ""
+
+#: about/konq_aboutpage.cc:169
+msgid "OpenSSL"
+msgstr ""
+
+#: about/konq_aboutpage.cc:170
+msgid "Bidirectional 16bit unicode support"
+msgstr ""
+
+#: about/konq_aboutpage.cc:172
+msgid "Image formats:"
+msgstr ""
+
+#: about/konq_aboutpage.cc:174
+msgid "Transfer protocols:"
+msgstr ""
+
+#: about/konq_aboutpage.cc:175
+msgid "HTTP 1.1 (including gzip/bzip2 compression)"
+msgstr ""
+
+#: about/konq_aboutpage.cc:176
+msgid "FTP"
+msgstr ""
+
+#: about/konq_aboutpage.cc:177
+msgid "and <A HREF=\"%1\">many more...</A>"
+msgstr ""
+
+#: about/konq_aboutpage.cc:179
+msgid "<A HREF=\"%1\">Back</A> to the Introduction"
+msgstr ""
+
+#: about/konq_aboutpage.cc:202
+msgid ""
+"Use Internet-Keywords and Web-Shortcuts! By typing \"gg: KDE\" one can "
+"search the internet using google for the search phrase \"KDE\". There are a "
+"lot of Web-Shortcuts predefined to make searching for software or looking up "
+"certain words in an encyclopedia a breeze. And you can even <A "
+"HREF=\"%1\">create your own</A> Web-Shortcuts!"
+msgstr ""
+
+#: about/konq_aboutpage.cc:207
+msgid ""
+"Use the magnifier button <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; in the "
+"toolbar to increase the fontsize on your webpage."
+msgstr ""
+
+#: about/konq_aboutpage.cc:209
+msgid ""
+"When you want to paste a new address into the Location Toolbar you might "
+"want to clear the current entry by pressing the white-crossed black arrow "
+"&nbsp;<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; in the toolbar."
+msgstr ""
+
+#: about/konq_aboutpage.cc:212
+msgid ""
+"You can also find the <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; "
+"\"Fullscreen Mode\" in the Window-Menu. This feature is very useful for "
+"\"talk\" sessions."
+msgstr ""
+
+#: about/konq_aboutpage.cc:215
+msgid ""
+"Divide et impera (lat. \"Divide and Konquer\") - by splitting a window into "
+"two parts (e.g. Window -> <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; Split "
+"View Left/Right) you can make Konqueror appear the way you like. You can "
+"even load some example view-profiles (e.g. Midnight-Commander), or create "
+"your own ones."
+msgstr ""
+
+#: about/konq_aboutpage.cc:220
+msgid ""
+"Use the <A HREF=\"%1\">user-agent</A> feature if the website you're visiting "
+"asks you to use a different browser (and don't forget to send a complaint to "
+"the webmaster!)"
+msgstr ""
+
+#: about/konq_aboutpage.cc:223
+msgid ""
+"The <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; History in your Sidebar makes "
+"sure that you will keep track of the pages you have visited recently."
+msgstr ""
+
+#: about/konq_aboutpage.cc:225
+msgid ""
+"Use a caching <A HREF=\"%1\">proxy</A> to speed up your internet-connection."
+msgstr ""
+
+#: about/konq_aboutpage.cc:227
+msgid ""
+"Advanced users will appreciate the Konsole which you can embed into "
+"Konqueror (Window -> <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; Show "
+"Terminal Emulator)."
+msgstr ""
+
+#: about/konq_aboutpage.cc:230
+msgid ""
+"Thanks to <A HREF=\"%1\">DCOP</A> you can have full control over Konqueror "
+"using a script."
+msgstr ""
+
+#: shellcmdplugin/kshellcmdexecutor.cpp:117
+msgid "Input required:"
+msgstr ""
+
+#: shellcmdplugin/kshellcmdplugin.cpp:32
+msgid "&Execute Shell Command"
+msgstr ""
+
+#: shellcmdplugin/kshellcmdplugin.cpp:46
+msgid "Executing shell commands works only on local directories."
+msgstr ""
+
+#: shellcmdplugin/kshellcmdplugin.cpp:57
+msgid "Execute shell command in current directory:"
+msgstr ""
+
+#: shellcmdplugin/kshellcmdplugin.cpp:69
+msgid "Output from command: \"%1\""
+msgstr ""
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Konqueror also implements:"
+#~ msgstr "Konqueror: Soektog"
+
+#, fuzzy
+#~ msgid "Open Motif"
+#~ msgstr "Maak URL oop:"
+
+#, fuzzy
+#~ msgid "or"
+#~ msgstr "Sorteer..."
+
+#~ msgid "&Image Preview"
+#~ msgstr "B&eeldvoorskou"
+
+#, fuzzy
+#~ msgid "&Text Preview"
+#~ msgstr "B&eeldvoorskou"
+
+#, fuzzy
+#~ msgid "HTML &Preview"
+#~ msgstr "B&eeldvoorskou"
+
+#~ msgid "Directory Tree"
+#~ msgstr "Gidsboom"
+
+#, fuzzy
+#~ msgid "&Configure..."
+#~ msgstr "Konfigureer E-pos"
+
+#~ msgid "Background Color..."
+#~ msgstr "Agtergrondkleur..."
+
+#~ msgid "Background Image..."
+#~ msgstr "Agtergrondbeeld..."
+
+#, fuzzy
+#~ msgid "File &Manager..."
+#~ msgstr "Konfigureer Lêer&bestuurder..."
+
+#, fuzzy
+#~ msgid "File &Associations..."
+#~ msgstr "Konfigureer Lêer&assosiasies..."
+
+#, fuzzy
+#~ msgid "&Browser..."
+#~ msgstr "Deur&blaai..."
+
+#, fuzzy
+#~ msgid "&Proxies..."
+#~ msgstr "Deur&blaai..."
+
+#, fuzzy
+#~ msgid "&User Agent..."
+#~ msgstr "&Deselekteer..."
+
+#, fuzzy
+#~ msgid "&Toolbars..."
+#~ msgstr "Konfigureer &Sleutel..s"
+
+#~ msgid "Directory"
+#~ msgstr "Lêergids"
+
+#, fuzzy
+#~ msgid "&Default Size"
+#~ msgstr "(Verstek)"
+
+#, fuzzy
+#~ msgid "&Large"
+#~ msgstr "&Groot aansig"
+
+#, fuzzy
+#~ msgid "&Small"
+#~ msgstr "&Klein aansig"
+
+#~ msgid "Save/Remove View Profile"
+#~ msgstr "Stoor/verwyder aansigprofiel"
 
 #, fuzzy
 #~ msgid "One Directory"
@@ -814,24 +1454,15 @@ msgstr ""
 #~ msgid "Text at the &right"
 #~ msgstr "Teks &regs"
 
-#~ msgid "Directory"
-#~ msgstr "Lêergids"
-
 #, fuzzy
 #~ msgid "&Network..."
 #~ msgstr "Konfigureer &netwerk"
-
-#~ msgid "Konqueror Version "
-#~ msgstr "Konqueror Weergawe "
 
 #~ msgid "&Use HTML"
 #~ msgstr "Gebr&uik HTML"
 
 #~ msgid "Configure &Browser..."
 #~ msgstr "Konfigureer Deur&blaaier..."
-
-#~ msgid "Configure &Keys..."
-#~ msgstr "Konfigureer &Sleutel..s"
 
 #, fuzzy
 #~ msgid "&Disabled"
@@ -931,9 +1562,6 @@ msgstr ""
 #~ msgid "&Cache"
 #~ msgstr "&Berggeheue"
 
-#~ msgid "&About Konqueror..."
-#~ msgstr "&Aangaande Konqueror..."
-
 #~ msgid "&Report bug..."
 #~ msgstr "&Rapporteer fout..."
 
@@ -1007,9 +1635,6 @@ msgstr ""
 
 #~ msgid "Find :"
 #~ msgstr "Soek :"
-
-#~ msgid "Case Sensitive"
-#~ msgstr "Kassensitief"
 
 #~ msgid "Find Backwards"
 #~ msgstr "Soek agteruit"
