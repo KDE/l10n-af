@@ -5,13 +5,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kofficefilters VERSION\n"
-"POT-Creation-Date: 2004-09-23 01:28+0200\n"
+"POT-Creation-Date: 2005-02-20 01:25+0100\n"
 "PO-Revision-Date: 2004-09-25 00:13+0200\n"
+"Last-Translator: \n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"Last-Translator: \n"
 
 #: kword/pdf/pdfimport.cpp:79
 msgid "PDF Import"
@@ -102,6 +102,53 @@ msgstr "Ander"
 msgid "User:"
 msgstr ""
 
+#: kword/rtf/import/rtfimport.cpp:337
+msgid "The file cannot be loaded, as it cannot be opened."
+msgstr ""
+
+#: kword/rtf/import/rtfimport.cpp:338 kword/rtf/import/rtfimport.cpp:355
+#: kword/rtf/import/rtfimport.cpp:372 kword/rtf/import/rtfimport.cpp:388
+#: kword/rtf/import/rtfimport.cpp:407 kword/rtf/import/rtfimport.cpp:426
+#: kword/rtf/import/rtfimport.cpp:443
+#, fuzzy
+msgid "KWord's RTF Import Filter"
+msgstr "Png Voer uit Filter Parameters"
+
+#: kword/rtf/import/rtfimport.cpp:354
+msgid "The file cannot be loaded, as it seems not to be an RTF document."
+msgstr ""
+
+#: kword/rtf/import/rtfimport.cpp:371
+msgid "The document cannot be loaded, as it seems not to follow the RTF syntax."
+msgstr ""
+
+#: kword/rtf/import/rtfimport.cpp:387
+msgid ""
+"The RTF (Rich Text Format) document has an unexpected version number: %1. "
+"Continuing might result in an erroneous conversion. Do you want to continue?"
+msgstr ""
+
+#: kword/rtf/import/rtfimport.cpp:406
+msgid ""
+"The PWD (PocketWord's Rich Text Format) document has an unexpected version "
+"number: %1. Continuing might result in an erroneous conversion. Do you want "
+"to continue?"
+msgstr ""
+
+#: kword/rtf/import/rtfimport.cpp:425
+msgid ""
+"The URTF (\"Unicode Rich Text Format\") document has an unexpected version "
+"number: %1. Continuing might result in an erroneous conversion. Do you want "
+"to continue?"
+msgstr ""
+
+#: kword/rtf/import/rtfimport.cpp:442
+#, c-format
+msgid ""
+"The RTF document cannot be loaded, as it has an unexpected first keyword: "
+"\\%1."
+msgstr ""
+
 #: kword/html/export/ExportFilter.cc:601
 msgid "Untitled Document"
 msgstr "Ongetiteld Dokument"
@@ -133,14 +180,14 @@ msgstr ""
 msgid "Cannot find encoding: %1"
 msgstr ""
 
-#: kword/libexport/KWEFKWordLeader.cc:1275
+#: kword/libexport/KWEFKWordLeader.cc:1284
 msgid ""
 "An error has occurred while parsing the KWord file.\n"
 "At line: %1, column %2\n"
 "Error message: %3"
 msgstr ""
 
-#: kword/libexport/KWEFKWordLeader.cc:1277
+#: kword/libexport/KWEFKWordLeader.cc:1286
 #, fuzzy
 msgid "KWord Export Filter Library"
 msgstr "Png Voer uit Filter Parameters"
@@ -164,23 +211,27 @@ msgstr ""
 msgid "Latex Import Filter Parameters"
 msgstr "Latex In voer Filter Parameters"
 
-#: kword/latex/import/lateximportdia.cc:68 rc.cpp:80 rc.cpp:272
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 82
+#: kword/latex/import/lateximportdia.cc:68 rc.cpp:87 rc.cpp:374
 #, no-c-format
 msgid "Document Style"
 msgstr "Dokument Styl"
 
-#: kword/latex/import/lateximportdia.cc:74 rc.cpp:84 rc.cpp:276
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 116
+#: kword/latex/import/lateximportdia.cc:74 rc.cpp:93 rc.cpp:380
 #, no-c-format
 msgid "Latex style"
 msgstr "Latex styl"
 
-#: kword/latex/import/lateximportdia.cc:77 rc.cpp:82 rc.cpp:274
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 97
+#: kword/latex/import/lateximportdia.cc:77 rc.cpp:90 rc.cpp:377
 #, no-c-format
 msgid "KWord style"
 msgstr "Kword styl"
 
-#: kword/latex/import/lateximportdia.cc:90 rc.cpp:118 rc.cpp:122 rc.cpp:310
-#: rc.cpp:314
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 332
+#: kword/latex/import/lateximportdia.cc:90 rc.cpp:144 rc.cpp:150 rc.cpp:431
+#: rc.cpp:437
 #, no-c-format
 msgid "Language"
 msgstr "Taal"
@@ -193,7 +244,8 @@ msgstr "Unicode"
 msgid "latin1"
 msgstr "latyn1"
 
-#: kword/latex/import/lateximportdia.cc:112 rc.cpp:6 rc.cpp:86 rc.cpp:278
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 84
+#: kword/latex/import/lateximportdia.cc:112 rc.cpp:9 rc.cpp:96 rc.cpp:383
 #, no-c-format
 msgid "Document Type"
 msgstr "Dokument Tipe"
@@ -231,7 +283,7 @@ msgstr ""
 msgid "Table %1"
 msgstr "Tabel %1"
 
-#: kword/abiword/abiwordimport.cc:1215 kword/oowriter/oowriterimport.cc:2275
+#: kword/abiword/abiwordimport.cc:1215 kword/oowriter/oowriterimport.cc:2305
 msgid ""
 "_: Frameset name\n"
 "Table %3, row %1, column %2"
@@ -308,21 +360,21 @@ msgstr ""
 msgid "First Page Footer"
 msgstr ""
 
-#: kword/oowriter/ExportFilter.cc:1183
+#: kword/oowriter/ExportFilter.cc:1210
 #, c-format
 msgid ""
 "_: Object name\n"
 "Table %1"
 msgstr ""
 
-#: kword/oowriter/ExportFilter.cc:1185
+#: kword/oowriter/ExportFilter.cc:1212
 #, c-format
 msgid ""
 "_: Object name\n"
 "Table Frame %1"
 msgstr ""
 
-#: kword/oowriter/ExportFilter.cc:1562
+#: kword/oowriter/ExportFilter.cc:1589
 msgid ""
 "_: Pseudo-author for annotations\n"
 "KWord 1.3"
@@ -336,12 +388,12 @@ msgstr ""
 msgid "Footer"
 msgstr ""
 
-#: kword/oowriter/oowriterimport.cc:134
+#: kword/oowriter/oowriterimport.cc:135
 msgid "Main Text Frameset"
 msgstr ""
 
-#: kspread/opencalc/opencalcimport.cc:2297
-#: kword/oowriter/oowriterimport.cc:594
+#: kspread/opencalc/opencalcimport.cc:2283
+#: kword/oowriter/oowriterimport.cc:598
 msgid ""
 "This document was created with OpenOffice.org version '%1'. This filter was "
 "written for version 1.0. Reading this file could cause strange behavior, "
@@ -349,13 +401,13 @@ msgid ""
 "the document?"
 msgstr ""
 
-#: kspread/opencalc/opencalcimport.cc:2299
-#: kword/oowriter/oowriterimport.cc:596
+#: kspread/opencalc/opencalcimport.cc:2285
+#: kword/oowriter/oowriterimport.cc:600
 msgid "Unsupported document version"
 msgstr ""
 
-#: kspread/csv/csvimport.cc:90
-msgid "CSV filter can't open input file - please report."
+#: kspread/csv/csvimport.cc:91
+msgid "CSV filter cannot open input file - please report."
 msgstr ""
 
 #: kspread/csv/csvdialog.cpp:72 kspread/csv/csvdialog.cpp:328
@@ -383,7 +435,8 @@ msgstr ""
 msgid "Decimal Point Number"
 msgstr ""
 
-#: kspread/csv/csvdialog.cpp:516 rc.cpp:254
+#. i18n: file ./kspread/csv/dialogui.ui line 291
+#: kspread/csv/csvdialog.cpp:516 rc.cpp:347
 #, no-c-format
 msgid "None"
 msgstr "Geen"
@@ -394,13 +447,13 @@ msgid ""
 "the end value."
 msgstr ""
 
-#: kspread/csv/csvexport.cc:210
+#: kspread/csv/csvexport.cc:246
 #, fuzzy
 msgid "<SHEETNAME>"
 msgstr "<TABLENAME>"
 
 #: kspread/qpro/qproimport.cc:132
-msgid "QPRO filter can't open input file - please report."
+msgid "QPRO filter cannot open input file - please report."
 msgstr ""
 
 #: kspread/qpro/qproimport.cc:249
@@ -423,15 +476,15 @@ msgstr ""
 msgid "Internal problem: format not supported."
 msgstr ""
 
-#: kspread/opencalc/opencalcexport.cc:1023
+#: kspread/opencalc/opencalcexport.cc:1042
 msgid "Page "
 msgstr ""
 
-#: kspread/opencalc/opencalcimport.cc:1443
+#: kspread/opencalc/opencalcimport.cc:1450
 msgid "The file seems to be corrupt. Skipping a table."
 msgstr ""
 
-#: kspread/opencalc/opencalcimport.cc:1456
+#: kspread/opencalc/opencalcimport.cc:1463
 msgid "Skipping a table."
 msgstr ""
 
@@ -466,57 +519,56 @@ msgstr ""
 msgid "Slide Title"
 msgstr "Skuif Titel"
 
-#: rc.cpp:2
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 18
+#: rc.cpp:3
 #, no-c-format
 msgid "HTML Export Dialog"
 msgstr "Html Voer uit Dialoog"
 
-#: rc.cpp:4 rc.cpp:50 rc.cpp:62 rc.cpp:177 rc.cpp:228
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 43
+#: rc.cpp:6 rc.cpp:48 rc.cpp:66 rc.cpp:232 rc.cpp:308
 #, fuzzy, no-c-format
 msgid "E&ncoding:"
 msgstr "Enkodering"
 
-#: rc.cpp:8
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 104
+#: rc.cpp:12
 #, no-c-format
 msgid "&HTML 4.01"
 msgstr "Html 4.01"
 
-#: rc.cpp:10
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 110
+#: rc.cpp:15
 #, no-c-format
 msgid "HTML 4.01 (For older HTML user agents) "
 msgstr ""
 
-#: rc.cpp:12
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 118
+#: rc.cpp:18
 #, no-c-format
 msgid "&XHTML 1.0"
 msgstr "Xhtml 1.0"
 
-#: rc.cpp:14
-#, no-c-format
-msgid "Alt+X"
-msgstr ""
-
-#: rc.cpp:16
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 124
+#: rc.cpp:21
 #, no-c-format
 msgid "XHTML 1.0"
 msgstr "Xhtml 1.0"
 
-#: rc.cpp:18
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 134
+#: rc.cpp:24
 #, no-c-format
 msgid "Mode"
 msgstr "Modus"
 
-#: rc.cpp:20
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 157
+#: rc.cpp:27
 #, no-c-format
 msgid "L&ight: Convert to strict (X)HTML"
 msgstr "Ligte: Skakel om na streng (X)Html"
 
-#: rc.cpp:22
-#, no-c-format
-msgid "Alt+I"
-msgstr ""
-
-#: rc.cpp:24
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 160
+#: rc.cpp:30
 #, fuzzy, no-c-format
 msgid ""
 "Convert mainly the document structure (Recommended for exporting to browsers "
@@ -525,12 +577,14 @@ msgstr ""
 "Skakel om mees van die dokument (Aanbeveel vir re-importing in Kword of vir "
 "uitvoer van na ouer webblaaiers)"
 
-#: rc.cpp:26
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 174
+#: rc.cpp:33
 #, fuzzy, no-c-format
 msgid "&Basic: Convert to transitional (X)HTML"
 msgstr "Ligte: Skakel om na streng (X)Html"
 
-#: rc.cpp:28
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 180
+#: rc.cpp:36
 #, no-c-format
 msgid ""
 "Convert most of the document (Recommended for re-importing in KWord or for "
@@ -539,12 +593,14 @@ msgstr ""
 "Skakel om mees van die dokument (Aanbeveel vir re-importing in Kword of vir "
 "uitvoer van na ouer webblaaiers)"
 
-#: rc.cpp:30
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 188
+#: rc.cpp:39
 #, no-c-format
 msgid "&Enhanced: Convert to (X)HTML with CSS"
 msgstr "Verbeterde: Skakel om na (X)Html met Css"
 
-#: rc.cpp:32
+#. i18n: file ./kword/html/export/ExportDialogUI.ui line 194
+#: rc.cpp:42
 #, no-c-format
 msgid ""
 "Convert as much as possible of the KWord document (Recommended for exporting "
@@ -553,122 +609,92 @@ msgstr ""
 "Skakel om as baie as moontlik van die Kword dokument (Aanbeveel vir uitvoer "
 "van na ander moderne woord prosseseerders of na moderne webblaaiers)"
 
-#: rc.cpp:34
-#, no-c-format
-msgid "HTML Import Dialog"
-msgstr "Html In voer Dialoog"
-
-#: rc.cpp:36
-#, no-c-format
-msgid "Character Set"
-msgstr "Karakter Stel"
-
-#: rc.cpp:38
-#, no-c-format
-msgid "&Hint for character set:"
-msgstr "Leidraad vir karakter stel:"
-
-#: rc.cpp:40
-#, no-c-format
-msgid "&Hint"
-msgstr "Leidraad"
-
-#: rc.cpp:42
-#, no-c-format
-msgid "Do &not use the hint (recommended)"
-msgstr "Doen nie gebruik die leidraad (aanbeveel)"
-
-#: rc.cpp:44
-#, no-c-format
-msgid "Use hint only as &fall back"
-msgstr "Gebruik leidraad slegs as val terug"
-
-#: rc.cpp:46
-#, no-c-format
-msgid "Force the use of the hint (for buggy files)"
-msgstr "Forseer die gebruik van die leidraad (vir fouterig lêers)"
-
-#: rc.cpp:48
+#. i18n: file ./kword/ascii/ExportDialogUI.ui line 18
+#: rc.cpp:45
 #, no-c-format
 msgid "Plain Text Export Dialog"
 msgstr "Eenvoudig Teks Voer uit Dialoog"
 
-#: rc.cpp:52 rc.cpp:179
+#. i18n: file ./kword/ascii/ExportDialogUI.ui line 84
+#: rc.cpp:51 rc.cpp:235
 #, no-c-format
 msgid "End of Line"
 msgstr "Einde van Lyn"
 
-#: rc.cpp:54 rc.cpp:181
+#. i18n: file ./kword/ascii/ExportDialogUI.ui line 101
+#: rc.cpp:54 rc.cpp:238
 #, no-c-format
 msgid "&UNIX style (recommended; line feed only)"
 msgstr ""
 
-#: rc.cpp:56 rc.cpp:183
+#. i18n: file ./kword/ascii/ExportDialogUI.ui line 112
+#: rc.cpp:57 rc.cpp:241
 #, no-c-format
 msgid "&Windows style (carriage return and line feed)"
 msgstr ""
 
-#: rc.cpp:58 rc.cpp:185
+#. i18n: file ./kword/ascii/ExportDialogUI.ui line 123
+#: rc.cpp:60 rc.cpp:244
 #, no-c-format
 msgid "&MacOS style (carriage return only)"
 msgstr ""
 
-#: rc.cpp:60
+#. i18n: file ./kword/ascii/ImportDialogUI.ui line 18
+#: rc.cpp:63
 #, no-c-format
 msgid "Plain Text Import Dialog"
 msgstr "Eenvoudig Teks In voer Dialoog"
 
-#: rc.cpp:64
+#. i18n: file ./kword/ascii/ImportDialogUI.ui line 84
+#: rc.cpp:69
 #, no-c-format
 msgid "End of Paragraph"
 msgstr "Einde van Paragraaf"
 
-#: rc.cpp:66
+#. i18n: file ./kword/ascii/ImportDialogUI.ui line 101
+#: rc.cpp:72
 #, no-c-format
 msgid "&As is: At the end of line"
 msgstr "As is: Na die einde van lyn"
 
-#: rc.cpp:68
-#, no-c-format
-msgid "Alt+A"
-msgstr ""
-
-#: rc.cpp:70
+#. i18n: file ./kword/ascii/ImportDialogUI.ui line 112
+#: rc.cpp:75
 #, no-c-format
 msgid "&Sentence: If the end of line is the end of a sentence"
 msgstr "Sin: As die einde van lyn is die einde van 'n Sin"
 
-#: rc.cpp:72
-#, no-c-format
-msgid "Alt+S"
-msgstr ""
-
-#: rc.cpp:74
+#. i18n: file ./kword/ascii/ImportDialogUI.ui line 120
+#: rc.cpp:78
 #, no-c-format
 msgid "Old &method: If the line is empty or has less than 40 characters"
 msgstr "Ou metode: As die lyn is leeg of het minder as 40 karakters"
 
-#: rc.cpp:76 rc.cpp:268
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 18
+#: rc.cpp:81 rc.cpp:368
 #, fuzzy, no-c-format
 msgid "Latex Export Filter Configuration"
 msgstr "Voer uit Xslt Opstelling"
 
-#: rc.cpp:78 rc.cpp:270
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 45
+#: rc.cpp:84 rc.cpp:371
 #, fuzzy, no-c-format
 msgid "Document"
 msgstr "Open Dokument"
 
-#: rc.cpp:88 rc.cpp:280
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 148
+#: rc.cpp:99 rc.cpp:386
 #, fuzzy, no-c-format
 msgid "Independent document"
 msgstr "Open Dokument"
 
-#: rc.cpp:90 rc.cpp:282
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 154
+#: rc.cpp:102 rc.cpp:389
 #, no-c-format
 msgid "The document will be able to be compiled alone."
 msgstr ""
 
-#: rc.cpp:92 rc.cpp:284
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 157
+#: rc.cpp:105 rc.cpp:392
 #, no-c-format
 msgid ""
 "The document will be generated as a full latex document since all the "
@@ -676,17 +702,20 @@ msgid ""
 "commands."
 msgstr ""
 
-#: rc.cpp:94 rc.cpp:286
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 173
+#: rc.cpp:108 rc.cpp:395
 #, fuzzy, no-c-format
 msgid "Document to include"
 msgstr "Dokument Styl"
 
-#: rc.cpp:96 rc.cpp:288
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 176
+#: rc.cpp:111 rc.cpp:398
 #, no-c-format
 msgid "Do not generate either the latex header or the document environment."
 msgstr ""
 
-#: rc.cpp:98 rc.cpp:290
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 179
+#: rc.cpp:114 rc.cpp:401
 #, no-c-format
 msgid ""
 "The document will be generated as a latex document which will have to be "
@@ -694,328 +723,389 @@ msgid ""
 "little files for each chapter of your document."
 msgstr ""
 
-#: rc.cpp:100 rc.cpp:292
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 196
+#: rc.cpp:117 rc.cpp:404
 #, fuzzy, no-c-format
 msgid "Document class:"
 msgstr "Dokument Styl"
 
-#: rc.cpp:102 rc.cpp:294
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 212
+#: rc.cpp:120 rc.cpp:407
 #, no-c-format
 msgid "Quality:"
 msgstr ""
 
-#: rc.cpp:104 rc.cpp:296
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 228
+#: rc.cpp:123 rc.cpp:410
 #, no-c-format
 msgid "Default font size:"
 msgstr ""
 
-#: rc.cpp:106 rc.cpp:298
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 247
+#: rc.cpp:126 rc.cpp:413
 #, no-c-format
 msgid "final"
 msgstr ""
 
-#: rc.cpp:108 rc.cpp:300
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 252
+#: rc.cpp:129 rc.cpp:416
 #, no-c-format
 msgid "draft"
 msgstr ""
 
-#: rc.cpp:110 rc.cpp:302
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 273
+#: rc.cpp:132 rc.cpp:419
 #, fuzzy, no-c-format
 msgid "Pictures"
 msgstr "Prent %1"
 
-#: rc.cpp:112 rc.cpp:304
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 288
+#: rc.cpp:135 rc.cpp:422
 #, no-c-format
 msgid "This directory will contains the eps pictures of your document."
 msgstr ""
 
-#: rc.cpp:114 rc.cpp:306
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 304
+#: rc.cpp:138 rc.cpp:425
 #, no-c-format
 msgid "Convert the pictures"
 msgstr ""
 
-#: rc.cpp:116 rc.cpp:308
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 323
+#: rc.cpp:141 rc.cpp:428
 #, no-c-format
 msgid "Pictures directory:"
 msgstr ""
 
-#: rc.cpp:120 rc.cpp:175 rc.cpp:226 rc.cpp:312
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 347
+#: rc.cpp:147 rc.cpp:229 rc.cpp:305 rc.cpp:434
 #, no-c-format
 msgid "Encoding"
 msgstr "Enkodering"
 
-#: rc.cpp:130 rc.cpp:322
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 464
+#: rc.cpp:162 rc.cpp:449
 #, fuzzy, no-c-format
 msgid "Export informations about author"
 msgstr "Voer uit informasie aangaande outeur"
 
-#: rc.cpp:132 rc.cpp:324
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 486
+#: rc.cpp:165 rc.cpp:452
 #, no-c-format
 msgid "Add a table of content"
 msgstr ""
 
-#: rc.cpp:134 rc.cpp:326
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 505
+#: rc.cpp:168 rc.cpp:455
 #, fuzzy, no-c-format
 msgid "Notes"
 msgstr "Kwotasies:"
 
-#: rc.cpp:136 rc.cpp:328
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 520
+#: rc.cpp:171 rc.cpp:458
 #, no-c-format
 msgid "Don't export"
 msgstr ""
 
-#: rc.cpp:138 rc.cpp:330
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 536
+#: rc.cpp:174 rc.cpp:461
 #, no-c-format
 msgid "Export notes in comments"
 msgstr ""
 
-#: rc.cpp:140 rc.cpp:332
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 552
+#: rc.cpp:177 rc.cpp:464
 #, no-c-format
 msgid "Export notes in margin notes"
 msgstr ""
 
-#: rc.cpp:144 rc.cpp:336
+#. i18n: file ./kword/latex/export/latexexportdia.ui line 580
+#: rc.cpp:183 rc.cpp:470
 #, fuzzy, no-c-format
 msgid "F1"
 msgstr "1"
 
-#: rc.cpp:150
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 18
+#: rc.cpp:192
 #, no-c-format
 msgid "MS Write Import Dialog"
 msgstr "Mev Skryf In voer Dialoog"
 
-#: rc.cpp:152
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 43
+#: rc.cpp:195
 #, no-c-format
 msgid "&Encoding"
 msgstr "Enkodering"
 
-#: rc.cpp:154
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 46
+#: rc.cpp:198
 #, no-c-format
 msgid ""
-"Select the encoding of the Write document.<br><br>Try the Default  Encoding "
-"(CP 1252), if unsure."
+"Select the encoding of the Write document."
+"<br><br>Try the Default  Encoding (CP 1252), if unsure."
 msgstr ""
 
-#: rc.cpp:156
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 76
+#: rc.cpp:201
 #, no-c-format
 msgid "&Other encoding:"
 msgstr "Ander enkodering:"
 
-#: rc.cpp:158
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 107
+#: rc.cpp:204
 #, no-c-format
 msgid "&Default encoding (CP 1252)"
 msgstr ""
 
-#: rc.cpp:160
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 116
+#: rc.cpp:207
 #, no-c-format
 msgid ""
-"Most Write documents are stored using this encoding (also known as windows-"
-"1252).<br><br>Select this if unsure."
+"Most Write documents are stored using this encoding (also known as "
+"windows-1252).<br><br>Select this if unsure."
 msgstr ""
 
-#: rc.cpp:162
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 143
+#: rc.cpp:210
 #, no-c-format
 msgid "&Advanced"
 msgstr "Gevorderde"
 
-#: rc.cpp:164
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 146
+#: rc.cpp:213
 #, no-c-format
 msgid ""
 "These advanced options allow you to fine-tune the importing of formatting "
 "information. They compensate for differences between KWord and MS Write by "
 "adding extra formatting information (not found in the original document), to "
-"try to make the imported document look as close to the original as possible."
-"<br><br>It is safe to use the defaults, if unsure."
+"try to make the imported document look as close to the original as "
+"possible.<br><br>It is safe to use the defaults, if unsure."
 msgstr ""
 
-#: rc.cpp:166
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 171
+#: rc.cpp:216
 #, no-c-format
 msgid "Compensate for &linespacing differences"
 msgstr ""
 
-#: rc.cpp:169
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 177
+#: rc.cpp:220
 #, no-c-format
 msgid ""
 "Try to simulate Write's linespacing by adding some spaces before each "
 "paragraph."
 msgstr ""
 
-#: rc.cpp:171
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 202
+#: rc.cpp:223
 #, no-c-format
 msgid "Enable &image positioning"
 msgstr ""
 
-#: rc.cpp:173
+#. i18n: file ./kword/mswrite/ImportDialogUI.ui line 208
+#: rc.cpp:226
 #, no-c-format
 msgid "Use paragraph indentation to position images."
 msgstr "Gebruik paragraaf inkeping na posisie beelde."
 
-#: rc.cpp:187
+#. i18n: file ./kspread/csv/exportdialogui.ui line 173
+#: rc.cpp:247
 #, no-c-format
 msgid "Sheets"
 msgstr ""
 
-#: rc.cpp:189
+#. i18n: file ./kspread/csv/exportdialogui.ui line 188
+#: rc.cpp:250
 #, fuzzy, no-c-format
 msgid "Available Sheets"
 msgstr "Beskikbaar tabelle:"
 
-#: rc.cpp:191
+#. i18n: file ./kspread/csv/exportdialogui.ui line 206
+#: rc.cpp:253
 #, fuzzy, no-c-format
 msgid "Export sheet(s):"
 msgstr "Voer uit tabel(s):"
 
-#: rc.cpp:193
+#. i18n: file ./kspread/csv/exportdialogui.ui line 222
+#: rc.cpp:256
 #, fuzzy, no-c-format
 msgid "Delimiter Line"
 msgstr "Skeisimbool lyn"
 
-#: rc.cpp:195
+#. i18n: file ./kspread/csv/exportdialogui.ui line 239
+#: rc.cpp:259
 #, fuzzy, no-c-format
 msgid "********<SHEETNAME>********"
 msgstr "********<TABLENAME>********"
 
-#: rc.cpp:197
+#. i18n: file ./kspread/csv/exportdialogui.ui line 255
+#: rc.cpp:262
 #, fuzzy, no-c-format
 msgid "<SHEETNAME> gets replaced by the name of the next sheet."
 msgstr "<TABLENAME> besit vervang deur die naam van die volgende tabel."
 
-#: rc.cpp:199
+#. i18n: file ./kspread/csv/exportdialogui.ui line 274
+#: rc.cpp:265
 #, fuzzy, no-c-format
 msgid "Print delimiter line above every sheet"
 msgstr "Druk skeisimbool lyn boonste elke tabel"
 
-#: rc.cpp:201 rc.cpp:215
+#. i18n: file ./kspread/csv/exportdialogui.ui line 286
+#: rc.cpp:268 rc.cpp:289
 #, no-c-format
 msgid "Cells"
 msgstr "Selle"
 
-#: rc.cpp:203 rc.cpp:232
+#. i18n: file ./kspread/csv/exportdialogui.ui line 311
+#: rc.cpp:271 rc.cpp:314
 #, no-c-format
 msgid "Delimiter"
 msgstr "Skeisimbool"
 
-#: rc.cpp:205 rc.cpp:234
+#. i18n: file ./kspread/csv/exportdialogui.ui line 328
+#: rc.cpp:274 rc.cpp:317
 #, no-c-format
 msgid "Comma"
 msgstr "Komma"
 
-#: rc.cpp:207 rc.cpp:236
+#. i18n: file ./kspread/csv/exportdialogui.ui line 339
+#: rc.cpp:277 rc.cpp:320
 #, no-c-format
 msgid "Semicolon"
 msgstr "Kommapunt"
 
-#: rc.cpp:209 rc.cpp:238
+#. i18n: file ./kspread/csv/exportdialogui.ui line 347
+#: rc.cpp:280 rc.cpp:323
 #, no-c-format
 msgid "Tabulator"
 msgstr "Tabel-vormer"
 
-#: rc.cpp:211 rc.cpp:240
+#. i18n: file ./kspread/csv/exportdialogui.ui line 355
+#: rc.cpp:283 rc.cpp:326
 #, no-c-format
 msgid "Space"
 msgstr "Spasie"
 
-#: rc.cpp:213
+#. i18n: file ./kspread/csv/exportdialogui.ui line 363
+#: rc.cpp:286
 #, fuzzy, no-c-format
 msgid "Other:"
 msgstr "Ander"
 
-#: rc.cpp:217
+#. i18n: file ./kspread/csv/exportdialogui.ui line 431
+#: rc.cpp:292
 #, no-c-format
 msgid "Quotes:"
 msgstr "Kwotasies:"
 
-#: rc.cpp:219 rc.cpp:250
+#. i18n: file ./kspread/csv/exportdialogui.ui line 437
+#: rc.cpp:295 rc.cpp:341
 #, no-c-format
 msgid "\""
 msgstr "\""
 
-#: rc.cpp:221 rc.cpp:252
+#. i18n: file ./kspread/csv/exportdialogui.ui line 442
+#: rc.cpp:298 rc.cpp:344
 #, no-c-format
 msgid "'"
 msgstr "'"
 
-#: rc.cpp:224
+#. i18n: file ./kspread/csv/exportdialogui.ui line 498
+#: rc.cpp:302
 #, no-c-format
 msgid "Export selection only"
 msgstr ""
 
-#: rc.cpp:230
+#. i18n: file ./kspread/csv/dialogui.ui line 140
+#: rc.cpp:311
 #, fuzzy, no-c-format
 msgid "Common"
 msgstr "Komma"
 
-#: rc.cpp:242
+#. i18n: file ./kspread/csv/dialogui.ui line 211
+#: rc.cpp:329
 #, no-c-format
 msgid "Other"
 msgstr "Ander"
 
-#: rc.cpp:244
+#. i18n: file ./kspread/csv/dialogui.ui line 240
+#: rc.cpp:332
 #, no-c-format
 msgid "Ignore duplicate delimiters"
 msgstr ""
 
-#: rc.cpp:246
+#. i18n: file ./kspread/csv/dialogui.ui line 256
+#: rc.cpp:335
 #, fuzzy, no-c-format
 msgid "Text&quote:"
 msgstr "Teks kwotasie:"
 
-#: rc.cpp:248
+#. i18n: file ./kspread/csv/dialogui.ui line 267
+#: rc.cpp:338
 #, fuzzy, no-c-format
 msgid "&Format:"
 msgstr "Formaat"
 
-#: rc.cpp:256
+#. i18n: file ./kspread/csv/dialogui.ui line 347
+#: rc.cpp:350
 #, no-c-format
 msgid "Ranges"
 msgstr ""
 
-#: rc.cpp:258 rc.cpp:262
+#. i18n: file ./kspread/csv/dialogui.ui line 377
+#: rc.cpp:353 rc.cpp:359
 #, no-c-format
 msgid "to"
 msgstr ""
 
-#: rc.cpp:260
+#. i18n: file ./kspread/csv/dialogui.ui line 405
+#: rc.cpp:356
 #, fuzzy, no-c-format
 msgid "Import lines:"
 msgstr "Voer uit tabel(s):"
 
-#: rc.cpp:264
+#. i18n: file ./kspread/csv/dialogui.ui line 462
+#: rc.cpp:362
 #, fuzzy, no-c-format
 msgid "Import columns:"
 msgstr "Voer uit tabel(s):"
 
-#: rc.cpp:266
+#. i18n: file ./kspread/csv/dialogui.ui line 538
+#: rc.cpp:365
 #, fuzzy, no-c-format
 msgid "Update"
 msgstr "Datum"
 
-#: rc.cpp:342 rc.cpp:354 xsltfilter/export/xsltexportdia.cc:57
+#. i18n: file ./xsltfilter/export/xsltdialog.ui line 16
+#: rc.cpp:479 rc.cpp:497 xsltfilter/export/xsltexportdia.cc:57
 #, no-c-format
 msgid "Export XSLT Configuration"
 msgstr "Voer uit Xslt Opstelling"
 
-#: rc.cpp:344 rc.cpp:356
+#. i18n: file ./xsltfilter/export/xsltdialog.ui line 36
+#: rc.cpp:482 rc.cpp:500
 #, no-c-format
 msgid "Common xslt Files"
 msgstr "Gemeenskaplike xslt Lêers"
 
-#: rc.cpp:346 rc.cpp:358
+#. i18n: file ./xsltfilter/export/xsltdialog.ui line 72
+#: rc.cpp:485 rc.cpp:503
 #, no-c-format
 msgid "Personal xslt Files"
 msgstr "Persoonlike xslt Lêers"
 
-#: rc.cpp:348 rc.cpp:360
+#. i18n: file ./xsltfilter/export/xsltdialog.ui line 119
+#: rc.cpp:488 rc.cpp:506
 #, no-c-format
 msgid "Choose..."
 msgstr "Kies..."
 
 #: xsltfilter/export/xsltexportdia.cc:144
-#: xsltfilter/import/xsltimportdia.cc:139
+#: xsltfilter/import/xsltimportdia.cc:141
 msgid "Open Document"
 msgstr "Open Dokument"
 
-#: xsltfilter/import/xsltimportdia.cc:53
+#: xsltfilter/import/xsltimportdia.cc:54
 msgid "Import XSLT Configuration"
 msgstr "In voer Xslt Opstelling"
 
@@ -1065,7 +1155,7 @@ msgid "Unable to open output file."
 msgstr ""
 
 #: kformula/mathml/mathmlimport.cc:57 kformula/mathml/mathmlimport.cc:71
-#: kformula/mathml/mathmlimport.cc:87 kformula/mathml/mathmlimport.cc:99
+#: kformula/mathml/mathmlimport.cc:87 kformula/mathml/mathmlimport.cc:102
 #, fuzzy
 msgid "MathML Import Error"
 msgstr "Latex Voer uit Fout"
@@ -1081,7 +1171,7 @@ msgid ""
 "Error message: %3"
 msgstr ""
 
-#: kformula/mathml/mathmlimport.cc:99
+#: kformula/mathml/mathmlimport.cc:102
 #, fuzzy
 msgid "Failed to write formula."
 msgstr "Gevaal na skryf lêer."
@@ -1091,6 +1181,27 @@ msgstr "Gevaal na skryf lêer."
 #, fuzzy
 msgid "MathML Export Error"
 msgstr "Latex Voer uit Fout"
+
+#~ msgid "HTML Import Dialog"
+#~ msgstr "Html In voer Dialoog"
+
+#~ msgid "Character Set"
+#~ msgstr "Karakter Stel"
+
+#~ msgid "&Hint for character set:"
+#~ msgstr "Leidraad vir karakter stel:"
+
+#~ msgid "&Hint"
+#~ msgstr "Leidraad"
+
+#~ msgid "Do &not use the hint (recommended)"
+#~ msgstr "Doen nie gebruik die leidraad (aanbeveel)"
+
+#~ msgid "Use hint only as &fall back"
+#~ msgstr "Gebruik leidraad slegs as val terug"
+
+#~ msgid "Force the use of the hint (for buggy files)"
+#~ msgstr "Forseer die gebruik van die leidraad (vir fouterig lêers)"
 
 #~ msgid "Tables"
 #~ msgstr "Tabelle"
