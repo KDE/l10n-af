@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmemail VERSION\n"
-"POT-Creation-Date: 2002-09-24 02:59+0200\n"
+"POT-Creation-Date: 2003-10-27 01:42+0100\n"
 "PO-Revision-Date: 2002-11-07 11:27+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,47 +25,44 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: email.cpp:85
+#: email.cpp:87
 msgid "KDE Email Control Module"
 msgstr "Kde E-pos Kontrole Module"
 
-#: email.cpp:86
+#: email.cpp:88
 msgid "Configure your identity, email addresses, mail servers, etc."
 msgstr "Konfigureer jou identiteit, e-pos adresse, pos bedieners, etc."
 
-#: email.cpp:88
+#: email.cpp:90
 msgid "Current maintainer"
 msgstr "Huidige onderhouer"
 
-#: email.cpp:176
+#: email.cpp:193
 msgid "New Email Profile"
 msgstr "Nuwe E-pos Profiel"
 
-#: email.cpp:183
+#: email.cpp:200
 msgid "Name:"
 msgstr "Naam:"
 
-#: email.cpp:206
-msgid "Oops, you need to enter a name please. Thanks."
-msgstr "Oeps, jy benodig na invoer 'n naam asseblief. Bedankinge."
+#: email.cpp:221
+msgid "Please enter a name for the profile."
+msgstr ""
 
-#: email.cpp:208
-msgid "This email profile already exists, and cannot be created again"
+#: email.cpp:223
+#, fuzzy
+msgid "This email profile already exists, and cannot be created again."
 msgstr "Hierdie e-pos profiel alreeds bestaan, en kan nie wees geskep weer"
 
-#: email.cpp:208
-msgid "Oops"
-msgstr "Oeps"
-
-#: email.cpp:275
+#: email.cpp:297
+#, fuzzy
 msgid ""
 "<h1>Email</h1> This module allows you to enter basic email information for "
 "the current user. The information here is used, among other things, for "
 "sending bug reports to the KDE developers when you use the bug report "
 "dialog."
-"<p>"
-" Note that email programs like KMail and Empath offer many more features, "
-"but they provide their own configuration facilities."
+"<p> Note that email programs like KMail offer many more features, but they "
+"provide their own configuration facilities."
 msgstr ""
 "<h1>E-pos</h1>"
 " Hierdie module laat toe jy na invoer basiese E-pos informasie vir die "
@@ -76,11 +73,11 @@ msgstr ""
 " Nota wat E-pos programme hou van Kpos en Empath bied veel meer funksies, "
 "maar hulle verskaf hulle eie opstelling fasiliteite."
 
-#: email.cpp:294
+#: email.cpp:316
 msgid "Do you wish to discard changes to the current profile?"
 msgstr "Doen jy wens na gooi weg verander na die huidige profiel?"
 
-#: email.cpp:295
+#: email.cpp:317
 msgid "Do you wish to save changes to the current profile?"
 msgstr "Doen jy wens na stoor verander na die huidige profiel?"
 
@@ -89,18 +86,10 @@ msgid "Email"
 msgstr "E-pos"
 
 #: rc.cpp:2
-msgid "C&urrent Profile:"
-msgstr "Huidige Profiel:"
-
-#: rc.cpp:3
-msgid "&New Profile..."
-msgstr "Nuwe Profiel..."
-
-#: rc.cpp:4
 msgid "User Information"
 msgstr "Gebruiker Informasie"
 
-#: rc.cpp:5
+#: rc.cpp:3
 msgid ""
 "You can set a reply address if you want replies to your email messages to go "
 "to a different address than the email address above. Most likely, you should "
@@ -123,7 +112,8 @@ msgstr ""
 "<li>Jy moet nie gebruik 'n antwoord adres as Jy dikwels gebruik gesprek pos "
 "lyste.</li></ul>"
 
-#: rc.cpp:6
+#: rc.cpp:4
+#, fuzzy
 msgid ""
 "Enter your email address here, e.g. \"john@doe.com\" (without the quotation "
 "marks). This information is mandatory if you want to use email.<p>\n"
@@ -138,15 +128,15 @@ msgstr ""
 " Invoer iets hou van john doe &lt;john@doe.comgt;\", net 'n eenvoudig e-pos "
 "adres. jou e-pos adres moet nie bevat enige leë spasies."
 
-#: rc.cpp:7
+#: rc.cpp:5
 msgid "Organi&zation:"
 msgstr "Organisasie:"
 
-#: rc.cpp:8
+#: rc.cpp:6
 msgid "Reply-&to address:"
 msgstr "Reply-to adres:"
 
-#: rc.cpp:9
+#: rc.cpp:7
 msgid ""
 "Here you can enter the name of your organization, company or university. "
 "This field is <em>optional</em>. However, if you are using a business "
@@ -158,11 +148,12 @@ msgstr ""
 "gebruik 'n besigheid rekening en kommunikeer met persone werksaam vir ander "
 "maatskapye, verskaf die naam van jou organisasie is aanbeveel."
 
-#: rc.cpp:10
+#: rc.cpp:8
 msgid "E&mail address:"
 msgstr "E-pos adres:"
 
-#: rc.cpp:11
+#: rc.cpp:9
+#, fuzzy
 msgid ""
 "Enter your full name here, e.g. \"John Doe\" (without the quotation\n"
 "marks). Some people like to provide a nickname only. You can leave this "
@@ -177,6 +168,33 @@ msgstr ""
 "<em>aanbeveel</em> as hierdie maak dit baie makliker vir jou ontvanger na "
 "blaai sy of haar e-pos."
 
-#: rc.cpp:12
+#: rc.cpp:10
 msgid "Full &name:"
 msgstr "Volgrote naam:"
+
+#: rc.cpp:11
+msgid "SMTP server:"
+msgstr ""
+
+#: rc.cpp:12
+msgid ""
+"<qt>You can specify the server to send mail to here.\n"
+"<br>"
+"<br> SMTP means Simple Mail Transfer Protocol and is the standard way to "
+"send mail.</qt>"
+msgstr ""
+
+#: rc.cpp:13
+#, fuzzy
+msgid "C&urrent profile:"
+msgstr "Huidige Profiel:"
+
+#: rc.cpp:14
+msgid "&New Profile..."
+msgstr "Nuwe Profiel..."
+
+#~ msgid "Oops, you need to enter a name please. Thanks."
+#~ msgstr "Oeps, jy benodig na invoer 'n naam asseblief. Bedankinge."
+
+#~ msgid "Oops"
+#~ msgstr "Oeps"
