@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpackage VERSION\n"
-"POT-Creation-Date: 2004-07-16 01:25+0200\n"
+"POT-Creation-Date: 2004-12-31 10:52+0100\n"
 "PO-Revision-Date: 2002-11-07 11:26+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -103,42 +103,46 @@ msgstr "Toets (doen nie oninstalleer)"
 msgid "Purge Config Files"
 msgstr "Maak skoon Opstelling Lêers"
 
-#: debAptInterface.cpp:104
+#: debAptInterface.cpp:105
 msgid "U&pgrade"
 msgstr "Opgradering"
 
-#: debAptInterface.cpp:108
+#: debAptInterface.cpp:109
 msgid "&Fixup"
 msgstr "Maak reg"
 
-#: debAptInterface.cpp:166
+#: debAptInterface.cpp:113
+msgid "&Apt-file update"
+msgstr ""
+
+#: debAptInterface.cpp:179
 #, c-format
 msgid "Querying DEB APT remote package list: %1"
 msgstr "Navraag in Deb  apt  afgeleë paket lys: %1"
 
-#: debAptInterface.cpp:172
+#: debAptInterface.cpp:185
 #, c-format
 msgid "Processing DEB APT remote package list: %1"
 msgstr "Verwerking Deb  apt  afgeleë paket lys: %1"
 
-#: debAptInterface.cpp:209 debAptInterface.cpp:265 rpmInterface.cpp:192
+#: debAptInterface.cpp:222 debAptInterface.cpp:278 rpmInterface.cpp:194
 msgid "DEB APT"
 msgstr "Deb  apt "
 
-#: debAptInterface.cpp:222
+#: debAptInterface.cpp:235
 msgid "Querying DEB APT available list"
 msgstr "Navraag in Deb  apt  beskikbaar lys"
 
-#: debAptInterface.cpp:224
+#: debAptInterface.cpp:237
 #, c-format
 msgid "Querying DEB APT available list: %1"
 msgstr "Navraag in Deb  apt  beskikbaar lys: %1"
 
-#: debAptInterface.cpp:229
+#: debAptInterface.cpp:242
 msgid "Processing DEB APT available list"
 msgstr "Verwerking Deb  apt  beskikbaar lys"
 
-#: debAptInterface.cpp:231
+#: debAptInterface.cpp:244
 #, c-format
 msgid "Processing DEB APT available list: %1"
 msgstr "Verwerking Deb  apt  beskikbaar lys: %1"
@@ -247,6 +251,7 @@ msgstr "Verkry paket inligting"
 
 #: fbsdInterface.cpp:204 fbsdInterface.cpp:205 fbsdInterface.cpp:432
 #: fbsdInterface.cpp:433 fbsdInterface.cpp:571 fbsdInterface.cpp:572
+#: packageProperties.cpp:176
 msgid "none"
 msgstr "geen"
 
@@ -301,35 +306,48 @@ msgstr "Onverwagte Eof van pkg_info (besig om te soek vir kommentaar lyn)"
 msgid "Warning: invalid INDEX file entry for %1"
 msgstr "Waarskuwing: ongeldige Indeks lêer inskrywing vir %1"
 
-#: findf.cpp:45
+#: findf.cpp:49
 msgid "Find File"
 msgstr "Soek Lêer"
 
-#: findf.cpp:47 search.cpp:43
+#: findf.cpp:51 search.cpp:43
 msgid "&Find"
 msgstr "Soek"
 
-#: findf.cpp:61
+#: findf.cpp:60 search.cpp:41 search.cpp:51
+msgid "Find Package"
+msgstr "Soek Paket"
+
+#: findf.cpp:71
 msgid "Find:"
 msgstr "Soek:"
 
-#: findf.cpp:66
+#: findf.cpp:77 managementWidget.cpp:84
+msgid "Installed"
+msgstr "Geïnstalleer"
+
+#: findf.cpp:78
 msgid "Type"
 msgstr "Tipe"
 
-#: findf.cpp:67 managementWidget.cpp:110
+#: findf.cpp:80 kplview.cpp:57
 msgid "Package"
 msgstr "Paket"
 
-#: findf.cpp:68
+#: findf.cpp:81
 msgid "File Name"
 msgstr "Lêer Naam"
 
-#: findf.cpp:132
+#: findf.cpp:85
+#, fuzzy
+msgid "Also search uninstalled packages"
+msgstr "Navraag in Rpm databasis vir geïnstalleer pakette"
+
+#: findf.cpp:171
 msgid "--Nothing found--"
 msgstr "--Nothing found--"
 
-#: findf.cpp:182
+#: findf.cpp:221
 msgid "Incorrect URL type"
 msgstr "Verkeerd Url tipe"
 
@@ -370,7 +388,7 @@ msgstr "Navraag in Soen paket lys: "
 msgid "KPackage: Waiting on KISS"
 msgstr "Kpackage: Terwyl gewag het op Soen"
 
-#: kpPty.cpp:137
+#: kpPty.cpp:139
 msgid "ROOT Login"
 msgstr "Root Aanteken"
 
@@ -467,6 +485,27 @@ msgstr "Kio gevaal"
 msgid "Open location:"
 msgstr "Open Ligging:"
 
+#: kplview.cpp:59
+msgid "Mark"
+msgstr "Merk"
+
+#: kplview.cpp:61
+#, fuzzy
+msgid "Summary"
+msgstr "opsomming"
+
+#: kplview.cpp:63
+msgid "Size"
+msgstr "Grootte"
+
+#: kplview.cpp:65
+msgid "Version"
+msgstr "Weergawe"
+
+#: kplview.cpp:67
+msgid "Old Version"
+msgstr "Ou Weergawe"
+
 #: main.cpp:60
 msgid "KDE Package installer"
 msgstr "Kde Paket installeerder"
@@ -483,308 +522,305 @@ msgstr "Paket na installeer"
 msgid "KPackage"
 msgstr "Kpackage"
 
-#: managementWidget.cpp:61
-msgid "Installed"
-msgstr "Geïnstalleer"
-
-#: managementWidget.cpp:62
+#: managementWidget.cpp:85
 msgid "Updated"
 msgstr "Opgedateer"
 
-#: managementWidget.cpp:63
+#: managementWidget.cpp:86
 msgid "New"
 msgstr "Nuwe"
 
-#: managementWidget.cpp:64
+#: managementWidget.cpp:87
 msgid "All"
 msgstr "Alle"
 
-#: managementWidget.cpp:112
-msgid "Mark"
-msgstr "Merk"
+#: managementWidget.cpp:139
+#, fuzzy
+msgid "Clear Search"
+msgstr "Maak skoon Gemerkte"
 
-#: managementWidget.cpp:114
-msgid "Size"
-msgstr "Grootte"
+#: managementWidget.cpp:142
+msgid "Search: "
+msgstr ""
 
-#: managementWidget.cpp:116
-msgid "Version"
-msgstr "Weergawe"
-
-#: managementWidget.cpp:118
-msgid "Old Version"
-msgstr "Ou Weergawe"
-
-#: managementWidget.cpp:143
+#: managementWidget.cpp:165
 msgid "Uninstall Marked"
 msgstr "Oninstalleer Gemerkte"
 
-#: managementWidget.cpp:147
+#: managementWidget.cpp:169
 msgid "Install Marked"
 msgstr "Installeer Gemerkte"
 
-#: managementWidget.cpp:172 pkgOptions.cpp:359 pkgOptions.cpp:361
+#: managementWidget.cpp:194 pkgOptions.cpp:359 pkgOptions.cpp:361
 msgid "Uninstall"
 msgstr "Oninstalleer"
 
-#: managementWidget.cpp:176 managementWidget.cpp:263 pkgOptions.cpp:344
+#: managementWidget.cpp:198 managementWidget.cpp:269 pkgOptions.cpp:344
 #: pkgOptions.cpp:346
 msgid "Install"
 msgstr "Installeer"
 
-#: managementWidget.cpp:265
+#: managementWidget.cpp:271
 msgid "Fetch"
 msgstr "Gaan haal"
 
-#: managementWidget.cpp:350
+#: managementWidget.cpp:356
 msgid "Building package tree"
 msgstr "Bou paket boom"
 
-#: managementWidget.cpp:465
+#: managementWidget.cpp:443
 #, fuzzy
 msgid ""
 "Filename not available\n"
 msgstr ""
 "Lêernaam nie beskikbaar\n"
 
-#: options.cpp:71
+#: options.cpp:73
 msgid "&Types"
 msgstr "Tipes"
 
-#: options.cpp:73
+#: options.cpp:75
 msgid "Handle Package Type"
 msgstr "Handvatsel Paket Tipe"
 
-#: options.cpp:75
+#: options.cpp:77
 msgid "Remote Host"
 msgstr "Afgeleë Bediener"
 
-#: options.cpp:76
+#: options.cpp:78
 msgid "Use remote host (Debian APT only):"
 msgstr "Gebruik afgeleë bediener (Debian  apt  slegs):"
 
-#: options.cpp:92
+#: options.cpp:94
 msgid "Enable"
 msgstr "Aktiveer"
 
-#: options.cpp:94
+#: options.cpp:96
 msgid "Location of Packages..."
 msgstr "Ligging van Pakette..."
 
-#: options.cpp:103
+#: options.cpp:105
 msgid "Cac&he"
 msgstr "Kas"
 
-#: options.cpp:106
+#: options.cpp:108
 #, fuzzy
 msgid "Cache Remote Package Folders"
 msgstr "Kas Afgeleë Paket Lêers"
 
-#: options.cpp:112 options.cpp:128
+#: options.cpp:114 options.cpp:130
 msgid "Always"
 msgstr "Altyd"
 
-#: options.cpp:115 options.cpp:131
+#: options.cpp:117 options.cpp:133
 msgid "During a session"
 msgstr "Gedurende 'n sessie"
 
-#: options.cpp:118 options.cpp:134
+#: options.cpp:120 options.cpp:136
 msgid "Never"
 msgstr "Moet nooit"
 
-#: options.cpp:122
+#: options.cpp:124
 msgid "Cache Remote Package Files"
 msgstr "Kas Afgeleë Paket Lêers"
 
-#: options.cpp:137
+#: options.cpp:139
 msgid "Cache Folder"
 msgstr ""
 
-#: options.cpp:144
+#: options.cpp:146
 msgid "&Misc"
 msgstr "Allerande"
 
-#: options.cpp:150
+#: options.cpp:152
 msgid "Use SSH for privileged commands"
 msgstr "Gebruik Ssh vir bevoorregde opdragte"
 
-#: options.cpp:153
+#: options.cpp:155
 msgid "Verify file list"
 msgstr "Bevestig lêer lys"
 
-#: options.cpp:156
+#: options.cpp:158
 msgid "Read information from all local package files"
 msgstr "Lees informasie van alle plaaslike paket lêers"
 
-#: packageDisplay.cpp:100
+#: packageDisplay.cpp:98
 msgid "File List"
 msgstr "Lêer Lys"
 
-#: packageDisplay.cpp:101
+#: packageDisplay.cpp:99
 msgid "Change Log"
 msgstr ""
 
-#: packageDisplay.cpp:262
+#: packageDisplay.cpp:266
 msgid " - No change log -"
 msgstr ""
 
-#: packageDisplay.cpp:280 packageDisplay.cpp:306
+#: packageDisplay.cpp:284 packageDisplay.cpp:310
 msgid "Updating File List"
 msgstr "Besig met opdatering van Lêer Lys"
 
-#: packageDisplay.cpp:313
+#: packageDisplay.cpp:317
 msgid " Files"
 msgstr " Lêers"
+
+#: packageDisplay.cpp:374
+msgid "&Open With..."
+msgstr ""
 
 #: packageInfo.cpp:122 slackInterface.cpp:341
 msgid "OTHER"
 msgstr "Ander"
 
-#: packageProperties.cpp:67
+#: packageProperties.cpp:69
 msgid "name"
 msgstr "naam"
 
-#: packageProperties.cpp:68
+#: packageProperties.cpp:70
 msgid "summary"
 msgstr "opsomming"
 
-#: packageProperties.cpp:69
+#: packageProperties.cpp:71
 msgid "version"
 msgstr "weergawe"
 
-#: packageProperties.cpp:70
+#: packageProperties.cpp:72
 msgid "old-version"
 msgstr "old-version"
 
-#: packageProperties.cpp:71
+#: packageProperties.cpp:73
 msgid "status"
 msgstr "status"
 
-#: packageProperties.cpp:72
+#: packageProperties.cpp:74
 msgid "group"
 msgstr "groep"
 
-#: packageProperties.cpp:73
+#: packageProperties.cpp:75
 msgid "size"
 msgstr "grootte"
 
-#: packageProperties.cpp:74
+#: packageProperties.cpp:76
 msgid "file-size"
 msgstr "file-size"
 
-#: packageProperties.cpp:75
+#: packageProperties.cpp:77
 msgid "description"
 msgstr "beskrywing"
 
-#: packageProperties.cpp:76
+#: packageProperties.cpp:78
+msgid "url"
+msgstr ""
+
+#: packageProperties.cpp:79
 msgid "architecture"
 msgstr "argitektuur"
 
-#: packageProperties.cpp:78
+#: packageProperties.cpp:81
 msgid "unsatisfied dependencies"
 msgstr "onbevredigende afhanklikes"
 
-#: packageProperties.cpp:79
+#: packageProperties.cpp:82
 msgid "pre-depends"
 msgstr "pre-depends"
 
-#: packageProperties.cpp:80
+#: packageProperties.cpp:83
 msgid "dependencies"
 msgstr "afhanklikes"
 
-#: packageProperties.cpp:81
+#: packageProperties.cpp:84
 msgid "depends"
 msgstr "hang af"
 
-#: packageProperties.cpp:82
+#: packageProperties.cpp:85
 msgid "conflicts"
 msgstr "konflik"
 
-#: packageProperties.cpp:83
+#: packageProperties.cpp:86
 msgid "provides"
 msgstr "verskaf"
 
-#: packageProperties.cpp:84
+#: packageProperties.cpp:87
 msgid "recommends"
 msgstr "voorstel"
 
-#: packageProperties.cpp:85
+#: packageProperties.cpp:88
 msgid "replaces"
 msgstr "vervang"
 
-#: packageProperties.cpp:86
+#: packageProperties.cpp:89
 msgid "suggests"
 msgstr "stel voor"
 
-#: packageProperties.cpp:87
+#: packageProperties.cpp:90
 msgid "priority"
 msgstr "prioriteit"
 
-#: packageProperties.cpp:89
+#: packageProperties.cpp:92
 msgid "essential"
 msgstr "onmisbaar"
 
-#: packageProperties.cpp:90
+#: packageProperties.cpp:93
 msgid "install time"
 msgstr "installeer tyd"
 
-#: packageProperties.cpp:91
+#: packageProperties.cpp:94
 msgid "config-version"
 msgstr "config-version"
 
-#: packageProperties.cpp:92
+#: packageProperties.cpp:95
 msgid "distribution"
 msgstr "verspreiding"
 
-#: packageProperties.cpp:93
+#: packageProperties.cpp:96
 msgid "vendor"
 msgstr "verkoper"
 
-#: packageProperties.cpp:94
+#: packageProperties.cpp:97
 msgid "maintainer"
 msgstr "onderhouer"
 
-#: packageProperties.cpp:95
+#: packageProperties.cpp:98
 msgid "packager"
 msgstr "verpakker"
 
-#: packageProperties.cpp:96
+#: packageProperties.cpp:99
 msgid "source"
 msgstr "bron"
 
-#: packageProperties.cpp:97
+#: packageProperties.cpp:100
 msgid "build-time"
 msgstr "build-time"
 
-#: packageProperties.cpp:98
+#: packageProperties.cpp:101
 msgid "build-host"
 msgstr "build-host"
 
-#: packageProperties.cpp:99
+#: packageProperties.cpp:102
 msgid "base"
 msgstr "basis"
 
-#: packageProperties.cpp:100
+#: packageProperties.cpp:103
 msgid "filename"
 msgstr "lêernaam"
 
-#: packageProperties.cpp:101
+#: packageProperties.cpp:104
 msgid "serial"
 msgstr "reeksnommer"
 
-#: packageProperties.cpp:103
+#: packageProperties.cpp:106
 msgid "also in"
 msgstr "asook in"
 
-#: packageProperties.cpp:104
+#: packageProperties.cpp:107
 msgid "run depends"
 msgstr "hardloop hang af"
 
-#: packageProperties.cpp:105
+#: packageProperties.cpp:108
 msgid "build depends"
 msgstr "bou hang af"
 
-#: packageProperties.cpp:106
+#: packageProperties.cpp:109
 msgid "available as"
 msgstr "beskikbaar as"
 
@@ -792,24 +828,24 @@ msgstr "beskikbaar as"
 msgid "'Delete this window to continue'"
 msgstr "'Delete hierdie venster na continue'"
 
-#: pkgInterface.cpp:250
+#: pkgInterface.cpp:251
 msgid "Starting Kio"
 msgstr "Beginne Kio"
 
-#: pkgInterface.cpp:255
+#: pkgInterface.cpp:256
 msgid "Kio finished"
 msgstr "Kio klaar gemaak"
 
-#: pkgInterface.cpp:265
+#: pkgInterface.cpp:266
 msgid "Kio failed"
 msgstr "Kio gevaal"
 
-#: pkgInterface.cpp:290
+#: pkgInterface.cpp:291
 #, fuzzy, c-format
 msgid "Cannot read folder %1"
 msgstr "Kan nie lees gids %1"
 
-#: pkgInterface.cpp:320
+#: pkgInterface.cpp:321
 msgid "Verifying"
 msgstr "Verifieër"
 
@@ -847,22 +883,26 @@ msgstr "Tydverstreke: %1"
 msgid "Kprocess error:%1"
 msgstr "Kprocess fout:%1"
 
-#: rc.cpp:4
+#. i18n: file kpackageui.rc line 13
+#: rc.cpp:6
 #, no-c-format
 msgid "&Packages"
 msgstr "Pakette"
 
-#: rc.cpp:6
+#. i18n: file kpackageui.rc line 30
+#: rc.cpp:9
 #, no-c-format
 msgid "&Cache"
 msgstr "Kas"
 
-#: rc.cpp:8
+#. i18n: file kpackageui.rc line 36
+#: rc.cpp:12
 #, no-c-format
 msgid "Spe&cial"
 msgstr "Spesiaal"
 
-#: rc.cpp:10
+#. i18n: file kpackageui.rc line 38
+#: rc.cpp:15
 #, no-c-format
 msgid "&APT: Debian"
 msgstr " apt : Debian"
@@ -906,17 +946,13 @@ msgstr "Gebruik Skripte"
 msgid "Querying RPM package list: "
 msgstr "Navraag in Rpm paket lys: "
 
-#: rpmInterface.cpp:155
+#: rpmInterface.cpp:157
 msgid "Querying RPM package list"
 msgstr "Navraag in Rpm paket lys"
 
-#: rpmInterface.cpp:159
+#: rpmInterface.cpp:161
 msgid "Processing RPM package list"
 msgstr "Verwerking Rpm paket lys"
-
-#: search.cpp:41 search.cpp:51
-msgid "Find Package"
-msgstr "Soek Paket"
 
 #: search.cpp:65
 msgid "Sub string"
@@ -1153,9 +1189,6 @@ msgstr ""
 
 #~ msgid " conflicts with %1-%2-%3\n"
 #~ msgstr " konflik met %1-%2-%3\n"
-
-#~ msgid "Querying RPM database for installed packages"
-#~ msgstr "Navraag in Rpm databasis vir geïnstalleer pakette"
 
 #~ msgid "could not read database record\n"
 #~ msgstr "kon nie lees databasis opneem\n"
