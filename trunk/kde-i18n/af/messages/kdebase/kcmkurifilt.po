@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkurifilt VERSION\n"
-"POT-Creation-Date: 2004-08-01 01:24+0200\n"
+"POT-Creation-Date: 2004-11-23 01:21+0100\n"
 "PO-Revision-Date: 2002-11-07 11:28+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -13,16 +13,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
+#: plugins/ikws/searchproviders.i18n:2
+msgid ""
+"_: NOTE_TO_THE_TRANSLATORS\n"
+"By default, the web shortcuts will all go to the\n"
+"international versions of each site (e.g. google.com),\n"
+"not to the local site (e.g. google.de).  To change this,\n"
+"add extra 'Query[foo]=...' lines to the .desktop files\n"
+"in kdebase/kcontrol/ebrowsing/plugins/ikws/searchproviders.\n"
+"For example, in google.desktop, copy the original\n"
+"Query=...\n"
+"line to\n"
+"Query[foo]=...\n"
+"and change its URL so it uses google.foo instead of google.com.\n"
+"(translate this message as DONE when you have added the extra\n"
+"query URLs; otherwise, leave it untranslated as a reminder.)"
+msgstr ""
+
 #: filteropts.cpp:39
 #, fuzzy
 msgid "Under construction..."
 msgstr "Onder Konstruksie..."
 
-#: main.cpp:52
-msgid "&Filters"
-msgstr "Filters"
-
-#: main.cpp:111
+#: main.cpp:45
 msgid ""
 "<h1>Enhanced Browsing</h1> In this module you can configure some enhanced "
 "browsing features of KDE. "
@@ -33,16 +46,22 @@ msgid ""
 "<h2>Web Shortcuts</h2>Web Shortcuts are a quick way of using Web search "
 "engines. For example, type \"altavista:frobozz\" or \"av:frobozz\" and "
 "Konqueror will do a search on AltaVista for \"frobozz\". Even easier: just "
-"press Alt+F2 (if you haven't changed this shortcut) and enter the shortcut "
+"press Alt+F2 (if you have not changed this shortcut) and enter the shortcut "
 "in the KDE Run Command dialog."
 msgstr ""
 
-#: rc.cpp:2
+#: main.cpp:61
+msgid "&Filters"
+msgstr "Filters"
+
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 27
+#: rc.cpp:3
 #, fuzzy, no-c-format
 msgid "&Enable Web shortcuts"
 msgstr "Aktiveer Web kortpaaie"
 
-#: rc.cpp:4
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 32
+#: rc.cpp:6
 #, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
@@ -56,24 +75,28 @@ msgstr ""
 "woorde <em>kortpad</em>:<em>Kde</em> sal resultaat in die woord <em>Kde</em>"
 " te wees gesoekte te gebruik die Uri gedefinieër deur die <em>kortpad</em>."
 
-#: rc.cpp:8
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 56
+#: rc.cpp:11
 #, no-c-format
 msgid "&Keyword delimiter:"
 msgstr ""
 
-#: rc.cpp:10 rc.cpp:46
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 62
+#: rc.cpp:14 rc.cpp:66
 #, no-c-format
 msgid ""
 "Choose the delimiter that separates the keyword from the phrase or word to "
 "be searched."
 msgstr ""
 
-#: rc.cpp:12
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 81
+#: rc.cpp:17
 #, no-c-format
 msgid "Default &search engine:"
 msgstr ""
 
-#: rc.cpp:14 rc.cpp:20
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 89
+#: rc.cpp:20 rc.cpp:28
 #, no-c-format
 msgid ""
 "<qt>\n"
@@ -83,91 +106,108 @@ msgid ""
 "</qt>"
 msgstr ""
 
-#: rc.cpp:18
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 95
+#: rc.cpp:25
 #, no-c-format
 msgid "None"
 msgstr ""
 
-#: rc.cpp:24
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 123
+#: rc.cpp:33
 #, fuzzy, no-c-format
 msgid "Chan&ge..."
 msgstr "Verander..."
 
-#: rc.cpp:26
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 126
+#: rc.cpp:36
 #, fuzzy, no-c-format
 msgid "Modify a search provider."
 msgstr "Verander Soektog Verskaffer"
 
-#: rc.cpp:28
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 137
+#: rc.cpp:39
 #, no-c-format
 msgid "De&lete"
 msgstr ""
 
-#: rc.cpp:30
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 140
+#: rc.cpp:42
 #, fuzzy, no-c-format
 msgid "Delete the selected search provider."
 msgstr "Kliek hier na verander 'n soektog verskaffer."
 
-#: rc.cpp:32
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 148
+#: rc.cpp:45
 #, no-c-format
 msgid "&New..."
 msgstr ""
 
-#: rc.cpp:34
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 151
+#: rc.cpp:48
 #, fuzzy, no-c-format
 msgid "Add a search provider."
 msgstr "Kliek hier na voeg by 'n soektog verskaffer."
 
-#: rc.cpp:36
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 174
+#: rc.cpp:51
 #, no-c-format
 msgid "Name"
 msgstr "Naam"
 
-#: rc.cpp:38
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 185
+#: rc.cpp:54
 #, no-c-format
 msgid "Shortcuts"
 msgstr "Kortpaaie"
 
-#: rc.cpp:40
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 204
+#: rc.cpp:57
 #, fuzzy, no-c-format
 msgid "List of search providers and their associated shortcuts."
 msgstr ""
 "Hierdie lys bevat die soektog verskaffers wat Kde weet aangaande, en hulle "
 "geassosieer pseudo-URI skemas, of kortpaaie."
 
-#: rc.cpp:42
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 210
+#: rc.cpp:60
 #, no-c-format
 msgid "Colon"
 msgstr ""
 
-#: rc.cpp:44
+#. i18n: file plugins/ikws/ikwsopts_ui.ui line 215
+#: rc.cpp:63
 #, no-c-format
 msgid "Space"
 msgstr ""
 
-#: rc.cpp:48 rc.cpp:63
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 27
+#: rc.cpp:69 rc.cpp:90
 #, no-c-format
 msgid "Enter the human readable name of the search provider here."
 msgstr "Invoer die menslik leesbaar naam van die soektog verskaffer hier."
 
-#: rc.cpp:50
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 35
+#: rc.cpp:72
 #, no-c-format
 msgid "&Charset:"
 msgstr "Karakterstel:"
 
-#: rc.cpp:52
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 41
+#: rc.cpp:75
 #, fuzzy, no-c-format
 msgid "Select the character set that will be used to encode your search query"
 msgstr ""
 "Kies die karakter stel wat sal wees gebruik word na enkodeer jou soektog "
 "navraag."
 
-#: rc.cpp:54
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 49
+#: rc.cpp:78
 #, no-c-format
 msgid "Search &URI:"
 msgstr "Soektog Uri:"
 
-#: rc.cpp:56 rc.cpp:75
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 58
+#: rc.cpp:81 rc.cpp:106
 #, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
@@ -205,12 +245,14 @@ msgstr ""
 "'n aangehaalde string kan wees gebruik word as verstek waarde as niks "
 "ooreenstemmende inskrywings van die links van die verwysing lys."
 
-#: rc.cpp:61
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 66
+#: rc.cpp:87
 #, no-c-format
 msgid "Search &provider name:"
 msgstr "Soektog verskaffer naam:"
 
-#: rc.cpp:65 rc.cpp:71
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 82
+#: rc.cpp:93 rc.cpp:101
 #, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
@@ -223,19 +265,21 @@ msgstr ""
 "in Kde. Vir voorbeeld, Die kortpad <em>av</em> kan wees gebruik word as in "
 "<em>av</em>:<em>my soektog</em>."
 
-#: rc.cpp:69
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 90
+#: rc.cpp:98
 #, no-c-format
 msgid "UR&I shortcuts:"
 msgstr "Uri kortpaaie:"
 
-#: rc.cpp:80
+#. i18n: file plugins/ikws/searchproviderdlg_ui.ui line 117
+#: rc.cpp:112
 #, no-c-format
 msgid "Select the character set that will be used to encode your search query."
 msgstr ""
 "Kies die karakter stel wat sal wees gebruik word na enkodeer jou soektog "
 "navraag."
 
-#: plugins/ikws/ikwsopts.cpp:92
+#: plugins/ikws/ikwsopts.cpp:93
 msgid ""
 "In this module you can configure the web shortcuts feature. Web shortcuts "
 "allow you to quickly search or lookup words on the Internet. For example, to "
@@ -275,56 +319,36 @@ msgstr ""
 msgid "Keep It"
 msgstr "Hou Dit"
 
-#: plugins/shorturi/kshorturifilter.cpp:229
+#: plugins/shorturi/kshorturifilter.cpp:253
 msgid "<qt><b>%1</b> does not have a home folder.</qt>"
 msgstr ""
 
-#: plugins/shorturi/kshorturifilter.cpp:230
+#: plugins/shorturi/kshorturifilter.cpp:254
 msgid "<qt>There is no user called <b>%1</b>.</qt>"
 msgstr "<qt>Daar is nee gebruiker wat genoem word <b>%1</b>.</qt>"
 
-#: plugins/shorturi/kshorturifilter.cpp:443
+#: plugins/shorturi/kshorturifilter.cpp:467
 msgid "<qt>The file or folder <b>%1</b> does not exist."
 msgstr ""
 
-#: plugins/shorturi/kshorturifilter.cpp:460
+#: plugins/shorturi/kshorturifilter.cpp:484
 msgid "&ShortURLs"
 msgstr "Kort urls"
 
 #, fuzzy
 #~ msgid ""
 #~ "<qt>\n"
-#~ "Enter the URI that is used to do a search on the search engine here.<br/"
-#~ ">The whole text to be searched for can be specified as \\{@} or \\{0}.<br/"
-#~ ">\n"
-#~ "Recommended is \\{@}, since it removes all query variables (name=value) "
-#~ "from the resulting string whereas \\{0} will be substituted with the "
-#~ "unmodified query string.<br/>You can use \\{1} ... \\{n} to specify "
-#~ "certain words from the query and \\{name} to specify a value given by "
-#~ "'name=value' in the user query.<br/>In addition it is possible to specify "
-#~ "multiple references (names, numbers and strings) at once (\\{name1,"
-#~ "name2,...,\"string\"}).<br\\>The first matching value (from the left) "
-#~ "will be used as substitution value for the resulting URI.<br/>A quoted "
-#~ "string can be used as default value if nothing matches from the left of "
-#~ "the reference list.\n"
+#~ "Enter the URI that is used to do a search on the search engine here.<br/>The whole text to be searched for can be specified as \\{@} or \\{0}.<br/>\n"
+#~ "Recommended is \\{@}, since it removes all query variables (name=value) from the resulting string whereas \\{0} will be substituted with the unmodified query string.<br/>You can use \\{1} ... \\{n} to specify certain words from the query and \\{name} to specify a value given by 'name=value' in the user query.<br/>In addition it is possible to specify multiple references (names, numbers and strings) at once (\\{name1,name2,...,\"string\"}).<br\\>The first matching value (from the left) will be used as substitution value for the resulting URI.<br/>A quoted string can be used as default value if nothing matches from the left of the reference list.\n"
 #~ "</qt>"
 #~ msgstr ""
-#~ "Invoer die Uri wat is gebruik word na doen 'n soektog op die soektog "
-#~ "masjien hier.\n"
-#~ "die volledige teks na wees gesoekte vir kan wees gespesifiseer as \\{@} "
-#~ "van \\{0}.\n"
-#~ "Aanbeveel is \\{@}, sedert dit verwyder alle navraag veranderlikes "
-#~ "(naam=waarde) van die gevolglik string darenteen \\{0} sal wees vervang "
-#~ "met die ongemodifiseerde navraag string.\n"
-#~ "Jy kan gebruik \\{1} ... \\{n} na spesifiseer sekere woorde van die "
-#~ "navraag en \\{naam} na spesifiseer 'n waarde gegewe deur 'naam=waarde' In "
-#~ "die gebruiker navraag.\n"
-#~ "In byvoeging dit is moontlik na spesifiseer veelvuldige verwysings (name, "
-#~ "nommers en stringe) na as eers (\\{name1,name2,...,\"string\"}).\n"
-#~ "die eerste ooreenstemmende waarde (van die links) sal wees gebruik word "
-#~ "as substitusie waarde vir die gevolglik Uri.\n"
-#~ "'n aangehaalde string kan wees gebruik word as verstek waarde as niks "
-#~ "ooreenstemmende inskrywings van die links van die verwysing lys."
+#~ "Invoer die Uri wat is gebruik word na doen 'n soektog op die soektog masjien hier.\n"
+#~ "die volledige teks na wees gesoekte vir kan wees gespesifiseer as \\{@} van \\{0}.\n"
+#~ "Aanbeveel is \\{@}, sedert dit verwyder alle navraag veranderlikes (naam=waarde) van die gevolglik string darenteen \\{0} sal wees vervang met die ongemodifiseerde navraag string.\n"
+#~ "Jy kan gebruik \\{1} ... \\{n} na spesifiseer sekere woorde van die navraag en \\{naam} na spesifiseer 'n waarde gegewe deur 'naam=waarde' In die gebruiker navraag.\n"
+#~ "In byvoeging dit is moontlik na spesifiseer veelvuldige verwysings (name, nommers en stringe) na as eers (\\{name1,name2,...,\"string\"}).\n"
+#~ "die eerste ooreenstemmende waarde (van die links) sal wees gebruik word as substitusie waarde vir die gevolglik Uri.\n"
+#~ "'n aangehaalde string kan wees gebruik word as verstek waarde as niks ooreenstemmende inskrywings van die links van die verwysing lys."
 
 #, fuzzy
 #~ msgid "SearchProviderDlgUI"
@@ -341,28 +365,14 @@ msgstr "Kort urls"
 #~ msgid "Add..."
 #~ msgstr "Voeg by..."
 
-#~ msgid ""
-#~ "Click here to delete the currently selected search provider from the list."
-#~ msgstr ""
-#~ "Kliek hier na uitvee die huidiglik gekose soektog verskaffer van die lys."
+#~ msgid "Click here to delete the currently selected search provider from the list."
+#~ msgstr "Kliek hier na uitvee die huidiglik gekose soektog verskaffer van die lys."
 
-#~ msgid ""
-#~ "In this module, you can choose whether to use Internet Keywords or not. "
-#~ "You can also configure various Internet search engines that KDE can use "
-#~ "for keyword search. This allows you, for example, to enter a pseudo-URI "
-#~ "like gg:smetana to search the Google search engine for web pages about "
-#~ "the Czech composer Bedrich Smetana."
-#~ msgstr ""
-#~ "In hierdie module, jy kan kies hetsy na gebruik Internet Sleutelwoorde of "
-#~ "nie. jy kan asook konfigureer verskeie Internet soektog enjins wat Kde "
-#~ "kan gebruik vir sleutelwoord soektog. hierdie laat toe jy, vir voorbeeld, "
-#~ "na invoer 'n pseudo-URI hou van gg:Smetana na soektog die Google soektog "
-#~ "masjien vir web bladsye aangaande die Tsjeggië saamsteller Bedrich "
-#~ "Smetana."
+#~ msgid "In this module, you can choose whether to use Internet Keywords or not. You can also configure various Internet search engines that KDE can use for keyword search. This allows you, for example, to enter a pseudo-URI like gg:smetana to search the Google search engine for web pages about the Czech composer Bedrich Smetana."
+#~ msgstr "In hierdie module, jy kan kies hetsy na gebruik Internet Sleutelwoorde of nie. jy kan asook konfigureer verskeie Internet soektog enjins wat Kde kan gebruik vir sleutelwoord soektog. hierdie laat toe jy, vir voorbeeld, na invoer 'n pseudo-URI hou van gg:Smetana na soektog die Google soektog masjien vir web bladsye aangaande die Tsjeggië saamsteller Bedrich Smetana."
 
 #~ msgid "Importing Search Providers is not implemented yet."
-#~ msgstr ""
-#~ "Met die invoering van Soektog Verskaffers is nie geimplementeer nog."
+#~ msgstr "Met die invoering van Soektog Verskaffers is nie geimplementeer nog."
 
 #~ msgid "Exporting Search Providers is not implemented yet."
 #~ msgstr "Uitvoer van Soektog Verskaffers is nie geimplementeer nog."
