@@ -4,31 +4,103 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-06-10 16:06+0200\n"
-"PO-Revision-Date: 2001-07-27 10:54+0200\n"
+"Project-Id-Version: kio_imap4 VERSION\n"
+"POT-Creation-Date: 2002-01-16 02:29+0100\n"
+"PO-Revision-Date: 2002-01-10 09:26+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: imap4.cc:701
+#: imap4.cc:754
+msgid "What do you want to store in this folder?"
+msgstr "wat doen jy wil hê aan stoor in hierdie kabinet?"
+
+#: imap4.cc:754
+msgid "Create folder"
+msgstr "skep kabinet"
+
+#: imap4.cc:755
+msgid "&Messages"
+msgstr "boodskappe"
+
+#: imap4.cc:755
+msgid "&Subfolders"
+msgstr "subgidse"
+
+#: imap4.cc:1032 imap4.cc:1044
+msgid "Changing the flags of message %1 failed."
+msgstr "verandering die vlaggies van boodskap %1 gevaal."
+
+#: imap4.cc:1133
 msgid "Unable to close mailbox."
-msgstr "NIE MOONTLIK AAN MAAK TOE POSBUS."
+msgstr "nie moontlik aan maak toe posbus."
 
-#: imap4.cc:1207
-msgid "The server does not support TLS."
-msgstr "DIE BEDIENER DOEN NIE ONDERSTEUN TLS."
+#: imap4.cc:1299
+msgid ""
+"Sorry, the server %1 supports neither IMAP4 nor IMAP4rev1.\n"
+"It identified itself with: %2"
+msgstr ""
 
-#: imap4.cc:1231
+#: imap4.cc:1310
+msgid ""
+"The server does not support TLS.\n"
+"Disable this security feature to connect unencrypted."
+msgstr ""
+"die bediener doen nie ondersteun tls.\n"
+"deaktiveer hierdie sekuriteit funksie aan konnekteer  unencrypted."
+
+#: imap4.cc:1335
 msgid "Starting TLS failed."
-msgstr "BEGINNE TLS GEVAAL."
+msgstr "beginne tls gevaal."
 
-#: imap4.cc:1242
-msgid "Authentication method %1 not supported."
-msgstr "GELDIGHEIDSVERKLARING METODE %1 NIE ONDERSTEUNDE."
+#: imap4.cc:1345
+msgid "The authentication method %1 is not supported by the server."
+msgstr "die geldigheidsverklaring metode %1 is nie ondersteunde deur die bediener."
 
-#: imap4.cc:1255
+#: imap4.cc:1354
 msgid "Username and password for your IMAP account:"
-msgstr "GEBRUIKERNAAM EN WAGWOORD VIR JOU IMAP REKENING:"
+msgstr "gebruikernaam en wagwoord vir jou imap rekening:"
+
+#: imap4.cc:1363
+#, fuzzy
+msgid ""
+"Sorry, in IMAP clear text login, only US-ASCII characters are possible. "
+"Please use a different authentication method that your server supports or "
+"try to get a different username."
+msgstr ""
+"jammer! in imap maak skoon teks aanteken, slegs US-ASCII karakters word "
+"moontlik. asseblief gebruik 'n ander geldigheidsverklaring metode wat jou "
+"bediener ondersteun of probeer aan kry 'n ander gebruikernaam."
+
+#: imap4.cc:1368
+msgid ""
+"Sorry, in IMAP clear text login, only US-ASCII characters are possible. "
+"Please use a different authentication method that your server supports or "
+"change your password."
+msgstr ""
+"jammer, in imap maak skoon teks aanteken, slegs US-ASCII karakters word "
+"moontlik. asseblief gebruik 'n ander geldigheidsverklaring metode wat jou "
+"bediener ondersteun of verander jou wagwoord."
+
+#: imap4.cc:1373
+#, c-format
+msgid ""
+"Could not login. Probably the password is wrong.\n"
+"The server replied:\n"
+"%1"
+msgstr ""
+"kon nie aanteken. waarskynlik die wagwoord is verkeerde.\n"
+"die bediener het geantwoord:\n"
+"%1"
+
+#: imap4.cc:1379
+msgid ""
+"Could not authenticate via %1.\n"
+"The server replied:\n"
+"%2"
+msgstr ""
+"kon nie geldigheidstoets deur middel van %1.\n"
+"die bediener het geantwoord:\n"
+"%2"
