@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmaudiocd VERSION\n"
-"POT-Creation-Date: 2002-09-03 02:57+0200\n"
+"POT-Creation-Date: 2003-11-01 01:43+0100\n"
 "PO-Revision-Date: 2002-11-07 11:33+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,25 +25,25 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: kcmaudiocd.cpp:664
+#: kcmaudiocd.cpp:551
 msgid ""
-"<h1>Audio CD</h1> The Audio CD IO-Slave enables you to easily create wav, "
+"<h1>Audio CDs</h1> The Audio CD IO-Slave enables you to easily create wav, "
 "MP3 or Ogg Vorbis files from your audio CD-ROMs or DVDs. The slave is "
 "invoked by typing <i>\"audiocd:/\"</i> in Konqueror's location bar. In this "
-"module, you can configure encoding, CDDB lookup and device settings. Note "
-"that MP3 and Ogg Vorbis encoding are only available if KDE was built with a "
-"recent version of the LAME or Ogg Vorbis libraries."
+"module, you can configure encoding, and device settings. Note that MP3 and "
+"Ogg Vorbis encoding are only available if KDE was built with a recent "
+"version of the LAME or Ogg Vorbis libraries."
 msgstr ""
 
-#: kcmaudiocd.cpp:677
+#: kcmaudiocd.cpp:564
 msgid "kcmaudiocd"
 msgstr "kcm-klank-cd"
 
-#: kcmaudiocd.cpp:677
+#: kcmaudiocd.cpp:564
 msgid "KDE Audio-CD Slave Control Module"
 msgstr "Kde Audio-CD Slaaf Kontrole Module"
 
-#: kcmaudiocd.cpp:679
+#: kcmaudiocd.cpp:566
 msgid "(c) 2000 - 2001 Carsten Duvenhorst"
 msgstr "(c) 2000 - 2001 Carsten Duvenhorst"
 
@@ -80,9 +80,10 @@ msgid "/dev/cdrom"
 msgstr "/dev/cdrom"
 
 #: rc.cpp:8
+#, fuzzy
 msgid ""
 "Specify a location for the drive you want to use. Normally, this is a file "
-"inside the /dev directory representing your CD or DVD drive."
+"inside the /dev folder representing your CD or DVD drive."
 msgstr ""
 "Spesifiseer 'n ligging vir die dryf jy wil hê na gebruik. Gewoonlik, "
 "hierdie is 'n lêer binne in die /dev gids voorstelling jou Cd of Dvd dryf."
@@ -111,102 +112,133 @@ msgid "&Ogg Vorbis Settings"
 msgstr "Ogg Vorbis Instellings"
 
 #: rc.cpp:14
+#, fuzzy
+msgid "&Encoding Method"
+msgstr "Enkodering Metode"
+
+#: rc.cpp:15
+#, fuzzy
+msgid "Quality Based"
+msgstr "Kwaliteit:"
+
+#: rc.cpp:16
+#, fuzzy
+msgid "Bitrate Based"
+msgstr "Bistempo:"
+
+#: rc.cpp:17
 msgid "Vorbis Bitrate Settings"
 msgstr "Vorbis Bistempo Instellings"
 
-#: rc.cpp:15 rc.cpp:29 rc.cpp:84 rc.cpp:102 rc.cpp:120 rc.cpp:137
+#: rc.cpp:18 rc.cpp:32 rc.cpp:90 rc.cpp:108 rc.cpp:126 rc.cpp:143
 msgid "32 kbs"
 msgstr "32 kbs"
 
-#: rc.cpp:16 rc.cpp:30 rc.cpp:85 rc.cpp:103 rc.cpp:121 rc.cpp:138
+#: rc.cpp:19 rc.cpp:33 rc.cpp:91 rc.cpp:109 rc.cpp:127 rc.cpp:144
 msgid "40 kbs"
 msgstr "40 kbs"
 
-#: rc.cpp:17 rc.cpp:31 rc.cpp:86 rc.cpp:104 rc.cpp:122 rc.cpp:139
+#: rc.cpp:20 rc.cpp:34 rc.cpp:92 rc.cpp:110 rc.cpp:128 rc.cpp:145
 msgid "48 kbs"
 msgstr "48 kbs"
 
-#: rc.cpp:18 rc.cpp:32 rc.cpp:87 rc.cpp:105 rc.cpp:123 rc.cpp:140
+#: rc.cpp:21 rc.cpp:35 rc.cpp:93 rc.cpp:111 rc.cpp:129 rc.cpp:146
 msgid "56 kbs"
 msgstr "56 kbs"
 
-#: rc.cpp:19 rc.cpp:33 rc.cpp:88 rc.cpp:106 rc.cpp:124 rc.cpp:141
+#: rc.cpp:22 rc.cpp:36 rc.cpp:94 rc.cpp:112 rc.cpp:130 rc.cpp:147
 msgid "64 kbs"
 msgstr "64 kbs"
 
-#: rc.cpp:20 rc.cpp:34 rc.cpp:89 rc.cpp:107 rc.cpp:125 rc.cpp:142
+#: rc.cpp:23 rc.cpp:37 rc.cpp:95 rc.cpp:113 rc.cpp:131 rc.cpp:148
 msgid "80 kbs"
 msgstr "80 kbs"
 
-#: rc.cpp:21 rc.cpp:35 rc.cpp:90 rc.cpp:108 rc.cpp:126 rc.cpp:143
+#: rc.cpp:24 rc.cpp:38 rc.cpp:96 rc.cpp:114 rc.cpp:132 rc.cpp:149
 msgid "96 kbs"
 msgstr "96 kbs"
 
-#: rc.cpp:22 rc.cpp:36 rc.cpp:91 rc.cpp:109 rc.cpp:127 rc.cpp:144
+#: rc.cpp:25 rc.cpp:39 rc.cpp:97 rc.cpp:115 rc.cpp:133 rc.cpp:150
 msgid "112 kbs"
 msgstr "112 kbs"
 
-#: rc.cpp:23 rc.cpp:37 rc.cpp:45 rc.cpp:92 rc.cpp:110 rc.cpp:128 rc.cpp:145
+#: rc.cpp:26 rc.cpp:40 rc.cpp:48 rc.cpp:98 rc.cpp:116 rc.cpp:134 rc.cpp:151
 msgid "128 kbs"
 msgstr "128 kbs"
 
-#: rc.cpp:24 rc.cpp:38 rc.cpp:46 rc.cpp:93 rc.cpp:111 rc.cpp:129 rc.cpp:146
+#: rc.cpp:27 rc.cpp:41 rc.cpp:49 rc.cpp:99 rc.cpp:117 rc.cpp:135 rc.cpp:152
 msgid "160 kbs"
 msgstr "160 kbs"
 
-#: rc.cpp:25 rc.cpp:39 rc.cpp:47 rc.cpp:94 rc.cpp:112 rc.cpp:130 rc.cpp:147
+#: rc.cpp:28 rc.cpp:42 rc.cpp:50 rc.cpp:100 rc.cpp:118 rc.cpp:136 rc.cpp:153
 msgid "192 kbs"
 msgstr "192 kbs"
 
-#: rc.cpp:26 rc.cpp:40 rc.cpp:95 rc.cpp:113 rc.cpp:131 rc.cpp:148
+#: rc.cpp:29 rc.cpp:43 rc.cpp:101 rc.cpp:119 rc.cpp:137 rc.cpp:154
 msgid "224 kbs"
 msgstr "224 kbs"
 
-#: rc.cpp:27 rc.cpp:41 rc.cpp:48 rc.cpp:96 rc.cpp:114 rc.cpp:132 rc.cpp:149
+#: rc.cpp:30 rc.cpp:44 rc.cpp:51 rc.cpp:102 rc.cpp:120 rc.cpp:138 rc.cpp:155
 msgid "256 kbs"
 msgstr "256 kbs"
 
-#: rc.cpp:28 rc.cpp:42 rc.cpp:49
+#: rc.cpp:31 rc.cpp:45 rc.cpp:52
 msgid "350 kbs"
 msgstr "350 kbs"
 
-#: rc.cpp:43
+#: rc.cpp:46
 msgid "M&inimal bitrate:"
 msgstr "Minimum bistempo:"
 
-#: rc.cpp:44
+#: rc.cpp:47
 msgid "Ma&ximal bitrate:"
 msgstr "Maksimum bistempo:"
 
-#: rc.cpp:50
+#: rc.cpp:53
 msgid "A&verage bitrate:"
 msgstr "Gemiddelde bistempo:"
 
-#: rc.cpp:52
+#: rc.cpp:54
+#, fuzzy
+msgid "Vorbis &Quality Setting"
+msgstr "Vorbis Bistempo Instellings"
+
+#: rc.cpp:55
+msgid ""
+"You can set the quality of the encoded stream here. A higher value implies a "
+"higher quality but encodes slower."
+msgstr ""
+
+#: rc.cpp:56
+msgid "Higher is better but slower"
+msgstr ""
+
+#: rc.cpp:58
 msgid "Add &track information"
 msgstr "Voeg by navolg informasie"
 
-#: rc.cpp:53
+#: rc.cpp:59
+#, fuzzy
 msgid ""
-"Add a description of the Song to the Fileheader. This makes it easy for the "
+"Add a description of the song to the file header. This makes it easy for the "
 "user to get advanced song information shown by his media player. You can get "
 "this information automatically via the Internet. Look at the <i>\"CDDB "
-"Settings\"</i> tab for details."
+"Retrieval\"</i> control module for details."
 msgstr ""
 "Voeg deur 'n beskrywing van die Liedjie na die Lêer-opskrif. Hierdie maak "
 "dit maklike vir die gebruiker na kry gevorderde Liedjie informasie vertoon "
 "deur sy media speler. Jy kan kry Hierdie informasie automaties deur middel "
 "van die Internet. Kyk na die <i>\"Cddb Instellings\"</i> oortjie vir details."
 
-#: rc.cpp:54
+#: rc.cpp:60
 msgid "&MP3 Settings"
 msgstr "Mp3 Instellings"
 
-#: rc.cpp:55
+#: rc.cpp:61
 msgid "Encoding Method"
 msgstr "Enkodering Metode"
 
-#: rc.cpp:56
+#: rc.cpp:62
 msgid ""
 "The encoding method influences the sound files' quality, size and streaming "
 "behavior."
@@ -214,15 +246,15 @@ msgstr ""
 "Die enkodering metode beïnvloed Die klank files' kwaliteit, grootte en "
 "stroomende gedrag."
 
-#: rc.cpp:57
+#: rc.cpp:63
 msgid "Constant Bitrate"
 msgstr "Konstante Bistempo"
 
-#: rc.cpp:58
+#: rc.cpp:64
 msgid "Variable Bitrate"
 msgstr "Veranderlike Bistempo"
 
-#: rc.cpp:59
+#: rc.cpp:65
 msgid ""
 "Choosing <i>Constant Bitrate</i> is safe, while <i>Variable Bitrate</i> "
 "encoding can cause trouble with some media players. However, choosing "
@@ -234,23 +266,23 @@ msgstr ""
 "Egter, Kies Veranderlike bistempos gewoonlik resultate in 'n beter "
 "kwaliteit/grootte verhouding vir die lêer geskep."
 
-#: rc.cpp:60
+#: rc.cpp:66
 msgid "Stereo"
 msgstr "Stereo"
 
-#: rc.cpp:61
+#: rc.cpp:67
 msgid "Joint Stereo"
 msgstr "Gesamentlike Stereo"
 
-#: rc.cpp:62
+#: rc.cpp:68
 msgid "Dual Channel"
 msgstr "Dubbel Kanaal"
 
-#: rc.cpp:63
+#: rc.cpp:69
 msgid "Mono"
 msgstr "Mono"
 
-#: rc.cpp:64
+#: rc.cpp:70
 msgid ""
 "This option controls whether MP3 files are recorded with one or two "
 "channels. Note that choosing <i>\"Mono\"</i> reduces file size, but also "
@@ -260,221 +292,231 @@ msgstr ""
 "kanale. Nota wat kies <i>\"Mono\"</i> verminder lêer grootte, maar asook "
 "stop die stereo sein."
 
-#: rc.cpp:65
+#: rc.cpp:71
 msgid "&Quality:"
 msgstr "Kwaliteit:"
 
-#: rc.cpp:66
+#: rc.cpp:72
 msgid "High"
 msgstr "Hoog"
 
-#: rc.cpp:67
+#: rc.cpp:73
 msgid "Low"
 msgstr "Lae"
 
-#: rc.cpp:69
+#: rc.cpp:75
 msgid "Cop&yrighted"
 msgstr "Gekopiëreg"
 
-#: rc.cpp:70
+#: rc.cpp:76
 msgid "Mark MP3 file as copyrighted"
 msgstr "Merk Mp3 lêer as gekopiëreg"
 
-#: rc.cpp:71
+#: rc.cpp:77
 msgid "Mark MP3 file as copyrighted."
 msgstr "Merk Mp3 lêer as gekopiëreg."
 
-#: rc.cpp:72
+#: rc.cpp:78
 msgid "Origi&nal"
 msgstr "Oorspronklike"
 
-#: rc.cpp:73
+#: rc.cpp:79
 msgid "Mark MP3 file as an original"
 msgstr "Merk Mp3 lêer as 'n oorspronklike"
 
-#: rc.cpp:74
+#: rc.cpp:80
 msgid "Mark MP3 file as an original."
 msgstr "Merk Mp3 lêer as 'n oorspronklike."
 
-#: rc.cpp:75
+#: rc.cpp:81
 msgid "&ISO encoding"
 msgstr "Iso enkodering"
 
-#: rc.cpp:76
+#: rc.cpp:82
 msgid "Try to use strict ISO encoding"
 msgstr "Probeer na gebruik streng Iso enkodering"
 
-#: rc.cpp:77 rc.cpp:101 rc.cpp:117
+#: rc.cpp:83 rc.cpp:107 rc.cpp:123
 msgid "This selects the maximal bitrate used for encoding."
 msgstr "Hierdie kies die maksimum bistempo gebruik word vir enkodering."
 
-#: rc.cpp:78
+#: rc.cpp:84
 msgid "&Error protection"
 msgstr "Fout beskerming"
 
-#: rc.cpp:79
+#: rc.cpp:85
 msgid "&Write ID3 tag"
 msgstr "Skryf Id3 etiket"
 
-#: rc.cpp:80 rc.cpp:81
+#: rc.cpp:86 rc.cpp:87
 msgid "If checked and if cddb support is available, an id3 tag will be appended"
 msgstr ""
 "As nagegaan en As cddb ondersteun is beskikbaar, 'n id3 etiket sal wees "
 "agteraaan bygevoeg"
 
-#: rc.cpp:82
+#: rc.cpp:88
 msgid "Constant Bitrate Settings"
 msgstr "Konstante Bistempo Instellings"
 
-#: rc.cpp:83
+#: rc.cpp:89
 msgid "Bitrate:"
 msgstr "Bistempo:"
 
-#: rc.cpp:97 rc.cpp:115 rc.cpp:133 rc.cpp:150
+#: rc.cpp:103 rc.cpp:121 rc.cpp:139 rc.cpp:156
 msgid "320 kbs"
 msgstr "320 kbs"
 
-#: rc.cpp:98
+#: rc.cpp:104
 msgid "The higher the bitrate, the better the quality and the larger the file."
 msgstr "Die hoër Die bistempo, Die beter Die kwaliteit en Die grootter Die lêer."
 
-#: rc.cpp:99
+#: rc.cpp:105
 msgid "Variable Bitrate Settings"
 msgstr "Veranderlike Bistempo Instellings"
 
-#: rc.cpp:100
-msgid "Avera&ge bitrate"
+#: rc.cpp:106
+#, fuzzy
+msgid "Avera&ge bitrate:"
 msgstr "Gemiddelde bistempo"
 
-#: rc.cpp:116
-msgid "Maximal bi&trate"
+#: rc.cpp:122
+#, fuzzy
+msgid "Maximal bi&trate:"
 msgstr "Maksimum bistempo"
 
-#: rc.cpp:118
+#: rc.cpp:124
 msgid "Write &Xing VBR tag"
 msgstr "Skryf Xing Vbr etiket"
 
-#: rc.cpp:119
+#: rc.cpp:125
 msgid "This writes additional information related to VBR as introduced by Xing."
 msgstr ""
 "Hierdie skryf aditionele informasie verwanter na Vbr as bekendgestel deur "
 "Xing."
 
-#: rc.cpp:134
+#: rc.cpp:140
 msgid "Minimal &value is a hard limit"
 msgstr "Minimum waarde is 'n hard beperk"
 
-#: rc.cpp:135
-msgid "Minimal &bitrate"
+#: rc.cpp:141
+#, fuzzy
+msgid "Minimal &bitrate:"
 msgstr "Minimum bistempo"
 
-#: rc.cpp:136
+#: rc.cpp:142
 msgid "This selects the minimal bitrate used for encoding."
 msgstr "Hierdie kies die minimum bistempo gebruik word vir enkodering."
 
-#: rc.cpp:151
+#: rc.cpp:157
 msgid "Filter Settings"
 msgstr "Filter Instellings"
 
-#: rc.cpp:152
+#: rc.cpp:158
 msgid "&Lowpass filter cutoff above"
 msgstr "Laagband filter sny af boonste"
 
-#: rc.cpp:153 rc.cpp:155 rc.cpp:157 rc.cpp:159
+#: rc.cpp:159 rc.cpp:161 rc.cpp:163 rc.cpp:165
 msgid " Hz"
 msgstr " Hz"
 
-#: rc.cpp:154
+#: rc.cpp:160
 msgid "&Highpass filter cutoff below"
 msgstr "Hooglaat filter sny af onder"
 
-#: rc.cpp:156
+#: rc.cpp:162
 msgid "Low&pass filter width"
 msgstr "Laagband filter wydte"
 
-#: rc.cpp:158
+#: rc.cpp:164
 msgid "Highpa&ss filter width"
 msgstr "Hooglaat filter wydte"
 
-#: rc.cpp:160
-msgid "C&DDB Settings"
-msgstr "Cddb Instellings"
-
-#: rc.cpp:162
-msgid "&Enable CDDB lookups"
-msgstr "Aktiveer Cddb opkyke"
-
-#: rc.cpp:163
-msgid ""
-"CDDB enables you to lookup the song index of your CD by using a database on "
-"the Internet. Thus, information like artist, songname and release year can "
-"be automatically inserted into your MP3 or ogg vorbis file."
-msgstr ""
-"Cddb aktiveer jy na opkyk die liedjie indeks van jou Cd deur te gebruik 'n "
-"databasis op die Internet. Dus, informasie hou van kunstenaar, liedjienaam "
-"en vrylaat jaar kan wees automaties ingesit binnein jou Mp3 of ogg vorbis "
-"lêer."
-
-#: rc.cpp:164
-msgid "&Save remote CDDB entries to local files"
-msgstr "Stoor afgeleë Cddb inskrywings na plaaslike lêers"
-
-#: rc.cpp:165
-msgid ""
-"To speed up further searches, or to support disconnected operation CDDB "
-"entries can be saved into local files. The directory where these are saved "
-"into is the first in the list below. It should be writable to you, so "
-"$HOME/.cddb/ is recommended."
-msgstr ""
-"Na spoed begin verdere soek, of Na ondersteun geontkoppel operasie cddb "
-"inskrywings kan wees gestoor binnein plaaslike lêers. Die gids waar hierdie "
-"word gestoor binnein is Die eerste in Die lys onder. Dit moet wees skryfbaar "
-"Na jy, sodat $Huis/.cddb/ is aanbeveel."
-
 #: rc.cpp:166
-msgid "CDDB Directories"
-msgstr "Cddb Gidse"
+msgid "File Names"
+msgstr ""
 
 #: rc.cpp:167
-msgid "Main directory (here the files are saved into):"
-msgstr "Hoof gids (hier die lêers word gestoor binnein):"
+#, fuzzy
+msgid "File Name Settings"
+msgstr "Filter Instellings"
 
-#: rc.cpp:169
-msgid "Additionally searched directories:"
-msgstr "Additioneel gesoekte gidse:"
-
-#: rc.cpp:170 rc.cpp:173
-msgid ".cddb/"
-msgstr ".cddb/"
-
-#: rc.cpp:171
+#: rc.cpp:168
 msgid ""
-"List all directories where local CDDB entries are also searched. The first "
-"in this list is the directory where entries are saved."
+"Please enter the filename without an extension that should be used.\n"
+"\n"
+"The following macros will be expanded:\n"
+"\n"
+"%A\tArtist\n"
+"%a\tAlbum name\n"
+"%t\tTrack name\n"
+"%n\tTrack number\n"
+"%g\tGenre\n"
+"%y\tYear\n"
 msgstr ""
-"Lys alle gidse waar plaaslike Cddb inskrywings word asook gesoekte. Die "
-"eerste in hierdie Lys is Die gids waar inskrywings word gestoor."
 
-#: rc.cpp:174
-msgid "CDD&B Server"
-msgstr "Cddb Bediener"
+#~ msgid "C&DDB Settings"
+#~ msgstr "Cddb Instellings"
 
-#: rc.cpp:175 rc.cpp:177
-msgid "freedb.freedb.org:8880"
-msgstr "freedb.freedb.org:8880"
+#~ msgid "&Enable CDDB lookups"
+#~ msgstr "Aktiveer Cddb opkyke"
 
-#: rc.cpp:176
-msgid "Add a new server here. Scheme: <i>Server:Port</i>"
-msgstr "Voeg by 'n nuwe bediener hier. Skema: <i>bediener:Poort</i>"
+#~ msgid ""
+#~ "CDDB enables you to lookup the song index of your CD by using a database "
+#~ "on the Internet. Thus, information like artist, songname and release year "
+#~ "can be automatically inserted into your MP3 or ogg vorbis file."
+#~ msgstr ""
+#~ "Cddb aktiveer jy na opkyk die liedjie indeks van jou Cd deur te gebruik "
+#~ "'n databasis op die Internet. Dus, informasie hou van kunstenaar, "
+#~ "liedjienaam en vrylaat jaar kan wees automaties ingesit binnein jou Mp3 "
+#~ "of ogg vorbis lêer."
 
-#: rc.cpp:178
-msgid "Lists all servers currently selected for song information lookup."
-msgstr "Lyste alle bedieners huidiglik gekose vir liedjie informasie opkyk."
+#~ msgid "&Save remote CDDB entries to local files"
+#~ msgstr "Stoor afgeleë Cddb inskrywings na plaaslike lêers"
 
-#: rc.cpp:180
-msgid "Adds a server to the list."
-msgstr "Voeg by 'n bediener na die lys."
+#~ msgid ""
+#~ "To speed up further searches, or to support disconnected operation CDDB "
+#~ "entries can be saved into local files. The directory where these are "
+#~ "saved into is the first in the list below. It should be writable to you, "
+#~ "so $HOME/.cddb/ is recommended."
+#~ msgstr ""
+#~ "Na spoed begin verdere soek, of Na ondersteun geontkoppel operasie cddb "
+#~ "inskrywings kan wees gestoor binnein plaaslike lêers. Die gids waar "
+#~ "hierdie word gestoor binnein is Die eerste in Die lys onder. Dit moet "
+#~ "wees skryfbaar Na jy, sodat $Huis/.cddb/ is aanbeveel."
 
-#: rc.cpp:182
-msgid "Deletes selected server from the list."
-msgstr "Deletes gekose bediener van die lys."
+#~ msgid "CDDB Directories"
+#~ msgstr "Cddb Gidse"
+
+#~ msgid "Main directory (here the files are saved into):"
+#~ msgstr "Hoof gids (hier die lêers word gestoor binnein):"
+
+#~ msgid "Additionally searched directories:"
+#~ msgstr "Additioneel gesoekte gidse:"
+
+#~ msgid ".cddb/"
+#~ msgstr ".cddb/"
+
+#~ msgid ""
+#~ "List all directories where local CDDB entries are also searched. The "
+#~ "first in this list is the directory where entries are saved."
+#~ msgstr ""
+#~ "Lys alle gidse waar plaaslike Cddb inskrywings word asook gesoekte. Die "
+#~ "eerste in hierdie Lys is Die gids waar inskrywings word gestoor."
+
+#~ msgid "CDD&B Server"
+#~ msgstr "Cddb Bediener"
+
+#~ msgid "freedb.freedb.org:8880"
+#~ msgstr "freedb.freedb.org:8880"
+
+#~ msgid "Add a new server here. Scheme: <i>Server:Port</i>"
+#~ msgstr "Voeg by 'n nuwe bediener hier. Skema: <i>bediener:Poort</i>"
+
+#~ msgid "Lists all servers currently selected for song information lookup."
+#~ msgstr "Lyste alle bedieners huidiglik gekose vir liedjie informasie opkyk."
+
+#~ msgid "Adds a server to the list."
+#~ msgstr "Voeg by 'n bediener na die lys."
+
+#~ msgid "Deletes selected server from the list."
+#~ msgstr "Deletes gekose bediener van die lys."
