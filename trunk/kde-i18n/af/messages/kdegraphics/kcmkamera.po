@@ -4,105 +4,185 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-06-15 12:45+0200\n"
-"PO-Revision-Date: 2001-07-27 10:54+0200\n"
+"Project-Id-Version: kcmkamera VERSION\n"
+"POT-Creation-Date: 2002-02-28 02:56+0100\n"
+"PO-Revision-Date: 2002-01-10 09:27+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: kamera.cpp:100
-msgid "Unable to initialize the gPhoto2 libraries..."
-msgstr ""
+#: kamera.cpp:84
+msgid "Unable to initialize the gPhoto2 libraries."
+msgstr "nie moontlik aan inisialiseer die gphoto2 biblioteke."
 
-#: kamera.cpp:112
-msgid "Supported Cameras"
-msgstr ""
+#: kamera.cpp:105
+msgid "Click this button to add a new camera."
+msgstr "kliek hierdie knoppie aan voeg by 'n nuwe kamera."
 
-#: kamera.cpp:126 kamera.cpp:172 kamera.cpp:181
-msgid "Port"
-msgstr "POORT"
-
-#: kamera.cpp:127
-msgid "Port Settings"
-msgstr "POORT INSTELLINGS"
-
-#: kamera.cpp:134
+#: kamera.cpp:108
 msgid "Test"
-msgstr "TOETS"
+msgstr "toets"
 
-#: kamera.cpp:142
-msgid "Use camera previews for Konqueror thumbnails"
-msgstr ""
+#: kamera.cpp:109 kamera.cpp:112
+msgid "Click this button to remove the selected camera from the list."
+msgstr "kliek hierdie knoppie aan verwyder die gekose kamera van die lys."
 
-#: kamera.cpp:147 kamera.cpp:280 kamera.cpp:473
-msgid "serial"
-msgstr "REEKSNOMMER"
-
-#: kamera.cpp:149 kamera.cpp:284 kamera.cpp:479
-msgid "parallel"
-msgstr ""
-
-#: kamera.cpp:151 kamera.cpp:287 kamera.cpp:483
-msgid "USB"
-msgstr "USB"
-
-#: kamera.cpp:153 kamera.cpp:289 kamera.cpp:486
-msgid "IEEE1394"
-msgstr ""
-
-#: kamera.cpp:155 kamera.cpp:291 kamera.cpp:489
-msgid "network"
-msgstr "NETWERK"
-
-#: kamera.cpp:166
-msgid "No port type selected."
-msgstr "GEEN POORT TIPE GEKOSE."
-
-#: kamera.cpp:174
-msgid "Speed"
-msgstr "SPOED"
-
-#: kamera.cpp:187
-msgid "No user defineable settings for USB"
-msgstr ""
-
-#: kamera.cpp:192
-msgid "No user defineable settings for IEEE1394"
-msgstr ""
-
-#: kamera.cpp:198
-msgid "Host"
-msgstr "BEDIENER"
-
-#: kamera.cpp:200
-msgid "port"
-msgstr "POORT"
-
-#: kamera.cpp:430
-msgid "No camera selected!"
-msgstr "GEEN KAMERA GEKOSE!"
-
-#: kamera.cpp:435
-msgid "Could not access driver. Check your gPhoto2 installation."
-msgstr ""
-
-#: kamera.cpp:445
+#: kamera.cpp:115
 msgid ""
-"Unable to initialise camera. Check your port settings and camera "
+"Click this button to change the configuration of the selected "
+"camera."
+"<br>"
+"<br>The availability of this feature and the contents of the Configuration "
+"dialog depend on the camera model."
+msgstr ""
+
+#: kamera.cpp:119
+msgid ""
+"Click this button to view a summary of the current status of the selected "
+"camera."
+"<br>"
+"<br>The availability of this feature and the contents of the Configuration "
+"dialog depend on the camera model."
+msgstr ""
+
+#: kamera.cpp:249
+msgid "Camera test was successful."
+msgstr "kamera toets was suksesvol."
+
+#: kamera.cpp:298
+msgid ""
+"<h1>Kamera Configuration</h1>\n"
+"This module allows you to configure support for your digital camera.\n"
+"You would need to select the camera's model and the port it is connected\n"
+"to on your computer (e.g. USB, Serial, Firewire). If your camera doesn't\n"
+"appear in the list of <i>Supported Cameras</i>, go to the\n"
+"<a href=\"http://www.gphoto.org\">GPhoto web site</a> for a possible "
+"update.<br><br>\n"
+"To view and download images from the digital camera, go to address\n"
+"<a href=\"camera:/\">camera:/</a> in Konqueror and other KDE applications."
+msgstr ""
+
+#: kameradevice.cpp:55
+msgid "Could not allocate memory for abilities list."
+msgstr ""
+
+#: kameradevice.cpp:59
+msgid "Could not load ability list."
+msgstr "kon nie las moontlikheid lys."
+
+#: kameradevice.cpp:64 kameradevice.cpp:399 kameradevice.cpp:419
+msgid ""
+"Description of abilities for camera %1 is not available. Configuration "
+"options may be incorrect."
+msgstr ""
+
+#: kameradevice.cpp:86
+msgid "Could not access driver. Check your gPhoto2 installation."
+msgstr "kon nie toegang verkry drywer. bevestig jou gphoto2 installasie."
+
+#: kameradevice.cpp:106
+msgid ""
+"Unable to initialize camera. Check your port settings and camera "
 "connectivity and try again."
 msgstr ""
+"nie moontlik aan inisialiseer kamera. bevestig jou poort instellings en "
+"kamera koppeling en probeer weer."
 
-#: kameraconfigdialog.cpp:87
-msgid "Choice"
-msgstr "KEUSE"
+#: kameradevice.cpp:130
+msgid ""
+"No camera summary information is available.\n"
+msgstr ""
 
-#: kameraconfigdialog.cpp:109
+#: kameradevice.cpp:143 kameradevice.cpp:153
+msgid "Camera configuration failed."
+msgstr "kamera opstelling gevaal."
+
+#: kameradevice.cpp:188 kameradevice.cpp:289 kameradevice.cpp:369
+msgid "Serial"
+msgstr "reeksnommer"
+
+#: kameradevice.cpp:189 kameradevice.cpp:292 kameradevice.cpp:371
+msgid "USB"
+msgstr "usb"
+
+#: kameradevice.cpp:190
+msgid "Unknown port"
+msgstr "onbekende poort"
+
+#: kameradevice.cpp:247
+msgid "Select camera device"
+msgstr "kies kamera toestel"
+
+#: kameradevice.cpp:262
+msgid "Supported Cameras"
+msgstr "ondersteunde kameras"
+
+#: kameradevice.cpp:279 kameradevice.cpp:307 kameradevice.cpp:314
+msgid "Port"
+msgstr "poort"
+
+#: kameradevice.cpp:281
+msgid "Port Settings"
+msgstr "poort instellings"
+
+#: kameradevice.cpp:291
+msgid ""
+"If this option is checked, the camera would have to be connected one of the "
+"serial ports (known as COM in Microsoft Windows) in your computer."
+msgstr ""
+"as hierdie opsie is nagegaan, die kamera sal het aan wees verbind een van "
+"die reeksnommer poorte (bekend as com in microsoft vensters) in jou rekenaar."
+
+#: kameradevice.cpp:294
+msgid ""
+"If this option is checked, the camera would have to be connected to one of "
+"the USB slots in your computer or USB hub."
+msgstr ""
+
+#: kameradevice.cpp:301
+msgid "No port type selected."
+msgstr "nee poort tipe gekose."
+
+#: kameradevice.cpp:309
+msgid "Here you should choose the serial port you connect the camera to."
+msgstr "hier jy moet kies die reeksnommer poort jy konnekteer die kamera aan."
+
+#: kameradevice.cpp:317
+msgid "No further configuration is required for USB."
+msgstr "nee verdere opstelling is benodig vir usb."
+
+#: kameraconfigdialog.cpp:183
 msgid "Button (not supported by KControl)"
-msgstr ""
+msgstr "knoppie (nie ondersteunde deur kcontrol)"
 
-#: kameraconfigdialog.cpp:112
+#: kameraconfigdialog.cpp:187
 msgid "Date (not supported by KControl)"
-msgstr ""
+msgstr "datum (nie ondersteunde deur kcontrol)"
+
+#~ msgid "Parallel"
+#~ msgstr "parallelle"
+
+#~ msgid "IEEE1394"
+#~ msgstr "ieee1394"
+
+#~ msgid "Network"
+#~ msgstr "netwerk"
+
+#~ msgid ""
+#~ "If this option is checked, the camera would have to be connected to one "
+#~ "of the IEEE1394 (FireWire) ports in your computer."
+#~ msgstr ""
+#~ "as hierdie opsie is nagegaan, die kamera sal het aan wees verbind aan een "
+#~ "van die ieee1394 (firewire) poorte in jou rekenaar."
+
+#~ msgid "Here you should choose the parallel port you connect the camera to."
+#~ msgstr ""
+#~ "hier jy moet kies die parallelle poort jy konnekteer die kamera aan."
+
+#~ msgid "No further configuration is required for IEEE1394."
+#~ msgstr "nee verdere opstelling is benodig vir ieee1394."
+
+#~ msgid "Host"
+#~ msgstr "bediener"
