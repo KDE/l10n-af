@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml VERSION\n"
-"POT-Creation-Date: 2004-07-20 01:20+0200\n"
+"POT-Creation-Date: 2005-01-03 01:39+0100\n"
 "PO-Revision-Date: 2002-11-07 11:28+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,25 +25,33 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: advancedTabDialog.cpp:39
+#: advancedTabDialog.cpp:39 htmlopts.cpp:98
 msgid "Advanced Options"
 msgstr ""
 
-#: appearance.cpp:36
+#: appearance.cpp:33
+msgid ""
+"<h1>Konqueror Fonts</h1>On this page, you can configure which fonts "
+"Konqueror should use to display the web pages you view."
+msgstr ""
+"<h1>Konqueror Skriftipes</h1>Op hierdie bladsy, jy kan konfigureer wat "
+"Skriftipes Konqueror moet gebruik na vertoon die web bladsye jy besigtig."
+
+#: appearance.cpp:43
 msgid "Font Si&ze"
 msgstr "Skrif tipe Grootte"
 
-#: appearance.cpp:39 appearance.cpp:55
+#: appearance.cpp:46 appearance.cpp:62
 msgid "This is the relative font size Konqueror uses to display web sites."
 msgstr ""
 "Hierdie is die relatiewe skrif tipe grootte Konqueror gebruik na vertoon web "
 "tuistes."
 
-#: appearance.cpp:42
+#: appearance.cpp:49
 msgid "M&inimum font size:"
 msgstr "Minimum skrif tipe grootte:"
 
-#: appearance.cpp:46
+#: appearance.cpp:53
 msgid ""
 "Konqueror will never display text smaller than this size,"
 "<br>overriding any other settings"
@@ -51,95 +59,87 @@ msgstr ""
 "Konqueror sal moet nooit vertoon teks kleiner as hierdie "
 "grootte,<br>ignoreer enige ander instellings"
 
-#: appearance.cpp:50
+#: appearance.cpp:57
 msgid "&Medium font size:"
 msgstr "Medium skrif tipe grootte:"
 
-#: appearance.cpp:60
+#: appearance.cpp:67
 msgid "S&tandard font:"
 msgstr "Standaard skrif tipe:"
 
-#: appearance.cpp:68
+#: appearance.cpp:75
 msgid "This is the font used to display normal text in a web page."
 msgstr ""
 "Hierdie is die skrif tipe gebruik word na vertoon normale teks in 'n web "
 "bladsy."
 
-#: appearance.cpp:81
+#: appearance.cpp:88
 msgid "&Fixed font:"
 msgstr "Vasgemaakte skrif tipe:"
 
-#: appearance.cpp:89
+#: appearance.cpp:96
 msgid "This is the font used to display fixed-width (i.e. non-proportional) text."
 msgstr ""
 "Hierdie is die skrif tipe gebruik word na vertoon fixed-width (i.e. "
 "non-proportional) teks."
 
-#: appearance.cpp:102
+#: appearance.cpp:109
 msgid "S&erif font:"
 msgstr "Serif skrif tipe:"
 
-#: appearance.cpp:110
+#: appearance.cpp:117
 msgid "This is the font used to display text that is marked up as serif."
 msgstr ""
 "Hierdie is die skrif tipe gebruik word na vertoon teks wat is gemerkte begin "
 "as serif."
 
-#: appearance.cpp:123
+#: appearance.cpp:130
 msgid "Sa&ns serif font:"
 msgstr "Sans serif skrif tipe:"
 
-#: appearance.cpp:131
+#: appearance.cpp:138
 msgid "This is the font used to display text that is marked up as sans-serif."
 msgstr ""
 "Hierdie is die skrif tipe gebruik word na vertoon teks wat is gemerkte begin "
 "as sans-serif."
 
-#: appearance.cpp:145
+#: appearance.cpp:152
 msgid "C&ursive font:"
 msgstr "Krusiwe skrif tipe:"
 
-#: appearance.cpp:153
+#: appearance.cpp:160
 msgid "This is the font used to display text that is marked up as italic."
 msgstr ""
 "Hierdie is die skrif tipe gebruik word na vertoon teks wat is gemerkte begin "
 "as kursief."
 
-#: appearance.cpp:167
+#: appearance.cpp:174
 msgid "Fantas&y font:"
 msgstr "Fantasie skrif tipe:"
 
-#: appearance.cpp:175
+#: appearance.cpp:182
 msgid "This is the font used to display text that is marked up as a fantasy font."
 msgstr ""
 "Hierdie is die skrif tipe gebruik word na vertoon teks wat is gemerkte begin "
 "as 'n fantasie skrif tipe."
 
-#: appearance.cpp:189
+#: appearance.cpp:196
 msgid "Font &size adjustment for this encoding:"
 msgstr "Skrif tipe grootte verstelling vir hierdie enkodering:"
 
-#: appearance.cpp:201
+#: appearance.cpp:208
 msgid "Default encoding:"
 msgstr "Verstek enkodering:"
 
-#: appearance.cpp:209 appearance.cpp:387
+#: appearance.cpp:216 appearance.cpp:394
 msgid "Use Language Encoding"
 msgstr "Gebruik Taal Enkodering"
 
-#: appearance.cpp:213
+#: appearance.cpp:220
 msgid ""
 "Select the default encoding to be used; normally, you will be fine with 'Use "
 "language encoding' and should not have to change this."
 msgstr ""
-
-#: appearance.cpp:408
-msgid ""
-"<h1>Konqueror Fonts</h1>On this page, you can configure which fonts "
-"Konqueror should use to display the web pages you view."
-msgstr ""
-"<h1>Konqueror Skriftipes</h1>Op hierdie bladsy, jy kan konfigureer wat "
-"Skriftipes Konqueror moet gebruik na vertoon die web bladsye jy besigtig."
 
 #: domainlistview.cpp:47
 msgid "Host/Domain"
@@ -214,40 +214,49 @@ msgstr "Aanvaar"
 msgid "Reject"
 msgstr "Verwerp"
 
-#: htmlopts.cpp:42
+#: htmlopts.cpp:41
+msgid ""
+"<h1>Konqueror Browser</h1> Here you can configure Konqueror's browser "
+"functionality. Please note that the file manager functionality has to be "
+"configured using the \"File Manager\" configuration module. You can make "
+"some settings how Konqueror should handle the HTML code in the web pages it "
+"loads. It is usually not necessary to change anything here."
+msgstr ""
+
+#: htmlopts.cpp:49
 msgid "Boo&kmarks"
 msgstr ""
 
-#: htmlopts.cpp:43
+#: htmlopts.cpp:50
 msgid "Ask for name and folder when adding bookmarks"
 msgstr ""
 
-#: htmlopts.cpp:44
+#: htmlopts.cpp:51
 msgid ""
 "If this box is checked, Konqueror will allow you to change the title of the "
 "bookmark and choose a folder in which to store it when you add a new "
 "bookmark."
 msgstr ""
 
-#: htmlopts.cpp:48
+#: htmlopts.cpp:55
 msgid "Show only marked bookmarks in bookmark toolbar"
 msgstr ""
 
-#: htmlopts.cpp:49
+#: htmlopts.cpp:56
 msgid ""
 "If this box is checked, Konqueror will show only those bookmarks in the "
 "bookmark toolbar which you have marked to do so in the bookmark editor."
 msgstr ""
 
-#: htmlopts.cpp:58
+#: htmlopts.cpp:65
 msgid "Form Com&pletion"
 msgstr "Vorm Voltooiïng"
 
-#: htmlopts.cpp:59
+#: htmlopts.cpp:66
 msgid "Enable completion of &forms"
 msgstr "Aktiveer voltooiïng van vorms"
 
-#: htmlopts.cpp:60
+#: htmlopts.cpp:67
 msgid ""
 "If this box is checked, Konqueror will remember the data you enter in web "
 "forms and suggest it in similar fields for all forms."
@@ -255,23 +264,23 @@ msgstr ""
 "As hierdie boks is nagegaan, Konqueror sal onthou die data jy invoer in web "
 "vorms en voorstel dit in soortgelyk velde vir alle vorms."
 
-#: htmlopts.cpp:65
+#: htmlopts.cpp:72
 msgid "&Maximum completions:"
 msgstr "Maksimum voltooings:"
 
-#: htmlopts.cpp:68
+#: htmlopts.cpp:75
 msgid "Here you can select how many values Konqueror will remember for a form field."
 msgstr "Hier jy kan kies hoe veel waardes Konqueror sal onthou vir 'n vorm veld."
 
-#: htmlopts.cpp:76
+#: htmlopts.cpp:83
 msgid "Tabbed Browsing"
 msgstr ""
 
-#: htmlopts.cpp:79
+#: htmlopts.cpp:86
 msgid "Open &links in new tab instead of in new window"
 msgstr "Open skakel in nuwe oortjie in plaas van van in nuwe venster"
 
-#: htmlopts.cpp:80
+#: htmlopts.cpp:87
 msgid ""
 "This will open a new tab instead of a new window in various situations, such "
 "as choosing a link or a folder with the middle mouse button."
@@ -280,29 +289,25 @@ msgstr ""
 "verskeie situasies, soos as kies 'n skakel of 'n kabinet met die middelste "
 "muis knoppie."
 
-#: htmlopts.cpp:85
+#: htmlopts.cpp:92
 msgid "Hide the tab bar when only one tab is open"
 msgstr ""
 
-#: htmlopts.cpp:86
+#: htmlopts.cpp:93
 msgid ""
 "This will display the tab bar only if there are two or more tabs. Otherwise "
 "it will always be displayed."
 msgstr ""
 
-#: htmlopts.cpp:91
-msgid "Advanced Options..."
-msgstr ""
-
-#: htmlopts.cpp:101
+#: htmlopts.cpp:108
 msgid "Mouse Beha&vior"
 msgstr ""
 
-#: htmlopts.cpp:103
+#: htmlopts.cpp:110
 msgid "Chan&ge cursor over links"
 msgstr "Verander plekaanduier bo skakel"
 
-#: htmlopts.cpp:104
+#: htmlopts.cpp:111
 msgid ""
 "If this option is set, the shape of the cursor will change (usually to a "
 "hand) if it is moved over a hyperlink."
@@ -310,21 +315,21 @@ msgstr ""
 "As hierdie opsie is stel, die vorm van die plekaanduier sal verander "
 "(gewoonlik na 'n hand) As dit is verskuif bo 'n hiperskakel."
 
-#: htmlopts.cpp:108
+#: htmlopts.cpp:115
 msgid "M&iddle click opens URL in selection"
 msgstr ""
 
-#: htmlopts.cpp:110
+#: htmlopts.cpp:117
 msgid ""
 "If this box is checked, you can open the URL in the selection by middle "
 "clicking on a Konqueror view."
 msgstr ""
 
-#: htmlopts.cpp:114
+#: htmlopts.cpp:121
 msgid "Right click goes &back in history"
 msgstr "Regterkant kliek gaan terug in geskiedenis"
 
-#: htmlopts.cpp:116
+#: htmlopts.cpp:123
 msgid ""
 "If this box is checked, you can go back in history by right clicking on a "
 "Konqueror view. To access the context menu, press the right mouse button and "
@@ -334,11 +339,11 @@ msgstr ""
 "regterkant te kliek op 'n Konqueror besigtig. Na toegang verkry die konteks "
 "kieslys, druk die regterkant muis knoppie en beweeg."
 
-#: htmlopts.cpp:125
+#: htmlopts.cpp:132
 msgid "A&utomatically load images"
 msgstr "Automaties las beelde"
 
-#: htmlopts.cpp:126
+#: htmlopts.cpp:133
 msgid ""
 "If this box is checked, Konqueror will automatically load any images that "
 "are embedded in a web page. Otherwise, it will display placeholders for the "
@@ -354,11 +359,31 @@ msgstr ""
 "<br>Tensy jy het 'n baie stadige netwerk verbinding, jy sal waarskynlik wil "
 "hê na bevestig hierdie boks na verbeter jou blaaiïng ervaring."
 
-#: htmlopts.cpp:131
+#: htmlopts.cpp:138
+msgid "Dra&w frame around not completely loaded images"
+msgstr ""
+
+#: htmlopts.cpp:139
+#, fuzzy
+msgid ""
+"If this box is checked, Konqueror will draw a frame as placeholder around "
+"not yet fully loaded images that are embedded in a web page."
+"<br>"
+"Especially if you have a slow network connection, you will probably want to "
+"check this box to enhance your browsing experience."
+msgstr ""
+"As hierdie boks is nagegaan, Konqueror sal automaties las enige beelde wat "
+"word ingebedde in 'n web bladsy. Andersins, dit sal vertoon plekhouers vir "
+"die beelde, en jy kan dan word eiehandig las die beelde deur te kliek op die "
+"beeld knoppie."
+"<br>Tensy jy het 'n baie stadige netwerk verbinding, jy sal waarskynlik wil "
+"hê na bevestig hierdie boks na verbeter jou blaaiïng ervaring."
+
+#: htmlopts.cpp:144
 msgid "Allow automatic delayed &reloading/redirecting"
 msgstr "Toelaat automaties vertraag herlaai/hersend"
 
-#: htmlopts.cpp:133
+#: htmlopts.cpp:146
 msgid ""
 "Some web pages request an automatic reload or redirection after a certain "
 "period of time. By unchecking this box Konqueror will ignore these requests."
@@ -367,27 +392,27 @@ msgstr ""
 "sekere periode van tyd. Deur aftik hierdie boks Konqueror sal ignoreer "
 "hierdie versoeke."
 
-#: htmlopts.cpp:145
+#: htmlopts.cpp:158
 msgid "Und&erline links:"
 msgstr "Onderstreep skakel:"
 
-#: htmlopts.cpp:148
+#: htmlopts.cpp:161
 msgid ""
 "_: underline\n"
 "Enabled"
 msgstr ""
 
-#: htmlopts.cpp:149
+#: htmlopts.cpp:162
 msgid ""
 "_: underline\n"
 "Disabled"
 msgstr ""
 
-#: htmlopts.cpp:150
+#: htmlopts.cpp:163
 msgid "Only on Hover"
 msgstr "Slegs op Sweef"
 
-#: htmlopts.cpp:154
+#: htmlopts.cpp:167
 msgid ""
 "Controls how Konqueror handles underlining "
 "hyperlinks:"
@@ -409,27 +434,27 @@ msgstr ""
 "skakel</li></ul>"
 "<br><i>Nota: die tuiste is Css definisies kan oorskryf hierdie waarde</i>"
 
-#: htmlopts.cpp:165
+#: htmlopts.cpp:178
 msgid "A&nimations:"
 msgstr "Animasie:"
 
-#: htmlopts.cpp:168
+#: htmlopts.cpp:181
 msgid ""
 "_: animations\n"
 "Enabled"
 msgstr ""
 
-#: htmlopts.cpp:169
+#: htmlopts.cpp:182
 msgid ""
 "_: animations\n"
 "Disabled"
 msgstr ""
 
-#: htmlopts.cpp:170
+#: htmlopts.cpp:183
 msgid "Show Only Once"
 msgstr "Vertoon Slegs As eers"
 
-#: htmlopts.cpp:174
+#: htmlopts.cpp:187
 msgid ""
 "Controls how Konqueror shows animated images:"
 "<br>"
@@ -451,16 +476,7 @@ msgstr ""
 "<li><b>Vertoon slegs as eers</b>: Vertoon alle animasie heeltemal maar doen "
 "nie herhaal hulle.</li>"
 
-#: htmlopts.cpp:342
-msgid ""
-"<h1>Konqueror Browser</h1> Here you can configure Konqueror's browser "
-"functionality. Please note that the file manager functionality has to be "
-"configured using the \"File Manager\" configuration module. You can make "
-"some settings how Konqueror should handle the HTML code in the web pages it "
-"loads. It is usually not necessary to change anything here."
-msgstr ""
-
-#: javaopts.cpp:62 jsopts.cpp:48 pluginopts.cpp:59
+#: javaopts.cpp:62 jsopts.cpp:48 pluginopts.cpp:58
 msgid "Global Settings"
 msgstr "Globale Instellings"
 
@@ -638,7 +654,7 @@ msgstr ""
 "proses wat loop vir die volledige tyd wat die konqueror proses is, los die "
 "Afskakel miniprogram bediener keuseblokkie onbevestig."
 
-#: javaopts.cpp:297 pluginopts.cpp:601
+#: javaopts.cpp:297 pluginopts.cpp:628
 msgid "Doma&in-Specific"
 msgstr "Domain-Specific"
 
@@ -754,27 +770,27 @@ msgstr ""
 msgid "Global JavaScript Policies"
 msgstr "Nuwe Javaskrip Beleid"
 
-#: jsopts.cpp:174
+#: jsopts.cpp:169
 msgid "Do&main-Specific"
 msgstr "Domain-Specific"
 
-#: jsopts.cpp:210
+#: jsopts.cpp:205
 msgid "New JavaScript Policy"
 msgstr "Nuwe Javaskrip Beleid"
 
-#: jsopts.cpp:213
+#: jsopts.cpp:208
 msgid "Change JavaScript Policy"
 msgstr "Verander Javaskrip Beleid"
 
-#: jsopts.cpp:217
+#: jsopts.cpp:212
 msgid "JavaScript policy:"
 msgstr "Javaskrip beleid:"
 
-#: jsopts.cpp:218
+#: jsopts.cpp:213
 msgid "Select a JavaScript policy for the above host or domain."
 msgstr "Kies 'n Javaskrip beleid vir die boonste bediener of domein."
 
-#: jsopts.cpp:220
+#: jsopts.cpp:215
 #, fuzzy
 msgid "Domain-Specific JavaScript Policies"
 msgstr "Verander Javaskrip Beleid"
@@ -999,26 +1015,31 @@ msgstr ""
 "Konqueror laat toe jy na spesifiseer baie fine-grained van wat bedieners jy "
 "wil hê na uitvoer Java en/of Javaskrip programme."
 
-#: pluginopts.cpp:61
+#: pluginopts.cpp:60
 #, fuzzy
 msgid "&Enable plugins globally"
 msgstr "Aktiveer inprop modules globaal"
 
-#: pluginopts.cpp:62
+#: pluginopts.cpp:61
 msgid "Only allow &HTTP and HTTPS URLs for plugins"
 msgstr ""
 
-#: pluginopts.cpp:74
+#: pluginopts.cpp:62 pluginopts.cpp:167
+#, c-format
+msgid "CPU priority for plugins: %1"
+msgstr ""
+
+#: pluginopts.cpp:77
 #, fuzzy
 msgid "Domain-Specific Settin&gs..."
 msgstr "Domain-Specific"
 
-#: pluginopts.cpp:80 pluginopts.cpp:568
+#: pluginopts.cpp:83 pluginopts.cpp:595
 #, fuzzy
 msgid "Domain-Specific Policies"
 msgstr "Verander Javaskrip Beleid"
 
-#: pluginopts.cpp:92
+#: pluginopts.cpp:95
 msgid ""
 "Enables the execution of plugins that can be contained in HTML pages, e.g. "
 "Macromedia Flash. Note that, as with any browser, enabling active contents "
@@ -1028,7 +1049,7 @@ msgstr ""
 "bladsye, e.g. Macromedia Flash. Nota wat, as met enige blaaier, aktiveer "
 "aktief inhoud kan wees 'n sekuriteit probleem."
 
-#: pluginopts.cpp:96
+#: pluginopts.cpp:99
 #, fuzzy
 msgid ""
 "This box contains the domains and hosts you have set a specific plugin "
@@ -1042,7 +1063,7 @@ msgstr ""
 "gestuur deur hierdie domein of bedieners. "
 "<p>Kies 'n beleid en gebruik die kontroles op die regterkant na verander dit."
 
-#: pluginopts.cpp:102
+#: pluginopts.cpp:105
 #, fuzzy
 msgid ""
 "Click this button to choose the file that contains the plugin policies. "
@@ -1053,7 +1074,7 @@ msgstr ""
 "beleid sal wees saamgevlans met die bestaande ene. Duplikaat inskrywings "
 "word geignoreer."
 
-#: pluginopts.cpp:105
+#: pluginopts.cpp:108
 #, fuzzy
 msgid ""
 "Click this button to save the plugin policy to a zipped file. The file, "
@@ -1063,7 +1084,7 @@ msgstr ""
 "lêer, genaamd <b>java_policy.tgz</b>, sal wees gestoor na 'n ligging van "
 "jou keuse."
 
-#: pluginopts.cpp:108
+#: pluginopts.cpp:111
 #, fuzzy
 msgid ""
 "Here you can set specific plugin policies for any particular host or domain. "
@@ -1082,11 +1103,41 @@ msgstr ""
 "<i>Uitvee</i> knoppie sal verwyder die gekose beleid veroorsaak dat die "
 "verstek beleid opset Na wees gebruik word vir wat domein."
 
-#: pluginopts.cpp:123 pluginopts.cpp:498
+#: pluginopts.cpp:126 pluginopts.cpp:525
 msgid "Netscape Plugins"
 msgstr "Netscape Inprop modules"
 
-#: pluginopts.cpp:237
+#: pluginopts.cpp:156
+msgid ""
+"_: lowest priority\n"
+"lowest"
+msgstr ""
+
+#: pluginopts.cpp:158
+msgid ""
+"_: low priority\n"
+"low"
+msgstr ""
+
+#: pluginopts.cpp:160
+msgid ""
+"_: medium priority\n"
+"medium"
+msgstr ""
+
+#: pluginopts.cpp:162
+msgid ""
+"_: high priority\n"
+"high"
+msgstr ""
+
+#: pluginopts.cpp:164
+msgid ""
+"_: highest priority\n"
+"highest"
+msgstr ""
+
+#: pluginopts.cpp:264
 msgid ""
 "<h1>Konqueror Plugins</h1> The Konqueror web browser can use Netscape "
 "plugins to show special content, just like the Navigator does. Please note "
@@ -1100,7 +1151,7 @@ msgstr ""
 "Inprop modules dalk mag hang af op jou verspreiding. 'n tipies plek na "
 "installeer hulle is, vir voorbeeld, '/opt/netscape/Inprop modules'."
 
-#: pluginopts.cpp:262
+#: pluginopts.cpp:289
 msgid ""
 "Do you want to apply your changes before the scan? Otherwise the changes "
 "will be lost."
@@ -1108,7 +1159,7 @@ msgstr ""
 "Doen jy wil hê na wend aan jou verander voor die skandeer? Andersins die "
 "verander sal wees verloor."
 
-#: pluginopts.cpp:277
+#: pluginopts.cpp:304
 msgid ""
 "The nspluginscan executable cannot be found. Netscape plugins will not be "
 "scanned."
@@ -1116,47 +1167,47 @@ msgstr ""
 "Die nsplugin-skandering uitvoerbare kan nie wees gevind. Netscape inprop "
 "modules sal nie wees geskandeer."
 
-#: pluginopts.cpp:283
+#: pluginopts.cpp:310
 msgid "Scanning for plugins"
 msgstr "Skandering vir inprop modules"
 
-#: pluginopts.cpp:325
+#: pluginopts.cpp:352
 #, fuzzy
 msgid "Select Plugin Scan Folder"
 msgstr "Kies Inplak Skandeer Gids"
 
-#: pluginopts.cpp:521
+#: pluginopts.cpp:548
 msgid "Plugin"
 msgstr "Inplak"
 
-#: pluginopts.cpp:538
+#: pluginopts.cpp:565
 msgid "MIME type"
 msgstr "Mime tipe"
 
-#: pluginopts.cpp:543
+#: pluginopts.cpp:570
 msgid "Description"
 msgstr "Beskrywing"
 
-#: pluginopts.cpp:548
+#: pluginopts.cpp:575
 msgid "Suffixes"
 msgstr "Agtervoegsels"
 
-#: pluginopts.cpp:613
+#: pluginopts.cpp:640
 #, fuzzy
 msgid "New Plugin Policy"
 msgstr "Nuwe Java Beleid"
 
-#: pluginopts.cpp:616
+#: pluginopts.cpp:643
 #, fuzzy
 msgid "Change Plugin Policy"
 msgstr "Verander Java Beleid"
 
-#: pluginopts.cpp:620
+#: pluginopts.cpp:647
 #, fuzzy
 msgid "&Plugin policy:"
 msgstr "Java beleid:"
 
-#: pluginopts.cpp:621
+#: pluginopts.cpp:648
 #, fuzzy
 msgid "Select a plugin policy for the above host or domain."
 msgstr "Kies 'n Java beleid vir die boonste bediener of domein."
@@ -1178,39 +1229,46 @@ msgstr ""
 msgid "You must first enter a domain name."
 msgstr "Jy moet eerste invoer 'n domein naam!"
 
-#: rc.cpp:2
+#. i18n: file advancedTabOptions.ui line 27
+#: rc.cpp:3
 #, no-c-format
 msgid "<b>Advanced Options</b>"
 msgstr ""
 
-#: rc.cpp:4
+#. i18n: file advancedTabOptions.ui line 57
+#: rc.cpp:6
 #, fuzzy, no-c-format
 msgid "O&pen new tabs in the background"
 msgstr "Hierdie sal open 'n nuwe oortjie in voor andersins as agtergrond oortjie."
 
-#: rc.cpp:6
+#. i18n: file advancedTabOptions.ui line 60
+#: rc.cpp:9
 #, fuzzy, no-c-format
 msgid "This will open a new tab in the background, instead of in the foreground."
 msgstr "Hierdie sal open 'n nuwe oortjie in voor andersins as agtergrond oortjie."
 
-#: rc.cpp:8
+#. i18n: file advancedTabOptions.ui line 68
+#: rc.cpp:12
 #, fuzzy, no-c-format
 msgid "Open &new tab after current tab"
 msgstr "Hierdie sal open 'n nuwe oortjie in voor andersins as agtergrond oortjie."
 
-#: rc.cpp:10
+#. i18n: file advancedTabOptions.ui line 71
+#: rc.cpp:15
 #, fuzzy, no-c-format
 msgid ""
-"This will open a new tab after the current tab, instead of after the last "
-"tab."
+"This will open a new tab opened from a page after the current tab, instead "
+"of after the last tab."
 msgstr "Hierdie sal open 'n nuwe oortjie in voor andersins as agtergrond oortjie."
 
-#: rc.cpp:12
+#. i18n: file advancedTabOptions.ui line 79
+#: rc.cpp:18
 #, no-c-format
 msgid "Confirm &when closing windows with multiple tabs"
 msgstr "Bevestig wanneer maak toe vensters met veelvuldige oortjies"
 
-#: rc.cpp:14
+#. i18n: file advancedTabOptions.ui line 82
+#: rc.cpp:21
 #, no-c-format
 msgid ""
 "This will ask you whether you are sure you want to close a window when it "
@@ -1219,46 +1277,54 @@ msgstr ""
 "Hierdie sal vra jy hetsy jy word seker jy wil hê na maak toe 'n venster "
 "wanneer dit het veelvuldige oortjies geöpende in dit."
 
-#: rc.cpp:16
+#. i18n: file advancedTabOptions.ui line 90
+#: rc.cpp:24
 #, no-c-format
 msgid "&Show close button instead of website icon"
 msgstr ""
 
-#: rc.cpp:18
+#. i18n: file advancedTabOptions.ui line 93
+#: rc.cpp:27
 #, no-c-format
 msgid "This will display close buttons inside each tab instead of websites' icons."
 msgstr ""
 
-#: rc.cpp:20
+#. i18n: file advancedTabOptions.ui line 101
+#: rc.cpp:30
 #, fuzzy, no-c-format
 msgid "Open pop&ups in new tab instead of in new window"
 msgstr "Open skakel in nuwe oortjie in plaas van van in nuwe venster"
 
-#: rc.cpp:22
+#. i18n: file advancedTabOptions.ui line 104
+#: rc.cpp:33
 #, no-c-format
 msgid ""
 "Whether or not JavaScript popups if allowed shall open in a new tab or in a "
 "new window."
 msgstr ""
 
-#: rc.cpp:24
+#. i18n: file advancedTabOptions.ui line 112
+#: rc.cpp:36
 #, no-c-format
 msgid "Activate previous used tab when closing the current tab"
 msgstr ""
 
-#: rc.cpp:26
+#. i18n: file advancedTabOptions.ui line 115
+#: rc.cpp:39
 #, no-c-format
 msgid ""
 "When checking this the previous used or opened tab will be activated when "
 "you close the current active tab instead of the one right to the current tab."
 msgstr ""
 
-#: rc.cpp:28
+#. i18n: file advancedTabOptions.ui line 123
+#: rc.cpp:42
 #, no-c-format
 msgid "Open as tab in existing Konqueror when URL is called externally"
 msgstr ""
 
-#: rc.cpp:30
+#. i18n: file advancedTabOptions.ui line 126
+#: rc.cpp:45
 #, no-c-format
 msgid ""
 "When you click a URL in another KDE program or call kfmclient to open a URL, "
@@ -1267,32 +1333,38 @@ msgid ""
 "window will be opened with the required URL."
 msgstr ""
 
-#: rc.cpp:32
+#. i18n: file nsconfigwidget.ui line 17
+#: rc.cpp:48
 #, no-c-format
 msgid "Netscape Plugin Config"
 msgstr "Netscape Inplak Opstelling"
 
-#: rc.cpp:34
+#. i18n: file nsconfigwidget.ui line 40
+#: rc.cpp:51
 #, no-c-format
 msgid "Scan"
 msgstr "Skandeer"
 
-#: rc.cpp:36
+#. i18n: file nsconfigwidget.ui line 59
+#: rc.cpp:54
 #, no-c-format
 msgid "&Scan for New Plugins"
 msgstr "Skandeer vir Nuwe Inprop modules"
 
-#: rc.cpp:38
+#. i18n: file nsconfigwidget.ui line 62
+#: rc.cpp:57
 #, no-c-format
 msgid "Click here to scan for newly installed Netscape plugins now."
 msgstr "Kliek hier na skandeer vir nuwe geïnstalleer Netscape inprop modules nou."
 
-#: rc.cpp:40
+#. i18n: file nsconfigwidget.ui line 89
+#: rc.cpp:60
 #, no-c-format
 msgid "Scan for new plugins at &KDE startup"
 msgstr "Skandeer vir nuwe inprop modules na Kde opstart"
 
-#: rc.cpp:42
+#. i18n: file nsconfigwidget.ui line 92
+#: rc.cpp:63
 #, no-c-format
 msgid ""
 "If this option is enabled, KDE will look for new Netscape plugins every time "
@@ -1306,42 +1378,50 @@ msgstr ""
 "opstart. jy dalk wil hê na deaktiveer hierdie opsie, in besonder As jy "
 "selde installeer inprop modules."
 
-#: rc.cpp:44
+#. i18n: file nsconfigwidget.ui line 106
+#: rc.cpp:66
 #, no-c-format
 msgid "Scan Folders"
 msgstr ""
 
-#: rc.cpp:48
+#. i18n: file nsconfigwidget.ui line 128
+#: rc.cpp:72
 #, no-c-format
 msgid "&New"
 msgstr "Nuwe"
 
-#: rc.cpp:50
+#. i18n: file nsconfigwidget.ui line 150
+#: rc.cpp:75
 #, no-c-format
 msgid "Do&wn"
 msgstr "Ondertoe"
 
-#: rc.cpp:52
+#. i18n: file nsconfigwidget.ui line 161
+#: rc.cpp:78
 #, no-c-format
 msgid "&Up"
 msgstr "Begin"
 
-#: rc.cpp:54
+#. i18n: file nsconfigwidget.ui line 203
+#: rc.cpp:81
 #, no-c-format
 msgid "Plugins"
 msgstr "Inprop modules"
 
-#: rc.cpp:58
+#. i18n: file nsconfigwidget.ui line 223
+#: rc.cpp:87
 #, no-c-format
 msgid "Value"
 msgstr "Waarde"
 
-#: rc.cpp:60
+#. i18n: file nsconfigwidget.ui line 239
+#: rc.cpp:90
 #, no-c-format
 msgid "Here you can see a list of the Netscape plugins KDE has found."
 msgstr "Hier jy kan sien 'n lys van die Netscape inprop modules Kde het gevind."
 
-#: rc.cpp:62
+#. i18n: file nsconfigwidget.ui line 250
+#: rc.cpp:93
 #, no-c-format
 msgid "Use a&rtsdsp to pipe plugin sound through aRts"
 msgstr "Gebruik artsdsp na pyp inplak klank deur Arts"
