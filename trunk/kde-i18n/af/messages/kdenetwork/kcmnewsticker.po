@@ -4,22 +4,22 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-07-16 18:18+0200\n"
-"PO-Revision-Date: 2001-07-27 10:54+0200\n"
+"Project-Id-Version: kcmnewsticker VERSION\n"
+"POT-Creation-Date: 2002-03-01 03:10+0100\n"
+"PO-Revision-Date: 2002-01-10 09:28+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: kcmnewsticker.cpp:126
+#: kcmnewsticker.cpp:121
 msgid "News query interval:"
-msgstr "NUUS NAVRAAG INTERVAL:"
+msgstr "nuus navraag interval:"
 
 #: kcmnewsticker.cpp:184 kcmnewsticker.cpp:271 rc.cpp:61
 msgid "all news sources"
-msgstr "ALLE NUUS BRONKODES"
+msgstr "alle nuus bronkodes"
 
 #: kcmnewsticker.cpp:304
 msgid ""
@@ -29,104 +29,135 @@ msgid ""
 "news sources which KNewsTicker will query for new articles or setup filters."
 msgstr ""
 
-#: kcmnewsticker.cpp:360
+#: ../common/newsengine.cpp:85 kcmnewsticker.cpp:332
+msgid "Unknown"
+msgstr "onbekende"
+
+#: kcmnewsticker.cpp:344
+#, c-format
+msgid "Unknown %1"
+msgstr "onbekende %1"
+
+#: kcmnewsticker.cpp:417
+#, fuzzy
 msgid ""
-"Do you really want to remove the news source '%1'?<br><br>Press 'Yes' to "
-"remove the news source from the list, press 'No' to keep it and close this "
-"dialog."
+"<p>Do you really want to remove these %1 news source(s)?</p>"
+"<p>Press 'Yes' to remove the news source from the list, press 'No' to keep "
+"it and close this dialog.</p>"
 msgstr ""
+"doen jy rerig wil hê aan verwyder hierdie %1 nuus bron(s)?"
+"<br>"
+"<br>"
+"druk 'Yes' aan verwyder die nuus bron van die lys, druk 'No' aan hou dit en "
+"maak toe hierdie dialoog."
 
-#: kcmnewsticker.cpp:380
+#: kcmnewsticker.cpp:442
+#, fuzzy
 msgid ""
-"Do you really want to remove the selected filter?<br><br>Press 'Yes' to "
-"remove the filter from the list, press 'No' to keep it and close this dialog."
+"<p>Do you really want to remove the selected filter?</p>"
+"<p>"
+"Press 'Yes' to remove the filter from the list, press 'No' to keep it and "
+"close this dialog.</p>"
 msgstr ""
+"doen jy rerig wil hê aan verwyder die gekose filter?"
+"<br>"
+"<br>"
+"druk 'Yes' aan verwyder die filter van die lys, druk 'No' aan hou dit en "
+"maak toe hierdie dialoog."
 
-#: kcmnewsticker.cpp:401
-msgid "Edit news source"
-msgstr "REDIGEER NUUS BRON"
+#: kcmnewsticker.cpp:463
+msgid "Edit News Source"
+msgstr "redigeer nuus bron"
 
-#: kcmnewsticker.cpp:402
-msgid "&Add news source"
-msgstr "&VOEG BY NUUS BRON"
+#: kcmnewsticker.cpp:464
+msgid "&Add News Source"
+msgstr "voeg by nuus bron"
 
-#: kcmnewsticker.cpp:404
+#: kcmnewsticker.cpp:466
 msgid "&Modify '%1'"
-msgstr "&VERANDER '%1'"
+msgstr "verander '%1'"
 
-#: kcmnewsticker.cpp:405
+#: kcmnewsticker.cpp:468
 msgid "&Remove '%1'"
-msgstr "&VERWYDER '%1'"
+msgstr "verwyder '%1'"
 
-#: kcmnewsticker.cpp:407
+#: kcmnewsticker.cpp:470
+msgid "&Remove news sources"
+msgstr "verwyder nuus bronkodes"
+
+#: kcmnewsticker.cpp:473
 msgid "&Modify news source"
-msgstr "&VERANDER NUUS BRON"
+msgstr "verander nuus bron"
 
-#: kcmnewsticker.cpp:408
+#: kcmnewsticker.cpp:474
 msgid "&Remove news source"
-msgstr "&VERWYDER NUUS BRON"
+msgstr "verwyder nuus bron"
 
-#: newssourcedlgimpl.cpp:70
+#: newssourcedlgimpl.cpp:62
 msgid "You have to specify a name for this news source to be able to use it!"
 msgstr ""
-"JY HE AAN SPESIFISEER 'N NAAM VIR HIERDIE NUUS BRON AAN WEES IN STAAT AAN "
-"GEBRUIK DIT!"
+"jy het aan spesifiseer 'n naam vir hierdie nuus bron aan wees in staat aan "
+"gebruik dit!"
 
-#: newssourcedlgimpl.cpp:71
+#: newssourcedlgimpl.cpp:63
 msgid "No name specified"
-msgstr "GEEN NAAM GESPESIFISEER"
+msgstr "nee naam gespesifiseer"
 
-#: newssourcedlgimpl.cpp:117
-msgid "Fetching news source data..."
+#: newssourcedlgimpl.cpp:109
+msgid "Fetching News Source Data..."
+msgstr "terwyl gaan haal nuus bron data..."
+
+#: newssourcedlgimpl.cpp:141
+msgid "Edit News Source..."
+msgstr "redigeer nuus bron..."
+
+#: newssourcedlgimpl.cpp:194
+msgid "Couldn't retrieve the specified source file!"
 msgstr ""
 
-#: newssourcedlgimpl.cpp:148
-msgid "Edit news source..."
-msgstr "REDIGEER NUUS BRON..."
-
-#: newssourcedlgimpl.cpp:200
-msgid "Couldn't retrieve the specified source file!"
-msgstr "Couldn't ONTTREK DIE GESPESIFISEER BRON LêER!"
-
-#: newssourcedlgimpl.cpp:226
+#: newssourcedlgimpl.cpp:220
 msgid ""
 "You have to specify the source file for this news source to be able to use "
 "it!"
 msgstr ""
+"jy het aan spesifiseer die bron lêer vir hierdie nuus bron aan wees in "
+"staat aan gebruik dit!"
+
+#: newssourcedlgimpl.cpp:221
+msgid "No source file specified"
+msgstr "nee bron lêer gespesifiseer"
 
 #: newssourcedlgimpl.cpp:227
-msgid "No source file specified"
-msgstr "GEEN BRON LêER GESPESIFISEER"
-
-#: newssourcedlgimpl.cpp:233
 msgid ""
 "KNewsTicker needs a valid RDF or RSS file to suggest sensible values. The "
 "specified source file is invalid."
 msgstr ""
+"k-nuustikker verlang 'n geldige rdf of rss lêer aan voorstel redelik "
+"waardes. die gespesifiseer bron lêer is ongeldige."
 
-#: newssourcedlgimpl.cpp:235
+#: newssourcedlgimpl.cpp:229
 msgid "Invalid source file"
-msgstr "ONGELDIGE BRON LêER"
+msgstr "ongeldige bron lêer"
 
 #: rc.cpp:1
 msgid "KCMNewsTickerWidget"
-msgstr ""
+msgstr "kcmnewstickerwidget"
 
 #: rc.cpp:2 rc.cpp:3
 msgid "General"
-msgstr "ALGEMEEN"
+msgstr "algemeen"
 
 #: rc.cpp:4
 msgid " minutes"
-msgstr ""
+msgstr " minute"
 
 #: rc.cpp:5
 msgid "Never"
-msgstr "MOET NOOIT"
+msgstr "moet nooit"
 
 #: rc.cpp:6
 msgid "Interval of news queries"
-msgstr ""
+msgstr "interval van nuus navrae"
 
 #: rc.cpp:7
 msgid ""
@@ -153,33 +184,35 @@ msgstr ""
 
 #: rc.cpp:8
 msgid "Nonsensitive"
-msgstr ""
+msgstr "onsensitief"
 
 #: rc.cpp:9 rc.cpp:11 rc.cpp:14 rc.cpp:17
 msgid "Mousewheel sensitivity"
-msgstr ""
+msgstr "muis wiel sensitiwiteit"
 
 #: rc.cpp:10 rc.cpp:12 rc.cpp:15 rc.cpp:18
 msgid ""
 "This slider allows you to define how fast/slow the text should be scrolled "
 "when using the mousewheel."
 msgstr ""
+"hierdie skuiwer laat toe jy aan definieer hoe vinnige/stadige die teks moet "
+"wees gerol wanneer te gebruik die muis wiel."
 
 #: rc.cpp:13
 msgid "Sensitive"
-msgstr "SENSITIEF"
+msgstr "sensitief"
 
 #: rc.cpp:16
 msgid "&Mousewheel sensitivity:"
-msgstr ""
+msgstr "muis wiel sensitiwiteit:"
 
 #: rc.cpp:19
 msgid "&Temporarily slowed scrolling"
-msgstr ""
+msgstr "tydelik verstadig rolling"
 
 #: rc.cpp:20
 msgid "Slow the scrolling down when mouse points at the scroller"
-msgstr ""
+msgstr "stadige die rolling ondertoe wanneer muis punte na die roller"
 
 #: rc.cpp:21
 msgid ""
@@ -187,50 +220,62 @@ msgid ""
 "mouse cursor over the scrolling text. This makes clicking on items and "
 "dragging the icons (if enabled) away a lot easier."
 msgstr ""
+"bevestig hierdie boks aan maak k-nuustikker stadige die rolling ondertoe "
+"wanneer jy beweeg die muis plekaanduier bo die rolling teks. hierdie maak te "
+"kliek op iteme en te trek die ikoone (as geaktiveer) weg 'n baie makliker."
 
 #: rc.cpp:22
 msgid "&Use custom names for news sites"
-msgstr "&GEBRUIK PASMAAK NAME VIR NUUS TUISTES"
+msgstr "gebruik pasmaak name vir nuus tuistes"
 
 #: rc.cpp:23
 msgid "Use the names defined in the list of news sources"
-msgstr "GEBRUIK DIE NAME GEDEFINIEëR IN DIE LYS VAN NUUS BRONKODES"
+msgstr "gebruik die name gedefinieër in die lys van nuus bronkodes"
 
 #: rc.cpp:24
 msgid ""
 "Check this box to make the news ticker use the names you specified in the "
 "list of news sources (available on the tab labelled <i>News sources</i>) "
-"instead of the ones the news sites themselves report.<br>This can be handy "
-"for news sites which report a very long or useless name."
+"instead of the ones the news sites themselves report."
+"<br>This can be handy for news sites which report a very long or useless "
+"name."
 msgstr ""
+"bevestig hierdie boks aan maak die nuus tikker gebruik die naam jy "
+"gespesifiseer in die lys van nuus bronkodes (beskikbaar op die oortjie "
+"geëtiketeer <i>nuus bronkodes</i>) in plaas van van die ene die nuus "
+"tuistes hulleself raporteer."
+"<br>hierdie kan wees nuttig vir nuus tuistes wat raporteer 'n baie lang of "
+"nutteloos naam."
 
 #: rc.cpp:25
-msgid "News sources"
-msgstr "NUUS BRONKODES"
+#, fuzzy
+msgid "News Sources"
+msgstr "nuus bronkodes"
 
 #: rc.cpp:26
 msgid "Name of site"
-msgstr "NAAM VAN TUISTE"
+msgstr "naam van tuiste"
 
 #: rc.cpp:27
 msgid "Source file"
-msgstr "BRON LêER"
+msgstr "bron lêer"
 
 #: rc.cpp:28
 msgid "Max. articles"
-msgstr ""
+msgstr "max. aktikels"
 
 #: rc.cpp:29
 msgid "News sources to be queried"
-msgstr ""
+msgstr "nuus bronkodes aan wees bevraag"
 
 #: rc.cpp:30
 msgid ""
 "This list lets you manage the list of news sites the news ticker will query "
 "for headlines. The news sources are arranged in a tree-like hierarchy and "
-"sorted by topic.<br>The column labelled \"Max. articles\" shows how many "
-"articles will be cached for the news sites (read: how many articles will be "
-"accessible through the context menu).<ul>\n"
+"sorted by topic."
+"<br>The column labelled \"Max. articles\" shows how many articles will be "
+"cached for the news sites (read: how many articles will be accessible "
+"through the context menu).<ul>\n"
 "<li>To add a site, you can either drag the URL of the RDF or RSS file to "
 "this list from Konqueror or any other application, or use the <i>Add...</i> "
 "button in the bottom right corner.</li>\n"
@@ -247,39 +292,43 @@ msgstr ""
 
 #: rc.cpp:31 rc.cpp:49
 msgid "R&emove"
-msgstr "R&emove"
+msgstr "verwyder"
 
 #: rc.cpp:32
 msgid "Remove selected site"
-msgstr "VERWYDER GEKOSE TUISTE"
+msgstr "verwyder gekose tuiste"
 
 #: rc.cpp:33
 msgid "Click this button to remove the currently selected news site from the list."
 msgstr ""
-"KLIEK HIERDIE KNOPPIE AAN VERWYDER DIE HUIDIGLIK GEKOSE NUUS TUISTE VAN DIE "
-"LYS."
+"kliek hierdie knoppie aan verwyder die huidiglik gekose nuus tuiste van die "
+"lys."
 
 #: rc.cpp:34
-msgid "A&dd..."
-msgstr "A&dd..."
+#, fuzzy
+msgid "Add..."
+msgstr "voeg by..."
 
 #: rc.cpp:35
 msgid "Add a new site"
-msgstr "VOEG BY 'N NUWE TUISTE"
+msgstr "voeg by 'n nuwe tuiste"
 
 #: rc.cpp:36
 msgid ""
 "Click this button to add a new site to the list. Note that you can also drag "
 "a RDF or RSS file to this list (i.e. from Konqueror) to add it to the list."
 msgstr ""
+"kliek hierdie knoppie aan voeg by 'n nuwe tuiste aan die lys. nota wat jy "
+"kan asook trek 'n rdf of rss lêer aan hierdie lys (i.e. van konqueror) aan "
+"voeg by dit aan die lys."
 
 #: rc.cpp:37
 msgid "&Modify..."
-msgstr "&VERANDER..."
+msgstr "verander..."
 
 #: rc.cpp:38
 msgid "Modify selected news source"
-msgstr "VERANDER GEKOSE NUUS BRON"
+msgstr "verander gekose nuus bron"
 
 #: rc.cpp:39
 msgid ""
@@ -290,27 +339,27 @@ msgstr ""
 
 #: rc.cpp:40
 msgid "Filters"
-msgstr "FILTERS"
+msgstr "filters"
 
 #: rc.cpp:41
 msgid "Action"
-msgstr "AKSIE"
+msgstr "aksie"
 
 #: rc.cpp:43
 msgid "affects"
-msgstr "AFFEKTEER"
+msgstr "affekteer"
 
 #: rc.cpp:45
 msgid "condition"
-msgstr ""
+msgstr "kondisie"
 
 #: rc.cpp:46
 msgid "expression"
-msgstr "UITDRUKKING"
+msgstr "uitdrukking"
 
 #: rc.cpp:47
 msgid "Currently configured filters"
-msgstr "HUIDIGLIK GEKONFIGUREER FILTERS"
+msgstr "huidiglik gekonfigureer filters"
 
 #: rc.cpp:48
 msgid ""
@@ -335,53 +384,57 @@ msgstr ""
 
 #: rc.cpp:50
 msgid "Remove selected filter"
-msgstr "VERWYDER GEKOSE FILTER"
+msgstr "verwyder gekose filter"
 
 #: rc.cpp:51
 msgid "Press this button to remove the selected filter from the list."
-msgstr "DRUK HIERDIE KNOPPIE AAN VERWYDER DIE GEKOSE FILTER VAN DIE LYS."
+msgstr "druk hierdie knoppie aan verwyder die gekose filter van die lys."
 
 #: rc.cpp:52
 msgid "A&dd"
-msgstr "A&dd"
+msgstr "voeg by"
 
 #: rc.cpp:53
 msgid "Add configured filter"
-msgstr "VOEG BY GEKONFIGUREER FILTER"
+msgstr "voeg by gekonfigureer filter"
 
 #: rc.cpp:54
 msgid "Press this button to add the configred filter to the list."
-msgstr ""
+msgstr "druk hierdie knoppie aan voeg by die gekonfigureerde filter aan die lys."
 
 #: rc.cpp:55
-msgid "&Filter properties"
-msgstr "&FILTER EIENSKAPPE"
+#, fuzzy
+msgid "Filter properties"
+msgstr "filter eienskappe"
 
 #: rc.cpp:56
 msgid "Hide"
-msgstr "STEEK WEG"
+msgstr "steek weg"
 
 #: rc.cpp:57
 msgid "Show"
-msgstr "VERTOON"
+msgstr "vertoon"
 
 #: rc.cpp:58
 msgid "Action for this filter"
-msgstr "AKSIE VIR HIERDIE FILTER"
+msgstr "aksie vir hierdie filter"
 
 #: rc.cpp:59
 msgid ""
 "Here you can define what should happen if this filter matches (e.g. whether "
 "the matching articles should be shown or hidden)."
 msgstr ""
+"hier jy kan definieer wat moet gebeur as hierdie filter ooreenstemmende "
+"inskrywings (e.g. hetsy die ooreenstemmende aktikels moet wees vertoon of "
+"weg gesteekte)."
 
 #: rc.cpp:60
 msgid "articles from"
-msgstr ""
+msgstr "aktikels van"
 
 #: rc.cpp:62
 msgid "Affected news sources"
-msgstr "GEAFFEKTEER NUUS BRONKODES"
+msgstr "geaffekteer nuus bronkodes"
 
 #: rc.cpp:63
 msgid ""
@@ -389,14 +442,17 @@ msgid ""
 "that only the news sources which have been activated on the <i>News "
 "sources</i> tab are shown in this combo box."
 msgstr ""
+"hier jy kan spesifiseer wat nuus bronkodes (van alle van hulle) word "
+"geaffekteer. nota wat slegs die nuus bronkodes wat het al geaktiveer op die "
+"<i>nuus bronkodes</i> oortjie word vertoon in hierdie gekombineerde boks."
 
 #: rc.cpp:64
 msgid "whose"
-msgstr "WIE SE"
+msgstr "wie se"
 
 #: rc.cpp:65
 msgid "Keyword/Expression"
-msgstr ""
+msgstr "sleutelwoord/uitdrukking"
 
 #: rc.cpp:66
 msgid ""
@@ -419,31 +475,31 @@ msgstr ""
 
 #: rc.cpp:67
 msgid "headlines"
-msgstr ""
+msgstr "hoof opskrifte"
 
 #: rc.cpp:68
 msgid "contain"
-msgstr "BEVAT"
+msgstr "bevat"
 
 #: rc.cpp:69
 msgid "don't contain"
-msgstr "don't BEVAT"
+msgstr ""
 
 #: rc.cpp:70
 msgid "equal"
-msgstr "GELYK"
+msgstr "gelyk"
 
 #: rc.cpp:71
 msgid "don't equal"
-msgstr "don't GELYK"
+msgstr ""
 
 #: rc.cpp:72
 msgid "match"
-msgstr "OOREENSTEM"
+msgstr "ooreenstem"
 
 #: rc.cpp:73
 msgid "Condition for this filter"
-msgstr ""
+msgstr "kondisie vir hierdie filter"
 
 #: rc.cpp:74
 msgid ""
@@ -464,19 +520,19 @@ msgstr ""
 
 #: rc.cpp:75
 msgid "Scroller Preferences"
-msgstr ""
+msgstr "roller voorkeure"
 
 #: rc.cpp:76
 msgid "Behavior"
-msgstr "GEDRAG"
+msgstr "gedrag"
 
 #: rc.cpp:77
 msgid "&Scrolling speed:"
-msgstr ""
+msgstr "rolling spoed:"
 
 #: rc.cpp:78 rc.cpp:81 rc.cpp:83 rc.cpp:86
 msgid "Scrolling speed"
-msgstr ""
+msgstr "rolling spoed"
 
 #: rc.cpp:79 rc.cpp:82 rc.cpp:84 rc.cpp:87
 msgid ""
@@ -485,57 +541,70 @@ msgid ""
 "ticker), you should probably set this to a lower value so that you have a "
 "chance to read the headlines. For wider news tickers (and better eyes), a "
 "faster text is probably appropriate so that you have to wait for the next "
-"headline only as little as possible.<br><br>"
-" This value defines, after which period of time the text shall be scrolled a "
-"little bit further; this value is antiproportional, e.g. lower values result "
-"in a faster scrolling text."
+"headline only as little as possible."
+"<br>"
+"<br> This value defines, after which period of time the text shall be "
+"scrolled a little bit further; this value is antiproportional, e.g. lower "
+"values result in a faster scrolling text."
 msgstr ""
+"hier jy kan definieer hoe vinnige die rolteks moet wees rolling. as jy het "
+"eerder klein spasie op jou kasbar (en daarom 'n eerder klein nuus tikker), "
+"jy moet waarskynlik stel hierdie aan 'n sagter waarde sodat wat jy het 'n "
+"kans aan lees die hoof opskrifte. vir wyer nuus tikkers (en beter oë), 'n "
+"vinniger teks is waarskynlik geskikte sodat wat jy het aan wag vir die "
+"volgende hoof opskrif slegs as klein as moontlik."
+"<br>"
+"<br> hierdie waarde definieer, na wat periode van tyd die teks moet wees "
+"gerol 'n klein  bit  verdere; hierdie waarde is antiproporsioneel, e.g. "
+"sagter waardes resultaat in 'n vinniger rolling teks."
 
 #: rc.cpp:80
 msgid "Fast"
-msgstr "VINNIGE"
+msgstr "vinnige"
 
 #: rc.cpp:85
 msgid "Slow"
-msgstr "STADIGE"
+msgstr "stadige"
 
 #: rc.cpp:88
 msgid "Di&rection of scrolling:"
-msgstr ""
+msgstr "rigting van rolling:"
 
 #: rc.cpp:89 rc.cpp:97
 msgid "Direction of scrolling"
-msgstr ""
+msgstr "rigting van rolling"
 
 #: rc.cpp:90
 msgid ""
 "These options allow you to define in what direction the text should be "
 "scrolled, e.g. to the left or to the right, upwards or downwards."
 msgstr ""
+"hierdie opsies toelaat jy aan definieer in wat rigting die teks moet wees "
+"gerol, e.g. aan die links of aan die regterkant, boontoe of ondertoe."
 
 #: rc.cpp:91
 msgid "To the left"
-msgstr "AAN DIE LINKS"
+msgstr "aan die links"
 
 #: rc.cpp:92
 msgid "To the right"
-msgstr "AAN DIE REGTERKANT"
+msgstr "aan die regterkant"
 
 #: rc.cpp:93
 msgid "Upwards"
-msgstr ""
+msgstr "boontoe"
 
 #: rc.cpp:94
 msgid "Downwards"
-msgstr ""
+msgstr "ondertoe"
 
 #: rc.cpp:95
 msgid "Upwards, rotated"
-msgstr ""
+msgstr "boontoe, geroeteer"
 
 #: rc.cpp:96
 msgid "Downwards, rotated"
-msgstr ""
+msgstr "ondertoe, geroeteer"
 
 #: rc.cpp:98
 msgid ""
@@ -543,14 +612,17 @@ msgid ""
 "scrolled, e.g. to the left or to the right, upwards or downwards. Rotated "
 "means the text is rotated 90 degrees."
 msgstr ""
+"hierdie opsies toelaat jy aan definieer in wat rigting die teks moet wees "
+"gerol, e.g. aan die links of aan die regterkant, boontoe of ondertoe. "
+"geroeteer beteken die teks is geroeteer 90 grade."
 
 #: rc.cpp:100
 msgid "H&ighlighted color:"
-msgstr "H&ighlighted KLEUR:"
+msgstr "verlig kleur:"
 
 #: rc.cpp:101 rc.cpp:103
 msgid "Highlighted color"
-msgstr "VERLIG KLEUR"
+msgstr "verlig kleur"
 
 #: rc.cpp:102
 msgid ""
@@ -568,11 +640,11 @@ msgstr ""
 
 #: rc.cpp:105
 msgid "&Background color:"
-msgstr "&AGTERGROND KLEUR:"
+msgstr "agtergrond kleur:"
 
 #: rc.cpp:106 rc.cpp:108
 msgid "Background color"
-msgstr "AGTERGROND KLEUR"
+msgstr "agtergrond kleur"
 
 #: rc.cpp:107
 msgid ""
@@ -589,11 +661,11 @@ msgstr ""
 
 #: rc.cpp:110
 msgid "&Foreground color:"
-msgstr "&VOORGROND KLEUR:"
+msgstr "voorgrond kleur:"
 
 #: rc.cpp:111 rc.cpp:113
 msgid "Foreground color"
-msgstr "VOORGROND KLEUR"
+msgstr "voorgrond kleur"
 
 #: rc.cpp:112
 msgid ""
@@ -610,11 +682,11 @@ msgstr ""
 
 #: rc.cpp:115
 msgid "F&ont:"
-msgstr "F&ont:"
+msgstr "skrif tipe:"
 
 #: rc.cpp:116 rc.cpp:119
 msgid "Scrolltext font"
-msgstr ""
+msgstr "rolteks skrif tipe"
 
 #: rc.cpp:117
 msgid ""
@@ -626,8 +698,9 @@ msgid ""
 msgstr ""
 
 #: rc.cpp:118
-msgid "Choose font..."
-msgstr "KIES SKRIF TIPE..."
+#, fuzzy
+msgid "Choose Font..."
+msgstr "kies skrif tipe..."
 
 #: rc.cpp:120
 msgid ""
@@ -639,25 +712,25 @@ msgstr ""
 
 #: rc.cpp:122
 msgid "Scroll the most recent headlines onl&y"
-msgstr ""
+msgstr "rol die mees onlangse hoof opskrifte slegs"
 
 #: rc.cpp:123
 msgid "Show just the most recent headline for each news site in the scroller"
-msgstr ""
+msgstr "vertoon net die mees onlangse hoof opskrif vir elke nuus tuiste in die roller"
 
 #: rc.cpp:124
 msgid "Check this button to show just the most recent headline for each news site. "
 msgstr ""
-"BEVESTIG HIERDIE KNOPPIE AAN VERTOON NET DIE MEES ONLANGSE HOOF OPSKRIF VIR "
-"ELKE NUUS TUISTE. "
+"bevestig hierdie knoppie aan vertoon net die mees onlangse hoof opskrif vir "
+"elke nuus tuiste. "
 
 #: rc.cpp:125
 msgid "Show icons"
-msgstr "VERTOON IKOONE"
+msgstr "vertoon ikoone"
 
 #: rc.cpp:126
 msgid "Show icons in the scrolltext"
-msgstr ""
+msgstr "vertoon ikoone in die rolteks"
 
 #: rc.cpp:127
 msgid ""
@@ -665,16 +738,21 @@ msgid ""
 "which each headline belongs. This makes associating a headline to a news "
 "site very easy but eats a little space."
 msgstr ""
+"kliek hierdie knoppie aan maak k-nuustikker vertoon die ikoone van die nuus "
+"tuiste aan wat elke hoof opskrif behoort. hierdie maak assosiëring 'n hoof "
+"opskrif aan 'n nuus tuiste baie maklike maar eet 'n klein spasie."
 
 #: rc.cpp:128
 msgid "&Endless scrolling"
-msgstr ""
+msgstr "eindelose rolling"
 
 #: rc.cpp:129
 msgid ""
 "Make the scroller scroll the headlines continuously (\"endless\"), instead "
 "of scrolling all of the headlines and then starting all over."
 msgstr ""
+"maak die roller rol die hoof opskrifte kontinu (\"eindelose\"), in plaas van "
+"van rolling alle van die hoof opskrifte en dan word beginne alle bo."
 
 #: rc.cpp:130
 msgid ""
@@ -683,52 +761,64 @@ msgid ""
 "the last headline has been shown, KNewsTicker will attach the first headline "
 "to the end of the scrolling text."
 msgstr ""
+"bevestig hierdie boks aan vermy wat lelik breek en die einde van die rolling "
+"(wanneer alle die hoof opskrifte het verskyn as eers). as eindelose rolling "
+"is geaktiveer en die laaste hoof opskrif het al vertoon, k-nuustikker sal "
+"aanheg die eerste hoof opskrif aan die einde van die rolling teks."
 
 #: rc.cpp:131
 msgid "&Underline highlighted headline"
-msgstr "&ONDERSTREEP VERLIG HOOF OPSKRIF"
+msgstr "onderstreep verlig hoof opskrif"
 
 #: rc.cpp:132
 msgid "Underline the currently highlighted headline"
-msgstr "ONDERSTREEP DIE HUIDIGLIK VERLIG HOOF OPSKRIF"
+msgstr "onderstreep die huidiglik verlig hoof opskrif"
 
 #: rc.cpp:133
 msgid ""
 "Check this box to have the currently highlighted headline (e.g. the headline "
 "which is currently under the mouse cursor) underlined."
 msgstr ""
+"bevestig hierdie boks aan het die huidiglik verlig hoof opskrif (e.g. die "
+"hoof opskrif wat is huidiglik onder die muis plekaanduier) geonderstreep."
 
 #: rc.cpp:134
-msgid "Add news source..."
-msgstr "VOEG BY NUUS BRON..."
+#, fuzzy
+msgid "Add News Source..."
+msgstr "voeg by nuus bron..."
 
 #: rc.cpp:135
 msgid "News source properties"
-msgstr "NUUS BRON EIENSKAPPE"
+msgstr "nuus bron eienskappe"
 
 #: rc.cpp:136
 msgid "&Name:"
-msgstr "&NAAM:"
+msgstr "naam:"
 
 #: rc.cpp:137 rc.cpp:139
 msgid "Name of the news source"
-msgstr "NAAM VAN DIE NUUS BRON"
+msgstr "naam van die nuus bron"
 
 #: rc.cpp:138 rc.cpp:140
 msgid ""
-"Here you can enter the name of the news source.<br>Note that you can also "
-"use the button at the bottom right labelled <i>Suggest</i> to let "
-"KNewsTicker fill this field automatically, after you have entered a source "
-"file below."
+"Here you can enter the name of the news source."
+"<br>Note that you can also use the button at the bottom right labelled "
+"<i>Suggest</i> to let KNewsTicker fill this field automatically, after you "
+"have entered a source file below."
 msgstr ""
+"hier jy kan invoer die naam van die nuus bron."
+"<br>nota wat jy kan asook <-invoer->gebruik die knoppie na die bodem "
+"regterkant geëtiketeer <i>voorstel</i> aan laat <-invoer->k-nuustikker "
+"opvul hierdie veld automaties, na jy het ingevoerde 'n bron <-invoer->lêer "
+"onder."
 
 #: rc.cpp:141
 msgid "Source &file:"
-msgstr "BRON &LêER:"
+msgstr "bron lêer:"
 
 #: rc.cpp:142 rc.cpp:164
 msgid "The source file for this news source"
-msgstr "DIE BRON LêER VIR HIERDIE NUUS BRON"
+msgstr "die bron lêer vir hierdie nuus bron"
 
 #: rc.cpp:143 rc.cpp:165
 msgid ""
@@ -737,75 +827,96 @@ msgid ""
 "right labelled <i>Suggest</i> to let KNewsTicker fill in the remaining "
 "values automatically."
 msgstr ""
+"invoer die gids soeklys aan die bron lêer vir die nuus bron jy wil hê aan "
+"voeg by hier. <-invoer->as jy gespesifiseer 'n bron lêer hier, jy kan "
+"gebruik die knoppie na die bodem <-invoer->regterkant geëtiketeer "
+"<i>voorstel</i> aan laat k-nuustikker opvul in die oor <-invoer->waardes "
+"automaties."
 
 #: rc.cpp:144
 msgid "&Icon:"
-msgstr "&IKOON:"
+msgstr "ikoon:"
 
 #: rc.cpp:145 rc.cpp:147
 msgid "Path to the icon for this news source"
-msgstr "GIDS SOEKLYS AAN DIE IKOON VIR HIERDIE NUUS BRON"
+msgstr "gids soeklys aan die ikoon vir hierdie nuus bron"
 
 #: rc.cpp:146 rc.cpp:148
 msgid ""
 "Here you can specify the path to an icon to be used for this news source. "
 "Icons make it easier to distinguish between multiple news sources as the "
-"headlines scroll by.<br>Note that you can also use the button at the bottom "
-"right labelled <i>Suggest</i> to let KNewsTicker fill this field "
-"automatically, after you have entered a source file above."
+"headlines scroll by."
+"<br>Note that you can also use the button at the bottom right labelled "
+"<i>Suggest</i> to let KNewsTicker fill this field automatically, after you "
+"have entered a source file above."
 msgstr ""
+"hier jy kan spesifiseer die gids soeklys aan 'n ikoon aan wees gebruik word "
+"vir hierdie nuus bron. ikoone maak dit makliker aan onderskei tussen "
+"veelvuldige nuus bronkodes as die hoof opskrifte rol deur."
+"<br>nota wat jy kan asook gebruik die knoppie na die bodem regterkant "
+"geëtiketeer <i>voorstel</i> aan laat k-nuustikker opvul hierdie veld "
+"automaties, na jy het ingevoerde 'n bron lêer boonste."
 
 #: rc.cpp:149
 msgid "Icon to be used for this news source"
-msgstr "IKOON AAN WEES GEBRUIK WORD VIR HIERDIE NUUS BRON"
+msgstr "ikoon aan wees gebruik word vir hierdie nuus bron"
 
 #: rc.cpp:150
 msgid ""
 "This is what the currently configured icon for this news source looks like. "
 "To change this icon, use the input field at the left."
 msgstr ""
+"hierdie is wat die huidiglik gekonfigureer ikoon vir hierdie nuus bron kyk "
+"hou van. aan verander hierdie ikoon, gebruik die invoer veld na die links."
 
 #: rc.cpp:151
 msgid "Ca&tegory:"
-msgstr "Ca&tegory:"
+msgstr "kategorie:"
 
 #: rc.cpp:152 rc.cpp:154
 msgid "Into which category does this news source belong?"
-msgstr ""
+msgstr "binnein wat kategorie doen hierdie nuus bron behoort?"
 
 #: rc.cpp:153 rc.cpp:155
 msgid ""
 "Here you can specify into which category this news source belongs. Arranging "
 "the news sources into categories makes it much easier to maintain large "
-"lists of news sources.<br>Note that you can also use the button at the "
-"bottom right labelled <i>Suggest</i> to let KNewsTicker fill this field "
-"automatically, after you have entered a source file above."
+"lists of news sources."
+"<br>Note that you can also use the button at the bottom right labelled "
+"<i>Suggest</i> to let KNewsTicker fill this field automatically, after you "
+"have entered a source file above."
 msgstr ""
+"hier jy kan spesifiseer binnein wat kategorie hierdie nuus bron behoort. "
+"rangskik die nuus bronkodes binnein katagoriee maak dit baie makliker aan "
+"onderhou groot lyste van nuus bronkodes."
+"<br>nota wat jy kan asook gebruik die knoppie na die bodem regterkant "
+"geëtiketeer <i>voorstel</i> aan laat k-nuustikker opvul hierdie veld "
+"automaties, na jy het ingevoerde 'n bron lêer boonste."
 
 #: rc.cpp:156
 msgid "&Max. articles:"
-msgstr ""
+msgstr "max. aktikels:"
 
 #: rc.cpp:157 rc.cpp:159
 msgid "Maximum number of articles"
-msgstr ""
+msgstr "maksimum nommer van aktikels"
 
 #: rc.cpp:158 rc.cpp:160
 msgid ""
 "This option lets you define how many articles KNewsTicker should cache for "
-"this news source. This value will never be exceeded.<br>Note that you can "
-"also use the button at the bottom right labelled <i>Suggest</i> to let "
-"KNewsTicker fill this field automatically, after you have entered a source "
-"file above."
+"this news source. This value will never be exceeded."
+"<br>Note that you can also use the button at the bottom right labelled "
+"<i>Suggest</i> to let KNewsTicker fill this field automatically, after you "
+"have entered a source file above."
 msgstr ""
 
 #: rc.cpp:161
 msgid "The file is a &program"
-msgstr "DIE LêER IS 'N &PROGRAM"
+msgstr "die lêer is 'n program"
 
 #: rc.cpp:162
 msgid "Is the specified source file a program?"
-msgstr ""
+msgstr "is die gespesifiseer bron lêer 'n program?"
 
 #: rc.cpp:163
 msgid ""
@@ -814,279 +925,317 @@ msgid ""
 "file. KNewsTicker will then process the output (as recieved on "
 "<i>stdout</i>) of that program."
 msgstr ""
+"bevestig hierdie boks aan vertel k-nuustikker wat die lêer jy gespesifiseer "
+"in die boonste invoer veld geëtiketeer <i>bron lêer</i> is 'n program en "
+"nie 'n rdf van rss lêer. k-nuustikker sal dan word proses die uitset (as "
+"ontvang op <i>stdout</i>) van wat program."
 
 #: rc.cpp:167
 msgid "Cancel this configuration"
-msgstr "KANSELEER HIERDIE OPSTELLING"
+msgstr "kanseleer hierdie opstelling"
 
 #: rc.cpp:168
 msgid "Press this button to close this dialog, discarding all entered information."
 msgstr ""
+"druk hierdie knoppie aan maak toe hierdie dialoog, gooi weg alle ingevoerde "
+"informasie."
 
 #: rc.cpp:169
 msgid "&Suggest"
-msgstr "&VOORSTEL"
+msgstr "voorstel"
 
 #: rc.cpp:170
 msgid "Suggest suitable values"
-msgstr "VOORSTEL GESKIK WAARDES"
+msgstr "voorstel geskik waardes"
 
 #: rc.cpp:171
 msgid ""
 "Press this button to make KNewsTicker guess more or less reasonable values "
 "for some of the news properties (such as the name, icon or maximum number of "
-"articles).<br>Note that you have to supply a source file in order to use "
-"this function!"
+"articles)."
+"<br>Note that you have to supply a source file in order to use this function!"
 msgstr ""
+"druk hierdie knoppie aan maak k-nuustikker skat meer van minder redelike "
+"waardes vir sommige van die nuus eienskappe (soos as die naam, ikoon van "
+"maksimum nommer van aktikels)."
+"<br>nota wat jy het aan verskaf 'n bron lêer in volgorde aan gebruik "
+"hierdie funksie!"
 
 #: rc.cpp:173
 msgid "Acknowledge these values"
-msgstr ""
+msgstr "bevestig hierdie waardes"
 
 #: rc.cpp:174
 msgid ""
 "Press this button to apply the values of this dialog and return to the "
 "previousconfiguration dialog."
 msgstr ""
-
-#: ../common/newsengine.cpp:71
-msgid "Arts"
-msgstr "ARTS"
+"druk hierdie knoppie aan wend aan die waardes van hierdie dialoog en terug "
+"aan die vorige konfigurasie dialoog."
 
 #: ../common/newsengine.cpp:72
-msgid "Business"
-msgstr "BESIGHEID"
+msgid "Arts"
+msgstr "arts"
 
 #: ../common/newsengine.cpp:73
-msgid "Computers"
-msgstr "REKENAARS"
+msgid "Business"
+msgstr "besigheid"
 
 #: ../common/newsengine.cpp:74
-msgid "Games"
-msgstr "SPELETJIES"
+msgid "Computers"
+msgstr "rekenaars"
 
 #: ../common/newsengine.cpp:75
-msgid "Health"
-msgstr ""
+msgid "Games"
+msgstr "speletjies"
 
 #: ../common/newsengine.cpp:76
-msgid "Home"
-msgstr "HUIS"
+msgid "Health"
+msgstr "gesondheid"
 
 #: ../common/newsengine.cpp:77
-msgid "Recreation"
-msgstr ""
+msgid "Home"
+msgstr "huis"
 
 #: ../common/newsengine.cpp:78
-msgid "Reference"
-msgstr "VERWYSING"
+msgid "Recreation"
+msgstr "ontspanning"
 
 #: ../common/newsengine.cpp:79
-msgid "Science"
-msgstr "WETENSKAP"
+msgid "Reference"
+msgstr "verwysing"
 
 #: ../common/newsengine.cpp:80
-msgid "Shopping"
-msgstr "INKOPIE"
+msgid "Science"
+msgstr "wetenskap"
 
 #: ../common/newsengine.cpp:81
-msgid "Society"
-msgstr ""
+msgid "Shopping"
+msgstr "inkopie"
 
 #: ../common/newsengine.cpp:82
+msgid "Society"
+msgstr "samelewing"
+
+#: ../common/newsengine.cpp:83
 msgid "Sports"
-msgstr "SPORTS"
+msgstr "sports"
 
-#: ../common/newsengine.cpp:84
-msgid "Unknown"
-msgstr "ONBEKENDE"
-
-#: ../common/newsengine.cpp:207
+#: ../common/newsengine.cpp:211
+#, fuzzy
 msgid ""
-"The program '%1' was terminated anormally.<br>"
-"This can happen if it receives the SIGKILL signal."
+"<p>The program '%1' was terminated anormally."
+"<br>This can happen if it receives the SIGKILL signal.</p>"
 msgstr ""
-
-#: ../common/newsengine.cpp:222
-msgid "<p>Program output:<br>%1<br>"
-msgstr ""
-
-#: ../common/newsengine.cpp:224
-msgid "An error occured while updating the news source '%1'!"
-msgstr "'N FOUT VOORGEKOM TERWYL BESIG MET OPDATERING VAN DIE NUUS BRON '%1'!"
+"die program '%1' was beëindig abnormaliteit."
+"<br>hierdie kan gebeur as dit ontvang die sigkill sein."
 
 #: ../common/newsengine.cpp:226
+msgid "<p>Program output:<br>%1<br>"
+msgstr "<p>program uitset:<br>%1<br>"
+
+#: ../common/newsengine.cpp:228
+msgid "An error occured while updating the news source '%1'!"
+msgstr "'n fout voorgekom terwyl besig met opdatering van die nuus bron '%1'!"
+
+#: ../common/newsengine.cpp:230
 msgid "KNewsTicker error"
-msgstr "K-NUUSTIKKER FOUT"
+msgstr "k-nuustikker fout"
 
-#: ../common/newsengine.cpp:235
+#: ../common/newsengine.cpp:239
 msgid "The program '%1' couldn't be started at all."
-msgstr "DIE PROGRAM '%1' couldn't WEES BEGINNE NA ALLE."
+msgstr ""
 
-#: ../common/newsengine.cpp:236
+#: ../common/newsengine.cpp:240
 msgid ""
 "The program '%1' tried to read or write a file or directory which couldn't "
 "be found."
 msgstr ""
 
-#: ../common/newsengine.cpp:238
+#: ../common/newsengine.cpp:242
 msgid "An error occured while the program '%1' tried to read or write data."
-msgstr "'N FOUT VOORGEKOM TERWYL DIE PROGRAM '%1' PROBEER AAN LEES OF SKRYF DATA."
+msgstr "'n fout voorgekom terwyl die program '%1' probeer aan lees of skryf data."
 
-#: ../common/newsengine.cpp:240
+#: ../common/newsengine.cpp:244
 msgid ""
 "The program '%1' was passed too many arguments, please adjust the "
 "commandline in the configuration dialog."
 msgstr ""
+"die program '%1' was aanstuur te veel argumente, asseblief verstel die "
+"opdraglyn in die opstelling dialoog."
 
-#: ../common/newsengine.cpp:242
+#: ../common/newsengine.cpp:246
 msgid ""
 "An external system program upon which the program '%1' relied couldn't be "
 "executed."
 msgstr ""
 
-#: ../common/newsengine.cpp:244
+#: ../common/newsengine.cpp:248
 msgid ""
 "The program '%1' tried to read or write a file or directory but lacks the "
 "permission to do so."
 msgstr ""
+"die program '%1' probeer aan lees of skryf 'n lêer of gids maar kort die "
+"reg aan doen sodat."
 
-#: ../common/newsengine.cpp:246
+#: ../common/newsengine.cpp:250
 msgid "The program '%1' tried to access a device which\twas not available."
 msgstr ""
 
-#: ../common/newsengine.cpp:248
+#: ../common/newsengine.cpp:252
 msgid "There is no more space left on the device used by the program '%1'."
 msgstr ""
-"DAAR IS GEEN MEER SPASIE LINKS OP DIE TOESTEL GEBRUIK WORD DEUR DIE PROGRAM "
+"daar is nee meer spasie links op die toestel gebruik word deur die program "
 "'%1'."
 
-#: ../common/newsengine.cpp:250
+#: ../common/newsengine.cpp:254
 msgid "The program '%1' tried to create a temporary file on a read only file system."
 msgstr ""
-"DIE PROGRAM '%1' PROBEER AAN SKEP 'N TYDELIKE LêER OP 'N LEES OPly LêER "
-"STELSEL."
+"die program '%1' probeer aan skep 'n tydelike lêer op 'n lees slegs lêer "
+"stelsel."
 
-#: ../common/newsengine.cpp:252
+#: ../common/newsengine.cpp:256
 msgid ""
 "The program '%1' tried to call a function which isn't implemented or "
 "attempted to access an external resource which does not exist."
 msgstr ""
 
-#: ../common/newsengine.cpp:255
+#: ../common/newsengine.cpp:259
 msgid ""
 "The program '%1' was unable to retrieve input data and was therefore unable "
 "to return any XML data."
 msgstr ""
-
-#: ../common/newsengine.cpp:257
-msgid "The program '%1' tried to access a host which is not connected to a network."
-msgstr ""
-"DIE PROGRAM '%1' PROBEER AAN TOEGANG VERKRY 'N BEDIENER WAT IS NIE VERBIND "
-"AAN 'N NETWERK."
-
-#: ../common/newsengine.cpp:259
-msgid "The program '%1' tried to access a protocol which is not implemented."
-msgstr ""
-"DIE PROGRAM '%1' PROBEER AAN TOEGANG VERKRY 'N proAANcol WAT IS NIE "
-"GEIMPLEMENTEER."
+"die program '%1' was nie moontlik aan onttrek invoer data en was daarom nie "
+"moontlik aan terug enige xml data."
 
 #: ../common/newsengine.cpp:261
+msgid "The program '%1' tried to access a host which is not connected to a network."
+msgstr ""
+"die program '%1' probeer aan toegang verkry 'n bediener wat is nie verbind "
+"aan 'n netwerk."
+
+#: ../common/newsengine.cpp:263
+msgid "The program '%1' tried to access a protocol which is not implemented."
+msgstr ""
+"die program '%1' probeer aan toegang verkry 'n protokol wat is nie "
+"geimplementeer."
+
+#: ../common/newsengine.cpp:265
 msgid ""
 "The program '%1' requires you to configure a destination address to retrieve "
 "data from. Please refer to the documentation of the program for information "
 "on how to do that."
 msgstr ""
+"die program '%1' benodig jy aan konfigureer 'n bestemming adres aan onttrek "
+"data van. asseblief verwys aan die dokumentasie van die program vir "
+"informasie op hoe aan doen wat."
 
-#: ../common/newsengine.cpp:264
+#: ../common/newsengine.cpp:268
 msgid ""
 "The program '%1' tried to use a socket type which is not supported by this "
 "system."
 msgstr ""
+"die program '%1' probeer aan gebruik 'n soket tipe wat is nie ondersteunde "
+"deur hierdie stelsel."
 
-#: ../common/newsengine.cpp:266
+#: ../common/newsengine.cpp:270
 msgid "The program '%1' tried to access an unreachable network."
-msgstr ""
+msgstr "die program '%1' probeer aan toegang verkry 'n onbereikbaar netwerk."
 
-#: ../common/newsengine.cpp:268
+#: ../common/newsengine.cpp:272
 msgid ""
 "The network the program '%1' was trying to access dropped the connection "
 "with a reset."
 msgstr ""
-
-#: ../common/newsengine.cpp:270
-msgid "The connection of the program '%1' was reset by peer."
-msgstr "DIE VERBINDING VAN DIE PROGRAM '%1' WAS HERSTEL DEUR OUER."
-
-#: ../common/newsengine.cpp:272
-msgid "The connection the program '%1' was trying to establish timed out."
-msgstr ""
+"die netwerk die program '%1' was probeer aan toegang verkry gegooi die "
+"verbinding met 'n herstel."
 
 #: ../common/newsengine.cpp:274
-msgid "The connection the program '%1' was trying to establish was refused."
-msgstr ""
+msgid "The connection of the program '%1' was reset by peer."
+msgstr "die verbinding van die program '%1' was herstel deur ouer."
 
 #: ../common/newsengine.cpp:276
-msgid "The host the program '%1' was trying to reach is down."
+msgid "The connection the program '%1' was trying to establish timed out."
 msgstr ""
+"die verbinding die program '%1' was probeer aan neerlê of vasstel "
+"tydgebonde uit."
 
 #: ../common/newsengine.cpp:278
+msgid "The connection the program '%1' was trying to establish was refused."
+msgstr ""
+"die verbinding die program '%1' was probeer aan neerlê of vasstel was "
+"geweier."
+
+#: ../common/newsengine.cpp:280
+msgid "The host the program '%1' was trying to reach is down."
+msgstr "die bediener die program '%1' was probeer aan bereik is ondertoe."
+
+#: ../common/newsengine.cpp:282
 msgid ""
 "The host the program '%1' was trying to reach is unreachable, no route to "
 "host."
 msgstr ""
+"die bediener die program '%1' was probeer aan bereik is onbereikbaar, nee "
+"roete aan bediener."
 
-#: ../common/newsengine.cpp:280
+#: ../common/newsengine.cpp:284
 msgid ""
 "KNewsTicker couldn't execute the program '%1' because it's executable bit "
 "wasn't set. You can mark that program as executable by executing the "
-"following steps:<ul><li>Open a Konqueror window and browse to the "
-"program</li><li>Click on the file with the right mouse button, and select "
-"'Properties'</li><li>Open the 'Permissions' tab and make sure that the box "
-"in the column 'Exec' and the row 'User' is checked to ensure that the "
-"current user is allowed to execute that file.</li></ul>"
+"following steps:"
+"<ul>"
+"<li>Open a Konqueror window and browse to the program</li>"
+"<li>Click on the file with the right mouse button, and select "
+"'Properties'</li>"
+"<li>Open the 'Permissions' tab and make sure that the box in the column "
+"'Exec' and the row 'User' is checked to ensure that the current user is "
+"allowed to execute that file.</li></ul>"
 msgstr ""
 
-#: ../common/newsengine.cpp:288
+#: ../common/newsengine.cpp:292
 msgid "The program '%1' sent a bad request which wasn't understood by the server."
 msgstr ""
 
-#: ../common/newsengine.cpp:290
+#: ../common/newsengine.cpp:294
 msgid ""
 "The program '%1' failed to issue an authorization for an area which needs "
 "some form of authorization before it can be accessed."
 msgstr ""
+"die program '%1' gevaal aan uitreik 'n geldigheidstoets vir 'n area wat "
+"verlang sommige vorm van geldigheidstoets voor dit kan wees toegang verkry."
 
-#: ../common/newsengine.cpp:293
+#: ../common/newsengine.cpp:297
 msgid ""
 "The program '%1' aborted because it couldn't access the data without paying "
 "for it."
 msgstr ""
 
-#: ../common/newsengine.cpp:295
+#: ../common/newsengine.cpp:299
 msgid "The program '%1' tried to access a forbidden source."
+msgstr "die program '%1' probeer aan toegang verkry 'n verbied bron."
+
+#: ../common/newsengine.cpp:301
+msgid "The program '%1' tried to access data which couldn't be found."
 msgstr ""
 
-#: ../common/newsengine.cpp:297
-msgid "The program '%1' tried to access data which couldn't be found."
-msgstr "DIE PROGRAM '%1' PROBEER AAN TOEGANG VERKRY DATA WAT couldn't WEES GEVIND."
-
-#: ../common/newsengine.cpp:299
+#: ../common/newsengine.cpp:303
 msgid "The HTTP request of the program '%1' timed out."
-msgstr "DIE HTTP VERSOEK VAN DIE PROGRAM '%1' TYDGEBONDE UIT."
+msgstr "die http versoek van die program '%1' tydgebonde uit."
 
-#: ../common/newsengine.cpp:300
+#: ../common/newsengine.cpp:304
 msgid ""
 "A server error has been encountered. It's likely that you can't do anything "
 "about it."
 msgstr ""
 
-#: ../common/newsengine.cpp:302
+#: ../common/newsengine.cpp:306
 msgid ""
 "The HTTP protocol version used by the program '%1' was not understood by the "
 "http server or source."
 msgstr ""
+"die http protokol weergawe gebruik word deur die program '%1' was nie "
+"verstaan deur die http bediener of bron."
 
-#: ../common/newsengine.cpp:304
+#: ../common/newsengine.cpp:308
 msgid "KNewsTicker was unable to detect the exact reasons for the error."
-msgstr "K-NUUSTIKKER WAS NIE MOONTLIK AAN VERKLIK DIE PRESIESE REDES VIR DIE FOUT."
+msgstr "k-nuustikker was nie moontlik aan verklik die presiese redes vir die fout."
