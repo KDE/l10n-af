@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karm VERSION\n"
-"POT-Creation-Date: 2002-09-20 03:09+0200\n"
+"POT-Creation-Date: 2004-01-05 01:41+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,37 +25,47 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: adddlg.cpp:56
+#: edittaskdialog.cpp:59
 msgid "Task &name:"
 msgstr "Opdrag naam:"
 
-#: adddlg.cpp:70
+#: edittaskdialog.cpp:73
 msgid "Edit &absolute"
 msgstr "Redigeer absolute"
 
-#: adddlg.cpp:83
-msgid "&Total:"
-msgstr "Totaal:"
+#: edittaskdialog.cpp:87
+msgid "&Time:"
+msgstr ""
 
-#: adddlg.cpp:92
+#: edittaskdialog.cpp:96
 msgid "&Session time:"
 msgstr "Sessie tyd:"
 
-#: adddlg.cpp:102
-msgid "Edit &relative (Apply to both session and total)"
+#: edittaskdialog.cpp:106
+#, fuzzy
+msgid "Edit &relative (apply to both time and session time)"
 msgstr "Redigeer relatiewe (Wend aan na beide sessie en totaal)"
 
-#: adddlg.cpp:148
+#: edittaskdialog.cpp:145
+msgid "A&uto tracking"
+msgstr ""
+
+#: edittaskdialog.cpp:154
+msgid "In Desktop"
+msgstr ""
+
+#: edittaskdialog.cpp:216
 msgid "Enter the name of the task here. This name is for your eyes only."
 msgstr "Invoer die naam van die opdrag hier. Hierdie naam is vir jou oë slegs."
 
-#: adddlg.cpp:149
+#: edittaskdialog.cpp:219
+#, fuzzy
 msgid ""
 "If you select this radio button, you specify that you want to enter the time "
-"as absolute values. For example: total for this task is 20 hours and 15 "
+"as absolute values. For example: the time for this task is 20 hours and 15 "
 "minutes.\n"
 "\n"
-"The time is specified for the session time and for the total time separately."
+"The time is specified for the cumulated time and the session time separately."
 msgstr ""
 "as jy kies hierdie radio knoppie, jy spesifiseer wat jy wil hê na invoer "
 "die tyd as absolute waardes. Vir voorbeeld: totaal Vir hierdie opdrag is 20 "
@@ -63,237 +73,202 @@ msgstr ""
 "\n"
 "die tyd is gespesifiseer Vir die sessie tyd en Vir die totaal tyd apart."
 
-#: adddlg.cpp:154
+#: edittaskdialog.cpp:226
+#, fuzzy
 msgid ""
 "If you select this radio button, you specify that you want to add or "
 "subtract time for the task. For example: I've worked 2 hours and 20 minutes "
 "more on this task (without having the timer running.)\n"
 "\n"
 "This time will be added or subtracted for both the session time and the "
-"total time."
+"cumulated time."
 msgstr ""
+"as jy kies hierdie radio knoppie, jy spesifiseer wat jy wil hê na invoer "
+"die tyd as absolute waardes. Vir voorbeeld: totaal Vir hierdie opdrag is 20 "
+"ure en 15 minute.\n"
+"\n"
+"die tyd is gespesifiseer Vir die sessie tyd en Vir die totaal tyd apart."
 
-#: adddlg.cpp:160
+#: edittaskdialog.cpp:233
 msgid "This is the overall time this task has been running."
 msgstr "Hierdie is die algeheel tyd Hierdie opdrag het al wat loop."
 
-#: adddlg.cpp:161
+#: edittaskdialog.cpp:236
 msgid "This is the time the task has been running this session."
 msgstr "Hierdie is die tyd die opdrag het al wat loop Hierdie sessie."
 
-#: adddlg.cpp:162
+#: edittaskdialog.cpp:238
 msgid "Specify how much time to add or subtract to the overall and session time"
 msgstr "Spesifiseer hoe baie tyd na voeg by of aftrek na die algeheel en sessie tyd"
 
-#: idle.cpp:67
-msgid "Idle detection"
-msgstr "Luier verklikker"
-
-#: idle.cpp:68
-msgid "Desktop has been idle since %1. What should we do?"
-msgstr "Werkskerm het al luier sedert %1. Wat moet ons doen?"
-
-#: idle.cpp:70
-msgid "Revert and Stop"
-msgstr "Ongedaan maak en Stop"
-
-#: idle.cpp:70
-msgid "Revert and Continue"
-msgstr "Ongedaan maak en Gaan voort"
-
-#: idle.cpp:71
-msgid "Continue Timing"
-msgstr "Gaan voort Tydneming"
-
-#: karm.cpp:36 print.cpp:81
-msgid "Task Name"
-msgstr "Opdrag Naam"
-
-#: karm.cpp:37
-msgid "Session Time"
-msgstr "Sessie Tyd"
-
-#: karm.cpp:38
-msgid "Total Time"
-msgstr "Totaal Tyd"
-
-#: karm.cpp:169
-msgid ""
-"There was an error trying to save your data file.\n"
-"Time accumulated during this session will not be saved!\n"
-msgstr ""
-"Daar was 'n fout probeer na stoor jou data lêer.\n"
-"Tyd opgestoorde gedurende hierdie sessie sal nie wees gestoor!\n"
-
-#: karm.cpp:286
-msgid "New Task"
-msgstr "Nuwe Opdrag"
-
-#: karm.cpp:295 karm.cpp:342
-msgid "Unnamed Task"
-msgstr "Nie-genaamd Opdrag"
-
-#: karm.cpp:325
-msgid "New Sub Task"
-msgstr "Nuwe Sub Opdrag"
-
-#: karm.cpp:336
-msgid "Edit Task"
-msgstr "Redigeer Opdrag"
-
-#: karm.cpp:379
-msgid "No task selected"
-msgstr "Nee opdrag gekose"
-
-#: karm.cpp:386
-msgid ""
-"Are you sure you want to delete the task named\n"
-"\"%1\""
-msgstr ""
-"Word jy seker jy wil hê na uitvee die opdrag genaamd\n"
-"\"%1\""
-
-#: karm.cpp:387 karm.cpp:393
-msgid "Deleting Task"
-msgstr "Uitveeïng Opdrag"
-
-#: karm.cpp:391
-msgid ""
-"Are you sure you want to delete the task named\n"
-"\"%1\"\n"
-"NOTE: all its subtasks will also be deleted!"
-msgstr ""
-"Word jy seker jy wil hê na uitvee die opdrag genaamd\n"
-"\"%1\"\n"
-"Nota: alle sy subtake sal asook wees uitgevee!"
-
-#: main.cpp:10
-msgid "KDE Time tracker tool."
-msgstr "Kde Tyd volger program."
-
-#: main.cpp:15
-msgid "KArm"
-msgstr "Karm"
-
-#: main.cpp:18
-msgid "Current Maintainer"
-msgstr "Huidige Onderhouer"
-
-#: main.cpp:20
-msgid "Original Author"
-msgstr "Oorspronklike Outeur"
-
-#: preferences.cpp:19
-msgid "Preferences"
-msgstr "Voorkeure"
-
-#: preferences.cpp:26
-msgid "Saving"
-msgstr "Stooring"
-
-#: preferences.cpp:29
-msgid "File to save time information to:"
-msgstr "Lêer na stoor tyd informasie na:"
-
-#: preferences.cpp:32
-msgid "Automatically save tasks"
-msgstr "Automaties stoor take"
-
-#: preferences.cpp:37
-msgid "Do time logging"
-msgstr "Doen tyd afteken"
-
-#: preferences.cpp:43
-msgid "File to log the times to"
-msgstr "Lêer na log die  times  na"
-
-#: preferences.cpp:49
-msgid "Minutes between each auto save:"
-msgstr "Minute tussen elke outo stoor:"
-
-#: preferences.cpp:56
+#: idletimedetector.cpp:68
 msgid "Idle Detection"
 msgstr "Luier Verklikker"
 
-#: preferences.cpp:58
-msgid "Try to detect idleness"
-msgstr "Probeer na verklik luiering"
+#: idletimedetector.cpp:69
+msgid "Desktop has been idle since %1. What should we do?"
+msgstr "Werkskerm het al luier sedert %1. Wat moet ons doen?"
 
-#: preferences.cpp:64
-msgid "Minutes before informing about idleness:"
-msgstr "Minute voor verwittig aangaande luiering:"
+#: idletimedetector.cpp:71
+#, fuzzy
+msgid "Revert && Stop"
+msgstr "Ongedaan maak en Stop"
 
-#: print.cpp:45 print.cpp:81
-msgid "Total"
-msgstr "Totaal"
+#: idletimedetector.cpp:72
+#, fuzzy
+msgid "Revert && Continue"
+msgstr "Ongedaan maak en Gaan voort"
 
-#: print.cpp:47 print.cpp:81
+#: idletimedetector.cpp:73
+msgid "Continue Timing"
+msgstr "Gaan voort Tydneming"
+
+#: karmstorage.cpp:108
+msgid "Error loading file \"%1\""
+msgstr ""
+
+#: karmstorage.cpp:168
+msgid "Error loading \"%1\": could not find parent (uid=%2)"
+msgstr ""
+
+#: karmstorage.cpp:254
+msgid "File \"%1\" not found."
+msgstr ""
+
+#: karmstorage.cpp:259
+msgid "Could not open \"%1\"."
+msgstr ""
+
+#: karmstorage.cpp:567 main.cpp:24
+msgid "KArm"
+msgstr "Karm"
+
+#: main.cpp:13
+msgid "KDE Time tracker tool."
+msgstr "Kde Tyd volger program."
+
+#: main.cpp:17
+msgid "Just caught a software interrupt."
+msgstr ""
+
+#: main.cpp:31
+msgid "Original Author"
+msgstr "Oorspronklike Outeur"
+
+#: main.cpp:40
+msgid "Current Maintainer"
+msgstr "Huidige Onderhouer"
+
+#: mainwindow.cpp:109
+msgid "Saving time data to disk."
+msgstr ""
+
+#: mainwindow.cpp:122
+msgid "MainWindow::~MainWindows: Quitting karm."
+msgstr ""
+
+#: mainwindow.cpp:156
+#, fuzzy, c-format
+msgid "Session: %1"
+msgstr "Sessie"
+
+#: mainwindow.cpp:159
+#, fuzzy, c-format
+msgid "Total: %1"
+msgstr "Totaal:"
+
+#: mainwindow.cpp:164 print.cpp:52 print.cpp:88
 msgid "Session"
 msgstr "Sessie"
 
-#: print.cpp:52
-msgid "Task Name "
-msgstr "Opdrag Naam "
+#: mainwindow.cpp:165 print.cpp:50 print.cpp:88 timekard.cpp:94
+#: timekard.cpp:307
+msgid "Total"
+msgstr "Totaal"
 
-#: print.cpp:75
-#, c-format
-msgid "KArm - %1"
-msgstr "Karm - %1"
+#: mainwindow.cpp:204
+msgid "Start &New Session"
+msgstr ""
 
-#: rc.cpp:2
-msgid "Clock"
-msgstr "Horlosie"
-
-#: rc.cpp:3
-msgid "Task"
-msgstr "Opdrag"
-
-#: top.cpp:51 top.cpp:127 top.cpp:144
-#, c-format
-msgid "This session: %1"
-msgstr "Hierdie sessie: %1"
-
-#: top.cpp:162
-msgid "&Reset Session Times"
+#: mainwindow.cpp:210
+#, fuzzy
+msgid "&Reset All Times"
 msgstr "Herstel Sessie  times "
 
-#: top.cpp:168
+#: mainwindow.cpp:221
 msgid "S&top"
 msgstr "Stop"
 
-#: top.cpp:171
-msgid "New..."
+#: mainwindow.cpp:226
+msgid "Stop &All Timers"
+msgstr ""
+
+#: mainwindow.cpp:233
+#, fuzzy
+msgid "&New..."
 msgstr "Nuwe..."
 
-#: top.cpp:175
-msgid "New Subtask..."
+#: mainwindow.cpp:238
+#, fuzzy
+msgid "New &Subtask..."
 msgstr "Nuwe Sub taak..."
 
-#: top.cpp:182
+#: mainwindow.cpp:248
 msgid "&Edit..."
 msgstr "Redigeer..."
 
-#: top.cpp:188
+#: mainwindow.cpp:260
+msgid "&Mark as Complete..."
+msgstr ""
+
+#: mainwindow.cpp:267
+msgid "&Copy Totals to Clipboard"
+msgstr ""
+
+#: mainwindow.cpp:274
+msgid "Copy &History to Clipboard"
+msgstr ""
+
+#: mainwindow.cpp:282
+msgid "Import &Legacy Flat File..."
+msgstr ""
+
+#: mainwindow.cpp:295
 msgid "Configure key bindings"
 msgstr "Konfigureer sleutel bindinge"
 
-#: top.cpp:189
+#: mainwindow.cpp:296
 msgid "This will let you configure keybindings which is specific to karm"
 msgstr "Hierdie sal laat jy konfigureer sleutel bindinge wat is spesifieke na karm"
 
-#: top.cpp:191
-msgid "Reset session time"
-msgstr "Herstel sessie tyd"
+#: mainwindow.cpp:299
+msgid "Start a new session"
+msgstr ""
 
-#: top.cpp:192
-msgid "This will reset the session time for all tasks."
+#: mainwindow.cpp:300
+#, fuzzy
+msgid ""
+"This will reset the session time to 0 for all tasks, to start a new session, "
+"without affecting the totals."
 msgstr "Hierdie sal herstel die sessie tyd vir alle take."
 
-#: top.cpp:194
+#: mainwindow.cpp:304
+#, fuzzy
+msgid "Reset all times"
+msgstr "Herstel sessie tyd"
+
+#: mainwindow.cpp:305
+#, fuzzy
+msgid ""
+"This will reset the session and total time to 0 for all tasks, to restart "
+"from scratch."
+msgstr "Hierdie sal herstel die sessie tyd vir alle take."
+
+#: mainwindow.cpp:309
 msgid "Start timing for selected task"
 msgstr "Begin tydneming vir gekose opdrag"
 
-#: top.cpp:195
+#: mainwindow.cpp:310
 msgid ""
 "This will start timing for the selected task.\n"
 "It is even possible to time several tasks simultaneously.\n"
@@ -308,34 +283,332 @@ msgstr ""
 "muis knoppie op 'n gegewe opdrag. Hierdie sal, egter, stop tydneming van "
 "ander take."
 
-#: top.cpp:200 top.cpp:201
+#: mainwindow.cpp:319 mainwindow.cpp:320
 msgid "Stop timing of the selected task"
 msgstr "Stop tydneming van die gekose opdrag"
 
-#: top.cpp:203
+#: mainwindow.cpp:322 mainwindow.cpp:323
+#, fuzzy
+msgid "Stop all of the active timers"
+msgstr "Stop tydneming van die gekose opdrag"
+
+#: mainwindow.cpp:325
 msgid "Create new top level task"
 msgstr "Skep nuwe bo vlak opdrag"
 
-#: top.cpp:204
+#: mainwindow.cpp:326
 msgid "This will create a new top level task."
 msgstr "Hierdie sal skep 'n nuwe bo vlak opdrag."
 
-#: top.cpp:206
+#: mainwindow.cpp:328
 msgid "Delete selected task"
 msgstr "Uitvee gekose opdrag"
 
-#: top.cpp:207
+#: mainwindow.cpp:329
 msgid "This will delete the selected task and all its subtasks."
 msgstr "Hierdie sal uitvee die gekose opdrag en alle sy subtake."
 
-#: top.cpp:209
+#: mainwindow.cpp:332
 msgid "Edit name or times for selected task"
 msgstr "Redigeer naam of  times  vir gekose opdrag"
 
-#: top.cpp:210
+#: mainwindow.cpp:333
 msgid ""
 "This will bring up a dialog box where you may edit the parameters for the "
 "selected task."
 msgstr ""
 "Hierdie sal bring begin 'n dialoog boks waar jy dalk mag redigeer die "
 "parameters vir die gekose opdrag."
+
+#: mainwindow.cpp:342
+msgid "Copy task totals to clipboard"
+msgstr ""
+
+#: mainwindow.cpp:343
+msgid "Copy time card history to clipboard."
+msgstr ""
+
+#: mainwindow.cpp:388
+msgid "task_popup"
+msgstr ""
+
+#: preferences.cpp:23
+msgid "Preferences"
+msgstr "Voorkeure"
+
+#: preferences.cpp:48
+msgid "Behavior"
+msgstr ""
+
+#: preferences.cpp:48
+msgid "Behavior Settings"
+msgstr ""
+
+#: preferences.cpp:55
+msgid "Detect desktop as idle after"
+msgstr ""
+
+#: preferences.cpp:59 preferences.cpp:115
+msgid " minutes"
+msgstr ""
+
+#: preferences.cpp:60
+msgid "Prompt before deleting tasks"
+msgstr ""
+
+#: preferences.cpp:75
+msgid "Display"
+msgstr ""
+
+#: preferences.cpp:75
+msgid "Display Settings"
+msgstr ""
+
+#: preferences.cpp:82
+msgid "Columns displayed:"
+msgstr ""
+
+#: preferences.cpp:84
+#, fuzzy
+msgid "Session time"
+msgstr "Sessie tyd:"
+
+#: preferences.cpp:86
+#, fuzzy
+msgid "Cumulative task time"
+msgstr "Totaal Tyd"
+
+#: preferences.cpp:88
+#, fuzzy
+msgid "Total session time"
+msgstr "Herstel sessie tyd"
+
+#: preferences.cpp:90
+#, fuzzy
+msgid "Total task time"
+msgstr "Totaal Tyd"
+
+#: preferences.cpp:104
+msgid "Storage"
+msgstr ""
+
+#: preferences.cpp:104
+msgid "Storage Settings"
+msgstr ""
+
+#: preferences.cpp:112
+msgid "Save tasks every"
+msgstr ""
+
+#: preferences.cpp:118
+msgid "iCalendar file:"
+msgstr ""
+
+#: print.cpp:25
+#, fuzzy
+msgid "Print Times"
+msgstr "Sessie Tyd"
+
+#: print.cpp:57
+msgid "Task Name "
+msgstr "Opdrag Naam "
+
+#: print.cpp:82
+#, c-format
+msgid "KArm - %1"
+msgstr "Karm - %1"
+
+#: print.cpp:88 taskview.cpp:46
+msgid "Task Name"
+msgstr "Opdrag Naam"
+
+#: printdialog.cpp:44
+#, fuzzy
+msgid "Print Dialog"
+msgstr "Sessie Tyd"
+
+#: printdialog.cpp:57
+msgid "Date Range"
+msgstr ""
+
+#: printdialog.cpp:64
+msgid "From:"
+msgstr ""
+
+#: printdialog.cpp:72
+#, fuzzy
+msgid "To:"
+msgstr "Totaal:"
+
+#: rc.cpp:2
+#, fuzzy
+msgid "&Clock"
+msgstr "Horlosie"
+
+#: rc.cpp:3
+#, fuzzy
+msgid "&Task"
+msgstr "Opdrag"
+
+#: taskview.cpp:47
+msgid "Session Time"
+msgstr "Sessie Tyd"
+
+#: taskview.cpp:48 timekard.cpp:64
+msgid "Time"
+msgstr ""
+
+#: taskview.cpp:49
+#, fuzzy
+msgid "Total Session Time"
+msgstr "Sessie Tyd"
+
+#: taskview.cpp:50
+msgid "Total Time"
+msgstr "Totaal Tyd"
+
+#: taskview.cpp:329
+msgid "New Task"
+msgstr "Nuwe Opdrag"
+
+#: taskview.cpp:341 taskview.cpp:408
+msgid "Unnamed Task"
+msgstr "Nie-genaamd Opdrag"
+
+#: taskview.cpp:378
+msgid "Error storing new task--your changes were not saved."
+msgstr ""
+
+#: taskview.cpp:390
+msgid "New Sub Task"
+msgstr "Nuwe Sub Opdrag"
+
+#: taskview.cpp:402
+msgid "Edit Task"
+msgstr "Redigeer Opdrag"
+
+#: taskview.cpp:457
+#, fuzzy
+msgid "No task selected."
+msgstr "Nee opdrag gekose"
+
+#: taskview.cpp:465
+#, fuzzy
+msgid ""
+"Are you sure you want to delete the task named\n"
+"\"%1\" and its entire history?"
+msgstr ""
+"Word jy seker jy wil hê na uitvee die opdrag genaamd\n"
+"\"%1\""
+
+#: taskview.cpp:468 taskview.cpp:476
+msgid "Deleting Task"
+msgstr "Uitveeïng Opdrag"
+
+#: taskview.cpp:472
+#, fuzzy
+msgid ""
+"Are you sure you want to delete the task named\n"
+"\"%1\" and its entire history?\n"
+"NOTE: all its subtasks and their history will also be deleted!"
+msgstr ""
+"Word jy seker jy wil hê na uitvee die opdrag genaamd\n"
+"\"%1\"\n"
+"Nota: alle sy subtake sal asook wees uitgevee!"
+
+#: taskview.cpp:619
+msgid ""
+"Copy totals for just this task and its subtasks?  (Click No to copy totals "
+"for all tasks.)"
+msgstr ""
+
+#: timekard.cpp:60
+#, fuzzy
+msgid "Task Totals"
+msgstr "Totaal"
+
+#: timekard.cpp:65
+#, fuzzy
+msgid "Task"
+msgstr "Opdrag"
+
+#: timekard.cpp:97
+#, fuzzy
+msgid "No tasks!"
+msgstr "Automaties stoor take"
+
+#: timekard.cpp:195
+msgid "Task History"
+msgstr ""
+
+#: timekard.cpp:196
+msgid "From %1 to %2"
+msgstr ""
+
+#: timekard.cpp:200
+#, c-format
+msgid "Printed on: %1"
+msgstr ""
+
+#: timekard.cpp:263
+msgid "  No hours logged."
+msgstr ""
+
+#: timekard.cpp:332
+#, c-format
+msgid "Week of %1"
+msgstr ""
+
+#: tray.cpp:121
+#, fuzzy
+msgid "No active tasks"
+msgstr "Automaties stoor take"
+
+#: tray.cpp:126
+msgid ", ..."
+msgstr ""
+
+#: tray.cpp:141
+msgid ", "
+msgstr ""
+
+#~ msgid "Idle detection"
+#~ msgstr "Luier verklikker"
+
+#~ msgid "Automatically save tasks"
+#~ msgstr "Automaties stoor take"
+
+#~ msgid "File to save time information to:"
+#~ msgstr "Lêer na stoor tyd informasie na:"
+
+#~ msgid "Minutes between each auto save:"
+#~ msgstr "Minute tussen elke outo stoor:"
+
+#~ msgid "Do time logging"
+#~ msgstr "Doen tyd afteken"
+
+#, fuzzy
+#~ msgid "File to log the times to:"
+#~ msgstr "Lêer na log die  times  na"
+
+#~ msgid "Try to detect idleness"
+#~ msgstr "Probeer na verklik luiering"
+
+#~ msgid "Minutes before informing about idleness:"
+#~ msgstr "Minute voor verwittig aangaande luiering:"
+
+#~ msgid ""
+#~ "There was an error trying to save your data file.\n"
+#~ "Time accumulated during this session will not be saved!\n"
+#~ msgstr ""
+#~ "Daar was 'n fout probeer na stoor jou data lêer.\n"
+#~ "Tyd opgestoorde gedurende hierdie sessie sal nie wees gestoor!\n"
+
+#~ msgid "&Reset Session Times"
+#~ msgstr "Herstel Sessie  times "
+
+#~ msgid "Saving"
+#~ msgstr "Stooring"
+
+#~ msgid "This session: %1"
+#~ msgstr "Hierdie sessie: %1"
