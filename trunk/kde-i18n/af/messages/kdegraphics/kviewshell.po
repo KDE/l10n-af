@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kviewshell VERSION\n"
-"POT-Creation-Date: 2002-08-30 02:55+0200\n"
+"POT-Creation-Date: 2003-11-18 01:35+0100\n"
 "PO-Revision-Date: 2002-11-07 11:33+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -41,11 +41,11 @@ msgstr "Jy moet invoer 'n bladsy nommer eerste."
 msgid "You must enter a valid number."
 msgstr "Jy moet invoer 'n geldige nommer."
 
-#: kmultipage.cpp:67
+#: kmultipage.cpp:73
 msgid "Save File As"
 msgstr "Stoor Lêer As"
 
-#: kmultipage.cpp:78
+#: kmultipage.cpp:84
 msgid ""
 "The file %1\n"
 "exists. Shall I overwrite that file?"
@@ -53,89 +53,162 @@ msgstr ""
 "Die lêer %1\n"
 "bestaan. Moet I oorskryf wat lêer?"
 
-#: kmultipage.cpp:79
-msgid "Overwrite file"
+#: kmultipage.cpp:85
+#, fuzzy
+msgid "Overwrite File"
 msgstr "Oorskryf lêer"
 
-#: kviewpart.cpp:125
+#: kviewpart.cpp:139
 msgid "No module (%1) found"
 msgstr "Nee module (%1) gevind"
 
-#: kviewpart.cpp:142
-msgid "Show &Page List"
-msgstr "Vertoon Bladsy Lys"
+#: kviewpart.cpp:159
+#, fuzzy
+msgid "Show &Sidebar"
+msgstr "Rol Begin"
 
-#: kviewpart.cpp:143
+#: kviewpart.cpp:160
 msgid "Show P&review"
 msgstr "Vertoon Voorskou"
 
-#: kviewpart.cpp:144
+#: kviewpart.cpp:161
 msgid "&Watch File"
 msgstr "Waarneem Lêer"
 
-#: kviewpart.cpp:150
-msgid "&Orientation"
+#: kviewpart.cpp:162
+#, fuzzy
+msgid "Show Scrollbars"
+msgstr "Rol Begin"
+
+#: kviewpart.cpp:169
+#, fuzzy
+msgid "Preferred &Orientation"
 msgstr "Oriëntasie"
 
-#: kviewpart.cpp:165
-msgid "Paper &Size"
+#: kviewpart.cpp:184
+#, fuzzy
+msgid "Preferred Paper &Size"
 msgstr "Papier Grootte"
 
-#: kviewpart.cpp:167
+#: kviewpart.cpp:186
 msgid "Custom Size..."
 msgstr "Pasmaak Grootte..."
 
-#: kviewpart.cpp:187
+#: kviewpart.cpp:190
+msgid "&Use Document Specified Paper Size"
+msgstr ""
+
+#: kviewpart.cpp:209
+#, fuzzy
+msgid "Read Up Document"
+msgstr "Lees Ondertoe Dokument"
+
+#: kviewpart.cpp:210
 msgid "Read Down Document"
 msgstr "Lees Ondertoe Dokument"
 
-#: kviewpart.cpp:196
+#: kviewpart.cpp:219
 msgid "Scroll Up"
 msgstr "Rol Begin"
 
-#: kviewpart.cpp:197
+#: kviewpart.cpp:220
 msgid "Scroll Down"
 msgstr "Rol Ondertoe"
 
-#: kviewpart.cpp:198
+#: kviewpart.cpp:221
 msgid "Scroll Left"
 msgstr "Rol Links"
 
-#: kviewpart.cpp:199
+#: kviewpart.cpp:222
 msgid "Scroll Right"
 msgstr "Rol Regterkant"
 
-#: kviewpart.cpp:201
+#: kviewpart.cpp:224
 msgid "Scroll Up Page"
 msgstr "Rol Begin Bladsy"
 
-#: kviewpart.cpp:202
+#: kviewpart.cpp:225
 msgid "Scroll Down Page"
 msgstr "Rol Ondertoe Bladsy"
 
-#: kviewpart.cpp:203
+#: kviewpart.cpp:226
 msgid "Scroll Left Page"
 msgstr "Rol Links Bladsy"
 
-#: kviewpart.cpp:204
+#: kviewpart.cpp:227
 msgid "Scroll Right Page"
 msgstr "Rol Regterkant Bladsy"
 
-#: kviewpart.cpp:477 kviewpart.cpp:498 kviewpart.cpp:962
-msgid "Page %1 of %2"
-msgstr "Bladsy %1 van %2"
-
-#: kviewpart.cpp:848
+#: kviewpart.cpp:297
 msgid "portrait"
 msgstr "portret"
 
-#: kviewpart.cpp:850
+#: kviewpart.cpp:299
 msgid "landscape"
 msgstr "landskap"
 
-#: kviewshell.cpp:47
+#: kviewpart.cpp:465
+msgid "<qt><strong>File Error!</strong> Could not create temporary file.</qt>"
+msgstr ""
+
+#: kviewpart.cpp:471
+msgid ""
+"<qt><strong>File Error!</strong> Could not create temporary file "
+"<nobr><strong>%1</strong></nobr>.</qt>"
+msgstr ""
+
+#: kviewpart.cpp:487
+msgid ""
+"<qt><strong>File Error!</strong> Could not open the file "
+"<nobr><strong>%1</strong></nobr> for uncompression. The file will not be "
+"loaded.</qt>"
+msgstr ""
+
+#: kviewpart.cpp:490
+msgid ""
+"<qt>This error typically occurs if you do not have enough permissions to "
+"read the file. You can check ownership and permissions if you right-click on "
+"the file in the Konqueror file manager and then choose the 'Properties' "
+"menu.</qt>"
+msgstr ""
+
+#: kviewpart.cpp:499
+msgid "Uncompressing..."
+msgstr ""
+
+#: kviewpart.cpp:500
+msgid ""
+"<qt>Uncompressing the file <nobr><strong>%1</strong></nobr>. Please "
+"wait.</qt>"
+msgstr ""
+
+#: kviewpart.cpp:523
+msgid ""
+"<qt><strong>File Error!</strong> Could not uncompress the file "
+"<nobr><strong>%1</strong></nobr>. The file will not be loaded.</qt>"
+msgstr ""
+
+#: kviewpart.cpp:525
+msgid ""
+"<qt>This error typically occurs if the file is corrupt. If you want to be "
+"sure, try to decompress the file manually using command-line tools.</qt>"
+msgstr ""
+
+#: kviewpart.cpp:718 kviewpart.cpp:739 kviewpart.cpp:1242
+msgid "Page %1 of %2"
+msgstr "Bladsy %1 van %2"
+
+#: kviewshell.cpp:58
 msgid "No viewing component found"
 msgstr "Nee aansig komponent gevind"
+
+#: kviewshell.cpp:230
+msgid "Use the Escape key to leave the fullscreen mode."
+msgstr ""
+
+#: kviewshell.cpp:230
+msgid "Entering Fullscreen Mode"
+msgstr ""
 
 #: main.cpp:18
 msgid "The part to use"
@@ -207,11 +280,11 @@ msgstr "Dialoog bokse"
 msgid "DCOP-Interface, major improvements"
 msgstr "DCOP-Interface, groot verbeteringe"
 
-#: main.cpp:74
+#: main.cpp:80
 msgid "The URL %1 is not well-formed."
 msgstr "Die Url %1 is nie well-formed."
 
-#: main.cpp:79
+#: main.cpp:85
 msgid ""
 "The URL %1 does not point to a local file. You can only specify local files "
 "if you are using the '--unique' option."
@@ -247,82 +320,87 @@ msgstr "Verwyder Bladsy Merk"
 msgid "&Page Marks"
 msgstr "Bladsy Merk"
 
-#: pageSizeDialog.cpp:25
+#: pageSizeDialog.cpp:27
 msgid "Page Size"
 msgstr "Bladsy Grootte"
 
-#: pageSizeWidget.cpp:31
+#: pageSizeWidget.cpp:30
 msgid "Custom Size"
 msgstr "Pasmaak Grootte"
 
 #: rc.cpp:3
+#, fuzzy
+msgid "&Paper Size"
+msgstr "Papier Grootte"
+
+#: rc.cpp:4
 msgid "&Go"
 msgstr "Gaan"
 
-#: rc.cpp:4
-msgid "Form1"
-msgstr "Vorm1"
-
-#: rc.cpp:6
+#: rc.cpp:9
 msgid "Page Format"
 msgstr "Bladsy Formaat"
 
-#: rc.cpp:7
-msgid "Height of the chosen paper size in portrait orientation"
-msgstr "Hoogte van die gekies papier grootte in portret oriëntasie"
-
-#: rc.cpp:8
-msgid "Width of the chosen paper size in portrait orientation"
-msgstr "Wydte van die gekies papier grootte in portret oriëntasie"
-
-#: rc.cpp:11
-msgid "Orientation:"
-msgstr "Oriëntasie:"
-
-#: rc.cpp:12
-msgid "Height:"
-msgstr "Hoogte:"
-
-#: rc.cpp:13
+#: rc.cpp:10
 msgid "Format:"
 msgstr "Formaat:"
 
-#: rc.cpp:14
+#: rc.cpp:13
 msgid "Width:"
 msgstr "Wydte:"
 
-#: rc.cpp:15 rc.cpp:18
+#: rc.cpp:14
+msgid "Height:"
+msgstr "Hoogte:"
+
+#: rc.cpp:15
+msgid "Width of the chosen paper size in portrait orientation"
+msgstr "Wydte van die gekies papier grootte in portret oriëntasie"
+
+#: rc.cpp:16
+msgid "Height of the chosen paper size in portrait orientation"
+msgstr "Hoogte van die gekies papier grootte in portret oriëntasie"
+
+#: rc.cpp:17 rc.cpp:20
 msgid "cm"
 msgstr "cm"
 
-#: rc.cpp:16 rc.cpp:19
+#: rc.cpp:18 rc.cpp:21
 msgid "mm"
 msgstr "mm"
 
-#: rc.cpp:17 rc.cpp:20
+#: rc.cpp:19 rc.cpp:22
 msgid "in"
 msgstr "in"
 
-#: rc.cpp:21
-msgid "Use document defined format, if available"
-msgstr "Gebruik dokument gedefinieër formaat, as beskikbaar"
-
-#: rc.cpp:22
-msgid "Use setting only if the document does not specify a size."
-msgstr "Gebruik opset slegs as die dokument doen nie spesifiseer 'n grootte."
-
 #: rc.cpp:23
-msgid ""
-"Sometimes documents specify their preferred paper size. Check this box if "
-"you wish to use the document's specifications rather than the fixed one "
-"chosen here. If a document does not specify a size, your settings will be "
-"used as a fallback."
-msgstr ""
-"Party keer dokumente spesifiseer hulle verkies papier grootte. Bevestig "
-"hierdie boks as jy wens na gebruik die dokument's spesifikasies eerder as "
-"die vasgemaakte een gekies hier. as 'n dokument doen nie spesifiseer 'n "
-"grootte, jou instellings sal wees gebruik word as 'n terugval."
+msgid "Orientation:"
+msgstr "Oriëntasie:"
 
 #: rc.cpp:24
 msgid "Page Preview"
 msgstr "Bladsy Voorskou"
+
+#~ msgid "Form1"
+#~ msgstr "Vorm1"
+
+#~ msgid "Use document defined format, if available"
+#~ msgstr "Gebruik dokument gedefinieër formaat, as beskikbaar"
+
+#~ msgid "Use setting only if the document does not specify a size."
+#~ msgstr ""
+#~ "Gebruik opset slegs as die dokument doen nie spesifiseer 'n grootte."
+
+#~ msgid ""
+#~ "Sometimes documents specify their preferred paper size. Check this box if "
+#~ "you wish to use the document's specifications rather than the fixed one "
+#~ "chosen here. If a document does not specify a size, your settings will be "
+#~ "used as a fallback."
+#~ msgstr ""
+#~ "Party keer dokumente spesifiseer hulle verkies papier grootte. Bevestig "
+#~ "hierdie boks as jy wens na gebruik die dokument's spesifikasies eerder as "
+#~ "die vasgemaakte een gekies hier. as 'n dokument doen nie spesifiseer 'n "
+#~ "grootte, jou instellings sal wees gebruik word as 'n terugval."
+
+#~ msgid "Show &Page List"
+#~ msgstr "Vertoon Bladsy Lys"
