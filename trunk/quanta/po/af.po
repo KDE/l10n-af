@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: za_AF-2.1\n"
-"POT-Creation-Date: 2001-05-02 11:25+0200\n"
+"POT-Creation-Date: 2001-12-13 22:38+0200\n"
 "PO-Revision-Date: 2001-06-06 12:47+0200\n"
 "Last-Translator: Frikkie Thirion <frix@engineer.com>\n"
 "Language-Team: Afrikaans <AF@lia.org.za>\n"
@@ -13,53 +13,68 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: plain/text\n"
 
-#: quanta.cpp:295
+#: quanta.moc.cpp:42 quanta.moc.cpp:47
+msgid "QuantaApp"
+msgstr ""
+
+#: project/project.cpp:281 quanta.cpp:122
+#, ycp-format
+msgid ""
+"The file %1 does not exist.\n"
+" Do you want to remove from the list?"
+msgstr ""
+
+#: quanta.cpp:317
 msgid "<center><h3>The current document is empty...</h3></center>"
 msgstr ""
 
-#: quanta.cpp:383
+#: quanta.cpp:386
 msgid " R/O "
 msgstr ""
 
-#: quanta.cpp:384
+#: quanta.cpp:387
 msgid " OVR "
 msgstr ""
 
-#: quanta.cpp:384
+#: quanta.cpp:387
 msgid " INS "
 msgstr ""
 
-#: quanta.cpp:506
+#: quanta.cpp:534
 msgid "Configure Quanta"
 msgstr ""
 
-#: quanta.cpp:511
+#: quanta.cpp:539
 msgid "Tag Style"
 msgstr ""
 
-#: quanta.cpp:520
+#: quanta.cpp:548
 msgid "Files Masks"
 msgstr ""
 
-#: quanta.cpp:529 rc.cpp:39
+#: dialogs/previewoptionss.cpp:44 quanta.cpp:557 rc.cpp:39
 msgid "Preview"
 msgstr ""
 
-#: quanta.cpp:534
+#: quanta.cpp:562
 msgid "Parser"
 msgstr ""
 
-#: quanta.cpp:537
+#: quanta.cpp:565
 msgid "PHP Debug"
 msgstr ""
 
-#: quanta.cpp:676
+#: quanta.cpp:704
 #, c-format
 msgid "Line: %d Col: %d"
 msgstr ""
 
 #: messages/messageoutput.cpp:167
 msgid "Syntax check done."
+msgstr ""
+
+#: messages/messageoutput.moc.cpp:42 messages/messageoutput.moc.cpp:47
+msgid "MessageOutput"
 msgstr ""
 
 #: dialogs/grepdialog.cpp:44
@@ -105,23 +120,23 @@ msgstr ""
 
 #: dialogs/grepdialog.cpp:155
 msgid ""
-"<qt><p>Enter the regular expression you want to search for here.</p>"
-"Possible meta characters are:<br/><ul><li><b>.</b> - Matches any "
+"<qt><p>Enter the regular expression you want to search for here.</p>Possible "
+"meta characters are:<br/><ul><li><b>.</b> - Matches any "
 "character.</li><li><b>^</b> - Matches the beginning of a "
 "line.</li><li><b>$</b> - Matches the end of a "
 "line.</li><li><b>\\\\\\&lt;</b> - Matches the beginning of a "
 "word.</li><li><b>\\\\\\&gt;</b> - Matches the end of a word.</li></ul>The "
 "following repetition operators exist:<br/><ul><li><b>?</b> - The preceding "
 "item is matches at most once.</li><li><b>*</b> - The preceding item is "
-"matched zero or more times.</li><li><b>+</b>"
-" - The preceding item is matched once or more "
-"times.</li><li><b>{<i>n</i>}</b> - The preceding item is matched exactly "
-"<i>n</i> times.</li><li><b>{<i>n</i>,}</b> - The preceding item is matched "
-"<i>n</i> or more times.</li><li><b>{,<i>n</i>}</b> - The preceding item is "
-"matched at most <i>n</i> times.</li><li><b>{<i>n</i>,<i>m</i>}</b> - The "
-"preceding item is matched at least <i>n</i>, but at most <i>m</i> "
-"times.</li></ul><p>Furthermore, backreferences to bracketed subexpressions "
-"areavailable via the notation \\\\<i>n</i>.</p></qt>"
+"matched zero or more times.</li><li><b>+</b> - The preceding item is matched "
+"once or more times.</li><li><b>{<i>n</i>}</b> - The preceding item is "
+"matched exactly <i>n</i> times.</li><li><b>{<i>n</i>,}</b> - The preceding "
+"item is matched <i>n</i> or more times.</li><li><b>{,<i>n</i>}</b> - The "
+"preceding item is matched at most <i>n</i> "
+"times.</li><li><b>{<i>n</i>,<i>m</i>}</b> - The preceding item is matched at "
+"least <i>n</i>, but at most <i>m</i> times.</li></ul><p>Furthermore, "
+"backreferences to bracketed subexpressions areavailable via the notation "
+"\\\\<i>n</i>.</p></qt>"
 msgstr ""
 
 #: dialogs/grepdialog.cpp:179
@@ -161,6 +176,30 @@ msgstr ""
 msgid "Child process died unexpectedly"
 msgstr ""
 
+#: dialogs/actioneditdialog.moc.cpp:42 dialogs/actioneditdialog.moc.cpp:47
+msgid "ActionEditDialog"
+msgstr ""
+
+#: dialogs/debuggeroptionss.cpp:31 dialogs/filemaskss.cpp:30
+#: dialogs/previewoptionss.cpp:31 project/copytos.cpp:32
+#: project/projectnewfinals.cpp:35 project/renamedialog.cpp:32 rc.cpp:27
+#: rc.cpp:33 rc.cpp:38 rc.cpp:44 rc.cpp:56 rc.cpp:112 rc.cpp:134 rc.cpp:152
+#: tagdialogs/tagmail.cpp:33 tagdialogs/tagquickstarts.cpp:35
+msgid "Form1"
+msgstr ""
+
+#: dialogs/debuggeroptionss.cpp:37 rc.cpp:34
+msgid "Enable Debugger"
+msgstr ""
+
+#: dialogs/debuggeroptionss.cpp:54 rc.cpp:36
+msgid "PHP3 Listener"
+msgstr ""
+
+#: dialogs/debuggeroptionss.cpp:59 rc.cpp:37
+msgid "PHP4 Debugger"
+msgstr ""
+
 #: dialogs/actioneditdialog.cpp:65 dialogs/actioneditdialog.cpp:72
 msgid "Action"
 msgstr ""
@@ -182,15 +221,15 @@ msgid "Separator"
 msgstr ""
 
 #: dialogs/actioneditdialog.cpp:127 dialogs/actioneditdialog.cpp:460 rc.cpp:6
-#: rc.cpp:17 rc.cpp:165 rc.cpp:176
+#: rc.cpp:17 rc.cpp:185 rc.cpp:196
 msgid "Standard"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:135 rc.cpp:58
+#: dialogs/actioneditdialog.cpp:135 rc.cpp:73 toolbar/actioneditdlgs.cpp:60
 msgid "<tag> :"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:140 rc.cpp:59
+#: dialogs/actioneditdialog.cpp:140 rc.cpp:74 toolbar/actioneditdlgs.cpp:65
 msgid "</tag> :"
 msgstr ""
 
@@ -198,55 +237,57 @@ msgstr ""
 msgid "Insert close part in same line"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:159 rc.cpp:60
+#: dialogs/actioneditdialog.cpp:159 rc.cpp:75 toolbar/actioneditdlgs.cpp:79
 msgid "Run \"Edit tag\" dialog if avaible"
 msgstr ""
 
 #: dialogs/actioneditdialog.cpp:166 dialogs/actioneditdialog.cpp:470
-#: kwrite/highlight/highlight.cpp:1645 kwrite/highlight/highlight.cpp:3538
-#: rc.cpp:57 toolbar/actioneditdlg.cpp:212
+#: kwrite/highlight/highlight.cpp:1645 kwrite/highlight/highlight.cpp:3545
+#: rc.cpp:72 toolbar/actioneditdlg.cpp:212 toolbar/actioneditdlgs.cpp:87
 msgid "Tag"
 msgstr ""
 
 #: dialogs/actioneditdialog.cpp:191 dialogs/actioneditdialog.cpp:225
-#: dialogs/actioneditdialog.cpp:269 rc.cpp:64 rc.cpp:69 rc.cpp:76
-#: tagdialogs/colorcombo.cpp:219
+#: dialogs/actioneditdialog.cpp:269 rc.cpp:79 rc.cpp:84 rc.cpp:91
+#: tagdialogs/colorcombo.cpp:219 toolbar/actioneditdlgs.cpp:118
+#: toolbar/actioneditdlgs.cpp:152 toolbar/actioneditdlgs.cpp:197
 msgid "None"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:197 rc.cpp:65
+#: dialogs/actioneditdialog.cpp:197 rc.cpp:80 toolbar/actioneditdlgs.cpp:124
 msgid "selected text"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:202 rc.cpp:66
+#: dialogs/actioneditdialog.cpp:202 rc.cpp:81 toolbar/actioneditdlgs.cpp:129
 msgid "current document"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:207 rc.cpp:62
+#: dialogs/actioneditdialog.cpp:207 rc.cpp:77 toolbar/actioneditdlgs.cpp:134
 msgid "Input"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:231 dialogs/actioneditdialog.cpp:275 rc.cpp:70
-#: rc.cpp:77
+#: dialogs/actioneditdialog.cpp:231 dialogs/actioneditdialog.cpp:275 rc.cpp:85
+#: rc.cpp:92 toolbar/actioneditdlgs.cpp:158 toolbar/actioneditdlgs.cpp:202
 msgid "Inser in cursor position"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:236 dialogs/actioneditdialog.cpp:280 rc.cpp:71
-#: rc.cpp:78
+#: dialogs/actioneditdialog.cpp:236 dialogs/actioneditdialog.cpp:280 rc.cpp:86
+#: rc.cpp:93 toolbar/actioneditdlgs.cpp:163 toolbar/actioneditdlgs.cpp:206
 msgid "Replace current document"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:241 dialogs/actioneditdialog.cpp:285 rc.cpp:72
-#: rc.cpp:79
+#: dialogs/actioneditdialog.cpp:241 dialogs/actioneditdialog.cpp:285 rc.cpp:87
+#: rc.cpp:94 toolbar/actioneditdlgs.cpp:168 toolbar/actioneditdlgs.cpp:210
 msgid "Create new document"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:246 dialogs/actioneditdialog.cpp:290 rc.cpp:73
-#: rc.cpp:80
+#: dialogs/actioneditdialog.cpp:246 dialogs/actioneditdialog.cpp:290 rc.cpp:88
+#: rc.cpp:95 toolbar/actioneditdlgs.cpp:173 toolbar/actioneditdlgs.cpp:214
 msgid "Message Window"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:251 quanta_init.cpp:216 rc.cpp:67
+#: dialogs/actioneditdialog.cpp:251 quanta_init.cpp:224 rc.cpp:82
+#: toolbar/actioneditdlgs.cpp:179
 msgid "Output"
 msgstr ""
 
@@ -254,14 +295,68 @@ msgstr ""
 msgid "Merge with output"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:309 dialogs/actioneditdialog.cpp:484 rc.cpp:61
-#: toolbar/actioneditdlg.cpp:226
+#: dialogs/actioneditdialog.cpp:309 dialogs/actioneditdialog.cpp:484 rc.cpp:76
+#: toolbar/actioneditdlg.cpp:226 toolbar/actioneditdlgs.cpp:222
 msgid "Script"
 msgstr ""
 
-#: dialogs/actioneditdialog.cpp:319 dialogs/actioneditdialog.cpp:479 rc.cpp:81
+#: dialogs/actioneditdialog.cpp:319 dialogs/actioneditdialog.cpp:479 rc.cpp:96
 #: tagdialogs/cssdialog.cpp:471 toolbar/actioneditdlg.cpp:221
+#: toolbar/actioneditdlgs.cpp:232
 msgid "Text"
+msgstr ""
+
+#: dialogs/previewoptions.moc.cpp:42 dialogs/previewoptions.moc.cpp:47
+msgid "PreviewOptions"
+msgstr ""
+
+#: dialogs/previewoptionss.cpp:64 rc.cpp:42
+msgid "Full workspace"
+msgstr ""
+
+#: dialogs/previewoptionss.cpp:69 rc.cpp:43
+msgid "Disabled"
+msgstr ""
+
+#: dialogs/filemaskss.cpp:36 rc.cpp:28
+msgid "Text files:"
+msgstr ""
+
+#: dialogs/filemaskss.cpp:41 rc.cpp:29
+msgid "Images:"
+msgstr ""
+
+#: dialogs/filemaskss.cpp:49 rc.cpp:30
+msgid "Php files:"
+msgstr ""
+
+#: dialogs/filemaskss.cpp:54 rc.cpp:31
+msgid "Html files:"
+msgstr ""
+
+#: dialogs/filemasks.moc.cpp:42 dialogs/filemasks.moc.cpp:47
+msgid "FileMasks"
+msgstr ""
+
+#: dialogs/parseroptions.moc.cpp:42 dialogs/parseroptions.moc.cpp:47
+msgid "ParserOptions"
+msgstr ""
+
+#: dialogs/styleoptionss.cpp:29 plugins/ftpclient/ftpclients.cpp:38
+#: project/projectnewgenerals.cpp:36 rc.cpp:23 rc.cpp:166
+msgid "Form2"
+msgstr ""
+
+#: dialogs/styleoptionss.cpp:35 rc.cpp:24
+msgid "Use upper case characters for tags"
+msgstr ""
+
+#: dialogs/styleoptionss.cpp:40 rc.cpp:25
+msgid "Use upper case characters for tag attributes"
+msgstr ""
+
+#: dialogs/styleoptionss.cpp:45 rc.cpp:26
+msgid "Insert end of tag if applicable"
 msgstr ""
 
 #: dialogs/parseroptions.cpp:43 dialogs/parseroptions.cpp:71
@@ -324,24 +419,29 @@ msgstr ""
 msgid "Expand tree when reparse to level :"
 msgstr ""
 
+#: dialogs/grepdialog.moc.cpp:42 dialogs/grepdialog.moc.cpp:47
+msgid "GrepDialog"
+msgstr ""
+
+#: dialogs/previewfontoptions.moc.cpp:42 dialogs/previewfontoptions.moc.cpp:47
+msgid "PreviewFontOptions"
+msgstr ""
+
+#: tagdialogs/tagmail.moc.cpp:42 tagdialogs/tagmail.moc.cpp:47
+msgid "TagMail"
+msgstr ""
+
 #: tagdialogs/tagimgdlgdata.cpp:23
 msgid "Image Source"
 msgstr ""
 
-#: plugins/ftpclient/ftpclients.cpp:76 plugins/ftpclient/ftpclients.cpp:142
-#: rc.cpp:46 rc.cpp:118 rc.cpp:137 rc.cpp:151 tagdialogs/filecombo.cpp:43
+#: plugins/ftpclient/ftpclients.cpp:76 plugins/ftpclient/ftpclients.cpp:146
+#: project/copytos.cpp:53 project/projectnewgenerals.cpp:94 rc.cpp:46
+#: rc.cpp:64 rc.cpp:155 rc.cpp:171 tagdialogs/filecombo.cpp:43
 #: tagdialogs/filecombo.cpp:62 tagdialogs/tagimgdlgdata.cpp:32
-#: tagdialogs/tagimgdlgdata.cpp:57
+#: tagdialogs/tagimgdlgdata.cpp:57 tagdialogs/tagmail.cpp:94
+#: tagdialogs/tagquickstarts.cpp:73
 msgid "..."
-msgstr ""
-
-#: tagdialogs/cssdialog.cpp:499 tagdialogs/cssdialog.cpp:957
-#: tagdialogs/tagimgdlgdata.cpp:37
-msgid "Width"
-msgstr ""
-
-#: tagdialogs/cssdialog.cpp:962 tagdialogs/tagimgdlgdata.cpp:47
-msgid "Height"
 msgstr ""
 
 #: tagdialogs/tagimgdlgdata.cpp:62
@@ -356,29 +456,96 @@ msgstr ""
 msgid "Alternate Text"
 msgstr ""
 
-#: tagdialogs/cssdialog.cpp:688 tagdialogs/tagimgdlgdata.cpp:89
-msgid "Border"
-msgstr ""
-
-#: tagdialogs/tagimgdlgdata.cpp:99
-msgid "Align"
-msgstr ""
-
 #: tagdialogs/tagquicktabledata.cpp:31
-msgid "Num of Rows"
+msgid "Number of rows"
 msgstr ""
 
 #: tagdialogs/tagquicktabledata.cpp:36
-msgid "Num of Collums"
+msgid "Number of columns"
 msgstr ""
 
-#: rc.cpp:54 rc.cpp:136 tagdialogs/tagquicklistdlgdata.cpp:32
-#: tagdialogs/tagquicktabledata.cpp:41
+#: project/copytos.cpp:43 project/renamedialog.cpp:43 rc.cpp:54 rc.cpp:58
+#: rc.cpp:69 rc.cpp:114 rc.cpp:154 tagdialogs/tagmail.cpp:48
+#: tagdialogs/tagmisc.cpp:71 tagdialogs/tagquicklistdlgdata.cpp:32
+#: tagdialogs/tagquickstarts.cpp:161 tagdialogs/tagquicktabledata.cpp:41
 msgid "Ok"
+msgstr ""
+
+#: tagdialogs/tagimgdlg.moc.cpp:42 tagdialogs/tagimgdlg.moc.cpp:47
+msgid "TagImgDlg"
+msgstr ""
+
+#: tagdialogs/colorcombo.moc.cpp:42 tagdialogs/colorcombo.moc.cpp:47
+msgid "ColorCombo"
+msgstr ""
+
+#: tagdialogs/tagquicktable.moc.cpp:42 tagdialogs/tagquicktable.moc.cpp:47
+msgid "TagQuickTable"
+msgstr ""
+
+#: tagdialogs/tagmaildlg.cpp:53
+msgid "Cannot access the address book!"
+msgstr ""
+
+#: tagdialogs/tagmaildlg.cpp:78
+msgid "No addresses found!"
 msgstr ""
 
 #: tagdialogs/colorcombo.cpp:177 tagdialogs/colorcombo.cpp:231
 msgid "Custom..."
+msgstr ""
+
+#: tagdialogs/listdlg.moc.cpp:42 tagdialogs/listdlg.moc.cpp:47
+msgid "ListDlg"
+msgstr ""
+
+#: tagdialogs/tagmaildlg.moc.cpp:42 tagdialogs/tagmaildlg.moc.cpp:47
+msgid "TagMailDlg"
+msgstr ""
+
+#: tagdialogs/cssdialogi.moc.cpp:42 tagdialogs/cssdialogi.moc.cpp:47
+msgid "CSSDialogI"
+msgstr ""
+
+#: tagdialogs/corewidgetdlgs.moc.cpp:42 tagdialogs/corewidgetdlgs.moc.cpp:47
+msgid "CoreWidgetDlgS"
+msgstr ""
+
+#: rc.cpp:45 tagdialogs/tagquickstarts.cpp:45
+msgid "Link Color"
+msgstr ""
+
+#: rc.cpp:47 tagdialogs/tagquickstarts.cpp:84
+msgid "Text Color"
+msgstr ""
+
+#: rc.cpp:48 tagdialogs/tagquickstarts.cpp:94
+msgid "BG Image"
+msgstr ""
+
+#: rc.cpp:49 tagdialogs/tagquickstarts.cpp:124
+msgid "Bg Color"
+msgstr ""
+
+#: rc.cpp:50 tagdialogs/tagquickstarts.cpp:129
+msgid "Visited Link Color"
+msgstr ""
+
+#: rc.cpp:51 tagdialogs/tagquickstarts.cpp:134
+msgid "Active Link Color"
+msgstr ""
+
+#: kwrite/ktextprint.cpp:1052 rc.cpp:52 rc.cpp:62 tagdialogs/tagmail.cpp:71
+#: tagdialogs/tagquickstarts.cpp:144
+msgid "Title"
+msgstr ""
+
+#: tagdialogs/corewidgetdlg.moc.cpp:42 tagdialogs/corewidgetdlg.moc.cpp:47
+msgid "CoreWidgetDlg"
+msgstr ""
+
+#: tagdialogs/tagdialog.moc.cpp:42 tagdialogs/tagdialog.moc.cpp:47
+msgid "TagDialog"
 msgstr ""
 
 #: tagdialogs/tagdialog.cpp:81
@@ -395,6 +562,10 @@ msgstr ""
 
 #: tagdialogs/tagdialog.cpp:89
 msgid "Events"
+msgstr ""
+
+#: tagdialogs/tagmiscdlg.moc.cpp:42 tagdialogs/tagmiscdlg.moc.cpp:47
+msgid "TagMiscDlg"
 msgstr ""
 
 #: tagdialogs/tagquicklistdlgdata.cpp:22
@@ -508,22 +679,6 @@ msgstr ""
 msgid "line through"
 msgstr ""
 
-#: tagdialogs/cssdialog.cpp:479 tagdialogs/cssdialog.cpp:782
-msgid "Top"
-msgstr ""
-
-#: rc.cpp:40 tagdialogs/cssdialog.cpp:484 tagdialogs/cssdialog.cpp:787
-msgid "Right"
-msgstr ""
-
-#: rc.cpp:41 tagdialogs/cssdialog.cpp:489 tagdialogs/cssdialog.cpp:792
-msgid "Bottom"
-msgstr ""
-
-#: tagdialogs/cssdialog.cpp:494 tagdialogs/cssdialog.cpp:797
-msgid "Left"
-msgstr ""
-
 #: tagdialogs/cssdialog.cpp:675
 msgid "Insert values per property"
 msgstr ""
@@ -582,165 +737,301 @@ msgstr ""
 msgid "Box"
 msgstr ""
 
-#: document.cpp:465
+#: tagdialogs/tagquicklistdlg.moc.cpp:42 tagdialogs/tagquicklistdlg.moc.cpp:47
+msgid "TagQuickListDlg"
+msgstr ""
+
+#: rc.cpp:60 tagdialogs/tagmail.cpp:63
+msgid "E-mail address"
+msgstr ""
+
+#: rc.cpp:61 tagdialogs/tagmail.cpp:67
+msgid "Subject"
+msgstr ""
+
+#: rc.cpp:63 tagdialogs/tagmail.cpp:87
+msgid "Some browsers use this field as the subject"
+msgstr ""
+
+#: tagdialogs/tagquickstarts.moc.cpp:42 tagdialogs/tagquickstarts.moc.cpp:47
+msgid "TagQuickStartS"
+msgstr ""
+
+#: tagdialogs/tagxml.moc.cpp:42 tagdialogs/tagxml.moc.cpp:47
+msgid "Tagxml"
+msgstr ""
+
+#: tagdialogs/cssdialog.moc.cpp:42 tagdialogs/cssdialog.moc.cpp:47
+msgid "CSSDialog"
+msgstr ""
+
+#: tagdialogs/filecombo.moc.cpp:42 tagdialogs/filecombo.moc.cpp:47
+msgid "FileCombo"
+msgstr ""
+
+#: tagdialogs/eventswidgetdlg.moc.cpp:42 tagdialogs/eventswidgetdlg.moc.cpp:47
+msgid "EventsWidgetDlg"
+msgstr ""
+
+#: tagdialogs/eventswidgetdlgs.moc.cpp:42
+#: tagdialogs/eventswidgetdlgs.moc.cpp:47
+msgid "EventsWidgetDlgS"
+msgstr ""
+
+#: tagdialogs/pictureview.moc.cpp:42 tagdialogs/pictureview.moc.cpp:47
+msgid "PictureView"
+msgstr ""
+
+#: rc.cpp:65 tagdialogs/tagmisc.cpp:34
+msgid "Misc. tag"
+msgstr ""
+
+#: rc.cpp:66 tagdialogs/tagmisc.cpp:47
+msgid "Element name:"
+msgstr ""
+
+#: rc.cpp:67 tagdialogs/tagmisc.cpp:52
+msgid "&Add closing tag"
+msgstr ""
+
+#: tagdialogs/tagquickstart.moc.cpp:42 tagdialogs/tagquickstart.moc.cpp:47
+msgid "TagQuickStart"
+msgstr ""
+
+#: document.cpp:466
 msgid "Configure KWrite"
 msgstr ""
 
-#: document.cpp:471
+#: document.cpp:472
 msgid "Colors"
 msgstr ""
 
-#: document.cpp:478
+#: document.cpp:479
 msgid "Indent"
 msgstr ""
 
-#: document.cpp:483
+#: document.cpp:484
 msgid "Select"
 msgstr ""
 
-#: document.cpp:493
+#: document.cpp:494
 msgid "Spelling"
 msgstr ""
 
-#: document.cpp:493
+#: document.cpp:494
 msgid "Spell checker behavior"
 msgstr ""
 
-#: document.cpp:544
-msgid "Error starting KSpell. Please make sure you have ISpell properly configured."
+#: document.cpp:545
+msgid ""
+"Error starting KSpell. Please make sure you have ISpell properly configured."
 msgstr ""
 
-#: _translatorinfo.cpp:1 _translatorinfo.cpp:1
+#: _translatorinfo.cpp:1
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
 msgstr ""
 
-#: _translatorinfo.cpp:3 _translatorinfo.cpp:3
+#: _translatorinfo.cpp:3
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
+msgstr ""
+
+#: quantaview.moc.cpp:42 quantaview.moc.cpp:47
+msgid "QuantaView"
 msgstr ""
 
 #: main.cpp:37
 msgid "Quanta Plus Web Development Environment"
 msgstr ""
 
-#: main.cpp:43
+#: main.cpp:41
+msgid ""
+"We hope you enjoy Quanta Plus.\n"
+"\n"
+"Quanta Plus is not in any way affiliated with \n"
+"any commercial versions of Quanta. The \n"
+"primary coders from the original team \n"
+"left the GPL'd version to produce a \n"
+"commercial product."
+msgstr ""
+
+#: main.cpp:46
 msgid "file to open"
 msgstr ""
 
-#: main.cpp:44
+#: main.cpp:47
 msgid "Whether we start as a one-instance application."
 msgstr ""
 
-#: main.cpp:52
+#: main.cpp:48
+msgid "Do not show the nice logo during startup."
+msgstr ""
+
+#: main.cpp:56
 msgid "Quanta"
 msgstr ""
 
-#: quantaview_init.cpp:124
+#: quantaview_init.cpp:136
 msgid "Quick Start..."
 msgstr ""
 
-#: quantaview_init.cpp:128
+#: quantaview_init.cpp:140
 msgid "Quick Table..."
 msgstr ""
 
-#: quantaview_init.cpp:132
+#: quantaview_init.cpp:144
 msgid "Quick List..."
 msgstr ""
 
-#: quantaview_init.cpp:158
+#: quantaview_init.cpp:170
 msgid "Color..."
 msgstr ""
 
-#: quantaview_init.cpp:163
-msgid "EMail..."
+#: quantaview_init.cpp:175
+msgid "E-Mail..."
 msgstr ""
 
-#: quantaview_init.cpp:167
+#: quantaview_init.cpp:179 quantaview_slots.cpp:240
+msgid "Misc. tag..."
+msgstr ""
+
+#: quantaview_init.cpp:183
 msgid "Paste &HTML Quoted"
 msgstr ""
 
-#: quantaview_init.cpp:171
+#: quantaview_init.cpp:187
 msgid "Paste &URL Encoded"
 msgstr ""
 
-#: quantaview_init.cpp:175
+#: quantaview_init.cpp:191
 msgid "Insert CSS..."
 msgstr ""
 
-#: quantaview_slots.cpp:65
+#: quantaview_slots.cpp:68
 msgid "Unknown tag : "
 msgstr ""
 
-#: quantaview_slots.cpp:211
+#: quantaview_slots.cpp:210
+msgid "E-mail link (mailto)..."
+msgstr ""
+
+#: quantaview_slots.cpp:263
 msgid "Generate HTML text..."
 msgstr ""
 
-#: quantaview_slots.cpp:239
+#: quantaview_slots.cpp:291
 msgid "Generate list..."
 msgstr ""
 
-#: quantaview_slots.cpp:269
+#: quantaview_slots.cpp:321
 msgid "Generate table..."
 msgstr ""
 
-#: quantaview_slots.cpp:545
+#: quantaview_slots.cpp:602
 msgid "&"
 msgstr ""
 
-#: quantaview_slots.cpp:545
+#: quantaview_slots.cpp:602
 msgid "&amp;"
 msgstr ""
 
-#: quantaview_slots.cpp:546
+#: quantaview_slots.cpp:603
 msgid "<"
 msgstr ""
 
-#: quantaview_slots.cpp:546
+#: quantaview_slots.cpp:603
 msgid "&lt;"
 msgstr ""
 
-#: quantaview_slots.cpp:547
+#: quantaview_slots.cpp:604
 msgid "\""
 msgstr ""
 
-#: quantaview_slots.cpp:547
+#: quantaview_slots.cpp:604
 msgid "&quot;"
 msgstr ""
 
-#: toolbar/tagaction.cpp:157 toolbar/tagaction.cpp:194
-msgid ""
-"Script output:\n"
+#: rc.cpp:71 toolbar/actioneditdlgs.cpp:42
+msgid "Actions configuration"
 msgstr ""
 
-#: treeviews/filestreeview.cpp:65 treeviews/filestreeview.cpp:67
+#: rc.cpp:97 toolbar/actioneditdlgs.cpp:241
+msgid "&New"
+msgstr ""
+
+#: rc.cpp:101 toolbar/actioneditdlgs.cpp:267
+msgid "Status text:"
+msgstr ""
+
+#: rc.cpp:102 toolbar/actioneditdlgs.cpp:282
+msgid "ToolTip:"
+msgstr ""
+
+#: rc.cpp:103 toolbar/actioneditdlgs.cpp:287
+msgid "Text:"
+msgstr ""
+
+#: toolbar/tagaction.cpp:157 toolbar/tagaction.cpp:194
+msgid "Script output:\n"
+msgstr ""
+
+#: toolbar/actioneditdlg.moc.cpp:42 toolbar/actioneditdlg.moc.cpp:47
+msgid "ActionEditDlg"
+msgstr ""
+
+#: toolbar/tagaction.moc.cpp:42 toolbar/tagaction.moc.cpp:47
+msgid "TagAction"
+msgstr ""
+
+#: treeviews/doctreeview.moc.cpp:42 treeviews/doctreeview.moc.cpp:47
+msgid "DocTreeView"
+msgstr ""
+
+#: treeviews/filestreeview.cpp:66 treeviews/filestreeview.cpp:68
 msgid "List mode"
 msgstr ""
 
-#: treeviews/filestreeview.cpp:68 treeviews/filestreeview.cpp:129
+#: treeviews/filestreeview.cpp:69 treeviews/filestreeview.cpp:130
 msgid "Add folder to top"
 msgstr ""
 
-#: treeviews/filestreeview.cpp:128
+#: treeviews/filestreeview.cpp:129
 msgid "Remove from top"
+msgstr ""
+
+#: treeviews/projecttreeview.moc.cpp:42 treeviews/projecttreeview.moc.cpp:47
+msgid "ProjectTreeView"
+msgstr ""
+
+#: treeviews/structtreeview.moc.cpp:42 treeviews/structtreeview.moc.cpp:47
+msgid "StructTreeView"
 msgstr ""
 
 #: treeviews/fileslistview.cpp:56 treeviews/fileslistview.cpp:58
 msgid "Tree mode"
 msgstr ""
 
-#: treeviews/filemanage.cpp:44 treeviews/projecttreeview.cpp:63
-#: treeviews/projecttreeview.cpp:74
+#: treeviews/filemanage.moc.cpp:42 treeviews/filemanage.moc.cpp:47
+msgid "FileManage"
+msgstr ""
+
+#: treeviews/filestreeview.moc.cpp:42 treeviews/filestreeview.moc.cpp:47
+msgid "FilesTreeView"
+msgstr ""
+
+#: treeviews/filemanage.cpp:44 treeviews/projecttreeview.cpp:64
+#: treeviews/projecttreeview.cpp:76
 msgid "&Open"
 msgstr ""
 
-#: treeviews/filemanage.cpp:45 treeviews/projecttreeview.cpp:64
+#: treeviews/filemanage.cpp:45 treeviews/projecttreeview.cpp:65
 msgid "Open with..."
 msgstr ""
 
-#: treeviews/filemanage.cpp:46 treeviews/projecttreeview.cpp:65
+#: treeviews/filemanage.cpp:46 treeviews/projecttreeview.cpp:66
 msgid "Open in Quanta"
 msgstr ""
 
@@ -764,19 +1055,27 @@ msgstr ""
 msgid "follow cursor"
 msgstr ""
 
-#: treeviews/projecttreeview.cpp:67 treeviews/projecttreeview.cpp:76
-msgid "Remove from disc"
+#: treeviews/fileslistview.moc.cpp:42 treeviews/fileslistview.moc.cpp:47
+msgid "FilesListView"
 msgstr ""
 
-#: treeviews/projecttreeview.cpp:68 treeviews/projecttreeview.cpp:77
+#: treeviews/projecttreeview.cpp:68 treeviews/projecttreeview.cpp:78
+msgid "Remove from disc (and project)"
+msgstr ""
+
+#: treeviews/projecttreeview.cpp:69 treeviews/projecttreeview.cpp:79
 msgid "Remove from project"
 msgstr ""
 
-#: treeviews/projecttreeview.cpp:70
+#: treeviews/projecttreeview.cpp:70 treeviews/projecttreeview.cpp:80
+msgid "Rename"
+msgstr ""
+
+#: treeviews/projecttreeview.cpp:72
 msgid "Upload file..."
 msgstr ""
 
-#: treeviews/projecttreeview.cpp:79
+#: treeviews/projecttreeview.cpp:82
 msgid "Upload folder..."
 msgstr ""
 
@@ -824,7 +1123,7 @@ msgstr ""
 msgid "&Prompt On Replace"
 msgstr ""
 
-#: kwrite/kwdialog.cpp:159
+#: kwrite/kwdialog.cpp:159 project/projectuploads.cpp:144 rc.cpp:126
 msgid "&All"
 msgstr ""
 
@@ -952,7 +1251,7 @@ msgstr ""
 msgid "Text Background:"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3227 kwrite/kwdialog.cpp:605
+#: kwrite/highlight/highlight.cpp:3230 kwrite/kwdialog.cpp:605
 msgid "Selected:"
 msgstr ""
 
@@ -976,7 +1275,7 @@ msgstr ""
 msgid "Unselect all"
 msgstr ""
 
-#: kwrite/kwview.cpp:1589 quanta_init.cpp:612
+#: kwrite/kwview.cpp:1589 quanta_init.cpp:645
 msgid "Undo/Redo &History..."
 msgstr ""
 
@@ -1004,15 +1303,15 @@ msgstr ""
 msgid "&Clear Markers"
 msgstr ""
 
-#: kwrite/kwview.cpp:1619 quanta_init.cpp:650
+#: kwrite/kwview.cpp:1619 quanta_init.cpp:683
 msgid "&Indent"
 msgstr ""
 
-#: kwrite/kwview.cpp:1621 quanta_init.cpp:654
+#: kwrite/kwview.cpp:1621 quanta_init.cpp:687
 msgid "&Unindent"
 msgstr ""
 
-#: kwrite/kwview.cpp:1623 quanta_init.cpp:658
+#: kwrite/kwview.cpp:1623 quanta_init.cpp:691
 msgid "&Clean Indentation"
 msgstr ""
 
@@ -1028,7 +1327,7 @@ msgstr ""
 msgid "Configure Highlighti&ng..."
 msgstr ""
 
-#: kwrite/kwview.cpp:1632 quanta_init.cpp:633
+#: kwrite/kwview.cpp:1632 quanta_init.cpp:666
 msgid "&Vertical Selection"
 msgstr ""
 
@@ -1036,7 +1335,7 @@ msgstr ""
 msgid "&Highlight Mode"
 msgstr ""
 
-#: kwrite/kwview.cpp:1642 quanta_init.cpp:807
+#: kwrite/kwview.cpp:1642 quanta_init.cpp:847
 msgid "&End Of Line"
 msgstr ""
 
@@ -1072,8 +1371,8 @@ msgstr ""
 msgid "An error occured while trying to write this document"
 msgstr ""
 
-#: kwrite/kwview.cpp:2200 project/project.cpp:362
-#, c-format
+#: kwrite/kwview.cpp:2200 project/project.cpp:392
+#, c-format, ycp-format
 msgid ""
 "Malformed URL\n"
 "%1"
@@ -1084,17 +1383,17 @@ msgid "Loading..."
 msgstr ""
 
 #: kwrite/kwview.cpp:2222 kwrite/kwview.cpp:2349
-#, c-format
+#, c-format, ycp-format
 msgid "Inserted : %1"
 msgstr ""
 
 #: kwrite/kwview.cpp:2229 kwrite/kwview.cpp:2356
-#, c-format
+#, c-format, ycp-format
 msgid "Read : %1"
 msgstr ""
 
 #: kwrite/kwview.cpp:2236
-#, c-format
+#, c-format, ycp-format
 msgid "New File : %1"
 msgstr ""
 
@@ -1103,7 +1402,7 @@ msgid "Saving..."
 msgstr ""
 
 #: kwrite/kwview.cpp:2294 kwrite/kwview.cpp:2310
-#, c-format
+#, c-format, ycp-format
 msgid "Wrote %1"
 msgstr ""
 
@@ -1150,14 +1449,17 @@ msgid ""
 msgstr ""
 
 #: kwrite/kwview.cpp:2807
+#, ycp-format
 msgid "Search string '%1' not found!"
 msgstr ""
 
 #: kwrite/kwview.cpp:2942
+#, ycp-format
 msgid "%1 replace(s) made"
 msgstr ""
 
 #: kwrite/kwview.cpp:2950
+#, ycp-format
 msgid ""
 "%1 replace(s) made.\n"
 "End of document reached.\n"
@@ -1165,6 +1467,7 @@ msgid ""
 msgstr ""
 
 #: kwrite/kwview.cpp:2957
+#, ycp-format
 msgid ""
 "%1 replace(s) made.\n"
 "Beginning of document reached.\n"
@@ -1172,16 +1475,17 @@ msgid ""
 msgstr ""
 
 #: kwrite/kwview.cpp:2998
+#, ycp-format
 msgid "&%1 - Line %2"
 msgstr ""
 
 #: kwrite/kwview.cpp:3001
-#, c-format
+#, c-format, ycp-format
 msgid "&%1"
 msgstr ""
 
 #: kwrite/kwview.cpp:3004
-#, c-format
+#, c-format, ycp-format
 msgid "1&0 - Line %1"
 msgstr ""
 
@@ -1190,7 +1494,7 @@ msgid "&10"
 msgstr ""
 
 #: kwrite/kwview.cpp:3091
-#, c-format
+#, c-format, ycp-format
 msgid "Line: %1"
 msgstr ""
 
@@ -1282,10 +1586,6 @@ msgstr ""
 msgid "Text Lines:"
 msgstr ""
 
-#: kwrite/ktextprint.cpp:1052 rc.cpp:52
-msgid "Title"
-msgstr ""
-
 #: kwrite/ktextprint.cpp:1054
 msgid "Page Numbers"
 msgstr ""
@@ -1299,18 +1599,18 @@ msgstr ""
 #: kwrite/highlight/highlight.cpp:1810 kwrite/highlight/highlight.cpp:1848
 #: kwrite/highlight/highlight.cpp:1889 kwrite/highlight/highlight.cpp:1946
 #: kwrite/highlight/highlight.cpp:2202 kwrite/highlight/highlight.cpp:2251
-#: kwrite/highlight/highlight.cpp:3534
+#: kwrite/highlight/highlight.cpp:3541 kwrite/highlight/highlight.cpp:3637
 msgid "Normal Text"
 msgstr ""
 
 #: kwrite/highlight/highlight.cpp:1346 kwrite/highlight/highlight.cpp:1773
 #: kwrite/highlight/highlight.cpp:1811 kwrite/highlight/highlight.cpp:1849
 #: kwrite/highlight/highlight.cpp:1890 kwrite/highlight/highlight.cpp:1947
-#: kwrite/highlight/highlight.cpp:2203 kwrite/highlight/highlight.cpp:3076
+#: kwrite/highlight/highlight.cpp:2203 kwrite/highlight/highlight.cpp:3079
 msgid "Keyword"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:1347 kwrite/highlight/highlight.cpp:3077
+#: kwrite/highlight/highlight.cpp:1347 kwrite/highlight/highlight.cpp:3080
 msgid "Data Type"
 msgstr ""
 
@@ -1332,14 +1632,14 @@ msgstr ""
 #: kwrite/highlight/highlight.cpp:1352 kwrite/highlight/highlight.cpp:1642
 #: kwrite/highlight/highlight.cpp:1853 kwrite/highlight/highlight.cpp:1895
 #: kwrite/highlight/highlight.cpp:2211 kwrite/highlight/highlight.cpp:2256
-#: kwrite/highlight/highlight.cpp:3535
+#: kwrite/highlight/highlight.cpp:3542
 msgid "Char"
 msgstr ""
 
 #: kwrite/highlight/highlight.cpp:1353 kwrite/highlight/highlight.cpp:1775
 #: kwrite/highlight/highlight.cpp:1815 kwrite/highlight/highlight.cpp:1854
 #: kwrite/highlight/highlight.cpp:1896 kwrite/highlight/highlight.cpp:1950
-#: kwrite/highlight/highlight.cpp:2212 kwrite/highlight/highlight.cpp:3082
+#: kwrite/highlight/highlight.cpp:2212 kwrite/highlight/highlight.cpp:3085
 msgid "String"
 msgstr ""
 
@@ -1352,8 +1652,8 @@ msgstr ""
 #: kwrite/highlight/highlight.cpp:1777 kwrite/highlight/highlight.cpp:1816
 #: kwrite/highlight/highlight.cpp:1855 kwrite/highlight/highlight.cpp:1898
 #: kwrite/highlight/highlight.cpp:1952 kwrite/highlight/highlight.cpp:2213
-#: kwrite/highlight/highlight.cpp:2258 kwrite/highlight/highlight.cpp:3083
-#: kwrite/highlight/highlight.cpp:3536
+#: kwrite/highlight/highlight.cpp:2258 kwrite/highlight/highlight.cpp:3086
+#: kwrite/highlight/highlight.cpp:3543 kwrite/highlight/highlight.cpp:3638
 msgid "Comment"
 msgstr ""
 
@@ -1369,11 +1669,11 @@ msgstr ""
 msgid "Prep. Lib"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:1644 kwrite/highlight/highlight.cpp:3537
+#: kwrite/highlight/highlight.cpp:1644 kwrite/highlight/highlight.cpp:3544
 msgid "Tag Text"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:1646 kwrite/highlight/highlight.cpp:3539
+#: kwrite/highlight/highlight.cpp:1646 kwrite/highlight/highlight.cpp:3546
 msgid "Tag Value"
 msgstr ""
 
@@ -1437,96 +1737,112 @@ msgstr ""
 msgid "Parameter"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:2866 kwrite/highlight/highlight.cpp:3075
+#: kwrite/highlight/highlight.cpp:2866 kwrite/highlight/highlight.cpp:3078
 msgid "Normal"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3078
+#: kwrite/highlight/highlight.cpp:3081
 msgid "Decimal/Value"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3079
+#: kwrite/highlight/highlight.cpp:3082
 msgid "Base-N Integer"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3080
+#: kwrite/highlight/highlight.cpp:3083
 msgid "Floating Point"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3081
+#: kwrite/highlight/highlight.cpp:3084
 msgid "Character"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3084
+#: kwrite/highlight/highlight.cpp:3087
 msgid "Others"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3219
+#: kwrite/highlight/highlight.cpp:3222
 msgid "Normal:"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3232
+#: kwrite/highlight/highlight.cpp:3235
 msgid "Bold"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3286
+#: kwrite/highlight/highlight.cpp:3289
 msgid "Family:"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3298
+#: kwrite/highlight/highlight.cpp:3301
 msgid "Size:"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3386
+#: kwrite/highlight/highlight.cpp:3393
 msgid "Highlight Settings"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3395
+#: kwrite/highlight/highlight.cpp:3402
 msgid "Default Item Styles"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3396 kwrite/highlight/highlight.cpp:3442
+#: kwrite/highlight/highlight.cpp:3403 kwrite/highlight/highlight.cpp:3449
 msgid "Item:"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3405
+#: kwrite/highlight/highlight.cpp:3412
 msgid "Default Font"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3417
+#: kwrite/highlight/highlight.cpp:3424
 msgid "&Highlight Modes"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3420
+#: kwrite/highlight/highlight.cpp:3427
 msgid "Config Select"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3422
+#: kwrite/highlight/highlight.cpp:3429
 msgid "Item Style"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3424
+#: kwrite/highlight/highlight.cpp:3431
 msgid "Highlight Auto Select"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3426
+#: kwrite/highlight/highlight.cpp:3433
 msgid "Item Font"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3432
+#: kwrite/highlight/highlight.cpp:3439
 msgid "Highlight:"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3446
+#: kwrite/highlight/highlight.cpp:3453
 msgid "File Extensions:"
 msgstr ""
 
-#: kwrite/highlight/highlight.cpp:3448
+#: kwrite/highlight/highlight.cpp:3455
 msgid "Mime Types:"
 msgstr ""
 
+#: kwrite/highlight/highlight.cpp:3639
+msgid "Selector"
+msgstr ""
+
+#: kwrite/highlight/highlight.cpp:3640
+msgid "Class"
+msgstr ""
+
+#: kwrite/highlight/highlight.cpp:3641
+msgid "Property"
+msgstr ""
+
+#: kwrite/highlight/highlight.cpp:3642
+msgid "Property Value"
+msgstr ""
+
 #: kwrite/highlight/syntaxdocument.cpp:48
-#, c-format
+#, c-format, ycp-format
 msgid "Can't open %1"
 msgstr ""
 
@@ -1542,7 +1858,7 @@ msgstr ""
 msgid "Advanced Texteditor Component"
 msgstr ""
 
-#: kwrite/kwrite_factory.cpp:65 rc.cpp:152
+#: kwrite/kwrite_factory.cpp:65 project/projectnewgenerals.cpp:99 rc.cpp:172
 msgid "Author"
 msgstr ""
 
@@ -1558,492 +1874,475 @@ msgstr ""
 msgid "XML Syntax highlighting support"
 msgstr ""
 
-#: quantadoc.cpp:286
+#: quantadoc.cpp:336
 msgid ""
 "The current file has been modified.\n"
 "Do you want to save it?"
 msgstr ""
 
-#: rc.cpp:3 rc.cpp:162
+#: rc.cpp:3 rc.cpp:182
 msgid "Paste &Special"
 msgstr ""
 
-#: rc.cpp:8 rc.cpp:167
+#: rc.cpp:8 rc.cpp:187
 msgid "Table"
 msgstr ""
 
-#: rc.cpp:9 rc.cpp:21 rc.cpp:168 rc.cpp:180
+#: rc.cpp:9 rc.cpp:21 rc.cpp:188 rc.cpp:200
 msgid "Forms"
 msgstr ""
 
-#: rc.cpp:10 rc.cpp:20 rc.cpp:169 rc.cpp:179
+#: rc.cpp:10 rc.cpp:20 rc.cpp:189 rc.cpp:199
 msgid "Lists"
 msgstr ""
 
-#: rc.cpp:12 rc.cpp:171
+#: rc.cpp:12 rc.cpp:191
 msgid "&Project"
 msgstr ""
 
-#: rc.cpp:15 rc.cpp:174
+#: rc.cpp:15 rc.cpp:194
 msgid "Editor Toolbar"
 msgstr ""
 
-#: rc.cpp:16 rc.cpp:175
+#: rc.cpp:16 rc.cpp:195
 msgid "Navigation Toolbar"
 msgstr ""
 
-#: rc.cpp:19 rc.cpp:178
+#: rc.cpp:19 rc.cpp:198
 msgid "Tables"
 msgstr ""
 
-#: rc.cpp:22 rc.cpp:181
+#: rc.cpp:22 rc.cpp:201
 msgid "Other"
 msgstr ""
 
-#: plugins/ftpclient/ftpclients.cpp:38 rc.cpp:23 rc.cpp:146
-msgid "Form2"
-msgstr ""
-
-#: rc.cpp:24
-msgid "Use upper case characters for tags"
-msgstr ""
-
-#: rc.cpp:25
-msgid "Use upper case characters for tag attributes"
-msgstr ""
-
-#: rc.cpp:26
-msgid "Insert end of tag if applicable"
-msgstr ""
-
-#: rc.cpp:27 rc.cpp:33 rc.cpp:38 rc.cpp:44 rc.cpp:113 rc.cpp:134
-msgid "Form1"
-msgstr ""
-
-#: rc.cpp:28
-msgid "Text files:"
-msgstr ""
-
-#: rc.cpp:29
-msgid "Images:"
-msgstr ""
-
-#: rc.cpp:30
-msgid "Php files:"
-msgstr ""
-
-#: rc.cpp:31
-msgid "Html files:"
-msgstr ""
-
-#: rc.cpp:34
-msgid "Enable Debugger"
-msgstr ""
-
-#: rc.cpp:36
-msgid "PHP3 Listener"
-msgstr ""
-
-#: rc.cpp:37
-msgid "PHP4 Debugger"
-msgstr ""
-
-#: rc.cpp:42
-msgid "Full workspace"
-msgstr ""
-
-#: rc.cpp:43
-msgid "Disabled"
-msgstr ""
-
-#: rc.cpp:45
-msgid "Link Color"
-msgstr ""
-
-#: rc.cpp:47
-msgid "Text Color"
-msgstr ""
-
-#: rc.cpp:48
-msgid "BG Image"
-msgstr ""
-
-#: rc.cpp:49
-msgid "Bg Color"
-msgstr ""
-
-#: rc.cpp:50
-msgid "Visited Link Color"
-msgstr ""
-
-#: rc.cpp:51
-msgid "Active Link Color"
-msgstr ""
-
-#: rc.cpp:56
-msgid "Actions configuration"
-msgstr ""
-
-#: rc.cpp:82
-msgid "&New"
-msgstr ""
-
-#: rc.cpp:86
-msgid "Status text:"
-msgstr ""
-
-#: rc.cpp:87
-msgid "ToolTip:"
-msgstr ""
-
-#: rc.cpp:88
-msgid "Text:"
-msgstr ""
-
-#: rc.cpp:89
+#: project/projectnewwebs.cpp:36 rc.cpp:104
 msgid "Form4"
 msgstr ""
 
-#: rc.cpp:91 rc.cpp:98 rc.cpp:144
+#: project/projectnewwebs.cpp:45 project/projectuploads.cpp:169 rc.cpp:105
+#: rc.cpp:131
 msgid "File name"
 msgstr ""
 
-#: plugins/ftpclient/ftpclients.cpp:83 plugins/ftpclient/ftpclients.cpp:149
-#: rc.cpp:92 rc.cpp:100 rc.cpp:127 rc.cpp:145
+#: plugins/ftpclient/ftpclients.cpp:83 plugins/ftpclient/ftpclients.cpp:153
+#: project/projectnewwebs.cpp:46 project/projectuploads.cpp:171
+#: project/rescanprjdir.cpp:61 rc.cpp:106 rc.cpp:133 rc.cpp:145
 msgid "Size"
 msgstr ""
 
-#: rc.cpp:93
+#: project/projectnewwebs.cpp:59 rc.cpp:107
 msgid "wget's command line"
 msgstr ""
 
-#: rc.cpp:94
+#: project/projectnewwebs.cpp:64 rc.cpp:108
 msgid "Site source"
 msgstr ""
 
-#: project/projectnewweb.cpp:118 project/projectnewweb.cpp:125 rc.cpp:96
+#: project/projectnewweb.cpp:120 project/projectnewweb.cpp:128
+#: project/projectnewwebs.cpp:87 rc.cpp:110
 msgid "Start"
 msgstr ""
 
-#: rc.cpp:97
+#: project/projectuploads.cpp:41 rc.cpp:115
 msgid "Upload project files"
 msgstr ""
 
-#: plugins/ftpclient/ftpclients.cpp:85 plugins/ftpclient/ftpclients.cpp:151
-#: rc.cpp:99
-msgid "Date"
+#: project/projectuploads.cpp:51 rc.cpp:116
+msgid "Password:"
 msgstr ""
 
-#: rc.cpp:102
-msgid "All"
+#: project/projectuploads.cpp:56 rc.cpp:117
+msgid "Path:"
 msgstr ""
 
-#: rc.cpp:103
-msgid "Modified"
-msgstr ""
-
-#: rc.cpp:105
-msgid "&Upload"
-msgstr ""
-
-#: rc.cpp:107
-msgid "Path"
-msgstr ""
-
-#: rc.cpp:108
-msgid "User"
-msgstr ""
-
-#: rc.cpp:109
-msgid "Protocol : "
-msgstr ""
-
-#: rc.cpp:110
+#: project/projectuploads.cpp:65 rc.cpp:118
 msgid "Host:"
 msgstr ""
 
-#: rc.cpp:111
+#: project/projectuploads.cpp:70 rc.cpp:119
+msgid "User:"
+msgstr ""
+
+#: project/projectuploads.cpp:83 rc.cpp:120
 msgid "Port:"
 msgstr ""
 
-#: rc.cpp:112 rc.cpp:121
-msgid "Password"
+#: project/projectuploads.cpp:97 rc.cpp:121
+msgid "Protocol : "
 msgstr ""
 
-#: rc.cpp:115
-msgid "Project publishing"
+#: project/projectuploads.cpp:103 rc.cpp:122
+msgid "&Keep password"
 msgstr ""
 
-#: rc.cpp:116
-msgid "Server url"
+#: project/projectuploads.cpp:105 rc.cpp:123
+msgid ""
+"Keep the password for this session. It will not be saved, and you have to "
+"reenter after you reopen the project."
 msgstr ""
 
-#: rc.cpp:117
-msgid "Filter app"
+#: project/projectuploads.cpp:120 rc.cpp:124
+msgid "Total:"
 msgstr ""
 
-#: rc.cpp:119
-msgid "Use filter for preview"
+#: project/projectuploads.cpp:125 rc.cpp:125
+msgid "Current:"
 msgstr ""
 
-#: rc.cpp:120
-msgid "Preview prefix"
+#: project/projectuploads.cpp:148 rc.cpp:127
+msgid "&Modified"
 msgstr ""
 
-#: rc.cpp:122
-msgid "Use preview prefix ( for use PHP etc )"
+#: project/projectuploads.cpp:152 rc.cpp:128
+msgid "C&lear"
 msgstr ""
 
-#: rc.cpp:123
+#: project/projectuploads.cpp:158 rc.cpp:129
+msgid "&Upload"
+msgstr ""
+
+#: plugins/ftpclient/ftpclients.cpp:85 plugins/ftpclient/ftpclients.cpp:155
+#: project/projectuploads.cpp:170 rc.cpp:132
+msgid "Date"
+msgstr ""
+
+#: project/projectnewfinals.cpp:70 rc.cpp:136
+msgid "Use preview &prefix"
+msgstr ""
+
+#: project/projectnewfinals.cpp:76 rc.cpp:137
+msgid "Prefix:"
+msgstr ""
+
+#: project/projectnewfinals.cpp:93 rc.cpp:138
 msgid "User name"
 msgstr ""
 
-#: rc.cpp:124
+#: project/projectnewfinals.cpp:109 rc.cpp:139
+msgid "Server url"
+msgstr ""
+
+#: project/projectnewfinals.cpp:115 rc.cpp:140
+msgid "Password"
+msgstr ""
+
+#: project/projectnewfinals.cpp:126 rc.cpp:141
+msgid "Project publishing (not implemented)"
+msgstr ""
+
+#: project/rescanprjdir.cpp:35 rc.cpp:142
 msgid "MyDialog"
 msgstr ""
 
-#: rc.cpp:125
+#: project/rescanprjdir.cpp:50 rc.cpp:143
 msgid "<b>Add new files in project</b>"
 msgstr ""
 
-#: plugins/ftpclient/ftpclients.cpp:82 plugins/ftpclient/ftpclients.cpp:148
-#: rc.cpp:126
+#: plugins/ftpclient/ftpclients.cpp:82 plugins/ftpclient/ftpclients.cpp:152
+#: project/rescanprjdir.cpp:60 rc.cpp:144
 msgid "File Name"
 msgstr ""
 
-#: rc.cpp:128
+#: project/rescanprjdir.cpp:70 rc.cpp:146
 msgid "Select All"
 msgstr ""
 
-#: rc.cpp:129
+#: project/rescanprjdir.cpp:74 rc.cpp:147
 msgid "Invert"
 msgstr ""
 
-#: rc.cpp:130
+#: project/rescanprjdir.cpp:78 rc.cpp:148
 msgid "Deselect All"
 msgstr ""
 
-#: rc.cpp:138
+#: project/projectnewlocals.cpp:36 rc.cpp:156
 msgid "Form3"
 msgstr ""
 
-#: rc.cpp:140
+#: project/projectnewlocals.cpp:54 rc.cpp:158
 msgid "Insert files from"
 msgstr ""
 
-#: rc.cpp:141
-msgid "Insert only web files and images"
-msgstr ""
-
-#: rc.cpp:142
+#: project/projectnewlocals.cpp:64 rc.cpp:159
 msgid "Insert files with the specific file mask"
 msgstr ""
 
-#: rc.cpp:143
+#: project/projectnewlocals.cpp:69 rc.cpp:160
+msgid "Insert only web files and images"
+msgstr ""
+
+#: project/projectnewlocals.cpp:80 rc.cpp:161
 msgid "Included files:"
 msgstr ""
 
-#: rc.cpp:149
+#: project/projectnewlocals.cpp:84 rc.cpp:162
+msgid "A&dd folder"
+msgstr ""
+
+#: project/projectnewlocals.cpp:88 rc.cpp:163
+msgid "&Add files"
+msgstr ""
+
+#: project/projectnewlocals.cpp:92 rc.cpp:164
+msgid "&Clear list"
+msgstr ""
+
+#: project/projectnewlocals.cpp:95 rc.cpp:165
+msgid "Name"
+msgstr ""
+
+#: project/projectnewgenerals.cpp:76 rc.cpp:169
 msgid "Project source file"
 msgstr ""
 
-#: rc.cpp:150
+#: project/projectnewgenerals.cpp:87 rc.cpp:170
 msgid "E-mail"
 msgstr ""
 
-#: rc.cpp:153
+#: project/projectnewgenerals.cpp:104 rc.cpp:173
 msgid "Project name"
 msgstr ""
 
-#: rc.cpp:154
+#: project/projectnewgenerals.cpp:109 rc.cpp:174
 msgid "Project destination"
 msgstr ""
 
-#: rc.cpp:155
+#: project/projectnewgenerals.cpp:121 rc.cpp:175
 msgid "Project sources"
 msgstr ""
 
-#: rc.cpp:156
+#: project/projectnewgenerals.cpp:135 rc.cpp:176
 msgid "Add local files"
 msgstr ""
 
-#: rc.cpp:157
+#: project/projectnewgenerals.cpp:140 rc.cpp:177
 msgid "Use wget to download files from site"
 msgstr ""
 
-#: rc.cpp:158
+#: project/projectnewgenerals.cpp:145 rc.cpp:178
 msgid "Get files from CVS repository ( cvs checkout )"
 msgstr ""
 
-#: rc.cpp:159
+#: rc.cpp:179
 msgid "&nbsp;"
 msgstr ""
 
-#: quanta_init.cpp:140
+#: quantadoc.moc.cpp:42 quantadoc.moc.cpp:47
+msgid "QuantaDoc"
+msgstr ""
+
+#: document.moc.cpp:42 document.moc.cpp:47
+msgid "Document"
+msgstr ""
+
+#: widgets/whtmlpart.moc.cpp:42 widgets/whtmlpart.moc.cpp:47
+msgid "WHTMLPart"
+msgstr ""
+
+#: widgets/wtoolbar.moc.cpp:42 widgets/wtoolbar.moc.cpp:47
+msgid "WToolBar"
+msgstr ""
+
+#: quanta_init.cpp:142
 msgid "Line: 00000 Col: 000"
 msgstr ""
 
-#: quanta_init.cpp:215
+#: quanta_init.cpp:223
 msgid "Editor"
 msgstr ""
 
-#: quanta_init.cpp:590
+#: quanta_init.cpp:227
+msgid "Files tree view"
+msgstr ""
+
+#: quanta_init.cpp:229
+msgid "Project tree view"
+msgstr ""
+
+#: quanta_init.cpp:231
+msgid "Structure view (DOM tree)"
+msgstr ""
+
+#: quanta_init.cpp:233
+msgid "Documentation"
+msgstr ""
+
+#: quanta_init.cpp:620
 msgid "Close All"
 msgstr ""
 
-#: quanta_init.cpp:600
+#: quanta_init.cpp:630
 msgid "Save All..."
 msgstr ""
 
-#: quanta_init.cpp:624
+#: quanta_init.cpp:636
+msgid "&File list"
+msgstr ""
+
+#: quanta_init.cpp:657
 msgid "&Unselect All"
 msgstr ""
 
-#: quanta_init.cpp:628
+#: quanta_init.cpp:661
 msgid "&Invert Selection"
 msgstr ""
 
-#: quanta_init.cpp:641
+#: quanta_init.cpp:674
 msgid "Find In Files"
 msgstr ""
 
-#: quanta_init.cpp:662
+#: quanta_init.cpp:695
 msgid "Context &Help..."
 msgstr ""
 
-#: quanta_init.cpp:666
-msgid "Tag &Attributes"
-msgstr ""
-
-#: quanta_init.cpp:670
+#: quanta_init.cpp:703
 msgid "&Edit Current Tag..."
 msgstr ""
 
-#: quanta_init.cpp:677
+#: quanta_init.cpp:710
 msgid "&Syntax check"
 msgstr ""
 
-#: quanta_init.cpp:684
+#: quanta_init.cpp:717
 msgid "Show Files Tree"
 msgstr ""
 
-#: quanta_init.cpp:688
+#: quanta_init.cpp:721
 msgid "Show Project Tree"
 msgstr ""
 
-#: quanta_init.cpp:692
+#: quanta_init.cpp:725
 msgid "Show Structure Tree"
 msgstr ""
 
-#: quanta_init.cpp:696
+#: quanta_init.cpp:729
 msgid "Show Documentation Tree"
 msgstr ""
 
-#: quanta_init.cpp:706
+#: quanta_init.cpp:739
 msgid "Show &Messages"
 msgstr ""
 
-#: quanta_init.cpp:711
+#: quanta_init.cpp:744
 msgid "Pr&eview"
 msgstr ""
 
-#: quanta_init.cpp:718
+#: quanta_init.cpp:752
+msgid "Forward"
+msgstr ""
+
+#: quanta_init.cpp:754
 msgid "&Reload preview"
 msgstr ""
 
-#: quanta_init.cpp:723
+#: quanta_init.cpp:759
 msgid "View With Net&scape"
 msgstr ""
 
-#: quanta_init.cpp:727
+#: quanta_init.cpp:763
 msgid "View With &Konqueror"
 msgstr ""
 
-#: quanta_init.cpp:731
+#: quanta_init.cpp:767
 msgid "View With L&ynx"
 msgstr ""
 
-#: quanta_init.cpp:735
+#: quanta_init.cpp:771
 msgid "&Previous File"
 msgstr ""
 
-#: quanta_init.cpp:739
+#: quanta_init.cpp:775
 msgid "&Next File"
 msgstr ""
 
-#: quanta_init.cpp:745
+#: quanta_init.cpp:781
 msgid "&New Project..."
 msgstr ""
 
-#: quanta_init.cpp:749
+#: quanta_init.cpp:785
 msgid "&Open Project..."
 msgstr ""
 
-#: quanta_init.cpp:764
+#: quanta_init.cpp:800
+msgid "&Save Project"
+msgstr ""
+
+#: quanta_init.cpp:804
 msgid "&Close Project"
 msgstr ""
 
-#: quanta_init.cpp:768
+#: quanta_init.cpp:808
 msgid "&Insert File(s)..."
 msgstr ""
 
-#: quanta_init.cpp:772
+#: quanta_init.cpp:812
 msgid "&Insert Directory..."
 msgstr ""
 
-#: quanta_init.cpp:776
+#: quanta_init.cpp:816
 msgid "&Rescan project directory"
 msgstr ""
 
-#: quanta_init.cpp:780
+#: quanta_init.cpp:820
 msgid "&Upload Project..."
 msgstr ""
 
-#: quanta_init.cpp:784
+#: quanta_init.cpp:824
 msgid "&Project Options..."
 msgstr ""
 
-#: quanta_init.cpp:793
+#: quanta_init.cpp:833
 msgid "&Highlightings and Fonts"
 msgstr ""
 
-#: quanta_init.cpp:798
+#: quanta_init.cpp:838
 msgid "Highlight &Mode"
 msgstr ""
 
-#: quanta_init.cpp:819
+#: quanta_init.cpp:859
 msgid "Configure &Editor..."
 msgstr ""
 
-#: quanta_init.cpp:823
+#: quanta_init.cpp:863
 msgid "Configure &Actions..."
 msgstr ""
 
-#: plugins/ftpclient/ftpclient.cpp:36
+#: plugins/ftpclient/ftpclients.moc.cpp:42
+#: plugins/ftpclient/ftpclients.moc.cpp:47
+msgid "FtpClientS"
+msgstr ""
+
+#: plugins/ftpclient/ftpclientview.moc.cpp:42
+#: plugins/ftpclient/ftpclientview.moc.cpp:47
+msgid "FtpClientView"
+msgstr ""
+
+#: plugins/ftpclient/ftpclient.cpp:37
 msgid "Small FTP client"
 msgstr ""
 
-#: plugins/ftpclient/ftpclient.cpp:47
+#: plugins/ftpclient/ftpclient.cpp:48
 msgid "Connect"
 msgstr ""
 
-#: plugins/ftpclient/ftpclient.cpp:48
+#: plugins/ftpclient/ftpclient.cpp:49
 msgid "Disconnect"
 msgstr ""
 
-#: plugins/ftpclient/ftpclient.cpp:51
+#: plugins/ftpclient/ftpclient.cpp:52
 msgid "Download"
 msgstr ""
 
-#: plugins/ftpclient/ftpclient.cpp:53
+#: plugins/ftpclient/ftpclient.cpp:54
 msgid "Upload"
 msgstr ""
 
-#: plugins/ftpclient/ftpclient.cpp:56
+#: plugins/ftpclient/ftpclient.cpp:57
 msgid "Make Dir"
 msgstr ""
 
-#: plugins/ftpclient/ftpclient.cpp:109
+#: plugins/ftpclient/ftpclient.cpp:110
 msgid "ERROR"
 msgstr ""
 
@@ -2051,113 +2350,191 @@ msgstr ""
 msgid "Remote Directory"
 msgstr ""
 
-#: plugins/ftpclient/ftpclients.cpp:84 plugins/ftpclient/ftpclients.cpp:150
+#: plugins/ftpclient/ftpclients.cpp:84 plugins/ftpclient/ftpclients.cpp:154
 msgid "Time"
 msgstr ""
 
-#: plugins/ftpclient/ftpclients.cpp:128
+#: plugins/ftpclient/ftpclients.cpp:132
 msgid "Local Directory"
 msgstr ""
 
-#: project/project.cpp:196
-#, c-format
-msgid "Can't open file %s for IO_WriteOnly"
+#: plugins/ftpclient/ftpclient.moc.cpp:42
+#: plugins/ftpclient/ftpclient.moc.cpp:47
+msgid "FtpClient"
 msgstr ""
 
-#: project/project.cpp:248
+#: plugins/php3dbg/debugger.moc.cpp:42 plugins/php3dbg/debugger.moc.cpp:47
+msgid "PHP3Debugger"
+msgstr ""
+
+#: plugins/php4dbg/dbgbase/DbgSite.moc.cpp:42
+#: plugins/php4dbg/dbgbase/DbgSite.moc.cpp:47
+msgid "DbgSiteBase"
+msgstr ""
+
+#: plugins/php4dbg/idesite.moc.cpp:42 plugins/php4dbg/idesite.moc.cpp:47
+msgid "IdeSite"
+msgstr ""
+
+#: plugins/php4dbg/debugger.moc.cpp:42 plugins/php4dbg/debugger.moc.cpp:47
+msgid "PHP4Debugger"
+msgstr ""
+
+#: project/projectupload.moc.cpp:42 project/projectupload.moc.cpp:47
+msgid "ProjectUpload"
+msgstr ""
+
+#: project/project.cpp:205
+#, ycp-format
+msgid "Can't open file %1 for IO_WriteOnly"
+msgstr ""
+
+#: project/project.cpp:257
 msgid ""
 "*.wpj *.webprj|Project files\n"
 "*|All files"
 msgstr ""
 
-#: project/project.cpp:315
+#: project/project.cpp:341
+#, ycp-format
 msgid "Wrote project %1..."
 msgstr ""
 
-#: project/project.cpp:342
+#: project/project.cpp:371
 msgid "No project"
 msgstr ""
 
-#: project/project.cpp:369
-#, c-format
-msgid "Loading project %s"
-msgstr ""
-
 #: project/project.cpp:399
-#, c-format
-msgid "File %s don't exists"
+#, c-format, ycp-format
+msgid "Loading project %1"
 msgstr ""
 
-#: project/project.cpp:400
-#, c-format
-msgid "Can't open %s for IO_ReadOnly"
+#: project/project.cpp:429
+#, ycp-format
+msgid "The file %1 does not exist."
 msgstr ""
 
-#: project/project.cpp:401
-#, c-format
-msgid "Not found XML info in file %s"
+#: project/project.cpp:430
+#, ycp-format
+msgid "Can't open %1 for IO_ReadOnly."
 msgstr ""
 
-#: project/project.cpp:416
+#: project/project.cpp:431
+#, c-format, ycp-format
+msgid "Not found XML info in file %1."
+msgstr ""
+
+#: project/project.cpp:446
 msgid "Not found XML info in file"
 msgstr ""
 
-#: project/project.cpp:452 project/project.cpp:453
+#: project/project.cpp:482 project/project.cpp:483
 msgid "Wrong project's file"
 msgstr ""
 
-#: project/project.cpp:505
+#: project/project.cpp:543 project/projectnewlocal.cpp:129
 msgid "*"
 msgstr ""
 
-#: project/project.cpp:505 project/project.cpp:676
+#: project/project.cpp:543 project/project.cpp:811
+#: project/projectnewlocal.cpp:129
 msgid "Insert files in project..."
 msgstr ""
 
-#: project/project.cpp:517
+#: project/project.cpp:555 project/projectnewlocal.cpp:141
 msgid "Files: copy to project..."
 msgstr ""
 
-#: project/project.cpp:535
+#: project/project.cpp:573 project/projectnewlocal.cpp:165
 msgid "Insert directory in project..."
 msgstr ""
 
-#: project/project.cpp:553
+#: project/project.cpp:591 project/projectnewlocal.cpp:177
 msgid ": copy to project..."
 msgstr ""
 
-#: project/project.cpp:636
+#: project/project.cpp:767
 msgid "<b>General setting of project...</b>"
 msgstr ""
 
-#: project/project.cpp:637
+#: project/project.cpp:768
 msgid "<b>Insert files in project...</b>"
 msgstr ""
 
-#: project/project.cpp:638
+#: project/project.cpp:769
 msgid "<b>Some settings of project...</b>"
 msgstr ""
 
-#: project/project.cpp:752
+#: project/project.cpp:884
 msgid "Project options"
 msgstr ""
 
-#: project/project.cpp:765
+#: project/project.cpp:897
 msgid "General"
 msgstr ""
 
-#: project/project.cpp:766
+#: project/project.cpp:898
 msgid "Network"
 msgstr ""
 
-#: project/project.cpp:814 project/project.cpp:824
+#: project/project.cpp:971 project/project.cpp:981
 msgid "Upload project's files..."
 msgstr ""
 
-#: project/project.cpp:846
+#: project/project.cpp:1003
 msgid "New files in project's dir..."
 msgstr ""
 
-#: project/projectnewlocal.cpp:71
+#: project/projectupload.cpp:314
+#, c-format, ycp-format
+msgid "Current: %1"
+msgstr ""
+
+#: project/projectupload.cpp:409
+msgid "Do you really want to cancel the upload?"
+msgstr ""
+
+#: project/projectupload.cpp:410
+msgid "Cancel upload"
+msgstr ""
+
+#: project/projectnewfinal.moc.cpp:42 project/projectnewfinal.moc.cpp:47
+msgid "ProjectNewFinal"
+msgstr ""
+
+#: project/rescanprj.moc.cpp:42 project/rescanprj.moc.cpp:47
+msgid "RescanPrj"
+msgstr ""
+
+#: project/copyto.moc.cpp:42 project/copyto.moc.cpp:47
+msgid "CopyTo"
+msgstr ""
+
+#: project/project.moc.cpp:42 project/project.moc.cpp:47
+msgid "Project"
+msgstr ""
+
+#: project/projectnewlocal.moc.cpp:42 project/projectnewlocal.moc.cpp:47
+msgid "ProjectNewLocal"
+msgstr ""
+
+#: project/projectnewgeneral.moc.cpp:42 project/projectnewgeneral.moc.cpp:47
+msgid "ProjectNewGeneral"
+msgstr ""
+
+#: project/projectnewlocal.cpp:83
 msgid "Insert files from "
+msgstr ""
+
+#: project/renameitem.cpp:32
+#, c-format, ycp-format
+msgid "Rename: %1"
+msgstr ""
+
+#: project/renameitem.moc.cpp:42 project/renameitem.moc.cpp:47
+msgid "RenameItem"
+msgstr ""
+
+#: project/projectnewweb.moc.cpp:42 project/projectnewweb.moc.cpp:47
+msgid "ProjectNewWeb"
 msgstr ""
