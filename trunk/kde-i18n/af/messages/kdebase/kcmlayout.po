@@ -4,30 +4,34 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-06-10 16:06+0200\n"
-"PO-Revision-Date: 2001-07-27 10:53+0200\n"
+"Project-Id-Version: kcmlayout VERSION\n"
+"POT-Creation-Date: 2002-03-05 02:59+0100\n"
+"PO-Revision-Date: 2002-01-10 09:25+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: kcmlayout.cpp:41
-msgid "Disable keyboard layouts"
-msgstr "DEAKTIVEER SLEUTELBORD UITLEGTE"
+#: kcmlayout.cpp:91
+#, fuzzy
+msgid "Enable keyboard layouts"
+msgstr "aktiveer sleutelbord uitlegte"
 
-#: kcmlayout.cpp:42
+#: kcmlayout.cpp:92
 msgid ""
 "Here you can completely disable this module, for example if you use other "
 "tools for switching keyboard layouts."
 msgstr ""
+"hier jy kan heeltemal deaktiveer hierdie module, vir voorbeeld as jy gebruik "
+"ander nutsprogramme vir omskakeling sleutelbord uitlegte."
 
-#: kcmlayout.cpp:66
-msgid "Keyboard &Model"
-msgstr "SLEUTELBORD &MODEL"
+#: kcmlayout.cpp:117
+#, fuzzy
+msgid "Keyboard &Model:"
+msgstr "sleutelbord model"
 
-#: kcmlayout.cpp:69
+#: kcmlayout.cpp:120
 msgid ""
 "Here you can choose a keyboard model. This setting is independent of your "
 "keyboard layout and refers to the \"hardware\" model, i.e. the way your "
@@ -36,302 +40,679 @@ msgid ""
 "is probably what you want if you don't know what kind of keyboard you have."
 msgstr ""
 
-#: kcmlayout.cpp:79
-msgid "Primary &Layout"
-msgstr "PRIMERE &UITLEG"
+#: kcmlayout.cpp:130
+#, fuzzy
+msgid "Pr&imary Layout:"
+msgstr "primere uitleg"
 
-#: kcmlayout.cpp:82
+#: kcmlayout.cpp:133
+#, fuzzy
 msgid ""
 "Here you can choose your primary keyboard layout, i.e. the keyboard layout "
 "used as default. The keyboard layout defines \"which keys do what\". For "
 "example German keyboards have the letter 'Y' where US keyboards have the "
-"letter 'Z'.  "
+"letter 'Z'."
+msgstr ""
+"hier jy kan kies jou primere sleutelbord uitleg, i.e. die sleutelbord uitleg "
+"gebruik word as verstek. die sleutelbord uitleg definieer \"wat sleutels "
+"doen wat\". vir voorbeeld duits sleutelborde het die brief 'Y' waar us "
+"sleutelborde het die brief 'Z'.  "
+
+#: kcmlayout.cpp:143
+#, fuzzy
+msgid "Primary Variant:"
+msgstr "primere uitleg"
+
+#: kcmlayout.cpp:146
+msgid ""
+"Here you can choose a variant of your primary keyboard layout. Layout "
+"variants usually represent different key maps for the same language. For "
+"example, Ukrainian layout might have four variants: basic, winkeys (as in "
+"Windows), typewriter (as in typewriters) and phonetic (each Ukrainian letter "
+"is placed on a transliterated latin one)."
 msgstr ""
 
-#: kcmlayout.cpp:90
+#: kcmlayout.cpp:157
 msgid "Additional layouts"
-msgstr "ADITIONELE UITLEGTE"
+msgstr "aditionele uitlegte"
 
-#: kcmlayout.cpp:93
+#: kcmlayout.cpp:161
 msgid ""
 "You can select an arbitrary number of additional keyboard layouts. If one or "
 "more additional layouts have been selected, the KDE panel will offer a "
 "docked flag. By clicking on this flag you can easily switch between layouts."
 msgstr ""
+"jy kan kies 'n arbitêre nommer van aditionele sleutelbord uitlegte. as een "
+"of meer aditionele uitlegte het al gekose, die kde paneel sal bied 'n gedok "
+"vlag. deur te kliek op hierdie vlag jy kan maklik wissel tussen uitlegte."
 
-#: kcmlayout.cpp:103
-msgid "Check"
-msgstr "BEVESTIG"
+#: kcmlayout.cpp:172
+msgid "Flag"
+msgstr ""
 
-#: kcmlayout.cpp:104
-msgid "Map"
-msgstr "KAART"
+#: kcmlayout.cpp:173
+msgid "Layout"
+msgstr "uitleg"
 
-#: kcmlayout.cpp:114
-msgid "Advanced"
-msgstr "GEVORDERDE"
+#: kcmlayout.cpp:174
+msgid "Keymap"
+msgstr ""
 
-#: kcmlayout.cpp:341
+#: kcmlayout.cpp:185
+#, fuzzy
+msgid "&Variant:"
+msgstr "primere uitleg"
+
+#: kcmlayout.cpp:189
+msgid ""
+"Here you can choose a variant of the selected additional keyboard layout. "
+"Layout variants usually represent different key maps for the same language. "
+"For example, Ukrainian layout might have four variants: basic, winkeys (as "
+"in Windows), typewriter (as in typewriters) and phonetic (each Ukrainian "
+"letter is placed on a transliterated latin one)."
+msgstr ""
+
+#: kcmlayout.cpp:209
+#, fuzzy
+msgid "&Layout"
+msgstr "uitleg"
+
+#: kcmlayout.cpp:211
+#, fuzzy
+msgid "Adva&nced"
+msgstr "gevorderde"
+
+#: kcmlayout.cpp:309
+msgid "Switching Policy"
+msgstr ""
+
+#: kcmlayout.cpp:312
+msgid "&Global"
+msgstr ""
+
+#: kcmlayout.cpp:313
+msgid "Window Class"
+msgstr ""
+
+#: kcmlayout.cpp:315
+msgid "&Window"
+msgstr ""
+
+#: kcmlayout.cpp:319
+msgid "Xkb Options"
+msgstr ""
+
+#: kcmlayout.cpp:323
+#, fuzzy
+msgid "Reset Old Options"
+msgstr "herstel ou opsies"
+
+#: kcmlayout.cpp:645
 msgid ""
 "<h1>Keyboard Layout & Model</h1> Here you can choose your keyboard layout "
 "and model. The 'model' refers to the type of keyboard that is connected to "
 "your computer, while the keyboard layout defines \"which key does what\" and "
-"may be different for different countries.<p> In addition to the 'Primary "
-"Layout', which will be used as the default, you can specify additional "
-"layouts, which you can easily switch between using the KDE panel."
+"may be different for different countries."
+"<p> In addition to the 'Primary Layout', which will be used as the default, "
+"you can specify additional layouts, which you can easily switch between "
+"using the KDE panel."
+msgstr ""
+"<h1>sleutelbord uitleg & model</h1> hier jy kan kies jou sleutelbord uitleg "
+"en model. die 'model' verwys aan die tipe van sleutelbord wat is verbind aan "
+"jou rekenaar, terwyl die sleutelbord uitleg definieer \"wat sleutel doen "
+"wat\" en dalk mag wees ander vir ander lande."
+"<p> in byvoeging aan die 'Primary uitleg', wat sal wees gebruik word as die "
+"verstek, jy kan spesifiseer aditionele uitlegte, wat jy kan maklik wissel "
+"tussen te gebruik die kde paneel."
+
+#: kcmlayout.cpp:697
+msgid "Group Shift/Lock behavior"
+msgstr "groep verskuiwende/sluit gedrag"
+
+#: kcmlayout.cpp:698
+msgid "R-Alt switches group while pressed"
+msgstr "R-Alt skakel groep terwyl gedruk"
+
+#: kcmlayout.cpp:699
+msgid "Right Alt key changes group"
+msgstr "regterkant alt sleutel verander groep"
+
+#: kcmlayout.cpp:700
+msgid "Caps Lock key changes group"
+msgstr "caps sluit sleutel verander groep"
+
+#: kcmlayout.cpp:701
+msgid "Menu key changes group"
+msgstr "kieslys sleutel verander groep"
+
+#: kcmlayout.cpp:702
+msgid "Both Shift keys together change group"
+msgstr "beide verskuiwende sleutels tesame verander groep"
+
+#: kcmlayout.cpp:703
+msgid "Control+Shift changes group"
+msgstr "kontrole+verskuiwende verander groep"
+
+#: kcmlayout.cpp:704
+msgid "Alt+Control changes group"
+msgstr "alt+kontrole verander groep"
+
+#: kcmlayout.cpp:705
+msgid "Alt+Shift changes group"
+msgstr "alt+verskuiwende verander groep"
+
+#: kcmlayout.cpp:706
+msgid "Control Key Position"
+msgstr "kontrole sleutel posisie"
+
+#: kcmlayout.cpp:707
+msgid "Make Caps Lock an additional Control"
+msgstr "maak caps sluit 'n aditionele kontrole"
+
+#: kcmlayout.cpp:708
+msgid "Swap Control and Caps Lock"
+msgstr "uitruil kontrole en caps sluit"
+
+#: kcmlayout.cpp:709
+msgid "Control key at left of 'A'"
+msgstr "kontrole sleutel na links van 'A'"
+
+#: kcmlayout.cpp:710
+msgid "Control key at bottom left"
+msgstr "kontrole sleutel na bodem links"
+
+#: kcmlayout.cpp:711
+msgid "Use keyboard LED to show alternative group"
+msgstr "gebruik sleutelbord led aan vertoon alternatiewe groep"
+
+#: kcmlayout.cpp:712
+msgid "Num_Lock LED shows alternative group"
+msgstr "Num_Lock led vertoon alternatiewe groep"
+
+#: kcmlayout.cpp:713
+msgid "Caps_Lock LED shows alternative group"
+msgstr "Caps_Lock led vertoon alternatiewe groep"
+
+#: kcmlayout.cpp:714
+msgid "Scroll_Lock LED shows alternative group"
+msgstr "Scroll_Lock led vertoon alternatiewe groep"
+
+#: kcmlayout.cpp:717
+#, fuzzy
+msgid "Left Win-key switches group while pressed"
+msgstr "R-Alt skakel groep terwyl gedruk"
+
+#: kcmlayout.cpp:718
+#, fuzzy
+msgid "Right Win-key switches group while pressed"
+msgstr "R-Alt skakel groep terwyl gedruk"
+
+#: kcmlayout.cpp:719
+#, fuzzy
+msgid "Both Win-keys switch group while pressed"
+msgstr "R-Alt skakel groep terwyl gedruk"
+
+#: kcmlayout.cpp:720
+#, fuzzy
+msgid "Left Win-key changes group"
+msgstr "kieslys sleutel verander groep"
+
+#: kcmlayout.cpp:721
+#, fuzzy
+msgid "Right Win-key changes group"
+msgstr "regterkant alt sleutel verander groep"
+
+#: kcmlayout.cpp:722
+msgid "Third level choosers"
 msgstr ""
 
-#: pixmap.cpp:58
-msgid "Norwegian"
-msgstr "NOöRWEESE"
-
-#: pixmap.cpp:59
-msgid "German"
-msgstr "DUITS"
-
-#: pixmap.cpp:60
-msgid "Swedish"
-msgstr "SWEEDSE"
-
-#: pixmap.cpp:61
-msgid "Russian"
-msgstr "RUSSIESE"
-
-#: pixmap.cpp:62
-msgid "Swiss French"
+#: kcmlayout.cpp:723
+msgid "Press Right Control to choose 3rd level"
 msgstr ""
 
-#: pixmap.cpp:63
-msgid "Finnish"
-msgstr "FEENSE"
+#: kcmlayout.cpp:724
+msgid "Press Menu key to choose 3rd level"
+msgstr ""
 
-#: pixmap.cpp:64
+#: kcmlayout.cpp:725
+msgid "Press any of Win-keys to choose 3rd level"
+msgstr ""
+
+#: kcmlayout.cpp:726
+msgid "Press Left Win-key to choose 3rd level"
+msgstr ""
+
+#: kcmlayout.cpp:727
+msgid "Press Right Win-key to choose 3rd level"
+msgstr ""
+
+#: kcmlayout.cpp:728
+#, fuzzy
+msgid "CapsLock key behavior"
+msgstr "caps sluit sleutel verander groep"
+
+#: kcmlayout.cpp:729
+msgid "uses internal capitalization. Shift cancels Caps."
+msgstr ""
+
+#: kcmlayout.cpp:730
+msgid "uses internal capitalization. Shift doesn't cancel Caps."
+msgstr ""
+
+#: kcmlayout.cpp:731
+msgid "acts as Shift with locking. Shift cancels Caps."
+msgstr ""
+
+#: kcmlayout.cpp:732
+msgid "acts as Shift with locking. Shift doesn't cancel Caps."
+msgstr ""
+
+#: kcmlayout.cpp:733
+#, fuzzy
+msgid "Alt/Win key behavior"
+msgstr "caps sluit sleutel verander groep"
+
+#: kcmlayout.cpp:734
+msgid "Add the standard behavior to Menu key."
+msgstr ""
+
+#: kcmlayout.cpp:735
+msgid "Alt and Meta on the Alt keys (default)."
+msgstr ""
+
+#: kcmlayout.cpp:736
+msgid "Meta is mapped to the Win-keys."
+msgstr ""
+
+#: kcmlayout.cpp:737
+msgid "Meta is mapped to the left Win-key."
+msgstr ""
+
+#: kcmlayout.cpp:738
+msgid "Super is mapped to the Win-keys (default)."
+msgstr ""
+
+#: kcmlayout.cpp:739
+msgid "Hyper is mapped to the Win-keys."
+msgstr ""
+
+#: kcmlayout.cpp:740
+msgid "Right Alt is Compose"
+msgstr ""
+
+#: kcmlayout.cpp:741
+#, fuzzy
+msgid "Right Win-key is Compose"
+msgstr "regterkant alt sleutel verander groep"
+
+#: kcmlayout.cpp:742
+msgid "Menu is Compose"
+msgstr ""
+
+#: pixmap.cpp:99
 msgid "Belgian"
-msgstr "BELGIES"
-
-#: pixmap.cpp:65
-msgid "Portuguese"
-msgstr "PORTUGESE"
-
-#: pixmap.cpp:66
-msgid "Thai"
-msgstr "THAISE"
-
-#: pixmap.cpp:67
-msgid "Bulgarian"
-msgstr "BULGAARS"
-
-#: pixmap.cpp:68
-msgid "Japanese"
-msgstr "JAPANESE"
-
-#: pixmap.cpp:69
-msgid "Danish"
-msgstr "DEENS"
-
-#: pixmap.cpp:70
-msgid "Lithuanian"
-msgstr "LITHUANIESE"
-
-#: pixmap.cpp:71
-msgid "Italian"
-msgstr "ITALIAANSE"
-
-#: pixmap.cpp:72
-msgid "United Kingdom"
-msgstr "VEREENIGDE KONINKRYK"
-
-#: pixmap.cpp:73
-msgid "French"
-msgstr "FRANSE"
-
-#: pixmap.cpp:74
-msgid "U.S. English w/ deadkeys"
-msgstr ""
-
-#: pixmap.cpp:75 pixmap.cpp:116
-msgid "PC-98xx Series"
-msgstr ""
-
-#: pixmap.cpp:76
-msgid "Polish"
-msgstr "POOLSE"
-
-#: pixmap.cpp:77
-msgid "Hungarian"
-msgstr "HONGAARSE"
-
-#: pixmap.cpp:78
-msgid "Spanish"
-msgstr "SPAANSE"
-
-#: pixmap.cpp:79
-msgid "Swiss German"
-msgstr ""
-
-#: pixmap.cpp:80
-msgid "Canadian"
-msgstr "KANADESIESE"
-
-#: pixmap.cpp:81
-msgid "U.S. English"
-msgstr ""
-
-#: pixmap.cpp:82
-msgid "Czech"
-msgstr "TSJEGGIë"
-
-#: pixmap.cpp:83
-msgid "Czech (qwerty)"
-msgstr ""
-
-#: pixmap.cpp:84
-msgid "Slovak"
-msgstr "SLOVAKIESE"
-
-#: pixmap.cpp:85
-msgid "Slovak (qwerty)"
-msgstr ""
-
-#: pixmap.cpp:86
-msgid "Brazilian"
-msgstr "BRAZILïAANSE"
-
-#: pixmap.cpp:87
-msgid "U.S. English w/ISO9995-3"
-msgstr ""
-
-#: pixmap.cpp:88
-msgid "Estonian"
-msgstr "ESTONIANSE"
-
-#: pixmap.cpp:89
-msgid "Romanian"
-msgstr "ROMEENSE"
-
-#: pixmap.cpp:92
-msgid "Armenian"
-msgstr ""
-
-#: pixmap.cpp:93
-msgid "Azerbaidjani"
-msgstr ""
-
-#: pixmap.cpp:94
-msgid "Icelandic"
-msgstr "YSLANDIESE"
-
-#: pixmap.cpp:95
-msgid "Israeli"
-msgstr ""
-
-#: pixmap.cpp:96
-msgid "Lithuanian azerty standard"
-msgstr ""
-
-#: pixmap.cpp:97
-msgid "Lithuanian querty \"numeric\""
-msgstr ""
-
-#: pixmap.cpp:98
-msgid "Lithuanian querty \"programmer's\""
-msgstr ""
+msgstr "belgies"
 
 #: pixmap.cpp:100
-msgid "Macedonian"
-msgstr "MAKEDONIESE"
+msgid "Bulgarian"
+msgstr "bulgaars"
 
 #: pixmap.cpp:101
-msgid "Serbian"
-msgstr "SERBIESE"
+msgid "Brazilian"
+msgstr "brazilïaanse"
 
 #: pixmap.cpp:102
-msgid "Slovenian"
-msgstr "SLOVENIESE"
+msgid "Canadian"
+msgstr "kanadesiese"
 
 #: pixmap.cpp:103
-msgid "Vietnamese"
-msgstr ""
+msgid "Czech"
+msgstr "tsjeggië"
+
+#: pixmap.cpp:104
+msgid "Czech (qwerty)"
+msgstr "tsjeggië (qwerty)"
+
+#: pixmap.cpp:105
+msgid "Danish"
+msgstr "deens"
 
 #: pixmap.cpp:106
-msgid "Belarusian"
-msgstr ""
+msgid "Estonian"
+msgstr "estonianse"
 
 #: pixmap.cpp:107
-msgid "Latvian"
-msgstr "LATVIAN"
+msgid "Finnish"
+msgstr "feense"
 
 #: pixmap.cpp:108
-msgid "Ukrainian"
-msgstr "UKRAïNIESE"
+msgid "French"
+msgstr "franse"
 
 #: pixmap.cpp:109
-msgid "Turkish"
-msgstr "TURKSE"
+msgid "German"
+msgstr "duits"
 
 #: pixmap.cpp:110
-msgid "Croatian"
-msgstr "KROATIESE"
+msgid "Hungarian"
+msgstr "hongaarse"
 
 #: pixmap.cpp:111
-msgid "Lithuanian qwerty \"numeric\""
-msgstr ""
+#, fuzzy
+msgid "Hungarian (qwerty)"
+msgstr "hongaarse"
 
 #: pixmap.cpp:112
-msgid "Lithuanian qwerty \"programmer's\""
-msgstr ""
+msgid "Italian"
+msgstr "italiaanse"
+
+#: pixmap.cpp:113
+msgid "Japanese"
+msgstr "japanese"
 
 #: pixmap.cpp:114
-msgid "Microsoft Natural"
-msgstr ""
+msgid "Lithuanian"
+msgstr "lithuaniese"
 
 #: pixmap.cpp:115
-msgid "Dell 101-key PC"
-msgstr ""
+msgid "Norwegian"
+msgstr "noörweese"
+
+#: pixmap.cpp:116
+msgid "PC-98xx Series"
+msgstr "PC-98xx reeks"
 
 #: pixmap.cpp:117
-msgid "Winbook Model XP5"
-msgstr ""
+msgid "Polish"
+msgstr "poolse"
 
 #: pixmap.cpp:118
-msgid "Brazilian ABNT2"
-msgstr ""
+msgid "Portuguese"
+msgstr "portugese"
 
 #: pixmap.cpp:119
-msgid "Northgate OmniKey 101"
-msgstr ""
+msgid "Romanian"
+msgstr "romeense"
 
 #: pixmap.cpp:120
-msgid "Generic 101-key PC"
-msgstr ""
+msgid "Russian"
+msgstr "russiese"
 
 #: pixmap.cpp:121
-msgid "Generic 102-key (Intl) PC"
-msgstr ""
+msgid "Slovak"
+msgstr "slovakiese"
 
 #: pixmap.cpp:122
-msgid "Japanese 106-key"
-msgstr ""
+msgid "Slovak (qwerty)"
+msgstr "slovakiese (qwerty)"
 
 #: pixmap.cpp:123
-msgid "Everex STEPnote"
-msgstr ""
+msgid "Spanish"
+msgstr "spaanse"
 
 #: pixmap.cpp:124
-msgid "Generic 104-key PC"
-msgstr ""
+msgid "Swedish"
+msgstr "sweedse"
 
 #: pixmap.cpp:125
-msgid "Keytronic FlexPro"
-msgstr ""
+msgid "Swiss German"
+msgstr "switserse duits"
 
 #: pixmap.cpp:126
-msgid "Generic 105-key (Intl) PC "
+msgid "Swiss French"
+msgstr "switserse franse"
+
+#: pixmap.cpp:127
+msgid "Thai"
+msgstr "thaise"
+
+#: pixmap.cpp:128
+msgid "United Kingdom"
+msgstr "vereenigde koninkryk"
+
+#: pixmap.cpp:129
+msgid "U.S. English"
+msgstr "u.s. engels"
+
+#: pixmap.cpp:130
+msgid "U.S. English w/ deadkeys"
+msgstr "u.s. engels w/ dooie sleutels"
+
+#: pixmap.cpp:131
+msgid "U.S. English w/ISO9995-3"
+msgstr "u.s. engels w/ISO9995-3"
+
+#: pixmap.cpp:134
+msgid "Armenian"
+msgstr "armeense"
+
+#: pixmap.cpp:135
+msgid "Azerbaidjani"
+msgstr "azerbaidjani"
+
+#: pixmap.cpp:136
+msgid "Icelandic"
+msgstr "yslandiese"
+
+#: pixmap.cpp:137
+msgid "Israeli"
+msgstr "israelse"
+
+#: pixmap.cpp:138
+msgid "Lithuanian azerty standard"
+msgstr "lithuaniese azerty standaard"
+
+#: pixmap.cpp:139
+msgid "Lithuanian querty \"numeric\""
+msgstr "lithuaniese querty \"numeries\""
+
+#: pixmap.cpp:140
+msgid "Lithuanian querty \"programmer's\""
+msgstr "lithuaniese querty \"programmeerder se\""
+
+#: pixmap.cpp:141
+msgid "Macedonian"
+msgstr "makedoniese"
+
+#: pixmap.cpp:142
+msgid "Serbian"
+msgstr "serbiese"
+
+#: pixmap.cpp:143
+msgid "Slovenian"
+msgstr "sloveniese"
+
+#: pixmap.cpp:144
+msgid "Vietnamese"
+msgstr "viëtnamese"
+
+#: pixmap.cpp:147
+msgid "Arabic"
 msgstr ""
 
+#: pixmap.cpp:148
+msgid "Belarusian"
+msgstr "belarusian"
+
+#: pixmap.cpp:149
+msgid "Bengali"
+msgstr ""
+
+#: pixmap.cpp:150
+msgid "Croatian"
+msgstr "kroatiese"
+
+#: pixmap.cpp:151
+msgid "Greek"
+msgstr ""
+
+#: pixmap.cpp:152
+msgid "Latvian"
+msgstr "latvian"
+
+#: pixmap.cpp:153
+msgid "Lithuanian qwerty \"numeric\""
+msgstr "lithuaniese qwerty \"numeries\""
+
+#: pixmap.cpp:154
+msgid "Lithuanian qwerty \"programmer's\""
+msgstr "lithuaniese qwerty \"programmeerder se\""
+
+#: pixmap.cpp:155
+msgid "Turkish"
+msgstr "turkse"
+
+#: pixmap.cpp:156
+msgid "Ukrainian"
+msgstr "ukraïniese"
+
+#: pixmap.cpp:158
+msgid "Brazilian ABNT2"
+msgstr "brazilïaanse abnt2"
+
+#: pixmap.cpp:159
+msgid "Dell 101-key PC"
+msgstr "dell 101-key pc"
+
+#: pixmap.cpp:160
+msgid "Everex STEPnote"
+msgstr "everex stepnote"
+
+#: pixmap.cpp:161
+msgid "Generic 101-key PC"
+msgstr "generies 101-key pc"
+
+#: pixmap.cpp:162
+msgid "Generic 102-key (Intl) PC"
+msgstr "generies 102-key (intl) pc"
+
+#: pixmap.cpp:163
+msgid "Generic 104-key PC"
+msgstr "generies 104-key pc"
+
+#: pixmap.cpp:164
+msgid "Generic 105-key (Intl) PC "
+msgstr "generies 105-key (intl) pc "
+
+#: pixmap.cpp:165
+msgid "Japanese 106-key"
+msgstr "japanese 106-key"
+
+#: pixmap.cpp:166
+msgid "Microsoft Natural"
+msgstr "microsoft natuurlike"
+
+#: pixmap.cpp:167
+msgid "Northgate OmniKey 101"
+msgstr "northgate omnikey 101"
+
+#: pixmap.cpp:168
+msgid "Keytronic FlexPro"
+msgstr "keytronic flexpro"
+
+#: pixmap.cpp:169
+msgid "Winbook Model XP5"
+msgstr "winbook model xp5"
+
+#: pixmap.cpp:172
+#, fuzzy
+msgid "Albanian"
+msgstr "kanadesiese"
+
+#: pixmap.cpp:173
+msgid "Burmese"
+msgstr ""
+
+#: pixmap.cpp:174
+msgid "Dutch"
+msgstr ""
+
+#: pixmap.cpp:175
+msgid "Georgian (latin)"
+msgstr ""
+
+#: pixmap.cpp:176
+msgid "Georgian (russian)"
+msgstr ""
+
+#: pixmap.cpp:177
+msgid "Gujarati"
+msgstr ""
+
+#: pixmap.cpp:178
+msgid "Gurmukhi"
+msgstr ""
+
+#: pixmap.cpp:179
+msgid "Hindi"
+msgstr ""
+
+#: pixmap.cpp:180
+msgid "Inuktitut"
+msgstr ""
+
+#: pixmap.cpp:181
+#, fuzzy
+msgid "Iranian"
+msgstr "ukraïniese"
+
+#: pixmap.cpp:182
+msgid "Latin America"
+msgstr ""
+
+#: pixmap.cpp:183
+msgid "Maltese"
+msgstr ""
+
+#: pixmap.cpp:184
+msgid "Maltese (US layout)"
+msgstr ""
+
+#: pixmap.cpp:185
+msgid "Northern Saami (Finland)"
+msgstr ""
+
+#: pixmap.cpp:186
+msgid "Northern Saami (Norway)"
+msgstr ""
+
+#: pixmap.cpp:187
+msgid "Northern Saami (Sweden)"
+msgstr ""
+
+#: pixmap.cpp:188
+#, fuzzy
+msgid "Polish (qwertz)"
+msgstr "tsjeggië (qwerty)"
+
+#: pixmap.cpp:189
+msgid "Russian (cyrillic phonetic)"
+msgstr ""
+
+#: pixmap.cpp:190
+#, fuzzy
+msgid "Tajik"
+msgstr "thaise"
+
+#: pixmap.cpp:191
+#, fuzzy
+msgid "Turkish (F)"
+msgstr "turkse"
+
+#: pixmap.cpp:192
+#, fuzzy
+msgid "U.S. English w/ ISO9995-3"
+msgstr "u.s. engels w/ISO9995-3"
+
+#: pixmap.cpp:193
+#, fuzzy
+msgid "Yugoslavian"
+msgstr "hongaarse"
+
 #: kcmmisc.cpp:49
-msgid "Keyboard repeat"
-msgstr "SLEUTELBORD HERHAAL"
+#, fuzzy
+msgid "&Keyboard repeat"
+msgstr "sleutelbord herhaal"
 
 #: kcmmisc.cpp:53
 msgid ""
@@ -341,57 +722,79 @@ msgid ""
 "in succession: Tab characters continue to be emitted until you release the "
 "key."
 msgstr ""
+"as jy bevestig hierdie opsie, gedruk en hou ondertoe 'n sleutel stuur uit "
+"die selfde karakter bo en bo weer. vir voorbeeld, gedruk en hou ondertoe die "
+"oortjie sleutel sal het die selfde effek as wat van gedruk wat sleutel klomp "
+" times  in herhaling: oortjie karakters voortgaan aan wees uitgestuur totdat "
+"jy vrylaat die sleutel."
 
 #: kcmmisc.cpp:62
-msgid "Key click volume"
-msgstr "SLEUTEL KLIEK VOLUME"
+#, fuzzy
+msgid "Key click &volume:"
+msgstr "sleutel kliek volume"
 
 #: kcmmisc.cpp:70
 msgid ""
 "If supported, this option allows you to hear audible clicks from your "
 "computer's speakers when you press the keys on your keyboard. This might be "
 "useful if your keyboard does not have mechanical keys, or if the sound that "
-"the keys make is very soft.<p> You can change the loudness of the key click "
-"feedback by dragging the slider button or by clicking the up/down arrows on "
-"the spin-button. Setting the volume to 0 % turns off the key click."
+"the keys make is very soft."
+"<p> You can change the loudness of the key click feedback by dragging the "
+"slider button or by clicking the up/down arrows on the spin-button. Setting "
+"the volume to 0 % turns off the key click."
 msgstr ""
+"as ondersteunde, hierdie opsie laat toe jy aan hoor hoorbare klieke van jou "
+"rekenaar se luidsprekers wanneer jy druk die sleutels op jou sleutelbord. "
+"hierdie dalk wees bruikbare as jou sleutelbord doen nie het meganiese "
+"sleutels, van as die klank wat die sleutels maak is baie sag."
+"<p> jy kan verander die hardheid van die sleutel kliek terugvoer deur te "
+"trek die skuiwer knoppie van deur te kliek die begin/ondertoe pyltjies op "
+"die spin-knoppie. opset die volume aan 0 % draai af die sleutel kliek."
 
 #: kcmmisc.cpp:81
 msgid "NumLock on KDE startup"
-msgstr ""
+msgstr "numlock op kde opstart"
 
 #: kcmmisc.cpp:82
-msgid "Turn on"
-msgstr "SKAKEL OP"
+#, fuzzy
+msgid "T&urn on"
+msgstr "skakel op"
 
 #: kcmmisc.cpp:83
-msgid "Turn off"
-msgstr "SKAKEL AF"
+#, fuzzy
+msgid "Turn o&ff"
+msgstr "skakel af"
 
 #: kcmmisc.cpp:84
-msgid "Leave unchanged"
-msgstr ""
+#, fuzzy
+msgid "Leave &unchanged"
+msgstr "los onveranderd"
 
 #: kcmmisc.cpp:90
 msgid ""
 "If supported, this option allows you to setup the state of NumLock after KDE "
-"startup.<p>  You can configure NumLock to be turned on or off, or configure "
-"KDE not to set NumLock state."
+"startup."
+"<p>  You can configure NumLock to be turned on or off, or configure KDE not "
+"to set NumLock state."
 msgstr ""
+"as ondersteunde, hierdie opsie laat toe jy aan opstelling die staat van "
+"numlock na kde opstart."
+"<p>  jy kan konfigureer numlock aan wees geskakel op of af, of konfigureer "
+"kde nie aan stel numlock staat."
 
-#: kxkbbindings.cpp:2
+#: kxkbbindings.cpp:9
 msgid "Keyboard"
-msgstr "SLEUTELBORD"
+msgstr "sleutelbord"
 
-#: kxkbbindings.cpp:4
-msgid "Select next keyboard layout"
-msgstr "KIES VOLGENDE SLEUTELBORD UITLEG"
+#: kxkbbindings.cpp:10
+msgid "Switch To Next Keyboard Layout"
+msgstr ""
 
 #: _translatorinfo.cpp:1
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "WEB-Vertaler (kde.af.org.za)"
+msgstr "WEB-Vertaler (http://kde.af.org.za)"
 
 #: _translatorinfo.cpp:3
 msgid ""

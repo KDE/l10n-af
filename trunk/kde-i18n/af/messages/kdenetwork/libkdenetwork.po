@@ -4,412 +4,772 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-07-29 19:31+0200\n"
-"PO-Revision-Date: 2001-07-27 10:54+0200\n"
+"Project-Id-Version: libkdenetwork VERSION\n"
+"POT-Creation-Date: 2002-03-05 03:07+0100\n"
+"PO-Revision-Date: 2002-01-10 09:28+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: kpgpbase.cpp:606 kpgpbase.cpp:993
-msgid "Bad passphrase; couldn't sign"
-msgstr ""
-
-#: kpgpbase.cpp:636
-msgid "error running gpg"
-msgstr ""
-
-#: kpgpbase.cpp:655
-msgid "Bad pass Phrase; couldn't decrypt"
-msgstr ""
-
-#: kpgpbase.cpp:675 kpgpbase.cpp:1070 kpgpbase.cpp:1426 kpgpbase.cpp:1637
-msgid "Do not have the secret key for this message"
-msgstr ""
-
-#: kpgpbase.cpp:739
-msgid "??? (file ~/.gnupg/pubring.gpg not found)"
-msgstr ""
-
-#: kpgpbase.cpp:1001
-msgid ""
-"PGP error occured. Please check\n"
-"your PGP setup and key rings."
-msgstr ""
-
-#: kpgpbase.cpp:1041 kpgpbase.cpp:1395 kpgpbase.cpp:1606 kpgpbase.cpp:1815
-msgid "error running PGP"
-msgstr "FOUT WAT LOOP PGP"
-
-#: kpgpbase.cpp:1059 kpgpbase.cpp:1415 kpgpbase.cpp:1629
-msgid "Bad passphrase; couldn't decrypt"
-msgstr ""
-
-#: kpgpbase.cpp:1118
-msgid "??? (file ~/.pgp/pubring.pgp not found)"
-msgstr ""
-
-#: kpgpbase.cpp:1325
-msgid "The passphrase you entered is invalid."
-msgstr "DIE WAGWOORD FRASE JY INGEVOERDE IS ONGELDIGE."
-
-#: kpgpbase.cpp:1351
-msgid ""
-"The key(s) you want to encrypt your message\n"
-"to are not trusted. No encryption done."
-msgstr ""
-
-#: kpgpbase.cpp:1354
-msgid ""
-"The following key(s) are not trusted:\n"
-"%1\n"
-"They will not be able to decrypt the message."
-msgstr ""
-
-#: kpgpbase.cpp:1677
-msgid "??? (file ~/.pgp/pubring.pkr not found)"
-msgstr ""
-
-#: kpgp.cpp:176 kpgp.cpp:242
+#: kpgp.cpp:177
 msgid ""
 "Couldn't find PGP executable.\n"
 "Please check your PATH is set correctly."
 msgstr ""
 
-#: kpgp.cpp:252
+#: kpgp.cpp:189
 msgid "OpenPGP Security Check"
+msgstr "openpgp sekuriteit bevestig"
+
+#: kpgp.cpp:197
+#, fuzzy
+msgid "Passphrase is too long, it must contain less than 1024 characters."
+msgstr ""
+"uit van geheue of wagwoord frase te lang\n"
+"(moet wees minder as 1024 karakters)."
+
+#: kpgp.cpp:199
+msgid "Out of memory."
 msgstr ""
 
-#: kpgp.cpp:262
-msgid "The passphrase is missing."
-msgstr "DIE WAGWOORD FRASE IS mISsing."
-
-#: kpgp.cpp:359
-msgid ""
-"Could not find the public keys for the\n"
-"recipients of this mail.\n"
-"Message will not be encrypted."
-msgstr ""
-
-#: kpgp.cpp:362 kpgp.cpp:386 kpgp.cpp:406 kpgp.cpp:423 kpgp.cpp:442
-msgid "PGP Warning"
-msgstr "PGP WAARSKUWING"
-
-#: kpgp.cpp:362 kpgp.cpp:387
-msgid "C&ontinue"
-msgstr "C&ontinue"
-
-#: kpgp.cpp:368
-msgid ""
-"Could not find the public keys for\n"
-msgstr ""
-
-#: kpgp.cpp:379
-msgid ""
-"These persons will not be able to decrypt the message.\n"
-msgstr ""
-
-#: kpgp.cpp:381
-msgid ""
-"This person will not be able to decrypt the message.\n"
-msgstr ""
-
-#: kpgp.cpp:402
+#: kpgp.cpp:269
+#, fuzzy
 msgid ""
 "You just entered an invalid passphrase.\n"
-"Do you want to try again, continue and\n"
-"leave the message unsigned, or cancel sending the message?"
+"Do you want to try again, or cancel and view the message undecrypted?"
 msgstr ""
+"jy net ingevoerde 'n ongeldige wagwoord frase.\n"
+"doen jy wil hê aan probeer weer, voortgaan en\n"
+"los die boodskap ongeteken, of kanseleer stuur die boodskap?"
 
-#: kpgp.cpp:407
+#: kpgp.cpp:272 kpgp.cpp:365 kpgp.cpp:383 kpgp.cpp:411 kpgp.cpp:441
+#: kpgp.cpp:460 kpgp.cpp:484
+msgid "PGP Warning"
+msgstr "pgp waarskuwing"
+
+#: kpgp.cpp:272 kpgp.cpp:412
 msgid "&Retry"
-msgstr "&HERPROBEER"
+msgstr "herprobeer"
 
-#: kpgp.cpp:407
+#: kpgp.cpp:356
+#, fuzzy
+msgid ""
+"You didn't select an encryption key for the recipient of this message. "
+"Therefore the message will not be encrypted."
+msgstr ""
+"kon nie soek die publiek sleutels vir die\n"
+"ontvangers van hierdie boodskap.\n"
+"boodskap sal nie wees encrypted."
+
+#: kpgp.cpp:359
+#, fuzzy
+msgid ""
+"You didn't select an encryption key for any of the recipients of this "
+"message. Therefore the message will not be encrypted."
+msgstr ""
+"kon nie soek die publiek sleutels vir die\n"
+"ontvangers van hierdie boodskap.\n"
+"boodskap sal nie wees encrypted."
+
+#: kpgp.cpp:366 kpgp.cpp:385 kpgp.cpp:462
+#, fuzzy
+msgid "Send &unencrypted"
+msgstr "stuur  unencrypted"
+
+#: kpgp.cpp:374
+#, fuzzy
+msgid ""
+"You didn't select an encryption key for one of the recipients. This person "
+"will not be able to decrypt the message if you encrypt it."
+msgstr ""
+"hierdie persoon sal nie wees in staat aan dekripteer die boodskap.\n"
+"hierdie persone sal nie wees in staat aan dekripteer die boodskap."
+
+#: kpgp.cpp:377
+#, fuzzy
+msgid ""
+"You didn't select encryption keys for some of the recipients. These persons "
+"will not be able to decrypt the message if you encrypt it."
+msgstr ""
+"hierdie persoon sal nie wees in staat aan dekripteer die boodskap.\n"
+"hierdie persone sal nie wees in staat aan dekripteer die boodskap."
+
+#: kpgp.cpp:384 kpgp.cpp:461
+#, fuzzy
+msgid "Send &encrypted"
+msgstr "stuur  unencrypted"
+
+#: kpgp.cpp:405
+#, fuzzy
+msgid ""
+"You entered an invalid passphrase.\n"
+"Do you want to try again, continue and leave the message unsigned, or cancel "
+"sending the message?"
+msgstr ""
+"jy net ingevoerde 'n ongeldige wagwoord frase.\n"
+"doen jy wil hê aan probeer weer, voortgaan en\n"
+"los die boodskap ongeteken, of kanseleer stuur die boodskap?"
+
+#: kpgp.cpp:413 kpgp.cpp:442
 msgid "Send &unsigned"
-msgstr ""
+msgstr "stuur ongeteken"
 
-#: kpgp.cpp:419
+#: kpgp.cpp:435
+#, fuzzy
 msgid ""
-"Do you want to encrypt anyway, leave the\n"
-"message as is, or cancel the message?"
+"_: %1 = 'signing failed' error message\n"
+"%1\n"
+"Do you want to send the message unsigned, or cancel sending the message?"
 msgstr ""
+"jy net ingevoerde 'n ongeldige wagwoord frase.\n"
+"doen jy wil hê aan probeer weer, voortgaan en\n"
+"los die boodskap ongeteken, of kanseleer stuur die boodskap?"
 
-#: kpgp.cpp:424
-msgid "&Encrypt"
-msgstr ""
-
-#: kpgp.cpp:424
-msgid "&Send unencrypted"
-msgstr "&STUUR  UNENCRYPTED"
-
-#: kpgp.cpp:438
+#: kpgp.cpp:454
+#, fuzzy
 msgid ""
-"Do you want to leave the message as is,\n"
-"or cancel the message?"
+"_: %1 = 'bad keys' error message\n"
+"%1\n"
+"Do you want to encrypt anyway, leave the message as is, or cancel sending "
+"the message?"
 msgstr ""
+"doen jy wil hê aan enkripteer in elkgeval, los die\n"
+"boodskap as is, of kanseleer die boodskap?"
 
-#: kpgp.cpp:443
+#: kpgp.cpp:478
+#, fuzzy
+msgid ""
+"_: %1 = 'missing keys' error message\n"
+"%1\n"
+"Do you want to leave the message as is, or cancel sending the message?"
+msgstr ""
+"doen jy wil hê aan los die boodskap as is,\n"
+"of kanseleer die boodskap?"
+
+#: kpgp.cpp:485
 msgid "&Send as is"
-msgstr "&STUUR AS IS"
+msgstr "stuur as is"
 
-#: kpgp.cpp:707
+#: kpgp.cpp:496
+#, c-format
+msgid ""
+"The following error occurred:\n"
+"%1"
+msgstr ""
+
+#: kpgp.cpp:498
+msgid ""
+"This is the error message of %1:\n"
+"%2"
+msgstr ""
+
+#: kpgp.cpp:784 kpgp.cpp:809 kpgpui.cpp:667
+msgid "Encryption Key Selection"
+msgstr "enkripsie sleutel keuse"
+
+#: kpgp.cpp:785
+msgid ""
+"No valid and trusted OpenPGP key was found for \"%1\".\n"
+"\n"
+"Select the key which should be used for this recipient."
+msgstr ""
+"nee geldige en vertroude openpgp sleutel was gevind vir \"%1\".\n"
+"\n"
+"kies die sleutel wat moet wees gebruik word vir hierdie ontvanger."
+
+#: kpgp.cpp:810
+msgid ""
+"More than one key match \"%1\".\n"
+"\n"
+"Select the key which should be used for this recipient."
+msgstr ""
+"meer as een sleutel ooreenstem \"%1\".\n"
+"\n"
+"kies die sleutel wat moet wees gebruik word vir hierdie ontvanger."
+
+#: kpgp.cpp:956
 msgid ""
 "Sorry, but this feature\n"
 "is still missing"
 msgstr ""
+"jammer, maar hierdie funksie\n"
+"is nogsteeds kort"
 
-#: kpgp.cpp:1002
-msgid "Please enter your OpenPGP passphrase"
+#: kpgp.cpp:1004 kpgp.cpp:1040
+msgid "You either don't have GnuPG/PGP installed or you chose not to use GnuPG/PGP."
 msgstr ""
 
-#: kpgp.cpp:1004
+#: kpgpbase2.cpp:134 kpgpbaseG.cpp:141
+#, fuzzy
+msgid ""
+"Could not find public keys matching the userid(s)\n"
+"%1.\n"
+"The message is not encrypted."
+msgstr ""
+"kon nie soek die publiek sleutels vir die\n"
+"ontvangers van hierdie boodskap.\n"
+"boodskap sal nie wees encrypted."
+
+#: kpgpbase2.cpp:139 kpgpbaseG.cpp:146
+#, fuzzy
+msgid ""
+"Could not find public keys matching the userid(s)\n"
+"%1.\n"
+"These persons won't be able to read the message."
+msgstr ""
+"hierdie persoon sal nie wees in staat aan dekripteer die boodskap.\n"
+"hierdie persone sal nie wees in staat aan dekripteer die boodskap."
+
+#: kpgpbase2.cpp:165
+#, fuzzy
+msgid ""
+"Public keys not certified with trusted signature for userid(s)\n"
+"%1.\n"
+"The message is not encrypted."
+msgstr ""
+"kon nie soek die publiek sleutels vir die\n"
+"ontvangers van hierdie boodskap.\n"
+"boodskap sal nie wees encrypted."
+
+#: kpgpbase2.cpp:171
+#, fuzzy
+msgid ""
+"Public keys not certified with trusted signature for userid(s)\n"
+"%1.\n"
+"These persons won't be able to read the message."
+msgstr ""
+"hierdie persoon sal nie wees in staat aan dekripteer die boodskap.\n"
+"hierdie persone sal nie wees in staat aan dekripteer die boodskap."
+
+#: kpgpbase2.cpp:192
+#, fuzzy
+msgid "Bad passphrase; couldn't sign."
+msgstr "die wagwoord frase jy ingevoerde is ongeldige."
+
+#: kpgpbase2.cpp:200
+#, fuzzy
+msgid ""
+"Signing failed! Please check your PGP User Identity, the PGP setup and the "
+"key rings."
+msgstr ""
+"getekende gevaal! asseblief bevestig jou\n"
+"pgp gebruiker identiteit, die pgp opstelling\n"
+"en die sleutel ringe."
+
+#: kpgpbase2.cpp:208
+#, fuzzy
+msgid "Encryption failed! Please check your PGP setup and the key rings."
+msgstr ""
+"enkripsie gevaal! asseblief bevestig jou\n"
+"pgp opstelling en die sleutel ringe."
+
+#: kpgpbase2.cpp:254 kpgpbase6.cpp:60 kpgpbase6.cpp:384
+msgid "error running PGP"
+msgstr "fout wat loop pgp"
+
+#: kpgpbase2.cpp:294 kpgpbase5.cpp:226 kpgpbaseG.cpp:245
+msgid "Bad passphrase; couldn't decrypt."
+msgstr ""
+
+#: kpgpbase2.cpp:305 kpgpbase5.cpp:237 kpgpbaseG.cpp:266
+#, fuzzy
+msgid "You don't have the secret key needed to decrypt this message."
+msgstr "jy doen nie het die geheim sleutel vir hierdie boodskap"
+
+#: kpgpbase2.cpp:445
+msgid ""
+"The keyring file %1 does not exist.\n"
+"Please check your PGP setup."
+msgstr ""
+
+#: kpgpbase2.cpp:451
+msgid "Unknown error"
+msgstr "onbekende fout"
+
+#: kpgpbase5.cpp:85
+msgid "Neither recipients nor passphrase specified."
+msgstr ""
+
+#: kpgpbase5.cpp:127
+msgid "The passphrase you entered is invalid."
+msgstr "die wagwoord frase jy ingevoerde is ongeldige."
+
+#: kpgpbase5.cpp:153
+#, fuzzy
+msgid ""
+"The key(s) you want to encrypt your message to are not trusted. No "
+"encryption done."
+msgstr ""
+"die sleutel(s) jy wil hê aan enkripteer jou boodskap\n"
+"aan word nie vertroude. nee enkripsie klaar."
+
+#: kpgpbase5.cpp:156
+#, fuzzy
+msgid ""
+"The following key(s) are not trusted:\n"
+"%1\n"
+"Their owner(s) will not be able to decrypt the message."
+msgstr ""
+"die volgende sleutel(s) word nie vertroude:\n"
+"%1\n"
+"hulle sal nie wees in staat aan dekripteer die boodskap."
+
+#: kpgpbase5.cpp:168
+#, fuzzy, c-format
+msgid ""
+"Missing encryption key(s) for:\n"
+"%1"
+msgstr "kort enkripsie sleutel(s) vir: %1"
+
+#: kpgpbase5.cpp:205
+#, fuzzy
+msgid "Error running PGP"
+msgstr "fout wat loop pgp"
+
+#: kpgpbase6.cpp:85
+msgid "Bad passphrase; couldn't decrypt"
+msgstr ""
+
+#: kpgpbase6.cpp:93
+msgid "You do not have the secret key for this message"
+msgstr "jy doen nie het die geheim sleutel vir hierdie boodskap"
+
+#: kpgpbase6.cpp:170
+msgid "??? (file ~/.pgp/pubring.pkr not found)"
+msgstr "??? (lêer ~/.pgp/pubring.pkr nie gevind)"
+
+#: kpgpbaseG.cpp:108
+#, fuzzy
+msgid "Unknown error!"
+msgstr "onbekende fout"
+
+#: kpgpbaseG.cpp:171
+msgid "Signing failed because the passphrase is wrong."
+msgstr ""
+
+#: kpgpbaseG.cpp:178
+msgid "Signing failed because your secret key is unusable."
+msgstr ""
+
+#: kpgpbaseG.cpp:209
+#, fuzzy
+msgid "Error running gpg"
+msgstr "fout wat loop gpg"
+
+#: kpgpbaseG.cpp:341
+msgid "??? (file ~/.gnupg/pubring.gpg not found)"
+msgstr "??? (lêer ~/.gnupg/pubring.gpg nie gevind)"
+
+#: kpgpui.cpp:58
+msgid "Please enter your OpenPGP passphrase"
+msgstr "asseblief invoer jou openpgp wagwoord frase"
+
+#: kpgpui.cpp:60
 msgid ""
 "Please enter the OpenPGP passphrase for\n"
 "\"%1\""
 msgstr ""
+"asseblief invoer die openpgp wagwoord frase vir\n"
+"<-invoer->\"%1\""
 
-#: kpgp.cpp:1034
-msgid "Select key"
-msgstr "KIES SLEUTEL"
-
-#: kpgp.cpp:1047
-msgid "Please select the public key to insert"
-msgstr ""
-
-#: kpgp.cpp:1103
+#: kpgpui.cpp:100
 msgid ""
-"<qt><b>Please check if encryption really works before you start using it "
-"seriously. Also note that attachments are not encrypted by the PGP/GPG "
-"module.</b></qt>"
+"Please check if encryption really works before you start using it seriously. "
+"Also note that attachments are not encrypted by the PGP/GPG module."
 msgstr ""
+"asseblief bevestig as enkripsie rerig werk voor jy begin te gebruik dit "
+"ernstig. asook nota wat aanhegsels word nie encrypted deur die pgp/gpg "
+"module."
 
-#: kpgp.cpp:1113
-msgid "&Keep passphrase in memory"
-msgstr "&HOU WAGWOORD FRASE IN GEHEUE"
-
-#: kpgp.cpp:1116
-msgid "&Always encrypt to self"
-msgstr ""
-
-#: kpgp.cpp:1120
-msgid "&Show ciphered/signed text after composing"
-msgstr ""
-
-#: kpgp.cpp:1124
+#: kpgpui.cpp:113
 msgid "Encryption tool"
-msgstr "ENKRIPSIE PROGRAM"
+msgstr "enkripsie program"
 
-#: kpgp.cpp:1129
-msgid "Auto-&detect"
+#: kpgpui.cpp:117
+msgid "Select encryption tool to &use:"
+msgstr "kies enkripsie program aan gebruik:"
+
+#: kpgpui.cpp:120
+msgid "Autodetect"
+msgstr "outospeur"
+
+#: kpgpui.cpp:121
+msgid "GnuPG - Gnu Privacy Guard"
+msgstr "gnupg - gnu privaatheid wag"
+
+#: kpgpui.cpp:122
+msgid "PGP Version 2.x"
+msgstr "pgp weergawe 2.x"
+
+#: kpgpui.cpp:123
+msgid "PGP Version 5.x"
+msgstr "pgp weergawe 5.x"
+
+#: kpgpui.cpp:124
+msgid "PGP Version 6.x"
+msgstr "pgp weergawe 6.x"
+
+#: kpgpui.cpp:125
+msgid "Don't use any encryption tool"
 msgstr ""
 
-#: kpgp.cpp:1133
-msgid "&GPG - Gnu Privacy Guard"
+#: kpgpui.cpp:134
+msgid "&Keep passphrase in memory"
+msgstr "hou wagwoord frase in geheue"
+
+#: kpgpui.cpp:136
+msgid "Always encr&ypt to self"
+msgstr "altyd enkripteer aan eie"
+
+#: kpgpui.cpp:140
+msgid "&Show ciphered/signed text after composing"
+msgstr "vertoon versyferde/geondertekende teks na saamstel"
+
+#: kpgpui.cpp:142
+msgid "Always show the encryption keys &for approval"
 msgstr ""
 
-#: kpgp.cpp:1137
-msgid "PGP Version &2.x"
-msgstr "PGP WEERGAWE &2.x"
+#: kpgpui.cpp:235
+msgid "Key ID"
+msgstr "sleutel id"
 
-#: kpgp.cpp:1141
-msgid "PGP Version &5.x"
-msgstr "PGP WEERGAWE &5.x"
+#: kpgpui.cpp:236
+msgid "User ID"
+msgstr "gebruiker id"
 
-#: kpgp.cpp:1145
-msgid "PGP Version &6.x"
-msgstr "PGP WEERGAWE &6.x"
+#: kpgpui.cpp:246
+msgid "Remember choice"
+msgstr "onthou keuse"
 
-#: kpgp.cpp:1149
-msgid "Do&n't use any encryption tool"
-msgstr "Do&n't GEBRUIK ENIGE ENKRIPSIE PROGRAM"
+#: kpgpui.cpp:249
+msgid ""
+"<qt>"
+"<p>If you check this box your choice will be stored and you will not be "
+"asked again.</p></qt>"
+msgstr ""
+"<qt>"
+"<p>"
+"as jy bevestig hierdie boks jou keuse sal wees gestoor en jy sal nie wees "
+"gevra weer.</p></qt>"
 
-#: kpgp.cpp:1222
-msgid "PGP Key Selection"
-msgstr "PGP SLEUTEL KEUSE"
+#: kpgpui.cpp:325
+msgid "Revoked"
+msgstr "teruggetrek"
 
-#: kpgp.cpp:1228
-msgid "Select public key for recipient \"%1\""
+#: kpgpui.cpp:329
+msgid "Expired"
+msgstr "verstrek"
+
+#: kpgpui.cpp:333
+msgid "Disabled"
+msgstr "gestremde"
+
+#: kpgpui.cpp:337
+msgid "Invalid"
+msgstr "ongeldige"
+
+#: kpgpui.cpp:345
+msgid "Undefined trust"
+msgstr "ongedefinieerd vertrou"
+
+#: kpgpui.cpp:348
+msgid "Untrusted"
+msgstr "wantroue"
+
+#: kpgpui.cpp:351
+msgid "Marginally trusted"
 msgstr ""
 
-#: kpgp.cpp:1273
+#: kpgpui.cpp:354
+msgid "Fully trusted"
+msgstr "volledig vertroude"
+
+#: kpgpui.cpp:357
+msgid "Ultimately trusted"
+msgstr ""
+
+#: kpgpui.cpp:361
+msgid "Unknown"
+msgstr "onbekende"
+
+#: kpgpui.cpp:364
+msgid "Secret key available"
+msgstr ""
+
+#: kpgpui.cpp:366
+msgid "Sign only key"
+msgstr "teken slegs sleutel"
+
+#: kpgpui.cpp:368
+msgid "Encryption only key"
+msgstr "enkripsie slegs sleutel"
+
+#: kpgpui.cpp:375
+msgid ""
+"_: creation date and status of an OpenPGP key\n"
+"Creation date: %1, Status: %2"
+msgstr "skep datum: %1, status: %2"
+
+#: kpgpui.cpp:380
+msgid ""
+"_: creation date, status and remark of an OpenPGP key\n"
+"Creation date: %1, Status: %2 (%3)"
+msgstr "skep datum: %1, status: %2 (%3)"
+
+#: kpgpui.cpp:530
+msgid "Encryption Key Approval"
+msgstr ""
+
+#: kpgpui.cpp:547
+msgid "The following keys will be used for encryption:"
+msgstr "die volgende sleutels sal wees gebruik word vir enkripsie:"
+
+#: kpgpui.cpp:575
+msgid "Recipient:"
+msgstr "ontvanger:"
+
+#: kpgpui.cpp:581
+msgid "Encryption Key:"
+msgstr "enkripsie sleutel:"
+
+#: kpgpui.cpp:584 kpgpui.cpp:597 kpgpui.cpp:697
+msgid "<none>"
+msgstr "<none>"
+
+#: kpgpui.cpp:588
+msgid "Change..."
+msgstr "verander..."
+
+#: kpgpui.cpp:595
+msgid "Encryption Preference:"
+msgstr "enkripsie voorkeur:"
+
+#: kpgpui.cpp:598
+msgid "Never encrypt with this key"
+msgstr "moet nooit enkripteer met hierdie sleutel"
+
+#: kpgpui.cpp:599
+msgid "Always encrypt with this key"
+msgstr "altyd enkripteer met hierdie sleutel"
+
+#: kpgpui.cpp:600
+msgid "Encrypt whenever encryption is possible"
+msgstr "enkripteer wanneer ook al enkripsie is moontlik"
+
+#: kpgpui.cpp:601
+msgid "Always ask"
+msgstr "altyd vra"
+
+#: kpgpui.cpp:602
+msgid "Ask whenever encryption is possible"
+msgstr "vra wanneer ook al enkripsie is moontlik"
+
+#: kpgpui.cpp:668
+#, c-format
+msgid ""
+"Select the key which should be used to encrypt the message for\n"
+"%1."
+msgstr ""
+"kies die sleutel wat moet wees gebruik word aan enkripteer die boodskap vir\n"
+"%1."
+
+#: kpgpui.cpp:745
 msgid "OpenPGP Information"
-msgstr ""
+msgstr "openpgp informasie"
 
-#: kpgp.cpp:1280
+#: kpgpui.cpp:752
 msgid "Result of the last encryption / sign operation:"
+msgstr "resultaat van die laaste enkripsie / teken operasie:"
+
+#: kscoring.cpp:70
+msgid "Don't show this message again"
 msgstr ""
 
-#: kscoring.cpp:74
-msgid "Don't show this message again"
-msgstr "Don't VERTOON HIERDIE BOODSKAP WEER"
-
-#: kscoring.cpp:94
+#: kscoring.cpp:90
 msgid ""
 "Article\n"
 "<b>%1</b><br><b>%2</b><br>caused the following note to appear:<br>%3"
 msgstr ""
+"artikel\n"
+"<b>%1</b><br><b>%2</b><br>veroorsaak die volgende nota aan verskyn:<br>%3"
 
-#: kscoring.cpp:158
+#: kscoring.cpp:154
 msgid "adjust score"
-msgstr "VERSTEL TELLING"
+msgstr "verstel telling"
 
-#: kscoring.cpp:159
+#: kscoring.cpp:155
 msgid "display message"
-msgstr "VERTOON BOODSKAP"
+msgstr "vertoon boodskap"
 
-#: kscoring.cpp:160
+#: kscoring.cpp:156
 msgid "colorize header"
-msgstr "VERKLEUR OPSKRIF"
+msgstr "verkleur opskrif"
 
-#: kscoring.cpp:320
+#: kscoring.cpp:316
 msgid "<h1>List of collected notes</h1>"
-msgstr ""
+msgstr "<h1>lys van versamelde notas</h1>"
 
-#: kscoring.cpp:343
+#: kscoring.cpp:339
 msgid "Collected Notes"
-msgstr ""
+msgstr "versamelde notas"
+
+#: kscoring.cpp:398
+msgid "contains substring"
+msgstr "bevat substring"
+
+#: kscoring.cpp:399
+msgid "matches regular expression"
+msgstr "ooreenstemmende inskrywings gewone uitdrukking"
+
+#: kscoring.cpp:400
+msgid "is exactly the same as"
+msgstr "is presies die selfde as"
+
+#: kscoring.cpp:401
+msgid "less than"
+msgstr "minder as"
 
 #: kscoring.cpp:402
-msgid "contains substring"
-msgstr "BEVAT SUBSTRING"
-
-#: kscoring.cpp:403
-msgid "matches regular expression"
-msgstr "OOREENSTEMMENDE INSKRYWINGS GEWONE UITDRUKKING"
-
-#: kscoring.cpp:404
-msgid "is exactly the same as"
-msgstr "IS PRESIES DIE SELFDE AS"
-
-#: kscoring.cpp:405
-msgid "less than"
-msgstr "MINDER AS"
-
-#: kscoring.cpp:406
 msgid "greater than"
-msgstr "GROOTTER AS"
+msgstr "grootter as"
 
-#: kscoring.cpp:929
+#: kscoring.cpp:951
 msgid "the rule name is already assigned, please choose another name"
-msgstr ""
+msgstr "die reël naam is alreeds toegeskryf, asseblief kies nog 'n naam"
 
-#: kscoring.cpp:1056
+#: kscoring.cpp:1078
 #, c-format
 msgid "rule %1"
-msgstr "REëL %1"
+msgstr "reël %1"
 
-#: kscoringeditor.cpp:69
+#: kscoringeditor.cpp:67
 msgid "Not"
-msgstr "NIE"
+msgstr "nie"
 
-#: kscoringeditor.cpp:70
+#: kscoringeditor.cpp:68
 msgid "negate this condition"
-msgstr ""
+msgstr "negate hierdie kondisie"
 
-#: kscoringeditor.cpp:74
+#: kscoringeditor.cpp:72
 msgid "select the header against this condition matches"
-msgstr ""
+msgstr "kies die opskrif teen hierdie kondisie ooreenstemmende inskrywings"
 
-#: kscoringeditor.cpp:78
+#: kscoringeditor.cpp:76
 msgid "select the type of match"
-msgstr "KIES DIE TIPE VAN OOREENSTEM"
+msgstr "kies die tipe van ooreenstem"
 
-#: kscoringeditor.cpp:81
+#: kscoringeditor.cpp:79
 msgid "the condition for the match"
-msgstr ""
+msgstr "die kondisie vir die ooreenstem"
 
-#: kscoringeditor.cpp:217
+#: kscoringeditor.cpp:215
 msgid "Please select an action."
-msgstr "ASSEBLIEF KIES 'N AKSIE."
+msgstr "asseblief kies 'n aksie."
 
-#: kscoringeditor.cpp:365
+#: kscoringeditor.cpp:363
 msgid "&Name:"
-msgstr "&NAAM:"
+msgstr "naam:"
 
-#: kscoringeditor.cpp:371
+#: kscoringeditor.cpp:369
 msgid "&Groups:"
-msgstr "&GROEPE:"
+msgstr "groepe:"
 
-#: kscoringeditor.cpp:374
+#: kscoringeditor.cpp:372
 msgid "A&dd Group"
-msgstr "A&dd GROEP"
+msgstr "voeg by groep"
 
-#: kscoringeditor.cpp:385
+#: kscoringeditor.cpp:383
 msgid "&Expire rule automatically"
-msgstr "&VERTREK REëL AUTOMATIES"
+msgstr "vertrek reël automaties"
+
+#: kscoringeditor.cpp:386
+msgid " days"
+msgstr " dae"
 
 #: kscoringeditor.cpp:388
-msgid " days"
-msgstr ""
-
-#: kscoringeditor.cpp:390
 msgid "&Rule is valid for:"
-msgstr "&REëL IS GELDIGE VIR:"
+msgstr "reël is geldige vir:"
 
-#: kscoringeditor.cpp:399
+#: kscoringeditor.cpp:397
 msgid "Conditions"
-msgstr ""
+msgstr "gevalle"
 
-#: kscoringeditor.cpp:407
+#: kscoringeditor.cpp:405
 msgid "Match a&ll conditions"
-msgstr ""
+msgstr "ooreenstem alle gevalle"
 
-#: kscoringeditor.cpp:410
+#: kscoringeditor.cpp:408
 msgid "Matc&h any condition"
-msgstr ""
+msgstr "ooreenstem enige kondisie"
 
-#: kscoringeditor.cpp:420
+#: kscoringeditor.cpp:418
 msgid "Actions"
-msgstr "AKSIES"
+msgstr "aksies"
 
-#: kscoringeditor.cpp:569 kscoringeditor.cpp:853
+#: kscoringeditor.cpp:567 kscoringeditor.cpp:851
 msgid "Edit rule"
-msgstr "REDIGEER REëL"
+msgstr "redigeer reël"
 
-#: kscoringeditor.cpp:575
+#: kscoringeditor.cpp:573
 msgid "New rule"
-msgstr "NUWE REëL"
+msgstr "nuwe reël"
 
-#: kscoringeditor.cpp:580
+#: kscoringeditor.cpp:578
 msgid "Remove rule"
-msgstr "VERWYDER REëL"
+msgstr "verwyder reël"
 
-#: kscoringeditor.cpp:585
+#: kscoringeditor.cpp:583
 msgid "Copy rule"
-msgstr "KOPIE REëL"
+msgstr "kopie reël"
 
-#: kscoringeditor.cpp:593 kscoringeditor.cpp:598 kscoringeditor.cpp:629
+#: kscoringeditor.cpp:591 kscoringeditor.cpp:596 kscoringeditor.cpp:627
 msgid "<all groups>"
 msgstr "<all groups>"
 
-#: kscoringeditor.cpp:599
+#: kscoringeditor.cpp:597
 msgid "Sho&w only rules for group:"
-msgstr "Sho&w SLEGS REëLS VIR GROEP:"
+msgstr "vertoon slegs reëls vir groep:"
 
-#: kscoringeditor.cpp:759
+#: kscoringeditor.cpp:757
 msgid "Rule Editor"
-msgstr "REëL REDIGEERDER"
+msgstr "reël redigeerder"
 
-#: kwidgetlister.cpp:30
+#: kwidgetlister.cpp:38
 msgid ""
 "_: more widgets\n"
 "More"
-msgstr ""
+msgstr "meer"
 
-#: kwidgetlister.cpp:33
+#: kwidgetlister.cpp:41
 msgid ""
 "_: fewer widgets\n"
 "Fewer"
-msgstr ""
+msgstr "minder"
 
-#: kwidgetlister.cpp:39
+#: kwidgetlister.cpp:47
 msgid ""
 "_: clear widgets\n"
 "Clear"
-msgstr ""
+msgstr "maak skoon"
 
-#~ msgid "unknown key ID "
-#~ msgstr "ONBEKENDE SLEUTEL ID "
+#~ msgid "C&ontinue"
+#~ msgstr "voortgaan"
+
+#~ msgid "Could not find the public keys for\n"
+#~ msgstr "kon nie soek die publiek sleutels vir\n"
+
+#~ msgid "&Encrypt"
+#~ msgstr "enkripteer"
+
+#~ msgid "Do not have the secret key for this message"
+#~ msgstr "doen nie het die geheim sleutel vir hierdie boodskap"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not find public keys matching the userid(s) %s.  These persons "
+#~ "won't be able to read the message."
+#~ msgstr ""
+#~ "hierdie persoon sal nie wees in staat aan dekripteer die boodskap.\n"
+#~ "hierdie persone sal nie wees in staat aan dekripteer die boodskap."
