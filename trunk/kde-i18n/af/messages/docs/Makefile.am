@@ -1,4 +1,0 @@
-KDE_LANG = templates
-SUBDIRS = $(AUTODIRS)
-
-KDE_DOCS = AUTO
