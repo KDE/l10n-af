@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwuftpd VERSION\n"
-"POT-Creation-Date: 2002-09-27 03:06+0200\n"
+"POT-Creation-Date: 2003-10-23 01:29+0200\n"
 "PO-Revision-Date: 2002-11-07 11:26+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -14,16 +14,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: AddDlFree.cpp:11 rc.cpp:6
-msgid "Directory:"
-msgstr "Gids:"
+msgid "Folder:"
+msgstr ""
 
 #: AddDlFree.cpp:11 AddNoRet.cpp:11
 msgid "Filename:"
 msgstr "Lêernaam:"
 
 #: AddDlFree.cpp:16
-msgid "Add Freely Downloadable Directory"
-msgstr "Voeg by Vrylike Aflaaibare Gids"
+#, fuzzy
+msgid "Add Freely Downloadable Folder"
+msgstr "Voeg by Vrylike Aflaaibare Lêer"
 
 #: AddDlFree.cpp:18
 msgid "Add Freely Downloadable File"
@@ -38,18 +39,19 @@ msgid "Add Message"
 msgstr "Voeg by Boodskap"
 
 #: AddMessage.cpp:29
+#, fuzzy
 msgid ""
 "Message will be displayed after a user logs in.\n"
-"The file has to be relative to the chrooted directory for anonymous/guest "
-"users."
+"The file has to be relative to the chrooted folder for anonymous/guest users."
 msgstr ""
 "Boodskap sal wees vertoon na 'n gebruiker logs in.\n"
 "Die lêer het na wees relatiewe na Die ge-chroot-e gids vir anoniem/gas "
 "gebruikers."
 
 #: AddMessage.cpp:30
+#, fuzzy
 msgid ""
-"Message will be displayed when a user enters the specified directory.\n"
+"Message will be displayed when a user enters the specified folder.\n"
 "Path has to be relative to chroot for anonymous/guest users."
 msgstr ""
 "Boodskap sal wees vertoon wanneer 'n gebruiker binne gaan die gespesifiseer "
@@ -63,9 +65,10 @@ msgstr ""
 "chroot!"
 
 #: AddMessage.cpp:32
+#, fuzzy
 msgid ""
-"Directory in which the message will be displayed.\n"
-"May be globbed: For example * means show in every directory.\n"
+"Folder in which the message will be displayed.\n"
+"May be globbed: For example * means show in every folder.\n"
 "This is especially useful if you're using ratios."
 msgstr ""
 "Gids in wat die boodskap sal wees vertoon.\n"
@@ -81,13 +84,15 @@ msgid "The message will be displayed to members of the classes selected here."
 msgstr "Die boodskap sal wees vertoon na lede van Die klasse gekose hier."
 
 #: AddNoRet.cpp:13
-msgid "Add Non-Retrievable File/Directory"
+#, fuzzy
+msgid "Add Non-Retrievable File/Folder"
 msgstr "Voeg by Non-Retrievable Lêer/Gids"
 
 #: AddNoRet.cpp:14
+#, fuzzy
 msgid ""
 "End the filename with a / to indicate it is\n"
-"an entire directory; no file in this directory\n"
+"an entire folder; no file in this folder\n"
 "will be retrievable."
 msgstr ""
 "Einde die lêernaam met 'n / na aandui dit is\n"
@@ -115,17 +120,19 @@ msgid "Enter the IP address of the new virtual host here."
 msgstr "Invoer die  ip  adres van die nuwe virtuele bediener hier."
 
 #: Directories.cpp:19
+#, fuzzy
 msgid ""
 "Anonymous users (username <i>ftp</i> or <i>anonymous</i>) will see the "
-"directory entered here as their / directory."
+"folder entered here as their / folder."
 msgstr ""
 "Anoniem gebruikers (gebruikernaam <i>ftp</i> of <i>Anoniem</i>"
 ") sal sien die gids ingevoerde hier as hulle / gids."
 
 #: Directories.cpp:20
+#, fuzzy
 msgid ""
-"Guest users (real users with restricted access) will see the directory "
-"entered here as their / directory."
+"Guest users (real users with restricted access) will see the folder entered "
+"here as their / folder."
 msgstr ""
 "Gas gebruikers (egte gebruikers met beperking toegang verkry) sal sien die "
 "gids ingevoerde hier as hulle / gids."
@@ -386,9 +393,10 @@ msgstr ""
 "as eers."
 
 #: Messages.cpp:22 Messages.cpp:23 Messages.cpp:24
+#, fuzzy
 msgid ""
 "Messages are files that are automatically displayed to the user after "
-"logging in or after entering a directory. Use the <b>Add Message</b> and "
+"logging in or after entering a folder. Use the <b>Add Message</b> and "
 "<b>Remove Message</b> buttons to modify the messages."
 msgstr ""
 "Boodskappe word lêers wat word automaties vertoon na die gebruiker na "
@@ -396,8 +404,9 @@ msgstr ""
 "<b>Verwyder Boodskap</b> knoppies na verander die Boodskappe."
 
 #: Messages.cpp:26 Messages.cpp:27 Messages.cpp:28
+#, fuzzy
 msgid ""
-"When you've defined README files, users changing to a directory containing "
+"When you have defined README files, users changing to a folder containing "
 "files matching the glob listed here will be pointed to these files with a "
 "<i>Please read the file README, last modified x days ago</i> message."
 "<br>Use the <b>Add Readme</b> and <b>Remove Readme</b>"
@@ -463,7 +472,8 @@ msgid "Class name may not be empty."
 msgstr "Klas naam dalk mag nie wees leeg."
 
 #: NewClass.cpp:42
-msgid "Class name may not contain whitespaces"
+#, fuzzy
+msgid "Class name may not contain whitespaces."
 msgstr "Klas naam dalk mag nie bevat spasies"
 
 #: NewClass.cpp:49
@@ -557,11 +567,15 @@ msgid " KB."
 msgstr " Kb."
 
 #: Security.cpp:18 Security.cpp:19 Security.cpp:22 Security.cpp:23
+#, fuzzy
 msgid ""
-"Noretrieves are files and directories that can't be retrieved (downloaded) "
-"by remote users. Use the <b>Add</b> and <b>Remove</b> buttons below to "
-"control noretrieves."
+"Noretrieves are files and folders that cannot be retrieved (downloaded) by "
+"remote users. Use the <b>Add</b> and <b>Remove</b> buttons below to control "
+"noretrieves."
 msgstr ""
+"Hierdie lys boks vertoon die ontvanger(s) van oplaai inkennisstelling epos "
+"adresse. Gebruik die <b>Voeg by</b> en <b>Verwyder</b> knoppies onder na "
+"verander die ontvangers."
 
 #: Security.cpp:24 Security.cpp:25
 msgid ""
@@ -693,10 +707,10 @@ msgid "Remove the selected virtual host."
 msgstr "Verwyder die gekose virtuele bediener."
 
 #: Virtual.cpp:35
+#, fuzzy
 msgid ""
-"Select the root directory of this virtual host."
-"<br>"
-"The root directory is the directory users logging in to this server will see "
+"Select the root folder of this virtual host."
+"<br>The root folder is the folder users logging in to this server will see "
 "as /."
 msgstr ""
 "Kies die root gids van hierdie virtuele bediener."
@@ -704,10 +718,11 @@ msgstr ""
 "sien as /."
 
 #: Virtual.cpp:36
+#, fuzzy
 msgid ""
 "The file selected here will be displayed to the user before logging "
 "in."
-"<br><b>Note:</b> The file name is relative to the root directory specified "
+"<br><b>Note:</b> The file name is relative to the root folder specified "
 "above."
 msgstr ""
 "Die lêer gekose hier sal wees vertoon na Die gebruiker voor afteken "
@@ -817,8 +832,8 @@ msgid "User &Classes"
 msgstr "Gebruiker Klasse"
 
 #: kwuftpd.cpp:103
-msgid "&Directories"
-msgstr "Gidse"
+msgid "&Folders"
+msgstr ""
 
 #: kwuftpd.cpp:104
 msgid "&Security"
@@ -861,7 +876,8 @@ msgid "Only local files are currently supported."
 msgstr "Slegs plaaslike lêers word huidiglik ondersteunde."
 
 #: kwuftpd.cpp:151
-msgid "An error occured while trying to save."
+#, fuzzy
+msgid "An error occurred while trying to save."
 msgstr "'n fout voorgekom terwyl probeer na stoor."
 
 #: kwuftpd.cpp:171
@@ -913,11 +929,13 @@ msgid "&Passwd file:"
 msgstr "Wagwoord lêer:"
 
 #: rc.cpp:13
-msgid "Root directory for &guest users:"
+#, fuzzy
+msgid "Root folder for &guest users:"
 msgstr "Root gids vir gas gebruikers:"
 
 #: rc.cpp:14
-msgid "Root directory for &anonymous users:"
+#, fuzzy
+msgid "Root folder for &anonymous users:"
 msgstr "Root gids vir anoniem gebruikers:"
 
 #: rc.cpp:15
@@ -973,11 +991,13 @@ msgid "EditUploadBase"
 msgstr ""
 
 #: rc.cpp:28
-msgid "&Directory (may be globbed):"
+#, fuzzy
+msgid "&Folder (may be globbed):"
 msgstr "Gids (dalk mag wees verkort):"
 
 #: rc.cpp:29
-msgid "For users with &root directory:"
+#, fuzzy
+msgid "For users with &root folder:"
 msgstr "Vir gebruikers met root gids:"
 
 #: rc.cpp:30
@@ -1158,11 +1178,13 @@ msgid "&Download limit:"
 msgstr "Aflaai beperk:"
 
 #: rc.cpp:84 rc.cpp:89 rc.cpp:91 rc.cpp:92
-msgid "for guest users"
+#, fuzzy
+msgid "For guest users"
 msgstr "vir gas gebruikers"
 
 #: rc.cpp:85 rc.cpp:87 rc.cpp:90 rc.cpp:93
-msgid "for anonymous users"
+#, fuzzy
+msgid "For anonymous users"
 msgstr "vir anoniem gebruikers"
 
 #: rc.cpp:86
@@ -1174,8 +1196,9 @@ msgid "&Upload limit:"
 msgstr "Oplaai beperk:"
 
 #: rc.cpp:94
-msgid "Freely Downloadable Directories"
-msgstr "Vrylike Aflaaibare Gidse"
+#, fuzzy
+msgid "Freely Downloadable Folders"
+msgstr "Vrylike Aflaaibare Lêers"
 
 #: rc.cpp:97
 msgid "Freely Downloadable Files"
@@ -1326,7 +1349,8 @@ msgid "Settings for Selected Host"
 msgstr "Instellings vir Gekose Bediener"
 
 #: rc.cpp:161
-msgid "Root directory:"
+#, fuzzy
+msgid "Root folder:"
 msgstr "Root gids:"
 
 #: rc.cpp:162
@@ -1376,3 +1400,15 @@ msgstr "Verbied gespesifiseer"
 #: rc.cpp:173
 msgid "Allow specified"
 msgstr "Toelaat gespesifiseer"
+
+#~ msgid "Directory:"
+#~ msgstr "Gids:"
+
+#~ msgid "Add Freely Downloadable Directory"
+#~ msgstr "Voeg by Vrylike Aflaaibare Gids"
+
+#~ msgid "&Directories"
+#~ msgstr "Gidse"
+
+#~ msgid "Freely Downloadable Directories"
+#~ msgstr "Vrylike Aflaaibare Gidse"
