@@ -5,118 +5,115 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_smtp VERSION\n"
-"POT-Creation-Date: 2002-04-26 02:18+0200\n"
-"PO-Revision-Date: 2002-07-09 12:37+0200\n"
+"POT-Creation-Date: 2002-09-11 03:01+0200\n"
+"PO-Revision-Date: 2002-11-07 11:29+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: smtp.cc:261 smtp.cc:321
+#: smtp.cc:262 smtp.cc:331
 msgid "The sender address is missing."
-msgstr "die stuurder adres is kort."
+msgstr "Die stuurder adres is kort."
 
-#: smtp.cc:272
+#: smtp.cc:273
 msgid "SMTPProtocol::smtp_open failed (%1)"
-msgstr ""
+msgstr "smtp protokol::smtp_open gevaal (%1)"
 
-#: smtp.cc:279
-#, c-format
+#: smtp.cc:282
 msgid ""
-"The server didn't accept the sender address:\n"
-"%1"
+"The server did not accept the sender address.\n"
+"The server responded: \"%1\""
 msgstr ""
+"Die bediener het nie aanvaar Die stuurder adres.\n"
+"Die bediener reageer: \"%1\""
 
-#: smtp.cc:297
-#, c-format
+#: smtp.cc:305
 msgid ""
 "The attempt to start sending the message content failed.\n"
-"The server said:\n"
-"%1"
+"The server responded: \"%1\""
 msgstr ""
-"die poog aan begin stuur die boodskap inhoud gevaal.\n"
-"die bediener het gesê:\n"
-"%1"
+"Die poog na begin stuur Die boodskap inhoud gevaal.\n"
+"Die bediener reageer: \"%1\""
 
-#: smtp.cc:369
-#, c-format
+#: smtp.cc:379
 msgid ""
-"The server didn't accept the message content:\n"
-"%1"
+"The message content was not accepted.\n"
+"The server responded: \"%1\""
 msgstr ""
+"Die boodskap inhoud was nie aanvaar.\n"
+"Die bediener reageer: \"%1\""
 
-#: smtp.cc:385
-#, c-format
+#: smtp.cc:396
 msgid ""
-"The server didn't accept one of the recipients.\n"
-"It said: %1"
+"One of the recipients was not accepted.\n"
+"The server responded: \"%1\""
 msgstr ""
+"Een van die ontvangers was nie aanvaar.\n"
+"die bediener reageer: \"%1\""
 
-#: smtp.cc:440 smtp.cc:463
+#: smtp.cc:464 smtp.cc:487
 msgid "Invalid SMTP response received."
-msgstr "ongeldige smtp antwoord ontvang."
+msgstr "Ongeldige Smtp antwoord ontvang."
 
-#: smtp.cc:496
-#, c-format
-msgid "Invalid SMTP response received: %1"
-msgstr "ongeldige smtp antwoord ontvang: %1"
+#: smtp.cc:520
+msgid "Invalid SMTP response received: \"%1\""
+msgstr "Ongeldige Smtp antwoord ontvang: \"%1\""
 
-#: smtp.cc:545
-#, c-format
-msgid "The server didn't accept the connection: %1"
-msgstr ""
+#: smtp.cc:571
+msgid "The server did not accept the connection: \"%1\""
+msgstr "Die bediener het nie aanvaar Die verbinding: \"%1\""
 
-#: smtp.cc:583 smtp.cc:626
-#, c-format
-msgid "The server said: %1"
-msgstr "die bediener het gesê: %1"
+#: smtp.cc:609 smtp.cc:657
+msgid "The server responded: \"%1\""
+msgstr "Die bediener reageer: \"%1\""
 
-#: smtp.cc:606
+#: smtp.cc:633
 msgid ""
 "Your SMTP server claims to support TLS, but negotiation was unsuccessful.\n"
 "You can disable TLS in KDE using the crypto settings module."
 msgstr ""
-"jou smtp bediener maak aanspraak aan ondersteun tls, maar onderhandeling was onsuksesvol.\n"
-"jy kan deaktiveer tls in kde te gebruik die kripto instellings module."
+"Jou Smtp bediener maak aanspraak na ondersteun Tls, maar onderhandeling was "
+"onsuksesvol.\n"
+"Jy kan deaktiveer Tls in Kde te gebruik die kripto instellings module."
 
-#: smtp.cc:611
+#: smtp.cc:638
 msgid "Connection Failed"
-msgstr "verbinding gevaal"
+msgstr "Verbinding Gevaal"
 
-#: smtp.cc:645
+#: smtp.cc:678
 msgid ""
 "Your SMTP server does not support TLS. Disable TLS, if you want to connect "
 "without encryption."
 msgstr ""
-"jou smtp bediener doen nie ondersteun tls. deaktiveer tls, as jy wil hê aan konnekteer "
-"sonder om te enkripsie."
+"Jou Smtp bediener doen nie ondersteun Tls. Deaktiveer Tls, as jy wil hê na "
+"konnekteer sonder om te enkripsie."
 
-#: smtp.cc:657
+#: smtp.cc:690
 msgid "Username and password for your SMTP account:"
-msgstr "gebruikernaam en wagwoord vir jou smtp rekening:"
+msgstr "Gebruikernaam en wagwoord vir jou Smtp rekening:"
 
-#: smtp.cc:659
+#: smtp.cc:692
 msgid "When prompted, you ran away."
-msgstr "wanneer gepor, jy hardloop weg."
+msgstr "Wanneer gepor, jy hardloop weg."
 
-#: smtp.cc:706
+#: smtp.cc:739
 msgid "No compatible authentication methods found."
-msgstr "nee aanpasbaar geldigheidsverklaring metodes gevind."
+msgstr "Nee aanpasbaar geldigheidsverklaring metodes gevind."
 
-#: smtp.cc:727
+#: smtp.cc:760
 msgid ""
 "Your SMTP server doesn't support %1.\n"
 "Choose a different authentication method."
 msgstr ""
 
-#: smtp.cc:756
-#, c-format
+#: smtp.cc:790
 msgid ""
 "Authentication failed.\n"
 "Most likely the password is wrong.\n"
-"The server said: %1"
+"The server responded: \"%1\""
 msgstr ""
-"geldigheidsverklaring gevaal.\n"
-"mees waarskynlik die wagwoord is verkeerde.\n"
-"die bediener het gesê: %1"
+"Geldigheidsverklaring gevaal.\n"
+"Mees waarskynlik die wagwoord is verkeerde.\n"
+"die bediener reageer: \"%1\""

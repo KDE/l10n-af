@@ -1,12 +1,12 @@
 # WEB-Translator generated file. UTF-8 test:äëïöü
 # Copyright (C) 2001 Free Software Foundation, Inc.
-# Frikkie Thirion <frix@engineer.com>, 2001.
+# Frikkie Thirion <frix@expertron.co.za>, 2001,2002.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnapshot VERSION\n"
-"POT-Creation-Date: 2002-02-10 02:46+0100\n"
-"PO-Revision-Date: 2002-01-10 09:27+0200\n"
+"POT-Creation-Date: 2002-10-07 02:57+0200\n"
+"PO-Revision-Date: 2002-11-07 11:33+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
@@ -15,35 +15,102 @@ msgstr ""
 
 #: rc.cpp:1
 msgid "Form2"
-msgstr "form2"
+msgstr "Form2"
 
 #: rc.cpp:2
-msgid "Picture"
-msgstr "prent"
+msgid "Current Snapshot"
+msgstr "Huidige Kiek"
 
 #: rc.cpp:3
-msgid "&Grab"
-msgstr "gryp"
+msgid "Thumbnail of the current snapshot"
+msgstr "Duimnael van die huidige kiek"
 
 #: rc.cpp:4
-msgid "&Print"
+msgid ""
+"This is a thumbnail of the current snapshot.\n"
+"\n"
+"The image can be dragged to another application or document to copy the full "
+"screenshot there. Try it with the Konqueror file manager!"
 msgstr ""
 
+#: rc.cpp:5
+msgid "&New Snapshot"
+msgstr "Nuwe Kiek"
+
 #: rc.cpp:6
-msgid "&Delay:"
-msgstr "vertraging:"
+msgid ""
+"This button creates a snapshot image of the screen.\n"
+"\n"
+"If the delay is set to \"No Delay\" the snapshot will be taken when you "
+"click the mouse."
+msgstr ""
+"Hierdie knoppie skep 'n kiek beeld van die skerm.\n"
+"\n"
+"As die vertraging is stel na \"Nee vertraging\" die kiek sal wees geneem "
+"wanneer jy kliek die muis."
 
 #: rc.cpp:7
-msgid "&Filename:"
-msgstr "lêernaam:"
+msgid "&Print Snapshot..."
+msgstr "Druk Kiek..."
 
 #: rc.cpp:8
-msgid "seconds."
-msgstr "sekondes."
+msgid "This button prints the snapshot."
+msgstr "Hierdie knoppie druk die kiek."
 
 #: rc.cpp:9
+msgid "&Save Snapshot..."
+msgstr "Stoor Kiek..."
+
+#: rc.cpp:10
+msgid "This button saves the snapshot to the \"Save As\" location below."
+msgstr "Hierdie knoppie stoor die kiek na die \"Stoor As\" ligging onder."
+
+#: rc.cpp:12
+msgid "Snapshot &delay:"
+msgstr "Kiek vertraging:"
+
+#: rc.cpp:13
+msgid " seconds"
+msgstr " sekondes"
+
+#: rc.cpp:14
+msgid "No delay"
+msgstr "Nee vertraging"
+
+#: rc.cpp:15
+msgid "Snapshot delay in seconds"
+msgstr "Kiek vertraging in sekondes"
+
+#: rc.cpp:16
+msgid ""
+"This is the number of seconds to wait after clicking the \"Take a new "
+"snapshot\" button before taking the snapshot.\n"
+"\n"
+"This is very useful for getting windows, menus and other items on the screen "
+"set up just the way you want.\n"
+"\n"
+"If no delay is set, the program will wait for a mouse click before taking a "
+"snapshot."
+msgstr ""
+"Hierdie is die nommer van sekondes na wag na te kliek die \"Neem 'n nuwe "
+"kiek\" knoppie voor te neem die kiek.\n"
+"\n"
+"Hierdie is baie bruikbare vir verkry vensters, kieslyste en ander iteme op "
+"die skerm stel begin net die weg jy wil hê.\n"
+"\n"
+"As nee vertraging is stel, die program sal wag vir 'n muis kliek voor te "
+"neem 'n kiek."
+
+#: rc.cpp:17
 msgid "&Only grab the window containing the pointer"
-msgstr "slegs gryp die venster bevat die wyser"
+msgstr "Slegs gryp die venster bevat die wyser"
+
+#: rc.cpp:18
+msgid ""
+"Checking this option causes only the window that the mouse is over, when the "
+"snapshot is taken, to be captured. Any other elements, including menus, "
+"covering the window will appear as a black box in the snapshot."
+msgstr ""
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -55,53 +122,41 @@ msgstr "WEB-Vertaler (http://kde.af.org.za)"
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "frix@engineer.com"
+msgstr "frix@expertron.co.za"
 
-#: ksnapshot.cpp:61
+#: ksnapshot.cpp:82
 msgid "snapshot"
 msgstr "kiek"
 
-#: ksnapshot.cpp:85 ksnapshot.cpp:119
-msgid "Error: Unable to save image"
-msgstr "fout: nie moontlik aan stoor beeld"
+#: ksnapshot.cpp:116
+msgid "File Exists"
+msgstr "Lêer Bestaan"
 
-#: ksnapshot.cpp:86
-msgid "Dismiss"
-msgstr "gooi weg"
+#: ksnapshot.cpp:117
+msgid "<qt>Do you really want to overwrite <b>%1</b>?</qt>"
+msgstr "<qt>Doen jy rerig wil hê na oorskryf <b>%1</b>?</qt>"
 
-#: ksnapshot.cpp:88
-msgid "Warning: This will overwrite an existing file"
-msgstr "waarskuwing: hierdie sal oorskryf 'n bestaande lêer"
+#: ksnapshot.cpp:136
+msgid "Unable to save image"
+msgstr "Nie moontlik na stoor beeld"
 
-#: ksnapshot.cpp:89
-msgid ""
-"Are you sure you want to overwrite the existing file named\n"
-"%1?"
-msgstr ""
-"word jy seker jy wil hê aan oorskryf die bestaande lêer genaamd\n"
-"%1?"
-
-#: ksnapshot.cpp:90
-msgid "Overwrite"
-msgstr "oorskryf"
-
-#: ksnapshot.cpp:93 ksnapshot.cpp:120
+#: ksnapshot.cpp:137
 #, c-format
 msgid ""
 "KSnapshot was unable to save the image to\n"
 "%1."
 msgstr ""
-"k-kiekie was nie moontlik aan stoor die beeld aan\n"
+"K-kiekie was nie moontlik na stoor die beeld na\n"
 "%1."
 
-#: ksnapshot.cpp:238
+#: ksnapshot.cpp:336
 msgid "The screen has been successfully grabbed."
-msgstr "die skerm het al suksesvol vasgevang."
+msgstr "Die skerm het al suksesvol vasgevang."
 
 #: main.cpp:10
 msgid "KDE Screenshot utility"
-msgstr "kde skermkiekie program"
+msgstr "Kde Skermkiekie program"
 
 #: main.cpp:14
 msgid "KSnapshot"
-msgstr "k-kiekie"
+msgstr "K-kiekie"

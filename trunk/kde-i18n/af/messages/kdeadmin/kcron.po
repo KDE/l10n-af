@@ -1,21 +1,33 @@
 # WEB-Translator generated file. UTF-8 test:äëïöü
 # Copyright (C) 2001 Free Software Foundation, Inc.
-# Frikkie Thirion <frix@engineer.com>, 2001.
+# Frikkie Thirion <frix@expertron.co.za>, 2001,2002.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kcron VERSION\n"
-"POT-Creation-Date: 2002-01-21 03:06+0100\n"
-"PO-Revision-Date: 2002-01-10 09:24+0200\n"
+"POT-Creation-Date: 2002-09-16 03:06+0200\n"
+"PO-Revision-Date: 2002-11-07 11:26+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: ctcron.cpp:62
+#: ctcron.cpp:64
 msgid "(System Crontab)"
-msgstr "(stelsel crontab)"
+msgstr "(Stelsel Crontab)"
+
+#: ctcron.cpp:74
+msgid "No password entry found for user '%1'"
+msgstr "Nee wagwoord inskrywing gevind vir gebruiker '%1'"
+
+#: ctcron.cpp:91
+msgid "No password entry found for uid '%1'"
+msgstr "Nee wagwoord inskrywing gevind vir uid '%1'"
+
+#: ctcron.cpp:251
+msgid "An error occurred while updating crontab."
+msgstr "'n fout voorgekom terwyl besig met opdatering van crontab."
 
 #: ctmonth.cpp:34
 msgid "every month "
@@ -23,53 +35,53 @@ msgstr "elke maand "
 
 #: ctmonth.cpp:51
 msgid "January"
-msgstr "januarie"
+msgstr "Januarie"
 
 #: ctmonth.cpp:51
 msgid "February"
-msgstr "februarie"
+msgstr "Februarie"
 
 #: ctmonth.cpp:52
 msgid "March"
-msgstr "maart"
+msgstr "Maart"
 
 #: ctmonth.cpp:52
 msgid "April"
-msgstr "april"
+msgstr "April"
 
 #: ctmonth.cpp:53
 msgid ""
 "_: May long\n"
 "May"
-msgstr "dalk mag"
+msgstr "Dalk mag"
 
 #: ctmonth.cpp:53
 msgid "June"
-msgstr "junie"
+msgstr "Junie"
 
 #: ctmonth.cpp:54
 msgid "July"
-msgstr "julie"
+msgstr "Julie"
 
 #: ctmonth.cpp:54
 msgid "August"
-msgstr "augustus"
+msgstr "Augustus"
 
 #: ctmonth.cpp:55
 msgid "September"
-msgstr "september"
+msgstr "September"
 
 #: ctmonth.cpp:55
 msgid "October"
-msgstr "oktober"
+msgstr "Oktober"
 
 #: ctmonth.cpp:56
 msgid "November"
-msgstr "november"
+msgstr "November"
 
 #: ctmonth.cpp:56
 msgid "December"
-msgstr "desember"
+msgstr "Desember"
 
 #: ctdom.cpp:35 ctdow.cpp:60 cttask.cpp:287
 msgid "every day "
@@ -205,35 +217,35 @@ msgstr "weeksdag "
 
 #: ctdow.cpp:80
 msgid "Mon"
-msgstr "ma"
+msgstr "Ma"
 
 #: ctdow.cpp:80
 msgid "Tue"
-msgstr "di"
+msgstr "Di"
 
 #: ctdow.cpp:81
 msgid "Wed"
-msgstr "wo"
+msgstr "Wo"
 
 #: ctdow.cpp:81
 msgid "Thu"
-msgstr "do"
+msgstr "Do"
 
 #: ctdow.cpp:82
 msgid "Fri"
-msgstr "vry"
+msgstr "Vry"
 
 #: ctdow.cpp:82
 msgid "Sat"
-msgstr "sa"
+msgstr "Sa"
 
 #: ctdow.cpp:83
 msgid "Sun"
-msgstr "sun"
+msgstr "Sun"
 
 #: cttask.cpp:220
 msgid "Translators: See README.translators!"
-msgstr "vertalers: sien leesmy.vertalers!"
+msgstr "Vertalers: Sien Leesmy.Vertalers!"
 
 #: cttask.cpp:222
 msgid "%H:%M"
@@ -241,7 +253,7 @@ msgstr "%H:%M"
 
 #: cttask.cpp:223
 msgid "DAYS_OF_MONTH of MONTHS"
-msgstr "DAYS_OF_MONTH van maande"
+msgstr "DAYS_OF_MONTH Van Maande"
 
 #: cttask.cpp:224
 msgid "every DAYS_OF_WEEK"
@@ -253,7 +265,7 @@ msgstr "DOM_FORMAT as goed as DOW_FORMAT"
 
 #: cttask.cpp:226
 msgid "At TIME"
-msgstr "na tyd"
+msgstr "Na Tyd"
 
 #: cttask.cpp:227
 msgid "TIME_FORMAT, DATE_FORMAT"
@@ -271,405 +283,376 @@ msgstr " en "
 msgid ", "
 msgstr ", "
 
-#: ktapp.cpp:54 ktapp.cpp:453
+#: ktapp.cpp:50 ktapp.cpp:456
 msgid "Task Scheduler"
-msgstr "opdrag skeduleerder"
+msgstr "Opdrag Skeduleerder"
 
-#: ktapp.cpp:92
+#: ktapp.cpp:74
+msgid ""
+"The following error occurred while initializing KCron:\n"
+"\n"
+"%1\n"
+"\n"
+"KCron will now exit.\n"
+msgstr ""
+"Die volgende fout voorgekom terwyl initialisering   kcron  :\n"
+"\n"
+"%1\n"
+"\n"
+"  kcron   sal nou beïendig.\n"
+
+#: ktapp.cpp:98
 msgid ""
 "You can use this application to schedule programs to run in the background.\n"
 "To schedule a new task now, click on the Tasks folder and select Edit/New "
 "from the menu."
 msgstr ""
-"jy kan gebruik hierdie aansoek aan skeduleer programme aan hardloop in die "
+"Jy kan gebruik hierdie aansoek na skeduleer programme na hardloop in die "
 "agtergrond.\n"
-"aan skeduleer 'n nuwe opdrag nou, kliek op die take kabinet en kies "
-"redigeer/nuwe van die kieslys."
+"na skeduleer 'n nuwe opdrag nou, kliek op die Take kabinet en kies "
+"Redigeer/nuwe van die kieslys."
 
-#: ktapp.cpp:92
+#: ktapp.cpp:98
 msgid "Welcome to the Task Scheduler"
-msgstr "welkom aan die opdrag skeduleerder"
+msgstr "Welkom na die Opdrag Skeduleerder"
 
-#: ktapp.cpp:137
-msgid "&Print"
-msgstr "druk"
-
-#: ktapp.cpp:143
-msgid "Cu&t"
-msgstr "knip"
-
-#: ktapp.cpp:147
+#: ktapp.cpp:159
 msgid "&New..."
-msgstr "nuwe..."
+msgstr "Nuwe..."
 
-#: ktapp.cpp:148
+#: ktapp.cpp:160
 msgid "M&odify..."
-msgstr "verander..."
+msgstr "Verander..."
 
-#: ktapp.cpp:151 kttask.cpp:104 ktvariable.cpp:73
+#: ktapp.cpp:163 kttask.cpp:104 ktvariable.cpp:73
 msgid "&Enabled"
-msgstr "geaktiveer"
+msgstr "Geaktiveer"
 
-#: ktapp.cpp:153
+#: ktapp.cpp:165
 msgid "&Run Now"
-msgstr "hardloop nou"
+msgstr "Hardloop Nou"
 
-#: ktapp.cpp:200 ktapp.cpp:337 ktapp.cpp:344 ktapp.cpp:363 ktapp.cpp:370
-#: ktapp.cpp:377 ktapp.cpp:384 ktapp.cpp:391 ktapp.cpp:398 ktapp.cpp:415
-#: ktapp.cpp:422 ktapp.cpp:434 ktapp.cpp:446
+#: ktapp.cpp:209 ktapp.cpp:336 ktapp.cpp:347 ktapp.cpp:366 ktapp.cpp:373
+#: ktapp.cpp:380 ktapp.cpp:387 ktapp.cpp:394 ktapp.cpp:401 ktapp.cpp:418
+#: ktapp.cpp:425 ktapp.cpp:437 ktapp.cpp:449
 msgid "Ready."
-msgstr "gereed."
+msgstr "Gereed."
 
-#: ktapp.cpp:301
+#: ktapp.cpp:295
 msgid ""
 "Scheduled tasks have been modified.\n"
 "Do you want to save changes?"
 msgstr ""
-"geskeduleerd take het al veranderde.\n"
-"doen jy wil hê aan stoor verander?"
+"Geskeduleerd take het al veranderde.\n"
+"Doen jy wil hê na stoor verander?"
 
-#: ktapp.cpp:335
+#: ktapp.cpp:334
 msgid "Saving..."
-msgstr "stooring..."
+msgstr "Stooring..."
 
-#: ktapp.cpp:342
+#: ktapp.cpp:345
 msgid "Printing..."
-msgstr "besig om te druk..."
+msgstr "Besig om te druk..."
 
-#: ktapp.cpp:360
+#: ktapp.cpp:363
 msgid "Cutting to clipboard..."
-msgstr "besig om te knip aan klipbord..."
+msgstr "Besig om te knip na klipbord..."
 
-#: ktapp.cpp:368
+#: ktapp.cpp:371
 msgid "Copying to clipboard..."
-msgstr "besig om te kopiëer aan klipbord..."
+msgstr "Besig om te kopiëer na klipbord..."
 
-#: ktapp.cpp:375
+#: ktapp.cpp:378
 msgid "Pasting from clipboard..."
-msgstr "plak van klipbord..."
+msgstr "Plak van klipbord..."
 
-#: ktapp.cpp:382
+#: ktapp.cpp:385
 msgid "Adding new entry..."
-msgstr "bygesit nuwe inskrywing..."
+msgstr "Bygesit nuwe inskrywing..."
 
-#: ktapp.cpp:389
+#: ktapp.cpp:392
 msgid "Modifying entry..."
-msgstr "verandering inskrywing..."
+msgstr "Verandering inskrywing..."
 
-#: ktapp.cpp:396
+#: ktapp.cpp:399
 msgid "Deleting entry..."
-msgstr "uitveeïng inskrywing..."
+msgstr "Uitveeïng inskrywing..."
 
-#: ktapp.cpp:405
+#: ktapp.cpp:408
 msgid "Disabling entry..."
-msgstr "deaktivering inskrywing..."
+msgstr "Deaktivering inskrywing..."
 
-#: ktapp.cpp:411
+#: ktapp.cpp:414
 msgid "Enabling entry..."
-msgstr "aktiveer inskrywing..."
+msgstr "Aktiveer inskrywing..."
 
-#: ktapp.cpp:420
+#: ktapp.cpp:423
 msgid "Running command..."
-msgstr "wat loop opdrag..."
+msgstr "Wat loop opdrag..."
 
-#: ktapp.cpp:516
-msgid "Save tasks and variables."
-msgstr "stoor take en veranderlikes."
-
-#: ktapp.cpp:519
-msgid "Print all or current crontab(s)."
-msgstr "druk alle of huidige crontab(s)."
-
-#: ktapp.cpp:522
-#, c-format
-msgid "Exit %1."
-msgstr "beïendig %1."
-
-#: ktapp.cpp:526
-msgid "Cut the selected task or variable and put on the clipboard."
-msgstr "knip die gekose opdrag of veranderlike en plaas op die klipbord."
-
-#: ktapp.cpp:529
-msgid "Copy the selected task or variable to the clipboard."
-msgstr "kopie die gekose opdrag of veranderlike aan die klipbord."
-
-#: ktapp.cpp:532
-msgid "Paste task or variable from the clipboard."
-msgstr "plak opdrag of veranderlike van die klipbord."
-
-#: ktapp.cpp:535
+#: ktapp.cpp:499
 msgid "Create a new task or variable."
-msgstr "skep 'n nuwe opdrag of veranderlike."
+msgstr "Skep 'n nuwe opdrag of veranderlike."
 
-#: ktapp.cpp:538
+#: ktapp.cpp:502
 msgid "Edit the selected task or variable."
-msgstr "redigeer die gekose opdrag of veranderlike."
+msgstr "Redigeer die gekose opdrag of veranderlike."
 
-#: ktapp.cpp:541
+#: ktapp.cpp:505
 msgid "Delete the selected task or variable."
-msgstr "uitvee die gekose opdrag of veranderlike."
+msgstr "Uitvee die gekose opdrag of veranderlike."
 
-#: ktapp.cpp:544
+#: ktapp.cpp:508
 msgid "Enable/disable the selected task or variable."
-msgstr "aktiveer/deaktiveer die gekose opdrag of veranderlike."
+msgstr "Aktiveer/deaktiveer die gekose opdrag of veranderlike."
 
-#: ktapp.cpp:547
+#: ktapp.cpp:511
 msgid "Run the selected task now."
-msgstr "hardloop die gekose opdrag nou."
+msgstr "Hardloop die gekose opdrag nou."
 
-#: ktapp.cpp:551
+#: ktapp.cpp:515
 msgid "Enable/disable the tool bar."
-msgstr "aktiveer/deaktiveer die program kolom."
+msgstr "Aktiveer/deaktiveer die program kolom."
 
-#: ktapp.cpp:554
+#: ktapp.cpp:518
 msgid "Enable/disable the status bar."
-msgstr "aktiveer/deaktiveer die status kolom."
+msgstr "Aktiveer/deaktiveer die status kolom."
 
-#: ktview.cpp:82
+#: ktview.cpp:83
 msgid "Users/Tasks/Variables"
-msgstr "gebruikers/take/veranderlikes"
+msgstr "Gebruikers/Take/Veranderlikes"
 
-#: ktview.cpp:84
+#: ktview.cpp:85
 msgid "Tasks/Variables"
-msgstr "take/veranderlikes"
-
-#: ktview.cpp:86
-msgid "Value"
-msgstr "waarde"
+msgstr "Take/Veranderlikes"
 
 #: ktview.cpp:87
-msgid "Description"
-msgstr "beskrywing"
+msgid "Value"
+msgstr "Waarde"
 
-#: ktview.cpp:253
+#: ktview.cpp:88
+msgid "Description"
+msgstr "Beskrywing"
+
+#: ktview.cpp:254
 msgid ""
 "_: user on host\n"
 "%1 <%2> on %3"
 msgstr "%1 <%2> op %3"
 
-#: ktview.cpp:261
+#: ktview.cpp:262
 msgid "Scheduled Tasks"
-msgstr "geskeduleerd take"
+msgstr "Geskeduleerd Take"
 
 #: ktlisttask.cpp:45 ktlistvar.cpp:45
 msgid "Disabled"
-msgstr "gestremde"
+msgstr "Gestremde"
 
 #: ktlisttask.cpp:59 ktlistvar.cpp:68
 msgid "Disabled."
-msgstr "gestremde."
+msgstr "Gestremde."
 
 #: ktlisttask.cpp:64
 msgid "Modify Task"
-msgstr "verander opdrag"
+msgstr "Verander Opdrag"
 
 #: ktlisttasks.cpp:42
 msgid "Tasks"
-msgstr "take"
+msgstr "Take"
 
 #: ktlisttasks.cpp:48
 msgid "Edit Task"
-msgstr "redigeer opdrag"
+msgstr "Redigeer Opdrag"
 
 #: ktlisttasks.cpp:75
 msgid "Task Name:"
-msgstr "opdrag naam:"
+msgstr "Opdrag Naam:"
 
 #: ktlisttasks.cpp:76
 msgid "Program:"
-msgstr "program:"
+msgstr "Program:"
 
 #: ktlisttasks.cpp:77 ktlistvars.cpp:72
 msgid "Description:"
-msgstr "beskrywing:"
+msgstr "Beskrywing:"
 
 #: ktlisttasks.cpp:86
 msgid "No tasks..."
-msgstr "nee take..."
+msgstr "Nee take..."
 
 #: ktlistvar.cpp:74
 msgid "Modify Variable"
-msgstr "verander veranderlike"
+msgstr "Verander Veranderlike"
 
 #: ktlistvars.cpp:43
 msgid "Edit Variable"
-msgstr "redigeer veranderlike"
+msgstr "Redigeer Veranderlike"
 
 #: ktlistvars.cpp:70
 msgid "Variable:"
-msgstr "veranderlike:"
+msgstr "Veranderlike:"
 
 #: ktlistvars.cpp:71
 msgid "Value:"
-msgstr "waarde:"
+msgstr "Waarde:"
 
 #: ktlistvars.cpp:81
 msgid "No variables..."
-msgstr "nee veranderlikes..."
+msgstr "Nee veranderlikes..."
 
 #: ktlistvars.cpp:98
 msgid "Variables"
-msgstr "veranderlikes"
+msgstr "Veranderlikes"
 
 #: kttask.cpp:47
 msgid "&Run as:"
-msgstr "hardloop as:"
+msgstr "Hardloop as:"
 
 #: kttask.cpp:73
 msgid "&Comment:"
-msgstr "kommentaar:"
+msgstr "Kommentaar:"
 
 #: kttask.cpp:85
 msgid "&Program:"
-msgstr "program:"
+msgstr "Program:"
 
 #: kttask.cpp:100
 msgid "&Browse..."
-msgstr "blaai..."
+msgstr "Blaai..."
 
 #: kttask.cpp:109
 msgid "&Silent"
-msgstr "stil"
+msgstr "Stil"
 
 #: kttask.cpp:118
 msgid "Months"
-msgstr "maande"
+msgstr "Maande"
 
 #: kttask.cpp:137
-msgid "Days of the Month"
-msgstr "dae van die maand"
+msgid "Days of Month"
+msgstr "Dae van Maand"
 
 #: kttask.cpp:165
-msgid "Days of the Week"
-msgstr "dae van die week"
+msgid "Days of Week"
+msgstr "Dae van Week"
 
 #: kttask.cpp:184
 msgid "Daily"
-msgstr "daagliks"
+msgstr "Daagliks"
 
 #: kttask.cpp:190
-msgid "Run Every Day"
-msgstr "hardloop elke dag"
+msgid "Run every day"
+msgstr "Hardloop elke dag"
 
 #: kttask.cpp:195
 msgid "Hours"
-msgstr "ure"
+msgstr "Ure"
 
 #: kttask.cpp:200
 msgid "AM"
-msgstr "vm"
+msgstr "Vm"
 
 #: kttask.cpp:223
 msgid "PM"
-msgstr "nm"
+msgstr "Nm"
 
 #: kttask.cpp:236
 msgid "Minutes"
-msgstr "minute"
+msgstr "Minute"
 
-#: kttask.cpp:402
+#: kttask.cpp:403
 msgid ""
 "Please enter the following to schedule the task:\n"
 msgstr ""
-"asseblief invoer die volgende aan skeduleer die opdrag:\n"
+"Asseblief invoer die volgende na skeduleer die opdrag:\n"
 
-#: kttask.cpp:408
+#: kttask.cpp:409
 msgid "the program to run"
-msgstr "die program aan hardloop"
+msgstr "die program na hardloop"
 
-#: kttask.cpp:420
+#: kttask.cpp:421
 msgid "the months"
 msgstr "die maande"
 
-#: kttask.cpp:441
+#: kttask.cpp:442
 msgid "either the days of the month or the days of the week"
 msgstr "òf die dae van die maand van die dae van die week"
 
-#: kttask.cpp:457
+#: kttask.cpp:458
 msgid "the hours"
 msgstr "die ure"
 
-#: kttask.cpp:473
+#: kttask.cpp:474
 msgid "the minutes"
 msgstr "die minute"
 
-#: kttask.cpp:501
-#, fuzzy
+#: kttask.cpp:502
 msgid "Cannot locate program. Please re-enter."
-msgstr "kan nie opspoor program.  asseblief re-enter."
+msgstr "Kan nie opspoor program. Asseblief re-enter."
 
-#: kttask.cpp:509
-#, fuzzy
+#: kttask.cpp:510
 msgid "Program is not an executable file. Please re-enter."
-msgstr "program is nie 'n uitvoerbare lêer.  asseblief re-enter."
+msgstr "Program is nie 'n uitvoerbare lêer. Asseblief re-enter."
 
-#: kttask.cpp:577
+#: kttask.cpp:578
 msgid "Only local or mounted files can be executed by crontab."
-msgstr "slegs plaaslike of gekoppelde lêers kan wees uitgevoerde deur crontab."
+msgstr "Slegs plaaslike of gekoppelde lêers kan wees uitgevoerde deur crontab."
 
 #: ktvariable.cpp:37
 msgid "&Variable:"
-msgstr "veranderlike:"
+msgstr "Veranderlike:"
 
 #: ktvariable.cpp:55
 msgid "Va&lue:"
-msgstr "waarde:"
+msgstr "Waarde:"
 
 #: ktvariable.cpp:64
 msgid "Co&mment:"
-msgstr "kommentaar:"
+msgstr "Kommentaar:"
 
 #: ktvariable.cpp:106
 msgid "Override default home directory."
-msgstr "oorskryf verstek huis gids."
+msgstr "Oorskryf verstek huis gids."
 
 #: ktvariable.cpp:111
 msgid "Email output to specified account."
-msgstr "e-pos uitset aan gespesifiseer rekening."
+msgstr "E-pos uitset na gespesifiseer rekening."
 
 #: ktvariable.cpp:116
 msgid "Override default shell."
-msgstr "oorskryf verstek tolk."
+msgstr "Oorskryf verstek tolk."
 
 #: ktvariable.cpp:121
 msgid "Directories to search for program files."
-msgstr "gidse aan soektog vir program lêers."
+msgstr "Gidse na soektog vir program lêers."
 
 #: ktvariable.cpp:133
 msgid "Please enter the variable name."
-msgstr "asseblief invoer die veranderlike naam."
+msgstr "Asseblief invoer die veranderlike naam."
 
 #: ktvariable.cpp:140
 msgid "Please enter the variable value."
-msgstr "asseblief invoer die veranderlike waarde."
+msgstr "Asseblief invoer die veranderlike waarde."
 
 #: ktprintopt.cpp:27
 msgid "Cron Options"
-msgstr "cron opsies"
+msgstr "Cron Opsies"
 
 #: ktprintopt.cpp:31
-msgid "Print Cron&tab"
-msgstr "druk crontab"
+msgid "Print cron&tab"
+msgstr "Druk crontab"
 
 #: ktprintopt.cpp:34
-msgid "Print &All Users"
-msgstr "druk alle gebruikers"
+msgid "Print &all users"
+msgstr "Druk alle gebruikers"
 
-#: main.cpp:26
+#: main.cpp:23
 msgid "KDE Task Scheduler"
-msgstr "kde opdrag skeduleerder"
+msgstr "Kde Opdrag Skeduleerder"
 
-#: main.cpp:28
+#: main.cpp:25
 msgid "KCron"
 msgstr " kcron "
-
-#: main.cpp:53
-msgid "KCron fatal error: Unable to read or write file."
-msgstr " kcron  fatale fout: nie moontlik aan lees of skryf lêer."
-
-#: main.cpp:58
-msgid "KCron fatal error: Unknown."
-msgstr " kcron  fatale fout: onbekende."
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -681,4 +664,4 @@ msgstr "WEB-Vertaler (http://kde.af.org.za)"
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "frix@engineer.com"
+msgstr "frix@expertron.co.za"
