@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmarts VERSION\n"
-"POT-Creation-Date: 2003-10-22 01:28+0200\n"
+"POT-Creation-Date: 2004-07-19 01:39+0200\n"
 "PO-Revision-Date: 2002-11-07 11:27+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,7 +25,7 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: arts.cpp:92
+#: arts.cpp:90
 #, fuzzy
 msgid ""
 "Unable to start the sound server to retrieve possible sound I/O methods.\n"
@@ -35,15 +35,15 @@ msgstr ""
 "metodes.\n"
 "Slegs automaties verklikker sal wees beskikbaar."
 
-#: arts.cpp:142
+#: arts.cpp:141
 msgid "&General"
 msgstr ""
 
-#: arts.cpp:143
+#: arts.cpp:142
 msgid "&Hardware"
 msgstr ""
 
-#: arts.cpp:157
+#: arts.cpp:156
 #, fuzzy
 msgid ""
 "Normally, the sound server defaults to using the device called "
@@ -61,7 +61,7 @@ msgstr ""
 "<b>/dev/dsp1</b> as jy het 'n klankkaart Wat ondersteun veelvuldige "
 "uitsette, of jy het veelvuldige klank kaarte."
 
-#: arts.cpp:159
+#: arts.cpp:158
 msgid ""
 "Normally, the sound server defaults to using a sampling rate of 44100 Hz (CD "
 "quality), which is supported on almost any hardware. If you are using "
@@ -79,7 +79,7 @@ msgstr ""
 "verander hierdie na 22050 Hz. Alle ander waardes word moontlik, te, en dalk "
 "mag maak sin in sekere kontekste (i.e. profesionele ateljee toerusting)."
 
-#: arts.cpp:161
+#: arts.cpp:160
 msgid ""
 "This configuration module is intended to cover almost every aspect of the "
 "aRts sound server that you can configure. However, there are some things "
@@ -95,11 +95,27 @@ msgstr ""
 "opsies sal oorskryf die keuses gemaak in die Gui. na sien die moontlik "
 "keuses, open 'n Konsole venster, en tipe <b>artsd -h</b>."
 
-#: arts.cpp:170
+#: arts.cpp:169
 msgid "Autodetect"
 msgstr "Outospeur"
 
-#: arts.cpp:380
+#: arts.cpp:220
+msgid "kcmarts"
+msgstr "kcmarts"
+
+#: arts.cpp:221
+msgid "The Sound Server Control Module"
+msgstr "Die Klank Bediener Kontrole Module"
+
+#: arts.cpp:223
+msgid "(c) 1999 - 2001, Stefan Westerfeld"
+msgstr "(c) 1999 - 2001, Stefan Westerfeld"
+
+#: arts.cpp:224
+msgid "aRts Author"
+msgstr "Arts Outeur"
+
+#: arts.cpp:388
 msgid ""
 "The settings have changed since the last time you restarted the sound "
 "server.\n"
@@ -109,11 +125,11 @@ msgstr ""
 "bediener.\n"
 "Doen jy wil hê na stoor hulle?"
 
-#: arts.cpp:383
+#: arts.cpp:391
 msgid "Save Sound Server Settings?"
 msgstr "Stoor Klank Bediener Instellings?"
 
-#: arts.cpp:443
+#: arts.cpp:451
 msgid ""
 "<h1>Sound System</h1> Here you can configure aRts, KDE's sound server. This "
 "program not only allows you to hear your system sounds while simultaneously "
@@ -122,31 +138,15 @@ msgid ""
 "programmers with an easy way to achieve sound support."
 msgstr ""
 
-#: arts.cpp:453
-msgid "kcmarts"
-msgstr "kcmarts"
-
-#: arts.cpp:454
-msgid "The Sound Server Control Module"
-msgstr "Die Klank Bediener Kontrole Module"
-
-#: arts.cpp:456
-msgid "(c) 1999 - 2001, Stefan Westerfeld"
-msgstr "(c) 1999 - 2001, Stefan Westerfeld"
-
-#: arts.cpp:458
-msgid "aRts Author"
-msgstr "Arts Outeur"
-
-#: arts.cpp:487
+#: arts.cpp:482
 msgid "%1 milliseconds (%2 fragments with %3 bytes)"
 msgstr "%1 millisekondes (%2 stukkies met %3 grepe)"
 
-#: arts.cpp:494
+#: arts.cpp:489
 msgid "as large as possible"
 msgstr "as groot as moontlik"
 
-#: arts.cpp:503
+#: arts.cpp:498
 msgid ""
 "Impossible to start aRts with realtime priority because artswrapper is "
 "missing or disabled"
@@ -154,59 +154,64 @@ msgstr ""
 "Onmoontlik na begin Arts met intydse prioriteit omdat artswrapper is kort of "
 "gestremde"
 
-#: arts.cpp:664
+#: arts.cpp:680
 #, fuzzy
 msgid "No Audio Input/Output"
 msgstr "Nee audio invoer/uitset"
 
-#: arts.cpp:665
+#: arts.cpp:681
 msgid "Advanced Linux Sound Architecture"
 msgstr "Gevorderde Linux Klank Argitektuur"
 
-#: arts.cpp:666
+#: arts.cpp:682
 msgid "Open Sound System"
 msgstr "Open Klank Stelsel"
 
-#: arts.cpp:667
+#: arts.cpp:683
 msgid "Threaded Open Sound System"
 msgstr ""
 
-#: arts.cpp:668
+#: arts.cpp:684
 msgid "Network Audio System"
 msgstr "Netwerk Audio Stelsel"
 
-#: arts.cpp:669
+#: arts.cpp:685
 msgid "Personal Audio Device"
 msgstr "Persoonlike Audio Toestel"
 
-#: arts.cpp:670
+#: arts.cpp:686
 msgid "SGI dmedia Audio I/O"
 msgstr ""
 
-#: arts.cpp:671
+#: arts.cpp:687
 #, fuzzy
 msgid "Sun Audio Input/Output"
 msgstr "Sun audio invoer/uitset"
 
-#: arts.cpp:672
+#: arts.cpp:688
 msgid "Portable Audio Library"
 msgstr "Draagbaar Audio Biblioteek"
 
-#: arts.cpp:673
+#: arts.cpp:689
 msgid "Enlightened Sound Daemon"
 msgstr ""
 
-#: arts.cpp:674
+#: arts.cpp:690
 #, fuzzy
 msgid "MAS Audio Input/Output"
 msgstr "Sun audio invoer/uitset"
 
-#: rc.cpp:1
-msgid "&Enable the sound system"
+#: arts.cpp:691
+msgid "Jack Audio Connection Kit"
 msgstr ""
 
 #: rc.cpp:2
-#, fuzzy
+#, fuzzy, no-c-format
+msgid "&Enable the sound system"
+msgstr "Aktiveer netwerk deursigtigheid"
+
+#: rc.cpp:4
+#, fuzzy, no-c-format
 msgid ""
 "If this option is enabled, the sound system will be loaded on KDE startup.\n"
 "Recommended if you want sound."
@@ -214,23 +219,25 @@ msgstr ""
 "As hierdie opsie is geaktiveer, die arts klank bediener sal wees beginne op "
 "Kde opstart. Aanbeveel As jy wil hê klank."
 
-#: rc.cpp:3
-#, fuzzy
+#: rc.cpp:7
+#, fuzzy, no-c-format
 msgid "Networked Sound"
 msgstr "Aktiveer netwerk deursigtigheid"
 
-#: rc.cpp:4
+#: rc.cpp:9
+#, no-c-format
 msgid ""
 "<i>Enable this option if you want to play sound on a remote computer or you "
 "want to be able to control sound on this system from another computer.</i>"
 msgstr ""
 
-#: rc.cpp:5
-#, fuzzy
+#: rc.cpp:11
+#, fuzzy, no-c-format
 msgid "Enable &networked sound"
 msgstr "Aktiveer netwerk deursigtigheid"
 
-#: rc.cpp:6
+#: rc.cpp:13
+#, no-c-format
 msgid ""
 "This option allows sound requests coming in from over the network to be "
 "accepted, instead of just limiting the server to the local computer."
@@ -239,22 +246,25 @@ msgstr ""
 "aanvaar, in plaas van van net te beperk die bediener na die plaaslike "
 "rekenaar."
 
-#: rc.cpp:7
+#: rc.cpp:15
+#, no-c-format
 msgid "Skip Prevention"
 msgstr ""
 
-#: rc.cpp:8
+#: rc.cpp:17
+#, no-c-format
 msgid ""
 "<i>If your sound is skipping during playback, enable running with highest "
 "possible priority. Increasing your sound buffer might also help.</i>"
 msgstr ""
 
-#: rc.cpp:9
-#, fuzzy
+#: rc.cpp:19
+#, fuzzy, no-c-format
 msgid "&Run with the highest possible priority (realtime priority)"
 msgstr "Hardloop klank bediener met intydse prioriteit"
 
-#: rc.cpp:10
+#: rc.cpp:21
+#, no-c-format
 msgid ""
 "On systems which support realtime scheduling, if you have sufficient "
 "permissions, this option will enable a very high priority for processing "
@@ -264,65 +274,73 @@ msgstr ""
 "hierdie opsie sal aktiveer 'n baie hoog prioriteit vir verwerking klank "
 "versoeke."
 
-#: rc.cpp:11
+#: rc.cpp:23
+#, no-c-format
 msgid "Sound &buffer:"
 msgstr ""
 
-#: rc.cpp:12
+#: rc.cpp:25
+#, no-c-format
 msgid ""
 "<p align=\"right\"><b>Huge</b> buffer, for <b>low-end</b> machines, <b>less "
 "skipping</b></p>"
 msgstr ""
 
-#: rc.cpp:13
+#: rc.cpp:27
+#, no-c-format
 msgid "Auto-Suspend"
 msgstr ""
 
-#: rc.cpp:14
+#: rc.cpp:29
+#, no-c-format
 msgid ""
 "<i>The KDE sound system takes exclusive control over your audio hardware, "
 "blocking programs that may wish to use it directly. If the KDE sound system "
 "sits idle it can give up this exclusive control.</i>"
 msgstr ""
 
-#: rc.cpp:15
-#, fuzzy
+#: rc.cpp:31
+#, fuzzy, no-c-format
 msgid "&Auto-suspend if idle after:"
 msgstr "Outo-uitsit as luier vir:"
 
-#: rc.cpp:16
+#: rc.cpp:33
+#, no-c-format
 msgid "The sound server will suspend itself if idle for this period of time."
 msgstr "Die klank bediener sal suspendeer self as luier vir hierdie periode van tyd."
 
-#: rc.cpp:17
-#, fuzzy
+#: rc.cpp:35
+#, fuzzy, no-c-format
 msgid " seconds"
 msgstr " sek"
 
-#: rc.cpp:18
-#, fuzzy
+#: rc.cpp:37
+#, fuzzy, no-c-format
 msgid "Test &Sound"
 msgstr "Toets Klank"
 
-#: rc.cpp:19
+#: rc.cpp:39
+#, no-c-format
 msgid "Test &MIDI"
 msgstr ""
 
-#: rc.cpp:20
-#, fuzzy
+#: rc.cpp:41
+#, fuzzy, no-c-format
 msgid "Select && Configure your Audio Device"
 msgstr "Gebruik pasmaak klank toestel:"
 
-#: rc.cpp:21
-#, fuzzy
+#: rc.cpp:43
+#, fuzzy, no-c-format
 msgid "&Select the audio device:"
 msgstr "Gebruik pasmaak klank toestel:"
 
-#: rc.cpp:22
+#: rc.cpp:45
+#, no-c-format
 msgid "&Full duplex"
 msgstr ""
 
-#: rc.cpp:23
+#: rc.cpp:47
+#, no-c-format
 msgid ""
 "This enables the soundserver to record and play sound at the same time. If "
 "you use applications like Internet telephony, voice recognition or similar, "
@@ -332,55 +350,58 @@ msgstr ""
 "tyd. As jy gebruik programme hou van Internet telefonie, spraak herkenning "
 "of soortgelyk, jy waarskynlik wil hê Hierdie."
 
-#: rc.cpp:24
-#, fuzzy
+#: rc.cpp:49
+#, fuzzy, no-c-format
 msgid "Use &custom sampling rate:"
 msgstr "Gebruik pasmaak monster tempo:"
 
-#: rc.cpp:25
+#: rc.cpp:51
+#, no-c-format
 msgid " Hz "
 msgstr ""
 
-#: rc.cpp:26
-#, fuzzy
+#: rc.cpp:53
+#, fuzzy, no-c-format
 msgid "&Quality:"
 msgstr "Klank kwaliteit:"
 
-#: rc.cpp:28
-#, fuzzy
+#: rc.cpp:57
+#, fuzzy, no-c-format
 msgid "16 Bits (high)"
 msgstr "16 bisse (hoog)"
 
-#: rc.cpp:29
-#, fuzzy
+#: rc.cpp:59
+#, fuzzy, no-c-format
 msgid "8 Bits (low)"
 msgstr "8 bisse (lae)"
 
-#: rc.cpp:30
-#, fuzzy
+#: rc.cpp:61
+#, fuzzy, no-c-format
 msgid "Use other custom &options:"
 msgstr "Ander pasmaak opsies:"
 
-#: rc.cpp:31
+#: rc.cpp:63
+#, no-c-format
 msgid "Override &device location:"
 msgstr ""
 
-#: rc.cpp:32
+#: rc.cpp:65
+#, no-c-format
 msgid "/dev/dsp"
 msgstr ""
 
-#: rc.cpp:33
-#, fuzzy
+#: rc.cpp:67
+#, fuzzy, no-c-format
 msgid "Select your MIDI Device"
 msgstr "Kies die Midi toestel jy wil hê na gebruik:"
 
-#: rc.cpp:34
-#, fuzzy
+#: rc.cpp:69
+#, fuzzy, no-c-format
 msgid "Use MIDI ma&pper:"
 msgstr "Gebruik Midi kaarteerder"
 
-#: rc.cpp:35
-#, fuzzy
+#: rc.cpp:71
+#, fuzzy, no-c-format
 msgid "Select the &MIDI device:"
 msgstr "Kies die Midi toestel jy wil hê na gebruik:"
 
