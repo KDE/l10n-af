@@ -4,436 +4,605 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-06-30 16:37+0200\n"
-"PO-Revision-Date: 2001-07-27 10:53+0200\n"
+"Project-Id-Version: kcmkeys VERSION\n"
+"POT-Creation-Date: 2002-02-20 02:46+0100\n"
+"PO-Revision-Date: 2002-01-10 09:25+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: keyconfig.cpp:120
-msgid "&Key Scheme"
-msgstr "&SLEUTEL SKEMA"
-
-#: keyconfig.cpp:122
-msgid ""
-"Here you can see a list of the existing key binding schemes with 'Current "
-"scheme' referring to the settings you are using right now. Select a scheme "
-"to use, remove or change it."
-msgstr ""
-
-#: keyconfig.cpp:128
-msgid "&Save Scheme..."
-msgstr "&STOOR SKEMA..."
-
-#: keyconfig.cpp:130
-msgid "Click here to add a new key bindings scheme. You will be prompted for a name."
-msgstr ""
-
-#: keyconfig.cpp:132
-msgid "&Remove Scheme"
-msgstr "&VERWYDER SKEMA"
-
-#: keyconfig.cpp:135
-msgid ""
-"Click here to remove the selected key bindings scheme. You can not remove "
-"the standard system wide schemes, 'Current scheme' and 'KDE default'."
-msgstr ""
-
-#: keyconfig.cpp:238
-msgid ""
-"This key scheme could not be removed.\n"
-"Perhaps you do not have permission to alter the file\n"
-"system where the key scheme is stored."
-msgstr ""
-
-#: keyconfig.cpp:339
-msgid ""
-"A key scheme with the name '%1' already exists.\n"
-"Do you want to overwrite it?\n"
-msgstr ""
-
-#: keyconfig.cpp:341 savescm.cpp:13
-msgid "Save key scheme"
-msgstr "STOOR SLEUTEL SKEMA"
-
-#: keyconfig.cpp:342
-msgid "Overwrite"
-msgstr "OORSKRYF"
-
-#: keyconfig.cpp:429
-msgid "Current Scheme"
-msgstr "HUIDIGE SKEMA"
-
-#: keyconfig.cpp:431
-msgid "KDE Default for 3 Modifiers (Alt/Ctrl/Shift)"
-msgstr ""
-
-#: savescm.cpp:28
-msgid ""
-"Enter a name for the key scheme:\n"
-msgstr ""
-"INVOER 'N NAAM VIR DIE SLEUTEL SKEMA:\n"
-
-#: main.cpp:45
-msgid "&Global Shortcuts"
-msgstr "&GLOBALE KORTPAAIE"
-
-#: main.cpp:49
-msgid "Shortcut Se&quences"
-msgstr ""
-
-#: main.cpp:53
-msgid "&Application Shortcuts"
-msgstr "&AANSOEK KORTPAAIE"
-
-#: main.cpp:106
+#: shortcuts.cpp:98
 msgid ""
 "<h1>Key Bindings</h1> Using key bindings you can configure certain actions "
 "to be triggered when you press a key or a combination of keys, e.g. CTRL-C "
 "is normally bound to 'Copy'. KDE allows you to store more than one 'scheme' "
 "of key bindings, so you might want to experiment a little setting up your "
-"own scheme while you can still change back to the KDE defaults.<p> In the "
-"tab 'Global shortcuts' you can configure non-application specific bindings "
-"like how to switch desktops or maximize a window. In the tab 'Application "
-"shortcuts' you'll find bindings typically used in applications, such as copy "
-"and paste."
+"own scheme while you can still change back to the KDE defaults."
+"<p>"
+" In the tab 'Global shortcuts' you can configure non-application specific "
+"bindings like how to switch desktops or maximize a window. In the tab "
+"'Application shortcuts' you'll find bindings typically used in applications, "
+"such as copy and paste."
 msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:2
+#: shortcuts.cpp:154
+msgid ""
+"Click here to remove the selected key bindings scheme. You can not remove "
+"the standard system wide schemes, 'Current scheme' and 'KDE default'."
+msgstr ""
+"kliek hier aan verwyder die gekose sleutel bindinge skema. jy kan nie "
+"verwyder die standaard stelsel wye skemas, 'Current skema' en 'KDE default'."
+
+#: shortcuts.cpp:160
+msgid "New scheme"
+msgstr "nuwe skema"
+
+#: shortcuts.cpp:165
+msgid "&Save..."
+msgstr "stoor..."
+
+#: shortcuts.cpp:167
+msgid "Click here to add a new key bindings scheme. You will be prompted for a name."
+msgstr ""
+"kliek hier aan voeg by 'n nuwe sleutel bindinge skema. jy sal wees gepor vir "
+"'n naam."
+
+#: shortcuts.cpp:178
+msgid "&Global Shortcuts"
+msgstr "globale kortpaaie"
+
+#: shortcuts.cpp:183
+msgid "Shortcut Se&quences"
+msgstr "kortpad herhalings"
+
+#: shortcuts.cpp:188
+#, fuzzy
+msgid "App&lication Shortcuts"
+msgstr "aansoek kortpaaie"
+
+#: shortcuts.cpp:249
+msgid "User-Defined Scheme"
+msgstr "gebruiker-gedefinieerd skema"
+
+#: shortcuts.cpp:250
+msgid "Current Scheme"
+msgstr "huidige skema"
+
+#: shortcuts.cpp:293
+msgid ""
+"Your current changes will be lost if you load another scheme before saving "
+"this one."
+msgstr ""
+
+#: shortcuts.cpp:313
+msgid ""
+"This scheme requires the \"%1\" modifier key, which is not available on your "
+"keyboard layout. Do you wish to view it anyway?"
+msgstr ""
+"hierdie skema benodig die \"%1\" modifiseerder sleutel, wat is nie "
+"beskikbaar op jou sleutelbord uitleg. doen jy wens aan besigtig dit in "
+"elkgeval?"
+
+#: modifiers.cpp:205 modifiers.cpp:300 shortcuts.cpp:315
+msgid "Win"
+msgstr "win"
+
+#: shortcuts.cpp:374
+msgid ""
+"A key scheme with the name '%1' already exists.\n"
+"Do you want to overwrite it?\n"
+msgstr ""
+"'n sleutel skema met die naam '%1' alreeds bestaan.\n"
+"doen jy wil hê aan oorskryf dit?\n"
+
+#: shortcuts.cpp:376
+msgid "Save key scheme"
+msgstr "stoor sleutel skema"
+
+#: shortcuts.cpp:377
+msgid "Overwrite"
+msgstr "oorskryf"
+
+#: modifiers.cpp:185
+#, fuzzy
+msgid "KDE Modifiers"
+msgstr "kde modifiseerder etikette"
+
+#: modifiers.cpp:188
+msgid "Modifier"
+msgstr "modifiseerder"
+
+#: modifiers.cpp:193 modifiers.cpp:246
+msgid "X11-Mod"
+msgstr "X11-Mod"
+
+#: modifiers.cpp:197
+#, fuzzy
+msgid ""
+"_: QAccel\n"
+"shift"
+msgstr "Ctrl"
+
+#: modifiers.cpp:199 modifiers.cpp:298
+msgid ""
+"_: QAccel\n"
+"Ctrl"
+msgstr "Ctrl"
+
+#: modifiers.cpp:200
+#, fuzzy
+msgid "control"
+msgstr "kontrole"
+
+#: modifiers.cpp:203
+msgid "mod1"
+msgstr ""
+
+#: modifiers.cpp:218
+msgid "Macintosh keyboard"
+msgstr ""
+
+#: modifiers.cpp:223
+msgid "MacOS-style modifier usage"
+msgstr ""
+
+#: modifiers.cpp:226
+msgid ""
+"Checking this box will change your X Modifier Mapping to better reflect the "
+"standard MacOS modifier key usage. It allows you to use <i>Command+C</i>"
+" for <i>Copy</i>, for instance, instead of the PC standard of <i>CTRL+C</I>"
+". <b>Command</b> will be used for application and console commands, "
+"<b>Option</b> as a command modifier and for navigating menus and dialogs, "
+"and <b>Control</b> for window manager commands."
+msgstr ""
+
+#: modifiers.cpp:239
+msgid "X Modifier Mapping"
+msgstr "x modifiseerder tabillering"
+
+#: modifiers.cpp:288 modifiers.cpp:293
+msgid "Command"
+msgstr "opdrag"
+
+#: modifiers.cpp:289 modifiers.cpp:294
+msgid "Option"
+msgstr "opsie"
+
+#: modifiers.cpp:290 modifiers.cpp:292
+msgid "Control"
+msgstr "kontrole"
+
+#: modifiers.cpp:307
+#, fuzzy, c-format
+msgid "Key %1"
+msgstr "sleutels"
+
+#: modifiers.cpp:340
+msgid "None"
+msgstr ""
+
+#: modifiers.cpp:353
+msgid ""
+"You can only activate this option if your X keyboard layout has the 'Super' "
+"or 'Meta' keys properly configured as modifier keys."
+msgstr ""
+
+#: savescm.cpp:12
+msgid "Save Key Scheme"
+msgstr "stoor sleutel skema"
+
+#: savescm.cpp:29
+msgid "Enter a name for the key scheme:"
+msgstr "invoer 'n naam vir die sleutel skema:"
+
+#: main.cpp:71
+msgid "Shortcut Schemes"
+msgstr "kortpad skemas"
+
+#: main.cpp:75
+msgid "Modifier Keys"
+msgstr "modifiseerder sleutels"
+
+#: main.cpp:108
+msgid ""
+"<h1>Shortcuts</h1> Using shortcuts you can configure certain actions to be "
+"triggered when you press a key or a combination of keys, e.g. Ctrl+C is "
+"normally bound to 'Copy'. KDE allows you to store more than one 'scheme' of "
+"shortcuts, so you might want to experiment a little setting up your own "
+"scheme while you can still change back to the KDE defaults."
+"<p>"
+" In the tab 'Global Shortcuts' you can configure non-application specific "
+"bindings like how to switch desktops or maximize a window. In the tab "
+"'Application Shortcuts' you'll find bindings typically used in applications, "
+"such as copy and paste."
+msgstr ""
+
+#: ../../kwin/kwinbindings.cpp:14
 msgid "System"
-msgstr "STELSEL"
-
-#: ../../kwin/kwinbindings.cpp:6
-msgid "Navigation"
-msgstr "NAVIGERING"
-
-#: ../../kwin/kwinbindings.cpp:8
-msgid "Walk through Windows"
-msgstr ""
-
-#: ../../kwin/kwinbindings.cpp:9
-msgid "Walk through Windows (Reverse)"
-msgstr ""
-
-#: ../../kwin/kwinbindings.cpp:10
-msgid "Walk through Desktops"
-msgstr ""
-
-#: ../../kwin/kwinbindings.cpp:11
-msgid "Walk through Desktops (Reverse)"
-msgstr ""
-
-#: ../../kwin/kwinbindings.cpp:12
-msgid "Walk through Desktop List"
-msgstr ""
-
-#: ../../kwin/kwinbindings.cpp:13
-msgid "Walk through Desktop List (Reverse)"
-msgstr ""
+msgstr "stelsel"
 
 #: ../../kwin/kwinbindings.cpp:16
-msgid "Windows"
-msgstr "VENSTERS"
+msgid "Navigation"
+msgstr "navigering"
+
+#: ../../kwin/kwinbindings.cpp:17
+msgid "Walk Through Windows"
+msgstr ""
 
 #: ../../kwin/kwinbindings.cpp:18
-msgid "Window Operations Menu"
-msgstr "VENSTER OPERASIES KIESLYS"
+msgid "Walk Through Windows (Reverse)"
+msgstr ""
 
 #: ../../kwin/kwinbindings.cpp:19
-msgid "Window Close"
-msgstr "VENSTER MAAK TOE"
+#, fuzzy
+msgid "Walk Through Desktops"
+msgstr "wissel te wys werkskerm"
 
 #: ../../kwin/kwinbindings.cpp:20
-msgid "Window Close (All)"
+msgid "Walk Through Desktops (Reverse)"
 msgstr ""
 
 #: ../../kwin/kwinbindings.cpp:21
-msgid "Window Maximize"
-msgstr "VENSTER MAKSIMEER"
-
-#: ../../kwin/kwinbindings.cpp:22
-msgid "Window Maximize Vertical"
-msgstr "VENSTER MAKSIMEER VERTIKAAL"
-
-#: ../../kwin/kwinbindings.cpp:23
-msgid "Window Maximize Horizontal"
-msgstr "VENSTER MAKSIMEER HORISONTAAL"
-
-#: ../../kwin/kwinbindings.cpp:24
-msgid "Window Iconify"
-msgstr "VENSTER IKOONIFISEER"
-
-#: ../../kwin/kwinbindings.cpp:26
-msgid "Window Shade"
-msgstr "VENSTER SKADU"
-
-#: ../../kwin/kwinbindings.cpp:27
-msgid "Window Move"
-msgstr "VENSTER BEWEEG"
-
-#: ../../kwin/kwinbindings.cpp:28
-msgid "Window Resize"
-msgstr "VENSTER HERVERGROOT"
-
-#: ../../kwin/kwinbindings.cpp:29
-msgid "Window Raise"
-msgstr "VENSTER LIG"
-
-#: ../../kwin/kwinbindings.cpp:30
-msgid "Window Lower"
-msgstr "VENSTER SAGTER"
-
-#: ../../kwin/kwinbindings.cpp:31
-msgid "Window Raise or Lower"
-msgstr "VENSTER LIG OF SAGTER"
-
-#: ../../kwin/kwinbindings.cpp:47
-msgid "Window & Desktop"
+msgid "Walk Through Desktop List"
 msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:49
+#: ../../kwin/kwinbindings.cpp:22
+msgid "Walk Through Desktop List (Reverse)"
+msgstr ""
+
+#: ../../kwin/kwinbindings.cpp:24
+msgid "Windows"
+msgstr "vensters"
+
+#: ../../kwin/kwinbindings.cpp:25
+msgid "Window Operations Menu"
+msgstr ""
+
+#: ../../kwin/kwinbindings.cpp:26
+#, fuzzy
+msgid "Window Close"
+msgstr "vensters"
+
+#: ../../kwin/kwinbindings.cpp:27
+msgid "Window Maximize"
+msgstr ""
+
+#: ../../kwin/kwinbindings.cpp:28
+msgid "Window Maximize Vertical"
+msgstr ""
+
+#: ../../kwin/kwinbindings.cpp:29
+msgid "Window Maximize Horizontal"
+msgstr ""
+
+#: ../../kwin/kwinbindings.cpp:30
+msgid "Window Iconify"
+msgstr ""
+
+#: ../../kwin/kwinbindings.cpp:31
+#, fuzzy
+msgid "Window Shade"
+msgstr "vensters"
+
+#: ../../kwin/kwinbindings.cpp:32
+#, fuzzy
+msgid "Window Move"
+msgstr "vensters"
+
+#: ../../kwin/kwinbindings.cpp:33
+#, fuzzy
+msgid "Window Resize"
+msgstr "vensters"
+
+#: ../../kwin/kwinbindings.cpp:34
+#, fuzzy
+msgid "Window Raise"
+msgstr "vensters"
+
+#: ../../kwin/kwinbindings.cpp:35
+#, fuzzy
+msgid "Window Lower"
+msgstr "vensters"
+
+#: ../../kwin/kwinbindings.cpp:36
+#, fuzzy
+msgid "Toggle Window Raise/Lower"
+msgstr "vensters"
+
+#: ../../kwin/kwinbindings.cpp:38
+msgid "Window & Desktop"
+msgstr "venster & werkskerm"
+
+#: ../../kwin/kwinbindings.cpp:39
+#, fuzzy
 msgid "Window to Desktop 1"
-msgstr "VENSTER AAN DeskAANp 1"
+msgstr "venster & werkskerm"
+
+#: ../../kwin/kwinbindings.cpp:40
+#, fuzzy
+msgid "Window to Desktop 2"
+msgstr "venster & werkskerm"
+
+#: ../../kwin/kwinbindings.cpp:41
+#, fuzzy
+msgid "Window to Desktop 3"
+msgstr "venster & werkskerm"
+
+#: ../../kwin/kwinbindings.cpp:42
+#, fuzzy
+msgid "Window to Desktop 4"
+msgstr "venster & werkskerm"
+
+#: ../../kwin/kwinbindings.cpp:43
+#, fuzzy
+msgid "Window to Desktop 5"
+msgstr "venster & werkskerm"
+
+#: ../../kwin/kwinbindings.cpp:44
+#, fuzzy
+msgid "Window to Desktop 6"
+msgstr "venster & werkskerm"
+
+#: ../../kwin/kwinbindings.cpp:45
+#, fuzzy
+msgid "Window to Desktop 7"
+msgstr "venster & werkskerm"
+
+#: ../../kwin/kwinbindings.cpp:46
+#, fuzzy
+msgid "Window to Desktop 8"
+msgstr "venster & werkskerm"
+
+#: ../../kwin/kwinbindings.cpp:47
+#, fuzzy
+msgid "Window to Desktop 9"
+msgstr "venster & werkskerm"
+
+#: ../../kwin/kwinbindings.cpp:48
+#, fuzzy
+msgid "Window to Desktop 10"
+msgstr "venster & werkskerm"
+
+#: ../../kwin/kwinbindings.cpp:49
+#, fuzzy
+msgid "Window to Desktop 11"
+msgstr "venster & werkskerm"
 
 #: ../../kwin/kwinbindings.cpp:50
-msgid "Window to Desktop 2"
-msgstr "VENSTER AAN DeskAANp 2"
+#, fuzzy
+msgid "Window to Desktop 12"
+msgstr "venster & werkskerm"
 
 #: ../../kwin/kwinbindings.cpp:51
-msgid "Window to Desktop 3"
-msgstr "VENSTER AAN DeskAANp 3"
+#, fuzzy
+msgid "Window to Desktop 13"
+msgstr "venster & werkskerm"
 
 #: ../../kwin/kwinbindings.cpp:52
-msgid "Window to Desktop 4"
-msgstr "VENSTER AAN DeskAANp 4"
+#, fuzzy
+msgid "Window to Desktop 14"
+msgstr "venster & werkskerm"
 
 #: ../../kwin/kwinbindings.cpp:53
-msgid "Window to Desktop 5"
-msgstr "VENSTER AAN DeskAANp 5"
+#, fuzzy
+msgid "Window to Desktop 15"
+msgstr "venster & werkskerm"
 
 #: ../../kwin/kwinbindings.cpp:54
-msgid "Window to Desktop 6"
-msgstr "VENSTER AAN DeskAANp 6"
+#, fuzzy
+msgid "Window to Desktop 16"
+msgstr "venster & werkskerm"
 
 #: ../../kwin/kwinbindings.cpp:55
-msgid "Window to Desktop 7"
-msgstr "VENSTER AAN DeskAANp 7"
+#, fuzzy
+msgid "Window to Next Desktop"
+msgstr "venster & werkskerm"
 
 #: ../../kwin/kwinbindings.cpp:56
-msgid "Window to Desktop 8"
-msgstr "VENSTER AAN DeskAANp 8"
-
-#: ../../kwin/kwinbindings.cpp:57
-msgid "Window to Desktop 9"
-msgstr "VENSTER AAN DeskAANp 9"
+#, fuzzy
+msgid "Window to Previous Desktop"
+msgstr "venster & werkskerm"
 
 #: ../../kwin/kwinbindings.cpp:58
-msgid "Window to Desktop 10"
-msgstr "VENSTER AAN DeskAANp 10"
+msgid "Desktop Switching"
+msgstr "werkskerm omskakeling"
 
 #: ../../kwin/kwinbindings.cpp:59
-msgid "Window to Desktop 11"
-msgstr "VENSTER AAN DeskAANp 11"
+msgid "Switch to Desktop 1"
+msgstr ""
 
 #: ../../kwin/kwinbindings.cpp:60
-msgid "Window to Desktop 12"
-msgstr "VENSTER AAN DeskAANp 12"
+msgid "Switch to Desktop 2"
+msgstr ""
 
 #: ../../kwin/kwinbindings.cpp:61
-msgid "Window to Desktop 13"
+msgid "Switch to Desktop 3"
 msgstr ""
 
 #: ../../kwin/kwinbindings.cpp:62
-msgid "Window to Desktop 14"
-msgstr "VENSTER AAN DeskAANp 14"
+msgid "Switch to Desktop 4"
+msgstr ""
 
 #: ../../kwin/kwinbindings.cpp:63
-msgid "Window to Desktop 15"
-msgstr "VENSTER AAN DeskAANp 15"
+msgid "Switch to Desktop 5"
+msgstr ""
 
 #: ../../kwin/kwinbindings.cpp:64
-msgid "Window to Desktop 16"
+msgid "Switch to Desktop 6"
 msgstr ""
 
 #: ../../kwin/kwinbindings.cpp:65
-msgid "Window to Next Desktop"
-msgstr "VENSTER AAN VOLGENDE DeskAANp"
+msgid "Switch to Desktop 7"
+msgstr ""
 
 #: ../../kwin/kwinbindings.cpp:66
-msgid "Window to Previous Desktop"
-msgstr "VENSTER AAN VORIGE DeskAANp"
-
-#: ../../kwin/kwinbindings.cpp:86
-msgid "Desktop Switching"
-msgstr "WERKSKERM OMSKAKELING"
-
-#: ../../kwin/kwinbindings.cpp:88
-msgid "Switch to Desktop 1"
-msgstr "WISSEL AAN DeskAANp 1"
-
-#: ../../kwin/kwinbindings.cpp:89
-msgid "Switch to Desktop 2"
-msgstr "WISSEL AAN DeskAANp 2"
-
-#: ../../kwin/kwinbindings.cpp:90
-msgid "Switch to Desktop 3"
-msgstr "WISSEL AAN DeskAANp 3"
-
-#: ../../kwin/kwinbindings.cpp:91
-msgid "Switch to Desktop 4"
-msgstr "WISSEL AAN DeskAANp 4"
-
-#: ../../kwin/kwinbindings.cpp:92
-msgid "Switch to Desktop 5"
-msgstr "WISSEL AAN DeskAANp 5"
-
-#: ../../kwin/kwinbindings.cpp:93
-msgid "Switch to Desktop 6"
-msgstr "WISSEL AAN DeskAANp 6"
-
-#: ../../kwin/kwinbindings.cpp:94
-msgid "Switch to Desktop 7"
-msgstr "WISSEL AAN DeskAANp 7"
-
-#: ../../kwin/kwinbindings.cpp:95
 msgid "Switch to Desktop 8"
-msgstr "WISSEL AAN DeskAANp 8"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:96
+#: ../../kwin/kwinbindings.cpp:67
 msgid "Switch to Desktop 9"
-msgstr "WISSEL AAN DeskAANp 9"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:97
+#: ../../kwin/kwinbindings.cpp:68
 msgid "Switch to Desktop 10"
-msgstr "WISSEL AAN DeskAANp 10"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:98
+#: ../../kwin/kwinbindings.cpp:69
 msgid "Switch to Desktop 11"
-msgstr "WISSEL AAN DeskAANp 11"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:99
+#: ../../kwin/kwinbindings.cpp:70
 msgid "Switch to Desktop 12"
-msgstr "WISSEL AAN DeskAANp 12"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:100
+#: ../../kwin/kwinbindings.cpp:71
 msgid "Switch to Desktop 13"
 msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:101
+#: ../../kwin/kwinbindings.cpp:72
 msgid "Switch to Desktop 14"
-msgstr "WISSEL AAN DeskAANp 14"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:102
+#: ../../kwin/kwinbindings.cpp:73
 msgid "Switch to Desktop 15"
-msgstr "WISSEL AAN DeskAANp 15"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:103
+#: ../../kwin/kwinbindings.cpp:74
 msgid "Switch to Desktop 16"
 msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:104
+#: ../../kwin/kwinbindings.cpp:75
 msgid "Switch to Next Desktop"
-msgstr "WISSEL AAN VOLGENDE DeskAANp"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:105
+#: ../../kwin/kwinbindings.cpp:76
 msgid "Switch to Previous Desktop"
-msgstr "WISSEL AAN VORIGE DeskAANp"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:106
+#: ../../kwin/kwinbindings.cpp:77
 msgid "Switch One Desktop to the Right"
-msgstr "WISSEL EEN WERKSKERM AAN DIE REGTERKANT"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:107
+#: ../../kwin/kwinbindings.cpp:78
 msgid "Switch One Desktop to the Left"
-msgstr "WISSEL EEN WERKSKERM AAN DIE LINKS"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:108
+#: ../../kwin/kwinbindings.cpp:79
 msgid "Switch One Desktop Up"
-msgstr "WISSEL EEN WERKSKERM BEGIN"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:109
+#: ../../kwin/kwinbindings.cpp:80
 msgid "Switch One Desktop Down"
-msgstr "WISSEL EEN WERKSKERM ONDERTOE"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:114
+#: ../../kwin/kwinbindings.cpp:83
 msgid "Mouse Emulation"
-msgstr "MUIS EMULERING"
+msgstr ""
 
-#: ../../kwin/kwinbindings.cpp:115
+#: ../../kwin/kwinbindings.cpp:84
+#, fuzzy
 msgid "Kill Window"
-msgstr "STOP VENSTER"
+msgstr "vensters"
 
-#: ../../kwin/kwinbindings.cpp:116
+#: ../../kwin/kwinbindings.cpp:85
+#, fuzzy
 msgid "Window Screenshot"
-msgstr ""
+msgstr "venster & werkskerm"
 
-#: ../../kwin/kwinbindings.cpp:117
+#: ../../kwin/kwinbindings.cpp:86
+#, fuzzy
 msgid "Desktop Screenshot"
-msgstr ""
-
-#: ../../kicker/core/kickerbindings.cpp:9
-msgid "Panel"
-msgstr "PANEEL"
-
-#: ../../kicker/core/kickerbindings.cpp:11
-msgid "Popup Launch Menu"
-msgstr "OPSPRING LANSEER KIESLYS"
+msgstr "werkskerm omskakeling"
 
 #: ../../kicker/core/kickerbindings.cpp:15
-msgid "Toggle showing Desktop"
-msgstr "WISSEL TE WYS WERKSKERM"
+msgid "Panel"
+msgstr "paneel"
 
-#: ../../kdesktop/kdesktopbindings.cpp:2
+#: ../../kicker/core/kickerbindings.cpp:16
+msgid "Popup Launch Menu"
+msgstr "opspring lanseer kieslys"
+
+#: ../../kicker/core/kickerbindings.cpp:20
+msgid "Toggle Showing Desktop"
+msgstr "wissel te wys werkskerm"
+
+#: ../../kdesktop/kdesktopbindings.cpp:13
 msgid "Desktop"
-msgstr "WERKSKERM"
+msgstr "werkskerm"
 
-#: ../../kdesktop/kdesktopbindings.cpp:4
+#: ../../kdesktop/kdesktopbindings.cpp:15
+#, fuzzy
 msgid "Execute Command"
-msgstr "UITVOER OPDRAG"
+msgstr "opdrag"
 
-#: ../../kdesktop/kdesktopbindings.cpp:5
+#: ../../kdesktop/kdesktopbindings.cpp:16
 msgid "Show Taskmanager"
 msgstr ""
 
-#: ../../kdesktop/kdesktopbindings.cpp:6
+#: ../../kdesktop/kdesktopbindings.cpp:17
+#, fuzzy
 msgid "Show Window List"
-msgstr "VERTOON VENSTER LYS"
+msgstr "vensters"
 
-#: ../../kdesktop/kdesktopbindings.cpp:7
+#: ../../kdesktop/kdesktopbindings.cpp:18
 msgid "Lock Screen"
-msgstr "SLUIT SKERM"
-
-#: ../../kdesktop/kdesktopbindings.cpp:8
-msgid "Logout"
-msgstr "TEKEN AF"
-
-#: ../../kdesktop/kdesktopbindings.cpp:9
-msgid "Logout without Confirmation"
-msgstr "TEKEN AF SONDER OM TE BEVESTIGING"
-
-#: ../../klipper/klipperbindings.cpp:2
-msgid "Clipboard"
-msgstr "KLIPBORD"
-
-#: ../../klipper/klipperbindings.cpp:4
-msgid "Show klipper popupmenu"
-msgstr "VERTOON KLIPPER OPSPRING KIESKAART"
-
-#: ../../klipper/klipperbindings.cpp:6
-msgid "Manually invoke action on current clipboard"
 msgstr ""
 
-#: ../../klipper/klipperbindings.cpp:8
-msgid "Enable/disable clipboard actions"
-msgstr "AKTIVEER/DEAKTIVEER KLIPBORD AKSIES"
+#: ../../kdesktop/kdesktopbindings.cpp:19
+msgid "Logout"
+msgstr ""
 
-#: ../../kxkb/kxkbbindings.cpp:2
+#: ../../kdesktop/kdesktopbindings.cpp:20
+msgid "Logout without Confirmation"
+msgstr ""
+
+#: ../../kdesktop/kdesktopbindings.cpp:21
+msgid "Halt Computer"
+msgstr ""
+
+#: ../../kdesktop/kdesktopbindings.cpp:22
+msgid "Halt without Confirmation"
+msgstr ""
+
+#: ../../kdesktop/kdesktopbindings.cpp:23
+msgid "Reboot Computer"
+msgstr ""
+
+#: ../../kdesktop/kdesktopbindings.cpp:24
+msgid "Reboot without Confirmation"
+msgstr ""
+
+#: ../../klipper/klipperbindings.cpp:9
+msgid "Clipboard"
+msgstr "klipbord"
+
+#: ../../klipper/klipperbindings.cpp:11
+msgid "Show Klipper Popup-Menu"
+msgstr ""
+
+#: ../../klipper/klipperbindings.cpp:12
+msgid "Manually Invoke Action on Current Clipboard"
+msgstr ""
+
+#: ../../klipper/klipperbindings.cpp:13
+msgid "Enable/Disable Clipboard Actions"
+msgstr ""
+
+#: ../../kxkb/kxkbbindings.cpp:9
 msgid "Keyboard"
-msgstr "SLEUTELBORD"
+msgstr "sleutelbord"
 
-#: ../../kxkb/kxkbbindings.cpp:4
-msgid "Select next keyboard layout"
-msgstr "KIES VOLGENDE SLEUTELBORD UITLEG"
+#: ../../kxkb/kxkbbindings.cpp:10
+msgid "Switch To Next Keyboard Layout"
+msgstr ""
+
+#~ msgid "Label"
+#~ msgstr "etiket"
+
+#~ msgid "Meta"
+#~ msgstr "meta"
+
+#~ msgid "Super"
+#~ msgstr "super"
