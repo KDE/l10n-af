@@ -4,9 +4,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-07-16 18:19+0200\n"
-"PO-Revision-Date: 2001-07-27 10:53+0200\n"
+"Project-Id-Version: kuser VERSION\n"
+"POT-Creation-Date: 2002-02-26 02:53+0100\n"
+"PO-Revision-Date: 2002-01-10 09:24+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
@@ -15,63 +15,63 @@ msgstr ""
 
 #: rc.cpp:1
 msgid "&User"
-msgstr "&GEBRUIKER"
+msgstr "gebruiker"
 
 #: rc.cpp:2
 msgid "&Group"
-msgstr "&GROEP"
+msgstr "groep"
 
 #: mainWidget.cpp:28
 msgid "Ready"
-msgstr "GEREED"
+msgstr "gereed"
 
 #: mainWidget.cpp:48 mainWidget.cpp:62
 msgid "&Add..."
-msgstr "&VOEG BY..."
+msgstr "voeg by..."
 
 #: mainWidget.cpp:51 mainWidget.cpp:65
 msgid "&Edit..."
-msgstr "&REDIGEER..."
+msgstr "redigeer..."
 
 #: mainWidget.cpp:55 mainWidget.cpp:69
 msgid "&Delete..."
-msgstr "&UITVEE..."
+msgstr "uitvee..."
 
 #: mainWidget.cpp:59
-msgid "&Set password..."
-msgstr "&GESTEL WAGWOORD..."
+msgid "&Set Password..."
+msgstr "stel wagwoord..."
 
 #: editGroup.cpp:22
-msgid "Group properties"
-msgstr "GROEP EIENSKAPPE"
+msgid "Group Properties"
+msgstr "groep eienskappe"
 
 #: editGroup.cpp:30
 msgid "Users in Group '%1':"
-msgstr "GEBRUIKERS IN GROEP '%1':"
+msgstr "gebruikers in groep '%1':"
 
 #: editGroup.cpp:31
 msgid "Select the users that should be in this group."
-msgstr "KIES DIE GEBRUIKERS WAT MOET WEES IN HIERDIE GROEP."
+msgstr "kies die gebruikers wat moet wees in hierdie groep."
 
 #: kuservw.cpp:63
 msgid "UID"
-msgstr "UID"
+msgstr "uid"
 
 #: kuservw.cpp:65
 msgid "User login"
-msgstr "GEBRUIKER AANTEKEN"
+msgstr "gebruiker aanteken"
 
 #: kuservw.cpp:66
 msgid "Full name"
-msgstr "VOLGROTE NAAM"
+msgstr "volgrote naam"
 
 #: kgroupvw.cpp:62
 msgid "GID"
-msgstr "GID"
+msgstr "gid"
 
 #: kgroupvw.cpp:64
 msgid "Group name"
-msgstr "GROEP NAAM"
+msgstr "groep naam"
 
 #: kuser.cpp:454
 msgid ""
@@ -79,529 +79,601 @@ msgid ""
 "Local passwd source set to %1\n"
 "Local group source set to %2\n"
 msgstr ""
+"kuser bronkodes was nie gekonfigureer.\n"
+"plaaslike wagwoord bron stel aan %1\n"
+"plaaslike groep bron stel aan %2\n"
 
 #: kgroup.cpp:146 kuser.cpp:468
 msgid ""
 "stat call on file %1 failed: %2\n"
 "Check KUser Settings (Sources)\n"
 msgstr ""
+"statistiek roep op lêer %1 gevaal: %2\n"
+"bevestig kuser instellings (bronkodes)\n"
 
 #: kgroup.cpp:173 kuser.cpp:495
 msgid "Error opening %1 for reading"
-msgstr "FOUT OOPGEMAAK %1 VIR LEES"
+msgstr "fout oopgemaak %1 vir lees"
 
 #: kuser.cpp:579
 msgid ""
 "No /etc/passwd entry for %1.\n"
 "Entry will be removed at the next `Save'-operation."
 msgstr ""
+"nee /etc/wagwoord inskrywing vir %1.\n"
+"inskrywing sal wees verwyder na die volgende `Save'-operation."
 
-#: kgroup.cpp:274 kgroup.cpp:279 kuser.cpp:713 kuser.cpp:718 kuser.cpp:857
+#: kgroup.cpp:274 kgroup.cpp:279 kuser.cpp:724 kuser.cpp:729 kuser.cpp:868
 msgid "Error opening %1 for writing"
-msgstr "FOUT OOPGEMAAK %1 VIR OM TE SKRYF"
+msgstr "fout oopgemaak %1 vir om te skryf"
 
-#: kuser.cpp:808
+#: kuser.cpp:819
 msgid ""
 "Unable to process NIS passwd file without a minimum UID specified.\n"
 "Please update KUser Settings (Sources)"
 msgstr ""
+"nie moontlik aan proses nis wagwoord lêer sonder om te 'n minimum uid "
+"gespesifiseer.\n"
+"asseblief dateer op kuser instellings (bronkodes)"
 
-#: kuser.cpp:813
+#: kuser.cpp:824
 msgid ""
 "Specifying NIS minimum UID requires NIS file(s).\n"
 "Please update KUser Settings (Sources)"
 msgstr ""
+"spesifisering nis minimum uid benodig nis lêer(s).\n"
+"asseblief dateer op kuser instellings (bronkodes)"
 
-#: kuser.cpp:821
+#: kuser.cpp:832
 msgid "Unable to build password database"
-msgstr "NIE MOONTLIK AAN BOU WAGWOORD DATABASIS"
+msgstr "nie moontlik aan bou wagwoord databasis"
 
-#: kuser.cpp:827
+#: kuser.cpp:838
 msgid "Unable to build password databases"
-msgstr "NIE MOONTLIK AAN BOU WAGWOORD DATABASISE"
+msgstr "nie moontlik aan bou wagwoord databasise"
 
-#: kuser.cpp:867
+#: kuser.cpp:878
 #, c-format
 msgid "No shadow entry for %1."
-msgstr "GEEN SKADU INSKRYWING VIR %1."
+msgstr "nee skadu inskrywing vir %1."
 
-#: kuser.cpp:917
+#: kuser.cpp:928
 msgid "You have more than 65534 users!?!? You have run out of uid space!"
-msgstr ""
+msgstr "jy het meer as 65534 gebruikers!?!? jy het hardloop uit van uid spasie!"
 
-#: kuser.cpp:955
+#: kuser.cpp:966
+#, fuzzy
+msgid ""
+"Cannot create home directory for %1: it is null or empty\n"
+msgstr ""
+"kan nie skep huis gids %1\n"
+"fout: %2"
+
+#: kuser.cpp:971
 msgid ""
 "Cannot create home directory %1\n"
 "Error: %2"
 msgstr ""
+"kan nie skep huis gids %1\n"
+"fout: %2"
 
-#: kuser.cpp:961
-#, c-format
+#: kuser.cpp:977
+#, fuzzy
 msgid ""
-"Cannot change owner of home directory\n"
-"Error: %1"
+"Cannot change owner of home directory %1\n"
+"Error: %2"
 msgstr ""
+"kan nie verander eienaar van huis gids\n"
+"fout: %1"
 
-#: kuser.cpp:967
-#, c-format
+#: kuser.cpp:983
+#, fuzzy
 msgid ""
-"Cannot change permissions on home directory\n"
-"Error: %1"
+"Cannot change permissions on home directory %1\n"
+"Error: %2"
 msgstr ""
+"kan nie verander regte op huis gids\n"
+"fout: %1"
 
-#: kuser.cpp:1011
+#: kuser.cpp:1053
 msgid ""
 "Directory %1 already exists!\n"
 "Will make %2 owner and change permissions.\n"
 "Do you want to continue?"
 msgstr ""
+"gids %1 alreeds bestaan!\n"
+"sal maak %2 eienaar en verander regte.\n"
+"doen jy wil hê aan voortgaan?"
 
-#: addUser.cpp:93 kuser.cpp:1012
+#: addUser.cpp:93 kuser.cpp:1054
 msgid "&Continue"
-msgstr "&VOORTGAAN"
+msgstr "voortgaan"
 
-#: kuser.cpp:1016 kuser.cpp:1047
+#: kuser.cpp:1057 kuser.cpp:1088
 msgid ""
 "Cannot change owner of %1 directory\n"
 "Error: %2"
 msgstr ""
+"kan nie verander eienaar van %1 gids\n"
+"fout: %2"
 
-#: kuser.cpp:1021 kuser.cpp:1052
+#: kuser.cpp:1062 kuser.cpp:1093
 msgid ""
 "Cannot change permissions on %1 directory\n"
 "Error: %2"
 msgstr ""
+"kan nie verander regte op %1 gids\n"
+"fout: %2"
 
-#: kuser.cpp:1027
+#: kuser.cpp:1068
 msgid ""
 "Directory %1 left 'as is'.\n"
 "Verify ownership and permissions for user %2 who may not be able to log in!"
 msgstr ""
+"gids %1 links 'as is'.\n"
+"bevestig eienaarskap en regte vir gebruiker %2 wie dalk mag nie wees in "
+"staat aan log in!"
 
-#: kuser.cpp:1033
+#: kuser.cpp:1074
 msgid "%1 exists and is not a directory. User %2 will not be able to log in!"
-msgstr ""
+msgstr "%1 bestaan en is nie 'n gids. gebruiker %2 sal nie wees in staat aan log in!"
 
-#: kuser.cpp:1041
+#: kuser.cpp:1082
 msgid ""
 "Cannot create %1 directory\n"
 "Error: %2"
 msgstr ""
+"kan nie skep %1 gids\n"
+"fout: %2"
 
-#: kuser.cpp:1058
+#: kuser.cpp:1099
 msgid ""
 "stat call on %1 failed.\n"
 "Error: %2"
 msgstr ""
+"statistiek roep op %1 gevaal.\n"
+"fout: %2"
 
-#: kuser.cpp:1072
+#: kuser.cpp:1139
 msgid "Cannot create %1: %2"
-msgstr ""
+msgstr "kan nie skep %1: %2"
 
-#: kuser.cpp:1082
+#: kuser.cpp:1149
 msgid ""
 "Cannot change owner on mailbox: %1\n"
 "Error: %2"
 msgstr ""
+"kan nie verander eienaar op posbus: %1\n"
+"fout: %2"
 
-#: kuser.cpp:1089
+#: kuser.cpp:1156
 msgid ""
 "Cannot change permissions on mailbox: %1\n"
 "Error: %2"
 msgstr ""
+"kan nie verander regte op posbus: %1\n"
+"fout: %2"
 
-#: kuser.cpp:1127
+#: kuser.cpp:1194
 msgid ""
 "Cannot change owner of directory %1\n"
 "Error: %2"
 msgstr ""
+"kan nie verander eienaar van gids %1\n"
+"fout: %2"
 
-#: kuser.cpp:1133
+#: kuser.cpp:1200
 msgid ""
 "Cannot change permissions on directory %1\n"
 "Error: %2"
 msgstr ""
+"kan nie verander regte op gids %1\n"
+"fout: %2"
 
-#: kuser.cpp:1158
+#: kuser.cpp:1225
 msgid ""
 "Cannot change owner of file %1\n"
 "Error: %2"
 msgstr ""
+"kan nie verander eienaar van lêer %1\n"
+"fout: %2"
 
-#: kuser.cpp:1164
+#: kuser.cpp:1231
 msgid ""
 "Cannot change permissions on file %1\n"
 "Error: %2"
 msgstr ""
+"kan nie verander regte op lêer %1\n"
+"fout: %2"
 
-#: kuser.cpp:1178 kuser.cpp:1184
-msgid "Directory %1 does not exist"
-msgstr "GIDS %1 DOEN NIE BESTAAN"
+#: kuser.cpp:1245
+#, fuzzy
+msgid "Directory %1 does not exist, cannot copy skeleton for %2"
+msgstr "gids %1 doen nie bestaan"
 
-#: kuser.cpp:1210
+#: kuser.cpp:1251
+#, fuzzy
+msgid "Directory %1 does not exist, cannot copy skeleton"
+msgstr "gids %1 doen nie bestaan"
+
+#: kuser.cpp:1277
 msgid ""
 "Cannot remove home directory %1\n"
 "Error: %2"
 msgstr ""
+"kan nie verwyder huis gids %1\n"
+"fout: %2"
 
-#: kuser.cpp:1215
+#: kuser.cpp:1282
 msgid "Removal of home directory %1 failed (uid = %2, gid = %3)"
-msgstr ""
+msgstr "verwydering van huis gids %1 gevaal (uid = %2, gid = %3)"
 
-#: kuser.cpp:1219
+#: kuser.cpp:1286
 msgid ""
 "stat call on file %1 failed\n"
 "Error: %2"
 msgstr ""
+"statistiek roep op lêer %1 gevaal\n"
+"fout: %2"
 
-#: kuser.cpp:1237
+#: kuser.cpp:1304
 msgid ""
 "Cannot remove crontab %1\n"
 "Error: %2"
 msgstr ""
+"kan nie verwyder crontab %1\n"
+"fout: %2"
 
-#: kuser.cpp:1251
+#: kuser.cpp:1318
 msgid ""
 "Cannot remove mailbox %1\n"
 "Error: %2"
 msgstr ""
+"kan nie verwyder posbus %1\n"
+"fout: %2"
 
-#: kuser.cpp:1270
+#: kuser.cpp:1337
 msgid "Cannot fork()"
-msgstr "KAN NIE VURK()"
+msgstr "kan nie vurk()"
 
 #: kgroup.cpp:340
 msgid ""
 "Unable to process NIS group file without a minimum GID specified.\n"
 "Please update KUser Settings (Sources)"
 msgstr ""
+"nie moontlik aan proses nis groep lêer sonder om te 'n minimum gid "
+"gespesifiseer.\n"
+"asseblief dateer op kuser instellings (bronkodes)"
 
 #: kgroup.cpp:345
 msgid ""
 "Specifying NIS minimum GID requires NIS file(s).\n"
 "Please update KUser Settings (Sources)"
 msgstr ""
+"spesifisering nis minimum gid benodig nis lêer(s).\n"
+"asseblief dateer op kuser instellings (bronkodes)"
 
 #: kgroup.cpp:352
 msgid "Unable to build NIS group databases"
-msgstr "NIE MOONTLIK AAN BOU NIS GROEP DATABASISE"
+msgstr "nie moontlik aan bou nis groep databasise"
 
 #: kgroup.cpp:382
 msgid "You have more than 65534 groups!?!? You have run out of gid space!"
-msgstr ""
+msgstr "jy het meer as 65534 groepe!?!? jy het hardloop uit van gid spasie!"
 
-#: main.cpp:21
+#: main.cpp:20
 msgid "KDE User Editor"
-msgstr "KDE GEBRUIKER REDIGEERDER"
+msgstr "kde gebruiker redigeerder"
 
-#: main.cpp:53
+#: main.cpp:52
 msgid "KUser"
-msgstr ""
+msgstr "kuser"
 
-#: main.cpp:56
+#: main.cpp:55
 msgid "kuser author"
-msgstr ""
+msgstr "kuser outeur"
 
-#: main.cpp:66
+#: main.cpp:65
 msgid "Only root is allowed to manage users."
-msgstr "SLEGS ROOT IS TOEGELAAT AAN BESTUUR GEBRUIKERS."
+msgstr "slegs root is toegelaat aan bestuur gebruikers."
 
-#: main.cpp:78
+#: main.cpp:77
 msgid "KDE User Manager"
-msgstr "KDE GEBRUIKER BESTUURDER"
+msgstr "kde gebruiker bestuurder"
 
 #: mainView.cpp:37
 msgid "Users"
-msgstr "GEBRUIKERS"
+msgstr "gebruikers"
 
-#: mainView.cpp:40 propdlg.cpp:377 propdlg.cpp:399
+#: mainView.cpp:40 propdlg.cpp:347 propdlg.cpp:369
 msgid "Groups"
-msgstr "GROEPE"
+msgstr "groepe"
 
 #: mainView.cpp:105
 msgid "Do you really want to delete user '%1'?"
-msgstr ""
+msgstr "doen jy rerig wil hê aan uitvee gebruiker '%1'?"
 
 #: mainView.cpp:139
 msgid ""
 "You are using private groups.\n"
 "Do you want to delete the user's private group '%1'?"
 msgstr ""
+"jy word te gebruik private groepe.\n"
+"doen jy wil hê aan uitvee die gebruiker se private groep '%1'?"
 
 #: mainView.cpp:273
 msgid "Would you like to save changes?"
-msgstr ""
+msgstr "sal jy hou van aan stoor verander?"
 
 #: mainView.cpp:274
 msgid "Data was modified"
-msgstr "DATA WAS VERANDERDE"
+msgstr "data was veranderde"
 
 #: mainView.cpp:275
 msgid "&Discard changes"
-msgstr "&GOOI WEG VERANDER"
+msgstr "gooi weg verander"
 
 #: mainView.cpp:306
-msgid "Edit defaults"
-msgstr "REDIGEER VERSTEK"
+msgid "Edit Defaults"
+msgstr "redigeer verstek"
 
 #: mainView.cpp:414
 msgid "Do you really want to delete the group '%1'?"
-msgstr ""
+msgstr "doen jy rerig wil hê aan uitvee die groep '%1'?"
 
-#: propdlg.cpp:65 propdlg.cpp:95 propdlg.cpp:120
+#: propdlg.cpp:63 propdlg.cpp:88
 msgid "Never"
-msgstr "MOET NOOIT"
+msgstr "moet nooit"
 
-#: propdlg.cpp:115
+#: propdlg.cpp:83
 msgid " days"
-msgstr ""
+msgstr " dae"
 
-#: propdlg.cpp:143
+#: propdlg.cpp:110
 msgid "User Properties"
-msgstr "GEBRUIKER EIENSKAPPE"
+msgstr "gebruiker eienskappe"
 
-#: propdlg.cpp:168
+#: propdlg.cpp:138
 msgid "User Info"
-msgstr "GEBRUIKER INLIGTING"
+msgstr "gebruiker inligting"
 
-#: propdlg.cpp:177
+#: propdlg.cpp:147
 msgid "User Login:"
-msgstr "GEBRUIKER AANTEKEN:"
+msgstr "gebruiker aanteken:"
 
-#: propdlg.cpp:181
+#: propdlg.cpp:151
 msgid "User Id:"
-msgstr "GEBRUIKER ID:"
+msgstr "gebruiker id:"
 
-#: propdlg.cpp:183
-msgid "Set password"
-msgstr "GESTEL WAGWOORD"
+#: propdlg.cpp:153
+msgid "Set Password"
+msgstr "stel wagwoord"
 
-#: propdlg.cpp:189
+#: propdlg.cpp:159
 msgid "Full Name:"
-msgstr "VOLGROTE NAAM:"
+msgstr "volgrote naam:"
 
-#: propdlg.cpp:194 userDefaultsPage.cpp:34
+#: propdlg.cpp:164 userDefaultsPage.cpp:34
 msgid "<Empty>"
 msgstr "<Empty>"
 
-#: propdlg.cpp:217
+#: propdlg.cpp:187
 msgid "Login Shell:"
-msgstr "AANTEKEN TOLK:"
+msgstr "aanteken tolk:"
 
-#: propdlg.cpp:222
+#: propdlg.cpp:192
 msgid "Home Directory:"
-msgstr "HUIS GIDS:"
+msgstr "huis gids:"
 
-#: propdlg.cpp:230
+#: propdlg.cpp:200
 msgid "Office:"
-msgstr "KANTOOR:"
+msgstr "kantoor:"
 
-#: propdlg.cpp:235
+#: propdlg.cpp:205
 msgid "Office Phone:"
-msgstr "KANTOOR FOON:"
+msgstr "kantoor foon:"
+
+#: propdlg.cpp:210
+msgid "Home Phone:"
+msgstr "huis foon:"
+
+#: propdlg.cpp:215
+msgid "Office #1:"
+msgstr "kantoor #1:"
+
+#: propdlg.cpp:220
+msgid "Office #2:"
+msgstr "kantoor #2:"
+
+#: propdlg.cpp:225
+msgid "Address:"
+msgstr "adres:"
+
+#: propdlg.cpp:233
+#, fuzzy
+msgid "Password Management"
+msgstr "wagwoord bestuur"
 
 #: propdlg.cpp:240
-msgid "Home Phone:"
-msgstr "HUIS FOON:"
+msgid "Last Password Change:"
+msgstr "laaste wagwoord verander:"
 
 #: propdlg.cpp:245
-msgid "Office #1:"
-msgstr ""
-
-#: propdlg.cpp:250
-msgid "Office #2:"
-msgstr ""
-
-#: propdlg.cpp:255
-msgid "Address:"
-msgstr "ADRES:"
-
-#: propdlg.cpp:263
-msgid "Password Managment"
-msgstr ""
-
-#: propdlg.cpp:270
-msgid "Last Password Change:"
-msgstr "LAASTE WAGWOORD VERANDER:"
-
-#: propdlg.cpp:275
 msgid "Password may not be changed before"
-msgstr "WAGWOORD DALK MAG NIE WEES HET VERANDER WEESfore"
+msgstr "wagwoord dalk mag nie wees het verander voor"
 
-#: propdlg.cpp:275 propdlg.cpp:276
+#: propdlg.cpp:245 propdlg.cpp:246
 msgid "after last password change."
-msgstr "NA LAASTE WAGWOORD VERANDER."
+msgstr "na laaste wagwoord verander."
 
-#: propdlg.cpp:276
+#: propdlg.cpp:246
 msgid "Password expires"
-msgstr ""
+msgstr "wagwoord verstrek"
 
-#: propdlg.cpp:277
+#: propdlg.cpp:247
 msgid "Issue expire warning"
-msgstr ""
+msgstr "uitreik vertrek waarskuwing"
 
-#: propdlg.cpp:277
+#: propdlg.cpp:247
 msgid "before password expires."
-msgstr ""
+msgstr "voor wagwoord verstrek."
 
-#: propdlg.cpp:278
+#: propdlg.cpp:248
 msgid "Account will be disabled"
-msgstr "REKENING SAL WEES GESTREMDE"
+msgstr "rekening sal wees gestremde"
 
-#: propdlg.cpp:278
+#: propdlg.cpp:248
 msgid "after expiration of password"
-msgstr ""
+msgstr "na vertreking van wagwoord"
 
-#: propdlg.cpp:283
+#: propdlg.cpp:253
 msgid "Account will expire on:"
-msgstr "REKENING SAL VERTREK OP:"
+msgstr "rekening sal vertrek op:"
 
-#: propdlg.cpp:290
+#: propdlg.cpp:260
 msgid "Quota"
-msgstr ""
+msgstr "kwota"
 
-#: propdlg.cpp:295
+#: propdlg.cpp:265
 msgid "Filesystem with quotas:"
-msgstr ""
+msgstr "lêersisteem met kwotas:"
 
-#: propdlg.cpp:317
+#: propdlg.cpp:287
 msgid "Disk space soft quota:"
-msgstr ""
+msgstr "disket spasie sag kwota:"
 
-#: propdlg.cpp:323
+#: propdlg.cpp:293
 msgid "Disk space hard quota:"
-msgstr ""
+msgstr "disket spasie hard kwota:"
 
-#: propdlg.cpp:327
+#: propdlg.cpp:297
 msgid "Disk space in use:"
-msgstr "DISKET SPASIE IN GEBRUIK:"
+msgstr "disket spasie in gebruik:"
 
-#: propdlg.cpp:334 propdlg.cpp:369
+#: propdlg.cpp:304 propdlg.cpp:339
 msgid "Grace period:"
-msgstr ""
+msgstr "grasie periode:"
 
-#: propdlg.cpp:352
+#: propdlg.cpp:322
 msgid "File number soft quota:"
-msgstr ""
+msgstr "lêer nommer sag kwota:"
+
+#: propdlg.cpp:328
+msgid "File number hard quota:"
+msgstr "lêer nommer hard kwota:"
+
+#: propdlg.cpp:332
+msgid "Number of files in use:"
+msgstr "nommer van lêers in gebruik:"
+
+#: propdlg.cpp:353
+msgid "Primary Group:"
+msgstr "primere groep:"
 
 #: propdlg.cpp:358
-msgid "File number hard quota:"
-msgstr ""
-
-#: propdlg.cpp:362
-msgid "Number of files in use:"
-msgstr "NOMMER VAN LêERS IN GEBRUIK:"
-
-#: propdlg.cpp:383
-msgid "Primary Group:"
-msgstr "PRIMERE GROEP:"
-
-#: propdlg.cpp:388
 msgid "Groups user '%1' belongs to:"
-msgstr "GROEPE GEBRUIKER '%1' BEHOORT AAN:"
+msgstr "groepe gebruiker '%1' behoort aan:"
 
-#: propdlg.cpp:406
+#: propdlg.cpp:376
 msgid "Login class:"
-msgstr "AANTEKEN KLAS:"
+msgstr "aanteken klas:"
 
-#: propdlg.cpp:409
-msgid "Password must be changed before:"
-msgstr "WAGWOORD MOET WEES HET VERANDER WEESfore:"
-
-#: propdlg.cpp:411
+#: propdlg.cpp:378
 msgid "Account will expire after:"
-msgstr "REKENING SAL VERTREK NA:"
+msgstr "rekening sal vertrek na:"
 
-#: addUser.cpp:55 propdlg.cpp:727
+#: addUser.cpp:55 propdlg.cpp:683
 msgid "User with UID %1 already exists"
-msgstr "GEBRUIKER MET UID %1 ALREEDS BESTAAN"
+msgstr "gebruiker met uid %1 alreeds bestaan"
 
 #: misc.cpp:52
 #, c-format
 msgid "Can't create backup file for %1"
-msgstr "Can't SKEP RUGSTEUN LêER VIR %1"
+msgstr ""
 
 #: misc.cpp:120
 msgid "File %1 does not exist."
-msgstr "LêER %1 DOEN NIE BESTAAN."
+msgstr "lêer %1 doen nie bestaan."
 
 #: misc.cpp:126
 msgid "Cannot open file %1 for reading."
-msgstr "KAN NIE OPEN LêER %1 VIR LEES."
+msgstr "kan nie open lêer %1 vir lees."
 
 #: misc.cpp:132
 msgid "Cannot open file %1 for writing."
-msgstr "KAN NIE OPEN LêER %1 VIR OM TE SKRYF."
+msgstr "kan nie open lêer %1 vir om te skryf."
 
 #: usernamedlg.cpp:13
-msgid "Enter username"
-msgstr "INVOER GEBRUIKERNAAM"
+msgid "Enter Username"
+msgstr "invoer gebruikernaam"
 
 #: usernamedlg.cpp:21
 msgid "Username:"
-msgstr "GEBRUIKERNAAM:"
+msgstr "gebruikernaam:"
 
 #: usernamedlg.cpp:45
 msgid "User with name %1 already exists."
-msgstr "GEBRUIKER MET NAAM %1 ALREEDS BESTAAN."
+msgstr "gebruiker met naam %1 alreeds bestaan."
 
 #: usernamedlg.cpp:51
 msgid "You have to enter a user name."
-msgstr "JY HE AAN INVOER 'N GEBRUIKER NAAM."
+msgstr "jy het aan invoer 'n gebruiker naam."
 
-#: pwddlg.cpp:19
+#: pwddlg.cpp:17
 msgid "Enter Password"
-msgstr "INVOER WAGWOORD"
+msgstr "invoer wagwoord"
 
-#: pwddlg.cpp:25
+#: pwddlg.cpp:23
 msgid "Password"
-msgstr "WAGWOORD"
+msgstr "wagwoord"
 
-#: pwddlg.cpp:41
+#: pwddlg.cpp:39
 msgid "Retype password"
-msgstr ""
+msgstr "hertik wagwoord"
 
-#: pwddlg.cpp:68
+#: pwddlg.cpp:66
 msgid ""
 "Passwords are not identical.\n"
 "Try again"
 msgstr ""
+"wagwoorde word nie identies.\n"
+"probeer weer"
 
 #: grpnamedlg.cpp:13
-msgid "Add group"
-msgstr "VOEG BY GROEP"
+msgid "Add Group"
+msgstr "voeg by groep"
 
 #: grpnamedlg.cpp:21
 msgid "Group name:"
-msgstr "GROEP NAAM:"
+msgstr "groep naam:"
 
 #: grpnamedlg.cpp:36
 msgid "Group number:"
-msgstr "GROEP NOMMER:"
+msgstr "groep nommer:"
 
 #: grpnamedlg.cpp:61
 msgid "Group with name %1 already exists."
-msgstr "GROEP MET NAAM %1 ALREEDS BESTAAN."
+msgstr "groep met naam %1 alreeds bestaan."
 
 #: grpnamedlg.cpp:67
 msgid "Group with gid %1 already exists."
-msgstr "GROEP MET GID %1 ALREEDS BESTAAN."
+msgstr "groep met gid %1 alreeds bestaan."
 
 #: addUser.cpp:36
 msgid "New Account Options"
-msgstr "NUWE REKENING OPSIES"
+msgstr "nuwe rekening opsies"
 
 #: addUser.cpp:40
 msgid "Create home directory"
-msgstr "SKEP HUIS GIDS"
+msgstr "skep huis gids"
 
 #: addUser.cpp:42
 msgid "Copy skeleton"
-msgstr ""
+msgstr "kopie geraamte"
 
 #: addUser.cpp:43
 msgid "Use Private Group"
-msgstr "GEBRUIK PRIVATE GROEP"
+msgstr "gebruik private groep"
 
 #: addUser.cpp:93
 msgid ""
@@ -609,63 +681,69 @@ msgid ""
 "%2 may become owner and permissions may change.\n"
 "Do you really want to use %3?"
 msgstr ""
+"gids %1 alreeds bestaan!\n"
+"%2 dalk mag word eienaar en regte dalk mag verander.\n"
+"doen jy rerig wil hê aan gebruik %3?"
 
 #: addUser.cpp:98
 msgid "%1 is not a directory"
-msgstr "%1 IS NIE 'N GIDS"
+msgstr "%1 is nie 'n gids"
 
 #: addUser.cpp:121
 msgid "Mailbox %1 already exists (uid=%2)"
-msgstr ""
+msgstr "posbus %1 alreeds bestaan (uid=%2)"
 
 #: addUser.cpp:125
 msgid "%1 exists but is not a regular file"
-msgstr "%1 BESTAAN MAAR IS NIE 'N GEWONE LêER"
+msgstr "%1 bestaan maar is nie 'n gewone lêer"
 
 #: editDefaults.cpp:17
 msgid "User"
-msgstr "GEBRUIKER"
+msgstr "gebruiker"
 
 #: editDefaults.cpp:22
 msgid "Sources"
-msgstr "BRONKODES"
+msgstr "bronkodes"
 
 #: nisDefaultsPage.cpp:112
 msgid "Enable NIS support"
-msgstr "AKTIVEER NIS ONDERSTEUN"
+msgstr "aktiveer nis ondersteun"
 
 #: nisDefaultsPage.cpp:183
 msgid "This is the Sources Help text"
-msgstr "HIERDIE IS DIE BRONKODES HULP TEKS"
+msgstr "hierdie is die bronkodes hulp teks"
 
 #: userDefaultsPage.cpp:28
 msgid "Shell"
-msgstr "TOLK"
+msgstr "tolk"
 
 #: userDefaultsPage.cpp:56
 msgid "Base of home directories"
-msgstr "BASIS VAN HUIS GIDSE"
+msgstr "basis van huis gidse"
 
 #: userDefaultsPage.cpp:65
 msgid "Create home dir"
-msgstr "SKEP HUIS GIDS"
+msgstr "skep huis gids"
 
 #: userDefaultsPage.cpp:69
 msgid "Copy skeleton to home dir"
-msgstr ""
+msgstr "kopie geraamte aan huis gids"
 
 #: userDefaultsPage.cpp:73
 msgid "User Private Group"
-msgstr "GEBRUIKER PRIVATE GROEP"
+msgstr "gebruiker private groep"
 
 #: _translatorinfo.cpp:1
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "WEB-Vertaler (kde.af.org.za)"
+msgstr "WEB-Vertaler (http://kde.af.org.za)"
 
 #: _translatorinfo.cpp:3
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "frix@engineer.com"
+
+#~ msgid "Password must be changed before:"
+#~ msgstr "wagwoord moet wees het verander voor:"
