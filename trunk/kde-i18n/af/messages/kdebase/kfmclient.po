@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2000-08-06 23:45+0200\n"
+"POT-Creation-Date: 2000-11-28 12:20+0100\n"
 "PO-Revision-Date: Tue Dec 21 1999 09:15:40+0200\n"
 "Last-Translator: Schalk W. Cronje <schalkc@ntaba.co.za>\n"
 "Language-Team: Afrikaans <kde-i18n@af.org.za>\n"
@@ -16,23 +16,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KTranslator v 0.5.0\n"
 
-#: kfmclient.cc:52
+#: kfmclient.cc:53
 msgid "KDE tool for opening URLs from the command line"
 msgstr ""
 
-#: kfmclient.cc:58
+#: kfmclient.cc:59
 msgid "Show available commands."
 msgstr ""
 
-#: kfmclient.cc:59
+#: kfmclient.cc:60
 msgid "Command (see --commands)."
 msgstr ""
 
-#: kfmclient.cc:60
+#: kfmclient.cc:61
 msgid "Arguments for command."
 msgstr ""
 
-#: kfmclient.cc:74
+#: kfmclient.cc:75
 msgid ""
 "\n"
 "Syntax:\n"
@@ -40,10 +40,10 @@ msgstr ""
 "\n"
 "Sintaks:\n"
 
-#: kfmclient.cc:75
+#: kfmclient.cc:76
 #, fuzzy
 msgid ""
-"  kfmclient openURL 'url'\n"
+"  kfmclient openURL 'url' ['mimetype']\n"
 "            # Opens a window showing 'url'.\n"
 "            #  'url' may be a relative path\n"
 "            #   or file name, such as . or subdir/\n"
@@ -54,16 +54,30 @@ msgstr ""
 "            #   wees om die gemorsblik te open.\n"
 "\n"
 
-#: kfmclient.cc:80
+#: kfmclient.cc:81
 msgid ""
-"  kfmclient openProfile 'profile'\n"
-"            # Opens a window using the given profile.\n"
-"            #   'profile' is a file under "
-"~/.kde/share/apps/konqueror/profiles.\n"
+"            # If 'mimetype' is specified, it will be used to determine the\n"
+"            #   component that konqueror should use. For instance, set it "
+"to\n"
+"            #   text/html for a web page, to make it appear faster\n"
 "\n"
 msgstr ""
 
-#: kfmclient.cc:83
+#: kfmclient.cc:85
+#, fuzzy
+msgid ""
+"  kfmclient openProfile 'profile' ['url']\n"
+"            # Opens a window using the given profile.\n"
+"            #   'profile' is a file under "
+"~/.kde/share/apps/konqueror/profiles.\n"
+"            #   'url' is an optionnal URL to open.\n"
+"\n"
+msgstr ""
+"            #   bestaan, sal dit vertoon word. 'url' mag \"trash:/\"\n"
+"            #   wees om die gemorsblik te open.\n"
+"\n"
+
+#: kfmclient.cc:90
 msgid ""
 "  kfmclient openProperties 'url'\n"
 "            # Opens a properties menu\n"
@@ -73,7 +87,7 @@ msgstr ""
 "            # Maak 'n eienskappekieskaart oop\n"
 "\n"
 
-#: kfmclient.cc:85
+#: kfmclient.cc:92
 msgid ""
 "  kfmclient exec ['url' ['binding']]\n"
 "            # Tries to execute 'url'. 'url' may be a usual\n"
@@ -85,7 +99,7 @@ msgstr ""
 "            #   URL wees, welke dit geopen sal word. U kan die\n"
 "            #   binding uitlos, welke die verstek binding gebruik sal word.\n"
 
-#: kfmclient.cc:89
+#: kfmclient.cc:96
 msgid ""
 "            #   is tried. Of course URL may be the URL of a\n"
 "            #   document, or it may be a *.desktop file.\n"
@@ -93,7 +107,7 @@ msgstr ""
 "            #   Natuurlik kan 'url' dié van 'n dokument wees\n"
 "            #   of van 'n *.desktop lêer.\n"
 
-#: kfmclient.cc:91
+#: kfmclient.cc:98
 msgid ""
 "            #   This way you could for example mount a device\n"
 "            #   by passing 'Mount default' as binding to \n"
@@ -105,7 +119,7 @@ msgstr ""
 "            #   'cdrom.desktop'\n"
 "\n"
 
-#: kfmclient.cc:94
+#: kfmclient.cc:101
 msgid ""
 "  kfmclient move 'src' 'dest'\n"
 "            # Moves the URL 'src' to 'dest'.\n"
@@ -115,7 +129,7 @@ msgstr ""
 "            # Skuif die URL 'src' na 'dest'.\n"
 "            #   'src' kan 'n lys van URLs wees.\n"
 
-#: kfmclient.cc:99
+#: kfmclient.cc:106
 msgid ""
 "  kfmclient copy 'src' 'dest'\n"
 "            # Copies the URL 'src' to 'dest'.\n"
@@ -127,7 +141,7 @@ msgstr ""
 "            #   'src' kan 'n lys van URLs wees.\n"
 "\n"
 
-#: kfmclient.cc:102
+#: kfmclient.cc:109
 msgid ""
 "  kfmclient sortDesktop\n"
 "            # Rearranges all icons on the desktop.\n"
@@ -137,7 +151,7 @@ msgstr ""
 "            # Herrangskik alle ikone op die werkskerm.\n"
 "\n"
 
-#: kfmclient.cc:104
+#: kfmclient.cc:111
 msgid ""
 "  kfmclient selectDesktopIcons x y w h add\n"
 "            # Selects the icons on the desktop in the given rectangle\n"
@@ -149,7 +163,7 @@ msgstr ""
 "            # Indien add 1 is, voeg die seleksie by die huidige.\n"
 "\n"
 
-#: kfmclient.cc:107
+#: kfmclient.cc:114
 msgid ""
 "  kfmclient configure\n"
 "            # Re-read konqueror's configuration.\n"
@@ -159,7 +173,7 @@ msgstr ""
 "            # Herlees konqueror se konfigurasie.\n"
 "\n"
 
-#: kfmclient.cc:109
+#: kfmclient.cc:116
 msgid ""
 "  kfmclient configureDesktop\n"
 "            # Re-read kdesktop's configuration.\n"
@@ -169,7 +183,7 @@ msgstr ""
 "            # Herlees kdesktop se konfigurasie.\n"
 "\n"
 
-#: kfmclient.cc:112
+#: kfmclient.cc:119
 msgid ""
 "*** Examples:\n"
 "  kfmclient exec file:/root/Desktop/cdrom.desktop \"Mount default\"\n"
@@ -181,7 +195,7 @@ msgstr ""
 "             // Heg die CDROM\n"
 "\n"
 
-#: kfmclient.cc:115
+#: kfmclient.cc:122
 msgid ""
 "  kfmclient exec file:/home/weis/data/test.html\n"
 "             // Opens the file with default binding\n"
@@ -191,7 +205,7 @@ msgstr ""
 "             // Maak die lêer met verstek bindings oop.\n"
 "\n"
 
-#: kfmclient.cc:117
+#: kfmclient.cc:124
 msgid ""
 "  kfmclient exec file:/home/weis/data/test.html Netscape\n"
 "             // Opens the file with netscape\n"
@@ -201,7 +215,7 @@ msgstr ""
 "             // Maak die lêer met Netscape oop\n"
 "\n"
 
-#: kfmclient.cc:119
+#: kfmclient.cc:126
 msgid ""
 "  kfmclient exec ftp://localhost/\n"
 "             // Opens new window with URL\n"
@@ -211,7 +225,7 @@ msgstr ""
 "             // Maak nuwe venster vir URL oop\n"
 "\n"
 
-#: kfmclient.cc:121
+#: kfmclient.cc:128
 msgid ""
 "  kfmclient exec file:/root/Desktop/emacs.desktop\n"
 "             // Starts emacs\n"
@@ -221,7 +235,7 @@ msgstr ""
 "             // Loop emacs\n"
 "\n"
 
-#: kfmclient.cc:123
+#: kfmclient.cc:130
 msgid ""
 "  kfmclient exec file:/root/Desktop/cdrom.desktop\n"
 "             // Opens the CD-ROM's mount directory\n"
@@ -231,7 +245,7 @@ msgstr ""
 "             // Maak die CDROM se heggids oop\n"
 "\n"
 
-#: kfmclient.cc:125
+#: kfmclient.cc:132
 #, fuzzy
 msgid ""
 "  kfmclient exec .\n"
@@ -242,20 +256,20 @@ msgstr ""
 "             // Maak die CDROM se heggids oop\n"
 "\n"
 
-#: kfmclient.cc:171
+#: kfmclient.cc:222
 msgid "Profile %1 not found\n"
 msgstr ""
 
-#: kfmclient.cc:222
+#: kfmclient.cc:253
 #, fuzzy
 msgid "Syntax Error: Not enough arguments\n"
 msgstr "Sintaksfout: Te min parameters\n"
 
-#: kfmclient.cc:227
+#: kfmclient.cc:258
 msgid "Syntax Error: Too many arguments\n"
 msgstr "Sintaksfout: Te veel parameters\n"
 
-#: kfmclient.cc:348
+#: kfmclient.cc:391
 #, fuzzy
 msgid "Syntax Error: Unknown command '%1'\n"
 msgstr "Sintaksfout: Onbekende instruksie '%s'\n"
