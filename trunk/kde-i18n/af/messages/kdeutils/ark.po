@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark VERSION\n"
-"POT-Creation-Date: 2002-10-28 03:06+0100\n"
+"POT-Creation-Date: 2004-01-13 01:34+0100\n"
 "PO-Revision-Date: 2002-11-07 11:40+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,23 +25,15 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: adddlg.cpp:54 arkwidget.cpp:1461
-msgid "Select Directory to Add"
-msgstr "Kies Gids na Voeg by"
-
-#: adddlg.cpp:60 arkwidget.cpp:1380
-msgid "Select Files to Add"
-msgstr "Kies Lêers na Voeg by"
-
-#: ar.cpp:114 ar.cpp:133 ar.cpp:193 ar.cpp:251 ar.cpp:285
-#: compressedfile.cpp:169 compressedfile.cpp:287 lha.cpp:158 lha.cpp:263
-#: lha.cpp:314 lha.cpp:348 rar.cpp:145 rar.cpp:251 rar.cpp:321 rar.cpp:355
-#: tar.cpp:277 tar.cpp:657 tar.cpp:738 tar.cpp:779 zip.cpp:123 zip.cpp:226
-#: zip.cpp:290 zip.cpp:325 zoo.cpp:126 zoo.cpp:224 zoo.cpp:289 zoo.cpp:323
+#: ar.cpp:111 ar.cpp:130 ar.cpp:192 ar.cpp:249 ar.cpp:283
+#: compressedfile.cpp:206 compressedfile.cpp:318 lha.cpp:162 lha.cpp:267
+#: lha.cpp:318 lha.cpp:352 rar.cpp:124 rar.cpp:230 rar.cpp:290 rar.cpp:324
+#: tar.cpp:247 tar.cpp:667 tar.cpp:759 tar.cpp:806 zip.cpp:120 zip.cpp:223
+#: zip.cpp:287 zip.cpp:322 zoo.cpp:129 zoo.cpp:227 zoo.cpp:292 zoo.cpp:326
 msgid "Couldn't start a subprocess."
 msgstr ""
 
-#: arch.cpp:167 arch.cpp:240 compressedfile.cpp:187 zip.cpp:343
+#: arch.cpp:165 arch.cpp:238 compressedfile.cpp:224 zip.cpp:340
 msgid ""
 "You probably don't have sufficient permissions.\n"
 "Please check the file owner and the integrity of the archive."
@@ -49,11 +41,12 @@ msgstr ""
 "Jy waarskynlik moet nie het voldoende regte.\n"
 "Asseblief bevestig die lêer eienaar en die integriteit van die argief."
 
-#: arch.cpp:179
-msgid "Deletion failed"
+#: arch.cpp:177
+#, fuzzy
+msgid "The deletion failed."
 msgstr "Uitveeïng gevaal"
 
-#: arch.cpp:208
+#: arch.cpp:206
 msgid ""
 "The extract operation failed.\n"
 "Do you wish to view the shell output?"
@@ -61,7 +54,7 @@ msgstr ""
 "Die uitpak operasie gevaal.\n"
 "Doen jy wens na besigtig Die tolk uitset?"
 
-#: arch.cpp:251
+#: arch.cpp:249
 msgid ""
 "The add operation failed.\n"
 "Do you wish to view the shell output?"
@@ -69,163 +62,141 @@ msgstr ""
 "Die voeg by operasie gevaal.\n"
 "Doen jy wens na besigtig Die tolk uitset?"
 
-#: ark_part.cpp:98
+#: archiveformatdlg.cpp:32
+msgid "Choose Archive Format"
+msgstr ""
+
+#: archiveformatdlg.cpp:38
+msgid ""
+"This file appears to be of type %1,\n"
+"which is not a supported archive format.\n"
+"In order to proceed, please choose the format\n"
+"of the file."
+msgstr ""
+
+#: archiveformatdlg.cpp:43
+msgid ""
+"You are about to open a file that has a non-standard extension.\n"
+"Ark has detected the format: %1\n"
+"If this is not correct, please choose the appropriate format."
+msgstr ""
+
+#: archiveformatinfo.cpp:68
+#, fuzzy
+msgid "Compressed File"
+msgstr "Eenvoudige Saamgepersde Argief"
+
+#: archiveformatinfo.cpp:106
+#, fuzzy
+msgid ""
+"All Valid Archives\n"
+msgstr "Stoor Argief As"
+
+#: archiveformatinfo.cpp:107
+#, fuzzy
+msgid "All Files"
+msgstr " Lêer "
+
+#: ark_part.cpp:39
 msgid "ark"
 msgstr "ark"
 
-#: ark_part.cpp:100
+#: ark_part.cpp:41
 msgid "Ark KParts Component"
 msgstr "Ark Kparts Komponent"
 
-#: ark_part.cpp:133
-msgid "&Extract"
-msgstr "Uitpak"
+#: ark_part.cpp:43 main.cpp:71
+#, fuzzy
+msgid "(c) 1997-2003, The Various Ark Developers"
+msgstr "(c) 1997-2002, Die Verskeie Ark Ontwikkelaars"
 
-#: arksettings.cpp:509
-msgid ""
-"*|All Files\n"
-"*.zip *.xpi *.tar.gz *.tar.Z *.tar.lzo *.tgz *.taz *.tzo *.tar.bz2 *.tar.bz "
-"*.tar *.lzh *.gz *.lzo *.Z *.bz *.bz2 *.zoo *.rar *.a|All valid archives "
-"with extensions\n"
-" *.tar.gz *.tar.Z *.tgz *.taz *.tzo *.tar.bz2 *.tar.bz *.tar.lzo *.tar |Tar "
-"archives (*.tar, *.tar.gz, *.tar.Z, *.tar.bz2, etc.)\n"
-"*.gz *.bz *.bz2 *.lzo *.Z|Compressed Files (*.gz *.bz *.bz2 *.lzo *.Z)\n"
-"*.zip *.xpi|Zip archives (*.zip, *.xpi)\n"
-"*.lzh|Lha archives with extension lzh\n"
-"*.zoo|Zoo archives (*.zoo)\n"
-"*.rar|Rar archives with extension rar\n"
-"*.a|Ar archives with extension a\n"
-msgstr ""
-"*|Alle Lêers\n"
-"*.zip *.xpi *.tar.gz *.tar.Z *.tar.lzo *.tgz *.taz *.tzo *.tar.bz2 *.tar.bz "
-"*.tar *.lzh *.gz *.lzo *.Z *.bz *.bz2 *.zoo *.rar *.'n|Alle geldige argiewe "
-"met uitbreidings\n"
-" *.tar.gz *.tar.Z *.tgz *.taz *.tzo *.tar.bz2 *.tar.bz *.tar.lzo *.tar |tar "
-"argiewe (*.tar, *.tar.gz, *.tar.Z, *.tar.bz2, etc.)\n"
-"*.gz *.bz *.bz2 *.lzo *.Z|Saamgepersde Lêers (*.gz *.bz *.bz2 *.lzo *.Z)\n"
-"*.zip *.xpi|zip argiewe (*.zip, *.xpi)\n"
-"*.lzh|Lha argiewe met uitbreiding lzh\n"
-"*.zoo|zoo argiewe (*.zoo)\n"
-"*.rar|rar argiewe met uitbreiding rar\n"
-"*.'n|Ar argiewe met uitbreiding 'n\n"
-
-#: arkwidget.cpp:116
-#, c-format
-msgid "You do not have permission to write to the directory %1"
-msgstr "Jy doen nie het reg na skryf na die gids %1"
-
-#: arkwidget.cpp:134 arkwidgetpart.cpp:95
-msgid "You have run out of disk space."
-msgstr "Jy het hardloop uit van disket spasie."
-
-#: arkwidget.cpp:208
-msgid "New &Window"
-msgstr "Nuwe Venster"
-
-#: arkwidget.cpp:214
-msgid "Re&load"
-msgstr "Herlaai"
-
-#: arkwidget.cpp:222
+#: ark_part.cpp:105
 msgid "&View Shell Output"
 msgstr "Besigtig Tolk Uitset"
 
-#: arkwidget.cpp:227
+#: ark_part.cpp:108
 msgid "Add &File..."
 msgstr "Voeg by Lêer..."
 
-#: arkwidget.cpp:230
-msgid "Add &Directory..."
-msgstr "Voeg by Gids..."
+#: ark_part.cpp:111
+#, fuzzy
+msgid "Add Folde&r..."
+msgstr "Voeg by Lêer..."
 
-#: arkwidget.cpp:233
+#: ark_part.cpp:114
 msgid "E&xtract..."
 msgstr "Uitpak..."
 
-#: arkwidget.cpp:236
+#: ark_part.cpp:117
 msgid "De&lete"
 msgstr "Uitvee"
 
-#: arkwidget.cpp:239 arkwidget.cpp:242
+#: ark_part.cpp:120
 msgid ""
 "_: to view something\n"
 "&View"
 msgstr "Besigtig"
 
-#: arkwidget.cpp:245 arkwidget.cpp:248
+#: ark_part.cpp:124
 msgid "&Open With..."
 msgstr "Open Met..."
 
-#: arkwidget.cpp:251 arkwidget.cpp:254
+#: ark_part.cpp:128
 msgid "Edit &With..."
 msgstr "Redigeer Met..."
 
-#: arkwidget.cpp:257
+#: ark_part.cpp:131
 msgid "&Select..."
 msgstr "Kies..."
 
-#: arkwidget.cpp:263
+#: ark_part.cpp:137
 msgid "&Deselect All"
 msgstr "Ontkies Alle"
 
-#: arkwidget.cpp:266
+#: ark_part.cpp:140
 msgid "&Invert Selection"
 msgstr "Omkeer Keuse"
 
-#: arkwidget.cpp:336
-msgid ""
-"The statusbar shows you how many files you have and how many you have "
-"selected. It also shows you total sizes for these groups of files."
+#: ark_part.cpp:144
+msgid "Configure &Ark..."
 msgstr ""
-"Die statusbalk vertoon jy hoe veel lêers jy het en hoe veel jy het gekose. "
-"Dit asook vertoon jy totaal grotes vir hierdie groepe van lêers."
 
-#: arkwidget.cpp:341 arkwidget.cpp:1981
-msgid "0 files selected"
-msgstr "0 lêers gekose"
+#: ark_part.cpp:277
+msgid ""
+"The archive \"%1\" has been modified.\n"
+"Do you want to save it?"
+msgstr ""
 
-#: arkwidget.cpp:346
+#: ark_part.cpp:279
+#, fuzzy
+msgid "Save Archive?"
+msgstr "Stoor Argief As"
+
+#: ark_part.cpp:350
 msgid "Total: 0 files"
 msgstr "Totaal: 0 lêers"
 
-#: arkwidget.cpp:406
-msgid ""
-"_n: %n file  %1\n"
-"%n files  %1"
+#: ark_part.cpp:355 arkwidget.cpp:1933
+msgid "0 files selected"
+msgstr "0 lêers gekose"
+
+#: arkapp.cpp:149
+msgid "Wrong number of arguments specified"
 msgstr ""
-"%n lêer  %1\n"
-"%n lêers  %1"
 
-#: arkwidget.cpp:428
-msgid "Save Archive As"
-msgstr "Stoor Argief As"
-
-#: arkwidget.cpp:441
-msgid ""
-"Please save your archive in the same format as the original.\n"
-"Hint: Use the same extension."
+#: arkapp.cpp:158 arkapp.cpp:203
+msgid "You need to specify at least one file to be added to the archive."
 msgstr ""
-"Asseblief stoor jou argief in die selfde formaat as die oorspronklike.\n"
-"Leidraad: Gebruik die selfde uitbreiding."
 
-#: arkwidget.cpp:502 arkwidgetpart.cpp:161
-msgid "The archive %1 does not exist."
-msgstr "Die argief %1 doen nie bestaan."
+#: arktoplevelwindow.cpp:109
+msgid "New &Window"
+msgstr "Nuwe Venster"
 
-#: arkwidget.cpp:506 arkwidgetpart.cpp:165
-#, c-format
-msgid "Cannot access the archive %1"
-msgstr "Kan nie toegang verkry die argief %1"
+#: arktoplevelwindow.cpp:115
+msgid "Re&load"
+msgstr "Herlaai"
 
-#: arkwidget.cpp:510
-msgid "Unknown error"
-msgstr "Onbekende fout"
-
-#: arkwidget.cpp:534
-msgid "You don't have permission to access that archive."
-msgstr "Jy moet nie het reg na toegang verkry wat argief."
-
-#: arkwidget.cpp:559
+#: arktoplevelwindow.cpp:222
 msgid ""
 "The archive %1 is already open and has been raised.\n"
 "Note: if the filename does not match, it only means that one of the two is a "
@@ -235,69 +206,116 @@ msgstr ""
 "Nota: as Die lêernaam doen nie ooreenstem, dit slegs beteken wat een van "
 "Die twee is 'n simboliese skakel."
 
-#: arkwidget.cpp:687
+#: arktoplevelwindow.cpp:245
+#, fuzzy
+msgid "Open &as:"
+msgstr "Open met:"
+
+#: arktoplevelwindow.cpp:253
+msgid "Autodetect (default)"
+msgstr ""
+
+#: arktoplevelwindow.cpp:422
+#, fuzzy
+msgid "Select Archive to Add Files To"
+msgstr "Kies Lêers na Voeg by"
+
+#: arkutils.cpp:191
+msgid "You have run out of disk space."
+msgstr "Jy het hardloop uit van disket spasie."
+
+#: arkwidget.cpp:122
+msgid ""
+"_n: %n file  %1\n"
+"%n files  %1"
+msgstr ""
+"%n lêer  %1\n"
+"%n lêers  %1"
+
+#: arkwidget.cpp:196
+msgid "Save Archive As"
+msgstr "Stoor Argief As"
+
+#: arkwidget.cpp:201
+#, fuzzy
+msgid ""
+"Please save your archive in the same format as the original.\n"
+"Hint: Use one of the suggested extensions."
+msgstr ""
+"Asseblief stoor jou argief in die selfde formaat as die oorspronklike.\n"
+"Leidraad: Gebruik die selfde uitbreiding."
+
+#: arkwidget.cpp:219
+msgid "Saving..."
+msgstr ""
+
+#: arkwidget.cpp:354
+#, fuzzy, c-format
+msgid "Could not create the folder %1"
+msgstr "Skep gids %1?"
+
+#: arkwidget.cpp:390
+#, fuzzy, c-format
+msgid "An error occurred while opening the archive %1."
+msgstr "Probleme om te skryf na die argief..."
+
+#: arkwidget.cpp:422
+msgid ""
+"None of the files in the archive have been\n"
+"extracted since all of them already exist."
+msgstr ""
+
+#: arkwidget.cpp:428
+msgid ""
+"The following files will not be extracted\n"
+"because they already exist:"
+msgstr ""
+
+#: arkwidget.cpp:443 arkwidget.cpp:553
+msgid "Not enough free disc space to extract the archive."
+msgstr ""
+
+#: arkwidget.cpp:457
+#, fuzzy
+msgid "An error occurred while extracting the archive."
+msgstr "Probleme om te skryf na die argief..."
+
+#: arkwidget.cpp:582
+#, fuzzy
+msgid "An error occurred while adding the files to the archive."
+msgstr "Probleme om te skryf na die argief..."
+
+#: arkwidget.cpp:622 arkwidgetpart.cpp:100
+msgid "The archive %1 does not exist."
+msgstr "Die argief %1 doen nie bestaan."
+
+#: arkwidget.cpp:628
+#, fuzzy
+msgid "You do not have permission to access that archive."
+msgstr "Jy doen nie het reg na toegang verkry wat argief"
+
+#: arkwidget.cpp:671
+msgid "Archive &format:"
+msgstr ""
+
+#: arkwidget.cpp:713
 msgid "Archive already exists. Do you wish to overwrite it?"
 msgstr "Argief alreeds bestaan. Doen jy wens na oorskryf dit?"
 
-#: arkwidget.cpp:687
+#: arkwidget.cpp:714
 msgid "Archive Already Exists"
 msgstr "Argief Alreeds Bestaan"
 
-#: arkwidget.cpp:710
-msgid ""
-"You need to create an archive, not a new\n"
-"compressed file. Please try again."
-msgstr ""
-"Jy benodig na skep 'n argief, nie 'n nuwe\n"
-"saamgepersde lêer. Asseblief probeer weer."
+#: arkwidget.cpp:734
+#, c-format
+msgid "You do not have permission to write to the directory %1"
+msgstr "Jy doen nie het reg na skryf na die gids %1"
 
-#: arkwidget.cpp:723
-msgid ""
-"Your file is missing an extension to indicate the archive type.\n"
-"Is it OK to create a file of the default type (%1)?"
-msgstr ""
-"Jou lêer Is kort 'n uitbreiding na aandui die argief tipe.\n"
-"Is dit Goed na skep 'n lêer van die verstek tipe (%1)?"
-
-#: arkwidget.cpp:745 arkwidget.cpp:1340
+#: arkwidget.cpp:747 arkwidget.cpp:996
 msgid "Create New Archive"
 msgstr "Skep Nuwe Argief"
 
-#: arkwidget.cpp:783
-msgid ""
-"ark cannot create an archive of that type.\n"
-"\n"
-"  [Hint: The filename should have an extension such as '.zip' to\n"
-"  indicate the archive type. Please see the help pages for\n"
-"more information on supported archive formats.]"
-msgstr ""
-"ark kan nie skep 'n argief van wat tipe.\n"
-"\n"
-"  [Leidraad: Die lêernaam moet het 'n uitbreiding soos as '.zip' na\n"
-"  aandui Die argief tipe. Asseblief sien Die hulp bladsye vir\n"
-"meer informasie op ondersteunde argief formate.]"
-
-#: arkwidget.cpp:826 arkwidgetpart.cpp:260
-msgid ""
-"This archive is read-only. If you want to save it under a new name, go to "
-"the File menu and select Save As."
-msgstr ""
-"Hierdie argief is lees-alleen. As jy wil hê na stoor dit onder 'n nuwe "
-"naam, gaan na die Lêer kieslys en kies stoor As."
-
-#: arkwidget.cpp:895
-msgid "Edit with:"
-msgstr "Redigeer met:"
-
-#: arkwidget.cpp:904
-msgid "Trouble editing the file..."
-msgstr "Probleme redigering die lêer..."
-
-#: arkwidget.cpp:923
-msgid "Open with:"
-msgstr "Open met:"
-
-#: arkwidget.cpp:1336
+#: arkwidget.cpp:993
 msgid ""
 "You are currently working with a simple compressed file.\n"
 "Would you like to make it into an archive so that it can contain multiple "
@@ -309,19 +327,52 @@ msgstr ""
 "veelvuldige lêers?\n"
 "As sodat, Jy moet kies 'n naam vir jou nuwe argief."
 
-#: arkwidget.cpp:1534
+#: arkwidget.cpp:1008 arkwidget.cpp:2203
+#, fuzzy
+msgid "Creating archive..."
+msgstr "Probleme om te skryf na die argief..."
+
+#: arkwidget.cpp:1112
+msgid "Select Files to Add"
+msgstr "Kies Lêers na Voeg by"
+
+#: arkwidget.cpp:1149
+#, fuzzy
+msgid "Adding files..."
+msgstr "Voeg by Lêer..."
+
+#: arkwidget.cpp:1170
+#, fuzzy
+msgid "Select Folder to Add"
+msgstr "Kies Lêers na Voeg by"
+
+#: arkwidget.cpp:1175
+#, fuzzy
+msgid "Adding folder..."
+msgstr "Voeg by Lêer..."
+
+#: arkwidget.cpp:1279
+#, fuzzy
 msgid ""
-"If you delete a directory in a Tar archive, all the files in that\n"
-"directory will also be deleted. Are you sure you wish to proceed?"
+"If you delete a folder in a Tar archive, all the files in that\n"
+"folder will also be deleted. Are you sure you wish to proceed?"
 msgstr ""
 "As jy uitvee 'n gids in 'n Tar argief, alle die lêers in wat\n"
 "gids sal asook wees uitgevee. Word jy seker jy wens na gaan voort?"
 
-#: arkwidget.cpp:1544
+#: arkwidget.cpp:1289
 msgid "Do you really want to delete the selected items?"
 msgstr "Doen jy rerig wil hê na uitvee die gekose iteme?"
 
-#: arkwidget.cpp:1673 arkwidgetpart.cpp:424
+#: arkwidget.cpp:1326
+msgid "Removing..."
+msgstr ""
+
+#: arkwidget.cpp:1372
+msgid "Open with:"
+msgstr "Open met:"
+
+#: arkwidget.cpp:1432 arkwidgetpart.cpp:334
 msgid ""
 "%1 will not be extracted because it will overwrite an existing file.\n"
 "Go back to Extract Dialog?"
@@ -329,26 +380,55 @@ msgstr ""
 "%1 sal nie wees uitgepak omdat dit sal oorskryf 'n bestaande lêer.\n"
 "Gaan terug na Uitpak Dialoog?"
 
-#: arkwidget.cpp:1691
+#: arkwidget.cpp:1503
 msgid "The archive to extract from no longer exists."
 msgstr "Die argief na uitpak van nee langer bestaan."
 
-#: arkwidget.cpp:1985
+#: arkwidget.cpp:1599 arkwidget.cpp:1648 arkwidget.cpp:1688
+#, fuzzy
+msgid "Extracting..."
+msgstr "Uitpak..."
+
+#: arkwidget.cpp:1716
+msgid "Edit with:"
+msgstr "Redigeer met:"
+
+#: arkwidget.cpp:1727
+msgid "Trouble editing the file..."
+msgstr "Probleme redigering die lêer..."
+
+#: arkwidget.cpp:1767
+#, fuzzy
+msgid "Readding edited file..."
+msgstr "Probleme redigering die lêer..."
+
+#: arkwidget.cpp:1786
+msgid "Extracting file to view"
+msgstr ""
+
+#: arkwidget.cpp:1799
+msgid ""
+"The file you're trying to view may be an executable. Running untrusted "
+"executables may compromise your system's security.\n"
+"Are you sure you want to view that file?"
+msgstr ""
+
+#: arkwidget.cpp:1937
 msgid "%1 files selected  %2"
 msgstr "%1 lêers gekose  %2"
 
-#: arkwidget.cpp:1991
+#: arkwidget.cpp:1943
 #, c-format
 msgid "1 file selected  %2"
 msgstr "1 lêer gekose  %2"
 
-#: arkwidget.cpp:2088
+#: arkwidget.cpp:2035
 msgid "Do you wish to add this to the current archive or open it as a new archive?"
 msgstr ""
 "Doen jy wens na voeg by hierdie na die huidige argief of open dit as 'n nuwe "
 "argief?"
 
-#: arkwidget.cpp:2136
+#: arkwidget.cpp:2092
 msgid ""
 "There is no archive currently open. Do you wish to create one now for these "
 "files?"
@@ -356,7 +436,7 @@ msgstr ""
 "Daar is nee argief huidiglik open. Doen jy wens na skep een nou vir hierdie "
 "lêers?"
 
-#: arkwidget.cpp:2137
+#: arkwidget.cpp:2093
 msgid ""
 "There is no archive currently open. Do you wish to create one now for this "
 "file?"
@@ -364,39 +444,11 @@ msgstr ""
 "Daar is nee argief huidiglik open. Doen jy wens na skep een nou vir hierdie "
 "lêer?"
 
-#: arkwidget.cpp:2166
-msgid " File "
-msgstr " Lêer "
-
-#: arkwidget.cpp:2167 common_texts.cpp:4
-msgid " Size "
-msgstr " Grootte "
-
-#: arkwidget.cpp:2174
-msgid "Archive directory does not exist."
-msgstr "Argief gids doen nie bestaan."
-
-#: arkwidget.cpp:2285 arkwidgetpart.cpp:707
-msgid "bzip does not support filename extensions that use capital letters."
-msgstr "bzip doen nie ondersteun lêernaam uitbreidings wat gebruik hoof letters."
-
-#: arkwidget.cpp:2289 arkwidgetpart.cpp:711
-msgid "bzip only supports filenames with the extension \".bz\"."
-msgstr "bzip slegs ondersteun lêername met die uitbreiding \".bz\"."
-
-#: arkwidget.cpp:2294 arkwidgetpart.cpp:715
-msgid "bzip2 does not support filename extensions that use capital letters."
-msgstr "bzip2 doen nie ondersteun lêernaam uitbreidings wat gebruik hoof letters."
-
-#: arkwidget.cpp:2299 arkwidgetpart.cpp:719
-msgid "bzip2 only supports filenames with the extension \".bz2\"."
-msgstr "bzip2 slegs ondersteun lêername met die uitbreiding \".bz2\"."
-
-#: arkwidget.cpp:2325 arkwidget.cpp:2384 arkwidgetpart.cpp:767
+#: arkwidget.cpp:2176 arkwidget.cpp:2283 arkwidgetpart.cpp:674
 msgid "Unknown archive format or corrupted archive"
 msgstr "Onbekende argief formaat of beskadigde argief"
 
-#: arkwidget.cpp:2331 arkwidget.cpp:2397 arkwidgetpart.cpp:780
+#: arkwidget.cpp:2182 arkwidget.cpp:2289 arkwidgetpart.cpp:687
 msgid ""
 "The utility %1 is not in your PATH.\n"
 "Please install it or contact your system administrator."
@@ -404,27 +456,59 @@ msgstr ""
 "Die program %1 is nie in jou Gids soeklys.\n"
 "Asseblief installeer dit of kontak jou stelsel administrateur."
 
-#: arkwidget.cpp:2374
-msgid "Gzip archives need to have the extension `gz'."
-msgstr "Gzip argiewe benodig na het die uitbreiding `gz'."
+#: arkwidget.cpp:2238
+#, fuzzy
+msgid "An error occurred while trying to create the archive."
+msgstr "Probleme om te skryf na die argief..."
 
-#: arkwidget.cpp:2379
-msgid "Zoo archives need to have the extension `zoo'."
-msgstr "Zoo argiewe benodig na het die uitbreiding `Zoo'."
+#: arkwidget.cpp:2300
+#, fuzzy
+msgid "Opening the archive..."
+msgstr "Probleme om te skryf na die argief..."
 
-#: arkwidgetpart.cpp:169
-msgid "Unknown error."
-msgstr "Onbekende fout."
+#: arkwidget.cpp:2323 arkwidgetpart.cpp:172
+msgid ""
+"This archive is read-only. If you want to save it under a new name, go to "
+"the File menu and select Save As."
+msgstr ""
+"Hierdie argief is lees-alleen. As jy wil hê na stoor dit onder 'n nuwe "
+"naam, gaan na die Lêer kieslys en kies stoor As."
 
-#: arkwidgetpart.cpp:192
-msgid "You do not have permission to access that archive"
-msgstr "Jy doen nie het reg na toegang verkry wat argief"
+#: arkwidget.cpp:2340
+#, fuzzy, c-format
+msgid "An error occurred while trying to open the archive %1"
+msgstr "Probleme om te skryf na die argief..."
 
-#: arkwidgetpart.cpp:757
+#: arkwidgetpart.cpp:56
+#, fuzzy
+msgid "Ark Kparts"
+msgstr "Ark Kparts Komponent"
+
+#: arkwidgetpart.cpp:105
+msgid "You don't have permission to access that archive."
+msgstr "Jy moet nie het reg na toegang verkry wat argief."
+
+#: arkwidgetpart.cpp:614
+msgid "bzip does not support filename extensions that use capital letters."
+msgstr "bzip doen nie ondersteun lêernaam uitbreidings wat gebruik hoof letters."
+
+#: arkwidgetpart.cpp:618
+msgid "bzip only supports filenames with the extension \".bz\"."
+msgstr "bzip slegs ondersteun lêername met die uitbreiding \".bz\"."
+
+#: arkwidgetpart.cpp:622
+msgid "bzip2 does not support filename extensions that use capital letters."
+msgstr "bzip2 doen nie ondersteun lêernaam uitbreidings wat gebruik hoof letters."
+
+#: arkwidgetpart.cpp:626
+msgid "bzip2 only supports filenames with the extension \".bz2\"."
+msgstr "bzip2 slegs ondersteun lêername met die uitbreiding \".bz2\"."
+
+#: arkwidgetpart.cpp:664
 msgid "Gzip archives need to have an extension `gz'."
 msgstr "Gzip argiewe benodig na het 'n uitbreiding `gz'."
 
-#: arkwidgetpart.cpp:762
+#: arkwidgetpart.cpp:669
 msgid "Zoo archives need to have an extension `zoo'."
 msgstr "Zoo argiewe benodig na het 'n uitbreiding `Zoo'."
 
@@ -439,6 +523,10 @@ msgstr " Regte "
 #: common_texts.cpp:3
 msgid " Owner/Group "
 msgstr " Eienaar/Groep "
+
+#: common_texts.cpp:4
+msgid " Size "
+msgstr " Grootte "
 
 #: common_texts.cpp:5
 msgid " Timestamp "
@@ -479,27 +567,31 @@ msgid " Group "
 msgstr " Groep "
 
 #: common_texts.cpp:14
+#, fuzzy
 msgid ""
 "_: (used as part of a sentence)\n"
-"start-up directory"
+"start-up folder"
 msgstr "begin gids"
 
 #: common_texts.cpp:15
+#, fuzzy
 msgid ""
-"_: directory for opening files (used as part of a sentence)\n"
-"open directory"
+"_: folder for opening files (used as part of a sentence)\n"
+"open folder"
 msgstr "open gids"
 
 #: common_texts.cpp:16
+#, fuzzy
 msgid ""
-"_: directory for extracting files (used as part of a sentence)\n"
-"extract directory"
+"_: folder for extracting files (used as part of a sentence)\n"
+"extract folder"
 msgstr "uitpak gids"
 
 #: common_texts.cpp:17
+#, fuzzy
 msgid ""
-"_: directory for adding files (used as part of a sentence)\n"
-"add directory"
+"_: folder for adding files (used as part of a sentence)\n"
+"add folder"
 msgstr "voeg by gids"
 
 #: common_texts.cpp:19
@@ -515,8 +607,8 @@ msgid "&Extracting"
 msgstr "Uitgepak"
 
 #: common_texts.cpp:22
-msgid "&Directories"
-msgstr "Gidse"
+msgid "&Folders"
+msgstr ""
 
 #: common_texts.cpp:23
 msgid "Add Settings"
@@ -530,47 +622,50 @@ msgstr "Uitpak Instellings"
 msgid "Replace &old files only with newer files"
 msgstr "Vervang ou lêers slegs met nuwer lêers"
 
-#: common_texts.cpp:26
+#: common_texts.cpp:26 generalOptDlg.cpp:78
 msgid "Keep entries &generic (Lha)"
 msgstr "Hou inskrywings generies (Lha)"
 
-#: common_texts.cpp:27
+#: common_texts.cpp:27 generalOptDlg.cpp:79
 msgid "Force &MS-DOS short filenames (Zip)"
 msgstr "Forseer MS-DOS kort lêername (Zip)"
 
 #: common_texts.cpp:28
-msgid "Tranlate LF to DOS &CRLF (Zip)"
+#, fuzzy
+msgid "Translate LF to DOS &CRLF (Zip)"
 msgstr "Vertaal Lf na Dos Crlf (Zip)"
 
-#: common_texts.cpp:29
-msgid "&Recursively add subdirectories (Zip, Rar)"
+#: common_texts.cpp:29 generalOptDlg.cpp:82
+#, fuzzy
+msgid "&Recursively add subfolders (Zip, Rar)"
 msgstr "Rekursief voeg by sub-gidse (Zip, Rar)"
 
-#: common_texts.cpp:30
+#: common_texts.cpp:30 generalOptDlg.cpp:81
 msgid "&Store symlinks as links (Zip, Rar)"
 msgstr "Stoor simboliese skakels as skakel (Zip, Rar)"
 
-#: common_texts.cpp:31
+#: common_texts.cpp:31 generalOptDlg.cpp:102
 msgid "O&verwrite files (Zip, Tar, Zoo, Rar)"
 msgstr "Oorskryf lêers (Zip, Tar, Zoo, Rar)"
 
-#: common_texts.cpp:32
+#: common_texts.cpp:32 generalOptDlg.cpp:103
 msgid "&Preserve permissions (Tar)"
 msgstr "Behou regte (Tar)"
 
-#: common_texts.cpp:33
-msgid "&Ignore directory names (Zip)"
+#: common_texts.cpp:33 generalOptDlg.cpp:104
+#, fuzzy
+msgid "&Ignore folder names (Zip)"
 msgstr "Ignoreer gids name (Zip)"
 
-#: common_texts.cpp:34
+#: common_texts.cpp:34 generalOptDlg.cpp:105
 msgid "Convert filenames to &lowercase (Zip, Rar)"
 msgstr "Skakel om lêername na kleinletters (Zip, Rar)"
 
-#: common_texts.cpp:35
+#: common_texts.cpp:35 generalOptDlg.cpp:106
 msgid "Convert filenames to &uppercase (Rar)"
 msgstr "Skakel om lêername na hoofletters (Rar)"
 
-#: compressedfile.cpp:66
+#: compressedfile.cpp:71
 msgid ""
 "You are creating a simple compressed archive which contains only one input "
 "file.\n"
@@ -585,15 +680,11 @@ msgstr ""
 "As Jy voeg by meer lêers Jy sal wees gepor na skakel om dit na 'n egte "
 "argief."
 
-#: compressedfile.cpp:69
+#: compressedfile.cpp:74
 msgid "Simple Compressed Archive"
 msgstr "Eenvoudige Saamgepersde Argief"
 
-#: compressedfile.cpp:195
-msgid "Open failed"
-msgstr "Open gevaal"
-
-#: compressedfile.cpp:302 tar.cpp:158 tar.cpp:173
+#: compressedfile.cpp:333 tar.cpp:154 tar.cpp:171
 msgid "Trouble writing to the archive..."
 msgstr "Probleme om te skryf na die argief..."
 
@@ -609,73 +700,87 @@ msgstr "Gekose lêers"
 msgid "Files: "
 msgstr "Lêers: "
 
-#: dirDlg.cpp:58
-msgid "Favorite directory"
+#: dirDlg.cpp:56
+#, fuzzy
+msgid "Favorite folder:"
 msgstr "Gunsteling gids"
 
-#: dirDlg.cpp:96
-msgid "Fixed start-up directory"
+#: dirDlg.cpp:94
+#, fuzzy
+msgid "Fixed start-up folder:"
 msgstr "Vasgemaakte begin gids"
 
-#: dirDlg.cpp:97
-msgid "&Last start-up directory"
+#: dirDlg.cpp:95
+#, fuzzy
+msgid "&Last start-up folder"
 msgstr "Laaste begin gids"
 
-#: dirDlg.cpp:102
-msgid "Fixed open directory"
+#: dirDlg.cpp:100
+#, fuzzy
+msgid "Fixed open folder:"
 msgstr "Vasgemaakte open gids"
 
-#: dirDlg.cpp:103
-msgid "&Last open directory"
+#: dirDlg.cpp:101
+#, fuzzy
+msgid "&Last open folder"
 msgstr "Laaste open gids"
 
-#: dirDlg.cpp:108
-msgid "Fixed extract directory"
+#: dirDlg.cpp:106
+#, fuzzy
+msgid "Fixed extract folder:"
 msgstr "Vasgemaakte uitpak gids"
 
-#: dirDlg.cpp:109
-msgid "&Last extract directory"
+#: dirDlg.cpp:107
+#, fuzzy
+msgid "&Last extract folder"
 msgstr "Laaste uitpak gids"
 
-#: dirDlg.cpp:114
-msgid "Fixed add directory"
+#: dirDlg.cpp:112
+#, fuzzy
+msgid "Fixed add folder:"
 msgstr "Vasgemaakte voeg by gids"
 
-#: dirDlg.cpp:115
-msgid "&Last add directory"
+#: dirDlg.cpp:113
+#, fuzzy
+msgid "&Last add folder"
 msgstr "Laaste voeg by gids"
 
-#: dirDlg.cpp:139
-msgid "Directories:"
-msgstr "Gidse:"
+#: dirDlg.cpp:137
+#, fuzzy
+msgid "Folders:"
+msgstr "Lêers: "
 
-#: dirDlg.cpp:143
-msgid "Start-up directory"
+#: dirDlg.cpp:141
+#, fuzzy
+msgid "Start-Up Folder"
 msgstr "Begin gids"
 
-#: dirDlg.cpp:144
+#: dirDlg.cpp:142
+#, fuzzy
 msgid ""
-"_: directory for opening files\n"
-"Open Directory"
+"_: folder for opening files\n"
+"Open Folder"
 msgstr "Open Gids"
 
-#: dirDlg.cpp:145
+#: dirDlg.cpp:143
+#, fuzzy
 msgid ""
-"_: directory for extracting files\n"
-"Extract Directory"
+"_: folder for extracting files\n"
+"Extract Folder"
 msgstr "Uitpak Gids"
 
-#: dirDlg.cpp:146
+#: dirDlg.cpp:144
+#, fuzzy
 msgid ""
-"_: directory for adding files\n"
-"Add Directory"
+"_: folder for adding files\n"
+"Add Folder"
 msgstr "Voeg by Gids"
 
-#: extractdlg.cpp:58
+#: extractdlg.cpp:56
 msgid "Extract"
 msgstr "Uitpak"
 
-#: extractdlg.cpp:78
+#: extractdlg.cpp:76
 msgid "Extract to:"
 msgstr "Uitpak na:"
 
@@ -692,44 +797,56 @@ msgid "All"
 msgstr "Alle"
 
 #: extractdlg.cpp:142
-msgid "Pattern"
+#, fuzzy
+msgid "Pattern:"
 msgstr "Patroon"
 
-#: extractdlg.cpp:214
-msgid "Create directory %1?"
+#: extractdlg.cpp:217
+#, fuzzy
+msgid "Create folder %1?"
 msgstr "Skep gids %1?"
 
-#: extractdlg.cpp:215
-msgid "Missing directory!"
+#: extractdlg.cpp:218
+#, fuzzy
+msgid "Missing folder!"
 msgstr "Kort gids!"
 
-#: extractdlg.cpp:224
-msgid "Directory could not be created. Please check permissions."
+#: extractdlg.cpp:227
+#, fuzzy
+msgid "The folder could not be created. Please check permissions."
 msgstr "Gids kon nie wees geskep. Asseblief bevestig regte."
 
-#: extractdlg.cpp:230
+#: extractdlg.cpp:233
+#, fuzzy
 msgid ""
-"You do not have write permission to this directory! Please provide another "
-"directory."
+"You do not have write permission to this folder! Please provide another "
+"folder."
 msgstr "Jy doen nie het skryf reg na hierdie gids! Asseblief verskaf nog 'n gids."
 
-#: extractdlg.cpp:244
+#: extractdlg.cpp:247
 msgid "Please provide a pattern"
 msgstr "Asseblief verskaf 'n patroon"
 
-#: extractdlg.cpp:307
+#: extractdlg.cpp:310
 msgid "Failure to Extract"
 msgstr "Vaaling na Uitpak"
 
-#: extractdlg.cpp:309
+#: extractdlg.cpp:312
+#, fuzzy
 msgid ""
-"Some files already exist in your destination directory.\n"
+"Some files already exist in your destination folder.\n"
 "The following files will not be extracted if you continue: "
 msgstr ""
 "Sommige lêers alreeds bestaan in jou bestemming gids.\n"
 "Die volgende lêers sal nie wees uitgepak as jy gaan voort: "
 
-#: filelistview.cpp:123
+#: filelistview.cpp:165
+msgid ""
+"_: Packed Ratio\n"
+"%1 %"
+msgstr ""
+
+#: filelistview.cpp:187
 msgid ""
 "This area is for displaying information about the files contained within an "
 "archive."
@@ -737,67 +854,100 @@ msgstr ""
 "Hierdie area is vir vertooning informasie aangaande die lêers versamel "
 "binne in 'n argief."
 
-#: filelistview.cpp:135
+#: filelistview.cpp:240
 msgid "No files in current archive"
 msgstr "Nee lêers in huidige argief"
 
-#: generalOptDlg.cpp:80
+#: generalOptDlg.cpp:58
 msgid "Addition"
 msgstr "Byvoeging"
 
-#: generalOptDlg.cpp:80
+#: generalOptDlg.cpp:58
 msgid "File Addition Settings"
 msgstr "Lêer Byvoeging Instellings"
 
-#: generalOptDlg.cpp:84
+#: generalOptDlg.cpp:62
 msgid "Extraction"
 msgstr ""
 
-#: generalOptDlg.cpp:84
+#: generalOptDlg.cpp:62
 msgid "Extraction Settings"
 msgstr ""
 
-#: generalOptDlg.cpp:88 kdirselectdialog.cpp:33
-msgid "Directories"
-msgstr "Gidse"
+#: generalOptDlg.cpp:66
+msgid "Folders"
+msgstr ""
 
-#: generalOptDlg.cpp:88
-msgid "Directory Settings"
-msgstr "Gids Instellings"
+#: generalOptDlg.cpp:66
+#, fuzzy
+msgid "Folder Settings"
+msgstr "Voeg by Instellings"
 
-#: kdirselect.cpp:62
-msgid "Directory"
-msgstr "Gids"
+#: generalOptDlg.cpp:77
+#, fuzzy
+msgid "Replace old files only &with newer files"
+msgstr "Vervang ou lêers slegs met nuwer lêers"
 
-#: main.cpp:60
+#: generalOptDlg.cpp:80
+#, fuzzy
+msgid "Translate &LF to DOS CRLF (Zip)"
+msgstr "Vertaal Lf na Dos Crlf (Zip)"
+
+#: main.cpp:51
 msgid "Open extract dialog, quit when finished."
 msgstr "Open uitpak dialoog, verlaat wanneer klaar gemaak."
 
+#: main.cpp:52
+msgid ""
+"Extract 'archive' to 'folder'. Quit when finished.\n"
+"'folder' will be created if it does not exist."
+msgstr ""
+
+#: main.cpp:54
+#, fuzzy
+msgid "Ask for the name of the archive to add 'files' to. Quit when finished."
+msgstr "Open uitpak dialoog, verlaat wanneer klaar gemaak."
+
+#: main.cpp:55
+msgid ""
+"Add 'files' to 'archive'. Quit when finished.\n"
+"'archive' will be created if it does not exist."
+msgstr ""
+
+#: main.cpp:57
+msgid ""
+"Used with '--extract-to'. When specified, 'archive'\n"
+"will be extracted to a subfolder of 'folder'\n"
+"whose name will be the name of 'archive' without the filename extension."
+msgstr ""
+
+#: main.cpp:60
+#, fuzzy
+msgid "Folder to extract to"
+msgstr "Vaaling na Uitpak"
+
 #: main.cpp:61
+#, fuzzy
+msgid "Files to be added"
+msgstr "Lêers na Wees Uitgepak"
+
+#: main.cpp:62
 msgid "Open 'archive'"
 msgstr "Open 'archive'"
 
-#: main.cpp:67
+#: main.cpp:68
 msgid "Ark"
 msgstr "Ark"
 
-#: main.cpp:68
+#: main.cpp:69
 msgid "KDE Archiving tool"
 msgstr "Kde Argiveer program"
 
-#: main.cpp:70
-msgid "(c) 1997-2002, The Various Ark Developers"
-msgstr "(c) 1997-2002, Die Verskeie Ark Ontwikkelaars"
-
-#: main.cpp:72
+#: main.cpp:73
 msgid "Current maintainer"
 msgstr "Huidige onderhouer"
 
-#: rc.cpp:1
-msgid "&Archive"
-msgstr "Argief"
-
-#: rc.cpp:4
+#: rc.cpp:3 rc.cpp:7
 msgid "&Action"
 msgstr "Aksie"
 
@@ -813,11 +963,11 @@ msgstr "Kies lêers:"
 msgid "Shell Output"
 msgstr "Tolk Uitset"
 
-#: tar.cpp:454
+#: tar.cpp:469
 msgid "I can't fork a decompressor"
 msgstr ""
 
-#: tar.cpp:476
+#: tar.cpp:498
 msgid "Trouble writing to the tempfile..."
 msgstr "Probleme om te skryf na die tydelike lêer..."
 
@@ -829,6 +979,119 @@ msgstr "ark - Uitgepak..."
 msgid "Please wait..."
 msgstr "Asseblief wag..."
 
-#: zip.cpp:349
+#: zip.cpp:346
 msgid "Test of integrity failed"
 msgstr "Toets van integriteit gevaal"
+
+#~ msgid "Add &Directory..."
+#~ msgstr "Voeg by Gids..."
+
+#~ msgid "Select Directory to Add"
+#~ msgstr "Kies Gids na Voeg by"
+
+#, fuzzy
+#~ msgid "Adding directory..."
+#~ msgstr "Voeg by Gids..."
+
+#~ msgid "&Directories"
+#~ msgstr "Gidse"
+
+#~ msgid "Directories:"
+#~ msgstr "Gidse:"
+
+#~ msgid "Directories"
+#~ msgstr "Gidse"
+
+#~ msgid "Directory Settings"
+#~ msgstr "Gids Instellings"
+
+#~ msgid ""
+#~ "The statusbar shows you how many files you have and how many you have "
+#~ "selected. It also shows you total sizes for these groups of files."
+#~ msgstr ""
+#~ "Die statusbalk vertoon jy hoe veel lêers jy het en hoe veel jy het "
+#~ "gekose. Dit asook vertoon jy totaal grotes vir hierdie groepe van lêers."
+
+#~ msgid ""
+#~ "ark cannot create an archive of that type.\n"
+#~ "\n"
+#~ "  [Hint: The filename should have an extension such as '.zip' to\n"
+#~ "  indicate the archive type. Please see the help pages for\n"
+#~ "more information on supported archive formats.]"
+#~ msgstr ""
+#~ "ark kan nie skep 'n argief van wat tipe.\n"
+#~ "\n"
+#~ "  [Leidraad: Die lêernaam moet het 'n uitbreiding soos as '.zip' na\n"
+#~ "  aandui Die argief tipe. Asseblief sien Die hulp bladsye vir\n"
+#~ "meer informasie op ondersteunde argief formate.]"
+
+#~ msgid ""
+#~ "You need to create an archive, not a new\n"
+#~ "compressed file. Please try again."
+#~ msgstr ""
+#~ "Jy benodig na skep 'n argief, nie 'n nuwe\n"
+#~ "saamgepersde lêer. Asseblief probeer weer."
+
+#~ msgid ""
+#~ "Your file is missing an extension to indicate the archive type.\n"
+#~ "Is it OK to create a file of the default type (%1)?"
+#~ msgstr ""
+#~ "Jou lêer Is kort 'n uitbreiding na aandui die argief tipe.\n"
+#~ "Is dit Goed na skep 'n lêer van die verstek tipe (%1)?"
+
+#~ msgid ""
+#~ "*|All Files\n"
+#~ "*.zip *.xpi *.tar.gz *.tar.Z *.tar.lzo *.tgz *.taz *.tzo *.tar.bz2 *.tar."
+#~ "bz *.tar *.lzh *.gz *.lzo *.Z *.bz *.bz2 *.zoo *.rar *.a|All valid "
+#~ "archives with extensions\n"
+#~ " *.tar.gz *.tar.Z *.tgz *.taz *.tzo *.tar.bz2 *.tar.bz *.tar.lzo *.tar |"
+#~ "Tar archives (*.tar, *.tar.gz, *.tar.Z, *.tar.bz2, etc.)\n"
+#~ "*.gz *.bz *.bz2 *.lzo *.Z|Compressed Files (*.gz *.bz *.bz2 *.lzo *.Z)\n"
+#~ "*.zip *.xpi|Zip archives (*.zip, *.xpi)\n"
+#~ "*.lzh|Lha archives with extension lzh\n"
+#~ "*.zoo|Zoo archives (*.zoo)\n"
+#~ "*.rar|Rar archives with extension rar\n"
+#~ "*.a|Ar archives with extension a\n"
+#~ msgstr ""
+#~ "*|Alle Lêers\n"
+#~ "*.zip *.xpi *.tar.gz *.tar.Z *.tar.lzo *.tgz *.taz *.tzo *.tar.bz2 *.tar."
+#~ "bz *.tar *.lzh *.gz *.lzo *.Z *.bz *.bz2 *.zoo *.rar *.'n|Alle geldige "
+#~ "argiewe met uitbreidings\n"
+#~ " *.tar.gz *.tar.Z *.tgz *.taz *.tzo *.tar.bz2 *.tar.bz *.tar.lzo *.tar |"
+#~ "tar argiewe (*.tar, *.tar.gz, *.tar.Z, *.tar.bz2, etc.)\n"
+#~ "*.gz *.bz *.bz2 *.lzo *.Z|Saamgepersde Lêers (*.gz *.bz *.bz2 *.lzo *.Z)\n"
+#~ "*.zip *.xpi|zip argiewe (*.zip, *.xpi)\n"
+#~ "*.lzh|Lha argiewe met uitbreiding lzh\n"
+#~ "*.zoo|zoo argiewe (*.zoo)\n"
+#~ "*.rar|rar argiewe met uitbreiding rar\n"
+#~ "*.'n|Ar argiewe met uitbreiding 'n\n"
+
+#~ msgid "Gzip archives need to have the extension `gz'."
+#~ msgstr "Gzip argiewe benodig na het die uitbreiding `gz'."
+
+#~ msgid "Zoo archives need to have the extension `zoo'."
+#~ msgstr "Zoo argiewe benodig na het die uitbreiding `Zoo'."
+
+#~ msgid "Open failed"
+#~ msgstr "Open gevaal"
+
+#~ msgid "&Extract"
+#~ msgstr "Uitpak"
+
+#~ msgid "Archive directory does not exist."
+#~ msgstr "Argief gids doen nie bestaan."
+
+#~ msgid "&Archive"
+#~ msgstr "Argief"
+
+#~ msgid "Cannot access the archive %1"
+#~ msgstr "Kan nie toegang verkry die argief %1"
+
+#~ msgid "Unknown error"
+#~ msgstr "Onbekende fout"
+
+#~ msgid "Unknown error."
+#~ msgstr "Onbekende fout."
+
+#~ msgid "Directory"
+#~ msgstr "Gids"
