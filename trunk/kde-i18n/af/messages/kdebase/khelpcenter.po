@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter VERSION\n"
-"POT-Creation-Date: 2004-10-12 01:16+0200\n"
+"POT-Creation-Date: 2005-02-03 01:19+0100\n"
 "PO-Revision-Date: 2002-11-07 11:29+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -34,7 +34,7 @@ msgstr "'n Url na vertoon"
 msgid "KDE Help Center"
 msgstr "Kde Hulp Sentrum"
 
-#: application.cpp:65 khc_indexbuilder.cpp:158
+#: application.cpp:65 khc_indexbuilder.cpp:171
 msgid "The KDE Help Center"
 msgstr "Die Kde Hulp Sentrum"
 
@@ -50,6 +50,11 @@ msgstr "Oorspronklike Outeur"
 #: application.cpp:73
 msgid "Info page support"
 msgstr "Inligting bladsy ondersteun"
+
+#: docmetainfo.cpp:32
+#, fuzzy
+msgid "Top-Level Documentation"
+msgstr "Algemeen Dokumentasie"
 
 #: docmetainfo.cpp:72
 msgid ""
@@ -201,159 +206,215 @@ msgstr "Invoer die gids soeklys na die htdig databasis gids."
 msgid "By Category"
 msgstr ""
 
-#: kcmhelpcenter.cpp:63
+#: kcmhelpcenter.cpp:61
+#, fuzzy
+msgid "Change Index Folder"
+msgstr "Hulp Sentrum Kontrole Module"
+
+#: kcmhelpcenter.cpp:67 kcmhelpcenter.cpp:258
+msgid "Index folder:"
+msgstr ""
+
+#: kcmhelpcenter.cpp:89
 msgid "Build Search Indices"
 msgstr "Bou Soektog Indices"
 
-#: kcmhelpcenter.cpp:76
+#: kcmhelpcenter.cpp:102
 msgid "Index creation log:"
 msgstr ""
 
-#: kcmhelpcenter.cpp:132
+#: kcmhelpcenter.cpp:158
 msgid "Index creation finished."
 msgstr ""
 
-#: kcmhelpcenter.cpp:159
+#: kcmhelpcenter.cpp:185
 msgid "Details <<"
 msgstr ""
 
-#: kcmhelpcenter.cpp:163
+#: kcmhelpcenter.cpp:189
 msgid "Details >>"
 msgstr ""
 
-#: kcmhelpcenter.cpp:172
+#: kcmhelpcenter.cpp:199
 #, fuzzy
 msgid "Build Search Index"
 msgstr "Bou Soektog Indices"
 
-#: kcmhelpcenter.cpp:181
-msgid "Index"
-msgstr "Indeks"
+#: kcmhelpcenter.cpp:208
+msgid "Build Index"
+msgstr "Bou Indeks"
 
-#: kcmhelpcenter.cpp:184
-msgid "HTML Search"
-msgstr "Html Soektog"
+#: kcmhelpcenter.cpp:240
+msgid ""
+"To be able to search a document there needs to exist a search\n"
+"index. This status column of the list below shows, if an index.\n"
+"for a document exists.\n"
+msgstr ""
 
-#: kcmhelpcenter.cpp:211
-msgid "Search Scope"
-msgstr "Soektog Skoop"
-
-#: kcmhelpcenter.cpp:212
-msgid "Status"
-msgstr "Status"
-
-#: kcmhelpcenter.cpp:218
-msgid "Index folder:"
+#: kcmhelpcenter.cpp:243
+msgid ""
+"To create an index check the box in the list and press the\n"
+"\"Build Index\" button.\n"
 msgstr ""
 
 #: kcmhelpcenter.cpp:251
+msgid "Search Scope"
+msgstr "Soektog Skoop"
+
+#: kcmhelpcenter.cpp:252
+msgid "Status"
+msgstr "Status"
+
+#: kcmhelpcenter.cpp:264
+msgid "Change..."
+msgstr ""
+
+#: kcmhelpcenter.cpp:283
 msgid "<qt>The folder <b>%1</b> does not exist; unable to create index.</qt>"
 msgstr ""
 
-#: kcmhelpcenter.cpp:292
+#: kcmhelpcenter.cpp:323
 msgid "Missing"
 msgstr "Kort"
 
-#: kcmhelpcenter.cpp:429
+#: kcmhelpcenter.cpp:366
+msgid ""
+"Document '%1' (%2):\n"
+msgstr ""
+
+#: kcmhelpcenter.cpp:371
+msgid "No document type."
+msgstr ""
+
+#: kcmhelpcenter.cpp:377
+msgid "No search handler available for document type '%1'."
+msgstr ""
+
+#: kcmhelpcenter.cpp:384
+msgid "No indexing command specified for document type '%1'."
+msgstr ""
+
+#: kcmhelpcenter.cpp:499
 msgid "Failed to build index."
 msgstr ""
 
-#: khc_indexbuilder.cpp:148
+#: kcmhelpcenter.cpp:551
+#, c-format
+msgid ""
+"Error executing indexing build command:\n"
+"%1"
+msgstr ""
+
+#: khc_indexbuilder.cpp:99
+msgid "Unable to start command '%1'."
+msgstr ""
+
+#: khc_indexbuilder.cpp:161
 msgid "Document to be indexed"
 msgstr ""
 
-#: khc_indexbuilder.cpp:149
+#: khc_indexbuilder.cpp:162
 msgid "Index directory"
 msgstr ""
 
-#: khc_indexbuilder.cpp:156
+#: khc_indexbuilder.cpp:169
 #, fuzzy
 msgid "KHelpCenter Index Builder"
 msgstr "Hulp Sentrum Kontrole Module"
 
-#: khc_indexbuilder.cpp:160
+#: khc_indexbuilder.cpp:173
 #, fuzzy
 msgid "(c) 2003, The KHelpCenter developers"
 msgstr "(c) 1999-2002, Die Khulpsentrum ontwikkelaars"
 
-#: mainwindow.cpp:57
+#: mainwindow.cpp:58
 msgid "Search Error Log"
 msgstr ""
 
-#: mainwindow.cpp:104
+#: mainwindow.cpp:105
 msgid "Preparing Index"
 msgstr "Berei voor Indeks"
 
-#: mainwindow.cpp:151
+#: mainwindow.cpp:152
 msgid "Ready"
 msgstr "Gereed"
 
-#: mainwindow.cpp:182
+#: mainwindow.cpp:209
 msgid "Previous Page"
 msgstr ""
 
-#: mainwindow.cpp:184
+#: mainwindow.cpp:211
 msgid "Moves to the previous page of the document"
 msgstr ""
 
-#: mainwindow.cpp:186
+#: mainwindow.cpp:213
 msgid "Next Page"
 msgstr ""
 
-#: mainwindow.cpp:188
+#: mainwindow.cpp:215
 msgid "Moves to the next page of the document"
 msgstr ""
 
-#: mainwindow.cpp:191
+#: mainwindow.cpp:218
 msgid "Table of &Contents"
 msgstr ""
 
-#: mainwindow.cpp:192
+#: mainwindow.cpp:219
 msgid "Table of Contents"
 msgstr ""
 
-#: mainwindow.cpp:193
+#: mainwindow.cpp:220
 msgid "Go back to the table of contents"
 msgstr ""
 
-#: mainwindow.cpp:197
+#: mainwindow.cpp:224
 msgid "&Last Search Result"
 msgstr "Laaste Soektog Resultaat"
 
-#: mainwindow.cpp:210
+#: mainwindow.cpp:229
+#, fuzzy
+msgid "Build Search Index..."
+msgstr "Bou Soektog Indices"
+
+#: mainwindow.cpp:237
 msgid "Show Search Error Log"
 msgstr ""
 
-#: mainwindow.cpp:217
+#: mainwindow.cpp:244
 msgid "Configure Fonts..."
 msgstr ""
 
-#: mainwindow.cpp:218
+#: mainwindow.cpp:245
 msgid "Increase Font Sizes"
 msgstr ""
 
-#: mainwindow.cpp:219
+#: mainwindow.cpp:246
 msgid "Decrease Font Sizes"
 msgstr ""
 
-#: navigator.cpp:105 navigator.cpp:175
+#: navigator.cpp:107
+#, fuzzy
+msgid "Clear Search"
+msgstr "Soektog"
+
+#: navigator.cpp:115 navigator.cpp:188
 msgid "Search"
 msgstr "Soektog"
 
-#: navigator.cpp:183
+#: navigator.cpp:196
 msgid "G&lossary"
 msgstr "Woordelys"
 
-#: navigator.cpp:442
+#: navigator.cpp:455
 msgid "Start Page"
 msgstr ""
 
-#: navigator.cpp:529
+#: navigator.cpp:542
 #, fuzzy
 msgid "Unable to run search program."
 msgstr "Invoer die Url van die htsearch Cgi program."
 
-#: navigator.cpp:572
+#: navigator.cpp:582
 msgid "A search index does not yet exist. Do you want to create the index now?"
 msgstr ""
 "'n soektog indeks doen nie nog bestaan. Doen jy wil hê na skep die indeks "
@@ -365,51 +426,104 @@ msgstr ""
 msgid "&Go"
 msgstr "Gaan"
 
-#: searchengine.cpp:213
+#. i18n: file khelpcenter.kcfg line 10
+#: rc.cpp:18 rc.cpp:27
+#, no-c-format
+msgid "Path to index directory."
+msgstr ""
+
+#. i18n: file khelpcenter.kcfg line 11
+#: rc.cpp:21 rc.cpp:30
+#, no-c-format
+msgid "Path to directory containing search indices."
+msgstr ""
+
+#. i18n: file khelpcenter.kcfg line 24
+#: rc.cpp:24 rc.cpp:33
+#, no-c-format
+msgid "Currently visible navigator tab"
+msgstr ""
+
+#: searchengine.cpp:82
+msgid "Error: No document type specified."
+msgstr ""
+
+#: searchengine.cpp:84
+msgid "Error: No search handler for document type '%1'."
+msgstr ""
+
+#: searchengine.cpp:188
+msgid "Unable to initialize SearchHandler from file '%1'."
+msgstr ""
+
+#: searchengine.cpp:201
+msgid "No valid search handler found."
+msgstr ""
+
+#: searchengine.cpp:266
 msgid "Search Results"
 msgstr "Soektog Resultate"
 
-#: searchwidget.cpp:58
+#: searchengine.cpp:268
+#, fuzzy
+msgid "Search Results for '%1':"
+msgstr "Soektog Resultate"
+
+#: searchhandler.cpp:107
+msgid "Error executing search command '%1'."
+msgstr ""
+
+#: searchhandler.cpp:122
+msgid "No search command or URL specified."
+msgstr ""
+
+#: searchhandler.cpp:166
+#, c-format
+msgid "Error: %1"
+msgstr ""
+
+#: searchwidget.cpp:54
 msgid "and"
 msgstr "en"
 
-#: searchwidget.cpp:59
+#: searchwidget.cpp:55
 msgid "or"
 msgstr "of"
 
-#: searchwidget.cpp:61
+#: searchwidget.cpp:57
 msgid "&Method:"
 msgstr "Metode:"
 
-#: searchwidget.cpp:75
+#: searchwidget.cpp:71
 msgid "Max. &results:"
 msgstr "Max. resultate:"
 
-#: searchwidget.cpp:89
+#: searchwidget.cpp:85
 msgid "&Scope selection:"
 msgstr "Skoop keuse:"
 
-#: searchwidget.cpp:96
+#: searchwidget.cpp:92
 msgid "Scope"
 msgstr "Skoop"
 
-#: searchwidget.cpp:99
-msgid "Create Search &Index..."
-msgstr "Skep Soektog Indeks..."
+#: searchwidget.cpp:95
+#, fuzzy
+msgid "Build Search &Index..."
+msgstr "Bou Soektog Indices"
 
-#: searchwidget.cpp:396
+#: searchwidget.cpp:345
 msgid "Custom"
 msgstr "Pasmaak"
 
-#: searchwidget.cpp:400
+#: searchwidget.cpp:349
 msgid "All"
 msgstr "Alle"
 
-#: searchwidget.cpp:402
+#: searchwidget.cpp:351
 msgid "None"
 msgstr "Geen"
 
-#: searchwidget.cpp:404
+#: searchwidget.cpp:353
 msgid "unknown"
 msgstr "onbekende"
 
@@ -500,8 +614,14 @@ msgstr "Die Konqueror Lêer bestuurder en Web Blaaier"
 msgid "Copy Link Address"
 msgstr ""
 
-#~ msgid "Build Index"
-#~ msgstr "Bou Indeks"
+#~ msgid "Index"
+#~ msgstr "Indeks"
+
+#~ msgid "HTML Search"
+#~ msgstr "Html Soektog"
+
+#~ msgid "Create Search &Index..."
+#~ msgstr "Skep Soektog Indeks..."
 
 #~ msgid "Indexing '%1'."
 #~ msgstr "Indeksering '%1'."
