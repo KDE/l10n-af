@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: atlantik VERSION\n"
-"POT-Creation-Date: 2003-12-09 01:31+0100\n"
+"POT-Creation-Date: 2004-07-16 01:20+0200\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -13,19 +13,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: libatlantikclient/atlantik_network.cpp:834
-msgid "Connecting to %1..."
+#: libatlantikclient/atlantik_network.cpp:893
+msgid "Connecting to %1:%2..."
 msgstr ""
 
-#: libatlantikclient/atlantik_network.cpp:840
+#: libatlantikclient/atlantik_network.cpp:899
 msgid "Server host name lookup finished..."
 msgstr ""
 
-#: libatlantikclient/atlantik_network.cpp:845
-msgid "Connection established!"
+#: libatlantikclient/atlantik_network.cpp:904
+msgid "Connected to %1:%2."
 msgstr ""
 
-#: libatlantikclient/atlantik_network.cpp:850
+#: libatlantikclient/atlantik_network.cpp:909
 #, c-format
 msgid "Connection failed! Error code: %1"
 msgstr ""
@@ -104,9 +104,13 @@ msgstr ""
 msgid "Remove From Trade"
 msgstr ""
 
-#: libatlantikui/estateview.cpp:441 libatlantikui/portfolioview.cpp:259
+#: libatlantikui/estateview.cpp:470 libatlantikui/portfolioview.cpp:263
 #, c-format
 msgid "Request Trade with %1"
+msgstr ""
+
+#: libatlantikui/portfolioview.cpp:268
+msgid "Boot Player %1 to Lounge"
 msgstr ""
 
 #: libatlantikui/auction_widget.cpp:50
@@ -138,133 +142,163 @@ msgstr "Gaan twee keer..."
 msgid "Sold!"
 msgstr ""
 
-#: libatlantikui/estatedetails.cpp:252
+#: libatlantikui/estatedetails.cpp:220 libatlantikui/estateview.cpp:76
 #, c-format
 msgid "Price: %1"
 msgstr "Prys: %1"
 
-#: libatlantikui/estatedetails.cpp:259
+#: libatlantikui/estatedetails.cpp:227 libatlantikui/estateview.cpp:74
 #, c-format
 msgid "Owner: %1"
 msgstr "Eienaar: %1"
 
-#: libatlantikui/estatedetails.cpp:259
+#: libatlantikui/estatedetails.cpp:227
 msgid "unowned"
 msgstr "onbesitte"
 
-#: libatlantikui/estatedetails.cpp:264
+#: libatlantikui/estatedetails.cpp:232
 #, c-format
 msgid "Houses: %1"
 msgstr "Huise: %1"
 
-#: libatlantikui/estatedetails.cpp:267
+#: libatlantikui/estatedetails.cpp:235
 #, c-format
 msgid "Mortgaged: %1"
 msgstr "Op lening: %1"
 
-#: libatlantikui/estateview.cpp:408
+#: libatlantikui/estateview.cpp:78
+#, fuzzy, c-format
+msgid "Money: %1"
+msgstr "Geld"
+
+#: libatlantikui/estateview.cpp:437
 msgid "Unmortgage"
 msgstr "Vernietig lening"
 
-#: libatlantikui/estateview.cpp:414
+#: libatlantikui/estateview.cpp:443
 msgid "Mortgage"
 msgstr "Lening"
 
-#: libatlantikui/estateview.cpp:421
+#: libatlantikui/estateview.cpp:450
 msgid "Build Hotel"
 msgstr "Bou Hotel"
 
-#: libatlantikui/estateview.cpp:423
+#: libatlantikui/estateview.cpp:452
 msgid "Build House"
 msgstr "Bou Huis"
 
-#: libatlantikui/estateview.cpp:430
+#: libatlantikui/estateview.cpp:459
 msgid "Sell Hotel"
 msgstr "Verkoop Hotel"
 
-#: libatlantikui/estateview.cpp:432
+#: libatlantikui/estateview.cpp:461
 msgid "Sell House"
 msgstr "Verkoop Huis"
 
-#: client/atlantik.cpp:81
+#: client/atlantik.cpp:104
+msgid "Show Event &Log"
+msgstr ""
+
+#: client/atlantik.cpp:133
 msgid "&Buy"
 msgstr "Koop"
 
-#: client/atlantik.cpp:83
+#: client/atlantik.cpp:135
 msgid "&Auction"
 msgstr ""
 
-#: client/atlantik.cpp:87
+#: client/atlantik.cpp:139
 msgid "Use Card to Leave Jail"
 msgstr "Gebruik Kaart na Los Tronk"
 
-#: client/atlantik.cpp:89
+#: client/atlantik.cpp:141
 msgid "&Pay to Leave Jail"
 msgstr "Betaal na Los Tronk"
 
-#: client/atlantik.cpp:91
+#: client/atlantik.cpp:143
 msgid "Roll to Leave &Jail"
 msgstr "Rol na Los Tronk"
 
-#: client/atlantik.cpp:401
+#: client/atlantik.cpp:441
 msgid "Error connecting: "
 msgstr "Fout maak koppeling: "
 
-#: client/atlantik.cpp:407
+#: client/atlantik.cpp:447
 msgid "connection refused by host."
 msgstr "verbinding geweier deur bediener."
 
-#: client/atlantik.cpp:409
+#: client/atlantik.cpp:449
 msgid "could not connect to host."
 msgstr "kon nie konnekteer na bediener."
 
-#: client/atlantik.cpp:413
+#: client/atlantik.cpp:453
 msgid "host not found."
 msgstr "bediener nie gevind."
 
-#: client/atlantik.cpp:417
+#: client/atlantik.cpp:457
 msgid "unknown error."
 msgstr "onbekende fout."
 
-#: client/selectconfiguration_widget.cpp:42
+#: client/atlantik.cpp:471
+msgid "Connection with server %1:%2 lost."
+msgstr ""
+
+#: client/atlantik.cpp:476
+msgid "Disconnected from %1:%2."
+msgstr ""
+
+#: client/atlantik.cpp:818
+msgid ""
+"You are currently part of an active game. Are you sure you want to close "
+"Atlantik? If you do, you forfeit the game."
+msgstr ""
+
+#: client/atlantik.cpp:818
+msgid "Close & Forfeit?"
+msgstr ""
+
+#: client/selectconfiguration_widget.cpp:47
 msgid "Game Configuration"
 msgstr "Speletjie Opstelling"
 
-#: client/selectconfiguration_widget.cpp:51
+#: client/selectconfiguration_widget.cpp:56
 msgid "Select Token..."
 msgstr ""
 
-#: client/selectconfiguration_widget.cpp:63
+#: client/selectconfiguration_widget.cpp:68
 msgid "Leave Game"
 msgstr "Los Speletjie"
 
-#: client/selectconfiguration_widget.cpp:70
+#: client/selectconfiguration_widget.cpp:75
 msgid "Start Game"
 msgstr "Begin Speletjie"
 
-#: client/selectconfiguration_widget.cpp:77
+#: client/selectconfiguration_widget.cpp:85
 msgid "Retrieving configuration list..."
 msgstr "Onttrek opstelling lys..."
 
-#: client/selectconfiguration_widget.cpp:88
+#: client/selectconfiguration_widget.cpp:90
 msgid "Game started. Retrieving full game data..."
 msgstr "Speletjie beginne. Onttrek volgrote Speletjie data..."
 
-#: client/selectconfiguration_widget.cpp:153
+#: client/selectconfiguration_widget.cpp:191
 #, fuzzy
 msgid "Retrieved configuration list."
 msgstr "Onttrek opstelling lys..."
 
 #: client/main.cpp:29
-msgid "connect to this host"
+#, fuzzy
+msgid "Connect to this host"
 msgstr "konnekteer na hierdie bediener"
 
 #: client/main.cpp:31
-msgid "connect at this port"
+#, fuzzy
+msgid "Connect at this port"
 msgstr "konnekteer na hierdie poort"
 
 #: client/main.cpp:33
-msgid "join this game"
+#, fuzzy
+msgid "Join this game"
 msgstr "aansluit by hierdie speletjie"
 
 #: client/main.cpp:41
@@ -277,7 +311,7 @@ msgstr ""
 
 #: client/main.cpp:44
 #, fuzzy
-msgid "(c) 1998-2003 Rob Kaper"
+msgid "(c) 1998-2004 Rob Kaper"
 msgstr "(c) 1998-2002 Rob Kaper"
 
 #: client/main.cpp:45
@@ -289,7 +323,7 @@ msgid "main author"
 msgstr "hoof outeur"
 
 #: client/main.cpp:52
-msgid "KExtendedSocket support, KLatencyTimer"
+msgid "KExtendedSocket support"
 msgstr ""
 
 #: client/main.cpp:53
@@ -311,6 +345,27 @@ msgstr "ikoone"
 
 #: client/main.cpp:73
 msgid "The Atlantic Board Game"
+msgstr ""
+
+#: client/eventlogwidget.cpp:59
+msgid "Event Log"
+msgstr ""
+
+#: client/eventlogwidget.cpp:66
+msgid "Date/Time"
+msgstr ""
+
+#: client/eventlogwidget.cpp:67 client/selectgame_widget.cpp:49
+msgid "Description"
+msgstr "Beskrywing"
+
+#: client/eventlogwidget.cpp:75
+msgid "&Save As..."
+msgstr ""
+
+#: client/eventlogwidget.cpp:116
+#, c-format
+msgid "Atlantik log file, saved at %1."
 msgstr ""
 
 #: client/tokenwidget.cpp:32
@@ -441,123 +496,121 @@ msgstr ""
 "As nagegaan, die gekleurde opskrifte van straat landgoed op die bord sal het "
 "'n Quartz effek soortgelyk na die Quartz Kwin styl.\n"
 
-#: client/selectserver_widget.cpp:38
+#: client/selectserver_widget.cpp:39
 #, fuzzy
 msgid "Enter Custom monopd Server"
 msgstr "Kies monopd Bediener"
 
-#: client/selectserver_widget.cpp:41
+#: client/selectserver_widget.cpp:42
 #, fuzzy
 msgid "Hostname:"
 msgstr "Bediener"
 
-#: client/selectserver_widget.cpp:46
+#: client/selectserver_widget.cpp:47
 #, fuzzy
 msgid "Port:"
 msgstr "Bediener"
 
-#: client/selectserver_widget.cpp:51 client/selectserver_widget.cpp:84
+#: client/selectserver_widget.cpp:52 client/selectserver_widget.cpp:85
 msgid "Connect"
 msgstr "Konnekteer"
 
-#: client/selectserver_widget.cpp:55
+#: client/selectserver_widget.cpp:56
 msgid "Select monopd Server"
 msgstr "Kies monopd Bediener"
 
-#: client/selectserver_widget.cpp:61
+#: client/selectserver_widget.cpp:62
 msgid "Host"
 msgstr "Bediener"
 
-#: client/selectserver_widget.cpp:62
+#: client/selectserver_widget.cpp:63
 msgid "Latency"
 msgstr ""
 
-#: client/selectserver_widget.cpp:63
+#: client/selectserver_widget.cpp:64
 msgid "Version"
 msgstr "Weergawe"
 
-#: client/selectserver_widget.cpp:64
+#: client/selectserver_widget.cpp:65
 msgid "Users"
 msgstr "Gebruikers"
 
-#: client/selectserver_widget.cpp:78 client/selectserver_widget.cpp:118
+#: client/selectserver_widget.cpp:79 client/selectserver_widget.cpp:118
 #, fuzzy
 msgid "Reload Server List"
 msgstr "Bediener Lys"
 
-#: client/selectserver_widget.cpp:78
+#: client/selectserver_widget.cpp:79
 #, fuzzy
 msgid "Get Server List"
 msgstr "Bediener Lys"
 
-#: client/selectserver_widget.cpp:117
+#: client/selectserver_widget.cpp:116
 msgid "Retrieving server list..."
 msgstr "Onttrek bediener lys..."
 
-#: client/selectserver_widget.cpp:127
+#: client/selectserver_widget.cpp:124
 msgid "unknown"
 msgstr "onbekende"
 
-#: client/selectserver_widget.cpp:134
+#: client/selectserver_widget.cpp:138
 msgid "Retrieved server list."
 msgstr "Geonttrek bediener lys."
 
-#: client/selectserver_widget.cpp:140
+#: client/selectserver_widget.cpp:144
 #, fuzzy
 msgid "Error while retrieving the server list."
 msgstr "Onttrek bediener lys..."
 
-#: client/selectgame_widget.cpp:34
+#: client/selectgame_widget.cpp:43
 msgid "Create or Select monopd Game"
 msgstr "Skep of Kies monopd Speletjie"
 
-#: client/selectgame_widget.cpp:39
+#: client/selectgame_widget.cpp:48
 msgid "Game"
 msgstr "Speletjie"
 
-#: client/selectgame_widget.cpp:40
-msgid "Description"
-msgstr "Beskrywing"
-
-#: client/selectgame_widget.cpp:41
+#: client/selectgame_widget.cpp:50
 msgid "Id"
 msgstr "Id"
 
-#: client/selectgame_widget.cpp:42
+#: client/selectgame_widget.cpp:51
 msgid "Players"
 msgstr "Spelers"
 
-#: client/selectgame_widget.cpp:53
+#: client/selectgame_widget.cpp:62
 msgid "Server List"
 msgstr "Bediener Lys"
 
-#: client/selectgame_widget.cpp:60 client/selectgame_widget.cpp:149
+#: client/selectgame_widget.cpp:69 client/selectgame_widget.cpp:173
 msgid "Create Game"
 msgstr "Skep Speletjie"
 
-#: client/selectgame_widget.cpp:68
-msgid "Retrieving game list..."
-msgstr "Onttrek speletjie lys..."
-
-#: client/selectgame_widget.cpp:81
-msgid "Retrieved game list."
-msgstr "Geonttrek speletjie lys."
-
-#: client/selectgame_widget.cpp:88
-msgid "Create new %1 Game"
+#: client/selectgame_widget.cpp:83 client/selectgame_widget.cpp:121
+#, fuzzy
+msgid "Create a new %1 Game"
 msgstr "Skep nuwe %1 Speletjie"
 
-#: client/selectgame_widget.cpp:93 client/selectgame_widget.cpp:110
-msgid "Join %1 Game #%2"
+#: client/selectgame_widget.cpp:89 client/selectgame_widget.cpp:125
+#: client/selectgame_widget.cpp:146
+#, fuzzy
+msgid "Join %1's %2 Game"
 msgstr "Aansluit by %1 Speletjie #%2"
 
-#: client/selectgame_widget.cpp:147
+#: client/selectgame_widget.cpp:171
 msgid "Join Game"
 msgstr "Aansluit by Speletjie"
 
-#: rc.cpp:1
+#: rc.cpp:4
+#, no-c-format
 msgid "&Move"
 msgstr "Beweeg"
+
+#~ msgid "Retrieving game list..."
+#~ msgstr "Onttrek speletjie lys..."
+
+#~ msgid "Retrieved game list."
+#~ msgstr "Geonttrek speletjie lys."
 
 #~ msgid "Refresh"
 #~ msgstr "Verfris"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpackage VERSION\n"
-"POT-Creation-Date: 2004-01-15 02:00+0100\n"
+"POT-Creation-Date: 2004-07-16 01:25+0200\n"
 "PO-Revision-Date: 2002-11-07 11:26+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -30,7 +30,7 @@ msgstr "frix@expertron.co.za"
 msgid "Cannot create folder %1"
 msgstr "Kan nie skep gids %1"
 
-#: cache.cpp:99 kpackage.cpp:578
+#: cache.cpp:99 kpackage.cpp:573
 #, c-format
 msgid "Malformed URL: %1"
 msgstr "Misformde Url: %1"
@@ -44,7 +44,8 @@ msgid "Querying DEB APT package list: "
 msgstr "Navraag in Deb  apt  paket lys: "
 
 #: debAptInterface.cpp:53
-msgid "Kpackage: Waiting on APT-GET"
+#, fuzzy
+msgid "KPackage: Waiting on APT-GET"
 msgstr "Kpackage: Terwyl gewag het op APT-GET"
 
 #: debAptInterface.cpp:57
@@ -332,6 +333,21 @@ msgstr "--Nothing found--"
 msgid "Incorrect URL type"
 msgstr "Verkeerd Url tipe"
 
+#: gentooInterface.cpp:58
+msgid "Gentoo"
+msgstr ""
+
+#: gentooInterface.cpp:68
+#, fuzzy
+msgid "Querying Gentoo package list: "
+msgstr "Navraag in paket lys: "
+
+#: gentooInterface.cpp:123
+#, fuzzy
+msgid "Looking for Gentoo packages: "
+msgstr ""
+"fout besig om te soek vir paket %1\n"
+
 #: kissInterface.cpp:63
 msgid "KISS"
 msgstr "Soen"
@@ -350,118 +366,120 @@ msgid "Querying KISS package list: "
 msgstr "Navraag in Soen paket lys: "
 
 #: kissInterface.cpp:83
-msgid "Kpackage: Waiting on KISS"
+#, fuzzy
+msgid "KPackage: Waiting on KISS"
 msgstr "Kpackage: Terwyl gewag het op Soen"
 
 #: kpPty.cpp:137
 msgid "ROOT Login"
 msgstr "Root Aanteken"
 
-#: kpackage.cpp:105
+#: kpackage.cpp:104
 msgid "Find &Package..."
 msgstr "Soek Paket..."
 
-#: kpackage.cpp:109
+#: kpackage.cpp:108
 msgid "Find &File..."
 msgstr "Soek Lêer..."
 
-#: kpackage.cpp:126
+#: kpackage.cpp:125
 msgid "&Expand Tree"
 msgstr "Vergroot Boom"
 
-#: kpackage.cpp:130
+#: kpackage.cpp:129
 msgid "&Collapse Tree"
 msgstr "Toevou Boom"
 
-#: kpackage.cpp:134
+#: kpackage.cpp:133
 msgid "Clear &Marked"
 msgstr "Maak skoon Gemerkte"
 
-#: kpackage.cpp:138
+#: kpackage.cpp:137
 #, fuzzy
 msgid "Mark &All"
 msgstr "Merk"
 
-#: kpackage.cpp:142
+#: kpackage.cpp:141
 msgid "&Install"
 msgstr "Installeer"
 
-#: kpackage.cpp:150
+#: kpackage.cpp:149
 msgid "&Uninstall"
 msgstr "Oninstalleer"
 
-#: kpackage.cpp:158
+#: kpackage.cpp:157
 msgid "&Install Marked"
 msgstr "Installeer Gemerkte"
 
-#: kpackage.cpp:162
+#: kpackage.cpp:161
 msgid "&Uninstall Marked"
 msgstr "Oninstalleer Gemerkte"
 
-#: kpackage.cpp:175
-msgid "Configure &Kpackage..."
+#: kpackage.cpp:174
+#, fuzzy
+msgid "Configure &KPackage..."
 msgstr "Konfigureer Kpackage..."
 
-#: kpackage.cpp:179
+#: kpackage.cpp:178
 #, fuzzy
 msgid "Clear Package &Folder Cache"
 msgstr "Maak skoon Paket Kas"
 
-#: kpackage.cpp:183
+#: kpackage.cpp:182
 msgid "Clear &Package Cache"
 msgstr "Maak skoon Paket Kas"
 
-#: kpackage.cpp:377
+#: kpackage.cpp:372
 msgid "Management Mode"
 msgstr "Bestuuring Modus"
 
-#: kpackage.cpp:427
+#: kpackage.cpp:422
 msgid "Select Package"
 msgstr "Kies Paket"
 
-#: kpackage.cpp:488
+#: kpackage.cpp:483
 #, c-format
 msgid "Unknown package type: %1"
 msgstr "Onbekende paket tipe: %1"
 
-#: kpackage.cpp:490
+#: kpackage.cpp:485
 #, c-format
 msgid "File not found: %1"
 msgstr "Lêer nie gevind: %1"
 
-#: kpackage.cpp:636
+#: kpackage.cpp:631
 #, fuzzy
 msgid "Starting KIO"
 msgstr "Beginne Kio"
 
-#: kpackage.cpp:641
+#: kpackage.cpp:636
 #, fuzzy
 msgid "KIO finished"
 msgstr "Kio klaar gemaak"
 
-#: kpackage.cpp:653
+#: kpackage.cpp:648
 #, fuzzy
 msgid "KIO failed"
 msgstr "Kio gevaal"
 
-#: kpackage.cpp:666
+#: kpackage.cpp:661
 #, fuzzy
 msgid "Open location:"
 msgstr "Open Ligging:"
 
-#: main.cpp:59
+#: main.cpp:60
 msgid "KDE Package installer"
 msgstr "Kde Paket installeerder"
 
-#: main.cpp:63
+#: main.cpp:64
 msgid "Remote host for Debian APT, via SSH"
 msgstr "Afgeleë bediener vir Debian  apt , deur middel van Ssh"
 
-#: main.cpp:65
+#: main.cpp:66
 msgid "Package to install"
 msgstr "Paket na installeer"
 
-#: main.cpp:83
+#: main.cpp:84
 msgid "KPackage"
 msgstr "Kpackage"
 
@@ -505,12 +523,12 @@ msgstr "Oninstalleer Gemerkte"
 msgid "Install Marked"
 msgstr "Installeer Gemerkte"
 
-#: managementWidget.cpp:172 pkgOptions.cpp:357 pkgOptions.cpp:359
+#: managementWidget.cpp:172 pkgOptions.cpp:359 pkgOptions.cpp:361
 msgid "Uninstall"
 msgstr "Oninstalleer"
 
-#: managementWidget.cpp:176 managementWidget.cpp:263 pkgOptions.cpp:342
-#: pkgOptions.cpp:344
+#: managementWidget.cpp:176 managementWidget.cpp:263 pkgOptions.cpp:344
+#: pkgOptions.cpp:346
 msgid "Install"
 msgstr "Installeer"
 
@@ -523,6 +541,7 @@ msgid "Building package tree"
 msgstr "Bou paket boom"
 
 #: managementWidget.cpp:465
+#, fuzzy
 msgid ""
 "Filename not available\n"
 msgstr ""
@@ -794,23 +813,23 @@ msgstr "Kan nie lees gids %1"
 msgid "Verifying"
 msgstr "Verifieër"
 
-#: pkgOptions.cpp:97
+#: pkgOptions.cpp:99
 msgid "Keep this window"
 msgstr ""
 
-#: pkgOptions.cpp:116
+#: pkgOptions.cpp:118
 msgid "PACKAGES"
 msgstr "Pakette"
 
-#: pkgOptions.cpp:200
+#: pkgOptions.cpp:202
 msgid "%1: 1 %2 Package"
 msgstr "%1: 1 %2 Paket"
 
-#: pkgOptions.cpp:202
+#: pkgOptions.cpp:204
 msgid "%1: %2 %3 Packages"
 msgstr "%1: %2 %3 Pakette"
 
-#: pkgOptions.cpp:268
+#: pkgOptions.cpp:270
 msgid "Done"
 msgstr "Klaar"
 
@@ -828,19 +847,23 @@ msgstr "Tydverstreke: %1"
 msgid "Kprocess error:%1"
 msgstr "Kprocess fout:%1"
 
-#: rc.cpp:2
+#: rc.cpp:4
+#, no-c-format
 msgid "&Packages"
 msgstr "Pakette"
 
-#: rc.cpp:3
+#: rc.cpp:6
+#, no-c-format
 msgid "&Cache"
 msgstr "Kas"
 
-#: rc.cpp:4
+#: rc.cpp:8
+#, no-c-format
 msgid "Spe&cial"
 msgstr "Spesiaal"
 
-#: rc.cpp:5
+#: rc.cpp:10
+#, no-c-format
 msgid "&APT: Debian"
 msgstr " apt : Debian"
 
@@ -922,7 +945,8 @@ msgid "Querying SLACK package list: "
 msgstr "Navraag in Slack paket lys: "
 
 #: slackInterface.cpp:82
-msgid "Kpackage: Waiting on SLACK"
+#, fuzzy
+msgid "KPackage: Waiting on SLACK"
 msgstr "Kpackage: Terwyl gewag het op Slack"
 
 #: slackInterface.cpp:84
@@ -1198,6 +1222,3 @@ msgstr ""
 
 #~ msgid "file %1 is not owned by any package\n"
 #~ msgstr "lêer %1 is nie besit deur enige paket\n"
-
-#~ msgid "error looking for package %1\n"
-#~ msgstr "fout besig om te soek vir paket %1\n"

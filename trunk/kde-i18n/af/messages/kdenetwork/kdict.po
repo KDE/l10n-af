@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdict VERSION\n"
-"POT-Creation-Date: 2003-09-21 01:29+0200\n"
+"POT-Creation-Date: 2004-07-16 01:24+0200\n"
 "PO-Revision-Date: 2002-11-07 11:34+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -26,7 +26,8 @@ msgid ""
 msgstr "frix@expertron.co.za"
 
 #: dict.cpp:207
-msgid "No definitions found for '%1'!"
+#, fuzzy
+msgid "No definitions found for '%1'."
 msgstr "Nee definisies gevind vir '%1'!"
 
 #: dict.cpp:212
@@ -58,24 +59,25 @@ msgstr "Die verbinding is gebroke."
 #, fuzzy
 msgid ""
 "Internal error:\n"
-"Failed to open pipes for internal communication!"
+"Failed to open pipes for internal communication."
 msgstr ""
 "Intern fout:\n"
 "Gevaal na open pype vir Intern kommunikasie!"
 
 #: dict.cpp:1215
+#, fuzzy
 msgid ""
 "Internal error:\n"
-"Unable to create thread!"
+"Unable to create thread."
 msgstr ""
 "Intern fout:\n"
 "Nie moontlik na skep rygdraad!"
 
-#: dict.cpp:1387
+#: dict.cpp:1387 options.cpp:178
 msgid "All Databases"
 msgstr "Alle Databasise"
 
-#: dict.cpp:1393 options.cpp:146
+#: dict.cpp:1393 options.cpp:146 options.cpp:151
 msgid "Spell Check"
 msgstr "Spel Bevestig"
 
@@ -142,12 +144,16 @@ msgstr ""
 "Jy kan verander hierdie beperk in die Voorkeure Dialoog."
 
 #: dict.cpp:1457
+#, fuzzy
 msgid ""
 "Unable to connect to:\n"
 "%1:%2\n"
 "\n"
-"Can't resolve hostname."
+"Cannot resolve hostname."
 msgstr ""
+"Nie moontlik na konnekteer na:\n"
+"%1:%2\n"
+"\n"
 
 #: dict.cpp:1460
 msgid ""
@@ -197,6 +203,7 @@ msgstr ""
 "Hierdie bediener is nie toegelaat na konnekteer."
 
 #: dict.cpp:1479
+#, fuzzy
 msgid ""
 "Authentication failed.\n"
 "Please enter a valid username and password."
@@ -213,6 +220,7 @@ msgstr ""
 "Jy waarskynlik benodig na gebruik Server->Get Instaad tot."
 
 #: dict.cpp:1485
+#, fuzzy
 msgid ""
 "No databases available.\n"
 "It is possible that you need to authenticate\n"
@@ -275,11 +283,13 @@ msgid " Updating server information... "
 msgstr " Besig met opdatering van bediener informasie... "
 
 #: main.cpp:25
-msgid "define X11-clipboard content (selected text)"
+#, fuzzy
+msgid "Define X11-clipboard content (selected text)"
 msgstr "definieer X11-clipboard inhoud (gekose teks)"
 
 #: main.cpp:26
-msgid "lookup the given word/phrase"
+#, fuzzy
+msgid "Lookup the given word/phrase"
 msgstr "opkyk die gegewe woord/frase"
 
 #: main.cpp:34
@@ -328,11 +338,11 @@ msgstr " Nee Trefslae"
 msgid "&Get"
 msgstr "Kry"
 
-#: matchview.cpp:390 toplevel.cpp:397
+#: matchview.cpp:390 toplevel.cpp:398
 msgid "&Match"
 msgstr "Ooreenstem"
 
-#: matchview.cpp:391 toplevel.cpp:396
+#: matchview.cpp:391 toplevel.cpp:397
 msgid "&Define"
 msgstr "Definieer"
 
@@ -391,14 +401,6 @@ msgstr "Presiese"
 #: options.cpp:148
 msgid "Prefix"
 msgstr "Voorvoegsel"
-
-#: options.cpp:151
-msgid "spell check"
-msgstr "spel bevestig"
-
-#: options.cpp:178
-msgid "all databases"
-msgstr "alle databasise"
 
 #: options.cpp:498
 msgid "Server"
@@ -533,7 +535,8 @@ msgid "D&efine selected text on start"
 msgstr "Definieer gekose teks op begin"
 
 #: queryview.cpp:57
-msgid "Unable to save remote file!"
+#, fuzzy
+msgid "Unable to save remote file."
 msgstr "Nie moontlik na stoor afgeleë lêer!"
 
 #: queryview.cpp:77
@@ -549,11 +552,13 @@ msgid "&Replace"
 msgstr "Vervang"
 
 #: queryview.cpp:84
-msgid "Unable to save file!"
+#, fuzzy
+msgid "Unable to save file."
 msgstr "Nie moontlik na stoor lêer!"
 
 #: queryview.cpp:92
-msgid "Unable to create temporary file!"
+#, fuzzy
+msgid "Unable to create temporary file."
 msgstr "Nie moontlik na skep tydelike lêer!"
 
 #: queryview.cpp:411
@@ -580,11 +585,11 @@ msgstr "Definieer Keuse"
 msgid "&Match Selection"
 msgstr "Ooreenstem Keuse"
 
-#: queryview.cpp:455 toplevel.cpp:339
+#: queryview.cpp:455 toplevel.cpp:338
 msgid "&Define Clipboard Content"
 msgstr "Definieer Klipbord Inhoud"
 
-#: queryview.cpp:457 toplevel.cpp:341
+#: queryview.cpp:457 toplevel.cpp:340
 msgid "&Match Clipboard Content"
 msgstr "Ooreenstem Klipbord Inhoud"
 
@@ -596,7 +601,7 @@ msgstr "Terug: Informasie"
 msgid "&Back: '%1'"
 msgstr "Terug: '%1'"
 
-#: queryview.cpp:475 queryview.cpp:589 toplevel.cpp:346
+#: queryview.cpp:475 queryview.cpp:589 toplevel.cpp:345
 msgid "&Back"
 msgstr "Terug"
 
@@ -608,23 +613,27 @@ msgstr "Vorentoe: Informasie"
 msgid "&Forward: '%1'"
 msgstr "Vorentoe: '%1'"
 
-#: queryview.cpp:489 queryview.cpp:613 toplevel.cpp:351
+#: queryview.cpp:489 queryview.cpp:613 toplevel.cpp:350
 msgid "&Forward"
 msgstr "Vorentoe"
 
-#: rc.cpp:3
+#: rc.cpp:6
+#, no-c-format
 msgid "Hist&ory"
 msgstr "Geskiedenis"
 
-#: rc.cpp:4
+#: rc.cpp:8
+#, no-c-format
 msgid "Ser&ver"
 msgstr "Bediener"
 
-#: rc.cpp:5
+#: rc.cpp:10
+#, no-c-format
 msgid "Database &Information"
 msgstr "Databasis Informasie"
 
-#: rc.cpp:8
+#: rc.cpp:16
+#, no-c-format
 msgid "Query Toolbar"
 msgstr "Navraag Nutsbalk"
 
@@ -656,77 +665,89 @@ msgstr "Beskikbaar databasise:"
 msgid "New Set"
 msgstr "Nuwe Stel"
 
-#: toplevel.cpp:59
+#: toplevel.cpp:58
 msgid "The KDE Dict(ionary) Client"
 msgstr "Die Kde Dict(ionary) Kliënt"
 
-#: toplevel.cpp:324
-msgid "&Save..."
+#: toplevel.cpp:323
+#, fuzzy
+msgid "&Save As..."
 msgstr "Stoor..."
 
-#: toplevel.cpp:328
+#: toplevel.cpp:327
 msgid "St&art Query"
 msgstr "Begin Navraag"
 
-#: toplevel.cpp:330
+#: toplevel.cpp:329
 msgid "St&op Query"
 msgstr "Stop Navraag"
 
-#: toplevel.cpp:356
+#: toplevel.cpp:355
 msgid "&Clear History"
 msgstr "Maak skoon Geskiedenis"
 
-#: toplevel.cpp:360
+#: toplevel.cpp:359
 msgid "&Get Capabilities"
 msgstr "Kry Instaad tot"
 
-#: toplevel.cpp:362
+#: toplevel.cpp:361
 msgid "Edit &Database Sets..."
 msgstr "Redigeer Databasis Verstel..."
 
-#: toplevel.cpp:364
+#: toplevel.cpp:363
 msgid "&Summary"
 msgstr "Opsomming"
 
-#: toplevel.cpp:366
+#: toplevel.cpp:365
 msgid "S&trategy Information"
 msgstr "Strategie Informasie"
 
-#: toplevel.cpp:368
+#: toplevel.cpp:367
 msgid "&Server Information"
 msgstr "Bediener Informasie"
 
-#: toplevel.cpp:375
+#: toplevel.cpp:374
 msgid "Show &Match List"
 msgstr "Vertoon Ooreenstem Lys"
+
+#: toplevel.cpp:376
+#, fuzzy
+msgid "Hide &Match List"
+msgstr "Ooreenstem Lys"
 
 #: toplevel.cpp:377
 msgid "Swallow Match &List"
 msgstr "Sluk Ooreenstem Lys"
 
-#: toplevel.cpp:386
+#: toplevel.cpp:387
 msgid "Clear Input Field"
 msgstr "Maak skoon Invoer Veld"
 
-#: toplevel.cpp:389
+#: toplevel.cpp:390
 msgid "&Look for:"
 msgstr "Kyk vir:"
 
-#: toplevel.cpp:390
+#: toplevel.cpp:391
 msgid "Query"
 msgstr "Navraag"
 
-#: toplevel.cpp:393
+#: toplevel.cpp:394
 msgid "&in"
 msgstr "in"
 
-#: toplevel.cpp:394
+#: toplevel.cpp:395
 msgid "Databases"
 msgstr "Databasise"
 
-#: toplevel.cpp:405 toplevel.cpp:614
+#: toplevel.cpp:406 toplevel.cpp:615
 msgid " Ready "
 msgstr " Gereed "
+
+#~ msgid "spell check"
+#~ msgstr "spel bevestig"
+
+#~ msgid "all databases"
+#~ msgstr "alle databasise"
 
 #~ msgid "Preferences"
 #~ msgstr "Voorkeure"
