@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmaudiocd VERSION\n"
-"POT-Creation-Date: 2004-07-20 01:24+0200\n"
+"POT-Creation-Date: 2004-10-12 01:17+0200\n"
 "PO-Revision-Date: 2002-11-07 11:33+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,7 +25,25 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: kcmaudiocd.cpp:168
+#: kcmaudiocd.cpp:78
+msgid "kcmaudiocd"
+msgstr "kcm-klank-cd"
+
+#: kcmaudiocd.cpp:78
+msgid "KDE Audio-CD Slave Control Module"
+msgstr "Kde Audio-CD Slaaf Kontrole Module"
+
+#: kcmaudiocd.cpp:80
+msgid "(c) 2000 - 2001 Carsten Duvenhorst"
+msgstr "(c) 2000 - 2001 Carsten Duvenhorst"
+
+#. i18n: file audiocdconfig.ui line 389
+#: kcmaudiocd.cpp:108 kcmaudiocd.cpp:169 rc.cpp:92 rc.cpp:95
+#, no-c-format
+msgid "Cool artist - example audio file.wav"
+msgstr ""
+
+#: kcmaudiocd.cpp:210
 msgid ""
 "<h1>Audio CDs</h1> The Audio CD IO-Slave enables you to easily create wav, "
 "MP3 or Ogg Vorbis files from your audio CD-ROMs or DVDs. The slave is "
@@ -35,34 +53,26 @@ msgid ""
 "version of the LAME or Ogg Vorbis libraries."
 msgstr ""
 
-#: kcmaudiocd.cpp:181
-msgid "kcmaudiocd"
-msgstr "kcm-klank-cd"
-
-#: kcmaudiocd.cpp:181
-msgid "KDE Audio-CD Slave Control Module"
-msgstr "Kde Audio-CD Slaaf Kontrole Module"
-
-#: kcmaudiocd.cpp:183
-msgid "(c) 2000 - 2001 Carsten Duvenhorst"
-msgstr "(c) 2000 - 2001 Carsten Duvenhorst"
-
-#: rc.cpp:2
+#. i18n: file audiocdconfig.ui line 50
+#: rc.cpp:3
 #, no-c-format
-msgid "&CDDA Settings"
-msgstr "Cdda Instellings"
+msgid "&General"
+msgstr ""
 
-#: rc.cpp:4
+#. i18n: file audiocdconfig.ui line 61
+#: rc.cpp:6
 #, no-c-format
 msgid "CD Device"
 msgstr "Cd Toestel"
 
-#: rc.cpp:6
+#. i18n: file audiocdconfig.ui line 78
+#: rc.cpp:9
 #, no-c-format
 msgid "De&termine device automatically"
 msgstr "Bepaal toestel automaties"
 
-#: rc.cpp:8
+#. i18n: file audiocdconfig.ui line 84
+#: rc.cpp:12
 #, no-c-format
 msgid ""
 "Uncheck this if you want to specify a CD device different from the one "
@@ -71,17 +81,20 @@ msgstr ""
 "Ontkies hierdie as jy wil hê na spesifiseer 'n Cd toestel ander van die een "
 "auto-opgespoor"
 
-#: rc.cpp:10
+#. i18n: file audiocdconfig.ui line 106
+#: rc.cpp:15
 #, no-c-format
 msgid "De&vice:"
 msgstr "Toestel:"
 
-#: rc.cpp:12
+#. i18n: file audiocdconfig.ui line 120
+#: rc.cpp:18
 #, no-c-format
 msgid "/dev/cdrom"
 msgstr "/dev/cdrom"
 
-#: rc.cpp:14
+#. i18n: file audiocdconfig.ui line 123
+#: rc.cpp:21
 #, fuzzy, no-c-format
 msgid ""
 "Specify a location for the drive you want to use. Normally, this is a file "
@@ -90,17 +103,20 @@ msgstr ""
 "Spesifiseer 'n ligging vir die dryf jy wil hê na gebruik. Gewoonlik, "
 "hierdie is 'n lêer binne in die /dev gids voorstelling jou Cd of Dvd dryf."
 
-#: rc.cpp:16
+#. i18n: file audiocdconfig.ui line 135
+#: rc.cpp:24
 #, no-c-format
 msgid "Error Correction Settings"
 msgstr "Fout Regstelling Instellings"
 
-#: rc.cpp:18
+#. i18n: file audiocdconfig.ui line 152
+#: rc.cpp:27
 #, no-c-format
 msgid "Enable &error correction"
 msgstr "Aktiveer fout regstelling"
 
-#: rc.cpp:20
+#. i18n: file audiocdconfig.ui line 158
+#: rc.cpp:30
 #, no-c-format
 msgid ""
 "If you check this option, the slave will not try to use error correction "
@@ -108,35 +124,128 @@ msgid ""
 "problematic in some cases, so you can switch it off here."
 msgstr ""
 
-#: rc.cpp:22
+#. i18n: file audiocdconfig.ui line 166
+#: rc.cpp:33
 #, no-c-format
 msgid "&Skip on errors"
 msgstr "Spring op foute"
 
-#: rc.cpp:24
+#. i18n: file audiocdconfig.ui line 179
+#: rc.cpp:36
+#, no-c-format
+msgid "Encoder Priority"
+msgstr ""
+
+#. i18n: file audiocdconfig.ui line 210
+#: rc.cpp:39
 #, fuzzy, no-c-format
-msgid "File Names"
+msgid "Highest"
+msgstr "Hoog"
+
+#. i18n: file audiocdconfig.ui line 218
+#: rc.cpp:42
+#, fuzzy, no-c-format
+msgid "Lowest"
+msgstr "Lae"
+
+#. i18n: file audiocdconfig.ui line 229
+#: rc.cpp:45
+#, no-c-format
+msgid "Normal"
+msgstr ""
+
+#. i18n: file audiocdconfig.ui line 261
+#: rc.cpp:48
+#, fuzzy, no-c-format
+msgid "&Names"
 msgstr "Filter Instellings"
 
-#: rc.cpp:26
-#, fuzzy, no-c-format
-msgid "File Name Settings"
-msgstr "Filter Instellings"
+#. i18n: file audiocdconfig.ui line 272
+#: rc.cpp:51
+#, no-c-format
+msgid "File Name (without extension)"
+msgstr ""
 
-#: rc.cpp:28
+#. i18n: file audiocdconfig.ui line 289
+#: rc.cpp:54
 #, no-c-format
 msgid ""
-"Please enter the filename without an extension that should be used.\n"
-"\n"
 "The following macros will be expanded:\n"
-"\n"
 "%{title}  \t\tTrack Title\n"
 "%{number}\tTrack Number\n"
-"%{year}\t\tYear\n"
-"%{genre}\tGenre\n"
 "%{albumtitle}\tAlbum Title\n"
-"%{albumartist}\tAlbum Artist"
+"%{albumartist}\tAlbum Artist\n"
+"%{year}\t\tYear\n"
+"%{genre}\tGenre"
 msgstr ""
+
+#. i18n: file audiocdconfig.ui line 304
+#: rc.cpp:63
+#, fuzzy, no-c-format
+msgid "Album Name"
+msgstr "Filter Instellings"
+
+#. i18n: file audiocdconfig.ui line 319
+#: rc.cpp:66
+#, no-c-format
+msgid ""
+"The following macros will be expanded:\n"
+"%{albumtitle}\tAlbum Title\n"
+"%{albumartist}\tAlbum Artist\n"
+"%{year}\t\tYear\n"
+"%{genre}\tGenre"
+msgstr ""
+
+#. i18n: file audiocdconfig.ui line 334
+#: rc.cpp:73
+#, no-c-format
+msgid "Name Regular Expression Replacement"
+msgstr ""
+
+#. i18n: file audiocdconfig.ui line 345
+#: rc.cpp:76
+#, no-c-format
+msgid "Selection:"
+msgstr ""
+
+#. i18n: file audiocdconfig.ui line 354
+#: rc.cpp:79
+#, no-c-format
+msgid ""
+"Regular expression used on all file names. For example using selection \" \" "
+"and replace with \"_\" would replace all the spaces with underlines.\n"
+msgstr ""
+
+#. i18n: file audiocdconfig.ui line 365
+#: rc.cpp:83
+#, no-c-format
+msgid "Input:"
+msgstr ""
+
+#. i18n: file audiocdconfig.ui line 373
+#: rc.cpp:86
+#, no-c-format
+msgid "Output:"
+msgstr ""
+
+#. i18n: file audiocdconfig.ui line 381
+#: rc.cpp:89
+#, no-c-format
+msgid "Example"
+msgstr ""
+
+#. i18n: file audiocdconfig.ui line 415
+#: rc.cpp:98
+#, no-c-format
+msgid "Replace with:"
+msgstr ""
+
+#~ msgid "&CDDA Settings"
+#~ msgstr "Cdda Instellings"
+
+#, fuzzy
+#~ msgid "File Name Settings"
+#~ msgstr "Filter Instellings"
 
 #~ msgid "Form1"
 #~ msgstr "Vorm1"
@@ -218,17 +327,8 @@ msgstr ""
 #~ msgstr "Voeg by navolg informasie"
 
 #, fuzzy
-#~ msgid ""
-#~ "Add a description of the song to the file header. This makes it easy for "
-#~ "the user to get advanced song information shown by his media player. You "
-#~ "can get this information automatically via the Internet. Look at the <i>"
-#~ "\"CDDB Retrieval\"</i> control module for details."
-#~ msgstr ""
-#~ "Voeg deur 'n beskrywing van die Liedjie na die Lêer-opskrif. Hierdie maak "
-#~ "dit maklike vir die gebruiker na kry gevorderde Liedjie informasie "
-#~ "vertoon deur sy media speler. Jy kan kry Hierdie informasie automaties "
-#~ "deur middel van die Internet. Kyk na die <i>\"Cddb Instellings\"</i> "
-#~ "oortjie vir details."
+#~ msgid "Add a description of the song to the file header. This makes it easy for the user to get advanced song information shown by his media player. You can get this information automatically via the Internet. Look at the <i>\"CDDB Retrieval\"</i> control module for details."
+#~ msgstr "Voeg deur 'n beskrywing van die Liedjie na die Lêer-opskrif. Hierdie maak dit maklike vir die gebruiker na kry gevorderde Liedjie informasie vertoon deur sy media speler. Jy kan kry Hierdie informasie automaties deur middel van die Internet. Kyk na die <i>\"Cddb Instellings\"</i> oortjie vir details."
 
 #~ msgid "&MP3 Settings"
 #~ msgstr "Mp3 Instellings"
@@ -236,12 +336,8 @@ msgstr ""
 #~ msgid "Encoding Method"
 #~ msgstr "Enkodering Metode"
 
-#~ msgid ""
-#~ "The encoding method influences the sound files' quality, size and "
-#~ "streaming behavior."
-#~ msgstr ""
-#~ "Die enkodering metode beïnvloed Die klank files' kwaliteit, grootte en "
-#~ "stroomende gedrag."
+#~ msgid "The encoding method influences the sound files' quality, size and streaming behavior."
+#~ msgstr "Die enkodering metode beïnvloed Die klank files' kwaliteit, grootte en stroomende gedrag."
 
 #~ msgid "Constant Bitrate"
 #~ msgstr "Konstante Bistempo"
@@ -249,16 +345,8 @@ msgstr ""
 #~ msgid "Variable Bitrate"
 #~ msgstr "Veranderlike Bistempo"
 
-#~ msgid ""
-#~ "Choosing <i>Constant Bitrate</i> is safe, while <i>Variable Bitrate</i> "
-#~ "encoding can cause trouble with some media players. However, choosing "
-#~ "variable bitrates usually results in a better quality/size ratio for the "
-#~ "file created."
-#~ msgstr ""
-#~ "Kies <i>Konstante Bistempo</i> is veilig, terwyl <i>Veranderlike "
-#~ "Bistempo</i> enkodering kan veroorsaak probleme met sommige media "
-#~ "spelers. Egter, Kies Veranderlike bistempos gewoonlik resultate in 'n "
-#~ "beter kwaliteit/grootte verhouding vir die lêer geskep."
+#~ msgid "Choosing <i>Constant Bitrate</i> is safe, while <i>Variable Bitrate</i> encoding can cause trouble with some media players. However, choosing variable bitrates usually results in a better quality/size ratio for the file created."
+#~ msgstr "Kies <i>Konstante Bistempo</i> is veilig, terwyl <i>Veranderlike Bistempo</i> enkodering kan veroorsaak probleme met sommige media spelers. Egter, Kies Veranderlike bistempos gewoonlik resultate in 'n beter kwaliteit/grootte verhouding vir die lêer geskep."
 
 #~ msgid "Stereo"
 #~ msgstr "Stereo"
@@ -272,23 +360,11 @@ msgstr ""
 #~ msgid "Mono"
 #~ msgstr "Mono"
 
-#~ msgid ""
-#~ "This option controls whether MP3 files are recorded with one or two "
-#~ "channels. Note that choosing <i>\"Mono\"</i> reduces file size, but also "
-#~ "kills the stereo signal."
-#~ msgstr ""
-#~ "Hierdie opsie kontroles hetsy Mp3 lêers word opgeneem met een of twee "
-#~ "kanale. Nota wat kies <i>\"Mono\"</i> verminder lêer grootte, maar asook "
-#~ "stop die stereo sein."
+#~ msgid "This option controls whether MP3 files are recorded with one or two channels. Note that choosing <i>\"Mono\"</i> reduces file size, but also kills the stereo signal."
+#~ msgstr "Hierdie opsie kontroles hetsy Mp3 lêers word opgeneem met een of twee kanale. Nota wat kies <i>\"Mono\"</i> verminder lêer grootte, maar asook stop die stereo sein."
 
 #~ msgid "&Quality:"
 #~ msgstr "Kwaliteit:"
-
-#~ msgid "High"
-#~ msgstr "Hoog"
-
-#~ msgid "Low"
-#~ msgstr "Lae"
 
 #~ msgid "Cop&yrighted"
 #~ msgstr "Gekopiëreg"
@@ -323,11 +399,8 @@ msgstr ""
 #~ msgid "&Write ID3 tag"
 #~ msgstr "Skryf Id3 etiket"
 
-#~ msgid ""
-#~ "If checked and if cddb support is available, an id3 tag will be appended"
-#~ msgstr ""
-#~ "As nagegaan en As cddb ondersteun is beskikbaar, 'n id3 etiket sal wees "
-#~ "agteraaan bygevoeg"
+#~ msgid "If checked and if cddb support is available, an id3 tag will be appended"
+#~ msgstr "As nagegaan en As cddb ondersteun is beskikbaar, 'n id3 etiket sal wees agteraaan bygevoeg"
 
 #~ msgid "Constant Bitrate Settings"
 #~ msgstr "Konstante Bistempo Instellings"
@@ -338,10 +411,8 @@ msgstr ""
 #~ msgid "320 kbs"
 #~ msgstr "320 kbs"
 
-#~ msgid ""
-#~ "The higher the bitrate, the better the quality and the larger the file."
-#~ msgstr ""
-#~ "Die hoër Die bistempo, Die beter Die kwaliteit en Die grootter Die lêer."
+#~ msgid "The higher the bitrate, the better the quality and the larger the file."
+#~ msgstr "Die hoër Die bistempo, Die beter Die kwaliteit en Die grootter Die lêer."
 
 #~ msgid "Variable Bitrate Settings"
 #~ msgstr "Veranderlike Bistempo Instellings"
@@ -357,11 +428,8 @@ msgstr ""
 #~ msgid "Write &Xing VBR tag"
 #~ msgstr "Skryf Xing Vbr etiket"
 
-#~ msgid ""
-#~ "This writes additional information related to VBR as introduced by Xing."
-#~ msgstr ""
-#~ "Hierdie skryf aditionele informasie verwanter na Vbr as bekendgestel deur "
-#~ "Xing."
+#~ msgid "This writes additional information related to VBR as introduced by Xing."
+#~ msgstr "Hierdie skryf aditionele informasie verwanter na Vbr as bekendgestel deur Xing."
 
 #~ msgid "Minimal &value is a hard limit"
 #~ msgstr "Minimum waarde is 'n hard beperk"
@@ -397,29 +465,14 @@ msgstr ""
 #~ msgid "&Enable CDDB lookups"
 #~ msgstr "Aktiveer Cddb opkyke"
 
-#~ msgid ""
-#~ "CDDB enables you to lookup the song index of your CD by using a database "
-#~ "on the Internet. Thus, information like artist, songname and release year "
-#~ "can be automatically inserted into your MP3 or ogg vorbis file."
-#~ msgstr ""
-#~ "Cddb aktiveer jy na opkyk die liedjie indeks van jou Cd deur te gebruik "
-#~ "'n databasis op die Internet. Dus, informasie hou van kunstenaar, "
-#~ "liedjienaam en vrylaat jaar kan wees automaties ingesit binnein jou Mp3 "
-#~ "of ogg vorbis lêer."
+#~ msgid "CDDB enables you to lookup the song index of your CD by using a database on the Internet. Thus, information like artist, songname and release year can be automatically inserted into your MP3 or ogg vorbis file."
+#~ msgstr "Cddb aktiveer jy na opkyk die liedjie indeks van jou Cd deur te gebruik 'n databasis op die Internet. Dus, informasie hou van kunstenaar, liedjienaam en vrylaat jaar kan wees automaties ingesit binnein jou Mp3 of ogg vorbis lêer."
 
 #~ msgid "&Save remote CDDB entries to local files"
 #~ msgstr "Stoor afgeleë Cddb inskrywings na plaaslike lêers"
 
-#~ msgid ""
-#~ "To speed up further searches, or to support disconnected operation CDDB "
-#~ "entries can be saved into local files. The directory where these are "
-#~ "saved into is the first in the list below. It should be writable to you, "
-#~ "so $HOME/.cddb/ is recommended."
-#~ msgstr ""
-#~ "Na spoed begin verdere soek, of Na ondersteun geontkoppel operasie cddb "
-#~ "inskrywings kan wees gestoor binnein plaaslike lêers. Die gids waar "
-#~ "hierdie word gestoor binnein is Die eerste in Die lys onder. Dit moet "
-#~ "wees skryfbaar Na jy, sodat $Huis/.cddb/ is aanbeveel."
+#~ msgid "To speed up further searches, or to support disconnected operation CDDB entries can be saved into local files. The directory where these are saved into is the first in the list below. It should be writable to you, so $HOME/.cddb/ is recommended."
+#~ msgstr "Na spoed begin verdere soek, of Na ondersteun geontkoppel operasie cddb inskrywings kan wees gestoor binnein plaaslike lêers. Die gids waar hierdie word gestoor binnein is Die eerste in Die lys onder. Dit moet wees skryfbaar Na jy, sodat $Huis/.cddb/ is aanbeveel."
 
 #~ msgid "CDDB Directories"
 #~ msgstr "Cddb Gidse"
@@ -433,12 +486,8 @@ msgstr ""
 #~ msgid ".cddb/"
 #~ msgstr ".cddb/"
 
-#~ msgid ""
-#~ "List all directories where local CDDB entries are also searched. The "
-#~ "first in this list is the directory where entries are saved."
-#~ msgstr ""
-#~ "Lys alle gidse waar plaaslike Cddb inskrywings word asook gesoekte. Die "
-#~ "eerste in hierdie Lys is Die gids waar inskrywings word gestoor."
+#~ msgid "List all directories where local CDDB entries are also searched. The first in this list is the directory where entries are saved."
+#~ msgstr "Lys alle gidse waar plaaslike Cddb inskrywings word asook gesoekte. Die eerste in hierdie Lys is Die gids waar inskrywings word gestoor."
 
 #~ msgid "CDD&B Server"
 #~ msgstr "Cddb Bediener"
