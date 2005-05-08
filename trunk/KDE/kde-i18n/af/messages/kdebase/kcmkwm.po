@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm VERSION\n"
-"POT-Creation-Date: 2005-03-07 01:41+0100\n"
+"POT-Creation-Date: 2005-05-08 01:17+0200\n"
 "PO-Revision-Date: 2002-11-07 11:28+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,39 +25,45 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: main.cpp:98
+#: main.cpp:97
 msgid "&Focus"
 msgstr "Fokus"
 
-#: main.cpp:103
-msgid "Actio&ns"
+#: main.cpp:102 main.cpp:215
+#, fuzzy
+msgid "&Titlebar Actions"
+msgstr "Titelbar double-click:"
+
+#: main.cpp:107 main.cpp:220
+#, fuzzy
+msgid "Window Actio&ns"
 msgstr "Aksies"
 
-#: main.cpp:108
+#: main.cpp:112
 msgid "&Moving"
 msgstr "Beweeg"
 
-#: main.cpp:113
+#: main.cpp:117
 msgid "Ad&vanced"
 msgstr "Gevorderde"
 
-#: main.cpp:118
+#: main.cpp:122
 msgid "&Translucency"
 msgstr ""
 
-#: main.cpp:122
+#: main.cpp:126
 msgid "kcmkwinoptions"
 msgstr "kcmkwinoptions"
 
-#: main.cpp:122
+#: main.cpp:126
 msgid "Window Behavior Configuration Module"
 msgstr "Venster Gedrag Opstelling Module"
 
-#: main.cpp:124
+#: main.cpp:128
 msgid "(c) 1997 - 2002 KWin and KControl Authors"
 msgstr "(c) 1997 - 2002 Kwin en Kcontrol Outeure"
 
-#: main.cpp:183
+#: main.cpp:190
 #, fuzzy
 msgid ""
 "<h1>Window Behavior</h1> Here you can customize the way windows behave when "
@@ -99,16 +105,16 @@ msgstr "Maksimeer (vertikaal slegs)"
 msgid "Maximize (horizontal only)"
 msgstr "Maksimeer (horisontaal slegs)"
 
-#: mouse.cpp:161 mouse.cpp:476
+#: mouse.cpp:161 mouse.cpp:734
 #, fuzzy
 msgid "Minimize"
 msgstr "Maksimeer"
 
-#: mouse.cpp:162 mouse.cpp:246 mouse.cpp:279
+#: mouse.cpp:162 mouse.cpp:270 mouse.cpp:303
 msgid "Shade"
 msgstr "Skadu"
 
-#: mouse.cpp:163 mouse.cpp:221 mouse.cpp:242 mouse.cpp:282 mouse.cpp:475
+#: mouse.cpp:163 mouse.cpp:245 mouse.cpp:266 mouse.cpp:306 mouse.cpp:733
 msgid "Lower"
 msgstr "Sagter"
 
@@ -116,7 +122,8 @@ msgstr "Sagter"
 msgid "On All Desktops"
 msgstr ""
 
-#: mouse.cpp:165 mouse.cpp:224 mouse.cpp:245 mouse.cpp:283 mouse.cpp:477
+#: mouse.cpp:165 mouse.cpp:190 mouse.cpp:248 mouse.cpp:269 mouse.cpp:307
+#: mouse.cpp:735 mouse.cpp:762
 msgid "Nothing"
 msgstr "Niks"
 
@@ -125,10 +132,44 @@ msgid "Behavior on <em>double</em> click into the titlebar."
 msgstr "Gedrag op <em>dubbel</em> kliek binnein die titelbar."
 
 #: mouse.cpp:176
+msgid "Titlebar wheel event:"
+msgstr ""
+
+#: mouse.cpp:179
+msgid "Handle mouse wheel events"
+msgstr ""
+
+#: mouse.cpp:184 mouse.cpp:756
+#, fuzzy
+msgid "Raise/Lower"
+msgstr "Wissel Lig & Sagter"
+
+#: mouse.cpp:185 mouse.cpp:757
+msgid "Shade/Unshade"
+msgstr ""
+
+#: mouse.cpp:186 mouse.cpp:758
+#, fuzzy
+msgid "Maximize/Restore"
+msgstr "Maksimeer"
+
+#: mouse.cpp:187 mouse.cpp:759
+msgid "Keep Above/Below"
+msgstr ""
+
+#: mouse.cpp:188 mouse.cpp:760
+msgid "Move to Previous/Next Desktop"
+msgstr ""
+
+#: mouse.cpp:189 mouse.cpp:761
+msgid "Change Opacity"
+msgstr ""
+
+#: mouse.cpp:200
 msgid "Titlebar && Frame"
 msgstr "Titelbar && Raam"
 
-#: mouse.cpp:180
+#: mouse.cpp:204
 msgid ""
 "Here you can customize mouse click behavior when clicking on the titlebar or "
 "the frame of a window."
@@ -136,11 +177,11 @@ msgstr ""
 "Hier jy kan pasmaak muis kliek gedrag wanneer te kliek op die titelbar van "
 "die raam van 'n venster."
 
-#: mouse.cpp:188 mouse.cpp:313 mouse.cpp:358
+#: mouse.cpp:212 mouse.cpp:337 mouse.cpp:611
 msgid "Left button:"
 msgstr "Links knoppie:"
 
-#: mouse.cpp:189 mouse.cpp:359 mouse.cpp:437
+#: mouse.cpp:213 mouse.cpp:612 mouse.cpp:690
 msgid ""
 "In this row you can customize left click behavior when clicking into the "
 "titlebar or the frame."
@@ -148,11 +189,11 @@ msgstr ""
 "In hierdie ry jy kan pasmaak links kliek gedrag wanneer te kliek binnein die "
 "titelbar of die raam."
 
-#: mouse.cpp:192 mouse.cpp:315 mouse.cpp:362
+#: mouse.cpp:216 mouse.cpp:339 mouse.cpp:615
 msgid "Right button:"
 msgstr "Regterkant knoppie:"
 
-#: mouse.cpp:193 mouse.cpp:363 mouse.cpp:441
+#: mouse.cpp:217 mouse.cpp:616 mouse.cpp:694
 msgid ""
 "In this row you can customize right click behavior when clicking into the "
 "titlebar or the frame."
@@ -160,11 +201,11 @@ msgstr ""
 "In hierdie ry jy kan pasmaak regterkant kliek gedrag wanneer te kliek "
 "binnein die titelbar of die raam."
 
-#: mouse.cpp:205 mouse.cpp:314 mouse.cpp:384
+#: mouse.cpp:229 mouse.cpp:338 mouse.cpp:637
 msgid "Middle button:"
 msgstr "Middelste knoppie:"
 
-#: mouse.cpp:206
+#: mouse.cpp:230
 msgid ""
 "In this row you can customize middle click behavior when clicking into the "
 "titlebar or the frame."
@@ -172,11 +213,11 @@ msgstr ""
 "In hierdie ry jy kan pasmaak middelste kliek gedrag wanneer te kliek binnein "
 "die titelbar of die raam."
 
-#: mouse.cpp:213
+#: mouse.cpp:237
 msgid "Active"
 msgstr "Aktief"
 
-#: mouse.cpp:215
+#: mouse.cpp:239
 msgid ""
 "In this column you can customize mouse clicks into the titlebar or the frame "
 "of an active window."
@@ -184,19 +225,19 @@ msgstr ""
 "In hierdie kolom jy kan pasmaak muis klieke binnein die titelbar van die "
 "raam van 'n aktief venster."
 
-#: mouse.cpp:220 mouse.cpp:241 mouse.cpp:281 mouse.cpp:474
+#: mouse.cpp:244 mouse.cpp:265 mouse.cpp:305 mouse.cpp:732
 msgid "Raise"
 msgstr "Lig"
 
-#: mouse.cpp:222 mouse.cpp:243 mouse.cpp:280
+#: mouse.cpp:246 mouse.cpp:267 mouse.cpp:304
 msgid "Operations Menu"
 msgstr "Operasies Kieslys"
 
-#: mouse.cpp:223 mouse.cpp:244 mouse.cpp:472
+#: mouse.cpp:247 mouse.cpp:268 mouse.cpp:730
 msgid "Toggle Raise & Lower"
 msgstr "Wissel Lig & Sagter"
 
-#: mouse.cpp:228
+#: mouse.cpp:252
 msgid ""
 "Behavior on <em>left</em> click into the titlebar or frame of an "
 "<em>active</em> window."
@@ -204,7 +245,7 @@ msgstr ""
 "Gedrag op <em>links</em> kliek binnein die titelbar van raam van 'n "
 "<em>aktief</em> venster."
 
-#: mouse.cpp:231
+#: mouse.cpp:255
 msgid ""
 "Behavior on <em>right</em> click into the titlebar or frame of an "
 "<em>active</em> window."
@@ -212,7 +253,7 @@ msgstr ""
 "Gedrag op <em>regterkant</em> kliek binnein die titelbar van raam van 'n "
 "<em>aktief</em> venster."
 
-#: mouse.cpp:252
+#: mouse.cpp:276
 msgid ""
 "Behavior on <em>middle</em> click into the titlebar or frame of an "
 "<em>active</em> window."
@@ -220,7 +261,7 @@ msgstr ""
 "Gedrag op <em>middelste</em> kliek binnein die titelbar van raam van 'n "
 "<em>aktief</em> venster."
 
-#: mouse.cpp:261
+#: mouse.cpp:285
 msgid ""
 "Behavior on <em>left</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
@@ -228,7 +269,7 @@ msgstr ""
 "Gedrag op <em>links</em> kliek binnein die titelbar van raam van 'n "
 "<em>onaktiewe</em> venster."
 
-#: mouse.cpp:264
+#: mouse.cpp:288
 msgid ""
 "Behavior on <em>right</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
@@ -236,11 +277,11 @@ msgstr ""
 "Gedrag op <em>regterkant</em> kliek binnein die titelbar van raam van 'n "
 "<em>onaktiewe</em> venster."
 
-#: mouse.cpp:270
+#: mouse.cpp:294
 msgid "Inactive"
 msgstr "Onaktiewe"
 
-#: mouse.cpp:272
+#: mouse.cpp:296
 msgid ""
 "In this column you can customize mouse clicks into the titlebar or the frame "
 "of an inactive window."
@@ -248,19 +289,19 @@ msgstr ""
 "In hierdie kolom jy kan pasmaak muis klieke binnein die titelbar van die "
 "raam van 'n onaktiewe venster."
 
-#: mouse.cpp:276 mouse.cpp:396
+#: mouse.cpp:300 mouse.cpp:649
 msgid "Activate & Raise"
 msgstr "Aktiveer & Lig"
 
-#: mouse.cpp:277
+#: mouse.cpp:301
 msgid "Activate & Lower"
 msgstr "Aktiveer & Sagter"
 
-#: mouse.cpp:278 mouse.cpp:395
+#: mouse.cpp:302 mouse.cpp:648
 msgid "Activate"
 msgstr "Aktiveer"
 
-#: mouse.cpp:295
+#: mouse.cpp:319
 msgid ""
 "Behavior on <em>middle</em> click into the titlebar or frame of an "
 "<em>inactive</em> window."
@@ -268,38 +309,38 @@ msgstr ""
 "Gedrag op <em>middelste</em> kliek binnein die titelbar van raam van 'n "
 "<em>onaktiewe</em> venster."
 
-#: mouse.cpp:305
+#: mouse.cpp:329
 #, fuzzy
 msgid "Maximize Button"
 msgstr "Maksimeer"
 
-#: mouse.cpp:310
+#: mouse.cpp:334
 #, fuzzy
 msgid "Here you can customize behavior when clicking on the maximize button."
 msgstr ""
 "Hier jy kan pasmaak muis kliek gedrag wanneer dubbel te kliek op die "
 "titelbar van 'n venster."
 
-#: mouse.cpp:318
+#: mouse.cpp:342
 #, fuzzy
 msgid "Behavior on <em>left</em> click onto the maximize button."
 msgstr "Gedrag op <em>dubbel</em> kliek binnein die titelbar."
 
-#: mouse.cpp:319
+#: mouse.cpp:343
 #, fuzzy
 msgid "Behavior on <em>middle</em> click onto the maximize button."
 msgstr "Gedrag op <em>dubbel</em> kliek binnein die titelbar."
 
-#: mouse.cpp:320
+#: mouse.cpp:344
 #, fuzzy
 msgid "Behavior on <em>right</em> click onto the maximize button."
 msgstr "Gedrag op <em>dubbel</em> kliek binnein die titelbar."
 
-#: mouse.cpp:349
+#: mouse.cpp:602
 msgid "Inactive Inner Window"
 msgstr "Onaktiewe Binneste Venster"
 
-#: mouse.cpp:353
+#: mouse.cpp:606
 msgid ""
 "Here you can customize mouse click behavior when clicking on an inactive "
 "inner window ('inner' means: not titlebar, not frame)."
@@ -307,7 +348,7 @@ msgstr ""
 "Hier jy kan pasmaak muis kliek gedrag wanneer te kliek op 'n onaktiewe "
 "binneste venster ('binneste' beteken: nie titelbar, nie raam)."
 
-#: mouse.cpp:372
+#: mouse.cpp:625
 msgid ""
 "In this row you can customize left click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -315,7 +356,7 @@ msgstr ""
 "In hierdie ry jy kan pasmaak links kliek gedrag wanneer te kliek binnein 'n "
 "onaktiewe binneste venster ('binneste' beteken: nie titelbar, nie raam)."
 
-#: mouse.cpp:375
+#: mouse.cpp:628
 msgid ""
 "In this row you can customize right click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -324,7 +365,7 @@ msgstr ""
 "binnein 'n onaktiewe binneste venster ('binneste' beteken: nie titelbar, nie "
 "raam)."
 
-#: mouse.cpp:385
+#: mouse.cpp:638
 msgid ""
 "In this row you can customize middle click behavior when clicking into an "
 "inactive inner window ('inner' means: not titlebar, not frame)."
@@ -332,29 +373,29 @@ msgstr ""
 "In hierdie ry jy kan pasmaak middelste kliek gedrag wanneer te kliek binnein "
 "'n onaktiewe binneste venster ('binneste' beteken: nie titelbar, nie raam)."
 
-#: mouse.cpp:393
+#: mouse.cpp:646
 msgid "Activate, Raise & Pass Click"
 msgstr "Aktiveer, Lig & Herhaling Kliek"
 
-#: mouse.cpp:394
+#: mouse.cpp:647
 msgid "Activate & Pass Click"
 msgstr "Aktiveer & Herhaling Kliek"
 
-#: mouse.cpp:419
+#: mouse.cpp:672
 msgid "Inner Window, Titlebar && Frame"
 msgstr "Binneste Venster, Titelbar && Raam"
 
-#: mouse.cpp:423
+#: mouse.cpp:676
 msgid ""
 "Here you can customize KDE's behavior when clicking somewhere into a window "
 "while pressing a modifier key."
 msgstr ""
 
-#: mouse.cpp:429
+#: mouse.cpp:682
 msgid "Modifier key:"
 msgstr "Modifiseerder sleutel:"
 
-#: mouse.cpp:431
+#: mouse.cpp:684
 msgid ""
 "Here you select whether holding the Meta key or Alt key will allow you to "
 "perform the following actions."
@@ -362,38 +403,52 @@ msgstr ""
 "Hier jy kies hetsy hou die Meta sleutel of Alt sleutel sal toelaat jy na aan "
 "te bring die volgende aksies."
 
-#: mouse.cpp:436
+#: mouse.cpp:689
 msgid "Modifier key + left button:"
 msgstr "Modifiseerder sleutel + links knoppie:"
 
-#: mouse.cpp:440
+#: mouse.cpp:693
 msgid "Modifier key + right button:"
 msgstr "Modifiseerder sleutel + regterkant knoppie:"
 
-#: mouse.cpp:453
+#: mouse.cpp:706
 msgid "Modifier key + middle button:"
 msgstr "Modifiseerder sleutel + middelste knoppie:"
 
-#: mouse.cpp:454
+#: mouse.cpp:707
 msgid ""
 "Here you can customize KDE's behavior when middle clicking into a window "
 "while pressing the modifier key."
 msgstr ""
 
-#: mouse.cpp:463
+#: mouse.cpp:714
+#, fuzzy
+msgid "Modifier key + mouse wheel:"
+msgstr "Modifiseerder sleutel + middelste knoppie:"
+
+#: mouse.cpp:715
+#, fuzzy
+msgid ""
+"Here you can customize KDE's behavior when scrolling with the mouse wheel  "
+"in a window while pressing the modifier key."
+msgstr ""
+"Hier jy kan pasmaak muis kliek gedrag wanneer te kliek op die titelbar van "
+"die raam van 'n venster."
+
+#: mouse.cpp:721
 msgid "Meta"
 msgstr "Meta"
 
-#: mouse.cpp:464
+#: mouse.cpp:722
 msgid "Alt"
 msgstr "Alt"
 
-#: mouse.cpp:471
+#: mouse.cpp:729
 #, fuzzy
 msgid "Activate, Raise and Move"
 msgstr "Aktiveer & Lig"
 
-#: mouse.cpp:473
+#: mouse.cpp:731
 msgid "Resize"
 msgstr "Hervergroot"
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpilot VERSION\n"
-"POT-Creation-Date: 2005-04-20 15:08+0200\n"
+"POT-Creation-Date: 2005-05-08 01:26+0200\n"
 "PO-Revision-Date: 2002-11-07 11:38+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -13,45 +13,45 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: lib/pilotTodoEntry.cc:112
+#: lib/pilotTodoEntry.cc:121
 #, fuzzy
 msgid "Completed"
 msgstr "(uitgevee)"
 
-#: lib/pilotTodoEntry.cc:114
+#: lib/pilotTodoEntry.cc:123
 #, fuzzy
 msgid "Not completed"
 msgstr "Hotsync Klaar.<br>"
 
-#: lib/pilotTodoEntry.cc:122
+#: lib/pilotTodoEntry.cc:131
 #, c-format
 msgid "Due date: %1"
 msgstr ""
 
-#: lib/pilotTodoEntry.cc:130
+#: lib/pilotTodoEntry.cc:139
 #, c-format
 msgid "Priority: %1"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:260 lib/pilotTodoEntry.cc:137
+#: lib/pilotDateEntry.cc:266 lib/pilotTodoEntry.cc:146
 msgid "<b><em>Note:</em></b><br>"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:260 lib/pilotTodoEntry.cc:137
+#: lib/pilotDateEntry.cc:266 lib/pilotTodoEntry.cc:146
 #, fuzzy
 msgid ""
 "Note:\n"
 msgstr "Geen"
 
-#: lib/pilotSerialDatabase.cc:392
+#: lib/pilotSerialDatabase.cc:398
 msgid "Cannot open database"
 msgstr "Kan nie open databasis"
 
-#: lib/pilotSerialDatabase.cc:393
+#: lib/pilotSerialDatabase.cc:399
 msgid "Pilot database error"
 msgstr "Pilot databasis fout"
 
-#: lib/pilotSerialDatabase.cc:413
+#: lib/pilotSerialDatabase.cc:419
 msgid "Cannot create database %1 on the handheld"
 msgstr ""
 
@@ -68,7 +68,7 @@ msgid ""
 "%2"
 msgstr ""
 
-#: kpilot/addressWidget.cc:400 lib/pilotMemo.cc:144
+#: kpilot/addressWidget.cc:401 lib/pilotMemo.cc:144
 msgid "[unknown]"
 msgstr "[onbekende]"
 
@@ -243,86 +243,86 @@ msgid ""
 msgstr ""
 "Einde van Hotsync\n"
 
-#: lib/recordConduit.cc:155
+#: lib/recordConduit.cc:71 lib/recordConduit.cc:236
 #, fuzzy
 msgid "Unable to open the %1 database on the handheld."
 msgstr "Nie moontlik na open die adresboek."
 
-#: lib/recordConduit.cc:161
+#: lib/recordConduit.cc:242
 #, fuzzy, c-format
 msgid "Unable to open %1."
 msgstr "Nie moontlik na open lêer &quot;%1quot;!"
 
-#: lib/pilotDateEntry.cc:162
+#: lib/pilotDateEntry.cc:168
 #, fuzzy, c-format
 msgid "Start date: %1"
 msgstr "Staat:"
 
-#: lib/pilotDateEntry.cc:168
+#: lib/pilotDateEntry.cc:174
 msgid "Whole-day event"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:176
+#: lib/pilotDateEntry.cc:182
 #, c-format
 msgid "End date: %1"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:183
+#: lib/pilotDateEntry.cc:189
 msgid ""
 "_: %1 is the duration, %2 is the time unit\n"
 "Alarm: %1 %2 before event starts"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:187
+#: lib/pilotDateEntry.cc:193
 msgid "minutes"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:188
+#: lib/pilotDateEntry.cc:194
 msgid "hours"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:189
+#: lib/pilotDateEntry.cc:195
 msgid "days"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:199
+#: lib/pilotDateEntry.cc:205
 msgid "Recurrence: every %1 %2"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:205
+#: lib/pilotDateEntry.cc:211
 msgid "day(s)"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:206
+#: lib/pilotDateEntry.cc:212
 msgid "week(s)"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:208
+#: lib/pilotDateEntry.cc:214
 msgid "month(s)"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:209
+#: lib/pilotDateEntry.cc:215
 msgid "year(s)"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:218
+#: lib/pilotDateEntry.cc:224
 msgid "Repeats indefinitely"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:223
+#: lib/pilotDateEntry.cc:229
 #, c-format
 msgid "Until %1"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:227
+#: lib/pilotDateEntry.cc:233
 msgid "Repeating on the i-th day of week j"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:228
+#: lib/pilotDateEntry.cc:234
 msgid "Repeating on the n-th day of the month"
 msgstr ""
 
-#: lib/pilotDateEntry.cc:246
+#: lib/pilotDateEntry.cc:252
 #, fuzzy
 msgid "Exceptions:"
 msgstr "Toestel Opsies"
@@ -664,12 +664,17 @@ msgstr "Konfigureer die Knotas Pad vir Kpilot"
 msgid "UI"
 msgstr "Ui"
 
-#: conduits/knotes/knotes-action.cc:222
+#: conduits/knotes/knotes-action.cc:232
+#, fuzzy
+msgid "Could not open MemoDB on the Handheld."
+msgstr "Nie moontlik na open die adresboek."
+
+#: conduits/knotes/knotes-action.cc:262
 #, fuzzy
 msgid "No DCOP connection could be made. The conduit cannot function without DCOP."
 msgstr "Nee Dcop verbinding kon wees gemaak. Die pad kan nie funksie hou van hierdie."
 
-#: conduits/knotes/knotes-action.cc:238
+#: conduits/knotes/knotes-action.cc:277
 msgid ""
 "KNotes is not running. The conduit must be able to make a DCOP connection to "
 "KNotes for synchronization to take place. Please start KNotes and try again."
@@ -678,18 +683,13 @@ msgstr ""
 "verbinding na Knotas vir sinkronisasie na neem plek. Asseblief begin Knotas "
 "en probeer weer."
 
-#: conduits/knotes/knotes-action.cc:255
+#: conduits/knotes/knotes-action.cc:294
 msgid ""
 "Could not retrieve list of notes from KNotes. The KNotes conduit will not be "
 "run."
 msgstr ""
 
-#: conduits/knotes/knotes-action.cc:268
-#, fuzzy
-msgid "Could not open MemoDB on the Handheld."
-msgstr "Nie moontlik na open die adresboek."
-
-#: conduits/knotes/knotes-action.cc:789
+#: conduits/knotes/knotes-action.cc:803
 #, c-format
 msgid ""
 "_n: Added one new memo.\n"
@@ -698,7 +698,7 @@ msgstr ""
 "Bygevoeg een nuwe memo.\n"
 "Bygevoeg %n nuwe memos."
 
-#: conduits/knotes/knotes-action.cc:795
+#: conduits/knotes/knotes-action.cc:809
 #, c-format
 msgid ""
 "_n: Modified one memo.\n"
@@ -707,7 +707,7 @@ msgstr ""
 "Veranderde een memo.\n"
 "Veranderde %n memos."
 
-#: conduits/knotes/knotes-action.cc:802
+#: conduits/knotes/knotes-action.cc:816
 #, fuzzy, c-format
 msgid ""
 "_n: Deleted one memo.\n"
@@ -716,7 +716,7 @@ msgstr ""
 "Bygevoeg een memo na Knotas.\n"
 "Bygevoeg %n memos na Knotas."
 
-#: conduits/knotes/knotes-action.cc:808
+#: conduits/knotes/knotes-action.cc:822
 #, fuzzy, c-format
 msgid ""
 "_n: Added one note to KNotes.\n"
@@ -725,7 +725,7 @@ msgstr ""
 "Bygevoeg een memo na Knotas.\n"
 "Bygevoeg %n memos na Knotas."
 
-#: conduits/knotes/knotes-action.cc:814
+#: conduits/knotes/knotes-action.cc:828
 #, fuzzy, c-format
 msgid ""
 "_n: Modified one note in KNotes.\n"
@@ -734,7 +734,7 @@ msgstr ""
 "Veranderde een memo.\n"
 "Veranderde %n memos."
 
-#: conduits/knotes/knotes-action.cc:820
+#: conduits/knotes/knotes-action.cc:834
 #, fuzzy, c-format
 msgid ""
 "_n: Deleted one note from KNotes.\n"
@@ -743,7 +743,7 @@ msgstr ""
 "Bygevoeg een memo na Knotas.\n"
 "Bygevoeg %n memos na Knotas."
 
-#: conduits/knotes/knotes-action.cc:825
+#: conduits/knotes/knotes-action.cc:839
 msgid "No change to KNotes."
 msgstr ""
 
@@ -901,157 +901,157 @@ msgid ""
 "temporary local file \"%2\" manually"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:732
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:725
 msgid "Unable to open the addressbook databases on the handheld."
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:744
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:737
 msgid "Unable to open the addressbook."
 msgstr "Nie moontlik na open die adresboek."
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1736
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1792
 msgid "Item on PC"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1737
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1793
 #: conduits/vcalconduit/vcal-conduitbase.cc:670
 msgid "Handheld"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1738
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1794
 #, fuzzy
 msgid "Last sync"
 msgstr "Fastsync"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1759
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1815
 #, fuzzy
 msgid "Last name"
 msgstr "Laaste naam:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1760
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1816
 #, fuzzy
 msgid "First name"
 msgstr "Eerste naam:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1761
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1817
 #, fuzzy
 msgid "Organization"
 msgstr "organisasie"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1762
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1818
 #, fuzzy
 msgid "Title"
 msgstr "Titel:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1763
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1819
 #, fuzzy
 msgid "Note"
 msgstr "Geen"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1764
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1820
 #, fuzzy
 msgid "Custom 1"
 msgstr "Pasmaak 1:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1765
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1821
 #, fuzzy
 msgid "Custom 2"
 msgstr "Pasmaak 2:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1766
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1822
 #, fuzzy
 msgid "Custom 3"
 msgstr "Pasmaak 3:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1767
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1823
 #, fuzzy
 msgid "Custom 4"
 msgstr "Pasmaak 4:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1768
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1824
 #, fuzzy
 msgid "Work Phone"
 msgstr "Werk foon:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1769
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1825
 #, fuzzy
 msgid "Home Phone"
 msgstr "Huis Foon 2"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1770
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1826
 #, fuzzy
 msgid "Mobile Phone"
 msgstr "Mobiele foon:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1771
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1827
 #, fuzzy
 msgid "Fax"
 msgstr "faks"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1772
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1828
 #, fuzzy
 msgid "Pager"
 msgstr "boodskapper"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1773
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1829
 #, fuzzy
 msgid "Other"
 msgstr "ander"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1774
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1830
 #, fuzzy
 msgid "Email"
 msgstr "E-pos:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1777
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1833
 #, fuzzy
 msgid "Address"
 msgstr "Adres:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1778
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1834
 #, fuzzy
 msgid "City"
 msgstr "Stad:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1779
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1835
 #, fuzzy
 msgid "Region"
 msgstr "streek"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1780
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1836
 #, fuzzy
 msgid "Postal code"
 msgstr "pos kode"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1781
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1837
 #, fuzzy
 msgid "Country"
 msgstr "Land:"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1783 kpilot/listCat.cc:88
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1839 kpilot/listCat.cc:88
 msgid "Category"
 msgstr "Kategorie"
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1934
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1990
 msgid ""
 "The following address entry was changed, but does no longer exist on the "
 "handheld. Please resolve this conflict:"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1938
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1994
 msgid ""
 "The following address entry was changed, but does no longer exist on the PC. "
 "Please resolve this conflict:"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1942
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:1998
 msgid ""
 "The following address entry was changed on the handheld as well as on the PC "
 "side. The changes could not be merged automatically, so please resolve the "
 "conflict yourself:"
 msgstr ""
 
-#: conduits/abbrowserconduit/abbrowser-conduit.cc:1944
+#: conduits/abbrowserconduit/abbrowser-conduit.cc:2000
 msgid "Address conflict"
 msgstr "Adres konflik"
 
@@ -2127,22 +2127,22 @@ msgstr ""
 msgid "<qt><b>HotSync Log</b></qt>"
 msgstr "<qt><B>Hotsync Log</B></qt>"
 
-#: kpilot/logWidget.cc:147
+#: kpilot/logWidget.cc:144
 msgid ""
 "_: Clear the text of HotSync messages\n"
 "Clear Log"
 msgstr "Maak skoon Log"
 
-#: kpilot/logWidget.cc:149
+#: kpilot/logWidget.cc:146
 msgid "<qt>Clears the list of messages from the current HotSync.</qt>"
 msgstr "<qt>Maak skoon die lys van boodskappe van die huidige Hotsync.</qt>"
 
-#: kpilot/logWidget.cc:153
+#: kpilot/logWidget.cc:150
 #, fuzzy
 msgid "Save Log..."
 msgstr "Stoor Log"
 
-#: kpilot/logWidget.cc:154
+#: kpilot/logWidget.cc:151
 msgid ""
 "<qt>"
 "You can save the list of messages received during this HotSync to a file "
@@ -2153,36 +2153,36 @@ msgstr ""
 "lêer (vir voorbeeld vir gebruik in 'n fout raporteer) deur te kliek "
 "hier.</qt>"
 
-#: kpilot/logWidget.cc:163
+#: kpilot/logWidget.cc:160
 msgid "Sync progress:"
 msgstr "Sinkronisasie vordering:"
 
-#: kpilot/logWidget.cc:166
+#: kpilot/logWidget.cc:163
 msgid "<qt>The (estimated) percentage completed in the current HotSync.</qt>"
 msgstr "<qt>Die (verwagte) persentasie klaar in Die huidige Hotsync.</qt>"
 
-#: kpilot/logWidget.cc:289
+#: kpilot/logWidget.cc:286
 #, fuzzy
 msgid "<b>HotSync Finished.</b>"
 msgstr "<b>Hotsync Klaar gemaak!</b>"
 
-#: kpilot/logWidget.cc:353
+#: kpilot/logWidget.cc:350
 msgid "Save Log"
 msgstr "Stoor Log"
 
-#: kpilot/logWidget.cc:360
+#: kpilot/logWidget.cc:357
 msgid "The file exists. Do you want to overwrite it?"
 msgstr "Die lêer bestaan. Doen jy wil hê na oorskryf dit?"
 
-#: kpilot/logWidget.cc:362
+#: kpilot/logWidget.cc:359
 msgid "File Exists"
 msgstr "Lêer Bestaan"
 
-#: kpilot/logWidget.cc:386
+#: kpilot/logWidget.cc:383
 msgid "<qt>Cannot open the file &quot;%1&quot; for writing; try again?</qt>"
 msgstr ""
 
-#: kpilot/logWidget.cc:388
+#: kpilot/logWidget.cc:385
 msgid "Cannot Save"
 msgstr ""
 
@@ -2841,11 +2841,11 @@ msgstr "Uitvee Opneem"
 msgid "<qt>Delete the selected to-do from the to-do list.</qt>"
 msgstr "<qt>Uitvee die gekose adres van die adres boek.</qt>"
 
-#: kpilot/addressWidget.cc:442 kpilot/todoWidget.cc:372
+#: kpilot/addressWidget.cc:443 kpilot/todoWidget.cc:372
 msgid "Cannot edit new records until HotSynced with Pilot."
 msgstr "Kan nie redigeer nuwe neem op totdat Hotsync met Pilot."
 
-#: kpilot/addressWidget.cc:444 kpilot/addressWidget.cc:581
+#: kpilot/addressWidget.cc:445 kpilot/addressWidget.cc:582
 #: kpilot/todoWidget.cc:374 kpilot/todoWidget.cc:507
 msgid "HotSync Required"
 msgstr "Hotsync Benodig"
@@ -2860,15 +2860,15 @@ msgstr ""
 msgid "Cannot Add New To-do"
 msgstr ""
 
-#: kpilot/addressWidget.cc:579 kpilot/todoWidget.cc:505
+#: kpilot/addressWidget.cc:580 kpilot/todoWidget.cc:505
 msgid "New records cannot be deleted until HotSynced with pilot."
 msgstr "Nuwe neem op kan nie wees uitgevee totdat Hotsync met pilot."
 
-#: kpilot/addressWidget.cc:586 kpilot/todoWidget.cc:512
+#: kpilot/addressWidget.cc:587 kpilot/todoWidget.cc:512
 msgid "Delete currently selected record?"
 msgstr "Uitvee huidiglik gekose opneem?"
 
-#: kpilot/addressWidget.cc:587 kpilot/todoWidget.cc:513
+#: kpilot/addressWidget.cc:588 kpilot/todoWidget.cc:513
 msgid "Delete Record?"
 msgstr "Uitvee Opneem?"
 
@@ -3633,41 +3633,41 @@ msgstr ""
 "<qt>Hierdie lys vertoon alle die adresse in die gekose kategorie. Kliek op "
 "een na vertoon dit na die regterkant.</qt>"
 
-#: kpilot/addressWidget.cc:487
+#: kpilot/addressWidget.cc:488
 msgid ""
 "You cannot add addresses to the address book until you have done a HotSync "
 "at least once to retrieve the database layout from your Pilot."
 msgstr ""
 
-#: kpilot/addressWidget.cc:490
+#: kpilot/addressWidget.cc:491
 msgid "Cannot Add New Address"
 msgstr ""
 
-#: kpilot/addressWidget.cc:688
+#: kpilot/addressWidget.cc:689
 msgid "Export All Addresses"
 msgstr ""
 
-#: kpilot/addressWidget.cc:689
+#: kpilot/addressWidget.cc:690
 #, c-format
 msgid "Export Address Category %1"
 msgstr ""
 
-#: kpilot/addressWidget.cc:700
+#: kpilot/addressWidget.cc:701
 #, fuzzy
 msgid "The file <i>%1</i> exists. Overwrite?"
 msgstr "Die lêer bestaan. Doen jy wil hê na oorskryf dit?"
 
-#: kpilot/addressWidget.cc:701
+#: kpilot/addressWidget.cc:702
 #, fuzzy
 msgid "Overwrite File?"
 msgstr "Oorskryf"
 
-#: kpilot/addressWidget.cc:702
+#: kpilot/addressWidget.cc:703
 #, fuzzy
 msgid "Overwrite"
 msgstr "Oorskryf"
 
-#: kpilot/addressWidget.cc:714
+#: kpilot/addressWidget.cc:715
 #, fuzzy
 msgid "The file <i>%1</i> could not be opened for writing."
 msgstr ""
