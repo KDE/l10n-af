@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knode VERSION\n"
-"POT-Creation-Date: 2005-05-15 01:27+0200\n"
+"POT-Creation-Date: 2005-05-16 01:24+0200\n"
 "PO-Revision-Date: 2002-09-27 16:40+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -271,11 +271,12 @@ msgstr "<b><font size=+1 color=red>'n fout voorgekom!</font></b><hr><br>"
 msgid "Select Charset"
 msgstr "Kies Karakterstel"
 
-#: headerview.cpp:45 knfilterconfigwidget.cpp:34
+#: headerview.cpp:45 knarticlefactory.cpp:312 knfilterconfigwidget.cpp:34
 msgid "Subject"
 msgstr "Onderwerp"
 
-#: headerview.cpp:46 headerview.cpp:442 knfilterconfigwidget.cpp:36
+#: headerview.cpp:46 headerview.cpp:442 knarticlefactory.cpp:313
+#: knfilterconfigwidget.cpp:36
 msgid "From"
 msgstr "Van"
 
@@ -287,7 +288,7 @@ msgstr "Telling"
 msgid "Lines"
 msgstr "Lyne"
 
-#: headerview.cpp:49 headerview.cpp:226
+#: headerview.cpp:49 headerview.cpp:226 knarticlefactory.cpp:314
 msgid "Date"
 msgstr "Datum"
 
@@ -367,21 +368,10 @@ msgstr ""
 msgid "Forwarded message (begin)"
 msgstr "Aangestuurde boodskap (begin)"
 
-#: knarticlefactory.cpp:312
-msgid " Subject"
-msgstr " Onderwerp"
-
-#: knarticlefactory.cpp:313
-msgid " From"
-msgstr " Van"
-
-#: knarticlefactory.cpp:314
-msgid " Date"
-msgstr " Datum"
-
 #: knarticlefactory.cpp:315
-msgid " Newsgroup"
-msgstr " Nuusgroep"
+#, fuzzy
+msgid "Newsgroup"
+msgstr "Nuusgroepe"
 
 #: knarticlefactory.cpp:325
 msgid "Forwarded message (end)"
@@ -411,7 +401,7 @@ msgstr "Nou"
 msgid "&Later"
 msgstr "Later"
 
-#: knarticlefactory.cpp:383 knarticlefactory.cpp:460 kncomposer.cpp:1493
+#: knarticlefactory.cpp:383 knarticlefactory.cpp:460 kncomposer.cpp:1501
 #, fuzzy
 msgid "You have no valid news accounts configured."
 msgstr "Jy het nee geldige nuus rekeninge gekonfigureer!"
@@ -891,7 +881,7 @@ msgstr "Aanheg Lêer..."
 msgid "Sign Article with &PGP"
 msgstr "Teken Artikel met Pgp"
 
-#: kncomposer.cpp:266 kncomposer.cpp:1918
+#: kncomposer.cpp:266 kncomposer.cpp:1926
 msgid "&Properties"
 msgstr "Eienskappe"
 
@@ -1147,7 +1137,7 @@ msgstr ""
 "Nie moontlik na begin eksterne redigeerder.\n"
 "Asseblief bevestig jou opstelling in die instellings dialoog."
 
-#: kncomposer.cpp:1331 kncomposer.cpp:2386
+#: kncomposer.cpp:1331 kncomposer.cpp:2394
 msgid "Spellcheck"
 msgstr "Speltoets"
 
@@ -1187,11 +1177,11 @@ msgstr " Kolom: %1 "
 msgid " Line: %1 "
 msgstr " Lyn: %1 "
 
-#: kncomposer.cpp:1427
+#: kncomposer.cpp:1435
 msgid "No Subject"
 msgstr "Nee Onderwerp"
 
-#: kncomposer.cpp:1647 kncomposer.cpp:2416
+#: kncomposer.cpp:1655 kncomposer.cpp:2424
 msgid ""
 "ISpell could not be started.\n"
 "Please make sure you have ISpell properly configured and in your PATH."
@@ -1200,39 +1190,39 @@ msgstr ""
 "Asseblief maak seker jy het Ispell behoorlik gekonfigureer en in jou Gids "
 "soeklys."
 
-#: kncomposer.cpp:1652 kncomposer.cpp:2421
+#: kncomposer.cpp:1660 kncomposer.cpp:2429
 msgid "ISpell seems to have crashed."
 msgstr "Ispell blyk na het het gestaak."
 
-#: kncomposer.cpp:1659
+#: kncomposer.cpp:1667
 msgid "No misspellings encountered."
 msgstr ""
 
-#: kncomposer.cpp:1734
+#: kncomposer.cpp:1742
 msgid "T&o:"
 msgstr "Na:"
 
-#: kncomposer.cpp:1735
+#: kncomposer.cpp:1743
 msgid "&Browse..."
 msgstr "Blaai..."
 
-#: kncomposer.cpp:1745
+#: kncomposer.cpp:1753
 msgid "&Groups:"
 msgstr "Groepe:"
 
-#: kncomposer.cpp:1746
+#: kncomposer.cpp:1754
 msgid "B&rowse..."
 msgstr "Blaai..."
 
-#: kncomposer.cpp:1756
+#: kncomposer.cpp:1764
 msgid "Follo&wup-To:"
 msgstr "Followup-To:"
 
-#: kncomposer.cpp:1764
+#: kncomposer.cpp:1772
 msgid "S&ubject:"
 msgstr "Onderwerp:"
 
-#: kncomposer.cpp:1794
+#: kncomposer.cpp:1802
 msgid ""
 "You are currently editing the article body\n"
 "in an external editor. To continue, you have\n"
@@ -1242,65 +1232,65 @@ msgstr ""
 "in 'n eksterne redigeerder. Na gaan voort, Jy het\n"
 "Na maak toe die eksterne redigeerder."
 
-#: kncomposer.cpp:1795
+#: kncomposer.cpp:1803
 msgid "&Kill External Editor"
 msgstr "Stop Eksterne Redigeerder"
 
-#: kncomposer.cpp:1909
+#: kncomposer.cpp:1917
 #, fuzzy
 msgid "A&dd..."
 msgstr "Voeg by"
 
-#: kncomposer.cpp:2043
+#: kncomposer.cpp:2051
 #, fuzzy
 msgid "Suggestions"
 msgstr "Vraag"
 
-#: kncomposer.cpp:2483
+#: kncomposer.cpp:2491
 msgid "Type"
 msgstr "Tipe"
 
-#: kncomposer.cpp:2484
+#: kncomposer.cpp:2492
 msgid "Size"
 msgstr "Grootte"
 
-#: kncomposer.cpp:2485 kngroupbrowser.cpp:89 kngrouppropdlg.cpp:73
+#: kncomposer.cpp:2493 kngroupbrowser.cpp:89 kngrouppropdlg.cpp:73
 msgid "Description"
 msgstr "Beskrywing"
 
-#: kncomposer.cpp:2486
+#: kncomposer.cpp:2494
 msgid "Encoding"
 msgstr "Enkodering"
 
-#: kncomposer.cpp:2534
+#: kncomposer.cpp:2542
 msgid "Attachment Properties"
 msgstr "Aanhegsel Eienskappe"
 
-#: kncomposer.cpp:2547 kngrouppropdlg.cpp:79
+#: kncomposer.cpp:2555 kngrouppropdlg.cpp:79
 msgid "Name:"
 msgstr "Naam:"
 
-#: kncomposer.cpp:2549
+#: kncomposer.cpp:2557
 msgid "Size:"
 msgstr "Grootte:"
 
-#: kncomposer.cpp:2556
+#: kncomposer.cpp:2564
 msgid "Mime"
 msgstr "Mime"
 
-#: kncomposer.cpp:2563
+#: kncomposer.cpp:2571
 msgid "&Mime-Type:"
 msgstr "Mime-tipe:"
 
-#: kncomposer.cpp:2568
+#: kncomposer.cpp:2576
 msgid "&Description:"
 msgstr "Beskrywing:"
 
-#: kncomposer.cpp:2582
+#: kncomposer.cpp:2590
 msgid "&Encoding:"
 msgstr "Enkodering:"
 
-#: kncomposer.cpp:2615
+#: kncomposer.cpp:2623
 msgid ""
 "You have set an invalid mime-type.\n"
 "Please change it."
@@ -1308,7 +1298,7 @@ msgstr ""
 "Jy het stel 'n ongeldige mime-tipe.\n"
 "Asseblief verander dit."
 
-#: kncomposer.cpp:2620
+#: kncomposer.cpp:2628
 msgid ""
 "You have changed the mime-type of this non-textual attachment\n"
 "to text. This might cause an error while loading or encoding the file.\n"
@@ -3408,6 +3398,18 @@ msgstr "Nie moontlik na skep tydelike lêer!"
 msgid "A 'news://server/group' URL"
 msgstr "'n 'news://bediener/group' Url."
 
+#~ msgid " Subject"
+#~ msgstr " Onderwerp"
+
+#~ msgid " From"
+#~ msgstr " Van"
+
+#~ msgid " Date"
+#~ msgstr " Datum"
+
+#~ msgid " Newsgroup"
+#~ msgstr " Nuusgroep"
+
 #~ msgid "&Save..."
 #~ msgstr "Stoor..."
 
@@ -3598,9 +3600,6 @@ msgstr "'n 'news://bediener/group' Url."
 
 #~ msgid "Emulate the &keyboard behavior of KMail"
 #~ msgstr "Emuleer die sleutelbord gedrag van Kpos"
-
-#~ msgid "Newsgroups"
-#~ msgstr "Nuusgroepe"
 
 #~ msgid "0 Bytes"
 #~ msgstr "0 Grepe"
