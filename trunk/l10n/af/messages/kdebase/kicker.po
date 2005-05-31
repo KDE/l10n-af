@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kicker HEAD\n"
-"POT-Creation-Date: 2005-05-08 01:18+0200\n"
+"POT-Creation-Date: 2005-05-31 01:24+0200\n"
 "PO-Revision-Date: 2005-05-09 11:29+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -26,11 +26,11 @@ msgstr "Vertoon werkskerm"
 msgid "Desktop Access"
 msgstr "Werkskerm Toegang"
 
-#: buttons/kbutton.cpp:41
+#: buttons/kbutton.cpp:43
 msgid "Applications, tasks and desktop sessions"
 msgstr ""
 
-#: buttons/kbutton.cpp:42 ui/addspecialbutton_mnu.cpp:48 ui/k_mnu.cpp:71
+#: buttons/kbutton.cpp:44 ui/addspecialbutton_mnu.cpp:48 ui/k_mnu.cpp:71
 msgid "K Menu"
 msgstr "K Kieslys"
 
@@ -74,11 +74,11 @@ msgstr ""
 msgid "Applet Loading Error"
 msgstr ""
 
-#: core/container_extension.cpp:1511 core/container_extension.cpp:1524
+#: core/container_extension.cpp:1515 core/container_extension.cpp:1528
 msgid "Show panel"
 msgstr "Vertoon paneel"
 
-#: core/container_extension.cpp:1515 core/container_extension.cpp:1528
+#: core/container_extension.cpp:1519 core/container_extension.cpp:1532
 msgid "Hide panel"
 msgstr "Steek paneel weg"
 
@@ -92,7 +92,7 @@ msgstr ""
 msgid "Fatal Error!"
 msgstr ""
 
-#: core/kickerbindings.cpp:39 ui/removecontainer_mnu.cpp:48
+#: core/kickerbindings.cpp:39
 msgid "Panel"
 msgstr "Paneel"
 
@@ -124,35 +124,55 @@ msgstr ""
 msgid "Kiosk mode"
 msgstr ""
 
-#: core/panelextension.cpp:267
-msgid "&Add to Panel"
+#: core/panelextension.cpp:270
+msgid "Add &Applet to Panel..."
 msgstr ""
 
 #: core/panelextension.cpp:271
 #, fuzzy
+msgid "Add Appli&cation to Panel"
+msgstr "Aansoek Knoppie"
+
+#: core/panelextension.cpp:274
+#, fuzzy
 msgid "&Remove From Panel"
 msgstr "Verwyder %1 Kieslys"
 
-#: core/panelextension.cpp:275
+#: core/panelextension.cpp:277
+#, fuzzy
+msgid "Add New &Panel"
+msgstr "Paneel"
+
+#: core/panelextension.cpp:278
+#, fuzzy
+msgid "Remove Pa&nel"
+msgstr "Verwyder %1 Kieslys"
+
+#: core/panelextension.cpp:283
 msgid "&Configure Panel..."
 msgstr "Konfigureer Paneel..."
 
-#: ui/addcontainer_mnu.cpp:45
+#: ui/addapplet.cpp:175
+#, fuzzy
+msgid "Add Applet"
+msgstr "Miniprogram"
+
+#: ui/addcontainer_mnu.cpp:48 ui/addcontainer_mnu.cpp:49
 #, fuzzy
 msgid "&Applet"
 msgstr "Miniprogram"
 
-#: ui/addcontainer_mnu.cpp:47
+#: ui/addcontainer_mnu.cpp:51
 #, fuzzy
 msgid "Appli&cation"
 msgstr "Programme"
 
-#: ui/addcontainer_mnu.cpp:52
+#: ui/addcontainer_mnu.cpp:56
 #, fuzzy
 msgid "&Panel"
 msgstr "Paneel"
 
-#: ui/addcontainer_mnu.cpp:56
+#: ui/addcontainer_mnu.cpp:60
 #, fuzzy
 msgid "&Special Button"
 msgstr "Spesiaal Knoppie"
@@ -200,33 +220,34 @@ msgstr "Raporteer Fout..."
 msgid "&About %1"
 msgstr "Aangaande %1"
 
-#: ui/appletop_mnu.cpp:127
+#: ui/appletop_mnu.cpp:125
+#, fuzzy
+msgid "&Configure %1 Button..."
+msgstr "Konfigureer %1..."
+
+#: ui/appletop_mnu.cpp:130 ui/extensionop_mnu.cpp:62
+msgid "&Configure %1..."
+msgstr "Konfigureer %1..."
+
+#: ui/appletop_mnu.cpp:143
 #, fuzzy
 msgid "Applet Menu"
 msgstr "Miniprogram"
 
-#: ui/appletop_mnu.cpp:128
+#: ui/appletop_mnu.cpp:144
 #, fuzzy
 msgid "%1 Menu"
 msgstr "%1 kieslys"
 
-#: ui/appletop_mnu.cpp:151
-msgid "&Properties"
-msgstr "Eienskappe"
-
-#: ui/appletop_mnu.cpp:155 ui/extensionop_mnu.cpp:62
-msgid "&Configure %1..."
-msgstr "Konfigureer %1..."
-
-#: ui/appletop_mnu.cpp:167
+#: ui/appletop_mnu.cpp:170
 msgid "&Menu Editor"
 msgstr "Kieslys Redigeerder"
 
-#: ui/appletop_mnu.cpp:182
+#: ui/appletop_mnu.cpp:185
 msgid "&Edit Bookmarks"
 msgstr ""
 
-#: ui/appletop_mnu.cpp:189
+#: ui/appletop_mnu.cpp:192
 msgid "Panel Menu"
 msgstr "Paneel Kieslys"
 
@@ -368,16 +389,18 @@ msgstr "Root Gids"
 msgid "System &Configuration"
 msgstr "Stelsel Opstelling"
 
-#: ui/recentapps.cpp:157
+#: ui/recentapps.cpp:148
 msgid "Recently Used Applications"
 msgstr "Onlangs gebruikte programme"
 
-#: ui/recentapps.cpp:158
+#: ui/recentapps.cpp:149
 msgid "Most Used Applications"
 msgstr "Mees gebruikte programme"
 
-#: ui/removeapplet_mnu.cpp:75 ui/removebutton_mnu.cpp:92
+#. i18n: file ui/appletview.ui line 71
+#: rc.cpp:15 ui/removeapplet_mnu.cpp:75 ui/removebutton_mnu.cpp:92
 #: ui/removeextension_mnu.cpp:93 ui/removespecialbutton_mnu.cpp:83
+#, no-c-format
 msgid "All"
 msgstr "Alle"
 
@@ -389,7 +412,7 @@ msgstr "Miniprogram"
 msgid "Application Button"
 msgstr "Aansoek Knoppie"
 
-#: ui/removecontainer_mnu.cpp:52
+#: ui/removecontainer_mnu.cpp:47
 msgid "Special Button"
 msgstr "Spesiaal Knoppie"
 
@@ -463,8 +486,58 @@ msgid ""
 "Your emails"
 msgstr "frix@expertron.co.za"
 
+#. i18n: file ui/appletview.ui line 35
+#: rc.cpp:6
+#, no-c-format
+msgid "&Search:"
+msgstr ""
+
+#. i18n: file ui/appletview.ui line 54
+#: rc.cpp:9
+#, no-c-format
+msgid "<qt>Type here some text to filter on the applet names and comments</qt>"
+msgstr ""
+
+#. i18n: file ui/appletview.ui line 62
+#: rc.cpp:12
+#, no-c-format
+msgid "S&how:"
+msgstr ""
+
+#. i18n: file ui/appletview.ui line 76
+#: rc.cpp:18
+#, fuzzy, no-c-format
+msgid "Applets"
+msgstr "Miniprogram"
+
+#. i18n: file ui/appletview.ui line 81
+#: rc.cpp:21
+#, fuzzy, no-c-format
+msgid "Special Buttons"
+msgstr "Spesiaal Knoppie"
+
+#. i18n: file ui/appletview.ui line 96
+#: rc.cpp:24
+#, no-c-format
+msgid "<qt>Select here the only applet category that you want to show</qt>"
+msgstr ""
+
+#. i18n: file ui/appletview.ui line 123
+#: rc.cpp:27
+#, no-c-format
+msgid ""
+"<qt>This is the applet list. Select and applet and click on <b>Add to panel</b> "
+"to add it</qt>"
+msgstr ""
+
+#. i18n: file ui/appletview.ui line 156
+#: rc.cpp:30
+#, no-c-format
+msgid "&Add to Panel"
+msgstr ""
+
 #. i18n: file ui/nonKDEButtonSettings.ui line 30
-#: rc.cpp:4 rc.cpp:29
+#: rc.cpp:37 rc.cpp:62
 #, no-c-format
 msgid ""
 "Enter the name of the executable file to be run when this button is selected. "
@@ -472,13 +545,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 38
-#: rc.cpp:7
+#: rc.cpp:40
 #, fuzzy, no-c-format
 msgid "Co&mmand line arguments (optional):"
 msgstr "Opsionele opdrag lyn argumente:"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 46
-#: rc.cpp:10 rc.cpp:21
+#: rc.cpp:43 rc.cpp:54
 #, no-c-format
 msgid ""
 "Enter any command line options that should be passed to the command here.\n"
@@ -487,13 +560,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 54
-#: rc.cpp:15
+#: rc.cpp:48
 #, fuzzy, no-c-format
 msgid "Run in a &terminal window"
 msgstr "Hardloop in terminaal"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 57
-#: rc.cpp:18
+#: rc.cpp:51
 #, no-c-format
 msgid ""
 "Select this option if the command is a command line application and you wish to "
@@ -501,127 +574,130 @@ msgid ""
 msgstr ""
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 75
-#: rc.cpp:26
+#: rc.cpp:59
 #, fuzzy, no-c-format
 msgid "&Executable:"
 msgstr " Uitvoerbare Program"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 97
-#: rc.cpp:32 rc.cpp:38 rc.cpp:45 rc.cpp:48
+#: rc.cpp:65 rc.cpp:71 rc.cpp:78 rc.cpp:81
 #, no-c-format
 msgid "Enter the name you would like to appear for this button here."
 msgstr ""
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 105
-#: rc.cpp:35
+#: rc.cpp:68
 #, fuzzy, no-c-format
 msgid "&Button title:"
 msgstr "Knoppie ikoon:"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 167
-#: rc.cpp:42
+#: rc.cpp:75
 #, no-c-format
 msgid "&Description:"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 14
-#: rc.cpp:51
+#: rc.cpp:84
 #, no-c-format
 msgid "The position of the panel"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 21
-#: rc.cpp:54
+#: rc.cpp:87
 #, no-c-format
 msgid "The alignment of the panel"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 28
-#: rc.cpp:57
+#: rc.cpp:90
 #, no-c-format
 msgid "Primary xinerama screen"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 33
-#: rc.cpp:60
+#: rc.cpp:93
 #, no-c-format
 msgid "Hide button size"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 40
-#: rc.cpp:63
+#: rc.cpp:96
 #, no-c-format
 msgid "Show left panel hide button"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 45
-#: rc.cpp:66
+#: rc.cpp:99
 #, no-c-format
 msgid "Show right panel hide button"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 50
-#: rc.cpp:69
+#: rc.cpp:102
 #, fuzzy, no-c-format
 msgid "Auto hide panel"
 msgstr "Steek paneel weg"
 
 #. i18n: file core/extensionSettings.kcfg line 55
-#: rc.cpp:72
+#: rc.cpp:105
 #, no-c-format
 msgid "Enable auto hide"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 60
-#: rc.cpp:75
+#: rc.cpp:108
 #, no-c-format
 msgid "Delay before auto hide"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 65
-#: rc.cpp:78
+#: rc.cpp:111
 #, no-c-format
 msgid "The trigger location for unhides"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 72
-#: rc.cpp:81
+#: rc.cpp:114
 #, no-c-format
 msgid "Enable background hiding"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 77
-#: rc.cpp:84
+#: rc.cpp:117
 #, no-c-format
 msgid "Animate panel hiding"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 82
-#: rc.cpp:87
+#: rc.cpp:120
 #, no-c-format
 msgid "Panel hiding animation speed"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 87
-#: rc.cpp:90
+#: rc.cpp:123
 #, no-c-format
 msgid "Length in percentage"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 94
-#: rc.cpp:93
+#: rc.cpp:126
 #, no-c-format
 msgid "Expand as required to fit contents"
 msgstr ""
 
 #. i18n: file core/extensionSettings.kcfg line 99
-#: rc.cpp:96
+#: rc.cpp:129
 #, no-c-format
 msgid "Size"
 msgstr "Grootte"
 
 #. i18n: file core/extensionSettings.kcfg line 104
-#: rc.cpp:99
+#: rc.cpp:132
 #, no-c-format
 msgid "Custom size"
 msgstr "Pasmaak Grootte"
+
+#~ msgid "&Properties"
+#~ msgstr "Eienskappe"
