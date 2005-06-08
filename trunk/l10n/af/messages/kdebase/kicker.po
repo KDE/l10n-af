@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kicker HEAD\n"
-"POT-Creation-Date: 2005-05-31 01:24+0200\n"
+"POT-Creation-Date: 2005-06-08 01:24+0200\n"
 "PO-Revision-Date: 2005-05-09 11:29+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -22,7 +22,7 @@ msgstr "Blaai: %1"
 msgid "Show desktop"
 msgstr "Vertoon werkskerm"
 
-#: buttons/desktopbutton.cpp:45 ui/addspecialbutton_mnu.cpp:54
+#: buttons/desktopbutton.cpp:45
 msgid "Desktop Access"
 msgstr "Werkskerm Toegang"
 
@@ -30,7 +30,7 @@ msgstr "Werkskerm Toegang"
 msgid "Applications, tasks and desktop sessions"
 msgstr ""
 
-#: buttons/kbutton.cpp:44 ui/addspecialbutton_mnu.cpp:48 ui/k_mnu.cpp:71
+#: buttons/kbutton.cpp:44 ui/k_mnu.cpp:71
 msgid "K Menu"
 msgstr "K Kieslys"
 
@@ -50,7 +50,7 @@ msgstr "Programme"
 msgid "The file %1 does not exist"
 msgstr "Die lêer %1 bestaan nie"
 
-#: buttons/windowlistbutton.cpp:39 ui/addspecialbutton_mnu.cpp:49
+#: buttons/windowlistbutton.cpp:39
 msgid "Window List"
 msgstr "Venster Lys"
 
@@ -74,11 +74,11 @@ msgstr ""
 msgid "Applet Loading Error"
 msgstr ""
 
-#: core/container_extension.cpp:1515 core/container_extension.cpp:1528
+#: core/container_extension.cpp:1521 core/container_extension.cpp:1534
 msgid "Show panel"
 msgstr "Vertoon paneel"
 
-#: core/container_extension.cpp:1519 core/container_extension.cpp:1532
+#: core/container_extension.cpp:1525 core/container_extension.cpp:1538
 msgid "Hide panel"
 msgstr "Steek paneel weg"
 
@@ -124,31 +124,31 @@ msgstr ""
 msgid "Kiosk mode"
 msgstr ""
 
-#: core/panelextension.cpp:270
+#: core/panelextension.cpp:269
 msgid "Add &Applet to Panel..."
 msgstr ""
 
-#: core/panelextension.cpp:271
+#: core/panelextension.cpp:270
 #, fuzzy
 msgid "Add Appli&cation to Panel"
 msgstr "Aansoek Knoppie"
 
-#: core/panelextension.cpp:274
+#: core/panelextension.cpp:273
 #, fuzzy
 msgid "&Remove From Panel"
 msgstr "Verwyder %1 Kieslys"
 
-#: core/panelextension.cpp:277
+#: core/panelextension.cpp:276
 #, fuzzy
 msgid "Add New &Panel"
 msgstr "Paneel"
 
-#: core/panelextension.cpp:278
+#: core/panelextension.cpp:277
 #, fuzzy
 msgid "Remove Pa&nel"
 msgstr "Verwyder %1 Kieslys"
 
-#: core/panelextension.cpp:283
+#: core/panelextension.cpp:282
 msgid "&Configure Panel..."
 msgstr "Konfigureer Paneel..."
 
@@ -156,34 +156,6 @@ msgstr "Konfigureer Paneel..."
 #, fuzzy
 msgid "Add Applet"
 msgstr "Miniprogram"
-
-#: ui/addcontainer_mnu.cpp:48 ui/addcontainer_mnu.cpp:49
-#, fuzzy
-msgid "&Applet"
-msgstr "Miniprogram"
-
-#: ui/addcontainer_mnu.cpp:51
-#, fuzzy
-msgid "Appli&cation"
-msgstr "Programme"
-
-#: ui/addcontainer_mnu.cpp:56
-#, fuzzy
-msgid "&Panel"
-msgstr "Paneel"
-
-#: ui/addcontainer_mnu.cpp:60
-#, fuzzy
-msgid "&Special Button"
-msgstr "Spesiaal Knoppie"
-
-#: ui/addspecialbutton_mnu.cpp:55 ui/k_mnu.cpp:219 ui/k_mnu.cpp:224
-msgid "Quick Browser"
-msgstr "Vinnige Blaaier"
-
-#: ui/addspecialbutton_mnu.cpp:58
-msgid "Non-KDE Application"
-msgstr "Nie-kde Aansoek"
 
 #: ui/appletop_mnu.cpp:51
 msgid "&Move %1 Menu"
@@ -328,6 +300,10 @@ msgstr "Alle Programme"
 msgid "Actions"
 msgstr "Aksies"
 
+#: ui/k_mnu.cpp:219 ui/k_mnu.cpp:224
+msgid "Quick Browser"
+msgstr "Vinnige Blaaier"
+
 #: ui/k_mnu.cpp:287 ui/k_mnu.cpp:293
 msgid "Run Command..."
 msgstr "Hardloop Opdrag..."
@@ -398,23 +374,21 @@ msgid "Most Used Applications"
 msgstr "Mees gebruikte programme"
 
 #. i18n: file ui/appletview.ui line 71
-#: rc.cpp:15 ui/removeapplet_mnu.cpp:75 ui/removebutton_mnu.cpp:92
-#: ui/removeextension_mnu.cpp:93 ui/removespecialbutton_mnu.cpp:83
+#: rc.cpp:15 ui/removeapplet_mnu.cpp:82 ui/removebutton_mnu.cpp:92
+#: ui/removeextension_mnu.cpp:93
 #, no-c-format
 msgid "All"
 msgstr "Alle"
 
-#: ui/removecontainer_mnu.cpp:43
-msgid "Applet"
+#: ui/removecontainer_mnu.cpp:42
+#, fuzzy
+msgid "&Applet"
 msgstr "Miniprogram"
 
-#: ui/removecontainer_mnu.cpp:45
-msgid "Application Button"
-msgstr "Aansoek Knoppie"
-
-#: ui/removecontainer_mnu.cpp:47
-msgid "Special Button"
-msgstr "Spesiaal Knoppie"
+#: ui/removecontainer_mnu.cpp:44
+#, fuzzy
+msgid "Appli&cation"
+msgstr "Programme"
 
 #: ui/removeextension_mnu.cpp:64
 msgid "%1 (Top)"
@@ -698,6 +672,26 @@ msgstr "Grootte"
 #, no-c-format
 msgid "Custom size"
 msgstr "Pasmaak Grootte"
+
+#, fuzzy
+#~ msgid "&Panel"
+#~ msgstr "Paneel"
+
+#, fuzzy
+#~ msgid "&Special Button"
+#~ msgstr "Spesiaal Knoppie"
+
+#~ msgid "Non-KDE Application"
+#~ msgstr "Nie-kde Aansoek"
+
+#~ msgid "Applet"
+#~ msgstr "Miniprogram"
+
+#~ msgid "Application Button"
+#~ msgstr "Aansoek Knoppie"
+
+#~ msgid "Special Button"
+#~ msgstr "Spesiaal Knoppie"
 
 #~ msgid "&Properties"
 #~ msgstr "Eienskappe"
