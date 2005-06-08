@@ -154,21 +154,21 @@ msgid ""
 "updates the desktop dynamically. For example, the \"kdeworld\" program shows a "
 "day/night map of the world which is updated periodically."
 msgstr ""
-"<h1>Agtergrond</h1> Hierdie module laat toe jy na kontrole die voorkoms van die "
-"virtuele werkskerms. Kde bied 'n verskeidenheid van opsies vir pasmaking, "
-"insluitend die moontlikheid na spesifiseer ander instellings vir elke virtuele "
-"werkskerm, van 'n gemeenskaplike Agtergrond vir alle van hulle.<p> "
-"die voorkoms van die werkskerm resultate van die kombinasie van sy Agtergrond "
-"kleure en patrone, en optioneel, muurpapier, wat is gebaseerde op die beeld van "
-"'n grafiek lêer.<p> die Agtergrond kan wees gemaak begin van 'n enkel kleur, "
-"van 'n paar van kleure wat kan wees versmelt in 'n verskeidenheid van patrone. "
-"muurpapier is asook pakmaakbaar, met opsies vir tileëring en uitstrekking "
-"beelde. die muurpapier kan wees oorvleuel opaque, van versmelt in ander maniere "
-"met die Agtergrond kleure en patrone.<p> Kde laat toe jy na het die muurpapier "
-"verander automaties na gespesifiseer intervalle van tyd. jy kan asook vervang "
-"die Agtergrond met 'n program wat opdateer die werkskerm dinamies. vir "
-"voorbeeld, die \"kdeworld\" program vertoon 'n dag/nag kaart van die wêreld wat "
-"is opgedateer periodiek."
+"<h1>Agtergrond</h1> Hierdie module laat toe om die voorkoms van die "
+"virtuele werkskerms te beheer. KDE bied 'n verskeidenheid van opsies, "
+"insluitend die moontlikheid om instellings vir elke virtuele "
+"werkskerm te spesifiseer, of 'n gemeenskaplike opstelling vir almal.<p> "
+"Die voorkoms van die werkskerm word opgebou uit die agtergrond "
+"kleur en patroon, en optioneel die muurpapier, wat op 'n grafiese lêer gebaseer "
+"is.<p>"
+"Die agtergrond kan uit 'n enkel kleur bestaan, of twee kleure wat op 'n verskeidenheid "
+"van maniere vermeng is. Die muurpapier kan ook gepakmaakbaar word, met opsies soos "
+"teël en uitsrek. Die muurpapier kan alleen vertoon word of met die agtergrond kleur "
+"vermeng word."
+"<p> Die muurpapier kan opgestel word om op spesifieke tyd intervalle te verander. "
+"Die agtergrond kan ook met 'n program verander word wat die werkskerm dinamies opdateer. "
+"By voorbeeld, die \"kdeworld\" program vertoon 'n nag/dag wêreld kaart wat periodiek "
+"opgedateer word."
 
 #: bgdialog.cpp:316
 msgid "Single Color"
@@ -204,15 +204,15 @@ msgstr "Geteël"
 
 #: bgdialog.cpp:338
 msgid "Center Tiled"
-msgstr "Gesentreer, met teël"
+msgstr "Geteël, vanuit die middel"
 
 #: bgdialog.cpp:339
 msgid "Centered Maxpect"
-msgstr "Gesentreer, Maks vergrootting"
+msgstr "Gesentreer, maks vergrootting"
 
 #: bgdialog.cpp:340
 msgid "Tiled Maxpect"
-msgstr "Geteël, Maks vergrootting"
+msgstr "Geteël, maks vergrootting"
 
 #: bgdialog.cpp:341
 msgid "Scaled"
@@ -220,7 +220,7 @@ msgstr "Geskaleer"
 
 #: bgdialog.cpp:342
 msgid "Centered Auto Fit"
-msgstr "Gesentreer, Outo Pas"
+msgstr "Gesentreer, met outo inpas"
 
 #: bgdialog.cpp:343
 msgid "Scale & Crop"
@@ -320,6 +320,15 @@ msgid ""
 "--help).</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>Kliek hier as jy 'n program by die lys wil byvoeg. Hierdie knoppie maak 'n "
+"venster oop waar jy vir inligting gevra sal word i.v.m. die program wat jy wil "
+"harloop. Om die program suksesvol by te voeg sal jy moet weet of dit aanpasbaar "
+"is, die naam van die uitvoerbare lêer van die program, en moontlike opsies vir "
+"die program.</p>\n"
+"<p>Die opsies van die program kan gewoonlik gekry word deur op 'n terminaal "
+"die program naam plus --help (foobar --help) te tik</p>\n"
+"</qt>"
 
 #. i18n: file bgadvanced_ui.ui line 64
 #: rc.cpp:18 rc.cpp:274
@@ -329,6 +338,9 @@ msgid ""
 "remove the program from your system, it only removes it from the available "
 "options in the background drawing programs list."
 msgstr ""
+"Kliek hier om programme van die lys te verwyder.Let daarop dat die program "
+"nie van die stelsel verwyder sal word nie, maar slegs van die beskikbare lys "
+"van programme wat gebruik sal word om die agtergrond te teken."
 
 #. i18n: file bgadvanced_ui.ui line 75
 #: rc.cpp:21 rc.cpp:277
@@ -352,6 +364,14 @@ msgid ""
 "the old address (URL) with a new one.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>Kliek hier om 'n program se opsies te verander. Die opsies van die program kan "
+"gewoonlik gekry word deur op 'n terminaal die program naam plus --help (foobar --help) "
+"te tik</p>\n"
+"<p>Be voorgeeld: Die program 'kwebdesktop' teken 'n web blad op die werkskerm. Om die "
+"bladsy wat vertoon moet word te verander, kan jy kwebdesktop uit die lys kies en hierdie "
+"knoppie druk en dan in die venster wat vertoon word 'n nuwe URL spesifiseer.</p>\n"
+"</qt>"
 
 #. i18n: file bgadvanced_ui.ui line 104
 #: rc.cpp:30 rc.cpp:286
@@ -392,6 +412,23 @@ msgid ""
 "only removes it from the available options in this listbox.</p>\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"<p>Kies uit die lys die program wat jy wil gebruik om die werkskerm agtergrond te "
+"teken.</p>\n"
+"<p>"
+"Die <b>Program</b> kolom vertoon die naam van die program.<br>n"
+"Die <b>Kommentaar</b> kolom vertoon 'n kort beskrywing van die program.<br>\n"
+"Die <b>Verfris</b> kolom vertoon die interval tussen die opdatering van die "
+"werkskerm.</p>\n"
+"Jy kan nuwe programme by die lys byvoeg deur op die <b>Voeg by</b> knoppie te druk.<br>\n"
+"Jy kan ook programme verwyder deur op die <b>Verwyder</b> knoppie te druk.<br>\n"
+"</p>"
+"<p>"
+"Die <b>K Web Werkskerm</b> program (kwebdesktop) kan gebruik word om 'n spesifike web blad"
+"op die werk skerm te vertoon. Die bladsy wat vertoon word kan gespesifiseer word deur die "
+"item te kies en dan op die <b>Verander</b> knoppie te druk."
+"</p>"
+"</qt>"
 
 #. i18n: file bgadvanced_ui.ui line 164
 #: rc.cpp:50 rc.cpp:306
@@ -408,6 +445,10 @@ msgid ""
 "background. You may use one of the available programs, add new ones or modify "
 "the existing ones to fit your needs."
 msgstr ""
+"Kies hierdie as jy wil toelaat dat 'n eksterne program jou werkskerm agtergrond "
+"teken. Hier onder kan jy die lys van beskikbare programme sien wat jou werkskerm "
+"agtergrond kan teken. Jy kan die bestaande programme gebruik en verander of jou "
+"eie byvoeg om aan jou behoeftes te voldoen."
 
 #. i18n: file bgadvanced_ui.ui line 177
 #: rc.cpp:56 rc.cpp:312
@@ -434,6 +475,8 @@ msgid ""
 "Click here to select the solid background color. Choose a different color from "
 "the background text color to assure readability."
 msgstr ""
+"Kliek hier om die soliede agtergrond kleur te kies. Kies 'n ander kleur as die "
+"van die agtergrond teks sodat leesbaarheid behoue bly."
 
 #. i18n: file bgadvanced_ui.ui line 252
 #: rc.cpp:73 rc.cpp:329
@@ -450,6 +493,10 @@ msgid ""
 "and wallpapers, or in other words, that a background or wallpaper will not make "
 "a desktop text of a similar color difficult to read."
 msgstr ""
+"Kies hierdie as jy 'n soliede agtergrond kleur wil gebruik. Dit is bruikbaar "
+"om te verseker dat die werkskerm teks identifiseerbaar is teen enige agtergrond "
+"kleure en muurpapiere. M.a.w. die agtergrond en muurpapier kleur wat dieselfde as "
+"die werkskerm teks is sal nie leesbaarheid beïnvloed nie."
 
 #. i18n: file bgadvanced_ui.ui line 263
 #: rc.cpp:79 rc.cpp:335
@@ -465,6 +512,9 @@ msgid ""
 "improves the readability of the desktop text against backgrounds of a similar "
 "color."
 msgstr ""
+"Kies hierdie om 'n skadu rondom die werkskerm skrif te aktiveer. Dit "
+"sal ook die leesbaarheid bevorder waar die werkskerm teks kleur met die "
+"agtergrond ooreenstem."
 
 #. i18n: file bgadvanced_ui.ui line 274
 #: rc.cpp:85 rc.cpp:341
@@ -479,6 +529,9 @@ msgid ""
 "Choose here the maximum number of text lines below an icon on the desktop. "
 "Longer text will be truncated at the end of the last line."
 msgstr ""
+"Kies hier die maksimum aantal lyne wat onder 'n werkskerm ikoon gereserveer "
+"moet word vir teks. As die teks langer as die beskikbare spasie is, sal die "
+"oorblywende teks afgekap word."
 
 #. i18n: file bgadvanced_ui.ui line 305
 #: rc.cpp:96 rc.cpp:352
@@ -493,6 +546,9 @@ msgid ""
 "Choose here the maximum width of text lines (in pixel) below an icon on the "
 "desktop. If set to 'Auto' a default width based on the current font is used."
 msgstr ""
+"Kies hier die maksimum wydte (in beeld elemente) wat onder 'n werkskerm ikoon "
+"gereserveer moet word vir teks. As dit op 'Outo' gestel is, sal die standaar "
+"wydte, gebaseer op die huidige skrif tipe, gebruik word."
 
 #. i18n: file bgadvanced_ui.ui line 322
 #: rc.cpp:102 rc.cpp:358
@@ -521,6 +577,10 @@ msgid ""
 "caching can make switching desktops smoother at the expense of higher memory "
 "use."
 msgstr ""
+"Spesifiseer in hierdie boks hoeveel geheue KDE mag gebruik om agtergronde "
+"te kas. As jy verskillende agtergronde vir jou werkskerms gebruik kan hierdie "
+"die wissel tussen werkskerms versnel, met die teendeel dat meer geheue gebruik "
+"word."
 
 #. i18n: file bgadvanced_ui.ui line 363
 #: rc.cpp:117 rc.cpp:373
@@ -542,6 +602,9 @@ msgid ""
 "you want the same background settings to be applied to all desktops select the "
 "\"All Desktops\" option."
 msgstr ""
+"Kies die werkskerm waarvan jy die werkskerm wil opstel uit die lys. As jy wil hê "
+"dat dieselfde agtergrond opstelling vir al die werkskerms moet geld, moet jy "
+"\"Alle Werkskerms\" kies."
 
 #. i18n: file bgdialog_ui.ui line 47
 #: rc.cpp:129 rc.cpp:385
@@ -578,6 +641,8 @@ msgid ""
 "Click this button to set the icon text colors and shadow, set up a program to "
 "run for the background picture or control the size of the background cache."
 msgstr ""
+"Kliek hier om die ikoon teks kleur en skaduwee te stel, 'n program te spesifiseer "
+"wat die agtergrond teken of om die agtergrond kas geheue grootte te stel."
 
 #. i18n: file bgdialog_ui.ui line 221
 #: rc.cpp:147 rc.cpp:403
@@ -592,7 +657,7 @@ msgid ""
 "Click this button to give you a list of new wallpapers to download from the "
 "Internet."
 msgstr ""
-"Kliek op hierdie knoppie om 'n lys van muurpapier patroone te kry wat jy van "
+"Kliek op hierdie knoppie om 'n lys van muurpapier patrone te kry wat jy van "
 "die internet kan aflaai."
 
 #. i18n: file bgdialog_ui.ui line 282
@@ -625,6 +690,26 @@ msgid ""
 "necessary), and then center it on the desktop.</li>\n"
 "</ul></qt>"
 msgstr ""
+"<qt>Jy kan hierso kies hoe die agtergrond prent op die werkskerm vertoon word:\n"
+"<ul>\n"
+"<li><em>Gesentreer:</em> Plass die prent in die middel van die werkskerm.</li>\n"
+"<li><em>Gesentreer, met outo inpas</em>: As die prent in die werkskerm inpas, werk dit "
+"presies soos die 'Gesentreer' opsie. As die prent grootter as die werkskerm is, sal "
+"dit sonder distorsie verklein word totdat dit in die werkskerm pas.</li>\n"
+"<li><em>Geteël:</em> Teël die werkskerm van links bo met die prent, sodat die "
+"hele werkskerm gevul is.</li>\n"
+"<li><em>Geteël, vanuit die middel</em> Sentreer die beeld op die werkskerm en "
+"teël rondom dit, sodat die hele werkskerm gevul is.</li>\n"
+"<li><em>Gesentreer, maks vergrootting:</em> Vergroot die prent, sonder distorsie, "
+"totdat dit aan die randte (wydte of hoogte) raak. Sentreer dit daarna op die "
+"werkskerm.</li>\n"
+"<li><em>Geskaleer</em>: Vergroot die prent totdat dit die hele werkskerm vul. "
+"Beeld distorsie mag voorkom as die wydte tot hoogte verhouding van die prent nie "
+"met die van die werkskerm ooreenstem nie.</li>\n"
+"<li><em>Geskaleer, met Afsny</em>: Vergroot die prent totdat dit die hele "
+"werkskerm in wydte en hoogte vul. Die dele wat grootter as die werkskerm is word "
+"afgesny en daarna word die prent op die werkskerm gesentreer.</li>\n"
+"</ul></qt>"
 
 #. i18n: file bgdialog_ui.ui line 305
 #: rc.cpp:171 rc.cpp:427
@@ -634,6 +719,9 @@ msgid ""
 "of blending the background colors with the picture. The default option of \"No "
 "Blending\" means that the picture simply obscures the background colors below."
 msgstr ""
+"As jy 'n agtergrond prent gespesifiseer het kan jy dit op verskeie maniere "
+"vermeng met die agtergrond kleure. Die standaard opsie: \"Geen Vermenging\" veroorsaak "
+"dat die agtergrond prent die agtergrond kleure heeltemal oorheers."
 
 #. i18n: file bgdialog_ui.ui line 324
 #: rc.cpp:175 rc.cpp:431
@@ -692,6 +780,8 @@ msgid ""
 "For some types of blending, you can reverse the role of the background and the "
 "picture by checking this option."
 msgstr ""
+"Kies hierdie opsie om vir sekere tipes vermening die rol van die agtergrond kleur en beeld "
+"om te ruil."
 
 #. i18n: file bgdialog_ui.ui line 497
 #: rc.cpp:216 rc.cpp:472
@@ -738,6 +828,10 @@ msgid ""
 "another image from the set will be shown. Images can be shown at random or in "
 "the order you specify them."
 msgstr ""
+"Klier hierdie knoppie om 'n stel prente te kies wat vir die agtergrond gebruik "
+"moet word. Een prent sal op 'n slag vertoon word, vir 'n spesifike tydsduur. Daarna "
+"sal 'n volgende prent uit die stel vertoon word. Prente kan willekeurig of in die "
+"volgorde wat hulle in die lys voorkom vertoon word."
 
 #. i18n: file bgwallpaper_ui.ui line 27
 #: rc.cpp:238 rc.cpp:494
@@ -768,3 +862,4 @@ msgstr "Skuif Af"
 #, no-c-format
 msgid "Move &Up"
 msgstr "Skuif Op"
+
