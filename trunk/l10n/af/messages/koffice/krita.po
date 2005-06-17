@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
-"POT-Creation-Date: 2005-06-16 01:27+0200\n"
+"POT-Creation-Date: 2005-06-17 01:30+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1015,8 +1015,8 @@ msgid "Selection Tools"
 msgstr "Keuse Nutsprogramme"
 
 #. i18n: file krita_readonly.rc line 18
-#: core/kis_docker_manager.cc:332 core/kis_view.cc:242 rc.cpp:60 rc.cpp:679
-#: rc.cpp:1379 rc.cpp:1517 rc.cpp:1550
+#: core/kis_view.cc:242 rc.cpp:60 rc.cpp:679 rc.cpp:1379 rc.cpp:1517
+#: rc.cpp:1550
 #, no-c-format
 msgid "Layer"
 msgstr "Laag"
@@ -1995,8 +1995,8 @@ msgid "Sphere Dec."
 msgstr ""
 
 #. i18n: file ./plugins/defaultdockers/wdgautogradient.ui line 351
-#: core/kis_docker_manager.cc:500 plugins/defaultdockers/defaultdockers.cc:188
-#: rc.cpp:615 rc.cpp:897 rc.cpp:918
+#: plugins/defaultdockers/defaultdockers.cc:168 rc.cpp:615 rc.cpp:897
+#: rc.cpp:918
 #, no-c-format
 msgid "RGB"
 msgstr "Rgb"
@@ -2014,7 +2014,7 @@ msgid "HSV CCW"
 msgstr "Hsv"
 
 #. i18n: file ./plugins/defaultdockers/wdgtextbrush.ui line 16
-#: tools/kis_tool_text.cc:49 rc.cpp:624 rc.cpp:1172
+#: tools/kis_tool_text.cc:50 rc.cpp:624 rc.cpp:1172
 #, no-c-format
 msgid "Text"
 msgstr ""
@@ -2062,8 +2062,7 @@ msgid "Fade:"
 msgstr "Modus:"
 
 #. i18n: file ./plugins/defaultdockers/wdgbirdeye.ui line 24
-#: core/kis_docker_manager.cc:320 plugins/defaultdockers/defaultdockers.cc:141
-#: rc.cpp:658
+#: plugins/defaultdockers/defaultdockers.cc:121 rc.cpp:658
 #, fuzzy, no-c-format
 msgid "Overview"
 msgstr "Oorleg"
@@ -2217,9 +2216,7 @@ msgid "Fill"
 msgstr ""
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 71
-#: core/kis_docker_manager.cc:452 core/kis_docker_manager.cc:458
-#: core/kis_docker_manager.cc:463 plugins/defaultdockers/defaultdockers.cc:246
-#: rc.cpp:814
+#: plugins/defaultdockers/defaultdockers.cc:224 rc.cpp:814
 #, no-c-format
 msgid "Gradients"
 msgstr "Gradiënte"
@@ -2237,8 +2234,7 @@ msgid "Shapes"
 msgstr "Skerpheid:"
 
 #. i18n: file ./plugins/performancetest/wdg_perftest.ui line 104
-#: core/kis_docker_manager.cc:230 core/kis_docker_manager.cc:280
-#: core/kis_docker_manager.cc:333 core/kis_view.cc:243 rc.cpp:823
+#: core/kis_view.cc:243 rc.cpp:823
 #, no-c-format
 msgid "Layers"
 msgstr "Lae"
@@ -3064,7 +3060,7 @@ msgstr "Voeg by Mask"
 msgid "Remove Mask"
 msgstr "Verwyder Mask"
 
-#: ui/kis_layerbox.cc:471
+#: ui/kis_layerbox.cc:477
 #, fuzzy, c-format
 msgid "Can't find %1"
 msgstr "Skep nuwe %1"
@@ -3072,7 +3068,7 @@ msgstr "Skep nuwe %1"
 #: plugins/defaultdockers/kis_channelview.cc:160
 #: plugins/defaultdockers/kis_channelview.cc:168
 #: plugins/defaultdockers/kis_channelview.cc:173
-#: plugins/defaultdockers/kis_channelview.cc:180 ui/kis_layerbox.cc:472
+#: plugins/defaultdockers/kis_channelview.cc:180 ui/kis_layerbox.cc:478
 msgid "Canvas"
 msgstr "Kanvas"
 
@@ -3130,9 +3126,7 @@ msgstr "Herstel diepte in geheue"
 msgid "Preferences"
 msgstr "Voorkeure"
 
-#: core/kis_docker_manager.cc:222 core/kis_docker_manager.cc:223
-#: core/kis_docker_manager.cc:274 core/kis_docker_manager.cc:299
-#: plugins/defaultdockers/defaultdockers.cc:123 ui/kis_dlg_preferences.cc:279
+#: ui/kis_dlg_preferences.cc:279
 msgid "General"
 msgstr "Algemeen"
 
@@ -3205,6 +3199,21 @@ msgstr "Verwyder Huidige Laag"
 msgid "Shade or unshade the palette"
 msgstr ""
 
+#: core/kis_layer.cc:88
+#, fuzzy
+msgid "Link Layer"
+msgstr "Skakel/Ontkoppel Laag"
+
+#: core/kis_layer.cc:125
+#, fuzzy
+msgid "Lock Layer"
+msgstr "Sagter Huidige Laag"
+
+#: core/kis_layer.cc:162
+#, fuzzy
+msgid "Layer Opacity"
+msgstr "Ondeursigtigheid"
+
 #: core/kis_doc.cc:86
 #, fuzzy
 msgid "Rename Image"
@@ -3244,150 +3253,6 @@ msgstr "Ondeursigtigheid:"
 msgid "Mode: "
 msgstr "Modus:"
 
-#: core/kis_docker_manager.cc:222 core/kis_docker_manager.cc:223
-#: core/kis_docker_manager.cc:274 core/kis_docker_manager.cc:291
-#, fuzzy
-msgid "Tools"
-msgstr "Kwas"
-
-#: core/kis_docker_manager.cc:231
-#, fuzzy
-msgid "&Layers"
-msgstr "Lae"
-
-#: core/kis_docker_manager.cc:237 core/kis_docker_manager.cc:262
-#, fuzzy
-msgid "Brush Shapes"
-msgstr "Borsels"
-
-#: core/kis_docker_manager.cc:238
-#, fuzzy
-msgid "&Shapes"
-msgstr "Skerpheid:"
-
-#: core/kis_docker_manager.cc:244 core/kis_docker_manager.cc:265
-msgid "Fills"
-msgstr ""
-
-#: core/kis_docker_manager.cc:246
-#, fuzzy
-msgid "&Fills"
-msgstr "Wit"
-
-#: core/kis_docker_manager.cc:252 core/kis_docker_manager.cc:277
-#, fuzzy
-msgid "Color Manager"
-msgstr "Kleur Wisselaar"
-
-#: core/kis_docker_manager.cc:253
-#, fuzzy
-msgid "&Colors"
-msgstr "Kleur"
-
-#: core/kis_docker_manager.cc:267 core/kis_docker_manager.cc:658
-#, fuzzy
-msgid "Hide &Shapes"
-msgstr "Skerpheid:"
-
-#: core/kis_docker_manager.cc:268 core/kis_docker_manager.cc:644
-#, fuzzy
-msgid "Hide &Fills"
-msgstr "Wit"
-
-#: core/kis_docker_manager.cc:283 core/kis_docker_manager.cc:631
-#, fuzzy
-msgid "Hide &Layers"
-msgstr "Steek weg/Vertoon Laag"
-
-#: core/kis_docker_manager.cc:284 core/kis_docker_manager.cc:604
-#, fuzzy
-msgid "Hide &Color Manager"
-msgstr "Kleur Wisselaar"
-
-#: core/kis_docker_manager.cc:285 core/kis_docker_manager.cc:616
-#, fuzzy
-msgid "Hide &Tool Properties"
-msgstr "Huidige Program Eienskappe..."
-
-#: core/kis_docker_manager.cc:292 core/kis_docker_manager.cc:671
-#, fuzzy
-msgid "Hide &Tools"
-msgstr "Kwas"
-
-#: core/kis_docker_manager.cc:363 plugins/defaultdockers/defaultdockers.cc:149
-msgid "Channels"
-msgstr "Kanale"
-
-#: core/kis_docker_manager.cc:375 core/kis_docker_manager.cc:381
-#: core/kis_docker_manager.cc:386 plugins/defaultdockers/defaultdockers.cc:232
-msgid "Brushes"
-msgstr "Borsels"
-
-#: core/kis_docker_manager.cc:397 core/kis_docker_manager.cc:401
-#: core/kis_docker_manager.cc:405 plugins/defaultdockers/defaultdockers.cc:155
-#, fuzzy
-msgid "Autobrush"
-msgstr "Kwas"
-
-#: core/kis_docker_manager.cc:412 core/kis_docker_manager.cc:416
-#: core/kis_docker_manager.cc:420 plugins/defaultdockers/defaultdockers.cc:162
-#, fuzzy
-msgid "Text Brush"
-msgstr "Keuse"
-
-#: core/kis_docker_manager.cc:431 core/kis_docker_manager.cc:436
-#: core/kis_docker_manager.cc:442 plugins/defaultdockers/defaultdockers.cc:215
-msgid "Patterns"
-msgstr "Patrone"
-
-#: core/kis_docker_manager.cc:472 core/kis_docker_manager.cc:476
-#: core/kis_docker_manager.cc:480 plugins/defaultdockers/defaultdockers.cc:170
-#, fuzzy
-msgid "Autogradient"
-msgstr "Gradiënte"
-
-#: core/kis_docker_manager.cc:490 plugins/defaultdockers/defaultdockers.cc:179
-msgid "HSV"
-msgstr "Hsv"
-
-#: core/kis_docker_manager.cc:510 plugins/defaultdockers/defaultdockers.cc:196
-msgid "Gray"
-msgstr "Grys"
-
-#: core/kis_docker_manager.cc:520 plugins/defaultdockers/defaultdockers.cc:204
-msgid "Palettes"
-msgstr "Palette"
-
-#: core/kis_docker_manager.cc:608
-#, fuzzy
-msgid "Show &Color Manager"
-msgstr "Kleur Wisselaar"
-
-#: core/kis_docker_manager.cc:621
-#, fuzzy
-msgid "Show &Tool Properties"
-msgstr "Huidige Program Eienskappe..."
-
-#: core/kis_docker_manager.cc:635
-#, fuzzy
-msgid "Show &Layers"
-msgstr "Steek weg/Vertoon Laag"
-
-#: core/kis_docker_manager.cc:648
-#, fuzzy
-msgid "Show &Fills"
-msgstr "Wit"
-
-#: core/kis_docker_manager.cc:662
-#, fuzzy
-msgid "Show &Shapes"
-msgstr "Skerpheid:"
-
-#: core/kis_docker_manager.cc:675
-#, fuzzy
-msgid "Show &Tools"
-msgstr "Kwas"
-
 #: core/kis_aboutdata.h:31
 msgid "Krita"
 msgstr "Krita"
@@ -3402,7 +3267,7 @@ msgid ""
 "(c) 1999-2004 The Krita team.\n"
 msgstr ""
 
-#: core/kis_fill_painter.cc:275
+#: core/kis_fill_painter.cc:276
 msgid "Making fill outline..."
 msgstr ""
 
@@ -3423,15 +3288,22 @@ msgstr "Alfa"
 msgid "alpha"
 msgstr "Alfa"
 
-#: core/kis_paint_device.cc:70
+#: core/kis_paint_device.cc:100
+msgid "Layer Visibility"
+msgstr ""
+
+#: core/kis_paint_device.cc:138
+msgid "Layer Composite Mode"
+msgstr ""
+
+#: core/kis_paint_device.cc:182
 #, fuzzy
 msgid "Moved Layer"
 msgstr "Verwyder Laag"
 
-#: core/kis_paint_device.cc:125
-#: plugins/colorspaceconversion/colorspaceconversion.cc:66
+#: core/kis_paint_device.cc:237
 #, fuzzy
-msgid "&Convert Layer Type..."
+msgid "Convert Layer Type"
 msgstr "Voeg by Beeld as Laag..."
 
 #: core/kis_composite_op.cc:92
@@ -3765,38 +3637,38 @@ msgstr "Voeg by Laag..."
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: core/kis_view.cc:1820
+#: core/kis_view.cc:1824
 #, fuzzy
 msgid "Insert as New Layer"
 msgstr "Voeg by Beeld as Laag..."
 
-#: core/kis_view.cc:1822
+#: core/kis_view.cc:1826
 msgid "Open in New Document"
 msgstr ""
 
-#: core/kis_view.cc:1826
+#: core/kis_view.cc:1830
 #, fuzzy
 msgid "Insert as New Layers"
 msgstr "Voeg by Beeld as Laag..."
 
-#: core/kis_view.cc:1828
+#: core/kis_view.cc:1832
 msgid "Open in New Documents"
 msgstr ""
 
-#: core/kis_view.cc:1919
+#: core/kis_view.cc:1925
 #, fuzzy
 msgid "Property changes"
 msgstr "Eienskappe..."
 
-#: core/kis_view.cc:1955 core/kis_view.cc:2002
+#: core/kis_view.cc:1961 core/kis_view.cc:2008
 msgid "Could not add layer to image."
 msgstr "Kon nie voeg by laag na beeld."
 
-#: core/kis_view.cc:1955 core/kis_view.cc:2002
+#: core/kis_view.cc:1961 core/kis_view.cc:2008
 msgid "Layer Error"
 msgstr "Laag Fout"
 
-#: core/kis_view.cc:1994
+#: core/kis_view.cc:2000
 #, fuzzy
 msgid "Duplicate of '%1'"
 msgstr "Volgende Laag"
@@ -3835,11 +3707,11 @@ msgstr "Saamvlans Gekoppel Lae"
 msgid "&Merge Layers"
 msgstr "Saamvlans Alle Lae"
 
-#: core/kis_gradient_painter.cc:551
+#: core/kis_gradient_painter.cc:550
 msgid "Rendering gradient..."
 msgstr ""
 
-#: core/kis_gradient_painter.cc:598
+#: core/kis_gradient_painter.cc:597
 msgid "Anti-aliasing gradient..."
 msgstr ""
 
@@ -3996,17 +3868,17 @@ msgstr "Zoem Program"
 msgid "Rectangle tool"
 msgstr "Driehoek Program"
 
-#: tools/kis_tool_colorpicker.cc:93
+#: tools/kis_tool_colorpicker.cc:96
 #, fuzzy
 msgid "Tool &Color Picker"
 msgstr "Kleur Kieser"
 
-#: tools/kis_tool_colorpicker.cc:108
+#: tools/kis_tool_colorpicker.cc:111
 #, fuzzy
 msgid "Color Picker"
 msgstr "Kleur Kieser"
 
-#: tools/kis_tool_colorpicker.cc:111
+#: tools/kis_tool_colorpicker.cc:114
 #, fuzzy
 msgid "Update current color"
 msgstr "Boonste Huidige %1"
@@ -4062,21 +3934,21 @@ msgstr ""
 msgid "Ellipse tool"
 msgstr "Eliptiese"
 
-#: tools/kis_tool_text.cc:76
+#: tools/kis_tool_text.cc:77
 #, fuzzy
 msgid "Font Tool"
 msgstr "Gradiënte"
 
-#: tools/kis_tool_text.cc:76
+#: tools/kis_tool_text.cc:77
 #, fuzzy
 msgid "Enter text:"
 msgstr "Invoer naam:"
 
-#: tools/kis_tool_text.cc:130
+#: tools/kis_tool_text.cc:132
 msgid "Font: "
 msgstr ""
 
-#: tools/kis_tool_text.cc:152
+#: tools/kis_tool_text.cc:154
 msgid "Tool T&ext"
 msgstr ""
 
@@ -4700,6 +4572,45 @@ msgstr "Blou"
 msgid "Alpha"
 msgstr "Alfa"
 
+#: plugins/defaultdockers/defaultdockers.cc:129
+msgid "Channels"
+msgstr "Kanale"
+
+#: plugins/defaultdockers/defaultdockers.cc:135
+#, fuzzy
+msgid "Autobrush"
+msgstr "Kwas"
+
+#: plugins/defaultdockers/defaultdockers.cc:142
+#, fuzzy
+msgid "Text Brush"
+msgstr "Keuse"
+
+#: plugins/defaultdockers/defaultdockers.cc:150
+#, fuzzy
+msgid "Autogradient"
+msgstr "Gradiënte"
+
+#: plugins/defaultdockers/defaultdockers.cc:159
+msgid "HSV"
+msgstr "Hsv"
+
+#: plugins/defaultdockers/defaultdockers.cc:176
+msgid "Gray"
+msgstr "Grys"
+
+#: plugins/defaultdockers/defaultdockers.cc:184
+msgid "Palettes"
+msgstr "Palette"
+
+#: plugins/defaultdockers/defaultdockers.cc:195
+msgid "Patterns"
+msgstr "Patrone"
+
+#: plugins/defaultdockers/defaultdockers.cc:211
+msgid "Brushes"
+msgstr "Borsels"
+
 #: plugins/defaultdockers/kis_brush_chooser.cc:32
 msgid "Spacing: "
 msgstr "Spasiëring: "
@@ -4731,6 +4642,11 @@ msgstr "Beweeg Program"
 #: plugins/colorspaceconversion/colorspaceconversion.cc:65
 #, fuzzy
 msgid "&Convert Image Type..."
+msgstr "Voeg by Beeld as Laag..."
+
+#: plugins/colorspaceconversion/colorspaceconversion.cc:66
+#, fuzzy
+msgid "&Convert Layer Type..."
 msgstr "Voeg by Beeld as Laag..."
 
 #: plugins/colorspaceconversion/colorspaceconversion.cc:90
@@ -5191,6 +5107,82 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Tools"
+#~ msgstr "Kwas"
+
+#, fuzzy
+#~ msgid "&Layers"
+#~ msgstr "Lae"
+
+#, fuzzy
+#~ msgid "Brush Shapes"
+#~ msgstr "Borsels"
+
+#, fuzzy
+#~ msgid "&Shapes"
+#~ msgstr "Skerpheid:"
+
+#, fuzzy
+#~ msgid "&Fills"
+#~ msgstr "Wit"
+
+#, fuzzy
+#~ msgid "Color Manager"
+#~ msgstr "Kleur Wisselaar"
+
+#, fuzzy
+#~ msgid "&Colors"
+#~ msgstr "Kleur"
+
+#, fuzzy
+#~ msgid "Hide &Shapes"
+#~ msgstr "Skerpheid:"
+
+#, fuzzy
+#~ msgid "Hide &Fills"
+#~ msgstr "Wit"
+
+#, fuzzy
+#~ msgid "Hide &Layers"
+#~ msgstr "Steek weg/Vertoon Laag"
+
+#, fuzzy
+#~ msgid "Hide &Color Manager"
+#~ msgstr "Kleur Wisselaar"
+
+#, fuzzy
+#~ msgid "Hide &Tool Properties"
+#~ msgstr "Huidige Program Eienskappe..."
+
+#, fuzzy
+#~ msgid "Hide &Tools"
+#~ msgstr "Kwas"
+
+#, fuzzy
+#~ msgid "Show &Color Manager"
+#~ msgstr "Kleur Wisselaar"
+
+#, fuzzy
+#~ msgid "Show &Tool Properties"
+#~ msgstr "Huidige Program Eienskappe..."
+
+#, fuzzy
+#~ msgid "Show &Layers"
+#~ msgstr "Steek weg/Vertoon Laag"
+
+#, fuzzy
+#~ msgid "Show &Fills"
+#~ msgstr "Wit"
+
+#, fuzzy
+#~ msgid "Show &Shapes"
+#~ msgstr "Skerpheid:"
+
+#, fuzzy
+#~ msgid "Show &Tools"
+#~ msgstr "Kwas"
 
 #, fuzzy
 #~ msgid "Select Foreground Color..."
