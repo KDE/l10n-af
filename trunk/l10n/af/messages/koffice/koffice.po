@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
-"POT-Creation-Date: 2005-06-23 01:31+0200\n"
+"POT-Creation-Date: 2005-06-25 01:30+0200\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -294,7 +294,7 @@ msgid "Symbol Names"
 msgstr "Simbool Name"
 
 #: kformula/kformuladocument.cc:646 kotext/koSearchDia.cc:629
-#: kotext/kotextformat.cc:1560
+#: kotext/kotextformat.cc:1561
 msgid "Normal"
 msgstr "Normale"
 
@@ -2853,7 +2853,7 @@ msgid "Autoinclude"
 msgstr ""
 
 #: kotext/koAutoFormatDia.cc:180 kotext/koAutoFormatDia.cc:1162
-#: kotext/koFontDia.cc:1157
+#: kotext/koFontDia.cc:53
 msgid "&Reset"
 msgstr "Herstel"
 
@@ -3216,120 +3216,28 @@ msgstr "Asseblief spesifiseer 'n nuwe styl naam:"
 msgid "Name already exists! Please choose another name"
 msgstr "Naam alreeds bestaan! Asseblief kies nog 'n Naam"
 
-#: kotext/koFontDia.cc:56
-msgid ""
-"_: Test string for shadow dialog\n"
-"KOffice"
-msgstr ""
-
-#: kotext/koFontDia.cc:80
-msgid "Shadow"
-msgstr "Skadu"
-
-#: kotext/koFontDia.cc:85 kotext/koParagDia.cc:1307
-#, fuzzy
-msgid "Co&lor:"
-msgstr "Kleur:"
-
-#: kotext/koFontDia.cc:94
-#, fuzzy
-msgid "&Distance (pt):"
-msgstr "Afstand (pt):"
-
-#: kotext/koFontDia.cc:99
-msgid "pt"
-msgstr ""
-
-#: kotext/koFontDia.cc:104
-#, fuzzy
-msgid "Di&rection:"
-msgstr "Rigting:"
-
-#: kotext/koFontDia.cc:289
-#, fuzzy
-msgid "S&hadow"
-msgstr "Skadu"
-
-#: kotext/koFontDia.cc:392
-#, fuzzy
-msgid "Colors"
-msgstr "Kleure:"
-
-#: kotext/koFontDia.cc:395 kotext/koFontDia.cc:437
-#, fuzzy
-msgid "Change Co&lor..."
-msgstr "Verander Kleur..."
-
-#: kotext/koFontDia.cc:398
-#, fuzzy
-msgid "Change Bac&kground Color..."
-msgstr "Verander Agtergrond Kleur..."
-
-#: kotext/koFontDia.cc:413
-#, fuzzy
-msgid "Font &Effects"
-msgstr "Skrif tipe Effekte"
-
-#: kotext/koFontDia.cc:423
-#, fuzzy
-msgid "&Underlining:"
-msgstr "Onderstreep:"
-
-#: kotext/koFontDia.cc:441
-#, fuzzy
-msgid "&Strikethrough:"
-msgstr "Opgehewe:"
-
-#: kotext/koFontDia.cc:453
-#, fuzzy
-msgid "&Word by word"
-msgstr "Woord Deur Woord"
-
-#: kotext/koFontDia.cc:456 kotext/kovariable.cc:2295
-msgid "Position"
-msgstr "Posisie"
-
-#: kotext/koFontDia.cc:464
-#, fuzzy
-msgid "Su&perscript"
-msgstr "Boskrif"
-
-#: kotext/koFontDia.cc:467
-#, fuzzy
-msgid "Su&bscript"
-msgstr "Onderskrif"
-
-#: kotext/koFontDia.cc:470
-#, fuzzy
-msgid "Relative &size:"
-msgstr "Relatiewe grootte:"
-
-#: kotext/koFontDia.cc:482
-#, fuzzy
-msgid "Offse&t from baseline:"
-msgstr "Afwyking van basislyn:"
-
-#: kotext/koFontDia.cc:503
-#, fuzzy
-msgid "A&ttribute:"
-msgstr "Opgehewe:"
-
-#: kotext/koFontDia.cc:513
-msgid "Capitalization"
-msgstr ""
-
-#: kotext/koFontDia.cc:522
-msgid "La&nguage:"
-msgstr ""
-
-#: kotext/koFontDia.cc:546
-#, fuzzy
-msgid "Auto h&yphenation"
-msgstr "Outokorreksie"
-
-#: kotext/koFontDia.cc:1133 kotext/koFontDia.cc:1146
+#: kotext/kfontdialog_local.cpp:752 kotext/koFontDia.cc:50
 msgid "Select Font"
 msgstr "Kies Skrif tipe"
+
+#: kotext/koFontDia.cc:71 kotext/koStylist.cc:683
+#, fuzzy
+msgid "Highlighting"
+msgstr "Sintaks Verligting"
+
+#: kotext/koFontDia.cc:83 kotext/koStylist.cc:682
+#, fuzzy
+msgid "Decoration"
+msgstr "Versiering"
+
+#: kotext/koFontDia.cc:93 kotext/koStylist.cc:684
+#, fuzzy
+msgid "Layout"
+msgstr "Bladsy Uitleg"
+
+#: kotext/koFontDia.cc:101 kotext/koStylist.cc:685
+msgid "Language"
+msgstr ""
 
 #: kotext/koParagDia.cc:56
 #, fuzzy
@@ -3576,6 +3484,11 @@ msgstr "Algemeen"
 msgid "St&yle:"
 msgstr "Styl:"
 
+#: kotext/koParagDia.cc:1307
+#, fuzzy
+msgid "Co&lor:"
+msgstr "Kleur:"
+
 #: kotext/koParagDia.cc:1333
 #, fuzzy
 msgid "Merge with next paragraph"
@@ -3696,7 +3609,7 @@ msgstr "Vervang Teks"
 msgid "Family:"
 msgstr "Familie:"
 
-#: kotext/koSearchDia.cc:554
+#: kotext/kfontdialog_local.cpp:188 kotext/koSearchDia.cc:554
 msgid "Size:"
 msgstr "Grootte:"
 
@@ -3835,6 +3748,14 @@ msgstr "Verander Lys Tipe"
 msgid "Change Variable Format"
 msgstr "Verander Teks Formaat"
 
+#: kotext/kofontdiapreview.cc:40 kotext/kofontdiapreview.cc:41
+msgid "The quick brown dog jumps over the lazy cat."
+msgstr ""
+
+#: kotext/kofontdiapreview.cc:196
+msgid "Font too large for the preview pane"
+msgstr ""
+
 #: kotext/koimportstyledia.cc:34
 #, fuzzy
 msgid "Import Styles"
@@ -3860,46 +3781,46 @@ msgstr ""
 msgid "Numbering Style for %1"
 msgstr ""
 
-#: kotext/kotextformat.cc:1539
+#: kotext/kotextformat.cc:1540
 msgid ""
 "_: Underline Style\n"
 "None"
 msgstr ""
 
-#: kotext/kotextformat.cc:1540 kotext/kotextformat.cc:1551
+#: kotext/kotextformat.cc:1541 kotext/kotextformat.cc:1552
 msgid "Single"
 msgstr "Enkel"
-
-#: kotext/kotextformat.cc:1541 kotext/kotextformat.cc:1552
-msgid "Simple Bold"
-msgstr "Eenvoudige Vetdruk"
 
 #: kotext/kotextformat.cc:1542 kotext/kotextformat.cc:1553
 msgid "Double"
 msgstr "Dubbel"
 
-#: kotext/kotextformat.cc:1543
+#: kotext/kotextformat.cc:1543 kotext/kotextformat.cc:1554
+msgid "Simple Bold"
+msgstr "Eenvoudige Vetdruk"
+
+#: kotext/kotextformat.cc:1544
 #, fuzzy
 msgid "Wave"
 msgstr "graf"
 
-#: kotext/kotextformat.cc:1550
+#: kotext/kotextformat.cc:1551
 msgid ""
 "_: Strikeout Style\n"
 "None"
 msgstr ""
 
-#: kotext/kotextformat.cc:1561
+#: kotext/kotextformat.cc:1562
 #, fuzzy
 msgid "Uppercase"
 msgstr "Hoofletters"
 
-#: kotext/kotextformat.cc:1562
+#: kotext/kotextformat.cc:1563
 #, fuzzy
 msgid "Lowercase"
 msgstr "Kleinletters"
 
-#: kotext/kotextformat.cc:1563
+#: kotext/kotextformat.cc:1564
 msgid "Small Caps"
 msgstr ""
 
@@ -4256,6 +4177,10 @@ msgstr "Kursief:"
 #: kotext/kovariable.cc:2006
 msgid "Field"
 msgstr "Veld"
+
+#: kotext/kovariable.cc:2295
+msgid "Position"
+msgstr "Posisie"
 
 #: kotext/kovariable.cc:2296
 msgid "Company"
@@ -4736,6 +4661,121 @@ msgstr ""
 msgid "Name"
 msgstr "Naam:"
 
+#: kotext/kfontdialog_local.cpp:106
+msgid "Here you can choose the font to be used."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:118
+#, fuzzy
+msgid "Requested Font"
+msgstr "Gebruik word Skriftipes"
+
+#: kotext/kfontdialog_local.cpp:141
+#, fuzzy
+msgid "Change font family?"
+msgstr "Verander Karakter na Simbool"
+
+#: kotext/kfontdialog_local.cpp:143
+msgid "Enable this checkbox to change the font family settings."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:149
+#, fuzzy
+msgid "Font:"
+msgstr "Land:"
+
+#: kotext/kfontdialog_local.cpp:156
+#, fuzzy
+msgid "Font style"
+msgstr "In voer Styl"
+
+#: kotext/kfontdialog_local.cpp:160
+#, fuzzy
+msgid "Change font style?"
+msgstr "Verander Karakter na Simbool"
+
+#: kotext/kfontdialog_local.cpp:162
+msgid "Enable this checkbox to change the font style settings."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:168
+#, fuzzy
+msgid "Font style:"
+msgstr "In voer Styl"
+
+#: kotext/kfontdialog_local.cpp:176
+#, fuzzy
+msgid "Size"
+msgstr "Grootte:"
+
+#: kotext/kfontdialog_local.cpp:180
+#, fuzzy
+msgid "Change font size?"
+msgstr "Basis skrif tipe grootte:"
+
+#: kotext/kfontdialog_local.cpp:182
+msgid "Enable this checkbox to change the font size settings."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:204
+msgid "Here you can choose the font family to be used."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:226
+msgid "Here you can choose the font style to be used."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:229 kotext/kfontdialog_local.cpp:484
+#: kotext/kfontdialog_local.cpp:486 kotext/kfontdialog_local.cpp:495
+#: kotext/kfontdialog_local.cpp:496
+msgid "Regular"
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:231
+#, fuzzy
+msgid "Bold"
+msgstr "Vetdruk:"
+
+#: kotext/kfontdialog_local.cpp:232
+#, fuzzy
+msgid "Bold Italic"
+msgstr "Kursief:"
+
+#: kotext/kfontdialog_local.cpp:249
+#, fuzzy
+msgid "Relative"
+msgstr "Relatiewe grootte:"
+
+#: kotext/kfontdialog_local.cpp:251
+msgid "Font size<br><i>fixed</i> or <i>relative</i><br>to environment"
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:253
+msgid ""
+"Here you can switch between fixed font size and font size to be calculated "
+"dynamically and adjusted to changing environment (e.g. widget dimensions, paper "
+"size)."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:277
+msgid "Here you can choose the font size to be used."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:300
+msgid "The Quick Brown Fox Jumps Over The Lazy Dog"
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:305
+msgid ""
+"This sample text illustrates the current settings. You may edit it to test "
+"special characters."
+msgstr ""
+
+#: kotext/kfontdialog_local.cpp:314 kotext/kfontdialog_local.cpp:324
+#, fuzzy
+msgid "Actual Font"
+msgstr "Kies Skrif tipe"
+
 #: _translatorinfo.cpp:1
 msgid ""
 "_: NAME OF TRANSLATORS\n"
@@ -4747,6 +4787,69 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr ""
+
+#~ msgid "Shadow"
+#~ msgstr "Skadu"
+
+#, fuzzy
+#~ msgid "&Distance (pt):"
+#~ msgstr "Afstand (pt):"
+
+#, fuzzy
+#~ msgid "Di&rection:"
+#~ msgstr "Rigting:"
+
+#, fuzzy
+#~ msgid "S&hadow"
+#~ msgstr "Skadu"
+
+#, fuzzy
+#~ msgid "Colors"
+#~ msgstr "Kleure:"
+
+#, fuzzy
+#~ msgid "Change Co&lor..."
+#~ msgstr "Verander Kleur..."
+
+#, fuzzy
+#~ msgid "Change Bac&kground Color..."
+#~ msgstr "Verander Agtergrond Kleur..."
+
+#, fuzzy
+#~ msgid "Font &Effects"
+#~ msgstr "Skrif tipe Effekte"
+
+#, fuzzy
+#~ msgid "&Underlining:"
+#~ msgstr "Onderstreep:"
+
+#, fuzzy
+#~ msgid "&Strikethrough:"
+#~ msgstr "Opgehewe:"
+
+#, fuzzy
+#~ msgid "&Word by word"
+#~ msgstr "Woord Deur Woord"
+
+#, fuzzy
+#~ msgid "Su&perscript"
+#~ msgstr "Boskrif"
+
+#, fuzzy
+#~ msgid "Su&bscript"
+#~ msgstr "Onderskrif"
+
+#, fuzzy
+#~ msgid "Offse&t from baseline:"
+#~ msgstr "Afwyking van basislyn:"
+
+#, fuzzy
+#~ msgid "A&ttribute:"
+#~ msgstr "Opgehewe:"
+
+#, fuzzy
+#~ msgid "Auto h&yphenation"
+#~ msgstr "Outokorreksie"
 
 #, fuzzy
 #~ msgid "Internal error: not a KOffice application, saving not allowed."
@@ -5911,9 +6014,6 @@ msgstr ""
 #~ msgid "Up"
 #~ msgstr "Begin"
 
-#~ msgid "Used Fonts"
-#~ msgstr "Gebruik word Skriftipes"
-
 #~ msgid "in"
 #~ msgstr "in"
 
@@ -6129,9 +6229,6 @@ msgstr ""
 
 #~ msgid "Normal:"
 #~ msgstr "Normale:"
-
-#~ msgid "Base font size:"
-#~ msgstr "Basis skrif tipe grootte:"
 
 #~ msgid "Minimum font size:"
 #~ msgstr "Minimum skrif tipe grootte:"
