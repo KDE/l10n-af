@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kspread VERSION\n"
-"POT-Creation-Date: 2005-06-27 01:33+0200\n"
+"POT-Creation-Date: 2005-07-04 01:34+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -515,22 +515,28 @@ msgstr "Vals"
 
 #: kspread_doc.cc:933
 #, fuzzy
-msgid "Invalid document. No office:body."
+msgid "Invalid OASIS OpenDocument file. No office:body tag found."
 msgstr "Ongeldige dokument. Nee kaart etiket."
 
-#: kspread_doc.cc:941
+#: kspread_doc.cc:948
 #, fuzzy
-msgid "Invalid document. No office:spreadsheet."
+msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
 msgstr "Ongeldige dokument. Nee kaart etiket."
 
-#: kspread_doc.cc:988
+#: kspread_doc.cc:950
+msgid ""
+"This document is not a spreadsheet, but %1. Please try opening it with the "
+"appropriate application."
+msgstr ""
+
+#: kspread_doc.cc:997
 #, c-format
 msgid ""
 "Invalid document. Expected mimetype application/x-kspread or "
 "application/vnd.kde.kspread, got %1"
 msgstr ""
 
-#: kspread_doc.cc:996
+#: kspread_doc.cc:1005
 msgid ""
 "This document was created with a newer version of KSpread (syntax version: %1)\n"
 "When you open it with this version of KSpread, some information may be lost."
@@ -540,17 +546,17 @@ msgstr ""
 "Wanneer jy open dit met Hierdie weergawe van Kspread, sommige informasie dalk "
 "mag wees verloor."
 
-#: kspread_doc.cc:998
+#: kspread_doc.cc:1007
 #, fuzzy
 msgid "File Format Mismatch"
 msgstr "Lêer formaat nie-ooreenstemming"
 
-#: kspread_doc.cc:1061
+#: kspread_doc.cc:1070
 #, fuzzy
 msgid "Styles cannot be loaded."
 msgstr "Drywer kon nie wees gelaai"
 
-#: kspread_doc.cc:1071
+#: kspread_doc.cc:1080
 msgid "Invalid document. No map tag."
 msgstr "Ongeldige dokument. Nee kaart etiket."
 
@@ -16750,6 +16756,10 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "frix@expertron.co.za"
+
+#, fuzzy
+#~ msgid "Invalid document. No office:spreadsheet."
+#~ msgstr "Ongeldige dokument. Nee kaart etiket."
 
 #, fuzzy
 #~ msgid "Sheet Properties..."
