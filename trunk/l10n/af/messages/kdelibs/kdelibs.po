@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs HEAD\n"
-"POT-Creation-Date: 2005-07-08 01:30+0200\n"
+"POT-Creation-Date: 2005-07-09 01:30+0200\n"
 "PO-Revision-Date: 2005-04-18 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -847,7 +847,7 @@ msgstr "Gaan uit"
 msgid "&Quit"
 msgstr "Gaan uit"
 
-#: common_texts.cpp:88 kdecore/kstdaccel.cpp:84
+#: common_texts.cpp:88 kdecore/kstdaccel.cpp:84 kded/kbuildsycoca.cpp:781
 msgid "Reload"
 msgstr "Herlaai"
 
@@ -984,8 +984,10 @@ msgstr "plaaslik gekoppel"
 msgid "Browse..."
 msgstr "Blaai..."
 
-#: common_texts.cpp:137 kdecore/kkeyserver_x11.cpp:127
-#: kdeui/kstdguiitem.cpp:257 khtml/ecma/kjs_debugwin.cpp:458
+#: common_texts.cpp:137 kdecore/kkeyserver_x11.cpp:127 kdeui/keditcl2.cpp:107
+#: kdeui/keditcl2.cpp:120 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:390
+#: kdeui/keditcl2.cpp:456 kdeui/keditcl2.cpp:469 kdeui/kstdguiitem.cpp:257
+#: khtml/ecma/kjs_debugwin.cpp:458 kutils/kreplace.cpp:319
 msgid "Stop"
 msgstr "Stop"
 
@@ -1105,8 +1107,9 @@ msgstr "Volgende"
 msgid "&Previous"
 msgstr "Vorige"
 
-#: common_texts.cpp:170 kdecore/kstdaccel.cpp:69 kdeui/keditcl2.cpp:456
-#: kdeui/keditcl2.cpp:469 kdeui/keditcl2.cpp:830 kutils/kreplace.cpp:45
+#: common_texts.cpp:170 kcert/kcertpart.cc:730 kcert/kcertpart.cc:746
+#: kdecore/kstdaccel.cpp:69 kdeui/keditcl2.cpp:456 kdeui/keditcl2.cpp:469
+#: kdeui/keditcl2.cpp:830 kutils/kreplace.cpp:45 kutils/kreplace.cpp:49
 msgid "Replace"
 msgstr "Vervang"
 
@@ -2464,6 +2467,11 @@ msgstr "KDE Opstel Bestuurder"
 #: kded/kbuildsycoca.cpp:781
 msgid "Do you want to reload KDE configuration?"
 msgstr "Wil jy die KDE opstelling herlaai?"
+
+#: kded/kbuildsycoca.cpp:781
+#, fuzzy
+msgid "Do Not Reload"
+msgstr "Moet nie Stoor nie"
 
 #: kded/kbuildsycoca.cpp:964
 msgid "Configuration information reloaded successfully."
@@ -4408,8 +4416,17 @@ msgstr "Vul asseblief 'n naam in."
 msgid "Old upload information found, fill out fields?"
 msgstr "Ou oplaai informasie gevind. Moet dit gebruik word?"
 
+#: knewstuff/uploaddialog.cpp:173
+msgid "Fill Out"
+msgstr ""
+
+#: knewstuff/uploaddialog.cpp:173
+msgid "Do Not Fill Out"
+msgstr ""
+
 #: knewstuff/knewstuffgeneric.cpp:133
-msgid "The file '%1' already exists. Do you want to override it?"
+#, fuzzy
+msgid "The file '%1' already exists. Do you want to overwrite it?"
 msgstr "Die lêer '%1' bestaan alreeds. Moet dit oorskryf word?"
 
 #: khtml/khtml_ext.cpp:798 knewstuff/knewstuffgeneric.cpp:135
@@ -4901,6 +4918,11 @@ msgid ""
 msgstr ""
 "Die '%1' sleutel kombinasie is alreeds aan die aksie \"%2\" geallokeer.\n"
 "Wil jy dit eerder aan die nuwe aksie allokeer?"
+
+#: kdeui/kkeydialog.cpp:975
+#, fuzzy
+msgid "Reassign"
+msgstr "Russies"
 
 #: kdeui/kkeydialog.cpp:1089 kdeui/kkeydialog.cpp:1101
 msgid "Configure Shortcuts"
@@ -6180,7 +6202,7 @@ msgstr ""
 "As jy op \"Stuur\" kliek sal 'n e-pos boodskap na die onderhouer van hierdie "
 "program gestuur word.\n"
 
-#: kdeui/kbugreport.cpp:253
+#: kdeui/kbugreport.cpp:252
 msgid ""
 "To submit a bug report, click on the button below.\n"
 "This will open a web browser window on http://bugs.kde.org where you will find "
@@ -6192,17 +6214,17 @@ msgstr ""
 "sal kry om in te vul.\n"
 "Die informasie wat hierbo vertoon word sal na die bediener oorgedra word."
 
-#: kdeui/kbugreport.cpp:261
+#: kdeui/kbugreport.cpp:260
 msgid "&Launch Bug Report Wizard"
 msgstr "Lanseer Fourt Raport Helper"
 
-#: kdeui/kbugreport.cpp:299
+#: kdeui/kbugreport.cpp:298
 msgid ""
 "_: unknown program name\n"
 "unknown"
 msgstr "onbekend"
 
-#: kdeui/kbugreport.cpp:377
+#: kdeui/kbugreport.cpp:376
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
@@ -6210,7 +6232,7 @@ msgstr ""
 "Jy moet spesifiseer beide 'n onderwerp en 'n beskrywing voor die raporteer kan "
 "wees gestuur."
 
-#: kdeui/kbugreport.cpp:387
+#: kdeui/kbugreport.cpp:386
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
 "intended only for bugs that</p>"
@@ -6232,7 +6254,7 @@ msgstr ""
 "<p>Doen die fout Jy word raporteer veroorsaak enige van die boonste skade? As "
 "dit Doen nie, Asseblief kies 'n sagter ernstigheidsgraad. Dank Jy!</p>"
 
-#: kdeui/kbugreport.cpp:398
+#: kdeui/kbugreport.cpp:397
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
 "intended only for bugs that</p>"
@@ -6254,7 +6276,7 @@ msgstr ""
 "<p>Doen die fout Jy word raporteer veroorsaak enige van die boonste skade? As "
 "dit Doen nie, Asseblief kies 'n sagter ernstigheidsgraad. Dank Jy!</p>"
 
-#: kdeui/kbugreport.cpp:410
+#: kdeui/kbugreport.cpp:409
 msgid ""
 "Unable to send the bug report.\n"
 "Please submit a bug report manually...\n"
@@ -6264,11 +6286,11 @@ msgstr ""
 "Asseblief stuur in 'n fout raporteer eiehandig...\n"
 "Sien http://bugs.kde.org/ vir instruksies."
 
-#: kdeui/kbugreport.cpp:419
+#: kdeui/kbugreport.cpp:417
 msgid "Bug report sent, thank you for your input."
 msgstr "Fout raporteer gestuur, dank jy vir jou invoer."
 
-#: kdeui/kbugreport.cpp:428
+#: kdeui/kbugreport.cpp:426
 msgid ""
 "Close and discard\n"
 "edited message?"
@@ -6276,7 +6298,7 @@ msgstr ""
 "Maak toe en gooi weg\n"
 "geredigeerde boodskap?"
 
-#: kdeui/kbugreport.cpp:429
+#: kdeui/kbugreport.cpp:427
 msgid "Close Message"
 msgstr "Maak Boodskap Toe"
 
@@ -7189,7 +7211,7 @@ msgstr ""
 "<qt>Die vorm sal wees instuur na <BR><B>%1</B><BR>op jou plaaslike "
 "lêersisteem.<BR>Doen jy wil hê na stuur in Die vorm?"
 
-#: khtml/html/html_formimpl.cpp:1470 khtml/khtml_part.cpp:4777
+#: khtml/html/html_formimpl.cpp:1469 khtml/khtml_part.cpp:4777
 #: khtml/khtmlview.cpp:2408 khtml/khtmlview.cpp:2450
 #: khtml/rendering/render_form.cpp:296
 msgid "Submit"
@@ -7422,6 +7444,16 @@ msgstr ""
 "<p>%1</p> in 'n nuwe blaaier venster oopmaak via JavaScript.Wil jy dit "
 "toelaat?</qt>"
 
+#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1330
+#, fuzzy
+msgid "Allow"
+msgstr "Alle"
+
+#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1330
+#, fuzzy
+msgid "Do Not Allow"
+msgstr "Nee vir Alle"
+
 #: khtml/ecma/kjs_window.cpp:1563
 msgid "Close window?"
 msgstr "Maak toe venster?"
@@ -7429,6 +7461,11 @@ msgstr "Maak toe venster?"
 #: khtml/ecma/kjs_window.cpp:1563
 msgid "Confirmation Required"
 msgstr "Bevestiging Benodig"
+
+#: khtml/ecma/kjs_window.cpp:1563
+#, fuzzy
+msgid "Do Not Close"
+msgstr "Moet nie Stoor nie"
 
 #: khtml/ecma/kjs_window.cpp:2326
 msgid ""
@@ -7531,8 +7568,18 @@ msgid "Save Login Information"
 msgstr "Stoor Aanteken Informasie"
 
 #: khtml/html/html_formimpl.cpp:610
+#, fuzzy
+msgid "Store"
+msgstr "Straat"
+
+#: khtml/html/html_formimpl.cpp:610
 msgid "Ne&ver for This Site"
 msgstr "Nooit vir hierdie web werf"
+
+#: khtml/html/html_formimpl.cpp:610
+#, fuzzy
+msgid "Do Not Store"
+msgstr "Moet nie Stoor nie"
 
 #: khtml/html/html_formimpl.cpp:614
 msgid ""
@@ -7699,6 +7746,16 @@ msgstr ""
 #: khtml/rendering/render_frames.cpp:824
 msgid "Missing Plugin"
 msgstr "Kort Inprop Module"
+
+#: khtml/rendering/render_frames.cpp:824
+#, fuzzy
+msgid "Download"
+msgstr "Aflaaie"
+
+#: khtml/rendering/render_frames.cpp:824
+#, fuzzy
+msgid "Do Not Download"
+msgstr "Meeste keer afgelaai"
 
 #: kinit/kinit.cpp:440
 msgid ""
@@ -8269,6 +8326,11 @@ msgstr "Wil jy 'n nuwe soektog begin vanaf die einde van die dokument?"
 msgid "Do you want to restart search at the beginning?"
 msgstr "Doen jy wil hê na herbegin soektog na die begin?"
 
+#: kutils/kreplace.cpp:319
+#, fuzzy
+msgid "Restart"
+msgstr "Herstel"
+
 #: kutils/kpluginselector.cpp:111
 msgid ""
 "<qt>"
@@ -8702,6 +8764,11 @@ msgstr "Die lêer \"%1\" kan nie wees gevind. Skep 'n nuwe een?"
 msgid "No Such File"
 msgstr "Nee Soos Lêer"
 
+#: kab/addressbook.cc:625
+#, fuzzy
+msgid "Create"
+msgstr "Middel"
+
 #: kab/addressbook.cc:629
 msgid "New file."
 msgstr "Nuwe lêer."
@@ -9030,6 +9097,10 @@ msgstr "Sertifikaat Wagwoord"
 #: kcert/kcertpart.cc:496
 msgid "The certificate file could not be loaded. Try a different password?"
 msgstr "Die sertifikaat lêer kon nie wees gelaai. Probeer 'n ander wagwoord?"
+
+#: kcert/kcertpart.cc:496
+msgid "Try Different"
+msgstr ""
 
 #: kcert/kcertpart.cc:532 kcert/kcertpart.cc:566
 msgid "This file cannot be opened."
