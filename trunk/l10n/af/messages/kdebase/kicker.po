@@ -1,10 +1,10 @@
 # UTF-8 test:äëïöü
 # Copyright (C) 2001 Free Software Foundation, Inc.
 # Frikkie Thirion <frix@expertron.co.za>, 2001,2002,2005.
-#
+# Juanita Franz <juanita.franz@vr-web.de>, 2005.
 msgid ""
 msgstr ""
-"Project-Id-Version: kicker HEAD\n"
+"Project-Id-Version: kicker trunc\n"
 "POT-Creation-Date: 2005-07-09 01:31+0200\n"
 "PO-Revision-Date: 2005-05-09 11:29+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
@@ -69,10 +69,12 @@ msgstr "%1 kieslys"
 #: core/container_applet.cpp:109
 msgid "The %1 applet could not be loaded. Please check your installation."
 msgstr ""
+"Die %1 miniprogram kon nie gelaai word nie. Kontroleur asseblief jou "
+"installasie"
 
 #: core/container_applet.cpp:111
 msgid "Applet Loading Error"
-msgstr ""
+msgstr "Miniprogram laai Fout"
 
 #: core/container_extension.cpp:1583 core/container_extension.cpp:1596
 msgid "Show panel"
@@ -84,13 +86,15 @@ msgstr "Steek paneel weg"
 
 #: core/extensionmanager.cpp:112
 msgid ""
-"The KDE panel (kicker) could not load the main panel due to a problem with your "
-"installation. "
+"The KDE panel (kicker) could not load the main panel due to a problem with "
+"your installation. "
 msgstr ""
+"Die KDE paneel (kicker) kon nie die hoofpaneel laai nie as gevolg van 'n "
+"probleem met jou installasie. "
 
 #: core/extensionmanager.cpp:114
 msgid "Fatal Error!"
-msgstr ""
+msgstr "Dodelike Fout!"
 
 #: core/kickerbindings.cpp:39
 msgid "Panel"
@@ -118,20 +122,21 @@ msgstr "(c) 1999-2004, Die KDE Span"
 
 #: core/main.cpp:110
 msgid "Current maintainer"
-msgstr ""
+msgstr "Huidige onderhouer"
 
 #: core/main.cpp:118
 msgid "Kiosk mode"
-msgstr ""
+msgstr "Kiosk modus"
 
 #: core/panelextension.cpp:304
 #, fuzzy
 msgid "Add &Applet to Menubar"
-msgstr "Miniprogram"
+msgstr "Miniprogram Kieslys"
 
 #: core/panelextension.cpp:305
+#, fuzzy
 msgid "Add &Applet to Panel..."
-msgstr ""
+msgstr "Voeg by na Paneel"
 
 #: core/panelextension.cpp:308
 #, fuzzy
@@ -149,19 +154,18 @@ msgid "&Remove from Menubar"
 msgstr "Verwyder %1 Kieslys"
 
 #: core/panelextension.cpp:314
-#, fuzzy
 msgid "&Remove From Panel"
-msgstr "Verwyder %1 Kieslys"
+msgstr "Verwyder van Paneel"
 
 #: core/panelextension.cpp:319
 #, fuzzy
 msgid "Add New &Panel"
-msgstr "Paneel"
+msgstr "Voeg by na Paneel"
 
 #: core/panelextension.cpp:321
 #, fuzzy
 msgid "Remove Pa&nel"
-msgstr "Verwyder %1 Kieslys"
+msgstr "Verwyder van Paneel"
 
 #: core/panelextension.cpp:330
 #, fuzzy
@@ -232,14 +236,12 @@ msgid "&Configure %1..."
 msgstr "Konfigureer %1..."
 
 #: ui/appletop_mnu.cpp:143
-#, fuzzy
 msgid "Applet Menu"
-msgstr "Miniprogram"
+msgstr "Miniprogram Kieslys"
 
 #: ui/appletop_mnu.cpp:144
-#, fuzzy
 msgid "%1 Menu"
-msgstr "%1 kieslys"
+msgstr "%1 Kieslys"
 
 #: ui/appletop_mnu.cpp:170
 msgid "&Menu Editor"
@@ -247,7 +249,7 @@ msgstr "Kieslys Redigeerder"
 
 #: ui/appletop_mnu.cpp:185
 msgid "&Edit Bookmarks"
-msgstr ""
+msgstr "Redigeer Boekmerke"
 
 #: ui/appletop_mnu.cpp:194
 msgid "Panel Menu"
@@ -270,24 +272,20 @@ msgid "&Browse..."
 msgstr "Blaai..."
 
 #: ui/browser_dlg.cpp:87
-#, fuzzy
 msgid "Select Folder"
 msgstr "Kies Gids"
 
 #: ui/browser_dlg.cpp:100
-#, fuzzy
 msgid "'%1' is not a valid folder."
-msgstr "'%1' is nie 'n geldige gids."
+msgstr "'%1' is nie 'n geldige gids nie."
 
 #: ui/browser_mnu.cpp:126 ui/browser_mnu.cpp:135
-#, fuzzy
 msgid "Failed to Read Folder"
-msgstr "Gevaal na Lees Gids."
+msgstr "Gevaal om te Lees Gids."
 
 #: ui/browser_mnu.cpp:143
-#, fuzzy
 msgid "Not Authorized to Read Folder"
-msgstr "Gevaal na Lees Gids."
+msgstr "Nie Gemagtig om te Lees Gids."
 
 #: ui/browser_mnu.cpp:151
 msgid "Open in File Manager"
@@ -298,7 +296,6 @@ msgid "Open in Terminal"
 msgstr "Open in Terminaal"
 
 #: ui/browser_mnu.cpp:299
-#, fuzzy
 msgid "More"
 msgstr "Meer..."
 
@@ -325,7 +322,7 @@ msgstr ""
 #: ui/exe_dlg.cpp:190
 #, fuzzy
 msgid "Not Executable"
-msgstr " Uitvoerbare Program"
+msgstr " Uitvoerbaar:"
 
 #: ui/exe_dlg.cpp:190
 #, fuzzy
@@ -350,7 +347,7 @@ msgstr "Hardloop Opdrag..."
 
 #: ui/k_mnu.cpp:329 ui/k_mnu.cpp:334
 msgid "Switch User"
-msgstr ""
+msgstr "Wissel Gebruiker"
 
 #: ui/k_mnu.cpp:352 ui/k_mnu.cpp:358
 msgid "Save Session"
@@ -361,30 +358,33 @@ msgid "Lock Session"
 msgstr "Sluit Skerm"
 
 #: ui/k_mnu.cpp:382 ui/k_mnu.cpp:388
-#, fuzzy
 msgid "Log Out..."
 msgstr "Teken af..."
 
 #: ui/k_mnu.cpp:442
-#, fuzzy
 msgid "Lock Current && Start New Session"
-msgstr "Begin Nuwe Sessie"
+msgstr "Sluit Huidige en Begin Nuwe Sessie"
 
 #: ui/k_mnu.cpp:443
-#, fuzzy
 msgid "Start New Session"
 msgstr "Begin Nuwe Sessie"
 
 #: ui/k_mnu.cpp:475
 msgid ""
-"<p>You have chosen to open another desktop session."
-"<br>The current session will be hidden and a new login screen will be "
-"displayed."
-"<br>An F-key is assigned to each session; F%1 is usually assigned to the first "
-"session, F%2 to the second session and so on. You can switch between sessions "
-"by pressing Ctrl, Alt and the appropriate F-key at the same time. Additionally, "
-"the KDE Panel and Desktop menus have actions for switching between sessions.</p>"
+"<p>You have chosen to open another desktop session.<br>The current session "
+"will be hidden and a new login screen will be displayed.<br>An F-key is "
+"assigned to each session; F%1 is usually assigned to the first session, F%2 "
+"to the second session and so on. You can switch between sessions by pressing "
+"Ctrl, Alt and the appropriate F-key at the same time. Additionally, the KDE "
+"Panel and Desktop menus have actions for switching between sessions.</p>"
 msgstr ""
+"<p>Jy het gekies om oop te maak 'n ander werkskerm sessie.<br>Die huidige "
+"sessie sal weggesteek word en 'n nuwe inlog skerm sal vertoon word.<br>'n F-"
+"sleutel is ontwerp vir elke sessie; F%1 is gewoonlik ontwerp vir die eerste "
+"sessie, F%2 vir die tweede sessie en so verder. Jy kan wissel tussen sessies "
+"deur te druk Ctrl, Alt en die toepaslike F-sleutel op dieselfde tyd. "
+"Addisioneel, die KDE Paneel en Werkskerm kieslyste het aksies vir wisseling "
+"tussen sessies.</p>"
 
 #: ui/k_mnu.cpp:486
 msgid "Warning - New Session"
@@ -422,14 +422,12 @@ msgid "All"
 msgstr "Alle"
 
 #: ui/removecontainer_mnu.cpp:42
-#, fuzzy
 msgid "&Applet"
 msgstr "Miniprogram"
 
 #: ui/removecontainer_mnu.cpp:44
-#, fuzzy
 msgid "Appli&cation"
-msgstr "Programme"
+msgstr "Program"
 
 #: ui/removeextension_mnu.cpp:64
 msgid "%1 (Top)"
@@ -448,13 +446,12 @@ msgid "%1 (Left)"
 msgstr "%1 (Links)"
 
 #: ui/removeextension_mnu.cpp:76
-#, fuzzy
 msgid "%1 (Floating)"
-msgstr "%1 (Regterkant)"
+msgstr "%1 (Drywende)"
 
 #: ui/service_mnu.cpp:265
 msgid "No Entries"
-msgstr "Nee Inskrywings"
+msgstr "Geen Inskrywings"
 
 #: ui/service_mnu.cpp:272
 msgid "Add This Menu"
@@ -462,44 +459,43 @@ msgstr "Voeg by Hierdie Kieslys"
 
 #: ui/service_mnu.cpp:515
 msgid "Add Item to Desktop"
-msgstr ""
+msgstr "Voeg Item na Werkskerm"
 
 #: ui/service_mnu.cpp:520
 msgid "Add Item to Main Panel"
-msgstr ""
+msgstr "Voeg item na hoof Paneel"
 
 #: ui/service_mnu.cpp:525
 msgid "Edit Item"
-msgstr ""
+msgstr "Redigeer Item"
 
 #: ui/service_mnu.cpp:530
 msgid "Put Into Run Dialog"
-msgstr ""
+msgstr "Plaas binne in loop Dialoog"
 
 #: ui/service_mnu.cpp:538
 msgid "Add Menu to Desktop"
-msgstr ""
+msgstr "Voeg Kieslys na Werkskerm"
 
 #: ui/service_mnu.cpp:543
 msgid "Add Menu to Main Panel"
-msgstr ""
+msgstr "Voeg Kieslys na Hoof Paneel"
 
 #: ui/service_mnu.cpp:548
-#, fuzzy
 msgid "Edit Menu"
-msgstr "K Kieslys"
+msgstr "Redigeer Kieslys"
 
 #: _translatorinfo.cpp:1
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "Frikkie Thirion"
+msgstr "Frikkie Thirion, Juanita Franz "
 
 #: _translatorinfo.cpp:3
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "frix@expertron.co.za"
+msgstr "frix@expertron.co.za, juanita.franz@vr-web.de "
 
 #. i18n: file ui/appletview.ui line 35
 #: rc.cpp:6
@@ -541,29 +537,33 @@ msgstr ""
 #: rc.cpp:27
 #, no-c-format
 msgid ""
-"<qt>This is the applet list. Select and applet and click on <b>Add to panel</b> "
-"to add it</qt>"
+"<qt>This is the applet list. Select and applet and click on <b>Add to panel</"
+"b> to add it</qt>"
 msgstr ""
 
 #. i18n: file ui/appletview.ui line 156
 #: rc.cpp:30
 #, no-c-format
 msgid "&Add to Panel"
-msgstr ""
+msgstr "Voeg by na Paneel"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 30
 #: rc.cpp:37 rc.cpp:62
 #, no-c-format
 msgid ""
-"Enter the name of the executable file to be run when this button is selected. "
-"If it is not in your $PATH then you will need to provide an absolute path."
+"Enter the name of the executable file to be run when this button is "
+"selected. If it is not in your $PATH then you will need to provide an "
+"absolute path."
 msgstr ""
+"Voer in die naam van die uitvoerbare lêer om te loop wanneer hierdie knoppie "
+"gekies word. Indien dit nie in jou $PATH is nie sal jy nodig hê om 'n "
+"absolute path te voorsien."
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 38
 #: rc.cpp:40
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Co&mmand line arguments (optional):"
-msgstr "Opsionele opdrag lyn argumente:"
+msgstr "Opdrag lyn argumente (opsioneel):"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 46
 #: rc.cpp:43 rc.cpp:54
@@ -573,38 +573,45 @@ msgid ""
 "\n"
 "<i>Example</i>: For the command `rm -rf` enter \"-rf\" in this text box."
 msgstr ""
+"Invoer van enige opdrag lyn opsie wat na die opdrag aangegee moet word "
+"hier.\n"
+"\n"
+"<i>Byvoorbeeld</i>: Vir die opdrag `rm -rf` voer in \"-rf\" in hierdie teks "
+"boks."
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 54
 #: rc.cpp:48
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Run in a &terminal window"
-msgstr "Hardloop in terminaal"
+msgstr "Hardloop in terminaal venster"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 57
 #: rc.cpp:51
 #, no-c-format
 msgid ""
-"Select this option if the command is a command line application and you wish to "
-"be able to see its output when run."
+"Select this option if the command is a command line application and you wish "
+"to be able to see its output when run."
 msgstr ""
+"Kies hierdie opsie as die opdrag is 'n opdrag lyn program en jy sy uitvoer "
+"wil sien wanneer dit loop."
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 75
 #: rc.cpp:59
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "&Executable:"
-msgstr " Uitvoerbare Program"
+msgstr " Uitvoerbaar:"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 97
 #: rc.cpp:65 rc.cpp:71 rc.cpp:78 rc.cpp:81
 #, no-c-format
 msgid "Enter the name you would like to appear for this button here."
-msgstr ""
+msgstr "Voer die naam wat jy graag sal wil vertoon vir hierdie knoppie hier in"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 105
 #: rc.cpp:68
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "&Button title:"
-msgstr "Knoppie ikoon:"
+msgstr "Knoppie titel:"
 
 #. i18n: file ui/nonKDEButtonSettings.ui line 167
 #: rc.cpp:75
@@ -616,91 +623,91 @@ msgstr ""
 #: rc.cpp:84
 #, no-c-format
 msgid "The position of the panel"
-msgstr ""
+msgstr "Die posisie van die paneel"
 
 #. i18n: file core/extensionSettings.kcfg line 21
 #: rc.cpp:87
 #, no-c-format
 msgid "The alignment of the panel"
-msgstr ""
+msgstr "Die groepering van die paneel"
 
 #. i18n: file core/extensionSettings.kcfg line 28
 #: rc.cpp:90
 #, no-c-format
 msgid "Primary xinerama screen"
-msgstr ""
+msgstr "Primêre xinerama skerm"
 
 #. i18n: file core/extensionSettings.kcfg line 33
 #: rc.cpp:93
 #, no-c-format
 msgid "Hide button size"
-msgstr ""
+msgstr "Wegsteek knoppie grote"
 
 #. i18n: file core/extensionSettings.kcfg line 40
 #: rc.cpp:96
 #, no-c-format
 msgid "Show left panel hide button"
-msgstr ""
+msgstr "Wys linker paneel wegsteek knoppie"
 
 #. i18n: file core/extensionSettings.kcfg line 45
 #: rc.cpp:99
 #, no-c-format
 msgid "Show right panel hide button"
-msgstr ""
+msgstr "Vertoon regter paneel wegsteek knoppie"
 
 #. i18n: file core/extensionSettings.kcfg line 50
 #: rc.cpp:102
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Auto hide panel"
-msgstr "Steek paneel weg"
+msgstr "Outo Steek paneel weg"
 
 #. i18n: file core/extensionSettings.kcfg line 55
 #: rc.cpp:105
 #, no-c-format
 msgid "Enable auto hide"
-msgstr ""
+msgstr "Ontsper outo wegsteek"
 
 #. i18n: file core/extensionSettings.kcfg line 60
 #: rc.cpp:108
 #, no-c-format
 msgid "Delay before auto hide"
-msgstr ""
+msgstr "Vertraging voor outo wegsteek"
 
 #. i18n: file core/extensionSettings.kcfg line 65
 #: rc.cpp:111
 #, no-c-format
 msgid "The trigger location for unhides"
-msgstr ""
+msgstr "Die uitvee area vir die onweggesteektes"
 
 #. i18n: file core/extensionSettings.kcfg line 72
 #: rc.cpp:114
 #, no-c-format
 msgid "Enable background hiding"
-msgstr ""
+msgstr "Aktiveer agtergrond wegsteek"
 
 #. i18n: file core/extensionSettings.kcfg line 77
 #: rc.cpp:117
 #, no-c-format
 msgid "Animate panel hiding"
-msgstr ""
+msgstr "Animeer paneel wegsteek"
 
 #. i18n: file core/extensionSettings.kcfg line 82
 #: rc.cpp:120
 #, no-c-format
 msgid "Panel hiding animation speed"
-msgstr ""
+msgstr "Paneel wegsteek animasie spoed"
 
 #. i18n: file core/extensionSettings.kcfg line 87
 #: rc.cpp:123
 #, no-c-format
 msgid "Length in percentage"
-msgstr ""
+msgstr "Lengte in persentasie"
 
 #. i18n: file core/extensionSettings.kcfg line 94
 #: rc.cpp:126
 #, no-c-format
 msgid "Expand as required to fit contents"
-msgstr ""
+msgstr "Uitbrei soos benodig om inhoud te pas"
 
 #. i18n: file core/extensionSettings.kcfg line 99
 #: rc.cpp:129
@@ -714,21 +721,14 @@ msgstr "Grootte"
 msgid "Custom size"
 msgstr "Pasmaak Grootte"
 
-#, fuzzy
+#~ msgid "Click here to browse and start applications"
+#~ msgstr "Kliek hier om programme te blaai en te begin"
+
 #~ msgid "&Special Button"
-#~ msgstr "Spesiaal Knoppie"
+#~ msgstr "Spesiaale Knoppie"
 
 #~ msgid "Non-KDE Application"
 #~ msgstr "Nie-kde Aansoek"
-
-#~ msgid "Applet"
-#~ msgstr "Miniprogram"
-
-#~ msgid "Application Button"
-#~ msgstr "Aansoek Knoppie"
-
-#~ msgid "Special Button"
-#~ msgstr "Spesiaal Knoppie"
 
 #~ msgid "&Properties"
 #~ msgstr "Eienskappe"
