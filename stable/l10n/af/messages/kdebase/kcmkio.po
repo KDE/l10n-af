@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: kcmkio 3_4_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2005-03-07 11:45+0100\n"
-"PO-Revision-Date: 2005-06-27 16:35+0200\n"
+"PO-Revision-Date: 2005-07-19 16:35+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -47,6 +47,8 @@ msgid ""
 "Unable to start the cookie handler service.\n"
 "You will not be able to manage the cookies that are stored on your computer."
 msgstr ""
+"Unable to start the cookie handler service.\n"
+"You will not be able to manage the cookies that are stored on your computer."
 
 #: kcookiesmain.cpp:42
 msgid "&Policy"
@@ -74,18 +76,33 @@ msgid ""
 "then you can access the web sites without being prompted every time KDE "
 "receives a cookie."
 msgstr ""
+"<h1>Cookies</h1> Cookies contain information that Konqueror (or other KDE "
+"applications using the HTTP protocol) stores on your computer, initiated by a "
+"remote Internet server. This means that a web server can store information "
+"about you and your browsing activities on your machine for later use. You might "
+"consider this an invasion of privacy. "
+"<p> However, cookies are useful in certain situations. For example, they are "
+"often used by Internet shops, so you can 'put things into a shopping basket'. "
+"Some sites require you have a browser that supports cookies. "
+"<p> Because most people want a compromise between privacy and the benefits "
+"cookies offer, KDE offers you the ability to customize the way it handles "
+"cookies. So you might want to set KDE's default policy to ask you whenever a "
+"server wants to set a cookie, allowing you to decide. For your favorite "
+"shopping web sites that you trust, you might want to set the policy to accept, "
+"then you can access the web sites without being prompted every time KDE "
+"receives a cookie."
 
 #: kcookiesmanagement.cpp:150 kcookiesmanagement.cpp:171
 msgid "DCOP Communication Error"
-msgstr ""
+msgstr "DCOP Communication Error"
 
 #: kcookiesmanagement.cpp:151
 msgid "Unable to delete all the cookies as requested."
-msgstr ""
+msgstr "Unable to delete all the cookies as requested."
 
 #: kcookiesmanagement.cpp:172
 msgid "Unable to delete cookies as requested."
-msgstr ""
+msgstr "Unable to delete cookies as requested."
 
 #: kcookiesmanagement.cpp:244
 msgid "<h1>Cookies Management Quick Help</h1>"
@@ -131,6 +148,8 @@ msgid ""
 "Unable to communicate with the cookie handler service.\n"
 "Any changes you made will not take effect until the service is restarted."
 msgstr ""
+"Unable to communicate with the cookie handler service.\n"
+"Any changes you made will not take effect until the service is restarted."
 
 #: kcookiespolicies.cpp:449
 msgid ""
@@ -154,6 +173,25 @@ msgid ""
 "tab and set it to accept. This enables you to receive cookies from trusted web "
 "sites without being asked every time KDE receives a cookie."
 msgstr ""
+"<h1>Cookies</h1> Cookies contain information that Konqueror (or any other KDE "
+"application using the HTTP protocol) stores on your computer from a remote "
+"Internet server. This means that a web server can store information about you "
+"and your browsing activities on your machine for later use. You might consider "
+"this an invasion of privacy."
+"<p>However, cookies are useful in certain situations. For example, they are "
+"often used by Internet shops, so you can 'put things into a shopping basket'. "
+"Some sites require you have a browser that supports cookies."
+"<p>Because most people want a compromise between privacy and the benefits "
+"cookies offer, KDE offers you the ability to customize the way it handles "
+"cookies. You might, for example want to set KDE's default policy to ask you "
+"whenever a server wants to set a cookie or simply reject or accept everything. "
+"For example, you might choose to accept all cookies from your favorite shopping "
+"web site. For this all you have to do is either browse to that particular site "
+"and when you are presented with the cookie dialog box, click on <i> "
+"This domain </i> under the 'apply to' tab and choose accept or simply specify "
+"the name of the site in the <i> Domain Specific Policy </i> "
+"tab and set it to accept. This enables you to receive cookies from trusted web "
+"sites without being asked every time KDE receives a cookie."
 
 #: kenvvarproxydlg.cpp:47
 msgid "Variable Proxy Configuration"
@@ -204,6 +242,9 @@ msgid ""
 "for, press OK, click on the quick help button on the window title bar of the "
 "previous dialog and then click on the \"<b>Auto Detect</b>\" button.</qt>"
 msgstr ""
+"<qt>To learn about the variable names the automatic detection process searches "
+"for, press OK, click on the quick help button on the window title bar of the "
+"previous dialog and then click on the \"<b>Auto Detect</b>\" button.</qt>"
 
 #: kenvvarproxydlg.cpp:232
 msgid "Automatic Proxy Variable Detection"
@@ -222,6 +263,8 @@ msgid ""
 "One or more of the specified proxy settings are invalid. The incorrect entries "
 "are highlighted."
 msgstr ""
+"One or more of the specified proxy settings are invalid. The incorrect entries "
+"are highlighted."
 
 #: kmanualproxydlg.cpp:343
 msgid "You entered a duplicate address. Please try again."
@@ -262,6 +305,14 @@ msgid ""
 "<br/><code>http://my company.com, http:/mycompany,com file:/localhost</code>"
 "</qt>"
 msgstr ""
+"<qt>Make sure none of the addresses or URLs you specified contain invalid or "
+"wildcard characters such as spaces, asterisks (*), or question marks(?)."
+"<p><u>Examples of VALID entries:</u>"
+"<br/><code>http://mycompany.com, 192.168.10.1, mycompany.com, localhost, "
+"http://localhost</code>"
+"<p><u>Examples of INVALID entries:</u>"
+"<br/><code>http://my company.com, http:/mycompany,com file:/localhost</code>"
+"</qt>"
 
 #: kmanualproxydlg.cpp:468
 msgid "Enter the URL or address that should use the above proxy settings:"
@@ -284,6 +335,11 @@ msgid ""
 "domain, e.g. <code>printing.kde.org</code>, then simply enter <code>"
 ".kde.org</code></qt>"
 msgstr ""
+"<qt>Enter a valid address or url."
+"<p><b><u>NOTE:</u></b> Wildcard matching such as <code>*.kde.org</code> "
+"is not supported. If you want to match any host in the <code>.kde.org</code> "
+"domain, e.g. <code>printing.kde.org</code>, then simply enter <code>"
+".kde.org</code></qt>"
 
 #: kproxydlg.cpp:54
 msgid "&Proxy"
@@ -370,6 +426,23 @@ msgid ""
 "or contact Alexander Neundorf &lt;<a href=\"mailto:neundorf@kde.org\">"
 "neundorf@kde.org</a>&gt;."
 msgstr ""
+"<h1>Local Network Browsing</h1>Here you setup your <b>"
+"\"Network Neighborhood\"</b>. You can use either the LISa daemon and the lan:/ "
+"ioslave, or the ResLISa daemon and the rlan:/ ioslave."
+"<br>"
+"<br>About the <b>LAN ioslave</b> configuration:"
+"<br> If you select it, the ioslave, <i>if available</i>"
+", will check whether the host supports this service when you open this host. "
+"Please note that paranoid people might consider even this to be an attack."
+"<br><i>Always</i> means that you will always see the links for the services, "
+"regardless of whether they are actually offered by the host. <i>Never</i> "
+"means that you will never have the links to the services. In both cases you "
+"will not contact the host, so nobody will ever regard you as an attacker."
+"<br>"
+"<br>More information about <b>LISa</b> can be found at <a "
+"href=\"http://lisa-home.sourceforge.net\">the LISa Homepage</a> "
+"or contact Alexander Neundorf &lt;<a href=\"mailto:neundorf@kde.org\">"
+"neundorf@kde.org</a>&gt;."
 
 #: main.cpp:105
 msgid "&Windows Shares"
@@ -829,7 +902,7 @@ msgstr ""
 #: rc.cpp:176
 #, no-c-format
 msgid "Only acce&pt cookies from originating server"
-msgstr ""
+msgstr "Only acce&pt cookies from originating server"
 
 #. i18n: file kcookiespoliciesdlg_ui.ui line 54
 #: rc.cpp:179
@@ -844,6 +917,14 @@ msgid ""
 "profile about your daily browsing habits.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Reject the so called third-party cookies. These are cookies that originate from "
+"a site other than the one you are currently browsing. For example, if you visit "
+"<b>www.foobar.com</b> while this option is on, only cookies that originate from "
+"www.foobar.com will be processed per your settings. Cookies from any other site "
+"will be rejected. This reduces the chances of site operators compiling a "
+"profile about your daily browsing habits.\n"
+"</qt>"
 
 #. i18n: file kcookiespoliciesdlg_ui.ui line 62
 #: rc.cpp:184
@@ -1024,16 +1105,20 @@ msgid ""
 "policies override the default policy setting for these sites.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"List of sites for which you have set a specific cookie policy. Specific "
+"policies override the default policy setting for these sites.\n"
+"</qt>"
 
 #. i18n: file kcookiespoliciesdlg_ui.ui line 298
 #: rc.cpp:266
 #, no-c-format
 msgid "Search interactively for domains"
-msgstr ""
+msgstr "Search interactively for domains"
 
 #. i18n: file kproxydlg_ui.ui line 22
 #: rc.cpp:269
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<qt>\n"
 "Setup proxy configuration.\n"
@@ -1050,14 +1135,13 @@ msgid ""
 "system administrator.\n"
 "</qt>"
 msgstr ""
-"<qt>Bevestig hierdie boks na aktiveer die gebruik van volmag bedieners vir jou "
-"Internet verbinding."
-"<p>Asseblief nota wat te gebruik volmag bedieners is opsionele, maar het die "
-"voordeel van voordeel van gee jy vinniger toegang verkry na data op die "
-"Internet."
-"<p>As jy word onseker hetsy van nie jy benodig na gebruik 'n volmag bediener na "
-"konnekteer na die Internet, raadpleeg jou Internet diens provider's opstelling "
-"gids van jou stelsel administrateur.</qt>"
+"<qt>\n"
+"Stel volmag bediener op.\n"
+"<p>\n"
+"'n Volmag bediener sit tussen jou rekenaar en die internet en verskaf dienste "
+"soos web bladsy kas en filter. 'n Kas volmag bediener gee vinniger toegang "
+"na web bladsye wat alreeds besoek war deur die bladsye plaaslik te stoor. "
+"Filter volmag bedieners verskaf die vermoe om advertensies en spam te blok."
 
 #. i18n: file kproxydlg_ui.ui line 59
 #: rc.cpp:279
@@ -1092,6 +1176,16 @@ msgid ""
 "please check the FAQ section at http://konqueror.kde.org.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Automatically detect and configure the proxy settings."
+"<p>\n"
+"Automatic detection is performed using the <b>Web Proxy Auto-Discovery Protocol "
+"(WPAD)</b>."
+"<p>\n"
+"<b>NOTE:</b> This option might not work properly or not work at all in some "
+"UNIX/Linux distributions. If you encounter a problem when using this option, "
+"please check the FAQ section at http://konqueror.kde.org.\n"
+"</qt>"
 
 #. i18n: file kproxydlg_ui.ui line 94
 #: rc.cpp:295
@@ -1130,6 +1224,14 @@ msgid ""
 "information.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Use environment variables to configure the proxy settings."
+"<p>\n"
+"Environment variables such as <b>HTTP_PROXY</b> and <b>NO_PROXY</b> "
+"are usually used in multi-user UNIX installations, where both graphical and "
+"non-graphical applications need to share the same proxy configuration "
+"information.\n"
+"</qt>"
 
 #. i18n: file kproxydlg_ui.ui line 187
 #: rc.cpp:313 rc.cpp:325
@@ -1242,6 +1344,14 @@ msgid ""
 "as JunkBuster and WWWOfle.\n"
 "</qt>"
 msgstr ""
+"<qt>\n"
+"Use persistent proxy connection."
+"<p>\n"
+"Although a persistent proxy connection is faster, note that it only works "
+"correctly with proxies that are fully HTTP 1.1 compliant. Do <b>not</b> "
+"use this option in combination with non-HTTP 1.1 compliant proxy servers such "
+"as JunkBuster and WWWOfle.\n"
+"</qt>"
 
 #. i18n: file manualproxy_ui.ui line 27
 #: rc.cpp:376
@@ -1307,7 +1417,7 @@ msgstr "Gebruik die volmag vir inskrywings wat net in hierdie lys voorkom"
 
 #. i18n: file manualproxy_ui.ui line 209
 #: rc.cpp:416
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<qt>\n"
 "Reverse the use of the exception list. Checking this box will result in the "
@@ -1319,14 +1429,12 @@ msgid ""
 "script.\n"
 "</qt>"
 msgstr ""
-"<qt>Bevestig hierdie boks na omgekeerde die gebruik van die uitsondering lys. "
-"i.e. Toetsing hierdie boks sal resultaat in die volmag bedieners te wees "
-"gebruik word slegs wanneer die versoekte Url ooreenstemmende inskrywings een "
-"van die adresse gelys hier."
-"<p>hierdie funksie is bruikbare as alle jy wil hê of benodig is na gebruik 'n "
-"volmag bediener  vir 'n paar spesifieke tuistes."
-"<p>as jy het meer kompleks benodighede jy dalk wil hê na gebruik 'n opstelling "
-"skrip</qt>"
+"<qt>\n"
+"Draai die uitsondering ls om. As hierdie boks gekies is sal die volmag bediener "
+"slegs gebruik word indien die URL presies ooreenstem."
+"<p>Hierdie eienskap is nuttig as jy 'n volmag bediener net vir 'n paar werwe "
+"benodig."
+"<p>As jy meer komplekse vereistes het moet jy dalk van 'n opstel skrip gebruik maak."
 
 #. i18n: file manualproxy_ui.ui line 228
 #: rc.cpp:421
@@ -1398,7 +1506,7 @@ msgstr "Beleid:"
 
 #. i18n: file policydlg_ui.ui line 66
 #: rc.cpp:461 rc.cpp:480
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<qt>\n"
 "Select the desired policy:\n"
@@ -1409,11 +1517,14 @@ msgid ""
 "</ul>\n"
 "</qt>"
 msgstr ""
-"Kies die verlangde beleid:"
-"<ul>"
-"<li><b>Aanvaar</b> - Laat toe hierdie tuiste na stel koekie</li>"
-"<li><b>Verwerp</b> - Weier alle koekies gestuur van hierdie tuiste</li>"
-"<li><b>Vra</b> - Por wanneer koekies word ontvang van hierdie tuiste</li></ul>"
+"<qt\n"
+"Kies die verlangde beleid:\n"
+"<ul>\n"
+"<li><b>Aanvaar</b> - Laat toe hierdie tuiste na stel koekie</li>\n"
+"<li><b>Verwerp</b> - Weier alle koekies gestuur van hierdie tuiste</li>\n"
+"<li><b>Vra</b> - Por wanneer koekies word ontvang van hierdie tuiste</li>\n"
+"</ul>\n"
+"</qt>"
 
 #. i18n: file policydlg_ui.ui line 72
 #: rc.cpp:471
@@ -1588,7 +1699,7 @@ msgstr "Wanneer die volgende bediener geblaai word:"
 
 #. i18n: file uagentproviderdlg_ui.ui line 41
 #: rc.cpp:559 rc.cpp:565
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<qt>\n"
 "Enter the site or domain name where a fake browser identification should be "
@@ -1601,14 +1712,12 @@ msgid ""
 "that ends with <code>.kde.org</code>.\n"
 "</qt>"
 msgstr ""
-"Invoer die tuiste van domein naam waar 'n nagemaakte identiteit moet wees "
-"gebruik word. "
-"<p><u>Nota:</u> Willekeurige karakter sintaks soos as \"*,?\" is Nie toegelaat. "
-"In plaas van Invoer die bo vlak adres van 'n tuiste na maak generies "
-"ooreenstemmende inskrywings vir alle liggings gevind onder dit. vir voorbeeld, "
-"as jy wil hê alle tuistes na <code>http://www.acme.com</code> "
-"na ontvang nagemaakte browser-identification, eenvoudig Invoer <code>"
-"acme.com</code> hier."
+"<qt>\n"
+"Voer die site of domein naam in waarvoor nagemaakte identifikasie gebruik "
+"moet word."
+"<p>\n"
+"<u>Nota:</u> Sterretjie sintaks soos \\\"*,?\\\" word NIE toegelaat nie.\n"
+"</qt>"
 
 #. i18n: file uagentproviderdlg_ui.ui line 60
 #: rc.cpp:571
@@ -1618,16 +1727,16 @@ msgstr "Gebruik die volgende identifisering:"
 
 #. i18n: file uagentproviderdlg_ui.ui line 68
 #: rc.cpp:574 rc.cpp:579
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<qt>\n"
 "Select the browser identification to use whenever contacting the site you "
 "specified above.\n"
 "</qt>"
 msgstr ""
-"<qt>Kies die browser-identification na gebruik wanneer ook al kontak maak na "
-"die tuiste of domein gegewe boonste.<P>Van keuse, 'n reguit vorentoe "
-"beskrywing, as beskikbaar, sal wees vertoon in die boks onder."
+"<qt>\n"
+"Kies die blaaier-identification om te gebruik\n"
+"</qt>"
 
 #. i18n: file uagentproviderdlg_ui.ui line 86
 #: rc.cpp:584
@@ -1637,20 +1746,20 @@ msgstr "Regte Identifisering:"
 
 #. i18n: file uagentproviderdlg_ui.ui line 94
 #: rc.cpp:587 rc.cpp:592
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<qt>\n"
 "The actual browser identification text that will be sent to the remote "
 "machine.\n"
 "</qt>"
 msgstr ""
-"<qt>Kies die browser-identification na gebruik wanneer ook al kontak maak na "
-"die tuiste of domein gegewe boonste.<P>Van keuse, 'n reguit vorentoe "
-"beskrywing, as beskikbaar, sal wees vertoon in die boks onder."
+"<qt>\n"
+"Die egte blaaier identifikasie teks sal gestuur word.\n"
+"</qt>"
 
 #. i18n: file useragentdlg_ui.ui line 19
 #: rc.cpp:603
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<qt>\n"
 "Here you can modify the default browser-identification text or set a site <code>"
@@ -1664,14 +1773,17 @@ msgid ""
 "setting to be used for that site or domain.\n"
 "</qt>"
 msgstr ""
-"<qt>Hier jy kan verander die verstek browser-identifikasie string en/of stel 'n "
-"tuiste <code>(bv:www.kde.org)</code> of 'n domein <code>(bv:kde.org)</code> "
-"spesifieke identifikasie.<P>Na voeg deur 'n nuwe agent string, eenvoudig kliek "
-"op die <code>nuwe </code>knoppie en verskaf die nodige informasie versoekte "
-"deur die dialoog boks. Na verander 'n bestaande tuiste spesifieke inskrywing, "
-"kliek op die <code>verander</code> knoppie. die <code>Uitvee </code> "
-"knoppie sal verwyder die gekose beleid, veroorsaak dat die verstek opset Na "
-"wees gebruik word vir wat tuiste of domein."
+"<qt>\n"
+"Here you can modify the default browser-identification text or set a site <code>"
+"(eg. www.kde.org)</code> or a domain <code>(eg. kde.org)</code> "
+"specific identification text."
+"<p>\n"
+"To add a new site specific identification text, click the <code>New</code> "
+"button and supply the necessary information. To change an existing site "
+"specific entry, click on the <code>Change</code> button. The <code>Delete</code> "
+"button will remove the selected site specific identification text, causing the "
+"setting to be used for that site or domain.\n"
+"</qt>"
 
 #. i18n: file useragentdlg_ui.ui line 33
 #: rc.cpp:609
@@ -1681,7 +1793,7 @@ msgstr "Stuur identifisering"
 
 #. i18n: file useragentdlg_ui.ui line 43
 #: rc.cpp:612
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<qt>\n"
 "Send the browser identification to web sites."
@@ -1694,12 +1806,16 @@ msgid ""
 "The identification text that will be sent is shown below.\n"
 "</qt>"
 msgstr ""
-"<qt>as onbevestig, nee identifikasie informasie aangaande jou blaaier sal wees "
-"gestuur na tuistes jy besoek terwyl blaaiïng.<P><u>Nota:</u> "
-"Veel tuistes maak staat op hierdie informasie na vertoon bladsye behoorlik, "
-"dus, dit is hoog aanbeveel wat jy doen nie heeltemal deaktiveer hierdie funksie "
-"maar eerder pasmaak dit.<P>Slegs minimum identifikasie informasie is gestuur na "
-"afgeleë tuistes as vertoon onder in <b>vetdruk</b>.</qt>"
+"<qt>\n"
+"Send the browser identification to web sites."
+"<p>\n"
+"<u>NOTE:</u> Many sites rely on this information to display pages properly, "
+"hence, it is highly recommended that you do not totally disable this feature "
+"but rather customize it."
+"<p>\n"
+"By default, only minimal identification information is sent to remote sites. "
+"The identification text that will be sent is shown below.\n"
+"</qt>"
 
 #. i18n: file useragentdlg_ui.ui line 54
 #: rc.cpp:619
@@ -1709,23 +1825,23 @@ msgstr "Standaard Identifisering"
 
 #. i18n: file useragentdlg_ui.ui line 57
 #: rc.cpp:622
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "The browser identification text sent to the sites you visit. Use the provided "
 "options to customize it."
 msgstr ""
-"Hierdie is die verstek identifikasie gestuur na afgeleë tuistes gedurende "
-"blaaiïng. Jy kan verander dit te gebruik die merkboksies onder."
+"The browser identification text sent to the sites you visit. Use the provided "
+"options to customize it."
 
 #. i18n: file useragentdlg_ui.ui line 88
 #: rc.cpp:625
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "The browser identification text sent to the sites you visit. You can customize "
 "it using the options provided below."
 msgstr ""
-"Hierdie is die verstek identifikasie gestuur na afgeleë tuistes gedurende "
-"blaaiïng. Jy kan verander dit te gebruik die merkboksies onder."
+"The browser identification text sent to the sites you visit. You can customize "
+"it using the options provided below."
 
 #. i18n: file useragentdlg_ui.ui line 96
 #: rc.cpp:628
@@ -1821,6 +1937,8 @@ msgid ""
 "List of sites for which the specified identification text will be used instead "
 "of the default one."
 msgstr ""
+"List of sites for which the specified identification text will be used instead "
+"of the default one."
 
 #. i18n: file useragentdlg_ui.ui line 267
 #: rc.cpp:676
@@ -1836,21 +1954,21 @@ msgstr "Verander die gekiesde identiteit teks."
 
 #. i18n: file useragentdlg_ui.ui line 289
 #: rc.cpp:688
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Delete the selected identifier text."
-msgstr "Uitvee die gekose identifiseerder."
+msgstr "Vee die gekose identifiseerder uit."
 
 #. i18n: file useragentdlg_ui.ui line 300
 #: rc.cpp:694
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Delete all identifiers."
-msgstr "Uitvee alle identifiseerders"
+msgstr "Vee alle identifiseerders uit."
 
 #. i18n: file kio_ftprc.kcfg line 10
 #: rc.cpp:697
 #, no-c-format
 msgid "Disable Passive FTP"
-msgstr ""
+msgstr "Disable Passive FTP"
 
 #. i18n: file kio_ftprc.kcfg line 11
 #: rc.cpp:700
@@ -1860,10 +1978,13 @@ msgid ""
 "the other way round, so firewalls do not block the connection; old FTP servers "
 "may not support Passive FTP though."
 msgstr ""
+"When FTP connections are passive the client connects to the server, instead of "
+"the other way round, so firewalls do not block the connection; old FTP servers "
+"may not support Passive FTP though."
 
 #. i18n: file kio_ftprc.kcfg line 16
 #: rc.cpp:703
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Mark partially uploaded files"
 msgstr "Merk gedeeltelik opgelaaide lêers"
 
@@ -1874,6 +1995,8 @@ msgid ""
 "While a file is being uploaded its extension is \".part\". When fully uploaded "
 "it is renamed to its real name."
 msgstr ""
+"While a file is being uploaded its extension is \".part\". When fully uploaded "
+"it is renamed to its real name."
 
 #: smbrodlg.cpp:43
 msgid "This is the configuration for the samba client only, not the server."
@@ -1954,7 +2077,6 @@ msgid "SOCKS Support"
 msgstr "Socks Ondersteun"
 
 #: socks.cpp:126
-#, fuzzy
 msgid "Success: SOCKS was found and initialized."
 msgstr "Sukses! Socks was gevind en geinitialiseer word."
 
@@ -1972,6 +2094,13 @@ msgid ""
 "<p>If you have no idea what this is and if your system administrator does not "
 "tell you to use it, leave it disabled.</p>"
 msgstr ""
+"<h1>SOCKS</h1>"
+"<p>This module allows you to configure KDE support for a SOCKS server or "
+"proxy.</p>"
+"<p>SOCKS is a protocol to traverse firewalls as described in <a "
+"href=\"http://rfc.net/rfc1928.html\">RFC 1928</a>. "
+"<p>If you have no idea what this is and if your system administrator does not "
+"tell you to use it, leave it disabled.</p>"
 
 #: useragentdlg.cpp:225
 msgid ""
@@ -1998,7 +2127,6 @@ msgid "Modify Identification"
 msgstr "Verander Identifikasie"
 
 #: useragentdlg.cpp:383
-#, fuzzy
 msgid ""
 "<h1>Browser Identification</h1> The browser-identification module allows you to "
 "have full control over how Konqueror will identify itself to web sites you "
@@ -2013,15 +2141,15 @@ msgid ""
 "on the quick help button on the window title bar, then click on the section for "
 "which you are seeking help."
 msgstr ""
-"<h1>Blaaier Identifikasie</h1> Die Blaaier-Identifikasie kontrole skerm laat "
-"toe jy na het volgrote kontrole bo wat Konqueror sal raporteer self as na web "
-"tuistes.<P>Hierdie moontlikheid na fnuik van nagemaakte identiteit is nodige "
-"omdat sommige web tuistes doen nie vertoon behoorlik wanneer hulle verklik wat "
-"hulle word nie praat met na huidige weergawes van Netscape Navigeerder van "
-"Internet Explorer, al as Die \"nie ondersteunde Blaaier\" inderwaarheid "
-"ondersteun alle Die nodige funksies na interpreteer daardie bladsye behoorlik. "
-"Dus, vir soos tuistes, jy dalk mag wil hê na oorskryf Die verstek Identifikasie "
-"deur bygesit 'n tuiste van domein spesifieke inskrywing.<P><u>Nota:</u> "
-"na verkry spesifieke hulp op 'n spesifieke seksie van Die dialoog boks, "
-"eenvoudig kliek op Die klein <b>?</b> knoppie op Die bo regterkant hoek van "
-"Hierdie venster, dan word kliek op Die seksie vir wat jy word soek hulp."
+"<h1>Browser Identification</h1> The browser-identification module allows you to "
+"have full control over how Konqueror will identify itself to web sites you "
+"browse.<P>This ability to fake identification is necessary because some web "
+"sites do not display properly when they detect that they are not talking to "
+"current versions of either Netscape Navigator or Internet Explorer, even if the "
+"browser actually supports all the necessary features to render those pages "
+"properly. For such sites, you can use this feature to try to browse them. "
+"Please understand that this might not always work, since such sites might be "
+"using non-standard web protocols and or specifications.<P><u>NOTE:</u> "
+"To obtain specific help on a particular section of the dialog box, simply click "
+"on the quick help button on the window title bar, then click on the section for "
+"which you are seeking help."
