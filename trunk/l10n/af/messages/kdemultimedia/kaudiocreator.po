@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator VERSION\n"
-"POT-Creation-Date: 2005-07-21 01:37+0200\n"
+"POT-Creation-Date: 2005-07-24 01:37+0200\n"
 "PO-Revision-Date: 2002-11-07 11:33+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -88,6 +88,14 @@ msgstr ""
 "Asseblief bevestig jou lêer gids soeklys opsie.\n"
 "Die wav lêer het al verwyder."
 
+#: encoder.cpp:296 encoder.cpp:311
+msgid "Show Output"
+msgstr ""
+
+#: encoder.cpp:296 encoder.cpp:311
+msgid "Skip Output"
+msgstr ""
+
 #: encoder.cpp:311
 #, fuzzy
 msgid ""
@@ -140,8 +148,9 @@ msgid "Can Not Remove"
 msgstr ""
 
 #: encoderconfigimp.cpp:164
-msgid "Delete Encoder?"
-msgstr ""
+#, fuzzy
+msgid "Delete encoder?"
+msgstr "Uitbreiding"
 
 #: encoderconfigimp.cpp:164
 msgid "Delete Encoder"
@@ -160,6 +169,10 @@ msgstr ""
 #, fuzzy
 msgid "Unfinished Job in Queue"
 msgstr "Onafgehandelde Werke in die wagtou"
+
+#: jobqueimp.cpp:161 jobqueimp.cpp:216
+msgid "Keep"
+msgstr ""
 
 #. i18n: file jobque.ui line 107
 #: jobqueimp.cpp:178 jobqueimp.cpp:246 rc.cpp:236
@@ -252,7 +265,8 @@ msgstr ""
 "elkgeval?"
 
 #: kaudiocreator.cpp:205
-msgid "Unfinished Jobs in the queue"
+#, fuzzy
+msgid "Unfinished Jobs in Queue"
 msgstr "Onafgehandelde Werke in die wagtou"
 
 #. i18n: file general.ui line 16
@@ -721,7 +735,7 @@ msgid "Unknown Artist - Unknown Album"
 msgstr "Onbekende Kunstenaar - Onbekende Album"
 
 #. i18n: file tracks.ui line 47
-#: rc.cpp:266
+#: rc.cpp:266 tracksimp.cpp:420
 #, no-c-format
 msgid "Rip"
 msgstr "Rip"
@@ -1087,6 +1101,9 @@ msgstr "Ander"
 #, c-format
 msgid "Example: %1"
 msgstr ""
+
+#~ msgid "Unfinished Jobs in the queue"
+#~ msgstr "Onafgehandelde Werke in die wagtou"
 
 #, fuzzy
 #~ msgid "EncoderConfig"
