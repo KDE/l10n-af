@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
-"POT-Creation-Date: 2005-07-22 01:38+0200\n"
+"POT-Creation-Date: 2005-07-25 01:38+0200\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -13817,6 +13817,10 @@ msgstr "Genereer 'n nuwe klas"
 msgid "Java Support"
 msgstr "Java Ondersteun"
 
+#: languages/java/javasupportpart.cpp:740
+msgid "Keep Them"
+msgstr ""
+
 #: languages/java/problemreporter.cpp:242
 #, fuzzy
 msgid "Java Parsing"
@@ -16711,6 +16715,10 @@ msgstr ""
 msgid "File is Modified"
 msgstr "Nuwe Lêer"
 
+#: src/partcontroller.cpp:833 src/partcontroller.cpp:1290
+msgid "Do Not Reload"
+msgstr ""
+
 #: src/partcontroller.cpp:947
 msgid ""
 "The file \"%1\" is modified on disk.\n"
@@ -16722,6 +16730,15 @@ msgstr ""
 #, fuzzy
 msgid "File Externally Modified"
 msgstr "Verwyder alle bygevoeg lêers."
+
+#: parts/filelist/projectviewpart.cpp:475 src/partcontroller.cpp:948
+#, fuzzy
+msgid "Overwrite"
+msgstr "Oorskryf kiesings"
+
+#: src/partcontroller.cpp:948
+msgid "Do Not Overwrite"
+msgstr ""
 
 #: src/partcontroller.cpp:1152
 msgid "Switch To"
@@ -17015,6 +17032,16 @@ msgstr "Inprop modules"
 msgid "Are you sure you want to reopen the current project?"
 msgstr "Maak oop 'n onlangse projek"
 
+#: src/projectmanager.cpp:223
+#, fuzzy
+msgid "Reopen"
+msgstr "Verwyder skoop..."
+
+#: src/projectmanager.cpp:223
+#, fuzzy
+msgid "Do Not Reopen"
+msgstr "Dokument na open."
+
 #: src/projectmanager.cpp:276
 msgid "Changing plugin profile..."
 msgstr ""
@@ -17305,7 +17332,8 @@ msgid "&Revert"
 msgstr "Ongedaan maak"
 
 #: vcs/perforce/perforcepart.cpp:61 vcs/perforce/perforcepart.cpp:63
-#: vcs/perforce/perforcepart.cpp:102 vcs/subversion/subversion_part.cpp:127
+#: vcs/perforce/perforcepart.cpp:102 vcs/perforce/perforcepart.cpp:156
+#: vcs/subversion/subversion_part.cpp:127
 msgid "Revert"
 msgstr "Ongedaan maak"
 
@@ -17441,6 +17469,15 @@ msgstr ""
 msgid "CVS - Unedit Files"
 msgstr "Alle lêers (*)"
 
+#: vcs/cvsservice/cvspartimpl.cpp:526
+#, fuzzy
+msgid "Unedit"
+msgstr "stel"
+
+#: vcs/cvsservice/cvspartimpl.cpp:527
+msgid "Do Not Unedit"
+msgstr ""
+
 #: vcs/cvsservice/cvspartimpl.cpp:658
 msgid "Sorry, cannot diff."
 msgstr ""
@@ -17473,6 +17510,10 @@ msgstr ""
 
 #: vcs/cvsservice/cvspartimpl.cpp:842
 msgid "CVS - New Files Added to Project"
+msgstr ""
+
+#: vcs/cvsservice/cvspartimpl.cpp:844
+msgid "Do Not Add"
 msgstr ""
 
 #: vcs/cvsservice/cvspartimpl.cpp:845
@@ -17991,6 +18032,11 @@ msgstr "Kan nie handvatsel gidse, asseblief kies enkel lêers"
 msgid "Do you really want to revert the file %1 and lose all your changes?"
 msgstr ""
 "Doen jy rerig wil hê na ongedaan maak die lêer %1 en verloor alle jou verander?"
+
+#: vcs/perforce/perforcepart.cpp:156
+#, fuzzy
+msgid "Do Not Revert"
+msgstr "Ongedaan maak"
 
 #: vcs/perforce/perforcepart.cpp:168
 msgid "Submitting of subdirectories is not supported"
@@ -19445,6 +19491,16 @@ msgstr "Hoof program (relatiewe na projek gids):"
 msgid "New Project"
 msgstr "Nuwe Projek..."
 
+#: parts/appwizard/appwizarddlg.cpp:875
+#, fuzzy
+msgid "Set"
+msgstr "stel"
+
+#: parts/appwizard/appwizarddlg.cpp:875
+#, fuzzy
+msgid "Do Not Set"
+msgstr "Gnu Fortran 77 Saamsteller Opsies"
+
 #: parts/appwizard/appwizarddlg.cpp:901
 msgid ""
 "_: invalid location\n"
@@ -19525,6 +19581,16 @@ msgid ""
 "Project infrastrucure already exists in target directory.\n"
 "Generate new project infrastructure and overwrite old?"
 msgstr ""
+
+#: parts/appwizard/importdlg.cpp:428
+#, fuzzy
+msgid "Generate"
+msgstr "Genereer"
+
+#: parts/appwizard/importdlg.cpp:428
+#, fuzzy
+msgid "Do Not Generate"
+msgstr "Genereer"
 
 #: parts/filecreate/fcconfigwidget.cpp:51
 #, fuzzy
@@ -22438,6 +22504,7 @@ msgid ""
 msgstr ""
 
 #: buildtools/qmake/trollprojectwidget.cpp:1170
+#: buildtools/qmake/trollprojectwidget.cpp:3317
 msgid "Run qmake"
 msgstr "Hardloop qmake"
 
@@ -22830,6 +22897,14 @@ msgstr "Uitvoerbare:"
 msgid "There is no Makefile in this directory. Run qmake first?"
 msgstr "Daar is nee Maakleêr in hierdie gids. Hardloop qmake eerste?"
 
+#: buildtools/autotools/autoprojectpart.cpp:606
+#: buildtools/autotools/autoprojectpart.cpp:617
+#: buildtools/autotools/configureoptionswidget.cpp:239
+#: buildtools/qmake/trollprojectwidget.cpp:3317
+#, fuzzy
+msgid "Do Not Run"
+msgstr "Kode Leiding"
+
 #: buildtools/haskell/haskellproject_part.cpp:289
 msgid ""
 "Could not find the Haskell Translator.\n"
@@ -23015,6 +23090,15 @@ msgid ""
 msgstr ""
 "Hierdie projek doen nie bevat enige lêers nog.\n"
 "Vul dit met alle C/C++/Java lêers onder die projek gids?"
+
+#: buildtools/custommakefiles/customprojectpart.cpp:302
+#, fuzzy
+msgid "Populate"
+msgstr "Werkvoorbeeld"
+
+#: buildtools/custommakefiles/customprojectpart.cpp:302
+msgid "Do Not Populate"
+msgstr ""
 
 #: buildtools/custommakefiles/customprojectpart.cpp:748
 #, fuzzy
@@ -23274,6 +23358,11 @@ msgstr "Met die invoering van... %p%"
 msgid "Re-run configure for %1 now?"
 msgstr "Re-run konfigureer vir %1 nou?"
 
+#: buildtools/autotools/configureoptionswidget.cpp:239
+#, fuzzy
+msgid "Rerun"
+msgstr "Hardloop"
+
 #: buildtools/autotools/addprefixdlg.cpp:27
 msgid "Add Prefix"
 msgstr "Voeg by Voorvoegsel"
@@ -23417,6 +23506,7 @@ msgid "Run Configure"
 msgstr "Hardloop Konfigureer"
 
 #: buildtools/autotools/autoprojectpart.cpp:131
+#: buildtools/autotools/autoprojectpart.cpp:617
 #, fuzzy
 msgid "Run configure"
 msgstr "Hardloop Konfigureer"
@@ -23558,6 +23648,11 @@ msgstr ""
 "en nee konfigureer skrip vir hierdie projek.\n"
 "Hardloop automake & friende en konfigureer eerste?"
 
+#: buildtools/autotools/autoprojectpart.cpp:606
+#, fuzzy
+msgid "Run Them"
+msgstr "Ftnchek"
+
 #: buildtools/autotools/autoprojectpart.cpp:617
 #, fuzzy
 msgid "There is no Makefile in this directory. Run 'configure' first?"
@@ -23576,12 +23671,12 @@ msgstr ""
 
 #: buildtools/autotools/autoprojectpart.cpp:1016
 #, fuzzy
-msgid "Application already running"
+msgid "Application Already Running"
 msgstr "Aansoek"
 
 #: buildtools/autotools/autoprojectpart.cpp:1016
 #, fuzzy
-msgid "&Restart application"
+msgid "&Restart Application"
 msgstr "Skep 'n aansoek"
 
 #: buildtools/autotools/autoprojectpart.cpp:1016
@@ -29071,9 +29166,6 @@ msgstr ""
 
 #~ msgid "&Persistent selections"
 #~ msgstr "Aanhoudende kiesings"
-
-#~ msgid "&Overwrite selections"
-#~ msgstr "Oorskryf kiesings"
 
 #~ msgid "Mouse &autocopy"
 #~ msgstr "Muis outokopiëer"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quanta VERSION\n"
-"POT-Creation-Date: 2005-07-23 01:42+0200\n"
+"POT-Creation-Date: 2005-07-25 01:43+0200\n"
 "PO-Revision-Date: 2002-11-07 11:43+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -3666,7 +3666,8 @@ msgid "Project Folder"
 msgstr "Oplaai projek lêers"
 
 #. i18n: file ./plugins/plugineditor.ui line 32
-#: plugins/quantaplugineditor.cpp:45 rc.cpp:2555
+#: plugins/quantaplugineditor.cpp:45 plugins/quantaplugininterface.cpp:260
+#: rc.cpp:2555
 #, no-c-format
 msgid "Edit Plugins"
 msgstr ""
@@ -9161,6 +9162,10 @@ msgstr ""
 "Die huidige lêer het al veranderde.\n"
 "Doen jy wil hê na stoor dit?"
 
+#: project/project.cpp:238 src/quanta.cpp:391
+msgid "Keep"
+msgstr ""
+
 #: src/quanta.cpp:484
 #, fuzzy
 msgid "Save File"
@@ -9168,6 +9173,11 @@ msgstr "Volgende Lêer"
 
 #: src/quanta.cpp:495
 msgid "<qt>Do you want to add the<br><b>%1</b><br>file to project?</qt>"
+msgstr ""
+
+#: components/cvsservice/cvsservice.cpp:333 src/quanta.cpp:495
+#: utility/quantanetaccess.cpp:183
+msgid "Do Not Add"
 msgstr ""
 
 #: src/quanta.cpp:558
@@ -9466,6 +9476,11 @@ msgstr ""
 #: src/quanta.cpp:3837
 #, fuzzy
 msgid "Review"
+msgstr "Voorskou"
+
+#: src/quanta.cpp:3837
+#, fuzzy
+msgid "Do Not Review"
 msgstr "Voorskou"
 
 #: src/quanta.cpp:4039 src/quanta.cpp:4716 src/quanta.cpp:4755
@@ -9774,6 +9789,11 @@ msgstr "Oplaai projek lêers"
 msgid "<qt>Do you want to replace the existing <b>%1</b> DTD?</qt>"
 msgstr "Oplaai projek se lêers..."
 
+#: src/dtds.cpp:865 src/dtds.cpp:897
+#, fuzzy
+msgid "Do Not Replace"
+msgstr "Por Op Vervang"
+
 #: src/dtds.cpp:875 src/dtds.cpp:919
 msgid "<qt>Use the newly loaded <b>%1</b> DTD for the current document?</qt>"
 msgstr ""
@@ -9782,6 +9802,15 @@ msgstr ""
 #, fuzzy
 msgid "Change DTD"
 msgstr "Laaiïng van..."
+
+#: src/dtds.cpp:875 src/dtds.cpp:919
+#, fuzzy
+msgid "Use"
+msgstr "Gebruiker"
+
+#: src/dtds.cpp:875 src/dtds.cpp:919
+msgid "Do Not Use"
+msgstr ""
 
 #: src/dtds.cpp:904
 msgid ""
@@ -9796,6 +9825,15 @@ msgstr "Fout oopgemaak lêer!"
 
 #: src/dtds.cpp:908
 msgid "<qt>Autoload the <b>%1</b> DTD in the feature?</qt>"
+msgstr ""
+
+#: src/dtds.cpp:908 utility/newstuff.cpp:73
+#, fuzzy
+msgid "Load"
+msgstr "Oktaal"
+
+#: src/dtds.cpp:908
+msgid "Do Not Load"
 msgstr ""
 
 #: src/quantaview.cpp:294 src/quantaview.cpp:300
@@ -10318,6 +10356,14 @@ msgstr ""
 "'n Dokument met hierdie Naam alreeds bestaan.\n"
 "Doen jy wil hê na oorskryf dit?"
 
+#: ../lib/compatibility/knewstuff/knewstuffgeneric.cpp:135
+#: messages/messageoutput.cpp:163 project/projectprivate.cpp:895
+#: treeviews/basetreeview.cpp:1028 treeviews/templatestreeview.cpp:470
+#: utility/quantacommon.cpp:683
+#, fuzzy
+msgid "Overwrite"
+msgstr "Oorskryf Kiesings"
+
 #: messages/messageoutput.cpp:168
 #, fuzzy
 msgid "<qt>Cannot save log file<br><b>%1</b></qt>"
@@ -10535,6 +10581,15 @@ msgid ""
 msgstr ""
 "Die huidige lêer het al veranderde.\n"
 "Doen jy wil hê na stoor dit?"
+
+#: dialogs/dtepeditdlg.cpp:204
+#, fuzzy
+msgid "Save to Different File"
+msgstr "Voeg by in projek"
+
+#: dialogs/dtepeditdlg.cpp:204
+msgid "Do Not Save"
+msgstr ""
 
 #: dialogs/dtepeditdlg.cpp:206
 #, fuzzy
@@ -11739,12 +11794,6 @@ msgstr ""
 "'n Dokument met hierdie Naam alreeds bestaan.\n"
 "Doen jy wil hê na oorskryf dit?"
 
-#: ../lib/compatibility/knewstuff/knewstuffgeneric.cpp:135
-#: treeviews/basetreeview.cpp:1028 treeviews/templatestreeview.cpp:470
-#, fuzzy
-msgid "Overwrite"
-msgstr "Oorskryf Kiesings"
-
 #: treeviews/templatestreeview.cpp:476
 msgid ""
 "<qt>Could not write to file <b>%1</b>."
@@ -11797,6 +11846,15 @@ msgid ""
 "You have extracted the site template to a folder which is not under your main "
 "project folder.\n"
 "Do you want to copy the folder into the main project folder?"
+msgstr ""
+
+#: treeviews/templatestreeview.cpp:1067
+#, fuzzy
+msgid "Copy Folder"
+msgstr "Volgende Lêer"
+
+#: treeviews/templatestreeview.cpp:1067
+msgid "Do Not Copy"
 msgstr ""
 
 #: treeviews/templatestreeview.cpp:1075
@@ -12319,6 +12377,15 @@ msgstr ""
 msgid "Action Not Responding"
 msgstr ""
 
+#: utility/tagaction.cpp:998
+#, fuzzy
+msgid "Terminate"
+msgstr "Projek naam"
+
+#: utility/tagaction.cpp:998
+msgid "Keep Running"
+msgstr ""
+
 #: utility/quantacommon.cpp:383
 msgid ""
 "<qt>Cannot create folder"
@@ -12339,6 +12406,10 @@ msgstr ""
 #, fuzzy
 msgid "Unknown Type"
 msgstr "Onbekende etiket : "
+
+#: project/project.cpp:193 utility/quantacommon.cpp:672
+msgid "Do Not Open"
+msgstr ""
 
 #: utility/quantabookmarks.cpp:88
 #, fuzzy
@@ -12630,6 +12701,11 @@ msgstr ""
 msgid "Event Triggered"
 msgstr ""
 
+#: utility/qpevents.cpp:88 utility/qpevents.cpp:92
+#, fuzzy
+msgid "Execute"
+msgstr "Aksie"
+
 #: utility/qpevents.cpp:92
 msgid ""
 "<qt>An external action (<i>%1</i>) associated with an event (<i>%2</i>"
@@ -12844,6 +12920,10 @@ msgstr ""
 msgid "Invalid Plugin"
 msgstr ""
 
+#: plugins/quantapluginconfig.cpp:68
+msgid "Do Not Apply"
+msgstr ""
+
 #: plugins/quantapluginconfig.cpp:80
 #, fuzzy
 msgid "Select Plugin Folder"
@@ -12877,6 +12957,10 @@ msgstr ""
 
 #: plugins/quantaplugininterface.cpp:260
 msgid "Invalid Plugins"
+msgstr ""
+
+#: plugins/quantaplugininterface.cpp:260
+msgid "Do Not Edit"
 msgstr ""
 
 #: plugins/quantaplugininterface.cpp:267
@@ -13100,13 +13184,19 @@ msgid ""
 msgstr ""
 
 #: project/projectupload.cpp:741
-msgid "Do you really want to cancel the upload?"
-msgstr ""
+#, fuzzy
+msgid "Do you really want to abort the upload?"
+msgstr "Oplaai projek se lêers..."
 
 #: project/projectupload.cpp:742
 #, fuzzy
-msgid "Cancel Upload"
+msgid "Abort Upload"
 msgstr "Oplaai"
+
+#: project/projectupload.cpp:742
+#, fuzzy
+msgid "Abort"
+msgstr "Poort:"
 
 #: project/teammembersdlg.cpp:48
 #, fuzzy
@@ -13141,6 +13231,15 @@ msgid ""
 msgstr ""
 "Die huidige lêer het al veranderde.\n"
 "Doen jy wil hê na stoor dit?"
+
+#: project/teammembersdlg.cpp:169
+#, fuzzy
+msgid "Reassign"
+msgstr "Gewone Uitdrukking"
+
+#: project/teammembersdlg.cpp:169
+msgid "Do Not Reassign"
+msgstr ""
 
 #: project/projectprivate.cpp:74
 #, fuzzy
@@ -13744,6 +13843,14 @@ msgstr ""
 msgid "Old upload information found, fill out fields?"
 msgstr ""
 
+#: ../lib/compatibility/knewstuff/uploaddialog.cpp:116
+msgid "Fill Out Fields"
+msgstr ""
+
+#: ../lib/compatibility/knewstuff/uploaddialog.cpp:116
+msgid "Do Not Fill Out"
+msgstr ""
+
 #: ../lib/compatibility/knewstuff/uploaddialog.cpp:139
 msgid "Please put in a name."
 msgstr ""
@@ -14091,6 +14198,10 @@ msgid "Saves all modified files"
 msgstr ""
 
 #, fuzzy
+#~ msgid "Cancel Upload"
+#~ msgstr "Oplaai"
+
+#, fuzzy
 #~ msgid "General"
 #~ msgstr "Genereer tabel..."
 
@@ -14112,10 +14223,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Before Upload"
-#~ msgstr "Oplaai"
-
-#, fuzzy
-#~ msgid "After Upload"
 #~ msgstr "Oplaai"
 
 #, fuzzy
@@ -15443,10 +15550,6 @@ msgstr ""
 #~ msgstr "Soektog in Lêers..."
 
 #, fuzzy
-#~ msgid "Save Strings to File"
-#~ msgstr "Voeg by in projek"
-
-#, fuzzy
 #~ msgid "Can't open folders."
 #~ msgstr "Etiket eienskappe: "
 
@@ -15464,10 +15567,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Skip &File"
-#~ msgstr "Volgende Lêer"
-
-#, fuzzy
-#~ msgid "Skip &Folder"
 #~ msgstr "Volgende Lêer"
 
 #, fuzzy
@@ -15827,9 +15926,6 @@ msgstr ""
 
 #~ msgid "Find &Backwards"
 #~ msgstr "Soek Terugwaarts"
-
-#~ msgid "&Prompt On Replace"
-#~ msgstr "Por Op Vervang"
 
 #~ msgid "Replace this occurence?"
 #~ msgstr "Vervang hierdie voorkoms?"
