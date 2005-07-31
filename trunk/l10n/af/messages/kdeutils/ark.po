@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ark VERSION\n"
-"POT-Creation-Date: 2005-07-29 01:38+0200\n"
+"POT-Creation-Date: 2005-07-31 01:44+0200\n"
 "PO-Revision-Date: 2002-11-07 11:40+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -180,7 +180,7 @@ msgstr "Stoor Argief As"
 msgid "Total: 0 files"
 msgstr "Totaal: 0 lêers"
 
-#: ark_part.cpp:361 arkwidget.cpp:2036
+#: ark_part.cpp:361 arkwidget.cpp:2029
 msgid "0 files selected"
 msgstr "0 lêers gekose"
 
@@ -327,7 +327,7 @@ msgstr "Stoor Argief As"
 msgid "Do Not Make"
 msgstr ""
 
-#: arkwidget.cpp:1119 arkwidget.cpp:2290
+#: arkwidget.cpp:1119 arkwidget.cpp:2283
 #, fuzzy
 msgid "Creating archive..."
 msgstr "Probleme om te skryf na die argief..."
@@ -372,72 +372,92 @@ msgstr ""
 msgid "Open with:"
 msgstr "Open met:"
 
-#: arkwidget.cpp:1630
+#: arkwidget.cpp:1558
+#, fuzzy
+msgid ""
+"%1 will not be extracted because it will overwrite an existing file.\n"
+"Go back to the Extraction Dialog?"
+msgstr ""
+"%1 sal nie wees uitgepak omdat dit sal oorskryf 'n bestaande lêer.\n"
+"Gaan terug na Uitpak Dialoog?"
+
+#: arkwidget.cpp:1563
+#, fuzzy
+msgid ""
+"Some files will not be extracted, because they would overwrite existing files.\n"
+"Would you like to go back to the extraction dialog?\n"
+"\n"
+"The following files will not be extracted if you choose to continue:"
+msgstr ""
+"Sommige lêers alreeds bestaan in jou bestemming gids.\n"
+"Die volgende lêers sal nie wees uitgepak as jy gaan voort: "
+
+#: arkwidget.cpp:1623
 msgid "The archive to extract from no longer exists."
 msgstr "Die argief na uitpak van nee langer bestaan."
 
-#: arkwidget.cpp:1729 arkwidget.cpp:1761 arkwidget.cpp:1799 mainwindow.cpp:398
+#: arkwidget.cpp:1722 arkwidget.cpp:1754 arkwidget.cpp:1792 mainwindow.cpp:398
 #, fuzzy
 msgid "Extracting..."
 msgstr "Uitpak..."
 
-#: arkwidget.cpp:1827
+#: arkwidget.cpp:1820
 msgid "Edit with:"
 msgstr "Redigeer met:"
 
-#: arkwidget.cpp:1838
+#: arkwidget.cpp:1831
 msgid "Trouble editing the file..."
 msgstr "Probleme redigering die lêer..."
 
-#: arkwidget.cpp:1878
+#: arkwidget.cpp:1871
 #, fuzzy
 msgid "Readding edited file..."
 msgstr "Probleme redigering die lêer..."
 
-#: arkwidget.cpp:1897
+#: arkwidget.cpp:1890
 msgid "Extracting file to view"
 msgstr ""
 
-#: arkwidget.cpp:1915
+#: arkwidget.cpp:1908
 msgid ""
 "The internal viewer is not able to display this file. Would you like to view it "
 "using an external program?"
 msgstr ""
 
-#: arkwidget.cpp:1916
+#: arkwidget.cpp:1909
 msgid "View Externally"
 msgstr ""
 
-#: arkwidget.cpp:1916
+#: arkwidget.cpp:1909
 msgid "Do Not View"
 msgstr ""
 
-#: arkwidget.cpp:2040
+#: arkwidget.cpp:2033
 msgid "%1 files selected  %2"
 msgstr "%1 lêers gekose  %2"
 
-#: arkwidget.cpp:2046
+#: arkwidget.cpp:2039
 #, c-format
 msgid "1 file selected  %2"
 msgstr "1 lêer gekose  %2"
 
-#: arkwidget.cpp:2119
+#: arkwidget.cpp:2112
 msgid ""
 "Do you wish to add this to the current archive or open it as a new archive?"
 msgstr ""
 "Doen jy wens na voeg by hierdie na die huidige argief of open dit as 'n nuwe "
 "argief?"
 
-#: arkwidget.cpp:2121
+#: arkwidget.cpp:2114
 #, fuzzy
 msgid "&Add"
 msgstr "Bygesit"
 
-#: arkwidget.cpp:2121
+#: arkwidget.cpp:2114
 msgid "&Open"
 msgstr ""
 
-#: arkwidget.cpp:2176
+#: arkwidget.cpp:2169
 msgid ""
 "There is no archive currently open. Do you wish to create one now for these "
 "files?"
@@ -445,7 +465,7 @@ msgstr ""
 "Daar is nee argief huidiglik open. Doen jy wens na skep een nou vir hierdie "
 "lêers?"
 
-#: arkwidget.cpp:2177
+#: arkwidget.cpp:2170
 msgid ""
 "There is no archive currently open. Do you wish to create one now for this "
 "file?"
@@ -453,20 +473,20 @@ msgstr ""
 "Daar is nee argief huidiglik open. Doen jy wens na skep een nou vir hierdie "
 "lêer?"
 
-#: arkwidget.cpp:2178
+#: arkwidget.cpp:2171
 #, fuzzy
 msgid "Create Archive"
 msgstr "Skep Nuwe Argief"
 
-#: arkwidget.cpp:2178 extractiondialog.cpp:145
+#: arkwidget.cpp:2171 extractiondialog.cpp:145
 msgid "Do Not Create"
 msgstr ""
 
-#: arkwidget.cpp:2262 arkwidget.cpp:2371
+#: arkwidget.cpp:2255 arkwidget.cpp:2364
 msgid "Unknown archive format or corrupted archive"
 msgstr "Onbekende argief formaat of beskadigde argief"
 
-#: arkwidget.cpp:2269 arkwidget.cpp:2377
+#: arkwidget.cpp:2262 arkwidget.cpp:2370
 msgid ""
 "The utility %1 is not in your PATH.\n"
 "Please install it or contact your system administrator."
@@ -474,17 +494,17 @@ msgstr ""
 "Die program %1 is nie in jou Gids soeklys.\n"
 "Asseblief installeer dit of kontak jou stelsel administrateur."
 
-#: arkwidget.cpp:2326
+#: arkwidget.cpp:2319
 #, fuzzy
 msgid "An error occurred while trying to create the archive."
 msgstr "Probleme om te skryf na die argief..."
 
-#: arkwidget.cpp:2388
+#: arkwidget.cpp:2381
 #, fuzzy
 msgid "Opening the archive..."
 msgstr "Probleme om te skryf na die argief..."
 
-#: arkwidget.cpp:2412
+#: arkwidget.cpp:2405
 msgid ""
 "This archive is read-only. If you want to save it under a new name, go to the "
 "File menu and select Save As."
@@ -492,35 +512,35 @@ msgstr ""
 "Hierdie argief is lees-alleen. As jy wil hê na stoor dit onder 'n nuwe naam, "
 "gaan na die Lêer kieslys en kies stoor As."
 
-#: arkwidget.cpp:2429
+#: arkwidget.cpp:2422
 #, fuzzy, c-format
 msgid "An error occurred while trying to open the archive %1"
 msgstr "Probleme om te skryf na die argief..."
 
 #. i18n: file general.ui line 16
-#: arkwidget.cpp:2464 rc.cpp:60
+#: arkwidget.cpp:2457 rc.cpp:60
 #, no-c-format
 msgid "General"
 msgstr ""
 
-#: arkwidget.cpp:2464
+#: arkwidget.cpp:2457
 #, fuzzy
 msgid "General Settings"
 msgstr "Voeg by Instellings"
 
-#: arkwidget.cpp:2465
+#: arkwidget.cpp:2458
 msgid "Addition"
 msgstr "Byvoeging"
 
-#: arkwidget.cpp:2465
+#: arkwidget.cpp:2458
 msgid "File Addition Settings"
 msgstr "Lêer Byvoeging Instellings"
 
-#: arkwidget.cpp:2466
+#: arkwidget.cpp:2459
 msgid "Extraction"
 msgstr ""
 
-#: arkwidget.cpp:2466
+#: arkwidget.cpp:2459
 msgid "Extraction Settings"
 msgstr ""
 
@@ -1125,13 +1145,6 @@ msgstr ""
 msgid "Trouble writing to the tempfile..."
 msgstr "Probleme om te skryf na die tydelike lêer..."
 
-#~ msgid ""
-#~ "%1 will not be extracted because it will overwrite an existing file.\n"
-#~ "Go back to Extract Dialog?"
-#~ msgstr ""
-#~ "%1 sal nie wees uitgepak omdat dit sal oorskryf 'n bestaande lêer.\n"
-#~ "Gaan terug na Uitpak Dialoog?"
-
 #~ msgid "Extract to:"
 #~ msgstr "Uitpak na:"
 
@@ -1153,14 +1166,6 @@ msgstr "Probleme om te skryf na die tydelike lêer..."
 
 #~ msgid "Failure to Extract"
 #~ msgstr "Vaaling na Uitpak"
-
-#, fuzzy
-#~ msgid ""
-#~ "Some files already exist in your destination folder.\n"
-#~ "The following files will not be extracted if you continue: "
-#~ msgstr ""
-#~ "Sommige lêers alreeds bestaan in jou bestemming gids.\n"
-#~ "Die volgende lêers sal nie wees uitgepak as jy gaan voort: "
 
 #, fuzzy
 #~ msgid "Folders"
