@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quanta VERSION\n"
-"POT-Creation-Date: 2005-08-24 02:42+0200\n"
+"POT-Creation-Date: 2005-08-25 02:56+0200\n"
 "PO-Revision-Date: 2002-11-07 11:43+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -3284,7 +3284,7 @@ msgid "Variable:"
 msgstr "Volgende Lêer"
 
 #. i18n: file ./components/debugger/debuggervariablesets.ui line 126
-#: components/debugger/variableslistview.cpp:275 rc.cpp:2304
+#: components/debugger/variableslistview.cpp:279 rc.cpp:2304
 #, fuzzy, no-c-format
 msgid "New value:"
 msgstr "Grootte"
@@ -4144,7 +4144,7 @@ msgid "You are:"
 msgstr "Projek naam"
 
 #. i18n: file ./project/teammembersdlgs.ui line 56
-#: rc.cpp:2820
+#: project/teammembersdlg.cpp:247 rc.cpp:2820
 #, no-c-format
 msgid "Please select your identity from the member list."
 msgstr ""
@@ -10542,14 +10542,14 @@ msgstr "Voeg by plaaslike lêers"
 msgid "Line %1: %2"
 msgstr "Lyn: %d Kolom: %d"
 
-#: messages/annotationoutput.cpp:348
+#: messages/annotationoutput.cpp:349
 msgid ""
 "<qt>There are annotations addressed for you."
 "<br> To view them select the <i>For You</i> tab in the <i>Annotations</i> "
 "toolview.</qt>"
 msgstr ""
 
-#: messages/annotationoutput.cpp:348
+#: messages/annotationoutput.cpp:349
 #, fuzzy
 msgid "New Annotations"
 msgstr "Aksie"
@@ -11408,11 +11408,11 @@ msgstr "Verstek Skrif tipe"
 msgid "&Dump in messages log"
 msgstr ""
 
-#: components/debugger/variableslistview.cpp:275
+#: components/debugger/variableslistview.cpp:279
 msgid "Set Variable"
 msgstr ""
 
-#: components/debugger/variableslistview.cpp:291
+#: components/debugger/variableslistview.cpp:294
 msgid ""
 "Contents of variable %1:\n"
 ">>>\n"
@@ -11589,53 +11589,53 @@ msgstr ""
 msgid "Unable to open file %1, check your basedirs and mappings."
 msgstr ""
 
-#: components/debugger/debuggervariable.cpp:101
+#: components/debugger/debuggervariable.cpp:103
 msgid "Non scalar value"
 msgstr ""
 
-#: components/debugger/debuggervariable.cpp:146
+#: components/debugger/debuggervariable.cpp:148
 msgid "Array"
 msgstr ""
 
-#: components/debugger/debuggervariable.cpp:148
+#: components/debugger/debuggervariable.cpp:150
 #, fuzzy
 msgid "Object"
 msgstr "Teks"
 
-#: components/debugger/debuggervariable.cpp:150
+#: components/debugger/debuggervariable.cpp:152
 #, fuzzy
 msgid "Reference"
 msgstr "herverwerk"
 
-#: components/debugger/debuggervariable.cpp:152
+#: components/debugger/debuggervariable.cpp:154
 #, fuzzy
 msgid "Resource"
 msgstr "Tuiste bron"
 
-#: components/debugger/debuggervariable.cpp:154
+#: components/debugger/debuggervariable.cpp:156
 #, fuzzy
 msgid "String"
 msgstr "String Karakter"
 
-#: components/debugger/debuggervariable.cpp:156
+#: components/debugger/debuggervariable.cpp:158
 msgid "Integer"
 msgstr "Heelgetal"
 
-#: components/debugger/debuggervariable.cpp:158
+#: components/debugger/debuggervariable.cpp:160
 #, fuzzy
 msgid "Float"
 msgstr "Dryf"
 
-#: components/debugger/debuggervariable.cpp:160
+#: components/debugger/debuggervariable.cpp:162
 msgid "Boolean"
 msgstr ""
 
-#: components/debugger/debuggervariable.cpp:162
+#: components/debugger/debuggervariable.cpp:164
 #, fuzzy
 msgid "Undefined"
 msgstr "Voeg by as lyn"
 
-#: components/debugger/debuggervariable.cpp:166 parsers/dtd/dtdparser.cpp:84
+#: components/debugger/debuggervariable.cpp:168 parsers/dtd/dtdparser.cpp:84
 #, fuzzy
 msgid "Unknown"
 msgstr "Onbekende etiket : "
@@ -13371,13 +13371,13 @@ msgstr "Oplaai projek se lêers..."
 msgid "New Files in Project's Folder"
 msgstr "Nuwe lêers in projek se gids..."
 
-#: project/project.cpp:1201
+#: project/project.cpp:1225
 msgid ""
 "Saving of project failed. Do you want to continue with exit (might cause data "
 "loss)?"
 msgstr ""
 
-#: project/project.cpp:1201 project/projectprivate.cpp:1199
+#: project/project.cpp:1225 project/projectprivate.cpp:1199
 #, fuzzy
 msgid "Project Saving Error"
 msgstr "Herskandering projek gids"
@@ -13491,18 +13491,26 @@ msgstr ""
 msgid "Edit Member"
 msgstr "Redigeerder"
 
-#: project/teammembersdlg.cpp:174
+#: project/teammembersdlg.cpp:189
 #, fuzzy
 msgid ""
-"<qt>Are you sure that you want to remove <b>%1</b> from the project team?</qt>"
+"<qt>Are you sure that you want to remove yourself (<b>%1</b>"
+") from the project team?"
+"<br>If you do so, you should select another member as yourself.</qt>"
 msgstr "Oplaai projek se lêers..."
 
-#: project/teammembersdlg.cpp:174
+#: project/teammembersdlg.cpp:189 project/teammembersdlg.cpp:195
 #, fuzzy
 msgid "Delete Member"
 msgstr "Volgende Lêer"
 
 #: project/teammembersdlg.cpp:195
+#, fuzzy
+msgid ""
+"<qt>Are you sure that you want to remove <b>%1</b> from the project team?</qt>"
+msgstr "Oplaai projek se lêers..."
+
+#: project/teammembersdlg.cpp:216
 #, fuzzy
 msgid ""
 "<qt>The <b>%1</b> role is already assigned to <b>%2</b>"
@@ -13511,16 +13519,16 @@ msgstr ""
 "Die huidige lêer het al veranderde.\n"
 "Doen jy wil hê na stoor dit?"
 
-#: project/teammembersdlg.cpp:195
+#: project/teammembersdlg.cpp:216
 #, fuzzy
 msgid "Reassign"
 msgstr "Gewone Uitdrukking"
 
-#: project/teammembersdlg.cpp:195
+#: project/teammembersdlg.cpp:216
 msgid "Do Not Reassign"
 msgstr ""
 
-#: project/teammembersdlg.cpp:205
+#: project/teammembersdlg.cpp:226
 #, fuzzy
 msgid ""
 "<qt>The <b>%1</b> nickname is already assigned to <b>%2 &lt;%3&gt;</b>.</qt>"
