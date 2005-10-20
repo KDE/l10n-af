@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kofficefilters VERSION\n"
-"POT-Creation-Date: 2005-10-19 02:45+0200\n"
+"POT-Creation-Date: 2005-10-20 02:41+0200\n"
 "PO-Revision-Date: 2004-09-25 00:13+0200\n"
 "Last-Translator: \n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -566,7 +566,7 @@ msgstr "Gevaal na lees data."
 #: kchart/png/pngexport.cpp:43 kchart/png/pngexport.cpp:56
 #: kchart/png/pngexport.cpp:75 kformula/png/pngexport.cc:57
 #: kformula/png/pngexport.cc:64 kformula/png/pngexportdia.cc:237
-#: kpresenter/png/pngexport.cpp:107 libdialogfilter/pngexportdia.cpp:264
+#: kpresenter/png/pngexport.cpp:72 libdialogfilter/exportsizedia.cpp:264
 msgid "PNG Export Error"
 msgstr "Png Voer uit Fout"
 
@@ -579,8 +579,8 @@ msgstr "Misformde Xml data."
 #: kchart/png/pngexport.cpp:74 kchart/svg/svgexport.cc:85
 #: kformula/latex/latexexport.cc:71 kformula/mathml/mathmlexport.cc:71
 #: kformula/png/pngexportdia.cc:237 kformula/svg/svgexport.cc:92
-#: kpresenter/png/pngexport.cpp:106 kpresenter/svg/svgexport.cc:90
-#: libdialogfilter/pngexportdia.cpp:264
+#: kpresenter/bmp/bmpexport.cpp:67 kpresenter/png/pngexport.cpp:71
+#: kpresenter/svg/svgexport.cc:90 libdialogfilter/exportsizedia.cpp:264
 msgid "Failed to write file."
 msgstr "Gevaal na skryf lêer."
 
@@ -590,6 +590,11 @@ msgstr "Gevaal na skryf lêer."
 #: kpresenter/svg/svgexport.cc:91
 #, fuzzy
 msgid "SVG Export Error"
+msgstr "Png Voer uit Fout"
+
+#: kpresenter/bmp/bmpexport.cpp:68
+#, fuzzy
+msgid "BMP Export Error"
 msgstr "Png Voer uit Fout"
 
 #: kpresenter/kword/kprkword.cc:94
@@ -1317,30 +1322,31 @@ msgstr "Persoonlike xslt Lêers"
 msgid "Choose..."
 msgstr "Kies..."
 
-#: kformula/png/pngexportdia.cc:43 libdialogfilter/pngexportdia.cpp:42
-msgid "PNG Export Filter Parameters"
+#: libdialogfilter/exportsizedia.cpp:42
+#, fuzzy
+msgid "Export Filter Parameters"
 msgstr "Png Voer uit Filter Parameters"
 
-#: kformula/png/pngexportdia.cc:182 libdialogfilter/pngexportdia.cpp:82
+#: kformula/png/pngexportdia.cc:182 libdialogfilter/exportsizedia.cpp:82
 msgid "Keep ratio"
 msgstr "Hou verhouding"
 
-#: libdialogfilter/pngexportdia.cpp:87
+#: libdialogfilter/exportsizedia.cpp:87
 #, fuzzy
 msgid "Width:"
 msgstr "Wydte (%)"
 
-#: libdialogfilter/pngexportdia.cpp:90
+#: libdialogfilter/exportsizedia.cpp:90
 #, fuzzy
 msgid "Height:"
 msgstr "Hoogte (%)"
 
-#: libdialogfilter/pngexportdia.cpp:99
+#: libdialogfilter/exportsizedia.cpp:99
 #, fuzzy
 msgid "Width (%):"
 msgstr "Wydte (%)"
 
-#: libdialogfilter/pngexportdia.cpp:102
+#: libdialogfilter/exportsizedia.cpp:102
 #, fuzzy
 msgid "Height (%):"
 msgstr "Hoogte (%)"
@@ -1353,6 +1359,10 @@ msgstr "Open Dokument"
 #: xsltfilter/import/xsltimportdia.cc:54
 msgid "Import XSLT Configuration"
 msgstr "In voer Xslt Opstelling"
+
+#: kformula/png/pngexportdia.cc:43
+msgid "PNG Export Filter Parameters"
+msgstr "Png Voer uit Filter Parameters"
 
 #: kformula/png/pngexportdia.cc:202
 msgid "Height (%)"
