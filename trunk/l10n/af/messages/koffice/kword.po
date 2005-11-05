@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kword VERSION\n"
-"POT-Creation-Date: 2005-11-02 02:50+0100\n"
+"POT-Creation-Date: 2005-11-05 02:46+0100\n"
 "PO-Revision-Date: 2002-09-27 16:45+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -154,7 +154,7 @@ msgid "Create New Bookmark"
 msgstr "Skep Nuwe Boekmerk"
 
 #. i18n: file KWCreateBookmarkDiaBase.ui line 35
-#: rc.cpp:123
+#: mailmerge/sql/qtsqlopeneditor.cc:98 rc.cpp:123
 #, no-c-format
 msgid "Name:"
 msgstr "Naam:"
@@ -276,7 +276,10 @@ msgid "&Port:"
 msgstr "Poort:"
 
 #. i18n: file mailmerge/sql/qtsqlopenwidget.ui line 267
-#: rc.cpp:194
+#: mailmerge/sql/qtsqlopeneditor.cc:74
+#: mailmerge/sql/serialletter_qtsql_base.cc:53
+#: mailmerge/sql/serialletter_qtsql_base.cc:91
+#: mailmerge/sql/serialletter_qtsql_power_plugin.cc:47 rc.cpp:194
 #, no-c-format
 msgid "default"
 msgstr "verstek"
@@ -318,19 +321,33 @@ msgid "&Filter on:"
 msgstr "Filter uitset"
 
 #. i18n: file mailmerge/kabc/addresspicker.ui line 142
-#: rc.cpp:216 rc.cpp:237
+#: mailmerge/kabc/kwmailmerge_kabc.cc:46
+#: mailmerge/serialletter_classicplugin.cc:244 rc.cpp:216 rc.cpp:237
 #, no-c-format
 msgid "Name"
 msgstr "Naam"
 
 #. i18n: file mailmerge/kabc/addresspicker.ui line 153
-#: rc.cpp:219
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:72
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:104
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:122
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:167
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:202
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:243
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:245
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:297
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:339
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:385
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:483 rc.cpp:219
 #, fuzzy, no-c-format
 msgid "Distribution Lists"
 msgstr "Instruksies:"
 
 #. i18n: file mailmerge/kabc/addresspicker.ui line 161
-#: rc.cpp:222
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:82
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:102
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:199
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:390 rc.cpp:222
 #, no-c-format
 msgid "Single Entries"
 msgstr ""
@@ -709,7 +726,7 @@ msgid "Good Evening"
 msgstr "Goeie Aand"
 
 #. i18n: file expression/expression.xml line 31
-#: xml_doc.cc:30
+#: mailmerge/kabc/kwmailmerge_kabc.cc:75 xml_doc.cc:30
 #, fuzzy, no-c-format
 msgid "Email"
 msgstr "E-pos:"
@@ -870,6 +887,384 @@ msgstr "Persoonlike"
 msgid "FACSIMILE"
 msgstr "Faksimilee"
 
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:43
+#: mailmerge/kspread/kwmailmerge_kspread_config.cpp:37
+#: mailmerge/serialletter_classicplugin.cc:332
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:10
+#: mailmerge/sql/serialletter_qtsql_power_plugin.cc:179
+#: mailmerge/sql/serialletter_qtsqlplugin.cc:166
+msgid "Mail Merge - Editor"
+msgstr "Pos Saamvlans - Redigeerder"
+
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:13
+msgid "ascending"
+msgstr "opgaande"
+
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:13
+msgid "descending"
+msgstr "afgaande"
+
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:14
+msgid "contains"
+msgstr "bevat"
+
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:19
+msgid "Field"
+msgstr "Veld"
+
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:20
+msgid "Sorting Order"
+msgstr "Besig om te sorteer Volgorde"
+
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:21
+msgid "include"
+msgstr "sluit in"
+
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:22
+msgid "Operator"
+msgstr "Operateur"
+
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:23
+msgid "Condition"
+msgstr "Kondisie"
+
+#: mailmerge/serialletter_classicplugin.cc:245
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:24
+msgid "Value"
+msgstr "Waarde"
+
+#: mailmerge/sql/mailmerge_qtsqlplugin_easyfilter.cc:54
+msgid "NOT"
+msgstr "Nie"
+
+#: mailmerge/sql/serialletter_qtsql_power_plugin.cc:81
+#: mailmerge/sql/serialletter_qtsqlplugin.cc:61
+msgid ">>>Illegal position within datasource<<<"
+msgstr ""
+
+#: mailmerge/sql/serialletter_qtsql_power_plugin.cc:82
+#: mailmerge/sql/serialletter_qtsqlplugin.cc:62
+msgid ">>>Field %1 is unknown in the current database query<<<"
+msgstr ">>>Veld %1 is onbekende in die huidige databasis navraag<<<"
+
+#: mailmerge/sql/qtsqlopeneditor.cc:41
+#, fuzzy
+msgid "Mail Merge - Setup Database Connection"
+msgstr "Pos Saamvlans - Opstelling databasis verbinding"
+
+#: mailmerge/sql/qtsqlopeneditor.cc:61 mailmerge/sql/qtsqlopeneditor.cc:83
+msgid "<not saved>"
+msgstr "<not saved>"
+
+#: mailmerge/sql/qtsqlopeneditor.cc:98
+#, fuzzy
+msgid "Store Settings"
+msgstr "Stoor instellings"
+
+#: mailmerge/sql/serialletter_qtsql_base.cc:94
+msgid "Please enter the password for the database connection"
+msgstr "Asseblief invoer die wagwoord vir die databasis verbinding"
+
+#: mailmerge/sql/serialletter_qtsql_base.cc:103
+msgid "Unable to create database object"
+msgstr "Nie moontlik na skep databasis voorwerp"
+
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:331
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:432
+msgid "no category"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:367
+#, fuzzy
+msgid "New Distribution List"
+msgstr "Instruksies:"
+
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:368
+#, fuzzy
+msgid "Please enter name:"
+msgstr "Invoer inskrywing naam:"
+
+#: mailmerge/kabc/kwmailmerge_kabc_config.cc:377
+#, fuzzy
+msgid ""
+"<qt>Distribution list with the given name <b>%1</b> already exists. Please "
+"select a different name.</qt>"
+msgstr ""
+"'n raamstel met die naam '%1' alreeds bestaan. Asseblief invoer nog 'n naam."
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:45
+msgid "KAddressbook identifier"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:47
+#, fuzzy
+msgid "Formatted name"
+msgstr "Formaat Raamstel"
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:48
+#, fuzzy
+msgid "Family names"
+msgstr "Formule Rame"
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:49
+#, fuzzy
+msgid "Given name"
+msgstr "Beweeg Raam"
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:50
+msgid "Additional names"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:51
+msgid "Honorific prefixes"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:52
+msgid "Honorific suffixes"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:53
+#, fuzzy
+msgid "Nick name"
+msgstr "Naam"
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:54
+msgid "Birthday"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:55
+msgid "Home address: Street"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:56
+msgid "Home address: Locality"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:57
+msgid "Home address: Region"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:58
+msgid "Home address: Postal code"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:59
+msgid "Home address: Country"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:60
+msgid "Home address: Label"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:61
+msgid "Business address: Street"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:62
+msgid "Business address: Locality"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:63
+msgid "Business address: Region"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:64
+msgid "Business address: Postal code"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:65
+msgid "Business address: Country"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:66
+msgid "Business address: Label"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:67
+#, fuzzy
+msgid "Home phone"
+msgstr "Open Skakel"
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:68
+msgid "Business phone"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:69
+msgid "Mobile phone"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:70
+msgid "Home fax"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:71
+msgid "Business fax"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:72
+msgid "Car phone"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:73
+msgid "ISDN"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:74
+#, fuzzy
+msgid "Pager"
+msgstr "Bladsy"
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:76
+msgid "Mailer"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:77
+#, fuzzy
+msgid "Time zone"
+msgstr "Open Skakel"
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:78
+msgid "Geographic position"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:79
+#, fuzzy
+msgid "Title"
+msgstr "Tyd"
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:80
+#, fuzzy
+msgid "Role"
+msgstr "Lokalisering"
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:81
+msgid "Organization"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:82
+#, fuzzy
+msgid "Note"
+msgstr "Voetnota"
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:83
+msgid "productId"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:84
+msgid "Revision"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:85
+msgid "sortString"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:86
+msgid "URL"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:87
+msgid "Secrecy"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:88
+msgid "Preferred address: Street"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:89
+msgid "Preferred address: Locality"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:90
+msgid "Preferred address: Region"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:91
+msgid "Preferred address: Postal code"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:92
+msgid "Preferred address: Country"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:93
+msgid "Preferred address: Label"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:171
+msgid "KAddressbook entry '%1' not available."
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:353
+msgid "%1 South"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:355
+msgid "%1 North"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:360
+msgid "%1 West"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:362
+msgid "%1 East"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:364
+msgid ""
+"_: Geographic coordinates\n"
+"%1, %2"
+msgstr ""
+
+#: mailmerge/kabc/kwmailmerge_kabc.cc:389
+#: mailmerge/kspread/kwmailmerge_kspread.cpp:54
+#, fuzzy, c-format
+msgid "Unkown mail merge variable: %1"
+msgstr "Trek Pos Saamvlans Veranderlike"
+
+#: mailmerge/kspread/kwmailmerge_kspread_config.cpp:104
+msgid "URL:"
+msgstr ""
+
+#: mailmerge/kspread/kwmailmerge_kspread_config.cpp:110
+#, fuzzy
+msgid "Page number:"
+msgstr "Beginne bladsy nommer:"
+
+#: mailmerge/serialletter_classicplugin.cc:90
+#: mailmerge/serialletter_classicplugin.cc:150
+msgid "No Value"
+msgstr "Nee Waarde"
+
+#: mailmerge/serialletter_classicplugin.cc:375
+#, fuzzy
+msgid "Add record"
+msgstr "Voeg by Opneem"
+
+#: mailmerge/serialletter_classicplugin.cc:382
+#, fuzzy
+msgid "Add entry"
+msgstr "Voeg by Inskrywing"
+
+#: mailmerge/serialletter_classicplugin.cc:389
+#, fuzzy
+msgid "Remove record"
+msgstr "Verwyder Opneem"
+
+#: mailmerge/serialletter_classicplugin.cc:396
+#, fuzzy
+msgid "Remove entry"
+msgstr "Verwyder Inskrywing"
+
+#: mailmerge/serialletter_classicplugin.cc:467
+#, fuzzy
+msgid "Add Entry"
+msgstr "Voeg by Inskrywing"
+
+#: mailmerge/serialletter_classicplugin.cc:468
+msgid "Enter entry name:"
+msgstr "Invoer inskrywing naam:"
+
 #: KWAboutData.h:27
 msgid "KOffice Word Processor"
 msgstr "Koffice Woord Verwerker"
@@ -898,137 +1293,6 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "frix@expertron.co.za"
-
-#~ msgid "Mail Merge - Editor"
-#~ msgstr "Pos Saamvlans - Redigeerder"
-
-#~ msgid "ascending"
-#~ msgstr "opgaande"
-
-#~ msgid "descending"
-#~ msgstr "afgaande"
-
-#~ msgid "contains"
-#~ msgstr "bevat"
-
-#~ msgid "Field"
-#~ msgstr "Veld"
-
-#~ msgid "Sorting Order"
-#~ msgstr "Besig om te sorteer Volgorde"
-
-#~ msgid "include"
-#~ msgstr "sluit in"
-
-#~ msgid "Operator"
-#~ msgstr "Operateur"
-
-#~ msgid "Condition"
-#~ msgstr "Kondisie"
-
-#~ msgid "Value"
-#~ msgstr "Waarde"
-
-#~ msgid "NOT"
-#~ msgstr "Nie"
-
-#~ msgid ">>>Field %1 is unknown in the current database query<<<"
-#~ msgstr ">>>Veld %1 is onbekende in die huidige databasis navraag<<<"
-
-#, fuzzy
-#~ msgid "Mail Merge - Setup Database Connection"
-#~ msgstr "Pos Saamvlans - Opstelling databasis verbinding"
-
-#~ msgid "<not saved>"
-#~ msgstr "<not saved>"
-
-#, fuzzy
-#~ msgid "Store Settings"
-#~ msgstr "Stoor instellings"
-
-#~ msgid "Please enter the password for the database connection"
-#~ msgstr "Asseblief invoer die wagwoord vir die databasis verbinding"
-
-#~ msgid "Unable to create database object"
-#~ msgstr "Nie moontlik na skep databasis voorwerp"
-
-#, fuzzy
-#~ msgid "New Distribution List"
-#~ msgstr "Instruksies:"
-
-#, fuzzy
-#~ msgid "Please enter name:"
-#~ msgstr "Invoer inskrywing naam:"
-
-#, fuzzy
-#~ msgid "<qt>Distribution list with the given name <b>%1</b> already exists. Please select a different name.</qt>"
-#~ msgstr "'n raamstel met die naam '%1' alreeds bestaan. Asseblief invoer nog 'n naam."
-
-#, fuzzy
-#~ msgid "Formatted name"
-#~ msgstr "Formaat Raamstel"
-
-#, fuzzy
-#~ msgid "Family names"
-#~ msgstr "Formule Rame"
-
-#, fuzzy
-#~ msgid "Given name"
-#~ msgstr "Beweeg Raam"
-
-#, fuzzy
-#~ msgid "Nick name"
-#~ msgstr "Naam"
-
-#, fuzzy
-#~ msgid "Pager"
-#~ msgstr "Bladsy"
-
-#, fuzzy
-#~ msgid "Time zone"
-#~ msgstr "Open Skakel"
-
-#, fuzzy
-#~ msgid "Title"
-#~ msgstr "Tyd"
-
-#, fuzzy
-#~ msgid "Role"
-#~ msgstr "Lokalisering"
-
-#, fuzzy
-#~ msgid "Note"
-#~ msgstr "Voetnota"
-
-#, fuzzy
-#~ msgid "Unkown mail merge variable: %1"
-#~ msgstr "Trek Pos Saamvlans Veranderlike"
-
-#~ msgid "No Value"
-#~ msgstr "Nee Waarde"
-
-#, fuzzy
-#~ msgid "Add record"
-#~ msgstr "Voeg by Opneem"
-
-#, fuzzy
-#~ msgid "Add entry"
-#~ msgstr "Voeg by Inskrywing"
-
-#, fuzzy
-#~ msgid "Remove record"
-#~ msgstr "Verwyder Opneem"
-
-#, fuzzy
-#~ msgid "Remove entry"
-#~ msgstr "Verwyder Inskrywing"
-
-#, fuzzy
-#~ msgid "Add Entry"
-#~ msgstr "Voeg by Inskrywing"
-
-#~ msgid "Enter entry name:"
-#~ msgstr "Invoer inskrywing naam:"
 
 #~ msgid "Configure Endnote/Footnote"
 #~ msgstr "Konfigureer Stopnota/Voetnota"
@@ -1755,9 +2019,6 @@ msgstr "frix@expertron.co.za"
 #, fuzzy
 #~ msgid "Create backup file"
 #~ msgstr "Skep Rugsteun Lêer"
-
-#~ msgid "Starting page number:"
-#~ msgstr "Beginne bladsy nommer:"
 
 #~ msgid "Tab stop (%1):"
 #~ msgstr "Oortjie stop (%1):"
