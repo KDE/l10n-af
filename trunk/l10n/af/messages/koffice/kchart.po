@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kchart VERSION\n"
-"POT-Creation-Date: 2005-11-05 02:46+0100\n"
+"POT-Creation-Date: 2005-11-21 03:15+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -655,17 +655,17 @@ msgstr "Asse"
 msgid "Chart &Subtype"
 msgstr "Kaart Subtipe"
 
-#: kchartDataConfigPage.cc:61
+#: kchartDataConfigPage.cc:61 kchartWizardSelectDataFormatPage.cc:35
 #, fuzzy
 msgid "Data Format"
 msgstr "Y-label formaat:"
 
-#: kchartDataConfigPage.cc:65
+#: kchartDataConfigPage.cc:65 kchartWizardSelectDataFormatPage.cc:39
 #, fuzzy
 msgid "Data in rows"
 msgstr "Data is in:"
 
-#: kchartDataConfigPage.cc:69
+#: kchartDataConfigPage.cc:69 kchartWizardSelectDataFormatPage.cc:43
 #, fuzzy
 msgid "Data in columns"
 msgstr "Data is in:"
@@ -683,27 +683,27 @@ msgstr "Skrif tipe..."
 msgid "KChart Data Editor"
 msgstr "Kchart Data Redigeerder"
 
-#: kchartDataEditor.cc:174
+#: kchartDataEditor.cc:176
 msgid "# Rows:"
 msgstr "# Rye:"
 
-#: kchartDataEditor.cc:181
+#: kchartDataEditor.cc:183
 #, fuzzy
 msgid "# Columns:"
 msgstr "# Kolomme:"
 
-#: kchartDataEditor.cc:235
+#: kchartDataEditor.cc:241
 msgid ""
 "<p><b>Sets the number of rows in the data table.</b>"
 "<br>"
 "<br>Each row represents one data set.</p>"
 msgstr ""
 
-#: kchartDataEditor.cc:237
+#: kchartDataEditor.cc:243
 msgid "Number of active data rows"
 msgstr ""
 
-#: kchartDataEditor.cc:242
+#: kchartDataEditor.cc:248
 msgid ""
 "<p><b>Sets the number of columns in the data table.</b>"
 "<br>"
@@ -711,16 +711,16 @@ msgid ""
 "(row).</p>"
 msgstr ""
 
-#: kchartDataEditor.cc:244
+#: kchartDataEditor.cc:250
 msgid "Number of active data columns"
 msgstr ""
 
-#: kchartDataEditor.cc:249
+#: kchartDataEditor.cc:255
 msgid ""
 "Chart data, each row is a data set. Headers can be changed by clicking on them."
 msgstr ""
 
-#: kchartDataEditor.cc:251
+#: kchartDataEditor.cc:257
 msgid ""
 "<p>This table represents the complete data for the chart."
 "<br>"
@@ -734,7 +734,7 @@ msgid ""
 "sets.  In a ring diagram each column is one ring.</p>"
 msgstr ""
 
-#: kchartDataEditor.cc:446
+#: kchartDataEditor.cc:494
 msgid ""
 "You are about to shrink the data table and remove some values. This will lead "
 "to loss of existing data in the table and/or the headers.\n"
@@ -742,20 +742,20 @@ msgid ""
 "This message will not be shown again if you click Continue"
 msgstr ""
 
-#: kchartDataEditor.cc:573
+#: kchartDataEditor.cc:621
 #, fuzzy
 msgid "Column Name"
 msgstr "Kolom aktief:"
 
-#: kchartDataEditor.cc:574
+#: kchartDataEditor.cc:622
 msgid "Type a new column name:"
 msgstr ""
 
-#: kchartDataEditor.cc:591
+#: kchartDataEditor.cc:639
 msgid "Row Name"
 msgstr ""
 
-#: kchartDataEditor.cc:592
+#: kchartDataEditor.cc:640
 msgid "Type a new row name:"
 msgstr ""
 
@@ -1109,20 +1109,25 @@ msgstr "Gestapel"
 msgid "Percent"
 msgstr "Persent"
 
-#: kchartWizard.cc:38
+#: kchartWizard.cc:35
+#, fuzzy
+msgid "Select Data Format"
+msgstr "Y-label formaat:"
+
+#: kchartWizard.cc:41
 msgid "Select Chart Type"
 msgstr "Kies Kaart Tipe"
 
-#: kchartWizard.cc:45
+#: kchartWizard.cc:48
 msgid "Select Chart Subtype"
 msgstr "Kies Kaart Subtipe"
 
-#: kchartWizard.cc:55
+#: kchartWizard.cc:58
 #, fuzzy
 msgid "Labels & Legend"
 msgstr "Etikette en Legende"
 
-#: kchartWizard.cc:61
+#: kchartWizard.cc:64
 msgid "Setup Axes"
 msgstr "Opstelling Asse"
 
@@ -1225,31 +1230,31 @@ msgstr "Gebruik eerste kolom as beskrywing"
 msgid "Unknown chart type %1"
 msgstr ""
 
-#: kchart_part.cc:200
+#: kchart_part.cc:205
 #, fuzzy, c-format
 msgid "Column %1"
 msgstr "Kolomme"
 
-#: kchart_part.cc:205
+#: kchart_part.cc:210
 #, fuzzy, c-format
 msgid "Row %1"
 msgstr "Rye"
 
-#: kchart_part.cc:809
+#: kchart_part.cc:819
 msgid "Invalid OASIS OpenDocument file. No office:body tag found."
 msgstr ""
 
-#: kchart_part.cc:823
+#: kchart_part.cc:833
 msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
 msgstr ""
 
-#: kchart_part.cc:825
+#: kchart_part.cc:835
 msgid ""
 "This document is not a chart, but %1. Please try opening it with the "
 "appropriate application."
 msgstr ""
 
-#: kchart_part.cc:832
+#: kchart_part.cc:842
 msgid "Invalid OASIS OpenDocument file. No chart:chart tag found."
 msgstr ""
 
@@ -1334,7 +1339,7 @@ msgstr "Y-label formaat:"
 
 #: kchart_view.cc:152
 #, fuzzy
-msgid "&Header and Footer..."
+msgid "&Header && Footer..."
 msgstr "Konfigureer Opskrif Voetskrif..."
 
 #: kchart_view.cc:156
