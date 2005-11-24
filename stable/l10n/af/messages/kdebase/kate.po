@@ -1,12 +1,12 @@
 # UTF-8 test:äëïöü
 # Copyright (C) 2001 Free Software Foundation, Inc.
-# Frikkie Thirion <frix@expertron.co.za>, 2001,2002, 2005.
+# Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>, 2001,2002, 2005.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kate KDE3.5\n"
 "POT-Creation-Date: 2005-11-01 02:39+0100\n"
-"PO-Revision-Date: 2005-11-22 11:27+0200\n"
+"PO-Revision-Date: 2005-11-24 11:27+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
@@ -53,6 +53,17 @@ msgid ""
 "<li><code>%selection</code> - the selected text in the current view."
 "<li><code>%text</code> - the text of the current document.</ul>"
 msgstr ""
+"<p>Die skript om uit te voer wat die nutsprogram sal begin. Die skript word na /bin/sh "
+"aangegee vir uitvoering. Die volgende makros sal uitgebrei word:</p>"
+"<ul>"
+"<li><code>%URL</code> - die URL van die huidige dokument"
+"<li><code>%URLs</code> - 'n lys van die URLs van al die oop dokumente"
+"<li><code>%directory</code> - die URL van die gids wat die huidige dokument bevat"
+"<li><code>%filename</code> - die lêernaam van die huidige dokument"
+"<li><code>%line</code> - die lyn waarop die teks aanwyser tans gefokus is in die huidige aansig"
+"<li><code>%column</code> - die kolom van die teks aanwyser in die huidige aansig"
+"<li><code>%selection</code> - die gekiesde teks in die huidige aansig"
+"<li><code>%text</code> - die teks van die huidige dokument.</ul>"
 
 #: app/kateexternaltools.cpp:484
 msgid "&Executable:"
@@ -121,14 +132,16 @@ msgid ""
 "lines with exttool-the_name_you_specified_here. Please do not use spaces or "
 "tabs in the name."
 msgstr ""
+"As jy 'n naam hier spesifiseer, kan die opdrag vanuit die opdrag lyne geaktiveer word met "
+"die exttool-die_naam_wat_jy_gespesifiseer_het. Moet nie spasies of oortjies gebruik nie."
 
 #: app/kateexternaltools.cpp:544
 msgid "You must specify at least a name and a command"
-msgstr ""
+msgstr "Jy moet ten minste 'n naam en opdrag spesifiseer"
 
 #: app/kateexternaltools.cpp:553
 msgid "Select the MimeTypes for which to enable this tool."
-msgstr ""
+msgstr "Kies die MIME tipes waarvoor die nutsprogram geaktiveer moet word"
 
 #: app/kateexternaltools.cpp:555
 msgid "Select Mime Types"
@@ -150,10 +163,11 @@ msgstr "Voeg skeier in"
 msgid ""
 "This list shows all the configured tools, represented by their menu text."
 msgstr ""
+"Hierdie lys vertoon al die opgestelde nutsprogramme, voorgestel deur hulle kieslys teks."
 
 #: app/kateviewspace.cpp:320 app/kateviewspace.cpp:359
 msgid " INS "
-msgstr " Byvoeg "
+msgstr " INS "
 
 #: app/kateviewspace.cpp:325 app/kateviewspace.cpp:363
 msgid " NORM "
@@ -165,29 +179,31 @@ msgstr " Lyn: %1 Kolom: %2 "
 
 #: app/kateviewspace.cpp:355
 msgid " R/O "
-msgstr " R/O "
+msgstr " Lees allen "
 
 #: app/kateviewspace.cpp:357
 msgid " OVR "
-msgstr " Ovr "
+msgstr " OORSKRYF "
 
 #: app/kateviewspace.cpp:363
 msgid " BLK "
-msgstr " Blk "
+msgstr " BLK "
 
 #: app/kateconsole.cpp:126
 msgid ""
 "Do you really want to pipe the text to the console? This will execute any "
 "contained commands with your user rights."
 msgstr ""
+"Wil jy rerig die teks na die konsole pyp? Dit sal alle opdragte wat bevat word "
+"onder jou gebruiker naam uitvoer."
 
 #: app/kateconsole.cpp:127
 msgid "Pipe to Console?"
-msgstr ""
+msgstr "Pyp na Konsole?"
 
 #: app/kateconsole.cpp:128
 msgid "Pipe to Console"
-msgstr ""
+msgstr "Pyp na Konsole"
 
 #: app/katemainwindow.cpp:212 app/katesavemodifieddialog.cpp:152
 msgid "Documents"
@@ -195,7 +211,7 @@ msgstr "Dokumente"
 
 #: app/katemainwindow.cpp:216
 msgid "Filesystem Browser"
-msgstr ""
+msgstr "Lêerstelsel Blaaier"
 
 #: app/kategrepdialog.cpp:71 app/katemainwindow.cpp:223
 msgid "Find in Files"
@@ -203,7 +219,7 @@ msgstr "Soek in Lêers"
 
 #: app/katemainwindow.cpp:230
 msgid "Terminal"
-msgstr ""
+msgstr "Terminaal"
 
 #: app/katemainwindow.cpp:242
 msgid "Create a new document"
@@ -257,15 +273,15 @@ msgstr ""
 #: app/kateconfigdialog.cpp:268 app/kateconfigdialog.cpp:269
 #: app/katemainwindow.cpp:265 app/katemainwindow.cpp:531
 msgid "External Tools"
-msgstr ""
+msgstr "Eksterne Nutsprogramme"
 
 #: app/katemainwindow.cpp:266
 msgid "Launch external helper applications"
-msgstr ""
+msgstr "Lanseer eksterne helper programme"
 
 #: app/katemainwindow.cpp:272
 msgid "Open W&ith"
-msgstr "Open Met"
+msgstr "Maak oop met"
 
 #: app/katemainwindow.cpp:273
 msgid ""
@@ -291,7 +307,7 @@ msgstr ""
 
 #: app/katemainwindow.cpp:288
 msgid "&Pipe to Console"
-msgstr ""
+msgstr "Pyp na Konsole"
 
 #: app/katemainwindow.cpp:291
 msgid "This shows useful tips on the use of this application."
@@ -299,7 +315,7 @@ msgstr "Hierdie vertoon bruikbare leidrade op die gebruik van Hierdie aansoek."
 
 #: app/katemainwindow.cpp:295
 msgid "&Plugins Handbook"
-msgstr ""
+msgstr "Inprop module handboek"
 
 #: app/katemainwindow.cpp:296
 msgid "This shows help files for various available plugins."
@@ -310,6 +326,7 @@ msgid ""
 "_: Menu entry Session->New\n"
 "&New"
 msgstr ""
+"Nuwe"
 
 #: app/katemainwindow.cpp:308
 msgid "Save &As..."
@@ -325,7 +342,7 @@ msgstr "Vinnig oopmaak"
 
 #: app/katedocmanager.cpp:392 app/katemainwindow.cpp:340
 msgid "New file opened while trying to close Kate, closing aborted."
-msgstr ""
+msgstr "Nuwe lêer was oopgemaak terwyl Kate besig was om toe te maak. Toemaak gestaak."
 
 #: app/katedocmanager.cpp:393 app/katemainwindow.cpp:341
 msgid "Closing Aborted"
@@ -353,6 +370,8 @@ msgid ""
 "message."
 "<p>Do you want to save it and proceed?"
 msgstr ""
+"<p>Die huidige dokument was nie gestoor nie en kan nie aan 'n e-pos aangeheg word nie."
+"<p>Wil jy dit stoor en voortgaan?"
 
 #: app/katemainwindow.cpp:659
 msgid "Cannot Send Unsaved File"
@@ -369,6 +388,10 @@ msgid ""
 "<br>has been modified. Modifications will not be available in the attachment."
 "<p>Do you want to save it before sending it?"
 msgstr ""
+"<p>Die huidige lêer:"
+"<br><strong>%1</strong>"
+"<br>was verander. Veranderinge sal nie in die aanhangsel beskikbaar wees nie. "
+"<p>Wil jy dit stoor voordat dit gestuur word?"
 
 #: app/katemainwindow.cpp:681
 msgid "Save Before Sending?"
@@ -407,7 +430,7 @@ msgstr "Naam"
 #: app/katefilelist.cpp:142 app/katefilelist.cpp:579
 #: app/katemailfilesdialog.cpp:62
 msgid "URL"
-msgstr "Url"
+msgstr "URL"
 
 #: app/katemailfilesdialog.cpp:104
 msgid "&Hide Document List <<"
@@ -434,18 +457,24 @@ msgid ""
 "Removes the modified flag from the selected documents and closes the dialog if "
 "there are no more unhandled documents."
 msgstr ""
+"Verwyder die 'verander' vlaggie van die gekiesde dokumente en maak die dialoog toe "
+"as daar nie meer dokumente is nie."
 
 #: app/katemwmodonhddialog.cpp:71
 msgid ""
 "Overwrite selected documents, discarding the disk changes and closes the dialog "
 "if there are no more unhandled documents."
 msgstr ""
+"Oorskryf die gekiesde dokumente. Die veranderinge op skyf sal verlore gaan. Die "
+"dialoog sal toegemaak word sodra daar nie meer dokumente oor is nie."
 
 #: app/katemwmodonhddialog.cpp:74
 msgid ""
 "Reloads the selected documents from disk and closes the dialog if there are no "
 "more unhandled documents."
 msgstr ""
+"Herlaai die gekiesde dokumente vanaf die skyf en maak die dialoog toe as daar "
+"nie meer dokumente uitstaande is nie"
 
 #: app/katemwmodonhddialog.cpp:87
 msgid ""
@@ -453,14 +482,16 @@ msgid ""
 "<p>Select one or more at the time and press an action button until the list is "
 "empty.</qt>"
 msgstr ""
+"<qt>Die dokumente wat hier onder gelys het, het op die skyf verander. "
+"<p>Kies een of meer op 'n slag en druk 'n aksie knoppie totdat die lys leeg is.</qt>"
 
 #: app/katemwmodonhddialog.cpp:93
 msgid "Filename"
-msgstr ""
+msgstr "Lêernaam"
 
 #: app/katemwmodonhddialog.cpp:94
 msgid "Status on Disk"
-msgstr ""
+msgstr "Status op die skyf"
 
 #: app/katemwmodonhddialog.cpp:98
 msgid "Modified"
@@ -484,6 +515,9 @@ msgid ""
 "the selected document, and shows the difference with the default application. "
 "Requires diff(1)."
 msgstr ""
+"Bereken die verskil tussen die inhoud in die redigeerder en die op die skyf vir "
+"die gekiesde dokument, en vertoon die verskille met die standaard program."
+"Benodig diff(1)"
 
 #: app/katemwmodonhddialog.cpp:163
 msgid ""
@@ -498,6 +532,8 @@ msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in your "
 "PATH."
 msgstr ""
+"Die diff opdrag het gevaal. Maak asb. seker dat diff(i) geinstalleer is, en in jou "
+"gids (PATH) is."
 
 #: app/katemwmodonhddialog.cpp:256
 msgid "Error Creating Diff"
@@ -536,7 +572,7 @@ msgstr ""
 
 #: app/kateconfigdialog.cpp:117
 msgid "&Behavior"
-msgstr ""
+msgstr "Gedrag"
 
 #: app/kateconfigdialog.cpp:122
 msgid "Sync &terminal emulator with active document"
@@ -554,7 +590,7 @@ msgstr ""
 
 #: app/kateconfigdialog.cpp:132
 msgid "Wa&rn about files modified by foreign processes"
-msgstr ""
+msgstr "Waarsku oor lêers wat deur ander prosesse verander is"
 
 #: app/kateconfigdialog.cpp:135
 msgid ""
@@ -563,14 +599,18 @@ msgid ""
 "what to do with a file that has been modified on the hard disk only when that "
 "file gains focus inside Kate."
 msgstr ""
+"As hierdie geaktiveer is, sal Kate sodra daar op hom gefokus word vra wat "
+"om met lêers te doen wat op die skyf verander het. As hierdie nie geaktiveer is "
+"nie, sal Kate eers vra wat om te doen sodra daar op die lêer gefokus word binne "
+"Kate."
 
 #: app/kateconfigdialog.cpp:143
 msgid "Meta-Information"
-msgstr ""
+msgstr "Meta-Informasie"
 
 #: app/kateconfigdialog.cpp:148
 msgid "Keep &meta-information past sessions"
-msgstr ""
+msgstr "Hou meta-informasie na sessies"
 
 #: app/kateconfigdialog.cpp:151
 msgid ""
@@ -578,14 +618,17 @@ msgid ""
 "saved past editor sessions. The configuration will be restored if the document "
 "has not changed when reopened."
 msgstr ""
+"As hierdie gekies is sal dokument konfigurasie data in die sessie gestoor word. "
+"Die konfigurasie sal herstel word as die dokument weer oopgemaak word en dit "
+"nie intussen verander het nie."
 
 #: app/kateconfigdialog.cpp:159
 msgid "&Delete unused meta-information after:"
-msgstr ""
+msgstr "Vee ongebruikte meta-inligting uit na:"
 
 #: app/kateconfigdialog.cpp:161
 msgid "(never)"
-msgstr ""
+msgstr "(nooit)"
 
 #: app/kateconfigdialog.cpp:162
 msgid " day(s)"
@@ -617,7 +660,7 @@ msgstr ""
 
 #: app/kateconfigdialog.cpp:195
 msgid "Behavior on Application Startup"
-msgstr ""
+msgstr "Gedrag tydens program opstart"
 
 #: app/kateconfigdialog.cpp:199
 msgid "&Start new session"
@@ -681,11 +724,11 @@ msgstr "Patroon:"
 
 #: app/kategrepdialog.cpp:118
 msgid "Case sensitive"
-msgstr ""
+msgstr "Kas sensitief"
 
 #: app/kategrepdialog.cpp:123
 msgid "Regular expression"
-msgstr ""
+msgstr "Natuurlike uitdrukking"
 
 #: app/kategrepdialog.cpp:129
 msgid "Template:"
@@ -708,7 +751,6 @@ msgid "Find"
 msgstr "Soek"
 
 #: app/kategrepdialog.cpp:201
-#, fuzzy
 msgid ""
 "<p>Enter the expression you want to search for here."
 "<p>If 'regular expression' is unchecked, any non-space letters in your "
@@ -732,41 +774,34 @@ msgid ""
 "the notation <code>\\#</code>."
 "<p>See the grep(1) documentation for the full documentation."
 msgstr ""
-"Invoer die gewone uitdrukking jy wil hê na soektog vir hier."
-"<br>Moontlik meta karakters woord:"
-"<br><b>.</b> - Ooreenstemmende inskrywings enige karakter"
-"<br><b>^</b> - Ooreenstemmende inskrywings die begin van 'n lyn"
-"<br><b>$</b> - Ooreenstemmende inskrywings die einde van 'n lyn"
-"<br><b>\\\\\\&lt;</b> - Ooreenstemmende inskrywings die begin van 'n woord"
-"<br><b>\\\\\\&gt;</b> - Ooreenstemmende inskrywings die einde van 'n woord"
-"<br>"
-"<br>die volgende herhaling operateurs bestaan:"
-"<br><b>?</b> - die voorafgaande item is ooreengestem na mees as eers"
-"<br><b>*</b> - die voorafgaande item is ooreengestem nul of meer       times    "
-"  "
-"<br><b>+</b> - die voorafgaande item is ooreengestem een of meer       times    "
-"  "
-"<br><b>{<i>n</i>}</b> - die voorafgaande item is ooreengestem presies <i>n</i>       "
-"times      "
-"<br><b>{<i>n</i>,}</b> - die voorafgaande item is ooreengestem <i>n</i> "
-"of meer       times      "
-"<br><b>{,<i>n</i>}</b> - die voorafgaande item is ooreengestem na mees <i>n</i>       "
-"times      "
-"<br><b>{<i>n</i>,<i>m</i>}</b> - die voorafgaande item is ooreengestem na "
-"minste <i>n</i>,"
-"<br>   maar na mees <i>m</i>       times      ."
-"<br>"
-"<br>Verder, terug verwysings na in hakkies subuitdrukkings woord"
-"<br>beskikbaar deur middel van die notasie \\\\<i>n</i>."
+"<p>Voer die uitdrukking waarvoor jy wil soek hier in."
+"<p>As 'natuurlik uitdrukking' nie gekies is nie, sal elke karakter, behalwe spasies, "
+"met 'backslashes' ge'escape' word."
+"<p>Moontlik meta karakters is:"
+"<br><b>.</b> - Stem ooreen met enige karakter"
+"<br><b>^</b> - Dui die begin van 'n lyn aan"
+"<br><b>$</b> - Dui die einde van 'n lyn aan"
+"<br><b>\\&lt;</b> - Dui die begin van 'n woord aan"
+"<br><b>\\&gt;</b> - Dui die einge van 'n woord aan"
+"<p>Die volgende karakters dui herhaling aan:"
+"<br><b>?</b> - Die vorige item sal op die meeste een keer gevind word"
+"<br><b>*</b> - Die vorige item sal nul of meer kere gevind word"
+"<br><b>+</b> - Die vorige item sal een of meer keer gevind word"
+"<br><b>{<i>n</i>}</b> - Die vorige item sal presien <i>n</i> kere gevind word"
+"<br><b>{<i>n</i>,}</b> - Die vorige item sal <i>n</i> of meer kere gevind word"
+"<br><b>{,<i>n</i>}</b> - Die vorige item sal op die meeste <i>n</i> kere gevind word"
+"<br><b>{<i>n</i>,<i>m</i>}</b> - Die vorige item sal ten minste <i>n</i> kere gevind word, "
+"maar nie meer as <i>m</i> kere nie."
+"<p>Terug verwysing na sub uitdrukkings in hakkies is beskikbaar via die notasie: <code>\\#</code>."
+"<p>Kyk na die grep(1) dokumentasie vir die volle dokumentasie."
 
 #: app/kategrepdialog.cpp:224
-#, fuzzy
 msgid ""
 "Enter the file name pattern of the files to search here.\n"
 "You may give several patterns separated by commas."
 msgstr ""
-"Invoer die lêer naam patroon van die lêers na soektog hier.\n"
-"Jy dalk mag gee klomp patrone geskei deur kommas"
+"Voer die patroon in vir die lêers waarna gesoek moet word.\n"
+"Jy mag veelvuldige patrone gee, geskei deur kommas."
 
 #: app/kategrepdialog.cpp:227
 #, c-format
@@ -782,22 +817,18 @@ msgstr ""
 "na soektog vir."
 
 #: app/kategrepdialog.cpp:232
-#, fuzzy
 msgid "Enter the folder which contains the files in which you want to search."
-msgstr "Invoer die gids wat bevat die lêers jy wil hê na soektog in."
+msgstr "Voer die gids waarin gesoek moet word in"
 
 #: app/kategrepdialog.cpp:234
-#, fuzzy
 msgid "Check this box to search in all subfolders."
-msgstr "Bevestig hierdie boks na soektog in alle sub-gidse."
+msgstr "Kies hierdie boks om ook in sub gidse te soek"
 
 #: app/kategrepdialog.cpp:236
-#, fuzzy
 msgid ""
 "If this option is enabled (the default), the search will be case sensitive."
 msgstr ""
-"As hierdie opsie is nagegaan, die volgrote dokument gids soeklys sal wees "
-"vertoon in die venster kas-tipe."
+"As hierdie opsie gekies is (die standaard), sal die soektog kas sensitief wees."
 
 #: app/kategrepdialog.cpp:238
 msgid ""
@@ -806,50 +837,52 @@ msgid ""
 "using a backslash character to prevent grep from interpreting them as part of "
 "the expression."
 msgstr ""
+"<p>As hierdie geaktiveer is, sal jou patroon onveranderd na <em>grep(1)</em> "
+"deurgegee word. As hierdie nie geaktiveer is nie, sal alle karakters wat nie letters is "
+"nie deur 'backslash' karakters ge'escape' word. Dit sal verhoed dat grep hulle as deel "
+"van die uitdrukking interpreteer"
 
 #: app/kategrepdialog.cpp:243
-#, fuzzy
 msgid ""
 "The results of the grep run are listed here. Select a\n"
 "filename/line number combination and press Enter or doubleclick\n"
 "on the item to show the respective line in the editor."
 msgstr ""
-"Die resultate van Die grep hardloop word gelys hier. Kies 'n\n"
-"lêernaam/lyn nommer kombinasie en druk Invoer of dubbel kliek\n"
-"op Die item na vertoon Die respektiewe lyn in Die redigeerder."
+"Die resultaat van die grep lopie word hier gelys. Kies 'n \n"
+"lêernaam/lyn nommer kombinasie en druk Enter of dubbel kliek \n"
+"op die item om die lyn in die redigeerder te vertoon."
 
 #: app/kategrepdialog.cpp:328
 msgid "You must enter an existing local folder in the 'Folder' entry."
-msgstr ""
+msgstr "Jy moet 'n bestaande, plaaslike gids se naam in die 'Gids' inskrywing intik."
 
 #: app/kategrepdialog.cpp:329
 msgid "Invalid Folder"
-msgstr ""
+msgstr "Ongeldige Gids"
 
 #: app/kategrepdialog.cpp:480
 msgid "<strong>Error:</strong><p>"
-msgstr ""
+msgstr "<strong>Fout:</strong><p>"
 
 #: app/kategrepdialog.cpp:480
 msgid "Grep Tool Error"
-msgstr ""
+msgstr "Grep nutsprogram fout"
 
 #: app/katemain.cpp:38
-#, fuzzy
 msgid "Start Kate with a given session"
-msgstr "Sessie"
+msgstr "Begin Kate met 'n gegewe sessie"
 
 #: app/katemain.cpp:40
 msgid "Use a already running kate instance (if possible)"
-msgstr ""
+msgstr "Gebruik 'n Kate wat alreeds loop, indien moontlik"
 
 #: app/katemain.cpp:42
 msgid "Only try to reuse kate instance with this pid"
-msgstr ""
+msgstr "Probeer slegs om kate te hergebruik as die PID as volg is"
 
 #: app/katemain.cpp:44 app/kwritemain.cpp:536
 msgid "Set encoding for the file to open"
-msgstr ""
+msgstr "Stel die enkodering van die lêer wat oopgemaak gaan word"
 
 #: app/katemain.cpp:46 app/kwritemain.cpp:537
 msgid "Navigate to this line"
@@ -861,30 +894,27 @@ msgstr "Navigeer na hierdie kolom"
 
 #: app/katemain.cpp:50 app/kwritemain.cpp:535
 msgid "Read the contents of stdin"
-msgstr ""
+msgstr "Lees die inhoud van stdin"
 
 #: app/katemain.cpp:51 app/kwritemain.cpp:539
-#, fuzzy
 msgid "Document to open"
-msgstr "Dokument na open."
+msgstr "Dokument om oop te maak"
 
 #: app/katemain.cpp:60
 msgid "Kate"
 msgstr "Kate"
 
 #: app/katemain.cpp:61
-#, fuzzy
 msgid "Kate - Advanced Text Editor"
-msgstr "Kate - Kde Gevorderde Teks Redigeerder"
+msgstr "Kate - Gevorderde Teks Redigeerder"
 
 #: app/katemain.cpp:62 app/kwritemain.cpp:556
-#, fuzzy
 msgid "(c) 2000-2005 The Kate Authors"
-msgstr "(c) 2000-2001 Die Kate Outeure"
+msgstr "(c) 2000-2005 Die Kate Outeure"
 
 #: app/katemain.cpp:64 app/kwritemain.cpp:558
 msgid "Maintainer"
-msgstr ""
+msgstr "Onderhouer"
 
 #: app/katemain.cpp:65 app/katemain.cpp:66 app/katemain.cpp:67
 #: app/katemain.cpp:72 app/kwritemain.cpp:559 app/kwritemain.cpp:560
@@ -898,52 +928,51 @@ msgstr "Die oulike bufferstelsel"
 
 #: app/katemain.cpp:69 app/kwritemain.cpp:563
 msgid "The Editing Commands"
-msgstr ""
+msgstr "Die redigeer opdragte"
 
 #: app/katemain.cpp:70 app/kwritemain.cpp:564
 msgid "Testing, ..."
 msgstr "Toetsing, ..."
 
 #: app/katemain.cpp:71 app/kwritemain.cpp:565
-#, fuzzy
 msgid "Former Core Developer"
-msgstr "Kern Ontwikkelaar"
+msgstr "Vorige Kern Ontwikkelaar"
 
 #: app/katemain.cpp:73 app/kwritemain.cpp:567
 msgid "KWrite Author"
-msgstr "Kskryf Outeur"
+msgstr "Kwrite Outeur"
 
 #: app/katemain.cpp:74 app/kwritemain.cpp:568
 msgid "KWrite port to KParts"
-msgstr "Kskryf poort na Kparts"
+msgstr "KWrite poort na KParts"
 
 #: app/katemain.cpp:77 app/kwritemain.cpp:571
 msgid "KWrite Undo History, Kspell integration"
-msgstr "Kskryf Herstel Geskiedenis, Kspell integrasie"
+msgstr "KWrite Herstel Geskiedenis, Kspell integrasie"
 
 #: app/katemain.cpp:78 app/kwritemain.cpp:572
 msgid "KWrite XML Syntax highlighting support"
-msgstr "Kskryf Xml Sintaks verligting ondersteun"
+msgstr "KWrite XML Sintaks verligting ondersteuning"
 
 #: app/katemain.cpp:79 app/kwritemain.cpp:573
 msgid "Patches and more"
-msgstr "Lappe en meer"
+msgstr "Patches en meer"
 
 #: app/katemain.cpp:80
 msgid "Developer & Highlight wizard"
-msgstr ""
+msgstr "Ontwikkelaar en Verligting assistent"
 
 #: app/katemain.cpp:82 app/kwritemain.cpp:575
 msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
-msgstr "Verligting vir Rpm Spec-Files, Perl, Diff en meer"
+msgstr "Verligting vir RPM Spec-lêers, Perl, Diff en meer"
 
 #: app/katemain.cpp:83 app/kwritemain.cpp:576
 msgid "Highlighting for VHDL"
-msgstr "Verligting vir Vhdl"
+msgstr "Verligting vir VHDL"
 
 #: app/katemain.cpp:84 app/kwritemain.cpp:577
 msgid "Highlighting for SQL"
-msgstr "Verligting vir Sql"
+msgstr "Verligting vir SQL"
 
 #: app/katemain.cpp:85 app/kwritemain.cpp:578
 msgid "Highlighting for Ferite"
@@ -951,11 +980,11 @@ msgstr "Verligting vir Feriet"
 
 #: app/katemain.cpp:86 app/kwritemain.cpp:579
 msgid "Highlighting for ILERPG"
-msgstr "Verligting vir Ilerpg"
+msgstr "Verligting vir ILERPG"
 
 #: app/katemain.cpp:87 app/kwritemain.cpp:580
 msgid "Highlighting for LaTeX"
-msgstr "Verligting vir Latex"
+msgstr "Verligting vir LaTeX"
 
 #: app/katemain.cpp:88 app/kwritemain.cpp:581
 msgid "Highlighting for Makefiles, Python"
@@ -967,11 +996,11 @@ msgstr "Verligting vir Python"
 
 #: app/katemain.cpp:91 app/kwritemain.cpp:584
 msgid "Highlighting for Scheme"
-msgstr "Verligting vir Skema"
+msgstr "Verligting vir Scheme"
 
 #: app/katemain.cpp:92 app/kwritemain.cpp:585
 msgid "PHP Keyword/Datatype list"
-msgstr " php  Sleutelwoord/Datatipe lys"
+msgstr "PHP  Sleutelwoord/Datatipe lys"
 
 #: app/katemain.cpp:93 app/kwritemain.cpp:586
 msgid "Very nice help"
@@ -979,201 +1008,185 @@ msgstr "Baie oulike hulp"
 
 #: app/katemain.cpp:94 app/kwritemain.cpp:587
 msgid "All people who have contributed and I have forgotten to mention"
-msgstr "Alle mense wie het bygedra en I het vergeet na vermeld"
+msgstr "Alle die mense wat bygedra het, en wie ek vergeet het om te vermeld"
 
 #: _translatorinfo.cpp:1 app/katemain.cpp:96 app/kwritemain.cpp:589
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "WEB-Vertaler (http://kde.af.org.za)"
+msgstr "Frikkie Thiroin"
 
 #: _translatorinfo.cpp:3 app/katemain.cpp:96 app/kwritemain.cpp:589
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "frix@expertron.co.za"
+msgstr "Frikkie.thirion@deneloptronics.co.za"
 
 #: app/katedocmanager.cpp:356
 msgid ""
 "<p>The document '%1' has been modified, but not saved."
 "<p>Do you want to save your changes or discard them?"
 msgstr ""
+"<p>Die dokument '%1' was verander, maar nog nie gestoor nie."
+"<p>Wil jy jou veranderinge stoor of weggooi?"
 
 #: app/katedocmanager.cpp:358
-#, fuzzy
 msgid "Close Document"
-msgstr "Dokument"
+msgstr "Maak Dokument Toe"
 
 #: app/katedocmanager.cpp:444
 msgid "Reopening files from the last session..."
-msgstr ""
+msgstr "Maak die lêers van die vorige sessie oop..."
 
 #: app/katedocmanager.cpp:450
-#, fuzzy
 msgid "Starting Up"
-msgstr "Opstart"
+msgstr "Besig om op te start"
 
 #: app/katesession.cpp:72 app/katesession.cpp:94 app/katesession.cpp:243
-#, fuzzy
 msgid "Default Session"
-msgstr "Sessie"
+msgstr "Standaard Sessie"
 
 #: app/katesession.cpp:76
-#, fuzzy
 msgid "Unnamed Session"
-msgstr "Sessie"
+msgstr "Onbenoemde Sessie"
 
 #: app/katesession.cpp:96
-#, fuzzy
 msgid "Session (%1)"
-msgstr "Sessie"
+msgstr "Sessie (%1)"
 
 #: app/katesession.cpp:361
-#, fuzzy
 msgid "Save Session?"
-msgstr "Sessie"
+msgstr "Stoor Sessie"
 
 #: app/katesession.cpp:368
-#, fuzzy
 msgid "Save current session?"
-msgstr "Dokument"
+msgstr "Stoor die huidige sessie?"
 
 #: app/katesession.cpp:369
 msgid "Do not ask again"
-msgstr ""
+msgstr "Moet nie weer vra nie"
 
 #: app/katesession.cpp:459
-#, fuzzy
 msgid "No session selected to open."
-msgstr "Gekose:"
+msgstr "Geen sessie was gekies om oop te maak nie."
 
 #: app/katesession.cpp:459
-#, fuzzy
 msgid "No Session Selected"
-msgstr "Gekose:"
+msgstr "Geen sessie gekies nie"
 
 #: app/katesession.cpp:531
-#, fuzzy
 msgid "Specify Name for Current Session"
-msgstr "Dokument"
+msgstr "Spesifiseer 'n naam vir die huidige sessie"
 
 #: app/katesession.cpp:531 app/katesession.cpp:549 app/katesession.cpp:824
-#, fuzzy
 msgid "Session name:"
-msgstr "Sessie"
+msgstr "Sessie naam:"
 
 #: app/katesession.cpp:538
 msgid "To save a new session, you must specify a name."
-msgstr ""
+msgstr "Om 'n nuwe sessie te stoor moet 'n naam gegee word."
 
 #: app/katesession.cpp:538 app/katesession.cpp:556 app/katesession.cpp:831
 msgid "Missing Session Name"
-msgstr ""
+msgstr "Sessie naam ontbreek"
 
 #: app/katesession.cpp:549
 msgid "Specify New Name for Current Session"
-msgstr ""
+msgstr "Spesifiseer 'n nuwe naam vir die huidige sessie"
 
 #: app/katesession.cpp:556 app/katesession.cpp:831
 msgid "To save a session, you must specify a name."
-msgstr ""
+msgstr "Jy moet 'n naam spesifiseer om 'n sessie te stoor"
 
 #: app/katesession.cpp:595
-#, fuzzy
 msgid "Session Chooser"
-msgstr "Sessie"
+msgstr "Sessie kieser"
 
 #: app/katesession.cpp:600 app/katesession.cpp:691
-#, fuzzy
 msgid "Open Session"
-msgstr "Sessie"
+msgstr "Maak sessie oop"
 
 #: app/katesession.cpp:601
-#, fuzzy
 msgid "New Session"
-msgstr "Sessie"
+msgstr "Nuwe sessie"
 
 #: app/katesession.cpp:619 app/katesession.cpp:708 app/katesession.cpp:770
-#, fuzzy
 msgid "Session Name"
-msgstr "Sessie"
+msgstr "Sessie naam"
 
 #: app/katesession.cpp:620 app/katesession.cpp:709 app/katesession.cpp:771
-#, fuzzy
 msgid "Open Documents"
-msgstr "Dokument"
+msgstr "Maak dokumente oop"
 
 #: app/katesession.cpp:636
 msgid "&Always use this choice"
-msgstr ""
+msgstr "Gebruik altyd hierdie keuse"
 
 #: app/katesession.cpp:696
 msgid "&Open"
-msgstr ""
+msgstr "Maak oop"
 
 #: app/katesession.cpp:755
-#, fuzzy
 msgid "Manage Sessions"
-msgstr "Sessie"
+msgstr "Bestuur sessies"
 
 #: app/katesession.cpp:784
-#, fuzzy
 msgid "&Rename..."
-msgstr "Pos..."
+msgstr "Herbenoem..."
 
 #: app/katesession.cpp:824
 msgid "Specify New Name for Session"
-msgstr ""
+msgstr "Spesifiseer 'n nuwe naam vir die sessie"
 
 #: app/katefilelist.cpp:139
 msgid "Sort &By"
-msgstr ""
+msgstr "Sorteer volgens"
 
 #: app/katefilelist.cpp:142 app/katefilelist.cpp:579
 msgid "Opening Order"
-msgstr ""
+msgstr "Oopmaak volgorde"
 
 #: app/katefilelist.cpp:142 app/katefilelist.cpp:579
-#, fuzzy
 msgid "Document Name"
-msgstr "Dokument"
+msgstr "Dokument naam"
 
 #: app/katefilelist.cpp:373
 msgid ""
 "<b>This file was changed (modified) on disk by another program.</b><br />"
 msgstr ""
+"<b>Hierdie lêer was deur 'n ander program op die skyf verander.</b><br />"
 
 #: app/katefilelist.cpp:375
 msgid ""
 "<b>This file was changed (created) on disk by another program.</b><br />"
 msgstr ""
+"<b>Hierdie lêer was deur 'n ander program op die skyf geskep.</b><br />"
 
 #: app/katefilelist.cpp:377
 msgid ""
 "<b>This file was changed (deleted) on disk by another program.</b><br />"
 msgstr ""
+"<b>Hierdie lêer was deur 'n ander program op die skyf uitgevee.</b><br />"
 
 #: app/katefilelist.cpp:553
 msgid "Background Shading"
-msgstr ""
+msgstr "Agtergrond skakering"
 
 #: app/katefilelist.cpp:559
 msgid "&Enable background shading"
-msgstr ""
+msgstr "Aktiveer agtergrond skakering"
 
 #: app/katefilelist.cpp:563
-#, fuzzy
 msgid "&Viewed documents' shade:"
-msgstr "Dokument"
+msgstr "Vertoonde dokument se skadu:"
 
 #: app/katefilelist.cpp:568
-#, fuzzy
 msgid "&Modified documents' shade:"
-msgstr "Dokument"
+msgstr "Verander die dokument se skadu:"
 
 #: app/katefilelist.cpp:575
 msgid "&Sort by:"
-msgstr ""
+msgstr "Sorteer volgens:"
 
 #: app/katefilelist.cpp:585
 msgid ""
@@ -1181,49 +1194,54 @@ msgid ""
 "within the current session will have a shaded background. The most recent "
 "documents have the strongest shade."
 msgstr ""
+"As agtergrond skadus geaktiveer is, sal dokumente waarna gekyk is of geredigeer is "
+"tydens die huidige sessie se agtergrond 'n skaduwee hê. Die onlangste dokument se "
+"skaduwee sal die donkerste wees."
 
 #: app/katefilelist.cpp:589
 msgid "Set the color for shading viewed documents."
-msgstr ""
+msgstr "Stel die kleur van die skadu vir dokumente waarna gekyk is."
 
 #: app/katefilelist.cpp:591
 msgid ""
 "Set the color for modified documents. This color is blended into the color for "
 "viewed files. The most recently edited documents get most of this color."
 msgstr ""
+"Stel die kleur van die skadu vir dokumente wat verander is. Hierdie kleur sal vermeng "
+"word met die van lêers waarna gekyk is. Die lêer wat die onlangste geredigeer is sal die "
+"meeste van hierdie kleur kry."
 
 #: app/katefilelist.cpp:596
 msgid "Set the sorting method for the documents."
-msgstr ""
+msgstr "Stel dir sortering metode vir die dokumente."
 
 #: app/kwritemain.cpp:82
-#, fuzzy
 msgid ""
 "A KDE text-editor component could not be found;\n"
 "please check your KDE installation."
 msgstr ""
-"'n Kde teks redigeerder komponent kon nie wees gevind!\n"
-"Asseblief bevestig jou Kde installasie."
+"'n KDE teks redigeerder komponent kon nie gevind word nie;\n"
+"gaan asb. jou KDE installasie na."
 
 #: app/kwritemain.cpp:142
 msgid "Use this to close the current document"
-msgstr "Gebruik hierdie na maak toe die huidige dokument"
+msgstr "Gebruik hierdie om die huidige dokument toe te maak"
 
 #: app/kwritemain.cpp:145
 msgid "Use this command to print the current document"
-msgstr "Gebruik hierdie opdrag na druk die huidige dokument"
+msgstr "Gebruik hierdie om die huidige dokument te druk"
 
 #: app/kwritemain.cpp:146
 msgid "Use this command to create a new document"
-msgstr "Gebruik hierdie opdrag na skep 'n nuwe dokument"
+msgstr "Gebruik hierdie opdrag om 'n nuwe dokument te skep"
 
 #: app/kwritemain.cpp:147
 msgid "Use this command to open an existing document for editing"
-msgstr "Gebruik hierdie opdrag na open 'n bestaande dokument vir redigering"
+msgstr "Gebruik hierdie opdrag op 'n bestaande dokument oop te maak vir redigering"
 
 #: app/kwritemain.cpp:155
 msgid "Create another view containing the current document"
-msgstr "Skep nog 'n besigtig bevat die huidige dokument"
+msgstr "Skep nog 'n aansig wat die huidige dokument bevat"
 
 #: app/kwritemain.cpp:157
 msgid "Choose Editor..."
@@ -1243,11 +1261,11 @@ msgstr "Gebruik hierdie opdrag na vertoon of steek weg die view's statusbalk"
 
 #: app/kwritemain.cpp:169
 msgid "Sho&w Path"
-msgstr "Vertoon Gids soeklys"
+msgstr "Vertoon Gids soekpad"
 
 #: app/kwritemain.cpp:171
 msgid "Hide Path"
-msgstr ""
+msgstr "Steek gids soekpad weg"
 
 #: app/kwritemain.cpp:172
 msgid "Show the complete document path in the window caption"
@@ -1262,20 +1280,23 @@ msgid ""
 "The given file could not be read, check if it exists or if it is readable for "
 "the current user."
 msgstr ""
+"Kon nie die lêer oopmaak nie. Kyk of dit bestaan en deur die huidige "
+"gebruiker leesbaar is."
 
 #: app/kwritemain.cpp:553
 msgid "KWrite"
-msgstr "Kskryf"
+msgstr "KWrite"
 
 #: app/kwritemain.cpp:555
-#, fuzzy
 msgid "KWrite - Text Editor"
-msgstr "Kate - Kde Gevorderde Teks Redigeerder"
+msgstr "KWrite - Teks redigeerder"
 
 #: app/kateapp.cpp:201 app/kateapp.cpp:313 app/kwritemain.cpp:686
 msgid ""
 "The file '%1' could not be opened: it is not a normal file, it is a folder."
 msgstr ""
+"Die lêer '%1' kon nie oopgemaak word nie: dit is nie 'n normale lêer nie, "
+"maar 'n gids."
 
 #: app/kwritemain.cpp:700
 msgid "Choose Editor Component"
@@ -1283,23 +1304,21 @@ msgstr "Kies Redigeerder Komponent"
 
 #: app/kateviewmanager.cpp:97
 msgid "New Tab"
-msgstr ""
+msgstr "Nuwe oortjie"
 
 #: app/kateviewmanager.cpp:100
-#, fuzzy
 msgid "Close Current Tab"
-msgstr "Maak toe Huidige"
+msgstr "Maak huidige oortjie toe"
 
 #: app/kateviewmanager.cpp:104
 msgid "Activate Next Tab"
-msgstr ""
+msgstr "Aktiveer volgende oortjie"
 
 #: app/kateviewmanager.cpp:109
 msgid "Activate Previous Tab"
-msgstr ""
+msgstr "Aktiveer vorige oortjie"
 
 #: app/kateviewmanager.cpp:116
-#, fuzzy
 msgid "Split Ve&rtical"
 msgstr "Skei Vertikaal"
 
@@ -1316,9 +1335,8 @@ msgid "Split the currently active view horizontally into two views."
 msgstr "Skei die huidiglik aktief besigtig horisontaal binnein twee aansigte."
 
 #: app/kateviewmanager.cpp:126
-#, fuzzy
 msgid "Cl&ose Current View"
-msgstr "Maak toe Huidige"
+msgstr "Maak huidige aansig toe"
 
 #: app/kateviewmanager.cpp:130
 msgid "Close the currently active splitted view"
@@ -1341,27 +1359,24 @@ msgid "Make the previous split view the active one."
 msgstr "Maak die vorige skei besigtig die aktief een."
 
 #: app/kateviewmanager.cpp:149
-#, fuzzy
 msgid "Open a new tab"
-msgstr "Open 'n nuwe Kate venster"
+msgstr "Maak 'n nuwe oortjie oop"
 
 #: app/kateviewmanager.cpp:157
-#, fuzzy
 msgid "Close the current tab"
-msgstr "Maak toe die huidige dokument."
+msgstr "Maak die huidige oortjie toe"
 
 #: app/katemdi.cpp:140
-#, fuzzy
 msgid "Tool &Views"
-msgstr "Program Aansigte"
+msgstr "Nutsprogram Aansigte"
 
 #: app/katemdi.cpp:141
 msgid "Show Side&bars"
-msgstr ""
+msgstr "Vertoon kantbalke"
 
 #: app/katemdi.cpp:143
 msgid "Hide Side&bars"
-msgstr ""
+msgstr "Steek kantbalke weg"
 
 #: app/katemdi.cpp:176
 #, c-format
@@ -1371,40 +1386,39 @@ msgstr "Vertoon %1"
 #: app/katemdi.cpp:179
 #, c-format
 msgid "Hide %1"
-msgstr ""
+msgstr "Steel %1 weg"
 
 #: app/katemdi.cpp:464
 msgid "Behavior"
-msgstr ""
+msgstr "Gedrag"
 
 #: app/katemdi.cpp:466
 msgid "Make Non-Persistent"
-msgstr ""
+msgstr "Maak nie-aanhoudend"
 
 #: app/katemdi.cpp:466
 msgid "Make Persistent"
-msgstr ""
+msgstr "Maak aanhoudend"
 
 #: app/katemdi.cpp:468
-#, fuzzy
 msgid "Move To"
-msgstr "Kies Redigeerder..."
+msgstr "Beweeg na"
 
 #: app/katemdi.cpp:471
 msgid "Left Sidebar"
-msgstr ""
+msgstr "Linker kantbalk"
 
 #: app/katemdi.cpp:474
 msgid "Right Sidebar"
-msgstr ""
+msgstr "Regter kantbalk"
 
 #: app/katemdi.cpp:477
 msgid "Top Sidebar"
-msgstr ""
+msgstr "Boonste kantbalk"
 
 #: app/katemdi.cpp:480
 msgid "Bottom Sidebar"
-msgstr ""
+msgstr "Onderste kantbalk"
 
 #: app/katemdi.cpp:778
 msgid ""
@@ -1414,11 +1428,15 @@ msgid ""
 "Sidebars</b> in the menu. It is still possible to show/hide the tool views with "
 "the assigned shortcuts.</qt>"
 msgstr ""
+"<qt>Jy is op die punt om die kantbalke weg te steek. Dit sal voortaan nie moontlik "
+"wees om direk met die muis toegang te kry tot die nuts aansigte nie. Om die "
+"kantbalk terug te bring, moet jy <b>Venster ^gt; Nuts aansigte &gt; Vertoon "
+"kantbalke</b> in die kieslys kies. Dit sal steeds moontlik wees om die nuts aansigte "
+"met die kortpad sleutels te wys of weg te steek."
 
 #: app/kateconfigplugindialogpage.cpp:82
-#, fuzzy
 msgid "Comment"
-msgstr "Dokument"
+msgstr "Kommentaar"
 
 #: app/kateconfigplugindialogpage.cpp:83
 msgid ""
@@ -1430,60 +1448,56 @@ msgstr ""
 
 #: app/katesavemodifieddialog.cpp:78
 msgid "Save As (%1)"
-msgstr ""
+msgstr "Stoor as (%1)"
 
 #: app/katesavemodifieddialog.cpp:129
-#, fuzzy
 msgid "Save Documents"
-msgstr "Dokument"
+msgstr "Stoor Dokumente"
 
 #: app/katesavemodifieddialog.cpp:132
-#, fuzzy
 msgid "&Save Selected"
-msgstr "Gekose:"
+msgstr "Stoor gekiesde"
 
 #: app/katesavemodifieddialog.cpp:138
 msgid "&Abort Closing"
-msgstr ""
+msgstr "Staak toemaak"
 
 #: app/katesavemodifieddialog.cpp:142
 msgid ""
 "<qt>The following documents have been modified. Do you want to save them before "
 "closing?</qt>"
 msgstr ""
+"<qt>Die volgende dokumente was verander. Wil jy hulle stoor voordat die program "
+"toemaak?</qt>"
 
 #: app/katesavemodifieddialog.cpp:144
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: app/katesavemodifieddialog.cpp:145
-#, fuzzy
 msgid "Location"
-msgstr "Aansoek"
+msgstr "Ligging"
 
 #: app/katesavemodifieddialog.cpp:149
-#, fuzzy
 msgid "Projects"
-msgstr "Die Projek Saamsteller"
+msgstr "Projekte"
 
 #: app/katesavemodifieddialog.cpp:164
-#, fuzzy
 msgid "Se&lect All"
-msgstr "Lêer Kiesser"
+msgstr "Kies alle"
 
 #: app/katesavemodifieddialog.cpp:211
 msgid ""
 "Data you requested to be saved could not be written. Please choose how you want "
 "to proceed."
 msgstr ""
+"Data wat jy wou stoor kon nie geskryf word nie. Dui asb. Aan hoe jy wil voortgaan."
 
 #: app/katefileselector.cpp:168
-#, fuzzy
 msgid "Current Document Folder"
 msgstr "Huidige Dokument Gids"
 
 #: app/katefileselector.cpp:196
-#, fuzzy
 msgid ""
 "<p>Here you can enter a path for a folder to display."
 "<p>To go to a folder previously entered, press the arrow on the right and "
@@ -1491,11 +1505,9 @@ msgid ""
 "<p>The entry has folder completion. Right-click to choose how completion should "
 "behave."
 msgstr ""
-"<p>Hier jy kan invoer 'n gids soeklys vir 'n gids na vertoon."
-"<p>na gaan na 'n gids vorige ingevoerde, druk die pyl op die regterkant einde "
-"en kies een."
-"<p>die inskrywing het gids voltooiïng. regterkant-click na kies hoe voltooiïng "
-"moet gedra."
+"<p>Jy kan hier 'n gids intik om te vertoon."
+"<p>Druk die pyltjie aan die regterkant om 'n gids te kies wat voorheen vertoon was."
+"<p>Die inskrywing het outo voltooiing, Druk die regter knoppie om te kies hoe dit reageer."
 
 #: app/katefileselector.cpp:201
 msgid ""
@@ -1503,22 +1515,25 @@ msgid ""
 "<p>To clear the filter, toggle off the filter button to the left."
 "<p>To reapply the last filter used, toggle on the filter button."
 msgstr ""
+"<p>Jy kan 'n naam filter hier intik wat die aantal lêer wat vertoon word beperk."
+"<p>Om die filter skoon te maak, skakel die filter knoppie aan die linker kant af."
+"<p>Om die vorige filter wat gebruik was weer toe te pas, skakel die knoppie aan."
 
 #: app/katefileselector.cpp:205
 msgid ""
 "<p>This button clears the name filter when toggled off, or reapplies the last "
 "filter used when toggled on."
 msgstr ""
+"<p>Hierdie knoppie verwyder die naam filter wanneer dit af is, en wend die "
+"laaste gebruikte filter weer aan wanneer dit aangeskakel word."
 
 #: app/katefileselector.cpp:319
-#, fuzzy
 msgid "Apply last filter (\"%1\")"
-msgstr "Wend aan Laaste Filter (\"%1\")"
+msgstr "Wend die laaste filter aan (\"%1\")"
 
 #: app/katefileselector.cpp:324
-#, fuzzy
 msgid "Clear filter"
-msgstr "Maak skoon Filter"
+msgstr "Maak Filter Skoon"
 
 #: app/katefileselector.cpp:529
 msgid "Toolbar"
@@ -1530,7 +1545,7 @@ msgstr "Beskikbaar aksies:"
 
 #: app/katefileselector.cpp:532
 msgid "S&elected actions:"
-msgstr "Gekose aksies:"
+msgstr "Gekiesde aksies:"
 
 #: app/katefileselector.cpp:540
 msgid "Auto Synchronization"
@@ -1538,11 +1553,11 @@ msgstr "Outo Sinkronisasie"
 
 #: app/katefileselector.cpp:541
 msgid "When a docu&ment becomes active"
-msgstr "Wanneer 'n dokument word aktief"
+msgstr "Wanneer 'n dokument aktief word"
 
 #: app/katefileselector.cpp:542
 msgid "When the file selector becomes visible"
-msgstr "Wanneer die lêer kiesser word sigbare"
+msgstr "Wanneer die lêer kiesser sigbare word"
 
 #: app/katefileselector.cpp:549
 msgid "Remember &locations:"
@@ -1562,10 +1577,9 @@ msgstr "Herstel ligging"
 
 #: app/katefileselector.cpp:565
 msgid "Restore last f&ilter"
-msgstr "Herstel laaste filter"
+msgstr "Herstel vorige filter"
 
 #: app/katefileselector.cpp:585
-#, fuzzy
 msgid ""
 "<p>Decides how many locations to keep in the history of the location combo box."
 msgstr ""
@@ -1573,15 +1587,12 @@ msgstr ""
 "gekombineerde boks"
 
 #: app/katefileselector.cpp:590
-#, fuzzy
 msgid ""
 "<p>Decides how many filters to keep in the history of the filter combo box."
 msgstr ""
-"<p>Besluit hoe veel filters na hou in die geskiedenis van die filter "
-"gekombineerde boks"
+"<p>Besluit hoeveel filters in die geskiedenis van die filter boks gehou moet word."
 
 #: app/katefileselector.cpp:595
-#, fuzzy
 msgid ""
 "<p>These options allow you to have the File Selector automatically change "
 "location to the folder of the active document on certain events."
@@ -1611,7 +1622,6 @@ msgstr ""
 "bestuurder, die ligging is altyd gerestoreer."
 
 #: app/katefileselector.cpp:608
-#, fuzzy
 msgid ""
 "<p>If this option is enabled (default), the current filter will be restored "
 "when you start Kate."
@@ -1620,10 +1630,11 @@ msgid ""
 "<p><strong>Note</strong> that some of the autosync settings may override the "
 "restored location if on."
 msgstr ""
-"<p>As hierdie opsie is geaktiveer (verstek), die ligging sal wees gerestoreer "
-"wanneer jy begin Kate."
-"<p><strong>Nota</strong> wat As die sessie is handteer deur die Kde sessie "
-"bestuurder, die ligging is altyd gerestoreer."
+"<p>As die opsie geaktiveer is, sal die huidige filter herstel word wanner Kate weer "
+"oopgemaak word."
+"<p>As die sessie deur die KDE sessie bestuurder beheer word, sal die filter altyd "
+"herstel word."
+"<p>Die outosync instellings mag die herstel ligging oorskryf"
 
 #. i18n: file ./data/kateui.rc line 43
 #: rc.cpp:9
@@ -1633,15 +1644,15 @@ msgstr "Dokument"
 
 #. i18n: file ./data/kateui.rc line 62
 #: rc.cpp:18
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Sess&ions"
-msgstr "Sessie"
+msgstr "Sessies"
 
 #. i18n: file ./data/kateui.rc line 85
 #: rc.cpp:24
 #, no-c-format
 msgid "&Window"
-msgstr ""
+msgstr "Venster"
 
 #: tips.cpp:3
 msgid ""
@@ -1651,6 +1662,11 @@ msgid ""
 "dialog,\n"
 "choose <strong>Settings -&gt;configure</strong> to launch that.</p>\n"
 msgstr ""
+"<p>Kate kom standaard met 'n stel inprop modules wat eenvoudige\n"
+"en gevorderde eienskappe verskaf.</p>\n"
+"<p>Jy kan inprop modules in die opstel dialoog aktiveer of deaktiveer om "
+"jou behoeftes te pas. \nKies <strong>Instellings -&gt;Opstel</strong> om dit "
+"te lanseer.\n"
 
 #: tips.cpp:11
 msgid ""
@@ -1704,6 +1720,9 @@ msgid ""
 "\"Terminal\"</strong> at\n"
 "the bottom to show or hide it as you desire.</p>\n"
 msgstr ""
+"<p>Kate het 'n ingeboude terminaal emuleerder. Kliek op <strong>"
+"\"Terminaal\"</strong> aan die onderkant van die program\n"
+"om dit te vertoon of weg te steek.</p>\n"
 
 #: tips.cpp:45
 msgid ""
@@ -1716,9 +1735,16 @@ msgid ""
 "<p>You can set the color in the <em>Colors</em> page of the configuration\n"
 "dialog.</p>\n"
 msgstr ""
+"<p>Kate kan die huidige lyn met 'n ander\n"
+"<table bgcolor=\"yellow\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" "
+"width=\"100%\">"
+"<tr>"
+"<td>agtergrond kleur\n"
+"<strong>|</strong></td></tr></table> verlig.</p>\n"
+"<p>Jy kan die kleure in die <em>Kleure</em> bladsy van die opstel dialoog stel.\n\n"
+"</p>\n"
 
 #: tips.cpp:54
-#, fuzzy
 msgid ""
 "<p>You can open the currently edited file in any other application from within\n"
 "Kate.</p>\n"
@@ -1727,13 +1753,10 @@ msgid ""
 "for the document type. There is also an option <strong>Other...</strong> to\n"
 "choose any application on your system.</p>\n"
 msgstr ""
-"<p>Jy kan Open die huidiglik geredigeerde lêer in enige ander aansoek van binne "
-"in \n"
-"Kate.</p>\n"
-"<p>Kies <strong>lêer -&gt; Open Met</strong> vir die lys van programme \n"
-"gekonfigureer\n"
-"vir die dokument tipe. Daar is asook 'n opsie <strong>ander...</strong> na \n"
-"Kies enige aansoek op jou stelsel.</p>\n"
+"<p>Jy kan die huidige geredigeerde lêer in enige ander program vanuit Kate oopmaak.</p>\n"
+"<p>Kies <strong>Lêer -&gt; Maak oop met</strong> om na die lys van programme\n"
+"wat vir die huidige dokument opgestel is. Daar is ook 'n <strong>Ander...</strong> opsie "
+"om enige program op jou stelsel te kies.</p>\n"
 
 #: tips.cpp:64
 msgid ""
@@ -1742,22 +1765,23 @@ msgid ""
 "page of the\n"
 "configuration dialog.</p>\n"
 msgstr ""
+"<p>Jy kan die redigeerder opstel om altyd die lyn nommers te vertoon\n"
+"\n"
+"\n"
 
 #: tips.cpp:71
-#, fuzzy
 msgid ""
 "<p>You can download new or updated <em>Syntax highlight definitions</em> from\n"
 "the <strong>Highlighting</strong> page in the configuration dialog.</p>\n"
 "<p>Just click the <em>Download...</em> button on the <em>Highlight Modes</em>\n"
 "tab (You have to be online, of course...).</p>\n"
 msgstr ""
-"<p>Jy kan aflaai nuwe van opgedateer <em>Sintaks verlig definisies</em> van \n"
-"die <strong>Verligting</strong> bladsy in die opstelling dialoog.</p>\n"
-"<p>Net kliek die <em>aflaai...</em> knoppie op die <em>verlig Modusse</em>\n"
-"oortjie (Jy het na wees aan-lyn, van natuurlik...).</p>\n"
+"<p>Jy kan nuwe en opgedateerde <em>Sintaks verligting definisies</em> aflaai vanuit "
+"die <strong>Verlingting</strong> bladsy in die opstel dialoog.</p>\n"
+"<p>Kies die <em>Aflaai...</em> knoppie op die <em>Verlig modus</em>\n"
+"oortjie (Jy sal aanlyn moet wees...).</p>\n"
 
 #: tips.cpp:79
-#, fuzzy
 msgid ""
 "<p>You can cycle through all open documents by pressing <strong>"
 "Alt+Left</strong>\n"
@@ -1765,11 +1789,9 @@ msgid ""
 "displayed\n"
 "in the active frame.</p>\n"
 msgstr ""
-"<p>Jy kan wissel deur alle open dokumente deur gedruk <strong>Alt+Links</strong> "
-"\n"
-"of <strong>Alt+Regterkant</strong>. Die volgende/vorige dokument sal dadelik "
-"wees vertoon \n"
-"in Die aktief raam.</p>\n"
+"<p>Jy kan deur al die oop dokumente blaai deur <strong>ALT+Links</strong>\n"
+"of <strong>Alt+Regs</strong> te druk. Die vorige/volgende dokument sal onmiddelik "
+"in die aktiewe raam vertoon word.</p>\n"
 
 #: tips.cpp:86
 msgid ""
@@ -1780,18 +1802,22 @@ msgid ""
 "to replace &quot;oldtext&quot; with &quot;newtext&quot; throughout the current\n"
 "line.</p>\n"
 msgstr ""
+"<p>Jy kan sed-tipe natuurlike uitdrukking vervanging doen deur die <em>"
+"Opdrag lyn</em> te gebruik.</p>\n"
+"<p>Bv. druk <strong>F7</strong> en voer <code>"
+"s /oldtext/newtext/g</code>\n"
+"in om &quote;ou teks&qout; met &quot;nuwe teks&quot; dwarsdeur die huidige "
+"lyn te vervang.</p>\n\n"
 
 #: tips.cpp:94
-#, fuzzy
 msgid ""
 "<p>You can repeat your last search by just pressing <strong>F3</strong>, or\n"
 "<strong>Shift+F3</strong> if you want to search backwards.</p>\n"
 msgstr ""
-"<p>Jy kan herhaal jou laaste soektog deur net gedruk <strong>F3</strong>, of \n"
-"<strong>Verskuiwende+F3</strong> as Jy wil hê na soektog terugwaarts.</p>\n"
+"<p>Jy kan jou laaste soektog herhaal deur <strong>F3</strong> te druk, of\n"
+"<strong>Shift+F3</strong> om agteruit te soek.</p>\n"
 
 #: tips.cpp:100
-#, fuzzy
 msgid ""
 "<p>You can filter the files displayed in the <em>File Selector</em> tool view.\n"
 "</p>\n"
@@ -1800,18 +1826,13 @@ msgid ""
 "current folder.</p>\n"
 "<p>The File Selector will even remember your filters for you.</strong></p>\n"
 msgstr ""
-"<p>Jy kan filter die lêers vertoon in die <em>Lêer Kiesser</em> "
-"program besigtig. \n"
+"<p>Jy kan in die <em>Lêer Kieser</em> nutsaansig kies watter lêers vertoon moet word.\n"
 "</p>\n"
-"<p>Eenvoudig invoer jou filter in die filter inskrywing na die bodem, vir "
-"voorbeeld: \n"
-"<code>*.Html *.  php  </code> as Jy slegs wil hê na sien Html en   php   lêers "
-"in die \n"
-"huidige gids.</p>\n"
-"<p>die Lêer Kiesser sal al onthou jou filters vir Jy.</strong></p>\n"
+"<p>Voer jou filter in die spasie aan die onderkant in, bv.:\n"
+"<code>*.html *.  php</code> as jy net HTML en PHP lêers in die huidige gids wil sien.</p>\n"
+"<p>Die 'Lêer Kieser' sal jou filters namens jou onthou.</strong></p>\n"
 
 #: tips.cpp:110
-#, fuzzy
 msgid ""
 "<p>You can have two views - or even more - of the same document in Kate. "
 "Editing\n"
@@ -1820,268 +1841,15 @@ msgid ""
 "end of a document, just press <strong>Ctrl+Shift+T</strong> to split\n"
 "horizontally.</p>\n"
 msgstr ""
-"<p>Jy kan het twee aansigte - van al meer - van die selfde dokument in Kate. "
-"Redigering \n"
-"in òf sal wees reflekteer in beide.</p>\n"
-"<p>Sodat as Jy soek jouself rolling begin en ondertoe na kyk na teks na die "
-"ander \n"
-"einde van 'n dokument, net druk <strong>Ctrl+Verskuiwende+T</strong> na skei \n"
-"horisontaal.</p>\n"
+"<p>Jy kan twee, of selfs meer, aansigte van dieselfde dokument in Kate hê. "
+"\nRedigering wat in die een plaasvind sal ook in die ander een weerspieël word.</p>\n"
+"<p>Druk <strong>Ctrl+Shift+T</strong> om die aansig horisontaal te skei.</p>\n"
 
 #: tips.cpp:119
-#, fuzzy
 msgid ""
 "<p>Press <strong>F8</strong> or <strong>Shift+F8</strong> to switch to the\n"
 "next/previous frame.</p>\n"
 msgstr ""
-"<p>Druk <strong>F8</strong> of <strong>Verskuiwende+F8</strong> "
-"na wissel na die \n"
-"volgende/vorige raam.</p>\n"
+"<p>Druk <strong>F8</strong> of <strong>Shift+F8</strong> om \n"
+"na die volgende/vorige raam te wissel.</p>\n"
 
-#, fuzzy
-#~ msgid "&KDE Scripts"
-#~ msgstr "Kde Skripte"
-
-#~ msgid "This shows all available scripts and allows them to be executed."
-#~ msgstr "Hierdie vertoon alle beskikbaar skripte en laat toe hulle na wees uitgevoerde."
-
-#, fuzzy
-#~ msgid "&New"
-#~ msgstr "Maak toe Huidige"
-
-#~ msgid "Allow Kate to use more than one UN&IX process"
-#~ msgstr "Toelaat Kate na gebruik meer as een Unix proses"
-
-#~ msgid "If this is unchecked, Kate will only use one UNIX process. If you try running it again, the current process will get the focus, and open any files you requested to be opened. If it is checked, each time you start Kate, a new UNIX process will be started."
-#~ msgstr "As hierdie is onbevestig, Kate sal slegs gebruik een Unix proses. As jy probeer wat loop dit weer, die huidige proses sal kry die fokus, en open enige lêers jy versoekte na wees geöpende. As dit is nagegaan, elke tyd jy begin Kate, 'n nuwe Unix proses sal wees beginne."
-
-#~ msgid "Start a new Kate process (off by default)"
-#~ msgstr "Begin 'n nuwe Kate proses (af deur verstek)"
-
-#~ msgid "Open a new Kate window"
-#~ msgstr "Open 'n nuwe Kate venster"
-
-#~ msgid "Allow Kate to be initialized by a plugin. You most probably have to specify a file too."
-#~ msgstr "Toelaat Kate na wees geinitialiseer word deur 'n inplak. Jy mees waarskynlik het na spesifiseer 'n lêer te."
-
-#, fuzzy
-#~ msgid "&New Project..."
-#~ msgstr "Maak toe Huidige"
-
-#, fuzzy
-#~ msgid "&Open Project..."
-#~ msgstr "Maak toe Huidige"
-
-#, fuzzy
-#~ msgid "&Save Project"
-#~ msgstr "Maak toe Huidige"
-
-#, fuzzy
-#~ msgid "&Close Project"
-#~ msgstr "Maak toe Huidige"
-
-#, fuzzy
-#~ msgid "Kate Project Files"
-#~ msgstr "Die Projek Saamsteller"
-
-#, fuzzy
-#~ msgid "Open Kate Project"
-#~ msgstr "Maak toe Huidige"
-
-#, fuzzy
-#~ msgid "Start&up"
-#~ msgstr "Opstart"
-
-#, fuzzy
-#~ msgid "Reopen &projects at startup"
-#~ msgstr "Heropen lêers na opstart"
-
-#, fuzzy
-#~ msgid "R&eopen files at startup"
-#~ msgstr "Heropen lêers na opstart"
-
-#~ msgid "If this is enabled Kate will attempt to reopen files that were open when you closed last time. Cursor position will be recovered if possible. Non-existent files will not be opened."
-#~ msgstr "As hierdie is geaktiveer Kate sal poog na heropen lêers wat was open wanneer jy gesluit laaste tyd. Plekaanduier posisie sal wees herwin As moontlik. Non-existent lêers sal nie wees geöpende."
-
-#, fuzzy
-#~ msgid "New Project"
-#~ msgstr "Maak toe Huidige"
-
-#, fuzzy
-#~ msgid "Project type:"
-#~ msgstr "Die Projek Saamsteller"
-
-#, fuzzy
-#~ msgid "Project name:"
-#~ msgstr "Die Projek Saamsteller"
-
-#, fuzzy
-#~ msgid "Project file:"
-#~ msgstr "Die Projek Saamsteller"
-
-#, fuzzy
-#~ msgid "Project: "
-#~ msgstr "Die Projek Saamsteller"
-
-#, fuzzy
-#~ msgid "Project Folder"
-#~ msgstr "Die Projek Saamsteller"
-
-#, fuzzy
-#~ msgid "Remove Folder"
-#~ msgstr "Open Lêer"
-
-#, fuzzy
-#~ msgid "Remove File"
-#~ msgstr "Open Lêer"
-
-#, fuzzy
-#~ msgid "&Project"
-#~ msgstr "Die Projek Saamsteller"
-
-#, fuzzy
-#~ msgid "Directory:"
-#~ msgstr "Gids:"
-
-#~ msgid "&Number of recent files:"
-#~ msgstr "Nommer van onlangse lêers:"
-
-#~ msgid "<qt>Sets the number of recent files remembered by Kate.<p><strong>NOTE: </strong>If you set this lower than the current value, the list will be truncated and some items forgotten.</qt>"
-#~ msgstr "<qt>Verstel die nommer van onlangse lêers onthou deur Kate.<p><strong>Nota: </strong>As jy stel hierdie sagter as die huidige waarde, die lys sal wees afgekap en sommige iteme vergeet.</qt>"
-
-#~ msgid "Contents &Plugins"
-#~ msgstr "Inhoud Inprop modules"
-
-#, fuzzy
-#~ msgid "If this is checked, the files in the file list will be sorted alphabetically."
-#~ msgstr "As hierdie opsie is nagegaan, die volgrote dokument gids soeklys sal wees vertoon in die venster kas-tipe."
-
-#~ msgid "Files to load"
-#~ msgstr "Lêers na las"
-
-#, fuzzy
-#~ msgid "Closing documents ..."
-#~ msgstr "Maak toe alle open dokumente."
-
-#, fuzzy
-#~ msgid "Comma&nd:"
-#~ msgstr "Dokument"
-
-#~ msgid " Line: 1 Col: 0 "
-#~ msgstr " Lyn: 1 Kolom: 0 "
-
-#, fuzzy
-#~ msgid "Search"
-#~ msgstr "Soektog"
-
-#~ msgid "Betatest"
-#~ msgstr "Beta toets"
-
-#~ msgid "&Available:"
-#~ msgstr "Beskikbaar:"
-
-#~ msgid "Untitled %1"
-#~ msgstr "Ongetiteld %1"
-
-#~ msgid "When a document is o&pened"
-#~ msgstr "Wanneer 'n dokument is geöpende"
-
-#~ msgid "Bookmarks"
-#~ msgstr "Boekmerke"
-
-#, fuzzy
-#~ msgid "Project Directory"
-#~ msgstr "Die Projek Saamsteller"
-
-#, fuzzy
-#~ msgid "Remove Directory"
-#~ msgstr "Gids:"
-
-#~ msgid "&Show content when resizing views"
-#~ msgstr "Vertoon inhoud wanneer hervergrooting aansigte"
-
-#, fuzzy
-#~ msgid "If this is disabled, resizing views will display a <i>rubberband</i> to show the new sizes until you release the mouse button."
-#~ msgstr "As hierdie is gestremde, hervergrooting aansigte sal vertoon 'n <i>rubberband</i> na vertoon die nuwe grotes totdat jy vrylaat die muis knoppie."
-
-#~ msgid "Description"
-#~ msgstr "Beskrywing"
-
-#~ msgid "Author"
-#~ msgstr "Outeur"
-
-#~ msgid "License"
-#~ msgstr "Lisensie"
-
-#~ msgid "New &View"
-#~ msgstr "Nuwe Besigtig"
-
-#~ msgid "Configure Kate"
-#~ msgstr "Konfigureer Kate"
-
-#~ msgid "Tool Docks"
-#~ msgstr "Program Meer vas"
-
-#~ msgid "This allows you to show/hide certain tool view dock areas."
-#~ msgstr "Hierdie laat toe jy na vertoon/steek weg sekere program besigtig vasmeer areas."
-
-#~ msgid "Shows all available tool views and allows showing and hiding of them."
-#~ msgstr "Vertoon alle beskikbaar program aansigte en laat toe te wys en versteek van hulle."
-
-#, fuzzy
-#~ msgid "Project View"
-#~ msgstr "Die Projek Saamsteller"
-
-#, fuzzy
-#~ msgid "Project Root"
-#~ msgstr "Die Projek Saamsteller"
-
-#~ msgid "Modern Style"
-#~ msgstr "Moderne Styl"
-
-#~ msgid "Classic Style"
-#~ msgstr "Klasieke Styl"
-
-#, fuzzy
-#~ msgid "Find in files"
-#~ msgstr "Soek in Lêers"
-
-#~ msgid "Show &Full-Screen"
-#~ msgstr "Vertoon Vol-skerm"
-
-#~ msgid "Find in Files..."
-#~ msgstr "Soek in Lêers..."
-
-#~ msgid "Look up text in a selection of files in a given directory (and below)."
-#~ msgstr "Kyk begin teks in 'n keuse van lêers in 'n gegewe gids (en onder)."
-
-#~ msgid "Ready"
-#~ msgstr "Gereed"
-
-#~ msgid "9999 matches"
-#~ msgstr "9999 ooreenstemmende inskrywings"
-
-#~ msgid " matches"
-#~ msgstr " ooreenstemmende inskrywings"
-
-#~ msgid "Searching..."
-#~ msgstr "Soek..."
-
-#~ msgid "Canceled"
-#~ msgstr "Gekanseleer"
-
-#~ msgid "No matches found"
-#~ msgstr "Nee ooreenstemmende inskrywings gevind"
-
-#~ msgid "Syntax error in pattern"
-#~ msgstr "Sintaks fout in patroon"
-
-#~ msgid "Project Manager and Core Developer"
-#~ msgstr "Projek Bestuurder en Kern Ontwikkelaar"
-
-#, fuzzy
-#~ msgid "File List"
-#~ msgstr "Lêers:"
-
-#~ msgid "Testing"
-#~ msgstr "Toetsing"
