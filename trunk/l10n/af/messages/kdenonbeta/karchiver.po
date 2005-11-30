@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karchiver VERSION\n"
-"POT-Creation-Date: 2005-11-27 03:17+0100\n"
+"POT-Creation-Date: 2005-11-30 18:12+0100\n"
 "PO-Revision-Date: 2002-11-07 11:36+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -31,13 +31,13 @@ msgstr "Gekompakteerde"
 msgid "Ratio"
 msgstr "Verhouding"
 
-#: carj.cpp:30 clha.cpp:30 ctar.cpp:30 czip.cpp:38 karchiveurpart.cpp:284
+#: carj.cpp:30 clha.cpp:30 ctar.cpp:30 czip.cpp:38 karchiveurpart.cpp:312
 #: karchiveurview.cpp:34
 msgid "Owner"
 msgstr "Eienaar"
 
 #: carj.cpp:31 clha.cpp:31 crar.cpp:36 ctar.cpp:31 czip.cpp:39
-#: karchiveurpart.cpp:285 karchiveurview.cpp:35
+#: karchiveurpart.cpp:313 karchiveurview.cpp:35
 msgid "Permissions"
 msgstr "Regte"
 
@@ -58,23 +58,23 @@ msgid ""
 "An unknown error occurred during extraction:\n"
 msgstr ""
 
-#: karchiveurpart.cpp:280 karchiveurview.cpp:30
+#: karchiveurpart.cpp:308 karchiveurview.cpp:30
 msgid "Name"
 msgstr "Naam"
 
-#: karchiveurpart.cpp:281 karchiveurview.cpp:31
+#: karchiveurpart.cpp:309 karchiveurview.cpp:31
 msgid "Size"
 msgstr "Grootte"
 
-#: karchiveurpart.cpp:282 karchiveurview.cpp:32
+#: karchiveurpart.cpp:310 karchiveurview.cpp:32
 msgid "Time"
 msgstr "Tyd"
 
-#: cpreferences.cpp:603 karchiveurpart.cpp:283 karchiveurview.cpp:33
+#: cpreferences.cpp:603 karchiveurpart.cpp:311 karchiveurview.cpp:33
 msgid "Date"
 msgstr "Datum"
 
-#: karchiveurpart.cpp:286 karchiveurview.cpp:36
+#: karchiveurpart.cpp:314 karchiveurview.cpp:36
 msgid "Path"
 msgstr "Gids soeklys"
 
@@ -169,7 +169,7 @@ msgstr "Oopgemaak 'n nuwe aansoek venster..."
 msgid "Creating new document..."
 msgstr "Te skep nuwe dokument..."
 
-#: karchiveur.cpp:406 karchiveur.cpp:1151
+#: karchiveur.cpp:406 karchiveur.cpp:1151 karchiveurpart.cpp:203
 msgid "Opening archive..."
 msgstr "Oopgemaak argief..."
 
@@ -187,7 +187,9 @@ msgstr "Kies die gids waar na stoor argief:"
 msgid "Convert an archive"
 msgstr "Skakel om argief"
 
-#: carchiveoperation.cpp:326 karchiveur.cpp:475 karchiveur.cpp:2617
+#: carchiveoperation.cpp:100 carchiveoperation.cpp:360
+#: carchiveoperation.cpp:408 carchiveoperation.cpp:435
+#: carchiveoperation.cpp:725 karchiveur.cpp:475 karchiveur.cpp:2617
 msgid "First open an archive!"
 msgstr "Eerste open 'n argief!"
 
@@ -215,7 +217,7 @@ msgstr "Wissel die nutsbalk..."
 msgid "Toggle the statusbar..."
 msgstr "Wissel die statusbalk..."
 
-#: karchiveur.cpp:592 karchiveur.cpp:2622
+#: karchiveur.cpp:592 karchiveur.cpp:2622 karchiveurpart.cpp:213
 msgid "Extract files..."
 msgstr "Uitpak lêers..."
 
@@ -223,13 +225,13 @@ msgstr "Uitpak lêers..."
 msgid "Add files..."
 msgstr "Voeg by lêers..."
 
-#: karchiveur.cpp:632
+#: carchiveoperation.cpp:770 karchiveur.cpp:632
 msgid "Create archive"
 msgstr "Skep argief"
 
-#: carchiveoperation.cpp:99 carchiveoperation.cpp:235
-#: carchiveoperation.cpp:245 karchiveur.cpp:640 karchiveur.cpp:1634
-#: karchiveur.cpp:2440
+#: carchiveoperation.cpp:105 carchiveoperation.cpp:265
+#: carchiveoperation.cpp:275 carchiveoperation.cpp:795 karchiveur.cpp:640
+#: karchiveur.cpp:1634 karchiveur.cpp:2440
 msgid "Unknown archive type"
 msgstr "Onbekende argief tipe"
 
@@ -241,12 +243,12 @@ msgstr "Lêers kan wees bygevoeg slegs in .tar, .tar.gz of .tar.bz2"
 msgid "View this file..."
 msgstr "Besigtig hierdie lêer..."
 
-#: karchiveur.cpp:699 karchiveur.cpp:749 karchiveur.cpp:1762
-#: karchiveur.cpp:1921 karchiveur.cpp:2535
+#: carchiveoperation.cpp:414 karchiveur.cpp:699 karchiveur.cpp:749
+#: karchiveur.cpp:1762 karchiveur.cpp:1921 karchiveur.cpp:2535
 msgid "First select a file"
 msgstr "Eerste kies 'n lêer"
 
-#: karchiveur.cpp:736
+#: karchiveur.cpp:736 karchiveurpart.cpp:223
 msgid "View all selected files..."
 msgstr "Besigtig alle gekose lêers..."
 
@@ -908,7 +910,7 @@ msgstr "Soek in hierdie argief:"
 msgid "Next"
 msgstr "Volgende"
 
-#: carchiveoperation.cpp:472 cfinddata.cpp:29
+#: carchiveoperation.cpp:593 cfinddata.cpp:29
 msgid "Done"
 msgstr "Klaar"
 
@@ -1377,11 +1379,11 @@ msgstr ""
 "'n maklike program na bestuur alle jou saamgepersde lêers!\n"
 "Gelos onder Gnu lisensie"
 
-#: karchiveurpart.cpp:105
+#: karchiveurpart.cpp:107
 msgid "&Extract"
 msgstr "Uitpak"
 
-#: karchiveurpart.cpp:175 karchiveurpart.cpp:183
+#: karchiveurpart.cpp:117 karchiveurpart.cpp:125
 #, fuzzy, c-format
 msgid "Failed to create temporary attachment directory %1"
 msgstr "Gevaal na skep tydelike aanhegsel gids '%1"
@@ -1897,62 +1899,95 @@ msgstr ""
 msgid "KArchiver Split Step 2"
 msgstr "Kargiveerder cutt step 2"
 
-#: carchiveoperation.cpp:111
-msgid "Cannot write there"
-msgstr ""
-
-#: carchiveoperation.cpp:204
-msgid ""
-"Archives can only be converted in .tar, .tar.gz, .tar.bz2, .zip, .rar or .lha"
-msgstr ""
-"Argiewe kan slegs wees omgeskakel in .tar, .tar.gz, .tar.bz2, .zip, .rar of "
-".lha"
-
-#: carchiveoperation.cpp:208
-#, fuzzy
-msgid "Conversion achieved"
-msgstr "Skakel om argief"
-
-#: carchiveoperation.cpp:248
+#: carchiveoperation.cpp:110 carchiveoperation.cpp:278
+#: carchiveoperation.cpp:800
 #, fuzzy
 msgid "Compressor not available"
 msgstr "Compressors' een"
 
-#: carchiveoperation.cpp:250
+#: carchiveoperation.cpp:120
+msgid "Cannot write there"
+msgstr ""
+
+#: carchiveoperation.cpp:166
+msgid "Gzip and Bzip2 archives can only contain one file!"
+msgstr ""
+
+#: carchiveoperation.cpp:233
+#, fuzzy
+msgid "Conversion achieved"
+msgstr "Skakel om argief"
+
+#: carchiveoperation.cpp:280
 #, fuzzy
 msgid "Cannot read file"
 msgstr "Kan nie aflaai lêer!"
 
-#: carchiveoperation.cpp:308
+#: carchiveoperation.cpp:338
 msgid "Some errors occurred while opening archive:"
 msgstr ""
 
-#: carchiveoperation.cpp:309 carchiveoperation.cpp:359
+#: carchiveoperation.cpp:339 carchiveoperation.cpp:389
+#: carchiveoperation.cpp:460 carchiveoperation.cpp:707
+#: carchiveoperation.cpp:753 carchiveoperation.cpp:855
 #, fuzzy
 msgid "Ready"
 msgstr "Lees:"
 
-#: carchiveoperation.cpp:343
+#: carchiveoperation.cpp:372
 msgid "Canceled"
 msgstr ""
 
-#: carchiveoperation.cpp:492
+#: carchiveoperation.cpp:379 carchiveoperation.cpp:701
+#: carchiveoperation.cpp:702
+msgid "Some errors occurred while extracting this archive:"
+msgstr ""
+
+#: carchiveoperation.cpp:617
 #, fuzzy
 msgid "Please first open an archive"
 msgstr "Eerste open 'n argief!"
 
-#: carchiveoperation.cpp:516
+#: carchiveoperation.cpp:642
 msgid "Please give a name to your SelfExtracting archive"
 msgstr ""
 
-#: carchiveoperation.cpp:522
+#: carchiveoperation.cpp:648
 msgid "Sfx module not found"
 msgstr ""
 
-#: carchiveoperation.cpp:546
+#: carchiveoperation.cpp:676
 #, fuzzy
 msgid "Sfx archive ready"
 msgstr "Argief nie geskep"
+
+#: carchiveoperation.cpp:706
+#, fuzzy
+msgid "None errors found in this archive"
+msgstr "Soek in hierdie argief:"
+
+#: carchiveoperation.cpp:730
+#, fuzzy
+msgid "This is a read-only archive!"
+msgstr "Hierdie lêer is 'n argief. Open dit!"
+
+#: carchiveoperation.cpp:735
+msgid "No file to be added"
+msgstr ""
+
+#: carchiveoperation.cpp:774
+#, fuzzy
+msgid "Please enter a valid archive name"
+msgstr "Kies nuwe argief naam"
+
+#: carchiveoperation.cpp:781
+msgid "This file already exists"
+msgstr ""
+
+#: carchiveoperation.cpp:806
+#, fuzzy
+msgid "None files selected!"
+msgstr "Besigtig gekose"
 
 #: cwizardstep2installdata.cpp:20
 msgid "Installation wizard step 4"
@@ -2070,6 +2105,9 @@ msgstr "die argief, sodat as is kan pas binnein 'n"
 msgid "floppy or anything else."
 msgstr "sagteskyf of enige iets anders."
 
+#~ msgid "Archives can only be converted in .tar, .tar.gz, .tar.bz2, .zip, .rar or .lha"
+#~ msgstr "Argiewe kan slegs wees omgeskakel in .tar, .tar.gz, .tar.bz2, .zip, .rar of .lha"
+
 #~ msgid "Use wildcards"
 #~ msgstr "Gebruik willekeurige karakters"
 
@@ -2142,6 +2180,3 @@ msgstr "sagteskyf of enige iets anders."
 
 #~ msgid "KDE2's wizard"
 #~ msgstr "KDE2's assistent"
-
-#~ msgid "Choose new archive name"
-#~ msgstr "Kies nuwe argief naam"
