@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys KDE3.5\n"
-"POT-Creation-Date: 2005-09-27 02:32+0200\n"
+"POT-Creation-Date: 2005-11-30 03:19+0100\n"
 "PO-Revision-Date: 2005-11-24 10:53+0200\n"
 "Last-Translator: Kobus Venter <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -319,9 +319,9 @@ msgid ""
 "of key) configured bellow, speak, and press again the same shortcut when you "
 "have finished your spoken command"
 msgstr ""
-"Om 'n gesproke aksie te aktiveer, moet jy die sleutel (of sleutel kombinasie) soos "
-"hieronder gekonfigureer druk, dan praat, en dan weer die selfde sleutel(s) druk, wanneer "
-"jy klaar die opdrag gegee het"
+"Om 'n gesproke aksie te aktiveer, moet jy die sleutel (of sleutel kombinasie) "
+"soos hieronder gekonfigureer druk, dan praat, en dan weer die selfde sleutel(s) "
+"druk, wanneer jy klaar die opdrag gegee het"
 
 #. i18n: file kcontrol/ui/voice_settings_tab_ui.ui line 43
 #: rc.cpp:192
@@ -344,8 +344,8 @@ msgid ""
 "Make sure the <i>full duplex</i> checkbox of your <i>sound server</i> "
 "options is checked."
 msgstr ""
-"<b>Nota:</b> Om stem herkenning korrek te laat fuksioneer, is dit nodig dat <i>arts</i> "
-"reg werk, en in vol dupleks modus: \n"
+"<b>Nota:</b> Om stem herkenning korrek te laat fuksioneer, is dit nodig dat <i>"
+"arts</i> reg werk, en in vol dupleks modus: \n"
 "Maak seker dat die <i>Vol Dupleks</i> merkboks van jou <i>klnak bediener</i> "
 "opsie gekies is."
 
@@ -475,7 +475,7 @@ msgstr "Werkskerm"
 msgid "Dock"
 msgstr "Vassmeer"
 
-#: app/app.cpp:147 kcontrol/kcmkhotkeys.cpp:109
+#: app/app.cpp:147 kcontrol/kcmkhotkeys.cpp:86
 msgid "KHotKeys"
 msgstr "KWarmSleutels"
 
@@ -550,7 +550,7 @@ msgstr ""
 msgid "These entries were created using Menu Editor."
 msgstr "Hierdie inskrywings is gemaak deur gebruik van Kieslys Redigeerder."
 
-#: shared/soundrecorder.cpp:53
+#: shared/soundrecorder_arts.cpp:58
 msgid "khotkeys"
 msgstr "WarmSleutels"
 
@@ -566,11 +566,11 @@ msgstr "Venster sneller:"
 msgid "Gesture trigger: "
 msgstr "Gebaar sneller:"
 
-#: shared/triggers.cpp:417
+#: shared/triggers.cpp:414
 msgid "Voice trigger: "
 msgstr "Stem skakel:"
 
-#: shared/voices.cpp:205
+#: shared/voices.cpp:208
 msgid "Voice"
 msgstr "Stem"
 
@@ -747,27 +747,27 @@ msgstr "Knoppie 8 (indien beskikbaar)"
 msgid "Button 9 (if available)"
 msgstr "Knoppie 9 (indien beskikbaar)"
 
-#: kcontrol/kcmkhotkeys.cpp:112
+#: kcontrol/kcmkhotkeys.cpp:89
 msgid "(c) 1999-2005 Lubos Lunak"
 msgstr "(c) 1999-2005 Lubos Lunak"
 
-#: kcontrol/kcmkhotkeys.cpp:113
+#: kcontrol/kcmkhotkeys.cpp:90
 msgid "Maintainer"
 msgstr "Onderhouer"
 
-#: kcontrol/kcmkhotkeys.cpp:243
+#: kcontrol/kcmkhotkeys.cpp:220
 msgid "New Action"
 msgstr "Nuwe Aksie"
 
-#: kcontrol/kcmkhotkeys.cpp:264
+#: kcontrol/kcmkhotkeys.cpp:241
 msgid "New Action Group"
 msgstr "Nuwe Aksie Groep"
 
-#: kcontrol/kcmkhotkeys.cpp:296
+#: kcontrol/kcmkhotkeys.cpp:273
 msgid "Select File with Actions to Be Imported"
 msgstr "Kies Lêer met Aksies om Ingevoer te word"
 
-#: kcontrol/kcmkhotkeys.cpp:303
+#: kcontrol/kcmkhotkeys.cpp:280
 msgid ""
 "Import of the specified file failed. Most probably the file is not a valid file "
 "with actions."
@@ -844,11 +844,11 @@ msgstr "Gebaar Sneller..."
 msgid "Window Trigger..."
 msgstr "Venster Sneller..."
 
-#: kcontrol/triggers_tab.cpp:55
+#: kcontrol/triggers_tab.cpp:56
 msgid "Voice Trigger..."
 msgstr "Stem Sneller..."
 
-#: kcontrol/triggers_tab.cpp:221
+#: kcontrol/triggers_tab.cpp:222
 msgid "Select keyboard shortcut:"
 msgstr "Kies sleutelbord Kortpad:"
 
@@ -861,8 +861,8 @@ msgid ""
 "The word you recorded is too close to the existing reference '%1', please "
 "record another word."
 msgstr ""
-"Die woord wat jy opgeneem het, es te na aan die bestaande %1, neem "
-"asseblief 'n ander woord op."
+"Die woord wat jy opgeneem het, es te na aan die bestaande %1, neem asseblief 'n "
+"ander woord op."
 
 #: kcontrol/voicerecorder.cpp:134
 msgid ""
@@ -871,16 +871,16 @@ msgid ""
 "your microphone is not good enough."
 msgstr ""
 "Kon nie stem inligting tussen geraas uithaal nie.\n"
-"  indien hierdie boodskap gereeld voorkom, beteken dit dat daar te veel geraas is "
-"of dat jou mikirofoon nie goed genoeg is nie."
+"  indien hierdie boodskap gereeld voorkom, beteken dit dat daar te veel geraas "
+"is of dat jou mikirofoon nie goed genoeg is nie."
 
 #: kcontrol/voicerecordpage.cpp:31
 msgid ""
 "Enter a code for the sound (eg: the word you are saying) and record twice the "
 "same word"
 msgstr ""
-"Sleutel 'n kode in vir die klank (bv: die woord wat jy sê) en neem twee keer dieselfde "
-"woord op"
+"Sleutel 'n kode in vir die klank (bv: die woord wat jy sê) en neem twee keer "
+"dieselfde woord op"
 
 #: kcontrol/voicerecordpage.cpp:81
 msgid "<qt>%1<br><font color='red'>The sound code already exists</font></qt>"
@@ -909,4 +909,3 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "juanita.franz@vr-web.de, kabousv@therugby.co.za"
-

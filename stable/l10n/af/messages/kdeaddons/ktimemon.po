@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ktimemon VERSION\n"
-"POT-Creation-Date: 2005-10-05 02:50+0200\n"
+"POT-Creation-Date: 2005-11-30 03:25+0100\n"
 "PO-Revision-Date: 2002-11-07 11:26+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -129,7 +129,7 @@ msgstr "Spring Begin Kieslys"
 msgid "Starts"
 msgstr "Beginne"
 
-#: sample.cc:109
+#: sample.cc:102
 msgid ""
 "Unable to open the file '%1'. The diagnostics are:\n"
 "%2.\n"
@@ -141,7 +141,7 @@ msgstr ""
 "Hierdie lêer is benodig na bepaal huidige geheue gebruik.\n"
 "Miskien jou proc lêersisteem is non-Linux standaard?"
 
-#: sample.cc:120
+#: sample.cc:112
 msgid ""
 "Unable to open the file '%1'. The diagnostics are:\n"
 "%2.\n"
@@ -153,7 +153,7 @@ msgstr ""
 "Hierdie lêer is benodig na bepaal huidige stelsel inligting. Miskien jou proc "
 "lêersisteem is non-Linux standaard?"
 
-#: sample.cc:130
+#: sample.cc:122
 msgid ""
 "Unable to initialize the 'kstat' library. This library is used for accessing "
 "kernel information. The diagnostics are:\n"
@@ -168,71 +168,22 @@ msgstr ""
 "word jy rerig wat loop Solaris? Asseblief kontak die onderhouer na "
 "mueller@kde.org wie sal probeer na figuur uit wat gegaan verkeerde."
 
-#: sample.cc:166
+#: sample.cc:211
+#, fuzzy
 msgid ""
-"Unable to open file '%1' to determine where the proc filesystem is mounted. The "
-"diagnostics are:\n"
-"%2\n"
-"Are you really running UNIX?"
-msgstr ""
-"Nie moontlik na open lêer '%1' na bepaal waar die proc lêersisteem is "
-"gekoppelde. die diagnose terugvoer word:\n"
-"%2\n"
-"word jy rerig wat loop Unix?"
-
-#: sample.cc:182
-msgid ""
-"Unable to read file '%1' to determine where the proc filesystem is mounted. The "
-"diagnostics are:\n"
-" %2"
-msgstr ""
-"Nie moontlik na lees lêer '%1' na bepaal waar die proc lêersisteem is "
-"gekoppelde. die diagnose terugvoer word:\n"
-" %2"
-
-#: sample.cc:188
-msgid ""
-"Unable to determine where the proc filesystem is mounted (there is no entry in "
-"'%1').\n"
-"Information is required from the proc filesystem to determine current system "
-"usage. Maybe you are not running Linux (Unfortunately the proc filesystem is "
-"Linux specific)?\n"
-"If you can provide help with porting KTimeMon to your platform, please contact "
-"the maintainer at mueller@kde.org"
-msgstr ""
-"Nie moontlik na bepaal waar die proc lêersisteem is gekoppelde (daar is nee "
-"inskrywing in '%1').\n"
-"Informasie is benodig van die proc lêersisteem na bepaal huidige stelsel "
-"gebruik. Miskien jy word nie wat loop Linux (Ongelukkig die proc lêersisteem is "
-"Linux spesifieke)?\n"
-"As jy kan verskaf hulp met oordra na K-tyd-monitor na jou platvorm, asseblief "
-"kontak die onderhouer na mueller@kde.org"
-
-#: sample.cc:199
-msgid ""
-"A very long line was encountered while reading information in '%1' (where "
-"\"very long\" is defined as > %2). This happened at line %3.\n"
-"Is %4 the mount table on your platform?"
-msgstr ""
-"'n baie lang lyn was raakgeloop terwyl lees informasie in '%1' (waar \"baie "
-"lang\" Is gedefinieër as > %2). Hierdie het gebeur na lyn %3.\n"
-"Is %4 die mount tabel op jou platvorm?"
-
-#: sample.cc:283
-msgid ""
-"Unable to read the memory usage file '%1/%2'.\n"
-"The diagnostics are: %3"
+"Unable to read the memory usage file '%1'.\n"
+"The diagnostics are: %2"
 msgstr ""
 "Nie moontlik na lees die geheue gebruik lêer '%1/%2'.\n"
 "die diagnose terugvoer word: %3"
 
-#: sample.cc:293
+#: sample.cc:221
+#, fuzzy
 msgid ""
-"The memory usage file '%1/%2' seems to use a different file format than "
-"expected.\n"
+"The memory usage file '%1' seems to use a different file format than expected.\n"
 "Maybe your version of the proc filesystem is incompatible with supported "
-"versions. Please contact the developer at m.maierhofer@tees.ac.uk who will try "
-"to sort this out."
+"versions. Please contact the developer at http://bugs.kde.org/ who will try to "
+"sort this out."
 msgstr ""
 "Die geheue gebruik lêer '%1/%2' blyk na gebruik 'n ander lêer formaat as "
 "verwag.\n"
@@ -240,15 +191,16 @@ msgstr ""
 "weergawes. Asseblief kontak Die ontwikkelaar na m.maierhofer@tees.ac.vk wie sal "
 "probeer na sorteer hierdie uit."
 
-#: sample.cc:309
+#: sample.cc:237
+#, fuzzy
 msgid ""
-"Unable to read the system usage file '%1/%2'.\n"
-"The diagnostics are: %3"
+"Unable to read the system usage file '%1'.\n"
+"The diagnostics are: %2"
 msgstr ""
 "Nie moontlik na lees die stelsel gebruik lêer '%1/%2'.\n"
 "die diagnose terugvoer word: %3"
 
-#: sample.cc:336
+#: sample.cc:264
 msgid ""
 "Unable to obtain system information.\n"
 "The table(2) system call returned an error for table %1.\n"
@@ -260,7 +212,7 @@ msgstr ""
 "Asseblief kontak Die onderhouer na mueller@kde.org wie sal probeer na figuur "
 "uit wat gegaan verkeerde."
 
-#: sample.cc:378
+#: sample.cc:306
 msgid ""
 "Unable to find any entries for CPU statistics in the 'kstat' library. Are you "
 "running a non-standard version of Solaris?\n"
@@ -271,7 +223,7 @@ msgstr ""
 "Asseblief kontak die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:394
+#: sample.cc:322
 msgid ""
 "Unable to read the CPU statistics entry from the 'kstat' library. The "
 "diagnostics are '%1'.\n"
@@ -282,7 +234,7 @@ msgstr ""
 "Asseblief kontak die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:406
+#: sample.cc:334
 msgid ""
 "The number of CPUs appears to have changed at very short notice, or the 'kstat' "
 "library returns inconsistent results (%1 vs. %2 CPUs).\n"
@@ -294,7 +246,7 @@ msgstr ""
 "Asseblief kontak Die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:418
+#: sample.cc:346
 msgid ""
 "Unable to read the memory statistics entry from the 'kstat' library. The "
 "diagnostics are '%1'\n"
@@ -306,7 +258,7 @@ msgstr ""
 "Jy dalk wil hê na kontak die onderhouer na mueller@kde.org wie sal probeer na "
 "sorteer hierdie uit."
 
-#: sample.cc:435
+#: sample.cc:363
 msgid ""
 "There seems to be a problem with KTimeMon's handling of the 'kstat' library: 0 "
 "bytes of physical memory determined!\n"
@@ -314,7 +266,7 @@ msgid ""
 "Please contact the maintainer at mueller@kde.org who will try to sort this out."
 msgstr ""
 
-#: sample.cc:447
+#: sample.cc:375
 msgid ""
 "Unable to determine the number of swap spaces. The diagnostics are '%1'.\n"
 "Please contact the maintainer at mueller@kde.org who will try to sort this out."
@@ -324,7 +276,7 @@ msgstr ""
 "Asseblief kontak die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:456
+#: sample.cc:384
 msgid ""
 "KTimeMon ran out of memory while trying to determine the swap usage.\n"
 "Attempted to allocate %1 bytes of memory (2 * %2 + %3 * %4).\n"
@@ -336,7 +288,7 @@ msgstr ""
 "Asseblief kontak die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:468
+#: sample.cc:396
 msgid ""
 "Unable to determine the swap usage.\n"
 "The diagnostics are '%1'.\n"
@@ -347,7 +299,7 @@ msgstr ""
 "Asseblief kontak die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:475
+#: sample.cc:403
 msgid ""
 "Information was requested for %1 swap spaces, but only %2 swap entries were "
 "returned.\n"
@@ -401,6 +353,38 @@ msgid ""
 msgstr ""
 "Het gekry diagnose uitset van kind opdrag:\n"
 "\n"
+
+#~ msgid ""
+#~ "Unable to open file '%1' to determine where the proc filesystem is mounted. The diagnostics are:\n"
+#~ "%2\n"
+#~ "Are you really running UNIX?"
+#~ msgstr ""
+#~ "Nie moontlik na open lêer '%1' na bepaal waar die proc lêersisteem is gekoppelde. die diagnose terugvoer word:\n"
+#~ "%2\n"
+#~ "word jy rerig wat loop Unix?"
+
+#~ msgid ""
+#~ "Unable to read file '%1' to determine where the proc filesystem is mounted. The diagnostics are:\n"
+#~ " %2"
+#~ msgstr ""
+#~ "Nie moontlik na lees lêer '%1' na bepaal waar die proc lêersisteem is gekoppelde. die diagnose terugvoer word:\n"
+#~ " %2"
+
+#~ msgid ""
+#~ "Unable to determine where the proc filesystem is mounted (there is no entry in '%1').\n"
+#~ "Information is required from the proc filesystem to determine current system usage. Maybe you are not running Linux (Unfortunately the proc filesystem is Linux specific)?\n"
+#~ "If you can provide help with porting KTimeMon to your platform, please contact the maintainer at mueller@kde.org"
+#~ msgstr ""
+#~ "Nie moontlik na bepaal waar die proc lêersisteem is gekoppelde (daar is nee inskrywing in '%1').\n"
+#~ "Informasie is benodig van die proc lêersisteem na bepaal huidige stelsel gebruik. Miskien jy word nie wat loop Linux (Ongelukkig die proc lêersisteem is Linux spesifieke)?\n"
+#~ "As jy kan verskaf hulp met oordra na K-tyd-monitor na jou platvorm, asseblief kontak die onderhouer na mueller@kde.org"
+
+#~ msgid ""
+#~ "A very long line was encountered while reading information in '%1' (where \"very long\" is defined as > %2). This happened at line %3.\n"
+#~ "Is %4 the mount table on your platform?"
+#~ msgstr ""
+#~ "'n baie lang lyn was raakgeloop terwyl lees informasie in '%1' (waar \"baie lang\" Is gedefinieër as > %2). Hierdie het gebeur na lyn %3.\n"
+#~ "Is %4 die mount tabel op jou platvorm?"
 
 #~ msgid "KTimeMon Configuration"
 #~ msgstr "K-tyd-monitor Opstelling"
