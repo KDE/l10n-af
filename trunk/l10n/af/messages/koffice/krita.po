@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
-"POT-Creation-Date: 2005-12-28 08:50+0100\n"
+"POT-Creation-Date: 2005-12-29 08:43+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1002,7 +1002,7 @@ msgid "Transformation Tools"
 msgstr "Uitveer Program"
 
 #. i18n: file krita.rc line 157
-#: ui/kis_aboutdata.h:30 ui/kis_view.cc:337 rc.cpp:45 rc.cpp:1529
+#: ui/kis_aboutdata.h:30 ui/kis_view.cc:329 rc.cpp:45 rc.cpp:1529
 #, no-c-format
 msgid "Krita"
 msgstr "Krita"
@@ -1014,7 +1014,7 @@ msgid "Brushes and stuff"
 msgstr ""
 
 #. i18n: file krita_readonly.rc line 18
-#: ui/kis_view.cc:375 rc.cpp:57 rc.cpp:639 rc.cpp:1478 rc.cpp:1562
+#: rc.cpp:57 rc.cpp:639 rc.cpp:1478 rc.cpp:1562
 #, no-c-format
 msgid "Layer"
 msgstr "Laag"
@@ -1423,7 +1423,7 @@ msgid "Sphere Dec."
 msgstr ""
 
 #. i18n: file ./ui/wdgautogradient.ui line 342
-#: ui/kis_view.cc:3046 rc.cpp:291
+#: ui/kis_view.cc:2992 rc.cpp:291
 #, no-c-format
 msgid "RGB"
 msgstr "Rgb"
@@ -1899,7 +1899,7 @@ msgid "Subtract"
 msgstr "Aftrek"
 
 #. i18n: file ./ui/wdgbirdeye.ui line 24
-#: ui/kis_view.cc:3033 rc.cpp:564
+#: ui/kis_view.cc:2979 rc.cpp:564
 #, fuzzy, no-c-format
 msgid "Overview"
 msgstr "Oorleg"
@@ -2390,7 +2390,7 @@ msgid "Shapes"
 msgstr "Skerpheid:"
 
 #. i18n: file ./plugins/viewplugins/performancetest/wdg_perftest.ui line 104
-#: ui/kis_view.cc:225 ui/kis_view.cc:376 rc.cpp:867
+#: ui/kis_view.cc:220 ui/kis_view.cc:367 rc.cpp:867
 #, no-c-format
 msgid "Layers"
 msgstr "Lae"
@@ -2723,7 +2723,8 @@ msgid "Out of Gamut"
 msgstr ""
 
 #. i18n: file ./plugins/viewplugins/colorrange/wdg_colorrange.ui line 101
-#: ui/kis_selection_manager.cc:143 ui/kis_selection_manager.cc:657 rc.cpp:1101
+#: plugins/filters/example/example.cc:71 ui/kis_selection_manager.cc:143
+#: ui/kis_selection_manager.cc:657 rc.cpp:1101
 #, no-c-format
 msgid "&Invert"
 msgstr ""
@@ -3338,63 +3339,59 @@ msgstr "Skerpheid:"
 msgid "Rename Image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_doc.cc:262
+#: ui/kis_doc.cc:263
 #, c-format
 msgid "Image %1"
 msgstr "Beeld %1"
 
-#: ui/kis_doc.cc:266
+#: ui/kis_doc.cc:267
 msgid "No colorspace modules loaded: cannot run Krita"
 msgstr ""
 
-#: ui/kis_layerbox.cc:68
-#, c-format
-msgid "Create new %1"
-msgstr "Skep nuwe %1"
-
 #: ui/kis_layerbox.cc:70
-#, fuzzy, c-format
-msgid "Remove current %1"
-msgstr "Verwyder Huidige %1"
+#, fuzzy
+msgid "Create new layer"
+msgstr "Skep nuwe Laag"
 
 #: ui/kis_layerbox.cc:72
-#, fuzzy, c-format
-msgid "Upper current %1"
+#, fuzzy
+msgid "Remove current layer"
+msgstr "Verwyder Huidige Laag"
+
+#: ui/kis_layerbox.cc:74
+#, fuzzy
+msgid "Upper current layer"
 msgstr "Boonste Huidige %1"
 
-#: ui/kis_layerbox.cc:76
-#, fuzzy, c-format
-msgid "Lower current %1"
-msgstr "Sagter Huidige %1"
-
 #: ui/kis_layerbox.cc:78
-#, fuzzy, c-format
-msgid "Properties for %1"
+#, fuzzy
+msgid "Lower current layer"
+msgstr "Verwyder Huidige Laag"
+
+#: ui/kis_layerbox.cc:80
+#, fuzzy
+msgid "Properties for layer"
 msgstr "Eienskappe..."
 
-#: ui/kis_layerbox.cc:82
+#: ui/kis_layerbox.cc:86
 msgid "Visible"
 msgstr "Sigbare"
 
-#: ui/kis_layerbox.cc:84
-msgid "Linked"
-msgstr "Gekoppel"
-
-#: ui/kis_layerbox.cc:86
+#: ui/kis_layerbox.cc:88
 #, fuzzy
 msgid "Locked"
 msgstr "Gekoppel"
 
-#: ui/kis_layerbox.cc:308
+#: ui/kis_layerbox.cc:398
 #, fuzzy, c-format
 msgid "Can't find %1"
 msgstr "Skep nuwe %1"
 
-#: ui/kis_layerbox.cc:309
+#: ui/kis_layerbox.cc:399
 msgid "Canvas"
 msgstr "Kanvas"
 
-#: ui/kis_dlg_image_properties.cc:50 ui/kis_view.cc:558
+#: ui/kis_dlg_image_properties.cc:50 ui/kis_view.cc:544
 #, fuzzy
 msgid "Image Properties"
 msgstr "Laag Eienskappe..."
@@ -3460,7 +3457,7 @@ msgstr ""
 msgid "Blur"
 msgstr "Blou"
 
-#: ui/kis_filter_manager.cc:86 ui/kis_view.cc:223
+#: ui/kis_filter_manager.cc:86 ui/kis_view.cc:219
 #, fuzzy
 msgid "Colors"
 msgstr "Kleur"
@@ -3496,7 +3493,7 @@ msgstr "Laag"
 msgid "Apply Filter Again"
 msgstr ""
 
-#: ui/kis_dlg_layer_properties.cc:48 ui/kis_view.cc:583
+#: ui/kis_dlg_layer_properties.cc:48 ui/kis_view.cc:569
 #, fuzzy
 msgid "Layer Properties"
 msgstr "Laag Eienskappe..."
@@ -3622,234 +3619,234 @@ msgstr ""
 msgid "Color name (optional):"
 msgstr ""
 
-#: ui/kis_view.cc:222
+#: ui/kis_view.cc:218
 msgid "Control box"
 msgstr ""
 
-#: ui/kis_view.cc:444
+#: ui/kis_view.cc:430
 msgid "Zoom %1:1"
 msgstr ""
 
-#: ui/kis_view.cc:446
+#: ui/kis_view.cc:432
 #, c-format
 msgid "Zoom 1:%1"
 msgstr ""
 
-#: ui/kis_view.cc:465
+#: ui/kis_view.cc:451
 #, fuzzy
 msgid "Selection Active"
 msgstr "Keuse"
 
-#: ui/kis_view.cc:471
+#: ui/kis_view.cc:457
 #, fuzzy
 msgid "No selection"
 msgstr "Verwyder Keuse"
 
-#: ui/kis_view.cc:484
+#: ui/kis_view.cc:470
 msgid "No profile"
 msgstr ""
 
-#: ui/kis_view.cc:560
+#: ui/kis_view.cc:546
 #, fuzzy
 msgid "Resize Image to Size of Current Layer"
 msgstr "Verwyder Huidige Laag"
 
-#: ui/kis_view.cc:565
+#: ui/kis_view.cc:551
 msgid "Actual Pixels"
 msgstr ""
 
-#: ui/kis_view.cc:570
+#: ui/kis_view.cc:556
 msgid "&Add Layer..."
 msgstr "Voeg by Laag..."
 
-#: ui/kis_view.cc:572
+#: ui/kis_view.cc:558
 #, fuzzy
 msgid "&Object Layer"
 msgstr "Volgende Laag"
 
-#: ui/kis_view.cc:576
+#: ui/kis_view.cc:562
 msgid "&Remove Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_view.cc:577
+#: ui/kis_view.cc:563
 #, fuzzy
 msgid "Duplicate Layer"
 msgstr "Volgende Laag"
 
-#: ui/kis_view.cc:578
+#: ui/kis_view.cc:564
 msgid "&Hide/Show Layer"
 msgstr "Steek weg/Vertoon Laag"
 
-#: ui/kis_view.cc:579
+#: ui/kis_view.cc:565
 #, fuzzy
 msgid "Raise Layer"
 msgstr "Volgende Laag"
 
-#: ui/kis_view.cc:580
+#: ui/kis_view.cc:566
 #, fuzzy
 msgid "Lower Layer"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_view.cc:581
+#: ui/kis_view.cc:567
 #, fuzzy
 msgid "Layer to Top"
 msgstr "Laag Fout"
 
-#: ui/kis_view.cc:582
+#: ui/kis_view.cc:568
 msgid "Layer to Bottom"
 msgstr ""
 
-#: ui/kis_view.cc:584
+#: ui/kis_view.cc:570
 msgid "I&nsert Image as Layer..."
 msgstr "Voeg by Beeld as Laag..."
 
-#: ui/kis_view.cc:585
+#: ui/kis_view.cc:571
 msgid "Save Layer as Image..."
 msgstr "Stoor Laag as Beeld..."
 
-#: ui/kis_view.cc:586
+#: ui/kis_view.cc:572
 #, fuzzy
 msgid "Flip on &X Axis"
 msgstr "Spieël X"
 
-#: ui/kis_view.cc:587
+#: ui/kis_view.cc:573
 #, fuzzy
 msgid "Flip on &Y Axis"
 msgstr "Spieël Y"
 
-#: ui/kis_view.cc:590
+#: ui/kis_view.cc:576
 msgid "Merge &Visible Layers"
 msgstr "Saamvlans Sigbare Lae"
 
-#: ui/kis_view.cc:591
+#: ui/kis_view.cc:577
 #, fuzzy
 msgid "&Merge Layer"
 msgstr "Saamvlans Alle Lae"
 
-#: ui/kis_view.cc:592
+#: ui/kis_view.cc:578
 #, fuzzy
 msgid "Merge &All Layers"
 msgstr "Saamvlans Alle Lae"
 
-#: ui/kis_view.cc:597
+#: ui/kis_view.cc:583
 msgid "Show Rulers"
 msgstr ""
 
-#: ui/kis_view.cc:599
+#: ui/kis_view.cc:585
 #, fuzzy
 msgid "Hide Rulers"
 msgstr "Steek weg/Vertoon Laag"
 
-#: ui/kis_view.cc:600
+#: ui/kis_view.cc:586
 msgid "Shows or hides rulers."
 msgstr ""
 
-#: ui/kis_view.cc:601
+#: ui/kis_view.cc:587
 msgid ""
 "The rulers show the position and width of pages and of frames and can be used "
 "to position tabulators among others."
 "<p>Uncheck this to disable the rulers from being displayed."
 msgstr ""
 
-#: ui/kis_view.cc:608
+#: ui/kis_view.cc:594
 msgid "Add new palette"
 msgstr ""
 
-#: ui/kis_view.cc:1278
+#: ui/kis_view.cc:1257
 #, fuzzy
 msgid "Add palette"
 msgstr "Huidige Program Eienskappe..."
 
-#: ui/kis_view.cc:1287
+#: ui/kis_view.cc:1266
 #, fuzzy
 msgid "Export Layer"
 msgstr "Voer uit Beeld..."
 
-#: ui/kis_view.cc:1328
+#: ui/kis_view.cc:1307
 #, fuzzy
 msgid "Import Image"
 msgstr "In voer Beeld..."
 
-#: ui/kis_view.cc:1397
+#: ui/kis_view.cc:1374
 #, fuzzy
 msgid "Mirror Layer X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_view.cc:1419
+#: ui/kis_view.cc:1396
 #, fuzzy
 msgid "Mirror Layer Y"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_view.cc:1442
+#: ui/kis_view.cc:1419
 #, fuzzy
 msgid "Scale Layer"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_view.cc:1467
+#: ui/kis_view.cc:1444
 #, fuzzy
 msgid "Rotate Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_view.cc:1493
+#: ui/kis_view.cc:1470
 #, fuzzy
 msgid "Shear layer"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_view.cc:1517
+#: ui/kis_view.cc:1494
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: core/kis_image.cc:1148 ui/kis_view.cc:1518 ui/kis_view.cc:1519
+#: core/kis_image.cc:1144 ui/kis_view.cc:1495 ui/kis_view.cc:1496
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_view.cc:2104
+#: ui/kis_view.cc:2081
 #, fuzzy
 msgid "Insert as New Layer"
 msgstr "Voeg by Beeld as Laag..."
 
-#: ui/kis_view.cc:2106
+#: ui/kis_view.cc:2083
 msgid "Open in New Document"
 msgstr ""
 
-#: ui/kis_view.cc:2110
+#: ui/kis_view.cc:2087
 #, fuzzy
 msgid "Insert as New Layers"
 msgstr "Voeg by Beeld as Laag..."
 
-#: ui/kis_view.cc:2112
+#: ui/kis_view.cc:2089
 msgid "Open in New Documents"
 msgstr ""
 
-#: ui/kis_view.cc:2159
+#: ui/kis_view.cc:2136
 #, fuzzy
 msgid "Property changes"
 msgstr "Eienskappe..."
 
-#: ui/kis_view.cc:2201 ui/kis_view.cc:2287
+#: ui/kis_view.cc:2166 ui/kis_view.cc:2187 ui/kis_view.cc:2268
 msgid "Could not add layer to image."
 msgstr "Kon nie voeg by laag na beeld."
 
-#: ui/kis_view.cc:2201 ui/kis_view.cc:2287
+#: ui/kis_view.cc:2166 ui/kis_view.cc:2187 ui/kis_view.cc:2268
 msgid "Layer Error"
 msgstr "Laag Fout"
 
-#: ui/kis_view.cc:2277
+#: ui/kis_view.cc:2260
 #, fuzzy
 msgid "Duplicate of '%1'"
 msgstr "Volgende Laag"
 
-#: ui/kis_view.cc:3037
+#: ui/kis_view.cc:2983
 msgid "HSV"
 msgstr "Hsv"
 
 #: colorspaces/gray_u16/kis_gray_u16_colorspace.cc:44
-#: colorspaces/gray_u8/kis_gray_colorspace.cc:48 ui/kis_view.cc:3054
+#: colorspaces/gray_u8/kis_gray_colorspace.cc:48 ui/kis_view.cc:3000
 msgid "Gray"
 msgstr "Grys"
 
-#: ui/kis_view.cc:3062
+#: ui/kis_view.cc:3008
 msgid "Palettes"
 msgstr "Palette"
 
@@ -5533,6 +5530,11 @@ msgstr "Nuwe Beeld"
 msgid "Separating image..."
 msgstr "Herbenaam Beeld..."
 
+#: plugins/filters/cimg/kis_cimg_filter.cc:58
+#, fuzzy
+msgid "&CImg Image Restoration..."
+msgstr "Herstel Knoppie"
+
 #: plugins/filters/cimg/kis_cimg_filter.cc:549
 msgid "Applying image restoration filter..."
 msgstr ""
@@ -5648,8 +5650,17 @@ msgstr "Kruisdiagram"
 msgid "Refresh Preview"
 msgstr "Verfris Kanvas"
 
+#: plugins/filters/convolutionfilters/kis_custom_convolution_filter.cc:32
+#, fuzzy
+msgid "&Custom Convolution..."
+msgstr "Gradiënte"
+
 #: plugins/filters/roundcorners/kis_round_corners_filter.h:43
 msgid "Round Corners"
+msgstr ""
+
+#: plugins/filters/roundcorners/kis_round_corners_filter.cc:55
+msgid "&Round Corners..."
 msgstr ""
 
 #: plugins/filters/pixelizefilter/kis_pixelize_filter.cc:95
@@ -5661,6 +5672,10 @@ msgstr ""
 #, fuzzy
 msgid "Radius"
 msgstr "Roteer 90"
+
+#: plugins/filters/raindropsfilter/kis_raindrops_filter.cc:55
+msgid "&Raindrops..."
+msgstr ""
 
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cc:91
 #: plugins/filters/raindropsfilter/kis_raindrops_filter.cc:95
@@ -5729,6 +5744,26 @@ msgstr "Versadiging"
 msgid "Auto Contrast"
 msgstr "Hoeke:"
 
+#: plugins/filters/colorsfilters/colorsfilters.cc:85
+#, fuzzy
+msgid "&Auto Contrast"
+msgstr "Hoeke:"
+
+#: plugins/filters/colorsfilters/colorsfilters.cc:216
+#, fuzzy
+msgid "&Desaturate"
+msgstr "Versadiging"
+
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cc:51
+#, fuzzy
+msgid "&Color Adjustment..."
+msgstr "Kleur Modus"
+
+#: plugins/filters/colorsfilters/kis_brightness_contrast_filter.cc:47
+#, fuzzy
+msgid "&Brightness/Contrast..."
+msgstr "Verlig Slegs"
+
 #: plugins/filters/example/example.h:40
 msgid "Invert"
 msgstr ""
@@ -5739,6 +5774,10 @@ msgstr ""
 
 #: plugins/filters/imageenhancement/kis_simple_noise_reducer.h:46
 msgid "Simple Noise Reduceer"
+msgstr ""
+
+#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cc:58
+msgid "&Small Tiles..."
 msgstr ""
 
 #: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cc:113
@@ -5752,6 +5791,11 @@ msgstr ""
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.h:45
 #, fuzzy
 msgid "Oilpaint"
+msgstr "Ondeursigtigheid:"
+
+#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cc:53
+#, fuzzy
+msgid "&Oilpaint..."
 msgstr "Ondeursigtigheid:"
 
 #: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cc:229
@@ -5793,6 +5837,10 @@ msgstr "Hoogte:"
 msgid "&Bumpmap..."
 msgstr ""
 
+#: plugins/filters/threadtest/threadtest.cc:117
+msgid "Invert with &Threads"
+msgstr ""
+
 #: plugins/filters/threadtest/threadtest.h:40
 msgid "Invert with threads"
 msgstr ""
@@ -5808,6 +5856,20 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr ""
+
+#~ msgid "Create new %1"
+#~ msgstr "Skep nuwe %1"
+
+#, fuzzy
+#~ msgid "Remove current %1"
+#~ msgstr "Verwyder Huidige %1"
+
+#, fuzzy
+#~ msgid "Lower current %1"
+#~ msgstr "Sagter Huidige %1"
+
+#~ msgid "Linked"
+#~ msgstr "Gekoppel"
 
 #, fuzzy
 #~ msgid "Link Layer"
@@ -6154,28 +6216,12 @@ msgstr ""
 #~ msgstr "Vryhand Kies"
 
 #, fuzzy
-#~ msgid "&CImg Image Restoration..."
-#~ msgstr "Herstel Knoppie"
-
-#, fuzzy
 #~ msgid "Emboss in Diagonal"
 #~ msgstr "Kruisdiagram"
 
 #, fuzzy
-#~ msgid "&Auto Contrast"
-#~ msgstr "Hoeke:"
-
-#, fuzzy
-#~ msgid "&Desaturate"
-#~ msgstr "Versadiging"
-
-#, fuzzy
 #~ msgid "Selection picker"
 #~ msgstr "Keuse"
-
-#, fuzzy
-#~ msgid "&Oilpaint..."
-#~ msgstr "Ondeursigtigheid:"
 
 #, fuzzy
 #~ msgid "&Pixelize..."
@@ -6843,10 +6889,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Device Properties"
 #~ msgstr "Eienskappe..."
-
-#, fuzzy
-#~ msgid "Remove current layer"
-#~ msgstr "Verwyder Huidige Laag"
 
 #~ msgid "Lower"
 #~ msgstr "Sagter"
