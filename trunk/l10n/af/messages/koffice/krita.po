@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
-"POT-Creation-Date: 2006-02-15 10:39+0100\n"
+"POT-Creation-Date: 2006-02-16 10:58+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -2367,7 +2367,8 @@ msgid "Value"
 msgstr "Blou"
 
 #. i18n: file ./plugins/tools/tool_transform/wdg_tool_transform.ui line 16
-#: plugins/tools/tool_transform/kis_tool_transform.cc:72 rc.cpp:822
+#: plugins/tools/tool_transform/kis_tool_transform.cc:72
+#: plugins/tools/tool_transform/kis_tool_transform.cc:92 rc.cpp:822
 #, no-c-format
 msgid "Transform"
 msgstr ""
@@ -3712,22 +3713,22 @@ msgstr "Zoem Program"
 msgid "Painter's Toolchest"
 msgstr "Verf Nutsprogramme"
 
-#: ui/kis_filters_listview.cc:144
+#: ui/kis_filters_listview.cc:146
 #, fuzzy
 msgid "Filters List"
 msgstr "Wit"
 
-#: ui/kis_previewwidget.cc:116 ui/kis_previewwidget.cc:159
+#: ui/kis_previewwidget.cc:112 ui/kis_previewwidget.cc:155
 #, fuzzy
 msgid "Preview: "
 msgstr "Verfris Kanvas"
 
-#: ui/kis_previewwidget.cc:162
+#: ui/kis_previewwidget.cc:158
 #, fuzzy
 msgid "Original: "
 msgstr "Diagonale"
 
-#: ui/kis_previewwidget.cc:170
+#: ui/kis_previewwidget.cc:166
 msgid "Preview (needs update)"
 msgstr ""
 
@@ -3848,12 +3849,12 @@ msgstr ""
 msgid "Spacing: "
 msgstr "Spasiëring: "
 
-#: ui/kis_dlg_adj_layer_props.cc:92 ui/kis_dlg_adjustment_layer.cc:78
+#: ui/kis_dlg_adj_layer_props.cc:91 ui/kis_dlg_adjustment_layer.cc:78
 #, fuzzy
 msgid "Layer name:"
 msgstr "Laag Fout"
 
-#: ui/kis_dlg_adj_layer_props.cc:113 ui/kis_dlg_adjustment_layer.cc:100
+#: ui/kis_dlg_adj_layer_props.cc:112 ui/kis_dlg_adjustment_layer.cc:100
 msgid "No configuration options are available for this filter"
 msgstr ""
 
@@ -4142,7 +4143,8 @@ msgstr "Sagter Huidige Laag"
 msgid "Scale Layer"
 msgstr "Voeg by Laag..."
 
-#: core/kis_transform_visitor.h:69 ui/kis_view.cc:1693
+#: core/kis_transform_visitor.h:69
+#: plugins/viewplugins/rotateimage/rotateimage.cc:130 ui/kis_view.cc:1693
 #, fuzzy
 msgid "Rotate Layer"
 msgstr "Verwyder Laag"
@@ -4249,6 +4251,11 @@ msgstr ""
 #: ui/kis_clipboard.cc:193
 msgid "As on &Monitor"
 msgstr ""
+
+#: ui/kis_tool_dummy.cc:36 ui/kis_tool_dummy.cc:99
+#, fuzzy
+msgid "No Active Tool"
+msgstr "Verwyder Keuse"
 
 #: ui/kis_tool_dummy.cc:89
 msgid "&Dummy"
@@ -4431,7 +4438,7 @@ msgstr "Voeg by Beeld as Laag..."
 msgid "Scaling..."
 msgstr "Waarde"
 
-#: core/kis_image.cc:88
+#: core/kis_image.cc:88 core/kis_image.cc:625
 #, fuzzy
 msgid "Resize Image"
 msgstr "Verwyder Beeld"
@@ -4464,6 +4471,16 @@ msgstr "laag %1"
 msgid "background"
 msgstr "agtergrond"
 
+#: core/kis_image.cc:623
+#, fuzzy
+msgid "Crop Image"
+msgstr "Nuwe Beeld"
+
+#: core/kis_image.cc:666
+#, fuzzy
+msgid "Scale Image"
+msgstr "Nuwe Beeld"
+
 #: core/kis_image.cc:1131
 #, fuzzy
 msgid "Merge with Layer Below"
@@ -4491,7 +4508,7 @@ msgstr ""
 msgid "Alpha mask"
 msgstr "Alfa"
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:48
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:50
 #: colorspaces/cmyk_u8/kis_cmyk_colorspace.cc:47
 #: colorspaces/gray_u16/kis_gray_u16_colorspace.cc:45
 #: colorspaces/gray_u8/kis_gray_colorspace.cc:49
@@ -4946,25 +4963,25 @@ msgstr "Gradiënte Opsies"
 msgid "CMYK"
 msgstr "Cmyk"
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:44
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:46
 #: colorspaces/cmyk_u8/kis_cmyk_colorspace.cc:43
 #, fuzzy
 msgid "Cyan"
 msgstr "cyan"
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:45
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:47
 #: colorspaces/cmyk_u8/kis_cmyk_colorspace.cc:44
 #, fuzzy
 msgid "Magenta"
 msgstr "magenta"
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:46
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:48
 #: colorspaces/cmyk_u8/kis_cmyk_colorspace.cc:45
 #, fuzzy
 msgid "Yellow"
 msgstr "geel"
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:47
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:49
 #: colorspaces/cmyk_u8/kis_cmyk_colorspace.cc:46
 #, fuzzy
 msgid "Black"
@@ -4974,7 +4991,7 @@ msgstr "swart"
 msgid "CMYK Histogram"
 msgstr ""
 
-#: colorspaces/cmyk_u8/kis_cmyk_colorspace.h:87
+#: colorspaces/cmyk_u8/kis_cmyk_colorspace.h:88
 #, fuzzy
 msgid "CMYK (8-bit integer/channel)"
 msgstr "Voeg by Kanaal"
@@ -5073,8 +5090,8 @@ msgstr "Voeg by Kanaal"
 msgid "CMYK16 Histogram"
 msgstr ""
 
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:42
-#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.h:105
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.cc:44
+#: colorspaces/cmyk_u16/kis_cmyk_u16_colorspace.h:106
 #, fuzzy
 msgid "CMYK (16-bit integer/channel)"
 msgstr "Voeg by Kanaal"
@@ -5107,6 +5124,11 @@ msgstr ""
 #: colorspaces/wetsticky/kis_ws_engine_filter.h:56
 msgid "Wet & Sticky"
 msgstr ""
+
+#: colorspaces/wetsticky/kis_ws_engine_filter.cc:59
+#, fuzzy
+msgid "&Wet & Sticky paint engine..."
+msgstr "Kwas"
 
 #: colorspaces/wetsticky/brushop/kis_wsbrushop.h:36
 #, fuzzy
@@ -5248,8 +5270,8 @@ msgid ""
 "Shift+Drag will force you to draw straight lines"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_zoom.cc:38
-#: plugins/tools/defaulttools/kis_tool_zoom.h:77
+#: plugins/tools/defaulttools/kis_tool_zoom.cc:39
+#: plugins/tools/defaulttools/kis_tool_zoom.h:89
 #, fuzzy
 msgid "Zoom Tool"
 msgstr "Zoem Program"
@@ -5885,6 +5907,11 @@ msgstr "Herbenaam Beeld..."
 msgid "&Shear Layer..."
 msgstr "Voeg by Laag..."
 
+#: plugins/viewplugins/shearimage/shearimage.cc:109
+#, fuzzy
+msgid "Shear Layer"
+msgstr "Voeg by Laag..."
+
 #: plugins/viewplugins/imagesize/imagesize.cc:73
 #, fuzzy
 msgid "Change &Image Size..."
@@ -5915,6 +5942,7 @@ msgid "Add Drop Shadow..."
 msgstr ""
 
 #: plugins/viewplugins/dropshadow/dlg_dropshadow.cc:41
+#: plugins/viewplugins/dropshadow/kis_dropshadow.cc:129
 #: plugins/viewplugins/dropshadow/kis_dropshadow_plugin.cc:79
 msgid "Drop Shadow"
 msgstr ""
@@ -6032,6 +6060,10 @@ msgstr ""
 msgid "Image Restauration (cimg-based)"
 msgstr ""
 
+#: plugins/filters/cubismfilter/kis_cubism_filter.cc:61
+msgid "&Cubism..."
+msgstr ""
+
 #: plugins/filters/cubismfilter/kis_cubism_filter.cc:413
 #, fuzzy
 msgid "Tile size"
@@ -6147,7 +6179,7 @@ msgstr ""
 msgid "&Round Corners..."
 msgstr ""
 
-#: plugins/filters/pixelizefilter/kis_pixelize_filter.cc:105
+#: plugins/filters/pixelizefilter/kis_pixelize_filter.cc:103
 #: plugins/filters/roundcorners/kis_round_corners_filter.cc:66
 msgid "Applying pixelize filter..."
 msgstr ""
@@ -6183,6 +6215,11 @@ msgstr ""
 #: plugins/filters/raindropsfilter/kis_raindrops_filter.h:50
 msgid "Raindrops"
 msgstr ""
+
+#: plugins/filters/sobelfilter/kis_sobel_filter.cc:73
+#, fuzzy
+msgid "&Sobel..."
+msgstr "Gekoppel"
 
 #: plugins/filters/sobelfilter/kis_sobel_filter.cc:116
 msgid "Applying sobel filter..."
@@ -6264,7 +6301,7 @@ msgstr ""
 msgid "&Small Tiles..."
 msgstr ""
 
-#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cc:130
+#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cc:126
 msgid "Number of tiles"
 msgstr ""
 
@@ -6308,12 +6345,17 @@ msgstr "Herhaal:"
 msgid "Pixelize"
 msgstr ""
 
-#: plugins/filters/pixelizefilter/kis_pixelize_filter.cc:171
+#: plugins/filters/pixelizefilter/kis_pixelize_filter.cc:54
+#, fuzzy
+msgid "&Pixelize..."
+msgstr "Beeld"
+
+#: plugins/filters/pixelizefilter/kis_pixelize_filter.cc:169
 #, fuzzy
 msgid "Pixel width"
 msgstr "Kwas"
 
-#: plugins/filters/pixelizefilter/kis_pixelize_filter.cc:172
+#: plugins/filters/pixelizefilter/kis_pixelize_filter.cc:170
 #, fuzzy
 msgid "Pixel height"
 msgstr "Hoogte:"
@@ -6902,10 +6944,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Selection picker"
 #~ msgstr "Keuse"
-
-#, fuzzy
-#~ msgid "&Pixelize..."
-#~ msgstr "Beeld"
 
 #, fuzzy
 #~ msgid "Pen"
