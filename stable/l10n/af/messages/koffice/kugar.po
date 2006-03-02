@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kugar VERSION\n"
-"POT-Creation-Date: 2005-05-28 06:44+0200\n"
+"POT-Creation-Date: 2006-01-26 09:02+0100\n"
 "PO-Revision-Date: 2002-11-07 11:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: lib/kreportviewer.cpp:27 lib/kreportviewer.cpp:59
+#: lib/mreportviewer.cpp:155 lib/mreportviewer.cpp:293
 msgid ""
 "There are no pages in the\n"
 "report to print."
@@ -21,50 +21,49 @@ msgstr ""
 "Daar word nee bladsye in die\n"
 "raporteer na druk."
 
-#: lib/kreportviewer.cpp:89
+#: lib/mreportviewer.cpp:323
 msgid "Printing report..."
 msgstr "Besig om te druk raporteer..."
 
-#: part/kugar_part.cpp:100
+#: part/kugar_part.cpp:92
 #, fuzzy, c-format
 msgid "Invalid data file %1"
 msgstr "Ongeldige data lêer: %1"
 
-#: part/kugar_part.cpp:105
+#: part/kugar_part.cpp:97
 msgid "The zero sized data file %1 can't be rendered"
 msgstr ""
 
-#: part/kugar_part.cpp:112 part/kugar_view.cpp:101 shell/report.cpp:86
+#: part/kugar_part.cpp:104 part/kugar_view.cpp:98
 #, c-format
 msgid "Unable to open data file: %1"
 msgstr "Nie moontlik na open data lêer: %1"
 
-#: part/kugar_part.cpp:176 part/kugar_part.cpp:193 part/kugar_part.cpp:202
-#: shell/report.cpp:110
+#: part/kugar_part.cpp:169 part/kugar_part.cpp:186 part/kugar_part.cpp:195
 #, c-format
 msgid "Unable to download template file: %1"
 msgstr "Nie moontlik na aflaai werkvoorbeeld lêer: %1"
 
-#: part/kugar_part.cpp:225 shell/report.cpp:120
+#: part/kugar_part.cpp:218
 #, c-format
 msgid "Invalid template file: %1"
 msgstr "Ongeldige werkvoorbeeld lêer: %1"
 
-#: part/kugar_part.cpp:239 part/kugar_part.cpp:245
+#: part/kugar_part.cpp:232 part/kugar_part.cpp:238
 msgid "%1 is not a valid Kugar Designer template file."
 msgstr ""
 
-#: part/kugar_part.cpp:254
+#: part/kugar_part.cpp:247
 #, fuzzy, c-format
 msgid "Couldn't read the beginning of the template file: %1"
 msgstr "Nie moontlik na open werkvoorbeeld lêer: %1"
 
-#: part/kugar_part.cpp:259 shell/report.cpp:125
+#: part/kugar_part.cpp:252
 #, c-format
 msgid "Unable to open template file: %1"
 msgstr "Nie moontlik na open werkvoorbeeld lêer: %1"
 
-#: part/kugar_view.cpp:96 shell/report.cpp:81
+#: part/kugar_view.cpp:93
 #, c-format
 msgid "Invalid data file: %1"
 msgstr "Ongeldige data lêer: %1"
@@ -74,510 +73,544 @@ msgstr "Ongeldige data lêer: %1"
 msgid "File to open"
 msgstr "lêer na open"
 
-#: kudesigner/kudesigner_view.cpp:120 kudesigner_lib/canvreportheader.cpp:41
+#: kudesigner/kudesigner_view.cpp:143
+#, fuzzy
+msgid "Grid size:"
+msgstr "Bladsy grootte"
+
+#: kudesigner/kudesigner_view.cpp:192 kudesigner_lib/reportheader.cpp:45
 msgid "Report Header"
 msgstr "Raporteer Opskrif"
 
-#: kudesigner/kudesigner_view.cpp:122 kudesigner_lib/canvreportfooter.cpp:41
+#: kudesigner/kudesigner_view.cpp:194 kudesigner_lib/reportfooter.cpp:47
 msgid "Report Footer"
 msgstr "Raporteer Voetskrif"
 
-#: kudesigner/kudesigner_view.cpp:124 kudesigner_lib/canvpageheader.cpp:41
+#: kudesigner/kudesigner_view.cpp:196 kudesigner_lib/pageheader.cpp:46
 msgid "Page Header"
 msgstr "Bladsy Opskrif"
 
-#: kudesigner/kudesigner_view.cpp:126 kudesigner_lib/canvpagefooter.cpp:41
+#: kudesigner/kudesigner_view.cpp:198 kudesigner_lib/pagefooter.cpp:45
 msgid "Page Footer"
 msgstr "Bladsy Voetskrif"
 
-#: kudesigner/kudesigner_view.cpp:128
+#: kudesigner/kudesigner_view.cpp:200 kudesigner_lib/detailheader.cpp:39
 msgid "Detail Header"
 msgstr "Detail Opskrif"
 
-#: kudesigner/kudesigner_view.cpp:130 kudesigner_lib/canvdetail.cpp:42
+#: kudesigner/kudesigner_view.cpp:202 kudesigner_lib/detail.cpp:42
+#: kudesigner_lib/detailbase.cpp:29
 msgid "Detail"
 msgstr "Detail"
 
-#: kudesigner/kudesigner_view.cpp:132
+#: kudesigner/kudesigner_view.cpp:204 kudesigner_lib/detailfooter.cpp:39
 msgid "Detail Footer"
 msgstr "Detail Voetskrif"
 
-#: kudesigner/kudesigner_view.cpp:135
+#: kudesigner/kudesigner_view.cpp:207
 msgid "Clear Selection"
 msgstr "Maak skoon Keuse"
 
-#: kudesigner/kudesigner_view.cpp:139
+#: kudesigner/kudesigner_view.cpp:211 kudesigner_lib/commdefs.cpp:34
 msgid "Label"
 msgstr "Etiket"
 
-#: kudesigner/kudesigner_view.cpp:142
+#: kudesigner/kudesigner_view.cpp:214 kudesigner_lib/commdefs.cpp:36
+#: kudesigner_lib/field.cpp:36
 msgid "Field"
 msgstr "Veld"
 
-#: kudesigner/kudesigner_view.cpp:145
+#: kudesigner/kudesigner_view.cpp:217 kudesigner_lib/specialfield.cpp:33
 msgid "Special Field"
 msgstr "Spesiaal Veld"
 
-#: kudesigner/kudesigner_view.cpp:148
+#: kudesigner/kudesigner_view.cpp:220 kudesigner_lib/commdefs.cpp:40
 msgid "Calculated Field"
 msgstr "Bereken Veld"
 
-#: kudesigner/kudesigner_view.cpp:151
+#: kudesigner/kudesigner_view.cpp:223 kudesigner_lib/commdefs.cpp:42
+#: kudesigner_lib/label.cpp:62 kudesigner_lib/line.cpp:35
 msgid "Line"
 msgstr "Lyn"
 
-#: kudesigner/kudesigner_view.cpp:209
-msgid "Add Detail Header"
-msgstr "Voeg by Detail Opskrif"
+#: kudesigner/kudesigner_view.cpp:227
+#, fuzzy
+msgid "Grid Label"
+msgstr "Etiket"
 
-#: kudesigner/kudesigner_view.cpp:209 kudesigner/kudesigner_view.cpp:220
-#: kudesigner/kudesigner_view.cpp:232
-msgid "Enter detail level:"
-msgstr "Invoer detail vlak:"
-
-#: kudesigner/kudesigner_view.cpp:220
-msgid "Add Detail"
-msgstr "Voeg by Detail"
-
-#: kudesigner/kudesigner_view.cpp:232
-msgid "Add Detail Footer"
-msgstr "Voeg by Detail Voetskrif"
-
-#: kudesigner_lib/canvdefs.cpp:32
-msgid "Insert Label"
+#: kudesigner/kudesigner_view.cpp:230
+msgid "Grid Size"
 msgstr ""
 
-#: kudesigner_lib/canvdefs.cpp:34
+#: kudesigner_lib/calcfield.cpp:35
 #, fuzzy
-msgid ""
-"_: candefs\n"
-"Insert Label"
-msgstr "Bereken Veld"
-
-#: kudesigner_lib/canvdefs.cpp:38
-#, fuzzy
-msgid "Insert Field"
-msgstr "Bereken Veld"
-
-#: kudesigner_lib/canvdefs.cpp:40
-#, fuzzy
-msgid ""
-"_: candefs\n"
-"Insert Field"
-msgstr "Bereken Veld"
-
-#: kudesigner_lib/canvdefs.cpp:44
-#, fuzzy
-msgid "Insert Special"
-msgstr "Detail Voetskrif"
-
-#: kudesigner_lib/canvdefs.cpp:46
-#, fuzzy
-msgid ""
-"_: candefs\n"
-"Insert Special"
-msgstr "Raporteer Item Opsies"
-
-#: kudesigner_lib/canvdefs.cpp:50
-#, fuzzy
-msgid "Insert Calculated Field"
-msgstr "Bereken Veld"
-
-#: kudesigner_lib/canvdefs.cpp:52
-#, fuzzy
-msgid ""
-"_: candefs\n"
-"Insert Calculated Field"
-msgstr "Bereken Veld"
-
-#: kudesigner_lib/canvdefs.cpp:56
-msgid "Insert Line"
-msgstr ""
-
-#: kudesigner_lib/canvdefs.cpp:58
-#, fuzzy
-msgid ""
-"_: candefs\n"
-"Insert Line"
-msgstr "Raporteer Item Opsies"
-
-#: kudesigner_lib/canvdefs.cpp:63 kudesigner_lib/kudesigner_command.cpp:237
-#, fuzzy
-msgid "Insert Report Item"
-msgstr "Raporteer Item Opsies"
-
-#: kudesigner_lib/canvdefs.cpp:65
-#, fuzzy
-msgid ""
-"_: candefs\n"
-"Insert Report Item"
-msgstr "Raporteer Item Opsies"
-
-#: kudesigner_lib/canvdetail.cpp:35
-msgid "Detail height"
-msgstr "Detail hoogte"
-
-#: kudesigner_lib/canvdetail.cpp:36
-msgid "Detail level"
-msgstr "Detail vlak"
-
-#: kudesigner_lib/canvdetailfooter.cpp:35
-#, fuzzy
-msgid "Detail footer's height"
-msgstr "Detail header's hoogte"
-
-#: kudesigner_lib/canvdetailfooter.cpp:36
-#, fuzzy
-msgid "Detail footer's level"
-msgstr "Detail header's vlak"
-
-#: kudesigner_lib/canvdetailfooter.cpp:41
-msgid "Detail footer"
-msgstr "Detail voetskrif"
-
-#: kudesigner_lib/canvdetailheader.cpp:35
-msgid "Detail header's height"
-msgstr "Detail header's hoogte"
-
-#: kudesigner_lib/canvdetailheader.cpp:37
-msgid "Detail header's level"
-msgstr "Detail header's vlak"
-
-#: kudesigner_lib/canvdetailheader.cpp:42
-msgid "Detail header"
-msgstr "Detail opskrif"
-
-#: kudesigner_lib/canvkutemplate.cpp:89
-msgid "Page size"
-msgstr "Bladsy grootte"
-
-#: kudesigner_lib/canvkutemplate.cpp:95
-msgid "Page orientation"
-msgstr "Bladsy oriëntasie"
-
-#: kudesigner_lib/canvkutemplate.cpp:98
-msgid "Top margin"
-msgstr "Bo kantlyn"
-
-#: kudesigner_lib/canvkutemplate.cpp:100
-msgid "Bottom margin"
-msgstr "Bodem kantlyn"
-
-#: kudesigner_lib/canvkutemplate.cpp:102
-msgid "Left margin"
-msgstr "Links kantlyn"
-
-#: kudesigner_lib/canvkutemplate.cpp:104
-msgid "Right margin"
-msgstr "Regterkant kantlyn"
-
-#: kudesigner_lib/canvpagefooter.cpp:35
-#, fuzzy
-msgid "Page footer's height"
-msgstr "Bladsy header's hoogte"
-
-#: kudesigner_lib/canvpageheader.cpp:35
-msgid "Page header's height"
-msgstr "Bladsy header's hoogte"
-
-#: kudesigner_lib/canvreportfooter.cpp:35
-#, fuzzy
-msgid "Report footer's height"
-msgstr "Raporteer header's hoogte"
-
-#: kudesigner_lib/canvreportheader.cpp:35
-msgid "Report header's height"
-msgstr "Raporteer header's hoogte"
-
-#: kudesigner_lib/ccalcfield.cpp:36
-msgid "Calculation type"
+msgid "Calculation"
 msgstr "Berekening tipe"
 
-#: kudesigner_lib/cfield.cpp:34
-msgid "Field to display"
-msgstr "Veld na vertoon"
+#: kudesigner_lib/calcfield.cpp:36
+#, fuzzy
+msgid "Count"
+msgstr "0 - Tel"
 
-#: kudesigner_lib/cfield.cpp:34
+#: kudesigner_lib/calcfield.cpp:37
+#, fuzzy
+msgid "Sum"
+msgstr "1 - Som"
+
+#: kudesigner_lib/calcfield.cpp:38
+#, fuzzy
+msgid "Average"
+msgstr "2 - Gemiddelde"
+
+#: kudesigner_lib/calcfield.cpp:39
+#, fuzzy
+msgid "Variance"
+msgstr "3 - Variansie"
+
+#: kudesigner_lib/calcfield.cpp:40
+msgid "StandardDeviation"
+msgstr ""
+
+#: kudesigner_lib/calcfield.cpp:41 kudesigner_lib/field.cpp:45
+#: kudesigner_lib/specialfield.cpp:37
+msgid "Type"
+msgstr ""
+
+#: kudesigner_lib/calcfield.cpp:41
+#, fuzzy
+msgid "Calculation Type"
+msgstr "Berekening tipe"
+
+#: kudesigner_lib/commdefs.cpp:38
+#, fuzzy
+msgid "Special"
+msgstr "Spesiaal Veld"
+
+#: kudesigner_lib/commdefs.cpp:45
+#, fuzzy
+msgid "Report Item"
+msgstr "Raporteer Item Opsies"
+
+#: kudesigner_lib/detail.cpp:34 kudesigner_lib/detailfooter.cpp:34
+#: kudesigner_lib/detailheader.cpp:34
+#, fuzzy
+msgid "Level"
+msgstr "Wettig"
+
+#: kudesigner_lib/detail.cpp:34 kudesigner_lib/detailfooter.cpp:34
+#: kudesigner_lib/detailheader.cpp:34
+#, fuzzy
+msgid "Detail Level"
+msgstr "Detail vlak"
+
+#: kudesigner_lib/detail.cpp:35
+msgid "Repeat"
+msgstr ""
+
+#: kudesigner_lib/detail.cpp:35
+msgid "Repeat After Page Break"
+msgstr ""
+
+#: kudesigner_lib/field.cpp:38
+msgid "Name"
+msgstr ""
+
+#: kudesigner_lib/field.cpp:38
 #, fuzzy
 msgid "Field Name"
 msgstr "Veld"
 
-#: kudesigner_lib/cfield.cpp:41
-msgid "Data type"
-msgstr "Data tipe"
+#: kudesigner_lib/field.cpp:40
+#, fuzzy
+msgid "String"
+msgstr "0 - String"
 
-#: kudesigner_lib/cfield.cpp:57 kudesigner_lib/cspecialfield.cpp:49
-msgid "Date format"
-msgstr "Datum formaat"
+#: kudesigner_lib/field.cpp:41
+#, fuzzy
+msgid "Integer"
+msgstr "1 - Heelgetal"
 
-#: kudesigner_lib/cfield.cpp:60
-msgid "Number of digits after comma"
-msgstr "Nommer van syfers na komma"
+#: kudesigner_lib/field.cpp:42
+#, fuzzy
+msgid "Float"
+msgstr "2 - Dryf"
 
-#: kudesigner_lib/cfield.cpp:63
-msgid "Currency symbol"
+#: kudesigner_lib/field.cpp:43 kudesigner_lib/specialfield.cpp:35
+#: kudesigner_lib/specialfield.cpp:59
+msgid "Date"
+msgstr "Datum"
+
+#: kudesigner_lib/field.cpp:44 kudesigner_lib/field.cpp:68
+#, fuzzy
+msgid "Currency"
 msgstr "Geld eenheid simbool"
 
-#: kudesigner_lib/cfield.cpp:65
-msgid "Negative value color"
+#: kudesigner_lib/field.cpp:45
+#, fuzzy
+msgid "Data Type"
+msgstr "Data tipe"
+
+#: kudesigner_lib/field.cpp:48 kudesigner_lib/specialfield.cpp:40
+#, fuzzy
+msgid "m/d/y"
+msgstr "0 - m/d/y"
+
+#: kudesigner_lib/field.cpp:49 kudesigner_lib/specialfield.cpp:41
+#, fuzzy
+msgid "m-d-y"
+msgstr "1 - m-d-y"
+
+#: kudesigner_lib/field.cpp:50 kudesigner_lib/specialfield.cpp:42
+#, fuzzy
+msgid "mm/dd/y"
+msgstr "2 - mm/dd/y"
+
+#: kudesigner_lib/field.cpp:51 kudesigner_lib/specialfield.cpp:43
+#, fuzzy
+msgid "mm-dd-y"
+msgstr "3 - mm-dd-y"
+
+#: kudesigner_lib/field.cpp:52 kudesigner_lib/specialfield.cpp:44
+msgid "m/d/yyyy"
+msgstr ""
+
+#: kudesigner_lib/field.cpp:53 kudesigner_lib/specialfield.cpp:45
+msgid "m-d-yyyy"
+msgstr ""
+
+#: kudesigner_lib/field.cpp:54 kudesigner_lib/specialfield.cpp:46
+#, fuzzy
+msgid "mm/dd/yyyy"
+msgstr "2 - mm/dd/y"
+
+#: kudesigner_lib/field.cpp:55 kudesigner_lib/specialfield.cpp:47
+#, fuzzy
+msgid "mm-dd-yyyy"
+msgstr "3 - mm-dd-y"
+
+#: kudesigner_lib/field.cpp:56 kudesigner_lib/specialfield.cpp:48
+msgid "yyyy/m/d"
+msgstr ""
+
+#: kudesigner_lib/field.cpp:57 kudesigner_lib/specialfield.cpp:49
+msgid "yyyy-m-d"
+msgstr ""
+
+#: kudesigner_lib/field.cpp:58 kudesigner_lib/specialfield.cpp:50
+msgid "dd.mm.yy"
+msgstr ""
+
+#: kudesigner_lib/field.cpp:59 kudesigner_lib/specialfield.cpp:51
+msgid "dd.mm.yyyy"
+msgstr ""
+
+#: kudesigner_lib/field.cpp:62 kudesigner_lib/specialfield.cpp:53
+#, fuzzy
+msgid "Date Format"
+msgstr "Datum formaat"
+
+#: kudesigner_lib/field.cpp:65
+msgid "Precision"
+msgstr ""
+
+#: kudesigner_lib/field.cpp:65
+#, fuzzy
+msgid "Number of Digits After Comma"
+msgstr "Nommer van syfers na komma"
+
+#: kudesigner_lib/field.cpp:68
+#, fuzzy
+msgid "Currency Symbol"
+msgstr "Geld eenheid simbool"
+
+#: kudesigner_lib/field.cpp:70
+#, fuzzy
+msgid "Negative Value Color"
 msgstr "Negatiewe waarde kleur"
 
-#: kudesigner_lib/cfield.cpp:67
-msgid "Comma separator"
+#: kudesigner_lib/field.cpp:72
+#, fuzzy
+msgid "Comma Separator"
 msgstr "Komma skeier"
 
-#: kudesigner_lib/cfield.cpp:89 kudesigner_lib/cfield.cpp:92
+#: kudesigner_lib/field.cpp:74
+msgid "InputMask"
+msgstr ""
+
+#: kudesigner_lib/field.cpp:96
 #, fuzzy
 msgid "Change Field"
 msgstr "Bereken Veld"
 
-#: kudesigner_lib/clabel.cpp:36
-msgid "Text to display"
-msgstr "Teks na vertoon"
+#: kudesigner_lib/kugartemplate.cpp:61
+msgid "Document Settings"
+msgstr ""
 
-#: kudesigner_lib/clabel.cpp:36
+#: kudesigner_lib/kugartemplate.cpp:95
+#, fuzzy
+msgid "Page Size"
+msgstr "Bladsy grootte:"
+
+#: kudesigner_lib/kugartemplate.cpp:100
+#, fuzzy
+msgid "Page Orientation"
+msgstr "Bladsy oriëntasie"
+
+#: kudesigner_lib/kugartemplate.cpp:103
+#, fuzzy
+msgid "Top Margin"
+msgstr "Bo kantlyn"
+
+#: kudesigner_lib/kugartemplate.cpp:104
+#, fuzzy
+msgid "Bottom Margin"
+msgstr "Bodem kantlyn"
+
+#: kudesigner_lib/kugartemplate.cpp:105
+#, fuzzy
+msgid "Left Margin"
+msgstr "Links kantlyn"
+
+#: kudesigner_lib/kugartemplate.cpp:106
+#, fuzzy
+msgid "Right Margin"
+msgstr "Regterkant kantlyn"
+
+#: kudesigner_lib/label.cpp:42
 msgid "Text"
 msgstr "Teks"
 
-#: kudesigner_lib/clabel.cpp:38
-msgid "X coordinate corresponding to section"
+#: kudesigner_lib/label.cpp:42
+#, fuzzy
+msgid "Text to Display"
+msgstr "Teks na vertoon"
+
+#: kudesigner_lib/label.cpp:44
+msgid "Geometry"
 msgstr ""
 
-#: kudesigner_lib/clabel.cpp:40
-msgid "Y coordinate corresponding to section"
+#: kudesigner_lib/label.cpp:45
+msgid "X"
 msgstr ""
 
-#: kudesigner_lib/clabel.cpp:46
-msgid "Background color"
+#: kudesigner_lib/label.cpp:45
+#, fuzzy
+msgid "X value"
+msgstr "Waarde"
+
+#: kudesigner_lib/label.cpp:47
+msgid "Y"
+msgstr ""
+
+#: kudesigner_lib/label.cpp:47
+#, fuzzy
+msgid "Y value"
+msgstr "Waarde"
+
+#: kudesigner_lib/label.cpp:53
+#, fuzzy
+msgid "Background Color"
 msgstr "Agtergrond kleur"
 
-#: kudesigner_lib/clabel.cpp:48
-msgid "Text color"
-msgstr "Teks kleur"
+#: kudesigner_lib/label.cpp:55
+#, fuzzy
+msgid "Foreground Color"
+msgstr "Agtergrond kleur"
 
-#: kudesigner_lib/clabel.cpp:50
-msgid "Border color"
-msgstr "Grens kleur"
-
-#: kudesigner_lib/clabel.cpp:52
-msgid "Border width"
-msgstr "Grens wydte"
-
-#: kudesigner_lib/clabel.cpp:54
-msgid "Border style"
+#: kudesigner_lib/label.cpp:57 kudesigner_lib/label.cpp:62
+#, fuzzy
+msgid "Border Style"
 msgstr "Grens styl"
 
-#: kudesigner_lib/clabel.cpp:56
-msgid "Font family"
+#: kudesigner_lib/label.cpp:58 kudesigner_lib/line.cpp:44
+msgid "Color"
+msgstr "Kleur"
+
+#: kudesigner_lib/label.cpp:58
+#, fuzzy
+msgid "Border Color"
+msgstr "Grens kleur"
+
+#: kudesigner_lib/label.cpp:60
+#, fuzzy
+msgid "Border Width"
+msgstr "Grens wydte"
+
+#: kudesigner_lib/label.cpp:65
+msgid "Draw Top Border"
+msgstr ""
+
+#: kudesigner_lib/label.cpp:66
+msgid "Draw Bottom Border"
+msgstr ""
+
+#: kudesigner_lib/label.cpp:67
+msgid "Draw Left Border"
+msgstr ""
+
+#: kudesigner_lib/label.cpp:68
+msgid "Draw Right Border"
+msgstr ""
+
+#: kudesigner_lib/label.cpp:72
+#, fuzzy
+msgid "Family"
 msgstr "Skrif tipe familie"
 
-#: kudesigner_lib/clabel.cpp:58
-msgid "Font size"
-msgstr "Skrif tipe grootte"
+#: kudesigner_lib/label.cpp:72
+#, fuzzy
+msgid "Font Family"
+msgstr "Skrif tipe familie"
 
-#: kudesigner_lib/clabel.cpp:65
-msgid "Font weight"
-msgstr "Skrif tipe gewig"
+#: kudesigner_lib/label.cpp:74
+msgid "Size"
+msgstr ""
 
-#: kudesigner_lib/clabel.cpp:70
-msgid "Italic font"
-msgstr "Kursief skrif tipe"
+#: kudesigner_lib/label.cpp:76
+#, fuzzy
+msgid "Light"
+msgstr "25 - Ligte"
 
-#: kudesigner_lib/clabel.cpp:76
-msgid "Text horizontal alignment"
-msgstr "Teks horisontaal oplyn"
+#: kudesigner_lib/label.cpp:77
+#, fuzzy
+msgid "Normal"
+msgstr "50 - Normale"
 
-#: kudesigner_lib/clabel.cpp:83
-msgid "Text vertical alignment"
-msgstr "Teks vertikaal oplyn"
+#: kudesigner_lib/label.cpp:78
+msgid "DemiBold"
+msgstr ""
 
-#: kudesigner_lib/clabel.cpp:88
+#: kudesigner_lib/label.cpp:79
+#, fuzzy
+msgid "Bold"
+msgstr "75 - Vetdruk"
+
+#: kudesigner_lib/label.cpp:80
+msgid "Black"
+msgstr ""
+
+#: kudesigner_lib/label.cpp:81
+msgid "Weight"
+msgstr ""
+
+#: kudesigner_lib/label.cpp:84
+msgid "Regular"
+msgstr ""
+
+#: kudesigner_lib/label.cpp:93
+msgid "HAlignment"
+msgstr ""
+
+#: kudesigner_lib/label.cpp:97
+#, fuzzy
+msgid "Middle"
+msgstr "1 - Middelste"
+
+#: kudesigner_lib/label.cpp:99
+msgid "VAlignment"
+msgstr ""
+
+#: kudesigner_lib/label.cpp:102
+#, fuzzy
+msgid "False"
+msgstr "0 - Vals"
+
+#: kudesigner_lib/label.cpp:103
+#, fuzzy
+msgid "True"
+msgstr "1 - Waar"
+
+#: kudesigner_lib/label.cpp:104
 msgid "Word wrap"
 msgstr "Woord oorvloei"
 
-#: kudesigner_lib/clabel.cpp:212 kudesigner_lib/clabel.cpp:215
+#: kudesigner_lib/label.cpp:248
 #, fuzzy
 msgid "Change Label"
 msgstr "Bereken Veld"
 
-#: kudesigner_lib/cline.cpp:31
-msgid "X1 coordinate corresponding to section"
+#: kudesigner_lib/line.cpp:36
+msgid "X1"
 msgstr ""
 
-#: kudesigner_lib/cline.cpp:33
-msgid "Y1 coordinate corresponding to section"
+#: kudesigner_lib/line.cpp:38
+msgid "Y1"
 msgstr ""
 
-#: kudesigner_lib/cline.cpp:35
-msgid "X2 coordinate corresponding to section"
+#: kudesigner_lib/line.cpp:40
+msgid "X2"
 msgstr ""
 
-#: kudesigner_lib/cline.cpp:37
-msgid "Y2 coordinate corresponding to section"
+#: kudesigner_lib/line.cpp:42
+msgid "Y2"
 msgstr ""
 
-#: kudesigner_lib/cline.cpp:39
-msgid "Color"
-msgstr "Kleur"
-
-#: kudesigner_lib/cline.cpp:43
-msgid "Line style"
+#: kudesigner_lib/line.cpp:48
+#, fuzzy
+msgid "Line Style"
 msgstr "Lyn styl"
 
-#: kudesigner_lib/cspecialfield.cpp:33
-msgid "Field type to display"
-msgstr "Veld tipe na vertoon"
+#: kudesigner_lib/pagefooter.cpp:36 kudesigner_lib/pageheader.cpp:36
+#: kudesigner_lib/reportfooter.cpp:37 kudesigner_lib/reportheader.cpp:36
+msgid "First Page"
+msgstr ""
 
-#: kudesigner_lib/cspecialfield.cpp:55
+#: kudesigner_lib/pagefooter.cpp:37 kudesigner_lib/pageheader.cpp:37
+#: kudesigner_lib/reportfooter.cpp:38 kudesigner_lib/reportheader.cpp:37
+msgid "Every Page"
+msgstr ""
+
+#: kudesigner_lib/pagefooter.cpp:38 kudesigner_lib/pageheader.cpp:38
+#: kudesigner_lib/reportfooter.cpp:39 kudesigner_lib/reportheader.cpp:38
+msgid "Last Page"
+msgstr ""
+
+#: kudesigner_lib/pagefooter.cpp:40 kudesigner_lib/pageheader.cpp:40
+#: kudesigner_lib/reportfooter.cpp:41 kudesigner_lib/reportheader.cpp:40
+msgid "Print Frequency"
+msgstr ""
+
+#: kudesigner_lib/section.cpp:29
+#, fuzzy
+msgid "Section"
+msgstr "Seksies"
+
+#: kudesigner_lib/specialfield.cpp:36
+msgid "PageNumber"
+msgstr ""
+
+#: kudesigner_lib/specialfield.cpp:37
+#, fuzzy
+msgid "Special Field Type"
+msgstr "Spesiaal Veld"
+
+#: kudesigner_lib/specialfield.cpp:59
 msgid "PageNo"
 msgstr ""
 
-#: kudesigner_lib/cspecialfield.cpp:55
-msgid "Date"
-msgstr "Datum"
-
-#: kudesigner_lib/kudesigner_command.cpp:55
-#, fuzzy
-msgid "Insert Detail Footer Section"
-msgstr "Detail Voetskrif"
-
-#: kudesigner_lib/kudesigner_command.cpp:82
-#, fuzzy
-msgid "Insert Detail Section"
-msgstr "Detail Voetskrif"
-
-#: kudesigner_lib/kudesigner_command.cpp:110
-#, fuzzy
-msgid "Insert Detail Header Section"
-msgstr "Detail Voetskrif"
-
-#: kudesigner_lib/kudesigner_command.cpp:137
-#, fuzzy
-msgid "Insert Page Footer Section"
-msgstr "Detail Voetskrif"
-
-#: kudesigner_lib/kudesigner_command.cpp:162
-#, fuzzy
-msgid "Insert Page Header Section"
-msgstr "Detail Voetskrif"
-
-#: kudesigner_lib/kudesigner_command.cpp:187
-#, fuzzy
-msgid "Insert Report Footer Section"
-msgstr "Detail Voetskrif"
-
-#: kudesigner_lib/kudesigner_command.cpp:212
-#, fuzzy
-msgid "Insert Report Header Section"
-msgstr "Detail Voetskrif"
-
-#: kudesigner_lib/kudesigner_command.cpp:290
-#, fuzzy
-msgid "Delete Report Item(s)"
-msgstr "Raporteer Item Opsies"
-
-#: kudesigner_lib/mycolorcombo.cpp:150 kudesigner_lib/mycolorcombo.cpp:203
-msgid "Custom..."
-msgstr ""
-
-#: kudesigner_lib/mycommand.cpp:158 kudesigner_lib/mycommand.cpp:173
-#: kudesigner_lib/mycommand.cpp:204 kudesigner_lib/mycommand.cpp:244
-#, c-format
-msgid "&Undo: %1"
-msgstr ""
-
-#: kudesigner_lib/mycommand.cpp:197 kudesigner_lib/mycommand.cpp:250
-#, c-format
-msgid "&Redo: %1"
-msgstr ""
-
-#: kudesigner_lib/mycommand.cpp:325
-#, c-format
-msgid "Undo: %1"
-msgstr ""
-
-#: kudesigner_lib/mycommand.cpp:344 kudesigner_lib/mycommand.cpp:349
-#, c-format
-msgid "Redo: %1"
-msgstr ""
-
-#: kudesigner_lib/propertyeditor.cpp:41
-msgid "Property"
-msgstr "Eienskap"
-
-#: kudesigner_lib/propertyeditor.cpp:42
-msgid "Value"
-msgstr "Waarde"
-
-#: shell/main.cpp:21
-msgid "Kugar"
-msgstr "Kugar"
-
-#: shell/main.cpp:22
-msgid "A template driven report viewer for XML data."
-msgstr "'n werkvoorbeeld gedrewe raporteer aansig vir Xml data."
-
-#: shell/main.cpp:26
-msgid ""
-"Kugar merges XML data files with XML templates\n"
-"to display and print high quality reports."
-msgstr ""
-"Kugar vlans saam Xml data lêers met Xml voorbeelde\n"
-"na vertoon en druk hoog kwaliteit raporte."
-
-#: shell/main.cpp:30
-msgid "Current maintainer, Report Designer, General Enhancements, Bugfixes"
-msgstr ""
-"Huidige onderhouer, Raporteer Ontwerper, Algemeen Verbeteringe, Bug "
-"herstellings"
-
-#: shell/main.cpp:32
-msgid "Former maintainer, Shell, Konqueror Part"
-msgstr "Vorige onderhouer, Tolk, Konqueror Deel"
-
-#: shell/main.cpp:34
-msgid "Original author"
-msgstr ""
-
-#: shell/main.cpp:39
-#, fuzzy
-msgid "The XML data file"
-msgstr "Die Xml data lêer."
-
-#: shell/main.cpp:40
-#, fuzzy
-msgid "The XML template file URL"
-msgstr "Die Xml werkvoorbeeld lêer Url."
-
 #. i18n: file kudesigner/kudesignerui.rc line 16
-#: rc.cpp:9 rc.cpp:30
+#: rc.cpp:9
 #, no-c-format
 msgid "Sec&tions"
 msgstr "Seksies"
 
 #. i18n: file kudesigner/kudesignerui.rc line 25
-#: rc.cpp:12 rc.cpp:33
+#: rc.cpp:12
 #, no-c-format
 msgid "&Items"
 msgstr "Iteme"
 
-#. i18n: file kudesigner/kudesignerui.rc line 46
-#: rc.cpp:18 rc.cpp:36
+#. i18n: file kudesigner/kudesignerui.rc line 49
+#: rc.cpp:18
 #, fuzzy, no-c-format
 msgid "Sections"
 msgstr "Seksies"
 
-#. i18n: file kudesigner/kudesignerui.rc line 55
-#: rc.cpp:21 rc.cpp:39
+#. i18n: file kudesigner/kudesignerui.rc line 58
+#: rc.cpp:21
 #, fuzzy, no-c-format
 msgid "Items"
 msgstr "Iteme"
-
-#. i18n: file shell/kugarui.rc line 4
-#: rc.cpp:45
-#, no-c-format
-msgid "&Go"
-msgstr "Gaan"
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -590,6 +623,207 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr ""
+
+#~ msgid "Add Detail Header"
+#~ msgstr "Voeg by Detail Opskrif"
+
+#~ msgid "Enter detail level:"
+#~ msgstr "Invoer detail vlak:"
+
+#~ msgid "Add Detail"
+#~ msgstr "Voeg by Detail"
+
+#~ msgid "Add Detail Footer"
+#~ msgstr "Voeg by Detail Voetskrif"
+
+#, fuzzy
+#~ msgid ""
+#~ "_: candefs\n"
+#~ "Insert Label"
+#~ msgstr "Bereken Veld"
+
+#, fuzzy
+#~ msgid "Insert Field"
+#~ msgstr "Bereken Veld"
+
+#, fuzzy
+#~ msgid ""
+#~ "_: candefs\n"
+#~ "Insert Field"
+#~ msgstr "Bereken Veld"
+
+#, fuzzy
+#~ msgid "Insert Special"
+#~ msgstr "Detail Voetskrif"
+
+#, fuzzy
+#~ msgid ""
+#~ "_: candefs\n"
+#~ "Insert Special"
+#~ msgstr "Raporteer Item Opsies"
+
+#, fuzzy
+#~ msgid "Insert Calculated Field"
+#~ msgstr "Bereken Veld"
+
+#, fuzzy
+#~ msgid ""
+#~ "_: candefs\n"
+#~ "Insert Calculated Field"
+#~ msgstr "Bereken Veld"
+
+#, fuzzy
+#~ msgid ""
+#~ "_: candefs\n"
+#~ "Insert Line"
+#~ msgstr "Raporteer Item Opsies"
+
+#, fuzzy
+#~ msgid ""
+#~ "_: candefs\n"
+#~ "Insert Report Item"
+#~ msgstr "Raporteer Item Opsies"
+
+#~ msgid "Detail height"
+#~ msgstr "Detail hoogte"
+
+#, fuzzy
+#~ msgid "Detail footer's height"
+#~ msgstr "Detail header's hoogte"
+
+#, fuzzy
+#~ msgid "Detail footer's level"
+#~ msgstr "Detail header's vlak"
+
+#~ msgid "Detail footer"
+#~ msgstr "Detail voetskrif"
+
+#~ msgid "Detail header's height"
+#~ msgstr "Detail header's hoogte"
+
+#~ msgid "Detail header's level"
+#~ msgstr "Detail header's vlak"
+
+#~ msgid "Detail header"
+#~ msgstr "Detail opskrif"
+
+#~ msgid "Page size"
+#~ msgstr "Bladsy grootte"
+
+#~ msgid "Top margin"
+#~ msgstr "Bo kantlyn"
+
+#~ msgid "Bottom margin"
+#~ msgstr "Bodem kantlyn"
+
+#~ msgid "Left margin"
+#~ msgstr "Links kantlyn"
+
+#~ msgid "Right margin"
+#~ msgstr "Regterkant kantlyn"
+
+#, fuzzy
+#~ msgid "Page footer's height"
+#~ msgstr "Bladsy header's hoogte"
+
+#~ msgid "Page header's height"
+#~ msgstr "Bladsy header's hoogte"
+
+#, fuzzy
+#~ msgid "Report footer's height"
+#~ msgstr "Raporteer header's hoogte"
+
+#~ msgid "Report header's height"
+#~ msgstr "Raporteer header's hoogte"
+
+#~ msgid "Field to display"
+#~ msgstr "Veld na vertoon"
+
+#~ msgid "Text color"
+#~ msgstr "Teks kleur"
+
+#~ msgid "Font size"
+#~ msgstr "Skrif tipe grootte"
+
+#~ msgid "Font weight"
+#~ msgstr "Skrif tipe gewig"
+
+#~ msgid "Italic font"
+#~ msgstr "Kursief skrif tipe"
+
+#~ msgid "Text horizontal alignment"
+#~ msgstr "Teks horisontaal oplyn"
+
+#~ msgid "Text vertical alignment"
+#~ msgstr "Teks vertikaal oplyn"
+
+#~ msgid "Field type to display"
+#~ msgstr "Veld tipe na vertoon"
+
+#, fuzzy
+#~ msgid "Insert Detail Footer Section"
+#~ msgstr "Detail Voetskrif"
+
+#, fuzzy
+#~ msgid "Insert Detail Section"
+#~ msgstr "Detail Voetskrif"
+
+#, fuzzy
+#~ msgid "Insert Detail Header Section"
+#~ msgstr "Detail Voetskrif"
+
+#, fuzzy
+#~ msgid "Insert Page Footer Section"
+#~ msgstr "Detail Voetskrif"
+
+#, fuzzy
+#~ msgid "Insert Page Header Section"
+#~ msgstr "Detail Voetskrif"
+
+#, fuzzy
+#~ msgid "Insert Report Footer Section"
+#~ msgstr "Detail Voetskrif"
+
+#, fuzzy
+#~ msgid "Insert Report Header Section"
+#~ msgstr "Detail Voetskrif"
+
+#, fuzzy
+#~ msgid "Delete Report Item(s)"
+#~ msgstr "Raporteer Item Opsies"
+
+#~ msgid "Property"
+#~ msgstr "Eienskap"
+
+#~ msgid "Kugar"
+#~ msgstr "Kugar"
+
+#~ msgid "A template driven report viewer for XML data."
+#~ msgstr "'n werkvoorbeeld gedrewe raporteer aansig vir Xml data."
+
+#~ msgid ""
+#~ "Kugar merges XML data files with XML templates\n"
+#~ "to display and print high quality reports."
+#~ msgstr ""
+#~ "Kugar vlans saam Xml data lêers met Xml voorbeelde\n"
+#~ "na vertoon en druk hoog kwaliteit raporte."
+
+#~ msgid "Current maintainer, Report Designer, General Enhancements, Bugfixes"
+#~ msgstr "Huidige onderhouer, Raporteer Ontwerper, Algemeen Verbeteringe, Bug herstellings"
+
+#~ msgid "Former maintainer, Shell, Konqueror Part"
+#~ msgstr "Vorige onderhouer, Tolk, Konqueror Deel"
+
+#, fuzzy
+#~ msgid "The XML data file"
+#~ msgstr "Die Xml data lêer."
+
+#, fuzzy
+#~ msgid "The XML template file URL"
+#~ msgstr "Die Xml werkvoorbeeld lêer Url."
+
+#~ msgid "&Go"
+#~ msgstr "Gaan"
 
 #, fuzzy
 #~ msgid "Kugar Designer"
@@ -794,10 +1028,6 @@ msgstr ""
 #~ msgid "New Report"
 #~ msgstr "Nuwe Raporteer"
 
-#, fuzzy
-#~ msgid "Page size:"
-#~ msgstr "Bladsy grootte"
-
 #~ msgid "A4"
 #~ msgstr "A4"
 
@@ -806,9 +1036,6 @@ msgstr ""
 
 #~ msgid "Letter"
 #~ msgstr "Brief"
-
-#~ msgid "Legal"
-#~ msgstr "Wettig"
 
 #~ msgid "Executive"
 #~ msgstr "Uitvoerbare"
@@ -980,32 +1207,8 @@ msgstr ""
 #~ msgstr "Veld"
 
 #, fuzzy
-#~ msgid "Add Label"
-#~ msgstr "Etiket"
-
-#, fuzzy
 #~ msgid "&Label"
 #~ msgstr "Etiket"
-
-#, fuzzy
-#~ msgid "Page Size:"
-#~ msgstr "Bladsy grootte:"
-
-#, fuzzy
-#~ msgid "Right Margin"
-#~ msgstr "Regterkant kantlyn"
-
-#, fuzzy
-#~ msgid "Top Margin"
-#~ msgstr "Bo kantlyn"
-
-#, fuzzy
-#~ msgid "Bottom Margin"
-#~ msgstr "Bodem kantlyn"
-
-#, fuzzy
-#~ msgid "Left Margin"
-#~ msgstr "Links kantlyn"
 
 #~ msgid "0 - Portrait"
 #~ msgstr "0 - Portret"
@@ -1013,41 +1216,8 @@ msgstr ""
 #~ msgid "1 - Landscape"
 #~ msgstr "1 - Landskap"
 
-#~ msgid "0 - Count"
-#~ msgstr "0 - Tel"
-
-#~ msgid "1 - Sum"
-#~ msgstr "1 - Som"
-
-#~ msgid "2 - Average"
-#~ msgstr "2 - Gemiddelde"
-
-#~ msgid "3 - Variance"
-#~ msgstr "3 - Variansie"
-
-#~ msgid "0 - String"
-#~ msgstr "0 - String"
-
-#~ msgid "1 - Integer"
-#~ msgstr "1 - Heelgetal"
-
-#~ msgid "2 - Float"
-#~ msgstr "2 - Dryf"
-
 #~ msgid "3 - Date"
 #~ msgstr "3 - Datum"
-
-#~ msgid "0 - m/d/y"
-#~ msgstr "0 - m/d/y"
-
-#~ msgid "1 - m-d-y"
-#~ msgstr "1 - m-d-y"
-
-#~ msgid "2 - mm/dd/y"
-#~ msgstr "2 - mm/dd/y"
-
-#~ msgid "3 - mm-dd-y"
-#~ msgstr "3 - mm-dd-y"
 
 #~ msgid "20 - ' '"
 #~ msgstr "20 - ' '"
@@ -1064,21 +1234,6 @@ msgstr ""
 #~ msgid "0 - No pen"
 #~ msgstr "0 - Nee pen"
 
-#~ msgid "25 - Light"
-#~ msgstr "25 - Ligte"
-
-#~ msgid "50 - Normal"
-#~ msgstr "50 - Normale"
-
-#~ msgid "75 - Bold"
-#~ msgstr "75 - Vetdruk"
-
-#~ msgid "0 - False"
-#~ msgstr "0 - Vals"
-
-#~ msgid "1 - True"
-#~ msgstr "1 - Waar"
-
 #~ msgid "0 - Left"
 #~ msgstr "0 - Links"
 
@@ -1090,9 +1245,6 @@ msgstr ""
 
 #~ msgid "0 - Top"
 #~ msgstr "0 - Bo"
-
-#~ msgid "1 - Middle"
-#~ msgstr "1 - Middelste"
 
 #~ msgid "2 - Bottom"
 #~ msgstr "2 - Bodem"
