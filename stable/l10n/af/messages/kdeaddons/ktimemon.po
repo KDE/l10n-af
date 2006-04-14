@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ktimemon VERSION\n"
-"POT-Creation-Date: 2005-11-30 03:25+0100\n"
+"POT-Creation-Date: 2006-04-14 03:57+0200\n"
 "PO-Revision-Date: 2002-11-07 11:26+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -49,7 +49,7 @@ msgstr "Konteks wissel:"
 msgid "C&olors"
 msgstr "Kleure"
 
-#: confdlg.cc:98 confdlg.cc:109
+#: confdlg.cc:98 confdlg.cc:104
 msgid "Kernel:"
 msgstr "Kernel:"
 
@@ -57,79 +57,81 @@ msgstr "Kernel:"
 msgid "User:"
 msgstr "Gebruiker:"
 
-#: confdlg.cc:101
-msgid "Wait:"
-msgstr "Wag:"
-
-#: confdlg.cc:103
+#: confdlg.cc:100
 msgid "Nice:"
 msgstr "Oulike:"
 
-#: confdlg.cc:106
+#: confdlg.cc:101
+#, fuzzy
+msgid "IOWait:"
+msgstr "Wag:"
+
+#: confdlg.cc:105
 msgid "Used:"
 msgstr "Gebruik word:"
 
-#: confdlg.cc:107
+#: confdlg.cc:106
 msgid "Buffers:"
 msgstr "Buffers:"
 
-#: confdlg.cc:111
+#: confdlg.cc:107
 msgid "Cached:"
 msgstr "Gekas:"
 
-#: confdlg.cc:117
-msgid "Memory/Swapping"
-msgstr "Geheue/Uitruil"
+#: confdlg.cc:110
+msgid "CPU"
+msgstr ""
 
-#: confdlg.cc:118
-msgid "CPU/Paging"
-msgstr "Sve/Uitblaai"
+#: confdlg.cc:125
+msgid "Memory"
+msgstr ""
 
-#: confdlg.cc:133
-msgid "Swap/Background"
-msgstr "Uitruil/Agtergrond"
+#: confdlg.cc:139
+#, fuzzy
+msgid "Swap"
+msgstr "Uitruil:"
 
-#: confdlg.cc:136
+#: confdlg.cc:142
 msgid "Swap:"
 msgstr "Uitruil:"
 
-#: confdlg.cc:145
+#: confdlg.cc:151
 msgid "Backgd:"
 msgstr "Agtergrond:"
 
-#: confdlg.cc:158
+#: confdlg.cc:164
 msgid "&Interaction"
 msgstr "Interaksie"
 
-#: confdlg.cc:162
+#: confdlg.cc:168
 msgid "Mouse Events"
 msgstr "Muis Aktiwiteite"
 
-#: confdlg.cc:177
+#: confdlg.cc:183
 msgid "Left button:"
 msgstr "Links knoppie:"
 
-#: confdlg.cc:178
+#: confdlg.cc:184
 msgid "Middle button:"
 msgstr "Middelste knoppie:"
 
-#: confdlg.cc:179
+#: confdlg.cc:185
 msgid "Right button:"
 msgstr "Regterkant knoppie:"
 
-#: confdlg.cc:187
+#: confdlg.cc:193
 msgid "Is Ignored"
 msgstr "Is Geignoreer"
 
-#: confdlg.cc:190
+#: confdlg.cc:196
 msgid "Pops Up Menu"
 msgstr "Spring Begin Kieslys"
 
-#: confdlg.cc:191
+#: confdlg.cc:197
 msgid "Starts"
 msgstr "Beginne"
 
-#: sample.cc:102
+#: sample.cc:103
 msgid ""
 "Unable to open the file '%1'. The diagnostics are:\n"
 "%2.\n"
@@ -141,7 +143,7 @@ msgstr ""
 "Hierdie lêer is benodig na bepaal huidige geheue gebruik.\n"
 "Miskien jou proc lêersisteem is non-Linux standaard?"
 
-#: sample.cc:112
+#: sample.cc:113
 msgid ""
 "Unable to open the file '%1'. The diagnostics are:\n"
 "%2.\n"
@@ -153,7 +155,7 @@ msgstr ""
 "Hierdie lêer is benodig na bepaal huidige stelsel inligting. Miskien jou proc "
 "lêersisteem is non-Linux standaard?"
 
-#: sample.cc:122
+#: sample.cc:123
 msgid ""
 "Unable to initialize the 'kstat' library. This library is used for accessing "
 "kernel information. The diagnostics are:\n"
@@ -168,7 +170,7 @@ msgstr ""
 "word jy rerig wat loop Solaris? Asseblief kontak die onderhouer na "
 "mueller@kde.org wie sal probeer na figuur uit wat gegaan verkeerde."
 
-#: sample.cc:211
+#: sample.cc:212
 #, fuzzy
 msgid ""
 "Unable to read the memory usage file '%1'.\n"
@@ -177,7 +179,7 @@ msgstr ""
 "Nie moontlik na lees die geheue gebruik lêer '%1/%2'.\n"
 "die diagnose terugvoer word: %3"
 
-#: sample.cc:221
+#: sample.cc:222
 #, fuzzy
 msgid ""
 "The memory usage file '%1' seems to use a different file format than expected.\n"
@@ -191,7 +193,7 @@ msgstr ""
 "weergawes. Asseblief kontak Die ontwikkelaar na m.maierhofer@tees.ac.vk wie sal "
 "probeer na sorteer hierdie uit."
 
-#: sample.cc:237
+#: sample.cc:239
 #, fuzzy
 msgid ""
 "Unable to read the system usage file '%1'.\n"
@@ -200,7 +202,7 @@ msgstr ""
 "Nie moontlik na lees die stelsel gebruik lêer '%1/%2'.\n"
 "die diagnose terugvoer word: %3"
 
-#: sample.cc:264
+#: sample.cc:266
 msgid ""
 "Unable to obtain system information.\n"
 "The table(2) system call returned an error for table %1.\n"
@@ -212,33 +214,39 @@ msgstr ""
 "Asseblief kontak Die onderhouer na mueller@kde.org wie sal probeer na figuur "
 "uit wat gegaan verkeerde."
 
-#: sample.cc:306
+#: sample.cc:309
+#, fuzzy
 msgid ""
 "Unable to find any entries for CPU statistics in the 'kstat' library. Are you "
 "running a non-standard version of Solaris?\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer via http://bugs.kde.org/ who will try to sort "
+"this out."
 msgstr ""
 "Nie moontlik na soek enige inskrywings vir Sve statistieke in die 'kstat' "
 "biblioteek. Word jy wat loop 'n non-standard weergawe van Solaris?\n"
 "Asseblief kontak die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:322
+#: sample.cc:325
+#, fuzzy
 msgid ""
 "Unable to read the CPU statistics entry from the 'kstat' library. The "
 "diagnostics are '%1'.\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer via http://bugs.kde.org/ who will try to sort "
+"this out."
 msgstr ""
 "Nie moontlik na lees die Sve statistieke inskrywing van die 'kstat' biblioteek. "
 "die diagnose terugvoer word '%1'.\n"
 "Asseblief kontak die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:334
+#: sample.cc:338
+#, fuzzy
 msgid ""
 "The number of CPUs appears to have changed at very short notice, or the 'kstat' "
 "library returns inconsistent results (%1 vs. %2 CPUs).\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer via http://bugs.kde.org/ who will try to sort "
+"this out."
 msgstr ""
 "Die nommer van Sentrale verwerking eenhede verskyn na het het verander na baie "
 "kort neem kennis van, of Die 'kstat' biblioteek gee terug onkonsekwente "
@@ -246,19 +254,20 @@ msgstr ""
 "Asseblief kontak Die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:346
+#: sample.cc:350
+#, fuzzy
 msgid ""
 "Unable to read the memory statistics entry from the 'kstat' library. The "
 "diagnostics are '%1'\n"
-"You might want to contact the maintainer at mueller@kde.org who will try to "
-"sort this out."
+"You might want to contact the maintainer at http://bugs.kde.org/ who will try "
+"to sort this out."
 msgstr ""
 "Nie moontlik na lees die geheue statistieke inskrywing van die 'kstat' "
 "biblioteek. die diagnose terugvoer word '%1'\n"
 "Jy dalk wil hê na kontak die onderhouer na mueller@kde.org wie sal probeer na "
 "sorteer hierdie uit."
 
-#: sample.cc:363
+#: sample.cc:367
 msgid ""
 "There seems to be a problem with KTimeMon's handling of the 'kstat' library: 0 "
 "bytes of physical memory determined!\n"
@@ -266,21 +275,25 @@ msgid ""
 "Please contact the maintainer at mueller@kde.org who will try to sort this out."
 msgstr ""
 
-#: sample.cc:375
+#: sample.cc:379
+#, fuzzy
 msgid ""
 "Unable to determine the number of swap spaces. The diagnostics are '%1'.\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer at http://bugs.kde.org/ who will try to sort this "
+"out."
 msgstr ""
 "Nie moontlik na bepaal die nommer van uitruil spasies. die diagnose terugvoer "
 "word '%1'.\n"
 "Asseblief kontak die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:384
+#: sample.cc:388
+#, fuzzy
 msgid ""
 "KTimeMon ran out of memory while trying to determine the swap usage.\n"
 "Attempted to allocate %1 bytes of memory (2 * %2 + %3 * %4).\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer at http://bugs.kde.org/ who will try to sort this "
+"out."
 msgstr ""
 "K-tyd-monitor hardloop uit van geheue terwyl probeer na bepaal die uitruil "
 "gebruik.\n"
@@ -288,23 +301,27 @@ msgstr ""
 "Asseblief kontak die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:396
+#: sample.cc:400
+#, fuzzy
 msgid ""
 "Unable to determine the swap usage.\n"
 "The diagnostics are '%1'.\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer at http://bugs.kde.org/ who will try to sort this "
+"out."
 msgstr ""
 "Nie moontlik na bepaal die uitruil gebruik.\n"
 "die diagnose terugvoer word '%1'.\n"
 "Asseblief kontak die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: sample.cc:403
+#: sample.cc:407
+#, fuzzy
 msgid ""
 "Information was requested for %1 swap spaces, but only %2 swap entries were "
 "returned.\n"
 "KTimeMon will attempt to continue.\n"
-"Please contact the maintainer at mueller@kde.org who will try to sort this out."
+"Please contact the maintainer at http://bugs.kde.org/ who will try to sort this "
+"out."
 msgstr ""
 "Informasie was versoekte vir %1 uitruil spasies, maar slegs %2 uitruil "
 "inskrywings was teruggestuur.\n"
@@ -312,7 +329,7 @@ msgstr ""
 "Asseblief kontak die onderhouer na mueller@kde.org wie sal probeer na sorteer "
 "hierdie uit."
 
-#: timemon.cc:169
+#: timemon.cc:173
 msgid ""
 "cpu: %1% idle\n"
 "mem: %2 MB %3% free\n"
@@ -322,7 +339,7 @@ msgstr ""
 "geheue: %2   mb   %3% vry\n"
 "uitruil: %4   mb   %5% vry"
 
-#: timemon.cc:231
+#: timemon.cc:237
 msgid ""
 "KTimeMon for KDE\n"
 "Maintained by Dirk A. Mueller <dmuell@gmx.net>\n"
@@ -334,25 +351,34 @@ msgstr ""
 "Geskryf deur m. Maierhofer (m.Maierhofer@tees.ac.vk)\n"
 "Gebaseerde op tyd-monitor deur H. Maierhofer"
 
-#: timemon.cc:239
+#: timemon.cc:245
 msgid "System Monitor"
 msgstr "Stelsel Monitor"
 
-#: timemon.cc:240
+#: timemon.cc:246
 msgid "Horizontal Bars"
 msgstr "Horisontaal Stawe"
 
-#: timemon.cc:241
+#: timemon.cc:247
 msgid "Preferences..."
 msgstr "Voorkeure..."
 
-#: timemon.cc:419
+#: timemon.cc:426
 msgid ""
 "Got diagnostic output from child command:\n"
 "\n"
 msgstr ""
 "Het gekry diagnose uitset van kind opdrag:\n"
 "\n"
+
+#~ msgid "Memory/Swapping"
+#~ msgstr "Geheue/Uitruil"
+
+#~ msgid "CPU/Paging"
+#~ msgstr "Sve/Uitblaai"
+
+#~ msgid "Swap/Background"
+#~ msgstr "Uitruil/Agtergrond"
 
 #~ msgid ""
 #~ "Unable to open file '%1' to determine where the proc filesystem is mounted. The diagnostics are:\n"
