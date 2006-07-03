@@ -1,14 +1,14 @@
-# WEB-Translator generated file. UTF-8 test:äëïöü
+# UTF-8 test:äëïöü
 # Copyright (C) 2001 Free Software Foundation, Inc.
-# Frikkie Thirion <frix@expertron.co.za>, 2001,2002.
+# Frikkie Thirion <frix@expertron.co.za>, 2001,2002,2005.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: kfindpart VERSION\n"
+"Project-ID-Version: kfindpart trunc\n"
 "POT-Creation-Date: 2005-07-09 01:31+0200\n"
-"PO-Revision-Date: 2002-11-07 11:29+0200\n"
-"Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
-"Language-Team: AFRIKAANS <AF@lia.org.za>\n"
+"PO-Revision-Date: 2005-11-25 11:29+0200\n"
+"Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
+"Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
@@ -30,13 +30,12 @@ msgid "&Find"
 msgstr "Soek"
 
 #: kfinddlg.cpp:33
-#, fuzzy
 msgid "Find Files/Folders"
-msgstr "Soek Lêers"
+msgstr "Soek Lêers/Gidse"
 
 #: kfinddlg.cpp:54
 msgid "AMiddleLengthText..."
-msgstr ""
+msgstr "AmiddleLengthText..."
 
 #: kfinddlg.cpp:55 kfinddlg.cpp:176
 msgid "Ready."
@@ -65,12 +64,11 @@ msgstr "Fout."
 
 #: kfinddlg.cpp:182
 msgid "Please specify an absolute path in the \"Look in\" box."
-msgstr ""
+msgstr "Spesifiseer 'n absolute gids soekpad in die \"Kyk in\" boks."
 
 #: kfinddlg.cpp:187
-#, fuzzy
 msgid "Could not find the specified folder."
-msgstr "Kon nie soek die gespesifiseer gids."
+msgstr "Kon nie die gespesifiseerde gids kry nie."
 
 #: kfindpart.cpp:81
 msgid "Find Component"
@@ -87,14 +85,12 @@ msgstr ""
 "veelvuldige name"
 
 #: kftabdlg.cpp:68
-#, fuzzy
 msgid "Look &in:"
 msgstr "Kyk in:"
 
 #: kftabdlg.cpp:69
-#, fuzzy
 msgid "Include &subfolders"
-msgstr "Sluit in sub-gidse"
+msgstr "Sluit sub-gidse in"
 
 #: kftabdlg.cpp:70
 msgid "Case s&ensitive search"
@@ -106,33 +102,41 @@ msgstr "Blaai..."
 
 #: kftabdlg.cpp:72
 msgid "&Use files index"
-msgstr ""
+msgstr "Gebruik lêer indeks"
 
 #: kftabdlg.cpp:90
 msgid ""
-"<qt>Enter the filename you are looking for. "
-"<br>Alternatives may be separated by a semicolon \";\"."
-"<br>"
-"<br>The filename may contain the following special characters:"
-"<ul>"
-"<li><b>?</b> matches any single character</li>"
-"<li><b>*</b> matches zero or more of any characters</li>"
-"<li><b>[...]</b> matches any of the characters in braces</li></ul>"
-"<br>Example searches:"
-"<ul>"
-"<li><b>*.kwd;*.txt</b> finds all files ending with .kwd or .txt</li>"
-"<li><b>go[dt]</b> finds god and got</li>"
-"<li><b>Hel?o</b> finds all files that start with \"Hel\" and end with \"o\", "
-"having one character in between</li>"
-"<li><b>My Document.kwd</b> finds a file of exactly that name</li></ul></qt>"
+"<qt>Enter the filename you are looking for. <br>Alternatives may be "
+"separated by a semicolon \";\".<br><br>The filename may contain the "
+"following special characters:<ul><li><b>?</b> matches any single character</"
+"li><li><b>*</b> matches zero or more of any characters</li><li><b>[...]</b> "
+"matches any of the characters in braces</li></ul><br>Example searches:"
+"<ul><li><b>*.kwd;*.txt</b> finds all files ending with .kwd or .txt</"
+"li><li><b>go[dt]</b> finds god and got</li><li><b>Hel?o</b> finds all files "
+"that start with \"Hel\" and end with \"o\", having one character in between</"
+"li><li><b>My Document.kwd</b> finds a file of exactly that name</li></ul></"
+"qt>"
 msgstr ""
+"<qt>Voer die lêernaam waarna jy soek in. <br>Alternatiewe, geskei deur semi-"
+"kommas, mag aangedui word.<br><br>Die lêernaam mag die volgende spesiale "
+"karakters bevat:<ul><li><b>?</b> stem ooreen met enige enkel karakter</"
+"li><li><b>*</b> stem ooreen met geen of meer van 'n karakter</li><li><b>[...]"
+"</b> stem met enige van die karakters in die hakkies ooreen</li></"
+"ul><br>Voorbeeld soektogte:<ul><li><b>*.kwd;*txt</b> soek lêers wat in kwd "
+"en txt eindig</li><li><b>groe[pt]</b> soek groep en groet</li><li><b>Hel?o</"
+"b> soek alle lêers wat met \"Hel\" begin en met \"o\" eindig, met een "
+"karakter tussen in.</li><li><b>My Dokument.kwd</b> soek lêers met presies "
+"hierdie naam.</li></ul></qt>"
 
 #: kftabdlg.cpp:111
 msgid ""
-"<qt>This lets you use the files' index created by the <i>slocate</i> "
-"package to speed-up the search; remember to update the index from time to time "
+"<qt>This lets you use the files' index created by the <i>slocate</i> package "
+"to speed-up the search; remember to update the index from time to time "
 "(using <i>updatedb</i>).</qt>"
 msgstr ""
+"<qt>Dit laat jou toe om vinniger te soek deur die lêer se indeks te gebruik "
+"wat deur die <i>locate</i> paket geskep word. Onthou om die indeks van tyd "
+"tot tyd op te dateur deur <i>updatedb</i> te loop.</qt>"
 
 #: kftabdlg.cpp:147
 msgid "Find all files created or &modified:"
@@ -224,15 +228,18 @@ msgid ""
 "all file types from the list above are supported. Please refer to the "
 "documentation for a list of supported file types.</qt>"
 msgstr ""
+"<qt>As hierdie gespesifiseer is, sal net lêers wat hierdie teks bevat "
+"vertoon word. Let daarop dat nie al die lêers in die lys hierbo geondersteun "
+"word nie. Verwys asb. na die dokumentasie vir 'n lys van lêertipes wat "
+"ondersteun word."
 
 #: kftabdlg.cpp:263
 msgid "Case s&ensitive"
 msgstr "Kas sensitief"
 
 #: kftabdlg.cpp:264
-#, fuzzy
 msgid "Include &binary files"
-msgstr "Sluit in sub-gidse"
+msgstr "Sluit binêre lêers in"
 
 #: kftabdlg.cpp:265
 msgid "Regular e&xpression"
@@ -243,6 +250,8 @@ msgid ""
 "<qt>This lets you search in any type of file, even those that usually do not "
 "contain text (for example program files and images).</qt>"
 msgstr ""
+"<qt>Dit laat jou toe om in enige tipe lêer te soek, selfs in daardie wat nie "
+"gewoonlik teks bevat nie (bv. beelde en program lêers).</qt>"
 
 #: kftabdlg.cpp:276
 msgid "&Edit..."
@@ -254,25 +263,23 @@ msgstr "vir:"
 
 #: kftabdlg.cpp:282
 msgid "Search &metainfo sections:"
-msgstr ""
+msgstr "Soek in meta inligting seksies:"
 
 #: kftabdlg.cpp:285
-#, fuzzy
 msgid "All Files & Folders"
 msgstr "Alle Lêers en Gidse"
 
 #: kftabdlg.cpp:287
 msgid "Folders"
-msgstr ""
+msgstr "Gidse"
 
 #: kftabdlg.cpp:288
 msgid "Symbolic Links"
 msgstr "Simboliese Skakel"
 
 #: kftabdlg.cpp:289
-#, fuzzy
 msgid "Special Files (Sockets, Device Files, ...)"
-msgstr "Spesiaal Lêers (Sokets, Toestel Lêers...)"
+msgstr "Spesiale Lêers (Sokets, Toestel Lêers...)"
 
 #: kftabdlg.cpp:290
 msgid "Executable Files"
@@ -280,19 +287,19 @@ msgstr "Uitvoerbare Lêers"
 
 #: kftabdlg.cpp:291
 msgid "SUID Executable Files"
-msgstr "Suid Uitvoerbare Lêers"
+msgstr "SUID Uitvoerbare Lêers"
 
 #: kftabdlg.cpp:292
 msgid "All Images"
-msgstr ""
+msgstr "Alle beelde"
 
 #: kftabdlg.cpp:293
 msgid "All Video"
-msgstr ""
+msgstr "Alle video"
 
 #: kftabdlg.cpp:294
 msgid "All Sounds"
-msgstr ""
+msgstr "Alle klanke"
 
 #: kftabdlg.cpp:342
 msgid "Name/&Location"
@@ -308,23 +315,26 @@ msgstr "Eienskappe"
 
 #: kftabdlg.cpp:349
 msgid ""
-"<qt>Search within files' specific comments/metainfo"
-"<br>These are some examples:"
-"<br>"
-"<ul>"
-"<li><b>Audio files (mp3...)</b> Search in id3 tag for a title, an album</li>"
-"<li><b>Images (png...)</b> Search images with a special resolution, "
-"comment...</li></ul></qt>"
+"<qt>Search within files' specific comments/metainfo<br>These are some "
+"examples:<br><ul><li><b>Audio files (mp3...)</b> Search in id3 tag for a "
+"title, an album</li><li><b>Images (png...)</b> Search images with a special "
+"resolution, comment...</li></ul></qt>"
 msgstr ""
+"<qt>Soek in lêers se kommentaar en meta inligting<br>Hier is 'n paar "
+"voorbeelde:<br><ul><li><b>Klank lêers (mp3)</b> Soek in id3 etiket vir "
+"titel, album, kunstenaar</li><li><b>Beelde (png...)</b> Soek beelde met 'n "
+"spesifike resolusio, kommentaar...</li></ul></qt>"
 
 #: kftabdlg.cpp:357
 msgid ""
-"<qt>If specified, search only in this field"
-"<br>"
-"<ul>"
-"<li><b>Audio files (mp3...)</b> This can be Title, Album...</li>"
-"<li><b>Images (png...)</b> Search only in Resolution, Bitdepth...</li></ul></qt>"
+"<qt>If specified, search only in this field<br><ul><li><b>Audio files "
+"(mp3...)</b> This can be Title, Album...</li><li><b>Images (png...)</b> "
+"Search only in Resolution, Bitdepth...</li></ul></qt>"
 msgstr ""
+"<qt>As dit geaktiveer is, soek net in die spesifieke "
+"veld<br><ul><li><b>Klank lêers (mp3...)</b> Dit kan titel, album...</"
+"li><li><b>Beelde (png...)</b> Soek slegs resolusie, bis diepte...</li></ul></"
+"qt>"
 
 #: kftabdlg.cpp:551
 msgid "Unable to search within a period which is less than a minute."
@@ -332,35 +342,32 @@ msgstr ""
 "Nie moontlik na soektog binne in 'n periode wat is minder as 'n minuut."
 
 #: kftabdlg.cpp:562
-#, fuzzy
 msgid "The date is not valid."
-msgstr "Die datum is nie geldige!"
+msgstr "Die datum is nie geldige nie."
 
 #: kftabdlg.cpp:564
-#, fuzzy
 msgid "Invalid date range."
-msgstr "Ongeldige datum omvang!"
+msgstr "Ongeldige datum omvang."
 
 #: kftabdlg.cpp:566
 msgid "Unable to search dates in the future."
-msgstr "Nie moontlik na soektog datums in die toekomstige."
+msgstr "Kan nie na datums in die toekoms soek nie."
 
 #: kftabdlg.cpp:618
-#, fuzzy
 msgid "Size is too big. Set maximum size value?"
-msgstr "Grootte is te groot... Stel maksimum Grootte waarde?"
+msgstr "Grootte is te groot. Stel maksimum grootte waarde?"
 
 #: kftabdlg.cpp:618
 msgid "Set"
-msgstr ""
+msgstr "Stel"
 
 #: kftabdlg.cpp:618
 msgid "Do Not Set"
-msgstr ""
+msgstr "Moet nie stel nie"
 
 #: kfwin.cpp:49
 msgid "Read-write"
-msgstr "Read-write"
+msgstr "Lees-skryf"
 
 #: kfwin.cpp:50
 msgid "Read-only"
@@ -368,7 +375,7 @@ msgstr "Lees-alleen"
 
 #: kfwin.cpp:51
 msgid "Write-only"
-msgstr "Write-only"
+msgstr "Net skryf"
 
 #: kfwin.cpp:52
 msgid "Inaccessible"
@@ -379,7 +386,6 @@ msgid "Name"
 msgstr "Naam"
 
 #: kfwin.cpp:116
-#, fuzzy
 msgid "In Subfolder"
 msgstr "In Subgids"
 
@@ -389,7 +395,7 @@ msgstr "Grootte"
 
 #: kfwin.cpp:119
 msgid "Modified"
-msgstr "Veranderde"
+msgstr "Verander"
 
 #: kfwin.cpp:121
 msgid "Permissions"
@@ -404,19 +410,16 @@ msgid "Save Results As"
 msgstr "Stoor Resultate As"
 
 #: kfwin.cpp:219
-#, fuzzy
 msgid "Unable to save results."
-msgstr "Nie moontlik na soektog datums in die toekomstige."
+msgstr "Kon nie die resultate stoor nie."
 
 #: kfwin.cpp:230 kfwin.cpp:231 kfwin.cpp:232
 msgid "KFind Results File"
-msgstr "Kfind Resultate Lêer"
+msgstr "KFind Resultaat Lêer"
 
 #: kfwin.cpp:259
-msgid ""
-"Results were saved to file\n"
-msgstr ""
-"Resultate was gestoor na lêer\n"
+msgid "Results were saved to file\n"
+msgstr "Resultate na lêer gestoors\n"
 
 #: kfwin.cpp:289
 #, c-format
@@ -424,49 +427,46 @@ msgid ""
 "_n: Do you really want to delete the selected file?\n"
 "Do you really want to delete the %n selected files?"
 msgstr ""
-"Doen jy rerig wil hê na uitvee die gekose lêer?\n"
-"Doen jy rerig wil hê na uitvee die %n gekose lêers?"
+"Wil jy rêrig die gekiesde lêer uitvee?\n"
+"Wil jy rêrig die %n gekiesde lêers uitvee?"
 
 #: kfwin.cpp:412
 msgid ""
 "_: Menu item\n"
 "Open"
-msgstr ""
+msgstr "Maak oop"
 
 #: kfwin.cpp:413
 msgid "Open Folder"
-msgstr ""
+msgstr "Maak gids oop"
 
 #: kfwin.cpp:418
 msgid "Open With..."
-msgstr "Open Met..."
+msgstr "Maak oop met..."
 
 #: kfwin.cpp:424
 msgid "Selected Files"
-msgstr "Gekose Lêers"
+msgstr "Gekiesde Lêers"
 
 #: kquery.cpp:462
 msgid "Error while using locate"
-msgstr ""
+msgstr "'n Fout het met die gebruik van 'locate' voorgekom"
 
 #: main.cpp:14
-#, fuzzy
 msgid "KDE file find utility"
-msgstr "Kde Lêer soek program."
+msgstr "KDE lêer soek program."
 
 #: main.cpp:18
-#, fuzzy
 msgid "Path(s) to search"
-msgstr "Gids soeklys(s) na soektog."
+msgstr "Gids om in te soek"
 
 #: main.cpp:25
 msgid "KFind"
-msgstr "Kfind"
+msgstr "KFind"
 
 #: main.cpp:27
-#, fuzzy
 msgid "(c) 1998-2003, The KDE Developers"
-msgstr "(c) 1998-2002, Die Kde Ontwikkelaars"
+msgstr "(c) 1998-2003, Die KDE Ontwikkelaars"
 
 #: main.cpp:29
 msgid "Current Maintainer"
@@ -478,17 +478,8 @@ msgstr "Ontwikkelaar"
 
 #: main.cpp:31
 msgid "UI Design & more search options"
-msgstr "Ui Ontwerp & meer soektog opsies"
+msgstr "Gebruiker koppelvlak Ontwerper & meer soektog opsies"
 
 #: main.cpp:41
 msgid "UI Design"
-msgstr "Ui Ontwerp"
-
-#~ msgid "Save as:"
-#~ msgstr "Stoor as:"
-
-#~ msgid "Directories"
-#~ msgstr "Gidse"
-
-#~ msgid "Open Directory"
-#~ msgstr "Open Gids"
+msgstr "Gebruiker koppelvlak ontwerp"
