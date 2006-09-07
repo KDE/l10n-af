@@ -5,13 +5,33 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: karchiver VERSION\n"
-"POT-Creation-Date: 2005-12-15 08:26+0100\n"
+"POT-Creation-Date: 2006-09-07 08:43+0200\n"
 "PO-Revision-Date: 2002-11-07 11:36+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
+
+#: car.cpp:35 carj.cpp:33 clha.cpp:33 csit.cpp:37 ctar.cpp:33 czip.cpp:42
+#: karchiveurpart.cpp:310 karchiveurview.cpp:34
+msgid "Owner"
+msgstr "Eienaar"
+
+#: c7z.cpp:41 crar.cpp:37 csit.cpp:38 csit.cpp:340 czip.cpp:38
+msgid "Ratio"
+msgstr "Verhouding"
+
+#: c7z.cpp:214 crar.cpp:294 crar.cpp:333 csit.cpp:158 czip.cpp:290
+msgid ""
+"An error occurred during extraction: \n"
+" The archive is password protected and the given password is wrong.\n"
+"Please choose 'Archive->Set Password', change the password and try it again."
+msgstr ""
+
+#: c7z.cpp:40 csit.cpp:339 czip.cpp:37
+msgid "Packed"
+msgstr "Gekompakteerde"
 
 #: caddfiles.cpp:67
 msgid ""
@@ -23,30 +43,10 @@ msgstr ""
 msgid "KArchiver - Enter the name of the new archive"
 msgstr ""
 
-#: c7z.cpp:40 czip.cpp:37
-msgid "Packed"
-msgstr "Gekompakteerde"
-
-#: c7z.cpp:41 crar.cpp:37 czip.cpp:38
-msgid "Ratio"
-msgstr "Verhouding"
-
-#: car.cpp:35 carj.cpp:33 clha.cpp:33 ctar.cpp:33 czip.cpp:42
-#: karchiveurpart.cpp:310 karchiveurview.cpp:34
-msgid "Owner"
-msgstr "Eienaar"
-
 #: car.cpp:36 carj.cpp:34 clha.cpp:34 crar.cpp:38 ctar.cpp:34 czip.cpp:43
 #: karchiveurpart.cpp:311 karchiveurview.cpp:35
 msgid "Permissions"
 msgstr "Regte"
-
-#: c7z.cpp:214 crar.cpp:256 crar.cpp:297 czip.cpp:290
-msgid ""
-"An error occurred during extraction: \n"
-" The archive is password protected and the given password is wrong.\n"
-"Please choose 'Archive->Set Password', change the password and try it again."
-msgstr ""
 
 #: karchiveurpart.cpp:306 karchiveurview.cpp:30
 msgid "Name"
@@ -60,7 +60,7 @@ msgstr "Grootte"
 msgid "Time"
 msgstr "Tyd"
 
-#: cpreferences.cpp:647 karchiveurpart.cpp:309 karchiveurview.cpp:33
+#: cpreferences.cpp:666 karchiveurpart.cpp:309 karchiveurview.cpp:33
 msgid "Date"
 msgstr "Datum"
 
@@ -68,11 +68,11 @@ msgstr "Datum"
 msgid "Path"
 msgstr "Gids soeklys"
 
-#: carchive.cpp:564
+#: carchive.cpp:565
 msgid "Gathering data"
 msgstr ""
 
-#: carchive.cpp:564
+#: carchive.cpp:565
 msgid "overwrite remaining files"
 msgstr ""
 
@@ -177,10 +177,10 @@ msgstr "Kies die gids waar na stoor argief:"
 msgid "Convert an archive"
 msgstr "Skakel om argief"
 
-#: carchiveoperation.cpp:135 carchiveoperation.cpp:414
-#: carchiveoperation.cpp:428 carchiveoperation.cpp:480
-#: carchiveoperation.cpp:560 carchiveoperation.cpp:587
-#: carchiveoperation.cpp:952 carchiveoperation.cpp:969 karchiveur.cpp:472
+#: carchiveoperation.cpp:136 carchiveoperation.cpp:422
+#: carchiveoperation.cpp:436 carchiveoperation.cpp:488
+#: carchiveoperation.cpp:568 carchiveoperation.cpp:595
+#: carchiveoperation.cpp:960 carchiveoperation.cpp:977 karchiveur.cpp:472
 msgid "First open an archive!"
 msgstr "Eerste open 'n argief!"
 
@@ -238,7 +238,7 @@ msgstr "Doen jy rerig wil hê na uitvee hierdie lêers?"
 msgid "KArchiver"
 msgstr "Kargiveerder"
 
-#: carchiveoperation.cpp:566 karchiveur.cpp:694 karchiveur.cpp:1486
+#: carchiveoperation.cpp:574 karchiveur.cpp:694 karchiveur.cpp:1486
 msgid "First select a file"
 msgstr "Eerste kies 'n lêer"
 
@@ -285,7 +285,7 @@ msgstr "Besigtig gekose"
 msgid " file selected"
 msgstr "Besigtig gekose"
 
-#: cinfosdata.cpp:64 cinfosdata.cpp:88 karchiveur.cpp:1199 karchiveur.cpp:1205
+#: cinfos.cpp:53 cinfos.cpp:55 karchiveur.cpp:1199 karchiveur.cpp:1205
 msgid "bytes"
 msgstr "grepe"
 
@@ -573,9 +573,33 @@ msgstr "Oopgemaak argief..."
 msgid "Delete : %1?"
 msgstr "Uitvee : %1?"
 
-#: cinfos.cpp:29
+#: cinfos.cpp:33
 msgid "Archive information"
 msgstr "Argief informasie"
+
+#: cinfos.cpp:49
+msgid "In this archive, there are:"
+msgstr "In hierdie argief, daar word:"
+
+#: cinfos.cpp:49
+msgid "file(s)"
+msgstr "lêer(s)"
+
+#: cinfos.cpp:51
+msgid "They will occupy"
+msgstr "Hulle sal beslaan"
+
+#: cinfos.cpp:51 cproprietesdata.cpp:64
+msgid "bytes on disk"
+msgstr "grepe op disket"
+
+#: cinfos.cpp:53
+msgid "Archive size is"
+msgstr "Argief grootte is"
+
+#: cinfos.cpp:55
+msgid "Medium file size is:"
+msgstr "Medium lêer grootte is:"
 
 #: cwizardcutt.cpp:32
 #, fuzzy
@@ -653,43 +677,43 @@ msgstr "Waar na stoor skei lêers?"
 msgid "Gzip and Bzip2 Options"
 msgstr "Gzip en Bzip2 opsies"
 
-#: cpreferences.cpp:338 cpreferencesdata.cpp:27
+#: cpreferences.cpp:340 cpreferencesdata.cpp:27
 msgid "Compress rate"
 msgstr "Saampers tempo"
 
-#: cpreferences.cpp:351 cpreferencesdata.cpp:32
+#: cpreferences.cpp:353 cpreferencesdata.cpp:32
 msgid "9"
 msgstr "9"
 
-#: cpreferences.cpp:350 cpreferencesdata.cpp:33
+#: cpreferences.cpp:352 cpreferencesdata.cpp:33
 msgid "8"
 msgstr "8"
 
-#: cpreferences.cpp:349 cpreferencesdata.cpp:34
+#: cpreferences.cpp:351 cpreferencesdata.cpp:34
 msgid "7"
 msgstr "7"
 
-#: cpreferences.cpp:348 cpreferencesdata.cpp:35
+#: cpreferences.cpp:350 cpreferencesdata.cpp:35
 msgid "6"
 msgstr "6"
 
-#: cpreferences.cpp:347 cpreferencesdata.cpp:36
+#: cpreferences.cpp:349 cpreferencesdata.cpp:36
 msgid "5"
 msgstr "5"
 
-#: cpreferences.cpp:346 cpreferencesdata.cpp:37
+#: cpreferences.cpp:348 cpreferencesdata.cpp:37
 msgid "4"
 msgstr "4"
 
-#: cpreferences.cpp:345 cpreferencesdata.cpp:38
+#: cpreferences.cpp:347 cpreferencesdata.cpp:38
 msgid "3"
 msgstr "3"
 
-#: cpreferences.cpp:344 cpreferencesdata.cpp:39
+#: cpreferences.cpp:346 cpreferencesdata.cpp:39
 msgid "2"
 msgstr "2"
 
-#: cpreferences.cpp:343 cpreferencesdata.cpp:40
+#: cpreferences.cpp:345 cpreferencesdata.cpp:40
 msgid "1"
 msgstr "1"
 
@@ -710,7 +734,7 @@ msgstr "Oorskryf lêers wanneer uitgepak"
 msgid "Tar Options"
 msgstr "Tar opsies"
 
-#: cpreferences.cpp:320 cpreferencesdata.cpp:67
+#: cpreferences.cpp:322 cpreferencesdata.cpp:67
 msgid ""
 "Store files as /home/toto/files\n"
 "instead of home/toto/files"
@@ -718,12 +742,12 @@ msgstr ""
 "Stoor lêers as /huis/toto/lêers\n"
 "in plaas van van huis/toto/lêers"
 
-#: cpreferences.cpp:321 cpreferencesdata.cpp:68
+#: cpreferences.cpp:323 cpreferencesdata.cpp:68
 #, fuzzy
 msgid "Absolute path: add / to the paths of files"
 msgstr "Absolute gids soeklys: voeg by / na die paths van lêers"
 
-#: cpreferences.cpp:325 cpreferencesdata.cpp:73
+#: cpreferences.cpp:327 cpreferencesdata.cpp:73
 #, fuzzy
 msgid ""
 "If checked, the base path of the dropped folder will be\n"
@@ -732,11 +756,11 @@ msgstr ""
 "As nagegaan, die basis gids soeklys van die gegooi gids sal wees\n"
 " huis/toto/dropped_dir in plaas van van drop_dir"
 
-#: cpreferences.cpp:326 cpreferencesdata.cpp:74
+#: cpreferences.cpp:328 cpreferencesdata.cpp:74
 msgid "Add the base path when dropping"
 msgstr "Voeg by die basis gids soeklys wanneer weggooi"
 
-#: cpreferences.cpp:330 cpreferencesdata.cpp:79
+#: cpreferences.cpp:332 cpreferencesdata.cpp:79
 msgid "Recurse folders when dropping"
 msgstr "Rekursief gidse wanneer weggooi"
 
@@ -750,31 +774,32 @@ msgstr "Verstek aansig"
 msgid "Default Folders"
 msgstr "Verstek gidse"
 
-#: cfirstinstallwizard.cpp:112 cpreferences.cpp:366 cpreferencesdata.cpp:98
+#: cfirstinstallwizard.cpp:113 cpreferences.cpp:368 cpreferencesdata.cpp:98
 #, fuzzy
 msgid "For Extracting"
 msgstr "Vir uitgepak"
 
-#: cfirstinstallwizard.cpp:99 cfirstinstallwizard.cpp:116 cpreferences.cpp:372
-#: cpreferences.cpp:390 cpreferencesdata.cpp:103 cpreferencesdata.cpp:123
+#: cfirstinstallwizard.cpp:100 cfirstinstallwizard.cpp:117
+#: cpreferences.cpp:374 cpreferences.cpp:392 cpreferencesdata.cpp:103
+#: cpreferencesdata.cpp:123
 #, fuzzy
 msgid "Last folder"
 msgstr "Laaste gids"
 
-#: cfirstinstallwizard.cpp:103 cfirstinstallwizard.cpp:120
-#: cpreferences.cpp:376 cpreferences.cpp:394 cpreferencesdata.cpp:108
+#: cfirstinstallwizard.cpp:104 cfirstinstallwizard.cpp:121
+#: cpreferences.cpp:378 cpreferences.cpp:396 cpreferencesdata.cpp:108
 #: cpreferencesdata.cpp:128
 #, fuzzy
 msgid "Home folder (~/)"
 msgstr "Huis gids (~/)"
 
-#: cfirstinstallwizard.cpp:108 cfirstinstallwizard.cpp:125
+#: cfirstinstallwizard.cpp:109 cfirstinstallwizard.cpp:126
 #: cpreferencesdata.cpp:113 cpreferencesdata.cpp:133
 #, fuzzy
 msgid "Shell's folder"
 msgstr "Tolk se een"
 
-#: cfirstinstallwizard.cpp:95 cpreferences.cpp:384 cpreferencesdata.cpp:118
+#: cfirstinstallwizard.cpp:96 cpreferences.cpp:386 cpreferencesdata.cpp:118
 #, fuzzy
 msgid "For Opening"
 msgstr "Vir oopgemaak"
@@ -788,15 +813,15 @@ msgstr "Ikoon grootte"
 msgid "of files in archive"
 msgstr "van lêers in argief"
 
-#: cpreferences.cpp:418 cpreferencesdata.cpp:150
+#: cpreferences.cpp:420 cpreferencesdata.cpp:150
 msgid "Small"
 msgstr "Klein"
 
-#: cpreferences.cpp:422 cpreferencesdata.cpp:155
+#: cpreferences.cpp:424 cpreferencesdata.cpp:155
 msgid "Medium"
 msgstr "Medium"
 
-#: cpreferences.cpp:426 cpreferencesdata.cpp:160
+#: cpreferences.cpp:428 cpreferencesdata.cpp:160
 msgid "Large"
 msgstr "Groot"
 
@@ -819,56 +844,61 @@ msgstr "Stadiger, maar die lees proses kan wees geonderbreek"
 msgid "Available Compressors"
 msgstr "Beskikbaar saampersers"
 
-#: cchoixfichier.cpp:29
+#: cchoixfichier.cpp:30
 msgid "All valid archives"
 msgstr "Alle geldige argiewe"
 
-#: cchoixfichier.cpp:31
+#: cchoixfichier.cpp:32
 msgid "All valid crypted archives"
 msgstr ""
 
-#: cchoixfichier.cpp:33 cfiledialog.cpp:59
+#: cchoixfichier.cpp:34 cfiledialog.cpp:59
 msgid "lha archives"
 msgstr "lha argiewe"
 
-#: cchoixfichier.cpp:35 cfiledialog.cpp:61
+#: cchoixfichier.cpp:36 cfiledialog.cpp:61
 msgid "arj archives"
 msgstr "arj argiewe"
 
-#: cchoixfichier.cpp:37 cfiledialog.cpp:53
+#: cchoixfichier.cpp:38 cfiledialog.cpp:53
 msgid "rar archives"
 msgstr "rar argiewe"
 
-#: cchoixfichier.cpp:39
+#: cchoixfichier.cpp:40
 msgid "gzip archives"
 msgstr "gzip argiewe"
 
-#: cchoixfichier.cpp:41
+#: cchoixfichier.cpp:42
 msgid "bzip2 archives"
 msgstr "bzip2 argiewe"
 
-#: cchoixfichier.cpp:43 cfiledialog.cpp:51
+#: cchoixfichier.cpp:44 cfiledialog.cpp:51
 msgid "zip archives"
 msgstr "zip argiewe"
 
-#: cchoixfichier.cpp:45
+#: cchoixfichier.cpp:46
 #, fuzzy
 msgid "jar archives"
 msgstr "tar argiewe"
 
-#: cchoixfichier.cpp:47
+#: cchoixfichier.cpp:48
 msgid "tar archives"
 msgstr "tar argiewe"
 
-#: cchoixfichier.cpp:49 cfiledialog.cpp:65
+#: cchoixfichier.cpp:50 cfiledialog.cpp:65
 #, fuzzy
 msgid "7z archives"
 msgstr "zip argiewe"
 
-#: cchoixfichier.cpp:51
+#: cchoixfichier.cpp:52
 #, fuzzy
 msgid "ar and deb archives"
 msgstr "arj argiewe"
+
+#: cchoixfichier.cpp:54
+#, fuzzy
+msgid "sit archives"
+msgstr "zip argiewe"
 
 #: cmail.cpp:38
 msgid "Mail Some Files"
@@ -938,25 +968,30 @@ msgstr "Soek in hierdie argief:"
 msgid "Next"
 msgstr "Volgende"
 
-#: carchiveoperation.cpp:759 cfinddata.cpp:29
+#: carchiveoperation.cpp:767 cfinddata.cpp:29
 msgid "Done"
 msgstr "Klaar"
 
-#: cupdate.cpp:55
+#: cupdate.cpp:58
 #, fuzzy
 msgid "A new version is available"
 msgstr "is beskikbaar"
 
-#: cupdate.cpp:57
+#: cupdate.cpp:60
 msgid "Your version is up to date"
 msgstr ""
 
-#: cupdate.cpp:57 cupdate.cpp:59 cupdate.cpp:64
+#: cupdate.cpp:60 cupdate.cpp:63 cupdate.cpp:64 cupdate.cpp:75
 #, fuzzy
 msgid "KArchiver Update"
 msgstr "Kargiveerder opstelling"
 
 #: cupdate.cpp:64
+#, fuzzy
+msgid "Download it now?"
+msgstr "Kan nie aflaai lêer!"
+
+#: cupdate.cpp:75
 msgid ""
 "Network connection failed.\n"
 "Check for updates at http://freshmeat.net or\n"
@@ -1124,10 +1159,6 @@ msgstr "Dit sal beslaan:"
 msgid "0"
 msgstr "0"
 
-#: cinfosdata.cpp:44 cproprietesdata.cpp:64
-msgid "bytes on disk"
-msgstr "grepe op disket"
-
 #: cfiledialog.cpp:47
 msgid "targz archives"
 msgstr "targz argiewe"
@@ -1219,57 +1250,122 @@ msgstr "Kode verbetering"
 msgid "Password-protected archive support"
 msgstr ""
 
-#: cfirstinstallwizard.cpp:40
+#: cfirstinstallwizard.cpp:41
 #, fuzzy
 msgid "KArchiver First-Install Wizard"
 msgstr "Kargiveerder assistent step 1"
 
-#: cfirstinstallwizard.cpp:53
+#: cfirstinstallwizard.cpp:54
 msgid ""
 "This wizard will let you configure the main features \n"
 "of KArchiver. Just click on Next unless you know what to answer\n"
 msgstr ""
 
-#: cfirstinstallwizard.cpp:57
+#: cfirstinstallwizard.cpp:58
 msgid "Multi Selection Mode"
 msgstr ""
 
-#: cfirstinstallwizard.cpp:61
+#: cfirstinstallwizard.cpp:62
 #, fuzzy
 msgid "Windows-like (Ctrl+click to add to selection)"
 msgstr "Ctrl+kliek na voeg by na keuse"
 
-#: cfirstinstallwizard.cpp:66
+#: cfirstinstallwizard.cpp:67
 #, fuzzy
 msgid "KDE-like (click to add to selection)"
 msgstr "Ctrl+kliek na voeg by na keuse"
 
-#: cfirstinstallwizard.cpp:70
+#: cfirstinstallwizard.cpp:71
 #, fuzzy
 msgid "Welcome to the KArchiver Installation Wizard."
 msgstr "Kargiveerder assistent step 1"
 
-#: cfirstinstallwizard.cpp:74
+#: cfirstinstallwizard.cpp:75
 msgid "Page 1"
 msgstr ""
 
-#: cfirstinstallwizard.cpp:80
+#: cfirstinstallwizard.cpp:81
 msgid ""
 "For this feature, you will be prompted for the root password\n"
 "in an xterm using the \"su\" command."
 msgstr ""
 
-#: cfirstinstallwizard.cpp:84
+#: cfirstinstallwizard.cpp:85
 msgid "Default folders (used when opening and extracting archives)"
 msgstr ""
 
-#: cfirstinstallwizard.cpp:91
+#: cfirstinstallwizard.cpp:92
 msgid "Use KArchiver instead of Ark (will gzip its .desktop files)"
 msgstr ""
 
-#: cfirstinstallwizard.cpp:126
+#: cfirstinstallwizard.cpp:127
 msgid "Page 2"
 msgstr ""
+
+#: cfirstinstallwizard.cpp:138 cpreferences.cpp:469
+msgid "The TAR compressor..."
+msgstr "Die Tar saamperser..."
+
+#: cfirstinstallwizard.cpp:148 cpreferences.cpp:479
+msgid "The GZIP compressor..."
+msgstr "Die Gzip saamperser..."
+
+#: cfirstinstallwizard.cpp:155 cpreferences.cpp:486
+msgid "The BZIP2 compressor..."
+msgstr "Die Bzip2 saamperser..."
+
+#: cfirstinstallwizard.cpp:162 cpreferences.cpp:493
+msgid "The RAR compressor..."
+msgstr "Die Rar saamperser..."
+
+#: cfirstinstallwizard.cpp:167 cfirstinstallwizard.cpp:200
+#: cfirstinstallwizard.cpp:213 cfirstinstallwizard.cpp:226
+#: cfirstinstallwizard.cpp:246 cpreferences.cpp:498 cpreferences.cpp:531
+#: cpreferences.cpp:544 cpreferences.cpp:557
+#, fuzzy
+msgid "download it"
+msgstr "Kan nie aflaai lêer!"
+
+#: cfirstinstallwizard.cpp:175 cpreferences.cpp:506
+#, fuzzy
+msgid "The RAR reader..."
+msgstr "Die Arj leser..."
+
+#: cfirstinstallwizard.cpp:182 cpreferences.cpp:513
+msgid "The LHA compressor..."
+msgstr "Die Lha saamperser..."
+
+#: cfirstinstallwizard.cpp:186 cpreferences.cpp:517
+msgid "The Zip reader..."
+msgstr "Die Zip leser..."
+
+#: cfirstinstallwizard.cpp:196 cpreferences.cpp:527
+msgid "The Zip compressor..."
+msgstr "Die Zip saamperser..."
+
+#: cfirstinstallwizard.cpp:206 cpreferences.cpp:537
+msgid "The Arj reader..."
+msgstr "Die Arj leser..."
+
+#: cfirstinstallwizard.cpp:219 cpreferences.cpp:550
+#, fuzzy
+msgid "The 7z compressor..."
+msgstr "Die Tar saamperser..."
+
+#: cfirstinstallwizard.cpp:232 cpreferences.cpp:563
+#, fuzzy
+msgid "The ar/deb compressor..."
+msgstr "Die Tar saamperser..."
+
+#: cfirstinstallwizard.cpp:239
+#, fuzzy
+msgid "The sit compressor..."
+msgstr "Die Zip saamperser..."
+
+#: cfirstinstallwizard.cpp:253
+#, fuzzy
+msgid "Page 3 - Your system's supported compressor"
+msgstr "Verstek gidse"
 
 #: cwizardstep1patchdata.cpp:20
 msgid "Installation wizard step 2"
@@ -1496,37 +1592,30 @@ msgstr ""
 msgid "The KArchiver Team wishes you a nice day!"
 msgstr "Die Kargiveerder Span wense jy 'n oulike dag!"
 
-#: cinfosdata.cpp:21
-msgid "In this archive, there are:"
-msgstr "In hierdie argief, daar word:"
-
-#: cinfosdata.cpp:28
-msgid "file(s)"
-msgstr "lêer(s)"
-
-#: cinfosdata.cpp:37
-msgid "They will occupy"
-msgstr "Hulle sal beslaan"
-
-#: cinfosdata.cpp:55
-msgid "Archive size is"
-msgstr "Argief grootte is"
-
-#: cinfosdata.cpp:71
+#: cinfosdata.cpp:47
 msgid "The compress rate is :"
 msgstr "Die saampers tempo is :"
 
-#: cinfosdata.cpp:81
-msgid "Medium file size is:"
-msgstr "Medium lêer grootte is:"
-
-#: cinfosdata.cpp:93
+#: cinfosdata.cpp:59
 msgid "the scattering"
 msgstr "die verstrooiïng"
 
-#: cinfosdata.cpp:94
+#: cinfosdata.cpp:60
 msgid "Standard deviation"
 msgstr "Standaard afwyking"
+
+#: cinfosdata.cpp:68
+msgid "md5 sum"
+msgstr ""
+
+#: cinfosdata.cpp:69
+msgid "Md5 checksum:"
+msgstr ""
+
+#: cinfosdata.cpp:77
+#, fuzzy
+msgid "Archive comments:"
+msgstr "Kargiveerder opstelling"
 
 #: cnavigateur.cpp:26
 #, fuzzy
@@ -1588,7 +1677,7 @@ msgstr "Skakel om argief"
 msgid "Convert to Format:"
 msgstr "Skakel om na formaat:"
 
-#: cpreferences.cpp:780 cwizardconversion.cpp:72
+#: cpreferences.cpp:799 cwizardconversion.cpp:72
 #, fuzzy
 msgid "Uncompressed"
 msgstr "Saampers tempo"
@@ -1603,11 +1692,11 @@ msgstr "Verstek aansig"
 msgid "Best compression ratio"
 msgstr "Saampers tempo"
 
-#: cpreferences.cpp:796 cwizardconversion.cpp:88
+#: cpreferences.cpp:815 cwizardconversion.cpp:88
 msgid ".zip"
 msgstr ".zip"
 
-#: cpreferences.cpp:805 cwizardconversion.cpp:92 cwizardconversion.cpp:97
+#: cpreferences.cpp:824 cwizardconversion.cpp:92 cwizardconversion.cpp:97
 msgid "Only for patches or single file"
 msgstr ""
 
@@ -1630,245 +1719,192 @@ msgstr ""
 msgid "Please choose a directory where to store the archive"
 msgstr "Kies die gids waar na stoor argief:"
 
-#: crar.cpp:428
+#: crar.cpp:464
 msgid "Enter Archive password"
 msgstr ""
 
-#: cpreferences.cpp:312
+#: cpreferences.cpp:314
 msgid "Compressors"
 msgstr "Saampersers"
 
-#: cpreferences.cpp:312
+#: cpreferences.cpp:314
 #, fuzzy
 msgid "Compressors options"
 msgstr "Compressors' een"
 
-#: cpreferences.cpp:334
+#: cpreferences.cpp:336
 #, fuzzy
 msgid "Always overwrite files when extracting"
 msgstr "Oorskryf lêers wanneer uitgepak"
 
-#: cpreferences.cpp:340
+#: cpreferences.cpp:342
 msgid "9 = compress better, 1 = compress faster"
 msgstr ""
 
-#: cpreferences.cpp:360
+#: cpreferences.cpp:362
 msgid "Folders"
 msgstr ""
 
-#: cpreferences.cpp:360
+#: cpreferences.cpp:362
 #, fuzzy
 msgid "Default folders"
 msgstr "Verstek gidse"
 
-#: cpreferences.cpp:380 cpreferences.cpp:398
+#: cpreferences.cpp:382 cpreferences.cpp:400
 msgid "Shell's one"
 msgstr "Tolk se een"
 
-#: cpreferences.cpp:405
+#: cpreferences.cpp:407
 msgid "Icons"
 msgstr "Ikoone"
 
-#: cpreferences.cpp:405
+#: cpreferences.cpp:407
 msgid "Icon size"
 msgstr "Ikoon grootte"
 
-#: cpreferences.cpp:411
+#: cpreferences.cpp:413
 #, fuzzy
 msgid "Files in Archive"
 msgstr "van lêers in argief"
 
-#: cpreferences.cpp:433
+#: cpreferences.cpp:435
 msgid "Reading"
 msgstr "Lees"
 
-#: cpreferences.cpp:433
+#: cpreferences.cpp:435
 msgid "Method for reading archive"
 msgstr "Metode vir lees argief"
 
-#: cpreferences.cpp:439
+#: cpreferences.cpp:441
 msgid "Read:"
 msgstr "Lees:"
 
-#: cpreferences.cpp:445
+#: cpreferences.cpp:447
 msgid "Fastest but don't use icons"
 msgstr "Vinnigste maar moet nie gebruik ikoone"
 
-#: cpreferences.cpp:449
+#: cpreferences.cpp:451
 msgid "Faster but freeze kar's interface"
 msgstr "Vinniger maar fries kar's koppelvlak"
 
-#: cpreferences.cpp:454
+#: cpreferences.cpp:456
 msgid "Normally, but the reading can be interrupted"
 msgstr "Gewoonlik, maar die lees kan wees geonderbreek"
 
-#: cpreferences.cpp:461
+#: cpreferences.cpp:463
 msgid "Plugins"
 msgstr ""
 
-#: cpreferences.cpp:461
+#: cpreferences.cpp:463
 #, fuzzy
 msgid "Available compressors on your system"
 msgstr "Beskikbaar saampersers"
 
-#: cpreferences.cpp:467
-msgid "The TAR compressor..."
-msgstr "Die Tar saamperser..."
-
-#: cpreferences.cpp:477
-msgid "The GZIP compressor..."
-msgstr "Die Gzip saamperser..."
-
-#: cpreferences.cpp:484
-msgid "The BZIP2 compressor..."
-msgstr "Die Bzip2 saamperser..."
-
-#: cpreferences.cpp:491
-msgid "The RAR compressor..."
-msgstr "Die Rar saamperser..."
-
-#: cpreferences.cpp:496 cpreferences.cpp:529 cpreferences.cpp:542
-#: cpreferences.cpp:555
-#, fuzzy
-msgid "download it"
-msgstr "Kan nie aflaai lêer!"
-
-#: cpreferences.cpp:504
-#, fuzzy
-msgid "The RAR reader..."
-msgstr "Die Arj leser..."
-
-#: cpreferences.cpp:511
-msgid "The LHA compressor..."
-msgstr "Die Lha saamperser..."
-
-#: cpreferences.cpp:515
-msgid "The Zip reader..."
-msgstr "Die Zip leser..."
-
-#: cpreferences.cpp:525
-msgid "The Zip compressor..."
-msgstr "Die Zip saamperser..."
-
-#: cpreferences.cpp:535
-msgid "The Arj reader..."
-msgstr "Die Arj leser..."
-
-#: cpreferences.cpp:548
-#, fuzzy
-msgid "The 7z compressor..."
-msgstr "Die Tar saamperser..."
-
-#: cpreferences.cpp:561
-#, fuzzy
-msgid "The ar/deb compressor..."
-msgstr "Die Tar saamperser..."
-
-#: cpreferences.cpp:631
+#: cpreferences.cpp:650
 msgid "List font"
 msgstr "Lys skrif tipe"
 
-#: cpreferences.cpp:634
+#: cpreferences.cpp:653
 msgid "font"
 msgstr "skrif tipe"
 
-#: cpreferences.cpp:636
+#: cpreferences.cpp:655
 msgid "Sample Text"
 msgstr ""
 
-#: cpreferences.cpp:647
+#: cpreferences.cpp:666
 msgid "Display date"
 msgstr "Vertoon datum"
 
-#: cpreferences.cpp:658
+#: cpreferences.cpp:677
 msgid "Compressors' one"
 msgstr "Compressors' een"
 
-#: cpreferences.cpp:662
+#: cpreferences.cpp:681
 #, fuzzy
 msgid "Localized: 5/20/2000"
 msgstr "Gelokaliseerde: 1/1/2000"
 
-#: cpreferences.cpp:666
+#: cpreferences.cpp:685
 #, fuzzy
 msgid "Localized: Saturday May 20 2000"
 msgstr "Gelokaliseerde: Saterdag Dalk mag 2000"
 
-#: cpreferences.cpp:687
+#: cpreferences.cpp:706
 msgid "Tips"
 msgstr "Leidrade"
 
-#: cpreferences.cpp:687
+#: cpreferences.cpp:706
 msgid "Tip of the day"
 msgstr "Leidraad van die dag"
 
-#: cpreferences.cpp:695
+#: cpreferences.cpp:714
 msgid "Display the tip of the day at startup"
 msgstr "Vertoon die leidraad van die dag na opstart"
 
-#: cpreferences.cpp:709
+#: cpreferences.cpp:728
 msgid "Misc"
 msgstr "Allerande"
 
-#: cpreferences.cpp:709
+#: cpreferences.cpp:728
 msgid "Misc options"
 msgstr "Allerande opsies"
 
-#: cpreferences.cpp:715
+#: cpreferences.cpp:734
 #, fuzzy
 msgid "Selection of List's Items"
 msgstr "Keuse van list's iteme"
 
-#: cpreferences.cpp:721
+#: cpreferences.cpp:740
 msgid "Click to add to selection"
 msgstr "Kliek na voeg by na keuse"
 
-#: cpreferences.cpp:725
+#: cpreferences.cpp:744
 msgid "Ctrl+click to add to selection"
 msgstr "Ctrl+kliek na voeg by na keuse"
 
-#: cpreferences.cpp:729
+#: cpreferences.cpp:748
 msgid "Display archive content using folders (like in Konqueror)"
 msgstr ""
 
-#: cpreferences.cpp:733
+#: cpreferences.cpp:752
 msgid "Alternate background (white/blue/white...)"
 msgstr ""
 
-#: cpreferences.cpp:737
+#: cpreferences.cpp:756
 msgid "Always add dropped files (no prompt dialog)"
 msgstr ""
 
-#: cpreferences.cpp:769
+#: cpreferences.cpp:788
 #, fuzzy
 msgid "Default Compressor"
 msgstr "Saampersers"
 
-#: cpreferences.cpp:769
+#: cpreferences.cpp:788
 #, fuzzy
 msgid "Default compressor"
 msgstr "Verstek gidse"
 
-#: cpreferences.cpp:774
+#: cpreferences.cpp:793
 #, fuzzy
 msgid "Preferred Compressor:"
 msgstr "Beskikbaar saampersers"
 
-#: cpreferences.cpp:784
+#: cpreferences.cpp:803
 #, fuzzy
 msgid "Default unix format"
 msgstr "Verstek aansig"
 
-#: cpreferences.cpp:789
+#: cpreferences.cpp:808
 #, fuzzy
 msgid "Best compress rate"
 msgstr "Saampers tempo"
 
-#: cpreferences.cpp:800
+#: cpreferences.cpp:819
 msgid "only for patches or single file"
 msgstr ""
 
-#: cpreferences.cpp:842
+#: cpreferences.cpp:861
 msgid ""
 "If you activate this option, you will never be prompted when some of the "
 "extracted files overwrite yours. Before extracting, KArchiver offers you a "
@@ -1876,7 +1912,7 @@ msgid ""
 "extract. It is adviced to leave this option off"
 msgstr ""
 
-#: cpreferences.cpp:842
+#: cpreferences.cpp:861
 msgid "Are you sure ?"
 msgstr ""
 
@@ -1942,132 +1978,132 @@ msgstr "Installasie assistent step 2"
 msgid "KArchiver installation wizard - step 3"
 msgstr "Installasie assistent step 3"
 
-#: carchiveoperation.cpp:89
+#: carchiveoperation.cpp:90
 msgid "Unknown archive type"
 msgstr "Onbekende argief tipe"
 
-#: carchiveoperation.cpp:93
+#: carchiveoperation.cpp:94
 #, fuzzy
 msgid "Compressor not available"
 msgstr "Compressors' een"
 
-#: carchiveoperation.cpp:98 carchiveoperation.cpp:251
-#: carchiveoperation.cpp:373 carchiveoperation.cpp:937
-#: carchiveoperation.cpp:1110
+#: carchiveoperation.cpp:99 carchiveoperation.cpp:256
+#: carchiveoperation.cpp:381 carchiveoperation.cpp:945
+#: carchiveoperation.cpp:1118
 #, fuzzy
 msgid "Unsupported compressor"
 msgstr "Verstek gidse"
 
-#: carchiveoperation.cpp:153
+#: carchiveoperation.cpp:154
 msgid "Cannot write there"
 msgstr ""
 
-#: carchiveoperation.cpp:199
+#: carchiveoperation.cpp:200
 msgid "Gzip and Bzip2 archives can only contain one file!"
 msgstr ""
 
-#: carchiveoperation.cpp:279
+#: carchiveoperation.cpp:284
 #, fuzzy
 msgid "Conversion achieved"
 msgstr "Skakel om argief"
 
-#: carchiveoperation.cpp:321
+#: carchiveoperation.cpp:326
 #, fuzzy
 msgid "Cannot read file"
 msgstr "Kan nie aflaai lêer!"
 
-#: carchiveoperation.cpp:390
+#: carchiveoperation.cpp:398
 msgid "Some errors occurred while opening archive:"
 msgstr ""
 
-#: carchiveoperation.cpp:391 carchiveoperation.cpp:457
-#: carchiveoperation.cpp:537 carchiveoperation.cpp:612
-#: carchiveoperation.cpp:879 carchiveoperation.cpp:997
-#: carchiveoperation.cpp:1003 carchiveoperation.cpp:1122
-#: carchiveoperation.cpp:1366 carchiveoperation.cpp:1392
+#: carchiveoperation.cpp:399 carchiveoperation.cpp:465
+#: carchiveoperation.cpp:545 carchiveoperation.cpp:620
+#: carchiveoperation.cpp:887 carchiveoperation.cpp:1005
+#: carchiveoperation.cpp:1011 carchiveoperation.cpp:1130
+#: carchiveoperation.cpp:1374 carchiveoperation.cpp:1400
 #, fuzzy
 msgid "Ready"
 msgstr "Lees:"
 
-#: carchiveoperation.cpp:440 carchiveoperation.cpp:515
+#: carchiveoperation.cpp:448 carchiveoperation.cpp:523
 msgid "Canceled"
 msgstr ""
 
-#: carchiveoperation.cpp:447 carchiveoperation.cpp:535
-#: carchiveoperation.cpp:873 carchiveoperation.cpp:874
+#: carchiveoperation.cpp:455 carchiveoperation.cpp:543
+#: carchiveoperation.cpp:881 carchiveoperation.cpp:882
 msgid "Some errors occurred while extracting this archive:"
 msgstr ""
 
-#: carchiveoperation.cpp:486
+#: carchiveoperation.cpp:494
 #, fuzzy
 msgid "Karchiver - Mail archive"
 msgstr "Skakel om argief"
 
-#: carchiveoperation.cpp:486
+#: carchiveoperation.cpp:494
 msgid "Enter the email address of the recipient"
 msgstr "Invoer die e-pos adres van die ontvanger"
 
-#: carchiveoperation.cpp:785
+#: carchiveoperation.cpp:793
 #, fuzzy
 msgid "Please first open an archive"
 msgstr "Eerste open 'n argief!"
 
-#: carchiveoperation.cpp:812
+#: carchiveoperation.cpp:820
 msgid "Please give a name to your SelfExtracting archive"
 msgstr ""
 
-#: carchiveoperation.cpp:818
+#: carchiveoperation.cpp:826
 msgid "Sfx module not found"
 msgstr ""
 
-#: carchiveoperation.cpp:847
+#: carchiveoperation.cpp:855
 #, fuzzy
 msgid "Sfx archive ready"
 msgstr "Argief nie geskep"
 
-#: carchiveoperation.cpp:878
+#: carchiveoperation.cpp:886
 #, fuzzy
 msgid "None errors found in this archive"
 msgstr "Soek in hierdie argief:"
 
-#: carchiveoperation.cpp:878
+#: carchiveoperation.cpp:886
 msgid "Everything is OK."
 msgstr ""
 
-#: carchiveoperation.cpp:974
+#: carchiveoperation.cpp:982
 #, fuzzy
 msgid "This is a read-only archive!"
 msgstr "Hierdie lêer is 'n argief. Open dit!"
 
-#: carchiveoperation.cpp:979
+#: carchiveoperation.cpp:987
 msgid "No file to be added"
 msgstr ""
 
-#: carchiveoperation.cpp:1021
+#: carchiveoperation.cpp:1029
 msgid "Create archive"
 msgstr "Skep argief"
 
-#: carchiveoperation.cpp:1032
+#: carchiveoperation.cpp:1040
 #, fuzzy
 msgid "None files selected!"
 msgstr "Besigtig gekose"
 
-#: carchiveoperation.cpp:1052
+#: carchiveoperation.cpp:1060
 #, fuzzy
 msgid "Please enter a valid archive name"
 msgstr "Kies nuwe argief naam"
 
-#: carchiveoperation.cpp:1058
+#: carchiveoperation.cpp:1066
 msgid "This file already exists"
 msgstr ""
 
-#: carchiveoperation.cpp:1233 carchiveoperation.cpp:1284
-#: carchiveoperation.cpp:1309 carchiveoperation.cpp:1320
-#: carchiveoperation.cpp:1325
+#: carchiveoperation.cpp:1241 carchiveoperation.cpp:1292
+#: carchiveoperation.cpp:1317 carchiveoperation.cpp:1328
+#: carchiveoperation.cpp:1333
 msgid "Cannot perform operation, exiting"
 msgstr ""
 
-#: carchiveoperation.cpp:1249
+#: carchiveoperation.cpp:1257
 msgid "Operation canceled"
 msgstr ""
 
