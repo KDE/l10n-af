@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmfonts stable\n"
-"POT-Creation-Date: 2006-08-22 02:34+0200\n"
+"POT-Creation-Date: 2006-09-18 02:35+0200\n"
 "PO-Revision-Date: 2005-06-29 11:28+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -13,27 +13,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: fonts.cpp:208
+#: fonts.cpp:209
 msgid "Configure Anti-Alias Settings"
 msgstr "Konfigureer Anti-Aliasing Instellings"
 
-#: fonts.cpp:214
+#: fonts.cpp:215
 msgid "E&xclude range:"
 msgstr "Sluit uit omvang:"
 
-#: fonts.cpp:217 fonts.cpp:222
+#: fonts.cpp:218 fonts.cpp:223
 msgid " pt"
 msgstr " pt"
 
-#: fonts.cpp:219
+#: fonts.cpp:220
 msgid " to "
 msgstr " na "
 
-#: fonts.cpp:225
+#: fonts.cpp:226
 msgid "&Use sub-pixel hinting:"
 msgstr "Gebruik sub-pixel leiding:"
 
-#: fonts.cpp:228
+#: fonts.cpp:229
 msgid ""
 "If you have a TFT or LCD screen you can further improve the quality of "
 "displayed fonts by selecting this option."
@@ -47,7 +47,7 @@ msgstr ""
 "<br>"
 "<br><b>Dit sal nie werk met CRT monitore nie.</b>"
 
-#: fonts.cpp:236
+#: fonts.cpp:237
 msgid ""
 "In order for sub-pixel hinting to work correctly you need to know how the "
 "sub-pixels of your display are aligned."
@@ -61,86 +61,86 @@ msgstr ""
 "sub-pixels, rooi, groen and blou. Die meeste vertone het 'n liniêre orde van "
 "RGB sub-pixel, somige het BGR."
 
-#: fonts.cpp:247
+#: fonts.cpp:248
 msgid "Hinting style: "
 msgstr "Leiding styl:"
 
-#: fonts.cpp:254
+#: fonts.cpp:255
 msgid ""
 "Hinting is a process used to enhance the quality of fonts at small sizes."
 msgstr ""
 "Leiding is 'n proses wat gebruik word om die kwaliteit van skriftipes in klein "
 "grotes te verbeter."
 
-#: fonts.cpp:491
+#: fonts.cpp:492
 msgid "General"
 msgstr "Algemeen"
 
-#: fonts.cpp:492
+#: fonts.cpp:493
 msgid "Fixed width"
 msgstr "Vasgemaakte wydte"
 
-#: fonts.cpp:493
+#: fonts.cpp:494
 msgid "Toolbar"
 msgstr "Nutsbalk"
 
-#: fonts.cpp:494
+#: fonts.cpp:495
 msgid "Menu"
 msgstr "Kieslys"
 
-#: fonts.cpp:495
+#: fonts.cpp:496
 msgid "Window title"
 msgstr "Venster titel"
 
-#: fonts.cpp:496
+#: fonts.cpp:497
 msgid "Taskbar"
 msgstr "Taakbalk"
 
-#: fonts.cpp:497
+#: fonts.cpp:498
 msgid "Desktop"
 msgstr "Werkskerm"
 
-#: fonts.cpp:531
+#: fonts.cpp:532
 msgid "Used for normal text (e.g. button labels, list items)."
 msgstr "Gebruik word vir normale teks (e.g. knoppie etikette, lys iteme)."
 
-#: fonts.cpp:532
+#: fonts.cpp:533
 msgid "A non-proportional font (i.e. typewriter font)."
 msgstr "'n Nie-proporsionele skriftipe (i.e. tikmasjien skrif tipe)."
 
-#: fonts.cpp:533
+#: fonts.cpp:534
 msgid "Used to display text beside toolbar icons."
 msgstr "Gebruik word na vertoon teks behalwe nutsbalk ikoone."
 
-#: fonts.cpp:534
+#: fonts.cpp:535
 msgid "Used by menu bars and popup menus."
 msgstr "Gebruik word deur kieslys stawe en opspring kieslyste."
 
-#: fonts.cpp:535
+#: fonts.cpp:536
 msgid "Used by the window titlebar."
 msgstr "Gebruik word deur die venster titelbar."
 
-#: fonts.cpp:536
+#: fonts.cpp:537
 msgid "Used by the taskbar."
 msgstr "Gebruik word deur die taakbalk."
 
-#: fonts.cpp:537
+#: fonts.cpp:538
 msgid "Used for desktop icons."
 msgstr "Gebruik word vir werkskerm ikoone."
 
-#: fonts.cpp:588
+#: fonts.cpp:589
 msgid "Ad&just All Fonts..."
 msgstr "Verstel Alle Skriftipes..."
 
-#: fonts.cpp:589
+#: fonts.cpp:590
 msgid "Click to change all fonts"
 msgstr "Kliek na verandering alle skriftipes"
 
-#: fonts.cpp:596
+#: fonts.cpp:597
 msgid "Use a&nti-aliasing for fonts"
 msgstr "Gebruik anti-aliasing vir skriftipes"
 
-#: fonts.cpp:597
+#: fonts.cpp:598
 msgid ""
 "If this option is selected, KDE will smooth the edges of curves in fonts."
 msgstr ""
@@ -150,16 +150,44 @@ msgstr ""
 msgid "Configure..."
 msgstr "Konfigureer..."
 
-#: fonts.cpp:676
+#: fonts.cpp:608
+msgid "Force fonts DPI"
+msgstr ""
+
+#: fonts.cpp:611
+msgid "96 DPI"
+msgstr ""
+
+#: fonts.cpp:612
+msgid "120 DPI"
+msgstr ""
+
+#: fonts.cpp:615
 msgid ""
-"<p>You have changed anti-aliasing related settings. This change will only "
-"affect newly started applications.</p>"
+"<p>This option forces a specific DPI value for fonts. It may be useful when the "
+"real DPI of the hardware is not detected properly and it is also often misused "
+"when poor quality fonts are used that do not look well with DPI values other "
+"than 96 or 120 DPI.</p>"
+"<p>The use of this option is generally discouraged. For selecting proper DPI "
+"value a better option is explicitly configuring it for the whole X server if "
+"possible (e.g. DisplaySize in xorg.conf or adding <i>-dpi value</i> "
+"to ServerLocalArgs= in $KDEDIR/share/config/kdm/kdmrc). When fonts do not "
+"render properly with real DPI value better fonts should be used or "
+"configuration of font hinting should be checked.</p>"
+msgstr ""
+
+#: fonts.cpp:728
+#, fuzzy
+msgid ""
+"<p>Some changes such as anti-aliasing will only affect newly started "
+"applications.</p>"
 msgstr ""
 "<p>Jy het het verander anti-aliasing verwanter instellings. Hierdie verander "
 "sal slegs affekteer nuwe beginne programme.</p>"
 
-#: fonts.cpp:677
-msgid "Anti-Aliasing Settings Changed"
+#: fonts.cpp:729
+#, fuzzy
+msgid "Font Settings Changed"
 msgstr "Anti-Aliasing Instellings het verander"
 
 #: kxftconfig.cpp:876 kxftconfig.cpp:917
