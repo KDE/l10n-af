@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kalarm VERSION\n"
-"POT-Creation-Date: 2006-10-19 02:40+0200\n"
+"POT-Creation-Date: 2006-10-21 02:40+0200\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -2019,28 +2019,30 @@ msgstr "Skrif tipe && Kleur"
 msgid "Default Alarm Edit Settings"
 msgstr "Verstek Alarm Instellings"
 
-#: prefdlg.cpp:230
-msgid "Start alarm monitoring at lo&gin"
-msgstr ""
-
-#: prefdlg.cpp:234
-msgid ""
-"Automatically start alarm monitoring whenever you start KDE, by running the "
-"alarm daemon (%1).\n"
-"\n"
-"This option should always be checked unless you intend to discontinue use of "
-"KAlarm."
-msgstr ""
-
-#: prefdlg.cpp:239
+#: prefdlg.cpp:228
 msgid "Run Mode"
 msgstr "Hardloop Modus"
 
-#: prefdlg.cpp:248
+#: prefdlg.cpp:236
+msgid "&Run only on demand"
+msgstr ""
+
+#: prefdlg.cpp:240
+msgid ""
+"Check to run KAlarm only when required.\n"
+"\n"
+"Notes:\n"
+"1. Alarms are displayed even when KAlarm is not running, since alarm monitoring "
+"is done by the alarm daemon.\n"
+"2. With this option selected, the system tray icon can be displayed or hidden "
+"independently of KAlarm."
+msgstr ""
+
+#: prefdlg.cpp:247
 msgid "Run continuously in system &tray"
 msgstr "Hardloop kontinu in stelsel laai"
 
-#: prefdlg.cpp:252
+#: prefdlg.cpp:251
 #, fuzzy
 msgid ""
 "Check to run KAlarm continuously in the KDE system tray.\n"
@@ -2060,20 +2062,11 @@ msgstr ""
 "die stelsel laai eenvoudig verskaf maklike toegang verkry en 'n status "
 "indikasie."
 
-#: prefdlg.cpp:260
-msgid "Autostart at &login"
-msgstr "Outomatiese begin na aanteken"
-
-#: prefdlg.cpp:266
-#, fuzzy
-msgid "Check to run KAlarm whenever you start KDE."
-msgstr "Bevestig na hardloop %1 wanneer ook al jy begin Kde."
-
-#: prefdlg.cpp:270
+#: prefdlg.cpp:259
 msgid "Disa&ble alarms while not running"
 msgstr "Deaktiveer alarms terwyl nie wat loop"
 
-#: prefdlg.cpp:274
+#: prefdlg.cpp:263
 #, fuzzy
 msgid ""
 "Check to disable alarms whenever KAlarm is not running. Alarms will only appear "
@@ -2082,115 +2075,108 @@ msgstr ""
 "Bevestig na deaktiveer Alarms wanneer ook al %1 is nie wat loop. Alarms sal "
 "slegs verskyn terwyl die stelsel laai ikoon is sigbare."
 
-#: prefdlg.cpp:278
+#: prefdlg.cpp:266
 msgid "Warn before &quitting"
 msgstr ""
 
-#: prefdlg.cpp:281
+#: prefdlg.cpp:269
 msgid "Check to display a warning prompt before quitting KAlarm."
 msgstr ""
 
-#: prefdlg.cpp:286
-msgid "&Run only on demand"
+#: prefdlg.cpp:272 prefdlg.cpp:498
+msgid "Autostart at &login"
+msgstr "Outomatiese begin na aanteken"
+
+#: prefdlg.cpp:279
+msgid "Start alarm monitoring at lo&gin"
 msgstr ""
 
-#: prefdlg.cpp:290
+#: prefdlg.cpp:283
 msgid ""
-"Check to run KAlarm only when required.\n"
+"Automatically start alarm monitoring whenever you start KDE, by running the "
+"alarm daemon (%1).\n"
 "\n"
-"Notes:\n"
-"1. Alarms are displayed even when KAlarm is not running, since alarm monitoring "
-"is done by the alarm daemon.\n"
-"2. With this option selected, the system tray icon can be displayed or hidden "
-"independently of KAlarm."
+"This option should always be checked unless you intend to discontinue use of "
+"KAlarm."
 msgstr ""
 
-#: prefdlg.cpp:297
-msgid "Autostart system tray &icon at login"
-msgstr "Outomatiese begin stelsel laai ikoon na aanteken"
-
-#: prefdlg.cpp:303
-msgid "Check to display the system tray icon whenever you start KDE."
-msgstr ""
-"Bevestig na vertoon die stelsel laai ikoon wanneer ook al jy begin Kde."
-
-#: prefdlg.cpp:311
+#: prefdlg.cpp:294
 msgid "&Start of day for date-only alarms:"
 msgstr "Begin van dag vir date-only alarms:"
 
-#: prefdlg.cpp:315
+#: prefdlg.cpp:298
 msgid ""
 "The earliest time of day at which a date-only alarm (i.e. an alarm with \"any "
 "time\" specified) will be triggered."
 msgstr ""
 
-#: prefdlg.cpp:323
+#: prefdlg.cpp:306
 msgid "Con&firm alarm deletions"
 msgstr ""
 
-#: prefdlg.cpp:326
+#: prefdlg.cpp:309
 msgid "Check to be prompted for confirmation each time you delete an alarm."
 msgstr "Bevestig na wees gepor vir bevestiging elke tyd jy uitvee 'n alarm."
 
-#: prefdlg.cpp:331
+#: prefdlg.cpp:314
 #, fuzzy
 msgid "Expired Alarms"
 msgstr "Redigeer Alarm"
 
-#: prefdlg.cpp:336
+#: prefdlg.cpp:319
 msgid "Keep alarms after e&xpiry"
 msgstr ""
 
-#: prefdlg.cpp:340
+#: prefdlg.cpp:323
 msgid ""
 "Check to store alarms after expiry or deletion (except deleted alarms which "
 "were never triggered)."
 msgstr ""
 
-#: prefdlg.cpp:345
+#: prefdlg.cpp:328
 msgid "Discard ex&pired alarms after:"
 msgstr ""
 
-#: prefdlg.cpp:352
+#: prefdlg.cpp:335
 #, fuzzy
 msgid "da&ys"
 msgstr "dag"
 
-#: prefdlg.cpp:356
+#: prefdlg.cpp:339
 msgid ""
 "Uncheck to store expired alarms indefinitely. Check to enter how long expired "
 "alarms should be stored."
 msgstr ""
 
-#: prefdlg.cpp:359
+#: prefdlg.cpp:342
 msgid "Clear Expired Alar&ms"
 msgstr ""
 
-#: prefdlg.cpp:363
+#: prefdlg.cpp:346
 msgid "Delete all existing expired alarms."
 msgstr ""
 
-#: prefdlg.cpp:368
+#: prefdlg.cpp:351
 msgid "Terminal for Command Alarms"
 msgstr ""
 
-#: prefdlg.cpp:370
+#: prefdlg.cpp:353
 msgid ""
 "Choose which application to use when a command alarm is executed in a terminal "
 "window"
 msgstr ""
 
-#: prefdlg.cpp:377
+#: prefdlg.cpp:360
 msgid ""
 "_: The parameter is a command line, e.g. 'xterm -e'\n"
 "Check to execute command alarms in a terminal window by '%1'"
 msgstr ""
 
-#: prefdlg.cpp:401
+#: prefdlg.cpp:384
 msgid "Other:"
 msgstr ""
 
-#: prefdlg.cpp:407
+#: prefdlg.cpp:390
 msgid ""
 "Enter the full command line needed to execute a command in your chosen terminal "
 "window. By default the alarm's command string will be appended to what you "
@@ -2198,33 +2184,47 @@ msgid ""
 "command line."
 msgstr ""
 
-#: prefdlg.cpp:460
+#: prefdlg.cpp:442
 #, c-format
 msgid ""
 "Command to invoke terminal window not found:\n"
 "%1"
 msgstr ""
 
-#: prefdlg.cpp:508
+#: prefdlg.cpp:489
 msgid ""
 "You should not uncheck this option unless you intend to discontinue use of "
 "KAlarm"
 msgstr ""
 
-#: prefdlg.cpp:583
+#: prefdlg.cpp:498
+msgid "Autostart system tray &icon at login"
+msgstr "Outomatiese begin stelsel laai ikoon na aanteken"
+
+#: prefdlg.cpp:499
+#, fuzzy
+msgid "Check to run KAlarm whenever you start KDE."
+msgstr "Bevestig na hardloop %1 wanneer ook al jy begin Kde."
+
+#: prefdlg.cpp:500
+msgid "Check to display the system tray icon whenever you start KDE."
+msgstr ""
+"Bevestig na vertoon die stelsel laai ikoon wanneer ook al jy begin Kde."
+
+#: prefdlg.cpp:564
 msgid "Email client:"
 msgstr "E-pos kliënt:"
 
-#: prefdlg.cpp:586
+#: prefdlg.cpp:567
 msgid "&KMail"
 msgstr "Kpos"
 
-#: prefdlg.cpp:589
+#: prefdlg.cpp:570
 #, fuzzy
 msgid "&Sendmail"
 msgstr "Stuur pos"
 
-#: prefdlg.cpp:595
+#: prefdlg.cpp:576
 #, fuzzy
 msgid ""
 "Choose how to send email when an email alarm is triggered.\n"
@@ -2240,42 +2240,42 @@ msgstr ""
 "Stuur pos: die e-pos is gestuur automaties. Hierdie opsie sal slegs werk as jou "
 "stelsel is gekonfigureer na gebruik 'Stuur pos' of 'mail'."
 
-#: prefdlg.cpp:602
+#: prefdlg.cpp:583
 msgid "Co&py sent emails into KMail's %1 folder"
 msgstr ""
 
-#: prefdlg.cpp:605
+#: prefdlg.cpp:586
 msgid "After sending an email, store a copy in KMail's %1 folder"
 msgstr ""
 
-#: prefdlg.cpp:610
+#: prefdlg.cpp:591
 #, fuzzy
 msgid "Your Email Address"
 msgstr ""
 "Ongeldige e-pos adres:\n"
 "%1"
 
-#: prefdlg.cpp:631
+#: prefdlg.cpp:612
 msgid ""
 "Your email address, used to identify you as the sender when sending email "
 "alarms."
 msgstr ""
 
-#: prefdlg.cpp:638
+#: prefdlg.cpp:619
 msgid "&Use address from Control Center"
 msgstr ""
 
-#: prefdlg.cpp:642
+#: prefdlg.cpp:623
 msgid ""
 "Check to use the email address set in the KDE Control Center, to identify you "
 "as the sender when sending email alarms."
 msgstr ""
 
-#: prefdlg.cpp:646
+#: prefdlg.cpp:627
 msgid "Use KMail &identities"
 msgstr ""
 
-#: prefdlg.cpp:650
+#: prefdlg.cpp:631
 msgid ""
 "Check to use KMail's email identities to identify you as the sender when "
 "sending email alarms. For existing email alarms, KMail's default identity will "
@@ -2283,35 +2283,35 @@ msgid ""
 "identities to use."
 msgstr ""
 
-#: prefdlg.cpp:657
+#: prefdlg.cpp:638
 #, fuzzy
 msgid ""
 "_: 'Bcc' email address\n"
 "&Bcc:"
 msgstr "%1: ongeldige e-pos adres"
 
-#: prefdlg.cpp:671
+#: prefdlg.cpp:652
 msgid ""
 "Your email address, used for blind copying email alarms to yourself. If you "
 "want blind copies to be sent to your account on the computer which KAlarm runs "
 "on, you can simply enter your user login name."
 msgstr ""
 
-#: prefdlg.cpp:679
+#: prefdlg.cpp:660
 msgid "Us&e address from Control Center"
 msgstr ""
 
-#: prefdlg.cpp:683
+#: prefdlg.cpp:664
 msgid ""
 "Check to use the email address set in the KDE Control Center, for blind copying "
 "email alarms to yourself."
 msgstr ""
 
-#: prefdlg.cpp:689
+#: prefdlg.cpp:670
 msgid "&Notify when remote emails are queued"
 msgstr ""
 
-#: prefdlg.cpp:692
+#: prefdlg.cpp:673
 msgid ""
 "Display a notification message whenever an email alarm has queued an email for "
 "sending to a remote system. This could be useful if, for example, you have a "
@@ -2319,55 +2319,55 @@ msgid ""
 "transmitted."
 msgstr ""
 
-#: prefdlg.cpp:770
+#: prefdlg.cpp:751
 #, fuzzy
 msgid "No valid 'Bcc' email address is specified."
 msgstr "Nee e-pos adres gespesifiseer"
 
-#: prefdlg.cpp:777
+#: prefdlg.cpp:758
 msgid ""
 "%1\n"
 "Are you sure you want to save your changes?"
 msgstr ""
 
-#: prefdlg.cpp:783
+#: prefdlg.cpp:764
 #, c-format
 msgid "No email address is currently set in the KDE Control Center. %1"
 msgstr ""
 
-#: prefdlg.cpp:788
+#: prefdlg.cpp:769
 #, c-format
 msgid "No KMail identities currently exist. %1"
 msgstr ""
 
-#: prefdlg.cpp:806
+#: prefdlg.cpp:787
 #, fuzzy
 msgid "Message Font && Color"
 msgstr "Skrif tipe && Kleur"
 
-#: prefdlg.cpp:811
+#: prefdlg.cpp:792
 #, fuzzy
 msgid "Di&sabled alarm color:"
 msgstr "Deaktiveer alarms terwyl nie wat loop"
 
-#: prefdlg.cpp:818
+#: prefdlg.cpp:799
 #, fuzzy
 msgid "Choose the text color in the alarm list for disabled alarms."
 msgstr "Kies die agtergrond kleur vir die alarm boodskap."
 
-#: prefdlg.cpp:825
+#: prefdlg.cpp:806
 msgid "E&xpired alarm color:"
 msgstr ""
 
-#: prefdlg.cpp:832
+#: prefdlg.cpp:813
 msgid "Choose the text color in the alarm list for expired alarms."
 msgstr ""
 
-#: prefdlg.cpp:888
+#: prefdlg.cpp:869
 msgid "The default setting for \"%1\" in the alarm edit dialog."
 msgstr "Die verstek opset vir \"%1\" in Die alarm redigeer dialoog."
 
-#: prefdlg.cpp:889
+#: prefdlg.cpp:870
 #, fuzzy
 msgid ""
 "Check to select %1 as the default setting for \"%2\" in the alarm edit dialog."
@@ -2375,27 +2375,27 @@ msgstr ""
 "Bevestig na kies Biep as die verstek opset vir \"Klank\" in die alarm redigeer "
 "dialoog."
 
-#: prefdlg.cpp:892
+#: prefdlg.cpp:873
 #, fuzzy
 msgid "Display Alarms"
 msgstr "Aktiveer Alarms"
 
-#: prefdlg.cpp:909
+#: prefdlg.cpp:890
 msgid "Reminder &units:"
 msgstr ""
 
-#: prefdlg.cpp:918
+#: prefdlg.cpp:899
 #, fuzzy
 msgid "The default units for the reminder in the alarm edit dialog."
 msgstr ""
 "Die verstek opset vir Die herhaling periode in Die alarm redigeer dialoog."
 
-#: prefdlg.cpp:942
+#: prefdlg.cpp:923
 #, fuzzy
 msgid "Repea&t sound file"
 msgstr "Kies 'n Klank Lêer"
 
-#: prefdlg.cpp:944
+#: prefdlg.cpp:925
 #, fuzzy
 msgid ""
 "_: sound file \"Repeat\" checkbox\n"
@@ -2404,60 +2404,60 @@ msgstr ""
 "Bevestig na kies Biep as die verstek opset vir \"Klank\" in die alarm redigeer "
 "dialoog."
 
-#: prefdlg.cpp:950
+#: prefdlg.cpp:931
 #, fuzzy
 msgid "Sound &file:"
 msgstr "Einde na:"
 
-#: prefdlg.cpp:958
+#: prefdlg.cpp:939
 #, fuzzy
 msgid "Choose a sound file"
 msgstr "Kies 'n Klank Lêer"
 
-#: prefdlg.cpp:960
+#: prefdlg.cpp:941
 #, fuzzy
 msgid "Enter the default sound file to use in the alarm edit dialog."
 msgstr "Die verstek opset vir \"%1\" in Die alarm redigeer dialoog."
 
-#: prefdlg.cpp:966
+#: prefdlg.cpp:947
 #, fuzzy
 msgid "Command Alarms"
 msgstr "Opdrag"
 
-#: prefdlg.cpp:983
+#: prefdlg.cpp:964
 #, fuzzy
 msgid "Email Alarms"
 msgstr "Aktiveer Alarms"
 
-#: prefdlg.cpp:1010
+#: prefdlg.cpp:991
 #, fuzzy
 msgid "&Recurrence:"
 msgstr "Herhaling"
 
-#: prefdlg.cpp:1023
+#: prefdlg.cpp:1004
 #, fuzzy
 msgid "The default setting for the recurrence rule in the alarm edit dialog."
 msgstr ""
 "Die verstek opset vir Die herhaling periode in Die alarm redigeer dialoog."
 
-#: prefdlg.cpp:1029
+#: prefdlg.cpp:1010
 msgid "In non-leap years, repeat yearly February 29th alarms on:"
 msgstr ""
 
-#: prefdlg.cpp:1037
+#: prefdlg.cpp:1018
 msgid "February 2&8th"
 msgstr ""
 
-#: prefdlg.cpp:1040
+#: prefdlg.cpp:1021
 msgid "March &1st"
 msgstr ""
 
-#: prefdlg.cpp:1043
+#: prefdlg.cpp:1024
 #, fuzzy
 msgid "Do &not repeat"
 msgstr "Gereeld herhaal die alarm"
 
-#: prefdlg.cpp:1048
+#: prefdlg.cpp:1029
 msgid ""
 "For yearly recurrences, choose what date, if any, alarms due on February 29th "
 "should occur in non-leap years.\n"
@@ -2465,77 +2465,77 @@ msgid ""
 "when you change this setting."
 msgstr ""
 
-#: prefdlg.cpp:1174
+#: prefdlg.cpp:1155
 msgid ""
 "You must enter a sound file when %1 is selected as the default sound type"
 msgstr ""
 
-#: prefdlg.cpp:1187
+#: prefdlg.cpp:1168
 #, fuzzy
 msgid "Alarm List"
 msgstr "Alarm Verstek"
 
-#: prefdlg.cpp:1195
+#: prefdlg.cpp:1176
 msgid ""
 "Specify whether to show in the alarm list, the time at which each alarm is due"
 msgstr ""
 
-#: prefdlg.cpp:1202
+#: prefdlg.cpp:1183
 msgid ""
 "Specify whether to show in the alarm list, how long until each alarm is due"
 msgstr ""
 
-#: prefdlg.cpp:1206
+#: prefdlg.cpp:1187
 msgid "System Tray Tooltip"
 msgstr ""
 
-#: prefdlg.cpp:1213
+#: prefdlg.cpp:1194
 msgid "Show next &24 hours' alarms"
 msgstr ""
 
-#: prefdlg.cpp:1217
+#: prefdlg.cpp:1198
 msgid ""
 "Specify whether to include in the system tray tooltip, a summary of alarms due "
 "in the next 24 hours"
 msgstr ""
 
-#: prefdlg.cpp:1222
+#: prefdlg.cpp:1203
 msgid "Ma&ximum number of alarms to show:"
 msgstr ""
 
-#: prefdlg.cpp:1229
+#: prefdlg.cpp:1210
 msgid ""
 "Uncheck to display all of the next 24 hours' alarms in the system tray tooltip. "
 "Check to enter an upper limit on the number to be displayed."
 msgstr ""
 
-#: prefdlg.cpp:1237
+#: prefdlg.cpp:1218
 msgid ""
 "Specify whether to show in the system tray tooltip, the time at which each "
 "alarm is due"
 msgstr ""
 
-#: prefdlg.cpp:1244
+#: prefdlg.cpp:1225
 msgid ""
 "Specify whether to show in the system tray tooltip, how long until each alarm "
 "is due"
 msgstr ""
 
-#: prefdlg.cpp:1249
+#: prefdlg.cpp:1230
 msgid "&Prefix:"
 msgstr ""
 
-#: prefdlg.cpp:1254
+#: prefdlg.cpp:1235
 msgid ""
 "Enter the text to be displayed in front of the time until the alarm, in the "
 "system tray tooltip"
 msgstr ""
 
-#: prefdlg.cpp:1259
+#: prefdlg.cpp:1240
 msgid "Message &windows have a title bar and take keyboard focus"
 msgstr ""
 
-#: prefdlg.cpp:1262
+#: prefdlg.cpp:1243
 msgid ""
 "Specify the characteristics of alarm message windows:\n"
 "- If checked, the window is a normal window with a title bar, which grabs "
@@ -2544,19 +2544,19 @@ msgid ""
 "displayed, but it has no title bar and cannot be moved or resized."
 msgstr ""
 
-#: prefdlg.cpp:1270
+#: prefdlg.cpp:1251
 msgid "Specify whether to show expired alarms in the alarm list"
 msgstr ""
 
-#: prefdlg.cpp:1275
+#: prefdlg.cpp:1256
 msgid "System tray icon &update interval:"
 msgstr "Stelsel laai ikoon dateer op interval:"
 
-#: prefdlg.cpp:1280 sounddlg.cpp:135
+#: prefdlg.cpp:1261 sounddlg.cpp:135
 msgid "seconds"
 msgstr "sekondes"
 
-#: prefdlg.cpp:1282
+#: prefdlg.cpp:1263
 msgid ""
 "How often to update the system tray icon to indicate whether or not the Alarm "
 "Daemon is monitoring alarms."
