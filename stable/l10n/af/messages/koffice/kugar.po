@@ -5,13 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kugar VERSION\n"
-"POT-Creation-Date: 2006-03-29 04:03+0200\n"
+"POT-Creation-Date: 2006-11-02 02:46+0100\n"
 "PO-Revision-Date: 2002-11-07 11:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
+
+#: lib/mfieldobject.cpp:233
+msgid ","
+msgstr ""
 
 #: lib/mreportviewer.cpp:155 lib/mreportviewer.cpp:293
 msgid ""
@@ -84,31 +88,37 @@ msgid "Grid size:"
 msgstr "Bladsy grootte"
 
 #: kudesigner/kudesigner_view.cpp:192 kudesigner_lib/reportheader.cpp:45
+#: kudesigner_lib/structurewidget.cpp:123
 msgid "Report Header"
 msgstr "Raporteer Opskrif"
 
 #: kudesigner/kudesigner_view.cpp:194 kudesigner_lib/reportfooter.cpp:47
+#: kudesigner_lib/structurewidget.cpp:126
 msgid "Report Footer"
 msgstr "Raporteer Voetskrif"
 
 #: kudesigner/kudesigner_view.cpp:196 kudesigner_lib/pageheader.cpp:46
+#: kudesigner_lib/structurewidget.cpp:132
 msgid "Page Header"
 msgstr "Bladsy Opskrif"
 
 #: kudesigner/kudesigner_view.cpp:198 kudesigner_lib/pagefooter.cpp:45
+#: kudesigner_lib/structurewidget.cpp:129
 msgid "Page Footer"
 msgstr "Bladsy Voetskrif"
 
 #: kudesigner/kudesigner_view.cpp:200 kudesigner_lib/detailheader.cpp:39
+#: kudesigner_lib/structurewidget.cpp:138
 msgid "Detail Header"
 msgstr "Detail Opskrif"
 
 #: kudesigner/kudesigner_view.cpp:202 kudesigner_lib/detail.cpp:42
-#: kudesigner_lib/detailbase.cpp:29
+#: kudesigner_lib/detailbase.cpp:29 kudesigner_lib/structurewidget.cpp:135
 msgid "Detail"
 msgstr "Detail"
 
 #: kudesigner/kudesigner_view.cpp:204 kudesigner_lib/detailfooter.cpp:39
+#: kudesigner_lib/structurewidget.cpp:141
 msgid "Detail Footer"
 msgstr "Detail Voetskrif"
 
@@ -135,6 +145,7 @@ msgstr "Bereken Veld"
 
 #: kudesigner/kudesigner_view.cpp:223 kudesigner_lib/commdefs.cpp:42
 #: kudesigner_lib/label.cpp:62 kudesigner_lib/line.cpp:35
+#: kudesigner_lib/structurewidget.cpp:182
 msgid "Line"
 msgstr "Lyn"
 
@@ -146,6 +157,23 @@ msgstr "Etiket"
 #: kudesigner/kudesigner_view.cpp:230
 msgid "Grid Size"
 msgstr ""
+
+#: kudesigner/kudesigner_view.cpp:312
+msgid "Add Detail Header"
+msgstr "Voeg by Detail Opskrif"
+
+#: kudesigner/kudesigner_view.cpp:312 kudesigner/kudesigner_view.cpp:325
+#: kudesigner/kudesigner_view.cpp:339
+msgid "Enter detail level:"
+msgstr "Invoer detail vlak:"
+
+#: kudesigner/kudesigner_view.cpp:325
+msgid "Add Detail"
+msgstr "Voeg by Detail"
+
+#: kudesigner/kudesigner_view.cpp:339
+msgid "Add Detail Footer"
+msgstr "Voeg by Detail Voetskrif"
 
 #: kudesigner_lib/calcfield.cpp:35
 #, fuzzy
@@ -185,6 +213,51 @@ msgstr ""
 #, fuzzy
 msgid "Calculation Type"
 msgstr "Berekening tipe"
+
+#: kudesigner_lib/command.cpp:54
+#, fuzzy
+msgid "Insert Detail Footer Section"
+msgstr "Detail Voetskrif"
+
+#: kudesigner_lib/command.cpp:78
+#, fuzzy
+msgid "Insert Detail Section"
+msgstr "Detail Voetskrif"
+
+#: kudesigner_lib/command.cpp:102
+#, fuzzy
+msgid "Insert Detail Header Section"
+msgstr "Detail Voetskrif"
+
+#: kudesigner_lib/command.cpp:126
+#, fuzzy
+msgid "Insert Page Footer Section"
+msgstr "Detail Voetskrif"
+
+#: kudesigner_lib/command.cpp:149
+#, fuzzy
+msgid "Insert Page Header Section"
+msgstr "Detail Voetskrif"
+
+#: kudesigner_lib/command.cpp:172
+#, fuzzy
+msgid "Insert Report Footer Section"
+msgstr "Detail Voetskrif"
+
+#: kudesigner_lib/command.cpp:195
+#, fuzzy
+msgid "Insert Report Header Section"
+msgstr "Detail Voetskrif"
+
+#: kudesigner_lib/command.cpp:218
+#, fuzzy
+msgid "Insert Report Item"
+msgstr "Raporteer Item Opsies"
+
+#: kudesigner_lib/command.cpp:273
+#, fuzzy
+msgid "Delete Report Item(s)"
+msgstr "Raporteer Item Opsies"
 
 #: kudesigner_lib/commdefs.cpp:38
 #, fuzzy
@@ -593,6 +666,108 @@ msgstr "Spesiaal Veld"
 msgid "PageNo"
 msgstr ""
 
+#: kudesigner_lib/structurewidget.cpp:82
+#, fuzzy
+msgid "Report Structure"
+msgstr "Raporteer Item Opsies"
+
+#: kudesigner_lib/structurewidget.cpp:94
+#, fuzzy
+msgid "Report Template"
+msgstr "Raporteer Opskrif"
+
+#: kudesigner_lib/structurewidget.cpp:145
+msgid " (level %1)"
+msgstr ""
+
+#: kudesigner_lib/structurewidget.cpp:163
+msgid "<unknown>"
+msgstr ""
+
+#: kudesigner_lib/structurewidget.cpp:168
+#, fuzzy, c-format
+msgid "Label: %1"
+msgstr "Etiket"
+
+#: kudesigner_lib/structurewidget.cpp:171
+#, fuzzy, c-format
+msgid "Field: %1"
+msgstr "Veld"
+
+#: kudesigner_lib/structurewidget.cpp:174
+#, fuzzy, c-format
+msgid "Calculated Field: %1"
+msgstr "Bereken Veld"
+
+#: kudesigner_lib/structurewidget.cpp:179
+#, fuzzy, c-format
+msgid "Special Field: %1"
+msgstr "Spesiaal Veld"
+
+#: part/kugar_about.h:31
+msgid "Kugar"
+msgstr "Kugar"
+
+#: part/kugar_about.h:32
+#, fuzzy
+msgid "Report viewer(generator)"
+msgstr "Raporteer Opskrif"
+
+#: part/kugar_about.h:33
+msgid "(c) 1999-2006, The Kugar Team"
+msgstr ""
+
+#: kudesigner/kudesigner_aboutdata.h:40 part/kugar_about.h:36
+msgid "Maintainer, Report Designer, Kugar library enhancements"
+msgstr "Onderhouer, Raporteer Ontwerper, Kugar biblioteek verbeteringe"
+
+#: part/kugar_about.h:39
+msgid "Smaller fixes and Kexi integration"
+msgstr ""
+
+#: part/kugar_about.h:42
+msgid "Direct database support"
+msgstr ""
+
+#: part/kugar_about.h:45
+msgid "Former maintainer"
+msgstr ""
+
+#: part/kugar_about.h:48
+msgid "Original author of Metaphrast"
+msgstr ""
+
+#: _translatorinfo.cpp:1 kudesigner/kudesigner_aboutdata.h:51
+#: part/kugar_about.h:50
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#: _translatorinfo.cpp:3 kudesigner/kudesigner_aboutdata.h:52
+#: part/kugar_about.h:50
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+
+#: kudesigner/kudesigner_aboutdata.h:27
+msgid "GUI report template designer for Kugar report engine"
+msgstr ""
+
+#: kudesigner/kudesigner_aboutdata.h:36
+#, fuzzy
+msgid "Kugar Report Designer"
+msgstr "Raporteer Opskrif"
+
+#: kudesigner/kudesigner_aboutdata.h:44
+msgid "Major bugfixes, additional features and Kexi integration"
+msgstr ""
+
+#: kudesigner/kudesigner_aboutdata.h:48
+msgid "Fast property editing for report items"
+msgstr ""
+
 #. i18n: file kudesigner/kudesignerui.rc line 16
 #: rc.cpp:9
 #, no-c-format
@@ -616,30 +791,6 @@ msgstr "Seksies"
 #, fuzzy, no-c-format
 msgid "Items"
 msgstr "Iteme"
-
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr ""
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr ""
-
-#~ msgid "Add Detail Header"
-#~ msgstr "Voeg by Detail Opskrif"
-
-#~ msgid "Enter detail level:"
-#~ msgstr "Invoer detail vlak:"
-
-#~ msgid "Add Detail"
-#~ msgstr "Voeg by Detail"
-
-#~ msgid "Add Detail Footer"
-#~ msgstr "Voeg by Detail Voetskrif"
 
 #, fuzzy
 #~ msgid ""
@@ -681,12 +832,6 @@ msgstr ""
 #~ msgid ""
 #~ "_: candefs\n"
 #~ "Insert Line"
-#~ msgstr "Raporteer Item Opsies"
-
-#, fuzzy
-#~ msgid ""
-#~ "_: candefs\n"
-#~ "Insert Report Item"
 #~ msgstr "Raporteer Item Opsies"
 
 #~ msgid "Detail height"
@@ -765,43 +910,8 @@ msgstr ""
 #~ msgid "Field type to display"
 #~ msgstr "Veld tipe na vertoon"
 
-#, fuzzy
-#~ msgid "Insert Detail Footer Section"
-#~ msgstr "Detail Voetskrif"
-
-#, fuzzy
-#~ msgid "Insert Detail Section"
-#~ msgstr "Detail Voetskrif"
-
-#, fuzzy
-#~ msgid "Insert Detail Header Section"
-#~ msgstr "Detail Voetskrif"
-
-#, fuzzy
-#~ msgid "Insert Page Footer Section"
-#~ msgstr "Detail Voetskrif"
-
-#, fuzzy
-#~ msgid "Insert Page Header Section"
-#~ msgstr "Detail Voetskrif"
-
-#, fuzzy
-#~ msgid "Insert Report Footer Section"
-#~ msgstr "Detail Voetskrif"
-
-#, fuzzy
-#~ msgid "Insert Report Header Section"
-#~ msgstr "Detail Voetskrif"
-
-#, fuzzy
-#~ msgid "Delete Report Item(s)"
-#~ msgstr "Raporteer Item Opsies"
-
 #~ msgid "Property"
 #~ msgstr "Eienskap"
-
-#~ msgid "Kugar"
-#~ msgstr "Kugar"
 
 #~ msgid "A template driven report viewer for XML data."
 #~ msgstr "'n werkvoorbeeld gedrewe raporteer aansig vir Xml data."
@@ -1140,10 +1250,6 @@ msgstr ""
 #~ msgstr "Raporteer Item Opsies"
 
 #, fuzzy
-#~ msgid "Report Designer"
-#~ msgstr "Raporteer Opskrif"
-
-#, fuzzy
 #~ msgid "Report Sections"
 #~ msgstr "Raporteer Item Opsies"
 
@@ -1356,9 +1462,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Die huidige lêer het al veranderde.\n"
 #~ "Doen jy wil hê na stoor dit?"
-
-#~ msgid "Maintainer, Report Designer, Kugar library enhancements"
-#~ msgstr "Onderhouer, Raporteer Ontwerper, Kugar biblioteek verbeteringe"
 
 #~ msgid "Paper Orientation"
 #~ msgstr "Papier Oriëntasie"
