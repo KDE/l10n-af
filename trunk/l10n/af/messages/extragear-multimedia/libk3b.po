@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libk3b trunk\n"
-"POT-Creation-Date: 2006-11-02 08:43+0100\n"
+"POT-Creation-Date: 2006-11-03 08:43+0100\n"
 "PO-Revision-Date: 2006-09-26 09:38+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -810,8 +810,8 @@ msgstr ""
 "'n Onbruikbare tydelike soekpad (\"path\") was gespesifiseer. Gaan na die "
 "standaard terugval."
 
-#: jobs/k3bcdcopyjob.cpp:525 projects/videodvd/k3bvideodvdimager.cpp:84
-#: projects/videodvd/k3bvideodvdimager.cpp:90
+#: jobs/k3bcdcopyjob.cpp:525 projects/videodvd/k3bvideodvdimager.cpp:85
+#: projects/videodvd/k3bvideodvdimager.cpp:91
 msgid "Unable to create temporary directory '%1'."
 msgstr "Kon nie die tydelike gids (%1) skep nie."
 
@@ -950,51 +950,51 @@ msgstr ""
 "Skep 1 kopie\n"
 "Skep %n kopieë"
 
-#: jobs/k3baudiosessionreadingjob.cpp:66 jobs/k3bdatatrackreader.cpp:62
-#: jobs/k3bdatatrackreader.cpp:95
+#: jobs/k3baudiosessionreadingjob.cpp:96 jobs/k3bdatatrackreader.cpp:112
+#: jobs/k3bdatatrackreader.cpp:145
 #, c-format
 msgid "Could not open device %1"
 msgstr "Kon nie toestel %1 oopmaak nie."
 
-#: jobs/k3bdatatrackreader.cpp:89
+#: jobs/k3bdatatrackreader.cpp:139
 msgid "Unable to open libdvdcss."
 msgstr "Kon nie libdvdcss oopmaak nie."
 
-#: jobs/k3bdatatrackreader.cpp:100
+#: jobs/k3bdatatrackreader.cpp:150
 msgid "Retrieving all CSS keys. This might take a while."
 msgstr "Besig om al die CSS sleutels te onttrek. Dit mag 'n wyle neem."
 
-#: jobs/k3bdatatrackreader.cpp:103
+#: jobs/k3bdatatrackreader.cpp:153
 msgid "Failed to retrieve all CSS keys."
 msgstr "Kon nie die CSS sleutels onttrek nie."
 
-#: jobs/k3bdatatrackreader.cpp:104
+#: jobs/k3bdatatrackreader.cpp:154
 msgid "Video DVD decryption failed."
 msgstr "Video DVD dekripsie was onsuksesvol"
 
-#: jobs/k3bdatatrackreader.cpp:126
+#: jobs/k3bdatatrackreader.cpp:176
 msgid "No support for reading formless Mode2 sectors."
 msgstr "Geen ondersteuning om vormlose modus2 sektore te lees nie."
 
-#: jobs/k3bdatatrackreader.cpp:128
+#: jobs/k3bdatatrackreader.cpp:178
 msgid "Unsupported sector type."
 msgstr "Onondersteunde sektor tipe."
 
-#: jobs/k3bdatatrackreader.cpp:136
+#: jobs/k3bdatatrackreader.cpp:186
 #, c-format
 msgid "Reading with sector size %1."
 msgstr "Besig om met sektor grootte van %1 te lees."
 
-#: jobs/k3baudiosessionreadingjob.cpp:127 jobs/k3bdatatrackreader.cpp:149
+#: jobs/k3baudiosessionreadingjob.cpp:157 jobs/k3bdatatrackreader.cpp:199
 msgid "Unable to open '%1' for writing."
 msgstr "Kon nie '%1' oopmaak vir skryf nie."
 
-#: jobs/k3bdatatrackreader.cpp:181 jobs/k3bdatatrackreader.cpp:343
+#: jobs/k3bdatatrackreader.cpp:231 jobs/k3bdatatrackreader.cpp:395
 #, c-format
 msgid "Error while reading sector %1."
 msgstr "'n Fout het voorgekom met die lees van sektor %1."
 
-#: jobs/k3bdatatrackreader.cpp:254
+#: jobs/k3bdatatrackreader.cpp:304
 #, c-format
 msgid ""
 "_n: Ignored %n erroneous sector.\n"
@@ -1003,12 +1003,12 @@ msgstr ""
 "%n foutiewe sektor was geïgnoreer.\n"
 "'n Totaal van %n foutiewe sektore was geïgnoreer."
 
-#: jobs/k3bdatatrackreader.cpp:320
+#: jobs/k3bdatatrackreader.cpp:372
 #, c-format
 msgid "Problem while reading. Retrying from sector %1."
 msgstr "'n Lees fout het oorgekom. Probeer weer vanaf sektor %1."
 
-#: jobs/k3bdatatrackreader.cpp:337
+#: jobs/k3bdatatrackreader.cpp:389
 #, c-format
 msgid "Ignoring read error in sector %1."
 msgstr "Lees fout in sektor %1 was geïgnoreer."
@@ -1250,15 +1250,15 @@ msgstr "Besig om die DVD 'on-the-fly' te kopiëer"
 msgid "Copying DVD"
 msgstr "Besig om 'n DVD te kopiëer"
 
-#: jobs/k3baudiosessionreadingjob.cpp:57
+#: jobs/k3baudiosessionreadingjob.cpp:87
 msgid "Could not load libcdparanoia."
 msgstr "Kon nie <i>libcdparanoia</i> laai nie."
 
-#: jobs/k3baudiosessionreadingjob.cpp:73
+#: jobs/k3baudiosessionreadingjob.cpp:103
 msgid "Error while initializing audio ripping."
 msgstr "'n Fout het voorgekom tydens die inisialiseering van oudio kopiëering."
 
-#: jobs/k3baudiosessionreadingjob.cpp:161
+#: jobs/k3baudiosessionreadingjob.cpp:191
 #, c-format
 msgid "Unrecoverable error while ripping track %1."
 msgstr "'n Onherstelbare fout het voorgekom tydens die kopiëering van snit %1."
@@ -2186,7 +2186,8 @@ msgstr ""
 msgid "Could not determine size of resulting image file."
 msgstr "Kon nie die grootte van die beeld lêer bepaal nie."
 
-#: projects/audiocd/k3baudioimager.cpp:86 projects/datacd/k3bisoimager.cpp:491
+#: projects/audiocd/k3baudioimager.cpp:104
+#: projects/datacd/k3bisoimager.cpp:491
 msgid "Could not open %1 for writing"
 msgstr "Kon nie %1 vir skryf oopmaak nie."
 
@@ -2241,11 +2242,11 @@ msgstr "Kon nie die tydelike lêer skryf nie."
 msgid "No files to be written."
 msgstr "Geen lêers om te skryf nie."
 
-#: projects/datacd/k3bdatapreparationjob.cpp:56
+#: projects/datacd/k3bdatapreparationjob.cpp:75
 msgid "<em>%1</em> renamed to <em>%2</em>"
 msgstr "<em>%1</em> se naam is na <em>%2</em> verander."
 
-#: projects/datacd/k3bdatapreparationjob.cpp:148
+#: projects/datacd/k3bdatapreparationjob.cpp:161
 msgid ""
 "Some filenames need to be shortened due to the %1 char restriction of the "
 "Joliet extensions. If the Joliet extensions are disabled filenames do not have "
@@ -2256,15 +2257,15 @@ msgstr ""
 "lêername nie verkort te word nie. Die probleem is egter dat lang lêername nie "
 "onder Windows stelsels beskikbaar sal wees nie."
 
-#: projects/datacd/k3bdatapreparationjob.cpp:155
+#: projects/datacd/k3bdatapreparationjob.cpp:168
 msgid "Shorten Filenames"
 msgstr "Verkort Lêername"
 
-#: projects/datacd/k3bdatapreparationjob.cpp:156
+#: projects/datacd/k3bdatapreparationjob.cpp:169
 msgid "Disable Joliet extensions"
 msgstr "Deaktiveer Joliet uitbreidings."
 
-#: projects/datacd/k3bdatapreparationjob.cpp:173
+#: projects/datacd/k3bdatapreparationjob.cpp:186
 msgid ""
 "The Joliet extensions (which are needed for long filenames on Windows systems) "
 "restrict the length of the volume descriptior (the name of the filesystem) to "
@@ -2277,22 +2278,22 @@ msgstr ""
 "langer as wat toegelaat word. Moet die beskrywing afgekap word of wil jy terug "
 "gaan en dit verander?"
 
-#: projects/datacd/k3bdatapreparationjob.cpp:179
+#: projects/datacd/k3bdatapreparationjob.cpp:192
 msgid "Cut volume descriptor in the Joliet tree"
 msgstr "Kap die volume beskrywing vir die Joliet boom af"
 
-#: projects/datacd/k3bdatapreparationjob.cpp:180
-#: projects/datacd/k3bdatapreparationjob.cpp:198
+#: projects/datacd/k3bdatapreparationjob.cpp:193
+#: projects/datacd/k3bdatapreparationjob.cpp:211
 msgid "Cancel and go back"
 msgstr "Kanselleer en gaan terug"
 
-#: projects/datacd/k3bdatapreparationjob.cpp:192
+#: projects/datacd/k3bdatapreparationjob.cpp:205
 msgid ""
 "The following files could not be found. Do you want to remove them from the "
 "project and continue without adding them to the image?"
 msgstr ""
 
-#: projects/datacd/k3bdatapreparationjob.cpp:197
+#: projects/datacd/k3bdatapreparationjob.cpp:210
 msgid "Remove missing files and continue"
 msgstr ""
 
@@ -2810,25 +2811,25 @@ msgstr ""
 "(vooraf versterking). By die ontvanger word dit dan weer verswak voordat dit "
 "terug gespeel word."
 
-#: projects/audiocd/k3baudioimager.cpp:70
+#: projects/audiocd/k3baudioimager.cpp:88
 #, c-format
 msgid "Unable to seek in track %1."
 msgstr "Kon nie binner snit %1 soek nie."
 
-#: projects/audiocd/k3baudioimager.cpp:127
+#: projects/audiocd/k3baudioimager.cpp:145
 #, c-format
 msgid "Error while decoding track %1."
 msgstr "'n Fout het met die dekodering van snit %1 voor gekom."
 
-#: projects/audiocd/k3baudiocdtracksource.cpp:116
+#: projects/audiocd/k3baudiocdtracksource.cpp:101
 msgid "Please insert Audio CD %1%2"
 msgstr "Sit asb. oudio CD %1%2 in."
 
-#: projects/audiocd/k3baudiocdtracksource.cpp:263
+#: projects/audiocd/k3baudiocdtracksource.cpp:248
 msgid "CD Track"
 msgstr "CD Snit"
 
-#: projects/audiocd/k3baudiocdtracksource.cpp:269
+#: projects/audiocd/k3baudiocdtracksource.cpp:254
 msgid "Track %1 from Audio CD %2"
 msgstr "Snit %1 van oudio CD %2"
 
@@ -3241,20 +3242,20 @@ msgstr "Besig om die \"lead-in\" te skryf."
 msgid "Writing leadout "
 msgstr "Besig om die \"lead-out\" te skryf."
 
-#: projects/videodvd/k3bvideodvdimager.cpp:96
+#: projects/videodvd/k3bvideodvdimager.cpp:97
 msgid "Found invalid entry in the VIDEO_TS folder (%1)."
 msgstr "'n Ongeldige inskrywing is in die VIDEO_TS gids gevind (%1)."
 
-#: projects/videodvd/k3bvideodvdimager.cpp:103
+#: projects/videodvd/k3bvideodvdimager.cpp:104
 #, c-format
 msgid "Unable to link temporary file in folder %1."
 msgstr "Kon nie na die tydelike lêer in gids %1 skakel nie."
 
-#: projects/videodvd/k3bvideodvdimager.cpp:162
+#: projects/videodvd/k3bvideodvdimager.cpp:188
 msgid "The project does not contain all necessary VideoDVD files."
 msgstr "Die projek bevat nie al die nodige VideoDVD lêer nie."
 
-#: projects/videodvd/k3bvideodvdimager.cpp:163
+#: projects/videodvd/k3bvideodvdimager.cpp:189
 msgid ""
 "The resulting DVD will most likely not be playable on a Hifi DVD player."
 msgstr ""
