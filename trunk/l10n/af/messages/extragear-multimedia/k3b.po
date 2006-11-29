@@ -1,16 +1,19 @@
-# UTF-8 test:äëïöü
-# Copyright (C) 2001 Free Software Foundation, Inc.
+# vertaling van k3b.po na Afrikaans
 # Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>, 2006.
+# Frikkie Thirion <kde.afrikaans@gmail.com>, 2006.
+# UTF-8 test:äëïöü
+# Copyright (C) 2001, 2006 Free Software Foundation, Inc.
 msgid ""
 msgstr ""
-"Project-Id-Version: k3b trunk\n"
+"Project-Id-Version: k3b\n"
 "POT-Creation-Date: 2006-11-29 08:55+0100\n"
-"PO-Revision-Date: 2006-09-26 09:54+0200\n"
-"Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
-"Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2006-11-29 16:54+0200\n"
+"Last-Translator: Frikkie Thirion <kde.afrikaans@gmail.com>\n"
+"Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
 
 #: rip/k3baudioprojectconvertingdialog.cpp:80
 msgid "Audio Project Conversion"
@@ -286,7 +289,7 @@ msgstr "Snit %1"
 
 #: rip/k3baudiocdview.cpp:140
 msgid "Searching for Artist information..."
-msgstr ""
+msgstr "Soek vir kunstenaar informasie..."
 
 #: rip/k3baudiocdview.cpp:216
 msgid "Found Cd-Text. Do you want to use it instead of querying CDDB?"
@@ -389,9 +392,8 @@ msgid "No CDDB entry found."
 msgstr "Geen CDDB inskrywing gevind."
 
 #: rip/k3baudiocdview.cpp:473
-#, fuzzy
 msgid "CDDB Error"
-msgstr "I/O fout"
+msgstr "CDDB fout"
 
 #: rip/k3baudiocdview.cpp:484
 msgid "Please set the category before saving."
@@ -403,8 +405,7 @@ msgstr "Stel die CD kunstenaar en titel voordat jy stoor."
 
 #: rip/k3baudiocdview.cpp:507
 msgid "Please set at least artist and title on all tracks before saving."
-msgstr ""
-"Stel ten minste die kunstenaar en titel van al die snitte voordat jy stoor"
+msgstr "Stel ten minste die kunstenaar en titel van al die snitte voordat jy stoor"
 
 #: rip/k3baudiocdview.cpp:520
 msgid "Saved entry (%1) in category %2."
@@ -527,7 +528,6 @@ msgid "playlists/%{albumartist}/%{albumtitle    }"
 msgstr "speel lyste/%{albumartist}/%{albumtitle    }"
 
 #: rip/k3bcddbpatternwidget.cpp:132
-#, fuzzy
 msgid ""
 "<p><b>Pattern special strings:</b>"
 "<p>The following strings will be replaced with their respective meaning in "
@@ -628,7 +628,8 @@ msgstr ""
 "<tr>"
 "<td>%d</td>"
 "<td>huidige datum</td>"
-"<td>%{d} or %{date}</td></tr></table>"
+"<td>%{d} or %{date}</td></tr> "
+"</table>"
 
 #: rip/k3bcddbpatternwidget.cpp:153
 msgid ""
@@ -883,8 +884,7 @@ msgstr ""
 
 #: rip/k3baudiorippingdialog.cpp:195
 msgid "Do not read the pregaps at the end of every track"
-msgstr ""
-"Moet nie die stiltes (\"pregaps\") aan die einde van elke snit lees nie."
+msgstr "Moet nie die stiltes (\"pregaps\") aan die einde van elke snit lees nie."
 
 #: rip/k3baudiorippingdialog.cpp:196
 msgid ""
@@ -994,7 +994,6 @@ msgid "auto"
 msgstr "outo"
 
 #: rip/videodvd/k3bvideodvdrippingwidget.cpp:283
-#, fuzzy
 msgid ""
 "<p><b>Pattern special strings:</b>"
 "<p>The following strings will be replaced with their respective meaning in "
@@ -1102,7 +1101,9 @@ msgstr ""
 "<tr>"
 "<td>%d</td>"
 "<td>huidige datum</td>"
-"<td>%{d} or %{date}</td></tr></table>"
+"<td>%{d} or %{date}</td></tr></table> "
+"<p><em>Wenk: K3b sal ook klein variasies op die lang spesiale stringe aanvaar. "
+"Mens kan bv die onderstrepies (_) uitlaat.</em>"
 
 #: rip/videodvd/k3bvideodvdrippingwidget.cpp:335
 msgid "Video Picture Size"
@@ -1266,6 +1267,8 @@ msgid ""
 "%1</em>) lacks support for any of the codecs supported by K3b."
 "<p>Please make sure it is installed properly."
 msgstr ""
+"<p>K3b gebruik <i>transcode</i> om Video DVDs te kopiëer. Jou installasie van <i>transcode</i> (<em>%1</em>) ontbreek ondersteuning vir die kodeerders wat K3b ondersteun. "
+"<p>Maak asb. seker dat dit korrek geïnstalleer is."
 
 #: rip/videodvd/k3bvideodvdrippingview.cpp:144
 msgid ""
@@ -1393,14 +1396,12 @@ msgid "Success"
 msgstr "Sukses"
 
 #: misc/k3bblankingdialog.cpp:182
-#, fuzzy
 msgid "Erasing CD-RW canceled."
-msgstr "Besig om CD-RW uit te vee"
+msgstr "Uitvee van CD-RW gekanseleer"
 
 #: misc/k3bblankingdialog.cpp:183
-#, fuzzy
 msgid "Canceled"
-msgstr "Gekanselleer."
+msgstr "Gekanseleer"
 
 #: misc/k3bblankingdialog.cpp:185
 msgid "The Erasing process failed. Do you want to see the debugging output?"
@@ -1415,10 +1416,8 @@ msgid "%1 does not support CD-RW writing."
 msgstr "%1 ondersteun nie CD-RW skryf nie."
 
 #: misc/k3bblankingdialog.cpp:211
-msgid ""
-"Erases the complete disk. This takes as long as writing the complete CD."
-msgstr ""
-"Vee die hele skyf uit. Dit neem net so lank soos om 'n volle CD te skryf."
+msgid "Erases the complete disk. This takes as long as writing the complete CD."
+msgstr "Vee die hele skyf uit. Dit neem net so lank soos om 'n volle CD te skryf."
 
 #: misc/k3bblankingdialog.cpp:213
 msgid "Erases just the TOC, the PMA, and the pregap."
@@ -1604,8 +1603,7 @@ msgstr ""
 
 #: misc/k3bcdcopydialog.cpp:277 misc/k3bdvdcopydialog.cpp:237
 #: projects/k3bprojectburndialog.cpp:217
-msgid ""
-"There seems to be not enough free space in temporary directory. Write anyway?"
+msgid "There seems to be not enough free space in temporary directory. Write anyway?"
 msgstr ""
 "Dit lyk asof daar onvoldoende spasie in die tydelike gids beskikbaar is. Skryf "
 "in elk geval?"
@@ -1847,13 +1845,12 @@ msgid "Calculation failed"
 msgstr "Berekening het gevaal"
 
 #: misc/k3bcdimagewritingdialog.cpp:885 misc/k3bisoimagewritingdialog.cpp:490
-#, fuzzy
 msgid "Copy checksum to clipboard"
-msgstr "Kopiëer na die klipbord"
+msgstr "Kopiëer toetssom na die klipbord"
 
 #: misc/k3bcdimagewritingdialog.cpp:886 misc/k3bisoimagewritingdialog.cpp:491
 msgid "Compare checksum..."
-msgstr ""
+msgstr "Vergelyk toetssom..."
 
 #: misc/k3bcdimagewritingdialog.cpp:892 misc/k3bisoimagewritingdialog.cpp:497
 msgid "MD5 Sum Check"
@@ -1943,15 +1940,11 @@ msgid "to DVD"
 msgstr "na DVD"
 
 #: misc/k3bisoimagewritingdialog.cpp:238
-#, fuzzy
 msgid ""
 "The image you selected is not a valid ISO9660 image. Are you sure you want to "
 "burn it anyway? (There may exist other valid image types that are not detected "
 "by K3b but will work fine.)"
-msgstr ""
-"Die beeld wat jy gekies het is nie 'n geldige ISO9660 beeld nie. Is jy seker "
-"dat jy dit nogsteeds wil skryf? (Daar bestaan ander geldige beeld tipes wat nog "
-"nie deur K3b herken word nie, maar wat heeltemal reg werk.)"
+msgstr "Die beeld lêer wat jy gekies het is nie 'n geldige ISO9660 beeld nie. Is jy seker dat jy dit in elk geval wil skryf? (Daar bestaan ander geldige beeld tipes wat nog nie deur K3b herken word nie, maar wat heeltemal reg werk.)"
 
 #: misc/k3bisoimagewritingdialog.cpp:241 projects/k3bprojectburndialog.cpp:158
 msgid "Burn"
@@ -2032,11 +2025,11 @@ msgstr "Geen inligting"
 
 #: k3bservicemenuinstaller.cpp:85
 msgid "Failed to copy service menu files"
-msgstr ""
+msgstr "Kopiëring van die diens kieslys lêers was onsuksesvol"
 
 #: k3bservicemenuinstaller.cpp:107
 msgid "Failed to remove service menu files"
-msgstr ""
+msgstr "Verwydering van die diens kieslys lêers was onsuksesvol"
 
 #: k3bappdevicemanager.cpp:45
 msgid "Media &Info"
@@ -2369,8 +2362,7 @@ msgstr ""
 "paket) om Video CDs te kopiëer. Maak asb. seker dat dit geïnstalleer is."
 
 #: k3bdirview.cpp:248 k3bdirview.cpp:261
-msgid ""
-"Found %1. Do you want K3b to mount the data part or show all the tracks?"
+msgid "Found %1. Do you want K3b to mount the data part or show all the tracks?"
 msgstr ""
 "%1 gevind. Wil jy hê dat K3b aan die data deel koppel , of moet al die snitte "
 "vertoon word?"
@@ -2389,22 +2381,19 @@ msgstr "Vertoon Oudio Snitte"
 
 #: k3bdirview.cpp:299
 msgid "<p>K3b was unable to mount medium <b>%1</b> in device <em>%2 - %3</em>"
-msgstr ""
+msgstr "<p>K3b kon nie die medium <b>%1</b> in toestel <em>%2 - %3</em> koppel nie."
 
 #: k3bdirview.cpp:303
-#, fuzzy
 msgid "Mount Failed"
-msgstr "Lêers gevind"
+msgstr "Koppel was onsuksesvol"
 
 #: k3bdirview.cpp:315
-msgid ""
-"<p>K3b was unable to unmount medium <b>%1</b> in device <em>%2 - %3</em>"
-msgstr ""
+msgid "<p>K3b was unable to unmount medium <b>%1</b> in device <em>%2 - %3</em>"
+msgstr "<p>K3b kon nie die medium <b>%1</b> in toestel <em>%2 - %3</em> ontkoppel nie"
 
 #: k3bdirview.cpp:319
-#, fuzzy
 msgid "Unmount Failed"
-msgstr "Ontkoppeling was onsuksesvol"
+msgstr "Ontkoppel was onsuksesvol"
 
 #: k3bdiroperator.cpp:48
 msgid "K3b Bookmarks"
@@ -2550,8 +2539,7 @@ msgstr "Skryf 'n DVD ISO9660 beeld lêer na 'n DVD"
 
 #: main.cpp:63
 msgid "Write a CD or DVD image to a CD-R(W) or DVD depending on the size"
-msgstr ""
-"Skryf 'n CD of DVD beeld lêer na 'n CD-R(W) of DVD, afhangend van die grootte"
+msgstr "Skryf 'n CD of DVD beeld lêer na 'n CD-R(W) of DVD, afhangend van die grootte"
 
 #: main.cpp:64
 msgid "Erase a CDRW"
@@ -2594,9 +2582,8 @@ msgid "K3b"
 msgstr "K3b"
 
 #: main.cpp:79
-#, fuzzy
 msgid "(c) 1999 - 2006, Sebastian Trüg"
-msgstr "(c) 1999 - 2006, Sebastian Trüg en die K3b Span"
+msgstr "(c) 1999 - 2006, Sebastian Trüg"
 
 #: main.cpp:80
 msgid "Maintainer and Lead Developer"
@@ -3045,9 +3032,8 @@ msgid "Video CD Rip"
 msgstr "Video CD Kopie"
 
 #: k3b.cpp:1591
-#, fuzzy
 msgid "Audio Output Problem"
-msgstr "Oudio Strome"
+msgstr "Oudio Afvoer Probleem"
 
 #: k3bsystemproblemdialog.cpp:76 k3bsystemproblemdialog.cpp:81
 msgid "System Configuration Problems"
@@ -3075,16 +3061,15 @@ msgid "Solution"
 msgstr "Oplossing"
 
 #: k3bsystemproblemdialog.cpp:164
-#, fuzzy
 msgid "No CD/DVD writer found."
-msgstr "Geen CDDB inskrywing gevind."
+msgstr "Geen CD/DVD skrywer kon gevind word nie."
 
 #: k3bsystemproblemdialog.cpp:165
 msgid ""
 "K3b did not find an optical writing device in your system. Thus, you will not "
 "be able to burn CDs or DVDs. However, you can still use other K3b features like "
 "audio track extraction or audio transcoding or ISO9660 image creation."
-msgstr ""
+msgstr "K3b kon nie 'n optiese skryf toestel in jou stelsel vind nie. Jy sal dus nie CDs of DVDs kan skryf nie. Jy ken nogsteeds ander K3b funksies gebruik, soos om oudio snitte vanaf 'n CD te onttrek, transkodering van oudio of video en om ISO9660 beeld lêers te skep."
 
 #: k3bsystemproblemdialog.cpp:175 k3bsystemproblemdialog.cpp:227
 #: k3bsystemproblemdialog.cpp:250 k3bsystemproblemdialog.cpp:299
@@ -3272,8 +3257,7 @@ msgstr ""
 "Anders kan jy 'n nuwer weergawe van %1 probeer."
 
 #: k3bsystemproblemdialog.cpp:406
-msgid ""
-"Install cdrdao >= 1.1.8 which supports writing to ATAPI devices directly."
+msgid "Install cdrdao >= 1.1.8 which supports writing to ATAPI devices directly."
 msgstr ""
 "Installeer 'n cdrdao met weergawe >= 1.1.8. Dit bevat ondersteuning om direk na "
 "ATAPI toestelle kan skryf."
@@ -3650,9 +3634,8 @@ msgid "an appendable %1 medium"
 msgstr "'n Bylasbare %1 medium"
 
 #: k3bmediaselectioncombobox.cpp:421
-#, fuzzy
 msgid "a complete %1 medium"
-msgstr "'n volledige %n medium"
+msgstr "'n volledige %1 medium"
 
 #: k3bmediaselectioncombobox.cpp:424
 msgid "an empty or appendable %1 medium"
@@ -3789,14 +3772,12 @@ msgid "Ignore"
 msgstr "Ignoreer"
 
 #: k3bwriterselectionwidget.cpp:290
-#, fuzzy
 msgid "More..."
-msgstr "Meer Velde..."
+msgstr "Meer..."
 
 #: k3bwriterselectionwidget.cpp:572
-#, fuzzy
 msgid "Set writing speed manually"
-msgstr "Ondersteunde skryf snelhede:"
+msgstr "Stel skryf spoed self"
 
 #: k3bwriterselectionwidget.cpp:573
 msgid ""
@@ -3805,7 +3786,7 @@ msgid ""
 "medium."
 "<p>Please enter the writing speed here and K3b will remember it for future "
 "sessions (Example: 16x)."
-msgstr ""
+msgstr "<p>K3b kan nie die maksimum skryf spoed van 'n optiese skrywer perfek bepaal nie. Die skryf spoed hang altyd van die huidige medium in die dryf af.<p>Voer die skryf spoed hier in, dan sal K3b dit vir toekomstige sessies onthou, bv 16x."
 
 #: k3bapplication.cpp:126
 msgid "Creating GUI..."
@@ -3828,19 +3809,16 @@ msgid "Initialization Problem"
 msgstr "Inisialisering Probleem"
 
 #: k3blsofwrapperdialog.cpp:44
-#, fuzzy
 msgid "Device in use"
-msgstr "Toestelle"
+msgstr "Toestelle word gebruik"
 
 #: k3blsofwrapperdialog.cpp:51
-#, fuzzy
 msgid "Quit the other applications"
-msgstr "Verlaat die program"
+msgstr "Maak die ander programme toe"
 
 #: k3blsofwrapperdialog.cpp:52
-#, fuzzy
 msgid "Check again"
-msgstr "Gaan lêers na"
+msgstr "Bevestig weer"
 
 #: k3blsofwrapperdialog.cpp:73
 msgid ""
@@ -3850,11 +3828,13 @@ msgid ""
 "<p><em>Hint: Sometimes shutting down an application does not happen instantly. "
 "In that case you might have to use the '%3' button."
 msgstr ""
+"<p>Toestel <b>'%1'</b> word alreeds deur 'n ander program (<em>%2</em>) gebruik. "
+"<p>Dit word aanbeveel om die ander program toe te maak voordat jy verder gaan. K3b sal andersens dalk nie volle toegang na die toestel kan kry nie. "
+"<p><em>Wenk: Partykeer maak 'n program nie dadelik toe as dit verlang word nie. In so 'n geval kan jy probeer om die '%3' knoppie te gebruik."
 
 #: k3blsofwrapperdialog.cpp:101
-#, fuzzy
 msgid "<p>Do you really want K3b to kill the following processes: <em>"
-msgstr "Wil jy rêrig die huidige projek skoon maak?"
+msgstr "<p>Wil jy rêrig hê dat K3b die volgende prosesse moet doodmaak:<em>"
 
 #: k3bstatusbarmanager.cpp:59
 msgid "Temp:"
@@ -3865,74 +3845,67 @@ msgid "No info"
 msgstr "Geen inligting"
 
 #: k3bstatusbarmanager.cpp:167
-#, fuzzy
 msgid ""
 "_n: 1 file in %1\n"
 "%n files in %1"
 msgstr ""
-"1 lêer (%1)\n"
-"%n lêers (%1)"
+"1 lêer in %1\n"
+"%n lêers in %1"
 
 #: k3bstatusbarmanager.cpp:168
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_n: 1 folder\n"
 "%n folders"
 msgstr ""
-"1 probleem\n"
-"%n probleme"
+"1 gids\n"
+"%n gidse"
 
 #: k3bstatusbarmanager.cpp:178
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_n: Audio CD (1 track)\n"
 "Audio CD (%n tracks)"
 msgstr ""
-"1 snit\n"
-"%n snitte"
+"Oudio CD (1 snit)\n"
+"Oudio CD (%n snitte)"
 
 #: k3bstatusbarmanager.cpp:184
-#, fuzzy
 msgid "Data CD (%1)"
-msgstr "DataCD%1"
+msgstr "Data CD (%1)"
 
 #: k3bstatusbarmanager.cpp:191
-#, fuzzy
 msgid ""
 "_n: Mixed CD (1 track and %1)\n"
 "Mixed CD (%n tracks and %1)"
 msgstr ""
-"1 snit (%1)\n"
-"%n snitte (%1)"
+"Gemengde CD (1 snit en %1)\n"
+"Gemengde CD (%n snitte en %1)"
 
 #: k3bstatusbarmanager.cpp:198
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_n: Video CD (1 track)\n"
 "Video CD (%n tracks)"
 msgstr ""
-"1 snit\n"
-"%n snitte"
+"Video CD (1 snit)\n"
+"Video CD (%n snitte)"
 
 #: k3bstatusbarmanager.cpp:204
-#, fuzzy
 msgid "eMovix CD (%1)"
-msgstr "eMovixCD%1"
+msgstr "eMovix CD (%1)"
 
 #: k3bstatusbarmanager.cpp:210
-#, fuzzy
 msgid "eMovix DVD (%1)"
-msgstr "eMovixDVD%1"
+msgstr "eMovix DVD (%1)"
 
 #: k3bstatusbarmanager.cpp:216
-#, fuzzy
 msgid "Data DVD (%1)"
-msgstr "DataDVD%1"
+msgstr "Data DVD (%1)"
 
 #: k3bstatusbarmanager.cpp:222
-#, fuzzy
 msgid "Video DVD (%1)"
-msgstr "VideoDVD%1"
+msgstr "Video DVD (%1)"
 
 #: option/k3bthemeoptiontab.cpp:116
 msgid "K3b - The CD/DVD Kreator"
@@ -4309,14 +4282,12 @@ msgid "Burning"
 msgstr "Besig om te Skryf"
 
 #: option/k3bburningoptiontab.cpp:69
-#, fuzzy
 msgid "Allow overburning (&not supported by cdrecord <= 1.10)"
-msgstr "Laat oorskryf (overburning) toe. (cdrecord<=1.10 laat dit nie toe nie"
+msgstr "Laat oorskryf (overburning) toe. (cdrecord<=1.10 ondersteun dit nie)"
 
 #: option/k3bburningoptiontab.cpp:70
-#, fuzzy
 msgid "Force unsafe operations"
-msgstr "Forseer al die opsies hier onder"
+msgstr "Forseer onveilige operasies"
 
 #: option/k3bburningoptiontab.cpp:71
 msgid "&Manual writing buffer size"
@@ -4340,7 +4311,7 @@ msgstr "Vee CD-RWs en DVD-RWs outomaties uit"
 
 #: option/k3bburningoptiontab.cpp:102
 msgid "Allow burning more than the official media capacity"
-msgstr ""
+msgstr "Laat toe dat meer data as die amptelike media kapasiteit geskryf word"
 
 #: option/k3bburningoptiontab.cpp:103
 msgid "Allow to choose between cdrecord and cdrdao"
@@ -4351,13 +4322,12 @@ msgid "Automatically erase CD-RWs and DVD-RWs without asking"
 msgstr "Vee CD-RWs en DVD-RWs outomaties uit sonder om te vra"
 
 #: option/k3bburningoptiontab.cpp:105
-#, fuzzy
 msgid "Do not eject the burn medium after a completed burn process"
-msgstr "Moet nie cd uitskiet nadat skryf voltooi het nie"
+msgstr "Moet nie die geskryfde media uitskiet nadat die skryf proses voltooi het nie"
 
 #: option/k3bburningoptiontab.cpp:106
 msgid "Force K3b to continue some operations otherwise deemed as unsafe"
-msgstr ""
+msgstr "Forseer K3b om met sekere operasies aan te gaan, al word dit as onveilig geag."
 
 #: option/k3bburningoptiontab.cpp:108
 msgid ""
@@ -4385,6 +4355,9 @@ msgid ""
 "sense to first determine the actual maximum capacity of the media brand with a "
 "simulated burn."
 msgstr ""
+"<p>Elke medium het 'n amptelike maksimum kapasiteit. Hierdie inligting word op 'n lees alleen area op die medium gestoor en deur die vervaardiger verseker. Die amptelike maksimum stem nie altyd met die werklike maksimum ooreen nie. Baie media het 'n werklike kapasiteit wat grootter as die amptelike hoeveelheid is. "
+"<p>As hierdie opsie gekies is, sal die veiligheidstoets gedeaktiveer word wat verhoed dat meer data as die amptelike kapasiteit geskryf word. "
+"<p><b>Waarskuwing:</b> Hierdie opsie kan veroorsaak dat die skryf proses onsuksesvol is indien daar probeer word om verby die werklike grootte van die medium te skryf. Toets eers die werklike medium kapasiteit met 'n gesimuleerde skryf."
 
 #: option/k3bburningoptiontab.cpp:127
 msgid ""
@@ -4417,6 +4390,8 @@ msgid ""
 "Otherwise the system will not detect the changes and still treat it as an empty "
 "medium."
 msgstr ""
+"<p>As hierdie opsie gekies is, sal K3b nie die medium uitskiet nadat die skryf proses voltooi het nie. "
+"<p>Let wel: Op Linux stelsels sal die medium herlaai moet word voordat jy dit kan gebruik. Die stelsel sal andersins nie die verandering optel nie en die medium behandel asof dit leeg is."
 
 #: option/k3bburningoptiontab.cpp:143
 msgid ""
@@ -4426,6 +4401,9 @@ msgid ""
 "Thus, one can force K3b to burn a high speed medium on a low speed writer."
 "<p><b>Caution:</b> Enabling this option may result in damaged media."
 msgstr ""
+"<p>As hierdie opsie gekies is, sal K3b voort gaan in situasies wat andersins as onveilig beskou sal wees. "
+"<p>Hierdie opsie deaktiveer die toets van die medium skryf spoed.  Sodoende kan K3b forseer word om 'n hoë spoed medium in 'n stadige skrywer te skryf. "
+"<p><b>Waarskuwing:</b> Aktivering van hierdie opsie kan lei tot beskadigde media."
 
 #. i18n: file ./rip/base_k3baudiorippingoptionwidget.ui line 25
 #: rc.cpp:3 rc.cpp:153
@@ -4622,10 +4600,8 @@ msgstr "Aangaande kondisionele insluiting"
 #. i18n: file ./rip/videodvd/base_k3bvideodvdrippingwidget.ui line 28
 #: rc.cpp:99
 #, no-c-format
-msgid ""
-"Please select the audio streams you want to include in every ripped title"
-msgstr ""
-"Kies asb. die oudio strome wat jy wil insluit in elke gekopiëerde titel"
+msgid "Please select the audio streams you want to include in every ripped title"
+msgstr "Kies asb. die oudio strome wat jy wil insluit in elke gekopiëerde titel"
 
 #. i18n: file ./rip/videodvd/base_k3bvideodvdrippingwidget.ui line 51
 #: rc.cpp:102
@@ -4702,7 +4678,7 @@ msgstr "Video Kodeerder:"
 #: rc.cpp:159
 #, no-c-format
 msgid "Select the Video codec used to encode the DVD titles"
-msgstr ""
+msgstr "Kies die video kodeerder wat gebruik moet word om die DVD titels te enkodeer."
 
 #. i18n: file ./rip/videodvd/base_k3bvideodvdrippingwidget.ui line 437
 #: rc.cpp:162
@@ -4714,7 +4690,7 @@ msgstr "Oudio Kodeerder:"
 #: rc.cpp:165
 #, no-c-format
 msgid "Select the Audio codec used to encode the DVD titles"
-msgstr ""
+msgstr "Kies die oudio kodeerder wat gebruik moet word om die DVD titels te enkodeer."
 
 #. i18n: file ./rip/videodvd/base_k3bvideodvdrippingwidget.ui line 459
 #: rc.cpp:168
@@ -5028,15 +5004,15 @@ msgstr ""
 
 #. i18n: file ./option/base_k3bmiscoptiontab.ui line 195
 #: k3bfirstrun.cpp:60 rc.cpp:321
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Enable Konqueror integration"
-msgstr "Aktiveer %1 snit interpretasie"
+msgstr "Aktiveer Konqueror integrasie"
 
 #. i18n: file ./option/base_k3bmiscoptiontab.ui line 198
 #: rc.cpp:324
 #, no-c-format
 msgid "Enable integration of K3b actions into Konqueror menus"
-msgstr ""
+msgstr "AKtiveer die integrasie van K3b aksies in die Konqueror kieslyste."
 
 #. i18n: file ./option/base_k3bmiscoptiontab.ui line 203
 #: rc.cpp:327
@@ -5051,6 +5027,9 @@ msgid ""
 "<p><em>Konqueror integration is not enabled by default to prevent unwanted "
 "cluttering of the Konqueror menus.</em>"
 msgstr ""
+"<p>K3b kan in Konqueror integreer. Die integrasie laat toe dat K3b vanuit die kontaks kieslys in die lêer bestuurder begin kan word. "
+"<p>Voorbeeld: om 'n gids na 'n data CD te skryf, moet jy met die regter muis knoppie op die gids kliek. In die konteks kieslys wat verskyn, moet jy \"Skep Data CD met K3b...\" kies. 'n Nuwe K3b projek sal oopmaak, wat die gids wat gekies is bevat.\n"
+"<p><em>Konqueror integrasie word nie as standaard geaktiveer nie, om te verhoed dat die Konqueror kieslyste te vol raak.</em>"
 
 #. i18n: file ./option/base_k3bthemeoptiontab.ui line 28
 #: rc.cpp:332
@@ -5301,19 +5280,19 @@ msgstr "Titel:"
 
 #. i18n: file ./projects/base_k3baudiotrackwidget.ui line 212
 #: rc.cpp:486
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Preemph&asis"
-msgstr "Vooraf versterking"
+msgstr "Vooraf versterking "
 
 #. i18n: file ./projects/base_k3baudiotrackwidget.ui line 215
 #: rc.cpp:489
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Alt+A"
-msgstr "Alt+2"
+msgstr "Alt+A"
 
 #. i18n: file ./projects/base_k3baudiotrackwidget.ui line 218
 #: rc.cpp:492
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "<p>Preemphasis is mainly used in audio processing. Higher frequencies in audio "
 "signals usually have lower amplitudes. This can lead to bad signal quality on "
@@ -5321,35 +5300,33 @@ msgid ""
 "this effect, high frequencies are amplified before transmission (preemphasis); "
 "the receiver will then weaken them accordingly for playback."
 msgstr ""
-"Voor versterking word meestal in oudio verwerking gebruik.\n"
-"Hoër frekwensies het laer amplitudes.\n"
-"Slegte sein kwaliteit kan verkry word tydens versending. Om dit te voorkom word "
-"die hoër frekwensies vooraf versterk en dan versend. by die ontvanger word dit "
-"eers weer verswak voorda dit terug gespeel word."
+"Voor versterking word meestal in oudio verwerking gebruik. Hoër frekwensies in oudio seine het gewoonlik laer amplitudes."
+"Slegte sein kwaliteit kan verkry word tydens 'n versending wat baie ruis bevat. Om dit te voorkom word "
+"die hoër frekwensies voor versending versterk. By die ontvanger word dit dan weer verswak voorda dit terug gespeel word."
 
 #. i18n: file ./projects/base_k3baudiotrackwidget.ui line 226
 #: rc.cpp:495
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "&Copy permitted"
-msgstr "Kopiëering toegelaat"
+msgstr "Kopiëering word toegelaat"
 
 #. i18n: file ./projects/base_k3baudiotrackwidget.ui line 229
 #: rc.cpp:498
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Alt+C"
-msgstr "Alt+2"
+msgstr "Alt+C"
 
 #. i18n: file ./projects/base_k3baudiotrackwidget.ui line 245
 #: rc.cpp:501
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Post-Gap:"
-msgstr "Gaping:"
+msgstr "Agter Gaping:"
 
 #. i18n: file ./projects/base_k3baudiotrackwidget.ui line 253
 #: rc.cpp:504
 #, no-c-format
 msgid "Set the length of the track's post-gap"
-msgstr ""
+msgstr "Stel die lengte van die snit se agter gaping"
 
 #. i18n: file ./projects/base_k3baudiotrackwidget.ui line 261
 #: rc.cpp:507
@@ -5367,6 +5344,13 @@ msgid ""
 "<p><b>When writing in TAO writing mode (not recommended for Audio CDs) the "
 "post-gap will most likely be muted and on some burners forced to 2 seconds.</b>"
 msgstr ""
+"<p>Elke snit (behalwe die laaste een) op 'n oudio CD kan 'n agter gaping hê.\n"
+"K3b sit egter nie addisionele gapings by die snit nie. Die effek van die opsie is dat dit die manier hoe dit op 'n Hi-fi oudio CD speler vertoon word beïnvloed. "
+"Die gedeelte van 'n oudio snit wat as agter gaping gemerk is, se tyd sal agteruit afgetel word.\n"
+"<p>Hierdie opsie is deesdae irrelevant, aangesien CD skrywers deesdae arbitêre oudio data in die agter gaping sit, as in DAO modus geskryf word.\n"
+"<p><i>In ander CD skryf programme kan die agter gaping ook die voor gaping genoem word. Die voor gaping van snit 2 is dieselfde as die agter gaping van snit 1.\n"
+"<p><b>As die lengte van die agter gaping verander word sal dit nie die lengte van die snit affekteer nie.</b>\n"
+"<p><b>As in TAO modus geskryf word, wat nie vir oudio CDs aanbeveel word nie, sal die agter gaping waarskynlik stilte bevat en beperk wees tot 2 sekondes.</b>"
 
 #. i18n: file ./projects/base_k3baudiocdtextallfieldswidget.ui line 28
 #: rc.cpp:515
@@ -5415,7 +5399,7 @@ msgstr "MPlayer onderskrif skriftipe:"
 #: rc.cpp:578
 #, no-c-format
 msgid "Select the font to be used to render subtitles"
-msgstr ""
+msgstr "Kies die skrif tipe wat gebruik moet word om onderskrifte te vertoon"
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 53
 #: rc.cpp:581
@@ -5431,9 +5415,9 @@ msgstr "Speel lêers in willekeurige volgorde "
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 75
 #: rc.cpp:588
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Alt+Y"
-msgstr "Alt+2"
+msgstr "Alt+Y"
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 78
 #: rc.cpp:591
@@ -5459,9 +5443,9 @@ msgstr "Moet nie DMA gebruik nie."
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 92
 #: rc.cpp:600
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Alt+D"
-msgstr "Alt+2"
+msgstr "Alt+D"
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 95
 #: rc.cpp:603
@@ -5557,7 +5541,7 @@ msgstr "Oudio speler agtergrond:"
 #: rc.cpp:643
 #, no-c-format
 msgid "Background video to show during audio playback"
-msgstr ""
+msgstr "Agtergrond video moet vertoon word tydens oudio terugspeel"
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 180
 #: rc.cpp:646
@@ -5572,6 +5556,9 @@ msgid ""
 "/usr/local/share/emovix</i>) under <em>backgrounds</em>"
 ". So to add a background one has to copy the file to that folder."
 msgstr ""
+"<p><b>Oudio Terugspeel Agtergrond</b>\n"
+"<p>Die skerm sal gewoonlik swart wees terwyl oudio terug speel. As 'n agtergrond fliek gekies is, sal eMovix dit vertoon tydens oudio terugspeel.\n"
+"<p>Ekstra agtergrond flieks kan geïnstalleer word. Die flieks moet in eMovix se gedeelde data gids geplaas word, wat gewoonlik by <i>/usr/share/emovix</i> of <i>/usr/local/share/emovix</i> geleë is."
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 190
 #: rc.cpp:651
@@ -5595,7 +5582,7 @@ msgstr "eMovix boot boodskap taal:"
 #: rc.cpp:660
 #, no-c-format
 msgid "Select the language of the eMovix help screens"
-msgstr ""
+msgstr "Kies die taal van die eMovix help skerms."
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 225
 #: rc.cpp:663
@@ -5607,7 +5594,7 @@ msgstr "Standaard Boot Etiket:"
 #: rc.cpp:666
 #, no-c-format
 msgid "Select the default Linux kernal configuration"
-msgstr ""
+msgstr "Kies die standaard Linux kernel opstelling."
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 243
 #: rc.cpp:669
@@ -5632,12 +5619,20 @@ msgid ""
 "<p>The <b>floppy</b> label makes eMovix boot from the local floppy drive "
 "instead of the medium."
 msgstr ""
+"<p><b>eMovix Boot Etikette</b>\n"
+"<p>eMovix verskaf 'n verskeidenheid verskillende boot opstellings, wat tydens die boot proses via boot etikette gekies kan word. Die verskillende boot opstellings beïnvloed hoofsaaklik die video afvoer.\n"
+"<p>Die <b>standaard</b>, <b>movix</b> of <b>MoviX</b> etikette begin 'n algemene Vesa video drywer.\n"
+"<p>Die <b>TV</b> etikette kan gebruik word om video direk na die TV afvoer van die video kaart te stuur. eMovix verskaf TV drywers vir verskillende make van video kaarte.\n"
+"<p>Die <b>GB</b> etikette verwys na opstellings wat 'n 'Frame buffer' drywer met verskillende resolusies begin.\n"
+"<p>Die <b>AA</b> etikette laat die video deur die Ascii-Art biblioteek verwerk word, wat dan die video in teks modus met ASCII karakters vertoon.\n"
+"<p>Die <b>hd</b> etiket laat eMovix vanaf die hardeskyf i.p.v. die medium boot. Dit kan gebruik word om te versker dat 'n eMovix medium per ongeluk begin. "
+"<p>Die <b>floppy</b> etiket laat eMovix anaf die plaaslike floppy dryf i.p.v. die medium boot."
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 251
 #: rc.cpp:679
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Select the layout of the keyboard"
-msgstr "Kies die modus van die data snit."
+msgstr "Kies die sleutelbord uitleg"
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 254
 #: rc.cpp:682
@@ -5645,7 +5640,7 @@ msgstr "Kies die modus van die data snit."
 msgid ""
 "<p>The keyboard layout selected here will be used for the eMovix commands like "
 "controlling the media player."
-msgstr ""
+msgstr "<p>Die sleutelbord uitleg wat hier gekies word sal geburik word vir eMovix opdragte, soos om die media speler te beheer."
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 272
 #: rc.cpp:685
@@ -5661,9 +5656,9 @@ msgstr "Skeit skyf uit"
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 286
 #: rc.cpp:691
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Alt+J"
-msgstr "Alt+2"
+msgstr "Alt+J"
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 289
 #: rc.cpp:694
@@ -5689,9 +5684,9 @@ msgstr "Skakel Af"
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 303
 #: rc.cpp:703
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Alt+U"
-msgstr "Alt+2"
+msgstr "Alt+U"
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 306
 #: rc.cpp:706
@@ -5717,9 +5712,9 @@ msgstr "Herlaai"
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 320
 #: rc.cpp:715
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Alt+B"
-msgstr "Alt+2"
+msgstr "Alt+B"
 
 #. i18n: file ./projects/base_k3bmovixoptionswidget.ui line 323
 #: rc.cpp:718
@@ -6796,8 +6791,7 @@ msgstr "Enkodeerde Kwaliteit"
 #: rc.cpp:1229
 #, no-c-format
 msgid "Choose the noise shaping & psycho acoustic algorithm."
-msgstr ""
-"Kies die ruis vorming (\"noise shaping\") en psigo akoestiese algoritme."
+msgstr "Kies die ruis vorming (\"noise shaping\") en psigo akoestiese algoritme."
 
 #. i18n: file ../plugins/encoder/lame/base_k3blameencodersettingswidget.ui line 324
 #: rc.cpp:1232
@@ -7084,12 +7078,11 @@ msgstr ""
 
 #: k3bfirstrun.cpp:52
 msgid "First Run"
-msgstr ""
+msgstr "Eerste hardloop"
 
 #: k3bfirstrun.cpp:61
-#, fuzzy
 msgid "No Konqueror integration"
-msgstr "Gevorderde <i>cdrdao</i> integrasie"
+msgstr "Geen Konqueror integrasie"
 
 #: k3bfirstrun.cpp:64
 msgid ""
@@ -7098,6 +7091,8 @@ msgid ""
 "<p><em>The Konqueror integration can always be disabled and enabled again from "
 "the K3b settings.</em>"
 msgstr ""
+"<p>K3b kan homself in Konqueror integreer. Met hierdie integrasie in plek kan K3b vanuit die lêerbestuurder se konteks kieslys begin word. "
+"<p><em>Konqueror integrasie kan vanuit die K3b opstelling geaktiveer en gedeaktiveer word.</em>"
 
 #: k3bfileview.cpp:95
 msgid "Filter:"
@@ -7136,9 +7131,8 @@ msgid "Start"
 msgstr "Begin"
 
 #: k3binteractiondialog.cpp:134
-#, fuzzy
 msgid "Start the task"
-msgstr "Begin Afset"
+msgstr "Begin die taak"
 
 #: k3binteractiondialog.cpp:212
 msgid "Load K3b default settings"
@@ -7157,8 +7151,7 @@ msgid "<p>This sets all options back to K3b defaults."
 msgstr "<p>Hierdie stel al die opsies terug na hulle K3b standaard waardes"
 
 #: k3binteractiondialog.cpp:219
-msgid ""
-"<p>This loads the settings saved with the <em>Save User Defaults</em> button."
+msgid "<p>This loads the settings saved with the <em>Save User Defaults</em> button."
 msgstr ""
 "<p>Hierdie laai die instellings wat gestoor was toe die<em>"
 "Stoor Gebruiker Standaard Waardes</em> knoppie gedruk was."
@@ -7741,8 +7734,7 @@ msgid "This option allows customization of Gaps and Margins."
 msgstr "Hierdie opsie laat die pasmaak van gapings en kantlyne toe."
 
 #: projects/k3bvcdburndialog.cpp:142
-msgid ""
-"Used to set the number of empty sectors added before the lead-out area begins."
+msgid "Used to set the number of empty sectors added before the lead-out area begins."
 msgstr ""
 "Die aantal leë sektore wat ingevoeg moet word voordat die \"lead-out\" are "
 "begin"
@@ -8411,14 +8403,12 @@ msgid "Split track at:"
 msgstr "Breek snit op by:"
 
 #: projects/k3baudiotracksplitdialog.cpp:180
-#, fuzzy
 msgid "Split Here"
-msgstr "Stereo"
+msgstr "Skei hier"
 
 #: projects/k3baudiotracksplitdialog.cpp:185
-#, fuzzy
 msgid "Remove this Range"
-msgstr "Verwyder tema"
+msgstr "Verwyder hierdie bereik"
 
 #: projects/k3bdataimagesettingswidget.cpp:46
 msgid "Linux/Unix only"
@@ -8581,7 +8571,6 @@ msgid "Data in second session (CD-Extra)"
 msgstr "Data in tweede sessie (CD-Extra)"
 
 #: projects/k3bmixedburndialog.cpp:108
-#, fuzzy
 msgid ""
 "<em>Blue book CD</em>"
 "<br>K3b will create a multisession CD with 2 sessions. The first session will "
@@ -8596,13 +8585,10 @@ msgid ""
 "<br>Some older CD-ROMs may have problems reading a blue book CD since it is a "
 "multisession CD."
 msgstr ""
-"<p><b>Blue book CD</b>"
-"<p>K3b sal 'n multisessie CD skep met 2 sessies.Die eerste sessie sal al die "
-"oudio snitte bevat en die tweede snit sal 'n modus 2 form data snit wees."
+"<em>Blue book CD</em>"
+"<br>K3b sal 'n multisessie CD met 2 sessies skep. Die eerste sessie sal al die oudio snitte bevat en die tweede snit sal 'n modus 2 form 1 data snit wees."
 "<p>Hierdie modus is gebaseer op die <em>Blue book</em> "
-"standard. Dit staan ook bekend as <em>Uitgebreide Oudio CD</em>, <em>"
-"CD0Extra</em> of <em>CD Plus</em>.'n Hifi oudio CD speler sal net die eerste "
-"sessie herken."
+"standard. Dit staan ook bekend as <em>'Extended' Oudio CD</em>, <em>CD-Extra</em> of <em>CD Plus</em>. 'n Hi-fi oudio CD speler sal net die eerste sessie herken en die tweede sessie met die data snit ignoreer."
 
 #: projects/k3bmixedburndialog.cpp:124
 msgid "Data in first track"
@@ -8610,7 +8596,7 @@ msgstr "Data in eerste snit"
 
 #: projects/k3bmixedburndialog.cpp:125
 msgid "K3b will write the data track before all audio tracks."
-msgstr ""
+msgstr "K3b sal die data snit voor enige oudio snitte skryf."
 
 #: projects/k3bmixedburndialog.cpp:128
 msgid "Data in last track"
@@ -8618,22 +8604,17 @@ msgstr "Data in laaste snit"
 
 #: projects/k3bmixedburndialog.cpp:129
 msgid "K3b will write the data track after all audio tracks."
-msgstr ""
+msgstr "K3b sal die data snit na al die oudio snitte skryf"
 
 #: projects/k3bmixedburndialog.cpp:132
-#, fuzzy
 msgid ""
 "<b>Caution:</b> The last two modes should only be used for CDs that are "
 "unlikely to be played on a hifi audio CD player."
 "<br>It could lead to problems with some older hifi audio CD players that try to "
 "play the data track."
 msgstr ""
-"<p><b>Standaard gemengde modus CD 1</b>"
-"<p>K3b sal die data snitte skryf na al die oudio snitte."
-"<p>Hierdie modus moet net gebruik word as die CD waarskynlik nie op 'n Hifi CD "
-"speler gespeel gaan word nie."
-"<p><b>Waarskuwing:</b>Dit kan probleme op ouer oudio CD spelers veroorsaak wat "
-"sal probeer om die data snit te speel."
+"<b>Waarskuwing:</b> Die laaste twee modusse moet net gebruik word as die CD waarskynlik nie op 'n Hifi CD speler gespeel gaan word nie."
+"Dit kan probleme op ouer oudio CD spelers veroorsaak wat probeer om die data snit te speel."
 
 #: projects/k3baudioburndialog.cpp:302 projects/k3bmixedburndialog.cpp:312
 msgid ""
@@ -8687,14 +8668,12 @@ msgid "DVD multisession"
 msgstr "DVD multisessie"
 
 #: projects/k3bdataurladdingdialog.cpp:56
-#, fuzzy
 msgid "Adding files to project '%1'"
-msgstr "Besig om lêers tot projek \"%1\" by te voeg..."
+msgstr "Besig om lêers by projek '%1' by te voeg"
 
 #: projects/k3bdataurladdingdialog.cpp:81
-#, fuzzy
 msgid "Preparing..."
-msgstr "Skep GUI..."
+msgstr "Besig om voor te berei..."
 
 #: projects/k3bdataurladdingdialog.cpp:118
 msgid ""
@@ -8702,20 +8681,20 @@ msgid ""
 "can be burned to a medium directly since it already contains a file system."
 "<br>Are you sure you want to add this file to the project?"
 msgstr ""
+"<p>Die lêer wat jy nou by die projek wil byvoeg, is 'n ISO9660 beeld lêer. Hierdie tipe lêers kan direk na 'n medium geskryf word, omdat dit alreeds 'n lêersisteem bevat. "
+"<br>Is jy seker dat jy hierdie lêer by die projek wil byvoeg?"
 
 #: projects/k3bdataurladdingdialog.cpp:122
-#, fuzzy
 msgid "Adding image file to project"
-msgstr "Besig om lêers tot projek \"%1\" by te voeg..."
+msgstr "Besig om beeld lêer by die projek by te voeg"
 
 #: projects/k3bdataurladdingdialog.cpp:123
-#, fuzzy
 msgid "Add the file to the project"
-msgstr "Voeg lêers by die huidige projek"
+msgstr "Voeg die lêer by die projek"
 
 #: projects/k3bdataurladdingdialog.cpp:124
 msgid "Burn the image directly"
-msgstr ""
+msgstr "Skryf die beeld lêer direk"
 
 #: projects/k3bdataurladdingdialog.cpp:174
 msgid "It is not possible to add files bigger than 4 GB"
@@ -8723,8 +8702,7 @@ msgstr "Dit is nie moontlik om lêers grootter as 4 gG by te voeg nie"
 
 #: projects/k3bdataurladdingdialog.cpp:178
 msgid "Some filenames had to be modified due to limitations in mkisofs"
-msgstr ""
-"Sommige lêername moes verander word a.g.v. beperkings in <i>mkisofs</i>"
+msgstr "Sommige lêername moes verander word a.g.v. beperkings in <i>mkisofs</i>"
 
 #: projects/k3bdataurladdingdialog.cpp:182
 msgid ""
@@ -8735,9 +8713,8 @@ msgstr ""
 "convmv</i>."
 
 #: projects/k3bdataurladdingdialog.cpp:215
-#, fuzzy
 msgid "Moving files to project \"%1\"..."
-msgstr "Besig om lêers tot projek \"%1\" by te voeg..."
+msgstr "Besig om lêers na projek '%1' te skuif..."
 
 #: projects/k3bdataurladdingdialog.cpp:404
 #: projects/k3bdataurladdingdialog.cpp:648
@@ -8747,8 +8724,7 @@ msgstr "Lêer bestaan alreeds"
 #: projects/k3bdataurladdingdialog.cpp:405
 #: projects/k3bdataurladdingdialog.cpp:649
 msgid "<p>File <em>%1</em> already exists in project folder <em>%2</em>."
-msgstr ""
-"<p>Die lêer <em>%1</em> bestaan alreeds in die projek gids <em>%2</em>."
+msgstr "<p>Die lêer <em>%1</em> bestaan alreeds in die projek gids <em>%2</em>."
 
 #: projects/k3bdataurladdingdialog.cpp:415
 #: projects/k3bdataurladdingdialog.cpp:659
@@ -8810,18 +8786,16 @@ msgid "Follow link now"
 msgstr "Volg skakel nou"
 
 #: projects/k3bdataurladdingdialog.cpp:482
-#, fuzzy
 msgid "Always follow links"
-msgstr "Volg simboliese skakels"
+msgstr "Volg altyd skakels"
 
 #: projects/k3bdataurladdingdialog.cpp:483
-#, fuzzy
 msgid "Add link to project"
-msgstr "Voeg simboliese skakel by projek"
+msgstr "Voeg skakel by die projek"
 
 #: projects/k3bdataurladdingdialog.cpp:484
 msgid "Always add links"
-msgstr ""
+msgstr "Voeg altyd skakels by"
 
 #: projects/k3bdataurladdingdialog.cpp:737
 msgid "Enter New Filename"
@@ -8848,8 +8822,7 @@ msgstr "Moet nie byvoeg nie"
 msgid ""
 "Do you also want to add system files (FIFOs, sockets, device files, and broken "
 "symlinks)?"
-msgstr ""
-"Wil jy ook stelsel lêers (FIFOs, toestel lêers en stukkende simlinks) byvoeg?"
+msgstr "Wil jy ook stelsel lêers (FIFOs, toestel lêers en stukkende simlinks) byvoeg?"
 
 #: projects/k3bdataurladdingdialog.cpp:771
 msgid "System Files"
@@ -9011,10 +8984,8 @@ msgstr ""
 "te vertoon en om 'n vertraagde reaksie te hê."
 
 #: projects/k3bvcdtrackdialog.cpp:236
-msgid ""
-"These are actually pseudo keys, representing the numeric keys 0, 1, ..., 9."
-msgstr ""
-"Hierdie is pseudo knoppies wat die numeriese knoppie 0-9 verteenwoordig."
+msgid "These are actually pseudo keys, representing the numeric keys 0, 1, ..., 9."
+msgstr "Hierdie is pseudo knoppies wat die numeriese knoppie 0-9 verteenwoordig."
 
 #: projects/k3bvcdtrackdialog.cpp:238
 msgid "<p>If numeric keys enabled, you can overwrite the default settings."
@@ -9343,8 +9314,7 @@ msgstr "K3b Video DVD Beperkings"
 
 #: projects/k3baudiotrackview.cpp:87
 msgid "Use drag'n'drop to add audio files to the project."
-msgstr ""
-"Gebruik trek-en-los (drag'n'drop) om oudio lêers by die projek by te voeg."
+msgstr "Gebruik trek-en-los (drag'n'drop) om oudio lêers by die projek by te voeg."
 
 #: projects/k3baudiotrackview.cpp:131
 msgid "Artist (CD-Text)"
@@ -9702,27 +9672,24 @@ msgid "Save Settings and close"
 msgstr "Stoor instelling en maak toe"
 
 #: projects/k3bprojectburndialog.cpp:77
-#, fuzzy
 msgid "Saves the settings to the project and closes the dialog."
-msgstr "Stoor die instelling na die projek en maak die brand dialoog toe."
+msgstr "Stoor die instelling in die projek en maak die dialoog toe."
 
 #: projects/k3bprojectburndialog.cpp:81
-#, fuzzy
 msgid "Discard all changes and close"
-msgstr "Gooi alle simboliese skakels weg"
+msgstr "Gooi alle veranderinge weg en maak toe"
 
 #: projects/k3bprojectburndialog.cpp:82
 msgid "Discards all changes made in the dialog and closes it."
-msgstr ""
+msgstr "Gooi alle veranderinge wat in die dialoog gemaak is weg en maak dit toe."
 
 #: projects/k3bprojectburndialog.cpp:156
 msgid "Start the image creation"
-msgstr ""
+msgstr "Begin om die beeld lêer te skep"
 
 #: projects/k3bprojectburndialog.cpp:159
-#, fuzzy
 msgid "Start the burning process"
-msgstr "Maak die huidige projek skoon"
+msgstr "Begin met die skryf proses"
 
 #: projects/k3bprojectburndialog.cpp:202
 msgid "Image folder '%1' does not exist. Do you want K3b to create it?"
@@ -9890,11 +9857,11 @@ msgstr "Welkom by K3b - Die CD en DVD Skepper"
 
 #: k3bwelcomewidget.cpp:57
 msgid "<qt align=\"center\">K3b %1 (c) 1999 - 2006 Sebastian Trüg"
-msgstr ""
+msgstr "<qt align=\"center\">K3b %1 (c) 1999 - 2006 Sebastian Trüg"
 
 #: k3bwelcomewidget.cpp:66
 msgid "Further actions..."
-msgstr ""
+msgstr "Verdere aksies..."
 
 #: k3bwelcomewidget.cpp:394
 msgid "Remove Button"
@@ -10267,12 +10234,11 @@ msgstr "Kon nie die program '%1' opspoor nie."
 #: ../plugins/audiooutput/alsa/k3balsaoutputplugin.cpp:143
 #, c-format
 msgid "Internal Alsa problem: %1"
-msgstr ""
+msgstr "Interne Alsa probleem: %1"
 
 #: ../plugins/audiooutput/alsa/k3balsaoutputplugin.cpp:172
-#, fuzzy
 msgid "Could not open alsa audio device '%1' (%2)."
-msgstr "Kon nie die standaard Alsa klank toestel oopmaak nie (%1)."
+msgstr "Kon nie die Alsa klank toestel '%1' (%2) oopmaak nie."
 
 #: ../plugins/audiooutput/alsa/k3balsaoutputplugin.cpp:180
 msgid "Could not allocate hardware parameter structure (%1)"
@@ -10303,9 +10269,8 @@ msgid "Could not set parameters (%1)."
 msgstr "Kon nie die veranderlikes stel nie (%1)."
 
 #: ../plugins/audiooutput/alsa/k3balsaoutputplugin.cpp:268
-#, fuzzy
 msgid "Alsa device:"
-msgstr "Herskandeer die toestelle"
+msgstr "Aksa toestel:"
 
 #: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:87
 msgid "Rename Pattern"
@@ -10330,8 +10295,7 @@ msgstr "Ou Naam"
 #: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:105
 #: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:243
 msgid "Please click the Scan button to search for renameable files."
-msgstr ""
-"Druk die skandeer knoppie om vir lêers te soek waarvan die name kan verander"
+msgstr "Druk die skandeer knoppie om vir lêers te soek waarvan die name kan verander"
 
 #: ../plugins/project/audiometainforenamer/k3baudiometainforenamerplugin.cpp:117
 msgid "Scan for renamable files"
@@ -10389,1097 +10353,3 @@ msgstr "Kies asseblief 'n oudio projek wat nie leeg is nie."
 msgid "Cddb error"
 msgstr "CDDB fout"
 
-#~ msgid "Could not prepare audio interface for use (%1)."
-#~ msgstr "Kon nie die klank intervlak vir gebruik voorberei nie (%1)."
-
-#, fuzzy
-#~ msgid "Video CD (%1)"
-#~ msgstr "VideoCD%1"
-
-#~ msgid "<p align=\"center\">Change the welcome screen buttons with a right mouse click.<br>All other project types and the tools like Image writing or Formatting are accessible via the K3b menu."
-#~ msgstr "<p align=\"center\">Verander die verwelkoming skerm se knoppies met 'n regter muis kliek<br>Al die ander projek tipes en nuts funksies is toeganklik via die K3b kieslys. "
-
-#~ msgid "Hide Info Text"
-#~ msgstr "Steek Info Teks Weg"
-
-#~ msgid "Show Info Text"
-#~ msgstr "Vertoon Info Teks"
-
-#~ msgid "All"
-#~ msgstr "Alle"
-
-#~ msgid "MPEG4"
-#~ msgstr "MPEG4"
-
-#~ msgid "MPEG-4 Encoding Settings"
-#~ msgstr "MPEG-4 Enkodering Opstelling"
-
-#~ msgid "Video quality:"
-#~ msgstr "Video kwaliteit:"
-
-#~ msgid " bits/pixel"
-#~ msgstr " bisse/beeld element"
-
-#~ msgid "The video quality is a identifier how many kbits used for a pixel to encode."
-#~ msgstr "Die video kwaliteit is 'n aanduier van hoeveel kg gebruik moet word om 'n beeld element (pixel) te enkodeer."
-
-#~ msgid " pixel"
-#~ msgstr " beeld element"
-
-#~ msgid "AVI size:"
-#~ msgstr "AVI grootte:"
-
-#~ msgid " MByte"
-#~ msgstr "MGreep"
-
-#~ msgid "K3b automatically calculate the bitrate or the width to get the video quality set above. If you select <b>width</b>, K3b will increase/decrease the AVI size so that it gets the video quality. If you select the<b> AVI size</b> the width will be increased/decreased to fit the quality."
-#~ msgstr "K3b bereken outomaties die bis tempo of die wydte om die video kwaliteit te haal wat hier bo gespesifiseer is.As jy <b>wydte</b> kies sal K3b die AVI grootte verminder/vermeerder sodat die video kwaliteit behaal word. As jy <b>AVI grootte</b> kies, sal die wydte verminder/vermeerder word sodat die video kwaliteit behaal word."
-
-#~ msgid "AVI size"
-#~ msgstr "AVI grootte"
-
-#~ msgid "Video quality based on a fixed: "
-#~ msgstr "Video kwaliteit gebaseer op 'n vaste:"
-
-#~ msgid "Width:"
-#~ msgstr "Wydte:"
-
-#~ msgid "First track will contain the data"
-#~ msgstr "Eerste snit sal die data bevat"
-
-#~ msgid "<p><b>Standard mixed mode CD 1</b><p>K3b will write the data track before all audio tracks.<p>This mode should only be used for CDs that are unlikely to be played on a hifi audio CD player.<p><b>Caution:</b> It could lead to problems with some older hifi audio CD players that try to play the data track."
-#~ msgstr "<p><b>Standaard gemengde modus CD 1</b><p>K3b sal die data snitte skryf voor al die oudio snitte.<p>Hierdie modus moet net gebruik word as die CD waarskynlik nie op 'n Hifi CD speler gespeel gaan word nie.<p><b>Waarskuwing:</b>Dit kan probleme op ouer oudio CD spelers veroorsaak wat sal probeer om die data snit te speel."
-
-#~ msgid "Last track will contain the data"
-#~ msgstr "Laaste snit sal die data bevat"
-
-#~ msgid "The data will be written in a second session"
-#~ msgstr "Die data sal in 'n tweede sessie geskryf word"
-
-#~ msgid "Track Number"
-#~ msgstr "Snit Nommer"
-
-#~ msgid ""
-#~ "<p><b>Pattern special strings:</b><ul>\n"
-#~ "<li>%a - artist of the track\n"
-#~ "<li>%t - title of the track\n"
-#~ "<li>%n - track number\n"
-#~ "<li>%e - extended information about the track\n"
-#~ "<li>%g - genre of the CD\n"
-#~ "<li>%r - album artist (differs from %a only on soundtracks or compilations)\n"
-#~ "<li>%m - album title\n"
-#~ "<li>%x - extended information about the CD\n"
-#~ "<li>%d - current date\n"
-#~ "</ul>"
-#~ msgstr ""
-#~ "<p><b>Spesiale patroon stringe:</b><ul>\n"
-#~ "<li>%a - kunstenaar van die snit\n"
-#~ "<li>%t - titel van die snit\n"
-#~ "<li>%n - snit nommer\n"
-#~ "<li>%e - breedvoerige inligting aangaande die snit\n"
-#~ "<li>%g - tipe musiek op die CD\n"
-#~ "<li>%r - album kunstenaar (verskil van %a as dit 'n samestelling of film klankbaan is)\n"
-#~ "<li>%m - album titel\n"
-#~ "<li>%x - breedvoerige inligting aangaande die CD\n"
-#~ "<li>%d - huidige datum\n"
-#~ "</ul>"
-
-#~ msgid "<p>Here you can setup the audio CD ripping pattern which states how your ripped tracks will be saved. The basic system allows setting of a standard pattern. If you want to have full control over the pattern please use the advanced pattern system."
-#~ msgstr "<p>Jy kan die oudio CD kopiëering patroon hier opstel, wat bepaal hoe die gekopiëerde snitte benoem moet word. Die basiese stelsel spesifiseer 'n standaard patroon. As jy volle beheer oor diepatroon wil hê moet jy van die gevorderde patroon stelsel gebruik maak."
-
-#~ msgid "Basic Pattern System"
-#~ msgstr "Basiese Patroon Stelsel"
-
-#~ msgid "You are free to add any text in the fields of the filename pattern. This text will be added between the selected entries."
-#~ msgstr "Jy is welkom om enige teks in die lêernaam patroon in te sluit. Die teks sal tussen die gespesifiseerde inskrywings geplaas word."
-
-#~ msgid "Directory Pattern"
-#~ msgstr "Gids Patroon"
-
-#~ msgid "Second directory:"
-#~ msgstr "Tweede gids:"
-
-#~ msgid "First directory:"
-#~ msgstr "Eerste gids:"
-
-#~ msgid "Filename Pattern"
-#~ msgstr "Lêernaam Patroon"
-
-#~ msgid "Advanced Custom Pattern System"
-#~ msgstr "Gevorderde Pasmaak Patroon Stelsel"
-
-#~ msgid "You can use one of the predefined ones, or define your own. You are free to add any text you want along with some special strings that will be replaced by the values gained from CDDB."
-#~ msgstr "Jy kan een van die vooraf opgesteldes gebruik of jou eie verskaf. Jy kan enige teks gebruik tesame met spesiale stringe wat vervang sal word met die waardes vanuit die CDDB."
-
-#~ msgid "%r/%m"
-#~ msgstr "%r/%m"
-
-#~ msgid "%g/%r - %m"
-#~ msgstr "%g/%r - %m"
-
-#~ msgid "music/ripped-tracks"
-#~ msgstr "musiek/gekopiëerde-snitte"
-
-#~ msgid "%a - %t"
-#~ msgstr "%a - %t"
-
-#~ msgid "Track %n - %t (%a)"
-#~ msgstr "Snit %n - %t (%a)"
-
-#~ msgid "Replace all blanks in filename with:"
-#~ msgstr "Vervang alle spasies in lêername met:"
-
-#~ msgid "Replace all blanks in directory with:"
-#~ msgstr "Vervang alle spasies in gids name met:"
-
-#~ msgid "Example"
-#~ msgstr "Voorbeeld"
-
-#~ msgid "xxx"
-#~ msgstr "xxx"
-
-#~ msgid "This is how the ripped audio tracks will be saved"
-#~ msgstr "Dit is hoe die gekopiëerde oudio snitte gestoor gaan word"
-
-#~ msgid "<p>This is an example for the directory and file naming when ripping audio tracks from a CD. The names used have nothing to do with your environment. They are set by the author."
-#~ msgstr "<p>Hierdie is 'n voorbeeld van die gids en lêername wat gebruik gaan word van die gekopiëerde CD. Die name wat gebruik gaan word het geen verband met jou rekenaar omgewing nie. Dit word ieur die outeur gestel."
-
-#~ msgid "&Songwriter:"
-#~ msgstr "Liedjie skrywer:"
-
-#~ msgid "Opt&ions"
-#~ msgstr "Opsies"
-
-#~ msgid "I&ndices"
-#~ msgstr "Indekse "
-
-#~ msgid "00:03:24"
-#~ msgstr "00:03:24"
-
-#~ msgid "Index 0:"
-#~ msgstr "Indeks 0:"
-
-#~ msgid "Modify Index &0 for all tracks. Gap size:"
-#~ msgstr "Verander indeks 0 vir alle snitte. Gaping grootte: "
-
-#~ msgid "Volume Desc"
-#~ msgstr "Volume Beskrywing"
-
-#~ msgid "Un&lock"
-#~ msgstr "Sluit oop"
-
-#~ msgid "Loc&k"
-#~ msgstr "Sluit toe"
-
-#~ msgid "K3b core message"
-#~ msgstr "K3b kern boodskap"
-
-#~ msgid "Writing device %1 - %2 is automounted."
-#~ msgstr "Skryf toestel %1 - %2 is outomaties gekoppel."
-
-#~ msgid "Automounting can cause problems with CD/DVD writing, especially with rewritable media. Although it might all work just fine it is recommended to disable automounting completely for now."
-#~ msgstr "Outokoppel kan probleme veroorsaak wanner CDs of DVDs geskryf word, veral met herskryfbare media. In die meeste gevalle behoort alles reg te werk, maar dit word op die oomblik hoog aanbeveel om outokoppel heeltemal te deaktiveer."
-
-#~ msgid "Replace the automounting entries in /etc/fstab with old-fashioned ones or use pmount or ivman."
-#~ msgstr "Vervang die outokoppel (outomounting) inskrywings in /etc/fstab met ouderwedse weergawes of gebruik <i>pmount</i> of <i>ivman</i>."
-
-#~ msgid "Full Data %1"
-#~ msgstr "Vol Data %1"
-
-#~ msgid "Full %1 medium"
-#~ msgstr "Vol %1 medium"
-
-#~ msgid "Developer"
-#~ msgstr "Ontwikkeler"
-
-#~ msgid "Don't show again."
-#~ msgstr "Moet dit nie weer vertoon nie."
-
-#, fuzzy
-#~ msgid "writable CD or DVD"
-#~ msgstr "na DVD"
-
-#, fuzzy
-#~ msgid "writable DVD"
-#~ msgstr "Herskryfbaar:"
-
-#, fuzzy
-#~ msgid "Double Layer DVD"
-#~ msgstr "Dubbel laag DVD±R"
-
-#~ msgid "DVD-RW and DVD+RW"
-#~ msgstr "DVD-RW en DVD+RW"
-
-#, fuzzy
-#~ msgid "&Format rewritable DVD..."
-#~ msgstr "Formateer DVD±RW..."
-
-#~ msgid "Do not create symbolic links"
-#~ msgstr "Moet nie simboliese skakels skep nie"
-
-#~ msgid ""
-#~ "<p>If this option is checked, K3b will ignore all symbolic links that have been added to the project; meaning that the resulting file system will have no links at all.\n"
-#~ "<p><b>Caution:</b> Symbolic links require Rock Ridge extensions."
-#~ msgstr ""
-#~ "<p>As hierdie opsie gekies is, sal K3b alle simboliese skakels in die projek ignoreer. Die lêerstelsel wat geskep gaan word sal geen skakels bevat nie.\n"
-#~ "<p><b>Waarskuwing:</b> Simboliese skakels benodig die Rock Ridge uitbreidings."
-
-#~ msgid "Ignore all links pointing outside the project"
-#~ msgstr "Ignoreer alle skakels wat na liggings buite die projek wys"
-
-#~ msgid ""
-#~ "<p>If this option is checked, K3b will discard all symbolic links that do not point to a file inside the project. That includes all links to absolute paths like '/home/myhome/testfile'.\n"
-#~ "<p><b>Caution:</b> Symbolic links require Rock Ridge extensions."
-#~ msgstr ""
-#~ "<p>As hierdie opsie gekies is, sal K3b alle simboliese skakels ignoreer wat nie na 'n lêer in die projek wys nie. Dit sluit skakels na absolute soek paaie soos '/home/myhome/testfile' in.\n"
-#~ "<p><b>Waarskuwing:</b> Simboliese skakels benodig die Rock Ridge uitbreidings."
-
-#~ msgid "Follow symbolic links for source files"
-#~ msgstr "Volg simboliese skakels vir bron lêers"
-
-#~ msgid ""
-#~ "<p>If this option is checked every symbolic link in the project will be replaced with the contents of the file it is pointing to. This means that the resulting filesystem will not contain any symbolic links.\n"
-#~ "<p>Be aware that in case Rock Ridge extensions are disabled (which is not recommended) symbolic links are always followed because ISO9660 does not support symbolic links."
-#~ msgstr ""
-#~ "<p>As hierdie opsie gekies is sal die simboliese skakels in die projek met die inhoud van die lêer waarheen dit wys vervang word. Die nuwe lêersisteem sal geen simboliese skakels bevat nie.\n"
-#~ "<p>As Rock Ridge uitbreidings afgeskakel is sal simboliese skakels altyd vervang word, want ISO9660 ondersteun nie simbolise skakels nie."
-
-#~ msgid "Create CD-Text entries"
-#~ msgstr "Skep CD-Teks inskrywings"
-
-#~ msgid "<p>For DVD-R(W) in sequential incremental mode and DVD+R it behaves like multisession CDs.<br> <b>Caution:</b> Most DVD-ROM drives are only able to read the first session and most likely even on DVD writers only the first session will be mounted.</p><p>For DVD+RW and DVD-RW in restricted overwrite mode K3b will utilize growisofs to <em>grow</em> the ISO9660 filesystem in the first session.</p><p><b>Be aware that K3b needs to write multisession DVDs on-the-fly.</b>"
-#~ msgstr "<p>DVD-R(W)s in sekwensiële inkrementele modus en DVD+Rs reageer soos multisessie CDs.<br><b>Waarskuwing:</b>Die meeste DVD-ROM drywe sal net die eerste sessie lees en selfs DVD skrywers sal partykeer net die eerste sessie koppel.</p><p>Vir DVD+RW en DVD-RW in beperkte oorskryf modus sal K3b van <i>growisofs</i> gebruik maak om die ISO9660 lêersisteem in die eerste sessie te skep.</p><p><b>K3b moet multisessie DVDs direk skryf.</b>"
-
-#~ msgid "Destination Base Directory"
-#~ msgstr "Bestemming basis gids"
-
-#~ msgid "K3b Defaults"
-#~ msgstr "K3b Standaard Installings"
-
-#~ msgid "<p>Please wait while K3b is retrieving information about the media in <b>%1</b>."
-#~ msgstr "<p>Wag asb. terwyl K3b informasie aangaande die media in <b>%1</b> onttrek."
-
-#~ msgid "Successfully ripped all video titles to %1."
-#~ msgstr "Alle video titels suksesvol gekopiëer na %1."
-
-#~ msgid "Mounting media"
-#~ msgstr "Besig om media te koppel"
-
-#~ msgid "K3b could not mount <%1>. Please run K3bSetup."
-#~ msgstr "K3b kon nie <%1> koppel nie. Hardloop asb. K3bSetup."
-
-#~ msgid "Successfully mounted media. Starting DVD Ripping."
-#~ msgstr "Media suksesvol gekoppel. Begin DVD kopiëer."
-
-#~ msgid "Preprocessing Video DVD"
-#~ msgstr "Vooraf verwerking van Video DVD"
-
-#~ msgid "K3b could not mount the DVD-device. Ensure that you have the rights to mount the DVD-drive and that it supports either iso9660 or udf filesystem."
-#~ msgstr "K3b kon nie aan die DVD-toestel koppel nie. Maak asb. seker dat jy regte het om aan die DVD-dryf te koppel en dat dit iso9660 of udf lêersisteem ondersteun."
-
-#~ msgid "K3b could not copy the ifo-files from %1."
-#~ msgstr "Kon nie die ifo-lêers vanaf %1 kopiëer nie."
-
-#~ msgid "Ripping Error"
-#~ msgstr "Kopiëering Fout"
-
-#~ msgid "%1 already exists."
-#~ msgstr "%1 bestaan alreeds."
-
-#~ msgid "Log file already exists. Overwrite?"
-#~ msgstr "Log lêer bestaan alreeds. Moet dit oorskryf word?"
-
-#~ msgid "Unable to get data for audio normalizing. Use default of 1.0."
-#~ msgstr "Kon nie data vind wat vir oudio normalisering gebruik moet word nie. Gebruik die standaard waarde van 1.0"
-
-#~ msgid "Titles"
-#~ msgstr "Titels"
-
-#~ msgid "Time"
-#~ msgstr "Tyd"
-
-#~ msgid "Language"
-#~ msgstr "Taal"
-
-#~ msgid "Chapter"
-#~ msgstr "Hoofstuk"
-
-#~ msgid "Angle"
-#~ msgstr "Kyk Hoek"
-
-#~ msgid "K3b is fetching information about title %1..."
-#~ msgstr "K3b is besig om inligting in te win oor titel %1..."
-
-#~ msgid "Titleset %1"
-#~ msgstr "Titel stel %1"
-
-#~ msgid ""
-#~ "Title %1 (Angle(s) %2)\n"
-#~ "Moviedata - TV Norm: %3, Time: %4 hours, Frames: %5, FPS: %6\n"
-#~ "Moviedata - Aspect Ratio %7 %8"
-#~ msgstr ""
-#~ "Titel %1 (Hoek %2)\n"
-#~ "Fliek data - TV Norm: %3, Tyd: %4 ure, Rame: %5, Rame/sekonde: %6\n"
-#~ "Fliek data - Beeld Verhouding %7 %8"
-
-#~ msgid "<p><b>Warning!</b><p>DVD Ripping in K3b is currently unmaintained. Depending on the version of transcode K3b may freeze and pollute ~/.xsession-errors or stdin if you started K3b from a console.<p>If you are interested in maintaining the DVD Ripping part of K3b please contact the project's maintainer Sebastian Trueg (trueg@k3b.org)."
-#~ msgstr "<p><b>Waarskuwing!</b><p>DVD kopiëering in K3b word tans nie in stand gehou nie. Afhangend van die weergawe van 'transcode' wat jy gebruik kan K3b ophang of ~/.xsession-errors vol sinnelose inligting maak.<p>As jy graag die DVD kopiëering gedeelte in stand wil hou kan jy gerus die projek se in stand houer, Sebastian Treug (treug@k3b.org) kontak."
-
-#~ msgid "DVD Ripping currently unstable"
-#~ msgstr "DVD kopiëering is tans onstabiel"
-
-#~ msgid "%A/%T/%a - %t"
-#~ msgstr "%A/%T/%a - %t"
-
-#~ msgid "%g/%A - %T/Track%n"
-#~ msgstr "%g/%A - %T/Snit%n"
-
-#~ msgid "%A - %T"
-#~ msgstr "%A - %T"
-
-#~ msgid "playlists/%A/%T"
-#~ msgstr "speel lyste/%A/%T"
-
-#~ msgid "Never skip"
-#~ msgstr "Moet nooit spring nie"
-
-#~ msgid "<p>If this option is checked K3b will never skip an audio sector if it was not readable (see retries).<p>K3b will stop the ripping process if a read error occurs."
-#~ msgstr "<p>As hierdie opsie gekies is, sal K3b nooit oor die sektor spring as dit nie gelees kan word nie.<p>K3b sal die kopiëering proses stop as 'n lees fout voorkom."
-
-#~ msgid "Ripping DVD"
-#~ msgstr "Besig om DVD te kopiëer"
-
-#~ msgid "Open encoding dialog after ripping."
-#~ msgstr "Maak enkodering dialoog oop na kopiëering"
-
-#~ msgid "Start encoding with default settings after ripping."
-#~ msgstr "Begin enkodering na kopiëering met standaard instellings."
-
-#~ msgid "Select the angle to rip:"
-#~ msgstr "Kies die aansig hoek wat gekopiëer moet word:"
-
-#~ msgid "Available Space"
-#~ msgstr "Beskikbare Spasie"
-
-#~ msgid "This starts the DVD copy."
-#~ msgstr "Hierdie begin die DVD kopiëering"
-
-#~ msgid "Not enough space left in %1"
-#~ msgstr "Nie genoeg spasie oor in %1 nie."
-
-#~ msgid "Select Ripping Directory"
-#~ msgstr "Kies Bestemming Gids"
-
-#~ msgid "Error while parsing file: %1"
-#~ msgstr "'n Fout het voorgekom met die lees van lêer: %1"
-
-#~ msgid "Error Loading Project"
-#~ msgstr "Laai Fout op Projek"
-
-#~ msgid "(full)"
-#~ msgstr "(vol)"
-
-#~ msgid "Data rate: "
-#~ msgstr "Data tempo:"
-
-#~ msgid "Estimated time: "
-#~ msgstr "Geskatte tyd:"
-
-#~ msgid "CD Reader Device"
-#~ msgstr "CD Leser Toestel"
-
-#~ msgid "FIFO buffer:"
-#~ msgstr "FIFO Buffer:"
-
-#~ msgid "&Disk Info"
-#~ msgstr "Disk Inligting"
-
-#~ msgid "Trying to fetch information about the inserted disk."
-#~ msgstr "Probeer om inligting te kry oor die skyf wat ingesit is."
-
-#~ msgid "Unmounting disk."
-#~ msgstr "Maak skyf los."
-
-#~ msgid "No device selected."
-#~ msgstr "Geen toestel gekies."
-
-#~ msgid "Ejecting disk."
-#~ msgstr "Skiet skyf uit."
-
-#~ msgid "Maintainer"
-#~ msgstr "Instandhouer"
-
-#~ msgid "&Encode Video..."
-#~ msgstr "Enkodeer Video..."
-
-#~ msgid "Diskinfo"
-#~ msgstr "Diskinfo"
-
-#~ msgid "K3b &Setup"
-#~ msgstr "K3b Opstelling"
-
-#~ msgid "Opens CD-blanking dialog"
-#~ msgstr "Maak die CD uitvee dialoog oop"
-
-#~ msgid "Open the CD Copy dialog"
-#~ msgstr "Maak die CD kopiëer dialoog oop"
-
-#~ msgid "Retrieve information about inserted media"
-#~ msgstr "Win informasie oor die media in"
-
-#~ msgid "Creating new video encoding project."
-#~ msgstr "Skep nuwe video enkodering projek."
-
-#~ msgid "Please select a CD/DVD device"
-#~ msgstr "Kies asseblief 'n CD/DVD toestel"
-
-#~ msgid "No media"
-#~ msgstr "Geen media"
-
-#~ msgid "empty"
-#~ msgstr "leeg"
-
-#~ msgid "Unable to reload media. Please reload manually."
-#~ msgstr "Kon nie die media herlaai nie. Herlaai asb. self"
-
-#~ msgid "Reload Failed"
-#~ msgstr "Herlaai was onsuksesvol"
-
-#~ msgid "Unable to eject media."
-#~ msgstr "Kon nie die media uitskiet nie"
-
-#~ msgid "No Disk"
-#~ msgstr "Geen skyf"
-
-#~ msgid "No disk in drive"
-#~ msgstr "Geen skyf in die dryf"
-
-#~ msgid "Data CD"
-#~ msgstr "Data CD"
-
-#~ msgid "Mixed mode CD"
-#~ msgstr "Gemengde modus CD"
-
-#~ msgid "Shutdown after encoding process finished"
-#~ msgstr "Skakel of nadat enkodering proses klaar is"
-
-#~ msgid "If enabled, K3b shuts the system down after encoding has finished.This only works in when using Kdm."
-#~ msgstr "Hierdie opsie veroorsaak dat K3b die stelsel sal afskakel sodra enkodering klaar is. Hierdie opsie werk net as KDM gebruik word."
-
-#~ msgid "Start encoding without detecting normalize parameter for audio"
-#~ msgstr "Begin enkodering sonder dat normalisering parameters vir die oudio bepaal is."
-
-#~ msgid "Do only the first pass of a two-pass encoding"
-#~ msgstr "Doen net die eerste fase van 'n dubbel fase (\"two-pass\") enkodering"
-
-#~ msgid "Do only the second pass of a two-pass encoding"
-#~ msgstr "Doen net die tweede fase van die dubbel fase enkodering"
-
-#~ msgid "Basic Audio/Video Settings"
-#~ msgstr "Basiese oudio/video instellings"
-
-#~ msgid "CDs:"
-#~ msgstr "CDs:"
-
-#~ msgid "Select how many CDs the final encoded video should have. You can select CDRs with a size of 650MB and 700MB."
-#~ msgstr "Kies hoeveel CDs die finale geënkodeerde video moet beslaan. Jy kan CDRs spesifiseer met 'n grootte van 650mg of 700mg."
-
-#~ msgid "MP3 bitrate:"
-#~ msgstr "MP3 bistempo:"
-
-#~ msgid "Select bitrate of the audio track. MP3 can be encoded with constant or variable bitrate and joint stereo. AC3 passthrough must be disabled to use MP3."
-#~ msgstr "Kies die bistempo van die oudio snit. MP3s kan in konstante of veranderlike bistempo geënkodeer word. Die stereo klankbaan kan ook m.b.v. \"stereo\",\"joint-stereo\" of \"duel channel\" enkodeer word, wat 'n effek het op die grootte van die finale lêer. AC3 deurlaat filter moet onaktief wees om MP3 te gebruik."
-
-#~ msgid "Codec mode:"
-#~ msgstr "Kodeerder modus:"
-
-#~ msgid "Select the mode for video encoding. 1-pass encoding has lower quality than 2-pass, but requires half the time to encode a video. In 2-pass mode the video will be encoded twice. The first time, the video will only be analyzed to get the best quality in the second encoding pass."
-#~ msgstr "Kies die video enkodering modus. Enkel-verwerking enkodering het 'n laer kwaliteit as dubbel-verwerking enkodering, maar het net die helfde van die tyd vir die enkodering nodig. Dubbel-verwerking enkodering gaan twee maal oor die video materiaal. Die eerste keer word inligting ingesamel wat in die tweede enkodering lopie gebruik word om aanpassings te maak sodat die bes moontlike kwaliteit  gelewer kan word."
-
-#~ msgid "1 x 650 MB"
-#~ msgstr "1 x 650 mg"
-
-#~ msgid "1 x 700 MB"
-#~ msgstr "1 x 700mg"
-
-#~ msgid "2 x 650 MB"
-#~ msgstr "2 x 650 mg"
-
-#~ msgid "2 x 700 MB"
-#~ msgstr "2 x 700 mg"
-
-#~ msgid "1 x 695 MB"
-#~ msgstr "1 x 695 mg"
-
-#~ msgid "1 x 705 MB"
-#~ msgstr "1 x 705 mg"
-
-#~ msgid "---"
-#~ msgstr "---"
-
-#~ msgid "Select the individual filesize of the encoded video instead of using \"number of CDs\"."
-#~ msgstr "Kies die lêer grootte vir die geënkodeerde video i.p.v. om die aantal CDs te spesifiseer."
-
-#~ msgid "Enable this if you want the original digital sound (AC3)."
-#~ msgstr "Aktiveer hierdie as jy die oorspronklike digitale klankbaan (AC3) wil behou."
-
-#~ msgid " 64 kbits"
-#~ msgstr "64 kgps"
-
-#~ msgid " 96 kbits"
-#~ msgstr "96 kgps"
-
-#~ msgid "112 kbits"
-#~ msgstr "112 kgps"
-
-#~ msgid "128 kbits"
-#~ msgstr "128 kgps"
-
-#~ msgid "160 kbits"
-#~ msgstr "160 kgps"
-
-#~ msgid "192 kbits"
-#~ msgstr "192 kgps"
-
-#~ msgid "1-pass"
-#~ msgstr "1-verwerking"
-
-#~ msgid "2-pass"
-#~ msgstr "2-verwerking"
-
-#~ msgid ""
-#~ "_: Constant bitrate\n"
-#~ "CBR"
-#~ msgstr "Konstante bis tempo"
-
-#~ msgid ""
-#~ "_: Variable bitrate\n"
-#~ "VBR"
-#~ msgstr "Veranderlike bis tempo"
-
-#~ msgid "If set to CBR the MP3 encoding is done with a constant bitrate. If set to VBR then a variable bitrate is used. Typically a variable bitrate gets better quality but is often out of sync. You should try it first with some test encodings."
-#~ msgstr "As jy CBR kies sal MP3 enkodring met 'n konstante bis tempo geskied. As jy VBR kis sal 'n veranderlike bistempo toegepas word. 'n Veranderlike bistempo gee gewoonlik 'n beter klank kwaliteit, maar kan baie keer video/oudio sinkronisasie probleme veroorsaak. Probeer dit eers in 'n toetslopie voordat jy dit vir ernstige projekte aanwend."
-
-#~ msgid "%1 kbits"
-#~ msgstr "%1 kgps"
-
-#~ msgid "Select the video codec to encode to the final movie. XviD (www.xvid.org) is an Open Source codec and has similar features to DivX5. DivX4 is the predecessor to DivX5. All three codecs support 1-pass and 2-pass encoding. XviD (CVS) is support for the latest nightly snapshots of XviD. Regarding quality, try all the different codecs to find out which you prefer. Secondly, read the various forums about MPEG-4 Encoding (www.doom9.org, www.xvid.org, www.divx.net, ... ). The difference between a DivX4 and XviD 2-pass encoded movie is quite small. Sometimes DivX4 (smoother) is better and other times XviD (sharper). If the encoding process crashes then you probably haven't used the codec you have installed. Due to the codec libraries having the same name, you can only use DivX4 or DivX5 and XviD or XviD (CVS). This will be fixed in a future version, so the codecs will auto-detect and can be used with different install locations."
-#~ msgstr "Kies die video kodeerder wat vir die finale film gebruik moet word. XviD (www.xvid.org) in 'n Oop Bron kodeerder en het soortgelyke funksionaliteit as DivX5.DivX4 is die voorganger van DivX5. Al drie hierdie kodeerders ondersteen eenmalige en dubbel enkodering. XviD (CVS) verskaf daaglikse vrystellings van die kode. Toets al drie die kodeerders om te besluit watter een se kwaliteit vir jou die beste is.Lees gerus die forums aangaande MPEG-4 enkodering by www.doom9.org, www.xvid.org of www.divx.net. Die verskil tussen DivX4 en XviD dubbel enkodering is baie klein. Partykeer sal jy vind dat DivX4 (glad) beter  is en ander kere weer DivX4 (skerp). DivX4, DivX5 en XviD se enkodeerder biblioteke het dieselfde name. Dit kan veroorsaak dat die kodering proses omval as jy 'n kodeerder naam spesifiseer wat nie op die stelsel geïnstalleer is nie. Toekomstige weergawes sal die kodeerder outomaties eien."
-
-#~ msgid "Generating video"
-#~ msgstr "Besig om video te skep"
-
-#~ msgid "Copy IFO files to vob directory."
-#~ msgstr "Kopiëer IFO lêers na die vob gids"
-
-#~ msgid "Preprocessing audio"
-#~ msgstr "Voorverwerk oudio"
-
-#~ msgid "Search for maximum audio gain to get normalized parameter."
-#~ msgstr "Soek vir die maksimum oudio versterking om die normaliseerder waarde te bepaal"
-
-#~ msgid "Start first pass of video encoding."
-#~ msgstr "Begin eerste verwerking van die video enkodering"
-
-#~ msgid "Encoding video (Pass 1)"
-#~ msgstr "Besig om video te enkodeer (Eerste verwerking)"
-
-#~ msgid "Start second pass of video encoding."
-#~ msgstr "Begin tweede verwerking van die video enkodering"
-
-#~ msgid "Encoding video (Pass 2)"
-#~ msgstr "Besgi om video te enkodeer (Tweede verwerking)"
-
-#~ msgid "Start video encoding."
-#~ msgstr "Begin video enkodering"
-
-#~ msgid "Encoding video"
-#~ msgstr "Besig om video te enkodeer"
-
-#~ msgid "Starting transcode failed. K3b has not successfully backed up unused files. Verify that there are no other files than .vob files in %1. K3b should have backed up all files in %2."
-#~ msgstr "Transkodering het gevaal. K3b het nie die ongebruikte lêers suksesvol geberg nie. Maak asb. seker dat daar nie enige lêers behalve .vob in %1 is nie. K3b moes al die lêers in %2 geberg het."
-
-#~ msgid "Video generation aborted by user."
-#~ msgstr "Video skepping deur die gebruiker gestaak."
-
-#~ msgid "Couldn't shutdown the system."
-#~ msgstr "Kon nie die stelsel afskakel nie."
-
-#~ msgid "Video generating successfully finished."
-#~ msgstr "Video skepping suksesvol afgehandel."
-
-#~ msgid "Gain for normalizing is: %1"
-#~ msgstr "Verstering vir normalisering is: %1"
-
-#~ msgid "Preprocessing audio completed."
-#~ msgstr "Vooraf verwerking van oudio voltooi."
-
-#~ msgid "Backup file %1 to %2."
-#~ msgstr "Rugsteun lêer %1 na %2."
-
-#~ msgid "Found no movie data (VOB-files)."
-#~ msgstr "Geen video data gevind nie (VOB-lêers)"
-
-#~ msgid "Restore backed up file %1 to %2."
-#~ msgstr "Herstel rugsteun lêer %1 na %2."
-
-#~ msgid "Restore backed up files to %1."
-#~ msgstr "Herstel rugsteun lêers na %1."
-
-#~ msgid "Encoding Video"
-#~ msgstr "Besig om video te enkodeer"
-
-#~ msgid "Resizing"
-#~ msgstr "Besig om te hervergroot"
-
-#~ msgid "Resize:"
-#~ msgstr "Hervergroot:"
-
-#~ msgid "Resizes the final output video depending on the aspect ratio of the movie. Before resizing the video the image should already be cropped, so it can be used to detect the real aspect ratio of the movie. If the aspect ratio is not properly detected you must correct the height of the video to fit it."
-#~ msgstr "Hervergroot ie finale afvoer video afhangende van die gekose beeld verhouding van die film.Voordat die video hervergroot word moet die swart balke klaar afgesny wees, sodat dit die werklike grootte van die film kan bepaal. As die beeld verhouding nie reg herken is nie moet jy die hoogte aanpas sodat die video reg pas."
-
-#~ msgid "The aspect ratio error shows the difference from the original aspect ratio. If cropping is used, the aspect ratio error shows the difference from the \"best match\" aspect ratio (i.e. 4:3, 16:9 or letterbox 1:2.35). To correct the aspect ratio manually change the height."
-#~ msgstr "Die beeld verhouding fout wys die verskil tussen die nuwe en oorspronklike verhouding aan. As die swart balke afgesny was, sal die beeld verhouding teen die \"beste\" passing, bv. 4:3, 16:9 of 1:2.35 verbelyk word. Om die beeld verhouding te herstel moet die hoogte self aangepas word."
-
-#~ msgid "Height:"
-#~ msgstr "Hoogte:"
-
-#~ msgid "Aspect ratio:"
-#~ msgstr "Vertoon verhouding:"
-
-#~ msgid "Aspect ratio error:"
-#~ msgstr "Vertoon verhouding fout:"
-
-#~ msgid ""
-#~ "You must load a K3b DVD Project file and \n"
-#~ " set a file name for the final AVI."
-#~ msgstr ""
-#~ "Jy moet 'n K3b DVD Projek lêer laai en\n"
-#~ "spesifieer 'n lêernaam vir die finale AVI."
-
-#~ msgid "Wrong setting"
-#~ msgstr "Verkeerde instelling"
-
-#~ msgid "The deinterlace filter YUVDeinterlaceMMX doesn't work with RGB mode. You must enable using YUV colorspace."
-#~ msgstr "Die \"deinterlace\" filter: YUVDeinterlacemMMX werk nie in RGB modus nie. Jy moet YUV kleur ruimte aktiveer voordat jy dit kan gebruik."
-
-#~ msgid "The deinterlace filter SmartDeinterlace doesn't work with YUV colorspace. It only works with RGB. You must disable using YUV colorspace."
-#~ msgstr "Die \"deinterlace\" filter: SmartDeinterlace werk nie in YUV modus nie. Jy moet YUV kleur ruimte deaktiveer voordat jy dit kan gebruik."
-
-#~ msgid "Extended Audio/Video Settings"
-#~ msgstr "Addisionele Oudio/Video Instellings"
-
-#~ msgid "Keyframes:"
-#~ msgstr "Sleutel rame:"
-
-#~ msgid "Keyframes (same as I-frames) are \"full\" pictures of an MPEG-stream. They are similar to a simple JPEG and have the best quality in a video. All pictures following are only stored as differences to a keyframe. Here you can set the maximum distance between two keyframes. In most cases this will rarely be used, as the codec will automatically insert a keyframe on each scene change. Default is 300."
-#~ msgstr "Sleutelrame (I-rame) is vol prente in 'n MPEG-stroom. Hulle stem ooreen met 'n JPEG prent en beskik oor die beste kwaliteit in die video. Al die daaropvolgende rame word net as verskille van die oorspronklike sleutelraam gestoor. Die maksimum afstand tussen twee sleutelrame kan hier gespesifiseer word. Die waarde word min gebruik, aangesien die kodeerder outomaties 'n sleutelraam insit wanneer 'n \"scene change\" voorkom. Standaard waarde: 300"
-
-#~ msgid "Crispness:"
-#~ msgstr "Skerpheid:"
-
-#~ msgid "Here you can smooth the video during the encoding process. It is better to leave crispness at 100% for encoding and smooth the video during playback instead."
-#~ msgstr "Die video kan hier tydens die enkodering proses glad gemaak word. Dit is egter beter om die skerpheid op 100% te los tydens die enkodering proses en dit dan glad te maak tyden terugspeel."
-
-#~ msgid "Select the language and the surround mode. Typically there are \"MPEG2 Stereo\", \"AC3 2ch and 6ch\" and \"DTS 6ch\". You can probably choose AC3 6ch, AC3 2ch and MPEG2 Stereo in descending order, depending on your language (It doesn't matter if DTS works or not, you can still try it)."
-#~ msgstr "Kies die taal en die multikanaal (\"surround\") modus. Tipiese waardes is \"MPEG2 Stereo\", \"AC3 2 en 6 kanaal\" en \"DTS 6 kanaal\". Die gewenste keuses is gewoonlik, in afgaande volgorde, AC3 6kanaal, AC3 2 kanaal en MPEG Stereo, afhangende van jou taal."
-
-#~ msgid "Deinterlace mode:"
-#~ msgstr "Deinterlace modus:"
-
-#~ msgid "Select a deinterlace mode if you have interlaced material.<ul><li><strong>Fast</strong> is the standard deinterlace mode</li><li><strong>Encoder Based</strong> uses the internal deinterlace of the codec (be aware that some codecs may have no deinterlacer)</li><li><strong>Zoom to Full Frame</strong> no matter how it works but it is rather good and slow. Use this if <strong>Fast</strong> still produces interlace stripes or color artifacts (red shadow, etc.)<li><li><strong>Drop Field/Half Height</strong> uses only one field and scales it.</li><li><strong>SmartDeinterlace</strong> provides a smart, motion-based deinterlacing capability. Ported from VirtualDub by Tilmann Bitterberg. Operates in RGB space only. Tilmann did some testing of deinterlace filters available in transcode. You can view and read the result on tibit.org/video/. </li><li><strong>YUVDeinterlaceMMX</strong> is a deinterlace for YUV mode by Thomas Oestreich.</li></ul>"
-#~ msgstr "Kies die \"deinterlace\" modus as die materiaal ge-\"interlace\" is.<ul><li><strong>Vinnig</strong> is die standaard \"deinterlace\" modus.</li><li><strong>Kodeerder Gebaseer</strong> maak van die dekodeerder se eie \"deinterlace\" meganisme gebruik. (Let daarop dat sommige kodeerders nie \"deinterlace\" funksionaliteit het nie.)</li><li><strong>Skaleer na volle raam</strong> - Hierdie metode is stadig maar gee goeie resultate. Hierdie modus word aanbeveel as <strong>vinnig</strong> nogsteeds \"interlace\" strepe en kleur afwykings veroorsaak.</li><li><strong>Ignoreer Veld/Halwe Hoogte</strong> gebruik net die een veld en skaleer dit na volle grootte.</li><li><strong>SmartDeinterlace</strong> bied 'n intelligente, beweging gebaseerde \"deinterlace\" filter. Dit is vanaf VirtualDub, deur Tilmann Bitterberg, oorgedra. Dit werk net in die RBG kleur skema. Die resultate van Tilmann se toetse kan besigtig word by http://tibit.org/video/</li><li><strong>YUVDeinterlaceMMX</strong> is 'n \"deinterlace\" filter vir die YUV kleur skema, deur Thomas Oestreich.</li></ul>"
-
-#~ msgid "If this is checked, the audio track will be downsampled from 48 kHz to 44.1 kHz. Useful because some soundcards have problems with a sampling rate of 48 kHz."
-#~ msgstr "As hierdie opsie gekies is sal die snit se monster tempo van 48 kHz na 44.1 kHz verlaag word. Dit is nuttig vir sommige klank kaarte wat nie 44.1 kHz monster tempo kan handteer nie."
-
-#~ msgid "Use YUV colorspace."
-#~ msgstr "Gebruik YUV kleur skema."
-
-#~ msgid "If this is checked, the internal codec works with the YUV colorspace instead of using RGB. Useful because DVD also has YUV colorspace and it is twice fast as RGB. You only need RGB colorspace if a filter needs it (filters not yet supported)."
-#~ msgstr "As hierdie gekies is, sal die interne kodeerder met die YUV kleur ruimte i.p.v. RGB werk. Dit is nuttig, aangesien DVDs reeds in YUV kleur ruimte geënkodeer is. Dit is dubbed so vinnig as RGB. RGB is net nodig as 'n filter daarmee sou werk"
-
-#~ msgid "0 - None"
-#~ msgstr "0 - Geen"
-
-#~ msgid "1 - Fast"
-#~ msgstr "1 - Vinnig"
-
-#~ msgid "2 - Encoder Based"
-#~ msgstr "2 - Kodeerder gebaseer"
-
-#~ msgid "3 - Zoom to Full Frame"
-#~ msgstr "3 - Skalleer na Volle Raam"
-
-#~ msgid "4 - Drop Field/Half Height"
-#~ msgstr "4 - Een Veld/Half Hoogte"
-
-#~ msgid "Filter - SmartDeinterlace"
-#~ msgstr "Filter - SmartDeinterlace"
-
-#~ msgid "Filter - YUVDeinterlaceMMX"
-#~ msgstr "Filter - YuVDeinterlaceMMX"
-
-#~ msgid "Play length:"
-#~ msgstr "Speel lengte:"
-
-#~ msgid "Frames:"
-#~ msgstr "Rame"
-
-#~ msgid "Framerate:"
-#~ msgstr "Raam tempo:"
-
-#~ msgid "TV norm:"
-#~ msgstr "TV norm:"
-
-#~ msgid "Preview picture of the video to crop it properly. The colors and quality are not the final state, so use this picture only to cut off black borders."
-#~ msgstr "Vra 'n video voorskou aan sodat dit behoorlik geknip kan word. Die vertoonde kleur en kwaliteit is nie die finale weergawe nie. Gebruik dit net om bv die swart balke af te sny."
-
-#~ msgid "Step through the video to find a light picture to do a proper cut of the black bars."
-#~ msgstr "Stap deur die video om 'n ligte raam te kry sodat die swart balke goed onderskei kan word, sodat dit afgeknip kan word."
-
-#~ msgid "Resize Mode"
-#~ msgstr "Hervergroot Modus"
-
-#~ msgid "Fast (-B)"
-#~ msgstr "Vinnig (-B)"
-
-#~ msgid "Exact (-Z)"
-#~ msgstr "Presies (-Z)"
-
-#~ msgid "\"Fast\" resizing is much faster than \"Exact\" resizing, but is limited to a resize step multiple of 8 pixels."
-#~ msgstr "\"Vinnig\" hervergrootting is baie vinniger as \"Presies\" hervergrootting, maar dit is beperk tot inkremente van 8 beeld elemente (pixels)."
-
-#~ msgid "Crop Parameters"
-#~ msgstr "Afsny Parameters"
-
-#~ msgid "Automatically crop"
-#~ msgstr "Sny outomaties af"
-
-#~ msgid "Transcode's Input Mode"
-#~ msgstr "Transkodeerder se inset modus"
-
-#~ msgid ""
-#~ "_: Read data from VOB-files\n"
-#~ "VOB"
-#~ msgstr "VOB"
-
-#~ msgid ""
-#~ "_: Read data in form of DVD\n"
-#~ "DVD"
-#~ msgstr "DVD"
-
-#~ msgid "Input mode of transcode given by parameter -x."
-#~ msgstr "Inset modus van transkodeerder gespesifiseer met parameter -x."
-
-#~ msgid "Final Video"
-#~ msgstr "Finale Video"
-
-#~ msgid ""
-#~ "This is the final size of the movie. Verify that the final size of your movie has the right aspect ratio: 1:1.333 for a 4:3 movie, 1:1.77 for a 16:9 movie, and 1:2.35 for a letterbox movie. If you are using cropping, you can ignore the aspect ratio error shown in the resizing box. The \"Video quality\" is a value to estimate the final video quality. (The value is calculated as \"<video bitrate>/(<framerate>*<height>*<width>)\". You may know this from GordianKnot (www.doom9.net)). The higher the value the better the quality.\n"
-#~ "The following values are adequate if the movies on viewed on a television. Values greater than 0.15 are adequate for letterbox movies. For 16:9 you should use values greater than 0.16 and for 4:3, use greater than 0.17-0.18. Experiment with different values to see what you prefer."
-#~ msgstr ""
-#~ "Hierdie is die finale grootte van die film. Bevestig dat jou film die regte beeld verhouding het: 1:1.333 vir 'n 4:3 film, 1:1.77 vir 'n 16:9 film en 1:2.35 vir 'n \"letterbox\" film. As jy die swart balke afgesny was kan jy die beeld verhouding foute ignoreer wat in die hervergroot venster vertoon word. Die \"Video kwaliteit\" is waarde om te bepaal hoe die finale video kwaliteit gaan lyk. Die waarde word as volg bereken: vidoe bistempo/raam tempo * hoogte * wydte. Hoe hoër die waarde is, hoe beter is die kwaliteit.\n"
-#~ "Die volgende waardes is voldoende as die films net op 'n televisie gekyk gaan word. Waardes grootter as 0.15 is voldoendie vir \"letterbox\" films. Vir 16:9 moet waardes grootter as 0.16 gebruik word. Vir 4:3 moet waardes grootter as 0.18 gebruik word. Eksperimenteer met die waardes om te besluit watter waarde jy verkies."
-
-#~ msgid "Encode"
-#~ msgstr "Enkodeer"
-
-#~ msgid "Start encoding"
-#~ msgstr "Begin enkodering"
-
-#~ msgid "You must choose a filename for the final video."
-#~ msgstr "Jy moet 'n lêernaam vir die finale video spesifiseer"
-
-#~ msgid "Settings Error"
-#~ msgstr "Opstelling Fout"
-
-#~ msgid "Source/Destination Directories"
-#~ msgstr "Bron/Bestemming Gidse"
-
-#~ msgid "K3b DVD ripping file:"
-#~ msgstr "K3b DVD kopiëering lêer:"
-
-#~ msgid "Final AVI file name:"
-#~ msgstr "Finale AVI lêernaam:"
-
-#~ msgid "Select Project File"
-#~ msgstr "Kies projek Lêer"
-
-#~ msgid "Save Video As"
-#~ msgstr "Stoor Video As"
-
-#~ msgid "Burning Device"
-#~ msgstr "Skryf Toestel"
-
-#~ msgid "<p>Normally K3b presents static list of writing speeds that is only based on the maximum writing speed of the device.<p>If this button is clicked K3b tries to determine the writing speeds supported with the mounted media.<p>Be aware that this only works with MMC3 compliant writers."
-#~ msgstr "<p>K3b vertoon 'n lys van maksimum skryf snelhede vir die toestel.<p>As hierdie knoppie gedruk word sal K3b probeer om die skryf spoed vir die huidige media te bepaal.<p>Let daarop dat dit net werk vir MMC3 aanpasbare skrywers."
-
-#~ msgid "The DVD writer that will write the DVD"
-#~ msgstr "Die DVD skrywer wat die werk gaan doen"
-
-#~ msgid "The speed at which to write the DVD"
-#~ msgstr "Die spoed waarteen die DVD geskryf gaan word"
-
-#~ msgid "The external application to actually write the DVD"
-#~ msgstr "Die eksterne program wat die DVD skryfwerk gaan doen"
-
-#~ msgid "The CD writer that will write the CD"
-#~ msgstr "Die CD skrywer wat die werk gaan doen"
-
-#~ msgid "<p>Select the DVD writer that you want to use.<p>In most cases there will only be one writer available which does not leave much choice."
-#~ msgstr "<p>Kies die DVD skrywer wat jy wil gebruik.<p>In die meeste gevalle sal daar net een skrywer wees, wat nie 'n veel van 'n keuse laat nie."
-
-#~ msgid "<p>Select the speed with which you want the writer to burn.<p><b>Auto</b><br>This will choose the maximum writing speed possible with the used medium. Be aware that this might not be a good choice when writing an Audio-CD on-the-fly since the decoding of the audio files may take too long to allow a continuous data stream.<p>1x refers to 175 KB/s.<p><b>Caution:</b> Make sure your system is able to send the data fast enough to prevent buffer underruns."
-#~ msgstr "<p>Kies die skryf spoed.<p><b>Outomaties</b><br>Dit sal die vinnigste moontlike spoed vir die media kies.  Let daarop dat dit nie altyd 'n goeie keuse vir Oudio-CDs is nie. As die snitte wat gebruik word eers gedekodeer moet word kan dit te lank neem om 'n aaneenlopende data stroom vir die skrywer te lewer.<p>1x stem ooreen met 175 KG/s.<p><b>Waarskuwing:</b>Maak seker dat jou stelsel data vinnig genoeg kan stuur sodat die buffer nie sal leeg loop nie."
-
-#~ msgid "No writable DVD media found."
-#~ msgstr "Geen skryfbare DVD media gevind."
-
-#~ msgid "Loading all plugins..."
-#~ msgstr "Laai alle inprop modules..."
-
-#~ msgid "Scanning for CD devices..."
-#~ msgstr "Skandeer vir CD toestelle..."
-
-#~ msgid "Writing Settings"
-#~ msgstr "Skryf Opstelling"
-
-#~ msgid "Max read speed:"
-#~ msgstr "Maksimum lees spoed:"
-
-#~ msgid "Max write speed:"
-#~ msgstr "Maksimum skryf spoed:"
-
-#~ msgid "Video Project"
-#~ msgstr "Video Projek"
-
-#~ msgid "Use playback control (PBC) by default"
-#~ msgstr "Gebruik altyd terug speel beheer (PBC)f"
-
-#~ msgid "Play each sequence/segment by default:"
-#~ msgstr "Standaard aantal kere om segment te speel:"
-
-#~ msgid "Time to wait after each sequence/segment by default:"
-#~ msgstr "Standaard tyd om tussen segmente te wag"
-
-#~ msgid " second(s)"
-#~ msgstr " sekondes (s)"
-
-#~ msgid "Use numeric keys by default"
-#~ msgstr "Gebruik numeriese sleutels as standaard"
-
-#~ msgid "Writing Applications"
-#~ msgstr "Skryf Programme"
-
-#~ msgid "&Writing"
-#~ msgstr "Besig om te skryf"
-
-#~ msgid "Use numeric keys to navigate chapters by default (In addition to 'Previous' and 'Next')"
-#~ msgstr "Gebruik die numeriese knoppies om deur die hoofstukke te navigeer (Bo en behalwe die 'Vorige' en 'Volgende')"
-
-#~ msgid "Time to wait after each sequence/segment by default."
-#~ msgstr "Standaard tyd om te wag na elke sekwensie/segment."
-
-#~ msgid "Play each sequence/segment by default."
-#~ msgstr "Speel as standaard elke sekwensie/segment"
-
-#~ msgid "Permissions"
-#~ msgstr "Regte"
-
-#~ msgid "<p>If this option is checked, K3b will leave all spaces in filenames as they are."
-#~ msgstr "<p>As hierdie opsie gekies is, sal K3b alles spasies in lêername net so los soos wat hulle is."
-
-#~ msgid "Just remove all spaces"
-#~ msgstr "Verwyder alle spasies"
-
-#~ msgid ""
-#~ "<p>If this option is checked, K3b will remove all spaces from all filenames.\n"
-#~ "<p>Example: 'my good file.ext' becomes 'mygoodfile.ext'"
-#~ msgstr ""
-#~ "<p>As hierdie opsie gekies is, sal K3b al die spasies uit lêername verwyder.\n"
-#~ "<p>Byvoorbeeld: 'my goeie lêer.ext' sal 'mygoeielêer.ext' word."
-
-#~ msgid "Replace with:"
-#~ msgstr "Vervang met:"
-
-#~ msgid "Replace all spaces"
-#~ msgstr "Vervang alles spasies"
-
-#~ msgid ""
-#~ "<p>If this option is checked, K3b will replace all spaces in all filenames with the specified characters.\n"
-#~ "<p>For example with an underscore: 'my good file.ext' becomes 'my_good_file.ext'"
-#~ msgstr ""
-#~ "<p>As hierdie opsie gekies is, sal K3b al die spasies in die lêernaam met spesifieke karakters vervang.\n"
-#~ "<p>Byvoorbeeld: 'my goeie lêer.ext' kan 'my_goeie_lêer.ext' word."
-
-#~ msgid "Remove all spaces and capitalize the letters following them"
-#~ msgstr "Verwyder alles spasies en maak die daaropvolgende karakter 'n hoofletter"
-
-#~ msgid ""
-#~ "<p>If this option is checked K3b will remove all spaces in all filenames and capitalize all letters following a space.\n"
-#~ "<p>Example: 'my good file.ext' becomes 'myGoodFile.ext'"
-#~ msgstr ""
-#~ "<p>As hierdie opsie gekies is, sal K3b alles spasies verwyder en die eerste letter 'n hoofletter maak wat na 'n spasie voorkom.\n"
-#~ "<p>Byvoorbeeld: 'my goeie lêer.ext' word ''myGoeieLêer.ext'"
-
-#~ msgid "Input Charset"
-#~ msgstr "Invoer Karakterstel"
-
-#~ msgid "Mode"
-#~ msgstr "Modus"
-
-#~ msgid "Choose between a constant or a variable bitrate."
-#~ msgstr "Kies tussen konstante of veranderlike bis tempo"
-
-#~ msgid "<- smaller file    better quality ->"
-#~ msgstr "<- klein lêer   beter kwaliteit ->"
-
-#~ msgid ""
-#~ "<p>Let LAME choose the proper settings for variable bitrate based on a quality setting.\n"
-#~ "<p>The quality increases along with the filesize from 0 to 9, 9 resulting in the highest quality.\n"
-#~ "<p>The default setting is 5 which provides a good quality at a moderate filesize."
-#~ msgstr ""
-#~ "<p>Laat LAME self besluit wat die beste opstellings is vir veranderlike bistempo enkodering, gebaseer op die kwaliteit spesifikasie.\n"
-#~ "<p>Die lêer grootte neem toe met kwaliteit spesifikasie 0 tot 9. 9 is die hoogste kwaliteit.\n"
-#~ "<p>Die standaard waarde is 5, wat 'n goeie klank kwaliteit lewer teen 'n gemiddelde lêergrootte."
-
-#~ msgid "32 kbps"
-#~ msgstr "32 kgps"
-
-#~ msgid "40 kbps"
-#~ msgstr "40 kgps"
-
-#~ msgid "56 kbps"
-#~ msgstr "56 kgps"
-
-#~ msgid "48 kbps"
-#~ msgstr "48 kgps"
-
-#~ msgid "64 kbps"
-#~ msgstr "64 kgps"
-
-#~ msgid "80 kbps"
-#~ msgstr "80 kgps"
-
-#~ msgid "96 kbps"
-#~ msgstr "96 kgps"
-
-#~ msgid "112 kbps"
-#~ msgstr "112 kgps"
-
-#~ msgid "128 kbps"
-#~ msgstr "128 kgps"
-
-#~ msgid "160 kbps"
-#~ msgstr "160 kgps"
-
-#~ msgid "192 kbps"
-#~ msgstr "192 kgps"
-
-#~ msgid "224 kbps"
-#~ msgstr "224 kgps"
-
-#~ msgid "256 kbps"
-#~ msgstr "256 kgps"
-
-#~ msgid "320 kbps"
-#~ msgstr "320 kgps"
-
-#~ msgid "Setup different external programs to encode audio data ripped from an audio CD."
-#~ msgstr "Stel verskillende eksterne programme op om oudio te enkodeer wat vanaf 'n oudio CD gekopiëer is."
-
-#~ msgid "New"
-#~ msgstr "Nuwe"
-
-#~ msgid "New Program"
-#~ msgstr "Nuwe Program"
-
-#~ msgid "Delete Program"
-#~ msgstr "Vee Program Uit"
-
-#~ msgid ""
-#~ "<p><b>Command</b><br>\n"
-#~ "The command must at least contain the filename (%f). Metainfo may be set with:<br>\n"
-#~ "<b>%t</b> - Title; <b>%a</b> - Artist; <b>%c</b> - Comment; <b>%n</b> - Track number;<br>\n"
-#~ "<b>%m</b> - Album Title; <b>%r</b> - Album Artist; <b>%x</b> - Album comment; <b>%y</b> - Year<br>\n"
-#~ "Be aware that these values might be empty.<br>\n"
-#~ "The program has to read the data from stdin.<br>\n"
-#~ "If you only hear noise you most likely need to swap the byte order."
-#~ msgstr ""
-#~ "<p><b>Opdrag</b><br>\n"
-#~ "Die opdrag moet ten minste die lêernaam (%f) bevat. Meta inligting kan gestel word met:<br>\n"
-#~ "<b>%t</b> - Titel; <b>%a</b> - Kunstenaar; <b>%c</b> - Kommentaar; <b>%n</b> - Snit nommer;<br>\n"
-#~ "<b>%m</b> - Album Titel; <b>%r</b> - Album Kunstenaar; <b>%x</b> - Album kommentaar; <b>%y</b> - Jaar<br>\n"
-#~ "Let daarop dat hierdie waardes leeg mag wees.<br>\n"
-#~ "Die program gaan die inligting vanaf 'stdin' lees.<br>\n"
-#~ "As jy net ruis hoor, moet die greep orde waarskynlik omgeruil word."
-
-#~ msgid "Import a previous session from an appendable data medium."
-#~ msgstr "Voer 'n vorige sessie in vanaf 'n bywerkbare data medium"
-
-#~ msgid "Clear the imported session."
-#~ msgstr "Maak die ingevoerde sessie skoon."
-
-#~ msgid "Edit the boot images of this project to make it bootable."
-#~ msgstr "Redigeer die boot beeld van die projek sodat dit gebruik kan word om 'n rekenaar mee te boot"
-
-#~ msgid "Import Session..."
-#~ msgstr "Voer Sessie in..."
-
-#~ msgid "Please select the appendable disk"
-#~ msgstr "Kies die skyf waarby bygevoeg kan word."
-
-#~ msgid "Could not find a session to import."
-#~ msgstr "Kon nie 'n sessie vind om in te voer nie."
-
-#~ msgid "Remaining length of split track:"
-#~ msgstr "Oorblywende lengte van geskeide snit:"
-
-#~ msgid "Misc."
-#~ msgstr "Allerlei"
-
-#~ msgid "K3b does only support writing multisession DVDs on-the-fly. Multisession has been disabled."
-#~ msgstr "K3b ondersteun net die skryf van multisessie DVDs as 'n direkte skryf. Multisessie is nou gedeaktiveer."
-
-#~ msgid "DVD Multisession"
-#~ msgstr "DVD Multisessie"
-
-#~ msgid "Some files could not be added to the project."
-#~ msgstr "Party lêers kon nie by die projek bygevoeg word nie."
-
-#~ msgid "Track Properties"
-#~ msgstr "Snit eienskappe"
-
-#~ msgid "Determine size of media in %1"
-#~ msgstr "Bepaal die grootte van die media in %1"
-
-#~ msgid "No media found."
-#~ msgstr "Geen media gevind."
-
-#~ msgid "Could not get remaining size of disk."
-#~ msgstr "Kon nie bepaal wat die oorblywende spasie op die skyf is nie."
-
-#~ msgid "K3b did not find a suitable writer. You will only be able to create an image."
-#~ msgstr "K3b kon nie 'n geskikte skrywer vind nie. Jy sal net 'n beeld lêer kan skep."
-
-#~ msgid "No Writer Available"
-#~ msgstr "Geen skrywer beskikbaar"
-
-#~ msgid "It is not yet possible to save projects containing audio CD track sources."
-#~ msgstr "Dit is nog nie moontlik om projekte te stoor wat oudio CD snitte bevat nie."
-
-#~ msgid "Writer Speed Verification"
-#~ msgstr "Skryf Spoed Verifikasie"
-
-#~ msgid "<p>It seems this is the first time you start K3b %1 with this device configuration. Please verify if the writing speeds have been detected properly and correct them if necessary."
-#~ msgstr "<p>Dit lyk asof dit die eerste keer is wat jy K3b %1 met hierdie toestel opstelling loop.Gaan asb. na of die skryf spoed korrek opgespoor is en korrigeer indien nodig."
-
-#~ msgid "%1 %2 - CD writing speed:"
-#~ msgstr "%1 %2 - CD skryf spoed:"
-
-#~ msgid "The command needs to contain the filename (%f)."
-#~ msgstr "Die opdrag moet die lêernaam bevat (%f)."
-
-#~ msgid "Please specify a unique name and extension."
-#~ msgstr "Spesifiseer 'n unieke naam en uitbreiding."
