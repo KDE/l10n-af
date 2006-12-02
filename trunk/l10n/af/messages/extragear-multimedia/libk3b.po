@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libk3b trunk\n"
-"POT-Creation-Date: 2006-12-01 08:52+0100\n"
+"POT-Creation-Date: 2006-12-02 08:52+0100\n"
 "PO-Revision-Date: 2006-11-30 11:45+0200\n"
 "Last-Translator: Frikkie Thirion <kde.afrikaans@gmail.com>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -397,6 +397,48 @@ msgstr "Skoonmaak fout."
 msgid "Sorry, no error handling yet."
 msgstr "Jammeer, daar is nog nie fout handtering geïmplementeer nie."
 
+#: jobs/k3bcdcopyjob.cpp:1015 jobs/k3bverificationjob.cpp:151
+#: projects/mixedcd/k3bmixedjob.cpp:441
+msgid "Reloading the medium"
+msgstr "Besig om die media te herlaai"
+
+#: jobs/k3bcdcopyjob.cpp:1058 jobs/k3bverificationjob.cpp:161
+#: projects/k3bcdrecordwriter.cpp:609 projects/mixedcd/k3bmixedjob.cpp:464
+msgid "Please reload the medium and press 'ok'"
+msgstr "Herlaai asb. die media en druk 'goed'."
+
+#: jobs/k3bverificationjob.cpp:162
+msgid "Unable to Close the Tray"
+msgstr "Kon nie die CD tafel toemaak nie."
+
+#: jobs/k3bverificationjob.cpp:164
+#, fuzzy
+msgid "Checking medium"
+msgstr "Besig om media na te gaan"
+
+#: jobs/k3bverificationjob.cpp:194
+msgid "Internal Error: Verification job improperly initialized"
+msgstr ""
+
+#: jobs/k3bverificationjob.cpp:217
+#, fuzzy, c-format
+msgid "Verifying track %1"
+msgstr "Besig om snit %1 van %2 te skryf"
+
+#: jobs/k3bdvdcopyjob.cpp:270 jobs/k3bverificationjob.cpp:247
+#: jobs/k3bverificationjob.cpp:330
+msgid "Unable to determine the ISO9660 filesystem size."
+msgstr "Kon nie bepaal wat die ISO9660 lêersisteem grootte is nie."
+
+#: jobs/k3bverificationjob.cpp:285
+#, fuzzy
+msgid "Written data in track %1 differs from original."
+msgstr "Die geskryfde data verskil van die oorspronklike bron."
+
+#: jobs/k3bverificationjob.cpp:289
+msgid "Written data verified."
+msgstr "Die geskryfde data se integriteit is bevestig."
+
 #: jobs/k3bdvdformattingjob.cpp:100
 msgid "Formatting DVD"
 msgstr "Besig om DVD te formateer"
@@ -520,35 +562,44 @@ msgstr "Kon nie die program uitvoerbare: %1 vind nie."
 msgid "Formatting"
 msgstr "Besig om te formateer."
 
-#: jobs/k3biso9660imagewritingjob.cpp:87
+#: jobs/k3biso9660imagewritingjob.cpp:86 projects/audiocd/k3baudiojob.cpp:130
+#: projects/datacd/k3bdatajob.cpp:145 projects/mixedcd/k3bmixedjob.cpp:148
+msgid "Preparing data"
+msgstr "Besig om die data voor te berei"
+
+#: jobs/k3biso9660imagewritingjob.cpp:89
 #, c-format
 msgid "Could not find image %1"
 msgstr "Kon nie die beeld lêer '%1' vind nie."
 
-#: jobs/k3biso9660imagewritingjob.cpp:131 projects/datacd/k3bdatajob.cpp:456
-#: projects/datacd/k3bdataverifyingjob.cpp:149
+#: jobs/k3biso9660imagewritingjob.cpp:134 projects/datacd/k3bdatajob.cpp:456
 msgid "Verifying written data"
 msgstr "Besig om die geskryfde data te verifieer."
 
-#: jobs/k3biso9660imagewritingjob.cpp:133
+#: jobs/k3biso9660imagewritingjob.cpp:136
 msgid "Verifying written copy %1 of %2"
 msgstr "Besig om geskryfde kopie %1 van %2 te verifieer."
 
-#: jobs/k3biso9660imagewritingjob.cpp:197
+#: jobs/k3biso9660imagewritingjob.cpp:201
 msgid "Writing image"
 msgstr "Besig om die Beeld Lêer te skryf"
 
-#: jobs/k3biso9660imagewritingjob.cpp:199
+#: jobs/k3biso9660imagewritingjob.cpp:203
 msgid "Writing copy %1 of %2"
 msgstr "Besig om kopie %1 van %2 te skryf"
 
-#: jobs/k3biso9660imagewritingjob.cpp:383 projects/audiocd/k3baudiojob.cpp:476
+#: jobs/k3biso9660imagewritingjob.cpp:222
+#, fuzzy
+msgid "Waiting for medium"
+msgstr "Besig om vir media te wag"
+
+#: jobs/k3biso9660imagewritingjob.cpp:389 projects/audiocd/k3baudiojob.cpp:476
 #: projects/datacd/k3bdatajob.cpp:670 projects/mixedcd/k3bmixedjob.cpp:558
 #: projects/mixedcd/k3bmixedjob.cpp:599
 msgid "IO Error"
 msgstr "IO Fout"
 
-#: jobs/k3biso9660imagewritingjob.cpp:395 projects/datadvd/k3bdvdjob.cpp:210
+#: jobs/k3biso9660imagewritingjob.cpp:401 projects/datadvd/k3bdvdjob.cpp:209
 msgid ""
 "K3b does not support simulation with DVD+R(W) media. Do you really want to "
 "continue? The media will be written for real."
@@ -556,20 +607,20 @@ msgstr ""
 "K3b ondersteun nie gesimuleerde skryf op DVD+R(W) media nie. Wil jy rêrig voort "
 "gaan?Die data sal rêrig geskryf word."
 
-#: jobs/k3bdvdcopyjob.cpp:669 jobs/k3biso9660imagewritingjob.cpp:398
-#: projects/datadvd/k3bdvdjob.cpp:213
+#: jobs/k3bdvdcopyjob.cpp:751 jobs/k3biso9660imagewritingjob.cpp:404
+#: projects/datadvd/k3bdvdjob.cpp:212
 msgid "No Simulation with DVD+R(W)"
 msgstr "Geen simulasie vir DVD+R(W) nie."
 
-#: jobs/k3biso9660imagewritingjob.cpp:436
+#: jobs/k3biso9660imagewritingjob.cpp:442
 msgid "Simulating ISO9660 Image"
 msgstr "Simuleer 'n ISO9660 beeld lêer"
 
-#: jobs/k3biso9660imagewritingjob.cpp:438
+#: jobs/k3biso9660imagewritingjob.cpp:444
 msgid "Burning ISO9660 Image"
 msgstr "Besig om 'n ISO9660 beeld lêer te skryf."
 
-#: jobs/k3bbinimagewritingjob.cpp:218 jobs/k3biso9660imagewritingjob.cpp:440
+#: jobs/k3bbinimagewritingjob.cpp:218 jobs/k3biso9660imagewritingjob.cpp:446
 #, c-format
 msgid ""
 "_n:  - %n Copy\n"
@@ -577,51 +628,6 @@ msgid ""
 msgstr ""
 "-%n kopie\n"
 "- %n kopieë"
-
-#: jobs/k3bisoimageverificationjob.cpp:109
-#, c-format
-msgid "Unable to determine size of file %1."
-msgstr "Kon nie die grootte van lêer %1 bepaal nie."
-
-#: jobs/k3bcdcopyjob.cpp:1015 jobs/k3bisoimageverificationjob.cpp:114
-#: projects/datacd/k3bdataverifyingjob.cpp:106
-#: projects/mixedcd/k3bmixedjob.cpp:441
-msgid "Reloading the medium"
-msgstr "Besig om die media te herlaai"
-
-#: jobs/k3bcdcopyjob.cpp:1058 jobs/k3bisoimageverificationjob.cpp:124
-#: projects/datacd/k3bdataverifyingjob.cpp:120
-#: projects/k3bcdrecordwriter.cpp:609 projects/mixedcd/k3bmixedjob.cpp:464
-msgid "Please reload the medium and press 'ok'"
-msgstr "Herlaai asb. die media en druk 'goed'."
-
-#: jobs/k3bisoimageverificationjob.cpp:125
-msgid "Unable to Close the Tray"
-msgstr "Kon nie die CD tafel toemaak nie."
-
-#: jobs/k3bisoimageverificationjob.cpp:139
-msgid "Reading original data"
-msgstr "Besig om die oorspronklike data te lees"
-
-#: jobs/k3bisoimageverificationjob.cpp:147
-#: projects/datacd/k3bdataverifyingjob.cpp:185
-msgid "Reading written data"
-msgstr "Besig om die geskryfde data te lees"
-
-#: jobs/k3bisoimageverificationjob.cpp:149
-#, c-format
-msgid "Unable to open device %1."
-msgstr "Kon nie toestel %1 oopmaak nie."
-
-#: jobs/k3bisoimageverificationjob.cpp:166
-#: projects/datacd/k3bdataverifyingjob.cpp:305
-msgid "Written data differs from original."
-msgstr "Die geskryfde data verskil van die oorspronklike bron."
-
-#: jobs/k3bisoimageverificationjob.cpp:170
-#: projects/datacd/k3bdataverifyingjob.cpp:301
-msgid "Written data verified."
-msgstr "Die geskryfde data se integriteit is bevestig."
 
 #: jobs/k3bvideodvdtitledetectclippingjob.cpp:112
 msgid "Analysing Title %1 of Video DVD %2"
@@ -715,15 +721,15 @@ msgstr ""
 "Besig om 1 kloon kopie te skep\n"
 "Besig om %n kloon kopieë te skep."
 
-#: jobs/k3bcdcopyjob.cpp:157 jobs/k3bdvdcopyjob.cpp:113
+#: jobs/k3bcdcopyjob.cpp:157 jobs/k3bdvdcopyjob.cpp:119
 msgid "Checking Source Medium"
 msgstr "Besig om die bron media na te gaan"
 
-#: jobs/k3bcdcopyjob.cpp:160 jobs/k3bdvdcopyjob.cpp:123
+#: jobs/k3bcdcopyjob.cpp:160 jobs/k3bdvdcopyjob.cpp:129
 msgid "Waiting for source medium"
 msgstr "Besig om vir bron media te wag."
 
-#: jobs/k3bcdcopyjob.cpp:170 jobs/k3bdvdcopyjob.cpp:135
+#: jobs/k3bcdcopyjob.cpp:170 jobs/k3bdvdcopyjob.cpp:141
 msgid "Checking source medium"
 msgstr "Besig om die bron media na te gaan"
 
@@ -775,16 +781,16 @@ msgstr "Multisessie CD"
 msgid "Only copying first session."
 msgstr "Net die eerste sessie gaan gekopiëer word."
 
-#: jobs/k3bcdcopyjob.cpp:314 jobs/k3bdvdcopyjob.cpp:313
+#: jobs/k3bcdcopyjob.cpp:314 jobs/k3bdvdcopyjob.cpp:319
 msgid "Unable to determine free space in temporary directory '%1'."
 msgstr ""
 "Kon nie bepaal hoeveel oop spasie beskikbaar is in tydelike gids '%1' nie."
 
-#: jobs/k3bcdcopyjob.cpp:320 jobs/k3bdvdcopyjob.cpp:320
+#: jobs/k3bcdcopyjob.cpp:320 jobs/k3bdvdcopyjob.cpp:326
 msgid "Not enough space left in temporary directory."
 msgstr "Daar is nie genoeg spasie oor in die tydelike gids nie."
 
-#: jobs/k3bcdcopyjob.cpp:329 jobs/k3bdvdcopyjob.cpp:331
+#: jobs/k3bcdcopyjob.cpp:329 jobs/k3bdvdcopyjob.cpp:337
 msgid "Unmounting source medium"
 msgstr "Besig om die bron medium te ontkoppel"
 
@@ -831,7 +837,7 @@ msgid "Preparing write process..."
 msgstr "Besig om vir die skryf proses voor te berei..."
 
 #: jobs/k3bcdcopyjob.cpp:514 jobs/k3bcdcopyjob.cpp:560
-#: jobs/k3bdvdcopyjob.cpp:297
+#: jobs/k3bdvdcopyjob.cpp:303
 msgid "Specified an unusable temporary path. Using default."
 msgstr ""
 "'n Onbruikbare tydelike soekpad (\"path\") was gespesifiseer. Gaan na die "
@@ -847,15 +853,15 @@ msgstr "Kon nie die tydelike gids (%1) skep nie."
 msgid "Using temporary directory %1."
 msgstr "Besig om die tydelike gids %1 te gebruik."
 
-#: jobs/k3bcdcopyjob.cpp:555 jobs/k3bdvdcopyjob.cpp:292
+#: jobs/k3bcdcopyjob.cpp:555 jobs/k3bdvdcopyjob.cpp:298
 msgid "Do you want to overwrite %1?"
 msgstr "Wil jy %1 oorskryf?"
 
-#: jobs/k3bcdcopyjob.cpp:556 jobs/k3bdvdcopyjob.cpp:293
+#: jobs/k3bcdcopyjob.cpp:556 jobs/k3bdvdcopyjob.cpp:299
 msgid "File Exists"
 msgstr "Lêer Bestaan"
 
-#: jobs/k3bcdcopyjob.cpp:565 jobs/k3bdvdcopyjob.cpp:302
+#: jobs/k3bcdcopyjob.cpp:565 jobs/k3bdvdcopyjob.cpp:308
 #, c-format
 msgid "Writing image file to %1."
 msgstr "Besig om die beeld lêer na %1 te skryf"
@@ -907,7 +913,7 @@ msgstr "Besig om kopie te skryf"
 
 #: jobs/k3bcdcopyjob.cpp:693 projects/audiocd/k3baudiojob.cpp:585
 #: projects/datadvd/k3bdvdbooktypejob.cpp:116
-#: projects/datadvd/k3bdvdjob.cpp:189 projects/mixedcd/k3bmixedjob.cpp:941
+#: projects/datadvd/k3bdvdjob.cpp:188 projects/mixedcd/k3bmixedjob.cpp:941
 msgid "Waiting for media"
 msgstr "Besig om vir media te wag."
 
@@ -924,7 +930,7 @@ msgstr "Sessie %1 was suksesvol gelees."
 msgid "Successfully read source disk."
 msgstr "Bron ksryf was suksesvol gelees."
 
-#: jobs/k3bcdcopyjob.cpp:971 jobs/k3bdvdcopyjob.cpp:520
+#: jobs/k3bcdcopyjob.cpp:971 jobs/k3bdvdcopyjob.cpp:532
 msgid "K3b was unable to eject the source disk. Please do so manually."
 msgstr "K3b kon nie die skyf uitskiet nie. Doen dit asb. self."
 
@@ -933,8 +939,8 @@ msgstr "K3b kon nie die skyf uitskiet nie. Doen dit asb. self."
 msgid "Error while reading session %1."
 msgstr "'n Fout het voorgekom met die lees van sessie %1."
 
-#: jobs/k3bcdcopyjob.cpp:1059 projects/datacd/k3bdataverifyingjob.cpp:121
-#: projects/k3bcdrecordwriter.cpp:610 projects/mixedcd/k3bmixedjob.cpp:465
+#: jobs/k3bcdcopyjob.cpp:1059 projects/k3bcdrecordwriter.cpp:610
+#: projects/mixedcd/k3bmixedjob.cpp:465
 msgid "Unable to close the tray"
 msgstr "Kon nie die CD tafel toemaak nie."
 
@@ -968,7 +974,7 @@ msgstr "Besig om CD 'on-te-fly' te kopiëer."
 msgid "Copying CD"
 msgstr "Besig om CD te kopiëer."
 
-#: jobs/k3bcdcopyjob.cpp:1188 jobs/k3bdvdcopyjob.cpp:788
+#: jobs/k3bcdcopyjob.cpp:1188 jobs/k3bdvdcopyjob.cpp:870
 #, c-format
 msgid ""
 "_n: Creating 1 copy\n"
@@ -1103,44 +1109,44 @@ msgstr "%1 het 'n fout terug gegee: %2"
 msgid "Readcd exited abnormally."
 msgstr "<i>Readcd</i> het abnormaal geëindig."
 
-#: jobs/k3bdvdcopyjob.cpp:118
+#: jobs/k3bdvdcopyjob.cpp:124
 #, c-format
 msgid "K3b does not support writing on-the-fly with growisofs %1."
 msgstr "K3b ondersteun nie \"on-te-fly\" skryf met growisofs %1 nie."
 
-#: jobs/k3bdvdcopyjob.cpp:120
+#: jobs/k3bdvdcopyjob.cpp:126
 msgid "Disabling on-the-fly writing."
 msgstr "Deaktiveer 'on-the-fly' skryf."
 
-#: jobs/k3bdvdcopyjob.cpp:155
+#: jobs/k3bdvdcopyjob.cpp:161
 msgid "No source medium found."
 msgstr "Geen bron media was gevind nie."
 
-#: jobs/k3bdvdcopyjob.cpp:161
+#: jobs/k3bdvdcopyjob.cpp:167
 msgid "Found encrypted DVD."
 msgstr "'n Geënkripteerde DVD was gevind."
 
-#: jobs/k3bdvdcopyjob.cpp:177
+#: jobs/k3bdvdcopyjob.cpp:183
 msgid "Cannot copy encrypted DVDs."
 msgstr "Kan nie geënkripteerde DVDs kopiëer nie."
 
-#: jobs/k3bdvdcopyjob.cpp:213
+#: jobs/k3bdvdcopyjob.cpp:219
 msgid "The writer does not support writing Double Layer DVD."
 msgstr "Hierdie skrywer kan nie dubbel laag DVDs skryf nie."
 
-#: jobs/k3bdvdcopyjob.cpp:221
+#: jobs/k3bdvdcopyjob.cpp:227
 msgid "Growisofs >= 5.20 is needed to write Double Layer DVD+R."
 msgstr "<i>Growisofs</i> >= 5.20 is nodig om 'n dubbel laag DVD+R te skryf."
 
-#: jobs/k3bdvdcopyjob.cpp:235
+#: jobs/k3bdvdcopyjob.cpp:241
 msgid "K3b does not support copying multi-session DVDs."
 msgstr "K3b kan nie multisessie DVDs kopiëer nie."
 
-#: jobs/k3bdvdcopyjob.cpp:256
+#: jobs/k3bdvdcopyjob.cpp:262
 msgid "K3b relies on the size saved in the ISO9660 header."
 msgstr "K3b maak staat op die grootte wat in die ISO9660 opskrif gestoor is."
 
-#: jobs/k3bdvdcopyjob.cpp:257
+#: jobs/k3bdvdcopyjob.cpp:263
 msgid ""
 "This might result in a corrupt copy if the source was mastered with buggy "
 "software."
@@ -1148,57 +1154,63 @@ msgstr ""
 "Dit kan veroorsaak dat die kopie korrup is as foutiewe sagteware gebruik was om "
 "die bron mee te skep."
 
-#: jobs/k3bdvdcopyjob.cpp:264
-msgid "Unable to determine the ISO9660 filesystem size."
-msgstr "Kon nie bepaal wat die ISO9660 lêersisteem grootte is nie."
-
-#: jobs/k3bdvdcopyjob.cpp:273
+#: jobs/k3bdvdcopyjob.cpp:279
 msgid "K3b does not support copying DVD-RAM."
 msgstr "K3b kan nie DVD-RAM kopiëer nie."
 
-#: jobs/k3bdvdcopyjob.cpp:279
+#: jobs/k3bdvdcopyjob.cpp:285
 msgid "Unable to determine DVD media type."
 msgstr "Kon nie bepaal wat die DVD media tipe is nie."
 
-#: jobs/k3bdvdcopyjob.cpp:303
+#: jobs/k3bdvdcopyjob.cpp:309
 msgid "Reading source medium."
 msgstr "Besig om die bron media te lees."
 
-#: jobs/k3bdvdcopyjob.cpp:336
+#: jobs/k3bdvdcopyjob.cpp:342
 msgid "Creating DVD image"
 msgstr "Besig om 'n DVD beeld lêer te skep"
 
-#: jobs/k3bdvdcopyjob.cpp:342
+#: jobs/k3bdvdcopyjob.cpp:348
 msgid "Simulating DVD copy"
 msgstr "Besig om 'n DVD kopieëring te simuleer."
 
-#: jobs/k3bdvdcopyjob.cpp:344 jobs/k3bdvdcopyjob.cpp:528
-#: jobs/k3bdvdcopyjob.cpp:583
+#: jobs/k3bdvdcopyjob.cpp:350 jobs/k3bdvdcopyjob.cpp:540
+#: jobs/k3bdvdcopyjob.cpp:623 jobs/k3bdvdcopyjob.cpp:672
 #, c-format
 msgid "Writing DVD copy %1"
 msgstr "Besig om DVD kopie %1 te skryf."
 
-#: jobs/k3bdvdcopyjob.cpp:346 jobs/k3bdvdcopyjob.cpp:530
-#: jobs/k3bdvdcopyjob.cpp:675
+#: jobs/k3bdvdcopyjob.cpp:352 jobs/k3bdvdcopyjob.cpp:542
+#: jobs/k3bdvdcopyjob.cpp:757
 msgid "Writing DVD copy"
 msgstr "Besig om die DVD kopie te skryf."
 
-#: jobs/k3bdvdcopyjob.cpp:509
+#: jobs/k3bdvdcopyjob.cpp:521
 msgid "Successfully read source DVD."
 msgstr "Bron DVD suksesvol gelees."
 
-#: jobs/k3bdvdcopyjob.cpp:577
+#: jobs/k3bdvdcopyjob.cpp:587
 #, c-format
 msgid "Successfully written DVD copy %1."
 msgstr "DVD kopie %1 was suksesvol geskryf."
 
-#: jobs/k3bdvdcopyjob.cpp:654 projects/datadvd/k3bdvdjob.cpp:201
+#: jobs/k3bdvdcopyjob.cpp:610
+#, fuzzy, c-format
+msgid "Verifying DVD copy %1"
+msgstr "Besig om DVD kopie %1 te skryf."
+
+#: jobs/k3bdvdcopyjob.cpp:612
+#, fuzzy
+msgid "Verifying DVD copy"
+msgstr "Besig om die DVD kopie te skryf."
+
+#: jobs/k3bdvdcopyjob.cpp:736 projects/datadvd/k3bdvdjob.cpp:200
 msgid "Forced by user. Growisofs will be called without further tests."
 msgstr ""
 "Geforseer deur die gebruiker. <i>Growisofs</i> sal geroep word sonder enige "
 "verdere toetse."
 
-#: jobs/k3bdvdcopyjob.cpp:666
+#: jobs/k3bdvdcopyjob.cpp:748
 msgid ""
 "K3b does not support simulation with DVD+R(W) media. Do you really want to "
 "continue? The media will actually be written to."
@@ -1206,24 +1218,24 @@ msgstr ""
 "K3b ondersteun nie gesimuleerde skryf op DVD+R(W) media nie. Wil jy rêrig voort "
 "gaan?Die data sal rêrig geskryf word."
 
-#: jobs/k3bdvdcopyjob.cpp:679 projects/datadvd/k3bdvdjob.cpp:222
+#: jobs/k3bdvdcopyjob.cpp:761 projects/datadvd/k3bdvdjob.cpp:221
 msgid "Writing mode ignored when writing DVD+R(W) media."
 msgstr ""
 "Die gespesifiseerde skryf modus word geïgnoreer as na 'n DVD+R(W) geskryf word."
 
-#: jobs/k3bdvdcopyjob.cpp:682 projects/datadvd/k3bdvdjob.cpp:227
+#: jobs/k3bdvdcopyjob.cpp:764 projects/datadvd/k3bdvdjob.cpp:226
 msgid "Writing DVD+RW."
 msgstr "Besig om 'n DVD+RW te skryf."
 
-#: jobs/k3bdvdcopyjob.cpp:684 projects/datadvd/k3bdvdjob.cpp:232
+#: jobs/k3bdvdcopyjob.cpp:766 projects/datadvd/k3bdvdjob.cpp:231
 msgid "Writing Double Layer DVD+R."
 msgstr "Besig om 'n dubbel laag DVD+R te skryf."
 
-#: jobs/k3bdvdcopyjob.cpp:686 projects/datadvd/k3bdvdjob.cpp:234
+#: jobs/k3bdvdcopyjob.cpp:768 projects/datadvd/k3bdvdjob.cpp:233
 msgid "Writing DVD+R."
 msgstr "Besig om 'n DVD+R te skryf."
 
-#: jobs/k3bdvdcopyjob.cpp:694 projects/datadvd/k3bdvdjob.cpp:242
+#: jobs/k3bdvdcopyjob.cpp:776 projects/datadvd/k3bdvdjob.cpp:241
 msgid ""
 "Your writer (%1 %2) does not support simulation with DVD-R(W) media. Do you "
 "really want to continue? The media will be written for real."
@@ -1231,49 +1243,49 @@ msgstr ""
 "Die skrywer (%1 %2) ondersteun nie gesimuleerde skryf op DVD-R(W) media nie. "
 "Wil jy rêrig voort gaan?Die data sal rêrig geskryf word."
 
-#: jobs/k3bdvdcopyjob.cpp:699 projects/datadvd/k3bdvdjob.cpp:247
+#: jobs/k3bdvdcopyjob.cpp:781 projects/datadvd/k3bdvdjob.cpp:246
 msgid "No Simulation with DVD-R(W)"
 msgstr "Geen simulasie skryf vir DVD-R(W) media nie."
 
-#: jobs/k3bdvdcopyjob.cpp:720 projects/datadvd/k3bdvdjob.cpp:259
+#: jobs/k3bdvdcopyjob.cpp:802 projects/datadvd/k3bdvdjob.cpp:258
 msgid "Writing DVD-RW in restricted overwrite mode."
 msgstr "Besig om 'n DVD-RW in beperkte oorskryf modus te skryf"
 
-#: jobs/k3bdvdcopyjob.cpp:728
+#: jobs/k3bdvdcopyjob.cpp:810
 msgid "Writing DVD-RW in DAO mode."
 msgstr "Besig om 'n DVD-RW in DAO modus te skryf."
 
-#: jobs/k3bdvdcopyjob.cpp:732
+#: jobs/k3bdvdcopyjob.cpp:814
 msgid "Writing DVD-RW in incremental mode."
 msgstr "Besig om 'n DVD-RW in inkrementele modus te skryf."
 
-#: jobs/k3bdvdcopyjob.cpp:741 projects/datadvd/k3bdvdjob.cpp:294
+#: jobs/k3bdvdcopyjob.cpp:823 projects/datadvd/k3bdvdjob.cpp:293
 msgid "Restricted Overwrite is not possible with DVD-R media."
 msgstr "Beperkte oorskryf is nie moontlik vir DVD-R media nie."
 
-#: jobs/k3bdvdcopyjob.cpp:746 projects/datadvd/k3bdvdjob.cpp:273
-#: projects/datadvd/k3bdvdjob.cpp:288
+#: jobs/k3bdvdcopyjob.cpp:828 projects/datadvd/k3bdvdjob.cpp:272
+#: projects/datadvd/k3bdvdjob.cpp:287
 msgid "Writing %1 in DAO mode."
 msgstr "Besig om %1 in DAO modus te skryf"
 
-#: jobs/k3bdvdcopyjob.cpp:750 projects/datadvd/k3bdvdjob.cpp:296
+#: jobs/k3bdvdcopyjob.cpp:832 projects/datadvd/k3bdvdjob.cpp:295
 msgid "Writing %1 in incremental mode."
 msgstr "Besig om %1 in inkrementele modus te skryf."
 
-#: jobs/k3bdvdcopyjob.cpp:766 projects/datacd/k3bdatajob.cpp:952
+#: jobs/k3bdvdcopyjob.cpp:848 projects/datacd/k3bdatajob.cpp:952
 #, c-format
 msgid "Removed image file %1"
 msgstr "Verwyder beeld lêer %1"
 
-#: jobs/k3bdvdcopyjob.cpp:774
+#: jobs/k3bdvdcopyjob.cpp:856
 msgid "Creating DVD Image"
 msgstr "Besig om 'n DVD beeld lêer te skep."
 
-#: jobs/k3bdvdcopyjob.cpp:778
+#: jobs/k3bdvdcopyjob.cpp:860
 msgid "Copying DVD On-The-Fly"
 msgstr "Besig om die DVD 'on-the-fly' te kopiëer"
 
-#: jobs/k3bdvdcopyjob.cpp:780
+#: jobs/k3bdvdcopyjob.cpp:862
 msgid "Copying DVD"
 msgstr "Besig om 'n DVD te kopiëer"
 
@@ -1597,21 +1609,22 @@ msgid ""
 "<p>If this option is checked, then after successfully writing the disk K3b will "
 "compare the original source data with the written data to verify that the disk "
 "has been written correctly."
+"<p>Audio CD tracks do not contain error correction data and hifi audio CD "
+"players are able to interpolate little errors in the data. Thus, differences "
+"between the original and written data does not necessarily mean a failed burn. "
+"In this case K3b will only display a warning."
 msgstr ""
-"<p>As hierdie opsie gekies is, sal K3b na 'n suksesvolle skryf die "
-"oorspronklike data met die geskryfde data vergelyk om te bevestig dat die data "
-"wel korrek geskryf is."
 
-#: tools/k3bstdguiitems.cpp:191
+#: tools/k3bstdguiitems.cpp:196
 #, fuzzy
 msgid "Ignore read errors"
 msgstr "Lees fout in sektor %1 was geïgnoreer."
 
-#: tools/k3bstdguiitems.cpp:192
+#: tools/k3bstdguiitems.cpp:197
 msgid "Skip unreadable audio sectors"
 msgstr ""
 
-#: tools/k3bstdguiitems.cpp:193
+#: tools/k3bstdguiitems.cpp:198
 msgid ""
 "<p>If this option is checked and K3b is not able to read an audio sector from "
 "the source CD it will be replaced with zeros on the resulting copy."
@@ -1703,7 +1716,7 @@ msgid "Starting simulation..."
 msgstr "Begin met simulasie..."
 
 #: projects/audiocd/k3baudiojob.cpp:582 projects/datacd/k3bdatajob.cpp:375
-#: projects/datadvd/k3bdvdjob.cpp:218
+#: projects/datadvd/k3bdvdjob.cpp:217
 #: projects/datadvd/k3bgrowisofsimager.cpp:263
 #: projects/k3bcdrdaowriter.cpp:591 projects/k3bcdrecordwriter.cpp:344
 #: projects/k3bgrowisofswriter.cpp:367
@@ -1753,15 +1766,15 @@ msgstr ""
 "Gebruik die konteks kieslys om lêers te verwyder of om name te verander.\n"
 "Daarna kan die 'brand' knoppie gedruk word om die DVD te skryf."
 
-#: projects/datadvd/k3bdvdjob.cpp:229
+#: projects/datadvd/k3bdvdjob.cpp:228
 msgid "Growing ISO9660 filesystem on DVD+RW."
 msgstr "Besig om 'n ISO9660 lêersisteem op 'n DVD+RW te skep."
 
-#: projects/datadvd/k3bdvdjob.cpp:261
+#: projects/datadvd/k3bdvdjob.cpp:260
 msgid "Growing ISO9660 filesystem on DVD-RW in restricted overwrite mode."
 msgstr "Skep ISO9660 lêersisteem op 'n DVD-RW in beperkte oorskryf modus."
 
-#: projects/datadvd/k3bdvdjob.cpp:279
+#: projects/datadvd/k3bdvdjob.cpp:278
 msgid ""
 "Your writer (%1 %2) does not support Incremental Streaming with %3 media. "
 "Multisession will not be possible. Continue anyway?"
@@ -1769,23 +1782,23 @@ msgstr ""
 "Jou skrywer (%1 %2) ondersteun nie inkrementele stroom met %3 media nie. "
 "Multisessies sal nie moontlik wees nie. Gaan in elk geval voort?"
 
-#: projects/datadvd/k3bdvdjob.cpp:284
+#: projects/datadvd/k3bdvdjob.cpp:283
 msgid "No Incremental Streaming"
 msgstr "Geen inkrementele data stroom"
 
-#: projects/datacd/k3bdatajob.cpp:907 projects/datadvd/k3bdvdjob.cpp:310
+#: projects/datacd/k3bdatajob.cpp:907 projects/datadvd/k3bdvdjob.cpp:309
 msgid "Creating Data Image File"
 msgstr "Besig om 'n data beeld lêer te skep"
 
-#: projects/datadvd/k3bdvdjob.cpp:314
+#: projects/datadvd/k3bdvdjob.cpp:313
 msgid "Writing Data DVD"
 msgstr "Besig om 'n data DVD te skryf"
 
-#: projects/datadvd/k3bdvdjob.cpp:320
+#: projects/datadvd/k3bdvdjob.cpp:319
 msgid "Writing Multisession DVD"
 msgstr "Besig om 'n multi-sessie DVD te skryf"
 
-#: projects/datacd/k3bdatajob.cpp:932 projects/datadvd/k3bdvdjob.cpp:335
+#: projects/datacd/k3bdatajob.cpp:932 projects/datadvd/k3bdvdjob.cpp:334
 msgid ""
 "_n: ISO9660 Filesystem (Size: %1) - %n copy\n"
 "ISO9660 Filesystem (Size: %1) - %n copies"
@@ -1793,7 +1806,7 @@ msgstr ""
 "ISO9660 Lêersisteem (Grootte: %1) - %n kopie\n"
 "ISO9660 Lêersisteem (Grootte: %1) - %n kopieë"
 
-#: projects/datacd/k3bdatajob.cpp:936 projects/datadvd/k3bdvdjob.cpp:339
+#: projects/datacd/k3bdatajob.cpp:936 projects/datadvd/k3bdvdjob.cpp:338
 msgid "ISO9660 Filesystem (Size: %1)"
 msgstr "ISO9660 Lêersisteem (Grootte: %1)"
 
@@ -1816,11 +1829,6 @@ msgstr "Kon nie die CD dryf oop sluit nie."
 #: projects/k3babstractwriter.cpp:74
 msgid "Ejecting CD"
 msgstr "Besig om CD uit te skiet"
-
-#: projects/audiocd/k3baudiojob.cpp:130 projects/datacd/k3bdatajob.cpp:145
-#: projects/mixedcd/k3bmixedjob.cpp:148
-msgid "Preparing data"
-msgstr "Besig om die data voor te berei"
 
 #: projects/audiocd/k3baudiojob.cpp:241 projects/mixedcd/k3bmixedjob.cpp:172
 msgid "Determining maximum writing speed"
@@ -1964,7 +1972,7 @@ msgstr "%1 snitte (%2 minute se oudio data, %3 ISO9660 data)"
 #: projects/audiocd/k3baudiojob.cpp:784 projects/mixedcd/k3bmixedjob.cpp:1259
 #: projects/movixcd/k3bmovixjob.cpp:128
 #: projects/movixdvd/k3bmovixdvdjob.cpp:127 projects/videocd/k3bvcdjob.cpp:563
-#: projects/videodvd/k3bvideodvdjob.cpp:98
+#: projects/videodvd/k3bvideodvdjob.cpp:97
 #, c-format
 msgid ""
 "_n:  - %n copy\n"
@@ -2142,22 +2150,6 @@ msgstr "El Torito boot katalogus lêer"
 #: projects/datacd/k3bdatadoc.cpp:1355
 msgid "Boot catalog"
 msgstr "Boot katalogus"
-
-#: projects/datacd/k3bdataverifyingjob.cpp:103
-msgid "Preparing Data"
-msgstr "Besig om die data voor te berei"
-
-#: projects/datacd/k3bdataverifyingjob.cpp:123
-msgid "Reading TOC"
-msgstr "Besig om die TOC te lees"
-
-#: projects/datacd/k3bdataverifyingjob.cpp:140
-msgid "Reading TOC failed."
-msgstr "Lees van die TOC het gevaal."
-
-#: projects/datacd/k3bdataverifyingjob.cpp:201
-msgid "Failed to read file system."
-msgstr "Kon nie die lêersisteem lees nie."
 
 #: projects/datacd/k3bmsinfofetcher.cpp:52
 msgid "Searching previous session"
@@ -3318,15 +3310,15 @@ msgid ""
 msgstr ""
 "Die nuwe DVD sal waarskynlik nie speelbaar wees op HIfi DVD spelers nie."
 
-#: projects/videodvd/k3bvideodvdjob.cpp:83
+#: projects/videodvd/k3bvideodvdjob.cpp:82
 msgid "Creating Video DVD Image File"
 msgstr "Besig om Video DVD beeld lêer te skep"
 
-#: projects/videodvd/k3bvideodvdjob.cpp:86
+#: projects/videodvd/k3bvideodvdjob.cpp:85
 msgid "Writing Video DVD"
 msgstr "Besig om 'n Video DVD te skryf"
 
-#: projects/videodvd/k3bvideodvdjob.cpp:96
+#: projects/videodvd/k3bvideodvdjob.cpp:95
 msgid "ISO9660/Udf Filesystem (Size: %1)"
 msgstr "ISO9660/UDF lêersisteem (Grootte: %1)"
 
@@ -3429,6 +3421,33 @@ msgstr "Regiseur se kommentaar vir kinders"
 #: videodvd/k3bvideodvd.cpp:320
 msgid "unknown code extension"
 msgstr "onbekende kode uitbreiding"
+
+#~ msgid "Unable to determine size of file %1."
+#~ msgstr "Kon nie die grootte van lêer %1 bepaal nie."
+
+#~ msgid "Reading original data"
+#~ msgstr "Besig om die oorspronklike data te lees"
+
+#~ msgid "Reading written data"
+#~ msgstr "Besig om die geskryfde data te lees"
+
+#~ msgid "Unable to open device %1."
+#~ msgstr "Kon nie toestel %1 oopmaak nie."
+
+#~ msgid "<p>If this option is checked, then after successfully writing the disk K3b will compare the original source data with the written data to verify that the disk has been written correctly."
+#~ msgstr "<p>As hierdie opsie gekies is, sal K3b na 'n suksesvolle skryf die oorspronklike data met die geskryfde data vergelyk om te bevestig dat die data wel korrek geskryf is."
+
+#~ msgid "Preparing Data"
+#~ msgstr "Besig om die data voor te berei"
+
+#~ msgid "Reading TOC"
+#~ msgstr "Besig om die TOC te lees"
+
+#~ msgid "Reading TOC failed."
+#~ msgstr "Lees van die TOC het gevaal."
+
+#~ msgid "Failed to read file system."
+#~ msgstr "Kon nie die lêersisteem lees nie."
 
 #~ msgid "Cache data"
 #~ msgstr "Kas data"
