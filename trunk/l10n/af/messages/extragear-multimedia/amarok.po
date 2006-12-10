@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
-"POT-Creation-Date: 2006-12-09 08:57+0100\n"
+"POT-Creation-Date: 2006-12-10 08:57+0100\n"
 "PO-Revision-Date: 2006-11-29 10:58+0200\n"
 "Last-Translator: Frikkie Thirion <kde.afrikaans@gmail.com>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -33,7 +33,7 @@ msgstr "Besig om etiket te skryf..."
 #: mediadevice/ipod/ipodmediadevice.cpp:1386
 #: mediadevice/ipod/ipodmediadevice.cpp:1749
 #: mediadevice/ipod/ipodmediadevice.cpp:1801
-#: mediadevice/mtp/mtpmediadevice.cpp:373 metabundle.cpp:624
+#: mediadevice/mtp/mtpmediadevice.cpp:562 metabundle.cpp:624
 #: organizecollectiondialog.ui.h:20 statistics.cpp:465
 msgid "Various Artists"
 msgstr "Verskeie Kunstenaars"
@@ -231,7 +231,7 @@ msgstr "Pod uitsending..."
 #: mediadevice/generic/genericmediadevice.cpp:974
 #: mediadevice/ifp/ifpmediadevice.cpp:656
 #: mediadevice/ipod/ipodmediadevice.cpp:2038
-#: mediadevice/mtp/mtpmediadevice.cpp:1099 playlistbrowser.cpp:178
+#: mediadevice/mtp/mtpmediadevice.cpp:1303 playlistbrowser.cpp:178
 msgid "Rename"
 msgstr "Verander naam"
 
@@ -405,7 +405,7 @@ msgstr ""
 "uitgevee moet word."
 
 #: mediadevice/ipod/ipodmediadevice.cpp:1188
-#: mediadevice/mtp/mtpmediadevice.cpp:934 playlistbrowser.cpp:1587
+#: mediadevice/mtp/mtpmediadevice.cpp:1132 playlistbrowser.cpp:1587
 #: playlistbrowser.cpp:1594 playlistbrowser.cpp:1598 playlistbrowser.cpp:2529
 #: playlistwindow.cpp:438
 msgid "Playlists"
@@ -2130,7 +2130,7 @@ msgid "Remote Media"
 msgstr "Afgeleë Media"
 
 #: mediabrowser.cpp:1401 mediadevice/ipod/ipodmediadevice.cpp:2141
-#: mediadevice/mtp/mtpmediadevice.cpp:1114
+#: mediadevice/mtp/mtpmediadevice.cpp:1318
 msgid "New Playlist"
 msgstr "Speel nou"
 
@@ -3032,7 +3032,7 @@ msgid "Edit Track &Information..."
 msgstr "Redigeer Snit Informasie..."
 
 #: filebrowser.cpp:473 mediadevice/fs/fsmediadevice.cpp:472
-#: mediadevice/mtp/mtpmediadevice.cpp:518
+#: mediadevice/mtp/mtpmediadevice.cpp:707
 #: mediadevice/njb/njbmediadevice.cpp:402
 msgid "Move Files To Collection"
 msgstr "Skuif lêers na die versameling"
@@ -3160,7 +3160,7 @@ msgstr "Laai lêer af"
 msgid "Download to collection"
 msgstr "Laai af na die versameling"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1105
+#: mediadevice/mtp/mtpmediadevice.cpp:1309
 #: mediadevice/njb/njbmediadevice.cpp:628
 #: mediadevice/riokarma/riokarmamediadevice.cpp:394
 msgid "Delete from device"
@@ -3191,12 +3191,12 @@ msgstr "Batery besig om gelaai te word"
 msgid "Battery not charging"
 msgstr "Batery word nie gelaai nie"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1032
+#: mediadevice/mtp/mtpmediadevice.cpp:1235
 #: mediadevice/njb/njbmediadevice.cpp:880
 msgid "Battery level: "
 msgstr "Batery vlak:"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1042
+#: mediadevice/mtp/mtpmediadevice.cpp:1245
 #: mediadevice/njb/njbmediadevice.cpp:882
 msgid "Player Information for "
 msgstr "Speler informasie vir"
@@ -3209,12 +3209,12 @@ msgstr "Krag status:"
 msgid "Battery status: "
 msgstr "Batery status:"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1052
+#: mediadevice/mtp/mtpmediadevice.cpp:1255
 #: mediadevice/njb/njbmediadevice.cpp:889
 msgid "Player not connected"
 msgstr "Speler nie gekoppel nie"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1055
+#: mediadevice/mtp/mtpmediadevice.cpp:1258
 #: mediadevice/njb/njbmediadevice.cpp:892
 msgid "Device information"
 msgstr "Toestel informasie"
@@ -3241,126 +3241,139 @@ msgstr "Onbekende tipe"
 msgid "Special functions of your device"
 msgstr "Spesiale funksies van jou toestel"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:162
+#: mediadevice/mtp/mtpmediadevice.cpp:164
 #: mediadevice/riokarma/riokarmamediadevice.cpp:96
 msgid "Could not send track"
 msgstr "Kon nie die snit stuur nie"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:170
+#: mediadevice/mtp/mtpmediadevice.cpp:172
 #: mediadevice/riokarma/riokarmamediadevice.cpp:104
 msgid "Track already exists on device"
 msgstr "Die snit bestaan alreeds op die toestel"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:216
+#: mediadevice/mtp/mtpmediadevice.cpp:218
 msgid "Cannot determine a valid file type"
 msgstr "Kan nie 'n geldige lêer tipe bepaal nie"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:317
+#: mediadevice/mtp/mtpmediadevice.cpp:319
 msgid "Cannot create parent folder. Check your structure."
 msgstr "Kan nie 'n ouer gids skep nie. Gaan asb. jou struktuur na."
 
-#: mediadevice/mtp/mtpmediadevice.cpp:338
+#: mediadevice/mtp/mtpmediadevice.cpp:340
 msgid "File write failed"
 msgstr "Lêer skryf was onsuksesvol"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:476
-#: mediadevice/mtp/mtpmediadevice.cpp:500
+#: mediadevice/mtp/mtpmediadevice.cpp:665
+#: mediadevice/mtp/mtpmediadevice.cpp:689
 msgid "Could not copy track from device."
 msgstr "Kon nie die snit vanaf die toestel kopiëer nie"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:689
+#: mediadevice/mtp/mtpmediadevice.cpp:880
 msgid "Could not save playlist."
 msgstr "Kon nie die speel lys stoor nie"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:704
+#: mediadevice/mtp/mtpmediadevice.cpp:895
 msgid "Could not create new playlist on device."
 msgstr "Kon nie 'n nuwe speel lys op die toestel skep nie"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:718
+#: mediadevice/mtp/mtpmediadevice.cpp:909
 msgid "Could not update playlist on device."
 msgstr "Kon nie die speel lys op die toestel opdateer nie"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:808
+#: mediadevice/mtp/mtpmediadevice.cpp:999
 msgid "Could not delete item"
 msgstr "Kon nie die item uitvee nie"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:821
+#: mediadevice/mtp/mtpmediadevice.cpp:1012
 msgid "Delete failed"
 msgstr "Uitvee was onsuksesvol "
 
-#: mediadevice/mtp/mtpmediadevice.cpp:871
+#: mediadevice/mtp/mtpmediadevice.cpp:1062
 msgid "Could not connect to MTP Device"
 msgstr "Kon nie aan die MTP toestel koppel nie"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:881
+#: mediadevice/mtp/mtpmediadevice.cpp:1072
 msgid "MTP device could not be opened"
 msgstr "MTP toestel kon nie oopgemaak word nie"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1035
+#: mediadevice/mtp/mtpmediadevice.cpp:1238
 msgid "Secure time: "
 msgstr "Beveilig tyd:"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1036
+#: mediadevice/mtp/mtpmediadevice.cpp:1239
 msgid "Volume label: "
 msgstr "Volume Etiket:"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1038
+#: mediadevice/mtp/mtpmediadevice.cpp:1241
 msgid "Storage description: "
 msgstr "Stoor medium beskrywing:"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1039
+#: mediadevice/mtp/mtpmediadevice.cpp:1242
 msgid "Supported file types: "
 msgstr "Lêer tipes wat ondersteun word:"
 
 #: filebrowser.cpp:181 mediadevice/generic/genericmediadevice.cpp:967
 #: mediadevice/ipod/ipodmediadevice.cpp:1960
-#: mediadevice/mtp/mtpmediadevice.cpp:1095
+#: mediadevice/mtp/mtpmediadevice.cpp:1298
 msgid "&Copy Files to Collection..."
 msgstr "Kopiëer lêers na die versameling..."
 
 #: mediadevice/ipod/ipodmediadevice.cpp:2003
-#: mediadevice/mtp/mtpmediadevice.cpp:1096
+#: mediadevice/mtp/mtpmediadevice.cpp:1299
 msgid "Make Media Device Playlist"
 msgstr "Maak media toestel speel lys"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1143
+#: mediadevice/ipod/ipodmediadevice.cpp:2066
+#: mediadevice/mtp/mtpmediadevice.cpp:1300
+msgid "Refresh Cover Images"
+msgstr "Verfris CD omslag beelde"
+
+#: mediadevice/mtp/mtpmediadevice.cpp:1343
+#, c-format
+msgid ""
+"_n: "
+"<p>You are updating cover art for 1 track. This may take some time.\n"
+"<p>You are updating cover art for %n tracks. This may take some time."
+msgstr ""
+
+#: mediadevice/mtp/mtpmediadevice.cpp:1367
 msgid "Folder structure:"
 msgstr "Gids struktuur:"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1148
+#: mediadevice/mtp/mtpmediadevice.cpp:1372
 msgid "Files copied to the device will be placed in this folder."
 msgstr ""
 "Lêers wat na die toestel gekopiëer word, sal in hierdie gids geplaas word."
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1149
+#: mediadevice/mtp/mtpmediadevice.cpp:1373
 msgid "/ is used as folder separator."
 msgstr "/ word as die skeier tussen gidse gebruik."
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1150
+#: mediadevice/mtp/mtpmediadevice.cpp:1374
 msgid "%a will be replaced with the artist name, "
 msgstr "%a sal met die kunstenaar naam vervang word"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1151
+#: mediadevice/mtp/mtpmediadevice.cpp:1375
 msgid "%b with the album name,"
 msgstr "%b sal met die album naam vervang word"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1152
+#: mediadevice/mtp/mtpmediadevice.cpp:1376
 #, c-format
 msgid "%g with the genre."
 msgstr "%g sal met die tipe vervang word"
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1153
+#: mediadevice/mtp/mtpmediadevice.cpp:1377
 msgid ""
 "An empty path means the files will placed unsorted in the default music folder."
 msgstr ""
 "'n Leë soekpad sal veroorsaak dat lêers in die standaard musiek gids geplaas "
 "word."
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1249
+#: mediadevice/mtp/mtpmediadevice.cpp:1473
 msgid "Could not get music from MTP Device"
 msgstr "Kon nie musiek vanaf die MTP toestel onttrek nie."
 
-#: mediadevice/mtp/mtpmediadevice.cpp:1266
+#: mediadevice/mtp/mtpmediadevice.cpp:1490
 msgid "Could not read MTP Device tracks"
 msgstr "Kon nie MTP toestel snitte lees nie"
 
@@ -3597,10 +3610,6 @@ msgstr ""
 #: mediadevice/ipod/ipodmediadevice.cpp:2065
 msgid "Scan for Orphaned and Missing Files"
 msgstr "Skan deer vir weeskind en verlore lêers"
-
-#: mediadevice/ipod/ipodmediadevice.cpp:2066
-msgid "Refresh Cover Images"
-msgstr "Verfris CD omslag beelde"
 
 #: mediadevice/ipod/ipodmediadevice.cpp:2068
 msgid "Repair iPod"
