@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: k3b\n"
-"POT-Creation-Date: 2006-12-19 08:59+0100\n"
+"POT-Creation-Date: 2006-12-20 08:53+0100\n"
 "PO-Revision-Date: 2006-11-29 16:54+0200\n"
 "Last-Translator: Frikkie Thirion <kde.afrikaans@gmail.com>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -81,7 +81,7 @@ msgstr "Wil jy hierdie lêers oorskryf?"
 msgid "Files Exist"
 msgstr "Lêer Bestaan"
 
-#: k3b.cpp:919 k3bdebuggingoutputdialog.cpp:142 k3bemptydiscwaiter.cpp:347
+#: k3b.cpp:920 k3bdebuggingoutputdialog.cpp:142 k3bemptydiscwaiter.cpp:347
 #: k3bemptydiscwaiter.cpp:417 misc/k3bcdcopydialog.cpp:297
 #: misc/k3bcdcopydialog.cpp:305 misc/k3bdvdcopydialog.cpp:251
 #: option/k3bthemeoptiontab.cpp:190 projects/k3bdataburndialog.cpp:183
@@ -1229,11 +1229,20 @@ msgstr ""
 msgid "Unmounting failed"
 msgstr "Ontkoppeling was onsuksesvol"
 
-#: k3bmedium.cpp:299 rip/videodvd/k3bvideodvdrippingview.cpp:100
+#: rip/videodvd/k3bvideodvdrippingview.cpp:104
+msgid ""
+"<p>Unable to read Video DVD contents: Found encrypted Video DVD."
+"<p>Install <i>libdvdcss</i> to get Video DVD decryption support."
+msgstr ""
+"<p>Kon nie die Video DVD inhoud lees nie. 'n Geënkripteerde Video DVD was "
+"gevind."
+"<p>Installeer <i>libdvdcss</i> om Video DVD dekripsie ondersteuning te kry."
+
+#: k3bmedium.cpp:299 rip/videodvd/k3bvideodvdrippingview.cpp:115
 msgid "Video DVD"
 msgstr "Video DVD"
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:101
+#: rip/videodvd/k3bvideodvdrippingview.cpp:116
 #, c-format
 msgid ""
 "_n: %n title\n"
@@ -1242,13 +1251,13 @@ msgstr ""
 "%n titel\n"
 "%n titels"
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:109
+#: rip/videodvd/k3bvideodvdrippingview.cpp:124
 msgid "K3b uses transcode to rip Video DVDs. Please make sure it is installed."
 msgstr ""
 "K3b gebruik <i>transcode</i> om Video DVDs te kopiëer. Maak asb. seker dat dit "
 "geïnstalleer is."
 
-#: rip/videodvd/k3bvideodvdrippingview.cpp:123
+#: rip/videodvd/k3bvideodvdrippingview.cpp:138
 msgid ""
 "<p>K3b uses transcode to rip Video DVDs. Your installation of transcode (<em>"
 "%1</em>) lacks support for any of the codecs supported by K3b."
@@ -1258,15 +1267,6 @@ msgstr ""
 "<i>transcode</i> (<em>%1</em>) ontbreek ondersteuning vir die kodeerders wat "
 "K3b ondersteun. "
 "<p>Maak asb. seker dat dit korrek geïnstalleer is."
-
-#: rip/videodvd/k3bvideodvdrippingview.cpp:144
-msgid ""
-"<p>Unable to read Video DVD contents: Found encrypted Video DVD."
-"<p>Install <i>libdvdcss</i> to get Video DVD decryption support."
-msgstr ""
-"<p>Kon nie die Video DVD inhoud lees nie. 'n Geënkripteerde Video DVD was "
-"gevind."
-"<p>Installeer <i>libdvdcss</i> om Video DVD dekripsie ondersteuning te kry."
 
 #: rip/videodvd/k3bvideodvdrippingview.cpp:151
 msgid "Unable to read Video DVD contents."
@@ -1596,7 +1596,7 @@ msgstr ""
 "Dit lyk asof daar onvoldoende spasie in die tydelike gids beskikbaar is. Skryf "
 "in elk geval?"
 
-#: k3b.cpp:918 k3bdebuggingoutputdialog.cpp:141 misc/k3bcdcopydialog.cpp:296
+#: k3b.cpp:919 k3bdebuggingoutputdialog.cpp:141 misc/k3bcdcopydialog.cpp:296
 #: misc/k3bcdcopydialog.cpp:304 misc/k3bdvdcopydialog.cpp:250
 #: projects/k3bdataburndialog.cpp:182 projects/k3bdvdburndialog.cpp:285
 #: projects/k3bmovixburndialog.cpp:227 projects/k3bmovixdvdburndialog.cpp:194
@@ -1604,7 +1604,7 @@ msgstr ""
 msgid "Do you want to overwrite %1?"
 msgstr "Wil jy %1 oorskryf?"
 
-#: k3b.cpp:919 k3bdebuggingoutputdialog.cpp:142 misc/k3bcdcopydialog.cpp:297
+#: k3b.cpp:920 k3bdebuggingoutputdialog.cpp:142 misc/k3bcdcopydialog.cpp:297
 #: misc/k3bcdcopydialog.cpp:305 misc/k3bdvdcopydialog.cpp:251
 #: projects/k3bdataburndialog.cpp:183 projects/k3bdvdburndialog.cpp:286
 #: projects/k3bmovixburndialog.cpp:228 projects/k3bmovixdvdburndialog.cpp:195
@@ -1680,7 +1680,7 @@ msgstr "*.cue *.CUE|Cue Lêers"
 msgid "*.toc *.TOC|Cdrdao TOC Files and Cdrecord Clone Images"
 msgstr "*.toc *.TOC|Cdrdao TOC Lêers en Cdrecord Clone Beelde"
 
-#: k3b.cpp:1246 k3bfileview.cpp:103 misc/k3bcdimagewritingdialog.cpp:191
+#: k3b.cpp:1247 k3bfileview.cpp:103 misc/k3bcdimagewritingdialog.cpp:191
 #: misc/k3bisoimagewritingdialog.cpp:157
 msgid "*|All Files"
 msgstr "*|Alle Lêers"
@@ -2549,7 +2549,7 @@ msgstr ""
 "Maak die CD kopiëer dialoog oop. Spesifisering van die bron toestel is "
 "opsioneel."
 
-#: k3b.cpp:336 main.cpp:60
+#: k3b.cpp:337 main.cpp:60
 msgid "Open the DVD copy dialog"
 msgstr "Maak die DVD kopiëer dialoog oop"
 
@@ -2688,353 +2688,353 @@ msgstr ""
 msgid "Keep Open"
 msgstr "Hou oop"
 
-#: k3b.cpp:154
+#: k3b.cpp:155
 msgid "K3b - The CD and DVD Kreator"
 msgstr "K3b - Die CD en DVD Skepper"
 
-#: k3b.cpp:217
+#: k3b.cpp:218
 msgid "Save All"
 msgstr "Stoor Alle"
 
-#: k3b.cpp:220
+#: k3b.cpp:221
 msgid "Close All"
 msgstr "Maak Alle Toe"
 
-#: k3b.cpp:234
+#: k3b.cpp:235
 msgid "&New Project"
 msgstr "Nuwe Projek"
 
-#: k3b.cpp:235
+#: k3b.cpp:236
 msgid "New &Audio CD Project"
 msgstr "Nuwe Oudio CD Projek"
 
-#: k3b.cpp:237
+#: k3b.cpp:238
 msgid "New Data &CD Project"
 msgstr "Nuwe Data CD Projek"
 
-#: k3b.cpp:239
+#: k3b.cpp:240
 msgid "New &Mixed Mode CD Project"
 msgstr "Nuwe Gemengde Modus CD Projek"
 
-#: k3b.cpp:241
+#: k3b.cpp:242
 msgid "New &Video CD Project"
 msgstr "Nuwe Video CD Projek"
 
-#: k3b.cpp:243
+#: k3b.cpp:244
 msgid "New &eMovix CD Project"
 msgstr "Nuwe eMovix CD Projek"
 
-#: k3b.cpp:245
+#: k3b.cpp:246
 msgid "New &eMovix DVD Project"
 msgstr "Nuwe eMovix DVD Projek"
 
-#: k3b.cpp:247
+#: k3b.cpp:248
 msgid "New Data &DVD Project"
 msgstr "Nuwe Data DVD Projek"
 
-#: k3b.cpp:249
+#: k3b.cpp:250
 msgid "New V&ideo DVD Project"
 msgstr "Nuwe Video DVD Projek"
 
-#: k3b.cpp:251
+#: k3b.cpp:252
 msgid "Continue Multisession Project"
 msgstr "Gaan voort met Multisessie Projek"
 
-#: k3b.cpp:273
+#: k3b.cpp:274
 msgid "&Add Files..."
 msgstr "Voeg Lêers By..."
 
-#: k3b.cpp:276
+#: k3b.cpp:277
 msgid "&Clear Project"
 msgstr "Maak Projek Skoon"
 
-#: k3b.cpp:279
+#: k3b.cpp:280
 msgid "Show Directories"
 msgstr "Vertoon Gidse"
 
-#: k3b.cpp:282
+#: k3b.cpp:283
 msgid "Show Contents"
 msgstr "Vertoon Inhoud"
 
-#: k3b.cpp:285
+#: k3b.cpp:286
 msgid "Show Document Header"
 msgstr "Vertoon Dokument Opskrif"
 
-#: k3b.cpp:288
+#: k3b.cpp:289
 msgid "&Erase CD-RW..."
 msgstr "Vee CD-RW Uit..."
 
-#: k3b.cpp:290
+#: k3b.cpp:291
 msgid "&Format DVD%1RW..."
 msgstr "Formateer DVD%1RW..."
 
-#: k3b.cpp:292
+#: k3b.cpp:293
 msgid "&Burn CD Image..."
 msgstr "Brand CD ISO Lêer..."
 
-#: k3b.cpp:294
+#: k3b.cpp:295
 msgid "&Burn DVD ISO Image..."
 msgstr "Brand DVD ISO Lêer..."
 
-#: k3b.cpp:297
+#: k3b.cpp:298
 msgid "&Copy CD..."
 msgstr "Kopiëer CD..."
 
-#: k3b.cpp:300
+#: k3b.cpp:301
 msgid "Copy &DVD..."
 msgstr "Kopiëer DVD..."
 
-#: k3b.cpp:303
+#: k3b.cpp:304
 msgid "Rip Audio CD..."
 msgstr "Kopiëer Oudio CD..."
 
-#: k3b.cpp:305
+#: k3b.cpp:306
 msgid "Rip Video DVD..."
 msgstr "Kopiëer Video DVD..."
 
-#: k3b.cpp:307
+#: k3b.cpp:308
 msgid "Rip Video CD..."
 msgstr "Kopiëer Video CD..."
 
-#: k3b.cpp:310
+#: k3b.cpp:311
 msgid "System Check"
 msgstr "Stelsel Inspeksie"
 
-#: k3b.cpp:314
+#: k3b.cpp:315
 msgid "&Setup System Permissions..."
 msgstr "Stel stelsel regte op..."
 
-#: k3b.cpp:324
+#: k3b.cpp:325
 msgid "Creates a new project"
 msgstr "Skep 'n nuwe projek"
 
-#: k3b.cpp:325
+#: k3b.cpp:326
 msgid "Creates a new data CD project"
 msgstr "Skep 'n nuwe data CD projek"
 
-#: k3b.cpp:326
+#: k3b.cpp:327
 msgid "Creates a new audio CD project"
 msgstr "Skep 'n nuwe oudio CD projek"
 
-#: k3b.cpp:327
+#: k3b.cpp:328
 msgid "Creates a new eMovix DVD project"
 msgstr "Skep 'n nuwe eMovix DVD projek"
 
-#: k3b.cpp:328
+#: k3b.cpp:329
 msgid "Creates a new data DVD project"
 msgstr "Skep 'n nuwe data DVD projek"
 
-#: k3b.cpp:329
+#: k3b.cpp:330
 msgid "Creates a new eMovix CD project"
 msgstr "Skep 'n nuwe eMovix CD projek"
 
-#: k3b.cpp:330
+#: k3b.cpp:331
 msgid "Creates a new Video CD project"
 msgstr "Skep 'n nuwe Vido CD projek"
 
-#: k3b.cpp:331
+#: k3b.cpp:332
 msgid "Open the CD-RW erasing dialog"
 msgstr "Maak die CD-RW uitvee dialoog oop"
 
-#: k3b.cpp:332
+#: k3b.cpp:333
 msgid "Open the DVD%1RW formatting dialog"
 msgstr "Maak die DVD%1RW formateer dialoog oop"
 
-#: k3b.cpp:333
+#: k3b.cpp:334
 msgid "Open the CD copy dialog"
 msgstr "Maak die CD kopiëer dialoog oop"
 
-#: k3b.cpp:334
+#: k3b.cpp:335
 #, fuzzy
 msgid "Write an Iso9660, cue/bin, or cdrecord clone image to CD"
 msgstr "Skryf 'n ISO9660, cue/bin of cdrecord clone beeld"
 
-#: k3b.cpp:335
+#: k3b.cpp:336
 #, fuzzy
 msgid "Write an Iso9660 image to DVD"
 msgstr "Skryf 'n DVD ISO9660 beeld lêer na 'n DVD"
 
-#: k3b.cpp:337
+#: k3b.cpp:338
 msgid "Opens an existing project"
 msgstr "Maak 'n bestaande projek oop"
 
-#: k3b.cpp:338
+#: k3b.cpp:339
 msgid "Opens a recently used file"
 msgstr "Maak 'n onlangs gebruikte lêer oop"
 
-#: k3b.cpp:339
+#: k3b.cpp:340
 msgid "Saves the current project"
 msgstr "Stoor die huidige projek"
 
-#: k3b.cpp:340
+#: k3b.cpp:341
 msgid "Saves the current project to a new url"
 msgstr "Stoor die huidige projek by 'n nuwe URL"
 
-#: k3b.cpp:341
+#: k3b.cpp:342
 msgid "Saves all open projects"
 msgstr "Stoor al die oop projekte"
 
-#: k3b.cpp:342
+#: k3b.cpp:343
 msgid "Closes the current project"
 msgstr "Maak die huidige projek toe"
 
-#: k3b.cpp:343
+#: k3b.cpp:344
 msgid "Closes all open projects"
 msgstr "Maak al die oop projekte toe"
 
-#: k3b.cpp:344
+#: k3b.cpp:345
 msgid "Quits the application"
 msgstr "Verlaat die program"
 
-#: k3b.cpp:345
+#: k3b.cpp:346
 msgid "Configure K3b settings"
 msgstr "Stel K3b op"
 
-#: k3b.cpp:347
+#: k3b.cpp:348
 msgid "Setup the system permissions (requires root privileges)"
 msgstr "Stel die stelsel regte op. Root-gebruiker voorregte is nodig."
 
-#: k3b.cpp:349
+#: k3b.cpp:350
 msgid "Digitally extract tracks from an audio CD"
 msgstr "Onttrek snitte in digitale vorm vanaf 'n oudio CD"
 
-#: k3b.cpp:350
+#: k3b.cpp:351
 msgid "Transcode Video DVD titles"
 msgstr "Transkodeer Video DVD titels"
 
-#: k3b.cpp:351
+#: k3b.cpp:352
 msgid "Extract tracks from a Video CD"
 msgstr "Onttrek snitte vanaf 'n Video CD"
 
-#: k3b.cpp:352
+#: k3b.cpp:353
 msgid "Add files to the current project"
 msgstr "Voeg lêers by die huidige projek"
 
-#: k3b.cpp:353
+#: k3b.cpp:354
 msgid "Clear the current project"
 msgstr "Maak die huidige projek skoon"
 
-#: k3b.cpp:382
+#: k3b.cpp:383
 msgid "Project View"
 msgstr "Projek Besigtiging"
 
-#: k3b.cpp:399
+#: k3b.cpp:400
 msgid "Current Projects"
 msgstr "Huidige Projekte"
 
-#: k3b.cpp:413
+#: k3b.cpp:414
 msgid "Quickstart"
 msgstr "Vinnige begin"
 
-#: k3b.cpp:421
+#: k3b.cpp:422
 msgid "Sidepanel"
 msgstr "Kant paneel"
 
-#: k3b.cpp:435
+#: k3b.cpp:436
 msgid "Contents View"
 msgstr "Inhoud Besigtiging"
 
-#: k3b.cpp:454
+#: k3b.cpp:455
 msgid "&Quick Dir Selector"
 msgstr "Vinnige Gids Kieser"
 
-#: k3b.cpp:458
+#: k3b.cpp:459
 msgid "Go"
 msgstr "Gaan"
 
-#: k3b.cpp:530 k3b.cpp:835 k3b.cpp:849
+#: k3b.cpp:531 k3b.cpp:836 k3b.cpp:850
 msgid "Opening file..."
 msgstr "Besig om lêer oop te maak"
 
-#: k3b.cpp:555
+#: k3b.cpp:556
 msgid "Could not open document!"
 msgstr "Kon nie die dokument oop maak nie!"
 
-#: k3b.cpp:555
+#: k3b.cpp:556
 msgid "Error!"
 msgstr "Fout!"
 
-#: k3b.cpp:804
+#: k3b.cpp:805
 msgid "%1 has unsaved data."
 msgstr "%1 het ongestoorde data."
 
-#: k3b.cpp:805
+#: k3b.cpp:806
 msgid "Closing Project"
 msgstr "Besig om projek toe te maak"
 
-#: k3b.cpp:838 k3b.cpp:905
+#: k3b.cpp:839 k3b.cpp:906
 msgid "*.k3b|K3b Projects"
 msgstr "*.k3b|K3b Projekte"
 
-#: k3b.cpp:840
+#: k3b.cpp:841
 msgid "Open Files"
 msgstr "Maak Lêers Oop"
 
-#: k3b.cpp:873
+#: k3b.cpp:874
 msgid "Saving file..."
 msgstr "Besig om lêer te stoor..."
 
-#: k3b.cpp:882 k3b.cpp:923
+#: k3b.cpp:883 k3b.cpp:924
 msgid "Could not save the current document!"
 msgstr "Kon nie die huidige dokument stoor nie!"
 
-#: k3b.cpp:882 k3b.cpp:923
+#: k3b.cpp:883 k3b.cpp:924
 msgid "I/O Error"
 msgstr "I/O fout"
 
-#: k3b.cpp:897
+#: k3b.cpp:898
 msgid "Saving file with a new filename..."
 msgstr "Stoor die lêer met 'n nuwe lêernaam..."
 
-#: k3b.cpp:936
+#: k3b.cpp:937
 msgid "Closing file..."
 msgstr "Besig om lêer toe te maak..."
 
-#: k3b.cpp:1047
+#: k3b.cpp:1048
 msgid "Creating new Audio CD Project."
 msgstr "Skep nuwe Oudio CD Projek."
 
-#: k3b.cpp:1056
+#: k3b.cpp:1057
 msgid "Creating new Data CD Project."
 msgstr "Skep nuwe Data CD Projek."
 
-#: k3b.cpp:1066
+#: k3b.cpp:1067
 msgid "Creating new Data DVD Project."
 msgstr "Skep nuwe Data DVD Projek."
 
-#: k3b.cpp:1082
+#: k3b.cpp:1083
 msgid "Creating new VideoDVD Project."
 msgstr "Skep nuwe VideoDVD Projek."
 
-#: k3b.cpp:1092
+#: k3b.cpp:1093
 msgid "Creating new Mixed Mode CD Project."
 msgstr "Skep nuwe Gemengde Modus CD Projek."
 
-#: k3b.cpp:1101
+#: k3b.cpp:1102
 msgid "Creating new Video CD Project."
 msgstr "Skep nuwe Video CD Projek."
 
-#: k3b.cpp:1111
+#: k3b.cpp:1112
 msgid "Creating new eMovix CD Project."
 msgstr "Skep nuwe eMovix CD Projek."
 
-#: k3b.cpp:1121
+#: k3b.cpp:1122
 msgid "Creating new eMovix DVD Project."
 msgstr "Skep nuwe eMovix DVD Projek."
 
-#: k3b.cpp:1248
+#: k3b.cpp:1249
 msgid "Select Files to Add to Project"
 msgstr "Kies lêers om by projek by te voeg"
 
-#: k3b.cpp:1262
+#: k3b.cpp:1263
 msgid "Please create a project before adding files"
 msgstr "Skep asb. 'n projek voordat jy lêers byvoeg."
 
-#: k3b.cpp:1262
+#: k3b.cpp:1263
 msgid "No Active Project"
 msgstr "Geen Aktiewe Projek"
 
-#: k3b.cpp:1271
+#: k3b.cpp:1272
 msgid ""
 "Could not find kdesu to run K3bSetup with root privileges. Please run it "
 "manually as root."
@@ -3042,27 +3042,27 @@ msgstr ""
 "Kon nie kdesu vind om K3bSetup met root regte te loop nie. Laai dit asseblief "
 "self as gebruiker: root"
 
-#: k3b.cpp:1498
+#: k3b.cpp:1508
 msgid "Do you really want to clear the current project?"
 msgstr "Wil jy rêrig die huidige projek skoon maak?"
 
-#: k3b.cpp:1499
+#: k3b.cpp:1509
 msgid "Clear Project"
 msgstr "Maak Projek Skoon"
 
-#: k3b.cpp:1541
+#: k3b.cpp:1551
 msgid "Audio CD Rip"
 msgstr "Oudio CD Kopie"
 
-#: k3b.cpp:1556
+#: k3b.cpp:1566
 msgid "Video DVD Rip"
 msgstr "Video DVD kopie"
 
-#: k3b.cpp:1577
+#: k3b.cpp:1587
 msgid "Video CD Rip"
 msgstr "Video CD Kopie"
 
-#: k3b.cpp:1592
+#: k3b.cpp:1602
 msgid "Audio Output Problem"
 msgstr "Oudio Afvoer Probleem"
 
@@ -10031,10 +10031,6 @@ msgstr ""
 msgid "Welcome to K3b - The CD and DVD Kreator"
 msgstr "Welkom by K3b - Die CD en DVD Skepper"
 
-#: k3bwelcomewidget.cpp:57
-msgid "<qt align=\"center\">K3b %1 (c) 1999 - 2006 Sebastian Trüg"
-msgstr "<qt align=\"center\">K3b %1 (c) 1999 - 2006 Sebastian Trüg"
-
 #: k3bwelcomewidget.cpp:67
 msgid "Further actions..."
 msgstr "Verdere aksies..."
@@ -10529,6 +10525,9 @@ msgstr "Kies asseblief 'n oudio projek wat nie leeg is nie."
 #: ../plugins/project/audioprojectcddb/k3baudioprojectcddbplugin.cpp:140
 msgid "Cddb error"
 msgstr "CDDB fout"
+
+#~ msgid "<qt align=\"center\">K3b %1 (c) 1999 - 2006 Sebastian Trüg"
+#~ msgstr "<qt align=\"center\">K3b %1 (c) 1999 - 2006 Sebastian Trüg"
 
 #~ msgid "base_K3bMiscOptionTab"
 #~ msgstr "base_K3bMiscOptionTab"
