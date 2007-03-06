@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-03-04 08:34+0100\n"
+"POT-Creation-Date: 2007-03-06 11:47+0100\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -15,12 +15,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: flake/KoToolManager.cpp:201
+#: flake/KoToolManager.cpp:206
 #, qt-format
 msgid "Activate %1"
 msgstr ""
 
-#: flake/KoToolManager.cpp:328
+#: flake/KoToolManager.cpp:333
 #, qt-format
 msgid "Active tool: %1"
 msgstr ""
@@ -239,6 +239,14 @@ msgstr ""
 
 #: flake/commands/KoPathSegmentBreakCommand.cpp:44
 msgid "Break subpath"
+msgstr ""
+
+#: flake/KoZoomToolFactory.cpp:27
+msgid "Zoom Tool"
+msgstr ""
+
+#: flake/KoZoomToolFactory.cpp:29 kopageapp/KoPAView.cpp:147
+msgid "Zoom"
 msgstr ""
 
 #: flake/KoShapeResizeStrategy.cpp:182
@@ -2131,49 +2139,49 @@ msgstr ""
 msgid "Page Preview"
 msgstr "Bladsy Voorskou"
 
-#: kofficeui/KoPageLayoutDia.cpp:153 kofficeui/KoPageLayoutDia.cpp:185
+#: kofficeui/KoPageLayoutDia.cpp:153 kofficeui/KoPageLayoutDia.cpp:186
 msgid "Page Layout"
 msgstr "Bladsy Uitleg"
 
-#: kofficeui/KoPageLayoutDia.cpp:284
+#: kofficeui/KoPageLayoutDia.cpp:286
 #, fuzzy
 msgid "Page Size && &Margins"
 msgstr "Bladsy Grootte && Kantlyne"
 
-#: kofficeui/KoPageLayoutDia.cpp:312 kofficeui/KoPageLayoutDia.cpp:415
+#: kofficeui/KoPageLayoutDia.cpp:314 kofficeui/KoPageLayoutDia.cpp:417
 #, fuzzy
 msgid "H&eader && Footer"
 msgstr "Opskrif en Voetskrif"
 
-#: kofficeui/KoPageLayoutDia.cpp:317
+#: kofficeui/KoPageLayoutDia.cpp:319
 msgid "Head Line"
 msgstr "Kop Lyn"
 
 #. i18n: tag string
 #. i18n: file ./kofficeui/KoShapeGeometry.ui line 57
-#: kofficeui/KoPageLayoutDia.cpp:321 kofficeui/KoPageLayoutDia.cpp:349
+#: kofficeui/KoPageLayoutDia.cpp:323 kofficeui/KoPageLayoutDia.cpp:351
 #: rc.cpp:389
 #, no-c-format
 msgid "Left:"
 msgstr "Links:"
 
-#: kofficeui/KoPageLayoutDia.cpp:328 kofficeui/KoPageLayoutDia.cpp:356
+#: kofficeui/KoPageLayoutDia.cpp:330 kofficeui/KoPageLayoutDia.cpp:358
 msgid "Mid:"
 msgstr "Middelste:"
 
-#: kofficeui/KoPageLayoutDia.cpp:335 kofficeui/KoPageLayoutDia.cpp:363
+#: kofficeui/KoPageLayoutDia.cpp:337 kofficeui/KoPageLayoutDia.cpp:365
 msgid "Right:"
 msgstr "Regterkant:"
 
-#: kofficeui/KoPageLayoutDia.cpp:345
+#: kofficeui/KoPageLayoutDia.cpp:347
 msgid "Foot Line"
 msgstr "Voet Lyn"
 
-#: kofficeui/KoPageLayoutDia.cpp:372
+#: kofficeui/KoPageLayoutDia.cpp:374
 msgid "You can insert several tags in the text:"
 msgstr "Jy kan voeg by klomp etiket in die teks:"
 
-#: kofficeui/KoPageLayoutDia.cpp:375
+#: kofficeui/KoPageLayoutDia.cpp:377
 msgid ""
 "<qt><ul><li>&lt;sheet&gt; The sheet name</li><li>&lt;page&gt; The current "
 "page</li><li>&lt;pages&gt; The total number of pages</li><li>&lt;name&gt; "
@@ -2185,7 +2193,7 @@ msgstr ""
 "namegt; Die lêernaam of Url</li><li>&lt;filegt; Die lêernaam met volledige "
 "gids soeklys of Die Url</li></ul></qt>"
 
-#: kofficeui/KoPageLayoutDia.cpp:382
+#: kofficeui/KoPageLayoutDia.cpp:384
 msgid ""
 "<qt><ul><li>&lt;time&gt; The current time</li><li>&lt;date&gt; The current "
 "date</li><li>&lt;author&gt; Your full name</li><li>&lt;org&gt; Your "
@@ -2195,7 +2203,7 @@ msgstr ""
 "datum</li><li>&lt;authorgt; Jou volgrote naam</li><li>&lt;orggt; Jou "
 "organisasie</li><li>&lt;emailgt; Jou e-pos adres</li></ul></qt>"
 
-#: kofficeui/KoPageLayoutDia.cpp:394
+#: kofficeui/KoPageLayoutDia.cpp:396
 #, fuzzy
 msgid "Col&umns"
 msgstr "Kolomme:"
@@ -5224,6 +5232,142 @@ msgstr "Kon nie las prent."
 msgid "Unknown KOffice MimeType %s. Check your installation."
 msgstr ""
 
+#: kofficecore/KoPageFormat.cpp:59
+#, fuzzy
+msgid "ISO A3"
+msgstr "Din A3"
+
+#: kofficecore/KoPageFormat.cpp:60
+#, fuzzy
+msgid "ISO A4"
+msgstr "Din A4"
+
+#: kofficecore/KoPageFormat.cpp:61
+#, fuzzy
+msgid "ISO A5"
+msgstr "Din A5"
+
+#: kofficecore/KoPageFormat.cpp:62
+msgid "US Letter"
+msgstr "Us Brief"
+
+#: kofficecore/KoPageFormat.cpp:63
+msgid "US Legal"
+msgstr "Us Wettig"
+
+#: kofficecore/KoPageFormat.cpp:64
+msgid "Screen"
+msgstr "Skerm"
+
+#: kofficecore/KoPageFormat.cpp:65
+msgctxt "Custom size"
+msgid "Custom"
+msgstr ""
+
+#: kofficecore/KoPageFormat.cpp:66
+#, fuzzy
+msgid "ISO B5"
+msgstr "Din B5"
+
+#: kofficecore/KoPageFormat.cpp:67
+msgid "US Executive"
+msgstr "Us Uitvoerbare"
+
+#: kofficecore/KoPageFormat.cpp:68
+#, fuzzy
+msgid "ISO A0"
+msgstr "Din A0"
+
+#: kofficecore/KoPageFormat.cpp:69
+#, fuzzy
+msgid "ISO A1"
+msgstr "Din A1"
+
+#: kofficecore/KoPageFormat.cpp:70
+#, fuzzy
+msgid "ISO A2"
+msgstr "Din A2"
+
+#: kofficecore/KoPageFormat.cpp:71
+#, fuzzy
+msgid "ISO A6"
+msgstr "Din A6"
+
+#: kofficecore/KoPageFormat.cpp:72
+#, fuzzy
+msgid "ISO A7"
+msgstr "Din A7"
+
+#: kofficecore/KoPageFormat.cpp:73
+#, fuzzy
+msgid "ISO A8"
+msgstr "Din A8"
+
+#: kofficecore/KoPageFormat.cpp:74
+#, fuzzy
+msgid "ISO A9"
+msgstr "Din A9"
+
+#: kofficecore/KoPageFormat.cpp:75
+#, fuzzy
+msgid "ISO B0"
+msgstr "Din B0"
+
+#: kofficecore/KoPageFormat.cpp:76
+#, fuzzy
+msgid "ISO B1"
+msgstr "Din B1"
+
+#: kofficecore/KoPageFormat.cpp:77
+#, fuzzy
+msgid "ISO B10"
+msgstr "Din B10"
+
+#: kofficecore/KoPageFormat.cpp:78
+#, fuzzy
+msgid "ISO B2"
+msgstr "Din B2"
+
+#: kofficecore/KoPageFormat.cpp:79
+#, fuzzy
+msgid "ISO B3"
+msgstr "Din B3"
+
+#: kofficecore/KoPageFormat.cpp:80
+#, fuzzy
+msgid "ISO B4"
+msgstr "Din B4"
+
+#: kofficecore/KoPageFormat.cpp:81
+#, fuzzy
+msgid "ISO B6"
+msgstr "Din B6"
+
+#: kofficecore/KoPageFormat.cpp:82
+msgid "ISO C5"
+msgstr ""
+
+#: kofficecore/KoPageFormat.cpp:83
+msgid "US Common 10"
+msgstr ""
+
+#: kofficecore/KoPageFormat.cpp:84
+msgid "ISO DL"
+msgstr ""
+
+#: kofficecore/KoPageFormat.cpp:85
+msgid "US Folio"
+msgstr ""
+
+#: kofficecore/KoPageFormat.cpp:86
+#, fuzzy
+msgid "US Ledger"
+msgstr "Us Brief"
+
+#: kofficecore/KoPageFormat.cpp:87
+msgid "US Tabloid"
+msgstr ""
+
 #: kofficecore/KoMainWindow.cpp:234
 #, fuzzy
 msgid "Reload"
@@ -5415,142 +5559,6 @@ msgstr ""
 msgid "%1 (%2 Compatible)"
 msgstr ""
 
-#: kofficecore/KoPageLayout.cpp:116
-#, fuzzy
-msgid "ISO A3"
-msgstr "Din A3"
-
-#: kofficecore/KoPageLayout.cpp:117
-#, fuzzy
-msgid "ISO A4"
-msgstr "Din A4"
-
-#: kofficecore/KoPageLayout.cpp:118
-#, fuzzy
-msgid "ISO A5"
-msgstr "Din A5"
-
-#: kofficecore/KoPageLayout.cpp:119
-msgid "US Letter"
-msgstr "Us Brief"
-
-#: kofficecore/KoPageLayout.cpp:120
-msgid "US Legal"
-msgstr "Us Wettig"
-
-#: kofficecore/KoPageLayout.cpp:121
-msgid "Screen"
-msgstr "Skerm"
-
-#: kofficecore/KoPageLayout.cpp:122
-msgctxt "Custom size"
-msgid "Custom"
-msgstr ""
-
-#: kofficecore/KoPageLayout.cpp:123
-#, fuzzy
-msgid "ISO B5"
-msgstr "Din B5"
-
-#: kofficecore/KoPageLayout.cpp:125
-msgid "US Executive"
-msgstr "Us Uitvoerbare"
-
-#: kofficecore/KoPageLayout.cpp:126
-#, fuzzy
-msgid "ISO A0"
-msgstr "Din A0"
-
-#: kofficecore/KoPageLayout.cpp:127
-#, fuzzy
-msgid "ISO A1"
-msgstr "Din A1"
-
-#: kofficecore/KoPageLayout.cpp:128
-#, fuzzy
-msgid "ISO A2"
-msgstr "Din A2"
-
-#: kofficecore/KoPageLayout.cpp:129
-#, fuzzy
-msgid "ISO A6"
-msgstr "Din A6"
-
-#: kofficecore/KoPageLayout.cpp:130
-#, fuzzy
-msgid "ISO A7"
-msgstr "Din A7"
-
-#: kofficecore/KoPageLayout.cpp:131
-#, fuzzy
-msgid "ISO A8"
-msgstr "Din A8"
-
-#: kofficecore/KoPageLayout.cpp:132
-#, fuzzy
-msgid "ISO A9"
-msgstr "Din A9"
-
-#: kofficecore/KoPageLayout.cpp:133
-#, fuzzy
-msgid "ISO B0"
-msgstr "Din B0"
-
-#: kofficecore/KoPageLayout.cpp:134
-#, fuzzy
-msgid "ISO B1"
-msgstr "Din B1"
-
-#: kofficecore/KoPageLayout.cpp:135
-#, fuzzy
-msgid "ISO B10"
-msgstr "Din B10"
-
-#: kofficecore/KoPageLayout.cpp:136
-#, fuzzy
-msgid "ISO B2"
-msgstr "Din B2"
-
-#: kofficecore/KoPageLayout.cpp:137
-#, fuzzy
-msgid "ISO B3"
-msgstr "Din B3"
-
-#: kofficecore/KoPageLayout.cpp:138
-#, fuzzy
-msgid "ISO B4"
-msgstr "Din B4"
-
-#: kofficecore/KoPageLayout.cpp:139
-#, fuzzy
-msgid "ISO B6"
-msgstr "Din B6"
-
-#: kofficecore/KoPageLayout.cpp:140
-msgid "ISO C5"
-msgstr ""
-
-#: kofficecore/KoPageLayout.cpp:141
-msgid "US Common 10"
-msgstr ""
-
-#: kofficecore/KoPageLayout.cpp:142
-msgid "ISO DL"
-msgstr ""
-
-#: kofficecore/KoPageLayout.cpp:143
-msgid "US Folio"
-msgstr ""
-
-#: kofficecore/KoPageLayout.cpp:144
-#, fuzzy
-msgid "US Ledger"
-msgstr "Us Brief"
-
-#: kofficecore/KoPageLayout.cpp:145
-msgid "US Tabloid"
-msgstr ""
-
 #: kofficecore/KoDocumentInfo.cpp:50
 msgid "Unknown"
 msgstr ""
@@ -5650,10 +5658,6 @@ msgstr ""
 
 #: kopageapp/KoPAView.cpp:142
 msgid "Show/hide the view's rulers"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:147
-msgid "Zoom"
 msgstr ""
 
 #: kopainter/KoUniColorChooser.cpp:113

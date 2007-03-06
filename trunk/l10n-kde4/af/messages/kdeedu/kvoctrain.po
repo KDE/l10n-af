@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-03-04 08:33+0100\n"
+"POT-Creation-Date: 2007-03-06 11:46+0100\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -363,9 +363,15 @@ msgstr ""
 msgid "Deleting Tense Description"
 msgstr "Uitveeïng 'n Tipe Beskrywing"
 
+#: kvttablemodel.cpp:130 kvttablemodel.cpp:133 kvttablemodel.cpp:135
+#: kvttablemodel.cpp:140
+#, fuzzy
+msgid "Default lesson"
+msgstr "Uitveeïng 'n Tipe Beskrywing"
+
 #. i18n: tag string
 #. i18n: file ./statistics-dialogs/StatisticsPageForm.ui line 72
-#: kvttablemodel.cpp:176 rc.cpp:1570
+#: kvttablemodel.cpp:197 rc.cpp:1570 kvtlessonmodel.cpp:61
 #, no-c-format
 msgid "Lesson"
 msgstr ""
@@ -4792,19 +4798,40 @@ msgstr "Vertoon algemeen opsies dialoog"
 msgid "Toggle display of the toolbars"
 msgstr ""
 
-#: kva_init.cpp:395
+#: kva_init.cpp:400
+msgid ""
+"Double click to rename a lesson. With the checkboxes you can select which "
+"lessons you want to be tested. Only checked lessons [x] will be asked!"
+msgstr ""
+
+#: kva_init.cpp:405
+msgid "Edit current lesson"
+msgstr ""
+
+#: kva_init.cpp:406
+msgid "Edit lessons in test"
+msgstr ""
+
+#: kva_init.cpp:407
+#, fuzzy
+msgid "Edit all lessons"
+msgstr "persoon"
+
+#: kva_init.cpp:408
+msgid "Here you select which lessons you want to edit on the right."
+msgstr ""
+
+#: kva_init.cpp:410 kvtlessonview.cpp:47 kvtlessonview.cpp:51
+#: kvtlessonview.cpp:57
 #, fuzzy
 msgid "New lesson"
 msgstr "<no lesson>"
 
-#: kvtlessonmodel.cpp:35
-#, fuzzy
-msgid "All Lessons"
-msgstr "persoon"
-
-#: kvtlessonmodel.cpp:36
-msgid "<no lesson>"
-msgstr "<no lesson>"
+#: kva_init.cpp:411
+msgid ""
+"Click here to create a new lesson. You can then type its name directly in "
+"the list."
+msgstr ""
 
 #: query-dialogs/RandomQueryDlg.cpp:142
 msgid "Random Query"
@@ -4934,6 +4961,9 @@ msgid ""
 "td><td>%10</td></tr><tr><td>%11</td><td>%12</td></tr><tr><td>%13</td><td>%"
 "14</td></tr><tr><td>%15</td><td>%16</td></tr></table></html>"
 msgstr ""
+
+#~ msgid "<no lesson>"
+#~ msgstr "<no lesson>"
 
 #~ msgid "Original &expression in %1:"
 #~ msgstr "Oorspronklike uitdrukking in %1:"
