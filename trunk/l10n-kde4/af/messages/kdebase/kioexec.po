@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kioexec stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2006-04-15 09:22+0200\n"
+"POT-Creation-Date: 2007-03-14 07:00+0100\n"
 "PO-Revision-Date: 2005-11-25 11:29+0200\n"
 "Last-Translator: J Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -14,16 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "WEB-Vertaler (http://kde.af.org.za) Juanita Franz "
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "frix@expertron.co.za juanita.franz@vr-web.de "
 
 #: main.cpp:46
 msgid "KIO Exec - Opens remote files, watches modifications, asks for upload"
@@ -35,69 +25,91 @@ msgid "Treat URLs as local files and delete them afterwards"
 msgstr "Behandel URLs as lokale lêers en verwyder hulle agterna"
 
 #: main.cpp:51
+msgid "Suggested file name for the downloaded file"
+msgstr ""
+
+#: main.cpp:52
 msgid "Command to execute"
 msgstr "Opdrag om uit te voer"
 
-#: main.cpp:52
+#: main.cpp:53
 msgid "URL(s) or local file(s) used for 'command'"
 msgstr "Url(s) of plaaslike lêer gebruik vir 'opdrag'"
 
-#: main.cpp:61
+#: main.cpp:62
 msgid "'command' expected.\n"
 msgstr "'opdrag' verwag.\n"
 
-#: main.cpp:218 main.cpp:225
+#: main.cpp:91
+#, qt-format
+msgid ""
+"The URL %1\n"
+"is malformed"
+msgstr ""
+"Die Url %1\n"
+"is misformde"
+
+#: main.cpp:93
+#, qt-format
+msgid ""
+"Remote URL %1\n"
+"not allowed with --tempfiles switch"
+msgstr ""
+"Verwyder afgeleë URL %1\n"
+"nie toegelaat met --tydelike lêer skakel"
+
+#: main.cpp:222
+#, qt-format
+msgid ""
+"The supposedly temporary file\n"
+"%1\n"
+"has been modified.\n"
+"Do you still want to delete it?"
+msgstr ""
+"Die veronderstel tydelike lêer\n"
+"%1\n"
+"is veranderd.\n"
+"Wil jy nogsteeds dit verwyder?"
+
+#: main.cpp:223 main.cpp:230
 msgid "File Changed"
 msgstr "Lêer het verander"
 
-#: main.cpp:218
+#: main.cpp:223
 msgid "Do Not Delete"
 msgstr "Moenie verwyder nie"
 
-#: main.cpp:225
+#: main.cpp:229
+#, qt-format
+msgid ""
+"The file\n"
+"%1\n"
+"has been modified.\n"
+"Do you want to upload the changes?"
+msgstr ""
+"Die lêer\n"
+"%1\n"
+"het al veranderde.\n"
+"Doen jy wil hê na oplaai Die verander?"
+
+#: main.cpp:230
 msgid "Upload"
 msgstr "Oplaai"
 
-#: main.cpp:225
+#: main.cpp:230
 msgid "Do Not Upload"
 msgstr "Moenie Oplaai nie"
 
-#: main.cpp:251
+#: main.cpp:253
 msgid "KIOExec"
 msgstr "KIOExec"
 
-#~ msgid ""
-#~ "The URL %1\n"
-#~ "is malformed"
-#~ msgstr ""
-#~ "Die Url %1\n"
-#~ "is misformde"
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "WEB-Vertaler (http://kde.af.org.za) Juanita Franz "
 
-#~ msgid ""
-#~ "Remote URL %1\n"
-#~ "not allowed with --tempfiles switch"
-#~ msgstr ""
-#~ "Verwyder afgeleë URL %1\n"
-#~ "nie toegelaat met --tydelike lêer skakel"
-
-#~ msgid ""
-#~ "The supposedly temporary file\n"
-#~ "%1\n"
-#~ "has been modified.\n"
-#~ "Do you still want to delete it?"
-#~ msgstr ""
-#~ "Die veronderstel tydelike lêer\n"
-#~ "%1\n"
-#~ "is veranderd.\n"
-#~ "Wil jy nogsteeds dit verwyder?"
-
-#~ msgid ""
-#~ "The file\n"
-#~ "%1\n"
-#~ "has been modified.\n"
-#~ "Do you want to upload the changes?"
-#~ msgstr ""
-#~ "Die lêer\n"
-#~ "%1\n"
-#~ "het al veranderde.\n"
-#~ "Doen jy wil hê na oplaai Die verander?"
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "frix@expertron.co.za juanita.franz@vr-web.de "
