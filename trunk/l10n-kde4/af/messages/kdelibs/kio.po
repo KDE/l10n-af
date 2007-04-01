@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-03-31 21:43+0200\n"
+"POT-Creation-Date: 2007-04-01 05:35+0200\n"
 "PO-Revision-Date: 2005-11-25 05:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -3148,9 +3148,9 @@ msgstr "Ligging:"
 #: kfile/kurlrequesterdialog.cpp:120 kfile/kicondialog.cpp:563
 #: kfile/kencodingfiledialog.cpp:101 kfile/kencodingfiledialog.cpp:119
 #: kfile/kencodingfiledialog.cpp:134 kfile/kencodingfiledialog.cpp:152
-#: kfile/kfiledialog.cpp:1287 kfile/kfiledialog.cpp:1311
-#: kfile/kfiledialog.cpp:1327 kfile/kfiledialog.cpp:1341
-#: kfile/kfiledialog.cpp:1357 kfile/kfiledialog.cpp:1397
+#: kfile/kfiledialog.cpp:211 kfile/kfiledialog.cpp:235
+#: kfile/kfiledialog.cpp:251 kfile/kfiledialog.cpp:265
+#: kfile/kfiledialog.cpp:281 kfile/kfiledialog.cpp:321
 #, fuzzy
 msgid "Open"
 msgstr "Open"
@@ -3175,7 +3175,7 @@ msgstr "Dokumente"
 msgid "Your personal documents folder"
 msgstr ""
 
-#: kfile/kfilespeedbar.cpp:60 kfile/kdiroperator.cpp:1274
+#: kfile/kfilespeedbar.cpp:60 kfile/kdiroperator.cpp:1275
 msgid "Home Folder"
 msgstr "Tuis Gids"
 
@@ -3211,7 +3211,7 @@ msgstr ""
 msgid "Menu Editor"
 msgstr "Kieslys Redigeerder"
 
-#: kfile/kcustommenueditor.cpp:99 kfile/kdiroperator.cpp:1263
+#: kfile/kcustommenueditor.cpp:99 kfile/kdiroperator.cpp:1264
 msgid "Menu"
 msgstr "Kieslys"
 
@@ -3234,8 +3234,8 @@ msgstr "Beweeg Begin"
 msgid "Move Down"
 msgstr "Beweeg Ondertoe"
 
-#: kfile/k3filedetailview.cpp:63 kfile/kdiroperator.cpp:922
-#: kfile/kdiroperator.cpp:1345
+#: kfile/k3filedetailview.cpp:63 kfile/kdiroperator.cpp:923
+#: kfile/kdiroperator.cpp:1346
 msgid "Detailed View"
 msgstr "Gedetaileerde Aansig"
 
@@ -3243,7 +3243,7 @@ msgstr "Gedetaileerde Aansig"
 msgid "Date"
 msgstr "Datum"
 
-#: kfile/kfilefiltercombo.cpp:33 kfile/kfiledialog.cpp:1652
+#: kfile/kfilefiltercombo.cpp:33 kfile/kfilewidget.cpp:1432
 msgid "*|All Files"
 msgstr "*|Alle Lêers"
 
@@ -3349,6 +3349,286 @@ msgstr "Voorskou"
 msgid "No preview available."
 msgstr "Geen voorskou beskikbaar."
 
+#: kfile/kfilewidget.cpp:184
+msgid ""
+"<p>While typing in the text area, you may be presented with possible "
+"matches. This feature can be controlled by clicking with the right mouse "
+"button and selecting a preferred mode from the <b>Text Completion</b> menu."
+msgstr ""
+"<p>Terwyl jy in die teks area tik, kan die masjien moontlik ooreenstemmende "
+"iteme voorlê. Hierdie eienskap kan beheer word deur die regter muis knoppie "
+"te kliek en die modus te verander in die <b>Teks Voltooiïng</b> kieslys."
+
+#: kfile/kfilewidget.cpp:223
+msgid "Current location"
+msgstr "Huidige liggings"
+
+#: kfile/kfilewidget.cpp:224
+msgid ""
+"This is the currently listed location. The drop-down list also lists "
+"commonly used locations. This includes standard locations, such as your home "
+"folder, as well as locations that have been visited recently."
+msgstr ""
+"Hierdie is die huidige gelyste liggings. Die laatval-af lys lys ook "
+"gewoonlik gebruikte liggings. Dit sluit in standaard liggings, soos jou "
+"huisgids, asook onlangs besoekte liggings in."
+
+#: kfile/kfilewidget.cpp:234
+#, fuzzy, qt-format
+msgid "Drive: %1"
+msgstr "grootte %1"
+
+#: kfile/kfilewidget.cpp:241
+#, qt-format
+msgid "Root Folder: %1"
+msgstr "Root Gids: %1"
+
+#: kfile/kfilewidget.cpp:248
+#, qt-format
+msgid "Home Folder: %1"
+msgstr "Tuis Gids: %1"
+
+#: kfile/kfilewidget.cpp:257
+#, qt-format
+msgid "Documents: %1"
+msgstr "Dokumente: %1"
+
+#: kfile/kfilewidget.cpp:264
+#, qt-format
+msgid "Desktop: %1"
+msgstr "Werkskerm: %1"
+
+#: kfile/kfilewidget.cpp:306
+#, qt-format
+msgid ""
+"<qt>Click this button to enter the parent folder.<p>For instance, if the "
+"current location is file:/home/%1 clicking this button will take you to "
+"file:/home.</qt>"
+msgstr ""
+"<qt>Kliek hierdie knoppie om in die ouer gids in te gaan.<p>Byvoorbeeld, as "
+"jou huidige ligging lêer:/huis/%1 is, sal jy na lêer:/huis geneem word "
+"wanneer jy die knoppie druk.</qt>"
+
+#: kfile/kfilewidget.cpp:310
+msgid "Click this button to move backwards one step in the browsing history."
+msgstr ""
+"Kliek hierdie knoppie na beweeg terugwaarts een step in die blaaiïng "
+"geskiedenis."
+
+#: kfile/kfilewidget.cpp:312
+msgid "Click this button to move forward one step in the browsing history."
+msgstr ""
+"Kliek hierdie knoppie na beweeg vorentoe een step in die blaaiïng "
+"geskiedenis."
+
+#: kfile/kfilewidget.cpp:314
+msgid "Click this button to reload the contents of the current location."
+msgstr "Kliek hierdie knoppie na herlaai die inhoud van die huidige ligging."
+
+#: kfile/kfilewidget.cpp:317
+msgid "Click this button to create a new folder."
+msgstr "Kliek op hierdie knoppie om 'n nuwe gids te skep."
+
+#: kfile/kfilewidget.cpp:320
+msgid "Show Quick Access Navigation Panel"
+msgstr "Vertoon Vinnige Toegang verkry Navigering Paneel"
+
+#: kfile/kfilewidget.cpp:323
+msgid "Hide Quick Access Navigation Panel"
+msgstr "Steek Vinnige Toegang Navigasie Paneel weg"
+
+#: kfile/kfilewidget.cpp:328
+msgid "Show Bookmarks"
+msgstr "Vertoon Boekmerke"
+
+#: kfile/kfilewidget.cpp:330
+msgid "Hide Bookmarks"
+msgstr "Steek Boekmerk weg"
+
+#: kfile/kfilewidget.cpp:334
+#, fuzzy
+msgid "Configure"
+msgstr "Gaan voort"
+
+#: kfile/kfilewidget.cpp:336
+msgid ""
+"<qt>This is the configuration menu for the file dialog. Various options can "
+"be accessed from this menu including: <ul><li>how files are sorted in the "
+"list</li><li>types of view, including icon and list</li><li>showing of "
+"hidden files</li><li>the Quick Access navigation panel</li><li>file "
+"previews</li><li>separating folders from files</li></ul></qt>"
+msgstr ""
+"<qt>Hierdie is die opstel kieslys vir die lêer dialoog. Verskeie opsies kan "
+"van hier af gestel word, insluitend: <ul><li>hoe lêers in die lys gesorteer "
+"word</li><li>tipes vertoon aansigte, insluitend ikoon en lys</li><li>vertoon "
+"van weg gesteekte lêers</li><li>die Vinnige Toegang navigesie paneel</"
+"li><li>lêer voorskoue</li><li>skei van lêer en gids name</li></ul></qt>"
+
+#: kfile/kfilewidget.cpp:387
+msgid "&Location:"
+msgstr "Ligging:"
+
+#: kfile/kfilewidget.cpp:412
+msgid ""
+"<qt>This is the filter to apply to the file list. File names that do not "
+"match the filter will not be shown.<p>You may select from one of the preset "
+"filters in the drop down menu, or you may enter a custom filter directly "
+"into the text area.<p>Wildcards such as * and ? are allowed.</qt>"
+msgstr ""
+"<qt>Hierdie is die filter na wend aan na die lêer lys. lêer name wat doen "
+"nie ooreenstem die filter sal nie wees vertoon.<p>Jy dalk mag kies van een "
+"van die vooraf stel filters in die laat val ondertoe kieslys, of Jy dalk mag "
+"invoer 'n pasmaak filter direk binnein die teks area.<p>Willekeurige "
+"karakters soos as * en ? word toegelaat.</qt>"
+
+#: kfile/kfilewidget.cpp:418
+msgid "&Filter:"
+msgstr "Filter:"
+
+#: kfile/kfilewidget.cpp:583
+msgid "Please specify the filename to save to."
+msgstr "Spesifiseer asseblief die lêernaam om in te stoor."
+
+#: kfile/kfilewidget.cpp:585
+msgid "Please select the file to open."
+msgstr "Kies asseblief die lêer om oop te maak"
+
+#: kfile/kfilewidget.cpp:642 kfile/kfilewidget.cpp:685
+#: kfile/kfilewidget.cpp:1377
+msgid "You can only select local files."
+msgstr "Jy kan slegs kies plaaslike lêers."
+
+#: kfile/kfilewidget.cpp:643 kfile/kfilewidget.cpp:686
+#: kfile/kfilewidget.cpp:1378
+msgid "Remote Files Not Accepted"
+msgstr "Afgeleë Lêers word nie aanvaar nie"
+
+#: kfile/kfilewidget.cpp:677
+#, qt-format
+msgid ""
+"%1\n"
+"does not appear to be a valid URL.\n"
+msgstr ""
+"%1\n"
+"doen nie verskyn na wees 'n geldige Url.\n"
+
+#: kfile/kfilewidget.cpp:677
+msgid "Invalid URL"
+msgstr "Ongeldige Url"
+
+#: kfile/kfilewidget.cpp:998
+msgid "This is the name to save the file as."
+msgstr "Hierdie is die naam waarin die lêer gestoor gaan word."
+
+#: kfile/kfilewidget.cpp:1003
+msgid ""
+"This is the list of files to open. More than one file can be specified by "
+"listing several files, separated by spaces."
+msgstr ""
+"Hierdie is die lys van lêers om oop te maak. Meer as een lêer kan "
+"gespesifiseer word, geskei deur spasies."
+
+#: kfile/kfilewidget.cpp:1010
+msgid "This is the name of the file to open."
+msgstr "Hierdie is die naam van die lêer om oop te maak."
+
+#: kfile/kfilewidget.cpp:1309
+msgid ""
+"The chosen filenames do not\n"
+"appear to be valid."
+msgstr ""
+"Die gekiesde lêername blyk nie\n"
+"geldig te wees nie."
+
+#: kfile/kfilewidget.cpp:1311
+msgid "Invalid Filenames"
+msgstr "Ongeldige Lêername"
+
+#: kfile/kfilewidget.cpp:1340
+#, qt-format
+msgid ""
+"The requested filenames\n"
+"%1\n"
+"do not appear to be valid;\n"
+"make sure every filename is enclosed in double quotes."
+msgstr ""
+"Die versoekte lêername\n"
+"%1\n"
+"blyk nie geldig te wees nie;\n"
+"Maak seker elke lêernaam is omsluit in dubbel aanhalings."
+
+#: kfile/kfilewidget.cpp:1344
+msgid "Filename Error"
+msgstr "Lêernaam Fout"
+
+#: kfile/kfilewidget.cpp:1429
+msgid "*|All Folders"
+msgstr "*|Alle Gidse"
+
+#: kfile/kfilewidget.cpp:1700
+#, qt-format
+msgid "Automatically select filename e&xtension (%1)"
+msgstr "Kies die lêernaam uitbreiding (%1) outomaties"
+
+#: kfile/kfilewidget.cpp:1701
+#, qt-format
+msgid "the extension <b>%1</b>"
+msgstr "die uitbreiding <b>%1</b>"
+
+#: kfile/kfilewidget.cpp:1709
+msgid "Automatically select filename e&xtension"
+msgstr "Kies lêernaam uitbreiding outomaties"
+
+#: kfile/kfilewidget.cpp:1710
+msgid "a suitable extension"
+msgstr "'n geldige uitbreiding"
+
+#: kfile/kfilewidget.cpp:1720
+#, qt-format
+msgid ""
+"This option enables some convenient features for saving files with "
+"extensions:<br><ol><li>Any extension specified in the <b>%1</b> text area "
+"will be updated if you change the file type to save in.<br><br></li><li>If "
+"no extension is specified in the <b>%2</b> text area when you click <b>Save</"
+"b>, %3 will be added to the end of the filename (if the filename does not "
+"already exist). This extension is based on the file type that you have "
+"chosen to save in.<br><br>If you do not want KDE to supply an extension for "
+"the filename, you can either turn this option off or you can suppress it by "
+"adding a period (.) to the end of the filename (the period will be "
+"automatically removed).</li></ol>If unsure, keep this option enabled as it "
+"makes your files more manageable."
+msgstr ""
+"Hierdie opsie aktiveer nuttige eienskappe m.b.t die stoor van lêers met "
+"uitbreidings:<br><ol><li>Enige uitbreiding wat in die <b>%1</b> teks area "
+"gespesifiseer is sal opgedateer word as jy die tipe verander waarin die lêer "
+"gestoor moet word.<br><br></li><li>As <b>Stoor</b> gekliek word en geen "
+"uitbreiding in die <b>%2</b> teks area gespesifiseer nie, sal %3 agter aan "
+"die naam gevoeg word (Net as die lêernaam nog nie bestaan nie). Hierdie "
+"uitbreiding is gebaseer op die lêer tipe wat jy gekies het om in te stoor."
+"<br><br>Hierdie opsie kan af gesit word as jy nie wil hê dat KDE 'n "
+"uitbreiding moet verskaf nie. Alternatiewelik kan jy 'n punt (.) aan die "
+"einde van die lêernaam sit (Die punt sal outomaties verwyder word).</li></"
+"ol>As jy onseker is, hou hierdie opsie aktief, want dit maak die bestuur van "
+"lêername makliker."
+
+#: kfile/kfilewidget.cpp:1986 bookmarks/kbookmarkimporter_ns.cc:198
+#: bookmarks/kbookmarkimporter_ns.cc:199 bookmarks/kbookmarkmenu.cc:681
+#, fuzzy
+msgid "Bookmarks"
+msgstr "Boekmerk"
+
+#: kfile/kfilewidget.cpp:1989
+msgid ""
+"<qt>This button allows you to bookmark specific locations. Click on this "
+"button to open the bookmark menu where you may add, edit or select a "
+"bookmark.<p>These bookmarks are specific to the file dialog, but otherwise "
+"operate like bookmarks elsewhere in KDE.</qt>"
+msgstr ""
+"<qt>Hierdie knoppie laat toe jy na boekmerk spesifieke liggings. Kliek op "
+"Hierdie knoppie na open die boekmerk kieslys waar jy dalk mag voeg by, "
+"redigeer of kies 'n boekmerk.<p>Hierdie boekmerke word spesifieke na die "
+"lêer dialoog, maar andersins werk hou van boekmerke erens anders in Kde.</qt>"
+
 #: kfile/kacleditwidget.cpp:65 kfile/kacleditwidget.cpp:433
 msgid "Owning Group"
 msgstr "Besitter Groep"
@@ -3434,7 +3714,7 @@ msgid "Select Folder"
 msgstr "Kies Gids"
 
 #: kfile/kdirselectdialog.cpp:102 kfile/kdirselectdialog.cpp:139
-#: kfile/kdiroperator.cpp:1285
+#: kfile/kdiroperator.cpp:1286
 msgid "New Folder..."
 msgstr "Nuwe Gids..."
 
@@ -3447,11 +3727,11 @@ msgid "Show Hidden Folders"
 msgstr "Vertoon weg gesteekte gidse"
 
 #: kfile/kdirselectdialog.cpp:427 kfile/kdirselectdialog.cpp:431
-#: kfile/kdiroperator.cpp:397 kfile/kdiroperator.cpp:405
+#: kfile/kdiroperator.cpp:398 kfile/kdiroperator.cpp:406
 msgid "New Folder"
 msgstr "Nuwe Gids"
 
-#: kfile/kdirselectdialog.cpp:432 kfile/kdiroperator.cpp:406
+#: kfile/kdirselectdialog.cpp:432 kfile/kdiroperator.cpp:407
 #, qt-format
 msgid ""
 "Create new folder in:\n"
@@ -3460,300 +3740,20 @@ msgstr ""
 "Skep nuwe gids in:\n"
 "%1"
 
-#: kfile/kdirselectdialog.cpp:455 kfile/kdiroperator.cpp:434
+#: kfile/kdirselectdialog.cpp:455 kfile/kdiroperator.cpp:435
 #, qt-format
 msgid "A file or folder named %1 already exists."
 msgstr "'n Lêer of gids met die naam: %1 bestaan alreeds."
 
-#: kfile/kdirselectdialog.cpp:459 kfile/kdiroperator.cpp:438
+#: kfile/kdirselectdialog.cpp:459 kfile/kdiroperator.cpp:439
 msgid "You do not have permission to create that folder."
 msgstr "Jy het nie die regte om hieride gids te skep nie."
 
 #: kfile/kencodingfiledialog.cpp:173 kfile/kencodingfiledialog.cpp:198
-#: kfile/kfiledialog.cpp:1569 kfile/kfiledialog.cpp:1602
-#: kfile/kfiledialog.cpp:1621
+#: kfile/kfiledialog.cpp:370 kfile/kfiledialog.cpp:403
+#: kfile/kfiledialog.cpp:422
 msgid "Save As"
 msgstr ""
-
-#: kfile/kfiledialog.cpp:332
-msgid "Please specify the filename to save to."
-msgstr "Spesifiseer asseblief die lêernaam om in te stoor."
-
-#: kfile/kfiledialog.cpp:334
-msgid "Please select the file to open."
-msgstr "Kies asseblief die lêer om oop te maak"
-
-#: kfile/kfiledialog.cpp:391 kfile/kfiledialog.cpp:434
-#: kfile/kfiledialog.cpp:1517
-msgid "You can only select local files."
-msgstr "Jy kan slegs kies plaaslike lêers."
-
-#: kfile/kfiledialog.cpp:392 kfile/kfiledialog.cpp:435
-#: kfile/kfiledialog.cpp:1518
-msgid "Remote Files Not Accepted"
-msgstr "Afgeleë Lêers word nie aanvaar nie"
-
-#: kfile/kfiledialog.cpp:426
-#, qt-format
-msgid ""
-"%1\n"
-"does not appear to be a valid URL.\n"
-msgstr ""
-"%1\n"
-"doen nie verskyn na wees 'n geldige Url.\n"
-
-#: kfile/kfiledialog.cpp:426
-msgid "Invalid URL"
-msgstr "Ongeldige Url"
-
-#: kfile/kfiledialog.cpp:745
-msgid ""
-"<p>While typing in the text area, you may be presented with possible "
-"matches. This feature can be controlled by clicking with the right mouse "
-"button and selecting a preferred mode from the <b>Text Completion</b> menu."
-msgstr ""
-"<p>Terwyl jy in die teks area tik, kan die masjien moontlik ooreenstemmende "
-"iteme voorlê. Hierdie eienskap kan beheer word deur die regter muis knoppie "
-"te kliek en die modus te verander in die <b>Teks Voltooiïng</b> kieslys."
-
-#: kfile/kfiledialog.cpp:754
-msgid "This is the name to save the file as."
-msgstr "Hierdie is die naam waarin die lêer gestoor gaan word."
-
-#: kfile/kfiledialog.cpp:759
-msgid ""
-"This is the list of files to open. More than one file can be specified by "
-"listing several files, separated by spaces."
-msgstr ""
-"Hierdie is die lys van lêers om oop te maak. Meer as een lêer kan "
-"gespesifiseer word, geskei deur spasies."
-
-#: kfile/kfiledialog.cpp:766
-msgid "This is the name of the file to open."
-msgstr "Hierdie is die naam van die lêer om oop te maak."
-
-#: kfile/kfiledialog.cpp:807
-msgid "Current location"
-msgstr "Huidige liggings"
-
-#: kfile/kfiledialog.cpp:808
-msgid ""
-"This is the currently listed location. The drop-down list also lists "
-"commonly used locations. This includes standard locations, such as your home "
-"folder, as well as locations that have been visited recently."
-msgstr ""
-"Hierdie is die huidige gelyste liggings. Die laatval-af lys lys ook "
-"gewoonlik gebruikte liggings. Dit sluit in standaard liggings, soos jou "
-"huisgids, asook onlangs besoekte liggings in."
-
-#: kfile/kfiledialog.cpp:818
-#, fuzzy, qt-format
-msgid "Drive: %1"
-msgstr "grootte %1"
-
-#: kfile/kfiledialog.cpp:825
-#, qt-format
-msgid "Root Folder: %1"
-msgstr "Root Gids: %1"
-
-#: kfile/kfiledialog.cpp:832
-#, qt-format
-msgid "Home Folder: %1"
-msgstr "Tuis Gids: %1"
-
-#: kfile/kfiledialog.cpp:841
-#, qt-format
-msgid "Documents: %1"
-msgstr "Dokumente: %1"
-
-#: kfile/kfiledialog.cpp:848
-#, qt-format
-msgid "Desktop: %1"
-msgstr "Werkskerm: %1"
-
-#: kfile/kfiledialog.cpp:890
-#, qt-format
-msgid ""
-"<qt>Click this button to enter the parent folder.<p>For instance, if the "
-"current location is file:/home/%1 clicking this button will take you to "
-"file:/home.</qt>"
-msgstr ""
-"<qt>Kliek hierdie knoppie om in die ouer gids in te gaan.<p>Byvoorbeeld, as "
-"jou huidige ligging lêer:/huis/%1 is, sal jy na lêer:/huis geneem word "
-"wanneer jy die knoppie druk.</qt>"
-
-#: kfile/kfiledialog.cpp:894
-msgid "Click this button to move backwards one step in the browsing history."
-msgstr ""
-"Kliek hierdie knoppie na beweeg terugwaarts een step in die blaaiïng "
-"geskiedenis."
-
-#: kfile/kfiledialog.cpp:896
-msgid "Click this button to move forward one step in the browsing history."
-msgstr ""
-"Kliek hierdie knoppie na beweeg vorentoe een step in die blaaiïng "
-"geskiedenis."
-
-#: kfile/kfiledialog.cpp:898
-msgid "Click this button to reload the contents of the current location."
-msgstr "Kliek hierdie knoppie na herlaai die inhoud van die huidige ligging."
-
-#: kfile/kfiledialog.cpp:901
-msgid "Click this button to create a new folder."
-msgstr "Kliek op hierdie knoppie om 'n nuwe gids te skep."
-
-#: kfile/kfiledialog.cpp:904
-msgid "Show Quick Access Navigation Panel"
-msgstr "Vertoon Vinnige Toegang verkry Navigering Paneel"
-
-#: kfile/kfiledialog.cpp:907
-msgid "Hide Quick Access Navigation Panel"
-msgstr "Steek Vinnige Toegang Navigasie Paneel weg"
-
-#: kfile/kfiledialog.cpp:912
-msgid "Show Bookmarks"
-msgstr "Vertoon Boekmerke"
-
-#: kfile/kfiledialog.cpp:914
-msgid "Hide Bookmarks"
-msgstr "Steek Boekmerk weg"
-
-#: kfile/kfiledialog.cpp:918
-#, fuzzy
-msgid "Configure"
-msgstr "Gaan voort"
-
-#: kfile/kfiledialog.cpp:920
-msgid ""
-"<qt>This is the configuration menu for the file dialog. Various options can "
-"be accessed from this menu including: <ul><li>how files are sorted in the "
-"list</li><li>types of view, including icon and list</li><li>showing of "
-"hidden files</li><li>the Quick Access navigation panel</li><li>file "
-"previews</li><li>separating folders from files</li></ul></qt>"
-msgstr ""
-"<qt>Hierdie is die opstel kieslys vir die lêer dialoog. Verskeie opsies kan "
-"van hier af gestel word, insluitend: <ul><li>hoe lêers in die lys gesorteer "
-"word</li><li>tipes vertoon aansigte, insluitend ikoon en lys</li><li>vertoon "
-"van weg gesteekte lêers</li><li>die Vinnige Toegang navigesie paneel</"
-"li><li>lêer voorskoue</li><li>skei van lêer en gids name</li></ul></qt>"
-
-#: kfile/kfiledialog.cpp:971
-msgid "&Location:"
-msgstr "Ligging:"
-
-#: kfile/kfiledialog.cpp:996
-msgid ""
-"<qt>This is the filter to apply to the file list. File names that do not "
-"match the filter will not be shown.<p>You may select from one of the preset "
-"filters in the drop down menu, or you may enter a custom filter directly "
-"into the text area.<p>Wildcards such as * and ? are allowed.</qt>"
-msgstr ""
-"<qt>Hierdie is die filter na wend aan na die lêer lys. lêer name wat doen "
-"nie ooreenstem die filter sal nie wees vertoon.<p>Jy dalk mag kies van een "
-"van die vooraf stel filters in die laat val ondertoe kieslys, of Jy dalk mag "
-"invoer 'n pasmaak filter direk binnein die teks area.<p>Willekeurige "
-"karakters soos as * en ? word toegelaat.</qt>"
-
-#: kfile/kfiledialog.cpp:1002
-msgid "&Filter:"
-msgstr "Filter:"
-
-#: kfile/kfiledialog.cpp:1447
-msgid ""
-"The chosen filenames do not\n"
-"appear to be valid."
-msgstr ""
-"Die gekiesde lêername blyk nie\n"
-"geldig te wees nie."
-
-#: kfile/kfiledialog.cpp:1449
-msgid "Invalid Filenames"
-msgstr "Ongeldige Lêername"
-
-#: kfile/kfiledialog.cpp:1479
-#, qt-format
-msgid ""
-"The requested filenames\n"
-"%1\n"
-"do not appear to be valid;\n"
-"make sure every filename is enclosed in double quotes."
-msgstr ""
-"Die versoekte lêername\n"
-"%1\n"
-"blyk nie geldig te wees nie;\n"
-"Maak seker elke lêernaam is omsluit in dubbel aanhalings."
-
-#: kfile/kfiledialog.cpp:1483
-msgid "Filename Error"
-msgstr "Lêernaam Fout"
-
-#: kfile/kfiledialog.cpp:1649
-msgid "*|All Folders"
-msgstr "*|Alle Gidse"
-
-#: kfile/kfiledialog.cpp:1927
-#, qt-format
-msgid "Automatically select filename e&xtension (%1)"
-msgstr "Kies die lêernaam uitbreiding (%1) outomaties"
-
-#: kfile/kfiledialog.cpp:1928
-#, qt-format
-msgid "the extension <b>%1</b>"
-msgstr "die uitbreiding <b>%1</b>"
-
-#: kfile/kfiledialog.cpp:1936
-msgid "Automatically select filename e&xtension"
-msgstr "Kies lêernaam uitbreiding outomaties"
-
-#: kfile/kfiledialog.cpp:1937
-msgid "a suitable extension"
-msgstr "'n geldige uitbreiding"
-
-#: kfile/kfiledialog.cpp:1947
-#, qt-format
-msgid ""
-"This option enables some convenient features for saving files with "
-"extensions:<br><ol><li>Any extension specified in the <b>%1</b> text area "
-"will be updated if you change the file type to save in.<br><br></li><li>If "
-"no extension is specified in the <b>%2</b> text area when you click <b>Save</"
-"b>, %3 will be added to the end of the filename (if the filename does not "
-"already exist). This extension is based on the file type that you have "
-"chosen to save in.<br><br>If you do not want KDE to supply an extension for "
-"the filename, you can either turn this option off or you can suppress it by "
-"adding a period (.) to the end of the filename (the period will be "
-"automatically removed).</li></ol>If unsure, keep this option enabled as it "
-"makes your files more manageable."
-msgstr ""
-"Hierdie opsie aktiveer nuttige eienskappe m.b.t die stoor van lêers met "
-"uitbreidings:<br><ol><li>Enige uitbreiding wat in die <b>%1</b> teks area "
-"gespesifiseer is sal opgedateer word as jy die tipe verander waarin die lêer "
-"gestoor moet word.<br><br></li><li>As <b>Stoor</b> gekliek word en geen "
-"uitbreiding in die <b>%2</b> teks area gespesifiseer nie, sal %3 agter aan "
-"die naam gevoeg word (Net as die lêernaam nog nie bestaan nie). Hierdie "
-"uitbreiding is gebaseer op die lêer tipe wat jy gekies het om in te stoor."
-"<br><br>Hierdie opsie kan af gesit word as jy nie wil hê dat KDE 'n "
-"uitbreiding moet verskaf nie. Alternatiewelik kan jy 'n punt (.) aan die "
-"einde van die lêernaam sit (Die punt sal outomaties verwyder word).</li></"
-"ol>As jy onseker is, hou hierdie opsie aktief, want dit maak die bestuur van "
-"lêername makliker."
-
-#: kfile/kfiledialog.cpp:2224 bookmarks/kbookmarkimporter_ns.cc:198
-#: bookmarks/kbookmarkimporter_ns.cc:199 bookmarks/kbookmarkmenu.cc:681
-#, fuzzy
-msgid "Bookmarks"
-msgstr "Boekmerk"
-
-#: kfile/kfiledialog.cpp:2227
-msgid ""
-"<qt>This button allows you to bookmark specific locations. Click on this "
-"button to open the bookmark menu where you may add, edit or select a "
-"bookmark.<p>These bookmarks are specific to the file dialog, but otherwise "
-"operate like bookmarks elsewhere in KDE.</qt>"
-msgstr ""
-"<qt>Hierdie knoppie laat toe jy na boekmerk spesifieke liggings. Kliek op "
-"Hierdie knoppie na open die boekmerk kieslys waar jy dalk mag voeg by, "
-"redigeer of kies 'n boekmerk.<p>Hierdie boekmerke word spesifieke na die "
-"lêer dialoog, maar andersins werk hou van boekmerke erens anders in Kde.</qt>"
 
 #: kfile/kurlrequester.cpp:198
 msgid "Open file dialog"
@@ -3850,15 +3850,15 @@ msgstr "Moet nie toemaak nadat die opdrag uitgevoer het nie"
 msgid "&Remember application association for this type of file"
 msgstr "Onthou aansoek assosiasie vir hierdie tipe van lêer"
 
-#: kfile/kdiroperator.cpp:460
+#: kfile/kdiroperator.cpp:461
 msgid "You did not select a file to delete."
 msgstr "Jy het nie 'n lêer gekies om uit te vee nie."
 
-#: kfile/kdiroperator.cpp:461
+#: kfile/kdiroperator.cpp:462
 msgid "Nothing to Delete"
 msgstr "Niks om uit te vee nie"
 
-#: kfile/kdiroperator.cpp:475
+#: kfile/kdiroperator.cpp:476
 #, qt-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -3868,30 +3868,30 @@ msgstr ""
 "<b>'%1'</b>\n"
 "uitvee?</qt>"
 
-#: kfile/kdiroperator.cpp:477
+#: kfile/kdiroperator.cpp:478
 msgid "Delete File"
 msgstr "Vee Lêer Uit"
 
-#: kfile/kdiroperator.cpp:482
+#: kfile/kdiroperator.cpp:483
 #, fuzzy, qt-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "Wil jy rerig hierdie item uitvee?"
 msgstr[1] "Wil jy rerig hierdie %1 items uitvee?"
 
-#: kfile/kdiroperator.cpp:484
+#: kfile/kdiroperator.cpp:485
 msgid "Delete Files"
 msgstr "Vee Lêers Uit"
 
-#: kfile/kdiroperator.cpp:515
+#: kfile/kdiroperator.cpp:516
 msgid "You did not select a file to trash."
 msgstr "Jy het nie 'n lêer gekies om weg te gooi nie."
 
-#: kfile/kdiroperator.cpp:516
+#: kfile/kdiroperator.cpp:517
 msgid "Nothing to Trash"
 msgstr "Niks om uit te vee nie"
 
-#: kfile/kdiroperator.cpp:530
+#: kfile/kdiroperator.cpp:531
 #, qt-format
 msgid ""
 "<qt>Do you really want to trash\n"
@@ -3901,102 +3901,102 @@ msgstr ""
 "<b>'%1'</b>\n"
 "uitvee?</qt>"
 
-#: kfile/kdiroperator.cpp:532
+#: kfile/kdiroperator.cpp:533
 msgid "Trash File"
 msgstr "Vee Lêer Uit"
 
-#: kfile/kdiroperator.cpp:533 kfile/kdiroperator.cpp:540
+#: kfile/kdiroperator.cpp:534 kfile/kdiroperator.cpp:541
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "Gemors"
 
-#: kfile/kdiroperator.cpp:537
+#: kfile/kdiroperator.cpp:538
 #, fuzzy, qt-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] "Wil jy rerig hierdie item uitvee?"
 msgstr[1] "Wil jy rerig hierdie %1 items uitvee?"
 
-#: kfile/kdiroperator.cpp:539
+#: kfile/kdiroperator.cpp:540
 msgid "Trash Files"
 msgstr "Vee Lêers Uit"
 
-#: kfile/kdiroperator.cpp:658 kfile/kdiroperator.cpp:727
+#: kfile/kdiroperator.cpp:659 kfile/kdiroperator.cpp:728
 msgid "The specified folder does not exist or was not readable."
 msgstr "Die gespesifiseer gids bestaan nie of is nie leesbaar nie."
 
-#: kfile/kdiroperator.cpp:927 kfile/kdiroperator.cpp:1340
+#: kfile/kdiroperator.cpp:928 kfile/kdiroperator.cpp:1341
 msgid "Short View"
 msgstr "Kort Aansig"
 
-#: kfile/kdiroperator.cpp:1267
+#: kfile/kdiroperator.cpp:1268
 msgid "Parent Folder"
 msgstr "Ouer Gids"
 
-#: kfile/kdiroperator.cpp:1277
+#: kfile/kdiroperator.cpp:1278
 #, fuzzy
 msgid "Reload"
 msgstr "Lees"
 
-#: kfile/kdiroperator.cpp:1290
+#: kfile/kdiroperator.cpp:1291
 msgid "Move to Trash"
 msgstr "Beweeg na die Asblik"
 
-#: kfile/kdiroperator.cpp:1296
+#: kfile/kdiroperator.cpp:1297
 #, fuzzy
 msgid "Delete"
 msgstr "Uitveeïng"
 
-#: kfile/kdiroperator.cpp:1303
+#: kfile/kdiroperator.cpp:1304
 msgid "Sorting"
 msgstr "Sortering"
 
-#: kfile/kdiroperator.cpp:1306
+#: kfile/kdiroperator.cpp:1307
 msgid "By Name"
 msgstr "Volgens Naam"
 
-#: kfile/kdiroperator.cpp:1310
+#: kfile/kdiroperator.cpp:1311
 msgid "By Date"
 msgstr "Volgens Datum"
 
-#: kfile/kdiroperator.cpp:1314
+#: kfile/kdiroperator.cpp:1315
 msgid "By Size"
 msgstr "Volgens Grootte"
 
-#: kfile/kdiroperator.cpp:1318
+#: kfile/kdiroperator.cpp:1319
 msgid "Reverse"
 msgstr "Omgekeer"
 
-#: kfile/kdiroperator.cpp:1327
+#: kfile/kdiroperator.cpp:1328
 msgid "Folders First"
 msgstr "Gidse Eerste"
 
-#: kfile/kdiroperator.cpp:1331
+#: kfile/kdiroperator.cpp:1332
 msgid "Case Insensitive"
 msgstr "Kas Onsensitief"
 
-#: kfile/kdiroperator.cpp:1336
+#: kfile/kdiroperator.cpp:1337
 #, fuzzy
 msgid "&View"
 msgstr "Voorskou"
 
-#: kfile/kdiroperator.cpp:1350
+#: kfile/kdiroperator.cpp:1351
 msgid "Show Hidden Files"
 msgstr "Vertoon weg gesteekte Lêers"
 
-#: kfile/kdiroperator.cpp:1354
+#: kfile/kdiroperator.cpp:1355
 msgid "Separate Folders"
 msgstr "Apparte Gidse"
 
-#: kfile/kdiroperator.cpp:1358
+#: kfile/kdiroperator.cpp:1359
 msgid "Show Preview"
 msgstr "Vertoon Voorskou"
 
-#: kfile/kdiroperator.cpp:1361
+#: kfile/kdiroperator.cpp:1362
 msgid "Hide Preview"
 msgstr "Steek Voorskou Weg"
 
-#: kfile/kdiroperator.cpp:1370 bookmarks/kbookmarkmenu.cc:256
+#: kfile/kdiroperator.cpp:1371 bookmarks/kbookmarkmenu.cc:256
 #, fuzzy
 msgid "Properties"
 msgstr "Eienskappe vir %1"
