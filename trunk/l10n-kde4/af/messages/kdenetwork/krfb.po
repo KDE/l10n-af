@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krfb VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-06 05:52+0200\n"
+"POT-Creation-Date: 2007-04-07 05:40+0200\n"
 "PO-Revision-Date: 2002-11-07 11:35+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -64,26 +64,21 @@ msgstr ""
 "\n"
 "Vir sekuriteit redes hierdie uitnodiging sal vertrek na %7."
 
-#: connectioncontroller.cpp:181 connectioncontroller.cpp:185
-#: rfbcontroller.cpp:705 rfbcontroller.cpp:710
-#, qt-format
-msgid "Failed login attempt from %1: wrong password"
-msgstr "Gevaal aanteken poog van %1: verkeerde wagwoord"
-
-#: connectioncontroller.cpp:226 rfbcontroller.cpp:761
+#: connectioncontroller.cpp:96 rfbcontroller.cpp:761
 #, qt-format
 msgid "Accepted uninvited connection from %1"
 msgstr ""
 
-#: connectioncontroller.cpp:234 rfbcontroller.cpp:769
+#: connectioncontroller.cpp:104 rfbcontroller.cpp:769
 #, qt-format
 msgid "Received connection from %1, on hold (waiting for confirmation)"
 msgstr "Ontvang verbinding van %1, op hou (terwyl gewag het vir bevestiging)"
 
-#: connectioncontroller.cpp:314 rfbcontroller.cpp:375
+#: connectioncontroller.cpp:153 connectioncontroller.cpp:157
+#: rfbcontroller.cpp:705 rfbcontroller.cpp:710
 #, qt-format
-msgid "%1@%2 (shared desktop)"
-msgstr ""
+msgid "Failed login attempt from %1: wrong password"
+msgstr "Gevaal aanteken poog van %1: verkeerde wagwoord"
 
 #: connectiondialog.cpp:32
 #, fuzzy
@@ -128,6 +123,11 @@ msgid ""
 "If you want to create a permanent password for Desktop Sharing, allow "
 "'Uninvited Connections' \n"
 "in the configuration."
+msgstr ""
+
+#: krfbserver.cpp:161 rfbcontroller.cpp:375
+#, qt-format
+msgid "%1@%2 (shared desktop)"
 msgstr ""
 
 #: main.cpp:40
