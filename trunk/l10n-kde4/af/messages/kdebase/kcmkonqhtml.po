@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-03 05:45+0200\n"
+"POT-Creation-Date: 2007-04-12 05:47+0200\n"
 "PO-Revision-Date: 2005-11-26 15:42+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -16,10 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#: advancedTabDialog.cpp:40 htmlopts.cpp:125
-msgid "Advanced Options"
-msgstr "Gevorderde Opsies"
 
 #: appearance.cpp:38
 msgid ""
@@ -291,7 +287,11 @@ msgstr ""
 "wat ooreenstem word of verwerp of 'n plehouer word in die plek van die beeld "
 "gebruik."
 
-#: htmlopts.cpp:47
+#: generalopts.cpp:36
+msgid "Tabbed Browsing"
+msgstr "Oortjie Blaaiing"
+
+#: htmlopts.cpp:46
 msgid ""
 "<h1>Konqueror Browser</h1> Here you can configure Konqueror's browser "
 "functionality. Please note that the file manager functionality has to be "
@@ -305,15 +305,15 @@ msgstr ""
 "Konqueror die Html kode in bladsye wat dit laai moet hanteer maak. Dit is "
 "gewoonlik nie nodig om iets hier te verander nie."
 
-#: htmlopts.cpp:55
+#: htmlopts.cpp:54
 msgid "Boo&kmarks"
 msgstr "Boekmerke"
 
-#: htmlopts.cpp:60
+#: htmlopts.cpp:59
 msgid "Ask for name and folder when adding bookmarks"
 msgstr "Vra vir die naam en houer wanneer boekmerke bygevoeg word"
 
-#: htmlopts.cpp:63
+#: htmlopts.cpp:62
 msgid ""
 "If this box is checked, Konqueror will allow you to change the title of the "
 "bookmark and choose a folder in which to store it when you add a new "
@@ -323,11 +323,11 @@ msgstr ""
 "die houer waar dit gestoor moet word te kies wanneer jy nuwe boekmerke "
 "byvoeg."
 
-#: htmlopts.cpp:69
+#: htmlopts.cpp:68
 msgid "Show only marked bookmarks in bookmark toolbar"
 msgstr "Toon slegs gemerkte boekmerke in die boekmerk kieslys"
 
-#: htmlopts.cpp:71
+#: htmlopts.cpp:70
 msgid ""
 "If this box is checked, Konqueror will show only those bookmarks in the "
 "bookmark toolbar which you have marked to do so in the bookmark editor."
@@ -335,15 +335,15 @@ msgstr ""
 "Indien gekies, sal Konqueror slegs die boekmerke vertoon in die boekmerk "
 "kieslys wat gemerk is in die boekmerk redigeerder."
 
-#: htmlopts.cpp:80
+#: htmlopts.cpp:79
 msgid "Form Com&pletion"
 msgstr "Vorm Voltooiïng"
 
-#: htmlopts.cpp:85
+#: htmlopts.cpp:84
 msgid "Enable completion of &forms"
 msgstr "Aktiveer voltooiïng van vorms"
 
-#: htmlopts.cpp:88
+#: htmlopts.cpp:87
 msgid ""
 "If this box is checked, Konqueror will remember the data you enter in web "
 "forms and suggest it in similar fields for all forms."
@@ -351,54 +351,25 @@ msgstr ""
 "As hierdie boks is nagegaan, Konqueror sal onthou die data jy invoer in web "
 "vorms en voorstel dit in soortgelyk velde vir alle vorms."
 
-#: htmlopts.cpp:93
+#: htmlopts.cpp:92
 msgid "&Maximum completions:"
 msgstr "Maksimum voltooings:"
 
-#: htmlopts.cpp:97
+#: htmlopts.cpp:96
 msgid ""
 "Here you can select how many values Konqueror will remember for a form field."
 msgstr ""
 "Hier jy kan kies hoe veel waardes Konqueror sal onthou vir 'n vorm veld."
 
-#: htmlopts.cpp:106
-msgid "Tabbed Browsing"
-msgstr "Oortjie Blaaiing"
-
-#: htmlopts.cpp:111
-msgid "Open &links in new tab instead of in new window"
-msgstr "Open skakel in nuwe oortjie in plaas van van in nuwe venster"
-
-#: htmlopts.cpp:112
-msgid ""
-"This will open a new tab instead of a new window in various situations, such "
-"as choosing a link or a folder with the middle mouse button."
-msgstr ""
-"Hierdie sal open 'n nuwe oortjie in plaas van van 'n nuwe venster in "
-"verskeie situasies, soos as kies 'n skakel of 'n kabinet met die middelste "
-"muis knoppie."
-
-#: htmlopts.cpp:117
-msgid "Hide the tab bar when only one tab is open"
-msgstr "Verberg die oortjie balk wanneer slegs een oortjie oop is"
-
-#: htmlopts.cpp:118
-msgid ""
-"This will display the tab bar only if there are two or more tabs. Otherwise "
-"it will always be displayed."
-msgstr ""
-"Dit sal slegs die oortjie balk toon indien daar meer as een oortjie is. "
-"Andersins sal dit altyd vertoon word."
-
-#: htmlopts.cpp:137
+#: htmlopts.cpp:105
 msgid "Mouse Beha&vior"
 msgstr "Muis Gedrag"
 
-#: htmlopts.cpp:141
+#: htmlopts.cpp:109
 msgid "Chan&ge cursor over links"
 msgstr "Verander plekaanduier bo skakel"
 
-#: htmlopts.cpp:143
+#: htmlopts.cpp:111
 msgid ""
 "If this option is set, the shape of the cursor will change (usually to a "
 "hand) if it is moved over a hyperlink."
@@ -406,11 +377,11 @@ msgstr ""
 "As hierdie opsie is stel, die vorm van die plekaanduier sal verander "
 "(gewoonlik na 'n hand) As dit is verskuif bo 'n hiperskakel."
 
-#: htmlopts.cpp:147
+#: htmlopts.cpp:115
 msgid "M&iddle click opens URL in selection"
 msgstr "Middel kliek maak gekose Url oop"
 
-#: htmlopts.cpp:150
+#: htmlopts.cpp:118
 msgid ""
 "If this box is checked, you can open the URL in the selection by middle "
 "clicking on a Konqueror view."
@@ -418,11 +389,11 @@ msgstr ""
 "Indien gekies kan jy die gekose Url oopmaak deur die middelste muis knoppie "
 "te kliek in 'n Konqueror vertoning."
 
-#: htmlopts.cpp:154
+#: htmlopts.cpp:122
 msgid "Right click goes &back in history"
 msgstr "Regterkant kliek gaan terug in geskiedenis"
 
-#: htmlopts.cpp:157
+#: htmlopts.cpp:125
 msgid ""
 "If this box is checked, you can go back in history by right clicking on a "
 "Konqueror view. To access the context menu, press the right mouse button and "
@@ -432,11 +403,11 @@ msgstr ""
 "regterkant te kliek op 'n Konqueror besigtig. Na toegang verkry die konteks "
 "kieslys, druk die regterkant muis knoppie en beweeg."
 
-#: htmlopts.cpp:167
+#: htmlopts.cpp:135
 msgid "A&utomatically load images"
 msgstr "Automaties las beelde"
 
-#: htmlopts.cpp:168
+#: htmlopts.cpp:136
 #, fuzzy
 msgid ""
 "If this box is checked, Konqueror will automatically load any images that "
@@ -452,11 +423,11 @@ msgstr ""
 "waarskynlik wil hê na bevestig hierdie boks na verbeter jou blaaiïng "
 "ervaring."
 
-#: htmlopts.cpp:179
+#: htmlopts.cpp:147
 msgid "Dra&w frame around not completely loaded images"
 msgstr "Trek raam rondom onvolledig gelaaide beelde"
 
-#: htmlopts.cpp:180
+#: htmlopts.cpp:148
 msgid ""
 "If this box is checked, Konqueror will draw a frame as placeholder around "
 "not yet fully loaded images that are embedded in a web page.<br>Especially "
@@ -468,11 +439,11 @@ msgstr ""
 "dit dalk verkies indien jy 'n baie stadige netwerk verbinding het, om jou "
 "blaai ervaring te verbeter."
 
-#: htmlopts.cpp:188
+#: htmlopts.cpp:156
 msgid "Allow automatic delayed &reloading/redirecting"
 msgstr "Toelaat automaties vertraag herlaai/hersend"
 
-#: htmlopts.cpp:189
+#: htmlopts.cpp:157
 msgid ""
 "Some web pages request an automatic reload or redirection after a certain "
 "period of time. By unchecking this box Konqueror will ignore these requests."
@@ -481,22 +452,22 @@ msgstr ""
 "sekere periode van tyd. Deur aftik hierdie boks Konqueror sal ignoreer "
 "hierdie versoeke."
 
-#: htmlopts.cpp:197
+#: htmlopts.cpp:165
 msgid "Enable/disable Access Ke&y activation with Ctrl key"
 msgstr ""
 
-#: htmlopts.cpp:198
+#: htmlopts.cpp:166
 msgid ""
 "Pressing the Ctrl key when viewing webpages activates KDE's Access Keys. "
 "Unchecking this box will disable this accessibility feature. (Konqueror "
 "needs to be restarted for changes to take effect)"
 msgstr ""
 
-#: htmlopts.cpp:209
+#: htmlopts.cpp:177
 msgid "Und&erline links:"
 msgstr "Onderstreep skakel:"
 
-#: htmlopts.cpp:213
+#: htmlopts.cpp:181
 #, fuzzy
 msgctxt "underline"
 msgid "Enabled"
@@ -504,7 +475,7 @@ msgstr ""
 "_: Onderstreep\n"
 "Aangeskakel"
 
-#: htmlopts.cpp:214
+#: htmlopts.cpp:182
 #, fuzzy
 msgctxt "underline"
 msgid "Disabled"
@@ -512,11 +483,11 @@ msgstr ""
 "_: Onderstreep\n"
 "Afgeskakel"
 
-#: htmlopts.cpp:215
+#: htmlopts.cpp:183
 msgid "Only on Hover"
 msgstr "Slegs op Sweef"
 
-#: htmlopts.cpp:219
+#: htmlopts.cpp:187
 msgid ""
 "Controls how Konqueror handles underlining hyperlinks:"
 "<br><ul><li><b>Enabled</b>: Always underline links</li><li><b>Disabled</b>: "
@@ -530,11 +501,11 @@ msgstr ""
 "Sweef</b>: onderstreep wanneer die muis is verskuif bo die skakel</li></"
 "ul><br><i>Nota: die tuiste is Css definisies kan oorskryf hierdie waarde</i>"
 
-#: htmlopts.cpp:230
+#: htmlopts.cpp:198
 msgid "A&nimations:"
 msgstr "Animasie:"
 
-#: htmlopts.cpp:234
+#: htmlopts.cpp:202
 #, fuzzy
 msgctxt "animations"
 msgid "Enabled"
@@ -542,7 +513,7 @@ msgstr ""
 "_: Animasie\n"
 "Aangeskakel"
 
-#: htmlopts.cpp:235
+#: htmlopts.cpp:203
 #, fuzzy
 msgctxt "animations"
 msgid "Disabled"
@@ -550,11 +521,11 @@ msgstr ""
 "_: Animasie\n"
 "Afgeskakel"
 
-#: htmlopts.cpp:236
+#: htmlopts.cpp:204
 msgid "Show Only Once"
 msgstr "Vertoon Slegs As eers"
 
-#: htmlopts.cpp:240
+#: htmlopts.cpp:208
 #, fuzzy
 msgid ""
 "Controls how Konqueror shows animated images:<br><ul><li><b>Enabled</b>: "
@@ -1318,20 +1289,47 @@ msgid "You must first enter a domain name."
 msgstr "Jy moet eers 'n domein naam invoer."
 
 #. i18n: tag string
-#. i18n: file advancedTabOptions.ui line 22
+#. i18n: file advancedTabOptions.ui line 27
 #: rc.cpp:3
-msgid "<b>Advanced Options</b>"
-msgstr "<b>Gevorderde Opsies</b>"
+msgid "Open &links in new tab instead of in new window"
+msgstr "Open skakel in nuwe oortjie in plaas van van in nuwe venster"
+
+#. i18n: tag string
+#. i18n: file advancedTabOptions.ui line 30
+#: rc.cpp:6
+msgid ""
+"This will open a new tab instead of a new window in various situations, such "
+"as choosing a link or a folder with the middle mouse button."
+msgstr ""
+"Hierdie sal open 'n nuwe oortjie in plaas van van 'n nuwe venster in "
+"verskeie situasies, soos as kies 'n skakel of 'n kabinet met die middelste "
+"muis knoppie."
+
+#. i18n: tag string
+#. i18n: file advancedTabOptions.ui line 37
+#: rc.cpp:9
+msgid "Hide the tab bar when only one tab is open"
+msgstr "Verberg die oortjie balk wanneer slegs een oortjie oop is"
+
+#. i18n: tag string
+#. i18n: file advancedTabOptions.ui line 40
+#: rc.cpp:12
+msgid ""
+"This will display the tab bar only if there are two or more tabs. Otherwise "
+"it will always be displayed."
+msgstr ""
+"Dit sal slegs die oortjie balk toon indien daar meer as een oortjie is. "
+"Andersins sal dit altyd vertoon word."
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 47
-#: rc.cpp:6
+#: rc.cpp:15
 msgid "O&pen new tabs in the background"
 msgstr "Open 'n nuwe oortjie in die agtergrond"
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 50
-#: rc.cpp:9
+#: rc.cpp:18
 msgid ""
 "This will open a new tab in the background, instead of in the foreground."
 msgstr ""
@@ -1340,13 +1338,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 57
-#: rc.cpp:12
+#: rc.cpp:21
 msgid "Open &new tab after current tab"
 msgstr "Open 'n nuwe oortjie na die huidige"
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 60
-#: rc.cpp:15
+#: rc.cpp:24
 msgid ""
 "This will open a new tab opened from a page after the current tab, instead "
 "of after the last tab."
@@ -1356,13 +1354,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 67
-#: rc.cpp:18
+#: rc.cpp:27
 msgid "Confirm &when closing windows with multiple tabs"
 msgstr "Bevestig wanneer maak toe vensters met veelvuldige oortjies"
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 70
-#: rc.cpp:21
+#: rc.cpp:30
 msgid ""
 "This will ask you whether you are sure you want to close a window when it "
 "has multiple tabs opened in it."
@@ -1372,26 +1370,26 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 77
-#: rc.cpp:24
+#: rc.cpp:33
 msgid "&Show close button instead of website icon"
 msgstr "Wys sluit knoppie in plaas van webtuiste ikoon"
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 80
-#: rc.cpp:27
+#: rc.cpp:36
 msgid ""
 "This will display close buttons inside each tab instead of websites' icons."
 msgstr "Dit sal sluit knoppies vertoon in plaas van webtuiste ikone."
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 87
-#: rc.cpp:30
+#: rc.cpp:39
 msgid "Open pop&ups in new tab instead of in new window"
 msgstr "Open skakel in nuwe oortjie in plaas van in nuwe venster"
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 90
-#: rc.cpp:33
+#: rc.cpp:42
 msgid ""
 "Whether or not JavaScript popups if allowed shall open in a new tab or in a "
 "new window."
@@ -1401,7 +1399,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 97
-#: rc.cpp:36
+#: rc.cpp:45
 msgid "Activate previous used tab when closing the current tab"
 msgstr ""
 "Aktiveer die vorige gebruikte oortjie wanneer die huidige oortjie gesluit "
@@ -1409,7 +1407,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 100
-#: rc.cpp:39
+#: rc.cpp:48
 msgid ""
 "When checking this the previous used or opened tab will be activated when "
 "you close the current active tab instead of the one right to the current tab."
@@ -1420,7 +1418,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 107
-#: rc.cpp:42
+#: rc.cpp:51
 msgid "Open as tab in existing Konqueror when URL is called externally"
 msgstr ""
 "Open as oortjie in huidige Konqueror wanneer die Url van buite geaktiveer "
@@ -1428,7 +1426,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file advancedTabOptions.ui line 110
-#: rc.cpp:45
+#: rc.cpp:54
 msgid ""
 "When you click a URL in another KDE program or call kfmclient to open a URL, "
 "the current desktop will be searched for a non-minimized Konqueror and, if "
@@ -1443,62 +1441,62 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 14
-#: rc.cpp:48
+#: rc.cpp:57
 msgid "Netscape Plugin Config"
 msgstr "Netscape Inplak Opstelling"
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 33
-#: rc.cpp:51
+#: rc.cpp:60
 msgid "Scan"
 msgstr "Skandeer"
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 53
-#: rc.cpp:54
+#: rc.cpp:63
 msgid "Click here to scan for newly installed Netscape plugins now."
 msgstr ""
 "Kliek hier na skandeer vir nuwe geïnstalleer Netscape inprop modules nou."
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 56
-#: rc.cpp:57
+#: rc.cpp:66
 msgid "&Scan for New Plugins"
 msgstr "Skandeer vir Nuwe Inprop modules"
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 87
-#: rc.cpp:60
+#: rc.cpp:69
 msgid "Scan Folders"
 msgstr "Skandeer Houers"
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 105
-#: rc.cpp:63
+#: rc.cpp:72
 msgid "&Remove"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 112
-#: rc.cpp:66
+#: rc.cpp:75
 msgid "&New"
 msgstr "Nuwe"
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 129
-#: rc.cpp:69
+#: rc.cpp:78
 msgid "Do&wn"
 msgstr "Ondertoe"
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 139
-#: rc.cpp:72
+#: rc.cpp:81
 msgid "&Up"
 msgstr "Begin"
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 177
-#: rc.cpp:75
+#: rc.cpp:84
 msgid ""
 "If this option is enabled, KDE will look for new Netscape plugins every time "
 "it starts up. This makes it easier for you if you often install new plugins, "
@@ -1513,48 +1511,54 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 183
-#: rc.cpp:78
+#: rc.cpp:87
 msgid "Scan for new plugins at &KDE startup"
 msgstr "Skandeer vir nuwe inprop modules na Kde opstart"
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 191
-#: rc.cpp:81
+#: rc.cpp:90
 msgid "Plugins"
 msgstr "Inprop modules"
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 214
-#: rc.cpp:84
+#: rc.cpp:93
 msgid "Use a&rtsdsp to pipe plugin sound through aRts"
 msgstr "Gebruik artsdsp na pyp inplak klank deur Arts"
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 221
-#: rc.cpp:87
+#: rc.cpp:96
 msgid "Here you can see a list of the Netscape plugins KDE has found."
 msgstr ""
 "Hier jy kan sien 'n lys van die Netscape inprop modules Kde het gevind."
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 228
-#: rc.cpp:90
+#: rc.cpp:99
 #, fuzzy
 msgid "Information"
 msgstr "Animasie:"
 
 #. i18n: tag string
 #. i18n: file nsconfigwidget.ui line 233
-#: rc.cpp:93
+#: rc.cpp:102
 msgid "Value"
 msgstr "Waarde"
 
-#: rc.cpp:94
+#: rc.cpp:103
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "WEB-Vertaler (http://kde.af.org.za), Kobus Venter"
 
-#: rc.cpp:95
+#: rc.cpp:104
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za, kabousv@therugby.co.za"
+
+#~ msgid "Advanced Options"
+#~ msgstr "Gevorderde Opsies"
+
+#~ msgid "<b>Advanced Options</b>"
+#~ msgstr "<b>Gevorderde Opsies</b>"
