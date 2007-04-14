@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-13 06:11+0200\n"
+"POT-Creation-Date: 2007-04-14 05:46+0200\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -187,13 +187,13 @@ msgstr "Boodskappe"
 
 #. i18n: tag string
 #. i18n: file ./lib/plugins/vcs/cvs/editorsview.ui line 13
-#: rc.cpp:66 lib/plugins/vcs/cvs/cvs_part.cpp:396
+#: rc.cpp:66 lib/plugins/vcs/cvs/cvspart.cpp:396
 msgid "Editors"
 msgstr "Redigeerders"
 
 #. i18n: tag string
 #. i18n: file ./lib/plugins/vcs/cvs/logview.ui line 13
-#: rc.cpp:69 lib/plugins/vcs/cvs/cvs_part.cpp:281
+#: rc.cpp:69 lib/plugins/vcs/cvs/cvspart.cpp:281
 #, fuzzy
 msgid "Log"
 msgstr "Log"
@@ -1800,37 +1800,94 @@ msgstr "Verwyder alle bygevoeg lêers."
 msgid "Process exited with status %1"
 msgstr "Proses uitgegaan met status %1"
 
-#: lib/plugins/vcs/cvs/editorsview.cpp:55
+#: lib/plugins/vcs/cvs/editorsview.cpp:47
 #, fuzzy
 #| msgid "Running htdig failed"
 msgid "Listing editors failed"
 msgstr "Wat loop htdig gevaal"
 
-#: lib/plugins/vcs/cvs/editorsview.cpp:107
+#: lib/plugins/vcs/cvs/editorsview.cpp:62
 msgid "No files from your query are marked as being edited."
 msgstr ""
 
-#: lib/plugins/vcs/cvs/editorsview.cpp:115 lib/plugins/vcs/cvs/logview.cpp:119
+#: lib/plugins/vcs/cvs/editorsview.cpp:70 lib/plugins/vcs/cvs/logview.cpp:67
 #, fuzzy
 msgid "User"
 msgstr "Gebruiker:"
 
-#: lib/plugins/vcs/cvs/editorsview.cpp:116 lib/plugins/vcs/cvs/logview.cpp:120
+#: lib/plugins/vcs/cvs/editorsview.cpp:71 lib/plugins/vcs/cvs/logview.cpp:68
 #: lib/plugins/vcs/subversion/svn_models.cpp:209
 #: lib/plugins/vcs/subversion/svn_models.cpp:264
 msgid "Date"
 msgstr "Datum"
 
-#: lib/plugins/vcs/cvs/editorsview.cpp:117
+#: lib/plugins/vcs/cvs/editorsview.cpp:72
 #, fuzzy
 #| msgid "Man"
 msgid "Machine"
 msgstr "Man"
 
-#: lib/plugins/vcs/cvs/editorsview.cpp:118 plugins/snippet/snippetview.cpp:135
+#: lib/plugins/vcs/cvs/editorsview.cpp:73 plugins/snippet/snippetview.cpp:135
 #, fuzzy
 msgid "Repository"
 msgstr "Voeg by na Stoorplek"
+
+#: lib/plugins/vcs/cvs/cvspart.cpp:96
+#, fuzzy
+msgid "Show log"
+msgstr "hw %1"
+
+#: lib/plugins/vcs/cvs/cvspart.cpp:100
+#, fuzzy
+msgid "Show differences..."
+msgstr "$Appnaam$Deel"
+
+#: lib/plugins/vcs/cvs/cvspart.cpp:104
+#, fuzzy
+msgid "Edit..."
+msgstr "Redigeer..."
+
+#: lib/plugins/vcs/cvs/cvspart.cpp:108
+#, fuzzy
+msgid "Unedit..."
+msgstr "stel"
+
+#: lib/plugins/vcs/cvs/cvspart.cpp:112
+#, fuzzy
+msgid "Show Editors..."
+msgstr "Vertoon metodes"
+
+#: lib/plugins/vcs/cvs/cvspart.cpp:116
+#, fuzzy
+msgid "Add Files..."
+msgstr "Alle lêers (*)"
+
+#: lib/plugins/vcs/cvs/cvspart.cpp:120
+#, fuzzy
+msgid "Commit Files..."
+msgstr "Lêer(s):"
+
+#: lib/plugins/vcs/cvs/cvspart.cpp:124
+#, fuzzy
+msgid "Update Files..."
+msgstr "Stooring..."
+
+#: lib/plugins/vcs/cvs/cvspart.cpp:350
+#: lib/plugins/vcs/subversion/subversion_view.cpp:149
+msgid "Diff"
+msgstr ""
+
+#: lib/plugins/vcs/cvs/cvspart.cpp:372
+#, fuzzy
+msgid "Do you really want to unedit the selected files?"
+msgstr ""
+"Doen jy rerig wil hê na ongedaan maak die lêer %1 en verloor alle jou "
+"verander?"
+
+#: lib/plugins/vcs/cvs/cvspart.cpp:373
+#, fuzzy
+msgid "Unedit Files"
+msgstr "Alle lêers (*)"
 
 #: lib/plugins/vcs/cvs/cvsmainview.cpp:37
 msgid "CVS"
@@ -1841,78 +1898,21 @@ msgstr ""
 msgid "Job exited normally"
 msgstr "*** Uitgegaan gewoonlik ***"
 
-#: lib/plugins/vcs/cvs/logview.cpp:55
+#: lib/plugins/vcs/cvs/logview.cpp:48
 #, fuzzy
 #| msgid "Running htdig failed"
 msgid "Listing the files's log failed"
 msgstr "Wat loop htdig gevaal"
 
-#: lib/plugins/vcs/cvs/logview.cpp:113
+#: lib/plugins/vcs/cvs/logview.cpp:61
 #, fuzzy
 msgid "No log information found"
 msgstr "Lêer Informasie"
 
-#: lib/plugins/vcs/cvs/logview.cpp:118
+#: lib/plugins/vcs/cvs/logview.cpp:66
 #, fuzzy
 msgid "Revision"
 msgstr "Afdelings"
-
-#: lib/plugins/vcs/cvs/cvs_part.cpp:96
-#, fuzzy
-msgid "Show log"
-msgstr "hw %1"
-
-#: lib/plugins/vcs/cvs/cvs_part.cpp:100
-#, fuzzy
-msgid "Show differences..."
-msgstr "$Appnaam$Deel"
-
-#: lib/plugins/vcs/cvs/cvs_part.cpp:104
-#, fuzzy
-msgid "Edit..."
-msgstr "Redigeer..."
-
-#: lib/plugins/vcs/cvs/cvs_part.cpp:108
-#, fuzzy
-msgid "Unedit..."
-msgstr "stel"
-
-#: lib/plugins/vcs/cvs/cvs_part.cpp:112
-#, fuzzy
-msgid "Show Editors..."
-msgstr "Vertoon metodes"
-
-#: lib/plugins/vcs/cvs/cvs_part.cpp:116
-#, fuzzy
-msgid "Add Files..."
-msgstr "Alle lêers (*)"
-
-#: lib/plugins/vcs/cvs/cvs_part.cpp:120
-#, fuzzy
-msgid "Commit Files..."
-msgstr "Lêer(s):"
-
-#: lib/plugins/vcs/cvs/cvs_part.cpp:124
-#, fuzzy
-msgid "Update Files..."
-msgstr "Stooring..."
-
-#: lib/plugins/vcs/cvs/cvs_part.cpp:350
-#: lib/plugins/vcs/subversion/subversion_view.cpp:149
-msgid "Diff"
-msgstr ""
-
-#: lib/plugins/vcs/cvs/cvs_part.cpp:372
-#, fuzzy
-msgid "Do you really want to unedit the selected files?"
-msgstr ""
-"Doen jy rerig wil hê na ongedaan maak die lêer %1 en verloor alle jou "
-"verander?"
-
-#: lib/plugins/vcs/cvs/cvs_part.cpp:373
-#, fuzzy
-msgid "Unedit Files"
-msgstr "Alle lêers (*)"
 
 #: lib/plugins/vcs/subversion/subversion_part.cpp:81
 #, fuzzy
