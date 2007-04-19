@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krfb VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-18 05:45+0200\n"
+"POT-Creation-Date: 2007-04-19 05:47+0200\n"
 "PO-Revision-Date: 2002-11-07 11:35+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -50,12 +50,12 @@ msgstr "Aanvaar Verbinding"
 msgid "Refuse Connection"
 msgstr "Weier Verbinding"
 
-#: invitedialog.cpp:35 manageinvitationsdialog.cpp:54
+#: invitedialog.cpp:35 manageinvitationsdialog.cpp:55
 #, fuzzy
 msgid "Invitation"
 msgstr "Persoonlike Uitnodiging"
 
-#: invitedialog.cpp:71 rc.cpp:57
+#: invitedialog.cpp:71 rc.cpp:60
 #, fuzzy, qt-format
 msgid "&Manage Invitations (%1)..."
 msgstr "Nuwe Persoonlike Uitnodiging..."
@@ -78,18 +78,18 @@ msgid ""
 "in the configuration."
 msgstr ""
 
-#: krfbserver.cpp:184
+#: krfbserver.cpp:185 krfbserver.cpp:202
 #, qt-format
 msgid "%1@%2 (shared desktop)"
 msgstr ""
 
-#: krfbserver.cpp:273
+#: krfbserver.cpp:279
 msgid ""
 "Your X11 Server does not support the required XTest extension version 2.2. "
 "Sharing your desktop is not possible."
 msgstr ""
 
-#: krfbserver.cpp:274
+#: krfbserver.cpp:280
 msgid "Desktop Sharing Error"
 msgstr "Werkskerm Deeling Fout"
 
@@ -97,7 +97,7 @@ msgstr "Werkskerm Deeling Fout"
 msgid "VNC-compatible server to share KDE desktops"
 msgstr "VNC-compatible bediener na deel Kde werkskerms"
 
-#: main.cpp:46 trayicon.cpp:77 trayicon.cpp:90
+#: main.cpp:46 trayicon.cpp:74 trayicon.cpp:87
 msgid "Desktop Sharing"
 msgstr "Werkskerm Deeling"
 
@@ -137,7 +137,7 @@ msgstr "Verbinding kant beeld"
 msgid "KDesktop background deactivation"
 msgstr ""
 
-#: manageinvitationsdialog.cpp:86
+#: manageinvitationsdialog.cpp:93
 msgid ""
 "An invitation creates a one-time password that allows the receiver to "
 "connect to your desktop.\n"
@@ -155,12 +155,25 @@ msgid ""
 "in the configuration."
 msgstr ""
 
-#: manageinvitationsdialog.cpp:128
+#: manageinvitationsdialog.cpp:137
 msgid "Network"
 msgstr ""
 
-#: manageinvitationsdialog.cpp:129
+#: manageinvitationsdialog.cpp:138
 msgid "Security"
+msgstr ""
+
+#: manageinvitationsdialog.cpp:146
+msgid "<qt>Are you sure you want to delete all invitations?</qt>"
+msgstr ""
+
+#: manageinvitationsdialog.cpp:147 manageinvitationsdialog.cpp:163
+#, fuzzy
+msgid "Confirm delete Invitations"
+msgstr "Uitvee die gekose uitnodiging"
+
+#: manageinvitationsdialog.cpp:162
+msgid "<qt>Are you sure you want to delete this invitation?</qt>"
 msgstr ""
 
 #: personalinvitedialog.cpp:35
@@ -213,29 +226,33 @@ msgstr ""
 msgid "Uninvited connections password"
 msgstr ""
 
-#: rc.cpp:21
-msgid "Use default port"
+#: rc.cpp:21 rc.cpp:78
+msgid "Announce the service on the local network"
 msgstr ""
 
 #: rc.cpp:24
-msgid "Listening Port:"
+msgid "Use default port"
 msgstr ""
 
 #: rc.cpp:27
+msgid "Listening Port:"
+msgstr ""
+
+#: rc.cpp:30
 msgid "Attention"
 msgstr "Aandag"
 
-#: rc.cpp:30
+#: rc.cpp:33
 msgid ""
 "Somebody is requesting a connection to your computer. Granting this will "
 "allow the remote user to watch your desktop. "
 msgstr ""
 
-#: rc.cpp:33
+#: rc.cpp:36
 msgid "123.234.123.234"
 msgstr ""
 
-#: rc.cpp:36
+#: rc.cpp:39
 msgid ""
 "If you turn this option on, the remote user can enter keystrokes and use "
 "your mouse pointer. This gives them full control over your computer, so be "
@@ -243,15 +260,15 @@ msgid ""
 "screen."
 msgstr ""
 
-#: rc.cpp:39
+#: rc.cpp:42
 msgid "Allow remote user to &control keyboard and mouse"
 msgstr "Toelaat afgeleë gebruiker na kontrole sleutelbord en muis"
 
-#: rc.cpp:42
+#: rc.cpp:45
 msgid "Remote system:"
 msgstr "Afgeleë stelsel:"
 
-#: rc.cpp:45 rc.cpp:135
+#: rc.cpp:48 rc.cpp:141
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -265,17 +282,17 @@ msgid ""
 "body></html>"
 msgstr ""
 
-#: rc.cpp:51
+#: rc.cpp:54
 msgid ""
 "This button will start your email application with a pre-configured text "
 "that explains to the recipient how to connect to your computer. "
 msgstr ""
 
-#: rc.cpp:54
+#: rc.cpp:57
 msgid "Invite via &Email..."
 msgstr "Nooi deur middel van E-pos..."
 
-#: rc.cpp:60
+#: rc.cpp:63
 #, fuzzy
 msgid ""
 "Create a new invitation and display the connection data. Use this option if "
@@ -285,56 +302,56 @@ msgstr ""
 "Sal skep 'n nuwe uitnodiging en vertoon dit na jy. Gebruik hierdie opsie as "
 "jy wil hê na nooi iemand persoonlik."
 
-#: rc.cpp:63
+#: rc.cpp:66
 msgid "Create &Personal Invitation..."
 msgstr "Skep Persoonlike Uitnodiging..."
 
-#: rc.cpp:66 rc.cpp:90
+#: rc.cpp:69 rc.cpp:96
 msgid "Welcome to KDE Desktop Sharing"
 msgstr "Welkom na Kde Werkskerm Deeling"
 
-#: rc.cpp:69
+#: rc.cpp:72
 msgid "Use the default port for VNC (5900)"
 msgstr ""
 
-#: rc.cpp:72
+#: rc.cpp:75
 msgid "This is the port on wich krfb will listen."
 msgstr ""
 
-#: rc.cpp:75
+#: rc.cpp:81
 msgid "Allow remote connections to manage the desktop."
 msgstr ""
 
-#: rc.cpp:78
+#: rc.cpp:84
 msgid "Ask before allowing a remote connection."
 msgstr ""
 
-#: rc.cpp:81
+#: rc.cpp:87
 msgid "Allow connections without an invitation."
 msgstr ""
 
-#: rc.cpp:84
+#: rc.cpp:90
 msgid "Password for uninvited connections."
 msgstr ""
 
-#: rc.cpp:87
+#: rc.cpp:93
 #, fuzzy
 msgid "Manage Invitations - Desktop Sharing"
 msgstr "Uitnodiging - Werkskerm Deeling"
 
-#: rc.cpp:93
+#: rc.cpp:99
 msgid "Created"
 msgstr "Geskep"
 
-#: rc.cpp:96
+#: rc.cpp:102
 msgid "Expire Time"
 msgstr ""
 
-#: rc.cpp:99
+#: rc.cpp:105
 msgid "Delete the selected invitation"
 msgstr "Uitvee die gekose uitnodiging"
 
-#: rc.cpp:102
+#: rc.cpp:108
 msgid ""
 "Delete the selected invitation. The invited person will not be able to "
 "connect using this invitation anymore."
@@ -342,50 +359,50 @@ msgstr ""
 "Uitvee die gekose uitnodiging. die uitgenooi persoon sal nie wees in staat "
 "na konnekteer te gebruik hierdie uitnodiging meer."
 
-#: rc.cpp:105
+#: rc.cpp:111
 msgid "&Delete"
 msgstr ""
 
-#: rc.cpp:108
+#: rc.cpp:114
 #, fuzzy
 msgid "Delete all invitations"
 msgstr "Uitvee die gekose uitnodiging"
 
-#: rc.cpp:111
+#: rc.cpp:117
 #, fuzzy
 msgid "Deletes all open invitations."
 msgstr "Uitvee die gekose uitnodiging"
 
-#: rc.cpp:114
+#: rc.cpp:120
 msgid "Delete All"
 msgstr ""
 
-#: rc.cpp:117
+#: rc.cpp:123
 msgid "Send a new invitation via email..."
 msgstr "Stuur 'n nuwe uitnodiging deur middel van e-pos..."
 
-#: rc.cpp:120
+#: rc.cpp:126
 msgid "Click this button to send a new invitation via email."
 msgstr ""
 "Kliek hierdie knoppie na stuur 'n nuwe uitnodiging deur middel van e-pos."
 
-#: rc.cpp:123
+#: rc.cpp:129
 msgid "&New Email Invitation..."
 msgstr "Nuwe E-pos Uitnodiging..."
 
-#: rc.cpp:126
+#: rc.cpp:132
 msgid "Create a new personal invitation..."
 msgstr "Skep 'n nuwe persoonlike uitnodiging..."
 
-#: rc.cpp:129
+#: rc.cpp:135
 msgid "Click this button to create a new personal invitation."
 msgstr "Kliek hierdie knoppie na skep 'n nuwe persoonlike uitnodiging."
 
-#: rc.cpp:132
+#: rc.cpp:138
 msgid "New &Personal Invitation..."
 msgstr "Nuwe Persoonlike Uitnodiging..."
 
-#: rc.cpp:141
+#: rc.cpp:147
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -402,22 +419,22 @@ msgid ""
 "body></html>"
 msgstr ""
 
-#: rc.cpp:148
+#: rc.cpp:154
 #, fuzzy
 msgid "<b>Password:</b>"
 msgstr "Wagwoord:"
 
-#: rc.cpp:151
+#: rc.cpp:157
 #, fuzzy
 msgid "<b>Expiration time:</b>"
 msgstr "Vertreking tyd:"
 
-#: rc.cpp:154
+#: rc.cpp:160
 #, fuzzy
 msgid "<b>Host:</b>"
 msgstr "Wagwoord:"
 
-#: rc.cpp:157
+#: rc.cpp:163
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -429,17 +446,17 @@ msgid ""
 "p></body></html>"
 msgstr ""
 
-#: rc.cpp:161
+#: rc.cpp:167
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "WEB-Vertaler (http://kde.af.org.za)"
 
-#: rc.cpp:162
+#: rc.cpp:168
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: trayicon.cpp:38 trayicon.cpp:88
+#: trayicon.cpp:38 trayicon.cpp:85
 #, fuzzy
 msgid "Desktop Sharing - disconnected"
 msgstr "Werkskerm Deeling Fout"
@@ -453,16 +470,16 @@ msgstr "Aktiveer Afgeleë Kontrole"
 msgid "Disable Remote Control"
 msgstr "Aktiveer Afgeleë Kontrole"
 
-#: trayicon.cpp:78
+#: trayicon.cpp:75
 msgid "The remote user has been authenticated and is now connected."
 msgstr ""
 
-#: trayicon.cpp:81
+#: trayicon.cpp:78
 #, fuzzy, qt-format
 msgid "Desktop Sharing - connected with %1"
 msgstr "Werkskerm Deeling Fout"
 
-#: trayicon.cpp:91
+#: trayicon.cpp:88
 msgid "The remote user has closed the connection."
 msgstr "Die afgeleë gebruiker het gesluit Die verbinding."
 
