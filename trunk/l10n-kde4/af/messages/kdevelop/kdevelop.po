@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-21 05:46+0200\n"
+"POT-Creation-Date: 2007-04-23 05:42+0200\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -172,7 +172,8 @@ msgid "Tag/Branch:"
 msgstr "Verwyder breekpunt"
 
 #: rc.cpp:102 rc.cpp:147 rc.cpp:201 rc.cpp:510 rc.cpp:516 rc.cpp:531
-#: rc.cpp:611
+#: rc.cpp:648 rc.cpp:654 rc.cpp:657 rc.cpp:678 rc.cpp:780 rc.cpp:804
+#: rc.cpp:849 rc.cpp:885 rc.cpp:945 rc.cpp:999 rc.cpp:1079
 #, fuzzy
 msgid "Form"
 msgstr "Vorms"
@@ -182,7 +183,7 @@ msgstr "Vorms"
 msgid "Commit to Repository"
 msgstr "Stuur in (stoorplek)"
 
-#: rc.cpp:108
+#: rc.cpp:108 rc.cpp:588
 #, fuzzy
 msgid "Message"
 msgstr "Boodskappe"
@@ -191,7 +192,7 @@ msgstr "Boodskappe"
 msgid "Editors"
 msgstr "Redigeerders"
 
-#: rc.cpp:114 lib/plugins/vcs/cvs/cvspart.cpp:347
+#: rc.cpp:114 rc.cpp:633 rc.cpp:663 lib/plugins/vcs/cvs/cvspart.cpp:347
 #, fuzzy
 msgid "Log"
 msgstr "Log"
@@ -307,7 +308,7 @@ msgstr ""
 msgid "C&ancel"
 msgstr "Klas naam:"
 
-#: rc.cpp:198 rc.cpp:563
+#: rc.cpp:198 rc.cpp:1031
 msgid "Alt+A"
 msgstr ""
 
@@ -346,12 +347,12 @@ msgstr ""
 msgid "Specify By number"
 msgstr "Identifiseerder"
 
-#: rc.cpp:228 rc.cpp:285 rc.cpp:294 rc.cpp:605
+#: rc.cpp:228 rc.cpp:285 rc.cpp:294 rc.cpp:1073
 #: lib/plugins/vcs/subversion/svn_blamewidgets.cpp:56
 msgid "OK"
 msgstr ""
 
-#: rc.cpp:231 rc.cpp:288 rc.cpp:297 rc.cpp:608
+#: rc.cpp:231 rc.cpp:288 rc.cpp:297 rc.cpp:1076
 #: lib/plugins/vcs/subversion/svn_blamewidgets.cpp:57
 #, fuzzy
 msgid "Cancel"
@@ -439,12 +440,12 @@ msgstr "Voeg by na Stoorplek"
 msgid "&Build"
 msgstr "Bou"
 
-#: rc.cpp:342 rc.cpp:671
+#: rc.cpp:342 rc.cpp:1139
 #, fuzzy
 msgid "&File"
 msgstr "Lêers:"
 
-#: rc.cpp:345 rc.cpp:674
+#: rc.cpp:345 rc.cpp:1142
 #, fuzzy
 msgid "&Edit"
 msgstr "Redigeer..."
@@ -463,7 +464,7 @@ msgstr "Projek"
 msgid "Bu&ild"
 msgstr "Bou"
 
-#: rc.cpp:357 rc.cpp:668
+#: rc.cpp:357 rc.cpp:1136
 msgid "&Debug"
 msgstr "Ontfouting"
 
@@ -485,7 +486,7 @@ msgstr "Instellings"
 msgid "&Help"
 msgstr ""
 
-#: rc.cpp:372 rc.cpp:680
+#: rc.cpp:372 rc.cpp:1148
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "Bou Nutsbalk"
@@ -512,11 +513,12 @@ msgstr ""
 msgid "Add Profile"
 msgstr "Voeg by nuwe lêers"
 
-#: rc.cpp:390 rc.cpp:438 rc.cpp:453 rc.cpp:492 rc.cpp:584 rc.cpp:599
+#: rc.cpp:390 rc.cpp:438 rc.cpp:453 rc.cpp:492 rc.cpp:906 rc.cpp:1052
+#: rc.cpp:1067
 msgid "Name"
 msgstr "Naam"
 
-#: rc.cpp:393
+#: rc.cpp:393 rc.cpp:894
 msgid "Description"
 msgstr "Beskrywing"
 
@@ -526,17 +528,17 @@ msgstr "Beskrywing"
 msgid "Remove Profile"
 msgstr "Verwyder lêer"
 
-#: rc.cpp:399 rc.cpp:459 rc.cpp:534
+#: rc.cpp:399 rc.cpp:459 rc.cpp:1002
 #, fuzzy
 msgid "Properties"
 msgstr "Eienskappe:"
 
-#: rc.cpp:402
+#: rc.cpp:402 rc.cpp:792
 #, fuzzy
 msgid "Add"
 msgstr "Voeg by"
 
-#: rc.cpp:405 plugins/snippet/snippetview.cpp:154
+#: rc.cpp:405 rc.cpp:798 plugins/snippet/snippetview.cpp:154
 #, fuzzy
 msgid "Remove"
 msgstr "Verwyder skoop..."
@@ -684,30 +686,695 @@ msgstr ""
 msgid "Number of simultaneous jobs:"
 msgstr "Nommer van gelyktydig werke:"
 
+#: rc.cpp:534
+#, fuzzy
+msgid "Connection"
+msgstr "Voorwaarde"
+
 #: rc.cpp:537
+#, fuzzy
+msgid "Local server"
+msgstr "Gids"
+
+#: rc.cpp:540
+#, fuzzy
+msgid "Connected clients:"
+msgstr "Seksie:"
+
+#: rc.cpp:543
+msgid "Allow incoming"
+msgstr ""
+
+#: rc.cpp:546
+#, fuzzy
+msgid "Servers"
+msgstr "Ongedaan maak"
+
+#: rc.cpp:549
+msgid "the password for logging into the server"
+msgstr ""
+
+#: rc.cpp:552
+msgid ""
+"connect to the given server using the given login-information(if the name is "
+"blank the local name is used)"
+msgstr ""
+
+#: rc.cpp:555
+#, fuzzy
+msgid "Connect"
+msgstr "Gaan voort"
+
+#: rc.cpp:558
+msgid "the server to connect"
+msgstr ""
+
+#: rc.cpp:561
+msgid "Connected servers:"
+msgstr ""
+
+#: rc.cpp:564
+msgid "the user-name for logging into the server"
+msgstr ""
+
+#: rc.cpp:567 rc.cpp:870
+#, fuzzy
+msgid "Developers"
+msgstr "Kdevelop"
+
+#: rc.cpp:570
+#, fuzzy
+msgid "Available:"
+msgstr "veranderlike"
+
+#: rc.cpp:573
+msgid "Collaborating:"
+msgstr ""
+
+#: rc.cpp:576
+#, fuzzy
+msgid "Messaging"
+msgstr "Boodskappe"
+
+#: rc.cpp:579
+msgid "target-user"
+msgstr ""
+
+#: rc.cpp:582 plugins/teamwork/kdevteamwork.cpp:1155
+msgid "Answer To"
+msgstr ""
+
+#: rc.cpp:585 rc.cpp:864
+#, fuzzy
+msgid "Type:"
+msgstr "Tipe:"
+
+#: rc.cpp:591 lib/plugins/vcs/subversion/svn_models.cpp:277
+#, fuzzy
+msgid "Comment"
+msgstr "Kommentaar:"
+
+#: rc.cpp:594
+#, fuzzy
+msgid "Source-discussion"
+msgstr "Bron Verspreiding"
+
+#: rc.cpp:597
+#, fuzzy
+msgid "Thread:"
+msgstr "Rygdraad"
+
+#: rc.cpp:600
+#, fuzzy
+msgid "Reference:"
+msgstr "$Appnaam$Deel"
+
+#: rc.cpp:603 rc.cpp:627 rc.cpp:636
+#, fuzzy
+msgid "Clear"
+msgstr "Kliënt:"
+
+#: rc.cpp:606
+#, fuzzy
+#| msgid "gdb message:\n"
+msgid "&Send message"
+msgstr "gbd boodskap:\n"
+
+#: rc.cpp:609
+msgid "S"
+msgstr ""
+
+#: rc.cpp:612
+msgid "the message you wish to send"
+msgstr ""
+
+#: rc.cpp:615
+#, fuzzy
+msgid "Local state"
+msgstr "plaaslike"
+
+#: rc.cpp:618
+#, fuzzy
+msgid "Manage local patches"
+msgstr "Voeg by Teiken..."
+
+#: rc.cpp:621 rc.cpp:852
+msgid "Messages"
+msgstr "Boodskappe"
+
+#: rc.cpp:624
+#, fuzzy
+msgid "All Users"
+msgstr "Alle lêers (*)"
+
+#: rc.cpp:630 rc.cpp:891 rc.cpp:951
+#, fuzzy
+msgid "History"
+msgstr "Voeg by na Stoorplek"
+
+#: rc.cpp:639
+#, fuzzy
+msgid "Save"
+msgstr "Stoor Alle"
+
+#: rc.cpp:642 plugins/teamwork/kdevteamwork.cpp:231
+#: plugins/codeview/kdevcodeview.cpp:112 plugins/codeview/kdevcodeview.cpp:116
+#, fuzzy
+msgid "Filter"
+msgstr "Lêer Boom"
+
+#: rc.cpp:645
+#, fuzzy
+msgid "Enable Collaboration"
+msgstr "Optimisering"
+
+#: rc.cpp:651
+#, fuzzy
+msgid "Jump to Position"
+msgstr "Hardloop na Plekaanduier"
+
+#: rc.cpp:660
+msgid "Timestamps"
+msgstr ""
+
+#: rc.cpp:666
+msgid "To Tail State"
+msgstr ""
+
+#: rc.cpp:669
+#, fuzzy
+#| msgctxt ""
+#| "Breakpoint state. The 'clear ' state is appended to the other states"
+#| msgid "clear "
+msgid "Clear Log"
+msgstr "maak skoon "
+
+#: rc.cpp:672
+msgid "Current State:    Tail State: "
+msgstr ""
+
+#: rc.cpp:675
+#, fuzzy
+msgid "Finish"
+msgstr "Soek"
+
+#: rc.cpp:681
+#, fuzzy
+msgid "Tail"
+msgstr "Titel"
+
+#: rc.cpp:684
+#, fuzzy
+msgid "None"
+msgstr "Weergawe Nee:"
+
+#: rc.cpp:687
+#, fuzzy
+msgid "Enable All(x)"
+msgstr "Aktiveer"
+
+#: rc.cpp:690
+msgid "(last stamp)"
+msgstr ""
+
+#: rc.cpp:693
+msgid "(last date)"
+msgstr ""
+
+#: rc.cpp:696
+#, fuzzy
+msgid "Enable"
+msgstr "Aktiveer"
+
+#: rc.cpp:699
+#, fuzzy
+msgid "replacement-text"
+msgstr "Vervang Teks"
+
+#: rc.cpp:702
+#, fuzzy
+msgid "Edit Patch"
+msgstr "Patroon"
+
+#: rc.cpp:705
+#, fuzzy
+msgid "File"
+msgstr "Lêers:"
+
+#: rc.cpp:708
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">File:</span></"
+"p></body></html>"
+msgstr ""
+
+#: rc.cpp:711
+msgid "command-output"
+msgstr ""
+
+#: rc.cpp:714
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Command:</"
+"span></p></body></html>"
+msgstr ""
+
+#: rc.cpp:717
+#, fuzzy
+msgid "To File"
+msgstr "Nuwe Lêer"
+
+#: rc.cpp:720
+#, fuzzy
+msgid "Files"
+msgstr "Lêers:"
+
+#: rc.cpp:723
+#, fuzzy
+msgid "Highlight"
+msgstr "Verlig:"
+
+#: rc.cpp:726
+#, fuzzy
+msgid "Previous Hunk"
+msgstr "Vorige Fout"
+
+#: rc.cpp:729
+#, fuzzy
+msgid "Next Hunk"
+msgstr "Hex"
+
+#: rc.cpp:732
+#, fuzzy
+#| msgid "&Author:"
+msgid "Author:"
+msgstr "Outeur:"
+
+#: rc.cpp:735 rc.cpp:987 lib/plugins/vcs/cvs/editorsview.cpp:70
+#: lib/plugins/vcs/cvs/logview.cpp:67
+#, fuzzy
+msgid "User"
+msgstr "Gebruiker:"
+
+#: rc.cpp:738
+#, fuzzy
+msgid "Determine"
+msgstr "Kenmerk"
+
+#: rc.cpp:741
+#, fuzzy
+msgid "State:"
+msgstr "Begin:"
+
+#: rc.cpp:744
+#, fuzzy
+msgid "Access:"
+msgstr "Toegang verkry"
+
+#: rc.cpp:747
+msgid "recommended unapply-command:"
+msgstr ""
+
+#: rc.cpp:750
+msgid "Dependencies:"
+msgstr ""
+
+#: rc.cpp:753
+msgid "recommended apply-command:"
+msgstr ""
+
+#: rc.cpp:756
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\">N<span style=\" font-weight:600;\">ame:</span></"
+"p></body></html>"
+msgstr ""
+
+#: rc.cpp:759
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Type:</span></"
+"p></body></html>"
+msgstr ""
+
+#: rc.cpp:762
+#, fuzzy
+msgid "Choose"
+msgstr "Maak toe Alle"
+
+#: rc.cpp:765
+msgid "Description:"
+msgstr "Beskrywing:"
+
+#: rc.cpp:768
+msgid "Apply"
+msgstr ""
+
+#: rc.cpp:771
+msgid "Unapply"
+msgstr ""
+
+#: rc.cpp:774
+#, fuzzy
+msgid "Show"
+msgstr "hw %1"
+
+#: rc.cpp:777 rc.cpp:801 lib/plugins/vcs/subversion/subversion_view.cpp:65
+#, fuzzy
+msgid "Close"
+msgstr "Maak toe Alle"
+
+#: rc.cpp:783
+#, fuzzy
+msgid "Context-Lines:"
+msgstr "Konsep indeks"
+
+#: rc.cpp:786
+#, fuzzy
+msgid "Manage Patches"
+msgstr "Gids soeklys"
+
+#: rc.cpp:789
+#, fuzzy
+msgid "Available patches:"
+msgstr "veranderlike"
+
+#: rc.cpp:795 plugins/snippet/snippetview.cpp:124
+#: plugins/snippet/snippetview.cpp:146
+#, fuzzy
+msgid "Edit"
+msgstr "Redigeer..."
+
+#: rc.cpp:807
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">File</span>:</p></body></html>"
+msgstr ""
+
+#: rc.cpp:813
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration: underline;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
+"decoration:none;\">file</span></p></body></html>"
+msgstr ""
+
+#: rc.cpp:819
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\"><span "
+"style=\" font-weight:600;\">Position</span>: </p></body></html>"
+msgstr ""
+
+#: rc.cpp:825
+#, fuzzy
+msgid "position"
+msgstr "Voorwaarde"
+
+#: rc.cpp:828
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\"><span "
+"style=\" font-weight:600;\">Context</span>: </p></body></html>"
+msgstr ""
+
+#: rc.cpp:834
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration: underline;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
+"decoration:none;\">Context</span></p></body></html>"
+msgstr ""
+
+#: rc.cpp:840
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Reference-Type</span>: </p></body></html>"
+msgstr ""
+
+#: rc.cpp:846
+#, fuzzy
+msgid "referenceType"
+msgstr "$Appnaam$Deel"
+
+#: rc.cpp:855
+#, fuzzy
+msgid "From:"
+msgstr "Vorms"
+
+#: rc.cpp:858
+#, fuzzy
+msgid "Until:"
+msgstr "Data lêer"
+
+#: rc.cpp:861 rc.cpp:873
+msgid "All"
+msgstr "Alle"
+
+#: rc.cpp:867
+#, fuzzy
+msgid "Context:"
+msgstr "Lêer Konteks Kieslys"
+
+#: rc.cpp:876
+#, fuzzy
+msgid "Exit"
+msgstr "Redigeerder"
+
+#: rc.cpp:879
+#, fuzzy
+#| msgid "Enter log message:"
+msgid "Internal Message"
+msgstr "Invoer log boodskap:"
+
+#: rc.cpp:882
+#, fuzzy
+msgid "actions"
+msgstr "Aksie"
+
+#: rc.cpp:888 rc.cpp:948
+#, fuzzy
+msgid "Menu"
+msgstr "Voeg by Metode"
+
+#: rc.cpp:897
+#, fuzzy
+msgid "TextLabel"
+msgstr "Inkeep etikette"
+
+#: rc.cpp:900
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Name</span>:</p></body></html>"
+msgstr ""
+
+#: rc.cpp:909
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">E-Mail</span>:</p></body></html>"
+msgstr ""
+
+#: rc.cpp:915
+#, fuzzy
+msgid "E-Mail"
+msgstr "E-pos:"
+
+#: rc.cpp:918
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">State</span>:</p></body></html>"
+msgstr ""
+
+#: rc.cpp:924
+#, fuzzy
+msgid "IP-Adress"
+msgstr "Voeg by Klas"
+
+#: rc.cpp:927 rc.cpp:969
+#, fuzzy
+msgid "State"
+msgstr "Begin:"
+
+#: rc.cpp:930
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">IP-Adress</span>:</p></body></html>"
+msgstr ""
+
+#: rc.cpp:936
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Rights</span>: </p></body></html>"
+msgstr ""
+
+#: rc.cpp:942
+#, fuzzy
+msgid "Rights"
+msgstr "Verlig Modus"
+
+#: rc.cpp:954
+msgid "Is Reply To"
+msgstr ""
+
+#: rc.cpp:957 rc.cpp:960
+#, fuzzy
+msgid "Text"
+msgstr "Hex"
+
+#: rc.cpp:963
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">State</span>: </p></body></html>"
+msgstr ""
+
+#: rc.cpp:972
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Time</span>: </p></body></html>"
+msgstr ""
+
+#: rc.cpp:978
+#, fuzzy
+msgid "Time"
+msgstr "Titel"
+
+#: rc.cpp:981
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">User</span>:</p></body></html>"
+msgstr ""
+
+#: rc.cpp:990
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Direction</span>: </p></body></html>"
+msgstr ""
+
+#: rc.cpp:996
+#, fuzzy
+msgid "Direction"
+msgstr "Gids"
+
+#: rc.cpp:1005
 #, fuzzy
 msgid "Final Location:"
 msgstr "Ligging:"
 
-#: rc.cpp:540 rc.cpp:575
+#: rc.cpp:1008 rc.cpp:1043
 #, fuzzy
 msgid "Location:"
 msgstr "Ligging:"
 
-#: rc.cpp:543
+#: rc.cpp:1011
 #, fuzzy
 msgid "Application Name:"
 msgstr "Aansoek naam:"
 
-#: rc.cpp:546
+#: rc.cpp:1014
 msgid "(invalid)"
 msgstr ""
 
-#: rc.cpp:549
+#: rc.cpp:1017
 msgid "Display document categories (mimetypes) in the view"
 msgstr ""
 
-#: rc.cpp:552
+#: rc.cpp:1020
 msgid ""
 "If this option is set, the Document View will organize documents\n"
 "        by their mimetype. If this option is not set, the Document View will "
@@ -715,126 +1382,126 @@ msgid ""
 "        organize the open documents by type."
 msgstr ""
 
-#: rc.cpp:557
+#: rc.cpp:1025
 #, fuzzy
 msgid "Form2"
 msgstr "Vorm1"
 
-#: rc.cpp:560
+#: rc.cpp:1028
 msgid "Display document &categories"
 msgstr ""
 
-#: rc.cpp:566
+#: rc.cpp:1034
 #, fuzzy
 msgid "Add an existing Repository"
 msgstr "Voeg by na Stoorplek"
 
-#: rc.cpp:569 rc.cpp:593 rc.cpp:620
+#: rc.cpp:1037 rc.cpp:1061 rc.cpp:1088
 msgid "..."
 msgstr "..."
 
-#: rc.cpp:572
+#: rc.cpp:1040
 msgid "Name:"
 msgstr "Naam:"
 
-#: rc.cpp:578
+#: rc.cpp:1046
 #, fuzzy
 msgid "Edit Snippet"
 msgstr "Voeg by item"
 
-#: rc.cpp:581 plugins/snippet/snippetview.cpp:119
+#: rc.cpp:1049 plugins/snippet/snippetview.cpp:119
 #, fuzzy
 msgid "Snippet"
 msgstr "Voeg by item"
 
-#: rc.cpp:587
+#: rc.cpp:1055
 msgid "Keywords"
 msgstr ""
 
-#: rc.cpp:590
+#: rc.cpp:1058
 #, fuzzy
 msgid "Move Repository"
 msgstr "Voeg by na Stoorplek"
 
-#: rc.cpp:596
+#: rc.cpp:1064
 #, fuzzy
 msgid "New Location"
 msgstr "Ligging:"
 
-#: rc.cpp:602
+#: rc.cpp:1070
 #, fuzzy
 msgid "Variable Substitution"
 msgstr "Substitusie"
 
-#: rc.cpp:614
+#: rc.cpp:1082
 msgid "Define filter here"
 msgstr ""
 
-#: rc.cpp:617
+#: rc.cpp:1085
 #, fuzzy
 msgid "Apply filter"
 msgstr "Invoer filter"
 
-#: rc.cpp:623
+#: rc.cpp:1091
 msgid "Valgrind"
 msgstr ""
 
-#: rc.cpp:626
+#: rc.cpp:1094
 #, fuzzy
 msgid "&Executable:"
 msgstr "Uitvoerbare:"
 
-#: rc.cpp:629
+#: rc.cpp:1097
 #, fuzzy
 msgid "&Parameters:"
 msgstr "Parameters:"
 
-#: rc.cpp:632
+#: rc.cpp:1100
 msgid "Callgrind"
 msgstr ""
 
-#: rc.cpp:635 rc.cpp:659
+#: rc.cpp:1103 rc.cpp:1127
 #, fuzzy
 msgid "&Trace children"
 msgstr "Vertoon kinders"
 
-#: rc.cpp:638 rc.cpp:665
+#: rc.cpp:1106 rc.cpp:1133
 msgid "E&xecutable:"
 msgstr "Uitvoerbare:"
 
-#: rc.cpp:641 rc.cpp:662
+#: rc.cpp:1109 rc.cpp:1130
 #, fuzzy
 msgid "Additional p&arameters:"
 msgstr "Aditionele Parameters:"
 
-#: rc.cpp:644
+#: rc.cpp:1112
 #, fuzzy
 msgid "KCacheGrind"
 msgstr "Etiket nie gevind"
 
-#: rc.cpp:647
+#: rc.cpp:1115
 #, fuzzy
 msgid "Executable:"
 msgstr "Uitvoerbare:"
 
-#: rc.cpp:650
+#: rc.cpp:1118
 msgid "Memcheck"
 msgstr ""
 
-#: rc.cpp:653
+#: rc.cpp:1121
 msgid "Memory &leak check"
 msgstr ""
 
-#: rc.cpp:656
+#: rc.cpp:1124
 msgid "&Show still reachable blocks"
 msgstr ""
 
-#: rc.cpp:677
+#: rc.cpp:1145
 #, fuzzy
 msgid "F&orm"
 msgstr "Vorms"
 
-#: rc.cpp:683
+#: rc.cpp:1151
 #, fuzzy
 msgid "Designer Layout Toolbar"
 msgstr "Bou Nutsbalk"
@@ -1285,6 +1952,69 @@ msgstr ""
 msgid "Document Externally Modified"
 msgstr "Verwyder alle bygevoeg lêers."
 
+#: lib/libdiff2/komparemodellist.cpp:240 lib/libdiff2/komparemodellist.cpp:264
+#, qt-format
+msgid ""
+"<qt>No models or no differences, this file: <b>%1</b>, is not a valid diff "
+"file.</qt>"
+msgstr ""
+
+#: lib/libdiff2/komparemodellist.cpp:248
+#, qt-format
+msgid ""
+"<qt>There were problems applying the diff <b>%1</b> to the file <b>%2</b>.</"
+"qt>"
+msgstr ""
+
+#: lib/libdiff2/komparemodellist.cpp:273
+#, qt-format
+msgid ""
+"<qt>There were problems applying the diff <b>%1</b> to the folder <b>%2</b>."
+"</qt>"
+msgstr ""
+
+#: lib/libdiff2/komparemodellist.cpp:301 lib/libdiff2/komparemodellist.cpp:578
+#, fuzzy
+msgid "Could not open a temporary file."
+msgstr "Konfigureer lêer"
+
+#: lib/libdiff2/komparemodellist.cpp:352
+#, qt-format
+msgid "<qt>Could not write to the temporary file <b>%1</b>, deleting it.</qt>"
+msgstr ""
+
+#: lib/libdiff2/komparemodellist.cpp:371
+#, qt-format
+msgid ""
+"<qt>Could not create destination directory <b>%1</b>.\n"
+"The file has not been saved.</qt>"
+msgstr ""
+
+#: lib/libdiff2/komparemodellist.cpp:386
+#, qt-format
+msgid ""
+"<qt>Could not upload the temporary file to the destination location <b>%1</"
+"b>. The temporary file is still available under: <b>%2</b>. You can manually "
+"copy it to the right place.</qt>"
+msgstr ""
+
+#: lib/libdiff2/komparemodellist.cpp:431 lib/libdiff2/komparemodellist.cpp:544
+#, fuzzy
+msgid "Could not parse diff output."
+msgstr "Kon nie lees projek lêer: %1"
+
+#: lib/libdiff2/komparemodellist.cpp:447
+#, fuzzy
+#| msgid "This file is already in the target."
+msgid "The files are identical."
+msgstr "Hierdie lêer is alreeds in die teiken."
+
+#: lib/libdiff2/komparemodellist.cpp:609
+#, fuzzy
+#| msgid "Could not write the project file."
+msgid "Could not write to the temporary file."
+msgstr "Kon nie skryf die projek lêer."
+
 #: lib/plugins/vcs/cvs/importdialog.cpp:50
 msgid "Error on importing"
 msgstr ""
@@ -1313,11 +2043,6 @@ msgstr "Wat loop htdig gevaal"
 #: lib/plugins/vcs/cvs/editorsview.cpp:62
 msgid "No files from your query are marked as being edited."
 msgstr ""
-
-#: lib/plugins/vcs/cvs/editorsview.cpp:70 lib/plugins/vcs/cvs/logview.cpp:67
-#, fuzzy
-msgid "User"
-msgstr "Gebruiker:"
 
 #: lib/plugins/vcs/cvs/editorsview.cpp:71 lib/plugins/vcs/cvs/logview.cpp:68
 #: lib/plugins/vcs/subversion/svn_models.cpp:220
@@ -1709,11 +2434,6 @@ msgstr ""
 msgid "Notification"
 msgstr "Nee optimisering"
 
-#: lib/plugins/vcs/subversion/subversion_view.cpp:65
-#, fuzzy
-msgid "Close"
-msgstr "Maak toe Alle"
-
 #: lib/plugins/vcs/subversion/subversion_view.cpp:69
 #, fuzzy
 msgid "Subversion"
@@ -1804,11 +2524,6 @@ msgstr "Outeur:"
 #, fuzzy
 msgid "Contents"
 msgstr "Kliënte"
-
-#: lib/plugins/vcs/subversion/svn_models.cpp:277
-#, fuzzy
-msgid "Comment"
-msgstr "Kommentaar:"
 
 #: lib/plugins/vcs/subversion/svnkjobbase.cpp:67
 #, fuzzy
@@ -2300,6 +3015,11 @@ msgstr "Installeer"
 msgid "Uninstalled headers"
 msgstr "Installeer"
 
+#: plugins/teamwork/documentwrapper.cpp:172
+#, qt-format
+msgid "The buffer of %1 is modified, should the content be replaced?"
+msgstr ""
+
 #: plugins/filemanager/filemanager.cpp:140
 #: plugins/filemanager/filemanager.cpp:260
 #, fuzzy
@@ -2415,11 +3135,6 @@ msgstr "Normale modus"
 msgid "&Aggregate"
 msgstr "Skep"
 
-#: plugins/codeview/kdevcodeview.cpp:112 plugins/codeview/kdevcodeview.cpp:116
-#, fuzzy
-msgid "Filter"
-msgstr "Lêer Boom"
-
 #: plugins/snippet/snippetview.cpp:103 plugins/snippet/snippetpart.cpp:52
 #, fuzzy
 msgid "Snippets"
@@ -2433,11 +3148,6 @@ msgstr "Voeg by na Stoorplek"
 #: plugins/snippet/snippetview.cpp:121 plugins/snippet/snippetview.cpp:137
 msgid "Sync"
 msgstr "Sinkronisasie"
-
-#: plugins/snippet/snippetview.cpp:124 plugins/snippet/snippetview.cpp:146
-#, fuzzy
-msgid "Edit"
-msgstr "Redigeer..."
 
 #: plugins/snippet/snippetview.cpp:127
 #, fuzzy
@@ -2652,10 +3362,6 @@ msgstr "Kdevelop"
 #~ msgstr "Dokumentasie:"
 
 #, fuzzy
-#~ msgid "KSqueezedTextLabel"
-#~ msgstr "Inkeep etikette"
-
-#, fuzzy
 #~ msgid "&Cancel"
 #~ msgstr "Klas naam:"
 
@@ -2691,15 +3397,8 @@ msgstr "Kdevelop"
 #~ msgstr "Weergawe:"
 
 #, fuzzy
-#~ msgid "Email:"
-#~ msgstr "E-pos:"
-
-#, fuzzy
 #~ msgid "Project directory:"
 #~ msgstr "Huis gids"
-
-#~ msgid "Description:"
-#~ msgstr "Beskrywing:"
 
 #, fuzzy
 #~ msgid "Absolute Path"
@@ -2854,10 +3553,6 @@ msgstr "Kdevelop"
 
 #~ msgid " Line: %1 Col: %2 "
 #~ msgstr " Lyn: %1 Kolom: %2 "
-
-#, fuzzy
-#~ msgid "Untitled"
-#~ msgstr "Data lêer"
 
 #, fuzzy
 #~ msgid "Document to open"
@@ -3068,10 +3763,6 @@ msgstr "Kdevelop"
 #~ msgstr "Toets string:"
 
 #, fuzzy
-#~ msgid "&Replacement text:"
-#~ msgstr "Vervang Teks"
-
-#, fuzzy
 #~ msgid "C&apture output"
 #~ msgstr "Vang uitset"
 
@@ -3211,10 +3902,6 @@ msgstr "Kdevelop"
 #~ msgid "Could not find our part."
 #~ msgstr "Kon nie open lêer vir om te skryf."
 
-#, fuzzy
-#~ msgid "Developer"
-#~ msgstr "Kdevelop"
-
 #~ msgid "&Plugin Action"
 #~ msgstr "Inplak Aksie"
 
@@ -3236,10 +3923,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "You have to select a file to import."
 #~ msgstr "Jy het na kies 'n metode."
-
-#, fuzzy
-#~ msgid "No File"
-#~ msgstr "Nuwe Lêer"
 
 #, fuzzy
 #~ msgid "Helpful information about the %{APPNAMELC} module."
@@ -3430,10 +4113,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "&Save As..."
 #~ msgstr "Stooring..."
-
-#, fuzzy
-#~ msgid "Highlight Syntax"
-#~ msgstr "Verlig:"
 
 #, fuzzy
 #~ msgid "Unable to open file."
@@ -3761,9 +4440,6 @@ msgstr "Kdevelop"
 #~ "Die bron lêer en stel Die plekaanduier na Die lyn wat veroorsaak Die "
 #~ "saamsteller fout/waarskuwing."
 
-#~ msgid "Messages"
-#~ msgstr "Boodskappe"
-
 #, fuzzy
 #~ msgid "Compiler output messages"
 #~ msgstr "Kompileer Lêer"
@@ -3824,10 +4500,6 @@ msgstr "Kdevelop"
 #~ msgstr "Open Met"
 
 #, fuzzy
-#~ msgid "&Available:"
-#~ msgstr "veranderlike"
-
-#, fuzzy
 #~ msgid "&Selected:"
 #~ msgstr "Gekose:"
 
@@ -3877,10 +4549,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "No."
 #~ msgstr "Nee"
-
-#, fuzzy
-#~ msgid "Thread"
-#~ msgstr "Rygdraad"
 
 #, fuzzy
 #~ msgid "Expand All Items"
@@ -4109,10 +4777,6 @@ msgstr "Kdevelop"
 #~ "'Generate Qwidget kind klas' die nuwe klas sal\n"
 #~ "wees afgelei van Qwidget. As nee basis klas is genaamd, die\n"
 #~ "nuwe klas sal nie het 'n ouer klas."
-
-#, fuzzy
-#~ msgid "Local"
-#~ msgstr "plaaslike"
 
 #~ msgid "Virtual"
 #~ msgstr "Virtuele"
@@ -4408,10 +5072,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "&Inline"
 #~ msgstr "Inlyn Wiskunde"
-
-#, fuzzy
-#~ msgid "Acce&ss:"
-#~ msgstr "Toegang verkry"
 
 #, fuzzy
 #~ msgid "I&mplementation File"
@@ -4955,9 +5615,6 @@ msgstr "Kdevelop"
 #~ msgid "Ar&guments:"
 #~ msgstr "Argumente:"
 
-#~ msgid "All"
-#~ msgstr "Alle"
-
 #~ msgid "Only the following:"
 #~ msgstr "Slegs die volgende:"
 
@@ -5024,10 +5681,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "This Project has Standard &Trunk/Branches/Tags/Directories"
 #~ msgstr "Hierdie projek hou sub-gidse"
-
-#, fuzzy
-#~ msgid "Local Directory"
-#~ msgstr "Gids"
 
 #, fuzzy
 #~ msgid "C&heckout in:"
@@ -5193,10 +5846,6 @@ msgstr "Kdevelop"
 #~ msgstr "Gebruik pasmaak opsies"
 
 #, fuzzy
-#~ msgid "Con&text lines:"
-#~ msgstr "Konsep indeks"
-
-#, fuzzy
 #~ msgid "&Init Local Repository..."
 #~ msgstr "Stuur in (stoorplek)"
 
@@ -5233,10 +5882,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "<H2>Project Packaging & Publishing</H2>"
 #~ msgstr "<H1>Projek Verpakking en Publisering</H1>"
-
-#, fuzzy
-#~ msgid "&Source Distribution"
-#~ msgstr "Bron Verspreiding"
 
 #, fuzzy
 #~ msgid "&Use custom options"
@@ -5448,9 +6093,6 @@ msgstr "Kdevelop"
 
 #~ msgid "&Email:"
 #~ msgstr "E-pos:"
-
-#~ msgid "&Author:"
-#~ msgstr "Outeur:"
 
 #, fuzzy
 #~ msgid "Vcs Form"
@@ -6054,10 +6696,6 @@ msgstr "Kdevelop"
 #~ msgstr "10"
 
 #, fuzzy
-#~ msgid "Type:"
-#~ msgstr "Tipe:"
-
-#, fuzzy
 #~ msgid "Find Documentation Options"
 #~ msgstr "Dokumentasie Boom"
 
@@ -6099,16 +6737,8 @@ msgstr "Kdevelop"
 #~ msgstr "Skuilname"
 
 #, fuzzy
-#~ msgid "Never"
-#~ msgstr "Ongedaan maak"
-
-#, fuzzy
 #~ msgid "Icons"
 #~ msgstr "Ikoon:"
-
-#, fuzzy
-#~ msgid "Text"
-#~ msgstr "Hex"
 
 #, fuzzy
 #~ msgid "Text and icons"
@@ -7061,10 +7691,6 @@ msgstr "Kdevelop"
 #~ msgstr "Kode Voltooiïng"
 
 #, fuzzy
-#~ msgid "&Connections:"
-#~ msgstr "Seksie:"
-
-#, fuzzy
 #~ msgid "&Edit Slots..."
 #~ msgstr "Redigeer..."
 
@@ -7117,10 +7743,6 @@ msgstr "Kdevelop"
 #~ msgstr "Genereer skakel"
 
 #, fuzzy
-#~ msgid "Shadow"
-#~ msgstr "hw %1"
-
-#, fuzzy
 #~ msgid "Select co&lor:"
 #~ msgstr "module"
 
@@ -7149,10 +7771,6 @@ msgstr "Kdevelop"
 #~ msgstr "Kas sensitief"
 
 #, fuzzy
-#~ msgid "Direction"
-#~ msgstr "Gids"
-
-#, fuzzy
 #~ msgid "Forwar&d"
 #~ msgstr "Vorentoe"
 
@@ -7177,10 +7795,6 @@ msgstr "Kdevelop"
 #~ msgstr "Dokumentasie:"
 
 #, fuzzy
-#~ msgid "Connect"
-#~ msgstr "Gaan voort"
-
-#, fuzzy
 #~ msgid "Connection Details"
 #~ msgstr "Skep hoof metode"
 
@@ -7203,10 +7817,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "&Delete Item"
 #~ msgstr "Gekose teks"
-
-#, fuzzy
-#~ msgid "Delete item"
-#~ msgstr "Kenmerk"
 
 #, fuzzy
 #~ msgid "Delete the selected item."
@@ -7275,10 +7885,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "&Baseclass for template:"
 #~ msgstr "Klas werkvoorbeeld:"
-
-#, fuzzy
-#~ msgid "Preferences"
-#~ msgstr "$Appnaam$Deel"
 
 #, fuzzy
 #~ msgid "File Saving"
@@ -7441,10 +8047,6 @@ msgstr "Kdevelop"
 #~ msgstr "Die klas van fout."
 
 #, fuzzy
-#~ msgid "Edit Palette"
-#~ msgstr "Patroon"
-
-#, fuzzy
 #~ msgid "Build Palette"
 #~ msgstr "Bou Teiken"
 
@@ -7600,10 +8202,6 @@ msgstr "Kdevelop"
 
 #~ msgid "protected"
 #~ msgstr "beskerm"
-
-#, fuzzy
-#~ msgid "Change slot access"
-#~ msgstr "Voeg by Teiken..."
 
 #, fuzzy
 #~ msgid "N&ew Slot"
@@ -7946,10 +8544,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "&Delete Connection"
 #~ msgstr "Uitvee Groep"
-
-#, fuzzy
-#~ msgid "Connection"
-#~ msgstr "Voorwaarde"
 
 #, fuzzy
 #~ msgid "Edit Functions"
@@ -8840,10 +9434,6 @@ msgstr "Kdevelop"
 #~ msgstr "Gaan voort uitvoering totdat die plekaanduier posisie is bereik"
 
 #, fuzzy
-#~ msgid "Jump to cursor"
-#~ msgstr "Hardloop na Plekaanduier"
-
-#, fuzzy
 #~ msgid ""
 #~ "<b>Set Execution Position </b><p>Set the execution pointer to the current "
 #~ "cursor position."
@@ -9169,9 +9759,6 @@ msgstr "Kdevelop"
 #~ msgid "Set focus on window that had focus when KDevelop got focus."
 #~ msgstr "Stel fokus op venster wat moes fokus wanneer \"kdev\" was gedruk"
 
-#~ msgid "gdb message:\n"
-#~ msgstr "gbd boodskap:\n"
-
 #, fuzzy
 #~ msgid "The symbols gdb resolves may be suspect"
 #~ msgstr "Enige simbole gbd oplos word suspisuees"
@@ -9245,16 +9832,8 @@ msgstr "Kdevelop"
 #~ msgstr "Wissel Uitkykpunt"
 
 #, fuzzy
-#~ msgid "Address"
-#~ msgstr "Voeg by Klas"
-
-#, fuzzy
 #~ msgid "Method()"
 #~ msgstr "Metode"
-
-#, fuzzy
-#~ msgid "Condition"
-#~ msgstr "Voorwaarde"
 
 #, fuzzy
 #~ msgid "Ignore Count"
@@ -9267,10 +9846,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "Disable"
 #~ msgstr "Gestremde"
-
-#, fuzzy
-#~ msgid "Enable"
-#~ msgstr "Aktiveer"
 
 #~ msgid "Variable Tree"
 #~ msgstr "Veranderlike Boom"
@@ -9326,10 +9901,6 @@ msgstr "Kdevelop"
 
 #~ msgid "Memory/Misc Viewer"
 #~ msgstr "Geheue/Allerande Aansig"
-
-#, fuzzy
-#~ msgid "&Start:"
-#~ msgstr "Begin:"
 
 #, fuzzy
 #~ msgid "Amount/&End address (memory/disassemble):"
@@ -9457,11 +10028,6 @@ msgstr "Kdevelop"
 #~ msgctxt "Breakpoint state. The 'add ' state is appended to the other states"
 #~ msgid "add "
 #~ msgstr "voeg by "
-
-#~ msgctxt ""
-#~ "Breakpoint state. The 'clear ' state is appended to the other states"
-#~ msgid "clear "
-#~ msgstr "maak skoon "
 
 #~ msgctxt ""
 #~ "Breakpoint state. The 'modify ' state is appended to the other states"
@@ -10360,10 +10926,6 @@ msgstr "Kdevelop"
 #~ msgstr "Begin soek"
 
 #, fuzzy
-#~ msgid "Enable optimizations"
-#~ msgstr "Optimisering"
-
-#, fuzzy
 #~ msgid "Debug information"
 #~ msgstr "Lêer Informasie"
 
@@ -10770,9 +11332,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "No Difference Found"
 #~ msgstr "Nee Verskille Gevind"
-
-#~ msgid "Enter log message:"
-#~ msgstr "Invoer log boodskap:"
 
 #, fuzzy
 #~ msgid "Reserve"
@@ -11660,11 +12219,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "&Remove Favorite"
 #~ msgstr "Verwyder skoop..."
-
-#, fuzzy
-#~ msgctxt "no version control system"
-#~ msgid "None"
-#~ msgstr "Weergawe Nee:"
 
 #, fuzzy
 #~ msgid "Version Control System"
@@ -13032,10 +13586,6 @@ msgstr "Kdevelop"
 #~ msgstr "'n subgidse projek"
 
 #, fuzzy
-#~ msgid "All Files"
-#~ msgstr "Alle lêers (*)"
-
-#, fuzzy
 #~ msgid "Insert Existing Files"
 #~ msgstr "Voeg by bestaande lêers..."
 
@@ -13595,10 +14145,6 @@ msgstr "Kdevelop"
 #~ "kan wees gekonfigureer deur jy."
 
 #, fuzzy
-#~ msgid "Clean"
-#~ msgstr "Kliënt:"
-
-#, fuzzy
 #~ msgid ""
 #~ "<qt><b>Clean</b><p>Runs <b>make clean</b> from the directory of the "
 #~ "selected subproject.<br> Environment variables and make arguments can be "
@@ -13789,9 +14335,6 @@ msgstr "Kdevelop"
 #~ msgid "You have to enter a service name."
 #~ msgstr "Jy het na invoer 'n diens naam."
 
-#~ msgid "This file is already in the target."
-#~ msgstr "Hierdie lêer is alreeds in die teiken."
-
 #, fuzzy
 #~ msgid ""
 #~ "<b>A file with this name already exists.</b><br><br>Please use the \"Add "
@@ -13927,10 +14470,6 @@ msgstr "Kdevelop"
 #~ msgstr "Oortjie wydte:"
 
 #, fuzzy
-#~ msgid "height"
-#~ msgstr "Verlig Modus"
-
-#, fuzzy
 #~ msgid "Green"
 #~ msgstr "Grep"
 
@@ -14013,10 +14552,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "Signal Handlers"
 #~ msgstr "Spesiaal Funksienaam"
-
-#, fuzzy
-#~ msgid "Actions"
-#~ msgstr "Aksie"
 
 #, fuzzy
 #~ msgid "New &Action"
@@ -14131,10 +14666,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "Preferences..."
 #~ msgstr "$Appnaam$Deel"
-
-#, fuzzy
-#~ msgid "Find"
-#~ msgstr "Soek"
 
 #, fuzzy
 #~ msgid "Find Incremental"
@@ -14297,10 +14828,6 @@ msgstr "Kdevelop"
 #~ msgstr "Stooring..."
 
 #, fuzzy
-#~ msgid "Save All"
-#~ msgstr "Stoor Alle"
-
-#, fuzzy
 #~ msgid "Sa&ve All"
 #~ msgstr "Stoor Alle"
 
@@ -14323,10 +14850,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "Recently Opened Projects"
 #~ msgstr "Maak oop 'n onlangse projek"
-
-#, fuzzy
-#~ msgid "Exit"
-#~ msgstr "Redigeerder"
 
 #, fuzzy
 #~ msgid "Pr&oject"
@@ -14377,10 +14900,6 @@ msgstr "Kdevelop"
 #~ msgstr "Maak oop 'n projek"
 
 #, fuzzy
-#~ msgid "Tile"
-#~ msgstr "Titel"
-
-#, fuzzy
 #~ msgid "Cascade"
 #~ msgstr "Klasse"
 
@@ -14401,20 +14920,12 @@ msgstr "Kdevelop"
 #~ msgstr "Kies lêers"
 
 #, fuzzy
-#~ msgid "Next"
-#~ msgstr "Hex"
-
-#, fuzzy
 #~ msgid "Ne&xt"
 #~ msgstr "Hex"
 
 #, fuzzy
 #~ msgid "Activates the next window"
 #~ msgstr "Stappe bo die volgende lyn"
-
-#, fuzzy
-#~ msgid "Previous"
-#~ msgstr "Vorige Fout"
 
 #, fuzzy
 #~ msgid "Pre&vious"
@@ -14775,10 +15286,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "new separator"
 #~ msgstr "Voeg by 'n nuwe parameter"
-
-#, fuzzy
-#~ msgid "Add Menu"
-#~ msgstr "Voeg by Metode"
 
 #, fuzzy
 #~ msgid "separator"
