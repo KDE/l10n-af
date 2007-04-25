@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-24 05:57+0200\n"
+"POT-Creation-Date: 2007-04-25 06:03+0200\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -171,9 +171,9 @@ msgstr "module"
 msgid "Tag/Branch:"
 msgstr "Verwyder breekpunt"
 
-#: rc.cpp:102 rc.cpp:147 rc.cpp:201 rc.cpp:510 rc.cpp:516 rc.cpp:531
-#: rc.cpp:648 rc.cpp:654 rc.cpp:657 rc.cpp:678 rc.cpp:780 rc.cpp:804
-#: rc.cpp:849 rc.cpp:885 rc.cpp:945 rc.cpp:999 rc.cpp:1079
+#: rc.cpp:102 rc.cpp:147 rc.cpp:213 rc.cpp:522 rc.cpp:528 rc.cpp:543
+#: rc.cpp:660 rc.cpp:666 rc.cpp:669 rc.cpp:690 rc.cpp:792 rc.cpp:816
+#: rc.cpp:861 rc.cpp:897 rc.cpp:957 rc.cpp:1011 rc.cpp:1091
 #, fuzzy
 msgid "Form"
 msgstr "Vorms"
@@ -183,7 +183,7 @@ msgstr "Vorms"
 msgid "Commit to Repository"
 msgstr "Stuur in (stoorplek)"
 
-#: rc.cpp:108 rc.cpp:588
+#: rc.cpp:108 rc.cpp:600
 #, fuzzy
 msgid "Message"
 msgstr "Boodskappe"
@@ -192,7 +192,7 @@ msgstr "Boodskappe"
 msgid "Editors"
 msgstr "Redigeerders"
 
-#: rc.cpp:114 rc.cpp:633 rc.cpp:663 lib/plugins/vcs/cvs/cvspart.cpp:347
+#: rc.cpp:114 rc.cpp:645 rc.cpp:675 lib/plugins/vcs/cvs/cvspart.cpp:347
 #, fuzzy
 msgid "Log"
 msgstr "Log"
@@ -244,624 +244,644 @@ msgstr "Subprojek Opsies"
 
 #: rc.cpp:153
 #, fuzzy
+#| msgid "No such file or directory."
+msgid "Source file or directory"
+msgstr "Nee soos lêer of gids."
+
+#: rc.cpp:156
+#, fuzzy
+msgid "Target repository Url. "
+msgstr "Invoer die naam van die inskrywing hier."
+
+#: rc.cpp:159
+#, fuzzy
+msgid "Non recursive"
+msgstr "Voorbeeld patrone"
+
+#: rc.cpp:162
+msgid "disregard default and svn:ignore property ignores"
+msgstr ""
+
+#: rc.cpp:165
+#, fuzzy
 msgid "Subversion Login"
 msgstr "Subprojek Opsies"
 
-#: rc.cpp:156
+#: rc.cpp:168
 #, fuzzy
 msgid "Login for"
 msgstr "Besig om te soek vir %1..."
 
-#: rc.cpp:159
+#: rc.cpp:171
 #, fuzzy
 msgid "Username"
 msgstr "Gebruiker Koppelvlak"
 
-#: rc.cpp:162
+#: rc.cpp:174
 #, fuzzy
 msgid "Password"
 msgstr "Prioriteit:"
 
-#: rc.cpp:165
+#: rc.cpp:177
 #, fuzzy
 msgid "Save Password"
 msgstr "Prioriteit:"
 
-#: rc.cpp:168 rc.cpp:171
+#: rc.cpp:180 rc.cpp:183
 #, fuzzy
 msgid "Select Files to commit"
 msgstr "Voeg by Nuwe Geskep Lêer na Teiken"
 
-#: rc.cpp:174
+#: rc.cpp:186
 msgid "Chk"
 msgstr ""
 
-#: rc.cpp:177
+#: rc.cpp:189
 #, fuzzy
 msgid "Status"
 msgstr "Begin:"
 
-#: rc.cpp:180
+#: rc.cpp:192
 #, fuzzy
 msgid "Files to commit"
 msgstr "Lêer Na Open"
 
-#: rc.cpp:183
+#: rc.cpp:195
 msgid "Keep Locks after commit"
 msgstr ""
 
-#: rc.cpp:186
+#: rc.cpp:198
 #, fuzzy
 msgid "Recursive"
 msgstr "Rekursief"
 
-#: rc.cpp:189
+#: rc.cpp:201
 msgid "O&K"
 msgstr ""
 
-#: rc.cpp:192
+#: rc.cpp:204
 msgid "Alt+K"
 msgstr ""
 
-#: rc.cpp:195
+#: rc.cpp:207
 #, fuzzy
 msgid "C&ancel"
 msgstr "Klas naam:"
 
-#: rc.cpp:198 rc.cpp:1031
+#: rc.cpp:210 rc.cpp:1043
 msgid "Alt+A"
 msgstr ""
 
-#: rc.cpp:204
+#: rc.cpp:216
 msgid "Logview"
 msgstr ""
 
-#: rc.cpp:207
+#: rc.cpp:219
 msgid "Update immediate childrens only (non-recursive)"
 msgstr ""
 
-#: rc.cpp:210
+#: rc.cpp:222
 #, fuzzy
 msgid "Ignore external entries"
 msgstr "Dokument intern entiteite"
 
-#: rc.cpp:213
+#: rc.cpp:225
 #, fuzzy
 msgid "Select Revision"
 msgstr "Afdelings"
 
-#: rc.cpp:216
+#: rc.cpp:228
 msgid "HEAD"
 msgstr ""
 
-#: rc.cpp:219 rc.cpp:270 rc.cpp:276 rc.cpp:303 rc.cpp:324
+#: rc.cpp:231 rc.cpp:282 rc.cpp:288 rc.cpp:315 rc.cpp:336
 msgid "Specify By Keyword"
 msgstr ""
 
-#: rc.cpp:222 rc.cpp:267 rc.cpp:279 rc.cpp:306 rc.cpp:321
+#: rc.cpp:234 rc.cpp:279 rc.cpp:291 rc.cpp:318 rc.cpp:333
 msgid "Specify By Date"
 msgstr ""
 
-#: rc.cpp:225 rc.cpp:264 rc.cpp:282 rc.cpp:309 rc.cpp:318
+#: rc.cpp:237 rc.cpp:276 rc.cpp:294 rc.cpp:321 rc.cpp:330
 #, fuzzy
 msgid "Specify By number"
 msgstr "Identifiseerder"
 
-#: rc.cpp:228 rc.cpp:285 rc.cpp:294 rc.cpp:1073
+#: rc.cpp:240 rc.cpp:297 rc.cpp:306 rc.cpp:1085
 #: lib/plugins/vcs/subversion/svn_blamewidgets.cpp:56
 msgid "OK"
 msgstr ""
 
-#: rc.cpp:231 rc.cpp:288 rc.cpp:297 rc.cpp:1076
+#: rc.cpp:243 rc.cpp:300 rc.cpp:309 rc.cpp:1088
 #: lib/plugins/vcs/subversion/svn_blamewidgets.cpp:57
 #, fuzzy
 msgid "Cancel"
 msgstr "Klas naam:"
 
-#: rc.cpp:234
+#: rc.cpp:246
 #, fuzzy
 msgid "SSL Server Certificate"
 msgstr "Ontfouter Opstelling"
 
-#: rc.cpp:237
+#: rc.cpp:249
 #, fuzzy
 msgid "Item"
 msgstr "Item:"
 
-#: rc.cpp:240 plugins/snippet/snippetvariablemodel.cpp:132
+#: rc.cpp:252 plugins/snippet/snippetvariablemodel.cpp:132
 msgid "Value"
 msgstr "Waarde"
 
-#: rc.cpp:243
-msgid "Save Permanently"
-msgstr ""
-
-#: rc.cpp:246
-#, fuzzy
-msgid "Accept"
-msgstr "Toegang verkry"
-
-#: rc.cpp:249
-#, fuzzy
-msgid "Reject"
-msgstr "Onlangse"
-
-#: rc.cpp:252
-#, fuzzy
-msgid "Annotate Type"
-msgstr "Inkeping"
-
 #: rc.cpp:255
-msgid "Working Copy Annotation"
+msgid "Save Permanently"
 msgstr ""
 
 #: rc.cpp:258
 #, fuzzy
+msgid "Accept"
+msgstr "Toegang verkry"
+
+#: rc.cpp:261
+#, fuzzy
+msgid "Reject"
+msgstr "Onlangse"
+
+#: rc.cpp:264
+#, fuzzy
+msgid "Annotate Type"
+msgstr "Inkeping"
+
+#: rc.cpp:267
+msgid "Working Copy Annotation"
+msgstr ""
+
+#: rc.cpp:270
+#, fuzzy
 msgid "Repository Annotation"
 msgstr "verwyder opsies"
 
-#: rc.cpp:261 rc.cpp:315
+#: rc.cpp:273 rc.cpp:327
 #, fuzzy
 msgid "End Revision"
 msgstr "Afdelings"
 
-#: rc.cpp:273 rc.cpp:300
+#: rc.cpp:285 rc.cpp:312
 #, fuzzy
 msgid "Start Revision"
 msgstr "Afdelings"
 
-#: rc.cpp:291
+#: rc.cpp:303
 msgid "SvnLogViewOptionDlgBase"
 msgstr ""
 
-#: rc.cpp:312
+#: rc.cpp:324
 msgid "Do not show logs before branching point"
 msgstr ""
 
-#: rc.cpp:327
+#: rc.cpp:339
 msgid "Maximum number of logs to be displayed"
 msgstr ""
 
-#: rc.cpp:330
+#: rc.cpp:342
 #, fuzzy
 msgid "Log Type"
 msgstr "Tipe"
 
-#: rc.cpp:333
+#: rc.cpp:345
 msgid "Working Copy History"
 msgstr ""
 
-#: rc.cpp:336
+#: rc.cpp:348
 #, fuzzy
 msgid "Repository History"
 msgstr "Voeg by na Stoorplek"
 
-#: rc.cpp:339
+#: rc.cpp:351
 msgid "&Build"
 msgstr "Bou"
 
-#: rc.cpp:342 rc.cpp:1139
+#: rc.cpp:354 rc.cpp:1151
 #, fuzzy
 msgid "&File"
 msgstr "Lêers:"
 
-#: rc.cpp:345 rc.cpp:1142
+#: rc.cpp:357 rc.cpp:1154
 #, fuzzy
 msgid "&Edit"
 msgstr "Redigeer..."
 
-#: rc.cpp:348
+#: rc.cpp:360
 #, fuzzy
 msgid "&View"
 msgstr "Kykers"
 
-#: rc.cpp:351
+#: rc.cpp:363
 msgid "&Project"
 msgstr "Projek"
 
-#: rc.cpp:354
+#: rc.cpp:366
 #, fuzzy
 msgid "Bu&ild"
 msgstr "Bou"
 
-#: rc.cpp:357 rc.cpp:1136
+#: rc.cpp:369 rc.cpp:1148
 msgid "&Debug"
 msgstr "Ontfouting"
 
-#: rc.cpp:360
+#: rc.cpp:372
 #, fuzzy
 msgid "&Tools"
 msgstr "Gereedskap punt"
 
-#: rc.cpp:363
+#: rc.cpp:375
 msgid "&Window"
 msgstr "Venster"
 
-#: rc.cpp:366
+#: rc.cpp:378
 #, fuzzy
 msgid "&Settings"
 msgstr "Instellings"
 
-#: rc.cpp:369
+#: rc.cpp:381
 msgid "&Help"
 msgstr ""
 
-#: rc.cpp:372 rc.cpp:1148
+#: rc.cpp:384 rc.cpp:1160
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "Bou Nutsbalk"
 
-#: rc.cpp:375
+#: rc.cpp:387
 msgid "Build Toolbar"
 msgstr "Bou Nutsbalk"
 
-#: rc.cpp:378
+#: rc.cpp:390
 msgid "Browser Toolbar"
 msgstr "Blaaier Nutsbalk"
 
-#: rc.cpp:381
+#: rc.cpp:393
 #, fuzzy
 msgid "Extra Toolbar"
 msgstr "Bou Nutsbalk"
 
-#: rc.cpp:384
+#: rc.cpp:396
 msgid "Profile Editor for The KDevelop Platform"
 msgstr ""
 
-#: rc.cpp:387 rc.cpp:462
+#: rc.cpp:399 rc.cpp:474
 #, fuzzy
 msgid "Add Profile"
 msgstr "Voeg by nuwe lêers"
 
-#: rc.cpp:390 rc.cpp:438 rc.cpp:453 rc.cpp:492 rc.cpp:906 rc.cpp:1052
-#: rc.cpp:1067
+#: rc.cpp:402 rc.cpp:450 rc.cpp:465 rc.cpp:504 rc.cpp:918 rc.cpp:1064
+#: rc.cpp:1079
 msgid "Name"
 msgstr "Naam"
 
-#: rc.cpp:393 rc.cpp:894
+#: rc.cpp:405 rc.cpp:906
 msgid "Description"
 msgstr "Beskrywing"
 
-#: rc.cpp:396 src/profileengine/editor/profileeditor.cpp:257
+#: rc.cpp:408 src/profileengine/editor/profileeditor.cpp:257
 #: src/profileengine/editor/profileeditor.cpp:269
 #, fuzzy
 msgid "Remove Profile"
 msgstr "Verwyder lêer"
 
-#: rc.cpp:399 rc.cpp:459 rc.cpp:1002
+#: rc.cpp:411 rc.cpp:471 rc.cpp:1014
 #, fuzzy
 msgid "Properties"
 msgstr "Eienskappe:"
 
-#: rc.cpp:402 rc.cpp:792
+#: rc.cpp:414 rc.cpp:804
 #, fuzzy
 msgid "Add"
 msgstr "Voeg by"
 
-#: rc.cpp:405 rc.cpp:798 plugins/snippet/snippetview.cpp:154
+#: rc.cpp:417 rc.cpp:810 plugins/snippet/snippetview.cpp:154
 #, fuzzy
 msgid "Remove"
 msgstr "Verwyder skoop..."
 
-#: rc.cpp:408
+#: rc.cpp:420
 #, fuzzy
 msgid "Derived properties:"
 msgstr "Item Eienskappe"
 
-#: rc.cpp:411
+#: rc.cpp:423
 #, fuzzy
 msgid "Own properties:"
 msgstr "Eienskappe:"
 
-#: rc.cpp:414
+#: rc.cpp:426
 msgid "Lists of Explicitly Enabled && Disabled Plugins"
 msgstr ""
 
-#: rc.cpp:417
+#: rc.cpp:429
 #, fuzzy
 msgid "Enabled:"
 msgstr "Aktiveer"
 
-#: rc.cpp:420 rc.cpp:426
+#: rc.cpp:432 rc.cpp:438
 #, fuzzy
 msgid "Plugin Name"
 msgstr "Inprop modules"
 
-#: rc.cpp:423
+#: rc.cpp:435
 #, fuzzy
 msgid "Disabled:"
 msgstr "Gestremde"
 
-#: rc.cpp:429 rc.cpp:432
+#: rc.cpp:441 rc.cpp:444
 msgid "<-"
 msgstr "<-"
 
-#: rc.cpp:435
+#: rc.cpp:447
 #, fuzzy
 msgid "Available plugins:"
 msgstr "veranderlike"
 
-#: rc.cpp:441 rc.cpp:456
+#: rc.cpp:453 rc.cpp:468
 #, fuzzy
 msgid "Generic Name"
 msgstr "Gebruiker Koppelvlak"
 
-#: rc.cpp:444 rc.cpp:447
+#: rc.cpp:456 rc.cpp:459
 msgid "->"
 msgstr "->"
 
-#: rc.cpp:450
+#: rc.cpp:462
 msgid "List of Plugins to Be Loaded"
 msgstr ""
 
-#: rc.cpp:465
+#: rc.cpp:477
 msgid "&Name:"
 msgstr "Naam:"
 
-#: rc.cpp:468
+#: rc.cpp:480
 #, fuzzy
 msgid "&Generic name:"
 msgstr "Genereer"
 
-#: rc.cpp:471
+#: rc.cpp:483
 #, fuzzy
 msgid "&Description:"
 msgstr "Beskrywing:"
 
-#: rc.cpp:474
+#: rc.cpp:486
 #, fuzzy
 msgid "Build &type:"
 msgstr "Bou Teiken"
 
-#: rc.cpp:477
+#: rc.cpp:489
 #, fuzzy
 msgid "Installation &Prefix:"
 msgstr "Installeer"
 
-#: rc.cpp:480
+#: rc.cpp:492
 #, fuzzy
 msgid "&Generator:"
 msgstr "Genereer"
 
-#: rc.cpp:483
+#: rc.cpp:495
 #, fuzzy
 msgid "Build &directory:"
 msgstr "Voeg by sluit in gids:"
 
-#: rc.cpp:486
+#: rc.cpp:498
 #, fuzzy
 msgid "Viewer"
 msgstr "Kykers"
 
-#: rc.cpp:489
+#: rc.cpp:501
 #, fuzzy
 msgid "Parse Tree"
 msgstr "Leser"
 
-#: rc.cpp:495
+#: rc.cpp:507
 #, fuzzy
 msgid "Value 1"
 msgstr "Waarde"
 
-#: rc.cpp:498
+#: rc.cpp:510
 #, fuzzy
 msgid "Value 2"
 msgstr "Waarde"
 
-#: rc.cpp:501
+#: rc.cpp:513
 msgid "Source to Be Written Back"
 msgstr ""
 
-#: rc.cpp:504
+#: rc.cpp:516
 #, fuzzy
 msgid "Add All From Directory"
 msgstr "Huis gids"
 
-#: rc.cpp:507
+#: rc.cpp:519
 #, fuzzy
 msgid "Choose File to Add..."
 msgstr "Kies 'n kern lêer na ondersoek..."
 
-#: rc.cpp:513
+#: rc.cpp:525
 #, fuzzy
 msgid "QMake Binary:"
 msgstr "Qmake Bestuurder"
 
-#: rc.cpp:519
+#: rc.cpp:531
 #, fuzzy
 msgid "Display commands but do not execute them"
 msgstr "Slegs vertoon opdragte sonder om te inderwaarheid uitvoer van hulle"
 
-#: rc.cpp:522
+#: rc.cpp:534
 #, fuzzy
 msgid "Abort on first error"
 msgstr "Staak op eerste fout"
 
-#: rc.cpp:525
+#: rc.cpp:537
 msgid "Run more than one job at once"
 msgstr ""
 
-#: rc.cpp:528
+#: rc.cpp:540
 #, fuzzy
 msgid "Number of simultaneous jobs:"
 msgstr "Nommer van gelyktydig werke:"
 
-#: rc.cpp:534
+#: rc.cpp:546
 #, fuzzy
 msgid "Connection"
 msgstr "Voorwaarde"
 
-#: rc.cpp:537
+#: rc.cpp:549
 #, fuzzy
 msgid "Local server"
 msgstr "Gids"
 
-#: rc.cpp:540
+#: rc.cpp:552
 #, fuzzy
 msgid "Connected clients:"
 msgstr "Seksie:"
 
-#: rc.cpp:543
+#: rc.cpp:555
 msgid "Allow incoming"
 msgstr ""
 
-#: rc.cpp:546
+#: rc.cpp:558
 #, fuzzy
 msgid "Servers"
 msgstr "Ongedaan maak"
 
-#: rc.cpp:549
+#: rc.cpp:561
 msgid "the password for logging into the server"
 msgstr ""
 
-#: rc.cpp:552
+#: rc.cpp:564
 msgid ""
 "connect to the given server using the given login-information(if the name is "
 "blank the local name is used)"
 msgstr ""
 
-#: rc.cpp:555
+#: rc.cpp:567
 #, fuzzy
 msgid "Connect"
 msgstr "Gaan voort"
 
-#: rc.cpp:558
+#: rc.cpp:570
 msgid "the server to connect"
 msgstr ""
 
-#: rc.cpp:561
+#: rc.cpp:573
 msgid "Connected servers:"
 msgstr ""
 
-#: rc.cpp:564
+#: rc.cpp:576
 msgid "the user-name for logging into the server"
 msgstr ""
 
-#: rc.cpp:567 rc.cpp:870
+#: rc.cpp:579 rc.cpp:882
 #, fuzzy
 msgid "Developers"
 msgstr "Kdevelop"
 
-#: rc.cpp:570
+#: rc.cpp:582
 #, fuzzy
 msgid "Available:"
 msgstr "veranderlike"
 
-#: rc.cpp:573
+#: rc.cpp:585
 msgid "Collaborating:"
 msgstr ""
 
-#: rc.cpp:576
+#: rc.cpp:588
 #, fuzzy
 msgid "Messaging"
 msgstr "Boodskappe"
 
-#: rc.cpp:579
+#: rc.cpp:591
 msgid "target-user"
 msgstr ""
 
-#: rc.cpp:582 plugins/teamwork/kdevteamwork.cpp:1155
+#: rc.cpp:594 plugins/teamwork/kdevteamwork.cpp:1155
 msgid "Answer To"
 msgstr ""
 
-#: rc.cpp:585 rc.cpp:864
+#: rc.cpp:597 rc.cpp:876
 #, fuzzy
 msgid "Type:"
 msgstr "Tipe:"
 
-#: rc.cpp:591 lib/plugins/vcs/subversion/svn_models.cpp:277
+#: rc.cpp:603 lib/plugins/vcs/subversion/svn_models.cpp:277
 #, fuzzy
 msgid "Comment"
 msgstr "Kommentaar:"
 
-#: rc.cpp:594
+#: rc.cpp:606
 #, fuzzy
 msgid "Source-discussion"
 msgstr "Bron Verspreiding"
 
-#: rc.cpp:597
+#: rc.cpp:609
 #, fuzzy
 msgid "Thread:"
 msgstr "Rygdraad"
 
-#: rc.cpp:600
+#: rc.cpp:612
 #, fuzzy
 msgid "Reference:"
 msgstr "$Appnaam$Deel"
 
-#: rc.cpp:603 rc.cpp:627 rc.cpp:636
+#: rc.cpp:615 rc.cpp:639 rc.cpp:648
 #, fuzzy
 msgid "Clear"
 msgstr "Kliënt:"
 
-#: rc.cpp:606
+#: rc.cpp:618
 #, fuzzy
 #| msgid "gdb message:\n"
 msgid "&Send message"
 msgstr "gbd boodskap:\n"
 
-#: rc.cpp:609
+#: rc.cpp:621
 msgid "S"
 msgstr ""
 
-#: rc.cpp:612
+#: rc.cpp:624
 msgid "the message you wish to send"
 msgstr ""
 
-#: rc.cpp:615
+#: rc.cpp:627
 #, fuzzy
 msgid "Local state"
 msgstr "plaaslike"
 
-#: rc.cpp:618
+#: rc.cpp:630
 #, fuzzy
 msgid "Manage local patches"
 msgstr "Voeg by Teiken..."
 
-#: rc.cpp:621 rc.cpp:852
+#: rc.cpp:633 rc.cpp:864
 msgid "Messages"
 msgstr "Boodskappe"
 
-#: rc.cpp:624
+#: rc.cpp:636
 #, fuzzy
 msgid "All Users"
 msgstr "Alle lêers (*)"
 
-#: rc.cpp:630 rc.cpp:891 rc.cpp:951
+#: rc.cpp:642 rc.cpp:903 rc.cpp:963
 #, fuzzy
 msgid "History"
 msgstr "Voeg by na Stoorplek"
 
-#: rc.cpp:639
+#: rc.cpp:651
 #, fuzzy
 msgid "Save"
 msgstr "Stoor Alle"
 
-#: rc.cpp:642 plugins/teamwork/kdevteamwork.cpp:231
+#: rc.cpp:654 plugins/teamwork/kdevteamwork.cpp:231
 #: plugins/codeview/kdevcodeview.cpp:112 plugins/codeview/kdevcodeview.cpp:116
 #, fuzzy
 msgid "Filter"
 msgstr "Lêer Boom"
 
-#: rc.cpp:645
+#: rc.cpp:657
 #, fuzzy
 msgid "Enable Collaboration"
 msgstr "Optimisering"
 
-#: rc.cpp:651
+#: rc.cpp:663
 #, fuzzy
 msgid "Jump to Position"
 msgstr "Hardloop na Plekaanduier"
 
-#: rc.cpp:660
+#: rc.cpp:672
 msgid "Timestamps"
 msgstr ""
 
-#: rc.cpp:666
+#: rc.cpp:678
 msgid "To Tail State"
 msgstr ""
 
-#: rc.cpp:669
+#: rc.cpp:681
 #, fuzzy
 #| msgctxt ""
 #| "Breakpoint state. The 'clear ' state is appended to the other states"
@@ -869,59 +889,59 @@ msgstr ""
 msgid "Clear Log"
 msgstr "maak skoon "
 
-#: rc.cpp:672
+#: rc.cpp:684
 msgid "Current State:    Tail State: "
 msgstr ""
 
-#: rc.cpp:675
+#: rc.cpp:687
 #, fuzzy
 msgid "Finish"
 msgstr "Soek"
 
-#: rc.cpp:681
+#: rc.cpp:693
 #, fuzzy
 msgid "Tail"
 msgstr "Titel"
 
-#: rc.cpp:684
+#: rc.cpp:696
 #, fuzzy
 msgid "None"
 msgstr "Weergawe Nee:"
 
-#: rc.cpp:687
+#: rc.cpp:699
 #, fuzzy
 msgid "Enable All(x)"
 msgstr "Aktiveer"
 
-#: rc.cpp:690
+#: rc.cpp:702
 msgid "(last stamp)"
 msgstr ""
 
-#: rc.cpp:693
+#: rc.cpp:705
 msgid "(last date)"
 msgstr ""
 
-#: rc.cpp:696
+#: rc.cpp:708
 #, fuzzy
 msgid "Enable"
 msgstr "Aktiveer"
 
-#: rc.cpp:699
+#: rc.cpp:711
 #, fuzzy
 msgid "replacement-text"
 msgstr "Vervang Teks"
 
-#: rc.cpp:702
+#: rc.cpp:714
 #, fuzzy
 msgid "Edit Patch"
 msgstr "Patroon"
 
-#: rc.cpp:705
+#: rc.cpp:717
 #, fuzzy
 msgid "File"
 msgstr "Lêers:"
 
-#: rc.cpp:708
+#: rc.cpp:720
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
 "white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
@@ -931,11 +951,11 @@ msgid ""
 "p></body></html>"
 msgstr ""
 
-#: rc.cpp:711
+#: rc.cpp:723
 msgid "command-output"
 msgstr ""
 
-#: rc.cpp:714
+#: rc.cpp:726
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
 "white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
@@ -945,71 +965,71 @@ msgid ""
 "span></p></body></html>"
 msgstr ""
 
-#: rc.cpp:717
+#: rc.cpp:729
 #, fuzzy
 msgid "To File"
 msgstr "Nuwe Lêer"
 
-#: rc.cpp:720
+#: rc.cpp:732
 #, fuzzy
 msgid "Files"
 msgstr "Lêers:"
 
-#: rc.cpp:723
+#: rc.cpp:735
 #, fuzzy
 msgid "Highlight"
 msgstr "Verlig:"
 
-#: rc.cpp:726
+#: rc.cpp:738
 #, fuzzy
 msgid "Previous Hunk"
 msgstr "Vorige Fout"
 
-#: rc.cpp:729
+#: rc.cpp:741
 #, fuzzy
 msgid "Next Hunk"
 msgstr "Hex"
 
-#: rc.cpp:732
+#: rc.cpp:744
 #, fuzzy
 #| msgid "&Author:"
 msgid "Author:"
 msgstr "Outeur:"
 
-#: rc.cpp:735 rc.cpp:987 lib/plugins/vcs/cvs/editorsview.cpp:70
+#: rc.cpp:747 rc.cpp:999 lib/plugins/vcs/cvs/editorsview.cpp:70
 #: lib/plugins/vcs/cvs/logview.cpp:67
 #, fuzzy
 msgid "User"
 msgstr "Gebruiker:"
 
-#: rc.cpp:738
+#: rc.cpp:750
 #, fuzzy
 msgid "Determine"
 msgstr "Kenmerk"
 
-#: rc.cpp:741
+#: rc.cpp:753
 #, fuzzy
 msgid "State:"
 msgstr "Begin:"
 
-#: rc.cpp:744
+#: rc.cpp:756
 #, fuzzy
 msgid "Access:"
 msgstr "Toegang verkry"
 
-#: rc.cpp:747
+#: rc.cpp:759
 msgid "recommended unapply-command:"
 msgstr ""
 
-#: rc.cpp:750
+#: rc.cpp:762
 msgid "Dependencies:"
 msgstr ""
 
-#: rc.cpp:753
+#: rc.cpp:765
 msgid "recommended apply-command:"
 msgstr ""
 
-#: rc.cpp:756
+#: rc.cpp:768
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
 "white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
@@ -1019,7 +1039,7 @@ msgid ""
 "p></body></html>"
 msgstr ""
 
-#: rc.cpp:759
+#: rc.cpp:771
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
 "white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
@@ -1029,55 +1049,55 @@ msgid ""
 "p></body></html>"
 msgstr ""
 
-#: rc.cpp:762
+#: rc.cpp:774
 #, fuzzy
 msgid "Choose"
 msgstr "Maak toe Alle"
 
-#: rc.cpp:765
+#: rc.cpp:777
 msgid "Description:"
 msgstr "Beskrywing:"
 
-#: rc.cpp:768
+#: rc.cpp:780
 msgid "Apply"
 msgstr ""
 
-#: rc.cpp:771
+#: rc.cpp:783
 msgid "Unapply"
 msgstr ""
 
-#: rc.cpp:774
+#: rc.cpp:786
 #, fuzzy
 msgid "Show"
 msgstr "hw %1"
 
-#: rc.cpp:777 rc.cpp:801 lib/plugins/vcs/subversion/subversion_view.cpp:65
+#: rc.cpp:789 rc.cpp:813 lib/plugins/vcs/subversion/subversion_view.cpp:65
 #, fuzzy
 msgid "Close"
 msgstr "Maak toe Alle"
 
-#: rc.cpp:783
+#: rc.cpp:795
 #, fuzzy
 msgid "Context-Lines:"
 msgstr "Konsep indeks"
 
-#: rc.cpp:786
+#: rc.cpp:798
 #, fuzzy
 msgid "Manage Patches"
 msgstr "Gids soeklys"
 
-#: rc.cpp:789
+#: rc.cpp:801
 #, fuzzy
 msgid "Available patches:"
 msgstr "veranderlike"
 
-#: rc.cpp:795 plugins/snippet/snippetview.cpp:124
+#: rc.cpp:807 plugins/snippet/snippetview.cpp:124
 #: plugins/snippet/snippetview.cpp:146
 #, fuzzy
 msgid "Edit"
 msgstr "Redigeer..."
 
-#: rc.cpp:807
+#: rc.cpp:819
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1089,7 +1109,7 @@ msgid ""
 "weight:600;\">File</span>:</p></body></html>"
 msgstr ""
 
-#: rc.cpp:813
+#: rc.cpp:825
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1101,7 +1121,7 @@ msgid ""
 "decoration:none;\">file</span></p></body></html>"
 msgstr ""
 
-#: rc.cpp:819
+#: rc.cpp:831
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1113,12 +1133,12 @@ msgid ""
 "style=\" font-weight:600;\">Position</span>: </p></body></html>"
 msgstr ""
 
-#: rc.cpp:825
+#: rc.cpp:837
 #, fuzzy
 msgid "position"
 msgstr "Voorwaarde"
 
-#: rc.cpp:828
+#: rc.cpp:840
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1130,7 +1150,7 @@ msgid ""
 "style=\" font-weight:600;\">Context</span>: </p></body></html>"
 msgstr ""
 
-#: rc.cpp:834
+#: rc.cpp:846
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1142,7 +1162,7 @@ msgid ""
 "decoration:none;\">Context</span></p></body></html>"
 msgstr ""
 
-#: rc.cpp:840
+#: rc.cpp:852
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1154,57 +1174,57 @@ msgid ""
 "weight:600;\">Reference-Type</span>: </p></body></html>"
 msgstr ""
 
-#: rc.cpp:846
+#: rc.cpp:858
 #, fuzzy
 msgid "referenceType"
 msgstr "$Appnaam$Deel"
 
-#: rc.cpp:855
+#: rc.cpp:867
 #, fuzzy
 msgid "From:"
 msgstr "Vorms"
 
-#: rc.cpp:858
+#: rc.cpp:870
 #, fuzzy
 msgid "Until:"
 msgstr "Data lêer"
 
-#: rc.cpp:861 rc.cpp:873
+#: rc.cpp:873 rc.cpp:885
 msgid "All"
 msgstr "Alle"
 
-#: rc.cpp:867
+#: rc.cpp:879
 #, fuzzy
 msgid "Context:"
 msgstr "Lêer Konteks Kieslys"
 
-#: rc.cpp:876
+#: rc.cpp:888
 #, fuzzy
 msgid "Exit"
 msgstr "Redigeerder"
 
-#: rc.cpp:879
+#: rc.cpp:891
 #, fuzzy
 #| msgid "Enter log message:"
 msgid "Internal Message"
 msgstr "Invoer log boodskap:"
 
-#: rc.cpp:882
+#: rc.cpp:894
 #, fuzzy
 msgid "actions"
 msgstr "Aksie"
 
-#: rc.cpp:888 rc.cpp:948
+#: rc.cpp:900 rc.cpp:960
 #, fuzzy
 msgid "Menu"
 msgstr "Voeg by Metode"
 
-#: rc.cpp:897
+#: rc.cpp:909
 #, fuzzy
 msgid "TextLabel"
 msgstr "Inkeep etikette"
 
-#: rc.cpp:900
+#: rc.cpp:912
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1216,7 +1236,7 @@ msgid ""
 "weight:600;\">Name</span>:</p></body></html>"
 msgstr ""
 
-#: rc.cpp:909
+#: rc.cpp:921
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1228,12 +1248,12 @@ msgid ""
 "weight:600;\">E-Mail</span>:</p></body></html>"
 msgstr ""
 
-#: rc.cpp:915
+#: rc.cpp:927
 #, fuzzy
 msgid "E-Mail"
 msgstr "E-pos:"
 
-#: rc.cpp:918
+#: rc.cpp:930
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1245,17 +1265,17 @@ msgid ""
 "weight:600;\">State</span>:</p></body></html>"
 msgstr ""
 
-#: rc.cpp:924
+#: rc.cpp:936
 #, fuzzy
 msgid "IP-Adress"
 msgstr "Voeg by Klas"
 
-#: rc.cpp:927 rc.cpp:969
+#: rc.cpp:939 rc.cpp:981
 #, fuzzy
 msgid "State"
 msgstr "Begin:"
 
-#: rc.cpp:930
+#: rc.cpp:942
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1267,7 +1287,7 @@ msgid ""
 "weight:600;\">IP-Adress</span>:</p></body></html>"
 msgstr ""
 
-#: rc.cpp:936
+#: rc.cpp:948
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1279,21 +1299,21 @@ msgid ""
 "weight:600;\">Rights</span>: </p></body></html>"
 msgstr ""
 
-#: rc.cpp:942
+#: rc.cpp:954
 #, fuzzy
 msgid "Rights"
 msgstr "Verlig Modus"
 
-#: rc.cpp:954
+#: rc.cpp:966
 msgid "Is Reply To"
 msgstr ""
 
-#: rc.cpp:957 rc.cpp:960
+#: rc.cpp:969 rc.cpp:972
 #, fuzzy
 msgid "Text"
 msgstr "Hex"
 
-#: rc.cpp:963
+#: rc.cpp:975
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1305,7 +1325,7 @@ msgid ""
 "weight:600;\">State</span>: </p></body></html>"
 msgstr ""
 
-#: rc.cpp:972
+#: rc.cpp:984
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1317,12 +1337,12 @@ msgid ""
 "weight:600;\">Time</span>: </p></body></html>"
 msgstr ""
 
-#: rc.cpp:978
+#: rc.cpp:990
 #, fuzzy
 msgid "Time"
 msgstr "Titel"
 
-#: rc.cpp:981
+#: rc.cpp:993
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1334,7 +1354,7 @@ msgid ""
 "weight:600;\">User</span>:</p></body></html>"
 msgstr ""
 
-#: rc.cpp:990
+#: rc.cpp:1002
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1346,35 +1366,35 @@ msgid ""
 "weight:600;\">Direction</span>: </p></body></html>"
 msgstr ""
 
-#: rc.cpp:996
+#: rc.cpp:1008
 #, fuzzy
 msgid "Direction"
 msgstr "Gids"
 
-#: rc.cpp:1005
+#: rc.cpp:1017
 #, fuzzy
 msgid "Final Location:"
 msgstr "Ligging:"
 
-#: rc.cpp:1008 rc.cpp:1043
+#: rc.cpp:1020 rc.cpp:1055
 #, fuzzy
 msgid "Location:"
 msgstr "Ligging:"
 
-#: rc.cpp:1011
+#: rc.cpp:1023
 #, fuzzy
 msgid "Application Name:"
 msgstr "Aansoek naam:"
 
-#: rc.cpp:1014
+#: rc.cpp:1026
 msgid "(invalid)"
 msgstr ""
 
-#: rc.cpp:1017
+#: rc.cpp:1029
 msgid "Display document categories (mimetypes) in the view"
 msgstr ""
 
-#: rc.cpp:1020
+#: rc.cpp:1032
 msgid ""
 "If this option is set, the Document View will organize documents\n"
 "        by their mimetype. If this option is not set, the Document View will "
@@ -1382,126 +1402,126 @@ msgid ""
 "        organize the open documents by type."
 msgstr ""
 
-#: rc.cpp:1025
+#: rc.cpp:1037
 #, fuzzy
 msgid "Form2"
 msgstr "Vorm1"
 
-#: rc.cpp:1028
+#: rc.cpp:1040
 msgid "Display document &categories"
 msgstr ""
 
-#: rc.cpp:1034
+#: rc.cpp:1046
 #, fuzzy
 msgid "Add an existing Repository"
 msgstr "Voeg by na Stoorplek"
 
-#: rc.cpp:1037 rc.cpp:1061 rc.cpp:1088
+#: rc.cpp:1049 rc.cpp:1073 rc.cpp:1100
 msgid "..."
 msgstr "..."
 
-#: rc.cpp:1040
+#: rc.cpp:1052
 msgid "Name:"
 msgstr "Naam:"
 
-#: rc.cpp:1046
+#: rc.cpp:1058
 #, fuzzy
 msgid "Edit Snippet"
 msgstr "Voeg by item"
 
-#: rc.cpp:1049 plugins/snippet/snippetview.cpp:119
+#: rc.cpp:1061 plugins/snippet/snippetview.cpp:119
 #, fuzzy
 msgid "Snippet"
 msgstr "Voeg by item"
 
-#: rc.cpp:1055
+#: rc.cpp:1067
 msgid "Keywords"
 msgstr ""
 
-#: rc.cpp:1058
+#: rc.cpp:1070
 #, fuzzy
 msgid "Move Repository"
 msgstr "Voeg by na Stoorplek"
 
-#: rc.cpp:1064
+#: rc.cpp:1076
 #, fuzzy
 msgid "New Location"
 msgstr "Ligging:"
 
-#: rc.cpp:1070
+#: rc.cpp:1082
 #, fuzzy
 msgid "Variable Substitution"
 msgstr "Substitusie"
 
-#: rc.cpp:1082
+#: rc.cpp:1094
 msgid "Define filter here"
 msgstr ""
 
-#: rc.cpp:1085
+#: rc.cpp:1097
 #, fuzzy
 msgid "Apply filter"
 msgstr "Invoer filter"
 
-#: rc.cpp:1091
+#: rc.cpp:1103
 msgid "Valgrind"
 msgstr ""
 
-#: rc.cpp:1094
+#: rc.cpp:1106
 #, fuzzy
 msgid "&Executable:"
 msgstr "Uitvoerbare:"
 
-#: rc.cpp:1097
+#: rc.cpp:1109
 #, fuzzy
 msgid "&Parameters:"
 msgstr "Parameters:"
 
-#: rc.cpp:1100
+#: rc.cpp:1112
 msgid "Callgrind"
 msgstr ""
 
-#: rc.cpp:1103 rc.cpp:1127
+#: rc.cpp:1115 rc.cpp:1139
 #, fuzzy
 msgid "&Trace children"
 msgstr "Vertoon kinders"
 
-#: rc.cpp:1106 rc.cpp:1133
+#: rc.cpp:1118 rc.cpp:1145
 msgid "E&xecutable:"
 msgstr "Uitvoerbare:"
 
-#: rc.cpp:1109 rc.cpp:1130
+#: rc.cpp:1121 rc.cpp:1142
 #, fuzzy
 msgid "Additional p&arameters:"
 msgstr "Aditionele Parameters:"
 
-#: rc.cpp:1112
+#: rc.cpp:1124
 #, fuzzy
 msgid "KCacheGrind"
 msgstr "Etiket nie gevind"
 
-#: rc.cpp:1115
+#: rc.cpp:1127
 #, fuzzy
 msgid "Executable:"
 msgstr "Uitvoerbare:"
 
-#: rc.cpp:1118
+#: rc.cpp:1130
 msgid "Memcheck"
 msgstr ""
 
-#: rc.cpp:1121
+#: rc.cpp:1133
 msgid "Memory &leak check"
 msgstr ""
 
-#: rc.cpp:1124
+#: rc.cpp:1136
 msgid "&Show still reachable blocks"
 msgstr ""
 
-#: rc.cpp:1145
+#: rc.cpp:1157
 #, fuzzy
 msgid "F&orm"
 msgstr "Vorms"
 
-#: rc.cpp:1151
+#: rc.cpp:1163
 #, fuzzy
 msgid "Designer Layout Toolbar"
 msgstr "Bou Nutsbalk"
@@ -2119,34 +2139,34 @@ msgstr "Lêer Informasie"
 msgid "Revision"
 msgstr "Afdelings"
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:248
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:259
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:252
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:263
 #, fuzzy, qt-format
 msgid "Added %1"
 msgstr "Lyn: %1"
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:251
 #: lib/plugins/vcs/subversion/subversionthreads.cpp:255
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:259
 #, fuzzy, qt-format
 msgid "Deleted %1"
 msgstr "Uitvee Groep"
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:262
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:266
 #, fuzzy, qt-format
 msgid "Updated %1"
 msgstr "Dateer op"
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:266
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:270
 #, fuzzy, qt-format
 msgid "Revision %1"
 msgstr "Afdelings"
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:269
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:273
 #, fuzzy, qt-format
 msgid "Updating externals: %1"
 msgstr "Patroon:"
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:277
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:281
 #, fuzzy, qt-format
 #| msgctxt ""
 #| "Breakpoint state. The 'Pending ' state is the first state displayed"
@@ -2154,179 +2174,182 @@ msgstr "Patroon:"
 msgid "Sending %1"
 msgstr "Uitstaande "
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:281
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:285
 #, fuzzy, qt-format
 msgid "Adding mimetype %1. %2"
 msgstr "Voeg by nuwe lêers"
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:283
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:287
 #, fuzzy, qt-format
 msgid "Adding %1."
 msgstr "Voeg by nuwe lêers"
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:287
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:291
 #, fuzzy, qt-format
 msgid "Deleting %1."
 msgstr "Gids:"
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:290
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:294
 #, fuzzy, qt-format
 msgid "Replacing %1."
 msgstr "Verwerking lêer: %1"
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:295
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:299
 msgid "Transmitting file data "
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:301
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:305
 #, qt-format
 msgid "Blame finished for revision %1, path %2"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:360
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:401
 msgid "Job was terminated"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:460
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:501
 msgid ""
 "Fail to retrieve repository URL of request file.Check whether the requested "
 "file is really under version control"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:466
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:507
 msgid ""
 "Converted repository URL is empty.Check whether requested item is really "
 "under version control"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:558
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:599
 msgid ""
 "Fail to retrieve repository URL of request file/dir. Check whether requested "
 "item is really under version control"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:563
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:604
 msgid ""
 "Converted repository URL is empty. Check whether requested item is under "
 "version control"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:660
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:699
 msgid "Nothing needed to be committed. Maybe all files are up to date"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:662
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:701
 #, qt-format
 msgid "Committed revision %1"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversionthreads.cpp:665
+#: lib/plugins/vcs/subversion/subversionthreads.cpp:704
 #, fuzzy
 #| msgid "Customize..."
 msgid "Committed"
 msgstr "Pasmaak..."
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:91
+#: lib/plugins/vcs/subversion/subversion_part.cpp:92
 #, fuzzy
 msgid "Checkout from repository..."
 msgstr "Verwyder Van Stoorplek"
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:95
+#: lib/plugins/vcs/subversion/subversion_part.cpp:96
 #, fuzzy
 msgid "Add to version control..."
 msgstr "Weergawe Nee:"
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:99
+#: lib/plugins/vcs/subversion/subversion_part.cpp:100
 #, fuzzy
 msgid "Remove from repository..."
 msgstr "Verwyder Van Stoorplek"
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:103
+#: lib/plugins/vcs/subversion/subversion_part.cpp:104
 #, fuzzy
 msgid "Commit to repository..."
 msgstr "Stuur in (stoorplek)"
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:107
+#: lib/plugins/vcs/subversion/subversion_part.cpp:108
 #, fuzzy
 msgid "Update to..."
 msgstr "Stooring..."
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:111
+#: lib/plugins/vcs/subversion/subversion_part.cpp:112
 #, fuzzy
 msgid "Show Subversion Log..."
 msgstr "Subprojek Opsies"
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:113
+#: lib/plugins/vcs/subversion/subversion_part.cpp:114
 msgid "Show subversion log history"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:114
-msgid ""
-"<b>Show subversion log</b><p>View log in KDevelop. To use subversion "
-"integration, install kioslave-svnpackage which is under kdesdk"
+#: lib/plugins/vcs/subversion/subversion_part.cpp:115
+msgid "<b>Show subversion log</b><p>View log in KDevelop. "
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:120
+#: lib/plugins/vcs/subversion/subversion_part.cpp:119
 msgid "Show Blame (annotate)..."
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:124
+#: lib/plugins/vcs/subversion/subversion_part.cpp:123
 msgid "Show status with blocking mode"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:128
+#: lib/plugins/vcs/subversion/subversion_part.cpp:127
 msgid "Show status with non-blocking mode"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:132
+#: lib/plugins/vcs/subversion/subversion_part.cpp:131
 msgid "Show the system-generated metadatas"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:232
+#: lib/plugins/vcs/subversion/subversion_part.cpp:135
+#, fuzzy
+msgid "Import into repository"
+msgstr "Voeg by na Stoorplek"
+
+#: lib/plugins/vcs/subversion/subversion_part.cpp:235
 #, fuzzy
 msgid "Log View"
 msgstr "Kode Hulp"
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:234
+#: lib/plugins/vcs/subversion/subversion_part.cpp:237
 #, fuzzy
 msgid "Blame (Annotate)"
 msgstr "Inkeping"
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:236
+#: lib/plugins/vcs/subversion/subversion_part.cpp:239
 #, fuzzy
 msgid "Update"
 msgstr "Dateer op"
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:238
+#: lib/plugins/vcs/subversion/subversion_part.cpp:241
 #, fuzzy
 #| msgid "Customize..."
 msgid "Commit..."
 msgstr "Pasmaak..."
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:240
+#: lib/plugins/vcs/subversion/subversion_part.cpp:243
 #, fuzzy
 msgid "Add to version control"
 msgstr "Weergawe Nee:"
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:242
+#: lib/plugins/vcs/subversion/subversion_part.cpp:245
 #, fuzzy
 msgid "Remove from version control"
 msgstr "Weergawe Nee:"
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:354
+#: lib/plugins/vcs/subversion/subversion_part.cpp:357
 #, fuzzy
 msgid "No active docuement to add"
 msgstr "Nee Verskille Gevind"
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:366
+#: lib/plugins/vcs/subversion/subversion_part.cpp:369
 msgid "No active docuement to remove"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:377
+#: lib/plugins/vcs/subversion/subversion_part.cpp:380
 msgid "No active docuement to commit"
 msgstr ""
 
-#: lib/plugins/vcs/subversion/subversion_part.cpp:388
+#: lib/plugins/vcs/subversion/subversion_part.cpp:391
 #, fuzzy
 msgid "No active docuement to update"
 msgstr "Skep dokumentasie paket"
@@ -2364,6 +2387,11 @@ msgstr "Andere"
 #: lib/plugins/vcs/subversion/svn_authdialog.cpp:129
 msgid "ID and Password for the following repository"
 msgstr ""
+
+#: lib/plugins/vcs/subversion/svn_importwidgets.cpp:28
+#, fuzzy
+msgid "Subversion Import"
+msgstr "Subprojek Opsies"
 
 #: lib/plugins/vcs/subversion/subversion_view.cpp:62
 #, fuzzy
@@ -2952,7 +2980,7 @@ msgstr "Installeer"
 msgid "Uninstalled headers"
 msgstr "Installeer"
 
-#: plugins/teamwork/documentwrapper.cpp:172
+#: plugins/teamwork/documentwrapper.cpp:186
 #, qt-format
 msgid "The buffer of %1 is modified, should the content be replaced?"
 msgstr ""
@@ -3338,10 +3366,6 @@ msgstr "Kdevelop"
 
 #, fuzzy
 #~ msgid "Subversion Status"
-#~ msgstr "Subprojek Opsies"
-
-#, fuzzy
-#~ msgid "Subversion Info"
 #~ msgstr "Subprojek Opsies"
 
 #, fuzzy
@@ -5839,10 +5863,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "&Update subdirectories too"
 #~ msgstr "Sluit in sub-gidse?"
-
-#, fuzzy
-#~ msgid "&Be recursive"
-#~ msgstr "Voorbeeld patrone"
 
 #, fuzzy
 #~ msgid "Use these e&xtra options:"
@@ -9770,9 +9790,6 @@ msgstr "Kdevelop"
 #~ msgid "Mismatched Core File"
 #~ msgstr "Wangepaste kern lêer"
 
-#~ msgid "No such file or directory."
-#~ msgstr "Nee soos lêer of gids."
-
 #~ msgid "No source: %1"
 #~ msgstr "Nee bron: %1"
 
@@ -11599,10 +11616,6 @@ msgstr "Kdevelop"
 #, fuzzy
 #~ msgid "Diff against repository"
 #~ msgstr "Diff Teen Stoorplek"
-
-#, fuzzy
-#~ msgid "Add to repository"
-#~ msgstr "Voeg by na Stoorplek"
 
 #~ msgid "Remove From Repository"
 #~ msgstr "Verwyder Van Stoorplek"
