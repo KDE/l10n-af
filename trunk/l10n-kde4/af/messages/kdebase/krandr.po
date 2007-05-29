@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-12 05:45+0200\n"
+"POT-Creation-Date: 2007-05-29 05:51+0200\n"
 "PO-Revision-Date: 2005-11-23 23:01+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: krandrmodule.cpp:88
+#: krandrmodule.cpp:68
 #, fuzzy
 msgid ""
 "Your X server does not support resizing and rotating the display. Please "
@@ -28,16 +28,16 @@ msgstr ""
 "X Vergroot en Roteer verlenging (RANDR) weergawe 1.1 of groter nodig om die "
 "fasiliteit te gebruik.</qt>"
 
-#: krandrmodule.cpp:103
+#: krandrmodule.cpp:83
 msgid "Settings for screen:"
 msgstr "Stellings vir skerm"
 
-#: krandrmodule.cpp:109 krandrtray.cpp:81
+#: krandrmodule.cpp:89 krandrtray.cpp:82
 #, qt-format
 msgid "Screen %1"
 msgstr "Skerm %1"
 
-#: krandrmodule.cpp:114
+#: krandrmodule.cpp:94
 msgid ""
 "The screen whose settings you would like to change can be selected using "
 "this drop-down list."
@@ -45,11 +45,11 @@ msgstr ""
 "Die skerm watse stellings jy wil verander kan jy kies deur middel van "
 "hierdie aftuimel kieslys."
 
-#: krandrmodule.cpp:125
+#: krandrmodule.cpp:105
 msgid "Screen size:"
 msgstr "Skerm grootte:"
 
-#: krandrmodule.cpp:129
+#: krandrmodule.cpp:109
 msgid ""
 "The size, otherwise known as the resolution, of your screen can be selected "
 "from this drop-down list."
@@ -57,33 +57,33 @@ msgstr ""
 "Die grootte, ook bekend as die resolusie, van jou skerm kan jy kies deur "
 "middel van hierdie aftuimel kieslys."
 
-#: krandrmodule.cpp:137
+#: krandrmodule.cpp:117
 msgid "Refresh rate:"
 msgstr "Vervris tempo:"
 
-#: krandrmodule.cpp:141
+#: krandrmodule.cpp:121
 msgid ""
 "The refresh rate of your screen can be selected from this drop-down list."
 msgstr ""
 "Die vervris tempo van jou skerm kan jy kies deur middel van hierdie aftuimel "
 "kieslys."
 
-#: krandrmodule.cpp:145
+#: krandrmodule.cpp:125
 msgid "Orientation (degrees counterclockwise)"
 msgstr "Orientasie (grade anti-kloksgewys)"
 
-#: krandrmodule.cpp:148
+#: krandrmodule.cpp:128
 msgid ""
 "The options in this section allow you to change the rotation of your screen."
 msgstr ""
 "Die opsies in die seksie laat jou toe om die rotasie van jou skerm te "
 "verander."
 
-#: krandrmodule.cpp:150
+#: krandrmodule.cpp:130
 msgid "Apply settings on KDE startup"
 msgstr "Wend stellings aan wanneer KDE begin"
 
-#: krandrmodule.cpp:152
+#: krandrmodule.cpp:132
 msgid ""
 "If this option is enabled the size and orientation settings will be used "
 "when KDE starts."
@@ -91,11 +91,11 @@ msgstr ""
 "Wanneer hierdie opsie aan is, sal die grootte en orientasie stellings "
 "gebruik word wanneer KDE begin."
 
-#: krandrmodule.cpp:159
+#: krandrmodule.cpp:139
 msgid "Allow tray application to change startup settings"
 msgstr "Laat laatjie applikasie toe om begin stellings te wysig"
 
-#: krandrmodule.cpp:161
+#: krandrmodule.cpp:141
 msgid ""
 "If this option is enabled, options set by the system tray applet will be "
 "saved and loaded when KDE starts instead of being temporary."
@@ -104,41 +104,41 @@ msgstr ""
 "program opgestel is gestoor en gelaai word wanneer KDE begin in plaas "
 "daarvan om tydelik te wees."
 
-#: krandrmodule.cpp:200 krandrtray.cpp:148
+#: krandrmodule.cpp:182 krandrtray.cpp:149
 #, qt-format
 msgid "%1 x %2"
 msgstr "%1 x %2"
 
-#: krandrtray.cpp:47
+#: krandrtray.cpp:48
 msgid "Screen resize & rotate"
 msgstr "Skerm verander & roteer"
 
-#: krandrtray.cpp:66
+#: krandrtray.cpp:67
 msgid "Required X Extension Not Available"
 msgstr "Verwagte X Ekstensie Nie Beskikbaar"
 
-#: krandrtray.cpp:94
+#: krandrtray.cpp:95
 msgid "Configure Display..."
 msgstr "Konfigureer Beeld..."
 
-#: krandrtray.cpp:116
+#: krandrtray.cpp:117
 msgid "Screen configuration has changed"
 msgstr "Skerm konfigurasie het verander"
 
-#: krandrtray.cpp:127
+#: krandrtray.cpp:128
 msgid "Screen Size"
 msgstr "Skerm Grootte"
 
-#: krandrtray.cpp:162
+#: krandrtray.cpp:163
 #, fuzzy
 msgid "Orientation"
 msgstr "Onbekende orientasie"
 
-#: krandrtray.cpp:180
+#: krandrtray.cpp:181
 msgid "Refresh Rate"
 msgstr "Vervris Tempo"
 
-#: krandrtray.cpp:249
+#: krandrtray.cpp:250
 msgid "Configure Display"
 msgstr "Konfigureer Beeld"
 
@@ -169,19 +169,24 @@ msgstr "Onderhouer"
 msgid "Many fixes"
 msgstr "Baie regstellings"
 
-#: randr.cpp:162
+#: randrdisplay.cpp:44
+#, fuzzy, qt-format
+msgid "X Resize and Rotate extension version %1.%2"
+msgstr "Vergroot en Roteer Stelsel Laatjie Applikasie"
+
+#: randrscreen.cpp:162
 msgid "Confirm Display Setting Change"
 msgstr "Bevestig Beeld Stelling Verandering"
 
-#: randr.cpp:166
+#: randrscreen.cpp:166
 msgid "&Accept Configuration"
 msgstr "Aanvaar Konfigurasie"
 
-#: randr.cpp:167
+#: randrscreen.cpp:167
 msgid "&Return to Previous Configuration"
 msgstr "Keer terug na Vorige Konfigurasie"
 
-#: randr.cpp:169
+#: randrscreen.cpp:169
 msgid ""
 "Your screen orientation, size and refresh rate have been changed to the "
 "requested settings. Please indicate whether you wish to keep this "
@@ -193,7 +198,7 @@ msgstr ""
 "behou. Die beeld sal na 15 sekondes terugkeer na jou vorige konfigurasie "
 "stellings. "
 
-#: randr.cpp:199
+#: randrscreen.cpp:199
 #, qt-format
 msgid ""
 "New configuration:\n"
@@ -204,7 +209,7 @@ msgstr ""
 "Resolusie: %1 x %2\n"
 "Orientasie: %3"
 
-#: randr.cpp:204
+#: randrscreen.cpp:204
 #, qt-format
 msgid ""
 "New configuration:\n"
@@ -216,86 +221,81 @@ msgstr ""
 "Resolusie: %1 x %2\n"
 "Orientasie: %3nVervris Tempo: %4"
 
-#: randr.cpp:233 randr.cpp:250
+#: randrscreen.cpp:233 randrscreen.cpp:250
 msgid "Normal"
 msgstr "Normaal"
 
-#: randr.cpp:235
+#: randrscreen.cpp:235
 msgid "Left (90 degrees)"
 msgstr "Links (90 grade)"
 
-#: randr.cpp:237
+#: randrscreen.cpp:237
 msgid "Upside-down (180 degrees)"
 msgstr "Bo-Na onder (180 grade)"
 
-#: randr.cpp:239
+#: randrscreen.cpp:239
 msgid "Right (270 degrees)"
 msgstr "Regs (270 grade)"
 
-#: randr.cpp:241
+#: randrscreen.cpp:241
 msgid "Mirror horizontally"
 msgstr "Spieëlbeeld horisontaal"
 
-#: randr.cpp:243
+#: randrscreen.cpp:243
 msgid "Mirror vertically"
 msgstr "Spieëlbeeld vertikaal"
 
-#: randr.cpp:245 randr.cpp:276
+#: randrscreen.cpp:245 randrscreen.cpp:276
 msgid "Unknown orientation"
 msgstr "Onbekende orientasie"
 
-#: randr.cpp:252
+#: randrscreen.cpp:252
 msgid "Rotated 90 degrees counterclockwise"
 msgstr "90 Grade anti-kloksgewys geroteer"
 
-#: randr.cpp:254
+#: randrscreen.cpp:254
 msgid "Rotated 180 degrees counterclockwise"
 msgstr "180 Grade anti-kloksgewys geroteer"
 
-#: randr.cpp:256
+#: randrscreen.cpp:256
 msgid "Rotated 270 degrees counterclockwise"
 msgstr "270 Grade anti-kloksgewys geroteer"
 
-#: randr.cpp:261
+#: randrscreen.cpp:261
 msgid "Mirrored horizontally and vertically"
 msgstr "Spieëlbeeld horisontaal en vertikaal"
 
-#: randr.cpp:263
+#: randrscreen.cpp:263
 msgid "mirrored horizontally and vertically"
 msgstr "spieëlbeeld horisontaal en vertikaal"
 
-#: randr.cpp:266
+#: randrscreen.cpp:266
 msgid "Mirrored horizontally"
 msgstr "Spieëlbeeld horisontaal"
 
-#: randr.cpp:268
+#: randrscreen.cpp:268
 msgid "mirrored horizontally"
 msgstr "spieëlbeeld horisontaal"
 
-#: randr.cpp:271
+#: randrscreen.cpp:271
 msgid "Mirrored vertically"
 msgstr "Spieëlbeeld vertikaal"
 
-#: randr.cpp:273
+#: randrscreen.cpp:273
 msgid "mirrored vertically"
 msgstr "spieëlbeeld vertikaal"
 
-#: randr.cpp:278
+#: randrscreen.cpp:278
 msgid "unknown orientation"
 msgstr "onbekende orientasie"
 
-#: randr.cpp:402 randr.cpp:407
+#: randrscreen.cpp:402 randrscreen.cpp:407
 #, fuzzy, qt-format
 msgctxt "Refresh rate in Hertz (Hz)"
 msgid "%1 Hz"
 msgstr ""
 "_: Vervris tempo in Hertz (Hz)\n"
 "%1 Hz"
-
-#: randr.cpp:570
-#, fuzzy, qt-format
-msgid "X Resize and Rotate extension version %1.%2"
-msgstr "Vergroot en Roteer Stelsel Laatjie Applikasie"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
