@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-29 05:51+0200\n"
+"POT-Creation-Date: 2007-05-30 05:41+0200\n"
 "PO-Revision-Date: 2005-11-23 23:01+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -134,11 +134,11 @@ msgstr "Skerm Grootte"
 msgid "Orientation"
 msgstr "Onbekende orientasie"
 
-#: krandrtray.cpp:181
+#: krandrtray.cpp:182
 msgid "Refresh Rate"
 msgstr "Vervris Tempo"
 
-#: krandrtray.cpp:250
+#: krandrtray.cpp:251
 msgid "Configure Display"
 msgstr "Konfigureer Beeld"
 
@@ -169,24 +169,19 @@ msgstr "Onderhouer"
 msgid "Many fixes"
 msgstr "Baie regstellings"
 
-#: randrdisplay.cpp:44
-#, fuzzy, qt-format
-msgid "X Resize and Rotate extension version %1.%2"
-msgstr "Vergroot en Roteer Stelsel Laatjie Applikasie"
-
-#: randrscreen.cpp:162
+#: oldrandrscreen.cpp:144
 msgid "Confirm Display Setting Change"
 msgstr "Bevestig Beeld Stelling Verandering"
 
-#: randrscreen.cpp:166
+#: oldrandrscreen.cpp:148
 msgid "&Accept Configuration"
 msgstr "Aanvaar Konfigurasie"
 
-#: randrscreen.cpp:167
+#: oldrandrscreen.cpp:149
 msgid "&Return to Previous Configuration"
 msgstr "Keer terug na Vorige Konfigurasie"
 
-#: randrscreen.cpp:169
+#: oldrandrscreen.cpp:151
 msgid ""
 "Your screen orientation, size and refresh rate have been changed to the "
 "requested settings. Please indicate whether you wish to keep this "
@@ -198,7 +193,7 @@ msgstr ""
 "behou. Die beeld sal na 15 sekondes terugkeer na jou vorige konfigurasie "
 "stellings. "
 
-#: randrscreen.cpp:199
+#: oldrandrscreen.cpp:181
 #, qt-format
 msgid ""
 "New configuration:\n"
@@ -209,7 +204,7 @@ msgstr ""
 "Resolusie: %1 x %2\n"
 "Orientasie: %3"
 
-#: randrscreen.cpp:204
+#: oldrandrscreen.cpp:186
 #, qt-format
 msgid ""
 "New configuration:\n"
@@ -221,81 +216,86 @@ msgstr ""
 "Resolusie: %1 x %2\n"
 "Orientasie: %3nVervris Tempo: %4"
 
-#: randrscreen.cpp:233 randrscreen.cpp:250
-msgid "Normal"
-msgstr "Normaal"
-
-#: randrscreen.cpp:235
-msgid "Left (90 degrees)"
-msgstr "Links (90 grade)"
-
-#: randrscreen.cpp:237
-msgid "Upside-down (180 degrees)"
-msgstr "Bo-Na onder (180 grade)"
-
-#: randrscreen.cpp:239
-msgid "Right (270 degrees)"
-msgstr "Regs (270 grade)"
-
-#: randrscreen.cpp:241
-msgid "Mirror horizontally"
-msgstr "Spieëlbeeld horisontaal"
-
-#: randrscreen.cpp:243
-msgid "Mirror vertically"
-msgstr "Spieëlbeeld vertikaal"
-
-#: randrscreen.cpp:245 randrscreen.cpp:276
-msgid "Unknown orientation"
-msgstr "Onbekende orientasie"
-
-#: randrscreen.cpp:252
-msgid "Rotated 90 degrees counterclockwise"
-msgstr "90 Grade anti-kloksgewys geroteer"
-
-#: randrscreen.cpp:254
-msgid "Rotated 180 degrees counterclockwise"
-msgstr "180 Grade anti-kloksgewys geroteer"
-
-#: randrscreen.cpp:256
-msgid "Rotated 270 degrees counterclockwise"
-msgstr "270 Grade anti-kloksgewys geroteer"
-
-#: randrscreen.cpp:261
-msgid "Mirrored horizontally and vertically"
-msgstr "Spieëlbeeld horisontaal en vertikaal"
-
-#: randrscreen.cpp:263
-msgid "mirrored horizontally and vertically"
-msgstr "spieëlbeeld horisontaal en vertikaal"
-
-#: randrscreen.cpp:266
-msgid "Mirrored horizontally"
-msgstr "Spieëlbeeld horisontaal"
-
-#: randrscreen.cpp:268
-msgid "mirrored horizontally"
-msgstr "spieëlbeeld horisontaal"
-
-#: randrscreen.cpp:271
-msgid "Mirrored vertically"
-msgstr "Spieëlbeeld vertikaal"
-
-#: randrscreen.cpp:273
-msgid "mirrored vertically"
-msgstr "spieëlbeeld vertikaal"
-
-#: randrscreen.cpp:278
-msgid "unknown orientation"
-msgstr "onbekende orientasie"
-
-#: randrscreen.cpp:402 randrscreen.cpp:407
+#: oldrandrscreen.cpp:291 oldrandrscreen.cpp:296
 #, fuzzy, qt-format
 msgctxt "Refresh rate in Hertz (Hz)"
 msgid "%1 Hz"
 msgstr ""
 "_: Vervris tempo in Hertz (Hz)\n"
 "%1 Hz"
+
+#: randr.cpp:12 randr.cpp:29
+msgid "Normal"
+msgstr "Normaal"
+
+#: randr.cpp:14
+msgid "Left (90 degrees)"
+msgstr "Links (90 grade)"
+
+#: randr.cpp:16
+msgid "Upside-down (180 degrees)"
+msgstr "Bo-Na onder (180 grade)"
+
+#: randr.cpp:18
+msgid "Right (270 degrees)"
+msgstr "Regs (270 grade)"
+
+#: randr.cpp:20
+msgid "Mirror horizontally"
+msgstr "Spieëlbeeld horisontaal"
+
+#: randr.cpp:22
+msgid "Mirror vertically"
+msgstr "Spieëlbeeld vertikaal"
+
+#: randr.cpp:24 randr.cpp:55
+msgid "Unknown orientation"
+msgstr "Onbekende orientasie"
+
+#: randr.cpp:31
+msgid "Rotated 90 degrees counterclockwise"
+msgstr "90 Grade anti-kloksgewys geroteer"
+
+#: randr.cpp:33
+msgid "Rotated 180 degrees counterclockwise"
+msgstr "180 Grade anti-kloksgewys geroteer"
+
+#: randr.cpp:35
+msgid "Rotated 270 degrees counterclockwise"
+msgstr "270 Grade anti-kloksgewys geroteer"
+
+#: randr.cpp:40
+msgid "Mirrored horizontally and vertically"
+msgstr "Spieëlbeeld horisontaal en vertikaal"
+
+#: randr.cpp:42
+msgid "mirrored horizontally and vertically"
+msgstr "spieëlbeeld horisontaal en vertikaal"
+
+#: randr.cpp:45
+msgid "Mirrored horizontally"
+msgstr "Spieëlbeeld horisontaal"
+
+#: randr.cpp:47
+msgid "mirrored horizontally"
+msgstr "spieëlbeeld horisontaal"
+
+#: randr.cpp:50
+msgid "Mirrored vertically"
+msgstr "Spieëlbeeld vertikaal"
+
+#: randr.cpp:52
+msgid "mirrored vertically"
+msgstr "spieëlbeeld vertikaal"
+
+#: randr.cpp:57
+msgid "unknown orientation"
+msgstr "onbekende orientasie"
+
+#: randrdisplay.cpp:41
+#, fuzzy, qt-format
+msgid "X Resize and Rotate extension version %1.%2"
+msgstr "Vergroot en Roteer Stelsel Laatjie Applikasie"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
