@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-31 05:57+0200\n"
+"POT-Creation-Date: 2007-06-01 05:51+0200\n"
 "PO-Revision-Date: 2005-11-23 23:01+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: krandrmodule.cpp:69
+#: krandrmodule.cpp:51
 #, fuzzy
 msgid ""
 "Your X server does not support resizing and rotating the display. Please "
@@ -28,125 +28,54 @@ msgstr ""
 "X Vergroot en Roteer verlenging (RANDR) weergawe 1.1 of groter nodig om die "
 "fasiliteit te gebruik.</qt>"
 
-#: krandrmodule.cpp:84
-msgid "Settings for screen:"
-msgstr "Stellings vir skerm"
+#: krandrtray.cpp:53
+msgid "Screen resize & rotate"
+msgstr "Skerm verander & roteer"
 
-#: krandrmodule.cpp:90 krandrtray.cpp:85
+#: krandrtray.cpp:72
+msgid "Required X Extension Not Available"
+msgstr "Verwagte X Ekstensie Nie Beskikbaar"
+
+#: krandrtray.cpp:83 legacyrandrconfig.cpp:36
 #, qt-format
 msgid "Screen %1"
 msgstr "Skerm %1"
 
-#: krandrmodule.cpp:95
-msgid ""
-"The screen whose settings you would like to change can be selected using "
-"this drop-down list."
-msgstr ""
-"Die skerm watse stellings jy wil verander kan jy kies deur middel van "
-"hierdie aftuimel kieslys."
-
-#: krandrmodule.cpp:106
-msgid "Screen size:"
-msgstr "Skerm grootte:"
-
-#: krandrmodule.cpp:110
-msgid ""
-"The size, otherwise known as the resolution, of your screen can be selected "
-"from this drop-down list."
-msgstr ""
-"Die grootte, ook bekend as die resolusie, van jou skerm kan jy kies deur "
-"middel van hierdie aftuimel kieslys."
-
-#: krandrmodule.cpp:118
-msgid "Refresh rate:"
-msgstr "Vervris tempo:"
-
-#: krandrmodule.cpp:122
-msgid ""
-"The refresh rate of your screen can be selected from this drop-down list."
-msgstr ""
-"Die vervris tempo van jou skerm kan jy kies deur middel van hierdie aftuimel "
-"kieslys."
-
-#: krandrmodule.cpp:126
-msgid "Orientation (degrees counterclockwise)"
-msgstr "Orientasie (grade anti-kloksgewys)"
-
-#: krandrmodule.cpp:129
-msgid ""
-"The options in this section allow you to change the rotation of your screen."
-msgstr ""
-"Die opsies in die seksie laat jou toe om die rotasie van jou skerm te "
-"verander."
-
-#: krandrmodule.cpp:131
-msgid "Apply settings on KDE startup"
-msgstr "Wend stellings aan wanneer KDE begin"
-
-#: krandrmodule.cpp:133
-msgid ""
-"If this option is enabled the size and orientation settings will be used "
-"when KDE starts."
-msgstr ""
-"Wanneer hierdie opsie aan is, sal die grootte en orientasie stellings "
-"gebruik word wanneer KDE begin."
-
-#: krandrmodule.cpp:140
-msgid "Allow tray application to change startup settings"
-msgstr "Laat laatjie applikasie toe om begin stellings te wysig"
-
-#: krandrmodule.cpp:142
-msgid ""
-"If this option is enabled, options set by the system tray applet will be "
-"saved and loaded when KDE starts instead of being temporary."
-msgstr ""
-"As hierdie opsie aan is, sal die opsies wat deur die stelsel laaitjie "
-"program opgestel is gestoor en gelaai word wanneer KDE begin in plaas "
-"daarvan om tydelik te wees."
-
-#: krandrmodule.cpp:190 krandrtray.cpp:188
-#, qt-format
-msgid "%1 x %2"
-msgstr "%1 x %2"
-
-#: krandrtray.cpp:51
-msgid "Screen resize & rotate"
-msgstr "Skerm verander & roteer"
-
-#: krandrtray.cpp:70
-msgid "Required X Extension Not Available"
-msgstr "Verwagte X Ekstensie Nie Beskikbaar"
-
-#: krandrtray.cpp:98
+#: krandrtray.cpp:100
 msgid "Configure Display..."
 msgstr "Konfigureer Beeld..."
 
-#: krandrtray.cpp:130
+#: krandrtray.cpp:132
 msgid "Screen configuration has changed"
 msgstr "Skerm konfigurasie het verander"
 
-#: krandrtray.cpp:148
+#: krandrtray.cpp:154
 msgid "Outputs"
 msgstr ""
 
-#: krandrtray.cpp:164
+#: krandrtray.cpp:163 krandrtray.cpp:210
 msgid "Screen Size"
 msgstr "Skerm Grootte"
 
-#: krandrtray.cpp:202
+#: krandrtray.cpp:178 krandrtray.cpp:250
 #, fuzzy
 msgid "Orientation"
 msgstr "Onbekende orientasie"
 
-#: krandrtray.cpp:221
+#: krandrtray.cpp:235 legacyrandrconfig.cpp:125
+#, qt-format
+msgid "%1 x %2"
+msgstr "%1 x %2"
+
+#: krandrtray.cpp:271
 msgid "Refresh Rate"
 msgstr "Vervris Tempo"
 
-#: krandrtray.cpp:324
+#: krandrtray.cpp:383
 msgid "Configure Display"
 msgstr "Konfigureer Beeld"
 
-#: ktimerdialog.cpp:170
+#: ktimerdialog.cpp:167
 #, fuzzy, qt-format
 msgid "1 second remaining:"
 msgid_plural "%1 seconds remaining:"
@@ -301,12 +230,141 @@ msgstr "onbekende orientasie"
 msgid "X Resize and Rotate extension version %1.%2"
 msgstr "Vergroot en Roteer Stelsel Laatjie Applikasie"
 
-#: rc.cpp:1
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 13
+#: rc.cpp:3
+#, fuzzy
+#| msgid "Screen resize & rotate"
+msgid "Screen Resize and Rotate Settings"
+msgstr "Skerm verander & roteer"
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 16
+#: rc.cpp:6
+msgid ""
+"If this option is enabled, options set by the system tray applet will be "
+"saved and loaded when KDE starts instead of being temporary."
+msgstr ""
+"As hierdie opsie aan is, sal die opsies wat deur die stelsel laaitjie "
+"program opgestel is gestoor en gelaai word wanneer KDE begin in plaas "
+"daarvan om tydelik te wees."
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 24
+#: rc.cpp:9
+#, fuzzy
+#| msgid "Settings for screen:"
+msgid "Settings for Screen:"
+msgstr "Stellings vir skerm"
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 34
+#: rc.cpp:12
+msgid ""
+"The screen whose settings you would like to change can be selected using "
+"this drop-down list."
+msgstr ""
+"Die skerm watse stellings jy wil verander kan jy kies deur middel van "
+"hierdie aftuimel kieslys."
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 45
+#: rc.cpp:15
+#, fuzzy
+#| msgid "Screen Size"
+msgid "Screen SIze:"
+msgstr "Skerm Grootte"
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 55
+#: rc.cpp:18
+msgid ""
+"The size, otherwise known as the resolution, of your screen can be selected "
+"from this drop-down list."
+msgstr ""
+"Die grootte, ook bekend as die resolusie, van jou skerm kan jy kies deur "
+"middel van hierdie aftuimel kieslys."
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 66
+#: rc.cpp:21
+#, fuzzy
+#| msgid "Refresh Rate"
+msgid "Refresh Rate:"
+msgstr "Vervris Tempo"
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 73
+#: rc.cpp:24
+msgid ""
+"The refresh rate of your screen can be selected from this drop-down list."
+msgstr ""
+"Die vervris tempo van jou skerm kan jy kies deur middel van hierdie aftuimel "
+"kieslys."
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 88
+#: rc.cpp:27
+msgid ""
+"The options in this section allow you to change the rotation of your screen."
+msgstr ""
+"Die opsies in die seksie laat jou toe om die rotasie van jou skerm te "
+"verander."
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 91
+#: rc.cpp:30
+msgid "Orientation (degrees counterclockwise)"
+msgstr "Orientasie (grade anti-kloksgewys)"
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 98
+#: rc.cpp:33
+msgid ""
+"If this option is enabled the size and orientation settings will be used "
+"when KDE starts."
+msgstr ""
+"Wanneer hierdie opsie aan is, sal die grootte en orientasie stellings "
+"gebruik word wanneer KDE begin."
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 101
+#: rc.cpp:36
+msgid "Apply settings on KDE startup"
+msgstr "Wend stellings aan wanneer KDE begin"
+
+#. i18n: tag string
+#. i18n: file legacyrandrconfigbase.ui line 108
+#: rc.cpp:39
+msgid "Allow tray application to change startup settings"
+msgstr "Laat laatjie applikasie toe om begin stellings te wysig"
+
+#. i18n: tag string
+#. i18n: file randrconfigbase.ui line 13
+#: rc.cpp:42
+#, fuzzy
+#| msgid "Screen resize & rotate"
+msgid "Screen Resize and Rotate Configuration"
+msgstr "Skerm verander & roteer"
+
+#. i18n: tag string
+#. i18n: file randrconfigbase.ui line 19
+#: rc.cpp:45
+msgid "Nothing to change here yet"
+msgstr ""
+
+#: rc.cpp:46
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Kobus Venter"
 
-#: rc.cpp:2
+#: rc.cpp:47
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kabousv@therugby.co.za"
+
+#~ msgid "Screen size:"
+#~ msgstr "Skerm grootte:"
+
+#~ msgid "Refresh rate:"
+#~ msgstr "Vervris tempo:"
