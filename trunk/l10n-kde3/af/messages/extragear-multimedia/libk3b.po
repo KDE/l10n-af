@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libk3b\n"
-"POT-Creation-Date: 2007-05-01 09:06+0200\n"
+"POT-Creation-Date: 2007-06-19 07:55+0200\n"
 "PO-Revision-Date: 2007-01-03 15:26+0200\n"
 "Last-Translator: Frikkie Thirion <kde.afrikaans@gmail.com>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -401,29 +401,40 @@ msgstr "Jammeer, daar is nog nie fout handtering geïmplementeer nie."
 msgid "Quick Format"
 msgstr "Vinnige Formateer"
 
-#: jobs/k3bverificationjob.cpp:168
+#: jobs/k3bverificationjob.cpp:170
+#, fuzzy
+msgid "Internal error: Verification job improperly initialized (%1)"
+msgstr "Interne Fout: Die nagaan taak was nie korrek geïnisialiseer nie"
+
+#: jobs/k3bverificationjob.cpp:176
 msgid "Checking medium"
 msgstr "Besig om media na te gaan "
 
-#: jobs/k3bverificationjob.cpp:198
-msgid "Internal Error: Verification job improperly initialized"
+#: jobs/k3bverificationjob.cpp:197
+#, fuzzy
+msgid "No tracks to verify found."
+msgstr "Geen <i>cdrdao</i> drywer gevind nie."
+
+#: jobs/k3bverificationjob.cpp:212
+#, fuzzy
+msgid "Internal Error: Verification job improperly initialized (%1)"
 msgstr "Interne Fout: Die nagaan taak was nie korrek geïnisialiseer nie"
 
-#: jobs/k3bverificationjob.cpp:221
+#: jobs/k3bverificationjob.cpp:236
 #, c-format
 msgid "Verifying track %1"
 msgstr "Besig om snit %1 na te gaan"
 
-#: jobs/k3bdvdcopyjob.cpp:270 jobs/k3bverificationjob.cpp:251
-#: jobs/k3bverificationjob.cpp:337
+#: jobs/k3bdvdcopyjob.cpp:270 jobs/k3bverificationjob.cpp:268
+#: jobs/k3bverificationjob.cpp:356
 msgid "Unable to determine the ISO9660 filesystem size."
 msgstr "Kon nie bepaal wat die ISO9660 lêersisteem grootte is nie."
 
-#: jobs/k3bverificationjob.cpp:289
+#: jobs/k3bverificationjob.cpp:306
 msgid "Written data in track %1 differs from original."
 msgstr "Die geskryfde data in snit %1 verskil van die oorspronklike."
 
-#: jobs/k3bverificationjob.cpp:293
+#: jobs/k3bverificationjob.cpp:310
 msgid "Written data verified."
 msgstr "Die geskryfde data se integriteit is bevestig."
 
@@ -2284,15 +2295,15 @@ msgstr "Kon nie die grootte van die beeld lêer bepaal nie."
 msgid "Could not open %1 for writing"
 msgstr "Kon nie %1 vir skryf oopmaak nie."
 
-#: projects/datacd/k3bisoimager.cpp:608
+#: projects/datacd/k3bisoimager.cpp:609
 msgid "No volume id specified. Using default."
 msgstr "Geen volume id was gespesifiseer. Standaard waarde sal gebruik word."
 
-#: projects/datacd/k3bisoimager.cpp:701
+#: projects/datacd/k3bisoimager.cpp:702
 msgid "Found files bigger than 4 GB. K3b needs at least %1 to continue."
 msgstr ""
 
-#: projects/datacd/k3bisoimager.cpp:709
+#: projects/datacd/k3bisoimager.cpp:710
 msgid ""
 "Found files bigger than 2 GB. These files will only be fully accessible if "
 "mounted with UDF."
@@ -2300,42 +2311,42 @@ msgstr ""
 "Lêers grootter as 2 gg gevind. Hierdie lêers sal net volledig gebruik kan word "
 "as dit met UDF gekoppel word."
 
-#: projects/datacd/k3bisoimager.cpp:720
+#: projects/datacd/k3bisoimager.cpp:721
 msgid "Enabling UDF extension."
 msgstr "Aktiveer UDF uitbreidings."
 
-#: projects/datacd/k3bisoimager.cpp:854
+#: projects/datacd/k3bisoimager.cpp:855
 msgid "Could not follow link %1 to non-existing file %2. Skipping..."
 msgstr ""
 "Kon nie die skakel %1 na die lêer %2 volg nie. Dit bestaan nie. Gaan dit "
 "ignoreer..."
 
-#: projects/datacd/k3bisoimager.cpp:860
+#: projects/datacd/k3bisoimager.cpp:861
 msgid ""
 "Ignoring link %1 to folder %2. K3b is unable to follow links to folders."
 msgstr ""
 "Skakel %1 na gids %2 gaan geïgnoreer word. K3b kan nie skakels na gidse volg "
 "nie."
 
-#: projects/datacd/k3bisoimager.cpp:870
+#: projects/datacd/k3bisoimager.cpp:871
 msgid "Could not find file %1. Skipping..."
 msgstr "Kon nie lêer %1 vind nie. Spring oor hom..."
 
-#: projects/datacd/k3bisoimager.cpp:874
+#: projects/datacd/k3bisoimager.cpp:875
 msgid "Could not read file %1. Skipping..."
 msgstr "Kon nie lêer %1 lees nie. Spring oor hom..."
 
-#: projects/datacd/k3bisoimager.cpp:922
+#: projects/datacd/k3bisoimager.cpp:923
 #, c-format
 msgid "Failed to backup boot image file %1"
 msgstr "Kon nie 'n rugsteun kopie van die boot beeld lêer %1 maak nie."
 
-#: projects/datacd/k3bisoimager.cpp:1089 projects/datacd/k3bisoimager.cpp:1099
-#: projects/datacd/k3bisoimager.cpp:1106 projects/datacd/k3bisoimager.cpp:1112
+#: projects/datacd/k3bisoimager.cpp:1090 projects/datacd/k3bisoimager.cpp:1100
+#: projects/datacd/k3bisoimager.cpp:1107 projects/datacd/k3bisoimager.cpp:1113
 msgid "Could not write temporary file"
 msgstr "Kon nie die tydelike lêer skryf nie."
 
-#: projects/datacd/k3bisoimager.cpp:1093
+#: projects/datacd/k3bisoimager.cpp:1094
 msgid "No files to be written."
 msgstr "Geen lêers om te skryf nie."
 
@@ -2941,11 +2952,11 @@ msgstr "'n Fout het met die dekodering van snit %1 voor gekom."
 msgid "Please insert Audio CD %1%2"
 msgstr "Sit asb. oudio CD %1%2 in."
 
-#: projects/audiocd/k3baudiocdtracksource.cpp:248
+#: projects/audiocd/k3baudiocdtracksource.cpp:249
 msgid "CD Track"
 msgstr "CD Snit"
 
-#: projects/audiocd/k3baudiocdtracksource.cpp:254
+#: projects/audiocd/k3baudiocdtracksource.cpp:255
 msgid "Track %1 from Audio CD %2"
 msgstr "Snit %1 van oudio CD %2"
 
