@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-23 05:23+0200\n"
+"POT-Creation-Date: 2007-06-26 05:23+0200\n"
 "PO-Revision-Date: 2002-11-07 11:26+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -87,102 +87,92 @@ msgstr ""
 msgid "Login Problem: Please login manually"
 msgstr ""
 
-#: kpackage.cpp:105
+#: kpackage.cpp:104
 msgid "Find &Package..."
 msgstr "Soek Paket..."
 
-#: kpackage.cpp:111
+#: kpackage.cpp:110
 msgid "Find &File..."
 msgstr "Soek Lêer..."
 
-#: kpackage.cpp:116
+#: kpackage.cpp:115
 msgid "&Reload"
 msgstr ""
 
-#: kpackage.cpp:134
+#: kpackage.cpp:133
 msgid "&Expand Tree"
 msgstr "Vergroot Boom"
 
-#: kpackage.cpp:140
+#: kpackage.cpp:139
 msgid "&Collapse Tree"
 msgstr "Toevou Boom"
 
-#: kpackage.cpp:145
+#: kpackage.cpp:144
 msgid "Clear &Marked"
 msgstr "Maak skoon Gemerkte"
 
-#: kpackage.cpp:149
+#: kpackage.cpp:148
 #, fuzzy
 msgid "Mark &All"
 msgstr "Merk"
 
-#: kpackage.cpp:153
+#: kpackage.cpp:152
 msgid "&Install"
 msgstr "Installeer"
 
-#: kpackage.cpp:161
+#: kpackage.cpp:160
 msgid "&Uninstall"
 msgstr "Oninstalleer"
 
-#: kpackage.cpp:169
+#: kpackage.cpp:168
 msgid "&Install Marked"
 msgstr "Installeer Gemerkte"
 
-#: kpackage.cpp:174
+#: kpackage.cpp:173
 msgid "&Uninstall Marked"
 msgstr "Oninstalleer Gemerkte"
 
-#: kpackage.cpp:188
+#: kpackage.cpp:187
 #, fuzzy
 msgid "Configure &KPackage..."
 msgstr "Konfigureer Kpackage..."
 
-#: kpackage.cpp:194
+#: kpackage.cpp:193
 #, fuzzy
 msgid "Clear Package &Folder Cache"
 msgstr "Maak skoon Paket Kas"
 
-#: kpackage.cpp:198
+#: kpackage.cpp:197
 msgid "Clear &Package Cache"
 msgstr "Maak skoon Paket Kas"
 
-#: kpackage.cpp:385
+#: kpackage.cpp:384
 msgid "Management Mode"
 msgstr "Bestuuring Modus"
 
-#: kpackage.cpp:429
+#: kpackage.cpp:428
 msgid "Select Package"
 msgstr "Kies Paket"
 
-#: kpackage.cpp:490
+#: kpackage.cpp:489
 #, qt-format
 msgid "Unknown package type: %1"
 msgstr "Onbekende paket tipe: %1"
 
-#: kpackage.cpp:492
+#: kpackage.cpp:491
 #, qt-format
 msgid "File not found: %1"
 msgstr "Lêer nie gevind: %1"
 
-#: kpackage.cpp:594
+#: kpackage.cpp:593
 #, qt-format
 msgid "Malformed URL: %1"
 msgstr "Misformde Url: %1"
 
-#: kpackage.cpp:640
+#: kpackage.cpp:639
 #, fuzzy
 msgid "Starting KIO"
 msgstr "Beginne Kio"
-
-#: kpackage.cpp:645
-#, fuzzy
-msgid "KIO finished"
-msgstr "Kio klaar gemaak"
-
-#: kpackage.cpp:657
-#, fuzzy
-msgid "KIO failed"
-msgstr "Kio gevaal"
 
 #: kpackage.cpp:670
 #, fuzzy
@@ -281,11 +271,11 @@ msgstr "Installeer"
 msgid "Fetch"
 msgstr "Gaan haal"
 
-#: managementWidget.cpp:354
+#: managementWidget.cpp:352
 msgid "Building package tree"
 msgstr "Bou paket boom"
 
-#: managementWidget.cpp:476
+#: managementWidget.cpp:474
 #, fuzzy
 msgid "Filename not available\n"
 msgstr "Lêernaam nie beskikbaar\n"
@@ -584,11 +574,50 @@ msgstr "beskikbaar as"
 msgid "none"
 msgstr "geen"
 
-#: pkgInterface.cpp:72
+#: pkgInterface.cpp:70
 msgid "'Delete this window to continue'"
 msgstr "'Delete hierdie venster na continue'"
 
-#: pkgInterface.cpp:271
+#: pkgInterface.cpp:327
+#, fuzzy
+#| msgid "Querying package list: "
+msgid "Querying package state"
+msgstr "Navraag in paket lys: "
+
+#: pkgInterface.cpp:395
+#, fuzzy
+msgid "Querying installed package list"
+msgstr "Navraag in paket lys: "
+
+#: pkgInterface.cpp:416
+#, fuzzy
+#| msgid "Getting package info"
+msgid "Generating package information"
+msgstr "Verkry paket inligting"
+
+#: pkgInterface.cpp:423
+#, fuzzy
+#| msgid "Getting package info"
+msgid "Processing package information"
+msgstr "Verkry paket inligting"
+
+#: pkgInterface.cpp:461
+#, fuzzy, qt-format
+#| msgid "Querying SLACK package list: "
+msgid "Querying SMART package list: %1"
+msgstr "Navraag in Slack paket lys: "
+
+#: pkgInterface.cpp:473
+#, fuzzy, qt-format
+#| msgid "Processing RPM package list"
+msgid "Processing SMART package list: %1"
+msgstr "Verwerking Rpm paket lys"
+
+#: pkgInterface.cpp:515
+msgid "SMART"
+msgstr ""
+
+#: pkgInterface.cpp:532
 msgid "Verifying"
 msgstr "Verifieër"
 
@@ -711,88 +740,57 @@ msgid ""
 "function"
 msgstr ""
 
-#: smartInterface.cpp:491
+#: smartInterface.cpp:320
 #, fuzzy
 msgid "&Update"
 msgstr "Opgedateer"
 
-#: smartInterface.cpp:495
+#: smartInterface.cpp:324
 msgid "U&pgrade"
 msgstr "Opgradering"
 
-#: smartInterface.cpp:499
+#: smartInterface.cpp:328
 msgid "&Fixup"
 msgstr "Maak reg"
 
-#: smartInterface.cpp:503
+#: smartInterface.cpp:332
 msgid "&Apt-File Update"
 msgstr ""
 
-#: smartInterface.cpp:546
+#: smartInterface.cpp:375
 #, fuzzy, qt-format
 msgid "The %1 program needs to be installed"
 msgstr "%1 kan nie wees geïnstalleer"
 
-#: smartInterface.cpp:554
-#, fuzzy
-#| msgid "Querying package list: "
-msgid "Querying package state"
-msgstr "Navraag in paket lys: "
-
-#: smartInterface.cpp:621
-#, fuzzy
-msgid "Querying installed package list"
-msgstr "Navraag in paket lys: "
-
-#: smartInterface.cpp:642
-#, fuzzy
-#| msgid "Getting package info"
-msgid "Generating package information"
-msgstr "Verkry paket inligting"
-
-#: smartInterface.cpp:649
-#, fuzzy
-#| msgid "Getting package info"
-msgid "Processing package information"
-msgstr "Verkry paket inligting"
-
-#: smartInterface.cpp:687
-#, fuzzy, qt-format
-#| msgid "Querying SLACK package list: "
-msgid "Querying SMART package list: %1"
-msgstr "Navraag in Slack paket lys: "
-
-#: smartInterface.cpp:699
-#, fuzzy, qt-format
-#| msgid "Processing RPM package list"
-msgid "Processing SMART package list: %1"
-msgstr "Verwerking Rpm paket lys"
-
-#: smartInterface.cpp:741
-msgid "SMART"
-msgstr ""
-
-#: smartInterface.cpp:755
+#: smartInterface.cpp:389
 msgid "Querying DEB APT available list"
 msgstr "Navraag in Deb  apt  beskikbaar lys"
 
-#: smartInterface.cpp:757
+#: smartInterface.cpp:391
 #, qt-format
 msgid "Querying DEB APT available list: %1"
 msgstr "Navraag in Deb  apt  beskikbaar lys: %1"
 
-#: smartInterface.cpp:762
+#: smartInterface.cpp:396
 msgid "Processing DEB APT available list"
 msgstr "Verwerking Deb  apt  beskikbaar lys"
 
-#: smartInterface.cpp:764
+#: smartInterface.cpp:398
 #, qt-format
 msgid "Processing DEB APT available list: %1"
 msgstr "Verwerking Deb  apt  beskikbaar lys: %1"
 
-#: smartInterface.cpp:798
+#: smartInterface.cpp:432
 msgid "DEB APT"
 msgstr "Deb  apt "
+
+#, fuzzy
+#~ msgid "KIO finished"
+#~ msgstr "Kio klaar gemaak"
+
+#, fuzzy
+#~ msgid "KIO failed"
+#~ msgstr "Kio gevaal"
 
 #, fuzzy
 #~ msgid "Cannot create folder %1"
