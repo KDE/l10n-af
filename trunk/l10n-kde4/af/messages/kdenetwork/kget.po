@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kget VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-26 05:31+0200\n"
+"POT-Creation-Date: 2007-07-27 05:45+0200\n"
 "PO-Revision-Date: 2002-09-27 16:40+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -81,6 +81,10 @@ msgid "Start KGet with drop target"
 msgstr ""
 
 #: main.cpp:128
+msgid "Start KGet with hidden main window"
+msgstr ""
+
+#: main.cpp:129
 #, fuzzy
 msgid "URL(s) to download"
 msgstr "Url(s) na aflaai."
@@ -102,14 +106,13 @@ msgstr "Voer uit Oordra Lys..."
 msgid "Edit Groups..."
 msgstr ""
 
-#: mainwindow.cpp:120
-#, fuzzy
-msgid "Delete Group."
-msgstr "Verstek Gids"
+#: mainwindow.cpp:120 ui/groupseditdialog.cpp:37
+msgid "Delete Group"
+msgstr ""
 
 #: mainwindow.cpp:125
 #, fuzzy
-msgid "Rename Group."
+msgid "Rename Group"
 msgstr "Verstek Gids"
 
 #: mainwindow.cpp:130
@@ -175,72 +178,72 @@ msgstr "frix@expertron.co.za"
 msgid "Copy URL to Clipboard"
 msgstr "Kopie Url na Klipbord"
 
-#: mainwindow.cpp:253
+#: mainwindow.cpp:250
 msgid ""
 "This is the first time you have run KGet.\n"
-"Would you like to use KGet as the download manager for Konqueror?"
+"Would you like to enable KGet as the download manager for Konqueror?"
 msgstr ""
 
-#: mainwindow.cpp:255
+#: mainwindow.cpp:252
 #, fuzzy
 msgid "Konqueror Integration"
 msgstr "Konqueror Integrasie"
 
-#: mainwindow.cpp:255
+#: mainwindow.cpp:252
 msgid "Enable"
 msgstr ""
 
-#: mainwindow.cpp:256
+#: mainwindow.cpp:253
 msgid "Do Not Enable"
 msgstr ""
 
-#: mainwindow.cpp:282
+#: mainwindow.cpp:284
 msgid "All Openable Files"
 msgstr ""
 
-#: mainwindow.cpp:283
+#: mainwindow.cpp:285
 #, fuzzy
 msgid "Open File"
 msgstr "Open Lêer"
 
-#: mainwindow.cpp:299
+#: mainwindow.cpp:301
 msgid ""
 "Some transfers are still running.\n"
 "Are you sure you want to close KGet?"
 msgstr ""
 
-#: mainwindow.cpp:301
+#: mainwindow.cpp:303
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:334
+#: mainwindow.cpp:336
 #, fuzzy
 msgid "KGet Transfer List"
 msgstr "Open oordra:"
 
-#: mainwindow.cpp:336
+#: mainwindow.cpp:338
 #, fuzzy
 msgid "Export Transfers"
 msgstr "Voer uit Oordra Lys..."
 
-#: mainwindow.cpp:366 ui/groupseditdialog.cpp:65
+#: mainwindow.cpp:368 ui/groupseditdialog.cpp:65
 #, fuzzy
 msgid "Enter Group Name"
 msgstr "WEB-Vertaler (http://kde.af.org.za)"
 
-#: mainwindow.cpp:367 ui/groupseditdialog.cpp:66
+#: mainwindow.cpp:369 ui/groupseditdialog.cpp:66
 #, fuzzy
 msgid "Group name:"
 msgstr "WEB-Vertaler (http://kde.af.org.za)"
 
-#: mainwindow.cpp:545
+#: mainwindow.cpp:547
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
 "want to disable it forever, go to Settings->Advanced and disable \"Use as "
 "download manager for Konqueror\"."
 msgstr ""
 
-#: mainwindow.cpp:548
+#: mainwindow.cpp:550
 #, fuzzy
 msgid "Konqueror Integration disabled"
 msgstr "Konqueror Integrasie"
@@ -770,32 +773,42 @@ msgstr "Vordering Dialoog"
 msgid "Speed"
 msgstr "Spoed"
 
-#: ui/droptarget.cpp:82
-#, fuzzy
-msgid "Hide Me"
-msgstr "Naam"
-
 #: ui/droptarget.cpp:83
+#, fuzzy
+msgid "Hide Drop Target"
+msgstr "Laat val Teiken"
+
+#: ui/droptarget.cpp:84
 msgid "Sticky"
 msgstr "Taaierig"
 
-#: ui/droptarget.cpp:254
+#: ui/droptarget.cpp:260
 #, fuzzy
 msgid "Show Main Window"
 msgstr "Vertoon hoof venster na opstart"
 
-#: ui/droptarget.cpp:255
+#: ui/droptarget.cpp:261
 #, fuzzy
 msgid "Hide Main Window"
 msgstr "Log Venster"
 
-#: ui/droptarget.cpp:375
+#: ui/droptarget.cpp:338
+#, fuzzy
+#| msgid "Drop target"
+msgid "Drop Target"
+msgstr "Laat val teiken"
+
+#: ui/droptarget.cpp:339
+msgid "You can drag download links into the drop target."
+msgstr ""
+
+#: ui/droptarget.cpp:385
 msgid ""
 "Drop target has been hidden. If you want to show it again, go to Settings-"
 ">Configure KGet->Look & Feel."
 msgstr ""
 
-#: ui/droptarget.cpp:377
+#: ui/droptarget.cpp:387
 #, fuzzy
 msgid "Hiding drop target"
 msgstr "Laat val Teiken"
@@ -806,10 +819,6 @@ msgstr ""
 
 #: ui/groupseditdialog.cpp:32
 msgid "Add Group..."
-msgstr ""
-
-#: ui/groupseditdialog.cpp:37
-msgid "Delete Group"
 msgstr ""
 
 #: ui/groupseditdialog.cpp:74
@@ -868,6 +877,14 @@ msgstr "Oordra"
 #, fuzzy
 msgid "Transfer details:"
 msgstr " Oordragte: %1 "
+
+#, fuzzy
+#~ msgid "Delete Group."
+#~ msgstr "Verstek Gids"
+
+#, fuzzy
+#~ msgid "Hide Me"
+#~ msgstr "Naam"
 
 #, fuzzy
 #~ msgid ""
@@ -1432,9 +1449,6 @@ msgstr " Oordragte: %1 "
 #, fuzzy
 #~ msgid "Font:"
 #~ msgstr "Maand:"
-
-#~ msgid "Drop target"
-#~ msgstr "Laat val teiken"
 
 #~ msgid "Copy file from: %1"
 #~ msgstr "Kopie lêer van: %1"
