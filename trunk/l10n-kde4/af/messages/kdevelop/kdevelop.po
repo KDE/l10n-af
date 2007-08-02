@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-01 04:48+0200\n"
+"POT-Creation-Date: 2007-08-02 04:54+0200\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -40,7 +40,7 @@ msgstr "$Appnaam$"
 #. i18n: file ./src/kdevelopui.rc line 4
 #. i18n: tag text
 #. i18n: file ./plugins/qtdesigner/kdevqtdesigner.rc line 4
-#: rc.cpp:8 rc.cpp:301
+#: rc.cpp:8 rc.cpp:346
 #, fuzzy
 msgid "&File"
 msgstr "Lêers:"
@@ -53,7 +53,7 @@ msgstr "Lêers:"
 #. i18n: file ./src/kdevelopui.rc line 28
 #. i18n: tag text
 #. i18n: file ./plugins/qtdesigner/kdevqtdesigner.rc line 7
-#: rc.cpp:11 rc.cpp:304
+#: rc.cpp:11 rc.cpp:349
 #, fuzzy
 msgid "&Edit"
 msgstr "Redigeer..."
@@ -92,7 +92,7 @@ msgstr "Bou"
 #. i18n: file ./src/kdevelopui.rc line 84
 #. i18n: tag Text
 #. i18n: file ./plugins/valgrind/kdevpart_valgrind.rc line 4
-#: rc.cpp:23 rc.cpp:298
+#: rc.cpp:23 rc.cpp:343
 msgid "&Debug"
 msgstr "Ontfouting"
 
@@ -130,7 +130,7 @@ msgstr ""
 #. i18n: file ./src/kdevelopui.rc line 141
 #. i18n: tag text
 #. i18n: file ./plugins/qtdesigner/kdevqtdesigner.rc line 29
-#: rc.cpp:38 rc.cpp:310
+#: rc.cpp:38 rc.cpp:355
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "Bou Nutsbalk"
@@ -219,7 +219,7 @@ msgstr "Verwyder lêer"
 #. i18n: file ./src/profileengine/editor/profileeditorbase.ui line 538
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/projectselectionpage.ui line 28
-#: rc.cpp:65 rc.cpp:125 rc.cpp:221
+#: rc.cpp:65 rc.cpp:125 rc.cpp:266
 #, fuzzy
 msgid "Properties"
 msgstr "Eienskappe:"
@@ -449,7 +449,7 @@ msgstr "Kies 'n kern lêer na ondersoek..."
 #. i18n: file ./buildtools/builders/makebuilder/makeconfig.ui line 13
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/projectselectionpage.ui line 13
-#: rc.cpp:179 rc.cpp:188 rc.cpp:218
+#: rc.cpp:179 rc.cpp:188 rc.cpp:263
 #, fuzzy
 msgid "Form"
 msgstr "Vorms"
@@ -516,49 +516,215 @@ msgstr "Aditionele eienskappe"
 msgid "Active Environment Variable profile: "
 msgstr "Omgewing veranderlikes"
 
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 25
+#: rc.cpp:215 plugins/grepview/grepdialog.cpp:76
+#, fuzzy
+msgid "Find In Files"
+msgstr "Voeg by Bestaande Lêers..."
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 31
+#: rc.cpp:218
+#, fuzzy
+#| msgid "&Pattern:"
+msgid "Pattern:"
+msgstr "Patroon:"
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 44
+#: rc.cpp:221
+#, fuzzy
+#| msgid ""
+#| "<qt>Enter the regular expression you want to search for here.<p>Possible "
+#| "meta characters are:<ul><li><b>.</b> - Matches any character<li><b>^</b> "
+#| "- Matches the beginning of a line<li><b>$</b> - Matches the end of a "
+#| "line<li><b>\\&lt;</b> - Matches the beginning of a word<li><b>\\&gt;</b> "
+#| "- Matches the end of a word</ul>The following repetition operators exist:"
+#| "<ul><li><b>?</b> - The preceding item is matched at most once<li><b>*</b> "
+#| "- The preceding item is matched zero or more times<li><b>+</b> - The "
+#| "preceding item is matched one or more times<li><b>{<i>n</i>}</b> - The "
+#| "preceding item is matched exactly <i>n</i> times<li><b>{<i>n</i>,}</b> - "
+#| "The preceding item is matched <i>n</i> or more times<li><b>{,<i>n</i>}</"
+#| "b> - The preceding item is matched at most <i>n</i> times<li><b>{<i>n</i>,"
+#| "<i>m</i>}</b> - The preceding item is matched at least <i>n</i>, but at "
+#| "most <i>m</i> times.</ul>Furthermore, backreferences to bracketed "
+#| "subexpressions are available via the notation \\<i>n</i>.</qt>"
+msgid ""
+"Enter the regular expression you want to search for here.<p>Possible meta "
+"characters are:<ul><li><b>.</b> - Matches any character</li><li><b>^</b> - "
+"Matches the beginning of a line</li><li><b>$</b> - Matches the end of a "
+"line</li><li><b>\\&lt;</b> - Matches the beginning of a word</li><li><b>"
+"\\&gt;</b> - Matches the end of a word</li></ul>The following repetition "
+"operators exist:<ul><li><b>?</b> - The preceding item is matched at most "
+"once</li><li><b>*</b> - The preceding item is matched zero or more times</"
+"li><li><b>+</b> - The preceding item is matched one or more times</li><li><b>"
+"{<i>n</i>}</b> - The preceding item is matched exactly <i>n</i> times</"
+"li><li><b>{<i>n</i>,}</b> - The preceding item is matched <i>n</i> or more "
+"times</li><li><b>{,<i>n</i>}</b> - The preceding item is matched at most "
+"<i>n</i> times</li><li><b>{<i>n</i>,<i>m</i>}</b> - The preceding item is "
+"matched at least <i>n</i>, but at most <i>m</i> times.</li></ul>Furthermore, "
+"backreferences to bracketed subexpressions are available via the notation "
+"\\<i>n</i>.</p>"
+msgstr ""
+"<qt>Invoer die gewone uitdrukking jy wil hê na soektog vir hier.<p>Moontlik "
+"meta karakters woord:<ul><li><b>.</b> - Ooreenstemmende inskrywings enige "
+"karakter<li><b>^</b> - Ooreenstemmende inskrywings die begin van 'n "
+"lyn<li><b>$</b> - Ooreenstemmende inskrywings die einde van 'n lyn<li><b>"
+"\\&lt;</b> - Ooreenstemmende inskrywings die begin van 'n woord<li><b>\\&gt;"
+"</b> - Ooreenstemmende inskrywings die einde van 'n woord</ul>die volgende "
+"herhaling operateurs bestaan:<ul><li><b>?</b> - die voorafgaande item is "
+"ooreengestem na mees as eers<li><b>*</b> - die voorafgaande item is "
+"ooreengestem nul of meer       times      <li><b>+</b> - die voorafgaande "
+"item is ooreengestem een of meer       times      <li><b>{<i>n</i>}</b> - "
+"die voorafgaande item is ooreengestem presies <i>n</i>       times      "
+"<li><b>{<i>n</i>,}</b> - die voorafgaande item is ooreengestem <i>n</i> of "
+"meer       times      <li><b>{,<i>n</i>}</b> - die voorafgaande item is "
+"ooreengestem na mees <i>n</i>       times      <li><b>{<i>n</i>,<i>m</i>}</"
+"b> - die voorafgaande item is ooreengestem na minste <i>n</i>, maar na mees "
+"<i>m</i>       times      .</ul>Verder, terug verwysings na in hakkies "
+"subuitdrukkings woord beskikbaar deur middel van die notasie \\<i>n</i>.</qt>"
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 57
+#: rc.cpp:224
+#, fuzzy
+#| msgid "&Template:"
+msgid "Template:"
+msgstr "Werkvoorbeeld:"
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 70
+#: rc.cpp:227
+#, c-format
+msgid "%s"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 80
+#: rc.cpp:230
+#, fuzzy
+#| msgid "&Regular expression:"
+msgid "Regular Expression:"
+msgstr "Gewone uitdrukking:"
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 103
+#: rc.cpp:233
+#, fuzzy
+msgid "Case Sensitive:"
+msgstr "Kas sensitief"
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 132
+#: rc.cpp:236
+msgid "Directory:"
+msgstr "Gids:"
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 165
+#: rc.cpp:239
+#, fuzzy
+msgid "Recursive:"
+msgstr "Rekursief"
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 188
+#: rc.cpp:242
+#, fuzzy
+msgid "Limit to project files:"
+msgstr "Onlangse lêers"
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 217
+#: rc.cpp:245
+#, fuzzy
+msgid "Files:"
+msgstr "Lêer(s):"
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 230
+#: rc.cpp:248
+msgid ""
+"Enter the file name pattern of the files to search here. You may give "
+"several patterns separated by commas"
+msgstr ""
+"Invoer die lêer naam patroon van die lêers na soektog hier. Jy dalk mag gee "
+"klomp patrone geskei deur kommas"
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 243
+#: rc.cpp:251
+#, fuzzy
+msgid "Exclude:"
+msgstr "Sluit uit in:"
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 256
+#: rc.cpp:254
+#, fuzzy, c-format
+#| msgid ""
+#| "You can choose a template for the pattern from the combo box and edit it "
+#| "here. The string %s in the template is replaced by the pattern input "
+#| "field, resulting in the regular expression to search for."
+msgid ""
+"You can choose a template for the pattern from the combo box and edit it "
+"here. The string %s in the template is replaced  by the pattern input field, "
+"resulting in the regular expression to search for."
+msgstr ""
+"Jy kan kies 'n werkvoorbeeld vir die patroon van die gekombineerde boks en "
+"redigeer dit hier. die string %s in die werkvoorbeeld is vervang deur die "
+"patroon invoer veld, gevolglik in die gewone uitdrukking na soektog vir."
+
+#. i18n: tag string
+#. i18n: file ./plugins/grepview/grepwidget.ui line 343
+#: rc.cpp:257
+msgid "Suppress find errors:"
+msgstr ""
+
 #. i18n: tag Text
 #. i18n: file ./plugins/grepview/kdevgrepview.rc line 4
-#: rc.cpp:215
+#: rc.cpp:260
 #, fuzzy
 msgid "Edit"
 msgstr "Redigeer..."
 
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/projectselectionpage.ui line 43
-#: rc.cpp:224
+#: rc.cpp:269
 #, fuzzy
 msgid "Final Location:"
 msgstr "Ligging:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/projectselectionpage.ui line 50
-#: rc.cpp:227
+#: rc.cpp:272
 #, fuzzy
 msgid "Location:"
 msgstr "Ligging:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/projectselectionpage.ui line 57
-#: rc.cpp:230
+#: rc.cpp:275
 #, fuzzy
 msgid "Application Name:"
 msgstr "Aansoek naam:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/projectselectionpage.ui line 64
-#: rc.cpp:233
+#: rc.cpp:278
 msgid "(invalid)"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./plugins/documentview/settings/config.kcfg line 7
-#: rc.cpp:236
+#: rc.cpp:281
 msgid "Display document categories (mimetypes) in the view"
 msgstr ""
 
 #. i18n: tag whatsthis
 #. i18n: file ./plugins/documentview/settings/config.kcfg line 10
-#: rc.cpp:239
+#: rc.cpp:284
 msgid ""
 "If this option is set, the Document View will organize documents\n"
 "        by their mimetype. If this option is not set, the Document View will "
@@ -568,46 +734,46 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/documentview/settings/settingswidget.ui line 13
-#: rc.cpp:244
+#: rc.cpp:289
 #, fuzzy
 msgid "Form2"
 msgstr "Vorm1"
 
 #. i18n: tag string
 #. i18n: file ./plugins/documentview/settings/settingswidget.ui line 41
-#: rc.cpp:247
+#: rc.cpp:292
 msgid "Display document &categories"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/documentview/settings/settingswidget.ui line 44
-#: rc.cpp:250
+#: rc.cpp:295
 msgid "Alt+A"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 25
-#: rc.cpp:253
+#: rc.cpp:298
 msgid "Valgrind"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 40
-#: rc.cpp:256
+#: rc.cpp:301
 #, fuzzy
 msgid "&Executable:"
 msgstr "Uitvoerbare:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 57
-#: rc.cpp:259
+#: rc.cpp:304
 #, fuzzy
 msgid "&Parameters:"
 msgstr "Parameters:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 86
-#: rc.cpp:262
+#: rc.cpp:307
 msgid "Callgrind"
 msgstr ""
 
@@ -619,7 +785,7 @@ msgstr ""
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 101
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 257
-#: rc.cpp:265 rc.cpp:289
+#: rc.cpp:310 rc.cpp:334
 #, fuzzy
 msgid "&Trace children"
 msgstr "Vertoon kinders"
@@ -632,7 +798,7 @@ msgstr "Vertoon kinders"
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 108
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 292
-#: rc.cpp:268 rc.cpp:295
+#: rc.cpp:313 rc.cpp:340
 msgid "E&xecutable:"
 msgstr "Uitvoerbare:"
 
@@ -644,53 +810,53 @@ msgstr "Uitvoerbare:"
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 128
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 272
-#: rc.cpp:271 rc.cpp:292
+#: rc.cpp:316 rc.cpp:337
 #, fuzzy
 msgid "Additional p&arameters:"
 msgstr "Aditionele Parameters:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 141
-#: rc.cpp:274
+#: rc.cpp:319
 #, fuzzy
 msgid "KCacheGrind"
 msgstr "Etiket nie gevind"
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 163
-#: rc.cpp:277
+#: rc.cpp:322
 #, fuzzy
 msgid "Executable:"
 msgstr "Uitvoerbare:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 199
-#: rc.cpp:280
+#: rc.cpp:325
 msgid "Memcheck"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 214
-#: rc.cpp:283
+#: rc.cpp:328
 msgid "Memory &leak check"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 248
-#: rc.cpp:286
+#: rc.cpp:331
 msgid "&Show still reachable blocks"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ./plugins/qtdesigner/kdevqtdesigner.rc line 14
-#: rc.cpp:307
+#: rc.cpp:352
 #, fuzzy
 msgid "F&orm"
 msgstr "Vorms"
 
 #. i18n: tag text
 #. i18n: file ./plugins/qtdesigner/kdevqtdesigner.rc line 37
-#: rc.cpp:313
+#: rc.cpp:358
 #, fuzzy
 msgid "Designer Layout Toolbar"
 msgstr "Bou Nutsbalk"
@@ -767,7 +933,7 @@ msgstr ""
 msgid "Folder: \"%1\"  Command: \"%2\"Output: \"%3\""
 msgstr ""
 
-#: languages/cpp/preprocessjob.cpp:133
+#: languages/cpp/preprocessjob.cpp:134
 #, fuzzy, qt-format
 msgid "Could not open file '%1'"
 msgstr "Konfigureer lêer"
@@ -1559,17 +1725,23 @@ msgstr "deling"
 msgid "installing"
 msgstr "Installeer"
 
-#: plugins/grepview/grepviewpart.cpp:83
+#: plugins/grepview/grepdialog.cpp:75
+#, fuzzy
+#| msgid "Search"
+msgid "Search"
+msgstr "Soektog"
+
+#: plugins/grepview/grepviewpart.cpp:66
 #, fuzzy
 msgid "Find in Fi&les..."
 msgstr "Voeg by Bestaande Lêers..."
 
-#: plugins/grepview/grepviewpart.cpp:86
+#: plugins/grepview/grepviewpart.cpp:69
 #, fuzzy
 msgid "Search for expressions over several files"
 msgstr "Soek vir uitdrukkings bo klomp lêers"
 
-#: plugins/grepview/grepviewpart.cpp:87
+#: plugins/grepview/grepviewpart.cpp:70
 #, fuzzy
 msgid ""
 "<b>Find in files</b><p>Opens the 'Find in files' dialog. There you can enter "
@@ -1584,148 +1756,10 @@ msgstr ""
 "spesifiseer. Ooreenstemmende inskrywings sal wees vertoon, jy kan wissel na "
 "'n ooreenstem direk."
 
-#: plugins/grepview/grepviewpart.cpp:219
+#: plugins/grepview/grepviewpart.cpp:211
 #, fuzzy
 msgid "Unable to create a temporary file for search."
 msgstr "Kan nie skryf die projek lêer."
-
-#: plugins/grepview/grepdlg.cpp:106
-#, fuzzy
-msgid "Find in Files"
-msgstr "Voeg by Bestaande Lêers..."
-
-#: plugins/grepview/grepdlg.cpp:116
-msgid "&Pattern:"
-msgstr "Patroon:"
-
-#: plugins/grepview/grepdlg.cpp:126
-msgid "&Template:"
-msgstr "Werkvoorbeeld:"
-
-#: plugins/grepview/grepdlg.cpp:147
-#, fuzzy
-#| msgid "&Regular expression:"
-msgid "&Regular Expression"
-msgstr "Gewone uitdrukking:"
-
-#: plugins/grepview/grepdlg.cpp:151
-#, fuzzy
-msgid "C&ase sensitive"
-msgstr "Kas sensitief"
-
-#: plugins/grepview/grepdlg.cpp:156
-msgid "&Directory:"
-msgstr "Gids:"
-
-#: plugins/grepview/grepdlg.cpp:180
-#, fuzzy
-msgid "Set directory to that of the current file (Alt+Y)"
-msgstr "Stappe uit van die huidige funksie"
-
-#: plugins/grepview/grepdlg.cpp:187
-#, fuzzy
-msgid "Rec&ursive"
-msgstr "Rekursief"
-
-#: plugins/grepview/grepdlg.cpp:191
-#, fuzzy
-msgid "Limit search to &project files"
-msgstr "Onlangse lêers"
-
-#: plugins/grepview/grepdlg.cpp:197
-#, fuzzy
-msgid "&Files:"
-msgstr "Lêer(s):"
-
-#: plugins/grepview/grepdlg.cpp:205
-#, fuzzy
-msgid "&Exclude:"
-msgstr "Sluit uit in:"
-
-#: plugins/grepview/grepdlg.cpp:230
-msgid "&Suppress find errors"
-msgstr ""
-
-#: plugins/grepview/grepdlg.cpp:238
-#, fuzzy
-#| msgid "Search"
-msgid "Sea&rch"
-msgstr "Soektog"
-
-#: plugins/grepview/grepdlg.cpp:249
-#, fuzzy
-#| msgid ""
-#| "<qt>Enter the regular expression you want to search for here.<p>Possible "
-#| "meta characters are:<ul><li><b>.</b> - Matches any character<li><b>^</b> "
-#| "- Matches the beginning of a line<li><b>$</b> - Matches the end of a "
-#| "line<li><b>\\&lt;</b> - Matches the beginning of a word<li><b>\\&gt;</b> "
-#| "- Matches the end of a word</ul>The following repetition operators exist:"
-#| "<ul><li><b>?</b> - The preceding item is matched at most once<li><b>*</b> "
-#| "- The preceding item is matched zero or more times<li><b>+</b> - The "
-#| "preceding item is matched one or more times<li><b>{<i>n</i>}</b> - The "
-#| "preceding item is matched exactly <i>n</i> times<li><b>{<i>n</i>,}</b> - "
-#| "The preceding item is matched <i>n</i> or more times<li><b>{,<i>n</i>}</"
-#| "b> - The preceding item is matched at most <i>n</i> times<li><b>{<i>n</i>,"
-#| "<i>m</i>}</b> - The preceding item is matched at least <i>n</i>, but at "
-#| "most <i>m</i> times.</ul>Furthermore, backreferences to bracketed "
-#| "subexpressions are available via the notation \\<i>n</i>.</qt>"
-msgid ""
-"Enter the regular expression you want to search for here.<p>Possible meta "
-"characters are:<ul><li><b>.</b> - Matches any character</li><li><b>^</b> - "
-"Matches the beginning of a line</li><li><b>$</b> - Matches the end of a "
-"line</li><li><b>\\&lt;</b> - Matches the beginning of a word</li><li><b>"
-"\\&gt;</b> - Matches the end of a word</li></ul>The following repetition "
-"operators exist:<ul><li><b>?</b> - The preceding item is matched at most "
-"once</li><li><b>*</b> - The preceding item is matched zero or more times</"
-"li><li><b>+</b> - The preceding item is matched one or more times</li><li><b>"
-"{<i>n</i>}</b> - The preceding item is matched exactly <i>n</i> times</"
-"li><li><b>{<i>n</i>,}</b> - The preceding item is matched <i>n</i> or more "
-"times</li><li><b>{,<i>n</i>}</b> - The preceding item is matched at most "
-"<i>n</i> times</li><li><b>{<i>n</i>,<i>m</i>}</b> - The preceding item is "
-"matched at least <i>n</i>, but at most <i>m</i> times.</li></ul>Furthermore, "
-"backreferences to bracketed subexpressions are available via the notation "
-"\\<i>n</i>.</p>"
-msgstr ""
-"<qt>Invoer die gewone uitdrukking jy wil hê na soektog vir hier.<p>Moontlik "
-"meta karakters woord:<ul><li><b>.</b> - Ooreenstemmende inskrywings enige "
-"karakter<li><b>^</b> - Ooreenstemmende inskrywings die begin van 'n "
-"lyn<li><b>$</b> - Ooreenstemmende inskrywings die einde van 'n lyn<li><b>"
-"\\&lt;</b> - Ooreenstemmende inskrywings die begin van 'n woord<li><b>\\&gt;"
-"</b> - Ooreenstemmende inskrywings die einde van 'n woord</ul>die volgende "
-"herhaling operateurs bestaan:<ul><li><b>?</b> - die voorafgaande item is "
-"ooreengestem na mees as eers<li><b>*</b> - die voorafgaande item is "
-"ooreengestem nul of meer       times      <li><b>+</b> - die voorafgaande "
-"item is ooreengestem een of meer       times      <li><b>{<i>n</i>}</b> - "
-"die voorafgaande item is ooreengestem presies <i>n</i>       times      "
-"<li><b>{<i>n</i>,}</b> - die voorafgaande item is ooreengestem <i>n</i> of "
-"meer       times      <li><b>{,<i>n</i>}</b> - die voorafgaande item is "
-"ooreengestem na mees <i>n</i>       times      <li><b>{<i>n</i>,<i>m</i>}</"
-"b> - die voorafgaande item is ooreengestem na minste <i>n</i>, maar na mees "
-"<i>m</i>       times      .</ul>Verder, terug verwysings na in hakkies "
-"subuitdrukkings woord beskikbaar deur middel van die notasie \\<i>n</i>.</qt>"
-
-#: plugins/grepview/grepdlg.cpp:273
-msgid ""
-"Enter the file name pattern of the files to search here. You may give "
-"several patterns separated by commas"
-msgstr ""
-"Invoer die lêer naam patroon van die lêers na soektog hier. Jy dalk mag gee "
-"klomp patrone geskei deur kommas"
-
-#: plugins/grepview/grepdlg.cpp:276
-#, c-format
-msgid ""
-"You can choose a template for the pattern from the combo box and edit it "
-"here. The string %s in the template is replaced by the pattern input field, "
-"resulting in the regular expression to search for."
-msgstr ""
-"Jy kan kies 'n werkvoorbeeld vir die patroon van die gekombineerde boks en "
-"redigeer dit hier. die string %s in die werkvoorbeeld is vervang deur die "
-"patroon invoer veld, gevolglik in die gewone uitdrukking na soektog vir."
-
-#: plugins/grepview/grepdlg.cpp:344
-msgid "Please enter a search pattern"
-msgstr "Asseblief invoer 'n soektog patroon"
 
 #: plugins/appwizard/appwizarddialog.cpp:17
 msgid "Create New Project"
@@ -1930,6 +1964,16 @@ msgstr "Aksies vir %1"
 #, fuzzy
 msgid "Object Inspector"
 msgstr "Onlangse lêers"
+
+#~ msgid "&Directory:"
+#~ msgstr "Gids:"
+
+#, fuzzy
+#~ msgid "Set directory to that of the current file (Alt+Y)"
+#~ msgstr "Stappe uit van die huidige funksie"
+
+#~ msgid "Please enter a search pattern"
+#~ msgstr "Asseblief invoer 'n soektog patroon"
 
 #, fuzzy
 #~ msgid "Search Results"
@@ -6920,9 +6964,6 @@ msgstr "Onlangse lêers"
 
 #~ msgid "Subproject Information"
 #~ msgstr "Subprojek Informasie"
-
-#~ msgid "Directory:"
-#~ msgstr "Gids:"
 
 #~ msgid "Target:"
 #~ msgstr "Teiken:"
