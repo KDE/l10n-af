@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-01 04:47+0200\n"
+"POT-Creation-Date: 2007-08-06 05:38+0200\n"
 "PO-Revision-Date: 2002-11-07 11:40+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -102,54 +102,55 @@ msgstr ""
 msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr ""
 
-#: app/mainwindow.cpp:82
+#: app/mainwindow.cpp:83
 #, fuzzy
+msgctxt "action, to open an archive"
 msgid "Open"
 msgstr "Open met:"
 
-#: app/mainwindow.cpp:83
+#: app/mainwindow.cpp:84
 msgid ""
 "Click to open an archive, click and hold to open a recently-opened archive"
 msgstr ""
 
-#: app/mainwindow.cpp:84
+#: app/mainwindow.cpp:85
 #, fuzzy
 #| msgid "Open 'archive'"
 msgid "Open an archive"
 msgstr "Open 'archive'"
 
 #: kerfuffle/jobs.cpp:39
-#, qt-format
-msgid "Listing entries in the archive '%1'"
+msgid "Listing entries"
 msgstr ""
 
 #: kerfuffle/jobs.cpp:67
-#, fuzzy, qt-format
-msgid "Extracting all files from the archive '%1'"
-msgstr "Uitpak na:"
+#, fuzzy
+msgid "Extracting all files"
+msgstr "Laaste uitpak gids"
 
 #: kerfuffle/jobs.cpp:71
-#, qt-format
-msgid "Extracting one file from the archive %2"
-msgid_plural "Extracting %1 files from the archive '%2'"
-msgstr[0] ""
-msgstr[1] ""
+#, fuzzy, qt-format
+msgid "Extracting one file"
+msgid_plural "Extracting %1 files"
+msgstr[0] "Laaste uitpak gids"
+msgstr[1] "Laaste uitpak gids"
 
 #: kerfuffle/jobs.cpp:115
 #, fuzzy, qt-format
-msgid "Adding one file to the archive"
-msgid_plural "Adding %1 files to the archive"
-msgstr[0] "Probleme om te skryf na die argief..."
-msgstr[1] "Probleme om te skryf na die argief..."
+msgid "Adding a file"
+msgid_plural "Adding %1 files"
+msgstr[0] "Voeg by Lêer..."
+msgstr[1] "Voeg by Lêer..."
 
 #: kerfuffle/jobs.cpp:156
 #, fuzzy, qt-format
-msgid "Deleting one file from the archive"
-msgid_plural "Deleting %1 files from the archive"
+msgid "Deleting a file from the archive"
+msgid_plural "Deleting %1 files"
 msgstr[0] "Probleme om te skryf na die argief..."
 msgstr[1] "Probleme om te skryf na die argief..."
 
 #: part/archivemodel.cpp:220
+msgctxt "Name of a file inside an archive"
 msgid "Name"
 msgstr ""
 
@@ -198,11 +199,12 @@ msgstr ""
 msgid "<b>Target:</b> %1<br/>"
 msgstr ""
 
-#: part/jobtracker.cpp:87
-msgid "Done!"
-msgstr ""
+#: part/jobtracker.cpp:83
+#, fuzzy
+msgid "Operation finished."
+msgstr "Open uitpak dialoog, verlaat wanneer klaar gemaak."
 
-#: part/part.cpp:110
+#: part/part.cpp:116
 #, fuzzy
 #| msgctxt "to view something"
 #| msgid "&View"
@@ -210,67 +212,77 @@ msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "Besigtig"
 
-#: part/part.cpp:112
+#: part/part.cpp:118
 msgid "Click to preview the selected file"
 msgstr ""
 
-#: part/part.cpp:117
+#: part/part.cpp:123
 msgid "E&xtract..."
 msgstr "Uitpak..."
 
-#: part/part.cpp:119
+#: part/part.cpp:125
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:125
+#: part/part.cpp:131
 msgid "Add &File..."
 msgstr "Voeg by Lêer..."
 
-#: part/part.cpp:126
+#: part/part.cpp:132
 #, fuzzy
 msgid "Click to add files to the archive"
 msgstr "Probleme om te skryf na die argief..."
 
-#: part/part.cpp:132
+#: part/part.cpp:138
 #, fuzzy
 msgid "Add Fo&lder..."
 msgstr "Voeg by Lêer..."
 
-#: part/part.cpp:133
+#: part/part.cpp:139
 msgid "Click to add a folder to the archive"
 msgstr ""
 
-#: part/part.cpp:139
+#: part/part.cpp:145
 msgid "De&lete"
 msgstr "Uitvee"
 
-#: part/part.cpp:140
+#: part/part.cpp:146
 #, fuzzy
 #| msgid "Do you really want to delete the selected items?"
 msgid "Click to delete the selected files"
 msgstr "Doen jy rerig wil hê na uitvee die gekose iteme?"
 
-#: part/part.cpp:171
+#: part/part.cpp:178
 #, fuzzy
 #| msgid "Ark"
 msgid "ArkPart"
 msgstr "Ark"
 
-#: part/part.cpp:233
+#: part/part.cpp:247
 msgid "The internal viewer cannot preview this file."
 msgstr ""
 
-#: part/part.cpp:327
+#: part/part.cpp:341
 #, fuzzy
 msgid "Add Files"
 msgstr " Lêer "
 
-#: part/part.cpp:341
+#: part/part.cpp:355
 #, fuzzy
 msgid "Add Folder"
 msgstr "Voeg by Lêer..."
+
+#, fuzzy
+#~ msgid "Extracting all files from the archive '%1'"
+#~ msgstr "Uitpak na:"
+
+#, fuzzy
+#~ msgid "Adding one file to the archive"
+#~ msgid_plural "Adding %1 files to the archive"
+#~ msgstr[0] "Probleme om te skryf na die argief..."
+#~ msgstr[1] "Probleme om te skryf na die argief..."
 
 #, fuzzy
 #~ msgid "The deletion operation failed."
@@ -392,10 +404,6 @@ msgstr "Voeg by Lêer..."
 
 #~ msgid "Select Files to Add"
 #~ msgstr "Kies Lêers na Voeg by"
-
-#, fuzzy
-#~ msgid "Adding files..."
-#~ msgstr "Voeg by Lêer..."
 
 #, fuzzy
 #~ msgid "Select Folder to Add"
@@ -528,10 +536,6 @@ msgstr "Voeg by Lêer..."
 #~ msgstr " Lêer "
 
 #, fuzzy
-#~ msgid "Extract all files"
-#~ msgstr "Laaste uitpak gids"
-
-#, fuzzy
 #~ msgid "Destination folder: "
 #~ msgstr "Laaste uitpak gids"
 
@@ -561,10 +565,6 @@ msgstr "Voeg by Lêer..."
 #, fuzzy
 #~ msgid "(c) 1997-2005, The Various Ark Developers"
 #~ msgstr "(c) 1997-2002, Die Verskeie Ark Ontwikkelaars"
-
-#, fuzzy
-#~ msgid "Open extract dialog, quit when finished"
-#~ msgstr "Open uitpak dialoog, verlaat wanneer klaar gemaak."
 
 #, fuzzy
 #~ msgid ""
