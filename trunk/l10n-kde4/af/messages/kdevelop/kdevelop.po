@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-11 05:32+0200\n"
+"POT-Creation-Date: 2007-08-12 05:37+0200\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -40,7 +40,7 @@ msgstr "$Appnaam$"
 #. i18n: file ./src/kdevelopui.rc line 4
 #. i18n: tag text
 #. i18n: file ./plugins/qtdesigner/kdevqtdesigner.rc line 4
-#: rc.cpp:8 rc.cpp:350
+#: rc.cpp:8 rc.cpp:359
 #, fuzzy
 msgid "&File"
 msgstr "Lêers:"
@@ -53,7 +53,7 @@ msgstr "Lêers:"
 #. i18n: file ./src/kdevelopui.rc line 28
 #. i18n: tag text
 #. i18n: file ./plugins/qtdesigner/kdevqtdesigner.rc line 7
-#: rc.cpp:11 rc.cpp:353
+#: rc.cpp:11 rc.cpp:362
 #, fuzzy
 msgid "&Edit"
 msgstr "Redigeer..."
@@ -66,7 +66,7 @@ msgstr "Redigeer..."
 #. i18n: file ./src/kdevelopui.rc line 43
 #. i18n: tag Text
 #. i18n: file ./buildtools/builders/makebuilder/kdevmakebuilder.rc line 4
-#: rc.cpp:14 rc.cpp:200
+#: rc.cpp:14 rc.cpp:209
 #, fuzzy
 msgid "&View"
 msgstr "Kykers"
@@ -92,7 +92,7 @@ msgstr "Bou"
 #. i18n: file ./src/kdevelopui.rc line 84
 #. i18n: tag Text
 #. i18n: file ./plugins/valgrind/kdevpart_valgrind.rc line 4
-#: rc.cpp:23 rc.cpp:347
+#: rc.cpp:23 rc.cpp:356
 msgid "&Debug"
 msgstr "Ontfouting"
 
@@ -130,7 +130,7 @@ msgstr ""
 #. i18n: file ./src/kdevelopui.rc line 141
 #. i18n: tag text
 #. i18n: file ./plugins/qtdesigner/kdevqtdesigner.rc line 29
-#: rc.cpp:38 rc.cpp:359
+#: rc.cpp:38 rc.cpp:368
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "Bou Nutsbalk"
@@ -189,7 +189,8 @@ msgstr "Voeg by nuwe lêers"
 #. i18n: file ./src/profileengine/editor/profileeditorbase.ui line 516
 #. i18n: tag string
 #. i18n: file ./buildtools/managers/automake/tests/viewerbase.ui line 69
-#: rc.cpp:56 rc.cpp:104 rc.cpp:119 rc.cpp:173
+#: rc.cpp:56 rc.cpp:104 rc.cpp:119 rc.cpp:182
+#: buildtools/managers/cmake/cmakecachemodel.cpp:13
 msgid "Name"
 msgstr "Naam"
 
@@ -219,7 +220,7 @@ msgstr "Verwyder lêer"
 #. i18n: file ./src/profileengine/editor/profileeditorbase.ui line 538
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/projectselectionpage.ui line 25
-#: rc.cpp:65 rc.cpp:125 rc.cpp:276
+#: rc.cpp:65 rc.cpp:125 rc.cpp:285
 #, fuzzy
 msgid "Properties"
 msgstr "Eienskappe:"
@@ -412,91 +413,113 @@ msgstr "Vrylaat:"
 msgid "&Generator:"
 msgstr "Genereer"
 
+#. i18n: tag string
+#. i18n: file ./buildtools/managers/cmake/cmakebuildsettings.ui line 116
+#: rc.cpp:164
+#, fuzzy
+msgid "Cache Values"
+msgstr "Waarde"
+
+#. i18n: tag string
+#. i18n: file ./buildtools/managers/cmake/cmakebuildsettings.ui line 132
+#: rc.cpp:167
+#, fuzzy
+#| msgid "Show included files"
+msgid "Show Advanced Values"
+msgstr "Vertoon ingesluite lêers"
+
+#. i18n: tag string
+#. i18n: file ./buildtools/managers/cmake/cmakebuildsettings.ui line 139
+#: rc.cpp:170
+#, fuzzy
+msgid "Comment:"
+msgstr "Kommentaar:"
+
 #. i18n: tag Text
 #. i18n: file ./buildtools/managers/custommake/kdevcustommakemanager.rc line 4
-#: rc.cpp:164
+#: rc.cpp:173
 msgid "&Build"
 msgstr "Bou"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/managers/automake/tests/viewerbase.ui line 16
-#: rc.cpp:167
+#: rc.cpp:176
 #, fuzzy
 msgid "Viewer"
 msgstr "Kykers"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/managers/automake/tests/viewerbase.ui line 60
-#: rc.cpp:170
+#: rc.cpp:179
 #, fuzzy
 msgid "Parse Tree"
 msgstr "Leser"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/managers/automake/tests/viewerbase.ui line 80
-#: rc.cpp:176
+#: rc.cpp:185
 #, fuzzy
 msgid "Value 1"
 msgstr "Waarde"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/managers/automake/tests/viewerbase.ui line 91
-#: rc.cpp:179
+#: rc.cpp:188
 #, fuzzy
 msgid "Value 2"
 msgstr "Waarde"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/managers/automake/tests/viewerbase.ui line 111
-#: rc.cpp:182
+#: rc.cpp:191
 msgid "Source to Be Written Back"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./buildtools/managers/automake/tests/viewerbase.ui line 149
-#: rc.cpp:185
+#: rc.cpp:194
 #, fuzzy
 msgid "Add All From Directory"
 msgstr "Huis gids"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/managers/automake/tests/viewerbase.ui line 163
-#: rc.cpp:188
+#: rc.cpp:197
 #, fuzzy
 msgid "Choose File to Add..."
 msgstr "Kies 'n kern lêer na ondersoek..."
 
 #. i18n: tag string
 #. i18n: file ./buildtools/builders/cmakebuilder/cmakeconfig.ui line 13
-#: rc.cpp:191
+#: rc.cpp:200
 #, fuzzy
 msgid "Form"
 msgstr "Vorms"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/builders/cmakebuilder/cmakeconfig.ui line 38
-#: rc.cpp:194
+#: rc.cpp:203
 #, fuzzy
 msgid "CMake Binary:"
 msgstr "Qmake Bestuurder"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/builders/qmakebuilder/qmakeconfig.ui line 35
-#: rc.cpp:197
+#: rc.cpp:206
 #, fuzzy
 msgid "QMake Binary:"
 msgstr "Qmake Bestuurder"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/builders/makebuilder/makeconfig.ui line 16
-#: rc.cpp:203
+#: rc.cpp:212
 #, fuzzy
 msgid "Abort on first error:"
 msgstr "Staak op eerste fout"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/builders/makebuilder/makeconfig.ui line 34
-#: rc.cpp:206
+#: rc.cpp:215
 #, fuzzy
 msgid ""
 "Display commands but do not\n"
@@ -505,55 +528,55 @@ msgstr "Slegs vertoon opdragte sonder om te inderwaarheid uitvoer van hulle"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/builders/makebuilder/makeconfig.ui line 51
-#: rc.cpp:210
+#: rc.cpp:219
 msgid "Run more than one job at once:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./buildtools/builders/makebuilder/makeconfig.ui line 71
-#: rc.cpp:213
+#: rc.cpp:222
 #, fuzzy
 msgid "Number of simultaneous jobs:"
 msgstr "Nommer van gelyktydig werke:"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/builders/makebuilder/makeconfig.ui line 88
-#: rc.cpp:216
+#: rc.cpp:225
 #, fuzzy
 msgid "Make executable:"
 msgstr " php  uitvoerbare:"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/builders/makebuilder/makeconfig.ui line 101
-#: rc.cpp:219
+#: rc.cpp:228
 #, fuzzy
 msgid "Default make target:"
 msgstr "Verstek waarde:"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/builders/makebuilder/makeconfig.ui line 114
-#: rc.cpp:222
+#: rc.cpp:231
 #, fuzzy
 msgid "Additional make options:"
 msgstr "Aditionele eienskappe"
 
 #. i18n: tag string
 #. i18n: file ./buildtools/builders/makebuilder/makeconfig.ui line 127
-#: rc.cpp:225
+#: rc.cpp:234
 #, fuzzy
 msgid "Active Environment Profile: "
 msgstr "Omgewing veranderlikes"
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 25
-#: rc.cpp:228 plugins/grepview/grepdialog.cpp:76
+#: rc.cpp:237 plugins/grepview/grepdialog.cpp:76
 #, fuzzy
 msgid "Find In Files"
 msgstr "Voeg by Bestaande Lêers..."
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 31
-#: rc.cpp:231
+#: rc.cpp:240
 #, fuzzy
 #| msgid "&Pattern:"
 msgid "Pattern:"
@@ -561,7 +584,7 @@ msgstr "Patroon:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 44
-#: rc.cpp:234
+#: rc.cpp:243
 #, fuzzy
 #| msgid ""
 #| "<qt>Enter the regular expression you want to search for here.<p>Possible "
@@ -615,7 +638,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 57
-#: rc.cpp:237
+#: rc.cpp:246
 #, fuzzy
 #| msgid "&Template:"
 msgid "Template:"
@@ -623,14 +646,14 @@ msgstr "Werkvoorbeeld:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 70
-#: rc.cpp:240
+#: rc.cpp:249
 #, c-format
 msgid "%s"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 80
-#: rc.cpp:243
+#: rc.cpp:252
 #, fuzzy
 #| msgid "&Regular expression:"
 msgid "Regular Expression:"
@@ -638,41 +661,41 @@ msgstr "Gewone uitdrukking:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 103
-#: rc.cpp:246
+#: rc.cpp:255
 #, fuzzy
 msgid "Case Sensitive:"
 msgstr "Kas sensitief"
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 132
-#: rc.cpp:249
+#: rc.cpp:258
 msgid "Directory:"
 msgstr "Gids:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 165
-#: rc.cpp:252
+#: rc.cpp:261
 #, fuzzy
 msgid "Recursive:"
 msgstr "Rekursief"
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 188
-#: rc.cpp:255
+#: rc.cpp:264
 #, fuzzy
 msgid "Limit to project files:"
 msgstr "Onlangse lêers"
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 217
-#: rc.cpp:258
+#: rc.cpp:267
 #, fuzzy
 msgid "Files:"
 msgstr "Lêer(s):"
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 230
-#: rc.cpp:261
+#: rc.cpp:270
 msgid ""
 "Enter the file name pattern of the files to search here. You may give "
 "several patterns separated by commas"
@@ -682,14 +705,14 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 243
-#: rc.cpp:264
+#: rc.cpp:273
 #, fuzzy
 msgid "Exclude:"
 msgstr "Sluit uit in:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 256
-#: rc.cpp:267
+#: rc.cpp:276
 #, fuzzy, c-format
 #| msgid ""
 #| "You can choose a template for the pattern from the combo box and edit it "
@@ -706,53 +729,53 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/grepview/grepwidget.ui line 343
-#: rc.cpp:270
+#: rc.cpp:279
 msgid "Suppress find errors:"
 msgstr ""
 
 #. i18n: tag Text
 #. i18n: file ./plugins/grepview/kdevgrepview.rc line 4
-#: rc.cpp:273
+#: rc.cpp:282
 #, fuzzy
 msgid "Edit"
 msgstr "Redigeer..."
 
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/projectselectionpage.ui line 40
-#: rc.cpp:279
+#: rc.cpp:288
 #, fuzzy
 msgid "Final Location:"
 msgstr "Ligging:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/projectselectionpage.ui line 47
-#: rc.cpp:282
+#: rc.cpp:291
 #, fuzzy
 msgid "Location:"
 msgstr "Ligging:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/projectselectionpage.ui line 54
-#: rc.cpp:285
+#: rc.cpp:294
 #, fuzzy
 msgid "Application Name:"
 msgstr "Aansoek naam:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/projectselectionpage.ui line 61
-#: rc.cpp:288
+#: rc.cpp:297
 msgid "(invalid)"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file ./plugins/documentview/settings/config.kcfg line 7
-#: rc.cpp:291
+#: rc.cpp:300
 msgid "Display document categories (mimetypes) in the view"
 msgstr ""
 
 #. i18n: tag whatsthis
 #. i18n: file ./plugins/documentview/settings/config.kcfg line 10
-#: rc.cpp:294
+#: rc.cpp:303
 msgid ""
 "If this option is set, the Document View will organize documents\n"
 "        by their mimetype. If this option is not set, the Document View will "
@@ -762,33 +785,33 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/documentview/settings/settingswidget.ui line 38
-#: rc.cpp:299
+#: rc.cpp:308
 msgid "Display document &categories"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 25
-#: rc.cpp:302
+#: rc.cpp:311
 msgid "Valgrind"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 40
-#: rc.cpp:305
+#: rc.cpp:314
 #, fuzzy
 msgid "&Executable:"
 msgstr "Uitvoerbare:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 57
-#: rc.cpp:308
+#: rc.cpp:317
 #, fuzzy
 msgid "&Parameters:"
 msgstr "Parameters:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 86
-#: rc.cpp:311
+#: rc.cpp:320
 msgid "Callgrind"
 msgstr ""
 
@@ -800,7 +823,7 @@ msgstr ""
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 101
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 257
-#: rc.cpp:314 rc.cpp:338
+#: rc.cpp:323 rc.cpp:347
 #, fuzzy
 msgid "&Trace children"
 msgstr "Vertoon kinders"
@@ -813,7 +836,7 @@ msgstr "Vertoon kinders"
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 108
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 292
-#: rc.cpp:317 rc.cpp:344
+#: rc.cpp:326 rc.cpp:353
 msgid "E&xecutable:"
 msgstr "Uitvoerbare:"
 
@@ -825,53 +848,53 @@ msgstr "Uitvoerbare:"
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 128
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 272
-#: rc.cpp:320 rc.cpp:341
+#: rc.cpp:329 rc.cpp:350
 #, fuzzy
 msgid "Additional p&arameters:"
 msgstr "Aditionele Parameters:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 141
-#: rc.cpp:323
+#: rc.cpp:332
 #, fuzzy
 msgid "KCacheGrind"
 msgstr "Etiket nie gevind"
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 163
-#: rc.cpp:326
+#: rc.cpp:335
 #, fuzzy
 msgid "Executable:"
 msgstr "Uitvoerbare:"
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 199
-#: rc.cpp:329
+#: rc.cpp:338
 msgid "Memcheck"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 214
-#: rc.cpp:332
+#: rc.cpp:341
 msgid "Memory &leak check"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./plugins/valgrind/valgrind_dialog.ui line 248
-#: rc.cpp:335
+#: rc.cpp:344
 msgid "&Show still reachable blocks"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file ./plugins/qtdesigner/kdevqtdesigner.rc line 14
-#: rc.cpp:356
+#: rc.cpp:365
 #, fuzzy
 msgid "F&orm"
 msgstr "Vorms"
 
 #. i18n: tag text
 #. i18n: file ./plugins/qtdesigner/kdevqtdesigner.rc line 37
-#: rc.cpp:362
+#: rc.cpp:371
 #, fuzzy
 msgid "Designer Layout Toolbar"
 msgstr "Bou Nutsbalk"
@@ -1655,6 +1678,26 @@ msgstr "Nee taal inplak vir %1 gevind."
 msgid "Could not create language plugin for %1."
 msgstr "Kon nie skep taal inplak vir %1."
 
+#: buildtools/managers/cmake/cmakecachemodel.cpp:14
+#, fuzzy
+msgid "Type"
+msgstr "Tipe:"
+
+#: buildtools/managers/cmake/cmakecachemodel.cpp:15
+msgid "Value"
+msgstr "Waarde"
+
+#: buildtools/managers/cmake/cmakecachemodel.cpp:16
+#, fuzzy
+msgid "Comment"
+msgstr "Kommentaar:"
+
+#: buildtools/managers/cmake/cmakecachemodel.cpp:17
+#, fuzzy
+#| msgid "Internet"
+msgid "isInternal"
+msgstr "Internet"
+
 #: buildtools/managers/custommake/custommakemanager.cpp:74
 msgid "Build &Target"
 msgstr "Bou Teiken"
@@ -2125,10 +2168,6 @@ msgstr "Onlangse lêers"
 #~ msgstr "struktuur"
 
 #, fuzzy
-#~ msgid "Co&mment:"
-#~ msgstr "Kommentaar:"
-
-#, fuzzy
 #~ msgid "Checkout"
 #~ msgstr "Cvs Stuur in"
 
@@ -2241,9 +2280,6 @@ msgstr "Onlangse lêers"
 #~ msgid "Item"
 #~ msgstr "Item:"
 
-#~ msgid "Value"
-#~ msgstr "Waarde"
-
 #, fuzzy
 #~ msgid "Accept"
 #~ msgstr "Toegang verkry"
@@ -2307,14 +2343,6 @@ msgstr "Onlangse lêers"
 #, fuzzy
 #~ msgid "Messaging"
 #~ msgstr "Boodskappe"
-
-#, fuzzy
-#~ msgid "Type:"
-#~ msgstr "Tipe:"
-
-#, fuzzy
-#~ msgid "Comment"
-#~ msgstr "Kommentaar:"
 
 #, fuzzy
 #~ msgid "Source-discussion"
@@ -4807,10 +4835,6 @@ msgstr "Onlangse lêers"
 #~ msgstr "stel"
 
 #, fuzzy
-#~ msgid "theValue"
-#~ msgstr "Waarde"
-
-#, fuzzy
 #~ msgid "<b>Parametername</b> in set method:"
 #~ msgstr "Parameters van die metode"
 
@@ -7086,9 +7110,6 @@ msgstr "Onlangse lêers"
 
 #~ msgid "Graphics"
 #~ msgstr "Grafieka"
-
-#~ msgid "Internet"
-#~ msgstr "Internet"
 
 #~ msgid "Multimedia"
 #~ msgstr "Multimedia"
@@ -11520,9 +11541,6 @@ msgstr "Onlangse lêers"
 
 #~ msgid "Hide name scopes"
 #~ msgstr "Steek weg naam bestek"
-
-#~ msgid "Show included files"
-#~ msgstr "Vertoon ingesluite lêers"
 
 #~ msgid "Make inline functions"
 #~ msgstr "Maak inlyn funksies"
