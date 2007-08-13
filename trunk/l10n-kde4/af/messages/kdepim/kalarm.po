@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-11 05:33+0200\n"
+"POT-Creation-Date: 2007-08-13 05:28+0200\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -254,6 +254,7 @@ msgid "Alarm time has already expired"
 msgstr "Alarm tyd het alreeds verstrek"
 
 #: birthdaydlg.cpp:63
+msgctxt "@title"
 msgid "Import Birthdays From KAddressBook"
 msgstr ""
 
@@ -304,7 +305,7 @@ msgstr ""
 msgid "Alarm Configuration"
 msgstr ""
 
-#: birthdaydlg.cpp:164 messagewin.cpp:306 messagewin.cpp:341
+#: birthdaydlg.cpp:164 messagewin.cpp:341
 msgid "Reminder"
 msgstr ""
 
@@ -319,7 +320,7 @@ msgid ""
 "in addition to the alarm which is displayed on the birthday."
 msgstr "Invoer die nommer van dae tussen repitisies van die alarm"
 
-#: birthdaydlg.cpp:188 editdlg.cpp:137
+#: birthdaydlg.cpp:188 editdlgtypes.cpp:105
 msgid "Special Actions..."
 msgstr ""
 
@@ -399,115 +400,266 @@ msgstr ""
 msgid "Enable &Alarms"
 msgstr "Aktiveer Alarms"
 
-#: deferdlg.cpp:49
+#: deferdlg.cpp:46
+#, fuzzy
+#| msgid "Delete Alarm"
+#| msgid_plural "Delete Alarms"
+msgctxt "@title"
+msgid "Defer Alarm"
+msgstr "Uitvee Alarm"
+
+#: deferdlg.cpp:48
 msgid "Cancel &Deferral"
 msgstr ""
 
-#: deferdlg.cpp:68
+#: deferdlg.cpp:67
 msgid "Defer the alarm until the specified time."
 msgstr ""
 
-#: deferdlg.cpp:69
+#: deferdlg.cpp:68
 msgid "Cancel the deferred alarm. This does not affect future recurrences."
 msgstr ""
 
-#: deferdlg.cpp:105
+#: deferdlg.cpp:104
 #, qt-format
 msgctxt ""
 "This refers to simple repetitions set up using the Simple Repetition dialog"
 msgid "Cannot defer past the alarm's next repetition (currently %1)"
 msgstr ""
 
-#: deferdlg.cpp:110
+#: deferdlg.cpp:109
 #, qt-format
 msgctxt "This refers to recurrences set up using the Recurrence tab"
 msgid "Cannot defer past the alarm's next recurrence (currently %1)"
 msgstr ""
 
-#: deferdlg.cpp:114
+#: deferdlg.cpp:113
 #, qt-format
 msgid "Cannot defer past the alarm's next reminder (currently %1)"
 msgstr ""
 
-#: deferdlg.cpp:118
+#: deferdlg.cpp:117
 #, qt-format
 msgid "Cannot defer reminder past the main alarm time (%1)"
 msgstr ""
 
-#: editdlg.cpp:105
+#. i18n: tag label
+#. i18n: file kalarmconfig.kcfg line 270
+#: editdlg.cpp:87 rc.cpp:235
+msgid "Show in KOrganizer"
+msgstr ""
+
+#: editdlg.cpp:168
+#, fuzzy
+msgctxt "@title"
+msgid "Archived Alarm"
+msgstr "Aktiveer %1"
+
+#: editdlg.cpp:168
+msgid "read-only"
+msgstr ""
+
+#: editdlg.cpp:169
+#, fuzzy
+msgctxt "@title"
+msgid "View Alarm"
+msgstr "Nuwe Alarm"
+
+#: editdlg.cpp:175
+msgid "Load Template..."
+msgstr ""
+
+#: editdlg.cpp:203
+msgid "Template name:"
+msgstr ""
+
+#: editdlg.cpp:208
+#, fuzzy
+msgid "Enter the name of the alarm template"
+msgstr "Invoer die teks van die alarm boodskap. Dit dalk mag wees multi-line."
+
+#: editdlg.cpp:216
+msgid "&Alarm"
+msgstr "Alarm"
+
+#: editdlg.cpp:227
+msgid "&Recurrence"
+msgstr "Herhaling"
+
+#: editdlg.cpp:236
+msgid "Action"
+msgstr "Aksie"
+
+#: editdlg.cpp:245
+msgid "Deferred Alarm"
+msgstr ""
+
+#: editdlg.cpp:250
+msgid "Deferred to:"
+msgstr ""
+
+#: editdlg.cpp:256
+msgid "C&hange..."
+msgstr "Verander..."
+
+#: editdlg.cpp:259
+msgid "Change the alarm's deferred time, or cancel the deferral"
+msgstr ""
+
+#: editdlg.cpp:270 editdlg.cpp:332 eventlistmodel.cpp:303
+msgid "Time"
+msgstr "Tyd"
+
+#: editdlg.cpp:278
+msgid "&Default time"
+msgstr ""
+
+#: editdlg.cpp:281
+msgid ""
+"Do not specify a start time for alarms based on this template. The normal "
+"default start time will be used."
+msgstr ""
+
+#: editdlg.cpp:289
+#, fuzzy
+msgid "Time:"
+msgstr "Tyd"
+
+#: editdlg.cpp:292
+msgid "Specify a start time for alarms based on this template."
+msgstr ""
+
+#: editdlg.cpp:297
+#, fuzzy
+msgid "Enter the start time for alarms based on this template."
+msgstr "Invoer die laaste tyd na herhaal die alarm"
+
+#: editdlg.cpp:303
+msgid "An&y time"
+msgstr "Enige tyd"
+
+#: editdlg.cpp:306 recurrenceedit.cpp:266
+#, fuzzy
+msgid "Any time"
+msgstr "Enige tyd"
+
+#: editdlg.cpp:306
+#, qt-format
+msgid "Set the '%1' option for alarms based on this template."
+msgstr ""
+
+#: editdlg.cpp:316
+#, fuzzy
+msgid ""
+"Set alarms based on this template to start after the specified time interval "
+"from when the alarm is created."
+msgstr "Skeduleer die alarm na die gespesifiseer tyd interval van nou."
+
+#: editdlg.cpp:341
+#, fuzzy
+msgid "Recurrence:"
+msgstr "Herhaling"
+
+#: editdlg.cpp:344
+msgid ""
+"How often the alarm recurs.\n"
+"The times shown are those configured in the Recurrence tab and in the Simple "
+"Repetition dialog."
+msgstr ""
+
+#: editdlg.cpp:378
+msgid "Check to copy the alarm into KOrganizer's calendar"
+msgstr ""
+
+#: editdlg.cpp:382
+msgid "Schedule the alarm at the specified time."
+msgstr "Skeduleer die alarm na die gespesifiseer tyd."
+
+#: editdlg.cpp:776
+msgid "You must enter a name for the alarm template"
+msgstr ""
+
+#: editdlg.cpp:780
+msgid "Template name is already in use"
+msgstr ""
+
+#: editdlg.cpp:823
+#, fuzzy
+msgid "Recurrence has already expired"
+msgstr "Alarm tyd het alreeds verstrek"
+
+#: editdlg.cpp:828
+msgid "The alarm will never occur during working hours"
+msgstr ""
+
+#: editdlg.cpp:857
+#, qt-format
+msgid ""
+"Reminder period must be less than the recurrence interval, unless '%1' is "
+"checked."
+msgstr ""
+
+#: editdlg.cpp:871
+#, fuzzy
+msgid ""
+"The duration of a repetition within the recurrence must be less than the "
+"recurrence interval minus any reminder period"
+msgstr "Die alarm's herhaling tipe of herhaling interval."
+
+#: editdlg.cpp:878
+msgid ""
+"For a repetition within the recurrence, its period must be in units of days "
+"or weeks for a date-only alarm"
+msgstr ""
+
+#: editdlg.cpp:906
+#, fuzzy
+msgid "You must select a resource to save the alarm in"
+msgstr "Invoer die datum na skeduleer die alarm."
+
+#: editdlgtypes.cpp:79
 #, fuzzy
 msgid "Choose Text or Image File to Display"
 msgstr "Kies Teks Lêer na Vertoon"
 
-#: editdlg.cpp:122
+#: editdlgtypes.cpp:96
 #, fuzzy
 msgid "Choose Log File"
 msgstr "Kies 'n Klank Lêer"
 
-#: editdlg.cpp:136
+#: editdlgtypes.cpp:104
 msgid "Confirm acknowledgment"
 msgstr ""
 
-#. i18n: tag label
-#. i18n: file kalarmconfig.kcfg line 270
-#: editdlg.cpp:138 rc.cpp:235
-msgid "Show in KOrganizer"
-msgstr ""
-
-#: editdlg.cpp:139
+#: editdlgtypes.cpp:106
 msgid "Enter a script"
-msgstr ""
-
-#: editdlg.cpp:140
-msgid "Enter a scri&pt"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file kalarmconfig.kcfg line 312
-#: editdlg.cpp:141 rc.cpp:286
+#: editdlgtypes.cpp:107 rc.cpp:286
 msgid "Execute in terminal window"
 msgstr ""
 
-#: editdlg.cpp:142
-msgid "Execute in terminal &window"
-msgstr ""
-
-#: editdlg.cpp:143
-msgid "Exec&ute in terminal window"
-msgstr ""
-
-#: editdlg.cpp:144
-msgid "Lo&g to file"
-msgstr ""
+#: editdlgtypes.cpp:108
+#, fuzzy
+msgid "Log to file"
+msgstr "Einde na:"
 
 #. i18n: tag label
 #. i18n: file kalarmconfig.kcfg line 321
-#: editdlg.cpp:145 rc.cpp:295
+#: editdlgtypes.cpp:109 rc.cpp:295
 #, fuzzy
 msgid "Copy email to self"
 msgstr "Kopie e-pos na eie"
 
-#: editdlg.cpp:146
-#, fuzzy
-msgid "Copy &email to self"
-msgstr "Kopie e-pos na eie"
-
-#: editdlg.cpp:147
-msgid "Copy email to &self"
-msgstr "Kopie e-pos na eie"
-
-#: editdlg.cpp:148
+#: editdlgtypes.cpp:110
 #, fuzzy
 msgctxt "'From' email address"
 msgid "From:"
 msgstr "%1: ongeldige e-pos adres"
 
-#: editdlg.cpp:149
-msgctxt "'From' email address"
-msgid "&From:"
-msgstr ""
-
-#: editdlg.cpp:150 messagewin.cpp:490
+#: editdlgtypes.cpp:111 messagewin.cpp:490
 #, fuzzy
 msgctxt "Email addressee"
 msgid "To:"
@@ -515,408 +667,271 @@ msgstr ""
 "Ongeldige e-pos adres:\n"
 "%1"
 
-#: editdlg.cpp:151 messagewin.cpp:497
+#: editdlgtypes.cpp:112 messagewin.cpp:497
 #, fuzzy
 msgctxt "Email subject"
 msgid "Subject:"
 msgstr "E-pos onderwerp lyn"
 
-#: editdlg.cpp:152
+#: editdlgtypes.cpp:182
 #, fuzzy
-msgctxt "Email subject"
-msgid "Sub&ject:"
-msgstr "E-pos onderwerp lyn"
+msgctxt "@title"
+msgid "New Display Alarm Template"
+msgstr "Nuwe Alarm"
 
-#: editdlg.cpp:187
-msgid "Load Template..."
-msgstr ""
-
-#: editdlg.cpp:215
-msgid "Template name:"
-msgstr ""
-
-#: editdlg.cpp:220
+#: editdlgtypes.cpp:182
 #, fuzzy
-msgid "Enter the name of the alarm template"
-msgstr "Invoer die teks van die alarm boodskap. Dit dalk mag wees multi-line."
+msgctxt "@title"
+msgid "Edit Display Alarm Template"
+msgstr "Redigeer Alarm"
 
-#: editdlg.cpp:228
-msgid "&Alarm"
-msgstr "Alarm"
+#: editdlgtypes.cpp:183
+#, fuzzy
+msgctxt "@title"
+msgid "New Display Alarm"
+msgstr "Aktiveer Alarms"
 
-#: editdlg.cpp:239
-msgid "&Recurrence"
-msgstr "Herhaling"
+#: editdlgtypes.cpp:183
+#, fuzzy
+msgctxt "@title"
+msgid "Edit Display Alarm"
+msgstr "Aktiveer Alarms"
 
-#: editdlg.cpp:249
-msgid "Action"
-msgstr "Aksie"
+#: editdlgtypes.cpp:191
+#, fuzzy
+msgctxt "@title"
+msgid "New Command Alarm Template"
+msgstr "Nuwe Alarm"
 
-#: editdlg.cpp:261
+#: editdlgtypes.cpp:191
+#, fuzzy
+msgctxt "@title"
+msgid "Edit Command Alarm Template"
+msgstr "Redigeer Alarm"
+
+#: editdlgtypes.cpp:192
+#, fuzzy
+msgctxt "@title"
+msgid "New Command Alarm"
+msgstr "Opdrag"
+
+#: editdlgtypes.cpp:192
+#, fuzzy
+msgctxt "@title"
+msgid "Edit Command Alarm"
+msgstr "Opdrag"
+
+#: editdlgtypes.cpp:200
+#, fuzzy
+msgctxt "@title"
+msgid "New Email Alarm Template"
+msgstr "Nuwe Alarm"
+
+#: editdlgtypes.cpp:200
+#, fuzzy
+msgctxt "@title"
+msgid "Edit Email Alarm Template"
+msgstr "Redigeer Alarm"
+
+#: editdlgtypes.cpp:201
+#, fuzzy
+msgctxt "@title"
+msgid "New Email Alarm"
+msgstr "Aktiveer Alarms"
+
+#: editdlgtypes.cpp:201
+#, fuzzy
+msgctxt "@title"
+msgid "Edit Email Alarm"
+msgstr "Aktiveer Alarms"
+
+#: editdlgtypes.cpp:216
 msgid "Te&xt"
 msgstr "Teks"
 
-#: editdlg.cpp:263
+#: editdlgtypes.cpp:218
 msgid "If checked, the alarm will display a text message."
 msgstr "As nagegaan, die alarm sal vertoon 'n teks boodskap."
 
 #. i18n: tag text
 #. i18n: file kalarmui.rc line 20
-#: editdlg.cpp:269 rc.cpp:371
+#: editdlgtypes.cpp:224 rc.cpp:371
 msgid "&File"
 msgstr ""
 
-#: editdlg.cpp:271
+#: editdlgtypes.cpp:226
 #, fuzzy
 msgid ""
 "If checked, the alarm will display the contents of a text or image file."
 msgstr "As nagegaan, die alarm sal vertoon die inhoud van 'n teks lêer."
 
-#: editdlg.cpp:277 find.cpp:137
-msgid "Co&mmand"
-msgstr "Opdrag"
-
-#: editdlg.cpp:279
-msgid "If checked, the alarm will execute a shell command."
-msgstr "As nagegaan, die alarm sal uitvoer 'n tolk opdrag."
-
-#: editdlg.cpp:285 find.cpp:142
-msgid "&Email"
-msgstr "E-pos"
-
-#: editdlg.cpp:287
-msgid "If checked, the alarm will send an email."
-msgstr "As nagegaan, die alarm sal stuur 'n e-pos."
-
-#: editdlg.cpp:299
-msgid "Deferred Alarm"
-msgstr ""
-
-#: editdlg.cpp:304
-msgid "Deferred to:"
-msgstr ""
-
-#: editdlg.cpp:310
-msgid "C&hange..."
-msgstr "Verander..."
-
-#: editdlg.cpp:313
-msgid "Change the alarm's deferred time, or cancel the deferral"
-msgstr ""
-
-#: editdlg.cpp:324 editdlg.cpp:386 eventlistmodel.cpp:303
-msgid "Time"
-msgstr "Tyd"
-
-#: editdlg.cpp:332
-msgid "&Default time"
-msgstr ""
-
-#: editdlg.cpp:335
-msgid ""
-"Do not specify a start time for alarms based on this template. The normal "
-"default start time will be used."
-msgstr ""
-
-#: editdlg.cpp:343
-#, fuzzy
-msgid "Time:"
-msgstr "Tyd"
-
-#: editdlg.cpp:346
-msgid "Specify a start time for alarms based on this template."
-msgstr ""
-
-#: editdlg.cpp:351
-#, fuzzy
-msgid "Enter the start time for alarms based on this template."
-msgstr "Invoer die laaste tyd na herhaal die alarm"
-
-#: editdlg.cpp:357
-msgid "An&y time"
-msgstr "Enige tyd"
-
-#: editdlg.cpp:360 recurrenceedit.cpp:266
-#, fuzzy
-msgid "Any time"
-msgstr "Enige tyd"
-
-#: editdlg.cpp:360
-#, qt-format
-msgid "Set the '%1' option for alarms based on this template."
-msgstr ""
-
-#: editdlg.cpp:370
-#, fuzzy
-msgid ""
-"Set alarms based on this template to start after the specified time interval "
-"from when the alarm is created."
-msgstr "Skeduleer die alarm na die gespesifiseer tyd interval van nou."
-
-#: editdlg.cpp:395
-#, fuzzy
-msgid "Recurrence:"
-msgstr "Herhaling"
-
-#: editdlg.cpp:398
-msgid ""
-"How often the alarm recurs.\n"
-"The times shown are those configured in the Recurrence tab and in the Simple "
-"Repetition dialog."
-msgstr ""
-
-#: editdlg.cpp:403
-msgid ""
-"Enter how long in advance of the main alarm to display a reminder alarm."
-msgstr ""
-
-#: editdlg.cpp:404
-msgid "Rem&inder:"
-msgstr ""
-
-#: editdlg.cpp:405
-msgid ""
-"Check to additionally display a reminder in advance of the main alarm time"
-"(s)."
-msgstr ""
-
-#: editdlg.cpp:429
-msgid "Check to copy the alarm into KOrganizer's calendar"
-msgstr ""
-
-#: editdlg.cpp:433
-msgid "Schedule the alarm at the specified time."
-msgstr "Skeduleer die alarm na die gespesifiseer tyd."
-
-#: editdlg.cpp:468
+#: editdlgtypes.cpp:234
 msgid "Enter the text of the alarm message. It may be multi-line."
 msgstr "Invoer die teks van die alarm boodskap. Dit dalk mag wees multi-line."
 
-#: editdlg.cpp:477
+#: editdlgtypes.cpp:243
 #, fuzzy
 msgid "Enter the name or URL of a text or image file to display."
 msgstr "Invoer die naam van 'n teks lêer, of 'n Url, na vertoon."
 
-#: editdlg.cpp:483 editdlg.cpp:587 sounddlg.cpp:97
+#: editdlgtypes.cpp:249 editdlgtypes.cpp:350 sounddlg.cpp:97
 #, fuzzy
 msgid "Choose a file"
 msgstr "Kies 'n Klank Lêer"
 
-#: editdlg.cpp:484
+#: editdlgtypes.cpp:250
 #, fuzzy
 msgid "Select a text or image file to display."
 msgstr "Kies 'n teks lêer na vertoon."
 
-#: editdlg.cpp:543
+#: editdlgtypes.cpp:301
+msgid "Execute the specified command now"
+msgstr "Uitvoer die gespesifiseer opdrag nou"
+
+#: editdlgtypes.cpp:306
 msgid "Check to enter the contents of a script instead of a shell command line"
 msgstr ""
 
-#: editdlg.cpp:547
+#: editdlgtypes.cpp:310
 msgid "Enter a shell command to execute."
 msgstr "Invoer 'n tolk opdrag na uitvoer."
 
-#: editdlg.cpp:551
+#: editdlgtypes.cpp:314
 #, fuzzy
 msgid "Enter the contents of a script to execute"
 msgstr "Invoer 'n tolk opdrag na uitvoer."
 
-#: editdlg.cpp:556
+#: editdlgtypes.cpp:319
 #, fuzzy
 msgid "Command Output"
 msgstr "Opdrag"
 
-#: editdlg.cpp:566
+#: editdlgtypes.cpp:329
 msgid "Check to execute the command in a terminal window"
 msgstr ""
 
-#: editdlg.cpp:580
+#: editdlgtypes.cpp:343
 #, fuzzy
 msgid "Enter the name or path of the log file."
 msgstr "Invoer die naam van 'n teks lêer, of 'n Url, na vertoon."
 
-#: editdlg.cpp:588
+#: editdlgtypes.cpp:351
 #, fuzzy
 msgid "Select a log file."
 msgstr "Kies 'n teks lêer na vertoon."
 
-#: editdlg.cpp:593
+#: editdlgtypes.cpp:356
 msgid ""
 "Check to log the command output to a local file. The output will be appended "
 "to any existing contents of the file."
 msgstr ""
 
-#: editdlg.cpp:599
+#: editdlgtypes.cpp:362
 msgid "Discard"
 msgstr ""
 
-#: editdlg.cpp:601
+#: editdlgtypes.cpp:364
 msgid "Check to discard command output."
 msgstr ""
 
-#: editdlg.cpp:637
+#: editdlgtypes.cpp:380
+msgid "Send the email to the specified addressees now"
+msgstr "Stuur die e-pos na die gespesifiseer geäddresseerdes nou"
+
+#: editdlgtypes.cpp:398
 msgid ""
 "Your email identity, used to identify you as the sender when sending email "
 "alarms."
 msgstr ""
 
-#: editdlg.cpp:648
+#: editdlgtypes.cpp:409
 msgid ""
 "Enter the addresses of the email recipients. Separate multiple addresses by "
 "commas or semicolons."
 msgstr ""
 
-#: editdlg.cpp:656
+#: editdlgtypes.cpp:417
 msgid "Open address book"
 msgstr ""
 
-#: editdlg.cpp:657
+#: editdlgtypes.cpp:418
 msgid "Select email addresses from your address book."
 msgstr ""
 
-#: editdlg.cpp:668
+#: editdlgtypes.cpp:429
 msgid "Enter the email subject."
 msgstr "Invoer die e-pos onderwerp."
 
-#: editdlg.cpp:673
+#: editdlgtypes.cpp:434
 msgid "Enter the email message."
 msgstr "Invoer die e-pos boodskap."
 
-#: editdlg.cpp:680
+#: editdlgtypes.cpp:441
 msgid "Attachment&s:"
 msgstr "Aanhegsels:"
 
-#: editdlg.cpp:693
+#: editdlgtypes.cpp:454
 msgid "Files to send as attachments to the email."
 msgstr "Lêers na stuur as aanhegsels na die e-pos."
 
-#: editdlg.cpp:697 resourceselector.cpp:97
+#: editdlgtypes.cpp:458 resourceselector.cpp:97
 msgid "Add..."
 msgstr "Voeg by..."
 
-#: editdlg.cpp:699
+#: editdlgtypes.cpp:460
 msgid "Add an attachment to the email."
 msgstr "Voeg by 'n aanhegsel na die e-pos."
 
-#: editdlg.cpp:702
+#: editdlgtypes.cpp:463
 msgid "Remo&ve"
 msgstr "Verwyder"
 
-#: editdlg.cpp:704
+#: editdlgtypes.cpp:465
 msgid "Remove the highlighted attachment from the email."
 msgstr "Verwyder die verlig aanhegsel van die e-pos."
 
-#: editdlg.cpp:710
+#: editdlgtypes.cpp:471
 msgid "If checked, the email will be blind copied to you."
 msgstr "As nagegaan, die e-pos sal wees blinde gekopieer na jy."
 
-#: editdlg.cpp:1039 fontcolour.cpp:89
+#: editdlgtypes.cpp:482 fontcolour.cpp:89
 #, fuzzy
 msgid "&Background color:"
 msgstr "Agtergrond kleur:"
 
-#: editdlg.cpp:1044
+#: editdlgtypes.cpp:487
 msgid "Message color"
 msgstr "Boodskap kleur"
 
-#: editdlg.cpp:1047
+#: editdlgtypes.cpp:490
 msgid "Choose the background color for the alarm message."
 msgstr "Kies die agtergrond kleur vir die alarm boodskap."
 
-#: editdlg.cpp:1057
+#: editdlgtypes.cpp:499
+msgid ""
+"Enter how long in advance of the main alarm to display a reminder alarm."
+msgstr ""
+
+#: editdlgtypes.cpp:500
+msgid "Rem&inder:"
+msgstr ""
+
+#: editdlgtypes.cpp:501
+msgid ""
+"Check to additionally display a reminder in advance of the main alarm time"
+"(s)."
+msgstr ""
+
+#: editdlgtypes.cpp:512
 msgid "Check to be prompted for confirmation when you acknowledge the alarm."
 msgstr "Bevestig na wees gepor vir bevestiging wanneer jy bevestig die alarm."
 
-#: editdlg.cpp:1436
-msgid "You must enter a name for the alarm template"
-msgstr ""
-
-#: editdlg.cpp:1440
-msgid "Template name is already in use"
-msgstr ""
-
-#: editdlg.cpp:1484
-#, fuzzy
-msgid "Recurrence has already expired"
-msgstr "Alarm tyd het alreeds verstrek"
-
-#: editdlg.cpp:1489
-msgid "The alarm will never occur during working hours"
-msgstr ""
-
-#: editdlg.cpp:1518
-#, qt-format
-msgid ""
-"Reminder period must be less than the recurrence interval, unless '%1' is "
-"checked."
-msgstr ""
-
-#: editdlg.cpp:1532
-#, fuzzy
-msgid ""
-"The duration of a repetition within the recurrence must be less than the "
-"recurrence interval minus any reminder period"
-msgstr "Die alarm's herhaling tipe of herhaling interval."
-
-#: editdlg.cpp:1539
-msgid ""
-"For a repetition within the recurrence, its period must be in units of days "
-"or weeks for a date-only alarm"
-msgstr ""
-
-#: editdlg.cpp:1567
-#, fuzzy
-msgid "You must select a resource to save the alarm in"
-msgstr "Invoer die datum na skeduleer die alarm."
-
-#: editdlg.cpp:1587
-msgid "Do you really want to send the email now to the specified recipient(s)?"
-msgstr ""
-"Doen jy rerig wil hê na stuur die e-pos nou na die gespesifiseer ontvanger"
-"(s)?"
-
-#: editdlg.cpp:1588
-msgid "Confirm Email"
-msgstr "Bevestig E-pos"
-
-#: editdlg.cpp:1588
-msgid "&Send"
-msgstr "Stuur"
-
-#: editdlg.cpp:1599
-#, qt-format
-msgid ""
-"Command executed:\n"
-"%1"
-msgstr ""
-"Opdrag uitgevoerde:\n"
-"%1"
-
-#: editdlg.cpp:1606
-#, qt-format
-msgid ""
-"\n"
-"Bcc: %1"
-msgstr ""
-
-#: editdlg.cpp:1607
-#, fuzzy, qt-format
-msgid ""
-"Email sent to:\n"
-"%1%2"
-msgstr ""
-"E-pos gestuur na:\n"
-"%1"
-
-#: editdlg.cpp:1666 messagewin.cpp:1489
-msgid "Defer Alarm"
-msgstr ""
-
-#: editdlg.cpp:1822
+#: editdlgtypes.cpp:1006
 msgid ""
 "Log file must be the name or path of a local file, with write permission."
 msgstr ""
 
-#: editdlg.cpp:1848
+#: editdlgtypes.cpp:1030
 #, qt-format
 msgid ""
 "Invalid email address:\n"
@@ -925,11 +940,11 @@ msgstr ""
 "Ongeldige e-pos adres:\n"
 "%1"
 
-#: editdlg.cpp:1855
+#: editdlgtypes.cpp:1037
 msgid "No email address specified"
 msgstr "Nee e-pos adres gespesifiseer"
 
-#: editdlg.cpp:1872
+#: editdlgtypes.cpp:1054
 #, fuzzy, qt-format
 msgid ""
 "Invalid email attachment:\n"
@@ -938,33 +953,64 @@ msgstr ""
 "Ongeldige e-pos adres:\n"
 "%1"
 
-#: editdlg.cpp:1900
+#: editdlgtypes.cpp:1058
+msgid "Do you really want to send the email now to the specified recipient(s)?"
+msgstr ""
+"Doen jy rerig wil hê na stuur die e-pos nou na die gespesifiseer ontvanger"
+"(s)?"
+
+#: editdlgtypes.cpp:1059
+msgid "Confirm Email"
+msgstr "Bevestig E-pos"
+
+#: editdlgtypes.cpp:1059
+msgid "&Send"
+msgstr "Stuur"
+
+#: editdlgtypes.cpp:1072
+#, qt-format
+msgid ""
+"Command executed:\n"
+"%1"
+msgstr ""
+"Opdrag uitgevoerde:\n"
+"%1"
+
+#: editdlgtypes.cpp:1084
+#, qt-format
+msgid ""
+"\n"
+"Bcc: %1"
+msgstr ""
+
+#: editdlgtypes.cpp:1085
+#, fuzzy, qt-format
+msgid ""
+"Email sent to:\n"
+"%1%2"
+msgstr ""
+"E-pos gestuur na:\n"
+"%1"
+
+#: editdlgtypes.cpp:1124
 msgid "Display the alarm message now"
 msgstr "Vertoon die alarm boodskap nou"
 
-#: editdlg.cpp:1916
+#: editdlgtypes.cpp:1134
 #, fuzzy
 msgid "Display the file now"
 msgstr "Vertoon die teks lêer nou"
 
-#: editdlg.cpp:1928
-msgid "Execute the specified command now"
-msgstr "Uitvoer die gespesifiseer opdrag nou"
-
-#: editdlg.cpp:1939
-msgid "Send the email to the specified addressees now"
-msgstr "Stuur die e-pos na die gespesifiseer geäddresseerdes nou"
-
-#: editdlg.cpp:2031
+#: editdlgtypes.cpp:1181
 msgid "Choose File to Attach"
 msgstr "Kies Lêer na Aanheg"
 
-#: editdlg.cpp:2138
+#: editdlgtypes.cpp:1278
 #, fuzzy
 msgid "Please select a file to display"
 msgstr "Kies 'n teks lêer na vertoon."
 
-#: editdlg.cpp:2140
+#: editdlgtypes.cpp:1280
 #, qt-format
 msgid ""
 "%1\n"
@@ -973,7 +1019,7 @@ msgstr ""
 "%1\n"
 "nie gevind"
 
-#: editdlg.cpp:2141
+#: editdlgtypes.cpp:1281
 #, fuzzy, qt-format
 msgid ""
 "%1\n"
@@ -982,7 +1028,7 @@ msgstr ""
 "%1\n"
 "is 'n gids"
 
-#: editdlg.cpp:2142
+#: editdlgtypes.cpp:1282
 #, qt-format
 msgid ""
 "%1\n"
@@ -991,7 +1037,7 @@ msgstr ""
 "%1\n"
 "is nie leesbaar"
 
-#: editdlg.cpp:2143
+#: editdlgtypes.cpp:1283
 #, fuzzy, qt-format
 msgid ""
 "%1\n"
@@ -1074,7 +1120,7 @@ msgstr ""
 msgid "List of scheduled alarms"
 msgstr "Lys van geskeduleerd alarms"
 
-#: find.cpp:104
+#: find.cpp:104 mainwindow.cpp:1281
 #, fuzzy
 msgid "Alarm Type"
 msgstr "Alarm Verstek"
@@ -1116,9 +1162,17 @@ msgstr ""
 msgid "Check to include file alarms in the search."
 msgstr ""
 
+#: find.cpp:137
+msgid "Co&mmand"
+msgstr "Opdrag"
+
 #: find.cpp:139
 msgid "Check to include command alarms in the search."
 msgstr ""
+
+#: find.cpp:142
+msgid "&Email"
+msgstr "E-pos"
 
 #: find.cpp:144
 msgid "Check to include email alarms in the search."
@@ -1202,97 +1256,65 @@ msgstr "Kies die skrif tipe en agtergrond kleur vir die alarm boodskap."
 msgid "Choose Alarm Font & Color"
 msgstr "Skrif tipe && Kleur"
 
-#: functions.cpp:728
+#: functions.cpp:719
 msgid "Error saving alarms"
 msgstr ""
 
-#: functions.cpp:729
+#: functions.cpp:720
 msgid "Error saving alarm"
 msgstr ""
 
-#: functions.cpp:732
+#: functions.cpp:723
 #, fuzzy
 msgid "Error deleting alarms"
 msgstr "Verwyder die verlig aanhegsel van die e-pos."
 
-#: functions.cpp:733
+#: functions.cpp:724
 #, fuzzy
 msgid "Error deleting alarm"
 msgstr "Verwyder die verlig aanhegsel van die e-pos."
 
-#: functions.cpp:736
+#: functions.cpp:727
 #, fuzzy
 msgid "Error saving reactivated alarms"
 msgstr "Redigeer Alarm"
 
-#: functions.cpp:737
+#: functions.cpp:728
 #, fuzzy
 msgid "Error saving reactivated alarm"
 msgstr "Redigeer Alarm"
 
-#: functions.cpp:740
+#: functions.cpp:731
 #, fuzzy
 msgid "Error saving alarm templates"
 msgstr "Redigeer Alarm"
 
-#: functions.cpp:741
+#: functions.cpp:732
 #, fuzzy
 msgid "Error saving alarm template"
 msgstr "Redigeer Alarm"
 
-#: functions.cpp:760
+#: functions.cpp:751
 msgid "Unable to show alarms in KOrganizer"
 msgstr ""
 
-#: functions.cpp:761
+#: functions.cpp:752
 msgid "Unable to show alarm in KOrganizer"
 msgstr ""
 
-#: functions.cpp:764
+#: functions.cpp:755
 msgid "Unable to update alarm in KOrganizer"
 msgstr ""
 
-#: functions.cpp:767
+#: functions.cpp:758
 msgid "Unable to delete alarms from KOrganizer"
 msgstr ""
 
-#: functions.cpp:768
+#: functions.cpp:759
 msgid "Unable to delete alarm from KOrganizer"
 msgstr ""
 
-#: functions.cpp:782
-msgid "New Alarm"
-msgstr "Nuwe Alarm"
-
-#: functions.cpp:827
-#, fuzzy
-msgid "New Alarm Template"
-msgstr "Nuwe Alarm"
-
-#: functions.cpp:845 messagewin.cpp:1404
-msgid "Edit Alarm"
-msgstr "Redigeer Alarm"
-
-#: functions.cpp:908
-#, fuzzy
-msgid "Edit Alarm Template"
-msgstr "Redigeer Alarm"
-
-#: functions.cpp:929
-#, fuzzy
-msgid "Archived Alarm"
-msgstr "Aktiveer %1"
-
-#: functions.cpp:929
-msgid "read-only"
-msgstr ""
-
-#: functions.cpp:930
-#, fuzzy
-msgid "View Alarm"
-msgstr "Nuwe Alarm"
-
-#: functions.cpp:964
+#: functions.cpp:1017
 #, qt-format
 msgctxt "Please set the 'From' email address..."
 msgid ""
@@ -1300,58 +1322,58 @@ msgid ""
 "Please set it in the Preferences dialog."
 msgstr ""
 
-#: functions.cpp:968
+#: functions.cpp:1021
 msgid ""
 "Alarms are currently disabled.\n"
 "Do you want to enable alarms now?"
 msgstr ""
 
-#: functions.cpp:969
+#: functions.cpp:1022
 #, fuzzy
 msgid "Enable"
 msgstr "Aktiveer Alarms"
 
-#: functions.cpp:969
+#: functions.cpp:1022
 msgid "Keep Disabled"
 msgstr ""
 
-#: functions.cpp:1035
+#: functions.cpp:1088
 #, qt-format
 msgid ""
 "Unable to start KMail\n"
 "(%1)"
 msgstr ""
 
-#: functions.cpp:1324
+#: functions.cpp:1377
 #, fuzzy
 msgid "Monday"
 msgstr "vandag"
 
-#: functions.cpp:1325
+#: functions.cpp:1378
 #, fuzzy
 msgid "Tuesday"
 msgstr "vandag"
 
-#: functions.cpp:1326
+#: functions.cpp:1379
 msgid "Wednesday"
 msgstr ""
 
-#: functions.cpp:1327
+#: functions.cpp:1380
 #, fuzzy
 msgid "Thursday"
 msgstr "vandag"
 
-#: functions.cpp:1328
+#: functions.cpp:1381
 #, fuzzy
 msgid "Friday"
 msgstr "dag"
 
-#: functions.cpp:1329
+#: functions.cpp:1382
 #, fuzzy
 msgid "Saturday"
 msgstr "vandag"
 
-#: functions.cpp:1330
+#: functions.cpp:1383
 #, fuzzy
 msgid "Sunday"
 msgstr "dag"
@@ -1751,163 +1773,185 @@ msgstr ""
 msgid "Message text to display"
 msgstr "Boodskap teks na vertoon"
 
-#: mainwindow.cpp:105
+#: mainwindow.cpp:107
 #, fuzzy
 msgid "Show &Alarm Times"
 msgstr "Die alarm boodskap"
 
-#: mainwindow.cpp:106
+#: mainwindow.cpp:108
 #, fuzzy
 msgid "Show alarm &time"
 msgstr "Die alarm boodskap"
 
-#: mainwindow.cpp:107
+#: mainwindow.cpp:109
 #, fuzzy
 msgid "Show alarm ti&me"
 msgstr "Die alarm boodskap"
 
-#: mainwindow.cpp:108
+#: mainwindow.cpp:110
 #, fuzzy
 msgid "Show Time t&o Alarms"
 msgstr "Redigeer Alarm"
 
-#: mainwindow.cpp:109
+#: mainwindow.cpp:111
 msgid "Show time u&ntil alarm"
 msgstr ""
 
-#: mainwindow.cpp:110
+#: mainwindow.cpp:112
 msgid "Show time unti&l alarm"
 msgstr ""
 
-#: mainwindow.cpp:111
+#: mainwindow.cpp:113
 #, fuzzy
 msgid "Show Archived Alarms"
 msgstr "Redigeer Alarm"
 
-#: mainwindow.cpp:112
+#: mainwindow.cpp:114
 #, fuzzy
 msgid "Show &Archived Alarms"
 msgstr "Redigeer Alarm"
 
-#: mainwindow.cpp:113
+#: mainwindow.cpp:115
 #, fuzzy
 msgid "Hide Archived Alarms"
 msgstr "Redigeer Alarm"
 
-#: mainwindow.cpp:114
+#: mainwindow.cpp:116
 #, fuzzy
 msgid "Hide &Archived Alarms"
 msgstr "Redigeer Alarm"
 
-#: mainwindow.cpp:115
+#: mainwindow.cpp:117
 msgid "Show &Resources"
 msgstr ""
 
-#: mainwindow.cpp:358
+#: mainwindow.cpp:360
 #, qt-format
 msgid ""
 "Failure to create menus\n"
 "(perhaps %1 missing or corrupted)"
 msgstr ""
 
-#: mainwindow.cpp:389
+#: mainwindow.cpp:391
 #, fuzzy
 msgid "&Templates..."
 msgstr "Alarm Verstek"
 
-#: mainwindow.cpp:393 templatedlg.cpp:86
-msgid "&New..."
+#: mainwindow.cpp:395 templatedlg.cpp:90
+#, fuzzy
+#| msgid "&New..."
+msgid "&New"
 msgstr "Nuwe..."
 
-#: mainwindow.cpp:396
+#: mainwindow.cpp:399
 #, fuzzy
 msgid "New &From Template"
 msgstr "Nuwe Alarm"
 
-#: mainwindow.cpp:399
+#: mainwindow.cpp:402
 #, fuzzy
 msgid "Create Tem&plate..."
 msgstr "Nuwe Alarm"
 
-#: mainwindow.cpp:403
+#: mainwindow.cpp:406
 #, fuzzy
 msgid "&Copy..."
 msgstr "Verander..."
 
-#: mainwindow.cpp:408 messagewin.cpp:567 resourceselector.cpp:295
-#: templatedlg.cpp:92
+#: mainwindow.cpp:411 messagewin.cpp:567 resourceselector.cpp:295
+#: templatedlg.cpp:96
 #, fuzzy
 msgid "&Edit..."
 msgstr "Verander..."
 
-#: mainwindow.cpp:413 mainwindow.cpp:728 templatedlg.cpp:104
-#: templatedlg.cpp:191
+#: mainwindow.cpp:416 mainwindow.cpp:731 templatedlg.cpp:108
+#: templatedlg.cpp:194
 #, fuzzy
 msgid "&Delete"
 msgstr "Uitvee Alarm"
 
-#: mainwindow.cpp:418
+#: mainwindow.cpp:421
 #, fuzzy
 msgid "Reac&tivate"
 msgstr "Aktiveer %1"
 
 #. i18n: tag text
 #. i18n: file kalarmui.rc line 26
-#: mainwindow.cpp:428 rc.cpp:374
+#: mainwindow.cpp:431 rc.cpp:374
 msgid "&View"
 msgstr ""
 
-#: mainwindow.cpp:448
+#: mainwindow.cpp:451
 msgid "Show in System &Tray"
 msgstr "Vertoon in Stelsel Laai"
 
-#: mainwindow.cpp:456
+#: mainwindow.cpp:459
 #, fuzzy
 msgid "Import &Alarms..."
 msgstr "Nuwe Alarm"
 
-#: mainwindow.cpp:460
+#: mainwindow.cpp:463
 msgid "Import &Birthdays..."
 msgstr ""
 
-#: mainwindow.cpp:464
+#: mainwindow.cpp:467
 msgid "&Refresh Alarms"
 msgstr "Verfris Alarms"
 
-#: mainwindow.cpp:725
+#: mainwindow.cpp:728
 #, fuzzy, qt-format
 msgid "Do you really want to delete the selected alarm?"
 msgid_plural "Do you really want to delete the %1 selected alarms?"
 msgstr[0] "Doen jy rerig wil hê na uitvee die gekose alarm?"
 msgstr[1] "Doen jy rerig wil hê na uitvee die %1 gekose alarms?"
 
-#: mainwindow.cpp:727
+#: mainwindow.cpp:730
 msgid "Delete Alarm"
 msgid_plural "Delete Alarms"
 msgstr[0] "Uitvee Alarm"
 msgstr[1] "Uitvee Alarms"
 
-#: mainwindow.cpp:854
+#: mainwindow.cpp:857
 msgid "Import birthdays"
 msgstr ""
 
-#: mainwindow.cpp:1027
+#: mainwindow.cpp:1030
 #, qt-format
 msgctxt "Undo [action]: message"
 msgid "%1 %2: %3"
 msgstr ""
 
-#: mainwindow.cpp:1408
+#: mainwindow.cpp:1275 newalarmaction.cpp:36
+#, fuzzy
+msgid "Display Alarm"
+msgstr "Aktiveer Alarms"
+
+#: mainwindow.cpp:1277 newalarmaction.cpp:40
+#, fuzzy
+msgid "Email Alarm"
+msgstr "Aktiveer Alarms"
+
+#: mainwindow.cpp:1279 newalarmaction.cpp:38
+#, fuzzy
+msgid "Command Alarm"
+msgstr "Opdrag"
+
+#: mainwindow.cpp:1282
+#, fuzzy
+msgid "Choose alarm type to create:"
+msgstr "Nuwe Alarm"
+
+#: mainwindow.cpp:1431
 msgid "Ena&ble"
 msgstr ""
 
-#: mainwindow.cpp:1408
+#: mainwindow.cpp:1431
 msgid "Disa&ble"
 msgstr ""
 
 #: messagewin.cpp:306
-msgid "Message"
-msgstr "Boodskap"
+msgid "@title"
+msgstr ""
 
 #: messagewin.cpp:336
 msgid ""
@@ -1945,6 +1989,7 @@ msgid "The email to send"
 msgstr "Die e-pos na stuur"
 
 #: messagewin.cpp:523
+msgctxt "@title"
 msgid "Error"
 msgstr ""
 
@@ -2087,80 +2132,98 @@ msgstr ""
 msgid "Alarm not found"
 msgstr "Alarm Bediener nie gevind"
 
-#: prefdlg.cpp:128
+#: newalarmaction.cpp:36
+#, fuzzy
+msgid "Display Alarm Template"
+msgstr "Uitvee Alarm"
+
+#: newalarmaction.cpp:38
+#, fuzzy
+msgid "Command Alarm Template"
+msgstr "Nuwe Alarm"
+
+#: newalarmaction.cpp:40
+#, fuzzy
+msgid "Email Alarm Template"
+msgstr "Redigeer Alarm"
+
+#: prefdlg.cpp:129
+#, fuzzy
+#| msgid "Preferences"
+msgctxt "@title"
 msgid "Preferences"
 msgstr "Voorkeure"
 
-#: prefdlg.cpp:136 prefdlg.cpp:137
+#: prefdlg.cpp:137 prefdlg.cpp:138
 msgid "General"
 msgstr "Algemeen"
 
-#: prefdlg.cpp:142
+#: prefdlg.cpp:143
 #, fuzzy
 msgid "Time & Date"
 msgstr "Tyd"
 
-#: prefdlg.cpp:143
+#: prefdlg.cpp:144
 #, fuzzy
 msgid "Time and Date"
 msgstr "Tyd"
 
-#: prefdlg.cpp:148
+#: prefdlg.cpp:149
 msgid "Storage"
 msgstr ""
 
-#: prefdlg.cpp:149
+#: prefdlg.cpp:150
 #, fuzzy
 msgid "Alarm Storage"
 msgstr "Alarm Verstek"
 
-#: prefdlg.cpp:154
+#: prefdlg.cpp:155
 #, fuzzy
 msgid "Email"
 msgstr "E-pos"
 
-#: prefdlg.cpp:155
+#: prefdlg.cpp:156
 #, fuzzy
 msgid "Email Alarm Settings"
 msgstr "Aktiveer Alarms"
 
-#: prefdlg.cpp:160
+#: prefdlg.cpp:161
 msgid "View"
 msgstr ""
 
-#: prefdlg.cpp:161
+#: prefdlg.cpp:162
 msgid "View Settings"
 msgstr ""
 
-#: prefdlg.cpp:166
+#: prefdlg.cpp:167
 #, fuzzy
 msgid "Font & Color"
 msgstr "Skrif tipe && Kleur"
 
-#: prefdlg.cpp:167
+#: prefdlg.cpp:168
 #, fuzzy
 msgid "Default Font and Color"
 msgstr "Skrif tipe && Kleur"
 
-#: prefdlg.cpp:172
+#: prefdlg.cpp:173
 #, fuzzy
 msgid "Edit"
 msgstr "Verander..."
 
-#: prefdlg.cpp:173
+#: prefdlg.cpp:174
 #, fuzzy
 msgid "Default Alarm Edit Settings"
 msgstr "Verstek Alarm Instellings"
 
-#: prefdlg.cpp:294
+#: prefdlg.cpp:295
 msgid "Run Mode"
 msgstr "Hardloop Modus"
 
-#: prefdlg.cpp:304
+#: prefdlg.cpp:305
 msgid "&Run only on demand"
 msgstr ""
 
-#: prefdlg.cpp:308
+#: prefdlg.cpp:309
 msgid ""
 "Check to run KAlarm only when required.\n"
 "\n"
@@ -2171,11 +2234,11 @@ msgid ""
 "hidden independently of KAlarm."
 msgstr ""
 
-#: prefdlg.cpp:316
+#: prefdlg.cpp:317
 msgid "Run continuously in system &tray"
 msgstr "Hardloop kontinu in stelsel laai"
 
-#: prefdlg.cpp:320
+#: prefdlg.cpp:321
 #, fuzzy
 msgid ""
 "Check to run KAlarm continuously in the KDE system tray.\n"
@@ -2197,11 +2260,11 @@ msgstr ""
 "in die stelsel laai eenvoudig verskaf maklike toegang verkry en 'n status "
 "indikasie."
 
-#: prefdlg.cpp:328
+#: prefdlg.cpp:329
 msgid "Disa&ble alarms while not running"
 msgstr "Deaktiveer alarms terwyl nie wat loop"
 
-#: prefdlg.cpp:331
+#: prefdlg.cpp:332
 #, fuzzy
 msgid ""
 "Check to disable alarms whenever KAlarm is not running. Alarms will only "
@@ -2210,28 +2273,28 @@ msgstr ""
 "Bevestig na deaktiveer Alarms wanneer ook al %1 is nie wat loop. Alarms sal "
 "slegs verskyn terwyl die stelsel laai ikoon is sigbare."
 
-#: prefdlg.cpp:334
+#: prefdlg.cpp:335
 msgid "Warn before &quitting"
 msgstr ""
 
-#: prefdlg.cpp:336
+#: prefdlg.cpp:337
 msgid "Check to display a warning prompt before quitting KAlarm."
 msgstr ""
 
-#: prefdlg.cpp:339 prefdlg.cpp:508
+#: prefdlg.cpp:340 prefdlg.cpp:509
 msgid "Autostart at &login"
 msgstr "Outomatiese begin na aanteken"
 
-#: prefdlg.cpp:344 prefdlg.cpp:509
+#: prefdlg.cpp:345 prefdlg.cpp:510
 #, fuzzy
 msgid "Check to run KAlarm whenever you start KDE."
 msgstr "Bevestig na hardloop %1 wanneer ook al jy begin Kde."
 
-#: prefdlg.cpp:348
+#: prefdlg.cpp:349
 msgid "Start alarm monitoring at lo&gin"
 msgstr ""
 
-#: prefdlg.cpp:352
+#: prefdlg.cpp:353
 #, qt-format
 msgid ""
 "Automatically start alarm monitoring whenever you start KDE, by running the "
@@ -2241,35 +2304,35 @@ msgid ""
 "KAlarm."
 msgstr ""
 
-#: prefdlg.cpp:362
+#: prefdlg.cpp:363
 msgid "Con&firm alarm deletions"
 msgstr ""
 
-#: prefdlg.cpp:364
+#: prefdlg.cpp:365
 msgid "Check to be prompted for confirmation each time you delete an alarm."
 msgstr "Bevestig na wees gepor vir bevestiging elke tyd jy uitvee 'n alarm."
 
-#: prefdlg.cpp:369
+#: prefdlg.cpp:370
 msgid "Terminal for Command Alarms"
 msgstr ""
 
-#: prefdlg.cpp:370
+#: prefdlg.cpp:371
 msgid ""
 "Choose which application to use when a command alarm is executed in a "
 "terminal window"
 msgstr ""
 
-#: prefdlg.cpp:394
+#: prefdlg.cpp:395
 #, qt-format
 msgctxt "The parameter is a command line, e.g. 'xterm -e'"
 msgid "Check to execute command alarms in a terminal window by '%1'"
 msgstr ""
 
-#: prefdlg.cpp:402
+#: prefdlg.cpp:403
 msgid "Other:"
 msgstr ""
 
-#: prefdlg.cpp:408
+#: prefdlg.cpp:409
 msgid ""
 "Enter the full command line needed to execute a command in your chosen "
 "terminal window. By default the alarm's command string will be appended to "
@@ -2277,98 +2340,98 @@ msgid ""
 "tailor the command line."
 msgstr ""
 
-#: prefdlg.cpp:457
+#: prefdlg.cpp:458
 #, qt-format
 msgid ""
 "Command to invoke terminal window not found:\n"
 "%1"
 msgstr ""
 
-#: prefdlg.cpp:499
+#: prefdlg.cpp:500
 msgid ""
 "You should not uncheck this option unless you intend to discontinue use of "
 "KAlarm"
 msgstr ""
 
-#: prefdlg.cpp:508
+#: prefdlg.cpp:509
 msgid "Autostart system tray &icon at login"
 msgstr "Outomatiese begin stelsel laai ikoon na aanteken"
 
-#: prefdlg.cpp:510
+#: prefdlg.cpp:511
 msgid "Check to display the system tray icon whenever you start KDE."
 msgstr ""
 "Bevestig na vertoon die stelsel laai ikoon wanneer ook al jy begin Kde."
 
-#: prefdlg.cpp:551
+#: prefdlg.cpp:552
 #, fuzzy
 msgid "Time &zone:"
 msgstr "Tyd"
 
 #. i18n: tag whatsthis
 #. i18n: file kalarmconfig.kcfg line 59
-#: prefdlg.cpp:562 rc.cpp:12
+#: prefdlg.cpp:563 rc.cpp:12
 msgid ""
 "Select the time zone which KAlarm should use as its default for displaying "
 "and entering dates and times."
 msgstr ""
 
-#: prefdlg.cpp:573
+#: prefdlg.cpp:574
 msgid "&Start of day for date-only alarms:"
 msgstr "Begin van dag vir date-only alarms:"
 
 #. i18n: tag whatsthis
 #. i18n: file kalarmconfig.kcfg line 205
-#: prefdlg.cpp:577 rc.cpp:172
+#: prefdlg.cpp:578 rc.cpp:172
 msgid "The earliest time of day at which a date-only alarm will be triggered."
 msgstr ""
 
-#: prefdlg.cpp:584
+#: prefdlg.cpp:585
 msgid "Working Hours"
 msgstr ""
 
-#: prefdlg.cpp:602
+#: prefdlg.cpp:603
 #, fuzzy
 msgid "Check the days in the week which are work days"
 msgstr "Kies die dag van die week op wat na herhaal die alarm"
 
-#: prefdlg.cpp:610
+#: prefdlg.cpp:611
 msgid "Daily start time:"
 msgstr ""
 
-#: prefdlg.cpp:614
+#: prefdlg.cpp:615
 #, fuzzy
 msgid "Enter the start time of the working day"
 msgstr "Invoer die naam van 'n teks lêer, of 'n Url, na vertoon."
 
-#: prefdlg.cpp:624
+#: prefdlg.cpp:625
 msgid "Daily end time:"
 msgstr ""
 
-#: prefdlg.cpp:628
+#: prefdlg.cpp:629
 #, fuzzy
 msgid "Enter the end time of the working day"
 msgstr "Invoer die teks van die alarm boodskap. Dit dalk mag wees multi-line."
 
-#: prefdlg.cpp:705
+#: prefdlg.cpp:706
 #, fuzzy
 msgid "New Alarms && Templates"
 msgstr "Nuwe Alarm"
 
-#: prefdlg.cpp:711
+#: prefdlg.cpp:712
 msgid "Store in default &resource"
 msgstr ""
 
-#: prefdlg.cpp:714
+#: prefdlg.cpp:715
 msgid ""
 "Add all new alarms and alarm templates to the default resources, without "
 "prompting"
 msgstr ""
 
-#: prefdlg.cpp:716
+#: prefdlg.cpp:717
 msgid "Prompt for &which resource to store in"
 msgstr ""
 
-#: prefdlg.cpp:720
+#: prefdlg.cpp:721
 msgid ""
 "When saving a new alarm or alarm template, prompt for which resource to "
 "store it in, if there is more than one active resource.\n"
@@ -2377,52 +2440,52 @@ msgid ""
 "resource."
 msgstr ""
 
-#: prefdlg.cpp:725 resourceselector.cpp:76
+#: prefdlg.cpp:726 resourceselector.cpp:76
 #, fuzzy
 msgid "Archived Alarms"
 msgstr "Aktiveer %1"
 
-#: prefdlg.cpp:731
+#: prefdlg.cpp:732
 msgid "Keep alarms after e&xpiry"
 msgstr ""
 
-#: prefdlg.cpp:734
+#: prefdlg.cpp:735
 msgid ""
 "Check to archive alarms after expiry or deletion (except deleted alarms "
 "which were never triggered)."
 msgstr ""
 
-#: prefdlg.cpp:740
+#: prefdlg.cpp:741
 msgid "Discard archi&ved alarms after:"
 msgstr ""
 
-#: prefdlg.cpp:747
+#: prefdlg.cpp:748
 #, fuzzy
 msgid "da&ys"
 msgstr "dag"
 
-#: prefdlg.cpp:750
+#: prefdlg.cpp:751
 msgid ""
 "Uncheck to store archived alarms indefinitely. Check to enter how long "
 "archived alarms should be stored."
 msgstr ""
 
-#: prefdlg.cpp:753
+#: prefdlg.cpp:754
 msgid "Clear Archived Alar&ms"
 msgstr ""
 
-#: prefdlg.cpp:757
+#: prefdlg.cpp:758
 #, fuzzy
 msgid "Delete all existing archived alarms."
 msgstr "Redigeer Alarm"
 
-#: prefdlg.cpp:758
+#: prefdlg.cpp:759
 msgid ""
 "Delete all existing archived alarms (from the default archived alarm "
 "resource only)."
 msgstr ""
 
-#: prefdlg.cpp:801
+#: prefdlg.cpp:802
 msgid ""
 "A default resource is required in order to archive alarms, but none is "
 "currently enabled.\n"
@@ -2431,32 +2494,32 @@ msgid ""
 "select a default archived alarms resource."
 msgstr ""
 
-#: prefdlg.cpp:817
+#: prefdlg.cpp:818
 #, fuzzy
 msgid "Do you really want to delete all archived alarms?"
 msgstr "Doen jy rerig wil hê na uitvee die gekose alarm?"
 
-#: prefdlg.cpp:818
+#: prefdlg.cpp:819
 #, fuzzy
 msgid ""
 "Do you really want to delete all alarms in the default archived alarm "
 "resource?"
 msgstr "Doen jy rerig wil hê na uitvee die gekose alarm?"
 
-#: prefdlg.cpp:837
+#: prefdlg.cpp:838
 msgid "Email client:"
 msgstr "E-pos kliënt:"
 
-#: prefdlg.cpp:839
+#: prefdlg.cpp:840
 msgid "&KMail"
 msgstr "Kpos"
 
-#: prefdlg.cpp:842
+#: prefdlg.cpp:843
 #, fuzzy
 msgid "&Sendmail"
 msgstr "Stuur pos"
 
-#: prefdlg.cpp:848
+#: prefdlg.cpp:849
 #, fuzzy
 msgid ""
 "Choose how to send email when an email alarm is triggered.\n"
@@ -2472,44 +2535,44 @@ msgstr ""
 "Stuur pos: die e-pos is gestuur automaties. Hierdie opsie sal slegs werk as "
 "jou stelsel is gekonfigureer na gebruik 'Stuur pos' of 'mail'."
 
-#: prefdlg.cpp:855
+#: prefdlg.cpp:856
 #, qt-format
 msgid "Co&py sent emails into KMail's %1 folder"
 msgstr ""
 
-#: prefdlg.cpp:857
+#: prefdlg.cpp:858
 #, qt-format
 msgid "After sending an email, store a copy in KMail's %1 folder"
 msgstr ""
 
-#: prefdlg.cpp:862
+#: prefdlg.cpp:863
 #, fuzzy
 msgid "Your Email Address"
 msgstr ""
 "Ongeldige e-pos adres:\n"
 "%1"
 
-#: prefdlg.cpp:883
+#: prefdlg.cpp:884
 msgid ""
 "Your email address, used to identify you as the sender when sending email "
 "alarms."
 msgstr ""
 
-#: prefdlg.cpp:890
+#: prefdlg.cpp:891
 msgid "&Use address from Control Center"
 msgstr ""
 
-#: prefdlg.cpp:893
+#: prefdlg.cpp:894
 msgid ""
 "Check to use the email address set in the KDE Control Center, to identify "
 "you as the sender when sending email alarms."
 msgstr ""
 
-#: prefdlg.cpp:897
+#: prefdlg.cpp:898
 msgid "Use KMail &identities"
 msgstr ""
 
-#: prefdlg.cpp:901
+#: prefdlg.cpp:902
 msgid ""
 "Check to use KMail's email identities to identify you as the sender when "
 "sending email alarms. For existing email alarms, KMail's default identity "
@@ -2517,34 +2580,34 @@ msgid ""
 "KMail's identities to use."
 msgstr ""
 
-#: prefdlg.cpp:908
+#: prefdlg.cpp:909
 #, fuzzy
 msgctxt "'Bcc' email address"
 msgid "&Bcc:"
 msgstr "%1: ongeldige e-pos adres"
 
-#: prefdlg.cpp:921
+#: prefdlg.cpp:922
 msgid ""
 "Your email address, used for blind copying email alarms to yourself. If you "
 "want blind copies to be sent to your account on the computer which KAlarm "
 "runs on, you can simply enter your user login name."
 msgstr ""
 
-#: prefdlg.cpp:929
+#: prefdlg.cpp:930
 msgid "Us&e address from Control Center"
 msgstr ""
 
-#: prefdlg.cpp:932
+#: prefdlg.cpp:933
 msgid ""
 "Check to use the email address set in the KDE Control Center, for blind "
 "copying email alarms to yourself."
 msgstr ""
 
-#: prefdlg.cpp:939
+#: prefdlg.cpp:940
 msgid "&Notify when remote emails are queued"
 msgstr ""
 
-#: prefdlg.cpp:942
+#: prefdlg.cpp:943
 msgid ""
 "Display a notification message whenever an email alarm has queued an email "
 "for sending to a remote system. This could be useful if, for example, you "
@@ -2552,59 +2615,59 @@ msgid ""
 "actually transmitted."
 msgstr ""
 
-#: prefdlg.cpp:1026
+#: prefdlg.cpp:1027
 #, fuzzy
 msgid "No valid 'Bcc' email address is specified."
 msgstr "Nee e-pos adres gespesifiseer"
 
-#: prefdlg.cpp:1033
+#: prefdlg.cpp:1034
 #, qt-format
 msgid ""
 "%1\n"
 "Are you sure you want to save your changes?"
 msgstr ""
 
-#: prefdlg.cpp:1039
+#: prefdlg.cpp:1040
 #, qt-format
 msgid "No email address is currently set in the KDE Control Center. %1"
 msgstr ""
 
-#: prefdlg.cpp:1044
+#: prefdlg.cpp:1045
 #, qt-format
 msgid "No KMail identities currently exist. %1"
 msgstr ""
 
-#: prefdlg.cpp:1062
+#: prefdlg.cpp:1063
 #, fuzzy
 msgid "Message Font && Color"
 msgstr "Skrif tipe && Kleur"
 
-#: prefdlg.cpp:1069
+#: prefdlg.cpp:1070
 #, fuzzy
 msgid "Di&sabled alarm color:"
 msgstr "Deaktiveer alarms terwyl nie wat loop"
 
-#: prefdlg.cpp:1075
+#: prefdlg.cpp:1076
 #, fuzzy
 msgid "Choose the text color in the alarm list for disabled alarms."
 msgstr "Kies die agtergrond kleur vir die alarm boodskap."
 
-#: prefdlg.cpp:1084
+#: prefdlg.cpp:1085
 #, fuzzy
 msgid "Archi&ved alarm color:"
 msgstr "Deaktiveer alarms terwyl nie wat loop"
 
-#: prefdlg.cpp:1090
+#: prefdlg.cpp:1091
 #, fuzzy
 msgid "Choose the text color in the alarm list for archived alarms."
 msgstr "Kies die agtergrond kleur vir die alarm boodskap."
 
-#: prefdlg.cpp:1142
+#: prefdlg.cpp:1143
 #, qt-format
 msgid "The default setting for \"%1\" in the alarm edit dialog."
 msgstr "Die verstek opset vir \"%1\" in Die alarm redigeer dialoog."
 
-#: prefdlg.cpp:1143
+#: prefdlg.cpp:1144
 #, fuzzy, qt-format
 msgid ""
 "Check to select %1 as the default setting for \"%2\" in the alarm edit "
@@ -2613,27 +2676,27 @@ msgstr ""
 "Bevestig na kies Biep as die verstek opset vir \"Klank\" in die alarm "
 "redigeer dialoog."
 
-#: prefdlg.cpp:1146
+#: prefdlg.cpp:1147
 #, fuzzy
 msgid "Display Alarms"
 msgstr "Aktiveer Alarms"
 
-#: prefdlg.cpp:1165
+#: prefdlg.cpp:1166
 msgid "Reminder &units:"
 msgstr ""
 
-#: prefdlg.cpp:1173
+#: prefdlg.cpp:1174
 #, fuzzy
 msgid "The default units for the reminder in the alarm edit dialog."
 msgstr ""
 "Die verstek opset vir Die herhaling periode in Die alarm redigeer dialoog."
 
-#: prefdlg.cpp:1199
+#: prefdlg.cpp:1200
 #, fuzzy
 msgid "Repea&t sound file"
 msgstr "Kies 'n Klank Lêer"
 
-#: prefdlg.cpp:1201
+#: prefdlg.cpp:1202
 #, fuzzy, qt-format
 msgctxt "sound file \"Repeat\" checkbox"
 msgid "The default setting for sound file \"%1\" in the alarm edit dialog."
@@ -2641,37 +2704,37 @@ msgstr ""
 "Bevestig na kies Biep as die verstek opset vir \"Klank\" in die alarm "
 "redigeer dialoog."
 
-#: prefdlg.cpp:1207
+#: prefdlg.cpp:1208
 #, fuzzy
 msgid "Sound &file:"
 msgstr "Einde na:"
 
-#: prefdlg.cpp:1215
+#: prefdlg.cpp:1216
 #, fuzzy
 msgid "Choose a sound file"
 msgstr "Kies 'n Klank Lêer"
 
-#: prefdlg.cpp:1216
+#: prefdlg.cpp:1217
 #, fuzzy
 msgid "Enter the default sound file to use in the alarm edit dialog."
 msgstr "Die verstek opset vir \"%1\" in Die alarm redigeer dialoog."
 
-#: prefdlg.cpp:1222
+#: prefdlg.cpp:1223
 #, fuzzy
 msgid "Command Alarms"
 msgstr "Opdrag"
 
-#: prefdlg.cpp:1242
+#: prefdlg.cpp:1243
 #, fuzzy
 msgid "Email Alarms"
 msgstr "Aktiveer Alarms"
 
-#: prefdlg.cpp:1272
+#: prefdlg.cpp:1273
 #, fuzzy
 msgid "&Recurrence:"
 msgstr "Herhaling"
 
-#: prefdlg.cpp:1284
+#: prefdlg.cpp:1285
 #, fuzzy
 msgid "The default setting for the recurrence rule in the alarm edit dialog."
 msgstr ""
@@ -2679,26 +2742,26 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file kalarmconfig.kcfg line 340
-#: prefdlg.cpp:1291 rc.cpp:316
+#: prefdlg.cpp:1292 rc.cpp:316
 msgid "In non-leap years, repeat yearly February 29th alarms on:"
 msgstr ""
 
-#: prefdlg.cpp:1300
+#: prefdlg.cpp:1301
 msgid "February 2&8th"
 msgstr ""
 
-#: prefdlg.cpp:1303
+#: prefdlg.cpp:1304
 msgid "March &1st"
 msgstr ""
 
-#: prefdlg.cpp:1306
+#: prefdlg.cpp:1307
 #, fuzzy
 msgid "Do &not repeat"
 msgstr "Gereeld herhaal die alarm"
 
 #. i18n: tag whatsthis
 #. i18n: file kalarmconfig.kcfg line 342
-#: prefdlg.cpp:1311 rc.cpp:319
+#: prefdlg.cpp:1312 rc.cpp:319
 msgid ""
 "For yearly recurrences, choose what date, if any, alarms due on February "
 "29th should occur in non-leap years.\n"
@@ -2706,94 +2769,94 @@ msgid ""
 "evaluated when you change this setting."
 msgstr ""
 
-#: prefdlg.cpp:1455
+#: prefdlg.cpp:1456
 #, qt-format
 msgid ""
 "You must enter a sound file when %1 is selected as the default sound type"
 msgstr ""
 
-#: prefdlg.cpp:1468
+#: prefdlg.cpp:1469
 msgid "Show &resources"
 msgstr ""
 
-#: prefdlg.cpp:1471
+#: prefdlg.cpp:1472
 msgid ""
 "Specify whether to show the list of alarm resources beside the alarm list"
 msgstr ""
 
-#: prefdlg.cpp:1473
+#: prefdlg.cpp:1474
 #, fuzzy
 msgid "Alarm List"
 msgstr "Alarm Verstek"
 
-#: prefdlg.cpp:1481
+#: prefdlg.cpp:1482
 msgid ""
 "Specify whether to show in the alarm list, the time at which each alarm is "
 "due"
 msgstr ""
 
-#: prefdlg.cpp:1487
+#: prefdlg.cpp:1488
 msgid ""
 "Specify whether to show in the alarm list, how long until each alarm is due"
 msgstr ""
 
-#: prefdlg.cpp:1492
+#: prefdlg.cpp:1493
 msgid "Specify whether to show archived alarms in the alarm list"
 msgstr ""
 
-#: prefdlg.cpp:1496
+#: prefdlg.cpp:1497
 msgid "System Tray Tooltip"
 msgstr ""
 
-#: prefdlg.cpp:1504
+#: prefdlg.cpp:1505
 msgid "Show next &24 hours' alarms"
 msgstr ""
 
-#: prefdlg.cpp:1507
+#: prefdlg.cpp:1508
 msgid ""
 "Specify whether to include in the system tray tooltip, a summary of alarms "
 "due in the next 24 hours"
 msgstr ""
 
-#: prefdlg.cpp:1513
+#: prefdlg.cpp:1514
 msgid "Ma&ximum number of alarms to show:"
 msgstr ""
 
-#: prefdlg.cpp:1520
+#: prefdlg.cpp:1521
 msgid ""
 "Uncheck to display all of the next 24 hours' alarms in the system tray "
 "tooltip. Check to enter an upper limit on the number to be displayed."
 msgstr ""
 
-#: prefdlg.cpp:1527
+#: prefdlg.cpp:1528
 msgid ""
 "Specify whether to show in the system tray tooltip, the time at which each "
 "alarm is due"
 msgstr ""
 
-#: prefdlg.cpp:1533
+#: prefdlg.cpp:1534
 msgid ""
 "Specify whether to show in the system tray tooltip, how long until each "
 "alarm is due"
 msgstr ""
 
-#: prefdlg.cpp:1539
+#: prefdlg.cpp:1540
 msgid "&Prefix:"
 msgstr ""
 
-#: prefdlg.cpp:1543
+#: prefdlg.cpp:1544
 msgid ""
 "Enter the text to be displayed in front of the time until the alarm, in the "
 "system tray tooltip"
 msgstr ""
 
-#: prefdlg.cpp:1548
+#: prefdlg.cpp:1549
 msgid "Message &windows have a title bar and take keyboard focus"
 msgstr ""
 
 #. i18n: tag whatsthis
 #. i18n: file kalarmconfig.kcfg line 113
-#: prefdlg.cpp:1551 rc.cpp:66
+#: prefdlg.cpp:1552 rc.cpp:66
 msgid ""
 "Specify the characteristics of alarm message windows:\n"
 "- If checked, the window is a normal window with a title bar, which grabs "
@@ -2802,15 +2865,15 @@ msgid ""
 "displayed, but it has no title bar and cannot be moved or resized."
 msgstr ""
 
-#: prefdlg.cpp:1561
+#: prefdlg.cpp:1562
 msgid "System tray icon &update interval:"
 msgstr "Stelsel laai ikoon dateer op interval:"
 
-#: prefdlg.cpp:1566 sounddlg.cpp:153
+#: prefdlg.cpp:1567 sounddlg.cpp:153
 msgid "seconds"
 msgstr "sekondes"
 
-#: prefdlg.cpp:1567
+#: prefdlg.cpp:1568
 msgid ""
 "How often to update the system tray icon to indicate whether or not the "
 "Alarm Daemon is monitoring alarms."
@@ -4198,7 +4261,8 @@ msgstr ""
 msgid "Enter the length of time to repeat the alarm"
 msgstr "Invoer die laaste tyd na herhaal die alarm"
 
-#: resourceconfigdialog.cpp:47 resourceselector.cpp:155
+#: resourceconfigdialog.cpp:47
+msgctxt "@title"
 msgid "Resource Configuration"
 msgstr ""
 
@@ -4255,7 +4319,7 @@ msgstr "Herhaling"
 msgid "Active Alarms"
 msgstr "Aktiveer %1"
 
-#: resourceselector.cpp:77 templatedlg.cpp:64
+#: resourceselector.cpp:77
 #, fuzzy
 msgid "Alarm Templates"
 msgstr "Alarm Verstek"
@@ -4305,6 +4369,10 @@ msgstr ""
 #, fuzzy
 msgid "Add a new alarm template resource"
 msgstr "Redigeer Alarm"
+
+#: resourceselector.cpp:155
+msgid "Resource Configuration"
+msgstr ""
 
 #: resourceselector.cpp:156
 msgid "Select storage type of new resource:"
@@ -4587,43 +4655,53 @@ msgid ""
 "closed."
 msgstr ""
 
-#: templatedlg.cpp:79
+#: templatedlg.cpp:66
+#, fuzzy
+msgctxt "@title"
+msgid "Alarm Templates"
+msgstr "Alarm Verstek"
+
+#: templatedlg.cpp:81
 msgid "The list of alarm templates"
 msgstr ""
 
-#: templatedlg.cpp:89
+#: templatedlg.cpp:88
+msgid "&New..."
+msgstr "Nuwe..."
+
+#: templatedlg.cpp:93
 msgid "Create a new alarm template"
 msgstr ""
 
-#: templatedlg.cpp:95
+#: templatedlg.cpp:99
 #, fuzzy
 msgid "Edit the currently highlighted alarm template"
 msgstr "Verwyder die verlig aanhegsel van die e-pos."
 
-#: templatedlg.cpp:98
+#: templatedlg.cpp:102
 #, fuzzy
 msgid "Co&py"
 msgstr "Verander..."
 
-#: templatedlg.cpp:101
+#: templatedlg.cpp:105
 msgid ""
 "Create a new alarm template based on a copy of the currently highlighted "
 "template"
 msgstr ""
 
-#: templatedlg.cpp:107
+#: templatedlg.cpp:111
 #, fuzzy
 msgid "Delete the currently highlighted alarm template"
 msgstr "Verwyder die verlig aanhegsel van die e-pos."
 
-#: templatedlg.cpp:188
+#: templatedlg.cpp:191
 #, fuzzy, qt-format
 msgid "Do you really want to delete the selected alarm template?"
 msgid_plural "Do you really want to delete the %1 selected alarm templates?"
 msgstr[0] "Doen jy rerig wil hê na uitvee die gekose alarm?"
 msgstr[1] "Doen jy rerig wil hê na uitvee die %1 gekose alarms?"
 
-#: templatedlg.cpp:190
+#: templatedlg.cpp:193
 #, fuzzy
 msgid "Delete Alarm Template"
 msgid_plural "Delete Alarm Templates"
@@ -4632,6 +4710,7 @@ msgstr[1] "Uitvee Alarms"
 
 #: templatepickdlg.cpp:44
 #, fuzzy
+msgctxt "@title"
 msgid "Choose Alarm Template"
 msgstr "Nuwe Alarm"
 
@@ -4640,33 +4719,34 @@ msgstr "Nuwe Alarm"
 msgid "Select a template to base the new alarm on."
 msgstr "Invoer die datum na skeduleer die alarm."
 
-#: traywindow.cpp:77
+#: traywindow.cpp:78
 #, fuzzy
 msgid "Cannot load system tray icon."
 msgstr "Vertoon stelsel laai ikoon"
 
-#: traywindow.cpp:89
+#: traywindow.cpp:91
 #, fuzzy
-msgid "&New Alarm..."
+#| msgid "New Alarm"
+msgid "&New Alarm"
 msgstr "Nuwe Alarm"
 
-#: traywindow.cpp:92
+#: traywindow.cpp:96
 #, fuzzy
 msgid "New Alarm From &Template"
 msgstr "Nuwe Alarm"
 
-#: traywindow.cpp:237
+#: traywindow.cpp:241
 #, qt-format
 msgid "%1 - disabled"
 msgstr ""
 
-#: traywindow.cpp:290
+#: traywindow.cpp:294
 #, qt-format
 msgctxt "prefix + hours:minutes"
 msgid "(%1%2:%3)"
 msgstr ""
 
-#: traywindow.cpp:292
+#: traywindow.cpp:296
 #, qt-format
 msgctxt "prefix + hours:minutes"
 msgid "%1%2:%3"
@@ -4888,6 +4968,34 @@ msgstr ""
 #: kalarmd/admain.cpp:47
 msgid "kalarmd is being autostarted"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Copy &email to self"
+#~ msgstr "Kopie e-pos na eie"
+
+#~ msgid "Copy email to &self"
+#~ msgstr "Kopie e-pos na eie"
+
+#, fuzzy
+#~ msgctxt "Email subject"
+#~ msgid "Sub&ject:"
+#~ msgstr "E-pos onderwerp lyn"
+
+#~ msgid "If checked, the alarm will execute a shell command."
+#~ msgstr "As nagegaan, die alarm sal uitvoer 'n tolk opdrag."
+
+#~ msgid "If checked, the alarm will send an email."
+#~ msgstr "As nagegaan, die alarm sal stuur 'n e-pos."
+
+#~ msgid "Edit Alarm"
+#~ msgstr "Redigeer Alarm"
+
+#~ msgid "Message"
+#~ msgstr "Boodskap"
+
+#, fuzzy
+#~ msgid "&New Alarm..."
+#~ msgstr "Nuwe Alarm"
 
 #, fuzzy
 #~ msgid "Enter a shell command to execute after the alarm window is closed."
