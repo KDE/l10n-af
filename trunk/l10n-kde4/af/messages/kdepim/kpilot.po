@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpilot VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-18 05:32+0200\n"
+"POT-Creation-Date: 2007-08-20 05:32+0200\n"
 "PO-Revision-Date: 2002-11-07 11:38+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -946,11 +946,11 @@ msgstr ""
 msgid "Password invalid!"
 msgstr "Wagwoord"
 
-#: conduits/keyringconduit/keyringconduit.cc:117
+#: conduits/keyringconduit/keyringconduit.cc:114
 msgid "Password invalid! Update your password in the settings dialog."
 msgstr ""
 
-#: conduits/keyringconduit/keyringconduit.cc:168
+#: conduits/keyringconduit/keyringconduit.cc:165
 msgid "Enter your Keyring password"
 msgstr ""
 
@@ -1413,7 +1413,7 @@ msgstr "Die lêer bestaan. Doen jy wil hê na oorskryf dit?"
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:458
 #: conduits/docconduit/kpalmdoc_dlg.cc:503 kpilot/logWidget.cc:265
-#: kpilot/addressWidget.cc:651
+#: kpilot/addressWidget.cc:385
 #, fuzzy
 msgid "Overwrite"
 msgstr "Oorskryf"
@@ -2029,11 +2029,6 @@ msgstr ""
 msgid "Changing Database Flags"
 msgstr "Sinkronisering databasis %1..."
 
-#: kpilot/todoEditor.cc:54
-#, fuzzy
-msgid "To-do Editor"
-msgstr "Adres Redigeerder"
-
 #: kpilot/logWidget.cc:89
 msgid ""
 "<qt>This lists all the messages received during the current HotSync</qt>"
@@ -2460,24 +2455,28 @@ msgid ""
 "(c) 2005-2007, Jason 'vanRijn' Kasper"
 msgstr ""
 
-#: kpilot/memoWidget.cc:223
+#: kpilot/memoWidget.cc:220
+#, fuzzy
+#| msgid ""
+#| "Select the category of addresses\n"
+#| "to display here."
 msgid ""
-"Select the category of addresses\n"
+"Select the category of memos\n"
 "to display here."
 msgstr ""
 "Kies die kategorie van adresse\n"
 "na vertoon hier."
 
-#: kpilot/memoWidget.cc:226
+#: kpilot/memoWidget.cc:223
 msgid "Memos:"
 msgstr "Memos:"
 
-#: kpilot/memoWidget.cc:227 kpilot/todoWidget.cc:122
-#: kpilot/addressWidget.cc:201
+#: kpilot/memoWidget.cc:224 kpilot/todoWidget.cc:105
+#: kpilot/addressWidget.cc:184
 msgid "Category:"
 msgstr "Kategorie:"
 
-#: kpilot/memoWidget.cc:238
+#: kpilot/memoWidget.cc:235
 msgid ""
 "This list displays all the memos\n"
 "in the selected category. Click on\n"
@@ -2487,166 +2486,22 @@ msgstr ""
 "in die gekose kategorie. Kliek op\n"
 "een na vertoon dit na die regterkant."
 
-#: kpilot/memoWidget.cc:242
+#: kpilot/memoWidget.cc:239
 msgid "Memo text:"
 msgstr "Memo teks:"
 
-#: kpilot/memoWidget.cc:253
+#: kpilot/memoWidget.cc:248
 msgid "The text of the selected memo appears here."
 msgstr "Die teks van Die gekose memo verskyn hier."
 
-#: kpilot/memoWidget.cc:256
-#, fuzzy
-msgid "Import Memo..."
-msgstr "In voer Memo"
-
-#: kpilot/memoWidget.cc:260
-msgid "Read a text file and add it to the Pilot's memo database."
-msgstr ""
-
-#: kpilot/memoWidget.cc:261
-msgid "<qt><i>Import is disabled by the 'internal editors' setting.</i></qt>"
-msgstr ""
-
-#: kpilot/memoWidget.cc:264
+#: kpilot/memoWidget.cc:250
 #, fuzzy
 msgid "Export Memo..."
 msgstr "Voer uit Memo"
 
-#: kpilot/memoWidget.cc:269
+#: kpilot/memoWidget.cc:255
 msgid "Write the selected memo to a file."
 msgstr "Skryf die gekose memo na 'n lêer."
-
-#: kpilot/memoWidget.cc:271
-msgid "Delete Memo"
-msgstr "Uitvee Memo"
-
-#: kpilot/memoWidget.cc:276
-msgid "Delete the selected memo."
-msgstr "Uitvee die gekose memo."
-
-#: kpilot/memoWidget.cc:277 kpilot/todoWidget.cc:170
-#: kpilot/addressWidget.cc:250
-msgid "<qt><i>Deleting is disabled by the 'internal editors' setting.</i></qt>"
-msgstr ""
-
-#: kpilot/memoWidget.cc:280
-msgid "Add Memo"
-msgstr ""
-
-#: kpilot/memoWidget.cc:283
-msgid "Add a new memo to the database."
-msgstr ""
-
-#: kpilot/memoWidget.cc:326
-msgid "Delete currently selected memo?"
-msgstr "Uitvee huidiglik gekose memo?"
-
-#: kpilot/memoWidget.cc:327
-msgid "Delete Memo?"
-msgstr "Uitvee Memo?"
-
-#: kpilot/memoWidget.cc:345
-msgid "Cannot open MemoDB to delete record."
-msgstr ""
-
-#: kpilot/memoWidget.cc:346
-#, fuzzy
-msgid "Cannot Delete Memo"
-msgstr "Uitvee Memo"
-
-#: kpilot/addressEditor.cc:56
-msgid "Address Editor"
-msgstr "Adres Redigeerder"
-
-#: kpilot/addressEditor.cc:90
-msgid "Phone"
-msgstr "Foon"
-
-#: kpilot/addressEditor.cc:166
-#, fuzzy
-msgid "Last name:"
-msgstr "Laaste naam:"
-
-#: kpilot/addressEditor.cc:167
-#, fuzzy
-msgid "First name:"
-msgstr "Eerste naam:"
-
-#: kpilot/addressEditor.cc:168
-#, fuzzy
-#| msgid "Title:"
-msgctxt "Tile of the person."
-msgid "Title:"
-msgstr "Titel:"
-
-#: kpilot/addressEditor.cc:169
-#, fuzzy
-msgctxt "Company where the person works."
-msgid "Company:"
-msgstr "Maatskappy:"
-
-#: kpilot/addressEditor.cc:178
-#, fuzzy
-#| msgid "Address:"
-msgctxt "Address where the person lives."
-msgid "Address:"
-msgstr "Adres:"
-
-#: kpilot/addressEditor.cc:179
-#, fuzzy
-#| msgid "City:"
-msgctxt "City where the person lives."
-msgid "City:"
-msgstr "Stad:"
-
-#: kpilot/addressEditor.cc:180
-#, fuzzy
-#| msgid "State:"
-msgctxt "State where the person lives."
-msgid "State:"
-msgstr "Staat:"
-
-#: kpilot/addressEditor.cc:181
-#, fuzzy
-msgctxt "Zip or postalcode of Address."
-msgid "Zip code:"
-msgstr "Zip kode:"
-
-#: kpilot/addressEditor.cc:182
-#, fuzzy
-#| msgid "Country:"
-msgctxt "Country where the person lives"
-msgid "Country:"
-msgstr "Land:"
-
-#: kpilot/addressEditor.cc:183
-#, fuzzy
-#| msgid "Custom 1:"
-msgctxt "Custom field"
-msgid "Custom 1:"
-msgstr "Pasmaak 1:"
-
-#: kpilot/addressEditor.cc:184
-#, fuzzy
-#| msgid "Custom 2:"
-msgctxt "Custom field"
-msgid "Custom 2:"
-msgstr "Pasmaak 2:"
-
-#: kpilot/addressEditor.cc:185
-#, fuzzy
-#| msgid "Custom 3:"
-msgctxt "Custom field"
-msgid "Custom 3:"
-msgstr "Pasmaak 3:"
-
-#: kpilot/addressEditor.cc:186
-#, fuzzy
-#| msgid "Custom 4:"
-msgctxt "Custom field"
-msgid "Custom 4:"
-msgstr "Pasmaak 4:"
 
 #: kpilot/pilotComponent.cc:149
 #, fuzzy
@@ -2755,12 +2610,12 @@ msgstr ""
 msgid "Deleting Record"
 msgstr "Uitvee Opneem"
 
-#: kpilot/todoWidget.cc:120
+#: kpilot/todoWidget.cc:114
 #, fuzzy
 msgid "<qt>Select the category of to-dos to display here.</qt>"
 msgstr "<qt>Kies die kategorie van adresse na vertoon hier.</qt>"
 
-#: kpilot/todoWidget.cc:131
+#: kpilot/todoWidget.cc:121
 #, fuzzy
 msgid ""
 "<qt>This list displays all the to-dos in the selected category. Click on one "
@@ -2769,87 +2624,10 @@ msgstr ""
 "<qt>Hierdie lys vertoon alle die adresse in die gekose kategorie. Kliek op "
 "een na vertoon dit na die regterkant.</qt>"
 
-#: kpilot/todoWidget.cc:135
+#: kpilot/todoWidget.cc:125
 #, fuzzy
 msgid "To-do info:"
 msgstr "Adres inligting:"
-
-#: kpilot/todoWidget.cc:146 kpilot/addressWidget.cc:226
-#, fuzzy
-msgid "Edit Record..."
-msgstr "Redigeer Opneem"
-
-#: kpilot/todoWidget.cc:151
-#, fuzzy
-msgid "<qt>You can edit a to-do when it is selected.</qt>"
-msgstr "<qt>Jy kan redigeer 'n adres wanneer dit is gekose.</qt>"
-
-#: kpilot/todoWidget.cc:152 kpilot/addressWidget.cc:231
-msgid "<qt><i>Editing is disabled by the 'internal editors' setting.</i></qt>"
-msgstr ""
-
-#: kpilot/todoWidget.cc:155 kpilot/addressWidget.cc:234
-#, fuzzy
-msgid "New Record..."
-msgstr "Nuwe Opneem"
-
-#: kpilot/todoWidget.cc:159
-#, fuzzy
-msgid "<qt>Add a new to-do to the to-do list.</qt>"
-msgstr "<qt>Voeg by 'n nuwe adres na die adres boek.</qt>"
-
-#: kpilot/todoWidget.cc:160
-msgid ""
-"<qt><i>Adding new to-dos is disabled by the 'internal editors' setting.</i></"
-"qt>"
-msgstr ""
-
-#: kpilot/todoWidget.cc:164 kpilot/addressWidget.cc:244
-msgid "Delete Record"
-msgstr "Uitvee Opneem"
-
-#: kpilot/todoWidget.cc:169
-#, fuzzy
-msgid "<qt>Delete the selected to-do from the to-do list.</qt>"
-msgstr "<qt>Uitvee die gekose adres van die adres boek.</qt>"
-
-#: kpilot/todoWidget.cc:258
-#, fuzzy, qt-format
-msgid "There is still a to-do editing window open."
-msgid_plural "There are still %1 to-do editing windows open."
-msgstr[0] "Daar is nogsteeds 'n adres redigering venster open."
-msgstr[1] "Daar word nogsteeds %1 adres redigering vensters open."
-
-#: kpilot/todoWidget.cc:382 kpilot/addressWidget.cc:401
-msgid "Cannot edit new records until HotSynced with Pilot."
-msgstr "Kan nie redigeer nuwe neem op totdat Hotsync met Pilot."
-
-#: kpilot/todoWidget.cc:384 kpilot/todoWidget.cc:525
-#: kpilot/addressWidget.cc:403 kpilot/addressWidget.cc:536
-msgid "HotSync Required"
-msgstr "Hotsync Benodig"
-
-#: kpilot/todoWidget.cc:427
-msgid ""
-"You cannot add to-dos to the to-do list until you have done a HotSync at "
-"least once to retrieve the database layout from your Pilot."
-msgstr ""
-
-#: kpilot/todoWidget.cc:430
-msgid "Cannot Add New To-do"
-msgstr ""
-
-#: kpilot/todoWidget.cc:523 kpilot/addressWidget.cc:534
-msgid "New records cannot be deleted until HotSynced with pilot."
-msgstr "Nuwe neem op kan nie wees uitgevee totdat Hotsync met pilot."
-
-#: kpilot/todoWidget.cc:530 kpilot/addressWidget.cc:541
-msgid "Delete currently selected record?"
-msgstr "Uitvee huidiglik gekose opneem?"
-
-#: kpilot/todoWidget.cc:531 kpilot/addressWidget.cc:542
-msgid "Delete Record?"
-msgstr "Uitvee Opneem?"
 
 #: kpilot/internalEditorAction.cc:62
 msgid "[Internal Editors]"
@@ -3618,20 +3396,11 @@ msgstr ""
 msgid "Conduit Actions"
 msgstr "Null-Conduit Opsies"
 
-#: kpilot/addressWidget.cc:165
-#, fuzzy, qt-format
-#| msgid "There is still an address editing window open."
-#| msgid_plural "There are still %1 address editing windows open."
-msgid "There is still an address editing window open."
-msgid_plural "There are still %1 address editing windows open."
-msgstr[0] "Daar is nogsteeds 'n adres redigering venster open."
-msgstr[1] "Daar word nogsteeds %1 adres redigering vensters open."
-
-#: kpilot/addressWidget.cc:199
+#: kpilot/addressWidget.cc:182
 msgid "<qt>Select the category of addresses to display here.</qt>"
 msgstr "<qt>Kies die kategorie van adresse na vertoon hier.</qt>"
 
-#: kpilot/addressWidget.cc:212
+#: kpilot/addressWidget.cc:194
 msgid ""
 "<qt>This list displays all the addresses in the selected category. Click on "
 "one to display it to the right.</qt>"
@@ -3639,33 +3408,17 @@ msgstr ""
 "<qt>Hierdie lys vertoon alle die adresse in die gekose kategorie. Kliek op "
 "een na vertoon dit na die regterkant.</qt>"
 
-#: kpilot/addressWidget.cc:216
+#: kpilot/addressWidget.cc:198
 msgid "Address info:"
 msgstr "Adres inligting:"
 
-#: kpilot/addressWidget.cc:230
-msgid "<qt>You can edit an address when it is selected.</qt>"
-msgstr "<qt>Jy kan redigeer 'n adres wanneer dit is gekose.</qt>"
-
-#: kpilot/addressWidget.cc:238
-msgid "<qt>Add a new address to the address book.</qt>"
-msgstr "<qt>Voeg by 'n nuwe adres na die adres boek.</qt>"
-
-#: kpilot/addressWidget.cc:239
-msgid "<qt><i>Adding is disabled by the 'internal editors' setting.</i></qt>"
-msgstr ""
-
-#: kpilot/addressWidget.cc:249
-msgid "<qt>Delete the selected address from the address book.</qt>"
-msgstr "<qt>Uitvee die gekose adres van die adres boek.</qt>"
-
-#: kpilot/addressWidget.cc:253
+#: kpilot/addressWidget.cc:205
 #, fuzzy
 msgctxt "Export addresses to file"
 msgid "Export..."
 msgstr "Voer uit Memo"
 
-#: kpilot/addressWidget.cc:257
+#: kpilot/addressWidget.cc:209
 #, fuzzy
 #| msgid ""
 #| "<qt>This list displays all the addresses in the selected category. Click "
@@ -3675,43 +3428,33 @@ msgstr ""
 "<qt>Hierdie lys vertoon alle die adresse in die gekose kategorie. Kliek op "
 "een na vertoon dit na die regterkant.</qt>"
 
-#: kpilot/addressWidget.cc:356
+#: kpilot/addressWidget.cc:308
 #, fuzzy
 #| msgid "[unknown]"
 msgctxt "The title is inknown."
 msgid "[unknown]"
 msgstr "[onbekende]"
 
-#: kpilot/addressWidget.cc:442
-msgid ""
-"You cannot add addresses to the address book until you have done a HotSync "
-"at least once to retrieve the database layout from your Pilot."
-msgstr ""
-
-#: kpilot/addressWidget.cc:445
-msgid "Cannot Add New Address"
-msgstr ""
-
-#: kpilot/addressWidget.cc:632
+#: kpilot/addressWidget.cc:366
 msgid "Export All Addresses"
 msgstr ""
 
-#: kpilot/addressWidget.cc:633
+#: kpilot/addressWidget.cc:367
 #, qt-format
 msgid "Export Address Category %1"
 msgstr ""
 
-#: kpilot/addressWidget.cc:649
+#: kpilot/addressWidget.cc:383
 #, fuzzy, qt-format
 msgid "The file <i>%1</i> exists. Overwrite?"
 msgstr "Die lêer bestaan. Doen jy wil hê na oorskryf dit?"
 
-#: kpilot/addressWidget.cc:650
+#: kpilot/addressWidget.cc:384
 #, fuzzy
 msgid "Overwrite File?"
 msgstr "Oorskryf"
 
-#: kpilot/addressWidget.cc:661
+#: kpilot/addressWidget.cc:395
 #, fuzzy, qt-format
 msgid "The file <i>%1</i> could not be opened for writing."
 msgstr "Nie moontlik na begin om te skryf pos liggaam\n"
@@ -3726,6 +3469,169 @@ msgstr "Eerste naam:"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
+
+#, fuzzy
+#~ msgid "To-do Editor"
+#~ msgstr "Adres Redigeerder"
+
+#, fuzzy
+#~ msgid "Import Memo..."
+#~ msgstr "In voer Memo"
+
+#~ msgid "Delete Memo"
+#~ msgstr "Uitvee Memo"
+
+#~ msgid "Delete the selected memo."
+#~ msgstr "Uitvee die gekose memo."
+
+#~ msgid "Delete currently selected memo?"
+#~ msgstr "Uitvee huidiglik gekose memo?"
+
+#~ msgid "Delete Memo?"
+#~ msgstr "Uitvee Memo?"
+
+#, fuzzy
+#~ msgid "Cannot Delete Memo"
+#~ msgstr "Uitvee Memo"
+
+#~ msgid "Address Editor"
+#~ msgstr "Adres Redigeerder"
+
+#~ msgid "Phone"
+#~ msgstr "Foon"
+
+#, fuzzy
+#~ msgid "Last name:"
+#~ msgstr "Laaste naam:"
+
+#, fuzzy
+#~ msgid "First name:"
+#~ msgstr "Eerste naam:"
+
+#, fuzzy
+#~| msgid "Title:"
+#~ msgctxt "Tile of the person."
+#~ msgid "Title:"
+#~ msgstr "Titel:"
+
+#, fuzzy
+#~ msgctxt "Company where the person works."
+#~ msgid "Company:"
+#~ msgstr "Maatskappy:"
+
+#, fuzzy
+#~| msgid "Address:"
+#~ msgctxt "Address where the person lives."
+#~ msgid "Address:"
+#~ msgstr "Adres:"
+
+#, fuzzy
+#~| msgid "City:"
+#~ msgctxt "City where the person lives."
+#~ msgid "City:"
+#~ msgstr "Stad:"
+
+#, fuzzy
+#~| msgid "State:"
+#~ msgctxt "State where the person lives."
+#~ msgid "State:"
+#~ msgstr "Staat:"
+
+#, fuzzy
+#~ msgctxt "Zip or postalcode of Address."
+#~ msgid "Zip code:"
+#~ msgstr "Zip kode:"
+
+#, fuzzy
+#~| msgid "Country:"
+#~ msgctxt "Country where the person lives"
+#~ msgid "Country:"
+#~ msgstr "Land:"
+
+#, fuzzy
+#~| msgid "Custom 1:"
+#~ msgctxt "Custom field"
+#~ msgid "Custom 1:"
+#~ msgstr "Pasmaak 1:"
+
+#, fuzzy
+#~| msgid "Custom 2:"
+#~ msgctxt "Custom field"
+#~ msgid "Custom 2:"
+#~ msgstr "Pasmaak 2:"
+
+#, fuzzy
+#~| msgid "Custom 3:"
+#~ msgctxt "Custom field"
+#~ msgid "Custom 3:"
+#~ msgstr "Pasmaak 3:"
+
+#, fuzzy
+#~| msgid "Custom 4:"
+#~ msgctxt "Custom field"
+#~ msgid "Custom 4:"
+#~ msgstr "Pasmaak 4:"
+
+#, fuzzy
+#~ msgid "Edit Record..."
+#~ msgstr "Redigeer Opneem"
+
+#, fuzzy
+#~ msgid "<qt>You can edit a to-do when it is selected.</qt>"
+#~ msgstr "<qt>Jy kan redigeer 'n adres wanneer dit is gekose.</qt>"
+
+#, fuzzy
+#~ msgid "New Record..."
+#~ msgstr "Nuwe Opneem"
+
+#, fuzzy
+#~ msgid "<qt>Add a new to-do to the to-do list.</qt>"
+#~ msgstr "<qt>Voeg by 'n nuwe adres na die adres boek.</qt>"
+
+#~ msgid "Delete Record"
+#~ msgstr "Uitvee Opneem"
+
+#, fuzzy
+#~ msgid "<qt>Delete the selected to-do from the to-do list.</qt>"
+#~ msgstr "<qt>Uitvee die gekose adres van die adres boek.</qt>"
+
+#, fuzzy
+#~ msgid "There is still a to-do editing window open."
+#~ msgid_plural "There are still %1 to-do editing windows open."
+#~ msgstr[0] "Daar is nogsteeds 'n adres redigering venster open."
+#~ msgstr[1] "Daar word nogsteeds %1 adres redigering vensters open."
+
+#~ msgid "Cannot edit new records until HotSynced with Pilot."
+#~ msgstr "Kan nie redigeer nuwe neem op totdat Hotsync met Pilot."
+
+#~ msgid "HotSync Required"
+#~ msgstr "Hotsync Benodig"
+
+#~ msgid "New records cannot be deleted until HotSynced with pilot."
+#~ msgstr "Nuwe neem op kan nie wees uitgevee totdat Hotsync met pilot."
+
+#~ msgid "Delete currently selected record?"
+#~ msgstr "Uitvee huidiglik gekose opneem?"
+
+#~ msgid "Delete Record?"
+#~ msgstr "Uitvee Opneem?"
+
+#, fuzzy
+#~| msgid "There is still an address editing window open."
+#~| msgid_plural "There are still %1 address editing windows open."
+#~ msgid "There is still an address editing window open."
+#~ msgid_plural "There are still %1 address editing windows open."
+#~ msgstr[0] "Daar is nogsteeds 'n adres redigering venster open."
+#~ msgstr[1] "Daar word nogsteeds %1 adres redigering vensters open."
+
+#~ msgid "<qt>You can edit an address when it is selected.</qt>"
+#~ msgstr "<qt>Jy kan redigeer 'n adres wanneer dit is gekose.</qt>"
+
+#~ msgid "<qt>Add a new address to the address book.</qt>"
+#~ msgstr "<qt>Voeg by 'n nuwe adres na die adres boek.</qt>"
+
+#~ msgid "<qt>Delete the selected address from the address book.</qt>"
+#~ msgstr "<qt>Uitvee die gekose adres van die adres boek.</qt>"
 
 #, fuzzy
 #~ msgid "Unable to open the %1 database on the handheld."
