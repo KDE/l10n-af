@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcrypto stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-14 05:32+0200\n"
+"POT-Creation-Date: 2007-08-23 05:38+0200\n"
 "PO-Revision-Date: 2005-11-23 16:57+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -58,11 +58,11 @@ msgstr "Kas"
 msgid "Internal error. Please report to kfm-devel@kde.org."
 msgstr "Intern fout. Asseblief raporteer na kfm-devel@kde.org."
 
-#: certexport.cpp:99 certexport.cpp:114 certexport.cpp:122 crypto.cpp:810
-#: crypto.cpp:1248 crypto.cpp:1277 crypto.cpp:1294 crypto.cpp:1296
-#: crypto.cpp:1481 crypto.cpp:1499 crypto.cpp:1552 crypto.cpp:1591
-#: crypto.cpp:1593 crypto.cpp:1797 crypto.cpp:1817 crypto.cpp:1881
-#: crypto.cpp:1888 crypto.cpp:1904 crypto.cpp:1953
+#: certexport.cpp:99 certexport.cpp:114 certexport.cpp:122 crypto.cpp:817
+#: crypto.cpp:1255 crypto.cpp:1284 crypto.cpp:1301 crypto.cpp:1303
+#: crypto.cpp:1488 crypto.cpp:1506 crypto.cpp:1559 crypto.cpp:1598
+#: crypto.cpp:1600 crypto.cpp:1804 crypto.cpp:1824 crypto.cpp:1888
+#: crypto.cpp:1895 crypto.cpp:1911 crypto.cpp:1960
 msgid "SSL"
 msgstr "Ssl"
 
@@ -130,77 +130,54 @@ msgstr ""
 msgid "Cipher Wizard"
 msgstr "Cipher Assistent"
 
-#: crypto.cpp:300
-#, fuzzy
-#| msgid ""
-#| "<qt>Use these preconfigurations to more easily configure the SSL "
-#| "encryption settings. You can choose among the following modes: <ul>"
-msgid ""
-"<qt>Use these preconfigurations to more easily configure the SSL encryption "
-"settings. You can choose among the following modes: </qt><ul>"
-msgstr ""
-"<qt>Gebruik hierdie voorinstellings om makliker te konfigureer die Ssl "
-"enkripsie instellings. Jy kan kies tussen dievolgende modusse: <ul>"
-
-#: crypto.cpp:303
+#: crypto.cpp:302
 #, fuzzy
 msgid "Strong Ciphers Only"
 msgstr "US Versyferaars Slegs"
 
-#: crypto.cpp:304
-#, fuzzy
-msgid ""
-"<li><b>Strong Ciphers Only:</b> Select only the strong (&gt;= 128 bit) "
-"encryption ciphers.</li>"
-msgstr ""
-"<li><b>US Versyferaars Slegs:</b> Kies slegs die Us sterk (&gt;= 128  bit) "
-"enkripsie versyferaars.</li>"
-
-#: crypto.cpp:305
+#: crypto.cpp:303
 msgid "Export Ciphers Only"
 msgstr "Voer uit Versyferaars Slegs"
 
-#: crypto.cpp:306
-msgid ""
-"<li><b>Export Ciphers Only:</b> Select only the weak ciphers (&lt;= 56 bit)."
-"</li>"
-msgstr ""
-"<li>Voer uit Versyferaars Slegs:</b> Kies slegs die swak versyferaars (&lt;= "
-"56  bit).</li>"
-
-#: crypto.cpp:307
+#: crypto.cpp:304
 msgid "Enable All"
 msgstr "Aktiveer Alle"
 
-#: crypto.cpp:308
-msgid "<li><b>Enable All:</b> Select all SSL ciphers and methods.</li></ul>"
-msgstr "<li><b>Kies alle:</b> Kies alle Ssl versyferaars en metodes.</li></ul>"
+#: crypto.cpp:306
+msgid ""
+"<qt>Use these preconfigurations to more easily configure the SSL encryption "
+"settings. You can choose among the following modes:<ul><li><b>Strong Ciphers "
+"Only:</b> Select only the strong (&gt;= 128 bit) encryption ciphers.</"
+"li><li><b>Export Ciphers Only:</b> Select only the weak ciphers (&lt;= 56 "
+"bit).</li><li><b>Enable All:</b> Select all SSL ciphers and methods.</li></"
+"ul></qt>"
+msgstr ""
 
-#: crypto.cpp:316
+#: crypto.cpp:323
 msgid "Warn on &entering SSL mode"
 msgstr "Waarskuwing op in te tik Ssl modus"
 
-#: crypto.cpp:319
+#: crypto.cpp:326
 msgid "If selected, you will be notified when entering an SSL enabled site"
 msgstr ""
 "As gekose, jy sal wees inkennis gestel wanneer in te tik 'n Ssl geaktiveer "
 "tuiste"
 
-#: crypto.cpp:323
+#: crypto.cpp:330
 msgid "Warn on &leaving SSL mode"
 msgstr "Waarskuwing op verlaat Ssl modus"
 
-#: crypto.cpp:326
+#: crypto.cpp:333
 msgid "If selected, you will be notified when leaving an SSL based site."
 msgstr ""
 "As gekose, jy sal wees inkennis gestel wanneer verlaat 'n Ssl gebaseerde "
 "tuiste."
 
-#: crypto.cpp:330
+#: crypto.cpp:337
 msgid "Warn on sending &unencrypted data"
 msgstr "Waarskuwing op stuur  unencrypted data"
 
-#: crypto.cpp:333
+#: crypto.cpp:340
 msgid ""
 "If selected, you will be notified before sending unencrypted data via a web "
 "browser."
@@ -208,11 +185,11 @@ msgstr ""
 "As gekose, jy sal wees inkennis gestel voor stuur  unencrypted data deur "
 "middel van 'n web blaaier."
 
-#: crypto.cpp:338
+#: crypto.cpp:345
 msgid "Warn on &mixed SSL/non-SSL pages"
 msgstr "Waarskuwing op gemeng Ssl/non-Ssl bladsye"
 
-#: crypto.cpp:341
+#: crypto.cpp:348
 msgid ""
 "If selected, you will be notified if you view a page that has both encrypted "
 "and non-encrypted parts."
@@ -220,27 +197,27 @@ msgstr ""
 "As gekose, jy sal wees inkennis gestel As jy besigtig 'n bladsy wat het "
 "beide encrypted en non-encrypted dele."
 
-#: crypto.cpp:356
+#: crypto.cpp:363
 msgid "Path to OpenSSL Shared Libraries"
 msgstr "Gids soeklys na Openssl Gedeelde Biblioteke"
 
-#: crypto.cpp:364
+#: crypto.cpp:371
 msgid "&Test"
 msgstr "Toets"
 
-#: crypto.cpp:375
+#: crypto.cpp:382
 msgid "Use EGD"
 msgstr "Gebruik Egd"
 
-#: crypto.cpp:377
+#: crypto.cpp:384
 msgid "Use entropy file"
 msgstr "Gebruik entropie lêer"
 
-#: crypto.cpp:385 crypto.cpp:2201
+#: crypto.cpp:392 crypto.cpp:2208
 msgid "Path to EGD:"
 msgstr "Gids soeklys na Egd:"
 
-#: crypto.cpp:392
+#: crypto.cpp:399
 msgid ""
 "If selected, OpenSSL will be asked to use the entropy gathering daemon (EGD) "
 "for initializing the pseudo-random number generator."
@@ -248,7 +225,7 @@ msgstr ""
 "As gekose, Openssl sal wees gevra na gebruik die entropie versamel bediener "
 "(Egd) vir initialisering die pseudo-random nommer genereerder."
 
-#: crypto.cpp:395
+#: crypto.cpp:402
 msgid ""
 "If selected, OpenSSL will be asked to use the given file as entropy for "
 "initializing the pseudo-random number generator."
@@ -256,7 +233,7 @@ msgstr ""
 "as gekose, Openssl sal wees gevra na gebruik die gegewe lêer as entropie vir "
 "initialisering die pseudo-random nommer genereerder."
 
-#: crypto.cpp:398
+#: crypto.cpp:405
 msgid ""
 "Enter the path to the socket created by the entropy gathering daemon (or the "
 "entropy file) here."
@@ -264,11 +241,11 @@ msgstr ""
 "Invoer die gids soeklys na die soket geskep deur die entropie versamel "
 "bediener (of die entropie lêer) hier."
 
-#: crypto.cpp:401
+#: crypto.cpp:408
 msgid "Click here to browse for the EGD socket file."
 msgstr "Kliek hier na blaai vir die Egd soket lêer."
 
-#: crypto.cpp:421
+#: crypto.cpp:428
 msgid ""
 "This list box shows which certificates of yours KDE knows about. You can "
 "easily manage them from here."
@@ -276,89 +253,89 @@ msgstr ""
 "Hierdie lys boks vertoon wat sertifikate van jou Kde weet aangaande. Jy kan "
 "maklik bestuur hulle van hier."
 
-#: crypto.cpp:425 crypto.cpp:589 crypto.cpp:707
+#: crypto.cpp:432 crypto.cpp:596 crypto.cpp:714
 msgid "Common Name"
 msgstr "Gemeenskaplike Naam"
 
-#: crypto.cpp:426
+#: crypto.cpp:433
 msgid "Email Address"
 msgstr "E-pos Adres"
 
-#: crypto.cpp:429 crypto.cpp:710
+#: crypto.cpp:436 crypto.cpp:717
 msgid "I&mport..."
 msgstr "In voer..."
 
-#: crypto.cpp:433 crypto.cpp:592
+#: crypto.cpp:440 crypto.cpp:599
 msgid "&Export..."
 msgstr "Voer uit..."
 
-#: crypto.cpp:438 crypto.cpp:545
+#: crypto.cpp:445 crypto.cpp:552
 msgid "Remo&ve"
 msgstr "Verwyder"
 
-#: crypto.cpp:443
+#: crypto.cpp:450
 msgid "&Unlock"
 msgstr "Sluit oop"
 
-#: crypto.cpp:448
+#: crypto.cpp:455
 msgid "Verif&y"
 msgstr "Bevestig"
 
-#: crypto.cpp:453
+#: crypto.cpp:460
 msgid "Chan&ge Password..."
 msgstr "Verander Wagwoord..."
 
-#: crypto.cpp:463 crypto.cpp:622
+#: crypto.cpp:470 crypto.cpp:629
 msgid "This is the information known about the owner of the certificate."
 msgstr ""
 "Hierdie is die informasie bekend aangaande die eienaar van die sertifikaat."
 
-#: crypto.cpp:465 crypto.cpp:624
+#: crypto.cpp:472 crypto.cpp:631
 msgid "This is the information known about the issuer of the certificate."
 msgstr ""
 "Hierdie is die informasie bekend aangaande die uitreiker van die sertifikaat."
 
-#: crypto.cpp:468 crypto.cpp:627
+#: crypto.cpp:475 crypto.cpp:634
 msgid "Valid from:"
 msgstr "Geldige van:"
 
-#: crypto.cpp:469 crypto.cpp:628
+#: crypto.cpp:476 crypto.cpp:635
 msgid "Valid until:"
 msgstr "Geldige totdat:"
 
-#: crypto.cpp:474 crypto.cpp:637
+#: crypto.cpp:481 crypto.cpp:644
 msgid "The certificate is valid starting at this date."
 msgstr "Die sertifikaat is geldige beginne na hierdie datum."
 
-#: crypto.cpp:476 crypto.cpp:639
+#: crypto.cpp:483 crypto.cpp:646
 msgid "The certificate is valid until this date."
 msgstr "Die sertifikaat is geldige totdat hierdie datum."
 
-#: crypto.cpp:478 crypto.cpp:675 crypto.cpp:741
+#: crypto.cpp:485 crypto.cpp:682 crypto.cpp:748
 msgid "MD5 digest:"
 msgstr "MD5 bondel:"
 
-#: crypto.cpp:481 crypto.cpp:678 crypto.cpp:744
+#: crypto.cpp:488 crypto.cpp:685 crypto.cpp:751
 msgid "A hash of the certificate used to identify it quickly."
 msgstr "'n Huts van die sertifikaat gebruik om vinnig dit te identifiseer"
 
-#: crypto.cpp:485
+#: crypto.cpp:492
 msgid "On SSL Connection..."
 msgstr "Op Ssl Verbinding..."
 
-#: crypto.cpp:486
+#: crypto.cpp:493
 msgid "&Use default certificate"
 msgstr "Gebruik verstek sertifikaat"
 
-#: crypto.cpp:487
+#: crypto.cpp:494
 msgid "&List upon connection"
 msgstr "Lys van verbinding"
 
-#: crypto.cpp:488
+#: crypto.cpp:495
 msgid "&Do not use certificates"
 msgstr "Doen nie gebruik sertifikate"
 
-#: crypto.cpp:492 crypto.cpp:564 crypto.cpp:682 crypto.cpp:748
+#: crypto.cpp:499 crypto.cpp:571 crypto.cpp:689 crypto.cpp:755
 msgid ""
 "SSL certificates cannot be managed because this module was not linked with "
 "OpenSSL."
@@ -366,75 +343,75 @@ msgstr ""
 "Ssl sertifikate kan nie wees beheer omdat hierdie module was nie gekoppel "
 "met Openssl."
 
-#: crypto.cpp:509
+#: crypto.cpp:516
 msgid "Default Authentication Certificate"
 msgstr "Verstek Geldigheidsverklaring Sertifikaat"
 
-#: crypto.cpp:510
+#: crypto.cpp:517
 msgid "Default Action"
 msgstr "Verstek Aksie"
 
-#: crypto.cpp:511
+#: crypto.cpp:518
 msgid "&Send"
 msgstr "Stuur"
 
-#: crypto.cpp:512 crypto.cpp:665
+#: crypto.cpp:519 crypto.cpp:672
 msgid "&Prompt"
 msgstr "Por"
 
-#: crypto.cpp:513
+#: crypto.cpp:520
 msgid "Do &not send"
 msgstr "Moet nie stuur"
 
-#: crypto.cpp:516
+#: crypto.cpp:523
 msgid "Default certificate:"
 msgstr "Verstek sertifikaat:"
 
-#: crypto.cpp:522
+#: crypto.cpp:529
 msgid "Host authentication:"
 msgstr "Bediener geldigheidsverklaring:"
 
-#: crypto.cpp:526
+#: crypto.cpp:533
 msgid "Host"
 msgstr "Bediener"
 
-#: crypto.cpp:527
+#: crypto.cpp:534
 msgid "Certificate"
 msgstr "Sertifikaat"
 
-#: crypto.cpp:528 crypto.cpp:662
+#: crypto.cpp:535 crypto.cpp:669
 msgid "Policy"
 msgstr "Beleid"
 
-#: crypto.cpp:530
+#: crypto.cpp:537
 msgid "Host:"
 msgstr "Bediener:"
 
-#: crypto.cpp:531
+#: crypto.cpp:538
 msgid "Certificate:"
 msgstr "Sertifikaat:"
 
-#: crypto.cpp:538
+#: crypto.cpp:545
 msgid "Action"
 msgstr "Aksie"
 
-#: crypto.cpp:539 crypto.h:189
+#: crypto.cpp:546 crypto.h:189
 msgid "Send"
 msgstr "Stuur"
 
-#: crypto.cpp:540 crypto.h:195
+#: crypto.cpp:547 crypto.h:195
 msgid "Prompt"
 msgstr "Por"
 
-#: crypto.cpp:541
+#: crypto.cpp:548
 msgid "Do not send"
 msgstr "Moet nie stuur"
 
-#: crypto.cpp:544
+#: crypto.cpp:551
 msgid "Ne&w"
 msgstr "Nuwe"
 
-#: crypto.cpp:585
+#: crypto.cpp:592
 msgid ""
 "This list box shows which site and person certificates KDE knows about. You "
 "can easily manage them from here."
@@ -442,11 +419,11 @@ msgstr ""
 "Hierdie lys boks vertoon wat tuiste en persoon sertifikate Kde weet "
 "aangaande. Jy kan maklik bestuur hulle van hier."
 
-#: crypto.cpp:588 crypto.cpp:705
+#: crypto.cpp:595 crypto.cpp:712
 msgid "Organization"
 msgstr "Organisasie"
 
-#: crypto.cpp:595
+#: crypto.cpp:602
 msgid ""
 "This button allows you to export the selected certificate to a file of "
 "various formats."
@@ -454,66 +431,66 @@ msgstr ""
 "Hierdie knoppie laat toe jy na voer uit die gekose sertifikaat na 'n lêer "
 "van verskeie formate."
 
-#: crypto.cpp:599 crypto.cpp:714 crypto.cpp:791
+#: crypto.cpp:606 crypto.cpp:721 crypto.cpp:798
 #, fuzzy
 msgid "&Remove"
 msgstr "Verwyder"
 
-#: crypto.cpp:602
+#: crypto.cpp:609
 msgid ""
 "This button removes the selected certificate from the certificate cache."
 msgstr ""
 "Hierdie knoppie verwyder die gekose sertifikaat van die sertifikaat kas."
 
-#: crypto.cpp:606
+#: crypto.cpp:613
 msgid "&Verify"
 msgstr "Bevestig..."
 
-#: crypto.cpp:609
+#: crypto.cpp:616
 msgid "This button tests the selected certificate for validity."
 msgstr "Hierdie knoppie toetse die gekose sertifikaat vir geldigheid."
 
-#: crypto.cpp:642
+#: crypto.cpp:649
 msgid "Cache"
 msgstr "Kas"
 
-#: crypto.cpp:643
+#: crypto.cpp:650
 msgid "Permanentl&y"
 msgstr "Permanent"
 
-#: crypto.cpp:644
+#: crypto.cpp:651
 msgid "&Until"
 msgstr "Totdat..."
 
-#: crypto.cpp:655
+#: crypto.cpp:662
 msgid "Select here to make the cache entry permanent."
 msgstr "Kies hier na maak die kas inskrywing permanent."
 
-#: crypto.cpp:657
+#: crypto.cpp:664
 msgid "Select here to make the cache entry temporary."
 msgstr "Kies hier na maak die kas inskrywing tydelike."
 
-#: crypto.cpp:659
+#: crypto.cpp:666
 msgid "The date and time until the certificate cache entry should expire."
 msgstr "Die datum en tyd totdat Die sertifikaat kas inskrywing moet vertrek."
 
-#: crypto.cpp:663
+#: crypto.cpp:670
 msgid "Accep&t"
 msgstr "Aanvaar"
 
-#: crypto.cpp:664
+#: crypto.cpp:671
 msgid "Re&ject"
 msgstr "Verwerp"
 
-#: crypto.cpp:669
+#: crypto.cpp:676
 msgid "Select this to always accept this certificate."
 msgstr "Kies hierdie na altyd aanvaar hierdie sertifikaat."
 
-#: crypto.cpp:671
+#: crypto.cpp:678
 msgid "Select this to always reject this certificate."
 msgstr "Kies hierdie na altyd verwerp hierdie sertifikaat."
 
-#: crypto.cpp:673
+#: crypto.cpp:680
 msgid ""
 "Select this if you wish to be prompted for action when receiving this "
 "certificate."
@@ -521,7 +498,7 @@ msgstr ""
 "Kies hierdie as jy wens na wees gepor vir aksie wanneer ontvang hierdie "
 "sertifikaat."
 
-#: crypto.cpp:701
+#: crypto.cpp:708
 msgid ""
 "This list box shows which certificate authorities KDE knows about. You can "
 "easily manage them from here."
@@ -529,39 +506,39 @@ msgstr ""
 "Hierdie lys boks vertoon wat sertifikaat outoriteit Kde weet aangaande. Jy "
 "kan maklik bestuur hulle van hier."
 
-#: crypto.cpp:706
+#: crypto.cpp:713
 msgid "Organizational Unit"
 msgstr "Organisasie Eenheid"
 
-#: crypto.cpp:719
+#: crypto.cpp:726
 msgid "Res&tore"
 msgstr "Herstel..."
 
-#: crypto.cpp:729
+#: crypto.cpp:736
 msgid "Accept for site signing"
 msgstr "Aanvaar vir tuiste getekende"
 
-#: crypto.cpp:730
+#: crypto.cpp:737
 msgid "Accept for email signing"
 msgstr "Aanvaar vir e-pos getekende"
 
-#: crypto.cpp:731
+#: crypto.cpp:738
 msgid "Accept for code signing"
 msgstr "Aanvaar vir kode getekende"
 
-#: crypto.cpp:765
+#: crypto.cpp:772
 msgid "Warn on &self-signed certificates or unknown CA's"
 msgstr "Waarskuwing op self-signed sertifikate of onbekende Ca se"
 
-#: crypto.cpp:767
+#: crypto.cpp:774
 msgid "Warn on &expired certificates"
 msgstr "Waarskuwing op verstrek sertifikate"
 
-#: crypto.cpp:769
+#: crypto.cpp:776
 msgid "Warn on re&voked certificates"
 msgstr "Waarskuwing op teruggetrek sertifikate"
 
-#: crypto.cpp:779
+#: crypto.cpp:786
 msgid ""
 "This list box shows which sites you have decided to accept a certificate "
 "from even though the certificate might fail the validation procedure."
@@ -569,11 +546,11 @@ msgstr ""
 "Hierdie lys boks vertoon wat tuistes jy het besluit na aanvaar 'n "
 "sertifikaat van al het die sertifikaat dalk faal die bekragting prosedure."
 
-#: crypto.cpp:787
+#: crypto.cpp:794
 msgid "&Add"
 msgstr "Voeg by"
 
-#: crypto.cpp:800
+#: crypto.cpp:807
 msgid ""
 "These options are not configurable because this module was not linked with "
 "OpenSSL."
@@ -581,79 +558,79 @@ msgstr ""
 "Hierdie opsies word nie konfigureerbaar omdat hierdie module was nie "
 "gekoppel met Openssl."
 
-#: crypto.cpp:812 crypto.cpp:2181 crypto.cpp:2189 crypto.cpp:2193
+#: crypto.cpp:819 crypto.cpp:2188 crypto.cpp:2196 crypto.cpp:2200
 msgid "OpenSSL"
 msgstr "Openssl"
 
-#: crypto.cpp:814
+#: crypto.cpp:821
 msgid "Your Certificates"
 msgstr "Jou Sertifikate"
 
-#: crypto.cpp:815
+#: crypto.cpp:822
 msgid "Authentication"
 msgstr "Geldigheidsverklaring"
 
-#: crypto.cpp:816
+#: crypto.cpp:823
 msgid "Peer SSL Certificates"
 msgstr "Ouer Ssl Sertifikate"
 
-#: crypto.cpp:817
+#: crypto.cpp:824
 msgid "SSL Signers"
 msgstr "Ssl Tekenaars"
 
-#: crypto.cpp:820
+#: crypto.cpp:827
 msgid "Validation Options"
 msgstr "Bekragting Opsies"
 
-#: crypto.cpp:1027
+#: crypto.cpp:1034
 #, fuzzy
 msgid "If you do not select at least one cipher, SSL will not work."
 msgstr "As jy nie ten minste een cipher kies nie, Sslv2 sal nie werk nie."
 
-#: crypto.cpp:1029
+#: crypto.cpp:1036
 #, fuzzy
 msgid "SSL Ciphers"
 msgstr "Sslv2 Versyferaars"
 
-#: crypto.cpp:1247
+#: crypto.cpp:1254
 msgid "Could not open the certificate."
 msgstr "Kon nie die sertifikaat oopmaak nie."
 
-#: crypto.cpp:1277
+#: crypto.cpp:1284
 msgid "Error obtaining the certificate."
 msgstr "Fout verkryging die sertifikaat."
 
-#: crypto.cpp:1294 crypto.cpp:1591
+#: crypto.cpp:1301 crypto.cpp:1598
 msgid "This certificate passed the verification tests successfully."
 msgstr "Hierdie sertifikaat aanstuur die verifiëring toetse suksesvol."
 
-#: crypto.cpp:1296 crypto.cpp:1593
+#: crypto.cpp:1303 crypto.cpp:1600
 msgid "This certificate has failed the tests and should be considered invalid."
 msgstr ""
 "Hierdie sertifikaat het gevaal die toetse en moet wees oorweeg ongeldige."
 
-#: crypto.cpp:1473
+#: crypto.cpp:1480
 #, fuzzy
 msgid "Certificate Password"
 msgstr "Sertifikaat wagwoord"
 
-#: crypto.cpp:1474
+#: crypto.cpp:1481
 msgid "Certificate password"
 msgstr "Sertifikaat wagwoord"
 
-#: crypto.cpp:1481
+#: crypto.cpp:1488
 msgid "The certificate file could not be loaded. Try a different password?"
 msgstr "Die sertifikaat lêer kon nie wees gelaai. Probeer 'n ander wagwoord?"
 
-#: crypto.cpp:1481
+#: crypto.cpp:1488
 msgid "Try"
 msgstr "Probeer"
 
-#: crypto.cpp:1481
+#: crypto.cpp:1488
 msgid "Do Not Try"
 msgstr "Moenie Probeer"
 
-#: crypto.cpp:1499
+#: crypto.cpp:1506
 msgid ""
 "A certificate with that name already exists. Are you sure that you wish to "
 "replace it?"
@@ -661,60 +638,60 @@ msgstr ""
 "'n sertifikaat met wat naam alreeds bestaan. Word jy seker wat jy wens na "
 "vervang dit?"
 
-#: crypto.cpp:1499
+#: crypto.cpp:1506
 msgid "Replace"
 msgstr ""
 
-#: crypto.cpp:1532 crypto.cpp:1567 crypto.cpp:1620
+#: crypto.cpp:1539 crypto.cpp:1574 crypto.cpp:1627
 msgid "Enter the certificate password:"
 msgstr "Invoer die sertifikaat wagwoord:"
 
-#: crypto.cpp:1533 crypto.cpp:1568 crypto.cpp:1621 crypto.cpp:1725
+#: crypto.cpp:1540 crypto.cpp:1575 crypto.cpp:1628 crypto.cpp:1732
 #, qt-format
 msgid "Password For '%1'"
 msgstr ""
 
-#: crypto.cpp:1542 crypto.cpp:1578 crypto.cpp:1631 crypto.cpp:1734
+#: crypto.cpp:1549 crypto.cpp:1585 crypto.cpp:1638 crypto.cpp:1741
 msgid "Decoding failed. Please try again:"
 msgstr "Dekodering gevaal. Asseblief probeer weer:"
 
-#: crypto.cpp:1552
+#: crypto.cpp:1559
 msgid "Export failed."
 msgstr "Voer uit gevaal."
 
-#: crypto.cpp:1724
+#: crypto.cpp:1731
 msgid "Enter the OLD password for the certificate:"
 msgstr "Invoer die Ou wagwoord vir die sertifikaat:"
 
-#: crypto.cpp:1742
+#: crypto.cpp:1749
 msgid "Enter the new certificate password"
 msgstr "Invoer die nuwe sertifikaat wagwoord"
 
-#: crypto.cpp:1794 crypto.cpp:1887
+#: crypto.cpp:1801 crypto.cpp:1894
 msgid "This is not a signer certificate."
 msgstr "Hierdie is nie 'n teken sertifikaat."
 
-#: crypto.cpp:1814 crypto.cpp:1903
+#: crypto.cpp:1821 crypto.cpp:1910
 msgid "You already have this signer certificate installed."
 msgstr "Jy alreeds het hierdie teken sertifikaat geïnstalleer."
 
-#: crypto.cpp:1880
+#: crypto.cpp:1887
 msgid "The certificate file could not be loaded."
 msgstr "Die sertifikaat lêer kon nie wees gelaai."
 
-#: crypto.cpp:1932
+#: crypto.cpp:1939
 msgid "Do you want to make this certificate available to KMail as well?"
 msgstr "Wil jy hierdie sertifikaat beskikbaar na KPos ook?"
 
-#: crypto.cpp:1932
+#: crypto.cpp:1939
 msgid "Make Available"
 msgstr "Nie Beskikbaar"
 
-#: crypto.cpp:1932
+#: crypto.cpp:1939
 msgid "Do Not Make Available"
 msgstr "Moenie beskikbaar Maak nie"
 
-#: crypto.cpp:1935
+#: crypto.cpp:1942
 msgid ""
 "Could not execute Kleopatra. You might have to install or update the kdepim "
 "package."
@@ -722,7 +699,7 @@ msgstr ""
 "Kon nie uitvoer Kleopatra. Dit sal miskien nodig wees om kdepim pakket te "
 "installeer of op te dateer."
 
-#: crypto.cpp:1953
+#: crypto.cpp:1960
 msgid ""
 "This will revert your certificate signers database to the KDE default.\n"
 "This operation cannot be undone.\n"
@@ -733,78 +710,78 @@ msgstr ""
 "Hierdie operasie kan nie wees ondoen.\n"
 "Word jy seker jy wens na gaan voort?"
 
-#: crypto.cpp:1953
+#: crypto.cpp:1960
 msgid "Revert"
 msgstr "SkakelTerug"
 
-#: crypto.cpp:2179 crypto.cpp:2187
+#: crypto.cpp:2186 crypto.cpp:2194
 msgid "Failed to load OpenSSL."
 msgstr "Gevaal na las Openssl."
 
-#: crypto.cpp:2180
+#: crypto.cpp:2187
 msgid "libssl was not found or successfully loaded."
 msgstr "libssl was nie gevind of suksesvol gelaai."
 
-#: crypto.cpp:2188
+#: crypto.cpp:2195
 msgid "libcrypto was not found or successfully loaded."
 msgstr "libcrypto was nie gevind of suksesvol gelaai."
 
-#: crypto.cpp:2193
+#: crypto.cpp:2200
 msgid "OpenSSL was successfully loaded."
 msgstr "Openssl was suksesvol gelaai."
 
-#: crypto.cpp:2212
+#: crypto.cpp:2219
 msgid "Path to entropy file:"
 msgstr "Gids soeklys na entropie lêer:"
 
-#: crypto.cpp:2225
+#: crypto.cpp:2232
 msgid "Personal SSL"
 msgstr "Persoonlike Ssl"
 
-#: crypto.cpp:2226
+#: crypto.cpp:2233
 msgid "Server SSL"
 msgstr "Bediener Ssl"
 
-#: crypto.cpp:2227
+#: crypto.cpp:2234
 msgid "S/MIME"
 msgstr "S/Mime"
 
-#: crypto.cpp:2228
+#: crypto.cpp:2235
 msgid "PGP"
 msgstr "Pgp"
 
-#: crypto.cpp:2229
+#: crypto.cpp:2236
 msgid "GPG"
 msgstr "Gpg"
 
-#: crypto.cpp:2230
+#: crypto.cpp:2237
 msgid "SSL Personal Request"
 msgstr "Ssl Persoonlike Versoek"
 
-#: crypto.cpp:2231
+#: crypto.cpp:2238
 msgid "SSL Server Request"
 msgstr "Ssl Bediener Versoek"
 
-#: crypto.cpp:2232
+#: crypto.cpp:2239
 msgid "Netscape SSL"
 msgstr "Netscape Ssl"
 
-#: crypto.cpp:2233
+#: crypto.cpp:2240
 msgctxt "Server certificate authority"
 msgid "Server CA"
 msgstr "Bediener Ca"
 
-#: crypto.cpp:2234
+#: crypto.cpp:2241
 msgctxt "Personal certificate authority"
 msgid "Personal CA"
 msgstr "Persoonlike Ca"
 
-#: crypto.cpp:2235
+#: crypto.cpp:2242
 msgctxt "Secure MIME certificate authority"
 msgid "S/MIME CA"
 msgstr "S/Mime Ca"
 
-#: crypto.cpp:2296
+#: crypto.cpp:2303
 #, fuzzy
 #| msgid "None"
 msgctxt "No Certificates on List"
@@ -962,6 +939,36 @@ msgstr "frix@expertron.co.za, juanita.franz@vr-web.de "
 #| msgid "Do not send"
 msgid "Don't Send"
 msgstr "Moet nie stuur"
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt>Use these preconfigurations to more easily configure the SSL "
+#~| "encryption settings. You can choose among the following modes: <ul>"
+#~ msgid ""
+#~ "<qt>Use these preconfigurations to more easily configure the SSL "
+#~ "encryption settings. You can choose among the following modes: </qt><ul>"
+#~ msgstr ""
+#~ "<qt>Gebruik hierdie voorinstellings om makliker te konfigureer die Ssl "
+#~ "enkripsie instellings. Jy kan kies tussen dievolgende modusse: <ul>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<li><b>Strong Ciphers Only:</b> Select only the strong (&gt;= 128 bit) "
+#~ "encryption ciphers.</li>"
+#~ msgstr ""
+#~ "<li><b>US Versyferaars Slegs:</b> Kies slegs die Us sterk (&gt;= 128  "
+#~ "bit) enkripsie versyferaars.</li>"
+
+#~ msgid ""
+#~ "<li><b>Export Ciphers Only:</b> Select only the weak ciphers (&lt;= 56 "
+#~ "bit).</li>"
+#~ msgstr ""
+#~ "<li>Voer uit Versyferaars Slegs:</b> Kies slegs die swak versyferaars "
+#~ "(&lt;= 56  bit).</li>"
+
+#~ msgid "<li><b>Enable All:</b> Select all SSL ciphers and methods.</li></ul>"
+#~ msgstr ""
+#~ "<li><b>Kies alle:</b> Kies alle Ssl versyferaars en metodes.</li></ul>"
 
 #~ msgid "kcmcrypto"
 #~ msgstr "kcm-kripto"
