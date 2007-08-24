@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kget VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-23 05:40+0200\n"
+"POT-Creation-Date: 2007-08-24 05:35+0200\n"
 "PO-Revision-Date: 2002-09-27 16:40+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -160,7 +160,7 @@ msgstr "Lêer Grootte nagegaan"
 msgid "Start / Resume"
 msgstr ""
 
-#: mainwindow.cpp:195 core/transfergrouphandler.cpp:320
+#: mainwindow.cpp:195 core/transfergrouphandler.cpp:321
 #, fuzzy
 msgid "Stop"
 msgstr "Spoed"
@@ -180,72 +180,84 @@ msgstr "frix@expertron.co.za"
 msgid "Copy URL to Clipboard"
 msgstr "Kopie Url na Klipbord"
 
-#: mainwindow.cpp:250
+#. i18n: tag string
+#. i18n: file conf/dlgappearance.ui line 37
+#: mainwindow.cpp:219 mainwindow.cpp:288 rc.cpp:27
+#, fuzzy
+msgid "Show drop target"
+msgstr "Laat val Teiken"
+
+#: mainwindow.cpp:220 mainwindow.cpp:289
+#, fuzzy
+msgid "Hide drop target"
+msgstr "Laat val Teiken"
+
+#: mainwindow.cpp:259
 msgid ""
 "This is the first time you have run KGet.\n"
 "Would you like to enable KGet as the download manager for Konqueror?"
 msgstr ""
 
-#: mainwindow.cpp:252
+#: mainwindow.cpp:261
 #, fuzzy
 msgid "Konqueror Integration"
 msgstr "Konqueror Integrasie"
 
-#: mainwindow.cpp:252
+#: mainwindow.cpp:261
 msgid "Enable"
 msgstr ""
 
-#: mainwindow.cpp:253
+#: mainwindow.cpp:262
 msgid "Do Not Enable"
 msgstr ""
 
-#: mainwindow.cpp:284
+#: mainwindow.cpp:303
 msgid "All Openable Files"
 msgstr ""
 
-#: mainwindow.cpp:285
+#: mainwindow.cpp:304
 #, fuzzy
 msgid "Open File"
 msgstr "Open Lêer"
 
-#: mainwindow.cpp:301
+#: mainwindow.cpp:320
 msgid ""
 "Some transfers are still running.\n"
 "Are you sure you want to close KGet?"
 msgstr ""
 
-#: mainwindow.cpp:303
+#: mainwindow.cpp:322
 msgid "Confirm Quit"
 msgstr ""
 
-#: mainwindow.cpp:336
+#: mainwindow.cpp:355
 #, fuzzy
 msgid "KGet Transfer List"
 msgstr "Open oordra:"
 
-#: mainwindow.cpp:338
+#: mainwindow.cpp:357
 #, fuzzy
 msgid "Export Transfers"
 msgstr "Voer uit Oordra Lys..."
 
-#: mainwindow.cpp:361 conf/transfersgroupwidget.cpp:70
+#: mainwindow.cpp:380 conf/transfersgroupwidget.cpp:70
 #, fuzzy
 msgid "Enter Group Name"
 msgstr "WEB-Vertaler (http://kde.af.org.za)"
 
-#: mainwindow.cpp:362 conf/transfersgroupwidget.cpp:71
+#: mainwindow.cpp:381 conf/transfersgroupwidget.cpp:71
 #, fuzzy
 msgid "Group name:"
 msgstr "WEB-Vertaler (http://kde.af.org.za)"
 
-#: mainwindow.cpp:540
+#: mainwindow.cpp:559
 msgid ""
 "KGet has been temporarily disabled as download manager for Konqueror. If you "
 "want to disable it forever, go to Settings->Advanced and disable \"Use as "
 "download manager for Konqueror\"."
 msgstr ""
 
-#: mainwindow.cpp:543
+#: mainwindow.cpp:562
 #, fuzzy
 msgid "Konqueror Integration disabled"
 msgstr "Konqueror Integrasie"
@@ -302,13 +314,6 @@ msgstr ""
 #| msgid "Drop target"
 msgid "Drop Target"
 msgstr "Laat val teiken"
-
-#. i18n: tag string
-#. i18n: file conf/dlgappearance.ui line 37
-#: rc.cpp:27
-#, fuzzy
-msgid "Show drop target"
-msgstr "Laat val Teiken"
 
 #. i18n: tag string
 #. i18n: file conf/dlgappearance.ui line 44
@@ -538,7 +543,6 @@ msgid "Folder and extension can not be empty."
 msgstr ""
 
 #: conf/dlgdirectories.cpp:120 core/kget.cpp:416 core/kget.cpp:636
-#: core/kget.cpp:663
 msgid "Error"
 msgstr ""
 
@@ -599,6 +603,7 @@ msgid ""
 msgstr ""
 
 #: conf/transfersgroupwidget.cpp:99 core/kget.cpp:481
+#: core/transfergrouphandler.cpp:186
 #, fuzzy
 msgid "My Downloads"
 msgstr "Aflaai hervat"
@@ -670,16 +675,7 @@ msgstr ""
 msgid "Download URL again?"
 msgstr "Aflaai klaar gemaak"
 
-#: core/kget.cpp:662
-#, qt-format
-msgid ""
-"Already saving URL\n"
-"%1"
-msgstr ""
-"Alreeds stooring Url\n"
-"%1"
-
-#: core/kget.cpp:681
+#: core/kget.cpp:678
 #, fuzzy, qt-format
 msgid ""
 "Destination file \n"
@@ -690,14 +686,14 @@ msgstr ""
 "Bestemming lêer alreeds bestaan\n"
 " doen jy wil hê na oorskryf?"
 
-#: core/kget.cpp:809
+#: core/kget.cpp:806
 #, qt-format
 msgid ""
 "<p>KLibLoader could not load the plugin:<br/><i>%1</i></p><p>Error message:"
 "<br/><i>%2</i></p>"
 msgstr ""
 
-#: core/kget.cpp:834
+#: core/kget.cpp:831
 #, qt-format
 msgid ""
 "Not deleting\n"
@@ -705,12 +701,12 @@ msgid ""
 "as it is a directory."
 msgstr ""
 
-#: core/kget.cpp:836 core/kget.cpp:847
+#: core/kget.cpp:833 core/kget.cpp:844
 #, fuzzy
 msgid "Not Deleted"
 msgstr "Lêer Grootte nagegaan"
 
-#: core/kget.cpp:845
+#: core/kget.cpp:842
 #, qt-format
 msgid ""
 "Not deleting\n"
@@ -749,7 +745,7 @@ msgstr "Gestol"
 msgid "%1/s"
 msgstr "%1/s"
 
-#: core/transfergrouphandler.cpp:314
+#: core/transfergrouphandler.cpp:315
 #, fuzzy
 msgid "Start"
 msgstr "Herbegin"
@@ -852,6 +848,13 @@ msgstr "Aflaai hervat"
 #, fuzzy
 msgid "Transfer details:"
 msgstr " Oordragte: %1 "
+
+#~ msgid ""
+#~ "Already saving URL\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Alreeds stooring Url\n"
+#~ "%1"
 
 #, fuzzy
 #~ msgid "Default folder:"
