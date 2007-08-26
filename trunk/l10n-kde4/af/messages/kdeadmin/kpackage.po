@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-25 05:35+0200\n"
+"POT-Creation-Date: 2007-08-26 05:32+0200\n"
 "PO-Revision-Date: 2002-11-07 11:26+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -15,62 +15,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: debInterface.cpp:61
+#: debInterface.cpp:61 rpmInterface.cpp:53
 msgid "Download only"
 msgstr "Aflaai slegs"
 
-#: debInterface.cpp:303
+#: debInterface.cpp:270
 msgid "&Apt-File Update"
 msgstr ""
 
-#: debInterface.cpp:323
+#: debInterface.cpp:290
 #, fuzzy, qt-format
 msgid "The %1 program needs to be installed"
 msgstr "%1 kan nie wees geïnstalleer"
 
-#: findf.cpp:56
+#: findf.cpp:55
 msgid "Find File"
 msgstr "Soek Lêer"
 
-#: findf.cpp:59 search.cpp:46
+#: findf.cpp:58 search.cpp:46
 msgid "&Find"
 msgstr "Soek"
 
-#: findf.cpp:70 search.cpp:43 search.cpp:54
+#: findf.cpp:69 search.cpp:43 search.cpp:54
 msgid "Find Package"
 msgstr "Soek Paket"
 
-#: findf.cpp:84
+#: findf.cpp:83
 msgid "Find:"
 msgstr "Soek:"
 
-#: findf.cpp:91
+#: findf.cpp:90
 msgid "Installed"
 msgstr "Geïnstalleer"
 
-#: findf.cpp:93 kplview.cpp:59
+#: findf.cpp:92 kplview.cpp:59
 msgid "Package"
 msgstr "Paket"
 
-#: findf.cpp:94
+#: findf.cpp:93
 msgid "File Name"
 msgstr "Lêer Naam"
 
-#: findf.cpp:99
+#: findf.cpp:98
 #, fuzzy
 msgid "Also search uninstalled packages"
 msgstr "Navraag in Rpm databasis vir geïnstalleer pakette"
 
-#: findf.cpp:102
+#: findf.cpp:101
 #, fuzzy
 msgid "Also search uninstalled packages (apt-file needs to be installed)"
 msgstr "Navraag in Rpm databasis vir geïnstalleer pakette"
 
-#: findf.cpp:179
+#: findf.cpp:180
 msgid "--Nothing found--"
 msgstr "--Nothing found--"
 
-#: findf.cpp:229
+#: findf.cpp:230
 msgid "Incorrect URL type"
 msgstr "Verkeerd Url tipe"
 
@@ -185,27 +185,27 @@ msgstr "Weergawe"
 msgid "Old Version"
 msgstr "Ou Weergawe"
 
-#: main.cpp:50
+#: main.cpp:51
 msgid "KDE Package installer"
 msgstr "Kde Paket installeerder"
 
-#: main.cpp:66
+#: main.cpp:67
 msgid "KPackage"
 msgstr "Kpackage"
 
-#: main.cpp:69
+#: main.cpp:70
 msgid "(c) 1999-2001, Toivo Pedaste"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:72
 msgid "Toivo Pedaste"
 msgstr ""
 
-#: main.cpp:74
+#: main.cpp:75
 msgid "Remote host for Debian APT, via SSH"
 msgstr "Afgeleë bediener vir Debian  apt , deur middel van Ssh"
 
-#: main.cpp:76
+#: main.cpp:77
 msgid "Package to install"
 msgstr "Paket na installeer"
 
@@ -283,11 +283,6 @@ msgstr "Afgeleë Bediener"
 #: options.cpp:77
 msgid "Use remote host (Debian APT only):"
 msgstr "Gebruik afgeleë bediener (Debian  apt  slegs):"
-
-#: options.cpp:94
-#, fuzzy, qt-format
-msgid "%1 not found"
-msgstr "%1 was nie gevind"
 
 #: options.cpp:98
 msgid "Enable"
@@ -734,6 +729,10 @@ msgstr "Nota"
 #, fuzzy, qt-format
 msgid "%1 was not found."
 msgstr "%1 was nie gevind"
+
+#, fuzzy
+#~ msgid "%1 not found"
+#~ msgstr "%1 was nie gevind"
 
 #~ msgid "Fetch"
 #~ msgstr "Gaan haal"
