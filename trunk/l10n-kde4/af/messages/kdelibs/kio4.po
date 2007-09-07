@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-06 05:36+0200\n"
+"POT-Creation-Date: 2007-09-07 05:32+0200\n"
 "PO-Revision-Date: 2005-11-25 05:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -4494,7 +4494,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 122
-#: rc.cpp:162 ../kfile/kfileplaceeditdialog.cpp:102
+#: rc.cpp:162 ../kfile/kfileplaceeditdialog.cpp:99
 msgid "&Description:"
 msgstr "Beskrywing:"
 
@@ -4687,7 +4687,7 @@ msgstr "Maak gids in boekmerk redigeerder oop"
 msgid "Delete Folder"
 msgstr "Vee Gids Uit"
 
-#: bookmarks/kbookmarkmenu.cc:263 ../kfile/kdiroperator.cpp:1713
+#: bookmarks/kbookmarkmenu.cc:263 ../kfile/kdiroperator.cpp:1591
 #, fuzzy
 msgid "Properties"
 msgstr "Eienskappe vir %1"
@@ -4815,9 +4815,9 @@ msgstr ""
 msgid "Select Folder"
 msgstr "Kies Gids"
 
-#: bookmarks/kbookmarkdialog.cc:128 ../kfile/kdirselectdialog.cpp:428
-#: ../kfile/kdirselectdialog.cpp:432 ../kfile/kdiroperator.cpp:671
-#: ../kfile/kdiroperator.cpp:679
+#: bookmarks/kbookmarkdialog.cc:128 ../kfile/kdirselectdialog.cpp:429
+#: ../kfile/kdirselectdialog.cpp:433 ../kfile/kdiroperator.cpp:607
+#: ../kfile/kdiroperator.cpp:615
 msgid "New Folder"
 msgstr "Nuwe Gids"
 
@@ -5415,7 +5415,7 @@ msgstr ""
 msgid "&Remove '%1'"
 msgstr "Verwyder Inskrywing"
 
-#: ../kfile/k3filedetailview.cpp:63 ../kfile/kdiroperator.cpp:1686
+#: ../kfile/k3filedetailview.cpp:63 ../kfile/kdiroperator.cpp:1572
 msgid "Detailed View"
 msgstr "Gedetaileerde Aansig"
 
@@ -5524,7 +5524,9 @@ msgid "Click this button to create a new folder."
 msgstr "Kliek op hierdie knoppie om 'n nuwe gids te skep."
 
 #: ../kfile/kfilewidget.cpp:306
-msgid "Show Quick Access Navigation Panel"
+#, fuzzy
+#| msgid "Show Quick Access Navigation Panel"
+msgid "Show Places Navigation Panel"
 msgstr "Vertoon Vinnige Toegang verkry Navigering Paneel"
 
 #: ../kfile/kfilewidget.cpp:313
@@ -5533,16 +5535,24 @@ msgstr "Vertoon Boekmerke"
 
 #: ../kfile/kfilewidget.cpp:318
 #, fuzzy
-msgid "Configure"
-msgstr "Gaan voort"
+#| msgid "Operation"
+msgid "Options"
+msgstr "Operasie"
 
 #: ../kfile/kfilewidget.cpp:320
+#, fuzzy
+#| msgid ""
+#| "<qt>This is the configuration menu for the file dialog. Various options "
+#| "can be accessed from this menu including: <ul><li>how files are sorted in "
+#| "the list</li><li>types of view, including icon and list</li><li>showing "
+#| "of hidden files</li><li>the Quick Access navigation panel</li><li>file "
+#| "previews</li><li>separating folders from files</li></ul></qt>"
 msgid ""
-"<qt>This is the configuration menu for the file dialog. Various options can "
-"be accessed from this menu including: <ul><li>how files are sorted in the "
-"list</li><li>types of view, including icon and list</li><li>showing of "
-"hidden files</li><li>the Quick Access navigation panel</li><li>file "
-"previews</li><li>separating folders from files</li></ul></qt>"
+"<qt>This is the preferences menu for the file dialog. Various options can be "
+"accessed from this menu including: <ul><li>how files are sorted in the list</"
+"li><li>types of view, including icon and list</li><li>showing of hidden "
+"files</li><li>the Places navigation panel</li><li>file previews</"
+"li><li>separating folders from files</li></ul></qt>"
 msgstr ""
 "<qt>Hierdie is die opstel kieslys vir die lêer dialoog. Verskeie opsies kan "
 "van hier af gestel word, insluitend: <ul><li>hoe lêers in die lys gesorteer "
@@ -5550,7 +5560,7 @@ msgstr ""
 "van weg gesteekte lêers</li><li>die Vinnige Toegang navigesie paneel</"
 "li><li>lêer voorskoue</li><li>skei van lêer en gids name</li></ul></qt>"
 
-#: ../kfile/kfilewidget.cpp:364
+#: ../kfile/kfilewidget.cpp:364 ../kfile/kfileplaceeditdialog.cpp:110
 msgid "&Location:"
 msgstr "Ligging:"
 
@@ -5791,20 +5801,20 @@ msgstr "'n onverwagte fout (%1) voorgekom terwyl probeer na %2."
 msgid "Custom Path"
 msgstr ""
 
-#: ../kfile/kdirselectdialog.cpp:104 ../kfile/kdirselectdialog.cpp:142
-#: ../kfile/kdiroperator.cpp:1629
+#: ../kfile/kdirselectdialog.cpp:104 ../kfile/kdirselectdialog.cpp:143
+#: ../kfile/kdiroperator.cpp:1520
 msgid "New Folder..."
 msgstr "Nuwe Gids..."
 
-#: ../kfile/kdirselectdialog.cpp:126
+#: ../kfile/kdirselectdialog.cpp:127
 msgid "Folders"
 msgstr "Gidse"
 
-#: ../kfile/kdirselectdialog.cpp:148
+#: ../kfile/kdirselectdialog.cpp:149
 msgid "Show Hidden Folders"
 msgstr "Vertoon weg gesteekte gidse"
 
-#: ../kfile/kdirselectdialog.cpp:433 ../kfile/kdiroperator.cpp:680
+#: ../kfile/kdirselectdialog.cpp:434 ../kfile/kdiroperator.cpp:616
 #, qt-format
 msgid ""
 "Create new folder in:\n"
@@ -5813,47 +5823,37 @@ msgstr ""
 "Skep nuwe gids in:\n"
 "%1"
 
-#: ../kfile/kdirselectdialog.cpp:456 ../kfile/kdiroperator.cpp:706
+#: ../kfile/kdirselectdialog.cpp:457 ../kfile/kdiroperator.cpp:642
 #, qt-format
 msgid "A file or folder named %1 already exists."
 msgstr "'n Lêer of gids met die naam: %1 bestaan alreeds."
 
-#: ../kfile/kdirselectdialog.cpp:460 ../kfile/kdiroperator.cpp:709
+#: ../kfile/kdirselectdialog.cpp:461 ../kfile/kdiroperator.cpp:645
 msgid "You do not have permission to create that folder."
 msgstr "Jy het nie die regte om hieride gids te skep nie."
 
 #: ../kfile/kfileplaceeditdialog.cpp:85
-msgid "Edit Quick Access Entry"
-msgstr "Redigeer Vinnige Toegang verkry Inskrywing"
-
-#: ../kfile/kfileplaceeditdialog.cpp:91
 #, fuzzy
-#| msgid ""
-#| "<qt><b>Please provide a description, URL and icon for this Quick Access "
-#| "entry.</b></br></qt>"
-msgid ""
-"<qt><b>Please provide a description, URL and icon for this Quick Access "
-"entry.</b><br /></qt>"
-msgstr ""
-"<qt><b>Asseblief verskaf 'n beskrywing, Url en ikoon vir hierdie Vinnige "
-"Toegang verkry inskrywing.</b></br></qt>"
+#| msgid "Edit ACL Entry"
+msgid "Edit Places Entry"
+msgstr "Redigeer ACL Inskrywing"
 
-#: ../kfile/kfileplaceeditdialog.cpp:99
+#: ../kfile/kfileplaceeditdialog.cpp:96
 #, fuzzy
 #| msgid ""
 #| "<qt>This is the text that will appear in the Quick Access panel.<p>The "
 #| "description should consist of one or two words that will help you "
 #| "remember what this entry refers to.</qt>"
 msgid ""
-"<qt>This is the text that will appear in the Quick Access panel.<br /><br /"
-">The description should consist of one or two words that will help you "
-"remember what this entry refers to.</qt>"
+"<qt>This is the text that will appear in the Places panel.<br /><br />The "
+"description should consist of one or two words that will help you remember "
+"what this entry refers to.</qt>"
 msgstr ""
 "<qt>Hierdie is die teks wat sal verskyn in die Vinnige Toegang verkry paneel."
 "<p>die beskrywing moet bestaan van een of twee woorde wat sal hulp jy onthou "
 "wat Hierdie inskrywing verwys na.</qt>"
 
-#: ../kfile/kfileplaceeditdialog.cpp:109
+#: ../kfile/kfileplaceeditdialog.cpp:106
 #, fuzzy, qt-format
 #| msgid ""
 #| "<qt>This is the location associated with the entry. Any valid URL may be "
@@ -5871,32 +5871,28 @@ msgstr ""
 "kde.org/pub/kde/stable<p>As jy op die knoppie langs die teks redigeer boks "
 "druk kan jy blaai na die URL van jou keuse.</qt>"
 
-#: ../kfile/kfileplaceeditdialog.cpp:113
-msgid "&URL:"
-msgstr "URL:"
-
-#: ../kfile/kfileplaceeditdialog.cpp:120
+#: ../kfile/kfileplaceeditdialog.cpp:117
 #, fuzzy
 #| msgid ""
 #| "<qt>This is the icon that will appear in the Quick Access panel.<p>Click "
 #| "on the button to select a different icon.</qt>"
 msgid ""
-"<qt>This is the icon that will appear in the Quick Access panel.<br /><br /"
-">Click on the button to select a different icon.</qt>"
+"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
+"on the button to select a different icon.</qt>"
 msgstr ""
 "<qt>Hierdie is die ikoon wat sal verskyn in die Vinnige Toegang verkry "
 "paneel.<p>Kliek op die knoppie na kies 'n ander ikoon.</qt>"
 
-#: ../kfile/kfileplaceeditdialog.cpp:122
+#: ../kfile/kfileplaceeditdialog.cpp:119
 msgid "Choose an &icon:"
 msgstr "Kies 'n ikoon:"
 
-#: ../kfile/kfileplaceeditdialog.cpp:140
+#: ../kfile/kfileplaceeditdialog.cpp:137
 #, qt-format
 msgid "&Only show when using this application (%1)"
 msgstr "Slegs vertoon wanneer te gebruik hierdie aansoek (%1)"
 
-#: ../kfile/kfileplaceeditdialog.cpp:142
+#: ../kfile/kfileplaceeditdialog.cpp:139
 #, fuzzy, qt-format
 #| msgid ""
 #| "<qt>Select this setting if you want this entry to show only when using "
@@ -5911,15 +5907,15 @@ msgstr ""
 "wanneer te gebruik die huidige aansoek (%1).<p>as hierdie opset is nie "
 "gekose, die inskrywing sal wees beskikbaar in alle programme.</qt>"
 
-#: ../kfile/kdiroperator.cpp:730
+#: ../kfile/kdiroperator.cpp:666
 msgid "You did not select a file to delete."
 msgstr "Jy het nie 'n lêer gekies om uit te vee nie."
 
-#: ../kfile/kdiroperator.cpp:731
+#: ../kfile/kdiroperator.cpp:667
 msgid "Nothing to Delete"
 msgstr "Niks om uit te vee nie"
 
-#: ../kfile/kdiroperator.cpp:745
+#: ../kfile/kdiroperator.cpp:681
 #, qt-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -5929,30 +5925,30 @@ msgstr ""
 "<b>'%1'</b>\n"
 "uitvee?</qt>"
 
-#: ../kfile/kdiroperator.cpp:747
+#: ../kfile/kdiroperator.cpp:683
 msgid "Delete File"
 msgstr "Vee Lêer Uit"
 
-#: ../kfile/kdiroperator.cpp:752
+#: ../kfile/kdiroperator.cpp:688
 #, fuzzy, qt-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "Wil jy rerig hierdie item uitvee?"
 msgstr[1] "Wil jy rerig hierdie %1 items uitvee?"
 
-#: ../kfile/kdiroperator.cpp:754
+#: ../kfile/kdiroperator.cpp:690
 msgid "Delete Files"
 msgstr "Vee Lêers Uit"
 
-#: ../kfile/kdiroperator.cpp:787
+#: ../kfile/kdiroperator.cpp:723
 msgid "You did not select a file to trash."
 msgstr "Jy het nie 'n lêer gekies om weg te gooi nie."
 
-#: ../kfile/kdiroperator.cpp:788
+#: ../kfile/kdiroperator.cpp:724
 msgid "Nothing to Trash"
 msgstr "Niks om uit te vee nie"
 
-#: ../kfile/kdiroperator.cpp:802
+#: ../kfile/kdiroperator.cpp:738
 #, qt-format
 msgid ""
 "<qt>Do you really want to trash\n"
@@ -5962,99 +5958,99 @@ msgstr ""
 "<b>'%1'</b>\n"
 "uitvee?</qt>"
 
-#: ../kfile/kdiroperator.cpp:804
+#: ../kfile/kdiroperator.cpp:740
 msgid "Trash File"
 msgstr "Vee Lêer Uit"
 
-#: ../kfile/kdiroperator.cpp:805 ../kfile/kdiroperator.cpp:812
+#: ../kfile/kdiroperator.cpp:741 ../kfile/kdiroperator.cpp:748
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "Gemors"
 
-#: ../kfile/kdiroperator.cpp:809
+#: ../kfile/kdiroperator.cpp:745
 #, fuzzy, qt-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] "Wil jy rerig hierdie item uitvee?"
 msgstr[1] "Wil jy rerig hierdie %1 items uitvee?"
 
-#: ../kfile/kdiroperator.cpp:811
+#: ../kfile/kdiroperator.cpp:747
 msgid "Trash Files"
 msgstr "Vee Lêers Uit"
 
-#: ../kfile/kdiroperator.cpp:932 ../kfile/kdiroperator.cpp:1022
+#: ../kfile/kdiroperator.cpp:868 ../kfile/kdiroperator.cpp:958
 msgid "The specified folder does not exist or was not readable."
 msgstr "Die gespesifiseer gids bestaan nie of is nie leesbaar nie."
 
-#: ../kfile/kdiroperator.cpp:1612
+#: ../kfile/kdiroperator.cpp:1503
 msgid "Menu"
 msgstr "Kieslys"
 
-#: ../kfile/kdiroperator.cpp:1616
+#: ../kfile/kdiroperator.cpp:1507
 msgid "Parent Folder"
 msgstr "Ouer Gids"
 
-#: ../kfile/kdiroperator.cpp:1623
+#: ../kfile/kdiroperator.cpp:1514
 msgid "Home Folder"
 msgstr "Tuis Gids"
 
-#: ../kfile/kdiroperator.cpp:1626
+#: ../kfile/kdiroperator.cpp:1517
 #, fuzzy
 msgid "Reload"
 msgstr "Lees"
 
-#: ../kfile/kdiroperator.cpp:1634
+#: ../kfile/kdiroperator.cpp:1525
 msgid "Move to Trash"
 msgstr "Beweeg na die Asblik"
 
-#: ../kfile/kdiroperator.cpp:1640
+#: ../kfile/kdiroperator.cpp:1531
 #, fuzzy
 msgid "Delete"
 msgstr "Uitveeïng"
 
-#: ../kfile/kdiroperator.cpp:1647
+#: ../kfile/kdiroperator.cpp:1538
 msgid "Sorting"
 msgstr "Sortering"
 
-#: ../kfile/kdiroperator.cpp:1650
+#: ../kfile/kdiroperator.cpp:1541
 msgid "By Name"
 msgstr "Volgens Naam"
 
-#: ../kfile/kdiroperator.cpp:1654
+#: ../kfile/kdiroperator.cpp:1545
 msgid "By Date"
 msgstr "Volgens Datum"
 
-#: ../kfile/kdiroperator.cpp:1658
+#: ../kfile/kdiroperator.cpp:1549
 msgid "By Size"
 msgstr "Volgens Grootte"
 
-#: ../kfile/kdiroperator.cpp:1662
+#: ../kfile/kdiroperator.cpp:1553
 #, fuzzy
 #| msgid "Type"
 msgid "By Type"
 msgstr "Tipe"
 
-#: ../kfile/kdiroperator.cpp:1666
+#: ../kfile/kdiroperator.cpp:1557
 #, fuzzy
 msgid "Descending"
 msgstr " (Uitveeïng)"
 
-#: ../kfile/kdiroperator.cpp:1677
-#, fuzzy
-msgid "&View"
-msgstr "Voorskou"
-
-#: ../kfile/kdiroperator.cpp:1681
+#: ../kfile/kdiroperator.cpp:1567
 msgid "Short View"
 msgstr "Kort Aansig"
 
-#: ../kfile/kdiroperator.cpp:1695
+#: ../kfile/kdiroperator.cpp:1581
 msgid "Show Hidden Files"
 msgstr "Vertoon weg gesteekte Lêers"
 
-#: ../kfile/kdiroperator.cpp:1703
+#: ../kfile/kdiroperator.cpp:1585
 msgid "Show Preview"
 msgstr "Vertoon Voorskou"
+
+#: ../kfile/kdiroperator.cpp:1597
+#, fuzzy
+msgid "&View"
+msgstr "Voorskou"
 
 #: ../kfile/kurltogglebutton.cpp:81
 msgid "Click for Location Navigation"
@@ -6084,6 +6080,27 @@ msgstr "Redigeer..."
 #: ../kfile/kurlbutton.cpp:100
 msgid "Navigate"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Configure"
+#~ msgstr "Gaan voort"
+
+#~ msgid "Edit Quick Access Entry"
+#~ msgstr "Redigeer Vinnige Toegang verkry Inskrywing"
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt><b>Please provide a description, URL and icon for this Quick Access "
+#~| "entry.</b></br></qt>"
+#~ msgid ""
+#~ "<qt><b>Please provide a description, URL and icon for this Quick Access "
+#~ "entry.</b><br /></qt>"
+#~ msgstr ""
+#~ "<qt><b>Asseblief verskaf 'n beskrywing, Url en ikoon vir hierdie Vinnige "
+#~ "Toegang verkry inskrywing.</b></br></qt>"
+
+#~ msgid "&URL:"
+#~ msgstr "URL:"
 
 #~ msgid "Reverse"
 #~ msgstr "Omgekeer"
@@ -6649,9 +6666,6 @@ msgstr ""
 
 #~ msgid "Local Filename"
 #~ msgstr "Plaaslike Lêernaam"
-
-#~ msgid "Operation"
-#~ msgstr "Operasie"
 
 #~ msgid "%1 / %2"
 #~ msgstr "%1 / %2"
