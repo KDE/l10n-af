@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-16 05:38+0200\n"
+"POT-Creation-Date: 2007-09-18 05:42+0200\n"
 "PO-Revision-Date: 2002-11-07 11:32+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -89,7 +89,7 @@ msgstr ""
 "*.uitleg|Bord uitleg (*.uitleg)\n"
 "*|Alle lêers"
 
-#: Editor.cpp:310 Preview.cpp:191
+#: Editor.cpp:310
 msgid "Open Board Layout"
 msgstr "Open Bord Uitleg"
 
@@ -97,11 +97,11 @@ msgstr "Open Bord Uitleg"
 msgid "Save Board Layout"
 msgstr "Stoor Bord Uitleg"
 
-#: Editor.cpp:349 Preview.cpp:427 kmahjongg.cpp:597
+#: Editor.cpp:349 kmahjongg.cpp:568
 msgid "Only saving to local files currently supported."
 msgstr "Slegs stooring na plaaslike lêers huidiglik ondersteunde."
 
-#: Editor.cpp:358 Preview.cpp:438
+#: Editor.cpp:358
 #, fuzzy
 msgid "A file with that name already exists. Do you wish to overwrite it?"
 msgstr "'n lêer met wat naam alreeds bestaan, doen jy wens na oorskryf dit?"
@@ -115,241 +115,152 @@ msgstr "Die bord het al veranderde, sal jy daarvan hou na stoor Die verander?"
 msgid "Save failed. Aborting operation."
 msgstr "Stoor gevaal. Gaan staak operasie."
 
-#: Preview.cpp:54
-#, fuzzy
-msgid "Load..."
-msgstr "Las"
-
-#: Preview.cpp:111
-msgid "Change Background Image"
-msgstr "Verander Agtergrond Beeld"
-
-#: Preview.cpp:113
-#, fuzzy
-msgid "*.bgnd|Background Image (*.bgnd)\n"
-msgstr ""
-"*.bgnd|Agtergrond Beeld\n"
-"*.bmp|Vensters biskaart lêer (*.bmp)\n"
-
-#: Preview.cpp:119
-msgid "Change Tile Set"
-msgstr "Verander Teël Stel"
-
-#: Preview.cpp:120
-#, fuzzy
-msgid "*.tileset|Tile Set File (*.tileset)\n"
-msgstr "*.teëlstel|Teël stel lêer\n"
-
-#: Preview.cpp:126
-#, fuzzy
-msgid "*.layout|Board Layout File (*.layout)\n"
-msgstr "*.uitleg|Bord uitleg lêer\n"
-
-#: Preview.cpp:127
-msgid "Change Board Layout"
-msgstr "Verander Bord Uitleg"
-
-#: Preview.cpp:133
-#, fuzzy
-msgid "*.theme|KMahjongg Theme File (*.theme)\n"
-msgstr "*.tema|Kmahjong tema\n"
-
-#: Preview.cpp:134
-msgid "Choose Theme"
-msgstr "Kies Tema"
-
-#: Preview.cpp:146
-#, fuzzy
-msgid "*|All Files"
-msgstr "*|Alle lêers\n"
-
-#: Preview.cpp:240
-#, fuzzy
-msgid "That is not a valid theme file."
-msgstr "Dit is nie 'n geldige tema lêer."
-
-#: Preview.cpp:421
-msgid "Save Theme"
-msgstr "Stoor Tema"
-
-#: Preview.cpp:440
-msgid "Overwrite"
-msgstr ""
-
-#: Preview.cpp:447
-msgid "Could not write to file. Aborting."
-msgstr "Kon nie skryf na lêer. Gaan staak."
-
-#: boardwidget.cpp:68 boardwidget.cpp:122
-#, fuzzy, qt-format
-msgid ""
-"An error occurred when loading the board layout %1\n"
-"KMahjongg will continue with the default layout."
-msgstr ""
-"'n fout voorgekom wanneer laaiïng van die bord uitleg %1\n"
-"Kmahjong sal nou termineer"
-
-#: boardwidget.cpp:174
-#, qt-format
-msgid ""
-"KMahjongg could not locate the file: %1\n"
-"or the default file of type: %2\n"
-"KMahjongg will now terminate"
-msgstr ""
-"Kmahjong kon nie opspoor die lêer: %1\n"
-"van die verstek lêer van tipe: %2\n"
-"Kmahjong sal nou termineer"
-
-#: boardwidget.cpp:639
+#: boardwidget.cpp:601
 msgid "Undo operation done successfully."
 msgstr "Herstel operasie klaar suksesvol."
 
-#: boardwidget.cpp:643
+#: boardwidget.cpp:605
 msgid "What do you want to undo? You have done nothing!"
 msgstr "Wat doen jy wil hê na herstel? jy het klaar niks!"
 
-#: boardwidget.cpp:662
+#: boardwidget.cpp:624
 msgid "Sorry, you have lost the game."
 msgstr "Jammer, jy het verloor die speletjie."
 
-#: boardwidget.cpp:707
+#: boardwidget.cpp:669
 msgid "Demo mode. Click mousebutton to stop."
 msgstr "Demo modus. Kliek muisknoppie na stop."
 
-#: boardwidget.cpp:716
+#: boardwidget.cpp:678
 #, fuzzy
 msgid "Now it is you again."
 msgstr "Nou dit is jy weer."
 
-#: boardwidget.cpp:739
+#: boardwidget.cpp:701
 msgid "Your computer has lost the game."
 msgstr "Jou rekenaar het verloor die speletjie."
 
-#: boardwidget.cpp:834
+#: boardwidget.cpp:796
 msgid "Congratulations. You have won!"
 msgstr "Baie geluk. Jy het wen!"
 
-#: boardwidget.cpp:903
+#: boardwidget.cpp:865
 msgid "Calculating new game..."
 msgstr "Besig om te bereken nuwe speletjie..."
 
-#: boardwidget.cpp:908
+#: boardwidget.cpp:870
 msgid "Error converting board information!"
 msgstr "Fout omskakeling van bord informasie!"
 
-#: boardwidget.cpp:935
+#: boardwidget.cpp:897
 #, fuzzy
 msgid "Ready. Now it is your turn."
 msgstr "Gereed. Nou dit is jou skakel."
 
-#: boardwidget.cpp:942
+#: boardwidget.cpp:904
 msgid "Error generating new game!"
 msgstr "Fout genereer nuwe speletjie!"
 
-#: boardwidget.cpp:1099
+#: boardwidget.cpp:1061
 #, fuzzy
 msgid "Game over: You have no moves left."
 msgstr "Speletjie bo: Jy het nee skuiwe links"
 
-#: kmahjongg.cpp:173
+#: kmahjongg.cpp:154
 msgid "New Numbered Game..."
 msgstr "Nuwe Genommerde Speletjie..."
 
-#: kmahjongg.cpp:177
-msgid "Open La&yout..."
-msgstr "Open Uitleg..."
-
-#: kmahjongg.cpp:184
+#: kmahjongg.cpp:161
 msgid "Shu&ffle"
 msgstr "Skommel"
 
-#: kmahjongg.cpp:188
+#: kmahjongg.cpp:165
 msgid "Rotate View Counter Clockwise"
 msgstr ""
 
-#: kmahjongg.cpp:192
+#: kmahjongg.cpp:169
 msgid "Rotate View Clockwise"
 msgstr ""
 
-#: kmahjongg.cpp:208
+#: kmahjongg.cpp:185
 #, fuzzy
 msgid "&Board Editor"
 msgstr "Bord Redigeerder"
 
-#: kmahjongg.cpp:220
+#: kmahjongg.cpp:197
 msgid "Removed: 0000/0000"
 msgstr ""
 
-#: kmahjongg.cpp:227
+#: kmahjongg.cpp:204
 msgid "Game: 000000000000000000000"
 msgstr ""
 
-#: kmahjongg.cpp:241
+#: kmahjongg.cpp:218
 msgid "Time: 0:00:00"
 msgstr ""
 
-#: kmahjongg.cpp:247
+#: kmahjongg.cpp:224
 #, fuzzy
 msgid "Time: "
 msgstr "Tyd"
 
-#: kmahjongg.cpp:265
+#: kmahjongg.cpp:242
 #, fuzzy
 msgid "New Game"
 msgstr "Stoor Speletjie"
 
-#: kmahjongg.cpp:265
+#: kmahjongg.cpp:242
 msgid "Enter game number:"
 msgstr "Invoer speletjie nommer:"
 
-#: kmahjongg.cpp:295
+#: kmahjongg.cpp:272
 msgid "General"
 msgstr ""
 
-#: kmahjongg.cpp:296
+#: kmahjongg.cpp:273
 #, fuzzy
 #| msgid "Edit Board Layout"
 msgid "Board layout"
 msgstr "Redigeer Bord Uitleg"
 
-#: kmahjongg.cpp:399
+#: kmahjongg.cpp:370
 #, fuzzy
 msgid "You have won!"
 msgstr "Speletjie bo: Jy het wen!"
 
-#: kmahjongg.cpp:440
+#: kmahjongg.cpp:411
 #, qt-format
 msgid "Game number: %1"
 msgstr "Speletjie nommer: %1"
 
-#: kmahjongg.cpp:450
+#: kmahjongg.cpp:421
 #, fuzzy, qt-format
 msgid "Removed: %1/%2  Combinations left: %3"
 msgstr "Verwyder: %1/%2"
 
-#: kmahjongg.cpp:516
+#: kmahjongg.cpp:487
 msgid "Load Game"
 msgstr "Las Speletjie"
 
-#: kmahjongg.cpp:528
+#: kmahjongg.cpp:499
 msgid "Could not read from file. Aborting."
 msgstr "Kon nie lees van lêer. Gaan staak."
 
-#: kmahjongg.cpp:538
+#: kmahjongg.cpp:509
 msgid "File is not a KMahjongg game."
 msgstr ""
 
-#: kmahjongg.cpp:551
+#: kmahjongg.cpp:522
 msgid "File format not recognized."
 msgstr "Lêer formaat nie herken."
 
-#: kmahjongg.cpp:588
+#: kmahjongg.cpp:559
 #, fuzzy
 #| msgid "Save Theme"
 msgid "Save Game"
 msgstr "Stoor Tema"
 
-#: kmahjongg.cpp:605
+#: kmahjongg.cpp:576
 #, fuzzy
 #| msgid "Could not write to file. Aborting."
 msgid "Could not write saved game."
@@ -576,6 +487,74 @@ msgstr "WEB-Vertaler (http://kde.af.org.za)"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za"
+
+#, fuzzy
+#~ msgid "Load..."
+#~ msgstr "Las"
+
+#~ msgid "Change Background Image"
+#~ msgstr "Verander Agtergrond Beeld"
+
+#, fuzzy
+#~ msgid "*.bgnd|Background Image (*.bgnd)\n"
+#~ msgstr ""
+#~ "*.bgnd|Agtergrond Beeld\n"
+#~ "*.bmp|Vensters biskaart lêer (*.bmp)\n"
+
+#~ msgid "Change Tile Set"
+#~ msgstr "Verander Teël Stel"
+
+#, fuzzy
+#~ msgid "*.tileset|Tile Set File (*.tileset)\n"
+#~ msgstr "*.teëlstel|Teël stel lêer\n"
+
+#, fuzzy
+#~ msgid "*.layout|Board Layout File (*.layout)\n"
+#~ msgstr "*.uitleg|Bord uitleg lêer\n"
+
+#~ msgid "Change Board Layout"
+#~ msgstr "Verander Bord Uitleg"
+
+#, fuzzy
+#~ msgid "*.theme|KMahjongg Theme File (*.theme)\n"
+#~ msgstr "*.tema|Kmahjong tema\n"
+
+#~ msgid "Choose Theme"
+#~ msgstr "Kies Tema"
+
+#, fuzzy
+#~ msgid "*|All Files"
+#~ msgstr "*|Alle lêers\n"
+
+#, fuzzy
+#~ msgid "That is not a valid theme file."
+#~ msgstr "Dit is nie 'n geldige tema lêer."
+
+#~ msgid "Save Theme"
+#~ msgstr "Stoor Tema"
+
+#~ msgid "Could not write to file. Aborting."
+#~ msgstr "Kon nie skryf na lêer. Gaan staak."
+
+#, fuzzy
+#~ msgid ""
+#~ "An error occurred when loading the board layout %1\n"
+#~ "KMahjongg will continue with the default layout."
+#~ msgstr ""
+#~ "'n fout voorgekom wanneer laaiïng van die bord uitleg %1\n"
+#~ "Kmahjong sal nou termineer"
+
+#~ msgid ""
+#~ "KMahjongg could not locate the file: %1\n"
+#~ "or the default file of type: %2\n"
+#~ "KMahjongg will now terminate"
+#~ msgstr ""
+#~ "Kmahjong kon nie opspoor die lêer: %1\n"
+#~ "van die verstek lêer van tipe: %2\n"
+#~ "Kmahjong sal nou termineer"
+
+#~ msgid "Open La&yout..."
+#~ msgstr "Open Uitleg..."
 
 #~ msgid "Show &Matching Tiles"
 #~ msgstr "Vertoon Ooreenstemmende Teëls"
