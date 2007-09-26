@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-23 05:37+0200\n"
+"POT-Creation-Date: 2007-09-26 05:46+0200\n"
 "PO-Revision-Date: 2005-11-28 12:28+0200\n"
 "Last-Translator: Kobus Venter <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -674,12 +674,12 @@ msgstr "Na Werkskerm"
 msgid "&All Desktops"
 msgstr "Alle Werkskerms"
 
-#: workspace.cpp:1089 workspace.cpp:1109
+#: workspace.cpp:1090 workspace.cpp:1110
 #, qt-format
 msgid "Desktop %1"
 msgstr "Werkskerm %1"
 
-#: workspace.cpp:2439
+#: workspace.cpp:2440
 #, qt-format
 msgid ""
 "You have selected to show a window without its border.\n"
@@ -692,7 +692,7 @@ msgstr ""
 "deur gebruik te maak van die muis nie: gebruik die venster beheer kieslys "
 "daarvoor, geaktiveer gebruik die %1 sleutelbord kortpad."
 
-#: workspace.cpp:2453
+#: workspace.cpp:2454
 #, qt-format
 msgid ""
 "You have selected to show a window in fullscreen mode.\n"
@@ -706,11 +706,15 @@ msgstr ""
 "nie: gebruik die venster beheer kieslys daarvoor, geaktiveer gebruik die %1 "
 "sleutelbord kortpad."
 
-#: effects/desktopgrid.cpp:38
+#: effects/desktopgrid.cpp:38 effects/desktopgrid_config.cpp:44
 #, fuzzy
 #| msgid "Switch to Desktop 1"
 msgid "Show Desktop Grid"
 msgstr "Wissel na Werkskerm 1"
+
+#: effects/desktopgrid_config.cpp:37
+msgid "Animate desktop changes"
+msgstr ""
 
 #: effects/invert.cpp:30
 msgid "Toggle Invert effect"
@@ -720,11 +724,11 @@ msgstr ""
 msgid "ClearMouseMarks"
 msgstr ""
 
-#: effects/presentwindows.cpp:46
+#: effects/presentwindows.cpp:46 effects/presentwindows_config.cpp:61
 msgid "Toggle Expose effect"
 msgstr ""
 
-#: effects/presentwindows.cpp:50
+#: effects/presentwindows.cpp:50 effects/presentwindows_config.cpp:64
 msgid "Toggle Expose effect (incl other desktops)"
 msgstr ""
 
@@ -735,69 +739,55 @@ msgid ""
 "%1"
 msgstr ""
 
-#: effects/presentwindows_config.cpp:35
+#: effects/presentwindows_config.cpp:39
 msgid "Activate when cursor is at a specific edge or corner of the screen:"
 msgstr ""
 
-#: effects/presentwindows_config.cpp:39
+#: effects/presentwindows_config.cpp:43
 #, fuzzy
 #| msgid "Window to Next Desktop"
 msgid "for windows on current desktop: "
 msgstr "Venster na Volgende Werkskerm"
 
-#: effects/presentwindows_config.cpp:45
+#: effects/presentwindows_config.cpp:49
 #, fuzzy
 #| msgid "Keep Window on All Desktops"
 msgid "for windows on all desktops: "
 msgstr "Hou Venster op Alle Werkskerm"
 
-#: effects/presentwindows_config.cpp:53
-msgid "Activation shortcuts:"
-msgstr ""
-
-#: effects/presentwindows_config.cpp:55
-msgid "for windows on current desktop: Ctrl+F10"
-msgstr ""
-
-#: effects/presentwindows_config.cpp:56
-#, fuzzy
-#| msgid "Keep Window on All Desktops"
-msgid "for windows on all desktops: Ctrl+F11"
-msgstr "Hou Venster op Alle Werkskerm"
-
-#: effects/presentwindows_config.cpp:70
+#: effects/presentwindows_config.cpp:84
 msgid "Top"
 msgstr ""
 
-#: effects/presentwindows_config.cpp:71
+#: effects/presentwindows_config.cpp:85
 msgid "Top-right"
 msgstr ""
 
-#: effects/presentwindows_config.cpp:72
+#: effects/presentwindows_config.cpp:86
 msgid "Right"
 msgstr ""
 
-#: effects/presentwindows_config.cpp:73
+#: effects/presentwindows_config.cpp:87
 msgid "Bottom-right"
 msgstr ""
 
-#: effects/presentwindows_config.cpp:74
+#: effects/presentwindows_config.cpp:88
 msgid "Bottom"
 msgstr ""
 
-#: effects/presentwindows_config.cpp:75
+#: effects/presentwindows_config.cpp:89
 msgid "Bottom-left"
 msgstr ""
 
-#: effects/presentwindows_config.cpp:76
+#: effects/presentwindows_config.cpp:90
 msgid "Left"
 msgstr ""
 
-#: effects/presentwindows_config.cpp:77
+#: effects/presentwindows_config.cpp:91
 msgid "Top-left"
 msgstr ""
 
-#: effects/presentwindows_config.cpp:78
+#: effects/presentwindows_config.cpp:92
 msgid "None"
 msgstr ""
 
@@ -964,6 +954,11 @@ msgstr "Die verstek versiering inprop is stukkend en kon gelaai word."
 #, qt-format
 msgid "The library %1 is not a KWin plugin."
 msgstr "Die biblioteek %1 is nie 'n Kwin inprop."
+
+#, fuzzy
+#~| msgid "Keep Window on All Desktops"
+#~ msgid "for windows on all desktops: Ctrl+F11"
+#~ msgstr "Hou Venster op Alle Werkskerm"
 
 #~ msgid "Reset opacity to default value"
 #~ msgstr "Herstel opaque na verstek waarde"
