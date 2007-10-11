@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knewsticker VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:32+0200\n"
+"POT-Creation-Date: 2007-10-11 05:41+0200\n"
 "PO-Revision-Date: 2002-11-07 11:35+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -66,7 +66,7 @@ msgid "Rotated scrolling text modes"
 msgstr "Geroeteer rolling teks modusse"
 
 #: knewsticker.cpp:289
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "<qt>Could not update news site '%1'.<br />The supplied resource file is "
 "probably invalid or broken.</qt>"
@@ -140,12 +140,12 @@ msgstr "Onbekende"
 #: knewstickerconfig.cpp:264 newsscroller.cpp:203 newsscroller.cpp:204
 #: knewstickerstub/knewstickerstub.cpp:59
 #: knewstickerstub/knewstickerstub.cpp:60
-#, qt-format
+#, kde-format
 msgid "Unknown %1"
 msgstr "Onbekende %1"
 
 #: knewstickerconfig.cpp:329
-#, qt-format
+#, kde-format
 msgid "<p>Do you really want to remove %1 news source?</p>"
 msgid_plural "<p>Do you really want to remove these %1 news sources?</p>"
 msgstr[0] ""
@@ -166,12 +166,14 @@ msgid "&Add News Source"
 msgstr "Nuus hulpbron"
 
 #: knewstickerconfig.cpp:379
-#, qt-format
+#, kde-format
+#| msgid "&Modify '%1'"
 msgid "&Modify '%1'"
 msgstr ""
 
 #: knewstickerconfig.cpp:381
-#, qt-format
+#, kde-format
+#| msgid "&Remove '%1'"
 msgid "&Remove '%1'"
 msgstr ""
 
@@ -191,7 +193,8 @@ msgid "&Remove News Source"
 msgstr "Nuus hulpbron"
 
 #: newsscroller.cpp:194
-#, qt-format
+#, kde-format
+#| msgid "<p>Do you really want to add '%1' to the list of news sources?</p>"
 msgid "<p>Do you really want to add '%1' to the list of news sources?</p>"
 msgstr ""
 
@@ -1388,7 +1391,7 @@ msgid "Magazines"
 msgstr ""
 
 #: common/newsengine.cpp:221
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "<p>The program '%1' was terminated abnormally.<br />This can happen if it "
 "receives the SIGKILL signal.</p>"
@@ -1397,13 +1400,13 @@ msgstr ""
 "ontvang Die Sigkill sein.</p>"
 
 #: common/newsengine.cpp:236
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "<p>Program output:<br>%1<br>"
 msgid "<br />Program output:<br />%1<br />"
 msgstr "<p>Program uitset:<br>%1<br>"
 
 #: common/newsengine.cpp:238
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "An error occurred while updating the news source '%1'."
 msgstr "'n fout voorgekom terwyl besig met opdatering van die nuus bron '%1'!"
 
@@ -1413,12 +1416,13 @@ msgid "KNewsTicker Error"
 msgstr "K-nuustikker fout"
 
 #: common/newsengine.cpp:252
-#, qt-format
+#, kde-format
+#| msgid "The program '%1' could not be started at all."
 msgid "The program '%1' could not be started at all."
 msgstr ""
 
 #: common/newsengine.cpp:253
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "The program '%1' tried to read or write a file or directory which could not "
 "be found."
@@ -1427,13 +1431,13 @@ msgstr ""
 "na doen sodat."
 
 #: common/newsengine.cpp:255
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "An error occurred while the program '%1' tried to read or write data."
 msgstr ""
 "'n fout voorgekom terwyl die program '%1' probeer na lees of skryf data."
 
 #: common/newsengine.cpp:257
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "The program '%1' was passed too many arguments. Please adjust the command "
 "line in the configuration dialog."
@@ -1442,7 +1446,7 @@ msgstr ""
 "opdrag lyn in Die opstelling dialoog."
 
 #: common/newsengine.cpp:259
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "An external system program upon which the program '%1' relied could not be "
 "executed."
@@ -1450,7 +1454,7 @@ msgstr ""
 "'n fout voorgekom terwyl die program '%1' probeer na lees of skryf data."
 
 #: common/newsengine.cpp:261
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' tried to read or write a file or directory but lacks the "
 "permission to do so."
@@ -1459,20 +1463,20 @@ msgstr ""
 "na doen sodat."
 
 #: common/newsengine.cpp:263
-#, qt-format
+#, kde-format
 msgid "The program '%1' tried to access a device which was not available."
 msgstr ""
 "Die program '%1' probeer na toegang verkry 'n toestel wat was nie beskikbaar."
 
 #: common/newsengine.cpp:265
-#, qt-format
+#, kde-format
 msgid "There is no more space left on the device used by the program '%1'."
 msgstr ""
 "Daar is nee meer spasie links op die toestel gebruik word deur die program '%"
 "1'."
 
 #: common/newsengine.cpp:267
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' tried to create a temporary file on a read only file system."
 msgstr ""
@@ -1480,14 +1484,17 @@ msgstr ""
 "stelsel."
 
 #: common/newsengine.cpp:269
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The program '%1' tried to call a function which is not implemented or "
+#| "attempted to access an external resource which does not exist."
 msgid ""
 "The program '%1' tried to call a function which is not implemented or "
 "attempted to access an external resource which does not exist."
 msgstr ""
 
 #: common/newsengine.cpp:272
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' was unable to retrieve input data and was therefore unable "
 "to return any XML data."
@@ -1496,7 +1503,7 @@ msgstr ""
 "moontlik na terug enige Xml data."
 
 #: common/newsengine.cpp:274
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' tried to access a host which is not connected to a network."
 msgstr ""
@@ -1504,14 +1511,14 @@ msgstr ""
 "'n netwerk."
 
 #: common/newsengine.cpp:276
-#, qt-format
+#, kde-format
 msgid "The program '%1' tried to access a protocol which is not implemented."
 msgstr ""
 "Die program '%1' probeer na toegang verkry 'n protokol wat is nie "
 "geimplementeer."
 
 #: common/newsengine.cpp:278
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' requires you to configure a destination address to retrieve "
 "data from. Please refer to the documentation of the program for information "
@@ -1522,7 +1529,7 @@ msgstr ""
 "informasie op hoe na doen wat."
 
 #: common/newsengine.cpp:281
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' tried to use a socket type which is not supported by this "
 "system."
@@ -1531,12 +1538,12 @@ msgstr ""
 "deur hierdie stelsel."
 
 #: common/newsengine.cpp:283
-#, qt-format
+#, kde-format
 msgid "The program '%1' tried to access an unreachable network."
 msgstr "Die program '%1' probeer na toegang verkry 'n onbereikbaar netwerk."
 
 #: common/newsengine.cpp:285
-#, qt-format
+#, kde-format
 msgid ""
 "The network the program '%1' was trying to access dropped the connection "
 "with a reset."
@@ -1545,30 +1552,30 @@ msgstr ""
 "verbinding met 'n herstel."
 
 #: common/newsengine.cpp:287
-#, qt-format
+#, kde-format
 msgid "The connection of the program '%1' was reset by peer."
 msgstr "Die verbinding van Die program '%1' was herstel deur ouer."
 
 #: common/newsengine.cpp:289
-#, qt-format
+#, kde-format
 msgid "The connection the program '%1' was trying to establish timed out."
 msgstr ""
 "Die verbinding Die program '%1' was probeer na neerlê of vasstel tydgebonde "
 "uit."
 
 #: common/newsengine.cpp:291
-#, qt-format
+#, kde-format
 msgid "The connection the program '%1' was trying to establish was refused."
 msgstr ""
 "Die verbinding Die program '%1' was probeer na neerlê of vasstel was geweier."
 
 #: common/newsengine.cpp:293
-#, qt-format
+#, kde-format
 msgid "The host the program '%1' was trying to reach is down."
 msgstr "Die bediener Die program '%1' was probeer na bereik is ondertoe."
 
 #: common/newsengine.cpp:295
-#, qt-format
+#, kde-format
 msgid ""
 "The host the program '%1' was trying to reach is unreachable, no route to "
 "host."
@@ -1577,7 +1584,15 @@ msgstr ""
 "roete na bediener."
 
 #: common/newsengine.cpp:297
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "KNewsTicker could not execute the program '%1' because its executable bit "
+#| "was not set. You can mark that program as executable by executing the "
+#| "following steps:<ul><li>Open a Konqueror window and browse to the "
+#| "program</li><li>Click on the file with the right mouse button, and select "
+#| "'Properties'</li><li>Open the 'Permissions' tab and make sure that the "
+#| "box in the column 'Exec' and the row 'User' is checked to ensure that the "
+#| "current user is allowed to execute that file.</li></ul>"
 msgid ""
 "KNewsTicker could not execute the program '%1' because its executable bit "
 "was not set. You can mark that program as executable by executing the "
@@ -1589,7 +1604,7 @@ msgid ""
 msgstr ""
 
 #: common/newsengine.cpp:305
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "The program '%1' sent a bad request which was not understood by the server."
 msgstr ""
@@ -1597,7 +1612,7 @@ msgstr ""
 "deur hierdie stelsel."
 
 #: common/newsengine.cpp:307
-#, qt-format
+#, kde-format
 msgid ""
 "The program '%1' failed to issue an authorization for an area which needs "
 "some form of authorization before it can be accessed."
@@ -1606,26 +1621,29 @@ msgstr ""
 "verlang sommige vorm van geldigheidstoets voor dit kan wees toegang verkry."
 
 #: common/newsengine.cpp:310
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The program '%1' aborted because it could not access the data without "
+#| "paying for it."
 msgid ""
 "The program '%1' aborted because it could not access the data without paying "
 "for it."
 msgstr ""
 
 #: common/newsengine.cpp:312
-#, qt-format
+#, kde-format
 msgid "The program '%1' tried to access a forbidden source."
 msgstr "Die program '%1' probeer na toegang verkry 'n verbied bron."
 
 #: common/newsengine.cpp:314
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "The program '%1' tried to access data which could not be found."
 msgstr ""
 "Die program '%1' probeer na toegang verkry 'n protokol wat is nie "
 "geimplementeer."
 
 #: common/newsengine.cpp:316
-#, qt-format
+#, kde-format
 msgid "The HTTP request of the program '%1' timed out."
 msgstr "Die Http versoek van Die program '%1' tydgebonde uit."
 
@@ -1636,7 +1654,7 @@ msgid ""
 msgstr ""
 
 #: common/newsengine.cpp:319
-#, qt-format
+#, kde-format
 msgid ""
 "The HTTP protocol version used by the program '%1' was not understood by the "
 "HTTP server or source."

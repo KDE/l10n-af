@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpilot VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-07 05:52+0200\n"
+"POT-Creation-Date: 2007-10-11 05:42+0200\n"
 "PO-Revision-Date: 2002-11-07 11:38+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -27,12 +27,13 @@ msgid "Not completed"
 msgstr "Hotsync Klaar.<br>"
 
 #: lib/pilotTodoEntry.cc:142
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Due date: %1"
 msgstr "Staat:"
 
 #: lib/pilotTodoEntry.cc:150
-#, qt-format
+#, kde-format
+#| msgid "Priority: %1"
 msgid "Priority: %1"
 msgstr ""
 
@@ -46,14 +47,21 @@ msgid "Note:\n"
 msgstr "Geen"
 
 #: lib/pilotMemo.cc:72
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<i>Title:</i> %1<br/>\n"
+#| "<i>MemoText:</i><br/>%2"
 msgid ""
 "<i>Title:</i> %1<br/>\n"
 "<i>MemoText:</i><br/>%2"
 msgstr ""
 
 #: lib/pilotMemo.cc:76
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Title: %1\n"
+#| "MemoText:\n"
+#| "%2"
 msgid ""
 "Title: %1\n"
 "MemoText:\n"
@@ -73,12 +81,12 @@ msgid ""
 msgstr ""
 
 #: lib/actions.cc:51
-#, qt-format
+#, kde-format
 msgid "KPilot %1 HotSync starting...\n"
 msgstr "Kpilot %1 Hotsync beginne...\n"
 
 #: lib/actions.cc:53
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Using encoding %1 on the handheld."
 msgstr "Nie moontlik na open die adresboek."
 
@@ -91,7 +99,7 @@ msgid "Testing.\n"
 msgstr "Toetsing.\n"
 
 #: lib/actions.cc:123
-#, qt-format
+#, kde-format
 msgid "Syncing database %1..."
 msgstr "Sinkronisering databasis %1..."
 
@@ -100,7 +108,7 @@ msgid "HotSync finished."
 msgstr "Hotsync klaar gemaak."
 
 #: lib/syncAction.cc:101
-#, qt-format
+#, kde-format
 msgid "The conduit %1 could not be executed."
 msgstr "Die pad %1 kon nie wees uitgevoerde."
 
@@ -172,7 +180,7 @@ msgid " Check Pilot path and permissions."
 msgstr " Bevestig Pilot gids soeklys en regte."
 
 #: lib/kpilotdevicelink.cc:334
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Trying to open device %1..."
 msgstr "Probeer na open toestel..."
 
@@ -181,23 +189,23 @@ msgid "Already listening on that device"
 msgstr ""
 
 #: lib/kpilotdevicelink.cc:397
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "Cannot create socket for communicating with the Pilot"
 msgid "Cannot create socket for communicating with the Pilot (%1)"
 msgstr "Kan nie skep soket vir kommunikeer met die Pilot"
 
 #: lib/kpilotdevicelink.cc:423
-#, qt-format
+#, kde-format
 msgid "Cannot open Pilot port \"%1\". "
 msgstr "Kan nie open Pilot poort \"%1\". "
 
 #: lib/kpilotdevicelink.cc:456
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Cannot listen on Pilot socket (%1)"
 msgstr "Kan nie open Pilot poort \"%1\". "
 
 #: lib/kpilotdevicelink.cc:480 lib/kpilotdevicelink.cc:494
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Cannot accept Pilot (%1)"
 msgstr "Kan nie open Pilot poort \"%1\". "
 
@@ -222,7 +230,7 @@ msgstr ""
 "stel op die toestel?"
 
 #: lib/kpilotdevicelink.cc:608
-#, qt-format
+#, kde-format
 msgid "Could not open device: %1 (will retry)"
 msgstr "Kon nie open toestel: %1 (sal herprobeer)"
 
@@ -231,19 +239,22 @@ msgid "The Pilot device is not configured yet."
 msgstr "Die Pilot toestel is nie gekonfigureer nog."
 
 #: lib/kpilotdevicelink.cc:836
-#, qt-format
+#, kde-format
 msgid "Pilot device %1 is not read-write."
 msgstr "Pilot toestel %1 is nie read-write."
 
 #: lib/kpilotdevicelink.cc:844
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Pilot device %1 does not exist. Probably it is a USB device and will "
+#| "appear during a HotSync."
 msgid ""
 "Pilot device %1 does not exist. Probably it is a USB device and will appear "
 "during a HotSync."
 msgstr ""
 
 #: lib/kpilotdevicelink.cc:892 lib/kpilotdevicelink.cc:900
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "<qt>Cannot install the file &quot;%1&quot;.</qt>"
 msgstr "Kan nie installeer lêer &quot;%1quot;!"
 
@@ -252,7 +263,7 @@ msgid "End of HotSync\n"
 msgstr "Einde van Hotsync\n"
 
 #: lib/pilotDateEntry.cc:179
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Start date: %1"
 msgstr "Staat:"
 
@@ -261,7 +272,7 @@ msgid "Whole-day event"
 msgstr ""
 
 #: lib/pilotDateEntry.cc:193
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "End date: %1"
 msgstr "Staat:"
 
@@ -278,7 +289,9 @@ msgid "days"
 msgstr ""
 
 #: lib/pilotDateEntry.cc:208
-#, qt-format
+#, kde-format
+#| msgctxt "%1 is the duration, %2 is the time unit"
+#| msgid "Alarm: %1 %2 before event starts"
 msgctxt "%1 is the duration, %2 is the time unit"
 msgid "Alarm: %1 %2 before event starts"
 msgstr ""
@@ -300,7 +313,8 @@ msgid "year(s)"
 msgstr ""
 
 #: lib/pilotDateEntry.cc:226
-#, qt-format
+#, kde-format
+#| msgid "Recurrence: every %1 %2"
 msgid "Recurrence: every %1 %2"
 msgstr ""
 
@@ -309,7 +323,8 @@ msgid "Repeats indefinitely"
 msgstr ""
 
 #: lib/pilotDateEntry.cc:238
-#, qt-format
+#, kde-format
+#| msgid "Until %1"
 msgid "Until %1"
 msgstr ""
 
@@ -331,14 +346,17 @@ msgid "Unnamed"
 msgstr ""
 
 #: lib/plugin.cc:97
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>The <i>%1</i> conduit's settings have been changed. Do you want to "
+#| "save the changes before continuing?</qt>"
 msgid ""
 "<qt>The <i>%1</i> conduit's settings have been changed. Do you want to save "
 "the changes before continuing?</qt>"
 msgstr ""
 
 #: lib/plugin.cc:109
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "%1 Conduit"
 msgstr "Vcal pad"
 
@@ -348,12 +366,12 @@ msgid "Send questions and comments to kdepim-users@kde.org"
 msgstr "Stuur vrae en kommentaar na kde-pim@kde.org"
 
 #: lib/plugin.cc:188
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Send questions and comments to <a href=\"mailto:%1\">%2</a>."
 msgstr "Stuur vrae en kommentaar na <i>kde-pim@kde.org</i>"
 
 #: lib/plugin.cc:190
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Send bug reports to <a href=\"mailto:%1\">%2</a>."
 msgstr "Stuur fout raporte na <i>%1</i>"
 
@@ -378,32 +396,37 @@ msgid "About"
 msgstr ""
 
 #: lib/plugin.cc:457
-#, qt-format
+#, kde-format
+#| msgid "Could not find conduit %1."
 msgid "Could not find conduit %1."
 msgstr ""
 
 #: lib/plugin.cc:468
-#, qt-format
+#, kde-format
+#| msgid "Could not load conduit %1."
 msgid "Could not load conduit %1."
 msgstr ""
 
 #: lib/plugin.cc:475
-#, qt-format
+#, kde-format
+#| msgid "Conduit %1 has wrong version (%2)."
 msgid "Conduit %1 has wrong version (%2)."
 msgstr ""
 
 #: lib/plugin.cc:484
-#, qt-format
+#, kde-format
+#| msgid "Could not initialize conduit %1."
 msgid "Could not initialize conduit %1."
 msgstr ""
 
 #: lib/plugin.cc:500 lib/plugin.cc:509
-#, qt-format
+#, kde-format
+#| msgid "Could not create conduit %1."
 msgid "Could not create conduit %1."
 msgstr ""
 
 #: lib/plugin.cc:513
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 #| msgid "[Conduit %1]"
 msgid "[Conduit %1]\n"
 msgstr "[Pad %1]"
@@ -487,24 +510,29 @@ msgid "Import Date Book"
 msgstr "In voer Memo"
 
 #: conduits/base/cudcounter.cc:78
-#, qt-format
+#, kde-format
+#| msgid "Start: %1. End: %2. "
 msgid "Start: %1. End: %2. "
 msgstr ""
 
 #: conduits/base/cudcounter.cc:80
-#, qt-format
+#, kde-format
+#| msgctxt "Created record count"
+#| msgid "%1 new record(s). "
 msgctxt "Created record count"
 msgid "%1 new record(s). "
 msgstr ""
 
 #: conduits/base/cudcounter.cc:81
-#, qt-format
+#, kde-format
+#| msgctxt "Updated record count"
+#| msgid "%1 changed record(s). "
 msgctxt "Updated record count"
 msgid "%1 changed record(s). "
 msgstr ""
 
 #: conduits/base/cudcounter.cc:82
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgctxt "Deleted record count"
 msgid "%1 deleted record(s). "
 msgstr "(uitgevee)"
@@ -560,7 +588,12 @@ msgid "Large Changes Detected"
 msgstr ""
 
 #: conduits/base/recordconduit.cc:285
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The %1 conduit has made a large number of changes to your %2.  Do you "
+#| "want to allow this change?\n"
+#| "Details:\n"
+#| "\t%3"
 msgid ""
 "The %1 conduit has made a large number of changes to your %2.  Do you want "
 "to allow this change?\n"
@@ -702,7 +735,7 @@ msgid "Cannot initialize the memo files from disk."
 msgstr ""
 
 #: conduits/memofileconduit/memofile-conduit.cc:105
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid " Syncing with %1."
 msgstr "Sinkronisering met lêer \"%1\""
 
@@ -843,18 +876,19 @@ msgid "No debug data"
 msgstr ""
 
 #: conduits/sysinfoconduit/sysinfo-conduit.cc:578
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Unable to open output file, using %1 instead."
 msgstr "Nie moontlik na open lêer &quot;%1quot;!"
 
 #: conduits/sysinfoconduit/sysinfo-conduit.cc:583
 #: conduits/notepadconduit/notepad-conduit.cc:76
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Unable to open %1"
 msgstr "Nie moontlik na open lêer &quot;%1quot;!"
 
 #: conduits/sysinfoconduit/sysinfo-conduit.cc:594
-#, qt-format
+#, kde-format
+#| msgid "Handheld system information written to the file %1"
 msgid "Handheld system information written to the file %1"
 msgstr ""
 
@@ -876,7 +910,7 @@ msgid "No proxy server is set."
 msgstr ""
 
 #: conduits/malconduit/mal-conduit.cc:219
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Using proxy server: %1"
 msgstr "Socks volmag"
 
@@ -886,7 +920,7 @@ msgid "No SOCKS proxy is set."
 msgstr "Socks volmag"
 
 #: conduits/malconduit/mal-conduit.cc:254
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Using SOCKS proxy: %1"
 msgstr "Socks volmag"
 
@@ -1072,7 +1106,11 @@ msgstr "Adres"
 
 #: conduits/abbrowserconduit/abbrowser-conduit.cc:265
 #: conduits/vcalconduit/vcal-conduitbase.cc:299
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "You chose to sync with the file \"%1\", which cannot be opened. Please "
+#| "make sure to supply a valid file name in the conduit's configuration "
+#| "dialog. Aborting the conduit."
 msgid ""
 "You chose to sync with the file \"%1\", which cannot be opened. Please make "
 "sure to supply a valid file name in the conduit's configuration dialog. "
@@ -1092,7 +1130,10 @@ msgid "Unable to lock addressbook for writing.  Cannot sync!"
 msgstr "Nie moontlik na open die adresboek."
 
 #: conduits/abbrowserconduit/abbrowser-conduit.cc:371
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "An error occurred while uploading \"%1\". You can try to upload the "
+#| "temporary local file \"%2\" manually"
 msgid ""
 "An error occurred while uploading \"%1\". You can try to upload the "
 "temporary local file \"%2\" manually"
@@ -1248,7 +1289,11 @@ msgid "Address conflict"
 msgstr "Adres konflik"
 
 #: conduits/abbrowserconduit/resolutionDialog.cc:162
-#, qt-format
+#, kde-format
+#| msgctxt ""
+#| "Entries in the resolution dialog. First the name of the field, then the "
+#| "entry from the Handheld or PC after the colon"
+#| msgid "%1: %2"
 msgctxt ""
 "Entries in the resolution dialog. First the name of the field, then the "
 "entry from the Handheld or PC after the colon"
@@ -1262,7 +1307,7 @@ msgid "Delete entry"
 msgstr "Uitvee Opneem"
 
 #: conduits/docconduit/DOC-converter.cc:211
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Unable to open text file %1 for reading."
 msgstr "Nie moontlik na open lêer &quot;%1quot;!"
 
@@ -1272,7 +1317,7 @@ msgid "Unable to open Database for writing"
 msgstr "Nie moontlik na begin om te skryf pos liggaam\n"
 
 #: conduits/docconduit/DOC-converter.cc:457
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Unable to open palm doc database %1"
 msgstr "Nie moontlik na inisialiseer die databasis: "
 
@@ -1286,27 +1331,28 @@ msgid "Unable to open Database for reading"
 msgstr "Nie moontlik na open die adresboek."
 
 #: conduits/docconduit/DOC-converter.cc:540
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Unable to read database header for database %1."
 msgstr "Nie moontlik na inisialiseer die databasis: "
 
 #: conduits/docconduit/DOC-converter.cc:552
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Unable to open output file %1."
 msgstr "Nie moontlik na open lêer &quot;%1quot;!"
 
 #: conduits/docconduit/DOC-converter.cc:567
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Could not read text record #%1 from Database %2"
 msgstr "Kan nie open databasis"
 
 #: conduits/docconduit/DOC-converter.cc:586
-#, qt-format
+#, kde-format
+#| msgid "Could not read bookmark record #%1 from Database %2"
 msgid "Could not read bookmark record #%1 from Database %2"
 msgstr ""
 
 #: conduits/docconduit/DOC-converter.cc:604
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Unable to open file %1 for the bookmarks of %2."
 msgstr "Nie moontlik na open lêer &quot;%1quot;!"
 
@@ -1324,17 +1370,18 @@ msgid "Database created."
 msgstr "Databasise"
 
 #: conduits/docconduit/doc-conduit.cc:356
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Unable to install the locally created PalmDOC %1 to the handheld."
 msgstr "Nie moontlik na open die adresboek."
 
 #: conduits/docconduit/doc-conduit.cc:359
-#, qt-format
+#, kde-format
+#| msgid "Conversion of PalmDOC \"%1\" failed."
 msgid "Conversion of PalmDOC \"%1\" failed."
 msgstr ""
 
 #: conduits/docconduit/doc-conduit.cc:367
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Unable to open or create the database %1."
 msgstr "Nie moontlik na inisialiseer die databasis: "
 
@@ -1347,7 +1394,7 @@ msgid "Sync aborted by user."
 msgstr ""
 
 #: conduits/docconduit/doc-conduit.cc:640
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Synchronizing text \"%1\""
 msgstr "Sinkronisering met lêer \"%1\""
 
@@ -1365,7 +1412,10 @@ msgstr ""
 #: conduits/docconduit/kpalmdoc_dlg.cc:216
 #: conduits/docconduit/kpalmdoc_dlg.cc:329
 #: conduits/docconduit/kpalmdoc_dlg.cc:354
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>You selected to sync folders, but gave a filename instead (<em>%1</"
+#| "em>).<br />Use folder <em>%2</em> instead?</qt>"
 msgid ""
 "<qt>You selected to sync folders, but gave a filename instead (<em>%1</em>)."
 "<br />Use folder <em>%2</em> instead?</qt>"
@@ -1380,21 +1430,29 @@ msgid "Use Folder"
 msgstr "Cvs lêernaam:"
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:196
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>The folder <em>%1</em> for the handheld database files is not a valid "
+#| "folder.</qt>"
 msgid ""
 "<qt>The folder <em>%1</em> for the handheld database files is not a valid "
 "folder.</qt>"
 msgstr ""
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:205
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>The folder <em>%1</em> for the handheld database files is not a valid "
+#| "directory.</qt>"
 msgid ""
 "<qt>The folder <em>%1</em> for the handheld database files is not a valid "
 "directory.</qt>"
 msgstr ""
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:233
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>The folder <em>%1</em> for the text files could not be created.</qt>"
 msgid ""
 "<qt>The folder <em>%1</em> for the text files could not be created.</qt>"
 msgstr ""
@@ -1416,24 +1474,31 @@ msgstr ""
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:271
 #: conduits/docconduit/kpalmdoc_dlg.cc:407
-#, qt-format
+#, kde-format
+#| msgid "<qt>The file <em>%1</em> does not exist.</qt>"
 msgid "<qt>The file <em>%1</em> does not exist.</qt>"
 msgstr ""
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:287
 #: conduits/docconduit/kpalmdoc_dlg.cc:415
-#, qt-format
+#, kde-format
+#| msgid "Conversion of file %1 successful."
 msgid "Conversion of file %1 successful."
 msgstr ""
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:344
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>The folder <em>%1</em> for the text files is not a valid folder.</qt>"
 msgid ""
 "<qt>The folder <em>%1</em> for the text files is not a valid folder.</qt>"
 msgstr ""
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:371
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>The folder <em>%1</em> for the PalmDOC files could not be created.</"
+#| "qt>"
 msgid ""
 "<qt>The folder <em>%1</em> for the PalmDOC files could not be created.</qt>"
 msgstr ""
@@ -1458,7 +1523,7 @@ msgid "&DOC file:"
 msgstr "Cvs lêernaam:"
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:457
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "<qt>The database file <em>%1</em> already exists. Overwrite it?</qt>"
 msgstr "Die lêer bestaan. Doen jy wil hê na oorskryf dit?"
 
@@ -1471,12 +1536,13 @@ msgstr "Oorskryf"
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:483
 #: conduits/docconduit/kpalmdoc_dlg.cc:519
-#, qt-format
+#, kde-format
+#| msgid "<qt>Error while converting the text %1.</qt>"
 msgid "<qt>Error while converting the text %1.</qt>"
 msgstr ""
 
 #: conduits/docconduit/kpalmdoc_dlg.cc:502
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "<qt>The text file <em>%1</em> already exists. Overwrite it?</qt>"
 msgstr "Die lêer bestaan. Doen jy wil hê na oorskryf dit?"
 
@@ -1590,19 +1656,23 @@ msgid "does not exist"
 msgstr " Die poort doen nie bestaan."
 
 #: conduits/docconduit/doc-conflictdialog.cc:182
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Status of the database %1:\n"
+#| "\n"
 msgid ""
 "Status of the database %1:\n"
 "\n"
 msgstr ""
 
 #: conduits/docconduit/doc-conflictdialog.cc:183
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Handheld: %1\n"
 msgstr "Pilot oorskryf werkskerm"
 
 #: conduits/docconduit/doc-conflictdialog.cc:184
-#, qt-format
+#, kde-format
+#| msgid "Desktop: %1\n"
 msgid "Desktop: %1\n"
 msgstr ""
 
@@ -1618,14 +1688,14 @@ msgid "Notepad"
 msgstr "Geen"
 
 #: conduits/notepadconduit/notepad-conduit.cc:102
-#, qt-format
+#, kde-format
 msgid "1 notepad could not be saved"
 msgid_plural "%1 notepads could not be saved"
 msgstr[0] ""
 msgstr[1] ""
 
 #: conduits/notepadconduit/notepad-conduit.cc:103
-#, qt-format
+#, kde-format
 msgid "1 notepad saved"
 msgid_plural "%1 notepads saved"
 msgstr[0] ""
@@ -1723,7 +1793,7 @@ msgid "SMTP support and redesign"
 msgstr "Smtp ondersteun en herontwerp"
 
 #: conduits/popmail/popmail-conduit.cc:108
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Sent one message"
 msgid_plural "Sent %1 messages"
 msgstr[0] "Log boodskap:"
@@ -1773,7 +1843,10 @@ msgid "Calendar"
 msgstr "Ikalender poort"
 
 #: conduits/vcalconduit/vcal-conduit.cc:223
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Event \"%1\" has a yearly recurrence other than by month, will change "
+#| "this to recurrence by month on handheld."
 msgid ""
 "Event \"%1\" has a yearly recurrence other than by month, will change this "
 "to recurrence by month on handheld."
@@ -1829,7 +1902,10 @@ msgid "Cleaning up ..."
 msgstr ""
 
 #: conduits/vcalconduit/cleanupstate.cc:91
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "An error occurred while uploading \"%1\". You can try to upload the "
+#| "temporary local file \"%2\" manually."
 msgid ""
 "An error occurred while uploading \"%1\". You can try to upload the "
 "temporary local file \"%2\" manually."
@@ -1877,18 +1953,24 @@ msgstr ""
 
 #: conduits/vcalconduit/vcal-conduitbase.cc:292
 #: conduits/vcalconduit/vcal-conduitbase.cc:354
-#, qt-format
+#, kde-format
+#| msgid "Using local time zone: %1"
 msgid "Using local time zone: %1"
 msgstr ""
 
 #: conduits/vcalconduit/vcal-conduitbase.cc:293
 #: conduits/vcalconduit/vcal-conduitbase.cc:355
-#, qt-format
+#, kde-format
+#| msgid "Using non-local time zone: %1"
 msgid "Using non-local time zone: %1"
 msgstr ""
 
 #: conduits/vcalconduit/vcal-conduitbase.cc:319
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "You chose to sync with the file \"%1\", which cannot be opened or "
+#| "created. Please make sure to supply a valid file name in the conduit's "
+#| "configuration dialog. Aborting the conduit."
 msgid ""
 "You chose to sync with the file \"%1\", which cannot be opened or created. "
 "Please make sure to supply a valid file name in the conduit's configuration "
@@ -1896,7 +1978,7 @@ msgid ""
 msgstr ""
 
 #: conduits/vcalconduit/vcal-conduitbase.cc:328
-#, qt-format
+#, kde-format
 msgid "Syncing with file \"%1\""
 msgstr "Sinkronisering met lêer \"%1\""
 
@@ -1914,7 +1996,9 @@ msgid "The configuration file is outdated."
 msgstr ""
 
 #: kpilot/kpilotConfig.cc:131
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The configuration file has version %1, while KPilot needs version %2."
 msgid "The configuration file has version %1, while KPilot needs version %2."
 msgstr ""
 
@@ -2153,7 +2237,7 @@ msgid "Do Not Overwrite"
 msgstr "Oorskryf"
 
 #: kpilot/logWidget.cc:273
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "<qt>Cannot open the file &quot;%1&quot; for writing; try again?</qt>"
 msgstr "Kan nie installeer lêer &quot;%1quot;!"
 
@@ -2180,7 +2264,7 @@ msgid "&Configure KPilot..."
 msgstr "Konfigureer Paaie..."
 
 #: kpilot/pilotDaemon.cc:123
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Default (%1)"
 msgstr "Db Spesiaal"
 
@@ -2197,7 +2281,7 @@ msgid " (once)"
 msgstr ""
 
 #: kpilot/pilotDaemon.cc:674
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Next HotSync will be: %1. "
 msgstr "Slegs doen 'n rugsteun"
 
@@ -2230,7 +2314,7 @@ msgid "HotSync Completed.<br/>"
 msgstr "Hotsync Klaar.<br>"
 
 #: kpilot/pilotDaemon.cc:1187
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Next sync is %1."
 msgstr "Sinkronisasie"
 
@@ -2403,14 +2487,17 @@ msgid "Install files that are dragged to KPilot onto the handheld."
 msgstr ""
 
 #: kpilot/config_dialog.cc:417
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>This is an internal action which has no configuration options. The "
+#| "action's description is: <i>%1</i> </qt>"
 msgid ""
 "<qt>This is an internal action which has no configuration options. The "
 "action's description is: <i>%1</i> </qt>"
 msgstr ""
 
 #: kpilot/config_dialog.cc:567
-#, qt-format
+#, kde-format
 msgid ""
 "<qt>No library could be found for the conduit %1. This means that the "
 "conduit was not installed properly.</qt>"
@@ -2423,7 +2510,7 @@ msgid "Conduit Error"
 msgstr "Pad Fout"
 
 #: kpilot/config_dialog.cc:580
-#, qt-format
+#, kde-format
 msgid ""
 "<qt>There was a problem loading the library for the conduit %1. This means "
 "that the conduit was not installed properly.</qt>"
@@ -2571,42 +2658,47 @@ msgid "Generic DB Viewer"
 msgstr ""
 
 #: kpilot/dbviewerWidget.cc:158
-#, qt-format
+#, kde-format
+#| msgid "<b>Warning:</b> Cannot read database file %1."
 msgid "<b>Warning:</b> Cannot read database file %1."
 msgstr ""
 
 #: kpilot/dbviewerWidget.cc:177
-#, qt-format
+#, kde-format
+#| msgid "<p><b>Database:</b> %1, %2 records<br/>"
 msgid "<p><b>Database:</b> %1, %2 records<br/>"
 msgstr ""
 
 #: kpilot/dbviewerWidget.cc:179
-#, qt-format
+#, kde-format
+#| msgid "<b>Type:</b> %1<br/><b>Creator:</b> %2</p>"
 msgid "<b>Type:</b> %1<br/><b>Creator:</b> %2</p>"
 msgstr ""
 
 #: kpilot/dbviewerWidget.cc:222 kpilot/dbviewerWidget.cc:230
-#, qt-format
+#, kde-format
+#| msgid "<b>Warning:</b> Cannot read application file %1."
 msgid "<b>Warning:</b> Cannot read application file %1."
 msgstr ""
 
 #: kpilot/dbviewerWidget.cc:238
-#, qt-format
+#, kde-format
+#| msgid "<p><b>Application:</b> %1</p>"
 msgid "<p><b>Application:</b> %1</p>"
 msgstr ""
 
 #: kpilot/dbviewerWidget.cc:246
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "<p><b>Created:</b> %1<br/>"
 msgstr "Backing begin: %1"
 
 #: kpilot/dbviewerWidget.cc:249
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "<b>Modified:</b> %1"
 msgstr "Backing begin: %1"
 
 #: kpilot/dbviewerWidget.cc:252
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "<br/><b>Backed up:</b> %1</p>"
 msgstr "Backing begin: %1"
 
@@ -2707,7 +2799,7 @@ msgid "Automatic Detection Failed"
 msgstr "Kpilot Konfigureerder"
 
 #: kpilot/config_dialog_probe.cc:299
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Found a connected device on %1"
 msgstr "Pilot ander foon:"
 
@@ -2736,7 +2828,7 @@ msgid "Delete selected files"
 msgstr "Uitvee die gekose memo."
 
 #: kpilot/hotSync.cc:327
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Backup directory: %1."
 msgstr "Rugsteun slegs:"
 
@@ -2763,17 +2855,18 @@ msgid "Fast backup complete."
 msgstr "Volgrote rugsteun volledige."
 
 #: kpilot/hotSync.cc:404
-#, qt-format
+#, kde-format
 msgid "Backing up: %1"
 msgstr "Backing begin: %1"
 
 #: kpilot/hotSync.cc:432
-#, qt-format
+#, kde-format
+#| msgid "Skipping %1"
 msgid "Skipping %1"
 msgstr ""
 
 #: kpilot/hotSync.cc:466
-#, qt-format
+#, kde-format
 msgid "Backup of %1 failed.\n"
 msgstr "Rugsteun van %1 gevaal.\n"
 
@@ -2799,7 +2892,7 @@ msgid "No Files to install"
 msgstr "Nee Lêers na installeer"
 
 #: kpilot/hotSync.cc:606
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Installing one file"
 msgid_plural "Installing %1 files"
 msgstr[0] "Klaar Installering Lêers"
@@ -2809,27 +2902,31 @@ msgid "Done Installing Files"
 msgstr "Klaar Installering Lêers"
 
 #: kpilot/hotSync.cc:638
-#, qt-format
+#, kde-format
 msgid "Installing %1"
 msgstr "Installering %1"
 
 #: kpilot/hotSync.cc:657
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Cannot install file &quot;%1&quot;."
 msgstr "Kan nie installeer lêer &quot;%1quot;!"
 
 #: kpilot/hotSync.cc:683 kpilot/hotSync.cc:692
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Unable to open file &quot;%1&quot;."
 msgstr "Nie moontlik na open lêer &quot;%1quot;!"
 
 #: kpilot/hotSync.cc:700
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Unable to read file &quot;%1&quot;."
 msgstr "Nie moontlik na open lêer &quot;%1quot;!"
 
 #: kpilot/hotSync.cc:715
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "The database in &quot;%1&quot; has a resource name that is longer than 31 "
+#| "characters. This suggests a bug in the tool used to create the database. "
+#| "KPilot cannot install this database."
 msgid ""
 "The database in &quot;%1&quot; has a resource name that is longer than 31 "
 "characters. This suggests a bug in the tool used to create the database. "
@@ -2842,7 +2939,7 @@ msgid "John Doe"
 msgstr "John Doe"
 
 #: kpilot/hotSync.cc:775
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "<qt>Neither KPilot nor the handheld have a username set. They <i>should</i> "
 "be set. Should KPilot set them to a default value (<i>%1</i>)?</qt>"
@@ -2855,7 +2952,7 @@ msgid "User Unknown"
 msgstr "Gebruiker Onbekende"
 
 #: kpilot/hotSync.cc:793
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "<qt>The handheld has a username set (<i>%1</i>) but KPilot does not. Should "
 "KPilot use this username in future?</qt>"
@@ -2864,7 +2961,7 @@ msgstr ""
 "Moet Kpilot gebruik hierdie gebruiker naam in toekomstige?"
 
 #: kpilot/hotSync.cc:810
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "KPilot has a username set (<i>%1</i>) but the handheld does not. Should "
 "KPilot's username be set in the handheld as well?"
@@ -2880,7 +2977,7 @@ msgid ""
 msgstr ""
 
 #: kpilot/hotSync.cc:842
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "<qt>The handheld thinks that the username is %1; however, KPilot says you "
 "are %2.Which of these is the correct name?\n"
@@ -2915,7 +3012,7 @@ msgid "Restore not performed."
 msgstr "Herstel nie werkverrigting."
 
 #: kpilot/hotSync.cc:961
-#, qt-format
+#, kde-format
 msgid ""
 "<qt>Are you sure you want to completely restore your Pilot from the backup "
 "directory (<i>%1</i>)? This will erase any information you currently have on "
@@ -2939,12 +3036,13 @@ msgid "Canceled by user."
 msgstr "Pilot oorskryf werkskerm"
 
 #: kpilot/hotSync.cc:981 kpilot/hotSync.cc:1051
-#, qt-format
+#, kde-format
 msgid "Restoring %1..."
 msgstr "Herstel %1..."
 
 #: kpilot/hotSync.cc:1000
-#, qt-format
+#, kde-format
+#| msgid "File '%1' cannot be read."
 msgid "File '%1' cannot be read."
 msgstr ""
 
@@ -2958,7 +3056,7 @@ msgid "Restore incomplete."
 msgstr "Herstel Pilot"
 
 #: kpilot/hotSync.cc:1059
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Cannot restore file `%1'."
 msgstr "Kan nie installeer lêer &quot;%1quot;!"
 
@@ -2967,7 +3065,10 @@ msgid "Starting the KPilot daemon ..."
 msgstr ""
 
 #: kpilot/kpilot.cc:193
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "Could not start the KPilot daemon. The system error message was: &quot;%"
+#| "1&quot;"
 msgid ""
 "Could not start the KPilot daemon. The system error message was: &quot;%"
 "1&quot;"
@@ -2982,12 +3083,13 @@ msgid "not running"
 msgstr ""
 
 #: kpilot/kpilot.cc:223
-#, qt-format
+#, kde-format
+#| msgid "Daemon status is `%1'"
 msgid "Daemon status is `%1'"
 msgstr ""
 
 #: kpilot/kpilot.cc:236
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Using character set %1 on the handheld."
 msgstr "Nie moontlik na open die adresboek."
 
@@ -3159,14 +3261,17 @@ msgid "kpilot"
 msgstr "Kpilot"
 
 #: kpilot/config_pages.cc:48
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "<qt>The settings for configuration page <i>%1</i> have been changed. Do "
+#| "you want to save the changes before continuing?</qt>"
 msgid ""
 "<qt>The settings for configuration page <i>%1</i> have been changed. Do you "
 "want to save the changes before continuing?</qt>"
 msgstr ""
 
 #: kpilot/fileInstaller.cc:110
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Cannot install %1"
 msgstr "Kan nie installeer lêer &quot;%1quot;!"
 
@@ -3302,12 +3407,13 @@ msgid "Export All Addresses"
 msgstr ""
 
 #: kpilot/addressWidget.cc:367
-#, qt-format
+#, kde-format
+#| msgid "Export Address Category %1"
 msgid "Export Address Category %1"
 msgstr ""
 
 #: kpilot/addressWidget.cc:383
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "The file <i>%1</i> exists. Overwrite?"
 msgstr "Die lêer bestaan. Doen jy wil hê na oorskryf dit?"
 
@@ -3317,7 +3423,7 @@ msgid "Overwrite File?"
 msgstr "Oorskryf"
 
 #: kpilot/addressWidget.cc:395
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "The file <i>%1</i> could not be opened for writing."
 msgstr "Nie moontlik na begin om te skryf pos liggaam\n"
 

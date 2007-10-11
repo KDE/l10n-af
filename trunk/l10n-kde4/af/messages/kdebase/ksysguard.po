@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-10 05:31+0200\n"
+"POT-Creation-Date: 2007-10-11 05:40+0200\n"
 "PO-Revision-Date: 2005-11-24 09:31+0200\n"
 "Last-Translator: Kobus Venter <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -18,17 +18,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: WorkSheet.cc:91 KSysGuardApplet.cc:305
-#, qt-format
+#, kde-format
 msgid "Cannot open the file %1."
 msgstr "Kan nie die lêer %1 oopmaak."
 
 #: WorkSheet.cc:99 KSysGuardApplet.cc:314
-#, qt-format
+#, kde-format
 msgid "The file %1 does not contain valid XML."
 msgstr "Die lêer %1 bevat nie die geldige Xml nie."
 
 #: WorkSheet.cc:106
-#, qt-format
+#, kde-format
 msgid ""
 "The file %1 does not contain a valid worksheet definition, which must have a "
 "document type 'KSysGuardWorkSheet'."
@@ -37,12 +37,12 @@ msgstr ""
 "dokument tipe 'KSysGuardWorkSheet'."
 
 #: WorkSheet.cc:129
-#, qt-format
+#, kde-format
 msgid "The file %1 has an invalid worksheet size."
 msgstr "Die lêer %1 het 'n ongeldige werkvel grootte."
 
 #: WorkSheet.cc:231 KSysGuardApplet.cc:458
-#, qt-format
+#, kde-format
 msgid "Cannot save file %1"
 msgstr "Kan nie stoor lêer %1"
 
@@ -89,7 +89,7 @@ msgid "Dummy"
 msgstr ""
 
 #: ksgrd/SensorAgent.cc:108
-#, qt-format
+#, kde-format
 msgid ""
 "Message from %1:\n"
 "%2"
@@ -396,22 +396,22 @@ msgid "Linux Soft Raid (md)"
 msgstr ""
 
 #: ksgrd/SensorManager.cc:143
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "CPU %1"
 msgstr "CPU%1"
 
 #: ksgrd/SensorManager.cc:144
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Disk %1"
 msgstr "Disk%1"
 
 #: ksgrd/SensorManager.cc:148
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Fan %1"
 msgstr "Fan%1"
 
 #: ksgrd/SensorManager.cc:149
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Temperature %1"
 msgstr "Temperature%1"
 
@@ -420,7 +420,7 @@ msgid "Total"
 msgstr "Totaal"
 
 #: ksgrd/SensorManager.cc:157
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid "Int %1"
 msgstr "Int%1"
 
@@ -458,29 +458,33 @@ msgid "Floating Point Value"
 msgstr "Wissel Punt Waarde"
 
 #: ksgrd/SensorManager.cc:271
-#, qt-format
+#, kde-format
 msgid "Connection to %1 has been lost."
 msgstr "Verbinding na %1 is verlore."
 
 #: ksgrd/SensorSocketAgent.cc:102
-#, qt-format
+#, kde-format
 msgid "Connection to %1 refused"
 msgstr "Verbinding na %1 geweier"
 
 #: ksgrd/SensorSocketAgent.cc:106
-#, qt-format
+#, kde-format
 msgid "Host %1 not found"
 msgstr "Bediener %1 nie gevind"
 
 #: ksgrd/SensorSocketAgent.cc:110
-#, qt-format
+#, kde-format
+#| msgid ""
+#| "An error occurred with the network (e.g., the network cable was "
+#| "accidentally plugged out) for host %1"
 msgid ""
 "An error occurred with the network (e.g., the network cable was accidentally "
 "plugged out) for host %1"
 msgstr ""
 
 #: ksgrd/SensorSocketAgent.cc:114
-#, qt-format
+#, kde-format
+#| msgid "Error for host %1: %2"
 msgid "Error for host %1: %2"
 msgstr ""
 
@@ -606,12 +610,12 @@ msgstr ""
 "werkblad te maak (Kielys Lêer-Nuut) voordat jy hier sensore kan trek-"
 
 #: Workspace.cc:103
-#, qt-format
+#, kde-format
 msgid "Sheet %1"
 msgstr "Staat %1"
 
 #: Workspace.cc:150
-#, qt-format
+#, kde-format
 msgid ""
 "The worksheet '%1' contains unsaved data.\n"
 "Do you want to save the worksheet?"
@@ -1035,7 +1039,7 @@ msgid "&Remove Display"
 msgstr "Verwyder Vertoon"
 
 #: SensorDisplayLib/SensorDisplay.cc:192
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid ""
 "<qt><p>This is a sensor display. To customize a sensor display click the "
 "right mouse button here and select the <i>Properties</i> entry from the "
@@ -1365,7 +1369,7 @@ msgstr ""
 "van sensor. Asseblief kies nog 'n sensor."
 
 #: KSysGuardApplet.cc:321
-#, qt-format
+#, kde-format
 msgid ""
 "The file %1 does not contain a valid applet definition, which must have a "
 "document type 'KSysGuardApplet'."
@@ -1453,17 +1457,18 @@ msgid "&Worksheet Properties"
 msgstr "Werkvel Eienskappe"
 
 #: ksysguard.cc:390
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid " %1 processes "
 msgstr "1 Proses"
 
 #: ksysguard.cc:395
-#, fuzzy, qt-format
+#, fuzzy, kde-format
 msgid " CPU: %1% "
 msgstr "CPU%1"
 
 #: ksysguard.cc:409
-#, qt-format
+#, kde-format
+#| msgid " Memory: %1 / %2 "
 msgid " Memory: %1 / %2 "
 msgstr ""
 
@@ -1473,7 +1478,8 @@ msgid " No swap space available "
 msgstr "Geen uitruil ruimte beskikbaar"
 
 #: ksysguard.cc:438
-#, qt-format
+#, kde-format
+#| msgid " Swap: %1 / %2 "
 msgid " Swap: %1 / %2 "
 msgstr ""
 
