@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-11 05:40+0200\n"
+"POT-Creation-Date: 2007-10-14 05:38+0200\n"
 "PO-Revision-Date: 2005-11-23 23:00+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -17,37 +17,56 @@ msgstr ""
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: configdialog.cpp:50
+#: configdialog.cpp:56
 #, fuzzy
-msgid "Configure"
-msgstr "Konfigureer Klipper..."
-
-#: configdialog.cpp:60
-msgid "&General"
+#| msgid "&General"
+msgctxt "General Config"
+msgid "General"
 msgstr "Algemeen"
 
-#: configdialog.cpp:64
-msgid "Ac&tions"
+#: configdialog.cpp:56
+#, fuzzy
+#| msgid "&General"
+msgid "General Config"
+msgstr "Algemeen"
+
+#: configdialog.cpp:60
+#, fuzzy
+#| msgid "Ac&tions"
+msgctxt "Actions Config"
+msgid "Actions"
 msgstr "Aksies"
 
-#: configdialog.cpp:68
+#: configdialog.cpp:60
 #, fuzzy
-msgid "&Shortcuts"
+#| msgid "Ac&tions"
+msgid "Actions Config"
+msgstr "Aksies"
+
+#: configdialog.cpp:64
+#, fuzzy
+msgctxt "Shortcuts Config"
+msgid "Shortcuts"
 msgstr "Kortpaaie"
 
-#: configdialog.cpp:109
+#: configdialog.cpp:64
+#, fuzzy
+msgid "Shortcuts Config"
+msgstr "Kortpaaie"
+
+#: configdialog.cpp:104
 msgid "&Popup menu at mouse-cursor position"
 msgstr "Opspring kieslys na muis-wyser posisie"
 
-#: configdialog.cpp:111
+#: configdialog.cpp:106
 msgid "Save clipboard contents on e&xit"
 msgstr "Stoor klipbord inhoud op beïendig"
 
-#: configdialog.cpp:113
+#: configdialog.cpp:108
 msgid "Remove whitespace when executing actions"
 msgstr "Verwyder witspasie by uitvoering van aksies"
 
-#: configdialog.cpp:115
+#: configdialog.cpp:110
 msgid ""
 "Sometimes, the selected text has some whitespace at the end, which, if "
 "loaded as URL in a browser would cause an error. Enabling this option "
@@ -59,15 +78,15 @@ msgstr ""
 "verwyder enige witspasies aan die begin of einde van die verkose string (die "
 "oorspronklike klipbord inhoud sal nie modifiseer word nie)."
 
-#: configdialog.cpp:117
+#: configdialog.cpp:112
 msgid "&Replay actions on an item selected from history"
 msgstr "Weerspeel aksies op 'n item gekose van geskiedenis"
 
-#: configdialog.cpp:120
+#: configdialog.cpp:115
 msgid "Pre&vent empty clipboard"
 msgstr "Verhoed leegmaak van klipbord"
 
-#: configdialog.cpp:122
+#: configdialog.cpp:117
 msgid ""
 "Selecting this option has the effect, that the clipboard can never be "
 "emptied. E.g. when an application exits, the clipboard would usually be "
@@ -77,11 +96,11 @@ msgstr ""
 "kan word nie. Byvoorbeeld wanneer 'n aansoek uitgaan, sal die klipbord "
 "gewoonlik leeggemaak word."
 
-#: configdialog.cpp:127
+#: configdialog.cpp:122
 msgid "&Ignore selection"
 msgstr "Ignoreer keuse"
 
-#: configdialog.cpp:129
+#: configdialog.cpp:124
 msgid ""
 "This option prevents the selection being recorded in the clipboard history. "
 "Only explicit clipboard changes are recorded."
@@ -89,11 +108,11 @@ msgstr ""
 "Hierdie opsie voorkom dat die keuse opgeneem word in die klipbord "
 "geskiedenis. Slegs eksplisiete klipbord veranderinge word opgeneem."
 
-#: configdialog.cpp:133
+#: configdialog.cpp:128
 msgid "Clipboard/Selection Behavior"
 msgstr "Klipbord/Keuse Gedrag"
 
-#: configdialog.cpp:137
+#: configdialog.cpp:132
 #, fuzzy
 #| msgid ""
 #| "<qt>There are two different clipboard buffers available:"
@@ -118,11 +137,11 @@ msgstr ""
 "toegang te verkry tot die keuse is om te druk die middelste muis knoppie."
 "<br><br>U kan die verhouding tussen klipbord en Keuse konfigureer.</qt>"
 
-#: configdialog.cpp:148
+#: configdialog.cpp:143
 msgid "Sy&nchronize contents of the clipboard and the selection"
 msgstr "Sinkroniseer inhoud van die klipbord en die keuse"
 
-#: configdialog.cpp:151
+#: configdialog.cpp:146
 msgid ""
 "Selecting this option synchronizes these two buffers, so they work the same "
 "way as in KDE 1.x and 2.x."
@@ -130,11 +149,11 @@ msgstr ""
 "Die kies van hierdie opsie sinkroniseer hierdie twee buffers, sodat hulle op "
 "dieselfde manier werk as in Kde 1.x en 2.x."
 
-#: configdialog.cpp:155
+#: configdialog.cpp:150
 msgid "Separate clipboard and selection"
 msgstr "Aparte klipbord en keuse"
 
-#: configdialog.cpp:157
+#: configdialog.cpp:152
 msgid ""
 "Using this option will only set the selection when highlighting something "
 "and the clipboard when choosing e.g. \"Copy\" in a menubar."
@@ -142,54 +161,54 @@ msgstr ""
 "Gebruik van hierdie opsie sal slegs stel die keuse wanneer verligting iets "
 "en die klipbord wanneer gekies bv. \"Kopie\" in 'n kiesbalk."
 
-#: configdialog.cpp:164
+#: configdialog.cpp:159
 msgid "Tim&eout for action popups:"
 msgstr "Tydverstreke vir aksie opspring:"
 
-#: configdialog.cpp:166
+#: configdialog.cpp:161
 msgid " sec"
 msgstr " sek"
 
-#: configdialog.cpp:167
+#: configdialog.cpp:162
 msgid "A value of 0 disables the timeout"
 msgstr "'n waarde van 0 deaktiveer die tydverstreke"
 
-#: configdialog.cpp:170
+#: configdialog.cpp:165
 msgid "C&lipboard history size:"
 msgstr "Klipbord geskiedenis grootte:"
 
-#: configdialog.cpp:192
+#: configdialog.cpp:187
 msgid " entry"
 msgid_plural " entries"
 msgstr[0] "inskrywing"
 msgstr[1] " inskrywings"
 
-#: configdialog.cpp:240
+#: configdialog.cpp:232
 msgid "Action &list (right click to add/remove commands):"
 msgstr "Aksie lys (regterkant kliek na voeg by/verwyder opdragte):"
 
-#: configdialog.cpp:244
+#: configdialog.cpp:236
 msgid "Regular Expression (see http://doc.trolltech.com/qregexp.html#details)"
 msgstr ""
 "Gewone Uitdrukking (sien http://dok.trolltech.com/qregexp.html#details)"
 
-#: configdialog.cpp:245
+#: configdialog.cpp:237
 msgid "Description"
 msgstr "Beskrywing"
 
-#: configdialog.cpp:297
+#: configdialog.cpp:289
 msgid "&Use graphical editor for editing regular expressions"
 msgstr "Gebruik grafiese redigeerder vir redigering gewone uitdrukkings"
 
-#: configdialog.cpp:306
+#: configdialog.cpp:298
 msgid "&Add Action"
 msgstr "Voeg by Aksie"
 
-#: configdialog.cpp:309
+#: configdialog.cpp:301
 msgid "&Delete Action"
 msgstr "Uitvee Aksie"
 
-#: configdialog.cpp:312
+#: configdialog.cpp:304
 #, c-format
 msgid ""
 "Click on a highlighted item's column to change it. \"%s\" in a command will "
@@ -198,43 +217,43 @@ msgstr ""
 "Kliek op 'n verligte item se kolom om dit te verander. \"%s\" in 'n opdrag "
 "sal vervang word met die klipbord inhoud."
 
-#: configdialog.cpp:319
+#: configdialog.cpp:311
 msgid "Advanced..."
 msgstr "Gevorderde..."
 
-#: configdialog.cpp:343
+#: configdialog.cpp:335
 msgid "Add Command"
 msgstr "Voeg by Opdrag"
 
-#: configdialog.cpp:344
+#: configdialog.cpp:336
 msgid "Remove Command"
 msgstr "Verwyder Opdrag"
 
-#: configdialog.cpp:354
+#: configdialog.cpp:346
 msgid "Click here to set the command to be executed"
 msgstr "Kliek hier om te stel die opdrag wat uitgevoer moet word"
 
-#: configdialog.cpp:355
+#: configdialog.cpp:347
 msgid "<new command>"
 msgstr "<nuwe opdrag>"
 
-#: configdialog.cpp:377
+#: configdialog.cpp:369
 msgid "Click here to set the regexp"
 msgstr "Kliek hier om te stel die regexp"
 
-#: configdialog.cpp:378
+#: configdialog.cpp:370
 msgid "<new action>"
 msgstr "<nuwe aksie>"
 
-#: configdialog.cpp:419
+#: configdialog.cpp:411
 msgid "Advanced Settings"
 msgstr "Gevorderde Instellings"
 
-#: configdialog.cpp:441
+#: configdialog.cpp:431
 msgid "D&isable Actions for Windows of Type WM_CLASS"
 msgstr "Deaktiveer Aksies vir Vensters van Tipe WM_CLASS"
 
-#: configdialog.cpp:444
+#: configdialog.cpp:434
 #, fuzzy
 #| msgid ""
 #| "<qt>This lets you specify windows in which Klipper should not invoke "
@@ -255,19 +274,19 @@ msgstr ""
 "Volgende, kliek op die venster wat u wil ondersoek. Die eerste string wat "
 "dit uitset na die gelyk teken is die een wat u hier moet invoer.</qt>"
 
-#: klipper.cpp:163
+#: klipper.cpp:142
 msgid "C&lear Clipboard History"
 msgstr "Maak skoon Klipbord Geskiedenis"
 
-#: klipper.cpp:169
+#: klipper.cpp:148
 msgid "&Configure Klipper..."
 msgstr "Konfigureer Klipper..."
 
-#: klipper.cpp:174
+#: klipper.cpp:153
 msgid "&Quit"
 msgstr ""
 
-#: klipper.cpp:493
+#: klipper.cpp:470
 msgid ""
 "You can enable URL actions later by right-clicking on the Klipper icon and "
 "selecting 'Enable Actions'"
@@ -275,7 +294,7 @@ msgstr ""
 "U kan Url aksies later aktiveer deur regter-drukking op die Klipper ikoon en "
 "deur te kies 'aktiveer aksies'"
 
-#: klipper.cpp:562
+#: klipper.cpp:539
 msgid ""
 "Should Klipper start automatically\n"
 "when you login?"
@@ -283,78 +302,78 @@ msgstr ""
 "Moet Klipper outomaties\n"
 "begin wanneer u aanteken?"
 
-#: klipper.cpp:562
+#: klipper.cpp:539
 msgid "Automatically Start Klipper?"
 msgstr "Outomaties Begin Klipper?"
 
-#: klipper.cpp:562
+#: klipper.cpp:539
 msgid "Start"
 msgstr "Begin"
 
-#: klipper.cpp:562
+#: klipper.cpp:539
 msgid "Do Not Start"
 msgstr "Moet Nie Begin"
 
-#: klipper.cpp:615
+#: klipper.cpp:592
 msgid "Enable &Actions"
 msgstr "Aktiveer Aksies"
 
-#: klipper.cpp:619
+#: klipper.cpp:596
 msgid "&Actions Enabled"
 msgstr "Aksies geaktiveer"
 
-#: klipper.cpp:1061
+#: klipper.cpp:1038
 msgid "KDE cut & paste history utility"
 msgstr "Kde knip & plak geskiedenis program"
 
-#: klipper.cpp:1065
+#: klipper.cpp:1042
 msgid "Klipper"
 msgstr "Klipper"
 
-#: klipper.cpp:1067
+#: klipper.cpp:1044
 msgid ""
 "(c) 1998, Andrew Stanley-Jones\n"
 "1998-2002, Carsten Pfeiffer\n"
 "2001, Patrick Dubroy"
 msgstr ""
 
-#: klipper.cpp:1071
+#: klipper.cpp:1048
 msgid "Carsten Pfeiffer"
 msgstr ""
 
-#: klipper.cpp:1072
+#: klipper.cpp:1049
 msgid "Author"
 msgstr "Outeur"
 
-#: klipper.cpp:1075
+#: klipper.cpp:1052
 msgid "Andrew Stanley-Jones"
 msgstr ""
 
-#: klipper.cpp:1076
+#: klipper.cpp:1053
 msgid "Original Author"
 msgstr "Oorspronklike Outeur"
 
-#: klipper.cpp:1079
+#: klipper.cpp:1056
 msgid "Patrick Dubroy"
 msgstr ""
 
-#: klipper.cpp:1080
+#: klipper.cpp:1057
 msgid "Contributor"
 msgstr "Bydraer"
 
-#: klipper.cpp:1083
+#: klipper.cpp:1060
 msgid "Luboš Luňák"
 msgstr ""
 
-#: klipper.cpp:1084
+#: klipper.cpp:1061
 msgid "Bugfixes and optimizations"
 msgstr "Fout herstellers en optimerings"
 
-#: klipper.cpp:1087
+#: klipper.cpp:1064
 msgid "Esben Mose Hansen"
 msgstr ""
 
-#: klipper.cpp:1088
+#: klipper.cpp:1065
 msgid "Maintainer"
 msgstr "Onderhouer"
 
@@ -374,15 +393,15 @@ msgstr "Eiehandig Aktiveer Aksie op Huidige Klipbord"
 msgid "Enable/Disable Clipboard Actions"
 msgstr "Aktiveer/Deaktiveer Klipbord Aksies"
 
-#: klipperpopup.cpp:97
+#: klipperpopup.cpp:88
 msgid "<empty clipboard>"
 msgstr "<klipbord leegmaak>"
 
-#: klipperpopup.cpp:98
+#: klipperpopup.cpp:89
 msgid "<no matches>"
 msgstr "<geen saampassings>"
 
-#: klipperpopup.cpp:145
+#: klipperpopup.cpp:134
 msgid "Klipper - Clipboard Tool"
 msgstr "Klipper - Klipbord Program"
 
@@ -423,3 +442,7 @@ msgstr ""
 #: urlgrabber.cpp:264
 msgid "Edit Contents"
 msgstr "Redigeer Inhoud"
+
+#, fuzzy
+#~ msgid "Configure"
+#~ msgstr "Konfigureer Klipper..."
