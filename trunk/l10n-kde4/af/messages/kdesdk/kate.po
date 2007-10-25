@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-24 06:11+0200\n"
+"POT-Creation-Date: 2007-10-25 06:18+0200\n"
 "PO-Revision-Date: 2005-11-24 11:27+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -619,13 +619,13 @@ msgstr "Bestuur..."
 msgid "&Quick Open"
 msgstr "Vinnig oopmaak"
 
-#: app/katemainwindow.cpp:422 app/katedocmanager.cpp:437
+#: app/katemainwindow.cpp:422 app/katedocmanager.cpp:445
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr ""
 "Nuwe lêer was oopgemaak terwyl Kate besig was om toe te maak. Toemaak "
 "gestaak."
 
-#: app/katemainwindow.cpp:423 app/katedocmanager.cpp:438
+#: app/katemainwindow.cpp:423 app/katedocmanager.cpp:446
 msgid "Closing Aborted"
 msgstr "Toemaak gestaak"
 
@@ -904,20 +904,20 @@ msgstr "Dokument Lys"
 msgid "Document List Settings"
 msgstr "Dokument lys instellings"
 
-#: app/kateconfigdialog.cpp:242
+#: app/kateconfigdialog.cpp:243
 msgid "Plugins"
 msgstr "Inprop modules"
 
-#: app/kateconfigdialog.cpp:243
+#: app/kateconfigdialog.cpp:244
 msgid "Plugin Manager"
 msgstr "Inplak Bestuurder"
 
-#: app/kateconfigdialog.cpp:257
+#: app/kateconfigdialog.cpp:258
 #, fuzzy
 msgid "Editor Component"
 msgstr "Kies Redigeerder Komponent"
 
-#: app/kateconfigdialog.cpp:259
+#: app/kateconfigdialog.cpp:260
 #, fuzzy
 msgid "Editor Component Options"
 msgstr "Kies Redigeerder Komponent"
@@ -1180,19 +1180,19 @@ msgstr "Lees die inhoud van stdin"
 msgid "Document to open"
 msgstr "Dokument om oop te maak"
 
-#: app/katedocmanager.cpp:291
+#: app/katedocmanager.cpp:299
 #, kde-format
 msgid ""
 "The supposedly temporary file %1 has been modified. Do you want to delete it "
 "anyway?"
 msgstr ""
 
-#: app/katedocmanager.cpp:293
+#: app/katedocmanager.cpp:301
 #, fuzzy
 msgid "Delete File?"
 msgstr "Uitgevee"
 
-#: app/katedocmanager.cpp:402
+#: app/katedocmanager.cpp:410
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
@@ -1204,24 +1204,24 @@ msgstr ""
 "<p>Die dokument '%1' was verander, maar nog nie gestoor nie.<p>Wil jy jou "
 "veranderinge stoor of weggooi?"
 
-#: app/katedocmanager.cpp:404
+#: app/katedocmanager.cpp:412
 msgid "Close Document"
 msgstr "Maak Dokument Toe"
 
-#: app/katedocmanager.cpp:411
+#: app/katedocmanager.cpp:419
 #, fuzzy
 msgid "Save As"
 msgstr "Stoor As..."
 
-#: app/katedocmanager.cpp:482
+#: app/katedocmanager.cpp:490
 msgid "Starting Up"
 msgstr "Besig om op te start"
 
-#: app/katedocmanager.cpp:483
+#: app/katedocmanager.cpp:491
 msgid "Reopening files from the last session..."
 msgstr "Maak die lêers van die vorige sessie oop..."
 
-#: app/katedocmanager.cpp:684
+#: app/katedocmanager.cpp:692
 msgid "Errors/Warnings while opening documents"
 msgstr ""
 
@@ -1338,25 +1338,68 @@ msgstr ""
 msgid "Session Renaming"
 msgstr "Sessie naam:"
 
-#: app/katefilelist.cpp:38
+#: app/katefilelist.cpp:51
 msgid "Sort &By"
 msgstr "Sorteer volgens"
 
-#: app/katefilelist.cpp:42
+#: app/katefilelist.cpp:55 app/katefilelist.cpp:179
 msgid "Opening Order"
 msgstr "Oopmaak volgorde"
 
-#: app/katefilelist.cpp:42
+#: app/katefilelist.cpp:55 app/katefilelist.cpp:180
 msgid "Document Name"
 msgstr "Dokument naam"
 
-#: app/katefilelist.cpp:42
+#: app/katefilelist.cpp:55
 msgid "URL"
 msgstr "URL"
 
-#: app/katefilelist.cpp:42
+#: app/katefilelist.cpp:55 app/katefilelist.cpp:182
 msgid "Custom"
 msgstr ""
+
+#: app/katefilelist.cpp:153
+msgid "Background Shading"
+msgstr "Agtergrond skakering"
+
+#: app/katefilelist.cpp:162
+msgid "&Viewed documents' shade:"
+msgstr "Vertoonde dokument se skadu:"
+
+#: app/katefilelist.cpp:167
+msgid "&Modified documents' shade:"
+msgstr "Verander die dokument se skadu:"
+
+#: app/katefilelist.cpp:174
+msgid "&Sort by:"
+msgstr "Sorteer volgens:"
+
+#: app/katefilelist.cpp:181
+msgid "Url"
+msgstr ""
+
+#: app/katefilelist.cpp:187
+msgid ""
+"When background shading is enabled, documents that have been viewed or "
+"edited within the current session will have a shaded background. The most "
+"recent documents have the strongest shade."
+msgstr ""
+"As agtergrond skadus geaktiveer is, sal dokumente waarna gekyk is of "
+"geredigeer is tydens die huidige sessie se agtergrond 'n skaduwee hê. Die "
+"onlangste dokument se skaduwee sal die donkerste wees."
+
+#: app/katefilelist.cpp:191
+msgid "Set the color for shading viewed documents."
+msgstr "Stel die kleur van die skadu vir dokumente waarna gekyk is."
+
+#: app/katefilelist.cpp:193
+msgid ""
+"Set the color for modified documents. This color is blended into the color "
+"for viewed files. The most recently edited documents get most of this color."
+msgstr ""
+"Stel die kleur van die skadu vir dokumente wat verander is. Hierdie kleur "
+"sal vermeng word met die van lêers waarna gekyk is. Die lêer wat die "
+"onlangste geredigeer is sal die meeste van hierdie kleur kry."
 
 #: app/kateviewmanager.cpp:117
 msgid "Split Ve&rtical"
@@ -2426,41 +2469,8 @@ msgstr "Sessies"
 #~ msgstr ""
 #~ "<b>Hierdie lêer was deur 'n ander program op die skyf uitgevee.</b><br />"
 
-#~ msgid "Background Shading"
-#~ msgstr "Agtergrond skakering"
-
 #~ msgid "&Enable background shading"
 #~ msgstr "Aktiveer agtergrond skakering"
-
-#~ msgid "&Viewed documents' shade:"
-#~ msgstr "Vertoonde dokument se skadu:"
-
-#~ msgid "&Modified documents' shade:"
-#~ msgstr "Verander die dokument se skadu:"
-
-#~ msgid "&Sort by:"
-#~ msgstr "Sorteer volgens:"
-
-#~ msgid ""
-#~ "When background shading is enabled, documents that have been viewed or "
-#~ "edited within the current session will have a shaded background. The most "
-#~ "recent documents have the strongest shade."
-#~ msgstr ""
-#~ "As agtergrond skadus geaktiveer is, sal dokumente waarna gekyk is of "
-#~ "geredigeer is tydens die huidige sessie se agtergrond 'n skaduwee hê. Die "
-#~ "onlangste dokument se skaduwee sal die donkerste wees."
-
-#~ msgid "Set the color for shading viewed documents."
-#~ msgstr "Stel die kleur van die skadu vir dokumente waarna gekyk is."
-
-#~ msgid ""
-#~ "Set the color for modified documents. This color is blended into the "
-#~ "color for viewed files. The most recently edited documents get most of "
-#~ "this color."
-#~ msgstr ""
-#~ "Stel die kleur van die skadu vir dokumente wat verander is. Hierdie kleur "
-#~ "sal vermeng word met die van lêers waarna gekyk is. Die lêer wat die "
-#~ "onlangste geredigeer is sal die meeste van hierdie kleur kry."
 
 #~ msgid "Set the sorting method for the documents."
 #~ msgstr "Stel dir sortering metode vir die dokumente."
