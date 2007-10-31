@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxkb stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-30 05:49+0100\n"
+"POT-Creation-Date: 2007-10-31 05:48+0100\n"
 "PO-Revision-Date: 2005-11-24 22:08+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Layout Name"
 msgstr "Lao"
 
-#: kcmlayout.cpp:114 kcmlayout.cpp:174 kcmlayout.cpp:356
+#: kcmlayout.cpp:114 kcmlayout.cpp:174
 msgid "Map"
 msgstr ""
 
@@ -35,11 +35,6 @@ msgstr "Bulgaars"
 msgid "Label"
 msgstr ""
 
-#: kcmlayout.cpp:355
-#, fuzzy
-msgid "Layout name"
-msgstr "Lao"
-
 #: kcmlayout.cpp:577
 msgid "Multiple keys"
 msgstr ""
@@ -49,16 +44,16 @@ msgid "Defined"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 604
+#. i18n: file kcmlayoutwidget.ui line 403
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 656
+#. i18n: file kcmlayoutwidget.ui line 424
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 695
-#: kcmlayout.cpp:582 kcmlayout.cpp:603 rc.cpp:113 rc.cpp:125 rc.cpp:134
+#. i18n: file kcmlayoutwidget.ui line 445
+#: kcmlayout.cpp:582 kcmlayout.cpp:612 rc.cpp:101 rc.cpp:110 rc.cpp:119
 msgid "Not defined"
 msgstr ""
 
-#: kcmlayout.cpp:598 kxkbbindings.cpp:16
+#: kcmlayout.cpp:607 kxkbbindings.cpp:16
 msgid "Switch to Next Keyboard Layout"
 msgstr "Wissel na Volgende Sleutelbord Uitleg"
 
@@ -86,16 +81,16 @@ msgstr "Sleutelbord"
 msgid "Switch keyboard layout"
 msgstr "Wissel na Volgende Sleutelbord Uitleg"
 
-#: kxkbwidget.cpp:56
+#: kxkbwidget.cpp:57
 #, kde-format
 msgid "Error changing keyboard layout to '%1'"
 msgstr "Fout terwyl sleutelbord uitleg na %1 toe verander het"
 
-#: kxkbwidget.cpp:113
+#: kxkbwidget.cpp:115
 msgid "Configure..."
 msgstr "Konfigureer..."
 
-#: kxkbwidget.cpp:118
+#: kxkbwidget.cpp:120
 msgid "Help"
 msgstr ""
 
@@ -107,8 +102,48 @@ msgid "Layout"
 msgstr "Lao"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 44
+#. i18n: file kcmlayoutwidget.ui line 41
 #: rc.cpp:6
+msgid "KDE will configure layouts and start layout indicator"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 44
+#: rc.cpp:9
+msgid "&Enable keyboard layouts"
+msgstr "Aktiveer sleutelbord uitlegte"
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 51
+#: rc.cpp:12
+msgid "KDE will start indicator but will use existing layout configuration"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 54
+#: rc.cpp:15
+msgid "Indicator only"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 61
+#: rc.cpp:18
+#, fuzzy
+#| msgid "Switch to Next Keyboard Layout"
+msgid "KDE will not configure or show keyboard layouts"
+msgstr "Wissel na Volgende Sleutelbord Uitleg"
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 64
+#: rc.cpp:21
+#, fuzzy
+#| msgid "&Enable keyboard layouts"
+msgid "Disable keyboard layouts"
+msgstr "Aktiveer sleutelbord uitlegte"
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 74
+#: rc.cpp:24
 msgid ""
 "<h1>Keyboard Layout</h1> Here you can choose your keyboard layout and model. "
 "The 'model' refers to the type of keyboard that is connected to your "
@@ -121,65 +156,39 @@ msgstr ""
 "\" en dalk mag verskillend weer vir verskillende lande."
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 59
-#: rc.cpp:9
-msgid "Available layouts:"
-msgstr "Beskikbare uitlegte"
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 72
-#: rc.cpp:12
-msgid "Active layouts:"
-msgstr "Aktiewe uitlegte"
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 120
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 744
-#: rc.cpp:15 rc.cpp:152
-msgid "Command:"
-msgstr "Opdrag:"
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 136
-#: rc.cpp:18
-msgid ""
-"This is the command which is executed when switching to the selected layout. "
-"It may help you if you want to debug layout switching, or if you want to "
-"switch layouts without the help of KDE."
-msgstr ""
-"Hierdie is die opdrag wat uitgevoer word wanneer gewissel word na die "
-"verkose uitleg. Dit mag jou help as jy die uitleg wisseling wil ontfout, of "
-"as jy uitlegte wil wissel sonder die hulp van KDE."
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 183
-#: rc.cpp:21
-msgid "Add >>"
-msgstr "Byvoeg >>"
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 190
-#: rc.cpp:24
-msgid "<< Remove"
-msgstr "<< Verwyder"
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 235
+#. i18n: file kcmlayoutwidget.ui line 83
 #: rc.cpp:27
-msgid "Label:"
+msgid "Indicator Options"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 289
+#. i18n: file kcmlayoutwidget.ui line 89
 #: rc.cpp:30
+msgid "Show indicator for single layout"
+msgstr "Vertoon indikator vir enkele uitleg"
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 96
+#: rc.cpp:33
+msgid "Shows country flag on background of layout name in tray icon"
+msgstr "Wys landsvlag op agtergrons van uitleg naam in skinkbord ikoon"
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 99
+#: rc.cpp:36
+msgid "Show country flag"
+msgstr "Wys land vlag"
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 112
+#: rc.cpp:39
 #, fuzzy
 msgid "Keyboard &model:"
 msgstr "Kde Sleutelbord Program"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 312
-#: rc.cpp:33
+#. i18n: file kcmlayoutwidget.ui line 125
+#: rc.cpp:42
 msgid ""
 "Here you can choose a keyboard model. This setting is independent of your "
 "keyboard layout and refers to the \"hardware\" model, i.e. the way your "
@@ -196,39 +205,39 @@ msgstr ""
 "tipe sleutelbord jy het nie.\n"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 326
-#: rc.cpp:37
-msgid "Indicator Options"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 338
-#: rc.cpp:40
-msgid "Shows country flag on background of layout name in tray icon"
-msgstr "Wys landsvlag op agtergrons van uitleg naam in skinkbord ikoon"
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 341
-#: rc.cpp:43
-msgid "Show country flag"
-msgstr "Wys land vlag"
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 357
+#. i18n: file kcmlayoutwidget.ui line 137
 #: rc.cpp:46
-msgid "Show indicator for single layout"
-msgstr "Vertoon indikator vir enkele uitleg"
+msgid "Available layouts:"
+msgstr "Beskikbare uitlegte"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 374
+#. i18n: file kcmlayoutwidget.ui line 158
 #: rc.cpp:49
+msgid "Active layouts:"
+msgstr "Aktiewe uitlegte"
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 195
+#: rc.cpp:52
+msgid "Add >>"
+msgstr "Byvoeg >>"
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 202
+#: rc.cpp:55
+msgid "<< Remove"
+msgstr "<< Verwyder"
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 239
+#: rc.cpp:58
 #, fuzzy
 msgid "Layout variant:"
 msgstr "Latvian"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 385
-#: rc.cpp:52
+#. i18n: file kcmlayoutwidget.ui line 250
+#: rc.cpp:61
 msgid ""
 "Here you can choose a variant of selected keyboard layout. Layout variants "
 "usually represent different key maps for the same language. For example, "
@@ -244,53 +253,39 @@ msgstr ""
 "een).\n"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 405
-#: rc.cpp:56
-msgid "KDE will configure layouts and start layout indicator"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 408
-#: rc.cpp:59
-msgid "&Enable keyboard layouts"
-msgstr "Aktiveer sleutelbord uitlegte"
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 415
-#: rc.cpp:62
-msgid "KDE will start indicator but will use existing layout configuration"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 418
+#. i18n: file kcmlayoutwidget.ui line 261
 #: rc.cpp:65
-msgid "Indicator only"
+msgid "Label:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 425
-#: rc.cpp:68
-#, fuzzy
-#| msgid "Switch to Next Keyboard Layout"
-msgid "KDE will not configure or show keyboard layouts"
-msgstr "Wissel na Volgende Sleutelbord Uitleg"
+#. i18n: file kcmlayoutwidget.ui line 305
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 594
+#: rc.cpp:68 rc.cpp:152
+msgid "Command:"
+msgstr "Opdrag:"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 428
+#. i18n: file kcmlayoutwidget.ui line 315
 #: rc.cpp:71
-#, fuzzy
-#| msgid "&Enable keyboard layouts"
-msgid "Disable keyboard layouts"
-msgstr "Aktiveer sleutelbord uitlegte"
+msgid ""
+"This is the command which is executed when switching to the selected layout. "
+"It may help you if you want to debug layout switching, or if you want to "
+"switch layouts without the help of KDE."
+msgstr ""
+"Hierdie is die opdrag wat uitgevoer word wanneer gewissel word na die "
+"verkose uitleg. Dit mag jou help as jy die uitleg wisseling wil ontfout, of "
+"as jy uitlegte wil wissel sonder die hulp van KDE."
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 437
+#. i18n: file kcmlayoutwidget.ui line 329
 #: rc.cpp:74
 msgid "Switching Options"
 msgstr "Omskakeling Opsies"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 461
+#. i18n: file kcmlayoutwidget.ui line 347
 #: rc.cpp:77
 msgid ""
 "If you select \"Application\" or \"Window\" switching policy, changing the "
@@ -300,44 +295,80 @@ msgstr ""
 "sleutelbord uitleg sal slegs die huidige program of venster beinvloed."
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 464
+#. i18n: file kcmlayoutwidget.ui line 350
 #: rc.cpp:80
 msgid "Switching Policy"
 msgstr "Omskakeling Beleid"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 470
+#. i18n: file kcmlayoutwidget.ui line 356
 #: rc.cpp:83
 msgid "&Global"
 msgstr "Globale"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 480
+#. i18n: file kcmlayoutwidget.ui line 366
 #: rc.cpp:86
 msgid "Desktop"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 487
+#. i18n: file kcmlayoutwidget.ui line 373
 #: rc.cpp:89
 msgid "Application"
 msgstr "Aansoek"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 494
+#. i18n: file kcmlayoutwidget.ui line 380
 #: rc.cpp:92
 msgid "&Window"
 msgstr "Venster"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 510
+#. i18n: file kcmlayoutwidget.ui line 390
 #: rc.cpp:95
+#, fuzzy
+#| msgid "Show indicator for single layout"
+msgid "Shortcuts for switching layout"
+msgstr "Vertoon indikator vir enkele uitleg"
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 396
+#: rc.cpp:98
+msgid "KDE"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 410
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 431
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 452
+#: rc.cpp:104 rc.cpp:113 rc.cpp:122
+msgid "..."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 417
+#: rc.cpp:107
+msgid "X.org"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 438
+#: rc.cpp:116
+msgid "3d level"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file kcmlayoutwidget.ui line 462
+#: rc.cpp:125
 msgid "Sticky Switching"
 msgstr "Moeilike Wisseling"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 534
-#: rc.cpp:98
+#. i18n: file kcmlayoutwidget.ui line 486
+#: rc.cpp:128
 msgid ""
 "If you have more than two layouts and turn this option on, switching with "
 "the keyboard shortcut or clicking on the kxkb indicator will only cycle "
@@ -352,67 +383,31 @@ msgstr ""
 "regs-kliek op die kxkb indikator."
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 537
-#: rc.cpp:101
+#. i18n: file kcmlayoutwidget.ui line 489
+#: rc.cpp:131
 msgid "Enable sticky switching"
 msgstr "Aktiveer moeilike wisseling"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 547
-#: rc.cpp:104
+#. i18n: file kcmlayoutwidget.ui line 499
+#: rc.cpp:134
 msgid "Number of layouts to rotate:"
 msgstr "Aantal van uitlegte om te roteer"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 579
-#: rc.cpp:107
-#, fuzzy
-#| msgid "Show indicator for single layout"
-msgid "Shortcuts for switching layout"
-msgstr "Vertoon indikator vir enkele uitleg"
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 591
-#: rc.cpp:110
-msgid "X.org"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 617
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 643
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 669
-#: rc.cpp:116 rc.cpp:122 rc.cpp:128
-msgid "..."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 630
-#: rc.cpp:119
-msgid "KDE"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 682
-#: rc.cpp:131
-msgid "3d level"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 705
+#. i18n: file kcmlayoutwidget.ui line 555
 #: rc.cpp:137
 msgid "Advanced"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 711
+#. i18n: file kcmlayoutwidget.ui line 561
 #: rc.cpp:140
 msgid "&Enable xkb options"
 msgstr "Aktiveer xkb opsies"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 721
+#. i18n: file kcmlayoutwidget.ui line 571
 #: rc.cpp:143
 msgid ""
 "Here you can set xkb extension options instead of, or in addition to, "
@@ -422,13 +417,13 @@ msgstr ""
 "spesifiseer hulle in die X11 konfigurasie lêer."
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 724
+#. i18n: file kcmlayoutwidget.ui line 574
 #: rc.cpp:146
 msgid "Xkb Options"
 msgstr "Xkb Opsies"
 
 #. i18n: tag string
-#. i18n: file kcmlayoutwidget.ui line 730
+#. i18n: file kcmlayoutwidget.ui line 580
 #: rc.cpp:149
 msgid "&Reset old options"
 msgstr "Herstel ou opsies"
@@ -442,6 +437,10 @@ msgstr "WEB-Vertaler (http://kde.af.org.za), Kobus Venter"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za, kabousv@therugby.co.za"
+
+#, fuzzy
+#~ msgid "Layout name"
+#~ msgstr "Lao"
 
 #, fuzzy
 #~ msgid "Options"
