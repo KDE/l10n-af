@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libk3b\n"
-"POT-Creation-Date: 2007-08-07 01:16+0200\n"
+"POT-Creation-Date: 2007-11-03 01:18+0100\n"
 "PO-Revision-Date: 2007-01-03 15:26+0200\n"
 "Last-Translator: Frikkie Thirion <kde.afrikaans@gmail.com>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -395,43 +395,39 @@ msgstr "Skoonmaak fout."
 msgid "Sorry, no error handling yet."
 msgstr "Jammeer, daar is nog nie fout handtering geïmplementeer nie."
 
-#: jobs/k3bcdcopyjob.cpp:1017 jobs/k3bverificationjob.cpp:153
+#: jobs/k3bverificationjob.cpp:154 jobs/k3bverificationjob.cpp:174
+msgid "Checking medium"
+msgstr "Besig om media na te gaan "
+
+#: jobs/k3bverificationjob.cpp:170
+msgid "Unable to Close the Tray"
+msgstr "Kon nie die CD tafel toemaak nie."
+
+#: jobs/k3bverificationjob.cpp:205
+#, fuzzy
+msgid "Internal Error: Verification job improperly initialized (%1)"
+msgstr "Interne Fout: Die nagaan taak was nie korrek geïnisialiseer nie"
+
+#: jobs/k3bcdcopyjob.cpp:1017 jobs/k3bverificationjob.cpp:212
 #: projects/mixedcd/k3bmixedjob.cpp:512
 msgid "Reloading the medium"
 msgstr "Besig om die media te herlaai"
 
-#: jobs/k3bverificationjob.cpp:166
-msgid "Unable to Close the Tray"
-msgstr "Kon nie die CD tafel toemaak nie."
-
-#: jobs/k3bverificationjob.cpp:168
-msgid "Checking medium"
-msgstr "Besig om media na te gaan "
-
-#: jobs/k3bverificationjob.cpp:189
-#, fuzzy
-msgid "No tracks to verify found."
-msgstr "Geen <i>cdrdao</i> drywer gevind nie."
-
-#: jobs/k3bverificationjob.cpp:204
-msgid "Internal Error: Verification job improperly initialized"
-msgstr "Interne Fout: Die nagaan taak was nie korrek geïnisialiseer nie"
-
-#: jobs/k3bverificationjob.cpp:227
+#: jobs/k3bverificationjob.cpp:239
 #, c-format
 msgid "Verifying track %1"
 msgstr "Besig om snit %1 na te gaan"
 
-#: jobs/k3bdvdcopyjob.cpp:270 jobs/k3bverificationjob.cpp:257
-#: jobs/k3bverificationjob.cpp:343
+#: jobs/k3bdvdcopyjob.cpp:270 jobs/k3bverificationjob.cpp:269
+#: jobs/k3bverificationjob.cpp:355
 msgid "Unable to determine the ISO9660 filesystem size."
 msgstr "Kon nie bepaal wat die ISO9660 lêersisteem grootte is nie."
 
-#: jobs/k3bverificationjob.cpp:295
+#: jobs/k3bverificationjob.cpp:307
 msgid "Written data in track %1 differs from original."
 msgstr "Die geskryfde data in snit %1 verskil van die oorspronklike."
 
-#: jobs/k3bverificationjob.cpp:299
+#: jobs/k3bverificationjob.cpp:311
 msgid "Written data verified."
 msgstr "Die geskryfde data se integriteit is bevestig."
 
@@ -491,7 +487,7 @@ msgid "Ejecting DVD..."
 msgstr "Besig om die DVD uit te skiet..."
 
 #: jobs/k3bdvdformattingjob.cpp:301 projects/datadvd/k3bdvdbooktypejob.cpp:234
-#: projects/k3babstractwriter.cpp:88 projects/k3bgrowisofswriter.cpp:593
+#: projects/k3babstractwriter.cpp:88 projects/k3bgrowisofswriter.cpp:594
 msgid "Unable to eject media."
 msgstr "Kon nie die media uitskiet nie."
 
@@ -2410,16 +2406,16 @@ msgid "Average overall write speed: %1 KB/s (%2x)"
 msgstr "Gemidelde skryf spoed: %1 KG/s (%2x)"
 
 #: projects/k3bcdrdaowriter.cpp:758 projects/k3bcdrecordwriter.cpp:680
-#: projects/k3bgrowisofswriter.cpp:556
+#: projects/k3bgrowisofswriter.cpp:557
 msgid "Simulation successfully completed"
 msgstr "Die simulasie het suksesvol voltooi."
 
 #: projects/k3bcdrdaowriter.cpp:766 projects/k3bcdrecordwriter.cpp:682
-#: projects/k3bgrowisofswriter.cpp:558
+#: projects/k3bgrowisofswriter.cpp:559
 msgid "Writing successfully completed"
 msgstr "Die skryf het suksesvol voltooi."
 
-#: projects/k3bgrowisofswriter.cpp:571
+#: projects/k3bgrowisofswriter.cpp:572
 msgid "Ejecting DVD"
 msgstr "Besig om die DVD uit te skiet."
 
@@ -3427,6 +3423,10 @@ msgstr "Regiseur se kommentaar vir kinders"
 #: videodvd/k3bvideodvd.cpp:324
 msgid "unknown code extension"
 msgstr "onbekende kode uitbreiding"
+
+#, fuzzy
+#~ msgid "No tracks to verify found."
+#~ msgstr "Geen <i>cdrdao</i> drywer gevind nie."
 
 #~ msgid "Mkisofs version %1 is too old. For writing multisession DVDs K3b needs at least version 2.0."
 #~ msgstr "Mkisofs weergawe %1 is te oud. Om multisessie DVDs te skryf het K3b ten minste weergawe 2.0 nodig."
