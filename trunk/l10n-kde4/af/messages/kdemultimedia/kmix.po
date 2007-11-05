@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-04 06:19+0100\n"
+"POT-Creation-Date: 2007-11-05 05:56+0100\n"
 "PO-Revision-Date: 2002-11-07 11:33+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -34,20 +34,36 @@ msgstr "Kies Menger"
 msgid "Select the channel representing the master volume:"
 msgstr ""
 
-#: dialogviewconfiguration.cpp:39 dialogviewconfiguration.cpp:49
-#: kmixprefdlg.cpp:42
+#: dialogviewconfiguration.cpp:41 kmixprefdlg.cpp:42
 msgid "Configure"
 msgstr ""
 
-#: kmix.cpp:106
+#: dialogviewconfiguration.cpp:55
+msgid "Configuration of the channels."
+msgstr ""
+
+#: dialogviewconfiguration.cpp:72
+msgid "Show/Hide"
+msgstr ""
+
+#: dialogviewconfiguration.cpp:74
+msgid "Split"
+msgstr ""
+
+#: kmix.cpp:108
 msgid "Hardware &Information"
 msgstr ""
 
-#: kmix.cpp:109 kmixdockwidget.cpp:391
+#: kmix.cpp:111 kmixdockwidget.cpp:391
 msgid "Hide Mixer Window"
 msgstr ""
 
-#: kmix.cpp:524
+#: kmix.cpp:115
+#, fuzzy
+msgid "Configure &Channels"
+msgstr "Skei Kanale"
+
+#: kmix.cpp:529
 msgid "Mixer Hardware Information"
 msgstr ""
 
@@ -115,18 +131,6 @@ msgstr "Stoor huidige volumes as verstek"
 msgid "Restore default volumes"
 msgstr "Herstel verstek volumes"
 
-#: kmixdevicemanager.cpp:42
-msgid "kmixd - Soundcard Mixer Device Manager"
-msgstr ""
-
-#: kmixdevicemanager.cpp:87
-msgid "Soundcard Mixer Device Manager"
-msgstr ""
-
-#: kmixdevicemanager.cpp:89
-msgid "(c) 2007 by Christian Esken"
-msgstr ""
-
 #: kmixdockwidget.cpp:75
 msgid "M&ute"
 msgstr "Stilte"
@@ -153,7 +157,7 @@ msgstr " (Gedemp)"
 msgid "Show Mixer Window"
 msgstr ""
 
-#: kmixerwidget.cpp:79
+#: kmixerwidget.cpp:77
 msgid "Invalid mixer"
 msgstr "Ongeldige menger"
 
@@ -337,17 +341,17 @@ msgstr "Vermeerder Volume"
 msgid "Decrease Volume"
 msgstr "Verklein Volume"
 
-#: mdwslider.cpp:250
+#: mdwslider.cpp:230
 #, kde-format
 msgid "Mute/Unmute %1"
 msgstr ""
 
-#: mdwslider.cpp:314
+#: mdwslider.cpp:294
 #, kde-format
 msgid "Capture/Uncapture %1"
 msgstr ""
 
-#: mdwslider.cpp:356
+#: mdwslider.cpp:336
 msgid "(capture)"
 msgstr ""
 
@@ -356,11 +360,11 @@ msgstr ""
 msgid "Toggle Switch"
 msgstr "Wissel Stilte"
 
-#: mixdevice.cpp:42 mixer_oss.cpp:66 mixer_oss.cpp:67
+#: mixdevice.cpp:42 mixer_oss.cpp:67 mixer_oss.cpp:68
 msgid "unknown"
 msgstr "onbekende"
 
-#: mixer_alsa9.cpp:776
+#: mixer_alsa9.cpp:784
 #, fuzzy
 msgid ""
 "You do not have permission to access the alsa mixer device.\n"
@@ -369,7 +373,7 @@ msgstr ""
 "kmix:Jy doen nie het reg na toegang verkry die menger toestel.\n"
 "Asseblief bevestig jou operating sisteme hand na toelaat die toegang verkry."
 
-#: mixer_alsa9.cpp:780
+#: mixer_alsa9.cpp:788
 #, fuzzy
 msgid ""
 "Alsa mixer cannot be found.\n"
@@ -411,119 +415,119 @@ msgid "kmix: Unknown error. Please report how you produced this error."
 msgstr ""
 "kmix: Onbekende fout. Asseblief raporteer hoe jy geproduseer hierdie fout."
 
-#: mixer_oss.cpp:57
+#: mixer_oss.cpp:58
 msgid "Volume"
 msgstr "Volume"
 
-#: mixer_oss.cpp:57
+#: mixer_oss.cpp:58
 msgid "Bass"
 msgstr "Bas"
 
-#: mixer_oss.cpp:57
+#: mixer_oss.cpp:58
 msgid "Treble"
 msgstr "Treble"
 
-#: mixer_oss.cpp:58
+#: mixer_oss.cpp:59
 msgid "Synth"
 msgstr "Sintetiseerder"
 
-#: mixer_oss.cpp:58
+#: mixer_oss.cpp:59
 msgid "Pcm"
 msgstr "Pcm"
 
-#: mixer_oss.cpp:58
+#: mixer_oss.cpp:59
 msgid "Speaker"
 msgstr "Luidspreker"
 
-#: mixer_oss.cpp:59
+#: mixer_oss.cpp:60
 msgid "Line"
 msgstr "Lyn"
 
-#: mixer_oss.cpp:59 mixer_sun.cpp:71
+#: mixer_oss.cpp:60 mixer_sun.cpp:71
 msgid "Microphone"
 msgstr "Mikrofoon"
 
-#: mixer_oss.cpp:59 mixer_sun.cpp:73
+#: mixer_oss.cpp:60 mixer_sun.cpp:73
 msgid "CD"
 msgstr "Cd"
 
-#: mixer_oss.cpp:60
+#: mixer_oss.cpp:61
 msgid "Mix"
 msgstr "Meng"
 
-#: mixer_oss.cpp:60
+#: mixer_oss.cpp:61
 msgid "Pcm2"
 msgstr "Pcm2"
 
-#: mixer_oss.cpp:60
+#: mixer_oss.cpp:61
 msgid "RecMon"
 msgstr "Opneem monitor"
 
-#: mixer_oss.cpp:61
+#: mixer_oss.cpp:62
 msgid "IGain"
 msgstr "Igain"
 
-#: mixer_oss.cpp:61
+#: mixer_oss.cpp:62
 msgid "OGain"
 msgstr "Ogain"
 
-#: mixer_oss.cpp:61
+#: mixer_oss.cpp:62
 msgid "Line1"
 msgstr "Lyn 1"
 
-#: mixer_oss.cpp:62
+#: mixer_oss.cpp:63
 msgid "Line2"
 msgstr "Lyn 2"
 
-#: mixer_oss.cpp:62
+#: mixer_oss.cpp:63
 msgid "Line3"
 msgstr "Lyn 3"
 
-#: mixer_oss.cpp:62
+#: mixer_oss.cpp:63
 msgid "Digital1"
 msgstr "Digitaal 1"
 
-#: mixer_oss.cpp:63
+#: mixer_oss.cpp:64
 msgid "Digital2"
 msgstr "Digitaal 2"
 
-#: mixer_oss.cpp:63
+#: mixer_oss.cpp:64
 msgid "Digital3"
 msgstr "Digitaal 3"
 
-#: mixer_oss.cpp:63
+#: mixer_oss.cpp:64
 msgid "PhoneIn"
 msgstr "Foon in"
 
-#: mixer_oss.cpp:64
+#: mixer_oss.cpp:65
 msgid "PhoneOut"
 msgstr "Foon uit"
 
-#: mixer_oss.cpp:64
+#: mixer_oss.cpp:65
 msgid "Video"
 msgstr "Video"
 
-#: mixer_oss.cpp:64
+#: mixer_oss.cpp:65
 msgid "Radio"
 msgstr "Radio"
 
-#: mixer_oss.cpp:65
+#: mixer_oss.cpp:66
 msgid "Monitor"
 msgstr "Monitor"
 
-#: mixer_oss.cpp:65
+#: mixer_oss.cpp:66
 msgid "3D-depth"
 msgstr "3D-depth"
 
-#: mixer_oss.cpp:65
+#: mixer_oss.cpp:66
 msgid "3D-center"
 msgstr "3D-center"
 
-#: mixer_oss.cpp:67
+#: mixer_oss.cpp:68
 msgid "unused"
 msgstr "ongebruik"
 
-#: mixer_oss.cpp:217
+#: mixer_oss.cpp:227
 msgid ""
 "kmix: You do not have permission to access the mixer device.\n"
 "Login as root and do a 'chmod a+rw /dev/mixer*' to allow the access."
@@ -532,7 +536,7 @@ msgstr ""
 "Aanteken as root en doen 'n 'chmod 'n+rw /dev/menger*' na toelaat die "
 "toegang verkry."
 
-#: mixer_oss.cpp:221
+#: mixer_oss.cpp:231
 msgid ""
 "kmix: Mixer cannot be found.\n"
 "Please check that the soundcard is installed and the\n"
@@ -570,7 +574,7 @@ msgstr "Opneem Monitor"
 msgid "Line In"
 msgstr "Lyn In"
 
-#: mixer_sun.cpp:218
+#: mixer_sun.cpp:219
 msgid ""
 "kmix: You do not have permission to access the mixer device.\n"
 "Ask your system administrator to fix /dev/audioctl to allow access."
@@ -579,11 +583,11 @@ msgstr ""
 "Vra jou stelsel administrateur na regmaak /dev/audioctl na toelaat toegang "
 "verkry."
 
-#: mixertoolbox.cpp:215
+#: mixertoolbox.cpp:220
 msgid "Sound drivers supported:"
 msgstr ""
 
-#: mixertoolbox.cpp:216
+#: mixertoolbox.cpp:221
 msgid "Sound drivers used:"
 msgstr ""
 
@@ -656,7 +660,7 @@ msgid "&File"
 msgstr "Stil:"
 
 #. i18n: tag text
-#. i18n: file kmixui.rc line 16
+#. i18n: file kmixui.rc line 19
 #: rc.cpp:33
 #, fuzzy
 msgid "&Help"
