@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-01 05:58+0100\n"
+"POT-Creation-Date: 2007-11-06 05:59+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -218,6 +218,10 @@ msgstr ""
 
 #: karbon_part.cc:271
 msgid "Invalid OASIS document. No draw:page tag found."
+msgstr ""
+
+#: karbon_view.cc:258
+msgid "Karbon"
 msgstr ""
 
 #: karbon_view.cc:758
@@ -670,10 +674,11 @@ msgid "Style:"
 msgstr "Styl:"
 
 #: dialogs/vstrokedlg.cc:68 widgets/vgradienttabwidget.cc:326
+#: widgets/KarbonStyleButtonBox.cpp:287
 msgid "None"
 msgstr "Geen"
 
-#: dialogs/vstrokedlg.cc:72
+#: dialogs/vstrokedlg.cc:72 widgets/KarbonStyleButtonBox.cpp:303
 msgid "Gradient"
 msgstr "Gradiënt"
 
@@ -1207,6 +1212,23 @@ msgstr "Redigeer Gradiënt"
 msgid "Stroke: Pattern"
 msgstr "Kies kleur"
 
+#: widgets/KarbonStyleButtonBox.cpp:295
+msgid "Solid"
+msgstr ""
+
+#: widgets/KarbonStyleButtonBox.cpp:311
+#, fuzzy
+msgid "Pattern"
+msgstr "Patrone"
+
+#: widgets/KarbonStyleButtonBox.cpp:319
+msgid "Even-Odd Fill"
+msgstr ""
+
+#: widgets/KarbonStyleButtonBox.cpp:327
+msgid "Winding Fill"
+msgstr ""
+
 #: plugins/flattenpath/flattenpathplugin.cc:57
 msgid "&Flatten Path..."
 msgstr ""
@@ -1296,10 +1318,6 @@ msgstr ""
 #, fuzzy
 msgid "Pinch:"
 msgstr "duim"
-
-#, fuzzy
-#~ msgid "Pattern"
-#~ msgstr "Patrone"
 
 #, fuzzy
 #~ msgid "Paste Object"
