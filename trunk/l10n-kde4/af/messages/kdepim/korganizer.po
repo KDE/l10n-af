@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-06 05:57+0100\n"
+"POT-Creation-Date: 2007-11-07 05:58+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -21,7 +21,7 @@ msgid "&Show"
 msgstr "Vertoon"
 
 #: koeventpopupmenu.cpp:55 kotodoview.cpp:511 actionmanager.cpp:517
-#: actionmanager.cpp:1590 actionmanager.cpp:1621 resourceview.cpp:495
+#: actionmanager.cpp:1590 actionmanager.cpp:1621 resourceview.cpp:515
 msgid "&Edit..."
 msgstr "Redigeer..."
 
@@ -210,7 +210,7 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file ./publishdialog_base.ui line 77
 #: koeditordetails.cpp:308 rc.cpp:903 rc.cpp:2095 koeditorattachments.cpp:408
-#: resourceview.cpp:496
+#: resourceview.cpp:516
 #, fuzzy
 msgid "&Remove"
 msgstr "Werkvoorbeeld..."
@@ -473,7 +473,7 @@ msgstr ""
 msgid "&Recur every"
 msgstr "Herhaal elke"
 
-#: koeditorrecurrence.cpp:168 koeditorgeneral.cpp:283
+#: koeditorrecurrence.cpp:168 koeditorgeneral.cpp:299
 #: korgac/alarmdialog.cpp:94
 msgid "day(s)"
 msgstr "dag(s)"
@@ -1147,7 +1147,7 @@ msgstr[0] "1 Dag"
 msgstr[1] "%1 Dae"
 
 #: koeditoralarms.cpp:119 printing/calprintdefaultplugins.cpp:353
-#: koeditorgeneralevent.cpp:441
+#: koeditorgeneralevent.cpp:425
 #, fuzzy, kde-format
 msgid "1 hour"
 msgid_plural "%1 hours"
@@ -1155,7 +1155,7 @@ msgstr[0] "1 uur"
 msgstr[1] "%1 ure"
 
 #: koeditoralarms.cpp:122 koprefsdialog.cpp:368
-#: printing/calprintdefaultplugins.cpp:356 koeditorgeneralevent.cpp:448
+#: printing/calprintdefaultplugins.cpp:356 koeditorgeneralevent.cpp:432
 #, fuzzy, kde-format
 msgid "1 minute"
 msgid_plural "%1 minutes"
@@ -1634,44 +1634,41 @@ msgid ""
 "contact your system administrator.</p></qt>"
 msgstr ""
 
-#: koeditorgeneral.cpp:101
-msgid "Owner:"
-msgstr "Eienaar:"
-
-#: koeditorgeneral.cpp:105
+#: koeditorgeneral.cpp:99
 msgid "Sets the Title of this event or to-do."
 msgstr ""
 
-#: koeditorgeneral.cpp:106 koeditorgeneraljournal.cpp:70
+#: koeditorgeneral.cpp:100
 #, fuzzy
+msgctxt "event or to-do title"
 msgid "T&itle:"
 msgstr "Titel"
 
-#: koeditorgeneral.cpp:120
+#: koeditorgeneral.cpp:114
 msgid "Sets where the event or to-do will take place."
 msgstr ""
 
-#: koeditorgeneral.cpp:121
+#: koeditorgeneral.cpp:115
 #, fuzzy
 msgid "&Location:"
 msgstr "Ligging:"
 
-#: koeditorgeneral.cpp:137
+#: koeditorgeneral.cpp:131
 msgid ""
 "Allows you to select the categories that this event or to-do belongs to."
 msgstr ""
 
-#: koeditorgeneral.cpp:141 koeditorgeneraljournal.cpp:135
+#: koeditorgeneral.cpp:134 koeditorgeneraljournal.cpp:131
 #, fuzzy
 msgid "Select Cate&gories..."
 msgstr "Katagoriee..."
 
-#: koeditorgeneral.cpp:158
+#: koeditorgeneral.cpp:151
 #, fuzzy
 msgid "Acc&ess:"
 msgstr "Toegang verkry:"
 
-#: koeditorgeneral.cpp:159
+#: koeditorgeneral.cpp:152
 msgid ""
 "Sets whether the access to this event or to-do is restricted. Please note "
 "that KOrganizer currently does not use this setting, so the implementation "
@@ -1679,56 +1676,107 @@ msgid ""
 "events or to-dos marked as private or confidential may be visible to others."
 msgstr ""
 
-#: koeditorgeneral.cpp:216
+#: koeditorgeneral.cpp:175
+msgid "Bold text"
+msgstr ""
+
+#: koeditorgeneral.cpp:181
+msgid "Italicize text"
+msgstr ""
+
+#: koeditorgeneral.cpp:187
+#, fuzzy
+msgid "Underline text"
+msgstr "Herhindering:"
+
+#: koeditorgeneral.cpp:193
+msgid "Strike-through text"
+msgstr ""
+
+#: koeditorgeneral.cpp:199
+msgid "Left-justify text"
+msgstr ""
+
+#: koeditorgeneral.cpp:205
+#, fuzzy
+#| msgid "Event text"
+msgid "Center text"
+msgstr "Gebeurtenis teks"
+
+#: koeditorgeneral.cpp:211
+msgid "Right-justify text"
+msgstr ""
+
+#: koeditorgeneral.cpp:219
+msgctxt "no icon, so use the html tag"
+msgid "<placeholder>ul</placeholder>"
+msgstr ""
+
+#: koeditorgeneral.cpp:220
+msgid "Unordered-list item"
+msgstr ""
+
+#: koeditorgeneral.cpp:228
+msgctxt "no icon, so use the html tag"
+msgid "<placeholder>ol</placeholder>"
+msgstr ""
+
+#: koeditorgeneral.cpp:229
+msgid "Ordered-list item"
+msgstr ""
+
+#: koeditorgeneral.cpp:233
 #, fuzzy
 msgid "Rich Text"
 msgstr "Moet nooit"
 
-#: koeditorgeneral.cpp:231
+#: koeditorgeneral.cpp:234
+#, fuzzy
+msgid "Toggle Rich Text"
+msgstr "Moet nooit"
+
+#: koeditorgeneral.cpp:250
 msgid ""
 "Sets the description for this event, to-do or journal. This will be "
 "displayed in a reminder if one is set, as well as in a tooltip when you "
 "hover over the event."
 msgstr ""
 
-#: koeditorgeneral.cpp:265
+#: koeditorgeneral.cpp:282
 #, fuzzy
 msgid "&Reminder:"
 msgstr "Herhindering:"
 
-#: koeditorgeneral.cpp:267
+#: koeditorgeneral.cpp:283
 msgid "Activates a reminder for this event or to-do."
 msgstr ""
 
-#: koeditorgeneral.cpp:270
+#: koeditorgeneral.cpp:287
 msgid "Sets how long before the event occurs the reminder will be triggered."
 msgstr ""
 
-#: koeditorgeneral.cpp:281 korgac/alarmdialog.cpp:92
+#: koeditorgeneral.cpp:297 korgac/alarmdialog.cpp:92
 msgid "minute(s)"
 msgstr "minuut(s)"
 
-#: koeditorgeneral.cpp:282 korgac/alarmdialog.cpp:93
+#: koeditorgeneral.cpp:298 korgac/alarmdialog.cpp:93
 msgid "hour(s)"
 msgstr "uur(s)"
 
-#: koeditorgeneral.cpp:292
+#: koeditorgeneral.cpp:308
 #, fuzzy
+msgctxt "advanced alarm settings"
 msgid "Advanced"
 msgstr "Gevorderde"
 
-#: koeditorgeneral.cpp:345
-msgid "Owner: "
-msgstr "Eienaar: "
-
-#: koeditorgeneral.cpp:377
+#: koeditorgeneral.cpp:389
 #, fuzzy, kde-format
 msgid "1 reminder configured"
 msgid_plural "%1 reminders configured"
 msgstr[0] "Herhindering:"
 msgstr[1] "Herhindering:"
 
-#: koeditorgeneral.cpp:404
+#: koeditorgeneral.cpp:416
 msgid "1 advanced reminder configured"
 msgstr ""
 
@@ -1753,71 +1801,72 @@ msgstr "Katagoriee"
 msgid "%1 hours ("
 msgstr "1 uur"
 
-#: koeditorgeneraltodo.cpp:102 koeditorgeneralevent.cpp:102
+#: koeditorgeneraltodo.cpp:99 koeditorgeneralevent.cpp:101
 msgid "Date && Time"
 msgstr "Datum && Tyd"
 
-#: koeditorgeneraltodo.cpp:104
+#: koeditorgeneraltodo.cpp:101
 msgid "Sets options for due and start dates and times for this to-do."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:114 koeditorgeneralevent.cpp:125
+#: koeditorgeneraltodo.cpp:108 koeditorgeneralevent.cpp:120
 msgid "Select the timezone for this event. It will also affect recurrences"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:123
+#: koeditorgeneraltodo.cpp:116
 msgid "Sets the start date for this to-do"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:124
+#: koeditorgeneraltodo.cpp:117
 #, fuzzy
 msgid "Sta&rt:"
 msgstr "Begin:"
 
-#: koeditorgeneraltodo.cpp:137
+#: koeditorgeneraltodo.cpp:129
 msgid "Sets the start time for this to-do."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:141
+#: koeditorgeneraltodo.cpp:133
 msgid "Sets the due date for this to-do."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:142
+#: koeditorgeneraltodo.cpp:134
 #, fuzzy
+msgctxt "to-do due datetime"
 msgid "&Due:"
 msgstr "As gevolg:"
 
-#: koeditorgeneraltodo.cpp:157
+#: koeditorgeneraltodo.cpp:148
 msgid "Sets the due time for this to-do."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:161
+#: koeditorgeneraltodo.cpp:152
 #, fuzzy
 msgid "Ti&me associated"
 msgstr "Tyd geassosieer"
 
-#: koeditorgeneraltodo.cpp:163
+#: koeditorgeneraltodo.cpp:154
 msgid ""
-"Sets whether or not this to-do's start and due dates have times associated "
-"with them."
+"Set if this to-do's start and due dates have times associated with them."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:182
+#: koeditorgeneraltodo.cpp:171
 msgid "Sets the current completion status of this to-do as a percentage."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:188
+#: koeditorgeneraltodo.cpp:176
 #, no-c-format, kde-format
 msgctxt "Percent complete"
 msgid "%1 %"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:194 koeditorgeneraltodo.cpp:583
+#: koeditorgeneraltodo.cpp:182
 #, fuzzy
+msgctxt "percent completed"
 msgid "co&mpleted"
 msgstr "klaar"
 
-#: koeditorgeneraltodo.cpp:205
+#: koeditorgeneraltodo.cpp:193
 msgid ""
 "Sets the priority of this to-do on a scale from one to nine, with one being "
 "the highest priority, five being a medium priority, and nine being the "
@@ -1825,88 +1874,100 @@ msgid ""
 "adjusted to match the appropriate scale."
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:211
+#: koeditorgeneraltodo.cpp:199
 #, fuzzy
 msgid "&Priority:"
 msgstr "Prioriteit:"
 
-#: koeditorgeneraltodo.cpp:215
+#: koeditorgeneraltodo.cpp:203
 #, fuzzy
+msgctxt "unspecified priority"
 msgid "unspecified"
 msgstr "Ligging: "
 
-#: koeditorgeneraltodo.cpp:216 kotodoview.cpp:470
+#: koeditorgeneraltodo.cpp:204
 #, fuzzy
+msgctxt "highest priority"
 msgid "1 (highest)"
 msgstr "1 (Hoogste)"
 
-#: koeditorgeneraltodo.cpp:217 kotodoview.cpp:471
+#: koeditorgeneraltodo.cpp:205 kotodoview.cpp:471
 msgid "2"
 msgstr "2"
 
-#: koeditorgeneraltodo.cpp:218 kotodoview.cpp:472
+#: koeditorgeneraltodo.cpp:206 kotodoview.cpp:472
 msgid "3"
 msgstr "3"
 
-#: koeditorgeneraltodo.cpp:219 kotodoview.cpp:473
+#: koeditorgeneraltodo.cpp:207 kotodoview.cpp:473
 msgid "4"
 msgstr "4"
 
-#: koeditorgeneraltodo.cpp:220 kotodoview.cpp:474
+#: koeditorgeneraltodo.cpp:208
+msgctxt "medium priority"
 msgid "5 (medium)"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:221 kotodoview.cpp:475
+#: koeditorgeneraltodo.cpp:209 kotodoview.cpp:475
 msgid "6"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:222 kotodoview.cpp:476
+#: koeditorgeneraltodo.cpp:210 kotodoview.cpp:476
 msgid "7"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:223 kotodoview.cpp:477
+#: koeditorgeneraltodo.cpp:211 kotodoview.cpp:477
 msgid "8"
 msgstr ""
 
-#: koeditorgeneraltodo.cpp:224 kotodoview.cpp:478
+#: koeditorgeneraltodo.cpp:212
 #, fuzzy
+msgctxt "lowest priority"
 msgid "9 (lowest)"
 msgstr "5 (laagste)"
 
-#: koeditorgeneraltodo.cpp:481
+#: koeditorgeneraltodo.cpp:464
 msgid "Please specify a valid due date."
 msgstr "Asseblief spesifiseer 'n geldige as gevolg datum."
 
-#: koeditorgeneraltodo.cpp:486
+#: koeditorgeneraltodo.cpp:469
 msgid "Please specify a valid due time."
 msgstr "Asseblief spesifiseer 'n geldige as gevolg tyd."
 
-#: koeditorgeneraltodo.cpp:494
+#: koeditorgeneraltodo.cpp:477
 msgid "Please specify a valid start date."
 msgstr "Asseblief spesifiseer 'n geldige begin datum."
 
-#: koeditorgeneraltodo.cpp:499
+#: koeditorgeneraltodo.cpp:482
 msgid "Please specify a valid start time."
 msgstr "Asseblief spesifiseer 'n geldige begin tyd."
 
-#: koeditorgeneraltodo.cpp:516
+#: koeditorgeneraltodo.cpp:498
 msgid "The start date cannot be after the due date."
 msgstr "Die begin datum kan nie wees na Die as gevolg datum."
 
-#: koeditorgeneraltodo.cpp:538
+#: koeditorgeneraltodo.cpp:520
 #, fuzzy, kde-format
 msgid "Start: %1"
 msgstr "Begin:"
 
-#: koeditorgeneraltodo.cpp:549
+#: koeditorgeneraltodo.cpp:529
 #, fuzzy, kde-format
+msgctxt "to-do due datetime"
 msgid "   Due: %1"
 msgstr "As gevolg:"
 
-#: koeditorgeneraltodo.cpp:576
+#: koeditorgeneraltodo.cpp:555
 #, fuzzy
+msgctxt "to-do completed on datetime"
 msgid "co&mpleted on"
 msgstr "klaar op %1"
+
+#: koeditorgeneraltodo.cpp:562
+#, fuzzy
+msgctxt "to-do completed"
+msgid "co&mpleted"
+msgstr "klaar"
 
 #: kogroupware.cpp:162
 #, fuzzy, kde-format
@@ -1992,7 +2053,7 @@ msgstr "Kies Adresse"
 msgid "(EmptyName)"
 msgstr ""
 
-#: kodaymatrix.cpp:240 kocorehelper.cpp:44 komonthview.cpp:1013
+#: kodaymatrix.cpp:240 kocorehelper.cpp:44 komonthview.cpp:872
 #, fuzzy
 msgctxt "delimiter for joining holiday names"
 msgid ","
@@ -2115,6 +2176,20 @@ msgstr ""
 msgctxt "Unspecified priority"
 msgid "unspecified"
 msgstr ""
+
+#: kotodoview.cpp:470
+#, fuzzy
+msgid "1 (highest)"
+msgstr "1 (Hoogste)"
+
+#: kotodoview.cpp:474
+msgid "5 (medium)"
+msgstr ""
+
+#: kotodoview.cpp:478
+#, fuzzy
+msgid "9 (lowest)"
+msgstr "5 (laagste)"
 
 #: kotodoview.cpp:494
 msgid "&Move To"
@@ -2658,7 +2733,7 @@ msgid "Select a month"
 msgstr "Kies Modus"
 
 #: navigatorbar.cpp:152 printing/calprintdefaultplugins.cpp:959
-#: komonthview.cpp:958
+#: komonthview.cpp:817
 #, fuzzy, kde-format
 msgctxt "monthname year"
 msgid "%1 %2"
@@ -6696,7 +6771,7 @@ msgid ""
 "or to-do."
 msgstr ""
 
-#: koeditorattachments.cpp:394 resourceview.cpp:505
+#: koeditorattachments.cpp:394 resourceview.cpp:523
 #, fuzzy
 msgid "&Add..."
 msgstr "Voeg by Filter..."
@@ -6986,7 +7061,7 @@ msgstr ""
 msgid "Fester Zigterman"
 msgstr ""
 
-#: resourceview.cpp:228
+#: resourceview.cpp:230
 msgid ""
 "<qt><p>Select on this list the active KOrganizer resources. Check the "
 "resource box to make it active. Use the context menu to add, remove or edit "
@@ -6998,67 +7073,71 @@ msgid ""
 "resource to use.</p></qt>"
 msgstr ""
 
-#: resourceview.cpp:241
+#: resourceview.cpp:243
 #, fuzzy
 msgid "Calendars"
 msgstr "Ikalender"
 
-#: resourceview.cpp:287
+#: resourceview.cpp:288
 #, fuzzy
 msgid "Resource Configuration"
 msgstr "Korganizer Bevestiging"
 
-#: resourceview.cpp:288
+#: resourceview.cpp:289
 msgid "Please select type of the new resource:"
 msgstr ""
 
-#: resourceview.cpp:298
+#: resourceview.cpp:301
 #, fuzzy, kde-format
 msgid "<qt>Unable to create resource of type <b>%1</b>.</qt>"
 msgstr "Nie moontlik na skep lêer na oplaai"
 
-#: resourceview.cpp:303
+#: resourceview.cpp:305
 #, kde-format
 msgid "%1 resource"
 msgstr ""
 
-#: resourceview.cpp:407
+#: resourceview.cpp:415
 #, fuzzy, kde-format
 msgid "<qt>Do you really want to delete the resource <b>%1</b>?</qt>"
 msgstr "Nie moontlik na skep lêer na oplaai"
 
-#: resourceview.cpp:415
+#: resourceview.cpp:426
 msgid "You cannot delete your standard resource."
 msgstr ""
 
-#: resourceview.cpp:478
+#: resourceview.cpp:496
 #, fuzzy
+msgctxt "reload the resource"
 msgid "Re&load"
 msgstr "Oplaai"
 
-#: resourceview.cpp:481
+#: resourceview.cpp:500
+#, fuzzy
+#| msgid "Travel"
+msgctxt "save the resource"
 msgid "&Save"
-msgstr ""
+msgstr "Reis"
 
-#: resourceview.cpp:486
+#: resourceview.cpp:505
 #, fuzzy
 msgid "Show &Info"
 msgstr "Oplaai Inligting..."
 
-#: resourceview.cpp:489
+#: resourceview.cpp:508
 #, fuzzy
 msgid "Resource Colors"
 msgstr "Herhaal"
 
-#: resourceview.cpp:490
+#: resourceview.cpp:509
 msgid "&Assign Color"
 msgstr ""
 
-#: resourceview.cpp:492
+#: resourceview.cpp:511
 msgid "&Disable Color"
 msgstr ""
 
-#: resourceview.cpp:499
+#: resourceview.cpp:519
 #, fuzzy
 msgid "Use as &Default Calendar"
 msgstr "Verstek Kalender Formaat"
@@ -7127,8 +7206,8 @@ msgstr "Begin datum"
 msgid "End date: "
 msgstr "Einde datum"
 
-#: printing/calprintdefaultplugins.cpp:152 koeditorgeneralevent.cpp:425
-#: koeditorgeneralevent.cpp:439
+#: printing/calprintdefaultplugins.cpp:152 koeditorgeneralevent.cpp:411
+#: koeditorgeneralevent.cpp:423
 msgid "Duration: "
 msgstr "Duur: "
 
@@ -7529,85 +7608,91 @@ msgid ""
 "user will be asked whether to import, merge or open in a separate window."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:104
+#: koeditorgeneralevent.cpp:103
 msgid "Sets options related to the date and time of the event or to-do."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:112
+#: koeditorgeneralevent.cpp:109
 #, fuzzy
 msgid "&Start:"
 msgstr "Begin:"
 
-#: koeditorgeneralevent.cpp:138
+#: koeditorgeneralevent.cpp:133
 #, fuzzy
 msgid "&End:"
 msgstr "Einde:"
 
-#: koeditorgeneralevent.cpp:150
+#: koeditorgeneralevent.cpp:145
 #, fuzzy
 msgid "T&ime associated"
 msgstr "Tyd geassosieer"
 
-#: koeditorgeneralevent.cpp:189
+#: koeditorgeneralevent.cpp:182
 #, fuzzy
 msgid "S&how time as:"
 msgstr "Vertoon tyd as:"
 
-#: koeditorgeneralevent.cpp:190
+#: koeditorgeneralevent.cpp:183
 msgid "Sets how this time will appear on your Free/Busy information."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:198
+#: koeditorgeneralevent.cpp:190
+#, fuzzy
+#| msgid "Busy"
+msgctxt "show event as busy time"
 msgid "Busy"
 msgstr "Besig"
 
-#: koeditorgeneralevent.cpp:199
+#: koeditorgeneralevent.cpp:191
+#, fuzzy
+#| msgid "Free"
+msgctxt "show event as free time"
 msgid "Free"
 msgstr "Vry"
 
-#: koeditorgeneralevent.cpp:426
+#: koeditorgeneralevent.cpp:412
 #, fuzzy, kde-format
 msgid "1 Day"
 msgid_plural "%1 Days"
 msgstr[0] "1 Dag"
 msgstr[1] "%1 Dae"
 
-#: koeditorgeneralevent.cpp:445
+#: koeditorgeneralevent.cpp:429
 msgid ", "
 msgstr ", "
 
-#: koeditorgeneralevent.cpp:456
+#: koeditorgeneralevent.cpp:442
 msgid ""
 "Shows the duration of the event or to-do with the current start and end "
 "dates and times."
 msgstr ""
 
-#: koeditorgeneralevent.cpp:473
+#: koeditorgeneralevent.cpp:458
 #, kde-format
 msgid "From: %1   To: %2   %3"
 msgstr "Van: %1   Na: %2   %3"
 
-#: koeditorgeneralevent.cpp:486
+#: koeditorgeneralevent.cpp:468
 #, fuzzy, kde-format
 msgid "Please specify a valid start time, for example '%1'."
 msgstr "Asseblief spesifiseer 'n geldige begin tyd."
 
-#: koeditorgeneralevent.cpp:493
+#: koeditorgeneralevent.cpp:475
 #, fuzzy, kde-format
 msgid "Please specify a valid end time, for example '%1'."
 msgstr "Asseblief spesifiseer 'n geldige einde tyd."
 
-#: koeditorgeneralevent.cpp:501
+#: koeditorgeneralevent.cpp:483
 #, fuzzy, kde-format
 msgid "Please specify a valid start date, for example '%1'."
 msgstr "Asseblief spesifiseer 'n geldige begin datum."
 
-#: koeditorgeneralevent.cpp:508
+#: koeditorgeneralevent.cpp:490
 #, fuzzy, kde-format
 msgid "Please specify a valid end date, for example '%1'."
 msgstr "Asseblief spesifiseer 'n geldige einde datum."
 
-#: koeditorgeneralevent.cpp:524
+#: koeditorgeneralevent.cpp:506
 msgid ""
 "The event ends before it starts.\n"
 "Please correct dates and times."
@@ -7768,32 +7853,38 @@ msgstr "Uitvee ou aktiwiteite"
 msgid "Opens a print dialog for this journal entry"
 msgstr "Uitvee ou aktiwiteite"
 
-#: komonthview.cpp:378
+#: komonthview.cpp:243
 #, kde-format
 msgctxt "'Month day' for month view cells"
 msgid "%1 %2"
 msgstr ""
 
-#: koeditorgeneraljournal.cpp:69
+#: koeditorgeneraljournal.cpp:68
 #, fuzzy
 msgid "Sets the title of this journal."
 msgstr "Uitvee ou aktiwiteite"
 
-#: koeditorgeneraljournal.cpp:89
+#: koeditorgeneraljournal.cpp:69
+#, fuzzy
+msgctxt "journal title"
+msgid "T&itle:"
+msgstr "Titel"
+
+#: koeditorgeneraljournal.cpp:87
 #, fuzzy
 msgid "&Date:"
 msgstr "As gevolg:"
 
-#: koeditorgeneraljournal.cpp:98
+#: koeditorgeneraljournal.cpp:96
 #, fuzzy
 msgid "&Time: "
 msgstr "Tyd: "
 
-#: koeditorgeneraljournal.cpp:131
+#: koeditorgeneraljournal.cpp:128
 msgid "Allows you to select the categories that this journal belongs to."
 msgstr ""
 
-#: koeditorgeneraljournal.cpp:220
+#: koeditorgeneraljournal.cpp:216
 #, fuzzy, kde-format
 msgid "Please specify a valid date, for example '%1'."
 msgstr "Asseblief spesifiseer 'n geldige einde datum."
@@ -8731,6 +8822,12 @@ msgstr "Herhaling"
 #: koagenda.cpp:1145
 msgid "Unable to add the future items to the calendar. No change will be done."
 msgstr ""
+
+#~ msgid "Owner:"
+#~ msgstr "Eienaar:"
+
+#~ msgid "Owner: "
+#~ msgstr "Eienaar: "
 
 #~ msgid "Go to &Today"
 #~ msgstr "Gaan na Vandag"
