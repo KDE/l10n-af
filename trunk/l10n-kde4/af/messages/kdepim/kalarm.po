@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-09 06:05+0100\n"
+"POT-Creation-Date: 2007-11-10 05:58+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -4233,7 +4233,16 @@ msgctxt "@info"
 msgid "Alarm daemon not found."
 msgstr "Alarm Bediener nie gevind"
 
-#: daemon.cpp:248
+#: daemon.cpp:252
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Cannot enable alarms.<br />Installation or configuration error: "
+"<application>Alarm Daemon</application> (<command>%1</command>) version is "
+"incompatible."
+msgstr ""
+
+#: daemon.cpp:267
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -4242,15 +4251,16 @@ msgid ""
 "<command>%2</command> executable.)"
 msgstr ""
 
-#: daemon.cpp:263
+#: daemon.cpp:280
 #, kde-format
 msgctxt "@info"
 msgid ""
 "Cannot enable alarms:<br />Failed to register with <application>Alarm "
-"Daemon</application> (<command>%1</command>)"
+"Daemon</application> (<command>%1</command>)(Possible installation or "
+"configuration error)"
 msgstr ""
 
-#: daemon.cpp:313
+#: daemon.cpp:346
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -4258,7 +4268,7 @@ msgid ""
 "application> (<command>%1</command>)"
 msgstr ""
 
-#: daemon.cpp:809
+#: daemon.cpp:842
 #, fuzzy
 msgctxt "@action"
 msgid "Enable &Alarms"
