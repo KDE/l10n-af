@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkscan VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-30 05:50+0100\n"
+"POT-Creation-Date: 2007-11-12 05:58+0100\n"
 "PO-Revision-Date: 2002-11-07 11:33+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -183,7 +183,7 @@ msgstr "Kanseleer Skandeer"
 msgid "Start Scan"
 msgstr "Begin Skandeer"
 
-#: massscandialog.cpp:103 scanparams.cpp:172
+#: massscandialog.cpp:103
 msgid "Stop"
 msgstr ""
 
@@ -389,22 +389,39 @@ msgstr ""
 
 #: scanparams.cpp:123
 #, fuzzy
-msgid "<B>Scanner Settings</B>"
+msgid "<b>Scanner Settings</b>"
 msgstr "<B>Skandeerder Instellings</B> "
 
 #: scanparams.cpp:164
+#, fuzzy
+#| msgid "Final S&can"
+msgctxt "@action:button"
 msgid "Final S&can"
 msgstr "Finale Skandeer"
 
 #: scanparams.cpp:166
+#, fuzzy
+#| msgid "&Preview Scan"
+msgctxt "@action:button"
 msgid "&Preview Scan"
 msgstr "Voorskou Skandeer"
 
 #: scanparams.cpp:171
+#, fuzzy
+#| msgid "Scanning in progress"
+msgctxt "@info"
 msgid "Scanning in progress"
 msgstr "Skandering in vordering"
 
+#: scanparams.cpp:172
+msgctxt "@action:button"
+msgid "Stop"
+msgstr ""
+
 #: scanparams.cpp:285
+#, fuzzy
+#| msgid "Source..."
+msgctxt "@action:button"
 msgid "Source..."
 msgstr "Bron..."
 
@@ -413,61 +430,85 @@ msgid "Resolution"
 msgstr "Opkyk"
 
 #: scanparams.cpp:465
+#, fuzzy
+#| msgid "Custom Gamma Table"
+msgctxt "@label"
 msgid "Custom Gamma Table"
 msgstr "Pasmaak Gamma Tabel"
 
 #: scanparams.cpp:471
+#, fuzzy
+#| msgid "Edit..."
+msgctxt "@action:button"
 msgid "Edit..."
 msgstr "Redigeer..."
 
 #: scanparams.cpp:506
+#, fuzzy
+#| msgid "Acquire a gray preview even in color mode (faster)"
+msgctxt "@info:tooltip"
 msgid "Acquire a gray preview even in color mode (faster)"
 msgstr "Aanskaf 'n grys voorskou al in kleur modus (vinniger)"
 
 #: scanparams.cpp:516
 msgid ""
-"<B>Problem: No Scanner was found</B><P>Your system does not provide a SANE "
-"<I>(Scanner Access Now Easy)</I> installation, which is required by the KDE "
-"scan support.<P>Please install and configure SANE correctly on your system."
-"<P>Visit the SANE homepage under http://www.sane-project.org to find out "
-"more about SANE installation and configuration. "
+"<b>Problem: No Scanner was found</b><p>Your system does not provide a SANE "
+"<i>(Scanner Access Now Easy)</i> installation, which is required by the KDE "
+"scan support.</p><p>Please install and configure SANE correctly on your "
+"system.</p><p>Visit the SANE homepage under http://www.sane-project.org to "
+"find out more about SANE installation and configuration.</p>"
 msgstr ""
 
-#: scanparams.cpp:590
+#: scanparams.cpp:595
 msgid "*|All Files (*)"
 msgstr "*|Alle Lêers (*)"
 
-#: scanparams.cpp:600
+#: scanparams.cpp:605
 #, fuzzy
 msgid "*.pnm|PNM Image Files (*.pnm)"
 msgstr "*.pnm|pnm beeld lêers (*.pnm)"
 
-#: scanparams.cpp:606
+#: scanparams.cpp:611
 #, fuzzy
+msgctxt "@title:window"
 msgid "Select Input File"
 msgstr "Kies die Invoer Lêer"
 
-#: scanparams.cpp:671
+#: scanparams.cpp:676
+#, fuzzy
+#| msgid "SANE debug (pnm only)"
+msgctxt "@option:radio"
 msgid "SANE debug (pnm only)"
 msgstr "Sinvolle ontfouting (pnm slegs)"
 
-#: scanparams.cpp:676
+#: scanparams.cpp:681
+msgctxt "@option:radio"
 msgid "virt. Scan (all Qt modes)"
 msgstr ""
 
-#: scanparams.cpp:737
-msgid "convert the image to gray on loading"
+#: scanparams.cpp:742
+#, fuzzy
+#| msgid "convert the image to gray on loading"
+msgctxt "@option:check"
+msgid "Convert the image to gray on loading"
 msgstr "skakel om die beeld na grys op laaiïng van"
 
-#: scanparams.cpp:746
+#: scanparams.cpp:751
+msgctxt "@option:check"
 msgid "Simulate three-pass acquiring"
 msgstr ""
 
-#: scanparams.cpp:776
+#: scanparams.cpp:781
+msgctxt "@title:window"
 msgid "KSANE"
 msgstr ""
 
-#: scanparams.cpp:777
+#: scanparams.cpp:782
+#, fuzzy
+#| msgid ""
+#| "The filename for virtual scanning is not set.\n"
+#| "Please set the filename first."
+msgctxt "@info"
 msgid ""
 "The filename for virtual scanning is not set.\n"
 "Please set the filename first."
