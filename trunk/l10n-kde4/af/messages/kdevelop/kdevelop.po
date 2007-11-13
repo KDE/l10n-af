@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-12 05:59+0100\n"
+"POT-Creation-Date: 2007-11-13 06:01+0100\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1238,43 +1238,49 @@ msgstr "Skrip"
 msgid "Files"
 msgstr "Lêers:"
 
-#: languages/cpp/parser/rpp/pp-macro-expander.cpp:61
+#: languages/cpp/parser/rpp/pp-macro-expander.cpp:63
 #, kde-format
 msgid "Call to macro %1 missing argument number %2"
 msgstr ""
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:546
+#: languages/cpp/parser/rpp/pp-engine.cpp:384
+#, fuzzy
+msgid "Unterminated #if statement"
+msgstr "Stappe binnein die volgende stelling"
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:551
 #, kde-format
 msgid "expected ``identifier'' found: %1"
 msgstr ""
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:559
+#: languages/cpp/parser/rpp/pp-engine.cpp:567
 #, fuzzy
 #| msgid "} expected"
 msgid "expected ``)''"
 msgstr "} verwag"
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:585
+#: languages/cpp/parser/rpp/pp-engine.cpp:597
 #, kde-format
 msgid "expected ``)'' = %1"
 msgstr ""
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:614
-#: languages/cpp/parser/rpp/pp-engine.cpp:623
-msgid "division by zero"
-msgstr ""
+#: languages/cpp/parser/rpp/pp-engine.cpp:630
+#: languages/cpp/parser/rpp/pp-engine.cpp:642
+#, fuzzy
+msgid "Division by zero"
+msgstr "Afdelings"
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:857
+#: languages/cpp/parser/rpp/pp-engine.cpp:879
 #, kde-format
 msgid "expected ``:'' = %1"
 msgstr ""
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:917
-#: languages/cpp/parser/rpp/pp-engine.cpp:938
+#: languages/cpp/parser/rpp/pp-engine.cpp:942
+#: languages/cpp/parser/rpp/pp-engine.cpp:966
 msgid "#else without #if"
 msgstr ""
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:973
+#: languages/cpp/parser/rpp/pp-engine.cpp:1004
 #, kde-format
 msgid "#endif without #if at output line %1"
 msgstr ""
@@ -2258,50 +2264,6 @@ msgstr "Dokumentasie:"
 msgid "Document View"
 msgstr "Dokumentasie:"
 
-#: plugins/codeview/kdevcodeview.cpp:48 plugins/codeview/kdevcodeview.cpp:51
-#: plugins/codeview/kdevcodeview.cpp:52 plugins/codeview/kdevcodeview.cpp:91
-#: plugins/codeview/kdevcodeview.cpp:142
-#, fuzzy
-msgid "Code View"
-msgstr "Kode Hulp"
-
-#: plugins/codeview/kdevcodeview.cpp:64
-#, fuzzy
-msgid "No active language part loaded!"
-msgstr "Nee Verskille Gevind"
-
-#: plugins/codeview/kdevcodeview.cpp:78
-msgid "Active language part does not offer a proper codemodel!"
-msgstr ""
-
-#: plugins/codeview/kdevcodeview.cpp:97 plugins/codeview/kdevcodeview.cpp:101
-#, fuzzy
-msgid "Mode"
-msgstr "module"
-
-#: plugins/codeview/kdevcodeview.cpp:102
-#, fuzzy
-msgctxt "Current View"
-msgid "&Current"
-msgstr "Huidige Projek"
-
-#: plugins/codeview/kdevcodeview.cpp:103
-#, fuzzy
-msgctxt "Normalize View"
-msgid "&Normalize"
-msgstr "Normale modus"
-
-#: plugins/codeview/kdevcodeview.cpp:104
-#, fuzzy
-msgctxt "Aggregate View"
-msgid "&Aggregate"
-msgstr "Skep"
-
-#: plugins/codeview/kdevcodeview.cpp:112 plugins/codeview/kdevcodeview.cpp:116
-#, fuzzy
-msgid "Filter"
-msgstr "Lêer Boom"
-
 #: plugins/valgrind/valgrind_dialog.cpp:100
 #, fuzzy
 msgid ""
@@ -2420,6 +2382,37 @@ msgstr "Aksies vir %1"
 #, fuzzy
 msgid "Object Inspector"
 msgstr "Onlangse lêers"
+
+#, fuzzy
+#~ msgid "Code View"
+#~ msgstr "Kode Hulp"
+
+#, fuzzy
+#~ msgid "No active language part loaded!"
+#~ msgstr "Nee Verskille Gevind"
+
+#, fuzzy
+#~ msgid "Mode"
+#~ msgstr "module"
+
+#, fuzzy
+#~ msgctxt "Current View"
+#~ msgid "&Current"
+#~ msgstr "Huidige Projek"
+
+#, fuzzy
+#~ msgctxt "Normalize View"
+#~ msgid "&Normalize"
+#~ msgstr "Normale modus"
+
+#, fuzzy
+#~ msgctxt "Aggregate View"
+#~ msgid "&Aggregate"
+#~ msgstr "Skep"
+
+#, fuzzy
+#~ msgid "Filter"
+#~ msgstr "Lêer Boom"
 
 #, fuzzy
 #~ msgid "Form"
@@ -5710,10 +5703,6 @@ msgstr "Onlangse lêers"
 #, fuzzy
 #~ msgid "&External subprograms without definition"
 #~ msgstr "Eksterne subprogramme sonder om te definisie"
-
-#, fuzzy
-#~ msgid "&Divisions"
-#~ msgstr "Afdelings"
 
 #, fuzzy
 #~ msgid "&Identifiers without explicit type"
@@ -9484,10 +9473,6 @@ msgstr "Onlangse lêers"
 
 #~ msgid "Step &Into"
 #~ msgstr "Step Binnein"
-
-#, fuzzy
-#~ msgid "Step into the next statement"
-#~ msgstr "Stappe binnein die volgende stelling"
 
 #, fuzzy
 #~ msgid ""
