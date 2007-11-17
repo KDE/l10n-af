@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: useraccount stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-02 05:44+0100\n"
+"POT-Creation-Date: 2007-11-17 05:56+0100\n"
 "PO-Revision-Date: 2005-11-25 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -16,27 +16,19 @@ msgstr ""
 msgid "Change your Face"
 msgstr "Verander jou gesig"
 
-#: chfacedlg.cpp:73
-msgid "Select a new face:"
-msgstr "Kies 'n nuwe gesig:"
-
-#: chfacedlg.cpp:92
-msgid "Custom &Image..."
-msgstr "Pasmaak Beeld..."
-
-#: chfacedlg.cpp:96
+#: chfacedlg.cpp:79
 msgid "&Acquire Image..."
 msgstr "Kry Beeld..."
 
-#: chfacedlg.cpp:117
+#: chfacedlg.cpp:98
 msgid "(Custom)"
 msgstr "(Pasmaak)"
 
-#: chfacedlg.cpp:139 main.cpp:257
+#: chfacedlg.cpp:117 main.cpp:257
 msgid "There was an error loading the image."
 msgstr "'n Fout het voorgekom met die laai van die beeld."
 
-#: chfacedlg.cpp:157 chfacedlg.cpp:194
+#: chfacedlg.cpp:135 chfacedlg.cpp:172
 #, kde-format
 msgid ""
 "There was an error saving the image:\n"
@@ -45,11 +37,11 @@ msgstr ""
 "'n Fout het voorgekom met die stoor van die beeld:\n"
 "%1"
 
-#: chfacedlg.cpp:169
+#: chfacedlg.cpp:147
 msgid "&Save copy in custom faces folder for future use"
 msgstr "Stoor 'n kopieë in die pasmaak gesig gids vir toekomstige gebruik"
 
-#: chfacedlg.cpp:175
+#: chfacedlg.cpp:153
 msgid "Choose Image"
 msgstr "Kies Beeld"
 
@@ -186,97 +178,117 @@ msgstr ""
 "Gebruik asb. lêers met die volgende uitbreidings:\n"
 "%2"
 
+#. i18n: tag string
+#. i18n: file faceDlg.ui line 19
+#: rc.cpp:3
+msgid "Form"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file faceDlg.ui line 27
+#: rc.cpp:6
+msgid "Select a new face:"
+msgstr "Kies 'n nuwe gesig:"
+
+#. i18n: tag string
+#. i18n: file faceDlg.ui line 46
+#: rc.cpp:9
+#, fuzzy
+#| msgid "Custom &Image..."
+msgid "Custom Image..."
+msgstr "Pasmaak Beeld..."
+
 #. i18n: tag label
 #. i18n: file kcm_useraccount.kcfg line 24
-#: rc.cpp:3
+#: rc.cpp:12
 msgid "The size of login images"
 msgstr "Die grootte van aanteken prentjies"
 
 #. i18n: tag label
 #. i18n: file kcm_useraccount.kcfg line 28
-#: rc.cpp:6
+#: rc.cpp:15
 msgid "The default image file"
 msgstr "Die standaard beeld lêer"
 
 #. i18n: tag label
 #. i18n: file kcm_useraccount.kcfg line 32
-#: rc.cpp:9
+#: rc.cpp:18
 msgid "The filename of the user's custom image file"
 msgstr "Die lêernaam van die gebruiker se eie prentjie"
 
 #. i18n: tag label
 #. i18n: file kcm_useraccount.kcfg line 36
-#: rc.cpp:12
+#: rc.cpp:21
 msgid "The user's login image"
 msgstr "Die gebruiker se aanteken prentjie"
 
 #. i18n: tag label
 #. i18n: file kcm_useraccount.kcfg line 40
-#: rc.cpp:15
+#: rc.cpp:24
 #, fuzzy
 msgid "Sort key for K3IconViewItems"
 msgstr "Patroon waarvolgens KIconViewItems gesorteer moet word"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 14
-#: rc.cpp:18
+#: rc.cpp:27
 msgid "KCMUserAccount"
 msgstr "KCMUserAccount"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 92
-#: rc.cpp:21
+#: rc.cpp:30
 msgid "<i>(Click the button to change your image)</i>"
 msgstr "<i>(Kliek op die knoppie om jou beeld te verander)</i>"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 109
-#: rc.cpp:24
+#: rc.cpp:33
 msgid "User Information"
 msgstr "Gebruiker Inligting"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 115
-#: rc.cpp:27
+#: rc.cpp:36
 msgid "&Name:"
 msgstr "Naam:"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 135
-#: rc.cpp:30
+#: rc.cpp:39
 msgid "&Organization:"
 msgstr "Organisasie:"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 155
-#: rc.cpp:33
+#: rc.cpp:42
 msgid "&Email address:"
 msgstr "E-pos adres:"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 175
-#: rc.cpp:36
+#: rc.cpp:45
 msgid "&SMTP server:"
 msgstr "SMTP bediener:"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 195
-#: rc.cpp:39
+#: rc.cpp:48
 msgid "User ID:"
 msgstr "Gebruiker ID:"
 
 #. i18n: tag string
 #. i18n: file main_widget.ui line 220
-#: rc.cpp:42
+#: rc.cpp:51
 msgid "Change Password..."
 msgstr "Verander Wagwoord..."
 
-#: rc.cpp:43
+#: rc.cpp:52
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Frikkie Thirion"
 
-#: rc.cpp:44
+#: rc.cpp:53
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za"
