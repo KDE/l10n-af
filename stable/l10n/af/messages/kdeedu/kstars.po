@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars VERSION\n"
-"POT-Creation-Date: 2007-08-28 01:15+0200\n"
+"POT-Creation-Date: 2007-11-21 01:17+0100\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -126,7 +126,7 @@ msgstr ""
 msgid "Help on custom catalog file format"
 msgstr "Kon nie open pasmaak data lêer: "
 
-#: addcatdialog.cpp:145 customcatalog.cpp:22 kstarsdata.cpp:1493
+#: addcatdialog.cpp:145 customcatalog.cpp:22 kstarsdata.cpp:1498
 msgid "Custom"
 msgstr ""
 
@@ -401,8 +401,9 @@ msgstr "Algemeen"
 
 #: detaildialog.cpp:137 kspopupmenu.cpp:55 kspopupmenu.cpp:237
 #: kstarsdata.cpp:128 kstarsinit.cpp:526 kstarsinit.cpp:542
-#: skymapdraw.cpp:1226 starobject.cpp:243 tools/observinglist.cpp:186
-#: tools/observinglist.cpp:232 tools/observinglist.cpp:271
+#: skymapdraw.cpp:1226 skymapdraw.cpp:1394 starobject.cpp:243
+#: tools/observinglist.cpp:186 tools/observinglist.cpp:232
+#: tools/observinglist.cpp:271
 msgid "star"
 msgstr "ster"
 
@@ -1023,26 +1024,21 @@ msgstr ""
 msgid "Invalid range for element %1. Valid range is from %2 to %3"
 msgstr ""
 
-#: indiproperty.cpp:220 kspopupmenu.cpp:213
-#, fuzzy
-msgid "Center && Track Crosshair"
-msgstr "Sentrum && Navolg"
-
-#: indiproperty.cpp:344
+#: indiproperty.cpp:347
 #, fuzzy
 msgid "Cannot open file %1 for reading"
 msgstr "Kon nie open pasmaak data lêer: "
 
-#: indiproperty.cpp:354
+#: indiproperty.cpp:357
 #, c-format
 msgid "Not enough memory to load %1"
 msgstr ""
 
-#: indiproperty.cpp:366
+#: indiproperty.cpp:369
 msgid "Not enough memory to convert file %1 to base64"
 msgstr ""
 
-#: indiproperty.cpp:899
+#: indiproperty.cpp:902
 msgid "Upload"
 msgstr ""
 
@@ -1275,6 +1271,11 @@ msgstr ""
 #, no-c-format
 msgid "Add Link..."
 msgstr "Voeg by Skakel..."
+
+#: kspopupmenu.cpp:213
+#, fuzzy
+msgid "Center && Track Crosshair"
+msgstr "Sentrum && Navolg"
 
 #: kspopupmenu.cpp:269
 msgid "Rise time: 00:00"
@@ -23103,7 +23104,7 @@ msgstr "Kon nie uitvee die lêer: %1"
 msgid "Download Error"
 msgstr ""
 
-#: kstarsactions.cpp:531 kstarsdata.cpp:2328 tools/observinglist.cpp:530
+#: kstarsactions.cpp:531 kstarsdata.cpp:2334 tools/observinglist.cpp:530
 #, fuzzy, c-format
 msgid "Could not open file %1"
 msgstr "Kon nie Open Lêer"
@@ -23235,12 +23236,12 @@ msgstr ""
 msgid "Bad Constellation Boundary data."
 msgstr "Leo"
 
-#: kstarsdata.cpp:587 kstarsdata.cpp:1837
+#: kstarsdata.cpp:587 kstarsdata.cpp:1842
 #, fuzzy
 msgid "Loading Star Data (%1%)"
 msgstr "Laaiïng van Ster Data"
 
-#: kstarsdata.cpp:791 kstarsdata.cpp:1848
+#: kstarsdata.cpp:791 kstarsdata.cpp:1853
 #, fuzzy
 msgid "Loading NGC/IC Data (%1%)"
 msgstr "Laaiïng van Stad Data"
@@ -23259,16 +23260,16 @@ msgid ""
 "links is not possible"
 msgstr ""
 
-#: kstarsdata.cpp:1140
+#: kstarsdata.cpp:1145
 #, c-format
 msgid "Error adding catalog: %1"
 msgstr ""
 
-#: kstarsdata.cpp:1218
+#: kstarsdata.cpp:1223
 msgid "Line %1 does not contain %2 fields.  Skipping it."
 msgstr ""
 
-#: kstarsdata.cpp:1225
+#: kstarsdata.cpp:1230
 #, fuzzy
 msgid ""
 "Some lines in the custom catalog could not be parsed; see error messages below."
@@ -23276,147 +23277,147 @@ msgstr ""
 "Sommige lyne kon nie wees gelees in die gespesifiseer lêer, sien fout "
 "boodskappe onder."
 
-#: kstarsdata.cpp:1226
+#: kstarsdata.cpp:1231
 msgid "To reject the file, press Cancel. "
 msgstr "Na verwerp die lêer, druk Kanseleer. "
 
-#: kstarsdata.cpp:1227
+#: kstarsdata.cpp:1232
 msgid "To accept the file (ignoring unparsed lines), press Accept."
 msgstr "Na aanvaar die lêer (ignoreer ongeleesde lyne), druk aanvaar."
 
-#: kstarsdata.cpp:1229
+#: kstarsdata.cpp:1234
 #, fuzzy
 msgid "Some Lines in File Were Invalid"
 msgstr "Sommige lyne in lêer was ongeldige"
 
-#: kstarsdata.cpp:1229
+#: kstarsdata.cpp:1234
 msgid "Accept"
 msgstr "Aanvaar"
 
-#: kstarsdata.cpp:1235
+#: kstarsdata.cpp:1240
 msgid ""
 "No lines could be parsed from the specified file, see error messages below."
 msgstr ""
 "Nee lyne kon wees gelees van die gespesifiseer lêer, sien fout boodskappe "
 "onder."
 
-#: kstarsdata.cpp:1237
+#: kstarsdata.cpp:1242
 msgid "No Valid Data Found in File"
 msgstr "Nee Geldige Data Gevind in Lêer"
 
-#: kstarsdata.cpp:1244 kstarsdata.cpp:1247
+#: kstarsdata.cpp:1249 kstarsdata.cpp:1252
 #, fuzzy, c-format
 msgid "Could not open custom data file: %1"
 msgstr "Kon nie open pasmaak data lêer: "
 
-#: kstarsdata.cpp:1245
+#: kstarsdata.cpp:1250
 #, fuzzy
 msgid "Error opening file"
 msgstr "Fout Uitveeïng Lêer"
 
-#: kstarsdata.cpp:1277
+#: kstarsdata.cpp:1282
 msgid "Line %1, field %2: Unable to parse RA value: %3"
 msgstr ""
 
-#: kstarsdata.cpp:1286
+#: kstarsdata.cpp:1291
 msgid "Line %1, field %2: Unable to parse Dec value: %3"
 msgstr ""
 
-#: kstarsdata.cpp:1298
+#: kstarsdata.cpp:1303
 msgid "Line %1, field %2: Invalid object type: %3"
 msgstr ""
 
-#: kstarsdata.cpp:1300
+#: kstarsdata.cpp:1305
 msgid "Must be one of 0, 1, 3, 4, 5, 6, 7, 8."
 msgstr ""
 
-#: kstarsdata.cpp:1305
+#: kstarsdata.cpp:1310
 msgid "Line %1, field %2: Unable to parse Object type: %3"
 msgstr ""
 
-#: kstarsdata.cpp:1316
+#: kstarsdata.cpp:1321
 msgid "Line %1, field %2: Unable to parse Magnitude: %3"
 msgstr ""
 
-#: kstarsdata.cpp:1327
+#: kstarsdata.cpp:1332
 msgid "Line %1, field %2: Unable to parse Major Axis: %3"
 msgstr ""
 
-#: kstarsdata.cpp:1338
+#: kstarsdata.cpp:1343
 msgid "Line %1, field %2: Unable to parse Minor Axis: %3"
 msgstr ""
 
-#: kstarsdata.cpp:1349
+#: kstarsdata.cpp:1354
 msgid "Line %1, field %2: Unable to parse Position Angle: %3"
 msgstr ""
 
-#: kstarsdata.cpp:1397 kstarsdata.cpp:1406 kstarsdata.cpp:1415
-#: kstarsdata.cpp:1425 kstarsdata.cpp:1431 kstarsdata.cpp:1463
-#: kstarsdata.cpp:1468 kstarsdata.cpp:1479 kstarsdata.cpp:1485
-#: kstarsdata.cpp:1491 kstarsdata.cpp:1496 kstarsdata.cpp:1501
-#: kstarsdata.cpp:1506
+#: kstarsdata.cpp:1402 kstarsdata.cpp:1411 kstarsdata.cpp:1420
+#: kstarsdata.cpp:1430 kstarsdata.cpp:1436 kstarsdata.cpp:1468
+#: kstarsdata.cpp:1473 kstarsdata.cpp:1484 kstarsdata.cpp:1490
+#: kstarsdata.cpp:1496 kstarsdata.cpp:1501 kstarsdata.cpp:1506
+#: kstarsdata.cpp:1511
 msgid "Parsing header: "
 msgstr ""
 
-#: kstarsdata.cpp:1398
+#: kstarsdata.cpp:1403
 msgid "Extra Name field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1407
+#: kstarsdata.cpp:1412
 msgid "Extra Prefix field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1416
+#: kstarsdata.cpp:1421
 msgid "Extra Color field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1426
+#: kstarsdata.cpp:1431
 msgid "Could not convert Epoch to float: %1.  Using 2000. instead"
 msgstr ""
 
-#: kstarsdata.cpp:1432
+#: kstarsdata.cpp:1437
 msgid "Extra Epoch field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1464
+#: kstarsdata.cpp:1469
 msgid "Duplicate data field descriptor \"%1\" will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1469
+#: kstarsdata.cpp:1474
 msgid "Invalid data field descriptor \"%1\" will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1480
+#: kstarsdata.cpp:1485
 msgid "No valid column descriptors found.  Exiting"
 msgstr ""
 
-#: kstarsdata.cpp:1486
+#: kstarsdata.cpp:1491
 msgid "No data lines found after header.  Exiting."
 msgstr ""
 
-#: kstarsdata.cpp:1492
+#: kstarsdata.cpp:1497
 msgid "No Catalog Name specified; setting to \"Custom\""
 msgstr ""
 
-#: kstarsdata.cpp:1497
+#: kstarsdata.cpp:1502
 msgid "No Catalog Prefix specified; setting to \"CC\""
 msgstr ""
 
-#: kstarsdata.cpp:1502
+#: kstarsdata.cpp:1507
 msgid "No Catalog Color specified; setting to Red"
 msgstr ""
 
-#: kstarsdata.cpp:1507
+#: kstarsdata.cpp:1512
 #, fuzzy
 msgid "No Catalog Epoch specified; assuming 2000."
 msgstr "Kon nie lees "
 
-#: kstarsdata.cpp:1538
+#: kstarsdata.cpp:1543
 msgid "Cities.dat: Ran out of fields.  Line was:"
 msgstr "Stede.dat: Hardloop uit van velde.  Lyn was:"
 
-#: kstarsdata.cpp:1556 kstarsdata.cpp:1562 kstarsdata.cpp:1568
-#: kstarsdata.cpp:1581 kstarsdata.cpp:1587 kstarsdata.cpp:1593
+#: kstarsdata.cpp:1561 kstarsdata.cpp:1567 kstarsdata.cpp:1573
+#: kstarsdata.cpp:1586 kstarsdata.cpp:1592 kstarsdata.cpp:1598
 msgid ""
 "\n"
 "Cities.dat: Bad integer.  Line was:\n"
@@ -23424,7 +23425,7 @@ msgstr ""
 "\n"
 "Stede.dat: Slegte heelgetal.  Lyn was:\n"
 
-#: kstarsdata.cpp:1575
+#: kstarsdata.cpp:1580
 msgid ""
 "\n"
 "Cities.dat: Invalid latitude sign.  Line was:\n"
@@ -23432,13 +23433,13 @@ msgstr ""
 "\n"
 "Stede.dat: Ongeldige lengtegraad teken.  Lyn was:\n"
 
-#: kstarsdata.cpp:1600
+#: kstarsdata.cpp:1605
 msgid ""
 "\n"
 "Cities.dat: Invalid longitude sign.  Line was:\n"
 msgstr ""
 
-#: kstarsdata.cpp:1618
+#: kstarsdata.cpp:1623
 msgid ""
 "\n"
 "Cities.dat: Bad time zone.  Line was:\n"
@@ -23446,7 +23447,7 @@ msgstr ""
 "\n"
 "Stede.dat: Slegte tyd sone.  Lyn was:\n"
 
-#: kstarsdata.cpp:1769
+#: kstarsdata.cpp:1774
 msgid ""
 "The file %1 could not be found. KStars cannot run properly without this file. "
 "To continue loading, place the file in one of the following locations, then "
@@ -23454,16 +23455,16 @@ msgid ""
 "\n"
 msgstr ""
 
-#: kstarsdata.cpp:1775
+#: kstarsdata.cpp:1780
 msgid "Otherwise, press Cancel to shutdown."
 msgstr ""
 
-#: kstarsdata.cpp:1776
+#: kstarsdata.cpp:1781
 #, c-format
 msgid "Critical File Not Found: %1"
 msgstr "Krities Lêer Nie Gevind: %1"
 
-#: kstarsdata.cpp:1778
+#: kstarsdata.cpp:1783
 msgid ""
 "The file %1 could not be found. KStars can still run without this file. "
 "However, to avoid seeing this message in the future, you can place the file in "
@@ -23471,76 +23472,76 @@ msgid ""
 "\n"
 msgstr ""
 
-#: kstarsdata.cpp:1784
+#: kstarsdata.cpp:1789
 msgid "Otherwise, press Cancel to continue loading without this file."
 msgstr ""
 
-#: kstarsdata.cpp:1785
+#: kstarsdata.cpp:1790
 #, c-format
 msgid "Non-Critical File Not Found: %1"
 msgstr "Non-Critical Lêer Nie Gevind: %1"
 
-#: kstarsdata.cpp:1788
+#: kstarsdata.cpp:1793
 msgid "Retry"
 msgstr ""
 
-#: kstarsdata.cpp:1811
+#: kstarsdata.cpp:1816
 #, fuzzy
 msgid "Reading Time Zone Rules"
 msgstr "Daglig Stooring Tyd Reëls"
 
-#: kstarsdata.cpp:1827
+#: kstarsdata.cpp:1832
 msgid "Loading City Data"
 msgstr "Laaiïng van Stad Data"
 
-#: kstarsdata.cpp:1852
+#: kstarsdata.cpp:1857
 #, fuzzy
 msgid "Loading Custom catalogs"
 msgstr "Voeg by Pasmaak Katalogus..."
 
-#: kstarsdata.cpp:1860
+#: kstarsdata.cpp:1865
 msgid "Loading Constellations"
 msgstr ""
 
-#: kstarsdata.cpp:1867
+#: kstarsdata.cpp:1872
 msgid "Loading Constellation Names"
 msgstr ""
 
-#: kstarsdata.cpp:1874
+#: kstarsdata.cpp:1879
 #, fuzzy
 msgid "Loading Constellation Boundaries"
 msgstr "Latyn"
 
-#: kstarsdata.cpp:1881
+#: kstarsdata.cpp:1886
 msgid "Loading Milky Way"
 msgstr ""
 
-#: kstarsdata.cpp:1888
+#: kstarsdata.cpp:1893
 msgid "Creating Planets"
 msgstr "Te skep Planete"
 
-#: kstarsdata.cpp:1897
+#: kstarsdata.cpp:1902
 #, fuzzy
 msgid "Creating Asteroids and Comets"
 msgstr "Te skep Planete"
 
-#: kstarsdata.cpp:1907
+#: kstarsdata.cpp:1912
 msgid "Creating Moon"
 msgstr "Te skep Maan"
 
-#: kstarsdata.cpp:1915
+#: kstarsdata.cpp:1920
 msgid "Loading Image URLs"
 msgstr "Laaiïng van Beeld Urls"
 
-#: kstarsdata.cpp:1929
+#: kstarsdata.cpp:1934
 msgid "Loading Information URLs"
 msgstr "Laaiïng van Informasie Urls"
 
-#: kstarsdata.cpp:2427
+#: kstarsdata.cpp:2433
 msgid "Could not set time: %1 / %2 / %3 ; %4:%5:%6"
 msgstr ""
 
-#: kstarsdata.cpp:2542
+#: kstarsdata.cpp:2548
 msgid "Could not set location named %1, %2, %3"
 msgstr ""
 
