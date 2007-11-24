@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-22 05:55+0100\n"
+"POT-Creation-Date: 2007-11-24 05:56+0100\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1243,44 +1243,64 @@ msgstr ""
 msgid "Call to macro %1 missing argument number %2"
 msgstr ""
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:384
+#: languages/cpp/parser/rpp/pp-macro-expander.cpp:64
+#, fuzzy, kde-format
+msgid "Formals: %1"
+msgstr "Lêer: %1"
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:388
 #, fuzzy
 msgid "Unterminated #if statement"
 msgstr "Stappe binnein die volgende stelling"
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:551
+#: languages/cpp/parser/rpp/pp-engine.cpp:557
+#: languages/cpp/parser/rpp/pp-engine.cpp:575
+#: languages/cpp/parser/rpp/pp-engine.cpp:607
+#, fuzzy, kde-format
+msgid "character %1"
+msgstr "Karakter"
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:557
 #, kde-format
-msgid "expected ``identifier'' found: %1"
+msgid "Expected \"identifier\", found: %1"
 msgstr ""
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:567
-#, fuzzy
-#| msgid "} expected"
-msgid "expected ``)''"
-msgstr "} verwag"
-
-#: languages/cpp/parser/rpp/pp-engine.cpp:597
+#: languages/cpp/parser/rpp/pp-engine.cpp:558
+#: languages/cpp/parser/rpp/pp-engine.cpp:576
+#: languages/cpp/parser/rpp/pp-engine.cpp:608
 #, kde-format
-msgid "expected ``)'' = %1"
+msgid "<h5>Token text</h5><pre>%1</pre><h5>Input</h5><pre>%2</pre>"
 msgstr ""
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:630
-#: languages/cpp/parser/rpp/pp-engine.cpp:642
+#: languages/cpp/parser/rpp/pp-engine.cpp:575
+#: languages/cpp/parser/rpp/pp-engine.cpp:607
+#, kde-format
+msgid "Expected \")\", found %1"
+msgstr ""
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:643
+#: languages/cpp/parser/rpp/pp-engine.cpp:656
 #, fuzzy
 msgid "Division by zero"
 msgstr "Afdelings"
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:879
+#: languages/cpp/parser/rpp/pp-engine.cpp:644
+#: languages/cpp/parser/rpp/pp-engine.cpp:657
+#, fuzzy, kde-format
+msgid "Input text: %1"
+msgstr "Ingesit: %1"
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:894
 #, kde-format
 msgid "expected ``:'' = %1"
 msgstr ""
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:942
-#: languages/cpp/parser/rpp/pp-engine.cpp:966
+#: languages/cpp/parser/rpp/pp-engine.cpp:959
+#: languages/cpp/parser/rpp/pp-engine.cpp:983
 msgid "#else without #if"
 msgstr ""
 
-#: languages/cpp/parser/rpp/pp-engine.cpp:1004
+#: languages/cpp/parser/rpp/pp-engine.cpp:1023
 #, kde-format
 msgid "#endif without #if at output line %1"
 msgstr ""
@@ -2385,6 +2405,11 @@ msgid "Object Inspector"
 msgstr "Onlangse lêers"
 
 #, fuzzy
+#~| msgid "} expected"
+#~ msgid "expected ``)''"
+#~ msgstr "} verwag"
+
+#, fuzzy
 #~ msgid "Code View"
 #~ msgstr "Kode Hulp"
 
@@ -3473,10 +3498,6 @@ msgstr "Onlangse lêers"
 #, fuzzy
 #~ msgid "Close this project"
 #~ msgstr "Maak toe Projek"
-
-#, fuzzy
-#~ msgid "Folder: %1"
-#~ msgstr "Lêer: %1"
 
 #~ msgid "File: %1"
 #~ msgstr "Lêer: %1"
@@ -5665,10 +5686,6 @@ msgstr "Onlangse lêers"
 #, fuzzy
 #~ msgid "&Selected window"
 #~ msgstr "Volgende Venster"
-
-#, fuzzy
-#~ msgid "Character Coding"
-#~ msgstr "Karakter"
 
 #, fuzzy
 #~ msgid "ASCII"
@@ -10364,10 +10381,6 @@ msgstr "Onlangse lêers"
 #~ "die ontfouter sal dan word vertoon die lyn na die oorspronklike roep na "
 #~ "wat funksie. As program uitvoering is in die buitenste raam (i.e. in hoof"
 #~ "()) dan word hierdie operasie het nee effek."
-
-#, fuzzy
-#~ msgid "Inspect: %1"
-#~ msgstr "Ingesit: %1"
 
 #, fuzzy
 #~ msgid "Restart"
