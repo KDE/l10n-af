@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-30 06:04+0100\n"
+"POT-Creation-Date: 2007-12-01 06:07+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -243,6 +243,9 @@ msgid "D&elete"
 msgstr "Uitvee"
 
 #: karbon_view.cc:979
+#, fuzzy
+#| msgid "&Duplicate"
+msgctxt "Duplicate selection"
 msgid "&Duplicate"
 msgstr "Duplikaat"
 
@@ -255,6 +258,9 @@ msgid "&Raise"
 msgstr "Lig"
 
 #: karbon_view.cc:994
+#, fuzzy
+#| msgid "&Lower"
+msgctxt "Lower selected shapes"
 msgid "&Lower"
 msgstr "Sagter"
 
@@ -486,6 +492,9 @@ msgid "Grid"
 msgstr ""
 
 #: dialogs/vconfiguredlg.cc:74
+#, fuzzy
+#| msgid "Document"
+msgctxt "@title:tab"
 msgid "Document"
 msgstr "Dokument"
 
@@ -527,10 +536,12 @@ msgid "Spacing"
 msgstr ""
 
 #: dialogs/vconfiguredlg.cc:293
+msgctxt "Horizontal grid spacing"
 msgid "&Horizontal:"
 msgstr ""
 
 #: dialogs/vconfiguredlg.cc:299
+msgctxt "Vertical grid spacing"
 msgid "&Vertical:"
 msgstr ""
 
@@ -570,8 +581,7 @@ msgstr "Wydte:"
 msgid "Style:"
 msgstr "Styl:"
 
-#: dialogs/vstrokedlg.cc:68 widgets/vgradienttabwidget.cc:330
-#: widgets/KarbonStyleButtonBox.cpp:287
+#: dialogs/vstrokedlg.cc:68
 msgid "None"
 msgstr "Geen"
 
@@ -649,16 +659,30 @@ msgid "Target:"
 msgstr "Teiken:"
 
 #: widgets/vgradienttabwidget.cc:324
+#, fuzzy
+#| msgid "Linear"
+msgctxt "Linear gradient type"
 msgid "Linear"
 msgstr "Liniêre"
 
 #: widgets/vgradienttabwidget.cc:325
+#, fuzzy
+#| msgid "Radial"
+msgctxt "Radial gradient type"
 msgid "Radial"
 msgstr "Radiaal"
 
 #: widgets/vgradienttabwidget.cc:326
+msgctxt "Conical gradient type"
 msgid "Conical"
 msgstr ""
+
+#: widgets/vgradienttabwidget.cc:330
+#, fuzzy
+#| msgid "None"
+msgctxt "No gradient spread"
+msgid "None"
+msgstr "Geen"
 
 #: widgets/vgradienttabwidget.cc:331
 msgid "Reflect"
@@ -781,7 +805,15 @@ msgstr "Redigeer Gradiënt"
 msgid "Stroke: Pattern"
 msgstr "Kies kleur"
 
+#: widgets/KarbonStyleButtonBox.cpp:287
+#, fuzzy
+#| msgid "None"
+msgctxt "No stroke or fill"
+msgid "None"
+msgstr "Geen"
+
 #: widgets/KarbonStyleButtonBox.cpp:295
+msgctxt "Solid color stroke or fill"
 msgid "Solid"
 msgstr ""
 
