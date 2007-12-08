@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-07 06:02+0100\n"
+"POT-Creation-Date: 2007-12-08 05:56+0100\n"
 "PO-Revision-Date: 2005-11-25 05:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -160,7 +160,7 @@ msgid "The clipboard is empty"
 msgstr "Die klipbord is leeg"
 
 #: kio/paste.cpp:203 kio/renamedialog.cpp:392 kio/kdirlister.cpp:295
-#: kio/krun.cpp:831
+#: kio/krun.cpp:835
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -2375,11 +2375,16 @@ msgstr "Jy word nie gemagtig na uitvoer hierdie lêer."
 msgid "Launching %1"
 msgstr "Besig om te %1 begin"
 
-#: kio/krun.cpp:701
+#: kio/krun.cpp:638
+#, kde-format
+msgid "Error processing Exec field in %1"
+msgstr ""
+
+#: kio/krun.cpp:705
 msgid "You are not authorized to execute this service."
 msgstr "Jy word nie gemagtig na uitvoer hierdie diens."
 
-#: kio/krun.cpp:867
+#: kio/krun.cpp:871
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -2388,7 +2393,7 @@ msgstr ""
 "<qt>Kon nie die gespesifiseerde opdrag uitvoer nie. Die lêer of gids <b>%1</"
 "b> bestaan nie.</qt>"
 
-#: kio/krun.cpp:1463
+#: kio/krun.cpp:1467
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Kon nie die program '%1' vind nie."
@@ -4686,7 +4691,7 @@ msgstr "Maak gids in boekmerk redigeerder oop"
 msgid "Delete Folder"
 msgstr "Vee Gids Uit"
 
-#: bookmarks/kbookmarkmenu.cc:263 ../kfile/kdiroperator.cpp:1569
+#: bookmarks/kbookmarkmenu.cc:263 ../kfile/kdiroperator.cpp:1567
 #, fuzzy
 msgid "Properties"
 msgstr "Eienskappe vir %1"
@@ -4815,8 +4820,8 @@ msgid "Select Folder"
 msgstr "Kies Gids"
 
 #: bookmarks/kbookmarkdialog.cc:128 ../kfile/kdirselectdialog.cpp:114
-#: ../kfile/kdirselectdialog.cpp:118 ../kfile/kdiroperator.cpp:629
-#: ../kfile/kdiroperator.cpp:637
+#: ../kfile/kdirselectdialog.cpp:118 ../kfile/kdiroperator.cpp:627
+#: ../kfile/kdiroperator.cpp:635
 msgid "New Folder"
 msgstr "Nuwe Gids"
 
@@ -5793,7 +5798,7 @@ msgstr "'n onverwagte fout (%1) voorgekom terwyl probeer na %2."
 msgid "Custom Path"
 msgstr ""
 
-#: ../kfile/kdirselectdialog.cpp:119 ../kfile/kdiroperator.cpp:638
+#: ../kfile/kdirselectdialog.cpp:119 ../kfile/kdiroperator.cpp:636
 #, kde-format
 msgid ""
 "Create new folder in:\n"
@@ -5802,17 +5807,17 @@ msgstr ""
 "Skep nuwe gids in:\n"
 "%1"
 
-#: ../kfile/kdirselectdialog.cpp:142 ../kfile/kdiroperator.cpp:664
+#: ../kfile/kdirselectdialog.cpp:142 ../kfile/kdiroperator.cpp:662
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "'n Lêer of gids met die naam: %1 bestaan alreeds."
 
-#: ../kfile/kdirselectdialog.cpp:146 ../kfile/kdiroperator.cpp:667
+#: ../kfile/kdirselectdialog.cpp:146 ../kfile/kdiroperator.cpp:665
 msgid "You do not have permission to create that folder."
 msgstr "Jy het nie die regte om hieride gids te skep nie."
 
 #: ../kfile/kdirselectdialog.cpp:224 ../kfile/kdirselectdialog.cpp:260
-#: ../kfile/kdiroperator.cpp:1498
+#: ../kfile/kdiroperator.cpp:1496
 msgid "New Folder..."
 msgstr "Nuwe Gids..."
 
@@ -5895,15 +5900,15 @@ msgstr ""
 "wanneer te gebruik die huidige aansoek (%1).<p>as hierdie opset is nie "
 "gekose, die inskrywing sal wees beskikbaar in alle programme.</qt>"
 
-#: ../kfile/kdiroperator.cpp:682
+#: ../kfile/kdiroperator.cpp:680
 msgid "You did not select a file to delete."
 msgstr "Jy het nie 'n lêer gekies om uit te vee nie."
 
-#: ../kfile/kdiroperator.cpp:683
+#: ../kfile/kdiroperator.cpp:681
 msgid "Nothing to Delete"
 msgstr "Niks om uit te vee nie"
 
-#: ../kfile/kdiroperator.cpp:704
+#: ../kfile/kdiroperator.cpp:702
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -5913,30 +5918,30 @@ msgstr ""
 "<b>'%1'</b>\n"
 "uitvee?</qt>"
 
-#: ../kfile/kdiroperator.cpp:706
+#: ../kfile/kdiroperator.cpp:704
 msgid "Delete File"
 msgstr "Vee Lêer Uit"
 
-#: ../kfile/kdiroperator.cpp:711
+#: ../kfile/kdiroperator.cpp:709
 #, fuzzy, kde-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "Wil jy rerig hierdie item uitvee?"
 msgstr[1] "Wil jy rerig hierdie %1 items uitvee?"
 
-#: ../kfile/kdiroperator.cpp:713
+#: ../kfile/kdiroperator.cpp:711
 msgid "Delete Files"
 msgstr "Vee Lêers Uit"
 
-#: ../kfile/kdiroperator.cpp:744
+#: ../kfile/kdiroperator.cpp:742
 msgid "You did not select a file to trash."
 msgstr "Jy het nie 'n lêer gekies om weg te gooi nie."
 
-#: ../kfile/kdiroperator.cpp:745
+#: ../kfile/kdiroperator.cpp:743
 msgid "Nothing to Trash"
 msgstr "Niks om uit te vee nie"
 
-#: ../kfile/kdiroperator.cpp:762
+#: ../kfile/kdiroperator.cpp:760
 #, kde-format
 msgid ""
 "<qt>Do you really want to trash\n"
@@ -5946,100 +5951,100 @@ msgstr ""
 "<b>'%1'</b>\n"
 "uitvee?</qt>"
 
-#: ../kfile/kdiroperator.cpp:764
+#: ../kfile/kdiroperator.cpp:762
 msgid "Trash File"
 msgstr "Vee Lêer Uit"
 
-#: ../kfile/kdiroperator.cpp:765 ../kfile/kdiroperator.cpp:772
+#: ../kfile/kdiroperator.cpp:763 ../kfile/kdiroperator.cpp:770
 msgctxt "to trash"
 msgid "&Trash"
 msgstr "Gemors"
 
-#: ../kfile/kdiroperator.cpp:769
+#: ../kfile/kdiroperator.cpp:767
 #, fuzzy, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] "Wil jy rerig hierdie item uitvee?"
 msgstr[1] "Wil jy rerig hierdie %1 items uitvee?"
 
-#: ../kfile/kdiroperator.cpp:771
+#: ../kfile/kdiroperator.cpp:769
 msgid "Trash Files"
 msgstr "Vee Lêers Uit"
 
-#: ../kfile/kdiroperator.cpp:894 ../kfile/kdiroperator.cpp:1007
+#: ../kfile/kdiroperator.cpp:892 ../kfile/kdiroperator.cpp:1005
 msgid "The specified folder does not exist or was not readable."
 msgstr "Die gespesifiseer gids bestaan nie of is nie leesbaar nie."
 
-#: ../kfile/kdiroperator.cpp:1481
+#: ../kfile/kdiroperator.cpp:1479
 msgid "Menu"
 msgstr "Kieslys"
 
-#: ../kfile/kdiroperator.cpp:1485
+#: ../kfile/kdiroperator.cpp:1483
 msgid "Parent Folder"
 msgstr "Ouer Gids"
 
-#: ../kfile/kdiroperator.cpp:1492
+#: ../kfile/kdiroperator.cpp:1490
 msgid "Home Folder"
 msgstr "Tuis Gids"
 
-#: ../kfile/kdiroperator.cpp:1495
+#: ../kfile/kdiroperator.cpp:1493
 #, fuzzy
 msgid "Reload"
 msgstr "Lees"
 
-#: ../kfile/kdiroperator.cpp:1503
+#: ../kfile/kdiroperator.cpp:1501
 msgid "Move to Trash"
 msgstr "Beweeg na die Asblik"
 
-#: ../kfile/kdiroperator.cpp:1509
+#: ../kfile/kdiroperator.cpp:1507
 #, fuzzy
 msgid "Delete"
 msgstr "Uitveeïng"
 
-#: ../kfile/kdiroperator.cpp:1516
+#: ../kfile/kdiroperator.cpp:1514
 msgid "Sorting"
 msgstr "Sortering"
 
-#: ../kfile/kdiroperator.cpp:1519
+#: ../kfile/kdiroperator.cpp:1517
 msgid "By Name"
 msgstr "Volgens Naam"
 
-#: ../kfile/kdiroperator.cpp:1523
+#: ../kfile/kdiroperator.cpp:1521
 msgid "By Size"
 msgstr "Volgens Grootte"
 
-#: ../kfile/kdiroperator.cpp:1527
+#: ../kfile/kdiroperator.cpp:1525
 msgid "By Date"
 msgstr "Volgens Datum"
 
-#: ../kfile/kdiroperator.cpp:1531
+#: ../kfile/kdiroperator.cpp:1529
 #, fuzzy
 #| msgid "Type"
 msgid "By Type"
 msgstr "Tipe"
 
-#: ../kfile/kdiroperator.cpp:1535
+#: ../kfile/kdiroperator.cpp:1533
 #, fuzzy
 msgid "Descending"
 msgstr " (Uitveeïng)"
 
-#: ../kfile/kdiroperator.cpp:1545
+#: ../kfile/kdiroperator.cpp:1543
 msgid "Short View"
 msgstr "Kort Aansig"
 
-#: ../kfile/kdiroperator.cpp:1550
+#: ../kfile/kdiroperator.cpp:1548
 msgid "Detailed View"
 msgstr "Gedetaileerde Aansig"
 
-#: ../kfile/kdiroperator.cpp:1559
+#: ../kfile/kdiroperator.cpp:1557
 msgid "Show Hidden Files"
 msgstr "Vertoon weg gesteekte Lêers"
 
-#: ../kfile/kdiroperator.cpp:1563
+#: ../kfile/kdiroperator.cpp:1561
 msgid "Show Preview"
 msgstr "Vertoon Voorskou"
 
-#: ../kfile/kdiroperator.cpp:1575
+#: ../kfile/kdiroperator.cpp:1573
 #, fuzzy
 msgid "&View"
 msgstr "Voorskou"
