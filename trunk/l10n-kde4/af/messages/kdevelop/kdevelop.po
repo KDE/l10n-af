@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-14 06:12+0100\n"
+"POT-Creation-Date: 2007-12-16 06:15+0100\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -365,7 +365,7 @@ msgstr "Raam Stapel"
 
 #. i18n: tag string
 #. i18n: file ./languages/cpp/debugger/debuggerconfigwidget.ui line 208
-#: rc.cpp:150 languages/cpp/debugger/gdboutputwidget.cpp:56
+#: rc.cpp:150 languages/cpp/debugger/gdboutputwidget.cpp:57
 #, fuzzy
 msgid "GDB Output"
 msgstr "Grep Uitset"
@@ -1204,7 +1204,7 @@ msgstr ""
 
 #. i18n: tag Text
 #. i18n: file ./plugins/grepview/kdevgrepview.rc line 4
-#: rc.cpp:496 languages/cpp/debugger/gdbbreakpointwidget.cpp:253
+#: rc.cpp:496 languages/cpp/debugger/gdbbreakpointwidget.cpp:99
 #, fuzzy
 msgid "Edit"
 msgstr "Redigeer..."
@@ -1611,7 +1611,8 @@ msgid "Namespace alias"
 msgstr "Naamplekke"
 
 #: languages/cpp/cppduchain/navigationwidget.cpp:232
-#: languages/cpp/debugger/stackmanager.cpp:300
+#: languages/cpp/debugger/stackmanager.cpp:299
+#: languages/cpp/debugger/disassemblewidget.cpp:70
 msgid "Function"
 msgstr "Funksie"
 
@@ -1693,123 +1694,124 @@ msgstr "Operateur"
 msgid "not parsed yet"
 msgstr ""
 
-#: languages/cpp/debugger/stackmanager.cpp:276
+#: languages/cpp/debugger/stackmanager.cpp:275
 #, fuzzy, kde-format
 msgid "Thread %1"
 msgstr "Rygdraad"
 
-#: languages/cpp/debugger/stackmanager.cpp:298
+#: languages/cpp/debugger/stackmanager.cpp:297
 msgid "ID"
 msgstr ""
 
-#: languages/cpp/debugger/stackmanager.cpp:302
+#: languages/cpp/debugger/stackmanager.cpp:301
 #, fuzzy
 msgid "Source"
 msgstr "Bronkodes"
 
-#: languages/cpp/debugger/breakpoint.cpp:269
+#: languages/cpp/debugger/breakpoint.cpp:275
+#: languages/cpp/debugger/breakpointcontroller.cpp:375
 msgid "Disabled"
 msgstr "Gestremde"
 
-#: languages/cpp/debugger/breakpoint.cpp:274
+#: languages/cpp/debugger/breakpoint.cpp:280
 #, fuzzy
 msgid "Pending (add)"
 msgstr "Uitstaande Voeg by"
 
-#: languages/cpp/debugger/breakpoint.cpp:276
+#: languages/cpp/debugger/breakpoint.cpp:282
 #, fuzzy
 msgid "Pending (clear)"
 msgstr "Uitstaande Maak skoon"
 
-#: languages/cpp/debugger/breakpoint.cpp:278
+#: languages/cpp/debugger/breakpoint.cpp:284
 #, fuzzy
 msgid "Pending (modify)"
 msgstr "Uitstaande Verander"
 
-#: languages/cpp/debugger/breakpoint.cpp:282
+#: languages/cpp/debugger/breakpoint.cpp:288
 msgid "Active"
 msgstr "Aktief"
 
-#: languages/cpp/debugger/breakpoint.cpp:423
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:248
+#: languages/cpp/debugger/breakpoint.cpp:442
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:89
 #, fuzzy
 msgctxt "Code breakpoint"
 msgid "Code"
 msgstr "Kode:"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:316
+#: languages/cpp/debugger/gdbcontroller.cpp:248
 #, kde-format
 msgid ""
 "<b>Gdb command sent when debugger is not running</b><br>The command was:<br> "
 "%1"
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:318
-#: languages/cpp/debugger/frameitem.cpp:164
+#: languages/cpp/debugger/gdbcontroller.cpp:250
+#: languages/cpp/debugger/frameitem.cpp:165
 #, fuzzy
 #| msgid "Internal Error"
 msgid "Internal error"
 msgstr "Intern Fout"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:416
+#: languages/cpp/debugger/gdbcontroller.cpp:348
 #, kde-format
 msgid "<b>Invalid debugger command</b><br>%1"
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:417
+#: languages/cpp/debugger/gdbcontroller.cpp:349
 msgid "Invalid debugger command"
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:506
+#: languages/cpp/debugger/gdbcontroller.cpp:415
 msgid ""
 "<b>Invalid gdb reply</b><p>The 'stopped' packet does not include the "
 "'reason' field'."
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:508
+#: languages/cpp/debugger/gdbcontroller.cpp:417
 msgid "The gdb reply is: bla-bla-bla"
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:509
-#: languages/cpp/debugger/gdbcontroller.cpp:747
+#: languages/cpp/debugger/gdbcontroller.cpp:418
+#: languages/cpp/debugger/gdbcontroller.cpp:656
 msgid "Invalid gdb reply"
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:524
+#: languages/cpp/debugger/gdbcontroller.cpp:433
 #, fuzzy, kde-format
 msgid "Exited on signal %1"
 msgstr "Voeg by nuwe lêers"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:577
+#: languages/cpp/debugger/gdbcontroller.cpp:486
 #, kde-format
 msgid "Program received signal %1 (%2)"
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:578
+#: languages/cpp/debugger/gdbcontroller.cpp:487
 #, fuzzy
 msgid "Received signal"
 msgstr "Verwyder breekpunt"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:674
+#: languages/cpp/debugger/gdbcontroller.cpp:583
 #, fuzzy, kde-format
 msgid ""
 "gdb message:\n"
 "%1"
 msgstr "gbd boodskap:\n"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:674
-#: languages/cpp/debugger/gdbcontroller.cpp:934
+#: languages/cpp/debugger/gdbcontroller.cpp:583
+#: languages/cpp/debugger/gdbcontroller.cpp:831
 #, fuzzy
 msgid "Warning"
 msgstr "Pre-Parsing"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:716
+#: languages/cpp/debugger/gdbcontroller.cpp:625
 #, fuzzy
 #| msgid "No such file or directory."
 msgid "No such file or directory."
 msgstr "Nee soos lêer of gids."
 
-#: languages/cpp/debugger/gdbcontroller.cpp:740
+#: languages/cpp/debugger/gdbcontroller.cpp:649
 #, kde-format
 msgid ""
 "Invalid gdb reply\n"
@@ -1818,22 +1820,22 @@ msgid ""
 "Invalid response kind: \"%3\""
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:821
+#: languages/cpp/debugger/gdbcontroller.cpp:730
 #, kde-format
 msgid "Could not locate the debugging shell '%1'."
 msgstr "Kon nie opspoor die ontfouting tolk '%1'."
 
-#: languages/cpp/debugger/gdbcontroller.cpp:822
+#: languages/cpp/debugger/gdbcontroller.cpp:731
 #, fuzzy
 msgid "Debugging Shell Not Found"
 msgstr "Ontfouting tolk nie gevind."
 
-#: languages/cpp/debugger/gdbcontroller.cpp:902
+#: languages/cpp/debugger/gdbcontroller.cpp:799
 #, fuzzy
 msgid "Running program"
 msgstr "Voortgaan program"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:930
+#: languages/cpp/debugger/gdbcontroller.cpp:827
 msgid ""
 "GDB cannot use the tty* or pty* devices.\n"
 "Check the settings on /dev/tty* and /dev/pty*\n"
@@ -1846,7 +1848,7 @@ msgstr ""
 "voeg by die gebruiker na die tty groep te gebruik \"usermod -G tty "
 "gebruikernaam\"."
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1006
+#: languages/cpp/debugger/gdbcontroller.cpp:902
 #, kde-format
 msgid ""
 "<b>Application does not exist</b><p>The application you're trying to debug,"
@@ -1855,12 +1857,12 @@ msgid ""
 "debugger configuration."
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1012
+#: languages/cpp/debugger/gdbcontroller.cpp:908
 #, fuzzy
 msgid "Application does not exist"
 msgstr "Kon nie open lêer vir om te skryf."
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1025
+#: languages/cpp/debugger/gdbcontroller.cpp:921
 #, kde-format
 msgid ""
 "<b>Could not run application '%1'.</b><p>The application does not have the "
@@ -1868,46 +1870,46 @@ msgid ""
 "manually."
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1030
+#: languages/cpp/debugger/gdbcontroller.cpp:926
 #, fuzzy
 msgid "Could not run application"
 msgstr "Interrupts die aansoek"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1283
+#: languages/cpp/debugger/gdbcontroller.cpp:1182
 #, kde-format
 msgid "<b>Debugger error</b><p>Debugger reported the following error:<p><tt>%1"
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1286
+#: languages/cpp/debugger/gdbcontroller.cpp:1185
 #, fuzzy
 msgid "Debugger error"
 msgstr "Ontfouting nutsbalk"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1614
-#: languages/cpp/debugger/debuggerplugin.cpp:752
+#: languages/cpp/debugger/gdbcontroller.cpp:1513
+#: languages/cpp/debugger/debuggerplugin.cpp:696
 #, fuzzy
 msgid "Process exited"
 msgstr "Proses uitgegaan"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1627
+#: languages/cpp/debugger/gdbcontroller.cpp:1526
 #, kde-format
 msgid ""
 "<b>Could not start debugger.</b><p>Could not run '%1'. Make sure that the "
 "path name is specified correctly."
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1631
+#: languages/cpp/debugger/gdbcontroller.cpp:1530
 #, fuzzy
 msgid "Could not start debugger"
 msgstr "Begin in Terminaal"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1642
+#: languages/cpp/debugger/gdbcontroller.cpp:1541
 #, fuzzy
 #| msgid "Process exited with status %1"
 msgid "Process didn't start"
 msgstr "Proses uitgegaan met status %1"
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1668
+#: languages/cpp/debugger/gdbcontroller.cpp:1567
 #, kde-format
 msgid ""
 "%1 commands in queue\n"
@@ -1915,7 +1917,7 @@ msgid ""
 "Debugger state: %3\n"
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1674
+#: languages/cpp/debugger/gdbcontroller.cpp:1573
 #, kde-format
 msgid ""
 "Current command class: '%1'\n"
@@ -1923,13 +1925,13 @@ msgid ""
 "Current command original text: '%3'\n"
 msgstr ""
 
-#: languages/cpp/debugger/gdbcontroller.cpp:1681
+#: languages/cpp/debugger/gdbcontroller.cpp:1580
 #, fuzzy
 #| msgid "Debugger stopped"
 msgid "Debugger status"
 msgstr "Ontfouter op gehou"
 
-#: languages/cpp/debugger/disassemblewidget.cpp:52
+#: languages/cpp/debugger/disassemblewidget.cpp:57
 #, fuzzy
 msgid ""
 "<b>Machine code display</b><p>A machine code view into your running "
@@ -1944,11 +1946,28 @@ msgstr ""
 "ontfouters nutsbalk knoppies van \"step bo\" instruksie en \"step binnein\" "
 "instruksie."
 
-#: languages/cpp/debugger/disassemblewidget.cpp:60
+#: languages/cpp/debugger/disassemblewidget.cpp:65
 #, fuzzy
 #| msgid "Disassemble"
 msgid "Disassemble View"
 msgstr "Ontsaamstel"
+
+#: languages/cpp/debugger/disassemblewidget.cpp:70
+#, fuzzy
+msgid "Address"
+msgstr "Voeg by Klas"
+
+#: languages/cpp/debugger/disassemblewidget.cpp:70
+#, fuzzy
+#| msgid "set"
+msgid "Offset"
+msgstr "stel"
+
+#: languages/cpp/debugger/disassemblewidget.cpp:70
+#, fuzzy
+#| msgid "struct"
+msgid "Instruction"
+msgstr "struktuur"
 
 #: languages/cpp/debugger/framestackwidget.cpp:47
 #, fuzzy
@@ -1965,21 +1984,12 @@ msgstr ""
 "hierdie punt in jou program. Deur te kliek op 'n item jy kan sien die "
 "waardes in enige van die vorige roep funksies."
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:187
-#, fuzzy
-msgid " temporary"
-msgstr "Geheue"
-
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:189
-msgid " hw"
-msgstr ""
-
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:209
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:68
 #, fuzzy
 msgid "Debugger Breakpoints"
 msgstr "Wissel Breekpunt"
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:210
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:69
 #, fuzzy
 msgid ""
 "<b>Breakpoint list</b><p>Displays a list of breakpoints with their current "
@@ -1993,131 +2003,93 @@ msgstr ""
 "manipuleer die Breekpunt. Dubbel Te kliek sal neem jy na die bron in die "
 "redigeerder venster."
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:237
-#: languages/cpp/debugger/variablecollection.cpp:191
-#: buildtools/managers/cmake/cmakecachemodel.cpp:14
-#, fuzzy
-msgid "Type"
-msgstr "Tipe:"
-
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:238
-#, fuzzy
-msgid "Status"
-msgstr "Begin:"
-
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:239
-#, fuzzy
-msgid "Location"
-msgstr "Ligging:"
-
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:240
-#, fuzzy
-#| msgid "&Conditional"
-msgid "Condition"
-msgstr "Voorwaarde"
-
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:241
-#, fuzzy
-msgid "Ignore Count"
-msgstr "Ignoreer tel"
-
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:242
-#, fuzzy
-msgid "Hits"
-msgstr "Lyn: %1"
-
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:243
-#, fuzzy
-msgid "Tracing"
-msgstr "Fout Navolg"
-
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:247
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:87
 #, fuzzy
 msgctxt "New breakpoint"
 msgid "New"
 msgstr "Naam:"
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:249
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:94
 #, fuzzy
 msgctxt "Data breakpoint"
 msgid "Data write"
 msgstr "Data lêer"
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:250
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:95
 #, fuzzy
 msgctxt "Data read breakpoint"
 msgid "Data read"
 msgstr "Data lêer"
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:252
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:97
 #, fuzzy
 msgid "Show text"
 msgstr "Voeg by Nuwe Teiken"
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:255
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:750
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:102
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:328
 #, fuzzy
 msgid "Disable"
 msgstr "Gestremde"
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:256
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:104
 #, fuzzy
 msgid "Delete"
 msgstr "Uitvee Groep"
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:259
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:111
 #, fuzzy
 msgid "Disable all"
 msgstr "Gestremde"
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:260
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:112
 #, fuzzy
 msgid "Enable all"
 msgstr "Aktiveer"
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:261
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:113
 #, fuzzy
 msgid "Delete all"
 msgstr "Verwyder breekpunt"
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:405
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:209
 #, kde-format
 msgid ""
 "<b>Data write breakpoint</b><br>Expression: %1<br>Address: 0x%2<br>Old "
 "value: %3<br>New value: %4"
 msgstr ""
 
-#: languages/cpp/debugger/gdbbreakpointwidget.cpp:754
+#: languages/cpp/debugger/gdbbreakpointwidget.cpp:332
 #, fuzzy
 msgid "Enable"
 msgstr "Aktiveer"
 
-#: languages/cpp/debugger/gdboutputwidget.cpp:57
+#: languages/cpp/debugger/gdboutputwidget.cpp:58
 msgid ""
 "<b>GDB output</b><p>Shows all gdb commands being executed. You can also "
 "issue any other gdb command while debugging."
 msgstr ""
 
-#: languages/cpp/debugger/gdboutputwidget.cpp:66
+#: languages/cpp/debugger/gdboutputwidget.cpp:67
 msgid "&GDB cmd:"
 msgstr ""
 
-#: languages/cpp/debugger/gdboutputwidget.cpp:71
+#: languages/cpp/debugger/gdboutputwidget.cpp:72
 msgid "Pause execution of the app to enter gdb commands"
 msgstr ""
 
-#: languages/cpp/debugger/gdboutputwidget.cpp:344
+#: languages/cpp/debugger/gdboutputwidget.cpp:345
 msgid "Show Internal Commands"
 msgstr ""
 
-#: languages/cpp/debugger/gdboutputwidget.cpp:351
+#: languages/cpp/debugger/gdboutputwidget.cpp:352
 msgid ""
 "Controls if commands issued internally by KDevelop will be shown or not."
 "<br>This option will affect only future commands, it won't add or remove "
 "already issued commands from the view."
 msgstr ""
 
-#: languages/cpp/debugger/gdboutputwidget.cpp:356
+#: languages/cpp/debugger/gdboutputwidget.cpp:357
 #, fuzzy
 msgid "Copy All"
 msgstr "Maak toe Alle Andere"
@@ -2134,7 +2106,7 @@ msgid "Recent"
 msgstr "Herstel"
 
 #: languages/cpp/debugger/processselection.cpp:62
-#: languages/cpp/debugger/debuggerplugin.cpp:289
+#: languages/cpp/debugger/debuggerplugin.cpp:293
 msgid "Attach to Process"
 msgstr "Aanheg na Proses"
 
@@ -2257,7 +2229,7 @@ msgstr "Uitvee gekose item"
 msgid "Copy Value"
 msgstr "Waarde"
 
-#: languages/cpp/debugger/framestackitem.cpp:39
+#: languages/cpp/debugger/framestackitem.cpp:40
 #, fuzzy
 msgid "<Loading...>"
 msgstr "Laaiïng van inplak: %1"
@@ -2299,54 +2271,106 @@ msgstr "Maak toe Projek"
 msgid "Special debugger views"
 msgstr "Ontfouter"
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:184
+#: languages/cpp/debugger/breakpointcontroller.cpp:134
 msgid "Breakpoint"
 msgstr "Breekpunt"
 
-#: languages/cpp/debugger/frameitem.cpp:295
+#: languages/cpp/debugger/breakpointcontroller.cpp:326
+#, fuzzy
+msgid " temporary"
+msgstr "Geheue"
+
+#: languages/cpp/debugger/breakpointcontroller.cpp:328
+msgid " hw"
+msgstr ""
+
+#: languages/cpp/debugger/breakpointcontroller.cpp:375
+#, fuzzy
+msgid "Enabled"
+msgstr "Aktiveer"
+
+#: languages/cpp/debugger/breakpointcontroller.cpp:404
+#: languages/cpp/debugger/variablecollection.cpp:191
+#: buildtools/managers/cmake/cmakecachemodel.cpp:14
+#, fuzzy
+msgid "Type"
+msgstr "Tipe:"
+
+#: languages/cpp/debugger/breakpointcontroller.cpp:406
+#, fuzzy
+msgid "Status"
+msgstr "Begin:"
+
+#: languages/cpp/debugger/breakpointcontroller.cpp:408
+#, fuzzy
+msgid "Location"
+msgstr "Ligging:"
+
+#: languages/cpp/debugger/breakpointcontroller.cpp:410
+#, fuzzy
+#| msgid "&Conditional"
+msgid "Condition"
+msgstr "Voorwaarde"
+
+#: languages/cpp/debugger/breakpointcontroller.cpp:412
+#, fuzzy
+msgid "Ignore Count"
+msgstr "Ignoreer tel"
+
+#: languages/cpp/debugger/breakpointcontroller.cpp:414
+#, fuzzy
+msgid "Hits"
+msgstr "Lyn: %1"
+
+#: languages/cpp/debugger/breakpointcontroller.cpp:416
+#, fuzzy
+msgid "Tracing"
+msgstr "Fout Navolg"
+
+#: languages/cpp/debugger/frameitem.cpp:296
 #, fuzzy
 #| msgid "Frame Stack"
 msgid "Frame"
 msgstr "Raam Stapel"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:118
+#: languages/cpp/debugger/debuggerplugin.cpp:127
 msgid "Breakpoints"
 msgstr "Breekpunte"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:120
+#: languages/cpp/debugger/debuggerplugin.cpp:129
 #, fuzzy
 msgid "Variables"
 msgstr "Veranderlike"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:122
+#: languages/cpp/debugger/debuggerplugin.cpp:131
 msgid "Frame Stack"
 msgstr "Raam Stapel"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:124
+#: languages/cpp/debugger/debuggerplugin.cpp:133
 msgid "Disassemble"
 msgstr "Ontsaamstel"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:126
+#: languages/cpp/debugger/debuggerplugin.cpp:135
 msgid "GDB"
 msgstr "Gbd"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:128
+#: languages/cpp/debugger/debuggerplugin.cpp:137
 #, fuzzy
 msgid "Debug views"
 msgstr "Ontfouter"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:169
-#: languages/cpp/debugger/debuggerplugin.cpp:703
+#: languages/cpp/debugger/debuggerplugin.cpp:173
+#: languages/cpp/debugger/debuggerplugin.cpp:647
 #, fuzzy
 msgid "&Start"
 msgstr "Begin:"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:171
+#: languages/cpp/debugger/debuggerplugin.cpp:175
 #, fuzzy
 msgid "Start in debugger"
 msgstr "Begin in Terminaal"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:172
+#: languages/cpp/debugger/debuggerplugin.cpp:176
 #, fuzzy
 msgid ""
 "<b>Start in debugger</b><p>Starts the debugger with the project's main "
@@ -2361,93 +2385,93 @@ msgstr ""
 "is wat loop, in volgorde na kry informasie aangaande veranderlikes, raam "
 "stapel, en sodat op."
 
-#: languages/cpp/debugger/debuggerplugin.cpp:181
+#: languages/cpp/debugger/debuggerplugin.cpp:185
 #, fuzzy
 msgid "&Restart"
 msgstr "struktuur"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:182
+#: languages/cpp/debugger/debuggerplugin.cpp:186
 #, fuzzy
 msgid "Restart program"
 msgstr "Uitvoer program"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:183
+#: languages/cpp/debugger/debuggerplugin.cpp:187
 #, fuzzy
 msgid "<b>Restarts application</b><p>Restarts applications from the beginning."
 msgstr "Voeg by Nuwe Aansoek .werkskerm Lêer"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:191
+#: languages/cpp/debugger/debuggerplugin.cpp:195
 #, fuzzy
 msgid "Sto&p"
 msgstr "Stop"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:192
+#: languages/cpp/debugger/debuggerplugin.cpp:196
 #, fuzzy
 msgid "Stop debugger"
 msgstr "Ontfouter"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:193
+#: languages/cpp/debugger/debuggerplugin.cpp:197
 #, fuzzy
 msgid "<b>Stop debugger</b><p>Kills the executable and exits the debugger."
 msgstr "Stop die uitvoerbare en uitgaan die ontfouter"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:197
+#: languages/cpp/debugger/debuggerplugin.cpp:201
 msgid "Interrupt"
 msgstr "Interrupt"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:198
+#: languages/cpp/debugger/debuggerplugin.cpp:202
 #, fuzzy
 msgid "Interrupt application"
 msgstr "Interrupts die aansoek"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:199
+#: languages/cpp/debugger/debuggerplugin.cpp:203
 msgid ""
 "<b>Interrupt application</b><p>Interrupts the debugged process or current "
 "GDB command."
 msgstr ""
 
-#: languages/cpp/debugger/debuggerplugin.cpp:203
+#: languages/cpp/debugger/debuggerplugin.cpp:207
 msgid "Run to &Cursor"
 msgstr "Hardloop na Plekaanduier"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:204
+#: languages/cpp/debugger/debuggerplugin.cpp:208
 #, fuzzy
 msgid "Run to cursor"
 msgstr "Hardloop na Plekaanduier"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:205
+#: languages/cpp/debugger/debuggerplugin.cpp:209
 #, fuzzy
 msgid ""
 "<b>Run to cursor</b><p>Continues execution until the cursor position is "
 "reached."
 msgstr "Gaan voort uitvoering totdat die plekaanduier posisie is bereik"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:210
+#: languages/cpp/debugger/debuggerplugin.cpp:214
 msgid "Set E&xecution Position to Cursor"
 msgstr ""
 
-#: languages/cpp/debugger/debuggerplugin.cpp:211
+#: languages/cpp/debugger/debuggerplugin.cpp:215
 #, fuzzy
 msgid "Jump to cursor"
 msgstr "Hardloop na Plekaanduier"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:212
+#: languages/cpp/debugger/debuggerplugin.cpp:216
 #, fuzzy
 msgid ""
 "<b>Set Execution Position </b><p>Set the execution pointer to the current "
 "cursor position."
 msgstr "Gaan voort uitvoering totdat die plekaanduier posisie is bereik"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:216
+#: languages/cpp/debugger/debuggerplugin.cpp:220
 msgid "Step &Over"
 msgstr "Step Bo"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:218
+#: languages/cpp/debugger/debuggerplugin.cpp:222
 #, fuzzy
 msgid "Step over the next line"
 msgstr "Stappe bo die volgende lyn"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:219
+#: languages/cpp/debugger/debuggerplugin.cpp:223
 #, fuzzy
 msgid ""
 "<b>Step over</b><p>Executes one line of source in the current source file. "
@@ -2460,32 +2484,32 @@ msgstr ""
 "roep na 'n funksie die volledige funksie is uitgevoerde en die app sal stop "
 "na die lyn volgende die funksie roep."
 
-#: languages/cpp/debugger/debuggerplugin.cpp:228
+#: languages/cpp/debugger/debuggerplugin.cpp:232
 msgid "Step over Ins&truction"
 msgstr "Step bo Instruksie"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:229
+#: languages/cpp/debugger/debuggerplugin.cpp:233
 #, fuzzy
 msgid "Step over instruction"
 msgstr "Step bo Instruksie"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:230
+#: languages/cpp/debugger/debuggerplugin.cpp:234
 #, fuzzy
 msgid ""
 "<b>Step over instruction</b><p>Steps over the next assembly instruction."
 msgstr "Stappe bo die volgende saamstel instruksie"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:235
+#: languages/cpp/debugger/debuggerplugin.cpp:239
 msgid "Step &Into"
 msgstr "Step Binnein"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:237
+#: languages/cpp/debugger/debuggerplugin.cpp:241
 #, fuzzy
 #| msgid "Steps into the next statement"
 msgid "Step into the next statement"
 msgstr "Stappe binnein die volgende stelling"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:238
+#: languages/cpp/debugger/debuggerplugin.cpp:242
 #, fuzzy
 msgid ""
 "<b>Step into</b><p>Executes exactly one line of source. If the source line "
@@ -2497,30 +2521,30 @@ msgstr ""
 "Voer uit presies een lyn van bron. As die bron lyn is 'n roep na 'n funksie "
 "dan word uitvoering sal stop na die funksie het al ingevoerde."
 
-#: languages/cpp/debugger/debuggerplugin.cpp:246
+#: languages/cpp/debugger/debuggerplugin.cpp:250
 msgid "Step into I&nstruction"
 msgstr "Step binnein Instruksie"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:247
+#: languages/cpp/debugger/debuggerplugin.cpp:251
 #, fuzzy
 msgid "Step into instruction"
 msgstr "Step binnein Instruksie"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:248
+#: languages/cpp/debugger/debuggerplugin.cpp:252
 #, fuzzy
 msgid ""
 "<b>Step into instruction</b><p>Steps into the next assembly instruction."
 msgstr "Stappe binnein die volgende saamstel instruksie"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:253
+#: languages/cpp/debugger/debuggerplugin.cpp:257
 msgid "Step O&ut"
 msgstr "Step Uit"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:255
+#: languages/cpp/debugger/debuggerplugin.cpp:259
 msgid "Steps out of the current function"
 msgstr "Stappe uit van die huidige funksie"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:256
+#: languages/cpp/debugger/debuggerplugin.cpp:260
 #, fuzzy
 msgid ""
 "<b>Step out</b><p>Executes the application until the currently executing "
@@ -2535,33 +2559,33 @@ msgstr ""
 "funksie. As program uitvoering is in die buitenste raam (i.e. in hoof()) dan "
 "word hierdie operasie het nee effek."
 
-#: languages/cpp/debugger/debuggerplugin.cpp:266
+#: languages/cpp/debugger/debuggerplugin.cpp:270
 msgid "Viewers"
 msgstr "Kykers"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:267
+#: languages/cpp/debugger/debuggerplugin.cpp:271
 #, fuzzy
 msgid "Debugger viewers"
 msgstr "Ontfouter"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:268
+#: languages/cpp/debugger/debuggerplugin.cpp:272
 msgid ""
 "<b>Debugger viewers</b><p>Various information about application being "
 "executed. There are 4 views available:<br><b>Memory</b><br><b>Disassemble</"
 "b><br><b>Registers</b><br><b>Libraries</b>"
 msgstr ""
 
-#: languages/cpp/debugger/debuggerplugin.cpp:277
+#: languages/cpp/debugger/debuggerplugin.cpp:281
 #, fuzzy
 msgid "Examine Core File..."
 msgstr "Ondersoek Kern Lêer"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:278
+#: languages/cpp/debugger/debuggerplugin.cpp:282
 #, fuzzy
 msgid "Examine core file"
 msgstr "Ondersoek Kern Lêer"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:279
+#: languages/cpp/debugger/debuggerplugin.cpp:283
 #, fuzzy
 msgid ""
 "<b>Examine core file</b><p>This loads a core file, which is typically "
@@ -2576,95 +2600,95 @@ msgstr ""
 "program geheue na die tyd dit het gestaak, toelaat jy na doen 'n post-mortem "
 "analise."
 
-#: languages/cpp/debugger/debuggerplugin.cpp:290
+#: languages/cpp/debugger/debuggerplugin.cpp:294
 #, fuzzy
 msgid "Attach to process"
 msgstr "Aanheg na Proses"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:291
+#: languages/cpp/debugger/debuggerplugin.cpp:295
 #, fuzzy
 msgid "<b>Attach to process</b><p>Attaches the debugger to a running process."
 msgstr "Koppel die ontfouter na 'n wat loop proses"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:295
+#: languages/cpp/debugger/debuggerplugin.cpp:299
 msgid "Toggle Breakpoint"
 msgstr "Wissel Breekpunt"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:296
+#: languages/cpp/debugger/debuggerplugin.cpp:300
 #, fuzzy
 msgid "Toggle breakpoint"
 msgstr "Wissel Breekpunt"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:297
+#: languages/cpp/debugger/debuggerplugin.cpp:301
 msgid ""
 "<b>Toggle breakpoint</b><p>Toggles the breakpoint at the current line in "
 "editor."
 msgstr ""
 
-#: languages/cpp/debugger/debuggerplugin.cpp:414
+#: languages/cpp/debugger/debuggerplugin.cpp:418
 #, fuzzy, kde-format
 msgid "Evaluate: %1"
 msgstr "Werkvoorbeeld:"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:416
+#: languages/cpp/debugger/debuggerplugin.cpp:420
 msgid ""
 "<b>Evaluate expression</b><p>Shows the value of the expression under the "
 "cursor."
 msgstr ""
 
-#: languages/cpp/debugger/debuggerplugin.cpp:417
+#: languages/cpp/debugger/debuggerplugin.cpp:421
 #, kde-format
 msgid "Watch: %1"
 msgstr "Waarneem: %1"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:418
+#: languages/cpp/debugger/debuggerplugin.cpp:422
 msgid ""
 "<b>Watch expression</b><p>Adds an expression under the cursor to the "
 "Variables/Watch list."
 msgstr ""
 
-#: languages/cpp/debugger/debuggerplugin.cpp:501
+#: languages/cpp/debugger/debuggerplugin.cpp:500
 msgid ""
 "<b>GDB exited abnormally</b><p>This is likely a bug in GDB. Examine the gdb "
 "output window and then stop the debugger"
 msgstr ""
 
-#: languages/cpp/debugger/debuggerplugin.cpp:504
+#: languages/cpp/debugger/debuggerplugin.cpp:503
 #, fuzzy
 msgid "GDB exited abnormally"
 msgstr "*** Uitgegaan gewoonlik ***"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:518
+#: languages/cpp/debugger/debuggerplugin.cpp:517
 msgid "Choose a core file to examine..."
 msgstr "Kies 'n kern lêer na ondersoek..."
 
-#: languages/cpp/debugger/debuggerplugin.cpp:524
+#: languages/cpp/debugger/debuggerplugin.cpp:523
 #, kde-format
 msgid "Examining core file %1"
 msgstr "Ondersoek kern lêer %1"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:532
+#: languages/cpp/debugger/debuggerplugin.cpp:531
 msgid "Choose a process to attach to..."
 msgstr "Kies 'n proses na aanheg na..."
 
-#: languages/cpp/debugger/debuggerplugin.cpp:544
+#: languages/cpp/debugger/debuggerplugin.cpp:543
 #, kde-format
 msgid "Attaching to process %1"
 msgstr "Koppel na proses %1"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:646
+#: languages/cpp/debugger/debuggerplugin.cpp:595
 msgid "Debugger"
 msgstr "Ontfouter"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:674
+#: languages/cpp/debugger/debuggerplugin.cpp:618
 msgid "Debugger stopped"
 msgstr "Ontfouter op gehou"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:704
+#: languages/cpp/debugger/debuggerplugin.cpp:648
 msgid "Runs the program in the debugger"
 msgstr "Loop die program in die ontfouter"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:705
+#: languages/cpp/debugger/debuggerplugin.cpp:649
 msgid ""
 "Start in debugger\n"
 "\n"
@@ -2679,17 +2703,17 @@ msgstr ""
 "is wat loop, in volgorde na kry informasie aangaande veranderlikes, raam "
 "stapel, en sodat op."
 
-#: languages/cpp/debugger/debuggerplugin.cpp:719
+#: languages/cpp/debugger/debuggerplugin.cpp:663
 msgid "&Continue"
 msgstr "Gaan voort"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:720
+#: languages/cpp/debugger/debuggerplugin.cpp:664
 #, fuzzy
 #| msgid "Interrupt the application execution"
 msgid "Continues the application execution"
 msgstr "Interrupt die aansoek uitvoering"
 
-#: languages/cpp/debugger/debuggerplugin.cpp:721
+#: languages/cpp/debugger/debuggerplugin.cpp:665
 msgid ""
 "Continue application execution\n"
 "\n"
@@ -3911,17 +3935,17 @@ msgstr "Aksies vir %1"
 msgid "Object Inspector"
 msgstr "Onlangse lêers"
 
-#: languages/cpp/debugger/breakpoint.h:132
+#: languages/cpp/debugger/breakpoint.h:147
 #, fuzzy
 msgid "Invalid"
 msgstr "Inlyn Wiskunde"
 
-#: languages/cpp/debugger/breakpoint.h:284
+#: languages/cpp/debugger/breakpoint.h:266
 #, fuzzy
 msgid "Watchpoint"
 msgstr "Wissel Uitkykpunt"
 
-#: languages/cpp/debugger/breakpoint.h:308
+#: languages/cpp/debugger/breakpoint.h:292
 #, fuzzy
 msgid "Read Watchpoint"
 msgstr "Wissel Uitkykpunt"
@@ -4493,10 +4517,6 @@ msgstr "Wissel Uitkykpunt"
 #, fuzzy
 #~ msgid "E-Mail"
 #~ msgstr "E-pos:"
-
-#, fuzzy
-#~ msgid "IP-Adress"
-#~ msgstr "Voeg by Klas"
 
 #, fuzzy
 #~ msgid "State"
@@ -6651,9 +6671,6 @@ msgstr "Wissel Uitkykpunt"
 #, fuzzy
 #~ msgid "Set method:"
 #~ msgstr "metode"
-
-#~ msgid "set"
-#~ msgstr "stel"
 
 #, fuzzy
 #~ msgid "<b>Parametername</b> in set method:"
@@ -13466,9 +13483,6 @@ msgstr "Wissel Uitkykpunt"
 
 #~ msgid "prototype"
 #~ msgstr "prototipe"
-
-#~ msgid "struct"
-#~ msgstr "struktuur"
 
 #~ msgid "typedef"
 #~ msgstr "tipedef"
