@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpilot VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-04 06:20+0100\n"
+"POT-Creation-Date: 2007-12-20 06:14+0100\n"
 "PO-Revision-Date: 2002-11-07 11:38+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -44,6 +44,25 @@ msgstr ""
 #, fuzzy
 msgid "Note:\n"
 msgstr "Geen"
+
+#: lib/kpilotdevicelinkPrivate.h:304
+msgid " The port does not exist."
+msgstr " Die poort doen nie bestaan."
+
+#: lib/kpilotdevicelinkPrivate.h:307
+#, fuzzy
+#| msgid " These is no such device."
+msgid " There is no such device."
+msgstr " Hierdie is nee soos toestel."
+
+#: lib/kpilotdevicelinkPrivate.h:310
+#, fuzzy
+msgid " You do not have permission to open the Pilot device."
+msgstr " Jy moet nie het reg na open die Pilot toestel."
+
+#: lib/kpilotdevicelinkPrivate.h:314
+msgid " Check Pilot path and permissions."
+msgstr " Bevestig Pilot gids soeklys en regte."
 
 #: lib/pilotMemo.cc:72
 #, kde-format
@@ -152,68 +171,54 @@ msgstr "Vraag"
 msgid "&Do not ask again"
 msgstr "Doen nie vra weer"
 
-#: lib/kpilotdevicelink.cc:294
-msgid " The port does not exist."
-msgstr " Die poort doen nie bestaan."
+#: lib/kpilotdevicelink.cc:154
+#, kde-format
+msgid "Could not open device: %1 (will retry)"
+msgstr "Kon nie open toestel: %1 (sal herprobeer)"
 
-#: lib/kpilotdevicelink.cc:297
-#, fuzzy
-#| msgid " These is no such device."
-msgid " There is no such device."
-msgstr " Hierdie is nee soos toestel."
-
-#: lib/kpilotdevicelink.cc:300
-#, fuzzy
-msgid " You do not have permission to open the Pilot device."
-msgstr " Jy moet nie het reg na open die Pilot toestel."
-
-#: lib/kpilotdevicelink.cc:304
-msgid " Check Pilot path and permissions."
-msgstr " Bevestig Pilot gids soeklys en regte."
-
-#: lib/kpilotdevicelink.cc:334
+#: lib/kpilotdevicelink.cc:193
 #, fuzzy, kde-format
 msgid "Trying to open device %1..."
 msgstr "Probeer na open toestel..."
 
-#: lib/kpilotdevicelink.cc:377
+#: lib/kpilotdevicelink.cc:247
 msgid "Already listening on that device"
 msgstr ""
 
-#: lib/kpilotdevicelink.cc:397
+#: lib/kpilotdevicelink.cc:267
 #, fuzzy, kde-format
 #| msgid "Cannot create socket for communicating with the Pilot"
 msgid "Cannot create socket for communicating with the Pilot (%1)"
 msgstr "Kan nie skep soket vir kommunikeer met die Pilot"
 
-#: lib/kpilotdevicelink.cc:423
+#: lib/kpilotdevicelink.cc:295
 #, kde-format
 msgid "Cannot open Pilot port \"%1\". "
 msgstr "Kan nie open Pilot poort \"%1\". "
 
-#: lib/kpilotdevicelink.cc:456
+#: lib/kpilotdevicelink.cc:397
 #, fuzzy, kde-format
 msgid "Cannot listen on Pilot socket (%1)"
 msgstr "Kan nie open Pilot poort \"%1\". "
 
-#: lib/kpilotdevicelink.cc:480 lib/kpilotdevicelink.cc:494
+#: lib/kpilotdevicelink.cc:417 lib/kpilotdevicelink.cc:432
 #, fuzzy, kde-format
 msgid "Cannot accept Pilot (%1)"
 msgstr "Kan nie open Pilot poort \"%1\". "
 
-#: lib/kpilotdevicelink.cc:494
+#: lib/kpilotdevicelink.cc:433
 msgid "already connected"
 msgstr ""
 
-#: lib/kpilotdevicelink.cc:509
+#: lib/kpilotdevicelink.cc:447
 msgid "Unable to read system information from Pilot"
 msgstr "Nie moontlik na lees stelsel informasie van Pilot"
 
-#: lib/kpilotdevicelink.cc:541
+#: lib/kpilotdevicelink.cc:484
 msgid "Checking last PC..."
 msgstr "Toetsing laaste Pc..."
 
-#: lib/kpilotdevicelink.cc:550
+#: lib/kpilotdevicelink.cc:493
 msgid ""
 "Could not read user information from the Pilot. Perhaps you have a password "
 "set on the device?"
@@ -221,33 +226,28 @@ msgstr ""
 "Kon nie lees gebruiker informasie van die Pilot. Miskien jy het 'n wagwoord "
 "stel op die toestel?"
 
-#: lib/kpilotdevicelink.cc:608
-#, kde-format
-msgid "Could not open device: %1 (will retry)"
-msgstr "Kon nie open toestel: %1 (sal herprobeer)"
-
-#: lib/kpilotdevicelink.cc:795
+#: lib/kpilotdevicelink.cc:679
 msgid "The Pilot device is not configured yet."
 msgstr "Die Pilot toestel is nie gekonfigureer nog."
 
-#: lib/kpilotdevicelink.cc:836
+#: lib/kpilotdevicelink.cc:720
 #, kde-format
 msgid "Pilot device %1 is not read-write."
 msgstr "Pilot toestel %1 is nie read-write."
 
-#: lib/kpilotdevicelink.cc:844
+#: lib/kpilotdevicelink.cc:728
 #, kde-format
 msgid ""
 "Pilot device %1 does not exist. Probably it is a USB device and will appear "
 "during a HotSync."
 msgstr ""
 
-#: lib/kpilotdevicelink.cc:892 lib/kpilotdevicelink.cc:900
+#: lib/kpilotdevicelink.cc:776 lib/kpilotdevicelink.cc:784
 #, fuzzy, kde-format
 msgid "<qt>Cannot install the file &quot;%1&quot;.</qt>"
 msgstr "Kan nie installeer lêer &quot;%1quot;!"
 
-#: lib/kpilotdevicelink.cc:971
+#: lib/kpilotdevicelink.cc:855
 msgid "End of HotSync\n"
 msgstr "Einde van Hotsync\n"
 
