@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-27 06:11+0100\n"
+"POT-Creation-Date: 2007-12-28 06:13+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -103,8 +103,8 @@ msgstr "Naam"
 #. i18n: file publishdialog_base.ui line 31
 #. i18n: tag string
 #. i18n: file ./publishdialog_base.ui line 31
-#: koeditordetails.cpp:226 koeditorfreebusy.cpp:273 koeditoralarms.cpp:82
-#: koprefsdialog.cpp:911 rc.cpp:888 rc.cpp:2086
+#: koeditordetails.cpp:226 koeditorfreebusy.cpp:273 koprefsdialog.cpp:911
+#: rc.cpp:888 rc.cpp:2086
 msgid "Email"
 msgstr "E-pos"
 
@@ -1106,76 +1106,90 @@ msgstr "Nie moontlik na soek werkvoorbeeld '%1'."
 msgid "Error loading template file '%1'."
 msgstr "Fout laaiïng van werkvoorbeeld lêer '%1'."
 
-#: koeditoralarms.cpp:76 koprefsdialog.cpp:207 koeditorattachments.cpp:228
+#: koeditoralarms.cpp:78
+msgctxt "@option unknown alarm type"
 msgid "Unknown"
 msgstr ""
 
-#: koeditoralarms.cpp:78
+#: koeditoralarms.cpp:81
 #, fuzzy
+msgctxt "@option popup reminder dialog"
 msgid "Reminder Dialog"
 msgstr "Herhindering:"
 
-#: koeditoralarms.cpp:80
+#: koeditoralarms.cpp:84
+msgctxt "@option run application or script"
 msgid "Application/Script"
 msgstr ""
 
-#: koeditoralarms.cpp:84
+#: koeditoralarms.cpp:87
+#, fuzzy
+#| msgid "Email"
+msgctxt "@option send email reminder"
+msgid "Email"
+msgstr "E-pos"
+
+#: koeditoralarms.cpp:90
+msgctxt "@option play a sound"
 msgid "Audio"
 msgstr ""
 
-#: koeditoralarms.cpp:96 printing/calprintdefaultplugins.cpp:329
-#, kde-format
-msgctxt "N days/hours/minutes before/after the start/end"
-msgid "%1 before the start"
-msgstr ""
-
-#: koeditoralarms.cpp:99 printing/calprintdefaultplugins.cpp:333
-#, kde-format
-msgctxt "N days/hours/minutes before/after the start/end"
-msgid "%1 after the start"
-msgstr ""
-
-#: koeditoralarms.cpp:104 printing/calprintdefaultplugins.cpp:339
-#, kde-format
-msgctxt "N days/hours/minutes before/after the start/end"
-msgid "%1 before the end"
-msgstr ""
-
-#: koeditoralarms.cpp:107 printing/calprintdefaultplugins.cpp:343
-#, kde-format
-msgctxt "N days/hours/minutes before/after the start/end"
-msgid "%1 after the end"
-msgstr ""
-
-#: koeditoralarms.cpp:116 printing/calprintdefaultplugins.cpp:352
+#: koeditoralarms.cpp:104
 #, fuzzy, kde-format
+msgctxt "@info N days/hours/minutes before/after the start/end"
+msgid "%1 before the start"
+msgstr "Stel Jou Status"
+
+#: koeditoralarms.cpp:109
+#, fuzzy, kde-format
+msgctxt "@info N days/hours/minutes before/after the start/end"
+msgid "%1 after the start"
+msgstr "Stel Jou Status"
+
+#: koeditoralarms.cpp:116
+#, fuzzy, kde-format
+msgctxt "@info N days/hours/minutes before/after the start/end"
+msgid "%1 before the end"
+msgstr "Stel Jou Status"
+
+#: koeditoralarms.cpp:121
+#, fuzzy, kde-format
+msgctxt "@info N days/hours/minutes before/after the start/end"
+msgid "%1 after the end"
+msgstr "Stel Jou Status"
+
+#: koeditoralarms.cpp:132
+#, fuzzy, kde-format
+msgctxt "@info alarm offset specified in days"
 msgid "1 day"
 msgid_plural "%1 days"
 msgstr[0] "1 Dag"
 msgstr[1] "%1 Dae"
 
-#: koeditoralarms.cpp:119 printing/calprintdefaultplugins.cpp:355
-#: koeditorgeneralevent.cpp:430
+#: koeditoralarms.cpp:137
 #, fuzzy, kde-format
+msgctxt "@info alarm offset specified in hours"
 msgid "1 hour"
 msgid_plural "%1 hours"
 msgstr[0] "1 uur"
 msgstr[1] "%1 ure"
 
-#: koeditoralarms.cpp:122 koprefsdialog.cpp:368
-#: printing/calprintdefaultplugins.cpp:358 koeditorgeneralevent.cpp:437
+#: koeditoralarms.cpp:142
 #, fuzzy, kde-format
+msgctxt "@info alarm offset specified in minutes"
 msgid "1 minute"
 msgid_plural "%1 minutes"
 msgstr[0] "1 minuut"
 msgstr[1] "%1 minute"
 
-#: koeditoralarms.cpp:128
+#: koeditoralarms.cpp:148
+msgctxt "@info yes, the alarm repeats"
 msgid "Yes"
 msgstr ""
 
-#: koeditoralarms.cpp:137
+#: koeditoralarms.cpp:156
 #, fuzzy
+msgctxt "@title"
 msgid "Edit Reminders"
 msgstr "Herhindering:"
 
@@ -1313,6 +1327,10 @@ msgid ""
 "KOrganizer will automatically adjust for daylight savings."
 msgstr ""
 
+#: koprefsdialog.cpp:207 koeditorattachments.cpp:228
+msgid "Unknown"
+msgstr ""
+
 #: koprefsdialog.cpp:219
 msgid "[No selection]"
 msgstr "[Nee keuse]"
@@ -1355,6 +1373,14 @@ msgstr ""
 msgid "Default values"
 msgstr "Verstek Kalender Formaat"
 
+#: koprefsdialog.cpp:368 printing/calprintdefaultplugins.cpp:358
+#: koeditorgeneralevent.cpp:437
+#, fuzzy, kde-format
+msgid "1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "1 minuut"
+msgstr[1] "%1 minute"
+
 #: koprefsdialog.cpp:368
 msgid "5 minutes"
 msgstr "5 minute"
@@ -1381,8 +1407,8 @@ msgstr "Verstek alarm tyd:"
 msgid "Enter the default reminder time here."
 msgstr "Verstek alarm tyd:"
 
-#: koprefsdialog.cpp:475 kojournaleditor.cpp:79 exportwebdialog.cpp:143
-#: koeventeditor.cpp:113 kotodoeditor.cpp:94
+#: koprefsdialog.cpp:475 kojournaleditor.cpp:79 koeventeditor.cpp:113
+#: kotodoeditor.cpp:94
 msgid "General"
 msgstr "Algemeen"
 
@@ -2889,14 +2915,14 @@ msgstr "Soektog In"
 msgid "Any category"
 msgstr ""
 
-#: freebusyurldialog.cpp:48
+#: freebusyurldialog.cpp:47
 #, fuzzy
 msgid "Edit Free/Busy Location"
 msgstr "Publiseer Vry Besig Informasie"
 
-#: freebusyurldialog.cpp:77
+#: freebusyurldialog.cpp:75
 #, fuzzy, kde-format
-msgid "Location of Free/Busy information for %1 <%2>:"
+msgid "Location of Free/Busy information for %1 <placeholder>%2</placeholder>:"
 msgstr "Publiseer Vry Besig Informasie"
 
 #: kojournaleditor.cpp:50
@@ -5926,7 +5952,7 @@ msgstr "Joernaal"
 #. i18n: file searchdialog_base.ui line 99
 #. i18n: tag string
 #. i18n: file ./searchdialog_base.ui line 99
-#: rc.cpp:927 rc.cpp:1156 exportwebdialog.cpp:147
+#: rc.cpp:927 rc.cpp:1156 exportwebdialog.cpp:149
 msgid "Date Range"
 msgstr "Datum Omvang"
 
@@ -6885,34 +6911,41 @@ msgstr "Voer uit Kalender as Web Bladsy"
 msgid "Export"
 msgstr ""
 
-#: exportwebdialog.cpp:133
+#: exportwebdialog.cpp:134
 msgid ""
 "You are about to set all preferences to default values. All custom "
 "modifications will be lost."
 msgstr ""
 
-#: exportwebdialog.cpp:134
+#: exportwebdialog.cpp:136
 msgid "Setting Default Preferences"
 msgstr ""
 
-#: exportwebdialog.cpp:135
+#: exportwebdialog.cpp:137
 msgid "Reset to Defaults"
 msgstr ""
 
-#: exportwebdialog.cpp:159
+#: exportwebdialog.cpp:145
+#, fuzzy
+#| msgid "General"
+msgctxt "general settings for html export"
+msgid "General"
+msgstr "Algemeen"
+
+#: exportwebdialog.cpp:161
 msgid "View Type"
 msgstr "Besigtig Tipe"
 
-#: exportwebdialog.cpp:172
+#: exportwebdialog.cpp:174
 msgid "Destination"
 msgstr "Bestemming"
 
-#: exportwebdialog.cpp:195
+#: exportwebdialog.cpp:197
 #, fuzzy
 msgid "To-dos"
 msgstr "To-do"
 
-#: exportwebdialog.cpp:218
+#: exportwebdialog.cpp:220
 #, fuzzy
 msgid "Events"
 msgstr "Aktiwiteite:"
@@ -7283,6 +7316,44 @@ msgid "Reminder: "
 msgid_plural "%1 reminders: "
 msgstr[0] "1 minuut"
 msgstr[1] "%1 minute"
+
+#: printing/calprintdefaultplugins.cpp:329
+#, kde-format
+msgctxt "N days/hours/minutes before/after the start/end"
+msgid "%1 before the start"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:333
+#, kde-format
+msgctxt "N days/hours/minutes before/after the start/end"
+msgid "%1 after the start"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:339
+#, kde-format
+msgctxt "N days/hours/minutes before/after the start/end"
+msgid "%1 before the end"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:343
+#, kde-format
+msgctxt "N days/hours/minutes before/after the start/end"
+msgid "%1 after the end"
+msgstr ""
+
+#: printing/calprintdefaultplugins.cpp:352
+#, fuzzy, kde-format
+msgid "1 day"
+msgid_plural "%1 days"
+msgstr[0] "1 Dag"
+msgstr[1] "%1 Dae"
+
+#: printing/calprintdefaultplugins.cpp:355 koeditorgeneralevent.cpp:430
+#, fuzzy, kde-format
+msgid "1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "1 uur"
+msgstr[1] "%1 ure"
 
 #: printing/calprintdefaultplugins.cpp:362
 #: printing/calprintdefaultplugins.cpp:502
