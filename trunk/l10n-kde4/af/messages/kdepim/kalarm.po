@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-01 06:17+0100\n"
+"POT-Creation-Date: 2008-01-09 07:18+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -16,19 +16,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: lib/dateedit.cpp:65
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Date cannot be earlier than %1"
+msgctxt "@info"
 msgid "Date cannot be earlier than %1"
 msgstr "Datum kan nie wees vroeër as %1"
 
 #: lib/dateedit.cpp:70
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Date cannot be later than %1"
 msgstr "Datum kan nie wees vroeër as %1"
 
 #: lib/dateedit.cpp:81
 #, fuzzy
 #| msgid "today"
-msgctxt "@info"
+msgctxt "@info/plain"
 msgid "today"
 msgstr "vandag"
 
@@ -76,25 +79,25 @@ msgstr ""
 
 #: lib/timeperiod.cpp:37
 #, fuzzy
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Time units"
 msgid "minutes"
 msgstr "Ure/Minute"
 
 #: lib/timeperiod.cpp:38
 #, fuzzy
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Time units"
 msgid "hours/minutes"
 msgstr "Ure/Minute"
 
 #: lib/timeperiod.cpp:39
 #, fuzzy
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Time units"
 msgid "days"
 msgstr "dag"
 
 #: lib/timeperiod.cpp:40
 #, fuzzy
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Time units"
 msgid "weeks"
 msgstr "Weke"
 
@@ -922,13 +925,13 @@ msgstr "Stuur"
 #: editdlgtypes.cpp:1257
 #, kde-format
 msgctxt "@info"
-msgid "Email sent to:<br/>%1<br/>Bcc: <email>%2</email>"
+msgid "Email sent to:<nl/>%1<nl/>Bcc: <email>%2</email>"
 msgstr ""
 
 #: editdlgtypes.cpp:1260
 #, fuzzy, kde-format
 msgctxt "@info"
-msgid "Email sent to:<br/>%1"
+msgid "Email sent to:<nl/>%1"
 msgstr ""
 "E-pos gestuur na:\n"
 "%1"
@@ -988,7 +991,7 @@ msgstr "%1H %2M"
 
 #: traywindow.cpp:251
 #, fuzzy, kde-format
-msgctxt "@info:tooltip"
+msgctxt "@info:tooltip 'KAlarm - disabled' %2 = list of alarms due soon"
 msgid "%1 - disabled%2"
 msgstr "Aktiveer Alarms"
 
@@ -1133,16 +1136,16 @@ msgstr "Stuur pos"
 #, kde-format
 msgctxt "@info"
 msgid ""
-"Invalid 'From' email address.<br />Email identity <resource>%1</resource> "
-"not found"
+"Invalid 'From' email address.<nl/>Email identity <resource>%1</resource> not "
+"found"
 msgstr ""
 
 #: kamail.cpp:131
 #, kde-format
 msgctxt "@info"
 msgid ""
-"Invalid 'From' email address.<br />Email identity <resource>%1</resource> "
-"has no email address"
+"Invalid 'From' email address.<nl/>Email identity <resource>%1</resource> has "
+"no email address"
 msgstr ""
 
 #: kamail.cpp:140
@@ -1249,14 +1252,14 @@ msgstr "Voorkeure"
 #: prefdlg.cpp:137
 #, fuzzy
 #| msgid "General"
-msgctxt "@title:tab"
+msgctxt "@title:tab General preferences"
 msgid "General"
 msgstr "Algemeen"
 
 #: prefdlg.cpp:138
 #, fuzzy
 #| msgid "General"
-msgctxt "@title"
+msgctxt "@title General preferences"
 msgid "General"
 msgstr "Algemeen"
 
@@ -1286,7 +1289,7 @@ msgstr "Alarm Verstek"
 
 #: prefdlg.cpp:155
 #, fuzzy
-msgctxt "@title:tab"
+msgctxt "@title:tab Email preferences"
 msgid "Email"
 msgstr "E-pos"
 
@@ -1485,7 +1488,7 @@ msgstr ""
 #, fuzzy
 #| msgctxt "On the 1st Tuesday"
 #| msgid "On t&he"
-msgctxt "@option:radio"
+msgctxt "@option:radio Other terminal window command"
 msgid "Other:"
 msgstr "Op die"
 
@@ -1653,7 +1656,7 @@ msgstr "Deaktiveer alarms terwyl nie wat loop"
 
 #: prefdlg.cpp:764
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label Time unit for user-entered number"
 msgid "days"
 msgstr "dag"
 
@@ -1939,7 +1942,7 @@ msgstr "Ure/Minute"
 #: prefdlg.cpp:1191
 #, fuzzy
 #| msgid "Days"
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Time unit option"
 msgid "Days"
 msgstr "Dae"
 
@@ -1959,7 +1962,7 @@ msgstr ""
 
 #: prefdlg.cpp:1202
 #, fuzzy
-msgctxt "@title:group"
+msgctxt "@title:group Audio options group"
 msgid "Sound"
 msgstr "Klank"
 
@@ -2271,192 +2274,192 @@ msgid ""
 "warning></para><para>Do you wish to update the resource?</para>"
 msgstr ""
 
-#: functions.cpp:723
+#: functions.cpp:719
 #, fuzzy
 msgctxt "@info"
 msgid "Error saving alarms"
 msgstr "Redigeer Alarm"
 
-#: functions.cpp:724
+#: functions.cpp:720
 #, fuzzy
 msgctxt "@info"
 msgid "Error saving alarm"
 msgstr "Redigeer Alarm"
 
-#: functions.cpp:727
+#: functions.cpp:723
 #, fuzzy
 msgctxt "@info"
 msgid "Error deleting alarms"
 msgstr "Verwyder die verlig aanhegsel van die e-pos."
 
-#: functions.cpp:728
+#: functions.cpp:724
 #, fuzzy
 msgctxt "@info"
 msgid "Error deleting alarm"
 msgstr "Verwyder die verlig aanhegsel van die e-pos."
 
-#: functions.cpp:731
+#: functions.cpp:727
 #, fuzzy
 msgctxt "@info"
 msgid "Error saving reactivated alarms"
 msgstr "Redigeer Alarm"
 
-#: functions.cpp:732
+#: functions.cpp:728
 #, fuzzy
 msgctxt "@info"
 msgid "Error saving reactivated alarm"
 msgstr "Redigeer Alarm"
 
-#: functions.cpp:735
+#: functions.cpp:731
 #, fuzzy
 msgctxt "@info"
 msgid "Error saving alarm templates"
 msgstr "Redigeer Alarm"
 
-#: functions.cpp:736
+#: functions.cpp:732
 #, fuzzy
 msgctxt "@info"
 msgid "Error saving alarm template"
 msgstr "Redigeer Alarm"
 
-#: functions.cpp:755
+#: functions.cpp:751
 msgctxt "@info"
 msgid "Unable to show alarms in KOrganizer"
 msgstr ""
 
-#: functions.cpp:756
+#: functions.cpp:752
 msgctxt "@info"
 msgid "Unable to show alarm in KOrganizer"
 msgstr ""
 
-#: functions.cpp:759
+#: functions.cpp:755
 msgctxt "@info"
 msgid "Unable to update alarm in KOrganizer"
 msgstr ""
 
-#: functions.cpp:762
+#: functions.cpp:758
 msgctxt "@info"
 msgid "Unable to delete alarms from KOrganizer"
 msgstr ""
 
-#: functions.cpp:763
+#: functions.cpp:759
 msgctxt "@info"
 msgid "Unable to delete alarm from KOrganizer"
 msgstr ""
 
-#: functions.cpp:1038
+#: functions.cpp:1034
 #, kde-format
 msgctxt "@info Please set the 'From' email address..."
 msgid "<para>%1</para><para>Please set it in the Preferences dialog.</para>"
 msgstr ""
 
-#: functions.cpp:1042
+#: functions.cpp:1038
 msgctxt "@info"
 msgid ""
 "<para>Alarms are currently disabled.</para><para>Do you want to enable "
 "alarms now?</para>"
 msgstr ""
 
-#: functions.cpp:1043
+#: functions.cpp:1039
 #, fuzzy
 msgctxt "@action:button"
 msgid "Enable"
 msgstr "Aktiveer Alarms"
 
-#: functions.cpp:1043
+#: functions.cpp:1039
 #, fuzzy
 msgctxt "@action:button"
 msgid "Keep Disabled"
 msgstr "Aktiveer Alarms"
 
-#: functions.cpp:1109
+#: functions.cpp:1105
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
-"Unable to start <application>KMail</application><br />(<message>%1</message>)"
+"Unable to start <application>KMail</application><nl/>(<message>%1</message>)"
 msgstr "Bevestig na hardloop %1 wanneer ook al jy begin Kde."
 
-#: functions.cpp:1398
+#: functions.cpp:1394
 #, fuzzy
-msgctxt "Name of the weekday"
+msgctxt "@option Name of the weekday"
 msgid "Monday"
 msgstr "vandag"
 
+#: functions.cpp:1395
+#, fuzzy
+msgctxt "@option Name of the weekday"
+msgid "Tuesday"
+msgstr "vandag"
+
+#: functions.cpp:1396
+#, fuzzy
+msgctxt "@option Name of the weekday"
+msgid "Wednesday"
+msgstr "vandag"
+
+#: functions.cpp:1397
+#, fuzzy
+msgctxt "@option Name of the weekday"
+msgid "Thursday"
+msgstr "vandag"
+
+#: functions.cpp:1398
+#, fuzzy
+msgctxt "@option Name of the weekday"
+msgid "Friday"
+msgstr "dag"
+
 #: functions.cpp:1399
 #, fuzzy
-msgctxt "Name of the weekday"
-msgid "Tuesday"
+msgctxt "@option Name of the weekday"
+msgid "Saturday"
 msgstr "vandag"
 
 #: functions.cpp:1400
 #, fuzzy
-msgctxt "Name of the weekday"
-msgid "Wednesday"
-msgstr "vandag"
-
-#: functions.cpp:1401
-#, fuzzy
-msgctxt "Name of the weekday"
-msgid "Thursday"
-msgstr "vandag"
-
-#: functions.cpp:1402
-#, fuzzy
-msgctxt "Name of the weekday"
-msgid "Friday"
-msgstr "dag"
-
-#: functions.cpp:1403
-#, fuzzy
-msgctxt "Name of the weekday"
-msgid "Saturday"
-msgstr "vandag"
-
-#: functions.cpp:1404
-#, fuzzy
-msgctxt "Name of the weekday"
+msgctxt "@option Name of the weekday"
 msgid "Sunday"
 msgstr "dag"
 
 #: recurrenceedit.cpp:68
 #, fuzzy
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Recurrence type"
 msgid "No Recurrence"
 msgstr "Herhaling"
 
 #: recurrenceedit.cpp:69
 #, fuzzy
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Recurrence type"
 msgid "At Login"
 msgstr "Aanteken"
 
 #: recurrenceedit.cpp:70
 #, fuzzy
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Recurrence type"
 msgid "Hourly/Minutely"
 msgstr "Ure/Minute"
 
 #: recurrenceedit.cpp:71
 #, fuzzy
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Recurrence type"
 msgid "Daily"
 msgstr "Dae"
 
 #: recurrenceedit.cpp:72
 #, fuzzy
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Recurrence type"
 msgid "Weekly"
 msgstr "Weke"
 
 #: recurrenceedit.cpp:73
 #, fuzzy
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Recurrence type"
 msgid "Monthly"
 msgstr "Maande"
 
 #: recurrenceedit.cpp:74
 #, fuzzy
-msgctxt "@item:inlistbox"
+msgctxt "@item:inlistbox Recurrence type"
 msgid "Yearly"
 msgstr "Jare"
 
@@ -2721,7 +2724,7 @@ msgstr "Herhaal elke:"
 
 #: recurrenceedit.cpp:1132
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label Time units for user-entered numbers"
 msgid "hours:minutes"
 msgstr "Ure/Minute"
 
@@ -2746,7 +2749,7 @@ msgstr ""
 
 #: recurrenceedit.cpp:1262
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label Time unit for user-entered number"
 msgid "day(s)"
 msgstr "dag"
 
@@ -2765,7 +2768,7 @@ msgstr "Kies die dag van die week op wat na herhaal die alarm"
 
 #: recurrenceedit.cpp:1275
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label Time unit for user-entered number"
 msgid "week(s)"
 msgstr "Weke"
 
@@ -2912,7 +2915,7 @@ msgstr "Kies die dag van die week op wat na herhaal die alarm"
 
 #: recurrenceedit.cpp:1485
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label Time unit for user-entered number"
 msgid "month(s)"
 msgstr "Maande"
 
@@ -2925,7 +2928,7 @@ msgstr "Invoer die nommer van maande tussen repitisies van die alarm"
 
 #: recurrenceedit.cpp:1497
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label Time unit for user-entered number"
 msgid "year(s)"
 msgstr "Jare"
 
@@ -2943,48 +2946,48 @@ msgid "of:"
 msgstr "van"
 
 #: recurrenceedit.cpp:1516
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "January"
 msgstr ""
 
 #: recurrenceedit.cpp:1517
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "February"
 msgstr ""
 
 #: recurrenceedit.cpp:1518
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "March"
 msgstr ""
 
 #: recurrenceedit.cpp:1519
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "April"
 msgstr ""
 
 #: recurrenceedit.cpp:1520
 #, fuzzy
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "May"
 msgstr "vandag"
 
 #: recurrenceedit.cpp:1521
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "June"
 msgstr ""
 
 #: recurrenceedit.cpp:1522
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "July"
 msgstr ""
 
 #: recurrenceedit.cpp:1523
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "August"
 msgstr ""
 
 #: recurrenceedit.cpp:1524
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "September"
 msgstr ""
 
@@ -2992,17 +2995,17 @@ msgstr ""
 #, fuzzy
 #| msgctxt "On the 1st Tuesday"
 #| msgid "On t&he"
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "October"
 msgstr "Op die"
 
 #: recurrenceedit.cpp:1526
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "November"
 msgstr ""
 
 #: recurrenceedit.cpp:1527
-msgctxt "Month of the year"
+msgctxt "@option:check Month of the year"
 msgid "December"
 msgstr ""
 
@@ -3381,47 +3384,53 @@ msgstr ""
 #: editdlg.cpp:199
 #, fuzzy
 msgctxt "@title:window"
-msgid "Archived Alarm [read-only]"
-msgstr "Aktiveer %1"
+msgid "Alarm Template [read-only]"
+msgstr "Alarm Verstek"
 
 #: editdlg.cpp:200
 #, fuzzy
 msgctxt "@title:window"
-msgid "View Alarm"
-msgstr "Nuwe Alarm"
+msgid "Archived Alarm [read-only]"
+msgstr "Aktiveer %1"
 
-#: editdlg.cpp:209
+#: editdlg.cpp:201
+#, fuzzy
+msgctxt "@title:window"
+msgid "Alarm [read-only]"
+msgstr "Aktiveer %1"
+
+#: editdlg.cpp:207
 #, fuzzy
 msgctxt "@action:button"
 msgid "Load Template..."
 msgstr "Alarm Verstek"
 
-#: editdlg.cpp:220
+#: editdlg.cpp:218
 msgctxt "@label:textbox"
 msgid "Template name:"
 msgstr ""
 
-#: editdlg.cpp:225
+#: editdlg.cpp:223
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Enter the name of the alarm template"
 msgstr "Invoer die teks van die alarm boodskap. Dit dalk mag wees multi-line."
 
-#: editdlg.cpp:233
+#: editdlg.cpp:231
 #, fuzzy
 #| msgid "&Alarm"
 msgctxt "@title:tab"
 msgid "&Alarm"
 msgstr "Alarm"
 
-#: editdlg.cpp:253
+#: editdlg.cpp:251
 #, fuzzy
 #| msgid "Action"
 msgctxt "@title:group"
 msgid "Action"
 msgstr "Aksie"
 
-#: editdlg.cpp:262
+#: editdlg.cpp:260
 #, fuzzy
 #| msgid "Delete Alarm"
 #| msgid_plural "Delete Alarms"
@@ -3429,37 +3438,37 @@ msgctxt "@title:group"
 msgid "Deferred Alarm"
 msgstr "Uitvee Alarm"
 
-#: editdlg.cpp:267
+#: editdlg.cpp:265
 msgctxt "@label"
 msgid "Deferred to:"
 msgstr ""
 
-#: editdlg.cpp:273
+#: editdlg.cpp:271
 #, fuzzy
 #| msgid "C&hange..."
 msgctxt "@action:button"
 msgid "Change..."
 msgstr "Verander..."
 
-#: editdlg.cpp:276
+#: editdlg.cpp:274
 msgctxt "@info:whatsthis"
 msgid "Change the alarm's deferred time, or cancel the deferral"
 msgstr ""
 
-#: editdlg.cpp:287 editdlg.cpp:351
+#: editdlg.cpp:285 editdlg.cpp:349
 #, fuzzy
 #| msgid "Time"
 msgctxt "@title:group"
 msgid "Time"
 msgstr "Tyd"
 
-#: editdlg.cpp:295
+#: editdlg.cpp:293
 #, fuzzy
 msgctxt "@option:radio"
 msgid "Default time"
 msgstr "Na datum/tyd:"
 
-#: editdlg.cpp:298
+#: editdlg.cpp:296
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -3467,19 +3476,19 @@ msgid ""
 "default start time will be used."
 msgstr "Invoer die laaste tyd na herhaal die alarm"
 
-#: editdlg.cpp:306
+#: editdlg.cpp:304
 #, fuzzy
 msgctxt "@option:radio"
 msgid "Time:"
 msgstr "Tyd"
 
-#: editdlg.cpp:309
+#: editdlg.cpp:307
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "Specify a start time for alarms based on this template."
 msgstr "Invoer die laaste tyd na herhaal die alarm"
 
-#: editdlg.cpp:315
+#: editdlg.cpp:313
 #, fuzzy, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -3487,27 +3496,27 @@ msgid ""
 "1</para>"
 msgstr "Invoer die laaste tyd na herhaal die alarm"
 
-#: editdlg.cpp:321
+#: editdlg.cpp:319
 #, fuzzy
 msgctxt "@option:radio"
 msgid "Date only"
 msgstr "Uitvee Alarm"
 
-#: editdlg.cpp:324
+#: editdlg.cpp:322
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
 "Set the <interface>Date</interface> option for alarms based on this template."
 msgstr "Invoer die laaste tyd na herhaal die alarm"
 
-#: editdlg.cpp:331 alarmtimewidget.cpp:149
+#: editdlg.cpp:329 alarmtimewidget.cpp:149
 #, fuzzy
 #| msgid "Time from no&w:"
 msgctxt "@option:radio"
 msgid "Time from now:"
 msgstr "Tyd van nou:"
 
-#: editdlg.cpp:335
+#: editdlg.cpp:333
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -3515,47 +3524,47 @@ msgid ""
 "from when the alarm is created."
 msgstr "Skeduleer die alarm na die gespesifiseer tyd interval van nou."
 
-#: editdlg.cpp:342 alarmtimewidget.cpp:160
+#: editdlg.cpp:340 alarmtimewidget.cpp:160
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "<para>%1</para><para>%2</para>"
 msgstr ""
 
-#: editdlg.cpp:385
+#: editdlg.cpp:383
 msgctxt "@info:whatsthis"
 msgid "Check to copy the alarm into KOrganizer's calendar"
 msgstr ""
 
-#: editdlg.cpp:389
+#: editdlg.cpp:387
 #, fuzzy
 #| msgid "Schedule the alarm at the specified time."
 msgctxt "@info:whatsthis"
 msgid "Schedule the alarm at the specified time."
 msgstr "Skeduleer die alarm na die gespesifiseer tyd."
 
-#: editdlg.cpp:790
+#: editdlg.cpp:788
 #, fuzzy
 msgctxt "@info"
 msgid "You must enter a name for the alarm template"
 msgstr "Invoer die teks van die alarm boodskap. Dit dalk mag wees multi-line."
 
-#: editdlg.cpp:794
+#: editdlg.cpp:792
 msgctxt "@info"
 msgid "Template name is already in use"
 msgstr ""
 
-#: editdlg.cpp:834
+#: editdlg.cpp:832
 #, fuzzy
 msgctxt "@info"
 msgid "Recurrence has already expired"
 msgstr "Alarm tyd het alreeds verstrek"
 
-#: editdlg.cpp:839
+#: editdlg.cpp:837
 msgctxt "@info"
 msgid "The alarm will never occur during working hours"
 msgstr ""
 
-#: editdlg.cpp:868
+#: editdlg.cpp:866
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3563,7 +3572,7 @@ msgid ""
 "%1</interface> is checked."
 msgstr ""
 
-#: editdlg.cpp:882
+#: editdlg.cpp:880
 #, fuzzy
 msgctxt "@info"
 msgid ""
@@ -3571,14 +3580,14 @@ msgid ""
 "recurrence interval minus any reminder period"
 msgstr "Die alarm's herhaling tipe of herhaling interval."
 
-#: editdlg.cpp:889
+#: editdlg.cpp:887
 msgctxt "@info"
 msgid ""
 "For a repetition within the recurrence, its period must be in units of days "
 "or weeks for a date-only alarm"
 msgstr ""
 
-#: editdlg.cpp:919
+#: editdlg.cpp:917
 #, fuzzy
 msgctxt "@info"
 msgid "You must select a resource to save the alarm in"
@@ -4036,7 +4045,7 @@ msgstr "Alarm Verstek"
 
 #: find.cpp:112
 #, fuzzy
-msgctxt "@option:check"
+msgctxt "@option:check Alarm type"
 msgid "Active"
 msgstr "Aktiveer %1"
 
@@ -4047,7 +4056,7 @@ msgstr ""
 
 #: find.cpp:117
 #, fuzzy
-msgctxt "@option:check"
+msgctxt "@option:check Alarm type"
 msgid "Archived"
 msgstr "Aktiveer %1"
 
@@ -4060,7 +4069,7 @@ msgstr ""
 
 #: find.cpp:127
 #, fuzzy
-msgctxt "@option:check"
+msgctxt "@option:check Alarm action = text display"
 msgid "Text"
 msgstr "Teks"
 
@@ -4071,7 +4080,7 @@ msgstr ""
 
 #: find.cpp:132
 #, fuzzy
-msgctxt "@option:check"
+msgctxt "@option:check Alarm action = file display"
 msgid "File"
 msgstr "Url van kalender lêer"
 
@@ -4083,7 +4092,7 @@ msgstr ""
 #: find.cpp:137
 #, fuzzy
 #| msgid "Co&mmand"
-msgctxt "@option:check"
+msgctxt "@option:check Alarm action"
 msgid "Command"
 msgstr "Opdrag"
 
@@ -4094,7 +4103,7 @@ msgstr ""
 
 #: find.cpp:142
 #, fuzzy
-msgctxt "@option:check"
+msgctxt "@option:check Alarm action"
 msgid "Email"
 msgstr "E-pos"
 
@@ -4237,7 +4246,7 @@ msgstr "Alarm Bediener nie gevind"
 #, kde-format
 msgctxt "@info"
 msgid ""
-"Cannot enable alarms.<br />Installation or configuration error: "
+"Cannot enable alarms.<nl/>Installation or configuration error: "
 "<application>Alarm Daemon</application> (<command>%1</command>) version is "
 "incompatible."
 msgstr ""
@@ -4246,7 +4255,7 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid ""
-"Alarms will be disabled if you stop <application>KAlarm</application>.<br />"
+"Alarms will be disabled if you stop <application>KAlarm</application>.<nl/>"
 "(Installation or configuration error: <command>%1</command> cannot locate "
 "<command>%2</command> executable.)"
 msgstr ""
@@ -4255,18 +4264,18 @@ msgstr ""
 #, kde-format
 msgctxt "@info"
 msgid ""
-"Cannot enable alarms:<br />Failed to register with <application>Alarm "
-"Daemon</application> (<command>%1</command>)(Possible installation or "
-"configuration error)"
+"Cannot enable alarms:<nl/>Failed to register with <application>Alarm Daemon</"
+"application> (<command>%1</command>)(Possible installation or configuration "
+"error)"
 msgstr ""
 
 #: daemon.cpp:346
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
-"Cannot enable alarms:<br />Failed to start <application>Alarm Daemon</"
+"Cannot enable alarms:<nl/>Failed to start <application>Alarm Daemon</"
 "application> (<command>%1</command>)"
-msgstr ""
+msgstr "Bevestig na hardloop %1 wanneer ook al jy begin Kde."
 
 #: daemon.cpp:842
 #, fuzzy
@@ -5761,63 +5770,63 @@ msgctxt "@label:textbox"
 msgid "Location:"
 msgstr "Aksie"
 
-#: resources/alarmresource.cpp:303
+#: resources/alarmresource.cpp:319
 #, fuzzy
 msgctxt "@info/plain"
 msgid "Active alarms"
 msgstr "Aktiveer %1"
 
-#: resources/alarmresource.cpp:304
+#: resources/alarmresource.cpp:320
 #, fuzzy
 msgctxt "@info/plain"
 msgid "Archived alarms"
 msgstr "Aktiveer %1"
 
-#: resources/alarmresource.cpp:305
+#: resources/alarmresource.cpp:321
 #, fuzzy
 msgctxt "@info/plain"
 msgid "Alarm templates"
 msgstr "Alarm Verstek"
 
-#: resources/alarmresource.cpp:308 resourcemodelview.cpp:112
+#: resources/alarmresource.cpp:324 resourcemodelview.cpp:112
 msgctxt "@info/plain"
 msgid "Read-only"
 msgstr ""
 
-#: resources/alarmresource.cpp:308
+#: resources/alarmresource.cpp:324
 msgctxt "@info/plain"
 msgid "Read-write"
 msgstr ""
 
-#: resources/alarmresource.cpp:309
+#: resources/alarmresource.cpp:325
 #, fuzzy
 msgctxt "@info/plain"
 msgid "Enabled"
 msgstr "Aktiveer Alarms"
 
-#: resources/alarmresource.cpp:309 resourcemodelview.cpp:111
+#: resources/alarmresource.cpp:325 resourcemodelview.cpp:111
 #, fuzzy
 msgctxt "@info/plain"
 msgid "Disabled"
 msgstr "Aktiveer Alarms"
 
-#: resources/alarmresource.cpp:310
+#: resources/alarmresource.cpp:326
 msgctxt "@info/plain Parameter in 'Default resource: Yes/No'"
 msgid "Yes"
 msgstr ""
 
-#: resources/alarmresource.cpp:310
+#: resources/alarmresource.cpp:326
 msgctxt "@info/plain Parameter in 'Default resource: Yes/No'"
 msgid "No"
 msgstr ""
 
-#: resources/alarmresource.cpp:312
+#: resources/alarmresource.cpp:328
 #, kde-format
 msgctxt "@info"
 msgid ""
-"<title>%1</title><para>Resource type: %2<br />Contents: %3<br />%4: "
-"<filename>%5</filename><br />Permissions: %6<br />Status: %7<br />Default "
-"resource: %8</para>"
+"<title>%1</title><para>Resource type: %2<nl/>Contents: %3<nl/>%4: <filename>%"
+"5</filename><nl/>Permissions: %6<nl/>Status: %7<nl/>Default resource: %8</"
+"para>"
 msgstr ""
 
 #: resources/resourcewidget.cpp:53
@@ -5943,7 +5952,7 @@ msgstr "vandag"
 #: birthdaydlg.cpp:134
 msgctxt "@info:whatsthis"
 msgid ""
-"<para>Select birthdays to set alarms for.<br />This list shows all birthdays "
+"<para>Select birthdays to set alarms for.<nl/>This list shows all birthdays "
 "in <application>KAddressBook</application> except those for which alarms "
 "already exist.</para><para>You can select multiple birthdays at one time by "
 "dragging the mouse over the list, or by clicking the mouse while pressing "
@@ -6157,16 +6166,26 @@ msgstr ""
 "redigeer dialoog."
 
 #: resourcemodelview.cpp:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "%1\n"
+#| "is not readable"
 msgctxt "@info:tooltip"
-msgid "%1<br/>%2: <filename>%3</filename><br/>%4, %5"
+msgid "%1<nl/>%2: <filename>%3</filename><nl/>%4, %5"
 msgstr ""
+"%1\n"
+"is nie leesbaar"
 
 #: resourcemodelview.cpp:121
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "%1\n"
+#| "is not readable"
 msgctxt "@info:tooltip"
-msgid "%1<br/>%2: <filename>%3</filename><br/>%4"
+msgid "%1<nl/>%2: <filename>%3</filename><nl/>%4"
 msgstr ""
+"%1\n"
+"is nie leesbaar"
 
 #: resourcemodelview.cpp:127
 #, fuzzy, kde-format
@@ -6174,7 +6193,7 @@ msgstr ""
 #| "%1\n"
 #| "is not readable"
 msgctxt "@info:tooltip"
-msgid "%1<br/>%2: <filename>%3</filename>"
+msgid "%1<nl/>%2: <filename>%3</filename>"
 msgstr ""
 "%1\n"
 "is nie leesbaar"
@@ -6508,6 +6527,27 @@ msgstr "Tyd"
 msgctxt "@info/plain Email subject"
 msgid "Subject:"
 msgstr "E-pos onderwerp lyn"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "@title"
+#~ msgid "General"
+#~ msgstr "Algemeen"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "days"
+#~ msgstr "dag"
+
+#, fuzzy
+#~ msgctxt "@title:window"
+#~ msgid "View Alarm"
+#~ msgstr "Nuwe Alarm"
+
+#, fuzzy
+#~ msgctxt "@option:check"
+#~ msgid "Email"
+#~ msgstr "E-pos"
 
 #, fuzzy
 #~| msgid "&New..."

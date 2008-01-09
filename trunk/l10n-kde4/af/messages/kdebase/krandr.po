@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-03 06:19+0100\n"
+"POT-Creation-Date: 2008-01-09 07:16+0100\n"
 "PO-Revision-Date: 2005-11-23 23:01+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -16,79 +16,79 @@ msgstr ""
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: krandrmodule.cpp:57
+#: krandrmodule.cpp:59
 #, fuzzy
 msgid ""
 "Your X server does not support resizing and rotating the display. Please "
-"update to version 4.3 or greater. You need the X Resize And Rotate extension "
-"(RANDR) version 1.1 or greater to use this feature."
+"update to version 4.3 or greater. You need the X Resize, Rotate, and Reflect "
+"extension (RANDR) version 1.1 or greater to use this feature."
 msgstr ""
 "<qt>Jou X bediener ondersteun nie veranderings aan die grootte en rotasie "
 "van die beeld nie. Gradeer asseblief op na weergawe 4.3 of hoër. Jy het die "
 "X Vergroot en Roteer verlenging (RANDR) weergawe 1.1 of groter nodig om die "
 "fasiliteit te gebruik.</qt>"
 
-#: krandrtray.cpp:51
+#: krandrtray.cpp:52
 msgid "Screen resize & rotate"
 msgstr "Skerm verander & roteer"
 
-#: krandrtray.cpp:67
+#: krandrtray.cpp:68
 msgid "Required X Extension Not Available"
 msgstr "Verwagte X Ekstensie Nie Beskikbaar"
 
-#: krandrtray.cpp:89 legacyrandrconfig.cpp:36
+#: krandrtray.cpp:90 legacyrandrconfig.cpp:37
 #, kde-format
 msgid "Screen %1"
 msgstr "Skerm %1"
 
-#: krandrtray.cpp:110
+#: krandrtray.cpp:111
 msgid "Configure Display..."
 msgstr "Konfigureer Beeld..."
 
-#: krandrtray.cpp:142
+#: krandrtray.cpp:143
 msgid "Screen configuration has changed"
 msgstr "Skerm konfigurasie het verander"
 
-#: krandrtray.cpp:177 krandrtray.cpp:285
+#: krandrtray.cpp:178 krandrtray.cpp:286
 msgid "Screen Size"
 msgstr "Skerm Grootte"
 
-#: krandrtray.cpp:185 krandrtray.cpp:246 krandrtray.cpp:298
+#: krandrtray.cpp:186 krandrtray.cpp:247 krandrtray.cpp:299
 #, fuzzy
 msgid "Orientation"
 msgstr "Onbekende orientasie"
 
-#: krandrtray.cpp:202
+#: krandrtray.cpp:203
 msgid "Outputs"
 msgstr ""
 
-#: krandrtray.cpp:214
+#: krandrtray.cpp:215
 #, fuzzy, kde-format
 #| msgid "Screen Size"
 msgid "%1 - Screen Size"
 msgstr "Skerm Grootte"
 
-#: krandrtray.cpp:230
+#: krandrtray.cpp:231
 msgid "Disable"
 msgstr ""
 
-#: krandrtray.cpp:256 krandrtray.cpp:307
+#: krandrtray.cpp:257 krandrtray.cpp:308
 msgid "Refresh Rate"
 msgstr "Vervris Tempo"
 
-#: krandrtray.cpp:271
+#: krandrtray.cpp:272
 msgid "Unify Outputs"
 msgstr ""
 
-#: krandrtray.cpp:367 legacyrandrconfig.cpp:268 legacyrandrscreen.cpp:245
-#: outputconfig.cpp:107
+#: krandrtray.cpp:368 legacyrandrconfig.cpp:269 legacyrandrscreen.cpp:245
+#: outputconfig.cpp:249
 #, fuzzy, kde-format
 msgid "%1 Hz"
 msgstr ""
 "_: Vervris tempo in Hertz (Hz)\n"
 "%1 Hz"
 
-#: krandrtray.cpp:460
+#: krandrtray.cpp:461
 msgid "Configure Display"
 msgstr "Konfigureer Beeld"
 
@@ -98,11 +98,6 @@ msgid "1 second remaining:"
 msgid_plural "%1 seconds remaining:"
 msgstr[0] "_n: 1 sekonde oor:"
 msgstr[1] "%1 sekondes oor:"
-
-#: legacyrandrconfig.cpp:125
-#, kde-format
-msgid "%1 x %2"
-msgstr "%1 x %2"
 
 #: legacyrandrscreen.cpp:140
 #, kde-format
@@ -140,7 +135,9 @@ msgid "Resize and Rotate"
 msgstr "Vergroot en Roteer"
 
 #: main.cpp:35
-msgid "Resize and Rotate System Tray App"
+#, fuzzy
+#| msgid "Resize and Rotate System Tray App"
+msgid "X Resize and Rotate System Tray App"
 msgstr "Vergroot en Roteer Stelsel Laatjie Applikasie"
 
 #: main.cpp:36
@@ -171,91 +168,141 @@ msgstr ""
 msgid "Many fixes"
 msgstr "Baie regstellings"
 
-#: main.cpp:45
+#: main.cpp:40
+msgid "Harry Bock"
+msgstr ""
+
+#: main.cpp:40
+msgid "Many fixes, multi-head support"
+msgstr ""
+
+#: main.cpp:46
 msgid "Application is being auto-started at KDE session start"
 msgstr "Applikasie sal automaties begin wanneer KDE sessie begin"
 
-#: randr.cpp:34 randr.cpp:51
-msgid "Normal"
-msgstr "Normaal"
+#: outputconfig.cpp:124
+msgid "Left of"
+msgstr ""
 
-#: randr.cpp:36
+#: outputconfig.cpp:125
+msgid "Right of"
+msgstr ""
+
+#: outputconfig.cpp:126
+msgctxt "Output is placed above another one"
+msgid "Above"
+msgstr ""
+
+#: outputconfig.cpp:127
+msgctxt "Output is placed below another one"
+msgid "Below"
+msgstr ""
+
+#: outputconfig.cpp:128
+msgid "Clone of"
+msgstr ""
+
+#: outputconfig.cpp:131
+msgid "No relative position"
+msgstr ""
+
+#: outputconfig.cpp:217
+msgid "Disabled"
+msgstr ""
+
+#: outputconfig.cpp:243
+msgctxt "Automatic configuration"
+msgid "Auto"
+msgstr ""
+
+#: randr.cpp:31
+#, fuzzy
+msgid "No Rotation"
+msgstr "Onbekende orientasie"
+
+#: randr.cpp:33
 msgid "Left (90 degrees)"
 msgstr "Links (90 grade)"
 
-#: randr.cpp:38
+#: randr.cpp:35
 msgid "Upside-down (180 degrees)"
 msgstr "Bo-Na onder (180 grade)"
 
-#: randr.cpp:40
+#: randr.cpp:37
 msgid "Right (270 degrees)"
 msgstr "Regs (270 grade)"
 
-#: randr.cpp:42
+#: randr.cpp:39
 msgid "Mirror horizontally"
 msgstr "Spieëlbeeld horisontaal"
 
-#: randr.cpp:44
+#: randr.cpp:41
 msgid "Mirror vertically"
 msgstr "Spieëlbeeld vertikaal"
 
-#: randr.cpp:46 randr.cpp:77
+#: randr.cpp:43 randr.cpp:74
 msgid "Unknown orientation"
 msgstr "Onbekende orientasie"
 
-#: randr.cpp:53
+#: randr.cpp:48
+msgid "Not rotated"
+msgstr ""
+
+#: randr.cpp:50
 msgid "Rotated 90 degrees counterclockwise"
 msgstr "90 Grade anti-kloksgewys geroteer"
 
-#: randr.cpp:55
+#: randr.cpp:52
 msgid "Rotated 180 degrees counterclockwise"
 msgstr "180 Grade anti-kloksgewys geroteer"
 
-#: randr.cpp:57
+#: randr.cpp:54
 msgid "Rotated 270 degrees counterclockwise"
 msgstr "270 Grade anti-kloksgewys geroteer"
 
-#: randr.cpp:62
+#: randr.cpp:59
 msgid "Mirrored horizontally and vertically"
 msgstr "Spieëlbeeld horisontaal en vertikaal"
 
-#: randr.cpp:64
+#: randr.cpp:61
 msgid "mirrored horizontally and vertically"
 msgstr "spieëlbeeld horisontaal en vertikaal"
 
-#: randr.cpp:67
+#: randr.cpp:64
 msgid "Mirrored horizontally"
 msgstr "Spieëlbeeld horisontaal"
 
-#: randr.cpp:69
+#: randr.cpp:66
 msgid "mirrored horizontally"
 msgstr "spieëlbeeld horisontaal"
 
-#: randr.cpp:72
+#: randr.cpp:69
 msgid "Mirrored vertically"
 msgstr "Spieëlbeeld vertikaal"
 
-#: randr.cpp:74
+#: randr.cpp:71
 msgid "mirrored vertically"
 msgstr "spieëlbeeld vertikaal"
 
-#: randr.cpp:79
+#: randr.cpp:76
 msgid "unknown orientation"
 msgstr "onbekende orientasie"
 
-#: randr.cpp:132
+#: randr.cpp:125
 msgid "Confirm Display Setting Change"
 msgstr "Bevestig Beeld Stelling Verandering"
 
-#: randr.cpp:136
+#: randr.cpp:129
 msgid "&Accept Configuration"
 msgstr "Aanvaar Konfigurasie"
 
-#: randr.cpp:137
-msgid "&Return to Previous Configuration"
+#: randr.cpp:130
+#, fuzzy
+#| msgid "&Return to Previous Configuration"
+msgid "&Revert to Previous Configuration"
 msgstr "Keer terug na Vorige Konfigurasie"
 
-#: randr.cpp:139
+#: randr.cpp:132
 #, fuzzy
 #| msgid ""
 #| "Your screen orientation, size and refresh rate have been changed to the "
@@ -301,7 +348,7 @@ msgstr ""
 #: rc.cpp:9
 #, fuzzy
 #| msgid "Settings for screen:"
-msgid "Settings for Screen:"
+msgid "Settings for screen:"
 msgstr "Stellings vir skerm"
 
 #. i18n: tag string
@@ -317,10 +364,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file legacyrandrconfigbase.ui line 45
 #: rc.cpp:15
-#, fuzzy
-#| msgid "Screen Size"
-msgid "Screen Size:"
-msgstr "Skerm Grootte"
+msgid "Screen size:"
+msgstr "Skerm grootte:"
 
 #. i18n: tag string
 #. i18n: file legacyrandrconfigbase.ui line 55
@@ -335,10 +380,8 @@ msgstr ""
 #. i18n: tag string
 #. i18n: file legacyrandrconfigbase.ui line 66
 #: rc.cpp:21
-#, fuzzy
-#| msgid "Refresh Rate"
-msgid "Refresh Rate:"
-msgstr "Vervris Tempo"
+msgid "Refresh rate:"
+msgstr "Vervris tempo:"
 
 #. i18n: tag string
 #. i18n: file legacyrandrconfigbase.ui line 73
@@ -393,39 +436,37 @@ msgid "Output Config"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file outputconfigbase.ui line 25
+#. i18n: file outputconfigbase.ui line 27
 #: rc.cpp:45
-msgid "Active"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file outputconfigbase.ui line 34
-#: rc.cpp:48
 msgid "Size:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file outputconfigbase.ui line 47
-#: rc.cpp:51
+#. i18n: file outputconfigbase.ui line 40
+#: rc.cpp:48
 #, fuzzy
 #| msgid "Refresh Rate"
 msgid "Refresh:"
 msgstr "Vervris Tempo"
 
 #. i18n: tag string
-#. i18n: file outputconfigbase.ui line 80
-#: rc.cpp:54
+#. i18n: file outputconfigbase.ui line 73
+#: rc.cpp:51
 #, fuzzy
 msgid "Orientation:"
 msgstr "Onbekende orientasie"
 
 #. i18n: tag string
+#. i18n: file outputconfigbase.ui line 100
+#: rc.cpp:54
+msgid "Position:"
+msgstr ""
+
+#. i18n: tag string
 #. i18n: file randrconfigbase.ui line 13
 #: rc.cpp:57
-#, fuzzy
-#| msgid "Screen resize & rotate"
-msgid "Screen Resize and Rotate Configuration"
-msgstr "Skerm verander & roteer"
+msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
+msgstr ""
 
 #: rc.cpp:58
 msgctxt "NAME OF TRANSLATORS"
@@ -437,17 +478,28 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kabousv@therugby.co.za"
 
+#~ msgid "%1 x %2"
+#~ msgstr "%1 x %2"
+
+#~ msgid "Normal"
+#~ msgstr "Normaal"
+
 #, fuzzy
-#~ msgid "Rotation"
-#~ msgstr "Onbekende orientasie"
+#~| msgid "Screen Size"
+#~ msgid "Screen Size:"
+#~ msgstr "Skerm Grootte"
+
+#, fuzzy
+#~| msgid "Refresh Rate"
+#~ msgid "Refresh Rate:"
+#~ msgstr "Vervris Tempo"
+
+#, fuzzy
+#~| msgid "Screen resize & rotate"
+#~ msgid "Screen Resize and Rotate Configuration"
+#~ msgstr "Skerm verander & roteer"
 
 #, fuzzy
 #~| msgid "Screen Size"
 #~ msgid "Screen SIze:"
 #~ msgstr "Skerm Grootte"
-
-#~ msgid "Screen size:"
-#~ msgstr "Skerm grootte:"
-
-#~ msgid "Refresh rate:"
-#~ msgstr "Vervris tempo:"
