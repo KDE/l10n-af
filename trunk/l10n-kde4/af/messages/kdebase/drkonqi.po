@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-15 09:40+0100\n"
+"POT-Creation-Date: 2008-01-21 07:42+0100\n"
 "PO-Revision-Date: 2005-11-24 15:12+0200\n"
 "Last-Translator: Kobus Venter <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -17,59 +17,62 @@ msgstr ""
 "X-Generator: KBabel 1.10\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: backtrace.cpp:80
+#: backtrace.cpp:76
 #, kde-format
 msgid "Could not generate a backtrace as the debugger '%1' was not found."
 msgstr ""
 "Kon nie 'n terugsoektog genereer nie omrede die ontfouter '%1' nie gevind "
 "kon word nie."
 
-#: debugger.cpp:75
+#: debugger.cpp:71
 msgid "C&opy"
 msgstr "Kopie"
 
-#: debugger.cpp:96
+#: debugger.cpp:92
+#, fuzzy
+#| msgid "Done."
+msgctxt "debugging finished"
 msgid "Done."
 msgstr "Klaar."
 
-#: debugger.cpp:121
+#: debugger.cpp:117
 #, kde-format
 msgid "Backtrace saved to %1"
 msgstr "Terugsoektog gestoor na %1"
 
-#: debugger.cpp:125
+#: debugger.cpp:121
 #, fuzzy
 msgid "Cannot create a file to save the backtrace in"
 msgstr "Kan nie lêer maak waarin die terugsoektog gestoor word nie "
 
-#: debugger.cpp:130
+#: debugger.cpp:126
 msgid "Select Filename"
 msgstr "Kies Lêernaam"
 
-#: debugger.cpp:138
+#: debugger.cpp:134
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr "'n Lêer genoem \"%1\" bestaan alreeds. Is u seker u wil daaroor skryf?"
 
-#: debugger.cpp:140
+#: debugger.cpp:136
 msgid "Overwrite File?"
 msgstr "Oorskryf Lêer?"
 
-#: debugger.cpp:141
+#: debugger.cpp:137
 msgid "&Overwrite"
 msgstr "Oorskryf"
 
-#: debugger.cpp:153
+#: debugger.cpp:149
 #, kde-format
 msgid "Cannot open file %1 for writing"
 msgstr "Kan lerê %1 nie oopmaak vir skryf"
 
-#: debugger.cpp:161
+#: debugger.cpp:157
 msgid "Unable to create a valid backtrace."
 msgstr "Nie moontlik om te skep 'n geldige terugsoektog."
 
-#: debugger.cpp:162
+#: debugger.cpp:158
 msgid ""
 "This backtrace appears to be of no use.\n"
 "This is probably because your packages are built in a way which prevents "
@@ -83,11 +86,11 @@ msgstr ""
 "ernstig beskadig is in die omval.\n"
 "\n"
 
-#: debugger.cpp:171
+#: debugger.cpp:167
 msgid "Loading backtrace..."
 msgstr "Laaïng van terugsoektog..."
 
-#: debugger.cpp:194
+#: debugger.cpp:190
 msgid ""
 "The following options are enabled:\n"
 "\n"
@@ -95,7 +98,7 @@ msgstr ""
 "Die volgende opsies is geaktiveer:\n"
 "\n"
 
-#: debugger.cpp:196
+#: debugger.cpp:192
 msgid ""
 "\n"
 "As the usage of these options is not recommended - because they can, in rare "
@@ -110,15 +113,15 @@ msgstr ""
 "U moet hierdie opsies afskakel en die probleem weer herproduseer met die "
 "doel om 'n terugsoektog te kry.\n"
 
-#: debugger.cpp:201
+#: debugger.cpp:197
 msgid "Backtrace will not be created."
 msgstr "terugsoektog sal nie gemaak word nie"
 
-#: debugger.cpp:209
+#: debugger.cpp:205
 msgid "Loading symbols..."
 msgstr "Laaïng van simbole..."
 
-#: debugger.cpp:230
+#: debugger.cpp:226
 msgid "System configuration startup check disabled.\n"
 msgstr "Stelsel konfigurasie selflaai kontrole deaktiveer.\n"
 
@@ -127,6 +130,9 @@ msgid "You have to edit the description before the report can be sent."
 msgstr "Jy het na redigeer die beskrywing voor die raporteer kan wees gestuur."
 
 #: krashconf.cpp:78
+#, fuzzy
+#| msgid "unknown"
+msgctxt "unknown application"
 msgid "unknown"
 msgstr "onbekende"
 
@@ -197,48 +203,37 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za, juanita.franz@vr-web.de, kabousv@therugby.co.za"
 
-#: toplevel.cpp:64
+#: toplevel.cpp:54
 #, fuzzy
 #| msgid "&Bug report"
 msgid "&Bug Report"
 msgstr "Fout raporteer"
 
-#: toplevel.cpp:65
+#: toplevel.cpp:55
 msgid "&Debugger"
 msgstr "Ontfouter"
 
-#: toplevel.cpp:71
-#, fuzzy
-msgid "General"
-msgstr "Algemeen"
+#: toplevel.cpp:88
+msgid "Please attach the following backtrace to your bugreport."
+msgstr ""
 
-#: toplevel.cpp:95
-#, fuzzy
-msgid "Backtrace"
-msgstr "Terugsoektog"
+#: toplevel.cpp:130
+msgid "A fatal error occurred"
+msgstr ""
 
-#: toplevel.cpp:119
-#, kde-format
-msgid "<p><b>Short description</b></p><p>%1</p>"
-msgstr "<p><b>Kort beskrywing</b></p><p>%1</p>"
+#: toplevel.cpp:134
+msgid "What can I do?"
+msgstr ""
 
-#: toplevel.cpp:123
-#, kde-format
-msgid "<p><b>What is this?</b></p><p>%1</p>"
-msgstr "<p><b>Wat is hierdie?</b></p><p>%1</p>"
-
-#: toplevel.cpp:127
-#, kde-format
-msgid "<p><b>What can I do?</b></p><p>%1</p>"
-msgstr "<p><b>Wat kan I doen?</b></p><p>%1</p>"
-
-#: toplevel.cpp:132
-#, c-format
-msgid "<p><b>Application crashed</b></p><p>The program %appname crashed.</p>"
+#: toplevel.cpp:139
+#, fuzzy, c-format
+#| msgid ""
+#| "<p><b>Application crashed</b></p><p>The program %appname crashed.</p>"
+msgid "<p>Application crashed</p><p>The program %appname crashed.</p>"
 msgstr ""
 "<p><b>Aansoek het gestaak</b></p><p>Die program %appname het gestaak.</p>"
 
-#: toplevel.cpp:151
+#: toplevel.cpp:158
 msgid ""
 "<p>Do you want to generate a backtrace? This will help the developers to "
 "figure out what went wrong.</p>\n"
@@ -254,22 +249,39 @@ msgstr ""
 "beskrywing van die fout en informasie op hoe na herproduseer dit. dit is nie "
 "moontlik na regmaak die fout sonder om te 'n gepaste beskrywing.</b></p>"
 
-#: toplevel.cpp:163
+#: toplevel.cpp:170
 msgid "Include Backtrace"
 msgstr "Sluit in Terugsoektog"
 
-#: toplevel.cpp:163
+#: toplevel.cpp:170
 msgid "Generate"
 msgstr "Genereer"
 
-#: toplevel.cpp:163
+#: toplevel.cpp:170
 msgid "Do Not Generate"
 msgstr "Moet Nie Genereer"
 
-#: toplevel.cpp:230
+#: toplevel.cpp:237
 msgid "It was not possible to generate a backtrace."
 msgstr "Dit was nie moontlik om 'n terugsoektog te genereer."
 
-#: toplevel.cpp:231
+#: toplevel.cpp:238
 msgid "Backtrace Not Possible"
 msgstr "Terugsoektog nie Moontlik"
+
+#, fuzzy
+#~ msgid "General"
+#~ msgstr "Algemeen"
+
+#, fuzzy
+#~ msgid "Backtrace"
+#~ msgstr "Terugsoektog"
+
+#~ msgid "<p><b>Short description</b></p><p>%1</p>"
+#~ msgstr "<p><b>Kort beskrywing</b></p><p>%1</p>"
+
+#~ msgid "<p><b>What is this?</b></p><p>%1</p>"
+#~ msgstr "<p><b>Wat is hierdie?</b></p><p>%1</p>"
+
+#~ msgid "<p><b>What can I do?</b></p><p>%1</p>"
+#~ msgstr "<p><b>Wat kan I doen?</b></p><p>%1</p>"
