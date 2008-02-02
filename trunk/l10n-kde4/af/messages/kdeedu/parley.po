@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-01 14:11+0100\n"
+"POT-Creation-Date: 2008-02-02 08:58+0100\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -224,52 +224,42 @@ msgstr "Vertoon Statistieke"
 msgid "Show and reset statistics for the current vocabulary"
 msgstr "Vlans saam 'n bestaande dokument na die huidige woordeskat"
 
-#: src/parley.cpp:670
+#: src/parley.cpp:669
 #, fuzzy
 msgid "Show the configuration dialog"
 msgstr "Vertoon algemeen opsies dialoog"
 
-#: src/parley.cpp:676
+#: src/parley.cpp:675
 msgid "Toggle display of the toolbars"
 msgstr ""
 
-#: src/parley.cpp:681
+#: src/parley.cpp:680
 #, fuzzy
 msgid "Show Se&arch"
 msgstr "Luukse Soektog"
 
-#: src/parley.cpp:683
+#: src/parley.cpp:682
 msgid "Toggle display of the search bar"
 msgstr ""
 
-#: src/parley.cpp:690
-#, fuzzy
-msgid "Show Lesson Column"
-msgstr "persoon"
-
-#: src/parley.cpp:696
-#, fuzzy
-msgid "Show Active Entry Column"
-msgstr "persoon"
-
-#: src/parley.cpp:701
+#: src/parley.cpp:688
 #, fuzzy
 msgid "Vocabulary Columns"
 msgstr "Open Voorbeeld Woordeskat Lêer"
 
-#: src/parley.cpp:702
+#: src/parley.cpp:689
 msgid "Toggle display of individual vocabulary columns"
 msgstr ""
 
-#: src/parley.cpp:712
+#: src/parley.cpp:700
 msgid "Restore Native Order"
 msgstr ""
 
-#: src/parley.cpp:762
+#: src/parley.cpp:750
 msgid "Enter search terms here"
 msgstr ""
 
-#: src/parley.cpp:764
+#: src/parley.cpp:752
 msgid ""
 "Enter space-separated search terms to find words.\n"
 "\n"
@@ -278,7 +268,7 @@ msgid ""
 "Enter type:verb to search for verbs."
 msgstr ""
 
-#: src/parley.cpp:766
+#: src/parley.cpp:754
 #, fuzzy
 msgid "S&earch:"
 msgstr "Opmerking:"
@@ -1327,45 +1317,63 @@ msgstr ""
 msgid "No languages defined"
 msgstr "Voeg by Nuwe Taal Kode"
 
-#: src/vocabulary/vocabularyview.cpp:54
+#: src/vocabulary/vocabularyview.cpp:73
 #, fuzzy
 #| msgid "&Append New Entry"
 msgid "&Add New Entry"
 msgstr "Voeg-agteraan-by Nuwe Inskrywing"
 
-#: src/vocabulary/vocabularyview.cpp:57
+#: src/vocabulary/vocabularyview.cpp:76
 #, fuzzy
 msgid "Append a new row to the vocabulary"
 msgstr "Verwyder gekose inskrywings van die woordeskat"
 
-#: src/vocabulary/vocabularyview.cpp:65
+#: src/vocabulary/vocabularyview.cpp:84
 #, fuzzy
 msgid "&Delete Entry"
 msgstr "Voeg-agteraan-by Nuwe Inskrywing"
 
-#: src/vocabulary/vocabularyview.cpp:68
+#: src/vocabulary/vocabularyview.cpp:87
 #, fuzzy
 msgid "Delete the selected rows"
 msgstr "Doen jy rerig wil hê na uitvee die gekose omvang?\n"
 
-#: src/vocabulary/vocabularyview.cpp:74 src/vocabulary/vocabularyview.cpp:79
+#: src/vocabulary/vocabularyview.cpp:97
 msgid "Copy"
 msgstr ""
 
-#: src/vocabulary/vocabularyview.cpp:84
+#: src/vocabulary/vocabularyview.cpp:103
+#, fuzzy
+#| msgid "Count:"
+msgid "Cut"
+msgstr "Tel:"
+
+#: src/vocabulary/vocabularyview.cpp:109
 #, fuzzy
 msgid "Paste"
 msgstr "Frase"
 
-#: src/vocabulary/vocabularyview.cpp:89
+#: src/vocabulary/vocabularyview.cpp:115
 #, fuzzy
 msgid "Select all rows"
 msgstr "Kies alle inskrywings"
 
-#: src/vocabulary/vocabularyview.cpp:94
+#: src/vocabulary/vocabularyview.cpp:120
 #, fuzzy
 msgid "Deselect all rows"
 msgstr "Ontkies alle inskrywings"
+
+#: src/vocabulary/vocabularyview.cpp:411
+#, fuzzy, kde-format
+msgid "Do you really want to delete the selected entry?"
+msgid_plural "Do you really want to delete the selected %1 entries?"
+msgstr[0] "Doen jy rerig wil hê na uitvee die gekose inskrywing?\n"
+msgstr[1] "Doen jy rerig wil hê na uitvee die gekose inskrywing?\n"
+
+#: src/vocabulary/vocabularyview.cpp:411 src/vocabulary/wordtypeview.cpp:54
+#, fuzzy
+msgid "Delete"
+msgstr "Herstel"
 
 #: src/vocabulary/lessonview.cpp:36
 #, fuzzy
@@ -1453,11 +1461,6 @@ msgstr "Lêernaam:"
 #, fuzzy
 msgid "Rename the selected WordType"
 msgstr "Doen jy rerig wil hê na uitvee die gekose omvang?\n"
-
-#: src/vocabulary/wordtypeview.cpp:54
-#, fuzzy
-msgid "Delete"
-msgstr "Herstel"
 
 #: src/vocabulary/wordtypeview.cpp:56
 #, fuzzy
@@ -4394,6 +4397,14 @@ msgid ""
 msgstr ""
 
 #, fuzzy
+#~ msgid "Show Lesson Column"
+#~ msgstr "persoon"
+
+#, fuzzy
+#~ msgid "Show Active Entry Column"
+#~ msgstr "persoon"
+
+#, fuzzy
 #~ msgid "Vocabularies..."
 #~ msgstr "Saamvlans Woordeskat Lêer"
 
@@ -4414,10 +4425,6 @@ msgstr ""
 #~ msgctxt "Describing the sound of the character"
 #~ msgid "Sound: "
 #~ msgstr "Klank: "
-
-#, fuzzy
-#~ msgid "Do you really want to delete the selected entry?"
-#~ msgstr "Doen jy rerig wil hê na uitvee die gekose inskrywing?\n"
 
 #, fuzzy
 #~ msgid "Do you really want to delete the selected entries?"
