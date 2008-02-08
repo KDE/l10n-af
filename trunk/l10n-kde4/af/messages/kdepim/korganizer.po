@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-05 10:20+0100\n"
+"POT-Creation-Date: 2008-02-08 10:59+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -21,7 +21,7 @@ msgid "&Show"
 msgstr "Vertoon"
 
 #: koeventpopupmenu.cpp:54 kotodoview.cpp:501 actionmanager.cpp:517
-#: actionmanager.cpp:1590 actionmanager.cpp:1621 resourceview.cpp:545
+#: actionmanager.cpp:1590 actionmanager.cpp:1621 resourceview.cpp:544
 msgid "&Edit..."
 msgstr "Redigeer..."
 
@@ -2148,15 +2148,15 @@ msgstr ""
 msgid "Sets how long before the event occurs the reminder will be triggered."
 msgstr ""
 
-#: koeditorgeneral.cpp:294 korgac/alarmdialog.cpp:131
+#: koeditorgeneral.cpp:294
 msgid "minute(s)"
 msgstr "minuut(s)"
 
-#: koeditorgeneral.cpp:295 korgac/alarmdialog.cpp:132
+#: koeditorgeneral.cpp:295
 msgid "hour(s)"
 msgstr "uur(s)"
 
-#: koeditorgeneral.cpp:296 korgac/alarmdialog.cpp:133
+#: koeditorgeneral.cpp:296
 msgid "day(s)"
 msgstr "dag(s)"
 
@@ -2494,14 +2494,14 @@ msgstr "Voeg by Filter..."
 msgid "&Cancel"
 msgstr ""
 
-#: kolistview.cpp:211 kotodoview.cpp:129 korgac/alarmdialog.cpp:105
+#: kolistview.cpp:211 kotodoview.cpp:129
 #: printing/calprintdefaultplugins.cpp:1055
 #: printing/calprintdefaultplugins.cpp:1141
 #: plugins/timespanview/timespanwidget.cpp:53
 msgid "Summary"
 msgstr "Opsomming"
 
-#: kolistview.cpp:212 korgac/alarmdialog.cpp:89
+#: kolistview.cpp:212
 #, fuzzy
 msgid "Reminder"
 msgstr "Herhindering:"
@@ -3205,126 +3205,193 @@ msgstr ""
 msgid "This file is not a KOrganizer theme file."
 msgstr ""
 
-#: korgac/korgacmain.cpp:59 korgac/korgacmain.cpp:60
-#: korgac/alarmdockwindow.cpp:58
+#: korgac/korgacmain.cpp:60 korgac/korgacmain.cpp:61
 #, fuzzy
 msgid "KOrganizer Reminder Daemon"
 msgstr "Korganizer Bevestiging"
 
-#: korgac/korgacmain.cpp:62
+#: korgac/korgacmain.cpp:63
 msgid "(c) 2003 Cornelius Schumacher"
 msgstr ""
 
-#: korgac/korgacmain.cpp:64 aboutdata.cpp:43
+#: korgac/korgacmain.cpp:65 aboutdata.cpp:43
 msgid "Cornelius Schumacher"
 msgstr ""
 
-#: korgac/korgacmain.cpp:64 korgac/korgacmain.cpp:66
+#: korgac/korgacmain.cpp:65 korgac/korgacmain.cpp:67 aboutdata.cpp:41
+#: aboutdata.cpp:43
 #, fuzzy
-msgid "Maintainer"
+#| msgid "Current Maintainer"
+msgid "Former Maintainer"
 msgstr "Huidige Onderhouer"
 
-#: korgac/korgacmain.cpp:66 aboutdata.cpp:41
+#: korgac/korgacmain.cpp:67 aboutdata.cpp:41
 msgid "Reinhold Kainhofer"
 msgstr ""
 
-#: korgac/tests/testalarmdlg.cpp:37
+#: korgac/korgacmain.cpp:69 aboutdata.cpp:45
+msgid "Allen Winter"
+msgstr ""
+
+#: korgac/korgacmain.cpp:69 aboutdata.cpp:45
+msgid "Janitorial Staff"
+msgstr ""
+
+#: korgac/tests/testalarmdlg.cpp:40
 msgid "TestKabc"
 msgstr ""
+
+#: korgac/alarmdockwindow.cpp:58
+#, fuzzy
+msgctxt "@title:window"
+msgid "KOrganizer Reminder Daemon"
+msgstr "Korganizer Bevestiging"
 
 #: korgac/alarmdockwindow.cpp:66
 msgctxt "@info"
 msgid "Cannot load system tray icon."
 msgstr ""
 
-#: korgac/alarmdockwindow.cpp:78
+#: korgac/alarmdockwindow.cpp:79
 #, fuzzy
+msgctxt "@action:inmenu"
 msgid "Suspend All"
 msgstr "Sun"
 
-#: korgac/alarmdockwindow.cpp:80
+#: korgac/alarmdockwindow.cpp:82
+msgctxt "@action:inmenu"
 msgid "Dismiss All"
 msgstr ""
 
-#: korgac/alarmdockwindow.cpp:86
+#: korgac/alarmdockwindow.cpp:89
 #, fuzzy
+msgctxt "@action:inmenu"
 msgid "Reminders Enabled"
 msgstr "Herhindering:"
 
-#: korgac/alarmdockwindow.cpp:88
+#: korgac/alarmdockwindow.cpp:92
 #, fuzzy
+msgctxt "@action:inmenu"
 msgid "Start Reminder Daemon at Login"
 msgstr "Korganizer Kalender"
 
-#: korgac/alarmdockwindow.cpp:120
+#: korgac/alarmdockwindow.cpp:125
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "There is 1 active reminder."
 msgid_plural "There are %1 active reminders."
 msgstr[0] ""
 msgstr[1] ""
 
-#: korgac/alarmdockwindow.cpp:177
+#: korgac/alarmdockwindow.cpp:182
+msgctxt "@info"
 msgid ""
 "Do you want to start the KOrganizer reminder daemon at login (note that you "
 "will not get reminders whilst the daemon is not running)?"
 msgstr ""
 
-#: korgac/alarmdockwindow.cpp:179
+#: korgac/alarmdockwindow.cpp:184
 #, fuzzy
+msgctxt "@title:window"
 msgid "Close KOrganizer Reminder Daemon"
 msgstr "Korganizer Bevestiging"
 
-#: korgac/alarmdockwindow.cpp:180
+#: korgac/alarmdockwindow.cpp:185
 #, fuzzy
 msgctxt "@action:button start the reminder daemon"
 msgid "Start"
 msgstr "Begin:"
 
-#: korgac/alarmdockwindow.cpp:180
+#: korgac/alarmdockwindow.cpp:186
 #, fuzzy
 msgctxt "@action:button do not start the reminder daemon"
 msgid "Do Not Start"
 msgstr "Maand besigtig:"
 
-#: korgac/alarmdialog.cpp:92
+#: korgac/alarmdialog.cpp:91
+#, fuzzy
+msgctxt "@title:window"
+msgid "Reminder"
+msgstr "Herhindering:"
+
+#: korgac/alarmdialog.cpp:94
+msgctxt "@action:button"
 msgid "Dismiss"
 msgstr ""
 
-#: korgac/alarmdialog.cpp:93
+#: korgac/alarmdialog.cpp:95
+msgctxt "@action:button"
 msgid "Dismiss all"
 msgstr ""
 
-#: korgac/alarmdialog.cpp:94
+#: korgac/alarmdialog.cpp:96
+#, fuzzy
+#| msgid "Edit..."
+msgctxt "@action:button"
 msgid "Edit..."
 msgstr "Redigeer..."
 
-#: korgac/alarmdialog.cpp:95
+#: korgac/alarmdialog.cpp:97
 #, fuzzy
+msgctxt "@action:button"
 msgid "Suspend"
 msgstr "Sun"
 
-#: korgac/alarmdialog.cpp:99
+#: korgac/alarmdialog.cpp:102
+msgctxt "@label"
 msgid "The following events triggered reminders:"
 msgstr ""
 
-#: korgac/alarmdialog.cpp:105
+#: korgac/alarmdialog.cpp:108
+#, fuzzy
+#| msgid "Summary"
+msgctxt "@title:column reminder summary"
+msgid "Summary"
+msgstr "Opsomming"
+
+#: korgac/alarmdialog.cpp:109
 #, fuzzy
 #| msgid "Due"
+msgctxt "@title:column reminder due date/time"
 msgid "Due"
 msgstr "As gevolg"
 
-#: korgac/alarmdialog.cpp:124
+#: korgac/alarmdialog.cpp:128
 #, fuzzy
+msgctxt "@label:spinbox"
 msgid "Suspend &duration:"
 msgstr "Stoor interval in minute:"
 
-#: korgac/alarmdialog.cpp:134
+#: korgac/alarmdialog.cpp:135
 #, fuzzy
+#| msgid "minute(s)"
+msgctxt "@item:inlistbox suspend in terms of minutes"
+msgid "minute(s)"
+msgstr "minuut(s)"
+
+#: korgac/alarmdialog.cpp:136
+#, fuzzy
+#| msgid "hour(s)"
+msgctxt "@item:inlistbox suspend in terms of hours"
+msgid "hour(s)"
+msgstr "uur(s)"
+
+#: korgac/alarmdialog.cpp:137
+#, fuzzy
+#| msgid "day(s)"
+msgctxt "@item:inlistbox suspend in terms of days"
+msgid "day(s)"
+msgstr "dag(s)"
+
+#: korgac/alarmdialog.cpp:138
+#, fuzzy
+msgctxt "@item:inlistbox suspend in terms of weeks"
 msgid "week(s)"
 msgstr "week(s) op:"
 
-#: korgac/alarmdialog.cpp:252
+#: korgac/alarmdialog.cpp:259
 #, fuzzy
+msgctxt "@info"
 msgid "Could not start KOrganizer."
 msgstr "Kon nie las kalender '%1'.\n"
 
@@ -6477,7 +6544,7 @@ msgstr "Kies Adresse"
 #. i18n: file publishdialog_base.ui line 77
 #. i18n: tag string
 #. i18n: file ./publishdialog_base.ui line 77
-#: rc.cpp:957 rc.cpp:2209 resourceview.cpp:546
+#: rc.cpp:957 rc.cpp:2209 resourceview.cpp:545
 #, fuzzy
 msgid "&Remove"
 msgstr "Werkvoorbeeld..."
@@ -7629,20 +7696,6 @@ msgid ""
 "(c) 2004-2005 Reinhold Kainhofer"
 msgstr ""
 
-#: aboutdata.cpp:41 aboutdata.cpp:43
-#, fuzzy
-#| msgid "Current Maintainer"
-msgid "Former Maintainer"
-msgstr "Huidige Onderhouer"
-
-#: aboutdata.cpp:45
-msgid "Allen Winter"
-msgstr ""
-
-#: aboutdata.cpp:45
-msgid "Janitorial Staff"
-msgstr ""
-
 #: aboutdata.cpp:47
 msgid "Preston Brown"
 msgstr ""
@@ -7783,7 +7836,7 @@ msgstr ""
 msgid "Fester Zigterman"
 msgstr ""
 
-#: resourceview.cpp:232
+#: resourceview.cpp:233
 msgid ""
 "<qt><p>Select on this list the active KOrganizer resources. Check the "
 "resource box to make it active. Use the context menu to add, remove or edit "
@@ -7795,89 +7848,89 @@ msgid ""
 "resource to use.</p></qt>"
 msgstr ""
 
-#: resourceview.cpp:245
+#: resourceview.cpp:246
 #, fuzzy
 msgid "Calendars"
 msgstr "Ikalender"
 
-#: resourceview.cpp:289
+#: resourceview.cpp:291
 msgid "Add Subresource"
 msgstr ""
 
-#: resourceview.cpp:290
+#: resourceview.cpp:292
 msgid "Please enter a name for the new subresource"
 msgstr ""
 
-#: resourceview.cpp:296
+#: resourceview.cpp:301
 #, fuzzy, kde-format
 msgid "<qt>Unable to create subresource <b>%1</b>.</qt>"
 msgstr "Nie moontlik na skep lêer na oplaai"
 
-#: resourceview.cpp:304
+#: resourceview.cpp:309
 #, fuzzy
 msgid "Resource Configuration"
 msgstr "Korganizer Bevestiging"
 
-#: resourceview.cpp:305
+#: resourceview.cpp:310
 msgid "Please select type of the new resource:"
 msgstr ""
 
-#: resourceview.cpp:317
+#: resourceview.cpp:322
 #, fuzzy, kde-format
 msgid "<qt>Unable to create resource of type <b>%1</b>.</qt>"
 msgstr "Nie moontlik na skep lêer na oplaai"
 
-#: resourceview.cpp:321
+#: resourceview.cpp:326
 #, kde-format
 msgid "%1 resource"
 msgstr ""
 
-#: resourceview.cpp:439
+#: resourceview.cpp:440
 #, fuzzy, kde-format
 msgid "<qt>Do you really want to delete the resource <b>%1</b>?</qt>"
 msgstr "Nie moontlik na skep lêer na oplaai"
 
-#: resourceview.cpp:450
+#: resourceview.cpp:449
 msgid "You cannot delete your standard resource."
 msgstr ""
 
-#: resourceview.cpp:513 resourceview.cpp:553
+#: resourceview.cpp:512 resourceview.cpp:552
 #, fuzzy
 msgid "&Add..."
 msgstr "Voeg by Filter..."
 
-#: resourceview.cpp:526
+#: resourceview.cpp:525
 #, fuzzy
 msgctxt "reload the resource"
 msgid "Re&load"
 msgstr "Oplaai"
 
-#: resourceview.cpp:530
+#: resourceview.cpp:529
 #, fuzzy
 #| msgid "Travel"
 msgctxt "save the resource"
 msgid "&Save"
 msgstr "Reis"
 
-#: resourceview.cpp:535
+#: resourceview.cpp:534
 #, fuzzy
 msgid "Show &Info"
 msgstr "Oplaai Inligting..."
 
-#: resourceview.cpp:538
+#: resourceview.cpp:537
 #, fuzzy
 msgid "Resource Colors"
 msgstr "Herhaal"
 
-#: resourceview.cpp:539
+#: resourceview.cpp:538
 msgid "&Assign Color"
 msgstr ""
 
-#: resourceview.cpp:541
+#: resourceview.cpp:540
 msgid "&Disable Color"
 msgstr ""
 
-#: resourceview.cpp:549
+#: resourceview.cpp:548
 #, fuzzy
 msgid "Use as &Default Calendar"
 msgstr "Verstek Kalender Formaat"
@@ -9670,6 +9723,10 @@ msgstr "Herhaling"
 #: koagenda.cpp:1145
 msgid "Unable to add the future items to the calendar. No change will be done."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Maintainer"
+#~ msgstr "Huidige Onderhouer"
 
 #, fuzzy
 #~ msgid "Agenda view uses resource colors"
