@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kalarm VERSION\n"
-"POT-Creation-Date: 2008-01-27 01:21+0100\n"
+"POT-Creation-Date: 2008-02-08 01:30+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -421,7 +421,7 @@ msgstr "Invoer die nommer van dae tussen repitisies van die alarm"
 msgid "Special Actions..."
 msgstr ""
 
-#: birthdaydlg.cpp:176 recurrenceedit.cpp:339
+#: birthdaydlg.cpp:176 recurrenceedit.cpp:172
 #, fuzzy
 msgid "Sub-Repetition"
 msgstr "Herhaling"
@@ -702,7 +702,7 @@ msgstr "Invoer die laaste tyd na herhaal die alarm"
 msgid "Set the '%1' option for alarms based on this template."
 msgstr ""
 
-#: editdlg.cpp:331 recurrenceedit.cpp:262
+#: editdlg.cpp:331 recurrenceedit.cpp:272
 #, fuzzy
 msgid "Any time"
 msgstr "Enige tyd"
@@ -2666,39 +2666,45 @@ msgstr "Herhaal die alarm onbepaald"
 msgid "Repeat the alarm at annual intervals"
 msgstr "Herhaal die alarm onbepaald"
 
-#: recurrenceedit.cpp:209
+#: recurrenceedit.cpp:177
+msgid ""
+"Set up a repetition within the recurrence, to trigger the alarm multiple times "
+"each time the recurrence is due."
+msgstr ""
+
+#: recurrenceedit.cpp:219
 msgid "Recurrence End"
 msgstr "Herhaling Einde"
 
-#: recurrenceedit.cpp:215
+#: recurrenceedit.cpp:225
 msgid "No &end"
 msgstr "Nee einde"
 
-#: recurrenceedit.cpp:218
+#: recurrenceedit.cpp:228
 msgid "Repeat the alarm indefinitely"
 msgstr "Herhaal die alarm onbepaald"
 
-#: recurrenceedit.cpp:223
+#: recurrenceedit.cpp:233
 msgid "End a&fter:"
 msgstr "Einde na:"
 
-#: recurrenceedit.cpp:226
+#: recurrenceedit.cpp:236
 msgid "Repeat the alarm for the number of times specified"
 msgstr "Herhaal die alarm vir die nommer van  times  gespesifiseer"
 
-#: recurrenceedit.cpp:234
+#: recurrenceedit.cpp:244
 msgid "Enter the total number of times to trigger the alarm"
 msgstr "Invoer die totaal nommer van  times  na sneller die alarm"
 
-#: recurrenceedit.cpp:236
+#: recurrenceedit.cpp:246
 msgid "occurrence(s)"
 msgstr "voorkoms(s)"
 
-#: recurrenceedit.cpp:246
+#: recurrenceedit.cpp:256
 msgid "End &by:"
 msgstr "Einde deur:"
 
-#: recurrenceedit.cpp:249
+#: recurrenceedit.cpp:259
 msgid ""
 "Repeat the alarm until the date/time specified.\n"
 "\n"
@@ -2706,276 +2712,269 @@ msgid ""
 "sub-repetition which will occur regardless after the last main recurrence."
 msgstr ""
 
-#: recurrenceedit.cpp:255
+#: recurrenceedit.cpp:265
 msgid "Enter the last date to repeat the alarm"
 msgstr "Invoer die laaste datum na herhaal die alarm"
 
-#: recurrenceedit.cpp:260
+#: recurrenceedit.cpp:270
 #, fuzzy
 msgid "Enter the last time to repeat the alarm."
 msgstr "Invoer die laaste tyd na herhaal die alarm"
 
-#: recurrenceedit.cpp:267
+#: recurrenceedit.cpp:277
 msgid ""
 "Stop repeating the alarm after your first login on or after the specified end "
 "date"
 msgstr ""
 
-#: recurrenceedit.cpp:283
+#: recurrenceedit.cpp:293
 #, fuzzy
 msgid "E&xceptions"
 msgstr "Aksies"
 
-#: recurrenceedit.cpp:295
+#: recurrenceedit.cpp:305
 msgid "The list of exceptions, i.e. dates/times excluded from the recurrence"
 msgstr ""
 
-#: recurrenceedit.cpp:311
+#: recurrenceedit.cpp:321
 msgid ""
 "Enter a date to insert in the exceptions list. Use in conjunction with the Add "
 "or Change button below."
 msgstr ""
 
-#: recurrenceedit.cpp:320
+#: recurrenceedit.cpp:330
 msgid "Add the date entered above to the exceptions list"
 msgstr ""
 
-#: recurrenceedit.cpp:327
+#: recurrenceedit.cpp:337
 msgid ""
 "Replace the currently highlighted item in the exceptions list with the date "
 "entered above"
 msgstr ""
 
-#: recurrenceedit.cpp:334
+#: recurrenceedit.cpp:344
 #, fuzzy
 msgid "Remove the currently highlighted item from the exceptions list"
 msgstr "Verwyder die verlig aanhegsel van die e-pos."
 
-#: recurrenceedit.cpp:344
-msgid ""
-"Set up a repetition within the recurrence, to trigger the alarm multiple times "
-"each time the recurrence is due."
-msgstr ""
-
-#: recurrenceedit.cpp:371
+#: recurrenceedit.cpp:372
 msgid "End date is earlier than start date"
 msgstr "Einde datum is vroeër as begin datum"
 
-#: recurrenceedit.cpp:372
+#: recurrenceedit.cpp:373
 msgid "End date/time is earlier than start date/time"
 msgstr "Einde datum/tyd is vroeër as begin datum/tyd"
 
-#: recurrenceedit.cpp:640
+#: recurrenceedit.cpp:641
 #, fuzzy
 msgid ""
 "_: Date cannot be earlier than start date\n"
 "start date"
 msgstr "Datum kan nie wees vroeër as %1"
 
-#: recurrenceedit.cpp:1038
+#: recurrenceedit.cpp:1039
 #, fuzzy
 msgid "Recur e&very"
 msgstr "Herhaal elke:"
 
-#: recurrenceedit.cpp:1106
+#: recurrenceedit.cpp:1107
 #, fuzzy
 msgid "hours:minutes"
 msgstr "Ure/Minute"
 
-#: recurrenceedit.cpp:1107
+#: recurrenceedit.cpp:1108
 #, fuzzy
 msgid "Enter the number of hours and minutes between repetitions of the alarm"
 msgstr "Invoer die tyd (in ure en minute) tussen repitisies van die alarm."
 
-#: recurrenceedit.cpp:1125
+#: recurrenceedit.cpp:1126
 msgid ""
 "_: On: Tuesday\n"
 "O&n:"
 msgstr "Op:"
 
-#: recurrenceedit.cpp:1203
+#: recurrenceedit.cpp:1204
 msgid "No day selected"
 msgstr ""
 
-#: recurrenceedit.cpp:1232
+#: recurrenceedit.cpp:1233
 #, fuzzy
 msgid "day(s)"
 msgstr "dag"
 
-#: recurrenceedit.cpp:1233
+#: recurrenceedit.cpp:1234
 msgid "Enter the number of days between repetitions of the alarm"
 msgstr "Invoer die nommer van dae tussen repitisies van die alarm"
 
-#: recurrenceedit.cpp:1235
+#: recurrenceedit.cpp:1236
 #, fuzzy
 msgid "Select the days of the week on which the alarm is allowed to occur"
 msgstr "Kies die dag van die week op wat na herhaal die alarm"
 
-#: recurrenceedit.cpp:1237 recurrenceedit.cpp:1251
+#: recurrenceedit.cpp:1238 recurrenceedit.cpp:1252
 #, fuzzy
 msgid "Select the days of the week on which to repeat the alarm"
 msgstr "Kies die dag van die week op wat na herhaal die alarm"
 
-#: recurrenceedit.cpp:1249
+#: recurrenceedit.cpp:1250
 #, fuzzy
 msgid "week(s)"
 msgstr "Weke"
 
-#: recurrenceedit.cpp:1250
+#: recurrenceedit.cpp:1251
 msgid "Enter the number of weeks between repetitions of the alarm"
 msgstr "Invoer die nommer van weke tussen repitisies van die alarm"
 
-#: recurrenceedit.cpp:1274
+#: recurrenceedit.cpp:1275
 msgid ""
 "_: On day number in the month\n"
 "O&n day"
 msgstr ""
 
-#: recurrenceedit.cpp:1278
+#: recurrenceedit.cpp:1279
 msgid "Repeat the alarm on the selected day of the month"
 msgstr "Herhaal die alarm op die gekose dag van die maand"
 
-#: recurrenceedit.cpp:1284
+#: recurrenceedit.cpp:1285
 msgid ""
 "_: Last day of month\n"
 "Last"
 msgstr ""
 
-#: recurrenceedit.cpp:1287
+#: recurrenceedit.cpp:1288
 msgid "Select the day of the month on which to repeat the alarm"
 msgstr "Kies die dag van die maand op wat na herhaal die alarm"
 
-#: recurrenceedit.cpp:1299
+#: recurrenceedit.cpp:1300
 msgid ""
 "_: On the 1st Tuesday\n"
 "On t&he"
 msgstr "Op die"
 
-#: recurrenceedit.cpp:1304
+#: recurrenceedit.cpp:1305
 msgid ""
 "Repeat the alarm on one day of the week, in the selected week of the month"
 msgstr ""
 "Herhaal die alarm op een dag van die week, in die gekose week van die maand"
 
-#: recurrenceedit.cpp:1307
+#: recurrenceedit.cpp:1308
 msgid "1st"
 msgstr "1st"
 
-#: recurrenceedit.cpp:1308
+#: recurrenceedit.cpp:1309
 msgid "2nd"
 msgstr "2nd"
 
-#: recurrenceedit.cpp:1309
+#: recurrenceedit.cpp:1310
 msgid "3rd"
 msgstr "3de"
 
-#: recurrenceedit.cpp:1310
+#: recurrenceedit.cpp:1311
 msgid "4th"
 msgstr "4de"
 
-#: recurrenceedit.cpp:1311
+#: recurrenceedit.cpp:1312
 msgid "5th"
 msgstr "5de"
 
-#: recurrenceedit.cpp:1312
+#: recurrenceedit.cpp:1313
 msgid ""
 "_: Last Monday in March\n"
 "Last"
 msgstr ""
 
-#: recurrenceedit.cpp:1313
+#: recurrenceedit.cpp:1314
 #, fuzzy
 msgid "2nd Last"
 msgstr "Laaste"
 
-#: recurrenceedit.cpp:1314
+#: recurrenceedit.cpp:1315
 #, fuzzy
 msgid "3rd Last"
 msgstr "Laaste"
 
-#: recurrenceedit.cpp:1315
+#: recurrenceedit.cpp:1316
 #, fuzzy
 msgid "4th Last"
 msgstr "Laaste"
 
-#: recurrenceedit.cpp:1316
+#: recurrenceedit.cpp:1317
 #, fuzzy
 msgid "5th Last"
 msgstr "Laaste"
 
-#: recurrenceedit.cpp:1319
+#: recurrenceedit.cpp:1320
 msgid ""
 "_: Every (Monday...) in month\n"
 "Every"
 msgstr ""
 
-#: recurrenceedit.cpp:1322
+#: recurrenceedit.cpp:1323
 msgid "Select the week of the month in which to repeat the alarm"
 msgstr "Kies die week van die maand in wat na herhaal die alarm"
 
-#: recurrenceedit.cpp:1335
+#: recurrenceedit.cpp:1336
 msgid "Select the day of the week on which to repeat the alarm"
 msgstr "Kies die dag van die week op wat na herhaal die alarm"
 
-#: recurrenceedit.cpp:1453
+#: recurrenceedit.cpp:1454
 #, fuzzy
 msgid "month(s)"
 msgstr "Maande"
 
-#: recurrenceedit.cpp:1454
+#: recurrenceedit.cpp:1455
 msgid "Enter the number of months between repetitions of the alarm"
 msgstr "Invoer die nommer van maande tussen repitisies van die alarm"
 
-#: recurrenceedit.cpp:1465
+#: recurrenceedit.cpp:1466
 #, fuzzy
 msgid "year(s)"
 msgstr "Jare"
 
-#: recurrenceedit.cpp:1466
+#: recurrenceedit.cpp:1467
 msgid "Enter the number of years between repetitions of the alarm"
 msgstr "Invoer die nommer van jare tussen repitisies van die alarm"
 
-#: recurrenceedit.cpp:1471
-#, fuzzy
+#: recurrenceedit.cpp:1472
 msgid ""
-"_: first week of January\n"
-"of:"
-msgstr "van"
+"_: List of months to select\n"
+"Months:"
+msgstr ""
 
-#: recurrenceedit.cpp:1490
+#: recurrenceedit.cpp:1491
 #, fuzzy
 msgid "Select the months of the year in which to repeat the alarm"
 msgstr "Kies die maand van die jaar in wat na herhaal die alarm"
 
-#: recurrenceedit.cpp:1497
+#: recurrenceedit.cpp:1498
 msgid "February 2&9th alarm in non-leap years:"
 msgstr ""
 
-#: recurrenceedit.cpp:1500
+#: recurrenceedit.cpp:1501
 msgid ""
 "_: No date\n"
 "None"
 msgstr ""
 
-#: recurrenceedit.cpp:1501
+#: recurrenceedit.cpp:1502
 msgid ""
 "_: 1st March (short form)\n"
 "1 Mar"
 msgstr ""
 
-#: recurrenceedit.cpp:1502
+#: recurrenceedit.cpp:1503
 msgid ""
 "_: 28th February (short form)\n"
 "28 Feb"
 msgstr ""
 
-#: recurrenceedit.cpp:1508
+#: recurrenceedit.cpp:1509
 msgid ""
 "Select which date, if any, the February 29th alarm should trigger in non-leap "
 "years"
 msgstr ""
 
-#: recurrenceedit.cpp:1592
+#: recurrenceedit.cpp:1593
 msgid "No month selected"
 msgstr ""
 
@@ -3569,6 +3568,12 @@ msgstr ""
 #: kalarmd/admain.cpp:48
 msgid "Original Author"
 msgstr ""
+
+#, fuzzy
+#~ msgid ""
+#~ "_: first week of January\n"
+#~ "of:"
+#~ msgstr "van"
 
 #, fuzzy
 #~ msgid "Recurrence:"
