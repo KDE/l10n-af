@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcron VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-14 10:17+0100\n"
+"POT-Creation-Date: 2008-02-18 14:44+0100\n"
 "PO-Revision-Date: 2002-11-07 11:26+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -15,76 +15,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: src/ktvariable.cpp:53
-msgid "Co&mment:"
-msgstr "Kommentaar:"
+#: src/ktvariable.cpp:54
+#, fuzzy
+#| msgid "Modify Variable"
+msgid "Add or modify a variable"
+msgstr "Verander Veranderlike"
 
-#: src/ktvariable.cpp:62
+#: src/ktvariable.cpp:58
 #, fuzzy
 #| msgid "&Variable:"
 msgctxt "The environmental variable name ie HOME, MAILTO etc"
 msgid "&Variable:"
 msgstr "Veranderlike:"
 
-#: src/ktvariable.cpp:79
+#: src/ktvariable.cpp:86
 msgid "Va&lue:"
 msgstr "Waarde:"
 
-#: src/ktvariable.cpp:90 src/ktapp.cpp:157 src/kttask.cpp:196
-msgid "&Enabled"
-msgstr "Geaktiveer"
+#: src/ktvariable.cpp:95
+msgid "Co&mment:"
+msgstr "Kommentaar:"
 
-#: src/ktvariable.cpp:128
-msgid "Add or modify a Kcron variable"
+#: src/ktvariable.cpp:103
+msgid "&Enable this environment variable"
 msgstr ""
 
-#: src/ktvariable.cpp:129
-msgid "<i>This variable has a valid configuration ...</i>"
+#: src/ktvariable.cpp:130
+msgid "<i>This variable will be used by planned tasks.</i>"
 msgstr ""
 
-#: src/ktvariable.cpp:134 src/kttask.cpp:548
-msgid "Kcron Information"
-msgstr ""
-
-#: src/ktvariable.cpp:166
+#: src/ktvariable.cpp:161
 #, fuzzy
 msgid "Override default home folder."
 msgstr "Oorskryf verstek huis gids."
 
-#: src/ktvariable.cpp:167
+#: src/ktvariable.cpp:165
 msgid "Email output to specified account."
 msgstr "E-pos uitset na gespesifiseer rekening."
 
-#: src/ktvariable.cpp:168
+#: src/ktvariable.cpp:169
 msgid "Override default shell."
 msgstr "Oorskryf verstek tolk."
 
-#: src/ktvariable.cpp:169
+#: src/ktvariable.cpp:173
 #, fuzzy
 msgid "Folders to search for program files."
 msgstr "Gidse na soektog vir program lêers."
 
-#: src/ktvariable.cpp:175
+#: src/ktvariable.cpp:177
+#, fuzzy
+#| msgid "Variables"
+msgid "Local Variable"
+msgstr "Veranderlikes"
+
+#: src/ktvariable.cpp:183
 msgid "<i>Please check 'Enabled' to edit this variable ...</i>"
 msgstr ""
 
-#: src/ktvariable.cpp:183
+#: src/ktvariable.cpp:190
 #, fuzzy
 #| msgid "Please enter the variable name."
 msgid "<i>Please enter the variable name ...</i>"
 msgstr "Asseblief invoer die veranderlike naam."
 
-#: src/ktvariable.cpp:191
+#: src/ktvariable.cpp:197
 #, fuzzy
 #| msgid "Please enter the variable value."
 msgid "<i>Please enter the variable value ...</i>"
 msgstr "Asseblief invoer die veranderlike waarde."
 
-#: src/ktapp.cpp:46 src/ktapp.cpp:336
+#: src/ktapp.cpp:44 src/ktapp.cpp:287
 msgid "Task Scheduler"
 msgstr "Opdrag Skeduleerder"
 
-#: src/ktapp.cpp:73
+#: src/ktapp.cpp:69
 #, kde-format
 msgid ""
 "The following error occurred while initializing KCron:\n"
@@ -99,7 +103,7 @@ msgstr ""
 "\n"
 "  kcron   sal nou beïendig.\n"
 
-#: src/ktapp.cpp:97
+#: src/ktapp.cpp:85
 msgid ""
 "You can use this application to schedule programs to run in the background.\n"
 "To schedule a new task now, click on the Tasks folder and select Edit/New "
@@ -110,37 +114,41 @@ msgstr ""
 "na skeduleer 'n nuwe opdrag nou, kliek op die Take kabinet en kies Redigeer/"
 "nuwe van die kieslys."
 
-#: src/ktapp.cpp:97
+#: src/ktapp.cpp:85
 msgid "Welcome to the Task Scheduler"
 msgstr "Welkom na die Opdrag Skeduleerder"
 
-#: src/ktapp.cpp:136
+#: src/ktapp.cpp:119
 #, fuzzy
 #| msgid "&New..."
 msgctxt "Adds a new task or variable"
 msgid "&New..."
 msgstr "Nuwe..."
 
-#: src/ktapp.cpp:144
+#: src/ktapp.cpp:127
 msgid "M&odify..."
 msgstr "Verander..."
 
-#: src/ktapp.cpp:151
+#: src/ktapp.cpp:134
 msgid "&Delete"
 msgstr ""
 
-#: src/ktapp.cpp:163
+#: src/ktapp.cpp:140 src/kttask.cpp:186
+msgid "&Enabled"
+msgstr "Geaktiveer"
+
+#: src/ktapp.cpp:146
 msgid "&Run Now"
 msgstr "Hardloop Nou"
 
-#: src/ktapp.cpp:169
+#: src/ktapp.cpp:151
 #, fuzzy
 #| msgid "Ready."
-msgctxt "Kcron in ready for user input"
+msgctxt "KCron in ready for user input"
 msgid " Ready."
 msgstr "Gereed."
 
-#: src/ktapp.cpp:197
+#: src/ktapp.cpp:173
 msgid ""
 "Scheduled tasks have been modified.\n"
 "Do you want to save changes?"
@@ -148,83 +156,83 @@ msgstr ""
 "Geskeduleerd take het al veranderde.\n"
 "Doen jy wil hê na stoor verander?"
 
-#: src/ktapp.cpp:238
+#: src/ktapp.cpp:205
 #, fuzzy
 #| msgid "Saving..."
-msgctxt "Kcron is saving the file to the hard drive"
+msgctxt "KCron is saving the file to the hard drive"
 msgid "Saving..."
 msgstr "Stooring..."
 
-#: src/ktapp.cpp:240 src/ktapp.cpp:251 src/ktapp.cpp:271 src/ktapp.cpp:278
-#: src/ktapp.cpp:285 src/ktapp.cpp:292 src/ktapp.cpp:299 src/ktapp.cpp:306
-#: src/ktapp.cpp:323 src/ktapp.cpp:330
+#: src/ktapp.cpp:207 src/ktapp.cpp:216 src/ktapp.cpp:233 src/ktapp.cpp:239
+#: src/ktapp.cpp:245 src/ktapp.cpp:251 src/ktapp.cpp:257 src/ktapp.cpp:263
+#: src/ktapp.cpp:276 src/ktapp.cpp:282
 #, fuzzy
 #| msgid "Ready."
-msgctxt "Kcron is ready for user input"
+msgctxt "KCron is ready for user input"
 msgid "Ready."
 msgstr "Gereed."
 
-#: src/ktapp.cpp:249
+#: src/ktapp.cpp:214
 msgid "Printing..."
 msgstr "Besig om te druk..."
 
-#: src/ktapp.cpp:268
+#: src/ktapp.cpp:230
 msgid "Cutting to clipboard..."
 msgstr "Besig om te knip na klipbord..."
 
-#: src/ktapp.cpp:276
+#: src/ktapp.cpp:237
 msgid "Copying to clipboard..."
 msgstr "Besig om te kopiëer na klipbord..."
 
-#: src/ktapp.cpp:283
+#: src/ktapp.cpp:243
 msgid "Pasting from clipboard..."
 msgstr "Plak van klipbord..."
 
-#: src/ktapp.cpp:290
+#: src/ktapp.cpp:249
 msgid "Adding new entry..."
 msgstr "Bygesit nuwe inskrywing..."
 
-#: src/ktapp.cpp:297
+#: src/ktapp.cpp:255
 msgid "Modifying entry..."
 msgstr "Verandering inskrywing..."
 
-#: src/ktapp.cpp:304
+#: src/ktapp.cpp:261
 msgid "Deleting entry..."
 msgstr "Uitveeïng inskrywing..."
 
-#: src/ktapp.cpp:315
+#: src/ktapp.cpp:270
 msgid "Disabling entry..."
 msgstr "Deaktivering inskrywing..."
 
-#: src/ktapp.cpp:320
+#: src/ktapp.cpp:273
 msgid "Enabling entry..."
 msgstr "Aktiveer inskrywing..."
 
-#: src/ktapp.cpp:328
+#: src/ktapp.cpp:280
 msgid "Running command..."
 msgstr "Wat loop opdrag..."
 
-#: src/ktapp.cpp:348
+#: src/ktapp.cpp:297
 msgid "Create a new task or variable."
 msgstr "Skep 'n nuwe opdrag of veranderlike."
 
-#: src/ktapp.cpp:350
+#: src/ktapp.cpp:299
 msgid "Edit the selected task or variable."
 msgstr "Redigeer die gekose opdrag of veranderlike."
 
-#: src/ktapp.cpp:352
+#: src/ktapp.cpp:301
 msgid "Delete the selected task or variable."
 msgstr "Uitvee die gekose opdrag of veranderlike."
 
-#: src/ktapp.cpp:354
+#: src/ktapp.cpp:303
 msgid "Enable/disable the selected task or variable."
 msgstr "Aktiveer/deaktiveer die gekose opdrag of veranderlike."
 
-#: src/ktapp.cpp:356
+#: src/ktapp.cpp:305
 msgid "Run the selected task now."
 msgstr "Hardloop die gekose opdrag nou."
 
-#: src/crontablib/cthost.cpp:64
+#: src/crontablib/cthost.cpp:51
 msgid ""
 "You have been blocked from using KCron                      by either the /"
 "etc/cron.allow file or the /etc/cron.deny file.                      \n"
@@ -232,313 +240,313 @@ msgid ""
 "Check the crontab man page for further details."
 msgstr ""
 
-#: src/crontablib/cttask.cpp:253
+#: src/crontablib/cttask.cpp:219
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#: src/crontablib/cttask.cpp:254
+#: src/crontablib/cttask.cpp:220
 msgctxt ""
 "Please translator, read the README.translators file in kcron's source code"
 msgid "DAYS_OF_MONTH of MONTHS"
 msgstr ""
 
-#: src/crontablib/cttask.cpp:255
+#: src/crontablib/cttask.cpp:221
 msgctxt "Really, read that file"
 msgid "every DAYS_OF_WEEK"
 msgstr ""
 
-#: src/crontablib/cttask.cpp:256
+#: src/crontablib/cttask.cpp:222
 msgid "DOM_FORMAT as well as DOW_FORMAT"
 msgstr "DOM_FORMAT as goed as DOW_FORMAT"
 
-#: src/crontablib/cttask.cpp:257
+#: src/crontablib/cttask.cpp:223
 msgid "At TIME"
 msgstr "Na Tyd"
 
-#: src/crontablib/cttask.cpp:258
+#: src/crontablib/cttask.cpp:224
 msgid "TIME_FORMAT, DATE_FORMAT"
 msgstr "TIME_FORMAT, DATE_FORMAT"
 
-#: src/crontablib/cttask.cpp:304
+#: src/crontablib/cttask.cpp:270
 msgid ", and "
 msgstr ", en "
 
-#: src/crontablib/cttask.cpp:306 src/crontablib/ctunit.cpp:187
+#: src/crontablib/cttask.cpp:272 src/crontablib/ctunit.cpp:178
 msgid " and "
 msgstr " en "
 
-#: src/crontablib/cttask.cpp:308 src/crontablib/ctunit.cpp:189
+#: src/crontablib/cttask.cpp:275 src/crontablib/ctunit.cpp:181
 msgid ", "
 msgstr ", "
 
-#: src/crontablib/cttask.cpp:318 src/crontablib/ctdom.cpp:33
-#: src/crontablib/ctdow.cpp:58
+#: src/crontablib/cttask.cpp:284 src/crontablib/ctdom.cpp:23
+#: src/crontablib/ctdow.cpp:44
 msgid "every day "
 msgstr "elke dag "
 
-#: src/crontablib/ctcron.cpp:53 src/ktlistcron.cpp:44
+#: src/crontablib/ctcron.cpp:67 src/ktlistcron.cpp:37
 msgid "(System Crontab)"
 msgstr "(Stelsel Crontab)"
 
-#: src/crontablib/ctcron.cpp:59
+#: src/crontablib/ctcron.cpp:78
 #, kde-format
 msgid "No password entry found for user '%1'"
 msgstr "Nee wagwoord inskrywing gevind vir gebruiker '%1'"
 
-#: src/crontablib/ctcron.cpp:68
+#: src/crontablib/ctcron.cpp:92
 #, kde-format
 msgid "No password entry found for uid '%1'"
 msgstr "Nee wagwoord inskrywing gevind vir uid '%1'"
 
-#: src/crontablib/ctcron.cpp:238
+#: src/crontablib/ctcron.cpp:279
 msgid "An error occurred while updating crontab."
 msgstr "'n fout voorgekom terwyl besig met opdatering van crontab."
 
-#: src/crontablib/ctmonth.cpp:32
+#: src/crontablib/ctmonth.cpp:23
 msgid "every month "
 msgstr "elke maand "
 
-#: src/crontablib/ctmonth.cpp:49
+#: src/crontablib/ctmonth.cpp:33
 msgid "January"
 msgstr "Januarie"
 
-#: src/crontablib/ctmonth.cpp:49
+#: src/crontablib/ctmonth.cpp:33
 msgid "February"
 msgstr "Februarie"
 
-#: src/crontablib/ctmonth.cpp:50
+#: src/crontablib/ctmonth.cpp:33
 msgid "March"
 msgstr "Maart"
 
-#: src/crontablib/ctmonth.cpp:50
+#: src/crontablib/ctmonth.cpp:33
 msgid "April"
 msgstr "April"
 
-#: src/crontablib/ctmonth.cpp:51
+#: src/crontablib/ctmonth.cpp:33
 msgctxt "May long"
 msgid "May"
 msgstr "Dalk mag"
 
-#: src/crontablib/ctmonth.cpp:51
+#: src/crontablib/ctmonth.cpp:33
 msgid "June"
 msgstr "Junie"
 
-#: src/crontablib/ctmonth.cpp:52
+#: src/crontablib/ctmonth.cpp:33
 #, fuzzy
 #| msgid "July"
 msgctxt "July long"
 msgid "July"
 msgstr "Julie"
 
-#: src/crontablib/ctmonth.cpp:52
+#: src/crontablib/ctmonth.cpp:33
 msgid "August"
 msgstr "Augustus"
 
-#: src/crontablib/ctmonth.cpp:53
+#: src/crontablib/ctmonth.cpp:33
 msgid "September"
 msgstr "September"
 
-#: src/crontablib/ctmonth.cpp:53
+#: src/crontablib/ctmonth.cpp:33
 msgid "October"
 msgstr "Oktober"
 
-#: src/crontablib/ctmonth.cpp:54
+#: src/crontablib/ctmonth.cpp:33
 msgid "November"
 msgstr "November"
 
-#: src/crontablib/ctmonth.cpp:54
+#: src/crontablib/ctmonth.cpp:33
 msgid "December"
 msgstr "Desember"
 
-#: src/crontablib/ctunit.cpp:186
+#: src/crontablib/ctunit.cpp:177
 #, fuzzy
 msgid ","
 msgstr ", "
 
-#: src/crontablib/ctdom.cpp:50
+#: src/crontablib/ctdom.cpp:33
 msgid "1st"
 msgstr "1st"
 
-#: src/crontablib/ctdom.cpp:50
+#: src/crontablib/ctdom.cpp:33
 msgid "2nd"
 msgstr "2nd"
 
-#: src/crontablib/ctdom.cpp:51
+#: src/crontablib/ctdom.cpp:33
 msgid "3rd"
 msgstr "3de"
 
-#: src/crontablib/ctdom.cpp:51
+#: src/crontablib/ctdom.cpp:33
 msgid "4th"
 msgstr "4de"
 
-#: src/crontablib/ctdom.cpp:52
+#: src/crontablib/ctdom.cpp:33
 msgid "5th"
 msgstr "5de"
 
-#: src/crontablib/ctdom.cpp:52
+#: src/crontablib/ctdom.cpp:33
 msgid "6th"
 msgstr "6de"
 
-#: src/crontablib/ctdom.cpp:53
+#: src/crontablib/ctdom.cpp:33
 msgid "7th"
 msgstr "7de"
 
-#: src/crontablib/ctdom.cpp:53
+#: src/crontablib/ctdom.cpp:33
 msgid "8th"
 msgstr "8de"
 
-#: src/crontablib/ctdom.cpp:54
+#: src/crontablib/ctdom.cpp:33
 msgid "9th"
 msgstr "9de"
 
-#: src/crontablib/ctdom.cpp:54
+#: src/crontablib/ctdom.cpp:33
 msgid "10th"
 msgstr "10de"
 
-#: src/crontablib/ctdom.cpp:55
+#: src/crontablib/ctdom.cpp:33
 msgid "11th"
 msgstr "11de"
 
-#: src/crontablib/ctdom.cpp:55
+#: src/crontablib/ctdom.cpp:33
 msgid "12th"
 msgstr "12ste"
 
-#: src/crontablib/ctdom.cpp:56
+#: src/crontablib/ctdom.cpp:33
 msgid "13th"
 msgstr "13de"
 
-#: src/crontablib/ctdom.cpp:56
+#: src/crontablib/ctdom.cpp:33
 msgid "14th"
 msgstr "14de"
 
-#: src/crontablib/ctdom.cpp:57
+#: src/crontablib/ctdom.cpp:33
 msgid "15th"
 msgstr "15de"
 
-#: src/crontablib/ctdom.cpp:57
+#: src/crontablib/ctdom.cpp:33
 msgid "16th"
 msgstr "16de"
 
-#: src/crontablib/ctdom.cpp:58
+#: src/crontablib/ctdom.cpp:33
 msgid "17th"
 msgstr "17de"
 
-#: src/crontablib/ctdom.cpp:58
+#: src/crontablib/ctdom.cpp:34
 msgid "18th"
 msgstr "18de"
 
-#: src/crontablib/ctdom.cpp:59
+#: src/crontablib/ctdom.cpp:34
 msgid "19th"
 msgstr "19de"
 
-#: src/crontablib/ctdom.cpp:59
+#: src/crontablib/ctdom.cpp:34
 msgid "20th"
 msgstr "20ste"
 
-#: src/crontablib/ctdom.cpp:60
+#: src/crontablib/ctdom.cpp:34
 msgid "21st"
 msgstr "21ste"
 
-#: src/crontablib/ctdom.cpp:60
+#: src/crontablib/ctdom.cpp:34
 msgid "22nd"
 msgstr "22ste"
 
-#: src/crontablib/ctdom.cpp:61
+#: src/crontablib/ctdom.cpp:34
 msgid "23rd"
 msgstr "23ste"
 
-#: src/crontablib/ctdom.cpp:61
+#: src/crontablib/ctdom.cpp:34
 msgid "24th"
 msgstr "24ste"
 
-#: src/crontablib/ctdom.cpp:62
+#: src/crontablib/ctdom.cpp:34
 msgid "25th"
 msgstr "25ste"
 
-#: src/crontablib/ctdom.cpp:62
+#: src/crontablib/ctdom.cpp:34
 msgid "26th"
 msgstr "26ste"
 
-#: src/crontablib/ctdom.cpp:63
+#: src/crontablib/ctdom.cpp:34
 msgid "27th"
 msgstr "27ste"
 
-#: src/crontablib/ctdom.cpp:63
+#: src/crontablib/ctdom.cpp:34
 msgid "28th"
 msgstr "28ste"
 
-#: src/crontablib/ctdom.cpp:64
+#: src/crontablib/ctdom.cpp:34
 msgid "29th"
 msgstr "29ste"
 
-#: src/crontablib/ctdom.cpp:64
+#: src/crontablib/ctdom.cpp:34
 msgid "30th"
 msgstr "30ste"
 
-#: src/crontablib/ctdom.cpp:65
+#: src/crontablib/ctdom.cpp:34
 msgid "31st"
 msgstr "31ste"
 
-#: src/crontablib/ctdow.cpp:60
+#: src/crontablib/ctdow.cpp:46
 msgid "weekday "
 msgstr "weeksdag "
 
-#: src/crontablib/ctdow.cpp:78
+#: src/crontablib/ctdow.cpp:58
 msgid "Mon"
 msgstr "Ma"
 
-#: src/crontablib/ctdow.cpp:78
+#: src/crontablib/ctdow.cpp:58
 msgid "Tue"
 msgstr "Di"
 
-#: src/crontablib/ctdow.cpp:79
+#: src/crontablib/ctdow.cpp:58
 msgid "Wed"
 msgstr "Wo"
 
-#: src/crontablib/ctdow.cpp:79
+#: src/crontablib/ctdow.cpp:58
 msgid "Thu"
 msgstr "Do"
 
-#: src/crontablib/ctdow.cpp:80
+#: src/crontablib/ctdow.cpp:58
 msgid "Fri"
 msgstr "Vry"
 
-#: src/crontablib/ctdow.cpp:80
+#: src/crontablib/ctdow.cpp:58
 msgid "Sat"
 msgstr "Sa"
 
-#: src/crontablib/ctdow.cpp:81
+#: src/crontablib/ctdow.cpp:58
 msgid "Sun"
 msgstr "Sun"
 
-#: src/crontablib/ctdow.cpp:87
+#: src/crontablib/ctdow.cpp:60
 #, fuzzy
 msgid "Monday"
 msgstr "Ma"
 
-#: src/crontablib/ctdow.cpp:87
+#: src/crontablib/ctdow.cpp:60
 #, fuzzy
 msgid "Tuesday"
 msgstr "Di"
 
-#: src/crontablib/ctdow.cpp:88
+#: src/crontablib/ctdow.cpp:60
 msgid "Wednesday"
 msgstr ""
 
-#: src/crontablib/ctdow.cpp:88
+#: src/crontablib/ctdow.cpp:60
 msgid "Thursday"
 msgstr ""
 
-#: src/crontablib/ctdow.cpp:89
+#: src/crontablib/ctdow.cpp:60
 #, fuzzy
 msgid "Friday"
 msgstr "Vry"
 
-#: src/crontablib/ctdow.cpp:89
+#: src/crontablib/ctdow.cpp:60
 msgid "Saturday"
 msgstr ""
 
-#: src/crontablib/ctdow.cpp:90
+#: src/crontablib/ctdow.cpp:60
 #, fuzzy
 msgid "Sunday"
 msgstr "Sun"
@@ -561,25 +569,25 @@ msgstr "Gestremde."
 msgid "Modify Variable"
 msgstr "Verander Veranderlike"
 
-#: src/ktlisttask.cpp:42 src/ktlisttask.cpp:79
+#: src/ktlisttask.cpp:36 src/ktlisttask.cpp:70
 msgid "At system startup"
 msgstr ""
 
-#: src/ktlisttask.cpp:53
+#: src/ktlisttask.cpp:43
 #, fuzzy
 #| msgid "Disabled"
 msgctxt "The cron task had been disabled"
 msgid "Disabled"
 msgstr "Gestremde"
 
-#: src/ktlisttask.cpp:85
+#: src/ktlisttask.cpp:75
 #, fuzzy
 #| msgid "Disabled."
 msgctxt "The cron task had been disabled"
 msgid "Disabled."
 msgstr "Gestremde."
 
-#: src/ktlisttask.cpp:90
+#: src/ktlisttask.cpp:79
 msgid "Modify Task"
 msgstr "Verander Opdrag"
 
@@ -611,180 +619,177 @@ msgstr ""
 msgid "Alberto G. Hierro"
 msgstr ""
 
-#: src/kttask.cpp:132
-msgid "&Run as:"
-msgstr "Hardloop as:"
-
-#: src/kttask.cpp:156
-msgid "&Comment:"
-msgstr "Kommentaar:"
-
-#: src/kttask.cpp:172
-msgid "&Program:"
-msgstr "Program:"
-
-#: src/kttask.cpp:188
-msgid "&Browse..."
-msgstr "Blaai..."
-
-#: src/kttask.cpp:202
-msgid "Run at system bootup"
-msgstr ""
-
-#: src/kttask.cpp:214
-msgid "Months"
-msgstr "Maande"
-
-#: src/kttask.cpp:233 src/kttask.cpp:274 src/kttask.cpp:296 src/kttask.cpp:376
-#: src/kttask.cpp:416 src/kttask.cpp:867 src/kttask.cpp:896 src/kttask.cpp:905
-#: src/kttask.cpp:934 src/kttask.cpp:943 src/kttask.cpp:972 src/kttask.cpp:981
-#: src/kttask.cpp:1010 src/kttask.cpp:1019 src/kttask.cpp:1048
+#: src/kttask.cpp:56
 msgid "Set All"
 msgstr ""
 
-#: src/kttask.cpp:241
+#: src/kttask.cpp:58
+msgid "Clear All"
+msgstr ""
+
+#: src/kttask.cpp:135
+msgid "&Run as:"
+msgstr "Hardloop as:"
+
+#: src/kttask.cpp:153
+msgid "&Comment:"
+msgstr "Kommentaar:"
+
+#: src/kttask.cpp:166
+msgid "&Program:"
+msgstr "Program:"
+
+#: src/kttask.cpp:179
+msgid "&Browse..."
+msgstr "Blaai..."
+
+#: src/kttask.cpp:191
+msgid "Run at system &bootup"
+msgstr ""
+
+#: src/kttask.cpp:196
+#, fuzzy
+#| msgid "Run every day"
+msgid "Run &every day"
+msgstr "Hardloop elke dag"
+
+#: src/kttask.cpp:341
 msgid "Days of Month"
 msgstr "Dae van Maand"
 
-#: src/kttask.cpp:278
+#: src/kttask.cpp:378
+msgid "Months"
+msgstr "Maande"
+
+#: src/kttask.cpp:415
 msgid "Days of Week"
 msgstr "Dae van Week"
 
-#: src/kttask.cpp:304
-#, fuzzy
-#| msgid "Daily"
-msgctxt "Every day of the week"
-msgid "Daily"
-msgstr "Daagliks"
-
-#: src/kttask.cpp:311
-msgid "Run every day"
-msgstr "Hardloop elke dag"
-
-#: src/kttask.cpp:317
-msgid "Hours"
-msgstr "Ure"
-
-#: src/kttask.cpp:323
-msgid "AM"
-msgstr "Vm"
-
-#: src/kttask.cpp:351
-msgid "PM"
-msgstr "Nm"
-
-#: src/kttask.cpp:380
+#: src/kttask.cpp:444
 msgid "Minutes"
 msgstr "Minute"
 
-#: src/kttask.cpp:542
-msgid "Add or modify a Kcron task"
+#: src/kttask.cpp:480
+msgid "Hours"
+msgstr "Ure"
+
+#: src/kttask.cpp:483
+msgid "AM"
+msgstr "Vm"
+
+#: src/kttask.cpp:506
+msgid "PM"
+msgstr "Nm"
+
+#: src/kttask.cpp:551
+msgid "Add or modify a KCron task"
 msgstr ""
 
-#: src/kttask.cpp:543
+#: src/kttask.cpp:552
 msgid "<i>This task has a valid configuration ...</i>"
 msgstr ""
 
-#: src/kttask.cpp:711
+#: src/kttask.cpp:555
+#, fuzzy
+#| msgid "Cron Options"
+msgid "KCron Information"
+msgstr "Cron Opsies"
+
+#: src/kttask.cpp:696
 msgid "<i>Please check 'Enabled' to edit this task ...</i>"
 msgstr ""
 
-#: src/kttask.cpp:719
+#: src/kttask.cpp:703
 msgid "<i>This task will be run on system bootup ...</i>"
 msgstr ""
 
-#: src/kttask.cpp:726 src/kttask.cpp:765
+#: src/kttask.cpp:709 src/kttask.cpp:746
 msgid "<i>Please browse for a program to execute ...</i>"
 msgstr ""
 
-#: src/kttask.cpp:757
+#: src/kttask.cpp:739
 msgid "<i>Please select an executable program ...</i>"
 msgstr ""
 
-#: src/kttask.cpp:779
+#: src/kttask.cpp:759
 msgid "<i>Please select from the 'Months' section ...</i>"
 msgstr ""
 
-#: src/kttask.cpp:798
+#: src/kttask.cpp:777
 msgid ""
 "<i>Please select from either the 'Days of Month' or the 'Days of Week' "
 "section ...</i>"
 msgstr ""
 
-#: src/kttask.cpp:813
+#: src/kttask.cpp:791
 msgid "<i>Please select from the 'Hours' section ...</i>"
 msgstr ""
 
-#: src/kttask.cpp:828
+#: src/kttask.cpp:805
 msgid "<i>Please select from the 'Minutes' section ...</i>"
 msgstr ""
 
-#: src/kttask.cpp:859
+#: src/kttask.cpp:828
 msgid "Only local or mounted files can be executed by crontab."
 msgstr "Slegs plaaslike of gekoppelde lêers kan wees uitgevoerde deur crontab."
-
-#: src/kttask.cpp:899 src/kttask.cpp:937 src/kttask.cpp:975
-#: src/kttask.cpp:1013 src/kttask.cpp:1051
-msgid "Clear All"
-msgstr ""
 
 #: src/ktprint.cpp:80
 #, fuzzy
 msgid "Print Cron Tab"
 msgstr "Druk crontab"
 
-#: src/ktlistvars.cpp:43
+#: src/ktlistvars.cpp:38
 msgid "Edit Variable"
 msgstr "Redigeer Veranderlike"
 
-#: src/ktlistvars.cpp:70
+#: src/ktlistvars.cpp:60
 #, fuzzy
 #| msgid "Variable:"
 msgctxt "The environmental variable name ie HOME, MAILTO etc"
 msgid "Variable:"
 msgstr "Veranderlike:"
 
-#: src/ktlistvars.cpp:71
+#: src/ktlistvars.cpp:61
 msgid "Value:"
 msgstr "Waarde:"
 
-#: src/ktlistvars.cpp:72 src/ktlisttasks.cpp:76
+#: src/ktlistvars.cpp:62 src/ktlisttasks.cpp:65
 msgid "Description:"
 msgstr "Beskrywing:"
 
-#: src/ktlistvars.cpp:81
+#: src/ktlistvars.cpp:71
 msgid "No variables..."
 msgstr "Nee veranderlikes..."
 
-#: src/ktlistvars.cpp:98
+#: src/ktlistvars.cpp:87
 msgid "Variables"
 msgstr "Veranderlikes"
 
-#: src/ktview.cpp:97
+#: src/ktview.cpp:82
 #, fuzzy
 #| msgid "Users/Tasks/Variables"
 msgid "Users/Tasks/Variable"
 msgstr "Gebruikers/Take/Veranderlikes"
 
-#: src/ktview.cpp:99
+#: src/ktview.cpp:84
 msgid "Tasks/Variables"
 msgstr "Take/Veranderlikes"
 
-#: src/ktview.cpp:101
+#: src/ktview.cpp:86
 msgid "Value"
 msgstr "Waarde"
 
-#: src/ktview.cpp:102
+#: src/ktview.cpp:87
 msgid "Description"
 msgstr "Beskrywing"
 
-#: src/ktview.cpp:268
+#: src/ktview.cpp:221
 #, kde-format
 msgctxt "user on host"
 msgid "%1 <placeholder>%2</placeholder> on %3"
 msgstr ""
 
-#: src/ktview.cpp:276
+#: src/ktview.cpp:226
 msgid "Scheduled Tasks"
 msgstr "Geskeduleerd Take"
 
@@ -800,24 +805,24 @@ msgstr "Druk crontab"
 msgid "Print &all users"
 msgstr "Druk alle gebruikers"
 
-#: src/ktlisttasks.cpp:41
+#: src/ktlisttasks.cpp:36
 msgid "Tasks"
 msgstr "Take"
 
-#: src/ktlisttasks.cpp:47
+#: src/ktlisttasks.cpp:41
 msgid "Edit Task"
 msgstr "Redigeer Opdrag"
 
-#: src/ktlisttasks.cpp:74
+#: src/ktlisttasks.cpp:63
 #, fuzzy
 msgid "Task name:"
 msgstr "Opdrag Naam:"
 
-#: src/ktlisttasks.cpp:75
+#: src/ktlisttasks.cpp:64
 msgid "Program:"
 msgstr "Program:"
 
-#: src/ktlisttasks.cpp:85
+#: src/ktlisttasks.cpp:74
 msgid "No tasks..."
 msgstr "Nee take..."
 
@@ -830,6 +835,12 @@ msgstr "WEB-Vertaler (http://kde.af.org.za)"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za"
+
+#, fuzzy
+#~| msgid "Daily"
+#~ msgctxt "Every day of the week"
+#~ msgid "Daily"
+#~ msgstr "Daagliks"
 
 #~ msgctxt "user on host"
 #~ msgid "%1 <%2> on %3"
