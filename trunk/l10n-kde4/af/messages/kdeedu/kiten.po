@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kiten VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-03 14:26+0100\n"
+"POT-Creation-Date: 2008-03-07 20:13+0100\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -30,47 +30,47 @@ msgstr ""
 msgid "S&earch"
 msgstr "Soektog"
 
-#: app/kiten.cpp:188
+#: app/kiten.cpp:187
 msgid "&Automatically Search Clipboard Selections"
 msgstr "Automaties Soektog Klipbord Kiesings"
 
-#: app/kiten.cpp:190
+#: app/kiten.cpp:189
 msgid "Search &in Results"
 msgstr "Soektog in Resultate"
 
-#: app/kiten.cpp:195
+#: app/kiten.cpp:194
 msgid "Configure &Global Shortcuts..."
 msgstr ""
 
-#: app/kiten.cpp:199
+#: app/kiten.cpp:198
 msgid "On The Spo&t Search"
 msgstr ""
 
-#: app/kiten.cpp:218
+#: app/kiten.cpp:219
 msgid "Export List"
 msgstr ""
 
-#: app/kiten.cpp:249
+#: app/kiten.cpp:250
 #, fuzzy
 msgid "Initialising Dictionaries"
 msgstr "Woordeboeke"
 
-#: app/kiten.cpp:260
+#: app/kiten.cpp:261
 msgid "Welcome to Kiten"
 msgstr ""
 
-#: app/kiten.cpp:329 app/kiten.cpp:349
+#: app/kiten.cpp:330 app/kiten.cpp:350
 msgid "Searching..."
 msgstr "Soek..."
 
-#: app/kiten.cpp:366
+#: app/kiten.cpp:367
 #, fuzzy, kde-format
 msgid "Found 1 result"
 msgid_plural "Found %1 results"
 msgstr[0] "%1 resultaat"
 msgstr[1] "%1 resultaat"
 
-#: app/kiten.cpp:368
+#: app/kiten.cpp:369
 #, fuzzy
 msgid "No results found"
 msgstr "Gemeenskaplike resultate van %1"
@@ -197,7 +197,7 @@ msgstr ""
 
 #: app/searchStringInput.cpp:54
 #, fuzzy
-msgid "Match Anywhere"
+msgid "Match Anywhere (Kanji Only)"
 msgstr "Soektog Orals"
 
 #: app/searchStringInput.cpp:57
@@ -231,11 +231,11 @@ msgstr ""
 msgid "Search t&ext"
 msgstr "Soektog Redigeer"
 
-#: lib/dictKanjidic/entryKanjidic.cpp:96
+#: lib/dictKanjidic/entryKanjidic.cpp:54
 msgid "In names: "
 msgstr "In name: "
 
-#: lib/dictKanjidic/entryKanjidic.cpp:100
+#: lib/dictKanjidic/entryKanjidic.cpp:58
 msgid "As radical: "
 msgstr ""
 
@@ -276,47 +276,49 @@ msgctxt "@option:radio selects japanese translation"
 msgid "Kana"
 msgstr ""
 
-#: lib/dictEdict/entryEdict.cpp:207
+#: lib/dictEdict/entryEdict.cpp:205
 #, fuzzy
-#| msgid "no"
+#| msgid "None"
 msgctxt "This must be a single word"
-msgid "noun"
-msgstr "nee"
+msgid "Noun"
+msgstr "Geen"
+
+#: lib/dictEdict/entryEdict.cpp:206
+msgctxt "This must be a single word"
+msgid "Verb"
+msgstr ""
+
+#: lib/dictEdict/entryEdict.cpp:207
+msgctxt "This must be a single word"
+msgid "Adjective"
+msgstr ""
 
 #: lib/dictEdict/entryEdict.cpp:208
 msgctxt "This must be a single word"
-msgid "verb"
+msgid "Adverb"
 msgstr ""
 
 #: lib/dictEdict/entryEdict.cpp:209
 msgctxt "This must be a single word"
-msgid "adjective"
+msgid "Particle"
 msgstr ""
 
 #: lib/dictEdict/entryEdict.cpp:210
-msgctxt "This must be a single word"
-msgid "adverb"
-msgstr ""
-
-#: lib/dictEdict/entryEdict.cpp:211
-msgctxt "This must be a single word"
-msgid "particle"
-msgstr ""
-
-#: lib/dictEdict/entryEdict.cpp:212
 msgctxt ""
 "This is a technical japanese linguist's term... and probably should not be "
 "translated(except possibly in far-eastern languages), this must be a single "
 "word"
-msgid "ichidan"
+msgid "Ichidan"
 msgstr ""
 
-#: lib/dictEdict/entryEdict.cpp:213
+#: lib/dictEdict/entryEdict.cpp:211
+#, fuzzy
+#| msgid "Good!"
 msgctxt ""
 "This is a technical japanese linguist's term... and probably should not be "
 "translated, this must be a single word"
-msgid "godan"
-msgstr ""
+msgid "Godan"
+msgstr "Goeie!"
 
 #: lib/dictEdict/dictFilePreferenceDialog.cpp:42
 msgid "&Available List Fields:"
@@ -741,6 +743,12 @@ msgstr ""
 msgid "漢字 かな"
 msgstr ""
 
+#, fuzzy
+#~| msgid "no"
+#~ msgctxt "This must be a single word"
+#~ msgid "noun"
+#~ msgstr "nee"
+
 #~ msgid "Search with &Beginning of Word"
 #~ msgstr "Soektog met Begin van Woord"
 
@@ -861,9 +869,6 @@ msgstr ""
 
 #~ msgid "%1 already on your list"
 #~ msgstr "%1 alreeds op jou lys"
-
-#~ msgid "Good!"
-#~ msgstr "Goeie!"
 
 #~ msgid "Wrong"
 #~ msgstr "Verkeerde"
