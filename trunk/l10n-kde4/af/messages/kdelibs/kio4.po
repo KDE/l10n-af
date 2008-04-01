@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-29 21:25+0100\n"
+"POT-Creation-Date: 2008-03-31 20:06+0200\n"
 "PO-Revision-Date: 2005-11-25 05:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -345,9 +345,10 @@ msgid "C&ontinue Loading"
 msgstr "Gaan voort met laai"
 
 #: kio/tcpslavebase.cpp:319
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Authentication Failed."
-msgid ": SSL negotiation failed"
+msgctxt "%1 is a host name"
+msgid "%1: SSL negotiation failed"
 msgstr "Geldigheidsverklaring Gevaal."
 
 #: kio/tcpslavebase.cpp:476
@@ -390,7 +391,7 @@ msgstr "Die prosedure na stel Die kliënt sertifikaat vir Die sessie gevaal."
 #, fuzzy, kde-format
 #| msgid "The server certificate failed the authenticity test (%1)."
 msgid ""
-"The server failed the authenticity check (%1)\n"
+"The server failed the authenticity check (%1).\n"
 "\n"
 msgstr "Die bediener sertifikaat gevaal Die geldigheid toets (%1)."
 
@@ -2910,21 +2911,27 @@ msgstr ""
 #| "The IP address of the host %1 does not match the one the certificate was "
 #| "issued to."
 msgid ""
-"The certificate's CA's (Certificate Authority) does not match the CA name of "
+"The certificate's CA (Certificate Authority) does not match the CA name of "
 "the certificate."
 msgstr ""
 "Die  ip  adres van Die bediener %1 doen nie ooreenstem Die een Die "
 "sertifikaat was uitgereik na."
 
 #: kssl/ksslcertificate.cpp:1112
+#, fuzzy
+#| msgid ""
+#| "The IP address of the host %1 does not match the one the certificate was "
+#| "issued to."
 msgid ""
-"The CA's (Certificate Authority) certificate's key ID does not match the key "
+"The CA (Certificate Authority) certificate's key ID does not match the key "
 "ID in the 'Issuer' section of the certificate you are trying to use."
 msgstr ""
+"Die  ip  adres van Die bediener %1 doen nie ooreenstem Die een Die "
+"sertifikaat was uitgereik na."
 
 #: kssl/ksslcertificate.cpp:1114
 msgid ""
-"The CA's (Certificate Authority) certificate's key ID and name do not match "
+"The CA (Certificate Authority) certificate's key ID and name do not match "
 "the key ID and name in the 'Issuer' section of the certificate you are "
 "trying to use."
 msgstr ""
@@ -2955,7 +2962,7 @@ msgid ""
 "CRL (Certificate Revocation List) is not valid. Any of them could not be "
 "valid yet or not valid any more. If you see this message, please let the "
 "author of the software you are using know that he or she should use the new, "
-"morespecific error messages."
+"more specific error messages."
 msgstr ""
 
 #: kssl/ksslcertificate.cpp:1131
@@ -3667,7 +3674,8 @@ msgstr "Onthou aansoek assosiasie vir hierdie tipe van lêer"
 #: kfile/kopenwithdialog.cpp:794
 #, kde-format
 msgid ""
-"Could not extract executable name from '%1', please type a valid program name"
+"Could not extract executable name from '%1', please type a valid program "
+"name."
 msgstr ""
 
 #: kfile/kmetaprops.cpp:101
@@ -6100,7 +6108,7 @@ msgstr "Ontkoppel"
 #| msgid ""
 #| "An error occurred while attempting to %1, %2. A summary of the reasons is "
 #| "below.<ul>"
-msgid "An error occurred while accessing '%1', the system said: %2"
+msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 "'n fout voorgekom terwyl probeer na %1, %2. 'n opsomming van die redes is "
 "onder.<ul>"
