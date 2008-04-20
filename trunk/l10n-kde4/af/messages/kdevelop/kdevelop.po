@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-18 12:00+0200\n"
+"POT-Creation-Date: 2008-04-19 21:58+0200\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -520,10 +520,16 @@ msgstr "Kykers"
 
 #. i18n: tag text
 #. i18n: file ./src/kdevelopui.rc line 72
-#: rc.cpp:211
+#. i18n: tag text
+#. i18n: file ./plugins/appwizard/kdevappwizard.rc line 5
+#. i18n: tag text
+#. i18n: file ./src/kdevelopui.rc line 72
+#. i18n: tag text
+#. i18n: file ./plugins/appwizard/kdevappwizard.rc line 5
+#: rc.cpp:211 rc.cpp:493
 #, fuzzy
 #| msgid "Project"
-msgctxt "@title:meu"
+msgctxt "@title:menu"
 msgid "Project"
 msgstr "Projek"
 
@@ -1209,15 +1215,6 @@ msgstr ""
 msgid "Suppress find errors:"
 msgstr ""
 
-#. i18n: tag text
-#. i18n: file ./plugins/appwizard/kdevappwizard.rc line 5
-#: rc.cpp:493
-#, fuzzy
-#| msgid "Project"
-msgctxt "@title:menu"
-msgid "Project"
-msgstr "Projek"
-
 #. i18n: tag string
 #. i18n: file ./plugins/appwizard/importproject.ui line 13
 #: rc.cpp:496
@@ -1845,6 +1842,11 @@ msgstr "Bou Bron Paket"
 msgid "Ready"
 msgstr "Vervang Teks"
 
+#: languages/cpp/cppcodecompletionworker.cpp:225
+#, kde-format
+msgid "%1 overloads of"
+msgstr ""
+
 #: languages/cpp/cppduchain/navigationwidget.cpp:114
 #, fuzzy
 msgctxt "An unknown c++ declaration that is unknown"
@@ -1857,7 +1859,7 @@ msgid "Class"
 msgstr "Klas"
 
 #: languages/cpp/cppduchain/navigationwidget.cpp:229
-#: languages/cpp/debugger/variablecollection.cpp:665
+#: languages/cpp/debugger/variablecollection.cpp:675
 msgid "Variable"
 msgstr "Veranderlike"
 
@@ -1997,7 +1999,7 @@ msgid "Body:"
 msgstr "Vetdruk"
 
 #: languages/cpp/debugger/breakpoint.cpp:275
-#: languages/cpp/debugger/breakpointcontroller.cpp:991
+#: languages/cpp/debugger/breakpointcontroller.cpp:1077
 msgid "Disabled"
 msgstr "Gestremde"
 
@@ -2022,7 +2024,7 @@ msgstr "Aktief"
 
 #: languages/cpp/debugger/breakpoint.cpp:442
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:89
-#: languages/cpp/debugger/breakpointwidget.h:206
+#: languages/cpp/debugger/breakpointwidget.h:216
 #, fuzzy
 msgctxt "Code breakpoint"
 msgid "Code"
@@ -2208,7 +2210,7 @@ msgstr "stel"
 msgid "Instruction"
 msgstr "struktuur"
 
-#: languages/cpp/debugger/framestackwidget.cpp:47
+#: languages/cpp/debugger/framestackwidget.cpp:49
 #, fuzzy
 msgid ""
 "<b>Frame stack</b><p>Often referred to as the \"call stack\", this is a list "
@@ -2266,13 +2268,13 @@ msgid ""
 msgstr ""
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:68
-#: languages/cpp/debugger/breakpointwidget.h:156
+#: languages/cpp/debugger/breakpointwidget.h:161
 #, fuzzy
 msgid "Debugger Breakpoints"
 msgstr "Wissel Breekpunt"
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:69
-#: languages/cpp/debugger/breakpointwidget.h:157
+#: languages/cpp/debugger/breakpointwidget.h:162
 #, fuzzy
 msgid ""
 "<b>Breakpoint list</b><p>Displays a list of breakpoints with their current "
@@ -2287,66 +2289,66 @@ msgstr ""
 "redigeerder venster."
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:87
-#: languages/cpp/debugger/breakpointwidget.h:203
+#: languages/cpp/debugger/breakpointwidget.h:213
 #, fuzzy
 msgctxt "New breakpoint"
 msgid "New"
 msgstr "Naam:"
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:94
-#: languages/cpp/debugger/breakpointwidget.h:215
+#: languages/cpp/debugger/breakpointwidget.h:225
 #, fuzzy
 msgctxt "Data breakpoint"
 msgid "Data write"
 msgstr "Data lêer"
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:95
-#: languages/cpp/debugger/breakpointwidget.h:218
+#: languages/cpp/debugger/breakpointwidget.h:228
 #, fuzzy
 msgctxt "Data read breakpoint"
 msgid "Data read"
 msgstr "Data lêer"
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:97
-#: languages/cpp/debugger/breakpointwidget.h:222
+#: languages/cpp/debugger/breakpointwidget.h:232
 #, fuzzy
 msgid "Show text"
 msgstr "Voeg by Nuwe Teiken"
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:99
-#: languages/cpp/debugger/breakpointwidget.h:225
+#: languages/cpp/debugger/breakpointwidget.h:235
 #, fuzzy
 msgid "Edit"
 msgstr "Redigeer..."
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:102
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:328
-#: languages/cpp/debugger/breakpointwidget.h:228
-#: languages/cpp/debugger/breakpointwidget.h:269
+#: languages/cpp/debugger/breakpointwidget.h:238
+#: languages/cpp/debugger/breakpointwidget.h:279
 #, fuzzy
 msgid "Disable"
 msgstr "Gestremde"
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:104
-#: languages/cpp/debugger/breakpointwidget.h:233
+#: languages/cpp/debugger/breakpointwidget.h:243
 #, fuzzy
 msgid "Delete"
 msgstr "Uitvee Groep"
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:111
-#: languages/cpp/debugger/breakpointwidget.h:242
+#: languages/cpp/debugger/breakpointwidget.h:252
 #, fuzzy
 msgid "Disable all"
 msgstr "Gestremde"
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:112
-#: languages/cpp/debugger/breakpointwidget.h:243
+#: languages/cpp/debugger/breakpointwidget.h:253
 #, fuzzy
 msgid "Enable all"
 msgstr "Aktiveer"
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:113
-#: languages/cpp/debugger/breakpointwidget.h:244
+#: languages/cpp/debugger/breakpointwidget.h:254
 #, fuzzy
 msgid "Delete all"
 msgstr "Verwyder breekpunt"
@@ -2359,7 +2361,7 @@ msgid ""
 msgstr ""
 
 #: languages/cpp/debugger/gdbbreakpointwidget.cpp:332
-#: languages/cpp/debugger/breakpointwidget.h:273
+#: languages/cpp/debugger/breakpointwidget.h:283
 #, fuzzy
 msgid "Enable"
 msgstr "Aktiveer"
@@ -2549,58 +2551,62 @@ msgstr "Maak toe Projek"
 msgid "Special debugger views"
 msgstr "Ontfouter"
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:623
+#: languages/cpp/debugger/breakpointcontroller.cpp:237
+msgid "Double-click to create new code breakpoint"
+msgstr ""
+
+#: languages/cpp/debugger/breakpointcontroller.cpp:707
 msgid "Breakpoint"
 msgstr "Breekpunt"
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:942
+#: languages/cpp/debugger/breakpointcontroller.cpp:1028
 #, fuzzy
 msgid " temporary"
 msgstr "Geheue"
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:944
+#: languages/cpp/debugger/breakpointcontroller.cpp:1030
 msgid " hw"
 msgstr ""
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:991
+#: languages/cpp/debugger/breakpointcontroller.cpp:1077
 #, fuzzy
 msgid "Enabled"
 msgstr "Aktiveer"
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:1020
-#: languages/cpp/debugger/variablecollection.cpp:671
+#: languages/cpp/debugger/breakpointcontroller.cpp:1106
+#: languages/cpp/debugger/variablecollection.cpp:681
 #: buildtools/managers/cmake/cmakecachemodel.cpp:34
 #, fuzzy
 msgid "Type"
 msgstr "Tipe:"
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:1022
+#: languages/cpp/debugger/breakpointcontroller.cpp:1108
 #, fuzzy
 msgid "Status"
 msgstr "Begin:"
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:1024
+#: languages/cpp/debugger/breakpointcontroller.cpp:1110
 #, fuzzy
 msgid "Location"
 msgstr "Ligging:"
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:1026
+#: languages/cpp/debugger/breakpointcontroller.cpp:1112
 #, fuzzy
 #| msgid "&Conditional"
 msgid "Condition"
 msgstr "Voorwaarde"
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:1028
+#: languages/cpp/debugger/breakpointcontroller.cpp:1114
 #, fuzzy
 msgid "Ignore Count"
 msgstr "Ignoreer tel"
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:1030
+#: languages/cpp/debugger/breakpointcontroller.cpp:1116
 #, fuzzy
 msgid "Hits"
 msgstr "Lyn: %1"
 
-#: languages/cpp/debugger/breakpointcontroller.cpp:1032
+#: languages/cpp/debugger/breakpointcontroller.cpp:1118
 #, fuzzy
 msgid "Tracing"
 msgstr "Fout Navolg"
@@ -3010,7 +3016,7 @@ msgstr ""
 msgid "Process exited"
 msgstr "Proses uitgegaan"
 
-#: languages/cpp/debugger/variablecollection.cpp:668
+#: languages/cpp/debugger/variablecollection.cpp:678
 #: buildtools/managers/cmake/cmakecachemodel.cpp:35
 msgid "Value"
 msgstr "Waarde"
@@ -3771,7 +3777,7 @@ msgstr "Nee taal inplak vir %1 gevind."
 msgid "Could not create language plugin for %1."
 msgstr "Kon nie skep taal inplak vir %1."
 
-#: buildtools/managers/cmake/cmakemanager.cpp:685
+#: buildtools/managers/cmake/cmakemanager.cpp:706
 #, fuzzy
 #| msgid "fragment definition"
 msgid "Jump to target definition"
@@ -3917,18 +3923,25 @@ msgid "Uninstalled headers"
 msgstr "Installeer"
 
 #: buildtools/builders/cmakebuilder/cmakebuilder.cpp:181
+#: buildtools/builders/qmakebuilder/qmakebuilder.cpp:169
+#: buildtools/builders/makebuilder/makebuilder.cpp:308
+#, fuzzy
+msgid "Build"
+msgstr "Bou"
+
+#: buildtools/builders/cmakebuilder/cmakebuilder.cpp:182
 #, fuzzy, kde-format
 #| msgid "Target: %1"
 msgid "CMake: %1"
 msgstr "Teiken: %1"
 
-#: buildtools/builders/qmakebuilder/qmakebuilder.cpp:169
+#: buildtools/builders/qmakebuilder/qmakebuilder.cpp:170
 #, fuzzy, kde-format
 #| msgid "Target: %1"
 msgid "QMake: %1"
 msgstr "Teiken: %1"
 
-#: buildtools/builders/makebuilder/makebuilder.cpp:308
+#: buildtools/builders/makebuilder/makebuilder.cpp:309
 #, fuzzy, kde-format
 #| msgid "Target: %1"
 msgid "Make: %1"
@@ -4012,6 +4025,11 @@ msgstr ""
 #, fuzzy
 msgid "Unable to create a temporary file for search."
 msgstr "Kan nie skryf die projek lêer."
+
+#: plugins/grepview/grepviewplugin.cpp:332
+#, fuzzy
+msgid "Find in Files"
+msgstr "Voeg by Bestaande Lêers..."
 
 #: plugins/appwizard/projectvcspage.cpp:44
 #, fuzzy
@@ -4288,14 +4306,21 @@ msgstr "Aksies vir %1"
 msgid "Object Inspector"
 msgstr "Onlangse lêers"
 
-#: languages/cpp/debugger/breakpointwidget.h:64
-msgid "Hit count"
-msgstr ""
+#: languages/cpp/debugger/breakpointwidget.h:68
+#: languages/cpp/debugger/breakpointwidget.h:113
+#, fuzzy
+msgid "Not hit yet"
+msgstr "Nuwe Lêer"
 
-#: languages/cpp/debugger/breakpointwidget.h:78
+#: languages/cpp/debugger/breakpointwidget.h:75
 #, fuzzy
 msgid "Ignore"
 msgstr "Ignoreer tel"
+
+#: languages/cpp/debugger/breakpointwidget.h:81
+#, fuzzy
+msgid "next hits"
+msgstr "Aktiveer waarskuwings"
 
 #: languages/cpp/debugger/breakpoint.h:147
 #, fuzzy
@@ -4311,6 +4336,12 @@ msgstr "Wissel Uitkykpunt"
 #, fuzzy
 msgid "Read Watchpoint"
 msgstr "Wissel Uitkykpunt"
+
+#, fuzzy
+#~| msgid "Project"
+#~ msgctxt "@title:meu"
+#~ msgid "Project"
+#~ msgstr "Projek"
 
 #, fuzzy
 #~ msgid "&Evaluate"
@@ -4337,10 +4368,6 @@ msgstr "Wissel Uitkykpunt"
 
 #~ msgid "&Project"
 #~ msgstr "Projek"
-
-#, fuzzy
-#~ msgid "Bu&ild"
-#~ msgstr "Bou"
 
 #~ msgid "&Window"
 #~ msgstr "Venster"
@@ -6057,10 +6084,6 @@ msgstr "Wissel Uitkykpunt"
 #, fuzzy
 #~ msgid "Filter Options"
 #~ msgstr "Bou Opsies"
-
-#, fuzzy
-#~ msgid "No filter"
-#~ msgstr "Nuwe Lêer"
 
 #, fuzzy
 #~ msgid "Filter for string"
@@ -11909,10 +11932,6 @@ msgstr "Wissel Uitkykpunt"
 
 #, fuzzy
 #~ msgid "Issue notes"
-#~ msgstr "Aktiveer waarskuwings"
-
-#, fuzzy
-#~ msgid "Issue hints"
 #~ msgstr "Aktiveer waarskuwings"
 
 #, fuzzy
