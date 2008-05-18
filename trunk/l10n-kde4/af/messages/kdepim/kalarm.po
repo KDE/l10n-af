@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-11 10:13+0200\n"
+"POT-Creation-Date: 2008-05-18 07:31+0200\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -49,7 +49,7 @@ msgstr ""
 #: lib/shellprocess.cpp:158
 #, fuzzy
 msgctxt "@info"
-msgid "Failed to execute command (shell access not authorized):"
+msgid "Failed to execute command (shell access not authorized)"
 msgstr ""
 "Gevaal na uitvoer opdrag:\n"
 "%1"
@@ -57,7 +57,7 @@ msgstr ""
 #: lib/shellprocess.cpp:161
 #, fuzzy
 msgctxt "@info"
-msgid "Failed to execute command:"
+msgid "Failed to execute command"
 msgstr ""
 "Gevaal na uitvoer opdrag:\n"
 "%1"
@@ -65,7 +65,18 @@ msgstr ""
 #: lib/shellprocess.cpp:163
 #, fuzzy
 msgctxt "@info"
-msgid "Command execution error:"
+msgid "Command execution error"
+msgstr ""
+"Opdrag uitgevoerde:\n"
+"%1"
+
+#: lib/shellprocess.cpp:166
+#, fuzzy, kde-format
+#| msgid ""
+#| "Command executed:\n"
+#| "%1"
+msgctxt "@info"
+msgid "Command exit code: %1"
 msgstr ""
 "Opdrag uitgevoerde:\n"
 "%1"
@@ -212,19 +223,19 @@ msgid ""
 "Quitting will disable alarms (once any alarm message windows are closed)."
 msgstr "Invoer 'n tolk opdrag na uitvoer."
 
-#: kalarmapp.cpp:1862
+#: kalarmapp.cpp:1866
 #, fuzzy
 msgctxt "@info"
 msgid "Error creating temporary script file"
 msgstr "Verwyder die verlig aanhegsel van die e-pos."
 
-#: kalarmapp.cpp:1926
+#: kalarmapp.cpp:1944
 #, fuzzy
 msgctxt "@info"
 msgid "Pre-alarm action:"
 msgstr "Aktiveer Alarms"
 
-#: kalarmapp.cpp:1931
+#: kalarmapp.cpp:1949
 #, fuzzy
 msgctxt "@info"
 msgid "Post-alarm action:"
@@ -2089,26 +2100,26 @@ msgstr ""
 "Bevestig na kies Biep as die verstek opset vir \"Klank\" in die alarm "
 "redigeer dialoog."
 
-#: specialactions.cpp:100
+#: specialactions.cpp:103
 #, fuzzy
 msgctxt "@title:window"
 msgid "Special Alarm Actions"
 msgstr "Aktiveer Alarms"
 
-#: specialactions.cpp:158
+#: specialactions.cpp:161
 #, fuzzy
 msgctxt "@title:group"
 msgid "Pre-Alarm Action"
 msgstr "Aktiveer Alarms"
 
-#: specialactions.cpp:168 specialactions.cpp:194
+#: specialactions.cpp:171 specialactions.cpp:197
 #, fuzzy
 #| msgid "Co&mmand"
 msgctxt "@label:textbox"
 msgid "Command:"
 msgstr "Opdrag"
 
-#: specialactions.cpp:173
+#: specialactions.cpp:176
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Enter a shell command to execute before the alarm is displayed.</"
@@ -2118,25 +2129,25 @@ msgid ""
 "para>"
 msgstr ""
 
-#: specialactions.cpp:179
+#: specialactions.cpp:182
 msgctxt "@option:check"
 msgid "Cancel alarm on error"
 msgstr ""
 
-#: specialactions.cpp:180
+#: specialactions.cpp:183
 msgctxt "@info:whatsthis"
 msgid ""
 "Cancel the alarm if the pre-alarm command fails, i.e. do not display the "
 "alarm or execute any post-alarm action command."
 msgstr ""
 
-#: specialactions.cpp:184
+#: specialactions.cpp:187
 #, fuzzy
 msgctxt "@title:group"
 msgid "Post-Alarm Action"
 msgstr "Aktiveer Alarms"
 
-#: specialactions.cpp:198
+#: specialactions.cpp:201
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Enter a shell command to execute after the alarm window is closed.</"
@@ -5813,19 +5824,19 @@ msgstr ""
 "Ongeldige e-pos adres:\n"
 "%1"
 
-#: alarmevent.cpp:2858
+#: alarmevent.cpp:2856
 #, fuzzy
 msgctxt "@info/plain Brief form of 'At Login'"
 msgid "Login"
 msgstr "Aanteken"
 
-#: alarmevent.cpp:2858
+#: alarmevent.cpp:2856
 #, fuzzy
 msgctxt "@info/plain"
 msgid "At login"
 msgstr "Aanteken"
 
-#: alarmevent.cpp:2866 alarmevent.cpp:2904
+#: alarmevent.cpp:2864 alarmevent.cpp:2902
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Minute"
@@ -5833,7 +5844,7 @@ msgid_plural "%1 Minutes"
 msgstr[0] "1 Minuut"
 msgstr[1] "%1 Minute"
 
-#: alarmevent.cpp:2868 alarmevent.cpp:2906
+#: alarmevent.cpp:2866 alarmevent.cpp:2904
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Hour"
@@ -5841,7 +5852,7 @@ msgid_plural "%1 Hours"
 msgstr[0] "1 Uur"
 msgstr[1] "%1 Ure"
 
-#: alarmevent.cpp:2872 alarmevent.cpp:2908
+#: alarmevent.cpp:2870 alarmevent.cpp:2906
 #, fuzzy, kde-format
 #| msgctxt "Hours and Minutes"
 #| msgid "%1H %2M"
@@ -5849,7 +5860,7 @@ msgctxt "@info/plain Hours and minutes"
 msgid "%1h %2m"
 msgstr "%1H %2M"
 
-#: alarmevent.cpp:2875 alarmevent.cpp:2912
+#: alarmevent.cpp:2873 alarmevent.cpp:2910
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Day"
@@ -5857,7 +5868,7 @@ msgid_plural "%1 Days"
 msgstr[0] "1 Dag"
 msgstr[1] "%1 Dae"
 
-#: alarmevent.cpp:2877 alarmevent.cpp:2913
+#: alarmevent.cpp:2875 alarmevent.cpp:2911
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Week"
@@ -5865,7 +5876,7 @@ msgid_plural "%1 Weeks"
 msgstr[0] "1 Week"
 msgstr[1] "%1 Weke"
 
-#: alarmevent.cpp:2879
+#: alarmevent.cpp:2877
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Month"
@@ -5873,7 +5884,7 @@ msgid_plural "%1 Months"
 msgstr[0] "1 Maand"
 msgstr[1] "%1 Maande"
 
-#: alarmevent.cpp:2881
+#: alarmevent.cpp:2879
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Year"
@@ -5881,12 +5892,12 @@ msgid_plural "%1 Years"
 msgstr[0] "1 Jaar"
 msgstr[1] "%1 Jare"
 
-#: alarmevent.cpp:2887
+#: alarmevent.cpp:2885
 msgctxt "@info/plain No recurrence"
 msgid "None"
 msgstr ""
 
-#: alarmevent.cpp:2915
+#: alarmevent.cpp:2913
 msgctxt "@info/plain No repetition"
 msgid "None"
 msgstr ""
