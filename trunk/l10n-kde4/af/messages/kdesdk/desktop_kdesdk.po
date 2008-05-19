@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdesdk VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-18 05:38+0000\n"
+"POT-Creation-Date: 2008-05-19 06:05+0000\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -57,10 +57,55 @@ msgctxt "GenericName"
 msgid "KDE Template Generator"
 msgstr ""
 
-#: kapptemplate/kapptemplate.desktop:38
+#: kapptemplate/kapptemplate.desktop:11
 msgctxt "Name"
 msgid "KAppTemplate"
 msgstr ""
+
+#: kapptemplate/templates/C++/kapp4/src/%{APPNAMELC}.desktop:3
+#: kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}.desktop:3
+#: kapptemplate/templates/C++/plasmoid/plasma-applet-%{APPNAMELC}.desktop:3
+#: kapptemplate/templates/ruby/kderubyapp/src/%{APPNAMELC}.desktop:3
+#, fuzzy
+#| msgid "Name=${APP_NAME}"
+msgctxt "Name"
+msgid "%{APPNAME}"
+msgstr "Name=${APP_NAME}"
+
+#: kapptemplate/templates/C++/kapp4/src/%{APPNAMELC}.desktop:8
+#, fuzzy
+#| msgid "GenericName=A KDE Application"
+msgctxt "GenericName"
+msgid "A KDE4 Application"
+msgstr "GenericName='n Kde Aansoek"
+
+#: kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}.desktop:8
+#, fuzzy
+#| msgid "GenericName=A KDE KPart Application"
+msgctxt "GenericName"
+msgid "A KDE KPart Application"
+msgstr "GenericName='n Kde K-deel Aansoek"
+
+#: kapptemplate/templates/C++/kpartapp/src/%{APPNAMELC}_part.desktop:3
+#, fuzzy
+#| msgid "Name=${APP_NAME}Part"
+msgctxt "Name"
+msgid "%{APPNAME}Part"
+msgstr "Name=${APP_NAME}Deel"
+
+#: kapptemplate/templates/C++/plasmoid/plasma-applet-%{APPNAMELC}.desktop:4
+#, fuzzy
+#| msgid "Name=${APP_NAME}"
+msgctxt "Comment"
+msgid "Plasma %{APPNAME}"
+msgstr "Name=${APP_NAME}"
+
+#: kapptemplate/templates/ruby/kderubyapp/src/%{APPNAMELC}.desktop:8
+#, fuzzy
+#| msgid "GenericName=A KDE Application"
+msgctxt "GenericName"
+msgid "A KDE4 Ruby Application"
+msgstr "GenericName='n Kde Aansoek"
 
 #: kate/data/kate.desktop:3
 msgctxt "GenericName"
@@ -674,15 +719,3 @@ msgstr "Cvs Voorprogram"
 #, fuzzy
 #~ msgid "Comment=GNU Gettext Message Catalog"
 #~ msgstr "Comment=Boodskap Katalogus"
-
-#~ msgid "Name=${APP_NAME}"
-#~ msgstr "Name=${APP_NAME}"
-
-#~ msgid "GenericName=A KDE Application"
-#~ msgstr "GenericName='n Kde Aansoek"
-
-#~ msgid "GenericName=A KDE KPart Application"
-#~ msgstr "GenericName='n Kde K-deel Aansoek"
-
-#~ msgid "Name=${APP_NAME}Part"
-#~ msgstr "Name=${APP_NAME}Deel"
