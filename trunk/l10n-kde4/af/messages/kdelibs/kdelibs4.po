@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-05-20 07:35+0200\n"
+"POT-Creation-Date: 2008-05-21 08:59+0200\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -73,7 +73,7 @@ msgstr ""
 #. i18n: file ./knewstuff/knewstuff2/ui/DownloadDialog.ui line 156
 #: rc.cpp:23
 #, fuzzy
-msgid "Colaborate"
+msgid "Collaborate"
 msgstr "Colon"
 
 #. i18n: tag label
@@ -249,10 +249,9 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kdeui/dialogs/kcupsoptionspageswidget.ui line 95
-#. i18n: tag string
-#. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 80
-#: rc.cpp:95 rc.cpp:936
+#: rc.cpp:95
 #, fuzzy
+msgctxt "Banner page at start"
 msgid "Start"
 msgstr "Begin"
 
@@ -261,6 +260,7 @@ msgstr "Begin"
 #: rc.cpp:98
 #, fuzzy
 #| msgid "End"
+msgctxt "Banner page at end"
 msgid "End"
 msgstr "Einde"
 
@@ -1768,8 +1768,7 @@ msgstr ""
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 90
 #: rc.cpp:788 rc.cpp:939 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:353
-#: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:186
-#: kross/ui/view.cpp:309
+#: khtml/ecma/kjs_debugwin.cpp:482 kross/ui/view.cpp:309
 msgid "Stop"
 msgstr "Stop"
 
@@ -1850,6 +1849,13 @@ msgstr ""
 #: rc.cpp:933
 msgid "Displays Thread Activity"
 msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 80
+#: rc.cpp:936
+#, fuzzy
+msgid "Start"
+msgstr "Begin"
 
 #. i18n: tag string
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 185
@@ -6438,9 +6444,9 @@ msgid "Top to Bottom, Right to Left"
 msgstr ""
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:191
-#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:212
-#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:235
-#: kdeui/dialogs/kshortcuteditwidget.cpp:58
+#, fuzzy
+#| msgid "None"
+msgctxt "No border line"
 msgid "None"
 msgstr "Geen"
 
@@ -6466,18 +6472,35 @@ msgstr "Dubbel Grootte"
 msgid "Double Thick Line"
 msgstr "Dubbel Grootte"
 
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:212
+#: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:235
+#, fuzzy
+#| msgid "None"
+msgctxt "Banner page"
+msgid "None"
+msgstr "Geen"
+
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:213
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:236
+#, fuzzy
+#| msgid "Standard"
+msgctxt "Banner page"
 msgid "Standard"
 msgstr "Standaard"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:214
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:237
+#, fuzzy
+#| msgid "Class"
+msgctxt "Banner page"
 msgid "Unclassified"
-msgstr ""
+msgstr "Klas"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:215
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:238
+#, fuzzy
+#| msgid "Confidential"
+msgctxt "Banner page"
 msgid "Confidential"
 msgstr "Konfidentiëel"
 
@@ -6485,6 +6508,7 @@ msgstr "Konfidentiëel"
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:239
 #, fuzzy
 #| msgid "Class"
+msgctxt "Banner page"
 msgid "Classified"
 msgstr "Klas"
 
@@ -6492,13 +6516,17 @@ msgstr "Klas"
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:240
 #, fuzzy
 #| msgid "Security"
+msgctxt "Banner page"
 msgid "Secret"
 msgstr "Sekuriteit"
 
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:218
 #: kdeui/dialogs/kcupsoptionspageswidget_p.cpp:241
+#, fuzzy
+#| msgid "Security"
+msgctxt "Banner page"
 msgid "Top Secret"
-msgstr ""
+msgstr "Sekuriteit"
 
 #. i18n: Filter for the Yes-button text in standard message dialogs,
 #. after the message caption/text have been translated.
@@ -7124,6 +7152,10 @@ msgstr "Maak Boodskap Toe"
 #| msgid "Default"
 msgid "Default:"
 msgstr "Verstek"
+
+#: kdeui/dialogs/kshortcuteditwidget.cpp:58
+msgid "None"
+msgstr "Geen"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:61
 #, fuzzy
@@ -11860,7 +11892,7 @@ msgid "Available Tests: %1 (ignored: %2)"
 msgstr ""
 
 #: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:178
+#: khtml/ecma/debugger/debugwindow.cpp:176
 msgid "Continue"
 msgstr "Gaan voort"
 
@@ -11981,7 +12013,7 @@ msgstr "Gaan voort"
 msgid "St&op"
 msgstr "Stop"
 
-#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:185
+#: khtml/ecma/kjs_debugwin.cpp:476 khtml/ecma/debugger/debugwindow.cpp:170
 msgid "&Break at Next Statement"
 msgstr "Breek by Volgende Stelling"
 
@@ -11990,7 +12022,7 @@ msgctxt "Next breakpoint"
 msgid "Next"
 msgstr "Volgende"
 
-#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:594
+#: khtml/ecma/kjs_debugwin.cpp:848 khtml/ecma/debugger/debugwindow.cpp:580
 #, kde-format
 msgid "Parse error at %1 line %2"
 msgstr "Lees fout by %1 lyn %2"
@@ -12006,7 +12038,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:631
+#: khtml/ecma/kjs_debugwin.cpp:870 khtml/ecma/debugger/debugwindow.cpp:617
 #, kde-format
 msgid ""
 "An error occurred while attempting to run a script on this page.\n"
@@ -12121,14 +12153,13 @@ msgstr ""
 "JavaScript gaan oopmaak.<br>Wil jy dit toelaat?"
 
 #: khtml/ecma/debugger/debugdocument.cpp:210
-#: khtml/ecma/debugger/debugwindow.cpp:128
 msgid ""
-"A KDE text-editor component could not be found;\n"
+"Unable to find the Kate editor component;\n"
 "please check your KDE installation."
 msgstr ""
 
 #: khtml/ecma/debugger/debugdocument.cpp:327
-msgid "Breakpoints"
+msgid "Breakpoint"
 msgstr ""
 
 #: khtml/ecma/debugger/scriptsdock.cpp:39
@@ -12146,43 +12177,52 @@ msgstr ""
 msgid "Reference"
 msgstr "Verwysing fout"
 
-#: khtml/ecma/debugger/debugwindow.cpp:180
-#: khtml/ecma/debugger/debugwindow.cpp:181
+#: khtml/ecma/debugger/debugwindow.cpp:171
 #, fuzzy
-msgid "Continue script execution"
-msgstr "Gaan voort operasie"
+#| msgid "&Break at Next Statement"
+msgid "Break at Next"
+msgstr "Breek by Volgende Stelling"
 
-#: khtml/ecma/debugger/debugwindow.cpp:192
-#: khtml/ecma/debugger/debugwindow.cpp:194
-#: khtml/ecma/debugger/debugwindow.cpp:195
+#: khtml/ecma/debugger/debugwindow.cpp:183
+#, fuzzy
+msgid "Step Over"
+msgstr "Stap"
+
+#: khtml/ecma/debugger/debugwindow.cpp:190
 #, fuzzy
 msgid "Step Into"
 msgstr "Stap"
 
-#: khtml/ecma/debugger/debugwindow.cpp:199
-#: khtml/ecma/debugger/debugwindow.cpp:201
-#: khtml/ecma/debugger/debugwindow.cpp:202
+#: khtml/ecma/debugger/debugwindow.cpp:197
 #, fuzzy
 msgid "Step Out"
 msgstr "Stap"
 
 #: khtml/ecma/debugger/debugwindow.cpp:206
-#: khtml/ecma/debugger/debugwindow.cpp:208
-#: khtml/ecma/debugger/debugwindow.cpp:209
-#, fuzzy
-msgid "Step Over"
-msgstr "Stap"
+msgid "&Debug"
+msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:249
+#: khtml/ecma/debugger/debugwindow.cpp:235
 #, fuzzy
 #| msgid "Close Document"
 msgid "Close source"
 msgstr "Maak Dokument toe"
 
-#: khtml/ecma/debugger/debugwindow.cpp:255
+#: khtml/ecma/debugger/debugwindow.cpp:241
 #, fuzzy
 msgid "Ready"
 msgstr "Herlaai"
+
+#: khtml/ecma/debugger/debugwindow.cpp:796
+msgid ""
+"Don't know where to evaluate the expression. Please pause a script or open a "
+"source file."
+msgstr ""
+
+#: khtml/ecma/debugger/debugwindow.cpp:832
+#, kde-format
+msgid "Evaluation threw an exception %1"
+msgstr ""
 
 #: khtml/ecma/debugger/consoledock.cpp:231
 #, fuzzy
@@ -13011,7 +13051,7 @@ msgstr[1] ""
 msgid "Search Plugins"
 msgstr "Soek Kolomme"
 
-#: kutils/kpluginselector.cpp:723
+#: kutils/kpluginselector.cpp:728
 #, fuzzy, kde-format
 #| msgid "Name:"
 msgid ""
@@ -13019,7 +13059,7 @@ msgid ""
 "%1"
 msgstr "Naam:"
 
-#: kutils/kpluginselector.cpp:726
+#: kutils/kpluginselector.cpp:731
 #, fuzzy, kde-format
 msgid ""
 "\n"
@@ -13028,7 +13068,7 @@ msgid ""
 "%1"
 msgstr "Kommentaar"
 
-#: kutils/kpluginselector.cpp:730
+#: kutils/kpluginselector.cpp:735
 #, fuzzy, kde-format
 #| msgid "Author:"
 msgid ""
@@ -13038,7 +13078,7 @@ msgid ""
 "%1"
 msgstr "Outeur:"
 
-#: kutils/kpluginselector.cpp:734
+#: kutils/kpluginselector.cpp:739
 #, fuzzy, kde-format
 msgid ""
 "\n"
@@ -13047,7 +13087,7 @@ msgid ""
 "%1"
 msgstr "E-pos"
 
-#: kutils/kpluginselector.cpp:738
+#: kutils/kpluginselector.cpp:743
 #, kde-format
 msgid ""
 "\n"
@@ -13056,7 +13096,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: kutils/kpluginselector.cpp:742
+#: kutils/kpluginselector.cpp:747
 #, fuzzy, kde-format
 #| msgid "Version:"
 msgid ""
@@ -13066,7 +13106,7 @@ msgid ""
 "%1"
 msgstr "Weergawe:"
 
-#: kutils/kpluginselector.cpp:746
+#: kutils/kpluginselector.cpp:751
 #, fuzzy, kde-format
 #| msgid "License:"
 msgid ""
@@ -13076,7 +13116,7 @@ msgid ""
 "%1"
 msgstr "Lisensie:"
 
-#: kutils/kpluginselector.cpp:749
+#: kutils/kpluginselector.cpp:754
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgid "About Plugin \"%1\""
@@ -14185,6 +14225,10 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "No such function \"%1\""
 msgstr "Geen kieslys item: '%1'."
+
+#, fuzzy
+#~ msgid "Continue script execution"
+#~ msgstr "Gaan voort operasie"
 
 #, fuzzy
 #~| msgid "None"
