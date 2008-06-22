@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-06-18 10:53+0200\n"
+"POT-Creation-Date: 2008-06-22 03:12+0200\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -956,7 +956,7 @@ msgstr "Vertoon %1 Nutsbalk"
 msgid "Hide %1 Toolbar"
 msgstr "Vertoon %1 Nutsbalk"
 
-#: main/KoMainWindow.cpp:1760 kopageapp/KoPADocumentStructureDocker.cpp:87
+#: main/KoMainWindow.cpp:1760 kopageapp/KoPADocumentStructureDocker.cpp:91
 #, fuzzy
 msgid "Document"
 msgstr "Open Dokument"
@@ -3147,7 +3147,9 @@ msgstr ""
 msgid "Color Chooser"
 msgstr "Kleure:"
 
-#: guiutils/KoPageLayoutDialog.cpp:55 kopageapp/KoPADocumentModel.cpp:160
+#: guiutils/KoPageLayoutDialog.cpp:55
+#: kopageapp/KoPADocumentStructureDocker.cpp:105
+#: kopageapp/KoPADocumentModel.cpp:160
 #, fuzzy
 msgid "Page"
 msgstr "Volgende styl:"
@@ -3753,73 +3755,79 @@ msgstr "Plak Teks"
 msgid "Paste Page"
 msgstr "Plak Teks"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:97
+#: kopageapp/KoPADocumentStructureDocker.cpp:99
 #, fuzzy
-msgid "Add a new layer"
+msgid "Add a new page or layer"
 msgstr "Nuwe reel"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:103
+#: kopageapp/KoPADocumentStructureDocker.cpp:106
+#: kopageapp/KoPADocumentModel.cpp:163
+#, fuzzy
+msgid "Layer"
+msgstr "Rooi"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:113
 #, fuzzy
 #| msgid "Remove Selected Text"
 msgid "Delete selected objects"
 msgstr "Verwyder Gekose Teks"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:109
+#: kopageapp/KoPADocumentStructureDocker.cpp:119
 #, fuzzy
 #| msgid "Remove Selected Text"
 msgid "Raise selected objects"
 msgstr "Verwyder Gekose Teks"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:115
+#: kopageapp/KoPADocumentStructureDocker.cpp:125
 #, fuzzy
 msgid "Lower selected objects"
 msgstr "Open Dokument"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:124
+#: kopageapp/KoPADocumentStructureDocker.cpp:134
 msgid "Minimal View"
 msgstr ""
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:126
+#: kopageapp/KoPADocumentStructureDocker.cpp:136
 msgid "Detailed View"
 msgstr ""
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:128
+#: kopageapp/KoPADocumentStructureDocker.cpp:138
 msgid "Thumbnail View"
 msgstr ""
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:138
+#: kopageapp/KoPADocumentStructureDocker.cpp:148
 #, fuzzy
 #| msgid "Change Borders"
 msgid "View mode"
 msgstr "Verander Grense"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:243
+#: kopageapp/KoPADocumentStructureDocker.cpp:252
 msgid "New Layer"
 msgstr ""
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:243
+#: kopageapp/KoPADocumentStructureDocker.cpp:252
 msgid "Enter the name of the new layer:"
 msgstr ""
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:244
+#: kopageapp/KoPADocumentStructureDocker.cpp:253
 msgid "New layer"
 msgstr ""
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:250
+#: kopageapp/KoPADocumentStructureDocker.cpp:259
 #, fuzzy
 msgid "Create Layer"
 msgstr "Skep Werkvoorbeeld"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:278
+#: kopageapp/KoPADocumentStructureDocker.cpp:287
 #, fuzzy
 msgid "Delete Layer"
 msgstr "Uitvee Teks"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:282
+#: kopageapp/KoPADocumentStructureDocker.cpp:291
 msgid "Could not delete all layers. At least one layer is required."
 msgstr ""
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:282
+#: kopageapp/KoPADocumentStructureDocker.cpp:291
 msgid "Error deleting layers"
 msgstr ""
 
@@ -3906,11 +3914,6 @@ msgstr "Plak Teks"
 #: kopageapp/KoPAView.cpp:242
 msgid "Variable"
 msgstr "Veranderlike"
-
-#: kopageapp/KoPADocumentModel.cpp:163
-#, fuzzy
-msgid "Layer"
-msgstr "Rooi"
 
 #: kopageapp/KoPADocumentModel.cpp:166
 #, fuzzy
