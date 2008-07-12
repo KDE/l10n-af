@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-08 14:30+0200\n"
+"POT-Creation-Date: 2008-07-12 06:45+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -448,21 +448,80 @@ msgstr "Vooraf gedefinieerde Gradiënte"
 msgid "Choose Pattern to Add"
 msgstr "Kies kleur"
 
-#: ui/widgets/KarbonSmallStylePreview.cpp:96
-#: ui/widgets/KarbonSmallStylePreview.cpp:165
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:34
+msgid "Original"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:35
+#, fuzzy
+msgid "Tiled"
+msgstr "Opvul"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:36
+msgid "Stretched"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:38
+#, fuzzy
+#| msgid "Predefined"
+msgid "Undefined"
+msgstr "Vooraf gedefinieerde"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:39
+msgid "Top Left"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:40
+msgid "Top"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:41
+#, fuzzy
+msgid "Top Right"
+msgstr "Opvul Objekte"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:42
+msgid "Left"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:43
+msgid "Center"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:44
+#, fuzzy
+#| msgid "Height:"
+msgid "Right"
+msgstr "Hoogte:"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:45
+msgid "Bottom Left"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:46
+#, fuzzy
+msgid "Bottom"
+msgstr "Opvul Objekte"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:47
+msgid "Bottom Right"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:98
+#: ui/widgets/KarbonSmallStylePreview.cpp:168
 msgid "None"
 msgstr "Geen"
 
-#: ui/widgets/KarbonSmallStylePreview.cpp:157
+#: ui/widgets/KarbonSmallStylePreview.cpp:160
 msgid "Custom"
 msgstr ""
 
-#: ui/widgets/KarbonSmallStylePreview.cpp:183
+#: ui/widgets/KarbonSmallStylePreview.cpp:188
 #, fuzzy
 msgid "Stroke:"
 msgstr "Kies kleur"
 
-#: ui/widgets/KarbonSmallStylePreview.cpp:189
+#: ui/widgets/KarbonSmallStylePreview.cpp:194
 #, fuzzy
 #| msgid "Fill"
 msgid "Fill:"
@@ -571,6 +630,16 @@ msgstr "Gradiënt"
 #, fuzzy
 msgid "Gradient Editing Tool"
 msgstr "Gradiënt"
+
+#: plugins/tools/KarbonPatternTool.cpp:248
+#, fuzzy
+msgid "Edit Pattern"
+msgstr "Patrone"
+
+#: plugins/tools/KarbonPatternTool.cpp:249
+#, fuzzy
+msgid "Choose Pattern"
+msgstr "Kies kleur"
 
 #: plugins/tools/KarbonPatternToolFactory.cpp:29
 #, fuzzy
@@ -774,20 +843,12 @@ msgstr "duim"
 #~ msgstr "Relatiewe sentrum"
 
 #, fuzzy
-#~ msgid "Align Right"
-#~ msgstr "Opvul Objekte"
-
-#, fuzzy
 #~ msgid "Align Top"
 #~ msgstr "Opvul Objekte"
 
 #, fuzzy
 #~ msgid "Align Middle (Vertical)"
 #~ msgstr "Relatiewe sentrum"
-
-#, fuzzy
-#~ msgid "Align Bottom"
-#~ msgstr "Opvul Objekte"
 
 #, fuzzy
 #~ msgid "Distribute Center (Horizontal)"
@@ -879,9 +940,6 @@ msgstr "duim"
 
 #~ msgid "Join"
 #~ msgstr "Aansluit by"
-
-#~ msgid "Height:"
-#~ msgstr "Hoogte:"
 
 #, fuzzy
 #~ msgid "Layers:"
@@ -1521,9 +1579,6 @@ msgstr "duim"
 #, fuzzy
 #~ msgid "Shear Tool"
 #~ msgstr "Steilheid"
-
-#~ msgid "Predefined"
-#~ msgstr "Vooraf gedefinieerde"
 
 #, fuzzy
 #~ msgid "<qt><b>Image tool:</b><br>"
