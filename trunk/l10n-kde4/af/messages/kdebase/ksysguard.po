@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-03 08:18+0200\n"
+"POT-Creation-Date: 2008-08-04 08:27+0200\n"
 "PO-Revision-Date: 2005-11-24 09:31+0200\n"
 "Last-Translator: Kobus Venter <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -17,12 +17,12 @@ msgstr ""
 "X-Generator: KBabel 1.10\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: WorkSheet.cc:93 KSysGuardApplet.cc:306
+#: WorkSheet.cc:93
 #, kde-format
 msgid "Cannot open the file %1."
 msgstr "Kan nie die lêer %1 oopmaak."
 
-#: WorkSheet.cc:101 KSysGuardApplet.cc:315
+#: WorkSheet.cc:101
 #, kde-format
 msgid "The file %1 does not contain valid XML."
 msgstr "Die lêer %1 bevat nie die geldige Xml nie."
@@ -41,7 +41,7 @@ msgstr ""
 msgid "The file %1 has an invalid worksheet size."
 msgstr "Die lêer %1 het 'n ongeldige werkvel grootte."
 
-#: WorkSheet.cc:234 KSysGuardApplet.cc:459
+#: WorkSheet.cc:234
 #, kde-format
 msgid "Cannot save file %1"
 msgstr "Kan nie stoor lêer %1"
@@ -50,7 +50,7 @@ msgstr "Kan nie stoor lêer %1"
 msgid "The clipboard does not contain a valid display description."
 msgstr "Die klipbord doen nie bevat 'n geldige vertoon beskrywing."
 
-#: WorkSheet.cc:331 KSysGuardApplet.cc:200
+#: WorkSheet.cc:331
 msgid "Select Display Type"
 msgstr "Kies Vertoon Tipe"
 
@@ -72,19 +72,18 @@ msgstr "Balkgrafiek"
 msgid "Log to a &file"
 msgstr "Log Lêer"
 
-#: WorkSheet.cc:505 KSysGuardApplet.cc:241
+#: WorkSheet.cc:505
 #, fuzzy
 msgid "Do you really want to delete the display?"
 msgstr "Wil jy werklik die verstek werksblaaie herstel?"
 
-#: WorkSheet.cc:506 KSysGuardApplet.cc:241
+#: WorkSheet.cc:506
 #, fuzzy
 msgid "Delete Display"
 msgstr "Kies Vertoon Tipe"
 
 #: WorkSheet.cc:525 WorkSheet.cc:528 WorkSheet.cc:530 WorkSheet.cc:532
-#: WorkSheet.cc:534 WorkSheet.cc:536 WorkSheet.cc:540 KSysGuardApplet.cc:377
-#: KSysGuardApplet.cc:379 KSysGuardApplet.cc:381
+#: WorkSheet.cc:534 WorkSheet.cc:536 WorkSheet.cc:540
 msgid "Dummy"
 msgstr ""
 
@@ -647,50 +646,59 @@ msgstr ""
 msgid "e.g. ssh -l root remote.host.org ksysguardd"
 msgstr "e.g. ssh -l root afgeleë.bediener.org ksysguardd"
 
-#: Workspace.cc:46
+#: Workspace.cc:47
+#, fuzzy
+#| msgid ""
+#| "This is your work space. It holds your worksheets. You need to create a "
+#| "new worksheet (Menu File->New) before you can drag sensors here."
 msgid ""
-"This is your work space. It holds your worksheets. You need to create a new "
-"worksheet (Menu File->New) before you can drag sensors here."
+"This is your work space. It holds your tabs. You need to create a new tab "
+"(Menu File->New) before you can drag sensors here."
 msgstr ""
 "Hierdie is jou werksruimte. Dit hou jou werksblaaie. Jy het nodig om 'n nuwe "
 "werkblad te maak (Kielys Lêer-Nuut) voordat jy hier sensore kan trek-"
 
-#: Workspace.cc:106
+#: Workspace.cc:107
 #, kde-format
 msgid "Sheet %1"
 msgstr "Staat %1"
 
-#: Workspace.cc:161
-#, kde-format
+#: Workspace.cc:162
+#, fuzzy, kde-format
+#| msgid ""
+#| "The worksheet '%1' contains unsaved data.\n"
+#| "Do you want to save the worksheet?"
 msgid ""
-"The worksheet '%1' contains unsaved data.\n"
-"Do you want to save the worksheet?"
+"The tab '%1' contains unsaved data.\n"
+"Do you want to save the tab?"
 msgstr ""
 "Die werkvel '%1' bevat ongestoorde data.\n"
 "Doen jy wil hê na stoor Die werkvel?"
 
-#: Workspace.cc:176
+#: Workspace.cc:177
 #, fuzzy
 #| msgid "*.sgrd|Sensor Files"
 msgid "*.sgrd|Sensor Files (*.sgrd)"
 msgstr "*.sgrd|Sensor Lêers"
 
-#: Workspace.cc:176
-#, fuzzy
-msgid "Select Worksheet to Open"
-msgstr "Kies Werkvel na Las"
+#: Workspace.cc:177
+msgid "Select Tab file to Import"
+msgstr ""
 
-#: Workspace.cc:204 Workspace.cc:225
-msgid "You do not have a worksheet that could be saved."
+#: Workspace.cc:205 Workspace.cc:226
+#, fuzzy
+#| msgid "You do not have a worksheet that could be saved."
+msgid "You do not have a tab that could be saved."
 msgstr "Jy het nie 'n werkvel wat gestoor kon wees nie."
 
-#: Workspace.cc:232
-#, fuzzy
-msgid "Export Work Sheet"
-msgstr "Voer Werksblad Uit"
+#: Workspace.cc:233
+msgid "Export Tab"
+msgstr ""
 
-#: Workspace.cc:250
-msgid "There are no worksheets that could be deleted."
+#: Workspace.cc:251
+#, fuzzy
+#| msgid "There are no worksheets that could be deleted."
+msgid "There are no tabs that could be deleted."
 msgstr "Daar is geen werkvelle wat verwyder kon word nie."
 
 #: KSGAppletSettings.cc:34
@@ -1377,8 +1385,9 @@ msgid "Network History"
 msgstr "Netwerk"
 
 #: WorkSheetSettings.cc:40
-msgid "Worksheet Properties"
-msgstr "Werkvel Eienskappe"
+#, fuzzy
+msgid "Tab Properties"
+msgstr "Eienskappe"
 
 #: WorkSheetSettings.cc:62
 #, fuzzy
@@ -1405,39 +1414,6 @@ msgstr "Invoer die nommer van kolomme die staat moet het."
 msgid "Enter the title of the worksheet here."
 msgstr "Invoer die titel van die werkvel hier."
 
-#: KSysGuardApplet.cc:201
-msgid "&Signal Plotter"
-msgstr "Sein Plotter"
-
-#: KSysGuardApplet.cc:202
-msgid "&Multimeter"
-msgstr "Multimeter"
-
-#: KSysGuardApplet.cc:203
-msgid "&Dancing Bars"
-msgstr "Dans Stawe"
-
-#: KSysGuardApplet.cc:223 KSysGuardApplet.cc:383
-msgid ""
-"The KSysGuard applet does not support displaying of this type of sensor. "
-"Please choose another sensor."
-msgstr ""
-"Die Ksysguard miniprogram doen nie ondersteun vertooning van hierdie tipe "
-"van sensor. Asseblief kies nog 'n sensor."
-
-#: KSysGuardApplet.cc:322
-#, kde-format
-msgid ""
-"The file %1 does not contain a valid applet definition, which must have a "
-"document type 'KSysGuardApplet'."
-msgstr ""
-"Die lêer %1 doen nie bevat 'n geldige miniprogram definisie, wat moet het 'n "
-"dokument tipe 'KSysGuardApplet'."
-
-#: KSysGuardApplet.cc:478
-msgid "Drag sensors from the KDE System Guard into this cell."
-msgstr "Trek sensors van die Kde Stelsel Wag binnein hierdie sel."
-
 #: SensorBrowser.cc:116
 msgid "Sensor Browser"
 msgstr "Sensor Blaaier"
@@ -1461,127 +1437,127 @@ msgstr ""
 "veelvuldige sensors. Eenvoudig trek ander sensors op na Die vertoon na voeg "
 "by meer sensors."
 
-#: ksysguard.cc:74
+#: ksysguard.cc:73
 #, fuzzy
 msgid "KDE System Monitor"
 msgstr "Kde Stelsel Wag"
 
-#: ksysguard.cc:151 ksysguard.cc:542
+#: ksysguard.cc:150 ksysguard.cc:541
 #, fuzzy
 msgid "System Monitor"
 msgstr "Stelsel Las"
 
+#: ksysguard.cc:151
+msgid "&New Tab..."
+msgstr ""
+
 #: ksysguard.cc:152
-msgid "&New Worksheet..."
-msgstr "Nuwe Werksblad"
+msgid "Import Tab Fr&om File..."
+msgstr ""
 
 #: ksysguard.cc:153
-#, fuzzy
-#| msgid "&New Worksheet..."
-msgid "Open Worksheet..."
-msgstr "Nuwe Werksblad"
+msgid "Save Tab &As..."
+msgstr ""
 
 #: ksysguard.cc:154
-msgid "&Export Worksheet..."
-msgstr "Voer Werksblad Uit"
+msgid "&Close Tab"
+msgstr ""
 
 #: ksysguard.cc:155
-msgid "&Remove Worksheet"
-msgstr "Verwyder Werksblad"
+msgid "Monitor &Remote Machine..."
+msgstr ""
 
 #: ksysguard.cc:156
-msgid "Monitor remote machine..."
-msgstr ""
+#, fuzzy
+#| msgid "&New Worksheet..."
+msgid "&Download New Tabs..."
+msgstr "Nuwe Werksblad"
 
 #: ksysguard.cc:157
 #, fuzzy
-#| msgid "&New Worksheet..."
-msgid "Download new worksheets..."
-msgstr "Nuwe Werksblad"
+#| msgid "&Properties"
+msgid "Tab &Properties"
+msgstr "Eienskappe"
 
-#: ksysguard.cc:158
-msgid "&Worksheet Properties"
-msgstr "Werkvel Eienskappe"
-
-#: ksysguard.cc:450
+#: ksysguard.cc:449
 #, fuzzy, kde-format
 msgid " %1 processes "
 msgstr "1 Proses"
 
-#: ksysguard.cc:456
+#: ksysguard.cc:455
 #, fuzzy, kde-format
 msgid " CPU: %1% "
 msgstr "CPU%1"
 
-#: ksysguard.cc:470
+#: ksysguard.cc:469
 #, kde-format
 msgid " Memory: %1 / %2 "
 msgstr ""
 
-#: ksysguard.cc:497
+#: ksysguard.cc:496
 #, fuzzy
 msgid " No swap space available "
 msgstr "Geen uitruil ruimte beskikbaar"
 
-#: ksysguard.cc:499
+#: ksysguard.cc:498
 #, kde-format
 msgid " Swap: %1 / %2 "
 msgstr ""
 
-#: ksysguard.cc:544
+#: ksysguard.cc:543
 #, fuzzy
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr "(c) 1996-2002 Die Ksysguard Ontwikkelaars"
 
-#: ksysguard.cc:545
+#: ksysguard.cc:544
 msgid "John Tapsell"
 msgstr ""
 
-#: ksysguard.cc:545
+#: ksysguard.cc:544
 msgid "Current Maintainer"
 msgstr ""
 
-#: ksysguard.cc:546
+#: ksysguard.cc:545
 msgid "Chris Schlaeger"
 msgstr ""
 
-#: ksysguard.cc:546
+#: ksysguard.cc:545
 msgid "Previous Maintainer"
 msgstr ""
 
-#: ksysguard.cc:547
+#: ksysguard.cc:546
 msgid "Greg Martyn"
 msgstr ""
 
-#: ksysguard.cc:548
+#: ksysguard.cc:547
 msgid "Tobias Koenig"
 msgstr ""
 
-#: ksysguard.cc:549
+#: ksysguard.cc:548
 msgid "Nicolas Leclercq"
 msgstr ""
 
-#: ksysguard.cc:550
+#: ksysguard.cc:549
 msgid "Alex Sanda"
 msgstr ""
 
-#: ksysguard.cc:551
+#: ksysguard.cc:550
 msgid "Bernd Johannes Wuebben"
 msgstr ""
 
-#: ksysguard.cc:552
+#: ksysguard.cc:551
 msgid "Ralf Mueller"
 msgstr ""
 
-#: ksysguard.cc:553
+#: ksysguard.cc:552
 msgid "Hamish Rodda"
 msgstr ""
 
-#: ksysguard.cc:554
+#: ksysguard.cc:553
 msgid "Torsten Kasch"
 msgstr ""
 
-#: ksysguard.cc:554
+#: ksysguard.cc:553
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
@@ -1591,9 +1567,63 @@ msgstr ""
 "Dele gebruik (met toestemming) van die sunos5\n"
 "module van William LeFebvre se \"top\" program."
 
-#: ksysguard.cc:563
+#: ksysguard.cc:562
 msgid "Optional worksheet files to load"
 msgstr "Opsionele werkvel lêers na las"
+
+#, fuzzy
+#~ msgid "Select Worksheet to Open"
+#~ msgstr "Kies Werkvel na Las"
+
+#, fuzzy
+#~ msgid "Export Work Sheet"
+#~ msgstr "Voer Werksblad Uit"
+
+#~ msgid "Worksheet Properties"
+#~ msgstr "Werkvel Eienskappe"
+
+#~ msgid "&Signal Plotter"
+#~ msgstr "Sein Plotter"
+
+#~ msgid "&Multimeter"
+#~ msgstr "Multimeter"
+
+#~ msgid "&Dancing Bars"
+#~ msgstr "Dans Stawe"
+
+#~ msgid ""
+#~ "The KSysGuard applet does not support displaying of this type of sensor. "
+#~ "Please choose another sensor."
+#~ msgstr ""
+#~ "Die Ksysguard miniprogram doen nie ondersteun vertooning van hierdie tipe "
+#~ "van sensor. Asseblief kies nog 'n sensor."
+
+#~ msgid ""
+#~ "The file %1 does not contain a valid applet definition, which must have a "
+#~ "document type 'KSysGuardApplet'."
+#~ msgstr ""
+#~ "Die lêer %1 doen nie bevat 'n geldige miniprogram definisie, wat moet het "
+#~ "'n dokument tipe 'KSysGuardApplet'."
+
+#~ msgid "Drag sensors from the KDE System Guard into this cell."
+#~ msgstr "Trek sensors van die Kde Stelsel Wag binnein hierdie sel."
+
+#~ msgid "&New Worksheet..."
+#~ msgstr "Nuwe Werksblad"
+
+#, fuzzy
+#~| msgid "&New Worksheet..."
+#~ msgid "Open Worksheet..."
+#~ msgstr "Nuwe Werksblad"
+
+#~ msgid "&Export Worksheet..."
+#~ msgstr "Voer Werksblad Uit"
+
+#~ msgid "&Remove Worksheet"
+#~ msgstr "Verwyder Werksblad"
+
+#~ msgid "&Worksheet Properties"
+#~ msgstr "Werkvel Eienskappe"
 
 #, fuzzy
 #~ msgid "Import Worksheet..."
