@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-12 08:34+0200\n"
+"POT-Creation-Date: 2008-08-13 09:03+0200\n"
 "PO-Revision-Date: 2005-11-25 11:24+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -992,7 +992,7 @@ msgstr "Laat you kies 'n area en stoor die lêer weer."
 msgid "File Changed on Disk"
 msgstr "Lêer het verander op Disket"
 
-#: dialogs/katedialogs.cpp:1185 document/katedocument.cpp:5271
+#: dialogs/katedialogs.cpp:1185 document/katedocument.cpp:5235
 msgid "&Reload File"
 msgstr "Herlaai Lêer"
 
@@ -1019,7 +1019,7 @@ msgstr ""
 "Doen niks. Die volgende keer wat jy op hierdie lêer fokus, of probeer om dit "
 "te stoor of dit toe te maak sal jy weer gepor word."
 
-#: dialogs/katedialogs.cpp:1207 document/katedocument.cpp:5270
+#: dialogs/katedialogs.cpp:1207 document/katedocument.cpp:5234
 msgid "What do you want to do?"
 msgstr "Wat wil jy doen?"
 
@@ -1240,7 +1240,7 @@ msgstr "Lyn: %1"
 msgid " BLOCK "
 msgstr " Blk "
 
-#: tests/katetest.cpp:648 document/katedocument.cpp:5160
+#: tests/katetest.cpp:648 document/katedocument.cpp:5124
 #, fuzzy
 msgid "Untitled"
 msgstr "Onbeperk"
@@ -6190,29 +6190,23 @@ msgstr ""
 "<B>%1</B>: Spesifiseerde meerlyn aanbeveel area (%2) kon nie heropgelos word "
 "nie<BR>"
 
-#: document/katedocument.cpp:148
+#: document/katedocument.cpp:138
 #, kde-format
 msgid ""
-"You are trying to save a python file as non ASCII, without specifiying a "
-"correct source encoding line for encoding \"%1\""
+"The filter/check plugin '%1' could not be found, still continue saving of %2"
 msgstr ""
 
-#: document/katedocument.cpp:149
-msgid "No encoding header"
+#: document/katedocument.cpp:139
+msgid "Saving problems"
 msgstr ""
 
-#: document/katedocument.cpp:150
-#, fuzzy, kde-format
-msgid "Insert: %1"
-msgstr "Lyn: %1"
-
-#: document/katedocument.cpp:151 document/katedocument.cpp:3531
-#: document/katedocument.cpp:3545 document/katedocument.cpp:3551
-#: document/katedocument.cpp:3562
+#: document/katedocument.cpp:140 document/katedocument.cpp:3487
+#: document/katedocument.cpp:3501 document/katedocument.cpp:3507
+#: document/katedocument.cpp:3518
 msgid "Save Nevertheless"
 msgstr "Stoor nogsteeds"
 
-#: document/katedocument.cpp:3471 document/katedocument.cpp:3476
+#: document/katedocument.cpp:3427 document/katedocument.cpp:3432
 #, kde-format
 msgid ""
 "The file %1 could not be loaded, as it was not possible to read from it.\n"
@@ -6224,18 +6218,18 @@ msgstr ""
 "\n"
 "Kyk of jy lees toegang tot hierdie lêer het."
 
-#: document/katedocument.cpp:3487 document/katedocument.cpp:3492
-#: document/katedocument.cpp:3529
+#: document/katedocument.cpp:3443 document/katedocument.cpp:3448
+#: document/katedocument.cpp:3485
 #, kde-format
 msgid "The file %1 is a binary, saving it will result in a corrupt file."
 msgstr ""
 "Die lêer %1 is 'n binêre, stoor daarvan sal in ' korrupte lêer tot gevolg hê."
 
-#: document/katedocument.cpp:3488
+#: document/katedocument.cpp:3444
 msgid "Binary File Opened"
 msgstr "Binêre Lêer Oopgemaak"
 
-#: document/katedocument.cpp:3504 document/katedocument.cpp:3510
+#: document/katedocument.cpp:3460 document/katedocument.cpp:3466
 #, kde-format
 msgid ""
 "The file %1 was opened with UTF-8 encoding but contained invalid characters. "
@@ -6244,16 +6238,16 @@ msgid ""
 "mode again in the menu to be able to edit it."
 msgstr ""
 
-#: document/katedocument.cpp:3507
+#: document/katedocument.cpp:3463
 #, fuzzy
 msgid "Broken UTF-8 File Opened"
 msgstr "Binêre Lêer Oopgemaak"
 
-#: document/katedocument.cpp:3530
+#: document/katedocument.cpp:3486
 msgid "Trying to Save Binary File"
 msgstr "Probeer om binêre Lêer te stoor"
 
-#: document/katedocument.cpp:3545
+#: document/katedocument.cpp:3501
 msgid ""
 "Do you really want to save this unmodified file? You could overwrite changed "
 "data in the file on disk."
@@ -6261,11 +6255,11 @@ msgstr ""
 "Wil jy regtig hierdie onmodifiseerde lêer stoor? Jy kan oorskryf veranderde "
 "data in die lêer op die skyf."
 
-#: document/katedocument.cpp:3545
+#: document/katedocument.cpp:3501
 msgid "Trying to Save Unmodified File"
 msgstr "Probeer om onveranderde Lêer te stoor"
 
-#: document/katedocument.cpp:3551
+#: document/katedocument.cpp:3507
 msgid ""
 "Do you really want to save this file? Both your open file and the file on "
 "disk were changed. There could be some data lost."
@@ -6273,12 +6267,12 @@ msgstr ""
 "Wil jy regtig hierdie lêer stoor? Beide you geopende lêer en die lêer op die "
 "skyf was verander. Daar kan sommige data verlies wees."
 
-#: document/katedocument.cpp:3551 document/katedocument.cpp:3562
-#: document/katedocument.cpp:3798
+#: document/katedocument.cpp:3507 document/katedocument.cpp:3518
+#: document/katedocument.cpp:3770
 msgid "Possible Data Loss"
 msgstr "Moontlike Data Verlies"
 
-#: document/katedocument.cpp:3562
+#: document/katedocument.cpp:3518
 msgid ""
 "The selected encoding cannot encode every unicode character in this "
 "document. Do you really want to save it? There could be some data lost."
@@ -6286,7 +6280,7 @@ msgstr ""
 "Die verkose enkodering van nie enkodeer elke unikode karakter in hierdie "
 "dokument. Wil jy dit werklik stoor? Daar kan somige data verlies wees."
 
-#: document/katedocument.cpp:3626
+#: document/katedocument.cpp:3582
 #, kde-format
 msgid ""
 "For file %1 no backup copy could be created before saving. If an error "
@@ -6295,16 +6289,16 @@ msgid ""
 "only for you."
 msgstr ""
 
-#: document/katedocument.cpp:3629
+#: document/katedocument.cpp:3585
 msgid "Failed to create backup copy."
 msgstr ""
 
-#: document/katedocument.cpp:3630
+#: document/katedocument.cpp:3586
 #, fuzzy
 msgid "Try to Save Nevertheless"
 msgstr "Stoor nogsteeds"
 
-#: document/katedocument.cpp:3661
+#: document/katedocument.cpp:3620
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -6318,48 +6312,48 @@ msgstr ""
 "Kontroleur dat jy skryf toegang het na hierdie lêer of dat daar genoeg skryf "
 "spasie beskikbaar is."
 
-#: document/katedocument.cpp:3797
+#: document/katedocument.cpp:3769
 msgid "Do you really want to continue to close this file? Data loss may occur."
 msgstr ""
 "Wil jy regtig voortgaan om die lêer te sluit? Data verlies mag voorkom."
 
-#: document/katedocument.cpp:3798
+#: document/katedocument.cpp:3770
 msgid "Close Nevertheless"
 msgstr "Maak nogsteeds toe"
 
-#: document/katedocument.cpp:5192 document/katedocument.cpp:5354
-#: document/katedocument.cpp:5943
+#: document/katedocument.cpp:5156 document/katedocument.cpp:5318
+#: document/katedocument.cpp:5907
 msgid "Save File"
 msgstr "Stoor Lêer"
 
-#: document/katedocument.cpp:5201
+#: document/katedocument.cpp:5165
 msgid "Save failed"
 msgstr "Stoor gevaal"
 
-#: document/katedocument.cpp:5271
+#: document/katedocument.cpp:5235
 msgid "File Was Changed on Disk"
 msgstr "Lêer Was Verander op Disket"
 
-#: document/katedocument.cpp:5271
+#: document/katedocument.cpp:5235
 msgid "&Ignore Changes"
 msgstr "Ignoreer Veranderinge"
 
-#: document/katedocument.cpp:5855
+#: document/katedocument.cpp:5819
 #, kde-format
 msgid "The file '%1' was modified by another program."
 msgstr "Die lêer '%1' was modifiseerd deur 'n ander program."
 
-#: document/katedocument.cpp:5858
+#: document/katedocument.cpp:5822
 #, kde-format
 msgid "The file '%1' was created by another program."
 msgstr "Die lêer '%1' is gemaak deur 'n ander program."
 
-#: document/katedocument.cpp:5861
+#: document/katedocument.cpp:5825
 #, kde-format
 msgid "The file '%1' was deleted by another program."
 msgstr "Die lêer '%1' was uitgevee deur 'n ander program."
 
-#: document/katedocument.cpp:5971
+#: document/katedocument.cpp:5935
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
@@ -6367,26 +6361,30 @@ msgstr ""
 "'n lêer genaamd \"%1\" alreeds bestaan. Word jy seker jy wil hê na oorskryf "
 "dit?"
 
-#: document/katedocument.cpp:5973
+#: document/katedocument.cpp:5937
 msgid "Overwrite File?"
 msgstr "Oorskryf Lêer?"
 
-#: document/katedocument.cpp:5974
+#: document/katedocument.cpp:5938
 msgid "&Overwrite"
 msgstr "Oorskryf"
 
-#: document/katedocument.cpp:6333
+#: document/katedocument.cpp:6297
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save your changes or discard them?"
 msgstr ""
 
-#: document/katedocument.cpp:6335
+#: document/katedocument.cpp:6299
 #, fuzzy
 #| msgid "&Word Wrap Document"
 msgid "Close Document"
 msgstr "Woord Oorvloei Dokument"
+
+#, fuzzy
+#~ msgid "Insert: %1"
+#~ msgstr "Lyn: %1"
 
 #~ msgid "Spellcheck"
 #~ msgstr "Spelltoetser"
