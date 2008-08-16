@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-14 08:47+0200\n"
+"POT-Creation-Date: 2008-08-16 09:58+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -51,61 +51,68 @@ msgstr "Doen jy wil hê na verwyder die huidige bladsy?"
 msgid "Confirm action"
 msgstr "Stoor Opstelling..."
 
-#: part/ui/KPrConfigureSlideShowDialog.cpp:42
+#: part/ui/KPrConfigurePresenterViewDialog.cpp:42
 #, kde-format
 msgid "Monitor %1 (primary)"
 msgstr ""
 
-#: part/ui/KPrConfigureSlideShowDialog.cpp:45
+#: part/ui/KPrConfigurePresenterViewDialog.cpp:45
 #, kde-format
 msgid "Monitor %1"
 msgstr ""
 
-#: part/ui/KPrConfigureSlideShowDialog.cpp:54
+#: part/ui/KPrConfigurePresenterViewDialog.cpp:54
 #, fuzzy
-msgid "Configure Slide Show"
-msgstr "Skyfievertoning"
+#| msgid "Configure KPresenter"
+msgid "Configure Presenter View"
+msgstr "Konfigureer Kpresenter"
 
-#: part/KPrView.cpp:100
-#, fuzzy
-#| msgid "Presentation"
-msgid "Start Presentation"
-msgstr "Aanbieding"
-
-#: part/KPrView.cpp:103
-#, fuzzy
-msgid "From Current Page"
-msgstr "Na Huidige Bladsy"
-
-#: part/KPrView.cpp:106
-msgid "From First Page"
-msgstr ""
-
-#: part/KPrView.cpp:110
+#: part/KPrView.cpp:101
 msgid "Normal"
 msgstr "Normale"
 
-#: part/KPrView.cpp:116
+#: part/KPrView.cpp:107
 #, fuzzy
 #| msgid "Note"
 msgid "Notes"
 msgstr "Nota"
 
-#: part/KPrView.cpp:125
+#: part/KPrView.cpp:116
 #, fuzzy
 #| msgid "Create HTML Presentation"
 msgid "Create Appear Animation"
 msgstr "Skep Html Aanbieding"
 
-#: part/KPrView.cpp:129
+#: part/KPrView.cpp:120
 #, fuzzy
 msgid "Edit Custom Slide Shows..."
 msgstr "Konfigureer Voltooiïng..."
 
-#: part/KPrView.cpp:133
+#: part/KPrView.cpp:124
+#, fuzzy
+#| msgid "Presentation"
+msgid "Start Presentation"
+msgstr "Aanbieding"
+
+#: part/KPrView.cpp:127
+#, fuzzy
+msgid "From Current Page"
+msgstr "Na Huidige Bladsy"
+
+#: part/KPrView.cpp:130
+msgid "From First Page"
+msgstr ""
+
+#: part/KPrView.cpp:134
 #, fuzzy
 msgid "Configure Slide Show..."
 msgstr "Konfigureer Voltooiïng..."
+
+#: part/KPrView.cpp:138
+#, fuzzy
+#| msgid "Configure KPresenter..."
+msgid "Configure Presenter View..."
+msgstr "Konfigureer Kpresenter..."
 
 #: part/tools/animationtool/KPrAnimationToolFactory.cpp:30
 msgid "Animation Tool"
@@ -371,7 +378,7 @@ msgstr "Pastei"
 #. i18n: tag text
 #. i18n: file kpresenter.rc line 52
 #. i18n: tag text
-#. i18n: file ./part/kpresenter.rc line 50
+#. i18n: file ./part/kpresenter.rc line 48
 #. i18n: tag text
 #. i18n: file ./kpresenter.rc line 52
 #: rc.cpp:12 rc.cpp:233 rc.cpp:254
@@ -399,7 +406,7 @@ msgstr "Vorm"
 #. i18n: tag text
 #. i18n: file kpresenter.rc line 89
 #. i18n: tag text
-#. i18n: file ./part/kpresenter.rc line 53
+#. i18n: file ./part/kpresenter.rc line 51
 #. i18n: tag text
 #. i18n: file ./kpresenter.rc line 89
 #: rc.cpp:21 rc.cpp:236 rc.cpp:263
@@ -511,10 +518,12 @@ msgstr "Aktiveer Outokorreksie"
 #. i18n: tag text
 #. i18n: file kpresenter_readonly.rc line 12
 #. i18n: tag text
+#. i18n: file ./part/kpresenter.rc line 66
+#. i18n: tag text
 #. i18n: file ./kpresenter.rc line 163
 #. i18n: tag text
 #. i18n: file ./kpresenter_readonly.rc line 12
-#: rc.cpp:45 rc.cpp:138 rc.cpp:287 rc.cpp:380
+#: rc.cpp:45 rc.cpp:138 rc.cpp:242 rc.cpp:287 rc.cpp:380
 #, fuzzy
 msgid "Sli&de Show"
 msgstr "Skyfievertoning"
@@ -522,10 +531,8 @@ msgstr "Skyfievertoning"
 #. i18n: tag text
 #. i18n: file kpresenter.rc line 178
 #. i18n: tag text
-#. i18n: file ./part/kpresenter.rc line 56
-#. i18n: tag text
 #. i18n: file ./kpresenter.rc line 178
-#: rc.cpp:48 rc.cpp:239 rc.cpp:290
+#: rc.cpp:48 rc.cpp:290
 #, fuzzy
 msgid "&Settings"
 msgstr "Gids soeklys Instellings"
@@ -754,20 +761,20 @@ msgid "Close"
 msgstr "Kleur:"
 
 #. i18n: tag string
-#. i18n: file ./part/ui/KPrConfigureSlideShow.ui line 16
+#. i18n: file ./part/ui/KPrConfigurePresenterView.ui line 16
 #: rc.cpp:182
 msgid "Multiple monitors"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./part/ui/KPrConfigureSlideShow.ui line 24
+#. i18n: file ./part/ui/KPrConfigurePresenterView.ui line 24
 #: rc.cpp:185
 #, fuzzy
 msgid "Presentation monitor:"
 msgstr "Aanbieding"
 
 #. i18n: tag string
-#. i18n: file ./part/ui/KPrConfigureSlideShow.ui line 39
+#. i18n: file ./part/ui/KPrConfigurePresenterView.ui line 39
 #: rc.cpp:188
 msgid "Enable presenter view"
 msgstr ""
@@ -855,8 +862,8 @@ msgid "&Crop"
 msgstr "Bo:"
 
 #. i18n: tag Text
-#. i18n: file ./part/kpresenter.rc line 61
-#: rc.cpp:242
+#. i18n: file ./part/kpresenter.rc line 55
+#: rc.cpp:239
 msgid "&Page"
 msgstr "Bladsy"
 
@@ -879,7 +886,7 @@ msgstr "In voer Styl..."
 
 #: plugins/pageeffects/matrixwipe/boxsnakes/KPrBoxSnakesWipeEffectFactory.cpp:29
 #, fuzzy
-msgid "Box Snakes Wipe Effect"
+msgid "Box Snakes"
 msgstr "Nee Effek"
 
 #: plugins/pageeffects/matrixwipe/boxsnakes/KPrBoxSnakesWipeEffectFactory.cpp:50
@@ -989,7 +996,7 @@ msgstr ""
 
 #: plugins/pageeffects/matrixwipe/waterfallwipe/KPrWaterfallWipeEffectFactory.cpp:32
 #, fuzzy
-msgid "Waterfall Wipe Effect"
+msgid "Waterfall"
 msgstr "Nee Effek"
 
 #: plugins/pageeffects/matrixwipe/waterfallwipe/KPrWaterfallWipeEffectFactory.cpp:49
@@ -1042,7 +1049,7 @@ msgstr "Intersluit Horisontaal 1"
 
 #: plugins/pageeffects/matrixwipe/parallelsnakes/KPrParallelSnakesWipeEffectFactory.cpp:31
 #, fuzzy
-msgid "Parallel Snakes Wipe Effect"
+msgid "Parallel Snakes"
 msgstr "Nee Effek"
 
 #: plugins/pageeffects/matrixwipe/parallelsnakes/KPrParallelSnakesWipeEffectFactory.cpp:60
@@ -1143,8 +1150,8 @@ msgstr ""
 
 #: plugins/pageeffects/matrixwipe/spiralwipe/KPrSpiralWipeEffectFactory.cpp:29
 #, fuzzy
-msgid "Spiral Wipe Effect"
-msgstr "Nee Effek"
+msgid "Spiral"
+msgstr "Vorm"
 
 #: plugins/pageeffects/matrixwipe/spiralwipe/KPrSpiralWipeEffectFactory.cpp:54
 #, fuzzy
@@ -1244,8 +1251,8 @@ msgstr "Kom Van Bodem"
 
 #: plugins/pageeffects/matrixwipe/snakewipe/KPrSnakeWipeEffectFactory.cpp:36
 #, fuzzy
-msgid "Snake Wipe Effect"
-msgstr "Nee Effek"
+msgid "Snake"
+msgstr "Vorm"
 
 #: plugins/pageeffects/matrixwipe/snakewipe/KPrSnakeWipeEffectFactory.cpp:53
 #: plugins/pageeffects/clockwipe/saloondoorwipe/KPrSaloonDoorWipeEffectFactory.cpp:47
@@ -1327,8 +1334,9 @@ msgstr "Kom Van Bodem"
 
 #: plugins/pageeffects/iriswipe/pentagonWipe/KPrPentagonWipeEffectFactory.cpp:31
 #, fuzzy
-msgid "Pentagon Wipe Effect"
-msgstr "Nee Effek"
+#| msgid "Presentation"
+msgid "Pentagon"
+msgstr "Aanbieding"
 
 #: plugins/pageeffects/iriswipe/pentagonWipe/KPrPentagonWipeEffectFactory.cpp:66
 #: plugins/pageeffects/iriswipe/triangleWipe/KPrTriangleWipeEffectFactory.cpp:84
@@ -1364,8 +1372,9 @@ msgstr "Vertikaal Lyne"
 
 #: plugins/pageeffects/iriswipe/roundRectWipe/KPrRoundRectWipeEffectFactory.cpp:31
 #, fuzzy
-msgid "RoundRect Wipe Effect"
-msgstr "Nee Effek"
+#| msgid "Sound effect"
+msgid "RoundRect"
+msgstr "Klank effek"
 
 #: plugins/pageeffects/iriswipe/roundRectWipe/KPrRoundRectWipeEffectFactory.cpp:64
 #: plugins/pageeffects/iriswipe/ellipseWipe/KPrEllipseWipeEffectFactory.cpp:65
@@ -1412,9 +1421,8 @@ msgid "Vertical Reverse"
 msgstr "Vertikaal Lyne"
 
 #: plugins/pageeffects/iriswipe/miscShapeWipe/KPrMiscShapeWipeEffectFactory.cpp:29
-#, fuzzy
-msgid "Misc Wipe Effect"
-msgstr "Nee Effek"
+msgid "Misc"
+msgstr "Allerande"
 
 #: plugins/pageeffects/iriswipe/miscShapeWipe/KPrMiscShapeWipeEffectFactory.cpp:61
 #, fuzzy
@@ -1439,9 +1447,8 @@ msgid "Keyhole Reverse"
 msgstr "Vertikaal Lyne"
 
 #: plugins/pageeffects/iriswipe/ellipseWipe/KPrEllipseWipeEffectFactory.cpp:30
-#, fuzzy
-msgid "Ellipse Wipe Effect"
-msgstr "Nee Effek"
+msgid "Ellipse"
+msgstr "Elipse"
 
 #: plugins/pageeffects/iriswipe/ellipseWipe/KPrEllipseWipeEffectFactory.cpp:63
 msgid "Circle"
@@ -1454,9 +1461,8 @@ msgid "Circle Reverse"
 msgstr "Vertikaal Lyne"
 
 #: plugins/pageeffects/iriswipe/irisWipe/KPrIrisWipeEffectFactory.cpp:9
-#, fuzzy
-msgid "Iris Wipe Effect"
-msgstr "Nee Effek"
+msgid "Iris"
+msgstr ""
 
 #: plugins/pageeffects/iriswipe/irisWipe/KPrIrisWipeEffectFactory.cpp:39
 #, fuzzy
@@ -1483,19 +1489,18 @@ msgid "Diamond Reverse"
 msgstr "Horisontaal Lyne"
 
 #: plugins/pageeffects/iriswipe/eyeWipe/KPrEyeWipeEffectFactory.cpp:31
-#, fuzzy
-msgid "Eye Wipe Effect"
-msgstr "Nee Effek"
+msgid "Eye"
+msgstr ""
 
 #: plugins/pageeffects/iriswipe/hexagonWipe/KPrHexagonWipeEffectFactory.cpp:37
-#, fuzzy
-msgid "Hexagon Wipe Effect"
-msgstr "Nee Effek"
+msgid "Hexagon"
+msgstr ""
 
 #: plugins/pageeffects/iriswipe/triangleWipe/KPrTriangleWipeEffectFactory.cpp:30
 #, fuzzy
-msgid "Triangle Wipe Effect"
-msgstr "Nee Effek"
+#| msgid "Tiled"
+msgid "Triangle"
+msgstr "Geteël"
 
 #: plugins/pageeffects/iriswipe/triangleWipe/KPrTriangleWipeEffectFactory.cpp:86
 #: plugins/pageeffects/iriswipe/arrowHeadWipe/KPrArrowHeadWipeEffectFactory.cpp:90
@@ -1527,13 +1532,13 @@ msgstr "Vertikaal Lyne"
 
 #: plugins/pageeffects/iriswipe/arrowHeadWipe/KPrArrowHeadWipeEffectFactory.cpp:31
 #, fuzzy
-msgid "ArrowHead Wipe Effect"
+msgid "ArrowHead"
 msgstr "Nee Effek"
 
 #: plugins/pageeffects/iriswipe/starWipe/KPrStarWipeEffectFactory.cpp:38
 #, fuzzy
-msgid "Star Wipe Effect"
-msgstr "Nee Effek"
+msgid "Star"
+msgstr "Gaan na Begin"
 
 #: plugins/pageeffects/iriswipe/starWipe/KPrStarWipeEffectFactory.cpp:102
 msgid "Four Point Star"
@@ -1567,7 +1572,7 @@ msgstr "Horisontaal Lyne"
 
 #: plugins/pageeffects/clockwipe/doublesweepwipe/KPrDoubleSweepWipeEffectFactory.cpp:28
 #, fuzzy
-msgid "Double Sweep Wipe Effect"
+msgid "Double Sweep"
 msgstr "Nee Effek"
 
 #: plugins/pageeffects/clockwipe/doublesweepwipe/KPrDoubleSweepWipeEffectFactory.cpp:49
@@ -1640,8 +1645,8 @@ msgstr "Kom Van Bodem"
 
 #: plugins/pageeffects/clockwipe/fanwipe/KPrFanWipeEffectFactory.cpp:29
 #, fuzzy
-msgid "Fan Wipe Effect"
-msgstr "Nee Effek"
+msgid "Fan"
+msgstr "6% Opvul Patroon"
 
 #: plugins/pageeffects/clockwipe/fanwipe/KPrFanWipeEffectFactory.cpp:51
 #: plugins/pageeffects/edgewipe/boxwipe/BoxWipeEffectFactory.cpp:50
@@ -1718,7 +1723,7 @@ msgstr "Kom Van Links"
 
 #: plugins/pageeffects/clockwipe/pinwheelwipe/KPrPinWheelWipeEffectFactory.cpp:28
 #, fuzzy
-msgid "Pin Wheel Wipe Effect"
+msgid "Pin Wheel"
 msgstr "Nee Effek"
 
 #: plugins/pageeffects/clockwipe/pinwheelwipe/KPrPinWheelWipeEffectFactory.cpp:43
@@ -1747,8 +1752,8 @@ msgstr ""
 
 #: plugins/pageeffects/clockwipe/clockwipe/KPrClockWipeEffectFactory.cpp:28
 #, fuzzy
-msgid "Clock Wipe Effect"
-msgstr "Nee Effek"
+msgid "Clock"
+msgstr "Kleur:"
 
 #: plugins/pageeffects/clockwipe/clockwipe/KPrClockWipeEffectFactory.cpp:45
 msgid "From Twelve Clockwise"
@@ -1784,7 +1789,7 @@ msgstr ""
 
 #: plugins/pageeffects/clockwipe/saloondoorwipe/KPrSaloonDoorWipeEffectFactory.cpp:28
 #, fuzzy
-msgid "Saloon Door Wipe Effect"
+msgid "Saloon Door"
 msgstr "Nee Effek"
 
 #: plugins/pageeffects/clockwipe/saloondoorwipe/KPrSaloonDoorWipeEffectFactory.cpp:50
@@ -1814,13 +1819,14 @@ msgstr "Omhulsel Regterkant"
 
 #: plugins/pageeffects/clockwipe/windshieldwipe/KPrWindShieldWipeEffectFactory.cpp:28
 #, fuzzy
-msgid "Windshield Wipe Effect"
+msgid "Windshield"
 msgstr "Nee Effek"
 
 #: plugins/pageeffects/clockwipe/doublefanwipe/KPrDoubleFanWipeEffectFactory.cpp:29
 #, fuzzy
-msgid "Double Fan Wipe Effect"
-msgstr "Nee Effek"
+#| msgid "Double Arrow"
+msgid "Double Fan"
+msgstr "Dubbel Pyl"
 
 #: plugins/pageeffects/clockwipe/doublefanwipe/KPrDoubleFanWipeEffectFactory.cpp:44
 #, fuzzy
@@ -1860,7 +1866,7 @@ msgstr "Horisontaal Lyne"
 
 #: plugins/pageeffects/clockwipe/singlesweepwipe/KPrSingleSweepWipeEffectFactory.cpp:28
 #, fuzzy
-msgid "Single Sweep Wipe Effect"
+msgid "Single Sweep"
 msgstr "Nee Effek"
 
 #: plugins/pageeffects/clockwipe/singlesweepwipe/KPrSingleSweepWipeEffectFactory.cpp:69
@@ -1947,19 +1953,17 @@ msgid "Clockwise Top Right"
 msgstr "Kom Van Regterkant"
 
 #: plugins/pageeffects/barwipe/KPrBarWipeEffectFactory.cpp:31
-#, fuzzy
-msgid "Bar Wipe Effect"
-msgstr "Nee Effek"
+msgid "Bar"
+msgstr ""
 
 #: plugins/pageeffects/slidewipe/KPrSlideWipeEffectFactory.cpp:36
 #, fuzzy
-msgid "Slide Wipe Effect"
-msgstr "Nee Effek"
+msgid "Slide"
+msgstr "Skuif"
 
 #: plugins/pageeffects/edgewipe/fourboxwipe/FourBoxWipeEffectFactory.cpp:29
-#, fuzzy
-msgid "Four Box Wipe Effect"
-msgstr "Nee Effek"
+msgid "Four Box"
+msgstr ""
 
 #: plugins/pageeffects/edgewipe/fourboxwipe/FourBoxWipeEffectFactory.cpp:42
 #, fuzzy
@@ -1981,8 +1985,8 @@ msgstr ""
 
 #: plugins/pageeffects/edgewipe/miscdiagonalwipe/MiscDiagonalWipeEffectFactory.cpp:29
 #, fuzzy
-msgid "Misc Diagonal Wipe Effect"
-msgstr "Nee Effek"
+msgid "Misc Diagonal"
+msgstr "Diagonale Gradiënt 1"
 
 #: plugins/pageeffects/edgewipe/miscdiagonalwipe/MiscDiagonalWipeEffectFactory.cpp:40
 #, fuzzy
@@ -1997,19 +2001,18 @@ msgid "Double Diamond"
 msgstr "Dubbel Pyl"
 
 #: plugins/pageeffects/edgewipe/barnveewipe/BarnVeeWipeEffectFactory.cpp:28
-#, fuzzy
-msgid "Barn Vee Wipe Effect"
-msgstr "Nee Effek"
+msgid "Barn Vee"
+msgstr ""
 
 #: plugins/pageeffects/edgewipe/zigzagwipe/ZigZagWipeEffectFactory.cpp:28
-#, fuzzy
-msgid "Zig Zag Wipe Effect"
-msgstr "Nee Effek"
+msgid "Zig Zag"
+msgstr ""
 
 #: plugins/pageeffects/edgewipe/barndoorwipe/BarnDoorWipeEffectFactory.cpp:28
 #, fuzzy
-msgid "Barn Door Wipe Effect"
-msgstr "Nee Effek"
+#| msgid "Double Arrow"
+msgid "Barn Door"
+msgstr "Dubbel Pyl"
 
 #: plugins/pageeffects/edgewipe/barndoorwipe/BarnDoorWipeEffectFactory.cpp:49
 #, fuzzy
@@ -2032,17 +2035,16 @@ msgstr ""
 
 #: plugins/pageeffects/edgewipe/diagonalwipe/DiagonalWipeEffectFactory.cpp:28
 #, fuzzy
-msgid "Diagonal Wipe Effect"
-msgstr "Nee Effek"
+msgid "Diagonal"
+msgstr "Diagonale Gradiënt 1"
 
 #: plugins/pageeffects/edgewipe/veewipe/VeeWipeEffectFactory.cpp:28
-#, fuzzy
-msgid "Vee Wipe Effect"
-msgstr "Nee Effek"
+msgid "Vee"
+msgstr ""
 
 #: plugins/pageeffects/edgewipe/barnzigzagwipe/BarnZigZagWipeEffectFactory.cpp:28
 #, fuzzy
-msgid "Barn Zig Zag Wipe Effect"
+msgid "Barn Zig Zag"
 msgstr "Nee Effek"
 
 #: plugins/pageeffects/edgewipe/barnzigzagwipe/BarnZigZagWipeEffectFactory.cpp:43
@@ -2058,9 +2060,108 @@ msgid "Horizontal Reversed"
 msgstr "Horisontaal Lyne"
 
 #: plugins/pageeffects/edgewipe/boxwipe/BoxWipeEffectFactory.cpp:28
+msgid "Box"
+msgstr ""
+
 #, fuzzy
-msgid "Box Wipe Effect"
-msgstr "Nee Effek"
+#~ msgid "Configure Slide Show"
+#~ msgstr "Skyfievertoning"
+
+#, fuzzy
+#~ msgid "Spiral Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Snake Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Pentagon Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "RoundRect Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Misc Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Ellipse Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Iris Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Eye Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Hexagon Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Triangle Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Star Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Fan Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Clock Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Double Fan Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Bar Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Slide Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Four Box Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Misc Diagonal Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Barn Vee Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Zig Zag Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Barn Door Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Diagonal Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Vee Wipe Effect"
+#~ msgstr "Nee Effek"
+
+#, fuzzy
+#~ msgid "Box Wipe Effect"
+#~ msgstr "Nee Effek"
 
 #, fuzzy
 #~| msgid "Format"
@@ -2150,10 +2251,6 @@ msgstr "Nee Effek"
 #~ msgstr "Opskrif"
 
 #, fuzzy
-#~ msgid "Flatten"
-#~ msgstr "6% Opvul Patroon"
-
-#, fuzzy
 #~ msgid "Intensity"
 #~ msgstr "Pen styl:"
 
@@ -2179,10 +2276,6 @@ msgstr "Nee Effek"
 
 #, fuzzy
 #~ msgid "Sharpen"
-#~ msgstr "Vorm"
-
-#, fuzzy
-#~ msgid "Spread"
 #~ msgstr "Vorm"
 
 #, fuzzy
@@ -2508,9 +2601,6 @@ msgstr "Nee Effek"
 #~ msgid "Scaled"
 #~ msgstr "Lokalisering"
 
-#~ msgid "Tiled"
-#~ msgstr "Geteël"
-
 #~ msgid "Apply &Global"
 #~ msgstr "Wend aan Globale"
 
@@ -2536,10 +2626,6 @@ msgstr "Nee Effek"
 
 #~ msgid "Diagonal Crossing Lines"
 #~ msgstr "Diagonale Kruisende Lyne"
-
-#, fuzzy
-#~ msgid "Diagonal 1"
-#~ msgstr "Diagonale Gradiënt 1"
 
 #, fuzzy
 #~ msgid "Diagonal 2"
@@ -2711,9 +2797,6 @@ msgstr "Nee Effek"
 #~ msgid "Modify Slide Transition For All Pages"
 #~ msgstr "Skuif Titel"
 
-#~ msgid "Configure KPresenter"
-#~ msgstr "Konfigureer Kpresenter"
-
 #~ msgid "Interface"
 #~ msgstr "Koppelvlak"
 
@@ -2722,9 +2805,6 @@ msgstr "Nee Effek"
 
 #~ msgid "Spelling"
 #~ msgstr "Spelling"
-
-#~ msgid "Misc"
-#~ msgstr "Allerande"
 
 #~ msgid "Document"
 #~ msgstr "Dokument"
@@ -3029,9 +3109,6 @@ msgstr "Nee Effek"
 #~ msgid "Timer of the object:"
 #~ msgstr "Tydhouer van die voorwerp:"
 
-#~ msgid "Sound effect"
-#~ msgstr "Klank effek"
-
 #~ msgid "File name:"
 #~ msgstr "Lêer naam:"
 
@@ -3303,10 +3380,6 @@ msgstr "Nee Effek"
 #, fuzzy
 #~ msgid "Measure presentation &duration"
 #~ msgstr "Vertoon aanbieding duur"
-
-#, fuzzy
-#~ msgid "&Slides"
-#~ msgstr "Skuif"
 
 #, fuzzy
 #~ msgid "Custom slide:"
@@ -3711,9 +3784,6 @@ msgstr "Nee Effek"
 #~ msgid "Page &Layout..."
 #~ msgstr "Bladsy Uitleg..."
 
-#~ msgid "Configure KPresenter..."
-#~ msgstr "Konfigureer Kpresenter..."
-
 #~ msgid "Create &HTML Slideshow..."
 #~ msgstr "Skep Html Skyfievertoning..."
 
@@ -3758,10 +3828,6 @@ msgstr "Nee Effek"
 #, fuzzy
 #~ msgid "Edit Slide &Transition..."
 #~ msgstr "Skuif Titel"
-
-#, fuzzy
-#~ msgid "&Start"
-#~ msgstr "Gaan na Begin"
 
 #~ msgid "&Go to Start"
 #~ msgstr "Gaan na Begin"
@@ -4259,9 +4325,6 @@ msgstr "Nee Effek"
 
 #~ msgid "Autoform"
 #~ msgstr "Outo-vorm"
-
-#~ msgid "Ellipse"
-#~ msgstr "Elipse"
 
 #~ msgid "Polyline"
 #~ msgstr "Polilyn"
