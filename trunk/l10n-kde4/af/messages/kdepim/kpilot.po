@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpilot VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-31 10:09+0200\n"
+"POT-Creation-Date: 2008-09-03 10:09+0200\n"
 "PO-Revision-Date: 2002-11-07 11:38+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -267,14 +267,17 @@ msgid "End date: %1"
 msgstr "Staat:"
 
 #: lib/pilotDateEntry.cc:203
+msgctxt "Number of minutes"
 msgid "minutes"
 msgstr ""
 
 #: lib/pilotDateEntry.cc:204
+msgctxt "Number of hours"
 msgid "hours"
 msgstr ""
 
 #: lib/pilotDateEntry.cc:205
+msgctxt "Number of days"
 msgid "days"
 msgstr ""
 
@@ -285,18 +288,22 @@ msgid "Alarm: %1 %2 before event starts"
 msgstr ""
 
 #: lib/pilotDateEntry.cc:219
+msgctxt "The weekday(s) on which the repeat occurs"
 msgid "day(s)"
 msgstr ""
 
 #: lib/pilotDateEntry.cc:220
+msgctxt "The week(s) in which the repeat occurs"
 msgid "week(s)"
 msgstr ""
 
 #: lib/pilotDateEntry.cc:222
+msgctxt "The month(s) in which the repeat occurs"
 msgid "month(s)"
 msgstr ""
 
 #: lib/pilotDateEntry.cc:223
+msgctxt "The year(s) in which the repeat occurs"
 msgid "year(s)"
 msgstr ""
 
@@ -468,7 +475,7 @@ msgstr ""
 msgid "Verbose debugging"
 msgstr "Stel ontfouting vlak"
 
-#: tests/testdatebook.cc:47 conduits/keyringconduit/keyringeditor/main.cc:29
+#: tests/testdatebook.cc:47 conduits/keyringconduit/keyringeditor/main.cc:54
 msgid "Test Date Book"
 msgstr ""
 
@@ -623,6 +630,7 @@ msgid "PC"
 msgstr ""
 
 #: conduits/null/null-factory.cc:69 conduits/null/null-conduit.cc:60
+msgctxt "This is the Null conduit, used for testing"
 msgid "Null"
 msgstr ""
 
@@ -641,7 +649,7 @@ msgstr ""
 #: conduits/null/null-factory.cc:77 conduits/todo/todoconfig.cc:54
 #: conduits/calendar/calendarconfig.cc:54
 #: conduits/contacts/contactsconfig.cc:54 conduits/docconduit/kpalmdoc.cpp:47
-#: conduits/notepadconduit/notepad-factory.cc:90
+#: conduits/notepadconduit/notepad-factory.cc:91
 #: conduits/popmail/setupDialog.cc:71 kpilot/kpilotConfig.h:124
 msgid "Adriaan de Groot"
 msgstr ""
@@ -652,8 +660,8 @@ msgstr ""
 #: conduits/malconduit/mal-setup.cc:70
 #: conduits/keyringconduit/keyringsetup.cc:55
 #: conduits/timeconduit/time-setup.cc:52
-#: conduits/notepadconduit/notepad-factory.cc:87
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:55
+#: conduits/notepadconduit/notepad-factory.cc:88
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:80
 #: Documentation/base-conduit-template/contacts-setup.cc:52
 msgid "Primary Author"
 msgstr "Primere Outeur"
@@ -734,7 +742,7 @@ msgstr "Onderhouer"
 #: conduits/contacts/contactsconfig.cc:55
 #: conduits/timeconduit/time-setup.cc:51 conduits/docconduit/doc-setup.cc:64
 #: conduits/docconduit/kpalmdoc.cpp:45 kpilot/kpilotConfig.h:130
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:54
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:79
 msgid "Reinhold Kainhofer"
 msgstr ""
 
@@ -885,12 +893,9 @@ msgid "System Information"
 msgstr "Bediener informasie"
 
 #: conduits/sysinfoconduit/sysinfo-conduit.cc:195
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:392
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:393
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:394
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:395
-#: conduits/docconduit/doc-conflictdialog.cc:172
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:391
 #, fuzzy
+msgctxt "Value of the item is unknown"
 msgid "unknown"
 msgstr "[onbekende]"
 
@@ -908,22 +913,22 @@ msgstr "Pop wagwoord:"
 msgid "No Cards available via pilot-link"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:451
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:453
 msgid "No debug data"
 msgstr ""
 
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:578
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:580
 #, fuzzy, kde-format
 msgid "Unable to open output file, using %1 instead."
 msgstr "Nie moontlik na open lêer &quot;%1quot;!"
 
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:583
-#: conduits/notepadconduit/notepad-conduit.cc:76
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:585
+#: conduits/notepadconduit/notepad-conduit.cc:77
 #, fuzzy, kde-format
 msgid "Unable to open %1"
 msgstr "Nie moontlik na open lêer &quot;%1quot;!"
 
-#: conduits/sysinfoconduit/sysinfo-conduit.cc:594
+#: conduits/sysinfoconduit/sysinfo-conduit.cc:596
 #, kde-format
 msgid "Handheld system information written to the file %1"
 msgstr ""
@@ -966,49 +971,49 @@ msgid "Using SOCKS proxy: %1"
 msgstr "Socks volmag"
 
 #: conduits/malconduit/mal-setup.cc:64
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:49
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:74
 #, fuzzy
 msgid "MAL Synchronization Conduit for KPilot"
 msgstr "Tyd Sinkronisasie Pad vir Kpilot"
 
 #: conduits/malconduit/mal-setup.cc:66
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:51
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:76
 msgid "Synchronizes the content from MAL Servers like AvantGo to the Handheld"
 msgstr ""
 
 #: conduits/malconduit/mal-setup.cc:68 conduits/timeconduit/time-setup.cc:50
 #: conduits/docconduit/doc-setup.cc:62
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:53
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:78
 msgid "(C) 2002, Reinhold Kainhofer"
 msgstr ""
 
 #: conduits/malconduit/mal-setup.cc:71
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:56
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:81
 msgid "Jason Day"
 msgstr ""
 
 #: conduits/malconduit/mal-setup.cc:72
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:57
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:82
 msgid "Author of libmal and the JPilot AvantGo conduit"
 msgstr ""
 
 #: conduits/malconduit/mal-setup.cc:73
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:58
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:83
 msgid "Tom Whittaker"
 msgstr ""
 
 #: conduits/malconduit/mal-setup.cc:74
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:59
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:84
 msgid "Author of syncmal"
 msgstr ""
 
 #: conduits/malconduit/mal-setup.cc:75
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:60
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:85
 msgid "AvantGo, Inc."
 msgstr ""
 
 #: conduits/malconduit/mal-setup.cc:76
-#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:61
+#: Documentation/ConduitProgrammingTutorial/mal-factory.cc:86
 msgid "Authors of the malsync library (c) 1997-1999"
 msgstr ""
 
@@ -1400,16 +1405,20 @@ msgid "More Info..."
 msgstr "Bediener informasie"
 
 #: conduits/docconduit/doc-conflictdialog.cc:166
+msgctxt "No changes made"
 msgid "unchanged"
 msgstr ""
 
 #: conduits/docconduit/doc-conflictdialog.cc:167
+msgctxt "New item added"
 msgid "new"
 msgstr ""
 
 #: conduits/docconduit/doc-conflictdialog.cc:168
+#, fuzzy
+msgctxt "Item has changed"
 msgid "changed"
-msgstr ""
+msgstr "Gebruik Stuur pos"
 
 #: conduits/docconduit/doc-conflictdialog.cc:169
 msgid "only bookmarks changed"
@@ -1417,6 +1426,7 @@ msgstr ""
 
 #: conduits/docconduit/doc-conflictdialog.cc:170
 #, fuzzy
+msgctxt "Item was deleted"
 msgid "deleted"
 msgstr "(uitgevee)"
 
@@ -1424,6 +1434,12 @@ msgstr "(uitgevee)"
 #, fuzzy
 msgid "does not exist"
 msgstr " Die poort doen nie bestaan."
+
+#: conduits/docconduit/doc-conflictdialog.cc:172
+#, fuzzy
+msgctxt "Status is unknown"
+msgid "unknown"
+msgstr "[onbekende]"
 
 #: conduits/docconduit/doc-conflictdialog.cc:182
 #, kde-format
@@ -1447,48 +1463,48 @@ msgstr ""
 msgid "Database information"
 msgstr "Databasis Aksie"
 
-#: conduits/notepadconduit/notepad-conduit.cc:56
-#: conduits/notepadconduit/notepad-factory.cc:103
+#: conduits/notepadconduit/notepad-conduit.cc:57
+#: conduits/notepadconduit/notepad-factory.cc:104
 #, fuzzy
 msgid "Notepad"
 msgstr "Geen"
 
-#: conduits/notepadconduit/notepad-conduit.cc:102
+#: conduits/notepadconduit/notepad-conduit.cc:103
 #, kde-format
 msgid "1 notepad could not be saved"
 msgid_plural "%1 notepads could not be saved"
 msgstr[0] ""
 msgstr[1] ""
 
-#: conduits/notepadconduit/notepad-conduit.cc:103
+#: conduits/notepadconduit/notepad-conduit.cc:104
 #, kde-format
 msgid "1 notepad saved"
 msgid_plural "%1 notepads saved"
 msgstr[0] ""
 msgstr[1] ""
 
-#: conduits/notepadconduit/notepad-factory.cc:81
+#: conduits/notepadconduit/notepad-factory.cc:82
 msgid "Saves notepads to png files"
 msgstr ""
 
-#: conduits/notepadconduit/notepad-factory.cc:83
+#: conduits/notepadconduit/notepad-factory.cc:84
 #, fuzzy
 msgid "Configures the Notepad Conduit for KPilot"
 msgstr "Konfigureer die Knotas Pad vir Kpilot"
 
-#: conduits/notepadconduit/notepad-factory.cc:85
+#: conduits/notepadconduit/notepad-factory.cc:86
 msgid "(C) 2004, Joern Ahrens"
 msgstr ""
 
-#: conduits/notepadconduit/notepad-factory.cc:86
+#: conduits/notepadconduit/notepad-factory.cc:87
 msgid "Joern Ahrens"
 msgstr ""
 
-#: conduits/notepadconduit/notepad-factory.cc:91
+#: conduits/notepadconduit/notepad-factory.cc:92
 msgid "Angus Ainslies"
 msgstr ""
 
-#: conduits/notepadconduit/notepad-factory.cc:92
+#: conduits/notepadconduit/notepad-factory.cc:93
 msgid "Notepad conduit is based on Angus' read-notepad, part of pilot-link"
 msgstr ""
 
@@ -1717,6 +1733,7 @@ msgstr "Konfigureer Paaie..."
 
 #: kpilot/pilotDaemon.cc:126
 #, fuzzy, kde-format
+msgctxt "Default sync action"
 msgid "Default (%1)"
 msgstr "Db Spesiaal"
 
