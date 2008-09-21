@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-18 09:52+0200\n"
+"POT-Creation-Date: 2008-09-21 09:47+0200\n"
 "PO-Revision-Date: 2006-06-30 10:01+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -123,7 +123,7 @@ msgstr "Muis knoppie:"
 msgid "Application"
 msgstr "Aksies"
 
-#. i18n: file: kcm_hotkeys/ui/menuentry_action_widget.ui:28
+#. i18n: file: kcm_hotkeys/ui/menuentry_action_widget.ui:32
 #. i18n: ectx: property (text), widget (KPushButton, applicationButton)
 #: rc.cpp:44
 #, fuzzy
@@ -133,7 +133,7 @@ msgstr "Verwyder Aksie"
 
 #. i18n: file: kcm_hotkeys/ui/command_url_action_widget.ui:16
 #. i18n: ectx: property (text), widget (QLabel, commandLabel)
-#: rc.cpp:47 kcm_hotkeys/hotkeys_tree_view.cpp:54
+#: rc.cpp:47 kcm_hotkeys/hotkeys_tree_view.cpp:110
 #, fuzzy
 #| msgid "Command/URL : "
 msgid "Command/URL"
@@ -159,41 +159,43 @@ msgstr ""
 msgid "&Enabled"
 msgstr "Versper"
 
-#: kcm_hotkeys/hotkeys_tree_view.cpp:38
+#: kcm_hotkeys/hotkeys_tree_view.cpp:40
 #, fuzzy
 #| msgid "&Reset"
 msgid "Test"
 msgstr "Herstel"
 
-#: kcm_hotkeys/hotkeys_tree_view.cpp:45
-#, fuzzy
-msgid "Delete"
-msgstr "Verwyder Aksie"
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:51
-#, fuzzy
-#| msgid "Keyboard Shortcut"
-msgid "New Global Shortcut"
-msgstr "Sleutelbord Kortpad"
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:58
-msgid "Dbus Command"
-msgstr ""
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:62
-#, fuzzy
-#| msgid "K-Menu Entry..."
-msgid "K-Menu Entry"
-msgstr "K-Kieslys Inskrywing..."
-
-#: kcm_hotkeys/hotkeys_tree_view.cpp:66 kcm_hotkeys/hotkeys_tree_view.cpp:94
-#: kcm_hotkeys/hotkeys_model.cpp:60
+#: kcm_hotkeys/hotkeys_tree_view.cpp:59 kcm_hotkeys/hotkeys_tree_view.cpp:75
+#: kcm_hotkeys/hotkeys_tree_view.cpp:145 kcm_hotkeys/hotkeys_model.cpp:90
 #, fuzzy
 #| msgid "New &Group"
 msgid "New Group"
 msgstr "Nuwe Groep"
 
-#: kcm_hotkeys/hotkeys_tree_view.cpp:94 kcm_hotkeys/hotkeys_model.cpp:60
+#: kcm_hotkeys/hotkeys_tree_view.cpp:69
+#, fuzzy
+msgid "Delete"
+msgstr "Verwyder Aksie"
+
+#: kcm_hotkeys/hotkeys_tree_view.cpp:91
+#, fuzzy
+#| msgid "Keyboard Shortcut"
+msgid "New Global Shortcut"
+msgstr "Sleutelbord Kortpad"
+
+#: kcm_hotkeys/hotkeys_tree_view.cpp:117
+#, fuzzy
+#| msgid "DCOP Call..."
+msgid "D-Bus Command"
+msgstr "DCOP Roep..."
+
+#: kcm_hotkeys/hotkeys_tree_view.cpp:124
+#, fuzzy
+#| msgid "K-Menu Entry..."
+msgid "K-Menu Entry"
+msgstr "K-Kieslys Inskrywing..."
+
+#: kcm_hotkeys/hotkeys_tree_view.cpp:145 kcm_hotkeys/hotkeys_model.cpp:90
 #, fuzzy
 #| msgid "Comment:"
 msgid "Comment"
@@ -258,17 +260,17 @@ msgid ""
 "i>"
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_model.cpp:223
+#: kcm_hotkeys/hotkeys_model.cpp:332
 msgid "Name"
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_model.cpp:226
+#: kcm_hotkeys/hotkeys_model.cpp:335
 #, fuzzy
 #| msgid "&Disable"
 msgid "Enabled"
 msgstr "Versper"
 
-#: kcm_hotkeys/hotkeys_model.cpp:229
+#: kcm_hotkeys/hotkeys_model.cpp:338
 msgid "Type"
 msgstr ""
 
@@ -295,7 +297,7 @@ msgstr "KWarmSleutels daemoon"
 msgid "Id of the script to add to %1"
 msgstr ""
 
-#: libkhotkeysprivate/triggers/shortcut_trigger.cpp:133
+#: libkhotkeysprivate/triggers/shortcut_trigger.cpp:135
 msgid "Shortcut trigger: "
 msgstr "Kortpad sneller:"
 
@@ -364,7 +366,7 @@ msgstr "Aktiveer venster :"
 msgid "Keyboard input: "
 msgstr "Sleutelbord invoer : "
 
-#: libkhotkeysprivate/settings.cpp:190
+#: libkhotkeysprivate/settings.cpp:264
 msgid ""
 "This \"actions\" file has already been imported before. Are you sure you "
 "want to import it again?"
@@ -372,7 +374,7 @@ msgstr ""
 "Hierdie \"aksies\" lêer is alreeds importeer voorheen. Is jy seker jy wil "
 "dit weer importeer?"
 
-#: libkhotkeysprivate/settings.cpp:201
+#: libkhotkeysprivate/settings.cpp:275
 msgid ""
 "This \"actions\" file has no ImportId field and therefore it cannot be "
 "determined whether or not it has been imported already. Are you sure you "
@@ -382,11 +384,11 @@ msgstr ""
 "bepaal word of dit alreeds ingevoer is  of nie. Is jy seker jy wil dit "
 "importeer?"
 
-#: libkhotkeysprivate/settings.cpp:371
+#: libkhotkeysprivate/settings.cpp:444
 msgid "These entries were created using Menu Editor."
 msgstr "Hierdie inskrywings is gemaak deur gebruik van Kieslys Redigeerder."
 
-#: libkhotkeysprivate/windows.cpp:361
+#: libkhotkeysprivate/windows.cpp:360
 msgid "Window simple: "
 msgstr "Venster eenvoudig:"
 
@@ -800,11 +802,6 @@ msgstr "Kieslys Redigeerder inskrywings"
 
 #~ msgid "Command/URL..."
 #~ msgstr "Opdrag/URL..."
-
-#, fuzzy
-#~| msgid "DCOP Call..."
-#~ msgid "D-Bus Call..."
-#~ msgstr "DCOP Roep..."
 
 #~ msgid "Keyboard Input..."
 #~ msgstr "Sleutelbord Invoer..."
