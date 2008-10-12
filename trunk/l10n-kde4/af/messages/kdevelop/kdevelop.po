@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-09 09:46+0200\n"
+"POT-Creation-Date: 2008-10-12 09:42+0200\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -2342,12 +2342,12 @@ msgstr "Verwerking lêer: %1"
 msgid "Parsing actual file"
 msgstr "Verwerking lêer: %1"
 
-#: languages/cpp/cppparsejob.cpp:536
+#: languages/cpp/cppparsejob.cpp:535
 #, fuzzy
 msgid "Building uses"
 msgstr "Bou Bron Paket"
 
-#: languages/cpp/cppparsejob.cpp:627
+#: languages/cpp/cppparsejob.cpp:626
 #, fuzzy
 msgid "Ready"
 msgstr "Vervang Teks"
@@ -3578,6 +3578,11 @@ msgstr "kdevelop: Ontfouting aansoek konsole"
 #| msgid "%1 Attributes"
 msgid "<%1 items>"
 msgstr "%1 Eienskappe"
+
+#: languages/cpp/parser/lexer.cpp:938
+#, fuzzy, kde-format
+msgid "invalid input: %1"
+msgstr "Werkvoorbeeld:"
 
 #: languages/cpp/parser/rpp/pp-macro-expander.cpp:88
 #, fuzzy
@@ -5015,6 +5020,76 @@ msgstr "Verwyder alle bygevoeg lêers."
 msgid "Documents"
 msgstr "Dokumentasie:"
 
+#: plugins/coverage/annotationmodel.cpp:86
+#, fuzzy
+msgid "Number of times visited."
+msgstr "Nommer van gelyktydig werke:"
+
+#: plugins/coverage/annotationmodel.cpp:88
+#, fuzzy
+msgid "Line not reachable."
+msgstr "Daar is nee Maakleêr in hierdie gids."
+
+#: plugins/coverage/reportmodel.cpp:192
+#, fuzzy
+msgid "source"
+msgstr "Bronkodes"
+
+#: plugins/coverage/reportmodel.cpp:193
+#, fuzzy
+msgid "coverage"
+msgstr "Telling"
+
+#: plugins/coverage/reportmodel.cpp:194
+msgid "visited"
+msgstr ""
+
+#: plugins/coverage/reportmodel.cpp:195
+msgid "SLOC"
+msgstr ""
+
+#: plugins/coverage/lcovjob.cpp:126
+#, fuzzy
+msgid "Cov verbose output"
+msgstr "cvs opsies"
+
+#: plugins/coverage/reportwidget.cpp:148
+msgid "Line Coverage:"
+msgstr ""
+
+#: plugins/coverage/reportwidget.cpp:149
+#, fuzzy
+msgid "Total SLOC:"
+msgstr "Aktiveer"
+
+#: plugins/coverage/reportwidget.cpp:150
+#, fuzzy
+msgid "Instrumented Lines:"
+msgstr "Konsep indeks"
+
+#: plugins/coverage/reportwidget.cpp:218
+#, fuzzy
+msgid "Coverage Report"
+msgstr "Java Ondersteun"
+
+#: plugins/coverage/reportwidget.cpp:219
+msgid "GCOV code coverage statistics."
+msgstr ""
+
+#: plugins/coverage/coverageplugin.cpp:89
+msgid "Spawn Report"
+msgstr ""
+
+#: plugins/coverage/coverageplugin.cpp:97
+#, fuzzy
+msgid "Reset Data"
+msgstr "struktuur"
+
+#: plugins/coverage/coverageplugin.cpp:105
+#, fuzzy
+msgid "Insert Build Flags"
+msgstr "Bou lêer:"
+
 #: plugins/formatters/astyle_plugin.cpp:34
 msgid "Astyle Formatter"
 msgstr ""
@@ -5437,10 +5512,6 @@ msgstr "Wissel Uitkykpunt"
 #, fuzzy
 #~ msgid "tests in"
 #~ msgstr "Skryf waarskuwings na"
-
-#, fuzzy
-#~ msgid "Total:"
-#~ msgstr "Aktiveer"
 
 #, fuzzy
 #~ msgid "Selected:"
@@ -6111,10 +6182,6 @@ msgstr "Wissel Uitkykpunt"
 #, fuzzy
 #~ msgid "Show"
 #~ msgstr "hw %1"
-
-#, fuzzy
-#~ msgid "Context-Lines:"
-#~ msgstr "Konsep indeks"
 
 #, fuzzy
 #~ msgid "Manage Patches"
@@ -8229,10 +8296,6 @@ msgstr "Wissel Uitkykpunt"
 #~ msgstr "Voeg by Metode"
 
 #, fuzzy
-#~ msgid "Storage"
-#~ msgstr "Telling"
-
-#, fuzzy
 #~ msgid "Return Type"
 #~ msgstr "Papier tipe"
 
@@ -9009,12 +9072,6 @@ msgstr "Wissel Uitkykpunt"
 #, fuzzy
 #~ msgid ""
 #~ "Export \n"
-#~ "Build Files"
-#~ msgstr "Bou lêer:"
-
-#, fuzzy
-#~ msgid ""
-#~ "Import \n"
 #~ "Build Files"
 #~ msgstr "Bou lêer:"
 
@@ -12612,10 +12669,6 @@ msgstr "Wissel Uitkykpunt"
 #~ "()) dan word hierdie operasie het nee effek."
 
 #, fuzzy
-#~ msgid "Restart"
-#~ msgstr "struktuur"
-
-#, fuzzy
 #~ msgid "KDevelop ruby debugger: Click to execute one line of code (\"step\")"
 #~ msgstr "Kdevelop ontfouter: Kliek na uitvoer een lyn van kode (\"step\")"
 
@@ -13744,10 +13797,6 @@ msgstr "Wissel Uitkykpunt"
 #, fuzzy
 #~ msgid "Init CVS Repository"
 #~ msgstr "Voeg by na Stoorplek"
-
-#, fuzzy
-#~ msgid "File '%1' is not readable"
-#~ msgstr "Daar is nee Maakleêr in hierdie gids."
 
 #~ msgid "Diff Against Repository"
 #~ msgstr "Diff Teen Stoorplek"
