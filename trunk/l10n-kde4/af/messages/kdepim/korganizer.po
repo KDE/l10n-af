@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-26 09:11+0100\n"
+"POT-Creation-Date: 2008-10-27 10:20+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1413,7 +1413,7 @@ msgstr "Gaan Vorentoe"
 msgid "Go forward one month"
 msgstr ""
 
-#: views/monthview/monthview.cpp:311 kodaymatrix.cpp:266 kocorehelper.cpp:44
+#: views/monthview/monthview.cpp:311 kodaymatrix.cpp:266 kocorehelper.cpp:47
 #, fuzzy
 msgctxt "delimiter for joining holiday names"
 msgid ","
@@ -1431,42 +1431,42 @@ msgctxt "'Month day' for month view cells"
 msgid "%1 %2"
 msgstr ""
 
-#: views/monthview/monthitem.cpp:404 views/agendaview/koagenda.cpp:1097
+#: views/monthview/monthitem.cpp:404 views/agendaview/koagenda.cpp:1094
 msgid ""
 "The item you try to change is a recurring item. Shall the changes be applied "
 "only to this single occurrence, only to the future items, or to all items in "
 "the recurrence?"
 msgstr ""
 
-#: views/monthview/monthitem.cpp:407 views/agendaview/koagenda.cpp:1100
+#: views/monthview/monthitem.cpp:407 views/agendaview/koagenda.cpp:1097
 #, fuzzy
 msgid "Changing Recurring Item"
 msgstr "Hierdie is 'n herhalende gebeurtenis."
 
-#: views/monthview/monthitem.cpp:408 views/agendaview/koagenda.cpp:1101
+#: views/monthview/monthitem.cpp:408 views/agendaview/koagenda.cpp:1098
 msgid "Only &This Item"
 msgstr ""
 
-#: views/monthview/monthitem.cpp:409 views/agendaview/koagenda.cpp:1102
+#: views/monthview/monthitem.cpp:409 views/agendaview/koagenda.cpp:1099
 msgid "Only &Future Items"
 msgstr ""
 
-#: views/monthview/monthitem.cpp:410 views/agendaview/koagenda.cpp:1103
+#: views/monthview/monthitem.cpp:410 views/agendaview/koagenda.cpp:1100
 #, fuzzy
 msgid "&All Occurrences"
 msgstr "voorkoms(s)"
 
-#: views/monthview/monthitem.cpp:435 views/agendaview/koagenda.cpp:1136
+#: views/monthview/monthitem.cpp:435 views/agendaview/koagenda.cpp:1133
 msgid ""
 "Unable to add the exception item to the calendar. No change will be done."
 msgstr ""
 
 #: views/monthview/monthitem.cpp:437 views/monthview/monthitem.cpp:464
-#: views/agendaview/koagenda.cpp:1138 views/agendaview/koagenda.cpp:1170
+#: views/agendaview/koagenda.cpp:1135 views/agendaview/koagenda.cpp:1167
 msgid "Error Occurred"
 msgstr ""
 
-#: views/monthview/monthitem.cpp:462 views/agendaview/koagenda.cpp:1168
+#: views/monthview/monthitem.cpp:462 views/agendaview/koagenda.cpp:1165
 msgid "Unable to add the future items to the calendar. No change will be done."
 msgstr ""
 
@@ -1506,21 +1506,21 @@ msgstr "Dag"
 msgid "Unable to modify this to-do, because it cannot be locked."
 msgstr ""
 
-#: views/agendaview/koagenda.cpp:936
+#: views/agendaview/koagenda.cpp:933
 msgid "Unable to lock item for modification. You cannot make any changes."
 msgstr ""
 
-#: views/agendaview/koagenda.cpp:938
+#: views/agendaview/koagenda.cpp:935
 #, fuzzy
 msgid "Locking Failed"
 msgstr "Bestemming"
 
-#: views/agendaview/koagenda.cpp:1119
+#: views/agendaview/koagenda.cpp:1116
 #, fuzzy
 msgid "Dissociate event from recurrence"
 msgstr "Lys die aktiwiteite vir die huidige dag"
 
-#: views/agendaview/koagenda.cpp:1153
+#: views/agendaview/koagenda.cpp:1150
 #, fuzzy
 msgid "Split future recurrences"
 msgstr "Herhaling"
@@ -8355,40 +8355,46 @@ msgstr ""
 msgid "Holiday"
 msgstr "Vakansie"
 
-#: printing/calprintpluginbase.cpp:899
+#: printing/calprintpluginbase.cpp:885
+#, fuzzy, kde-format
+msgctxt "starttime - endtime summary, location"
+msgid "%1-%2 %3, %4"
+msgstr "%1 %2"
+
+#: printing/calprintpluginbase.cpp:905
 #, kde-format
 msgctxt "weekday, shortmonthname daynumber"
 msgid "%1, %2 <numid>%3</numid>"
 msgstr ""
 
-#: printing/calprintpluginbase.cpp:964
+#: printing/calprintpluginbase.cpp:970
 #, fuzzy, kde-format
 msgid "To-do: %1"
 msgstr "To-Do: %1"
 
-#: printing/calprintpluginbase.cpp:1538
+#: printing/calprintpluginbase.cpp:1544
 #, fuzzy, kde-format
 msgid "%1%"
 msgstr "%1 %"
 
-#: printing/calprintpluginbase.cpp:1638
+#: printing/calprintpluginbase.cpp:1644
 #, kde-format
 msgctxt "Description - date"
 msgid "%1 - %2"
 msgstr ""
 
-#: printing/calprintpluginbase.cpp:1658
+#: printing/calprintpluginbase.cpp:1664
 #, fuzzy, kde-format
 msgid "Person: %1"
 msgstr "Herhaal: %1"
 
-#: printing/calprintpluginbase.cpp:1679
+#: printing/calprintpluginbase.cpp:1685
 #, kde-format
 msgctxt "Date range: Month dayStart - dayEnd"
 msgid "%1 %2 - %3"
 msgstr ""
 
-#: printing/calprintpluginbase.cpp:1684
+#: printing/calprintpluginbase.cpp:1690
 #, kde-format
 msgctxt "Date range: monthStart dayStart - monthEnd dayEnd"
 msgid "%1 %2 - %3 %4"
@@ -9785,11 +9791,6 @@ msgstr "Wat is Volgende"
 #: plugins/printing/whatsnext/whatsnextprint.h:42
 msgid "Prints a list of all upcoming events and todos."
 msgstr ""
-
-#, fuzzy
-#~ msgctxt "weekday month date"
-#~ msgid "%1 %2 %3"
-#~ msgstr "%1 %2"
 
 #, fuzzy
 #~ msgid "31st Last"
