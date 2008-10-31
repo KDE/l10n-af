@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-30 10:11+0100\n"
+"POT-Creation-Date: 2008-10-31 09:51+0100\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -3000,6 +3000,33 @@ msgstr "Ander opskrif vir al en onewe bladsye"
 msgid "Different header for the first page"
 msgstr "Ander opskrif vir die eerste bladsy"
 
+#. i18n: file: kopageapp/tools/backgroundTool/BackgroundToolWidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, BackgroundToolWidget)
+#: rc.cpp:636
+#, fuzzy
+msgid "Form"
+msgstr "Normale"
+
+#. i18n: file: kopageapp/tools/backgroundTool/BackgroundToolWidget.ui:21
+#. i18n: ectx: property (text), widget (QPushButton, backgroundImage)
+#: rc.cpp:639
+#, fuzzy
+msgid "Set background image ..."
+msgstr "Tweede"
+
+#. i18n: file: kopageapp/tools/backgroundTool/BackgroundToolWidget.ui:28
+#. i18n: ectx: property (text), widget (QCheckBox, useMasterBackground)
+#: rc.cpp:642
+#, fuzzy
+msgid "Use master background"
+msgstr "Tweede"
+
+#. i18n: file: kopageapp/tools/backgroundTool/BackgroundToolWidget.ui:35
+#. i18n: ectx: property (text), widget (QCheckBox, displayMasterShapes)
+#: rc.cpp:645
+msgid "Display shapes of master"
+msgstr ""
+
 #: guiutils/KoDocumentSectionDelegate.cpp:516
 #, kde-format
 msgid "%1 %"
@@ -3798,19 +3825,11 @@ msgstr "Formatering Opsies"
 
 #: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:89
 #, fuzzy
-msgid "Use master background"
-msgstr "Tweede"
+#| msgid "Background color:"
+msgid "Background Tool"
+msgstr "Agtergrond kleur:"
 
 #: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:90
-msgid "Display shapes of master"
-msgstr ""
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:91
-#, fuzzy
-msgid "Set background image"
-msgstr "Tweede"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:92
 msgid "Use the styles docker to manipulate the backgound."
 msgstr ""
 
@@ -3908,6 +3927,16 @@ msgstr "Voeg by Teks"
 msgid "Move page"
 msgstr "Uitvee Teks"
 
+#: kopageapp/commands/KoPADisplayMasterShapesCommand.cpp:31
+#, fuzzy
+msgid "Show master shapes"
+msgstr "Skep Werkvoorbeeld"
+
+#: kopageapp/commands/KoPADisplayMasterShapesCommand.cpp:34
+#, fuzzy
+msgid "Hide master shapes"
+msgstr "Skep Werkvoorbeeld"
+
 #: kopageapp/commands/KoPAPageDeleteCommand.cpp:36
 #, fuzzy
 msgid "Delete page"
@@ -3918,6 +3947,16 @@ msgstr "Uitvee Teks"
 #| msgid "Change List Type"
 msgid "Change master page"
 msgstr "Verander Lys Tipe"
+
+#: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:31
+#, fuzzy
+msgid "Display master background"
+msgstr "Tweede"
+
+#: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:34
+#, fuzzy
+msgid "Display page background"
+msgstr "Tweede"
 
 #: kopageapp/KoPAView.cpp:202
 #, fuzzy
@@ -4194,10 +4233,6 @@ msgstr "Uitvee Teks"
 #, fuzzy
 #~ msgid "Text Color..."
 #~ msgstr "Verstek Kleur"
-
-#, fuzzy
-#~ msgid "Form"
-#~ msgstr "Normale"
 
 #, fuzzy
 #~ msgid "Fit to width"
