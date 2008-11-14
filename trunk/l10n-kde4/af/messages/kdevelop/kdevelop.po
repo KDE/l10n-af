@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-13 10:10+0100\n"
+"POT-Creation-Date: 2008-11-14 10:05+0100\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -737,7 +737,7 @@ msgstr "Voeg by"
 #. i18n: ectx: property (text), widget (KPushButton)
 #. i18n: file: buildtools/managers/cmake/settings/cmakebuildsettings.ui:46
 #. i18n: ectx: property (text), widget (QPushButton, removeBuildDir)
-#: rc.cpp:277 rc.cpp:391 buildtools/managers/cmake/applychangeswidget.cpp:89
+#: rc.cpp:277 rc.cpp:391 buildtools/managers/cmake/applychangeswidget.cpp:117
 #, fuzzy
 msgid "Remove"
 msgstr "Verwyder skoop..."
@@ -4330,54 +4330,66 @@ msgstr "Nee taal inplak vir %1 gevind."
 msgid "Could not create language plugin for %1."
 msgstr "Kon nie skep taal inplak vir %1."
 
-#: buildtools/managers/cmake/cmakemanager.cpp:81
+#: buildtools/managers/cmake/cmakemanager.cpp:82
 #, fuzzy
 #| msgid "QMake Manager"
 msgid "CMake Manager"
 msgstr "Qmake Bestuurder"
 
-#: buildtools/managers/cmake/cmakemanager.cpp:81
+#: buildtools/managers/cmake/cmakemanager.cpp:82
 msgid "Support for managing CMake projects"
 msgstr ""
 
-#: buildtools/managers/cmake/cmakemanager.cpp:899
+#: buildtools/managers/cmake/cmakemanager.cpp:909
 #, fuzzy
 #| msgid "fragment definition"
 msgid "Jump to target definition"
 msgstr "fragment definisie"
 
-#: buildtools/managers/cmake/cmakemanager.cpp:975
-#: buildtools/managers/cmake/cmakemanager.cpp:984
+#: buildtools/managers/cmake/cmakemanager.cpp:973
+#, fuzzy, kde-format
+msgid "Create a folder called '%1'."
+msgstr "Skep Nuwe Lêer..."
+
+#: buildtools/managers/cmake/cmakemanager.cpp:985
+#: buildtools/managers/cmake/cmakemanager.cpp:994
+#: buildtools/managers/cmake/cmakemanager.cpp:1015
 msgid "KDevelop - CMake Support"
 msgstr ""
 
-#: buildtools/managers/cmake/cmakemanager.cpp:976
+#: buildtools/managers/cmake/cmakemanager.cpp:986
 #, fuzzy
 #| msgid "Could not create the new file."
 msgid "Could not create the directory's CMakeLists.txt file."
 msgstr "Kon nie skep die nuwe lêer."
 
-#: buildtools/managers/cmake/cmakemanager.cpp:985
+#: buildtools/managers/cmake/cmakemanager.cpp:995
+#: buildtools/managers/cmake/cmakemanager.cpp:1016
 #, fuzzy
 #| msgid "Could not create the new file."
 msgid "Could not save the change."
 msgstr "Kon nie skep die nuwe lêer."
 
-#: buildtools/managers/cmake/applychangeswidget.cpp:29
+#: buildtools/managers/cmake/cmakemanager.cpp:1005
+#, fuzzy, kde-format
+msgid "Remove a folder called '%1'."
+msgstr "Verwyder lêer"
+
+#: buildtools/managers/cmake/applychangeswidget.cpp:50
 #, fuzzy
 msgid "Text"
 msgstr "Hex"
 
-#: buildtools/managers/cmake/applychangeswidget.cpp:29
+#: buildtools/managers/cmake/applychangeswidget.cpp:50
 msgid "Action"
 msgstr "Aksie"
 
-#: buildtools/managers/cmake/applychangeswidget.cpp:79
+#: buildtools/managers/cmake/applychangeswidget.cpp:107
 #, fuzzy
 msgid "Change"
 msgstr "Kanseleer"
 
-#: buildtools/managers/cmake/applychangeswidget.cpp:84
+#: buildtools/managers/cmake/applychangeswidget.cpp:112
 #, fuzzy
 msgid "Insert"
 msgstr "Ingesit: %1"
@@ -4987,30 +4999,35 @@ msgstr "Skep Nuwe Projek"
 msgid "The file %1 cannot be created."
 msgstr "Stappe uit van die huidige funksie"
 
-#: plugins/appwizard/importproject.cpp:70
+#: plugins/appwizard/importproject.cpp:60
+msgid ""
+"The given name is used by an already opened project. Choose a different name"
+msgstr ""
+
+#: plugins/appwizard/importproject.cpp:80
 #, fuzzy
 msgid "Please choose an existing folder."
 msgstr "Hoof program (relatiewe na projek gids):"
 
-#: plugins/appwizard/importproject.cpp:75
+#: plugins/appwizard/importproject.cpp:85
 #, fuzzy
 #| msgid "You have to choose a project name."
 msgid "Please choose a project name."
 msgstr "Jy het na kies 'n projek naam."
 
-#: plugins/appwizard/importproject.cpp:84
+#: plugins/appwizard/importproject.cpp:94
 msgid ""
 "Cannot create project file.<p><b>Suggestion</b>: check permissions on the "
 "selected directory"
 msgstr ""
 
-#: plugins/appwizard/importproject.cpp:85
-#: plugins/appwizard/importproject.cpp:93
+#: plugins/appwizard/importproject.cpp:95
+#: plugins/appwizard/importproject.cpp:103
 #, fuzzy
 msgid "Project import error"
 msgstr "Huis gids"
 
-#: plugins/appwizard/importproject.cpp:93
+#: plugins/appwizard/importproject.cpp:103
 #, fuzzy
 msgid "Could not create temporary file to upload."
 msgstr "Konfigureer lêer"
@@ -6865,10 +6882,6 @@ msgstr "Wissel Uitkykpunt"
 #, fuzzy
 #~ msgid "New Folder"
 #~ msgstr "Nuwe Lêer"
-
-#, fuzzy
-#~ msgid "Create new folder in:\n"
-#~ msgstr "Skep Nuwe Lêer..."
 
 #, fuzzy
 #~ msgid "File Manager"
@@ -16347,10 +16360,6 @@ msgstr "Wissel Uitkykpunt"
 #, fuzzy
 #~ msgid "Add Existing Files to '%1'"
 #~ msgstr "Voeg by Bestaande Lêers"
-
-#, fuzzy
-#~ msgid "Remove File From '%1'"
-#~ msgstr "Verwyder lêer"
 
 #, fuzzy
 #~ msgid "Remove Target From '%1'"
