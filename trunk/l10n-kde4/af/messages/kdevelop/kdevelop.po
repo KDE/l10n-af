@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-26 10:48+0100\n"
+"POT-Creation-Date: 2008-11-27 09:46+0100\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -15,427 +15,2352 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: src/kdevideextension.cpp:48
+#: languages/cpp/codegen/progressdialogs.cpp:54
+#: languages/cpp/codegen/simplerefactoring.cpp:245
+#: cppdebugger/memviewdlg.cpp:116
 #, fuzzy
+msgid "Cancel"
+msgstr "Klas naam:"
+
+#: languages/cpp/codegen/simplerefactoring.cpp:64
+msgid ""
+"Refactoring is an experimental feature, it may damage your code. Before "
+"using it, make sure to make a backup."
+msgstr ""
+
+#: languages/cpp/codegen/simplerefactoring.cpp:84
+#: languages/cpp/codegen/simplerefactoring.cpp:228
+#, fuzzy, kde-format
+msgid "Rename %1"
+msgstr "Verwyder skoop..."
+
+#: languages/cpp/codegen/simplerefactoring.cpp:97
+#, fuzzy
+msgid "Create Class"
+msgstr "Genereer 'n nuwe klas"
+
+#: languages/cpp/codegen/simplerefactoring.cpp:230
+#, fuzzy
+#| msgid "File name:"
+msgid "New name:"
+msgstr "Lêer naam:"
+
+#: languages/cpp/codegen/simplerefactoring.cpp:240
+#, fuzzy
+msgid "Rename"
+msgstr "Verwyder skoop..."
+
+#: languages/cpp/codegen/simplerefactoring.cpp:241
+msgid ""
+"Note: All overloaded functions, overloads, forward-declarations, etc. will "
+"be renamed too"
+msgstr ""
+
+#: languages/cpp/codegen/simplerefactoring.cpp:249
+#, fuzzy
+msgid "Uses"
+msgstr "Gebruiker:"
+
+#: languages/cpp/codegen/simplerefactoring.cpp:273
+#, fuzzy, kde-format
+msgid "Searching uses of \"%1\""
+msgstr "Voeg by Nuwe Teiken"
+
+#: languages/cpp/codegen/simplerefactoring.cpp:293
+#: languages/cpp/codegen/simplerefactoring.cpp:301
+#: languages/cpp/codegen/simplerefactoring.cpp:307
+#, kde-format
+msgid "Applying changes failed: %1"
+msgstr ""
+
+#: languages/cpp/codegen/cppnewclass.cpp:105
+#, kde-format
+msgid "Unable to open '%1' to write the new class header."
+msgstr ""
+
+#: languages/cpp/codegen/cppnewclass.cpp:105
+#, fuzzy
+#| msgid "Code Generation"
+msgid "Header generation error"
+msgstr "Kode Genereering"
+
+#: languages/cpp/codegen/cppnewclass.cpp:211
+#, kde-format
+msgid "Unable to open '%1' to write the new class implementation."
+msgstr ""
+
+#: languages/cpp/codegen/cppnewclass.cpp:211
+#, fuzzy
+msgid "Implementation generation error"
+msgstr "Implementering Lêer"
+
+#: languages/cpp/includepathresolver.cpp:275
+msgid ""
+"tried include-path-resolution while another resolution-process was still "
+"running"
+msgstr ""
+
+#: languages/cpp/includepathresolver.cpp:296
+#, kde-format
+msgid "Makefile is missing in folder \"%1\""
+msgstr ""
+
+#: languages/cpp/includepathresolver.cpp:296
+#, kde-format
+msgid "problem while trying to resolve include-paths for %1"
+msgstr ""
+
+#: languages/cpp/includepathresolver.cpp:316
+#, fuzzy
+msgid "Cached: "
+msgstr "Etiket nie gevind"
+
+#: languages/cpp/includepathresolver.cpp:341
+#, kde-format
+msgid "Filename %1 seems to be malformed"
+msgstr ""
+
+#: languages/cpp/includepathresolver.cpp:420
+#, fuzzy
+msgid "make-process failed"
+msgstr "Projek naam"
+
+#: languages/cpp/includepathresolver.cpp:420
+#, fuzzy, kde-format
+msgid "output: %1"
+msgstr "Lêer Konteks Kieslys"
+
+#: languages/cpp/includepathresolver.cpp:513
+#: languages/cpp/includepathresolver.cpp:516
+#, fuzzy
+msgid "Recursive make-call failed"
+msgstr "Rekursief"
+
+#: languages/cpp/includepathresolver.cpp:513
+#, kde-format
+msgid "The parameter-string \"%1\" does not seem to be valid. Output was: %2"
+msgstr ""
+
+#: languages/cpp/includepathresolver.cpp:516
+#, kde-format
+msgid "The directory \"%1\" does not exist. Output was: %2"
+msgstr ""
+
+#: languages/cpp/includepathresolver.cpp:520
+#, fuzzy
+msgid "Recursive make-call malformed"
+msgstr "Rekursief"
+
+#: languages/cpp/includepathresolver.cpp:520
+#, fuzzy, kde-format
+#| msgid "Output path"
+msgid "Output was: %1"
+msgstr "Uitset gids soeklys"
+
+#: languages/cpp/includepathresolver.cpp:571
+msgid "Could not extract include-paths from make-output"
+msgstr ""
+
+#: languages/cpp/includepathresolver.cpp:571
+#, kde-format
+msgid "Folder: \"%1\"  Command: \"%2\"Output: \"%3\""
+msgstr ""
+
+#: languages/cpp/codecompletioncontext.cpp:776
+#, kde-format
+msgid "%1 overloads of"
+msgstr ""
+
+#: languages/cpp/codecompletioncontext.cpp:857
+#, fuzzy
+msgid "Connect to"
+msgstr "Gaan voort"
+
+#: languages/cpp/cppduchain/navigation/macronavigationcontext.cpp:71
+#, fuzzy
+#| msgid "Function"
+msgid "Function macro"
+msgstr "Funksie"
+
+#: languages/cpp/cppduchain/navigation/macronavigationcontext.cpp:71
+#, fuzzy
+#| msgid "macro"
+msgid "Macro"
+msgstr "makro"
+
+#: languages/cpp/cppduchain/navigation/macronavigationcontext.cpp:81
+#, fuzzy
+#| msgid "Preprocessor"
+msgid "Preprocessed body:"
+msgstr "Vooraf verwerker"
+
+#: languages/cpp/cppduchain/navigation/macronavigationcontext.cpp:87
+#, fuzzy
+msgid "Body:"
+msgstr "Vetdruk"
+
+#: languages/cpp/cppduchain/navigation/includenavigationcontext.cpp:95
+#, fuzzy
+msgctxt "Headers included into this header"
+msgid "Included"
+msgstr "Sluit in"
+
+#: languages/cpp/cppduchain/navigation/includenavigationcontext.cpp:95
+#, fuzzy
+msgctxt "Count of files this header was included into"
+msgid "Included by"
+msgstr "Sluit in"
+
+#: languages/cpp/cppduchain/navigation/includenavigationcontext.cpp:95
+#, fuzzy
+#| msgid "Predefined macros"
+msgctxt "Count of macros defined in this header"
+msgid "Defined macros"
+msgstr "Vooraf gedefinieerde makros"
+
+#: languages/cpp/cppduchain/navigation/includenavigationcontext.cpp:98
+#, fuzzy
+msgid "Declarations:"
+msgstr "Operateur"
+
+#: languages/cpp/cppduchain/navigation/includenavigationcontext.cpp:103
+msgid "not parsed yet"
+msgstr ""
+
+#: languages/cpp/preprocessjob.cpp:180
+#, fuzzy, kde-format
+msgid "Could not open file '%1'"
+msgstr "Konfigureer lêer"
+
+#: languages/cpp/preprocessjob.cpp:183
+#, fuzzy
+msgid "File could not be read from."
+msgstr "Stappe uit van die huidige funksie"
+
+#: languages/cpp/preprocessjob.cpp:186
+#, fuzzy
+msgid "File could not be opened."
+msgstr "Stappe uit van die huidige funksie"
+
+#: languages/cpp/preprocessjob.cpp:189
+msgid "File permissions prevent opening for read."
+msgstr ""
+
+#: languages/cpp/preprocessjob.cpp:439
+#, kde-format
+msgid "File was included recursively from within itself: %1"
+msgstr ""
+
+#: languages/cpp/preprocessjob.cpp:530
+#, fuzzy, kde-format
+#| msgid "Include file patterns"
+msgid "Included file was not found: %1"
+msgstr "Sluit in lêer patrone"
+
+#: languages/cpp/preprocessjob.cpp:531
+#, fuzzy, kde-format
+msgid ""
+"Searched include path:\n"
+"%1"
+msgstr "Soektog in dokumentasie: %1"
+
+#: languages/cpp/quickopen.cpp:186
+#, fuzzy
+msgid "This file imports the current open document<br/>"
+msgstr "Stappe uit van die huidige funksie"
+
+#: languages/cpp/quickopen.cpp:191 languages/cpp/quickopen.cpp:239
+#, fuzzy, kde-format
+msgid "In %1th include-path"
+msgstr "Sluit in gids soeklys"
+
+#: languages/cpp/quickopen.cpp:195 languages/cpp/quickopen.cpp:221
+#, fuzzy
+#| msgid "Include path"
+msgid "Included through"
+msgstr "Sluit in gids soeklys"
+
+#: languages/cpp/quickopen.cpp:205
+#, fuzzy, kde-format
+#| msgid "Directory:"
+msgid "Directory %1"
+msgstr "Gids:"
+
+#: languages/cpp/quickopen.cpp:445 languages/cpp/quickopen.cpp:452
+#, fuzzy
+#| msgid "&Includes"
+msgid "Includes"
+msgstr "Sluit in"
+
+#: languages/cpp/quickopen.cpp:446 languages/cpp/quickopen.cpp:453
+#, fuzzy
+#| msgid "Include path"
+msgid "Include Path"
+msgstr "Sluit in gids soeklys"
+
+#: languages/cpp/quickopen.cpp:447 languages/cpp/quickopen.cpp:454
+#, fuzzy
+#| msgid "&Includes"
+msgid "Includers"
+msgstr "Sluit in"
+
+#: languages/cpp/cpplanguagesupport.cpp:149
+#, fuzzy
+msgid "C++ Support"
+msgstr "Java Ondersteun"
+
+#: languages/cpp/cpplanguagesupport.cpp:149
+msgid "Support for C++ Language"
+msgstr ""
+
+#: languages/cpp/cpplanguagesupport.cpp:188
+#, fuzzy
+msgid "Files"
+msgstr "Lêers:"
+
+#: languages/cpp/cpplanguagesupport.cpp:195
+msgid "&Switch Definition/Declaration"
+msgstr ""
+
+#: languages/cpp/cpplanguagesupport.cpp:200
+#, fuzzy
+msgid "Create &New Class"
+msgstr "Genereer 'n nuwe klas"
+
+#: languages/cpp/cpplanguagesupport.cpp:595
+#, kde-format
+msgid "Build manager for project %1 did not return a build directory"
+msgstr ""
+
+#: languages/cpp/cpplanguagesupport.cpp:596
+msgid ""
+"The include path resolver needs the build directory to resolve additional "
+"include paths. Consider setting up a build directory in the project manager "
+"if you have not done so yet."
+msgstr ""
+
+#: languages/cpp/cpplanguagesupport.cpp:634
+msgid "Build-manager did not return an include-path"
+msgstr ""
+
+#: languages/cpp/cpplanguagesupport.cpp:635
+#, kde-format
+msgid ""
+"The build-manager did not return the include-path %1, which could be "
+"resolved by the include-path resolver"
+msgstr ""
+
+#: languages/cpp/cpplanguagesupport.cpp:653
+msgid "Include-path resolver:"
+msgstr ""
+
+#: languages/cpp/cpplanguagesupport.cpp:654
+#, kde-format
+msgid ""
+"Used build directory: \"%1\"\n"
+"Include-path resolver: %2"
+msgstr ""
+
+#: languages/cpp/cpplanguagesupport.cpp:1012
+msgid "Emptied by preprocessor<br />"
+msgstr ""
+
+#: languages/cpp/cppparsejob.cpp:155
+#, fuzzy
+#| msgid "Parsing file: %1"
+msgid "Parsing included files"
+msgstr "Verwerking lêer: %1"
+
+#: languages/cpp/cppparsejob.cpp:350
+#, fuzzy
+#| msgid "Parsing file: %1"
+msgid "Parsing actual file"
+msgstr "Verwerking lêer: %1"
+
+#: languages/cpp/cppparsejob.cpp:596
+#, fuzzy
+msgid "Building uses"
+msgstr "Bou Bron Paket"
+
+#: languages/cpp/cppparsejob.cpp:689
+#, fuzzy
+msgid "Ready"
+msgstr "Vervang Teks"
+
+#: languages/cpp/parser/rpp/pp-macro-expander.cpp:88
+#, fuzzy
+msgid "Macro error"
+msgstr "Redigeerder"
+
+#: languages/cpp/parser/rpp/pp-macro-expander.cpp:100
+#, kde-format
+msgid "Call to macro %1 missing argument number %2"
+msgstr ""
+
+#: languages/cpp/parser/rpp/pp-macro-expander.cpp:101
+#, fuzzy, kde-format
+msgid "Formals: %1"
+msgstr "Lêer: %1"
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:252
+#, fuzzy
+msgid "Unterminated #if statement"
+msgstr "Stappe binnein die volgende stelling"
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:432
+#: languages/cpp/parser/rpp/pp-engine.cpp:450
+#: languages/cpp/parser/rpp/pp-engine.cpp:482
+#, fuzzy, kde-format
+msgid "character %1"
+msgstr "Karakter"
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:432
+#, kde-format
+msgid "Expected \"identifier\", found: %1"
+msgstr ""
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:433
+#: languages/cpp/parser/rpp/pp-engine.cpp:451
+#: languages/cpp/parser/rpp/pp-engine.cpp:483
+#, kde-format
+msgid "<h5>Token text</h5><pre>%1</pre><h5>Input</h5><pre>%2</pre>"
+msgstr ""
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:450
+#: languages/cpp/parser/rpp/pp-engine.cpp:482
+#, kde-format
+msgid "Expected \")\", found %1"
+msgstr ""
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:518
+#: languages/cpp/parser/rpp/pp-engine.cpp:531
+#, fuzzy
+msgid "Division by zero"
+msgstr "Afdelings"
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:519
+#: languages/cpp/parser/rpp/pp-engine.cpp:532
+#, fuzzy, kde-format
+msgid "Input text: %1"
+msgstr "Ingesit: %1"
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:769
+#, fuzzy, kde-format
+#| msgid "} expected"
+msgid "expected ``:'' = %1"
+msgstr "} verwag"
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:834
+#: languages/cpp/parser/rpp/pp-engine.cpp:858
+msgid "#else without #if"
+msgstr ""
+
+#: languages/cpp/parser/rpp/pp-engine.cpp:898
+#, kde-format
+msgid "#endif without #if at output line %1"
+msgstr ""
+
+#: languages/cpp/parser/headergen/main.cpp:240
+msgid "KDE forwarding header generator"
+msgstr ""
+
+#: languages/cpp/parser/headergen/main.cpp:241
+msgid ""
+"An application which creates forwarding headers (like Qt headers) from "
+"source code."
+msgstr ""
+
+#: languages/cpp/parser/headergen/main.cpp:242
+msgid "(c) 2006, Hamish Rodda"
+msgstr ""
+
+#: languages/cpp/parser/headergen/main.cpp:247
+msgid ""
+"KDE include directory - headers go into <placeholder>includes</placeholder>/"
+"KDE"
+msgstr ""
+
+#: languages/cpp/parser/headergen/main.cpp:248
+msgid "Build information from the cmake XML generator"
+msgstr ""
+
+#: languages/cpp/parser/lexer.cpp:944
+#, fuzzy, kde-format
+msgid "invalid input: %1"
+msgstr "Werkvoorbeeld:"
+
+#: languages/cpp/veritas/stubcontextaction.cpp:101
+#, fuzzy
+msgid "Generate Stub Class"
+msgstr "Genereer 'n nuwe klas"
+
+#: languages/cpp/veritas/stubcontextaction.cpp:115
+#, fuzzy
+msgid "Generate Stub"
+msgstr "Genereer"
+
+#: languages/cpp/veritas/stubcontextaction.cpp:116
+#: languages/cpp/veritas/uutcontextaction.cpp:105
+#, fuzzy
+msgid "Save to "
+msgstr "Volgende Fout"
+
+#: languages/cpp/veritas/uutcontextaction.cpp:87
+#: languages/cpp/veritas/uutcontextaction.cpp:104
+#, fuzzy
+#| msgid "Generate binary TOC"
+msgid "Generate Unit Under Test"
+msgstr "Genereer binêre Toc"
+
+#: languages/cpp/veritas/testswitch.cpp:296
+#, fuzzy
+#| msgid "Generate binary TOC"
+msgid "&Switch Test/Unit Under Test"
+msgstr "Genereer binêre Toc"
+
+#: languages/cpp/implementationhelperitem.cpp:32
+#, fuzzy
+msgid "Override"
+msgstr "Oorskryf kiesings"
+
+#: languages/cpp/implementationhelperitem.cpp:34
+#, fuzzy
+#| msgid "&Implements"
+msgid "Implement"
+msgstr "Implementeer"
+
+#: languages/cpp/missingincludecompletionitem.cpp:197
+#, fuzzy
+msgid "Add"
+msgstr "Voeg by"
+
+#: languages/cpp/missingincludecompletionitem.cpp:197
+#, fuzzy
+#| msgid "or"
+msgid "for"
+msgstr "of"
+
+#: xtest/qtest/tests/qtestrunnertest.cpp:245 xtest/qtest/qtestcase.cpp:151
+#, fuzzy
+msgid "Failed to start test executable."
+msgstr " php  uitvoerbare:"
+
+#: xtest/qtest/tests/qtestrunnertest.cpp:283 xtest/qtest/qtestcase.cpp:154
+#, fuzzy
+msgid "Test executable crashed."
+msgstr " php  uitvoerbare:"
+
+#: xtest/qtest/tests/standalonerunner.cpp:112
+#, fuzzy
+msgid "Test registration XML."
+msgstr "verwyder opsies"
+
+#: xtest/qtest/tests/standalonerunner.cpp:113
+#, fuzzy
+msgid "Test root."
+msgstr "cvs opsies"
+
+#: xtest/qtest/tests/standalonerunner.cpp:114
+#, fuzzy
+msgid "profile"
+msgstr "Voeg by nuwe lêers"
+
+#: xtest/qtest/qtestoutputjob.cpp:56
+#, fuzzy
+msgid "QTest verbose output"
+msgstr "cvs opsies"
+
+#: xtest/qtest/qtestcase.cpp:157
+#, fuzzy
+msgid "Test executable timed out."
+msgstr " php  uitvoerbare:"
+
+#: xtest/qtest/qtestcase.cpp:160
+#, fuzzy
+msgid "Failed to write to test executable."
+msgstr " php  uitvoerbare:"
+
+#: xtest/qtest/qtestcase.cpp:163
+#, fuzzy
+msgid "Failed to read from test executable."
+msgstr " php  uitvoerbare:"
+
+#: xtest/qtest/qtestcase.cpp:166
+#, fuzzy
+msgid "Unknown error occurred."
+msgstr "Onbekende fout"
+
+#: xtest/qtest/kdevregister.cpp:125
+msgid "Failed to fetch test locations. Not a CMake project [todo]"
+msgstr ""
+
+#: xtest/qtest/kdevregister.cpp:134
+#, fuzzy
+msgid "xTest"
+msgstr "Ja"
+
+#: xtest/qtest/qtestplugin.cpp:60
+#, fuzzy
+msgid "QTest test"
+msgstr "Lêer Name"
+
+#: xtest/qtest/qtestplugin.cpp:60
+msgid "Support for running QTest unit tests"
+msgstr ""
+
+#: xtest/qtest/qtestplugin.cpp:94
+msgid "Print each QVERIFY/QCOMPARE"
+msgstr ""
+
+#: xtest/qtest/qtestplugin.cpp:99
+msgid "Print every signal emitted"
+msgstr ""
+
+#: xtest/qtest/qtestplugin.cpp:129 xtest/qtest/qtestplugin.cpp:226
+#, fuzzy
+msgid "New QTest"
+msgstr "Nuwe Lêer"
+
+#: xtest/qtest/qtestplugin.cpp:130
+msgid "Class name:"
+msgstr "Klas naam:"
+
+#: grepview/grepdialog.cpp:79
+#, fuzzy
+#| msgid "Search"
+msgid "Search"
+msgstr "Soektog"
+
+#: grepview/grepdialog.cpp:80 grepview/grepviewplugin.cpp:45
+#, fuzzy
+msgid "Find In Files"
+msgstr "Voeg by Bestaande Lêers..."
+
+#: grepview/grepjob.cpp:52
+#, kde-format
+msgid "Grep: %1"
+msgstr "Grep: %1"
+
+#: grepview/grepjob.cpp:122
+#, fuzzy
+msgid "Unable to create a temporary file for search."
+msgstr "Kan nie skryf die projek lêer."
+
+#: grepview/grepjob.cpp:225
+#, fuzzy
+msgid "Find in Files"
+msgstr "Voeg by Bestaande Lêers..."
+
+#: grepview/grepjob.cpp:307
+#, fuzzy
+#| msgid "Process exited with status %1"
+msgid "Process failed to start."
+msgstr "Proses uitgegaan met status %1"
+
+#: grepview/grepjob.cpp:310
+#, fuzzy
+msgid "Process crashed."
+msgstr "Proses uitgegaan"
+
+#: grepview/grepjob.cpp:313
+#, fuzzy
+#| msgid "Could not write the project file."
+msgid "Process timed out."
+msgstr "Kon nie skryf die projek lêer."
+
+#: grepview/grepjob.cpp:316
+msgid "Error while writing to process."
+msgstr ""
+
+#: grepview/grepjob.cpp:319
+msgid "Error while reading from process."
+msgstr ""
+
+#: grepview/grepjob.cpp:322
+#, fuzzy
+msgid "Unknown process error."
+msgstr "Onbekende fout"
+
+#: grepview/grepviewplugin.cpp:45
+msgid "Support for running grep over a list of files"
+msgstr ""
+
+#: grepview/grepviewplugin.cpp:54
+#, fuzzy
+msgid "Find in Fi&les..."
+msgstr "Voeg by Bestaande Lêers..."
+
+#: grepview/grepviewplugin.cpp:55
+msgid "Ctrl+Alt+f"
+msgstr ""
+
+#: grepview/grepviewplugin.cpp:57
+#, fuzzy
+msgid "Search for expressions over several files"
+msgstr "Soek vir uitdrukkings bo klomp lêers"
+
+#: grepview/grepviewplugin.cpp:58
+#, fuzzy
+msgid ""
+"<b>Find in files</b><p>Opens the 'Find in files' dialog. There you can enter "
+"a regular expression which is then searched for within all files in the "
+"directories you specify. Matches will be displayed, you can switch to a "
+"match directly.</p>"
+msgstr ""
+"Soektog in lêers\n"
+"\n"
+"Maak oop die Soektog in lêers dialoog. Daar jy kan invoer 'n gewone "
+"uitdrukking wat is dan word gesoekte vir binne in alle lêers in die gidse jy "
+"spesifiseer. Ooreenstemmende inskrywings sal wees vertoon, jy kan wissel na "
+"'n ooreenstem direk."
+
+#: appwizard/projectvcspage.cpp:44
+#, fuzzy
+msgctxt "No Version Control Support chosen"
+msgid "None"
+msgstr "Weergawe Nee:"
+
+#: appwizard/appwizarddialog.cpp:27
+msgid "Create New Project"
+msgstr "Skep Nuwe Projek"
+
+#: appwizard/appwizarddialog.cpp:35
+#, fuzzy
+#| msgid "General"
+msgctxt "Page for general configuration options"
+msgid "General"
+msgstr "Algemeen"
+
+#: appwizard/appwizarddialog.cpp:37
+#, fuzzy
+msgctxt "Page for version control options"
+msgid "Version Control"
+msgstr "Weergawe Nee:"
+
+#: appwizard/appwizardplugin.cpp:72
+#, fuzzy
+msgid "Project Wizard"
+msgstr "Projek naam:"
+
+#: appwizard/appwizardplugin.cpp:72
+msgid "Support for creating and importing projects"
+msgstr ""
+
+#: appwizard/appwizardplugin.cpp:81
+msgid "&New Project..."
+msgstr "Nuwe Projek..."
+
+#: appwizard/appwizardplugin.cpp:83
+#, fuzzy
+msgid "Generate a new project from a template"
+msgstr "Genereer 'n nuwe projek van 'n werkvoorbeeld"
+
+#: appwizard/appwizardplugin.cpp:84
+msgid ""
+"<b>New project</b><p>This starts KDevelop's application wizard. It helps you "
+"to generate a skeleton for your application from a set of templates.</p>"
+msgstr ""
+
+#: appwizard/appwizardplugin.cpp:91
+#, fuzzy
+msgid "&Import Existing Project..."
+msgstr "In voer Bestaande Gids..."
+
+#: appwizard/appwizardplugin.cpp:93
+#, fuzzy
+msgid "Import existing project"
+msgstr "In voer Bestaande Gids..."
+
+#: appwizard/appwizardplugin.cpp:156
+#, fuzzy
+msgid "Could not initialize DVCS repository"
+msgstr "Voeg by na Stoorplek"
+
+#: appwizard/appwizardplugin.cpp:164
+#, fuzzy
+msgid "Could not add files to the DVCS repository"
+msgstr "Voeg by na Stoorplek"
+
+#: appwizard/appwizardplugin.cpp:171
+#, fuzzy
+#| msgid "Could not write the project file."
+msgid "Could not import project into"
+msgstr "Kon nie skryf die projek lêer."
+
+#: appwizard/appwizardplugin.cpp:205
+#, fuzzy
+#| msgid "Could not read project file: %1"
+msgid "Could not checkout imported project"
+msgstr "Kon nie lees projek lêer: %1"
+
+#: appwizard/appwizardplugin.cpp:209
+#, fuzzy
+#| msgid "Could not write the project file."
+msgid "Could not import project"
+msgstr "Kon nie skryf die projek lêer."
+
+#: appwizard/appwizardplugin.cpp:283
+#, fuzzy
+#| msgid "Create New Project"
+msgid "Could not create new project"
+msgstr "Skep Nuwe Projek"
+
+#: appwizard/appwizardplugin.cpp:369
+#, fuzzy, kde-format
+msgid "The file %1 cannot be created."
+msgstr "Stappe uit van die huidige funksie"
+
+#: appwizard/importproject.cpp:60
+msgid ""
+"The given name is used by an already opened project. Choose a different name"
+msgstr ""
+
+#: appwizard/importproject.cpp:80
+#, fuzzy
+msgid "Please choose an existing folder."
+msgstr "Hoof program (relatiewe na projek gids):"
+
+#: appwizard/importproject.cpp:85
+#, fuzzy
+#| msgid "You have to choose a project name."
+msgid "Please choose a project name."
+msgstr "Jy het na kies 'n projek naam."
+
+#: appwizard/importproject.cpp:94
+msgid ""
+"Cannot create project file.<p><b>Suggestion</b>: check permissions on the "
+"selected directory"
+msgstr ""
+
+#: appwizard/importproject.cpp:95 appwizard/importproject.cpp:103
+#, fuzzy
+msgid "Project import error"
+msgstr "Huis gids"
+
+#: appwizard/importproject.cpp:103
+#, fuzzy
+msgid "Could not create temporary file to upload."
+msgstr "Konfigureer lêer"
+
+#: appwizard/projectselectionpage.cpp:83
+#: appwizard/projectselectionpage.cpp:149
+#, fuzzy
+msgid "Invalid Location"
+msgstr "Ligging:"
+
+#: appwizard/projectselectionpage.cpp:90
+#, fuzzy
+#| msgid "Project name"
+msgid "Empty project name"
+msgstr "Projek naam"
+
+#: appwizard/projectselectionpage.cpp:97
+#, fuzzy
+msgid "Invalid project name"
+msgstr "Kode Voorbeelde"
+
+#: appwizard/projectselectionpage.cpp:111
+#, fuzzy, kde-format
+#| msgid ""
+#| "Failed to create subdirectory. Do you have write permission in the "
+#| "project folder?"
+msgid "Unable to create subdirectories, missing permissions on: %1"
+msgstr "Gevaal na skep subgids. Doen jy het skryf reg in die projek kabinet?"
+
+#: appwizard/projectselectionpage.cpp:127
+msgid "Directory already exists and is not empty!"
+msgstr ""
+
+#: appwizard/projectselectionpage.cpp:145
+#, fuzzy
+msgid "Invalid Project Template"
+msgstr "Kode Voorbeelde"
+
+#: appwizard/projecttemplatesmodel.cpp:53
+#, fuzzy
+msgid "Project Templates"
+msgstr "Kode Voorbeelde"
+
+#: documentview/kdevdocumentviewplugin.cpp:40
+#: documentview/kdevdocumentview.cpp:60
+#, fuzzy
+msgid "Document View"
+msgstr "Dokumentasie:"
+
+#: documentview/kdevdocumentviewplugin.cpp:40
+#, fuzzy
+msgid "A list of opened documents"
+msgstr "Verwyder alle bygevoeg lêers."
+
+#: documentview/kdevdocumentviewplugin.cpp:91
+#: documentview/kdevdocumentview.cpp:56 documentview/kdevdocumentview.cpp:59
+#, fuzzy
+msgid "Documents"
+msgstr "Dokumentasie:"
+
+#: cppdebugger/qt4/qlistvariableitem.cpp:96
+#, fuzzy, kde-format
+#| msgid "%1 Attributes"
+msgid "<%1 items>"
+msgstr "%1 Eienskappe"
+
+#: cppdebugger/breakpoint.cpp:275 cppdebugger/breakpointcontroller.cpp:343
+msgid "Disabled"
+msgstr "Gestremde"
+
+#: cppdebugger/breakpoint.cpp:280
+#, fuzzy
+msgid "Pending (add)"
+msgstr "Uitstaande Voeg by"
+
+#: cppdebugger/breakpoint.cpp:282
+#, fuzzy
+msgid "Pending (clear)"
+msgstr "Uitstaande Maak skoon"
+
+#: cppdebugger/breakpoint.cpp:284
+#, fuzzy
+msgid "Pending (modify)"
+msgstr "Uitstaande Verander"
+
+#: cppdebugger/breakpoint.cpp:288
+msgid "Active"
+msgstr "Aktief"
+
+#: cppdebugger/breakpoint.cpp:442 cppdebugger/gdbbreakpointwidget.cpp:89
+#: cppdebugger/breakpointwidget.h:219
+#, fuzzy
+msgctxt "Code breakpoint"
 msgid "Code"
 msgstr "Kode:"
 
-#: src/kdevideextension.cpp:54
-msgid "*.kdev4"
-msgstr ""
-
-#: src/kdevideextension.cpp:59
-#, fuzzy
-msgid "KDevelop4 Project Files"
-msgstr "Vertoon Non-Project Lêers"
-
-#: src/main.cpp:57
-msgid "The KDevelop Integrated Development Environment"
-msgstr ""
-
-#: src/main.cpp:58
-#, fuzzy
-msgid "KDevelop"
-msgstr "Kdevelop"
-
-#: src/main.cpp:60
-msgid "(c) 1999-2007, The KDevelop developers"
-msgstr ""
-
-#: src/main.cpp:61
-msgid "Andreas Pakulat"
-msgstr ""
-
-#: src/main.cpp:61
+#: cppdebugger/gdbcontroller.cpp:249
+#, kde-format
 msgid ""
-"Maintainer, Architecture, VCS Support, Project Management Support, QMake "
-"Projectmanager"
+"<b>Gdb command sent when debugger is not running</b><br>The command was:<br> "
+"%1"
 msgstr ""
 
-#: src/main.cpp:62
-msgid "Matt Rogers"
-msgstr ""
-
-#: src/main.cpp:63
-msgid "Alexander Dymo"
-msgstr ""
-
-#: src/main.cpp:63
-msgid "Architecture, Sublime UI, Ruby support"
-msgstr ""
-
-#: src/main.cpp:64
-msgid "Amilcar do Carmo Lucas"
-msgstr ""
-
-#: src/main.cpp:64
-msgid "Release coordinator, API documentation, Doxygen and autoproject patches"
-msgstr ""
-
-#: src/main.cpp:65
-msgid "Bernd Gehrmann"
-msgstr ""
-
-#: src/main.cpp:65
-msgid "Initial idea, basic architecture, much initial source code"
-msgstr ""
-
-#: src/main.cpp:66
-msgid "Caleb Tennis"
-msgstr ""
-
-#: src/main.cpp:66
-msgid "KTabBar, bugfixes"
-msgstr ""
-
-#: src/main.cpp:67
-msgid "Richard Dale"
-msgstr ""
-
-#: src/main.cpp:67
-msgid "Java & Objective C support"
-msgstr ""
-
-#: src/main.cpp:68
-msgid "John Birch"
-msgstr ""
-
-#: src/main.cpp:68
+#: cppdebugger/gdbcontroller.cpp:251 cppdebugger/frameitem.cpp:165
 #, fuzzy
-msgid "Debugger frontend"
+#| msgid "Internal Error"
+msgid "Internal error"
+msgstr "Intern Fout"
+
+#: cppdebugger/gdbcontroller.cpp:332
+#, fuzzy, kde-format
+msgid "<b>Invalid debugger command</b><br>%1"
+msgstr "Ontfouting nutsbalk"
+
+#: cppdebugger/gdbcontroller.cpp:333
+#, fuzzy
+#| msgid "Internal Error"
+msgid "Invalid debugger command"
+msgstr "Intern Fout"
+
+#: cppdebugger/gdbcontroller.cpp:373
+msgid ""
+"<b>Invalid gdb reply</b><p>The 'stopped' packet does not include the "
+"'reason' field."
+msgstr ""
+
+#: cppdebugger/gdbcontroller.cpp:375
+msgid "The gdb reply is: invalid"
+msgstr ""
+
+#: cppdebugger/gdbcontroller.cpp:376
+msgid "Invalid gdb reply"
+msgstr ""
+
+#: cppdebugger/gdbcontroller.cpp:391
+#, fuzzy, kde-format
+msgid "Exited on signal %1"
+msgstr "Voeg by nuwe lêers"
+
+#: cppdebugger/gdbcontroller.cpp:444
+#, fuzzy, kde-format
+msgid "Program received signal %1 (%2)"
+msgstr "Verwyder breekpunt"
+
+#: cppdebugger/gdbcontroller.cpp:445
+#, fuzzy
+msgid "Received signal"
+msgstr "Verwyder breekpunt"
+
+#: cppdebugger/gdbcontroller.cpp:559
+#, fuzzy, kde-format
+msgid ""
+"gdb message:\n"
+"%1"
+msgstr "gbd boodskap:\n"
+
+#: cppdebugger/gdbcontroller.cpp:559 cppdebugger/gdbcontroller.cpp:718
+#, fuzzy
+msgid "Warning"
+msgstr "Pre-Parsing"
+
+#: cppdebugger/gdbcontroller.cpp:686
+#, fuzzy
+msgid "Running program"
+msgstr "Voortgaan program"
+
+#: cppdebugger/gdbcontroller.cpp:714
+msgid ""
+"GDB cannot use the tty* or pty* devices.\n"
+"Check the settings on /dev/tty* and /dev/pty*\n"
+"As root you may need to \"chmod ug+rw\" tty* and pty* devices and/or add the "
+"user to the tty group using \"usermod -G tty username\"."
+msgstr ""
+"Gbd kan nie gebruik die tty* of pty* toestelle.\n"
+"Bevestig die instellings op /dev/tty* en /dev/pty*\n"
+"As root jy dalk mag benodig na \"chmod ug+rw\" tty* en pty* toestelle en/of "
+"voeg by die gebruiker na die tty groep te gebruik \"usermod -G tty "
+"gebruikernaam\"."
+
+#: cppdebugger/gdbcontroller.cpp:794
+#, kde-format
+msgid ""
+"<b>Application does not exist</b><p>The application you're trying to debug,"
+"<br>    %1\n"
+"<br>does not exist. Check that you've specified the right application in the "
+"debugger configuration."
+msgstr ""
+
+#: cppdebugger/gdbcontroller.cpp:800
+#, fuzzy
+msgid "Application does not exist"
+msgstr "Kon nie open lêer vir om te skryf."
+
+#: cppdebugger/gdbcontroller.cpp:813
+#, kde-format
+msgid ""
+"<b>Could not run application '%1'.</b><p>The application does not have the "
+"executable bit set. Try rebuilding the project, or change permissions "
+"manually."
+msgstr ""
+
+#: cppdebugger/gdbcontroller.cpp:818
+#, fuzzy
+msgid "Could not run application"
+msgstr "Interrupts die aansoek"
+
+#: cppdebugger/gdbcontroller.cpp:1075
+#, kde-format
+msgid "<b>Debugger error</b><p>Debugger reported the following error:<p><tt>%1"
+msgstr ""
+
+#: cppdebugger/gdbcontroller.cpp:1078
+#, fuzzy
+msgid "Debugger error"
+msgstr "Ontfouting nutsbalk"
+
+#: cppdebugger/gdbcontroller.cpp:1179
+#, kde-format
+msgid ""
+"%1 commands in queue\n"
+"%2 commands being processed by gdb\n"
+"Debugger state: %3\n"
+msgstr ""
+
+#: cppdebugger/gdbcontroller.cpp:1186
+#, kde-format
+msgid ""
+"Current command class: '%1'\n"
+"Current command text: '%2'\n"
+"Current command original text: '%3'\n"
+msgstr ""
+
+#: cppdebugger/gdbcontroller.cpp:1197
+#, fuzzy
+#| msgid "Debugger stopped"
+msgid "Debugger status"
 msgstr "Ontfouter op gehou"
 
-#: src/main.cpp:69
-msgid "Sandy Meier"
-msgstr ""
-
-#: src/main.cpp:69
-msgid "PHP support, context menu stuff"
-msgstr ""
-
-#: src/main.cpp:70
-msgid "Kurt Granroth"
-msgstr ""
-
-#: src/main.cpp:70
+#: cppdebugger/disassemblewidget.cpp:57
 #, fuzzy
-msgid "KDE application templates"
-msgstr "'n Kde Aansoek"
-
-#: src/main.cpp:71
-msgid "Ian Reinhart Geiser"
-msgstr ""
-
-#: src/main.cpp:71
-#, fuzzy
-msgid "Dist part, bash support, application templates"
-msgstr "'n Kde Aansoek"
-
-#: src/main.cpp:72
-msgid "Matthias Hoelzer-Kluepfel"
-msgstr ""
-
-#: src/main.cpp:72
-msgid "Several components, htdig indexing"
-msgstr ""
-
-#: src/main.cpp:73
-msgid "Victor Roeder"
-msgstr ""
-
-#: src/main.cpp:73
-#, fuzzy
-msgid "Help with Automake manager and persistant class store"
-msgstr "Aktiveer aanhoudende klas stoor"
-
-#: src/main.cpp:74
-msgid "Harald Fernengel"
-msgstr ""
-
-#: src/main.cpp:74
-msgid "Ported to Qt 3, patches, valgrind, diff and perforce support"
-msgstr ""
-
-#: src/main.cpp:75
-msgid "Roberto Raggi"
-msgstr ""
-
-#: src/main.cpp:75
 msgid ""
-"QEditor component, code completion, Abbrev component, C++ support, Java "
-"support"
+"<b>Machine code display</b><p>A machine code view into your running "
+"executable with the current instruction highlighted. You can step "
+"instruction by instruction using the debuggers toolbar buttons of \"step over"
+"\" instruction and \"step into\" instruction."
 msgstr ""
+"Masjien kode vertoon\n"
+"\n"
+"'n Masjien kode besigtig binnein jou wat loop uitvoerbare met die huidige "
+"instruksie verlig. Jy kan step instruksie deur instruksie te gebruik die "
+"ontfouters nutsbalk knoppies van \"step bo\" instruksie en \"step binnein\" "
+"instruksie."
 
-#: src/main.cpp:76
-msgid "Hamish Rodda"
-msgstr ""
-
-#: src/main.cpp:76
-msgid "Text editor integration, definition-use chain"
-msgstr ""
-
-#: src/main.cpp:77
-msgid "Simon Hausmann"
-msgstr ""
-
-#: src/main.cpp:77
-msgid "Help with KParts infrastructure"
-msgstr ""
-
-#: src/main.cpp:78
-msgid "Oliver Kellogg"
-msgstr ""
-
-#: src/main.cpp:78
+#: cppdebugger/disassemblewidget.cpp:65
 #, fuzzy
-msgid "Ada support"
-msgstr "Java Ondersteun"
+#| msgid "Disassemble"
+msgid "Disassemble View"
+msgstr "Ontsaamstel"
 
-#: src/main.cpp:79
-msgid "Jakob Simon-Gaarde"
-msgstr ""
-
-#: src/main.cpp:79
+#: cppdebugger/disassemblewidget.cpp:70
 #, fuzzy
-msgid "QMake projectmanager"
-msgstr "Projek naam"
+msgid "Address"
+msgstr "Voeg by Klas"
 
-#: src/main.cpp:80
-msgid "Falk Brettschneider"
-msgstr ""
+#: cppdebugger/disassemblewidget.cpp:70 valgrind/valgrindmodel.cpp:348
+msgid "Function"
+msgstr "Funksie"
 
-#: src/main.cpp:80
-msgid "MDI modes, QEditor, bugfixes"
-msgstr ""
+#: cppdebugger/disassemblewidget.cpp:70
+#, fuzzy
+#| msgid "set"
+msgid "Offset"
+msgstr "stel"
 
-#: src/main.cpp:81
-msgid "Mario Scalas"
-msgstr ""
+#: cppdebugger/disassemblewidget.cpp:70
+#, fuzzy
+#| msgid "struct"
+msgid "Instruction"
+msgstr "struktuur"
 
-#: src/main.cpp:81
-msgid "PartExplorer, redesign of CvsPart, patches, bugs(fixes)"
-msgstr ""
-
-#: src/main.cpp:82
-msgid "Jens Dagerbo"
-msgstr ""
-
-#: src/main.cpp:82
+#: cppdebugger/framestackwidget.cpp:49
+#, fuzzy
 msgid ""
-"Replace, Bookmarks, FileList and CTags2 plugins. Overall improvements and "
-"patches"
+"<b>Frame stack</b><p>Often referred to as the \"call stack\", this is a list "
+"showing what function is currently active and who called each function to "
+"get to this point in your program. By clicking on an item you can see the "
+"values in any of the previous calling functions."
 msgstr ""
+"Raam stapel\n"
+"\n"
+"Gereeld verwys na as die \"roep stapel\", hierdie is 'n lys te wys wat "
+"funksie is huidiglik aktief en wie wat genoem word elke funksie na kry na "
+"hierdie punt in jou program. Deur te kliek op 'n item jy kan sien die "
+"waardes in enige van die vorige roep funksies."
 
-#: src/main.cpp:83
-msgid "Julian Rockey"
-msgstr ""
+#: cppdebugger/gdb.cpp:89
+#, kde-format
+msgid "Could not locate the debugging shell '%1'."
+msgstr "Kon nie opspoor die ontfouting tolk '%1'."
 
-#: src/main.cpp:83
-msgid "Filecreate part and other bits and patches"
-msgstr ""
-
-#: src/main.cpp:84
-msgid "Dukju Ahn"
-msgstr ""
-
-#: src/main.cpp:84
-msgid "Subversion plugin, Custom Make Manager, Overall improvements"
-msgstr ""
-
-#: src/main.cpp:85
-msgid "Ajay Guleria"
-msgstr ""
-
-#: src/main.cpp:85
+#: cppdebugger/gdb.cpp:90
 #, fuzzy
-msgid "ClearCase support"
-msgstr "Java Ondersteun"
+msgid "Debugging Shell Not Found"
+msgstr "Ontfouting tolk nie gevind."
 
-#: src/main.cpp:86
-msgid "Marek Janukowicz"
+#: cppdebugger/gdb.cpp:306
+msgctxt "<b>Internal debugger error</b>"
+msgid ""
+"<p>The debugger component encountered internal error while processing reply "
+"from gdb. Please submit a bug report."
 msgstr ""
 
-#: src/main.cpp:86
-msgid "Ruby support"
+#: cppdebugger/gdb.cpp:308
+#, kde-format
+msgid ""
+"The exception is: %1\n"
+"The MI response is: %2"
 msgstr ""
 
-#: src/main.cpp:88
+#: cppdebugger/gdb.cpp:311
 #, fuzzy
-msgid "The KWrite authors"
-msgstr "Outeur:"
+#| msgid "Internal Error"
+msgid "Internal debugger error"
+msgstr "Intern Fout"
 
-#: src/main.cpp:88
+#: cppdebugger/gdb.cpp:358
+#, kde-format
+msgid ""
+"<b>Could not start debugger.</b><p>Could not run '%1'. Make sure that the "
+"path name is specified correctly."
+msgstr ""
+
+#: cppdebugger/gdb.cpp:362
 #, fuzzy
-msgid "Kate editor component"
-msgstr "tipe komponent"
+msgid "Could not start debugger"
+msgstr "Begin in Terminaal"
 
-#: src/main.cpp:89
-msgid "The KHTML authors"
-msgstr ""
-
-#: src/main.cpp:89
+#: cppdebugger/gdbbreakpointwidget.cpp:68 cppdebugger/breakpointwidget.h:163
 #, fuzzy
-msgid "HTML documentation component"
-msgstr "Dokumentasie Blaaier"
+msgid "Debugger Breakpoints"
+msgstr "Wissel Breekpunt"
 
-#: src/main.cpp:90
-msgid "Robert Moniot"
-msgstr ""
-
-#: src/main.cpp:90
+#: cppdebugger/gdbbreakpointwidget.cpp:69 cppdebugger/breakpointwidget.h:164
 #, fuzzy
-msgid "Fortran documentation"
-msgstr "Erf dokumentasie"
-
-#: src/main.cpp:91
-msgid "Ka-Ping Yee"
+msgid ""
+"<b>Breakpoint list</b><p>Displays a list of breakpoints with their current "
+"status. Clicking on a breakpoint item allows you to change the breakpoint "
+"and will take you to the source in the editor window."
 msgstr ""
+"Breekpunt lys\n"
+"\n"
+"Vertoon 'n lys van breekpunte met hulle huidige status. Te kliek op 'n "
+"Breekpunt item met die Rmb Vertoon 'n opspring kieskaart sodat jy dalk mag "
+"manipuleer die Breekpunt. Dubbel Te kliek sal neem jy na die bron in die "
+"redigeerder venster."
 
-#: src/main.cpp:91
+#: cppdebugger/gdbbreakpointwidget.cpp:87 cppdebugger/breakpointwidget.h:216
 #, fuzzy
-msgid "Python documentation utility"
-msgstr "Python Dokumentasie..."
+msgctxt "New breakpoint"
+msgid "New"
+msgstr "Naam:"
 
-#: src/main.cpp:92
-msgid "Dimitri van Heesch"
-msgstr ""
-
-#: src/main.cpp:92
+#: cppdebugger/gdbbreakpointwidget.cpp:94 cppdebugger/breakpointwidget.h:228
 #, fuzzy
-msgid "Doxygen wizard"
-msgstr "Doxygen"
+msgctxt "Data breakpoint"
+msgid "Data write"
+msgstr "Data lêer"
 
-#: src/main.cpp:93
-msgid "Hugo Varotto"
-msgstr ""
-
-#: src/main.cpp:93 src/main.cpp:94
+#: cppdebugger/gdbbreakpointwidget.cpp:95 cppdebugger/breakpointwidget.h:231
 #, fuzzy
-msgid "Fileselector component"
-msgstr "Lêer Kiesser"
+msgctxt "Data read breakpoint"
+msgid "Data read"
+msgstr "Data lêer"
 
-#: src/main.cpp:94
-msgid "Matt Newell"
-msgstr ""
-
-#: src/main.cpp:95
-msgid "Trolltech AS"
-msgstr ""
-
-#: src/main.cpp:95
-msgid "Designer code"
-msgstr ""
-
-#: src/main.cpp:96
-msgid "Daniel Engelschalt"
-msgstr ""
-
-#: src/main.cpp:96
+#: cppdebugger/gdbbreakpointwidget.cpp:97 cppdebugger/breakpointwidget.h:235
 #, fuzzy
-msgid "C++ code completion, persistant class store"
-msgstr "Aktiveer aanhoudende klas stoor"
+msgid "Show text"
+msgstr "Voeg by Nuwe Teiken"
 
-#: src/main.cpp:97
-msgid "Stephane Ancelot"
+#: cppdebugger/gdbbreakpointwidget.cpp:99 cppdebugger/breakpointwidget.h:238
+#, fuzzy
+msgid "Edit"
+msgstr "Redigeer..."
+
+#: cppdebugger/gdbbreakpointwidget.cpp:102
+#: cppdebugger/gdbbreakpointwidget.cpp:328 cppdebugger/breakpointwidget.h:241
+#: cppdebugger/breakpointwidget.h:282
+#, fuzzy
+msgid "Disable"
+msgstr "Gestremde"
+
+#: cppdebugger/gdbbreakpointwidget.cpp:104 cppdebugger/breakpointwidget.h:246
+#, fuzzy
+msgid "Delete"
+msgstr "Uitvee Groep"
+
+#: cppdebugger/gdbbreakpointwidget.cpp:111 cppdebugger/breakpointwidget.h:255
+#, fuzzy
+msgid "Disable all"
+msgstr "Gestremde"
+
+#: cppdebugger/gdbbreakpointwidget.cpp:112 cppdebugger/breakpointwidget.h:256
+#, fuzzy
+msgid "Enable all"
+msgstr "Aktiveer"
+
+#: cppdebugger/gdbbreakpointwidget.cpp:113 cppdebugger/breakpointwidget.h:257
+#, fuzzy
+msgid "Delete all"
+msgstr "Verwyder breekpunt"
+
+#: cppdebugger/gdbbreakpointwidget.cpp:209
+#, kde-format
+msgid ""
+"<b>Data write breakpoint</b><br>Expression: %1<br>Address: 0x%2<br>Old "
+"value: %3<br>New value: %4"
 msgstr ""
 
-#: src/main.cpp:97 src/main.cpp:98 src/main.cpp:101
+#: cppdebugger/gdbbreakpointwidget.cpp:332 cppdebugger/breakpointwidget.h:286
 #, fuzzy
-msgid "Patches"
+msgid "Enable"
+msgstr "Aktiveer"
+
+#: cppdebugger/gdboutputwidget.cpp:63
+#, fuzzy
+msgid "GDB Output"
+msgstr "Grep Uitset"
+
+#: cppdebugger/gdboutputwidget.cpp:64
+msgid ""
+"<b>GDB output</b><p>Shows all gdb commands being executed. You can also "
+"issue any other gdb command while debugging."
+msgstr ""
+
+#: cppdebugger/gdboutputwidget.cpp:73
+msgid "&GDB cmd:"
+msgstr ""
+
+#: cppdebugger/gdboutputwidget.cpp:78
+msgid "Pause execution of the app to enter gdb commands"
+msgstr ""
+
+#: cppdebugger/gdboutputwidget.cpp:355 cppdebugger/gdboutputwidget.cpp:405
+msgid "Show Internal Commands"
+msgstr ""
+
+#: cppdebugger/gdboutputwidget.cpp:362 cppdebugger/gdboutputwidget.cpp:412
+msgid ""
+"Controls if commands issued internally by KDevelop will be shown or not."
+"<br>This option will affect only future commands, it will not add or remove "
+"already issued commands from the view."
+msgstr ""
+
+#: cppdebugger/gdboutputwidget.cpp:367
+#, fuzzy
+msgid "Copy All"
+msgstr "Maak toe Alle Andere"
+
+#: cppdebugger/breakpointwidget.h:70 cppdebugger/breakpointwidget.h:115
+#, fuzzy
+msgid "Not hit yet"
+msgstr "Nuwe Lêer"
+
+#: cppdebugger/breakpointwidget.h:77
+#, fuzzy
+msgid "Ignore"
+msgstr "Ignoreer tel"
+
+#: cppdebugger/breakpointwidget.h:83
+#, fuzzy
+msgid "next hits"
+msgstr "Aktiveer waarskuwings"
+
+#: cppdebugger/watchitem.cpp:41
+#, fuzzy
+msgid "Watches"
 msgstr "Gids soeklys"
 
-#: src/main.cpp:98
-msgid "Jens Zurheide"
-msgstr ""
-
-#: src/main.cpp:99
+#: cppdebugger/watchitem.cpp:59
 #, fuzzy
-msgid "Luc Willems"
-msgstr "Vertoon gebruik word lêers"
+#| msgid "Reset"
+msgid "Recent"
+msgstr "Herstel"
 
-#: src/main.cpp:99
-msgid "Help with Perl support"
-msgstr ""
+#: cppdebugger/processselection.cpp:62 cppdebugger/debuggerplugin.cpp:334
+msgid "Attach to Process"
+msgstr "Aanheg na Proses"
 
-#: src/main.cpp:100
-msgid "Marcel Turino"
-msgstr ""
-
-#: src/main.cpp:100
+#: cppdebugger/variablewidget.cpp:89
 #, fuzzy
-msgid "Documentation index view"
-msgstr "Dokumentasie Indeks"
+msgid "Debugger Variables"
+msgstr "Voeg by Lid Veranderlike"
 
-#: src/main.cpp:101
-msgid "Yann Hodique"
-msgstr ""
-
-#: src/main.cpp:102
-msgid "Tobias Gläßer"
-msgstr ""
-
-#: src/main.cpp:102
+#: cppdebugger/variablewidget.cpp:109
 msgid ""
-"Documentation Finder,  qmake projectmanager patches, usability improvements, "
-"bugfixes ... "
+"<b>Variable tree</b><p>The variable tree allows you to see the values of "
+"local variables and arbitrary expressions.<p>Local variables are displayed "
+"automatically and are updated as you step through your program. For each "
+"expression you enter, you can either evaluate it once, or \"watch\" it (make "
+"it auto-updated). Expressions that are not auto-updated can be updated "
+"manually from the context menu. Expressions can be renamed to more "
+"descriptive names by clicking on the name column.<p>To change the value of a "
+"variable or an expression, click on the value."
 msgstr ""
 
-#: src/main.cpp:103
-msgid "Andreas Koepfle"
+#: cppdebugger/variablewidget.cpp:123
+msgid "<b>Expression entry</b><p>Type in expression to watch."
 msgstr ""
 
-#: src/main.cpp:103
+#: cppdebugger/variablewidget.cpp:193
 #, fuzzy
-msgid "QMake project manager patches"
-msgstr "Projek naam"
+msgid "Recent Expressions"
+msgstr "Verwyder Waarneem Veranderlike"
 
-#: src/main.cpp:104
-msgid "Sascha Cunz"
-msgstr ""
-
-#: src/main.cpp:104
-msgid "Cleanup and bugfixes for qEditor, AutoMake and much other stuff"
-msgstr ""
-
-#: src/main.cpp:105
-msgid "Robert Gruber"
-msgstr ""
-
-#: src/main.cpp:105
-msgid "SnippetPart, debugger and usability patches"
-msgstr ""
-
-#: src/main.cpp:106
-msgid "Zoran Karavla"
-msgstr ""
-
-#: src/main.cpp:106
-msgid "Artwork for the ruby language"
-msgstr ""
-
-#: src/main.cpp:110
+#: cppdebugger/variablewidget.cpp:194
 #, fuzzy
-msgid "Profile to load"
-msgstr "Projek na open"
+msgid "Remove All"
+msgstr "Verwyder Alle"
 
-#: src/main.cpp:111
+#: cppdebugger/variablewidget.cpp:195
 #, fuzzy
-msgid "Project to load"
-msgstr "Projek naam"
+msgid "Re-evaluate All"
+msgstr "Verwyder Waarneem Veranderlike"
 
-#: src/main.cpp:112
-msgid "Files to load"
+#: cppdebugger/variablewidget.cpp:237
+#, fuzzy
+msgid "Format"
+msgstr "Vorms"
+
+#: cppdebugger/variablewidget.cpp:241
+#, fuzzy
+msgid "Natural"
+msgstr "Man"
+
+#: cppdebugger/variablewidget.cpp:245
+#, fuzzy
+msgid "Hexadecimal"
+msgstr "Desimaal"
+
+#: cppdebugger/variablewidget.cpp:249
+msgid "Decimal"
+msgstr "Desimaal"
+
+#: cppdebugger/variablewidget.cpp:253
+#, fuzzy
+msgid "Character"
+msgstr "Karakter"
+
+#: cppdebugger/variablewidget.cpp:257
+#, fuzzy
+msgid "Binary"
+msgstr "Qmake Bestuurder"
+
+#: cppdebugger/variablewidget.cpp:278
+#, fuzzy
+msgid "Remember Value"
+msgstr "Verwyder lêer"
+
+#: cppdebugger/variablewidget.cpp:283
+msgid "Remove Watch Variable"
+msgstr "Verwyder Waarneem Veranderlike"
+
+#: cppdebugger/variablewidget.cpp:287
+#, fuzzy
+msgid "Watch Variable"
+msgstr "Verwyder Waarneem Veranderlike"
+
+#: cppdebugger/variablewidget.cpp:292
+#, fuzzy
+msgid "Reevaluate Expression"
+msgstr "Verwyder Waarneem Veranderlike"
+
+#: cppdebugger/variablewidget.cpp:294
+#, fuzzy
+msgid "Remove Expression"
+msgstr "Verwyder Waarneem Veranderlike"
+
+#: cppdebugger/variablewidget.cpp:300
+#, fuzzy
+msgid "Data write breakpoint"
+msgstr "Uitvee gekose item"
+
+#: cppdebugger/variablewidget.cpp:306
+#, fuzzy
+#| msgid "Value"
+msgid "Copy Value"
+msgstr "Waarde"
+
+#: cppdebugger/breakpoint.h:147
+#, fuzzy
+msgid "Invalid"
+msgstr "Inlyn Wiskunde"
+
+#: cppdebugger/breakpoint.h:266
+#, fuzzy
+msgid "Watchpoint"
+msgstr "Wissel Uitkykpunt"
+
+#: cppdebugger/breakpoint.h:292
+#, fuzzy
+msgid "Read Watchpoint"
+msgstr "Wissel Uitkykpunt"
+
+#: cppdebugger/memviewdlg.cpp:95
+#, fuzzy
+msgid "Start"
+msgstr "struktuur"
+
+#: cppdebugger/memviewdlg.cpp:101
+#, fuzzy
+#| msgid "&Ant"
+msgid "Amount"
+msgstr "Mier"
+
+#: cppdebugger/memviewdlg.cpp:113
+msgid "OK"
 msgstr ""
 
-#: src/main.cpp:137
+#: cppdebugger/memviewdlg.cpp:142
 #, fuzzy
-msgid "Starting GUI"
-msgstr "String"
+#| msgid "MemoryView:"
+msgid "Memory view"
+msgstr "Geheuebesigtig:"
 
-#: src/splashscreen.cpp:96
+#: cppdebugger/memviewdlg.cpp:354
+#, fuzzy
+msgid "Change memory range"
+msgstr "Voeg by Teiken..."
+
+#: cppdebugger/memviewdlg.cpp:359
+#, fuzzy
+msgid "Reload"
+msgstr "Vervang Teks"
+
+#: cppdebugger/memviewdlg.cpp:364
+#, fuzzy
+msgid "Close this view"
+msgstr "Maak toe Projek"
+
+#: cppdebugger/memviewdlg.cpp:423
+#, fuzzy
+msgid "Special debugger views"
+msgstr "Ontfouter"
+
+#: cppdebugger/newbreakpoint.cpp:224
+msgid "Double-click to create new code breakpoint"
+msgstr ""
+
+#: cppdebugger/breakpointcontroller.cpp:93
+msgid "Breakpoint"
+msgstr "Breekpunt"
+
+#: cppdebugger/breakpointcontroller.cpp:294
+#, fuzzy
+msgid " temporary"
+msgstr "Geheue"
+
+#: cppdebugger/breakpointcontroller.cpp:296
+msgid " hw"
+msgstr ""
+
+#: cppdebugger/breakpointcontroller.cpp:343
+#, fuzzy
+msgid "Enabled"
+msgstr "Aktiveer"
+
+#: cppdebugger/breakpointcontroller.cpp:372
+#: cppdebugger/variablecollection.cpp:639
+#: managers/cmake/settings/cmakecachemodel.cpp:35
+#, fuzzy
+msgid "Type"
+msgstr "Tipe:"
+
+#: cppdebugger/breakpointcontroller.cpp:374
+#, fuzzy
+msgid "Status"
+msgstr "Begin:"
+
+#: cppdebugger/breakpointcontroller.cpp:376
+#, fuzzy
+msgid "Location"
+msgstr "Ligging:"
+
+#: cppdebugger/breakpointcontroller.cpp:378
+#, fuzzy
+#| msgid "&Conditional"
+msgid "Condition"
+msgstr "Voorwaarde"
+
+#: cppdebugger/breakpointcontroller.cpp:380
+#, fuzzy
+msgid "Ignore Count"
+msgstr "Ignoreer tel"
+
+#: cppdebugger/breakpointcontroller.cpp:382
+#, fuzzy
+msgid "Hits"
+msgstr "Lyn: %1"
+
+#: cppdebugger/breakpointcontroller.cpp:384
+#, fuzzy
+msgid "Tracing"
+msgstr "Fout Navolg"
+
+#: cppdebugger/frameitem.cpp:296
+#, fuzzy
+#| msgid "Frame Stack"
+msgid "Frame"
+msgstr "Raam Stapel"
+
+#: cppdebugger/debuggerplugin.cpp:91
+#, fuzzy
+#| msgid "Debugger"
+msgid "C++ Debugger"
+msgstr "Ontfouter"
+
+#: cppdebugger/debuggerplugin.cpp:91
+msgid "Support for running C++ apps in GDB"
+msgstr ""
+
+#: cppdebugger/debuggerplugin.cpp:153
+msgid "Breakpoints"
+msgstr "Breekpunte"
+
+#: cppdebugger/debuggerplugin.cpp:159
+#, fuzzy
+msgid "Variables"
+msgstr "Veranderlike"
+
+#: cppdebugger/debuggerplugin.cpp:165
+msgid "Frame Stack"
+msgstr "Raam Stapel"
+
+#: cppdebugger/debuggerplugin.cpp:171
+msgid "Disassemble"
+msgstr "Ontsaamstel"
+
+#: cppdebugger/debuggerplugin.cpp:177 cppdebugger/debuggerplugin.cpp:621
+msgid "GDB"
+msgstr "Gbd"
+
+#: cppdebugger/debuggerplugin.cpp:183
+#, fuzzy
+msgid "Debug views"
+msgstr "Ontfouter"
+
+#: cppdebugger/debuggerplugin.cpp:214 cppdebugger/debuggerplugin.cpp:689
+#, fuzzy
+msgid "&Start"
+msgstr "Begin:"
+
+#: cppdebugger/debuggerplugin.cpp:216
+#, fuzzy
+msgid "Start in debugger"
+msgstr "Begin in Terminaal"
+
+#: cppdebugger/debuggerplugin.cpp:217
+#, fuzzy
+msgid ""
+"<b>Start in debugger</b><p>Starts the debugger with the project's main "
+"executable. You may set some breakpoints before this, or you can interrupt "
+"the program while it is running, in order to get information about "
+"variables, frame stack, and so on."
+msgstr ""
+"Begin in ontfouter\n"
+"\n"
+"Beginne die ontfouter met die projek se hoof uitvoerbare. Jy dalk mag stel "
+"sommige breekpunte voor hierdie, of Jy kan interrupt die program terwyl dit "
+"is wat loop, in volgorde na kry informasie aangaande veranderlikes, raam "
+"stapel, en sodat op."
+
+#: cppdebugger/debuggerplugin.cpp:226
+#, fuzzy
+msgid "&Restart"
+msgstr "struktuur"
+
+#: cppdebugger/debuggerplugin.cpp:227
+#, fuzzy
+msgid "Restart program"
+msgstr "Uitvoer program"
+
+#: cppdebugger/debuggerplugin.cpp:228
+#, fuzzy
+msgid "<b>Restarts application</b><p>Restarts applications from the beginning."
+msgstr "Voeg by Nuwe Aansoek .werkskerm Lêer"
+
+#: cppdebugger/debuggerplugin.cpp:236
+#, fuzzy
+msgid "Sto&p"
+msgstr "Stop"
+
+#: cppdebugger/debuggerplugin.cpp:237
+#, fuzzy
+msgid "Stop debugger"
+msgstr "Ontfouter"
+
+#: cppdebugger/debuggerplugin.cpp:238
+#, fuzzy
+msgid "<b>Stop debugger</b><p>Kills the executable and exits the debugger."
+msgstr "Stop die uitvoerbare en uitgaan die ontfouter"
+
+#: cppdebugger/debuggerplugin.cpp:242
+msgid "Interrupt"
+msgstr "Interrupt"
+
+#: cppdebugger/debuggerplugin.cpp:243
+#, fuzzy
+msgid "Interrupt application"
+msgstr "Interrupts die aansoek"
+
+#: cppdebugger/debuggerplugin.cpp:244
+msgid ""
+"<b>Interrupt application</b><p>Interrupts the debugged process or current "
+"GDB command."
+msgstr ""
+
+#: cppdebugger/debuggerplugin.cpp:248
+msgid "Run to &Cursor"
+msgstr "Hardloop na Plekaanduier"
+
+#: cppdebugger/debuggerplugin.cpp:249
+#, fuzzy
+msgid "Run to cursor"
+msgstr "Hardloop na Plekaanduier"
+
+#: cppdebugger/debuggerplugin.cpp:250
+#, fuzzy
+msgid ""
+"<b>Run to cursor</b><p>Continues execution until the cursor position is "
+"reached."
+msgstr "Gaan voort uitvoering totdat die plekaanduier posisie is bereik"
+
+#: cppdebugger/debuggerplugin.cpp:255
+msgid "Set E&xecution Position to Cursor"
+msgstr ""
+
+#: cppdebugger/debuggerplugin.cpp:256
+#, fuzzy
+msgid "Jump to cursor"
+msgstr "Hardloop na Plekaanduier"
+
+#: cppdebugger/debuggerplugin.cpp:257
+#, fuzzy
+msgid ""
+"<b>Set Execution Position </b><p>Set the execution pointer to the current "
+"cursor position."
+msgstr "Gaan voort uitvoering totdat die plekaanduier posisie is bereik"
+
+#: cppdebugger/debuggerplugin.cpp:261
+msgid "Step &Over"
+msgstr "Step Bo"
+
+#: cppdebugger/debuggerplugin.cpp:263
+#, fuzzy
+msgid "Step over the next line"
+msgstr "Stappe bo die volgende lyn"
+
+#: cppdebugger/debuggerplugin.cpp:264
+#, fuzzy
+msgid ""
+"<b>Step over</b><p>Executes one line of source in the current source file. "
+"If the source line is a call to a function the whole function is executed "
+"and the app will stop at the line following the function call."
+msgstr ""
+"Step bo\n"
+"\n"
+"Voer uit een lyn van bron in die huidige bron lêer. As die bron lyn is 'n "
+"roep na 'n funksie die volledige funksie is uitgevoerde en die app sal stop "
+"na die lyn volgende die funksie roep."
+
+#: cppdebugger/debuggerplugin.cpp:273
+msgid "Step over Ins&truction"
+msgstr "Step bo Instruksie"
+
+#: cppdebugger/debuggerplugin.cpp:274
+#, fuzzy
+msgid "Step over instruction"
+msgstr "Step bo Instruksie"
+
+#: cppdebugger/debuggerplugin.cpp:275
+#, fuzzy
+msgid ""
+"<b>Step over instruction</b><p>Steps over the next assembly instruction."
+msgstr "Stappe bo die volgende saamstel instruksie"
+
+#: cppdebugger/debuggerplugin.cpp:280
+msgid "Step &Into"
+msgstr "Step Binnein"
+
+#: cppdebugger/debuggerplugin.cpp:282
+#, fuzzy
+#| msgid "Steps into the next statement"
+msgid "Step into the next statement"
+msgstr "Stappe binnein die volgende stelling"
+
+#: cppdebugger/debuggerplugin.cpp:283
+#, fuzzy
+msgid ""
+"<b>Step into</b><p>Executes exactly one line of source. If the source line "
+"is a call to a function then execution will stop after the function has been "
+"entered."
+msgstr ""
+"Step binnein\n"
+"\n"
+"Voer uit presies een lyn van bron. As die bron lyn is 'n roep na 'n funksie "
+"dan word uitvoering sal stop na die funksie het al ingevoerde."
+
+#: cppdebugger/debuggerplugin.cpp:291
+msgid "Step into I&nstruction"
+msgstr "Step binnein Instruksie"
+
+#: cppdebugger/debuggerplugin.cpp:292
+#, fuzzy
+msgid "Step into instruction"
+msgstr "Step binnein Instruksie"
+
+#: cppdebugger/debuggerplugin.cpp:293
+#, fuzzy
+msgid ""
+"<b>Step into instruction</b><p>Steps into the next assembly instruction."
+msgstr "Stappe binnein die volgende saamstel instruksie"
+
+#: cppdebugger/debuggerplugin.cpp:298
+msgid "Step O&ut"
+msgstr "Step Uit"
+
+#: cppdebugger/debuggerplugin.cpp:300
+msgid "Steps out of the current function"
+msgstr "Stappe uit van die huidige funksie"
+
+#: cppdebugger/debuggerplugin.cpp:301
+#, fuzzy
+msgid ""
+"<b>Step out</b><p>Executes the application until the currently executing "
+"function is completed. The debugger will then display the line after the "
+"original call to that function. If program execution is in the outermost "
+"frame (i.e. in main()) then this operation has no effect."
+msgstr ""
+"Step uit van\n"
+"\n"
+"Voer uit die aansoek totdat die huidiglik uitvoer van funksie is klaar. die "
+"ontfouter sal dan word vertoon die lyn na die oorspronklike roep na wat "
+"funksie. As program uitvoering is in die buitenste raam (i.e. in hoof()) dan "
+"word hierdie operasie het nee effek."
+
+#: cppdebugger/debuggerplugin.cpp:311
+msgid "Viewers"
+msgstr "Kykers"
+
+#: cppdebugger/debuggerplugin.cpp:312
+#, fuzzy
+msgid "Debugger viewers"
+msgstr "Ontfouter"
+
+#: cppdebugger/debuggerplugin.cpp:313
+msgid ""
+"<b>Debugger viewers</b><p>Various information about application being "
+"executed. There are 4 views available:<br><b>Memory</b><br><b>Disassemble</"
+"b><br><b>Registers</b><br><b>Libraries</b>"
+msgstr ""
+
+#: cppdebugger/debuggerplugin.cpp:322
+#, fuzzy
+msgid "Examine Core File..."
+msgstr "Ondersoek Kern Lêer"
+
+#: cppdebugger/debuggerplugin.cpp:323
+#, fuzzy
+msgid "Examine core file"
+msgstr "Ondersoek Kern Lêer"
+
+#: cppdebugger/debuggerplugin.cpp:324
+#, fuzzy
+msgid ""
+"<b>Examine core file</b><p>This loads a core file, which is typically "
+"created after the application has crashed, e.g. with a segmentation fault. "
+"The core file contains an image of the program memory at the time it "
+"crashed, allowing you to do a post-mortem analysis."
+msgstr ""
+"Ondersoek kern lêer\n"
+"\n"
+"Hierdie laai 'n kern lêer, wat is tipies geskep na die aansoek het het "
+"gestaak, e.g. met 'n segmentasie fout. die kern lêer bevat 'n beeld van die "
+"program geheue na die tyd dit het gestaak, toelaat jy na doen 'n post-mortem "
+"analise."
+
+#: cppdebugger/debuggerplugin.cpp:335
+#, fuzzy
+msgid "Attach to process"
+msgstr "Aanheg na Proses"
+
+#: cppdebugger/debuggerplugin.cpp:336
+#, fuzzy
+msgid "<b>Attach to process</b><p>Attaches the debugger to a running process."
+msgstr "Koppel die ontfouter na 'n wat loop proses"
+
+#: cppdebugger/debuggerplugin.cpp:340
+msgid "Toggle Breakpoint"
+msgstr "Wissel Breekpunt"
+
+#: cppdebugger/debuggerplugin.cpp:341
+#, fuzzy
+msgid "Toggle breakpoint"
+msgstr "Wissel Breekpunt"
+
+#: cppdebugger/debuggerplugin.cpp:342
+msgid ""
+"<b>Toggle breakpoint</b><p>Toggles the breakpoint at the current line in "
+"editor."
+msgstr ""
+
+#: cppdebugger/debuggerplugin.cpp:376
+#, fuzzy
+msgid "Debug in &KDevelop"
+msgstr "Stel fokus op Kdevelop"
+
+#: cppdebugger/debuggerplugin.cpp:450
 #, fuzzy, kde-format
-msgid "Version %1"
-msgstr "Weergawe:"
+msgid "Evaluate: %1"
+msgstr "Werkvoorbeeld:"
+
+#: cppdebugger/debuggerplugin.cpp:452
+msgid ""
+"<b>Evaluate expression</b><p>Shows the value of the expression under the "
+"cursor."
+msgstr ""
+
+#: cppdebugger/debuggerplugin.cpp:455
+#, kde-format
+msgid "Watch: %1"
+msgstr "Waarneem: %1"
+
+#: cppdebugger/debuggerplugin.cpp:457
+msgid ""
+"<b>Watch expression</b><p>Adds an expression under the cursor to the "
+"Variables/Watch list."
+msgstr ""
+
+#: cppdebugger/debuggerplugin.cpp:537
+msgid ""
+"<b>GDB exited abnormally</b><p>This is likely a bug in GDB. Examine the gdb "
+"output window and then stop the debugger"
+msgstr ""
+
+#: cppdebugger/debuggerplugin.cpp:540
+#, fuzzy
+msgid "GDB exited abnormally"
+msgstr "*** Uitgegaan gewoonlik ***"
+
+#: cppdebugger/debuggerplugin.cpp:554
+msgid "Choose a core file to examine..."
+msgstr "Kies 'n kern lêer na ondersoek..."
+
+#: cppdebugger/debuggerplugin.cpp:560
+#, kde-format
+msgid "Examining core file %1"
+msgstr "Ondersoek kern lêer %1"
+
+#: cppdebugger/debuggerplugin.cpp:568
+msgid "Choose a process to attach to..."
+msgstr "Kies 'n proses na aanheg na..."
+
+#: cppdebugger/debuggerplugin.cpp:580
+#, kde-format
+msgid "Attaching to process %1"
+msgstr "Koppel na proses %1"
+
+#: cppdebugger/debuggerplugin.cpp:637
+msgid "Debugger"
+msgstr "Ontfouter"
+
+#: cppdebugger/debuggerplugin.cpp:660
+msgid "Debugger stopped"
+msgstr "Ontfouter op gehou"
+
+#: cppdebugger/debuggerplugin.cpp:690
+msgid "Runs the program in the debugger"
+msgstr "Loop die program in die ontfouter"
+
+#: cppdebugger/debuggerplugin.cpp:691
+msgid ""
+"Start in debugger\n"
+"\n"
+"Starts the debugger with the project's main executable. You may set some "
+"breakpoints before this, or you can interrupt the program while it is "
+"running, in order to get information about variables, frame stack, and so on."
+msgstr ""
+"Begin in ontfouter\n"
+"\n"
+"Beginne die ontfouter met die projek se hoof uitvoerbare. Jy dalk mag stel "
+"sommige breekpunte voor hierdie, of Jy kan interrupt die program terwyl dit "
+"is wat loop, in volgorde na kry informasie aangaande veranderlikes, raam "
+"stapel, en sodat op."
+
+#: cppdebugger/debuggerplugin.cpp:705
+msgid "&Continue"
+msgstr "Gaan voort"
+
+#: cppdebugger/debuggerplugin.cpp:706
+#, fuzzy
+#| msgid "Interrupt the application execution"
+msgid "Continues the application execution"
+msgstr "Interrupt die aansoek uitvoering"
+
+#: cppdebugger/debuggerplugin.cpp:707
+msgid ""
+"Continue application execution\n"
+"\n"
+"Continues the execution of your application in the debugger. This only takes "
+"effect when the application has been halted by the debugger (i.e. a "
+"breakpoint has been activated or the interrupt was pressed)."
+msgstr ""
+"Gaan voort aansoek uitvoering\n"
+"\n"
+"Gaan voort die uitvoering van jou aansoek in die ontfouter. Hierdie slegs "
+"neem effek wanneer die aansoek het al gestaak deur die ontfouter (i.e. 'n "
+"breekpunt het al geaktiveer of die interrupt was gedruk)."
+
+#: cppdebugger/debuggerplugin.cpp:738
+#, fuzzy
+msgid "Process exited"
+msgstr "Proses uitgegaan"
+
+#: cppdebugger/variablecollection.cpp:633
+msgid "Variable"
+msgstr "Veranderlike"
+
+#: cppdebugger/variablecollection.cpp:636
+#: managers/cmake/settings/cmakecachemodel.cpp:36
+msgid "Value"
+msgstr "Waarde"
+
+#: cppdebugger/stty.cpp:333
+msgid "kdevelop: Debug application console"
+msgstr "kdevelop: Ontfouting aansoek konsole"
+
+#: managers/cmake/cmakemanager.cpp:82
+#, fuzzy
+#| msgid "QMake Manager"
+msgid "CMake Manager"
+msgstr "Qmake Bestuurder"
+
+#: managers/cmake/cmakemanager.cpp:82
+msgid "Support for managing CMake projects"
+msgstr ""
+
+#: managers/cmake/cmakemanager.cpp:871
+#, fuzzy
+#| msgid "fragment definition"
+msgid "Jump to target definition"
+msgstr "fragment definisie"
+
+#: managers/cmake/cmakemanager.cpp:935
+#, fuzzy, kde-format
+msgid "Create a folder called '%1'."
+msgstr "Skep Nuwe Lêer..."
+
+#: managers/cmake/cmakemanager.cpp:947 managers/cmake/cmakemanager.cpp:956
+#: managers/cmake/cmakemanager.cpp:977
+msgid "KDevelop - CMake Support"
+msgstr ""
+
+#: managers/cmake/cmakemanager.cpp:948
+#, fuzzy
+#| msgid "Could not create the new file."
+msgid "Could not create the directory's CMakeLists.txt file."
+msgstr "Kon nie skep die nuwe lêer."
+
+#: managers/cmake/cmakemanager.cpp:957 managers/cmake/cmakemanager.cpp:978
+#, fuzzy
+#| msgid "Could not create the new file."
+msgid "Could not save the change."
+msgstr "Kon nie skep die nuwe lêer."
+
+#: managers/cmake/cmakemanager.cpp:967
+#, fuzzy, kde-format
+msgid "Remove a folder called '%1'."
+msgstr "Verwyder lêer"
+
+#: managers/cmake/settings/cmakepreferences.cpp:179
+#, kde-format
+msgid "The %1 build directory is not valid. It will be removed from the list"
+msgstr ""
+
+#: managers/cmake/settings/cmakepreferences.cpp:255
+#, kde-format
+msgid ""
+"The %1 directory is about to be removed in KDevelop's list.\n"
+"Do you want KDevelop to remove it in the file system as well?"
+msgstr ""
+
+#: managers/cmake/settings/cmakepreferences.cpp:261
+#, fuzzy, kde-format
+#| msgid "Could not read project file: %1"
+msgid "Could not remove: %1.\n"
+msgstr "Kon nie lees projek lêer: %1"
+
+#: managers/cmake/settings/cmakecachemodel.cpp:34
+msgid "Name"
+msgstr "Naam"
+
+#: managers/cmake/settings/cmakecachemodel.cpp:37
+#, fuzzy
+msgid "Comment"
+msgstr "Kommentaar:"
+
+#: managers/cmake/settings/cmakecachemodel.cpp:38
+#, fuzzy
+#| msgid "Show included files"
+msgid "Advanced"
+msgstr "Vertoon ingesluite lêers"
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:63
+#, kde-format
+msgid ""
+"The %1 directory does not exist, but is needed before the build directory is "
+"created.\n"
+"Do you want KDevelop to create it for you?"
+msgstr ""
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:85
+#, fuzzy
+#| msgid "union"
+msgid "Running"
+msgstr "unie"
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:86
+#, fuzzy
+msgid "&Cancel"
+msgstr "Klas naam:"
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:91
+#: managers/cmake/settings/cmakebuilddircreator.cpp:247
+msgid "&Run"
+msgstr "Hardloop"
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:93
+#, fuzzy
+msgid "CMake process killed"
+msgstr "Projek naam"
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:121
+#, fuzzy
+#| msgid "The process has finished successfully"
+msgid "Created successfully"
+msgstr "Die proses het klaar gemaak suksesvol"
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:125
+#, fuzzy
+msgid "An error occurred"
+msgstr "Onbekende fout"
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:170
+#, fuzzy
+msgid "You need to select a cmake binary"
+msgstr "Jy het na kies 'n metode."
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:200
+#, fuzzy
+#| msgid "You have to choose a directory."
+msgid "You need to specify a build directory"
+msgstr "Jy het na kies 'n gids."
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:215
+#, fuzzy
+#| msgid "Add Subdirectory"
+msgid "Already used build directory"
+msgstr "Voeg by Subgids"
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:223
+#, fuzzy
+#| msgid "Add Subdirectory"
+msgid "Using an already created build directory"
+msgstr "Voeg by Subgids"
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:231
+msgid "Click the Run button to run CMake"
+msgstr ""
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:237
+#, fuzzy
+msgid "The selected build directory is not empty"
+msgstr "Die gespesifiseer lêer doen nie bestaan"
+
+#: managers/cmake/settings/cmakebuilddircreator.cpp:239
+#, fuzzy, kde-format
+msgid "This build directory is for %1, but the project directory is %2"
+msgstr "Die gespesifiseer lêer doen nie bestaan"
+
+#: managers/cmake/applychangeswidget.cpp:50
+#, fuzzy
+msgid "Text"
+msgstr "Hex"
+
+#: managers/cmake/applychangeswidget.cpp:50
+msgid "Action"
+msgstr "Aksie"
+
+#: managers/cmake/applychangeswidget.cpp:107
+#, fuzzy
+msgid "Change"
+msgstr "Kanseleer"
+
+#: managers/cmake/applychangeswidget.cpp:112
+#, fuzzy
+msgid "Insert"
+msgstr "Ingesit: %1"
+
+#: managers/cmake/applychangeswidget.cpp:117
+#, fuzzy
+msgid "Remove"
+msgstr "Verwyder skoop..."
+
+#: managers/custommake/custommakemanager.cpp:46
+#, fuzzy
+msgid "Custom Makefile Manager"
+msgstr "Veranderlike"
+
+#: managers/custommake/custommakemanager.cpp:46
+msgid "Support for managing custom makefile projects"
+msgstr ""
+
+#: managers/custommake/custommakemanager.cpp:78
+msgid "Build &Target"
+msgstr "Bou Teiken"
+
+#: managers/custommake/custommakemanager.cpp:86
+#, fuzzy
+#| msgid "Build &Target"
+msgid "Build target"
+msgstr "Bou Teiken"
+
+#: managers/custommake/custommakemanager.cpp:87
+#, fuzzy
+msgid ""
+"<b>Build target</b><p>Runs <b>make targetname</b> from the project directory "
+"(targetname is the name of the target selected).</p><p>Environment variables "
+"and make arguments can be specified in the project settings dialog, <b>Build "
+"Options</b> tab.</p>"
+msgstr ""
+"Lêer Groep Besigtig\n"
+"\n"
+"Die Lêer Groep aansig vertoon alle lêers van Die projek, in groepe wat kan "
+"wees gekonfigureer deur jy."
+
+#: managers/custommake/custommakemanager.cpp:306
+#, fuzzy
+msgid "Build this project"
+msgstr "Bou Projek"
+
+#: managers/custommake/custommakemanager.cpp:313
+#, fuzzy
+msgid "Build this target"
+msgstr "Bou Teiken"
+
+#: managers/custommake/custommakemanager.cpp:324
+#, fuzzy
+msgid "Build this directory"
+msgstr "Voeg by sluit in gids:"
+
+#: managers/qmake/parser/main.cpp:33
+msgid "qmake-parser"
+msgstr ""
+
+#: managers/qmake/parser/main.cpp:33
+#, fuzzy
+msgid "Parse QMake project files"
+msgstr "Kan nie skryf die projek lêer."
+
+#: managers/qmake/parser/main.cpp:36
+msgid "Enable output of the debug AST"
+msgstr ""
+
+#: managers/qmake/parser/main.cpp:37
+#, fuzzy
+msgid "QMake project files"
+msgstr "Projek naam"
+
+#: managers/qmake/qmakemanager.cpp:51
+msgid "QMake Manager"
+msgstr "Qmake Bestuurder"
+
+#: managers/qmake/qmakemanager.cpp:51
+msgid "Support for managing QMake projects"
+msgstr ""
+
+#: managers/automake/automakeimporter.cpp:133
+msgid "freedesktop.org Desktop Entry Files"
+msgstr ""
+
+#: managers/automake/automakeimporter.cpp:141
+#, fuzzy
+msgid "KDE XMLGUI Definitions"
+msgstr "Gaan na Definisie"
+
+#: managers/automake/automakeimporter.cpp:152
+#, fuzzy
+msgid "Installed headers"
+msgstr "Installeer"
+
+#: managers/automake/automakeimporter.cpp:160
+#, fuzzy
+msgid "Uninstalled headers"
+msgstr "Installeer"
+
+#: coverage/annotationmodel.cpp:86
+#, fuzzy
+msgid "Number of times visited."
+msgstr "Nommer van gelyktydig werke:"
+
+#: coverage/annotationmodel.cpp:88
+#, fuzzy
+msgid "Line not reachable."
+msgstr "Daar is nee Maakleêr in hierdie gids."
+
+#: coverage/reportmodel.cpp:192
+#, fuzzy
+msgid "source"
+msgstr "Bronkodes"
+
+#: coverage/reportmodel.cpp:193
+#, fuzzy
+msgid "coverage"
+msgstr "Telling"
+
+#: coverage/reportmodel.cpp:194
+msgid "visited"
+msgstr ""
+
+#: coverage/reportmodel.cpp:195
+msgid "SLOC"
+msgstr ""
+
+#: coverage/lcovjob.cpp:126
+#, fuzzy
+msgid "Cov verbose output"
+msgstr "cvs opsies"
+
+#: coverage/reportwidget.cpp:148
+#, fuzzy
+msgid "Line Coverage:"
+msgstr "Telling"
+
+#: coverage/reportwidget.cpp:149
+#, fuzzy
+msgid "Total SLOC:"
+msgstr "Aktiveer"
+
+#: coverage/reportwidget.cpp:150
+#, fuzzy
+msgid "Instrumented Lines:"
+msgstr "Konsep indeks"
+
+#: coverage/reportwidget.cpp:218
+#, fuzzy
+msgid "Coverage Report"
+msgstr "Java Ondersteun"
+
+#: coverage/reportwidget.cpp:219
+msgid "GCOV code coverage statistics."
+msgstr ""
+
+#: coverage/coverageplugin.cpp:74
+#, fuzzy
+msgid "Coverage Support"
+msgstr "Java Ondersteun"
+
+#: coverage/coverageplugin.cpp:74
+msgid "Support for running coverage tools"
+msgstr ""
+
+#: coverage/coverageplugin.cpp:90
+msgid "Spawn Report"
+msgstr ""
+
+#: coverage/coverageplugin.cpp:98
+#, fuzzy
+msgid "Reset Data"
+msgstr "struktuur"
+
+#: coverage/coverageplugin.cpp:106
+#, fuzzy
+msgid "Insert Build Flags"
+msgstr "Bou lêer:"
+
+#: formatters/astyle_plugin.cpp:34
+#, fuzzy
+#| msgid "Indent &brackets"
+msgid "Astyle Formatter"
+msgstr "Inkeep hakkies"
+
+#: formatters/astyle_plugin.cpp:34
+#, fuzzy
+msgid "A formatting tool using astyle"
+msgstr "Herformateer Bron"
+
+#: formatters/astyle_plugin.cpp:59
+msgid ""
+"<b>Artistic Style</b> is a source code indenter, formatter, and beautifier "
+"for the C, C++, C# and Java programming languages.<br />Home Page: <a href="
+"\"http://astyle.sourceforge.net/\">http://astyle.sourceforge.net</a>"
+msgstr ""
+
+#: formatters/indent_plugin.cpp:32
+#, fuzzy
+#| msgid "Indent &brackets"
+msgid "Indent Formatter"
+msgstr "Inkeep hakkies"
+
+#: formatters/indent_plugin.cpp:32
+#, fuzzy
+msgid "A formatter using indent"
+msgstr "Herformateer Bron"
+
+#: formatters/indent_plugin.cpp:64
+msgid ""
+"<b>Indent and Format C Program Source.</b><br />The `indent' program can be "
+"used to make code easier to read. It can also convert from one style of "
+"writing C to another.<br /><b>indent</b> understands a substantial amount "
+"about the syntax of C, but it also attempts to cope with incomplete and "
+"misformed syntax.<br />Home Page: <a href=\"http://www.gnu.org/software/"
+"indent/\">http://www.gnu.org/software/indent</a>/"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -447,75 +2372,497 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za"
 
-#. i18n: file: src/kdevelopui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:5
+#: builders/cmakebuilder/cmakebuilder.cpp:59
 #, fuzzy
-msgctxt "@title:menu"
-msgid "File"
-msgstr "Lêers:"
+msgid "CMake Builder"
+msgstr "Qmake Bestuurder"
 
-#. i18n: file: src/kdevelopui.rc:16
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:8
+#: builders/cmakebuilder/cmakebuilder.cpp:59
+msgid "Support for building CMake projects"
+msgstr ""
+
+#: builders/cmakebuilder/cmakejob.cpp:103 builders/makebuilder/makejob.cpp:277
+msgid "Job failed"
+msgstr ""
+
+#: builders/cmakebuilder/cmakejob.cpp:154
+#, fuzzy, kde-format
+#| msgid "Target: %1"
+msgid "CMake: %1"
+msgstr "Teiken: %1"
+
+#: builders/qmakebuilder/qmakebuilder.cpp:53
 #, fuzzy
-msgctxt "@title:menu"
-msgid "Edit"
-msgstr "Redigeer..."
+msgid "QMake Builder"
+msgstr "Qmake Bestuurder"
 
-#. i18n: file: src/kdevelopui.rc:33
-#. i18n: ectx: Menu (view)
-#: rc.cpp:11
+#: builders/qmakebuilder/qmakebuilder.cpp:53
+msgid "Support for building QMake projects"
+msgstr ""
+
+#: builders/qmakebuilder/qmakejob.cpp:62
 #, fuzzy
-msgctxt "@title:menu"
-msgid "View"
-msgstr "Kykers"
+msgid "No project specified."
+msgstr "Projek naam"
 
-#. i18n: file: src/kdevelopui.rc:52
-#. i18n: ectx: Menu (project)
-#: rc.cpp:14
+#: builders/qmakebuilder/qmakejob.cpp:97
+#, fuzzy, kde-format
+#| msgid "Target: %1"
+msgid "QMake: %1"
+msgstr "Teiken: %1"
+
+#: builders/qmakebuilder/qmakejob.cpp:105
 #, fuzzy
-#| msgid "Project"
-msgctxt "@title:menu"
-msgid "Project"
-msgstr "Projek"
+#| msgid "C&lose Project"
+msgid "Configure error"
+msgstr "Maak toe Projek"
 
-#. i18n: file: src/kdevelopui.rc:71
-#. i18n: ectx: Menu (run)
-#: rc.cpp:17
-msgid "Run"
-msgstr "Hardloop"
-
-#. i18n: file: src/kdevelopui.rc:88
-#. i18n: ectx: Menu (tools)
-#: rc.cpp:20
+#: builders/makebuilder/makebuilder.cpp:56
 #, fuzzy
-msgctxt "@title:menu"
-msgid "Tools"
-msgstr "Gereedskap punt"
+msgid "Make Builder"
+msgstr "Maak"
 
-#. i18n: file: src/kdevelopui.rc:106
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:23
-#, fuzzy
-msgctxt "@title:menu"
-msgid "Settings"
-msgstr "Instellings"
+#: builders/makebuilder/makebuilder.cpp:56
+msgid "Support for building Make projects"
+msgstr ""
 
-#. i18n: file: src/kdevelopui.rc:115
-#. i18n: ectx: Menu (window)
-#: rc.cpp:26
+#: builders/makebuilder/outputfilters.cpp:48
+#: builders/makebuilder/outputfilters.cpp:57
+#: builders/makebuilder/outputfilters.cpp:65
+#: builders/makebuilder/outputfilters.cpp:77
 #, fuzzy
-msgctxt "@title:menu"
-msgid "Window"
-msgstr "Venster"
+msgid "compiling"
+msgstr "Skalering"
 
-#. i18n: file: src/kdevelopui.rc:146
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:29
+#: builders/makebuilder/outputfilters.cpp:52
+#: builders/makebuilder/outputfilters.cpp:58
+#: builders/makebuilder/outputfilters.cpp:66
+#: builders/makebuilder/outputfilters.cpp:76
 #, fuzzy
-msgid "Main Toolbar"
-msgstr "Bou Nutsbalk"
+msgid "generating"
+msgstr "deling"
+
+#: builders/makebuilder/outputfilters.cpp:54
+#: builders/makebuilder/outputfilters.cpp:60
+#: builders/makebuilder/outputfilters.cpp:62
+#: builders/makebuilder/outputfilters.cpp:68
+msgctxt "Linking object files into a library or executable"
+msgid "linking"
+msgstr ""
+
+#: builders/makebuilder/outputfilters.cpp:64
+#, fuzzy
+#| msgid "Build"
+msgid "built"
+msgstr "Bou"
+
+#: builders/makebuilder/outputfilters.cpp:69
+#: builders/makebuilder/outputfilters.cpp:73
+#, fuzzy
+msgid "installing"
+msgstr "Installeer"
+
+#: builders/makebuilder/outputfilters.cpp:71
+#, fuzzy
+msgid "creating"
+msgstr "deling"
+
+#: builders/makebuilder/makejob.cpp:63 builders/makebuilder/makejob.cpp:65
+#, fuzzy, kde-format
+#| msgid "Target: %1"
+msgid "Make: %1"
+msgstr "Teiken: %1"
+
+#: builders/makebuilder/makejob.cpp:84
+#, fuzzy, kde-format
+#| msgid "Add Subdirectory"
+msgid "Invalid build directory '%1'"
+msgstr "Voeg by Subgids"
+
+#: builders/makebuilder/makejob.cpp:91
+#, fuzzy, kde-format
+msgid "Could not create build command for target '%1'"
+msgstr "Kon nie skep subgids %1"
+
+#: builders/makebuilder/makejob.cpp:278
+#, fuzzy
+#| msgid "*** Success ***"
+msgid "*** Failed ***"
+msgstr "*** Sukses ***"
+
+#: builders/makebuilder/makejob.cpp:281
+#, fuzzy
+#| msgid "*** Process aborted ***"
+msgid "*** Aborted ***"
+msgstr "*** Proses gekanselleer ***"
+
+#: builders/makebuilder/makejob.cpp:291
+#, fuzzy
+#| msgid "*** Success ***"
+msgid "*** Finished ***"
+msgstr "*** Sukses ***"
+
+#: valgrind/valgrindwidget.cpp:35
+#, fuzzy
+msgid "Valgrind Output"
+msgstr "Etiket nie gevind"
+
+#: valgrind/valgrindwidget.cpp:37
+msgid ""
+"<b>Valgrind</b><p>Shows the output of the valgrind. Valgrind detects<br/>use "
+"of uninitialized memory<br/>reading/writing memory after it has been "
+"free'd<br/>reading/writing off the end of malloc'd blocks<br/>reading/"
+"writing inappropriate areas on the stack<br/>memory leaks -- where pointers "
+"to malloc'd blocks are lost forever<br/>passing of uninitialised and/or "
+"unaddressable memory to system calls<br/>mismatched use of malloc/new/new [] "
+"vs free/delete/delete []<br/>some abuses of the POSIX pthread API.</p>"
+msgstr ""
+
+#: valgrind/valgrindplugin.cpp:61 valgrind/valgrindplugin.cpp:95
+#, fuzzy
+msgid "Valgrind"
+msgstr "Etiket nie gevind"
+
+#: valgrind/valgrindplugin.cpp:61
+msgid "Support for running valgrind"
+msgstr ""
+
+#: valgrind/valgrindplugin.cpp:97
+msgid "&Valgrind Memory Leak Check"
+msgstr ""
+
+#: valgrind/valgrindplugin.cpp:100
+msgid "Valgrind memory leak check and other tools"
+msgstr ""
+
+#: valgrind/valgrindplugin.cpp:101
+msgid ""
+"<b>Valgrind memory leak check</b><p>Runs Valgrind - a tool to help you find "
+"memory-management problems in your programs, and other valgrind tools.</p>"
+msgstr ""
+
+#: valgrind/valgrindplugin.cpp:113
+#, fuzzy
+msgid "Open Valgrind Output"
+msgstr "Etiket nie gevind"
+
+#: valgrind/valgrindplugin.cpp:119
+#, fuzzy, kde-format
+msgid "Could not open valgrind output: %1"
+msgstr "Kon nie lees projek lêer: %1"
+
+#: valgrind/valgrindplugin.cpp:174
+#, fuzzy
+msgid "Valgrind (Memcheck)"
+msgstr "Etiket nie gevind"
+
+#: valgrind/valgrindplugin.cpp:174
+#, fuzzy
+msgid "Valgrind (Callgrind)"
+msgstr "Pre-Parsing"
+
+#: valgrind/valgrindplugin.cpp:174
+#, fuzzy
+msgid "Valgrind (Cachegrind)"
+msgstr "Pre-Parsing"
+
+#: valgrind/valgrindplugin.cpp:174
+#, fuzzy
+msgid "Valgrind (Helgrind)"
+msgstr "Pre-Parsing"
+
+#: valgrind/valgrindplugin.cpp:174
+#, fuzzy
+msgid "Valgrind (Massif)"
+msgstr "Pre-Parsing"
+
+#: valgrind/valgrindplugin.cpp:174
+#, fuzzy
+msgid "Valgrind (DRD)"
+msgstr "Etiket nie gevind"
+
+#: valgrind/valgrindplugin.cpp:174
+#, fuzzy
+msgid "Valgrind (Omega)"
+msgstr "Etiket nie gevind"
+
+#: valgrind/valgrindplugin.cpp:174
+#, fuzzy
+msgid "Valgrind (Lackey)"
+msgstr "Pre-Parsing"
+
+#: valgrind/valgrindcontrol.cpp:125
+#, kde-format
+msgid "Socket error while communicating with valgrind: \"%1\""
+msgstr ""
+
+#: valgrind/valgrindcontrol.cpp:125
+#, fuzzy
+msgid "Valgrind communication error"
+msgstr "Ligging:"
+
+#: valgrind/valgrindcontrol.cpp:137
+#, fuzzy, kde-format
+msgid "Failed to start valgrind from \"%1.\""
+msgstr "Nie moontlik na stoor die fout navolg lêer"
+
+#: valgrind/valgrindcontrol.cpp:137
+#, fuzzy
+msgid "Failed to start Valgrind"
+msgstr "Nie moontlik na stoor die fout navolg lêer"
+
+#: valgrind/valgrindcontrol.cpp:140
+#, fuzzy
+msgid "Valgrind crashed."
+msgstr "Pre-Parsing"
+
+#: valgrind/valgrindcontrol.cpp:140 valgrind/valgrindcontrol.cpp:143
+#: valgrind/valgrindcontrol.cpp:146 valgrind/valgrindcontrol.cpp:149
+#: valgrind/valgrindcontrol.cpp:152 valgrind/valgrindmodel.cpp:552
+#, fuzzy
+msgid "Valgrind Error"
+msgstr "Etiket nie gevind"
+
+#: valgrind/valgrindcontrol.cpp:143
+#, fuzzy
+#| msgid "Could not write the project file."
+msgid "Valgrind process timed out."
+msgstr "Kon nie skryf die projek lêer."
+
+#: valgrind/valgrindcontrol.cpp:146
+#, fuzzy
+#| msgid "Could not write the project file."
+msgid "Write to Valgrind process failed."
+msgstr "Kon nie skryf die projek lêer."
+
+#: valgrind/valgrindcontrol.cpp:149
+#, fuzzy
+#| msgid "Could not write the project file."
+msgid "Read from Valgrind process failed."
+msgstr "Kon nie skryf die projek lêer."
+
+#: valgrind/valgrindcontrol.cpp:152
+#, fuzzy
+msgid "Unknown Valgrind process error."
+msgstr "Onbekende fout"
+
+#: valgrind/valgrindmodel.cpp:286
+#, fuzzy, kde-format
+#| msgid "Watch: %1"
+msgid "at: %1"
+msgstr "Waarneem: %1"
+
+#: valgrind/valgrindmodel.cpp:288
+#, fuzzy, kde-format
+msgid "by: %1"
+msgstr "Lêer: %1"
+
+#: valgrind/valgrindmodel.cpp:350
+#, fuzzy
+msgid "Source"
+msgstr "Bronkodes"
+
+#: valgrind/valgrindmodel.cpp:352
+#, fuzzy
+msgid "Object"
+msgstr "Onlangse lêers"
+
+#: valgrind/valgrindmodel.cpp:552
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is not a valid project file.\n"
+#| "XML error in line %1, column %2:\n"
+#| "%3"
+msgid "Valgrind XML Parsing: error at line %1, column %2: %3"
+msgstr ""
+"Hierdie is nie 'n geldige projek lêer.\n"
+"Xml fout in lyn %1, kolom %2:\n"
+"%3"
+
+#: qtdesigner/qtdesignerplugin.cpp:53
+msgid "Qt Designer"
+msgstr ""
+
+#: qtdesigner/qtdesignerplugin.cpp:53
+msgid "A GUI form designer for the Qt toolkit"
+msgstr ""
+
+#: qtdesigner/qtdesignerplugin.cpp:189
+#, fuzzy
+msgid "Widget Box"
+msgstr "Nuwe Lêer"
+
+#: qtdesigner/qtdesignerplugin.cpp:190
+#, fuzzy
+msgid "Property Editor"
+msgstr "Eienskap"
+
+#: qtdesigner/qtdesignerplugin.cpp:191
+#, fuzzy
+msgid "Action Editor"
+msgstr "Aksies vir %1"
+
+#: qtdesigner/qtdesignerplugin.cpp:192
+#, fuzzy
+msgid "Object Inspector"
+msgstr "Onlangse lêers"
+
+#: qtdesigner/qtdesignerdocument.cpp:132
+#, kde-format
+msgid "The document \"%1\" has unsaved changes. Would you like to save them?"
+msgstr ""
+
+#: qtdesigner/qtdesignerdocument.cpp:133
+#, fuzzy
+msgid "Close Document"
+msgstr "Bron Gids"
+
+#, fuzzy
+#~ msgid "Code"
+#~ msgstr "Kode:"
+
+#, fuzzy
+#~ msgid "KDevelop4 Project Files"
+#~ msgstr "Vertoon Non-Project Lêers"
+
+#, fuzzy
+#~ msgid "KDevelop"
+#~ msgstr "Kdevelop"
+
+#, fuzzy
+#~ msgid "Debugger frontend"
+#~ msgstr "Ontfouter op gehou"
+
+#, fuzzy
+#~ msgid "KDE application templates"
+#~ msgstr "'n Kde Aansoek"
+
+#, fuzzy
+#~ msgid "Dist part, bash support, application templates"
+#~ msgstr "'n Kde Aansoek"
+
+#, fuzzy
+#~ msgid "Help with Automake manager and persistant class store"
+#~ msgstr "Aktiveer aanhoudende klas stoor"
+
+#, fuzzy
+#~ msgid "Ada support"
+#~ msgstr "Java Ondersteun"
+
+#, fuzzy
+#~ msgid "QMake projectmanager"
+#~ msgstr "Projek naam"
+
+#, fuzzy
+#~ msgid "ClearCase support"
+#~ msgstr "Java Ondersteun"
+
+#, fuzzy
+#~ msgid "The KWrite authors"
+#~ msgstr "Outeur:"
+
+#, fuzzy
+#~ msgid "Kate editor component"
+#~ msgstr "tipe komponent"
+
+#, fuzzy
+#~ msgid "HTML documentation component"
+#~ msgstr "Dokumentasie Blaaier"
+
+#, fuzzy
+#~ msgid "Fortran documentation"
+#~ msgstr "Erf dokumentasie"
+
+#, fuzzy
+#~ msgid "Python documentation utility"
+#~ msgstr "Python Dokumentasie..."
+
+#, fuzzy
+#~ msgid "Doxygen wizard"
+#~ msgstr "Doxygen"
+
+#, fuzzy
+#~ msgid "Fileselector component"
+#~ msgstr "Lêer Kiesser"
+
+#, fuzzy
+#~ msgid "C++ code completion, persistant class store"
+#~ msgstr "Aktiveer aanhoudende klas stoor"
+
+#, fuzzy
+#~ msgid "Patches"
+#~ msgstr "Gids soeklys"
+
+#, fuzzy
+#~ msgid "Luc Willems"
+#~ msgstr "Vertoon gebruik word lêers"
+
+#, fuzzy
+#~ msgid "Documentation index view"
+#~ msgstr "Dokumentasie Indeks"
+
+#, fuzzy
+#~ msgid "QMake project manager patches"
+#~ msgstr "Projek naam"
+
+#, fuzzy
+#~ msgid "Profile to load"
+#~ msgstr "Projek na open"
+
+#, fuzzy
+#~ msgid "Project to load"
+#~ msgstr "Projek naam"
+
+#, fuzzy
+#~ msgid "Starting GUI"
+#~ msgstr "String"
+
+#, fuzzy
+#~ msgid "Version %1"
+#~ msgstr "Weergawe:"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "File"
+#~ msgstr "Lêers:"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Edit"
+#~ msgstr "Redigeer..."
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "View"
+#~ msgstr "Kykers"
+
+#, fuzzy
+#~| msgid "Project"
+#~ msgctxt "@title:menu"
+#~ msgid "Project"
+#~ msgstr "Projek"
+
+#~ msgid "Run"
+#~ msgstr "Hardloop"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Tools"
+#~ msgstr "Gereedskap punt"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Settings"
+#~ msgstr "Instellings"
+
+#, fuzzy
+#~ msgctxt "@title:menu"
+#~ msgid "Window"
+#~ msgstr "Venster"
+
+#, fuzzy
+#~ msgid "Main Toolbar"
+#~ msgstr "Bou Nutsbalk"
 
 #, fuzzy
 #~ msgctxt "@title:menu"
@@ -567,10 +2914,6 @@ msgstr "Bou Nutsbalk"
 #, fuzzy
 #~ msgid "Enable tracing"
 #~ msgstr "Aktiveer waarskuwings"
-
-#, fuzzy
-#~ msgid "Cancel"
-#~ msgstr "Klas naam:"
 
 #, fuzzy
 #~ msgid "Custom format string"
@@ -704,10 +3047,6 @@ msgstr "Bou Nutsbalk"
 #~ msgstr "Raam Stapel"
 
 #, fuzzy
-#~ msgid "GDB Output"
-#~ msgstr "Grep Uitset"
-
-#, fuzzy
 #~ msgid "Remote Debugging"
 #~ msgstr "Ontfouting"
 
@@ -741,9 +3080,6 @@ msgstr "Bou Nutsbalk"
 #~ msgid "Add Profile"
 #~ msgstr "Voeg by nuwe lêers"
 
-#~ msgid "Name"
-#~ msgstr "Naam"
-
 #~ msgid "Description"
 #~ msgstr "Beskrywing"
 
@@ -754,14 +3090,6 @@ msgstr "Bou Nutsbalk"
 #, fuzzy
 #~ msgid "Properties"
 #~ msgstr "Eienskappe:"
-
-#, fuzzy
-#~ msgid "Add"
-#~ msgstr "Voeg by"
-
-#, fuzzy
-#~ msgid "Remove"
-#~ msgstr "Verwyder skoop..."
 
 #, fuzzy
 #~ msgid "Derived properties:"
@@ -858,11 +3186,6 @@ msgstr "Bou Nutsbalk"
 #~ msgstr "Kommentaar:"
 
 #, fuzzy
-#~| msgid "Show included files"
-#~ msgid "Show Advanced"
-#~ msgstr "Vertoon ingesluite lêers"
-
-#, fuzzy
 #~ msgid "CMake Directory"
 #~ msgstr "Huis gids"
 
@@ -934,10 +3257,6 @@ msgstr "Bou Nutsbalk"
 #, fuzzy
 #~ msgid "Active Environment Profile:"
 #~ msgstr "Omgewing veranderlikes"
-
-#, fuzzy
-#~ msgid "Find In Files"
-#~ msgstr "Voeg by Bestaande Lêers..."
 
 #, fuzzy
 #~| msgid "&Pattern:"
@@ -1186,10 +3505,6 @@ msgstr "Bou Nutsbalk"
 #~ msgstr "Ander"
 
 #, fuzzy
-#~ msgid "Type"
-#~ msgstr "Tipe:"
-
-#, fuzzy
 #~ msgid "Brea&k closing headers"
 #~ msgstr "Spesiaal Funksienaam"
 
@@ -1332,931 +3647,6 @@ msgstr "Bou Nutsbalk"
 #~ msgstr "Bou Nutsbalk"
 
 #, fuzzy
-#~ msgid "Cached: "
-#~ msgstr "Etiket nie gevind"
-
-#, fuzzy
-#~ msgid "make-process failed"
-#~ msgstr "Projek naam"
-
-#, fuzzy
-#~ msgid "output: %1"
-#~ msgstr "Lêer Konteks Kieslys"
-
-#, fuzzy
-#~ msgid "Recursive make-call failed"
-#~ msgstr "Rekursief"
-
-#, fuzzy
-#~ msgid "Recursive make-call malformed"
-#~ msgstr "Rekursief"
-
-#, fuzzy
-#~| msgid "Output path"
-#~ msgid "Output was: %1"
-#~ msgstr "Uitset gids soeklys"
-
-#, fuzzy
-#~ msgid "Could not open file '%1'"
-#~ msgstr "Konfigureer lêer"
-
-#, fuzzy
-#~ msgid "File could not be read from."
-#~ msgstr "Stappe uit van die huidige funksie"
-
-#, fuzzy
-#~ msgid "File could not be opened."
-#~ msgstr "Stappe uit van die huidige funksie"
-
-#, fuzzy
-#~| msgid "Include file patterns"
-#~ msgid "Included file was not found: %1"
-#~ msgstr "Sluit in lêer patrone"
-
-#, fuzzy
-#~ msgid ""
-#~ "Searched include path:\n"
-#~ "%1"
-#~ msgstr "Soektog in dokumentasie: %1"
-
-#, fuzzy
-#~ msgid "This file imports the current open document<br/>"
-#~ msgstr "Stappe uit van die huidige funksie"
-
-#, fuzzy
-#~ msgid "In %1th include-path"
-#~ msgstr "Sluit in gids soeklys"
-
-#, fuzzy
-#~| msgid "Include path"
-#~ msgid "Included through"
-#~ msgstr "Sluit in gids soeklys"
-
-#, fuzzy
-#~| msgid "Directory:"
-#~ msgid "Directory %1"
-#~ msgstr "Gids:"
-
-#, fuzzy
-#~| msgid "&Includes"
-#~ msgid "Includes"
-#~ msgstr "Sluit in"
-
-#, fuzzy
-#~| msgid "Include path"
-#~ msgid "Include Path"
-#~ msgstr "Sluit in gids soeklys"
-
-#, fuzzy
-#~| msgid "&Includes"
-#~ msgid "Includers"
-#~ msgstr "Sluit in"
-
-#, fuzzy
-#~ msgid "C++ Support"
-#~ msgstr "Java Ondersteun"
-
-#, fuzzy
-#~ msgid "Files"
-#~ msgstr "Lêers:"
-
-#, fuzzy
-#~ msgid "Create &New Class"
-#~ msgstr "Genereer 'n nuwe klas"
-
-#, fuzzy
-#~| msgid "Parsing file: %1"
-#~ msgid "Parsing included files"
-#~ msgstr "Verwerking lêer: %1"
-
-#, fuzzy
-#~| msgid "Parsing file: %1"
-#~ msgid "Parsing actual file"
-#~ msgstr "Verwerking lêer: %1"
-
-#, fuzzy
-#~ msgid "Building uses"
-#~ msgstr "Bou Bron Paket"
-
-#, fuzzy
-#~ msgid "Ready"
-#~ msgstr "Vervang Teks"
-
-#, fuzzy
-#~ msgid "Override"
-#~ msgstr "Oorskryf kiesings"
-
-#, fuzzy
-#~| msgid "&Implements"
-#~ msgid "Implement"
-#~ msgstr "Implementeer"
-
-#, fuzzy
-#~| msgid "or"
-#~ msgid "for"
-#~ msgstr "of"
-
-#, fuzzy
-#~ msgid "Rename %1"
-#~ msgstr "Verwyder skoop..."
-
-#, fuzzy
-#~ msgid "Create Class"
-#~ msgstr "Genereer 'n nuwe klas"
-
-#, fuzzy
-#~| msgid "File name:"
-#~ msgid "New name:"
-#~ msgstr "Lêer naam:"
-
-#, fuzzy
-#~ msgid "Rename"
-#~ msgstr "Verwyder skoop..."
-
-#, fuzzy
-#~ msgid "Uses"
-#~ msgstr "Gebruiker:"
-
-#, fuzzy
-#~ msgid "Searching uses of \"%1\""
-#~ msgstr "Voeg by Nuwe Teiken"
-
-#, fuzzy
-#~| msgid "Code Generation"
-#~ msgid "Header generation error"
-#~ msgstr "Kode Genereering"
-
-#, fuzzy
-#~ msgid "Implementation generation error"
-#~ msgstr "Implementering Lêer"
-
-#, fuzzy
-#~| msgid "Function"
-#~ msgid "Function macro"
-#~ msgstr "Funksie"
-
-#, fuzzy
-#~| msgid "macro"
-#~ msgid "Macro"
-#~ msgstr "makro"
-
-#, fuzzy
-#~| msgid "Preprocessor"
-#~ msgid "Preprocessed body:"
-#~ msgstr "Vooraf verwerker"
-
-#, fuzzy
-#~ msgid "Body:"
-#~ msgstr "Vetdruk"
-
-#, fuzzy
-#~ msgctxt "Headers included into this header"
-#~ msgid "Included"
-#~ msgstr "Sluit in"
-
-#, fuzzy
-#~ msgctxt "Count of files this header was included into"
-#~ msgid "Included by"
-#~ msgstr "Sluit in"
-
-#, fuzzy
-#~| msgid "Predefined macros"
-#~ msgctxt "Count of macros defined in this header"
-#~ msgid "Defined macros"
-#~ msgstr "Vooraf gedefinieerde makros"
-
-#, fuzzy
-#~ msgid "Declarations:"
-#~ msgstr "Operateur"
-
-#~ msgid "Disabled"
-#~ msgstr "Gestremde"
-
-#, fuzzy
-#~ msgid "Pending (add)"
-#~ msgstr "Uitstaande Voeg by"
-
-#, fuzzy
-#~ msgid "Pending (clear)"
-#~ msgstr "Uitstaande Maak skoon"
-
-#, fuzzy
-#~ msgid "Pending (modify)"
-#~ msgstr "Uitstaande Verander"
-
-#~ msgid "Active"
-#~ msgstr "Aktief"
-
-#, fuzzy
-#~ msgctxt "Code breakpoint"
-#~ msgid "Code"
-#~ msgstr "Kode:"
-
-#, fuzzy
-#~| msgid "Internal Error"
-#~ msgid "Internal error"
-#~ msgstr "Intern Fout"
-
-#, fuzzy
-#~ msgid "Exited on signal %1"
-#~ msgstr "Voeg by nuwe lêers"
-
-#, fuzzy
-#~ msgid "Received signal"
-#~ msgstr "Verwyder breekpunt"
-
-#, fuzzy
-#~ msgid ""
-#~ "gdb message:\n"
-#~ "%1"
-#~ msgstr "gbd boodskap:\n"
-
-#, fuzzy
-#~ msgid "Warning"
-#~ msgstr "Pre-Parsing"
-
-#, fuzzy
-#~ msgid "Running program"
-#~ msgstr "Voortgaan program"
-
-#~ msgid ""
-#~ "GDB cannot use the tty* or pty* devices.\n"
-#~ "Check the settings on /dev/tty* and /dev/pty*\n"
-#~ "As root you may need to \"chmod ug+rw\" tty* and pty* devices and/or add "
-#~ "the user to the tty group using \"usermod -G tty username\"."
-#~ msgstr ""
-#~ "Gbd kan nie gebruik die tty* of pty* toestelle.\n"
-#~ "Bevestig die instellings op /dev/tty* en /dev/pty*\n"
-#~ "As root jy dalk mag benodig na \"chmod ug+rw\" tty* en pty* toestelle en/"
-#~ "of voeg by die gebruiker na die tty groep te gebruik \"usermod -G tty "
-#~ "gebruikernaam\"."
-
-#, fuzzy
-#~ msgid "Application does not exist"
-#~ msgstr "Kon nie open lêer vir om te skryf."
-
-#, fuzzy
-#~ msgid "Could not run application"
-#~ msgstr "Interrupts die aansoek"
-
-#, fuzzy
-#~ msgid "Debugger error"
-#~ msgstr "Ontfouting nutsbalk"
-
-#, fuzzy
-#~| msgid "Debugger stopped"
-#~ msgid "Debugger status"
-#~ msgstr "Ontfouter op gehou"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Machine code display</b><p>A machine code view into your running "
-#~ "executable with the current instruction highlighted. You can step "
-#~ "instruction by instruction using the debuggers toolbar buttons of \"step "
-#~ "over\" instruction and \"step into\" instruction."
-#~ msgstr ""
-#~ "Masjien kode vertoon\n"
-#~ "\n"
-#~ "'n Masjien kode besigtig binnein jou wat loop uitvoerbare met die huidige "
-#~ "instruksie verlig. Jy kan step instruksie deur instruksie te gebruik die "
-#~ "ontfouters nutsbalk knoppies van \"step bo\" instruksie en \"step binnein"
-#~ "\" instruksie."
-
-#, fuzzy
-#~| msgid "Disassemble"
-#~ msgid "Disassemble View"
-#~ msgstr "Ontsaamstel"
-
-#, fuzzy
-#~ msgid "Address"
-#~ msgstr "Voeg by Klas"
-
-#~ msgid "Function"
-#~ msgstr "Funksie"
-
-#, fuzzy
-#~| msgid "set"
-#~ msgid "Offset"
-#~ msgstr "stel"
-
-#, fuzzy
-#~| msgid "struct"
-#~ msgid "Instruction"
-#~ msgstr "struktuur"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Frame stack</b><p>Often referred to as the \"call stack\", this is a "
-#~ "list showing what function is currently active and who called each "
-#~ "function to get to this point in your program. By clicking on an item you "
-#~ "can see the values in any of the previous calling functions."
-#~ msgstr ""
-#~ "Raam stapel\n"
-#~ "\n"
-#~ "Gereeld verwys na as die \"roep stapel\", hierdie is 'n lys te wys wat "
-#~ "funksie is huidiglik aktief en wie wat genoem word elke funksie na kry na "
-#~ "hierdie punt in jou program. Deur te kliek op 'n item jy kan sien die "
-#~ "waardes in enige van die vorige roep funksies."
-
-#~ msgid "Could not locate the debugging shell '%1'."
-#~ msgstr "Kon nie opspoor die ontfouting tolk '%1'."
-
-#, fuzzy
-#~ msgid "Debugging Shell Not Found"
-#~ msgstr "Ontfouting tolk nie gevind."
-
-#, fuzzy
-#~| msgid "Internal Error"
-#~ msgid "Internal debugger error"
-#~ msgstr "Intern Fout"
-
-#, fuzzy
-#~ msgid "Could not start debugger"
-#~ msgstr "Begin in Terminaal"
-
-#, fuzzy
-#~ msgid "Debugger Breakpoints"
-#~ msgstr "Wissel Breekpunt"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Breakpoint list</b><p>Displays a list of breakpoints with their "
-#~ "current status. Clicking on a breakpoint item allows you to change the "
-#~ "breakpoint and will take you to the source in the editor window."
-#~ msgstr ""
-#~ "Breekpunt lys\n"
-#~ "\n"
-#~ "Vertoon 'n lys van breekpunte met hulle huidige status. Te kliek op 'n "
-#~ "Breekpunt item met die Rmb Vertoon 'n opspring kieskaart sodat jy dalk "
-#~ "mag manipuleer die Breekpunt. Dubbel Te kliek sal neem jy na die bron in "
-#~ "die redigeerder venster."
-
-#, fuzzy
-#~ msgctxt "New breakpoint"
-#~ msgid "New"
-#~ msgstr "Naam:"
-
-#, fuzzy
-#~ msgctxt "Data breakpoint"
-#~ msgid "Data write"
-#~ msgstr "Data lêer"
-
-#, fuzzy
-#~ msgctxt "Data read breakpoint"
-#~ msgid "Data read"
-#~ msgstr "Data lêer"
-
-#, fuzzy
-#~ msgid "Show text"
-#~ msgstr "Voeg by Nuwe Teiken"
-
-#, fuzzy
-#~ msgid "Edit"
-#~ msgstr "Redigeer..."
-
-#, fuzzy
-#~ msgid "Disable"
-#~ msgstr "Gestremde"
-
-#, fuzzy
-#~ msgid "Delete"
-#~ msgstr "Uitvee Groep"
-
-#, fuzzy
-#~ msgid "Disable all"
-#~ msgstr "Gestremde"
-
-#, fuzzy
-#~ msgid "Enable all"
-#~ msgstr "Aktiveer"
-
-#, fuzzy
-#~ msgid "Delete all"
-#~ msgstr "Verwyder breekpunt"
-
-#, fuzzy
-#~ msgid "Enable"
-#~ msgstr "Aktiveer"
-
-#, fuzzy
-#~ msgid "Copy All"
-#~ msgstr "Maak toe Alle Andere"
-
-#, fuzzy
-#~ msgid "Watches"
-#~ msgstr "Gids soeklys"
-
-#, fuzzy
-#~| msgid "Reset"
-#~ msgid "Recent"
-#~ msgstr "Herstel"
-
-#~ msgid "Attach to Process"
-#~ msgstr "Aanheg na Proses"
-
-#, fuzzy
-#~ msgid "Debugger Variables"
-#~ msgstr "Voeg by Lid Veranderlike"
-
-#, fuzzy
-#~ msgid "Recent Expressions"
-#~ msgstr "Verwyder Waarneem Veranderlike"
-
-#, fuzzy
-#~ msgid "Remove All"
-#~ msgstr "Verwyder Alle"
-
-#, fuzzy
-#~ msgid "Re-evaluate All"
-#~ msgstr "Verwyder Waarneem Veranderlike"
-
-#, fuzzy
-#~ msgid "Format"
-#~ msgstr "Vorms"
-
-#, fuzzy
-#~ msgid "Natural"
-#~ msgstr "Man"
-
-#, fuzzy
-#~ msgid "Hexadecimal"
-#~ msgstr "Desimaal"
-
-#~ msgid "Decimal"
-#~ msgstr "Desimaal"
-
-#, fuzzy
-#~ msgid "Character"
-#~ msgstr "Karakter"
-
-#, fuzzy
-#~ msgid "Binary"
-#~ msgstr "Qmake Bestuurder"
-
-#, fuzzy
-#~ msgid "Remember Value"
-#~ msgstr "Verwyder lêer"
-
-#~ msgid "Remove Watch Variable"
-#~ msgstr "Verwyder Waarneem Veranderlike"
-
-#, fuzzy
-#~ msgid "Watch Variable"
-#~ msgstr "Verwyder Waarneem Veranderlike"
-
-#, fuzzy
-#~ msgid "Reevaluate Expression"
-#~ msgstr "Verwyder Waarneem Veranderlike"
-
-#, fuzzy
-#~ msgid "Remove Expression"
-#~ msgstr "Verwyder Waarneem Veranderlike"
-
-#, fuzzy
-#~ msgid "Data write breakpoint"
-#~ msgstr "Uitvee gekose item"
-
-#, fuzzy
-#~| msgid "Value"
-#~ msgid "Copy Value"
-#~ msgstr "Waarde"
-
-#, fuzzy
-#~ msgid "Start"
-#~ msgstr "struktuur"
-
-#, fuzzy
-#~| msgid "&Ant"
-#~ msgid "Amount"
-#~ msgstr "Mier"
-
-#, fuzzy
-#~| msgid "MemoryView:"
-#~ msgid "Memory view"
-#~ msgstr "Geheuebesigtig:"
-
-#, fuzzy
-#~ msgid "Change memory range"
-#~ msgstr "Voeg by Teiken..."
-
-#, fuzzy
-#~ msgid "Reload"
-#~ msgstr "Vervang Teks"
-
-#, fuzzy
-#~ msgid "Close this view"
-#~ msgstr "Maak toe Projek"
-
-#, fuzzy
-#~ msgid "Special debugger views"
-#~ msgstr "Ontfouter"
-
-#~ msgid "Breakpoint"
-#~ msgstr "Breekpunt"
-
-#, fuzzy
-#~ msgid " temporary"
-#~ msgstr "Geheue"
-
-#, fuzzy
-#~ msgid "Enabled"
-#~ msgstr "Aktiveer"
-
-#, fuzzy
-#~ msgid "Status"
-#~ msgstr "Begin:"
-
-#, fuzzy
-#~ msgid "Location"
-#~ msgstr "Ligging:"
-
-#, fuzzy
-#~| msgid "&Conditional"
-#~ msgid "Condition"
-#~ msgstr "Voorwaarde"
-
-#, fuzzy
-#~ msgid "Ignore Count"
-#~ msgstr "Ignoreer tel"
-
-#, fuzzy
-#~ msgid "Hits"
-#~ msgstr "Lyn: %1"
-
-#, fuzzy
-#~ msgid "Tracing"
-#~ msgstr "Fout Navolg"
-
-#, fuzzy
-#~| msgid "Frame Stack"
-#~ msgid "Frame"
-#~ msgstr "Raam Stapel"
-
-#, fuzzy
-#~| msgid "Debugger"
-#~ msgid "C++ Debugger"
-#~ msgstr "Ontfouter"
-
-#~ msgid "Breakpoints"
-#~ msgstr "Breekpunte"
-
-#, fuzzy
-#~ msgid "Variables"
-#~ msgstr "Veranderlike"
-
-#~ msgid "Frame Stack"
-#~ msgstr "Raam Stapel"
-
-#~ msgid "Disassemble"
-#~ msgstr "Ontsaamstel"
-
-#~ msgid "GDB"
-#~ msgstr "Gbd"
-
-#, fuzzy
-#~ msgid "Debug views"
-#~ msgstr "Ontfouter"
-
-#, fuzzy
-#~ msgid "&Start"
-#~ msgstr "Begin:"
-
-#, fuzzy
-#~ msgid "Start in debugger"
-#~ msgstr "Begin in Terminaal"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Start in debugger</b><p>Starts the debugger with the project's main "
-#~ "executable. You may set some breakpoints before this, or you can "
-#~ "interrupt the program while it is running, in order to get information "
-#~ "about variables, frame stack, and so on."
-#~ msgstr ""
-#~ "Begin in ontfouter\n"
-#~ "\n"
-#~ "Beginne die ontfouter met die projek se hoof uitvoerbare. Jy dalk mag "
-#~ "stel sommige breekpunte voor hierdie, of Jy kan interrupt die program "
-#~ "terwyl dit is wat loop, in volgorde na kry informasie aangaande "
-#~ "veranderlikes, raam stapel, en sodat op."
-
-#, fuzzy
-#~ msgid "&Restart"
-#~ msgstr "struktuur"
-
-#, fuzzy
-#~ msgid "Restart program"
-#~ msgstr "Uitvoer program"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Restarts application</b><p>Restarts applications from the beginning."
-#~ msgstr "Voeg by Nuwe Aansoek .werkskerm Lêer"
-
-#, fuzzy
-#~ msgid "Sto&p"
-#~ msgstr "Stop"
-
-#, fuzzy
-#~ msgid "Stop debugger"
-#~ msgstr "Ontfouter"
-
-#, fuzzy
-#~ msgid "<b>Stop debugger</b><p>Kills the executable and exits the debugger."
-#~ msgstr "Stop die uitvoerbare en uitgaan die ontfouter"
-
-#~ msgid "Interrupt"
-#~ msgstr "Interrupt"
-
-#, fuzzy
-#~ msgid "Interrupt application"
-#~ msgstr "Interrupts die aansoek"
-
-#~ msgid "Run to &Cursor"
-#~ msgstr "Hardloop na Plekaanduier"
-
-#, fuzzy
-#~ msgid "Run to cursor"
-#~ msgstr "Hardloop na Plekaanduier"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Run to cursor</b><p>Continues execution until the cursor position is "
-#~ "reached."
-#~ msgstr "Gaan voort uitvoering totdat die plekaanduier posisie is bereik"
-
-#, fuzzy
-#~ msgid "Jump to cursor"
-#~ msgstr "Hardloop na Plekaanduier"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Set Execution Position </b><p>Set the execution pointer to the current "
-#~ "cursor position."
-#~ msgstr "Gaan voort uitvoering totdat die plekaanduier posisie is bereik"
-
-#~ msgid "Step &Over"
-#~ msgstr "Step Bo"
-
-#, fuzzy
-#~ msgid "Step over the next line"
-#~ msgstr "Stappe bo die volgende lyn"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Step over</b><p>Executes one line of source in the current source "
-#~ "file. If the source line is a call to a function the whole function is "
-#~ "executed and the app will stop at the line following the function call."
-#~ msgstr ""
-#~ "Step bo\n"
-#~ "\n"
-#~ "Voer uit een lyn van bron in die huidige bron lêer. As die bron lyn is 'n "
-#~ "roep na 'n funksie die volledige funksie is uitgevoerde en die app sal "
-#~ "stop na die lyn volgende die funksie roep."
-
-#~ msgid "Step over Ins&truction"
-#~ msgstr "Step bo Instruksie"
-
-#, fuzzy
-#~ msgid "Step over instruction"
-#~ msgstr "Step bo Instruksie"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Step over instruction</b><p>Steps over the next assembly instruction."
-#~ msgstr "Stappe bo die volgende saamstel instruksie"
-
-#~ msgid "Step &Into"
-#~ msgstr "Step Binnein"
-
-#, fuzzy
-#~| msgid "Steps into the next statement"
-#~ msgid "Step into the next statement"
-#~ msgstr "Stappe binnein die volgende stelling"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Step into</b><p>Executes exactly one line of source. If the source "
-#~ "line is a call to a function then execution will stop after the function "
-#~ "has been entered."
-#~ msgstr ""
-#~ "Step binnein\n"
-#~ "\n"
-#~ "Voer uit presies een lyn van bron. As die bron lyn is 'n roep na 'n "
-#~ "funksie dan word uitvoering sal stop na die funksie het al ingevoerde."
-
-#~ msgid "Step into I&nstruction"
-#~ msgstr "Step binnein Instruksie"
-
-#, fuzzy
-#~ msgid "Step into instruction"
-#~ msgstr "Step binnein Instruksie"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Step into instruction</b><p>Steps into the next assembly instruction."
-#~ msgstr "Stappe binnein die volgende saamstel instruksie"
-
-#~ msgid "Step O&ut"
-#~ msgstr "Step Uit"
-
-#~ msgid "Steps out of the current function"
-#~ msgstr "Stappe uit van die huidige funksie"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Step out</b><p>Executes the application until the currently executing "
-#~ "function is completed. The debugger will then display the line after the "
-#~ "original call to that function. If program execution is in the outermost "
-#~ "frame (i.e. in main()) then this operation has no effect."
-#~ msgstr ""
-#~ "Step uit van\n"
-#~ "\n"
-#~ "Voer uit die aansoek totdat die huidiglik uitvoer van funksie is klaar. "
-#~ "die ontfouter sal dan word vertoon die lyn na die oorspronklike roep na "
-#~ "wat funksie. As program uitvoering is in die buitenste raam (i.e. in hoof"
-#~ "()) dan word hierdie operasie het nee effek."
-
-#~ msgid "Viewers"
-#~ msgstr "Kykers"
-
-#, fuzzy
-#~ msgid "Debugger viewers"
-#~ msgstr "Ontfouter"
-
-#, fuzzy
-#~ msgid "Examine Core File..."
-#~ msgstr "Ondersoek Kern Lêer"
-
-#, fuzzy
-#~ msgid "Examine core file"
-#~ msgstr "Ondersoek Kern Lêer"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Examine core file</b><p>This loads a core file, which is typically "
-#~ "created after the application has crashed, e.g. with a segmentation "
-#~ "fault. The core file contains an image of the program memory at the time "
-#~ "it crashed, allowing you to do a post-mortem analysis."
-#~ msgstr ""
-#~ "Ondersoek kern lêer\n"
-#~ "\n"
-#~ "Hierdie laai 'n kern lêer, wat is tipies geskep na die aansoek het het "
-#~ "gestaak, e.g. met 'n segmentasie fout. die kern lêer bevat 'n beeld van "
-#~ "die program geheue na die tyd dit het gestaak, toelaat jy na doen 'n post-"
-#~ "mortem analise."
-
-#, fuzzy
-#~ msgid "Attach to process"
-#~ msgstr "Aanheg na Proses"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Attach to process</b><p>Attaches the debugger to a running process."
-#~ msgstr "Koppel die ontfouter na 'n wat loop proses"
-
-#~ msgid "Toggle Breakpoint"
-#~ msgstr "Wissel Breekpunt"
-
-#, fuzzy
-#~ msgid "Toggle breakpoint"
-#~ msgstr "Wissel Breekpunt"
-
-#, fuzzy
-#~ msgid "Debug in &KDevelop"
-#~ msgstr "Stel fokus op Kdevelop"
-
-#, fuzzy
-#~ msgid "Evaluate: %1"
-#~ msgstr "Werkvoorbeeld:"
-
-#~ msgid "Watch: %1"
-#~ msgstr "Waarneem: %1"
-
-#, fuzzy
-#~ msgid "GDB exited abnormally"
-#~ msgstr "*** Uitgegaan gewoonlik ***"
-
-#~ msgid "Choose a core file to examine..."
-#~ msgstr "Kies 'n kern lêer na ondersoek..."
-
-#~ msgid "Examining core file %1"
-#~ msgstr "Ondersoek kern lêer %1"
-
-#~ msgid "Choose a process to attach to..."
-#~ msgstr "Kies 'n proses na aanheg na..."
-
-#~ msgid "Attaching to process %1"
-#~ msgstr "Koppel na proses %1"
-
-#~ msgid "Debugger"
-#~ msgstr "Ontfouter"
-
-#~ msgid "Debugger stopped"
-#~ msgstr "Ontfouter op gehou"
-
-#~ msgid "Runs the program in the debugger"
-#~ msgstr "Loop die program in die ontfouter"
-
-#~ msgid ""
-#~ "Start in debugger\n"
-#~ "\n"
-#~ "Starts the debugger with the project's main executable. You may set some "
-#~ "breakpoints before this, or you can interrupt the program while it is "
-#~ "running, in order to get information about variables, frame stack, and so "
-#~ "on."
-#~ msgstr ""
-#~ "Begin in ontfouter\n"
-#~ "\n"
-#~ "Beginne die ontfouter met die projek se hoof uitvoerbare. Jy dalk mag "
-#~ "stel sommige breekpunte voor hierdie, of Jy kan interrupt die program "
-#~ "terwyl dit is wat loop, in volgorde na kry informasie aangaande "
-#~ "veranderlikes, raam stapel, en sodat op."
-
-#~ msgid "&Continue"
-#~ msgstr "Gaan voort"
-
-#, fuzzy
-#~| msgid "Interrupt the application execution"
-#~ msgid "Continues the application execution"
-#~ msgstr "Interrupt die aansoek uitvoering"
-
-#~ msgid ""
-#~ "Continue application execution\n"
-#~ "\n"
-#~ "Continues the execution of your application in the debugger. This only "
-#~ "takes effect when the application has been halted by the debugger (i.e. a "
-#~ "breakpoint has been activated or the interrupt was pressed)."
-#~ msgstr ""
-#~ "Gaan voort aansoek uitvoering\n"
-#~ "\n"
-#~ "Gaan voort die uitvoering van jou aansoek in die ontfouter. Hierdie slegs "
-#~ "neem effek wanneer die aansoek het al gestaak deur die ontfouter (i.e. 'n "
-#~ "breekpunt het al geaktiveer of die interrupt was gedruk)."
-
-#, fuzzy
-#~ msgid "Process exited"
-#~ msgstr "Proses uitgegaan"
-
-#~ msgid "Variable"
-#~ msgstr "Veranderlike"
-
-#~ msgid "Value"
-#~ msgstr "Waarde"
-
-#~ msgid "kdevelop: Debug application console"
-#~ msgstr "kdevelop: Ontfouting aansoek konsole"
-
-#, fuzzy
-#~| msgid "%1 Attributes"
-#~ msgid "<%1 items>"
-#~ msgstr "%1 Eienskappe"
-
-#, fuzzy
-#~ msgid "invalid input: %1"
-#~ msgstr "Werkvoorbeeld:"
-
-#, fuzzy
-#~ msgid "Macro error"
-#~ msgstr "Redigeerder"
-
-#, fuzzy
-#~ msgid "Formals: %1"
-#~ msgstr "Lêer: %1"
-
-#, fuzzy
-#~ msgid "Unterminated #if statement"
-#~ msgstr "Stappe binnein die volgende stelling"
-
-#, fuzzy
-#~ msgid "character %1"
-#~ msgstr "Karakter"
-
-#, fuzzy
-#~ msgid "Division by zero"
-#~ msgstr "Afdelings"
-
-#, fuzzy
-#~ msgid "Input text: %1"
-#~ msgstr "Ingesit: %1"
-
-#, fuzzy
-#~ msgid "Generate Stub Class"
-#~ msgstr "Genereer 'n nuwe klas"
-
-#, fuzzy
-#~ msgid "Generate Stub"
-#~ msgstr "Genereer"
-
-#, fuzzy
-#~ msgid "Save to "
-#~ msgstr "Volgende Fout"
-
-#, fuzzy
-#~| msgid "Generate binary TOC"
-#~ msgid "Generate Unit Under Test"
-#~ msgstr "Genereer binêre Toc"
-
-#, fuzzy
 #~ msgid "KDevelop Profile Editor"
 #~ msgstr "Projek naam"
 
@@ -2395,651 +3785,6 @@ msgstr "Bou Nutsbalk"
 
 #~ msgid "Could not create language plugin for %1."
 #~ msgstr "Kon nie skep taal inplak vir %1."
-
-#, fuzzy
-#~| msgid "QMake Manager"
-#~ msgid "CMake Manager"
-#~ msgstr "Qmake Bestuurder"
-
-#, fuzzy
-#~| msgid "fragment definition"
-#~ msgid "Jump to target definition"
-#~ msgstr "fragment definisie"
-
-#, fuzzy
-#~ msgid "Create a folder called '%1'."
-#~ msgstr "Skep Nuwe Lêer..."
-
-#, fuzzy
-#~| msgid "Could not create the new file."
-#~ msgid "Could not create the directory's CMakeLists.txt file."
-#~ msgstr "Kon nie skep die nuwe lêer."
-
-#, fuzzy
-#~| msgid "Could not create the new file."
-#~ msgid "Could not save the change."
-#~ msgstr "Kon nie skep die nuwe lêer."
-
-#, fuzzy
-#~ msgid "Remove a folder called '%1'."
-#~ msgstr "Verwyder lêer"
-
-#, fuzzy
-#~ msgid "Text"
-#~ msgstr "Hex"
-
-#~ msgid "Action"
-#~ msgstr "Aksie"
-
-#, fuzzy
-#~ msgid "Change"
-#~ msgstr "Kanseleer"
-
-#, fuzzy
-#~ msgid "Insert"
-#~ msgstr "Ingesit: %1"
-
-#, fuzzy
-#~| msgid "Could not read project file: %1"
-#~ msgid "Could not remove: %1.\n"
-#~ msgstr "Kon nie lees projek lêer: %1"
-
-#, fuzzy
-#~ msgid "Comment"
-#~ msgstr "Kommentaar:"
-
-#, fuzzy
-#~| msgid "union"
-#~ msgid "Running"
-#~ msgstr "unie"
-
-#, fuzzy
-#~ msgid "&Cancel"
-#~ msgstr "Klas naam:"
-
-#~ msgid "&Run"
-#~ msgstr "Hardloop"
-
-#, fuzzy
-#~ msgid "CMake process killed"
-#~ msgstr "Projek naam"
-
-#, fuzzy
-#~| msgid "The process has finished successfully"
-#~ msgid "Created successfully"
-#~ msgstr "Die proses het klaar gemaak suksesvol"
-
-#, fuzzy
-#~ msgid "You need to select a cmake binary"
-#~ msgstr "Jy het na kies 'n metode."
-
-#, fuzzy
-#~| msgid "You have to choose a directory."
-#~ msgid "You need to specify a build directory"
-#~ msgstr "Jy het na kies 'n gids."
-
-#, fuzzy
-#~| msgid "Add Subdirectory"
-#~ msgid "Already used build directory"
-#~ msgstr "Voeg by Subgids"
-
-#, fuzzy
-#~ msgid "The selected build directory is not empty"
-#~ msgstr "Die gespesifiseer lêer doen nie bestaan"
-
-#, fuzzy
-#~ msgid "This build directory is for %1, but the project directory is %2"
-#~ msgstr "Die gespesifiseer lêer doen nie bestaan"
-
-#, fuzzy
-#~ msgid "Custom Makefile Manager"
-#~ msgstr "Veranderlike"
-
-#~ msgid "Build &Target"
-#~ msgstr "Bou Teiken"
-
-#, fuzzy
-#~| msgid "Build &Target"
-#~ msgid "Build target"
-#~ msgstr "Bou Teiken"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Build target</b><p>Runs <b>make targetname</b> from the project "
-#~ "directory (targetname is the name of the target selected).</"
-#~ "p><p>Environment variables and make arguments can be specified in the "
-#~ "project settings dialog, <b>Build Options</b> tab.</p>"
-#~ msgstr ""
-#~ "Lêer Groep Besigtig\n"
-#~ "\n"
-#~ "Die Lêer Groep aansig vertoon alle lêers van Die projek, in groepe wat "
-#~ "kan wees gekonfigureer deur jy."
-
-#, fuzzy
-#~ msgid "Build this project"
-#~ msgstr "Bou Projek"
-
-#, fuzzy
-#~ msgid "Build this target"
-#~ msgstr "Bou Teiken"
-
-#, fuzzy
-#~ msgid "Build this directory"
-#~ msgstr "Voeg by sluit in gids:"
-
-#~ msgid "QMake Manager"
-#~ msgstr "Qmake Bestuurder"
-
-#, fuzzy
-#~ msgid "Parse QMake project files"
-#~ msgstr "Kan nie skryf die projek lêer."
-
-#, fuzzy
-#~ msgid "QMake project files"
-#~ msgstr "Projek naam"
-
-#, fuzzy
-#~ msgid "KDE XMLGUI Definitions"
-#~ msgstr "Gaan na Definisie"
-
-#, fuzzy
-#~ msgid "Installed headers"
-#~ msgstr "Installeer"
-
-#, fuzzy
-#~ msgid "Uninstalled headers"
-#~ msgstr "Installeer"
-
-#, fuzzy
-#~ msgid "CMake Builder"
-#~ msgstr "Qmake Bestuurder"
-
-#, fuzzy
-#~| msgid "Target: %1"
-#~ msgid "CMake: %1"
-#~ msgstr "Teiken: %1"
-
-#, fuzzy
-#~ msgid "QMake Builder"
-#~ msgstr "Qmake Bestuurder"
-
-#, fuzzy
-#~ msgid "No project specified."
-#~ msgstr "Projek naam"
-
-#, fuzzy
-#~| msgid "Target: %1"
-#~ msgid "QMake: %1"
-#~ msgstr "Teiken: %1"
-
-#, fuzzy
-#~| msgid "C&lose Project"
-#~ msgid "Configure error"
-#~ msgstr "Maak toe Projek"
-
-#, fuzzy
-#~ msgid "Make Builder"
-#~ msgstr "Maak"
-
-#, fuzzy
-#~ msgid "compiling"
-#~ msgstr "Skalering"
-
-#, fuzzy
-#~ msgid "generating"
-#~ msgstr "deling"
-
-#, fuzzy
-#~| msgid "Build"
-#~ msgid "built"
-#~ msgstr "Bou"
-
-#, fuzzy
-#~ msgid "installing"
-#~ msgstr "Installeer"
-
-#, fuzzy
-#~ msgid "creating"
-#~ msgstr "deling"
-
-#, fuzzy
-#~| msgid "Target: %1"
-#~ msgid "Make: %1"
-#~ msgstr "Teiken: %1"
-
-#, fuzzy
-#~| msgid "Add Subdirectory"
-#~ msgid "Invalid build directory '%1'"
-#~ msgstr "Voeg by Subgids"
-
-#, fuzzy
-#~ msgid "Could not create build command for target '%1'"
-#~ msgstr "Kon nie skep subgids %1"
-
-#, fuzzy
-#~| msgid "*** Success ***"
-#~ msgid "*** Failed ***"
-#~ msgstr "*** Sukses ***"
-
-#, fuzzy
-#~| msgid "*** Process aborted ***"
-#~ msgid "*** Aborted ***"
-#~ msgstr "*** Proses gekanselleer ***"
-
-#, fuzzy
-#~ msgid "QTest verbose output"
-#~ msgstr "cvs opsies"
-
-#, fuzzy
-#~ msgid "Failed to start test executable."
-#~ msgstr " php  uitvoerbare:"
-
-#, fuzzy
-#~ msgid "Test executable crashed."
-#~ msgstr " php  uitvoerbare:"
-
-#, fuzzy
-#~ msgid "Failed to write to test executable."
-#~ msgstr " php  uitvoerbare:"
-
-#, fuzzy
-#~ msgid "Unknown error occurred."
-#~ msgstr "Onbekende fout"
-
-#, fuzzy
-#~ msgid "xTest"
-#~ msgstr "Ja"
-
-#, fuzzy
-#~ msgid "QTest test"
-#~ msgstr "Lêer Name"
-
-#, fuzzy
-#~ msgid "New QTest"
-#~ msgstr "Nuwe Lêer"
-
-#~ msgid "Class name:"
-#~ msgstr "Klas naam:"
-
-#, fuzzy
-#~ msgid "Test registration XML."
-#~ msgstr "verwyder opsies"
-
-#, fuzzy
-#~ msgid "profile"
-#~ msgstr "Voeg by nuwe lêers"
-
-#, fuzzy
-#~| msgid "Search"
-#~ msgid "Search"
-#~ msgstr "Soektog"
-
-#~ msgid "Grep: %1"
-#~ msgstr "Grep: %1"
-
-#, fuzzy
-#~ msgid "Unable to create a temporary file for search."
-#~ msgstr "Kan nie skryf die projek lêer."
-
-#, fuzzy
-#~ msgid "Find in Files"
-#~ msgstr "Voeg by Bestaande Lêers..."
-
-#, fuzzy
-#~| msgid "Process exited with status %1"
-#~ msgid "Process failed to start."
-#~ msgstr "Proses uitgegaan met status %1"
-
-#, fuzzy
-#~ msgid "Process crashed."
-#~ msgstr "Proses uitgegaan"
-
-#, fuzzy
-#~| msgid "Could not write the project file."
-#~ msgid "Process timed out."
-#~ msgstr "Kon nie skryf die projek lêer."
-
-#, fuzzy
-#~ msgid "Unknown process error."
-#~ msgstr "Onbekende fout"
-
-#, fuzzy
-#~ msgid "Find in Fi&les..."
-#~ msgstr "Voeg by Bestaande Lêers..."
-
-#, fuzzy
-#~ msgid "Search for expressions over several files"
-#~ msgstr "Soek vir uitdrukkings bo klomp lêers"
-
-#, fuzzy
-#~ msgid ""
-#~ "<b>Find in files</b><p>Opens the 'Find in files' dialog. There you can "
-#~ "enter a regular expression which is then searched for within all files in "
-#~ "the directories you specify. Matches will be displayed, you can switch to "
-#~ "a match directly.</p>"
-#~ msgstr ""
-#~ "Soektog in lêers\n"
-#~ "\n"
-#~ "Maak oop die Soektog in lêers dialoog. Daar jy kan invoer 'n gewone "
-#~ "uitdrukking wat is dan word gesoekte vir binne in alle lêers in die gidse "
-#~ "jy spesifiseer. Ooreenstemmende inskrywings sal wees vertoon, jy kan "
-#~ "wissel na 'n ooreenstem direk."
-
-#, fuzzy
-#~ msgctxt "No Version Control Support chosen"
-#~ msgid "None"
-#~ msgstr "Weergawe Nee:"
-
-#~ msgid "Create New Project"
-#~ msgstr "Skep Nuwe Projek"
-
-#, fuzzy
-#~| msgid "General"
-#~ msgctxt "Page for general configuration options"
-#~ msgid "General"
-#~ msgstr "Algemeen"
-
-#, fuzzy
-#~ msgctxt "Page for version control options"
-#~ msgid "Version Control"
-#~ msgstr "Weergawe Nee:"
-
-#, fuzzy
-#~ msgid "Project Wizard"
-#~ msgstr "Projek naam:"
-
-#~ msgid "&New Project..."
-#~ msgstr "Nuwe Projek..."
-
-#, fuzzy
-#~ msgid "Generate a new project from a template"
-#~ msgstr "Genereer 'n nuwe projek van 'n werkvoorbeeld"
-
-#, fuzzy
-#~ msgid "&Import Existing Project..."
-#~ msgstr "In voer Bestaande Gids..."
-
-#, fuzzy
-#~ msgid "Import existing project"
-#~ msgstr "In voer Bestaande Gids..."
-
-#, fuzzy
-#~ msgid "Could not initialize DVCS repository"
-#~ msgstr "Voeg by na Stoorplek"
-
-#, fuzzy
-#~ msgid "Could not add files to the DVCS repository"
-#~ msgstr "Voeg by na Stoorplek"
-
-#, fuzzy
-#~| msgid "Could not write the project file."
-#~ msgid "Could not import project into"
-#~ msgstr "Kon nie skryf die projek lêer."
-
-#, fuzzy
-#~| msgid "Could not read project file: %1"
-#~ msgid "Could not checkout imported project"
-#~ msgstr "Kon nie lees projek lêer: %1"
-
-#, fuzzy
-#~| msgid "Could not write the project file."
-#~ msgid "Could not import project"
-#~ msgstr "Kon nie skryf die projek lêer."
-
-#, fuzzy
-#~| msgid "Create New Project"
-#~ msgid "Could not create new project"
-#~ msgstr "Skep Nuwe Projek"
-
-#, fuzzy
-#~ msgid "The file %1 cannot be created."
-#~ msgstr "Stappe uit van die huidige funksie"
-
-#, fuzzy
-#~ msgid "Please choose an existing folder."
-#~ msgstr "Hoof program (relatiewe na projek gids):"
-
-#, fuzzy
-#~| msgid "You have to choose a project name."
-#~ msgid "Please choose a project name."
-#~ msgstr "Jy het na kies 'n projek naam."
-
-#, fuzzy
-#~ msgid "Project import error"
-#~ msgstr "Huis gids"
-
-#, fuzzy
-#~ msgid "Could not create temporary file to upload."
-#~ msgstr "Konfigureer lêer"
-
-#, fuzzy
-#~ msgid "Invalid Location"
-#~ msgstr "Ligging:"
-
-#, fuzzy
-#~| msgid "Project name"
-#~ msgid "Empty project name"
-#~ msgstr "Projek naam"
-
-#, fuzzy
-#~ msgid "Invalid project name"
-#~ msgstr "Kode Voorbeelde"
-
-#, fuzzy
-#~| msgid ""
-#~| "Failed to create subdirectory. Do you have write permission in the "
-#~| "project folder?"
-#~ msgid "Unable to create subdirectories, missing permissions on: %1"
-#~ msgstr ""
-#~ "Gevaal na skep subgids. Doen jy het skryf reg in die projek kabinet?"
-
-#, fuzzy
-#~ msgid "Invalid Project Template"
-#~ msgstr "Kode Voorbeelde"
-
-#, fuzzy
-#~ msgid "Project Templates"
-#~ msgstr "Kode Voorbeelde"
-
-#, fuzzy
-#~ msgid "Document View"
-#~ msgstr "Dokumentasie:"
-
-#, fuzzy
-#~ msgid "A list of opened documents"
-#~ msgstr "Verwyder alle bygevoeg lêers."
-
-#, fuzzy
-#~ msgid "Documents"
-#~ msgstr "Dokumentasie:"
-
-#, fuzzy
-#~ msgid "Number of times visited."
-#~ msgstr "Nommer van gelyktydig werke:"
-
-#, fuzzy
-#~ msgid "Line not reachable."
-#~ msgstr "Daar is nee Maakleêr in hierdie gids."
-
-#, fuzzy
-#~ msgid "source"
-#~ msgstr "Bronkodes"
-
-#, fuzzy
-#~ msgid "coverage"
-#~ msgstr "Telling"
-
-#, fuzzy
-#~ msgid "Cov verbose output"
-#~ msgstr "cvs opsies"
-
-#, fuzzy
-#~ msgid "Total SLOC:"
-#~ msgstr "Aktiveer"
-
-#, fuzzy
-#~ msgid "Instrumented Lines:"
-#~ msgstr "Konsep indeks"
-
-#, fuzzy
-#~ msgid "Coverage Report"
-#~ msgstr "Java Ondersteun"
-
-#, fuzzy
-#~ msgid "Reset Data"
-#~ msgstr "struktuur"
-
-#, fuzzy
-#~ msgid "Insert Build Flags"
-#~ msgstr "Bou lêer:"
-
-#, fuzzy
-#~ msgid "A formatting tool using astyle"
-#~ msgstr "Herformateer Bron"
-
-#, fuzzy
-#~| msgid "Indent &brackets"
-#~ msgid "Indent Formatter"
-#~ msgstr "Inkeep hakkies"
-
-#, fuzzy
-#~ msgid "Valgrind Output"
-#~ msgstr "Etiket nie gevind"
-
-#, fuzzy
-#~ msgid "Could not open valgrind output: %1"
-#~ msgstr "Kon nie lees projek lêer: %1"
-
-#, fuzzy
-#~ msgid "Valgrind (Callgrind)"
-#~ msgstr "Pre-Parsing"
-
-#, fuzzy
-#~ msgid "Valgrind (Cachegrind)"
-#~ msgstr "Pre-Parsing"
-
-#, fuzzy
-#~ msgid "Valgrind (Helgrind)"
-#~ msgstr "Pre-Parsing"
-
-#, fuzzy
-#~ msgid "Valgrind (Massif)"
-#~ msgstr "Pre-Parsing"
-
-#, fuzzy
-#~ msgid "Valgrind (DRD)"
-#~ msgstr "Etiket nie gevind"
-
-#, fuzzy
-#~ msgid "Valgrind (Omega)"
-#~ msgstr "Etiket nie gevind"
-
-#, fuzzy
-#~ msgid "Valgrind (Lackey)"
-#~ msgstr "Pre-Parsing"
-
-#, fuzzy
-#~ msgid "Valgrind communication error"
-#~ msgstr "Ligging:"
-
-#, fuzzy
-#~ msgid "Failed to start valgrind from \"%1.\""
-#~ msgstr "Nie moontlik na stoor die fout navolg lêer"
-
-#, fuzzy
-#~ msgid "Valgrind Error"
-#~ msgstr "Etiket nie gevind"
-
-#, fuzzy
-#~| msgid "Could not write the project file."
-#~ msgid "Valgrind process timed out."
-#~ msgstr "Kon nie skryf die projek lêer."
-
-#, fuzzy
-#~| msgid "Could not write the project file."
-#~ msgid "Write to Valgrind process failed."
-#~ msgstr "Kon nie skryf die projek lêer."
-
-#, fuzzy
-#~| msgid "Could not write the project file."
-#~ msgid "Read from Valgrind process failed."
-#~ msgstr "Kon nie skryf die projek lêer."
-
-#, fuzzy
-#~ msgid "Unknown Valgrind process error."
-#~ msgstr "Onbekende fout"
-
-#, fuzzy
-#~| msgid "Watch: %1"
-#~ msgid "at: %1"
-#~ msgstr "Waarneem: %1"
-
-#, fuzzy
-#~ msgid "by: %1"
-#~ msgstr "Lêer: %1"
-
-#, fuzzy
-#~ msgid "Source"
-#~ msgstr "Bronkodes"
-
-#, fuzzy
-#~ msgid "Object"
-#~ msgstr "Onlangse lêers"
-
-#, fuzzy
-#~| msgid ""
-#~| "This is not a valid project file.\n"
-#~| "XML error in line %1, column %2:\n"
-#~| "%3"
-#~ msgid "Valgrind XML Parsing: error at line %1, column %2: %3"
-#~ msgstr ""
-#~ "Hierdie is nie 'n geldige projek lêer.\n"
-#~ "Xml fout in lyn %1, kolom %2:\n"
-#~ "%3"
-
-#, fuzzy
-#~ msgid "Widget Box"
-#~ msgstr "Nuwe Lêer"
-
-#, fuzzy
-#~ msgid "Property Editor"
-#~ msgstr "Eienskap"
-
-#, fuzzy
-#~ msgid "Action Editor"
-#~ msgstr "Aksies vir %1"
-
-#, fuzzy
-#~ msgid "Object Inspector"
-#~ msgstr "Onlangse lêers"
-
-#, fuzzy
-#~ msgid "Close Document"
-#~ msgstr "Bron Gids"
-
-#, fuzzy
-#~ msgid "Not hit yet"
-#~ msgstr "Nuwe Lêer"
-
-#, fuzzy
-#~ msgid "Ignore"
-#~ msgstr "Ignoreer tel"
-
-#, fuzzy
-#~ msgid "next hits"
-#~ msgstr "Aktiveer waarskuwings"
-
-#, fuzzy
-#~ msgid "Invalid"
-#~ msgstr "Inlyn Wiskunde"
-
-#, fuzzy
-#~ msgid "Watchpoint"
-#~ msgstr "Wissel Uitkykpunt"
-
-#, fuzzy
-#~ msgid "Read Watchpoint"
-#~ msgstr "Wissel Uitkykpunt"
 
 #, fuzzy
 #~ msgid "Check Test"
@@ -3459,10 +4204,6 @@ msgstr "Bou Nutsbalk"
 #~ msgstr "Daar is huidiglik 'n werk wat loop."
 
 #, fuzzy
-#~ msgid "<b>Debugger error</b><br>%1"
-#~ msgstr "Ontfouting nutsbalk"
-
-#, fuzzy
 #~| msgid "local"
 #~ msgid "Locals"
 #~ msgstr "plaaslike"
@@ -3520,11 +4261,6 @@ msgstr "Bou Nutsbalk"
 
 #~ msgid "Continuing program"
 #~ msgstr "Voortgaan program"
-
-#, fuzzy
-#~| msgid "} expected"
-#~ msgid "expected ``)''"
-#~ msgstr "} verwag"
 
 #, fuzzy
 #~ msgid "Code View"
@@ -3805,10 +4541,6 @@ msgstr "Bou Nutsbalk"
 #, fuzzy
 #~ msgid "Servers"
 #~ msgstr "Ongedaan maak"
-
-#, fuzzy
-#~ msgid "Connect"
-#~ msgstr "Gaan voort"
 
 #, fuzzy
 #~ msgid "Developers"

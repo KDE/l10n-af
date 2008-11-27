@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-22 10:58+0100\n"
+"POT-Creation-Date: 2008-11-27 09:48+0100\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -275,7 +275,7 @@ msgid ""
 "%1 (%2)."
 msgstr ""
 
-#: src/practiceold/practicedialog.cpp:68 src/vocabulary/vocabularyview.cpp:662
+#: src/practiceold/practicedialog.cpp:68 src/vocabulary/vocabularyview.cpp:621
 msgctxt "@title of a popup"
 msgid "No Spell Checker Available"
 msgstr ""
@@ -676,25 +676,16 @@ msgstr "Luukse Soektog"
 msgid "Toggle display of the search bar"
 msgstr ""
 
-#: src/editor/editor.cpp:466
-#, fuzzy
-msgid "Vocabulary Columns"
-msgstr "Open Voorbeeld Woordeskat Lêer"
-
-#: src/editor/editor.cpp:467
-msgid "Toggle display of individual vocabulary columns"
-msgstr ""
-
-#: src/editor/editor.cpp:489
+#: src/editor/editor.cpp:482
 #, fuzzy
 msgid "&Script Manager"
 msgstr "Taal"
 
-#: src/editor/editor.cpp:526
+#: src/editor/editor.cpp:519
 msgid "Enter search terms here"
 msgstr ""
 
-#: src/editor/editor.cpp:530
+#: src/editor/editor.cpp:523
 #, fuzzy
 msgid "S&earch:"
 msgstr "Opmerking:"
@@ -1745,74 +1736,75 @@ msgstr "Ontkies alle inskrywings"
 msgid "No Lesson Selected"
 msgstr "Nee Prent Gekose"
 
-#: src/vocabulary/vocabularyview.cpp:93
+#: src/vocabulary/vocabularyview.cpp:89
 #, fuzzy
 #| msgid "&Append New Entry"
 msgid "&Add New Entry"
 msgstr "Voeg-agteraan-by Nuwe Inskrywing"
 
-#: src/vocabulary/vocabularyview.cpp:96
+#: src/vocabulary/vocabularyview.cpp:92
 #, fuzzy
 msgid "Append a new row to the vocabulary"
 msgstr "Verwyder gekose inskrywings van die woordeskat"
 
-#: src/vocabulary/vocabularyview.cpp:104
+#: src/vocabulary/vocabularyview.cpp:100
 #, fuzzy
 msgid "&Delete Entry"
 msgstr "Voeg-agteraan-by Nuwe Inskrywing"
 
-#: src/vocabulary/vocabularyview.cpp:107
+#: src/vocabulary/vocabularyview.cpp:103
 #, fuzzy
 msgid "Delete the selected rows"
 msgstr "Doen jy rerig wil hê na uitvee die gekose omvang?\n"
 
-#: src/vocabulary/vocabularyview.cpp:117
+#: src/vocabulary/vocabularyview.cpp:113
 msgid "Copy"
 msgstr ""
 
-#: src/vocabulary/vocabularyview.cpp:123
+#: src/vocabulary/vocabularyview.cpp:119
 #, fuzzy
 #| msgid "Count:"
 msgid "Cut"
 msgstr "Tel:"
 
-#: src/vocabulary/vocabularyview.cpp:129
+#: src/vocabulary/vocabularyview.cpp:125
 #, fuzzy
 msgid "Paste"
 msgstr "Frase"
 
-#: src/vocabulary/vocabularyview.cpp:135
+#: src/vocabulary/vocabularyview.cpp:131
 #, fuzzy
 msgid "Select all rows"
 msgstr "Kies alle inskrywings"
 
-#: src/vocabulary/vocabularyview.cpp:140
+#: src/vocabulary/vocabularyview.cpp:136
 #, fuzzy
 msgid "Deselect all rows"
 msgstr "Ontkies alle inskrywings"
 
-#: src/vocabulary/vocabularyview.cpp:148
+#: src/vocabulary/vocabularyview.cpp:144
+#: src/vocabulary/vocabularycolumnsdialog.cpp:51
 #, fuzzy
-msgid "Vocabulary Columns Dialog"
+msgid "Vocabulary Columns"
 msgstr "Open Voorbeeld Woordeskat Lêer"
 
-#: src/vocabulary/vocabularyview.cpp:149
-msgid "Display a dialog to enable or disable the vocabulary columns"
+#: src/vocabulary/vocabularyview.cpp:145
+msgid "Toggle display of individual vocabulary columns"
 msgstr ""
 
-#: src/vocabulary/vocabularyview.cpp:473
+#: src/vocabulary/vocabularyview.cpp:437
 #, fuzzy, kde-format
 msgid "Do you really want to delete the selected entry?"
 msgid_plural "Do you really want to delete the selected %1 entries?"
 msgstr[0] "Doen jy rerig wil hê na uitvee die gekose inskrywing?\n"
 msgstr[1] "Doen jy rerig wil hê na uitvee die gekose inskrywing?\n"
 
-#: src/vocabulary/vocabularyview.cpp:473
+#: src/vocabulary/vocabularyview.cpp:437
 #, fuzzy
 msgid "Delete"
 msgstr "Herstel"
 
-#: src/vocabulary/vocabularyview.cpp:662
+#: src/vocabulary/vocabularyview.cpp:621
 #, kde-format
 msgctxt "@popupmessage"
 msgid ""
@@ -1888,11 +1880,6 @@ msgid_plural ""
 "There are %1 words left in this lesson. Do you want to delete them?"
 msgstr[0] ""
 msgstr[1] ""
-
-#: src/vocabulary/vocabularycolumnsdialog.cpp:51
-#, fuzzy
-msgid "Vocabulary columns"
-msgstr "Open Voorbeeld Woordeskat Lêer"
 
 #: src/vocabulary/vocabularycolumnsdialog.cpp:60
 msgid "Enable/Disable the columns for each language"
@@ -2845,7 +2832,7 @@ msgstr "Tipe:"
 msgid "&Lesson"
 msgstr "Uitdrukking:"
 
-#. i18n: file: src/editor/editorui.rc:55
+#. i18n: file: src/editor/editorui.rc:54
 #. i18n: ectx: Menu (learning)
 #: rc.cpp:432
 #, fuzzy
@@ -2853,7 +2840,7 @@ msgstr "Uitdrukking:"
 msgid "&Practice"
 msgstr "Aktikels"
 
-#. i18n: file: src/editor/editorui.rc:62
+#. i18n: file: src/editor/editorui.rc:61
 #. i18n: ectx: Menu (scripts)
 #: rc.cpp:435
 msgid "&Scripts"
@@ -5160,6 +5147,14 @@ msgid ""
 "<a href=\"http://edu.kde.org/contrib/kvtml2.php\">http://edu.kde.org/contrib/"
 "kvtml2.php</a>.</p>\n"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Vocabulary Columns Dialog"
+#~ msgstr "Open Voorbeeld Woordeskat Lêer"
+
+#, fuzzy
+#~ msgid "Vocabulary columns"
+#~ msgstr "Open Voorbeeld Woordeskat Lêer"
 
 #, fuzzy
 #~ msgid "Open &Example..."
