@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmlocale stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-05 10:12+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -30,46 +30,46 @@ msgstr ""
 
 #. i18n: file: language.ui:28
 #. i18n: ectx: property (text), widget (QLabel, m_crLabel)
-#: kcmlocale.cpp:77 rc.cpp:3
+#: kcmlocale.cpp:50 rc.cpp:3
 #, fuzzy
 msgid "Country or region:"
 msgstr "Land of streek:"
 
 #. i18n: file: language.ui:38
 #. i18n: ectx: property (text), widget (QLabel, m_languagesLabel)
-#: kcmlocale.cpp:78 rc.cpp:6
+#: kcmlocale.cpp:51 rc.cpp:6
 msgid "Languages:"
 msgstr "Tale:"
 
-#. i18n: file: language.ui:142
+#. i18n: file: language.ui:127
 #. i18n: ectx: property (text), widget (QPushButton, languageRemove)
-#: kcmlocale.cpp:79 rc.cpp:12
+#: kcmlocale.cpp:52 rc.cpp:12
 msgid "Remove"
 msgstr ""
 
-#: kcmlocale.cpp:212
+#: kcmlocale.cpp:216
 msgctxt "@item:intext Country"
 msgid "Not set (Generic English)"
 msgstr ""
 
-#: kcmlocale.cpp:213
+#: kcmlocale.cpp:217
 #, kde-format
 msgctxt "@info %1 is country name"
 msgid "<html>%1 (<a href=\"changeCountry\">change...</a>)</html>"
 msgstr ""
 
-#: kcmlocale.cpp:218
+#: kcmlocale.cpp:222
 msgid "Add Language"
 msgstr "Voeg Taal By"
 
-#: kcmlocale.cpp:221
+#: kcmlocale.cpp:225
 msgid ""
 "This is where you live. KDE will use the defaults for this country or region."
 msgstr ""
 "Hierdie is waar jy bly. KDE sal die standaard waardes vir hierdie land of "
 "streek gebruik."
 
-#: kcmlocale.cpp:224
+#: kcmlocale.cpp:228
 msgid ""
 "This will add a language to the list. If the language is already in the "
 "list, the old one will be moved instead."
@@ -77,11 +77,11 @@ msgstr ""
 "Hierdie sal voeg by 'n taal na die lys. As die taal is alreeds in die lys, "
 "die ou een sal wees verskuif in plaas van."
 
-#: kcmlocale.cpp:228
+#: kcmlocale.cpp:232
 msgid "This will remove the highlighted language from the list."
 msgstr "Hierdie sal verwyder die verlig taal van die lys."
 
-#: kcmlocale.cpp:231
+#: kcmlocale.cpp:235
 msgid ""
 "KDE programs will be displayed in the first available language in this "
 "list.\n"
@@ -91,7 +91,7 @@ msgstr ""
 "lys.\n"
 "As geen van die tale word beskikbaar, Us Engels sal wees gebruik word."
 
-#: kcmlocale.cpp:238
+#: kcmlocale.cpp:242
 msgid ""
 "Here you can choose your country or region. The settings for languages, "
 "numbers etc. will automatically switch to the corresponding values."
@@ -99,7 +99,7 @@ msgstr ""
 "Hier kan jy jou land of streek kies. Die instellings vir tale, nommers ens. "
 "sal automaties wissel na die ooreenstemmend waardes."
 
-#: kcmlocale.cpp:245
+#: kcmlocale.cpp:249
 #, fuzzy
 #| msgid ""
 #| "Here you can choose the languages that will be used by KDE. If the first "
@@ -123,43 +123,43 @@ msgstr ""
 "van. <p>Noteer dat sommige programme dalk mag nie vertaal is na jou tale; in "
 "hierdie geval, hulle sal automaties val terug na Amerikaanse Engels."
 
-#: klocalesample.cpp:46
+#: klocalesample.cpp:53
 msgid "Numbers:"
 msgstr "Nommers:"
 
-#: klocalesample.cpp:53
+#: klocalesample.cpp:61
 msgid "Money:"
 msgstr "Geld:"
 
-#: klocalesample.cpp:60
+#: klocalesample.cpp:69
 msgid "Date:"
 msgstr "Datum:"
 
-#: klocalesample.cpp:67
+#: klocalesample.cpp:77
 msgid "Short date:"
 msgstr "Kort datum:"
 
-#: klocalesample.cpp:74
+#: klocalesample.cpp:85
 msgid "Time:"
 msgstr "Tyd:"
 
-#: klocalesample.cpp:114
+#: klocalesample.cpp:126
 msgid "This is how numbers will be displayed."
 msgstr "Hierdie is hoe nommers vertoon sal word."
 
-#: klocalesample.cpp:118
+#: klocalesample.cpp:130
 msgid "This is how monetary values will be displayed."
 msgstr "Hierdie is hoe geld waardes vertoon sal word."
 
-#: klocalesample.cpp:122
+#: klocalesample.cpp:134
 msgid "This is how date values will be displayed."
 msgstr "Hierdie is hoe datum waardes vertoon sal word."
 
-#: klocalesample.cpp:126
+#: klocalesample.cpp:138
 msgid "This is how date values will be displayed using a short notation."
 msgstr "Hierdie is hoe datum waardes in verkorte notasie vertoon sal word."
 
-#: klocalesample.cpp:131
+#: klocalesample.cpp:143
 msgid "This is how the time will be displayed."
 msgstr "Hierdie is hoe tyd waardes vertoon sal word."
 
@@ -169,95 +169,97 @@ msgstr "Hierdie is hoe tyd waardes vertoon sal word."
 msgid "Currency symbol:"
 msgstr "Geld eenheid simbool:"
 
-#. i18n: file: localemon.ui:31
+#. i18n: file: localemon.ui:28
 #. i18n: ectx: property (text), widget (QLabel, m_labMonDecSym)
 #: localemon.cpp:52 rc.cpp:18
 msgid "Decimal symbol:"
 msgstr "Desimale simbool:"
 
-#. i18n: file: localemon.ui:44
+#. i18n: file: localemon.ui:38
 #. i18n: ectx: property (text), widget (QLabel, m_labMonThoSep)
 #: localemon.cpp:53 rc.cpp:21
 msgid "Thousands separator:"
 msgstr "Duisende skeier:"
 
-#: localemon.cpp:54
+#. i18n: file: localemon.ui:48
+#. i18n: ectx: property (text), widget (QLabel, m_labMonFraDig)
+#: localemon.cpp:54 rc.cpp:24
 msgid "Fract digits:"
 msgstr "Breuk syfers:"
 
-#. i18n: file: localemon.ui:74
+#. i18n: file: localemon.ui:60
 #. i18n: ectx: property (title), widget (QGroupBox, m_positiveGB)
 #: localemon.cpp:55 rc.cpp:27
 msgid "Positive"
 msgstr "Positief"
 
-#. i18n: file: localemon.ui:80
+#. i18n: file: localemon.ui:66
 #. i18n: ectx: property (text), widget (QCheckBox, m_chMonPosPreCurSym)
-#. i18n: file: localemon.ui:151
+#. i18n: file: localemon.ui:122
 #. i18n: ectx: property (text), widget (QCheckBox, m_chMonNegPreCurSym)
 #: localemon.cpp:56 localemon.cpp:59 rc.cpp:30 rc.cpp:54
 msgid "Prefix currency symbol"
 msgstr "Vertoon geld eenheid simbool"
 
-#. i18n: file: localemon.ui:89
+#. i18n: file: localemon.ui:75
 #. i18n: ectx: property (text), widget (QLabel, m_labMonPosMonSignPos)
-#. i18n: file: localemon.ui:160
+#. i18n: file: localemon.ui:131
 #. i18n: ectx: property (text), widget (QLabel, m_labMonNegMonSignPos)
 #: localemon.cpp:57 localemon.cpp:60 rc.cpp:33 rc.cpp:57
 msgid "Sign position:"
 msgstr "Teken posisie:"
 
-#. i18n: file: localemon.ui:145
+#. i18n: file: localemon.ui:116
 #. i18n: ectx: property (title), widget (QGroupBox, m_negativeGB)
 #: localemon.cpp:58 rc.cpp:51
 msgid "Negative"
 msgstr "Negatief"
 
-#. i18n: file: localemon.ui:97
+#. i18n: file: localemon.ui:83
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
-#. i18n: file: localemon.ui:168
+#. i18n: file: localemon.ui:139
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
-#: localemon.cpp:233 rc.cpp:36 rc.cpp:60
+#: localemon.cpp:232 rc.cpp:36 rc.cpp:60
 msgid "Parentheses Around"
 msgstr "Hakkies Rondom Bedrag"
 
-#. i18n: file: localemon.ui:102
+#. i18n: file: localemon.ui:88
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
-#. i18n: file: localemon.ui:173
+#. i18n: file: localemon.ui:144
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
-#: localemon.cpp:234 rc.cpp:39 rc.cpp:63
+#: localemon.cpp:233 rc.cpp:39 rc.cpp:63
 msgid "Before Quantity Money"
 msgstr "Voor Bedrag"
 
-#. i18n: file: localemon.ui:107
+#. i18n: file: localemon.ui:93
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
-#. i18n: file: localemon.ui:178
+#. i18n: file: localemon.ui:149
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
-#: localemon.cpp:235 rc.cpp:42 rc.cpp:66
+#: localemon.cpp:234 rc.cpp:42 rc.cpp:66
 msgid "After Quantity Money"
 msgstr "Na Bedrag"
 
-#. i18n: file: localemon.ui:112
+#. i18n: file: localemon.ui:98
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
-#. i18n: file: localemon.ui:183
+#. i18n: file: localemon.ui:154
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
-#: localemon.cpp:236 rc.cpp:45 rc.cpp:69
+#: localemon.cpp:235 rc.cpp:45 rc.cpp:69
 msgid "Before Money"
 msgstr "Voor geld eenheid simbool"
 
-#. i18n: file: localemon.ui:117
+#. i18n: file: localemon.ui:103
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
-#. i18n: file: localemon.ui:188
+#. i18n: file: localemon.ui:159
 #. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
-#: localemon.cpp:237 rc.cpp:48 rc.cpp:72
+#: localemon.cpp:236 rc.cpp:48 rc.cpp:72
 msgid "After Money"
 msgstr "Na geld eenheid simbool"
 
-#: localemon.cpp:242
+#: localemon.cpp:241
 msgid "Here you can enter your usual currency symbol, e.g. $ or €."
 msgstr ""
 
-#: localemon.cpp:246
+#: localemon.cpp:245
 #, fuzzy
 #| msgid ""
 #| "Here you can define the decimal separator used to display monetary values."
@@ -272,7 +274,7 @@ msgstr ""
 "waardes.<p>Nota wat die desimaal skeier gebruik word na vertoon ander "
 "nommers het na wees gedefinieër apart (sien die 'nommers' oortjie)."
 
-#: localemon.cpp:254
+#: localemon.cpp:253
 #, fuzzy
 #| msgid ""
 #| "Here you can define the thousands separator used to display monetary "
@@ -287,7 +289,7 @@ msgstr ""
 "waardes.<p>Nota wat die duisende skeier gebruik word na vertoon ander "
 "nommers het na wees gedefinieër apart (sien die 'nommers' oortjie)."
 
-#: localemon.cpp:262
+#: localemon.cpp:261
 msgid ""
 "This determines the number of fract digits for monetary values, i.e. the "
 "number of digits you find <em>behind</em> the decimal separator. Correct "
@@ -297,7 +299,7 @@ msgstr ""
 "nommer van syfers jy soek <em>agter</em> die desimaal skeier. Korrek waarde "
 "is 2 vir amper alle mense."
 
-#: localemon.cpp:269
+#: localemon.cpp:268
 msgid ""
 "If this option is checked, the currency sign will be prefixed (i.e. to the "
 "left of the value) for all positive monetary values. If not, it will be "
@@ -307,7 +309,7 @@ msgstr ""
 "e. na die links van die waarde) vir alle positiewe monitêre waardes. As nie, "
 "dit sal wees agtervoegsel (i.e. na die regterkant)."
 
-#: localemon.cpp:275
+#: localemon.cpp:274
 msgid ""
 "If this option is checked, the currency sign will be prefixed (i.e. to the "
 "left of the value) for all negative monetary values. If not, it will be "
@@ -317,7 +319,7 @@ msgstr ""
 "e. na die links van die waarde) vir alle negatiewe monitêre waardes. As nie, "
 "dit sal wees agtervoegsel (i.e. na die regterkant)."
 
-#: localemon.cpp:281
+#: localemon.cpp:280
 msgid ""
 "Here you can select how a positive sign will be positioned. This only "
 "affects monetary values."
@@ -325,7 +327,7 @@ msgstr ""
 "Hier jy kan kies hoe 'n positiewe teken sal wees geposisioneer. Hierdie "
 "slegs affekteer monitêre waardes."
 
-#: localemon.cpp:286
+#: localemon.cpp:285
 msgid ""
 "Here you can select how a negative sign will be positioned. This only "
 "affects monetary values."
@@ -337,19 +339,19 @@ msgstr ""
 msgid "&Decimal symbol:"
 msgstr "Desimale simbool:"
 
-#: localenum.cpp:59
+#: localenum.cpp:58
 msgid "Tho&usands separator:"
 msgstr "Duisende skeier:"
 
-#: localenum.cpp:69
+#: localenum.cpp:67
 msgid "Positive si&gn:"
 msgstr "Positiewe teken:"
 
-#: localenum.cpp:79
+#: localenum.cpp:76
 msgid "&Negative sign:"
 msgstr "Negatiewe teken:"
 
-#: localenum.cpp:174
+#: localenum.cpp:170
 #, fuzzy
 #| msgid ""
 #| "Here you can define the decimal separator used to display numbers (i.e. a "
@@ -366,7 +368,7 @@ msgstr ""
 "gebruik word na vertoon monitêre waardes het na wees stel apart (sien die "
 "'Money' oortjie)."
 
-#: localenum.cpp:183
+#: localenum.cpp:179
 #, fuzzy
 #| msgid ""
 #| "Here you can define the thousands separator used to display numbers."
@@ -381,7 +383,7 @@ msgstr ""
 "<p>Nota wat die duisende skeier gebruik word na vertoon monitêre waardes het "
 "na wees stel apart (sien die 'Money' oortjie)."
 
-#: localenum.cpp:191
+#: localenum.cpp:187
 msgid ""
 "Here you can specify text used to prefix positive numbers. Most people leave "
 "this blank."
@@ -389,7 +391,7 @@ msgstr ""
 "Hier jy kan spesifiseer teks gebruik word na voorvoegsel positiewe nommers. "
 "Mees mense los hierdie leë."
 
-#: localenum.cpp:197
+#: localenum.cpp:193
 msgid ""
 "Here you can specify text used to prefix negative numbers. This should not "
 "be empty, so you can distinguish positive and negative numbers. It is "
@@ -403,139 +405,123 @@ msgstr ""
 msgid "Paper format:"
 msgstr "Papier formaat:"
 
-#: localeother.cpp:59
+#: localeother.cpp:58
 msgid "Measure system:"
 msgstr "Meet stelsel:"
 
-#: localeother.cpp:122
+#: localeother.cpp:120
 msgctxt "The Metric System"
 msgid "Metric"
 msgstr "Metriek"
 
-#: localeother.cpp:123
+#: localeother.cpp:121
 msgctxt "The Imperial System"
 msgid "Imperial"
 msgstr "Imperialisties"
 
-#: localeother.cpp:125
+#: localeother.cpp:123
 msgid "A4"
 msgstr "A4"
 
-#: localeother.cpp:126
+#: localeother.cpp:124
 msgid "US Letter"
 msgstr "US Brief"
 
-#: localetime.cpp:97
+#: localetime.cpp:94
 msgid "HH"
 msgstr "HH"
 
-#: localetime.cpp:98
+#: localetime.cpp:95
 msgid "hH"
 msgstr "hH"
 
-#: localetime.cpp:99
+#: localetime.cpp:96
 msgid "PH"
 msgstr "PH"
 
-#: localetime.cpp:100
+#: localetime.cpp:97
 msgid "pH"
 msgstr "pH"
 
-#: localetime.cpp:101
+#: localetime.cpp:98
 msgctxt "Minute"
 msgid "MM"
 msgstr "MM"
 
-#: localetime.cpp:102
+#: localetime.cpp:99
 msgid "SS"
 msgstr "SS"
 
-#: localetime.cpp:103
+#: localetime.cpp:100
 msgid "AMPM"
 msgstr "VMNM"
 
-#: localetime.cpp:113
+#: localetime.cpp:110
 msgid "YYYY"
 msgstr "JJJJ"
 
-#: localetime.cpp:114
+#: localetime.cpp:111
 msgid "YY"
 msgstr "JJ"
 
-#: localetime.cpp:115
+#: localetime.cpp:112
 msgid "mM"
 msgstr "mM"
 
-#: localetime.cpp:116
+#: localetime.cpp:113
 msgctxt "Month"
 msgid "MM"
 msgstr "MM"
 
-#: localetime.cpp:117
+#: localetime.cpp:114
 msgid "SHORTMONTH"
 msgstr "Kortmaand"
 
-#: localetime.cpp:118
+#: localetime.cpp:115
 msgid "MONTH"
 msgstr "Maand"
 
-#: localetime.cpp:119
+#: localetime.cpp:116
 msgid "dD"
 msgstr "Dd"
 
-#: localetime.cpp:120
+#: localetime.cpp:117
 msgid "DD"
 msgstr "Dd"
 
-#: localetime.cpp:121
+#: localetime.cpp:118
 msgid "SHORTWEEKDAY"
 msgstr "Kortweeksdag"
 
-#: localetime.cpp:122
+#: localetime.cpp:119
 msgid "WEEKDAY"
 msgstr "Weeksdag"
 
-#: localetime.cpp:206
+#: localetime.cpp:204
 msgid "Calendar system:"
 msgstr "Kalender stelsel:"
 
-#: localetime.cpp:220
+#: localetime.cpp:216
 msgid "Time format:"
 msgstr "Tyd formaat:"
 
-#: localetime.cpp:230
+#: localetime.cpp:227
 msgid "Date format:"
 msgstr "Datum formaat:"
 
-#: localetime.cpp:238
+#: localetime.cpp:236
 msgid "Short date format:"
 msgstr "Kort datum formaat:"
 
-#: localetime.cpp:246
-msgid "Use declined form of month name"
-msgstr "Gebruik van die hand gewys vorm van maand naam"
-
-#: localetime.cpp:256
+#: localetime.cpp:245
 msgid "First day of the week:"
 msgstr "Eerste dag van die week:"
 
-#: localetime.cpp:264
-#, fuzzy
-#| msgid "First day of the week:"
-msgid "First working day of the week:"
-msgstr "Eerste dag van die week:"
+#: localetime.cpp:255
+msgid "Use declined form of month name"
+msgstr "Gebruik van die hand gewys vorm van maand naam"
 
-#: localetime.cpp:272
-#, fuzzy
-#| msgid "First day of the week:"
-msgid "Last working day of the week:"
-msgstr "Eerste dag van die week:"
-
-#: localetime.cpp:281
-msgid "Day of the week for religious observance:"
-msgstr ""
-
-#: localetime.cpp:504
+#: localetime.cpp:443
 msgctxt "some reasonable time formats for the language"
 msgid ""
 "HH:MM:SS\n"
@@ -544,7 +530,7 @@ msgstr ""
 "Hh:Mm:Ss\n"
 "Ph:Mm:Ss Ampm"
 
-#: localetime.cpp:512
+#: localetime.cpp:451
 msgctxt "some reasonable date formats for the language"
 msgid ""
 "WEEKDAY MONTH dD YYYY\n"
@@ -553,7 +539,7 @@ msgstr ""
 "Weeksdag Maand Dd Jjjj\n"
 "Kortweeksdag Maand Dd Jjjj"
 
-#: localetime.cpp:520
+#: localetime.cpp:459
 msgctxt "some reasonable short date formats for the language"
 msgid ""
 "YYYY-MM-DD\n"
@@ -564,27 +550,27 @@ msgstr ""
 "dD.mM.JJJJ\n"
 "DD.MM.JJJJ"
 
-#: localetime.cpp:531
+#: localetime.cpp:470
 msgctxt "Calendar System Gregorian"
 msgid "Gregorian"
 msgstr "Gregorian"
 
-#: localetime.cpp:533
+#: localetime.cpp:472
 msgctxt "Calendar System Hijri"
 msgid "Hijri"
 msgstr "Hijri"
 
-#: localetime.cpp:535
+#: localetime.cpp:474
 msgctxt "Calendar System Hebrew"
 msgid "Hebrew"
 msgstr "Hebrew"
 
-#: localetime.cpp:537
+#: localetime.cpp:476
 msgctxt "Calendar System Jalali"
 msgid "Jalali"
 msgstr "Jalali"
 
-#: localetime.cpp:540
+#: localetime.cpp:479
 #, fuzzy
 #| msgid ""
 #| "<p>The text in this textbox will be used to format time strings. The "
@@ -625,7 +611,7 @@ msgstr ""
 "gegewe tyd waarde. Middag is behandel as \"nm\" en middernag as \"vm\".</"
 "td></tr></table>"
 
-#: localetime.cpp:563
+#: localetime.cpp:502
 msgid ""
 "<table><tr><td><b>YYYY</b></td><td>The year with century as a decimal number."
 "</td></tr><tr><td><b>YY</b></td><td>The year without century as a decimal "
@@ -652,7 +638,7 @@ msgstr ""
 "tr><tr><td><b>weeksdag</b></td><td>Die volgrote weeksdag naam.</td></tr></"
 "table>"
 
-#: localetime.cpp:584
+#: localetime.cpp:523
 msgid ""
 "<p>The text in this textbox will be used to format long dates. The sequences "
 "below will be replaced:</p>"
@@ -660,7 +646,7 @@ msgstr ""
 "<p>Die teks in hierdie teksboks sal wees gebruik word na formaat lang "
 "datums. Die herhalings onder sal wees vervang:</p>"
 
-#: localetime.cpp:590
+#: localetime.cpp:529
 msgid ""
 "<p>The text in this textbox will be used to format short dates. For "
 "instance, this is used when listing files. The sequences below will be "
@@ -670,7 +656,7 @@ msgstr ""
 "datums. Vir voorbeeld, hierdie is gebruik word wanneer luister na lêers. Die "
 "herhalings onder sal wees vervang:</p>"
 
-#: localetime.cpp:597
+#: localetime.cpp:536
 msgid ""
 "<p>This option determines which day will be considered as the first one of "
 "the week.</p>"
@@ -678,43 +664,7 @@ msgstr ""
 "<p>Hierdie opsie bepaal wat dag sal wees oorweeg as die eerste een van die "
 "week.</p>"
 
-#: localetime.cpp:602
-#, fuzzy
-#| msgid ""
-#| "<p>This option determines which day will be considered as the first one "
-#| "of the week.</p>"
-msgid ""
-"<p>This option determines which day will be considered as the first working "
-"day of the week.</p>"
-msgstr ""
-"<p>Hierdie opsie bepaal wat dag sal wees oorweeg as die eerste een van die "
-"week.</p>"
-
-#: localetime.cpp:607
-#, fuzzy
-#| msgid ""
-#| "<p>This option determines which day will be considered as the first one "
-#| "of the week.</p>"
-msgid ""
-"<p>This option determines which day will be considered as the last working "
-"day of the week.</p>"
-msgstr ""
-"<p>Hierdie opsie bepaal wat dag sal wees oorweeg as die eerste een van die "
-"week.</p>"
-
-#: localetime.cpp:612
-#, fuzzy
-#| msgid ""
-#| "<p>This option determines which day will be considered as the first one "
-#| "of the week.</p>"
-msgid ""
-"<p>This option determines which day will be considered as the day of the "
-"week for religious observance.</p>"
-msgstr ""
-"<p>Hierdie opsie bepaal wat dag sal wees oorweeg as die eerste een van die "
-"week.</p>"
-
-#: localetime.cpp:619
+#: localetime.cpp:543
 msgid ""
 "<p>This option determines whether possessive form of month names should be "
 "used in dates.</p>"
@@ -722,26 +672,11 @@ msgstr ""
 "<p>Hierdie opsie bepaal watter vorm van die naam dae gebruik moet word in "
 "datums.</p>"
 
-#: localetime.cpp:629
-#, fuzzy
-#| msgid "Money:"
-msgctxt "Day name list, option for no day of religious observance"
-msgid "None"
-msgstr "Geld:"
-
-#. i18n: file: language.ui:110
+#. i18n: file: language.ui:95
 #. i18n: ectx: property (text), widget (QLabel, m_selectedCountryLabel)
 #: rc.cpp:9
 msgid "None selected (<a href=\"/change\">change...</a>)"
 msgstr ""
-
-#. i18n: file: localemon.ui:57
-#. i18n: ectx: property (text), widget (QLabel, m_labMonFraDig)
-#: rc.cpp:24
-#, fuzzy
-#| msgid "Fract digits:"
-msgid "Fractional digits:"
-msgstr "Breuk syfers:"
 
 #: rc.cpp:73
 msgctxt "NAME OF TRANSLATORS"
@@ -765,7 +700,7 @@ msgstr "Streek instellings"
 msgid "(C) 1998 Matthias Hoelzer, (C) 1999-2003 Hans Petter Bieker"
 msgstr ""
 
-#: toplevel.cpp:183
+#: toplevel.cpp:184
 msgid ""
 "Changed language settings apply only to newly started applications.\n"
 "To change the language of all programs, you will have to logout first."
@@ -774,11 +709,11 @@ msgstr ""
 "nuut oopgemaak word.\n"
 "As jy die taal van al die programme wil verander moet jy eers afteken."
 
-#: toplevel.cpp:187
+#: toplevel.cpp:188
 msgid "Applying Language Settings"
 msgstr "Wend Taal Instellings Aan"
 
-#: toplevel.cpp:224
+#: toplevel.cpp:225
 msgid ""
 "<h1>Country/Region & Language</h1>\n"
 "<p>From here you can configure language, numeric, and time \n"
@@ -796,29 +731,83 @@ msgstr ""
 "\"Duitsland\" in die lys spesifiseer. \n"
 "\n"
 
-#: toplevel.cpp:261
+#: toplevel.cpp:262
 msgid "Examples"
 msgstr "Voorbeelde"
 
-#: toplevel.cpp:262
+#: toplevel.cpp:263
 msgid "&Locale"
 msgstr "Lokalisering"
 
-#: toplevel.cpp:263
+#: toplevel.cpp:264
 msgid "&Numbers"
 msgstr "Nommers"
 
-#: toplevel.cpp:264
+#: toplevel.cpp:265
 msgid "&Money"
 msgstr "Geld"
 
-#: toplevel.cpp:265
+#: toplevel.cpp:266
 msgid "&Time && Dates"
 msgstr "Datum && Tyd"
 
-#: toplevel.cpp:266
+#: toplevel.cpp:267
 msgid "&Other"
 msgstr "Ander"
+
+#, fuzzy
+#~| msgid "First day of the week:"
+#~ msgid "First working day of the week:"
+#~ msgstr "Eerste dag van die week:"
+
+#, fuzzy
+#~| msgid "First day of the week:"
+#~ msgid "Last working day of the week:"
+#~ msgstr "Eerste dag van die week:"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>This option determines which day will be considered as the first one "
+#~| "of the week.</p>"
+#~ msgid ""
+#~ "<p>This option determines which day will be considered as the first "
+#~ "working day of the week.</p>"
+#~ msgstr ""
+#~ "<p>Hierdie opsie bepaal wat dag sal wees oorweeg as die eerste een van "
+#~ "die week.</p>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>This option determines which day will be considered as the first one "
+#~| "of the week.</p>"
+#~ msgid ""
+#~ "<p>This option determines which day will be considered as the last "
+#~ "working day of the week.</p>"
+#~ msgstr ""
+#~ "<p>Hierdie opsie bepaal wat dag sal wees oorweeg as die eerste een van "
+#~ "die week.</p>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>This option determines which day will be considered as the first one "
+#~| "of the week.</p>"
+#~ msgid ""
+#~ "<p>This option determines which day will be considered as the day of the "
+#~ "week for religious observance.</p>"
+#~ msgstr ""
+#~ "<p>Hierdie opsie bepaal wat dag sal wees oorweeg as die eerste een van "
+#~ "die week.</p>"
+
+#, fuzzy
+#~| msgid "Money:"
+#~ msgctxt "Day name list, option for no day of religious observance"
+#~ msgid "None"
+#~ msgstr "Geld:"
+
+#, fuzzy
+#~| msgid "Fract digits:"
+#~ msgid "Fractional digits:"
+#~ msgstr "Breuk syfers:"
 
 #, fuzzy
 #~| msgid "Calendar system:"
