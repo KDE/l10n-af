@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2005-11-25 11:30+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -29,33 +29,19 @@ msgstr ""
 "afteken in en hetsy die rekenaar moet wees automaties skakel ondertoe na "
 "Sessie weesïendig deur verstek."
 
-#: kcmsmserver.cpp:134
-msgid "The new window manager will be used when KDE is started the next time."
-msgstr ""
-
-#: kcmsmserver.cpp:135
-#, fuzzy
-#| msgid "Session Manager"
-msgid "Window manager change"
-msgstr "Sessie Bestuurder"
-
-#: kcmsmserver.cpp:152
-msgid "KWin (KDE default)"
-msgstr ""
-
 #. i18n: file: smserverconfigdlg.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, SMServerConfigDlg)
 #: rc.cpp:3
 msgid "Session Manager"
 msgstr "Sessie Bestuurder"
 
-#. i18n: file: smserverconfigdlg.ui:34
+#. i18n: file: smserverconfigdlg.ui:36
 #. i18n: ectx: property (title), widget (QGroupBox, topBox)
 #: rc.cpp:6
 msgid "General"
 msgstr "Algemeen"
 
-#. i18n: file: smserverconfigdlg.ui:40
+#. i18n: file: smserverconfigdlg.ui:44
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, confirmLogoutCheck)
 #: rc.cpp:9
 msgid ""
@@ -65,21 +51,55 @@ msgstr ""
 "Bevestig hierdie opsie as jy wil hê die sessie bestuurder na vertoon 'n "
 "teken af bevestiging dialoog boks."
 
-#. i18n: file: smserverconfigdlg.ui:43
+#. i18n: file: smserverconfigdlg.ui:47
 #. i18n: ectx: property (text), widget (QCheckBox, confirmLogoutCheck)
 #: rc.cpp:12
 msgid "Conf&irm logout"
 msgstr "Bevestig teken af"
 
-#. i18n: file: smserverconfigdlg.ui:50
+#. i18n: file: smserverconfigdlg.ui:54
 #. i18n: ectx: property (text), widget (QCheckBox, offerShutdownCheck)
 #: rc.cpp:15
 msgid "O&ffer shutdown options"
 msgstr "Bied aan afsluit opsies"
 
-#. i18n: file: smserverconfigdlg.ui:64
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
+#. i18n: file: smserverconfigdlg.ui:79
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, sdGroup)
 #: rc.cpp:18
+msgid ""
+"Here you can choose what should happen by default when you log out. This "
+"only has meaning, if you logged in through KDM."
+msgstr ""
+"Hier jy kan kies wat moet gebeur deur verstek wanneer jy log uit. Hierdie "
+"slegs het wat beteken, as jy gelog in deur Kdm."
+
+#. i18n: file: smserverconfigdlg.ui:82
+#. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
+#: rc.cpp:21
+msgid "Default Shutdown Option"
+msgstr "Verstek afsluit opsie"
+
+#. i18n: file: smserverconfigdlg.ui:88
+#. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
+#: rc.cpp:24
+msgid "&End current session"
+msgstr "Eindig huidige sessie"
+
+#. i18n: file: smserverconfigdlg.ui:95
+#. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
+#: rc.cpp:27
+msgid "&Turn off computer"
+msgstr "Skakel af rekenaar"
+
+#. i18n: file: smserverconfigdlg.ui:102
+#. i18n: ectx: property (text), widget (QRadioButton, rebootRadio)
+#: rc.cpp:30
+msgid "&Restart computer"
+msgstr "Herbegin rekenaar"
+
+#. i18n: file: smserverconfigdlg.ui:120
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
+#: rc.cpp:33
 msgid ""
 "<ul>\n"
 "<li><b>Restore previous session:</b> Will save all applications running on "
@@ -102,97 +122,62 @@ msgstr ""
 "'n leë werkskerm met dievolgende begin.</li>\n"
 "</ul>"
 
-#. i18n: file: smserverconfigdlg.ui:67
+#. i18n: file: smserverconfigdlg.ui:123
 #. i18n: ectx: property (title), widget (QGroupBox, loginGroup)
-#: rc.cpp:25
+#: rc.cpp:40
 msgid "On Login"
 msgstr "Op Aanteken"
 
-#. i18n: file: smserverconfigdlg.ui:73
+#. i18n: file: smserverconfigdlg.ui:131
 #. i18n: ectx: property (text), widget (QRadioButton, previousSessionRadio)
-#: rc.cpp:28
+#: rc.cpp:43
 msgid "Restore &previous session"
 msgstr "Herstel vorige sessie"
 
-#. i18n: file: smserverconfigdlg.ui:80
+#. i18n: file: smserverconfigdlg.ui:138
 #. i18n: ectx: property (text), widget (QRadioButton, savedSessionRadio)
-#: rc.cpp:31
+#: rc.cpp:46
 msgid "Restore &manually saved session"
 msgstr "Herstel eiehandig gestoor sessie"
 
-#. i18n: file: smserverconfigdlg.ui:87
+#. i18n: file: smserverconfigdlg.ui:145
 #. i18n: ectx: property (text), widget (QRadioButton, emptySessionRadio)
-#: rc.cpp:34
+#: rc.cpp:49
 msgid "Start with an empty &session"
 msgstr "Begin met 'n leë sessie"
 
-#. i18n: file: smserverconfigdlg.ui:97
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, sdGroup)
-#: rc.cpp:37
-msgid ""
-"Here you can choose what should happen by default when you log out. This "
-"only has meaning, if you logged in through KDM."
-msgstr ""
-"Hier jy kan kies wat moet gebeur deur verstek wanneer jy log uit. Hierdie "
-"slegs het wat beteken, as jy gelog in deur Kdm."
-
-#. i18n: file: smserverconfigdlg.ui:100
-#. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
-#: rc.cpp:40
-msgid "Default Shutdown Option"
-msgstr "Verstek afsluit opsie"
-
-#. i18n: file: smserverconfigdlg.ui:106
-#. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
-#: rc.cpp:43
-msgid "&End current session"
-msgstr "Eindig huidige sessie"
-
-#. i18n: file: smserverconfigdlg.ui:113
-#. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
-#: rc.cpp:46
-msgid "&Turn off computer"
-msgstr "Skakel af rekenaar"
-
-#. i18n: file: smserverconfigdlg.ui:120
-#. i18n: ectx: property (text), widget (QRadioButton, rebootRadio)
-#: rc.cpp:49
-msgid "&Restart computer"
-msgstr "Herbegin rekenaar"
-
-#. i18n: file: smserverconfigdlg.ui:130
-#. i18n: ectx: property (title), widget (QGroupBox, windowManagerGroup)
-#: rc.cpp:52
-#, fuzzy
-#| msgid "Session Manager"
-msgid "Window Manager"
-msgstr "Sessie Bestuurder"
-
-#. i18n: file: smserverconfigdlg.ui:142
-#. i18n: ectx: property (title), widget (QGroupBox, advancedGroup)
-#: rc.cpp:55
-msgid "Advanced"
-msgstr "Gevorderde"
-
-#. i18n: file: smserverconfigdlg.ui:148
+#. i18n: file: smserverconfigdlg.ui:152
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:58
+#: rc.cpp:52
 msgid "Applications to be e&xcluded from sessions:"
 msgstr "Programme om uit gevoer te word van sessies:"
 
-#. i18n: file: smserverconfigdlg.ui:161
+#. i18n: file: smserverconfigdlg.ui:165
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, excludeLineedit)
-#: rc.cpp:61
+#: rc.cpp:55
 #, fuzzy
 #| msgid ""
 #| "Here you can enter a comma-separated list of applications that should not "
 #| "be saved in sessions, and therefore will not be started when restoring a "
 #| "session. For example 'xterm,xconsole'."
 msgid ""
-"Here you can enter a comma-separated list of applications that should not be "
-"saved in sessions, and therefore will not be started when restoring a "
-"session. For example 'xterm,xconsole'."
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
 msgstr ""
 "Jy kan hier 'n komme geskeide lys van programme intik wat nie saam met die "
 "sessie gestoor moet word nie. Hulle sal gevolglik nie weer begin as die "
 "sessie herstel word nie. Bv. 'xterm,xconsole'."
+
+#, fuzzy
+#~| msgid "Session Manager"
+#~ msgid "Window manager change"
+#~ msgstr "Sessie Bestuurder"
+
+#, fuzzy
+#~| msgid "Session Manager"
+#~ msgid "Window Manager"
+#~ msgstr "Sessie Bestuurder"
+
+#~ msgid "Advanced"
+#~ msgstr "Gevorderde"

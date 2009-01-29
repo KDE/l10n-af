@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krandr stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2005-11-23 23:01+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -81,7 +81,7 @@ msgid "Unify Outputs"
 msgstr ""
 
 #: krandrtray.cpp:375 legacyrandrconfig.cpp:269 legacyrandrscreen.cpp:246
-#: outputconfig.cpp:292
+#: outputconfig.cpp:325
 #, fuzzy, kde-format
 msgid "%1 Hz"
 msgstr ""
@@ -180,47 +180,48 @@ msgstr ""
 msgid "Application is being auto-started at KDE session start"
 msgstr "Applikasie sal automaties begin wanneer KDE sessie begin"
 
-#: outputconfig.cpp:145
+#: outputconfig.cpp:165
 msgid "Left of"
 msgstr ""
 
-#: outputconfig.cpp:146
+#: outputconfig.cpp:166
 msgid "Right of"
 msgstr ""
 
-#: outputconfig.cpp:147
+#: outputconfig.cpp:167
 msgctxt "Output is placed above another one"
 msgid "Above"
 msgstr ""
 
-#: outputconfig.cpp:148
+#: outputconfig.cpp:168
 msgctxt "Output is placed below another one"
 msgid "Below"
 msgstr ""
 
-#: outputconfig.cpp:149
+#: outputconfig.cpp:169
 msgid "Clone of"
 msgstr ""
 
-#: outputconfig.cpp:150
+#: outputconfig.cpp:170
 msgctxt "Fixed, abitrary position"
 msgid "Absolute"
 msgstr ""
 
-#: outputconfig.cpp:153
+#: outputconfig.cpp:173
 msgid "No relative position"
 msgstr ""
 
-#: outputconfig.cpp:256
+#: outputconfig.cpp:288
 msgid "Disabled"
 msgstr ""
 
-#: outputconfig.cpp:261
-msgctxt "Automatic (native resolution)"
-msgid " (Auto)"
+#: outputconfig.cpp:294
+#, kde-format
+msgctxt "Automatic screen size (native resolution)"
+msgid "%1 (Auto)"
 msgstr ""
 
-#: outputconfig.cpp:286
+#: outputconfig.cpp:319
 msgctxt "Automatic configuration"
 msgid "Auto"
 msgstr ""
@@ -237,7 +238,7 @@ msgstr "Links (90 grade)"
 #: randr.cpp:35
 #, fuzzy
 #| msgid "Upside-down (180 degrees)"
-msgid "Upside-down (180 degrees)"
+msgid "Upside-Down (180 degrees)"
 msgstr "Bo-Na onder (180 grade)"
 
 #: randr.cpp:37
@@ -247,49 +248,49 @@ msgstr "Regs (270 grade)"
 #: randr.cpp:39
 #, fuzzy
 #| msgid "Mirror horizontally"
-msgid "Mirror horizontally"
+msgid "Mirror Horizontally"
 msgstr "Spieëlbeeld horisontaal"
 
 #: randr.cpp:41
 #, fuzzy
 #| msgid "Mirror vertically"
-msgid "Mirror vertically"
+msgid "Mirror Vertically"
 msgstr "Spieëlbeeld vertikaal"
 
 #: randr.cpp:43 randr.cpp:74
 #, fuzzy
 #| msgid "Unknown orientation"
-msgid "Unknown orientation"
+msgid "Unknown Orientation"
 msgstr "Onbekende orientasie"
 
 #: randr.cpp:48
 #, fuzzy
-msgid "Not rotated"
+msgid "Not Rotated"
 msgstr "Onbekende orientasie"
 
 #: randr.cpp:50
 #, fuzzy
 #| msgid "Rotated 90 degrees counterclockwise"
-msgid "Rotated 90 degrees counterclockwise"
+msgid "Rotated 90 Degrees Counterclockwise"
 msgstr "90 Grade anti-kloksgewys geroteer"
 
 #: randr.cpp:52
 #, fuzzy
 #| msgid "Rotated 180 degrees counterclockwise"
-msgid "Rotated 180 degrees counterclockwise"
+msgid "Rotated 180 Degrees Counterclockwise"
 msgstr "180 Grade anti-kloksgewys geroteer"
 
 #: randr.cpp:54
 #, fuzzy
 #| msgid "Rotated 270 degrees counterclockwise"
-msgid "Rotated 270 degrees counterclockwise"
+msgid "Rotated 270 Degrees Counterclockwise"
 msgstr "270 Grade anti-kloksgewys geroteer"
 
 #: randr.cpp:59
 #, fuzzy
-#| msgid "mirrored horizontally and vertically"
-msgid "Mirrored horizontally and vertically"
-msgstr "spieëlbeeld horisontaal en vertikaal"
+#| msgid "Mirrored horizontally and vertically"
+msgid "Mirrored Horizontally And Vertically"
+msgstr "Spieëlbeeld horisontaal en vertikaal"
 
 #: randr.cpp:61
 msgid "mirrored horizontally and vertically"
@@ -298,7 +299,7 @@ msgstr "spieëlbeeld horisontaal en vertikaal"
 #: randr.cpp:64
 #, fuzzy
 #| msgid "Mirrored horizontally"
-msgid "Mirrored horizontally"
+msgid "Mirrored Horizontally"
 msgstr "Spieëlbeeld horisontaal"
 
 #: randr.cpp:66
@@ -308,7 +309,7 @@ msgstr "spieëlbeeld horisontaal"
 #: randr.cpp:69
 #, fuzzy
 #| msgid "Mirrored vertically"
-msgid "Mirrored vertically"
+msgid "Mirrored Vertically"
 msgstr "Spieëlbeeld vertikaal"
 
 #: randr.cpp:71
@@ -349,6 +350,11 @@ msgstr ""
 "aangevraagde stellings. Dui asseblief aan of jy hierdie konfigurasie wil "
 "behou. Die beeld sal na 15 sekondes terugkeer na jou vorige konfigurasie "
 "stellings. "
+
+#: randrconfig.cpp:111
+#, kde-format
+msgid "%1 (Connected)"
+msgstr ""
 
 #: randrdisplay.cpp:49
 #, fuzzy, kde-format
@@ -500,20 +506,26 @@ msgstr ""
 msgid "Display Configuration (X11 Resize, Rotate and Reflect)"
 msgstr ""
 
-#: rc.cpp:58
+#. i18n: file: randrconfigbase.ui:42
+#. i18n: ectx: property (text), widget (QPushButton, identifyOutputsButton)
+#: rc.cpp:60
+msgid "Identify Outputs"
+msgstr ""
+
+#: rc.cpp:61
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Kobus Venter"
 
-#: rc.cpp:59
+#: rc.cpp:62
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kabousv@therugby.co.za"
 
 #, fuzzy
-#~| msgid "Mirrored horizontally and vertically"
-#~ msgid "Mirrored Horizontally And Vertically"
-#~ msgstr "Spieëlbeeld horisontaal en vertikaal"
+#~| msgid "mirrored horizontally and vertically"
+#~ msgid "Mirrored horizontally and vertically"
+#~ msgstr "spieëlbeeld horisontaal en vertikaal"
 
 #~ msgid "%1 x %2"
 #~ msgstr "%1 x %2"
