@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-16 09:08+0100\n"
+"POT-Creation-Date: 2009-02-17 09:10+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -185,7 +185,7 @@ msgstr "Korganizer Bevestiging"
 
 #. i18n: file: template_management_dialog_base.ui:41
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonDelete)
-#: filtereditdialog.cpp:252 kojournaleditor.cpp:209 rc.cpp:1126 rc.cpp:1962
+#: filtereditdialog.cpp:252 rc.cpp:1126 rc.cpp:1962
 #, fuzzy
 msgid "Delete"
 msgstr "Uitvee Gebeurtenis"
@@ -1279,8 +1279,8 @@ msgctxt "@info"
 msgid "Do you really want to cancel?"
 msgstr ""
 
-#: koincidenceeditor.cpp:109 koeditorattachments.cpp:697 koeventeditor.cpp:410
-#: kotodoeditor.cpp:344
+#: koincidenceeditor.cpp:109 kojournaleditor.cpp:230
+#: koeditorattachments.cpp:697 koeventeditor.cpp:410 kotodoeditor.cpp:344
 #, fuzzy
 #| msgid "KOrganizer Confirmation"
 msgctxt "@title:window"
@@ -1648,7 +1648,7 @@ msgstr ""
 #. i18n: file: filteredit_base.ui:35
 #. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
 #: views/todoview/kotodoview.cpp:167 views/journalview/journalview.cpp:185
-#: calendarview.cpp:843 actionmanager.cpp:330 actionmanager.cpp:527
+#: calendarview.cpp:848 actionmanager.cpp:330 actionmanager.cpp:527
 #: actionmanager.cpp:1601 actionmanager.cpp:1630 rc.cpp:6 rc.cpp:2784
 #, fuzzy
 msgid "&Delete"
@@ -3062,70 +3062,64 @@ msgid ""
 "KOrganizer's main view here."
 msgstr ""
 
-#: calendarview.cpp:427
+#: calendarview.cpp:432
 #, fuzzy, kde-format
 msgid "Could not load calendar '%1'."
 msgstr "Kon nie las kalender '%1'.\n"
 
-#: calendarview.cpp:634
+#: calendarview.cpp:639
 msgid ""
 "The time zone setting was changed. Do you want to keep the absolute time of "
 "the items in your calendar, which will show them to be at a different time "
 "than before, or move them to be at the old time also in the new time zone?"
 msgstr ""
 
-#: calendarview.cpp:641
+#: calendarview.cpp:646
 #, fuzzy
 msgid "Keep Absolute Times?"
 msgstr "nee tyd"
 
-#: calendarview.cpp:642
+#: calendarview.cpp:647
 #, fuzzy
 msgid "Keep Times"
 msgstr "nee tyd"
 
-#: calendarview.cpp:643
+#: calendarview.cpp:648
 #, fuzzy
 msgid "Move Times"
 msgstr "nee tyd"
 
-#: calendarview.cpp:712
+#: calendarview.cpp:717
 #, fuzzy, kde-format
 msgid "Todo completed: %1 (%2)"
 msgstr "klaar op %1"
 
-#: calendarview.cpp:722
+#: calendarview.cpp:727
 #, fuzzy, kde-format
 msgid "Journal of %1"
 msgstr "Joernaal"
 
-#: calendarview.cpp:777
+#: calendarview.cpp:782
 #, kde-format
 msgid ""
 "The item \"%1\" is filtered by your current filter rules, so it will be "
 "hidden and not appear in the view."
 msgstr ""
 
-#: calendarview.cpp:780
+#: calendarview.cpp:785
 #, fuzzy
 msgid "Filter Applied"
 msgstr "Filter geaktiveer"
 
-#: calendarview.cpp:841
+#: calendarview.cpp:846
 #, fuzzy, kde-format
 msgid "The item \"%1\" will be permanently deleted."
 msgstr "Hierdie item sal wees permanent uitgevee."
 
-#: calendarview.cpp:842 calendarview.cpp:2094 calendarview.cpp:2157
-#: calendarview.cpp:2168 kojournaleditor.cpp:208
+#: calendarview.cpp:847 calendarview.cpp:2094 calendarview.cpp:2157
+#: calendarview.cpp:2168
 msgid "KOrganizer Confirmation"
 msgstr "Korganizer Bevestiging"
-
-#: calendarview.cpp:1088
-#, fuzzy, kde-format
-msgctxt "Journal for DATE"
-msgid "Journal for %1"
-msgstr "Joernaal"
 
 #: calendarview.cpp:1188
 msgid ""
@@ -3955,25 +3949,34 @@ msgstr "Uitvee To-Do"
 msgid "Not delegated"
 msgstr "Nee verskaffer gekose."
 
-#: kojournaleditor.cpp:49
-#, fuzzy
-msgid "Edit Journal Entry"
-msgstr "Joernaal"
-
-#: kojournaleditor.cpp:77
+#: kojournaleditor.cpp:78
 #, fuzzy
 #| msgid "General"
 msgctxt "@title general journal settings"
 msgid "General"
 msgstr "Algemeen"
 
-#: kojournaleditor.cpp:207
+#: kojournaleditor.cpp:106
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "Edit Journal: %1"
+msgstr "Joernaal"
+
+#: kojournaleditor.cpp:116
 #, fuzzy
+msgctxt "@title:window"
+msgid "New Journal"
+msgstr "Joernaal"
+
+#: kojournaleditor.cpp:229
+#, fuzzy
+msgctxt "@info"
 msgid "This journal entry will be permanently deleted."
 msgstr "Hierdie item sal wees permanent uitgevee."
 
-#: kojournaleditor.cpp:223
+#: kojournaleditor.cpp:247
 #, fuzzy
+msgctxt "@info"
 msgid "Template does not contain a valid journal."
 msgstr "Werkvoorbeeld '%1' doen nie bevat 'n geldige Te-doen."
 
@@ -9592,40 +9595,47 @@ msgctxt "@info"
 msgid "The archive file name is not valid."
 msgstr "Die argief lêer naam is nie geldige.\n"
 
-#: koeditorgeneraljournal.cpp:69
+#: koeditorgeneraljournal.cpp:71
 #, fuzzy
 msgid "Sets the title of this journal."
 msgstr "Uitvee ou aktiwiteite"
 
-#: koeditorgeneraljournal.cpp:70
+#: koeditorgeneraljournal.cpp:72
 #, fuzzy
 msgctxt "journal title"
 msgid "T&itle:"
 msgstr "Titel"
 
-#: koeditorgeneraljournal.cpp:88
+#: koeditorgeneraljournal.cpp:90
 #, fuzzy
 msgid "&Date:"
 msgstr "As gevolg:"
 
-#: koeditorgeneraljournal.cpp:97
+#: koeditorgeneraljournal.cpp:99
 #, fuzzy
 msgid "&Time: "
 msgstr "Tyd: "
 
-#: koeditorgeneraljournal.cpp:129
+#: koeditorgeneraljournal.cpp:131
 msgid "Allows you to select the categories that this journal belongs to."
 msgstr ""
 
-#: koeditorgeneraljournal.cpp:132
+#: koeditorgeneraljournal.cpp:134
 #, fuzzy
 msgid "Select Cate&gories..."
 msgstr "Katagoriee..."
 
-#: koeditorgeneraljournal.cpp:219
+#: koeditorgeneraljournal.cpp:222
 #, fuzzy, kde-format
 msgid "Please specify a valid date, for example '%1'."
 msgstr "Asseblief spesifiseer 'n geldige einde datum."
+
+#: koeditorgeneraljournal.cpp:229
+#, fuzzy
+#| msgid "Please specify a valid due time."
+msgctxt "@info"
+msgid "Please specify a journal title."
+msgstr "Asseblief spesifiseer 'n geldige as gevolg tyd."
 
 #: templatemanagementdialog.cpp:51
 #, fuzzy
@@ -10502,6 +10512,11 @@ msgstr "Wat is Volgende"
 #: plugins/printing/whatsnext/whatsnextprint.h:42
 msgid "Prints a list of all upcoming events and todos."
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "Journal for DATE"
+#~ msgid "Journal for %1"
+#~ msgstr "Joernaal"
 
 #, fuzzy
 #~ msgctxt "@item delimiter for joining category names"
