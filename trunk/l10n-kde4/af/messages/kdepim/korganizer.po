@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-13 10:22+0100\n"
+"POT-Creation-Date: 2009-03-14 10:51+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1563,19 +1563,19 @@ msgstr "%1 %"
 msgid "- %1"
 msgstr "To-Do: %1"
 
-#: views/agendaview/koagendaview.cpp:557
+#: views/agendaview/koagendaview.cpp:524
 #, kde-format
 msgctxt "short_weekday date (e.g. Mon 13)"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: views/agendaview/koagendaview.cpp:726
+#: views/agendaview/koagendaview.cpp:693
 #: views/multiagendaview/multiagendaview.cpp:56
 #, fuzzy
 msgid "All Day"
 msgstr "Dag"
 
-#: views/agendaview/koagendaview.cpp:1489
+#: views/agendaview/koagendaview.cpp:1458
 msgid "Unable to modify this to-do, because it cannot be locked."
 msgstr ""
 
@@ -2704,7 +2704,7 @@ msgctxt "@info:tooltip"
 msgid "Set an advanced alarm"
 msgstr ""
 
-#: koeditorgeneral.cpp:413
+#: koeditorgeneral.cpp:415
 #, fuzzy, kde-format
 msgctxt "@label"
 msgid "1 reminder configured"
@@ -2712,19 +2712,19 @@ msgid_plural "%1 reminders configured"
 msgstr[0] "Herhindering:"
 msgstr[1] "Herhindering:"
 
-#: koeditorgeneral.cpp:440
+#: koeditorgeneral.cpp:442
 #, fuzzy
 msgctxt "@label"
 msgid "1 advanced reminder configured"
 msgstr "Herhindering:"
 
-#: koeditorgeneral.cpp:585
+#: koeditorgeneral.cpp:587
 #, fuzzy
 msgctxt "@label"
 msgid "No attendees"
 msgstr "Bywoners"
 
-#: koeditorgeneral.cpp:588
+#: koeditorgeneral.cpp:590
 #, fuzzy, kde-format
 msgctxt "@label"
 msgid "One attendee"
@@ -2732,7 +2732,7 @@ msgid_plural "%1 attendees"
 msgstr[0] "1 minuut"
 msgstr[1] "%1 minute"
 
-#: koeditorgeneral.cpp:599
+#: koeditorgeneral.cpp:601
 #, fuzzy
 #| msgid "Please specify a valid due time."
 msgctxt "@info"
@@ -3228,7 +3228,7 @@ msgid "The item \"%1\" will be permanently deleted."
 msgstr "Hierdie item sal wees permanent uitgevee."
 
 #: calendarview.cpp:823 calendarview.cpp:1267 calendarview.cpp:1279
-#: calendarview.cpp:2138 calendarview.cpp:2201 calendarview.cpp:2212
+#: calendarview.cpp:2138 calendarview.cpp:2201 calendarview.cpp:2232
 msgid "KOrganizer Confirmation"
 msgstr "Korganizer Bevestiging"
 
@@ -3463,80 +3463,88 @@ msgstr ""
 "Hierdie gebeurtenis herhaal bo veelvuldige datums. Word jy seker jy wil hê "
 "na uitvee Hierdie gebeurtenis en alle sy herhalings?"
 
-#: calendarview.cpp:2207
+#: calendarview.cpp:2209
+#, fuzzy
+msgid "Also Delete &Future"
+msgstr "Uitvee Huidige"
+
+#: calendarview.cpp:2213
 #, fuzzy, kde-format
 msgid ""
 "The calendar item \"%1\" recurs over multiple dates. Do you want to delete "
-"only the current one on %2, only all future recurrences, or all its "
-"recurrences?"
+"only the current one on %2, also future occurrences, or all its occurrences?"
 msgstr ""
 "Hierdie gebeurtenis herhaal bo veelvuldige datums. Word jy seker jy wil hê "
 "na uitvee Hierdie gebeurtenis en alle sy herhalings?"
 
-#: calendarview.cpp:2213
+#: calendarview.cpp:2220
+#, fuzzy, kde-format
+msgid ""
+"The calendar item \"%1\" recurs over multiple dates. Do you want to delete "
+"only the current one on %2 or all its occurrences?"
+msgstr ""
+"Hierdie gebeurtenis herhaal bo veelvuldige datums. Word jy seker jy wil hê "
+"na uitvee Hierdie gebeurtenis en alle sy herhalings?"
+
+#: calendarview.cpp:2233
 #, fuzzy
 msgid "Delete C&urrent"
 msgstr "Uitvee Huidige"
 
-#: calendarview.cpp:2214
-#, fuzzy
-msgid "Delete &Future"
-msgstr "Uitvee Huidige"
-
-#: calendarview.cpp:2215
+#: calendarview.cpp:2235
 #, fuzzy
 msgid "Delete &All"
 msgstr "Uitvee Gebeurtenis"
 
-#: calendarview.cpp:2301
+#: calendarview.cpp:2322
 #, fuzzy
 msgid "Delete all completed to-dos?"
 msgstr "Uitvee alle klaar To-Dos?"
 
-#: calendarview.cpp:2302
+#: calendarview.cpp:2323
 #, fuzzy
 msgid "Purge To-dos"
 msgstr "Maak skoon To-Dos"
 
-#: calendarview.cpp:2303
+#: calendarview.cpp:2324
 msgid "Purge"
 msgstr "Maak skoon"
 
-#: calendarview.cpp:2307
+#: calendarview.cpp:2328
 #, fuzzy
 msgid "Purging completed to-dos"
 msgstr "Steek weg klaar to-dos"
 
-#: calendarview.cpp:2324
+#: calendarview.cpp:2345
 #, fuzzy
 msgid "Unable to purge to-dos with uncompleted children."
 msgstr "Kan nie uitvee To-Do wat het kinders."
 
-#: calendarview.cpp:2325
+#: calendarview.cpp:2346
 #, fuzzy
 msgid "Delete To-do"
 msgstr "Uitvee To-Do"
 
-#: calendarview.cpp:2334
+#: calendarview.cpp:2355
 msgid "Unable to edit item: it is locked by another process."
 msgstr ""
 
-#: calendarview.cpp:2367
+#: calendarview.cpp:2388
 #, fuzzy, kde-format
 msgid "Unable to copy the item to %1."
 msgstr "Nie moontlik na handvatsel afgeleë kalender.\n"
 
-#: calendarview.cpp:2368
+#: calendarview.cpp:2389
 #, fuzzy
 msgid "Copying Failed"
 msgstr "Bestemming"
 
-#: calendarview.cpp:2412
+#: calendarview.cpp:2433
 #, fuzzy, kde-format
 msgid "Unable to move the item to  %1."
 msgstr "Nie moontlik na handvatsel afgeleë kalender.\n"
 
-#: calendarview.cpp:2413
+#: calendarview.cpp:2434
 #, fuzzy
 msgid "Moving Failed"
 msgstr "Bestemming"
