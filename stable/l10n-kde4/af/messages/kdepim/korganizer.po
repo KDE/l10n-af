@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-14 06:22+0100\n"
+"POT-Creation-Date: 2009-03-16 06:13+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1247,7 +1247,7 @@ msgid "Do you really want to cancel?"
 msgstr ""
 
 #: koincidenceeditor.cpp:116 koeditorattachments.cpp:677 koeventeditor.cpp:420
-#: kotodoeditor.cpp:354
+#: kotodoeditor.cpp:356
 #, fuzzy
 #| msgid "KOrganizer Confirmation"
 msgctxt "@title:window"
@@ -1498,13 +1498,13 @@ msgstr ""
 msgid "Attendee added"
 msgstr "Bywoners"
 
-#: views/agendaview/koagendaitem.cpp:911
-#: views/agendaview/koagendaitem.cpp:1014
+#: views/agendaview/koagendaitem.cpp:902
+#: views/agendaview/koagendaitem.cpp:1005
 #, fuzzy, kde-format
 msgid "%1 - %2"
 msgstr "%1 %"
 
-#: views/agendaview/koagendaitem.cpp:925
+#: views/agendaview/koagendaitem.cpp:916
 #, fuzzy, kde-format
 msgid "- %1"
 msgstr "To-Do: %1"
@@ -1883,12 +1883,12 @@ msgctxt "Date from - to"
 msgid "%1 - %2"
 msgstr ""
 
-#: views/timespentview/kotimespentview.cpp:88
+#: views/timespentview/kotimespentview.cpp:134
 #, fuzzy
 msgid "No category"
 msgstr "Katagoriee"
 
-#: views/timespentview/kotimespentview.cpp:128
+#: views/timespentview/kotimespentview.cpp:174
 #, fuzzy, kde-format
 msgctxt "number of hours spent"
 msgid "%1 hour"
@@ -1896,7 +1896,7 @@ msgid_plural "%1 hours"
 msgstr[0] "1 uur"
 msgstr[1] "%1 ure"
 
-#: views/timespentview/kotimespentview.cpp:129
+#: views/timespentview/kotimespentview.cpp:175
 #, fuzzy, kde-format
 msgctxt "percent of hours spent"
 msgid " (%1%)"
@@ -1924,7 +1924,7 @@ msgstr "Stuur Boodskappe"
 msgid "Do Not Send"
 msgstr "Maand besigtig:"
 
-#: incidencechanger.cpp:371 kodialogmanager.cpp:126
+#: incidencechanger.cpp:372 kodialogmanager.cpp:126
 #, fuzzy, kde-format
 msgid "Unable to save %1 \"%2\"."
 msgstr "Nie moontlik na handvatsel afgeleë kalender.\n"
@@ -2031,13 +2031,18 @@ msgctxt "@title:tab"
 msgid "Regional"
 msgstr "Persoonlike"
 
-#: koprefsdialog.cpp:226
+#: koprefsdialog.cpp:224
+msgctxt "@title:group"
+msgid "General Time and Date"
+msgstr ""
+
+#: koprefsdialog.cpp:232
 #, fuzzy
 msgctxt "@label"
 msgid "Time zone:"
 msgstr "Tydsone:"
 
-#: koprefsdialog.cpp:228
+#: koprefsdialog.cpp:234
 msgctxt "@info:whatsthis"
 msgid ""
 "Select your time zone from the list of locations on this drop down box. If "
@@ -2045,36 +2050,43 @@ msgid ""
 "KOrganizer will automatically adjust for daylight savings."
 msgstr ""
 
-#: koprefsdialog.cpp:239
+#: koprefsdialog.cpp:245
 msgctxt "@item:inlistbox unknown timezone"
 msgid "Unknown"
 msgstr ""
 
-#: koprefsdialog.cpp:254
+#: koprefsdialog.cpp:260
 #, fuzzy
 #| msgid "[No selection]"
 msgctxt "@item:inlistbox no timezone selected"
 msgid "[No selection]"
 msgstr "[Nee keuse]"
 
-#: koprefsdialog.cpp:273
+#: koprefsdialog.cpp:280
+#, fuzzy
+#| msgid "Holiday"
+msgctxt "@title:group"
+msgid "Holidays"
+msgstr "Vakansie"
+
+#: koprefsdialog.cpp:290
 msgctxt "@label"
 msgid "Use holiday region:"
 msgstr ""
 
-#: koprefsdialog.cpp:308
+#: koprefsdialog.cpp:325
 msgctxt "@item:inlistbox do not use holidays"
 msgid "(None)"
 msgstr ""
 
-#: koprefsdialog.cpp:325
+#: koprefsdialog.cpp:337
 #, fuzzy
 #| msgid "Working Hours"
 msgctxt "@title:group"
 msgid "Working Hours"
 msgstr "Werksaam Ure"
 
-#: koprefsdialog.cpp:346
+#: koprefsdialog.cpp:358
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box to make KOrganizer mark the working hours for this day of the "
@@ -2082,181 +2094,194 @@ msgid ""
 "will not be marked with color."
 msgstr ""
 
-#: koprefsdialog.cpp:384
+#: koprefsdialog.cpp:396
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Default Values"
 msgstr "Verstek Kalender Formaat"
 
-#: koprefsdialog.cpp:399
+#: koprefsdialog.cpp:401
+#, fuzzy
+#| msgid "Appointment"
+msgctxt "@title:group"
+msgid "Appointments"
+msgstr "Afspraak"
+
+#: koprefsdialog.cpp:417
+#, fuzzy
+msgctxt "@title:group"
+msgid "Reminders"
+msgstr "Herhindering:"
+
+#: koprefsdialog.cpp:423
 #, fuzzy
 msgctxt "@item:inlistbox"
 msgid "1 minute"
 msgstr "1 minuut"
 
-#: koprefsdialog.cpp:400
+#: koprefsdialog.cpp:424
 #, fuzzy
 #| msgid "5 minutes"
 msgctxt "@item:inlistbox"
 msgid "5 minutes"
 msgstr "5 minute"
 
-#: koprefsdialog.cpp:401
+#: koprefsdialog.cpp:425
 #, fuzzy
 #| msgid "10 minutes"
 msgctxt "@item:inlistbox"
 msgid "10 minutes"
 msgstr "10 minute"
 
-#: koprefsdialog.cpp:402
+#: koprefsdialog.cpp:426
 #, fuzzy
 #| msgid "15 minutes"
 msgctxt "@item:inlistbox"
 msgid "15 minutes"
 msgstr "15 minute"
 
-#: koprefsdialog.cpp:403
+#: koprefsdialog.cpp:427
 #, fuzzy
 #| msgid "30 minutes"
 msgctxt "@item:inlistbox"
 msgid "30 minutes"
 msgstr "30 minute"
 
-#: koprefsdialog.cpp:404
+#: koprefsdialog.cpp:428
 #, fuzzy
 msgctxt "@label"
 msgid "Default reminder time:"
 msgstr "Verstek alarm tyd:"
 
-#: koprefsdialog.cpp:512
+#: koprefsdialog.cpp:536
 #, fuzzy
 #| msgid "General"
 msgctxt "@title:tab general settings"
 msgid "General"
 msgstr "Algemeen"
 
-#: koprefsdialog.cpp:529
+#: koprefsdialog.cpp:553
 #, fuzzy
 msgctxt "@title:group"
 msgid "Date Navigator"
 msgstr "Vertoon tyd as:"
 
-#: koprefsdialog.cpp:541
+#: koprefsdialog.cpp:565
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Agenda View"
 msgstr "Agenda besigtig:"
 
-#: koprefsdialog.cpp:546
+#: koprefsdialog.cpp:570
 #, fuzzy
 msgctxt "@title:group"
 msgid "Display Options"
 msgstr "Daagliks"
 
-#: koprefsdialog.cpp:554
+#: koprefsdialog.cpp:578
 msgctxt "@label suffix in the hour size spin box"
 msgid " pixel"
 msgstr ""
 
-#: koprefsdialog.cpp:566
+#: koprefsdialog.cpp:590
 #, fuzzy
 msgctxt "@label suffix in the N days spin box"
 msgid " days"
 msgstr "Ikalender"
 
-#: koprefsdialog.cpp:597
+#: koprefsdialog.cpp:621
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Month View"
 msgstr "Maand besigtig:"
 
-#: koprefsdialog.cpp:616
+#: koprefsdialog.cpp:640
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Todo View"
 msgstr "To-do lys"
 
-#: koprefsdialog.cpp:655
+#: koprefsdialog.cpp:679
 msgctxt "@title:tab"
 msgid "Colors"
 msgstr ""
 
-#: koprefsdialog.cpp:690
+#: koprefsdialog.cpp:714
 #, fuzzy
 #| msgid "Categories"
 msgctxt "@title:group"
 msgid "Categories"
 msgstr "Katagoriee"
 
-#: koprefsdialog.cpp:700
+#: koprefsdialog.cpp:724
 msgctxt "@info:whatsthis"
 msgid ""
 "Select here the event category you want to modify. You can change the "
 "selected category color using the button below."
 msgstr ""
 
-#: koprefsdialog.cpp:709
+#: koprefsdialog.cpp:733
 msgctxt "@info:whatsthis"
 msgid ""
 "Choose here the color of the event category selected using the combo box "
 "above."
 msgstr ""
 
-#: koprefsdialog.cpp:717
+#: koprefsdialog.cpp:741
 #, fuzzy
 msgctxt "@title:group"
 msgid "Resources"
 msgstr "Herhaal"
 
-#: koprefsdialog.cpp:726
+#: koprefsdialog.cpp:750
 msgctxt "@info:whatsthis"
 msgid ""
 "Select here resource you want to modify. You can change the selected "
 "resource color using the button below."
 msgstr ""
 
-#: koprefsdialog.cpp:735
+#: koprefsdialog.cpp:759
 msgctxt "@info:whatsthis"
 msgid ""
 "Choose here the color of the resource selected using the combo box above."
 msgstr ""
 
-#: koprefsdialog.cpp:746
+#: koprefsdialog.cpp:770
 #, fuzzy
 #| msgid "month(s)"
 msgctxt "@title:tab"
 msgid "Fonts"
 msgstr "maand(s)"
 
-#: koprefsdialog.cpp:761 koprefsdialog.cpp:769
+#: koprefsdialog.cpp:785 koprefsdialog.cpp:793
 #, fuzzy
 #| msgid "Event text"
 msgctxt "@label"
 msgid "Event text"
 msgstr "Gebeurtenis teks"
 
-#: koprefsdialog.cpp:919
+#: koprefsdialog.cpp:943
 #, fuzzy
 #| msgid "Scheduler Mail Client"
 msgctxt "@title"
 msgid "Scheduler Mail Client"
 msgstr "Skeduleerder Pos Kliënt"
 
-#: koprefsdialog.cpp:921
+#: koprefsdialog.cpp:945
 #, fuzzy
 #| msgid "Mail client"
 msgctxt "@option:radio"
 msgid "Mail client"
 msgstr "Pos kliënt"
 
-#: koprefsdialog.cpp:927
+#: koprefsdialog.cpp:951
 #, fuzzy
 #| msgid "Additional email addresses:"
 msgctxt "@label"
 msgid "Additional email addresses:"
 msgstr "Aditionele e-pos adresse:"
 
-#: koprefsdialog.cpp:929
+#: koprefsdialog.cpp:953
 msgctxt "@info:whatsthis"
 msgid ""
 "Add, edit or remove additional e-mails addresses here. These email addresses "
@@ -2265,21 +2290,21 @@ msgid ""
 "need to list this address here so KOrganizer can recognize it as yours."
 msgstr ""
 
-#: koprefsdialog.cpp:941
+#: koprefsdialog.cpp:965
 #, fuzzy
 #| msgid "Email"
 msgctxt "@title:column email addresses"
 msgid "Email"
 msgstr "E-pos"
 
-#: koprefsdialog.cpp:944
+#: koprefsdialog.cpp:968
 #, fuzzy
 #| msgid "Additional email address:"
 msgctxt "@label"
 msgid "Additional email address:"
 msgstr "Aditionele e-pos adres:"
 
-#: koprefsdialog.cpp:946
+#: koprefsdialog.cpp:970
 msgctxt "@info:whatsthis"
 msgid ""
 "Edit additional e-mails addresses here. To edit an address select it from "
@@ -2287,95 +2312,95 @@ msgid ""
 "the ones you have in addition to the one set in personal preferences."
 msgstr ""
 
-#: koprefsdialog.cpp:959
+#: koprefsdialog.cpp:983
 #, fuzzy
 #| msgid "New"
 msgctxt "@action:button add a new email address"
 msgid "New"
 msgstr "Nuwe"
 
-#: koprefsdialog.cpp:962
+#: koprefsdialog.cpp:986
 msgctxt "@info:whatsthis"
 msgid ""
 "Press this button to add a new entry to the additional e-mail addresses "
 "list. Use the edit box above to edit the new entry."
 msgstr ""
 
-#: koprefsdialog.cpp:967
+#: koprefsdialog.cpp:991
 #, fuzzy
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "Werkvoorbeeld..."
 
-#: koprefsdialog.cpp:1010
+#: koprefsdialog.cpp:1034
 msgctxt "@label"
 msgid "(EmptyEmail)"
 msgstr ""
 
-#: koprefsdialog.cpp:1230
+#: koprefsdialog.cpp:1254
 #, fuzzy
 #| msgid "Name"
 msgctxt "@title:column plugin name"
 msgid "Name"
 msgstr "Naam"
 
-#: koprefsdialog.cpp:1249
+#: koprefsdialog.cpp:1273
 #, fuzzy
 msgctxt "@action:button"
 msgid "Configure &Plugin..."
 msgstr "Konfigureer Inprop modules..."
 
-#: koprefsdialog.cpp:1252
+#: koprefsdialog.cpp:1276
 msgctxt "@info:whatsthis"
 msgid ""
 "This button allows you to configure the plugin that you have selected in the "
 "list above"
 msgstr ""
 
-#: koprefsdialog.cpp:1259
+#: koprefsdialog.cpp:1283
 #, fuzzy
 #| msgid "Destination"
 msgctxt "@title:group"
 msgid "Position"
 msgstr "Bestemming"
 
-#: koprefsdialog.cpp:1261
+#: koprefsdialog.cpp:1285
 #, fuzzy
 msgctxt "@option:check"
 msgid "Show in the month view"
 msgstr "Vertoon slegs gekose"
 
-#: koprefsdialog.cpp:1263
+#: koprefsdialog.cpp:1287
 #, fuzzy
 msgctxt "@option:check"
 msgid "Show at the top of the agenda views"
 msgstr "Vertoon slegs gekose"
 
-#: koprefsdialog.cpp:1265
+#: koprefsdialog.cpp:1289
 #, fuzzy
 msgctxt "@option:check"
 msgid "Show at the bottom of the agenda views"
 msgstr "Vertoon slegs gekose"
 
-#: koprefsdialog.cpp:1298
+#: koprefsdialog.cpp:1322
 #, fuzzy
 msgctxt "@title:group"
 msgid "Calendar Decorations"
 msgstr "Ikalender"
 
-#: koprefsdialog.cpp:1301
+#: koprefsdialog.cpp:1325
 #, fuzzy
 msgctxt "@title:group"
 msgid "Print Plugins"
 msgstr "Gebeurtenis lys"
 
-#: koprefsdialog.cpp:1304
+#: koprefsdialog.cpp:1328
 #, fuzzy
 msgctxt "@title:group"
 msgid "Other Plugins"
 msgstr "Beskrywings"
 
-#: koprefsdialog.cpp:1372
+#: koprefsdialog.cpp:1396
 #, fuzzy
 #| msgid "Unable to configure this plugin"
 msgctxt "@info"
@@ -2566,30 +2591,30 @@ msgctxt "advanced alarm settings"
 msgid "Advanced..."
 msgstr "Gevorderde"
 
-#: koeditorgeneral.cpp:409
+#: koeditorgeneral.cpp:411
 #, fuzzy, kde-format
 msgid "1 reminder configured"
 msgid_plural "%1 reminders configured"
 msgstr[0] "Herhindering:"
 msgstr[1] "Herhindering:"
 
-#: koeditorgeneral.cpp:436
+#: koeditorgeneral.cpp:438
 msgid "1 advanced reminder configured"
 msgstr ""
 
-#: koeditorgeneral.cpp:577
+#: koeditorgeneral.cpp:579
 #, fuzzy
 msgid "No attendees"
 msgstr "Bywoners"
 
-#: koeditorgeneral.cpp:579
+#: koeditorgeneral.cpp:581
 #, fuzzy, kde-format
 msgid "One attendee"
 msgid_plural "%1 attendees"
 msgstr[0] "1 minuut"
 msgstr[1] "%1 minute"
 
-#: koeditorgeneral.cpp:587
+#: koeditorgeneral.cpp:589
 #, fuzzy
 #| msgid "Please specify a valid start date."
 msgid "Please specify a summary."
@@ -3275,55 +3300,55 @@ msgstr "Uitvee Huidige"
 msgid "Delete &All"
 msgstr "Uitvee Gebeurtenis"
 
-#: calendarview.cpp:2248
+#: calendarview.cpp:2250
 #, fuzzy
 msgid "Delete all completed to-dos?"
 msgstr "Uitvee alle klaar To-Dos?"
 
-#: calendarview.cpp:2249
+#: calendarview.cpp:2251
 #, fuzzy
 msgid "Purge To-dos"
 msgstr "Maak skoon To-Dos"
 
-#: calendarview.cpp:2250
+#: calendarview.cpp:2252
 msgid "Purge"
 msgstr "Maak skoon"
 
-#: calendarview.cpp:2254
+#: calendarview.cpp:2256
 #, fuzzy
 msgid "Purging completed to-dos"
 msgstr "Steek weg klaar to-dos"
 
-#: calendarview.cpp:2271
+#: calendarview.cpp:2273
 #, fuzzy
 msgid "Unable to purge to-dos with uncompleted children."
 msgstr "Kan nie uitvee To-Do wat het kinders."
 
-#: calendarview.cpp:2272
+#: calendarview.cpp:2274
 #, fuzzy
 msgid "Delete To-do"
 msgstr "Uitvee To-Do"
 
-#: calendarview.cpp:2281
+#: calendarview.cpp:2283
 msgid "Unable to edit item: it is locked by another process."
 msgstr ""
 
-#: calendarview.cpp:2314
+#: calendarview.cpp:2316
 #, fuzzy, kde-format
 msgid "Unable to copy the item to %1."
 msgstr "Nie moontlik na handvatsel afgeleë kalender.\n"
 
-#: calendarview.cpp:2315
+#: calendarview.cpp:2317
 #, fuzzy
 msgid "Copying Failed"
 msgstr "Bestemming"
 
-#: calendarview.cpp:2359
+#: calendarview.cpp:2361
 #, fuzzy, kde-format
 msgid "Unable to move the item to  %1."
 msgstr "Nie moontlik na handvatsel afgeleë kalender.\n"
 
-#: calendarview.cpp:2360
+#: calendarview.cpp:2362
 #, fuzzy
 msgid "Moving Failed"
 msgstr "Bestemming"
@@ -8488,7 +8513,7 @@ msgid ""
 "The General tab allows you to set the most common options for the event."
 msgstr ""
 
-#: koeventeditor.cpp:153 kotodoeditor.cpp:120
+#: koeventeditor.cpp:153 kotodoeditor.cpp:122
 #, fuzzy
 #| msgid "Details"
 msgctxt "@title:tab"
@@ -8501,7 +8526,7 @@ msgctxt "@title:tab general event settings"
 msgid "&General"
 msgstr "Algemeen"
 
-#: koeventeditor.cpp:198 kotodoeditor.cpp:167
+#: koeventeditor.cpp:198 kotodoeditor.cpp:169
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Rec&urrence"
@@ -8555,7 +8580,7 @@ msgstr "Ruil uit Inplak"
 msgid "My counter proposal for: %1"
 msgstr "Joernaal"
 
-#: koeventeditor.cpp:419 kotodoeditor.cpp:353
+#: koeventeditor.cpp:419 kotodoeditor.cpp:355
 #, fuzzy
 #| msgid "This item will be permanently deleted."
 msgctxt "@info"
@@ -8574,32 +8599,32 @@ msgctxt "@info"
 msgid "Template does not contain a valid event."
 msgstr "Werkvoorbeeld doen nie bevat 'n geldige Gebeurtenis."
 
-#: kotodoeditor.cpp:106
+#: kotodoeditor.cpp:108
 #, fuzzy
 #| msgid "General"
 msgctxt "@title:tab general to-do settings"
 msgid "General"
 msgstr "Algemeen"
 
-#: kotodoeditor.cpp:136
+#: kotodoeditor.cpp:138
 #, fuzzy
 msgctxt "@title:tab general to-do settings"
 msgid "&General"
 msgstr "Algemeen"
 
-#: kotodoeditor.cpp:191
+#: kotodoeditor.cpp:193
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Edit To-do: %1"
 msgstr "Redigeer To-Do"
 
-#: kotodoeditor.cpp:199
+#: kotodoeditor.cpp:201
 #, fuzzy
 msgctxt "@title:window"
 msgid "New To-do"
 msgstr "Nuwe To-Do"
 
-#: kotodoeditor.cpp:371
+#: kotodoeditor.cpp:373
 #, fuzzy
 msgctxt "@info"
 msgid "Template does not contain a valid to-do."
