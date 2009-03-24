@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-23 06:10+0100\n"
+"POT-Creation-Date: 2009-03-24 06:20+0100\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -3518,6 +3518,14 @@ msgstr "Kontak asseblief die stelsel administrateur."
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "Konfiguraasie lêer \"%1\" is nie skryfbaar nie.\n"
 
+#: kdecore/network/klocalsocket_win.cpp:31
+#: kdecore/network/klocalsocket_win.cpp:36
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "Operation not supported"
+msgstr "operasie word nie ondersteun nie"
+
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
 msgctxt "1: the unknown socket address family number"
@@ -3651,6 +3659,91 @@ msgstr "'ai_socktype' nie ondersteun"
 #: kdecore/network/netsupp.cpp:902
 msgid "system error"
 msgstr "stelsel fout"
+
+#: kdecore/network/klocalsocket_unix.cpp:178
+#: kdecore/network/klocalsocket_unix.cpp:246
+msgid "Specified socket path is invalid"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:187
+#: kdecore/network/klocalsocket_unix.cpp:234
+#: kdecore/network/klocalsocket_unix.cpp:255
+#, fuzzy
+#| msgctxt "Socket error code NotSupported"
+#| msgid "operation is not supported"
+msgid "The socket operation is not supported"
+msgstr "operasie word nie ondersteun nie"
+
+#: kdecore/network/klocalsocket_unix.cpp:200
+#, fuzzy
+#| msgctxt "Socket error code ConnectionRefused"
+#| msgid "connection actively refused"
+msgid "Connection refused"
+msgstr "konneksie word aktief geweier"
+
+#: kdecore/network/klocalsocket_unix.cpp:205
+#: kdecore/network/klocalsocket_unix.cpp:268
+#, fuzzy
+#| msgid "Permission denied."
+msgid "Permission denied"
+msgstr "Reg verbied."
+
+#: kdecore/network/klocalsocket_unix.cpp:209
+#, fuzzy
+#| msgctxt "Socket error code ConnectionTimedOut"
+#| msgid "connection timed out"
+msgid "Connection timed out"
+msgstr "koppeltyd het uitgeloop"
+
+#: kdecore/network/klocalsocket_unix.cpp:213
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:425
+#, fuzzy
+#| msgctxt "QFile"
+#| msgid "Unknown error"
+msgid "Unknown error"
+msgstr "Onbekende fout"
+
+#: kdecore/network/klocalsocket_unix.cpp:221
+#: kdecore/network/klocalsocket_unix.cpp:301
+msgid "Could not set non-blocking mode"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:272
+#, fuzzy
+#| msgctxt "Socket error code AddressInUse"
+#| msgid "address already in use"
+msgid "Address is already in use"
+msgstr "adres word alreeds gebruik"
+
+#: kdecore/network/klocalsocket_unix.cpp:277
+#, fuzzy
+#| msgid "This file cannot be opened."
+msgid "Path cannot be used"
+msgstr "Hierdie lêer kan nie wees geöpende."
+
+#: kdecore/network/klocalsocket_unix.cpp:281
+#, fuzzy
+#| msgid "No such file."
+msgid "No such file or directory"
+msgstr "Nee soos lêer."
+
+#: kdecore/network/klocalsocket_unix.cpp:285
+msgid "Not a directory"
+msgstr ""
+
+#: kdecore/network/klocalsocket_unix.cpp:289
+#, fuzzy
+#| msgid "Read-only"
+msgid "Read-only filesystem"
+msgstr "Lees-alleen"
+
+#: kdecore/network/klocalsocket_unix.cpp:354
+#: kdecore/network/klocalsocket_unix.cpp:386
+#, fuzzy
+#| msgctxt "QFile"
+#| msgid "Unknown error"
+msgid "Unknown socket error"
+msgstr "Onbekende fout"
 
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
@@ -12818,13 +12911,6 @@ msgstr "Opstelling"
 msgid "Invalid type in Database"
 msgstr "Ongeldige verwysingsbasis"
 
-#: nepomuk/core/resource.cpp:425
-#, fuzzy
-#| msgctxt "QFile"
-#| msgid "Unknown error"
-msgid "Unknown error"
-msgstr "Onbekende fout"
-
 #: nepomuk/core/ui/kmetadatatagwidget.cpp:214
 msgid "Create New Tag..."
 msgstr ""
@@ -14954,11 +15040,6 @@ msgstr "Geen kieslys item: '%1'."
 #~ msgstr "Datums"
 
 #, fuzzy
-#~| msgid "Permission denied."
-#~ msgid "Permissions"
-#~ msgstr "Reg verbied."
-
-#, fuzzy
 #~| msgid "Other"
 #~ msgid "Owner"
 #~ msgstr "Ander"
@@ -15182,9 +15263,6 @@ msgstr "Geen kieslys item: '%1'."
 
 #~ msgid "Try Different"
 #~ msgstr "Probeer Anders"
-
-#~ msgid "This file cannot be opened."
-#~ msgstr "Hierdie lêer kan nie wees geöpende."
 
 #~ msgid "I do not know how to handle this type of file."
 #~ msgstr "Ek weet nie hoe om hierdie tipe van lêer te hanteer nie."
@@ -16922,9 +17000,6 @@ msgstr "Geen kieslys item: '%1'."
 #~ msgid "Resource Configuration"
 #~ msgstr "Hulpbron Opstelling"
 
-#~ msgid "Read-only"
-#~ msgstr "Lees-alleen"
-
 #~ msgid "%1 Resource Settings"
 #~ msgstr "%1 Hulpbron Instellings"
 
@@ -17103,9 +17178,6 @@ msgstr "Geen kieslys item: '%1'."
 
 #~ msgid "File opened."
 #~ msgstr "Lêer geöpende."
-
-#~ msgid "No such file."
-#~ msgstr "Nee soos lêer."
 
 #~ msgid "The file \"%1\" cannot be found. Create a new one?"
 #~ msgstr "Die lêer \"%1\" kan nie wees gevind. Skep 'n nuwe een?"
