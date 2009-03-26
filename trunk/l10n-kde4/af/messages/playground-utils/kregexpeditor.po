@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kregexpeditor VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-10 10:29+0100\n"
+"POT-Creation-Date: 2009-03-26 10:58+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: altnwidget.cpp:39 altnwidget.cpp:49 regexpbuttons.cpp:110
+#: altnwidget.cpp:39 altnwidget.cpp:49 regexpbuttons.cpp:108
 msgid "Alternatives"
 msgstr "Alternatiwe"
 
@@ -28,28 +28,28 @@ msgstr "Deur te kies klomp alternatiwe is huidiglik nie ondersteunde."
 msgid "Selection Invalid"
 msgstr "Keuse program"
 
-#: auxbuttons.cpp:46
+#: auxbuttons.cpp:44
 msgid "Undo"
 msgstr ""
 
-#: auxbuttons.cpp:52
+#: auxbuttons.cpp:50
 msgid "Redo"
 msgstr ""
 
-#: auxbuttons.cpp:58 KMultiFormListBox/ccp.cpp:68
+#: auxbuttons.cpp:56 KMultiFormListBox/ccp.cpp:68
 msgid "Cut"
 msgstr ""
 
-#: auxbuttons.cpp:64 KMultiFormListBox/ccp.cpp:69
+#: auxbuttons.cpp:62 KMultiFormListBox/ccp.cpp:69
 #: KMultiFormListBox/kmultiformlistbox-windowed.cpp:68
 msgid "Copy"
 msgstr ""
 
-#: auxbuttons.cpp:70 KMultiFormListBox/ccp.cpp:70
+#: auxbuttons.cpp:68 KMultiFormListBox/ccp.cpp:70
 msgid "Paste"
 msgstr ""
 
-#: auxbuttons.cpp:76
+#: auxbuttons.cpp:74
 msgid "Save"
 msgstr ""
 
@@ -335,9 +335,14 @@ msgid ""
 "\"mailto:blackie@kde.org\">blackie@kde.org</a>&gt;"
 msgstr ""
 
-#: kregexpeditorgui.cpp:76
+#: kregexpeditorgui.cpp:77
 msgid "Regular Expression Editor"
 msgstr "Gewone Uitdrukking Redigeerder"
+
+#: kregexpeditorprivate.cpp:74
+#, fuzzy
+msgid "Compound regular expression:"
+msgstr "Opgelope gewone uitdrukking:"
 
 #: kregexpeditorprivate.cpp:75
 msgid ""
@@ -346,14 +351,14 @@ msgid ""
 "with the system."
 msgstr ""
 
-#: kregexpeditorprivate.cpp:83
+#: kregexpeditorprivate.cpp:84
 msgid ""
 "In this window you will develop your regular expressions. Select one of the "
 "actions from the action buttons above, and click the mouse in this window to "
 "insert the given action."
 msgstr ""
 
-#: kregexpeditorprivate.cpp:91
+#: kregexpeditorprivate.cpp:93
 msgid ""
 "<p>Type in some text in this window, and see what the regular expression you "
 "have developed matches.</p><p>Each second match will be colored in red and "
@@ -363,17 +368,17 @@ msgid ""
 "<i>debug</i> your regular expressions</p>"
 msgstr ""
 
-#: kregexpeditorprivate.cpp:174
+#: kregexpeditorprivate.cpp:160
 #, fuzzy
-msgid "ASCII synta&x:"
+msgid "ASCII syntax:"
 msgstr "Ascii sintaks:"
 
-#: kregexpeditorprivate.cpp:181
+#: kregexpeditorprivate.cpp:175
 #, fuzzy
 msgid "Clear expression"
 msgstr "Opgelope gewone uitdrukking:"
 
-#: kregexpeditorprivate.cpp:185
+#: kregexpeditorprivate.cpp:179
 msgid ""
 "<p>This is the regular expression in ASCII syntax. You are likely only to be "
 "interested in this if you are a programmer, and need to develop a regular "
@@ -382,7 +387,7 @@ msgid ""
 "line edit.</p>"
 msgstr ""
 
-#: kregexpeditorprivate.cpp:392
+#: kregexpeditorprivate.cpp:388
 #, fuzzy, kde-format
 msgid "Could not open file '%1' for reading"
 msgstr "Kon nie open lêer vir lees: %1"
@@ -436,11 +441,11 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
-#: regexpbuttons.cpp:68
+#: regexpbuttons.cpp:66
 msgid "Selection tool"
 msgstr "Keuse program"
 
-#: regexpbuttons.cpp:69
+#: regexpbuttons.cpp:67
 #, fuzzy
 #| msgid ""
 #| "<qt>This will change the state of the editor to <i>selection state</i>."
@@ -464,22 +469,22 @@ msgstr ""
 "iteme, jy dalk mag gebruik knip/kopie/plak. Hierdie funksies word gevind in "
 "die regterkant muis knoppie kieslys.</qt>"
 
-#: regexpbuttons.cpp:78
+#: regexpbuttons.cpp:76
 msgid "Text"
 msgstr "Teks"
 
-#: regexpbuttons.cpp:79
+#: regexpbuttons.cpp:77
 msgid ""
 "<qt>This will insert a text field, where you may write text. The text you "
 "write will be matched literally. (i.e. you do not need to escape any "
 "characters)</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:84
+#: regexpbuttons.cpp:82
 msgid "A single character specified in a range"
 msgstr "'n enkel karakter gespesifiseer in 'n omvang"
 
-#: regexpbuttons.cpp:85
+#: regexpbuttons.cpp:83
 #, fuzzy
 #| msgid ""
 #| "<qt>This will match a single character from a predefined range.<p>When "
@@ -495,19 +500,19 @@ msgstr ""
 "verskyn, wat laat jy jy spesifiseer wat karakters Hierdie <i>regexp item</i> "
 "sal ooreenstem.</qt>"
 
-#: regexpbuttons.cpp:91
+#: regexpbuttons.cpp:89
 msgid "Any character"
 msgstr "Enige karakter"
 
-#: regexpbuttons.cpp:92
+#: regexpbuttons.cpp:90
 msgid "<qt>This will match any single character</qt>"
 msgstr "<qt>Hierdie sal ooreenstem enige enkel karakter</qt>"
 
-#: regexpbuttons.cpp:96
+#: regexpbuttons.cpp:94
 msgid "Repeated content"
 msgstr "Herhaalde inhoud"
 
-#: regexpbuttons.cpp:97
+#: regexpbuttons.cpp:95
 msgid ""
 "<qt>This <i>regexp item</i> will repeat the <i>regexp items</i> it surrounds "
 "a specified number of times.<br />The number of times to repeat may be "
@@ -519,7 +524,7 @@ msgid ""
 "string <tt>abcabc</tt>, the string <tt>abcabcabcabc</tt>, etc.</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:111
+#: regexpbuttons.cpp:109
 #, fuzzy
 #| msgid ""
 #| "<qt>This <i>regexp item</i> will match any of its alternatives.</p>You "
@@ -534,11 +539,11 @@ msgstr ""
 "p>Jy spesifiseer alternatiwe deur placking <i>regexp iteme</i> op bo van "
 "elke ander binne in Hierdie gui-element.</qt>"
 
-#: regexpbuttons.cpp:117
+#: regexpbuttons.cpp:115
 msgid "Compound regexp"
 msgstr "Opgelope regexp"
 
-#: regexpbuttons.cpp:118
+#: regexpbuttons.cpp:116
 msgid ""
 "<qt>This <i>regexp item</i> serves two purposes:<ul><li>It makes it possible "
 "for you to collapse a huge <i>regexp item</i> into a small box. This makes "
@@ -547,27 +552,27 @@ msgid ""
 "perhaps do not care about the inner workings of.</qt>"
 msgstr ""
 
-#: regexpbuttons.cpp:126
+#: regexpbuttons.cpp:124
 msgid "Beginning of line"
 msgstr "Begin van lyn"
 
-#: regexpbuttons.cpp:127
+#: regexpbuttons.cpp:125
 msgid "<qt>This will match the beginning of a line.</qt>"
 msgstr "<qt>Hierdie sal ooreenstem die begin van 'n lyn.</qt>"
 
-#: regexpbuttons.cpp:131
+#: regexpbuttons.cpp:129
 msgid "End of line"
 msgstr "Einde van lyn"
 
-#: regexpbuttons.cpp:132
+#: regexpbuttons.cpp:130
 msgid "<qt>This will match the end of a line.</qt>"
 msgstr "<qt>Hierdie sal ooreenstem die einde van 'n lyn.</qt>"
 
-#: regexpbuttons.cpp:136
+#: regexpbuttons.cpp:134
 msgid "Word boundary"
 msgstr "Woord grens"
 
-#: regexpbuttons.cpp:137
+#: regexpbuttons.cpp:135
 msgid ""
 "<qt>This asserts a word boundary (This part does not actually match any "
 "characters)</qt>"
@@ -575,11 +580,11 @@ msgstr ""
 "<qt>Hierdie stel 'n woord grens (Hierdie deel doen nie inderwaarheid "
 "ooreenstem enige karakters)</qt>"
 
-#: regexpbuttons.cpp:140
+#: regexpbuttons.cpp:138
 msgid "Non Word boundary"
 msgstr "Nie Woord grens"
 
-#: regexpbuttons.cpp:141
+#: regexpbuttons.cpp:139
 msgid ""
 "<qt>This asserts a non-word boundary (This part does not actually match any "
 "characters)</qt>"
@@ -587,11 +592,11 @@ msgstr ""
 "<qt>Hierdie stel 'n non-word grens (Hierdie deel doen nie inderwaarheid "
 "ooreenstem enige karakters)</qt>"
 
-#: regexpbuttons.cpp:145
+#: regexpbuttons.cpp:143
 msgid "Positive Look Ahead"
 msgstr ""
 
-#: regexpbuttons.cpp:146
+#: regexpbuttons.cpp:144
 #, fuzzy
 msgid ""
 "<qt>This asserts a regular expression (This part does not actually match any "
@@ -600,11 +605,11 @@ msgstr ""
 "<qt>Hierdie stel 'n gewone uitdrukking (Hierdie deel doen nie inderwaarheid "
 "ooreenstem enige karakters)</qt>"
 
-#: regexpbuttons.cpp:150
+#: regexpbuttons.cpp:148
 msgid "Negative Look Ahead"
 msgstr ""
 
-#: regexpbuttons.cpp:151
+#: regexpbuttons.cpp:149
 #, fuzzy
 msgid ""
 "<qt>This asserts a regular expression that must not match (This part does "
@@ -703,108 +708,103 @@ msgstr ""
 msgid "<p>Element <b>Text</b> did not contain any textual data.</p>"
 msgstr "<p>Element <b>Teks</b> het nie bevat enige teks data.</p>"
 
-#: userdefinedregexps.cpp:49
-#, fuzzy
-msgid "Compound regular expression:"
-msgstr "Opgelope gewone uitdrukking:"
-
-#: userdefinedregexps.cpp:71
+#: userdefinedregexps.cpp:73
 msgid "User Defined"
 msgstr "Gebruiker Gedefinieër"
 
-#: userdefinedregexps.cpp:96
+#: userdefinedregexps.cpp:98
 #, fuzzy
 msgid "general"
 msgstr "algemeen"
 
-#: userdefinedregexps.cpp:108
+#: userdefinedregexps.cpp:111
 #, kde-format
 msgid "Could not open file for reading: %1"
 msgstr "Kon nie open lêer vir lees: %1"
 
-#: userdefinedregexps.cpp:118
+#: userdefinedregexps.cpp:121
 #, kde-format
 msgid "File %1 containing user defined regular expression contained an error"
 msgstr ""
 "Lêer %1 bevat gebruiker gedefinieër gewone uitdrukking versamel 'n fout"
 
-#: userdefinedregexps.cpp:160
+#: userdefinedregexps.cpp:163
 #: KMultiFormListBox/kmultiformlistbox-windowed.cpp:62
 #, fuzzy
 msgid "Delete"
 msgstr "Uitvee Item"
 
-#: userdefinedregexps.cpp:161
+#: userdefinedregexps.cpp:164
 #, fuzzy
 msgid "Rename..."
 msgstr "Herbenaam"
 
-#: userdefinedregexps.cpp:197
+#: userdefinedregexps.cpp:200
 msgid "Rename Item"
 msgstr "Herbenaam Item"
 
-#: userdefinedregexps.cpp:197
+#: userdefinedregexps.cpp:200
 msgid "New name:"
 msgstr "Nuwe naam:"
 
-#: userdefinedregexps.cpp:203
+#: userdefinedregexps.cpp:206
 #, kde-format
 msgid "<p>Overwrite named regular expression <b>%1</b>?</p>"
 msgstr "<p>Oorskryf genaamd gewone uitdrukking <b>%1</b>?</p>"
 
-#: userdefinedregexps.cpp:203
+#: userdefinedregexps.cpp:206
 msgid "Do Not Overwrite"
 msgstr ""
 
-#: verifybuttons.cpp:54
+#: verifybuttons.cpp:51
 #, fuzzy
 msgid "Verify regular expression"
 msgstr "Opgelope gewone uitdrukking:"
 
-#: verifybuttons.cpp:55
+#: verifybuttons.cpp:52
 msgid ""
 "Shows what part of the regular expression is being matched in the "
 "<i>verifier window</i>.(The window below the graphical editor window)."
 msgstr ""
 
-#: verifybuttons.cpp:64
+#: verifybuttons.cpp:61
 msgid "Load text in the verifier window"
 msgstr ""
 
-#: verifybuttons.cpp:70
+#: verifybuttons.cpp:67
 msgid "Verification Settings"
 msgstr ""
 
-#: verifybuttons.cpp:121
+#: verifybuttons.cpp:118
 msgid "Verify on the Fly"
 msgstr ""
 
-#: verifybuttons.cpp:127
+#: verifybuttons.cpp:124
 msgid "Toggle on-the-fly verification of regular expression"
 msgstr ""
 
-#: verifybuttons.cpp:128
+#: verifybuttons.cpp:125
 msgid ""
 "Enabling this option will make the verifier update for each edit. If the "
 "verify window contains much text, or if the regular expression is either "
 "complex or matches a lot of time, this may be very slow."
 msgstr ""
 
-#: verifybuttons.cpp:132
+#: verifybuttons.cpp:129
 msgid "Match Greedy"
 msgstr ""
 
-#: verifybuttons.cpp:137
+#: verifybuttons.cpp:134
 msgid "Toggle greedy matching when verifying the regular expression."
 msgstr ""
 
-#: verifybuttons.cpp:138
+#: verifybuttons.cpp:135
 msgid ""
 "When this option is enabled, the regular expression will be evaluated on a "
 "so-called greedy way."
 msgstr ""
 
-#: verifybuttons.cpp:142
+#: verifybuttons.cpp:138
 msgid "RegExp Language"
 msgstr ""
 
