@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-29 11:44+0200\n"
+"POT-Creation-Date: 2009-03-30 10:52+0200\n"
 "PO-Revision-Date: 2002-11-07 11:33+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -61,8 +61,8 @@ msgid ""
 "Please select an encoder in the configuration."
 msgstr ""
 
-#: encoder.cpp:74 encoderconfigimp.cpp:144 encoderconfigimp.cpp:185
-#: encoderconfigimp.cpp:226
+#: encoder.cpp:74 encoderconfigimp.cpp:149 encoderconfigimp.cpp:189
+#: encoderconfigimp.cpp:230
 #, fuzzy
 msgid "No Encoder Selected"
 msgstr "Nee Navolg Gekose"
@@ -124,44 +124,54 @@ msgstr ""
 "Asseblief bevestig jou lêer gids soeklys opsie.\n"
 "Die wav lêer het al verwyder."
 
-#: encoderconfigimp.cpp:121
+#: encoderconfigimp.cpp:100
+msgid "The default encoder has to accept wav as input."
+msgstr ""
+
+#: encoderconfigimp.cpp:100 encoderconfigimp.cpp:194 encoderconfigimp.cpp:235
+msgid "Not Allowed"
+msgstr ""
+
+#: encoderconfigimp.cpp:127
 #, fuzzy
 msgid "Add Encoder"
 msgstr "Onbekende"
 
-#: encoderconfigimp.cpp:144 encoderconfigimp.cpp:185 encoderconfigimp.cpp:226
+#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
 #, fuzzy
 msgid "Please select an encoder."
 msgstr "Asseblief kies 'n navolg."
 
-#: encoderconfigimp.cpp:168
+#: encoderconfigimp.cpp:172
 #, fuzzy
 msgid "Copy Encoder"
 msgstr "Onbekende"
 
-#: encoderconfigimp.cpp:190
-msgid "At least one encoder must exist."
-msgstr ""
-
-#: encoderconfigimp.cpp:190
-msgid "Can Not Remove"
-msgstr ""
-
 #: encoderconfigimp.cpp:194
+msgid "WAV is not allowed to be removed."
+msgstr ""
+
+#: encoderconfigimp.cpp:198
 #, fuzzy
 msgid "Delete encoder?"
 msgstr "Uitbreiding"
 
-#: encoderconfigimp.cpp:194
+#: encoderconfigimp.cpp:198
 msgid "Delete Encoder"
 msgstr ""
 
-#: encoderconfigimp.cpp:241
+#: encoderconfigimp.cpp:235
+msgid ""
+"WAV is not allowed to be changed.\n"
+"You can copy it to adjust it to your needs."
+msgstr ""
+
+#: encoderconfigimp.cpp:250
 #, fuzzy
 msgid "Configure Encoder"
 msgstr "Onbekende"
 
-#: encoderconfigimp.cpp:373 kaudiocreator.cpp:379
+#: encoderconfigimp.cpp:384 kaudiocreator.cpp:393
 msgid "Encoder Configuration"
 msgstr ""
 
@@ -252,7 +262,7 @@ msgstr "Aan te bring Cddb Opkyk"
 msgid "Searching"
 msgstr ""
 
-#: kaudiocreator.cpp:199
+#: kaudiocreator.cpp:199 kaudiocreator.cpp:232
 msgid "WAV"
 msgstr ""
 
@@ -268,87 +278,87 @@ msgstr ""
 msgid "FLAC Best"
 msgstr ""
 
-#: kaudiocreator.cpp:270
+#: kaudiocreator.cpp:284
 msgid "CD Inserted"
 msgstr ""
 
-#: kaudiocreator.cpp:272
+#: kaudiocreator.cpp:286
 msgid "No Audio CD detected"
 msgstr ""
 
-#: kaudiocreator.cpp:279
+#: kaudiocreator.cpp:293
 #, fuzzy, kde-format
 msgid "Default encoder: %1"
 msgstr "Uitbreiding"
 
-#: kaudiocreator.cpp:284
+#: kaudiocreator.cpp:298
 msgid "Idle."
 msgstr ""
 
-#: kaudiocreator.cpp:293
+#: kaudiocreator.cpp:307
 #, kde-format
 msgid "Ripping (%1 active, %2 queued)"
 msgstr ""
 
-#: kaudiocreator.cpp:297
+#: kaudiocreator.cpp:311
 #, fuzzy, kde-format
 msgid "Encoding (%1 active, %2 queued)"
 msgstr "Enkodering: %1 - %2"
 
-#: kaudiocreator.cpp:315
+#: kaudiocreator.cpp:329
 msgid "There are unfinished jobs in the queue. Would you like to quit anyway?"
 msgstr ""
 "Daar word onafgehandelde werke in die wagtou. Sal jy hou van na verlaat in "
 "elkgeval?"
 
-#: kaudiocreator.cpp:315
+#: kaudiocreator.cpp:329
 #, fuzzy
 msgid "Unfinished Jobs in Queue"
 msgstr "Onafgehandelde Werke in die wagtou"
 
 #. i18n: file: general.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, General)
-#: kaudiocreator.cpp:356 rc.cpp:196
+#: kaudiocreator.cpp:370 rc.cpp:196
 #, fuzzy
 msgid "General"
 msgstr "Kategorie"
 
-#: kaudiocreator.cpp:357
+#: kaudiocreator.cpp:371
 #, fuzzy
 msgid "General Configuration"
 msgstr "Ripper Opstelling"
 
-#: kaudiocreator.cpp:359
+#: kaudiocreator.cpp:373
 msgid "CD"
 msgstr ""
 
-#: kaudiocreator.cpp:360
+#: kaudiocreator.cpp:374
 #, fuzzy
 msgid "CD Configuration"
 msgstr "Cd Opstelling"
 
-#: kaudiocreator.cpp:370
+#: kaudiocreator.cpp:384
 msgid "CDDB"
 msgstr ""
 
-#: kaudiocreator.cpp:370
+#: kaudiocreator.cpp:384
 #, fuzzy
 msgid "CDDB Configuration"
 msgstr "Cd Opstelling"
 
-#: kaudiocreator.cpp:376
+#: kaudiocreator.cpp:390
 #, fuzzy
 msgid "Ripper"
 msgstr "Rip"
 
-#: kaudiocreator.cpp:376
+#: kaudiocreator.cpp:390
 #, fuzzy
 msgid "Ripper Configuration"
 msgstr "Ripper Opstelling"
 
 #. i18n: file: encodefile.ui:75
 #. i18n: ectx: property (text), widget (QTreeWidget, fileList)
-#: kaudiocreator.cpp:379 rc.cpp:33
+#: kaudiocreator.cpp:393 rc.cpp:33
 msgid "Encoder"
 msgstr ""
 
