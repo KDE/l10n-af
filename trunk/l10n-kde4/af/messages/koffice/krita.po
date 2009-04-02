@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-01 11:22+0200\n"
+"POT-Creation-Date: 2009-04-02 11:32+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -2196,7 +2196,7 @@ msgstr "Voorgrond na Transparent"
 #. i18n: file: ui/forms/wdgdisplaysettings.ui:69
 #. i18n: ectx: property (text), widget (QLabel, lblColor)
 #: rc.cpp:482
-msgid "Checkers Color:"
+msgid "Checkers' Color:"
 msgstr ""
 
 #. i18n: file: ui/forms/wdgdisplaysettings.ui:76
@@ -2222,7 +2222,7 @@ msgstr ""
 #. i18n: file: ui/forms/wdgdisplaysettings.ui:102
 #. i18n: ectx: property (text), widget (QLabel, lblCheckSize)
 #: rc.cpp:494
-msgid "&Checkers size"
+msgid "&Checkers' size"
 msgstr ""
 
 #. i18n: file: ui/forms/wdgshapeoptions.ui:13
@@ -5830,7 +5830,7 @@ msgstr ""
 #. i18n: file: plugins/viewplugins/metadataeditor/editors/exif.ui:659
 #. i18n: ectx: property (text), item, widget (QComboBox, editLightSource)
 #: rc.cpp:2231
-msgid "Tugnsten"
+msgid "Tungsten"
 msgstr ""
 
 #. i18n: file: plugins/viewplugins/metadataeditor/editors/exif.ui:689
@@ -8543,6 +8543,44 @@ msgstr ""
 msgid "Crop the image to an area"
 msgstr ""
 
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:57
+msgid "Dyna"
+msgstr ""
+
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:184
+#: plugins/tools/defaulttools/kis_tool_brush.cc:148
+#, fuzzy
+msgctxt "smooth out the curves while drawing"
+msgid "Smoothness"
+msgstr "Lyn dikheid:"
+
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:197
+msgid "Queue paint tasks"
+msgstr ""
+
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:201
+#: plugins/tools/defaulttools/kis_tool_brush.cc:162
+#, fuzzy
+msgid "Assistant:"
+msgstr "Oplos"
+
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:203
+#: plugins/tools/defaulttools/kis_tool_brush.cc:164
+#, fuzzy
+msgid "Magnetism:"
+msgstr "magenta"
+
+#: plugins/tools/tool_dyna/kis_tool_dyna.h:148
+#: plugins/tools/defaulttools/kis_tool_brush.h:77
+#, fuzzy
+msgid "Paint"
+msgstr "Verf"
+
+#: plugins/tools/tool_dyna/kis_tool_dyna.h:150
+#, fuzzy
+msgid "Paint with brushes using dynamic movements"
+msgstr "Verf met patroon"
+
 #: plugins/tools/tool_grid/kis_tool_grid.h:68
 msgid "Edit the grid"
 msgstr ""
@@ -8596,22 +8634,6 @@ msgstr "Elipse Program"
 #: plugins/tools/defaulttools/kis_tool_colorpicker.h:89
 msgid "Select a color from the image or current layer"
 msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_brush.cc:148
-#, fuzzy
-msgctxt "smooth out the curves while drawing"
-msgid "Smoothness"
-msgstr "Lyn dikheid:"
-
-#: plugins/tools/defaulttools/kis_tool_brush.cc:162
-#, fuzzy
-msgid "Assistant:"
-msgstr "Oplos"
-
-#: plugins/tools/defaulttools/kis_tool_brush.cc:164
-#, fuzzy
-msgid "Magnetism:"
-msgstr "magenta"
 
 #: plugins/tools/defaulttools/kis_tool_line.cc:137
 #, fuzzy
@@ -8780,11 +8802,6 @@ msgstr "Verf drempelpunt:"
 #, fuzzy
 msgid "Preview opacity:"
 msgstr "Ondeursigtigheid:"
-
-#: plugins/tools/defaulttools/kis_tool_brush.h:77
-#, fuzzy
-msgid "Paint"
-msgstr "Verf"
 
 #: plugins/tools/defaulttools/kis_tool_brush.h:79
 #, fuzzy
@@ -9115,6 +9132,25 @@ msgstr ""
 msgid "Painterly Color Mixer"
 msgstr "Verf Nutsprogramme"
 
+#: plugins/paintops/chalk/kis_chalkop_option.cpp:37
+#: plugins/paintops/spray/kis_sprayop_option.cpp:37
+#: plugins/paintops/dynadraw/kis_dyna_option.cpp:37
+#: plugins/paintops/dynadraw/kis_dynaop_option.cpp:37
+#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cc:245
+#, fuzzy
+msgid "Brush size"
+msgstr "Borsels"
+
+#: plugins/paintops/chalk/kis_chalk_paintop_factory.h:48
+#, fuzzy
+msgid "Chalk brush"
+msgstr "Kwas"
+
+#: plugins/paintops/spray/kis_spray_paintop_factory.h:48
+#, fuzzy
+msgid "Spray brush"
+msgstr "Kwas"
+
 #: plugins/paintops/sumie/kis_sumi_paintop_factory.h:48
 #, fuzzy
 msgid "Sumi-e brush"
@@ -9315,17 +9351,20 @@ msgstr "Verwyder Laag"
 msgid "Chinese Brush"
 msgstr "Kwas"
 
-#: plugins/paintops/dynadraw/kis_dyna_option.cpp:37
-#: plugins/paintops/dynadraw/kis_dynaop_option.cpp:37
-#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cc:245
+#: plugins/paintops/deform/kis_deform_paintop_factory.h:47
 #, fuzzy
-msgid "Brush size"
-msgstr "Borsels"
+msgid "Deform brush"
+msgstr "Roteer 90"
 
 #: plugins/paintops/dynadraw/kis_dyna_paintop_factory.h:48
 #, fuzzy
 msgid "Dyna brush"
 msgstr "Volgende Laag"
+
+#: plugins/paintops/curvebrush/kis_curve_paintop_factory.h:47
+#, fuzzy
+msgid "Curve brush"
+msgstr "Kwas"
 
 #: plugins/viewplugins/glsl/dlg_glsl.cc:60
 #, fuzzy
@@ -10153,14 +10192,6 @@ msgstr "Keuse"
 #~ msgstr "Diagonale"
 
 #, fuzzy
-#~ msgid "Chalk brush"
-#~ msgstr "Kwas"
-
-#, fuzzy
-#~ msgid "Curve brush"
-#~ msgstr "Kwas"
-
-#, fuzzy
 #~ msgid "&Normalize picture"
 #~ msgstr "Alle prentjies"
 
@@ -10252,10 +10283,6 @@ msgstr "Keuse"
 #, fuzzy
 #~ msgid "Paint freely"
 #~ msgstr "Verf"
-
-#, fuzzy
-#~ msgid "Smeary Brush"
-#~ msgstr "Kwas"
 
 #, fuzzy
 #~ msgid "&Filters Gallery"
