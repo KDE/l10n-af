@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-29 11:56+0200\n"
+"POT-Creation-Date: 2009-04-30 11:41+0200\n"
 "PO-Revision-Date: 2005-11-28 12:28+0200\n"
 "Last-Translator: Kobus Venter <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -814,21 +814,19 @@ msgstr "Hierdie hulp program is nie veronderstel om direk geroep te word nie."
 #| "terminate this application? (All unsaved data in this application will be "
 #| "lost.)</qt>"
 msgid ""
-"<p>Window with title \"<b>%2</b>\" is not responding. This window belongs to "
-"application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you wish to terminate "
-"this application? (All unsaved data in this application will be lost.)</p>"
+"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
+"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
+"the application process <em>including <b>all</b> of its child windows</em>?"
+"<br /><b>Any unsaved data will be lost!</b></p>"
 msgstr ""
 "<qt>Venster met titel \"<b>%2</b>\" reageer nie. Dit behoort aan die program "
 "<b>%1</b> (PID=%3, hostname=%4).<p>Wil jy hierdie program beïndig? (Alle "
 "ongestoorde data in die program sal verlore wees.)</qt>"
 
-#: killer/killer.cpp:72
-msgid "Terminate"
-msgstr "Beïndig"
-
-#: killer/killer.cpp:72
-msgid "Keep Running"
-msgstr "Hou Hardlopende"
+#: killer/killer.cpp:73
+#, kde-format
+msgid "&Terminate application %1"
+msgstr ""
 
 #: lib/kcommondecoration.cpp:286
 #, fuzzy, kde-format
@@ -907,6 +905,12 @@ msgstr "Die verstek versiering inprop is stukkend en kon gelaai word."
 #, kde-format
 msgid "The library %1 is not a KWin plugin."
 msgstr "Die biblioteek %1 is nie 'n Kwin inprop."
+
+#~ msgid "Terminate"
+#~ msgstr "Beïndig"
+
+#~ msgid "Keep Running"
+#~ msgstr "Hou Hardlopende"
 
 #, fuzzy
 #~| msgid "Desktop %1"
