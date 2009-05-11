@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-04 12:09+0200\n"
+"POT-Creation-Date: 2009-05-11 12:58+0200\n"
 "PO-Revision-Date: 2002-11-07 11:33+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -30,25 +30,25 @@ msgstr ""
 
 #. i18n: file: encodefile.ui:256
 #. i18n: ectx: property (specialValueText), widget (KIntNumInput, trackStart)
-#: encodefileimp.cpp:61 encodefileimp.cpp:233 encodefileimp.cpp:245
-#: encodefileimp.cpp:261 encodefileimp.cpp:268 encodefileimp.cpp:285
-#: encodefileimp.cpp:292 rc.cpp:93
+#: encodefileimp.cpp:61 encodefileimp.cpp:245 encodefileimp.cpp:257
+#: encodefileimp.cpp:273 encodefileimp.cpp:280 encodefileimp.cpp:297
+#: encodefileimp.cpp:304 rc.cpp:93
 msgid "empty"
 msgstr ""
 
-#: encodefileimp.cpp:207 encodefileimp.cpp:249 encodefileimp.cpp:273
+#: encodefileimp.cpp:219 encodefileimp.cpp:261 encodefileimp.cpp:285
 #, fuzzy, kde-format
 #| msgid "Track"
 msgid "track_%1"
 msgstr "Navolg"
 
-#: encodefileimp.cpp:211 encodefileimp.cpp:215 encodefileimp.cpp:226
-#: encodefileimp.cpp:250 encodefileimp.cpp:251 encodefileimp.cpp:274
-#: encodefileimp.cpp:275
+#: encodefileimp.cpp:223 encodefileimp.cpp:227 encodefileimp.cpp:238
+#: encodefileimp.cpp:262 encodefileimp.cpp:263 encodefileimp.cpp:286
+#: encodefileimp.cpp:287
 msgid "unknown"
 msgstr ""
 
-#: encodefileimp.cpp:460 tracksimp.cpp:439
+#: encodefileimp.cpp:472 tracksimp.cpp:439
 #, kde-format
 msgid ""
 "%1 Job(s) have been started.  You can watch their progress in the jobs "
@@ -57,21 +57,72 @@ msgstr ""
 "%1 Werk(s) het al beginne.  Jy kan waarneem hulle vordering in die werke "
 "seksie."
 
-#: encodefileimp.cpp:462 tracksimp.cpp:441
+#: encodefileimp.cpp:474 tracksimp.cpp:441
 msgid "Jobs have started"
 msgstr "Werke het beginne"
+
+#: encoderconfigimp.cpp:100
+msgid "The default encoder has to accept wav as input."
+msgstr ""
+
+#: encoderconfigimp.cpp:100 encoderconfigimp.cpp:194 encoderconfigimp.cpp:235
+msgid "Not Allowed"
+msgstr ""
+
+#: encoderconfigimp.cpp:127
+#, fuzzy
+msgid "Add Encoder"
+msgstr "Onbekende"
+
+#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
+#, fuzzy
+msgid "Please select an encoder."
+msgstr "Asseblief kies 'n navolg."
+
+#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
+#: encoder.cpp:74
+#, fuzzy
+msgid "No Encoder Selected"
+msgstr "Nee Navolg Gekose"
+
+#: encoderconfigimp.cpp:172
+#, fuzzy
+msgid "Copy Encoder"
+msgstr "Onbekende"
+
+#: encoderconfigimp.cpp:194
+msgid "WAV is not allowed to be removed."
+msgstr ""
+
+#: encoderconfigimp.cpp:198
+#, fuzzy
+msgid "Delete encoder?"
+msgstr "Uitbreiding"
+
+#: encoderconfigimp.cpp:198
+msgid "Delete Encoder"
+msgstr ""
+
+#: encoderconfigimp.cpp:235
+msgid ""
+"WAV is not allowed to be changed.\n"
+"You can copy it to adjust it to your needs."
+msgstr ""
+
+#: encoderconfigimp.cpp:250
+#, fuzzy
+msgid "Configure Encoder"
+msgstr "Onbekende"
+
+#: encoderconfigimp.cpp:384 kaudiocreator.cpp:391
+msgid "Encoder Configuration"
+msgstr ""
 
 #: encoder.cpp:74
 msgid ""
 "No encoder has been selected.\n"
 "Please select an encoder in the configuration."
 msgstr ""
-
-#: encoder.cpp:74 encoderconfigimp.cpp:149 encoderconfigimp.cpp:189
-#: encoderconfigimp.cpp:230
-#, fuzzy
-msgid "No Encoder Selected"
-msgstr "Nee Navolg Gekose"
 
 #: encoder.cpp:158
 #, fuzzy, kde-format
@@ -130,57 +181,6 @@ msgstr ""
 "Asseblief bevestig jou lêer gids soeklys opsie.\n"
 "Die wav lêer het al verwyder."
 
-#: encoderconfigimp.cpp:100
-msgid "The default encoder has to accept wav as input."
-msgstr ""
-
-#: encoderconfigimp.cpp:100 encoderconfigimp.cpp:194 encoderconfigimp.cpp:235
-msgid "Not Allowed"
-msgstr ""
-
-#: encoderconfigimp.cpp:127
-#, fuzzy
-msgid "Add Encoder"
-msgstr "Onbekende"
-
-#: encoderconfigimp.cpp:149 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
-#, fuzzy
-msgid "Please select an encoder."
-msgstr "Asseblief kies 'n navolg."
-
-#: encoderconfigimp.cpp:172
-#, fuzzy
-msgid "Copy Encoder"
-msgstr "Onbekende"
-
-#: encoderconfigimp.cpp:194
-msgid "WAV is not allowed to be removed."
-msgstr ""
-
-#: encoderconfigimp.cpp:198
-#, fuzzy
-msgid "Delete encoder?"
-msgstr "Uitbreiding"
-
-#: encoderconfigimp.cpp:198
-msgid "Delete Encoder"
-msgstr ""
-
-#: encoderconfigimp.cpp:235
-msgid ""
-"WAV is not allowed to be changed.\n"
-"You can copy it to adjust it to your needs."
-msgstr ""
-
-#: encoderconfigimp.cpp:250
-#, fuzzy
-msgid "Configure Encoder"
-msgstr "Onbekende"
-
-#: encoderconfigimp.cpp:384 kaudiocreator.cpp:393
-msgid "Encoder Configuration"
-msgstr ""
-
 #: general.cpp:51
 #, kde-format
 msgid ""
@@ -227,151 +227,151 @@ msgstr "Cd Volg"
 msgid "&Jobs"
 msgstr "Werke"
 
-#: kaudiocreator.cpp:103
+#: kaudiocreator.cpp:101
 msgid "&Eject CD"
 msgstr ""
 
-#: kaudiocreator.cpp:107
+#: kaudiocreator.cpp:105
 msgid "&Configure KAudioCreator..."
 msgstr ""
 
 #. i18n: file: tracks.ui:149
 #. i18n: ectx: property (text), widget (QPushButton, selectAllTracksButton)
-#: kaudiocreator.cpp:111 rc.cpp:481
+#: kaudiocreator.cpp:109 rc.cpp:481
 #, fuzzy
 msgid "Select &All Tracks"
 msgstr "Kies Alle Volg"
 
-#: kaudiocreator.cpp:116
+#: kaudiocreator.cpp:114
 #, fuzzy
 msgid "Deselect &All Tracks"
 msgstr "Kies Alle Volg"
 
-#: kaudiocreator.cpp:123 kaudiocreator.cpp:133
+#: kaudiocreator.cpp:121 kaudiocreator.cpp:131
 #, fuzzy
 msgid "Rip &Selection"
 msgstr "Ligging:"
 
-#: kaudiocreator.cpp:141
+#: kaudiocreator.cpp:139
 msgid "Remove &Completed Jobs"
 msgstr "Verwyder Klaar Werke"
 
-#: kaudiocreator.cpp:145
+#: kaudiocreator.cpp:143
 #, fuzzy
 msgid "&Edit Album..."
 msgstr "Redigeer Album"
 
-#: kaudiocreator.cpp:151
+#: kaudiocreator.cpp:149
 #, fuzzy
 msgid "Encode &Files from disk"
 msgstr "Enkodering Gevaal"
 
-#: kaudiocreator.cpp:155
+#: kaudiocreator.cpp:153
 #, fuzzy
 msgid "&CDDB Lookup"
 msgstr "Aan te bring Cddb Opkyk"
 
-#: kaudiocreator.cpp:176
+#: kaudiocreator.cpp:174
 msgid "Searching"
 msgstr ""
 
-#: kaudiocreator.cpp:199 kaudiocreator.cpp:232
+#: kaudiocreator.cpp:197 kaudiocreator.cpp:230
 msgid "WAV"
 msgstr ""
 
-#: kaudiocreator.cpp:206
+#: kaudiocreator.cpp:204
 msgid "Ogg Default"
 msgstr ""
 
-#: kaudiocreator.cpp:213
+#: kaudiocreator.cpp:211
 msgid "MP3 Lame Standard"
 msgstr ""
 
-#: kaudiocreator.cpp:220
+#: kaudiocreator.cpp:218
 msgid "FLAC Best"
 msgstr ""
 
-#: kaudiocreator.cpp:284
+#: kaudiocreator.cpp:282
 msgid "CD Inserted"
 msgstr ""
 
-#: kaudiocreator.cpp:286
+#: kaudiocreator.cpp:284
 msgid "No Audio CD detected"
 msgstr ""
 
-#: kaudiocreator.cpp:293
+#: kaudiocreator.cpp:291
 #, fuzzy, kde-format
 msgid "Default encoder: %1"
 msgstr "Uitbreiding"
 
-#: kaudiocreator.cpp:298
+#: kaudiocreator.cpp:296
 msgid "Idle."
 msgstr ""
 
-#: kaudiocreator.cpp:307
+#: kaudiocreator.cpp:305
 #, kde-format
 msgid "Ripping (%1 active, %2 queued)"
 msgstr ""
 
-#: kaudiocreator.cpp:311
+#: kaudiocreator.cpp:309
 #, fuzzy, kde-format
 msgid "Encoding (%1 active, %2 queued)"
 msgstr "Enkodering: %1 - %2"
 
-#: kaudiocreator.cpp:329
+#: kaudiocreator.cpp:327
 msgid "There are unfinished jobs in the queue. Would you like to quit anyway?"
 msgstr ""
 "Daar word onafgehandelde werke in die wagtou. Sal jy hou van na verlaat in "
 "elkgeval?"
 
-#: kaudiocreator.cpp:329
+#: kaudiocreator.cpp:327
 #, fuzzy
 msgid "Unfinished Jobs in Queue"
 msgstr "Onafgehandelde Werke in die wagtou"
 
 #. i18n: file: general.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, General)
-#: kaudiocreator.cpp:370 rc.cpp:220
+#: kaudiocreator.cpp:368 rc.cpp:220
 #, fuzzy
 msgid "General"
 msgstr "Kategorie"
 
-#: kaudiocreator.cpp:371
+#: kaudiocreator.cpp:369
 #, fuzzy
 msgid "General Configuration"
 msgstr "Ripper Opstelling"
 
-#: kaudiocreator.cpp:373
+#: kaudiocreator.cpp:371
 msgid "CD"
 msgstr ""
 
-#: kaudiocreator.cpp:374
+#: kaudiocreator.cpp:372
 #, fuzzy
 msgid "CD Configuration"
 msgstr "Cd Opstelling"
 
-#: kaudiocreator.cpp:384
+#: kaudiocreator.cpp:382
 msgid "CDDB"
 msgstr ""
 
-#: kaudiocreator.cpp:384
+#: kaudiocreator.cpp:382
 #, fuzzy
 msgid "CDDB Configuration"
 msgstr "Cd Opstelling"
 
-#: kaudiocreator.cpp:390
+#: kaudiocreator.cpp:388
 #, fuzzy
 msgid "Ripper"
 msgstr "Rip"
 
-#: kaudiocreator.cpp:390
+#: kaudiocreator.cpp:388
 #, fuzzy
 msgid "Ripper Configuration"
 msgstr "Ripper Opstelling"
 
 #. i18n: file: encodefile.ui:75
 #. i18n: ectx: property (text), widget (QTreeWidget, fileList)
-#: kaudiocreator.cpp:393 rc.cpp:33
+#: kaudiocreator.cpp:391 rc.cpp:33
 msgid "Encoder"
 msgstr ""
 
@@ -836,7 +836,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkOutput)
 #. i18n: file: kaudiocreator_encoders.kcfg:32
 #. i18n: ectx: label, entry (checkOutput), group ($(encoder))
-#: rc.cpp:211 rc.cpp:430
+#: rc.cpp:211 rc.cpp:373
 msgid "Check output files"
 msgstr ""
 
@@ -867,7 +867,7 @@ msgstr "Automaties rip elke liedjie op na 'n nuwe Cd"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_promptIfIncompleteInfo)
 #. i18n: file: kaudiocreator.kcfg:22
 #. i18n: ectx: label, entry (promptIfIncompleteInfo), group (CD)
-#: rc.cpp:226 rc.cpp:369
+#: rc.cpp:226 rc.cpp:385
 #, fuzzy
 msgid "Prompt if information is not complete"
 msgstr "Album Informasie Onvolledig"
@@ -1076,146 +1076,146 @@ msgstr "Verwyder Alle Werke"
 msgid "Remove Selected Jobs"
 msgstr "Verwyder Gekose Werke"
 
-#. i18n: file: kaudiocreator.kcfg:10
-#. i18n: ectx: label, entry (performCDDBauto), group (CD)
-#: rc.cpp:360
-#, fuzzy
-msgid "Perform automatic CDDB lookups."
-msgstr "Aan te bring Cddb Opkyk"
-
-#. i18n: file: kaudiocreator.kcfg:14
-#. i18n: ectx: label, entry (autoRip), group (CD)
-#: rc.cpp:363
-#, fuzzy
-msgid "Automatically rip all tracks upon a successful CDDB retrieval"
-msgstr "Automaties rip elke liedjie op na 'n nuwe Cd"
-
-#. i18n: file: kaudiocreator.kcfg:18
-#. i18n: ectx: label, entry (lastUsedDevice), group (CD)
-#: rc.cpp:366
-#, fuzzy
-msgid "Last used CD device"
-msgstr "Cddb Bediener"
-
-#. i18n: file: kaudiocreator.kcfg:28
-#. i18n: ectx: label, entry (removeCompletedJobs), group (General)
-#: rc.cpp:372
-#, fuzzy
-msgid "Automatically remove jobs when finished"
-msgstr "Automaties rip elke liedjie op na 'n nuwe Cd"
-
-#. i18n: file: kaudiocreator.kcfg:32
-#. i18n: ectx: label, entry (replaceInput), group (General)
-#: rc.cpp:375
-msgid "Regexp to match file names with"
-msgstr ""
-
-#. i18n: file: kaudiocreator.kcfg:35
-#. i18n: ectx: label, entry (replaceOutput), group (General)
-#: rc.cpp:378
-msgid "String used to replace the parts that match the selection regexp"
-msgstr ""
-
-#. i18n: file: kaudiocreator.kcfg:61
-#. i18n: ectx: label, entry (defaultEncoder), group (Encoder)
-#: rc.cpp:381
-#, fuzzy
-msgid "Current default encoder"
-msgstr "Asseblief kies 'n navolg."
-
-#. i18n: file: kaudiocreator.kcfg:65
-#. i18n: ectx: label, entry (inputTypesList), group (Encoder)
-#: rc.cpp:384
-msgid "List of available input types"
-msgstr ""
-
-#. i18n: file: kaudiocreator.kcfg:68
-#. i18n: ectx: label, entry (numberOfCpus), group (Encoder)
-#: rc.cpp:387
-#, fuzzy
-msgid "Number of files to encode at a time"
-msgstr "Nommer van wav lêers na enkodeer na 'n tyd:"
-
-#. i18n: file: kaudiocreator.kcfg:72
-#. i18n: ectx: label, entry (fileFormat), group (Encoder)
-#: rc.cpp:390
-msgid "Location pattern for encoded files"
-msgstr ""
-
-#. i18n: file: kaudiocreator.kcfg:76
-#. i18n: ectx: label, entry (NiceLevel), group (Encoder)
-#: rc.cpp:393
-msgid "Encoder priority"
-msgstr ""
-
-#. i18n: file: kaudiocreator.kcfg:82
-#. i18n: ectx: label, entry (FullDecoderDebug), group (Encoder)
-#: rc.cpp:396
-msgid "Enable full decoder debugging"
-msgstr ""
-
-#. i18n: file: kaudiocreator.kcfg:88
-#. i18n: ectx: label, entry (maxWavFiles), group (Ripper)
-#: rc.cpp:399
-#, fuzzy
-msgid "Number of tracks to rip at a time"
-msgstr "Nommer van volg na rip na 'n tyd:"
-
-#. i18n: file: kaudiocreator.kcfg:92
-#. i18n: ectx: label, entry (beepAfterRip), group (Ripper)
-#: rc.cpp:402
-#, fuzzy
-msgid "Beep after rip"
-msgstr "Biep na elke rip is klaar"
-
-#. i18n: file: kaudiocreator.kcfg:96
-#. i18n: ectx: label, entry (autoEjectAfterRip), group (Ripper)
-#: rc.cpp:405
-msgid "Eject CD after last track is ripped"
-msgstr ""
-
-#. i18n: file: kaudiocreator.kcfg:100
-#. i18n: ectx: label, entry (autoEjectDelay), group (Ripper)
-#: rc.cpp:408
-#, fuzzy
-msgid "Auto-eject delay"
-msgstr "Auto-eject vertraging:"
-
-#. i18n: file: kaudiocreator.kcfg:104
-#. i18n: ectx: label, entry (enableTempDir), group (Ripper)
-#: rc.cpp:411
-msgid "Specify temporary directory"
-msgstr ""
-
-#. i18n: file: kaudiocreator.kcfg:108
-#. i18n: ectx: label, entry (tempDir), group (Ripper)
-#: rc.cpp:414
-msgid "Location of temporary directory to use"
-msgstr ""
-
 #. i18n: file: kaudiocreator_encoders.kcfg:12
 #. i18n: ectx: label, entry (encoderName), group ($(encoder))
-#: rc.cpp:417
+#: rc.cpp:360
 msgid "Name of the encoder"
 msgstr ""
 
 #. i18n: file: kaudiocreator_encoders.kcfg:16
 #. i18n: ectx: label, entry (commandLine), group ($(encoder))
-#: rc.cpp:420
+#: rc.cpp:363
 msgid "Command line to invoke encoder"
 msgstr ""
 
 #. i18n: file: kaudiocreator_encoders.kcfg:20
 #. i18n: ectx: label, entry (extension), group ($(encoder))
-#: rc.cpp:423
+#: rc.cpp:366
 #, fuzzy
 msgid "File extension"
 msgstr "Uitbreiding"
 
 #. i18n: file: kaudiocreator_encoders.kcfg:24
 #. i18n: ectx: label, entry (inputTypes), group ($(encoder))
-#: rc.cpp:426
+#: rc.cpp:369
 msgid "Input Types"
+msgstr ""
+
+#. i18n: file: kaudiocreator.kcfg:10
+#. i18n: ectx: label, entry (performCDDBauto), group (CD)
+#: rc.cpp:376
+#, fuzzy
+msgid "Perform automatic CDDB lookups."
+msgstr "Aan te bring Cddb Opkyk"
+
+#. i18n: file: kaudiocreator.kcfg:14
+#. i18n: ectx: label, entry (autoRip), group (CD)
+#: rc.cpp:379
+#, fuzzy
+msgid "Automatically rip all tracks upon a successful CDDB retrieval"
+msgstr "Automaties rip elke liedjie op na 'n nuwe Cd"
+
+#. i18n: file: kaudiocreator.kcfg:18
+#. i18n: ectx: label, entry (lastUsedDevice), group (CD)
+#: rc.cpp:382
+#, fuzzy
+msgid "Last used CD device"
+msgstr "Cddb Bediener"
+
+#. i18n: file: kaudiocreator.kcfg:28
+#. i18n: ectx: label, entry (removeCompletedJobs), group (General)
+#: rc.cpp:388
+#, fuzzy
+msgid "Automatically remove jobs when finished"
+msgstr "Automaties rip elke liedjie op na 'n nuwe Cd"
+
+#. i18n: file: kaudiocreator.kcfg:32
+#. i18n: ectx: label, entry (replaceInput), group (General)
+#: rc.cpp:391
+msgid "Regexp to match file names with"
+msgstr ""
+
+#. i18n: file: kaudiocreator.kcfg:35
+#. i18n: ectx: label, entry (replaceOutput), group (General)
+#: rc.cpp:394
+msgid "String used to replace the parts that match the selection regexp"
+msgstr ""
+
+#. i18n: file: kaudiocreator.kcfg:61
+#. i18n: ectx: label, entry (defaultEncoder), group (Encoder)
+#: rc.cpp:397
+#, fuzzy
+msgid "Current default encoder"
+msgstr "Asseblief kies 'n navolg."
+
+#. i18n: file: kaudiocreator.kcfg:65
+#. i18n: ectx: label, entry (inputTypesList), group (Encoder)
+#: rc.cpp:400
+msgid "List of available input types"
+msgstr ""
+
+#. i18n: file: kaudiocreator.kcfg:68
+#. i18n: ectx: label, entry (numberOfCpus), group (Encoder)
+#: rc.cpp:403
+#, fuzzy
+msgid "Number of files to encode at a time"
+msgstr "Nommer van wav lêers na enkodeer na 'n tyd:"
+
+#. i18n: file: kaudiocreator.kcfg:72
+#. i18n: ectx: label, entry (fileFormat), group (Encoder)
+#: rc.cpp:406
+msgid "Location pattern for encoded files"
+msgstr ""
+
+#. i18n: file: kaudiocreator.kcfg:76
+#. i18n: ectx: label, entry (NiceLevel), group (Encoder)
+#: rc.cpp:409
+msgid "Encoder priority"
+msgstr ""
+
+#. i18n: file: kaudiocreator.kcfg:82
+#. i18n: ectx: label, entry (FullDecoderDebug), group (Encoder)
+#: rc.cpp:412
+msgid "Enable full decoder debugging"
+msgstr ""
+
+#. i18n: file: kaudiocreator.kcfg:88
+#. i18n: ectx: label, entry (maxWavFiles), group (Ripper)
+#: rc.cpp:415
+#, fuzzy
+msgid "Number of tracks to rip at a time"
+msgstr "Nommer van volg na rip na 'n tyd:"
+
+#. i18n: file: kaudiocreator.kcfg:92
+#. i18n: ectx: label, entry (beepAfterRip), group (Ripper)
+#: rc.cpp:418
+#, fuzzy
+msgid "Beep after rip"
+msgstr "Biep na elke rip is klaar"
+
+#. i18n: file: kaudiocreator.kcfg:96
+#. i18n: ectx: label, entry (autoEjectAfterRip), group (Ripper)
+#: rc.cpp:421
+msgid "Eject CD after last track is ripped"
+msgstr ""
+
+#. i18n: file: kaudiocreator.kcfg:100
+#. i18n: ectx: label, entry (autoEjectDelay), group (Ripper)
+#: rc.cpp:424
+#, fuzzy
+msgid "Auto-eject delay"
+msgstr "Auto-eject vertraging:"
+
+#. i18n: file: kaudiocreator.kcfg:104
+#. i18n: ectx: label, entry (enableTempDir), group (Ripper)
+#: rc.cpp:427
+msgid "Specify temporary directory"
+msgstr ""
+
+#. i18n: file: kaudiocreator.kcfg:108
+#. i18n: ectx: label, entry (tempDir), group (Ripper)
+#: rc.cpp:430
+msgid "Location of temporary directory to use"
 msgstr ""
 
 #. i18n: file: kaudiocreatorui.rc:15
