@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-07-15 23:34+0000\n"
+"POT-Creation-Date: 2009-05-10 23:18+0000\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -591,11 +591,6 @@ msgstr "Comment=Nuwe Kontoer dokument:"
 msgid "Name=KOffice Chart Component"
 msgstr "Comment=Koffice Komponent"
 
-#: kchart/templates/.directory:2
-#, fuzzy
-msgid "Name=Charts"
-msgstr "Name=Kchart"
-
 #: kchart/templates/BarChart.desktop:4
 #, fuzzy
 msgid "Name=Bar Chart"
@@ -604,6 +599,11 @@ msgstr "Name=Kchart"
 #: kchart/templates/BarChart.desktop:52
 msgid "Comment=An example of a bar chart"
 msgstr ""
+
+#: kchart/templates/.directory:2
+#, fuzzy
+msgid "Name=Charts"
+msgstr "Name=Kchart"
 
 #: kchart/templates/Empty.desktop:4
 #: kspread/templates/General/Worksheet.desktop:4
@@ -635,9 +635,9 @@ msgstr "Comment=Koffice Filter"
 msgid "Comment=Shortcut to Kexi Project on Database Server"
 msgstr "Comment=Koffice Filter"
 
-#: kexi/data/x-kexiproject-sqlite.desktop:7
 #: kexi/data/x-kexiproject-sqlite2.desktop:7
 #: kexi/data/x-kexiproject-sqlite3.desktop:7
+#: kexi/data/x-kexiproject-sqlite.desktop:7
 #, fuzzy
 msgid "Comment=Kexi Database File-Based Project"
 msgstr "Comment=Koffice Filter"
@@ -676,20 +676,6 @@ msgstr "Name=Kugar Ontwerper"
 msgid "Comment=Widget Factory Base"
 msgstr ""
 
-#: kexi/kexi.desktop:2
-#, fuzzy
-msgid "Name=Kexi"
-msgstr "Name=Krita"
-
-#: kexi/kexi.desktop:12
-#, fuzzy
-msgid "GenericName=Database Creator"
-msgstr "GenericName=Tekeninge"
-
-#: kexi/kexi.desktop:62
-msgid "Comment=Develop desktop database applications"
-msgstr ""
-
 #: kexi/kexidb/drivers/mySQL/kexidb_mysqldriver.desktop:2
 #: kexi/migration/mysql/keximigrate_mysql.desktop:2
 #, fuzzy
@@ -712,25 +698,39 @@ msgstr "Comment=Koffice Filter"
 msgid "Name=PostgreSQL"
 msgstr "Name=Eenvoudig"
 
-#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:2
-#, fuzzy
-msgid "Name=SQLite3"
-msgstr "Name=Titel"
-
-#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:4
-#: kexi/kexidb/drivers/sqlite2/kexidb_sqlite2driver.desktop:4
-msgid "Comment=SQLite is default Kexi embedded SQL engine"
-msgstr ""
-
 #: kexi/kexidb/drivers/sqlite2/kexidb_sqlite2driver.desktop:2
 #, fuzzy
 msgid "Name=SQLite2"
+msgstr "Name=Titel"
+
+#: kexi/kexidb/drivers/sqlite2/kexidb_sqlite2driver.desktop:4
+#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:4
+msgid "Comment=SQLite is default Kexi embedded SQL engine"
+msgstr ""
+
+#: kexi/kexidb/drivers/sqlite/kexidb_sqlite3driver.desktop:2
+#, fuzzy
+msgid "Name=SQLite3"
 msgstr "Name=Titel"
 
 #: kexi/kexidb/kexidb_driver.desktop:4
 #, fuzzy
 msgid "Comment=Kexi SQL-Driver plugin"
 msgstr "Comment=Koffice Inplak"
+
+#: kexi/kexi.desktop:2
+#, fuzzy
+msgid "Name=Kexi"
+msgstr "Name=Krita"
+
+#: kexi/kexi.desktop:12
+#, fuzzy
+msgid "GenericName=Database Creator"
+msgstr "GenericName=Tekeninge"
+
+#: kexi/kexi.desktop:62
+msgid "Comment=Develop desktop database applications"
+msgstr ""
 
 #: kexi/migration/keximigration_driver.desktop:4
 #, fuzzy
@@ -949,21 +949,17 @@ msgstr "Name=Teks Dokument"
 msgid "Name=List of Tasks"
 msgstr ""
 
-#: kplato/templates/Simple/.directory:2
-msgid "Name=Simple"
-msgstr "Name=Eenvoudige"
-
 #: kplato/templates/Simple/8HourDay-40HourWeek.desktop:4
 msgid "Name=8 hour day, 40 hour week"
 msgstr ""
 
+#: kplato/templates/Simple/.directory:2
+msgid "Name=Simple"
+msgstr "Name=Eenvoudige"
+
 #: kplato/templates/Simple/Plain.desktop:4
 msgid "Name=Plain"
 msgstr "Name=Eenvoudig"
-
-#: kpresenter/autoforms/Arrows/.directory:2
-msgid "Name=Arrows"
-msgstr "Name=Pyltjies"
 
 #: kpresenter/autoforms/Arrows/ArrowDown.desktop:4
 #, fuzzy
@@ -1005,13 +1001,9 @@ msgstr "Name=Pyl regterkant/begin"
 msgid "Name=Arrow Up"
 msgstr "Name=Pyl begin"
 
-#: kpresenter/autoforms/Connections/.directory:2
-msgid "Name=Connections"
-msgstr "Name=Koppelinge"
-
-#: kpresenter/autoforms/Connections/Connection1.desktop:4
-msgid "Name=Connection 01"
-msgstr "Name=Verbinding 01"
+#: kpresenter/autoforms/Arrows/.directory:2
+msgid "Name=Arrows"
+msgstr "Name=Pyltjies"
 
 #: kpresenter/autoforms/Connections/Connection10.desktop:4
 msgid "Name=Connection 10"
@@ -1024,6 +1016,10 @@ msgstr "Name=Verbinding 11"
 #: kpresenter/autoforms/Connections/Connection12.desktop:4
 msgid "Name=Connection 12"
 msgstr "Name=Verbinding 12"
+
+#: kpresenter/autoforms/Connections/Connection1.desktop:4
+msgid "Name=Connection 01"
+msgstr "Name=Verbinding 01"
 
 #: kpresenter/autoforms/Connections/Connection2.desktop:4
 msgid "Name=Connection 02"
@@ -1057,6 +1053,10 @@ msgstr "Name=Verbinding 08"
 msgid "Name=Connection 09"
 msgstr "Name=Verbinding 09"
 
+#: kpresenter/autoforms/Connections/.directory:2
+msgid "Name=Connections"
+msgstr "Name=Koppelinge"
+
 #: kpresenter/kpresenter.desktop:2 kpresenter/kpresenterpart.desktop:2
 msgid "Name=KPresenter"
 msgstr "Name=Kpresenter"
@@ -1070,115 +1070,24 @@ msgstr "GenericName=Skuif Voorleggings"
 msgid "Name=A4"
 msgstr "Name=A4"
 
-#: kpresenter/templates/Screen/.directory:2
-msgid "Name=Screen"
-msgstr "Name=Skerm"
-
-#: kpresenter/templates/Screenpresentations/.directory:2
+#: kpresenter/templates/common_desktop/emptyLandscape.desktop:3
+#: krita/data/templates/.directory:2
 #, fuzzy
-msgid "Name=Screen Presentations"
-msgstr "Name=Skerm aanbiedinge"
+msgid "Name=Empty"
+msgstr "Name=leeg"
 
-#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:3
-msgid "Name=Blue Breeze Double"
-msgstr "Name=Blou Brisie Dubbel"
-
-#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:50
-msgid "Comment=A peaceful presentation with a title and two text columns"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:3
-msgid "Name=Blue Breeze Picture"
-msgstr "Name=Blou Brisie Prent"
-
-#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:52
-msgid "Comment=A peaceful presentation with a title and picture area"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:3
-msgid "Name=Blue Breeze Single"
-msgstr "Name=Blou Brisie Enkel"
-
-#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:50
-msgid "Comment=A peaceful presentation with a title and single large text area"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:3
-msgid "Name=Copper Plain"
-msgstr "Name=Koper Eenvoudig"
-
-#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:48
+#: kpresenter/templates/common_desktop/emptyLandscape.desktop:57
 #, fuzzy
-msgid "Comment=An elegant, uplifting presentation"
+msgid "Comment=Empty presentation"
 msgstr "Comment=Koffice Komponent"
 
-#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:4
-msgid "Name=Gradient Blue-Red"
-msgstr "Name=Gradiënt Blou-rooi"
-
-#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:63
-msgid "Comment=A presentation themed for the evening sky"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:3
-msgid "Name=Snowy Mountains"
-msgstr "Name=Sneeu bedekte Berge"
-
-#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:62
+#: kpresenter/templates/common_desktop/emptyPortrait.desktop:3
 #, fuzzy
-msgid "Comment=A cool and smooth presentation"
-msgstr "Comment=Koffice Komponent"
+msgid "Name=Empty Portrait"
+msgstr "Name=leeg Portret"
 
-#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:3
-msgid "Name=Totally New Product"
-msgstr "Name=Totaal Nuwe Produk"
-
-#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:64
-#, fuzzy
-msgid "Comment=An informal, green-swirl presentation"
-msgstr "Comment=Koffice Komponent"
-
-#: kpresenter/templates/Screenpresentations/classroom.desktop:3
-#, fuzzy
-msgid "Name=Classroom"
-msgstr "Name=Kitskuns"
-
-#: kpresenter/templates/Screenpresentations/classroom.desktop:41
-msgid "Comment=Classroom by dannya"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/kde.desktop:4
-msgid "Name=KDE"
-msgstr "Name=Kde"
-
-#: kpresenter/templates/Screenpresentations/kde.desktop:8
-msgid "Comment=A presentation with original KDE theming"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/kde2.desktop:4
-msgid "Name=KDE 2"
-msgstr "Name=Kde 2"
-
-#: kpresenter/templates/Screenpresentations/kde2.desktop:8
-msgid "Comment=A presentation with KDE 2 theming"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/kde3.desktop:4
-#, fuzzy
-msgid "Name=KDE 3"
-msgstr "Name=Kde 2"
-
-#: kpresenter/templates/Screenpresentations/kde3.desktop:6
-msgid "Comment=A presentation with KDE 3 theming"
-msgstr ""
-
-#: kpresenter/templates/Screenpresentations/savannah.desktop:3
-#, fuzzy
-msgid "Name=Savannah"
-msgstr "Name=Eenvoudig"
-
-#: kpresenter/templates/Screenpresentations/savannah.desktop:28
-msgid "Comment=Savannah by dannya"
+#: kpresenter/templates/common_desktop/emptyPortrait.desktop:53
+msgid "Comment=Empty presentation (portrait-oriented)"
 msgstr ""
 
 #: kpresenter/templates/common_desktop/OneColumnLandscape.desktop:3
@@ -1233,26 +1142,6 @@ msgid ""
 "Comment=Presentation with a page title and two text columns (portrait-oriented)"
 msgstr ""
 
-#: kpresenter/templates/common_desktop/emptyLandscape.desktop:3
-#: krita/data/templates/.directory:2
-#, fuzzy
-msgid "Name=Empty"
-msgstr "Name=leeg"
-
-#: kpresenter/templates/common_desktop/emptyLandscape.desktop:57
-#, fuzzy
-msgid "Comment=Empty presentation"
-msgstr "Comment=Koffice Komponent"
-
-#: kpresenter/templates/common_desktop/emptyPortrait.desktop:3
-#, fuzzy
-msgid "Name=Empty Portrait"
-msgstr "Name=leeg Portret"
-
-#: kpresenter/templates/common_desktop/emptyPortrait.desktop:53
-msgid "Comment=Empty presentation (portrait-oriented)"
-msgstr ""
-
 #: kpresenter/templates/legal/.directory:2
 #: kugar/kudesigner/templates/General/Legal.desktop:4
 msgid "Name=Legal"
@@ -1261,6 +1150,117 @@ msgstr "Name=Wettig"
 #: kpresenter/templates/letter/.directory:2
 msgid "Name=Letter"
 msgstr "Name=Brief"
+
+#: kpresenter/templates/Screen/.directory:2
+msgid "Name=Screen"
+msgstr "Name=Skerm"
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:3
+msgid "Name=Blue Breeze Double"
+msgstr "Name=Blou Brisie Dubbel"
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeDouble.desktop:50
+msgid "Comment=A peaceful presentation with a title and two text columns"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:3
+msgid "Name=Blue Breeze Picture"
+msgstr "Name=Blou Brisie Prent"
+
+#: kpresenter/templates/Screenpresentations/BlueBreezePicture.desktop:52
+msgid "Comment=A peaceful presentation with a title and picture area"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:3
+msgid "Name=Blue Breeze Single"
+msgstr "Name=Blou Brisie Enkel"
+
+#: kpresenter/templates/Screenpresentations/BlueBreezeSingle.desktop:50
+msgid "Comment=A peaceful presentation with a title and single large text area"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/classroom.desktop:3
+#, fuzzy
+msgid "Name=Classroom"
+msgstr "Name=Kitskuns"
+
+#: kpresenter/templates/Screenpresentations/classroom.desktop:41
+msgid "Comment=Classroom by dannya"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:3
+msgid "Name=Copper Plain"
+msgstr "Name=Koper Eenvoudig"
+
+#: kpresenter/templates/Screenpresentations/CopperPlain.desktop:48
+#, fuzzy
+msgid "Comment=An elegant, uplifting presentation"
+msgstr "Comment=Koffice Komponent"
+
+#: kpresenter/templates/Screenpresentations/.directory:2
+#, fuzzy
+msgid "Name=Screen Presentations"
+msgstr "Name=Skerm aanbiedinge"
+
+#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:4
+msgid "Name=Gradient Blue-Red"
+msgstr "Name=Gradiënt Blou-rooi"
+
+#: kpresenter/templates/Screenpresentations/GradientBlueRed.desktop:63
+msgid "Comment=A presentation themed for the evening sky"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/kde2.desktop:4
+msgid "Name=KDE 2"
+msgstr "Name=Kde 2"
+
+#: kpresenter/templates/Screenpresentations/kde2.desktop:8
+msgid "Comment=A presentation with KDE 2 theming"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/kde3.desktop:4
+#, fuzzy
+msgid "Name=KDE 3"
+msgstr "Name=Kde 2"
+
+#: kpresenter/templates/Screenpresentations/kde3.desktop:6
+msgid "Comment=A presentation with KDE 3 theming"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/kde.desktop:4
+msgid "Name=KDE"
+msgstr "Name=Kde"
+
+#: kpresenter/templates/Screenpresentations/kde.desktop:8
+msgid "Comment=A presentation with original KDE theming"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/savannah.desktop:3
+#, fuzzy
+msgid "Name=Savannah"
+msgstr "Name=Eenvoudig"
+
+#: kpresenter/templates/Screenpresentations/savannah.desktop:28
+msgid "Comment=Savannah by dannya"
+msgstr ""
+
+#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:3
+msgid "Name=Snowy Mountains"
+msgstr "Name=Sneeu bedekte Berge"
+
+#: kpresenter/templates/Screenpresentations/SnowyMountains.desktop:62
+#, fuzzy
+msgid "Comment=A cool and smooth presentation"
+msgstr "Comment=Koffice Komponent"
+
+#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:3
+msgid "Name=Totally New Product"
+msgstr "Name=Totaal Nuwe Produk"
+
+#: kpresenter/templates/Screenpresentations/TotallyNewProduct.desktop:64
+#, fuzzy
+msgid "Comment=An informal, green-swirl presentation"
+msgstr "Comment=Koffice Komponent"
 
 #: krita/colorspaces/cmyk_u16/krita_cmyk_u16_plugin.desktop:2
 msgid "Name=CMYK Color Model (16-bit integer)"
@@ -1489,6 +1489,11 @@ msgstr "Name=Sakrekenaar inplak vir Kspread"
 msgid "Comment=Tool plugin for Krita"
 msgstr "Name=Sakrekenaar inplak vir Kspread"
 
+#: krita/kritacolor/krita_colorspace.desktop:4
+msgid ""
+"Comment=A module implementing a complete colorspace for use with libkritacolor"
+msgstr ""
+
 #: krita/krita.desktop:9
 #, fuzzy
 msgid "Comment=Edit and paint images"
@@ -1498,11 +1503,6 @@ msgstr "Comment=Koffice Filter"
 #, fuzzy
 msgid "GenericName=Painting and Image Editing"
 msgstr "GenericName=Beeld Manipulasie Program"
-
-#: krita/kritacolor/krita_colorspace.desktop:4
-msgid ""
-"Comment=A module implementing a complete colorspace for use with libkritacolor"
-msgstr ""
 
 #: krita/kritapart.desktop:2
 #, fuzzy
@@ -1800,15 +1800,15 @@ msgstr "Name=Koper Eenvoudig"
 msgid "Name=Filters Gallery"
 msgstr "Name=Thesaurus Program"
 
-#: krita/plugins/viewplugins/histogram/kritahistogram.desktop:2
-#, fuzzy
-msgid "Name=Histogram Plugin"
-msgstr "Name=Eenvoudig"
-
 #: krita/plugins/viewplugins/histogram_docker/kritahistogramdocker.desktop:2
 #, fuzzy
 msgid "Name=Histogram Docker"
 msgstr "Name=Kugar Ontwerper"
+
+#: krita/plugins/viewplugins/histogram/kritahistogram.desktop:2
+#, fuzzy
+msgid "Name=Histogram Plugin"
+msgstr "Name=Eenvoudig"
 
 #: krita/plugins/viewplugins/history_docker/kritahistorydocker.desktop:2
 #, fuzzy
@@ -1893,14 +1893,14 @@ msgstr "GenericName=Spreiblad"
 msgid "Name=KOffice Spreadsheet Component"
 msgstr "Comment=Koffice Komponent"
 
-#: kspread/templates/Business/.directory:2
-msgid "Name=Business"
-msgstr "Name=Besigheid"
-
 #: kspread/templates/Business/BalanceSheet.desktop:4
 #, fuzzy
 msgid "Name=Balance Sheet"
 msgstr "Name=Leë Werkvel"
+
+#: kspread/templates/Business/.directory:2
+msgid "Name=Business"
+msgstr "Name=Besigheid"
 
 #: kspread/templates/Business/ExpenseReport.desktop:4
 msgid "Name=Expense Report"
@@ -1929,11 +1929,6 @@ msgstr "Name=Algemeen"
 msgid "Name=Student ID Card"
 msgstr "Name=Student Id Kaart"
 
-#: kspread/templates/HomeFamily/.directory:2
-#, fuzzy
-msgid "Name=Home and Family"
-msgstr "Name=Huis en Familie"
-
 #: kspread/templates/HomeFamily/BMI.desktop:4
 msgid "Name=BMI Calculator"
 msgstr ""
@@ -1946,6 +1941,11 @@ msgstr ""
 #, fuzzy
 msgid "Name=Credit Card Tracker"
 msgstr "Name=Wettig"
+
+#: kspread/templates/HomeFamily/.directory:2
+#, fuzzy
+msgid "Name=Home and Family"
+msgstr "Name=Huis en Familie"
 
 #: kspread/templates/HomeFamily/MenuPlan.desktop:4
 #, fuzzy
@@ -2020,14 +2020,14 @@ msgstr "Name=A4"
 msgid "Name=B0"
 msgstr "Name=A4"
 
-#: kugar/kudesigner/templates/General/B1.desktop:4
-#, fuzzy
-msgid "Name=B1"
-msgstr "Name=A4"
-
 #: kugar/kudesigner/templates/General/B10.desktop:4
 #, fuzzy
 msgid "Name=B10"
+msgstr "Name=A4"
+
+#: kugar/kudesigner/templates/General/B1.desktop:4
+#, fuzzy
+msgid "Name=B1"
 msgstr "Name=A4"
 
 #: kugar/kudesigner/templates/General/B2.desktop:4
@@ -2190,15 +2190,15 @@ msgstr ""
 msgid "Name=Qt-SQL Source (power user)"
 msgstr "Name=Qt-SQL bron (elektrisiteit gebruiker)"
 
-#: kword/templates/CardsAndLabels/.directory:2
-#, fuzzy
-msgid "Name=Cards and Labels"
-msgstr "Name=Wettig"
-
 #: kword/templates/CardsAndLabels/BusinessCards10.desktop:3
 #, fuzzy
 msgid "Name=Business Cards 10"
 msgstr "Name=Besigheid"
+
+#: kword/templates/CardsAndLabels/.directory:2
+#, fuzzy
+msgid "Name=Cards and Labels"
+msgstr "Name=Wettig"
 
 #: kword/templates/CardsAndLabels/LabelsL16.desktop:3
 #, fuzzy
@@ -2218,8 +2218,8 @@ msgstr ""
 msgid "Name=Envelope DL"
 msgstr ""
 
-#: kword/templates/Wordprocessing/.directory:2
 #: kword/templates/Wordprocessing/A4.desktop:4
+#: kword/templates/Wordprocessing/.directory:2
 #, fuzzy
 msgid "Name=Blank Document"
 msgstr "Name=Teks Dokument"
@@ -2313,14 +2313,14 @@ msgstr "Comment=Koffice Komponent"
 msgid "Comment=OASIS OpenDocument Formula"
 msgstr "Comment=Koffice Komponent"
 
-#: mimetypes/kde33/vnd.oasis.opendocument.graphics-template.desktop:6
-#, fuzzy
-msgid "Comment=OASIS OpenDocument Graphics Template"
-msgstr "Comment=Koffice Komponent"
-
 #: mimetypes/kde33/vnd.oasis.opendocument.graphics.desktop:6
 #, fuzzy
 msgid "Comment=OASIS OpenDocument Graphics"
+msgstr "Comment=Koffice Komponent"
+
+#: mimetypes/kde33/vnd.oasis.opendocument.graphics-template.desktop:6
+#, fuzzy
+msgid "Comment=OASIS OpenDocument Graphics Template"
 msgstr "Comment=Koffice Komponent"
 
 #: mimetypes/kde33/vnd.oasis.opendocument.image.desktop:6
@@ -2328,19 +2328,14 @@ msgstr "Comment=Koffice Komponent"
 msgid "Comment=OASIS OpenDocument Image"
 msgstr "Comment=Koffice Komponent"
 
-#: mimetypes/kde33/vnd.oasis.opendocument.presentation-template.desktop:6
-#, fuzzy
-msgid "Comment=OASIS OpenDocument Presentation Template"
-msgstr "Comment=Koffice Komponent"
-
 #: mimetypes/kde33/vnd.oasis.opendocument.presentation.desktop:6
 #, fuzzy
 msgid "Comment=OASIS OpenDocument Presentation"
 msgstr "Comment=Koffice Komponent"
 
-#: mimetypes/kde33/vnd.oasis.opendocument.spreadsheet-template.desktop:6
+#: mimetypes/kde33/vnd.oasis.opendocument.presentation-template.desktop:6
 #, fuzzy
-msgid "Comment=OASIS OpenDocument SpreadSheet Template"
+msgid "Comment=OASIS OpenDocument Presentation Template"
 msgstr "Comment=Koffice Komponent"
 
 #: mimetypes/kde33/vnd.oasis.opendocument.spreadsheet.desktop:6
@@ -2348,14 +2343,19 @@ msgstr "Comment=Koffice Komponent"
 msgid "Comment=OASIS OpenDocument SpreadSheet"
 msgstr "Comment=Koffice Komponent"
 
-#: mimetypes/kde33/vnd.oasis.opendocument.text-template.desktop:6
+#: mimetypes/kde33/vnd.oasis.opendocument.spreadsheet-template.desktop:6
 #, fuzzy
-msgid "Comment=OASIS OpenDocument Text Template"
+msgid "Comment=OASIS OpenDocument SpreadSheet Template"
 msgstr "Comment=Koffice Komponent"
 
 #: mimetypes/kde33/vnd.oasis.opendocument.text.desktop:6
 #, fuzzy
 msgid "Comment=OASIS OpenDocument Text"
+msgstr "Comment=Koffice Komponent"
+
+#: mimetypes/kde33/vnd.oasis.opendocument.text-template.desktop:6
+#, fuzzy
+msgid "Comment=OASIS OpenDocument Text Template"
 msgstr "Comment=Koffice Komponent"
 
 #: mimetypes/kde351/x-raw.desktop:6
