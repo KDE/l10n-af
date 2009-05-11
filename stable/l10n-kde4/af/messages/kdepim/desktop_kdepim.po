@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdepim stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-23 04:59+0000\n"
+"POT-Creation-Date: 2009-05-11 05:13+0000\n"
 "PO-Revision-Date: 2007-01-08 13:25+0200\n"
 "Last-Translator: Frikkie Thirion <kde.afrikaans@gmail.com>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -302,6 +302,17 @@ msgctxt "Comment"
 msgid "Makes it possible to work with an OpenChange / Exchange server"
 msgstr ""
 
+#: akonadi/resources/vcarddir/vcarddirresource.desktop:2
+#, fuzzy
+msgctxt "Name"
+msgid "VCard Directory"
+msgstr "Kalender in plaaslike gids"
+
+#: akonadi/resources/vcarddir/vcarddirresource.desktop:38
+msgctxt "Comment"
+msgid "Loads data from a directory with VCards"
+msgstr ""
+
 #: akonadi/resources/vcard/vcardresource.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -313,17 +324,6 @@ msgstr "Kaard Aansig"
 #: akonadi/resources/vcard/vcardresource.desktop:38
 msgctxt "Comment"
 msgid "Loads data from a VCard file"
-msgstr ""
-
-#: akonadi/resources/vcarddir/vcarddirresource.desktop:2
-#, fuzzy
-msgctxt "Name"
-msgid "VCard Directory"
-msgstr "Kalender in plaaslike gids"
-
-#: akonadi/resources/vcarddir/vcarddirresource.desktop:38
-msgctxt "Comment"
-msgid "Loads data from a directory with VCards"
 msgstr ""
 
 #: akonadi/tray/akonaditray.desktop:6
@@ -1055,16 +1055,6 @@ msgctxt "Name"
 msgid "Archive & Encrypt Folder"
 msgstr ""
 
-#: kmail/KMail.desktop:2
-msgctxt "Name"
-msgid "KMail"
-msgstr "KMail"
-
-#: kmail/KMail.desktop:16
-msgctxt "GenericName"
-msgid "Mail Client"
-msgstr "E-pos kliënt"
-
 #: kmail/application_octetstream.desktop:2
 #: plugins/kmail/bodypartformatter/text_calendar.desktop:2
 #: plugins/kmail/bodypartformatter/text_vcard.desktop:2
@@ -1085,21 +1075,6 @@ msgstr ""
 msgctxt "Comment"
 msgid "Mail program with a DBUS interface"
 msgstr "E-pos program met 'n DCOP koppelvlak"
-
-#: kmail/kmail.notifyrc:3
-msgctxt "Comment"
-msgid "KMail"
-msgstr "KMail"
-
-#: kmail/kmail.notifyrc:14
-msgctxt "Name"
-msgid "New Mail Arrived"
-msgstr "Nuwe pos het gearriveer"
-
-#: kmail/kmail.notifyrc:66
-msgctxt "Comment"
-msgid "New mail arrived"
-msgstr "Nuwe pos het gearriveer"
 
 #: kmail/kmail_config_accounts.desktop:15
 #: knode/knode_config_accounts.desktop:15
@@ -1157,6 +1132,31 @@ msgstr "Sekuriteit"
 msgctxt "Comment"
 msgid "Security & Privacy Settings"
 msgstr "Sekuriteit en provaatheid opstelling"
+
+#: kmail/KMail.desktop:2
+msgctxt "Name"
+msgid "KMail"
+msgstr "KMail"
+
+#: kmail/KMail.desktop:16
+msgctxt "GenericName"
+msgid "Mail Client"
+msgstr "E-pos kliënt"
+
+#: kmail/kmail.notifyrc:3
+msgctxt "Comment"
+msgid "KMail"
+msgstr "KMail"
+
+#: kmail/kmail.notifyrc:14
+msgctxt "Name"
+msgid "New Mail Arrived"
+msgstr "Nuwe pos het gearriveer"
+
+#: kmail/kmail.notifyrc:66
+msgctxt "Comment"
+msgid "New mail arrived"
+msgstr "Nuwe pos het gearriveer"
 
 #: kmail/kmail_view.desktop:2
 #, fuzzy
@@ -1216,16 +1216,6 @@ msgctxt "Comment"
 msgid "Sets all necessary options to achieve maximum security"
 msgstr "Stel al die nodige opsies om die maksimum sekuriteit te hê"
 
-#: knode/KNode.desktop:7
-msgctxt "Name"
-msgid "KNode"
-msgstr "KNode"
-
-#: knode/KNode.desktop:15
-msgctxt "GenericName"
-msgid "News Reader"
-msgstr "Nuus leser"
-
 #: knode/knode_config_accounts.desktop:74
 msgctxt "Comment"
 msgid "Setup for Newsgroup and Mail Servers"
@@ -1271,6 +1261,16 @@ msgctxt "Name"
 msgid "Reading News"
 msgstr "Lees Nuus"
 
+#: knode/KNode.desktop:7
+msgctxt "Name"
+msgid "KNode"
+msgstr "KNode"
+
+#: knode/KNode.desktop:15
+msgctxt "GenericName"
+msgid "News Reader"
+msgstr "Nuus leser"
+
 #: knotes/knotes.desktop:8
 msgctxt "GenericName"
 msgid "Popup Notes"
@@ -1307,8 +1307,18 @@ msgctxt "GenericName"
 msgid "XML Form Editor"
 msgstr ""
 
-#: kontact/plugins/akregator/akregator.setdlg:2
+#: kontactinterfaces/kontactplugin.desktop:4
+msgctxt "Name"
+msgid "Kontact Plugin"
+msgstr "Kontact inprop module"
+
+#: kontact/plugins/akregator/akregatorplugin.desktop:16
+msgctxt "Comment"
+msgid "Akregator Plugin"
+msgstr "Akregator inprop module"
+
 #: kontact/plugins/akregator/akregatorplugin.desktop:70
+#: kontact/plugins/akregator/akregator.setdlg:2
 msgctxt "Name"
 msgid "Feeds"
 msgstr "Strome"
@@ -1321,16 +1331,16 @@ msgctxt "Comment"
 msgid "Feed Reader"
 msgstr "RSS stroom leser"
 
-#: kontact/plugins/akregator/akregatorplugin.desktop:16
+#: kontact/plugins/kaddressbook/kaddressbookplugin.desktop:18
 msgctxt "Comment"
-msgid "Akregator Plugin"
-msgstr "Akregator inprop module"
+msgid "Kontact KAddressBook Plugin"
+msgstr "Kontact adresboek inprop module"
 
-#: kontact/plugins/kaddressbook/kaddressbook.setdlg:2
 #: kontact/plugins/kaddressbook/kaddressbookplugin.desktop:72
+#: kontact/plugins/kaddressbook/kaddressbook.setdlg:2
+#: kpilot/conduits/contacts/kpilot-conduit-contacts.desktop:35
 #: kpilot/Documentation/base-conduit-template/contacts-conduit.desktop:35
 #: kpilot/Documentation/base-conduit-template/kpilot-conduit-contacts.desktop:35
-#: kpilot/conduits/contacts/kpilot-conduit-contacts.desktop:35
 msgctxt "Name"
 msgid "Contacts"
 msgstr "Kontakte"
@@ -1340,13 +1350,16 @@ msgctxt "Comment"
 msgid "Address Book Component"
 msgstr "Adres boek komponent"
 
-#: kontact/plugins/kaddressbook/kaddressbookplugin.desktop:18
+#: kontact/plugins/kjots/kjots_plugin.desktop:19
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Kontact KNotes Plugin"
 msgctxt "Comment"
-msgid "Kontact KAddressBook Plugin"
-msgstr "Kontact adresboek inprop module"
+msgid "Kontact KJots Plugin"
+msgstr "Kontact KNotes inprop module"
 
-#: kontact/plugins/kjots/kjots.setdlg:2
 #: kontact/plugins/kjots/kjots_plugin.desktop:53
+#: kontact/plugins/kjots/kjots.setdlg:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Notes"
@@ -1362,14 +1375,6 @@ msgctxt "Comment"
 msgid "Notebooks Component"
 msgstr "Adres boek komponent"
 
-#: kontact/plugins/kjots/kjots_plugin.desktop:19
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Kontact KNotes Plugin"
-msgctxt "Comment"
-msgid "Kontact KJots Plugin"
-msgstr "Kontact KNotes inprop module"
-
 #: kontact/plugins/kmail/kcmkmailsummary.desktop:14
 #, fuzzy
 msgctxt "Name"
@@ -1381,8 +1386,13 @@ msgctxt "Comment"
 msgid "Mail Summary Setup"
 msgstr "Pos opsomming opstelling"
 
-#: kontact/plugins/kmail/kmail.setdlg:2
+#: kontact/plugins/kmail/kmailplugin.desktop:19
+msgctxt "Comment"
+msgid "Kontact KMail Plugin"
+msgstr "Kontact kMail inprop module"
+
 #: kontact/plugins/kmail/kmailplugin.desktop:76
+#: kontact/plugins/kmail/kmail.setdlg:2
 #: kpilot/conduits/popmail/popmail-conduit.desktop:50
 msgctxt "Name"
 msgid "Mail"
@@ -1392,11 +1402,6 @@ msgstr "Pos"
 msgctxt "Comment"
 msgid "Mail Component"
 msgstr "Pos komponent"
-
-#: kontact/plugins/kmail/kmailplugin.desktop:19
-msgctxt "Comment"
-msgid "Kontact KMail Plugin"
-msgstr "Kontact kMail inprop module"
 
 #: kontact/plugins/kmobiletools/kmobiletools.desktop:15
 #, fuzzy
@@ -1423,8 +1428,13 @@ msgctxt "Comment"
 msgid "Mobile Phone Component"
 msgstr "Mobiele Foon Program"
 
-#: kontact/plugins/knode/knode.setdlg:2
+#: kontact/plugins/knode/knodeplugin.desktop:18
+msgctxt "Comment"
+msgid "Kontact KNode Plugin"
+msgstr "Kontact KNode inprop module"
+
 #: kontact/plugins/knode/knodeplugin.desktop:74
+#: kontact/plugins/knode/knode.setdlg:2
 msgctxt "Name"
 msgid "Usenet"
 msgstr ""
@@ -1435,13 +1445,13 @@ msgctxt "Comment"
 msgid "Usenet Component"
 msgstr "Nuus komponent"
 
-#: kontact/plugins/knode/knodeplugin.desktop:18
+#: kontact/plugins/knotes/knotesplugin.desktop:17
 msgctxt "Comment"
-msgid "Kontact KNode Plugin"
-msgstr "Kontact KNode inprop module"
+msgid "Kontact KNotes Plugin"
+msgstr "Kontact KNotes inprop module"
 
-#: kontact/plugins/knotes/knotes.setdlg:2
 #: kontact/plugins/knotes/knotesplugin.desktop:72
+#: kontact/plugins/knotes/knotes.setdlg:2
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Popup Notes"
@@ -1456,11 +1466,6 @@ msgstr "Opspring Notas"
 msgctxt "Comment"
 msgid "Popup Notes Component"
 msgstr "Adres boek komponent"
-
-#: kontact/plugins/knotes/knotesplugin.desktop:17
-msgctxt "Comment"
-msgid "Kontact KNotes Plugin"
-msgstr "Kontact KNotes inprop module"
 
 #: kontact/plugins/korganizer/journalplugin.desktop:18
 msgctxt "Comment"
@@ -1494,8 +1499,13 @@ msgctxt "Comment"
 msgid "Pending To-dos Summary Setup"
 msgstr "Afsprake en te-doen opsomming opstelling"
 
-#: kontact/plugins/korganizer/korganizer.setdlg:2
+#: kontact/plugins/korganizer/korganizerplugin.desktop:18
+msgctxt "Comment"
+msgid "Kontact KOrganizer Plugin"
+msgstr "Kontact KOrganizer inprop module"
+
 #: kontact/plugins/korganizer/korganizerplugin.desktop:73
+#: kontact/plugins/korganizer/korganizer.setdlg:2
 #: kpilot/conduits/calendar/kpilot-conduit-calendar.desktop:34
 msgctxt "Name"
 msgid "Calendar"
@@ -1505,11 +1515,6 @@ msgstr "Kalender"
 msgctxt "Comment"
 msgid "Calendar Component"
 msgstr "Kalender komponent"
-
-#: kontact/plugins/korganizer/korganizerplugin.desktop:18
-msgctxt "Comment"
-msgid "Kontact KOrganizer Plugin"
-msgstr "Kontact KOrganizer inprop module"
 
 #: kontact/plugins/korganizer/todoplugin.desktop:18
 msgctxt "Comment"
@@ -1521,8 +1526,14 @@ msgctxt "Name"
 msgid "To-do List"
 msgstr "Te-doen lys"
 
-#: kontact/plugins/ktimetracker/ktimetracker.setdlg:2
+#: kontact/plugins/ktimetracker/ktimetracker_plugin.desktop:17
+#, fuzzy
+msgctxt "Comment"
+msgid "TimeTracker Plugin"
+msgstr "Persoonlike Tyd Volger"
+
 #: kontact/plugins/ktimetracker/ktimetracker_plugin.desktop:52
+#: kontact/plugins/ktimetracker/ktimetracker.setdlg:2
 #, fuzzy
 msgctxt "Name"
 msgid "Time Tracker"
@@ -1536,12 +1547,6 @@ msgctxt "Comment"
 msgid "Time Tracker Component"
 msgstr "Nuus tikker komponent"
 
-#: kontact/plugins/ktimetracker/ktimetracker_plugin.desktop:17
-#, fuzzy
-msgctxt "Comment"
-msgid "TimeTracker Plugin"
-msgstr "Persoonlike Tyd Volger"
-
 #: kontact/plugins/newsticker/kcmkontactknt.desktop:14
 #, fuzzy
 msgctxt "Name"
@@ -1553,16 +1558,6 @@ msgctxt "Comment"
 msgid "News Ticker Summary Setup"
 msgstr "Nuus tikker opsomming opstelling"
 
-#: kontact/plugins/newsticker/newsticker.setdlg:2
-msgctxt "Name"
-msgid "News Ticker"
-msgstr "Nuus tikker"
-
-#: kontact/plugins/newsticker/newsticker.setdlg:56
-msgctxt "Comment"
-msgid "News Ticker Component"
-msgstr "Nuus tikker komponent"
-
 #: kontact/plugins/newsticker/newstickerplugin.desktop:17
 msgctxt "Comment"
 msgid "Kontact NewsTicker Plugin"
@@ -1573,9 +1568,19 @@ msgctxt "Name"
 msgid "NewsTicker"
 msgstr "Nuus tikker"
 
+#: kontact/plugins/newsticker/newsticker.setdlg:2
+msgctxt "Name"
+msgid "News Ticker"
+msgstr "Nuus tikker"
+
+#: kontact/plugins/newsticker/newsticker.setdlg:56
+msgctxt "Comment"
+msgid "News Ticker Component"
+msgstr "Nuus tikker komponent"
+
 #: kontact/plugins/planner/kcmplanner.desktop:14
-#: kontact/plugins/planner/planner.setdlg:2
 #: kontact/plugins/planner/plannerplugin.desktop:16
+#: kontact/plugins/planner/planner.setdlg:2
 msgctxt "Name"
 msgid "Planner"
 msgstr ""
@@ -1585,14 +1590,6 @@ msgctxt "Comment"
 msgid "Planner Setup"
 msgstr ""
 
-#: kontact/plugins/planner/planner.setdlg:31
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Summary"
-msgctxt "Comment"
-msgid "Planner Summary"
-msgstr "Opsomming"
-
 #: kontact/plugins/planner/plannerplugin.desktop:45
 #, fuzzy
 #| msgctxt "Comment"
@@ -1600,6 +1597,14 @@ msgstr "Opsomming"
 msgctxt "Comment"
 msgid "Planner Plugin"
 msgstr "Kalender Inplak"
+
+#: kontact/plugins/planner/planner.setdlg:31
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Summary"
+msgctxt "Comment"
+msgid "Planner Summary"
+msgstr "Opsomming"
 
 #: kontact/plugins/specialdates/kcmsdsummary.desktop:14
 #, fuzzy
@@ -1613,16 +1618,6 @@ msgctxt "Comment"
 msgid "Upcoming Special Dates Summary Setup"
 msgstr "Spesiale datums opsomming opstelling"
 
-#: kontact/plugins/specialdates/specialdates.setdlg:2
-msgctxt "Name"
-msgid "Special Dates Summary"
-msgstr "Spesiale datums opsomming"
-
-#: kontact/plugins/specialdates/specialdates.setdlg:53
-msgctxt "Comment"
-msgid "Special Dates Summary Component"
-msgstr "Spesiale datums opsomming komponent"
-
 #: kontact/plugins/specialdates/specialdatesplugin.desktop:16
 msgctxt "Name"
 msgid "Special Dates"
@@ -1632,6 +1627,16 @@ msgstr "Spesiale datums"
 msgctxt "Comment"
 msgid "Special Dates Plugin"
 msgstr "Spesiale datums inprop module"
+
+#: kontact/plugins/specialdates/specialdates.setdlg:2
+msgctxt "Name"
+msgid "Special Dates Summary"
+msgstr "Spesiale datums opsomming"
+
+#: kontact/plugins/specialdates/specialdates.setdlg:53
+msgctxt "Comment"
+msgid "Special Dates Summary Component"
+msgstr "Spesiale datums opsomming komponent"
 
 #: kontact/plugins/summary/kcmkontactsummary.desktop:14
 #, fuzzy
@@ -1649,8 +1654,13 @@ msgctxt "Comment"
 msgid "Summary Selection"
 msgstr "Pos opsomming opstelling"
 
-#: kontact/plugins/summary/summary.setdlg:2
+#: kontact/plugins/summary/summaryplugin.desktop:14
+msgctxt "Comment"
+msgid "Kontact SummaryView Plugin"
+msgstr "Kontact opsomming aansig inprop module"
+
 #: kontact/plugins/summary/summaryplugin.desktop:64
+#: kontact/plugins/summary/summary.setdlg:2
 msgctxt "Name"
 msgid "Summary"
 msgstr "Opsomming"
@@ -1659,21 +1669,6 @@ msgstr "Opsomming"
 msgctxt "Comment"
 msgid "Summary View"
 msgstr "Opsomming aansig"
-
-#: kontact/plugins/summary/summaryplugin.desktop:14
-msgctxt "Comment"
-msgid "Kontact SummaryView Plugin"
-msgstr "Kontact opsomming aansig inprop module"
-
-#: kontact/plugins/weather/weather.setdlg:2
-msgctxt "Name"
-msgid "Weather"
-msgstr "Weer"
-
-#: kontact/plugins/weather/weather.setdlg:60
-msgctxt "Comment"
-msgid "Weather Information"
-msgstr "Weer informasie"
 
 #: kontact/plugins/weather/weatherplugin.desktop:18
 msgctxt "Comment"
@@ -1685,25 +1680,30 @@ msgctxt "Name"
 msgid "Weather Service"
 msgstr "Weer diens"
 
-#: kontact/src/Kontact.desktop:2 kontact/src/kontactconfig.desktop:15
+#: kontact/plugins/weather/weather.setdlg:2
+msgctxt "Name"
+msgid "Weather"
+msgstr "Weer"
+
+#: kontact/plugins/weather/weather.setdlg:60
+msgctxt "Comment"
+msgid "Weather Information"
+msgstr "Weer informasie"
+
+#: kontact/src/kontactconfig.desktop:15 kontact/src/Kontact.desktop:2
 msgctxt "Name"
 msgid "Kontact"
 msgstr "Kontact"
-
-#: kontact/src/Kontact.desktop:14
-msgctxt "GenericName"
-msgid "Personal Information Manager"
-msgstr "Personlike informasie bestuurder"
 
 #: kontact/src/kontactconfig.desktop:24
 msgctxt "Comment"
 msgid "KDE Kontact"
 msgstr "KDE Kontact"
 
-#: kontactinterfaces/kontactplugin.desktop:4
-msgctxt "Name"
-msgid "Kontact Plugin"
-msgstr "Kontact inprop module"
+#: kontact/src/Kontact.desktop:14
+msgctxt "GenericName"
+msgid "Personal Information Manager"
+msgstr "Personlike informasie bestuurder"
 
 #: korganizer/dbuscalendar.desktop:2
 #, fuzzy
@@ -1849,17 +1849,17 @@ msgctxt "GenericName"
 msgid "KOrganizer Reminder Daemon Client"
 msgstr "Korganizer herhinner bediener kliënt"
 
-#: korganizer/korganizer-import.desktop:3 korganizer/korganizer.desktop:3
+#: korganizer/korganizer.desktop:3 korganizer/korganizer-import.desktop:3
 msgctxt "Comment"
 msgid "Calendar and Scheduling Program"
 msgstr "Kalender en Skedulering Program"
 
-#: korganizer/korganizer-import.desktop:67 korganizer/korganizer.desktop:67
+#: korganizer/korganizer.desktop:67 korganizer/korganizer-import.desktop:67
 msgctxt "Name"
 msgid "KOrganizer"
 msgstr "Korganizer"
 
-#: korganizer/korganizer-import.desktop:80 korganizer/korganizer.desktop:80
+#: korganizer/korganizer.desktop:80 korganizer/korganizer-import.desktop:80
 msgctxt "GenericName"
 msgid "Personal Organizer"
 msgstr "Persoonlike Organiseerder"
@@ -1978,31 +1978,6 @@ msgstr ""
 "kan jy na die tydlyn aansig wissel en na jou te-doen lys in tydlyn formaat "
 "kyk."
 
-#: kpilot/Documentation/base-conduit-template/contacts-conduit.desktop:3
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "This conduit syncs the handheld addressbook with KDE's addressbook."
-msgctxt "Comment"
-msgid ""
-"This conduit syncs the handheld address book with a database stored on the "
-"pc."
-msgstr ""
-"Hierdie pad sinkroniseer die draagbare toestel adresboek met KDE se "
-"adresboek."
-
-#: kpilot/Documentation/base-conduit-template/kpilot-conduit-contacts.desktop:3
-#: kpilot/conduits/keyringconduit/kpilot-conduit-keyring.desktop:3
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "This conduit syncs the handheld addressbook with KDE's addressbook."
-msgctxt "Comment"
-msgid ""
-"This conduit syncs the handheld keyring database with a database stored on "
-"the pc."
-msgstr ""
-"Hierdie pad sinkroniseer die draagbare toestel adresboek met KDE se "
-"adresboek."
-
 #: kpilot/conduits/calendar/kpilot-conduit-calendar.desktop:3
 #, fuzzy
 #| msgctxt "Comment"
@@ -2047,6 +2022,19 @@ msgctxt "GenericName"
 msgid "PalmDOC Converter"
 msgstr "PalmDOC omskakelaar"
 
+#: kpilot/conduits/keyringconduit/kpilot-conduit-keyring.desktop:3
+#: kpilot/Documentation/base-conduit-template/kpilot-conduit-contacts.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "This conduit syncs the handheld addressbook with KDE's addressbook."
+msgctxt "Comment"
+msgid ""
+"This conduit syncs the handheld keyring database with a database stored on "
+"the pc."
+msgstr ""
+"Hierdie pad sinkroniseer die draagbare toestel adresboek met KDE se "
+"adresboek."
+
 #: kpilot/conduits/keyringconduit/kpilot-conduit-keyring.desktop:35
 msgctxt "Name"
 msgid "Keyring"
@@ -2074,14 +2062,14 @@ msgstr ""
 "toestel. Dit maak dit moontlik om aflyn na web blaaie, soos TV en fliek "
 "skedules, te kyk."
 
-#: kpilot/conduits/memofile/kpilot-conduit-memofile.desktop:3
 #: kpilot/conduits/memofileconduit/memofile-conduit.desktop:3
+#: kpilot/conduits/memofile/kpilot-conduit-memofile.desktop:3
 msgctxt "Name"
 msgid "Memo File"
 msgstr "Memo Lêer"
 
-#: kpilot/conduits/memofile/kpilot-conduit-memofile.desktop:50
 #: kpilot/conduits/memofileconduit/memofile-conduit.desktop:50
+#: kpilot/conduits/memofile/kpilot-conduit-memofile.desktop:50
 msgctxt "Comment"
 msgid "This conduit syncs your handheld memos with a local directory."
 msgstr ""
@@ -2157,15 +2145,22 @@ msgctxt "Name"
 msgid "To-do"
 msgstr "Te-doen lys"
 
-#: kpilot/kpilot/kpilot.desktop:3
-msgctxt "Name"
-msgid "KPilot"
-msgstr "Kpilot"
+#: kpilot/Documentation/base-conduit-template/contacts-conduit.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "This conduit syncs the handheld addressbook with KDE's addressbook."
+msgctxt "Comment"
+msgid ""
+"This conduit syncs the handheld address book with a database stored on the "
+"pc."
+msgstr ""
+"Hierdie pad sinkroniseer die draagbare toestel adresboek met KDE se "
+"adresboek."
 
-#: kpilot/kpilot/kpilot.desktop:13
-msgctxt "GenericName"
-msgid "PalmPilot Tool"
-msgstr "Palmpilot Program"
+#: kpilot/kpilot/kpilotconduit.desktop:4
+msgctxt "Comment"
+msgid "KPilot Conduit"
+msgstr "Kpilot Pad"
 
 #: kpilot/kpilot/kpilot_config.desktop:13
 msgctxt "Name"
@@ -2177,15 +2172,20 @@ msgctxt "Comment"
 msgid "KPilot Main Configuration"
 msgstr "KPilot hoof opstelling"
 
-#: kpilot/kpilot/kpilotconduit.desktop:4
-msgctxt "Comment"
-msgid "KPilot Conduit"
-msgstr "Kpilot Pad"
-
 #: kpilot/kpilot/kpilotdaemon.desktop:3
 msgctxt "Name"
 msgid "KPilotDaemon"
 msgstr "Kpilotdaemon"
+
+#: kpilot/kpilot/kpilot.desktop:3
+msgctxt "Name"
+msgid "KPilot"
+msgstr "Kpilot"
+
+#: kpilot/kpilot/kpilot.desktop:13
+msgctxt "GenericName"
+msgid "PalmPilot Tool"
+msgstr "Palmpilot Program"
 
 #: kresources/akonadi/kabc/akonadi.desktop:2
 #, fuzzy
