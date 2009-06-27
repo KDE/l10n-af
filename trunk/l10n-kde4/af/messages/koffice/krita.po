@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-26 12:12+0200\n"
+"POT-Creation-Date: 2009-06-27 13:08+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -959,7 +959,7 @@ msgstr "Beeld"
 #. i18n: file: plugins/extensions/tonemapping/tonemapping.rc:4
 #. i18n: ectx: Menu (Layer)
 #: rc.cpp:18 rc.cpp:3428 rc.cpp:3491 rc.cpp:3497 rc.cpp:3542 rc.cpp:3554
-#: ui/kis_layer_box.cpp:289
+#: ui/kis_layer_box.cpp:291
 #, fuzzy
 msgid "&Layer"
 msgstr "Laag"
@@ -3588,7 +3588,7 @@ msgstr "Hoeke:"
 
 #. i18n: file: plugins/paintops/sumie/wdgsumieoptions.ui:278
 #. i18n: ectx: property (text), widget (QCheckBox, opacityCBox)
-#: rc.cpp:1036 image/kis_layer.cc:97
+#: rc.cpp:1036 image/kis_layer.cc:96
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:27
 #, fuzzy
 msgid "Opacity"
@@ -4128,7 +4128,7 @@ msgstr "Roteer 90"
 #. i18n: file: plugins/filters/wavefilter/wdgwaveoptions.ui:197
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
 #: rc.cpp:1305 rc.cpp:1613 rc.cpp:1646 rc.cpp:1667
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:338
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:336
 #, fuzzy
 msgid "Shape:"
 msgstr "Skerpheid:"
@@ -4157,7 +4157,7 @@ msgstr "Verf"
 #. i18n: file: plugins/paintops/dynamicbrush/DynamicBrushOptions.ui:71
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxColoring)
 #: rc.cpp:1323 plugins/tools/defaulttools/kis_tool_gradient.h:116
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:266
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:265
 #, fuzzy
 msgid "Gradient"
 msgstr "Gradiënte"
@@ -4503,7 +4503,8 @@ msgstr ""
 #. i18n: file: plugins/paintops/deform/wdgdeformoptions.ui:73
 #. i18n: ectx: property (text), widget (QRadioButton, moveBtn)
 #: rc.cpp:1496 image/commands/kis_node_move_command.cpp:24
-#: plugins/tools/defaulttools/kis_tool_move.h:89
+#: plugins/tools/defaulttools/kis_tool_move.h:92
+#: plugins/tools/defaulttools/kis_tool_move.cc:148
 #, fuzzy
 msgid "Move"
 msgstr "Modus:"
@@ -6442,7 +6443,7 @@ msgstr "Gekoppel"
 
 #. i18n: file: plugins/extensions/shearimage/wdg_shearimage.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
-#: rc.cpp:2524 image/kis_image.cc:546
+#: rc.cpp:2524 image/kis_image.cc:553
 #: plugins/extensions/shearimage/dlg_shearimage.cc:32
 #: plugins/extensions/shearimage/shearimage.cc:90
 #, fuzzy
@@ -6837,7 +6838,7 @@ msgstr "Keuse"
 
 #. i18n: file: plugins/extensions/rotateimage/wdg_rotateimage.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgRotateImage)
-#: rc.cpp:2777 image/kis_image.cc:494
+#: rc.cpp:2777 image/kis_image.cc:501
 #: plugins/extensions/rotateimage/rotateimage.cc:115
 #: plugins/extensions/rotateimage/dlg_rotateimage.cc:31
 #, fuzzy
@@ -8170,7 +8171,7 @@ msgid "I&nsert Image as Layer..."
 msgstr "Voeg by Beeld as Laag..."
 
 #: ui/kis_image_manager.cc:60 ui/kis_mask_manager.cc:148
-#: ui/kis_layer_manager.cc:214
+#: ui/kis_layer_manager.cc:215
 #, fuzzy
 msgid "Properties..."
 msgstr "Laag Eienskappe..."
@@ -8327,34 +8328,34 @@ msgstr "Verwyder Laag"
 msgid "Show"
 msgstr "Steek weg/Vertoon Laag"
 
-#: ui/kis_mask_manager.cc:124 ui/kis_layer_manager.cc:194
+#: ui/kis_mask_manager.cc:124 ui/kis_layer_manager.cc:195
 #: image/commands/kis_image_node_raise_command.cpp:28
 #, fuzzy
 msgid "Raise"
 msgstr "Lig %1"
 
-#: ui/kis_mask_manager.cc:128 ui/kis_layer_manager.cc:199
+#: ui/kis_mask_manager.cc:128 ui/kis_layer_manager.cc:200
 #: image/commands/kis_image_node_to_top_command.cpp:28
 #: image/commands/kis_image_node_to_bottom_command.cpp:29
 #: image/commands/kis_image_node_lower_command.cpp:28
 msgid "Lower"
 msgstr "Sagter"
 
-#: ui/kis_mask_manager.cc:132 ui/kis_layer_manager.cc:204
+#: ui/kis_mask_manager.cc:132 ui/kis_layer_manager.cc:205
 #, fuzzy
 msgid "To Top"
 msgstr "Beweeg Program"
 
-#: ui/kis_mask_manager.cc:136 ui/kis_layer_manager.cc:209
+#: ui/kis_mask_manager.cc:136 ui/kis_layer_manager.cc:210
 msgid "To Bottom"
 msgstr ""
 
-#: ui/kis_mask_manager.cc:140 ui/kis_layer_manager.cc:222
+#: ui/kis_mask_manager.cc:140 ui/kis_layer_manager.cc:223
 #, fuzzy
 msgid "Mirror Horizontally"
 msgstr "Driehoekvormige Golf"
 
-#: ui/kis_mask_manager.cc:144 ui/kis_layer_manager.cc:226
+#: ui/kis_mask_manager.cc:144 ui/kis_layer_manager.cc:227
 #, fuzzy
 msgid "Mirror Vertically"
 msgstr "Driehoekvormige Golf"
@@ -8388,7 +8389,7 @@ msgstr "Skep nuwe Laag"
 msgid "Mirror Mask X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_mask_manager.cc:441 ui/kis_layer_manager.cc:823
+#: ui/kis_mask_manager.cc:441 ui/kis_layer_manager.cc:832
 #, fuzzy
 msgid "Mirror Layer Y"
 msgstr "Sagter Huidige Laag"
@@ -8561,151 +8562,151 @@ msgstr ""
 msgid "Exposure:"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:144
+#: ui/kis_layer_manager.cc:145
 #, fuzzy
 msgid "&Flatten image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_layer_manager.cc:149
+#: ui/kis_layer_manager.cc:150
 #, fuzzy
 msgid "&Merge with Layer Below"
 msgstr "Saamvlans Alle Lae"
 
-#: ui/kis_layer_manager.cc:154
+#: ui/kis_layer_manager.cc:155
 #, fuzzy
 msgid "&Flatten Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:158 ui/kis_layer_box.cpp:137
+#: ui/kis_layer_manager.cc:159 ui/kis_layer_box.cpp:137
 #, fuzzy
 msgid "&Paint Layer"
 msgstr "Laag"
 
-#: ui/kis_layer_manager.cc:163 ui/kis_layer_box.cpp:141
-#: ui/kis_layer_box.cpp:293
+#: ui/kis_layer_manager.cc:164 ui/kis_layer_box.cpp:141
+#: ui/kis_layer_box.cpp:295
 #, fuzzy
 msgid "&Filter Layer..."
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:167
+#: ui/kis_layer_manager.cc:168
 #, fuzzy
 msgid "&Generator Layer..."
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_manager.cc:171 ui/kis_layer_box.cpp:139
-#: ui/kis_layer_box.cpp:291
+#: ui/kis_layer_manager.cc:172 ui/kis_layer_box.cpp:139
+#: ui/kis_layer_box.cpp:293
 #, fuzzy
 msgid "&Clone Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_layer_manager.cc:175 ui/kis_layer_box.cpp:140
-#: ui/kis_layer_box.cpp:292
+#: ui/kis_layer_manager.cc:176 ui/kis_layer_box.cpp:140
+#: ui/kis_layer_box.cpp:294
 #, fuzzy
 msgid "&Shape Layer"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_manager.cc:179
+#: ui/kis_layer_manager.cc:180
 #, fuzzy
 msgid "&Remove"
 msgstr "Verwyder Laag"
 
-#: ui/kis_layer_manager.cc:183
+#: ui/kis_layer_manager.cc:184
 #, fuzzy
 msgid "Duplicate current Layer"
 msgstr "Verwyder Huidige Laag"
 
-#: ui/kis_layer_manager.cc:187
+#: ui/kis_layer_manager.cc:188
 #, fuzzy
 msgid "&Hide"
 msgstr "Steek weg/Vertoon Laag"
 
-#: ui/kis_layer_manager.cc:191
+#: ui/kis_layer_manager.cc:192
 #, fuzzy
 msgid "&Show"
 msgstr "Steek weg/Vertoon Laag"
 
-#: ui/kis_layer_manager.cc:218
+#: ui/kis_layer_manager.cc:219
 msgid "Save Layer as Image..."
 msgstr "Stoor Laag as Beeld..."
 
-#: ui/kis_layer_manager.cc:230
+#: ui/kis_layer_manager.cc:231
 #, fuzzy
 msgid "Size Canvas to Size of Current Layer"
 msgstr "Verwyder Huidige Laag"
 
-#: ui/kis_layer_manager.cc:295
+#: ui/kis_layer_manager.cc:296
 #, fuzzy
 msgid "Resize Image to Size of Current Layer"
 msgstr "Verwyder Huidige Laag"
 
-#: ui/kis_layer_manager.cc:382
+#: ui/kis_layer_manager.cc:391
 #, fuzzy
 msgid "Filter Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:411
+#: ui/kis_layer_manager.cc:420
 #, fuzzy
 msgid "Generator Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:496 ui/kis_layer_manager.cc:511
-#: ui/kis_layer_manager.cc:553 ui/kis_layer_manager.cc:585
-#: ui/kis_layer_manager.cc:722
+#: ui/kis_layer_manager.cc:505 ui/kis_layer_manager.cc:520
+#: ui/kis_layer_manager.cc:562 ui/kis_layer_manager.cc:594
+#: ui/kis_layer_manager.cc:731
 msgid "Could not add layer to image."
 msgstr "Kon nie voeg by laag na beeld."
 
-#: ui/kis_layer_manager.cc:496 ui/kis_layer_manager.cc:511
-#: ui/kis_layer_manager.cc:553 ui/kis_layer_manager.cc:585
-#: ui/kis_layer_manager.cc:722
+#: ui/kis_layer_manager.cc:505 ui/kis_layer_manager.cc:520
+#: ui/kis_layer_manager.cc:562 ui/kis_layer_manager.cc:594
+#: ui/kis_layer_manager.cc:731
 msgid "Layer Error"
 msgstr "Laag Fout"
 
-#: ui/kis_layer_manager.cc:615
+#: ui/kis_layer_manager.cc:624
 #, fuzzy
 msgid "New Filter Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:715
+#: ui/kis_layer_manager.cc:724
 #, fuzzy, kde-format
 msgid "Duplicate of '%1'"
 msgstr "Volgende Laag"
 
-#: ui/kis_layer_manager.cc:801
+#: ui/kis_layer_manager.cc:810
 #, fuzzy
 msgid "Mirror Layer X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_layer_manager.cc:846
+#: ui/kis_layer_manager.cc:855
 #, fuzzy
 msgid "Scale Layer"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_manager.cc:871
+#: ui/kis_layer_manager.cc:880
 #: plugins/extensions/rotateimage/rotateimage.cc:149
 #, fuzzy
 msgid "Rotate Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_layer_manager.cc:905 ui/kis_layer_manager.cc:909
+#: ui/kis_layer_manager.cc:914 ui/kis_layer_manager.cc:918
 #, fuzzy
 msgid "Shear layer"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_manager.cc:932
+#: ui/kis_layer_manager.cc:941
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:933 image/kis_image.cc:744
+#: ui/kis_layer_manager.cc:942 image/kis_image.cc:748
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_layer_manager.cc:934
+#: ui/kis_layer_manager.cc:943
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_layer_manager.cc:998
+#: ui/kis_layer_manager.cc:1007
 #: plugins/extensions/separate_channels/kis_channel_separator.cc:242
 #, fuzzy
 msgid "Export Layer"
@@ -8919,7 +8920,7 @@ msgstr "Pen Program"
 msgid "Edit Palette..."
 msgstr "Palette"
 
-#: ui/kis_view2.cpp:649 ui/kis_view2.cpp:652
+#: ui/kis_view2.cpp:646 ui/kis_view2.cpp:649
 #, fuzzy
 msgid "Edit Palette"
 msgstr "Palette"
@@ -8945,17 +8946,17 @@ msgstr ""
 msgid "View mode"
 msgstr "Volgende Laag"
 
-#: ui/kis_layer_box.cpp:138 ui/kis_layer_box.cpp:290
+#: ui/kis_layer_box.cpp:138 ui/kis_layer_box.cpp:292
 #, fuzzy
 msgid "&Group Layer"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_box.cpp:142 ui/kis_layer_box.cpp:294
+#: ui/kis_layer_box.cpp:142 ui/kis_layer_box.cpp:296
 #, fuzzy
 msgid "&Generated Layer..."
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_box.cpp:144 ui/kis_layer_box.cpp:296
+#: ui/kis_layer_box.cpp:144 ui/kis_layer_box.cpp:298
 #, fuzzy
 msgid "&Transparency Mask"
 msgstr "Voorgrond na Transparent"
@@ -8965,31 +8966,31 @@ msgstr "Voorgrond na Transparent"
 msgid "&Filter Mask..."
 msgstr "Wit"
 
-#: ui/kis_layer_box.cpp:147 ui/kis_layer_box.cpp:298
+#: ui/kis_layer_box.cpp:147 ui/kis_layer_box.cpp:300
 #, fuzzy
 msgid "&Transformation Mask..."
 msgstr "Uitveer Program"
 
-#: ui/kis_layer_box.cpp:149 ui/kis_layer_box.cpp:299
+#: ui/kis_layer_box.cpp:149 ui/kis_layer_box.cpp:301
 #, fuzzy
 msgid "&Local Selection"
 msgstr "Keuse"
 
-#: ui/kis_layer_box.cpp:282
+#: ui/kis_layer_box.cpp:284
 #, fuzzy
 msgid "&Properties..."
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_box.cpp:284
+#: ui/kis_layer_box.cpp:286
 msgid "&Remove Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_layer_box.cpp:285
+#: ui/kis_layer_box.cpp:287
 #, fuzzy
 msgid "&Duplicate Layer or Mask"
 msgstr "Volgende Laag"
 
-#: ui/kis_layer_box.cpp:297
+#: ui/kis_layer_box.cpp:299
 #, fuzzy
 msgid "&Effect Mask..."
 msgstr "Keuse"
@@ -9158,12 +9159,12 @@ msgstr "Verwyder Keuse"
 msgid "No profile"
 msgstr ""
 
-#: image/kis_layer.cc:97
+#: image/kis_layer.cc:96
 #, kde-format
 msgid "%1%"
 msgstr ""
 
-#: image/kis_layer.cc:99
+#: image/kis_layer.cc:98
 #, fuzzy
 msgid "Composite Mode"
 msgstr "Byvoeging"
@@ -9285,7 +9286,7 @@ msgstr ""
 msgid "Mitchell"
 msgstr ""
 
-#: image/commands/kis_image_resize_command.cpp:38 image/kis_image.cc:372
+#: image/commands/kis_image_resize_command.cpp:38 image/kis_image.cc:379
 #, fuzzy
 msgid "Resize Image"
 msgstr "Verwyder Beeld"
@@ -9303,7 +9304,7 @@ msgstr "Keuse"
 msgid "Property Changes"
 msgstr "Eienskappe..."
 
-#: image/commands/kis_image_convert_type_command.cpp:38 image/kis_image.cc:581
+#: image/commands/kis_image_convert_type_command.cpp:38 image/kis_image.cc:588
 #, fuzzy
 msgid "Convert Image Type"
 msgstr "Voeg by Beeld as Laag..."
@@ -9393,37 +9394,37 @@ msgstr ""
 msgid "Rotate Node"
 msgstr "Roteer 90"
 
-#: image/kis_image.cc:269
+#: image/kis_image.cc:274
 msgid "background"
 msgstr "agtergrond"
 
-#: image/kis_image.cc:272
+#: image/kis_image.cc:277
 #, fuzzy, kde-format
 msgid "Layer %1"
 msgstr "laag %1"
 
-#: image/kis_image.cc:370
+#: image/kis_image.cc:377
 #, fuzzy
 msgid "Crop Image"
 msgstr "Stoor Laag as Beeld..."
 
-#: image/kis_image.cc:404
+#: image/kis_image.cc:411
 #, fuzzy
 #| msgid "Canvas"
 msgid "Size Canvas"
 msgstr "Kanvas"
 
-#: image/kis_image.cc:453
+#: image/kis_image.cc:460
 #, fuzzy
 msgid "Scale Image"
 msgstr "Nuwe Beeld"
 
-#: image/kis_image.cc:780
+#: image/kis_image.cc:784
 #, fuzzy
 msgid "Merge with Layer Below"
 msgstr "Saamvlans Alle Lae"
 
-#: image/kis_image.cc:820
+#: image/kis_image.cc:824
 #, fuzzy
 msgid "Flatten Layer"
 msgstr "Herbenaam Beeld..."
@@ -9626,7 +9627,7 @@ msgstr "Laag"
 msgid "Draw a straight line with the current brush"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_move.h:90
+#: plugins/tools/defaulttools/kis_tool_move.h:93
 #, fuzzy
 msgid "Move a layer"
 msgstr "Verwyder Laag"
@@ -9760,76 +9761,76 @@ msgstr "Verf"
 msgid "Draw a gradient."
 msgstr "Gradiënte"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:339
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:337
 msgid "Repeat:"
 msgstr "Herhaal:"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:341
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:339
 #, fuzzy
 msgctxt "the gradient will be drawn with the color order reversed"
 msgid "Reverse"
 msgstr "Verwyder Beeld"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:348
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:346
 #, fuzzy
 msgctxt "the gradient will be drawn linearly"
 msgid "Linear"
 msgstr "Laag"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:349
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:347
 #, fuzzy
 msgctxt "the gradient will be drawn bilinearly"
 msgid "Bi-Linear"
 msgstr "Laag"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:350
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:348
 #, fuzzy
 msgctxt "the gradient will be drawn radially"
 msgid "Radial"
 msgstr "Roteer 90"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:351
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:349
 #, fuzzy
 msgctxt "the gradient will be drawn in a square around a centre"
 msgid "Square"
 msgstr "Skerpheid:"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:352
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:350
 #, fuzzy
 msgctxt "the gradient will be drawn as an assymmetric cone"
 msgid "Conical"
 msgstr "Kanale"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:353
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:351
 msgctxt "the gradient will be drawn as a symmetric cone"
 msgid "Conical Symmetric"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:358
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:356
 #, fuzzy
 #| msgid "None"
 msgctxt "The gradient will not repeat"
 msgid "None"
 msgstr "Geen"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:359
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:357
 #, fuzzy
 msgctxt "The gradient will repeat forwards"
 msgid "Forwards"
 msgstr "In voer Beeld..."
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:360
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:358
 #, fuzzy
 msgctxt "The gradient will repeat alternatingly"
 msgid "Alternating"
 msgstr "Verf Nutsprogramme"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:368
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:366
 #, fuzzy
 msgid "Anti-alias threshold:"
 msgstr "Verf drempelpunt:"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:380
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:378
 #, fuzzy
 msgid "Preview opacity:"
 msgstr "Ondeursigtigheid:"
