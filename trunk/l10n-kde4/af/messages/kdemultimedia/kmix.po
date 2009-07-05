@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmix VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-06-20 12:15+0200\n"
+"POT-Creation-Date: 2009-07-05 11:43+0200\n"
 "PO-Revision-Date: 2002-11-07 11:33+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -34,21 +34,24 @@ msgstr "Kies Menger"
 msgid "Select the channel representing the master volume:"
 msgstr ""
 
-#: dialogviewconfiguration.cpp:42 kmixprefdlg.cpp:41
+#: dialogviewconfiguration.cpp:152 kmixprefdlg.cpp:41
 msgid "Configure"
 msgstr ""
 
-#: dialogviewconfiguration.cpp:58
+#: dialogviewconfiguration.cpp:167
 msgid "Configuration of the channels."
 msgstr ""
 
-#: dialogviewconfiguration.cpp:73
-msgid "Show/Hide"
-msgstr ""
+#: dialogviewconfiguration.cpp:228
+#, fuzzy
+#| msgid "Available mixers:"
+msgid "Available channels"
+msgstr "Beskikbaar mengers:"
 
-#: dialogviewconfiguration.cpp:75
-msgid "Split"
-msgstr ""
+#: dialogviewconfiguration.cpp:232
+#, fuzzy
+msgid "Visible channels"
+msgstr "Skei Kanale"
 
 #: kmixapplet.cpp:94
 msgid "Configure - Mixer Applet"
@@ -90,46 +93,51 @@ msgstr "Beskikbaar mengers:"
 msgid "Invalid mixer entered."
 msgstr "Ongeldige menger ingevoerde."
 
-#: kmix.cpp:119
+#: kmix.cpp:120
 msgid "Hardware &Information"
 msgstr ""
 
-#: kmix.cpp:122 kmixdockwidget.cpp:382
+#: kmix.cpp:123 kmixdockwidget.cpp:380
 msgid "Hide Mixer Window"
 msgstr ""
 
-#: kmix.cpp:126
+#: kmix.cpp:127
 #, fuzzy
 msgid "Configure &Channels..."
 msgstr "Skei Kanale"
 
-#: kmix.cpp:130 mdwslider.cpp:111
+#: kmix.cpp:130 kmixdockwidget.cpp:103
+#, fuzzy
+msgid "Select Master Channel..."
+msgstr "Skei Kanale"
+
+#: kmix.cpp:134 mdwslider.cpp:111
 #, fuzzy
 msgid "Increase Volume"
 msgstr "Vermeerder Volume"
 
-#: kmix.cpp:135 mdwslider.cpp:122
+#: kmix.cpp:139 mdwslider.cpp:122
 #, fuzzy
 msgid "Decrease Volume"
 msgstr "Verklein Volume"
 
-#: kmix.cpp:140 mdwslider.cpp:365
+#: kmix.cpp:144 mdwslider.cpp:365
 #, fuzzy
 msgid "Mute"
 msgstr "Gedemp"
 
-#: kmix.cpp:493
+#: kmix.cpp:503
 #, kde-format
 msgid ""
 "The soundcard containing the master device was unplugged. Changing to "
 "control %1 on card %2."
 msgstr ""
 
-#: kmix.cpp:502
+#: kmix.cpp:512
 msgid "The last soundcard was unplugged."
 msgstr ""
 
-#: kmix.cpp:777
+#: kmix.cpp:789
 msgid "Mixer Hardware Information"
 msgstr ""
 
@@ -161,25 +169,20 @@ msgstr "Herstel verstek volumes"
 msgid "M&ute"
 msgstr "Stilte"
 
-#: kmixdockwidget.cpp:104
-#, fuzzy
-msgid "Select Master Channel..."
-msgstr "Skei Kanale"
-
-#: kmixdockwidget.cpp:193
+#: kmixdockwidget.cpp:191
 msgid "Mixer cannot be found"
 msgstr ""
 
-#: kmixdockwidget.cpp:213
+#: kmixdockwidget.cpp:211
 #, fuzzy, kde-format
 msgid "Volume at %1%"
 msgstr "Volume na %1%"
 
-#: kmixdockwidget.cpp:215
+#: kmixdockwidget.cpp:213
 msgid " (Muted)"
 msgstr " (Gedemp)"
 
-#: kmixdockwidget.cpp:386
+#: kmixdockwidget.cpp:384
 msgid "Show Mixer Window"
 msgstr ""
 
@@ -449,6 +452,36 @@ msgid "kmix: Unknown error. Please report how you produced this error."
 msgstr ""
 "kmix: Onbekende fout. Asseblief raporteer hoe jy geproduseer hierdie fout."
 
+#: mixer_oss4.cpp:349 mixer_oss.cpp:230
+msgid ""
+"kmix: You do not have permission to access the mixer device.\n"
+"Login as root and do a 'chmod a+rw /dev/mixer*' to allow the access."
+msgstr ""
+"kmix: Jy doen nie het reg na toegang verkry die menger toestel.\n"
+"Aanteken as root en doen 'n 'chmod 'n+rw /dev/menger*' na toelaat die "
+"toegang verkry."
+
+#: mixer_oss4.cpp:353
+#, fuzzy
+#| msgid ""
+#| "kmix: Mixer cannot be found.\n"
+#| "Please check that the soundcard is installed and the\n"
+#| "soundcard driver is loaded.\n"
+#| "On Linux you might need to use 'insmod' to load the driver.\n"
+#| "Use 'soundon' when using commercial OSS."
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+"On Linux you might need to use 'insmod' to load the driver.\n"
+"Use 'soundon' when using OSS4 from 4front."
+msgstr ""
+"kmix: Menger kan nie wees gevind.\n"
+"Asseblief bevestig wat die klankkaart is geïnstalleer en die\n"
+"klankkaart drywer is gelaai.\n"
+"Op Linux jy dalk benodig na gebruik 'insmod' na las die drywer.\n"
+"gebruik 'soundon' wanneer te gebruik komersiële Oss."
+
 #: mixer_oss.cpp:58
 msgid "Volume"
 msgstr "Volume"
@@ -561,15 +594,6 @@ msgstr "3D-center"
 msgid "unused"
 msgstr "ongebruik"
 
-#: mixer_oss.cpp:230
-msgid ""
-"kmix: You do not have permission to access the mixer device.\n"
-"Login as root and do a 'chmod a+rw /dev/mixer*' to allow the access."
-msgstr ""
-"kmix: Jy doen nie het reg na toegang verkry die menger toestel.\n"
-"Aanteken as root en doen 'n 'chmod 'n+rw /dev/menger*' na toelaat die "
-"toegang verkry."
-
 #: mixer_oss.cpp:234
 msgid ""
 "kmix: Mixer cannot be found.\n"
@@ -617,11 +641,11 @@ msgstr ""
 "Vra jou stelsel administrateur na regmaak /dev/audioctl na toelaat toegang "
 "verkry."
 
-#: mixertoolbox.cpp:198
+#: mixertoolbox.cpp:199
 msgid "Sound drivers supported:"
 msgstr ""
 
-#: mixertoolbox.cpp:199
+#: mixertoolbox.cpp:200
 msgid "Sound drivers used:"
 msgstr ""
 
@@ -693,7 +717,7 @@ msgstr "Stil:"
 msgid "&File"
 msgstr "Stil:"
 
-#. i18n: file: kmixui.rc:19
+#. i18n: file: kmixui.rc:20
 #. i18n: ectx: Menu (help)
 #: rc.cpp:33
 #, fuzzy
@@ -715,11 +739,11 @@ msgstr "frix@expertron.co.za"
 msgid "&Channels"
 msgstr "Skei Kanale"
 
-#: viewbase.cpp:146
+#: viewbase.cpp:182
 msgid "Device Settings"
 msgstr "Toestel Instellings"
 
-#: viewdockareapopup.cpp:112
+#: viewdockareapopup.cpp:115
 #, fuzzy
 msgid "Mixer"
 msgstr "Mengers"
@@ -745,10 +769,6 @@ msgstr "Mengers"
 
 #, fuzzy
 #~ msgid "Toggle Mute of Master Channel"
-#~ msgstr "Skei Kanale"
-
-#, fuzzy
-#~ msgid "Select Channel"
 #~ msgstr "Skei Kanale"
 
 #, fuzzy
