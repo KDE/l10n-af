@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-19 11:43+0200\n"
+"POT-Creation-Date: 2009-07-20 11:41+0200\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -106,7 +106,7 @@ msgstr ""
 msgid "Missing Import Filter"
 msgstr "Kort In voer Filter"
 
-#: main/KoView.cpp:440
+#: main/KoView.cpp:431
 #, fuzzy
 msgid "&New View"
 msgstr "Verwyder Besigtig"
@@ -626,7 +626,7 @@ msgstr "Lyn"
 msgid "Right indent"
 msgstr "Ligte Groen"
 
-#: main/KoToolBoxFactory.cpp:36 kopageapp/KoPAView.cpp:181
+#: main/KoToolBoxFactory.cpp:36 kopageapp/KoPAView.cpp:183
 #, fuzzy
 msgid "Tools"
 msgstr "Verstek Kleur"
@@ -758,7 +758,7 @@ msgstr "Donker Oranje"
 msgid "Open Document"
 msgstr "Open Dokument"
 
-#: main/KoMainWindow.cpp:1213 kopageapp/KoPAView.cpp:306
+#: main/KoMainWindow.cpp:1213 kopageapp/KoPAView.cpp:312
 #, fuzzy
 msgid "Import Document"
 msgstr "Open Dokument"
@@ -3425,6 +3425,12 @@ msgid_plural "Delete pages"
 msgstr[0] "Uitvee Teks"
 msgstr[1] "Uitvee Teks"
 
+#: kopageapp/commands/KoPAChangePageLayoutCommand.cpp:33
+#, fuzzy
+#| msgid "Page Layout"
+msgid "Set Page Layout"
+msgstr "Bladsy Uitleg"
+
 #: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:35
 #, fuzzy
 #| msgid "Change List Type"
@@ -3452,90 +3458,94 @@ msgstr "Tweede"
 msgid "Display page background"
 msgstr "Tweede"
 
-#: kopageapp/KoPAView.cpp:225
+#: kopageapp/KoPAView.cpp:227
 #, fuzzy
 msgid "D&elete"
 msgstr "Uitvee Teks"
 
-#: kopageapp/KoPAView.cpp:235
+#: kopageapp/KoPAView.cpp:237
 msgid "Snap to Grid"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:240
+#: kopageapp/KoPAView.cpp:242
 msgid "Show Guides"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:242
+#: kopageapp/KoPAView.cpp:244
 #, fuzzy
 msgid "Hide Guides"
 msgstr "Solied Lyn"
 
-#: kopageapp/KoPAView.cpp:243
+#: kopageapp/KoPAView.cpp:245
 msgid "Shows or hides guides"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:247
+#: kopageapp/KoPAView.cpp:249
 msgid "Show Master Pages"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:251
+#: kopageapp/KoPAView.cpp:253
 msgid "Show Rulers"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:253
+#: kopageapp/KoPAView.cpp:255
 msgid "Show/hide the view's rulers"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:257
+#: kopageapp/KoPAView.cpp:259
 #, fuzzy
 msgid "Insert Page"
 msgstr "Voeg by Teks"
 
-#: kopageapp/KoPAView.cpp:259 kopageapp/KoPAView.cpp:260
+#: kopageapp/KoPAView.cpp:261 kopageapp/KoPAView.cpp:262
 msgid "Insert a new page after the current one"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:263
+#: kopageapp/KoPAView.cpp:265
 #, fuzzy
 #| msgid "Company Name"
 msgid "Copy Page"
 msgstr "Maatskappy Naam"
 
-#: kopageapp/KoPAView.cpp:265 kopageapp/KoPAView.cpp:266
+#: kopageapp/KoPAView.cpp:267 kopageapp/KoPAView.cpp:268
 msgid "Copy the current page"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:269
+#: kopageapp/KoPAView.cpp:271
 #, fuzzy
 msgid "Delete Page"
 msgstr "Uitvee Teks"
 
-#: kopageapp/KoPAView.cpp:272 kopageapp/KoPAView.cpp:273
+#: kopageapp/KoPAView.cpp:274 kopageapp/KoPAView.cpp:275
 #, fuzzy
 msgid "Delete the current page"
 msgstr "Uitvee Teks"
 
-#: kopageapp/KoPAView.cpp:276
+#: kopageapp/KoPAView.cpp:278
 #, fuzzy
 #| msgid "Paste Text"
 msgid "Master Page..."
 msgstr "Plak Teks"
 
-#: kopageapp/KoPAView.cpp:285
+#: kopageapp/KoPAView.cpp:282
+msgid "Page Layout..."
+msgstr "Bladsy Uitleg..."
+
+#: kopageapp/KoPAView.cpp:291
 msgid "Variable"
 msgstr "Veranderlike"
 
-#: kopageapp/KoPAView.cpp:290
+#: kopageapp/KoPAView.cpp:296
 #, fuzzy
 msgid "Import Document..."
 msgstr "Open Dokument"
 
-#: kopageapp/KoPAView.cpp:303
+#: kopageapp/KoPAView.cpp:309
 #, fuzzy
 msgid "Import Slideshow"
 msgstr "In voer Styl"
 
-#: kopageapp/KoPAView.cpp:335 kopageapp/KoPAView.cpp:339
+#: kopageapp/KoPAView.cpp:341 kopageapp/KoPAView.cpp:345
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not open\n"
@@ -3546,6 +3556,11 @@ msgid ""
 msgstr ""
 "Kon nie open\n"
 "%1"
+
+#: kopageapp/KoPAView.cpp:449
+#, fuzzy
+msgid "Change page layout"
+msgstr "Verander Tabel-vormer"
 
 #: kopageapp/KoPAPageThumbnailModel.cpp:67 kopageapp/KoPADocumentModel.cpp:165
 #, fuzzy, kde-format
@@ -6088,9 +6103,6 @@ msgstr "Uitvee Teks"
 #, fuzzy
 #~ msgid "Actual Font"
 #~ msgstr "Kies Skrif tipe"
-
-#~ msgid "Page Layout..."
-#~ msgstr "Bladsy Uitleg..."
 
 #~ msgid "Remove Tabulator"
 #~ msgstr "Verwyder Tabel-vormer"
