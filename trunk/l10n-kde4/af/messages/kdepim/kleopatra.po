@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpgpcertmanager VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-16 11:37+0200\n"
+"POT-Creation-Date: 2009-07-31 06:20+0200\n"
 "PO-Revision-Date: 2002-11-07 11:35+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -20,7 +20,7 @@ msgctxt "Key filter without user-assigned name"
 msgid "<unnamed>"
 msgstr ""
 
-#: conf/appearanceconfigwidget.cpp:278
+#: conf/appearanceconfigwidget.cpp:277
 msgid "This parameter has been locked down by the system administrator."
 msgstr ""
 
@@ -1205,7 +1205,8 @@ msgstr ""
 msgid "Could not write to clipboard"
 msgstr "Kon nie genereer sertifikaat"
 
-#: utils/output.cpp:370 systrayicon.cpp:215
+#: utils/output.cpp:370 commands/importcertificatefromclipboardcommand.cpp:122
+#: systrayicon.cpp:198
 msgid "Clipboard"
 msgstr ""
 
@@ -2253,6 +2254,8 @@ msgstr ""
 
 #: commands/importcertificatefromfilecommand.cpp:139
 #: commands/importcertificatefromfilecommand.cpp:144
+#: commands/importcertificatefromclipboardcommand.cpp:116
+#: commands/importcertificatefromclipboardcommand.cpp:120
 #: commands/importcertificatescommand.cpp:337
 #: commands/importcertificatescommand.cpp:343
 #: commands/importcertificatescommand.cpp:406
@@ -2499,6 +2502,36 @@ msgstr ""
 msgid "CRL cache cleared successfully."
 msgstr ""
 
+#: commands/learncardkeyscommand.cpp:72
+msgid "Error Learning SmartCard"
+msgstr ""
+
+#: commands/learncardkeyscommand.cpp:76
+msgid "Finished Learning SmartCard"
+msgstr ""
+
+#: commands/learncardkeyscommand.cpp:81
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GPG or GpgSM process that tried to learn the smart card ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+
+#: commands/learncardkeyscommand.cpp:88
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to learn the smart card's keys.</para> "
+"<para>The output from <command>%1</command> was: <message>%2</message></para>"
+msgstr ""
+
+#: commands/learncardkeyscommand.cpp:94
+#, fuzzy
+msgid "Smart card keys successfully learned."
+msgstr "Kies Sertifikaat Lêer"
+
 #: commands/adduseridcommand.cpp:212
 #, kde-format
 msgctxt "@info"
@@ -2608,6 +2641,15 @@ msgstr "Kies Sertifikaat Lêer"
 #: commands/encryptclipboardcommand.cpp:160
 msgid "Encrypt Clipboard Error"
 msgstr ""
+
+#: commands/importcertificatefromclipboardcommand.cpp:115
+msgid "Clipboard contents do not look like a certificate."
+msgstr ""
+
+#: commands/importcertificatefromclipboardcommand.cpp:120
+#, fuzzy
+msgid "Could not determine certificate type of clipboard contents."
+msgstr "Kon nie genereer sertifikaat"
 
 #: commands/importcertificatescommand.cpp:212
 #, fuzzy, kde-format
@@ -3517,11 +3559,11 @@ msgstr ""
 
 #. i18n: file: kleopatra.rc:34
 #. i18n: ectx: Menu (certMenu)
-#. i18n: file: kleopatra.rc:98
+#. i18n: file: kleopatra.rc:97
 #. i18n: ectx: Menu (listview_popup)
 #. i18n: file: kleopatra.rc:34
 #. i18n: ectx: Menu (certMenu)
-#. i18n: file: kleopatra.rc:98
+#. i18n: file: kleopatra.rc:97
 #. i18n: ectx: Menu (listview_popup)
 #: rc.cpp:9 rc.cpp:30 rc.cpp:535 rc.cpp:556
 #, fuzzy
@@ -3561,7 +3603,7 @@ msgstr ""
 msgid "Main Toolbar"
 msgstr "Soektog"
 
-#. i18n: file: kleopatra.rc:93
+#. i18n: file: kleopatra.rc:92
 #. i18n: ectx: ToolBar (searchToolBar)
 #: rc.cpp:27 rc.cpp:553
 #, fuzzy
@@ -5057,59 +5099,60 @@ msgstr "Sertifikate"
 msgid "Create Encryption Certificate With Same Parameters"
 msgstr "Sertifikate"
 
-#: systrayicon.cpp:86
-msgid "Learn Keys"
-msgstr ""
-
-#: systrayicon.cpp:211
+#: systrayicon.cpp:194
 #, fuzzy
 #| msgid "Certificate Manager Error"
 msgid "&Open Certificate Manager..."
 msgstr "Sertifikaat Bestuurder Fout"
 
-#: systrayicon.cpp:212
+#: systrayicon.cpp:195
 #, kde-format
 msgid "&Configure %1..."
 msgstr ""
 
-#: systrayicon.cpp:213
+#: systrayicon.cpp:196
 #, kde-format
 msgid "&About %1..."
 msgstr ""
 
-#: systrayicon.cpp:214
+#: systrayicon.cpp:197
 msgid "&Shutdown Kleopatra"
 msgstr ""
 
-#: systrayicon.cpp:216
+#: systrayicon.cpp:199
+#, fuzzy
+msgid "Certificate Import"
+msgstr "Sertifikaat Ingevoer"
+
+#: systrayicon.cpp:200
 msgid "Encrypt..."
 msgstr ""
 
-#: systrayicon.cpp:217
+#: systrayicon.cpp:201
 msgid "S/MIME-Sign..."
 msgstr ""
 
-#: systrayicon.cpp:218
+#: systrayicon.cpp:202
 msgid "OpenPGP-Sign..."
 msgstr ""
 
-#: systrayicon.cpp:219 mainwindow.cpp:632
+#: systrayicon.cpp:203 mainwindow.cpp:632
 #, fuzzy
 #| msgid "&Details"
 msgid "Decrypt/Verify..."
 msgstr "Details"
 
-#: systrayicon.cpp:220
+#: systrayicon.cpp:204
 msgid "SmartCard"
 msgstr ""
 
-#: systrayicon.cpp:221
+#: systrayicon.cpp:205
 msgid "Set Initial PIN..."
 msgstr ""
 
-#: systrayicon.cpp:222
+#: systrayicon.cpp:206
 #, fuzzy
-msgid "Learn Card Certificates..."
+msgid "Learn Card Certificates"
 msgstr "Nuwe Sertifikaat"
 
 #: selftest/gpgagentcheck.cpp:64
