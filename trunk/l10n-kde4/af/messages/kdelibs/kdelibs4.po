@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-07-30 06:23+0200\n"
+"POT-Creation-Date: 2009-08-01 06:15+0200\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1727,7 +1727,7 @@ msgstr "Venster"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:764 kparts/browserrun.cpp:304
+#: rc.cpp:764 kparts/browserrun.cpp:312
 msgid "Execute"
 msgstr "Voer uit"
 
@@ -11557,7 +11557,7 @@ msgid "a basic web browser using the KHTML library"
 msgstr ""
 
 #: khtml/khtml_run.cpp:97 khtml/khtml_part.cpp:3719 khtml/khtml_part.cpp:3929
-#: khtml/khtml_part.cpp:4315 kparts/browserrun.cpp:453
+#: khtml/khtml_part.cpp:4315 kparts/browserrun.cpp:461
 msgid "Save As"
 msgstr "Stoor As"
 
@@ -11825,12 +11825,12 @@ msgstr "Oorskryf Lêer?"
 msgid "Overwrite"
 msgstr "Oorskryf"
 
-#: khtml/khtml_ext.cpp:991 kparts/browserrun.cpp:424
+#: khtml/khtml_ext.cpp:991 kparts/browserrun.cpp:432
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "Die Aflaai Bestuurder (%1) kon nie wees gevind in jou $Gids soeklys "
 
-#: khtml/khtml_ext.cpp:992 kparts/browserrun.cpp:425
+#: khtml/khtml_ext.cpp:992 kparts/browserrun.cpp:433
 #, fuzzy
 msgid ""
 "Try to reinstall it  \n"
@@ -12508,10 +12508,15 @@ msgid "Basic Page Style"
 msgstr "Basiese Bladsy Styl"
 
 #: khtml/ecma/kjs_binding.cpp:184
+#, fuzzy
+#| msgid ""
+#| "A script on this page is causing KHTML to freeze. If it continues to run, "
+#| "other applications may become less responsive.\n"
+#| "Do you want to abort the script?"
 msgid ""
 "A script on this page is causing KHTML to freeze. If it continues to run, "
 "other applications may become less responsive.\n"
-"Do you want to abort the script?"
+"Do you want to stop the script?"
 msgstr ""
 "'n skrip op hierdie bladsy is veroorsaak dat Khtml na fries. As dit gaan "
 "voort na hardloop, ander programme dalk mag word minder responsief.\n"
@@ -12522,8 +12527,9 @@ msgid "JavaScript"
 msgstr "JavaScript"
 
 #: khtml/ecma/kjs_binding.cpp:184
-msgid "&Abort"
-msgstr "Staak"
+#, fuzzy
+msgid "&Stop Script"
+msgstr "Skrip"
 
 #: khtml/ecma/kjs_window.cpp:1590 khtml/ecma/kjs_html.cpp:2118
 msgid "Confirmation: JavaScript Popup"
@@ -13189,9 +13195,9 @@ msgstr ""
 
 #: kross/modules/form.cpp:303
 #, fuzzy
-#| msgid "Abort"
-msgid "Abort?"
-msgstr "Staak"
+#| msgid "Cancel"
+msgid "Cancel?"
+msgstr "Kanselleer"
 
 #: solid/examples/minibrowser/main.cpp:232
 msgid "Solid Browser"
@@ -13479,17 +13485,17 @@ msgstr ""
 msgid "Close Document"
 msgstr "Maak Dokument toe"
 
-#: kparts/browserrun.cpp:303
+#: kparts/browserrun.cpp:311
 #, fuzzy, kde-format
 #| msgid "Do you really want to execute '%1'? "
 msgid "Do you really want to execute '%1'?"
 msgstr "Doen jy rerig wil hê na uitvoer '%1'? "
 
-#: kparts/browserrun.cpp:304
+#: kparts/browserrun.cpp:312
 msgid "Execute File?"
 msgstr "Voer Lêer uit?"
 
-#: kparts/browserrun.cpp:322
+#: kparts/browserrun.cpp:330
 #, kde-format
 msgid ""
 "Open '%2'?\n"
@@ -13498,7 +13504,7 @@ msgstr ""
 "Moet ek '%2' oopmaak?\n"
 "Tipe: %1"
 
-#: kparts/browserrun.cpp:324
+#: kparts/browserrun.cpp:332
 #, kde-format
 msgid ""
 "Open '%3'?\n"
@@ -13509,18 +13515,18 @@ msgstr ""
 "Naam: %2\n"
 "Tipe: %1"
 
-#: kparts/browserrun.cpp:340
+#: kparts/browserrun.cpp:348
 #, kde-format
 msgid "&Open with '%1'"
 msgstr "Maak oop met '%1'"
 
-#: kparts/browserrun.cpp:342
+#: kparts/browserrun.cpp:350
 #, fuzzy
 #| msgid "&Open With..."
 msgid "&Open with..."
 msgstr "Maak oop met..."
 
-#: kparts/browserrun.cpp:387
+#: kparts/browserrun.cpp:395
 msgid "&Open"
 msgstr "Maak oop"
 
@@ -14747,6 +14753,14 @@ msgstr "Leidraad van die Dag"
 #, fuzzy, kde-format
 msgid "No such function \"%1\""
 msgstr "Geen kieslys item: '%1'."
+
+#~ msgid "&Abort"
+#~ msgstr "Staak"
+
+#, fuzzy
+#~| msgid "Abort"
+#~ msgid "Abort?"
+#~ msgstr "Staak"
 
 #, fuzzy
 #~| msgid "Download New %1"
