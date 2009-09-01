@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-31 06:06+0200\n"
+"POT-Creation-Date: 2009-09-01 06:21+0200\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -7320,7 +7320,7 @@ msgstr "Moet nie weer hierdie boodskap vertoon nie"
 msgid "About %1"
 msgstr "Aangaande %1"
 
-#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:123
+#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:125
 msgid "Configure"
 msgstr "Stel op"
 
@@ -9619,6 +9619,16 @@ msgstr "Nutsbalke"
 #| msgid "New hostname"
 msgid "without name"
 msgstr "Nuwe masjien naam"
+
+#: kdeui/widgets/kcmodule.cpp:170
+msgid "You will be asked to authenticate before saving"
+msgstr ""
+
+#: kdeui/widgets/kcmodule.cpp:174
+#, fuzzy
+#| msgid "Could not create the new configuration file."
+msgid "You are not allowed to save the configuration"
+msgstr "Kon nie skep die nuwe opstelling lêer."
 
 #: kdeui/widgets/kactionselector.cpp:94
 msgid "&Available:"
@@ -12859,8 +12869,12 @@ msgid "Send Confirmation"
 msgstr "Stuur Bevestiging"
 
 #: khtml/html/html_formimpl.cpp:440
-msgid "&Send Files"
-msgstr "Stuur Lêers"
+#, fuzzy
+#| msgid "&Send Files"
+msgid "&Send File"
+msgid_plural "&Send Files"
+msgstr[0] "Stuur Lêers"
+msgstr[1] "Stuur Lêers"
 
 #: khtml/html/html_formimpl.cpp:2619
 #, fuzzy
@@ -13755,29 +13769,7 @@ msgstr ""
 msgid "Print Preview"
 msgstr "Druk Voorskou..."
 
-#: kutils/kcmoduleproxy.cpp:131
-#, fuzzy
-msgid ""
-"<b>Changes in this section require root access.</b><br />On applying your "
-"changes you will have to supply your root password."
-msgstr ""
-"<b>Verandering in hierdie afdeling benodig root toegang.</b><br>Kliek die "
-"\"Administrateur Modus\" knoppie om dit te aktiveer."
-
-#: kutils/kcmoduleproxy.cpp:138
-#, fuzzy
-msgid ""
-"This section requires special permissions, probably for system-wide changes; "
-"therefore, it is required that you provide the root password to be able to "
-"change the module's properties. If you cannot provide the password, the "
-"changes of the module cannot be saved "
-msgstr ""
-"Hierdie afdeling vereis spesiale regte, waarskynlik vir stelsel wye "
-"veranderine. Die root wagwoord is nodig om die module se eienskappe te "
-"verander. As die wagwoord nie verskaf word nie sal die module gedeaktiveer "
-"word."
-
-#: kutils/kcmoduleproxy.cpp:159
+#: kutils/kcmoduleproxy.cpp:165
 #, kde-format
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
@@ -14814,6 +14806,26 @@ msgstr "Leidraad van die Dag"
 #, fuzzy, kde-format
 msgid "No such function \"%1\""
 msgstr "Geen kieslys item: '%1'."
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>Changes in this section require root access.</b><br />On applying your "
+#~ "changes you will have to supply your root password."
+#~ msgstr ""
+#~ "<b>Verandering in hierdie afdeling benodig root toegang.</b><br>Kliek die "
+#~ "\"Administrateur Modus\" knoppie om dit te aktiveer."
+
+#, fuzzy
+#~ msgid ""
+#~ "This section requires special permissions, probably for system-wide "
+#~ "changes; therefore, it is required that you provide the root password to "
+#~ "be able to change the module's properties. If you cannot provide the "
+#~ "password, the changes of the module cannot be saved "
+#~ msgstr ""
+#~ "Hierdie afdeling vereis spesiale regte, waarskynlik vir stelsel wye "
+#~ "veranderine. Die root wagwoord is nodig om die module se eienskappe te "
+#~ "verander. As die wagwoord nie verskaf word nie sal die module "
+#~ "gedeaktiveer word."
 
 #~ msgid "&Abort"
 #~ msgstr "Staak"
@@ -17912,9 +17924,6 @@ msgstr "Geen kieslys item: '%1'."
 #~ msgstr ""
 #~ "Kon nie kab se opstel lêer lees nie.\n"
 #~ "kab sal nie opgestel kan skep nie."
-
-#~ msgid "Could not create the new configuration file."
-#~ msgstr "Kon nie skep die nuwe opstelling lêer."
 
 #~ msgid ""
 #~ "Cannot load kab's local configuration file.\n"
