@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-05 06:50+0200\n"
+"POT-Creation-Date: 2009-09-06 06:20+0200\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -14,6 +14,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: contactselectiondialog.cpp:29
+#, fuzzy
+msgid "Select Contacts"
+msgstr "Uitvee Kontak"
 
 #: modelcolumnmanager.cpp:74 xxport/ldap/ldapsearchdialog.cpp:83
 #: xxport/ldap/ldapsearchdialog.cpp:177
@@ -329,7 +334,11 @@ msgstr ""
 msgid "EMail (4)"
 msgstr ""
 
-#: xxportmanager.cpp:132
+#: xxportmanager.cpp:112
+msgid "Which contact do you want to export?"
+msgstr ""
+
+#: xxportmanager.cpp:118
 msgid "You have not selected any contact to export!"
 msgstr ""
 
@@ -426,48 +435,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za"
 
-#. i18n: file: printing/rbs_appearance.ui:13
+#. i18n: file: printing/rbs_appearance.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, RingBinderStyleAppearanceForm_Base)
 #: rc.cpp:26
 #, fuzzy
 msgid "Appearance"
 msgstr "Voorkoms Bladsy"
 
-#. i18n: file: printing/rbs_appearance.ui:25
+#. i18n: file: printing/rbs_appearance.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox3)
 #: rc.cpp:29
 msgctxt "@title:group Print settings"
 msgid "Miscellaneous"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:53
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAlwaysAllPages)
-#: rc.cpp:32
-msgid ""
-"If this box is checked, at least one page will be printed for every letter "
-"group, regardless of whether entries exist for this letter group. This is "
-"normally only useful in conjunction with the option 'fill pages with empty "
-"address fields'."
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:56
-#. i18n: ectx: property (text), widget (QCheckBox, cbAlwaysAllPages)
-#: rc.cpp:35
-msgid "Always print pages for all tabs"
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:66
+#. i18n: file: printing/rbs_appearance.ui:51
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbMinNumFill)
-#: rc.cpp:38
+#: rc.cpp:32
 msgid ""
 "This is the minimum number of empty fields that have to be printed in "
 "addition to real entries; if this number is not reached on the first page, "
 "more pages with empty fields only may be appended."
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:73
+#. i18n: file: printing/rbs_appearance.ui:58
 #. i18n: ectx: property (whatsThis), widget (QLabel, sblabel)
-#: rc.cpp:41
+#: rc.cpp:35
 msgid ""
 "If you often add contacts to your printout manually before entering them "
 "into the KDE address book, you should set this option to a value greater "
@@ -476,77 +469,77 @@ msgid ""
 "be printed."
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:76
+#. i18n: file: printing/rbs_appearance.ui:61
 #. i18n: ectx: property (text), widget (QLabel, sblabel)
-#: rc.cpp:44
+#: rc.cpp:38
 #, fuzzy
 msgid "Min. number of empty fields:"
 msgstr "Vertoon Details"
 
-#. i18n: file: printing/rbs_appearance.ui:83
+#. i18n: file: printing/rbs_appearance.ui:68
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbFillEmpty)
-#: rc.cpp:47
+#: rc.cpp:41
 msgid ""
 "If this option is turned on, behind the contacts on a page the remaining "
 "space will be filled with empty fields so you can add contacts manually later"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:86
+#. i18n: file: printing/rbs_appearance.ui:71
 #. i18n: ectx: property (text), widget (QCheckBox, cbFillEmpty)
-#: rc.cpp:50
+#: rc.cpp:44
 msgid "Fill pages with empty address fields"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:99
+#. i18n: file: printing/rbs_appearance.ui:84
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
-#: rc.cpp:53
+#: rc.cpp:47
 msgid "Print Contact's Information"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:111
+#. i18n: file: printing/rbs_appearance.ui:96
 #. i18n: ectx: property (text), widget (QCheckBox, cbPhoneNumbers)
-#: rc.cpp:56
+#: rc.cpp:50
 #, fuzzy
 msgid "Phone numbers"
 msgstr "Redigeer Foon Nommer"
 
-#. i18n: file: printing/rbs_appearance.ui:121
+#. i18n: file: printing/rbs_appearance.ui:106
 #. i18n: ectx: property (text), widget (QCheckBox, cbEmails)
-#: rc.cpp:59
+#: rc.cpp:53
 #, fuzzy
 msgid "Email addresses"
 msgstr "E-pos adresse:"
 
-#. i18n: file: printing/rbs_appearance.ui:131
+#. i18n: file: printing/rbs_appearance.ui:116
 #. i18n: ectx: property (text), widget (QCheckBox, cbStreetAddresses)
-#: rc.cpp:62
+#: rc.cpp:56
 #, fuzzy
 msgid "Street addresses"
 msgstr "Redigeer Adres"
 
-#. i18n: file: printing/rbs_appearance.ui:141
+#. i18n: file: printing/rbs_appearance.ui:126
 #. i18n: ectx: property (text), widget (QCheckBox, cbOrganization)
-#: rc.cpp:65 xxport/ldap/ldapsearchdialog.cpp:94
+#: rc.cpp:59 xxport/ldap/ldapsearchdialog.cpp:94
 #: xxport/ldap/ldapsearchdialog.cpp:184
 msgid "Organization"
 msgstr "Organisasie"
 
-#. i18n: file: printing/rbs_appearance.ui:148
+#. i18n: file: printing/rbs_appearance.ui:133
 #. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
-#: rc.cpp:68
+#: rc.cpp:62
 #, fuzzy
 msgid "Birthday"
 msgstr "Verjaardag:"
 
-#. i18n: file: printing/rbs_appearance.ui:182
+#. i18n: file: printing/rbs_appearance.ui:167
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: rc.cpp:71
+#: rc.cpp:65
 msgid "Letter Groups"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:194
+#. i18n: file: printing/rbs_appearance.ui:179
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: rc.cpp:74
+#: rc.cpp:68
 msgid ""
 "Here you can group letters together as they are grouped in your time "
 "planner. Press 'group letter' to combine the selected letter with the letter "
@@ -554,45 +547,45 @@ msgid ""
 "selected group."
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:213
+#. i18n: file: printing/rbs_appearance.ui:198
 #. i18n: ectx: property (text), widget (QPushButton, groupButton)
-#: rc.cpp:77
+#: rc.cpp:71
 msgid "Group Letter"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:220
+#. i18n: file: printing/rbs_appearance.ui:205
 #. i18n: ectx: property (text), widget (QPushButton, ungroupButton)
-#: rc.cpp:80
+#: rc.cpp:74
 msgid "Ungroup Letter"
 msgstr ""
 
 #. i18n: file: printing/ds_appearance.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, AppearancePage_Base)
-#: rc.cpp:83
+#: rc.cpp:77
 msgid "Appearance Page"
 msgstr "Voorkoms Bladsy"
 
 #. i18n: file: printing/ds_appearance.ui:50
 #. i18n: ectx: property (text), widget (QLabel, labelHeader)
-#: rc.cpp:86 printing/detailledstyle.cpp:87
+#: rc.cpp:80 printing/detailledstyle.cpp:87
 msgid "Detailed Print Style - Appearance"
 msgstr "Gedetaileerde Druk Styl - Voorkoms"
 
 #. i18n: file: printing/ds_appearance.ui:71
 #. i18n: ectx: property (title), widget (QGroupBox, gbFont)
-#: rc.cpp:89
+#: rc.cpp:83
 msgid "Font Settings"
 msgstr "Skrif tipe Instellings"
 
 #. i18n: file: printing/ds_appearance.ui:83
 #. i18n: ectx: property (text), widget (QCheckBox, cbStandardFonts)
-#: rc.cpp:92
+#: rc.cpp:86
 msgid "Use standard KDE fonts"
 msgstr "Gebruik standaard Kde skriftipes"
 
 #. i18n: file: printing/ds_appearance.ui:105
 #. i18n: ectx: property (text), widget (QLabel, labelDetailsFont)
-#: rc.cpp:95
+#: rc.cpp:89
 msgid "Details font:"
 msgstr "Details skrif tipe:"
 
@@ -606,55 +599,55 @@ msgstr "Details skrif tipe:"
 #. i18n: ectx: property (text), widget (QLabel, labelHeaderFontSize)
 #. i18n: file: printing/ds_appearance.ui:233
 #. i18n: ectx: property (text), widget (QLabel, labelHeaderFontSize_2)
-#: rc.cpp:98 rc.cpp:104 rc.cpp:110 rc.cpp:116 rc.cpp:119
+#: rc.cpp:92 rc.cpp:98 rc.cpp:104 rc.cpp:110 rc.cpp:113
 msgid "Size:"
 msgstr "Grootte:"
 
 #. i18n: file: printing/ds_appearance.ui:125
 #. i18n: ectx: property (text), widget (QLabel, labelBodyFont)
-#: rc.cpp:101
+#: rc.cpp:95
 msgid "Body font:"
 msgstr "Liggaam skrif tipe:"
 
 #. i18n: file: printing/ds_appearance.ui:145
 #. i18n: ectx: property (text), widget (QLabel, labelFixed)
-#: rc.cpp:107
+#: rc.cpp:101
 msgid "Fixed font:"
 msgstr "Vasgemaakte skrif tipe:"
 
 #. i18n: file: printing/ds_appearance.ui:198
 #. i18n: ectx: property (text), widget (QLabel, labelHeaderFont)
-#: rc.cpp:113
+#: rc.cpp:107
 msgid "Contact header font:"
 msgstr "Kontak opskrif skrif tipe:"
 
 #. i18n: file: printing/ds_appearance.ui:246
 #. i18n: ectx: property (text), widget (QLabel, labelHeadlines)
-#: rc.cpp:122
+#: rc.cpp:116
 msgid "Headlines:"
 msgstr "Hoof opskrifte:"
 
 #. i18n: file: printing/ds_appearance.ui:276
 #. i18n: ectx: property (title), widget (QGroupBox, gbHeadline)
-#: rc.cpp:125
+#: rc.cpp:119
 msgid "Contact Headers"
 msgstr "Kontak Opskrifte"
 
 #. i18n: file: printing/ds_appearance.ui:288
 #. i18n: ectx: property (text), widget (QCheckBox, cbBackgroundColor)
-#: rc.cpp:128
+#: rc.cpp:122
 msgid "Use colored contact headers"
 msgstr "Gebruik gekleurde kontak opskrifte"
 
 #. i18n: file: printing/ds_appearance.ui:324
 #. i18n: ectx: property (text), widget (QLabel, tlBackgroundColor)
-#: rc.cpp:131
+#: rc.cpp:125
 msgid "Headline background color:"
 msgstr "Hoof opskrif agtergrond kleur:"
 
 #. i18n: file: printing/ds_appearance.ui:334
 #. i18n: ectx: property (text), widget (QLabel, tlHeaderColor)
-#: rc.cpp:134
+#: rc.cpp:128
 msgid "Headline text color:"
 msgstr "Hoof opskrif teks kleur:"
 
@@ -748,64 +741,6 @@ msgstr "Besig om te druk: Vordering"
 msgid "Progress"
 msgstr "Vordering"
 
-#: printing/selectionpage.cpp:47
-msgid "Choose Which Contacts to Print"
-msgstr ""
-
-#: printing/selectionpage.cpp:53
-msgid "Which contacts do you want to print?"
-msgstr ""
-
-#: printing/selectionpage.cpp:65
-#, fuzzy
-msgid "&All contacts"
-msgstr "Uitvee Kontak"
-
-#: printing/selectionpage.cpp:67
-msgid "Print the entire address book"
-msgstr ""
-
-#: printing/selectionpage.cpp:70
-#, fuzzy
-msgid "&Selected contacts"
-msgstr "Uitvee Kontak"
-
-#: printing/selectionpage.cpp:71
-msgid ""
-"Only print contacts selected in KAddressBook.\n"
-"This option is disabled if no contacts are selected."
-msgstr ""
-
-#: printing/selectionpage.cpp:75
-msgid "Contacts matching &filter"
-msgstr ""
-
-#: printing/selectionpage.cpp:77
-msgid ""
-"Only print contacts matching the selected filter.\n"
-"This option is disabled if you have not defined any filters."
-msgstr ""
-
-#: printing/selectionpage.cpp:81
-#, fuzzy
-msgid "Category &members"
-msgstr "Katagoriee"
-
-#: printing/selectionpage.cpp:83
-msgid ""
-"Only print contacts who are members of a category that is checked on the "
-"list to the left.\n"
-"This option is disabled if you have no categories."
-msgstr ""
-
-#: printing/selectionpage.cpp:89
-msgid "Select a filter to decide which contacts to print."
-msgstr ""
-
-#: printing/selectionpage.cpp:95
-msgid "Check the categories whose members you want to print."
-msgstr ""
-
 #: printing/ringbinderstyle.cpp:107
 #, fuzzy
 msgid "Ring Binder Printing Style - Appearance"
@@ -829,20 +764,24 @@ msgstr "Besig om te druk"
 msgid "Done"
 msgstr "Klaar"
 
-#: printing/ringbinderstyle.cpp:524
+#: printing/ringbinderstyle.cpp:523
 msgid "Printout for Ring Binders"
 msgstr ""
 
-#: printing/printingwizard.cpp:62
+#: printing/printingwizard.cpp:55
+msgid "Which contacts do you want to print?"
+msgstr ""
+
+#: printing/printingwizard.cpp:59
 msgid "Choose Contacts to Print"
 msgstr ""
 
-#: printing/printingwizard.cpp:69 printing/stylepage.cpp:111
+#: printing/printingwizard.cpp:65 printing/stylepage.cpp:121
 #, fuzzy
 msgid "Choose Printing Style"
 msgstr "Druk styl:"
 
-#: printing/printingwizard.cpp:139
+#: printing/printingwizard.cpp:130
 msgid "Print Progress"
 msgstr "Druk Vordering"
 
@@ -859,45 +798,45 @@ msgstr "Printed op %1 deur K-adresboek (http://www.kde.org)"
 msgid "Mike's Printing Style"
 msgstr ""
 
-#: printing/stylepage.cpp:45
+#: printing/stylepage.cpp:51
 msgid "Ascending"
 msgstr ""
 
-#: printing/stylepage.cpp:46
+#: printing/stylepage.cpp:52
 msgid "Descending"
 msgstr ""
 
-#: printing/stylepage.cpp:58
+#: printing/stylepage.cpp:64
 msgid "(No preview available.)"
 msgstr "(Nee voorskou beskikbaar.)"
 
-#: printing/stylepage.cpp:117
+#: printing/stylepage.cpp:127
 msgid ""
 "What should the print look like?\n"
 "KAddressBook has several printing styles, designed for different purposes.\n"
 "Choose the style that suits your needs below."
 msgstr ""
 
-#: printing/stylepage.cpp:122
+#: printing/stylepage.cpp:132
 #, fuzzy
 msgid "Sorting"
 msgstr "Besig om te druk"
 
-#: printing/stylepage.cpp:129
+#: printing/stylepage.cpp:139
 #, fuzzy
 msgid "Criterion:"
 msgstr "Organisasie:"
 
-#: printing/stylepage.cpp:135
+#: printing/stylepage.cpp:145
 msgid "Order:"
 msgstr ""
 
-#: printing/stylepage.cpp:143
+#: printing/stylepage.cpp:153
 #, fuzzy
 msgid "Print Style"
 msgstr "Druk styl:"
 
-#: printing/detailledstyle.cpp:296
+#: printing/detailledstyle.cpp:295
 msgid "Detailed Style"
 msgstr "Gedetaileerde Styl"
 
@@ -1458,6 +1397,21 @@ msgstr "Klient"
 msgid "Encryption keys"
 msgstr "Egipte"
 
+#: contactselectionwidget.cpp:85
+#, fuzzy
+msgid "All contacts"
+msgstr "Uitvee Kontak"
+
+#: contactselectionwidget.cpp:86
+#, fuzzy
+msgid "Selected contacts"
+msgstr "Uitvee Kontak"
+
+#: contactselectionwidget.cpp:87
+#, fuzzy
+msgid "All contacts from:"
+msgstr "Uitvee Kontak"
+
 #: contactswitcher.cpp:35
 msgid "Previous"
 msgstr ""
@@ -1471,6 +1425,10 @@ msgstr "Tibet"
 #, kde-format
 msgid "%1 out of %2"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Category &members"
+#~ msgstr "Katagoriee"
 
 #, fuzzy
 #~ msgid "Any contact selected"
