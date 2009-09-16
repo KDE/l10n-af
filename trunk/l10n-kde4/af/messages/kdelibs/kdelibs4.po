@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-15 06:09+0200\n"
+"POT-Creation-Date: 2009-09-16 06:54+0200\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -3713,11 +3713,11 @@ msgstr "Die biblioteek: '%1' bevat nie 'n KDE aanpasbare 'factory' nie."
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr ""
 
-#: kdecore/config/kconfig.cpp:676
+#: kdecore/config/kconfig.cpp:681
 msgid "Please contact your system administrator."
 msgstr "Kontak asseblief die stelsel administrateur."
 
-#: kdecore/config/kconfigini.cpp:511
+#: kdecore/config/kconfigini.cpp:518
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "Konfiguraasie lêer \"%1\" is nie skryfbaar nie.\n"
@@ -4262,7 +4262,18 @@ msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "kort '%1'."
 
-#: kdecore/kernel/kcmdlineargs.cpp:916
+#: kdecore/kernel/kcmdlineargs.cpp:897
+#, kde-format
+msgctxt ""
+"@info:shell message on appcmd --version; %3 application name, other %n "
+"version strings"
+msgid ""
+"Qt: %1\n"
+"KDE: %2\n"
+"%3: %4\n"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:922
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -4272,86 +4283,86 @@ msgstr ""
 "%1 was geskryf deur\n"
 "%2"
 
-#: kdecore/kernel/kcmdlineargs.cpp:919
+#: kdecore/kernel/kcmdlineargs.cpp:925
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "Hierdie program was geskryf deur iemand wat anoniem wil bly."
 
-#: kdecore/kernel/kcmdlineargs.cpp:926
+#: kdecore/kernel/kcmdlineargs.cpp:932
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr "Gebruik asseblief http://bugs.kde.org om foute te raporteer.\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:928
+#: kdecore/kernel/kcmdlineargs.cpp:934
 #, kde-format
 msgid "Please report bugs to %1.\n"
 msgstr "Gebruik asseblief %1 .\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:953
+#: kdecore/kernel/kcmdlineargs.cpp:959
 #, kde-format
 msgid "Unexpected argument '%1'."
 msgstr "Onverwagte opsie '%1'."
 
-#: kdecore/kernel/kcmdlineargs.cpp:1070
+#: kdecore/kernel/kcmdlineargs.cpp:1076
 msgid "Use --help to get a list of available command line options."
 msgstr "Gebruik --help om 'n lys van beskikbaar opsies te kry."
 
-#: kdecore/kernel/kcmdlineargs.cpp:1093
+#: kdecore/kernel/kcmdlineargs.cpp:1099
 msgid "[options] "
 msgstr "[opsies] "
 
-#: kdecore/kernel/kcmdlineargs.cpp:1100
+#: kdecore/kernel/kcmdlineargs.cpp:1106
 #, kde-format
 msgid "[%1-options]"
 msgstr "[%1-opsies]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1121
+#: kdecore/kernel/kcmdlineargs.cpp:1127
 #, kde-format
 msgid "Usage: %1 %2\n"
 msgstr "Gebruik: %1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1124
+#: kdecore/kernel/kcmdlineargs.cpp:1130
 #, fuzzy
 msgid ""
 "\n"
 "Generic options:\n"
 msgstr "Generiese opsies"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1126
+#: kdecore/kernel/kcmdlineargs.cpp:1132
 msgid "Show help about options"
 msgstr "Vertoon hulp aangaande opsies"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1134
+#: kdecore/kernel/kcmdlineargs.cpp:1140
 #, kde-format
 msgid "Show %1 specific options"
 msgstr "Vertoon %1 spesifieke opsies"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1141
+#: kdecore/kernel/kcmdlineargs.cpp:1147
 msgid "Show all options"
 msgstr "Vertoon alle opsies"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1142
+#: kdecore/kernel/kcmdlineargs.cpp:1148
 msgid "Show author information"
 msgstr "Vertoon outeur informasie"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1143
+#: kdecore/kernel/kcmdlineargs.cpp:1149
 msgid "Show version information"
 msgstr "Vertoon weergawe informasie"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1144
+#: kdecore/kernel/kcmdlineargs.cpp:1150
 msgid "Show license information"
 msgstr "Vertoon lisensie informasie"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1145
+#: kdecore/kernel/kcmdlineargs.cpp:1151
 msgid "End of options"
 msgstr "Einde van opsies"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1166
+#: kdecore/kernel/kcmdlineargs.cpp:1172
 #, fuzzy, kde-format
 msgid ""
 "\n"
 "%1 options:\n"
 msgstr "%1 opsies"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1168
+#: kdecore/kernel/kcmdlineargs.cpp:1174
 msgid ""
 "\n"
 "Options:\n"
@@ -4359,7 +4370,7 @@ msgstr ""
 "\n"
 "Opsies:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1226
+#: kdecore/kernel/kcmdlineargs.cpp:1232
 msgid ""
 "\n"
 "Arguments:\n"
@@ -4367,16 +4378,16 @@ msgstr ""
 "\n"
 "Opsies:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1582
+#: kdecore/kernel/kcmdlineargs.cpp:1588
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr ""
 "Die lêers/URLs wat deur die program oopgemaak is sal na gebruik uitgevee word"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1583
+#: kdecore/kernel/kcmdlineargs.cpp:1589
 msgid "KDE-tempfile"
 msgstr ""
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:252
+#: kdecore/kernel/ktoolinvocation_x11.cpp:253
 #, kde-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -4387,11 +4398,12 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:253
+#: kdecore/kernel/ktoolinvocation_x11.cpp:254
 msgid "Could not Launch Mail Client"
 msgstr "Kon nie die E-pos Kliënt lanseer nie"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:307
+#: kdecore/kernel/ktoolinvocation_x11.cpp:299
+#: kdecore/kernel/ktoolinvocation_x11.cpp:325
 #, kde-format
 msgid ""
 "Could not launch the browser:\n"
@@ -4402,11 +4414,12 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:308
+#: kdecore/kernel/ktoolinvocation_x11.cpp:300
+#: kdecore/kernel/ktoolinvocation_x11.cpp:326
 msgid "Could not Launch Browser"
 msgstr "Kon nie die Web Blaaier lanseer nie"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:347
+#: kdecore/kernel/ktoolinvocation_x11.cpp:365
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not launch the mail client:\n"
@@ -4421,7 +4434,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:348
+#: kdecore/kernel/ktoolinvocation_x11.cpp:366
 #, fuzzy
 #| msgid "Could not Launch Mail Client"
 msgid "Could not Launch Terminal Client"
@@ -7494,9 +7507,9 @@ msgstr ""
 #: kdeui/dialogs/kshortcutseditor.cpp:571
 #: kdeui/dialogs/kshortcutseditor.cpp:587 kdeui/shortcuts/kglobalaccel.cpp:501
 #: kdeui/shortcuts/kglobalaccel.cpp:540
-#: kdeui/widgets/kkeysequencewidget.cpp:180
-#: kdeui/widgets/kkeysequencewidget.cpp:262
-#: kdeui/widgets/kkeysequencewidget.cpp:656
+#: kdeui/widgets/kkeysequencewidget.cpp:179
+#: kdeui/widgets/kkeysequencewidget.cpp:261
+#: kdeui/widgets/kkeysequencewidget.cpp:655
 msgid "Reassign"
 msgstr "Reassign"
 
@@ -7873,7 +7886,7 @@ msgstr "Verstek"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:56
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
-#: kdeui/widgets/kkeysequencewidget.cpp:690
+#: kdeui/widgets/kkeysequencewidget.cpp:689
 #, fuzzy
 #| msgid "None"
 msgctxt "No shortcut defined"
@@ -8814,27 +8827,27 @@ msgstr ""
 msgid "Conflict With Registered Global Shortcut"
 msgstr "Konflik gevind met Globale Kortpad"
 
-#: kdeui/shortcuts/kgesture.cpp:519
+#: kdeui/shortcuts/kgesture.cpp:517
 msgctxt "left mouse button"
 msgid "left button"
 msgstr ""
 
-#: kdeui/shortcuts/kgesture.cpp:522
+#: kdeui/shortcuts/kgesture.cpp:520
 msgctxt "middle mouse button"
 msgid "middle button"
 msgstr ""
 
-#: kdeui/shortcuts/kgesture.cpp:525
+#: kdeui/shortcuts/kgesture.cpp:523
 msgctxt "right mouse button"
 msgid "right button"
 msgstr ""
 
-#: kdeui/shortcuts/kgesture.cpp:528
+#: kdeui/shortcuts/kgesture.cpp:526
 msgctxt "a nonexistent value of mouse button"
 msgid "invalid button"
 msgstr ""
 
-#: kdeui/shortcuts/kgesture.cpp:542
+#: kdeui/shortcuts/kgesture.cpp:540
 #, kde-format
 msgctxt ""
 "a kind of mouse gesture: hold down one mouse button, then press another "
@@ -9539,41 +9552,41 @@ msgstr ""
 msgid "Desktop %1"
 msgstr "Werkskerm %1"
 
-#: kdeui/sonnet/dialog.cpp:102 kdeui/sonnet/dialog.cpp:218
-#: kdeui/sonnet/dialog.cpp:430
+#: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:225
+#: kdeui/sonnet/dialog.cpp:444
 #, fuzzy
 #| msgid "Check Spelling"
 msgctxt "@title:window"
 msgid "Check Spelling"
 msgstr "Gaan Spelling na"
 
-#: kdeui/sonnet/dialog.cpp:104
+#: kdeui/sonnet/dialog.cpp:105
 #, fuzzy
 #| msgid "&Finished"
 msgctxt "@action:button"
 msgid "&Finished"
 msgstr "Klaar"
 
-#: kdeui/sonnet/dialog.cpp:219
+#: kdeui/sonnet/dialog.cpp:226
 #, fuzzy
 #| msgid "Spell Checker"
 msgctxt "progress label"
 msgid "Spell checking in progress..."
 msgstr "Spel Toetser"
 
-#: kdeui/sonnet/dialog.cpp:240
+#: kdeui/sonnet/dialog.cpp:247
 #, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check stopped."
 msgstr "Spel Toetser"
 
-#: kdeui/sonnet/dialog.cpp:251
+#: kdeui/sonnet/dialog.cpp:258
 #, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check canceled."
 msgstr "Spel Toetser"
 
-#: kdeui/sonnet/dialog.cpp:426 kdeui/sonnet/dialog.cpp:430
+#: kdeui/sonnet/dialog.cpp:440 kdeui/sonnet/dialog.cpp:444
 #, fuzzy
 #| msgid "Spell Checker"
 msgid "Spell check complete."
@@ -11283,35 +11296,35 @@ msgstr "Onbekend"
 msgid "&Copy Full Text"
 msgstr "Kopiëer Teks"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:167
+#: kdeui/widgets/kkeysequencewidget.cpp:166
 #, kde-format
 msgid "Shortcut '%1' in Application %2 for action %3\n"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:174
+#: kdeui/widgets/kkeysequencewidget.cpp:173
 #, kde-format
 msgid "The shortcut '%1' conflicts with the following key combinations:\n"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:178
+#: kdeui/widgets/kkeysequencewidget.cpp:177
 #, fuzzy
 #| msgid "Conflict with Global Shortcut"
 msgid "Conflict With Registered Global Shortcut(s)"
 msgstr "Konflik gevind met Globale Kortpad"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:247
+#: kdeui/widgets/kkeysequencewidget.cpp:246
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Shortcut Conflict(s)"
 msgstr "Kortpad"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:251
+#: kdeui/widgets/kkeysequencewidget.cpp:250
 #, fuzzy, kde-format
 #| msgid "Content information: %1\n"
 msgid "Shortcut(s) '%1' for action '%2'\n"
 msgstr "Inhoud informasie: %1\n"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:256
+#: kdeui/widgets/kkeysequencewidget.cpp:255
 #, fuzzy, kde-format
 msgid ""
 "The \"%1\" shortcut is ambiguous with the following shortcuts.\n"
@@ -11321,13 +11334,13 @@ msgstr ""
 "Die '%1' sleutel kombinasie is alreeds aan die aksie \"%2\" geallokeer.\n"
 "Wil jy dit eerder aan die nuwe aksie allokeer?"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:270
+#: kdeui/widgets/kkeysequencewidget.cpp:269
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Shortcut conflict"
 msgstr "Kortpad"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:271
+#: kdeui/widgets/kkeysequencewidget.cpp:270
 #, fuzzy, kde-format
 #| msgid ""
 #| "The '%1' key combination has already been allocated to the \"%2\" "
@@ -11340,30 +11353,30 @@ msgstr ""
 "Die '%1' sleutel kombinasie is alreeds geallokeer aan die \"%2\" aksie.\n"
 "Kies asseblief 'n unieke sleutel kombinasie."
 
-#: kdeui/widgets/kkeysequencewidget.cpp:302
+#: kdeui/widgets/kkeysequencewidget.cpp:301
 msgid ""
 "Click on the button, then enter the shortcut like you would in the program.\n"
 "Example for Ctrl+a: hold the Ctrl key and press a."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:509
+#: kdeui/widgets/kkeysequencewidget.cpp:508
 #, fuzzy
 #| msgid "Shortcut"
 msgid "Reserved Shortcut"
 msgstr "Kortpad"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:510
+#: kdeui/widgets/kkeysequencewidget.cpp:509
 msgid ""
 "The F12 key is reserved on Windows and it can't be used for a global "
 "shortcut.\n"
 "Please choose another one"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:650
+#: kdeui/widgets/kkeysequencewidget.cpp:649
 msgid "Conflict with Standard Application Shortcut"
 msgstr "Konflik met Standaard Program Kortpad"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:651
+#: kdeui/widgets/kkeysequencewidget.cpp:650
 #, fuzzy, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -11374,18 +11387,18 @@ msgstr ""
 "\" geallokeer.\n"
 "Wil jy dit eerder aan die nuwe aksie allokeer?"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:683
+#: kdeui/widgets/kkeysequencewidget.cpp:682
 #, fuzzy
 #| msgid "Input file"
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "Invoer lêer"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:733
+#: kdeui/widgets/kkeysequencewidget.cpp:732
 msgid "The key you just pressed is not supported by Qt."
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:734
+#: kdeui/widgets/kkeysequencewidget.cpp:733
 #, fuzzy
 #| msgid "Untrusted"
 msgid "Unsupported Key"
