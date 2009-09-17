@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krfb VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-16 07:09+0200\n"
+"POT-Creation-Date: 2009-09-17 06:25+0200\n"
 "PO-Revision-Date: 2002-11-07 11:35+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -90,13 +90,13 @@ msgstr ""
 msgid "Address already in use"
 msgstr ""
 
-#: krfbserver.cpp:299
+#: krfbserver.cpp:302
 msgid ""
 "Your X11 Server does not support the required XTest extension version 2.2. "
 "Sharing your desktop is not possible."
 msgstr ""
 
-#: krfbserver.cpp:300
+#: krfbserver.cpp:303
 msgid "Desktop Sharing Error"
 msgstr "Werkskerm Deeling Fout"
 
@@ -104,7 +104,7 @@ msgstr "Werkskerm Deeling Fout"
 msgid "VNC-compatible server to share KDE desktops"
 msgstr "VNC-compatible bediener na deel Kde werkskerms"
 
-#: main.cpp:46 trayicon.cpp:77 trayicon.cpp:92
+#: main.cpp:46
 msgid "Desktop Sharing"
 msgstr "Werkskerm Deeling"
 
@@ -308,7 +308,7 @@ msgid ""
 "different address or be unreachable for other computers."
 msgstr ""
 
-#. i18n: file: configsecurity.ui:16
+#. i18n: file: configsecurity.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowUninvitedConnections)
 #: rc.cpp:3
 #, fuzzy
@@ -316,7 +316,7 @@ msgstr ""
 msgid "Allow uninvited connections"
 msgstr "Gesluit verbinding: %1."
 
-#. i18n: file: configsecurity.ui:23
+#. i18n: file: configsecurity.ui:24
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowDesktopControl)
 #: rc.cpp:6
 #, fuzzy
@@ -324,13 +324,15 @@ msgstr "Gesluit verbinding: %1."
 msgid "Allow remote connections to control your desktop"
 msgstr "Toelaat afgeleë gebruiker na kontrole sleutelbord en muis"
 
-#. i18n: file: configsecurity.ui:36
+#. i18n: file: configsecurity.ui:37
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_askOnConnect)
 #: rc.cpp:9
-msgid "Ask before accepting an uninvited connection"
-msgstr ""
+#, fuzzy
+#| msgid "User accepts connection from %1"
+msgid "Ask before accepting connections"
+msgstr "Gebruiker aanvaar verbinding van %1"
 
-#. i18n: file: configsecurity.ui:49
+#. i18n: file: configsecurity.ui:50
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:12
 #, fuzzy
@@ -665,23 +667,25 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za"
 
-#: trayicon.cpp:38 trayicon.cpp:90
+#: trayicon.cpp:39 trayicon.cpp:91
 #, fuzzy
 msgid "Desktop Sharing - disconnected"
 msgstr "Werkskerm Deeling Fout"
 
-#: trayicon.cpp:47
+#: trayicon.cpp:48
 msgid "Enable Remote Control"
 msgstr "Aktiveer Afgeleë Kontrole"
 
-#: trayicon.cpp:48
+#: trayicon.cpp:49
 #, fuzzy
 msgid "Disable Remote Control"
 msgstr "Aktiveer Afgeleë Kontrole"
 
-#: trayicon.cpp:78
-msgid "The remote user has been authenticated and is now connected."
-msgstr ""
+#: trayicon.cpp:79
+#, fuzzy, kde-format
+#| msgid "The remote user has closed the connection."
+msgid "The remote user %1 is now connected."
+msgstr "Die afgeleë gebruiker het gesluit Die verbinding."
 
 #: trayicon.cpp:81
 #, fuzzy, kde-format
@@ -691,9 +695,6 @@ msgstr "Werkskerm Deeling Fout"
 #: trayicon.cpp:93
 msgid "The remote user has closed the connection."
 msgstr "Die afgeleë gebruiker het gesluit Die verbinding."
-
-#~ msgid "User accepts connection from %1"
-#~ msgstr "Gebruiker aanvaar verbinding van %1"
 
 #~ msgid "Closed connection: %1."
 #~ msgstr "Gesluit verbinding: %1."
