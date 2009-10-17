@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-16 06:15+0200\n"
+"POT-Creation-Date: 2009-10-17 06:44+0200\n"
 "PO-Revision-Date: 2006-01-17 16:37+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -48,7 +48,7 @@ msgstr "(c) 1999-2005, Die Konqueror ontwikkelaars"
 msgid "http://konqueror.kde.org"
 msgstr "http://konqueror.kde.org"
 
-#: src/konqfactory.cpp:236 sidebar/konqsidebar.cpp:30
+#: src/konqfactory.cpp:236 sidebar/sidebar_part.cpp:30
 msgid "David Faure"
 msgstr ""
 
@@ -308,7 +308,7 @@ msgstr ""
 msgid "KFM author"
 msgstr "kfm outeur"
 
-#: src/konqfactory.cpp:268 sidebar/konqsidebar.cpp:29
+#: src/konqfactory.cpp:268 sidebar/sidebar_part.cpp:29
 msgid "Joseph Wenninger"
 msgstr ""
 
@@ -430,7 +430,7 @@ msgstr ""
 msgid "Ask Me Later"
 msgstr "As Nuwe Gids"
 
-#: src/konqmainwindow.cpp:518
+#: src/konqmainwindow.cpp:519
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -439,7 +439,7 @@ msgstr ""
 "Misformde Url\n"
 "%1"
 
-#: src/konqmainwindow.cpp:523
+#: src/konqmainwindow.cpp:524
 #, kde-format
 msgid ""
 "Protocol not supported\n"
@@ -448,7 +448,7 @@ msgstr ""
 "Protokol nie ondersteunde\n"
 "%1"
 
-#: src/konqmainwindow.cpp:562
+#: src/konqmainwindow.cpp:563
 msgctxt "@title:tab"
 msgid "Loading..."
 msgstr ""
@@ -473,7 +473,7 @@ msgstr ""
 #: src/konqmainwindow.cpp:2421 src/konqmainwindow.cpp:2510
 #: src/konqmainwindow.cpp:2528 src/konqmainwindow.cpp:2548
 #: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:2629
-#: src/konqmainwindow.cpp:5075 src/konqviewmanager.cpp:1387
+#: src/konqmainwindow.cpp:5075 src/konqviewmanager.cpp:1396
 msgid "Discard Changes?"
 msgstr "Gooi Veranderinge Weg?"
 
@@ -481,7 +481,7 @@ msgstr "Gooi Veranderinge Weg?"
 #: src/konqmainwindow.cpp:2421 src/konqmainwindow.cpp:2510
 #: src/konqmainwindow.cpp:2528 src/konqmainwindow.cpp:2548
 #: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:2629
-#: src/konqmainwindow.cpp:5075 src/konqviewmanager.cpp:1387
+#: src/konqmainwindow.cpp:5075 src/konqviewmanager.cpp:1396
 msgid "&Discard Changes"
 msgstr "Gooi Veranderinge Weg"
 
@@ -1132,7 +1132,7 @@ msgstr ""
 "Jy het veelvuldige oorjies in hierdie venster oop. Is jy seker jy wil "
 "uitgaan?"
 
-#: src/konqmainwindow.cpp:5037 src/konqviewmanager.cpp:1369
+#: src/konqmainwindow.cpp:5037 src/konqviewmanager.cpp:1378
 msgid "Confirmation"
 msgstr "Bevestiging"
 
@@ -1344,7 +1344,7 @@ msgstr "Maak Oortjie Toe"
 msgid "Und&o"
 msgstr ""
 
-#: src/konqviewmanager.cpp:1367
+#: src/konqviewmanager.cpp:1376
 msgid ""
 "You have multiple tabs open in this window.\n"
 "Loading a view profile will close them."
@@ -1352,11 +1352,11 @@ msgstr ""
 "Jy het meervuldige oortjies oop in die venster.\n"
 "Laai 'n voorskou profiel sal hulle toemaak."
 
-#: src/konqviewmanager.cpp:1370
+#: src/konqviewmanager.cpp:1379
 msgid "Load View Profile"
 msgstr "Laai Besigtig Profiel"
 
-#: src/konqviewmanager.cpp:1386
+#: src/konqviewmanager.cpp:1395
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Loading a profile will discard these changes."
@@ -1617,78 +1617,82 @@ msgstr "Skep Nuwe Gids"
 msgid "Enter folder name:"
 msgstr "Voer gids naam in:"
 
-#: sidebar/sidebar_widget.cpp:104
+#: sidebar/sidebar_part.cpp:28
+msgid "Extended Sidebar"
+msgstr "Uitgebreide Kantbalk"
+
+#: sidebar/sidebar_widget.cpp:99
 msgid "Rollback to System Default"
 msgstr "Terugrol na Stelsel Verstek"
 
-#: sidebar/sidebar_widget.cpp:110
+#: sidebar/sidebar_widget.cpp:105
 msgid ""
 "<qt>This removes all your entries from the sidebar and adds the system "
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
 "proceed?</qt>"
 msgstr ""
 
-#: sidebar/sidebar_widget.cpp:240
+#: sidebar/sidebar_widget.cpp:234
 msgid "Configure Navigation Panel"
 msgstr "Konfigureer Navigering Paneel"
 
-#: sidebar/sidebar_widget.cpp:242
+#: sidebar/sidebar_widget.cpp:236
 msgid "Add New"
 msgstr "Voeg by Nuwe"
 
-#: sidebar/sidebar_widget.cpp:244
+#: sidebar/sidebar_widget.cpp:238
 msgid "Multiple Views"
 msgstr "Veelvuldige Aansigte"
 
-#: sidebar/sidebar_widget.cpp:246 sidebar/sidebar_widget.cpp:362
+#: sidebar/sidebar_widget.cpp:240 sidebar/sidebar_widget.cpp:353
 msgid "Show Tabs Left"
 msgstr "Vertoon Oortjies aan die Linkerkant"
 
-#: sidebar/sidebar_widget.cpp:247
+#: sidebar/sidebar_widget.cpp:241
 msgid "Show Configuration Button"
 msgstr "Vertoon Opstelling Knoppie"
 
-#: sidebar/sidebar_widget.cpp:250
+#: sidebar/sidebar_widget.cpp:244
 msgid "Close Navigation Panel"
 msgstr "Maak Navigasie Paneel Toe"
 
-#: sidebar/sidebar_widget.cpp:293
+#: sidebar/sidebar_widget.cpp:287
 msgid "This entry already exists."
 msgstr "Hierdie inskrywing bestaan reeds."
 
-#: sidebar/sidebar_widget.cpp:307 sidebar/web_module/web_module.cpp:217
+#: sidebar/sidebar_widget.cpp:301 sidebar/web_module/web_module.cpp:217
 msgid "Web SideBar Plugin"
 msgstr "Web Kantbalk Inprop"
 
-#: sidebar/sidebar_widget.cpp:362
+#: sidebar/sidebar_widget.cpp:353
 #, fuzzy
 #| msgid "Move Tab Right"
 msgid "Show Tabs Right"
 msgstr "Beweeg Oortjie Regs"
 
-#: sidebar/sidebar_widget.cpp:437
+#: sidebar/sidebar_widget.cpp:424
 msgid "Set Name"
 msgstr "Stel Naam"
 
-#: sidebar/sidebar_widget.cpp:437
+#: sidebar/sidebar_widget.cpp:424
 msgid "Enter the name:"
 msgstr "Invoer die naam:"
 
-#: sidebar/sidebar_widget.cpp:455
+#: sidebar/sidebar_widget.cpp:442
 msgid "Enter a URL:"
 msgstr "Invoer 'n Url:"
 
-#: sidebar/sidebar_widget.cpp:463
+#: sidebar/sidebar_widget.cpp:450
 #, kde-format
 msgid "<qt><b>%1</b> does not exist</qt>"
 msgstr "<qt><b>%1</b> bestaan nie</qt>"
 
-#: sidebar/sidebar_widget.cpp:494
+#: sidebar/sidebar_widget.cpp:481
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr "<qt>Wil jy rerig verwyder die <b>%1</b> oortjie?</qt>"
 
-#: sidebar/sidebar_widget.cpp:542
+#: sidebar/sidebar_widget.cpp:529
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
 "visible again, click the right mouse button on any of the navigation panel "
@@ -1698,23 +1702,23 @@ msgstr ""
 "sigbare weer, kliek die regterkant muis knoppie op enige van die navigering "
 "paneel knoppies en kies \"Vertoon opstelling knoppie\"."
 
-#: sidebar/sidebar_widget.cpp:627
+#: sidebar/sidebar_widget.cpp:598
 msgid "Configure Sidebar"
 msgstr "Stel Kantbalk op"
 
-#: sidebar/sidebar_widget.cpp:744
+#: sidebar/sidebar_widget.cpp:715
 msgid "Set Name..."
 msgstr "Stel Naam..."
 
-#: sidebar/sidebar_widget.cpp:745
+#: sidebar/sidebar_widget.cpp:716
 msgid "Set URL..."
 msgstr "Stel URL..."
 
-#: sidebar/sidebar_widget.cpp:746
+#: sidebar/sidebar_widget.cpp:717
 msgid "Set Icon..."
 msgstr "Stel Ikoon..."
 
-#: sidebar/sidebar_widget.cpp:748
+#: sidebar/sidebar_widget.cpp:719
 #, fuzzy
 msgid "Remove"
 msgstr "Verander naam"
@@ -1740,10 +1744,6 @@ msgstr "Oopmaak Skakel"
 #: sidebar/web_module/web_module.h:59
 msgid "Set &Automatic Reload"
 msgstr "Instel Automatiese Herlaai"
-
-#: sidebar/konqsidebar.cpp:28
-msgid "Extended Sidebar"
-msgstr "Uitgebreide Kantbalk"
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
