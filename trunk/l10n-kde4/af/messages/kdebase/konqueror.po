@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-17 06:44+0200\n"
+"POT-Creation-Date: 2009-10-20 06:07+0200\n"
 "PO-Revision-Date: 2006-01-17 16:37+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1465,11 +1465,18 @@ msgstr ""
 msgid "Location to open"
 msgstr "Ligging om oop te maak"
 
-#: sidebar/trees/konqsidebar_tree.cpp:138
+#: sidebar/test/modulemanagertest.cpp:87
+#: sidebar/test/modulemanagertest.cpp:114
+#, fuzzy
+#| msgid "Web SideBar Plugin"
+msgid "SideBar Test Plugin"
+msgstr "Web Kantbalk Inprop"
+
+#: sidebar/trees/konqsidebar_tree.cpp:161
 msgid "Select Type"
 msgstr "Kies Tipe"
 
-#: sidebar/trees/konqsidebar_tree.cpp:139
+#: sidebar/trees/konqsidebar_tree.cpp:162
 msgid "Select type:"
 msgstr "Kies tipe:"
 
@@ -1513,7 +1520,7 @@ msgid "&Create New Folder"
 msgstr "Skep Nuwe Gids..."
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:77
-#: sidebar/trees/konq_sidebartree.cpp:932
+#: sidebar/trees/konq_sidebartree.cpp:905
 msgid "Delete Folder"
 msgstr "Vee Gids Uit"
 
@@ -1522,18 +1529,18 @@ msgid "Delete Bookmark"
 msgstr "Verwyder Boekmerk"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:85
-#: sidebar/trees/konq_sidebartree.cpp:941
+#: sidebar/trees/konq_sidebartree.cpp:914
 #, fuzzy
 msgid "Properties"
 msgstr "Boekmerk Eienskappe"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:89
-#: sidebar/trees/konq_sidebartree.cpp:944
+#: sidebar/trees/konq_sidebartree.cpp:917
 msgid "Open in New Window"
 msgstr "Maak oop in Nuwe Venster"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:93
-#: sidebar/trees/konq_sidebartree.cpp:947
+#: sidebar/trees/konq_sidebartree.cpp:920
 msgid "Open in New Tab"
 msgstr "Maak in Nuwe Oortjie oop"
 
@@ -1542,7 +1549,7 @@ msgid "Open Folder in Tabs"
 msgstr "Maak Gids in Oorjies Oop"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:101
-#: sidebar/trees/konq_sidebartree.cpp:950
+#: sidebar/trees/konq_sidebartree.cpp:923
 msgid "Copy Link Address"
 msgstr "Kopie maak van koppel adres"
 
@@ -1593,27 +1600,27 @@ msgstr "Ligging: "
 msgid "Add Bookmark"
 msgstr "Voeg Boekmerk By"
 
-#: sidebar/trees/konq_sidebartree.cpp:929
+#: sidebar/trees/konq_sidebartree.cpp:902
 msgid "&Create New Folder..."
 msgstr "Skep Nuwe Gids..."
 
-#: sidebar/trees/konq_sidebartree.cpp:935
+#: sidebar/trees/konq_sidebartree.cpp:908
 msgid "Rename"
 msgstr "Verander naam"
 
-#: sidebar/trees/konq_sidebartree.cpp:938
+#: sidebar/trees/konq_sidebartree.cpp:911
 msgid "Delete Link"
 msgstr "Uitvee Koppeling"
 
-#: sidebar/trees/konq_sidebartree.cpp:989
+#: sidebar/trees/konq_sidebartree.cpp:962
 msgid "New Folder"
 msgstr "Nuwe Gids"
 
-#: sidebar/trees/konq_sidebartree.cpp:993
+#: sidebar/trees/konq_sidebartree.cpp:966
 msgid "Create New Folder"
 msgstr "Skep Nuwe Gids"
 
-#: sidebar/trees/konq_sidebartree.cpp:994
+#: sidebar/trees/konq_sidebartree.cpp:967
 msgid "Enter folder name:"
 msgstr "Voer gids naam in:"
 
@@ -1621,78 +1628,69 @@ msgstr "Voer gids naam in:"
 msgid "Extended Sidebar"
 msgstr "Uitgebreide Kantbalk"
 
-#: sidebar/sidebar_widget.cpp:99
+#: sidebar/sidebar_widget.cpp:84
 msgid "Rollback to System Default"
 msgstr "Terugrol na Stelsel Verstek"
 
-#: sidebar/sidebar_widget.cpp:105
+#: sidebar/sidebar_widget.cpp:171
+msgid "Configure Navigation Panel"
+msgstr "Konfigureer Navigering Paneel"
+
+#: sidebar/sidebar_widget.cpp:173
+msgid "Add New"
+msgstr "Voeg by Nuwe"
+
+#: sidebar/sidebar_widget.cpp:177
+msgid "Multiple Views"
+msgstr "Veelvuldige Aansigte"
+
+#: sidebar/sidebar_widget.cpp:179 sidebar/sidebar_widget.cpp:276
+msgid "Show Tabs Left"
+msgstr "Vertoon Oortjies aan die Linkerkant"
+
+#: sidebar/sidebar_widget.cpp:180
+msgid "Show Configuration Button"
+msgstr "Vertoon Opstelling Knoppie"
+
+#: sidebar/sidebar_widget.cpp:183
+msgid "Close Navigation Panel"
+msgstr "Maak Navigasie Paneel Toe"
+
+#: sidebar/sidebar_widget.cpp:211
+msgid "This entry already exists."
+msgstr "Hierdie inskrywing bestaan reeds."
+
+#: sidebar/sidebar_widget.cpp:234
 msgid ""
 "<qt>This removes all your entries from the sidebar and adds the system "
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
 "proceed?</qt>"
 msgstr ""
 
-#: sidebar/sidebar_widget.cpp:234
-msgid "Configure Navigation Panel"
-msgstr "Konfigureer Navigering Paneel"
-
-#: sidebar/sidebar_widget.cpp:236
-msgid "Add New"
-msgstr "Voeg by Nuwe"
-
-#: sidebar/sidebar_widget.cpp:238
-msgid "Multiple Views"
-msgstr "Veelvuldige Aansigte"
-
-#: sidebar/sidebar_widget.cpp:240 sidebar/sidebar_widget.cpp:353
-msgid "Show Tabs Left"
-msgstr "Vertoon Oortjies aan die Linkerkant"
-
-#: sidebar/sidebar_widget.cpp:241
-msgid "Show Configuration Button"
-msgstr "Vertoon Opstelling Knoppie"
-
-#: sidebar/sidebar_widget.cpp:244
-msgid "Close Navigation Panel"
-msgstr "Maak Navigasie Paneel Toe"
-
-#: sidebar/sidebar_widget.cpp:287
-msgid "This entry already exists."
-msgstr "Hierdie inskrywing bestaan reeds."
-
-#: sidebar/sidebar_widget.cpp:301 sidebar/web_module/web_module.cpp:217
-msgid "Web SideBar Plugin"
-msgstr "Web Kantbalk Inprop"
-
-#: sidebar/sidebar_widget.cpp:353
+#: sidebar/sidebar_widget.cpp:276
 #, fuzzy
 #| msgid "Move Tab Right"
 msgid "Show Tabs Right"
 msgstr "Beweeg Oortjie Regs"
 
-#: sidebar/sidebar_widget.cpp:424
+#: sidebar/sidebar_widget.cpp:286
 msgid "Set Name"
 msgstr "Stel Naam"
 
-#: sidebar/sidebar_widget.cpp:424
+#: sidebar/sidebar_widget.cpp:286
 msgid "Enter the name:"
 msgstr "Invoer die naam:"
 
-#: sidebar/sidebar_widget.cpp:442
+#: sidebar/sidebar_widget.cpp:301
 msgid "Enter a URL:"
 msgstr "Invoer 'n Url:"
 
-#: sidebar/sidebar_widget.cpp:450
-#, kde-format
-msgid "<qt><b>%1</b> does not exist</qt>"
-msgstr "<qt><b>%1</b> bestaan nie</qt>"
-
-#: sidebar/sidebar_widget.cpp:481
+#: sidebar/sidebar_widget.cpp:324
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr "<qt>Wil jy rerig verwyder die <b>%1</b> oortjie?</qt>"
 
-#: sidebar/sidebar_widget.cpp:529
+#: sidebar/sidebar_widget.cpp:370
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
 "visible again, click the right mouse button on any of the navigation panel "
@@ -1702,40 +1700,44 @@ msgstr ""
 "sigbare weer, kliek die regterkant muis knoppie op enige van die navigering "
 "paneel knoppies en kies \"Vertoon opstelling knoppie\"."
 
-#: sidebar/sidebar_widget.cpp:598
+#: sidebar/sidebar_widget.cpp:438
 msgid "Configure Sidebar"
 msgstr "Stel Kantbalk op"
 
-#: sidebar/sidebar_widget.cpp:715
+#: sidebar/sidebar_widget.cpp:551
 msgid "Set Name..."
 msgstr "Stel Naam..."
 
-#: sidebar/sidebar_widget.cpp:716
+#: sidebar/sidebar_widget.cpp:552
 msgid "Set URL..."
 msgstr "Stel URL..."
 
-#: sidebar/sidebar_widget.cpp:717
+#: sidebar/sidebar_widget.cpp:553
 msgid "Set Icon..."
 msgstr "Stel Ikoon..."
 
-#: sidebar/sidebar_widget.cpp:719
+#: sidebar/sidebar_widget.cpp:555
 #, fuzzy
 msgid "Remove"
 msgstr "Verander naam"
 
-#: sidebar/web_module/web_module.cpp:90
+#: sidebar/web_module/web_module.cpp:86
 msgid "Set Refresh Timeout (0 disables)"
 msgstr "Instel vervris Tyduit (0 onaktiveerdes)"
 
-#: sidebar/web_module/web_module.cpp:98
+#: sidebar/web_module/web_module.cpp:94
 #, fuzzy
 msgid " min"
 msgstr "minute"
 
-#: sidebar/web_module/web_module.cpp:100
+#: sidebar/web_module/web_module.cpp:96
 #, fuzzy
 msgid " sec"
 msgstr "sekondes"
+
+#: sidebar/web_module/web_module.cpp:210
+msgid "Web SideBar Plugin"
+msgstr "Web Kantbalk Inprop"
 
 #: sidebar/web_module/web_module.h:52
 msgid "&Open Link"
@@ -2646,6 +2648,9 @@ msgid ""
 "If true, when opening a session from within the sessions dialog the tabs "
 "will be opened inside current window."
 msgstr ""
+
+#~ msgid "<qt><b>%1</b> does not exist</qt>"
+#~ msgstr "<qt><b>%1</b> bestaan nie</qt>"
 
 #~ msgid "Minutes"
 #~ msgstr "Minute"
