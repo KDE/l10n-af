@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-20 06:07+0200\n"
+"POT-Creation-Date: 2009-10-21 07:08+0200\n"
 "PO-Revision-Date: 2006-01-17 16:37+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1465,20 +1465,33 @@ msgstr ""
 msgid "Location to open"
 msgstr "Ligging om oop te maak"
 
-#: sidebar/test/modulemanagertest.cpp:87
-#: sidebar/test/modulemanagertest.cpp:114
+#: sidebar/test/modulemanagertest.cpp:89
+#: sidebar/test/modulemanagertest.cpp:115
 #, fuzzy
 #| msgid "Web SideBar Plugin"
 msgid "SideBar Test Plugin"
 msgstr "Web Kantbalk Inprop"
 
-#: sidebar/trees/konqsidebar_tree.cpp:161
-msgid "Select Type"
-msgstr "Kies Tipe"
+#: sidebar/trees/konqsidebar_tree.cpp:192
+#: sidebar/web_module/web_module.cpp:251
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "Naam:"
 
-#: sidebar/trees/konqsidebar_tree.cpp:162
-msgid "Select type:"
-msgstr "Kies tipe:"
+#: sidebar/trees/konqsidebar_tree.cpp:192
+#: sidebar/web_module/web_module.cpp:251
+#, fuzzy
+#| msgid "Show URL"
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr "Vertoon URL"
+
+#: sidebar/trees/konqsidebar_tree.cpp:193
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
 
 #: sidebar/trees/history_module/kcmhistory.cpp:69
 msgid " day"
@@ -1510,7 +1523,7 @@ msgstr ""
 "<h1>Geskiedenis Kantbalk</h1> Jy kan konfigureer die Geskiedenis Kantbalk "
 "hier."
 
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:423
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:414
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr "Kan nie vind ouer item %1 in die boom. Interne fout."
@@ -1628,69 +1641,69 @@ msgstr "Voer gids naam in:"
 msgid "Extended Sidebar"
 msgstr "Uitgebreide Kantbalk"
 
-#: sidebar/sidebar_widget.cpp:84
+#: sidebar/sidebar_widget.cpp:94
 msgid "Rollback to System Default"
 msgstr "Terugrol na Stelsel Verstek"
 
-#: sidebar/sidebar_widget.cpp:171
+#: sidebar/sidebar_widget.cpp:152
 msgid "Configure Navigation Panel"
 msgstr "Konfigureer Navigering Paneel"
 
-#: sidebar/sidebar_widget.cpp:173
+#: sidebar/sidebar_widget.cpp:154
 msgid "Add New"
 msgstr "Voeg by Nuwe"
 
-#: sidebar/sidebar_widget.cpp:177
+#: sidebar/sidebar_widget.cpp:158
 msgid "Multiple Views"
 msgstr "Veelvuldige Aansigte"
 
-#: sidebar/sidebar_widget.cpp:179 sidebar/sidebar_widget.cpp:276
+#: sidebar/sidebar_widget.cpp:160 sidebar/sidebar_widget.cpp:258
 msgid "Show Tabs Left"
 msgstr "Vertoon Oortjies aan die Linkerkant"
 
-#: sidebar/sidebar_widget.cpp:180
+#: sidebar/sidebar_widget.cpp:161
 msgid "Show Configuration Button"
 msgstr "Vertoon Opstelling Knoppie"
 
-#: sidebar/sidebar_widget.cpp:183
+#: sidebar/sidebar_widget.cpp:164
 msgid "Close Navigation Panel"
 msgstr "Maak Navigasie Paneel Toe"
 
-#: sidebar/sidebar_widget.cpp:211
+#: sidebar/sidebar_widget.cpp:192
 msgid "This entry already exists."
 msgstr "Hierdie inskrywing bestaan reeds."
 
-#: sidebar/sidebar_widget.cpp:234
+#: sidebar/sidebar_widget.cpp:216
 msgid ""
 "<qt>This removes all your entries from the sidebar and adds the system "
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
 "proceed?</qt>"
 msgstr ""
 
-#: sidebar/sidebar_widget.cpp:276
+#: sidebar/sidebar_widget.cpp:258
 #, fuzzy
 #| msgid "Move Tab Right"
 msgid "Show Tabs Right"
 msgstr "Beweeg Oortjie Regs"
 
-#: sidebar/sidebar_widget.cpp:286
+#: sidebar/sidebar_widget.cpp:268
 msgid "Set Name"
 msgstr "Stel Naam"
 
-#: sidebar/sidebar_widget.cpp:286
+#: sidebar/sidebar_widget.cpp:268
 msgid "Enter the name:"
 msgstr "Invoer die naam:"
 
-#: sidebar/sidebar_widget.cpp:301
+#: sidebar/sidebar_widget.cpp:285
 msgid "Enter a URL:"
 msgstr "Invoer 'n Url:"
 
-#: sidebar/sidebar_widget.cpp:324
+#: sidebar/sidebar_widget.cpp:308
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr "<qt>Wil jy rerig verwyder die <b>%1</b> oortjie?</qt>"
 
-#: sidebar/sidebar_widget.cpp:370
+#: sidebar/sidebar_widget.cpp:353
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
 "visible again, click the right mouse button on any of the navigation panel "
@@ -1700,44 +1713,52 @@ msgstr ""
 "sigbare weer, kliek die regterkant muis knoppie op enige van die navigering "
 "paneel knoppies en kies \"Vertoon opstelling knoppie\"."
 
-#: sidebar/sidebar_widget.cpp:438
+#: sidebar/sidebar_widget.cpp:421
 msgid "Configure Sidebar"
 msgstr "Stel Kantbalk op"
 
-#: sidebar/sidebar_widget.cpp:551
+#: sidebar/sidebar_widget.cpp:539
 msgid "Set Name..."
 msgstr "Stel Naam..."
 
-#: sidebar/sidebar_widget.cpp:552
+#: sidebar/sidebar_widget.cpp:540
 msgid "Set URL..."
 msgstr "Stel URL..."
 
-#: sidebar/sidebar_widget.cpp:553
+#: sidebar/sidebar_widget.cpp:541
 msgid "Set Icon..."
 msgstr "Stel Ikoon..."
 
-#: sidebar/sidebar_widget.cpp:555
+#: sidebar/sidebar_widget.cpp:543
 #, fuzzy
 msgid "Remove"
 msgstr "Verander naam"
 
-#: sidebar/web_module/web_module.cpp:86
+#: sidebar/web_module/web_module.cpp:89
 msgid "Set Refresh Timeout (0 disables)"
 msgstr "Instel vervris Tyduit (0 onaktiveerdes)"
 
-#: sidebar/web_module/web_module.cpp:94
+#: sidebar/web_module/web_module.cpp:97
 #, fuzzy
 msgid " min"
 msgstr "minute"
 
-#: sidebar/web_module/web_module.cpp:96
+#: sidebar/web_module/web_module.cpp:99
 #, fuzzy
 msgid " sec"
 msgstr "sekondes"
 
-#: sidebar/web_module/web_module.cpp:210
-msgid "Web SideBar Plugin"
-msgstr "Web Kantbalk Inprop"
+#: sidebar/web_module/web_module.cpp:231
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "Web Kantbalk"
+
+#: sidebar/web_module/web_module.cpp:252
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr ""
 
 #: sidebar/web_module/web_module.h:52
 msgid "&Open Link"
@@ -2649,6 +2670,15 @@ msgid ""
 "will be opened inside current window."
 msgstr ""
 
+#~ msgid "Select Type"
+#~ msgstr "Kies Tipe"
+
+#~ msgid "Select type:"
+#~ msgstr "Kies tipe:"
+
+#~ msgid "Web SideBar Plugin"
+#~ msgstr "Web Kantbalk Inprop"
+
 #~ msgid "<qt><b>%1</b> does not exist</qt>"
 #~ msgstr "<qt><b>%1</b> bestaan nie</qt>"
 
@@ -3413,9 +3443,6 @@ msgstr ""
 
 #~ msgid "Hide Permissions"
 #~ msgstr "Steek Regte weg"
-
-#~ msgid "Show URL"
-#~ msgstr "Vertoon URL"
 
 #~ msgid "Se&lect..."
 #~ msgstr "Kies..."
