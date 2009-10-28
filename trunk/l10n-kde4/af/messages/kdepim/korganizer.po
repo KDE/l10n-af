@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-25 05:45+0100\n"
+"POT-Creation-Date: 2009-10-28 07:20+0100\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -2030,8 +2030,8 @@ msgstr "Bywoners"
 msgid "Send Messages"
 msgstr "Stuur Boodskappe"
 
-#: incidencechanger.cpp:75 kogroupware.cpp:317 kogroupware.cpp:331
-#: kogroupware.cpp:340 kogroupware.cpp:365
+#: incidencechanger.cpp:75 kogroupware.cpp:321 kogroupware.cpp:335
+#: kogroupware.cpp:344 kogroupware.cpp:369
 #, fuzzy
 msgid "Do Not Send"
 msgstr "Maand besigtig:"
@@ -2512,16 +2512,16 @@ msgstr "Tydsone:"
 msgid "Timezone: %1"
 msgstr "Tydsone:"
 
-#: timelabels.cpp:371
+#: timelabels.cpp:372
 #, fuzzy, kde-format
 msgid "Country Code: %1"
 msgstr "Joernaal"
 
-#: timelabels.cpp:374
+#: timelabels.cpp:376
 msgid "Abbreviations:"
 msgstr ""
 
-#: timelabels.cpp:382
+#: timelabels.cpp:384
 #, kde-format
 msgid "Comment:<br/>%1"
 msgstr ""
@@ -2900,92 +2900,88 @@ msgstr "Fout laaiïng van werkvoorbeeld lêer '%1'."
 msgid "Error while processing an invitation or update."
 msgstr ""
 
-#: kogroupware.cpp:284
-#, fuzzy
-msgctxt "incidence type is event"
-msgid "event"
-msgstr "Gebeurtenis"
-
 #: kogroupware.cpp:286
-#, fuzzy
-msgctxt "incidence type is to-do/task"
-msgid "task"
-msgstr "Opdrag"
-
-#: kogroupware.cpp:288
-#, fuzzy
-msgctxt "incidence type is journal"
-msgid "journal entry"
-msgstr "Joernaal"
-
-#: kogroupware.cpp:296
 #, kde-format
 msgid ""
-"You changed the invitation \"%1\".<nl/>Do you want to email the attendees an "
-"update message?"
+"You changed the invitation \"%1\".\n"
+"Do you want to email the attendees an update message?"
 msgstr ""
 
-#: kogroupware.cpp:301
+#: kogroupware.cpp:293
 #, kde-format
 msgid ""
-"You removed the invitation \"%2\".<nl/>Do you want to email the attendees "
-"that the %1 is canceled?"
+"You removed the invitation \"%1\".\n"
+"Do you want to email the attendees that the event is canceled?"
 msgstr ""
 
-#: kogroupware.cpp:306
+#: kogroupware.cpp:297
 #, kde-format
 msgid ""
-"The %1 \"%2\" includes other people.<nl/>Do you want to email the invitation "
-"to the attendees?"
+"You removed the invitation \"%1\".\n"
+"Do you want to email the attendees that the todo is canceled?"
 msgstr ""
 
-#: kogroupware.cpp:316 kogroupware.cpp:364
+#: kogroupware.cpp:305
+#, kde-format
+msgid ""
+"The event \"%1\" includes other people.\n"
+"Do you want to email the invitation to the attendees?"
+msgstr ""
+
+#: kogroupware.cpp:309
+#, kde-format
+msgid ""
+"The todo \"%1\" includes other people.\n"
+"Do you want to email the invitation to the attendees?"
+msgstr ""
+
+#: kogroupware.cpp:320 kogroupware.cpp:368
 #, fuzzy
 msgid "Group Scheduling Email"
 msgstr "Groep Skedulering"
 
-#: kogroupware.cpp:317
+#: kogroupware.cpp:321
 #, fuzzy
 msgid "Send Email"
 msgstr "Stuur pos"
 
-#: kogroupware.cpp:327
+#: kogroupware.cpp:331
 msgid "Do you want to send a status update to the organizer of this task?"
 msgstr ""
 
-#: kogroupware.cpp:331 kogroupware.cpp:340 kogroupware.cpp:365
+#: kogroupware.cpp:335 kogroupware.cpp:344 kogroupware.cpp:369
 #, fuzzy
 msgid "Send Update"
 msgstr "Einde datum"
 
-#: kogroupware.cpp:335
+#: kogroupware.cpp:339
 msgid ""
 "Your status as an attendee of this event changed. Do you want to send a "
 "status update to the event organizer?"
 msgstr ""
 
-#: kogroupware.cpp:360
+#: kogroupware.cpp:364
 msgid ""
 "You had previously accepted an invitation to this event. Do you want to send "
 "an updated response to the organizer declining the invitation?"
 msgstr ""
 
-#: kogroupware.cpp:368
+#: kogroupware.cpp:372
 msgid ""
 "You are not the organizer of this event. Editing it will bring your calendar "
 "out of sync with the organizer's calendar. Do you really want to edit it?"
 msgstr ""
 
-#: kogroupware.cpp:384
+#: kogroupware.cpp:388
 msgid "<placeholder>No summary given</placeholder>"
 msgstr ""
 
-#: kogroupware.cpp:407 mailscheduler.cpp:102
+#: kogroupware.cpp:411 mailscheduler.cpp:102
 #, fuzzy, kde-format
 msgid "Counter proposal: %1"
 msgstr "Joernaal"
 
-#: kogroupware.cpp:409
+#: kogroupware.cpp:413
 #, kde-format
 msgid "Proposed new meeting time: %1 - %2"
 msgstr ""
@@ -4062,13 +4058,13 @@ msgctxt "@info"
 msgid "An internal KOrganizer error occurred attempting to modify \"%1\""
 msgstr ""
 
-#: korgac/alarmdialog.cpp:604
+#: korgac/alarmdialog.cpp:607
 #, fuzzy
 msgctxt "@title"
 msgid "Reminder"
 msgstr "Herhindering:"
 
-#: korgac/alarmdialog.cpp:606 korgac/alarmdialog.cpp:609
+#: korgac/alarmdialog.cpp:609 korgac/alarmdialog.cpp:612
 #, fuzzy, kde-format
 msgctxt "@title"
 msgid "Reminder: %1"
@@ -11830,6 +11826,21 @@ msgstr "Wat is Volgende"
 #: plugins/printing/whatsnext/whatsnextprint.h:42
 msgid "Prints a list of all upcoming events and todos."
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "incidence type is event"
+#~ msgid "event"
+#~ msgstr "Gebeurtenis"
+
+#, fuzzy
+#~ msgctxt "incidence type is to-do/task"
+#~ msgid "task"
+#~ msgstr "Opdrag"
+
+#, fuzzy
+#~ msgctxt "incidence type is journal"
+#~ msgid "journal entry"
+#~ msgstr "Joernaal"
 
 #, fuzzy
 #~ msgctxt "@title:column reminder date/time"
