@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkclock stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-01 06:23+0200\n"
+"POT-Creation-Date: 2009-11-03 06:09+0100\n"
 "PO-Revision-Date: 2005-09-14 06:00+0200\n"
 "Last-Translator: Kobus Venter <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -16,16 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: dtime.cpp:76
-msgid "Set date and time &automatically:"
-msgstr "Stel datum en tyd outomaties:"
-
-#: dtime.cpp:102
-msgid "Here you can change the system date's day of the month, month and year."
-msgstr ""
-"Hier kan u die stelsel datum se dag van die maand, maand en jaar verander."
-
-#: dtime.cpp:130
+#: dtime.cpp:98
 msgid ""
 "Here you can change the system time. Click into the hours, minutes or "
 "seconds field to change the relevant value, either using the up and down "
@@ -35,7 +26,13 @@ msgstr ""
 "sekondes veld om die relevante waarde te verander deur òf die op en af "
 "knoppies te gebruik na die regterkant of deur 'n nuwe waarde in te tik."
 
-#: dtime.cpp:215
+#: dtime.cpp:122
+#, fuzzy, kde-format
+#| msgid "Current local timezone: %1 (%2)"
+msgid "Current local time zone: %1 (%2)"
+msgstr "Huidige tyd sone: %1 (%2)"
+
+#: dtime.cpp:188
 msgid ""
 "Public Time Server (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,"
 "north-america.pool.ntp.org,oceania.pool.ntp.org"
@@ -43,16 +40,28 @@ msgstr ""
 "Publieke Tyd spaarder (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,"
 "north-america.pool.ntp.org,oceania.pool.ntp.org"
 
-#: dtime.cpp:275
+#: dtime.cpp:267
 #, kde-format
 msgid "Unable to contact time server: %1."
 msgstr ""
 
-#: dtime.cpp:279
+#: dtime.cpp:271
 msgid "Can not set date."
 msgstr "Kan nie datum stel nie."
 
-#: dtime.cpp:297 main.cpp:62
+#: dtime.cpp:274
+#, fuzzy
+#| msgid "Error setting new timezone."
+msgid "Error setting new time zone."
+msgstr "Fout instelling nuwe Tyd Sone."
+
+#: dtime.cpp:275
+#, fuzzy
+#| msgid "Timezone Error"
+msgid "Time zone Error"
+msgstr "Tydsone Fout"
+
+#: dtime.cpp:292 main.cpp:61
 msgid ""
 "<h1>Date & Time</h1> This control module can be used to set the system date "
 "and time. As these settings do not only affect you as a user, but rather the "
@@ -67,80 +76,117 @@ msgstr ""
 "root wagwoord het nie, maar voel die stelsel Tyd moet gekorrigeer word, "
 "kontak asseblief u stelsel administrateur."
 
-#: main.cpp:54
+#: main.cpp:53
 msgid "kcmclock"
 msgstr "kcm-horlosie"
 
-#: main.cpp:54
+#: main.cpp:53
 msgid "KDE Clock Control Module"
 msgstr "Kde Horlosie Kontrole Module"
 
-#: main.cpp:56
+#: main.cpp:55
 msgid "(c) 1996 - 2001 Luca Montecchiani"
 msgstr ""
 
-#: main.cpp:58
+#: main.cpp:57
 msgid "Luca Montecchiani"
 msgstr ""
 
-#: main.cpp:58
+#: main.cpp:57
 msgid "Original author"
 msgstr "Oorspronklike outeur"
 
-#: main.cpp:59
+#: main.cpp:58
 msgid "Paul Campbell"
 msgstr ""
 
-#: main.cpp:59
+#: main.cpp:58
 msgid "Current Maintainer"
 msgstr "Huidige Onderhouer"
 
-#: main.cpp:60
+#: main.cpp:59
 msgid "Benjamin Meyer"
 msgstr ""
 
-#: main.cpp:60
+#: main.cpp:59
 msgid "Added NTP support"
 msgstr "Bygevoegde NTP ondersteuning"
 
-#: main.cpp:103
+#: main.cpp:97
 #, kde-format
 msgid "Unable to authenticate/execute the action: %1, %2"
 msgstr ""
 
-#: rc.cpp:1
+#. i18n: file: dateandtime.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, DateAndTime)
+#: rc.cpp:3
+msgid "Form"
+msgstr ""
+
+#. i18n: file: dateandtime.ui:25
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rc.cpp:6
+msgid "Date and Time"
+msgstr ""
+
+#. i18n: file: dateandtime.ui:31
+#. i18n: ectx: property (whatsThis), widget (KDatePicker, cal)
+#: rc.cpp:9
+msgid "Here you can change the system date's day of the month, month and year."
+msgstr ""
+"Hier kan u die stelsel datum se dag van die maand, maand en jaar verander."
+
+#. i18n: file: dateandtime.ui:49
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:12
+#, fuzzy
+#| msgid "Timezone Error"
+msgid "Time Zone"
+msgstr "Tydsone Fout"
+
+#. i18n: file: dateandtime.ui:55
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:15
+#, fuzzy
+#| msgid "To change the timezone, select your area from the list below"
+msgid "To change the local time zone, select your area from the list below."
+msgstr "Om die tyd sone te verander, kies u area van die lys onder"
+
+#. i18n: file: dateandtime.ui:78
+#. i18n: ectx: property (text), widget (QLabel, m_local)
+#: rc.cpp:18
+#, fuzzy
+#| msgid "Current local timezone: %1 (%2)"
+msgid "Current local time zone:"
+msgstr "Huidige tyd sone: %1 (%2)"
+
+#. i18n: file: dateandtime.ui:105
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: rc.cpp:24
+msgid "NTP"
+msgstr ""
+
+#. i18n: file: dateandtime.ui:111
+#. i18n: ectx: property (text), widget (QCheckBox, setDateTimeAuto)
+#: rc.cpp:27
+msgid "Set date and time &automatically:"
+msgstr "Stel datum en tyd outomaties:"
+
+#. i18n: file: dateandtime.ui:134
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:30
+msgid "Time server:"
+msgstr ""
+
+#: rc.cpp:31
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Frikkie Thirion, Juanita Franz, Kobus Venter"
 
-#: rc.cpp:2
+#: rc.cpp:32
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za, juanita.franz@vr-web.de, kabousv@therugby.co.za"
-
-#: tzone.cpp:58
-#, fuzzy
-#| msgid "To change the timezone, select your area from the list below"
-msgid "To change the local time zone, select your area from the list below"
-msgstr "Om die tyd sone te verander, kies u area van die lys onder"
-
-#: tzone.cpp:88
-#, fuzzy, kde-format
-#| msgid "Current local timezone: %1 (%2)"
-msgid "Current local time zone: %1 (%2)"
-msgstr "Huidige tyd sone: %1 (%2)"
-
-#: tzone.cpp:114
-#, fuzzy
-#| msgid "Error setting new timezone."
-msgid "Error setting new time zone."
-msgstr "Fout instelling nuwe Tyd Sone."
-
-#: tzone.cpp:115
-#, fuzzy
-#| msgid "Timezone Error"
-msgid "Time zone Error"
-msgstr "Tydsone Fout"
 
 #, fuzzy
 #~| msgid "Timezone Error"
