@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-10 06:08+0100\n"
+"POT-Creation-Date: 2009-11-11 06:19+0100\n"
 "PO-Revision-Date: 2006-01-17 16:37+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -477,7 +477,7 @@ msgstr ""
 #: src/konqmainwindow.cpp:2421 src/konqmainwindow.cpp:2510
 #: src/konqmainwindow.cpp:2528 src/konqmainwindow.cpp:2548
 #: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:2629
-#: src/konqmainwindow.cpp:5078 src/konqviewmanager.cpp:1396
+#: src/konqmainwindow.cpp:5078 src/konqviewmanager.cpp:1398
 msgid "Discard Changes?"
 msgstr "Gooi Veranderinge Weg?"
 
@@ -485,7 +485,7 @@ msgstr "Gooi Veranderinge Weg?"
 #: src/konqmainwindow.cpp:2421 src/konqmainwindow.cpp:2510
 #: src/konqmainwindow.cpp:2528 src/konqmainwindow.cpp:2548
 #: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:2629
-#: src/konqmainwindow.cpp:5078 src/konqviewmanager.cpp:1396
+#: src/konqmainwindow.cpp:5078 src/konqviewmanager.cpp:1398
 msgid "&Discard Changes"
 msgstr "Gooi Veranderinge Weg"
 
@@ -1136,7 +1136,7 @@ msgstr ""
 "Jy het veelvuldige oorjies in hierdie venster oop. Is jy seker jy wil "
 "uitgaan?"
 
-#: src/konqmainwindow.cpp:5040 src/konqviewmanager.cpp:1378
+#: src/konqmainwindow.cpp:5040 src/konqviewmanager.cpp:1380
 msgid "Confirmation"
 msgstr "Bevestiging"
 
@@ -1305,7 +1305,7 @@ msgstr "Maak Oortjie Toe"
 msgid "Und&o"
 msgstr ""
 
-#: src/konqviewmanager.cpp:1376
+#: src/konqviewmanager.cpp:1378
 msgid ""
 "You have multiple tabs open in this window.\n"
 "Loading a view profile will close them."
@@ -1313,11 +1313,11 @@ msgstr ""
 "Jy het meervuldige oortjies oop in die venster.\n"
 "Laai 'n voorskou profiel sal hulle toemaak."
 
-#: src/konqviewmanager.cpp:1379
+#: src/konqviewmanager.cpp:1381
 msgid "Load View Profile"
 msgstr "Laai Besigtig Profiel"
 
-#: src/konqviewmanager.cpp:1395
+#: src/konqviewmanager.cpp:1397
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Loading a profile will discard these changes."
@@ -1511,7 +1511,12 @@ msgstr ""
 "<h1>Geskiedenis Kantbalk</h1> Jy kan konfigureer die Geskiedenis Kantbalk "
 "hier."
 
-#: sidebar/trees/konqsidebar_tree.cpp:173
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
+#, kde-format
+msgid "Cannot find parent item %1 in the tree. Internal error."
+msgstr "Kan nie vind ouer item %1 in die boom. Interne fout."
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
 #: sidebar/web_module/web_module.cpp:251
 #, fuzzy
 #| msgid "Name:"
@@ -1519,7 +1524,7 @@ msgctxt "@label"
 msgid "Name:"
 msgstr "Naam:"
 
-#: sidebar/trees/konqsidebar_tree.cpp:173
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
 #: sidebar/web_module/web_module.cpp:251
 #, fuzzy
 #| msgid "Show URL"
@@ -1527,55 +1532,50 @@ msgctxt "@label"
 msgid "Path or URL:"
 msgstr "Vertoon URL"
 
-#: sidebar/trees/konqsidebar_tree.cpp:174
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
 msgctxt "@title:window"
 msgid "Add folder sidebar module"
 msgstr ""
 
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:415
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr "Kan nie vind ouer item %1 in die boom. Interne fout."
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:73
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
 msgid "&Create New Folder"
 msgstr "Skep Nuwe Gids..."
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:77
-#: sidebar/trees/konq_sidebartree.cpp:204
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
+#: sidebar/trees/konq_sidebartree.cpp:210
 msgid "Delete Folder"
 msgstr "Vee Gids Uit"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:81
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
 msgid "Delete Bookmark"
 msgstr "Verwyder Boekmerk"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:85
-#: sidebar/trees/konq_sidebartree.cpp:220
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
+#: sidebar/trees/konq_sidebartree.cpp:227
 #, fuzzy
 msgid "Properties"
 msgstr "Boekmerk Eienskappe"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:89
-#: sidebar/trees/konq_sidebartree.cpp:224
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
+#: sidebar/trees/konq_sidebartree.cpp:231
 msgid "Open in New Window"
 msgstr "Maak oop in Nuwe Venster"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:93
-#: sidebar/trees/konq_sidebartree.cpp:228
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:235
 msgid "Open in New Tab"
 msgstr "Maak in Nuwe Oortjie oop"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:97
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
 msgid "Open Folder in Tabs"
 msgstr "Maak Gids in Oorjies Oop"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:101
-#: sidebar/trees/konq_sidebartree.cpp:232
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
+#: sidebar/trees/konq_sidebartree.cpp:239
 msgid "Copy Link Address"
 msgstr "Kopie maak van koppel adres"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:333
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:334
 #, kde-format
 msgid ""
 "Are you sure you wish to remove the bookmark folder\n"
@@ -1584,7 +1584,7 @@ msgstr ""
 "Is jy seker dat jy die boekmerk gids wil verwyder\n"
 "\"%1\"?"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:334
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
 #, kde-format
 msgid ""
 "Are you sure you wish to remove the bookmark\n"
@@ -1593,28 +1593,28 @@ msgstr ""
 "Is jy seker dat jy die boekmerk wil verwyder\n"
 "\"%1\"?"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
 msgid "Bookmark Folder Deletion"
 msgstr "Boekmerk Gids Verwydering"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
 msgid "Bookmark Deletion"
 msgstr "Boekmerk Verwydering"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:378
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:379
 msgid "Bookmark Properties"
 msgstr "Boekmerk Eienskappe"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:558
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:559
 #, fuzzy
 msgid "&Update"
 msgstr "Begin"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:566
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:567
 msgid "Name:"
 msgstr "Naam:"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:574
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:575
 msgid "Location:"
 msgstr "Ligging: "
 
@@ -1622,33 +1622,33 @@ msgstr "Ligging: "
 msgid "Add Bookmark"
 msgstr "Voeg Boekmerk By"
 
-#: sidebar/trees/konq_sidebartree.cpp:200
+#: sidebar/trees/konq_sidebartree.cpp:206
 msgid "&Create New Folder..."
 msgstr "Skep Nuwe Gids..."
 
-#: sidebar/trees/konq_sidebartree.cpp:208
+#: sidebar/trees/konq_sidebartree.cpp:214
 #, fuzzy
 #| msgid "&Move to Trash"
 msgid "Move to Trash"
 msgstr "Beweeg na die asblik"
 
-#: sidebar/trees/konq_sidebartree.cpp:212
+#: sidebar/trees/konq_sidebartree.cpp:218
 msgid "Rename"
 msgstr "Verander naam"
 
-#: sidebar/trees/konq_sidebartree.cpp:216
+#: sidebar/trees/konq_sidebartree.cpp:223
 msgid "Delete Link"
 msgstr "Uitvee Koppeling"
 
-#: sidebar/trees/konq_sidebartree.cpp:943
+#: sidebar/trees/konq_sidebartree.cpp:954
 msgid "New Folder"
 msgstr "Nuwe Gids"
 
-#: sidebar/trees/konq_sidebartree.cpp:947
+#: sidebar/trees/konq_sidebartree.cpp:958
 msgid "Create New Folder"
 msgstr "Skep Nuwe Gids"
 
-#: sidebar/trees/konq_sidebartree.cpp:948
+#: sidebar/trees/konq_sidebartree.cpp:959
 msgid "Enter folder name:"
 msgstr "Voer gids naam in:"
 
@@ -1660,9 +1660,9 @@ msgstr "Uitgebreide Kantbalk"
 msgid "Rollback to System Default"
 msgstr "Terugrol na Stelsel Verstek"
 
-#: sidebar/sidebar_widget.cpp:152
-msgid "Configure Navigation Panel"
-msgstr "Konfigureer Navigering Paneel"
+#: sidebar/sidebar_widget.cpp:152 sidebar/sidebar_widget.cpp:412
+msgid "Configure Sidebar"
+msgstr "Stel Kantbalk op"
 
 #: sidebar/sidebar_widget.cpp:154
 msgid "Add New"
@@ -1681,8 +1681,10 @@ msgid "Show Configuration Button"
 msgstr "Vertoon Opstelling Knoppie"
 
 #: sidebar/sidebar_widget.cpp:164
-msgid "Close Navigation Panel"
-msgstr "Maak Navigasie Paneel Toe"
+#, fuzzy
+#| msgid "Web Sidebar"
+msgid "Close Sidebar"
+msgstr "Web Kantbalk"
 
 #: sidebar/sidebar_widget.cpp:192
 msgid "This entry already exists."
@@ -1728,23 +1730,19 @@ msgstr ""
 "sigbare weer, kliek die regterkant muis knoppie op enige van die navigering "
 "paneel knoppies en kies \"Vertoon opstelling knoppie\"."
 
-#: sidebar/sidebar_widget.cpp:421
-msgid "Configure Sidebar"
-msgstr "Stel Kantbalk op"
-
-#: sidebar/sidebar_widget.cpp:539
+#: sidebar/sidebar_widget.cpp:530
 msgid "Set Name..."
 msgstr "Stel Naam..."
 
-#: sidebar/sidebar_widget.cpp:540
+#: sidebar/sidebar_widget.cpp:531
 msgid "Set URL..."
 msgstr "Stel URL..."
 
-#: sidebar/sidebar_widget.cpp:541
+#: sidebar/sidebar_widget.cpp:532
 msgid "Set Icon..."
 msgstr "Stel Ikoon..."
 
-#: sidebar/sidebar_widget.cpp:543
+#: sidebar/sidebar_widget.cpp:534
 #, fuzzy
 msgid "Remove"
 msgstr "Verander naam"
@@ -2684,6 +2682,12 @@ msgid ""
 "If true, when opening a session from within the sessions dialog the tabs "
 "will be opened inside current window."
 msgstr ""
+
+#~ msgid "Configure Navigation Panel"
+#~ msgstr "Konfigureer Navigering Paneel"
+
+#~ msgid "Close Navigation Panel"
+#~ msgstr "Maak Navigasie Paneel Toe"
 
 #~ msgid "Select Type"
 #~ msgstr "Kies Tipe"
