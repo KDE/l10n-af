@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-27 06:02+0100\n"
+"POT-Creation-Date: 2009-11-28 06:12+0100\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -89,7 +89,7 @@ msgstr "Colon"
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
 #: rc.cpp:26 rc.cpp:98 knewstuff/knewstuff2/ui/uploaddialog.cpp:58
-#: knewstuff/knewstuff3/uploaddialog.cpp:113
+#: knewstuff/knewstuff3/uploaddialog.cpp:120
 msgid "Share Hot New Stuff"
 msgstr "Deel Nuwe Goed"
 
@@ -286,7 +286,7 @@ msgstr ""
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:92
 #. i18n: ectx: property (title), widget (QGroupBox, uploadGroup)
-#: rc.cpp:113
+#: rc.cpp:113 knewstuff/knewstuff3/uploaddialog.cpp:297
 #, fuzzy
 #| msgid "&Upload"
 msgid "Upload"
@@ -314,8 +314,8 @@ msgstr "Beskrywing:"
 msgid "Set a price for this item"
 msgstr "Nooit vir hierdie web werf"
 
-#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:239
-#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:242
+#. i18n: ectx: property (text), widget (QLabel, priceLabel)
 #: rc.cpp:143
 #, fuzzy
 msgid "Price:"
@@ -2465,7 +2465,7 @@ msgstr "Herlaai"
 msgid "Do Not Reload"
 msgstr "Moet nie herlaai nie"
 
-#: kded/kbuildsycoca.cpp:856
+#: kded/kbuildsycoca.cpp:857
 msgid "Configuration information reloaded successfully."
 msgstr "Opstel informasie suksesvol herlaai."
 
@@ -7670,14 +7670,14 @@ msgid "Payload"
 msgstr "Bladsy gelaai."
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:65
-#: knewstuff/knewstuff3/uploaddialog.cpp:121
+#: knewstuff/knewstuff3/uploaddialog.cpp:128
 #, kde-format
 msgctxt "Program name followed by 'Add On Uploader'"
 msgid "%1 Add-On Uploader"
 msgstr ""
 
 #: knewstuff/knewstuff2/ui/uploaddialog.cpp:92
-#: knewstuff/knewstuff3/uploaddialog.cpp:199
+#: knewstuff/knewstuff3/uploaddialog.cpp:216
 msgid "Please put in a name."
 msgstr "Vul asseblief 'n naam in."
 
@@ -8090,67 +8090,84 @@ msgstr ""
 "<i>gpg</i> geïnstalleer is, anders sal die ondertekening van hulpbronne nie "
 "moontlik wees nie.</qt>"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:95
+#: knewstuff/knewstuff3/uploaddialog.cpp:102
 #, fuzzy, kde-format
 #| msgid "Rating"
 msgctxt "Label showing the file name of a file that is about to be uploaded"
 msgid "Uploading: %1"
 msgstr "Gradering"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:117
+#: knewstuff/knewstuff3/uploaddialog.cpp:124
 #, fuzzy
 #| msgid "&Upload"
 msgid "Upload..."
 msgstr "Laai op"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:125
+#: knewstuff/knewstuff3/uploaddialog.cpp:132
 #, fuzzy
 #| msgid "Show version information"
 msgid "Fetching provider information..."
 msgstr "Vertoon weergawe informasie"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:194
+#: knewstuff/knewstuff3/uploaddialog.cpp:211
 #, fuzzy
 #| msgid "The requested operation could not be completed"
 msgid "Provider could not be initialized."
 msgstr "Die versoekte operasie kon nie wees klaar"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:206
+#: knewstuff/knewstuff3/uploaddialog.cpp:223
 msgid "Creating Content on Server..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:239
+#: knewstuff/knewstuff3/uploaddialog.cpp:264
 msgid "There was a network error."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:239
-#: knewstuff/knewstuff3/uploaddialog.cpp:244
+#: knewstuff/knewstuff3/uploaddialog.cpp:264
+#: knewstuff/knewstuff3/uploaddialog.cpp:269
 #, fuzzy
 #| msgid "Upload Files"
 msgid "Uploading Failed"
 msgstr "Laai Lêers Op"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:244
+#: knewstuff/knewstuff3/uploaddialog.cpp:269
 #, fuzzy
 #| msgid "Authentication"
 msgid "Authentication error."
 msgstr "Identiteitstawing"
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:250
+#: knewstuff/knewstuff3/uploaddialog.cpp:275
 #, fuzzy
 #| msgid "Print Previe&w..."
 msgid "Uploading preview and content..."
 msgstr "Druk Voorskou..."
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:258
+#: knewstuff/knewstuff3/uploaddialog.cpp:284
 msgid "Uploading content..."
 msgstr ""
 
-#: knewstuff/knewstuff3/uploaddialog.cpp:262
+#: knewstuff/knewstuff3/uploaddialog.cpp:288
 #, fuzzy
 #| msgid "Print Previe&w..."
 msgid "Uploading preview image and content..."
 msgstr "Druk Voorskou..."
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:297
+#, fuzzy, kde-format
+msgid "File not found: %1"
+msgstr "Die styl %1 was nie gevind\n"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:321
+#, fuzzy
+#| msgid "Contents"
+msgid "Content Added"
+msgstr "Inhoud"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:321
+#, fuzzy
+#| msgid "File reloaded."
+msgid "File Uploaded"
+msgstr "Lêer geherlaai."
 
 #: knewstuff/knewstuff3/downloaddialog.cpp:163
 #, fuzzy
@@ -15574,101 +15591,101 @@ msgstr "Toets"
 msgid "Changing annotations"
 msgstr "Stel Inkennistellings Op..."
 
-#: nepomuk/rcgen/rcgen.cpp:45 nepomuk/rcgen/rcgen.cpp:47
+#: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:49
+#: nepomuk/rcgen/rcgen.cpp:53
 msgid "(c) 2006-2009, Sebastian Trüg"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:52
+#: nepomuk/rcgen/rcgen.cpp:56
 msgid "Sebastian Trüg"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:52
+#: nepomuk/rcgen/rcgen.cpp:56
 #, fuzzy
 msgid "Maintainer"
 msgstr "Venster"
 
-#: nepomuk/rcgen/rcgen.cpp:53
+#: nepomuk/rcgen/rcgen.cpp:57
 #, fuzzy
 #| msgid "(c) 2003 Tobias Koenig"
 msgid "Tobias Koenig"
 msgstr "(c) 2003 Tobias Koenig"
 
-#: nepomuk/rcgen/rcgen.cpp:53
+#: nepomuk/rcgen/rcgen.cpp:57
 msgid "Major cleanup - Personal hero of maintainer"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:60
+#: nepomuk/rcgen/rcgen.cpp:64
 msgid "Verbose output debugging mode."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:61
+#: nepomuk/rcgen/rcgen.cpp:65
 msgid ""
 "Generate simple and fast wrapper classes not based on Nepomuk::Resource "
 "which do not provide any data integrity checking"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:62
+#: nepomuk/rcgen/rcgen.cpp:66
 msgid "Actually generate the code."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:63
+#: nepomuk/rcgen/rcgen.cpp:67
 msgid "List all includes (deprecated)."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:64
+#: nepomuk/rcgen/rcgen.cpp:68
 msgid ""
 "List all header files that will be generated via the --writeall command."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:65
+#: nepomuk/rcgen/rcgen.cpp:69
 msgid ""
 "List all source files that will be generated via the --writeall command."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:66
+#: nepomuk/rcgen/rcgen.cpp:70
 msgid ""
 "The ontology files containing the ontologies to be generated, a space "
 "separated list (deprecated: use arguments instead.)"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:67
+#: nepomuk/rcgen/rcgen.cpp:71
 msgid "Include path prefix (deprecated)"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:68
+#: nepomuk/rcgen/rcgen.cpp:72
 #, fuzzy
 #| msgid "Directory to generate files in"
 msgid "Specify the target folder to store generated files into."
 msgstr "Gids om lêers in te skep"
 
-#: nepomuk/rcgen/rcgen.cpp:72
+#: nepomuk/rcgen/rcgen.cpp:76
 msgid "Templates to be used (deprecated)."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:73
+#: nepomuk/rcgen/rcgen.cpp:77
 msgid ""
 "Optionally specify the classes to be generated. Use option multiple times "
 "(defaults to all classes)"
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:74
+#: nepomuk/rcgen/rcgen.cpp:78
 msgid ""
 "Serialization used in the ontology files. Will default to primitive file "
 "extension detection."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:75
+#: nepomuk/rcgen/rcgen.cpp:79
 msgid ""
 "Set the used visibility in case the classes are to be used in public API. "
 "<visibility-name> will be used to construct the export macro name and the "
 "export header. By default classes will not be exported."
 msgstr ""
 
-#: nepomuk/rcgen/rcgen.cpp:76
+#: nepomuk/rcgen/rcgen.cpp:80
 msgid "The ontology files containing the ontologies to be generated."
 msgstr ""
 
@@ -18947,9 +18964,6 @@ msgstr "Geen kieslys item: '%1'."
 #~ msgid "Save a file"
 #~ msgstr "Stoor 'n lêer"
 
-#~ msgid "Contents"
-#~ msgstr "Inhoud"
-
 #~ msgid "A&bout"
 #~ msgstr "Aangaande"
 
@@ -20038,9 +20052,6 @@ msgstr "Geen kieslys item: '%1'."
 #~ msgstr ""
 #~ "Krities fout:\n"
 #~ "Regte het verander in plaaslike gids!"
-
-#~ msgid "File reloaded."
-#~ msgstr "Lêer geherlaai."
 
 #~ msgid ""
 #~ "The currently loaded file \"%1\" cannot be reloaded. kab may close or "
