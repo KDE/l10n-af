@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-17 06:05+0100\n"
+"POT-Creation-Date: 2010-01-18 06:39+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -3213,6 +3213,7 @@ msgstr "Kanale"
 #. i18n: file: plugins/paintops/libpaintop/wdgcoloroptions.ui:134
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:856 rc.cpp:1260
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:108
 #, fuzzy
 msgid "Value"
 msgstr "Blou"
@@ -3412,11 +3413,11 @@ msgid "Proportional"
 msgstr "Driehoekvormige Golf"
 
 #. i18n: file: plugins/paintops/spray/wdgshapeoptions.ui:217
-#. i18n: ectx: property (text), widget (QCheckBox, jitterShape)
+#. i18n: ectx: property (text), widget (QCheckBox, randomSizeCHBox)
 #. i18n: file: plugins/paintops/experiment/wdgshapeoptions.ui:214
 #. i18n: ectx: property (text), widget (QCheckBox, jitterShape)
 #. i18n: file: plugins/paintops/spray/wdgshapeoptions.ui:217
-#. i18n: ectx: property (text), widget (QCheckBox, jitterShape)
+#. i18n: ectx: property (text), widget (QCheckBox, randomSizeCHBox)
 #. i18n: file: plugins/paintops/experiment/wdgshapeoptions.ui:214
 #. i18n: ectx: property (text), widget (QCheckBox, jitterShape)
 #: rc.cpp:943 rc.cpp:1211
@@ -9508,6 +9509,12 @@ msgstr ""
 msgid "Composite Mode"
 msgstr "Byvoeging"
 
+#: image/metadata/kis_meta_data_value.cc:424
+#: image/metadata/kis_meta_data_value.cc:463
+#, fuzzy
+msgid "Invalid value."
+msgstr "Beeld"
+
 #: image/metadata/kis_meta_data_filter_p.cc:53
 msgid "Anonymizer"
 msgstr ""
@@ -11232,6 +11239,7 @@ msgid "Drop size"
 msgstr "Beeld"
 
 #: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:403
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:68
 #, fuzzy
 msgid "Number"
 msgstr "Naam:"
@@ -11310,7 +11318,7 @@ msgstr "Verlig Slegs"
 msgid "&Brightness/Contrast curve..."
 msgstr "Verlig Slegs"
 
-#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:439
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:446
 #, fuzzy
 msgid "&Color Adjustment curves..."
 msgstr "Kleur Modus"
@@ -11504,7 +11512,7 @@ msgid "&Bumpmap..."
 msgstr ""
 
 #: plugins/formats/exr/exr_converter.cc:259
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:175
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:182
 #, fuzzy
 msgid "HDR Layer"
 msgstr "Laag"
@@ -12054,6 +12062,64 @@ msgctxt "rotate the layer 90 degrees to the left"
 msgid "Left 90°"
 msgstr "Kleur"
 
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:141
+#, fuzzy
+msgid "List"
+msgstr "Laag"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:59
+msgid "Invalid"
+msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:65
+#, fuzzy
+msgid "Date"
+msgstr "Herhaal:"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:70
+#, fuzzy
+msgid "String"
+msgstr "Patrone"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:72
+#, fuzzy, kde-format
+msgid "Variant (%1)"
+msgstr "Boonste Huidige %1"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:76
+msgid "Ordered array"
+msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:78
+msgid "Unordered array"
+msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:80
+#, fuzzy
+msgid "Alternative array"
+msgstr "Verf Nutsprogramme"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:82
+msgid "Language array"
+msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:84
+msgid "Structure"
+msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:86
+#, fuzzy
+msgid "Rational"
+msgstr "Roteer 90"
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:104
+msgid "Key"
+msgstr ""
+
+#: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:106
+msgid "Type"
+msgstr ""
+
 #: plugins/extensions/metadataeditor/metadataeditor.cc:63
 #, fuzzy
 msgid "&Edit metadata..."
@@ -12108,18 +12174,18 @@ msgstr "Steek weg/Vertoon Laag"
 msgid "HDR Layer from bracketing"
 msgstr ""
 
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:172
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:366
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:179
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:373
 msgid "HDR colorspace RGBAF32 not found, please check your installation."
 msgstr ""
 
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:172
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:179
 #, fuzzy
 #| msgid "Layer Error"
 msgid "Layer Creation Error"
 msgstr "Laag Fout"
 
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:366
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:373
 msgid "Compute Camera Response Error"
 msgstr ""
 
