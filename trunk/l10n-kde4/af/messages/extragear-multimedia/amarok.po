@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-02 06:19+0100\n"
+"POT-Creation-Date: 2010-02-03 07:11+0100\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: mac/GrowlInterface.cpp:37 context/engines/current/CurrentEngine.cpp:150
 #: context/applets/currenttrack/CurrentTrack.cpp:127
-#: context/applets/photos/PhotosApplet.cpp:132 App.cpp:1103
+#: context/applets/photos/PhotosApplet.cpp:132 Amarok.cpp:190
 #: widgets/Osd.cpp:578
 msgid "No track playing"
 msgstr "Geen snit speel tans"
@@ -123,20 +123,20 @@ msgstr "Verstek Dinamiese Speellys"
 msgid "Cannot write playlist (%1)."
 msgstr "Kon nie die speellys skryf nie (%1)."
 
-#: meta/PlaylistFileSupport.cpp:91
+#: meta/PlaylistFileSupport.cpp:93
 #, kde-format
 msgid "Cannot read playlist (%1)."
 msgstr "Kan nie speellys (%1) lees nie"
 
-#: meta/PlaylistFileSupport.cpp:109
+#: meta/PlaylistFileSupport.cpp:111
 msgid "Could not create a temporary file to download playlist."
 msgstr "Kon nie 'n tydelike lêer skep om speellys af te laai nie."
 
-#: meta/PlaylistFileSupport.cpp:124
+#: meta/PlaylistFileSupport.cpp:126
 msgid "Downloading remote playlist"
 msgstr "Afgeleë speellys aflaai"
 
-#: meta/PlaylistFileSupport.cpp:207
+#: meta/PlaylistFileSupport.cpp:209
 #, kde-format
 msgid "Playlist_%1"
 msgstr "Speellys_%1"
@@ -1041,7 +1041,7 @@ msgstr "Huidige Snit Instellings"
 #: browsers/filebrowser/MyDirOperator.cpp:315
 #: browsers/filebrowser/FileView.cpp:156
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:585
-#: browsers/playlistbrowser/PodcastModel.cpp:976
+#: browsers/playlistbrowser/PodcastModel.cpp:973
 #: services/lastfm/LastFmTreeView.cpp:112 TrayIcon.cpp:221
 msgid "&Add to Playlist"
 msgstr "&Voeg by Speellys"
@@ -1051,7 +1051,7 @@ msgstr "&Voeg by Speellys"
 #: browsers/filebrowser/MyDirOperator.cpp:316
 #: browsers/filebrowser/FileView.cpp:165
 #: browsers/playlistbrowser/UserPlaylistModel.cpp:592
-#: browsers/playlistbrowser/PodcastModel.cpp:988
+#: browsers/playlistbrowser/PodcastModel.cpp:985
 #: services/lastfm/LastFmTreeView.cpp:121
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
@@ -1735,7 +1735,7 @@ msgstr "Versameling beginpunt"
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:166 dialogs/FilenameLayoutDialog.cpp:483
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:251
-#: browsers/playlistbrowser/PodcastModel.cpp:451 rc.cpp:1153
+#: browsers/playlistbrowser/PodcastModel.cpp:448 rc.cpp:1153
 #: playlist/PlaylistModel.cpp:699 widgets/SmartPlaylistEditor.cpp:183
 msgid "Title"
 msgstr "Titel"
@@ -2005,7 +2005,7 @@ msgstr ""
 msgid "Filename Layout Chooser"
 msgstr "Lêernaam Uitleg Kieser"
 
-#: dialogs/TagDialog.cpp:679 browsers/playlistbrowser/PodcastModel.cpp:452
+#: dialogs/TagDialog.cpp:679 browsers/playlistbrowser/PodcastModel.cpp:449
 msgid "Summary"
 msgstr "Opsomming"
 
@@ -2425,15 +2425,15 @@ msgstr ""
 
 #. i18n: file: collection/audiocd/FormatSelectionDialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: App.cpp:119 rc.cpp:536
+#: App.cpp:116 rc.cpp:536
 msgid "Amarok"
 msgstr "Amarok"
 
-#: App.cpp:120
+#: App.cpp:117
 msgid "The audio player for KDE"
 msgstr "Die oudio speler vir KDE"
 
-#: App.cpp:121
+#: App.cpp:118
 msgid ""
 "(C) 2002-2003, Mark Kretschmann\n"
 "(C) 2003-2010, The Amarok Development Squad"
@@ -2441,7 +2441,7 @@ msgstr ""
 "(C) 2002-2003, Mark Kretschmann\n"
 "(C) 2003-2009, Die Amarok Ontwikkeling Peloton"
 
-#: App.cpp:122
+#: App.cpp:119
 #, kde-format
 msgid ""
 "IRC:\n"
@@ -2460,83 +2460,83 @@ msgstr ""
 "\n"
 "(Bou Datum: %1)"
 
-#: App.cpp:490
+#: App.cpp:487
 msgid "Files/URLs to open"
 msgstr "Lêers/URLs om oop te maak"
 
-#: App.cpp:492
+#: App.cpp:489
 msgid "Skip backwards in playlist"
 msgstr "Spring terugwaarts in die speel lys"
 
-#: App.cpp:494
+#: App.cpp:491
 msgid "Start playing current playlist"
 msgstr "Begin om die huidige speel lys te speel"
 
-#: App.cpp:496
+#: App.cpp:493
 msgid "Play if stopped, pause if playing"
 msgstr "Speel indien gestop, wag indien besig is om te speel"
 
-#: App.cpp:497
+#: App.cpp:494
 msgid "Pause playback"
 msgstr "Pouseer terugspeel"
 
-#: App.cpp:499
+#: App.cpp:496
 msgid "Stop playback"
 msgstr "Stop terugspeel"
 
-#: App.cpp:501
+#: App.cpp:498
 msgid "Skip forwards in playlist"
 msgstr "Spring vorentoe in die speellys"
 
-#: App.cpp:502
+#: App.cpp:499
 msgid "Additional options:"
 msgstr "Verdere opsies:"
 
-#: App.cpp:504
+#: App.cpp:501
 msgid "Append files/URLs to playlist"
 msgstr "Las lêers/URLs agter aan speellys"
 
-#: App.cpp:505
+#: App.cpp:502
 msgid "Queue URLs after the currently playing track"
 msgstr "Plaas URLs in die wagtou na die snit wat tans speel"
 
-#: App.cpp:507
+#: App.cpp:504
 msgid "Load URLs, replacing current playlist"
 msgstr "Laai URLs en vervang die huidige speellys met die resultaat"
 
-#: App.cpp:509
+#: App.cpp:506
 msgid "Print verbose debugging information"
 msgstr "Druk breedvoerige ontfoutingsinligting"
 
-#: App.cpp:511
+#: App.cpp:508
 msgid "Allow running multiple Amarok instances"
 msgstr "Laat veelvuldige Amarok instansies toe om te loop"
 
-#: App.cpp:512
+#: App.cpp:509
 msgid "Base for relative filenames/URLs"
 msgstr "Basis wat vir relatiewe lêername/URLs gebruik moet word"
 
-#: App.cpp:514
+#: App.cpp:511
 msgid "Unit test options:"
 msgstr "Eenheidstoets opsies"
 
-#: App.cpp:515
+#: App.cpp:512
 msgid "Run integrated unit tests"
 msgstr "Loop geïntegreerde eenheidstoetse"
 
-#: App.cpp:516
+#: App.cpp:513
 msgid "Destination of test output: 'stdout', 'log'"
 msgstr "Toetsafvoer bestemming: 'stdout', 'log'"
 
-#: App.cpp:517
+#: App.cpp:514
 msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
 msgstr "Toetsafvoer formaat: 'xml', 'lightxml', 'plaintext'"
 
-#: App.cpp:518
+#: App.cpp:515
 msgid "Verbosity from 0-3 (highest)"
 msgstr "Breedspraaklikheid van 0-3 (mees)"
 
-#: App.cpp:774
+#: App.cpp:771
 msgid ""
 "The embedded database was not found; you must set up a database server "
 "connection.\n"
@@ -2546,7 +2546,7 @@ msgstr ""
 "opstel. \n"
 "Jy moet Amarok daarna herlaai."
 
-#: App.cpp:775
+#: App.cpp:772
 msgid ""
 "The connection details for the database server were invalid.\n"
 "You must enter correct settings and restart Amarok after doing this."
@@ -2554,11 +2554,11 @@ msgstr ""
 "Die databasis koppelingsbesonderhede was ongeldig.\n"
 "Jy moet korrekte instellings gee en Amarok dan herlaai."
 
-#: App.cpp:776
+#: App.cpp:773
 msgid "Database Error"
 msgstr "Databasis Fout"
 
-#: App.cpp:793
+#: App.cpp:790
 #, kde-format
 msgid ""
 "A music path, %1, is set in System Settings.\n"
@@ -2567,7 +2567,7 @@ msgstr ""
 "'n Musiekpad (%1) is ingestel by Stelsel Instellings. \n"
 "Wil jy dit as 'n versameling gids gebruik?"
 
-#: App.cpp:836
+#: App.cpp:833
 msgid ""
 "<p>The version of the 'amarokcollectionscanner' tool\n"
 "does not match your Amarok version.</p><p>Please note that Collection "
@@ -2577,154 +2577,9 @@ msgstr ""
 "verskil van jou Amarok weergawe.</p><p>Neem kennis dat Versameling "
 "Skandering dalk nie sal werk nie.</p>"
 
-#: App.cpp:877
+#: App.cpp:874
 msgid "Moving files to trash"
 msgstr "Besig om lêers na die asblik te skuif"
-
-#: App.cpp:975
-msgctxt "When this track was last played"
-msgid "Unknown"
-msgstr "Onbekend"
-
-#: App.cpp:980
-#, kde-format
-msgctxt "monthname year"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: App.cpp:987
-#, kde-format
-msgid "One week ago"
-msgid_plural "%1 weeks ago"
-msgstr[0] "Een week gelede"
-msgstr[1] "%1 weke gelede"
-
-#: App.cpp:993
-msgid "Yesterday"
-msgstr "Gister"
-
-#: App.cpp:994
-#, kde-format
-msgid "One day ago"
-msgid_plural "%1 days ago"
-msgstr[0] "'n Dag gelede"
-msgstr[1] "%1 dae gelede"
-
-#: App.cpp:997
-#, kde-format
-msgid "One hour ago"
-msgid_plural "%1 hours ago"
-msgstr[0] "'n Uur gelede"
-msgstr[1] "%1 ure gelede"
-
-#: App.cpp:1003
-#, kde-format
-msgid "One minute ago"
-msgid_plural "%1 minutes ago"
-msgstr[0] "'n Minuut gelede"
-msgstr[1] "%1 minute gelede"
-
-#: App.cpp:1004
-msgid "Within the last minute"
-msgstr "In die laaste minuut"
-
-#: App.cpp:1006
-msgid "The future"
-msgstr "Die toekoms"
-
-#: App.cpp:1012
-msgctxt "The amount of time since last played"
-msgid "Never"
-msgstr "Nooit"
-
-#: App.cpp:1022
-msgctxt "The amount of time since last played"
-msgid "0"
-msgstr "0"
-
-#: App.cpp:1031
-#, kde-format
-msgctxt "number of months ago"
-msgid "%1M"
-msgstr "%1M"
-
-#: App.cpp:1035
-#, kde-format
-msgctxt "w for weeks"
-msgid "%1w"
-msgstr "%1w"
-
-#: App.cpp:1038
-msgctxt "When this track was last played"
-msgid "Tomorrow"
-msgstr "Môre"
-
-#: App.cpp:1044
-#, no-c-format, kde-format
-msgctxt "d for days"
-msgid "%1d"
-msgstr "%1d"
-
-#: App.cpp:1047
-#, kde-format
-msgctxt "h for hours"
-msgid "%1h"
-msgstr "%1h"
-
-#. i18n: file: dialogs/EqualizerDialog.ui:290
-#. i18n: ectx: property (text), widget (QLabel, eqPreampValue)
-#. i18n: file: dialogs/EqualizerDialog.ui:404
-#. i18n: ectx: property (text), widget (QLabel, eqBand0Value)
-#. i18n: file: dialogs/EqualizerDialog.ui:499
-#. i18n: ectx: property (text), widget (QLabel, eqBand1Value)
-#. i18n: file: dialogs/EqualizerDialog.ui:588
-#. i18n: ectx: property (text), widget (QLabel, eqBand2Value)
-#. i18n: file: dialogs/EqualizerDialog.ui:680
-#. i18n: ectx: property (text), widget (QLabel, eqBand3Value)
-#. i18n: file: dialogs/EqualizerDialog.ui:769
-#. i18n: ectx: property (text), widget (QLabel, eqBand4Value)
-#. i18n: file: dialogs/EqualizerDialog.ui:858
-#. i18n: ectx: property (text), widget (QLabel, eqBand5Value)
-#. i18n: file: dialogs/EqualizerDialog.ui:950
-#. i18n: ectx: property (text), widget (QLabel, eqBand6Value)
-#. i18n: file: dialogs/EqualizerDialog.ui:1042
-#. i18n: ectx: property (text), widget (QLabel, eqBand7Value)
-#. i18n: file: dialogs/EqualizerDialog.ui:1134
-#. i18n: ectx: property (text), widget (QLabel, eqBand8Value)
-#. i18n: file: dialogs/EqualizerDialog.ui:1226
-#. i18n: ectx: property (text), widget (QLabel, eqBand9Value)
-#: App.cpp:1056 rc.cpp:1276 rc.cpp:1282 rc.cpp:1288 rc.cpp:1294 rc.cpp:1300
-#: rc.cpp:1306 rc.cpp:1312 rc.cpp:1318 rc.cpp:1324 rc.cpp:1330 rc.cpp:1336
-msgid "0"
-msgstr "0"
-
-#: App.cpp:1073
-#, kde-format
-msgctxt "track by artist on album"
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr "<b>%1</b> deur <b>%2</b> op <b>%3</b>"
-
-#: App.cpp:1076
-#, kde-format
-msgctxt "track by artist"
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr "<b>%1</b> deur <b>%2</b>"
-
-#: App.cpp:1080
-#, kde-format
-msgctxt "track on album"
-msgid "<b>%1</b> on <b>%2</b>"
-msgstr "<b>%1</b> op <b>%2</b>"
-
-#: App.cpp:1085
-msgid "Unknown track"
-msgstr "Onbekende snit"
-
-#: App.cpp:1092
-#, kde-format
-msgctxt "track from source"
-msgid "from <b>%1</b>"
-msgstr "van <b>%1</b>"
 
 #: aboutdialog/ExtendedAboutDialog.cpp:73
 msgid ""
@@ -3087,7 +2942,7 @@ msgid "Unable to save podcast episode file to %1"
 msgstr "Kon nie potgooi episode lêer stoor na %1 nie"
 
 #: podcasts/sql/SqlPodcastProvider.h:47
-#: browsers/playlistbrowser/PodcastModel.cpp:820
+#: browsers/playlistbrowser/PodcastModel.cpp:817
 msgid "Local Podcasts"
 msgstr "Plaaslike Potgooie"
 
@@ -4258,20 +4113,20 @@ msgstr "Dit beheer die strengheid van die passing teen die gegewe waarde."
 msgid "Strictness:"
 msgstr "Strengheid:"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:450
+#: browsers/playlistbrowser/PodcastModel.cpp:447
 #: playlist/PlaylistModel.cpp:711 amarokurls/BookmarkModel.cpp:266
 msgid "Type"
 msgstr "Soort"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:603
+#: browsers/playlistbrowser/PodcastModel.cpp:600
 msgid "Add Podcast"
 msgstr "Voeg Potgooi by"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:604
+#: browsers/playlistbrowser/PodcastModel.cpp:601
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr "Gee RSS 1.0/2.0 of Atom voer URL:"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:1008
+#: browsers/playlistbrowser/PodcastModel.cpp:1005
 msgctxt "toggle the \"new\" status of this podcast episode"
 msgid "&New"
 msgstr "Nuwe"
@@ -7403,6 +7258,33 @@ msgstr "0 dB"
 msgid "- dB"
 msgstr "- dB"
 
+#. i18n: file: dialogs/EqualizerDialog.ui:290
+#. i18n: ectx: property (text), widget (QLabel, eqPreampValue)
+#. i18n: file: dialogs/EqualizerDialog.ui:404
+#. i18n: ectx: property (text), widget (QLabel, eqBand0Value)
+#. i18n: file: dialogs/EqualizerDialog.ui:499
+#. i18n: ectx: property (text), widget (QLabel, eqBand1Value)
+#. i18n: file: dialogs/EqualizerDialog.ui:588
+#. i18n: ectx: property (text), widget (QLabel, eqBand2Value)
+#. i18n: file: dialogs/EqualizerDialog.ui:680
+#. i18n: ectx: property (text), widget (QLabel, eqBand3Value)
+#. i18n: file: dialogs/EqualizerDialog.ui:769
+#. i18n: ectx: property (text), widget (QLabel, eqBand4Value)
+#. i18n: file: dialogs/EqualizerDialog.ui:858
+#. i18n: ectx: property (text), widget (QLabel, eqBand5Value)
+#. i18n: file: dialogs/EqualizerDialog.ui:950
+#. i18n: ectx: property (text), widget (QLabel, eqBand6Value)
+#. i18n: file: dialogs/EqualizerDialog.ui:1042
+#. i18n: ectx: property (text), widget (QLabel, eqBand7Value)
+#. i18n: file: dialogs/EqualizerDialog.ui:1134
+#. i18n: ectx: property (text), widget (QLabel, eqBand8Value)
+#. i18n: file: dialogs/EqualizerDialog.ui:1226
+#. i18n: ectx: property (text), widget (QLabel, eqBand9Value)
+#: rc.cpp:1276 rc.cpp:1282 rc.cpp:1288 rc.cpp:1294 rc.cpp:1300 rc.cpp:1306
+#: rc.cpp:1312 rc.cpp:1318 rc.cpp:1324 rc.cpp:1330 rc.cpp:1336 Amarok.cpp:143
+msgid "0"
+msgstr "0"
+
 #. i18n: file: dialogs/EqualizerDialog.ui:349
 #. i18n: ectx: property (text), widget (QLabel, eqPreampLabel)
 #. i18n: file: dialogs/EqualizerDialog.ui:454
@@ -8296,6 +8178,124 @@ msgstr "Balk daaltempo"
 #: analyzers/boomanalyzer.cpp:51
 msgid "Peak acceleration: "
 msgstr "Piekversnelling: "
+
+#: Amarok.cpp:62
+msgctxt "When this track was last played"
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: Amarok.cpp:67
+#, kde-format
+msgctxt "monthname year"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: Amarok.cpp:74
+#, kde-format
+msgid "One week ago"
+msgid_plural "%1 weeks ago"
+msgstr[0] "Een week gelede"
+msgstr[1] "%1 weke gelede"
+
+#: Amarok.cpp:80
+msgid "Yesterday"
+msgstr "Gister"
+
+#: Amarok.cpp:81
+#, kde-format
+msgid "One day ago"
+msgid_plural "%1 days ago"
+msgstr[0] "'n Dag gelede"
+msgstr[1] "%1 dae gelede"
+
+#: Amarok.cpp:84
+#, kde-format
+msgid "One hour ago"
+msgid_plural "%1 hours ago"
+msgstr[0] "'n Uur gelede"
+msgstr[1] "%1 ure gelede"
+
+#: Amarok.cpp:90
+#, kde-format
+msgid "One minute ago"
+msgid_plural "%1 minutes ago"
+msgstr[0] "'n Minuut gelede"
+msgstr[1] "%1 minute gelede"
+
+#: Amarok.cpp:91
+msgid "Within the last minute"
+msgstr "In die laaste minuut"
+
+#: Amarok.cpp:93
+msgid "The future"
+msgstr "Die toekoms"
+
+#: Amarok.cpp:99
+msgctxt "The amount of time since last played"
+msgid "Never"
+msgstr "Nooit"
+
+#: Amarok.cpp:109
+msgctxt "The amount of time since last played"
+msgid "0"
+msgstr "0"
+
+#: Amarok.cpp:118
+#, kde-format
+msgctxt "number of months ago"
+msgid "%1M"
+msgstr "%1M"
+
+#: Amarok.cpp:122
+#, kde-format
+msgctxt "w for weeks"
+msgid "%1w"
+msgstr "%1w"
+
+#: Amarok.cpp:125
+msgctxt "When this track was last played"
+msgid "Tomorrow"
+msgstr "Môre"
+
+#: Amarok.cpp:131
+#, no-c-format, kde-format
+msgctxt "d for days"
+msgid "%1d"
+msgstr "%1d"
+
+#: Amarok.cpp:134
+#, kde-format
+msgctxt "h for hours"
+msgid "%1h"
+msgstr "%1h"
+
+#: Amarok.cpp:160
+#, kde-format
+msgctxt "track by artist on album"
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> deur <b>%2</b> op <b>%3</b>"
+
+#: Amarok.cpp:163
+#, kde-format
+msgctxt "track by artist"
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> deur <b>%2</b>"
+
+#: Amarok.cpp:167
+#, kde-format
+msgctxt "track on album"
+msgid "<b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> op <b>%2</b>"
+
+#: Amarok.cpp:172
+msgid "Unknown track"
+msgstr "Onbekende snit"
+
+#: Amarok.cpp:179
+#, kde-format
+msgctxt "track from source"
+msgid "from <b>%1</b>"
+msgstr "van <b>%1</b>"
 
 #: KNotificationBackend.cpp:112
 msgid "Now playing"
