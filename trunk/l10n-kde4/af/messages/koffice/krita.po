@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-06 01:57+0100\n"
+"POT-Creation-Date: 2010-02-07 07:49+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -3249,7 +3249,7 @@ msgstr ""
 
 #. i18n: file: plugins/tools/tool_star/wdg_tool_star.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgToolStar)
-#: rc.cpp:848 plugins/tools/tool_star/kis_tool_star.cc:121
+#: rc.cpp:848 plugins/tools/tool_star/kis_tool_star.cc:134
 #, fuzzy
 msgid "Star"
 msgstr "Pen Program"
@@ -3522,8 +3522,8 @@ msgstr "Skerpheid:"
 #. i18n: file: plugins/paintops/gridbrush/wdgshapeoptions.ui:36
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
 #: rc.cpp:956 rc.cpp:1242 rc.cpp:1566
-#: image/recorder/kis_recorded_ellipse_paint_action.cpp:52
-#: plugins/tools/defaulttools/kis_tool_ellipse.cc:67
+#: image/recorder/kis_recorded_shape_paint_action.cpp:54
+#: plugins/tools/defaulttools/kis_tool_ellipse.cc:68
 #, fuzzy
 msgid "Ellipse"
 msgstr "Elipse Program"
@@ -3545,7 +3545,8 @@ msgstr "Elipse Program"
 #. i18n: file: plugins/filters/blur/wdgblur.ui:130
 #. i18n: ectx: property (text), item, widget (KComboBox, cbShape)
 #: rc.cpp:959 rc.cpp:1245 rc.cpp:1569 rc.cpp:1650
-#: plugins/tools/defaulttools/kis_tool_rectangle.cc:70
+#: image/recorder/kis_recorded_shape_paint_action.cpp:56
+#: plugins/tools/defaulttools/kis_tool_rectangle.cc:80
 msgid "Rectangle"
 msgstr "Driehoek"
 
@@ -3602,6 +3603,7 @@ msgstr "Roteer 90"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: rc.cpp:983 rc.cpp:1269
 #: plugins/paintops/libpaintop/kis_pressure_rotation_option.cpp:27
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:39
 #, fuzzy
 msgid "Rotation"
 msgstr "Roteer 90"
@@ -4374,7 +4376,7 @@ msgstr ""
 
 #. i18n: file: plugins/paintops/libpaintop/wdgcustombrush.ui:62
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: rc.cpp:1374 plugins/paintops/libpaintop/kis_dynamic_sensor.h:39
+#: rc.cpp:1374 plugins/paintops/libpaintop/kis_dynamic_sensor.h:40
 msgid "Pressure"
 msgstr ""
 
@@ -4741,7 +4743,7 @@ msgstr "Gebruik huidige patroon"
 
 #. i18n: file: plugins/paintops/dynadraw/wdgdynaoptions.ui:271
 #. i18n: ectx: property (text), widget (QRadioButton, polygonRBox)
-#: rc.cpp:1557 plugins/tools/tool_polygon/kis_tool_polygon.cc:78
+#: rc.cpp:1557 plugins/tools/tool_polygon/kis_tool_polygon.cc:77
 #, fuzzy
 msgid "Polygon"
 msgstr "Poligoon Program"
@@ -6731,7 +6733,7 @@ msgstr "Gekoppel"
 
 #. i18n: file: plugins/extensions/shearimage/wdg_shearimage.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
-#: rc.cpp:2657 image/kis_image.cc:568
+#: rc.cpp:2657 image/kis_image.cc:566
 #: plugins/extensions/shearimage/dlg_shearimage.cc:32
 #: plugins/extensions/shearimage/shearimage.cc:90
 #, fuzzy
@@ -7117,7 +7119,7 @@ msgstr "Keuse"
 
 #. i18n: file: plugins/extensions/rotateimage/wdg_rotateimage.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgRotateImage)
-#: rc.cpp:2910 image/kis_image.cc:516
+#: rc.cpp:2910 image/kis_image.cc:514
 #: plugins/extensions/rotateimage/rotateimage.cc:117
 #: plugins/extensions/rotateimage/dlg_rotateimage.cc:31
 #, fuzzy
@@ -9255,7 +9257,7 @@ msgstr "Voeg by Laag..."
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:795 image/kis_image.cc:765
+#: ui/kis_layer_manager.cc:795 image/kis_image.cc:768
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
@@ -9404,8 +9406,8 @@ msgstr "Sigbare"
 msgid "Locked"
 msgstr "Gekoppel"
 
-#: ui/kis_node_model.cpp:297 image/kis_paint_layer.cc:146
-#: image/kis_paint_layer.cc:153
+#: ui/kis_node_model.cpp:297 image/kis_paint_layer.cc:139
+#: image/kis_paint_layer.cc:146
 #, fuzzy
 msgid "Alpha Locked"
 msgstr "Gekoppel"
@@ -9750,13 +9752,13 @@ msgstr ""
 msgid "Matthew Woehlke"
 msgstr ""
 
-#: image/kis_adjustment_layer.cc:88
+#: image/kis_adjustment_layer.cc:124
 #: plugins/paintops/libpaintop/kis_filter_option.cpp:51
 #, fuzzy
 msgid "Filter"
 msgstr "Wit"
 
-#: image/kis_transformation_mask.cpp:110
+#: image/kis_transformation_mask.cpp:111
 #, fuzzy
 msgid "Transformation Mask Settings"
 msgstr "Uitveer Program"
@@ -9797,7 +9799,7 @@ msgstr ""
 msgid "Mitchell"
 msgstr ""
 
-#: image/commands/kis_image_resize_command.cpp:38 image/kis_image.cc:394
+#: image/commands/kis_image_resize_command.cpp:38 image/kis_image.cc:392
 #, fuzzy
 msgid "Resize Image"
 msgstr "Verwyder Beeld"
@@ -9825,7 +9827,7 @@ msgstr "Eienskappe..."
 msgid "Raise"
 msgstr "Lig %1"
 
-#: image/commands/kis_image_convert_type_command.cpp:38 image/kis_image.cc:603
+#: image/commands/kis_image_convert_type_command.cpp:38 image/kis_image.cc:601
 #, fuzzy
 msgid "Convert Image Type"
 msgstr "Voeg by Beeld as Laag..."
@@ -9922,37 +9924,37 @@ msgstr ""
 msgid "Rotate Node"
 msgstr "Roteer 90"
 
-#: image/kis_image.cc:285
+#: image/kis_image.cc:283
 msgid "background"
 msgstr "agtergrond"
 
-#: image/kis_image.cc:288
+#: image/kis_image.cc:286
 #, fuzzy, kde-format
 msgid "Layer %1"
 msgstr "laag %1"
 
-#: image/kis_image.cc:392
+#: image/kis_image.cc:390
 #, fuzzy
 msgid "Crop Image"
 msgstr "Stoor Laag as Beeld..."
 
-#: image/kis_image.cc:426
+#: image/kis_image.cc:424
 #, fuzzy
 #| msgid "Canvas"
 msgid "Size Canvas"
 msgstr "Kanvas"
 
-#: image/kis_image.cc:475
+#: image/kis_image.cc:473
 #, fuzzy
 msgid "Scale Image"
 msgstr "Nuwe Beeld"
 
-#: image/kis_image.cc:801
+#: image/kis_image.cc:798
 #, fuzzy
 msgid "Merge with Layer Below"
 msgstr "Saamvlans Alle Lae"
 
-#: image/kis_image.cc:841
+#: image/kis_image.cc:835
 #, fuzzy
 msgid "Flatten Layer"
 msgstr "Herbenaam Beeld..."
@@ -9961,21 +9963,17 @@ msgstr "Herbenaam Beeld..."
 msgid "Last used"
 msgstr ""
 
+#: image/recorder/kis_recorded_path_paint_action.cpp:62
+#: plugins/tools/defaulttools/kis_tool_path.cc:124
+#, fuzzy
+msgid "Path"
+msgstr "Verf"
+
 #: image/recorder/kis_macro.cc:96
 msgid "Play macro"
 msgstr ""
 
-#: image/recorder/kis_recorded_polyline_paint_action.cpp:50
-#, fuzzy
-msgid "Poly line"
-msgstr "Poligoon Program"
-
-#: image/recorder/kis_recorded_bezier_curve_paint_action.cpp:56
-#, fuzzy
-msgid "Bezier curve"
-msgstr "Opvuller Program"
-
-#: image/kis_clone_layer.cpp:199
+#: image/kis_clone_layer.cpp:192
 #, fuzzy
 msgid "Copy From"
 msgstr "groen"
@@ -10026,61 +10024,42 @@ msgstr ""
 msgid "Dyna"
 msgstr ""
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:223
-#: plugins/tools/defaulttools/kis_tool_brush.cc:142
-#, fuzzy
-msgctxt "smooth out the curves while drawing"
-msgid "Smoothness"
-msgstr "Lyn dikheid:"
-
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:236
-#: plugins/tools/defaulttools/kis_tool_brush.cc:165
-#, fuzzy
-msgid "Assistant:"
-msgstr "Oplos"
-
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:238
-#: plugins/tools/defaulttools/kis_tool_brush.cc:167
-#, fuzzy
-msgid "Magnetism:"
-msgstr "magenta"
-
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:248
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:211
 #, fuzzy
 msgid "Initial width:"
 msgstr "Wydte:"
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:249
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:212
 #, fuzzy
 msgid "Mass:"
 msgstr "Voeg by Mask"
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:250
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:213
 #, fuzzy
 msgid "Drag:"
 msgstr "Herhaal:"
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:251
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:214
 #, fuzzy
 msgid "X angle:"
 msgstr "Driehoek"
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:252
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:215
 #, fuzzy
 msgid "Y angle:"
 msgstr "Driehoek"
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:253
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:216
 #, fuzzy
 msgid "Width range:"
 msgstr "Oplos"
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:255
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:218
 #, fuzzy
 msgid "Fixed angle:"
 msgstr "Driehoek"
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.h:170
+#: plugins/tools/tool_dyna/kis_tool_dyna.h:164
 #, fuzzy
 msgid "Paint with brushes using dynamic movements"
 msgstr "Verf met patroon"
@@ -10127,12 +10106,28 @@ msgstr ""
 msgid "ms"
 msgstr ""
 
+#: plugins/tools/defaulttools/kis_tool_brush.cc:142
+#, fuzzy
+msgctxt "smooth out the curves while drawing"
+msgid "Smoothness"
+msgstr "Lyn dikheid:"
+
 #: plugins/tools/defaulttools/kis_tool_brush.cc:147
 #, fuzzy
 msgid "Rate:"
 msgstr "Herhaal:"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:155
+#: plugins/tools/defaulttools/kis_tool_brush.cc:165
+#, fuzzy
+msgid "Assistant:"
+msgstr "Oplos"
+
+#: plugins/tools/defaulttools/kis_tool_brush.cc:167
+#, fuzzy
+msgid "Magnetism:"
+msgstr "magenta"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:156
 #, fuzzy
 msgctxt "a straight drawn line"
 msgid "Line"
@@ -10207,11 +10202,6 @@ msgstr ""
 #, fuzzy
 msgid "Draw an ellipse"
 msgstr "Driehoek"
-
-#: plugins/tools/defaulttools/kis_tool_path.cc:72
-#, fuzzy
-msgid "Path"
-msgstr "Verf"
 
 #: plugins/tools/defaulttools/kis_tool_gradient.h:124
 #, fuzzy
@@ -10327,7 +10317,7 @@ msgstr "Uitveer Program"
 msgid "Draw a polygon. Shift-mouseclick ends the polygon."
 msgstr ""
 
-#: plugins/tools/tool_polyline/kis_tool_polyline.cc:66
+#: plugins/tools/tool_polyline/kis_tool_polyline.cc:65
 #, fuzzy
 msgid "Polyline"
 msgstr "Poligoon Program"
@@ -10650,11 +10640,11 @@ msgstr "In voer Beeld..."
 msgid "Drawing angle"
 msgstr "Driehoek"
 
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:40
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:41
 msgid "X-Tilt"
 msgstr ""
 
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:41
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:42
 msgid "Y-Tilt"
 msgstr ""
 
@@ -11874,24 +11864,24 @@ msgstr ""
 msgid "Success"
 msgstr "Waarde"
 
-#: plugins/extensions/bigbrother/bigbrother.cc:60
+#: plugins/extensions/bigbrother/bigbrother.cc:81
 msgid "Open and play..."
 msgstr ""
 
-#: plugins/extensions/bigbrother/bigbrother.cc:64
+#: plugins/extensions/bigbrother/bigbrother.cc:85
 msgid "Open and edit..."
 msgstr ""
 
-#: plugins/extensions/bigbrother/bigbrother.cc:68
+#: plugins/extensions/bigbrother/bigbrother.cc:89
 #, fuzzy
 msgid "Save all actions"
 msgstr "Keuse"
 
-#: plugins/extensions/bigbrother/bigbrother.cc:72
+#: plugins/extensions/bigbrother/bigbrother.cc:93
 msgid "Start recording macro"
 msgstr ""
 
-#: plugins/extensions/bigbrother/bigbrother.cc:76
+#: plugins/extensions/bigbrother/bigbrother.cc:97
 msgid "Stop recording actions"
 msgstr ""
 
@@ -12456,6 +12446,14 @@ msgstr "Steek weg/Vertoon Laag"
 #, fuzzy
 msgid "Ruler assistant editor tool"
 msgstr "Oplos"
+
+#, fuzzy
+#~ msgid "Poly line"
+#~ msgstr "Poligoon Program"
+
+#, fuzzy
+#~ msgid "Bezier curve"
+#~ msgstr "Opvuller Program"
 
 #, fuzzy
 #~ msgid "Ellipse tool"
