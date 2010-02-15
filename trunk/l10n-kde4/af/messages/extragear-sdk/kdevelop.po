@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-14 06:55+0100\n"
+"POT-Creation-Date: 2010-02-15 06:51+0100\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -39,7 +39,7 @@ msgstr "Kdevelop"
 msgid "%1 (using KDevPlatform %2)"
 msgstr ""
 
-#: main_internal.cpp:67 main.cpp:58
+#: main_internal.cpp:67
 msgid "Copyright 1999-2009, The KDevelop developers"
 msgstr ""
 
@@ -51,6 +51,10 @@ msgstr "Konfigureer lêer"
 #: main.cpp:57
 #, kde-format
 msgid "%1"
+msgstr ""
+
+#: main.cpp:58
+msgid "Copyright 1999-2010, The KDevelop developers"
 msgstr ""
 
 #: main.cpp:61
@@ -67,7 +71,7 @@ msgid "List available sessions and quit"
 msgstr ""
 
 #: main.cpp:72
-msgid "Available sessions (use '-s HASH' to open a specific one):"
+msgid "Available sessions (use '-s HASH' or '-s NAME' to open a specific one):"
 msgstr ""
 
 #: main.cpp:73
@@ -75,24 +79,29 @@ msgid "Hash"
 msgstr ""
 
 #: main.cpp:73
-#, fuzzy
-msgid "Session contents"
-msgstr "Weergawe:"
+msgid "Name and/or Contents"
+msgstr ""
 
-#: main.cpp:94
+#: main.cpp:82
+#, fuzzy
+#| msgid "union"
+msgid "[running]"
+msgstr "unie"
+
+#: main.cpp:99
 #, kde-format
 msgid ""
 "A session with the name %1 exists already. Use the -s switch to open it."
 msgstr ""
 
-#: main.cpp:111
+#: main.cpp:116
 #, kde-format
 msgid ""
 "Cannot open unknown session %1. See --sessions switch for available sessions "
 "or use -cs to create a new one."
 msgstr ""
 
-#: main.cpp:123
+#: main.cpp:128
 #, kde-format
 msgid ""
 "Cannot start KDevelop, the kdevelop.bin executable is missing in %1. Please "
@@ -654,6 +663,10 @@ msgstr "Projek naam"
 #, fuzzy
 msgid "Files to load"
 msgstr "Projek na open"
+
+#, fuzzy
+#~ msgid "Session contents"
+#~ msgstr "Weergawe:"
 
 #, fuzzy
 #~ msgid "Session to load"
@@ -1989,11 +2002,6 @@ msgstr "Projek na open"
 #~| msgid "Show included files"
 #~ msgid "Advanced"
 #~ msgstr "Vertoon ingesluite lêers"
-
-#, fuzzy
-#~| msgid "union"
-#~ msgid "Running"
-#~ msgstr "unie"
 
 #, fuzzy
 #~ msgid "&Cancel"
