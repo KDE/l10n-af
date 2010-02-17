@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-16 07:19+0100\n"
+"POT-Creation-Date: 2010-02-17 07:40+0100\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -418,7 +418,8 @@ msgstr "Skrap &Gids"
 
 #: collection/umscollection/podcasts/UmsPodcastProvider.cpp:213
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:180
-#: playlistmanager/file/PlaylistFileProvider.cpp:260
+#: playlistmanager/file/PlaylistFileProvider.cpp:269
+#: browsers/filebrowser/FileView.cpp:446
 msgid "Confirm Delete"
 msgstr "Bevestig Verwyder"
 
@@ -443,20 +444,20 @@ msgstr "Ja, verwyder van die skyf"
 msgid "&Delete Channel and Episodes"
 msgstr "&Skrap Afgelaaide Episode"
 
-#: collection/umscollection/handler/UmsHandler.cpp:463
+#: collection/umscollection/handler/UmsHandler.cpp:475
 #, fuzzy
 #| msgid "Update Collection"
 msgid "&Use as Collection"
 msgstr "Versameling Opdateer"
 
-#: collection/umscollection/handler/UmsHandler.cpp:477
+#: collection/umscollection/handler/UmsHandler.cpp:489
 #, fuzzy, kde-format
 #| msgctxt "change options"
 #| msgid "Configure %1"
 msgid "&Configure %1"
 msgstr "Stel %1 op"
 
-#: collection/umscollection/handler/UmsHandler.cpp:509
+#: collection/umscollection/handler/UmsHandler.cpp:522
 #, fuzzy
 #| msgid "Configure Media Device"
 msgid "Configure USB Mass Storage Device"
@@ -467,7 +468,7 @@ msgid "Proxy Collection"
 msgstr "Instaan Versameling"
 
 #: collection/support/FileCollectionLocation.cpp:105
-#: collection/sqlcollection/SqlCollectionLocation.cpp:575
+#: collection/sqlcollection/SqlCollectionLocation.cpp:579
 #, fuzzy, kde-format
 #| msgid "Playing: %1"
 msgid "Removing: %1"
@@ -609,22 +610,22 @@ msgstr "Plaaslike versameling"
 msgid "Imported Playlist Files"
 msgstr "Ingevoerde Speellys Lêers"
 
-#: collection/sqlcollection/ScanResultProcessor.cpp:194
+#: collection/sqlcollection/ScanResultProcessor.cpp:195
 msgctxt "Front cover of an album"
 msgid "front"
 msgstr "voorkant"
 
-#: collection/sqlcollection/ScanResultProcessor.cpp:202
+#: collection/sqlcollection/ScanResultProcessor.cpp:203
 msgctxt "(Front) Cover of an album"
 msgid "cover"
 msgstr "omslag"
 
-#: collection/sqlcollection/ScanResultProcessor.cpp:213
+#: collection/sqlcollection/ScanResultProcessor.cpp:214
 msgctxt "(Large front) Cover of an album"
 msgid "large"
 msgstr "groot"
 
-#: collection/sqlcollection/ScanResultProcessor.cpp:224
+#: collection/sqlcollection/ScanResultProcessor.cpp:225
 msgctxt "(Front) Cover of an album"
 msgid "folder"
 msgstr "gids"
@@ -639,32 +640,32 @@ msgstr "Vertoon in Verskeie Kunstenaars"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:21
 #. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
-#: collection/sqlcollection/SqlCollectionLocation.cpp:225 rc.cpp:887
+#: collection/sqlcollection/SqlCollectionLocation.cpp:229 rc.cpp:887
 msgid "Organize Files"
 msgstr "Organiseer Lêers"
 
-#: collection/sqlcollection/SqlCollectionLocation.cpp:359
+#: collection/sqlcollection/SqlCollectionLocation.cpp:363
 msgid "Organizing tracks"
 msgstr ""
 
-#: collection/sqlcollection/SqlCollectionLocation.cpp:361
+#: collection/sqlcollection/SqlCollectionLocation.cpp:365
 #, fuzzy
 #| msgid "Moving files to trash"
 msgid "Moving tracks"
 msgstr "Besig om lêers na die asblik te skuif"
 
-#: collection/sqlcollection/SqlCollectionLocation.cpp:363
+#: collection/sqlcollection/SqlCollectionLocation.cpp:367
 #, fuzzy
 #| msgid "Copying Tracks Failed"
 msgid "Copying tracks"
 msgstr "Snitte Kopieer Mislukking"
 
-#: collection/sqlcollection/SqlCollectionLocation.cpp:517
+#: collection/sqlcollection/SqlCollectionLocation.cpp:521
 #, kde-format
 msgid "Could not create directory: %1"
 msgstr "Kon nie gids skep nie: %1"
 
-#: collection/sqlcollection/SqlCollectionLocation.cpp:545
+#: collection/sqlcollection/SqlCollectionLocation.cpp:549
 #, kde-format
 msgid "Transferring: %1"
 msgstr "Dra oor: %1"
@@ -1160,17 +1161,17 @@ msgid "Current Track Settings"
 msgstr "Huidige Snit Instellings"
 
 #: context/applets/albums/AlbumsView.cpp:112
-#: browsers/CollectionTreeView.cpp:833 browsers/filebrowser/FileView.cpp:275
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:614
-#: browsers/playlistbrowser/PodcastModel.cpp:1061
+#: browsers/CollectionTreeView.cpp:833 browsers/filebrowser/FileView.cpp:279
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:658
+#: browsers/playlistbrowser/PodcastModel.cpp:1073
 #: services/lastfm/LastFmTreeView.cpp:112 TrayIcon.cpp:216
 msgid "&Add to Playlist"
 msgstr "&Voeg by Speellys"
 
 #: context/applets/albums/AlbumsView.cpp:113
-#: browsers/CollectionTreeView.cpp:842 browsers/filebrowser/FileView.cpp:284
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:621
-#: browsers/playlistbrowser/PodcastModel.cpp:1073
+#: browsers/CollectionTreeView.cpp:842 browsers/filebrowser/FileView.cpp:288
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:665
+#: browsers/playlistbrowser/PodcastModel.cpp:1085
 #: services/lastfm/LastFmTreeView.cpp:121
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
@@ -1868,7 +1869,7 @@ msgstr "Lêertipe"
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: dialogs/FilenameLayoutDialog.cpp:215 dialogs/FilenameLayoutDialog.cpp:542
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:251
-#: browsers/playlistbrowser/PodcastModel.cpp:492 rc.cpp:1198
+#: browsers/playlistbrowser/PodcastModel.cpp:504 rc.cpp:1198
 #: tooltips/ToolTipManager.cpp:153 playlist/PlaylistModel.cpp:701
 #: widgets/SmartPlaylistEditor.cpp:183
 msgid "Title"
@@ -2142,7 +2143,7 @@ msgstr ""
 msgid "Filename Layout Chooser"
 msgstr "Lêernaam Uitleg Kieser"
 
-#: dialogs/TagDialog.cpp:679 browsers/playlistbrowser/PodcastModel.cpp:493
+#: dialogs/TagDialog.cpp:679 browsers/playlistbrowser/PodcastModel.cpp:505
 msgid "Summary"
 msgstr "Opsomming"
 
@@ -2924,25 +2925,27 @@ msgid "Local playlists stored in the database"
 msgstr "Plaaslike speellyste in die databasis gestoor"
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:124
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:644
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:688
 msgid "&Rename"
 msgstr "Hernoem"
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:132
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:651
+#: browsers/filebrowser/FileView.cpp:314
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:695
 #: amarokurls/BookmarkTreeView.cpp:119
 msgid "&Delete"
 msgstr "&Skrap"
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:151
 #: playlistmanager/file/PlaylistFileProvider.cpp:127
+#: playlistmanager/file/PlaylistFileProvider.cpp:137
 #, kde-format
 msgctxt "Remove a track from a saved playlist"
 msgid "Remove From \"%1\""
 msgstr "Verwyder Van \"%1\""
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:182
-#: playlistmanager/file/PlaylistFileProvider.cpp:262
+#: playlistmanager/file/PlaylistFileProvider.cpp:271
 #, kde-format
 msgid "Are you sure you want to delete this playlist?"
 msgid_plural "Are you sure you want to delete these %1 playlists?"
@@ -2957,12 +2960,21 @@ msgstr "Ja, verwyder uit databasis"
 msgid "Playlist Files on Disk"
 msgstr "Speellys Lêers op Skyf"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:267
+#. i18n: file: dialogs/TagDialogBase.ui:825
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#. i18n: file: services/ampache/AmpacheConfigWidget.ui:98
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: playlistmanager/file/PlaylistFileProvider.cpp:154 rc.cpp:1043 rc.cpp:1756
+msgid "Remove"
+msgstr "Verwyder"
+
+#: playlistmanager/file/PlaylistFileProvider.cpp:276
+#: browsers/filebrowser/FileView.cpp:453
 msgid "Yes, delete from disk."
 msgstr "Ja, verwyder van die skyf"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:309
-#: playlistmanager/file/PlaylistFileProvider.cpp:333
+#: playlistmanager/file/PlaylistFileProvider.cpp:318
+#: playlistmanager/file/PlaylistFileProvider.cpp:342
 #, kde-format
 msgid "The playlist file \"%1\" could not be loaded."
 msgstr "Kon nie die speellys lêer \"%1\" laai nie."
@@ -3077,7 +3089,7 @@ msgid "Unable to save podcast episode file to %1"
 msgstr "Kon nie potgooi episode lêer stoor na %1 nie"
 
 #: podcasts/sql/SqlPodcastProvider.h:47
-#: browsers/playlistbrowser/PodcastModel.cpp:880
+#: browsers/playlistbrowser/PodcastModel.cpp:892
 msgid "Local Podcasts"
 msgstr "Plaaslike Potgooie"
 
@@ -3852,11 +3864,11 @@ msgstr "Tuis"
 msgid "Media Sources Home"
 msgstr "Media Bronne"
 
-#: browsers/CollectionTreeView.cpp:242 browsers/filebrowser/FileView.cpp:116
+#: browsers/CollectionTreeView.cpp:242 browsers/filebrowser/FileView.cpp:121
 msgid "Copy to Collection"
 msgstr "Kopieer na Versameling"
 
-#: browsers/CollectionTreeView.cpp:253 browsers/filebrowser/FileView.cpp:107
+#: browsers/CollectionTreeView.cpp:253 browsers/filebrowser/FileView.cpp:112
 msgid "Move to Collection"
 msgstr "Skuif na Versameling"
 
@@ -3864,7 +3876,7 @@ msgstr "Skuif na Versameling"
 msgid "More..."
 msgstr "Nog..."
 
-#: browsers/CollectionTreeView.cpp:861 browsers/filebrowser/FileView.cpp:293
+#: browsers/CollectionTreeView.cpp:861 browsers/filebrowser/FileView.cpp:297
 msgid "&Edit Track Details"
 msgstr "Wysig Snit Besonderhede"
 
@@ -4043,6 +4055,15 @@ msgstr ""
 "Dit is waar jy jou plaaslike musiek sal vind, sowel as musiek van draagbare "
 "media spelers en CDs."
 
+#: browsers/filebrowser/FileView.cpp:448
+#, fuzzy, kde-format
+#| msgid "Are you sure you want to delete this playlist?"
+#| msgid_plural "Are you sure you want to delete these %1 playlists?"
+msgid "Are you sure you want to delete this item?"
+msgid_plural "Are you sure you want to delete these %1 items?"
+msgstr[0] "Is jy seker jy wil hierdie speellys skrap?"
+msgstr[1] "Is jy seker jy wil hierdie %1 speellys lêers skrap?"
+
 #: browsers/filebrowser/FileBrowser.cpp:42
 msgid "Filter Files"
 msgstr "Filter Lêers"
@@ -4057,7 +4078,8 @@ msgstr ""
 "bronne besigtig. Amarok word verskeep met 'n aantal bronne, maar veel meer "
 "kan bygevoeg word met skripte."
 
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:217
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:168
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:261
 #, fuzzy, kde-format
 #| msgid "Playlist"
 msgctxt "number of playlists from one source"
@@ -4068,16 +4090,16 @@ msgstr[1] "Speellys"
 
 #. i18n: file: aboutdialog/OcsPersonItem.ui:140
 #. i18n: ectx: property (text), widget (QLabel, m_textLabel)
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:322 rc.cpp:1414
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:366 rc.cpp:1414
 #: amarokurls/BookmarkModel.cpp:265
 msgid "Name"
 msgstr "Naam"
 
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:323
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:367
 msgid "Group"
 msgstr "Groep"
 
-#: browsers/playlistbrowser/UserPlaylistModel.cpp:324
+#: browsers/playlistbrowser/UserPlaylistModel.cpp:368
 msgid "Source"
 msgstr "Bron"
 
@@ -4203,7 +4225,8 @@ msgstr "Dit beheer die strengheid van die passing teen die gegewe waarde."
 msgid "Strictness:"
 msgstr "Strengheid:"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:300
+#: browsers/playlistbrowser/PodcastModel.cpp:213
+#: browsers/playlistbrowser/PodcastModel.cpp:343
 #, fuzzy, kde-format
 #| msgid "IRC channels: "
 msgctxt "number of podcasts from one source"
@@ -4212,20 +4235,20 @@ msgid_plural "%1 channels"
 msgstr[0] "IRC kanale: "
 msgstr[1] "IRC kanale: "
 
-#: browsers/playlistbrowser/PodcastModel.cpp:491
+#: browsers/playlistbrowser/PodcastModel.cpp:503
 #: playlist/PlaylistModel.cpp:713 amarokurls/BookmarkModel.cpp:266
 msgid "Type"
 msgstr "Soort"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:644
+#: browsers/playlistbrowser/PodcastModel.cpp:656
 msgid "Add Podcast"
 msgstr "Voeg Potgooi by"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:645
+#: browsers/playlistbrowser/PodcastModel.cpp:657
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr "Gee RSS 1.0/2.0 of Atom voer URL:"
 
-#: browsers/playlistbrowser/PodcastModel.cpp:1093
+#: browsers/playlistbrowser/PodcastModel.cpp:1105
 msgctxt "toggle the \"new\" status of this podcast episode"
 msgid "&New"
 msgstr "Nuwe"
@@ -4312,7 +4335,7 @@ msgstr "Sleutelwoorde:"
 msgid "Select OPML file to import"
 msgstr "Kies OPML lêer vir invoer"
 
-#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:328
+#: browsers/playlistbrowser/UserPlaylistTreeView.cpp:340
 #, kde-format
 msgid "New Folder"
 msgid_plural "New Folder (%1)"
@@ -6965,14 +6988,6 @@ msgstr "Kies etikette for hierdie item:"
 #: rc.cpp:1040 rc.cpp:1753
 msgid "Add"
 msgstr "Byvoeg"
-
-#. i18n: file: dialogs/TagDialogBase.ui:825
-#. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#. i18n: file: services/ampache/AmpacheConfigWidget.ui:98
-#. i18n: ectx: property (text), widget (KPushButton, removeButton)
-#: rc.cpp:1043 rc.cpp:1756
-msgid "Remove"
-msgstr "Verwyder"
 
 #. i18n: file: dialogs/TagDialogBase.ui:854
 #. i18n: ectx: property (text), widget (QLabel, locationLabel)
