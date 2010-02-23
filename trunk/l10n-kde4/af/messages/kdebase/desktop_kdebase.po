@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-21 06:07+0000\n"
+"POT-Creation-Date: 2010-02-23 06:25+0000\n"
 "PO-Revision-Date: 2008-05-16 16:39+0200\n"
 "Last-Translator: Petri Jooste <Petri.Jooste@nwu.ac.za>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -2383,8 +2383,8 @@ msgstr "Vroegtydige laai van Konqueror tydens KDE opstart"
 
 #: apps/konqueror/preloader/konqy_preloader.desktop:3
 msgctxt "Name"
-msgid "KDED Konqueror Preloader Module"
-msgstr "KDED Konqueror Vroegtydige Laai Module"
+msgid "Browser Preloader"
+msgstr ""
 
 #: apps/konqueror/preloader/konqy_preloader.desktop:87
 msgctxt "Comment"
@@ -3058,15 +3058,18 @@ msgid "Bookmark Toolbar"
 msgstr "Boekmerk Nutsbalk"
 
 #: apps/lib/konq/favicons/favicons.desktop:3
+#: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Icons"
 msgctxt "Name"
-msgid "KDED Favicon Module"
-msgstr "Kded Favicon Module"
+msgid "Favicons"
+msgstr "Ikone"
 
 #: apps/lib/konq/favicons/favicons.desktop:91
-#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:76
 msgctxt "Comment"
-msgid "Shortcut icon support"
-msgstr "Kortpad ikoon ondersteuning"
+msgid "Stores website icons"
+msgstr ""
 
 #: apps/lib/konq/konqdndpopupmenuplugin.desktop:4
 #, fuzzy
@@ -3802,9 +3805,17 @@ msgid "Configure the CGI KIO slave"
 msgstr "Stel die CGI KIO-slaaf op"
 
 #: runtime/kioslave/desktop/desktopnotifier.desktop:3
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Network Analyzer"
 msgctxt "Name"
-msgid "KDED Desktop Folder Notifier"
-msgstr "KDED Werkskerm-vouer inkennissteller"
+msgid "Directory Watcher"
+msgstr "Netwerk Analiseerder"
+
+#: runtime/kioslave/desktop/desktopnotifier.desktop:84
+msgctxt "Comment"
+msgid "Monitors directories for changes"
+msgstr ""
 
 #: runtime/kioslave/desktop/directory.trash:3
 #: runtime/kioslave/trash/kcmtrash.desktop:1
@@ -3860,9 +3871,17 @@ msgid ""
 msgstr ""
 
 #: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDED Remote Base URL Notifier"
 msgctxt "Name"
-msgid "KDED Remote Base URL Notifier"
+msgid "Remote URL Change Notifier"
 msgstr "KDED afgeleë URL inkennissteller"
+
+#: runtime/kioslave/remote/kdedmodule/remotedirnotify.desktop:80
+msgctxt "Comment"
+msgid "Provides change notification to the remote:/ ioslave"
+msgstr ""
 
 #: runtime/kioslave/sftp/sftp.protocol:15
 msgctxt "Description"
@@ -4181,13 +4200,19 @@ msgid "KDE Notification Daemon"
 msgstr "KDE Inkennisstel-bediener"
 
 #: runtime/kpasswdserver/kpasswdserver.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Password caching support"
 msgctxt "Name"
-msgid "KDED Password Module"
-msgstr "KDED Wagwoordmodule"
+msgid "Password Caching"
+msgstr "Wagwoord byderhandhou-ondersteuning"
 
 #: runtime/kpasswdserver/kpasswdserver.desktop:82
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Password caching support"
 msgctxt "Comment"
-msgid "Password caching support"
+msgid "Temporary password caching"
 msgstr "Wagwoord byderhandhou-ondersteuning"
 
 #: runtime/kstyles/highcontrast/highcontrast.themerc:2
@@ -4427,14 +4452,17 @@ msgid "Web widget style"
 msgstr ""
 
 #: runtime/ktimezoned/ktimezoned.desktop:10
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Time Zone Daemon"
 msgctxt "Name"
-msgid "KDE Time Zone Daemon"
+msgid "Time Zone"
 msgstr "KDE tydzone-bediener"
 
 #: runtime/ktimezoned/ktimezoned.desktop:90
 msgctxt "Comment"
-msgid "Time zone daemon for KDE"
-msgstr "Tydsone-bediener vir KDE"
+msgid "Holds the configured time zone for the desktop"
+msgstr ""
 
 #: runtime/kuiserver/kuiserver.desktop:3
 msgctxt "Name"
@@ -8706,12 +8734,12 @@ msgstr "Xine Backend konfigurasie"
 #| msgctxt "GenericName"
 #| msgid "Sound Processor"
 msgctxt "Name"
-msgid "Sound Policy Server"
+msgid "Sound Policy"
 msgstr "Klank Verwerker"
 
 #: runtime/phonon/kded-module/phononserver.desktop:78
 msgctxt "Comment"
-msgid "A server to centralize decisions and data of applications using Phonon"
+msgid "Provides sound system policy to applications"
 msgstr ""
 
 #: runtime/phonon/platform_kde/phononbackend.desktop:4
@@ -8798,6 +8826,11 @@ msgctxt "Name"
 msgid "KDED Windows Start Menu Module"
 msgstr "KDED Windows Start Menu Module"
 
+#: runtime/platforms/win/kwinstartmenu/winstartmenu.desktop:76
+msgctxt "Comment"
+msgid "Shortcut icon support"
+msgstr "Kortpad ikoon ondersteuning"
+
 #: runtime/renamedlgplugins/audio/renaudiodlg.desktop:3
 msgctxt "Name"
 msgid "Audio Preview"
@@ -8810,13 +8843,12 @@ msgstr "Beeldwyser"
 
 #: runtime/solidautoeject/solidautoeject.desktop:7
 msgctxt "Name"
-msgid "Solid Auto-eject service"
+msgid "Drive Ejector"
 msgstr ""
 
 #: runtime/solidautoeject/solidautoeject.desktop:62
 msgctxt "Comment"
-msgid ""
-"Allows to automatically release drives when their eject button is pushed"
+msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
 
 #: runtime/solid-device-automounter/kcm/device_automounter_kcm.desktop:11
@@ -8839,17 +8871,20 @@ msgstr ""
 
 #: runtime/solid-device-automounter/kded/device_automounter.desktop:55
 msgctxt "Comment"
-msgid "Automatically mounts devices when they are plugged in, or at login"
+msgid "Automatically mounts devices as needed"
 msgstr ""
 
 #: runtime/soliduiserver/soliduiserver.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "System Monitor"
 msgctxt "Name"
-msgid "Solid User Interface Server"
-msgstr ""
+msgid "Hardware Detection"
+msgstr "Stelsel Monitor"
 
 #: runtime/soliduiserver/soliduiserver.desktop:82
 msgctxt "Comment"
-msgid "A User Interface server for Solid, the hardware detection system"
+msgid "Provides a user interface for hardware events"
 msgstr ""
 
 #: workspace/kcontrol/access/kaccess.desktop:3
@@ -9315,7 +9350,12 @@ msgstr ""
 
 #: workspace/kcontrol/randr/module/randrmonitor.desktop:2
 msgctxt "Name"
-msgid "Detecting RANDR (monitor) changes"
+msgid "Display Management change monitor"
+msgstr ""
+
+#: workspace/kcontrol/randr/module/randrmonitor.desktop:47
+msgctxt "Comment"
+msgid "Is this required when kephal has its own kded module?"
 msgstr ""
 
 #: workspace/kcontrol/randr/randr.desktop:14
@@ -9956,13 +9996,15 @@ msgid "Oxygen Theme"
 msgstr "Oxygen span"
 
 #: workspace/khotkeys/app/khotkeys.desktop:3
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:12
+#: workspace/khotkeys/kcm_hotkeys/settings-input-actions.desktop:8
 msgctxt "Name"
-msgid "KHotKeys"
-msgstr "KDE Kortpad Sleutels"
+msgid "Input Actions"
+msgstr "Inset Aksies"
 
 #: workspace/khotkeys/app/khotkeys.desktop:88
 msgctxt "Comment"
-msgid "KHotKeys daemon. No daemon, no hotkeys."
+msgid "Input Actions service performing configured actions on key presses"
 msgstr ""
 
 #: workspace/khotkeys/data/defaults.khotkeys:5
@@ -10393,12 +10435,6 @@ msgstr ""
 msgctxt "Name"
 msgid "PrintScreen"
 msgstr "Vang skermbeeld"
-
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:12
-#: workspace/khotkeys/kcm_hotkeys/settings-input-actions.desktop:8
-msgctxt "Name"
-msgid "Input Actions"
-msgstr "Inset Aksies"
 
 #: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:95
 #, fuzzy
@@ -12137,7 +12173,6 @@ msgid "Some effects are not supported by backend or hardware."
 msgstr ""
 
 #: workspace/kwrited/kwrited-autostart.desktop:2
-#: workspace/kwrited/kwrited.desktop:2
 msgctxt "Name"
 msgid "KDE Write Daemon"
 msgstr "KDE Skryf Bediener"
@@ -12149,6 +12184,14 @@ msgid "Watch for messages from local users sent with write(1) or wall(1)"
 msgstr ""
 "Kyk uit vir boodskappe vanaf plaaslike gebruikers wat met write(1) of wall"
 "(1) gestuur is"
+
+#: workspace/kwrited/kwrited.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDE Write Daemon"
+msgctxt "Name"
+msgid "Write Daemon"
+msgstr "KDE Skryf Bediener"
 
 #: workspace/kwrited/kwrited.notifyrc:3
 #, fuzzy
@@ -12169,8 +12212,16 @@ msgid "The daemon received a new message sent with wall(1) or write(1)"
 msgstr ""
 
 #: workspace/libs/kephal/kded_kephal/kephal.desktop:10
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
 msgctxt "Name"
-msgid "KDED-module for screen-management"
+msgid "Display Management"
+msgstr "Lêer Bestuurder"
+
+#: workspace/libs/kephal/kded_kephal/kephal.desktop:75
+msgctxt "Comment"
+msgid "Manages displays and video outputs"
 msgstr ""
 
 #: workspace/libs/ksysguard/processcore/actions.actions:2
@@ -12651,14 +12702,12 @@ msgstr ""
 #| msgctxt "Comment"
 #| msgid "KDE Notification Daemon"
 msgctxt "Name"
-msgid "KDED Status Notifier watcher"
+msgid "Status Notifier Manager"
 msgstr "KDE Inkennisstel-bediener"
 
 #: workspace/plasma/generic/applets/systemtray/statusnotifierwatcher/statusnotifierwatcher.desktop:51
 msgctxt "Comment"
-msgid ""
-"Keep track of applications that want to use the D-Bus based status notifier "
-"protocol."
+msgid "Manages services that provide status notifier user interfaces"
 msgstr ""
 
 #: workspace/plasma/generic/applets/webbrowser/plasma-applet-webbrowser.desktop:3
@@ -12826,14 +12875,6 @@ msgstr "Pikkewyn Beheerstasie"
 msgctxt "Comment"
 msgid "Run Executable Data Engine"
 msgstr "Toets data-enjin"
-
-#: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:3
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Icons"
-msgctxt "Name"
-msgid "Favicons"
-msgstr "Ikone"
 
 #: workspace/plasma/generic/dataengines/favicons/plasma-dataengine-favicons.desktop:73
 msgctxt "Comment"
@@ -13211,7 +13252,6 @@ msgid "Basic Power Management Operations"
 msgstr "Krag-beheer agtergrondprogram"
 
 #: workspace/plasma/generic/runners/powerdevil/plasma-runner-powerdevil.desktop:70
-#: workspace/powerdevil/daemon/powerdevil.desktop:11
 msgctxt "Name"
 msgid "PowerDevil"
 msgstr ""
@@ -13703,14 +13743,7 @@ msgctxt "Comment"
 msgid "Set up policies for applications using PolicyKit"
 msgstr ""
 
-#: workspace/powerdevil/daemon/powerdevil.desktop:80
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Power Management Backend"
-msgctxt "Comment"
-msgid "A Laptop Power Management Daemon"
-msgstr "Krag-beheer agtergrondprogram"
-
+#: workspace/powerdevil/daemon/powerdevil.desktop:11
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:13
 #: workspace/powerdevil/powerdevil.notifyrc:2
 #, fuzzy
@@ -13719,6 +13752,11 @@ msgstr "Krag-beheer agtergrondprogram"
 msgctxt "Name"
 msgid "Power Management"
 msgstr "Krag-beheer agtergrondprogram"
+
+#: workspace/powerdevil/daemon/powerdevil.desktop:80
+msgctxt "Comment"
+msgid "Battery, Display and CPU power management and notification"
+msgstr ""
 
 #: workspace/powerdevil/kcmodule/powerdevilconfig.desktop:85
 msgctxt "Comment"
@@ -13923,9 +13961,12 @@ msgid "Linux Infrared Remote Control"
 msgstr ""
 
 #: workspace/solid/networking/kded/networkstatus.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Settings"
 msgctxt "Name"
-msgid "Network Status Daemon"
-msgstr ""
+msgid "Network Status"
+msgstr "Instellings"
 
 #: workspace/solid/networking/kded/networkstatus.desktop:75
 msgctxt "Comment"
@@ -14638,6 +14679,37 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "KDED Konqueror Preloader Module"
+#~ msgstr "KDED Konqueror Vroegtydige Laai Module"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Favicon Module"
+#~ msgstr "Kded Favicon Module"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Desktop Folder Notifier"
+#~ msgstr "KDED Werkskerm-vouer inkennissteller"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Password Module"
+#~ msgstr "KDED Wagwoordmodule"
+
+#~ msgctxt "Comment"
+#~ msgid "Time zone daemon for KDE"
+#~ msgstr "Tydsone-bediener vir KDE"
+
+#~ msgctxt "Name"
+#~ msgid "KHotKeys"
+#~ msgstr "KDE Kortpad Sleutels"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Power Management Backend"
+#~ msgctxt "Comment"
+#~ msgid "A Laptop Power Management Daemon"
+#~ msgstr "Krag-beheer agtergrondprogram"
 
 #~ msgctxt "Name"
 #~ msgid "Sound"
