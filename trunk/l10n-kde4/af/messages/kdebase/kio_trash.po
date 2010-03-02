@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-15 06:11+0200\n"
+"POT-Creation-Date: 2010-03-02 04:18+0100\n"
 "PO-Revision-Date: 2005-06-13 11:27+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -15,44 +15,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: ktrash.cpp:32
-msgid "ktrash"
-msgstr "Kgemors"
+#: kio_trash_win.cpp:228 kio_trash.cpp:140
+msgid "This file is already in the trash bin."
+msgstr "Hierdie lêer is alreeds in die die gemors blik."
 
-#: ktrash.cpp:34
-#, fuzzy
-#| msgid ""
-#| "Helper program to handle the KDE trash can\n"
-#| "Note: to move files to the trash, do not use ktrash, but \"kfmclient move "
-#| "'url' trash:/\""
-msgid ""
-"Helper program to handle the KDE trash can\n"
-"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
-"'url' trash:/\""
+#: kio_trash_win.cpp:241
+msgid "not supported"
 msgstr ""
-"Helper program om KDE asblik te handteer.\n"
-"Nota: Moenie ktrash gebruik om lêers na die asblik te skuif nie. Gebruik "
-"\"kfmclient move 'url' trash:/\""
 
-#: ktrash.cpp:38
-msgid "Empty the contents of the trash"
-msgstr "Maak die inhoud van die gemors leeg"
+#: kio_trash_win.cpp:252 kio_trash.cpp:228
+msgid "Internal error in copyOrMove, should never happen"
+msgstr ""
 
-#: ktrash.cpp:40
-msgid "Restore a trashed file to its original location"
-msgstr "Herstoor ´n gemors lêer na sy oorspronklike posisie"
-
-#: ktrash.cpp:42
-msgid "Ignored"
-msgstr "Ignoreer"
-
-#: trashimpl.cpp:1116
+#: trashimpl.cpp:1114
 msgid ""
 "The trash has reached its maximum size!\n"
 "Cleanup the trash manually."
 msgstr ""
 
-#: trashimpl.cpp:1127
+#: trashimpl.cpp:1125
 #, fuzzy
 #| msgid "This file is already in the trash bin."
 msgid "The file is too large to be trashed."
@@ -182,17 +163,36 @@ msgstr ""
 "die herstoor funksie weer gebruik, of sleep die item na enige ander plek om "
 "dit te herstoor."
 
-#: kio_trash.cpp:140 kio_trash_win.cpp:228
-msgid "This file is already in the trash bin."
-msgstr "Hierdie lêer is alreeds in die die gemors blik."
+#: ktrash.cpp:32
+msgid "ktrash"
+msgstr "Kgemors"
 
-#: kio_trash.cpp:228 kio_trash_win.cpp:252
-msgid "Internal error in copyOrMove, should never happen"
+#: ktrash.cpp:34
+#, fuzzy
+#| msgid ""
+#| "Helper program to handle the KDE trash can\n"
+#| "Note: to move files to the trash, do not use ktrash, but \"kfmclient move "
+#| "'url' trash:/\""
+msgid ""
+"Helper program to handle the KDE trash can\n"
+"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
+"'url' trash:/\""
 msgstr ""
+"Helper program om KDE asblik te handteer.\n"
+"Nota: Moenie ktrash gebruik om lêers na die asblik te skuif nie. Gebruik "
+"\"kfmclient move 'url' trash:/\""
 
-#: kio_trash_win.cpp:241
-msgid "not supported"
-msgstr ""
+#: ktrash.cpp:38
+msgid "Empty the contents of the trash"
+msgstr "Maak die inhoud van die gemors leeg"
+
+#: ktrash.cpp:40
+msgid "Restore a trashed file to its original location"
+msgstr "Herstoor ´n gemors lêer na sy oorspronklike posisie"
+
+#: ktrash.cpp:42
+msgid "Ignored"
+msgstr "Ignoreer"
 
 #~ msgid "Protocol name"
 #~ msgstr "Protokol naam"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbackgammon VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-19 10:35+0100\n"
+"POT-Creation-Date: 2010-02-28 14:18+0100\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -15,573 +15,542 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: kbg.cpp:138 kbg.cpp:159 main.cpp:43
-msgid "KBackgammon"
-msgstr "Kbackgammon"
+#: engines/gnubg/kbggnubg.cpp:130
+#, kde-format
+msgid "gnubg doubles the cube to %1."
+msgstr "gnubg dubbels die kubus na %1."
 
-#: kbg.cpp:139
-msgid "FIBS"
-msgstr "Fibs"
+#: engines/gnubg/kbggnubg.cpp:131
+msgid "gnubg doubles"
+msgstr "gnubg dubbels"
 
-#: kbg.cpp:140
-msgid "GNU Backgammon (Experimental)"
+#: engines/gnubg/kbggnubg.cpp:132
+msgid "&Accept"
+msgstr "Aanvaar"
+
+#: engines/gnubg/kbggnubg.cpp:132
+msgid "Re&double"
+msgstr "Herverdubbel"
+
+#: engines/gnubg/kbggnubg.cpp:132
+msgid "&Reject"
+msgstr "Verwerp"
+
+#: engines/gnubg/kbggnubg.cpp:184
+#, fuzzy
+msgid "Please roll or double."
+msgstr "Asseblief rol of dubbel"
+
+#: engines/gnubg/kbggnubg.cpp:187
+#, fuzzy
+msgid "Please roll."
+msgstr "Asseblief rol"
+
+#: engines/gnubg/kbggnubg.cpp:198
+#, kde-format
+msgid "You roll %1 and %2."
+msgstr "Jy rol %1 en %2."
+
+#: engines/gnubg/kbggnubg.cpp:204
+msgid "Please move 1 piece."
+msgstr "Asseblief beweeg 1 stuk."
+
+#: engines/gnubg/kbggnubg.cpp:207
+#, kde-format
+msgid "Please move %1 pieces."
+msgstr "Asseblief beweeg %1 dele."
+
+#: engines/gnubg/kbggnubg.cpp:219
+#, kde-format
+msgid "gnubg rolls %1 and %2."
+msgstr "gnubg rolle %1 en %2."
+
+#: engines/gnubg/kbggnubg.cpp:221
+msgid "gnubg cannot move."
+msgstr "gnubg kan nie beweeg."
+
+#: engines/gnubg/kbggnubg.cpp:235 engines/offline/kbgoffline.cpp:414
+#: engines/offline/kbgoffline.cpp:927
+#, kde-format
+msgid "%1 vs. %2"
+msgstr "%1 teen. %2"
+
+#: engines/gnubg/kbggnubg.cpp:275 engines/offline/kbgoffline.cpp:355
+msgid "A game is currently in progress. Starting a new one will terminate it."
+msgstr ""
+"'n speletjie is huidiglik in vordering. Beginne 'n nuwe een sal termineer "
+"dit."
+
+#: engines/gnubg/kbggnubg.cpp:277 engines/offline/kbgoffline.cpp:357
+msgid "Start New Game"
+msgstr "Begin Nuwe Speletjie"
+
+#: engines/gnubg/kbggnubg.cpp:277 engines/offline/kbgoffline.cpp:358
+msgid "Continue Old Game"
+msgstr "Gaan voort Ou Speletjie"
+
+#: engines/gnubg/kbggnubg.cpp:290
+msgid "Starting a new game."
+msgstr "Beginne 'n nuwe speletjie."
+
+#: engines/gnubg/kbggnubg.cpp:379
+#, fuzzy
+msgid "GNU backgammon engine"
 msgstr "Gnu Backgammon (Eksperimenteel)"
 
-#: kbg.cpp:143
-msgid "FIBS Home"
-msgstr "Fibs Huis"
+#: engines/gnubg/kbggnubg.cpp:380
+msgid "GNU Engine"
+msgstr "Gnu Masjien"
 
-#: kbg.cpp:146
-msgid "Backgammon Rules"
-msgstr "Backgammon Reëls"
+#: engines/gnubg/kbggnubg.cpp:440
+msgid "&Restart GNU Backgammon"
+msgstr "Herbegin Gnu Backgammon"
 
-#: kbg.cpp:172
-msgid "&Play offline"
+#: engines/gnubg/kbggnubg.cpp:506
+msgid ""
+"Could not start the GNU Backgammon process.\n"
+"Make sure the program is in your PATH and is called \"gnubg\".\n"
+"Make sure that your copy is at least version 0.10"
 msgstr ""
+"Kon nie begin die Gnu Backgammon proses.\n"
+"Maak seker die program is in jou Gids soeklys en is wat genoem word \"gnubg"
+"\".\n"
+"Maak seker wat jou kopie is na minste weergawe 0.10"
 
-#: kbg.cpp:176
-msgid "With a friend"
-msgstr ""
+#: engines/gnubg/kbggnubg.cpp:535
+#, fuzzy, kde-format
+#| msgid "The GNU Backgammon process (%1) has exited. "
+msgid "The GNU Backgammon process (%1) has exited with code %1"
+msgstr "Die Gnu Backgammon proses (%1) het uitgegaan. "
 
-#: kbg.cpp:182
-msgid "Advanced AI"
-msgstr ""
-
-#: kbg.cpp:187
-msgid "Expert AI"
-msgstr ""
-
-#: kbg.cpp:192
+#: engines/offline/kbgoffline.cpp:145
 #, fuzzy
-#| msgid "&Playerlist"
-msgid "&Play online"
-msgstr "Spelerlys"
+msgid "&New Game..."
+msgstr "Name..."
 
-#: kbg.cpp:196
+#: engines/offline/kbgoffline.cpp:151
+msgid "&Swap Colors"
+msgstr "Uitruil Kleure"
+
+#: engines/offline/kbgoffline.cpp:154
+msgid "&Edit Mode"
+msgstr "Redigeer Modus"
+
+#: engines/offline/kbgoffline.cpp:218
 #, fuzzy
-#| msgid "FIBS"
-msgid "&FIBS"
-msgstr "Fibs"
-
-#: kbg.cpp:222
-msgid "Double Cube"
-msgstr "Dubbel Kubus"
-
-#: kbg.cpp:233
-msgid "&Backgammon on the Web"
-msgstr "Backgammon op die Web"
-
-#: kbg.cpp:249
-msgid "Command: "
-msgstr "Opdrag: "
-
-#: kbg.cpp:289
-msgid ""
-"This area contains the status messages for the game. Most of these messages "
-"are sent to you from the current engine."
-msgstr ""
-"Hierdie area bevat die status boodskappe vir die speletjie. Mees van hierdie "
-"boodskappe word gestuur na jy van die huidige masjien."
-
-#: kbg.cpp:293
-msgid ""
-"This is the command line. You can type special commands related to the "
-"current engine in here. Most relevant commands are also available through "
-"the menus."
-msgstr ""
-"Hierdie is die opdrag lyn. Jy kan tipe spesiaal opdragte verwanter na die "
-"huidige masjien in hier. Mees relevante opdragte word asook beskikbaar deur "
-"die kieslyste."
-
-#: kbg.cpp:298
-msgid ""
-"This is the button bar tool bar. It gives you easy access to game related "
-"commands. You can drag the bar to a different location within the window."
-msgstr ""
-"Hierdie is die knoppie kolom program kolom. Dit gee jy maklike toegang "
-"verkry na speletjie verwanter opdragte. jy kan trek die kolom na 'n ander "
-"ligging binne in die venster."
-
-#: kbg.cpp:303
-msgid ""
-"This is the status bar. It shows you the currently selected engine in the "
-"left corner."
-msgstr ""
-"Hierdie is die status kolom. Dit vertoon jy die huidiglik gekose masjien in "
-"die links hoek."
-
-#: kbg.cpp:603
-#, fuzzy
-msgid "KBackgammon settings"
+msgid "KBackgammon engine"
 msgstr "Kbackgammon"
 
-#: kbg.cpp:615
+#: engines/offline/kbgoffline.cpp:219
 #, fuzzy
-msgid "General settings"
-msgstr "Algemeen"
-
-#: kbg.cpp:616
-msgid "General"
-msgstr "Algemeen"
-
-#: kbg.cpp:623
-msgid "Messages"
-msgstr "Boodskappe"
-
-#: kbg.cpp:624
-msgid "Timer"
-msgstr "Tydhouer"
-
-#: kbg.cpp:625
-msgid "Autosave"
-msgstr "Outostoor"
-
-#: kbg.cpp:630
-#, fuzzy
-msgid ""
-"After you finished your moves, they have to be sent to the engine. You can "
-"either do that manually (in which case you should not enable this feature), "
-"or you can specify an amount of time that has to pass before the move is "
-"committed. If you undo a move during the timeout, the timeout will be reset "
-"and restarted once you finish the move. This is very useful if you would "
-"like to review the result of your move."
-msgstr ""
-"Na jy klaar gemaak jou skuiwe, hulle het na wees gestuur na die masjien. jy "
-"kan òf doen wat eiehandig (in wat kas jy moet nie aktiveer hierdie funksie), "
-"van jy kan spesifiseer 'n hoeveelheid van tyd wat het na herhaling voor die "
-"beweeg is toegewyd. As jy herstel 'n beweeg gedurende die tydverstreke, die "
-"tydverstreke sal wees herstel en herlaai as eers jy einde die beweeg. "
-"hierdie is baie bruikbare As jy sal hou van na hersiening die resultaat van "
-"jou beweeg."
-
-#: kbg.cpp:637
-msgid "Enable timeout"
-msgstr "Aktiveer tydverstreke"
-
-#: kbg.cpp:642
-msgid "Move timeout in seconds:"
-msgstr "Beweeg tydverstreke in sekondes:"
-
-#: kbg.cpp:656
-#, fuzzy
-msgid ""
-"Check the box to enable all the messages that you have previously disabled "
-"by choosing the \"Do not show this message again\" option."
-msgstr ""
-"Bevestig die boks na aktiveer alle die boodskappe die jy het vorige "
-"gestremde deur te kies die \"Moet nie vertoon hierdie boodskap weer\" opsie."
-
-#: kbg.cpp:661
-msgid "Reenable all messages"
-msgstr "Heraktiveer alle boodskappe"
-
-#: kbg.cpp:667
-msgid ""
-"Check the box to automatically save all window positions on program exit. "
-"They will be restored at next start."
-msgstr ""
-"Bevestig die boks na automaties stoor alle venster posisies op program "
-"weesïendig. Hulle sal wees gerestoreer na volgende begin."
-
-#: kbg.cpp:672
-msgid "Save settings on exit"
-msgstr "Stoor instellings op beïendig"
-
-#: kbg.cpp:740
-msgid ""
-"You can enable the menubar again with the right mouse button menu of the "
-"board."
-msgstr ""
-"Jy kan aktiveer die kiesbalk weer met die regterkant muis knoppie kieslys "
-"van die bord."
-
-#: kbg.cpp:742
-msgid "Information"
-msgstr ""
-
-#: kbgboard.cpp:148
-#, fuzzy
-msgid "Backgammon board"
+msgid "KBackgammon Engine"
 msgstr "Kbackgammon"
 
-#: kbgboard.cpp:149
-msgid "Board"
-msgstr "Bord"
+#: engines/offline/kbgoffline.cpp:239
+msgid "Names"
+msgstr "Name"
 
-#: kbgboard.cpp:171
-msgid "Colors"
-msgstr "Kleure"
+#: engines/offline/kbgoffline.cpp:250
+msgid "First player:"
+msgstr "Eerste speler:"
 
-#: kbgboard.cpp:172
-msgid "Short Moves"
-msgstr "Kort Skuiwe"
+#: engines/offline/kbgoffline.cpp:251
+msgid "Second player:"
+msgstr "Tweede speler:"
 
-#: kbgboard.cpp:173 engines/fibs/kbgfibs.cpp:233
-msgid "Options"
+#: engines/offline/kbgoffline.cpp:253 engines/offline/kbgoffline.cpp:255
+msgid "Computer"
 msgstr ""
 
-#: kbgboard.cpp:186
-msgid "Background"
-msgstr "Agtergrond"
-
-#: kbgboard.cpp:189
-msgid "Color 1"
-msgstr "Kleur 1"
-
-#: kbgboard.cpp:192
-msgid "Color 2"
-msgstr "Kleur 2"
-
-#: kbgboard.cpp:215
-msgid "&Disable short moves. Only drag and drop will move."
+#: engines/offline/kbgoffline.cpp:258 engines/offline/kbgoffline.cpp:259
+msgid "Check for the computer to play"
 msgstr ""
 
-#: kbgboard.cpp:216
-msgid ""
-"&Single clicks with the left mouse button will\n"
-"move a checker the shortest possible distance."
-msgstr ""
-"Enkel klieke met die links muis knoppie sal\n"
-"beweeg 'n toetser die kortste moontlik afstand."
-
-#: kbgboard.cpp:218
-msgid ""
-"D&ouble clicks with the left mouse button will\n"
-"move a checker the shortest possible distance."
-msgstr ""
-"Dubbel klieke met die links muis knoppie sal\n"
-"beweeg 'n toetser die kortste moontlik afstand."
-
-#: kbgboard.cpp:234
-msgid "Show pip count in title bar"
-msgstr "Vertoon pip tel in titel kolom"
-
-#: kbgboard.cpp:247
-msgid "&Board"
-msgstr "Bord"
-
-#: kbgboard.cpp:270
-msgid "&Font"
-msgstr "Skrif tipe"
-
-#: kbgboard.cpp:408
-msgid "Set Cube Values"
-msgstr "Stel Kubus Waardes"
-
-#: kbgboard.cpp:420
-msgid ""
-"Set the face value of the cube and select who should be able to\n"
-"double. Note that a face value of 1 automatically allows both\n"
-"players to double."
-msgstr ""
-"Stel die gesig waarde van die kubus en kies wie moet wees in staat na\n"
-"dubbel. Nota wat 'n gesig waarde van 1 automaties laat toe beide\n"
-"spelers na dubbel."
-
-#: kbgboard.cpp:472
-msgid "Lower Player"
-msgstr "Sagter Speler"
-
-#: kbgboard.cpp:473
-msgid "Upper Player"
-msgstr "Boonste Speler"
-
-#: kbgboard.cpp:474
-msgid "Open Cube"
-msgstr "Open Kubus"
-
-#: kbgboard.cpp:558
-msgid "Set Dice Values"
-msgstr "Stel Dobbelsteen Waardes"
-
-#: kbgboard.cpp:570
-msgid ""
-"Set the face values of the selected dice. The other player's\n"
-"dice will be cleared and it will be the dice's owner's turn."
+#: engines/offline/kbgoffline.cpp:262
+msgid "Match to:"
 msgstr ""
 
-#: kbgboard.cpp:1645
-msgid ""
-"This is the bar of the backgammon board.\n"
-"\n"
-"Checkers that have been kicked from the board are put on the bar and remain "
-"there until they can be put back on the board. Checkers can be moved by "
-"dragging them to their destination or by using the 'short move' feature.\n"
-"\n"
-"If the cube has not been doubled yet and if it can be used, its face shows "
-"64 and if the cube can be doubled, double clicking it will do so."
-msgstr ""
+#: engines/offline/kbgoffline.cpp:275
+msgid "Enter the name of the first player."
+msgstr "Invoer die naam van die eerste speler."
 
-#: kbgboard.cpp:1662
-msgid ""
-"This is a regular field of the backgammon board.\n"
-"\n"
-"Checkers can be placed on this field and if the current state of the game "
-"and the dice permit this, they can be moved by dragging them to their "
-"destination or by using the 'short move' feature."
-msgstr ""
-"Hierdie is 'n gewone veld van die backgammon bord.\n"
-"\n"
-"Skuifstukke kan wees rangorde op Hierdie veld en as die huidige staat van "
-"die speletjie en die dobbelsteen laat toe Hierdie, hulle kan wees verskuif "
-"deur te trek hulle na hulle bestemming of deur te gebruik die 'short move' "
-"funksie."
+#: engines/offline/kbgoffline.cpp:276
+msgid "Enter the name of the second player."
+msgstr "Invoer die naam van die tweede speler."
 
-#: kbgboard.cpp:1676
-msgid ""
-"This part of the backgammon board is the home.\n"
-"\n"
-"Depending on the direction of the game, one of the homes contains the dice "
-"and the other one contains checkers that have been moved off the board. "
-"Checkers can never be moved away from the home. If this home contains the "
-"dice and the current state of the game permits this, double clicking on the "
-"dice will roll them. Moreover, the cube might be placed on the home bar and "
-"if it can be doubled, double clicking it will do so."
-msgstr ""
-"Hierdie deel van die backgammon bord is die huis.\n"
-"\n"
-"Afhangend op die rigting van die speletjie, een van die tuistes bevat die "
-"dobbelsteen en die ander een bevat skuifstukke wat het al verskuif af die "
-"bord. skuifstukke kan moet nooit wees verskuif weg van die huis. As Hierdie "
-"huis bevat die dobbelsteen en die huidige staat van die speletjie laat toe "
-"Hierdie, dubbel te kliek op die dobbelsteen sal rol hulle. Nog meer, die "
-"kubus dalk wees rangorde op die huis kolom en As dit kan wees verdubbel, "
-"dubbel te kliek dit sal doen sodat."
+#: engines/offline/kbgoffline.cpp:282
+msgid "&Player Names"
+msgstr "Speler Name"
 
-#: engines/fibs/kbgfibschat.cpp:125 engines/fibs/kbgfibschat.cpp:129
+#: engines/offline/kbgoffline.cpp:301 engines/offline/kbgoffline.cpp:316
+msgid "South"
+msgstr "Suid"
+
+#: engines/offline/kbgoffline.cpp:302 engines/offline/kbgoffline.cpp:317
+msgid "North"
+msgstr "Noord"
+
+#: engines/offline/kbgoffline.cpp:393
 #, kde-format
-msgid "%1: "
-msgstr ""
+msgid "%1 rolls %2, %3 rolls %4."
+msgstr "%1 rolle %2, %3 rolle %4."
 
-#: engines/fibs/kbgfibschat.cpp:147
+#: engines/offline/kbgoffline.cpp:398 engines/offline/kbgoffline.cpp:401
 #, kde-format
-msgid "%1 user"
-msgstr "%1 gebruiker"
+msgid "%1 makes the first move."
+msgstr "%1 maak die eerste beweeg."
 
-#: engines/fibs/kbgfibschat.cpp:149
-msgid "Kibitz to watchers and players"
-msgstr "Kibitz na toeskouers en spelers"
-
-#: engines/fibs/kbgfibschat.cpp:151
-msgid "Whisper to watchers only"
-msgstr "Fluister na toeskouers slegs"
-
-#: engines/fibs/kbgfibschat.cpp:163
-msgid "Chat Window"
-msgstr "Gesels Venster"
-
-#: engines/fibs/kbgfibschat.cpp:165
+#: engines/offline/kbgoffline.cpp:476
 msgid ""
-"This is the chat window.\n"
-"\n"
-"The text in this window is colored depending on whether it is directed at "
-"you personally, shouted to the general FIBS population, has been said by "
-"you, or is of general interest. If you select the name of a player, the "
-"context contains entries specifically geared towards that player."
+"Please enter the nickname of the player whose home\n"
+"is in the lower half of the board:"
 msgstr ""
-"Hierdie is die gesels venster.\n"
-"\n"
-"die teks in Hierdie venster is gekleurde afhangend op hetsy dit is gerig na "
-"jy persoonlik, geskree na die algemeen Fibs bevolking, het al het gesê deur "
-"jy, van is van algemeen belang. As jy kies die naam van 'n speler, die "
-"konteks bevat inskrywings spesifiek gerig na wat speler."
+"Asseblief invoer die bynaam van die speler wie se huis\n"
+"is in die sagter half van die bord:"
 
-#: engines/fibs/kbgfibschat.cpp:178
-msgid "Info On"
-msgstr "Inligting Op"
+#: engines/offline/kbgoffline.cpp:480
+msgid ""
+"Please enter the nickname of the player whose home\n"
+"is in the upper half of the board:"
+msgstr ""
+"Asseblief invoer die bynaam van die speler wie se huis\n"
+"is in die boonste half van die bord:"
 
-#: engines/fibs/kbgfibschat.cpp:183
-msgid "Talk To"
-msgstr "Praat Na"
+#: engines/offline/kbgoffline.cpp:485
+#, fuzzy
+msgid "Player name"
+msgstr "Speler Name"
 
-#: engines/fibs/kbgfibschat.cpp:187 engines/fibs/kplayerlist.cpp:329
+#: engines/offline/kbgoffline.cpp:509 engines/offline/kbgoffline.cpp:772
+#: engines/offline/kbgoffline.cpp:783
+#, kde-format
+msgid "%1 wins the game. Congratulations!"
+msgstr "%1 wins die speletjie. Baie geluk!"
+
+#: engines/offline/kbgoffline.cpp:512
+#, kde-format
+msgid "Score: %1 to %2 of %3"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:519
+#, fuzzy, kde-format
+msgid "%1 wins the match!"
+msgstr "1 Punt Ooreenstem"
+
+#: engines/offline/kbgoffline.cpp:538
+#, kde-format
+msgid "%1, please roll or double."
+msgstr "%1, asseblief rol of dubbel."
+
+#: engines/offline/kbgoffline.cpp:662
+#, fuzzy
+#| msgid "It's not your turn to roll!"
+msgid "It is not your turn to roll!"
+msgstr "Dit is nie jou skakel na rol!"
+
+#: engines/offline/kbgoffline.cpp:714
+msgid "Game over!"
+msgstr "Speletjie bo!"
+
+#: engines/offline/kbgoffline.cpp:721
+#, fuzzy, kde-format
+msgid "%1, you cannot move."
+msgstr "gnubg kan nie beweeg."
+
+#: engines/offline/kbgoffline.cpp:736
+#, fuzzy, kde-format
+msgid ", please move 1 piece."
+msgid_plural ", please move %1 pieces."
+msgstr[0] "%2, asseblief beweeg %3 dele."
+
+#: engines/offline/kbgoffline.cpp:742
+#, fuzzy, kde-format
+msgid "%1 rolls %2, %3, and moves %4."
+msgstr "%1 rolle %2, %3 rolle %4."
+
+#: engines/offline/kbgoffline.cpp:765
+#, kde-format
+msgid "%1 has doubled. %2, do you accept the double?"
+msgstr "%1 het verdubbel. %2, doen jy aanvaar die dubbel?"
+
+#: engines/offline/kbgoffline.cpp:768
+msgid "Doubling"
+msgstr "Verdubbel"
+
+#: engines/offline/kbgoffline.cpp:768 engines/fibs/kbgfibs.cpp:2291
+msgid "Accept"
+msgstr "Aanvaar"
+
+#: engines/offline/kbgoffline.cpp:768 engines/fibs/kbgfibs.cpp:2295
+msgid "Reject"
+msgstr "Verwerp"
+
+#: engines/offline/kbgoffline.cpp:775 engines/offline/kbgoffline.cpp:786
+#, kde-format
+msgid "Score: %1 to %2"
+msgstr ""
+
+#: engines/offline/kbgoffline.cpp:790
+#, kde-format
+msgid "%1 has accepted the double. The game continues."
+msgstr "%1 het aanvaar die dubbel. die speletjie gaan voort."
+
+#: engines/offline/kbgoffline.cpp:828
+msgid "In the middle of a game. Really quit?"
+msgstr "In die middelste van 'n speletjie. Rerig verlaat?"
+
+#: engines/offline/kbgoffline.cpp:853
+#, kde-format
+msgid "Text commands are not yet working. The command '%1' has been ignored."
+msgstr ""
+"Teks opdragte word nie nog werksaam. Die opdrag '%1' het al geignoreer."
+
+#: engines/offline/kbgoffline.cpp:923
+#, kde-format
+msgid "%1 vs. %2 - Edit Mode"
+msgstr "%1 teen. %2 - Redigeer Modus"
+
+#: engines/fibs/kbginvite.cpp:59
+msgid "Invite Players"
+msgstr "Nooi Spelers"
+
+#: engines/fibs/kbginvite.cpp:71
+msgid "&Invite"
+msgstr "Nooi"
+
+#: engines/fibs/kbginvite.cpp:72
+msgid "&Resume"
+msgstr "Voortgaan"
+
+#: engines/fibs/kbginvite.cpp:73
+msgid "&Unlimited"
+msgstr "Onbeperk"
+
+#: engines/fibs/kbginvite.cpp:78
+msgid ""
+"Type the name of the player you want to invite in the first entry\n"
+"field and select the desired match length in the spin box."
+msgstr ""
+"Tipe die naam van die speler jy wil hê na nooi in die eerste inskrywing\n"
+"veld en kies die verlangde ooreenstem lengte in die draai boks."
+
+#: engines/fibs/kplayerlist.cpp:225
+msgid "Player"
+msgstr "Speler"
+
+#: engines/fibs/kplayerlist.cpp:226
+msgid "Opponent"
+msgstr "Opponent"
+
+#: engines/fibs/kplayerlist.cpp:227
+msgid "Watches"
+msgstr "Hou dop"
+
+#: engines/fibs/kplayerlist.cpp:228
+msgid "Status"
+msgstr "Status"
+
+#: engines/fibs/kplayerlist.cpp:229
+msgid "Rating"
+msgstr "Rangorde"
+
+#: engines/fibs/kplayerlist.cpp:230
+msgid "Exp."
+msgstr "Exp."
+
+#: engines/fibs/kplayerlist.cpp:231
+msgid "Idle"
+msgstr "Luier"
+
+#: engines/fibs/kplayerlist.cpp:232
+msgid "Time"
+msgstr "Tyd"
+
+#: engines/fibs/kplayerlist.cpp:233
+#, fuzzy
+msgid "Host name"
+msgstr "Masjien naam"
+
+#: engines/fibs/kplayerlist.cpp:234
+msgid "Client"
+msgstr "Kliënt"
+
+#: engines/fibs/kplayerlist.cpp:235
+msgid "Email"
+msgstr "E-pos"
+
+#: engines/fibs/kplayerlist.cpp:252
+#, fuzzy
+#| msgctxt "abreviate blind"
+#| msgid "B"
+msgctxt "abbreviate blind"
+msgid "B"
+msgstr "B"
+
+#: engines/fibs/kplayerlist.cpp:253
+#, fuzzy
+#| msgctxt "abreviate away"
+#| msgid "A"
+msgctxt "abbreviate away"
+msgid "A"
+msgstr "'n"
+
+#: engines/fibs/kplayerlist.cpp:254
+#, fuzzy
+#| msgctxt "abreviate ready"
+#| msgid "R"
+msgctxt "abbreviate ready"
+msgid "R"
+msgstr "R"
+
+#: engines/fibs/kplayerlist.cpp:266
+msgid ""
+"This window contains the player list. It shows all players that are "
+"currently logged into FIBS.Use the right mouse button to get a context menu "
+"with helpful information and commands."
+msgstr ""
+"Hierdie venster bevat die speler lys. Dit vertoon alle spelers wat word "
+"huidiglik gelog binnein Fibs.Gebruik die regterkant muis knoppie na kry 'n "
+"konteks kieslys met hulpvaardig informasie en opdragte."
+
+#: engines/fibs/kplayerlist.cpp:291
+msgid "Invite"
+msgstr "Nooi"
+
+#: engines/fibs/kplayerlist.cpp:298
+msgid "Info"
+msgstr "Inligting"
+
+#: engines/fibs/kplayerlist.cpp:302
+msgid "Talk"
+msgstr "Praat"
+
+#: engines/fibs/kplayerlist.cpp:306
+msgid "Look"
+msgstr "Kyk"
+
+#: engines/fibs/kplayerlist.cpp:309
+msgid "Watch"
+msgstr "Waarneem"
+
+#: engines/fibs/kplayerlist.cpp:312
+msgid "Unwatch"
+msgstr "Moenie dophou"
+
+#: engines/fibs/kplayerlist.cpp:315 engines/fibs/kplayerlist.cpp:630
+msgid "Blind"
+msgstr "Blinde"
+
+#: engines/fibs/kplayerlist.cpp:318
+msgid "Update"
+msgstr "Dateer op"
+
+#: engines/fibs/kplayerlist.cpp:329 engines/fibs/kbgfibschat.cpp:187
 msgid "Use Dialog"
 msgstr "Gebruik Dialoog"
 
-#: engines/fibs/kbgfibschat.cpp:191 engines/fibs/kplayerlist.cpp:332
+#: engines/fibs/kplayerlist.cpp:332 engines/fibs/kbgfibschat.cpp:191
 msgid "1 Point Match"
 msgstr "1 Punt Ooreenstem"
 
-#: engines/fibs/kbgfibschat.cpp:195 engines/fibs/kplayerlist.cpp:338
+#: engines/fibs/kplayerlist.cpp:335
+msgid "2 Point Match"
+msgstr "2 Punt Ooreenstem"
+
+#: engines/fibs/kplayerlist.cpp:338 engines/fibs/kbgfibschat.cpp:195
 msgid "3 Point Match"
 msgstr "3 Punt Ooreenstem"
 
-#: engines/fibs/kbgfibschat.cpp:199 engines/fibs/kplayerlist.cpp:344
+#: engines/fibs/kplayerlist.cpp:341
+msgid "4 Point Match"
+msgstr "4 Punt Ooreenstem"
+
+#: engines/fibs/kplayerlist.cpp:344 engines/fibs/kbgfibschat.cpp:199
 msgid "5 Point Match"
 msgstr "5 Punt Ooreenstem"
 
-#: engines/fibs/kbgfibschat.cpp:203 engines/fibs/kplayerlist.cpp:350
+#: engines/fibs/kplayerlist.cpp:347
+msgid "6 Point Match"
+msgstr "6 Punt Ooreenstem"
+
+#: engines/fibs/kplayerlist.cpp:350 engines/fibs/kbgfibschat.cpp:203
 msgid "7 Point Match"
 msgstr "7 Punt Ooreenstem"
 
-#: engines/fibs/kbgfibschat.cpp:207
-#, fuzzy
-#| msgid "1 Point Match"
-msgid "9 Point Match"
-msgstr "1 Punt Ooreenstem"
-
-#: engines/fibs/kbgfibschat.cpp:211 engines/fibs/kplayerlist.cpp:353
+#: engines/fibs/kplayerlist.cpp:353 engines/fibs/kbgfibschat.cpp:211
 msgid "Unlimited"
 msgstr "Onbeperk"
 
-#: engines/fibs/kbgfibschat.cpp:215 engines/fibs/kplayerlist.cpp:356
+#: engines/fibs/kplayerlist.cpp:356 engines/fibs/kbgfibschat.cpp:215
 msgid "Resume"
 msgstr "Voortgaan"
 
-#: engines/fibs/kbgfibschat.cpp:234
-msgid "Gag"
-msgstr "Gag"
+#: engines/fibs/kplayerlist.cpp:485
+msgid "Column Selection"
+msgstr "Kolom Keuse"
 
-#: engines/fibs/kbgfibschat.cpp:238
-msgid "Ungag"
-msgstr "Ongag"
-
-#: engines/fibs/kbgfibschat.cpp:242
-msgid "Clear Gag List"
-msgstr "Maak skoon Gag Lys"
-
-#: engines/fibs/kbgfibschat.cpp:249
-msgid "Clear"
-msgstr ""
-
-#: engines/fibs/kbgfibschat.cpp:255
-msgid "Silent"
-msgstr "Stil"
-
-#: engines/fibs/kbgfibschat.cpp:334
-msgid "Select users to be removed from the gag list."
-msgstr "Kies gebruikers na wees verwyder van die gag lys."
-
-#: engines/fibs/kbgfibschat.cpp:336
+#: engines/fibs/kplayerlist.cpp:492
 msgid ""
-"Select all the users you want to remove from the gag list and then click OK. "
-"Afterwards you will again hear what they shout."
+"Select all the columns that you would\n"
+"like to be shown in the player list."
 msgstr ""
-"Kies alle die gebruikers jy wil hê na verwyder van die gag lys en dan word "
-"kliek Goed. Agterna jy sal weer hoor wat hulle skree."
+"Kies alle die kolomme wat jy sal\n"
+"hou van na wees vertoon in die speler lys."
 
-#: engines/fibs/kbgfibschat.cpp:351
-msgid "&Gag List"
-msgstr "Gag Lys"
+#: engines/fibs/kplayerlist.cpp:516
+msgid "&Playerlist"
+msgstr "Spelerlys"
 
-#: engines/fibs/kbgfibschat.cpp:413 engines/fibs/kbgfibschat.cpp:447
-#: engines/fibs/kbgfibschat.cpp:651 engines/fibs/kplayerlist.cpp:603
-#, kde-format
-msgid "Talk to %1"
-msgstr "Praat na %1"
-
-#: engines/fibs/kbgfibschat.cpp:523
-#, fuzzy, kde-format
-#| msgid "<u>%1 tells you:</u> %2"
-msgid "%1 tells you: %2"
-msgstr "<u>%1 sê vir jy:</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:531
-#, fuzzy, kde-format
-#| msgid "<u>%1 shouts:</u> %2"
-msgid "%1 shouts: %2"
-msgstr "<u>%1 skree:</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:538
-#, fuzzy, kde-format
-#| msgid "<u>%1 whispers:</u> %2"
-msgid "%1 whispers: %2"
-msgstr "<u>%1 fluister:</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:546
-#, fuzzy, kde-format
-#| msgid "<u>%1 kibitzes:</u> %2"
-msgid "%1 kibitzes: %2"
-msgstr "<u>%1 kibitzes:</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:553
-#, kde-format
-msgid "%1 tell %2: %3"
-msgstr ""
-
-#: engines/fibs/kbgfibschat.cpp:559
-#, fuzzy, kde-format
-#| msgid "<u>%1 shouts:</u> %2"
-msgid "%1 shout: %2"
-msgstr "<u>%1 skree:</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:565
-#, fuzzy, kde-format
-#| msgid "<u>%1 whispers:</u> %2"
-msgid "%1 whisper: %2"
-msgstr "<u>%1 fluister:</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:571
-#, fuzzy, kde-format
-#| msgid "<u>%1 kibitzes:</u> %2"
-msgid "%1 kibitz: %2"
-msgstr "<u>%1 kibitzes:</u> %2"
-
-#: engines/fibs/kbgfibschat.cpp:581
-#, fuzzy, kde-format
-#| msgid "<u>User %1 left a message at %2</u>: %3"
-msgid "User %1 left a message at %2: %3"
-msgstr "<u>Gebruiker %1 links 'n boodskap na %2</u>: %3"
-
-#: engines/fibs/kbgfibschat.cpp:587
-#, kde-format
-msgid "Your message for %1 has been delivered."
-msgstr "Jou boodskap vir %1 het al afgelewer."
-
-#: engines/fibs/kbgfibschat.cpp:593
-#, kde-format
-msgid "Your message for %1 has been saved."
-msgstr "Jou boodskap vir %1 het al gestoor."
-
-#: engines/fibs/kbgfibschat.cpp:610
-#, fuzzy
-#| msgid "<u>You say to yourself:</u> "
-msgid "You say to yourself: "
-msgstr "<u>Jy sê na jouself:</u> "
-
-#: engines/fibs/kbgfibschat.cpp:654 engines/fibs/kplayerlist.cpp:602
+#: engines/fibs/kplayerlist.cpp:602 engines/fibs/kbgfibschat.cpp:654
 #, kde-format
 msgid "Info on %1"
 msgstr "Inligting op %1"
 
-#: engines/fibs/kbgfibschat.cpp:658 engines/fibs/kplayerlist.cpp:620
+#: engines/fibs/kplayerlist.cpp:603 engines/fibs/kbgfibschat.cpp:413
+#: engines/fibs/kbgfibschat.cpp:447 engines/fibs/kbgfibschat.cpp:651
+#, kde-format
+msgid "Talk to %1"
+msgstr "Praat na %1"
+
+#: engines/fibs/kplayerlist.cpp:604
+#, kde-format
+msgid "Email to %1"
+msgstr "E-pos na %1"
+
+#: engines/fibs/kplayerlist.cpp:605
+#, kde-format
+msgid "Look at %1"
+msgstr "Kyk na %1"
+
+#: engines/fibs/kplayerlist.cpp:606
+#, kde-format
+msgid "Watch %1"
+msgstr "Waarneem %1"
+
+#: engines/fibs/kplayerlist.cpp:607
+#, kde-format
+msgid "Update %1"
+msgstr "Dateer op %1"
+
+#: engines/fibs/kplayerlist.cpp:620 engines/fibs/kbgfibschat.cpp:658
 #, kde-format
 msgid "Invite %1"
 msgstr "Nooi %1"
 
-#: engines/fibs/kbgfibschat.cpp:664
+#: engines/fibs/kplayerlist.cpp:628
 #, kde-format
-msgid "Gag %1"
-msgstr "Gag %1"
+msgid "Unblind %1"
+msgstr "Moenie verblind %1"
 
-#: engines/fibs/kbgfibschat.cpp:667
-#, kde-format
-msgid "Ungag %1"
-msgstr "Ongag %1"
-
-#: engines/fibs/kbgfibschat.cpp:694
-msgid "The gag list is now empty."
-msgstr "Die gag lys is nou leeg."
-
-#: engines/fibs/kbgfibschat.cpp:703
+#: engines/fibs/kplayerlist.cpp:628
 #, fuzzy, kde-format
-#| msgid "You will again hear what %1 says and shouts."
-msgid "You will not hear what %1 says and shouts."
-msgstr "Jy sal weer hoor wat %1 sê en skree."
+msgid "Blind %1"
+msgstr "Moenie verblind %1"
 
-#: engines/fibs/kbgfibschat.cpp:720
+#: engines/fibs/kplayerlist.cpp:919
 #, kde-format
-msgid "You will again hear what %1 says and shouts."
-msgstr "Jy sal weer hoor wat %1 sê en skree."
-
-#: engines/fibs/kbgfibschat.cpp:739
-#, fuzzy
-msgid "You will not hear what people shout."
-msgstr "Jy sal hoor wat mense skree."
-
-#: engines/fibs/kbgfibschat.cpp:741
-msgid "You will hear what people shout."
-msgstr "Jy sal hoor wat mense skree."
+msgid "Player List - %1 - %2/%3"
+msgstr "Speler Lys - %1 - %2/%3"
 
 #: engines/fibs/kbgfibs.cpp:212
 #, fuzzy
@@ -591,6 +560,10 @@ msgstr "Backgammon Reëls"
 #: engines/fibs/kbgfibs.cpp:213
 msgid "FIBS Engine"
 msgstr "Fibs Masjien"
+
+#: engines/fibs/kbgfibs.cpp:233 kbgboard.cpp:173
+msgid "Options"
+msgstr ""
 
 #: engines/fibs/kbgfibs.cpp:234
 msgid "Automatic Messages"
@@ -1167,14 +1140,6 @@ msgstr "Gierige Bearoffs"
 msgid "Ask for Doubles"
 msgstr "Vra vir Dubbels"
 
-#: engines/fibs/kbgfibs.cpp:2291 engines/offline/kbgoffline.cpp:768
-msgid "Accept"
-msgstr "Aanvaar"
-
-#: engines/fibs/kbgfibs.cpp:2295 engines/offline/kbgoffline.cpp:768
-msgid "Reject"
-msgstr "Verwerp"
-
 #: engines/fibs/kbgfibs.cpp:2305
 msgid "Join"
 msgstr "Aansluit by"
@@ -1191,311 +1156,196 @@ msgstr "Speler Lys"
 msgid "&Chat"
 msgstr "Gesels"
 
-#: engines/fibs/kplayerlist.cpp:225
-msgid "Player"
-msgstr "Speler"
-
-#: engines/fibs/kplayerlist.cpp:226
-msgid "Opponent"
-msgstr "Opponent"
-
-#: engines/fibs/kplayerlist.cpp:227
-msgid "Watches"
-msgstr "Hou dop"
-
-#: engines/fibs/kplayerlist.cpp:228
-msgid "Status"
-msgstr "Status"
-
-#: engines/fibs/kplayerlist.cpp:229
-msgid "Rating"
-msgstr "Rangorde"
-
-#: engines/fibs/kplayerlist.cpp:230
-msgid "Exp."
-msgstr "Exp."
-
-#: engines/fibs/kplayerlist.cpp:231
-msgid "Idle"
-msgstr "Luier"
-
-#: engines/fibs/kplayerlist.cpp:232
-msgid "Time"
-msgstr "Tyd"
-
-#: engines/fibs/kplayerlist.cpp:233
-#, fuzzy
-msgid "Host name"
-msgstr "Masjien naam"
-
-#: engines/fibs/kplayerlist.cpp:234
-msgid "Client"
-msgstr "Kliënt"
-
-#: engines/fibs/kplayerlist.cpp:235
-msgid "Email"
-msgstr "E-pos"
-
-#: engines/fibs/kplayerlist.cpp:252
-#, fuzzy
-#| msgctxt "abreviate blind"
-#| msgid "B"
-msgctxt "abbreviate blind"
-msgid "B"
-msgstr "B"
-
-#: engines/fibs/kplayerlist.cpp:253
-#, fuzzy
-#| msgctxt "abreviate away"
-#| msgid "A"
-msgctxt "abbreviate away"
-msgid "A"
-msgstr "'n"
-
-#: engines/fibs/kplayerlist.cpp:254
-#, fuzzy
-#| msgctxt "abreviate ready"
-#| msgid "R"
-msgctxt "abbreviate ready"
-msgid "R"
-msgstr "R"
-
-#: engines/fibs/kplayerlist.cpp:266
-msgid ""
-"This window contains the player list. It shows all players that are "
-"currently logged into FIBS.Use the right mouse button to get a context menu "
-"with helpful information and commands."
+#: engines/fibs/kbgfibschat.cpp:125 engines/fibs/kbgfibschat.cpp:129
+#, kde-format
+msgid "%1: "
 msgstr ""
-"Hierdie venster bevat die speler lys. Dit vertoon alle spelers wat word "
-"huidiglik gelog binnein Fibs.Gebruik die regterkant muis knoppie na kry 'n "
-"konteks kieslys met hulpvaardig informasie en opdragte."
 
-#: engines/fibs/kplayerlist.cpp:291
-msgid "Invite"
-msgstr "Nooi"
+#: engines/fibs/kbgfibschat.cpp:147
+#, kde-format
+msgid "%1 user"
+msgstr "%1 gebruiker"
 
-#: engines/fibs/kplayerlist.cpp:298
-msgid "Info"
-msgstr "Inligting"
+#: engines/fibs/kbgfibschat.cpp:149
+msgid "Kibitz to watchers and players"
+msgstr "Kibitz na toeskouers en spelers"
 
-#: engines/fibs/kplayerlist.cpp:302
-msgid "Talk"
-msgstr "Praat"
+#: engines/fibs/kbgfibschat.cpp:151
+msgid "Whisper to watchers only"
+msgstr "Fluister na toeskouers slegs"
 
-#: engines/fibs/kplayerlist.cpp:306
-msgid "Look"
-msgstr "Kyk"
+#: engines/fibs/kbgfibschat.cpp:163
+msgid "Chat Window"
+msgstr "Gesels Venster"
 
-#: engines/fibs/kplayerlist.cpp:309
-msgid "Watch"
-msgstr "Waarneem"
-
-#: engines/fibs/kplayerlist.cpp:312
-msgid "Unwatch"
-msgstr "Moenie dophou"
-
-#: engines/fibs/kplayerlist.cpp:315 engines/fibs/kplayerlist.cpp:630
-msgid "Blind"
-msgstr "Blinde"
-
-#: engines/fibs/kplayerlist.cpp:318
-msgid "Update"
-msgstr "Dateer op"
-
-#: engines/fibs/kplayerlist.cpp:335
-msgid "2 Point Match"
-msgstr "2 Punt Ooreenstem"
-
-#: engines/fibs/kplayerlist.cpp:341
-msgid "4 Point Match"
-msgstr "4 Punt Ooreenstem"
-
-#: engines/fibs/kplayerlist.cpp:347
-msgid "6 Point Match"
-msgstr "6 Punt Ooreenstem"
-
-#: engines/fibs/kplayerlist.cpp:485
-msgid "Column Selection"
-msgstr "Kolom Keuse"
-
-#: engines/fibs/kplayerlist.cpp:492
+#: engines/fibs/kbgfibschat.cpp:165
 msgid ""
-"Select all the columns that you would\n"
-"like to be shown in the player list."
+"This is the chat window.\n"
+"\n"
+"The text in this window is colored depending on whether it is directed at "
+"you personally, shouted to the general FIBS population, has been said by "
+"you, or is of general interest. If you select the name of a player, the "
+"context contains entries specifically geared towards that player."
 msgstr ""
-"Kies alle die kolomme wat jy sal\n"
-"hou van na wees vertoon in die speler lys."
+"Hierdie is die gesels venster.\n"
+"\n"
+"die teks in Hierdie venster is gekleurde afhangend op hetsy dit is gerig na "
+"jy persoonlik, geskree na die algemeen Fibs bevolking, het al het gesê deur "
+"jy, van is van algemeen belang. As jy kies die naam van 'n speler, die "
+"konteks bevat inskrywings spesifiek gerig na wat speler."
 
-#: engines/fibs/kplayerlist.cpp:516
-msgid "&Playerlist"
-msgstr "Spelerlys"
+#: engines/fibs/kbgfibschat.cpp:178
+msgid "Info On"
+msgstr "Inligting Op"
 
-#: engines/fibs/kplayerlist.cpp:604
-#, kde-format
-msgid "Email to %1"
-msgstr "E-pos na %1"
+#: engines/fibs/kbgfibschat.cpp:183
+msgid "Talk To"
+msgstr "Praat Na"
 
-#: engines/fibs/kplayerlist.cpp:605
-#, kde-format
-msgid "Look at %1"
-msgstr "Kyk na %1"
+#: engines/fibs/kbgfibschat.cpp:207
+#, fuzzy
+#| msgid "1 Point Match"
+msgid "9 Point Match"
+msgstr "1 Punt Ooreenstem"
 
-#: engines/fibs/kplayerlist.cpp:606
-#, kde-format
-msgid "Watch %1"
-msgstr "Waarneem %1"
+#: engines/fibs/kbgfibschat.cpp:234
+msgid "Gag"
+msgstr "Gag"
 
-#: engines/fibs/kplayerlist.cpp:607
-#, kde-format
-msgid "Update %1"
-msgstr "Dateer op %1"
+#: engines/fibs/kbgfibschat.cpp:238
+msgid "Ungag"
+msgstr "Ongag"
 
-#: engines/fibs/kplayerlist.cpp:628
-#, kde-format
-msgid "Unblind %1"
-msgstr "Moenie verblind %1"
+#: engines/fibs/kbgfibschat.cpp:242
+msgid "Clear Gag List"
+msgstr "Maak skoon Gag Lys"
 
-#: engines/fibs/kplayerlist.cpp:628
+#: engines/fibs/kbgfibschat.cpp:249
+msgid "Clear"
+msgstr ""
+
+#: engines/fibs/kbgfibschat.cpp:255
+msgid "Silent"
+msgstr "Stil"
+
+#: engines/fibs/kbgfibschat.cpp:334
+msgid "Select users to be removed from the gag list."
+msgstr "Kies gebruikers na wees verwyder van die gag lys."
+
+#: engines/fibs/kbgfibschat.cpp:336
+msgid ""
+"Select all the users you want to remove from the gag list and then click OK. "
+"Afterwards you will again hear what they shout."
+msgstr ""
+"Kies alle die gebruikers jy wil hê na verwyder van die gag lys en dan word "
+"kliek Goed. Agterna jy sal weer hoor wat hulle skree."
+
+#: engines/fibs/kbgfibschat.cpp:351
+msgid "&Gag List"
+msgstr "Gag Lys"
+
+#: engines/fibs/kbgfibschat.cpp:523
 #, fuzzy, kde-format
-msgid "Blind %1"
-msgstr "Moenie verblind %1"
+#| msgid "<u>%1 tells you:</u> %2"
+msgid "%1 tells you: %2"
+msgstr "<u>%1 sê vir jy:</u> %2"
 
-#: engines/fibs/kplayerlist.cpp:919
-#, kde-format
-msgid "Player List - %1 - %2/%3"
-msgstr "Speler Lys - %1 - %2/%3"
-
-#: engines/fibs/kbginvite.cpp:59
-msgid "Invite Players"
-msgstr "Nooi Spelers"
-
-#: engines/fibs/kbginvite.cpp:71
-msgid "&Invite"
-msgstr "Nooi"
-
-#: engines/fibs/kbginvite.cpp:72
-msgid "&Resume"
-msgstr "Voortgaan"
-
-#: engines/fibs/kbginvite.cpp:73
-msgid "&Unlimited"
-msgstr "Onbeperk"
-
-#: engines/fibs/kbginvite.cpp:78
-msgid ""
-"Type the name of the player you want to invite in the first entry\n"
-"field and select the desired match length in the spin box."
-msgstr ""
-"Tipe die naam van die speler jy wil hê na nooi in die eerste inskrywing\n"
-"veld en kies die verlangde ooreenstem lengte in die draai boks."
-
-#: engines/gnubg/kbggnubg.cpp:130
-#, kde-format
-msgid "gnubg doubles the cube to %1."
-msgstr "gnubg dubbels die kubus na %1."
-
-#: engines/gnubg/kbggnubg.cpp:131
-msgid "gnubg doubles"
-msgstr "gnubg dubbels"
-
-#: engines/gnubg/kbggnubg.cpp:132
-msgid "&Accept"
-msgstr "Aanvaar"
-
-#: engines/gnubg/kbggnubg.cpp:132
-msgid "Re&double"
-msgstr "Herverdubbel"
-
-#: engines/gnubg/kbggnubg.cpp:132
-msgid "&Reject"
-msgstr "Verwerp"
-
-#: engines/gnubg/kbggnubg.cpp:184
-#, fuzzy
-msgid "Please roll or double."
-msgstr "Asseblief rol of dubbel"
-
-#: engines/gnubg/kbggnubg.cpp:187
-#, fuzzy
-msgid "Please roll."
-msgstr "Asseblief rol"
-
-#: engines/gnubg/kbggnubg.cpp:198
-#, kde-format
-msgid "You roll %1 and %2."
-msgstr "Jy rol %1 en %2."
-
-#: engines/gnubg/kbggnubg.cpp:204
-msgid "Please move 1 piece."
-msgstr "Asseblief beweeg 1 stuk."
-
-#: engines/gnubg/kbggnubg.cpp:207
-#, kde-format
-msgid "Please move %1 pieces."
-msgstr "Asseblief beweeg %1 dele."
-
-#: engines/gnubg/kbggnubg.cpp:219
-#, kde-format
-msgid "gnubg rolls %1 and %2."
-msgstr "gnubg rolle %1 en %2."
-
-#: engines/gnubg/kbggnubg.cpp:221
-msgid "gnubg cannot move."
-msgstr "gnubg kan nie beweeg."
-
-#: engines/gnubg/kbggnubg.cpp:235 engines/offline/kbgoffline.cpp:414
-#: engines/offline/kbgoffline.cpp:927
-#, kde-format
-msgid "%1 vs. %2"
-msgstr "%1 teen. %2"
-
-#: engines/gnubg/kbggnubg.cpp:275 engines/offline/kbgoffline.cpp:355
-msgid "A game is currently in progress. Starting a new one will terminate it."
-msgstr ""
-"'n speletjie is huidiglik in vordering. Beginne 'n nuwe een sal termineer "
-"dit."
-
-#: engines/gnubg/kbggnubg.cpp:277 engines/offline/kbgoffline.cpp:357
-msgid "Start New Game"
-msgstr "Begin Nuwe Speletjie"
-
-#: engines/gnubg/kbggnubg.cpp:277 engines/offline/kbgoffline.cpp:358
-msgid "Continue Old Game"
-msgstr "Gaan voort Ou Speletjie"
-
-#: engines/gnubg/kbggnubg.cpp:290
-msgid "Starting a new game."
-msgstr "Beginne 'n nuwe speletjie."
-
-#: engines/gnubg/kbggnubg.cpp:379
-#, fuzzy
-msgid "GNU backgammon engine"
-msgstr "Gnu Backgammon (Eksperimenteel)"
-
-#: engines/gnubg/kbggnubg.cpp:380
-msgid "GNU Engine"
-msgstr "Gnu Masjien"
-
-#: engines/gnubg/kbggnubg.cpp:440
-msgid "&Restart GNU Backgammon"
-msgstr "Herbegin Gnu Backgammon"
-
-#: engines/gnubg/kbggnubg.cpp:506
-msgid ""
-"Could not start the GNU Backgammon process.\n"
-"Make sure the program is in your PATH and is called \"gnubg\".\n"
-"Make sure that your copy is at least version 0.10"
-msgstr ""
-"Kon nie begin die Gnu Backgammon proses.\n"
-"Maak seker die program is in jou Gids soeklys en is wat genoem word \"gnubg"
-"\".\n"
-"Maak seker wat jou kopie is na minste weergawe 0.10"
-
-#: engines/gnubg/kbggnubg.cpp:535
+#: engines/fibs/kbgfibschat.cpp:531
 #, fuzzy, kde-format
-#| msgid "The GNU Backgammon process (%1) has exited. "
-msgid "The GNU Backgammon process (%1) has exited with code %1"
-msgstr "Die Gnu Backgammon proses (%1) het uitgegaan. "
+#| msgid "<u>%1 shouts:</u> %2"
+msgid "%1 shouts: %2"
+msgstr "<u>%1 skree:</u> %2"
+
+#: engines/fibs/kbgfibschat.cpp:538
+#, fuzzy, kde-format
+#| msgid "<u>%1 whispers:</u> %2"
+msgid "%1 whispers: %2"
+msgstr "<u>%1 fluister:</u> %2"
+
+#: engines/fibs/kbgfibschat.cpp:546
+#, fuzzy, kde-format
+#| msgid "<u>%1 kibitzes:</u> %2"
+msgid "%1 kibitzes: %2"
+msgstr "<u>%1 kibitzes:</u> %2"
+
+#: engines/fibs/kbgfibschat.cpp:553
+#, kde-format
+msgid "%1 tell %2: %3"
+msgstr ""
+
+#: engines/fibs/kbgfibschat.cpp:559
+#, fuzzy, kde-format
+#| msgid "<u>%1 shouts:</u> %2"
+msgid "%1 shout: %2"
+msgstr "<u>%1 skree:</u> %2"
+
+#: engines/fibs/kbgfibschat.cpp:565
+#, fuzzy, kde-format
+#| msgid "<u>%1 whispers:</u> %2"
+msgid "%1 whisper: %2"
+msgstr "<u>%1 fluister:</u> %2"
+
+#: engines/fibs/kbgfibschat.cpp:571
+#, fuzzy, kde-format
+#| msgid "<u>%1 kibitzes:</u> %2"
+msgid "%1 kibitz: %2"
+msgstr "<u>%1 kibitzes:</u> %2"
+
+#: engines/fibs/kbgfibschat.cpp:581
+#, fuzzy, kde-format
+#| msgid "<u>User %1 left a message at %2</u>: %3"
+msgid "User %1 left a message at %2: %3"
+msgstr "<u>Gebruiker %1 links 'n boodskap na %2</u>: %3"
+
+#: engines/fibs/kbgfibschat.cpp:587
+#, kde-format
+msgid "Your message for %1 has been delivered."
+msgstr "Jou boodskap vir %1 het al afgelewer."
+
+#: engines/fibs/kbgfibschat.cpp:593
+#, kde-format
+msgid "Your message for %1 has been saved."
+msgstr "Jou boodskap vir %1 het al gestoor."
+
+#: engines/fibs/kbgfibschat.cpp:610
+#, fuzzy
+#| msgid "<u>You say to yourself:</u> "
+msgid "You say to yourself: "
+msgstr "<u>Jy sê na jouself:</u> "
+
+#: engines/fibs/kbgfibschat.cpp:664
+#, kde-format
+msgid "Gag %1"
+msgstr "Gag %1"
+
+#: engines/fibs/kbgfibschat.cpp:667
+#, kde-format
+msgid "Ungag %1"
+msgstr "Ongag %1"
+
+#: engines/fibs/kbgfibschat.cpp:694
+msgid "The gag list is now empty."
+msgstr "Die gag lys is nou leeg."
+
+#: engines/fibs/kbgfibschat.cpp:703
+#, fuzzy, kde-format
+#| msgid "You will again hear what %1 says and shouts."
+msgid "You will not hear what %1 says and shouts."
+msgstr "Jy sal weer hoor wat %1 sê en skree."
+
+#: engines/fibs/kbgfibschat.cpp:720
+#, kde-format
+msgid "You will again hear what %1 says and shouts."
+msgstr "Jy sal weer hoor wat %1 sê en skree."
+
+#: engines/fibs/kbgfibschat.cpp:739
+#, fuzzy
+msgid "You will not hear what people shout."
+msgstr "Jy sal hoor wat mense skree."
+
+#: engines/fibs/kbgfibschat.cpp:741
+msgid "You will hear what people shout."
+msgstr "Jy sal hoor wat mense skree."
 
 #: engines/nextgen/kbgng.cpp:65
 msgid "Local Games"
@@ -1607,184 +1457,334 @@ msgstr "Invoer die naam van die tweede speler."
 msgid "Players are %1 and %2"
 msgstr "Spelers word %1 en %2"
 
-#: engines/offline/kbgoffline.cpp:145
-#, fuzzy
-msgid "&New Game..."
-msgstr "Name..."
-
-#: engines/offline/kbgoffline.cpp:151
-msgid "&Swap Colors"
-msgstr "Uitruil Kleure"
-
-#: engines/offline/kbgoffline.cpp:154
-msgid "&Edit Mode"
-msgstr "Redigeer Modus"
-
-#: engines/offline/kbgoffline.cpp:218
-#, fuzzy
-msgid "KBackgammon engine"
+#: kbg.cpp:138 kbg.cpp:159 main.cpp:43
+msgid "KBackgammon"
 msgstr "Kbackgammon"
 
-#: engines/offline/kbgoffline.cpp:219
+#: kbg.cpp:139
+msgid "FIBS"
+msgstr "Fibs"
+
+#: kbg.cpp:140
+msgid "GNU Backgammon (Experimental)"
+msgstr "Gnu Backgammon (Eksperimenteel)"
+
+#: kbg.cpp:143
+msgid "FIBS Home"
+msgstr "Fibs Huis"
+
+#: kbg.cpp:146
+msgid "Backgammon Rules"
+msgstr "Backgammon Reëls"
+
+#: kbg.cpp:172
+msgid "&Play offline"
+msgstr ""
+
+#: kbg.cpp:176
+msgid "With a friend"
+msgstr ""
+
+#: kbg.cpp:182
+msgid "Advanced AI"
+msgstr ""
+
+#: kbg.cpp:187
+msgid "Expert AI"
+msgstr ""
+
+#: kbg.cpp:192
 #, fuzzy
-msgid "KBackgammon Engine"
+#| msgid "&Playerlist"
+msgid "&Play online"
+msgstr "Spelerlys"
+
+#: kbg.cpp:196
+#, fuzzy
+#| msgid "FIBS"
+msgid "&FIBS"
+msgstr "Fibs"
+
+#: kbg.cpp:222
+msgid "Double Cube"
+msgstr "Dubbel Kubus"
+
+#: kbg.cpp:233
+msgid "&Backgammon on the Web"
+msgstr "Backgammon op die Web"
+
+#: kbg.cpp:249
+msgid "Command: "
+msgstr "Opdrag: "
+
+#: kbg.cpp:289
+msgid ""
+"This area contains the status messages for the game. Most of these messages "
+"are sent to you from the current engine."
+msgstr ""
+"Hierdie area bevat die status boodskappe vir die speletjie. Mees van hierdie "
+"boodskappe word gestuur na jy van die huidige masjien."
+
+#: kbg.cpp:293
+msgid ""
+"This is the command line. You can type special commands related to the "
+"current engine in here. Most relevant commands are also available through "
+"the menus."
+msgstr ""
+"Hierdie is die opdrag lyn. Jy kan tipe spesiaal opdragte verwanter na die "
+"huidige masjien in hier. Mees relevante opdragte word asook beskikbaar deur "
+"die kieslyste."
+
+#: kbg.cpp:298
+msgid ""
+"This is the button bar tool bar. It gives you easy access to game related "
+"commands. You can drag the bar to a different location within the window."
+msgstr ""
+"Hierdie is die knoppie kolom program kolom. Dit gee jy maklike toegang "
+"verkry na speletjie verwanter opdragte. jy kan trek die kolom na 'n ander "
+"ligging binne in die venster."
+
+#: kbg.cpp:303
+msgid ""
+"This is the status bar. It shows you the currently selected engine in the "
+"left corner."
+msgstr ""
+"Hierdie is die status kolom. Dit vertoon jy die huidiglik gekose masjien in "
+"die links hoek."
+
+#: kbg.cpp:603
+#, fuzzy
+msgid "KBackgammon settings"
 msgstr "Kbackgammon"
 
-#: engines/offline/kbgoffline.cpp:239
-msgid "Names"
-msgstr "Name"
-
-#: engines/offline/kbgoffline.cpp:250
-msgid "First player:"
-msgstr "Eerste speler:"
-
-#: engines/offline/kbgoffline.cpp:251
-msgid "Second player:"
-msgstr "Tweede speler:"
-
-#: engines/offline/kbgoffline.cpp:253 engines/offline/kbgoffline.cpp:255
-msgid "Computer"
-msgstr ""
-
-#: engines/offline/kbgoffline.cpp:258 engines/offline/kbgoffline.cpp:259
-msgid "Check for the computer to play"
-msgstr ""
-
-#: engines/offline/kbgoffline.cpp:262
-msgid "Match to:"
-msgstr ""
-
-#: engines/offline/kbgoffline.cpp:275
-msgid "Enter the name of the first player."
-msgstr "Invoer die naam van die eerste speler."
-
-#: engines/offline/kbgoffline.cpp:276
-msgid "Enter the name of the second player."
-msgstr "Invoer die naam van die tweede speler."
-
-#: engines/offline/kbgoffline.cpp:282
-msgid "&Player Names"
-msgstr "Speler Name"
-
-#: engines/offline/kbgoffline.cpp:301 engines/offline/kbgoffline.cpp:316
-msgid "South"
-msgstr "Suid"
-
-#: engines/offline/kbgoffline.cpp:302 engines/offline/kbgoffline.cpp:317
-msgid "North"
-msgstr "Noord"
-
-#: engines/offline/kbgoffline.cpp:393
-#, kde-format
-msgid "%1 rolls %2, %3 rolls %4."
-msgstr "%1 rolle %2, %3 rolle %4."
-
-#: engines/offline/kbgoffline.cpp:398 engines/offline/kbgoffline.cpp:401
-#, kde-format
-msgid "%1 makes the first move."
-msgstr "%1 maak die eerste beweeg."
-
-#: engines/offline/kbgoffline.cpp:476
-msgid ""
-"Please enter the nickname of the player whose home\n"
-"is in the lower half of the board:"
-msgstr ""
-"Asseblief invoer die bynaam van die speler wie se huis\n"
-"is in die sagter half van die bord:"
-
-#: engines/offline/kbgoffline.cpp:480
-msgid ""
-"Please enter the nickname of the player whose home\n"
-"is in the upper half of the board:"
-msgstr ""
-"Asseblief invoer die bynaam van die speler wie se huis\n"
-"is in die boonste half van die bord:"
-
-#: engines/offline/kbgoffline.cpp:485
+#: kbg.cpp:615
 #, fuzzy
-msgid "Player name"
-msgstr "Speler Name"
+msgid "General settings"
+msgstr "Algemeen"
 
-#: engines/offline/kbgoffline.cpp:509 engines/offline/kbgoffline.cpp:772
-#: engines/offline/kbgoffline.cpp:783
-#, kde-format
-msgid "%1 wins the game. Congratulations!"
-msgstr "%1 wins die speletjie. Baie geluk!"
+#: kbg.cpp:616
+msgid "General"
+msgstr "Algemeen"
 
-#: engines/offline/kbgoffline.cpp:512
-#, kde-format
-msgid "Score: %1 to %2 of %3"
-msgstr ""
+#: kbg.cpp:623
+msgid "Messages"
+msgstr "Boodskappe"
 
-#: engines/offline/kbgoffline.cpp:519
-#, fuzzy, kde-format
-msgid "%1 wins the match!"
-msgstr "1 Punt Ooreenstem"
+#: kbg.cpp:624
+msgid "Timer"
+msgstr "Tydhouer"
 
-#: engines/offline/kbgoffline.cpp:538
-#, kde-format
-msgid "%1, please roll or double."
-msgstr "%1, asseblief rol of dubbel."
+#: kbg.cpp:625
+msgid "Autosave"
+msgstr "Outostoor"
 
-#: engines/offline/kbgoffline.cpp:662
+#: kbg.cpp:630
 #, fuzzy
-#| msgid "It's not your turn to roll!"
-msgid "It is not your turn to roll!"
-msgstr "Dit is nie jou skakel na rol!"
+msgid ""
+"After you finished your moves, they have to be sent to the engine. You can "
+"either do that manually (in which case you should not enable this feature), "
+"or you can specify an amount of time that has to pass before the move is "
+"committed. If you undo a move during the timeout, the timeout will be reset "
+"and restarted once you finish the move. This is very useful if you would "
+"like to review the result of your move."
+msgstr ""
+"Na jy klaar gemaak jou skuiwe, hulle het na wees gestuur na die masjien. jy "
+"kan òf doen wat eiehandig (in wat kas jy moet nie aktiveer hierdie funksie), "
+"van jy kan spesifiseer 'n hoeveelheid van tyd wat het na herhaling voor die "
+"beweeg is toegewyd. As jy herstel 'n beweeg gedurende die tydverstreke, die "
+"tydverstreke sal wees herstel en herlaai as eers jy einde die beweeg. "
+"hierdie is baie bruikbare As jy sal hou van na hersiening die resultaat van "
+"jou beweeg."
 
-#: engines/offline/kbgoffline.cpp:714
-msgid "Game over!"
-msgstr "Speletjie bo!"
+#: kbg.cpp:637
+msgid "Enable timeout"
+msgstr "Aktiveer tydverstreke"
 
-#: engines/offline/kbgoffline.cpp:721
-#, fuzzy, kde-format
-msgid "%1, you cannot move."
-msgstr "gnubg kan nie beweeg."
+#: kbg.cpp:642
+msgid "Move timeout in seconds:"
+msgstr "Beweeg tydverstreke in sekondes:"
 
-#: engines/offline/kbgoffline.cpp:736
-#, fuzzy, kde-format
-msgid ", please move 1 piece."
-msgid_plural ", please move %1 pieces."
-msgstr[0] "%2, asseblief beweeg %3 dele."
+#: kbg.cpp:656
+#, fuzzy
+msgid ""
+"Check the box to enable all the messages that you have previously disabled "
+"by choosing the \"Do not show this message again\" option."
+msgstr ""
+"Bevestig die boks na aktiveer alle die boodskappe die jy het vorige "
+"gestremde deur te kies die \"Moet nie vertoon hierdie boodskap weer\" opsie."
 
-#: engines/offline/kbgoffline.cpp:742
-#, fuzzy, kde-format
-msgid "%1 rolls %2, %3, and moves %4."
-msgstr "%1 rolle %2, %3 rolle %4."
+#: kbg.cpp:661
+msgid "Reenable all messages"
+msgstr "Heraktiveer alle boodskappe"
 
-#: engines/offline/kbgoffline.cpp:765
-#, kde-format
-msgid "%1 has doubled. %2, do you accept the double?"
-msgstr "%1 het verdubbel. %2, doen jy aanvaar die dubbel?"
+#: kbg.cpp:667
+msgid ""
+"Check the box to automatically save all window positions on program exit. "
+"They will be restored at next start."
+msgstr ""
+"Bevestig die boks na automaties stoor alle venster posisies op program "
+"weesïendig. Hulle sal wees gerestoreer na volgende begin."
 
-#: engines/offline/kbgoffline.cpp:768
-msgid "Doubling"
-msgstr "Verdubbel"
+#: kbg.cpp:672
+msgid "Save settings on exit"
+msgstr "Stoor instellings op beïendig"
 
-#: engines/offline/kbgoffline.cpp:775 engines/offline/kbgoffline.cpp:786
-#, kde-format
-msgid "Score: %1 to %2"
+#: kbg.cpp:740
+msgid ""
+"You can enable the menubar again with the right mouse button menu of the "
+"board."
+msgstr ""
+"Jy kan aktiveer die kiesbalk weer met die regterkant muis knoppie kieslys "
+"van die bord."
+
+#: kbg.cpp:742
+msgid "Information"
 msgstr ""
 
-#: engines/offline/kbgoffline.cpp:790
-#, kde-format
-msgid "%1 has accepted the double. The game continues."
-msgstr "%1 het aanvaar die dubbel. die speletjie gaan voort."
+#: kbgboard.cpp:148
+#, fuzzy
+msgid "Backgammon board"
+msgstr "Kbackgammon"
 
-#: engines/offline/kbgoffline.cpp:828
-msgid "In the middle of a game. Really quit?"
-msgstr "In die middelste van 'n speletjie. Rerig verlaat?"
+#: kbgboard.cpp:149
+msgid "Board"
+msgstr "Bord"
 
-#: engines/offline/kbgoffline.cpp:853
-#, kde-format
-msgid "Text commands are not yet working. The command '%1' has been ignored."
+#: kbgboard.cpp:171
+msgid "Colors"
+msgstr "Kleure"
+
+#: kbgboard.cpp:172
+msgid "Short Moves"
+msgstr "Kort Skuiwe"
+
+#: kbgboard.cpp:186
+msgid "Background"
+msgstr "Agtergrond"
+
+#: kbgboard.cpp:189
+msgid "Color 1"
+msgstr "Kleur 1"
+
+#: kbgboard.cpp:192
+msgid "Color 2"
+msgstr "Kleur 2"
+
+#: kbgboard.cpp:215
+msgid "&Disable short moves. Only drag and drop will move."
 msgstr ""
-"Teks opdragte word nie nog werksaam. Die opdrag '%1' het al geignoreer."
 
-#: engines/offline/kbgoffline.cpp:923
-#, kde-format
-msgid "%1 vs. %2 - Edit Mode"
-msgstr "%1 teen. %2 - Redigeer Modus"
+#: kbgboard.cpp:216
+msgid ""
+"&Single clicks with the left mouse button will\n"
+"move a checker the shortest possible distance."
+msgstr ""
+"Enkel klieke met die links muis knoppie sal\n"
+"beweeg 'n toetser die kortste moontlik afstand."
+
+#: kbgboard.cpp:218
+msgid ""
+"D&ouble clicks with the left mouse button will\n"
+"move a checker the shortest possible distance."
+msgstr ""
+"Dubbel klieke met die links muis knoppie sal\n"
+"beweeg 'n toetser die kortste moontlik afstand."
+
+#: kbgboard.cpp:234
+msgid "Show pip count in title bar"
+msgstr "Vertoon pip tel in titel kolom"
+
+#: kbgboard.cpp:247
+msgid "&Board"
+msgstr "Bord"
+
+#: kbgboard.cpp:270
+msgid "&Font"
+msgstr "Skrif tipe"
+
+#: kbgboard.cpp:408
+msgid "Set Cube Values"
+msgstr "Stel Kubus Waardes"
+
+#: kbgboard.cpp:420
+msgid ""
+"Set the face value of the cube and select who should be able to\n"
+"double. Note that a face value of 1 automatically allows both\n"
+"players to double."
+msgstr ""
+"Stel die gesig waarde van die kubus en kies wie moet wees in staat na\n"
+"dubbel. Nota wat 'n gesig waarde van 1 automaties laat toe beide\n"
+"spelers na dubbel."
+
+#: kbgboard.cpp:472
+msgid "Lower Player"
+msgstr "Sagter Speler"
+
+#: kbgboard.cpp:473
+msgid "Upper Player"
+msgstr "Boonste Speler"
+
+#: kbgboard.cpp:474
+msgid "Open Cube"
+msgstr "Open Kubus"
+
+#: kbgboard.cpp:558
+msgid "Set Dice Values"
+msgstr "Stel Dobbelsteen Waardes"
+
+#: kbgboard.cpp:570
+msgid ""
+"Set the face values of the selected dice. The other player's\n"
+"dice will be cleared and it will be the dice's owner's turn."
+msgstr ""
+
+#: kbgboard.cpp:1645
+msgid ""
+"This is the bar of the backgammon board.\n"
+"\n"
+"Checkers that have been kicked from the board are put on the bar and remain "
+"there until they can be put back on the board. Checkers can be moved by "
+"dragging them to their destination or by using the 'short move' feature.\n"
+"\n"
+"If the cube has not been doubled yet and if it can be used, its face shows "
+"64 and if the cube can be doubled, double clicking it will do so."
+msgstr ""
+
+#: kbgboard.cpp:1662
+msgid ""
+"This is a regular field of the backgammon board.\n"
+"\n"
+"Checkers can be placed on this field and if the current state of the game "
+"and the dice permit this, they can be moved by dragging them to their "
+"destination or by using the 'short move' feature."
+msgstr ""
+"Hierdie is 'n gewone veld van die backgammon bord.\n"
+"\n"
+"Skuifstukke kan wees rangorde op Hierdie veld en as die huidige staat van "
+"die speletjie en die dobbelsteen laat toe Hierdie, hulle kan wees verskuif "
+"deur te trek hulle na hulle bestemming of deur te gebruik die 'short move' "
+"funksie."
+
+#: kbgboard.cpp:1676
+msgid ""
+"This part of the backgammon board is the home.\n"
+"\n"
+"Depending on the direction of the game, one of the homes contains the dice "
+"and the other one contains checkers that have been moved off the board. "
+"Checkers can never be moved away from the home. If this home contains the "
+"dice and the current state of the game permits this, double clicking on the "
+"dice will roll them. Moreover, the cube might be placed on the home bar and "
+"if it can be doubled, double clicking it will do so."
+msgstr ""
+"Hierdie deel van die backgammon bord is die huis.\n"
+"\n"
+"Afhangend op die rigting van die speletjie, een van die tuistes bevat die "
+"dobbelsteen en die ander een bevat skuifstukke wat het al verskuif af die "
+"bord. skuifstukke kan moet nooit wees verskuif weg van die huis. As Hierdie "
+"huis bevat die dobbelsteen en die huidige staat van die speletjie laat toe "
+"Hierdie, dubbel te kliek op die dobbelsteen sal rol hulle. Nog meer, die "
+"kubus dalk wees rangorde op die huis kolom en As dit kan wees verdubbel, "
+"dubbel te kliek dit sal doen sodat."
 
 #: main.cpp:31
 #, fuzzy

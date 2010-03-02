@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-21 06:52+0100\n"
+"POT-Creation-Date: 2010-02-28 14:15+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -144,91 +144,394 @@ msgstr ""
 msgid "View"
 msgstr ""
 
-#: ui/KarbonZoomController.cpp:59
+#: plugins/roundcorners/RoundCornersCommand.cpp:41
+#: plugins/roundcorners/RoundCornersPlugin.cpp:86
+#: plugins/roundcorners/RoundCornersPlugin.cpp:103
+msgid "Round Corners"
+msgstr "Rondte Hoeke"
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:57
 #, fuzzy
-msgid "Zoom"
-msgstr "Opvul Objekte"
+msgid "&Round Corners..."
+msgstr "Rondte Hoeke"
 
-#: ui/KarbonAboutData.h:26
-msgid "A Vector Graphics Drawing Application."
+#: plugins/roundcorners/RoundCornersPlugin.cpp:107
+#: plugins/refinepath/RefinePathPlugin.cpp:96
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:118
+#: plugins/flattenpath/FlattenPathPlugin.cpp:99
+#, fuzzy
+msgid "Properties"
+msgstr "Eienskappe: %1"
+
+#: plugins/roundcorners/RoundCornersPlugin.cpp:111
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:132
+msgid "Radius:"
+msgstr "Radius:"
+
+#: plugins/filtereffects/FloodEffect.cpp:30
+#: plugins/filtereffects/FloodEffectFactory.cpp:27
+msgid "Flood fill"
 msgstr ""
 
-#: ui/KarbonAboutData.h:35
-msgid "Karbon14"
+#: plugins/filtereffects/ColorMatrixEffectFactory.cpp:27
+msgid "Color matrix"
 msgstr ""
 
-#: ui/KarbonAboutData.h:39
-msgid "(c) 2001-2009, The Karbon Developers"
+#: plugins/filtereffects/FloodEffectConfigWidget.cpp:37
+#, fuzzy
+msgid "Flood color"
+msgstr "Kies kleur"
+
+#: plugins/filtereffects/ComponentTransferEffectFactory.cpp:27
+#: plugins/filtereffects/ComponentTransferEffect.cpp:30
+msgid "Component transfer"
 msgstr ""
 
-#: ui/KarbonAboutData.h:40
-msgid "You are invited to participate in any way."
+#: plugins/filtereffects/ImageEffect.cpp:35
+#: plugins/filtereffects/ImageEffectFactory.cpp:26
+msgid "Image"
 msgstr ""
 
-#: ui/KarbonAboutData.h:44
-msgid "Rob Buis"
+#: plugins/filtereffects/BlendEffect.cpp:30
+#: plugins/filtereffects/BlendEffectFactory.cpp:27
+#, fuzzy
+msgid "Blend"
+msgstr "Opvul"
+
+#: plugins/filtereffects/ImageEffectConfigWidget.cpp:37
+msgid "Select image..."
 msgstr ""
 
-#: ui/KarbonAboutData.h:48
-msgid "Tomislav Lukman"
+#: plugins/filtereffects/ImageEffectConfigWidget.cpp:70
+#, fuzzy
+msgid "Select image"
+msgstr "Keuse Modus"
+
+#: plugins/filtereffects/OffsetEffect.cpp:31
+#: plugins/filtereffects/OffsetEffectFactory.cpp:26
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
+msgid "Offset"
 msgstr ""
 
-#: ui/KarbonAboutData.h:52
-msgid "Benoît Vautrin"
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
+msgid "Blend mode"
 msgstr ""
 
-#: ui/KarbonAboutData.h:56
-msgid "Jan Hambrecht"
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:37
+msgid "Normal"
+msgstr "Normale"
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:38
+msgid "Multiply"
 msgstr ""
 
-#: ui/KarbonAboutData.h:57 ui/KarbonAboutData.h:61 ui/KarbonAboutData.h:65
-#: ui/KarbonAboutData.h:69 ui/KarbonAboutData.h:73
-msgid "Bug fixes and improvements"
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:39
+msgid "Screen"
 msgstr ""
 
-#: ui/KarbonAboutData.h:60
-msgid "Peter Simonsson"
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:40
+msgid "Darken"
 msgstr ""
 
-#: ui/KarbonAboutData.h:64
-msgid "Tim Beaulen"
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:41
+#, fuzzy
+#| msgid "Height:"
+msgid "Lighten"
+msgstr "Hoogte:"
+
+#: plugins/filtereffects/CompositeEffectFactory.cpp:27
+#: plugins/filtereffects/CompositeEffect.cpp:32
+#, fuzzy
+#| msgid "Components"
+msgid "Composite"
+msgstr "Komponente"
+
+#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:35
+msgid "dx"
 msgstr ""
 
-#: ui/KarbonAboutData.h:68
-msgid "Boudewijn Rempt"
+#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:40
+msgid "dy"
 msgstr ""
 
-#: ui/KarbonAboutData.h:72
-msgid "Pierre Stirnweiss"
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:38
+msgid "Erode"
 msgstr ""
 
-#: ui/KarbonAboutData.h:76
-msgid "Inge Wallin"
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:39
+#, fuzzy
+msgid "Dilate"
+msgstr "Uitvee"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:42
+#, fuzzy
+#| msgid "Boolean Operation"
+msgid "Operator:"
+msgstr "Bools Operasie"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:46
+#, fuzzy
+#| msgid "Radius:"
+msgid "Radius x:"
+msgstr "Radius:"
+
+#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:51
+#, fuzzy
+#| msgid "Radius:"
+msgid "Radius y:"
+msgstr "Radius:"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:41
+msgid "Apply color matrix"
 msgstr ""
 
-#: ui/KarbonAboutData.h:77
-msgid "Bug fixes"
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:42
+#, fuzzy
+msgid "Saturate colors"
+msgstr "Kies kleur"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:43
+#, fuzzy
+#| msgid "Rotate"
+msgid "Rotate hue"
+msgstr "Roteer"
+
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:44
+msgid "Luminance to alpha"
 msgstr ""
 
-#: ui/KarbonAboutData.h:80
-msgid "Alan Horkan"
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:63
+msgid "Saturate value"
 msgstr ""
 
-#: ui/KarbonAboutData.h:81
-msgid "Helpful patches and advice"
+#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:73
+#, fuzzy
+#| msgid "Angle:"
+msgid "Angle"
+msgstr "Hoek:"
+
+#: plugins/filtereffects/BlurEffectFactory.cpp:27
+#: plugins/filtereffects/BlurEffect.cpp:276
+msgid "Gaussian blur"
 msgstr ""
 
-#: ui/KarbonPart.cpp:213
-msgid "Invalid OASIS document. No office:body tag found."
+#: plugins/filtereffects/MorphologyEffect.cpp:32
+#: plugins/filtereffects/MorphologyEffectFactory.cpp:27
+msgid "Morphology"
 msgstr ""
 
-#: ui/KarbonPart.cpp:220
-msgid "Invalid OASIS document. No office:drawing tag found."
+#: plugins/filtereffects/CompositeEffectConfigWidget.cpp:37
+#, fuzzy
+#| msgid "Boolean Operation"
+msgid "Operation"
+msgstr "Bools Operasie"
+
+#: plugins/filtereffects/MergeEffect.cpp:30
+#: plugins/filtereffects/MergeEffectFactory.cpp:27
+msgid "Merge"
 msgstr ""
 
-#: ui/KarbonPart.cpp:227
-msgid "Invalid OASIS document. No draw:page tag found."
+#: plugins/filtereffects/BlurEffectConfigWidget.cpp:35
+#, fuzzy
+#| msgid "Radius:"
+msgid "Radius"
+msgstr "Radius:"
+
+#: plugins/filtereffects/ColorMatrixEffect.cpp:34
+msgid "Color Matrix"
 msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectFactory.cpp:27
+#: plugins/filtereffects/ConvolveMatrixEffect.cpp:32
+msgid "Convolve Matrix"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
+#, fuzzy
+#| msgid "&Duplicate"
+msgid "Duplicate"
+msgstr "Duplikaat"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:44
+msgid "Wrap"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:45
+#, fuzzy
+#| msgid "None"
+msgid "None"
+msgstr "Geen"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:46
+#, fuzzy
+#| msgid "Edges:"
+msgid "Edge mode:"
+msgstr "Randte:"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:53
+msgid "Kernel size:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:62
+#, fuzzy
+#| msgid "Target:"
+msgid "Target point:"
+msgstr "Teiken:"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:69
+msgid "Divisor:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:71
+msgid "Bias:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:74
+msgid "Preserve alpha"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:77
+#, fuzzy
+msgid "Edit kernel"
+msgstr "Patrone"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:58
+#, fuzzy
+msgid "Function"
+msgstr "Keuse Modus"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:60
+msgid "Identity"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:61
+#, fuzzy
+msgid "Table"
+msgstr "Opvul"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:62
+msgid "Discrete"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:63
+#, fuzzy
+#| msgid "Linear"
+msgid "Linear"
+msgstr "Liniêre"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:64
+msgid "Gamma"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:77
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:87
+msgid "Values"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:97
+#, fuzzy
+#| msgid "Shear"
+msgid "Slope"
+msgstr "Steilheid"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:101
+#, fuzzy
+#| msgid "Interface"
+msgid "Intercept"
+msgstr "Koppelvlak"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:112
+msgid "Amplitude"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:116
+msgid "Exponent"
+msgstr ""
+
+#: plugins/refinepath/KarbonPathRefineCommand.cpp:41
+#, fuzzy
+msgid "Refine path"
+msgstr "Kies kleur"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:56
+#, fuzzy
+msgid "&Refine Path..."
+msgstr "Kies kleur"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:92
+#, fuzzy
+msgid "Refine Path"
+msgstr "Kies kleur"
+
+#: plugins/refinepath/RefinePathPlugin.cpp:100
+msgid "Subdivisions:"
+msgstr ""
+
+#: plugins/whirlpinch/KarbonWhirlPinchCommand.cpp:108
+msgid "Whirl & pinch"
+msgstr ""
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:61
+msgid "&Whirl/Pinch..."
+msgstr ""
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:103
+msgid "Whirl Pinch"
+msgstr ""
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:110
+msgid "Info"
+msgstr ""
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:112
+msgid ""
+"The result of the Whirlpinch effect can be improved by refining the path "
+"shape beforehand."
+msgstr ""
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:122
+msgid "Angle:"
+msgstr "Hoek:"
+
+#: plugins/whirlpinch/WhirlPinchPlugin.cpp:126
+#, fuzzy
+msgid "Pinch:"
+msgstr "duim"
+
+#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:165
+#, fuzzy
+msgid "Flatten path"
+msgstr "Platheid:"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:57
+msgid "&Flatten Path..."
+msgstr ""
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:95
+#, fuzzy
+msgid "Flatten Path"
+msgstr "Platheid:"
+
+#: plugins/flattenpath/FlattenPathPlugin.cpp:103
+#, fuzzy
+msgid "Flatness:"
+msgstr "Platheid:"
+
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:698
+msgid "Boolean Operation"
+msgstr "Bools Operasie"
+
+#: common/commands/KarbonLayerReorderCommand.cpp:37
+#: common/commands/KarbonLayerReorderCommand.cpp:46
+#, fuzzy
+msgid "Raise Layer"
+msgstr "Lig laag"
+
+#: common/commands/KarbonLayerReorderCommand.cpp:39
+#: common/commands/KarbonLayerReorderCommand.cpp:48
+#, fuzzy
+msgid "Lower Layer"
+msgstr "Sagter laag"
 
 #: ui/dialogs/KarbonConfigureDialog.cpp:54
 #, fuzzy
@@ -281,48 +584,6 @@ msgstr ""
 
 #: ui/dialogs/KarbonConfigureDialog.cpp:159
 msgid "Canvas color:"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:171
-#, fuzzy
-msgid "Layer"
-msgstr "Laag"
-
-#: ui/dockers/KarbonLayerModel.cpp:173
-msgctxt "A group of shapes"
-msgid "Group"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:175
-#, fuzzy
-#| msgid "Shear"
-msgid "Shape"
-msgstr "Steilheid"
-
-#: ui/dockers/KarbonLayerModel.cpp:265
-msgctxt "Visibility state of the shape"
-msgid "Visible"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:266
-msgctxt "Lock state of the shape"
-msgid "Locked"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:267
-msgctxt "The z-index of the shape"
-msgid "zIndex"
-msgstr ""
-
-#: ui/dockers/KarbonLayerModel.cpp:268
-#, fuzzy
-#| msgid "Opacity"
-msgctxt "The opacity of the shape"
-msgid "Opacity"
-msgstr "Ondeursigtigheid"
-
-#: ui/dockers/KarbonLayerModel.cpp:434 ui/dockers/KarbonLayerModel.cpp:454
-msgid "Reparent shapes"
 msgstr ""
 
 #: ui/dockers/KarbonLayerDocker.cpp:84
@@ -401,6 +662,294 @@ msgstr ""
 msgid "Error deleting layers"
 msgstr ""
 
+#: ui/dockers/KarbonLayerModel.cpp:171
+#, fuzzy
+msgid "Layer"
+msgstr "Laag"
+
+#: ui/dockers/KarbonLayerModel.cpp:173
+msgctxt "A group of shapes"
+msgid "Group"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:175
+#, fuzzy
+#| msgid "Shear"
+msgid "Shape"
+msgstr "Steilheid"
+
+#: ui/dockers/KarbonLayerModel.cpp:265
+msgctxt "Visibility state of the shape"
+msgid "Visible"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:266
+msgctxt "Lock state of the shape"
+msgid "Locked"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:267
+msgctxt "The z-index of the shape"
+msgid "zIndex"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:268
+#, fuzzy
+#| msgid "Opacity"
+msgctxt "The opacity of the shape"
+msgid "Opacity"
+msgstr "Ondeursigtigheid"
+
+#: ui/dockers/KarbonLayerModel.cpp:434 ui/dockers/KarbonLayerModel.cpp:454
+msgid "Reparent shapes"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:167
+msgid "Type:"
+msgstr "Tipe:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:169
+#, fuzzy
+#| msgid "Linear"
+msgctxt "Linear gradient type"
+msgid "Linear"
+msgstr "Liniêre"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:170
+#, fuzzy
+#| msgid "Radial"
+msgctxt "Radial gradient type"
+msgid "Radial"
+msgstr "Radiaal"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:171
+msgctxt "Conical gradient type"
+msgid "Conical"
+msgstr ""
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:174
+msgid "Repeat:"
+msgstr "Herhaal:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:176
+#, fuzzy
+#| msgid "None"
+msgctxt "No gradient spread"
+msgid "None"
+msgstr "Geen"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:177
+msgid "Reflect"
+msgstr "Reflekteer"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:178
+msgid "Repeat"
+msgstr "Herhaal"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:181
+msgid "Target:"
+msgstr "Teiken:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:183
+#, fuzzy
+msgid "Stroke"
+msgstr "Kies kleur"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:184
+msgid "Fill"
+msgstr "Opvul"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:192
+#, fuzzy
+msgid "Overall opacity:"
+msgstr "Ondeursigtigheid:"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:197
+#, fuzzy
+msgid "Stop color:"
+msgstr "Kies kleur"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:201
+#, fuzzy
+msgid "Stop color."
+msgstr "Kies kleur"
+
+#: ui/widgets/KarbonGradientEditWidget.cpp:204
+msgid "&Add to Predefined Gradients"
+msgstr "Voeg by na Vooraf gedefinieerde Gradiënte"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:56
+msgid "Press to apply fill to selection"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:103
+#, fuzzy
+#| msgid "None"
+msgctxt "The style has no fill"
+msgid "None"
+msgstr "Geen"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:121
+msgid "Press to apply stroke to selection"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:166
+msgctxt "The style has a custom stroking"
+msgid "Custom"
+msgstr ""
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:172
+#, fuzzy
+#| msgid "None"
+msgctxt "The style has no stroking"
+msgid "None"
+msgstr "Geen"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:192
+#, fuzzy
+msgid "Stroke:"
+msgstr "Kies kleur"
+
+#: ui/widgets/KarbonSmallStylePreview.cpp:197
+#, fuzzy
+#| msgid "Fill"
+msgid "Fill:"
+msgstr "Opvul"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:33
+msgid "Original"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:34
+#, fuzzy
+msgid "Tiled"
+msgstr "Opvul"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:35
+msgid "Stretched"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:37
+msgid "Top Left"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:38
+msgid "Top"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:39
+#, fuzzy
+msgid "Top Right"
+msgstr "Opvul Objekte"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:40
+msgid "Left"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:41
+msgid "Center"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:42
+#, fuzzy
+#| msgid "Height:"
+msgid "Right"
+msgstr "Hoogte:"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:43
+msgid "Bottom Left"
+msgstr ""
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:44
+#, fuzzy
+msgid "Bottom"
+msgstr "Opvul Objekte"
+
+#: ui/widgets/KarbonPatternOptionsWidget.cpp:45
+msgid "Bottom Right"
+msgstr ""
+
+#: ui/KarbonPart.cpp:213
+msgid "Invalid OASIS document. No office:body tag found."
+msgstr ""
+
+#: ui/KarbonPart.cpp:220
+msgid "Invalid OASIS document. No office:drawing tag found."
+msgstr ""
+
+#: ui/KarbonPart.cpp:227
+msgid "Invalid OASIS document. No draw:page tag found."
+msgstr ""
+
+#: ui/KarbonAboutData.h:26
+msgid "A Vector Graphics Drawing Application."
+msgstr ""
+
+#: ui/KarbonAboutData.h:35
+msgid "Karbon14"
+msgstr ""
+
+#: ui/KarbonAboutData.h:39
+msgid "(c) 2001-2009, The Karbon Developers"
+msgstr ""
+
+#: ui/KarbonAboutData.h:40
+msgid "You are invited to participate in any way."
+msgstr ""
+
+#: ui/KarbonAboutData.h:44
+msgid "Rob Buis"
+msgstr ""
+
+#: ui/KarbonAboutData.h:48
+msgid "Tomislav Lukman"
+msgstr ""
+
+#: ui/KarbonAboutData.h:52
+msgid "Benoît Vautrin"
+msgstr ""
+
+#: ui/KarbonAboutData.h:56
+msgid "Jan Hambrecht"
+msgstr ""
+
+#: ui/KarbonAboutData.h:57 ui/KarbonAboutData.h:61 ui/KarbonAboutData.h:65
+#: ui/KarbonAboutData.h:69 ui/KarbonAboutData.h:73
+msgid "Bug fixes and improvements"
+msgstr ""
+
+#: ui/KarbonAboutData.h:60
+msgid "Peter Simonsson"
+msgstr ""
+
+#: ui/KarbonAboutData.h:64
+msgid "Tim Beaulen"
+msgstr ""
+
+#: ui/KarbonAboutData.h:68
+msgid "Boudewijn Rempt"
+msgstr ""
+
+#: ui/KarbonAboutData.h:72
+msgid "Pierre Stirnweiss"
+msgstr ""
+
+#: ui/KarbonAboutData.h:76
+msgid "Inge Wallin"
+msgstr ""
+
+#: ui/KarbonAboutData.h:77
+msgid "Bug fixes"
+msgstr ""
+
+#: ui/KarbonAboutData.h:80
+msgid "Alan Horkan"
+msgstr ""
+
+#: ui/KarbonAboutData.h:81
+msgid "Helpful patches and advice"
+msgstr ""
+
 #: ui/KarbonView.cpp:292
 msgid "Tools"
 msgstr ""
@@ -428,10 +977,6 @@ msgstr ""
 #| msgid "Insert Ellipse"
 msgid "Insert graphics"
 msgstr "Voeg by Elipse"
-
-#: ui/KarbonView.cpp:698 common/commands/KarbonBooleanCommand.cpp:68
-msgid "Boolean Operation"
-msgstr "Bools Operasie"
 
 #: ui/KarbonView.cpp:809
 #, fuzzy
@@ -585,560 +1130,15 @@ msgstr "Keuse Modus"
 msgid "Zoom to Drawing"
 msgstr "Keuse Modus"
 
-#: ui/widgets/KarbonSmallStylePreview.cpp:56
-msgid "Press to apply fill to selection"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:103
+#: ui/KarbonZoomController.cpp:59
 #, fuzzy
-#| msgid "None"
-msgctxt "The style has no fill"
-msgid "None"
-msgstr "Geen"
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:121
-msgid "Press to apply stroke to selection"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:166
-msgctxt "The style has a custom stroking"
-msgid "Custom"
-msgstr ""
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:172
-#, fuzzy
-#| msgid "None"
-msgctxt "The style has no stroking"
-msgid "None"
-msgstr "Geen"
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:192
-#, fuzzy
-msgid "Stroke:"
-msgstr "Kies kleur"
-
-#: ui/widgets/KarbonSmallStylePreview.cpp:197
-#, fuzzy
-#| msgid "Fill"
-msgid "Fill:"
-msgstr "Opvul"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:167
-msgid "Type:"
-msgstr "Tipe:"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:169
-#, fuzzy
-#| msgid "Linear"
-msgctxt "Linear gradient type"
-msgid "Linear"
-msgstr "Liniêre"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:170
-#, fuzzy
-#| msgid "Radial"
-msgctxt "Radial gradient type"
-msgid "Radial"
-msgstr "Radiaal"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:171
-msgctxt "Conical gradient type"
-msgid "Conical"
-msgstr ""
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:174
-msgid "Repeat:"
-msgstr "Herhaal:"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:176
-#, fuzzy
-#| msgid "None"
-msgctxt "No gradient spread"
-msgid "None"
-msgstr "Geen"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:177
-msgid "Reflect"
-msgstr "Reflekteer"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:178
-msgid "Repeat"
-msgstr "Herhaal"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:181
-msgid "Target:"
-msgstr "Teiken:"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:183
-#, fuzzy
-msgid "Stroke"
-msgstr "Kies kleur"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:184
-msgid "Fill"
-msgstr "Opvul"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:192
-#, fuzzy
-msgid "Overall opacity:"
-msgstr "Ondeursigtigheid:"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:197
-#, fuzzy
-msgid "Stop color:"
-msgstr "Kies kleur"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:201
-#, fuzzy
-msgid "Stop color."
-msgstr "Kies kleur"
-
-#: ui/widgets/KarbonGradientEditWidget.cpp:204
-msgid "&Add to Predefined Gradients"
-msgstr "Voeg by na Vooraf gedefinieerde Gradiënte"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:33
-msgid "Original"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:34
-#, fuzzy
-msgid "Tiled"
-msgstr "Opvul"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:35
-msgid "Stretched"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:37
-msgid "Top Left"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:38
-msgid "Top"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:39
-#, fuzzy
-msgid "Top Right"
+msgid "Zoom"
 msgstr "Opvul Objekte"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:40
-msgid "Left"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:41
-msgid "Center"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:42
-#, fuzzy
-#| msgid "Height:"
-msgid "Right"
-msgstr "Hoogte:"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:43
-msgid "Bottom Left"
-msgstr ""
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:44
-#, fuzzy
-msgid "Bottom"
-msgstr "Opvul Objekte"
-
-#: ui/widgets/KarbonPatternOptionsWidget.cpp:45
-msgid "Bottom Right"
-msgstr ""
 
 #: main.cc:43
 #, fuzzy
 msgid "File to open"
 msgstr "Lêer Na Open"
-
-#: common/commands/KarbonLayerReorderCommand.cpp:37
-#: common/commands/KarbonLayerReorderCommand.cpp:46
-#, fuzzy
-msgid "Raise Layer"
-msgstr "Lig laag"
-
-#: common/commands/KarbonLayerReorderCommand.cpp:39
-#: common/commands/KarbonLayerReorderCommand.cpp:48
-#, fuzzy
-msgid "Lower Layer"
-msgstr "Sagter laag"
-
-#: plugins/roundcorners/RoundCornersPlugin.cpp:57
-#, fuzzy
-msgid "&Round Corners..."
-msgstr "Rondte Hoeke"
-
-#: plugins/roundcorners/RoundCornersPlugin.cpp:86
-#: plugins/roundcorners/RoundCornersPlugin.cpp:103
-#: plugins/roundcorners/RoundCornersCommand.cpp:41
-msgid "Round Corners"
-msgstr "Rondte Hoeke"
-
-#: plugins/roundcorners/RoundCornersPlugin.cpp:107
-#: plugins/refinepath/RefinePathPlugin.cpp:96
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:118
-#: plugins/flattenpath/FlattenPathPlugin.cpp:99
-#, fuzzy
-msgid "Properties"
-msgstr "Eienskappe: %1"
-
-#: plugins/roundcorners/RoundCornersPlugin.cpp:111
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:132
-msgid "Radius:"
-msgstr "Radius:"
-
-#: plugins/refinepath/KarbonPathRefineCommand.cpp:41
-#, fuzzy
-msgid "Refine path"
-msgstr "Kies kleur"
-
-#: plugins/refinepath/RefinePathPlugin.cpp:56
-#, fuzzy
-msgid "&Refine Path..."
-msgstr "Kies kleur"
-
-#: plugins/refinepath/RefinePathPlugin.cpp:92
-#, fuzzy
-msgid "Refine Path"
-msgstr "Kies kleur"
-
-#: plugins/refinepath/RefinePathPlugin.cpp:100
-msgid "Subdivisions:"
-msgstr ""
-
-#: plugins/whirlpinch/KarbonWhirlPinchCommand.cpp:108
-msgid "Whirl & pinch"
-msgstr ""
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:61
-msgid "&Whirl/Pinch..."
-msgstr ""
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:103
-msgid "Whirl Pinch"
-msgstr ""
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:110
-msgid "Info"
-msgstr ""
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:112
-msgid ""
-"The result of the Whirlpinch effect can be improved by refining the path "
-"shape beforehand."
-msgstr ""
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:122
-msgid "Angle:"
-msgstr "Hoek:"
-
-#: plugins/whirlpinch/WhirlPinchPlugin.cpp:126
-#, fuzzy
-msgid "Pinch:"
-msgstr "duim"
-
-#: plugins/filtereffects/ImageEffectConfigWidget.cpp:37
-msgid "Select image..."
-msgstr ""
-
-#: plugins/filtereffects/ImageEffectConfigWidget.cpp:70
-#, fuzzy
-msgid "Select image"
-msgstr "Keuse Modus"
-
-#: plugins/filtereffects/FloodEffectConfigWidget.cpp:37
-#, fuzzy
-msgid "Flood color"
-msgstr "Kies kleur"
-
-#: plugins/filtereffects/ComponentTransferEffect.cpp:29
-#: plugins/filtereffects/ComponentTransferEffectFactory.cpp:27
-msgid "Component transfer"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
-#, fuzzy
-#| msgid "&Duplicate"
-msgid "Duplicate"
-msgstr "Duplikaat"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:44
-msgid "Wrap"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:45
-#, fuzzy
-#| msgid "None"
-msgid "None"
-msgstr "Geen"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:46
-#, fuzzy
-#| msgid "Edges:"
-msgid "Edge mode:"
-msgstr "Randte:"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:53
-msgid "Kernel size:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:62
-#, fuzzy
-#| msgid "Target:"
-msgid "Target point:"
-msgstr "Teiken:"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:69
-msgid "Divisor:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:71
-msgid "Bias:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:74
-msgid "Preserve alpha"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:77
-#, fuzzy
-msgid "Edit kernel"
-msgstr "Patrone"
-
-#: plugins/filtereffects/CompositeEffectFactory.cpp:27
-#: plugins/filtereffects/CompositeEffect.cpp:31
-#, fuzzy
-#| msgid "Components"
-msgid "Composite"
-msgstr "Komponente"
-
-#: plugins/filtereffects/BlurEffectConfigWidget.cpp:35
-#, fuzzy
-#| msgid "Radius:"
-msgid "Radius"
-msgstr "Radius:"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:58
-#, fuzzy
-msgid "Function"
-msgstr "Keuse Modus"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:60
-msgid "Identity"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:61
-#, fuzzy
-msgid "Table"
-msgstr "Opvul"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:62
-msgid "Discrete"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:63
-#, fuzzy
-#| msgid "Linear"
-msgid "Linear"
-msgstr "Liniêre"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:64
-msgid "Gamma"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:77
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:87
-msgid "Values"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:97
-#, fuzzy
-#| msgid "Shear"
-msgid "Slope"
-msgstr "Steilheid"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:101
-#, fuzzy
-#| msgid "Interface"
-msgid "Intercept"
-msgstr "Koppelvlak"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:112
-msgid "Amplitude"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:116
-msgid "Exponent"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
-#: plugins/filtereffects/OffsetEffect.cpp:31
-#: plugins/filtereffects/OffsetEffectFactory.cpp:26
-msgid "Offset"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffect.cpp:33
-msgid "Color Matrix"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
-msgid "Blend mode"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:37
-msgid "Normal"
-msgstr "Normale"
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:38
-msgid "Multiply"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:39
-msgid "Screen"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:40
-msgid "Darken"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:41
-#, fuzzy
-#| msgid "Height:"
-msgid "Lighten"
-msgstr "Hoogte:"
-
-#: plugins/filtereffects/ImageEffectFactory.cpp:26
-#: plugins/filtereffects/ImageEffect.cpp:35
-msgid "Image"
-msgstr ""
-
-#: plugins/filtereffects/MergeEffect.cpp:30
-#: plugins/filtereffects/MergeEffectFactory.cpp:27
-msgid "Merge"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:41
-msgid "Apply color matrix"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:42
-#, fuzzy
-msgid "Saturate colors"
-msgstr "Kies kleur"
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:43
-#, fuzzy
-#| msgid "Rotate"
-msgid "Rotate hue"
-msgstr "Roteer"
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:44
-msgid "Luminance to alpha"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:63
-msgid "Saturate value"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffectConfigWidget.cpp:73
-#, fuzzy
-#| msgid "Angle:"
-msgid "Angle"
-msgstr "Hoek:"
-
-#: plugins/filtereffects/MorphologyEffectFactory.cpp:27
-#: plugins/filtereffects/MorphologyEffect.cpp:32
-msgid "Morphology"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectFactory.cpp:27
-#: plugins/filtereffects/ConvolveMatrixEffect.cpp:32
-msgid "Convolve Matrix"
-msgstr ""
-
-#: plugins/filtereffects/BlurEffect.cpp:276
-#: plugins/filtereffects/BlurEffectFactory.cpp:27
-msgid "Gaussian blur"
-msgstr ""
-
-#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:35
-msgid "dx"
-msgstr ""
-
-#: plugins/filtereffects/OffsetEffectConfigWidget.cpp:40
-msgid "dy"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectFactory.cpp:27
-#: plugins/filtereffects/BlendEffect.cpp:29
-#, fuzzy
-msgid "Blend"
-msgstr "Opvul"
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:38
-msgid "Erode"
-msgstr ""
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:39
-#, fuzzy
-msgid "Dilate"
-msgstr "Uitvee"
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:42
-#, fuzzy
-#| msgid "Boolean Operation"
-msgid "Operator:"
-msgstr "Bools Operasie"
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:46
-#, fuzzy
-#| msgid "Radius:"
-msgid "Radius x:"
-msgstr "Radius:"
-
-#: plugins/filtereffects/MorphologyEffectConfigWidget.cpp:51
-#, fuzzy
-#| msgid "Radius:"
-msgid "Radius y:"
-msgstr "Radius:"
-
-#: plugins/filtereffects/CompositeEffectConfigWidget.cpp:37
-#, fuzzy
-#| msgid "Boolean Operation"
-msgid "Operation"
-msgstr "Bools Operasie"
-
-#: plugins/filtereffects/FloodEffectFactory.cpp:27
-#: plugins/filtereffects/FloodEffect.cpp:30
-msgid "Flood fill"
-msgstr ""
-
-#: plugins/filtereffects/ColorMatrixEffectFactory.cpp:27
-msgid "Color matrix"
-msgstr ""
-
-#: plugins/flattenpath/FlattenPathPlugin.cpp:57
-msgid "&Flatten Path..."
-msgstr ""
-
-#: plugins/flattenpath/FlattenPathPlugin.cpp:95
-#, fuzzy
-msgid "Flatten Path"
-msgstr "Platheid:"
-
-#: plugins/flattenpath/FlattenPathPlugin.cpp:103
-#, fuzzy
-msgid "Flatness:"
-msgstr "Platheid:"
-
-#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:165
-#, fuzzy
-msgid "Flatten path"
-msgstr "Platheid:"
 
 #, fuzzy
 #~| msgid "None"
