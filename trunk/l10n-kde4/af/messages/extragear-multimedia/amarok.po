@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-08 04:36+0200\n"
+"POT-Creation-Date: 2010-04-09 05:07+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1540,13 +1540,13 @@ msgstr[1] "Verwyder Snitte van Toestel"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:115
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:121
-#: playlistmanager/PlaylistManager.cpp:252
+#: playlistmanager/PlaylistManager.cpp:253
 msgid "Change playlist"
 msgstr "Wysig speellys"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:116
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:122
-#: playlistmanager/PlaylistManager.cpp:253
+#: playlistmanager/PlaylistManager.cpp:254
 msgid "Enter new name for playlist:"
 msgstr "Gee nuwe naam vir speellys:"
 
@@ -1846,7 +1846,7 @@ msgstr "Skrap &Gids"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
 #: browsers/filebrowser/FileView.cpp:456
-#: playlistmanager/file/PlaylistFileProvider.cpp:271
+#: playlistmanager/file/PlaylistFileProvider.cpp:272
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:238
 msgid "Confirm Delete"
 msgstr "Bevestig Verwyder"
@@ -2588,7 +2588,7 @@ msgstr "Album"
 #: dialogs/FilenameLayoutDialog.cpp:219 dialogs/FilenameLayoutDialog.cpp:556
 #: dialogs/transferdialog.cpp:88 playlist/PlaylistModel.cpp:696
 #: playlist/PlaylistHeader.cpp:40 services/jamendo/JamendoInfoParser.cpp:51
-#: services/lastfm/LastFmService.cpp:537
+#: services/lastfm/LastFmService.cpp:539
 #: services/magnatune/MagnatuneStore.cpp:215
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 #: rc.cpp:1263
@@ -2657,13 +2657,13 @@ msgid "Artist / Album"
 msgstr "Kunstenaar / Album"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:109
-#: services/jamendo/JamendoService.cpp:150
+#: services/jamendo/JamendoService.cpp:152
 #: services/magnatune/MagnatuneStore.cpp:224
 msgid "Genre / Artist"
 msgstr "Genre / Kunstenaar"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:113
-#: services/jamendo/JamendoService.cpp:153
+#: services/jamendo/JamendoService.cpp:155
 #: services/magnatune/MagnatuneStore.cpp:227
 msgid "Genre / Artist / Album"
 msgstr "Genre / Kunstenaar / Album"
@@ -2698,7 +2698,7 @@ msgid "Show Cover Art"
 msgstr "Vertoon Omslagkuns"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:319
-#: services/jamendo/JamendoService.cpp:156
+#: services/jamendo/JamendoService.cpp:158
 #: services/magnatune/MagnatuneStore.cpp:230
 msgid "Sort Options"
 msgstr "Sortering Opsies"
@@ -2784,7 +2784,7 @@ msgstr[0] "Is jy seker jy wil hierdie speellys skrap?"
 msgstr[1] "Is jy seker jy wil hierdie %1 speellys lêers skrap?"
 
 #: browsers/filebrowser/FileView.cpp:463
-#: playlistmanager/file/PlaylistFileProvider.cpp:278
+#: playlistmanager/file/PlaylistFileProvider.cpp:279
 msgid "Yes, delete from disk."
 msgstr "Ja, verwyder van die skyf"
 
@@ -3559,7 +3559,9 @@ msgstr "Lirieke Instellings"
 msgid "Photos"
 msgstr "Fotos"
 
-#: context/applets/photos/PhotosApplet.cpp:94
+#. i18n: file: context/applets/photos/photosSettings.ui:52
+#. i18n: ectx: property (text), item, widget (KComboBox, animationComboBox)
+#: context/applets/photos/PhotosApplet.cpp:94 rc.cpp:909
 #, fuzzy
 #| msgid "Automatic"
 msgctxt "animation type"
@@ -3680,8 +3682,13 @@ msgstr "Snit"
 msgid "Reload"
 msgstr "Herlaai"
 
+#. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:24
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
+#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:56
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: context/applets/wikipedia/WikipediaApplet.cpp:407
-#: context/applets/similarartists/SimilarArtistsApplet.cpp:325
+#: context/applets/similarartists/SimilarArtistsApplet.cpp:325 rc.cpp:935
+#: rc.cpp:971
 #, fuzzy
 #| msgid "Automatic"
 msgctxt "automatic language selection"
@@ -5533,17 +5540,6 @@ msgstr "Skep speellys..."
 msgid "No information available for this track"
 msgstr "Geen inligting is beskikbaar vir die snit nie"
 
-#: playlistgenerator/ConstraintSolver.cpp:228
-msgid "The playlist generator failed to load any tracks from the collection."
-msgstr ""
-
-#: playlistgenerator/ConstraintSolver.cpp:235
-msgid ""
-"There are no tracks that match all constraints.  The playlist generator will "
-"find the tracks that match best, but you may want to consider loosening the "
-"constraints to find more tracks."
-msgstr ""
-
 #: playlistgenerator/Preset.cpp:41 playlistgenerator/Preset.cpp:54
 #, fuzzy
 #| msgid "New playlist layout"
@@ -5857,6 +5853,17 @@ msgstr ""
 
 #: playlistgenerator/PresetModel.cpp:281
 msgid "Export"
+msgstr ""
+
+#: playlistgenerator/ConstraintSolver.cpp:229
+msgid "The playlist generator failed to load any tracks from the collection."
+msgstr ""
+
+#: playlistgenerator/ConstraintSolver.cpp:236
+msgid ""
+"There are no tracks that match all constraints.  The playlist generator will "
+"find the tracks that match best, but you may want to consider loosening the "
+"constraints to find more tracks."
 msgstr ""
 
 #: playlist/PlaylistBreadcrumbItem.cpp:110
@@ -6520,12 +6527,12 @@ msgstr "Snitte geskuif"
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr "Te veel foute teëgekom in speellys. Opgehou speel. "
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:78
+#: playlistmanager/file/PlaylistFileProvider.cpp:79
 msgid "Playlist Files on Disk"
 msgstr "Speellys Lêers op Skyf"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:130
-#: playlistmanager/file/PlaylistFileProvider.cpp:139
+#: playlistmanager/file/PlaylistFileProvider.cpp:131
+#: playlistmanager/file/PlaylistFileProvider.cpp:140
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:199
 #, kde-format
 msgctxt "Remove a track from a saved playlist"
@@ -6536,11 +6543,11 @@ msgstr "Verwyder Van \"%1\""
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:98
 #. i18n: ectx: property (text), widget (KPushButton, removeButton)
-#: playlistmanager/file/PlaylistFileProvider.cpp:156 rc.cpp:1196 rc.cpp:1928
+#: playlistmanager/file/PlaylistFileProvider.cpp:157 rc.cpp:1196 rc.cpp:1928
 msgid "Remove"
 msgstr "Verwyder"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:273
+#: playlistmanager/file/PlaylistFileProvider.cpp:274
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:240
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to delete this playlist?"
@@ -6550,8 +6557,8 @@ msgid_plural "Are you sure you want to delete these %1 playlist files?"
 msgstr[0] "Is jy seker jy wil hierdie speellys skrap?"
 msgstr[1] "Is jy seker jy wil hierdie %1 speellys lêers skrap?"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:320
-#: playlistmanager/file/PlaylistFileProvider.cpp:346
+#: playlistmanager/file/PlaylistFileProvider.cpp:321
+#: playlistmanager/file/PlaylistFileProvider.cpp:347
 #, kde-format
 msgid "The playlist file \"%1\" could not be loaded."
 msgstr "Kon nie die speellys lêer \"%1\" laai nie."
@@ -6599,7 +6606,7 @@ msgstr "&Skrap"
 msgid "Yes, delete from database."
 msgstr "Ja, verwyder uit databasis"
 
-#: playlistmanager/PlaylistManager.cpp:176
+#: playlistmanager/PlaylistManager.cpp:177
 msgid "Downloading Playlist"
 msgstr "Speellys Aflaai"
 
@@ -6684,11 +6691,11 @@ msgstr "<p>Daar was geen inligting vir hierdie kunstenaar nie.</p>"
 msgid "Ampache Server %1"
 msgstr "Ampache Bediener %1"
 
-#: services/ampache/AmpacheService.cpp:125
+#: services/ampache/AmpacheService.cpp:126
 msgid "Amarok frontend for your Ampache server."
 msgstr "Amarok voorkant vir jou Ampache bediener."
 
-#: services/ampache/AmpacheService.cpp:127
+#: services/ampache/AmpacheService.cpp:128
 msgid ""
 "Use Amarok as a seamless frontend to your Ampache server. This lets you "
 "browse and play all the Ampache contents from within Amarok."
@@ -6696,15 +6703,15 @@ msgstr ""
 "Gebruik Amarok as a deursigtige voorkant tot jou Ampache bediener. Dit laat "
 "jou toe om deur alle Amapache inhoud te blaai en speel, van binne Amarok."
 
-#: services/ampache/AmpacheService.cpp:212
+#: services/ampache/AmpacheService.cpp:213
 msgid "Enter the server name and a password"
 msgstr "Gee die bediener naam en wagwoord"
 
-#: services/ampache/AmpacheService.cpp:271
+#: services/ampache/AmpacheService.cpp:272
 msgid "Authenticating with Ampache"
 msgstr "Bekragtig met Ampache"
 
-#: services/ampache/AmpacheService.cpp:299
+#: services/ampache/AmpacheService.cpp:300
 msgid "Authentication Error"
 msgstr "Bekragtigingsfout"
 
@@ -6734,41 +6741,11 @@ msgstr "Jamendo.com: Aflaai"
 msgid "A site where artists can freely share their music"
 msgstr "'n Werf waar kunstenaars hul musiek vrylik kan deel"
 
-#: services/jamendo/JamendoXmlParser.cpp:152
-#, kde-format
-msgctxt ""
-"First part of: Jamendo.com database update complete. Added 3 tracks on 4 "
-"albums from 5 artists."
-msgid "Jamendo.com database update complete. Added 1 track on "
-msgid_plural "Jamendo.com database update complete. Added %1 tracks on "
-msgstr[0] "Jamendo.com databasis opdatering voltooi. Een snit bygevoeg op "
-msgstr[1] "Jamendo.com databasis opdatering voltooi. %1 Snitte bygevoeg op "
-
-#: services/jamendo/JamendoXmlParser.cpp:153
-#, kde-format
-msgctxt ""
-"Middle part of: Jamendo.com database update complete. Added 3 tracks on 4 "
-"albums from 5 artists."
-msgid "1 album from "
-msgid_plural "%1 albums from "
-msgstr[0] "1 album van "
-msgstr[1] "%1 albums van "
-
-#: services/jamendo/JamendoXmlParser.cpp:154
-#, kde-format
-msgctxt ""
-"Last part of: Jamendo.com database update complete. Added 3 tracks on 4 "
-"albums from 5 artists."
-msgid "1 artist."
-msgid_plural "%1 artists."
-msgstr[0] "1 kunstenaar."
-msgstr[1] "%1 kunstenaars."
-
-#: services/jamendo/JamendoService.cpp:77
+#: services/jamendo/JamendoService.cpp:79
 msgid "A site where artists can showcase their creations to the world"
 msgstr "'n Werf waar kunstenaars hul skeppings kan vertoon aan die wêreld"
 
-#: services/jamendo/JamendoService.cpp:80
+#: services/jamendo/JamendoService.cpp:82
 #, fuzzy
 #| msgid ""
 #| "Jamendo.com puts artists and music lovers in touch with each other. The "
@@ -6786,7 +6763,7 @@ msgstr ""
 "te deelen gebruikers om hulle almal gratis af te laai. Luister na en laai al "
 "Jamendo.com inhoud af met Amarok."
 
-#: services/jamendo/JamendoService.cpp:116
+#: services/jamendo/JamendoService.cpp:118
 #: services/opmldirectory/OpmlDirectoryService.cpp:102
 msgctxt "Fetch new information from the website"
 msgid "Update"
@@ -6794,21 +6771,51 @@ msgstr "Opdateer"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:95
 #. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: services/jamendo/JamendoService.cpp:122 rc.cpp:2040
+#: services/jamendo/JamendoService.cpp:124 rc.cpp:2040
 msgid "Download"
 msgstr "Aflaai"
 
-#: services/jamendo/JamendoService.cpp:186
+#: services/jamendo/JamendoService.cpp:188
 msgid "Downloading Jamendo.com Database"
 msgstr "Jamendo.com Databasis Aflaai"
 
-#: services/jamendo/JamendoService.cpp:209
+#: services/jamendo/JamendoService.cpp:210
 msgid "Updating the local Jamendo database."
 msgstr "Opdateer die plaaslike Jamendo databasis."
 
+#: services/jamendo/JamendoXmlParser.cpp:153
+#, kde-format
+msgctxt ""
+"First part of: Jamendo.com database update complete. Added 3 tracks on 4 "
+"albums from 5 artists."
+msgid "Jamendo.com database update complete. Added 1 track on "
+msgid_plural "Jamendo.com database update complete. Added %1 tracks on "
+msgstr[0] "Jamendo.com databasis opdatering voltooi. Een snit bygevoeg op "
+msgstr[1] "Jamendo.com databasis opdatering voltooi. %1 Snitte bygevoeg op "
+
+#: services/jamendo/JamendoXmlParser.cpp:154
+#, kde-format
+msgctxt ""
+"Middle part of: Jamendo.com database update complete. Added 3 tracks on 4 "
+"albums from 5 artists."
+msgid "1 album from "
+msgid_plural "%1 albums from "
+msgstr[0] "1 album van "
+msgstr[1] "%1 albums van "
+
+#: services/jamendo/JamendoXmlParser.cpp:155
+#, kde-format
+msgctxt ""
+"Last part of: Jamendo.com database update complete. Added 3 tracks on 4 "
+"albums from 5 artists."
+msgid "1 artist."
+msgid_plural "%1 artists."
+msgstr[0] "1 kunstenaar."
+msgstr[1] "%1 kunstenaars."
+
 # Hierdie lyk na last.fm-spesifieke terminologie
 #: services/lastfm/LoveTrackAction.cpp:25
-#: services/lastfm/LastFmService.cpp:298
+#: services/lastfm/LastFmService.cpp:299
 msgid "Last.fm: Love"
 msgstr "Last.fm: Gaande oor"
 
@@ -6985,90 +6992,6 @@ msgstr "Toets Aanteken"
 msgid "&Test Login"
 msgstr "Toets Aanteken"
 
-#: services/lastfm/ScrobblerAdapter.cpp:218
-#: services/lastfm/LastFmService.cpp:573
-#, kde-format
-msgctxt "As in, lastfm"
-msgid "Loved Track: %1"
-msgstr "Gaande oor Snit: %1"
-
-#: services/lastfm/LastFmService.cpp:197
-msgid "Last.fm: The social music revolution"
-msgstr "Last.fm: Die sosiale musiek revolusie"
-
-#: services/lastfm/LastFmService.cpp:199
-msgid ""
-"Last.fm is a popular online service that provides personal radio stations "
-"and music recommendations. A personal listening station is tailored based on "
-"your listening habits and provides you with recommendations for new music. "
-"It is also possible to play stations with music that is similar to a "
-"particular artist as well as listen to streams from people you have added as "
-"friends or that last.fm considers your musical \"neighbors\""
-msgstr ""
-"Last.fm is a populêre aanlyn diens wat persoonlike radiostasies en "
-"voorstellevir musiek verskaf. 'n Persoonlike luister stasie word pasgemaak "
-"op grond van jou luistergewoontes en voorsien jou met aanbevelings vir nuwe "
-"musiek. Dit is ook moontlik om stasies te speel met musiek wat naverwant aan "
-"'n kunstenaar is, en om na strome te luister van mense wat jy as vriende "
-"bygevoeg het of wie last.fm as jou musikale \"bure\" beskou."
-
-#: services/lastfm/LastFmService.cpp:300
-msgid "Ctrl+L"
-msgstr "Ctrl+L"
-
-#: services/lastfm/LastFmService.cpp:352
-msgctxt "Last.fm: errorMessage"
-msgid "Either the username was not recognized, or the password was incorrect."
-msgstr "Óf die gebruikernaam is onherkenbaar, óf die wagwoord was verkeerd"
-
-#: services/lastfm/LastFmService.cpp:356
-msgctxt "Last.fm: errorMessage"
-msgid ""
-"There was a problem communicating with the Last.fm services. Please try "
-"again later."
-msgstr ""
-"Daar was 'n kommunikasieprobleem met die Last.fm diens. Probeer asb. weer "
-"later."
-
-#: services/lastfm/LastFmService.cpp:443
-msgid "Enter an artist name"
-msgstr "Gee 'n kunstenaar naam"
-
-#: services/lastfm/LastFmService.cpp:446
-msgid "Enter a tag"
-msgstr "Gee 'n merker"
-
-#: services/lastfm/LastFmService.cpp:449
-msgid "Enter a last.fm user name"
-msgstr "Gee 'n last.fm gebruikernaam"
-
-#: services/lastfm/LastFmService.cpp:462
-msgid "Username: "
-msgstr "Gebruikernaam: "
-
-#: services/lastfm/LastFmService.cpp:467
-#, kde-format
-msgid "Play Count: %1 play"
-msgid_plural "Play Count: %1 plays"
-msgstr[0] "Speel Telling: %1 keer gespeel"
-msgstr[1] "Speel Telling: %1 kere gespeel"
-
-#: services/lastfm/LastFmService.cpp:477
-msgid "Enter login information for Last.fm"
-msgstr "Gee aanteken inligting vir Last.fm"
-
-#: services/lastfm/LastFmService.cpp:534
-msgid "Create a Custom Last.fm Station"
-msgstr "Skep 'n Pasmaak Last.fm Stasie"
-
-#: services/lastfm/LastFmService.cpp:537
-msgid "Tag"
-msgstr "Merker"
-
-#: services/lastfm/LastFmService.cpp:537
-msgid "User"
-msgstr "Gebruiker"
-
 #: services/lastfm/LastFmServiceCollection.cpp:42
 #, kde-format
 msgid "%1's Streams"
@@ -7145,6 +7068,90 @@ msgstr "Bure"
 #: services/lastfm/SimilarArtistsAction.cpp:26
 msgid "Play Similar Artists from Last.fm"
 msgstr "Speel Naverwante Kunstenaars van Last.fm"
+
+#: services/lastfm/LastFmService.cpp:198
+msgid "Last.fm: The social music revolution"
+msgstr "Last.fm: Die sosiale musiek revolusie"
+
+#: services/lastfm/LastFmService.cpp:200
+msgid ""
+"Last.fm is a popular online service that provides personal radio stations "
+"and music recommendations. A personal listening station is tailored based on "
+"your listening habits and provides you with recommendations for new music. "
+"It is also possible to play stations with music that is similar to a "
+"particular artist as well as listen to streams from people you have added as "
+"friends or that last.fm considers your musical \"neighbors\""
+msgstr ""
+"Last.fm is a populêre aanlyn diens wat persoonlike radiostasies en "
+"voorstellevir musiek verskaf. 'n Persoonlike luister stasie word pasgemaak "
+"op grond van jou luistergewoontes en voorsien jou met aanbevelings vir nuwe "
+"musiek. Dit is ook moontlik om stasies te speel met musiek wat naverwant aan "
+"'n kunstenaar is, en om na strome te luister van mense wat jy as vriende "
+"bygevoeg het of wie last.fm as jou musikale \"bure\" beskou."
+
+#: services/lastfm/LastFmService.cpp:301
+msgid "Ctrl+L"
+msgstr "Ctrl+L"
+
+#: services/lastfm/LastFmService.cpp:354
+msgctxt "Last.fm: errorMessage"
+msgid "Either the username was not recognized, or the password was incorrect."
+msgstr "Óf die gebruikernaam is onherkenbaar, óf die wagwoord was verkeerd"
+
+#: services/lastfm/LastFmService.cpp:358
+msgctxt "Last.fm: errorMessage"
+msgid ""
+"There was a problem communicating with the Last.fm services. Please try "
+"again later."
+msgstr ""
+"Daar was 'n kommunikasieprobleem met die Last.fm diens. Probeer asb. weer "
+"later."
+
+#: services/lastfm/LastFmService.cpp:445
+msgid "Enter an artist name"
+msgstr "Gee 'n kunstenaar naam"
+
+#: services/lastfm/LastFmService.cpp:448
+msgid "Enter a tag"
+msgstr "Gee 'n merker"
+
+#: services/lastfm/LastFmService.cpp:451
+msgid "Enter a last.fm user name"
+msgstr "Gee 'n last.fm gebruikernaam"
+
+#: services/lastfm/LastFmService.cpp:464
+msgid "Username: "
+msgstr "Gebruikernaam: "
+
+#: services/lastfm/LastFmService.cpp:469
+#, kde-format
+msgid "Play Count: %1 play"
+msgid_plural "Play Count: %1 plays"
+msgstr[0] "Speel Telling: %1 keer gespeel"
+msgstr[1] "Speel Telling: %1 kere gespeel"
+
+#: services/lastfm/LastFmService.cpp:479
+msgid "Enter login information for Last.fm"
+msgstr "Gee aanteken inligting vir Last.fm"
+
+#: services/lastfm/LastFmService.cpp:536
+msgid "Create a Custom Last.fm Station"
+msgstr "Skep 'n Pasmaak Last.fm Stasie"
+
+#: services/lastfm/LastFmService.cpp:539
+msgid "Tag"
+msgstr "Merker"
+
+#: services/lastfm/LastFmService.cpp:539
+msgid "User"
+msgstr "Gebruiker"
+
+#: services/lastfm/LastFmService.cpp:575
+#: services/lastfm/ScrobblerAdapter.cpp:219
+#, kde-format
+msgctxt "As in, lastfm"
+msgid "Loved Track: %1"
+msgstr "Gaande oor Snit: %1"
 
 #: services/magnatune/MagnatuneInfoParser.cpp:31
 msgid "Loading artist info..."
@@ -7320,7 +7327,7 @@ msgstr ""
 msgid "Getting list of previous Magnatune.com purchases"
 msgstr "Verkry die lys van vorige Magnatune.com aankope"
 
-#: services/magnatune/MagnatuneXmlParser.cpp:62
+#: services/magnatune/MagnatuneXmlParser.cpp:57
 #, kde-format
 msgctxt ""
 "First part of: Magnatune.com database update complete. Added 3 tracks on 4 "
@@ -7330,7 +7337,7 @@ msgid_plural "Magnatune.com database update complete. Added %1 tracks on "
 msgstr[0] "Magnatune.com databasis opdatering voltooi. 1 Snit bygevoeg op "
 msgstr[1] "Magnatune.com databasis opdatering voltooi. %1 Snitte bygevoeg op "
 
-#: services/magnatune/MagnatuneXmlParser.cpp:63
+#: services/magnatune/MagnatuneXmlParser.cpp:58
 #, kde-format
 msgctxt ""
 "Middle part of: Magnatune.com database update complete. Added 3 tracks on 4 "
@@ -7340,7 +7347,7 @@ msgid_plural "%1 albums from "
 msgstr[0] "1 album van "
 msgstr[1] "%1 albums van "
 
-#: services/magnatune/MagnatuneXmlParser.cpp:64
+#: services/magnatune/MagnatuneXmlParser.cpp:59
 #, kde-format
 msgctxt ""
 "Last part of: Magnatune.com database update complete. Added 3 tracks on 4 "
@@ -10329,16 +10336,6 @@ msgstr "Gelukkig"
 msgid "Animation"
 msgstr "Animasie"
 
-#. i18n: file: context/applets/photos/photosSettings.ui:52
-#. i18n: ectx: property (text), item, widget (KComboBox, animationComboBox)
-#. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:24
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#. i18n: file: context/applets/similarartists/similarArtistsSettings.ui:56
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
-#: rc.cpp:909 rc.cpp:935 rc.cpp:971
-msgid "Automatic"
-msgstr "Outomaties"
-
 #. i18n: file: context/applets/photos/photosSettings.ui:70
 #. i18n: ectx: property (text), widget (QLabel, numberofphotosLabel)
 #: rc.cpp:918
@@ -12481,6 +12478,9 @@ msgstr "Oudio Modus"
 #: k3bexporter.cpp:245
 msgid "Data Mode"
 msgstr "Data Modus"
+
+#~ msgid "Automatic"
+#~ msgstr "Outomaties"
 
 #, fuzzy
 #~| msgid "Url"
