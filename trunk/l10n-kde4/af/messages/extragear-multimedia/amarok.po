@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-10 04:48+0200\n"
+"POT-Creation-Date: 2010-04-11 05:22+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1539,12 +1539,14 @@ msgstr[0] "Verwyder Snit van Toestel"
 msgstr[1] "Verwyder Snitte van Toestel"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:115
+#: playlistmanager/file/PlaylistFileProvider.cpp:430
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:121
 #: playlistmanager/PlaylistManager.cpp:253
 msgid "Change playlist"
 msgstr "Wysig speellys"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:116
+#: playlistmanager/file/PlaylistFileProvider.cpp:431
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:122
 #: playlistmanager/PlaylistManager.cpp:254
 msgid "Enter new name for playlist:"
@@ -1846,7 +1848,7 @@ msgstr "Skrap &Gids"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
 #: browsers/filebrowser/FileView.cpp:456
-#: playlistmanager/file/PlaylistFileProvider.cpp:273
+#: playlistmanager/file/PlaylistFileProvider.cpp:320
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:238
 msgid "Confirm Delete"
 msgstr "Bevestig Verwyder"
@@ -1927,6 +1929,10 @@ msgid " Item"
 msgid_plural " Items"
 msgstr[0] " Item"
 msgstr[1] " Items"
+
+#: core-impl/podcasts/sql/SqlPodcastProvider.h:50
+msgid "Local Podcasts"
+msgstr "Plaaslike Potgooie"
 
 #: core-impl/podcasts/sql/SqlPodcastProvider.cpp:269
 #, fuzzy
@@ -2030,10 +2036,6 @@ msgstr "Besig om Podcast \"%1\" af te laai"
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "Kon nie potgooi episode lêer stoor na %1 nie"
-
-#: core-impl/podcasts/sql/SqlPodcastProvider.h:50
-msgid "Local Podcasts"
-msgstr "Plaaslike Potgooie"
 
 #: TrayIcon.cpp:127 widgets/VolumeDial.cpp:298 widgets/VolumeDial.cpp:337
 #: TrayIconLegacy.cpp:144
@@ -2701,8 +2703,8 @@ msgid "Sort Options"
 msgstr "Sortering Opsies"
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:324
-#: browsers/playlistbrowser/UserPlaylistCategory.cpp:100
 #: browsers/playlistbrowser/PodcastCategory.cpp:146
+#: browsers/playlistbrowser/UserPlaylistCategory.cpp:100
 msgid "Merged View"
 msgstr ""
 
@@ -2781,7 +2783,7 @@ msgstr[0] "Is jy seker jy wil hierdie speellys skrap?"
 msgstr[1] "Is jy seker jy wil hierdie %1 speellys lêers skrap?"
 
 #: browsers/filebrowser/FileView.cpp:463
-#: playlistmanager/file/PlaylistFileProvider.cpp:280
+#: playlistmanager/file/PlaylistFileProvider.cpp:327
 msgid "Yes, delete from disk."
 msgstr "Ja, verwyder van die skyf"
 
@@ -2901,6 +2903,64 @@ msgstr ""
 #: browsers/playlistbrowser/APGCategory.cpp:124
 msgid "Accuracy"
 msgstr ""
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:97
+msgid "Podcasts"
+msgstr "Potgooie"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:98
+#, fuzzy
+#| msgid "List of subscribed podcasts and episodes"
+msgid "List of podcast subscriptions and episodes"
+msgstr "Lys potgooi en episode inskrywings"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:101
+msgid ""
+"Manage your podcast subscriptions and browse individual episodes. "
+"Downloading episodes to the disk is also done here, or you can tell Amarok "
+"to do this automatically."
+msgstr ""
+"Bestuur jou potgooi inskrywings en blaai deur individuele episodes. Episodes "
+"kan hier na die skyf afgelaai word, of jy kan Amarok vra om dit outomaties "
+"laat doen."
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:119
+msgid "&Add Podcast"
+msgstr "&Potgooi Byvoeg"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:124
+msgid "&Update All"
+msgstr "&Opdateer Elkeen"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:192
+#: browsers/playlistbrowser/PodcastCategory.cpp:195
+msgid "Import OPML File"
+msgstr "Invoer OPML Lêers"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:227
+msgid "By"
+msgstr "Deur"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:266
+msgctxt "Podcast published on date"
+msgid "On"
+msgstr "Op"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:284
+msgid "File Size:"
+msgstr "Lêer Grootte"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:296
+msgid "Subscription Date:"
+msgstr "Inteken Datum:"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:304
+msgid "Keywords:"
+msgstr "Sleutelwoorde:"
+
+#: browsers/playlistbrowser/PodcastCategory.cpp:341
+msgid "Select OPML file to import"
+msgstr "Kies OPML lêer vir invoer"
 
 #: browsers/playlistbrowser/UserPlaylistCategory.cpp:57
 msgid "Saved Playlists"
@@ -3064,64 +3124,6 @@ msgstr "Nuwe naam"
 msgctxt "Enter a new name for a folder that already exists"
 msgid "Enter new folder name:"
 msgstr "Gee nuwe gids naam:"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:97
-msgid "Podcasts"
-msgstr "Potgooie"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:98
-#, fuzzy
-#| msgid "List of subscribed podcasts and episodes"
-msgid "List of podcast subscriptions and episodes"
-msgstr "Lys potgooi en episode inskrywings"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:101
-msgid ""
-"Manage your podcast subscriptions and browse individual episodes. "
-"Downloading episodes to the disk is also done here, or you can tell Amarok "
-"to do this automatically."
-msgstr ""
-"Bestuur jou potgooi inskrywings en blaai deur individuele episodes. Episodes "
-"kan hier na die skyf afgelaai word, of jy kan Amarok vra om dit outomaties "
-"laat doen."
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:119
-msgid "&Add Podcast"
-msgstr "&Potgooi Byvoeg"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:124
-msgid "&Update All"
-msgstr "&Opdateer Elkeen"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:192
-#: browsers/playlistbrowser/PodcastCategory.cpp:195
-msgid "Import OPML File"
-msgstr "Invoer OPML Lêers"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:227
-msgid "By"
-msgstr "Deur"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:266
-msgctxt "Podcast published on date"
-msgid "On"
-msgstr "Op"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:284
-msgid "File Size:"
-msgstr "Lêer Grootte"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:296
-msgid "Subscription Date:"
-msgstr "Inteken Datum:"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:304
-msgid "Keywords:"
-msgstr "Sleutelwoorde:"
-
-#: browsers/playlistbrowser/PodcastCategory.cpp:341
-msgid "Select OPML file to import"
-msgstr "Kies OPML lêer vir invoer"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:111
 msgid "Add a new bias."
@@ -5179,77 +5181,6 @@ msgstr ""
 msgid "Script Manager - Amarok"
 msgstr "Skrip Bestuurder"
 
-#: dialogs/CollectionSetup.cpp:67
-#, fuzzy, kde-format
-#| msgid "Rescan"
-msgid "Rescan '%1'"
-msgstr "Herskandeer"
-
-#: dialogs/CollectionSetup.cpp:96
-msgid ""
-"These folders will be scanned for media to make up your collection. You can\n"
-"right-click on a folder to individually rescan it, if it was previously "
-"selected:"
-msgstr ""
-"Hierdie gidse sal geskandeer word vir media om in jou versameling te plaas. "
-"Jy kan\n"
-"regs-kliek op 'n gids vir individuele herskandering as dit voorheen "
-"geselekteer was:"
-
-#: dialogs/CollectionSetup.cpp:110
-msgid "Fully Rescan Entire Collection"
-msgstr "Herskandeer Hele Versameling Volledig"
-
-#: dialogs/CollectionSetup.cpp:111
-msgid ""
-"Rescan your entire collection. This will <i>not</i> delete any statistics."
-msgstr ""
-"Herskandeer jou hele versameling. Dit sal <i>geen</i> statistieke skrap nie."
-
-#: dialogs/CollectionSetup.cpp:114
-msgid "Import Statistics"
-msgstr "Invoer Statistiek"
-
-#: dialogs/CollectionSetup.cpp:115
-msgid ""
-"Import collection statistics from older Amarok versions, or from other media "
-"players."
-msgstr ""
-"Versameling statistiek invoer van vorige Amarok weergawes, of van ander "
-"media spelers."
-
-#: dialogs/CollectionSetup.cpp:118
-msgid "&Scan folders recursively"
-msgstr "Skandeer gidse rekursief"
-
-#: dialogs/CollectionSetup.cpp:119
-msgid "&Watch folders for changes"
-msgstr "Monitor gidse vir veranderinge"
-
-#: dialogs/CollectionSetup.cpp:120
-msgid "&Enable character set detection in ID3 tags"
-msgstr "Aktiveer karakterstel herkenning in ID3 merkers"
-
-#: dialogs/CollectionSetup.cpp:125
-msgid "If selected, Amarok will read all subfolders."
-msgstr "Indien gekies, sal Amarok al die subgidse lees."
-
-#: dialogs/CollectionSetup.cpp:126
-msgid ""
-"If selected, folders will automatically get rescanned when the content is "
-"modified, e.g. when a new file was added."
-msgstr ""
-"Indien gekies, sal gidse outomaties geskandeer word sodra die inhoud gewysig "
-"word, bv. wanneer 'n lêer bygevoeg word."
-
-#: dialogs/CollectionSetup.cpp:127
-msgid ""
-"If selected, Amarok will use Mozilla's Character Set Detector to attempt to "
-"automatically guess the character sets used in ID3 tags."
-msgstr ""
-"Indien gekies sal Amarok poog om ID3 merkers se karakterstel outomaties te "
-"raai dmv. Mozilla se \"Character Set Detector\" "
-
 #: dialogs/EditFilterDialog.cpp:43
 msgid "Edit Filter"
 msgstr "Wysig Filter"
@@ -5512,6 +5443,83 @@ msgstr "Gemiddelde Evaluasie:"
 msgid ""
 "Writing to file failed. Please check permissions and available disc space."
 msgstr "Lêer skryf mislukking. Gaan toestemming en beskikbare skyfspasie na."
+
+#: dialogs/CollectionSetup.cpp:67
+#, fuzzy, kde-format
+#| msgid "Rescan"
+msgid "Rescan '%1'"
+msgstr "Herskandeer"
+
+#: dialogs/CollectionSetup.cpp:96
+#, fuzzy
+#| msgid ""
+#| "These folders will be scanned for media to make up your collection. You "
+#| "can\n"
+#| "right-click on a folder to individually rescan it, if it was previously "
+#| "selected:"
+msgid ""
+"These folders will be scanned for media to make up your collection. You can "
+"right-click on a folder to individually rescan it, if it was previously "
+"selected:"
+msgstr ""
+"Hierdie gidse sal geskandeer word vir media om in jou versameling te plaas. "
+"Jy kan\n"
+"regs-kliek op 'n gids vir individuele herskandering as dit voorheen "
+"geselekteer was:"
+
+#: dialogs/CollectionSetup.cpp:112
+msgid "Fully Rescan Entire Collection"
+msgstr "Herskandeer Hele Versameling Volledig"
+
+#: dialogs/CollectionSetup.cpp:113
+msgid ""
+"Rescan your entire collection. This will <i>not</i> delete any statistics."
+msgstr ""
+"Herskandeer jou hele versameling. Dit sal <i>geen</i> statistieke skrap nie."
+
+#: dialogs/CollectionSetup.cpp:116
+msgid "Import Statistics"
+msgstr "Invoer Statistiek"
+
+#: dialogs/CollectionSetup.cpp:117
+msgid ""
+"Import collection statistics from older Amarok versions, or from other media "
+"players."
+msgstr ""
+"Versameling statistiek invoer van vorige Amarok weergawes, of van ander "
+"media spelers."
+
+#: dialogs/CollectionSetup.cpp:120
+msgid "&Scan folders recursively"
+msgstr "Skandeer gidse rekursief"
+
+#: dialogs/CollectionSetup.cpp:121
+msgid "&Watch folders for changes"
+msgstr "Monitor gidse vir veranderinge"
+
+#: dialogs/CollectionSetup.cpp:122
+msgid "&Enable character set detection in ID3 tags"
+msgstr "Aktiveer karakterstel herkenning in ID3 merkers"
+
+#: dialogs/CollectionSetup.cpp:127
+msgid "If selected, Amarok will read all subfolders."
+msgstr "Indien gekies, sal Amarok al die subgidse lees."
+
+#: dialogs/CollectionSetup.cpp:128
+msgid ""
+"If selected, folders will automatically get rescanned when the content is "
+"modified, e.g. when a new file was added."
+msgstr ""
+"Indien gekies, sal gidse outomaties geskandeer word sodra die inhoud gewysig "
+"word, bv. wanneer 'n lêer bygevoeg word."
+
+#: dialogs/CollectionSetup.cpp:129
+msgid ""
+"If selected, Amarok will use Mozilla's Character Set Detector to attempt to "
+"automatically guess the character sets used in ID3 tags."
+msgstr ""
+"Indien gekies sal Amarok poog om ID3 merkers se karakterstel outomaties te "
+"raai dmv. Mozilla se \"Character Set Detector\" "
 
 #: dynamic/biases/EchoNest.cpp:52
 msgid "Echo Nest Similar Artists"
@@ -5896,157 +5904,6 @@ msgstr "Ongeldige speellys uitleg."
 msgid "Encountered an unknown element name while reading layout."
 msgstr "'n Onbekende element naam het voorgekom tydens uitleg lees"
 
-#: playlist/layouts/LayoutManager.cpp:105
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:418
-#, kde-format
-msgid "copy of %1"
-msgstr "kopie van %1"
-
-#: playlist/layouts/LayoutManager.cpp:113
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:426
-#, kde-format
-msgctxt ""
-"adds a copy number to a generated name if the name already exists, for "
-"instance 'copy of Foo 2' if 'copy of Foo' is taken"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: playlist/layouts/LayoutManager.cpp:117
-#, kde-format
-msgid ""
-"Current layout '%1' is read only. Creating a new layout '%2' with your "
-"changes and setting this as active"
-msgstr ""
-"Huidige uitleg '%1' is lees-alleen. Skep tans 'n nuwe uitleg '%2' met jou "
-"wysigings en stel dit werksaam"
-
-#: playlist/layouts/LayoutManager.cpp:408
-#, kde-format
-msgid "The layout '%1' is one of the default layouts and cannot be deleted."
-msgstr "Die uitleg '%1' is 'n verstek uitleg en kan nie geskrap word nie."
-
-#: playlist/layouts/LayoutManager.cpp:408
-msgid "Cannot Delete Default Layouts"
-msgstr "Kan nie Verstek Uitlegte Skrap nie"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:73
-#: playlist/PlaylistDefines.h:108
-msgctxt "'Moodbar' playlist column name and token for playlist layouts"
-msgid "Moodbar"
-msgstr "Gemoedbalk"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:106
-msgid "Head"
-msgstr "Hoof"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:107
-msgid "Body"
-msgstr "Lyf"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:108
-#, fuzzy
-#| msgid "Various Artists"
-msgid "Body (Various artists)"
-msgstr "Verskeie Kunstenaars"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:109
-msgid "Single"
-msgstr "Enkel"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:143
-msgid "New playlist layout"
-msgstr "Nuwe speellys uitleg"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:148
-msgid "Copy playlist layout"
-msgstr "Kopieer speellys uitleg"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:153
-msgid "Delete playlist layout"
-msgstr "Skrap speellys uitleg"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:158
-msgid "Rename playlist layout"
-msgstr "Hernoem speellys uitleg"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:181
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:232
-msgid "Choose a name for the new playlist layout"
-msgstr "Kies a naam vir die nuwe speellys uitleg"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:182
-msgid "Please enter a name for the playlist layout you are about to define:"
-msgstr "Gee asb. 'n naam vir die speellys uitleg wat jy wil definieer:"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:187
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:240
-msgid "Cannot create a layout with no name."
-msgstr "Kan nie 'n naamlose uitleg skep nie."
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:187
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:192
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:197
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:240
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:245
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:299
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:301
-msgid "Layout name error"
-msgstr "Uitleg naam fout"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:192
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:245
-msgid "Cannot create a layout with the same name as an existing layout."
-msgstr "Kan nie 'n uitleg skep met dieselfde naam as 'n bestaande uitleg nie."
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:197
-msgid "Cannot create a layout containing '/'."
-msgstr "Kan nie 'n uitleg skep wat '/' bevat nie."
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:233
-#, kde-format
-msgid ""
-"Please enter a name for the playlist layout you are about to define as copy "
-"of the layout '%1':"
-msgstr ""
-"Gee asb. 'n naam vir die speellys wat jy as 'n kopie van die uitleg '%1' "
-"gaan definieer:"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:290
-msgid "Choose a new name for the playlist layout"
-msgstr "Kies 'n nuwe naam vir die speellys uitleg"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:291
-msgid ""
-"Please enter a new name for the playlist layout you are about to rename:"
-msgstr "Gee asb. 'n nuwe naam vir die speellys uitleg wat jy gaan hernoem:"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:299
-msgid "Cannot rename a layout to have no name."
-msgstr "Kan nie 'n uitleg naamloos maak nie."
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:301
-msgid "Cannot rename a layout to have the same name as an existing layout."
-msgstr "Kan nie 'n uitleg as 'n duplikaat van 'n bestaande uitleg benoem nie."
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:429
-#, kde-format
-msgid ""
-"The layout '%1' you modified is one of the default layouts and cannot be "
-"overwritten. Saved as new layout '%2'"
-msgstr ""
-"Die uitleg '%1' wat jy gewysig het is 'n verstek uitleg en kan nie herskryf "
-"word nie. Gestoor as nuwe uitleg '%2'"
-
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:431
-msgid "Default Layout"
-msgstr "Verstek Uitleg"
-
-#. i18n: tag layout attribute name
-#. i18n: file: data/DefaultPlaylistLayouts.xml:38
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:525 rc.cpp:2719
-msgid "No Grouping"
-msgstr "Geen Groepering"
-
 #: playlist/layouts/LayoutEditDialog.cpp:75
 msgid "Configuration for"
 msgstr "Opstelling vir"
@@ -6108,6 +5965,157 @@ msgstr "Skriftipe: "
 #| msgid "Configuration for"
 msgid "Configuration for '%1'"
 msgstr "Opstelling vir"
+
+#: playlist/layouts/LayoutManager.cpp:105
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:413
+#, kde-format
+msgid "copy of %1"
+msgstr "kopie van %1"
+
+#: playlist/layouts/LayoutManager.cpp:113
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:421
+#, kde-format
+msgctxt ""
+"adds a copy number to a generated name if the name already exists, for "
+"instance 'copy of Foo 2' if 'copy of Foo' is taken"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: playlist/layouts/LayoutManager.cpp:117
+#, kde-format
+msgid ""
+"Current layout '%1' is read only. Creating a new layout '%2' with your "
+"changes and setting this as active"
+msgstr ""
+"Huidige uitleg '%1' is lees-alleen. Skep tans 'n nuwe uitleg '%2' met jou "
+"wysigings en stel dit werksaam"
+
+#: playlist/layouts/LayoutManager.cpp:408
+#, kde-format
+msgid "The layout '%1' is one of the default layouts and cannot be deleted."
+msgstr "Die uitleg '%1' is 'n verstek uitleg en kan nie geskrap word nie."
+
+#: playlist/layouts/LayoutManager.cpp:408
+msgid "Cannot Delete Default Layouts"
+msgstr "Kan nie Verstek Uitlegte Skrap nie"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:72
+#: playlist/PlaylistDefines.h:108
+msgctxt "'Moodbar' playlist column name and token for playlist layouts"
+msgid "Moodbar"
+msgstr "Gemoedbalk"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:103
+msgid "Head"
+msgstr "Hoof"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:104
+msgid "Body"
+msgstr "Lyf"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:105
+#, fuzzy
+#| msgid "Various Artists"
+msgid "Body (Various artists)"
+msgstr "Verskeie Kunstenaars"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:106
+msgid "Single"
+msgstr "Enkel"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:140
+msgid "New playlist layout"
+msgstr "Nuwe speellys uitleg"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:145
+msgid "Copy playlist layout"
+msgstr "Kopieer speellys uitleg"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:150
+msgid "Delete playlist layout"
+msgstr "Skrap speellys uitleg"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:155
+msgid "Rename playlist layout"
+msgstr "Hernoem speellys uitleg"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:177
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:225
+msgid "Choose a name for the new playlist layout"
+msgstr "Kies a naam vir die nuwe speellys uitleg"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:178
+msgid "Please enter a name for the playlist layout you are about to define:"
+msgstr "Gee asb. 'n naam vir die speellys uitleg wat jy wil definieer:"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:183
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:233
+msgid "Cannot create a layout with no name."
+msgstr "Kan nie 'n naamlose uitleg skep nie."
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:183
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:188
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:193
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:233
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:238
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:292
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:294
+msgid "Layout name error"
+msgstr "Uitleg naam fout"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:188
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:238
+msgid "Cannot create a layout with the same name as an existing layout."
+msgstr "Kan nie 'n uitleg skep met dieselfde naam as 'n bestaande uitleg nie."
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:193
+msgid "Cannot create a layout containing '/'."
+msgstr "Kan nie 'n uitleg skep wat '/' bevat nie."
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:226
+#, kde-format
+msgid ""
+"Please enter a name for the playlist layout you are about to define as copy "
+"of the layout '%1':"
+msgstr ""
+"Gee asb. 'n naam vir die speellys wat jy as 'n kopie van die uitleg '%1' "
+"gaan definieer:"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:283
+msgid "Choose a new name for the playlist layout"
+msgstr "Kies 'n nuwe naam vir die speellys uitleg"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:284
+msgid ""
+"Please enter a new name for the playlist layout you are about to rename:"
+msgstr "Gee asb. 'n nuwe naam vir die speellys uitleg wat jy gaan hernoem:"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:292
+msgid "Cannot rename a layout to have no name."
+msgstr "Kan nie 'n uitleg naamloos maak nie."
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:294
+msgid "Cannot rename a layout to have the same name as an existing layout."
+msgstr "Kan nie 'n uitleg as 'n duplikaat van 'n bestaande uitleg benoem nie."
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:424
+#, kde-format
+msgid ""
+"The layout '%1' you modified is one of the default layouts and cannot be "
+"overwritten. Saved as new layout '%2'"
+msgstr ""
+"Die uitleg '%1' wat jy gewysig het is 'n verstek uitleg en kan nie herskryf "
+"word nie. Gestoor as nuwe uitleg '%2'"
+
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:426
+msgid "Default Layout"
+msgstr "Verstek Uitleg"
+
+#. i18n: tag layout attribute name
+#. i18n: file: data/DefaultPlaylistLayouts.xml:38
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:524 rc.cpp:2719
+msgid "No Grouping"
+msgstr "Geen Groepering"
 
 #: playlist/navigators/NavigatorConfigAction.cpp:33
 msgid "Track Progression"
@@ -6530,12 +6538,26 @@ msgstr "Snitte geskuif"
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr "Te veel foute teëgekom in speellys. Opgehou speel. "
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:79
+#: playlistmanager/file/PlaylistFileProvider.cpp:81
 msgid "Playlist Files on Disk"
 msgstr "Speellys Lêers op Skyf"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:131
-#: playlistmanager/file/PlaylistFileProvider.cpp:140
+#: playlistmanager/file/PlaylistFileProvider.cpp:123
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:163
+#, fuzzy
+#| msgid "&Rename"
+msgid "&Rename..."
+msgstr "Hernoem"
+
+#: playlistmanager/file/PlaylistFileProvider.cpp:135
+#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:175
+#, fuzzy
+#| msgid "&Delete"
+msgid "&Delete..."
+msgstr "&Skrap"
+
+#: playlistmanager/file/PlaylistFileProvider.cpp:171
+#: playlistmanager/file/PlaylistFileProvider.cpp:180
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:199
 #, kde-format
 msgctxt "Remove a track from a saved playlist"
@@ -6546,11 +6568,11 @@ msgstr "Verwyder Van \"%1\""
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:98
 #. i18n: ectx: property (text), widget (KPushButton, removeButton)
-#: playlistmanager/file/PlaylistFileProvider.cpp:157 rc.cpp:1196 rc.cpp:1928
+#: playlistmanager/file/PlaylistFileProvider.cpp:197 rc.cpp:1196 rc.cpp:1928
 msgid "Remove"
 msgstr "Verwyder"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:275
+#: playlistmanager/file/PlaylistFileProvider.cpp:322
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:240
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to delete this playlist?"
@@ -6560,8 +6582,8 @@ msgid_plural "Are you sure you want to delete these %1 playlist files?"
 msgstr[0] "Is jy seker jy wil hierdie speellys skrap?"
 msgstr[1] "Is jy seker jy wil hierdie %1 speellys lêers skrap?"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:322
-#: playlistmanager/file/PlaylistFileProvider.cpp:348
+#: playlistmanager/file/PlaylistFileProvider.cpp:363
+#: playlistmanager/file/PlaylistFileProvider.cpp:389
 #, kde-format
 msgid "The playlist file \"%1\" could not be loaded."
 msgstr "Kon nie die speellys lêer \"%1\" laai nie."
@@ -6592,18 +6614,6 @@ msgstr "Is jy seker jy wil hierdie speellys skrap?"
 #| msgid "Enter a name for the playlist:"
 msgid "Yes, rename this playlist."
 msgstr "Benoem die speellys:"
-
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:163
-#, fuzzy
-#| msgid "&Rename"
-msgid "&Rename..."
-msgstr "Hernoem"
-
-#: playlistmanager/sql/SqlUserPlaylistProvider.cpp:175
-#, fuzzy
-#| msgid "&Delete"
-msgid "&Delete..."
-msgstr "&Skrap"
 
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:245
 msgid "Yes, delete from database."
@@ -7636,7 +7646,7 @@ msgstr "Amarok wag tans"
 msgid "Playing: %1"
 msgstr "Speel tans: %1"
 
-#: statusbar/StatusBar.cpp:366
+#: statusbar/StatusBar.cpp:368
 #, kde-format
 msgctxt "%1 is number of tracks, %2 is time"
 msgid "%1 track (%2)"
@@ -7644,22 +7654,22 @@ msgid_plural "%1 tracks (%2)"
 msgstr[0] "%1 snit (%2)"
 msgstr[1] "%1 snitte (%2)"
 
-#: statusbar/StatusBar.cpp:389 statusbar/StatusBar.cpp:395
+#: statusbar/StatusBar.cpp:391 statusbar/StatusBar.cpp:397
 #, kde-format
 msgid "Total playlist size: %1"
 msgstr "Algehele speellys grootte: %1"
 
-#: statusbar/StatusBar.cpp:390
+#: statusbar/StatusBar.cpp:392
 #, kde-format
 msgid "Queue size: %1"
 msgstr "Wagtou grootte: %1"
 
-#: statusbar/StatusBar.cpp:391
+#: statusbar/StatusBar.cpp:393
 #, kde-format
 msgid "Queue length: %1"
 msgstr "Wagtou lengte: %1"
 
-#: statusbar/StatusBar.cpp:403
+#: statusbar/StatusBar.cpp:405
 #, kde-format
 msgctxt "%1 is number of tracks"
 msgid "%1 track"
