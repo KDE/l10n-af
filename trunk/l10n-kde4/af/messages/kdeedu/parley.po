@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-22 00:41+0200\n"
+"POT-Creation-Date: 2010-04-23 04:58+0200\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1328,7 +1328,7 @@ msgstr ""
 msgid "Start Practice"
 msgstr "Beginne spesiaal navraag..."
 
-#: src/practice/writtenbackendmode.cpp:78
+#: src/practice/writtenbackendmode.cpp:79
 #, fuzzy
 #| msgid "Your answer was wrong. %1% done."
 msgid ""
@@ -1336,23 +1336,16 @@ msgid ""
 "wrong."
 msgstr "Jou antwoord was verkeerde. %1% klaar."
 
-#: src/practice/writtenbackendmode.cpp:80
+#: src/practice/writtenbackendmode.cpp:81
 #, fuzzy
 #| msgid "Your answer was wrong. %1% done."
 msgid "Your answer was right on the first attempt, but accents were wrong."
 msgstr "Jou antwoord was verkeerde. %1% klaar."
 
-#: src/practice/writtenbackendmode.cpp:82
+#: src/practice/writtenbackendmode.cpp:83
 #, fuzzy
 #| msgid "Your answer was wrong. %1% done."
 msgid "Your answer was right on the first attempt."
-msgstr "Jou antwoord was verkeerde. %1% klaar."
-
-#: src/practice/writtenbackendmode.cpp:91
-#: src/practice/writtenbackendmode.cpp:129
-#, fuzzy
-#| msgid "Your answer was wrong. %1% done."
-msgid "Your answer was wrong. Please try again."
 msgstr "Jou antwoord was verkeerde. %1% klaar."
 
 #: src/practice/writtenbackendmode.cpp:102
@@ -1380,13 +1373,23 @@ msgstr ""
 msgid "You did not answer correctly."
 msgstr "Jou antwoord was verkeerde. %1% klaar."
 
-#: src/practice/writtenbackendmode.cpp:123
+#: src/practice/writtenbackendmode.cpp:139
+#: src/practice/multiplechoicebackendmode.cpp:110
+msgid "You revealed the answer by using too many hints."
+msgstr ""
+
+#: src/practice/writtenbackendmode.cpp:149
+#, kde-format
+msgid "The solution starts with: %1"
+msgstr ""
+
+#: src/practice/writtenbackendmode.cpp:168
 #, fuzzy
 #| msgid "Your answer was wrong. %1% done."
 msgid "Your answer was wrong as synonyms are not accepted. Please try again."
 msgstr "Jou antwoord was verkeerde. %1% klaar."
 
-#: src/practice/writtenbackendmode.cpp:125
+#: src/practice/writtenbackendmode.cpp:171
 #, fuzzy
 #| msgid "Your answer was wrong. %1% done."
 msgid ""
@@ -1394,42 +1397,38 @@ msgid ""
 "try again."
 msgstr "Jou antwoord was verkeerde. %1% klaar."
 
-#: src/practice/writtenbackendmode.cpp:127
+#: src/practice/writtenbackendmode.cpp:174
 #, fuzzy
 #| msgid "Your answer was wrong. %1% done."
 msgid ""
 "Your answer was wrong as accent mistakes are not accepted. Please try again."
 msgstr "Jou antwoord was verkeerde. %1% klaar."
 
-#: src/practice/writtenbackendmode.cpp:148
-#: src/practice/multiplechoicebackendmode.cpp:110
-msgid "You revealed the answer by using too many hints."
-msgstr ""
+#: src/practice/writtenbackendmode.cpp:176
+#, fuzzy
+#| msgid "Your answer was wrong. %1% done."
+msgid "Your answer was wrong. Please try again."
+msgstr "Jou antwoord was verkeerde. %1% klaar."
 
-#: src/practice/writtenbackendmode.cpp:158
-#, kde-format
-msgid "The solution starts with: %1"
-msgstr ""
-
-#: src/practice/writtenbackendmode.cpp:177
+#: src/practice/writtenbackendmode.cpp:185
 #, fuzzy
 #| msgid "Your answer was wrong. %1% done."
 msgid "Your answer was an already entered synonym."
 msgstr "Jou antwoord was verkeerde. %1% klaar."
 
-#: src/practice/writtenbackendmode.cpp:180
+#: src/practice/writtenbackendmode.cpp:188
 #, fuzzy
 #| msgid "Your answer was wrong. %1% done."
 msgid "Your answer was a synonym and your capitalization was wrong."
 msgstr "Jou antwoord was verkeerde. %1% klaar."
 
-#: src/practice/writtenbackendmode.cpp:182
+#: src/practice/writtenbackendmode.cpp:190
 #, fuzzy
 #| msgid "Your answer was wrong. %1% done."
 msgid "Your answer was a synonym and accents were wrong."
 msgstr "Jou antwoord was verkeerde. %1% klaar."
 
-#: src/practice/writtenbackendmode.cpp:184
+#: src/practice/writtenbackendmode.cpp:192
 #, fuzzy
 #| msgid "Your answer was wrong. %1% done."
 msgid "Your answer was a synonym."
@@ -1482,9 +1481,13 @@ msgstr "<no lesson>"
 #: src/practice/guifrontend.cpp:187
 #, kde-format
 msgid ""
-"You answered %1 of a total of %2 words.\n"
+"You answered %2 of a total of %1 word.\n"
 "You are %3% done."
-msgstr ""
+msgid_plural ""
+"You answered %2 of a total of %1 words.\n"
+"You are %3% done."
+msgstr[0] ""
+msgstr[1] ""
 
 #: src/practice/summarybarwidget.cpp:85
 #, fuzzy, kde-format
@@ -1534,7 +1537,7 @@ msgstr "Kon nie skryf "
 
 #: src/practice/testentrymanager.cpp:60
 #, fuzzy
-msgid "The vocabulary collection contains less than two languages."
+msgid "The vocabulary collection contains fewer than two languages."
 msgstr "Stoor die huidige dokument"
 
 #. i18n: file: src/entry-dialogs/audiowidget.ui:18
@@ -4093,7 +4096,7 @@ msgstr "Versamel In"
 #: rc.cpp:1260
 #, fuzzy
 #| msgid "I &Know It"
-msgid "I didn't know it"
+msgid "I did not know it"
 msgstr "I Ken Dit"
 
 #. i18n: file: src/practice/practice_mainwindow.ui:187
