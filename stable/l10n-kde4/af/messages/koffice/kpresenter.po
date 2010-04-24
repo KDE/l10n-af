@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-08 04:21+0100\n"
+"POT-Creation-Date: 2010-04-24 01:33+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -147,13 +147,13 @@ msgstr "Horisontaal Lyne"
 #: plugins/pageeffects/matrixwipe/waterfallwipe/KPrWaterfallWipeEffectFactory.cpp:64
 #: plugins/pageeffects/matrixwipe/boxsnakes/KPrBoxSnakesWipeEffectFactory.cpp:69
 #: plugins/pageeffects/iriswipe/ellipseWipe/KPrEllipseWipeEffectFactory.cpp:77
-#: plugins/pageeffects/iriswipe/triangleWipe/KPrTriangleWipeEffectFactory.cpp:100
 #: plugins/pageeffects/iriswipe/roundRectWipe/KPrRoundRectWipeEffectFactory.cpp:68
+#: plugins/pageeffects/iriswipe/triangleWipe/KPrTriangleWipeEffectFactory.cpp:100
 #: plugins/pageeffects/iriswipe/irisWipe/KPrIrisWipeEffectFactory.cpp:71
 #: plugins/pageeffects/iriswipe/starWipe/KPrStarWipeEffectFactory.cpp:116
 #: plugins/pageeffects/iriswipe/pentagonWipe/KPrPentagonWipeEffectFactory.cpp:77
-#: plugins/pageeffects/iriswipe/miscShapeWipe/KPrMiscShapeWipeEffectFactory.cpp:73
 #: plugins/pageeffects/iriswipe/arrowHeadWipe/KPrArrowHeadWipeEffectFactory.cpp:103
+#: plugins/pageeffects/iriswipe/miscShapeWipe/KPrMiscShapeWipeEffectFactory.cpp:73
 #: plugins/pageeffects/iriswipe/eyeWipe/KPrEyeWipeEffectFactory.cpp:72
 #: plugins/pageeffects/iriswipe/hexagonWipe/KPrHexagonWipeEffectFactory.cpp:89
 msgid "Unknown subtype"
@@ -1074,6 +1074,12 @@ msgstr "Sirkel"
 msgid "Circle Reverse"
 msgstr "Vertikaal Lyne"
 
+#: plugins/pageeffects/iriswipe/roundRectWipe/KPrRoundRectWipeEffectFactory.cpp:32
+#, fuzzy
+#| msgid "Sound effect"
+msgid "RoundRect"
+msgstr "Klank effek"
+
 #: plugins/pageeffects/iriswipe/triangleWipe/KPrTriangleWipeEffectFactory.cpp:31
 #, fuzzy
 #| msgid "Tiled"
@@ -1108,12 +1114,6 @@ msgstr "Lengte:"
 #| msgid "Vertical Lines"
 msgid "Left Reverse"
 msgstr "Vertikaal Lyne"
-
-#: plugins/pageeffects/iriswipe/roundRectWipe/KPrRoundRectWipeEffectFactory.cpp:32
-#, fuzzy
-#| msgid "Sound effect"
-msgid "RoundRect"
-msgstr "Klank effek"
 
 #: plugins/pageeffects/iriswipe/irisWipe/KPrIrisWipeEffectFactory.cpp:30
 msgid "Iris"
@@ -1184,6 +1184,11 @@ msgstr "Horisontaal Lyne"
 msgid "Pentagon"
 msgstr "Aanbieding"
 
+#: plugins/pageeffects/iriswipe/arrowHeadWipe/KPrArrowHeadWipeEffectFactory.cpp:31
+#, fuzzy
+msgid "ArrowHead"
+msgstr "Nee Effek"
+
 #: plugins/pageeffects/iriswipe/miscShapeWipe/KPrMiscShapeWipeEffectFactory.cpp:30
 msgid "Misc"
 msgstr "Allerande"
@@ -1209,11 +1214,6 @@ msgstr ""
 #| msgid "Vertical Lines"
 msgid "Keyhole Reverse"
 msgstr "Vertikaal Lyne"
-
-#: plugins/pageeffects/iriswipe/arrowHeadWipe/KPrArrowHeadWipeEffectFactory.cpp:31
-#, fuzzy
-msgid "ArrowHead"
-msgstr "Nee Effek"
 
 #: plugins/pageeffects/iriswipe/eyeWipe/KPrEyeWipeEffectFactory.cpp:32
 msgid "Eye"
@@ -1373,15 +1373,131 @@ msgstr "Doen jy wil hê na verwyder die huidige bladsy?"
 msgid "Confirm action"
 msgstr "Stoor Opstelling..."
 
-#: part/KPrPlaceholderShapeFactory.cpp:31
-msgid "Placeholder shape"
+#: part/KPrView.cpp:65
+#, fuzzy
+msgid "Show Master Slides"
+msgstr "Herbenaam Bladsy"
+
+#: part/KPrView.cpp:66
+#, fuzzy
+msgid "Import Slideshow..."
+msgstr "Gaan na Bladsy..."
+
+#: part/KPrView.cpp:67
+#, fuzzy
+msgid "Insert Slide"
+msgstr "Voeg by Lyn"
+
+#: part/KPrView.cpp:68 part/KPrView.cpp:69
+msgid "Insert a new slide after the current one"
 msgstr ""
 
-#: part/KPrPresenterViewInterface.cpp:67 part/KPrView.cpp:78
+#: part/KPrView.cpp:70
+#, fuzzy
+msgid "Copy Slide"
+msgstr "Skuif"
+
+#: part/KPrView.cpp:71 part/KPrView.cpp:72
+#, fuzzy
+msgid "Copy the current slide"
+msgstr "Voor Huidige Bladsy"
+
+#. i18n: file: part/ui/KPrCustomSlideShowsDialog.ui:136
+#. i18n: ectx: property (text), widget (QPushButton, deleteSlideButton)
+#: part/KPrView.cpp:73 rc.cpp:206
+#, fuzzy
+msgid "Delete Slide"
+msgstr "Gekose skyfies"
+
+#: part/KPrView.cpp:74 part/KPrView.cpp:75
+#, fuzzy
+msgid "Delete the current slide"
+msgstr "Voor Huidige Bladsy"
+
+#: part/KPrView.cpp:76
+#, fuzzy
+msgid "Master Slide..."
+msgstr "Voeg by Lyn"
+
+#: part/KPrView.cpp:77
+#, fuzzy
+#| msgid "&Previous Slide"
+msgid "Previous Slide"
+msgstr "Vorige Skuif"
+
+#: part/KPrView.cpp:78 part/KPrPresenterViewInterface.cpp:67
 #, fuzzy
 #| msgid "&Next Slide"
 msgid "Next Slide"
 msgstr "Volgende Skuif"
+
+#: part/KPrView.cpp:79
+#, fuzzy
+msgid "First Slide"
+msgstr "Herbenaam Bladsy"
+
+#: part/KPrView.cpp:80
+#, fuzzy
+msgid "Last Slide"
+msgstr "Herbenaam Bladsy"
+
+#: part/KPrView.cpp:81
+#, fuzzy
+#| msgid "Configure KPresenter..."
+msgid "Configure KPresenter..."
+msgstr "Konfigureer Kpresenter..."
+
+#: part/KPrView.cpp:142
+msgid "Normal"
+msgstr "Normale"
+
+#: part/KPrView.cpp:148
+#, fuzzy
+#| msgid "Note"
+msgid "Notes"
+msgstr "Nota"
+
+#: part/KPrView.cpp:157
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgid "Create Appear Animation"
+msgstr "Skep Html Aanbieding"
+
+#: part/KPrView.cpp:161
+#, fuzzy
+msgid "Edit Custom Slide Shows..."
+msgstr "Konfigureer Voltooiïng..."
+
+#: part/KPrView.cpp:165
+#, fuzzy
+#| msgid "Presentation"
+msgid "Start Presentation"
+msgstr "Aanbieding"
+
+#: part/KPrView.cpp:168
+#, fuzzy
+msgid "From Current Slide"
+msgstr "Na Huidige Bladsy"
+
+#: part/KPrView.cpp:173
+#, fuzzy
+msgid "From First Slide"
+msgstr "Zoem Hele Bladsy"
+
+#: part/KPrView.cpp:178
+#, fuzzy
+msgid "Configure Slide Show..."
+msgstr "Konfigureer Voltooiïng..."
+
+#: part/KPrView.cpp:182
+#, fuzzy
+#| msgid "Configure KPresenter..."
+msgid "Configure Presenter View..."
+msgstr "Konfigureer Kpresenter..."
+
+#: part/KPrPlaceholderShapeFactory.cpp:31
+msgid "Placeholder shape"
+msgstr ""
 
 #: part/KPrPresenterViewInterface.cpp:77
 msgid "Speaker Notes"
@@ -1544,6 +1660,11 @@ msgstr ""
 msgid "File to open"
 msgstr "Lêer na open"
 
+#: part/KPrEndOfSlideShowPage.cpp:68
+#, fuzzy
+msgid "End of presentation. Click to exit."
+msgstr "Vertoon Skyfies in Aanbieding"
+
 #: part/KPrPresentationDrawWidget.cpp:102
 #, fuzzy
 #| msgid "Color"
@@ -1583,127 +1704,6 @@ msgstr "Petroon"
 #, fuzzy
 msgid "Yellow"
 msgstr "Skyfievertoning"
-
-#: part/KPrView.cpp:65
-#, fuzzy
-msgid "Show Master Slides"
-msgstr "Herbenaam Bladsy"
-
-#: part/KPrView.cpp:66
-#, fuzzy
-msgid "Import Slideshow..."
-msgstr "Gaan na Bladsy..."
-
-#: part/KPrView.cpp:67
-#, fuzzy
-msgid "Insert Slide"
-msgstr "Voeg by Lyn"
-
-#: part/KPrView.cpp:68 part/KPrView.cpp:69
-msgid "Insert a new slide after the current one"
-msgstr ""
-
-#: part/KPrView.cpp:70
-#, fuzzy
-msgid "Copy Slide"
-msgstr "Skuif"
-
-#: part/KPrView.cpp:71 part/KPrView.cpp:72
-#, fuzzy
-msgid "Copy the current slide"
-msgstr "Voor Huidige Bladsy"
-
-#. i18n: file: part/ui/KPrCustomSlideShowsDialog.ui:136
-#. i18n: ectx: property (text), widget (QPushButton, deleteSlideButton)
-#: part/KPrView.cpp:73 rc.cpp:206
-#, fuzzy
-msgid "Delete Slide"
-msgstr "Gekose skyfies"
-
-#: part/KPrView.cpp:74 part/KPrView.cpp:75
-#, fuzzy
-msgid "Delete the current slide"
-msgstr "Voor Huidige Bladsy"
-
-#: part/KPrView.cpp:76
-#, fuzzy
-msgid "Master Slide..."
-msgstr "Voeg by Lyn"
-
-#: part/KPrView.cpp:77
-#, fuzzy
-#| msgid "&Previous Slide"
-msgid "Previous Slide"
-msgstr "Vorige Skuif"
-
-#: part/KPrView.cpp:79
-#, fuzzy
-msgid "First Slide"
-msgstr "Herbenaam Bladsy"
-
-#: part/KPrView.cpp:80
-#, fuzzy
-msgid "Last Slide"
-msgstr "Herbenaam Bladsy"
-
-#: part/KPrView.cpp:81
-#, fuzzy
-#| msgid "Configure KPresenter..."
-msgid "Configure KPresenter..."
-msgstr "Konfigureer Kpresenter..."
-
-#: part/KPrView.cpp:142
-msgid "Normal"
-msgstr "Normale"
-
-#: part/KPrView.cpp:148
-#, fuzzy
-#| msgid "Note"
-msgid "Notes"
-msgstr "Nota"
-
-#: part/KPrView.cpp:157
-#, fuzzy
-#| msgid "Create HTML Presentation"
-msgid "Create Appear Animation"
-msgstr "Skep Html Aanbieding"
-
-#: part/KPrView.cpp:161
-#, fuzzy
-msgid "Edit Custom Slide Shows..."
-msgstr "Konfigureer Voltooiïng..."
-
-#: part/KPrView.cpp:165
-#, fuzzy
-#| msgid "Presentation"
-msgid "Start Presentation"
-msgstr "Aanbieding"
-
-#: part/KPrView.cpp:168
-#, fuzzy
-msgid "From Current Slide"
-msgstr "Na Huidige Bladsy"
-
-#: part/KPrView.cpp:173
-#, fuzzy
-msgid "From First Slide"
-msgstr "Zoem Hele Bladsy"
-
-#: part/KPrView.cpp:178
-#, fuzzy
-msgid "Configure Slide Show..."
-msgstr "Konfigureer Voltooiïng..."
-
-#: part/KPrView.cpp:182
-#, fuzzy
-#| msgid "Configure KPresenter..."
-msgid "Configure Presenter View..."
-msgstr "Konfigureer Kpresenter..."
-
-#: part/KPrEndOfSlideShowPage.cpp:68
-#, fuzzy
-msgid "End of presentation. Click to exit."
-msgstr "Vertoon Skyfies in Aanbieding"
 
 #. i18n: file: kpresenter.rc:3
 #. i18n: ectx: Menu (file)
