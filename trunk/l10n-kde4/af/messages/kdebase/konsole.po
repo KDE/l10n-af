@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-02 04:37+0200\n"
+"POT-Creation-Date: 2010-05-03 04:52+0200\n"
 "PO-Revision-Date: 2005-11-29 11:30+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -253,7 +253,7 @@ msgstr ""
 msgid "Copy Email Address"
 msgstr ""
 
-#: HistorySizeDialog.cpp:51 SessionController.cpp:527
+#: HistorySizeDialog.cpp:51 SessionController.cpp:501
 #, fuzzy
 msgid "Scrollback Options"
 msgstr "Oortjie en Opsies"
@@ -600,45 +600,53 @@ msgstr ""
 msgid "Thanks to many others.\n"
 msgstr ""
 
-#: MainWindow.cpp:235
+#. i18n: file: ../desktop/konsoleui.rc:45
+#. i18n: ectx: Menu (new-tab)
+#: MainWindow.cpp:233 rc.cpp:882
 msgid "New &Tab"
 msgstr ""
 
-#: MainWindow.cpp:241
+#: MainWindow.cpp:238
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "&Default Profile"
+msgstr "Stoor Sessies Profiel..."
+
+#: MainWindow.cpp:244
 msgid "New &Window"
 msgstr "Nuwe Venster"
 
-#: MainWindow.cpp:246
+#: MainWindow.cpp:249
 #, fuzzy
 #| msgid "Wor&d Connectors..."
 msgid "Remote Connection..."
 msgstr "Woord Verbinders..."
 
-#: MainWindow.cpp:257
+#: MainWindow.cpp:260
 #, fuzzy
 msgid "&Bookmarks"
 msgstr "Tolk na Boekmerk"
 
-#: MainWindow.cpp:268
+#: MainWindow.cpp:271
 #, fuzzy
 msgid "Show Menu Bar"
 msgstr "Wegsteek Kieslysbalk"
 
-#: MainWindow.cpp:290 Part.cpp:116
+#: MainWindow.cpp:293 Part.cpp:116
 #, fuzzy
 #| msgid "Save Sessions &Profile..."
-msgid "Manage Profiles..."
+msgid "Configure Profiles..."
 msgstr "Stoor Sessies Profiel..."
 
-#: MainWindow.cpp:363
+#: MainWindow.cpp:376
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:365 SessionController.cpp:633
+#: MainWindow.cpp:378 SessionController.cpp:608
 msgid "Confirm Close"
 msgstr ""
 
-#: MainWindow.cpp:367
+#: MainWindow.cpp:380
 #, fuzzy
 #| msgid "Close the current session"
 msgid "Close Current Tab"
@@ -1586,19 +1594,19 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za, juanita.franz@vr-web.de "
 
-#. i18n: file: ../desktop/sessionui.rc:14
+#. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
 #: rc.cpp:849
 msgid "Copy Input To"
 msgstr ""
 
-#. i18n: file: ../desktop/sessionui.rc:47
+#. i18n: file: ../desktop/sessionui.rc:43
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:852
 msgid "Debug"
 msgstr ""
 
-#. i18n: file: ../desktop/sessionui.rc:65
+#. i18n: file: ../desktop/sessionui.rc:62
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/partui.rc:25
 #. i18n: ectx: Menu (change-profile)
@@ -1624,48 +1632,40 @@ msgstr "Doen nie vertoon rolstaaf"
 msgid "File"
 msgstr "Grootte"
 
-#. i18n: file: ../desktop/konsoleui.rc:15
+#. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:867
 #, fuzzy
 msgid "Edit"
 msgstr "Redigeer..."
 
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (history)
-#: rc.cpp:870
-#, fuzzy
-#| msgid "Do not display scrollbar"
-msgid "Scrollback"
-msgstr "Doen nie vertoon rolstaaf"
-
-#. i18n: file: ../desktop/konsoleui.rc:21
+#. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:873
+#: rc.cpp:870
 #, fuzzy
 #| msgid "S&ize"
 msgid "View"
 msgstr "Grootte"
 
-#. i18n: file: ../desktop/konsoleui.rc:22
+#. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:876
+#: rc.cpp:873
 #, fuzzy
 #| msgid "Shrink Font"
 msgid "Split View"
 msgstr "Verklein Skrif tipe"
 
-#. i18n: file: ../desktop/konsoleui.rc:40
+#. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:879
+#: rc.cpp:876
 #, fuzzy
 #| msgid "Settings"
 msgid "Settings"
 msgstr "Instellings"
 
-#. i18n: file: ../desktop/konsoleui.rc:47
+#. i18n: file: ../desktop/konsoleui.rc:42
 #. i18n: ectx: Menu (help)
-#: rc.cpp:882
+#: rc.cpp:879
 msgid "Help"
 msgstr ""
 
@@ -1746,140 +1746,115 @@ msgstr ""
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:408
-#, fuzzy
-msgid "&Copy"
-msgstr "Bokant"
-
-#: SessionController.cpp:412
-msgid "&Paste"
-msgstr ""
-
-#: SessionController.cpp:425
+#: SessionController.cpp:416
 msgid "Paste Selection"
 msgstr "Plak Verkiesing"
 
-#: SessionController.cpp:431
+#: SessionController.cpp:422
 #, fuzzy
 #| msgid "&Terminate Task"
 msgid "&Rename Tab..."
 msgstr "Termineer Opdrag"
 
-#: SessionController.cpp:438
+#: SessionController.cpp:429
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:445
+#: SessionController.cpp:436
 #, fuzzy
 #| msgid "Select &Tab Color..."
 msgid "&Select Tabs..."
 msgstr "Kies oortjie kleur..."
 
-#: SessionController.cpp:452
+#: SessionController.cpp:443
 #, fuzzy
 #| msgid "N&one"
 msgid "&None"
 msgstr "Geen"
 
-#: SessionController.cpp:459
+#: SessionController.cpp:450
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear and Reset"
 msgstr "Maak skoon Geskiedenis"
 
-#: SessionController.cpp:464
+#: SessionController.cpp:455
 msgid "&ZModem Upload..."
 msgstr "Modem Oplaai..."
 
-#: SessionController.cpp:470
+#: SessionController.cpp:461
 msgid "Monitor for &Activity"
 msgstr "Monitor vir Aktiwiteit"
 
-#: SessionController.cpp:475
+#: SessionController.cpp:466
 msgid "Monitor for &Silence"
 msgstr "Monitor vir Stilte"
 
-#: SessionController.cpp:481
+#: SessionController.cpp:472
 #, fuzzy
 #| msgid "&Encoding"
 msgid "Character Encoding"
 msgstr "Enkodering"
 
-#: SessionController.cpp:488
-msgid "Increase Text Size"
-msgstr ""
+#: SessionController.cpp:479
+msgid "Enlarge Font"
+msgstr "Vergroot Skrif tipe"
 
-#: SessionController.cpp:494
-msgid "Decrease Text Size"
-msgstr ""
-
-#: SessionController.cpp:500
+#: SessionController.cpp:482
 #, fuzzy
-#| msgid "Clear &History"
-msgid "Search Output..."
-msgstr "Maak skoon Geskiedenis"
+#| msgid "&Shrink Font"
+msgid "Shrink Font"
+msgstr "Verklein Skrif tipe"
 
-#: SessionController.cpp:509
+#: SessionController.cpp:498
 #, fuzzy
-#| msgid "Find"
-msgid "Find Next"
-msgstr "Soek"
-
-#: SessionController.cpp:516
-#, fuzzy
-#| msgid "Find Pre&vious"
-msgid "Find Previous"
-msgstr "Soek Vorige"
-
-#: SessionController.cpp:522
-#, fuzzy
-msgid "Save Output..."
+msgid "Save Output As..."
 msgstr "Stoor Geskiedenis"
 
-#: SessionController.cpp:532
+#: SessionController.cpp:506
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear Scrollback and Reset"
 msgstr "Maak skoon Geskiedenis"
 
-#: SessionController.cpp:538
+#: SessionController.cpp:513
 msgid "Edit Current Profile..."
 msgstr ""
 
-#: SessionController.cpp:542
+#: SessionController.cpp:517
 #, fuzzy
 #| msgid "Save Sessions &Profile..."
 msgid "Change Profile"
 msgstr "Stoor Sessies Profiel..."
 
-#: SessionController.cpp:583
+#: SessionController.cpp:558
 msgid "Rename Tab"
 msgstr ""
 
-#: SessionController.cpp:584
+#: SessionController.cpp:559
 msgid "Enter new tab text:"
 msgstr ""
 
-#: SessionController.cpp:627
+#: SessionController.cpp:602
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr ""
 
-#: SessionController.cpp:630
+#: SessionController.cpp:605
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:1188
+#: SessionController.cpp:1163
 #, fuzzy
 #| msgid "&ZModem Upload..."
 msgid "Save ZModem Download to..."
 msgstr "Modem Oplaai..."
 
-#: SessionController.cpp:1197
+#: SessionController.cpp:1172
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1894,7 +1869,7 @@ msgstr ""
 "ZModem sagteware is gevind op die stelsel.\n"
 "<p>Jy mag dalk wens om te installeer die 'rzsz' of 'lrzsz' pakkette.\n"
 
-#: SessionController.cpp:1209
+#: SessionController.cpp:1184
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -1902,7 +1877,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>Die huidige sessie alreeds het 'n ZModem lêer oordrag in vordering."
 
-#: SessionController.cpp:1218
+#: SessionController.cpp:1193
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on the system.\n"
@@ -1914,23 +1889,23 @@ msgstr ""
 "<p>Geen geskikte ZModem sagteware was gevind op die stelsel.\n"
 "<p>Jy mag wens om te installeer die 'rzsz' of 'lrzsz' pakkette.\n"
 
-#: SessionController.cpp:1224
+#: SessionController.cpp:1199
 #, fuzzy
 #| msgid "Select Files to Upload"
 msgid "Select Files for ZModem Upload"
 msgstr "Kies Lêers om op te laai"
 
-#: SessionController.cpp:1296
+#: SessionController.cpp:1271
 #, fuzzy, kde-format
 msgid "Save Output From %1"
 msgstr "Stoor Geskiedenis"
 
-#: SessionController.cpp:1307
+#: SessionController.cpp:1282
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1396
+#: SessionController.cpp:1371
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2177,6 +2152,30 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "Stop"
+
+#, fuzzy
+#~| msgid "Do not display scrollbar"
+#~ msgid "Scrollback"
+#~ msgstr "Doen nie vertoon rolstaaf"
+
+#, fuzzy
+#~ msgid "&Copy"
+#~ msgstr "Bokant"
+
+#, fuzzy
+#~| msgid "Clear &History"
+#~ msgid "Search Output..."
+#~ msgstr "Maak skoon Geskiedenis"
+
+#, fuzzy
+#~| msgid "Find"
+#~ msgid "Find Next"
+#~ msgstr "Soek"
+
+#, fuzzy
+#~| msgid "Find Pre&vious"
+#~ msgid "Find Previous"
+#~ msgstr "Soek Vorige"
 
 #, fuzzy
 #~| msgid "Clear &History"
@@ -2720,9 +2719,6 @@ msgstr "Stop"
 #~ msgid "&Enlarge Font"
 #~ msgstr "Vergroot Skrif tipe"
 
-#~ msgid "&Shrink Font"
-#~ msgstr "Verklein Skrif tipe"
-
 #, fuzzy
 #~ msgid "Default"
 #~ msgstr "Standaard Konsole"
@@ -2823,9 +2819,6 @@ msgstr "Stop"
 
 #~ msgid "Switch to Session %1"
 #~ msgstr "Wissel na Sessie %1"
-
-#~ msgid "Enlarge Font"
-#~ msgstr "Vergroot Skrif tipe"
 
 #~ msgid "Toggle Bidi"
 #~ msgstr "Toggle Bidi"
