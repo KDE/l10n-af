@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-10 04:40+0200\n"
+"POT-Creation-Date: 2010-05-11 05:53+0200\n"
 "PO-Revision-Date: 2005-11-25 05:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1901,11 +1901,11 @@ msgstr "Kies 'n ander lêer naam vir die bestemming lêer."
 msgid "Undocumented Error"
 msgstr "Ongedokumenteerde Fout"
 
-#: kio/renamedialog.cpp:114
+#: kio/renamedialog.cpp:122
 msgid "Appl&y to All"
 msgstr ""
 
-#: kio/renamedialog.cpp:115
+#: kio/renamedialog.cpp:123
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent "
 "folder conflicts for the remainder of the current job.\n"
@@ -1913,44 +1913,44 @@ msgid ""
 "an existing file in the directory."
 msgstr ""
 
-#: kio/renamedialog.cpp:116
+#: kio/renamedialog.cpp:124
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent "
 "conflicts for the remainder of the current job."
 msgstr ""
 
-#: kio/renamedialog.cpp:121
+#: kio/renamedialog.cpp:129
 msgid "&Rename"
 msgstr "Herbenoem"
 
-#: kio/renamedialog.cpp:123
+#: kio/renamedialog.cpp:131
 msgid "Suggest New &Name"
 msgstr "Stel nuwe naam voor"
 
-#: kio/renamedialog.cpp:129
+#: kio/renamedialog.cpp:137
 msgid "&Skip"
 msgstr "Spring"
 
-#: kio/renamedialog.cpp:130
+#: kio/renamedialog.cpp:138
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
 
-#: kio/renamedialog.cpp:131
+#: kio/renamedialog.cpp:139
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
 
-#: kio/renamedialog.cpp:136
+#: kio/renamedialog.cpp:144
 #, fuzzy
 #| msgid "Write"
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
 msgstr "Skryf"
 
-#: kio/renamedialog.cpp:136
+#: kio/renamedialog.cpp:144
 msgid "&Overwrite"
 msgstr "Oorskryf"
 
-#: kio/renamedialog.cpp:138
+#: kio/renamedialog.cpp:146
 msgid ""
 "Files and folders will be copied into the existing directory, alongside its "
 "existing contents.\n"
@@ -1958,11 +1958,11 @@ msgid ""
 "the directory."
 msgstr ""
 
-#: kio/renamedialog.cpp:143
+#: kio/renamedialog.cpp:151
 msgid "&Resume"
 msgstr "Voortgaan"
 
-#: kio/renamedialog.cpp:152
+#: kio/renamedialog.cpp:160
 #, kde-format
 msgid ""
 "This action would overwrite '%1' with itself.\n"
@@ -1971,47 +1971,66 @@ msgstr ""
 "Hierdie aksie sal '%1' met homself oorskryf.\n"
 "Sleutel 'n nuwe lêernaam in:"
 
-#: kio/renamedialog.cpp:154
+#: kio/renamedialog.cpp:162
 msgid "C&ontinue"
 msgstr "Gaan voort"
 
-#: kio/renamedialog.cpp:199 kio/renamedialog.cpp:281
+#: kio/renamedialog.cpp:234
+#, fuzzy, kde-format
+#| msgid ""
+#| "This action would overwrite '%1' with itself.\n"
+#| "Please enter a new file name:"
+msgid "This action will overwrite '%1' with a newer file '%2'."
+msgstr ""
+"Hierdie aksie sal '%1' met homself oorskryf.\n"
+"Sleutel 'n nuwe lêernaam in:"
+
+#: kio/renamedialog.cpp:236
+#, fuzzy, kde-format
+#| msgid ""
+#| "This action would overwrite '%1' with itself.\n"
+#| "Please enter a new file name:"
+msgid "This action will overwrite '%1' with a file of the same age '%2'."
+msgstr ""
+"Hierdie aksie sal '%1' met homself oorskryf.\n"
+"Sleutel 'n nuwe lêernaam in:"
+
+#: kio/renamedialog.cpp:238
+#, fuzzy, kde-format
+#| msgid ""
+#| "This action would overwrite '%1' with itself.\n"
+#| "Please enter a new file name:"
+msgid "This action will overwrite '%1' with an older file '%2'."
+msgstr ""
+"Hierdie aksie sal '%1' met homself oorskryf.\n"
+"Sleutel 'n nuwe lêernaam in:"
+
+#: kio/renamedialog.cpp:242
+#, fuzzy
+msgid "Source"
+msgstr "Bron:"
+
+#: kio/renamedialog.cpp:243
+#, fuzzy
+msgid "Destination"
+msgstr "Bestemming:"
+
+#: kio/renamedialog.cpp:261
 #, kde-format
 msgid "An older item named '%1' already exists."
 msgstr "'n ouer item genaamd '%1' alreeds bestaan."
 
-#: kio/renamedialog.cpp:201 kio/renamedialog.cpp:283
+#: kio/renamedialog.cpp:263
 #, kde-format
 msgid "A similar file named '%1' already exists."
 msgstr "'n soortgelyk lêer genaamd '%1' alreeds bestaan."
 
-#: kio/renamedialog.cpp:203 kio/renamedialog.cpp:285
+#: kio/renamedialog.cpp:265
 #, kde-format
 msgid "A newer item named '%1' already exists."
 msgstr "'n nuwer item genaamd '%1' alreeds bestaan."
 
-#: kio/renamedialog.cpp:216 kio/renamedialog.cpp:253
-#, fuzzy, kde-format
-#| msgid "%1 (%2)"
-msgid "size %1 (%2)"
-msgstr "%1 (%2)"
-
-#: kio/renamedialog.cpp:225 kio/renamedialog.cpp:261
-#, kde-format
-msgid "created on %1"
-msgstr "geskep op %1"
-
-#: kio/renamedialog.cpp:232 kio/renamedialog.cpp:268
-#, kde-format
-msgid "modified on %1"
-msgstr "veranderde op %1"
-
-#: kio/renamedialog.cpp:241
-#, kde-format
-msgid "The source file is '%1'"
-msgstr "Die bron lêer is '%1'"
-
-#: kio/renamedialog.cpp:407 kio/paste.cpp:228 kio/krun.cpp:1095
+#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1095
 #: kio/kdirlister.cpp:329
 #, kde-format
 msgid ""
@@ -5792,116 +5811,116 @@ msgstr "Verwyder al die koekies"
 msgid "Reload configuration file"
 msgstr "Herlaai die opstelling lêer"
 
-#: ../kioslave/http/http.cpp:561
+#: ../kioslave/http/http.cpp:566
 msgid "No host specified."
 msgstr "Geen bediener gespesifiseer."
 
-#: ../kioslave/http/http.cpp:1428
+#: ../kioslave/http/http.cpp:1441
 #, fuzzy
 #| msgid "The specified resource may not exist."
 msgid "The resource cannot be deleted."
 msgstr "Die gespesifiseer hulpbron dalk mag nie bestaan."
 
-#: ../kioslave/http/http.cpp:1549
+#: ../kioslave/http/http.cpp:1562
 msgid "Otherwise, the request would have succeeded."
 msgstr "Andersins, die versoek sal het geslaag."
 
-#: ../kioslave/http/http.cpp:1553
+#: ../kioslave/http/http.cpp:1566
 #, fuzzy
 #| msgid "retrieve property values"
 msgctxt "request type"
 msgid "retrieve property values"
 msgstr "onttrek eienskap waardes"
 
-#: ../kioslave/http/http.cpp:1556
+#: ../kioslave/http/http.cpp:1569
 #, fuzzy
 #| msgid "set property values"
 msgctxt "request type"
 msgid "set property values"
 msgstr "stel eienskap waardes"
 
-#: ../kioslave/http/http.cpp:1559
+#: ../kioslave/http/http.cpp:1572
 #, fuzzy
 #| msgid "create the requested folder"
 msgctxt "request type"
 msgid "create the requested folder"
 msgstr "skep die aangevraagde gids"
 
-#: ../kioslave/http/http.cpp:1562
+#: ../kioslave/http/http.cpp:1575
 #, fuzzy
 #| msgid "copy the specified file or folder"
 msgctxt "request type"
 msgid "copy the specified file or folder"
 msgstr "kopiëer die gespesifiseerde lêer of gids"
 
-#: ../kioslave/http/http.cpp:1565
+#: ../kioslave/http/http.cpp:1578
 #, fuzzy
 #| msgid "move the specified file or folder"
 msgctxt "request type"
 msgid "move the specified file or folder"
 msgstr "skuif die gespesifiseerde lêer of gids"
 
-#: ../kioslave/http/http.cpp:1568
+#: ../kioslave/http/http.cpp:1581
 #, fuzzy
 #| msgid "search in the specified folder"
 msgctxt "request type"
 msgid "search in the specified folder"
 msgstr "soek in die gespesifiseerde gids"
 
-#: ../kioslave/http/http.cpp:1571
+#: ../kioslave/http/http.cpp:1584
 #, fuzzy
 #| msgid "lock the specified file or folder"
 msgctxt "request type"
 msgid "lock the specified file or folder"
 msgstr "sluit die gespesifiseerde lêer of gids"
 
-#: ../kioslave/http/http.cpp:1574
+#: ../kioslave/http/http.cpp:1587
 #, fuzzy
 #| msgid "unlock the specified file or folder"
 msgctxt "request type"
 msgid "unlock the specified file or folder"
 msgstr "sluit die gespesifiseerde lêer of gids oop"
 
-#: ../kioslave/http/http.cpp:1577
+#: ../kioslave/http/http.cpp:1590
 #, fuzzy
 #| msgid "delete the specified file or folder"
 msgctxt "request type"
 msgid "delete the specified file or folder"
 msgstr "vee die gespesifiseerde lêer of gids uit"
 
-#: ../kioslave/http/http.cpp:1580
+#: ../kioslave/http/http.cpp:1593
 #, fuzzy
 #| msgid "query the server's capabilities"
 msgctxt "request type"
 msgid "query the server's capabilities"
 msgstr "navraag vir die bediener se vermoë"
 
-#: ../kioslave/http/http.cpp:1583
+#: ../kioslave/http/http.cpp:1596
 #, fuzzy
 #| msgid "retrieve the contents of the specified file or folder"
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
 msgstr "onttrek die inhoud van die gespesifiseerde lêer of gids"
 
-#: ../kioslave/http/http.cpp:1586
+#: ../kioslave/http/http.cpp:1599
 #, fuzzy
 #| msgid "search in the specified folder"
 msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr "soek in die gespesifiseerde gids"
 
-#: ../kioslave/http/http.cpp:1598
+#: ../kioslave/http/http.cpp:1611
 #, fuzzy, kde-format
 #| msgid "An unexpected error (%1) occurred while attempting to %2."
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "'n onverwagte fout (%1) voorgekom terwyl probeer na %2."
 
-#: ../kioslave/http/http.cpp:1606
+#: ../kioslave/http/http.cpp:1619
 msgid "The server does not support the WebDAV protocol."
 msgstr "Die bediener doen nie ondersteun Die Webdav protokol."
 
-#: ../kioslave/http/http.cpp:1648
+#: ../kioslave/http/http.cpp:1661
 #, fuzzy, kde-format
 #| msgid ""
 #| "An error occurred while attempting to %1, %2. A summary of the reasons is "
@@ -5914,18 +5933,18 @@ msgstr ""
 "'n fout voorgekom terwyl probeer na %1, %2. 'n opsomming van die redes is "
 "onder.<ul>"
 
-#: ../kioslave/http/http.cpp:1662 ../kioslave/http/http.cpp:1767
+#: ../kioslave/http/http.cpp:1675 ../kioslave/http/http.cpp:1780
 #, fuzzy, kde-format
 #| msgid "Access was denied while attempting to %1."
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
 msgstr "Toegang verkry was verbied terwyl probeer na %1."
 
-#: ../kioslave/http/http.cpp:1669
+#: ../kioslave/http/http.cpp:1682
 msgid "The specified folder already exists."
 msgstr "Die gespesifiseerde gids bestaan alreeds."
 
-#: ../kioslave/http/http.cpp:1675 ../kioslave/http/http.cpp:1772
+#: ../kioslave/http/http.cpp:1688 ../kioslave/http/http.cpp:1785
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
@@ -5933,7 +5952,7 @@ msgstr ""
 "'n Hulpbron kan nie geskep word by die bestemming voordat een of meer "
 "tussengangers (gidse) geskep is nie."
 
-#: ../kioslave/http/http.cpp:1684
+#: ../kioslave/http/http.cpp:1697
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -5944,27 +5963,27 @@ msgstr ""
 "gelys in Die eienskappe-gedrag Xml element of jy het probeer om na oorskryf "
 "'n lêer terwyl versoek wat lêers word nie oorskryf word. %1"
 
-#: ../kioslave/http/http.cpp:1694
+#: ../kioslave/http/http.cpp:1707
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr "Die versoekte sluit kon nie wees toegestaan. %1"
 
-#: ../kioslave/http/http.cpp:1700
+#: ../kioslave/http/http.cpp:1713
 msgid "The server does not support the request type of the body."
 msgstr "Die bediener doen nie ondersteun Die versoek tipe van Die liggaam."
 
-#: ../kioslave/http/http.cpp:1705 ../kioslave/http/http.cpp:1779
+#: ../kioslave/http/http.cpp:1718 ../kioslave/http/http.cpp:1792
 #, fuzzy, kde-format
 #| msgid "Unable to %1 because the resource is locked."
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
 msgstr "Nie moontlik na %1 omdat die hulpbron is geslote."
 
-#: ../kioslave/http/http.cpp:1709
+#: ../kioslave/http/http.cpp:1722
 msgid "This action was prevented by another error."
 msgstr "Hierdie aksie was verhoed deur nog 'n fout."
 
-#: ../kioslave/http/http.cpp:1716 ../kioslave/http/http.cpp:1784
+#: ../kioslave/http/http.cpp:1729 ../kioslave/http/http.cpp:1797
 #, fuzzy, kde-format
 #| msgid ""
 #| "Unable to %1 because the destination server refuses to accept the file or "
@@ -5977,7 +5996,7 @@ msgstr ""
 "Kon nie %1 nie, want die bestemming bediener weier om die lêer of gids te "
 "aanvaar."
 
-#: ../kioslave/http/http.cpp:1723 ../kioslave/http/http.cpp:1790
+#: ../kioslave/http/http.cpp:1736 ../kioslave/http/http.cpp:1803
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
@@ -5985,85 +6004,40 @@ msgstr ""
 "Die bestemming hulpbron doen nie het voldoende spasie na opneem Die staat "
 "van Die hulpbron na Die uitvoering van hierdie metode."
 
-#: ../kioslave/http/http.cpp:1745
+#: ../kioslave/http/http.cpp:1758
 #, fuzzy, kde-format
 #| msgid "upload %1"
 msgctxt "request type"
 msgid "upload %1"
 msgstr "Laai %1 op"
 
-#: ../kioslave/http/http.cpp:1756
+#: ../kioslave/http/http.cpp:1769
 #, fuzzy, kde-format
 #| msgid "An unexpected error (%1) occurred while attempting to %2."
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "'n onverwagte fout (%1) voorgekom terwyl probeer na %2."
 
-#: ../kioslave/http/http.cpp:2507
+#: ../kioslave/http/http.cpp:2527
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 gekontak. Wag vir antwoord..."
 
-#: ../kioslave/http/http.cpp:2869
+#: ../kioslave/http/http.cpp:2885
 msgid "Server processing request, please wait..."
 msgstr "Bediener verwerk versoek, wag asseblief..."
 
-#: ../kioslave/http/http.cpp:3253
-msgid "Authentication Failed."
-msgstr "Geldigheidsverklaring Gevaal."
-
-#: ../kioslave/http/http.cpp:3254 ../kioslave/http/http.cpp:4937
-msgid "Proxy Authentication Failed."
-msgstr "Volmag Geldigheidsverklaring Gevaal."
-
-#: ../kioslave/http/http.cpp:3289
-#, fuzzy
-#| msgid "Authorization Dialog"
-msgid "Authorization failed."
-msgstr "Geldigheidstoets Dialoog"
-
-#: ../kioslave/http/http.cpp:3305
-#, fuzzy
-#| msgid "Authorization Dialog"
-msgid "Unknown Authorization method."
-msgstr "Geldigheidstoets Dialoog"
-
-#: ../kioslave/http/http.cpp:3690
-msgid "Requesting data to send"
-msgstr "Vra data aan om te stuur"
-
-#: ../kioslave/http/http.cpp:3722
-#, kde-format
-msgid "Sending data to %1"
-msgstr "Stuur data na %1"
-
-#: ../kioslave/http/http.cpp:4139
-#, kde-format
-msgid "Retrieving %1 from %2..."
-msgstr "Onttrek %1 van %2..."
-
-#: ../kioslave/http/http.cpp:4145
-#, kde-format
-msgid "Retrieving from %1..."
-msgstr "Onttrek data vanaf %1..."
-
-#: ../kioslave/http/http.cpp:4862 ../kioslave/ftp/ftp.cpp:477
+#: ../kioslave/http/http.cpp:3230 ../kioslave/ftp/ftp.cpp:477
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Jy mout 'n gebruikernaam en wagwoord verskaf om toegang te verkry tot "
 "hierdie tuiste."
 
-#: ../kioslave/http/http.cpp:4869 ../kioslave/ftp/ftp.cpp:479
+#: ../kioslave/http/http.cpp:3232 ../kioslave/ftp/ftp.cpp:479
 msgid "Site:"
 msgstr "Tuiste:"
 
-#: ../kioslave/http/http.cpp:4870 ../kioslave/http/http.cpp:4886
-#: ../kioslave/http/http.cpp:4936
-#, kde-format
-msgid "<b>%1</b> at <b>%2</b>"
-msgstr "<b>%1</b> na <b>%2</b>"
-
-#: ../kioslave/http/http.cpp:4877 ../kioslave/http/http.cpp:4931
+#: ../kioslave/http/http.cpp:3242 ../kioslave/http/http.cpp:4996
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -6071,9 +6045,53 @@ msgstr ""
 "Jy moet 'n gebruikernaam en wagwoord vir die volmag bediener wat hier onder "
 "vertoon word verskaf voordat toegang na die tuistes verleen sal word."
 
-#: ../kioslave/http/http.cpp:4885 ../kioslave/http/http.cpp:4935
+#: ../kioslave/http/http.cpp:3245 ../kioslave/http/http.cpp:5000
 msgid "Proxy:"
 msgstr "Volmag:"
+
+#: ../kioslave/http/http.cpp:3301 ../kioslave/http/http.cpp:5001
+#, kde-format
+msgid "<b>%1</b> at <b>%2</b>"
+msgstr "<b>%1</b> na <b>%2</b>"
+
+#: ../kioslave/http/http.cpp:3314
+msgid "Authentication Failed."
+msgstr "Geldigheidsverklaring Gevaal."
+
+#: ../kioslave/http/http.cpp:3316 ../kioslave/http/http.cpp:5002
+msgid "Proxy Authentication Failed."
+msgstr "Volmag Geldigheidsverklaring Gevaal."
+
+#: ../kioslave/http/http.cpp:3353
+#, fuzzy
+#| msgid "Authorization Dialog"
+msgid "Authorization failed."
+msgstr "Geldigheidstoets Dialoog"
+
+#: ../kioslave/http/http.cpp:3370
+#, fuzzy
+#| msgid "Authorization Dialog"
+msgid "Unknown Authorization method."
+msgstr "Geldigheidstoets Dialoog"
+
+#: ../kioslave/http/http.cpp:3750
+msgid "Requesting data to send"
+msgstr "Vra data aan om te stuur"
+
+#: ../kioslave/http/http.cpp:3782
+#, kde-format
+msgid "Sending data to %1"
+msgstr "Stuur data na %1"
+
+#: ../kioslave/http/http.cpp:4199
+#, kde-format
+msgid "Retrieving %1 from %2..."
+msgstr "Onttrek %1 van %2..."
+
+#: ../kioslave/http/http.cpp:4205
+#, kde-format
+msgid "Retrieving from %1..."
+msgstr "Onttrek data vanaf %1..."
 
 #: ../kioslave/http/http_cache_cleaner.cpp:728
 #: ../kioslave/http/http_cache_cleaner.cpp:729
@@ -7075,6 +7093,20 @@ msgstr "'n onverwagte fout (%1) voorgekom terwyl probeer na %2."
 #| msgid "Show Hidden Folders"
 msgid "Show Hidden Folders"
 msgstr "Vertoon weg gesteekte gidse"
+
+#, fuzzy
+#~| msgid "%1 (%2)"
+#~ msgid "size %1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "created on %1"
+#~ msgstr "geskep op %1"
+
+#~ msgid "modified on %1"
+#~ msgstr "veranderde op %1"
+
+#~ msgid "The source file is '%1'"
+#~ msgstr "Die bron lêer is '%1'"
 
 #, fuzzy
 #~| msgid "Move to Trash"
