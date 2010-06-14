@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-13 04:51+0200\n"
+"POT-Creation-Date: 2010-06-14 05:29+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1837,7 +1837,7 @@ msgid "&Delete Episode"
 msgstr "Skrap &Gids"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:251
-#: browsers/filebrowser/FileView.cpp:470
+#: browsers/filebrowser/FileView.cpp:513
 #: playlistmanager/file/PlaylistFileProvider.cpp:326
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:239
 msgid "Confirm Delete"
@@ -2391,7 +2391,7 @@ msgctxt "Load the view represented by this bookmark"
 msgid "&Load"
 msgstr "&Laai"
 
-#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:335
+#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:380
 msgid "&Delete"
 msgstr "&Skrap"
 
@@ -2470,9 +2470,11 @@ msgstr "van <b>%1</b>"
 msgid "No track playing"
 msgstr "Geen snit speel tans"
 
-#: browsers/BrowserCategoryList.cpp:46
-msgid "Filter Music Sources"
-msgstr "Filter Musiek Bronne"
+#: browsers/BrowserBreadcrumbItem.cpp:64
+#, fuzzy
+#| msgid "Media Sources"
+msgid "Media Sources Home"
+msgstr "Media Bronne"
 
 #: browsers/collectionbrowser/CollectionTreeItemDelegate.cpp:177
 #, kde-format
@@ -2535,7 +2537,7 @@ msgstr "Vlak Een"
 #: browsers/collectionbrowser/CollectionWidget.cpp:166
 #: browsers/collectionbrowser/CollectionWidget.cpp:203
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:248
-#: browsers/CollectionTreeItemModelBase.cpp:1052
+#: browsers/CollectionTreeItemModelBase.cpp:1054
 #: context/applets/wikipedia/WikipediaApplet.cpp:121
 #: dialogs/transferdialog.cpp:88 dialogs/FilenameLayoutDialog.cpp:220
 #: dialogs/FilenameLayoutDialog.cpp:564 dialogs/EditFilterDialog.cpp:276
@@ -2554,8 +2556,8 @@ msgstr "Kunstenaar"
 #: browsers/collectionbrowser/CollectionWidget.cpp:169
 #: browsers/collectionbrowser/CollectionWidget.cpp:206
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:250
-#: browsers/CollectionTreeView.cpp:214
-#: browsers/CollectionTreeItemModelBase.cpp:1051
+#: browsers/CollectionTreeView.cpp:224
+#: browsers/CollectionTreeItemModelBase.cpp:1053
 #: context/applets/albums/AlbumsView.cpp:125
 #: context/applets/wikipedia/WikipediaApplet.cpp:128
 #: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:232
@@ -2574,7 +2576,7 @@ msgstr "Album"
 #: browsers/collectionbrowser/CollectionWidget.cpp:172
 #: browsers/collectionbrowser/CollectionWidget.cpp:209
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:252
-#: browsers/CollectionTreeItemModelBase.cpp:1054 dialogs/transferdialog.cpp:90
+#: browsers/CollectionTreeItemModelBase.cpp:1056 dialogs/transferdialog.cpp:90
 #: dialogs/FilenameLayoutDialog.cpp:240 dialogs/FilenameLayoutDialog.cpp:599
 #: dialogs/EditFilterDialog.cpp:284 dialogs/EditFilterDialog.cpp:447
 #: playlist/PlaylistModel.cpp:656 playlist/ProgressiveSearchWidget.cpp:98
@@ -2589,7 +2591,7 @@ msgstr "Genre"
 #: browsers/collectionbrowser/CollectionWidget.cpp:175
 #: browsers/collectionbrowser/CollectionWidget.cpp:212
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:249
-#: browsers/CollectionTreeItemModelBase.cpp:1053
+#: browsers/CollectionTreeItemModelBase.cpp:1055
 #: dialogs/FilenameLayoutDialog.cpp:224 dialogs/FilenameLayoutDialog.cpp:571
 #: dialogs/EditFilterDialog.cpp:280 dialogs/EditFilterDialog.cpp:442
 #: playlist/PlaylistModel.cpp:650 widgets/SmartPlaylistEditor.cpp:183
@@ -2602,7 +2604,7 @@ msgstr "Komponis"
 #: browsers/collectionbrowser/CollectionWidget.cpp:144
 #: browsers/collectionbrowser/CollectionWidget.cpp:178
 #: browsers/collectionbrowser/CollectionWidget.cpp:215
-#: browsers/CollectionTreeItemModelBase.cpp:1056
+#: browsers/CollectionTreeItemModelBase.cpp:1058
 #: dialogs/EditFilterDialog.cpp:288 dialogs/EditFilterDialog.cpp:467
 #: widgets/SmartPlaylistEditor.cpp:187 widgets/SmartPlaylistEditor.cpp:197
 #: rc.cpp:1375
@@ -2663,30 +2665,7 @@ msgstr ""
 "Dit is waar jy jou plaaslike musiek sal vind, sowel as musiek van draagbare "
 "media spelers en CDs."
 
-#: browsers/filebrowser/FileBrowser.cpp:52
-msgctxt "Go one level up in the directory hierarchy"
-msgid "Up one level"
-msgstr ""
-
-#: browsers/filebrowser/FileBrowser.cpp:57
-#, fuzzy
-#| msgid "Home"
-msgctxt "Go to the home directory"
-msgid "Home"
-msgstr "Tuis"
-
-#: browsers/filebrowser/FileBrowser.cpp:61
-#, fuzzy
-#| msgid "Patches"
-msgctxt "Show Dolphin Places the user configured"
-msgid "Places"
-msgstr "Verbeteringe"
-
-#: browsers/filebrowser/FileBrowser.cpp:66
-msgid "Filter Files"
-msgstr "Filter Lêers"
-
-#: browsers/filebrowser/FileBrowser.cpp:113
+#: browsers/filebrowser/FileBrowser.cpp:45
 msgid ""
 "The file browser lets you browse files anywhere on your system, regardless "
 "of whether these files are part of your local collection. You can then add "
@@ -2696,46 +2675,69 @@ msgstr ""
 "dié lêers deel uitmaak van jou plaaslike versameling. Jy kan dié lêers dan "
 "by die speellys voeg en ander basiese lêer take uitvoer."
 
-#: browsers/filebrowser/FileBrowser.cpp:321 browsers/InfoProxy.cpp:164
+#: browsers/filebrowser/FileBrowser.cpp:55
+msgctxt "Go one level up in the directory hierarchy"
+msgid "Up one level"
+msgstr ""
+
+#: browsers/filebrowser/FileBrowser.cpp:60
+#, fuzzy
+#| msgid "Home"
+msgctxt "Go to the home directory"
 msgid "Home"
 msgstr "Tuis"
 
-#: browsers/filebrowser/FileBrowser.cpp:439
+#: browsers/filebrowser/FileBrowser.cpp:64
+#, fuzzy
+#| msgid "Patches"
+msgctxt "Show Dolphin Places the user configured"
+msgid "Places"
+msgstr "Verbeteringe"
+
+#: browsers/filebrowser/FileBrowser.cpp:69
+msgid "Filter Files"
+msgstr "Filter Lêers"
+
+#: browsers/filebrowser/FileBrowser.cpp:327 browsers/InfoProxy.cpp:164
+msgid "Home"
+msgstr "Tuis"
+
+#: browsers/filebrowser/FileBrowser.cpp:445
 #, fuzzy
 #| msgid "Patches"
 msgid "Places"
 msgstr "Verbeteringe"
 
-#: browsers/filebrowser/FileView.cpp:127 browsers/CollectionTreeView.cpp:253
+#: browsers/filebrowser/FileView.cpp:119 browsers/CollectionTreeView.cpp:263
 msgid "Move to Collection"
 msgstr "Skuif na Versameling"
 
-#: browsers/filebrowser/FileView.cpp:136 browsers/CollectionTreeView.cpp:245
+#: browsers/filebrowser/FileView.cpp:128 browsers/CollectionTreeView.cpp:255
 msgid "Copy to Collection"
 msgstr "Kopieer na Versameling"
 
-#: browsers/filebrowser/FileView.cpp:300
+#: browsers/filebrowser/FileView.cpp:345
 #: browsers/playlistbrowser/MetaPlaylistModel.cpp:41
-#: browsers/CollectionTreeView.cpp:799
+#: browsers/CollectionTreeView.cpp:813
 #: context/applets/albums/AlbumsView.cpp:110
 #: services/lastfm/LastFmTreeView.cpp:112 TrayIconLegacy.cpp:218
 msgid "&Add to Playlist"
 msgstr "&Voeg by Speellys"
 
-#: browsers/filebrowser/FileView.cpp:309
+#: browsers/filebrowser/FileView.cpp:354
 #: browsers/playlistbrowser/MetaPlaylistModel.cpp:48
-#: browsers/CollectionTreeView.cpp:808
+#: browsers/CollectionTreeView.cpp:822
 #: context/applets/albums/AlbumsView.cpp:111
 #: services/lastfm/LastFmTreeView.cpp:121
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
 msgstr "Vervang Speellys"
 
-#: browsers/filebrowser/FileView.cpp:318 browsers/CollectionTreeView.cpp:827
+#: browsers/filebrowser/FileView.cpp:363 browsers/CollectionTreeView.cpp:841
 msgid "&Edit Track Details"
 msgstr "Wysig Snit Besonderhede"
 
-#: browsers/filebrowser/FileView.cpp:472
+#: browsers/filebrowser/FileView.cpp:515
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to delete this playlist?"
 #| msgid_plural "Are you sure you want to delete these %1 playlists?"
@@ -2744,7 +2746,7 @@ msgid_plural "Are you sure you want to delete these %1 items?"
 msgstr[0] "Is jy seker jy wil hierdie speellys skrap?"
 msgstr[1] "Is jy seker jy wil hierdie %1 speellys lêers skrap?"
 
-#: browsers/filebrowser/FileView.cpp:477
+#: browsers/filebrowser/FileView.cpp:520
 #: playlistmanager/file/PlaylistFileProvider.cpp:333
 msgid "Yes, delete from disk."
 msgstr "Ja, verwyder van die skyf"
@@ -2864,7 +2866,7 @@ msgstr "Pas:"
 #. i18n: ectx: property (text), item, widget (KComboBox, keywordCombo)
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:253
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:693
-#: browsers/CollectionTreeItemModelBase.cpp:1055
+#: browsers/CollectionTreeItemModelBase.cpp:1057
 #: dialogs/FilenameLayoutDialog.cpp:228 dialogs/FilenameLayoutDialog.cpp:578
 #: dialogs/EditFilterDialog.cpp:220 playlist/PlaylistModel.cpp:651
 #: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:197
@@ -3252,9 +3254,9 @@ msgstr ""
 "bronne besigtig. Amarok word verskeep met 'n aantal bronne, maar veel meer "
 "kan bygevoeg word met skripte."
 
-#: browsers/BrowserBreadcrumbWidget.cpp:57
-msgid "Click For Location Navigation"
-msgstr ""
+#: browsers/BrowserCategoryList.cpp:46
+msgid "Filter Music Sources"
+msgstr "Filter Musiek Bronne"
 
 #: browsers/CollectionTreeItem.cpp:170
 msgctxt "The Name is not known"
@@ -3280,32 +3282,30 @@ msgid_plural "%1 tracks"
 msgstr[0] "1 snit"
 msgstr[1] "%1 snitte"
 
-#: browsers/CollectionTreeView.cpp:228 configdialog/ConfigDialog.cpp:56
+#: browsers/BrowserBreadcrumbWidget.cpp:59
+msgid "Click For Location Navigation"
+msgstr ""
+
+#: browsers/CollectionTreeView.cpp:238 configdialog/ConfigDialog.cpp:56
 msgid "Collection"
 msgstr "Versameling"
 
-#: browsers/CollectionTreeView.cpp:512 services/lastfm/LastFmTreeView.cpp:202
+#: browsers/CollectionTreeView.cpp:522 services/lastfm/LastFmTreeView.cpp:202
 msgid "More..."
 msgstr "Nog..."
 
-#: browsers/CollectionTreeView.cpp:862
+#: browsers/CollectionTreeView.cpp:876
 msgctxt "Organize Files"
 msgid "Organize Files"
 msgstr "Organiseer Lêers"
 
-#: browsers/CollectionTreeView.cpp:1045
+#: browsers/CollectionTreeView.cpp:1059
 msgid "Delete Tracks"
 msgstr "Skrap Snitte"
 
 #: browsers/BrowserWidget.cpp:45
 msgid "Previous Browser"
 msgstr "Vorige Blaaier"
-
-#: browsers/BrowserBreadcrumbItem.cpp:64
-#, fuzzy
-#| msgid "Media Sources"
-msgid "Media Sources Home"
-msgstr "Media Bronne"
 
 #: browsers/CollectionTreeItemModelBase.cpp:588
 #: dialogs/EditFilterDialog.cpp:435
@@ -3420,27 +3420,27 @@ msgctxt "last played time / access date"
 msgid "played"
 msgstr "Laas gespeel"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1051
+#: browsers/CollectionTreeItemModelBase.cpp:1053
 msgid "Year - Album"
 msgstr "Jaar - Album"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1125
+#: browsers/CollectionTreeItemModelBase.cpp:1127
 msgid "today"
 msgstr "vandag"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1127
+#: browsers/CollectionTreeItemModelBase.cpp:1129
 msgid "last week"
 msgstr "verlede week"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1129
+#: browsers/CollectionTreeItemModelBase.cpp:1131
 msgid "last month"
 msgstr "verlede maand"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1131
+#: browsers/CollectionTreeItemModelBase.cpp:1133
 msgid "two months ago"
 msgstr "twee maande gelede"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1133
+#: browsers/CollectionTreeItemModelBase.cpp:1135
 msgid "three months ago"
 msgstr "drie maande gelede"
 
@@ -3525,26 +3525,6 @@ msgid_plural "%1 tracks"
 msgstr[0] "%1 snit"
 msgstr[1] "%1 snitte"
 
-#: context/applets/albums/Albums.cpp:67
-#: context/engines/current/CurrentEngine.cpp:139
-msgid "Recently added albums"
-msgstr "Onlangs bygevoegde albums"
-
-#: context/applets/albums/Albums.cpp:173
-#, kde-format
-msgid "Disc %1"
-msgstr "Skyf %1"
-
-#: context/applets/albums/Albums.cpp:235
-#, fuzzy
-#| msgid "Recently added albums"
-msgid "Number of recently added albums:"
-msgstr "Onlangs bygevoegde albums"
-
-#: context/applets/albums/Albums.cpp:240
-msgid "Albums Applet Settings"
-msgstr ""
-
 #: context/applets/albums/AlbumsView.cpp:112
 #: context/applets/videoclip/VideoItemButton.cpp:97
 msgid "&Queue"
@@ -3554,6 +3534,26 @@ msgstr "Wagtou"
 #: playlist/view/PlaylistViewCommon.cpp:244
 msgid "Edit Track Details"
 msgstr "Wysig Snit Besonderhede"
+
+#: context/applets/albums/Albums.cpp:67
+#: context/engines/current/CurrentEngine.cpp:139
+msgid "Recently added albums"
+msgstr "Onlangs bygevoegde albums"
+
+#: context/applets/albums/Albums.cpp:184
+#, kde-format
+msgid "Disc %1"
+msgstr "Skyf %1"
+
+#: context/applets/albums/Albums.cpp:246
+#, fuzzy
+#| msgid "Recently added albums"
+msgid "Number of recently added albums:"
+msgstr "Onlangs bygevoegde albums"
+
+#: context/applets/albums/Albums.cpp:251
+msgid "Albums Applet Settings"
+msgstr ""
 
 #: context/applets/currenttrack/CurrentTrack.cpp:86
 msgctxt "What artist is this track by"
