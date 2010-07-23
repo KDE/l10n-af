@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-21 05:20+0200\n"
+"POT-Creation-Date: 2010-07-23 05:24+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -3323,16 +3323,6 @@ msgstr "Weier vertoning in Verskeie Kunstenaars"
 msgid "Show under Various Artists"
 msgstr "Vertoon in Verskeie Kunstenaars"
 
-#: core-impl/collections/sqlcollection/ScanResultProcessor.cpp:208
-msgctxt "Front cover of an album"
-msgid "front"
-msgstr "voorkant"
-
-#: core-impl/collections/sqlcollection/ScanResultProcessor.cpp:216
-msgctxt "(Front) Cover of an album"
-msgid "cover"
-msgstr "omslag"
-
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:21
 #. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
 #: core-impl/collections/sqlcollection/SqlCollectionFactory.cpp:107
@@ -3383,19 +3373,6 @@ msgstr "Speel tans: %1"
 msgid "Imported Playlist Files"
 msgstr "Ingevoerde Speellys Lêers"
 
-#. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:90
-#. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: core-impl/collections/sqlcollection/SqlMeta.cpp:230 rc.cpp:2717
-msgid "Stream"
-msgstr "Stroom"
-
-#: core-impl/collections/sqlcollection/SqlMeta.cpp:243
-#: covermanager/CoverManager.cpp:845 covermanager/CoverViewDialog.h:44
-#: services/lastfm/meta/LastFmMeta.cpp:138
-#, kde-format
-msgid "%1 - %2"
-msgstr "%1 - %2"
-
 #: core-impl/collections/sqlcollection/ScanManager.cpp:547
 msgid ""
 "<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors were "
@@ -3411,6 +3388,29 @@ msgstr "Versameling Skandeer Fout"
 #: core-impl/collections/sqlcollection/ScanManager.cpp:669
 msgid "Scanning music"
 msgstr "Skandeer musiek"
+
+#: core-impl/collections/sqlcollection/ScanResultProcessor.cpp:211
+msgctxt "Front cover of an album"
+msgid "front"
+msgstr "voorkant"
+
+#: core-impl/collections/sqlcollection/ScanResultProcessor.cpp:219
+msgctxt "(Front) Cover of an album"
+msgid "cover"
+msgstr "omslag"
+
+#. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:90
+#. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
+#: core-impl/collections/sqlcollection/SqlMeta.cpp:231 rc.cpp:2717
+msgid "Stream"
+msgstr "Stroom"
+
+#: core-impl/collections/sqlcollection/SqlMeta.cpp:244
+#: covermanager/CoverManager.cpp:845 covermanager/CoverViewDialog.h:44
+#: services/lastfm/meta/LastFmMeta.cpp:138
+#, kde-format
+msgid "%1 - %2"
+msgstr "%1 - %2"
 
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:40
 #, kde-format
@@ -4636,64 +4636,6 @@ msgstr ""
 "Vele dubbelsinnige pasmaats vir <b><font color='red'>%1</font></b> gevind en "
 "verwerp"
 
-#: dialogs/EqualizerDialog.cpp:45
-msgid "Configure Equalizer"
-msgstr "Band Menger Opstel"
-
-#: dialogs/EqualizerDialog.cpp:79
-msgid "Sorry, equalizer is not supported by your Phonon version."
-msgstr ""
-"Jammer, band menger ondersteuning ontbreek in hierdie weergawe van Phonon."
-
-#: dialogs/EqualizerDialog.cpp:146 dialogs/EqualizerDialog.cpp:236
-#: dialogs/EqualizerDialog.cpp:288
-msgctxt "Equalizer state, as in, disabled"
-msgid "Off"
-msgstr "Af"
-
-#: dialogs/EqualizerDialog.cpp:244
-msgid "Cannot delete this preset"
-msgstr "Kan nie hierdie voorafinstelling skrap nie"
-
-#: dialogs/EqualizerDialog.cpp:245
-msgid "Default presets can not be deleted"
-msgstr "Verstek voorafinstellings kan nie geskrap word nie"
-
-#: dialogs/EqualizerDialog.cpp:246
-msgid "Error deleting preset"
-msgstr "Fout tydens skrap van voorafinstelling"
-
-#: dialogs/EqualizerDialog.cpp:256
-msgid "Cannot restore this preset"
-msgstr "Hierdie voorafinstelling is onherstelbaar"
-
-#: dialogs/EqualizerDialog.cpp:257
-msgid "Only default presets can be restored"
-msgstr "Slegs verstek voorafinstellings kan herstel word"
-
-#: dialogs/EqualizerDialog.cpp:258
-msgid "Error restoring preset"
-msgstr "Fout tydens herstel van voorafinstelling"
-
-#: dialogs/EqualizerDialog.cpp:275
-msgid "Cannot save this preset"
-msgstr "Kan nie hierdie voorafinstelling stoor nie"
-
-#: dialogs/EqualizerDialog.cpp:276
-msgid ""
-"Preset 'Manual' is reserved for momentary settings.\n"
-"                                              Please choose different name "
-"and try again."
-msgstr ""
-"Die 'Handmatig' voorafinstelling word gereserveer vir kortstondige "
-"instellings.\n"
-"                                               Kies asb. 'n ander naam en "
-"probeer weer."
-
-#: dialogs/EqualizerDialog.cpp:278
-msgid "Error saving preset"
-msgstr "Fout tydens stoor van voorafinstelling"
-
 #: dialogs/OrganizeCollectionDialog.cpp:137
 #: dialogs/OrganizeCollectionDialog.cpp:140
 #, kde-format
@@ -5501,6 +5443,65 @@ msgstr "Gevorderd..."
 #: dialogs/FilenameLayoutDialog.cpp:616
 msgid "Folder"
 msgstr "Gids"
+
+#: dialogs/EqualizerDialog.cpp:45
+msgid "Configure Equalizer"
+msgstr "Band Menger Opstel"
+
+#: dialogs/EqualizerDialog.cpp:79
+msgid ""
+"Sorry, your current Phonon backend version does not provide equalizer "
+"support."
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:146 dialogs/EqualizerDialog.cpp:236
+#: dialogs/EqualizerDialog.cpp:288
+msgctxt "Equalizer state, as in, disabled"
+msgid "Off"
+msgstr "Af"
+
+#: dialogs/EqualizerDialog.cpp:244
+msgid "Cannot delete this preset"
+msgstr "Kan nie hierdie voorafinstelling skrap nie"
+
+#: dialogs/EqualizerDialog.cpp:245
+msgid "Default presets can not be deleted"
+msgstr "Verstek voorafinstellings kan nie geskrap word nie"
+
+#: dialogs/EqualizerDialog.cpp:246
+msgid "Error deleting preset"
+msgstr "Fout tydens skrap van voorafinstelling"
+
+#: dialogs/EqualizerDialog.cpp:256
+msgid "Cannot restore this preset"
+msgstr "Hierdie voorafinstelling is onherstelbaar"
+
+#: dialogs/EqualizerDialog.cpp:257
+msgid "Only default presets can be restored"
+msgstr "Slegs verstek voorafinstellings kan herstel word"
+
+#: dialogs/EqualizerDialog.cpp:258
+msgid "Error restoring preset"
+msgstr "Fout tydens herstel van voorafinstelling"
+
+#: dialogs/EqualizerDialog.cpp:275
+msgid "Cannot save this preset"
+msgstr "Kan nie hierdie voorafinstelling stoor nie"
+
+#: dialogs/EqualizerDialog.cpp:276
+msgid ""
+"Preset 'Manual' is reserved for momentary settings.\n"
+"                                              Please choose different name "
+"and try again."
+msgstr ""
+"Die 'Handmatig' voorafinstelling word gereserveer vir kortstondige "
+"instellings.\n"
+"                                               Kies asb. 'n ander naam en "
+"probeer weer."
+
+#: dialogs/EqualizerDialog.cpp:278
+msgid "Error saving preset"
+msgstr "Fout tydens stoor van voorafinstelling"
 
 #: dynamic/BiasedPlaylist.cpp:142
 msgid "Generating playlist..."
@@ -10795,7 +10796,7 @@ msgstr ""
 #. i18n: file: context/applets/labels/labelsSettings.ui:113
 #. i18n: ectx: property (toolTip), widget (QSpinBox, minAutoAddCountSpinBox)
 #: rc.cpp:1488 rc.cpp:1505
-msgid "Show only lables that are rated at least that high"
+msgid "Show only labels that are rated at least that high"
 msgstr ""
 
 #. i18n: file: context/applets/labels/labelsSettings.ui:52
@@ -10815,7 +10816,7 @@ msgstr ""
 #. i18n: file: context/applets/labels/labelsSettings.ui:88
 #. i18n: ectx: property (text), widget (QCheckBox, autoAddCheckBox)
 #: rc.cpp:1499
-msgid "Automaticly add downloaded labels if none are assigned"
+msgid "Automatically add downloaded labels if none are assigned"
 msgstr ""
 
 #. i18n: file: context/applets/labels/labelsSettings.ui:128
@@ -13291,6 +13292,10 @@ msgstr "Geen Groepering (Enkele Reël)"
 #: rc.cpp:2849
 msgid "Verbose"
 msgstr "Breedspraaklik"
+
+#~ msgid "Sorry, equalizer is not supported by your Phonon version."
+#~ msgstr ""
+#~ "Jammer, band menger ondersteuning ontbreek in hierdie weergawe van Phonon."
 
 #~ msgid "&Add Podcast"
 #~ msgstr "&Potgooi Byvoeg"
