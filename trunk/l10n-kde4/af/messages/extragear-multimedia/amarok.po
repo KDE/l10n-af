@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-29 05:41+0200\n"
+"POT-Creation-Date: 2010-07-30 05:25+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -554,7 +554,7 @@ msgid "Add Position Marker"
 msgstr "Voeg Posisie Merker By"
 
 #: amarokurls/BookmarkModel.cpp:86
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:366
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:376
 msgid "Group"
 msgstr "Groep"
 
@@ -565,7 +565,7 @@ msgstr "Groep"
 #. i18n: file: aboutdialog/OcsPersonItem.ui:137
 #. i18n: ectx: property (text), widget (QLabel, m_textLabel)
 #: amarokurls/BookmarkModel.cpp:265
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:365
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:375
 #: playlistgenerator/TreeModel.cpp:67 rc.cpp:1178 rc.cpp:1184 rc.cpp:1190
 msgid "Name"
 msgstr "Naam"
@@ -1190,7 +1190,7 @@ msgstr "Verhouding:"
 #. i18n: ectx: property (text), widget (QLabel, label_StrictnessRating)
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:280
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:918
-#: dynamic/biases/EchoNest.cpp:112 rc.cpp:2388 rc.cpp:2453 rc.cpp:2516
+#: dynamic/biases/EchoNest.cpp:110 rc.cpp:2388 rc.cpp:2453 rc.cpp:2516
 #: rc.cpp:2552 rc.cpp:2603 rc.cpp:2633
 msgid "Match:"
 msgstr "Pas:"
@@ -1333,60 +1333,6 @@ msgstr "gewysig"
 msgid "Random (modified)"
 msgstr "Lukraak (gewysig)"
 
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:88
-#, fuzzy
-#| msgid "Media Sources"
-msgid "Visible Sources"
-msgstr "Media Bronne"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:231
-#, fuzzy
-#| msgid "New Folder"
-#| msgid_plural "New Folder (%1)"
-msgctxt "default name for new folder"
-msgid "New Folder"
-msgstr "Nuwe Gids"
-
-#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:233
-#, fuzzy, kde-format
-#| msgid "New Folder"
-#| msgid_plural "New Folder (%1)"
-msgctxt "default name for new folder"
-msgid "New Folder (%1)"
-msgstr "Nuwe Gids"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:90
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:171
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:216
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Speellys"
-msgstr[1] "Speellys"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:367
-msgid "Source"
-msgstr "Bron"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
-msgid "&Rename Folder..."
-msgstr "&Hernoem Gids"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:39
-msgid "&Delete Folder"
-msgstr "Skrap &Gids"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:295
-msgid "New name"
-msgstr "Nuwe naam"
-
-#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:297
-msgctxt "Enter a new name for a folder that already exists"
-msgid "Enter new folder name:"
-msgstr "Gee nuwe gids naam:"
-
 #: browsers/playlistbrowser/PodcastCategory.cpp:99
 msgid "Podcasts"
 msgstr "Potgooie"
@@ -1445,6 +1391,78 @@ msgstr "Sleutelwoorde:"
 msgid "Select OPML file to import"
 msgstr "Kies OPML lêer vir invoer"
 
+#: browsers/playlistbrowser/UserPlaylistCategory.cpp:58
+msgid "Saved Playlists"
+msgstr "Gestoorde Speellyste"
+
+#: browsers/playlistbrowser/UserPlaylistCategory.cpp:59
+msgid "User generated and imported playlists"
+msgstr "Handmatig-geskepte en ingevoerde speellyste"
+
+#: browsers/playlistbrowser/UserPlaylistCategory.cpp:62
+msgid ""
+"Create, edit, organize and load playlists. Amarok automatically adds any "
+"playlists found when scanning your collection, and any playlists that you "
+"save are also shown here."
+msgstr ""
+"Skep, wysig, organiseer en laai speellyste. Amarok sal enige gevonde "
+"speellyste tydens skandering van die versameling outomaties byvoeg. "
+"Speellyste wat jy stoor sal ook hier vertoon word."
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:88
+#, fuzzy
+#| msgid "Media Sources"
+msgid "Visible Sources"
+msgstr "Media Bronne"
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:231
+#, fuzzy
+#| msgid "New Folder"
+#| msgid_plural "New Folder (%1)"
+msgctxt "default name for new folder"
+msgid "New Folder"
+msgstr "Nuwe Gids"
+
+#: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:233
+#, fuzzy, kde-format
+#| msgid "New Folder"
+#| msgid_plural "New Folder (%1)"
+msgctxt "default name for new folder"
+msgid "New Folder (%1)"
+msgstr "Nuwe Gids"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:90
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:171
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:216
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Speellys"
+msgstr[1] "Speellys"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:377
+msgid "Source"
+msgstr "Bron"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
+msgid "&Rename Folder..."
+msgstr "&Hernoem Gids"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:39
+msgid "&Delete Folder"
+msgstr "Skrap &Gids"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:295
+msgid "New name"
+msgstr "Nuwe naam"
+
+#: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:297
+msgctxt "Enter a new name for a folder that already exists"
+msgid "Enter new folder name:"
+msgstr "Gee nuwe gids naam:"
+
 #: browsers/playlistbrowser/PodcastModel.cpp:73
 msgctxt "toggle the \"new\" status of this podcast episode"
 msgid "&New"
@@ -1470,24 +1488,6 @@ msgstr "Voeg Potgooi by"
 #: browsers/playlistbrowser/PodcastModel.cpp:357
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr "Gee RSS 1.0/2.0 of Atom voer URL:"
-
-#: browsers/playlistbrowser/UserPlaylistCategory.cpp:58
-msgid "Saved Playlists"
-msgstr "Gestoorde Speellyste"
-
-#: browsers/playlistbrowser/UserPlaylistCategory.cpp:59
-msgid "User generated and imported playlists"
-msgstr "Handmatig-geskepte en ingevoerde speellyste"
-
-#: browsers/playlistbrowser/UserPlaylistCategory.cpp:62
-msgid ""
-"Create, edit, organize and load playlists. Amarok automatically adds any "
-"playlists found when scanning your collection, and any playlists that you "
-"save are also shown here."
-msgstr ""
-"Skep, wysig, organiseer en laai speellyste. Amarok sal enige gevonde "
-"speellyste tydens skandering van die versameling outomaties byvoeg. "
-"Speellyste wat jy stoor sal ook hier vertoon word."
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -3361,11 +3361,6 @@ msgid_plural " Items"
 msgstr[0] " Item"
 msgstr[1] " Items"
 
-#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:389
-#: core/podcasts/PodcastMeta.h:412
-msgid "Podcast"
-msgstr "Potgooi"
-
 #: core-impl/podcasts/sql/SqlPodcastProvider.h:50
 msgid "Local Podcasts"
 msgstr "Plaaslike Potgooie"
@@ -3481,6 +3476,11 @@ msgstr "Besig om Podcast \"%1\" af te laai"
 #, kde-format
 msgid "Unable to save podcast episode file to %1"
 msgstr "Kon nie potgooi episode lêer stoor na %1 nie"
+
+#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:389
+#: core/podcasts/PodcastMeta.h:412
+msgid "Podcast"
+msgstr "Potgooi"
 
 #: core/meta/support/MetaUtility.cpp:355
 msgctxt "The quality of music"
@@ -5281,19 +5281,19 @@ msgstr "Skep speellys..."
 msgid "Match Type:"
 msgstr "Pas Tipe:"
 
-#: dynamic/biases/EchoNest.cpp:52
+#: dynamic/biases/EchoNest.cpp:50
 msgid "Echo Nest Similar Artists"
 msgstr "Echo Nest Verwante Kunstenaars"
 
-#: dynamic/biases/EchoNest.cpp:115
+#: dynamic/biases/EchoNest.cpp:113
 msgid "Current Track"
 msgstr "Huidige Snit"
 
-#: dynamic/biases/EchoNest.cpp:116 playlist/PlaylistDock.cpp:45
+#: dynamic/biases/EchoNest.cpp:114 playlist/PlaylistDock.cpp:45
 msgid "Playlist"
 msgstr "Speellys"
 
-#: dynamic/biases/EchoNest.cpp:122
+#: dynamic/biases/EchoNest.cpp:120
 msgid "Recommendations by Echo Nest."
 msgstr "Voorgestel deur Echo Nest."
 
@@ -6663,19 +6663,6 @@ msgstr "Laas Gespeel"
 msgid "Mood"
 msgstr "Gemoed"
 
-#: playlist/PlaylistDock.cpp:73
-msgid "Dynamic Mode Enabled"
-msgstr "Dinamiese Modus Geaktiveer"
-
-#: playlist/PlaylistDock.cpp:136
-msgid "&Save Current Playlist"
-msgstr "&Stoor Huidige Speellys"
-
-#: playlist/PlaylistDock.cpp:206
-#, kde-format
-msgid "&Save playlist to \"%1\""
-msgstr "&Stoor speellys na \"%1\""
-
 #: playlist/PlaylistViewUrlGenerator.cpp:82
 #, kde-format
 msgid "Filter %1"
@@ -6707,6 +6694,19 @@ msgstr "Speellys"
 #: playlist/PlaylistActions.cpp:408
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr "Te veel foute teëgekom in speellys. Opgehou speel. "
+
+#: playlist/PlaylistDock.cpp:72
+msgid "Dynamic Mode Enabled"
+msgstr "Dinamiese Modus Geaktiveer"
+
+#: playlist/PlaylistDock.cpp:135
+msgid "&Save Current Playlist"
+msgstr "&Stoor Huidige Speellys"
+
+#: playlist/PlaylistDock.cpp:205
+#, kde-format
+msgid "&Save playlist to \"%1\""
+msgstr "&Stoor speellys na \"%1\""
 
 #: playlistgenerator/ConstraintGroup.cpp:84
 #, fuzzy
