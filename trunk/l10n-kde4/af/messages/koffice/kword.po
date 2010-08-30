@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-10 06:11+0200\n"
+"POT-Creation-Date: 2010-08-30 05:27+0200\n"
 "PO-Revision-Date: 2002-09-27 16:45+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -229,7 +229,7 @@ msgstr ""
 
 #. i18n: file: part/dialogs/KWStartupWidget.ui:51
 #. i18n: ectx: attribute (title), widget (QWidget, columnsTab)
-#: rc.cpp:96 part/dialogs/KWPageSettingsDialog.cpp:42
+#: rc.cpp:96 part/dialogs/KWPageSettingsDialog.cpp:40
 #, fuzzy
 msgid "Columns"
 msgstr "Kolom"
@@ -1027,6 +1027,12 @@ msgstr "Konnekteer Teks Rame"
 msgid "Geometry"
 msgstr "Geometrie"
 
+#: part/dialogs/KWPageSettingsDialog.cpp:92
+#, fuzzy
+#| msgid "Frame Properties"
+msgid "Change Page Properties"
+msgstr "Raam Eienskappe"
+
 #: part/dialogs/KWSelectBookmarkDialog.cpp:79
 msgid "Rename Bookmark"
 msgstr "Herbenaam Boekmerk"
@@ -1076,12 +1082,6 @@ msgstr "Skep Teks Raam"
 msgid "Create custom outline"
 msgstr "Skep 'n tabel."
 
-#: part/commands/KWPagePropertiesCommand.cpp:36
-#, fuzzy
-#| msgid "Frame Properties"
-msgid "Page Properties"
-msgstr "Raam Eienskappe"
-
 #: part/commands/KWPageRemoveCommand.cpp:32
 #, fuzzy
 msgid "Remove Page"
@@ -1093,32 +1093,43 @@ msgstr "Verwyder Inskrywing"
 msgid "Clip Frame"
 msgstr "Inlyn Raam"
 
-#: part/frames/KWTextFrameSet.cpp:88
+#: part/commands/KWChangePageStyleCommand.cpp:25
+#, fuzzy
+#| msgid "&Page Mode"
+msgid "Set Page Style"
+msgstr "Bladsy Modus"
+
+#: part/commands/KWNewPageStyleCommand.cpp:27
+#, fuzzy
+msgid "Insert Page Style"
+msgstr "Voeg by Tabel"
+
+#: part/commands/KWPageStylePropertiesCommand.cpp:36
+#, fuzzy
+#| msgid "Frame Properties"
+msgid "Page Properties"
+msgstr "Raam Eienskappe"
+
+#: part/frames/KWTextFrameSet.cpp:90
 msgid "Odd Pages Header"
 msgstr "Onewe Bladsye Opskrif"
 
-#: part/frames/KWTextFrameSet.cpp:91
+#: part/frames/KWTextFrameSet.cpp:93
 msgid "Even Pages Header"
 msgstr "Al Bladsye Opskrif"
 
-#: part/frames/KWTextFrameSet.cpp:94
+#: part/frames/KWTextFrameSet.cpp:96
 msgid "Odd Pages Footer"
 msgstr "Onewe Bladsye Voetskrif"
 
-#: part/frames/KWTextFrameSet.cpp:97
+#: part/frames/KWTextFrameSet.cpp:99
 msgid "Even Pages Footer"
 msgstr "Al Bladsye Voetskrif"
 
-#: part/frames/KWTextFrameSet.cpp:100
+#: part/frames/KWTextFrameSet.cpp:102
 #, fuzzy
 msgid "Main text"
 msgstr "Plak Teks"
-
-#: part/frames/KWTextFrameSet.cpp:103
-#, fuzzy
-#| msgid "Background"
-msgid "Page Background"
-msgstr "Agtergrond"
 
 #: part/KWStatusBar.cpp:39
 msgid "Modified"
@@ -1761,6 +1772,11 @@ msgstr ""
 #: part/KWDocument.cpp:835
 msgid "Installation Error"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Background"
+#~ msgid "Page Background"
+#~ msgstr "Agtergrond"
 
 #, fuzzy
 #~| msgid "Format"

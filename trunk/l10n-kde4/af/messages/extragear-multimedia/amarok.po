@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-29 05:30+0200\n"
+"POT-Creation-Date: 2010-08-30 05:28+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -467,11 +467,6 @@ msgstr "Filter Musiek Bronne"
 msgid "Home"
 msgstr "Tuis"
 
-#: browsers/collectionbrowser/CollectionTreeItemDelegate.cpp:177
-#, kde-format
-msgid "%1% used"
-msgstr "%1% in gebruik"
-
 #: browsers/collectionbrowser/CollectionWidget.cpp:140
 #, fuzzy
 #| msgid ""
@@ -656,6 +651,11 @@ msgstr ""
 msgid "Sort Options"
 msgstr "Sortering Opsies"
 
+#: browsers/collectionbrowser/CollectionTreeItemDelegate.cpp:178
+#, kde-format
+msgid "%1% used"
+msgstr "%1% in gebruik"
+
 #: browsers/filebrowser/FileBrowser.cpp:62
 #, fuzzy
 #| msgid "Patches"
@@ -811,6 +811,21 @@ msgstr ""
 "Die speellys blaaier bevat jou lys van ingevoerde en gestoorde speellyste. "
 "Dit is ook waar jy kragtige dinamiese speellyste kan spesifiseer en jou "
 "potgooi inskrywings en episodes bestuur."
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:92
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:173
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:218
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Speellys"
+msgstr[1] "Speellys"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:379
+msgid "Source"
+msgstr "Bron"
 
 #: browsers/playlistbrowser/APGCategory.cpp:43
 msgid "Automated Playlist Generator"
@@ -1039,21 +1054,6 @@ msgstr "Voeg Potgooi by"
 #: browsers/playlistbrowser/PodcastModel.cpp:357
 msgid "Enter RSS 1.0/2.0 or Atom feed URL:"
 msgstr "Gee RSS 1.0/2.0 of Atom voer URL:"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:92
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:173
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:218
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Speellys"
-msgstr[1] "Speellys"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:379
-msgid "Source"
-msgstr "Bron"
 
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:71
 #, fuzzy
@@ -3235,7 +3235,7 @@ msgstr "Besig om Podcast \"%1\" af te laai"
 msgid "Unable to save podcast episode file to %1"
 msgstr "Kon nie potgooi episode lêer stoor na %1 nie"
 
-#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:389
+#: core-impl/podcasts/sql/SqlPodcastMeta.cpp:380
 #: core/podcasts/PodcastMeta.h:412
 msgid "Podcast"
 msgstr "Potgooi"
