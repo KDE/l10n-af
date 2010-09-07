@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-02 07:08+0200\n"
+"POT-Creation-Date: 2010-09-07 02:40+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -4729,65 +4729,6 @@ msgstr "Gevorderd..."
 msgid "Folder"
 msgstr "Gids"
 
-#: dialogs/EqualizerDialog.cpp:45
-msgid "Configure Equalizer"
-msgstr "Band Menger Opstel"
-
-#: dialogs/EqualizerDialog.cpp:79
-msgid ""
-"Sorry, your current Phonon backend version does not provide equalizer "
-"support."
-msgstr ""
-
-#: dialogs/EqualizerDialog.cpp:146 dialogs/EqualizerDialog.cpp:236
-#: dialogs/EqualizerDialog.cpp:288
-msgctxt "Equalizer state, as in, disabled"
-msgid "Off"
-msgstr "Af"
-
-#: dialogs/EqualizerDialog.cpp:244
-msgid "Cannot delete this preset"
-msgstr "Kan nie hierdie voorafinstelling skrap nie"
-
-#: dialogs/EqualizerDialog.cpp:245
-msgid "Default presets can not be deleted"
-msgstr "Verstek voorafinstellings kan nie geskrap word nie"
-
-#: dialogs/EqualizerDialog.cpp:246
-msgid "Error deleting preset"
-msgstr "Fout tydens skrap van voorafinstelling"
-
-#: dialogs/EqualizerDialog.cpp:256
-msgid "Cannot restore this preset"
-msgstr "Hierdie voorafinstelling is onherstelbaar"
-
-#: dialogs/EqualizerDialog.cpp:257
-msgid "Only default presets can be restored"
-msgstr "Slegs verstek voorafinstellings kan herstel word"
-
-#: dialogs/EqualizerDialog.cpp:258
-msgid "Error restoring preset"
-msgstr "Fout tydens herstel van voorafinstelling"
-
-#: dialogs/EqualizerDialog.cpp:275
-msgid "Cannot save this preset"
-msgstr "Kan nie hierdie voorafinstelling stoor nie"
-
-#: dialogs/EqualizerDialog.cpp:276
-msgid ""
-"Preset 'Manual' is reserved for momentary settings.\n"
-"                                              Please choose different name "
-"and try again."
-msgstr ""
-"Die 'Handmatig' voorafinstelling word gereserveer vir kortstondige "
-"instellings.\n"
-"                                               Kies asb. 'n ander naam en "
-"probeer weer."
-
-#: dialogs/EqualizerDialog.cpp:278
-msgid "Error saving preset"
-msgstr "Fout tydens stoor van voorafinstelling"
-
 #: dialogs/CollectionSetup.cpp:68
 #, fuzzy, kde-format
 #| msgid "Rescan"
@@ -5039,6 +4980,65 @@ msgstr "Maak Teks Veld Leeg"
 #| msgid "Last played"
 msgid "played"
 msgstr "Laas gespeel"
+
+#: dialogs/EqualizerDialog.cpp:45
+msgid "Configure Equalizer"
+msgstr "Band Menger Opstel"
+
+#: dialogs/EqualizerDialog.cpp:101
+msgid ""
+"Sorry, your current Phonon backend version does not provide equalizer "
+"support."
+msgstr ""
+
+#: dialogs/EqualizerDialog.cpp:170 dialogs/EqualizerDialog.cpp:260
+#: dialogs/EqualizerDialog.cpp:312
+msgctxt "Equalizer state, as in, disabled"
+msgid "Off"
+msgstr "Af"
+
+#: dialogs/EqualizerDialog.cpp:268
+msgid "Cannot delete this preset"
+msgstr "Kan nie hierdie voorafinstelling skrap nie"
+
+#: dialogs/EqualizerDialog.cpp:269
+msgid "Default presets can not be deleted"
+msgstr "Verstek voorafinstellings kan nie geskrap word nie"
+
+#: dialogs/EqualizerDialog.cpp:270
+msgid "Error deleting preset"
+msgstr "Fout tydens skrap van voorafinstelling"
+
+#: dialogs/EqualizerDialog.cpp:280
+msgid "Cannot restore this preset"
+msgstr "Hierdie voorafinstelling is onherstelbaar"
+
+#: dialogs/EqualizerDialog.cpp:281
+msgid "Only default presets can be restored"
+msgstr "Slegs verstek voorafinstellings kan herstel word"
+
+#: dialogs/EqualizerDialog.cpp:282
+msgid "Error restoring preset"
+msgstr "Fout tydens herstel van voorafinstelling"
+
+#: dialogs/EqualizerDialog.cpp:299
+msgid "Cannot save this preset"
+msgstr "Kan nie hierdie voorafinstelling stoor nie"
+
+#: dialogs/EqualizerDialog.cpp:300
+msgid ""
+"Preset 'Manual' is reserved for momentary settings.\n"
+"                                              Please choose different name "
+"and try again."
+msgstr ""
+"Die 'Handmatig' voorafinstelling word gereserveer vir kortstondige "
+"instellings.\n"
+"                                               Kies asb. 'n ander naam en "
+"probeer weer."
+
+#: dialogs/EqualizerDialog.cpp:302
+msgid "Error saving preset"
+msgstr "Fout tydens stoor van voorafinstelling"
 
 #: dynamic/BiasedPlaylist.cpp:142
 msgid "Generating playlist..."
@@ -7294,17 +7294,6 @@ msgstr "Vriende se Persoonlike Radio"
 msgid "last.fm"
 msgstr "last.fm"
 
-#: services/lastfm/LastFmServiceConfig.cpp:139
-msgid "Last.fm credentials"
-msgstr "Last.fm getuigskrifte"
-
-#: services/lastfm/LastFmServiceConfig.cpp:140
-msgid ""
-"No running KWallet found. Would you like Amarok to save your Last.fm "
-"credentials in plaintext?"
-msgstr ""
-"KWallet loop nie. Moet Amarok jou Last.fm getuigskrifte in gewone teks stoor?"
-
 # Hierdie lyk na last.fm-spesifieke terminologie
 #: services/lastfm/LoveTrackAction.cpp:25
 #: services/lastfm/LastFmService.cpp:304
@@ -7604,6 +7593,17 @@ msgstr "Toets Aanteken"
 #: services/lastfm/LastFmServiceSettings.cpp:196 rc.cpp:2117
 msgid "&Test Login"
 msgstr "Toets Aanteken"
+
+#: services/lastfm/LastFmServiceConfig.cpp:141
+msgid "Last.fm credentials"
+msgstr "Last.fm getuigskrifte"
+
+#: services/lastfm/LastFmServiceConfig.cpp:142
+msgid ""
+"No running KWallet found. Would you like Amarok to save your Last.fm "
+"credentials in plaintext?"
+msgstr ""
+"KWallet loop nie. Moet Amarok jou Last.fm getuigskrifte in gewone teks stoor?"
 
 #: services/magnatune/MagnatuneAlbumDownloader.cpp:68
 #, kde-format
