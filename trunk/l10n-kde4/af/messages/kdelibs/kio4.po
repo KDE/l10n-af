@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-08 06:57+0200\n"
+"POT-Creation-Date: 2010-09-09 06:06+0200\n"
 "PO-Revision-Date: 2005-11-25 05:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -2900,7 +2900,7 @@ msgid "Select Folder"
 msgstr "Kies Gids"
 
 #: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:132
-#: ../kfile/knewfilemenu.cpp:513
+#: ../kfile/knewfilemenu.cpp:991
 #, fuzzy
 #| msgid "New Folder"
 msgctxt "@title:window"
@@ -6966,59 +6966,13 @@ msgstr ""
 msgid "Custom Path"
 msgstr ""
 
-#: ../kfile/knewfilemenu.cpp:177
+#: ../kfile/knewfilemenu.cpp:354 ../kfile/knewfilemenu.cpp:848
 #, fuzzy
-#| msgid "C&reate"
-msgid "Create New"
-msgstr "Skep"
+#| msgid "Store"
+msgid "Sorry"
+msgstr "Stoor"
 
-#: ../kfile/knewfilemenu.cpp:190
-#, fuzzy
-msgid "Link to Device"
-msgstr "Toestel:"
-
-#: ../kfile/knewfilemenu.cpp:486
-#, fuzzy
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr "Skep Gids"
-
-#: ../kfile/knewfilemenu.cpp:488
-#, fuzzy
-#| msgid "Ru&n as a different user"
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr "Hardloop as 'n ander gebruiker"
-
-#: ../kfile/knewfilemenu.cpp:491
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:492
-#, fuzzy
-msgid "Create hidden directory?"
-msgstr "Skep Gids"
-
-#: ../kfile/knewfilemenu.cpp:504
-#, fuzzy
-#| msgid "New Folder"
-msgctxt "Default name for a new folder"
-msgid "New Folder"
-msgstr "Nuwe Gids"
-
-#: ../kfile/knewfilemenu.cpp:514
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"Skep nuwe gids in:\n"
-"%1"
-
-#: ../kfile/knewfilemenu.cpp:606
+#: ../kfile/knewfilemenu.cpp:363
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
@@ -7028,16 +6982,83 @@ msgstr ""
 "<qt>Kon nie die gespesifiseerde opdrag uitvoer nie. Die lêer of gids <b>%1</"
 "b> bestaan nie.</qt>"
 
-#: ../kfile/knewfilemenu.cpp:615 ../kfile/knewfilemenu.cpp:661
+#: ../kfile/knewfilemenu.cpp:382
+#, fuzzy
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "Skep Gids"
+
+#: ../kfile/knewfilemenu.cpp:384
+#, fuzzy
+#| msgid "Ru&n as a different user"
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr "Hardloop as 'n ander gebruiker"
+
+#: ../kfile/knewfilemenu.cpp:387
+#, fuzzy
+msgid "Create hidden directory?"
+msgstr "Skep Gids"
+
+#: ../kfile/knewfilemenu.cpp:391
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:393
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:475 ../kfile/knewfilemenu.cpp:533
 #, fuzzy
 msgid "File name:"
 msgstr "Toestel:"
 
-#: ../kfile/knewfilemenu.cpp:675
+#: ../kfile/knewfilemenu.cpp:478
+#, fuzzy
+#| msgid "Could Not Create Symbolic Link"
+msgid "Create Symlink"
+msgstr "Kon Nie Skep Simboliese Skakel"
+
+#: ../kfile/knewfilemenu.cpp:537
+#, fuzzy
+msgid "Create link to URL"
+msgstr "Bestemming:"
+
+#: ../kfile/knewfilemenu.cpp:858
 msgid ""
 "Basic links can only point to local files or directories.\n"
 "Please use \"Link to Location\" for remote URLs."
 msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:923
+#, fuzzy
+#| msgid "C&reate"
+msgid "Create New"
+msgstr "Skep"
+
+#: ../kfile/knewfilemenu.cpp:936
+#, fuzzy
+msgid "Link to Device"
+msgstr "Toestel:"
+
+#: ../kfile/knewfilemenu.cpp:981
+#, fuzzy
+#| msgid "New Folder"
+msgctxt "Default name for a new folder"
+msgid "New Folder"
+msgstr "Nuwe Gids"
+
+#: ../kfile/knewfilemenu.cpp:995
+#, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"Skep nuwe gids in:\n"
+"%1"
 
 #: ../kfile/kfileplacesmodel.cpp:117
 msgctxt "KFile System Bookmarks"
@@ -7802,10 +7823,6 @@ msgstr "Vertoon weg gesteekte gidse"
 #, fuzzy
 #~ msgid "Source URL"
 #~ msgstr "Bron:"
-
-#, fuzzy
-#~ msgid "Destination URL"
-#~ msgstr "Bestemming:"
 
 #, fuzzy
 #~| msgid "Preview"
