@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-08 06:59+0200\n"
+"POT-Creation-Date: 2010-09-13 05:54+0200\n"
 "PO-Revision-Date: 2005-11-24 11:27+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1170,14 +1170,14 @@ msgstr ""
 "bevestig merk word gelaai, en sal wees gelaai weer die volgende tyd Kate is "
 "beginne."
 
-#: app/katefilelist.cpp:55 plugins/filetree/katefiletree.cpp:50
+#: app/katefilelist.cpp:55 plugins/filetree/katefiletree.cpp:51
 #, fuzzy
 #| msgid "Clos&e All"
 msgid "Close"
 msgstr "Maak toe Alle"
 
 #: app/katefilelist.cpp:58 app/katemainwindow.cpp:327
-#: plugins/filetree/katefiletree.cpp:52
+#: plugins/filetree/katefiletree.cpp:53
 msgid "Close the current document."
 msgstr "Maak toe die huidige dokument."
 
@@ -1218,10 +1218,14 @@ msgid "Sort &By"
 msgstr "Sorteer volgens"
 
 #: app/katefilelist.cpp:78 app/katefilelist.cpp:307
+#: plugins/filetree/katefiletree.cpp:76
+#: plugins/filetree/katefiletreeconfigpage.cpp:74
 msgid "Opening Order"
 msgstr "Oopmaak volgorde"
 
 #: app/katefilelist.cpp:78 app/katefilelist.cpp:308
+#: plugins/filetree/katefiletree.cpp:67
+#: plugins/filetree/katefiletreeconfigpage.cpp:75
 msgid "Document Name"
 msgstr "Dokument naam"
 
@@ -1233,27 +1237,27 @@ msgstr "URL"
 msgid "Custom"
 msgstr ""
 
-#: app/katefilelist.cpp:281
+#: app/katefilelist.cpp:281 plugins/filetree/katefiletreeconfigpage.cpp:48
 msgid "Background Shading"
 msgstr "Agtergrond skakering"
 
-#: app/katefilelist.cpp:288
+#: app/katefilelist.cpp:288 plugins/filetree/katefiletreeconfigpage.cpp:55
 msgid "&Viewed documents' shade:"
 msgstr "Vertoonde dokument se skadu:"
 
-#: app/katefilelist.cpp:294
+#: app/katefilelist.cpp:294 plugins/filetree/katefiletreeconfigpage.cpp:61
 msgid "&Modified documents' shade:"
 msgstr "Verander die dokument se skadu:"
 
-#: app/katefilelist.cpp:302
+#: app/katefilelist.cpp:302 plugins/filetree/katefiletreeconfigpage.cpp:69
 msgid "&Sort by:"
 msgstr "Sorteer volgens:"
 
-#: app/katefilelist.cpp:309
+#: app/katefilelist.cpp:309 plugins/filetree/katefiletreeconfigpage.cpp:76
 msgid "Url"
 msgstr ""
 
-#: app/katefilelist.cpp:315
+#: app/katefilelist.cpp:315 plugins/filetree/katefiletreeconfigpage.cpp:93
 msgid ""
 "When background shading is enabled, documents that have been viewed or "
 "edited within the current session will have a shaded background. The most "
@@ -1263,11 +1267,11 @@ msgstr ""
 "geredigeer is tydens die huidige sessie se agtergrond 'n skaduwee hê. Die "
 "onlangste dokument se skaduwee sal die donkerste wees."
 
-#: app/katefilelist.cpp:319
+#: app/katefilelist.cpp:319 plugins/filetree/katefiletreeconfigpage.cpp:97
 msgid "Set the color for shading viewed documents."
 msgstr "Stel die kleur van die skadu vir dokumente waarna gekyk is."
 
-#: app/katefilelist.cpp:321
+#: app/katefilelist.cpp:321 plugins/filetree/katefiletreeconfigpage.cpp:99
 msgid ""
 "Set the color for modified documents. This color is blended into the color "
 "for viewed files. The most recently edited documents get most of this color."
@@ -1775,20 +1779,85 @@ msgstr " INS "
 msgid " BLOCK "
 msgstr " BLK "
 
-#: plugins/filetree/katefiletreeplugin.cpp:43
-#: plugins/filetree/katefiletreeplugin.cpp:92
+#: plugins/filetree/katefiletreeplugin.cpp:46
+#: plugins/filetree/katefiletreeplugin.cpp:111
 #, fuzzy
 #| msgid "Document Name"
 msgid "Document Tree"
 msgstr "Dokument naam"
 
-#: plugins/filetree/katefiletreeplugin.cpp:43
+#: plugins/filetree/katefiletreeplugin.cpp:46
 msgid "Show open documents in a tree"
 msgstr ""
 
-#: plugins/filetree/katefiletreeplugin.cpp:132
+#: plugins/filetree/katefiletreeplugin.cpp:154
 msgid "&Show Active"
 msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:57
+msgid "Tree Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:58
+msgid "Set view style to Tree Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:61
+msgid "List Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:62
+msgid "Set view style to List Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:68
+#, fuzzy
+#| msgid "Document Name"
+msgid "Sort by Document Name"
+msgstr "Dokument naam"
+
+#: plugins/filetree/katefiletree.cpp:72
+#, fuzzy
+#| msgid "Document List"
+msgid "Document Path"
+msgstr "Dokument Lys"
+
+#: plugins/filetree/katefiletree.cpp:73
+#, fuzzy
+#| msgid "&Show All Documents >>"
+msgid "Sort by Document Path"
+msgstr "Vertoon Alle Dokumente >>"
+
+#: plugins/filetree/katefiletree.cpp:77
+#, fuzzy
+#| msgid "Opening Order"
+msgid "Sort by Opening Order"
+msgstr "Oopmaak volgorde"
+
+#: plugins/filetree/katefiletree.cpp:197
+msgid "View Mode"
+msgstr ""
+
+#: plugins/filetree/katefiletree.cpp:201
+#, fuzzy
+msgid "Sort By"
+msgstr "Sorteer volgens"
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:82
+#, fuzzy
+msgid "&View Mode:"
+msgstr "Nuwe"
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:87
+#, fuzzy
+msgid "Tree View"
+msgstr "Vorige Besigtig"
+
+#: plugins/filetree/katefiletreeconfigpage.cpp:88
+#, fuzzy
+#| msgid "Split Ve&rtical"
+msgid "List View"
+msgstr "Skei Vertikaal"
 
 #, fuzzy
 #~ msgid "Tabify Plugin"
@@ -2325,9 +2394,6 @@ msgstr ""
 #~ msgid "Email Files"
 #~ msgstr "E-pos Lêers"
 
-#~ msgid "&Show All Documents >>"
-#~ msgstr "Vertoon Alle Dokumente >>"
-
 #~ msgid "&Mail..."
 #~ msgstr "Pos..."
 
@@ -2366,16 +2432,8 @@ msgstr ""
 #~ msgid "Selection"
 #~ msgstr "Gekiesde aksies:"
 
-#, fuzzy
-#~ msgid "Preview"
-#~ msgstr "Vorige Besigtig"
-
 #~ msgid "&Appearance"
 #~ msgstr "Voorkoms"
-
-#, fuzzy
-#~ msgid "Sort By"
-#~ msgstr "Sorteer volgens"
 
 #, fuzzy
 #~ msgid "&Top"

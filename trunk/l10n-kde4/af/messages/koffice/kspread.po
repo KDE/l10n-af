@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-10 06:16+0200\n"
+"POT-Creation-Date: 2010-09-13 05:55+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -2481,17 +2481,17 @@ msgstr "Zimbabwe Doller"
 msgid "ZWD"
 msgstr ""
 
-#: DocBase.cpp:221
+#: DocBase.cpp:220
 #, fuzzy
 msgid "Invalid OASIS OpenDocument file. No office:body tag found."
 msgstr "Ongeldige dokument. Nee kaart etiket."
 
-#: DocBase.cpp:235
+#: DocBase.cpp:234
 #, fuzzy
 msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
 msgstr "Ongeldige dokument. Nee kaart etiket."
 
-#: DocBase.cpp:237
+#: DocBase.cpp:236
 #, kde-format
 msgid ""
 "This document is not a spreadsheet, but %1. Please try opening it with the "
@@ -3284,8 +3284,7 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox5)
 #. i18n: file: kspread.rc:102
 #. i18n: ectx: Menu (MergeCellMenu)
-#: rc.cpp:249 rc.cpp:773 commands/MergeCommand.cpp:134 commands/Undo.cpp:1878
-#: ui/CellToolBase.cpp:440
+#: rc.cpp:249 rc.cpp:773 commands/MergeCommand.cpp:134 ui/CellToolBase.cpp:440
 msgid "Merge Cells"
 msgstr "Saamvlans Selle"
 
@@ -4431,8 +4430,7 @@ msgstr "Jaar"
 
 #. i18n: file: kspread.rc:41
 #. i18n: ectx: Menu (Delete)
-#: rc.cpp:755 commands/DeleteCommand.cpp:36 commands/Undo.cpp:1292
-#: part/View.cpp:504
+#: rc.cpp:755 commands/DeleteCommand.cpp:36 part/View.cpp:503
 #, fuzzy
 msgid "Delete"
 msgstr "Uitvee Rye"
@@ -4454,7 +4452,8 @@ msgstr ""
 
 #. i18n: file: kspread.rc:74
 #. i18n: ectx: Menu (Insert)
-#: rc.cpp:764 ui/CharSelectDia.cpp:57 ui/CharSelectDia.cpp:74
+#: rc.cpp:764 dialogs/CharacterSelectDialog.cpp:59
+#: dialogs/CharacterSelectDialog.cpp:76
 #, fuzzy
 msgid "&Insert"
 msgstr "Voeg by Rye"
@@ -4557,12 +4556,12 @@ msgstr "Steek weg Staat"
 msgid "Color/Border"
 msgstr "Kleur/Grens"
 
-#: Sheet.cpp:915
+#: Sheet.cpp:914
 #, fuzzy
 msgid "Dependency"
 msgstr "Afgaande"
 
-#: Sheet.cpp:2878
+#: Sheet.cpp:2880
 #, fuzzy
 msgid "Invalid document. Sheet name is empty."
 msgstr "Ongeldige dokument. Tabel naam is leeg"
@@ -9427,7 +9426,7 @@ msgstr ""
 
 #. i18n: file: functions/financial.xml:907
 #. i18n: file: functions/financial.xml:950
-#: xml_doc.cpp:1817 xml_doc.cpp:1840 part/View.cpp:401
+#: xml_doc.cpp:1817 xml_doc.cpp:1840 part/View.cpp:400
 #, fuzzy
 msgid "Last"
 msgstr "Lys:"
@@ -17634,7 +17633,7 @@ msgstr "Begin"
 msgid "Sun"
 msgstr "Sudan"
 
-#: commands/AutoFillCommand.cpp:692 commands/Undo.cpp:1931
+#: commands/AutoFillCommand.cpp:692
 msgid "Autofill"
 msgstr "Outo-opvul"
 
@@ -17785,28 +17784,26 @@ msgid "Adjust Rows"
 msgstr "Verstel Ry"
 
 #: commands/RowColumnManipulators.cpp:562
-#: commands/RowColumnManipulators.cpp:581 commands/Undo.cpp:278
-#: ui/CellToolBase.cpp:468 ui/CellToolBase_p.cpp:1279
+#: commands/RowColumnManipulators.cpp:581 ui/CellToolBase.cpp:468
+#: ui/CellToolBase_p.cpp:1279
 msgid "Insert Columns"
 msgstr "Voeg by Kolomme"
 
-#: commands/RowColumnManipulators.cpp:583 commands/Undo.cpp:215
-#: ui/CellToolBase.cpp:474
+#: commands/RowColumnManipulators.cpp:583 ui/CellToolBase.cpp:474
 msgid "Remove Columns"
 msgstr "Verwyder Kolomme"
 
 #: commands/RowColumnManipulators.cpp:685
-#: commands/RowColumnManipulators.cpp:704 commands/Undo.cpp:392
-#: ui/CellToolBase.cpp:506 ui/CellToolBase_p.cpp:1291
+#: commands/RowColumnManipulators.cpp:704 ui/CellToolBase.cpp:506
+#: ui/CellToolBase_p.cpp:1291
 msgid "Insert Rows"
 msgstr "Voeg by Rye"
 
-#: commands/RowColumnManipulators.cpp:706 commands/Undo.cpp:321
-#: ui/CellToolBase.cpp:512
+#: commands/RowColumnManipulators.cpp:706 ui/CellToolBase.cpp:512
 msgid "Remove Rows"
 msgstr "Verwyder Rye"
 
-#: commands/SheetCommands.cpp:38 part/View.cpp:1740
+#: commands/SheetCommands.cpp:38 part/View.cpp:1739
 msgid "Rename Sheet"
 msgstr "Herbenaam Staat"
 
@@ -17815,7 +17812,7 @@ msgstr "Herbenaam Staat"
 msgid "Hide Sheet %1"
 msgstr "Steek weg Staat"
 
-#: commands/SheetCommands.cpp:60 part/View.cpp:316
+#: commands/SheetCommands.cpp:60 part/View.cpp:315
 msgid "Hide Sheet"
 msgstr "Steek weg Staat"
 
@@ -17835,14 +17832,14 @@ msgstr "Vertoon Staat..."
 msgid "Add Sheet"
 msgstr "Steek weg Staat"
 
-#: commands/SheetCommands.cpp:139 part/View.cpp:295
+#: commands/SheetCommands.cpp:139 part/View.cpp:294
 #, fuzzy
 #| msgid "Recalculate Sheet"
 msgid "Duplicate Sheet"
 msgstr "Herbereken Staat"
 
-#: commands/SheetCommands.cpp:177 part/View.cpp:301 part/View.cpp:1712
-#: part/View.cpp:1716 part/View.cpp:1935
+#: commands/SheetCommands.cpp:177 part/View.cpp:300 part/View.cpp:1711
+#: part/View.cpp:1715 part/View.cpp:1934
 msgid "Remove Sheet"
 msgstr "Verwyder Staat"
 
@@ -17876,90 +17873,6 @@ msgstr "Staat Styl"
 #, fuzzy
 msgid "Change Style"
 msgstr "Verander Hoek"
-
-#: commands/Undo.cpp:436 ui/CellToolBase.cpp:517
-msgid "Hide Rows"
-msgstr "Steek weg Rye"
-
-#: commands/Undo.cpp:491 ui/CellToolBase.cpp:479
-msgid "Hide Columns"
-msgstr "Steek weg Kolomme"
-
-#: commands/Undo.cpp:547 dialogs/ShowColRowDialog.cpp:66
-#: ui/CellToolBase.cpp:532
-msgid "Show Rows"
-msgstr "Vertoon Rye"
-
-#: commands/Undo.cpp:603 dialogs/ShowColRowDialog.cpp:63
-#: ui/CellToolBase.cpp:494
-msgid "Show Columns"
-msgstr "Vertoon Kolomme"
-
-#: commands/Undo.cpp:661 part/commands/PageLayoutCommand.cpp:35
-#: part/dialogs/PageLayoutDialog.cpp:223
-#, fuzzy
-msgid "Set Page Layout"
-msgstr "Stel Papier Uitleg"
-
-#: commands/Undo.cpp:781
-#, fuzzy
-msgid "Change Format"
-msgstr "Verander Skrif tipe"
-
-#: commands/Undo.cpp:1045 dialogs/AngleDialog.cpp:48
-#: dialogs/AngleDialog.cpp:80
-msgid "Change Angle"
-msgstr "Verander Hoek"
-
-#: commands/Undo.cpp:1077 dialogs/SortDialog.cpp:319
-msgid "Sort"
-msgstr "Sorteer"
-
-#: commands/Undo.cpp:1435
-msgid "Drag & Drop"
-msgstr ""
-
-#: commands/Undo.cpp:1516
-msgid "Resize"
-msgstr "Hervergroot"
-
-#: commands/Undo.cpp:1681
-msgid "Change Text"
-msgstr "Verander Teks"
-
-#: commands/Undo.cpp:1994 commands/Undo.cpp:2038
-msgid "Insert Cell"
-msgstr "Voeg by Sel"
-
-#: commands/Undo.cpp:2081 commands/Undo.cpp:2130
-msgid "Remove Cell"
-msgstr "Verwyder Sel"
-
-#: commands/Undo.cpp:2179 dialogs/ConditionalDialog.cpp:261
-#: ui/CellToolBase.cpp:587
-#, fuzzy
-#| msgid "Conditional Cell Attributes"
-msgid "Conditional Styles"
-msgstr "Voorwaarde Sel Eienskappe"
-
-#: commands/Undo.cpp:2241
-#, fuzzy
-msgid "Paste"
-msgstr "Basis"
-
-#: commands/Undo.cpp:2243
-#, fuzzy
-msgid "Paste & Insert"
-msgstr "Plak en Voeg by"
-
-#: commands/Undo.cpp:2506
-msgid "Style of Cell"
-msgstr "Styl van Sel"
-
-#: commands/Undo.cpp:2606 dialogs/DatabaseDialog.cpp:76
-#: dialogs/DatabaseDialog.cpp:561
-msgid "Insert Data From Database"
-msgstr "Voeg by Data Van Databasis"
 
 #: commands/ValidityCommand.cpp:62
 #, fuzzy
@@ -18008,6 +17921,10 @@ msgstr ""
 msgid "Replace Named Area"
 msgstr "Vertoon 'n genaamd area"
 
+#: dialogs/AngleDialog.cpp:48 dialogs/AngleDialog.cpp:80
+msgid "Change Angle"
+msgstr "Verander Hoek"
+
 #: dialogs/AngleDialog.cpp:62
 msgid "Angle:"
 msgstr "Hoek:"
@@ -18040,6 +17957,17 @@ msgstr "Kon nie soek table-style Xml lêer '%1'"
 #, fuzzy, kde-format
 msgid "Parsing error in sheet-style XML file %1."
 msgstr "Verwerking fout in table-style Xml lêer %1"
+
+#: dialogs/CharacterSelectDialog.cpp:50 dialogs/CharacterSelectDialog.cpp:68
+#, fuzzy
+msgid "Select Character"
+msgstr "Spesiaal Plak..."
+
+#: dialogs/CharacterSelectDialog.cpp:60 dialogs/CharacterSelectDialog.cpp:77
+#, fuzzy
+#| msgid "The text that will replace characters in old text"
+msgid "Insert the selected character in the text"
+msgstr "Die teks wat sal vervang karakters in ou teks"
 
 #: dialogs/CommentDialog.cpp:45
 msgid "Cell Comment"
@@ -18114,6 +18042,12 @@ msgstr "Sel is"
 msgid "different from"
 msgstr "ander van"
 
+#: dialogs/ConditionalDialog.cpp:261 ui/CellToolBase.cpp:587
+#, fuzzy
+#| msgid "Conditional Cell Attributes"
+msgid "Conditional Styles"
+msgstr "Voorwaarde Sel Eienskappe"
+
 #: dialogs/ConditionalDialog.cpp:476
 #, fuzzy
 msgid ""
@@ -18135,27 +18069,27 @@ msgid "Consolidate"
 msgstr "Konsolideer"
 
 #: dialogs/ConsolidateDialog.cpp:104 dialogs/SubtotalDialog.cpp:284
-#: part/View.cpp:461 part/dialogs/PreferenceDialog.cpp:326
+#: part/View.cpp:460 part/dialogs/PreferenceDialog.cpp:326
 msgid "Sum"
 msgstr "Som"
 
 #: dialogs/ConsolidateDialog.cpp:105 dialogs/SubtotalDialog.cpp:276
-#: part/View.cpp:482 part/dialogs/PreferenceDialog.cpp:329
+#: part/View.cpp:481 part/dialogs/PreferenceDialog.cpp:329
 msgid "Average"
 msgstr "Gemiddelde"
 
 #: dialogs/ConsolidateDialog.cpp:106 dialogs/SubtotalDialog.cpp:277
-#: part/View.cpp:489 part/dialogs/PreferenceDialog.cpp:330
+#: part/View.cpp:488 part/dialogs/PreferenceDialog.cpp:330
 msgid "Count"
 msgstr "Tel"
 
 #: dialogs/ConsolidateDialog.cpp:107 dialogs/SubtotalDialog.cpp:279
-#: part/View.cpp:475 part/dialogs/PreferenceDialog.cpp:328
+#: part/View.cpp:474 part/dialogs/PreferenceDialog.cpp:328
 msgid "Max"
 msgstr "Max"
 
 #: dialogs/ConsolidateDialog.cpp:108 dialogs/SubtotalDialog.cpp:280
-#: part/View.cpp:468 part/dialogs/PreferenceDialog.cpp:327
+#: part/View.cpp:467 part/dialogs/PreferenceDialog.cpp:327
 msgid "Min"
 msgstr "Min"
 
@@ -18260,6 +18194,10 @@ msgstr "Teks na Kolomme"
 #, fuzzy
 msgid "Cannot open input file."
 msgstr "Kan nie open invoer lêer!"
+
+#: dialogs/DatabaseDialog.cpp:76 dialogs/DatabaseDialog.cpp:561
+msgid "Insert Data From Database"
+msgstr "Voeg by Data Van Databasis"
 
 #: dialogs/DatabaseDialog.cpp:84
 msgid "Type:"
@@ -18473,7 +18411,7 @@ msgid "You have to select at least one column."
 msgstr "Jy het na kies na minste een kolom!"
 
 #: dialogs/DatabaseDialog.cpp:737 dialogs/DatabaseDialog.cpp:738
-#: part/View.cpp:454 part/dialogs/PreferenceDialog.cpp:324
+#: part/View.cpp:453 part/dialogs/PreferenceDialog.cpp:324
 #: part/dialogs/PreferenceDialog.cpp:332 part/dialogs/PreferenceDialog.cpp:460
 #: ui/CellToolBase.cpp:338
 msgid "None"
@@ -19073,8 +19011,8 @@ msgstr "Nommer van onlangse lêers:"
 msgid "No Entries"
 msgstr ""
 
-#: dialogs/LinkDialog.cpp:152 part/View.cpp:370 part/View.cpp:1024
-#: part/View.cpp:1454
+#: dialogs/LinkDialog.cpp:152 part/View.cpp:369 part/View.cpp:1023
+#: part/View.cpp:1453
 msgid "Cell"
 msgstr "Sel"
 
@@ -19335,10 +19273,18 @@ msgstr ""
 "As die step is negatiewe, die begin waarde moet wees grootter dan word die "
 "einde waarde!"
 
+#: dialogs/ShowColRowDialog.cpp:63 ui/CellToolBase.cpp:494
+msgid "Show Columns"
+msgstr "Vertoon Kolomme"
+
 #: dialogs/ShowColRowDialog.cpp:64
 #, fuzzy
 msgid "Select hidden columns to show:"
 msgstr "Kies Weg gesteekte Kolom na Vertoon"
+
+#: dialogs/ShowColRowDialog.cpp:66 ui/CellToolBase.cpp:532
+msgid "Show Rows"
+msgstr "Vertoon Rye"
 
 #: dialogs/ShowColRowDialog.cpp:67
 #, fuzzy
@@ -19379,6 +19325,10 @@ msgstr "Eerste ry bevat opskrif"
 #, fuzzy
 msgid "&First row contains column headers"
 msgstr "Eerste ry bevat opskrif"
+
+#: dialogs/SortDialog.cpp:319
+msgid "Sort"
+msgstr "Sorteer"
 
 #: dialogs/SortDialog.cpp:547
 #, fuzzy
@@ -19450,7 +19400,7 @@ msgstr "Vleuel Totaal"
 msgid "Column '%1' "
 msgstr "Kolom '%1' "
 
-#: dialogs/SubtotalDialog.cpp:278 part/View.cpp:496
+#: dialogs/SubtotalDialog.cpp:278 part/View.cpp:495
 #: part/dialogs/PreferenceDialog.cpp:331
 #, fuzzy
 msgid "CountA"
@@ -19783,7 +19733,7 @@ msgstr ""
 msgid "Implemented, reviewed and tested various functions"
 msgstr ""
 
-#: part/CanvasBase.cpp:799
+#: part/CanvasBase.cpp:798
 msgid "Comment:"
 msgstr "Kommentaar:"
 
@@ -19834,25 +19784,25 @@ msgstr "Drywer kon nie wees gelaai"
 msgid "Invalid document. No map tag."
 msgstr "Ongeldige dokument. Nee kaart etiket."
 
-#: part/HeaderItems.cpp:187 part/HeaderWidgets.cpp:180
+#: part/HeaderItems.cpp:189 part/HeaderWidgets.cpp:182
 #, kde-format
 msgid "Height: %1 %2"
 msgstr "Hoogte: %1 %2"
 
-#: part/HeaderItems.cpp:189 part/HeaderWidgets.cpp:182
+#: part/HeaderItems.cpp:191 part/HeaderWidgets.cpp:184
 msgid "Hide Row"
 msgstr "Steek weg Ry"
 
-#: part/HeaderItems.cpp:360 part/HeaderWidgets.cpp:352
+#: part/HeaderItems.cpp:362 part/HeaderWidgets.cpp:354
 #, kde-format
 msgid "Width: %1 %2"
 msgstr "Wydte: %1 %2"
 
-#: part/HeaderItems.cpp:362 part/HeaderWidgets.cpp:354
+#: part/HeaderItems.cpp:364 part/HeaderWidgets.cpp:356
 msgid "Hide Column"
 msgstr "Steek weg Kolom"
 
-#: part/Headers.cpp:264 part/Headers.cpp:783 ui/CellToolBase.cpp:2125
+#: part/Headers.cpp:266 part/Headers.cpp:785 ui/CellToolBase.cpp:2125
 #: ui/CellToolBase.cpp:2153 ui/CellToolBase.cpp:2167 ui/CellToolBase.cpp:2189
 #: ui/CellToolBase.cpp:2229 ui/CellToolBase.cpp:2257 ui/CellToolBase.cpp:2271
 #: ui/CellToolBase.cpp:2293
@@ -19878,351 +19828,351 @@ msgstr ""
 msgid "Nothing to print for sheet(s) %1."
 msgstr "Niks na druk."
 
-#: part/View.cpp:284
+#: part/View.cpp:283
 #, fuzzy
 msgid "Sheet Properties..."
 msgstr "Staat Styl..."
 
-#: part/View.cpp:287
+#: part/View.cpp:286
 msgid "Modify current sheet's properties"
 msgstr ""
 
-#: part/View.cpp:289 part/View.cpp:300 part/dialogs/PageLayoutDialog.cpp:145
+#: part/View.cpp:288 part/View.cpp:299 part/dialogs/PageLayoutDialog.cpp:145
 msgid "Sheet"
 msgstr "Staat"
 
-#: part/View.cpp:290 part/View.cpp:1930
+#: part/View.cpp:289 part/View.cpp:1929
 msgid "Insert Sheet"
 msgstr "Voeg by Staat"
 
-#: part/View.cpp:291
+#: part/View.cpp:290
 #, fuzzy
 msgid "Insert a new sheet"
 msgstr "Voeg by 'n nuwe staat."
 
-#: part/View.cpp:296
+#: part/View.cpp:295
 #, fuzzy
 msgid "Duplicate the selected sheet"
 msgstr "Steek weg die aktief staat."
 
-#: part/View.cpp:302 part/View.cpp:1931 part/View.cpp:1936
+#: part/View.cpp:301 part/View.cpp:1930 part/View.cpp:1935
 #, fuzzy
 msgid "Remove the active sheet"
 msgstr "Verwyder die aktief staat."
 
-#: part/View.cpp:306
+#: part/View.cpp:305
 msgid "Rename Sheet..."
 msgstr "Herbenaam Staat..."
 
-#: part/View.cpp:309
+#: part/View.cpp:308
 #, fuzzy
 msgid "Rename the active sheet"
 msgstr "Herbenaam die aktief staat."
 
-#: part/View.cpp:311
+#: part/View.cpp:310
 msgid "Show Sheet..."
 msgstr "Vertoon Staat..."
 
-#: part/View.cpp:314
+#: part/View.cpp:313
 #, fuzzy
 msgid "Show a hidden sheet"
 msgstr "Vertoon 'n weg gesteekte staat."
 
-#: part/View.cpp:319
+#: part/View.cpp:318
 #, fuzzy
 msgid "Hide the active sheet"
 msgstr "Steek weg die aktief staat."
 
-#: part/View.cpp:321
+#: part/View.cpp:320
 #, fuzzy
 msgid "Page Layout..."
 msgstr "Papier Uitleg..."
 
-#: part/View.cpp:324
+#: part/View.cpp:323
 msgid "Specify the layout of the spreadsheet for a printout"
 msgstr ""
 
-#: part/View.cpp:326 part/View.cpp:1703
+#: part/View.cpp:325 part/View.cpp:1702
 msgid "Reset Print Range"
 msgstr "Herstel Druk Omvang"
 
-#: part/View.cpp:329
+#: part/View.cpp:328
 #, fuzzy
 msgid "Reset the print range in the current sheet"
 msgstr "Definieer die druk omvang in die huidige staat."
 
-#: part/View.cpp:331
+#: part/View.cpp:330
 #, fuzzy
 #| msgid "&Page borders:"
 msgid "Page Borders"
 msgstr "Bladsy grense:"
 
-#: part/View.cpp:332
+#: part/View.cpp:331
 msgid "Show on the spreadsheet where the page borders will be"
 msgstr ""
 
-#: part/View.cpp:336
+#: part/View.cpp:335
 msgid "Recalculate Sheet"
 msgstr "Herbereken Staat"
 
-#: part/View.cpp:338 part/View.cpp:346
+#: part/View.cpp:337 part/View.cpp:345
 #, fuzzy
 #| msgid "Recalculate Sheet"
 msgid "Recalculate"
 msgstr "Herbereken Staat"
 
-#: part/View.cpp:342
+#: part/View.cpp:341
 #, fuzzy
 msgid "Recalculate the value of every cell in the current worksheet"
 msgstr "Herbereken die waarde van elke sel in die huidige werkvel."
 
-#: part/View.cpp:344
+#: part/View.cpp:343
 #, fuzzy
 msgid "Recalculate Document"
 msgstr "Herbereken Staat"
 
-#: part/View.cpp:350
+#: part/View.cpp:349
 #, fuzzy
 msgid "Recalculate the value of every cell in all worksheets"
 msgstr "Herbereken die waarde van elke sel in die huidige werkvel."
 
-#: part/View.cpp:352
+#: part/View.cpp:351
 #, fuzzy
 msgid "Protect &Sheet..."
 msgstr "Volgende Staat"
 
-#: part/View.cpp:354
+#: part/View.cpp:353
 msgid "Protect the sheet from being modified"
 msgstr ""
 
-#: part/View.cpp:358
+#: part/View.cpp:357
 #, fuzzy
 msgid "Protect &Document..."
 msgstr "Presisie"
 
-#: part/View.cpp:360
+#: part/View.cpp:359
 msgid "Protect the document from being modified"
 msgstr ""
 
-#: part/View.cpp:365
+#: part/View.cpp:364
 msgid "&Create Template From Document..."
 msgstr "Skep Werkvoorbeeld Van Dokument..."
 
-#: part/View.cpp:369
+#: part/View.cpp:368
 #, fuzzy
 #| msgid "Andorra"
 msgid "Anchor"
 msgstr "Andorra"
 
-#: part/View.cpp:371 part/View.cpp:1024
+#: part/View.cpp:370 part/View.cpp:1023
 #, fuzzy
 #| msgid "page"
 msgid "Page"
 msgstr "bladsy"
 
-#: part/View.cpp:373
+#: part/View.cpp:372
 msgid "Switch shape anchoring"
 msgstr ""
 
-#: part/View.cpp:380
+#: part/View.cpp:379
 msgid "Next Sheet"
 msgstr "Volgende Staat"
 
-#: part/View.cpp:381
+#: part/View.cpp:380
 #, fuzzy
 #| msgid "Text"
 msgid "Next"
 msgstr "Teks"
 
-#: part/View.cpp:382
+#: part/View.cpp:381
 #, fuzzy
 msgid "Move to the next sheet"
 msgstr "Beweeg na die volgende staat."
 
-#: part/View.cpp:387
+#: part/View.cpp:386
 msgid "Previous Sheet"
 msgstr "Vorige Staat"
 
-#: part/View.cpp:388
+#: part/View.cpp:387
 #, fuzzy
 #| msgid "Previous Sheet"
 msgid "Previous"
 msgstr "Vorige Staat"
 
-#: part/View.cpp:389
+#: part/View.cpp:388
 #, fuzzy
 msgid "Move to the previous sheet"
 msgstr "Beweeg na die vorige staat."
 
-#: part/View.cpp:394
+#: part/View.cpp:393
 msgid "First Sheet"
 msgstr "Eerste Staat"
 
-#: part/View.cpp:395
+#: part/View.cpp:394
 #, fuzzy
 #| msgid "First Key"
 msgid "First"
 msgstr "Eerste Sleutel"
 
-#: part/View.cpp:396
+#: part/View.cpp:395
 #, fuzzy
 msgid "Move to the first sheet"
 msgstr "Beweeg na die eerste staat."
 
-#: part/View.cpp:400
+#: part/View.cpp:399
 msgid "Last Sheet"
 msgstr "Laaste Staat"
 
-#: part/View.cpp:402
+#: part/View.cpp:401
 #, fuzzy
 msgid "Move to the last sheet"
 msgstr "Beweeg na die laaste staat."
 
-#: part/View.cpp:408
+#: part/View.cpp:407
 #, fuzzy
 msgid "Column Header"
 msgstr "Kolom Nommer"
 
-#: part/View.cpp:409
+#: part/View.cpp:408
 #, fuzzy
 #| msgid "Show c&olumn header"
 msgid "Show the column header"
 msgstr "Vertoon kolom opskrif"
 
-#: part/View.cpp:414
+#: part/View.cpp:413
 #, fuzzy
 msgid "Row Header"
 msgstr "grootter"
 
-#: part/View.cpp:415
+#: part/View.cpp:414
 #, fuzzy
 #| msgid "Show &row header"
 msgid "Show the row header"
 msgstr "Vertoon ry opskrif"
 
-#: part/View.cpp:420
+#: part/View.cpp:419
 #, fuzzy
 #| msgid "Show &horizontal scrollbar"
 msgid "Horizontal Scrollbar"
 msgstr "Vertoon horisontaal rolstaaf"
 
-#: part/View.cpp:421
+#: part/View.cpp:420
 #, fuzzy
 #| msgid "Show &horizontal scrollbar"
 msgid "Show the horizontal scrollbar"
 msgstr "Vertoon horisontaal rolstaaf"
 
-#: part/View.cpp:426
+#: part/View.cpp:425
 #, fuzzy
 #| msgid "Show &vertical scrollbar"
 msgid "Vertical Scrollbar"
 msgstr "Vertoon vertikaal rolstaaf"
 
-#: part/View.cpp:427
+#: part/View.cpp:426
 #, fuzzy
 #| msgid "Show &vertical scrollbar"
 msgid "Show the vertical scrollbar"
 msgstr "Vertoon vertikaal rolstaaf"
 
-#: part/View.cpp:432
+#: part/View.cpp:431
 #, fuzzy
 msgid "Status Bar"
 msgstr "Vertoon statusbalk"
 
-#: part/View.cpp:433
+#: part/View.cpp:432
 #, fuzzy
 msgid "Show the status bar"
 msgstr "Vertoon statusbalk"
 
-#: part/View.cpp:438
+#: part/View.cpp:437
 #, fuzzy
 msgid "Tab Bar"
 msgstr "Vertoon Tabel"
 
-#: part/View.cpp:439
+#: part/View.cpp:438
 #, fuzzy
 msgid "Show the tab bar"
 msgstr "Vertoon statusbalk"
 
-#: part/View.cpp:445
+#: part/View.cpp:444
 #, fuzzy
 msgid "Set various KSpread options"
 msgstr "Stel verskeie Kspread opsies."
 
-#: part/View.cpp:458
+#: part/View.cpp:457
 msgid "No calculation"
 msgstr "Nee berekening"
 
-#: part/View.cpp:465
+#: part/View.cpp:464
 #, fuzzy
 msgid "Calculate using sum"
 msgstr "Bereken te gebruik som"
 
-#: part/View.cpp:472
+#: part/View.cpp:471
 #, fuzzy
 msgid "Calculate using minimum"
 msgstr "Bereken te gebruik minimum"
 
-#: part/View.cpp:479
+#: part/View.cpp:478
 #, fuzzy
 msgid "Calculate using maximum"
 msgstr "Bereken te gebruik maksimum"
 
-#: part/View.cpp:486
+#: part/View.cpp:485
 #, fuzzy
 msgid "Calculate using average"
 msgstr "Bereken te gebruik gemiddelde"
 
-#: part/View.cpp:493
+#: part/View.cpp:492
 #, fuzzy
 msgid "Calculate using the count"
 msgstr "Bereken te gebruik die tel"
 
-#: part/View.cpp:500
+#: part/View.cpp:499
 #, fuzzy
 msgid "Calculate using the countA"
 msgstr "Bereken te gebruik die tel"
 
-#: part/View.cpp:722 part/dialogs/PreferenceDialog.cpp:370
+#: part/View.cpp:721 part/dialogs/PreferenceDialog.cpp:370
 #, fuzzy
 msgid "Tools"
 msgstr "Togo"
 
-#: part/View.cpp:1371 part/View.cpp:1390 part/View.cpp:1734
+#: part/View.cpp:1370 part/View.cpp:1389 part/View.cpp:1733
 #, fuzzy
 msgid "You cannot change a protected sheet."
 msgstr "Jy kan nie uitvee die slegs staat."
 
-#: part/View.cpp:1410
+#: part/View.cpp:1409
 #, fuzzy
 msgid "You cannot hide the last visible sheet."
 msgstr "Jy kan nie steek weg die laaste sigbare tabel."
 
-#: part/View.cpp:1466
+#: part/View.cpp:1465
 #, fuzzy
 msgid "Protect Document"
 msgstr "Presisie"
 
-#: part/View.cpp:1469
+#: part/View.cpp:1468
 #, fuzzy
 msgid "Unprotect Document"
 msgstr "Presisie"
 
-#: part/View.cpp:1489
+#: part/View.cpp:1488
 #, fuzzy
 msgid "Protect Sheet"
 msgstr "Vooraf kies"
 
-#: part/View.cpp:1492
+#: part/View.cpp:1491
 #, fuzzy
 msgid "Unprotect Sheet"
 msgstr "Vooraf kies"
 
-#: part/View.cpp:1712
+#: part/View.cpp:1711
 msgid "You cannot delete the only sheet."
 msgstr "Jy kan nie uitvee die slegs staat."
 
-#: part/View.cpp:1715
+#: part/View.cpp:1714
 msgid ""
 "You are about to remove the active sheet.\n"
 "Do you want to continue?"
@@ -20230,56 +20180,62 @@ msgstr ""
 "Jy word aangaande na verwyder die aktief staat.\n"
 "Doen Jy wil hê na gaan voort?"
 
-#: part/View.cpp:1716
+#: part/View.cpp:1715
 #, fuzzy
 msgid "&Delete"
 msgstr "Uitvee Rye"
 
-#: part/View.cpp:1740 ui/CellToolBase.cpp:1598
+#: part/View.cpp:1739 ui/CellToolBase.cpp:1598
 msgid "Enter name:"
 msgstr "Invoer naam:"
 
-#: part/View.cpp:1745
+#: part/View.cpp:1744
 msgid "Sheet name cannot be empty."
 msgstr "Staat naam kan nie wees leeg."
 
-#: part/View.cpp:1745 part/View.cpp:1751
+#: part/View.cpp:1744 part/View.cpp:1750
 msgid "Change Sheet Name"
 msgstr "Verander Staat Naam"
 
-#: part/View.cpp:1751
+#: part/View.cpp:1750
 msgid "This name is already used."
 msgstr "Hierdie naam is alreeds gebruik word."
 
-#: part/View.cpp:1844
+#: part/View.cpp:1843
 #, fuzzy
 msgid "Sum: "
 msgstr " Som: %1"
 
-#: part/View.cpp:1847
+#: part/View.cpp:1846
 #, fuzzy
 msgid "Average: "
 msgstr "Gemiddelde: %1"
 
-#: part/View.cpp:1850
+#: part/View.cpp:1849
 #, fuzzy
 msgid "Min: "
 msgstr "Min: %1"
 
-#: part/View.cpp:1853
+#: part/View.cpp:1852
 #, fuzzy
 msgid "Max: "
 msgstr "Max: %1"
 
-#: part/View.cpp:1856
+#: part/View.cpp:1855
 #, fuzzy
 msgid "Count: "
 msgstr "Tel: %1"
 
-#: part/View.cpp:1859
+#: part/View.cpp:1858
 #, fuzzy
 msgid "CountA: "
 msgstr "Tel: %1"
+
+#: part/commands/PageLayoutCommand.cpp:35
+#: part/dialogs/PageLayoutDialog.cpp:223
+#, fuzzy
+msgid "Set Page Layout"
+msgstr "Stel Papier Uitleg"
 
 #: part/dialogs/PageLayoutDialog.cpp:103 part/dialogs/PageLayoutDialog.cpp:106
 #: part/dialogs/PageLayoutDialog.cpp:110
@@ -20758,6 +20714,10 @@ msgstr "Voeg in 'n nuwe kolom binnein die spreiblad."
 msgid "Removes a column from the spreadsheet"
 msgstr "Verwyder 'n kolom van die spreiblad."
 
+#: ui/CellToolBase.cpp:479
+msgid "Hide Columns"
+msgstr "Steek weg Kolomme"
+
 #: ui/CellToolBase.cpp:482
 #, fuzzy
 msgid "Hide the column from this"
@@ -20809,6 +20769,10 @@ msgstr "Voeg in 'n nuwe ry binnein die spreiblad."
 #, fuzzy
 msgid "Removes a row from the spreadsheet"
 msgstr "Verwyder 'n ry van die spreiblad."
+
+#: ui/CellToolBase.cpp:517
+msgid "Hide Rows"
+msgstr "Steek weg Rye"
 
 #: ui/CellToolBase.cpp:520
 #, fuzzy
@@ -21495,17 +21459,6 @@ msgstr "Styl:"
 msgid "Discard changes"
 msgstr ""
 
-#: ui/CharSelectDia.cpp:48 ui/CharSelectDia.cpp:66
-#, fuzzy
-msgid "Select Character"
-msgstr "Spesiaal Plak..."
-
-#: ui/CharSelectDia.cpp:58 ui/CharSelectDia.cpp:75
-#, fuzzy
-#| msgid "The text that will replace characters in old text"
-msgid "Insert the selected character in the text"
-msgstr "Die teks wat sal vervang karakters in ou teks"
-
 #: ui/HyperlinkStrategy.cpp:78
 #, kde-format
 msgid "Link %1 activated"
@@ -21539,6 +21492,33 @@ msgstr "Herbereken Staat"
 #, fuzzy
 msgid "Select Multiple Cells"
 msgstr "Jy moet kies veelvuldige selle."
+
+#, fuzzy
+#~ msgid "Change Format"
+#~ msgstr "Verander Skrif tipe"
+
+#~ msgid "Resize"
+#~ msgstr "Hervergroot"
+
+#~ msgid "Change Text"
+#~ msgstr "Verander Teks"
+
+#~ msgid "Insert Cell"
+#~ msgstr "Voeg by Sel"
+
+#~ msgid "Remove Cell"
+#~ msgstr "Verwyder Sel"
+
+#, fuzzy
+#~ msgid "Paste"
+#~ msgstr "Basis"
+
+#, fuzzy
+#~ msgid "Paste & Insert"
+#~ msgstr "Plak en Voeg by"
+
+#~ msgid "Style of Cell"
+#~ msgstr "Styl van Sel"
 
 #, fuzzy
 #~ msgid "Options"
