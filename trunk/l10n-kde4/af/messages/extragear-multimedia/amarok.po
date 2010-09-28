@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-27 06:11+0200\n"
+"POT-Creation-Date: 2010-09-28 07:11+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -33,7 +33,7 @@ msgstr "Luidheid"
 
 #: TrayIcon.cpp:119 TrayIconLegacy.cpp:154
 #: context/applets/currenttrack/CurrentTrack.cpp:129
-#: context/applets/currenttrack/CurrentTrack.cpp:574
+#: context/applets/currenttrack/CurrentTrack.cpp:586
 #: playlist/PlaylistModel.cpp:665 widgets/SmartPlaylistEditor.cpp:185
 #: widgets/MetaQueryWidget.cpp:229
 msgid "Score"
@@ -55,7 +55,7 @@ msgid "Last played"
 msgstr "Laas gespeel"
 
 #: TrayIconLegacy.cpp:184 context/applets/currenttrack/CurrentTrack.cpp:130
-#: context/applets/currenttrack/CurrentTrack.cpp:575
+#: context/applets/currenttrack/CurrentTrack.cpp:587
 #: widgets/MetaQueryWidget.cpp:232
 msgid "Last Played"
 msgstr "Laas Gespeel"
@@ -80,7 +80,7 @@ msgstr "Plaas Snitte in Wagtou"
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: TrayIconLegacy.cpp:224 rc.cpp:1613 rc.cpp:2236
+#: TrayIconLegacy.cpp:224 rc.cpp:1613 rc.cpp:2239
 msgid "&Cancel"
 msgstr "&Kanselleer"
 
@@ -1492,7 +1492,7 @@ msgid "No track playing"
 msgstr "Geen snit speel tans"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:128
-#: context/applets/currenttrack/CurrentTrack.cpp:573
+#: context/applets/currenttrack/CurrentTrack.cpp:585
 msgid "Play count"
 msgstr "Speel telling"
 
@@ -1502,15 +1502,25 @@ msgstr "Gunsteling snitte"
 
 #. i18n: file: context/applets/currenttrack/currentTrackSettings.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, currentTrackSettings)
-#: context/applets/currenttrack/CurrentTrack.cpp:714 rc.cpp:891
+#: context/applets/currenttrack/CurrentTrack.cpp:726 rc.cpp:891
 msgid "Current Track Settings"
 msgstr "Huidige Snit Instellings"
+
+#: context/applets/currenttrack/CurrentTrack.h:48
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
+msgid "Unknown Artist"
+msgstr "Onbekende Kunstenaar"
+
+#: context/applets/currenttrack/CurrentTrack.h:49
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:427
+msgid "Unknown Album"
+msgstr "Onbekende Album"
 
 #: context/applets/lyrics/LyricsApplet.cpp:49
 #: context/applets/lyrics/LyricsApplet.cpp:90
 #: context/applets/lyrics/LyricsApplet.cpp:236
-#: context/applets/lyrics/LyricsApplet.cpp:292
-#: context/applets/lyrics/LyricsApplet.cpp:303 dialogs/ScriptManager.cpp:695
+#: context/applets/lyrics/LyricsApplet.cpp:290
+#: context/applets/lyrics/LyricsApplet.cpp:301 dialogs/ScriptManager.cpp:695
 #: dialogs/TagDialog.cpp:698
 msgid "Lyrics"
 msgstr "Lirieke"
@@ -1522,7 +1532,7 @@ msgstr "Redigeer Lirieke"
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
 #: context/applets/lyrics/LyricsApplet.cpp:105
-#: firstruntutorial/FirstRunTutorialPage.cpp:56 rc.cpp:2261
+#: firstruntutorial/FirstRunTutorialPage.cpp:56 rc.cpp:2264
 msgid "Close"
 msgstr "Afsluit"
 
@@ -1548,15 +1558,15 @@ msgstr "Instellings"
 msgid "No lyrics script is running."
 msgstr "Geen lirieke skrip loop tans"
 
-#: context/applets/lyrics/LyricsApplet.cpp:257
+#: context/applets/lyrics/LyricsApplet.cpp:255
 msgid "Lyrics : Fetching ..."
 msgstr "Lirieke : Haal tans ..."
 
-#: context/applets/lyrics/LyricsApplet.cpp:258
+#: context/applets/lyrics/LyricsApplet.cpp:256
 msgid "Lyrics are being fetched."
 msgstr "Lirieke word tans gehaal."
 
-#: context/applets/lyrics/LyricsApplet.cpp:264
+#: context/applets/lyrics/LyricsApplet.cpp:262
 #, kde-format
 msgid ""
 "Could not download lyrics.\n"
@@ -1569,11 +1579,11 @@ msgstr ""
 "Foutboodskap:\n"
 "%1"
 
-#: context/applets/lyrics/LyricsApplet.cpp:314
+#: context/applets/lyrics/LyricsApplet.cpp:312
 msgid "There were no lyrics found for this track"
 msgstr "Geen lirieke kon vir hierdie snit gevind word nie"
 
-#: context/applets/lyrics/LyricsApplet.cpp:399
+#: context/applets/lyrics/LyricsApplet.cpp:397
 #, fuzzy
 #| msgctxt "@info"
 #| msgid ""
@@ -1587,13 +1597,13 @@ msgstr ""
 "Is jy seker jy wil die lirieke vir hierdie snit weer haal? Veranderinge wat "
 "aangebring is sal verlore raak."
 
-#: context/applets/lyrics/LyricsApplet.cpp:400
+#: context/applets/lyrics/LyricsApplet.cpp:398
 msgid "Refetch lyrics"
 msgstr "Haal Lirieke Weer"
 
 #. i18n: file: context/applets/lyrics/lyricsSettings.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, lyricsSettings)
-#: context/applets/lyrics/LyricsApplet.cpp:430 rc.cpp:894
+#: context/applets/lyrics/LyricsApplet.cpp:428 rc.cpp:894
 msgid "Lyrics Settings"
 msgstr "Lirieke Instellings"
 
@@ -1601,8 +1611,8 @@ msgstr "Lirieke Instellings"
 #: context/applets/photos/PhotosApplet.cpp:136
 #: context/applets/photos/PhotosApplet.cpp:195
 #: context/applets/photos/PhotosApplet.cpp:208
-#: context/applets/photos/PhotosApplet.cpp:229
-#: context/applets/photos/PhotosApplet.cpp:244
+#: context/applets/photos/PhotosApplet.cpp:228
+#: context/applets/photos/PhotosApplet.cpp:243
 msgid "Photos"
 msgstr "Fotos"
 
@@ -1632,7 +1642,7 @@ msgstr "Vervaag"
 msgid "Fetching ..."
 msgstr "Haal..."
 
-#: context/applets/photos/PhotosApplet.cpp:267
+#: context/applets/photos/PhotosApplet.cpp:266
 msgid "Photos Settings"
 msgstr "Foto Instellings"
 
@@ -1722,7 +1732,7 @@ msgstr "Last.Fm Naverwante Kunstenaars"
 #. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:21
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:330
-#: context/applets/wikipedia/WikipediaApplet.cpp:413 rc.cpp:929 rc.cpp:965
+#: context/applets/wikipedia/WikipediaApplet.cpp:412 rc.cpp:929 rc.cpp:965
 #, fuzzy
 #| msgid "Automatic"
 msgctxt "automatic language selection"
@@ -1734,7 +1744,7 @@ msgstr "Outomaties"
 #. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:26
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:333
-#: context/applets/wikipedia/WikipediaApplet.cpp:416 rc.cpp:932 rc.cpp:968
+#: context/applets/wikipedia/WikipediaApplet.cpp:415 rc.cpp:932 rc.cpp:968
 msgid "English"
 msgstr "Engels"
 
@@ -1743,7 +1753,7 @@ msgstr "Engels"
 #. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:31
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:336
-#: context/applets/wikipedia/WikipediaApplet.cpp:419 rc.cpp:935 rc.cpp:971
+#: context/applets/wikipedia/WikipediaApplet.cpp:418 rc.cpp:935 rc.cpp:971
 msgid "French"
 msgstr "Frans"
 
@@ -1752,7 +1762,7 @@ msgstr "Frans"
 #. i18n: file: context/applets/wikipedia/wikipediaSettings.ui:36
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox)
 #: context/applets/similarartists/SimilarArtistsApplet.cpp:339
-#: context/applets/wikipedia/WikipediaApplet.cpp:422 rc.cpp:938 rc.cpp:974
+#: context/applets/wikipedia/WikipediaApplet.cpp:421 rc.cpp:938 rc.cpp:974
 msgid "German"
 msgstr "Duits"
 
@@ -1951,7 +1961,7 @@ msgstr "Snit"
 msgid "Reload"
 msgstr "Herlaai"
 
-#: context/applets/wikipedia/WikipediaApplet.cpp:449
+#: context/applets/wikipedia/WikipediaApplet.cpp:448
 msgid "Wikipedia Settings"
 msgstr "Wikipedia Instellings"
 
@@ -1977,11 +1987,11 @@ msgstr "&Voeg by Speellys"
 #: context/applets/labels/LabelsApplet.cpp:149
 #: context/applets/labels/LabelsApplet.cpp:156
 #: context/applets/labels/LabelsApplet.cpp:409
-#: context/applets/labels/LabelsApplet.cpp:418 dialogs/TagDialog.cpp:700
+#: context/applets/labels/LabelsApplet.cpp:417 dialogs/TagDialog.cpp:700
 msgid "Labels"
 msgstr "Etikette"
 
-#: context/applets/labels/LabelsApplet.cpp:467
+#: context/applets/labels/LabelsApplet.cpp:466
 #, fuzzy, kde-format
 #| msgid "Track Details: %1 by %2"
 msgid "Labels for %1 by %2"
@@ -1989,7 +1999,7 @@ msgstr "Snit Besonderhede: %1 deur %2"
 
 #. i18n: file: context/applets/labels/labelsSettings.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, labelsSettings)
-#: context/applets/labels/LabelsApplet.cpp:593 rc.cpp:977
+#: context/applets/labels/LabelsApplet.cpp:592 rc.cpp:977
 #, fuzzy
 #| msgid "Lyrics Settings"
 msgid "Labels Settings"
@@ -2184,7 +2194,7 @@ msgid "print() takes one argument"
 msgstr "print() neem een argument"
 
 #: context/toolbar/AppletItemOverlay.cpp:104
-#: context/toolbar/AppletToolbarAppletItem.cpp:62
+#: context/toolbar/AppletToolbarAppletItem.cpp:64
 msgid "Remove Applet"
 msgstr "Verwyder Miniprogram"
 
@@ -2192,13 +2202,13 @@ msgstr "Verwyder Miniprogram"
 msgid "Add Applets..."
 msgstr "Miniprogramme Byvoeg..."
 
-#: context/toolbar/AppletToolbarAppletItem.cpp:57
-msgid "no applet name"
-msgstr "geen miniprogram naam"
-
 #: context/toolbar/AppletToolbarConfigItem.cpp:36
 msgid "Configure Applets..."
 msgstr "Miniprogramme Opstel..."
+
+#: context/toolbar/AppletToolbarAppletItem.cpp:59
+msgid "no applet name"
+msgstr "geen miniprogram naam"
 
 #: context/tools/amarokpkg.cpp:40
 msgid "Install, list, remove Amarok applets"
@@ -2299,11 +2309,6 @@ msgctxt ""
 msgid "One of install, remove, upgrade or list is required."
 msgstr "Één van installeer, verwyder, opgradeer of lys word vereis."
 
-#: context/widgets/ToolBoxMenu.cpp:107
-#: context/widgets/appletexplorer/AppletExplorer.cpp:90
-msgid "Hide menu"
-msgstr "Versteek kieslys"
-
 #: context/widgets/TrackWidget.cpp:39
 msgctxt "Score of a track"
 msgid "Score:"
@@ -2313,6 +2318,11 @@ msgstr "Evaluasie:"
 #, kde-format
 msgid "%1 - %2 (%3)"
 msgstr "%1 - %2 (%3)"
+
+#: context/widgets/appletexplorer/AppletExplorer.cpp:90
+#: context/widgets/ToolBoxMenu.cpp:109
+msgid "Hide menu"
+msgstr "Versteek kieslys"
 
 #: context/widgets/appletexplorer/AppletItemModel.cpp:93
 msgid "Containments"
@@ -2559,19 +2569,19 @@ msgstr ""
 "Amarok benodig 'sudo' toegang om die FirewireGuid te bekom, wat op sy beurt "
 "nodig is om te koppel aan jou toestel. Gee asb. jou 'sudo' wagwoord"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2195
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2197
 msgid "Select Stale Tracks To Delete"
 msgstr "Kies Vervalde Snitte Om Te Skrap"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2195
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2197
 msgid "Stale Tracks"
 msgstr "Vervalde Snitte"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2248
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2250
 msgid "Adding Orphaned Tracks to iPod Database"
 msgstr "Voeg Wees-snitte by iPod Databasis"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2286
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2288
 #, kde-format
 msgctxt "@info"
 msgid "One orphaned track added to the database."
@@ -2579,7 +2589,7 @@ msgid_plural "%1 tracks added to the database."
 msgstr[0] "Een wees-snit by databasis gevoeg"
 msgstr[1] "%1 wees-snitte by databasis gevoeg"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2291
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2293
 msgid "Orphaned Tracks Added"
 msgstr "Wees-snitte Bygevoeg"
 
@@ -2596,56 +2606,60 @@ msgstr "Snitte nie gekopieer nie: daar word reeds na die toestel gekopieer"
 msgid "Unsupported format: %1"
 msgstr "Nie ondersteunde formaat: %1"
 
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:390
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:391
 msgid "Already on device"
 msgstr "Reeds op toestel"
 
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:406
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:407
 msgid "Tracks not copied: the device already has these tracks"
 msgstr "Snitte nie gekopieer nie: snitte is reeds op die toestel"
 
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:427
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:428
 msgid "Tracks not copied: the device has insufficient space"
 msgstr ""
 "Snitte nie gekopieer nie: die toestel beskik nie oor voldoende ruimte nie"
 
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:436
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:437
 msgid "Transferring Tracks to Device"
 msgstr "Dra Snitte oor na Toestel"
 
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:557
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:482
 #, kde-format
 msgid "%1 track failed to copy to the device"
 msgid_plural "%1 tracks failed to copy to the device"
 msgstr[0] "oordrag van %1 snit na die toestel het misluk"
 msgstr[1] "oordrag van %1 snitte na die toestel het misluk"
 
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:582
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:584
 msgid "The track failed to copy to the device"
 msgstr "Oordrag van die snit na die toestel het misluk"
 
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:592
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:594
 msgid "Track not deleted:"
 msgid_plural "Tracks not deleted:"
 msgstr[0] "Snit ongeskrap:"
 msgstr[1] "Snitte ongeskrap:"
 
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:593
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:595
 msgid "Deleting Track Failed"
 msgid_plural "Deleting Tracks Failed"
 msgstr[0] "Snit Skrap Mislukking"
 msgstr[1] "Snitte Skrap Mislukking"
 
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:597
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:599
 #, kde-format
 msgid "%1 tracks are already being deleted from the device."
 msgstr "%1 Snit word reeds van die toestel verwyder."
 
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:614
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:616
 msgid "Removing Track from Device"
 msgid_plural "Removing Tracks from Device"
 msgstr[0] "Verwyder Snit van Toestel"
 msgstr[1] "Verwyder Snitte van Toestel"
+
+#: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.h:42
+msgid "Media Device playlists"
+msgstr "Media Toestel speellyste"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:115
 #: playlistmanager/file/PlaylistFileProvider.cpp:442
@@ -2660,10 +2674,6 @@ msgstr "Wysig speellys"
 #: playlistmanager/PlaylistManager.cpp:346
 msgid "Enter new name for playlist:"
 msgstr "Gee nuwe naam vir speellys:"
-
-#: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.h:42
-msgid "Media Device playlists"
-msgstr "Media Toestel speellyste"
 
 #: core-impl/collections/mediadevicecollection/podcast/MediaDevicePodcastProvider.cpp:58
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:155
@@ -2683,14 +2693,6 @@ msgstr "Kon nie aan die MTP Toestel koppel nie"
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:374
 msgid "Could not copy track from device."
 msgstr "Kon nie die snit vanaf die toestel kopieer nie"
-
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
-msgid "Unknown Artist"
-msgstr "Onbekende Kunstenaar"
-
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:427
-msgid "Unknown Album"
-msgstr "Onbekende Album"
 
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:433
 msgid "Unknown Genre"
@@ -2749,7 +2751,7 @@ msgstr "Vertoon in Verskeie Kunstenaars"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:90
 #. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: core-impl/collections/sqlcollection/SqlMeta.cpp:233 rc.cpp:2172
+#: core-impl/collections/sqlcollection/SqlMeta.cpp:233 rc.cpp:2175
 msgid "Stream"
 msgstr "Stroom"
 
@@ -3889,7 +3891,7 @@ msgstr "Databasis Ligging"
 
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:63
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
-#. i18n: file: services/ampache/NewServerWidget.ui:40
+#. i18n: file: services/ampache/NewServerWidget.ui:53
 #. i18n: ectx: property (text), widget (QLabel, labelUsername)
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:52 rc.cpp:2106
 #: rc.cpp:2121
@@ -3900,7 +3902,7 @@ msgstr "Gebruikernaam"
 #. i18n: ectx: label, entry, group (Scrobbler)
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:68
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
-#. i18n: file: services/ampache/NewServerWidget.ui:50
+#. i18n: file: services/ampache/NewServerWidget.ui:63
 #. i18n: ectx: property (text), widget (QLabel, labelPassword)
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:56 rc.cpp:428
 #: rc.cpp:2109 rc.cpp:2124
@@ -6204,7 +6206,7 @@ msgstr "Verstek Uitleg"
 
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:36
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:524 rc.cpp:2298
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:524 rc.cpp:2301
 msgid "No Grouping"
 msgstr "Geen Groepering"
 
@@ -7091,25 +7093,43 @@ msgstr "<p>Daar was geen inligting vir hierdie kunstenaar nie.</p>"
 msgid "Ampache Server %1"
 msgstr "Ampache Bediener %1"
 
-#: services/ampache/AmpacheService.cpp:126
+#: services/ampache/AddServerDialog.cpp:33
+#, fuzzy
+#| msgid "Add new preset"
+msgid "Add new Ampache server"
+msgstr "Voeg nuwe voorafinstelling by"
+
+#: services/ampache/AddServerDialog.cpp:73
+#, fuzzy
+#| msgid "Successfully installed %1"
+msgid "Successfully connected"
+msgstr "%1 Suksesvol geïnstalleer"
+
+#: services/ampache/AddServerDialog.cpp:78
+#, fuzzy
+#| msgid "Connection"
+msgid "Connection failure"
+msgstr "Verbinding"
+
+#: services/ampache/AmpacheAccountLogin.cpp:134
+msgid "Enter the server name and a password"
+msgstr "Gee die bediener naam en wagwoord"
+
+#: services/ampache/AmpacheAccountLogin.cpp:224
+msgid "Authentication Error"
+msgstr "Bekragtigingsfout"
+
+#: services/ampache/AmpacheService.cpp:98
 msgid "Amarok frontend for your Ampache server."
 msgstr "Amarok voorkant vir jou Ampache bediener."
 
-#: services/ampache/AmpacheService.cpp:128
+#: services/ampache/AmpacheService.cpp:100
 msgid ""
 "Use Amarok as a seamless frontend to your Ampache server. This lets you "
 "browse and play all the Ampache contents from within Amarok."
 msgstr ""
 "Gebruik Amarok as a deursigtige voorkant tot jou Ampache bediener. Dit laat "
 "jou toe om deur alle Amapache inhoud te blaai en speel, van binne Amarok."
-
-#: services/ampache/AmpacheService.cpp:214
-msgid "Enter the server name and a password"
-msgstr "Gee die bediener naam en wagwoord"
-
-#: services/ampache/AmpacheService.cpp:305
-msgid "Authentication Error"
-msgstr "Bekragtigingsfout"
 
 #: services/jamendo/JamendoInfoParser.cpp:46
 #: services/jamendo/JamendoInfoParser.cpp:77
@@ -7125,7 +7145,7 @@ msgstr "Van Jamendo.com"
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:83
 #. i18n: ectx: property (text), widget (QPushButton, downloadButton)
 #: services/jamendo/JamendoMeta.cpp:135 services/jamendo/JamendoMeta.cpp:371
-#: rc.cpp:2224
+#: rc.cpp:2227
 msgid "&Download"
 msgstr "Aflaai"
 
@@ -7197,7 +7217,7 @@ msgstr "Opdateer"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:95
 #. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: services/jamendo/JamendoService.cpp:124 rc.cpp:2175
+#: services/jamendo/JamendoService.cpp:124 rc.cpp:2178
 msgid "Download"
 msgstr "Aflaai"
 
@@ -7534,7 +7554,7 @@ msgstr "Toets Aanteken"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:96
 #. i18n: ectx: property (text), widget (QPushButton, testLogin)
-#: services/lastfm/LastFmServiceSettings.cpp:196 rc.cpp:2139
+#: services/lastfm/LastFmServiceSettings.cpp:196 rc.cpp:2142
 msgid "&Test Login"
 msgstr "Toets Aanteken"
 
@@ -10462,7 +10482,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_User)
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:44
 #. i18n: ectx: property (text), widget (QLabel, labelUsername)
-#: rc.cpp:794 rc.cpp:2130
+#: rc.cpp:794 rc.cpp:2133
 msgid "&Username:"
 msgstr "Gebruikernaam:"
 
@@ -10478,7 +10498,7 @@ msgstr "Wagwoord vir die eksterne databasis gebruiker."
 #. i18n: ectx: property (text), widget (QLabel, label_Password)
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:57
 #. i18n: ectx: property (text), widget (QLabel, labelPassword)
-#: rc.cpp:801 rc.cpp:2133
+#: rc.cpp:801 rc.cpp:2136
 msgid "&Password:"
 msgstr "Wagwoord:"
 
@@ -10639,7 +10659,7 @@ msgstr "Pasmaak die Voor-Skerm Vertoon teks."
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:3
-#: rc.cpp:879 rc.cpp:2295
+#: rc.cpp:879 rc.cpp:2298
 msgid "Default"
 msgstr "Verstek"
 
@@ -12882,21 +12902,29 @@ msgstr "Bediener wagwoorde"
 msgid "Form"
 msgstr "Vorm"
 
+#. i18n: file: services/ampache/NewServerWidget.ui:77
+#. i18n: ectx: property (text), widget (KPushButton, verifyButton)
+#: rc.cpp:2127
+#, fuzzy
+#| msgid "Connection"
+msgid "Check Connection"
+msgstr "Verbinding"
+
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:38
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
-#: rc.cpp:2127
+#: rc.cpp:2130
 msgid "Last.fm Profile"
 msgstr "Last.fm Profiel"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:86
 #. i18n: ectx: property (text), widget (QLabel, kActiveLabel1)
-#: rc.cpp:2136
+#: rc.cpp:2139
 msgid "<a href=\"http://www.last.fm:80/signup.php\">Sign up to last.fm</a>"
 msgstr "<a href=\"http://www.last.fm:80/signup.php\">Teken in op last.fm</a>"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:106
 #. i18n: ectx: property (text), widget (QLabel, kActiveLabel2)
-#: rc.cpp:2142
+#: rc.cpp:2145
 msgid ""
 "Why not join the <a href=\"http://www.last.fm:80/group/Amarok+Users\">Amarok "
 "last.fm group</a> and share your musical tastes with other Amarok users?"
@@ -12907,31 +12935,31 @@ msgstr ""
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:116
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:2145
+#: rc.cpp:2148
 msgid "Last.fm Services"
 msgstr "Last.fm Dienste"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:125
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SubmitPlayedSongs)
-#: rc.cpp:2148
+#: rc.cpp:2151
 msgid "&Submit tracks"
 msgstr "Dien snitte in"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:135
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RetrieveSimilarArtists)
-#: rc.cpp:2151
+#: rc.cpp:2154
 msgid "&Retrieve similar artists"
 msgstr "Onttrek verwante kunstenaars"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:2154
+#: rc.cpp:2157
 msgid "Redownloads"
 msgstr "Heraflaaie"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:2157
+#: rc.cpp:2160
 msgid ""
 "Enter your e-mail here to be able to redownload any previous purchase from "
 "Magnatune directly from within Amarok."
@@ -12941,14 +12969,14 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:33
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:2160
+#: rc.cpp:2163
 msgctxt "Username for logins to Magnatune"
 msgid "E-mail:"
 msgstr "E-pos:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:53
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:2163
+#: rc.cpp:2166
 #, fuzzy
 #| msgid "Membership options"
 msgid "Membership Options"
@@ -12956,32 +12984,32 @@ msgstr "Lidmaatskap opsies"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, isMemberCheckbox)
-#: rc.cpp:2166
+#: rc.cpp:2169
 msgid "I am a member"
 msgstr "Ek is 'n lid"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:79
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:2169
+#: rc.cpp:2172
 msgid "Membership type:"
 msgstr "Lidmaatskap soort:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:103
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:2178
+#: rc.cpp:2181
 msgctxt "Username for logins to Magnatune"
 msgid "Username:"
 msgstr "Gebruikernaam:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:117
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:2181
+#: rc.cpp:2184
 msgid "Password:"
 msgstr "Wagwoord:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:135
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:2184
+#: rc.cpp:2187
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -13015,7 +13043,7 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:157
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:2191
+#: rc.cpp:2194
 #, fuzzy
 #| msgid "Stream options"
 msgid "Stream Options"
@@ -13023,55 +13051,55 @@ msgstr "Stroom opsies"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:163
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:2194
+#: rc.cpp:2197
 msgid "Preview stream type:"
 msgstr "Soort voorskou stroom:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:171
 #. i18n: ectx: property (text), item, widget (QComboBox, streamTypeComboBox)
-#: rc.cpp:2197
+#: rc.cpp:2200
 msgid "Ogg"
 msgstr "Ogg"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:176
 #. i18n: ectx: property (text), item, widget (QComboBox, streamTypeComboBox)
-#: rc.cpp:2200
+#: rc.cpp:2203
 msgid "High Quality Mp3"
 msgstr "Hoë Gehalte Mp3"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:181
 #. i18n: ectx: property (text), item, widget (QComboBox, streamTypeComboBox)
-#: rc.cpp:2203
+#: rc.cpp:2206
 msgid "Low Quality Mp3"
 msgstr "Lae Gehalte Mp3"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QDialog, magnatuneDownloadDialogBase)
-#: rc.cpp:2206
+#: rc.cpp:2209
 msgid "Magnatune.com Album Download"
 msgstr "Magnatune.com Album Aflaai"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:2209
+#: rc.cpp:2212
 msgid "Download options"
 msgstr "Aflaai opsies"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:25
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:2212
+#: rc.cpp:2215
 msgid "Select Format:"
 msgstr "Kies Formaat:"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:38
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:2215
+#: rc.cpp:2218
 msgid "Download to:"
 msgstr "Aflaai na:"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:51
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:2218
+#: rc.cpp:2221
 msgid ""
 "If you download to a location that is already being monitored by Amarok, the "
 "album will automatically be added to your collection."
@@ -13081,37 +13109,37 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:67
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:2221
+#: rc.cpp:2224
 msgid "Magnatune info"
 msgstr "Magnatune inligting"
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QDialog, magnatuneReDownloadDialogBase)
-#: rc.cpp:2227
+#: rc.cpp:2230
 msgid "Redownload manager"
 msgstr "Laai bestuurder weer af"
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:19
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:2230
+#: rc.cpp:2233
 msgid "These are the albums that you have previously downloaded:"
 msgstr "Hierdie is die albums wat jy vantevore afgelaai het:"
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:29
 #. i18n: ectx: property (text), widget (QPushButton, redownloadButton)
-#: rc.cpp:2233
+#: rc.cpp:2236
 msgid "Re&download"
 msgstr "Heraflaai"
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:60
 #. i18n: ectx: property (text), widget (QTreeWidget, redownloadListView)
-#: rc.cpp:2239
+#: rc.cpp:2242
 msgid "Artist - Album"
 msgstr "Kunstenaar - Album"
 
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, SignupDialog)
-#: rc.cpp:2242
+#: rc.cpp:2245
 #, fuzzy
 #| msgid "Magnatune.com Album Download"
 msgid "Magnatune.com member signup"
@@ -13119,7 +13147,7 @@ msgstr "Magnatune.com Album Aflaai"
 
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:2246
+#: rc.cpp:2249
 #, no-c-format
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -13167,7 +13195,7 @@ msgstr ""
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:2264
+#: rc.cpp:2267
 #, fuzzy
 #| msgid "Mp3tunes Login"
 msgid "MP3tunes Login"
@@ -13175,14 +13203,14 @@ msgstr "Mp3tunes Aanteken"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:2267
+#: rc.cpp:2270
 msgctxt "The e-mail address for Mp3Tunes logins"
 msgid "E-Mail:"
 msgstr "E-pos:"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:2270
+#: rc.cpp:2273
 #, fuzzy
 #| msgid "Password:"
 msgctxt "The MP3Tunes password"
@@ -13193,7 +13221,7 @@ msgstr "Wagwoord:"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableHarmony)
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:49
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
-#: rc.cpp:2273 rc.cpp:2276
+#: rc.cpp:2276 rc.cpp:2279
 msgid ""
 "AutoSync is a feature from MP3tunes which allows you to automatically move "
 "your music between computers and devices."
@@ -13203,7 +13231,7 @@ msgstr ""
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:52
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
-#: rc.cpp:2279
+#: rc.cpp:2282
 msgid ""
 "AutoSync is a feature from MP3tunes which allows you to automatically move "
 "your music between computers and devices. You can upload music from one "
@@ -13215,7 +13243,7 @@ msgstr ""
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:55
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:2282
+#: rc.cpp:2285
 #, fuzzy
 #| msgctxt "Enable harmony"
 #| msgid "Enable Auto Sync"
@@ -13225,7 +13253,7 @@ msgstr "Aktiveer Auto Sync"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:62
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:2285
+#: rc.cpp:2288
 #, fuzzy
 #| msgid " PIN Code:"
 msgid "PIN Code:"
@@ -13233,7 +13261,7 @@ msgstr "PIN Kode:"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:89
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:2288
+#: rc.cpp:2291
 #, fuzzy
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -13277,13 +13305,13 @@ msgstr ""
 
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:60
-#: rc.cpp:2301
+#: rc.cpp:2304
 msgid "No Grouping (Single Line)"
 msgstr "Geen Groepering (Enkele Reël)"
 
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:77
-#: rc.cpp:2304
+#: rc.cpp:2307
 msgid "Verbose"
 msgstr "Breedspraaklik"
 
