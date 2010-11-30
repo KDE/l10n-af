@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-29 02:27+0100\n"
+"POT-Creation-Date: 2010-11-30 02:38+0100\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -17,6 +17,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.0\n"
+
+#: TrayIcon.cpp:144 widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340
+msgid "Muted"
+msgstr "Verdoof"
+
+#: TrayIcon.cpp:150 widgets/SliderWidget.cpp:243
+msgid "Volume"
+msgstr "Luidheid"
+
+#: TrayIcon.cpp:155 context/applets/currenttrack/CurrentTrack.cpp:468
+#: playlist/PlaylistModel.cpp:892 widgets/SmartPlaylistEditor.cpp:185
+msgid "Score"
+msgstr "Evaluasie"
+
+#: TrayIcon.cpp:173 playlist/ProgressiveSearchWidget.cpp:109
+#: playlist/PlaylistModel.cpp:893 widgets/SmartPlaylistEditor.cpp:185
+msgid "Rating"
+msgstr "Keuring"
+
+#: TrayIcon.cpp:179 playlist/PlaylistModel.cpp:894
+msgid "Play Count"
+msgstr "Speel Telling"
+
+#: TrayIcon.cpp:183
+msgid "Last played"
+msgstr "Laas gespeel"
 
 #: MainWindow.cpp:281
 msgid "Local Music"
@@ -109,187 +135,194 @@ msgid "&Clear Playlist"
 msgstr "&Wis Speellys"
 
 #: MainWindow.cpp:746
+#, fuzzy
+#| msgid "&Queue"
+msgctxt "edit play queue of playlist"
+msgid "Edit &Queue"
+msgstr "Wagtou"
+
+#: MainWindow.cpp:749
 msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
 msgid "Re&move Duplicates"
 msgstr "Verwyder Duplikate"
 
-#: MainWindow.cpp:753
+#: MainWindow.cpp:756
 msgid "&Add Stream..."
 msgstr "Stroom Byvoeg..."
 
-#: MainWindow.cpp:757
+#: MainWindow.cpp:760
 msgid "&Export Playlist As..."
 msgstr "&Voer Stroom Uit As..."
 
-#: MainWindow.cpp:761 amarokurls/NavigationUrlGenerator.cpp:250
+#: MainWindow.cpp:764 amarokurls/NavigationUrlGenerator.cpp:250
 msgid "Bookmark Media Sources View"
 msgstr "Boekmerk Media Bronne Aansig"
 
-#: MainWindow.cpp:765 amarokurls/BookmarkManager.cpp:43
+#: MainWindow.cpp:768 amarokurls/BookmarkManager.cpp:43
 msgid "Bookmark Manager"
 msgstr "Boekmerk Bestuurder"
 
-#: MainWindow.cpp:769
+#: MainWindow.cpp:772
 msgid "Equalizer"
 msgstr "Band menger"
 
-#: MainWindow.cpp:773 playlist/PlaylistViewUrlGenerator.cpp:101
+#: MainWindow.cpp:776 playlist/PlaylistViewUrlGenerator.cpp:101
 msgid "Bookmark Playlist Setup"
 msgstr "Boekmerk Speellys Opstel"
 
-#: MainWindow.cpp:777
+#: MainWindow.cpp:780
 msgid "Bookmark Context Applets"
 msgstr "Boekmerk Konteks Miniprogramme"
 
-#: MainWindow.cpp:781 covermanager/CoverManager.cpp:105
+#: MainWindow.cpp:784 covermanager/CoverManager.cpp:105
 msgid "Cover Manager"
 msgstr "Omslag Bestuurder"
 
-#: MainWindow.cpp:785
+#: MainWindow.cpp:788
 msgid "Play Media..."
 msgstr "Speel Media..."
 
-#: MainWindow.cpp:790 dialogs/ScriptManager.cpp:99
+#: MainWindow.cpp:793 dialogs/ScriptManager.cpp:99
 msgid "Script Manager"
 msgstr "Skrip Bestuurder"
 
-#: MainWindow.cpp:794
+#: MainWindow.cpp:797
 msgid "&Seek Forward"
 msgstr "Soek Vooruit"
 
-#: MainWindow.cpp:800
+#: MainWindow.cpp:803
 msgid "&Seek Backward"
 msgstr "Soek Agteruit"
 
-#: MainWindow.cpp:807
+#: MainWindow.cpp:810
 msgid "Update Collection"
 msgstr "Versameling Opdateer"
 
-#: MainWindow.cpp:814 widgets/MainControlsWidget.cpp:62
+#: MainWindow.cpp:817 widgets/MainControlsWidget.cpp:62
 msgid "Previous Track"
 msgstr "Vorige Snit"
 
-#: MainWindow.cpp:821
+#: MainWindow.cpp:824
 #, fuzzy
 #| msgid "Rate Current Track: 1"
 msgid "Restart current track"
 msgstr "Keuring vir die huidige snit: 1"
 
-#: MainWindow.cpp:827
+#: MainWindow.cpp:830
 msgid "Repopulate Playlist"
 msgstr "Herbevolk Speellys"
 
-#: MainWindow.cpp:833
+#: MainWindow.cpp:836
 #, fuzzy
 #| msgid "Default Dynamic Playlist"
 msgid "Disable Dynamic Playlist"
 msgstr "Verstek Dinamiese Speellys"
 
-#: MainWindow.cpp:837 widgets/MainControlsWidget.cpp:86
+#: MainWindow.cpp:840 widgets/MainControlsWidget.cpp:86
 msgid "Next Track"
 msgstr "Volgende Snit"
 
-#: MainWindow.cpp:842
+#: MainWindow.cpp:845
 msgid "Increase Volume"
 msgstr "Vermeeder Luidheid"
 
-#: MainWindow.cpp:848
+#: MainWindow.cpp:851
 msgid "Decrease Volume"
 msgstr "Verminder Luidheid"
 
-#: MainWindow.cpp:854
+#: MainWindow.cpp:857
 msgid "Toggle Main Window"
 msgstr "Wissel Hoof Venster"
 
-#: MainWindow.cpp:859
+#: MainWindow.cpp:862
 msgid "Toggle Full Screen"
 msgstr "Verwissel Volskerm"
 
-#: MainWindow.cpp:864
+#: MainWindow.cpp:867
 msgid "Jump to"
 msgstr "Spring na"
 
-#: MainWindow.cpp:869
+#: MainWindow.cpp:872
 msgid "Show active track"
 msgstr "Dui aan werksame snit"
 
-#: MainWindow.cpp:873
+#: MainWindow.cpp:876
 msgid "Show Notification Popup"
 msgstr "Wys Kennisgewing Opspring"
 
-#: MainWindow.cpp:878
+#: MainWindow.cpp:881
 msgid "Mute Volume"
 msgstr "Doof Luidheid"
 
-#: MainWindow.cpp:883
+#: MainWindow.cpp:886
 msgid "Last.fm: Love Current Track"
 msgstr "Last.fm: Gaande oor Huidige Snit"
 
-#: MainWindow.cpp:888
+#: MainWindow.cpp:891
 msgid "Last.fm: Ban Current Track"
 msgstr "Last.fm: Verban Huidige Snit"
 
-#: MainWindow.cpp:893
+#: MainWindow.cpp:896
 msgid "Last.fm: Skip Current Track"
 msgstr "Last.fm: Slaan Huidige Snit Oor"
 
-#: MainWindow.cpp:898 playlist/view/PlaylistViewCommon.cpp:116
+#: MainWindow.cpp:901 playlist/view/PlaylistViewCommon.cpp:115
 msgid "Queue Track"
 msgstr "Plaas Snit In Wagtou"
 
-#: MainWindow.cpp:903
+#: MainWindow.cpp:906
 msgid "Rate Current Track: 1"
 msgstr "Keuring vir die huidige snit: 1"
 
-#: MainWindow.cpp:908
+#: MainWindow.cpp:911
 msgid "Rate Current Track: 2"
 msgstr "Keuring vir die huidige snit: 2"
 
-#: MainWindow.cpp:913
+#: MainWindow.cpp:916
 msgid "Rate Current Track: 3"
 msgstr "Keuring vir die huidige snit: 3"
 
-#: MainWindow.cpp:918
+#: MainWindow.cpp:921
 msgid "Rate Current Track: 4"
 msgstr "Keuring vir die huidige snit: 4"
 
-#: MainWindow.cpp:923
+#: MainWindow.cpp:926
 msgid "Rate Current Track: 5"
 msgstr "Keuring vir die huidige snit: 5"
 
-#: MainWindow.cpp:929
+#: MainWindow.cpp:932
 msgid "Network Request Viewer"
 msgstr ""
 
-#: MainWindow.cpp:947
+#: MainWindow.cpp:950
 msgid "&About Amarok"
 msgstr "Aangaande Amarok"
 
-#: MainWindow.cpp:951
+#: MainWindow.cpp:954
 msgid "&Report Bug..."
 msgstr ""
 
-#: MainWindow.cpp:1011
+#: MainWindow.cpp:1014
 msgid "&Music"
 msgstr "&Musiek"
 
-#: MainWindow.cpp:1015
+#: MainWindow.cpp:1018
 msgid "&Amarok"
 msgstr "&Amarok"
 
-#: MainWindow.cpp:1039 playlist/PlaylistDock.cpp:47
+#: MainWindow.cpp:1042 playlist/PlaylistDock.cpp:48
 msgid "&Playlist"
 msgstr "Speellys"
 
-#: MainWindow.cpp:1055
+#: MainWindow.cpp:1058
 msgid "&Tools"
 msgstr "&Gereedskap"
 
-#: MainWindow.cpp:1070
+#: MainWindow.cpp:1073
 msgid "&Settings"
 msgstr "&Instellings"
 
-#: MainWindow.cpp:1116
+#: MainWindow.cpp:1119
 #, kde-format
 msgid ""
 "You have chosen to hide the menu bar.\n"
@@ -297,18 +330,18 @@ msgid ""
 "Please remember that you can always use the shortcut \"%1\" to bring it back."
 msgstr ""
 
-#: MainWindow.cpp:1118
+#: MainWindow.cpp:1121
 #, fuzzy
 #| msgid "Hide menu"
 msgid "Hide Menu"
 msgstr "Versteek kieslys"
 
-#: MainWindow.cpp:1162
+#: MainWindow.cpp:1165
 #, kde-format
 msgid "Paused  ::  %1"
 msgstr "Wagtend :: %1"
 
-#: MainWindow.cpp:1175 amarokurls/BookmarkTreeView.cpp:377
+#: MainWindow.cpp:1178 amarokurls/BookmarkTreeView.cpp:377
 #: amarokurls/BookmarkTreeView.cpp:378 amarokurls/BookmarkTreeView.cpp:379
 #: context/applets/albums/AlbumItem.cpp:97
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:413
@@ -318,80 +351,10 @@ msgstr "Wagtend :: %1"
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: MainWindow.cpp:1175
+#: MainWindow.cpp:1178
 #, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
-
-#: EngineController.cpp:267
-msgid ""
-"<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
-"the installation of the backend that phonon uses.</p><p>You may find useful "
-"information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
-msgstr ""
-"<p>Phonon beweer dit <b>kannie</b> MP3 lêers speel nie. Jy mag dalk die "
-"opstelling van die agterkant wat phonon gebruik nagaan.</p><p>Jy mag dalk "
-"nuttige inligting vind in die <i>FAQ</i> (Veel Voorkomende Vrae) afdeling "
-"van die <i>Amarok Handboek</i>.</p>"
-
-#: EngineController.cpp:288
-msgid "Install MP3 Support"
-msgstr "Installeer MP3 Ondersteuning"
-
-#: EngineController.cpp:290
-msgid ""
-"Amarok currently cannot play MP3 files. Do you want to install support for "
-"MP3?"
-msgstr ""
-"Amarok is nie tans in staat om MP3 lêers te speel nie. Wil jy ondersteuning "
-"vir MP3 installeer?"
-
-#: EngineController.cpp:291
-msgid "No MP3 Support"
-msgstr "Geen MP3 Ondersteuning"
-
-#: EngineController.cpp:856
-msgid "Preamp"
-msgstr "Vooraf versterking"
-
-#: EngineController.cpp:1152
-msgid "Too many errors encountered in playlist. Playback stopped."
-msgstr "Te veel foute teëgekom in speellys. Opgehou speel. "
-
-#: EngineController.cpp:1368
-#, kde-format
-msgctxt "track by artist on album"
-msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
-msgstr "<b>%1</b> deur <b>%2</b> op <b>%3</b>"
-
-#: EngineController.cpp:1371
-#, kde-format
-msgctxt "track by artist"
-msgid "<b>%1</b> by <b>%2</b>"
-msgstr "<b>%1</b> deur <b>%2</b>"
-
-#: EngineController.cpp:1375
-#, kde-format
-msgctxt "track on album"
-msgid "<b>%1</b> on <b>%2</b>"
-msgstr "<b>%1</b> op <b>%2</b>"
-
-#: EngineController.cpp:1380
-msgid "Unknown track"
-msgstr "Onbekende snit"
-
-#: EngineController.cpp:1387
-#, kde-format
-msgctxt "track from source"
-msgid "from <b>%1</b>"
-msgstr "van <b>%1</b>"
-
-#: EngineController.cpp:1398 context/applets/labels/LabelsApplet.cpp:179
-#: context/applets/photos/PhotosApplet.cpp:146
-#: context/engines/current/CurrentEngine.cpp:125 mac/GrowlInterface.cpp:43
-#: widgets/Osd.cpp:604
-msgid "No track playing"
-msgstr "Geen snit speel tans"
 
 #: aboutdialog/libattica-ocsclient/personlistjob.cpp:108
 msgid "Unable to parse avatar image data."
@@ -615,13 +578,13 @@ msgstr "Groep"
 #: amarokurls/BookmarkModel.cpp:265
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:378
 #: playlistgenerator/TreeModel.cpp:64 rc.cpp:5 rc.cpp:1244 rc.cpp:1250
-#: rc.cpp:1475 rc.cpp:1487
+#: rc.cpp:1487 rc.cpp:1499
 msgid "Name"
 msgstr "Naam"
 
 #: amarokurls/BookmarkModel.cpp:266
 #: browsers/playlistbrowser/PodcastModel.cpp:334
-#: playlist/PlaylistModel.cpp:837
+#: playlist/PlaylistModel.cpp:888
 msgid "Type"
 msgstr "Soort"
 
@@ -787,59 +750,59 @@ msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added This Hour"
 msgstr "verlede maand"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:178
+#: browsers/collectionbrowser/CollectionWidget.cpp:179
 #, fuzzy
 #| msgid "Add Podcast"
 msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added Today"
 msgstr "Voeg Potgooi by"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:179
+#: browsers/collectionbrowser/CollectionWidget.cpp:181
 #, fuzzy
 #| msgid "last week"
 msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added This Week"
 msgstr "verlede week"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:180
+#: browsers/collectionbrowser/CollectionWidget.cpp:183
 #, fuzzy
 #| msgid "last month"
 msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added This Month"
 msgstr "verlede maand"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:185
+#: browsers/collectionbrowser/CollectionWidget.cpp:189
 #: services/magnatune/MagnatuneStore.cpp:219
 msgid "Artist / Album"
 msgstr "Kunstenaar / Album"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:189
+#: browsers/collectionbrowser/CollectionWidget.cpp:193
 #: services/jamendo/JamendoService.cpp:152
 #: services/magnatune/MagnatuneStore.cpp:225
 msgid "Genre / Artist"
 msgstr "Genre / Kunstenaar"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:193
+#: browsers/collectionbrowser/CollectionWidget.cpp:197
 #: services/jamendo/JamendoService.cpp:155
 #: services/magnatune/MagnatuneStore.cpp:228
 msgid "Genre / Artist / Album"
 msgstr "Genre / Kunstenaar / Album"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:199
+#: browsers/collectionbrowser/CollectionWidget.cpp:203
 msgid "First Level"
 msgstr "Vlak Een"
 
 #. i18n: file: context/applets/tabs/ReloadEditDialog.ui:73
 #. i18n: ectx: property (text), widget (QLabel, artistLabel)
-#: browsers/collectionbrowser/CollectionWidget.cpp:201
-#: browsers/collectionbrowser/CollectionWidget.cpp:240
-#: browsers/collectionbrowser/CollectionWidget.cpp:282
-#: browsers/CollectionTreeItemModelBase.cpp:1183
+#: browsers/collectionbrowser/CollectionWidget.cpp:205
+#: browsers/collectionbrowser/CollectionWidget.cpp:244
+#: browsers/collectionbrowser/CollectionWidget.cpp:286
+#: browsers/CollectionTreeItemModelBase.cpp:1160
 #: context/applets/lyrics/LyricsApplet.cpp:235
 #: context/applets/wikipedia/WikipediaApplet.cpp:535
 #: dialogs/transferdialog.cpp:88 dialogs/FilenameLayoutDialog.cpp:221
 #: dialogs/FilenameLayoutDialog.cpp:575 musicbrainz/MusicBrainzTags.cpp:352
-#: playlist/PlaylistModel.cpp:826 services/jamendo/JamendoInfoParser.cpp:51
+#: playlist/PlaylistModel.cpp:877 services/jamendo/JamendoInfoParser.cpp:51
 #: services/lastfm/LastFmService.cpp:536
 #: services/magnatune/MagnatuneStore.cpp:216
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
@@ -847,16 +810,16 @@ msgstr "Vlak Een"
 msgid "Artist"
 msgstr "Kunstenaar"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:204
-#: browsers/collectionbrowser/CollectionWidget.cpp:243
-#: browsers/collectionbrowser/CollectionWidget.cpp:285
+#: browsers/collectionbrowser/CollectionWidget.cpp:208
+#: browsers/collectionbrowser/CollectionWidget.cpp:247
+#: browsers/collectionbrowser/CollectionWidget.cpp:289
 #: browsers/CollectionTreeView.cpp:228
-#: browsers/CollectionTreeItemModelBase.cpp:1182
+#: browsers/CollectionTreeItemModelBase.cpp:1159
 #: context/applets/albums/AlbumsView.cpp:242
 #: context/applets/wikipedia/WikipediaApplet.cpp:542
 #: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:233
 #: dialogs/FilenameLayoutDialog.cpp:603 musicbrainz/MusicBrainzTags.cpp:353
-#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:830
+#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:881
 #: services/jamendo/JamendoInfoParser.cpp:83
 #: services/magnatune/MagnatuneStore.cpp:222
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
@@ -865,80 +828,80 @@ msgstr "Album"
 
 #. i18n: file: dialogs/FilenameLayoutDialog.ui:710
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: browsers/collectionbrowser/CollectionWidget.cpp:207
-#: browsers/collectionbrowser/CollectionWidget.cpp:246
-#: browsers/collectionbrowser/CollectionWidget.cpp:288
-#: browsers/CollectionTreeItemModelBase.cpp:1184
+#: browsers/collectionbrowser/CollectionWidget.cpp:211
+#: browsers/collectionbrowser/CollectionWidget.cpp:250
+#: browsers/collectionbrowser/CollectionWidget.cpp:292
+#: browsers/CollectionTreeItemModelBase.cpp:1161
 #: dialogs/FilenameLayoutDialog.cpp:237 dialogs/FilenameLayoutDialog.cpp:596
-#: musicbrainz/MusicBrainzTags.cpp:354 playlist/PlaylistModel.cpp:827
+#: musicbrainz/MusicBrainzTags.cpp:354 playlist/PlaylistModel.cpp:878
 #: rc.cpp:1050
 msgid "Album Artist"
 msgstr "Album Kunstenaar"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:210
-#: browsers/collectionbrowser/CollectionWidget.cpp:249
-#: browsers/collectionbrowser/CollectionWidget.cpp:291
-#: browsers/CollectionTreeItemModelBase.cpp:1186 dialogs/transferdialog.cpp:90
+#: browsers/collectionbrowser/CollectionWidget.cpp:214
+#: browsers/collectionbrowser/CollectionWidget.cpp:253
+#: browsers/collectionbrowser/CollectionWidget.cpp:295
+#: browsers/CollectionTreeItemModelBase.cpp:1163 dialogs/transferdialog.cpp:90
 #: dialogs/FilenameLayoutDialog.cpp:245 dialogs/FilenameLayoutDialog.cpp:617
-#: playlist/PlaylistModel.cpp:834 playlist/ProgressiveSearchWidget.cpp:95
+#: playlist/ProgressiveSearchWidget.cpp:95 playlist/PlaylistModel.cpp:885
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Genre"
 msgstr "Genre"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:213
-#: browsers/collectionbrowser/CollectionWidget.cpp:252
-#: browsers/collectionbrowser/CollectionWidget.cpp:294
-#: browsers/CollectionTreeItemModelBase.cpp:1185
+#: browsers/collectionbrowser/CollectionWidget.cpp:217
+#: browsers/collectionbrowser/CollectionWidget.cpp:256
+#: browsers/collectionbrowser/CollectionWidget.cpp:298
+#: browsers/CollectionTreeItemModelBase.cpp:1162
 #: dialogs/FilenameLayoutDialog.cpp:225 dialogs/FilenameLayoutDialog.cpp:582
-#: playlist/PlaylistModel.cpp:828 widgets/SmartPlaylistEditor.cpp:183
+#: playlist/PlaylistModel.cpp:879 widgets/SmartPlaylistEditor.cpp:183
 #: widgets/SmartPlaylistEditor.cpp:197
 msgid "Composer"
 msgstr "Komponis"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:216
-#: browsers/collectionbrowser/CollectionWidget.cpp:255
-#: browsers/collectionbrowser/CollectionWidget.cpp:297
-#: browsers/CollectionTreeItemModelBase.cpp:1188
+#: browsers/collectionbrowser/CollectionWidget.cpp:220
+#: browsers/collectionbrowser/CollectionWidget.cpp:259
+#: browsers/collectionbrowser/CollectionWidget.cpp:301
+#: browsers/CollectionTreeItemModelBase.cpp:1165
 #: widgets/SmartPlaylistEditor.cpp:187 widgets/SmartPlaylistEditor.cpp:197
 msgid "Label"
 msgstr "Etiket"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:236
+#: browsers/collectionbrowser/CollectionWidget.cpp:240
 msgid "Second Level"
 msgstr "Vlak Twee"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:237
-#: browsers/collectionbrowser/CollectionWidget.cpp:279
+#: browsers/collectionbrowser/CollectionWidget.cpp:241
+#: browsers/collectionbrowser/CollectionWidget.cpp:283
 #: dialogs/transferdialog.cpp:87
 #: playlist/navigators/NavigatorConfigAction.cpp:76
 msgid "None"
 msgstr "Geen"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:278
+#: browsers/collectionbrowser/CollectionWidget.cpp:282
 msgid "Third Level"
 msgstr "Vlak Drie"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:321
+#: browsers/collectionbrowser/CollectionWidget.cpp:325
 msgid "Show Years"
 msgstr "Vertoon Jare"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:326
+#: browsers/collectionbrowser/CollectionWidget.cpp:330
 #, fuzzy
 #| msgid "Track Number"
 msgctxt "@action:inmenu"
 msgid "Show Track Numbers"
 msgstr "Snit Nommer"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:331
+#: browsers/collectionbrowser/CollectionWidget.cpp:335
 msgid "Show Cover Art"
 msgstr "Vertoon Omslagkuns"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:429
+#: browsers/collectionbrowser/CollectionWidget.cpp:433
 #: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:89
 msgid "Merged View"
 msgstr ""
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:436
+#: browsers/collectionbrowser/CollectionWidget.cpp:440
 #: services/jamendo/JamendoService.cpp:158
 #: services/magnatune/MagnatuneStore.cpp:231
 msgid "Sort Options"
@@ -1247,7 +1210,7 @@ msgstr[1] "IRC kanale: "
 #: browsers/playlistbrowser/PodcastModel.cpp:335
 #: context/applets/lyrics/LyricsApplet.cpp:235
 #: dialogs/FilenameLayoutDialog.cpp:217 dialogs/FilenameLayoutDialog.cpp:561
-#: musicbrainz/MusicBrainzTags.cpp:351 playlist/PlaylistModel.cpp:825
+#: musicbrainz/MusicBrainzTags.cpp:351 playlist/PlaylistModel.cpp:876
 #: widgets/SmartPlaylistEditor.cpp:183 rc.cpp:478
 msgid "Title"
 msgstr "Titel"
@@ -1311,8 +1274,8 @@ msgstr "Verhouding:"
 #. i18n: ectx: property (text), widget (QLabel, label_Strictness)
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:194
 #: browsers/playlistbrowser/DynamicBiasWidgets.cpp:263
-#: dynamic/biases/EchoNest.cpp:116 rc.cpp:1310 rc.cpp:1349 rc.cpp:1385
-#: rc.cpp:1439
+#: dynamic/biases/EchoNest.cpp:116 rc.cpp:1322 rc.cpp:1361 rc.cpp:1397
+#: rc.cpp:1451
 msgid "Match:"
 msgstr "Pas:"
 
@@ -1520,172 +1483,41 @@ msgid "Unknown"
 msgstr "Onbekend"
 
 #: browsers/CollectionTreeItemModelBase.cpp:315
-#: core-impl/collections/db/sql/SqlMeta.cpp:419
-#: core-impl/collections/db/ScanResultProcessor.cpp:221
+#: core-impl/collections/db/sql/SqlMeta.cpp:420
+#: core-impl/collections/db/ScanResultProcessor.cpp:235
 #: covermanager/CoverManager.cpp:845 dialogs/TrackOrganizer.cpp:47
-#: widgets/AlbumBreadcrumbWidget.cpp:60
+#: playlist/PlaylistModel.cpp:853 widgets/AlbumBreadcrumbWidget.cpp:60
 msgid "Various Artists"
 msgstr "Verskeie Kunstenaars"
 
-#: browsers/CollectionTreeItemModelBase.cpp:706
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:254
-msgid "album"
-msgstr "album"
-
-#: browsers/CollectionTreeItemModelBase.cpp:711
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:252
-msgid "artist"
-msgstr "kunstenaar"
-
-#: browsers/CollectionTreeItemModelBase.cpp:716
-#, fuzzy
-#| msgctxt "'Album artist' playlist column name and token for playlist layouts"
-#| msgid "Album artist"
-msgid "albumartist"
-msgstr "Album kunstenaar"
-
-#: browsers/CollectionTreeItemModelBase.cpp:721
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:258
-#: core/meta/support/MetaConstants.cpp:108
-msgid "genre"
-msgstr "genre"
-
-#: browsers/CollectionTreeItemModelBase.cpp:726
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:260
-#: core/meta/support/MetaConstants.cpp:105
-msgid "title"
-msgstr "titel"
-
-#: browsers/CollectionTreeItemModelBase.cpp:731
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:256
-#: core/meta/support/MetaConstants.cpp:109
-msgid "composer"
-msgstr "komponis"
-
-#: browsers/CollectionTreeItemModelBase.cpp:736
-#: core/meta/support/MetaConstants.cpp:134
-#, fuzzy
-#| msgid "Label"
-msgid "label"
-msgstr "Etiket"
-
-#: browsers/CollectionTreeItemModelBase.cpp:740
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:262
-#: core/meta/support/MetaConstants.cpp:110
-msgid "year"
-msgstr "jaar"
-
-#: browsers/CollectionTreeItemModelBase.cpp:745
-#: core/meta/support/MetaConstants.cpp:114
-msgid "bpm"
-msgstr "bpm"
-
-#: browsers/CollectionTreeItemModelBase.cpp:749
-#: core/meta/support/MetaConstants.cpp:111
-msgid "comment"
-msgstr "kommentaar"
-
-#: browsers/CollectionTreeItemModelBase.cpp:753
-#, fuzzy
-#| msgctxt "The name of the file this track is stored in"
-#| msgid "Filename"
-msgid "filename"
-msgstr "Lêernaam"
-
-#: browsers/CollectionTreeItemModelBase.cpp:757
-msgid "bitrate"
-msgstr "bistempo"
-
-#: browsers/CollectionTreeItemModelBase.cpp:761
-#: core/meta/support/MetaConstants.cpp:122
-msgid "rating"
-msgstr "keuring"
-
-#: browsers/CollectionTreeItemModelBase.cpp:765
-#: core/meta/support/MetaConstants.cpp:121
-msgid "score"
-msgstr "evaluasie"
-
-#: browsers/CollectionTreeItemModelBase.cpp:769
-#: core/meta/support/MetaConstants.cpp:125
-msgid "playcount"
-msgstr "speeltelling"
-
-#: browsers/CollectionTreeItemModelBase.cpp:773
-msgid "samplerate"
-msgstr "steekproef tempo"
-
-#: browsers/CollectionTreeItemModelBase.cpp:777
-#: core/meta/support/MetaConstants.cpp:115
-msgid "length"
-msgstr "tydsduur"
-
-#: browsers/CollectionTreeItemModelBase.cpp:781
-#, fuzzy
-#| msgctxt "'File size' playlist column name and token for playlist layouts"
-#| msgid "File size"
-msgid "filesize"
-msgstr "Lêergrootte"
-
-#: browsers/CollectionTreeItemModelBase.cpp:812
-#: core/meta/support/MetaConstants.cpp:119
-#, fuzzy
-#| msgid "Format:"
-msgid "format"
-msgstr "Formaat:"
-
-#: browsers/CollectionTreeItemModelBase.cpp:820
-msgid "discnumber"
-msgstr "skyfnommer"
-
-#: browsers/CollectionTreeItemModelBase.cpp:824
-msgid "tracknumber"
-msgstr "snitnommer"
-
-#: browsers/CollectionTreeItemModelBase.cpp:828
-#, fuzzy
-#| msgid "Last played"
-msgctxt "last played time / access date"
-msgid "played"
-msgstr "Laas gespeel"
-
-#: browsers/CollectionTreeItemModelBase.cpp:852
-msgctxt "first played time / access date"
-msgid "first"
-msgstr ""
-
-#: browsers/CollectionTreeItemModelBase.cpp:876
-msgid "added"
-msgstr "bygevoeg"
-
-#: browsers/CollectionTreeItemModelBase.cpp:1182
+#: browsers/CollectionTreeItemModelBase.cpp:1159
 msgid "Year - Album"
 msgstr "Jaar - Album"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1187
+#: browsers/CollectionTreeItemModelBase.cpp:1164
 #: dialogs/FilenameLayoutDialog.cpp:229 dialogs/FilenameLayoutDialog.cpp:589
-#: playlist/PlaylistModel.cpp:829 widgets/SmartPlaylistEditor.cpp:184
+#: playlist/PlaylistModel.cpp:880 widgets/SmartPlaylistEditor.cpp:184
 #: widgets/SmartPlaylistEditor.cpp:197 widgets/SmartPlaylistEditor.cpp:921
 msgid "Year"
 msgstr "Jaar"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1253
+#: browsers/CollectionTreeItemModelBase.cpp:1230
 msgid "today"
 msgstr "vandag"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1255
+#: browsers/CollectionTreeItemModelBase.cpp:1232
 msgid "last week"
 msgstr "verlede week"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1257
+#: browsers/CollectionTreeItemModelBase.cpp:1234
 msgid "last month"
 msgstr "verlede maand"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1259
+#: browsers/CollectionTreeItemModelBase.cpp:1236
 msgid "two months ago"
 msgstr "twee maande gelede"
 
-#: browsers/CollectionTreeItemModelBase.cpp:1261
+#: browsers/CollectionTreeItemModelBase.cpp:1238
 msgid "three months ago"
 msgstr "drie maande gelede"
 
@@ -1759,7 +1591,7 @@ msgstr "Klankstelsel - Amarok"
 
 #. i18n: file: amarokconfig.kcfg:341
 #. i18n: ectx: label, entry, group (OSD)
-#: configdialog/dialogs/NotificationsConfig.cpp:38 rc.cpp:1970
+#: configdialog/dialogs/NotificationsConfig.cpp:38 rc.cpp:1982
 msgid "Use Growl for notifications"
 msgstr "Gebruik Growl vir kennisgewings"
 
@@ -1783,7 +1615,7 @@ msgstr "Onlangs bygevoegde albums"
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:80
 #: context/applets/videoclip/VideoclipApplet.cpp:118
 #: context/applets/wikipedia/WikipediaApplet.cpp:556
-#: context/applets/tabs/TabsApplet.cpp:122
+#: context/applets/tabs/TabsApplet.cpp:115
 msgid "Settings"
 msgstr "Instellings"
 
@@ -1831,19 +1663,19 @@ msgstr "Wagtou"
 #. i18n: ectx: property (text), widget (QCheckBox, editTrackDetailsCheckBox)
 #: context/applets/albums/AlbumsView.cpp:230
 #: context/applets/currenttrack/CurrentTrack.cpp:803
-#: playlist/view/PlaylistViewCommon.cpp:231 rc.cpp:289
+#: playlist/view/PlaylistViewCommon.cpp:230 rc.cpp:289
 msgid "Edit Track Details"
 msgstr "Wysig Snit Besonderhede"
 
 #: context/applets/currenttrack/CurrentTrack.h:38
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
-#: core/meta/Meta.cpp:404
+#: core/meta/Meta.cpp:409
 msgid "Unknown Artist"
 msgstr "Onbekende Kunstenaar"
 
 #: context/applets/currenttrack/CurrentTrack.h:39
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:427
-#: core/meta/Meta.cpp:455
+#: core/meta/Meta.cpp:460
 msgid "Unknown Album"
 msgstr "Onbekende Album"
 
@@ -1880,12 +1712,6 @@ msgstr "Snitte"
 msgid "Play count"
 msgstr "Speel telling"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:468
-#: playlist/PlaylistModel.cpp:841 widgets/SmartPlaylistEditor.cpp:185
-#: TrayIcon.cpp:152
-msgid "Score"
-msgstr "Evaluasie"
-
 #: context/applets/currenttrack/CurrentTrack.cpp:469
 #, fuzzy
 #| msgid "Genre"
@@ -1916,7 +1742,7 @@ msgstr "Media Bronne"
 msgid "Show Artist In Media Sources"
 msgstr "Media Bronne"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:838 core/meta/Meta.cpp:552
+#: context/applets/currenttrack/CurrentTrack.cpp:838 core/meta/Meta.cpp:557
 #, fuzzy
 #| msgid "Unknown Genre"
 msgid "Unknown Composer"
@@ -1955,7 +1781,7 @@ msgstr "Verwyder Miniprogram"
 #: context/applets/labels/LabelGraphicsItem.cpp:54
 #: context/applets/similarartists/ArtistWidget.cpp:129
 #: context/applets/upcomingevents/UpcomingEventsApplet.cpp:158
-#: playlist/view/PlaylistViewCommon.cpp:176
+#: playlist/view/PlaylistViewCommon.cpp:175
 #, fuzzy
 #| msgid "Media Sources"
 msgid "Show in Media Sources"
@@ -1979,6 +1805,13 @@ msgstr "Etikette"
 #: context/applets/wikipedia/WikipediaApplet.cpp:563
 msgid "Reload"
 msgstr "Herlaai"
+
+#: context/applets/labels/LabelsApplet.cpp:179
+#: context/applets/photos/PhotosApplet.cpp:146
+#: context/engines/current/CurrentEngine.cpp:125 mac/GrowlInterface.cpp:43
+#: widgets/Osd.cpp:604 EngineController.cpp:1407
+msgid "No track playing"
+msgstr "Geen snit speel tans"
 
 #: context/applets/labels/LabelsApplet.cpp:479
 #: context/applets/photos/PhotosApplet.cpp:192
@@ -2036,7 +1869,7 @@ msgstr "Redigeer Lirieke"
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
 #: context/applets/lyrics/LyricsApplet.cpp:494
-#: firstruntutorial/FirstRunTutorialPage.cpp:56 rc.cpp:1636
+#: firstruntutorial/FirstRunTutorialPage.cpp:56 rc.cpp:1648
 msgid "Close"
 msgstr "Afsluit"
 
@@ -2617,76 +2450,75 @@ msgstr "Snit"
 msgid "Wikipedia Language Settings"
 msgstr "Wikipedia Instellings"
 
-#: context/applets/tabs/TabsApplet.cpp:95
-#: context/applets/tabs/TabsApplet.cpp:198
-#: context/applets/tabs/TabsApplet.cpp:226
-#: context/applets/tabs/TabsApplet.cpp:242
+#: context/applets/tabs/TabsApplet.cpp:88
+#: context/applets/tabs/TabsApplet.cpp:191
+#: context/applets/tabs/TabsApplet.cpp:225
 #, fuzzy
 #| msgid "Tags"
 msgctxt "Guitar tablature"
 msgid "Tabs"
 msgstr "Merkers"
 
-#: context/applets/tabs/TabsApplet.cpp:113
+#: context/applets/tabs/TabsApplet.cpp:106
 #, fuzzy
 #| msgid "Reload"
 msgctxt "Guitar tablature"
 msgid "Reload tabs"
 msgstr "Herlaai"
 
-#: context/applets/tabs/TabsApplet.cpp:181
+#: context/applets/tabs/TabsApplet.cpp:174
 #, fuzzy
 #| msgid "No track playing"
 msgctxt "Guitar tablature"
 msgid "Tabs: No track playing"
 msgstr "Geen snit speel tans"
 
-#: context/applets/tabs/TabsApplet.cpp:211
+#: context/applets/tabs/TabsApplet.cpp:204
 #, fuzzy
 #| msgid "Fetching ..."
 msgid "Tabs: Fetching ..."
 msgstr "Haal..."
 
-#: context/applets/tabs/TabsApplet.cpp:212
+#: context/applets/tabs/TabsApplet.cpp:205
 #, fuzzy
 #| msgid "Lyrics are being fetched."
 msgid "Tabs are being fetched"
 msgstr "Lirieke word tans gehaal."
 
-#: context/applets/tabs/TabsApplet.cpp:233
+#: context/applets/tabs/TabsApplet.cpp:217
 #, fuzzy, kde-format
 #| msgid "Track Details: %1 by %2"
 msgctxt "Guitar tablature"
 msgid "No tabs for %1 by %2"
 msgstr "Snit Besonderhede: %1 deur %2"
 
-#: context/applets/tabs/TabsApplet.cpp:234
+#: context/applets/tabs/TabsApplet.cpp:218
 #, fuzzy
 #| msgid "There were no lyrics found for this track"
 msgid "There were no tabs found for this track"
 msgstr "Geen lirieke kon vir hierdie snit gevind word nie"
 
-#: context/applets/tabs/TabsApplet.cpp:268
+#: context/applets/tabs/TabsApplet.cpp:251
 #, fuzzy, kde-format
 #| msgid "Track Details: %1 by %2"
 msgctxt "Guitar tablature"
 msgid "Tabs : %1 - %2"
 msgstr "Snit Besonderhede: %1 deur %2"
 
-#: context/applets/tabs/TabsApplet.cpp:351
+#: context/applets/tabs/TabsApplet.cpp:334
 #, fuzzy
 #| msgid "Lyrics Settings"
 msgctxt "Guitar tablature settings"
 msgid "Tabs Settings"
 msgstr "Lirieke Instellings"
 
-#: context/applets/tabs/TabsApplet.cpp:381
+#: context/applets/tabs/TabsApplet.cpp:364
 #, fuzzy
 #| msgid "Reload"
 msgid "Reload Tabs"
 msgstr "Herlaai"
 
-#: context/applets/tabs/TabsView.cpp:177
+#: context/applets/tabs/TabsView.cpp:176
 msgid "tab provided from: "
 msgstr ""
 
@@ -2817,18 +2649,6 @@ msgstr "Omslag Bestuurder"
 #: context/engines/tabs/TabsEngine.cpp:195
 msgid "No valid artist or titlename found for the current track."
 msgstr ""
-
-#: context/engines/tabs/TabsEngine.cpp:267
-#, fuzzy, kde-format
-#| msgid "Unable to retrieve Youtube information: %1"
-msgid "Unable to retrieve tab information from Ultimate Guitar: %1"
-msgstr "Kon nie Youtube inligting onttrek nie: %1"
-
-#: context/engines/tabs/TabsEngine.cpp:383
-#, fuzzy, kde-format
-#| msgid "Unable to retrieve Youtube information: %1"
-msgid "Unable to retrieve tab information from fretplay.com: %1"
-msgstr "Kon nie Youtube inligting onttrek nie: %1"
 
 #: context/scriptengine/javascript/qtgui/linearlayout.cpp:70
 msgid "LinearLayout requires a parent"
@@ -3413,7 +3233,7 @@ msgid "Could not copy track from device."
 msgstr "Kon nie die snit vanaf die toestel kopieer nie"
 
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:433
-#: core/meta/Meta.cpp:512
+#: core/meta/Meta.cpp:517
 msgid "Unknown Genre"
 msgstr "Onbekende Genre"
 
@@ -3652,13 +3472,19 @@ msgstr "Skandeer musiek"
 msgid "UPnP Error: %1"
 msgstr ""
 
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:57
+#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:59
 msgid "Do not show under Various Artists"
 msgstr "Weier vertoning in Verskeie Kunstenaars"
 
-#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:62
+#: core-impl/collections/db/sql/CapabilityDelegateImpl.cpp:64
 msgid "Show under Various Artists"
 msgstr "Vertoon in Verskeie Kunstenaars"
+
+#: core-impl/collections/db/sql/SqlMeta.cpp:272
+#: covermanager/CoverManager.cpp:846 services/lastfm/meta/LastFmMeta.cpp:139
+#, kde-format
+msgid "%1 - %2"
+msgstr "%1 - %2"
 
 #. i18n: file: dialogs/OrganizeCollectionDialogBase.ui:21
 #. i18n: ectx: property (windowTitle), widget (QWidget, OrganizeCollectionDialogBase)
@@ -3692,21 +3518,15 @@ msgstr "Kon nie gids skep nie: %1"
 msgid "Transferring: %1"
 msgstr "Dra oor: %1"
 
-#: core-impl/collections/db/sql/SqlMeta.cpp:271
-#: covermanager/CoverManager.cpp:846 services/lastfm/meta/LastFmMeta.cpp:139
-#, kde-format
-msgid "%1 - %2"
-msgstr "%1 - %2"
-
-#: core-impl/collections/db/ScanManager.cpp:133
+#: core-impl/collections/db/ScanManager.cpp:120
 msgid "Database import requested"
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:235
+#: core-impl/collections/db/ScanManager.cpp:201
 msgid "Scanning music"
 msgstr "Skandeer musiek"
 
-#: core-impl/collections/db/ScanManager.cpp:313
+#: core-impl/collections/db/ScanManager.cpp:235
 msgid ""
 "<p>The version of the 'amarokcollectionscanner' tool\n"
 "does not match your Amarok version.</p><p>Please note that Collection "
@@ -3716,19 +3536,18 @@ msgstr ""
 "verskil van jou Amarok weergawe.</p><p>Neem kennis dat Versameling "
 "Skandering dalk nie sal werk nie.</p>"
 
-#: core-impl/collections/db/ScanManager.cpp:469
-msgid ""
-"<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors were "
-"encountered during the scan.</p>"
+#: core-impl/collections/db/ScanManager.cpp:353
+#, kde-format
+msgid "Failed to write scanner batch file \"%1\""
 msgstr ""
-"<p>Jammer, skandering van die versameling moes gestaak word.</p><p>Te veel "
-"foute het opgeduik gedurende skandering.</p>"
 
-#: core-impl/collections/db/ScanManager.cpp:470
-msgid "Collection Scan Error"
-msgstr "Versameling Skandeer Fout"
+#: core-impl/collections/db/ScanManager.cpp:361
+#, fuzzy
+#| msgid "Amarok Applet Manager"
+msgid "Unable to start Amarok collection scanner."
+msgstr "Amarok Miniprogram Bestuurder"
 
-#: core-impl/collections/db/ScanManager.cpp:576
+#: core-impl/collections/db/ScanManager.cpp:406
 #, fuzzy, kde-format
 #| msgid "Could not create directory: %1"
 msgid "Found one direcory"
@@ -3736,19 +3555,31 @@ msgid_plural "Found %1 directories"
 msgstr[0] "Kon nie gids skep nie: %1"
 msgstr[1] "Kon nie gids skep nie: %1"
 
-#: core-impl/collections/db/ScanManager.cpp:590
+#: core-impl/collections/db/ScanManager.cpp:420
 #, kde-format
 msgid "Got directory \"%1\" from scanner."
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:618
+#: core-impl/collections/db/ScanManager.cpp:453
 #, kde-format
 msgid "Aborting scanner with error: %1"
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:624
-msgid "Aborting scanner requested."
+#: core-impl/collections/db/ScanManager.cpp:469
+msgid "Scanner aborted."
 msgstr ""
+
+#: core-impl/collections/db/ScanManager.cpp:570
+#, fuzzy
+#| msgid ""
+#| "<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors "
+#| "were encountered during the scan.</p>"
+msgid ""
+"The collection scan had to be aborted. Too many errors were encountered "
+"during the scan."
+msgstr ""
+"<p>Jammer, skandering van die versameling moes gestaak word.</p><p>Te veel "
+"foute het opgeduik gedurende skandering.</p>"
 
 #: core-impl/meta/default/DefaultMetaTypes.h:39
 #: core-impl/meta/default/DefaultMetaTypes.h:79
@@ -3947,117 +3778,6 @@ msgstr "Besig om Podcast \"%1\" af te laai"
 msgid "Unable to save podcast episode file to %1"
 msgstr "Kon nie potgooi episode lêer stoor na %1 nie"
 
-#: core/meta/support/MetaConstants.cpp:103
-#, fuzzy
-#| msgid "rating"
-msgctxt ""
-"The field name in case nothing specific is selected e.g. in the automatic "
-"playlist generator"
-msgid "anything"
-msgstr "keuring"
-
-#: core/meta/support/MetaConstants.cpp:104
-#, fuzzy
-#| msgctxt "The name of the file this track is stored in"
-#| msgid "Filename"
-msgctxt "The name of the file this track is stored in"
-msgid "filename"
-msgstr "Lêernaam"
-
-#: core/meta/support/MetaConstants.cpp:106
-#, fuzzy
-#| msgid "Playlist name:"
-msgid "artist name"
-msgstr "Speellys naam:"
-
-#: core/meta/support/MetaConstants.cpp:107
-#, fuzzy
-#| msgid "album"
-msgid "album name"
-msgstr "album"
-
-#: core/meta/support/MetaConstants.cpp:112
-#, fuzzy
-#| msgid "tracknumber"
-msgid "track number"
-msgstr "snitnommer"
-
-#: core/meta/support/MetaConstants.cpp:113
-#, fuzzy
-#| msgid "discnumber"
-msgid "disc number"
-msgstr "skyfnommer"
-
-#: core/meta/support/MetaConstants.cpp:116
-#, fuzzy
-#| msgid "bitrate"
-msgid "bit rate"
-msgstr "bistempo"
-
-#: core/meta/support/MetaConstants.cpp:117
-#, fuzzy
-#| msgid "samplerate"
-msgid "sample rate"
-msgstr "steekproef tempo"
-
-#: core/meta/support/MetaConstants.cpp:118
-#, fuzzy
-#| msgctxt "'File size' playlist column name and token for playlist layouts"
-#| msgid "File size"
-msgid "file size"
-msgstr "Lêergrootte"
-
-#: core/meta/support/MetaConstants.cpp:120
-#, fuzzy
-#| msgid "Move to Collection"
-msgid "added to collection"
-msgstr "Skuif na Versameling"
-
-#: core/meta/support/MetaConstants.cpp:123
-#, fuzzy
-#| msgid "First Played"
-msgid "first played"
-msgstr "Eerste keer Gespeel"
-
-#: core/meta/support/MetaConstants.cpp:124
-#, fuzzy
-#| msgid "Last played"
-msgid "last played"
-msgstr "Laas gespeel"
-
-#: core/meta/support/MetaConstants.cpp:126
-msgid "unique id"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:128
-#, fuzzy
-#| msgid "No track playing"
-msgid "track gain"
-msgstr "Geen snit speel tans"
-
-#: core/meta/support/MetaConstants.cpp:129
-msgid "track gain peak"
-msgstr ""
-
-#: core/meta/support/MetaConstants.cpp:130
-#, fuzzy
-#| msgid "album"
-msgid "album gain"
-msgstr "album"
-
-#: core/meta/support/MetaConstants.cpp:131
-#, fuzzy
-#| msgid "album"
-msgid "album gain peak"
-msgstr "album"
-
-#: core/meta/support/MetaConstants.cpp:133
-#, fuzzy
-#| msgctxt "'Album artist' playlist column name and token for playlist layouts"
-#| msgid "Album artist"
-msgid "album artist name"
-msgstr "Album kunstenaar"
-
 #: core/meta/support/MetaUtility.cpp:392
 msgctxt ""
 "the time format for a time length when the time is below 1 hour see QTime "
@@ -4125,6 +3845,376 @@ msgid "%1 second"
 msgid_plural "%1 seconds"
 msgstr[0] "Sekondes"
 msgstr[1] "Sekondes"
+
+#: core/meta/support/MetaConstants.cpp:103
+#: core/meta/support/MetaConstants.cpp:146
+#, fuzzy
+#| msgid "rating"
+msgctxt ""
+"The field name in case nothing specific is selected e.g. in the automatic "
+"playlist generator"
+msgid "anything"
+msgstr "keuring"
+
+#: core/meta/support/MetaConstants.cpp:104
+#: core/meta/support/MetaConstants.cpp:147
+#, fuzzy
+#| msgctxt "The name of the file this track is stored in"
+#| msgid "Filename"
+msgctxt "The name of the file this track is stored in"
+msgid "filename"
+msgstr "Lêernaam"
+
+#: core/meta/support/MetaConstants.cpp:105
+#: core/meta/support/MetaConstants.cpp:148
+msgid "title"
+msgstr "titel"
+
+#: core/meta/support/MetaConstants.cpp:106
+#, fuzzy
+#| msgid "Playlist name:"
+msgid "artist name"
+msgstr "Speellys naam:"
+
+#: core/meta/support/MetaConstants.cpp:107
+#, fuzzy
+#| msgid "album"
+msgid "album name"
+msgstr "album"
+
+#: core/meta/support/MetaConstants.cpp:108
+msgid "genre"
+msgstr "genre"
+
+#: core/meta/support/MetaConstants.cpp:109
+msgid "composer"
+msgstr "komponis"
+
+#: core/meta/support/MetaConstants.cpp:110
+msgid "year"
+msgstr "jaar"
+
+#: core/meta/support/MetaConstants.cpp:111
+msgid "comment"
+msgstr "kommentaar"
+
+#: core/meta/support/MetaConstants.cpp:112
+#, fuzzy
+#| msgid "tracknumber"
+msgid "track number"
+msgstr "snitnommer"
+
+#: core/meta/support/MetaConstants.cpp:113
+#, fuzzy
+#| msgid "discnumber"
+msgid "disc number"
+msgstr "skyfnommer"
+
+#: core/meta/support/MetaConstants.cpp:114
+msgid "bpm"
+msgstr "bpm"
+
+#: core/meta/support/MetaConstants.cpp:115
+msgid "length"
+msgstr "tydsduur"
+
+#: core/meta/support/MetaConstants.cpp:116
+#, fuzzy
+#| msgid "bitrate"
+msgid "bit rate"
+msgstr "bistempo"
+
+#: core/meta/support/MetaConstants.cpp:117
+#, fuzzy
+#| msgid "samplerate"
+msgid "sample rate"
+msgstr "steekproef tempo"
+
+#: core/meta/support/MetaConstants.cpp:118
+#, fuzzy
+#| msgctxt "'File size' playlist column name and token for playlist layouts"
+#| msgid "File size"
+msgid "file size"
+msgstr "Lêergrootte"
+
+#: core/meta/support/MetaConstants.cpp:119
+#, fuzzy
+#| msgid "Format:"
+msgid "format"
+msgstr "Formaat:"
+
+#: core/meta/support/MetaConstants.cpp:120
+#, fuzzy
+#| msgid "Move to Collection"
+msgid "added to collection"
+msgstr "Skuif na Versameling"
+
+#: core/meta/support/MetaConstants.cpp:121
+msgid "score"
+msgstr "evaluasie"
+
+#: core/meta/support/MetaConstants.cpp:122
+msgid "rating"
+msgstr "keuring"
+
+#: core/meta/support/MetaConstants.cpp:123
+#, fuzzy
+#| msgid "First Played"
+msgid "first played"
+msgstr "Eerste keer Gespeel"
+
+#: core/meta/support/MetaConstants.cpp:124
+#, fuzzy
+#| msgid "Last played"
+msgid "last played"
+msgstr "Laas gespeel"
+
+#: core/meta/support/MetaConstants.cpp:125
+msgid "playcount"
+msgstr "speeltelling"
+
+#: core/meta/support/MetaConstants.cpp:126
+msgid "unique id"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:128
+#, fuzzy
+#| msgid "No track playing"
+msgid "track gain"
+msgstr "Geen snit speel tans"
+
+#: core/meta/support/MetaConstants.cpp:129
+msgid "track gain peak"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:130
+#, fuzzy
+#| msgid "album"
+msgid "album gain"
+msgstr "album"
+
+#: core/meta/support/MetaConstants.cpp:131
+#, fuzzy
+#| msgid "album"
+msgid "album gain peak"
+msgstr "album"
+
+#: core/meta/support/MetaConstants.cpp:133
+#, fuzzy
+#| msgctxt "'Album artist' playlist column name and token for playlist layouts"
+#| msgid "Album artist"
+msgid "album artist name"
+msgstr "Album kunstenaar"
+
+#: core/meta/support/MetaConstants.cpp:134
+#, fuzzy
+#| msgid "Label"
+msgid "label"
+msgstr "Etiket"
+
+#: core/meta/support/MetaConstants.cpp:135
+#, fuzzy
+#| msgid "modified"
+msgid "last modified"
+msgstr "gewysig"
+
+#: core/meta/support/MetaConstants.cpp:149
+#, fuzzy
+#| msgid "artist"
+msgctxt "One word translation used in the collection filter"
+msgid "artist"
+msgstr "kunstenaar"
+
+#: core/meta/support/MetaConstants.cpp:150
+#, fuzzy
+#| msgid "album"
+msgctxt "One word translation used in the collection filter"
+msgid "album"
+msgstr "album"
+
+#: core/meta/support/MetaConstants.cpp:151
+#, fuzzy
+#| msgid "genre"
+msgctxt "One word translation used in the collection filter"
+msgid "genre"
+msgstr "genre"
+
+#: core/meta/support/MetaConstants.cpp:152
+#, fuzzy
+#| msgid "composer"
+msgctxt "One word translation used in the collection filter"
+msgid "composer"
+msgstr "komponis"
+
+#: core/meta/support/MetaConstants.cpp:153
+#, fuzzy
+#| msgid "year"
+msgctxt "One word translation used in the collection filter"
+msgid "year"
+msgstr "jaar"
+
+#: core/meta/support/MetaConstants.cpp:154
+#, fuzzy
+#| msgid "comment"
+msgctxt "One word translation used in the collection filter"
+msgid "comment"
+msgstr "kommentaar"
+
+#: core/meta/support/MetaConstants.cpp:155
+#, fuzzy
+#| msgid "tracknumber"
+msgctxt "One word translation used in the collection filter"
+msgid "tracknumber"
+msgstr "snitnommer"
+
+#: core/meta/support/MetaConstants.cpp:156
+#, fuzzy
+#| msgid "discnumber"
+msgctxt "One word translation used in the collection filter"
+msgid "discnumber"
+msgstr "skyfnommer"
+
+#: core/meta/support/MetaConstants.cpp:157
+#, fuzzy
+#| msgid "bpm"
+msgctxt "One word translation used in the collection filter"
+msgid "bpm"
+msgstr "bpm"
+
+#: core/meta/support/MetaConstants.cpp:158
+#, fuzzy
+#| msgid "length"
+msgctxt "One word translation used in the collection filter"
+msgid "length"
+msgstr "tydsduur"
+
+#: core/meta/support/MetaConstants.cpp:159
+#, fuzzy
+#| msgid "bitrate"
+msgctxt "One word translation used in the collection filter"
+msgid "bitrate"
+msgstr "bistempo"
+
+#: core/meta/support/MetaConstants.cpp:160
+#, fuzzy
+#| msgid "samplerate"
+msgctxt "One word translation used in the collection filter"
+msgid "samplerate"
+msgstr "steekproef tempo"
+
+#: core/meta/support/MetaConstants.cpp:161
+#, fuzzy
+#| msgctxt "'File size' playlist column name and token for playlist layouts"
+#| msgid "File size"
+msgctxt "One word translation used in the collection filter"
+msgid "filesize"
+msgstr "Lêergrootte"
+
+#: core/meta/support/MetaConstants.cpp:162
+#, fuzzy
+#| msgid "Format:"
+msgctxt "One word translation used in the collection filter"
+msgid "format"
+msgstr "Formaat:"
+
+#: core/meta/support/MetaConstants.cpp:163
+#, fuzzy
+#| msgid "added"
+msgctxt "One word translation used in the collection filter"
+msgid "added"
+msgstr "bygevoeg"
+
+#: core/meta/support/MetaConstants.cpp:164
+#, fuzzy
+#| msgid "score"
+msgctxt "One word translation used in the collection filter"
+msgid "score"
+msgstr "evaluasie"
+
+#: core/meta/support/MetaConstants.cpp:165
+#, fuzzy
+#| msgid "rating"
+msgctxt "One word translation used in the collection filter"
+msgid "rating"
+msgstr "keuring"
+
+#: core/meta/support/MetaConstants.cpp:166
+msgctxt ""
+"One word translation used in the collection filter. First played time / "
+"access date"
+msgid "first"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:167
+#, fuzzy
+#| msgid "last.fm"
+msgctxt ""
+"One word translation used in the collection filter. Last played time / "
+"access date"
+msgid "last"
+msgstr "last.fm"
+
+#: core/meta/support/MetaConstants.cpp:168
+#, fuzzy
+#| msgid "playcount"
+msgctxt "One word translation used in the collection filter"
+msgid "playcount"
+msgstr "speeltelling"
+
+#: core/meta/support/MetaConstants.cpp:169
+msgctxt "One word translation used in the collection filter"
+msgid "uniqueid"
+msgstr ""
+
+#: core/meta/support/MetaConstants.cpp:171
+#, fuzzy
+#| msgid "No track playing"
+msgctxt "One word translation used in the collection filter"
+msgid "trackgain"
+msgstr "Geen snit speel tans"
+
+#: core/meta/support/MetaConstants.cpp:172
+#, fuzzy
+#| msgid "No track playing"
+msgctxt "One word translation used in the collection filter"
+msgid "trackgainpeak"
+msgstr "Geen snit speel tans"
+
+#: core/meta/support/MetaConstants.cpp:173
+#, fuzzy
+#| msgid "album"
+msgctxt "One word translation used in the collection filter"
+msgid "albumgain"
+msgstr "album"
+
+#: core/meta/support/MetaConstants.cpp:174
+#, fuzzy
+#| msgid "album"
+msgctxt "One word translation used in the collection filter"
+msgid "albumgainpeak"
+msgstr "album"
+
+#: core/meta/support/MetaConstants.cpp:176
+#, fuzzy
+#| msgctxt "'Album artist' playlist column name and token for playlist layouts"
+#| msgid "Album artist"
+msgctxt "One word translation used in the collection filter"
+msgid "albumartist"
+msgstr "Album kunstenaar"
+
+#: core/meta/support/MetaConstants.cpp:177
+#, fuzzy
+#| msgid "Label"
+msgctxt "One word translation used in the collection filter"
+msgid "label"
+msgstr "Etiket"
+
+#: core/meta/support/MetaConstants.cpp:178
+#, fuzzy
+#| msgid "modified"
+msgctxt "One word translation used in the collection filter"
+msgid "modified"
+msgstr "gewysig"
 
 #: core/plugins/PluginManager.cpp:176
 msgctxt "Title, as in: the title of this item"
@@ -4223,7 +4313,7 @@ msgid "unknown type"
 msgstr "onbekende soort"
 
 #: core/support/Amarok.cpp:46 core/support/Amarok.cpp:91
-#: playlist/PlaylistModel.cpp:385
+#: playlist/PlaylistModel.cpp:386
 msgctxt "The amount of time since last played"
 msgid "Never"
 msgstr "Nooit"
@@ -4754,8 +4844,8 @@ msgstr "Databasis Ligging"
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #. i18n: file: services/ampache/NewServerWidget.ui:50
 #. i18n: ectx: property (text), widget (QLabel, labelUsername)
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:53 rc.cpp:1481
-#: rc.cpp:1493
+#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:53 rc.cpp:1493
+#: rc.cpp:1505
 msgid "Username"
 msgstr "Gebruikernaam"
 
@@ -4765,8 +4855,8 @@ msgstr "Gebruikernaam"
 #. i18n: ectx: property (text), widget (QLabel, labelPassword)
 #. i18n: file: amarokconfig.kcfg:478
 #. i18n: ectx: label, entry, group (Scrobbler)
-#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:57 rc.cpp:1484
-#: rc.cpp:1496 rc.cpp:2099
+#: databaseimporter/amarok14/FastForwardImporterConfig.cpp:57 rc.cpp:1496
+#: rc.cpp:1508 rc.cpp:2111
 msgid "Password"
 msgstr "Wagwoord"
 
@@ -5537,7 +5627,7 @@ msgid "File Type"
 msgstr "Lêertipe"
 
 #: dialogs/FilenameLayoutDialog.cpp:241 dialogs/FilenameLayoutDialog.cpp:610
-#: playlist/PlaylistModel.cpp:835 widgets/SmartPlaylistEditor.cpp:184
+#: playlist/PlaylistModel.cpp:886 widgets/SmartPlaylistEditor.cpp:184
 msgid "Comment"
 msgstr "Kommentaar"
 
@@ -6346,7 +6436,7 @@ msgstr "Verstek Uitleg"
 
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:36
-#: playlist/layouts/PlaylistLayoutEditDialog.cpp:525 rc.cpp:2249
+#: playlist/layouts/PlaylistLayoutEditDialog.cpp:525 rc.cpp:2261
 msgid "No Grouping"
 msgstr "Geen Groepering"
 
@@ -6427,19 +6517,19 @@ msgstr "Die volgende bronne is beskikbaar vir hierdie snit:"
 msgid "Ok"
 msgstr "Goed"
 
-#: playlist/view/PlaylistViewCommon.cpp:116
+#: playlist/view/PlaylistViewCommon.cpp:115
 msgid "Dequeue Track"
 msgstr "Verwyder Snit Uit Wagtou"
 
-#: playlist/view/PlaylistViewCommon.cpp:141
+#: playlist/view/PlaylistViewCommon.cpp:140
 msgid "Stop Playing After This Track"
 msgstr "Hou Op Speel Na Hierdie Snit"
 
-#: playlist/view/PlaylistViewCommon.cpp:150
+#: playlist/view/PlaylistViewCommon.cpp:149
 msgid "Remove From Playlist"
 msgstr "Verwyder Vanuit Speellys"
 
-#: playlist/view/PlaylistViewCommon.cpp:214
+#: playlist/view/PlaylistViewCommon.cpp:213
 msgid "Select Source"
 msgstr "Kies Bron"
 
@@ -6651,85 +6741,6 @@ msgstr "Deursoek %1"
 msgid "%1 layout"
 msgstr "%1 uitleg"
 
-#: playlist/PlaylistModel.cpp:236
-#, fuzzy
-#| msgid "No information available for this track"
-msgid "No extra information available"
-msgstr "Geen inligting is beskikbaar vir die snit nie"
-
-#: playlist/PlaylistModel.cpp:824
-msgctxt "The name of the file this track is stored in"
-msgid "Filename"
-msgstr "Lêernaam"
-
-#: playlist/PlaylistModel.cpp:831
-msgid "Disc Number"
-msgstr "Skyf nommer"
-
-#: playlist/PlaylistModel.cpp:832
-msgctxt "The Track number for this item"
-msgid "Track"
-msgstr "Snit"
-
-#: playlist/PlaylistModel.cpp:833 widgets/SmartPlaylistEditor.cpp:187
-msgid "BPM"
-msgstr "BPM"
-
-#: playlist/PlaylistModel.cpp:836
-msgctxt "The location on disc of this track"
-msgid "Directory"
-msgstr "Gids"
-
-#. i18n: file: network/NetworkRequests.ui:56
-#. i18n: ectx: property (text), widget (QTreeWidget, requestList)
-#: playlist/PlaylistModel.cpp:838 widgets/SmartPlaylistEditor.cpp:183
-#: rc.cpp:1229
-msgid "Length"
-msgstr "Tydsduur"
-
-#: playlist/PlaylistModel.cpp:839 widgets/SmartPlaylistEditor.cpp:187
-msgid "Bitrate"
-msgstr "Bistempo"
-
-#: playlist/PlaylistModel.cpp:840
-msgid "Sample Rate"
-msgstr "Steekproef Tempo"
-
-#: playlist/PlaylistModel.cpp:842 playlist/ProgressiveSearchWidget.cpp:109
-#: widgets/SmartPlaylistEditor.cpp:185 TrayIcon.cpp:170
-msgid "Rating"
-msgstr "Keuring"
-
-#: playlist/PlaylistModel.cpp:843 TrayIcon.cpp:176
-msgid "Play Count"
-msgstr "Speel Telling"
-
-#: playlist/PlaylistModel.cpp:844
-msgctxt "Column name"
-msgid "Last Played"
-msgstr "Laas Gespeel"
-
-#: playlist/PlaylistModel.cpp:845
-msgid "Mood"
-msgstr "Gemoed"
-
-#: playlist/PlaylistModel.cpp:846
-msgid "File Size"
-msgstr "Lêer grootte"
-
-#: playlist/PlaylistDock.cpp:95
-msgid "Dynamic Mode Enabled"
-msgstr "Dinamiese Modus Geaktiveer"
-
-#: playlist/PlaylistDock.cpp:159
-msgid "&Save Current Playlist"
-msgstr "&Stoor Huidige Speellys"
-
-#: playlist/PlaylistDock.cpp:229
-#, kde-format
-msgid "&Save playlist to \"%1\""
-msgstr "&Stoor speellys na \"%1\""
-
 #: playlist/ProgressiveSearchWidget.cpp:45
 msgid "Warning: tracks have been hidden in the playlist"
 msgstr "Waarskuwing: die speellys bevat versteekte snitte"
@@ -6775,6 +6786,119 @@ msgstr "Wys slegs pasmaats"
 #: playlist/ProgressiveSearchWidget.cpp:137
 msgid "Search Preferences"
 msgstr "Soek Voorkeure"
+
+#: playlist/PlaylistDock.cpp:96
+msgid "Dynamic Mode Enabled"
+msgstr "Dinamiese Modus Geaktiveer"
+
+#: playlist/PlaylistDock.cpp:160
+msgid "&Save Current Playlist"
+msgstr "&Stoor Huidige Speellys"
+
+#: playlist/PlaylistDock.cpp:236
+#, kde-format
+msgid "&Save playlist to \"%1\""
+msgstr "&Stoor speellys na \"%1\""
+
+#: playlist/PlaylistModel.cpp:237
+#, fuzzy
+#| msgid "No information available for this track"
+msgid "No extra information available"
+msgstr "Geen inligting is beskikbaar vir die snit nie"
+
+#: playlist/PlaylistModel.cpp:813
+#, fuzzy, kde-format
+#| msgid "Playlist_%1"
+msgctxt ""
+"A saved playlist with the current time (KLocale::Shortdate) added "
+"between                       the parentheses"
+msgid "Empty Playlist (%1)"
+msgstr "Speellys_%1"
+
+#: playlist/PlaylistModel.cpp:841
+#, fuzzy, kde-format
+#| msgid "Previous Track"
+msgctxt ""
+"A saved playlist with the current time (KLocale::Shortdate) added "
+"between                       the parentheses"
+msgid "Various Tracks (%1)"
+msgstr "Vorige Snit"
+
+#: playlist/PlaylistModel.cpp:848
+#, fuzzy
+#| msgid "Unknown Artist"
+msgid "Unknown Artist(s)"
+msgstr "Onbekende Kunstenaar"
+
+#: playlist/PlaylistModel.cpp:860
+#, fuzzy
+#| msgid "Unknown Album"
+msgid "Unknown Album(s)"
+msgstr "Onbekende Album"
+
+#: playlist/PlaylistModel.cpp:863
+#, fuzzy
+#| msgid "Various Artists"
+msgid "Various Albums"
+msgstr "Verskeie Kunstenaars"
+
+#: playlist/PlaylistModel.cpp:865
+#, fuzzy, kde-format
+#| msgid "%1 - %2"
+msgctxt "A saved playlist titled <artist> - <album>"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: playlist/PlaylistModel.cpp:875
+msgctxt "The name of the file this track is stored in"
+msgid "Filename"
+msgstr "Lêernaam"
+
+#: playlist/PlaylistModel.cpp:882
+msgid "Disc Number"
+msgstr "Skyf nommer"
+
+#: playlist/PlaylistModel.cpp:883
+msgctxt "The Track number for this item"
+msgid "Track"
+msgstr "Snit"
+
+#: playlist/PlaylistModel.cpp:884 widgets/SmartPlaylistEditor.cpp:187
+msgid "BPM"
+msgstr "BPM"
+
+#: playlist/PlaylistModel.cpp:887
+msgctxt "The location on disc of this track"
+msgid "Directory"
+msgstr "Gids"
+
+#. i18n: file: network/NetworkRequests.ui:56
+#. i18n: ectx: property (text), widget (QTreeWidget, requestList)
+#: playlist/PlaylistModel.cpp:889 widgets/SmartPlaylistEditor.cpp:183
+#: rc.cpp:1229
+msgid "Length"
+msgstr "Tydsduur"
+
+#: playlist/PlaylistModel.cpp:890 widgets/SmartPlaylistEditor.cpp:187
+msgid "Bitrate"
+msgstr "Bistempo"
+
+#: playlist/PlaylistModel.cpp:891
+msgid "Sample Rate"
+msgstr "Steekproef Tempo"
+
+#: playlist/PlaylistModel.cpp:895
+msgctxt "Column name"
+msgid "Last Played"
+msgstr "Laas Gespeel"
+
+#: playlist/PlaylistModel.cpp:896
+msgid "Mood"
+msgstr "Gemoed"
+
+#: playlist/PlaylistModel.cpp:897
+msgid "File Size"
+msgstr "Lêer grootte"
 
 #: playlistgenerator/ConstraintGroup.cpp:87
 #, fuzzy
@@ -6873,13 +6997,13 @@ msgstr "Verwyder Duplikate"
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:51
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
 #: playlistgenerator/constraints/PreventDuplicates.cpp:104
-#: widgets/SmartPlaylistEditor.cpp:253 rc.cpp:1412
+#: widgets/SmartPlaylistEditor.cpp:253 rc.cpp:1424
 msgid "tracks"
 msgstr "snitte"
 
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:61
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
-#: playlistgenerator/constraints/PreventDuplicates.cpp:106 rc.cpp:1418
+#: playlistgenerator/constraints/PreventDuplicates.cpp:106 rc.cpp:1430
 #, fuzzy
 #| msgid "artist"
 msgid "artists"
@@ -6887,7 +7011,7 @@ msgstr "kunstenaar"
 
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:56
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Field)
-#: playlistgenerator/constraints/PreventDuplicates.cpp:108 rc.cpp:1415
+#: playlistgenerator/constraints/PreventDuplicates.cpp:108 rc.cpp:1427
 #, fuzzy
 #| msgid "album"
 msgid "albums"
@@ -6923,20 +7047,20 @@ msgstr "gelyk aan"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:49
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
-#: playlistgenerator/constraints/PlaylistLength.cpp:206 rc.cpp:1376
+#: playlistgenerator/constraints/PlaylistLength.cpp:206 rc.cpp:1388
 #, fuzzy
 #| msgid "greater than"
 msgid "more than"
 msgstr "meer as"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:208
-#: widgets/MetaQueryWidget.cpp:898
+#: widgets/MetaQueryWidget.cpp:903
 msgid "less than"
 msgstr "minder as"
 
 #: playlistgenerator/constraints/PlaylistLength.cpp:210
 #: playlistgenerator/constraints/PlaylistDuration.cpp:271
-#: widgets/MetaQueryWidget.cpp:917
+#: widgets/MetaQueryWidget.cpp:922
 #, fuzzy
 #| msgid "Unknown Artist"
 msgid "unknown comparison"
@@ -6969,7 +7093,7 @@ msgstr "gelyk aan"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:49
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
-#: playlistgenerator/constraints/PlaylistDuration.cpp:267 rc.cpp:1337
+#: playlistgenerator/constraints/PlaylistDuration.cpp:267 rc.cpp:1349
 #, fuzzy
 #| msgid "less than"
 msgid "longer than"
@@ -6977,7 +7101,7 @@ msgstr "minder as"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:39
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
-#: playlistgenerator/constraints/PlaylistDuration.cpp:269 rc.cpp:1331
+#: playlistgenerator/constraints/PlaylistDuration.cpp:269 rc.cpp:1343
 #, fuzzy
 #| msgid "greater than"
 msgid "shorter than"
@@ -7337,7 +7461,7 @@ msgstr "Van Jamendo.com"
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:83
 #. i18n: ectx: property (text), widget (QPushButton, downloadButton)
 #: services/jamendo/JamendoMeta.cpp:135 services/jamendo/JamendoMeta.cpp:371
-#: rc.cpp:1599
+#: rc.cpp:1611
 msgid "&Download"
 msgstr "Aflaai"
 
@@ -7379,7 +7503,7 @@ msgstr "Opdateer"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:95
 #. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: services/jamendo/JamendoService.cpp:124 rc.cpp:1550
+#: services/jamendo/JamendoService.cpp:124 rc.cpp:1562
 msgid "Download"
 msgstr "Aflaai"
 
@@ -7722,7 +7846,7 @@ msgstr "Kon nie van Flickr.com onttrek nie "
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:96
 #. i18n: ectx: property (text), widget (QPushButton, testLogin)
-#: services/lastfm/LastFmServiceSettings.cpp:213 rc.cpp:1514
+#: services/lastfm/LastFmServiceSettings.cpp:213 rc.cpp:1526
 msgid "&Test Login"
 msgstr "Toets Aanteken"
 
@@ -8318,6 +8442,162 @@ msgstr "Speel/Wag"
 msgid "Stop"
 msgstr "Stop"
 
+#: widgets/MetaQueryWidget.cpp:58 widgets/MetaQueryWidget.cpp:125
+#, fuzzy
+#| msgid "Seconds"
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] "Sekondes"
+msgstr[1] "Sekondes"
+
+#: widgets/MetaQueryWidget.cpp:59 widgets/MetaQueryWidget.cpp:126
+#, fuzzy
+#| msgid "Minutes"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "Minute"
+msgstr[1] "Minute"
+
+#: widgets/MetaQueryWidget.cpp:60 widgets/MetaQueryWidget.cpp:127
+#, fuzzy
+#| msgid "Hours"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "Ure"
+msgstr[1] "Ure"
+
+#: widgets/MetaQueryWidget.cpp:61 widgets/MetaQueryWidget.cpp:128
+#, fuzzy
+#| msgid "Days"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "Dae"
+msgstr[1] "Dae"
+
+#: widgets/MetaQueryWidget.cpp:62 widgets/MetaQueryWidget.cpp:129
+#, fuzzy
+#| msgid "Months"
+msgid "month"
+msgid_plural "months"
+msgstr[0] "Maande"
+msgstr[1] "Maande"
+
+#: widgets/MetaQueryWidget.cpp:230
+msgid "Simple Search"
+msgstr "Eenvoudige Soektog"
+
+#: widgets/MetaQueryWidget.cpp:446 widgets/SmartPlaylistEditor.cpp:934
+#: widgets/SmartPlaylistEditor.cpp:956 widgets/SmartPlaylistEditor.cpp:984
+#: widgets/SmartPlaylistEditor.cpp:1003
+msgid "and"
+msgstr "en"
+
+#: widgets/MetaQueryWidget.cpp:555
+msgctxt "Unit for data rate kilo bit per seconds"
+msgid "kbps"
+msgstr ""
+
+#: widgets/MetaQueryWidget.cpp:557
+#, fuzzy
+#| msgid "Hz"
+msgctxt "Unit for sample rate"
+msgid "Hz"
+msgstr "Hz"
+
+#: widgets/MetaQueryWidget.cpp:559
+msgctxt "Unit for file size in mega byte"
+msgid "MiB"
+msgstr ""
+
+#: widgets/MetaQueryWidget.cpp:883
+#, fuzzy
+#| msgid "is before"
+msgctxt "The date lies before the given fixed date"
+msgid "before"
+msgstr "is voor"
+
+#: widgets/MetaQueryWidget.cpp:885
+#, fuzzy
+#| msgid "none"
+msgctxt "The date is the same as the given fixed date"
+msgid "on"
+msgstr "geen"
+
+#: widgets/MetaQueryWidget.cpp:887
+#, fuzzy
+#| msgid "is after"
+msgctxt "The date is after the given fixed date"
+msgid "after"
+msgstr "is na"
+
+#: widgets/MetaQueryWidget.cpp:889
+#, fuzzy
+#| msgid "Between"
+msgctxt "The date is between the given fixed dates"
+msgid "between"
+msgstr "Tussen"
+
+#: widgets/MetaQueryWidget.cpp:891
+#, fuzzy
+#| msgid "Smaller Than"
+msgctxt "The date lies before the given time interval"
+msgid "older than"
+msgstr "Kleiner As"
+
+#: widgets/MetaQueryWidget.cpp:893
+#, fuzzy
+#| msgid "with"
+msgctxt "The date lies after the given time interval"
+msgid "within"
+msgstr "met"
+
+#: widgets/MetaQueryWidget.cpp:905
+#, fuzzy
+#| msgid "equal to"
+msgctxt "a numerical tag (like year or track number) equals a value"
+msgid "equals"
+msgstr "gelyk aan"
+
+#: widgets/MetaQueryWidget.cpp:907
+msgid "greater than"
+msgstr "meer as"
+
+#: widgets/MetaQueryWidget.cpp:909
+#, fuzzy
+#| msgid "Between"
+msgctxt "a numerical tag (like year or track number) is between two values"
+msgid "between"
+msgstr "Tussen"
+
+#: widgets/MetaQueryWidget.cpp:911
+#, fuzzy
+#| msgid "contains"
+msgctxt "an alphabetical tag (like title or artist name) contains some string"
+msgid "contains"
+msgstr "bevat"
+
+#: widgets/MetaQueryWidget.cpp:913
+#, fuzzy
+#| msgid "Patches"
+msgctxt "an alphabetical tag (like title or artist name) equals some string"
+msgid "matches"
+msgstr "Verbeteringe"
+
+#: widgets/MetaQueryWidget.cpp:915
+#, fuzzy
+#| msgid "starts with"
+msgctxt ""
+"an alphabetical tag (like title or artist name) starts with some string"
+msgid "starts with"
+msgstr "begin met"
+
+#: widgets/MetaQueryWidget.cpp:917
+#, fuzzy
+#| msgid "ends with"
+msgctxt "an alphabetical tag (like title or artist name) ends with some string"
+msgid "ends with"
+msgstr "eindig met"
+
 #: widgets/PlayPauseButton.cpp:31 widgets/PlayPauseButton.cpp:81
 #, fuzzy
 #| msgid "Playback"
@@ -8496,12 +8776,6 @@ msgstr "is kleiner as"
 msgid "is before"
 msgstr "is voor"
 
-#: widgets/SmartPlaylistEditor.cpp:934 widgets/SmartPlaylistEditor.cpp:956
-#: widgets/SmartPlaylistEditor.cpp:984 widgets/SmartPlaylistEditor.cpp:1003
-#: widgets/MetaQueryWidget.cpp:445
-msgid "and"
-msgstr "en"
-
 #: widgets/SmartPlaylistEditor.cpp:974
 msgid "Days"
 msgstr "Dae"
@@ -8525,160 +8799,6 @@ msgstr "Ure"
 #: widgets/TokenDropTarget.cpp:386
 msgid "Drag in and out items from above."
 msgstr "Sleep items van bo in en uit."
-
-#: widgets/MetaQueryWidget.cpp:58 widgets/MetaQueryWidget.cpp:125
-#, fuzzy
-#| msgid "Seconds"
-msgid "second"
-msgid_plural "seconds"
-msgstr[0] "Sekondes"
-msgstr[1] "Sekondes"
-
-#: widgets/MetaQueryWidget.cpp:59 widgets/MetaQueryWidget.cpp:126
-#, fuzzy
-#| msgid "Minutes"
-msgid "minute"
-msgid_plural "minutes"
-msgstr[0] "Minute"
-msgstr[1] "Minute"
-
-#: widgets/MetaQueryWidget.cpp:60 widgets/MetaQueryWidget.cpp:127
-#, fuzzy
-#| msgid "Hours"
-msgid "hour"
-msgid_plural "hours"
-msgstr[0] "Ure"
-msgstr[1] "Ure"
-
-#: widgets/MetaQueryWidget.cpp:61 widgets/MetaQueryWidget.cpp:128
-#, fuzzy
-#| msgid "Days"
-msgid "day"
-msgid_plural "days"
-msgstr[0] "Dae"
-msgstr[1] "Dae"
-
-#: widgets/MetaQueryWidget.cpp:62 widgets/MetaQueryWidget.cpp:129
-#, fuzzy
-#| msgid "Months"
-msgid "month"
-msgid_plural "months"
-msgstr[0] "Maande"
-msgstr[1] "Maande"
-
-#: widgets/MetaQueryWidget.cpp:230
-msgid "Simple Search"
-msgstr "Eenvoudige Soektog"
-
-#: widgets/MetaQueryWidget.cpp:554
-msgctxt "Unit for data rate kilo bit per seconds"
-msgid "kbps"
-msgstr ""
-
-#: widgets/MetaQueryWidget.cpp:556
-#, fuzzy
-#| msgid "Hz"
-msgctxt "Unit for sample rate"
-msgid "Hz"
-msgstr "Hz"
-
-#: widgets/MetaQueryWidget.cpp:558
-msgctxt "Unit for file size in mega byte"
-msgid "MiB"
-msgstr ""
-
-#: widgets/MetaQueryWidget.cpp:878
-#, fuzzy
-#| msgid "is before"
-msgctxt "The date lies before the given fixed date"
-msgid "before"
-msgstr "is voor"
-
-#: widgets/MetaQueryWidget.cpp:880
-#, fuzzy
-#| msgid "none"
-msgctxt "The date is the same as the given fixed date"
-msgid "on"
-msgstr "geen"
-
-#: widgets/MetaQueryWidget.cpp:882
-#, fuzzy
-#| msgid "is after"
-msgctxt "The date is after the given fixed date"
-msgid "after"
-msgstr "is na"
-
-#: widgets/MetaQueryWidget.cpp:884
-#, fuzzy
-#| msgid "Between"
-msgctxt "The date is between the given fixed dates"
-msgid "between"
-msgstr "Tussen"
-
-#: widgets/MetaQueryWidget.cpp:886
-#, fuzzy
-#| msgid "Smaller Than"
-msgctxt "The date lies before the given time interval"
-msgid "older than"
-msgstr "Kleiner As"
-
-#: widgets/MetaQueryWidget.cpp:888
-#, fuzzy
-#| msgid "with"
-msgctxt "The date lies after the given time interval"
-msgid "within"
-msgstr "met"
-
-#: widgets/MetaQueryWidget.cpp:900
-#, fuzzy
-#| msgid "equal to"
-msgctxt "a numerical tag (like year or track number) equals a value"
-msgid "equals"
-msgstr "gelyk aan"
-
-#: widgets/MetaQueryWidget.cpp:902
-msgid "greater than"
-msgstr "meer as"
-
-#: widgets/MetaQueryWidget.cpp:904
-#, fuzzy
-#| msgid "Between"
-msgctxt "a numerical tag (like year or track number) is between two values"
-msgid "between"
-msgstr "Tussen"
-
-#: widgets/MetaQueryWidget.cpp:906
-#, fuzzy
-#| msgid "contains"
-msgctxt "an alphabetical tag (like title or artist name) contains some string"
-msgid "contains"
-msgstr "bevat"
-
-#: widgets/MetaQueryWidget.cpp:908
-#, fuzzy
-#| msgid "Patches"
-msgctxt "an alphabetical tag (like title or artist name) equals some string"
-msgid "matches"
-msgstr "Verbeteringe"
-
-#: widgets/MetaQueryWidget.cpp:910
-#, fuzzy
-#| msgid "starts with"
-msgctxt ""
-"an alphabetical tag (like title or artist name) starts with some string"
-msgid "starts with"
-msgstr "begin met"
-
-#: widgets/MetaQueryWidget.cpp:912
-#, fuzzy
-#| msgid "ends with"
-msgctxt "an alphabetical tag (like title or artist name) ends with some string"
-msgid "ends with"
-msgstr "eindig met"
-
-#: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340 TrayIcon.cpp:141
-msgid "Muted"
-msgstr "Verdoof"
 
 #: widgets/VolumeDial.cpp:301 widgets/VolumeDial.cpp:340
 #: widgets/VolumeWidget.cpp:52 widgets/VolumeWidget.cpp:84
@@ -8772,10 +8892,6 @@ msgstr "Verdoof"
 msgid "Volume: <i>Muted</i>"
 msgstr "Luidheid: <i>Gedoof</i>"
 
-#: widgets/SliderWidget.cpp:243 TrayIcon.cpp:147
-msgid "Volume"
-msgstr "Luidheid"
-
 #: widgets/SliderWidget.cpp:244
 msgid "100%"
 msgstr "100%"
@@ -8808,6 +8924,856 @@ msgctxt ""
 "click the mouse. Keep it concise."
 msgid "Jump to: %1"
 msgstr "Spring na: %1"
+
+#: EngineController.cpp:267
+msgid ""
+"<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
+"the installation of the backend that phonon uses.</p><p>You may find useful "
+"information in the <i>FAQ</i> section of the <i>Amarok Handbook</i>.</p>"
+msgstr ""
+"<p>Phonon beweer dit <b>kannie</b> MP3 lêers speel nie. Jy mag dalk die "
+"opstelling van die agterkant wat phonon gebruik nagaan.</p><p>Jy mag dalk "
+"nuttige inligting vind in die <i>FAQ</i> (Veel Voorkomende Vrae) afdeling "
+"van die <i>Amarok Handboek</i>.</p>"
+
+#: EngineController.cpp:288
+msgid "Install MP3 Support"
+msgstr "Installeer MP3 Ondersteuning"
+
+#: EngineController.cpp:290
+msgid ""
+"Amarok currently cannot play MP3 files. Do you want to install support for "
+"MP3?"
+msgstr ""
+"Amarok is nie tans in staat om MP3 lêers te speel nie. Wil jy ondersteuning "
+"vir MP3 installeer?"
+
+#: EngineController.cpp:291
+msgid "No MP3 Support"
+msgstr "Geen MP3 Ondersteuning"
+
+#: EngineController.cpp:856
+msgid "Preamp"
+msgstr "Vooraf versterking"
+
+#: EngineController.cpp:1159
+msgid "Too many errors encountered in playlist. Playback stopped."
+msgstr "Te veel foute teëgekom in speellys. Opgehou speel. "
+
+#: EngineController.cpp:1377
+#, kde-format
+msgctxt "track by artist on album"
+msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
+msgstr "<b>%1</b> deur <b>%2</b> op <b>%3</b>"
+
+#: EngineController.cpp:1380
+#, kde-format
+msgctxt "track by artist"
+msgid "<b>%1</b> by <b>%2</b>"
+msgstr "<b>%1</b> deur <b>%2</b>"
+
+#: EngineController.cpp:1384
+#, kde-format
+msgctxt "track on album"
+msgid "<b>%1</b> on <b>%2</b>"
+msgstr "<b>%1</b> op <b>%2</b>"
+
+#: EngineController.cpp:1389
+msgid "Unknown track"
+msgstr "Onbekende snit"
+
+#: EngineController.cpp:1396
+#, kde-format
+msgctxt "track from source"
+msgid "from <b>%1</b>"
+msgstr "van <b>%1</b>"
+
+#: KNotificationBackend.cpp:117
+msgid "Now playing"
+msgstr "Speel tans"
+
+#: ActionClasses.cpp:86
+msgid "Amarok Menu"
+msgstr "Amarok Kieslys"
+
+#: ActionClasses.cpp:313
+msgid "Click to change"
+msgstr "Kliek om te wysig"
+
+#: ActionClasses.cpp:330
+msgid "&Replay Gain Mode"
+msgstr "&Replay Gain Modus"
+
+#: ActionClasses.cpp:332
+msgctxt "Replay Gain state, as in, disabled"
+msgid "&Off"
+msgstr "Af"
+
+#: ActionClasses.cpp:332
+msgctxt "Item, as in, music"
+msgid "&Track"
+msgstr "Snit"
+
+#: ActionClasses.cpp:333
+msgid "&Album"
+msgstr "Album"
+
+#: ActionClasses.cpp:342
+msgid "&Equalizer"
+msgstr "Band menger"
+
+#: ActionClasses.cpp:370
+msgid "Your current setup does not support the equalizer feature"
+msgstr "Jou huidige opstelling ondersteun nie die band menger funksie nie"
+
+#: ActionClasses.cpp:375
+msgctxt "Equalizer state, as in, disabled"
+msgid "&Off"
+msgstr "Af"
+
+#: ActionClasses.cpp:426
+msgid "Burn"
+msgstr "Skryf"
+
+#: ActionClasses.cpp:465
+msgid "Current Playlist"
+msgstr "Huidige Speellys"
+
+#: ActionClasses.cpp:466
+msgid "Selected Tracks"
+msgstr "Geselekteerde Snitte"
+
+#: ActionClasses.cpp:549
+msgid "Stop after current Track"
+msgstr "Stop na huidige Snit"
+
+#: ActionClasses.cpp:564
+msgid "Stop after current track: On"
+msgstr "Stop na huidige snit: Aan"
+
+#: ActionClasses.cpp:570
+msgid "Stop after current track: Off"
+msgstr "Stop na huidige snit: Af"
+
+#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
+#: App.cpp:111 rc.cpp:481
+msgid "Amarok"
+msgstr "Amarok"
+
+#: App.cpp:112
+msgid "The audio player for KDE"
+msgstr "Die oudio speler vir KDE"
+
+#: App.cpp:113
+msgid ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2010, The Amarok Development Squad"
+msgstr ""
+"(C) 2002-2003, Mark Kretschmann\n"
+"(C) 2003-2009, Die Amarok Ontwikkeling Peloton"
+
+#: App.cpp:114
+#, kde-format
+msgid ""
+"IRC:\n"
+"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+"\n"
+"Feedback:\n"
+"amarok@kde.org\n"
+"\n"
+"(Build Date: %1)"
+msgstr ""
+"IRC:\n"
+"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+"\n"
+"Terugvoer:\n"
+"amarok@kde.org\n"
+"\n"
+"(Bou Datum: %1)"
+
+#: App.cpp:438
+msgid "Files/URLs to open"
+msgstr "Lêers/URLs om oop te maak"
+
+#: App.cpp:439
+msgid "Immediately start playing an audio cd"
+msgstr ""
+
+#: App.cpp:441
+msgid "Skip backwards in playlist"
+msgstr "Spring terugwaarts in die speel lys"
+
+#: App.cpp:443
+msgid "Start playing current playlist"
+msgstr "Begin om die huidige speel lys te speel"
+
+#: App.cpp:445
+msgid "Play if stopped, pause if playing"
+msgstr "Speel indien gestop, wag indien besig is om te speel"
+
+#: App.cpp:446
+msgid "Pause playback"
+msgstr "Pouseer terugspeel"
+
+#: App.cpp:448
+msgid "Stop playback"
+msgstr "Stop terugspeel"
+
+#: App.cpp:450
+msgid "Skip forwards in playlist"
+msgstr "Spring vorentoe in die speellys"
+
+#: App.cpp:451
+msgid "Additional options:"
+msgstr "Verdere opsies:"
+
+#: App.cpp:453
+msgid "Append files/URLs to playlist"
+msgstr "Las lêers/URLs agter aan speellys"
+
+#: App.cpp:454
+msgid "Queue URLs after the currently playing track"
+msgstr "Plaas URLs in die wagtou na die snit wat tans speel"
+
+#: App.cpp:456
+msgid "Load URLs, replacing current playlist"
+msgstr "Laai URLs en vervang die huidige speellys met die resultaat"
+
+#: App.cpp:458
+msgid "Print verbose debugging information"
+msgstr "Druk breedvoerige ontfoutingsinligting"
+
+#: App.cpp:460
+msgid "Disable colorization for debug output."
+msgstr ""
+
+#: App.cpp:462
+msgid "Allow running multiple Amarok instances"
+msgstr "Laat veelvuldige Amarok instansies toe om te loop"
+
+#: App.cpp:463
+msgid "Base for relative filenames/URLs"
+msgstr "Basis wat vir relatiewe lêername/URLs gebruik moet word"
+
+#: App.cpp:465
+msgid "Unit test options:"
+msgstr "Eenheidstoets opsies"
+
+#: App.cpp:466
+msgid "Run integrated unit tests"
+msgstr "Loop geïntegreerde eenheidstoetse"
+
+#: App.cpp:467
+msgid "Destination of test output: 'stdout', 'log'"
+msgstr "Toetsafvoer bestemming: 'stdout', 'log'"
+
+#: App.cpp:468
+msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
+msgstr "Toetsafvoer formaat: 'xml', 'lightxml', 'plaintext'"
+
+#: App.cpp:469
+msgid "Verbosity from 0-3 (highest)"
+msgstr "Breedspraaklikheid van 0-3 (mees)"
+
+#: App.cpp:705
+msgid ""
+"The embedded database was not found; you must set up a database server "
+"connection.\n"
+"You must restart Amarok after doing this."
+msgstr ""
+"Ingebedde databasis ongevonde; jy moet 'n databasis bediener koppeling "
+"opstel. \n"
+"Jy moet Amarok daarna herlaai."
+
+#: App.cpp:706
+msgid ""
+"The connection details for the database server were invalid.\n"
+"You must enter correct settings and restart Amarok after doing this."
+msgstr ""
+"Die databasis koppelingsbesonderhede was ongeldig.\n"
+"Jy moet korrekte instellings gee en Amarok dan herlaai."
+
+#: App.cpp:707
+msgid "Database Error"
+msgstr "Databasis Fout"
+
+#: App.cpp:755
+msgid "Moving files to trash"
+msgstr "Besig om lêers na die asblik te skuif"
+
+#: App.cpp:843
+#, kde-format
+msgid ""
+"A music path, %1, is set in System Settings.\n"
+"Would you like to use that as a collection folder?"
+msgstr ""
+"'n Musiekpad (%1) is ingestel by Stelsel Instellings. \n"
+"Wil jy dit as 'n versameling gids gebruik?"
+
+#: main.cpp:35
+msgid "Alejandro Wainzinger"
+msgstr "Alejandro Wainzinger"
+
+#: main.cpp:36
+msgid "Developer (xevix)"
+msgstr "Ontwikkelaar (xevix)"
+
+#: main.cpp:37
+msgid "Bart 'Where are my toothpicks' Cerneels"
+msgstr "Bart 'Waar is my tandestokkies' Cerneels"
+
+#: main.cpp:38
+msgid "Developer (Stecchino)"
+msgstr "Ontwikkelaar (Stecchino)"
+
+#: main.cpp:39
+msgid "Dan 'Hey, it compiled...' Meltzer"
+msgstr "Dan 'Haai, geslaagde samestelling...' Meltzer"
+
+#: main.cpp:40
+msgid "Developer (hydrogen)"
+msgstr "Ontwikkelaar (hydrogen)"
+
+#: main.cpp:41
+msgid "Ian 'The Beard' Monroe"
+msgstr "Ian 'Die Baard' Monroe"
+
+#: main.cpp:42
+msgid "Developer (eean)"
+msgstr "Ontwikkelaar (eean)"
+
+#: main.cpp:43
+msgid "Jeff 'IROKSOHARD' Mitchell"
+msgstr "Jeff 'IROKSOHARD' Mitchell"
+
+#: main.cpp:44
+msgid "Developer (jefferai)"
+msgstr "Ontwikkelaar (jefferai)"
+
+#: main.cpp:46
+msgid "Developer (lfranchi)"
+msgstr "Ontwikkelaar (lfranchi)"
+
+#: main.cpp:47
+msgid "Lydia 'is wrong(TM)' Pintscher"
+msgstr "Lydia 'is verkeerd(TM)' Pintscher"
+
+#: main.cpp:48
+msgid "Release Vixen (Nightrose)"
+msgstr "Vrylaat Vos (Nightrose)"
+
+#: main.cpp:49
+msgid "Mark 'It's good, but it's not irssi' Kretschmann"
+msgstr "Mark 'Dis goed, maar irssi is dit nie' Kretschmann"
+
+#: main.cpp:50
+msgid "Project founder (markey)"
+msgstr "Projek stigter (markey)"
+
+#: main.cpp:51
+msgid "Maximilian Kossick"
+msgstr "Maximilian Kossick"
+
+#: main.cpp:52
+msgid "Developer (maxx_k)"
+msgstr "Developer (maxx_k)"
+
+#: main.cpp:53
+msgid "Nikolaj Hald 'Also very hot' Nielsen"
+msgstr "Nikolaj Hald 'Ook vuurwarm' Nielsen"
+
+#: main.cpp:54
+msgid "Developer (nhn)"
+msgstr "Ontwikkelaar (nhn)"
+
+#: main.cpp:55
+msgid "Seb 'Surfin' down under' Ruiz"
+msgstr "Seb 'Branderplank ry \"down under\"' Ruiz"
+
+#: main.cpp:56
+msgid "Developer (sebr)"
+msgstr "Ontwikkelaar (sebr)"
+
+#: main.cpp:57
+msgid "Téo Mrnjavac"
+msgstr "Téo Mrnjavac"
+
+#: main.cpp:58
+msgid "Developer (Teo`)"
+msgstr "Ontwikkelaar (Teo`)"
+
+#: main.cpp:74
+msgid "Alex Merry"
+msgstr "Alex Merry"
+
+#: main.cpp:74
+msgid "Developer, Replay Gain support"
+msgstr "Ontwikkelaar, Replay Gain ondersteuning"
+
+#: main.cpp:76
+msgid "Casey Link"
+msgstr "Casey Link"
+
+#: main.cpp:76
+msgid "MP3tunes integration"
+msgstr "MP3tunes integrasie"
+
+#: main.cpp:78
+msgid "Casper van Donderen"
+msgstr "Casper van Donderen"
+
+#: main.cpp:78
+msgid "Windows porting"
+msgstr "Windows oordrag"
+
+#: main.cpp:80
+msgid "Christie Harris"
+msgstr "Christie Harris"
+
+#: main.cpp:80
+msgid "Rokymoter (dangle)"
+msgstr "Rokymoter (dangle)"
+
+#: main.cpp:82
+msgid "Dan Leinir Turthra Jensen"
+msgstr "Dan Leinir Turthra Jensen"
+
+#: main.cpp:82
+msgid "Usability"
+msgstr "Bruikbaarheid"
+
+#: main.cpp:84
+msgid "Daniel Caleb Jones"
+msgstr "Daniel Caleb Jones"
+
+#: main.cpp:84
+msgid "Biased playlists"
+msgstr "Sydige speellyste"
+
+#: main.cpp:86
+msgid "Daniel Dewald"
+msgstr "Daniel Dewald"
+
+#: main.cpp:86
+msgid "Tag Guesser, Labels"
+msgstr "Tag Guesser, Labels"
+
+#: main.cpp:88
+msgid "Daniel Winter"
+msgstr "Daniel Winter"
+
+#: main.cpp:88
+msgid "Nepomuk integration"
+msgstr "Nepomuk integrasie"
+
+#: main.cpp:90
+msgid "Edward \"Hades\" Toroshchin"
+msgstr "Edward \"Hades\" Toroshchin"
+
+#: main.cpp:92
+msgid "Frank Meerkötter"
+msgstr "Frank Meerkötter"
+
+#: main.cpp:92 main.cpp:111
+msgid "Podcast improvements"
+msgstr "Potgooi verbeteringe"
+
+#: main.cpp:95
+msgid "Greg Meyer"
+msgstr "Greg Meyer"
+
+#: main.cpp:95
+msgid "Live CD, Bug squashing (oggb4mp3)"
+msgstr "Live CD, ontfouting (oggb4mp3)"
+
+#: main.cpp:97
+msgid "Harald Sitter"
+msgstr "Harald Sitter"
+
+#: main.cpp:97
+msgid "Rokymoter (apachelogger)"
+msgstr "Rokymoter (apachelogger)"
+
+#: main.cpp:99
+msgid "John Atkinson"
+msgstr "John Atkinson"
+
+#: main.cpp:101
+msgid "Kenneth Wesley Wimer II"
+msgstr "Kenneth Wesley Wimer II"
+
+#: main.cpp:101
+msgid "Icons"
+msgstr "Ikone"
+
+#: main.cpp:103
+msgid "Kevin Funk"
+msgstr "Kevin Funk"
+
+#: main.cpp:103
+msgid "Developer, Website theme (KRF)"
+msgstr "Ontwikkelaar, Webwerf tema (KRF)"
+
+#: main.cpp:105
+msgid "Kuba Serafinowski"
+msgstr "Kuba Serafinowski"
+
+#: main.cpp:105
+msgid "Rokymoter"
+msgstr "Rokymoter"
+
+#: main.cpp:107
+msgid "Lee Olson"
+msgstr "Lee Olson"
+
+#: main.cpp:107 main.cpp:121
+msgid "Artwork"
+msgstr "Kunswerk"
+
+#: main.cpp:109
+msgid "Ljubomir Simin"
+msgstr "Ljubomir Simin"
+
+#: main.cpp:109
+msgid "Rokymoter (ljubomir)"
+msgstr "Rokymoter (ljubomir)"
+
+#: main.cpp:111
+msgid "Mathias Panzenböck"
+msgstr "Mathias Panzenböck"
+
+#: main.cpp:113
+msgid "Max Howell"
+msgstr "Max Howell"
+
+#: main.cpp:113
+msgid "Developer, Vision"
+msgstr "Ontwikkelaar, Visie"
+
+#: main.cpp:115
+msgid "Mikko Caldara"
+msgstr "Mikko Caldara"
+
+#: main.cpp:115
+msgid "Bug triaging and sanitizing"
+msgstr "Fout driedeling en reiniging"
+
+#: main.cpp:117
+msgid "Myriam Schweingruber"
+msgstr "Myriam Schweingruber"
+
+#: main.cpp:117
+msgid "Rokymoter, bug squashing (Mamarok)"
+msgstr "Rokymoter, gogga moordenaar (Mamarok)"
+
+#: main.cpp:119
+msgid "Nikhil Marathe"
+msgstr ""
+
+#: main.cpp:119
+msgid "UPnP support and patches (nsm)"
+msgstr ""
+
+#: main.cpp:121
+msgid "Nuno Pinheiro"
+msgstr "Nuno Pinheiro"
+
+#: main.cpp:123
+msgid "Olivier Bédard"
+msgstr "Olivier Bédard"
+
+#: main.cpp:123
+msgid "Website hosting"
+msgstr "Web werf bediening ('hosting')"
+
+#: main.cpp:125
+msgid "Pasi Lalinaho"
+msgstr "Pasi Lalinaho"
+
+#: main.cpp:125
+msgid "Rokymoter (emunkki)"
+msgstr "Rokymoter (emunkki)"
+
+#: main.cpp:127
+msgid "Peter Zhou Lei"
+msgstr "Peter Zhou Lei"
+
+#: main.cpp:127
+msgid "Scripting interface"
+msgstr "Skrip koppelvlak"
+
+#: main.cpp:129
+msgid "Rick W. Chen"
+msgstr "Rick W. Chen"
+
+#: main.cpp:129
+msgid "Cover fetcher"
+msgstr "Omtrek haler"
+
+#: main.cpp:131
+msgid "Scott Wheeler"
+msgstr "Scott Wheeler"
+
+#: main.cpp:131
+msgid "TagLib & ktrm code"
+msgstr "TagLib en ktrm kode"
+
+#: main.cpp:133
+msgid "Shane King"
+msgstr "Shane King"
+
+#: main.cpp:133
+msgid "Patches & Windows porting (shakes)"
+msgstr "Lappies & Windows oordrag (shakes)"
+
+#: main.cpp:135
+msgid "Simon Esneault"
+msgstr "Simon Esneault"
+
+#: main.cpp:135
+msgid "Photos & Videos applets, Context View"
+msgstr "Fotos & Videos miniprogramme, Konteks Aansig"
+
+#: main.cpp:137
+msgid "Soren Harward"
+msgstr "Soren Harward"
+
+#: main.cpp:137
+msgid "Developer, Automated Playlist Generator"
+msgstr ""
+
+#: main.cpp:139
+msgid "Sven Krohlas"
+msgstr "Sven Krohlas"
+
+#: main.cpp:139
+msgid "Rokymoter, Developer (sven423)"
+msgstr "Rokymoter, Ontwikkelaar (sven423)"
+
+#: main.cpp:141
+msgid "Thomas Lübking"
+msgstr "Thomas Lübking"
+
+#: main.cpp:143
+msgid "Valentin Rouet"
+msgstr "Valentin Rouet"
+
+#: main.cpp:145
+msgid "Wade Olson"
+msgstr "Wade Olson"
+
+#: main.cpp:145
+msgid "Splash screen artist"
+msgstr "Spat-skerm kunstenaar"
+
+#: main.cpp:147
+msgid "William Viana Soares"
+msgstr "William Viana Soares"
+
+#: main.cpp:147
+msgid "Context view"
+msgstr "Konteks aansig"
+
+#: main.cpp:149
+msgid "Former contributors"
+msgstr "Voormalige bydraers"
+
+#: main.cpp:149
+msgid "People listed below have contributed to Amarok in the past. Thank you!"
+msgstr "Benoemdes hieronder het tot Amarok bygedra in die verlede. Dankie!"
+
+#: main.cpp:151
+msgid "Adam Pigg"
+msgstr "Adam Pigg"
+
+#: main.cpp:151
+msgid "Analyzers, patches, shoutcast"
+msgstr "Analiseerders, verbeteringe, shoutcast"
+
+#: main.cpp:153
+msgid "Adeodato Simó"
+msgstr "Adeodato Simó"
+
+#: main.cpp:153 main.cpp:161
+msgid "Patches"
+msgstr "Verbeteringe"
+
+#: main.cpp:155
+msgid "Alexandre Oliveira"
+msgstr "Alexandre Oliveira"
+
+#: main.cpp:157
+msgid "Andreas Mair"
+msgstr "Andreas Mair"
+
+#: main.cpp:157
+msgid "MySQL support"
+msgstr "MySQL ondersteuning"
+
+#: main.cpp:159
+msgid "Andrew de Quincey"
+msgstr "Andrew de Quincey"
+
+#: main.cpp:159
+msgid "Postgresql support"
+msgstr "Postgresql ondersteuning"
+
+#: main.cpp:161
+msgid "Andrew Turner"
+msgstr "Andrew Turner"
+
+#: main.cpp:163
+msgid "Andy Kelk"
+msgstr "Andy Kelk"
+
+#: main.cpp:163
+msgid "MTP and Rio Karma media devices, patches"
+msgstr "MTP en Rio Karma media toestelle, regstellings"
+
+#: main.cpp:165
+msgid "Christian Muehlhaeuser"
+msgstr "Christian Muehlhaeuser"
+
+#: main.cpp:167
+msgid "Derek Nelson"
+msgstr "Derek Nelson"
+
+#: main.cpp:167
+msgid "Graphics, splash-screen"
+msgstr "Grafika, spat-skerm"
+
+#: main.cpp:169
+msgid "Enrico Ros"
+msgstr "Enrico Ros"
+
+#: main.cpp:169
+msgid "Analyzers, Context Browser and systray eye-candy"
+msgstr "Analiseerders, Konteks Blaaier en stelsel laai oog genot"
+
+#: main.cpp:171
+msgid "Frederik Holljen"
+msgstr "Frederik Holljen"
+
+#: main.cpp:173
+msgid "Gábor Lehel"
+msgstr "Gábor Lehel"
+
+#: main.cpp:175
+msgid "Gérard Dürrmeyer"
+msgstr "Gérard Dürrmeyer"
+
+#: main.cpp:175
+msgid "Icons and image work"
+msgstr "Ikone en werk aan beelde"
+
+#: main.cpp:177
+msgid "Giovanni Venturi"
+msgstr "Giovanni Venturi"
+
+#: main.cpp:177
+msgid "Dialog to filter the collection titles"
+msgstr "Dialoog om versameling titels te filter"
+
+#: main.cpp:179
+msgid "Jarkko Lehti"
+msgstr "Jarkko Lehti"
+
+#: main.cpp:179
+msgid "Tester, IRC channel operator, whipping"
+msgstr "Toetser, IRC kanaal operateur, sweep klap"
+
+#: main.cpp:181
+msgid "Jocke Andersson"
+msgstr "Jocke Andersson"
+
+#: main.cpp:181
+msgid "Rokymoter, bug fixer (Firetech)"
+msgstr "Rokymoter, bug fixer (Firetech)"
+
+#: main.cpp:183
+msgid "Marco Gulino"
+msgstr "Marco Gulino"
+
+#: main.cpp:183
+msgid "Konqueror Sidebar, some DCOP methods"
+msgstr "Konqueror Kantbalk, DCOP metodes"
+
+#: main.cpp:185
+msgid "Martin Aumueller"
+msgstr "Martin Aumueller"
+
+#: main.cpp:187
+msgid "Melchior Franz"
+msgstr "Melchior Franz"
+
+#: main.cpp:187
+msgid "FHT routine, bugfixes"
+msgstr "FHT roetine, fout herstelling"
+
+#: main.cpp:189
+msgid "Michael Pyne"
+msgstr "Michael Pyne"
+
+#: main.cpp:189
+msgid "K3b export code"
+msgstr "K3v uitvoer kode"
+
+#: main.cpp:191
+msgid "Mike Diehl"
+msgstr "Mike Diehl"
+
+#: main.cpp:193
+msgid "Paul Cifarelli"
+msgstr "Paul Cifarelli"
+
+#: main.cpp:195
+msgid "Peter C. Ndikuwera"
+msgstr "Peter C. Ndikuwera"
+
+#: main.cpp:195
+msgid "Bugfixes, PostgreSQL support"
+msgstr "Regmaak van foute, PostgreSQL ondersteuning"
+
+#: main.cpp:197
+msgid "Pierpaolo Panfilo"
+msgstr "Pierpaolo Panfilo"
+
+#: main.cpp:199
+msgid "Reigo Reinmets"
+msgstr "Reigo Reinmets"
+
+#: main.cpp:199
+msgid "Wikipedia support, patches"
+msgstr "Wikipedia ondersteuning, opdaterings"
+
+#: main.cpp:201
+msgid "Roman Becker"
+msgstr "Roman Becker"
+
+#: main.cpp:201
+msgid "Former Amarok logo, former splash screen, former icons"
+msgstr "Voormalige Amarok logo, voormalige spat-skerm, voormalige ikone"
+
+#: main.cpp:203
+msgid "Sami Nieminen"
+msgstr "Sami Nieminen"
+
+#: main.cpp:203
+msgid "Audioscrobbler support"
+msgstr "Audioscrobber ondersteuning"
+
+#: main.cpp:205
+msgid "Stanislav Karchebny"
+msgstr "Stanislav Karchebny"
+
+#: main.cpp:207
+msgid "Stefan Bogner"
+msgstr "Stefan Bogner"
+
+#: main.cpp:207
+msgid "Loads of stuff"
+msgstr "Tonne goed"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -8914,7 +9880,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_User)
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:44
 #. i18n: ectx: property (text), widget (QLabel, labelUsername)
-#: rc.cpp:58 rc.cpp:1505
+#: rc.cpp:58 rc.cpp:1517
 msgid "&Username:"
 msgstr "Gebruikernaam:"
 
@@ -8930,7 +9896,7 @@ msgstr "Wagwoord vir die eksterne databasis gebruiker."
 #. i18n: ectx: property (text), widget (QLabel, label_Password)
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:57
 #. i18n: ectx: property (text), widget (QLabel, labelPassword)
-#: rc.cpp:65 rc.cpp:1508
+#: rc.cpp:65 rc.cpp:1520
 msgid "&Password:"
 msgstr "Wagwoord:"
 
@@ -9091,7 +10057,7 @@ msgstr "Pasmaak die Voor-Skerm Vertoon teks."
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MoodbarPaintStyle)
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:3
-#: rc.cpp:143 rc.cpp:2246
+#: rc.cpp:143 rc.cpp:2258
 msgid "Default"
 msgstr "Verstek"
 
@@ -9694,12 +10660,6 @@ msgstr "Herlaai"
 #: rc.cpp:472
 msgid "Reload tabs with the following title and artist"
 msgstr ""
-
-#. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: rc.cpp:481 App.cpp:111
-msgid "Amarok"
-msgstr "Amarok"
 
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -10385,7 +11345,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, pushButton_cancel)
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: rc.cpp:833 rc.cpp:1155 rc.cpp:1611
+#: rc.cpp:833 rc.cpp:1155 rc.cpp:1623
 msgid "&Cancel"
 msgstr "&Kanselleer"
 
@@ -11321,21 +12281,51 @@ msgstr "Vertoon terugspeel kontroles inlyn"
 msgid "Show tooltips"
 msgstr "Wys slegs pasmaats"
 
+#. i18n: file: playlist/PlaylistQueueEditor.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, PlaylistQueueEditor)
+#: rc.cpp:1280
+#, fuzzy
+#| msgid "Queue Track"
+msgid "Queue Editor"
+msgstr "Plaas Snit In Wagtou"
+
+#. i18n: file: playlist/PlaylistQueueEditor.ui:32
+#. i18n: ectx: property (toolTip), widget (QPushButton, upButton)
+#: rc.cpp:1283
+msgid "Move up"
+msgstr ""
+
+#. i18n: file: playlist/PlaylistQueueEditor.ui:48
+#. i18n: ectx: property (toolTip), widget (QPushButton, downButton)
+#: rc.cpp:1286
+#, fuzzy
+#| msgid "Cover Found"
+msgid "Move down"
+msgstr "Omslag Gevind"
+
+#. i18n: file: playlist/PlaylistQueueEditor.ui:64
+#. i18n: ectx: property (toolTip), widget (QPushButton, clearButton)
+#: rc.cpp:1289
+#, fuzzy
+#| msgid "&Clear"
+msgid "Clear"
+msgstr "Maak skoon"
+
 #. i18n: file: playlistgenerator/PresetEditDialog.ui:15
 #. i18n: ectx: property (windowTitle), widget (QDialog, PresetEditDialog)
-#: rc.cpp:1280
+#: rc.cpp:1292
 msgid "APG Preset Editor"
 msgstr ""
 
 #. i18n: file: playlistgenerator/PresetEditDialog.ui:23
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_Tree)
-#: rc.cpp:1283
+#: rc.cpp:1295
 msgid "Constraint Tree"
 msgstr ""
 
 #. i18n: file: playlistgenerator/PresetEditDialog.ui:41
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_Title)
-#: rc.cpp:1286
+#: rc.cpp:1298
 #, fuzzy
 #| msgid "Enter preset name:"
 msgid "APG Preset Name"
@@ -11343,7 +12333,7 @@ msgstr "Gee voorafinstelling naam:"
 
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, CheckpointEditWidget)
-#: rc.cpp:1289
+#: rc.cpp:1301
 msgid ""
 "An editor for a CheckPoint constraint.  The user can set the track, album, "
 "or artist to be placed at a certain position in the playlist."
@@ -11351,7 +12341,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1292
+#: rc.cpp:1304
 #, fuzzy
 #| msgid "Connection Settings"
 msgid "Checkpoint Constraint Settings"
@@ -11359,13 +12349,13 @@ msgstr "Verbinding Instellings"
 
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:35
 #. i18n: ectx: property (whatsThis), widget (TrackSelectWidget, trackSelector)
-#: rc.cpp:1295
+#: rc.cpp:1307
 msgid "Select the track that you want to use as the checkpoint."
 msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_Position)
-#: rc.cpp:1298
+#: rc.cpp:1310
 #, fuzzy
 #| msgid "Proportion:"
 msgid "Position:"
@@ -11373,7 +12363,7 @@ msgstr "Verhouding:"
 
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:69
 #. i18n: ectx: property (whatsThis), widget (QTimeEdit, timeEdit_Position)
-#: rc.cpp:1301
+#: rc.cpp:1313
 msgid ""
 "The desired position of the song in the playlist, in hours, minutes, and "
 "seconds.  Note: because of Qt limitations, the maximum position that you can "
@@ -11384,7 +12374,7 @@ msgstr ""
 #. i18n: ectx: property (displayFormat), widget (QTimeEdit, timeEdit_Position)
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:65
 #. i18n: ectx: property (displayFormat), widget (QTimeEdit, timeEdit_Duration)
-#: rc.cpp:1304 rc.cpp:1343
+#: rc.cpp:1316 rc.cpp:1355
 msgid "h:mm:ss"
 msgstr ""
 
@@ -11392,7 +12382,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Strictness)
 #. i18n: file: playlistgenerator/constraints/CheckpointEditWidget.ui:138
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_Strictness)
-#: rc.cpp:1307 rc.cpp:1316
+#: rc.cpp:1319 rc.cpp:1328
 msgid ""
 "How strict the APG should be about placing the selected track at the "
 "specified time."
@@ -11406,7 +12396,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_Fuzzy)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label_Fuzzy)
-#: rc.cpp:1313 rc.cpp:1352 rc.cpp:1388 rc.cpp:1442
+#: rc.cpp:1325 rc.cpp:1364 rc.cpp:1400 rc.cpp:1454
 msgid "fuzzy"
 msgstr ""
 
@@ -11418,7 +12408,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_Exact)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:99
 #. i18n: ectx: property (text), widget (QLabel, label_Exact)
-#: rc.cpp:1319 rc.cpp:1358 rc.cpp:1394 rc.cpp:1448
+#: rc.cpp:1331 rc.cpp:1370 rc.cpp:1406 rc.cpp:1460
 #, fuzzy
 #| msgid "Next"
 msgid "exact"
@@ -11426,7 +12416,7 @@ msgstr "Volgende"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, PlaylistDurationEditWidget)
-#: rc.cpp:1322
+#: rc.cpp:1334
 msgid ""
 "An editor for a PlaylistDuration constraint.  The user can set the name of "
 "the constraint; the target duration and whether the playlist should be less "
@@ -11436,7 +12426,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1325
+#: rc.cpp:1337
 #, fuzzy
 #| msgid "Connection Settings"
 msgid "Playlist Duration Constraint Settings"
@@ -11444,7 +12434,7 @@ msgstr "Verbinding Instellings"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:32
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Comparison)
-#: rc.cpp:1328
+#: rc.cpp:1340
 msgid ""
 "Whether the duration of the generated playlist should be shorter than, equal "
 "to, or longer than the specified value."
@@ -11454,13 +12444,13 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:44
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
-#: rc.cpp:1334 rc.cpp:1373
+#: rc.cpp:1346 rc.cpp:1385
 msgid "equal to"
 msgstr "gelyk aan"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistDurationEditWidget.ui:62
 #. i18n: ectx: property (whatsThis), widget (QTimeEdit, timeEdit_Duration)
-#: rc.cpp:1340
+#: rc.cpp:1352
 msgid ""
 "The desired duration of the playlist, in hours, minutes, and seconds.  Note: "
 "because of Qt limitations, the maximum playlist duration that you can "
@@ -11477,7 +12467,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Strictness)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:83
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_Strictness)
-#: rc.cpp:1346 rc.cpp:1355 rc.cpp:1382 rc.cpp:1436 rc.cpp:1445
+#: rc.cpp:1358 rc.cpp:1367 rc.cpp:1394 rc.cpp:1448 rc.cpp:1457
 msgid ""
 "How strict the APG should be about matching the playlist duration to the "
 "specified time."
@@ -11485,7 +12475,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, PlaylistLengthEditWidget)
-#: rc.cpp:1361
+#: rc.cpp:1373
 msgid ""
 "An editor for a Playlist Length constraint.  The user can the target number "
 "of tracks and whether the playlist contain fewer than, equal to, or more "
@@ -11495,7 +12485,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1364
+#: rc.cpp:1376
 #, fuzzy
 #| msgid "Connection Settings"
 msgid "Playlist Length Constraint Settings"
@@ -11503,7 +12493,7 @@ msgstr "Verbinding Instellings"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:32
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Comparison)
-#: rc.cpp:1367
+#: rc.cpp:1379
 msgid ""
 "Whether the number of tracks in the generated playlist should be less than, "
 "equal to, or more than the specified value."
@@ -11511,7 +12501,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:39
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_Comparison)
-#: rc.cpp:1370
+#: rc.cpp:1382
 #, fuzzy
 #| msgid "greater than"
 msgid "fewer than"
@@ -11519,7 +12509,7 @@ msgstr "meer as"
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:59
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, spinBox_Length)
-#: rc.cpp:1379
+#: rc.cpp:1391
 #, fuzzy
 #| msgid "The number of undo levels in the playlist."
 msgid "The target number of tracks for the generated playlist."
@@ -11527,7 +12517,7 @@ msgstr "Die aantal ontdoen vlakke in die speellys."
 
 #. i18n: file: playlistgenerator/constraints/PlaylistLengthEditWidget.ui:118
 #. i18n: ectx: property (whatsThis), widget (QSlider, slider_Strictness)
-#: rc.cpp:1391
+#: rc.cpp:1403
 msgid ""
 "How strict the APG should be about matching the playlist length to the "
 "specified number of tracks."
@@ -11535,7 +12525,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, PreventDuplicatesEditWidget)
-#: rc.cpp:1397
+#: rc.cpp:1409
 msgid ""
 "An editor for a Prevent Duplicates constraint.  When set to \"track\", it "
 "will try to prevent more than one copy of the same track from ending up in "
@@ -11546,7 +12536,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1400
+#: rc.cpp:1412
 msgid "Prevent Duplicates Constraint Settings"
 msgstr ""
 
@@ -11554,7 +12544,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Field)
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:47
 #. i18n: ectx: property (whatsThis), widget (QComboBox, comboBox_Field)
-#: rc.cpp:1403 rc.cpp:1409
+#: rc.cpp:1415 rc.cpp:1421
 msgid ""
 "Control which duplicates to prevent.  \"Prevent duplicate tracks\" is the "
 "least restrictive, and \"prevent duplicate artists\" is the most restrictive."
@@ -11562,7 +12552,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/PreventDuplicatesEditWidget.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_Field)
-#: rc.cpp:1406
+#: rc.cpp:1418
 #, fuzzy
 #| msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
 #| msgid "Re&move Duplicates"
@@ -11571,7 +12561,7 @@ msgstr "Verwyder Duplikate"
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, TagMatchEditWidget)
-#: rc.cpp:1421
+#: rc.cpp:1433
 msgid ""
 "An editor for a TagMatch constraint.  The user can specify a track "
 "characteristic, and the APG will fill the playlist with tracks that match "
@@ -11581,7 +12571,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1424
+#: rc.cpp:1436
 #, fuzzy
 #| msgid "Connection Settings"
 msgid "Match Tag Constraint Settings"
@@ -11591,7 +12581,7 @@ msgstr "Verbinding Instellings"
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_Invert)
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:46
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, checkBox_Invert)
-#: rc.cpp:1427 rc.cpp:1433
+#: rc.cpp:1439 rc.cpp:1445
 #, fuzzy
 #| msgid "Number of tracks to load into the playlist after the active track."
 msgid ""
@@ -11601,7 +12591,7 @@ msgstr "Aantal snitte om te laai in die speellys ná die werksame snit."
 
 #. i18n: file: playlistgenerator/constraints/TagMatchEditWidget.ui:35
 #. i18n: ectx: property (text), widget (QLabel, label_Invert)
-#: rc.cpp:1430
+#: rc.cpp:1442
 #, fuzzy
 #| msgid "Internet"
 msgid "Invert:"
@@ -11609,7 +12599,7 @@ msgstr "Internet"
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:15
 #. i18n: ectx: property (whatsThis), widget (QWidget, ConstraintGroupEditWidget)
-#: rc.cpp:1451
+#: rc.cpp:1463
 msgid ""
 "An editor for Constraint Groups.  You can set the group type to \"match all"
 "\" or \"match any\".  When the group type is set to \"match all\", the "
@@ -11620,7 +12610,7 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:21
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1454
+#: rc.cpp:1466
 #, fuzzy
 #| msgid "Connection Settings"
 msgid "Constraint Group Settings"
@@ -11628,7 +12618,7 @@ msgstr "Verbinding Instellings"
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:29
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton_MatchAll)
-#: rc.cpp:1457
+#: rc.cpp:1469
 msgid ""
 "The APG will consider the constraint group satisfied only if all of the "
 "constraints within the group are satisfied.  This is analogous to a logical "
@@ -11637,13 +12627,13 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:32
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_MatchAll)
-#: rc.cpp:1460
+#: rc.cpp:1472
 msgid "Match all constraints in the group"
 msgstr ""
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:39
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioButton_MatchAny)
-#: rc.cpp:1463
+#: rc.cpp:1475
 msgid ""
 "The APG will consider the constraint group satisfied if any one of the "
 "constraints within it is satisfied.  This is analogous to a logical OR: "
@@ -11652,13 +12642,13 @@ msgstr ""
 
 #. i18n: file: playlistgenerator/ConstraintGroupEditWidget.ui:42
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_MatchAny)
-#: rc.cpp:1466
+#: rc.cpp:1478
 msgid "Match any constraint in the group"
 msgstr ""
 
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:23
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: rc.cpp:1469
+#: rc.cpp:1481
 #, fuzzy
 #| msgid "Server"
 msgid "Add Server"
@@ -11666,7 +12656,7 @@ msgstr "Bediener"
 
 #. i18n: file: services/ampache/AmpacheConfigWidget.ui:30
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: rc.cpp:1472
+#: rc.cpp:1484
 #, fuzzy
 #| msgid "Remove Applet"
 msgid "Remove Server"
@@ -11676,7 +12666,7 @@ msgstr "Verwyder Miniprogram"
 #. i18n: ectx: property (text), widget (QTableWidget, serverList)
 #. i18n: file: services/ampache/NewServerWidget.ui:27
 #. i18n: ectx: property (text), widget (QLabel, labelServerAddress)
-#: rc.cpp:1478 rc.cpp:1490
+#: rc.cpp:1490 rc.cpp:1502
 #, fuzzy
 #| msgid "Server passwords"
 msgid "Server Address"
@@ -11684,7 +12674,7 @@ msgstr "Bediener wagwoorde"
 
 #. i18n: file: services/ampache/NewServerWidget.ui:74
 #. i18n: ectx: property (text), widget (KPushButton, verifyButton)
-#: rc.cpp:1499
+#: rc.cpp:1511
 #, fuzzy
 #| msgid "Connection"
 msgid "Check Connection"
@@ -11692,19 +12682,19 @@ msgstr "Verbinding"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:38
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
-#: rc.cpp:1502
+#: rc.cpp:1514
 msgid "Last.fm Profile"
 msgstr "Last.fm Profiel"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:86
 #. i18n: ectx: property (text), widget (QLabel, kActiveLabel1)
-#: rc.cpp:1511
+#: rc.cpp:1523
 msgid "<a href=\"http://www.last.fm:80/signup.php\">Sign up to last.fm</a>"
 msgstr "<a href=\"http://www.last.fm:80/signup.php\">Teken in op last.fm</a>"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:106
 #. i18n: ectx: property (text), widget (QLabel, kActiveLabel2)
-#: rc.cpp:1517
+#: rc.cpp:1529
 msgid ""
 "Why not join the <a href=\"http://www.last.fm:80/group/Amarok+Users\">Amarok "
 "last.fm group</a> and share your musical tastes with other Amarok users?"
@@ -11715,31 +12705,31 @@ msgstr ""
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:116
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:1520
+#: rc.cpp:1532
 msgid "Last.fm Services"
 msgstr "Last.fm Dienste"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:125
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SubmitPlayedSongs)
-#: rc.cpp:1523
+#: rc.cpp:1535
 msgid "&Submit tracks"
 msgstr "Dien snitte in"
 
 #. i18n: file: services/lastfm/LastFmConfigWidget.ui:135
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RetrieveSimilarArtists)
-#: rc.cpp:1526
+#: rc.cpp:1538
 msgid "&Retrieve similar artists"
 msgstr "Onttrek verwante kunstenaars"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:1529
+#: rc.cpp:1541
 msgid "Redownloads"
 msgstr "Heraflaaie"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:1532
+#: rc.cpp:1544
 msgid ""
 "Enter your e-mail here to be able to redownload any previous purchase from "
 "Magnatune directly from within Amarok."
@@ -11749,14 +12739,14 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:33
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:1535
+#: rc.cpp:1547
 msgctxt "Username for logins to Magnatune"
 msgid "E-mail:"
 msgstr "E-pos:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:53
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1538
+#: rc.cpp:1550
 #, fuzzy
 #| msgid "Membership options"
 msgid "Membership Options"
@@ -11764,38 +12754,38 @@ msgstr "Lidmaatskap opsies"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, isMemberCheckbox)
-#: rc.cpp:1541
+#: rc.cpp:1553
 msgid "I am a member"
 msgstr "Ek is 'n lid"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:79
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1544
+#: rc.cpp:1556
 msgid "Membership type:"
 msgstr "Lidmaatskap soort:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:90
 #. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: rc.cpp:1547
+#: rc.cpp:1559
 msgid "Stream"
 msgstr "Stroom"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:103
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:1553
+#: rc.cpp:1565
 msgctxt "Username for logins to Magnatune"
 msgid "Username:"
 msgstr "Gebruikernaam:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:117
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:1556
+#: rc.cpp:1568
 msgid "Password:"
 msgstr "Wagwoord:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:135
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:1559
+#: rc.cpp:1571
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -11829,7 +12819,7 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:157
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:1566
+#: rc.cpp:1578
 #, fuzzy
 #| msgid "Stream options"
 msgid "Stream Options"
@@ -11837,55 +12827,55 @@ msgstr "Stroom opsies"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:163
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:1569
+#: rc.cpp:1581
 msgid "Preview stream type:"
 msgstr "Soort voorskou stroom:"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:171
 #. i18n: ectx: property (text), item, widget (QComboBox, streamTypeComboBox)
-#: rc.cpp:1572
+#: rc.cpp:1584
 msgid "Ogg"
 msgstr "Ogg"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:176
 #. i18n: ectx: property (text), item, widget (QComboBox, streamTypeComboBox)
-#: rc.cpp:1575
+#: rc.cpp:1587
 msgid "High Quality Mp3"
 msgstr "Hoë Gehalte Mp3"
 
 #. i18n: file: services/magnatune/MagnatuneConfigWidget.ui:181
 #. i18n: ectx: property (text), item, widget (QComboBox, streamTypeComboBox)
-#: rc.cpp:1578
+#: rc.cpp:1590
 msgid "Low Quality Mp3"
 msgstr "Lae Gehalte Mp3"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QDialog, magnatuneDownloadDialogBase)
-#: rc.cpp:1581
+#: rc.cpp:1593
 msgid "Magnatune.com Album Download"
 msgstr "Magnatune.com Album Aflaai"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:19
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:1584
+#: rc.cpp:1596
 msgid "Download options"
 msgstr "Aflaai opsies"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:25
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:1587
+#: rc.cpp:1599
 msgid "Select Format:"
 msgstr "Kies Formaat:"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:38
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:1590
+#: rc.cpp:1602
 msgid "Download to:"
 msgstr "Aflaai na:"
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:51
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:1593
+#: rc.cpp:1605
 msgid ""
 "If you download to a location that is already being monitored by Amarok, the "
 "album will automatically be added to your collection."
@@ -11895,37 +12885,37 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneDownloadDialogBase.ui:67
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:1596
+#: rc.cpp:1608
 msgid "Magnatune info"
 msgstr "Magnatune inligting"
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QDialog, magnatuneReDownloadDialogBase)
-#: rc.cpp:1602
+#: rc.cpp:1614
 msgid "Redownload manager"
 msgstr "Laai bestuurder weer af"
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:19
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:1605
+#: rc.cpp:1617
 msgid "These are the albums that you have previously downloaded:"
 msgstr "Hierdie is die albums wat jy vantevore afgelaai het:"
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:29
 #. i18n: ectx: property (text), widget (QPushButton, redownloadButton)
-#: rc.cpp:1608
+#: rc.cpp:1620
 msgid "Re&download"
 msgstr "Heraflaai"
 
 #. i18n: file: services/magnatune/MagnatuneRedownloadDialogBase.ui:60
 #. i18n: ectx: property (text), widget (QTreeWidget, redownloadListView)
-#: rc.cpp:1614
+#: rc.cpp:1626
 msgid "Artist - Album"
 msgstr "Kunstenaar - Album"
 
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, SignupDialog)
-#: rc.cpp:1617
+#: rc.cpp:1629
 #, fuzzy
 #| msgid "Magnatune.com Album Download"
 msgid "Magnatune.com member signup"
@@ -11933,7 +12923,7 @@ msgstr "Magnatune.com Album Aflaai"
 
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1621
+#: rc.cpp:1633
 #, no-c-format
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -11981,7 +12971,7 @@ msgstr ""
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1639
+#: rc.cpp:1651
 #, fuzzy
 #| msgid "Mp3tunes Login"
 msgid "MP3tunes Login"
@@ -11989,14 +12979,14 @@ msgstr "Mp3tunes Aanteken"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1642
+#: rc.cpp:1654
 msgctxt "The e-mail address for Mp3Tunes logins"
 msgid "E-Mail:"
 msgstr "E-pos:"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:32
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:1645
+#: rc.cpp:1657
 #, fuzzy
 #| msgid "Password:"
 msgctxt "The MP3Tunes password"
@@ -12007,7 +12997,7 @@ msgstr "Wagwoord:"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableHarmony)
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:49
 #. i18n: ectx: property (toolTip), widget (QLabel, label_3)
-#: rc.cpp:1648 rc.cpp:1651
+#: rc.cpp:1660 rc.cpp:1663
 msgid ""
 "AutoSync is a feature from MP3tunes which allows you to automatically move "
 "your music between computers and devices."
@@ -12017,7 +13007,7 @@ msgstr ""
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:52
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
-#: rc.cpp:1654
+#: rc.cpp:1666
 msgid ""
 "AutoSync is a feature from MP3tunes which allows you to automatically move "
 "your music between computers and devices. You can upload music from one "
@@ -12029,7 +13019,7 @@ msgstr ""
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:55
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:1657
+#: rc.cpp:1669
 #, fuzzy
 #| msgctxt "Enable harmony"
 #| msgid "Enable Auto Sync"
@@ -12039,7 +13029,7 @@ msgstr "Aktiveer Auto Sync"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:62
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:1660
+#: rc.cpp:1672
 #, fuzzy
 #| msgid " PIN Code:"
 msgid "PIN Code:"
@@ -12047,7 +13037,7 @@ msgstr "PIN Kode:"
 
 #. i18n: file: services/mp3tunes/Mp3tunesConfigWidget.ui:89
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:1663
+#: rc.cpp:1675
 #, fuzzy
 #| msgid ""
 #| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
@@ -12091,13 +13081,13 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:13
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1670
+#: rc.cpp:1682
 msgid "Whether to display a second, left time label."
 msgstr "Bepaal of 'n tweede tyd etiket aan die linker kant vertoon moet word."
 
 #. i18n: file: amarokconfig.kcfg:14
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1673
+#: rc.cpp:1685
 msgid ""
 "Set this to display a second time label to the left of the seek slider in "
 "the player window."
@@ -12107,7 +13097,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:18
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1676
+#: rc.cpp:1688
 msgid "Whether to display remaining track time in the left time label."
 msgstr ""
 "Bepaal of die oorblywende snit tyd in die linker tyd etiket vertoon moet "
@@ -12115,7 +13105,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:19
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1679
+#: rc.cpp:1691
 msgid ""
 "Set this to display remaining track time instead of past track time in the "
 "player window."
@@ -12125,13 +13115,13 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:23
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1682
+#: rc.cpp:1694
 msgid "Which tracks or albums to favor in Random Mode"
 msgstr "Watter snitte of albums om te verkies in Lukrake Modus"
 
 #. i18n: file: amarokconfig.kcfg:24
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1685
+#: rc.cpp:1697
 msgid ""
 "Tracks or albums with the chosen property will be more likely to be chosen "
 "in Random Mode."
@@ -12141,25 +13131,25 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:34
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1688
+#: rc.cpp:1700
 msgid "How to progress through tracks in the playlist"
 msgstr "Hoe om deur die snitte in die speellys te vorder"
 
 #. i18n: file: amarokconfig.kcfg:35
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1691
+#: rc.cpp:1703
 msgid "Determines how amarok will progress through the tracks in the playlist"
 msgstr "Bepaal hoe amarok deur die speellys snitte vorder"
 
 #. i18n: file: amarokconfig.kcfg:47
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1694
+#: rc.cpp:1706
 msgid "The status of dynamic mode."
 msgstr "Die stand van dinamiese modus"
 
 #. i18n: file: amarokconfig.kcfg:48
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1697
+#: rc.cpp:1709
 msgid ""
 "If set, dynamic mode will be on, and tracks will be added according to the "
 "dynamic playlist specified."
@@ -12169,37 +13159,37 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:52
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1700
+#: rc.cpp:1712
 msgid "Previous tracks count."
 msgstr "Vorige snitte telling."
 
 #. i18n: file: amarokconfig.kcfg:53
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1703
+#: rc.cpp:1715
 msgid "Number of tracks to leave in the playlist before the active track."
 msgstr "Aantal snitte om oor te laat in die speellys voor die werksame snit."
 
 #. i18n: file: amarokconfig.kcfg:57
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1706
+#: rc.cpp:1718
 msgid "Upcoming tracks count."
 msgstr "Telling van opkomende snitte."
 
 #. i18n: file: amarokconfig.kcfg:58
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1709
+#: rc.cpp:1721
 msgid "Number of tracks to load into the playlist after the active track."
 msgstr "Aantal snitte om te laai in die speellys ná die werksame snit."
 
 #. i18n: file: amarokconfig.kcfg:62
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1712
+#: rc.cpp:1724
 msgid "The most recently used Dynamic Mode"
 msgstr "Die mees onlangs gebruikte Dinamiese Modus"
 
 #. i18n: file: amarokconfig.kcfg:63
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1715
+#: rc.cpp:1727
 msgid ""
 "The title of the Dynamic Mode that was most recently loaded in the playlist"
 msgstr ""
@@ -12207,85 +13197,85 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:67
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1718
+#: rc.cpp:1730
 msgid "Whether to show icon in system tray"
 msgstr "Word die stelsel laai ikoon vertoon"
 
 #. i18n: file: amarokconfig.kcfg:68
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1721
+#: rc.cpp:1733
 msgid "Enable/Disable tray icon for Amarok."
 msgstr "Aktiveer/Deaktiveer die stelsel laai ikoon vir Amarok."
 
 #. i18n: file: amarokconfig.kcfg:72
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1724
+#: rc.cpp:1736
 msgid "Whether to hide the context view."
 msgstr "Word die konteks aansig versteek."
 
 #. i18n: file: amarokconfig.kcfg:73
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1727
+#: rc.cpp:1739
 msgid "Enable/Disable context view in Amarok."
 msgstr "Aktiveer/Deaktiveer die konteks aansig in Amarok"
 
 #. i18n: file: amarokconfig.kcfg:77
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1730
+#: rc.cpp:1742
 msgid "Whether to animate the systray icon"
 msgstr "Word die stelsel laai ikoon geanimeer"
 
 #. i18n: file: amarokconfig.kcfg:78
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1733
+#: rc.cpp:1745
 msgid "Enable/Disable tray icon animation."
 msgstr "Aktiveer/Deaktiveer stelsel laai ikoon animasie"
 
 #. i18n: file: amarokconfig.kcfg:82
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1736
+#: rc.cpp:1748
 msgid "Delay between tracks, in milliseconds"
 msgstr "Vertraging tussen snitte, in millisekondes"
 
 #. i18n: file: amarokconfig.kcfg:83
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1739
+#: rc.cpp:1751
 msgid "Delay between tracks, in milliseconds."
 msgstr "Vertraging tussen snitte, in millisekondes."
 
 #. i18n: file: amarokconfig.kcfg:87
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1742
+#: rc.cpp:1754
 msgid "Number of undo levels in playlist"
 msgstr "Aantal ontdoen vlakke in die speellys"
 
 #. i18n: file: amarokconfig.kcfg:88
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1745
+#: rc.cpp:1757
 msgid "The number of undo levels in the playlist."
 msgstr "Die aantal ontdoen vlakke in die speellys."
 
 #. i18n: file: amarokconfig.kcfg:92
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1748
+#: rc.cpp:1760
 msgid "Whether a splash-screen should be displayed on startup"
 msgstr "Word die spat-skerm vertoon by loods"
 
 #. i18n: file: amarokconfig.kcfg:93
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1751
+#: rc.cpp:1763
 msgid "Enable/Disable splashscreen during Amarok startup."
 msgstr "Aktiveer/deaktiveer die spat-skerm wanneer Amarok loods."
 
 #. i18n: file: amarokconfig.kcfg:97
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1754
+#: rc.cpp:1766
 msgid "Whether playlists store relative path"
 msgstr "Bepaal of speellyste relatiewe lêerpaaie stoor."
 
 #. i18n: file: amarokconfig.kcfg:98
 #. i18n: ectx: whatsthis, entry, group (General Options)
-#: rc.cpp:1757
+#: rc.cpp:1769
 msgid ""
 "If set, Amarok's manually saved playlists will contain a relative path to "
 "each track, not an absolute path."
@@ -12295,65 +13285,65 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:102
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1760
+#: rc.cpp:1772
 msgid "Filename of the external web browser to be invoked by Amarok."
 msgstr ""
 "Lêernaam van die eksterne webblaaier wat deur Amarok geloods moet word."
 
 #. i18n: file: amarokconfig.kcfg:106
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1763
+#: rc.cpp:1775
 msgid "Whether to automatically attempt to fetch cover art as needed"
 msgstr "Poog outomaties om omslagkuns te haal, indien nodig"
 
 #. i18n: file: amarokconfig.kcfg:110
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1766
+#: rc.cpp:1778
 msgid ""
 "Automatically scroll the playlist to make the currently playing song visible"
 msgstr "Rol die speellys outomaties sodat die huidige lied sigbaar is"
 
 #. i18n: file: amarokconfig.kcfg:114
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1769
+#: rc.cpp:1781
 msgid "Show Album art in the Collection Browser"
 msgstr "Vertoon Album kunswerk in die Versameling Blaaier"
 
 #. i18n: file: amarokconfig.kcfg:118
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1772
+#: rc.cpp:1784
 msgid "Show the Context View"
 msgstr "Vertoon die Konteks Aansig"
 
 #. i18n: file: amarokconfig.kcfg:122
 #. i18n: ectx: label, entry, group (General Options)
-#: rc.cpp:1775
+#: rc.cpp:1787
 msgid "Play the first run jingle"
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:129
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1778
+#: rc.cpp:1790
 msgid "Whether organize files will overwrite existing files."
 msgstr "Bepaal of 'Organiseer lêers' die bestaande lêers moet oorskryf."
 
 #. i18n: file: amarokconfig.kcfg:130
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1781
+#: rc.cpp:1793
 msgid "If set, Organize files will overwrite any existing destination."
 msgstr ""
 "Indien gestel, sal 'Organiseer lêers' enige bestaande bestemming oorskryf."
 
 #. i18n: file: amarokconfig.kcfg:134
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1784
+#: rc.cpp:1796
 msgid ""
 "Whether organize files will group directories according to their filetype."
 msgstr "Bepaal of 'Organiseer lêers' gidse volgens lêersoort moet groepeer."
 
 #. i18n: file: amarokconfig.kcfg:135
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1787
+#: rc.cpp:1799
 msgid ""
 "If set, Organize files will group directories containing the same filetype."
 msgstr ""
@@ -12362,7 +13352,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:139
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1790
+#: rc.cpp:1802
 msgid ""
 "Whether organize files will group artists whose names start with the same "
 "character."
@@ -12371,7 +13361,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:140
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1793
+#: rc.cpp:1805
 msgid ""
 "If set, Organize files will group artists whose names start with the same "
 "character."
@@ -12381,14 +13371,14 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:144
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1796
+#: rc.cpp:1808
 msgid "Whether organize files will ignore The in artist names."
 msgstr ""
 "Bepaal of 'Organiseer lêers', 'The' in kunstenaars se name moet ignoreer."
 
 #. i18n: file: amarokconfig.kcfg:145
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1799
+#: rc.cpp:1811
 msgid "If set, Organize files will ignore The in artist names."
 msgstr ""
 "As hierdie gestel is, sal 'Organiseer lêers' 'The' in kunstenaars se name "
@@ -12396,7 +13386,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:149
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1802
+#: rc.cpp:1814
 msgid ""
 "Whether organize files will replace spaces in filenames with underscores."
 msgstr ""
@@ -12405,7 +13395,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:150
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1805
+#: rc.cpp:1817
 msgid ""
 "If set, Organize files will replace spaces in filenames with underscores."
 msgstr ""
@@ -12414,14 +13404,14 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:154
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1808
+#: rc.cpp:1820
 msgid "Whether organize files will use cover art as folder icons."
 msgstr ""
 "Bepaal of 'Organiseer lêers' omslag kunswerk as gids ikone moet gebruik."
 
 #. i18n: file: amarokconfig.kcfg:155
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1811
+#: rc.cpp:1823
 msgid "If set, Organize files will use cover art as folder icons."
 msgstr ""
 "Indien gestel, sal 'Organiseer lêers' die omslag kunswerk as gids ikone "
@@ -12429,7 +13419,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:159
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1814
+#: rc.cpp:1826
 #, fuzzy
 #| msgid "Index of collection folder destination for Organize files."
 msgid "Collection folder path destination for Organize files."
@@ -12438,7 +13428,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:160
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1817
+#: rc.cpp:1829
 #, fuzzy
 #| msgid "The ID of the collection folder destination for Organize files."
 msgid "The path of the collection folder destination for Organize files."
@@ -12447,7 +13437,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:164
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1820
+#: rc.cpp:1832
 msgid ""
 "Whether organize files will rename files in a manner compatible with vfat "
 "filesystems."
@@ -12457,7 +13447,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:165
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1823
+#: rc.cpp:1835
 msgid ""
 "If set, Organize files will replace characters that are not compatible with "
 "vfat filesystems (such as ':', '*' and '?')."
@@ -12467,7 +13457,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:169
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1826
+#: rc.cpp:1838
 msgid ""
 "Whether organize files will rename files such that they only contain 7-bit "
 "ASCII characters."
@@ -12477,7 +13467,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:170
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1829
+#: rc.cpp:1841
 msgid ""
 "If set, Organize files will replace characters that are not compatible with "
 "the 7-bit ASCII character set."
@@ -12487,14 +13477,14 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:174
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1832
+#: rc.cpp:1844
 msgid "Whether organize files will use a custom file naming scheme."
 msgstr ""
 "Bepaal of 'Organiseer lêers' 'n pasmaak lêer benamings-skema sal gebruik."
 
 #. i18n: file: amarokconfig.kcfg:175
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1835
+#: rc.cpp:1847
 msgid ""
 "If set, Organize files will rename files according to a custom format string."
 msgstr ""
@@ -12503,7 +13493,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:179
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1838
+#: rc.cpp:1850
 msgid "Format string for Organize files, if a custom naming scheme is used."
 msgstr ""
 "Patroon string vir 'Organiseer lêers', as 'n pasmaak benamings-skema in "
@@ -12511,7 +13501,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:180
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1841
+#: rc.cpp:1853
 msgid ""
 "If the custom filename scheme is enabled, then Organize files will rename "
 "files according to this format string."
@@ -12521,13 +13511,13 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:184
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1844
+#: rc.cpp:1856
 msgid "Regular expression that is to be replaced."
 msgstr "Stringpatroon uitdrukking waarvolgens vervang moet word."
 
 #. i18n: file: amarokconfig.kcfg:185
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1847
+#: rc.cpp:1859
 msgid ""
 "Organize files will replace substrings matching this regular expression."
 msgstr ""
@@ -12536,25 +13526,25 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:189
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1850
+#: rc.cpp:1862
 msgid "Replacing string."
 msgstr "Vervang string."
 
 #. i18n: file: amarokconfig.kcfg:190
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1853
+#: rc.cpp:1865
 msgid "Organize files will replace matching substrings with this string."
 msgstr "'Organiseer lêers' sal substring pasmaats hiermee vervang."
 
 #. i18n: file: amarokconfig.kcfg:194
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1856
+#: rc.cpp:1868
 msgid "Basic or Advanced Mode"
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:195
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1859
+#: rc.cpp:1871
 msgid ""
 "In basic mode graphical drag/droppable tokens are used to create a filename "
 "scheme, in advanced mode the images are replaced with text."
@@ -12562,7 +13552,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:199
 #. i18n: ectx: label, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1862
+#: rc.cpp:1874
 #, fuzzy
 #| msgid "Import Collection"
 msgid "Format Presets"
@@ -12570,67 +13560,67 @@ msgstr "Versameling Invoer"
 
 #. i18n: file: amarokconfig.kcfg:200
 #. i18n: ectx: whatsthis, entry, group (OrganizeCollectionDialog)
-#: rc.cpp:1865
+#: rc.cpp:1877
 msgid "A list of preset formats (token schemas)."
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:207
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1868
+#: rc.cpp:1880
 msgid "Master volume"
 msgstr "Algehele luidheid"
 
 #. i18n: file: amarokconfig.kcfg:208
 #. i18n: ectx: whatsthis, entry, group (Playback)
-#: rc.cpp:1871
+#: rc.cpp:1883
 msgid "The Amarok master volume, a value between 0 and 100."
 msgstr "Die Amarok algehele luidheid, 'n waarde  tussen 0 en 100."
 
 #. i18n: file: amarokconfig.kcfg:214
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1874
+#: rc.cpp:1886
 msgid "Mute state"
 msgstr "Doofheid"
 
 #. i18n: file: amarokconfig.kcfg:215
 #. i18n: ectx: whatsthis, entry, group (Playback)
-#: rc.cpp:1877
+#: rc.cpp:1889
 msgid "Mute/Unmute sound."
 msgstr "Verdoof/Ontdoof klank."
 
 #. i18n: file: amarokconfig.kcfg:219
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1880
+#: rc.cpp:1892
 msgid "Whether to crossfade between tracks"
 msgstr "Moet snitoorgange gekruisdemp word"
 
 #. i18n: file: amarokconfig.kcfg:220
 #. i18n: ectx: whatsthis, entry, group (Playback)
-#: rc.cpp:1883
+#: rc.cpp:1895
 msgid "Enable/Disable crossfading between track changes."
 msgstr "Aktiveer/Deaktiveer kruisdemp van snitoorgange."
 
 #. i18n: file: amarokconfig.kcfg:224
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1886
+#: rc.cpp:1898
 msgid "Length of crossfade, in milliseconds"
 msgstr "Kruisdemping tydsduur, in millisekondes"
 
 #. i18n: file: amarokconfig.kcfg:225
 #. i18n: ectx: whatsthis, entry, group (Playback)
-#: rc.cpp:1889
+#: rc.cpp:1901
 msgid "The length of the crossfade between tracks in milliseconds."
 msgstr "Die snitoorgang kruisdemp tydsduur in millisekondes."
 
 #. i18n: file: amarokconfig.kcfg:230
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1892
+#: rc.cpp:1904
 msgid "When to Crossfade"
 msgstr "Wanneer om Kruisdemping aan te wend"
 
 #. i18n: file: amarokconfig.kcfg:231
 #. i18n: ectx: whatsthis, entry, group (Playback)
-#: rc.cpp:1895
+#: rc.cpp:1907
 msgid ""
 "Determines whether to crossfade always, or on automatic/manual track changes "
 "only."
@@ -12640,50 +13630,50 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:235
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1898
+#: rc.cpp:1910
 msgid "Whether to fade out tracks when pressing stop."
 msgstr "Bepaal of die luidheid geleidelik dower wanneer stop gedruk word."
 
 #. i18n: file: amarokconfig.kcfg:236
 #. i18n: ectx: whatsthis, entry, group (Playback)
-#: rc.cpp:1901
+#: rc.cpp:1913
 msgid "Enable/Disable fadeout."
 msgstr "Aktiveer/Deaktiveer dowering."
 
 #. i18n: file: amarokconfig.kcfg:240
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1904
+#: rc.cpp:1916
 msgid "Length of fadeout, in milliseconds"
 msgstr "Dower tydsduur, in millisekondes"
 
 #. i18n: file: amarokconfig.kcfg:241
 #. i18n: ectx: whatsthis, entry, group (Playback)
-#: rc.cpp:1907
+#: rc.cpp:1919
 msgid "The length of the fadeout in milliseconds."
 msgstr "Die tydsduur van geleidelike dowering, in millisekondes."
 
 #. i18n: file: amarokconfig.kcfg:246
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1910
+#: rc.cpp:1922
 msgid "Whether to fade out when exiting the program."
 msgstr "Bepaal of die luidheid geleidelik dower wanneer die program afsluit."
 
 #. i18n: file: amarokconfig.kcfg:250
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1913
+#: rc.cpp:1925
 msgid "Equalizer mode - 0 = off, 1 to n = preset no"
 msgstr "Band menger modus - 0 = af, 1 tot n = voorafinstelling no."
 
 #. i18n: file: amarokconfig.kcfg:251
 #. i18n: ectx: whatsthis, entry, group (Playback)
-#: rc.cpp:1916
+#: rc.cpp:1928
 msgid "When enabled, an equalizer plugin filters the audio stream."
 msgstr ""
 "Indien geaktiveer, sal 'n band menger inprop module die oudio stroom filter."
 
 #. i18n: file: amarokconfig.kcfg:255
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1919
+#: rc.cpp:1931
 msgid "11 Equalizer gains include pre-amp, range -100..100, 0 is normal."
 msgstr ""
 "11 Band menger versterkings, sluit in vooraf-versterking, strekking -"
@@ -12693,7 +13683,7 @@ msgstr ""
 #. i18n: ectx: label, entry, group (Playback)
 #. i18n: file: amarokconfig.kcfg:265
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1922 rc.cpp:1928
+#: rc.cpp:1934 rc.cpp:1940
 msgid "List with user equalizer preset names"
 msgstr "Lys tesame met gebruiker band menger voorafinstelling name"
 
@@ -12701,19 +13691,19 @@ msgstr "Lys tesame met gebruiker band menger voorafinstelling name"
 #. i18n: ectx: label, entry, group (Playback)
 #. i18n: file: amarokconfig.kcfg:290
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1925 rc.cpp:1931
+#: rc.cpp:1937 rc.cpp:1943
 msgid "List with user presets values"
 msgstr "Lys met gebruiker voorafinstelling waardes"
 
 #. i18n: file: amarokconfig.kcfg:294
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1934
+#: rc.cpp:1946
 msgid "The mode for adjusting playback volume."
 msgstr "Die modus vir terugspeel luidheidverstelling."
 
 #. i18n: file: amarokconfig.kcfg:295
 #. i18n: ectx: whatsthis, entry, group (Playback)
-#: rc.cpp:1937
+#: rc.cpp:1949
 msgid ""
 "Whether to adjust the volume of tracks to make them sound the same volume, "
 "and if so whether to make the adjustments per-track or per-album."
@@ -12724,80 +13714,80 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:298
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1940
+#: rc.cpp:1952
 msgid "Disable Replay Gain"
 msgstr "Deaktiveer Replay Gain"
 
 #. i18n: file: amarokconfig.kcfg:301
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1943
+#: rc.cpp:1955
 msgid "Make each track the same volume"
 msgstr "Maak elke snit ewe luid"
 
 #. i18n: file: amarokconfig.kcfg:304
 #. i18n: ectx: label, entry, group (Playback)
-#: rc.cpp:1946
+#: rc.cpp:1958
 msgid "Make each album the same volume"
 msgstr "Maar elke album ewe luid"
 
 #. i18n: file: amarokconfig.kcfg:313
 #. i18n: ectx: label, entry, group (Cover Manager)
-#: rc.cpp:1949
+#: rc.cpp:1961
 msgid "Amazon locale for cover retrieval"
 msgstr "Amazon lokaal vir omslag onttrekking"
 
 #. i18n: file: amarokconfig.kcfg:314
 #. i18n: ectx: whatsthis, entry, group (Cover Manager)
-#: rc.cpp:1952
+#: rc.cpp:1964
 msgid "Determines which Amazon server cover images should be retrieved from."
 msgstr "Bepaal van watter Amazon bediener jy omslae wil onttrek."
 
 #. i18n: file: amarokconfig.kcfg:321
 #. i18n: ectx: label, entry, group (Wikipedia)
-#: rc.cpp:1955
+#: rc.cpp:1967
 msgid "Wikipedia locale for information retrieval"
 msgstr "Wikipedia lokaal vir informasie onttrekking"
 
 #. i18n: file: amarokconfig.kcfg:322
 #. i18n: ectx: whatsthis, entry, group (Wikipedia)
-#: rc.cpp:1958
+#: rc.cpp:1970
 msgid ""
 "Determines in which language the information is retrieved from Wikipedia."
 msgstr "Bepaal in watter taal informasie van Wikipedia af onttrek moet word."
 
 #. i18n: file: amarokconfig.kcfg:329
 #. i18n: ectx: label, entry, group (KNotify)
-#: rc.cpp:1961
+#: rc.cpp:1973
 msgid "Use KNotify support"
 msgstr "Steun op KNotify"
 
 #. i18n: file: amarokconfig.kcfg:336
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:1964
+#: rc.cpp:1976
 msgid "Use On-Screen Display"
 msgstr "Gebruik Voor-Skerm Vertoon (\"On-Screen Display\")"
 
 #. i18n: file: amarokconfig.kcfg:337
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:1967
+#: rc.cpp:1979
 msgid "Enable/Disable the On-Screen Display."
 msgstr "Aktiveer/Deaktiveer die Voor-skerm Vertoon (\"On-Screen Display\")"
 
 #. i18n: file: amarokconfig.kcfg:342
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:1973
+#: rc.cpp:1985
 msgid "Enable/Disable use of Growl for notifications."
 msgstr "Aktiveer/Deaktiveer Growl vir kennisgewings."
 
 #. i18n: file: amarokconfig.kcfg:346
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:1976
+#: rc.cpp:1988
 msgid "Display the same information in the OSD as in the playlist columns."
 msgstr "Voor-Skerm Vertoon wys dieselfde inligting as die speellys kolomme."
 
 #. i18n: file: amarokconfig.kcfg:347
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:1979
+#: rc.cpp:1991
 msgid ""
 "If enabled, the OSD will display the same information and in the same order "
 "as the columns in the playlist."
@@ -12807,43 +13797,43 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:351
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:1982
+#: rc.cpp:1994
 msgid "The OSD text to show"
 msgstr "Die Voor-Skerm Vertoon teks"
 
 #. i18n: file: amarokconfig.kcfg:352
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:1985
+#: rc.cpp:1997
 msgid "Customize the OSD display text."
 msgstr "Pasmaak die Voor-Skerm Vertoon teks."
 
 #. i18n: file: amarokconfig.kcfg:356
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:1988
+#: rc.cpp:2000
 msgid "Translucency Toggle"
 msgstr "Deursigtigheid Wissel"
 
 #. i18n: file: amarokconfig.kcfg:357
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:1991
+#: rc.cpp:2003
 msgid "Make the background of the OSD translucent."
 msgstr "Maak die Voor-Skerm Vertoon agtergrond deursigtig"
 
 #. i18n: file: amarokconfig.kcfg:361
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:1994
+#: rc.cpp:2006
 msgid "Whether to use custom colors for the OSD"
 msgstr "Bepaal of pasmaak kleure vir die Voor-Skerm Vertoon gebruik moet word"
 
 #. i18n: file: amarokconfig.kcfg:362
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:1997
+#: rc.cpp:2009
 msgid "You can use custom colors for the OSD if you set this true."
 msgstr "Indien gekies, kan jy jou eie kleure kies vir die Voor-Skerm Vertoon."
 
 #. i18n: file: amarokconfig.kcfg:366
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:2000
+#: rc.cpp:2012
 #, fuzzy
 #| msgid "Font Color for On-Screen Display"
 msgid "Font color for OSD"
@@ -12851,7 +13841,7 @@ msgstr "Skrif Kleur vir die Voor-Skerm Vertoon"
 
 #. i18n: file: amarokconfig.kcfg:367
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:2003
+#: rc.cpp:2015
 msgid ""
 "The color of the OSD text. The color is specified in RGB, a comma-separated "
 "list containing three integers between 0 and 255."
@@ -12861,13 +13851,13 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:371
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:2006
+#: rc.cpp:2018
 msgid "Font scaling for OSD"
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:372
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:2009
+#: rc.cpp:2021
 msgid ""
 "The scaling multiplier for the OSD font, in percent-of-normal. 100 is &ldquo;"
 "normal size&rdquo;."
@@ -12875,13 +13865,13 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:378
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:2012
+#: rc.cpp:2024
 msgid "How many milliseconds the text should be displayed for"
 msgstr "Vir hoeveel millisekondes die teks vertoon word"
 
 #. i18n: file: amarokconfig.kcfg:379
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:2015
+#: rc.cpp:2027
 msgid ""
 "The time in milliseconds to show the OSD. A value of 0 means never hide. The "
 "default value is 5000 ms."
@@ -12891,13 +13881,13 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:384
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:2018
+#: rc.cpp:2030
 msgid "Y position offset"
 msgstr "Y-posisie verplasing"
 
 #. i18n: file: amarokconfig.kcfg:385
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:2021
+#: rc.cpp:2033
 msgid ""
 "The Y position of the OSD relative to the chosen screen and OSD alignment. "
 "If Top alignment is chosen the Y offset is the space between the upper part "
@@ -12913,13 +13903,13 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:391
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:2024
+#: rc.cpp:2036
 msgid "OSD screen"
 msgstr "Voor-Skerm Vertoon skerm"
 
 #. i18n: file: amarokconfig.kcfg:392
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:2027
+#: rc.cpp:2039
 msgid ""
 "The screen that should display the OSD. For single-headed environments this "
 "setting should be 0."
@@ -12929,25 +13919,25 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:396
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:2030
+#: rc.cpp:2042
 msgid "Whether the album cover should be shown"
 msgstr "Bepaal of die omslag vertoon moet word."
 
 #. i18n: file: amarokconfig.kcfg:397
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:2033
+#: rc.cpp:2045
 msgid "If enabled, shows the album cover in the OSD."
 msgstr "Indien gekies, sal die omslag in die Voor-Skerm Vertoon verskyn."
 
 #. i18n: file: amarokconfig.kcfg:401
 #. i18n: ectx: label, entry, group (OSD)
-#: rc.cpp:2036
+#: rc.cpp:2048
 msgid "Align OSD to"
 msgstr "Belyn Voor-Skerm Vertoon met"
 
 #. i18n: file: amarokconfig.kcfg:402
 #. i18n: ectx: whatsthis, entry, group (OSD)
-#: rc.cpp:2039
+#: rc.cpp:2051
 msgid ""
 "The relative position of the OSD. Possible choices are Left, Middle, Right "
 "and Center."
@@ -12957,45 +13947,45 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:416
 #. i18n: ectx: label, entry, group (Session)
-#: rc.cpp:2042
+#: rc.cpp:2054
 msgid "Resume playback of last played track on startup"
 msgstr "Hervat die laas gespeelde snit wanneer die program loods"
 
 #. i18n: file: amarokconfig.kcfg:417
 #. i18n: ectx: whatsthis, entry, group (Session)
-#: rc.cpp:2045
+#: rc.cpp:2057
 msgid "If set, Amarok resumes playback of the last played track on startup."
 msgstr ""
 "Indien gestel sal Amarok die laas gespeelde snit hervat tydens aanloop."
 
 #. i18n: file: amarokconfig.kcfg:421
 #. i18n: ectx: label, entry, group (Session)
-#: rc.cpp:2048
+#: rc.cpp:2060
 msgid "Track URL to resume upon startup"
 msgstr "Snit URL om te hervat tydens loods"
 
 #. i18n: file: amarokconfig.kcfg:422
 #. i18n: ectx: whatsthis, entry, group (Session)
-#: rc.cpp:2051
+#: rc.cpp:2063
 msgid "Internal: URL of the track to resume on startup."
 msgstr "Intern: URL van die snit om te hervat tydens loods."
 
 #. i18n: file: amarokconfig.kcfg:425
 #. i18n: ectx: label, entry, group (Session)
-#: rc.cpp:2054
+#: rc.cpp:2066
 msgid "Time to resume at, in milliseconds"
 msgstr "Tydstip om by te hervat, in millisekondes."
 
 #. i18n: file: amarokconfig.kcfg:426
 #. i18n: ectx: whatsthis, entry, group (Session)
-#: rc.cpp:2057
+#: rc.cpp:2069
 msgid "Internal: Playback position in the track to resume on startup."
 msgstr ""
 "Intern: Terugspeel posisie in die snit om by te te hervat tydens loods."
 
 #. i18n: file: amarokconfig.kcfg:429
 #. i18n: ectx: label, entry, group (Session)
-#: rc.cpp:2060
+#: rc.cpp:2072
 msgid ""
 "List of bools describing which browsers are visible, from top to bottom."
 msgstr ""
@@ -13004,7 +13994,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:432
 #. i18n: ectx: label, entry, group (Session)
-#: rc.cpp:2063
+#: rc.cpp:2075
 msgid "Track playing on last exit. Value is -1 if no track was playing."
 msgstr ""
 "Spelend snit tydens afsluiting. Waarde is -1 indien geen snit gespeel het "
@@ -13012,43 +14002,43 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:436
 #. i18n: ectx: label, entry, group (Session)
-#: rc.cpp:2066
+#: rc.cpp:2078
 msgid "Number (from the top) of the last active browser."
 msgstr "Indeks (van bo af) van die blaaier wat laas werksaam was."
 
 #. i18n: file: amarokconfig.kcfg:442
 #. i18n: ectx: label, entry, group (Collection)
-#: rc.cpp:2069
+#: rc.cpp:2081
 msgid "Whether Collections folders are scanned recursively"
 msgstr "Word die Versameling gidse rekursief geskandeer"
 
 #. i18n: file: amarokconfig.kcfg:446
 #. i18n: ectx: label, entry, group (Collection)
-#: rc.cpp:2072
+#: rc.cpp:2084
 msgid "Whether Collection folders are rescanned on change"
 msgstr "Word die Versameling gidse herskandeer na wysiging"
 
 #. i18n: file: amarokconfig.kcfg:450
 #. i18n: ectx: label, entry, group (Collection)
-#: rc.cpp:2075
+#: rc.cpp:2087
 msgid "List of folders in the Collection"
 msgstr "Lys gidse in die Versameling"
 
 #. i18n: file: amarokconfig.kcfg:453
 #. i18n: ectx: label, entry, group (Collection)
-#: rc.cpp:2078
+#: rc.cpp:2090
 msgid "Whether track numbers are shown in the collection browser."
 msgstr "Verskyn snitnommers in die versameling blaaier."
 
 #. i18n: file: amarokconfig.kcfg:457
 #. i18n: ectx: label, entry, group (Collection)
-#: rc.cpp:2081
+#: rc.cpp:2093
 msgid "Whether years are shown in the collection browser."
 msgstr "Verskyn jare in die versameling blaaier."
 
 #. i18n: file: amarokconfig.kcfg:461
 #. i18n: ectx: label, entry, group (Collection)
-#: rc.cpp:2084
+#: rc.cpp:2096
 msgid ""
 "Whether to use Mozilla's Character Set Detector to try to guess ID3 tag "
 "encodings."
@@ -13058,104 +14048,104 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:468
 #. i18n: ectx: label, entry, group (Scrobbler)
-#: rc.cpp:2087
+#: rc.cpp:2099
 msgid "Submit played songs"
 msgstr "Dien gespeelde liedjies in"
 
 #. i18n: file: amarokconfig.kcfg:469
 #. i18n: ectx: whatsthis, entry, group (Scrobbler)
-#: rc.cpp:2090
+#: rc.cpp:2102
 msgid "Whether played songs are submitted to Audioscrobbler"
 msgstr "Word gespeelde liedjies ingedien by Audioscrobbler"
 
 #. i18n: file: amarokconfig.kcfg:473
 #. i18n: ectx: label, entry, group (Scrobbler)
-#: rc.cpp:2093
+#: rc.cpp:2105
 msgctxt "Username for audioscrobbler login"
 msgid "Username"
 msgstr "Gebruikernaam"
 
 #. i18n: file: amarokconfig.kcfg:474
 #. i18n: ectx: whatsthis, entry, group (Scrobbler)
-#: rc.cpp:2096
+#: rc.cpp:2108
 msgid "The username to use for connecting to Audioscrobbler"
 msgstr "Die gebruikernaam om mee te koppel aan Audioscrobbler"
 
 #. i18n: file: amarokconfig.kcfg:479
 #. i18n: ectx: whatsthis, entry, group (Scrobbler)
-#: rc.cpp:2102
+#: rc.cpp:2114
 msgid "The password to use for connecting to Audioscrobbler"
 msgstr "Die wagwoord om mee te koppel aan Audioscrobbler"
 
 #. i18n: file: amarokconfig.kcfg:483
 #. i18n: ectx: label, entry, group (Scrobbler)
-#: rc.cpp:2105
+#: rc.cpp:2117
 msgid "Retrieve similar artists"
 msgstr "Onttrek verwante kunstenaars"
 
 #. i18n: file: amarokconfig.kcfg:484
 #. i18n: ectx: whatsthis, entry, group (Scrobbler)
-#: rc.cpp:2108
+#: rc.cpp:2120
 msgid "Whether similar songs are retrieved from Audioscrobbler"
 msgstr "Word verwante liedjies van Audioscrobbler onttrek"
 
 #. i18n: file: amarokconfig.kcfg:491
 #. i18n: ectx: label, entry, group (MediaDevice)
-#: rc.cpp:2111
+#: rc.cpp:2123
 msgid "Device type"
 msgstr "Soort toestel"
 
 #. i18n: file: amarokconfig.kcfg:492
 #. i18n: ectx: whatsthis, entry, group (MediaDevice)
-#: rc.cpp:2114
+#: rc.cpp:2126
 msgid "The type of media device."
 msgstr "Die soort media toestel."
 
 #. i18n: file: amarokconfig.kcfg:495
 #. i18n: ectx: label, entry, group (MediaDevice)
-#: rc.cpp:2117
+#: rc.cpp:2129
 msgid "Mount point"
 msgstr "Hegpunt"
 
 #. i18n: file: amarokconfig.kcfg:496
 #. i18n: ectx: whatsthis, entry, group (MediaDevice)
-#: rc.cpp:2120
+#: rc.cpp:2132
 msgid "The mount point used for the media device connection."
 msgstr "Die hegpunt ('mount point') vir die media toestel koppeling."
 
 #. i18n: file: amarokconfig.kcfg:499
 #. i18n: ectx: label, entry, group (MediaDevice)
-#: rc.cpp:2123
+#: rc.cpp:2135
 msgid "Mount command"
 msgstr "Heg opdrag"
 
 #. i18n: file: amarokconfig.kcfg:500
 #. i18n: ectx: whatsthis, entry, group (MediaDevice)
-#: rc.cpp:2126
+#: rc.cpp:2138
 msgid "The mount command used for the media device connection."
 msgstr "Die heg ('mount') opstel opdrag vir die media toestel koppeling."
 
 #. i18n: file: amarokconfig.kcfg:503
 #. i18n: ectx: label, entry, group (MediaDevice)
-#: rc.cpp:2129
+#: rc.cpp:2141
 msgid "UmountCommand"
 msgstr "Ontheg Opdrag"
 
 #. i18n: file: amarokconfig.kcfg:504
 #. i18n: ectx: whatsthis, entry, group (MediaDevice)
-#: rc.cpp:2132
+#: rc.cpp:2144
 msgid "The umount command used for the media device connection."
 msgstr "Die ontheg (\"unmount\") opdrag vir die media toestel."
 
 #. i18n: file: amarokconfig.kcfg:507
 #. i18n: ectx: label, entry, group (MediaDevice)
-#: rc.cpp:2135
+#: rc.cpp:2147
 msgid "Auto delete podcasts"
 msgstr "Outo-skrap potgooie"
 
 #. i18n: file: amarokconfig.kcfg:508
 #. i18n: ectx: whatsthis, entry, group (MediaDevice)
-#: rc.cpp:2138
+#: rc.cpp:2150
 #, fuzzy
 #| msgid ""
 #| "Whether podcasts shows already played are automatically deleted when "
@@ -13169,13 +14159,13 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:511
 #. i18n: ectx: label, entry, group (MediaDevice)
-#: rc.cpp:2141
+#: rc.cpp:2153
 msgid "Sync stats"
 msgstr "Sinchroniseer statistieke"
 
 #. i18n: file: amarokconfig.kcfg:512
 #. i18n: ectx: whatsthis, entry, group (MediaDevice)
-#: rc.cpp:2144
+#: rc.cpp:2156
 msgid ""
 "Whether Amarok statistics should be synchronized with play count/ratings on "
 "device and whether tracks played should be submitted to last.fm."
@@ -13185,61 +14175,61 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:518
 #. i18n: ectx: label, entry, group (Daap)
-#: rc.cpp:2147
+#: rc.cpp:2159
 msgid "Manually added servers"
 msgstr "Handmatig bygevoegde bedieners"
 
 #. i18n: file: amarokconfig.kcfg:519
 #. i18n: ectx: whatsthis, entry, group (Daap)
-#: rc.cpp:2150
+#: rc.cpp:2162
 msgid "Music Sharing servers added by the user."
 msgstr "Musiek Deel bedieners deur die gebruiker bygevoeg."
 
 #. i18n: file: amarokconfig.kcfg:522
 #. i18n: ectx: label, entry, group (Daap)
-#: rc.cpp:2153
+#: rc.cpp:2165
 msgid "Server passwords"
 msgstr "Bediener wagwoorde"
 
 #. i18n: file: amarokconfig.kcfg:523
 #. i18n: ectx: whatsthis, entry, group (Daap)
-#: rc.cpp:2156
+#: rc.cpp:2168
 msgid "Passwords stored by hostname."
 msgstr "Wagwoorde per gasheer gestoor."
 
 #. i18n: file: amarokconfig.kcfg:529
 #. i18n: ectx: label, entry, group (Panel Sizes)
-#: rc.cpp:2159
+#: rc.cpp:2171
 msgid "State of main window splitter"
 msgstr "Stand van hoof venster verdeler"
 
 #. i18n: file: amarokconfig.kcfg:536
 #. i18n: ectx: label, entry, group (Playlist Search)
-#: rc.cpp:2162
+#: rc.cpp:2174
 msgid "Include track names in matching"
 msgstr "Oorweeg snit name tydens passing"
 
 #. i18n: file: amarokconfig.kcfg:540
 #. i18n: ectx: label, entry, group (Playlist Search)
-#: rc.cpp:2165
+#: rc.cpp:2177
 msgid "Include album names in matching"
 msgstr "Oorweeg album name tydens passing"
 
 #. i18n: file: amarokconfig.kcfg:544
 #. i18n: ectx: label, entry, group (Playlist Search)
-#: rc.cpp:2168
+#: rc.cpp:2180
 msgid "Include artist names in matching"
 msgstr "Oorweeg kunstenaar name tydens passing"
 
 #. i18n: file: amarokconfig.kcfg:548
 #. i18n: ectx: label, entry, group (Playlist Search)
-#: rc.cpp:2171
+#: rc.cpp:2183
 msgid "Include genre names in matching"
 msgstr "Oorweeg genre name tydens passing"
 
 #. i18n: file: amarokconfig.kcfg:552
 #. i18n: ectx: label, entry, group (Playlist Search)
-#: rc.cpp:2174
+#: rc.cpp:2186
 msgid "Include composer names in matching"
 msgstr "Oorweeg komponis name tydens passing"
 
@@ -13247,19 +14237,19 @@ msgstr "Oorweeg komponis name tydens passing"
 #. i18n: ectx: label, entry, group (Playlist Search)
 #. i18n: file: amarokconfig.kcfg:560
 #. i18n: ectx: label, entry, group (Playlist Search)
-#: rc.cpp:2177 rc.cpp:2180
+#: rc.cpp:2189 rc.cpp:2192
 msgid "Include years in matching"
 msgstr "Oorweeg jare tydens passing"
 
 #. i18n: file: amarokconfig.kcfg:567
 #. i18n: ectx: label, entry, group (Playlist Layout)
-#: rc.cpp:2183
+#: rc.cpp:2195
 msgid "The name of the layout that will be loaded on startup"
 msgstr "Die uitleg name wat gelaai sal word tydens loods"
 
 #. i18n: file: amarokconfig.kcfg:574
 #. i18n: ectx: label, entry, group (MySQL)
-#: rc.cpp:2186
+#: rc.cpp:2198
 msgid ""
 "Whether Amarok uses its own internal database, as opposed to an external "
 "engine."
@@ -13269,19 +14259,19 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:578
 #. i18n: ectx: label, entry, group (MySQL)
-#: rc.cpp:2189
+#: rc.cpp:2201
 msgid "The hostname of the external server to connect to."
 msgstr "Die gasheer naam van die eksterne bediener om aan te koppel."
 
 #. i18n: file: amarokconfig.kcfg:582
 #. i18n: ectx: label, entry, group (MySQL)
-#: rc.cpp:2192
+#: rc.cpp:2204
 msgid "Which server port to connect to the database engine."
 msgstr "Watter bediener poort om aan die databasis enjin mee te koppel."
 
 #. i18n: file: amarokconfig.kcfg:586
 #. i18n: ectx: label, entry, group (MySQL)
-#: rc.cpp:2195
+#: rc.cpp:2207
 msgid ""
 "The name of the database Amarok will use. The user should have sufficient "
 "access permissions."
@@ -13291,37 +14281,37 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:590
 #. i18n: ectx: label, entry, group (MySQL)
-#: rc.cpp:2198
+#: rc.cpp:2210
 msgid "Username used to access the external database."
 msgstr "Gebruikersnaam vir eksterne databasis toegang."
 
 #. i18n: file: amarokconfig.kcfg:594
 #. i18n: ectx: label, entry, group (MySQL)
-#: rc.cpp:2201
+#: rc.cpp:2213
 msgid "Password for the external database user."
 msgstr "Wagwoord vir die eksterne databasis gebruiker."
 
 #. i18n: file: amarokconfig.kcfg:598
 #. i18n: ectx: label, entry, group (MySQL)
-#: rc.cpp:2204
+#: rc.cpp:2216
 msgid "Keeps a running count to know when run a CHECK."
 msgstr "Hou lopende telling om te bepaal wanneer 'n 'CHECK' geloop moet word"
 
 #. i18n: file: amarokconfig.kcfg:605
 #. i18n: ectx: label, entry, group (ScriptManager)
-#: rc.cpp:2207
+#: rc.cpp:2219
 msgid "Whether to automatically update built-in scripts"
 msgstr "Word ingeboude skripte outomaties opgedateer"
 
 #. i18n: file: amarokconfig.kcfg:606
 #. i18n: ectx: whatsthis, entry, group (ScriptManager)
-#: rc.cpp:2210
+#: rc.cpp:2222
 msgid "Enable/Disable automatic update for built-in scripts."
 msgstr "Aktiveer/Deaktiveer outomatiese opdatering van ingeboude skripte"
 
 #. i18n: file: amarokconfig.kcfg:613
 #. i18n: ectx: label, entry, group (Moodbar)
-#: rc.cpp:2213
+#: rc.cpp:2225
 msgid ""
 "Whether to show the moodbar of the current track, if available, in the "
 "progress slider"
@@ -13331,7 +14321,7 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:614
 #. i18n: ectx: whatsthis, entry, group (Moodbar)
-#: rc.cpp:2216
+#: rc.cpp:2228
 msgid "Enable/Disable showing moodbar, if available, in the progress slider."
 msgstr ""
 "Aktiveer/Deaktiveer vertoon van gemoedsbalk (indien beskikbaar) in die "
@@ -13339,19 +14329,19 @@ msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:618
 #. i18n: ectx: label, entry, group (Moodbar)
-#: rc.cpp:2219
+#: rc.cpp:2231
 msgid "The style to use when painting the moodbar"
 msgstr "Die styl waarin die gemoedsbalk weergegee word"
 
 #. i18n: file: amarokconfig.kcfg:625
 #. i18n: ectx: label, entry, group (UpcomingEvents)
-#: rc.cpp:2222
+#: rc.cpp:2234
 msgid "Clickable locations' names"
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:626
 #. i18n: ectx: whatsthis, entry, group (UpcomingEvents)
-#: rc.cpp:2225
+#: rc.cpp:2237
 #, fuzzy
 #| msgid "Enable/Disable tray icon for Amarok."
 msgid "Enable/Disable links to Google Map"
@@ -13359,19 +14349,19 @@ msgstr "Aktiveer/Deaktiveer die stelsel laai ikoon vir Amarok."
 
 #. i18n: file: amarokconfig.kcfg:630
 #. i18n: ectx: label, entry, group (UpcomingEvents)
-#: rc.cpp:2228
+#: rc.cpp:2240
 msgid "Timespan for upcoming events"
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:631
 #. i18n: ectx: whatsthis, entry, group (UpcomingEvents)
-#: rc.cpp:2231
+#: rc.cpp:2243
 msgid "Set the timespan for the upcoming events."
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:644
 #. i18n: ectx: label, entry, group (SimilarArtists)
-#: rc.cpp:2234
+#: rc.cpp:2246
 #, fuzzy
 #| msgid "Retrieve similar artists"
 msgid "Maximum similar artists"
@@ -13379,19 +14369,19 @@ msgstr "Onttrek verwante kunstenaars"
 
 #. i18n: file: amarokconfig.kcfg:645
 #. i18n: ectx: whatsthis, entry, group (SimilarArtists)
-#: rc.cpp:2237
+#: rc.cpp:2249
 msgid "Maximum similar artists to be shown"
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:652
 #. i18n: ectx: label, entry, group (PlaylistGenerator)
-#: rc.cpp:2240
+#: rc.cpp:2252
 msgid "Quality factor for Automated Playlist Generator"
 msgstr ""
 
 #. i18n: file: amarokconfig.kcfg:653
 #. i18n: ectx: whatsthis, entry, group (PlaylistGenerator)
-#: rc.cpp:2243
+#: rc.cpp:2255
 msgid ""
 "A value between 0 and 10 that controls whether the Automated Playlist "
 "Generator tries to optimize for speed (0) or accuracy (10)."
@@ -13399,800 +14389,40 @@ msgstr ""
 
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:60
-#: rc.cpp:2252
+#: rc.cpp:2264
 msgid "No Grouping (Single Line)"
 msgstr "Geen Groepering (Enkele Reël)"
 
 #. i18n: tag layout attribute name
 #. i18n: file: data/DefaultPlaylistLayouts.xml:77
-#: rc.cpp:2255
+#: rc.cpp:2267
 msgid "Verbose"
 msgstr "Breedspraaklik"
 
-#: KNotificationBackend.cpp:117
-msgid "Now playing"
-msgstr "Speel tans"
-
-#: ActionClasses.cpp:86
-msgid "Amarok Menu"
-msgstr "Amarok Kieslys"
-
-#: ActionClasses.cpp:313
-msgid "Click to change"
-msgstr "Kliek om te wysig"
-
-#: ActionClasses.cpp:330
-msgid "&Replay Gain Mode"
-msgstr "&Replay Gain Modus"
-
-#: ActionClasses.cpp:332
-msgctxt "Replay Gain state, as in, disabled"
-msgid "&Off"
-msgstr "Af"
-
-#: ActionClasses.cpp:332
-msgctxt "Item, as in, music"
-msgid "&Track"
-msgstr "Snit"
-
-#: ActionClasses.cpp:333
-msgid "&Album"
-msgstr "Album"
-
-#: ActionClasses.cpp:342
-msgid "&Equalizer"
-msgstr "Band menger"
-
-#: ActionClasses.cpp:370
-msgid "Your current setup does not support the equalizer feature"
-msgstr "Jou huidige opstelling ondersteun nie die band menger funksie nie"
-
-#: ActionClasses.cpp:375
-msgctxt "Equalizer state, as in, disabled"
-msgid "&Off"
-msgstr "Af"
-
-#: ActionClasses.cpp:426
-msgid "Burn"
-msgstr "Skryf"
-
-#: ActionClasses.cpp:465
-msgid "Current Playlist"
-msgstr "Huidige Speellys"
-
-#: ActionClasses.cpp:466
-msgid "Selected Tracks"
-msgstr "Geselekteerde Snitte"
-
-#: ActionClasses.cpp:549
-msgid "Stop after current Track"
-msgstr "Stop na huidige Snit"
-
-#: ActionClasses.cpp:564
-msgid "Stop after current track: On"
-msgstr "Stop na huidige snit: Aan"
-
-#: ActionClasses.cpp:570
-msgid "Stop after current track: Off"
-msgstr "Stop na huidige snit: Af"
-
-#: App.cpp:112
-msgid "The audio player for KDE"
-msgstr "Die oudio speler vir KDE"
-
-#: App.cpp:113
-msgid ""
-"(C) 2002-2003, Mark Kretschmann\n"
-"(C) 2003-2010, The Amarok Development Squad"
-msgstr ""
-"(C) 2002-2003, Mark Kretschmann\n"
-"(C) 2003-2009, Die Amarok Ontwikkeling Peloton"
-
-#: App.cpp:114
-#, kde-format
-msgid ""
-"IRC:\n"
-"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
-"\n"
-"Feedback:\n"
-"amarok@kde.org\n"
-"\n"
-"(Build Date: %1)"
-msgstr ""
-"IRC:\n"
-"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
-"\n"
-"Terugvoer:\n"
-"amarok@kde.org\n"
-"\n"
-"(Bou Datum: %1)"
-
-#: App.cpp:438
-msgid "Files/URLs to open"
-msgstr "Lêers/URLs om oop te maak"
-
-#: App.cpp:439
-msgid "Immediately start playing an audio cd"
-msgstr ""
-
-#: App.cpp:441
-msgid "Skip backwards in playlist"
-msgstr "Spring terugwaarts in die speel lys"
-
-#: App.cpp:443
-msgid "Start playing current playlist"
-msgstr "Begin om die huidige speel lys te speel"
-
-#: App.cpp:445
-msgid "Play if stopped, pause if playing"
-msgstr "Speel indien gestop, wag indien besig is om te speel"
-
-#: App.cpp:446
-msgid "Pause playback"
-msgstr "Pouseer terugspeel"
-
-#: App.cpp:448
-msgid "Stop playback"
-msgstr "Stop terugspeel"
-
-#: App.cpp:450
-msgid "Skip forwards in playlist"
-msgstr "Spring vorentoe in die speellys"
-
-#: App.cpp:451
-msgid "Additional options:"
-msgstr "Verdere opsies:"
-
-#: App.cpp:453
-msgid "Append files/URLs to playlist"
-msgstr "Las lêers/URLs agter aan speellys"
-
-#: App.cpp:454
-msgid "Queue URLs after the currently playing track"
-msgstr "Plaas URLs in die wagtou na die snit wat tans speel"
-
-#: App.cpp:456
-msgid "Load URLs, replacing current playlist"
-msgstr "Laai URLs en vervang die huidige speellys met die resultaat"
-
-#: App.cpp:458
-msgid "Print verbose debugging information"
-msgstr "Druk breedvoerige ontfoutingsinligting"
-
-#: App.cpp:460
-msgid "Disable colorization for debug output."
-msgstr ""
-
-#: App.cpp:462
-msgid "Allow running multiple Amarok instances"
-msgstr "Laat veelvuldige Amarok instansies toe om te loop"
-
-#: App.cpp:463
-msgid "Base for relative filenames/URLs"
-msgstr "Basis wat vir relatiewe lêername/URLs gebruik moet word"
-
-#: App.cpp:465
-msgid "Unit test options:"
-msgstr "Eenheidstoets opsies"
-
-#: App.cpp:466
-msgid "Run integrated unit tests"
-msgstr "Loop geïntegreerde eenheidstoetse"
-
-#: App.cpp:467
-msgid "Destination of test output: 'stdout', 'log'"
-msgstr "Toetsafvoer bestemming: 'stdout', 'log'"
-
-#: App.cpp:468
-msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
-msgstr "Toetsafvoer formaat: 'xml', 'lightxml', 'plaintext'"
-
-#: App.cpp:469
-msgid "Verbosity from 0-3 (highest)"
-msgstr "Breedspraaklikheid van 0-3 (mees)"
-
-#: App.cpp:705
-msgid ""
-"The embedded database was not found; you must set up a database server "
-"connection.\n"
-"You must restart Amarok after doing this."
-msgstr ""
-"Ingebedde databasis ongevonde; jy moet 'n databasis bediener koppeling "
-"opstel. \n"
-"Jy moet Amarok daarna herlaai."
-
-#: App.cpp:706
-msgid ""
-"The connection details for the database server were invalid.\n"
-"You must enter correct settings and restart Amarok after doing this."
-msgstr ""
-"Die databasis koppelingsbesonderhede was ongeldig.\n"
-"Jy moet korrekte instellings gee en Amarok dan herlaai."
-
-#: App.cpp:707
-msgid "Database Error"
-msgstr "Databasis Fout"
-
-#: App.cpp:755
-msgid "Moving files to trash"
-msgstr "Besig om lêers na die asblik te skuif"
-
-#: App.cpp:843
-#, kde-format
-msgid ""
-"A music path, %1, is set in System Settings.\n"
-"Would you like to use that as a collection folder?"
-msgstr ""
-"'n Musiekpad (%1) is ingestel by Stelsel Instellings. \n"
-"Wil jy dit as 'n versameling gids gebruik?"
-
-#: TrayIcon.cpp:180
-msgid "Last played"
-msgstr "Laas gespeel"
-
-#: main.cpp:35
-msgid "Alejandro Wainzinger"
-msgstr "Alejandro Wainzinger"
-
-#: main.cpp:36
-msgid "Developer (xevix)"
-msgstr "Ontwikkelaar (xevix)"
-
-#: main.cpp:37
-msgid "Bart 'Where are my toothpicks' Cerneels"
-msgstr "Bart 'Waar is my tandestokkies' Cerneels"
-
-#: main.cpp:38
-msgid "Developer (Stecchino)"
-msgstr "Ontwikkelaar (Stecchino)"
-
-#: main.cpp:39
-msgid "Dan 'Hey, it compiled...' Meltzer"
-msgstr "Dan 'Haai, geslaagde samestelling...' Meltzer"
-
-#: main.cpp:40
-msgid "Developer (hydrogen)"
-msgstr "Ontwikkelaar (hydrogen)"
-
-#: main.cpp:41
-msgid "Ian 'The Beard' Monroe"
-msgstr "Ian 'Die Baard' Monroe"
-
-#: main.cpp:42
-msgid "Developer (eean)"
-msgstr "Ontwikkelaar (eean)"
-
-#: main.cpp:43
-msgid "Jeff 'IROKSOHARD' Mitchell"
-msgstr "Jeff 'IROKSOHARD' Mitchell"
-
-#: main.cpp:44
-msgid "Developer (jefferai)"
-msgstr "Ontwikkelaar (jefferai)"
-
-#: main.cpp:46
-msgid "Developer (lfranchi)"
-msgstr "Ontwikkelaar (lfranchi)"
-
-#: main.cpp:47
-msgid "Lydia 'is wrong(TM)' Pintscher"
-msgstr "Lydia 'is verkeerd(TM)' Pintscher"
-
-#: main.cpp:48
-msgid "Release Vixen (Nightrose)"
-msgstr "Vrylaat Vos (Nightrose)"
-
-#: main.cpp:49
-msgid "Mark 'It's good, but it's not irssi' Kretschmann"
-msgstr "Mark 'Dis goed, maar irssi is dit nie' Kretschmann"
-
-#: main.cpp:50
-msgid "Project founder (markey)"
-msgstr "Projek stigter (markey)"
-
-#: main.cpp:51
-msgid "Maximilian Kossick"
-msgstr "Maximilian Kossick"
-
-#: main.cpp:52
-msgid "Developer (maxx_k)"
-msgstr "Developer (maxx_k)"
-
-#: main.cpp:53
-msgid "Nikolaj Hald 'Also very hot' Nielsen"
-msgstr "Nikolaj Hald 'Ook vuurwarm' Nielsen"
-
-#: main.cpp:54
-msgid "Developer (nhn)"
-msgstr "Ontwikkelaar (nhn)"
-
-#: main.cpp:55
-msgid "Seb 'Surfin' down under' Ruiz"
-msgstr "Seb 'Branderplank ry \"down under\"' Ruiz"
-
-#: main.cpp:56
-msgid "Developer (sebr)"
-msgstr "Ontwikkelaar (sebr)"
-
-#: main.cpp:57
-msgid "Téo Mrnjavac"
-msgstr "Téo Mrnjavac"
-
-#: main.cpp:58
-msgid "Developer (Teo`)"
-msgstr "Ontwikkelaar (Teo`)"
-
-#: main.cpp:74
-msgid "Alex Merry"
-msgstr "Alex Merry"
-
-#: main.cpp:74
-msgid "Developer, Replay Gain support"
-msgstr "Ontwikkelaar, Replay Gain ondersteuning"
-
-#: main.cpp:76
-msgid "Casey Link"
-msgstr "Casey Link"
-
-#: main.cpp:76
-msgid "MP3tunes integration"
-msgstr "MP3tunes integrasie"
-
-#: main.cpp:78
-msgid "Casper van Donderen"
-msgstr "Casper van Donderen"
-
-#: main.cpp:78
-msgid "Windows porting"
-msgstr "Windows oordrag"
-
-#: main.cpp:80
-msgid "Christie Harris"
-msgstr "Christie Harris"
-
-#: main.cpp:80
-msgid "Rokymoter (dangle)"
-msgstr "Rokymoter (dangle)"
-
-#: main.cpp:82
-msgid "Dan Leinir Turthra Jensen"
-msgstr "Dan Leinir Turthra Jensen"
-
-#: main.cpp:82
-msgid "Usability"
-msgstr "Bruikbaarheid"
-
-#: main.cpp:84
-msgid "Daniel Caleb Jones"
-msgstr "Daniel Caleb Jones"
-
-#: main.cpp:84
-msgid "Biased playlists"
-msgstr "Sydige speellyste"
-
-#: main.cpp:86
-msgid "Daniel Dewald"
-msgstr "Daniel Dewald"
-
-#: main.cpp:86
-msgid "Tag Guesser, Labels"
-msgstr "Tag Guesser, Labels"
-
-#: main.cpp:88
-msgid "Daniel Winter"
-msgstr "Daniel Winter"
-
-#: main.cpp:88
-msgid "Nepomuk integration"
-msgstr "Nepomuk integrasie"
-
-#: main.cpp:90
-msgid "Edward \"Hades\" Toroshchin"
-msgstr "Edward \"Hades\" Toroshchin"
-
-#: main.cpp:92
-msgid "Frank Meerkötter"
-msgstr "Frank Meerkötter"
-
-#: main.cpp:92 main.cpp:111
-msgid "Podcast improvements"
-msgstr "Potgooi verbeteringe"
-
-#: main.cpp:95
-msgid "Greg Meyer"
-msgstr "Greg Meyer"
-
-#: main.cpp:95
-msgid "Live CD, Bug squashing (oggb4mp3)"
-msgstr "Live CD, ontfouting (oggb4mp3)"
-
-#: main.cpp:97
-msgid "Harald Sitter"
-msgstr "Harald Sitter"
-
-#: main.cpp:97
-msgid "Rokymoter (apachelogger)"
-msgstr "Rokymoter (apachelogger)"
-
-#: main.cpp:99
-msgid "John Atkinson"
-msgstr "John Atkinson"
-
-#: main.cpp:101
-msgid "Kenneth Wesley Wimer II"
-msgstr "Kenneth Wesley Wimer II"
-
-#: main.cpp:101
-msgid "Icons"
-msgstr "Ikone"
-
-#: main.cpp:103
-msgid "Kevin Funk"
-msgstr "Kevin Funk"
-
-#: main.cpp:103
-msgid "Developer, Website theme (KRF)"
-msgstr "Ontwikkelaar, Webwerf tema (KRF)"
-
-#: main.cpp:105
-msgid "Kuba Serafinowski"
-msgstr "Kuba Serafinowski"
-
-#: main.cpp:105
-msgid "Rokymoter"
-msgstr "Rokymoter"
-
-#: main.cpp:107
-msgid "Lee Olson"
-msgstr "Lee Olson"
-
-#: main.cpp:107 main.cpp:121
-msgid "Artwork"
-msgstr "Kunswerk"
-
-#: main.cpp:109
-msgid "Ljubomir Simin"
-msgstr "Ljubomir Simin"
-
-#: main.cpp:109
-msgid "Rokymoter (ljubomir)"
-msgstr "Rokymoter (ljubomir)"
-
-#: main.cpp:111
-msgid "Mathias Panzenböck"
-msgstr "Mathias Panzenböck"
-
-#: main.cpp:113
-msgid "Max Howell"
-msgstr "Max Howell"
-
-#: main.cpp:113
-msgid "Developer, Vision"
-msgstr "Ontwikkelaar, Visie"
-
-#: main.cpp:115
-msgid "Mikko Caldara"
-msgstr "Mikko Caldara"
-
-#: main.cpp:115
-msgid "Bug triaging and sanitizing"
-msgstr "Fout driedeling en reiniging"
-
-#: main.cpp:117
-msgid "Myriam Schweingruber"
-msgstr "Myriam Schweingruber"
-
-#: main.cpp:117
-msgid "Rokymoter, bug squashing (Mamarok)"
-msgstr "Rokymoter, gogga moordenaar (Mamarok)"
-
-#: main.cpp:119
-msgid "Nikhil Marathe"
-msgstr ""
-
-#: main.cpp:119
-msgid "UPnP support and patches (nsm)"
-msgstr ""
-
-#: main.cpp:121
-msgid "Nuno Pinheiro"
-msgstr "Nuno Pinheiro"
-
-#: main.cpp:123
-msgid "Olivier Bédard"
-msgstr "Olivier Bédard"
-
-#: main.cpp:123
-msgid "Website hosting"
-msgstr "Web werf bediening ('hosting')"
-
-#: main.cpp:125
-msgid "Pasi Lalinaho"
-msgstr "Pasi Lalinaho"
-
-#: main.cpp:125
-msgid "Rokymoter (emunkki)"
-msgstr "Rokymoter (emunkki)"
-
-#: main.cpp:127
-msgid "Peter Zhou Lei"
-msgstr "Peter Zhou Lei"
-
-#: main.cpp:127
-msgid "Scripting interface"
-msgstr "Skrip koppelvlak"
-
-#: main.cpp:129
-msgid "Rick W. Chen"
-msgstr "Rick W. Chen"
-
-#: main.cpp:129
-msgid "Cover fetcher"
-msgstr "Omtrek haler"
-
-#: main.cpp:131
-msgid "Scott Wheeler"
-msgstr "Scott Wheeler"
-
-#: main.cpp:131
-msgid "TagLib & ktrm code"
-msgstr "TagLib en ktrm kode"
-
-#: main.cpp:133
-msgid "Shane King"
-msgstr "Shane King"
-
-#: main.cpp:133
-msgid "Patches & Windows porting (shakes)"
-msgstr "Lappies & Windows oordrag (shakes)"
-
-#: main.cpp:135
-msgid "Simon Esneault"
-msgstr "Simon Esneault"
-
-#: main.cpp:135
-msgid "Photos & Videos applets, Context View"
-msgstr "Fotos & Videos miniprogramme, Konteks Aansig"
-
-#: main.cpp:137
-msgid "Soren Harward"
-msgstr "Soren Harward"
-
-#: main.cpp:137
-msgid "Developer, Automated Playlist Generator"
-msgstr ""
-
-#: main.cpp:139
-msgid "Sven Krohlas"
-msgstr "Sven Krohlas"
-
-#: main.cpp:139
-msgid "Rokymoter, Developer (sven423)"
-msgstr "Rokymoter, Ontwikkelaar (sven423)"
-
-#: main.cpp:141
-msgid "Thomas Lübking"
-msgstr "Thomas Lübking"
-
-#: main.cpp:143
-msgid "Valentin Rouet"
-msgstr "Valentin Rouet"
-
-#: main.cpp:145
-msgid "Wade Olson"
-msgstr "Wade Olson"
-
-#: main.cpp:145
-msgid "Splash screen artist"
-msgstr "Spat-skerm kunstenaar"
-
-#: main.cpp:147
-msgid "William Viana Soares"
-msgstr "William Viana Soares"
-
-#: main.cpp:147
-msgid "Context view"
-msgstr "Konteks aansig"
-
-#: main.cpp:149
-msgid "Former contributors"
-msgstr "Voormalige bydraers"
-
-#: main.cpp:149
-msgid "People listed below have contributed to Amarok in the past. Thank you!"
-msgstr "Benoemdes hieronder het tot Amarok bygedra in die verlede. Dankie!"
-
-#: main.cpp:151
-msgid "Adam Pigg"
-msgstr "Adam Pigg"
-
-#: main.cpp:151
-msgid "Analyzers, patches, shoutcast"
-msgstr "Analiseerders, verbeteringe, shoutcast"
-
-#: main.cpp:153
-msgid "Adeodato Simó"
-msgstr "Adeodato Simó"
-
-#: main.cpp:153 main.cpp:161
-msgid "Patches"
-msgstr "Verbeteringe"
-
-#: main.cpp:155
-msgid "Alexandre Oliveira"
-msgstr "Alexandre Oliveira"
-
-#: main.cpp:157
-msgid "Andreas Mair"
-msgstr "Andreas Mair"
-
-#: main.cpp:157
-msgid "MySQL support"
-msgstr "MySQL ondersteuning"
-
-#: main.cpp:159
-msgid "Andrew de Quincey"
-msgstr "Andrew de Quincey"
-
-#: main.cpp:159
-msgid "Postgresql support"
-msgstr "Postgresql ondersteuning"
-
-#: main.cpp:161
-msgid "Andrew Turner"
-msgstr "Andrew Turner"
-
-#: main.cpp:163
-msgid "Andy Kelk"
-msgstr "Andy Kelk"
-
-#: main.cpp:163
-msgid "MTP and Rio Karma media devices, patches"
-msgstr "MTP en Rio Karma media toestelle, regstellings"
-
-#: main.cpp:165
-msgid "Christian Muehlhaeuser"
-msgstr "Christian Muehlhaeuser"
-
-#: main.cpp:167
-msgid "Derek Nelson"
-msgstr "Derek Nelson"
-
-#: main.cpp:167
-msgid "Graphics, splash-screen"
-msgstr "Grafika, spat-skerm"
-
-#: main.cpp:169
-msgid "Enrico Ros"
-msgstr "Enrico Ros"
-
-#: main.cpp:169
-msgid "Analyzers, Context Browser and systray eye-candy"
-msgstr "Analiseerders, Konteks Blaaier en stelsel laai oog genot"
-
-#: main.cpp:171
-msgid "Frederik Holljen"
-msgstr "Frederik Holljen"
-
-#: main.cpp:173
-msgid "Gábor Lehel"
-msgstr "Gábor Lehel"
-
-#: main.cpp:175
-msgid "Gérard Dürrmeyer"
-msgstr "Gérard Dürrmeyer"
-
-#: main.cpp:175
-msgid "Icons and image work"
-msgstr "Ikone en werk aan beelde"
-
-#: main.cpp:177
-msgid "Giovanni Venturi"
-msgstr "Giovanni Venturi"
-
-#: main.cpp:177
-msgid "Dialog to filter the collection titles"
-msgstr "Dialoog om versameling titels te filter"
-
-#: main.cpp:179
-msgid "Jarkko Lehti"
-msgstr "Jarkko Lehti"
-
-#: main.cpp:179
-msgid "Tester, IRC channel operator, whipping"
-msgstr "Toetser, IRC kanaal operateur, sweep klap"
-
-#: main.cpp:181
-msgid "Jocke Andersson"
-msgstr "Jocke Andersson"
-
-#: main.cpp:181
-msgid "Rokymoter, bug fixer (Firetech)"
-msgstr "Rokymoter, bug fixer (Firetech)"
-
-#: main.cpp:183
-msgid "Marco Gulino"
-msgstr "Marco Gulino"
-
-#: main.cpp:183
-msgid "Konqueror Sidebar, some DCOP methods"
-msgstr "Konqueror Kantbalk, DCOP metodes"
-
-#: main.cpp:185
-msgid "Martin Aumueller"
-msgstr "Martin Aumueller"
-
-#: main.cpp:187
-msgid "Melchior Franz"
-msgstr "Melchior Franz"
-
-#: main.cpp:187
-msgid "FHT routine, bugfixes"
-msgstr "FHT roetine, fout herstelling"
-
-#: main.cpp:189
-msgid "Michael Pyne"
-msgstr "Michael Pyne"
-
-#: main.cpp:189
-msgid "K3b export code"
-msgstr "K3v uitvoer kode"
-
-#: main.cpp:191
-msgid "Mike Diehl"
-msgstr "Mike Diehl"
-
-#: main.cpp:193
-msgid "Paul Cifarelli"
-msgstr "Paul Cifarelli"
-
-#: main.cpp:195
-msgid "Peter C. Ndikuwera"
-msgstr "Peter C. Ndikuwera"
-
-#: main.cpp:195
-msgid "Bugfixes, PostgreSQL support"
-msgstr "Regmaak van foute, PostgreSQL ondersteuning"
-
-#: main.cpp:197
-msgid "Pierpaolo Panfilo"
-msgstr "Pierpaolo Panfilo"
-
-#: main.cpp:199
-msgid "Reigo Reinmets"
-msgstr "Reigo Reinmets"
-
-#: main.cpp:199
-msgid "Wikipedia support, patches"
-msgstr "Wikipedia ondersteuning, opdaterings"
-
-#: main.cpp:201
-msgid "Roman Becker"
-msgstr "Roman Becker"
-
-#: main.cpp:201
-msgid "Former Amarok logo, former splash screen, former icons"
-msgstr "Voormalige Amarok logo, voormalige spat-skerm, voormalige ikone"
-
-#: main.cpp:203
-msgid "Sami Nieminen"
-msgstr "Sami Nieminen"
-
-#: main.cpp:203
-msgid "Audioscrobbler support"
-msgstr "Audioscrobber ondersteuning"
-
-#: main.cpp:205
-msgid "Stanislav Karchebny"
-msgstr "Stanislav Karchebny"
-
-#: main.cpp:207
-msgid "Stefan Bogner"
-msgstr "Stefan Bogner"
-
-#: main.cpp:207
-msgid "Loads of stuff"
-msgstr "Tonne goed"
+#, fuzzy
+#~| msgctxt "The name of the file this track is stored in"
+#~| msgid "Filename"
+#~ msgid "filename"
+#~ msgstr "Lêernaam"
+
+#, fuzzy
+#~| msgid "Last played"
+#~ msgctxt "last played time / access date"
+#~ msgid "played"
+#~ msgstr "Laas gespeel"
+
+#, fuzzy
+#~| msgid "Unable to retrieve Youtube information: %1"
+#~ msgid "Unable to retrieve tab information from Ultimate Guitar: %1"
+#~ msgstr "Kon nie Youtube inligting onttrek nie: %1"
+
+#, fuzzy
+#~| msgid "Unable to retrieve Youtube information: %1"
+#~ msgid "Unable to retrieve tab information from fretplay.com: %1"
+#~ msgstr "Kon nie Youtube inligting onttrek nie: %1"
+
+#~ msgid "Collection Scan Error"
+#~ msgstr "Versameling Skandeer Fout"
 
 #~ msgid ""
 #~ "<br><br>Any statistical data in your database will be <i>overwritten</i>"
@@ -14923,9 +15153,6 @@ msgstr "Tonne goed"
 
 #~ msgid "Cover Not Found"
 #~ msgstr "Omslag Ongevonde"
-
-#~ msgid "Cover Found"
-#~ msgstr "Omslag Gevind"
 
 #~ msgid "Dialog"
 #~ msgstr "Dialoog"
