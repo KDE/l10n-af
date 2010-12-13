@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-10 02:33+0100\n"
+"POT-Creation-Date: 2010-12-13 02:21+0100\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -6411,20 +6411,6 @@ msgctxt "default name for new folder"
 msgid "New Folder"
 msgstr "Nuwe Gids"
 
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:175
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:224
-#, fuzzy, kde-format
-#| msgid "Playlist"
-msgctxt "number of playlists from one source"
-msgid "One Playlist"
-msgid_plural "%1 playlists"
-msgstr[0] "Speellys"
-msgstr[1] "Speellys"
-
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:385
-msgid "Source"
-msgstr "Bron"
-
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:33
 msgid "&Rename Folder..."
 msgstr "&Hernoem Gids"
@@ -6441,6 +6427,20 @@ msgstr "Nuwe naam"
 msgctxt "Enter a new name for a folder that already exists"
 msgid "Enter new folder name:"
 msgstr "Gee nuwe gids naam:"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:175
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:224
+#, fuzzy, kde-format
+#| msgid "Playlist"
+msgctxt "number of playlists from one source"
+msgid "One Playlist"
+msgid_plural "%1 playlists"
+msgstr[0] "Speellys"
+msgstr[1] "Speellys"
+
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:385
+msgid "Source"
+msgstr "Bron"
 
 #: browsers/servicebrowser/ServiceBrowser.cpp:44
 msgid ""
@@ -8079,14 +8079,14 @@ msgstr[1] "Verwyder Snitte van Toestel"
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:115
 #: playlistmanager/file/PlaylistFileProvider.cpp:442
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:129
-#: playlistmanager/PlaylistManager.cpp:353
+#: playlistmanager/PlaylistManager.cpp:354
 msgid "Change playlist"
 msgstr "Wysig speellys"
 
 #: core-impl/collections/mediadevicecollection/playlist/MediaDeviceUserPlaylistProvider.cpp:116
 #: playlistmanager/file/PlaylistFileProvider.cpp:443
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:130
-#: playlistmanager/PlaylistManager.cpp:354
+#: playlistmanager/PlaylistManager.cpp:355
 msgid "Enter new name for playlist:"
 msgstr "Gee nuwe naam vir speellys:"
 
@@ -8253,18 +8253,6 @@ msgstr ""
 msgid "Remove empty folders?"
 msgstr ""
 
-#: core-impl/collections/support/TrashCollectionLocation.cpp:46
-#, fuzzy
-#| msgid "Tracks"
-msgid "Trash"
-msgstr "Snitte"
-
-#: core-impl/collections/support/TrashCollectionLocation.cpp:97
-#, fuzzy, kde-format
-#| msgid "Moving files to trash"
-msgid "Moving to trash: %1"
-msgstr "Besig om lêers na die asblik te skuif"
-
 #: core-impl/collections/support/FileCollectionLocation.cpp:119
 #: core-impl/collections/db/sql/SqlCollectionLocation.cpp:631
 #, fuzzy, kde-format
@@ -8289,6 +8277,18 @@ msgstr ""
 "install\"<br>$ kbuildsycoca4 --noincremental<br>$ amarok</pre>Verdere "
 "besonderhede is beskikbaar in die README lêer. Vir nog bystand sluit aan by "
 "#amarok op irc.freenode.net.</p>"
+
+#: core-impl/collections/support/TrashCollectionLocation.cpp:46
+#, fuzzy
+#| msgid "Tracks"
+msgid "Trash"
+msgstr "Snitte"
+
+#: core-impl/collections/support/TrashCollectionLocation.cpp:100
+#, fuzzy, kde-format
+#| msgid "Moving files to trash"
+msgid "Moving to trash: %1"
+msgstr "Besig om lêers na die asblik te skuif"
 
 #: core-impl/collections/umscollection/handler/UmsHandler.cpp:476
 #, fuzzy
@@ -8434,7 +8434,7 @@ msgstr ""
 msgid "Unable to start Amarok collection scanner."
 msgstr "Amarok Miniprogram Bestuurder"
 
-#: core-impl/collections/db/ScanManager.cpp:397
+#: core-impl/collections/db/ScanManager.cpp:400
 #, fuzzy, kde-format
 #| msgid "Could not create directory: %1"
 msgid "Found one direcory"
@@ -8442,21 +8442,21 @@ msgid_plural "Found %1 directories"
 msgstr[0] "Kon nie gids skep nie: %1"
 msgstr[1] "Kon nie gids skep nie: %1"
 
-#: core-impl/collections/db/ScanManager.cpp:409
+#: core-impl/collections/db/ScanManager.cpp:412
 #, kde-format
 msgid "Got directory \"%1\" from scanner."
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:447
+#: core-impl/collections/db/ScanManager.cpp:450
 #, kde-format
 msgid "Aborting scanner with error: %1"
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:474
+#: core-impl/collections/db/ScanManager.cpp:477
 msgid "Scanner aborted."
 msgstr ""
 
-#: core-impl/collections/db/ScanManager.cpp:571
+#: core-impl/collections/db/ScanManager.cpp:574
 #, fuzzy
 #| msgid ""
 #| "<p>Sorry, the collection scan had to be aborted.</p><p>Too many errors "
@@ -12372,7 +12372,7 @@ msgstr "Databasis"
 msgid "Local playlists stored in the database"
 msgstr "Plaaslike speellyste in die databasis gestoor"
 
-#: playlistmanager/PlaylistManager.cpp:277
+#: playlistmanager/PlaylistManager.cpp:278
 msgid "Downloading Playlist"
 msgstr "Speellys Aflaai"
 
