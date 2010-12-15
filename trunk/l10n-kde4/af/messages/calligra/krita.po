@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-14 03:07+0100\n"
+"POT-Creation-Date: 2010-12-15 02:52+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1911,7 +1911,7 @@ msgstr "Versadiging"
 #. i18n: ectx: property (text), widget (QRadioButton, lastUsedColorsAlignVertical)
 #. i18n: file: plugins/extensions/dockers/colorselectorng/wdg_color_selector_settings.ui:741
 #. i18n: ectx: property (text), widget (QRadioButton, commonColorsAlignVertical)
-#: rc.cpp:389 rc.cpp:425
+#: rc.cpp:389 rc.cpp:425 ui/tool/kis_tool_paint.cc:259
 #, fuzzy
 msgid "Vertical"
 msgstr "Driehoekvormige Golf"
@@ -11011,16 +11011,6 @@ msgstr "Verwyder Kanaal"
 msgid "Minimize Channel"
 msgstr "Verwyder Kanaal"
 
-#: plugins/filters/colorsfilters/colorsfilters.cpp:90
-#, fuzzy
-msgid "&Auto Contrast"
-msgstr "Hoeke:"
-
-#: plugins/filters/colorsfilters/colorsfilters.cpp:243
-#, fuzzy
-msgid "&Desaturate"
-msgstr "Versadiging"
-
 #: plugins/filters/colorsfilters/colorsfilters.h:52
 #, fuzzy
 msgid "Auto Contrast"
@@ -11046,7 +11036,17 @@ msgstr "Verlig Slegs"
 msgid "&HSV Adjustment..."
 msgstr "Kleur Modus"
 
-#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:381
+#: plugins/filters/colorsfilters/colorsfilters.cpp:90
+#, fuzzy
+msgid "&Auto Contrast"
+msgstr "Hoeke:"
+
+#: plugins/filters/colorsfilters/colorsfilters.cpp:244
+#, fuzzy
+msgid "&Desaturate"
+msgstr "Versadiging"
+
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:380
 #, fuzzy
 msgid "&Color Adjustment curves..."
 msgstr "Kleur Modus"
@@ -13714,16 +13714,6 @@ msgstr "Kwas"
 msgid "Decrease Brush Size"
 msgstr "Borsels"
 
-#: ui/tool/kis_tool_paint.cc:257
-#, fuzzy
-msgid "Mirror: "
-msgstr "Stoor Laag as Beeld..."
-
-#: ui/tool/kis_tool_paint.cc:259
-#, fuzzy
-msgid "Verical"
-msgstr "Driehoekvormige Golf"
-
 #: ui/tool/kis_tool_polyline_base.cpp:37
 #, fuzzy
 msgid "&Finish"
@@ -13732,6 +13722,11 @@ msgstr "Poligoon Program"
 #: ui/tool/kis_tool_select_base.cpp:45
 msgid "Selection"
 msgstr "Keuse"
+
+#: ui/tool/kis_tool_paint.cc:257
+#, fuzzy
+msgid "Mirror: "
+msgstr "Stoor Laag as Beeld..."
 
 #: ui/widgets/kis_channelflags_widget.cpp:39
 msgid ""
@@ -13779,6 +13774,10 @@ msgstr ""
 #, fuzzy
 msgid "No configuration options."
 msgstr "Hoeke:"
+
+#, fuzzy
+#~ msgid "Verical"
+#~ msgstr "Driehoekvormige Golf"
 
 #, fuzzy
 #~ msgid "Scale:"
