@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-12-28 02:23+0100\n"
+"POT-Creation-Date: 2010-12-29 02:30+0100\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -4020,144 +4020,6 @@ msgstr ""
 msgid "&Existing identities:"
 msgstr ""
 
-#: searchwindow.cpp:91
-#, fuzzy
-msgid "Find Messages"
-msgstr "Soek Boodskappe..."
-
-#: searchwindow.cpp:94
-#, fuzzy
-msgctxt "@action:button Search for messags"
-msgid "&Search"
-msgstr "Soek:"
-
-#: searchwindow.cpp:111
-msgid "Search in &all local folders"
-msgstr ""
-
-#: searchwindow.cpp:115
-msgid "Search &only in:"
-msgstr ""
-
-#: searchwindow.cpp:124
-msgid "I&nclude sub-folders"
-msgstr ""
-
-#: searchwindow.cpp:222
-msgid "Search folder &name:"
-msgstr ""
-
-#: searchwindow.cpp:236 searchwindow.cpp:452
-msgid "Last Search"
-msgstr ""
-
-#: searchwindow.cpp:246
-#, fuzzy
-msgid "Op&en Search Folder"
-msgstr "Versteekte Ontvangers"
-
-#: searchwindow.cpp:255
-#, fuzzy
-#| msgid "Open Message"
-msgid "Open &Message"
-msgstr "Maak Boodskap Oop"
-
-#: searchwindow.cpp:266
-msgid "AMiddleLengthText..."
-msgstr ""
-
-#: searchwindow.cpp:267
-#, fuzzy
-msgctxt "@info:status finished searching."
-msgid "Ready."
-msgstr "Ongelees"
-
-#: searchwindow.cpp:303 messageactions.cpp:70
-msgid "&Reply..."
-msgstr "Beantwoord..."
-
-#: searchwindow.cpp:307 messageactions.cpp:84
-msgid "Reply to &All..."
-msgstr "Beantwoord aan almal..."
-
-#: searchwindow.cpp:311 messageactions.cpp:91
-msgid "Reply to Mailing-&List..."
-msgstr "Beantwoord aan Pos-Lys..."
-
-#: searchwindow.cpp:315 messageactions.cpp:146
-msgctxt "Message->"
-msgid "&Forward"
-msgstr "Stuur aan"
-
-#: searchwindow.cpp:320
-#, fuzzy
-#| msgid "&Inline..."
-msgctxt "@action:inmenu Forward message inline."
-msgid "&Inline..."
-msgstr "Inlyn..."
-
-#: searchwindow.cpp:325
-msgctxt "Message->Forward->"
-msgid "As &Attachment..."
-msgstr "As aanhangsel..."
-
-#: searchwindow.cpp:339
-msgid "Save Attachments..."
-msgstr "Stoor Aanhangsels..."
-
-#: searchwindow.cpp:345
-msgid "Clear Selection"
-msgstr ""
-
-#: searchwindow.cpp:405
-#, fuzzy
-msgctxt "Search finished."
-msgid "Done"
-msgstr "Klaar"
-
-#: searchwindow.cpp:406 searchwindow.cpp:413
-#, kde-format
-msgid "%1 match"
-msgid_plural "%1 matches"
-msgstr[0] ""
-msgstr[1] ""
-
-#: searchwindow.cpp:408
-msgid "Search canceled"
-msgstr ""
-
-#: searchwindow.cpp:409
-#, fuzzy, kde-format
-msgid "%1 match so far"
-msgid_plural "%1 matches so far"
-msgstr[0] "1 boodskap, %2"
-msgstr[1] "%1 boodskappe, %2"
-
-#: searchwindow.cpp:414
-#, kde-format
-msgid "Searching in %1"
-msgstr ""
-
-#: searchwindow.cpp:642
-msgid ""
-"There was a problem renaming your search folder. A common reason for this is "
-"that another search folder with the same name already exists."
-msgstr ""
-
-#: searchwindow.cpp:748
-#, fuzzy, kde-format
-msgid "Copy Message"
-msgid_plural "Copy %1 Messages"
-msgstr[0] "Redigeer Boodksap"
-msgstr[1] "Redigeer Boodksap"
-
-#: searchwindow.cpp:751
-#, fuzzy, kde-format
-msgid "Cut Message"
-msgid_plural "Cut %1 Messages"
-msgstr[0] "Vee boodskappe uit"
-msgstr[1] "Vee boodskappe uit"
-
 #: simplestringlisteditor.cpp:58
 msgid "New entry:"
 msgstr ""
@@ -4295,9 +4157,21 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "Beantwoord"
 
+#: messageactions.cpp:70 searchwindow.cpp:303
+msgid "&Reply..."
+msgstr "Beantwoord..."
+
 #: messageactions.cpp:77
 msgid "Reply to A&uthor..."
 msgstr "Beantwoord aan Outeur..."
+
+#: messageactions.cpp:84 searchwindow.cpp:307
+msgid "Reply to &All..."
+msgstr "Beantwoord aan almal..."
+
+#: messageactions.cpp:91 searchwindow.cpp:311
+msgid "Reply to Mailing-&List..."
+msgstr "Beantwoord aan Pos-Lys..."
 
 #: messageactions.cpp:98
 msgid "Reply Without &Quote..."
@@ -4335,6 +4209,11 @@ msgstr "Redigeer Boodksap"
 #| msgid "Add Attachment..."
 msgid "Add Note..."
 msgstr "Voeg aangangesl by..."
+
+#: messageactions.cpp:146 searchwindow.cpp:315
+msgctxt "Message->"
+msgid "&Forward"
+msgstr "Stuur aan"
 
 #: messageactions.cpp:151
 #, fuzzy
@@ -4416,6 +4295,127 @@ msgstr "Pos"
 #, fuzzy
 msgid "Edit Note..."
 msgstr "Intekening..."
+
+#: searchwindow.cpp:91
+#, fuzzy
+msgid "Find Messages"
+msgstr "Soek Boodskappe..."
+
+#: searchwindow.cpp:94
+#, fuzzy
+msgctxt "@action:button Search for messags"
+msgid "&Search"
+msgstr "Soek:"
+
+#: searchwindow.cpp:111
+msgid "Search in &all local folders"
+msgstr ""
+
+#: searchwindow.cpp:115
+msgid "Search &only in:"
+msgstr ""
+
+#: searchwindow.cpp:124
+msgid "I&nclude sub-folders"
+msgstr ""
+
+#: searchwindow.cpp:222
+msgid "Search folder &name:"
+msgstr ""
+
+#: searchwindow.cpp:236 searchwindow.cpp:452
+msgid "Last Search"
+msgstr ""
+
+#: searchwindow.cpp:246
+#, fuzzy
+msgid "Op&en Search Folder"
+msgstr "Versteekte Ontvangers"
+
+#: searchwindow.cpp:255
+#, fuzzy
+#| msgid "Open Message"
+msgid "Open &Message"
+msgstr "Maak Boodskap Oop"
+
+#: searchwindow.cpp:266
+msgid "AMiddleLengthText..."
+msgstr ""
+
+#: searchwindow.cpp:267
+#, fuzzy
+msgctxt "@info:status finished searching."
+msgid "Ready."
+msgstr "Ongelees"
+
+#: searchwindow.cpp:320
+#, fuzzy
+#| msgid "&Inline..."
+msgctxt "@action:inmenu Forward message inline."
+msgid "&Inline..."
+msgstr "Inlyn..."
+
+#: searchwindow.cpp:325
+msgctxt "Message->Forward->"
+msgid "As &Attachment..."
+msgstr "As aanhangsel..."
+
+#: searchwindow.cpp:339
+msgid "Save Attachments..."
+msgstr "Stoor Aanhangsels..."
+
+#: searchwindow.cpp:345
+msgid "Clear Selection"
+msgstr ""
+
+#: searchwindow.cpp:405
+#, fuzzy
+msgctxt "Search finished."
+msgid "Done"
+msgstr "Klaar"
+
+#: searchwindow.cpp:406 searchwindow.cpp:413
+#, kde-format
+msgid "%1 match"
+msgid_plural "%1 matches"
+msgstr[0] ""
+msgstr[1] ""
+
+#: searchwindow.cpp:408
+msgid "Search canceled"
+msgstr ""
+
+#: searchwindow.cpp:409
+#, fuzzy, kde-format
+msgid "%1 match so far"
+msgid_plural "%1 matches so far"
+msgstr[0] "1 boodskap, %2"
+msgstr[1] "%1 boodskappe, %2"
+
+#: searchwindow.cpp:414
+#, kde-format
+msgid "Searching in %1"
+msgstr ""
+
+#: searchwindow.cpp:651
+msgid ""
+"There was a problem renaming your search folder. A common reason for this is "
+"that another search folder with the same name already exists."
+msgstr ""
+
+#: searchwindow.cpp:757
+#, fuzzy, kde-format
+msgid "Copy Message"
+msgid_plural "Copy %1 Messages"
+msgstr[0] "Redigeer Boodksap"
+msgstr[1] "Redigeer Boodksap"
+
+#: searchwindow.cpp:760
+#, fuzzy, kde-format
+msgid "Cut Message"
+msgid_plural "Cut %1 Messages"
+msgstr[0] "Vee boodskappe uit"
+msgstr[1] "Vee boodskappe uit"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
