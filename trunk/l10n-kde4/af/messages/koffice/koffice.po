@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:38+0100\n"
+"POT-Creation-Date: 2011-02-04 02:57+0100\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -93,10 +93,6 @@ msgstr "Verander Tabel-vormer"
 msgid "Convert to Path"
 msgstr "Skakel om na Grieks"
 
-#: flake/commands/KoPathBreakAtPointCommand.cpp:38
-msgid "Break Subpath at Points"
-msgstr ""
-
 #: flake/commands/KoPathCombineCommand.cpp:58
 #, fuzzy
 msgid "Combine paths"
@@ -110,6 +106,18 @@ msgstr "Verander Oplyn"
 #: flake/commands/KoPathFillRuleCommand.cpp:44
 msgid "Set Fill Rule"
 msgstr ""
+
+#: flake/commands/KoShapeGroupCommand.cpp:93
+#, fuzzy
+#| msgid "Current Section"
+msgid "Group Shapes"
+msgstr "Huidige Seksie"
+
+#: flake/commands/KoShapeGroupCommand.cpp:95
+#, fuzzy
+#| msgid "Add Group"
+msgid "Add Shapes to Group"
+msgstr "Voeg by Groep"
 
 #: flake/commands/KoPathPointMergeCommand.cpp:152
 #, fuzzy
@@ -197,18 +205,6 @@ msgstr "Uitvee Teks"
 msgid "Distribute Shapes"
 msgstr "Skep Werkvoorbeeld"
 
-#: flake/commands/KoShapeGroupCommand.cpp:93
-#, fuzzy
-#| msgid "Current Section"
-msgid "Group Shapes"
-msgstr "Huidige Seksie"
-
-#: flake/commands/KoShapeGroupCommand.cpp:95
-#, fuzzy
-#| msgid "Add Group"
-msgid "Add Shapes to Group"
-msgstr "Voeg by Groep"
-
 #: flake/commands/KoShapeKeepAspectRatioCommand.cpp:40
 msgid "Keep Aspect Ratio"
 msgstr ""
@@ -271,6 +267,10 @@ msgstr "Pasmaak Petroon"
 msgid "Remove Subpath"
 msgstr "Verwyder Groep"
 
+#: flake/commands/KoPathBreakAtPointCommand.cpp:38
+msgid "Break Subpath at Points"
+msgstr ""
+
 #: flake/tools/KoCreatePathTool.cpp:369 flake/tools/KoPathTool.cpp:181
 msgid "Snapping"
 msgstr ""
@@ -299,12 +299,6 @@ msgstr "Open Dokument"
 #, fuzzy
 msgid "Pan"
 msgstr "Tan"
-
-#: flake/tools/KoPathSegmentChangeStrategy.cpp:145
-#, fuzzy
-#| msgid "Change Alignment"
-msgid "Change Segment"
-msgstr "Verander Oplyn"
 
 #: flake/tools/KoPathTool.cpp:87
 #, fuzzy
@@ -404,6 +398,12 @@ msgstr ""
 #: widgets/KoZoomController.cpp:38 widgets/KoZoomInput.cpp:52
 msgid "Zoom"
 msgstr ""
+
+#: flake/tools/KoPathSegmentChangeStrategy.cpp:145
+#, fuzzy
+#| msgid "Change Alignment"
+msgid "Change Segment"
+msgstr "Verander Oplyn"
 
 #: kokross/KoScriptManager.cpp:177
 msgid "Install Script Package"
@@ -702,11 +702,6 @@ msgstr "Maatskappy"
 msgid "Paste"
 msgstr "Datum"
 
-#: kopageapp/KoPAPageThumbnailModel.cpp:69
-#, fuzzy, kde-format
-msgid "Page %1"
-msgstr "Datum"
-
 #: kopageapp/KoPAPastePage.cpp:132
 #, fuzzy
 #| msgid "Paste Text"
@@ -985,6 +980,11 @@ msgstr "Formatering Opsies"
 msgid "Change background image"
 msgstr "Tweede"
 
+#: kopageapp/KoPAPageThumbnailModel.cpp:69
+#, fuzzy, kde-format
+msgid "Page %1"
+msgstr "Datum"
+
 #: kotext/InsertTextLocator.cpp:29
 msgid "Index Reference"
 msgstr ""
@@ -1033,23 +1033,6 @@ msgstr[1] "Vervang Teks"
 #| msgid "Re&place 1/2... with %1..."
 msgid "Replace %1 with %2?"
 msgstr "Vervang 1/2... met %1..."
-
-#: kotext/KoText.cpp:29
-msgctxt "Underline Style"
-msgid "None"
-msgstr ""
-
-#: kotext/KoText.cpp:30
-#, fuzzy
-msgctxt "Underline Style"
-msgid "Single"
-msgstr "Enkel"
-
-#: kotext/KoText.cpp:31
-#, fuzzy
-msgctxt "Underline Style"
-msgid "Double"
-msgstr "Dubbel"
 
 #: kotext/KoTextEditor.cpp:105 kotext/KoTextEditor.cpp:161
 #: kotext/KoTextEditor.cpp:319 widgets/KoCsvImportDialog.cpp:216
@@ -1200,6 +1183,23 @@ msgstr "Verander Grense"
 #, fuzzy
 msgid "Format"
 msgstr "Datum Formaat"
+
+#: kotext/KoText.cpp:47
+msgctxt "Underline Style"
+msgid "None"
+msgstr ""
+
+#: kotext/KoText.cpp:48
+#, fuzzy
+msgctxt "Underline Style"
+msgid "Single"
+msgstr "Enkel"
+
+#: kotext/KoText.cpp:49
+#, fuzzy
+msgctxt "Underline Style"
+msgid "Double"
+msgstr "Dubbel"
 
 #: main/KoApplication.cpp:77
 msgid "Only print and exit"
@@ -1534,7 +1534,7 @@ msgstr ""
 msgid "a drawing"
 msgstr "Donker Oranje"
 
-#: main/KoDocument.cpp:2504
+#: main/KoDocument.cpp:2499
 #, fuzzy
 msgid "Embedding Object"
 msgstr "Kon nie las prent."
@@ -2734,10 +2734,6 @@ msgstr ""
 msgid "b*"
 msgstr ""
 
-#: pigment/KoBasicHistogramProducers.h:231
-msgid "Generic L*a*b* Histogram"
-msgstr ""
-
 #: pigment/KoColorModelStandardIds.cpp:25
 #: pigment/colorspaces/KoAlphaColorSpace.cpp:261
 #: pigment/colorspaces/KoLabColorSpace.cpp:44
@@ -2899,10 +2895,6 @@ msgstr ""
 msgid "Simple Color Conversion Engine"
 msgstr ""
 
-#: pigment/compositeops/KoCompositeOpAlphaDarken.h:42
-msgid "Alpha darken"
-msgstr ""
-
 #: pigment/compositeops/KoCompositeOpBurn.h:36
 #, fuzzy
 msgid "Burn"
@@ -2950,8 +2942,16 @@ msgstr "Skerm"
 msgid "Soft light"
 msgstr "Enkel"
 
+#: pigment/compositeops/KoCompositeOpAlphaDarken.h:42
+msgid "Alpha darken"
+msgstr ""
+
 #: pigment/resources/KoStopGradient.cpp:421
 msgid "SVG Gradient"
+msgstr ""
+
+#: pigment/KoBasicHistogramProducers.h:231
+msgid "Generic L*a*b* Histogram"
 msgstr ""
 
 #: widgets/KoColorPopupAction.cpp:85 widgets/KoUniColorChooser.cpp:418
