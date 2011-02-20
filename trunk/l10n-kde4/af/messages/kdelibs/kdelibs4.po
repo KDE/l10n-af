@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-15 03:32+0100\n"
+"POT-Creation-Date: 2011-02-20 03:34+0100\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -6648,7 +6648,7 @@ msgid "Reset Toolbars"
 msgstr "Herstel Nutsbalke"
 
 #: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2811
-#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1836
+#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1839
 msgid "Reset"
 msgstr "Herstel"
 
@@ -11563,7 +11563,7 @@ msgid "Access Keys activated"
 msgstr "Toegang Sleutels geaktiveer"
 
 #: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4761
-#: khtml/html/html_formimpl.cpp:1632 khtml/html/html_formimpl.cpp:1844
+#: khtml/html/html_formimpl.cpp:1635 khtml/html/html_formimpl.cpp:1847
 msgid "Submit"
 msgstr "Stuur in"
 
@@ -12221,37 +12221,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "Skrip"
 
-#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1650
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2174
 msgid "Confirmation: JavaScript Popup"
 msgstr "Bevestiging: JavaScript Opspring"
-
-#: khtml/ecma/kjs_html.cpp:2170
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Hierdie tuiste stuur 'n vorm in wat 'n nuwe blaaier venster via JavaScript "
-"gaan oopmaak.\n"
-"Wil jy toelaat dat die vorm ingestuur word?"
-
-#: khtml/ecma/kjs_html.cpp:2173
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"Hierdie tuiste stuur 'n vorm in wat <p>%1</p> 'n nuwe blaaier venster via "
-"JavaScript gaan oopmaak.<br>Wil jy dit toelaat?"
-
-#: khtml/ecma/kjs_html.cpp:2175 khtml/ecma/kjs_window.cpp:1658
-msgid "Allow"
-msgstr "Toelaat"
-
-#: khtml/ecma/kjs_html.cpp:2175 khtml/ecma/kjs_window.cpp:1658
-msgid "Do Not Allow"
-msgstr "Moenie toelaat nie"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -12269,6 +12241,14 @@ msgid ""
 msgstr ""
 "<qt>Hierdie tuiste probeer <p>%1</p> in 'n nuwe blaaier venster oopmaak via "
 "JavaScript.Wil jy dit toelaat?</qt>"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+msgid "Allow"
+msgstr "Toelaat"
+
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+msgid "Do Not Allow"
+msgstr "Moenie toelaat nie"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -12303,6 +12283,26 @@ msgstr "Insert"
 #: khtml/ecma/kjs_window.cpp:2883
 msgid "Disallow"
 msgstr "Weier"
+
+#: khtml/ecma/kjs_html.cpp:2176
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Hierdie tuiste stuur 'n vorm in wat 'n nuwe blaaier venster via JavaScript "
+"gaan oopmaak.\n"
+"Wil jy toelaat dat die vorm ingestuur word?"
+
+#: khtml/ecma/kjs_html.cpp:2179
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"Hierdie tuiste stuur 'n vorm in wat <p>%1</p> 'n nuwe blaaier venster via "
+"JavaScript gaan oopmaak.<br>Wil jy dit toelaat?"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 #, fuzzy
@@ -12452,6 +12452,31 @@ msgstr "Installeer"
 msgid "Line"
 msgstr "Lyn begin"
 
+#: khtml/html/html_objectimpl.cpp:610
+#, kde-format
+msgid ""
+"No plugin found for '%1'.\n"
+"Do you want to download one from %2?"
+msgstr ""
+"Geen inprop module gevind vir '%1'.\n"
+"Wil jy een aflaai vanaf %2?"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Missing Plugin"
+msgstr "Kort Inprop Module"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Download"
+msgstr "Aflaai"
+
+#: khtml/html/html_objectimpl.cpp:611
+msgid "Do Not Download"
+msgstr "Moenie aflaai"
+
+#: khtml/html/htmlparser.cpp:1938
+msgid "This is a searchable index. Enter search keywords: "
+msgstr "Hierdie is 'n soekbare indeks. Invoer soektog sleutelwoorde: "
+
 #: khtml/html/html_formimpl.cpp:422
 msgid ""
 "The following files will not be uploaded because they could not be found.\n"
@@ -12491,36 +12516,11 @@ msgid_plural "&Send Files"
 msgstr[0] "Stuur Lêers"
 msgstr[1] "Stuur Lêers"
 
-#: khtml/html/html_formimpl.cpp:2688
+#: khtml/html/html_formimpl.cpp:2701
 #, fuzzy
 #| msgid "General"
 msgid "Key Generator"
 msgstr "Algemeen"
-
-#: khtml/html/html_objectimpl.cpp:610
-#, kde-format
-msgid ""
-"No plugin found for '%1'.\n"
-"Do you want to download one from %2?"
-msgstr ""
-"Geen inprop module gevind vir '%1'.\n"
-"Wil jy een aflaai vanaf %2?"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Missing Plugin"
-msgstr "Kort Inprop Module"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Download"
-msgstr "Aflaai"
-
-#: khtml/html/html_objectimpl.cpp:611
-msgid "Do Not Download"
-msgstr "Moenie aflaai"
-
-#: khtml/html/htmlparser.cpp:1938
-msgid "This is a searchable index. Enter search keywords: "
-msgstr "Hierdie is 'n soekbare indeks. Invoer soektog sleutelwoorde: "
 
 #: khtml/java/kjavaapplet.cpp:224
 #, kde-format
