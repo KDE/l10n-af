@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-05 04:03+0100\n"
+"POT-Creation-Date: 2011-03-09 03:50+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -112,7 +112,7 @@ msgstr ""
 msgid "Timothée Lacroix "
 msgstr ""
 
-#: part/SCDocument.cpp:399
+#: part/SCDocument.cpp:390
 msgid "Installation Error"
 msgstr ""
 
@@ -363,13 +363,6 @@ msgstr ""
 msgid "Blackscreen on the presentation..."
 msgstr ""
 
-#: part/SCViewModeSlidesSorter.cpp:293 part/ui/SCCustomSlideShowsDialog.cpp:82
-#: part/ui/SCCustomSlideShowsDialog.cpp:239
-#: part/ui/SCCustomSlideShowsDialog.cpp:257 part/ui/SCHtmlExportDialog.cpp:119
-#, kde-format
-msgid "Slide %1"
-msgstr "Skuif %1"
-
 #: part/commands/SCAnimationCreateCommand.cpp:34
 #, fuzzy
 #| msgid "Create HTML Presentation"
@@ -409,25 +402,6 @@ msgstr "Lêer na open"
 msgid "Set Layout"
 msgstr "Bladsy Uitleg..."
 
-#: part/tools/SCAnimationTool.cpp:85
-#, fuzzy
-msgid "Transitions"
-msgstr "Skuif Titel"
-
-#: part/tools/SCAnimationTool.cpp:86
-msgid "Click Actions"
-msgstr ""
-
-#: part/tools/SCAnimationTool.cpp:87
-msgid "Not implemented in 2.0"
-msgstr ""
-
-#: part/tools/SCAnimationTool.cpp:90
-#, fuzzy
-#| msgid "Create HTML Presentation"
-msgid "Shape Animation"
-msgstr "Skep Html Aanbieding"
-
 #: part/tools/SCAnimationToolFactory.cpp:32
 msgid "Animation tool"
 msgstr ""
@@ -450,6 +424,25 @@ msgstr "Vorm"
 #: part/tools/SCPlaceholderToolFactory.cpp:28
 msgid "Layout Tool"
 msgstr ""
+
+#: part/tools/SCAnimationTool.cpp:85
+#, fuzzy
+msgid "Transitions"
+msgstr "Skuif Titel"
+
+#: part/tools/SCAnimationTool.cpp:86
+msgid "Click Actions"
+msgstr ""
+
+#: part/tools/SCAnimationTool.cpp:87
+msgid "Not implemented in 2.0"
+msgstr ""
+
+#: part/tools/SCAnimationTool.cpp:90
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgid "Shape Animation"
+msgstr "Skep Html Aanbieding"
 
 #: part/ui/SCConfigurePresenterViewDialog.cpp:42
 #, kde-format
@@ -480,36 +473,6 @@ msgstr "Alle lêers"
 msgid "Configure Slide Show"
 msgstr "Skyfievertoning"
 
-#: part/ui/SCCustomSlideShowsDialog.cpp:96
-#: part/ui/SCCustomSlideShowsDialog.cpp:100
-#: part/ui/SCCustomSlideShowsDialog.cpp:102
-#: part/ui/SCCustomSlideShowsDialog.cpp:107
-#, fuzzy, kde-format
-msgid "New Slide Show %1"
-msgstr "Skyfievertoning"
-
-#: part/ui/SCCustomSlideShowsDialog.cpp:133
-msgid "There cannot be two slideshows with the same name."
-msgstr ""
-
-#: part/ui/SCCustomSlideShowsDialog.cpp:133 part/ui/SCHtmlExportDialog.cpp:158
-#: part/ui/SCHtmlExportDialog.cpp:210
-#, fuzzy
-#| msgid "Arrow"
-msgid "Error"
-msgstr "Pyl"
-
-#: part/ui/SCCustomSlideShowsDialog.cpp:148
-#, fuzzy
-msgid "Are you sure you want to delete the selected slide show?"
-msgstr "Doen jy wil hê na verwyder die huidige bladsy?"
-
-#: part/ui/SCCustomSlideShowsDialog.cpp:148
-#, fuzzy
-#| msgid "Save Configuration..."
-msgid "Confirm action"
-msgstr "Stoor Opstelling..."
-
 #: part/ui/SCHtmlExportDialog.cpp:44
 msgid "Html Export"
 msgstr ""
@@ -517,6 +480,21 @@ msgstr ""
 #: part/ui/SCHtmlExportDialog.cpp:45
 msgid "Export"
 msgstr ""
+
+#: part/ui/SCHtmlExportDialog.cpp:119 part/ui/SCCustomSlideShowsDialog.cpp:82
+#: part/ui/SCCustomSlideShowsDialog.cpp:239
+#: part/ui/SCCustomSlideShowsDialog.cpp:257
+#: part/SCViewModeSlidesSorter.cpp:293
+#, kde-format
+msgid "Slide %1"
+msgstr "Skuif %1"
+
+#: part/ui/SCHtmlExportDialog.cpp:158 part/ui/SCHtmlExportDialog.cpp:210
+#: part/ui/SCCustomSlideShowsDialog.cpp:133
+#, fuzzy
+#| msgid "Arrow"
+msgid "Error"
+msgstr "Pyl"
 
 #: part/ui/SCHtmlExportDialog.cpp:158
 msgid "There is already a favorite file with this name"
@@ -553,6 +531,29 @@ msgstr "Stoor Opstelling..."
 #, fuzzy, kde-format
 msgid "Are you sure you want to remove \"%1\"?"
 msgstr "Doen jy wil hê na verwyder die huidige bladsy?"
+
+#: part/ui/SCCustomSlideShowsDialog.cpp:96
+#: part/ui/SCCustomSlideShowsDialog.cpp:100
+#: part/ui/SCCustomSlideShowsDialog.cpp:102
+#: part/ui/SCCustomSlideShowsDialog.cpp:107
+#, fuzzy, kde-format
+msgid "New Slide Show %1"
+msgstr "Skyfievertoning"
+
+#: part/ui/SCCustomSlideShowsDialog.cpp:133
+msgid "There cannot be two slideshows with the same name."
+msgstr ""
+
+#: part/ui/SCCustomSlideShowsDialog.cpp:148
+#, fuzzy
+msgid "Are you sure you want to delete the selected slide show?"
+msgstr "Doen jy wil hê na verwyder die huidige bladsy?"
+
+#: part/ui/SCCustomSlideShowsDialog.cpp:148
+#, fuzzy
+#| msgid "Save Configuration..."
+msgid "Confirm action"
+msgstr "Stoor Opstelling..."
 
 #: plugins/eventactions/sound/SCSoundEventActionWidget.cpp:94
 #, fuzzy
