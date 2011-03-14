@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-04 02:58+0100\n"
+"POT-Creation-Date: 2011-03-14 03:16+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -92,47 +92,47 @@ msgstr "Voorwerp"
 msgid "&Distribute"
 msgstr ""
 
-#. i18n: file: data/karbon.rc:108
+#. i18n: file: data/karbon.rc:110
 #. i18n: ectx: Menu (path)
 #: rc.cpp:32
 #, fuzzy
 msgid "&Path"
 msgstr "pt"
 
-#. i18n: file: data/karbon.rc:122
+#. i18n: file: data/karbon.rc:124
 #. i18n: ectx: Menu (effects)
 #: rc.cpp:35
 msgid "Effe&cts"
 msgstr ""
 
-#. i18n: file: data/karbon.rc:124
+#. i18n: file: data/karbon.rc:126
 #. i18n: ectx: Menu (settings)
 #: rc.cpp:38
 #, fuzzy
 msgid "&Settings"
 msgstr "Dokument Instellings"
 
-#. i18n: file: data/karbon.rc:132
+#. i18n: file: data/karbon.rc:134
 #. i18n: ectx: ToolBar (edit_toolbar)
 #: rc.cpp:41
 msgid "Edit"
 msgstr ""
 
-#. i18n: file: data/karbon.rc:142
+#. i18n: file: data/karbon.rc:144
 #. i18n: ectx: ToolBar (object_toolbar)
 #: rc.cpp:44
 #, fuzzy
 msgid "Object"
 msgstr "Voorwerp"
 
-#. i18n: file: data/karbon.rc:151
+#. i18n: file: data/karbon.rc:153
 #. i18n: ectx: ToolBar (align_toolbar)
 #: rc.cpp:47
 #, fuzzy
 msgid "Align"
 msgstr "Opvul Objekte"
 
-#. i18n: file: data/karbon.rc:160
+#. i18n: file: data/karbon.rc:162
 #. i18n: ectx: ToolBar (Effects)
 #: rc.cpp:50
 msgid "Effects"
@@ -149,7 +149,7 @@ msgstr ""
 msgid "Master Page"
 msgstr "Voeg by Driehoek"
 
-#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:697
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:750
 msgid "Boolean Operation"
 msgstr "Bools Operasie"
 
@@ -612,7 +612,7 @@ msgstr ""
 msgid "Helpful patches and advice"
 msgstr ""
 
-#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:468
+#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:472
 #, fuzzy
 #| msgid "Insert Ellipse"
 msgid "Insert graphics"
@@ -798,7 +798,22 @@ msgctxt "The opacity of the shape"
 msgid "Opacity"
 msgstr "Ondeursigtigheid"
 
-#: ui/dockers/KarbonLayerModel.cpp:464 ui/dockers/KarbonLayerModel.cpp:484
+#: ui/dockers/KarbonLayerModel.cpp:269
+msgctxt "Clipped state of the shape"
+msgid "Clipped"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:269
+#, fuzzy
+#| msgid "Style:"
+msgid "yes"
+msgstr "Styl:"
+
+#: ui/dockers/KarbonLayerModel.cpp:269
+msgid "no"
+msgstr ""
+
+#: ui/dockers/KarbonLayerModel.cpp:465 ui/dockers/KarbonLayerModel.cpp:485
 msgid "Reparent shapes"
 msgstr ""
 
@@ -967,172 +982,184 @@ msgstr "Kies kleur"
 msgid "Fill:"
 msgstr "Opvul"
 
-#: ui/KarbonView.cpp:397
+#: ui/KarbonView.cpp:401
 #, fuzzy
 msgid "Choose Graphic to Add"
 msgstr "Kies kleur"
 
-#: ui/KarbonView.cpp:439
+#: ui/KarbonView.cpp:443
 msgid "Could not load image."
 msgstr ""
 
-#: ui/KarbonView.cpp:439 ui/KarbonView.cpp:444 ui/KarbonView.cpp:451
+#: ui/KarbonView.cpp:443 ui/KarbonView.cpp:448 ui/KarbonView.cpp:455
 #, fuzzy
 msgid "Import graphic"
 msgstr "In voer"
 
-#: ui/KarbonView.cpp:444 ui/KarbonView.cpp:451
+#: ui/KarbonView.cpp:448 ui/KarbonView.cpp:455
 msgid "Could not create image shape."
 msgstr ""
 
-#: ui/KarbonView.cpp:808
+#: ui/KarbonView.cpp:861
 #, fuzzy
 #| msgid "View &Mode"
 msgid "Outline &Mode"
 msgstr "Besigtig Modus"
 
-#: ui/KarbonView.cpp:812
+#: ui/KarbonView.cpp:865
 msgid "Show Page Margins"
 msgstr ""
 
-#: ui/KarbonView.cpp:815
+#: ui/KarbonView.cpp:868
 msgid "Hide Page Margins"
 msgstr ""
 
-#: ui/KarbonView.cpp:831
+#: ui/KarbonView.cpp:884
 #, fuzzy
 msgid "&Import Graphic..."
 msgstr "In voer"
 
-#: ui/KarbonView.cpp:835
+#: ui/KarbonView.cpp:888
 msgid "D&elete"
 msgstr "Uitvee"
 
-#: ui/KarbonView.cpp:843
+#: ui/KarbonView.cpp:896
 #, fuzzy
 #| msgid "&Duplicate"
 msgctxt "Duplicate selection"
 msgid "&Duplicate"
 msgstr "Duplikaat"
 
-#: ui/KarbonView.cpp:848
+#: ui/KarbonView.cpp:901
 #, fuzzy
 msgid "Distribute Center (Horizontal)"
 msgstr "Relatiewe sentrum"
 
-#: ui/KarbonView.cpp:852
+#: ui/KarbonView.cpp:905
 #, fuzzy
 msgid "Distribute Gaps (Horizontal)"
 msgstr "Relatiewe sentrum"
 
-#: ui/KarbonView.cpp:856
+#: ui/KarbonView.cpp:909
 #, fuzzy
 msgid "Distribute Left Borders"
 msgstr "Uitvee Objekte"
 
-#: ui/KarbonView.cpp:860
+#: ui/KarbonView.cpp:913
 #, fuzzy
 msgid "Distribute Right Borders"
 msgstr "Uitvee Objekte"
 
-#: ui/KarbonView.cpp:864
+#: ui/KarbonView.cpp:917
 #, fuzzy
 msgid "Distribute Center (Vertical)"
 msgstr "Relatiewe sentrum"
 
-#: ui/KarbonView.cpp:868
+#: ui/KarbonView.cpp:921
 #, fuzzy
 msgid "Distribute Gaps (Vertical)"
 msgstr "Relatiewe sentrum"
 
-#: ui/KarbonView.cpp:872
+#: ui/KarbonView.cpp:925
 #, fuzzy
 msgid "Distribute Bottom Borders"
 msgstr "Uitvee Objekte"
 
-#: ui/KarbonView.cpp:876
+#: ui/KarbonView.cpp:929
 #, fuzzy
 msgid "Distribute Top Borders"
 msgstr "Uitvee Objekte"
 
-#: ui/KarbonView.cpp:880
+#: ui/KarbonView.cpp:933
 msgid "Show Rulers"
 msgstr ""
 
-#: ui/KarbonView.cpp:882
+#: ui/KarbonView.cpp:935
 msgid "Hide Rulers"
 msgstr ""
 
-#: ui/KarbonView.cpp:883
+#: ui/KarbonView.cpp:936
 msgid "Shows or hides rulers"
 msgstr ""
 
-#: ui/KarbonView.cpp:894
+#: ui/KarbonView.cpp:947
 msgid "Snap to Grid"
 msgstr ""
 
-#: ui/KarbonView.cpp:896
+#: ui/KarbonView.cpp:949
 msgid "Snaps to grid"
 msgstr ""
 
-#: ui/KarbonView.cpp:911
+#: ui/KarbonView.cpp:961
+#, fuzzy
+#| msgid "&Object"
+msgid "&Clip Object"
+msgstr "Voorwerp"
+
+#: ui/KarbonView.cpp:965
+#, fuzzy
+#| msgid "&Ungroup Objects"
+msgid "&Unclip Objects"
+msgstr "Ontgroep Objekte"
+
+#: ui/KarbonView.cpp:972
 #, fuzzy
 msgid "&Close Path"
 msgstr "Kies kleur"
 
-#: ui/KarbonView.cpp:917
+#: ui/KarbonView.cpp:978
 #, fuzzy
 msgid "Com&bine Path"
 msgstr "Kies kleur"
 
-#: ui/KarbonView.cpp:923
+#: ui/KarbonView.cpp:984
 #, fuzzy
 msgid "Se&parate Path"
 msgstr "Platheid:"
 
-#: ui/KarbonView.cpp:929
+#: ui/KarbonView.cpp:990
 #, fuzzy
 msgid "Re&verse Path"
 msgstr "Kies kleur"
 
-#: ui/KarbonView.cpp:935
+#: ui/KarbonView.cpp:996
 #, fuzzy
 msgid "Intersect Paths"
 msgstr "Platheid:"
 
-#: ui/KarbonView.cpp:941
+#: ui/KarbonView.cpp:1002
 #, fuzzy
 msgid "Subtract Paths"
 msgstr "Platheid:"
 
-#: ui/KarbonView.cpp:947
+#: ui/KarbonView.cpp:1008
 #, fuzzy
 msgid "Unite Paths"
 msgstr "Platheid:"
 
-#: ui/KarbonView.cpp:953
+#: ui/KarbonView.cpp:1014
 msgid "Exclude Paths"
 msgstr ""
 
-#: ui/KarbonView.cpp:959
+#: ui/KarbonView.cpp:1020
 msgid "Snap Path to Grid"
 msgstr ""
 
-#: ui/KarbonView.cpp:966
+#: ui/KarbonView.cpp:1027
 msgid "Configure Karbon..."
 msgstr "Konfigureer Karbon..."
 
-#: ui/KarbonView.cpp:970
+#: ui/KarbonView.cpp:1031
 #, fuzzy
 msgid "Page &Layout..."
 msgstr "Konfigureer Karbon..."
 
-#: ui/KarbonView.cpp:975
+#: ui/KarbonView.cpp:1036
 #, fuzzy
 msgid "Zoom to Selection"
 msgstr "Keuse Modus"
 
-#: ui/KarbonView.cpp:979
+#: ui/KarbonView.cpp:1040
 #, fuzzy
 msgid "Zoom to Drawing"
 msgstr "Keuse Modus"
@@ -1168,9 +1195,6 @@ msgstr "Keuse Modus"
 
 #~ msgid "&Group Objects"
 #~ msgstr "Groep Objekte"
-
-#~ msgid "&Ungroup Objects"
-#~ msgstr "Ontgroep Objekte"
 
 #~ msgid "Auto save (min):"
 #~ msgstr "Outo stoor (min):"
@@ -1210,11 +1234,6 @@ msgstr "Keuse Modus"
 
 #~ msgid "H:"
 #~ msgstr "H:"
-
-#, fuzzy
-#~| msgid "Style:"
-#~ msgid "Styles"
-#~ msgstr "Styl:"
 
 #~ msgid "Edit Gradient"
 #~ msgstr "Redigeer Gradiënt"
