@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalzium VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-04-15 03:48+0200\n"
+"POT-Creation-Date: 2011-04-20 03:49+0200\n"
 "PO-Revision-Date: 2002-11-07 11:30+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -2422,7 +2422,7 @@ msgstr "Blaas"
 
 #. i18n: file: src/gradientwidget.ui:99
 #. i18n: ectx: property (text), widget (QLabel, lblUnit)
-#: rc.cpp:1126 src/elementdataviewer.cpp:241 src/elementdataviewer.cpp:248
+#: rc.cpp:1126
 msgid "K"
 msgstr ""
 
@@ -2752,8 +2752,8 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_x)
 #. i18n: file: src/plotsetupwidget.ui:268
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
-#: rc.cpp:1281 rc.cpp:1320 src/elementdataviewer.cpp:221
-#: src/exportdialog.cpp:122
+#: rc.cpp:1281 rc.cpp:1320 src/exportdialog.cpp:122
+#: src/elementdataviewer.cpp:222
 #, fuzzy
 msgid "Atomic Number"
 msgstr "Naam:"
@@ -2765,7 +2765,7 @@ msgstr "Naam:"
 #. i18n: file: src/settings_gradients.ui:95
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicElectronegativityGradient)
 #: rc.cpp:1287 rc.cpp:1326 rc.cpp:1556 src/detailinfodlg.cpp:263
-#: src/elementdataviewer.cpp:234 src/exportdialog.cpp:129
+#: src/exportdialog.cpp:129 src/elementdataviewer.cpp:234
 #, fuzzy
 msgid "Electronegativity"
 msgstr "Elektronegatiwiteit:"
@@ -2778,6 +2778,7 @@ msgstr "Elektronegatiwiteit:"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicMeltingPointGradient)
 #: rc.cpp:1290 rc.cpp:1329 rc.cpp:1553 src/detailinfodlg.cpp:207
 #: src/exportdialog.cpp:132 src/kalziumgradienttype.cpp:393
+#: src/elementdataviewer.cpp:240
 #, fuzzy
 msgid "Melting Point"
 msgstr "Smelt punt:"
@@ -2790,6 +2791,7 @@ msgstr "Smelt punt:"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicBoilingPointGradient)
 #: rc.cpp:1293 rc.cpp:1332 rc.cpp:1550 src/detailinfodlg.cpp:214
 #: src/exportdialog.cpp:133 src/kalziumgradienttype.cpp:337
+#: src/elementdataviewer.cpp:247
 #, fuzzy
 msgid "Boiling Point"
 msgstr "Kook punt:"
@@ -2803,6 +2805,7 @@ msgstr "Kook punt:"
 #. i18n: file: data/knowledge.xml:266
 #. i18n: file: data/knowledge.xml:278
 #: rc.cpp:1296 rc.cpp:1335 rc.cpp:2371 rc.cpp:2381 rc.cpp:2385 rc.cpp:2399
+#: src/elementdataviewer.cpp:254
 #, fuzzy
 msgid "Atomic Radius"
 msgstr "Atomic radius:"
@@ -2819,7 +2822,7 @@ msgstr "Atomic radius:"
 #. i18n: file: data/knowledge.xml:275
 #: rc.cpp:1299 rc.cpp:1338 rc.cpp:1541 rc.cpp:2369 rc.cpp:2379 rc.cpp:2389
 #: rc.cpp:2395 src/detailinfodlg.cpp:235 src/exportdialog.cpp:130
-#: src/kalziumgradienttype.cpp:169
+#: src/kalziumgradienttype.cpp:169 src/elementdataviewer.cpp:261
 msgid "Covalent Radius"
 msgstr ""
 
@@ -4694,7 +4697,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file: data/knowledge.xml:131
-#: rc.cpp:2248 src/kalziumgradienttype.cpp:284
+#: rc.cpp:2248 src/kalziumgradienttype.cpp:284 src/elementdataviewer.cpp:228
 #, fuzzy
 msgid "Atomic Mass"
 msgstr "Atomic radius:"
@@ -7359,43 +7362,6 @@ msgstr ""
 msgid "No spectrum of %1 found."
 msgstr ""
 
-#: src/elementdataviewer.cpp:51
-msgid "Plot Data"
-msgstr ""
-
-#: src/elementdataviewer.cpp:227
-#, fuzzy
-msgid "Atomic Mass [u]"
-msgstr "Atomic radius:"
-
-#: src/elementdataviewer.cpp:228 src/kalziumgradienttype.cpp:296
-msgid "u"
-msgstr ""
-
-#: src/elementdataviewer.cpp:240
-#, fuzzy
-msgid "Melting Point [K]"
-msgstr "Smelt punt:"
-
-#: src/elementdataviewer.cpp:247
-#, fuzzy
-msgid "Boiling Point [K]"
-msgstr "Kook punt:"
-
-#: src/elementdataviewer.cpp:254
-#, fuzzy
-msgid "Atomic Radius [pm]"
-msgstr "Atomic radius:"
-
-#: src/elementdataviewer.cpp:255 src/elementdataviewer.cpp:262
-msgid "pm"
-msgstr ""
-
-#: src/elementdataviewer.cpp:261
-#, fuzzy
-msgid "Covalent Radius [pm]"
-msgstr "Atomic radius:"
-
 #: src/eqchemview.cpp:66
 msgid "Solve Chemical Equations Viewer"
 msgstr ""
@@ -9421,6 +9387,10 @@ msgstr ""
 msgid "van Der Waals"
 msgstr "Atomic radius:"
 
+#: src/kalziumgradienttype.cpp:296
+msgid "u"
+msgstr ""
+
 #: src/kalziumgradienttype.cpp:504
 #, fuzzy
 msgid "Electronegativity (Pauling)"
@@ -9628,6 +9598,30 @@ msgstr ""
 #, fuzzy
 msgid "This element was known to ancient cultures."
 msgstr "was bekend na antieke kulture"
+
+#: src/elementdataviewer.cpp:53
+msgid "Plot Data"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Atomic Mass [u]"
+#~ msgstr "Atomic radius:"
+
+#, fuzzy
+#~ msgid "Melting Point [K]"
+#~ msgstr "Smelt punt:"
+
+#, fuzzy
+#~ msgid "Boiling Point [K]"
+#~ msgstr "Kook punt:"
+
+#, fuzzy
+#~ msgid "Atomic Radius [pm]"
+#~ msgstr "Atomic radius:"
+
+#, fuzzy
+#~ msgid "Covalent Radius [pm]"
+#~ msgstr "Atomic radius:"
 
 #, fuzzy
 #~ msgid "PSE-Look:"
