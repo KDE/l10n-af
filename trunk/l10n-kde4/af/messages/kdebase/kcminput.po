@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-02-02 03:06+0100\n"
+"POT-Creation-Date: 2011-04-21 03:46+0200\n"
 "PO-Revision-Date: 2005-11-26 15:22+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -562,42 +562,58 @@ msgstr ""
 "is waarskynlik te wyte aan 'n regte probleem - kyk in jou handleiding hoe jy "
 "dit moet regstel."
 
-#. i18n: file: xcursor/themepage.ui:31
+#. i18n: file: xcursor/themepage.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:68
 msgid "Select the cursor theme you want to use (hover preview to test cursor):"
 msgstr ""
 "Kies die plekduider tema wat jy wil gebruik (skuif daaroor vir voorskou):"
 
-#. i18n: file: xcursor/themepage.ui:38
-#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#. i18n: file: xcursor/themepage.ui:56
+#. i18n: ectx: property (toolTip), widget (KPushButton, installKnsButton)
 #: rc.cpp:71
+msgid "Get new color schemes from the Internet"
+msgstr ""
+
+#. i18n: file: xcursor/themepage.ui:59
+#. i18n: ectx: property (text), widget (KPushButton, installKnsButton)
+#: rc.cpp:74
+#, fuzzy
+#| msgid "Install New Theme..."
+msgid "Get New Theme..."
+msgstr "Installeer Nuwe Skema..."
+
+#. i18n: file: xcursor/themepage.ui:66
+#. i18n: ectx: property (text), widget (KPushButton, installButton)
+#: rc.cpp:77
+#, fuzzy
+#| msgid "Install New Theme..."
+msgid "Install From File..."
+msgstr "Installeer Nuwe Skema..."
+
+#. i18n: file: xcursor/themepage.ui:73
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: rc.cpp:80
 msgid "Remove Theme"
 msgstr "Verwyder Skema"
-
-#. i18n: file: xcursor/themepage.ui:45
-#. i18n: ectx: property (text), widget (KPushButton, installButton)
-#: rc.cpp:74
-msgid "Install New Theme..."
-msgstr "Installeer Nuwe Skema..."
 
 #: core/themepage.cpp:54
 msgid "Select the cursor theme you want to use:"
 msgstr "Kies die plekduider tema wat jy wil gebruik:"
 
-#: core/themepage.cpp:59 xcursor/thememodel.cpp:67
+#: core/themepage.cpp:59 xcursor/thememodel.cpp:75
 msgid "Name"
 msgstr "Naam"
 
-#: core/themepage.cpp:59 xcursor/thememodel.cpp:70
+#: core/themepage.cpp:59 xcursor/thememodel.cpp:78
 msgid "Description"
 msgstr "Beskrywing"
 
-#: core/themepage.cpp:100 xcursor/themepage.cpp:196
+#: core/themepage.cpp:100 xcursor/themepage.cpp:201
 msgid "You have to restart KDE for these changes to take effect."
 msgstr "Kde moet herlaai word soadat die verandering effektief kan word."
 
-#: core/themepage.cpp:101 xcursor/themepage.cpp:197
+#: core/themepage.cpp:101 xcursor/themepage.cpp:202
 msgid "Cursor Settings Changed"
 msgstr "Plekduider Stellings verander"
 
@@ -641,16 +657,16 @@ msgstr ""
 msgid "The default cursor theme in KDE 2 and 3"
 msgstr ""
 
-#: xcursor/themepage.cpp:284
+#: xcursor/themepage.cpp:298
 msgid "Drag or Type Theme URL"
 msgstr "Trek of Tik Skema Url"
 
-#: xcursor/themepage.cpp:295
+#: xcursor/themepage.cpp:309
 #, kde-format
 msgid "Unable to find the cursor theme archive %1."
 msgstr "Kon nie die plekduider skema argief %1 vind."
 
-#: xcursor/themepage.cpp:298
+#: xcursor/themepage.cpp:312
 #, kde-format
 msgid ""
 "Unable to download the cursor theme archive; please check that the address %"
@@ -659,18 +675,18 @@ msgstr ""
 "Kon nie die plekduider skema argief aflaai nie; maak seker die adres %1 is "
 "reg."
 
-#: xcursor/themepage.cpp:307
+#: xcursor/themepage.cpp:321
 #, kde-format
 msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgstr "Die lêer %1 blyk nie 'n korrekte plekduider skema argief te wees nie."
 
-#: xcursor/themepage.cpp:322
+#: xcursor/themepage.cpp:336
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
 "switch to another theme first.</qt>"
 msgstr ""
 
-#: xcursor/themepage.cpp:328
+#: xcursor/themepage.cpp:342
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Are you sure you want to remove the <strong>%1</strong> cursor theme?"
@@ -682,11 +698,11 @@ msgstr ""
 "<qt>Is jy seker jy wil die <strong>%1</strong> plekduider skema verwyder?"
 "<br>Dit sal al die lêers wat deur die skema geinstalleer is verwyder.</qt>"
 
-#: xcursor/themepage.cpp:334
+#: xcursor/themepage.cpp:348
 msgid "Confirmation"
 msgstr "Bevestiging"
 
-#: xcursor/themepage.cpp:391
+#: xcursor/themepage.cpp:405
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
@@ -695,7 +711,7 @@ msgstr ""
 "'n Skema genaamd %1 bestaan reeds in jou ikoon skema houer. Wil jy dit "
 "vervang met hierdie een?"
 
-#: xcursor/themepage.cpp:395
+#: xcursor/themepage.cpp:409
 msgid "Overwrite Theme?"
 msgstr "Oorskryf Skema"
 
