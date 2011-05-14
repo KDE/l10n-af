@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 03:45+0200\n"
+"POT-Creation-Date: 2011-05-14 03:38+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -4391,6 +4391,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:1418 rc.cpp:3094
 #: plugins/filters/roundcorners/kis_round_corners_filter.cpp:136
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:965
 #, fuzzy
 msgid "Radius"
 msgstr "Roteer 90"
@@ -11858,6 +11859,7 @@ msgid "Darken"
 msgstr "Verdonker Slegs"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:31
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:925
 #, fuzzy
 msgid "Mirror"
 msgstr "Stoor Laag as Beeld..."
@@ -11873,11 +11875,13 @@ msgid "Mirrored"
 msgstr "Stoor Laag as Beeld..."
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:35
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:945
 #, fuzzy
 msgid "Horizontally"
 msgstr "Driehoekvormige Golf"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:37
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:947
 #, fuzzy
 msgid "Vertically"
 msgstr "Driehoekvormige Golf"
@@ -12595,21 +12599,25 @@ msgid "Color Rate"
 msgstr "Kleur Wisselaar"
 
 #: plugins/tools/defaulttools/kis_tool_brush.cc:137
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:889
 #, fuzzy
 msgctxt "smooth out the curves while drawing"
 msgid "Smoothness:"
 msgstr "Lyn dikheid:"
 
 #: plugins/tools/defaulttools/kis_tool_brush.cc:152
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:904
 #, fuzzy
 msgid "Assistant:"
 msgstr "Oplos"
 
 #: plugins/tools/defaulttools/kis_tool_brush.cc:153
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:905
 msgid "You need to add Ruler Assistants before this tool will work."
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_brush.cc:156
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:908
 #, fuzzy
 msgid "Assistant Magnetism"
 msgstr "magenta"
@@ -12814,6 +12822,46 @@ msgstr ""
 #, fuzzy
 msgid "Move a layer"
 msgstr "Verwyder Laag"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:109
+#: ui/tool/kis_tool_freehand.cc:90
+#, fuzzy
+msgid "Increase Brush Size"
+msgstr "Kwas"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:114
+#: ui/tool/kis_tool_freehand.cc:95
+#, fuzzy
+msgid "Decrease Brush Size"
+msgstr "Borsels"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:917
+msgid "Axis point"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:924
+msgid "Symetry"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:926
+#, fuzzy
+msgid "Translate"
+msgstr "Driehoek"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:930
+#, fuzzy
+msgid "Brush count"
+msgstr "Borsels"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.h:220
+#, fuzzy
+msgid "Paint with multibrushes"
+msgstr "Verf met patroon"
+
+#: plugins/tools/defaulttools/kis_tool_multihand.h:234
+#, fuzzy
+msgid "MultiBrush"
+msgstr "Kwas"
 
 #: plugins/tools/selectiontools/kis_tool_select_brush.cc:64
 #: plugins/tools/selectiontools/kis_tool_select_brush.cc:193
@@ -14097,16 +14145,6 @@ msgstr "Voorgrond kleur"
 #, fuzzy
 msgid "No options"
 msgstr "Alfa"
-
-#: ui/tool/kis_tool_freehand.cc:90
-#, fuzzy
-msgid "Increase Brush Size"
-msgstr "Kwas"
-
-#: ui/tool/kis_tool_freehand.cc:95
-#, fuzzy
-msgid "Decrease Brush Size"
-msgstr "Borsels"
 
 #: ui/widgets/kis_channelflags_widget.cpp:39
 msgid ""
