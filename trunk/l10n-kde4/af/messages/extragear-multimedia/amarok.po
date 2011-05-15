@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-12 03:57+0200\n"
+"POT-Creation-Date: 2011-05-15 03:55+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -5551,7 +5551,7 @@ msgstr "van <b>%1</b>"
 
 #: EngineController.cpp:1407 context/applets/labels/LabelsApplet.cpp:194
 #: context/engines/current/CurrentEngine.cpp:136 mac/GrowlInterface.cpp:43
-#: widgets/Osd.cpp:623
+#: widgets/Osd.cpp:622
 msgid "No track playing"
 msgstr "Geen snit speel tans"
 
@@ -6261,11 +6261,6 @@ msgstr "Vorige Blaaier"
 msgid "Home"
 msgstr "Tuis"
 
-#: browsers/collectionbrowser/CollectionTreeItemDelegate.cpp:182
-#, kde-format
-msgid "%1% used"
-msgstr "%1% in gebruik"
-
 #: browsers/collectionbrowser/CollectionWidget.cpp:144
 #, fuzzy
 #| msgid ""
@@ -6376,6 +6371,11 @@ msgstr ""
 #: services/magnatune/MagnatuneStore.cpp:232
 msgid "Sort Options"
 msgstr "Sortering Opsies"
+
+#: browsers/collectionbrowser/CollectionTreeItemDelegate.cpp:181
+#, kde-format
+msgid "%1% used"
+msgstr "%1% in gebruik"
 
 #: browsers/filebrowser/FileBrowser.cpp:64
 #, fuzzy
@@ -7201,8 +7201,8 @@ msgstr "Wagtou"
 #: context/applets/currenttrack/CurrentTrack.h:38
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:150
 #: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:417
-#: core/meta/Meta.cpp:394 covermanager/CoverFetchUnit.cpp:595
-#: covermanager/CoverFetchUnit.cpp:605
+#: core/meta/Meta.cpp:394 covermanager/CoverFetchUnit.cpp:596
+#: covermanager/CoverFetchUnit.cpp:606
 msgid "Unknown Artist"
 msgstr "Onbekende Kunstenaar"
 
@@ -8036,23 +8036,23 @@ msgstr "Kon nie Dailymotion inligting onttrek nie: %1"
 msgid "No video clip found..."
 msgstr "Video-knipsel ontbreek..."
 
-#: context/engines/wikipedia/WikipediaEngine.cpp:180
-#: context/engines/wikipedia/WikipediaEngine.cpp:250
-#: context/engines/wikipedia/WikipediaEngine.cpp:383
+#: context/engines/wikipedia/WikipediaEngine.cpp:191
+#: context/engines/wikipedia/WikipediaEngine.cpp:262
+#: context/engines/wikipedia/WikipediaEngine.cpp:395
 #, kde-format
 msgid "Unable to retrieve Wikipedia information: %1"
 msgstr "Kon nie Wikipedia inligting onttrek nie: %1"
 
-#: context/engines/wikipedia/WikipediaEngine.cpp:196
-#: context/engines/wikipedia/WikipediaEngine.cpp:359
-#: context/engines/wikipedia/WikipediaEngine.cpp:421
-#: context/engines/wikipedia/WikipediaEngine.cpp:616
-#: context/engines/wikipedia/WikipediaEngine.cpp:637
-#: context/engines/wikipedia/WikipediaEngine.cpp:655
+#: context/engines/wikipedia/WikipediaEngine.cpp:207
+#: context/engines/wikipedia/WikipediaEngine.cpp:371
+#: context/engines/wikipedia/WikipediaEngine.cpp:433
+#: context/engines/wikipedia/WikipediaEngine.cpp:630
+#: context/engines/wikipedia/WikipediaEngine.cpp:651
+#: context/engines/wikipedia/WikipediaEngine.cpp:669
 msgid "No information found..."
 msgstr "Geen inligting gevind nie..."
 
-#: context/engines/wikipedia/WikipediaEngine.cpp:831
+#: context/engines/wikipedia/WikipediaEngine.cpp:845
 #, fuzzy
 #| msgid "Cover Manager"
 msgid "Choose Language"
@@ -8269,11 +8269,6 @@ msgstr "Inzoem"
 msgid "Track rating: %1"
 msgstr "Snit keuring: %1"
 
-#: context/widgets/ToolBoxMenu.cpp:109
-#: context/widgets/appletexplorer/AppletExplorer.cpp:105
-msgid "Hide menu"
-msgstr "Versteek kieslys"
-
 #: context/widgets/TrackWidget.cpp:39
 msgctxt "Score of a track"
 msgid "Score:"
@@ -8283,6 +8278,10 @@ msgstr "Evaluasie:"
 #, kde-format
 msgid "%1 - %2 (%3)"
 msgstr "%1 - %2 (%3)"
+
+#: context/widgets/appletexplorer/AppletExplorer.cpp:105
+msgid "Hide menu"
+msgstr "Versteek kieslys"
 
 #: context/widgets/appletexplorer/AppletExplorer.cpp:122
 msgid "<strong>Applet Explorer</strong>"
@@ -8381,12 +8380,6 @@ msgstr "Weier vertoning in Verskeie Kunstenaars"
 msgid "Show under Various Artists"
 msgstr "Vertoon in Verskeie Kunstenaars"
 
-#: core-impl/collections/db/sql/SqlMeta.cpp:272
-#: covermanager/CoverManager.cpp:846 services/lastfm/meta/LastFmMeta.cpp:133
-#, kde-format
-msgid "%1 - %2"
-msgstr "%1 - %2"
-
 #: core-impl/collections/db/sql/SqlCollection.cpp:172
 #, kde-format
 msgid ""
@@ -8440,6 +8433,12 @@ msgstr "Dra oor: %1"
 #| msgid "Playing: %1"
 msgid "Removing: %1"
 msgstr "Speel tans: %1"
+
+#: core-impl/collections/db/sql/SqlMeta.cpp:272
+#: covermanager/CoverManager.cpp:846 services/lastfm/meta/LastFmMeta.cpp:133
+#, kde-format
+msgid "%1 - %2"
+msgstr "%1 - %2"
 
 #: core-impl/collections/db/ScanResultProcessor.cpp:261
 msgctxt "The genre name for classical music"
@@ -8526,7 +8525,7 @@ msgstr "iPod was nie geïnisialiseer nie:"
 msgid "iPod Initialization Failed"
 msgstr "iPod Inisialisering Mislukking"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:315
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:314
 #, kde-format
 msgid ""
 "Media Device: could not find iTunesDB on device mounted at %1. Attempt to "
@@ -8535,28 +8534,28 @@ msgstr ""
 "Media toestel: iTunesDB is nie te vinde op die toestel wat by %1 geheg is "
 "nie. Moet Amarok poog om die iPod te inisialiseer?"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:317
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:316
 msgid "Initialize iPod?"
 msgstr "Inisialiseer iPod?"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:318
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:317
 msgid "&Initialize"
 msgstr "Inisialiseer"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:359
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:358
 msgid "Set iPod Model"
 msgstr "Stel iPod Model op"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:359
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:358
 msgid "iPod Models"
 msgstr "iPod Modelle"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:363
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:362
 #, kde-format
 msgid "%1 the iPod Model is necessary to initialize the iPod"
 msgstr "%1 die iPod Model word benodig om die iPod te inisialiseer."
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:389
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:388
 #, kde-format
 msgid ""
 "%1 failed to write to iPod, make sure you have write permissions on the iPod"
@@ -8564,7 +8563,7 @@ msgstr ""
 "%1 kon nie op iPod skryf nie, maak seker jy het toestemming om op die iPod "
 "te skryf"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:405
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:404
 #, kde-format
 msgid ""
 "%1 failed to write SysInfo file to iPod, make sure you have write "
@@ -8573,20 +8572,20 @@ msgstr ""
 "%1 kon nie Sysinfo lêer op iPod skryf nie, maak seker jy het toestemming om "
 "op die iPod te skryf"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:429
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:428
 #, kde-format
 msgid "%1 failed to initialize the iPod"
 msgstr "%1 het daarin misluk om die iPod te inisialiseer"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:437
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:436
 msgid "The iPod was successfully initialized."
 msgstr "Die iPod is suksesvol geïnisialiseer."
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:437
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:436
 msgid "iPod Initialized"
 msgstr "iPod Geïnisialiseer"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:445
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:443
 #, kde-format
 msgid ""
 "%1 you chose not to initialize the iPod. It will not be usable until it is "
@@ -8595,16 +8594,16 @@ msgstr ""
 "%1 jy het gekies om nie die iPod te inisialiseer nie. Dit sal "
 "onbruikbaarwees tot dit geïnisialiseer word."
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:519
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:517
 msgid "&Stale and Orphaned"
 msgstr " Verval en Wees"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:529
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:691
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:527
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:689
 msgid "Synchronize Artwork"
 msgstr "Sinchroniseer Kunswerk"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:545
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:543
 msgid ""
 "Do you really want to initialize this iPod? Its database will be cleared of "
 "all information, but the files will not be deleted."
@@ -8612,19 +8611,19 @@ msgstr ""
 "Is jy doodseker jy wil die iPod inisialiseer? Alle inligting in die iPod se "
 "databasis sal gewis word, maar die lêers sal nie geskrap word nie."
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:549
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:547
 msgid "Initialize iPod"
 msgstr "Inisialiseer iPod"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:555
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:553
 msgid "The iPod has been initialized"
 msgstr "Die iPod is geïnisialiseer"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:557
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:555
 msgid "The iPod was unable to be initialized"
 msgstr "Die iPod kon nie geïnisialiseer word nie"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:566
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:564
 msgid ""
 "Amarok is about to search for stale tracks. This may take a while, do you "
 "want to continue?"
@@ -8632,11 +8631,11 @@ msgstr ""
 "Amarok is op die punt om vir vervalde snitte te soek. Dit mag dalk 'n rukkie "
 "neem, wil jy voortgaan?"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:570
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:568
 msgid "Find Stale Tracks"
 msgstr "Vind Vervalde Snitte"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:653
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:651
 #, kde-format
 msgctxt "@info"
 msgid "One stale track removed from the database. Scan for orphaned tracks?"
@@ -8646,11 +8645,11 @@ msgstr[0] ""
 msgstr[1] ""
 "%1 vervalde snitte verwyder van die databasis. Skandeer vir wees-snitte?"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:658
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:656
 msgid "Find Orphaned Tracks"
 msgstr "Vind Wees-snitte"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:689
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:687
 #, kde-format
 msgid ""
 "Amarok is about to synchronize artwork on <i>%1</i>. Do you want to continue?"
@@ -8658,15 +8657,15 @@ msgstr ""
 "Amarok is op die punt om kunswerk te sinchroniseer op <i>%1</i>. Wil jy "
 "voortgaan?"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:700
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:698
 msgid "iPod artwork could not be synchronized"
 msgstr "Kon nie iPod kunswerk sinchroniseer nie"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:711
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:709
 msgid "Artwork synchronized"
 msgstr "Kunswerk gesinchroniseer"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:921
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:919
 msgid ""
 "Amarok requires sudo access to get the FirewireGuid required to connect to "
 "your device. Please enter your sudo password"
@@ -8674,19 +8673,19 @@ msgstr ""
 "Amarok benodig 'sudo' toegang om die FirewireGuid te bekom, wat op sy beurt "
 "nodig is om te koppel aan jou toestel. Gee asb. jou 'sudo' wagwoord"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2214
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2212
 msgid "Select Stale Tracks To Delete"
 msgstr "Kies Vervalde Snitte Om Te Skrap"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2214
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2212
 msgid "Stale Tracks"
 msgstr "Vervalde Snitte"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2267
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2265
 msgid "Adding Orphaned Tracks to iPod Database"
 msgstr "Voeg Wees-snitte by iPod Databasis"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2305
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2303
 #, kde-format
 msgctxt "@info"
 msgid "One orphaned track added to the database."
@@ -8694,7 +8693,7 @@ msgid_plural "%1 tracks added to the database."
 msgstr[0] "Een wees-snit by databasis gevoeg"
 msgstr[1] "%1 wees-snitte by databasis gevoeg"
 
-#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2310
+#: core-impl/collections/ipodcollection/handler/IpodHandler.cpp:2308
 msgid "Orphaned Tracks Added"
 msgstr "Wees-snitte Bygevoeg"
 
@@ -10017,199 +10016,6 @@ msgstr "Haal van omslag vir '%1' gekanselleer."
 msgid "Unable to find a cover for '%1'."
 msgstr "Kon nie omslag vir '%1' vind nie."
 
-#: covermanager/CoverFoundDialog.cpp:81
-#, fuzzy
-#| msgid "Fetching cover for %1..."
-msgid "Finding cover for"
-msgstr "Haal tans omslag vir %1..."
-
-#: covermanager/CoverFoundDialog.cpp:113
-msgid "Enter Custom Search"
-msgstr "Invoer Pasmaak Soektog"
-
-#: covermanager/CoverFoundDialog.cpp:128
-#, fuzzy
-#| msgid "last.fm"
-msgid "Last.fm"
-msgstr "last.fm"
-
-#: covermanager/CoverFoundDialog.cpp:129
-msgid "Google"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:130
-msgid "Yahoo!"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:131
-#, fuzzy
-#| msgid "Disc #"
-msgid "Discogs"
-msgstr "Skyf #"
-
-#: covermanager/CoverFoundDialog.cpp:141
-msgid "Sort by size"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:358
-#: covermanager/CoverFetchingActions.cpp:69
-msgid "Display Cover"
-msgstr "Vertoon Omslag"
-
-#: covermanager/CoverFoundDialog.cpp:376
-#, fuzzy
-#| msgid "Save Location:"
-msgid "Cover Image Save Location"
-msgstr "Stoor Ligging:"
-
-#: covermanager/CoverFoundDialog.cpp:402 covermanager/CoverFoundDialog.cpp:419
-#, fuzzy
-#| msgid "The cover could not be retrieved."
-msgid "Sorry, the cover could not be saved."
-msgstr "Die omslag kon nie onttrek word nie."
-
-#: covermanager/CoverFoundDialog.cpp:487
-#, fuzzy
-#| msgid "The cover could not be retrieved."
-msgid "Sorry, the cover image could not be retrieved."
-msgstr "Die omslag kon nie onttrek word nie."
-
-#: covermanager/CoverFoundDialog.cpp:507
-#, fuzzy
-#| msgid "Fetching Cover"
-msgid "Fetching Large Cover"
-msgstr "Haal Omslag"
-
-#: covermanager/CoverFoundDialog.cpp:508
-#, fuzzy
-#| msgid "Download to:"
-msgid "Download Progress"
-msgstr "Aflaai na:"
-
-#: covermanager/CoverFoundDialog.cpp:687
-#, fuzzy
-#| msgid "Search %1"
-msgid "Search"
-msgstr "Deursoek %1"
-
-#: covermanager/CoverFoundDialog.cpp:687
-msgid "Search For More Results"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:703
-#, fuzzy
-#| msgid "No covers found."
-msgid "No Images Found"
-msgstr "Geen omslae gevind."
-
-#: covermanager/CoverFoundDialog.cpp:704
-#, kde-format
-msgid "1 Image Found"
-msgid_plural "%1 Images Found"
-msgstr[0] ""
-msgstr[1] ""
-
-#: covermanager/CoverFoundDialog.cpp:728
-#, fuzzy
-#| msgid "Track Information"
-msgid "Information"
-msgstr "Snit Informasie"
-
-#: covermanager/CoverFoundDialog.cpp:729
-#, fuzzy
-#| msgid "None"
-msgid "Notes"
-msgstr "Geen"
-
-#: covermanager/CoverFoundDialog.cpp:801
-#, fuzzy
-#| msgid "Artist"
-msgctxt "@item::intable"
-msgid "Artist"
-msgstr "Kunstenaar"
-
-#: covermanager/CoverFoundDialog.cpp:802
-#, fuzzy
-#| msgid "Counting"
-msgctxt "@item::intable"
-msgid "Country"
-msgstr "Telling"
-
-#: covermanager/CoverFoundDialog.cpp:803
-#, fuzzy
-#| msgid "Database"
-msgctxt "@item::intable"
-msgid "Date"
-msgstr "Databasis"
-
-#: covermanager/CoverFoundDialog.cpp:804
-#, fuzzy
-#| msgid "Format:"
-msgctxt "@item::intable File Format"
-msgid "Format"
-msgstr "Formaat:"
-
-#: covermanager/CoverFoundDialog.cpp:805
-msgctxt "@item::intable Image Height"
-msgid "Height"
-msgstr ""
-
-#: covermanager/CoverFoundDialog.cpp:806 covermanager/CoverFoundDialog.cpp:811
-#, fuzzy
-#| msgid "Title"
-msgctxt "@item::intable Album Title"
-msgid "Title"
-msgstr "Titel"
-
-#: covermanager/CoverFoundDialog.cpp:807
-#, fuzzy
-#| msgid "Type"
-msgctxt "@item::intable Release Type"
-msgid "Type"
-msgstr "Soort"
-
-#: covermanager/CoverFoundDialog.cpp:808
-#, fuzzy
-#| msgid "Reload"
-msgctxt "@item::intable Release Date"
-msgid "Released"
-msgstr "Herlaai"
-
-#: covermanager/CoverFoundDialog.cpp:809
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@item::intable File Size"
-msgid "Size"
-msgstr "Grootte:"
-
-#: covermanager/CoverFoundDialog.cpp:810
-#, fuzzy
-#| msgid "Source"
-msgctxt "@item::intable Cover Provider"
-msgid "Source"
-msgstr "Bron"
-
-#: covermanager/CoverFoundDialog.cpp:812
-#, fuzzy
-#| msgid "Width"
-msgctxt "@item::intable Image Width"
-msgid "Width"
-msgstr "Wydte"
-
-#: covermanager/CoverFoundDialog.cpp:852
-#, fuzzy
-#| msgid "Playback"
-msgctxt "@item::intable URL"
-msgid "link"
-msgstr "Terugspeel"
-
-#: covermanager/CoverFoundDialog.cpp:858
-#, fuzzy
-#| msgid "URL"
-msgctxt "@item::intable"
-msgid "URL"
-msgstr "URL"
-
 #: covermanager/CoverManager.cpp:116
 msgid "Albums By"
 msgstr "Albums Deur"
@@ -10347,6 +10153,11 @@ msgid_plural "Fetch artwork for %1 albums"
 msgstr[0] "Haal die kunswerk vir hierdie album"
 msgstr[1] "Haal die kunswerk vir %1 albums"
 
+#: covermanager/CoverFetchingActions.cpp:69
+#: covermanager/CoverFoundDialog.cpp:358
+msgid "Display Cover"
+msgstr "Vertoon Omslag"
+
 #: covermanager/CoverFetchingActions.cpp:71
 msgid "Display artwork for this album"
 msgstr "Vertoon kunswerk vir hierdie album"
@@ -10386,6 +10197,194 @@ msgstr[1] "Stel pasmaak kunswerk op vir hierdie %1 albums"
 #: covermanager/CoverFetchingActions.cpp:155
 msgid "Select Cover Image File"
 msgstr "Kies Omslag Beeld Lêer"
+
+#: covermanager/CoverFoundDialog.cpp:81
+#, fuzzy
+#| msgid "Fetching cover for %1..."
+msgid "Finding cover for"
+msgstr "Haal tans omslag vir %1..."
+
+#: covermanager/CoverFoundDialog.cpp:113
+msgid "Enter Custom Search"
+msgstr "Invoer Pasmaak Soektog"
+
+#: covermanager/CoverFoundDialog.cpp:128
+#, fuzzy
+#| msgid "last.fm"
+msgid "Last.fm"
+msgstr "last.fm"
+
+#: covermanager/CoverFoundDialog.cpp:129
+msgid "Google"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:130
+msgid "Yahoo!"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:131
+#, fuzzy
+#| msgid "Disc #"
+msgid "Discogs"
+msgstr "Skyf #"
+
+#: covermanager/CoverFoundDialog.cpp:141
+msgid "Sort by size"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:376
+#, fuzzy
+#| msgid "Save Location:"
+msgid "Cover Image Save Location"
+msgstr "Stoor Ligging:"
+
+#: covermanager/CoverFoundDialog.cpp:402 covermanager/CoverFoundDialog.cpp:419
+#, fuzzy
+#| msgid "The cover could not be retrieved."
+msgid "Sorry, the cover could not be saved."
+msgstr "Die omslag kon nie onttrek word nie."
+
+#: covermanager/CoverFoundDialog.cpp:487
+#, fuzzy
+#| msgid "The cover could not be retrieved."
+msgid "Sorry, the cover image could not be retrieved."
+msgstr "Die omslag kon nie onttrek word nie."
+
+#: covermanager/CoverFoundDialog.cpp:507
+#, fuzzy
+#| msgid "Fetching Cover"
+msgid "Fetching Large Cover"
+msgstr "Haal Omslag"
+
+#: covermanager/CoverFoundDialog.cpp:508
+#, fuzzy
+#| msgid "Download to:"
+msgid "Download Progress"
+msgstr "Aflaai na:"
+
+#: covermanager/CoverFoundDialog.cpp:681
+#, fuzzy
+#| msgid "Search %1"
+msgid "Search"
+msgstr "Deursoek %1"
+
+#: covermanager/CoverFoundDialog.cpp:681
+msgid "Search For More Results"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:697
+#, fuzzy
+#| msgid "No covers found."
+msgid "No Images Found"
+msgstr "Geen omslae gevind."
+
+#: covermanager/CoverFoundDialog.cpp:698
+#, kde-format
+msgid "1 Image Found"
+msgid_plural "%1 Images Found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: covermanager/CoverFoundDialog.cpp:722
+#, fuzzy
+#| msgid "Track Information"
+msgid "Information"
+msgstr "Snit Informasie"
+
+#: covermanager/CoverFoundDialog.cpp:723
+#, fuzzy
+#| msgid "None"
+msgid "Notes"
+msgstr "Geen"
+
+#: covermanager/CoverFoundDialog.cpp:795
+#, fuzzy
+#| msgid "Artist"
+msgctxt "@item::intable"
+msgid "Artist"
+msgstr "Kunstenaar"
+
+#: covermanager/CoverFoundDialog.cpp:796
+#, fuzzy
+#| msgid "Counting"
+msgctxt "@item::intable"
+msgid "Country"
+msgstr "Telling"
+
+#: covermanager/CoverFoundDialog.cpp:797
+#, fuzzy
+#| msgid "Database"
+msgctxt "@item::intable"
+msgid "Date"
+msgstr "Databasis"
+
+#: covermanager/CoverFoundDialog.cpp:798
+#, fuzzy
+#| msgid "Format:"
+msgctxt "@item::intable File Format"
+msgid "Format"
+msgstr "Formaat:"
+
+#: covermanager/CoverFoundDialog.cpp:799
+msgctxt "@item::intable Image Height"
+msgid "Height"
+msgstr ""
+
+#: covermanager/CoverFoundDialog.cpp:800 covermanager/CoverFoundDialog.cpp:805
+#, fuzzy
+#| msgid "Title"
+msgctxt "@item::intable Album Title"
+msgid "Title"
+msgstr "Titel"
+
+#: covermanager/CoverFoundDialog.cpp:801
+#, fuzzy
+#| msgid "Type"
+msgctxt "@item::intable Release Type"
+msgid "Type"
+msgstr "Soort"
+
+#: covermanager/CoverFoundDialog.cpp:802
+#, fuzzy
+#| msgid "Reload"
+msgctxt "@item::intable Release Date"
+msgid "Released"
+msgstr "Herlaai"
+
+#: covermanager/CoverFoundDialog.cpp:803
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@item::intable File Size"
+msgid "Size"
+msgstr "Grootte:"
+
+#: covermanager/CoverFoundDialog.cpp:804
+#, fuzzy
+#| msgid "Source"
+msgctxt "@item::intable Cover Provider"
+msgid "Source"
+msgstr "Bron"
+
+#: covermanager/CoverFoundDialog.cpp:806
+#, fuzzy
+#| msgid "Width"
+msgctxt "@item::intable Image Width"
+msgid "Width"
+msgstr "Wydte"
+
+#: covermanager/CoverFoundDialog.cpp:846
+#, fuzzy
+#| msgid "Playback"
+msgctxt "@item::intable URL"
+msgid "link"
+msgstr "Terugspeel"
+
+#: covermanager/CoverFoundDialog.cpp:852
+#, fuzzy
+#| msgid "URL"
+msgctxt "@item::intable"
+msgid "URL"
+msgstr "URL"
 
 #: databaseimporter/amarok14/FastForwardImporterConfig.cpp:39
 msgid "Connection"
@@ -11497,7 +11496,7 @@ msgctxt "Dialog box title"
 msgid "Comment Sending Error"
 msgstr "Versameling Skandeer Fout"
 
-#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:647
+#: mac/GrowlInterface.cpp:64 widgets/Osd.cpp:646
 msgid "No information available for this track"
 msgstr "Geen inligting is beskikbaar vir die snit nie"
 
@@ -13866,44 +13865,6 @@ msgstr "Visualiserings"
 msgid "Bookmark"
 msgstr "Boekmerk"
 
-#: widgets/BreadcrumbItemButton.cpp:239
-msgid "List and run bookmarks, or create new ones"
-msgstr "Lys en loop boekmerke, of skep nuwes"
-
-#: widgets/BreadcrumbItemButton.cpp:257
-msgid "Amarok Bookmarks"
-msgstr "Amarok Boekmerke"
-
-#: widgets/BreadcrumbItemButton.cpp:276
-msgid "Copy Current View Bookmark to Clipboard"
-msgstr ""
-
-#: widgets/Osd.cpp:134
-msgid "Rating changed"
-msgstr "Keuring gewysig"
-
-#: widgets/Osd.cpp:210
-msgid "Volume: 100% (muted)"
-msgstr "Luidheid: 100% (gedoof)"
-
-#: widgets/Osd.cpp:461
-msgid ""
-"On-Screen-Display preview\n"
-"Drag to reposition"
-msgstr ""
-"Voor-Skem Vertoon Voorskou\n"
-"Sleep om te herposisioneer"
-
-#: widgets/Osd.cpp:712
-#, fuzzy
-#| msgid "Stop"
-msgid "Stopped"
-msgstr "Stop"
-
-#: widgets/Osd.cpp:721
-msgid "Paused"
-msgstr "Wagtend"
-
 #: widgets/PlayPauseButton.cpp:31 widgets/PlayPauseButton.cpp:81
 #, fuzzy
 #| msgid "Playback"
@@ -14301,6 +14262,44 @@ msgstr "Voer soekterme in, geskei deur spasies"
 #: widgets/SearchWidget.cpp:88 widgets/SearchWidget.cpp:160
 msgid "Edit filter"
 msgstr "Wysig filter"
+
+#: widgets/BreadcrumbItemButton.cpp:239
+msgid "List and run bookmarks, or create new ones"
+msgstr "Lys en loop boekmerke, of skep nuwes"
+
+#: widgets/BreadcrumbItemButton.cpp:257
+msgid "Amarok Bookmarks"
+msgstr "Amarok Boekmerke"
+
+#: widgets/BreadcrumbItemButton.cpp:276
+msgid "Copy Current View Bookmark to Clipboard"
+msgstr ""
+
+#: widgets/Osd.cpp:134
+msgid "Rating changed"
+msgstr "Keuring gewysig"
+
+#: widgets/Osd.cpp:209
+msgid "Volume: 100% (muted)"
+msgstr "Luidheid: 100% (gedoof)"
+
+#: widgets/Osd.cpp:460
+msgid ""
+"On-Screen-Display preview\n"
+"Drag to reposition"
+msgstr ""
+"Voor-Skem Vertoon Voorskou\n"
+"Sleep om te herposisioneer"
+
+#: widgets/Osd.cpp:711
+#, fuzzy
+#| msgid "Stop"
+msgid "Stopped"
+msgstr "Stop"
+
+#: widgets/Osd.cpp:720
+msgid "Paused"
+msgstr "Wagtend"
 
 #: ActionClasses.cpp:85
 msgid "Amarok Menu"
@@ -15163,7 +15162,7 @@ msgstr ""
 "'n Musiekpad (%1) is ingestel by Stelsel Instellings. \n"
 "Wil jy dit as 'n versameling gids gebruik?"
 
-#: PluginManager.cpp:244
+#: PluginManager.cpp:246
 msgid ""
 "<p>Amarok could not find any collection plugins. It is possible that Amarok "
 "is installed under the wrong prefix, please fix your installation using:<pre>"
