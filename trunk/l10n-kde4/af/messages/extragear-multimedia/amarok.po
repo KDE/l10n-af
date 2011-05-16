@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-15 03:55+0200\n"
+"POT-Creation-Date: 2011-05-16 03:42+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -17,6 +17,125 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.0\n"
+
+#: App.cpp:427
+msgid "Files/URLs to open"
+msgstr "Lêers/URLs om oop te maak"
+
+#: App.cpp:428
+msgid "Immediately start playing an audio cd"
+msgstr ""
+
+#: App.cpp:430
+msgid "Skip backwards in playlist"
+msgstr "Spring terugwaarts in die speel lys"
+
+#: App.cpp:432
+msgid "Start playing current playlist"
+msgstr "Begin om die huidige speel lys te speel"
+
+#: App.cpp:434
+msgid "Play if stopped, pause if playing"
+msgstr "Speel indien gestop, wag indien besig is om te speel"
+
+#: App.cpp:435
+msgid "Pause playback"
+msgstr "Pouseer terugspeel"
+
+#: App.cpp:437
+msgid "Stop playback"
+msgstr "Stop terugspeel"
+
+#: App.cpp:439
+msgid "Skip forwards in playlist"
+msgstr "Spring vorentoe in die speellys"
+
+#: App.cpp:440
+msgid "Additional options:"
+msgstr "Verdere opsies:"
+
+#: App.cpp:442
+msgid "Append files/URLs to playlist"
+msgstr "Las lêers/URLs agter aan speellys"
+
+#: App.cpp:443
+msgid "Queue URLs after the currently playing track"
+msgstr "Plaas URLs in die wagtou na die snit wat tans speel"
+
+#: App.cpp:445
+msgid "Load URLs, replacing current playlist"
+msgstr "Laai URLs en vervang die huidige speellys met die resultaat"
+
+#: App.cpp:447
+msgid "Print verbose debugging information"
+msgstr "Druk breedvoerige ontfoutingsinligting"
+
+#: App.cpp:449
+msgid "Disable colorization for debug output."
+msgstr ""
+
+#: App.cpp:451
+msgid "Allow running multiple Amarok instances"
+msgstr "Laat veelvuldige Amarok instansies toe om te loop"
+
+#: App.cpp:452
+msgid "Base for relative filenames/URLs"
+msgstr "Basis wat vir relatiewe lêername/URLs gebruik moet word"
+
+#: App.cpp:454
+msgid "Unit test options:"
+msgstr "Eenheidstoets opsies"
+
+#: App.cpp:455
+msgid "Run integrated unit tests"
+msgstr "Loop geïntegreerde eenheidstoetse"
+
+#: App.cpp:456
+msgid "Destination of test output: 'stdout', 'log'"
+msgstr "Toetsafvoer bestemming: 'stdout', 'log'"
+
+#: App.cpp:457
+msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
+msgstr "Toetsafvoer formaat: 'xml', 'lightxml', 'plaintext'"
+
+#: App.cpp:458
+msgid "Verbosity from 0-3 (highest)"
+msgstr "Breedspraaklikheid van 0-3 (mees)"
+
+#: App.cpp:698
+msgid ""
+"The embedded database was not found; you must set up a database server "
+"connection.\n"
+"You must restart Amarok after doing this."
+msgstr ""
+"Ingebedde databasis ongevonde; jy moet 'n databasis bediener koppeling "
+"opstel. \n"
+"Jy moet Amarok daarna herlaai."
+
+#: App.cpp:699
+msgid ""
+"The connection details for the database server were invalid.\n"
+"You must enter correct settings and restart Amarok after doing this."
+msgstr ""
+"Die databasis koppelingsbesonderhede was ongeldig.\n"
+"Jy moet korrekte instellings gee en Amarok dan herlaai."
+
+#: App.cpp:700
+msgid "Database Error"
+msgstr "Databasis Fout"
+
+#: App.cpp:745
+msgid "Moving files to trash"
+msgstr "Besig om lêers na die asblik te skuif"
+
+#: App.cpp:833
+#, kde-format
+msgid ""
+"A music path, %1, is set in System Settings.\n"
+"Would you like to use that as a collection folder?"
+msgstr ""
+"'n Musiekpad (%1) is ingestel by Stelsel Instellings. \n"
+"Wil jy dit as 'n versameling gids gebruik?"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2522,7 +2641,7 @@ msgstr ""
 
 #. i18n: file: core-impl/collections/audiocd/FormatSelectionDialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: rc.cpp:1124 MainWindow.cpp:107 main.cpp:40
+#: rc.cpp:1124 MainWindow.cpp:106 main.cpp:40
 msgid "Amarok"
 msgstr "Amarok"
 
@@ -5555,50 +5674,50 @@ msgstr "van <b>%1</b>"
 msgid "No track playing"
 msgstr "Geen snit speel tans"
 
-#: MainWindow.cpp:274
+#: MainWindow.cpp:273
 msgid "Local Music"
 msgstr "Plaaslike Musiek"
 
-#: MainWindow.cpp:276
+#: MainWindow.cpp:275
 msgid "Local sources of content"
 msgstr "Plaaslike inhoudsbronne"
 
-#: MainWindow.cpp:284
+#: MainWindow.cpp:283
 msgid "Internet"
 msgstr "Internet"
 
-#: MainWindow.cpp:286
+#: MainWindow.cpp:285
 msgid "Online sources of content"
 msgstr "Aanlyn inhoudsbronne"
 
-#: MainWindow.cpp:292
+#: MainWindow.cpp:291
 msgid "Playlists"
 msgstr "Speellyste"
 
-#: MainWindow.cpp:294
+#: MainWindow.cpp:293
 msgid "Various types of playlists"
 msgstr "Allerlei soorte speellyste"
 
-#: MainWindow.cpp:300 amarokurls/NavigationUrlGenerator.cpp:135
+#: MainWindow.cpp:299 amarokurls/NavigationUrlGenerator.cpp:135
 msgid "Files"
 msgstr "Lêers"
 
-#: MainWindow.cpp:302
+#: MainWindow.cpp:301
 msgid "Browse local hard drive for content"
 msgstr "Deurblaai plaaslike hardeskyf opsoek na inhoud"
 
-#: MainWindow.cpp:363
+#: MainWindow.cpp:362
 msgctxt "@item:inmenu"
 msgid "&View"
 msgstr "Aansig"
 
-#: MainWindow.cpp:366
+#: MainWindow.cpp:365
 #, fuzzy
 #| msgid "Lock layout"
 msgid "Lock Layout"
 msgstr "Grendel uitleg"
 
-#: MainWindow.cpp:477
+#: MainWindow.cpp:476
 msgid ""
 "<qt>Closing the main window will keep Amarok running in the System Tray. Use "
 "<B>Quit</B> from the menu, or the Amarok tray icon to exit the application.</"
@@ -5608,228 +5727,228 @@ msgstr ""
 "word. Gebruik <B>Afsluit</B> uit die kieslys, of die Amarok laai-ikoon om "
 "die toepassing te verlaat.</qt>"
 
-#: MainWindow.cpp:479
+#: MainWindow.cpp:478
 msgid "Docking in System Tray"
 msgstr "Vasmeer in Stelsel Laai"
 
-#: MainWindow.cpp:508
+#: MainWindow.cpp:507
 msgid "Use relative path for &saving"
 msgstr "Gebruik relatiewe pad vir stoor"
 
-#: MainWindow.cpp:519 covermanager/CoverFoundDialog.cpp:361
+#: MainWindow.cpp:518 covermanager/CoverFoundDialog.cpp:361
 msgid "Save As"
 msgstr "Stoor As"
 
-#: MainWindow.cpp:574
+#: MainWindow.cpp:573
 msgid "Play Media (Files or URLs)"
 msgstr "Speel Media (Lêers of URLs)"
 
-#: MainWindow.cpp:574
+#: MainWindow.cpp:573
 msgid "Add Media (Files or URLs)"
 msgstr "Media Byvoeg (Lêers of URLs)"
 
-#: MainWindow.cpp:592
+#: MainWindow.cpp:591
 msgid "Add Stream"
 msgstr "Stroom Byvoeg"
 
-#: MainWindow.cpp:592
+#: MainWindow.cpp:591
 msgid "Enter Stream URL:"
 msgstr "Gee Stroom URL:"
 
-#: MainWindow.cpp:716
+#: MainWindow.cpp:715
 msgid "&Add Media..."
 msgstr "Media Byvoeg..."
 
-#: MainWindow.cpp:721
+#: MainWindow.cpp:720
 msgctxt "clear playlist"
 msgid "&Clear Playlist"
 msgstr "&Wis Speellys"
 
-#: MainWindow.cpp:725
+#: MainWindow.cpp:724
 #, fuzzy
 #| msgid "&Queue"
 msgctxt "edit play queue of playlist"
 msgid "Edit &Queue"
 msgstr "Wagtou"
 
-#: MainWindow.cpp:728
+#: MainWindow.cpp:727
 msgctxt "Remove duplicate and dead (unplayable) tracks from the playlist"
 msgid "Re&move Duplicates"
 msgstr "Verwyder Duplikate"
 
-#: MainWindow.cpp:735
+#: MainWindow.cpp:734
 msgid "&Add Stream..."
 msgstr "Stroom Byvoeg..."
 
-#: MainWindow.cpp:739
+#: MainWindow.cpp:738
 msgid "&Export Playlist As..."
 msgstr "&Voer Stroom Uit As..."
 
-#: MainWindow.cpp:743 amarokurls/NavigationUrlGenerator.cpp:250
+#: MainWindow.cpp:742 amarokurls/NavigationUrlGenerator.cpp:250
 msgid "Bookmark Media Sources View"
 msgstr "Boekmerk Media Bronne Aansig"
 
-#: MainWindow.cpp:747 amarokurls/BookmarkManager.cpp:43
+#: MainWindow.cpp:746 amarokurls/BookmarkManager.cpp:43
 msgid "Bookmark Manager"
 msgstr "Boekmerk Bestuurder"
 
-#: MainWindow.cpp:751
+#: MainWindow.cpp:750
 msgid "Equalizer"
 msgstr "Band menger"
 
-#: MainWindow.cpp:755 playlist/PlaylistViewUrlGenerator.cpp:101
+#: MainWindow.cpp:754 playlist/PlaylistViewUrlGenerator.cpp:101
 msgid "Bookmark Playlist Setup"
 msgstr "Boekmerk Speellys Opstel"
 
-#: MainWindow.cpp:759
+#: MainWindow.cpp:758
 msgid "Bookmark Context Applets"
 msgstr "Boekmerk Konteks Miniprogramme"
 
-#: MainWindow.cpp:763 covermanager/CoverManager.cpp:105
+#: MainWindow.cpp:762 covermanager/CoverManager.cpp:105
 msgid "Cover Manager"
 msgstr "Omslag Bestuurder"
 
-#: MainWindow.cpp:767
+#: MainWindow.cpp:766
 msgid "Play Media..."
 msgstr "Speel Media..."
 
-#: MainWindow.cpp:772
+#: MainWindow.cpp:771
 msgid "&Seek Forward"
 msgstr "Soek Vooruit"
 
-#: MainWindow.cpp:778
+#: MainWindow.cpp:777
 msgid "&Seek Backward"
 msgstr "Soek Agteruit"
 
-#: MainWindow.cpp:785
+#: MainWindow.cpp:784
 msgid "Update Collection"
 msgstr "Versameling Opdateer"
 
-#: MainWindow.cpp:792
+#: MainWindow.cpp:791
 msgid "Previous Track"
 msgstr "Vorige Snit"
 
-#: MainWindow.cpp:799
+#: MainWindow.cpp:798
 #, fuzzy
 #| msgid "Rate Current Track: 1"
 msgid "Restart current track"
 msgstr "Keuring vir die huidige snit: 1"
 
-#: MainWindow.cpp:805
+#: MainWindow.cpp:804
 msgid "Repopulate Playlist"
 msgstr "Herbevolk Speellys"
 
-#: MainWindow.cpp:811
+#: MainWindow.cpp:810
 #, fuzzy
 #| msgid "Default Dynamic Playlist"
 msgid "Disable Dynamic Playlist"
 msgstr "Verstek Dinamiese Speellys"
 
-#: MainWindow.cpp:815
+#: MainWindow.cpp:814
 msgid "Next Track"
 msgstr "Volgende Snit"
 
-#: MainWindow.cpp:820
+#: MainWindow.cpp:819
 msgid "Increase Volume"
 msgstr "Vermeeder Luidheid"
 
-#: MainWindow.cpp:826
+#: MainWindow.cpp:825
 msgid "Decrease Volume"
 msgstr "Verminder Luidheid"
 
-#: MainWindow.cpp:832
+#: MainWindow.cpp:831
 msgid "Toggle Main Window"
 msgstr "Wissel Hoof Venster"
 
-#: MainWindow.cpp:837
+#: MainWindow.cpp:836
 msgid "Toggle Full Screen"
 msgstr "Verwissel Volskerm"
 
-#: MainWindow.cpp:842
+#: MainWindow.cpp:841
 msgid "Jump to"
 msgstr "Spring na"
 
-#: MainWindow.cpp:847
+#: MainWindow.cpp:846
 msgid "Show active track"
 msgstr "Dui aan werksame snit"
 
-#: MainWindow.cpp:851
+#: MainWindow.cpp:850
 msgid "Show Notification Popup"
 msgstr "Wys Kennisgewing Opspring"
 
-#: MainWindow.cpp:856
+#: MainWindow.cpp:855
 msgid "Mute Volume"
 msgstr "Doof Luidheid"
 
-#: MainWindow.cpp:861
+#: MainWindow.cpp:860
 msgid "Last.fm: Love Current Track"
 msgstr "Last.fm: Gaande oor Huidige Snit"
 
-#: MainWindow.cpp:866
+#: MainWindow.cpp:865
 msgid "Last.fm: Ban Current Track"
 msgstr "Last.fm: Verban Huidige Snit"
 
-#: MainWindow.cpp:871
+#: MainWindow.cpp:870
 msgid "Last.fm: Skip Current Track"
 msgstr "Last.fm: Slaan Huidige Snit Oor"
 
-#: MainWindow.cpp:876 playlist/view/PlaylistViewCommon.cpp:115
+#: MainWindow.cpp:875 playlist/view/PlaylistViewCommon.cpp:115
 msgid "Queue Track"
 msgstr "Plaas Snit In Wagtou"
 
-#: MainWindow.cpp:881
+#: MainWindow.cpp:880
 msgid "Rate Current Track: 1"
 msgstr "Keuring vir die huidige snit: 1"
 
-#: MainWindow.cpp:886
+#: MainWindow.cpp:885
 msgid "Rate Current Track: 2"
 msgstr "Keuring vir die huidige snit: 2"
 
-#: MainWindow.cpp:891
+#: MainWindow.cpp:890
 msgid "Rate Current Track: 3"
 msgstr "Keuring vir die huidige snit: 3"
 
-#: MainWindow.cpp:896
+#: MainWindow.cpp:895
 msgid "Rate Current Track: 4"
 msgstr "Keuring vir die huidige snit: 4"
 
-#: MainWindow.cpp:901
+#: MainWindow.cpp:900
 msgid "Rate Current Track: 5"
 msgstr "Keuring vir die huidige snit: 5"
 
-#: MainWindow.cpp:907
+#: MainWindow.cpp:906
 msgid "Network Request Viewer"
 msgstr ""
 
-#: MainWindow.cpp:925
+#: MainWindow.cpp:924
 msgid "&About Amarok"
 msgstr "Aangaande Amarok"
 
-#: MainWindow.cpp:929
+#: MainWindow.cpp:928
 msgid "&Report Bug..."
 msgstr ""
 
-#: MainWindow.cpp:989
+#: MainWindow.cpp:988
 msgid "&Music"
 msgstr "&Musiek"
 
-#: MainWindow.cpp:993
+#: MainWindow.cpp:992
 msgid "&Amarok"
 msgstr "&Amarok"
 
-#: MainWindow.cpp:1017 playlist/PlaylistDock.cpp:48
+#: MainWindow.cpp:1016 playlist/PlaylistDock.cpp:48
 msgid "&Playlist"
 msgstr "Speellys"
 
-#: MainWindow.cpp:1033
+#: MainWindow.cpp:1032
 msgid "&Tools"
 msgstr "&Gereedskap"
 
-#: MainWindow.cpp:1048
+#: MainWindow.cpp:1047
 msgid "&Settings"
 msgstr "&Instellings"
 
-#: MainWindow.cpp:1094
+#: MainWindow.cpp:1093
 #, kde-format
 msgid ""
 "You have chosen to hide the menu bar.\n"
@@ -5837,18 +5956,18 @@ msgid ""
 "Please remember that you can always use the shortcut \"%1\" to bring it back."
 msgstr ""
 
-#: MainWindow.cpp:1096
+#: MainWindow.cpp:1095
 #, fuzzy
 #| msgid "Hide menu"
 msgid "Hide Menu"
 msgstr "Versteek kieslys"
 
-#: MainWindow.cpp:1140
+#: MainWindow.cpp:1137
 #, kde-format
 msgid "Paused  ::  %1"
 msgstr "Wagtend :: %1"
 
-#: MainWindow.cpp:1153 amarokurls/BookmarkTreeView.cpp:377
+#: MainWindow.cpp:1150 amarokurls/BookmarkTreeView.cpp:377
 #: amarokurls/BookmarkTreeView.cpp:378 amarokurls/BookmarkTreeView.cpp:379
 #: context/applets/albums/AlbumItem.cpp:97
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:429
@@ -5858,7 +5977,7 @@ msgstr "Wagtend :: %1"
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: MainWindow.cpp:1153
+#: MainWindow.cpp:1150
 #, kde-format
 msgid "%1 - %2  ::  %3"
 msgstr "%1 - %2  ::  %3"
@@ -6895,36 +7014,6 @@ msgid_plural "%1 tracks"
 msgstr[0] "1 snit"
 msgstr[1] "%1 snitte"
 
-#: browsers/CollectionTreeView.cpp:230
-#: browsers/CollectionTreeItemModelBase.cpp:1160
-#: context/applets/albums/AlbumsView.cpp:255
-#: context/applets/wikipedia/WikipediaApplet.cpp:600
-#: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:242
-#: dialogs/FilenameLayoutDialog.cpp:619 musicbrainz/MusicBrainzTags.cpp:360
-#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:894
-#: services/jamendo/JamendoInfoParser.cpp:83
-#: services/magnatune/MagnatuneStore.cpp:223
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-msgid "Album"
-msgstr "Album"
-
-#: browsers/CollectionTreeView.cpp:250 configdialog/ConfigDialog.cpp:59
-msgid "Collection"
-msgstr "Versameling"
-
-#: browsers/CollectionTreeView.cpp:542 services/lastfm/LastFmTreeView.cpp:201
-msgid "More..."
-msgstr "Nog..."
-
-#: browsers/CollectionTreeView.cpp:909
-msgctxt "Organize Files"
-msgid "Organize Files"
-msgstr "Organiseer Lêers"
-
-#: browsers/CollectionTreeView.cpp:1079
-msgid "Delete Tracks"
-msgstr "Skrap Snitte"
-
 #: browsers/CollectionTreeItemModelBase.cpp:238
 #: browsers/CollectionTreeItemModelBase.cpp:291
 msgctxt "The Name is not known"
@@ -6942,6 +7031,19 @@ msgstr "Verskeie Kunstenaars"
 #: browsers/CollectionTreeItemModelBase.cpp:1160
 msgid "Year - Album"
 msgstr "Jaar - Album"
+
+#: browsers/CollectionTreeItemModelBase.cpp:1160
+#: browsers/CollectionTreeView.cpp:230
+#: context/applets/albums/AlbumsView.cpp:255
+#: context/applets/wikipedia/WikipediaApplet.cpp:600
+#: dialogs/transferdialog.cpp:89 dialogs/FilenameLayoutDialog.cpp:242
+#: dialogs/FilenameLayoutDialog.cpp:619 musicbrainz/MusicBrainzTags.cpp:360
+#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:894
+#: services/jamendo/JamendoInfoParser.cpp:83
+#: services/magnatune/MagnatuneStore.cpp:223
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+msgid "Album"
+msgstr "Album"
 
 #: browsers/CollectionTreeItemModelBase.cpp:1163
 #: core/meta/support/MetaConstants.cpp:110
@@ -6992,6 +7094,23 @@ msgstr "twee maande gelede"
 #: browsers/CollectionTreeItemModelBase.cpp:1233
 msgid "three months ago"
 msgstr "drie maande gelede"
+
+#: browsers/CollectionTreeView.cpp:250 configdialog/ConfigDialog.cpp:59
+msgid "Collection"
+msgstr "Versameling"
+
+#: browsers/CollectionTreeView.cpp:542 services/lastfm/LastFmTreeView.cpp:201
+msgid "More..."
+msgstr "Nog..."
+
+#: browsers/CollectionTreeView.cpp:909
+msgctxt "Organize Files"
+msgid "Organize Files"
+msgstr "Organiseer Lêers"
+
+#: browsers/CollectionTreeView.cpp:1079
+msgid "Delete Tracks"
+msgstr "Skrap Snitte"
 
 #: configdialog/dialogs/DatabaseConfig.cpp:93
 msgctxt ""
@@ -13861,10 +13980,6 @@ msgstr "Kliek vir nog analiseerders"
 msgid "&Visualizations"
 msgstr "Visualiserings"
 
-#: widgets/BookmarkPopup.cpp:84 widgets/BookmarkPopup.cpp:112
-msgid "Bookmark"
-msgstr "Boekmerk"
-
 #: widgets/PlayPauseButton.cpp:31 widgets/PlayPauseButton.cpp:81
 #, fuzzy
 #| msgid "Playback"
@@ -14300,6 +14415,10 @@ msgstr "Stop"
 #: widgets/Osd.cpp:720
 msgid "Paused"
 msgstr "Wagtend"
+
+#: widgets/BookmarkPopup.cpp:83 widgets/BookmarkPopup.cpp:111
+msgid "Bookmark"
+msgstr "Boekmerk"
 
 #: ActionClasses.cpp:85
 msgid "Amarok Menu"
@@ -15042,125 +15161,6 @@ msgstr ""
 #| msgid "Updating podcast from %1 failed with error:\n"
 msgid "Reading OPML podcast from %1 failed with error:\n"
 msgstr "Opdateer potgooi van %1 het misluk met fout:\n"
-
-#: App.cpp:432
-msgid "Files/URLs to open"
-msgstr "Lêers/URLs om oop te maak"
-
-#: App.cpp:433
-msgid "Immediately start playing an audio cd"
-msgstr ""
-
-#: App.cpp:435
-msgid "Skip backwards in playlist"
-msgstr "Spring terugwaarts in die speel lys"
-
-#: App.cpp:437
-msgid "Start playing current playlist"
-msgstr "Begin om die huidige speel lys te speel"
-
-#: App.cpp:439
-msgid "Play if stopped, pause if playing"
-msgstr "Speel indien gestop, wag indien besig is om te speel"
-
-#: App.cpp:440
-msgid "Pause playback"
-msgstr "Pouseer terugspeel"
-
-#: App.cpp:442
-msgid "Stop playback"
-msgstr "Stop terugspeel"
-
-#: App.cpp:444
-msgid "Skip forwards in playlist"
-msgstr "Spring vorentoe in die speellys"
-
-#: App.cpp:445
-msgid "Additional options:"
-msgstr "Verdere opsies:"
-
-#: App.cpp:447
-msgid "Append files/URLs to playlist"
-msgstr "Las lêers/URLs agter aan speellys"
-
-#: App.cpp:448
-msgid "Queue URLs after the currently playing track"
-msgstr "Plaas URLs in die wagtou na die snit wat tans speel"
-
-#: App.cpp:450
-msgid "Load URLs, replacing current playlist"
-msgstr "Laai URLs en vervang die huidige speellys met die resultaat"
-
-#: App.cpp:452
-msgid "Print verbose debugging information"
-msgstr "Druk breedvoerige ontfoutingsinligting"
-
-#: App.cpp:454
-msgid "Disable colorization for debug output."
-msgstr ""
-
-#: App.cpp:456
-msgid "Allow running multiple Amarok instances"
-msgstr "Laat veelvuldige Amarok instansies toe om te loop"
-
-#: App.cpp:457
-msgid "Base for relative filenames/URLs"
-msgstr "Basis wat vir relatiewe lêername/URLs gebruik moet word"
-
-#: App.cpp:459
-msgid "Unit test options:"
-msgstr "Eenheidstoets opsies"
-
-#: App.cpp:460
-msgid "Run integrated unit tests"
-msgstr "Loop geïntegreerde eenheidstoetse"
-
-#: App.cpp:461
-msgid "Destination of test output: 'stdout', 'log'"
-msgstr "Toetsafvoer bestemming: 'stdout', 'log'"
-
-#: App.cpp:462
-msgid "Format of test output: 'xml', 'lightxml', 'plaintext'"
-msgstr "Toetsafvoer formaat: 'xml', 'lightxml', 'plaintext'"
-
-#: App.cpp:463
-msgid "Verbosity from 0-3 (highest)"
-msgstr "Breedspraaklikheid van 0-3 (mees)"
-
-#: App.cpp:703
-msgid ""
-"The embedded database was not found; you must set up a database server "
-"connection.\n"
-"You must restart Amarok after doing this."
-msgstr ""
-"Ingebedde databasis ongevonde; jy moet 'n databasis bediener koppeling "
-"opstel. \n"
-"Jy moet Amarok daarna herlaai."
-
-#: App.cpp:704
-msgid ""
-"The connection details for the database server were invalid.\n"
-"You must enter correct settings and restart Amarok after doing this."
-msgstr ""
-"Die databasis koppelingsbesonderhede was ongeldig.\n"
-"Jy moet korrekte instellings gee en Amarok dan herlaai."
-
-#: App.cpp:705
-msgid "Database Error"
-msgstr "Databasis Fout"
-
-#: App.cpp:750
-msgid "Moving files to trash"
-msgstr "Besig om lêers na die asblik te skuif"
-
-#: App.cpp:838
-#, kde-format
-msgid ""
-"A music path, %1, is set in System Settings.\n"
-"Would you like to use that as a collection folder?"
-msgstr ""
-"'n Musiekpad (%1) is ingestel by Stelsel Instellings. \n"
-"Wil jy dit as 'n versameling gids gebruik?"
 
 #: PluginManager.cpp:246
 msgid ""
