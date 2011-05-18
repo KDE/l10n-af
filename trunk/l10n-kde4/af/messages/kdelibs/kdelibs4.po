@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-17 04:19+0200\n"
+"POT-Creation-Date: 2011-05-18 04:04+0200\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -6582,7 +6582,7 @@ msgid "Reset Toolbars"
 msgstr "Herstel Nutsbalke"
 
 #: kdeui/dialogs/kedittoolbar.cpp:602 khtml/khtmlview.cpp:2811
-#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1839
+#: khtml/khtmlview.cpp:2844 khtml/html/html_formimpl.cpp:1845
 msgid "Reset"
 msgstr "Herstel"
 
@@ -8639,12 +8639,6 @@ msgctxt "@action"
 msgid "About KDE"
 msgstr "Aangaande KDE"
 
-#: kdeui/sonnet/configdialog.cpp:51
-#, fuzzy
-#| msgid "Resource Configuration"
-msgid "Spell Checking Configuration"
-msgstr "Hulpbron Opstelling"
-
 #: kdeui/sonnet/dialog.cpp:103 kdeui/sonnet/dialog.cpp:224
 #: kdeui/sonnet/dialog.cpp:445
 #, fuzzy
@@ -8684,6 +8678,12 @@ msgstr "Spel Toetser"
 #| msgid "Spell Checker"
 msgid "Spell check complete."
 msgstr "Spel Toetser"
+
+#: kdeui/sonnet/configdialog.cpp:51
+#, fuzzy
+#| msgid "Resource Configuration"
+msgid "Spell Checking Configuration"
+msgstr "Hulpbron Opstelling"
 
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
@@ -11731,112 +11731,12 @@ msgstr "Beeld - %1x%2 Beeld elemente"
 msgid "Done."
 msgstr "Klaar."
 
-#: khtml/test_regression.cpp:619
-msgid "Directory containing tests, basedir and output directories."
-msgstr ""
-
-#: khtml/test_regression.cpp:621
-msgid "Do not suppress debug output"
-msgstr ""
-
-#: khtml/test_regression.cpp:623
-msgid "Regenerate baseline (instead of checking)"
-msgstr ""
-
-#: khtml/test_regression.cpp:625
-msgid "Do not show the window while running tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:627
-msgid "Only run a single test. Multiple options allowed."
-msgstr ""
-
-#: khtml/test_regression.cpp:628
-msgid "Only run .js tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:629
-msgid "Only run .html tests"
-msgstr ""
-
-#: khtml/test_regression.cpp:632
-msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
-msgstr ""
-
-#: khtml/test_regression.cpp:634
-msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
-msgstr ""
-
-#: khtml/test_regression.cpp:635
-msgid ""
-"Directory containing tests, basedir and output directories. Only regarded if "
-"-b is not specified."
-msgstr ""
-
-#: khtml/test_regression.cpp:636
-msgid ""
-"Relative path to testcase, or directory of testcases to be run (equivalent "
-"to -t)."
-msgstr ""
-
-#: khtml/test_regression.cpp:638
-#, fuzzy
-#| msgid "Regular e&xpression"
-msgid "TestRegression"
-msgstr "Natuurlike uitdrukking"
-
-#: khtml/test_regression.cpp:639
-msgid "Regression tester for khtml"
-msgstr ""
-
 #: khtml/test_regression_gui_main.cpp:34
 msgid "TestRegressionGui"
 msgstr ""
 
 #: khtml/test_regression_gui_main.cpp:35
 msgid "GUI for the khtml regression tester"
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:76
-#, fuzzy
-msgid "Available Tests: 0"
-msgstr "Beskikbare adresse:"
-
-#: khtml/test_regression_gui_window.cpp:181
-msgid "Please choose a valid 'khtmltests/regression/' directory."
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:250
-msgid "Please choose a valid 'khtml/' build directory."
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:532
-#, kde-format
-msgid "Available Tests: %1 (ignored: %2)"
-msgstr ""
-
-#: khtml/test_regression_gui_window.cpp:563
-#: khtml/ecma/debugger/debugwindow.cpp:192
-msgid "Continue"
-msgstr "Gaan voort"
-
-#: khtml/test_regression_gui_window.cpp:632
-#, fuzzy
-msgid "Cannot find testregression executable."
-msgstr "Kon nie die program '%1' vind nie."
-
-#: khtml/test_regression_gui_window.cpp:1102
-#, fuzzy
-msgid "Run test..."
-msgstr "Verander Lys Naam..."
-
-#: khtml/test_regression_gui_window.cpp:1104
-#, fuzzy
-msgid "Add to ignores..."
-msgstr "Gaan na Lyn..."
-
-#: khtml/test_regression_gui_window.cpp:1105
-msgid "Remove from ignores..."
 msgstr ""
 
 #: khtml/testkhtml.cpp:39
@@ -11872,7 +11772,7 @@ msgid "Access Keys activated"
 msgstr "Toegang Sleutels geaktiveer"
 
 #: khtml/khtmlview.cpp:2797 khtml/khtmlview.cpp:2839 khtml/khtml_part.cpp:4764
-#: khtml/html/html_formimpl.cpp:1635 khtml/html/html_formimpl.cpp:1847
+#: khtml/html/html_formimpl.cpp:1641 khtml/html/html_formimpl.cpp:1853
 msgid "Submit"
 msgstr "Stuur in"
 
@@ -12370,6 +12270,106 @@ msgstr "Vertoon geblokkeerde venster passiewe opspring kennisgewing"
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "Stel JavaScript Nuwe Venster Beleid op..."
 
+#: khtml/test_regression.cpp:619
+msgid "Directory containing tests, basedir and output directories."
+msgstr ""
+
+#: khtml/test_regression.cpp:621
+msgid "Do not suppress debug output"
+msgstr ""
+
+#: khtml/test_regression.cpp:623
+msgid "Regenerate baseline (instead of checking)"
+msgstr ""
+
+#: khtml/test_regression.cpp:625
+msgid "Do not show the window while running tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:627
+msgid "Only run a single test. Multiple options allowed."
+msgstr ""
+
+#: khtml/test_regression.cpp:628
+msgid "Only run .js tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:629
+msgid "Only run .html tests"
+msgstr ""
+
+#: khtml/test_regression.cpp:632
+msgid "Put output in &lt;directory&gt; instead of &lt;base_dir&gt;/output"
+msgstr ""
+
+#: khtml/test_regression.cpp:634
+msgid "Use &lt;directory&gt; as reference instead of &lt;base_dir&gt;/baseline"
+msgstr ""
+
+#: khtml/test_regression.cpp:635
+msgid ""
+"Directory containing tests, basedir and output directories. Only regarded if "
+"-b is not specified."
+msgstr ""
+
+#: khtml/test_regression.cpp:636
+msgid ""
+"Relative path to testcase, or directory of testcases to be run (equivalent "
+"to -t)."
+msgstr ""
+
+#: khtml/test_regression.cpp:638
+#, fuzzy
+#| msgid "Regular e&xpression"
+msgid "TestRegression"
+msgstr "Natuurlike uitdrukking"
+
+#: khtml/test_regression.cpp:639
+msgid "Regression tester for khtml"
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:76
+#, fuzzy
+msgid "Available Tests: 0"
+msgstr "Beskikbare adresse:"
+
+#: khtml/test_regression_gui_window.cpp:181
+msgid "Please choose a valid 'khtmltests/regression/' directory."
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:250
+msgid "Please choose a valid 'khtml/' build directory."
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:532
+#, kde-format
+msgid "Available Tests: %1 (ignored: %2)"
+msgstr ""
+
+#: khtml/test_regression_gui_window.cpp:563
+#: khtml/ecma/debugger/debugwindow.cpp:192
+msgid "Continue"
+msgstr "Gaan voort"
+
+#: khtml/test_regression_gui_window.cpp:632
+#, fuzzy
+msgid "Cannot find testregression executable."
+msgstr "Kon nie die program '%1' vind nie."
+
+#: khtml/test_regression_gui_window.cpp:1102
+#, fuzzy
+msgid "Run test..."
+msgstr "Verander Lys Naam..."
+
+#: khtml/test_regression_gui_window.cpp:1104
+#, fuzzy
+msgid "Add to ignores..."
+msgstr "Gaan na Lyn..."
+
+#: khtml/test_regression_gui_window.cpp:1105
+msgid "Remove from ignores..."
+msgstr ""
+
 #: khtml/ecma/kjs_binding.cpp:185
 #, fuzzy
 #| msgid ""
@@ -12394,7 +12394,7 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "Skrip"
 
-#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2174
+#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2161
 msgid "Confirmation: JavaScript Popup"
 msgstr "Bevestiging: JavaScript Opspring"
 
@@ -12415,11 +12415,11 @@ msgstr ""
 "<qt>Hierdie tuiste probeer <p>%1</p> in 'n nuwe blaaier venster oopmaak via "
 "JavaScript.Wil jy dit toelaat?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
 msgid "Allow"
 msgstr "Toelaat"
 
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2181
+#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
 msgid "Do Not Allow"
 msgstr "Moenie toelaat nie"
 
@@ -12457,7 +12457,7 @@ msgstr "Insert"
 msgid "Disallow"
 msgstr "Weier"
 
-#: khtml/ecma/kjs_html.cpp:2176
+#: khtml/ecma/kjs_html.cpp:2163
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -12467,7 +12467,7 @@ msgstr ""
 "gaan oopmaak.\n"
 "Wil jy toelaat dat die vorm ingestuur word?"
 
-#: khtml/ecma/kjs_html.cpp:2179
+#: khtml/ecma/kjs_html.cpp:2166
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -12689,7 +12689,7 @@ msgid_plural "&Send Files"
 msgstr[0] "Stuur Lêers"
 msgstr[1] "Stuur Lêers"
 
-#: khtml/html/html_formimpl.cpp:2701
+#: khtml/html/html_formimpl.cpp:2717
 #, fuzzy
 #| msgid "General"
 msgid "Key Generator"
