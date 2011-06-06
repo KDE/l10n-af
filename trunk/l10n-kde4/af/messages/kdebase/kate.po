@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-01 03:56+0200\n"
+"POT-Creation-Date: 2011-06-06 04:01+0200\n"
 "PO-Revision-Date: 2005-11-24 11:27+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1181,13 +1181,13 @@ msgstr ""
 msgid "Close all documents"
 msgstr "Maak toe alle open dokumente."
 
-#: app/katemainwindow.cpp:436 app/katedocmanager.cpp:538
+#: app/katemainwindow.cpp:436 app/katedocmanager.cpp:545
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr ""
 "Nuwe lêer was oopgemaak terwyl Kate besig was om toe te maak. Toemaak "
 "gestaak."
 
-#: app/katemainwindow.cpp:437 app/katedocmanager.cpp:539
+#: app/katemainwindow.cpp:437 app/katedocmanager.cpp:546
 msgid "Closing Aborted"
 msgstr "Toemaak gestaak"
 
@@ -1388,62 +1388,6 @@ msgstr ""
 msgid "Diff Output"
 msgstr ""
 
-#: app/katesavemodifieddialog.cpp:92
-#, kde-format
-msgid "Save As (%1)"
-msgstr "Stoor as (%1)"
-
-#: app/katesavemodifieddialog.cpp:164
-msgid "Save Documents"
-msgstr "Stoor Dokumente"
-
-#: app/katesavemodifieddialog.cpp:170
-msgid "&Save Selected"
-msgstr "Stoor gekiesde"
-
-#: app/katesavemodifieddialog.cpp:178
-#, fuzzy
-#| msgid "Do Not Save"
-msgid "Do &Not Close"
-msgstr "Moet nie stoor nie"
-
-#: app/katesavemodifieddialog.cpp:185
-msgid ""
-"<qt>The following documents have been modified. Do you want to save them "
-"before closing?</qt>"
-msgstr ""
-"<qt>Die volgende dokumente was verander. Wil jy hulle stoor voordat die "
-"program toemaak?</qt>"
-
-#: app/katesavemodifieddialog.cpp:190
-msgid "Title"
-msgstr "Titel"
-
-#: app/katesavemodifieddialog.cpp:190
-msgid "Location"
-msgstr "Ligging"
-
-#: app/katesavemodifieddialog.cpp:196
-msgid "Projects"
-msgstr "Projekte"
-
-#: app/katesavemodifieddialog.cpp:202
-#: plugins/filetree/katefiletreeplugin.cpp:155
-msgid "Documents"
-msgstr "Dokumente"
-
-#: app/katesavemodifieddialog.cpp:218
-msgid "Se&lect All"
-msgstr "Kies alle"
-
-#: app/katesavemodifieddialog.cpp:279
-msgid ""
-"Data you requested to be saved could not be written. Please choose how you "
-"want to proceed."
-msgstr ""
-"Data wat jy wou stoor kon nie geskryf word nie. Dui asb. Aan hoe jy wil "
-"voortgaan."
-
 #: app/katesession.cpp:269
 msgid ""
 "Internal error: there is more than one instance open for a given session."
@@ -1573,51 +1517,6 @@ msgstr " INS "
 msgid " BLOCK "
 msgstr " BLK "
 
-#: app/katedocmanager.cpp:359
-#, kde-format
-msgid ""
-"The supposedly temporary file %1 has been modified. Do you want to delete it "
-"anyway?"
-msgstr ""
-
-#: app/katedocmanager.cpp:361
-#, fuzzy
-msgid "Delete File?"
-msgstr "Uitgevee"
-
-#: app/katedocmanager.cpp:503
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
-#| "save your changes or discard them?"
-msgid ""
-"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
-"save your changes or discard them?</p>"
-msgstr ""
-"<p>Die dokument '%1' was verander, maar nog nie gestoor nie.<p>Wil jy jou "
-"veranderinge stoor of weggooi?"
-
-#: app/katedocmanager.cpp:505
-msgid "Close Document"
-msgstr "Maak Dokument Toe"
-
-#: app/katedocmanager.cpp:512
-#, fuzzy
-msgid "Save As"
-msgstr "Stoor As..."
-
-#: app/katedocmanager.cpp:612
-msgid "Starting Up"
-msgstr "Besig om op te start"
-
-#: app/katedocmanager.cpp:613
-msgid "Reopening files from the last session..."
-msgstr "Maak die lêers van die vorige sessie oop..."
-
-#: app/katedocmanager.cpp:819
-msgid "Errors/Warnings while opening documents"
-msgstr ""
-
 #: app/kateviewmanager.cpp:120
 msgid "Split Ve&rtical"
 msgstr "Skei Vertikaal"
@@ -1699,6 +1598,111 @@ msgstr "Maak die volgende skei besigtig die aktief een."
 #: app/kateviewmanager.cpp:207
 msgid "Open File"
 msgstr "Open Lêer"
+
+#: app/katedocmanager.cpp:69
+#, fuzzy
+#| msgid ""
+#| "A KDE text-editor component could not be found;\n"
+#| "please check your KDE installation."
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation."
+msgstr ""
+"'n KDE teks redigeerder komponent kon nie gevind word nie;\n"
+"gaan asb. jou KDE installasie na."
+
+#: app/katedocmanager.cpp:366
+#, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
+msgstr ""
+
+#: app/katedocmanager.cpp:368
+#, fuzzy
+msgid "Delete File?"
+msgstr "Uitgevee"
+
+#: app/katedocmanager.cpp:510
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
+#| "save your changes or discard them?"
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr ""
+"<p>Die dokument '%1' was verander, maar nog nie gestoor nie.<p>Wil jy jou "
+"veranderinge stoor of weggooi?"
+
+#: app/katedocmanager.cpp:512
+msgid "Close Document"
+msgstr "Maak Dokument Toe"
+
+#: app/katedocmanager.cpp:519
+#, fuzzy
+msgid "Save As"
+msgstr "Stoor As..."
+
+#: app/katedocmanager.cpp:619
+msgid "Starting Up"
+msgstr "Besig om op te start"
+
+#: app/katedocmanager.cpp:620
+msgid "Reopening files from the last session..."
+msgstr "Maak die lêers van die vorige sessie oop..."
+
+#: app/katedocmanager.cpp:826
+msgid "Errors/Warnings while opening documents"
+msgstr ""
+
+#: app/katesavemodifieddialog.cpp:91
+#, kde-format
+msgid "Save As (%1)"
+msgstr "Stoor as (%1)"
+
+#: app/katesavemodifieddialog.cpp:163
+msgid "Save Documents"
+msgstr "Stoor Dokumente"
+
+#: app/katesavemodifieddialog.cpp:169
+msgid "&Save Selected"
+msgstr "Stoor gekiesde"
+
+#: app/katesavemodifieddialog.cpp:177
+#, fuzzy
+#| msgid "Do Not Save"
+msgid "Do &Not Close"
+msgstr "Moet nie stoor nie"
+
+#: app/katesavemodifieddialog.cpp:184
+msgid ""
+"<qt>The following documents have been modified. Do you want to save them "
+"before closing?</qt>"
+msgstr ""
+"<qt>Die volgende dokumente was verander. Wil jy hulle stoor voordat die "
+"program toemaak?</qt>"
+
+#: app/katesavemodifieddialog.cpp:187
+#: plugins/filetree/katefiletreeplugin.cpp:155
+msgid "Documents"
+msgstr "Dokumente"
+
+#: app/katesavemodifieddialog.cpp:187
+msgid "Location"
+msgstr "Ligging"
+
+#: app/katesavemodifieddialog.cpp:196
+msgid "Se&lect All"
+msgstr "Kies alle"
+
+#: app/katesavemodifieddialog.cpp:247
+msgid ""
+"Data you requested to be saved could not be written. Please choose how you "
+"want to proceed."
+msgstr ""
+"Data wat jy wou stoor kon nie geskryf word nie. Dui asb. Aan hoe jy wil "
+"voortgaan."
 
 #: plugins/filetree/katefiletreeconfigpage.cpp:60
 msgid "Background Shading"
@@ -1855,6 +1859,12 @@ msgstr ""
 #, fuzzy
 msgid "Sort By"
 msgstr "Sorteer volgens"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Projects"
+#~ msgstr "Projekte"
 
 #, fuzzy
 #~| msgid "&Document"
@@ -2868,13 +2878,6 @@ msgstr "Sorteer volgens"
 
 #~ msgid "Set the sorting method for the documents."
 #~ msgstr "Stel dir sortering metode vir die dokumente."
-
-#~ msgid ""
-#~ "A KDE text-editor component could not be found;\n"
-#~ "please check your KDE installation."
-#~ msgstr ""
-#~ "'n KDE teks redigeerder komponent kon nie gevind word nie;\n"
-#~ "gaan asb. jou KDE installasie na."
 
 #~ msgid "Use this command to print the current document"
 #~ msgstr "Gebruik hierdie om die huidige dokument te druk"
