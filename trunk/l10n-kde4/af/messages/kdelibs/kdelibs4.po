@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-06 04:17+0200\n"
+"POT-Creation-Date: 2011-06-08 04:16+0200\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -3429,39 +3429,6 @@ msgstr ""
 "Afrikaanse tale kan http://kde.af.org.za en http://www.translate.org.za "
 "besoek word.</p>"
 
-#: kdecore/kernel/ktoolinvocation.cpp:79
-msgid "Function must be called from the main thread."
-msgstr ""
-
-#: kdecore/kernel/ktoolinvocation.cpp:120
-#, kde-format
-msgid ""
-"Error launching %1. Either KLauncher is not running anymore, or it failed to "
-"start the application."
-msgstr ""
-
-#: kdecore/kernel/ktoolinvocation.cpp:123
-#, fuzzy, kde-format
-msgid ""
-"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
-"%2\n"
-msgstr "Klauncher kon nie wees bereik deur middel van Dcop.\n"
-
-#: kdecore/kernel/ktoolinvocation.cpp:302
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"Kon nie die KDE Hulp Sentrum lanseer nie:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation.cpp:303
-msgid "Could not Launch Help Center"
-msgstr "Kon nie die Hulp Sentrum lanseer nie"
-
 #: kdecore/kernel/ktoolinvocation_x11.cpp:281
 #, kde-format
 msgid ""
@@ -3831,6 +3798,39 @@ msgstr ""
 #: kdecore/kernel/kcmdlineargs.cpp:1597
 msgid "KDE-tempfile"
 msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:79
+msgid "Function must be called from the main thread."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:120
+#, kde-format
+msgid ""
+"Error launching %1. Either KLauncher is not running anymore, or it failed to "
+"start the application."
+msgstr ""
+
+#: kdecore/kernel/ktoolinvocation.cpp:123
+#, fuzzy, kde-format
+msgid ""
+"KLauncher could not be reached via D-Bus. Error when calling %1:\n"
+"%2\n"
+msgstr "Klauncher kon nie wees bereik deur middel van Dcop.\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:302
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"Kon nie die KDE Hulp Sentrum lanseer nie:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation.cpp:303
+msgid "Could not Launch Help Center"
+msgstr "Kon nie die Hulp Sentrum lanseer nie"
 
 #: kdecore/localization/kcharsets.cpp:155
 #: kdecore/localization/kencodingdetector.cpp:1149
@@ -12394,9 +12394,37 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "Skrip"
 
-#: khtml/ecma/kjs_window.cpp:1650 khtml/ecma/kjs_html.cpp:2161
+#: khtml/ecma/kjs_html.cpp:2161 khtml/ecma/kjs_window.cpp:1650
 msgid "Confirmation: JavaScript Popup"
 msgstr "Bevestiging: JavaScript Opspring"
+
+#: khtml/ecma/kjs_html.cpp:2163
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"Hierdie tuiste stuur 'n vorm in wat 'n nuwe blaaier venster via JavaScript "
+"gaan oopmaak.\n"
+"Wil jy toelaat dat die vorm ingestuur word?"
+
+#: khtml/ecma/kjs_html.cpp:2166
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"Hierdie tuiste stuur 'n vorm in wat <p>%1</p> 'n nuwe blaaier venster via "
+"JavaScript gaan oopmaak.<br>Wil jy dit toelaat?"
+
+#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+msgid "Allow"
+msgstr "Toelaat"
+
+#: khtml/ecma/kjs_html.cpp:2168 khtml/ecma/kjs_window.cpp:1658
+msgid "Do Not Allow"
+msgstr "Moenie toelaat nie"
 
 #: khtml/ecma/kjs_window.cpp:1653
 msgid ""
@@ -12414,14 +12442,6 @@ msgid ""
 msgstr ""
 "<qt>Hierdie tuiste probeer <p>%1</p> in 'n nuwe blaaier venster oopmaak via "
 "JavaScript.Wil jy dit toelaat?</qt>"
-
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
-msgid "Allow"
-msgstr "Toelaat"
-
-#: khtml/ecma/kjs_window.cpp:1658 khtml/ecma/kjs_html.cpp:2168
-msgid "Do Not Allow"
-msgstr "Moenie toelaat nie"
 
 #: khtml/ecma/kjs_window.cpp:1971
 msgid "Close window?"
@@ -12456,26 +12476,6 @@ msgstr "Insert"
 #: khtml/ecma/kjs_window.cpp:2883
 msgid "Disallow"
 msgstr "Weier"
-
-#: khtml/ecma/kjs_html.cpp:2163
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"Hierdie tuiste stuur 'n vorm in wat 'n nuwe blaaier venster via JavaScript "
-"gaan oopmaak.\n"
-"Wil jy toelaat dat die vorm ingestuur word?"
-
-#: khtml/ecma/kjs_html.cpp:2166
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"Hierdie tuiste stuur 'n vorm in wat <p>%1</p> 'n nuwe blaaier venster via "
-"JavaScript gaan oopmaak.<br>Wil jy dit toelaat?"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 #, fuzzy
@@ -14475,6 +14475,19 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "Wend aan instellings"
 
+#: kutils/kprintpreview.cpp:123
+#, fuzzy
+msgid "Could not load print preview part"
+msgstr ""
+"Kon nie biblioteek '%1' oopmaak nie.\n"
+"%2"
+
+#: kutils/kprintpreview.cpp:140
+#, fuzzy
+#| msgid "Print Previe&w..."
+msgid "Print Preview"
+msgstr "Druk Voorskou..."
+
 #: kutils/kpluginselector.cpp:136
 msgid ""
 "Automatic changes have been performed due to plugin dependencies. Click here "
@@ -14531,25 +14544,12 @@ msgstr[1] ""
 msgid "Search Plugins"
 msgstr "Soek Kolomme"
 
-#: kutils/kpluginselector.cpp:767 kutils/kpluginselector.cpp:796
+#: kutils/kpluginselector.cpp:768 kutils/kpluginselector.cpp:797
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgctxt "Used only for plugins"
 msgid "About %1"
 msgstr "Aangaande %1"
-
-#: kutils/kprintpreview.cpp:123
-#, fuzzy
-msgid "Could not load print preview part"
-msgstr ""
-"Kon nie biblioteek '%1' oopmaak nie.\n"
-"%2"
-
-#: kutils/kprintpreview.cpp:140
-#, fuzzy
-#| msgid "Print Previe&w..."
-msgid "Print Preview"
-msgstr "Druk Voorskou..."
 
 #: kutils/ksettings/componentsdialog.cpp:53
 msgid "Select Components"

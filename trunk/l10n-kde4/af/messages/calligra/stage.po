@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-04 03:39+0200\n"
+"POT-Creation-Date: 2011-06-08 03:37+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -523,7 +523,7 @@ msgstr "Skyfievertoning"
 #: part/ui/KPrCustomSlideShowsDialog.cpp:239
 #: part/ui/KPrCustomSlideShowsDialog.cpp:257
 #: part/ui/KPrHtmlExportDialog.cpp:119
-#: part/KPrSlidesSorterDocumentModel.cpp:66
+#: part/KPrSlidesSorterDocumentModel.cpp:96
 #, kde-format
 msgid "Slide %1"
 msgstr "Skuif %1"
@@ -602,34 +602,60 @@ msgstr "Stoor Opstelling..."
 msgid "Are you sure you want to remove \"%1\"?"
 msgstr "Doen jy wil hê na verwyder die huidige bladsy?"
 
-#: part/KPrSlidesSorterDocumentModel.cpp:59
+#: part/KPrSelectionToggle.cpp:133
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Deselect Item"
+msgstr "Deur te kies..."
+
+#: part/KPrSelectionToggle.cpp:134
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Select Item"
+msgstr "Deur te kies..."
+
+#: part/KPrSlidesSorterDocumentModel.cpp:89
 msgid "Unknown"
 msgstr ""
 
-#: part/KPrViewModeSlidesSorter.cpp:130
+#: part/KPrSlidesSorterDocumentModel.cpp:257
+#, fuzzy
+msgid "&Move Here"
+msgstr "Skuif"
+
+#: part/KPrSlidesSorterDocumentModel.cpp:261
+#, fuzzy
+msgid "&Copy Here"
+msgstr "Skuif"
+
+#: part/KPrSlidesSorterDocumentModel.cpp:265
+msgid "C&ancel"
+msgstr ""
+
+#: part/KPrViewModeSlidesSorter.cpp:410
 #, fuzzy
 #| msgid "Slideshow"
 msgid "Add a new slide"
 msgstr "Skyfievertoning"
 
-#: part/KPrViewModeSlidesSorter.cpp:131
+#: part/KPrViewModeSlidesSorter.cpp:411
 #, fuzzy
-msgid "Delete current Slide"
-msgstr "Voor Huidige Bladsy"
+msgid "Delete selected slides"
+msgstr "Gekose skyfies"
 
-#: part/KPrViewModeSlidesSorter.cpp:133
+#: part/KPrViewModeSlidesSorter.cpp:413
 #, fuzzy
 #| msgid "&Custom"
 msgid "Cut"
 msgstr "Pasmaak"
 
-#: part/KPrViewModeSlidesSorter.cpp:134
+#: part/KPrViewModeSlidesSorter.cpp:414
 #, fuzzy
 #| msgid "Group"
 msgid "Copy"
 msgstr "Groep"
 
-#: part/KPrViewModeSlidesSorter.cpp:135
+#: part/KPrViewModeSlidesSorter.cpp:415
 #, fuzzy
 #| msgid "Path"
 msgid "Paste"
@@ -2403,6 +2429,10 @@ msgstr "Spel Toetsing"
 msgid "Presentation"
 msgstr "Aanbieding"
 
+#, fuzzy
+#~ msgid "Delete current Slide"
+#~ msgstr "Voor Huidige Bladsy"
+
 #~ msgid "KPresenter"
 #~ msgstr "Kpresenter"
 
@@ -3295,10 +3325,6 @@ msgstr "Aanbieding"
 #~ msgstr "Volgende Skuif"
 
 #, fuzzy
-#~ msgid "Selected slides:"
-#~ msgstr "Gekose skyfies"
-
-#, fuzzy
 #~ msgid "Custom Slide Show name is already used."
 #~ msgstr "Konfigureer Voltooiïng..."
 
@@ -3334,10 +3360,6 @@ msgstr "Aanbieding"
 #, fuzzy
 #~ msgid "Set New Options"
 #~ msgstr "Stel nuwe Opsies"
-
-#, fuzzy
-#~ msgid "Move Slide"
-#~ msgstr "Skuif"
 
 #~ msgid "Insert File"
 #~ msgstr "Voeg by Lêer"
@@ -3900,10 +3922,6 @@ msgstr "Aanbieding"
 
 #~ msgid "P&icture..."
 #~ msgstr "Prent..."
-
-#, fuzzy
-#~ msgid "Select"
-#~ msgstr "Deur te kies..."
 
 #~ msgid "&Rotate"
 #~ msgstr "Roteer"
