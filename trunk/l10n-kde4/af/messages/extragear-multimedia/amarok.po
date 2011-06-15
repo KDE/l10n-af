@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-13 03:51+0200\n"
+"POT-Creation-Date: 2011-06-15 03:48+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -17,6 +17,77 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.0\n"
+
+#: ActionClasses.cpp:86
+msgid "Amarok Menu"
+msgstr "Amarok Kieslys"
+
+#: ActionClasses.cpp:176
+msgid "Play/Pause"
+msgstr "Speel/Wag"
+
+#: ActionClasses.cpp:313
+msgid "Click to change"
+msgstr "Kliek om te wysig"
+
+#: ActionClasses.cpp:330
+msgid "&Replay Gain Mode"
+msgstr "&Replay Gain Modus"
+
+#: ActionClasses.cpp:332
+msgctxt "Replay Gain state, as in, disabled"
+msgid "&Off"
+msgstr "Af"
+
+#: ActionClasses.cpp:332
+msgctxt "Item, as in, music"
+msgid "&Track"
+msgstr "Snit"
+
+#: ActionClasses.cpp:333
+msgid "&Album"
+msgstr "Album"
+
+#: ActionClasses.cpp:342
+msgid "&Equalizer"
+msgstr "Band menger"
+
+#: ActionClasses.cpp:370
+msgid "Your current setup does not support the equalizer feature"
+msgstr "Jou huidige opstelling ondersteun nie die band menger funksie nie"
+
+#: ActionClasses.cpp:375
+msgctxt "Equalizer state, as in, disabled"
+msgid "&Off"
+msgstr "Af"
+
+#: ActionClasses.cpp:398
+msgid "Burn"
+msgstr "Skryf"
+
+#: ActionClasses.cpp:437
+msgid "Current Playlist"
+msgstr "Huidige Speellys"
+
+#: ActionClasses.cpp:438
+msgid "Selected Tracks"
+msgstr "Geselekteerde Snitte"
+
+#: ActionClasses.cpp:469
+msgid "Stop"
+msgstr "Stop"
+
+#: ActionClasses.cpp:521
+msgid "Stop after current Track"
+msgstr "Stop na huidige Snit"
+
+#: ActionClasses.cpp:536
+msgid "Stop after current track: On"
+msgstr "Stop na huidige snit: Aan"
+
+#: ActionClasses.cpp:542
+msgid "Stop after current track: Off"
+msgstr "Stop na huidige snit: Af"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -5573,77 +5644,6 @@ msgstr "Geen Groepering (Enkele Reël)"
 msgid "Verbose"
 msgstr "Breedspraaklik"
 
-#: ActionClasses.cpp:86
-msgid "Amarok Menu"
-msgstr "Amarok Kieslys"
-
-#: ActionClasses.cpp:176
-msgid "Play/Pause"
-msgstr "Speel/Wag"
-
-#: ActionClasses.cpp:313
-msgid "Click to change"
-msgstr "Kliek om te wysig"
-
-#: ActionClasses.cpp:330
-msgid "&Replay Gain Mode"
-msgstr "&Replay Gain Modus"
-
-#: ActionClasses.cpp:332
-msgctxt "Replay Gain state, as in, disabled"
-msgid "&Off"
-msgstr "Af"
-
-#: ActionClasses.cpp:332
-msgctxt "Item, as in, music"
-msgid "&Track"
-msgstr "Snit"
-
-#: ActionClasses.cpp:333
-msgid "&Album"
-msgstr "Album"
-
-#: ActionClasses.cpp:342
-msgid "&Equalizer"
-msgstr "Band menger"
-
-#: ActionClasses.cpp:370
-msgid "Your current setup does not support the equalizer feature"
-msgstr "Jou huidige opstelling ondersteun nie die band menger funksie nie"
-
-#: ActionClasses.cpp:375
-msgctxt "Equalizer state, as in, disabled"
-msgid "&Off"
-msgstr "Af"
-
-#: ActionClasses.cpp:398
-msgid "Burn"
-msgstr "Skryf"
-
-#: ActionClasses.cpp:437
-msgid "Current Playlist"
-msgstr "Huidige Speellys"
-
-#: ActionClasses.cpp:438
-msgid "Selected Tracks"
-msgstr "Geselekteerde Snitte"
-
-#: ActionClasses.cpp:469
-msgid "Stop"
-msgstr "Stop"
-
-#: ActionClasses.cpp:521
-msgid "Stop after current Track"
-msgstr "Stop na huidige Snit"
-
-#: ActionClasses.cpp:536
-msgid "Stop after current track: On"
-msgstr "Stop na huidige snit: Aan"
-
-#: ActionClasses.cpp:542
-msgid "Stop after current track: Off"
-msgstr "Stop na huidige snit: Af"
-
 #: equalizer/EqualizerPresets.cpp:90
 msgid "Manual"
 msgstr "Handmatig"
@@ -7317,10 +7317,6 @@ msgstr "Internet Dienste"
 msgid "Devices"
 msgstr "Media Toestelle"
 
-#: configdialog/dialogs/ScriptSelector.cpp:31 dialogs/ScriptSelector.cpp:31
-msgid "Search Scripts"
-msgstr "Deursoek skripte"
-
 #: configdialog/dialogs/ScriptsConfig.cpp:53
 #, fuzzy
 #| msgid "General"
@@ -7354,6 +7350,10 @@ msgid ""
 msgstr ""
 "<p>Skrip suksesvol verwyder.</p><p>Herlaai asb. Amarok om die skrip "
 "heeltemal te verwyder.</p>"
+
+#: configdialog/dialogs/ScriptSelector.cpp:31 dialogs/ScriptSelector.cpp:30
+msgid "Search Scripts"
+msgstr "Deursoek skripte"
 
 #: configdialog/ConfigDialog.cpp:58
 msgctxt "Miscellaneous settings"
@@ -11612,41 +11612,40 @@ msgid ""
 "dB"
 msgstr "0 dB"
 
-#: dialogs/EqualizerDialog.cpp:168 dialogs/EqualizerDialog.cpp:262
-#: dialogs/EqualizerDialog.cpp:318
+#: dialogs/EqualizerDialog.cpp:256
 msgctxt "Equalizer state, as in, disabled"
 msgid "Off"
 msgstr "Af"
 
-#: dialogs/EqualizerDialog.cpp:270
+#: dialogs/EqualizerDialog.cpp:273
 msgid "Cannot delete this preset"
 msgstr "Kan nie hierdie voorafinstelling skrap nie"
 
-#: dialogs/EqualizerDialog.cpp:271
+#: dialogs/EqualizerDialog.cpp:274
 msgid "Default presets can not be deleted"
 msgstr "Verstek voorafinstellings kan nie geskrap word nie"
 
-#: dialogs/EqualizerDialog.cpp:272
+#: dialogs/EqualizerDialog.cpp:275
 msgid "Error deleting preset"
 msgstr "Fout tydens skrap van voorafinstelling"
 
-#: dialogs/EqualizerDialog.cpp:284
+#: dialogs/EqualizerDialog.cpp:298
 msgid "Cannot restore this preset"
 msgstr "Hierdie voorafinstelling is onherstelbaar"
 
-#: dialogs/EqualizerDialog.cpp:285
+#: dialogs/EqualizerDialog.cpp:299
 msgid "Only default presets can be restored"
 msgstr "Slegs verstek voorafinstellings kan herstel word"
 
-#: dialogs/EqualizerDialog.cpp:286
+#: dialogs/EqualizerDialog.cpp:300
 msgid "Error restoring preset"
 msgstr "Fout tydens herstel van voorafinstelling"
 
-#: dialogs/EqualizerDialog.cpp:305
+#: dialogs/EqualizerDialog.cpp:320
 msgid "Cannot save this preset"
 msgstr "Kan nie hierdie voorafinstelling stoor nie"
 
-#: dialogs/EqualizerDialog.cpp:306
+#: dialogs/EqualizerDialog.cpp:321
 msgid ""
 "Preset 'Manual' is reserved for momentary settings.\n"
 "                                              Please choose different name "
@@ -11657,7 +11656,7 @@ msgstr ""
 "                                               Kies asb. 'n ander naam en "
 "probeer weer."
 
-#: dialogs/EqualizerDialog.cpp:308
+#: dialogs/EqualizerDialog.cpp:323
 msgid "Error saving preset"
 msgstr "Fout tydens stoor van voorafinstelling"
 
