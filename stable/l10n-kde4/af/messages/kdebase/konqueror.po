@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-20 04:05+0200\n"
+"POT-Creation-Date: 2011-07-05 04:21+0200\n"
 "PO-Revision-Date: 2006-01-17 16:37+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -14,6 +14,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/konqextensionmanager.cpp:54
+#, fuzzy
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Stel Kantbalk op"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "Uitbreidings"
 
 #: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5010
 #: src/konqmainwindow.cpp:5070
@@ -382,31 +393,6 @@ msgstr "%1/s"
 msgid "Stalled"
 msgstr "Gestol"
 
-#: src/konqguiclients.cpp:66
-#, fuzzy, kde-format
-#| msgid "Preview in %1"
-msgid "Preview &in %1"
-msgstr "Voorskou in %1"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "Vertoon %1"
-
-#: src/konqhistorydialog.cpp:45
-#, fuzzy
-#| msgid "History"
-msgctxt "@title:window"
-msgid "History"
-msgstr "Geskiedenis"
-
-#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
-#, fuzzy
-#| msgid "Sort"
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "Sorteer"
-
 #: src/konqhistorymodel.cpp:137
 #, fuzzy, kde-format
 msgid ""
@@ -426,57 +412,66 @@ msgstr "Lokale lêer"
 msgid "Miscellaneous"
 msgstr ""
 
-#: src/konqmain.cpp:96
+#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4537
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "Maak in Nuwe Venster oop"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "Maak in Nuwe Oortjie oop"
+
+#: src/konqhistoryview.cpp:71
 #, fuzzy
-#| msgid "Start without a default window"
-msgid "Start without a default window, when called without URLs"
-msgstr "Begin sonder 'n verstek venster."
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "Kopie maak van koppel adres"
 
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr "Verwyder Inskrywing"
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "Maak Geskiedenis Skoon"
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
 msgstr ""
 
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr "Profiel om te open"
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "Volgens Naam"
 
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr "Lys beskikbare profiele"
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "Volgens Datum"
 
-#: src/konqmain.cpp:104
+#: src/konqhistoryview.cpp:111
 #, fuzzy
-#| msgid "List available profiles"
-msgid "List available sessions"
-msgstr "Lys beskikbare profiele"
+#| msgid "Clear History"
+msgid "Search in history"
+msgstr "Maak skoon Geskiedenis"
 
-#: src/konqmain.cpp:106
+#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
 #, fuzzy
-#| msgid "Location to open"
-msgid "Session to open"
-msgstr "Ligging om oop te maak"
+#| msgid "Sort"
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Sorteer"
 
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr ""
-"Mime-tipe om te gebruik vir hierdie Url, (e.g. teks/html of inode/gids)"
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "Doen jy rêrig die hele geskiedenis skoon maak?"
 
-#: src/konqmain.cpp:109
-msgid "Part to use (e.g. khtml or kwebkitpart)"
-msgstr ""
-
-#: src/konqmain.cpp:111
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-"Vir URLs wat na lêers wys, maak die gids oop en kies die lêer, eerder as om "
-"die lêer oop te maak."
-
-#: src/konqmain.cpp:113
-msgid "Location to open"
-msgstr "Ligging om oop te maak"
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+#, fuzzy
+#| msgid "Clear History?"
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "Maak Geskiedenis Skoon?"
 
 #: src/konqtabs.cpp:66
 #, fuzzy
@@ -555,86 +550,6 @@ msgstr "Maak Oortjie Toe"
 msgid "Und&o"
 msgstr ""
 
-#: src/konqextensionmanager.cpp:54
-#, fuzzy
-msgctxt "@title:window"
-msgid "Configure"
-msgstr "Stel Kantbalk op"
-
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "Uitbreidings"
-
-#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4537
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "Maak in Nuwe Venster oop"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "Maak in Nuwe Oortjie oop"
-
-#: src/konqhistoryview.cpp:71
-#, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "Kopie maak van koppel adres"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr "Verwyder Inskrywing"
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "Maak Geskiedenis Skoon"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr ""
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "Volgens Naam"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "Volgens Datum"
-
-#: src/konqhistoryview.cpp:111
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "Maak skoon Geskiedenis"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "Doen jy rêrig die hele geskiedenis skoon maak?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-#, fuzzy
-#| msgid "Clear History?"
-msgctxt "@title:window"
-msgid "Clear History?"
-msgstr "Maak Geskiedenis Skoon?"
-
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "Profile Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "Profiel Bestuuring"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "Herbenoem Profiel"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "Uitvee Profiel"
-
 #: src/konqsessiondlg.cpp:77
 #, fuzzy
 msgctxt "@title:window"
@@ -672,97 +587,75 @@ msgctxt "@title:window"
 msgid "Session exists. Overwrite?"
 msgstr ""
 
-#: src/konqsessionmanager.cpp:330
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr ""
+#: src/konqguiclients.cpp:66
+#, fuzzy, kde-format
+#| msgid "Preview in %1"
+msgid "Preview &in %1"
+msgstr "Voorskou in %1"
 
-#: src/konqsessionmanager.cpp:332
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "Vertoon %1"
+
+#: src/konqhistorydialog.cpp:45
 #, fuzzy
-#| msgid "Renaming"
+#| msgid "History"
 msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "Herbenaming"
+msgid "History"
+msgstr "Geskiedenis"
 
-#: src/konqsessionmanager.cpp:333
+#: src/konqmain.cpp:96
 #, fuzzy
-#| msgid "Renaming"
-msgid "Restore Session"
-msgstr "Herbenaming"
+#| msgid "Start without a default window"
+msgid "Start without a default window, when called without URLs"
+msgstr "Begin sonder 'n verstek venster."
 
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr ""
-
-#: src/konqsessionmanager.cpp:335
-#, fuzzy
-#| msgid "As New Folder"
-msgid "Ask Me Later"
-msgstr "As Nuwe Gids"
-
-#: src/konqviewmanager.cpp:1411
+#: src/konqmain.cpp:98
 msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
+"Preload for later use. This mode does not support URLs on the command line"
 msgstr ""
-"Jy het meervuldige oortjies oop in die venster.\n"
-"Laai 'n voorskou profiel sal hulle toemaak."
 
-#: src/konqviewmanager.cpp:1413 src/konqmainwindow.cpp:4937
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr "Profiel om te open"
+
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr "Lys beskikbare profiele"
+
+#: src/konqmain.cpp:104
 #, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "Bevestiging"
+#| msgid "List available profiles"
+msgid "List available sessions"
+msgstr "Lys beskikbare profiele"
 
-#: src/konqviewmanager.cpp:1414
-msgid "Load View Profile"
-msgstr "Laai Besigtig Profiel"
-
-#: src/konqviewmanager.cpp:1426
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"Hierdie oortjie bevat verandering wat nie voorgelê is nie.\n"
-"Laai van 'n profiel sal hierdie veranderinge misag."
-
-#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
-#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
-#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
-#: src/konqmainwindow.cpp:2514 src/konqmainwindow.cpp:4972
+#: src/konqmain.cpp:106
 #, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "Gooi Veranderinge Weg?"
+#| msgid "Location to open"
+msgid "Session to open"
+msgstr "Ligging om oop te maak"
 
-#: src/konqviewmanager.cpp:1427 src/konqmainwindow.cpp:1615
-#: src/konqmainwindow.cpp:2342 src/konqmainwindow.cpp:2420
-#: src/konqmainwindow.cpp:2450 src/konqmainwindow.cpp:2492
-#: src/konqmainwindow.cpp:2515 src/konqmainwindow.cpp:4972
-msgid "&Discard Changes"
-msgstr "Gooi Veranderinge Weg"
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr ""
+"Mime-tipe om te gebruik vir hierdie Url, (e.g. teks/html of inode/gids)"
 
-#: src/konqview.cpp:1203
+#: src/konqmain.cpp:109
+msgid "Part to use (e.g. khtml or kwebkitpart)"
+msgstr ""
+
+#: src/konqmain.cpp:111
 msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
 msgstr ""
-"Die bladsy waarna jy kyk is die resultaat van data wat soontoe gepos is. As "
-"die data weer gestuur word sal die aksies wat die bladsy uitgevoer het "
-"herhaal word."
+"Vir URLs wat na lêers wys, maak die gids oop en kies die lêer, eerder as om "
+"die lêer oop te maak."
 
-#: src/konqview.cpp:1205
-msgctxt "@title:window"
-msgid "Warning"
-msgstr ""
-
-#: src/konqview.cpp:1205
-msgid "Resend"
-msgstr "Stuur weer"
+#: src/konqmain.cpp:113
+msgid "Location to open"
+msgstr "Ligging om oop te maak"
 
 #: src/konqmainwindow.cpp:574
 msgctxt "@title:tab"
@@ -780,6 +673,23 @@ msgid ""
 msgstr ""
 "Hierdie bladsy bevat veranderinge wat nog nie ingestuur is nie.\n"
 "As die bladsy herlaai word sal die veranderinge verlore gaan."
+
+#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
+#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
+#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2514
+#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "Gooi Veranderinge Weg?"
+
+#: src/konqmainwindow.cpp:1615 src/konqmainwindow.cpp:2342
+#: src/konqmainwindow.cpp:2420 src/konqmainwindow.cpp:2450
+#: src/konqmainwindow.cpp:2492 src/konqmainwindow.cpp:2515
+#: src/konqmainwindow.cpp:4972 src/konqviewmanager.cpp:1427
+msgid "&Discard Changes"
+msgstr "Gooi Veranderinge Weg"
 
 #: src/konqmainwindow.cpp:1725
 #, fuzzy
@@ -1427,6 +1337,13 @@ msgstr ""
 "Jy het veelvuldige oorjies in hierdie venster oop. Is jy seker jy wil "
 "uitgaan?"
 
+#: src/konqmainwindow.cpp:4937 src/konqviewmanager.cpp:1413
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Bevestiging"
+
 #: src/konqmainwindow.cpp:4939
 msgid "C&lose Current Tab"
 msgstr "Maak Huidige Oortjie Toe"
@@ -1483,6 +1400,89 @@ msgid ""
 msgstr ""
 "Dit lyk asof daar 'n fout is. Konqueror is met %1 geassosieer, maar kan nie "
 "hierdie lêer tipe handteer nie."
+
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "Profiel Bestuuring"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "Herbenoem Profiel"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "Uitvee Profiel"
+
+#: src/konqsessionmanager.cpp:330
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Renaming"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "Herbenaming"
+
+#: src/konqsessionmanager.cpp:333
+#, fuzzy
+#| msgid "Renaming"
+msgid "Restore Session"
+msgstr "Herbenaming"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr ""
+
+#: src/konqsessionmanager.cpp:335
+#, fuzzy
+#| msgid "As New Folder"
+msgid "Ask Me Later"
+msgstr "As Nuwe Gids"
+
+#: src/konqviewmanager.cpp:1411
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"Jy het meervuldige oortjies oop in die venster.\n"
+"Laai 'n voorskou profiel sal hulle toemaak."
+
+#: src/konqviewmanager.cpp:1414
+msgid "Load View Profile"
+msgstr "Laai Besigtig Profiel"
+
+#: src/konqviewmanager.cpp:1426
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"Hierdie oortjie bevat verandering wat nie voorgelê is nie.\n"
+"Laai van 'n profiel sal hierdie veranderinge misag."
+
+#: src/konqview.cpp:1203
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+"Die bladsy waarna jy kyk is die resultaat van data wat soontoe gepos is. As "
+"die data weer gestuur word sal die aksies wat die bladsy uitgevoer het "
+"herhaal word."
+
+#: src/konqview.cpp:1205
+msgctxt "@title:window"
+msgid "Warning"
+msgstr ""
+
+#: src/konqview.cpp:1205
+msgid "Resend"
+msgstr "Stuur weer"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
