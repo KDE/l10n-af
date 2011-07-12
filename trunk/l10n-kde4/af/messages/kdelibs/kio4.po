@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-08 04:18+0200\n"
+"POT-Creation-Date: 2011-07-12 04:33+0200\n"
 "PO-Revision-Date: 2005-11-25 05:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -144,17 +144,6 @@ msgstr "Boekmerk"
 msgid "*.adr|Opera Bookmark Files (*.adr)"
 msgstr "*.adr|Opera Boekmerk Lêers (*.adr)"
 
-#: bookmarks/kbookmarkmanager.cc:443
-#, kde-format
-msgid ""
-"Unable to save bookmarks in %1. Reported error was: %2. This error message "
-"will only be shown once. The cause of the error needs to be fixed as quickly "
-"as possible, which is most likely a full hard drive."
-msgstr ""
-"Kon nie die boekmerke in %1 stoor nie. Die fout terugvoer was: %2. Hierdie "
-"fout sal net een keer vertoon word. Die oorsaak van die fout moet so gou "
-"moontlik opgelos word, wat waarskynlik 'n vol hardeskyf beteken."
-
 #: bookmarks/kbookmarkmenu.cc:267
 msgid "Add Bookmark Here"
 msgstr "Voeg Boekmerk hier by"
@@ -257,110 +246,20 @@ msgstr ""
 msgid "Open in New Tab"
 msgstr ""
 
+#: bookmarks/kbookmarkmanager.cc:443
+#, kde-format
+msgid ""
+"Unable to save bookmarks in %1. Reported error was: %2. This error message "
+"will only be shown once. The cause of the error needs to be fixed as quickly "
+"as possible, which is most likely a full hard drive."
+msgstr ""
+"Kon nie die boekmerke in %1 stoor nie. Die fout terugvoer was: %2. Hierdie "
+"fout sal net een keer vertoon word. Die oorsaak van die fout moet so gou "
+"moontlik opgelos word, wat waarskynlik 'n vol hardeskyf beteken."
+
 #: httpfilter/httpfilter.cc:179
 msgid "Receiving corrupt data."
 msgstr "Ontvang korrup data."
-
-#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
-msgid "Owner"
-msgstr "Eienaar"
-
-#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
-msgid "Owning Group"
-msgstr "Besitter Groep"
-
-#: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:464
-#: kfile/kpropertiesdialog.cpp:2001
-msgid "Others"
-msgstr "Andere"
-
-#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
-msgid "Mask"
-msgstr "Masker"
-
-#: kfile/kacleditwidget.cpp:65
-msgid "Named User"
-msgstr "Genoemde Gebruiker"
-
-#: kfile/kacleditwidget.cpp:66
-msgid "Named Group"
-msgstr "Genoemde Groep"
-
-#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:580
-#: ../kfile/kfileplacesview.cpp:601 ../kfile/kfileplacesview.cpp:608
-msgid "Add Entry..."
-msgstr "Voeg by Inskrywing..."
-
-#: kfile/kacleditwidget.cpp:102
-msgid "Edit Entry..."
-msgstr "Redigeer Inskrywing..."
-
-#: kfile/kacleditwidget.cpp:106
-msgid "Delete Entry"
-msgstr "Uitvee Inskrywing"
-
-#: kfile/kacleditwidget.cpp:307
-msgid " (Default)"
-msgstr " (Verstek)"
-
-#: kfile/kacleditwidget.cpp:431
-msgid "Edit ACL Entry"
-msgstr "Redigeer ACL Inskrywing"
-
-#: kfile/kacleditwidget.cpp:439
-msgid "Entry Type"
-msgstr "Inskrywing Tipe"
-
-#: kfile/kacleditwidget.cpp:445
-msgid "Default for new files in this folder"
-msgstr "Verstek vir nuwe lêers in die gids"
-
-#: kfile/kacleditwidget.cpp:474
-#, fuzzy
-#| msgid "Named User"
-msgid "Named user"
-msgstr "Genoemde Gebruiker"
-
-#: kfile/kacleditwidget.cpp:479
-#, fuzzy
-#| msgid "Named Group"
-msgid "Named group"
-msgstr "Genoemde Groep"
-
-#: kfile/kacleditwidget.cpp:499
-msgid "User: "
-msgstr "Gebruiker:"
-
-#: kfile/kacleditwidget.cpp:505
-msgid "Group: "
-msgstr "Groep:"
-
-#: kfile/kacleditwidget.cpp:625
-msgid "Type"
-msgstr "Tipe"
-
-#: kfile/kacleditwidget.cpp:626
-msgid "Name"
-msgstr "Naam"
-
-#: kfile/kacleditwidget.cpp:627
-msgctxt "read permission"
-msgid "r"
-msgstr "r"
-
-#: kfile/kacleditwidget.cpp:628
-msgctxt "write permission"
-msgid "w"
-msgstr "w"
-
-#: kfile/kacleditwidget.cpp:629
-msgctxt "execute permission"
-msgid "x"
-msgstr "x"
-
-#: kfile/kacleditwidget.cpp:630
-msgid "Effective"
-msgstr "Effektief"
 
 #: kfile/kdevicelistmodel.cpp:116
 #, fuzzy
@@ -1254,6 +1153,11 @@ msgstr "Gebruiker"
 msgid "Group"
 msgstr "Groep"
 
+#: kfile/kpropertiesdialog.cpp:2001 kfile/kacleditwidget.cpp:63
+#: kfile/kacleditwidget.cpp:464
+msgid "Others"
+msgstr "Andere"
+
 #: kfile/kpropertiesdialog.cpp:2005
 msgid "Set UID"
 msgstr "Stel Uid"
@@ -1508,6 +1412,102 @@ msgstr "Opstart"
 #: kfile/kicondialog.cpp:691
 msgid "*.png *.xpm *.svg *.svgz|Icon Files (*.png *.xpm *.svg *.svgz)"
 msgstr "*.png *.xpm *.svg *.svgz|Ikoon Lêers (*.png *.xpm *.svg *.svgz)"
+
+#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
+msgid "Owner"
+msgstr "Eienaar"
+
+#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
+msgid "Owning Group"
+msgstr "Besitter Groep"
+
+#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:469
+msgid "Mask"
+msgstr "Masker"
+
+#: kfile/kacleditwidget.cpp:65
+msgid "Named User"
+msgstr "Genoemde Gebruiker"
+
+#: kfile/kacleditwidget.cpp:66
+msgid "Named Group"
+msgstr "Genoemde Groep"
+
+#: kfile/kacleditwidget.cpp:98 ../kfile/kfileplacesview.cpp:580
+#: ../kfile/kfileplacesview.cpp:601 ../kfile/kfileplacesview.cpp:608
+msgid "Add Entry..."
+msgstr "Voeg by Inskrywing..."
+
+#: kfile/kacleditwidget.cpp:102
+msgid "Edit Entry..."
+msgstr "Redigeer Inskrywing..."
+
+#: kfile/kacleditwidget.cpp:106
+msgid "Delete Entry"
+msgstr "Uitvee Inskrywing"
+
+#: kfile/kacleditwidget.cpp:307
+msgid " (Default)"
+msgstr " (Verstek)"
+
+#: kfile/kacleditwidget.cpp:431
+msgid "Edit ACL Entry"
+msgstr "Redigeer ACL Inskrywing"
+
+#: kfile/kacleditwidget.cpp:439
+msgid "Entry Type"
+msgstr "Inskrywing Tipe"
+
+#: kfile/kacleditwidget.cpp:445
+msgid "Default for new files in this folder"
+msgstr "Verstek vir nuwe lêers in die gids"
+
+#: kfile/kacleditwidget.cpp:474
+#, fuzzy
+#| msgid "Named User"
+msgid "Named user"
+msgstr "Genoemde Gebruiker"
+
+#: kfile/kacleditwidget.cpp:479
+#, fuzzy
+#| msgid "Named Group"
+msgid "Named group"
+msgstr "Genoemde Groep"
+
+#: kfile/kacleditwidget.cpp:499
+msgid "User: "
+msgstr "Gebruiker:"
+
+#: kfile/kacleditwidget.cpp:505
+msgid "Group: "
+msgstr "Groep:"
+
+#: kfile/kacleditwidget.cpp:625
+msgid "Type"
+msgstr "Tipe"
+
+#: kfile/kacleditwidget.cpp:626
+msgid "Name"
+msgstr "Naam"
+
+#: kfile/kacleditwidget.cpp:627
+msgctxt "read permission"
+msgid "r"
+msgstr "r"
+
+#: kfile/kacleditwidget.cpp:628
+msgctxt "write permission"
+msgid "w"
+msgstr "w"
+
+#: kfile/kacleditwidget.cpp:629
+msgctxt "execute permission"
+msgid "x"
+msgstr "x"
+
+#: kfile/kacleditwidget.cpp:630
+msgid "Effective"
+msgstr "Effektief"
 
 #: kfile/kfilemetadataprovider.cpp:400
 #, fuzzy
@@ -6596,13 +6596,6 @@ msgstr ""
 msgid "Click to Edit Location"
 msgstr ""
 
-#: ../kfile/kurlnavigatorbutton.cpp:611
-#, fuzzy
-#| msgid "Store"
-msgctxt "@action:inmenu"
-msgid "More"
-msgstr "Stoor"
-
 #: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1802
 msgid "*|All Files"
 msgstr "*|Alle Lêers"
@@ -7381,6 +7374,13 @@ msgstr ""
 #: ../kfile/kurlnavigator.cpp:690
 msgid "Custom Path"
 msgstr ""
+
+#: ../kfile/kurlnavigatorbutton.cpp:612
+#, fuzzy
+#| msgid "Store"
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "Stoor"
 
 #~ msgid "A newer item named '%1' already exists."
 #~ msgstr "'n nuwer item genaamd '%1' alreeds bestaan."
