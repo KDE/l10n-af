@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-12 04:33+0200\n"
+"POT-Creation-Date: 2011-07-13 04:16+0200\n"
 "PO-Revision-Date: 2005-11-25 05:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -5802,12 +5802,12 @@ msgstr "Md5 opsomming:"
 msgid "SHA1 digest:"
 msgstr "Md5 opsomming:"
 
-#: ../kioslave/file/file.cpp:211
-#, fuzzy, kde-format
-msgid "Setting ACL for %1"
-msgstr "Stuur data na %1"
+#: ../kioslave/file/file_unix.cpp:231
+#, kde-format
+msgid "Cannot copy file from %1 to %2. (Errno: %3)"
+msgstr "Kan nie kopie maak nie van lêer van %1 na %2. (Foutnommer: %3)"
 
-#: ../kioslave/file/file.cpp:728 ../kioslave/file/file_unix.cpp:300
+#: ../kioslave/file/file_unix.cpp:300 ../kioslave/file/file.cpp:728
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
@@ -5815,6 +5815,27 @@ msgid ""
 msgstr ""
 "Kon nie verander regte vir\n"
 "%1"
+
+#: ../kioslave/file/file_unix.cpp:344
+#, kde-format
+msgid "No media in device for %1"
+msgstr "Geen media in toestel %1 gevind"
+
+#: ../kioslave/file/file_unix.cpp:613
+#, fuzzy, kde-format
+#| msgid "Could not enter folder %1."
+msgid "Could not get user id for given user name %1"
+msgstr "Kon nie toegang tot gids %1 verkry nie"
+
+#: ../kioslave/file/file_unix.cpp:626
+#, kde-format
+msgid "Could not get group id for given group name %1"
+msgstr ""
+
+#: ../kioslave/file/file.cpp:211
+#, fuzzy, kde-format
+msgid "Setting ACL for %1"
+msgstr "Stuur data na %1"
 
 #: ../kioslave/file/file.cpp:918
 msgid "No Media inserted or Media not recognized."
@@ -5848,27 +5869,6 @@ msgstr "Skryf na %1 word nie ondersteun nie."
 #, kde-format
 msgid "Could not read %1"
 msgstr "Kon nie lees %1"
-
-#: ../kioslave/file/file_unix.cpp:231
-#, kde-format
-msgid "Cannot copy file from %1 to %2. (Errno: %3)"
-msgstr "Kan nie kopie maak nie van lêer van %1 na %2. (Foutnommer: %3)"
-
-#: ../kioslave/file/file_unix.cpp:344
-#, kde-format
-msgid "No media in device for %1"
-msgstr "Geen media in toestel %1 gevind"
-
-#: ../kioslave/file/file_unix.cpp:613
-#, fuzzy, kde-format
-#| msgid "Could not enter folder %1."
-msgid "Could not get user id for given user name %1"
-msgstr "Kon nie toegang tot gids %1 verkry nie"
-
-#: ../kioslave/file/file_unix.cpp:626
-#, kde-format
-msgid "Could not get group id for given group name %1"
-msgstr ""
 
 #: ../kioslave/ftp/ftp.cpp:341
 #, kde-format
