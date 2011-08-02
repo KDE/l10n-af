@@ -6,10 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-30 03:40+0200\n"
+"POT-Creation-Date: 2011-08-02 03:59+0200\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
@@ -249,6 +250,11 @@ msgstr "Oplyn"
 msgctxt "(qtundo-format)"
 msgid "Move shapes"
 msgstr "Uitvee Teks"
+
+#: flake/commands/KoShapeRenameCommand.cpp:44
+#, fuzzy
+msgid "Rename Shape"
+msgstr "Skep Werkvoorbeeld"
 
 #: flake/commands/KoShapeReorderCommand.cpp:51
 #, fuzzy
@@ -599,7 +605,7 @@ msgstr "Styl Bestuurder"
 msgid "Execute Script File"
 msgstr "Onderskrif"
 
-#: kopageapp/KoPAPageThumbnailModel.cpp:67 kopageapp/KoPADocumentModel.cpp:166
+#: kopageapp/KoPAPageThumbnailModel.cpp:67 kopageapp/KoPADocumentModel.cpp:172
 #, fuzzy, kde-format
 msgid "Slide %1"
 msgstr "Vertoon %1 Nutsbalk"
@@ -780,44 +786,133 @@ msgctxt "(qtundo-format)"
 msgid "Change background image"
 msgstr "Tweede"
 
-#: kopageapp/KoPADocumentModel.cpp:168
-#, fuzzy, kde-format
-msgid "Page  %1"
-msgstr "Datum"
+#: kopageapp/KoPADocumentStructureDocker.cpp:96 main/KoMainWindow.cpp:1732
+#, fuzzy
+msgid "Document"
+msgstr "Open Dokument"
 
-#: kopageapp/KoPADocumentModel.cpp:172
-#: kopageapp/KoPADocumentStructureDocker.cpp:118
+#: kopageapp/KoPADocumentStructureDocker.cpp:105
+#, fuzzy
+msgid "Add a new slide or layer"
+msgstr "Nuwe reel"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:107
+#, fuzzy
+msgid "Add a new page or layer"
+msgstr "Nuwe reel"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:115
+#, fuzzy
+#| msgid "Size:"
+msgid "Slide"
+msgstr "Grootte:"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:117
+#: widgets/KoPageLayoutDialog.cpp:50
+#, fuzzy
+msgid "Page"
+msgstr "Volgende styl:"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:119
+#: kopageapp/KoPADocumentModel.cpp:178
 #, fuzzy
 msgid "Layer"
 msgstr "Rooi"
 
-#: kopageapp/KoPADocumentModel.cpp:175
+#: kopageapp/KoPADocumentStructureDocker.cpp:126
+#: kopageapp/KoPADocumentStructureDocker.cpp:647
 #, fuzzy
-#| msgid "Group:"
-msgid "Group"
-msgstr "Groep:"
+#| msgid "Remove Selected Text"
+msgid "Delete selected objects"
+msgstr "Verwyder Gekose Teks"
 
-#: kopageapp/KoPADocumentModel.cpp:178
+#: kopageapp/KoPADocumentStructureDocker.cpp:132
 #, fuzzy
-msgid "Shape"
-msgstr "graf"
+#| msgid "Remove Selected Text"
+msgid "Raise selected objects"
+msgstr "Verwyder Gekose Teks"
 
-#: kopageapp/KoPADocumentModel.cpp:291
+#: kopageapp/KoPADocumentStructureDocker.cpp:138
 #, fuzzy
-#| msgid "Variable"
-msgid "Visible"
-msgstr "Veranderlike"
+msgid "Lower selected objects"
+msgstr "Open Dokument"
 
-#: kopageapp/KoPADocumentModel.cpp:292
+#: kopageapp/KoPADocumentStructureDocker.cpp:147
+msgid "Minimal View"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:149
+msgid "Detailed View"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:151
+msgid "Thumbnail View"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:161
 #, fuzzy
-msgid "Locked"
-msgstr "Lokalisering"
+#| msgid "Change Borders"
+msgid "View mode"
+msgstr "Verander Grense"
 
-#: kopageapp/KoPADocumentModel.cpp:505 kopageapp/KoPADocumentModel.cpp:526
+#: kopageapp/KoPADocumentStructureDocker.cpp:330
+msgid "New Layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:330
+msgid "Enter the name of the new layer:"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:331
+msgid "New layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:345
 #, fuzzy
 msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
+msgid "Create Layer"
+msgstr "Skep Werkvoorbeeld"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:374
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete Layer"
 msgstr "Uitvee Teks"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:378
+msgid "Could not delete all layers. At least one layer is required."
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:378
+msgid "Error deleting layers"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:646
+#, fuzzy
+msgid "Add a new slide"
+msgstr "Nuwe reel"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:649
+#: koreport/wrtembed/KoReportDesigner.cpp:830
+#, fuzzy
+#| msgid "Custom"
+msgid "Cut"
+msgstr "Pasmaak"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:650
+#: koreport/wrtembed/KoReportDesigner.cpp:831
+#: pigment/compositeops/KoCompositeOpCopy.h:37
+#: pigment/compositeops/KoCompositeOpCopy2.h:42
+#, fuzzy
+msgid "Copy"
+msgstr "Maatskappy"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:651
+#: koreport/wrtembed/KoReportDesigner.cpp:834
+#, fuzzy
+#| msgid "Date"
+msgid "Paste"
+msgstr "Datum"
 
 #: kopageapp/KoPAPastePage.cpp:131
 #, fuzzy
@@ -945,127 +1040,69 @@ msgctxt "(qtundo-format)"
 msgid "Change page layout"
 msgstr "Verander Tabel-vormer"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:95 main/KoMainWindow.cpp:1732
+#: kopageapp/KoPADocumentModel.cpp:174
+#, fuzzy, kde-format
+msgid "Page  %1"
+msgstr "Datum"
+
+#: kopageapp/KoPADocumentModel.cpp:181
 #, fuzzy
-msgid "Document"
-msgstr "Open Dokument"
+#| msgid "Group:"
+msgid "Group"
+msgstr "Groep:"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:104
+#: kopageapp/KoPADocumentModel.cpp:184
 #, fuzzy
-msgid "Add a new slide or layer"
-msgstr "Nuwe reel"
+msgid "Shape"
+msgstr "graf"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:106
+#: kopageapp/KoPADocumentModel.cpp:270
 #, fuzzy
-msgid "Add a new page or layer"
-msgstr "Nuwe reel"
+#| msgid "Paste Text"
+msgid "Rename Slide"
+msgstr "Plak Teks"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:114
+#: kopageapp/KoPADocumentModel.cpp:273
 #, fuzzy
-#| msgid "Size:"
-msgid "Slide"
-msgstr "Grootte:"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:116
-#: widgets/KoPageLayoutDialog.cpp:50
-#, fuzzy
-msgid "Page"
-msgstr "Volgende styl:"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:125
-#: kopageapp/KoPADocumentStructureDocker.cpp:644
-#, fuzzy
-#| msgid "Remove Selected Text"
-msgid "Delete selected objects"
-msgstr "Verwyder Gekose Teks"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:131
-#, fuzzy
-#| msgid "Remove Selected Text"
-msgid "Raise selected objects"
-msgstr "Verwyder Gekose Teks"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:137
-#, fuzzy
-msgid "Lower selected objects"
-msgstr "Open Dokument"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:146
-msgid "Minimal View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:148
-msgid "Detailed View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:150
-msgid "Thumbnail View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:160
-#, fuzzy
-#| msgid "Change Borders"
-msgid "View mode"
-msgstr "Verander Grense"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:327
-msgid "New Layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:327
-msgid "Enter the name of the new layer:"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:328
-msgid "New layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:342
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Create Layer"
-msgstr "Skep Werkvoorbeeld"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:371
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete Layer"
+msgid "Rename Page"
 msgstr "Uitvee Teks"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:375
-msgid "Could not delete all layers. At least one layer is required."
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:375
-msgid "Error deleting layers"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:643
+#: kopageapp/KoPADocumentModel.cpp:277
 #, fuzzy
-msgid "Add a new slide"
-msgstr "Nuwe reel"
+msgid "Rename Layer"
+msgstr "Skep Werkvoorbeeld"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:646
-#: koreport/wrtembed/KoReportDesigner.cpp:830
+#: kopageapp/KoPADocumentModel.cpp:307
 #, fuzzy
-#| msgid "Custom"
-msgid "Cut"
-msgstr "Pasmaak"
+#| msgid "Variable"
+msgid "Visible"
+msgstr "Veranderlike"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:647
-#: koreport/wrtembed/KoReportDesigner.cpp:831
-#: pigment/compositeops/KoCompositeOpCopy.h:37
-#: pigment/compositeops/KoCompositeOpCopy2.h:42
+#: kopageapp/KoPADocumentModel.cpp:308
 #, fuzzy
-msgid "Copy"
-msgstr "Maatskappy"
+msgid "Locked"
+msgstr "Lokalisering"
 
-#: kopageapp/KoPADocumentStructureDocker.cpp:648
-#: koreport/wrtembed/KoReportDesigner.cpp:834
+#: kopageapp/KoPADocumentModel.cpp:532 kopageapp/KoPADocumentModel.cpp:553
 #, fuzzy
-#| msgid "Date"
-msgid "Paste"
-msgstr "Datum"
+msgctxt "(qtundo-format)"
+msgid "Reparent shapes"
+msgstr "Uitvee Teks"
+
+#: kopageapp/KoPADocumentModel.cpp:674
+#, fuzzy
+msgid "&Move Here"
+msgstr "Uitvee Teks"
+
+#: kopageapp/KoPADocumentModel.cpp:678
+#, fuzzy
+msgid "&Copy Here"
+msgstr "Skerm"
+
+#: kopageapp/KoPADocumentModel.cpp:682
+#, fuzzy
+msgid "C&ancel"
+msgstr "Verander Kas"
 
 #. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -1315,8 +1352,8 @@ msgid "Label"
 msgstr "Rooi"
 
 #: koreport/items/text/KoReportTextPlugin.cpp:34 kotext/KoTextEditor.cpp:169
-#: kotext/KoTextEditor.cpp:322 widgets/KoCsvImportDialog.cpp:216
-#: widgets/KoCsvImportDialog.cpp:569
+#: kotext/KoTextEditor.cpp:322 widgets/KoCsvImportDialog.cpp:217
+#: widgets/KoCsvImportDialog.cpp:581
 msgid "Text"
 msgstr "Teks"
 
@@ -4003,63 +4040,6 @@ msgstr ""
 msgid "Add / Remove Colors..."
 msgstr "Meer Kleure..."
 
-#: widgets/KoCsvImportDialog.cpp:92
-#, fuzzy
-msgid "Import Data"
-msgstr "Open Dokument"
-
-#: widgets/KoCsvImportDialog.cpp:95
-#, kde-format
-msgctxt "Descriptive encoding name"
-msgid "Recommended ( %1 )"
-msgstr ""
-
-#: widgets/KoCsvImportDialog.cpp:96
-#, kde-format
-msgctxt "Descriptive encoding name"
-msgid "Locale ( %1 )"
-msgstr ""
-
-#: widgets/KoCsvImportDialog.cpp:99
-#, kde-format
-msgctxt "Descriptive encoding name"
-msgid "Other ( %1 )"
-msgstr ""
-
-#: widgets/KoCsvImportDialog.cpp:214 widgets/KoCsvImportDialog.cpp:544
-#: widgets/KoCsvImportDialog.cpp:567
-#, fuzzy
-#| msgid "General"
-msgid "Generic"
-msgstr "Algemeen"
-
-#: widgets/KoCsvImportDialog.cpp:218 widgets/KoCsvImportDialog.cpp:571
-msgid "Date"
-msgstr "Datum"
-
-#: widgets/KoCsvImportDialog.cpp:220 widgets/KoCsvImportDialog.cpp:573
-#, fuzzy
-msgid "Currency"
-msgstr "Huidige Seksie"
-
-#. i18n: file: widgets/KoCsvImportDialog.ui:268
-#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: widgets/KoCsvImportDialog.cpp:222 widgets/KoCsvImportDialog.cpp:575
-#: widgets/KoCsvImportDialog.cpp:682 rc.cpp:499
-msgid "None"
-msgstr "Geen"
-
-#: widgets/KoCsvImportDialog.cpp:709
-msgid ""
-"Please check the ranges you specified. The start value must be lower than "
-"the end value."
-msgstr ""
-
-#: widgets/KoCsvImportDialog.cpp:755
-#, kde-format
-msgid "Cannot find encoding: %1"
-msgstr ""
-
 #: widgets/KoEditColorSetDialog.cpp:159
 msgid "Add Color To Palette"
 msgstr ""
@@ -4085,6 +4065,75 @@ msgstr "maltees"
 #| msgid "Remove Column"
 msgid "Add/Remove Colors"
 msgstr "Verwyder Kolom"
+
+#: widgets/KoCsvImportDialog.cpp:93
+#, fuzzy
+msgid "Import Data"
+msgstr "Open Dokument"
+
+#: widgets/KoCsvImportDialog.cpp:96
+#, kde-format
+msgctxt "Descriptive encoding name"
+msgid "Recommended ( %1 )"
+msgstr ""
+
+#: widgets/KoCsvImportDialog.cpp:97
+#, kde-format
+msgctxt "Descriptive encoding name"
+msgid "Locale ( %1 )"
+msgstr ""
+
+#: widgets/KoCsvImportDialog.cpp:100
+#, kde-format
+msgctxt "Descriptive encoding name"
+msgid "Other ( %1 )"
+msgstr ""
+
+#: widgets/KoCsvImportDialog.cpp:215 widgets/KoCsvImportDialog.cpp:556
+#: widgets/KoCsvImportDialog.cpp:579
+#, fuzzy
+#| msgid "General"
+msgid "Generic"
+msgstr "Algemeen"
+
+#: widgets/KoCsvImportDialog.cpp:219 widgets/KoCsvImportDialog.cpp:583
+msgid "Date"
+msgstr "Datum"
+
+#: widgets/KoCsvImportDialog.cpp:221 widgets/KoCsvImportDialog.cpp:585
+#, fuzzy
+msgid "Currency"
+msgstr "Huidige Seksie"
+
+#. i18n: file: widgets/KoCsvImportDialog.ui:268
+#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
+#: widgets/KoCsvImportDialog.cpp:223 widgets/KoCsvImportDialog.cpp:587
+#: widgets/KoCsvImportDialog.cpp:694 rc.cpp:499
+msgid "None"
+msgstr "Geen"
+
+#: widgets/KoCsvImportDialog.cpp:721
+msgid ""
+"Please check the ranges you specified. The start value must be lower than "
+"the end value."
+msgstr ""
+
+#: widgets/KoCsvImportDialog.cpp:767
+#, kde-format
+msgid "Cannot find encoding: %1"
+msgstr ""
+
+#: widgets/KoSelectionToggle.cpp:133
+msgctxt "@info:tooltip"
+msgid "Deselect Item"
+msgstr ""
+
+#: widgets/KoSelectionToggle.cpp:134
+#, fuzzy
+#| msgid "Select Character"
+msgctxt "@info:tooltip"
+msgid "Select Item"
+msgstr "Kies Karakter"
 
 #: widgets/KoUniColorChooser.cpp:134
 msgid "Value (brightness)"
@@ -5717,10 +5766,6 @@ msgstr ""
 #~ msgstr "Verstek Kleur"
 
 #, fuzzy
-#~ msgid "Create Shapes"
-#~ msgstr "Skep Werkvoorbeeld"
-
-#, fuzzy
 #~| msgid "Background color:"
 #~ msgid "Background tool"
 #~ msgstr "Agtergrond kleur:"
@@ -5738,9 +5783,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Add Bookmark"
 #~ msgstr "Voeg by Naam"
-
-#~ msgid "Select Character"
-#~ msgstr "Kies Karakter"
 
 #, fuzzy
 #~ msgid "&Insert"

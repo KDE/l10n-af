@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-29 03:50+0200\n"
+"POT-Creation-Date: 2011-08-02 17:56+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2036,7 +2037,7 @@ msgstr "Wagtou"
 #. i18n: file: context/applets/currenttrack/currentTrackSettings.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, editTrackDetailsCheckBox)
 #: context/applets/albums/AlbumsView.cpp:243
-#: context/applets/currenttrack/CurrentTrack.cpp:781
+#: context/applets/currenttrack/CurrentTrack.cpp:779
 #: playlist/view/PlaylistViewCommon.cpp:230 rc.cpp:895
 msgid "Edit Track Details"
 msgstr "Wysig Snit Besonderhede"
@@ -2139,10 +2140,9 @@ msgid "Score"
 msgstr "Evaluasie"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:450
-#, fuzzy
-#| msgid "Genre"
-msgid "Genres"
-msgstr "Genre"
+#: playlist/ProgressiveSearchWidget.cpp:88
+msgid "Artists"
+msgstr "Kunstenaars"
 
 #: context/applets/currenttrack/CurrentTrack.cpp:450
 #: core/meta/support/MetaConstants.cpp:125
@@ -2153,41 +2153,41 @@ msgstr "Laas Gespeel"
 #. i18n: ectx: property (windowTitle), widget (QWidget, currentTrackSettings)
 #. i18n: file: context/applets/tabs/TabsSettings.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, TabsSettings)
-#: context/applets/currenttrack/CurrentTrack.cpp:676 rc.cpp:889 rc.cpp:1043
+#: context/applets/currenttrack/CurrentTrack.cpp:674 rc.cpp:889 rc.cpp:1043
 msgid "Current Track Settings"
 msgstr "Huidige Snit Instellings"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:804
+#: context/applets/currenttrack/CurrentTrack.cpp:802
 #, fuzzy
 #| msgid "Media Sources"
 msgid "Show Album in Media Sources"
 msgstr "Media Bronne"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:811
+#: context/applets/currenttrack/CurrentTrack.cpp:809
 #, fuzzy
 #| msgid "Media Sources"
 msgid "Show Artist in Media Sources"
 msgstr "Media Bronne"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:816 core/meta/Meta.cpp:509
+#: context/applets/currenttrack/CurrentTrack.cpp:814 core/meta/Meta.cpp:509
 #, fuzzy
 #| msgid "Unknown Genre"
 msgid "Unknown Composer"
 msgstr "Onbekende Genre"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:818
+#: context/applets/currenttrack/CurrentTrack.cpp:816
 #, fuzzy
 #| msgid "Media Sources"
 msgid "Show Composer in Media Sources"
 msgstr "Media Bronne"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:825
+#: context/applets/currenttrack/CurrentTrack.cpp:823
 #, fuzzy
 #| msgid "Media Sources"
 msgid "Show Genre in Media Sources"
 msgstr "Media Bronne"
 
-#: context/applets/currenttrack/CurrentTrack.cpp:832
+#: context/applets/currenttrack/CurrentTrack.cpp:830
 #, fuzzy
 #| msgid "Media Sources"
 msgid "Show Year in Media Sources"
@@ -5951,8 +5951,8 @@ msgid ""
 "<font color=\"%3\">%artist%</font>, <font color=\"%4\">%composer%</"
 "font>,                                      <font color=\"%5\">%year%</"
 "font>, <font color=\"%6\">%album%</"
-"font>,                                      <font color=\"%7\">%albumartist%"
-"</font>, <font color=\"%8\">%comment%</"
+"font>,                                      <font color=\"%7\">%albumartist"
+"%</font>, <font color=\"%8\">%comment%</"
 "font>,                                      <font color=\"%9\">%genre%</"
 "font>, %ignore%."
 msgstr ""
@@ -5996,13 +5996,13 @@ msgctxt ""
 msgid ""
 "The following tokens can be used to define a filename "
 "scheme:                                      <br>%track%, %title%, %artist%, "
-"%composer%, %year%, %album%, %albumartist%, %comment%, %genre%, %initial%, %"
-"folder%, %filetype%, %discnumber%."
+"%composer%, %year%, %album%, %albumartist%, %comment%, %genre%, %initial%, "
+"%folder%, %filetype%, %discnumber%."
 msgstr ""
 "Die volgende tekens kan gebruik word om 'n lêer benamings-skema te "
 "definieer:                                      <br>%track, %title, %artist, "
-"%composer, %year, %album, %comment, %genre, %initial, %folder, %filetype, %"
-"discnumber."
+"%composer, %year, %album, %comment, %genre, %initial, %folder, %filetype, "
+"%discnumber."
 
 #: dialogs/FilenameLayoutDialog.cpp:395 dialogs/FilenameLayoutDialog.cpp:400
 #: dialogs/FilenameLayoutDialog.cpp:405 dialogs/FilenameLayoutDialog.cpp:410
@@ -6229,8 +6229,8 @@ msgstr "<b><font color='gray'>%1</font></b> Verwerp"
 #| msgctxt ""
 #| "Track has been imported by tags, format: Artist - Track, from Url, to Url"
 #| msgid ""
-#| "Imported <b><font color='green'>%1 - %2</font></b><br/>&nbsp;&nbsp;from %"
-#| "3<br/>&nbsp;&nbsp;to %4"
+#| "Imported <b><font color='green'>%1 - %2</font></b><br/>&nbsp;&nbsp;from "
+#| "%3<br/>&nbsp;&nbsp;to %4"
 msgctxt "Track has been imported by tags, format: Track, from Url, to Url"
 msgid ""
 "Imported <b><font color='green'>%1</font></b><br/>&nbsp;&nbsp;from %2<br/"
@@ -6244,8 +6244,8 @@ msgstr ""
 msgctxt ""
 "Track has been imported by tags, format: Artist - Track, from Url, to Url"
 msgid ""
-"Imported <b><font color='green'>%1 - %2</font></b><br/>&nbsp;&nbsp;from %"
-"3<br/>&nbsp;&nbsp;to %4"
+"Imported <b><font color='green'>%1 - %2</font></b><br/>&nbsp;&nbsp;from "
+"%3<br/>&nbsp;&nbsp;to %4"
 msgstr ""
 "<b><font color='green'>%1 - %2</font></b><br/>&nbsp;&nbsp;Ingevoer van %3<br/"
 ">&nbsp;&nbsp;na %4"
@@ -6259,8 +6259,8 @@ msgid ""
 "Imported <b><font color='green'>%1 - %2 (%3)</font></b><br/>&nbsp;&nbsp;from "
 "%4<br/>&nbsp;&nbsp;to %5"
 msgstr ""
-"<b><font color='green'>%1 - %2 (%3)</font></b><br/>&nbsp;&nbsp;Ingevoer van %"
-"4<br/>&nbsp;&nbsp;na %5"
+"<b><font color='green'>%1 - %2 (%3)</font></b><br/>&nbsp;&nbsp;Ingevoer van "
+"%4<br/>&nbsp;&nbsp;na %5"
 
 #: dialogs/DatabaseImporterDialog.cpp:252
 #, kde-format
@@ -6874,8 +6874,8 @@ msgctxt ""
 "Feedback dialog text, message with list of accepted languages for the "
 "comments"
 msgid ""
-"Please, write it in <b>%1 or %2</b> (you may want to use an <a href=\"%3"
-"\">online translation tool</a> for this).<br/>"
+"Please, write it in <b>%1 or %2</b> (you may want to use an <a href="
+"\"%3\">online translation tool</a> for this).<br/>"
 msgstr ""
 
 #: likeback/LikeBackDialog.cpp:175
@@ -7325,10 +7325,6 @@ msgstr "Volgende"
 #: playlist/ProgressiveSearchWidget.cpp:66 rc.cpp:1564
 msgid "&Previous"
 msgstr "Vorige"
-
-#: playlist/ProgressiveSearchWidget.cpp:88
-msgid "Artists"
-msgstr "Kunstenaars"
 
 #: playlist/ProgressiveSearchWidget.cpp:102
 msgid "Composers"
@@ -8611,9 +8607,39 @@ msgstr "Jamendo.com: Aflaai"
 msgid "A site where artists can freely share their music"
 msgstr "'n Werf waar kunstenaars hul musiek vrylik kan deel"
 
+#: services/jamendo/JamendoXmlParser.cpp:153
+#, kde-format
+msgctxt ""
+"First part of: Jamendo.com database update complete. Added 3 tracks on 4 "
+"albums from 5 artists."
+msgid "Jamendo.com database update complete. Added 1 track on "
+msgid_plural "Jamendo.com database update complete. Added %1 tracks on "
+msgstr[0] "Jamendo.com databasis opdatering voltooi. Een snit bygevoeg op "
+msgstr[1] "Jamendo.com databasis opdatering voltooi. %1 Snitte bygevoeg op "
+
+#: services/jamendo/JamendoXmlParser.cpp:154
+#, kde-format
+msgctxt ""
+"Middle part of: Jamendo.com database update complete. Added 3 tracks on 4 "
+"albums from 5 artists."
+msgid "1 album from "
+msgid_plural "%1 albums from "
+msgstr[0] "1 album van "
+msgstr[1] "%1 albums van "
+
+#: services/jamendo/JamendoXmlParser.cpp:155
+#, kde-format
+msgctxt ""
+"Last part of: Jamendo.com database update complete. Added 3 tracks on 4 "
+"albums from 5 artists."
+msgid "1 artist."
+msgid_plural "%1 artists."
+msgstr[0] "1 kunstenaar."
+msgstr[1] "%1 kunstenaars."
+
 #: services/jamendo/JamendoService.cpp:80
-msgid "A site where artists can showcase their creations to the world"
-msgstr "'n Werf waar kunstenaars hul skeppings kan vertoon aan die wêreld"
+msgid "A archive of free, Creative Commons licensed music"
+msgstr ""
 
 #: services/jamendo/JamendoService.cpp:83
 #, fuzzy
@@ -8653,36 +8679,6 @@ msgstr "Jamendo.com Databasis Aflaai"
 #: services/jamendo/JamendoService.cpp:211
 msgid "Updating the local Jamendo database."
 msgstr "Opdateer die plaaslike Jamendo databasis."
-
-#: services/jamendo/JamendoXmlParser.cpp:153
-#, kde-format
-msgctxt ""
-"First part of: Jamendo.com database update complete. Added 3 tracks on 4 "
-"albums from 5 artists."
-msgid "Jamendo.com database update complete. Added 1 track on "
-msgid_plural "Jamendo.com database update complete. Added %1 tracks on "
-msgstr[0] "Jamendo.com databasis opdatering voltooi. Een snit bygevoeg op "
-msgstr[1] "Jamendo.com databasis opdatering voltooi. %1 Snitte bygevoeg op "
-
-#: services/jamendo/JamendoXmlParser.cpp:154
-#, kde-format
-msgctxt ""
-"Middle part of: Jamendo.com database update complete. Added 3 tracks on 4 "
-"albums from 5 artists."
-msgid "1 album from "
-msgid_plural "%1 albums from "
-msgstr[0] "1 album van "
-msgstr[1] "%1 albums van "
-
-#: services/jamendo/JamendoXmlParser.cpp:155
-#, kde-format
-msgctxt ""
-"Last part of: Jamendo.com database update complete. Added 3 tracks on 4 "
-"albums from 5 artists."
-msgid "1 artist."
-msgid_plural "%1 artists."
-msgstr[0] "1 kunstenaar."
-msgstr[1] "%1 kunstenaars."
 
 #: services/lastfm/LastFmTreeModel.cpp:182
 msgid "Personal Radio"
@@ -8892,15 +8888,21 @@ msgid "Last.fm is cool..."
 msgstr "Last.fm is oulik..."
 
 #: services/lastfm/meta/MultiPlayableCapabilityImpl_p.h:111
+#, fuzzy
+#| msgid ""
+#| "To listen to this stream you need to be a paying Last.Fm subscriber. All "
+#| "the other Last.Fm features are unaffected."
 msgid ""
-"To listen to this stream you need to be a paying Last.Fm subscriber. All the "
-"other Last.Fm features are unaffected."
+"To listen to this stream you need to be a paying Last.fm subscriber. All the "
+"other Last.fm features are unaffected."
 msgstr ""
 "Jy moet 'n betalende Last.Fm intekenaar wees om na hierdie stroom te "
 "luister. Geenander Last.Fm kenmerke word geraak nie."
 
 #: services/lastfm/meta/MultiPlayableCapabilityImpl_p.h:117
-msgid "Error starting track from Last.Fm radio"
+#, fuzzy
+#| msgid "Error starting track from Last.Fm radio"
+msgid "Error starting track from Last.fm radio"
 msgstr "Fout tydens aanvang van snit vanaf Last.Fm radio"
 
 #: services/lastfm/LastFmServiceSettings.cpp:100
@@ -11412,8 +11414,8 @@ msgstr ""
 #: rc.cpp:260
 msgid "11 Equalizer gains include pre-amp, range -100..100, 0 is normal."
 msgstr ""
-"11 Band menger versterkings, sluit in vooraf-versterking, strekking -"
-"100..100, 0 is normaal."
+"11 Band menger versterkings, sluit in vooraf-versterking, strekking "
+"-100..100, 0 is normaal."
 
 #. i18n: file: amarokconfig.kcfg:265
 #. i18n: ectx: label, entry, group (Playback)
@@ -13275,8 +13277,8 @@ msgstr "Potgooi Gids"
 #| "right:0px; -qt-block-indent:0; text-indent:0px;\">The following tokens "
 #| "can be used to define a filename scheme: %track, %title, </p>\n"
 #| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#| "right:0px; -qt-block-indent:0; text-indent:0px;\">%artist, %composer, %"
-#| "year, %album, %comment, %genre<br /></p></body></html>"
+#| "right:0px; -qt-block-indent:0; text-indent:0px;\">%artist, %composer, "
+#| "%year, %album, %comment, %genre<br /></p></body></html>"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -13350,8 +13352,8 @@ msgstr "pasmaak"
 #: rc.cpp:1202
 #, no-c-format
 msgid ""
-"Available fields : %artist%,%title%,%genre%,%year%,%composer%,%pubdate%,%"
-"number%,%album%"
+"Available fields : %artist%,%title%,%genre%,%year%,%composer%,%pubdate%,"
+"%number%,%album%"
 msgstr ""
 
 #. i18n: file: core-impl/podcasts/sql/PodcastSettingsBase.ui:30
@@ -14372,8 +14374,8 @@ msgstr "Herskryf Bestemming"
 #| "right:0px; -qt-block-indent:0; text-indent:0px;\">The following tokens "
 #| "can be used to define a filename scheme: %track, %title, </p>\n"
 #| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-#| "right:0px; -qt-block-indent:0; text-indent:0px;\">%artist, %composer, %"
-#| "year, %album, %comment, %genre<br /></p></body></html>"
+#| "right:0px; -qt-block-indent:0; text-indent:0px;\">%artist, %composer, "
+#| "%year, %album, %comment, %genre<br /></p></body></html>"
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -14388,8 +14390,8 @@ msgid ""
 "to define a filename scheme: %track, %title, </span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Nimbus Sans L'; font-size:10pt;\">%artist, %albumartist, %composer, %"
-"year, %album, %comment, %genre<br /></span></p></body></html>"
+"family:'Nimbus Sans L'; font-size:10pt;\">%artist, %albumartist, %composer, "
+"%year, %album, %comment, %genre<br /></span></p></body></html>"
 msgstr ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -15953,6 +15955,14 @@ msgstr "Speel telling"
 msgid "Last played: %1"
 msgstr "Laas gespeel"
 
+#, fuzzy
+#~| msgid "Genre"
+#~ msgid "Genres"
+#~ msgstr "Genre"
+
+#~ msgid "A site where artists can showcase their creations to the world"
+#~ msgstr "'n Werf waar kunstenaars hul skeppings kan vertoon aan die wêreld"
+
 #~ msgid "Enter login information for Last.fm"
 #~ msgstr "Gee aanteken inligting vir Last.fm"
 
@@ -17372,8 +17382,8 @@ msgstr "Laas gespeel"
 #~ "%composer, %year, %album, %comment, %genre, %ignore."
 #~ msgstr ""
 #~ "Die volgende tekens kan gebruik word om 'n lêer benamings-skema te "
-#~ "definieer:                                      <br>%track, %title, %"
-#~ "artist, %composer, %year, %album, %comment, %genre, %ignore."
+#~ "definieer:                                      <br>%track, %title, "
+#~ "%artist, %composer, %year, %album, %comment, %genre, %ignore."
 
 #~ msgid "These folders will be scanned for media to make up your collection:"
 #~ msgstr ""
@@ -17505,8 +17515,8 @@ msgstr "Laas gespeel"
 #~ "%title, %artist, %composer, %year, %album, %comment, %genre<br>"
 #~ msgstr ""
 #~ "Die volgende tekens kan gebruik word om 'n lêer benamings-skema te "
-#~ "definieer: <br>%track, %title, %artist, %composer, %year, %album, %"
-#~ "comment, %genre<br>"
+#~ "definieer: <br>%track, %title, %artist, %composer, %year, %album, "
+#~ "%comment, %genre<br>"
 
 #~ msgctxt "Username for logins to Magnatune"
 #~ msgid ""
