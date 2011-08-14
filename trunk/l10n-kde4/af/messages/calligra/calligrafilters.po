@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kofficefilters VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-13 02:05+0200\n"
+"POT-Creation-Date: 2011-08-14 02:04+0200\n"
 "PO-Revision-Date: 2004-09-25 00:13+0200\n"
 "Last-Translator: \n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -73,10 +73,12 @@ msgstr "Png Voer uit Fout"
 #: kchart/svg/svgexport.cc:88 kformula/latex/latexexport.cc:74
 #: kformula/png/pngexportdia.cc:248 kformula/svg/svgexport.cc:94
 #: libdialogfilter/exportsizedia.cpp:268
+#: stage/genericimageexport/genericimageexport.cpp:134
 msgid "Failed to write file."
 msgstr "Gevaal na skryf lêer."
 
 #: kchart/genericimageexport/genericimageexport.cpp:123
+#: stage/genericimageexport/genericimageexport.cpp:135
 #, fuzzy, kde-format
 msgid "%1 Export Error"
 msgstr "Png Voer uit Fout"
@@ -169,6 +171,8 @@ msgstr "Hoogte (%)"
 #: words/docx/DocxXmlSettingsReader.cpp:87
 #: words/docx/DocxXmlDocumentReader.cpp:194
 #: words/docx/DocxXmlFontTableReader.cpp:89
+#: stage/pptx/PptxXmlDocumentReader.cpp:153
+#: stage/pptx/PptxXmlSlideReader.cpp:307
 #, kde-format
 msgid "Namespace \"%1\" not found"
 msgstr ""
@@ -465,6 +469,7 @@ msgid "Declared number of shared strings too small (%1)"
 msgstr ""
 
 #: tables/xlsx/XlsxImport.cpp:571 words/docx/DocxImport.cpp:168
+#: stage/pptx/PptxImport.cpp:1100
 #, fuzzy, kde-format
 msgid "Unable to find part for type %1"
 msgstr "Gevaal na skryf lêer."
@@ -712,6 +717,21 @@ msgstr "Open Dokument"
 #: xsltfilter/import/xsltimportdia.cc:56
 msgid "Import XSLT Configuration"
 msgstr "In voer Xslt Opstelling"
+
+#: stage/pptx/PptxXmlDocumentReader.cpp:288
+#, kde-format
+msgid "Slide layout \"%1\" not found"
+msgstr ""
+
+#: stage/pptx/PptxXmlSlideReader.cpp:552
+#, fuzzy, kde-format
+#| msgid "Slide Title"
+msgid "Slide %1"
+msgstr "Skuif Titel"
+
+#: stage/words/kprkword.cc:99 stage/words/odp2odt.cpp:287
+msgid "Slide Title"
+msgstr "Skuif Titel"
 
 #. i18n: file: flow/imageexport/flow_imageexportwidget.ui:27
 #. i18n: ectx: property (text), widget (QLabel)
@@ -1756,14 +1776,6 @@ msgstr "Persoonlike xslt Lêers"
 #: rc.cpp:649 rc.cpp:667
 msgid "Choose..."
 msgstr "Kies..."
-
-#, fuzzy
-#~| msgid "Slide Title"
-#~ msgid "Slide %1"
-#~ msgstr "Skuif Titel"
-
-#~ msgid "Slide Title"
-#~ msgstr "Skuif Titel"
 
 #~ msgid "Old &method: If the line is empty or has less than 40 characters"
 #~ msgstr "Ou metode: As die lyn is leeg of het minder as 40 karakters"
