@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-13 02:06+0200\n"
+"POT-Creation-Date: 2011-08-19 02:12+0200\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -781,75 +781,113 @@ msgctxt "(qtundo-format)"
 msgid "Change background image"
 msgstr "Tweede"
 
-#: kopageapp/KoPADocumentModel.cpp:174
-#, fuzzy, kde-format
-msgid "Page  %1"
-msgstr "Datum"
-
-#: kopageapp/KoPADocumentModel.cpp:178
-#: kopageapp/KoPADocumentStructureDocker.cpp:119
+#: kopageapp/KoPAView.cpp:310 main/KoToolBoxFactory.cpp:37
 #, fuzzy
-msgid "Layer"
-msgstr "Rooi"
+msgid "Tools"
+msgstr "Verstek Kleur"
 
-#: kopageapp/KoPADocumentModel.cpp:181
+#: kopageapp/KoPAView.cpp:347
 #, fuzzy
-#| msgid "Group:"
-msgid "Group"
-msgstr "Groep:"
+msgid "D&elete"
+msgstr "Uitvee Teks"
 
-#: kopageapp/KoPADocumentModel.cpp:184
+#: kopageapp/KoPAView.cpp:358
+msgid "Snap to Grid"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:368
+msgid "Show Master Pages"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:372
+msgid "Show Rulers"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:374
+msgid "Show/hide the view's rulers"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:378
 #, fuzzy
-msgid "Shape"
-msgstr "graf"
+msgid "Insert Page"
+msgstr "Voeg by Teks"
 
-#: kopageapp/KoPADocumentModel.cpp:270
+#: kopageapp/KoPAView.cpp:380 kopageapp/KoPAView.cpp:381
+msgid "Insert a new page after the current one"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:384
+#, fuzzy
+#| msgid "Company Name"
+msgid "Copy Page"
+msgstr "Maatskappy Naam"
+
+#: kopageapp/KoPAView.cpp:386 kopageapp/KoPAView.cpp:387
+msgid "Copy the current page"
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:390
+#, fuzzy
+msgid "Delete Page"
+msgstr "Uitvee Teks"
+
+#: kopageapp/KoPAView.cpp:393 kopageapp/KoPAView.cpp:394
+#, fuzzy
+msgid "Delete the current page"
+msgstr "Uitvee Teks"
+
+#: kopageapp/KoPAView.cpp:397
 #, fuzzy
 #| msgid "Paste Text"
-msgid "Rename Slide"
+msgid "Master Page..."
 msgstr "Plak Teks"
 
-#: kopageapp/KoPADocumentModel.cpp:273
-#, fuzzy
-msgid "Rename Page"
-msgstr "Uitvee Teks"
+#: kopageapp/KoPAView.cpp:401
+msgid "Page Layout..."
+msgstr "Bladsy Uitleg..."
 
-#: kopageapp/KoPADocumentModel.cpp:277
-#, fuzzy
-msgid "Rename Layer"
-msgstr "Skep Werkvoorbeeld"
-
-#: kopageapp/KoPADocumentModel.cpp:307
-#, fuzzy
-#| msgid "Variable"
-msgid "Visible"
+#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:63
+#. i18n: ectx: property (text), widget (QTableWidget, variables)
+#: kopageapp/KoPAView.cpp:410 rc.cpp:331
+msgid "Variable"
 msgstr "Veranderlike"
 
-#: kopageapp/KoPADocumentModel.cpp:308
+#: kopageapp/KoPAView.cpp:415
 #, fuzzy
-msgid "Locked"
-msgstr "Lokalisering"
+msgid "Import Document..."
+msgstr "Open Dokument"
 
-#: kopageapp/KoPADocumentModel.cpp:532 kopageapp/KoPADocumentModel.cpp:553
+#: kopageapp/KoPAView.cpp:419
+msgid "Configure..."
+msgstr ""
+
+#: kopageapp/KoPAView.cpp:486
+#, fuzzy
+msgid "Import Slideshow"
+msgstr "In voer Styl"
+
+#: kopageapp/KoPAView.cpp:489 main/KoMainWindow.cpp:1223
+#, fuzzy
+msgid "Import Document"
+msgstr "Open Dokument"
+
+#: kopageapp/KoPAView.cpp:518 kopageapp/KoPAView.cpp:522
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open\n"
+#| "%1"
+msgid ""
+"Could not import\n"
+"%1"
+msgstr ""
+"Kon nie open\n"
+"%1"
+
+#: kopageapp/KoPAView.cpp:635
 #, fuzzy
 msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPADocumentModel.cpp:674
-#, fuzzy
-msgid "&Move Here"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPADocumentModel.cpp:678
-#, fuzzy
-msgid "&Copy Here"
-msgstr "Skerm"
-
-#: kopageapp/KoPADocumentModel.cpp:682
-#, fuzzy
-msgid "C&ancel"
-msgstr "Verander Kas"
+msgid "Change page layout"
+msgstr "Verander Tabel-vormer"
 
 #: kopageapp/KoPADocumentStructureDocker.cpp:96 main/KoMainWindow.cpp:1744
 #, fuzzy
@@ -867,6 +905,7 @@ msgid "Add a new page or layer"
 msgstr "Nuwe reel"
 
 #: kopageapp/KoPADocumentStructureDocker.cpp:115
+#: kopageapp/KoPADocumentModel.cpp:313
 #, fuzzy
 #| msgid "Size:"
 msgid "Slide"
@@ -877,6 +916,12 @@ msgstr "Grootte:"
 #, fuzzy
 msgid "Page"
 msgstr "Volgende styl:"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:119
+#: kopageapp/KoPADocumentModel.cpp:178
+#, fuzzy
+msgid "Layer"
+msgstr "Rooi"
 
 #: kopageapp/KoPADocumentStructureDocker.cpp:126
 #: kopageapp/KoPADocumentStructureDocker.cpp:647
@@ -991,113 +1036,69 @@ msgid_plural "Paste Pages"
 msgstr[0] "Plak Teks"
 msgstr[1] "Plak Teks"
 
-#: kopageapp/KoPAView.cpp:259 main/KoToolBoxFactory.cpp:37
+#: kopageapp/KoPADocumentModel.cpp:174
+#, fuzzy, kde-format
+msgid "Page  %1"
+msgstr "Datum"
+
+#: kopageapp/KoPADocumentModel.cpp:181
 #, fuzzy
-msgid "Tools"
-msgstr "Verstek Kleur"
+#| msgid "Group:"
+msgid "Group"
+msgstr "Groep:"
 
-#: kopageapp/KoPAView.cpp:296
+#: kopageapp/KoPADocumentModel.cpp:184
 #, fuzzy
-msgid "D&elete"
-msgstr "Uitvee Teks"
+msgid "Shape"
+msgstr "graf"
 
-#: kopageapp/KoPAView.cpp:307
-msgid "Snap to Grid"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:317
-msgid "Show Master Pages"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:321
-msgid "Show Rulers"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:323
-msgid "Show/hide the view's rulers"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:327
-#, fuzzy
-msgid "Insert Page"
-msgstr "Voeg by Teks"
-
-#: kopageapp/KoPAView.cpp:329 kopageapp/KoPAView.cpp:330
-msgid "Insert a new page after the current one"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:333
-#, fuzzy
-#| msgid "Company Name"
-msgid "Copy Page"
-msgstr "Maatskappy Naam"
-
-#: kopageapp/KoPAView.cpp:335 kopageapp/KoPAView.cpp:336
-msgid "Copy the current page"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:339
-#, fuzzy
-msgid "Delete Page"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPAView.cpp:342 kopageapp/KoPAView.cpp:343
-#, fuzzy
-msgid "Delete the current page"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPAView.cpp:346
+#: kopageapp/KoPADocumentModel.cpp:270
 #, fuzzy
 #| msgid "Paste Text"
-msgid "Master Page..."
+msgid "Rename Slide"
 msgstr "Plak Teks"
 
-#: kopageapp/KoPAView.cpp:350
-msgid "Page Layout..."
-msgstr "Bladsy Uitleg..."
+#: kopageapp/KoPADocumentModel.cpp:273
+#, fuzzy
+msgid "Rename Page"
+msgstr "Uitvee Teks"
 
-#. i18n: file: main/rdf/KoSemanticStylesheetsEditor.ui:63
-#. i18n: ectx: property (text), widget (QTableWidget, variables)
-#: kopageapp/KoPAView.cpp:359 rc.cpp:331
-msgid "Variable"
+#: kopageapp/KoPADocumentModel.cpp:277
+#, fuzzy
+msgid "Rename Layer"
+msgstr "Skep Werkvoorbeeld"
+
+#: kopageapp/KoPADocumentModel.cpp:316
+#, fuzzy
+#| msgid "Variable"
+msgid "Visible"
 msgstr "Veranderlike"
 
-#: kopageapp/KoPAView.cpp:364
+#: kopageapp/KoPADocumentModel.cpp:317
 #, fuzzy
-msgid "Import Document..."
-msgstr "Open Dokument"
+msgid "Locked"
+msgstr "Lokalisering"
 
-#: kopageapp/KoPAView.cpp:368
-msgid "Configure..."
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:435
-#, fuzzy
-msgid "Import Slideshow"
-msgstr "In voer Styl"
-
-#: kopageapp/KoPAView.cpp:438 main/KoMainWindow.cpp:1223
-#, fuzzy
-msgid "Import Document"
-msgstr "Open Dokument"
-
-#: kopageapp/KoPAView.cpp:467 kopageapp/KoPAView.cpp:471
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open\n"
-#| "%1"
-msgid ""
-"Could not import\n"
-"%1"
-msgstr ""
-"Kon nie open\n"
-"%1"
-
-#: kopageapp/KoPAView.cpp:584
+#: kopageapp/KoPADocumentModel.cpp:541 kopageapp/KoPADocumentModel.cpp:562
 #, fuzzy
 msgctxt "(qtundo-format)"
-msgid "Change page layout"
-msgstr "Verander Tabel-vormer"
+msgid "Reparent shapes"
+msgstr "Uitvee Teks"
+
+#: kopageapp/KoPADocumentModel.cpp:683
+#, fuzzy
+msgid "&Move Here"
+msgstr "Uitvee Teks"
+
+#: kopageapp/KoPADocumentModel.cpp:687
+#, fuzzy
+msgid "&Copy Here"
+msgstr "Skerm"
+
+#: kopageapp/KoPADocumentModel.cpp:691
+#, fuzzy
+msgid "C&ancel"
+msgstr "Verander Kas"
 
 #. i18n: file: main/rdf/KoRdfFoaFEditWidget.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label)
