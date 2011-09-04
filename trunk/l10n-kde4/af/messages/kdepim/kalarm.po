@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-02 03:45+0200\n"
+"POT-Creation-Date: 2011-09-04 04:08+0200\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -662,38 +662,6 @@ msgctxt "@info:whatsthis"
 msgid "Set up an additional alarm repetition"
 msgstr "Interval tussen alarm herhalings"
 
-#: cal/kacalendar.cpp:234
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Calendar <resource>%1</resource> is in an old format (<application>KAlarm</"
-"application> version %2), and will be read-only unless you choose to update "
-"it to the current format."
-msgstr ""
-
-#: cal/kacalendar.cpp:237
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Some or all of the alarms in calendar <resource>%1</resource> are in an old "
-"<application>KAlarm</application> format, and will be read-only unless you "
-"choose to update them to the current format."
-msgstr ""
-
-#: cal/kacalendar.cpp:240
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<para>%1</para><para><warning>Do not update the calendar if it is also used "
-"with an older version of <application>KAlarm</application> (e.g. on another "
-"computer). If you do so, the calendar may become unusable there.</warning></"
-"para><para>Do you wish to update the calendar?</para>"
-msgstr ""
-
-#: cal/kacalendar.cpp:299 main.cpp:38
-msgid "KAlarm"
-msgstr "K-alarm"
-
 #: cal/alarmtext.cpp:335
 #, fuzzy
 msgctxt "@info/plain 'From' email address"
@@ -746,19 +714,51 @@ msgctxt "@info/plain Todo calendar item's due date/time"
 msgid "Due:"
 msgstr "Tyd"
 
-#: cal/kaevent.cpp:3419
+#: cal/kacalendar.cpp:236
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Calendar <resource>%1</resource> is in an old format (<application>KAlarm</"
+"application> version %2), and will be read-only unless you choose to update "
+"it to the current format."
+msgstr ""
+
+#: cal/kacalendar.cpp:239
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Some or all of the alarms in calendar <resource>%1</resource> are in an old "
+"<application>KAlarm</application> format, and will be read-only unless you "
+"choose to update them to the current format."
+msgstr ""
+
+#: cal/kacalendar.cpp:242
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>%1</para><para><warning>Do not update the calendar if it is also used "
+"with an older version of <application>KAlarm</application> (e.g. on another "
+"computer). If you do so, the calendar may become unusable there.</warning></"
+"para><para>Do you wish to update the calendar?</para>"
+msgstr ""
+
+#: cal/kacalendar.cpp:301 main.cpp:38
+msgid "KAlarm"
+msgstr "K-alarm"
+
+#: cal/kaevent.cpp:3131
 #, fuzzy
 msgctxt "@info/plain Brief form of 'At Login'"
 msgid "Login"
 msgstr "Aanteken"
 
-#: cal/kaevent.cpp:3419
+#: cal/kaevent.cpp:3131
 #, fuzzy
 msgctxt "@info/plain"
 msgid "At login"
 msgstr "Aanteken"
 
-#: cal/kaevent.cpp:3427 cal/kaevent.cpp:3462
+#: cal/kaevent.cpp:3139 cal/kaevent.cpp:3228
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Minute"
@@ -766,7 +766,7 @@ msgid_plural "%1 Minutes"
 msgstr[0] "1 Minuut"
 msgstr[1] "%1 Minute"
 
-#: cal/kaevent.cpp:3429 cal/kaevent.cpp:3464
+#: cal/kaevent.cpp:3141 cal/kaevent.cpp:3230
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Hour"
@@ -774,7 +774,7 @@ msgid_plural "%1 Hours"
 msgstr[0] "1 Uur"
 msgstr[1] "%1 Ure"
 
-#: cal/kaevent.cpp:3433 cal/kaevent.cpp:3466
+#: cal/kaevent.cpp:3145 cal/kaevent.cpp:3232
 #, fuzzy, kde-format
 #| msgctxt "Hours and Minutes"
 #| msgid "%1H %2M"
@@ -782,7 +782,7 @@ msgctxt "@info/plain Hours and minutes"
 msgid "%1h %2m"
 msgstr "%1H %2M"
 
-#: cal/kaevent.cpp:3436 cal/kaevent.cpp:3470
+#: cal/kaevent.cpp:3148 cal/kaevent.cpp:3236
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Day"
@@ -790,7 +790,7 @@ msgid_plural "%1 Days"
 msgstr[0] "1 Dag"
 msgstr[1] "%1 Dae"
 
-#: cal/kaevent.cpp:3438 cal/kaevent.cpp:3471
+#: cal/kaevent.cpp:3150 cal/kaevent.cpp:3237
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Week"
@@ -798,7 +798,7 @@ msgid_plural "%1 Weeks"
 msgstr[0] "1 Week"
 msgstr[1] "%1 Weke"
 
-#: cal/kaevent.cpp:3440
+#: cal/kaevent.cpp:3152
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Month"
@@ -806,7 +806,7 @@ msgid_plural "%1 Months"
 msgstr[0] "1 Maand"
 msgstr[1] "%1 Maande"
 
-#: cal/kaevent.cpp:3442
+#: cal/kaevent.cpp:3154
 #, fuzzy, kde-format
 msgctxt "@info/plain"
 msgid "1 Year"
@@ -814,12 +814,12 @@ msgid_plural "%1 Years"
 msgstr[0] "1 Jaar"
 msgstr[1] "%1 Jare"
 
-#: cal/kaevent.cpp:3448
+#: cal/kaevent.cpp:3160
 msgctxt "@info/plain No recurrence"
 msgid "None"
 msgstr ""
 
-#: cal/kaevent.cpp:3473
+#: cal/kaevent.cpp:3239
 msgctxt "@info/plain No repetition"
 msgid "None"
 msgstr ""
