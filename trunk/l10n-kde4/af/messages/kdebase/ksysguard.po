@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-18 03:36+0200\n"
+"POT-Creation-Date: 2011-09-08 04:08+0200\n"
 "PO-Revision-Date: 2005-11-24 09:31+0200\n"
 "Last-Translator: Kobus Venter <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -18,6 +18,127 @@ msgstr ""
 "X-Generator: KBabel 1.10\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+#: HostConnector.cpp:44
+msgid "Connect Host"
+msgstr "Konnekteer Bediener"
+
+#: HostConnector.cpp:55
+msgid "Host:"
+msgstr "Bediener:"
+
+#: HostConnector.cpp:65
+msgid "Enter the name of the host you want to connect to."
+msgstr "Invoer die naam van die bediener jy wil hê na konnekteer na."
+
+#: HostConnector.cpp:71
+msgid "Connection Type"
+msgstr "Verbinding Tipe"
+
+#: HostConnector.cpp:77
+msgid "ssh"
+msgstr "ssh"
+
+#: HostConnector.cpp:80
+msgid "Select this to use the secure shell to login to the remote host."
+msgstr ""
+"Kies hierdie na gebruik die beveilig tolk na aanteken na die afgeleë "
+"bediener."
+
+#: HostConnector.cpp:83
+msgid "rsh"
+msgstr "rsh"
+
+#: HostConnector.cpp:84
+msgid "Select this to use the remote shell to login to the remote host."
+msgstr ""
+"Kies hierdie na gebruik die afgeleë tolk na aanteken na die afgeleë bediener."
+
+#: HostConnector.cpp:87
+msgid "Daemon"
+msgstr "Bediener"
+
+#: HostConnector.cpp:88
+msgid ""
+"Select this if you want to connect to a ksysguard daemon that is running on "
+"the machine you want to connect to, and is listening for client requests."
+msgstr ""
+"Kies hierdie as jy wil hê na konnekteer na 'n ksysguard bediener wat is wat "
+"loop op die masjien jy wil hê na konnekteer na, en is luister vir kliënt "
+"versoeke."
+
+#: HostConnector.cpp:91
+msgid "Custom command"
+msgstr "Pasmaak opdrag"
+
+#: HostConnector.cpp:92
+msgid ""
+"Select this to use the command you entered below to start ksysguardd on the "
+"remote host."
+msgstr ""
+"Kies hierdie na gebruik die opdrag jy ingevoerde onder na begin ksysguardd "
+"op die afgeleë bediener."
+
+#: HostConnector.cpp:95
+msgid "Port:"
+msgstr "Poort:"
+
+#: HostConnector.cpp:102
+msgid ""
+"Enter the port number on which the ksysguard daemon is listening for "
+"connections."
+msgstr ""
+"Invoer die poort nommer op wat die ksysguard bediener is luister vir "
+"koppelinge."
+
+#: HostConnector.cpp:105
+msgid "e.g.  3112"
+msgstr "e.g.  3112"
+
+#: HostConnector.cpp:108
+msgid "Command:"
+msgstr "Opdrag:"
+
+#: HostConnector.cpp:117
+msgid "Enter the command that runs ksysguardd on the host you want to monitor."
+msgstr ""
+"Invoer die opdrag wat loop ksysguardd op die bediener jy wil hê na monitor."
+
+#: HostConnector.cpp:121
+msgid "e.g. ssh -l root remote.host.org ksysguardd"
+msgstr "e.g. ssh -l root afgeleë.bediener.org ksysguardd"
+
+#: SensorBrowser.cpp:117
+msgid "Sensor Browser"
+msgstr "Sensor Blaaier"
+
+#: SensorBrowser.cpp:474
+#, fuzzy
+#| msgid "Drag sensors to empty fields in a worksheet."
+msgid "Drag sensors to empty cells of a worksheet "
+msgstr "Trek sensors na leë velde in 'n werkvel."
+
+#: SensorBrowser.cpp:475
+#, fuzzy
+#| msgid ""
+#| "The sensor browser lists the connected hosts and the sensors that they "
+#| "provide. Click and drag sensors into drop zones of a worksheet or the "
+#| "panel applet. A display will appear that visualizes the values provided "
+#| "by the sensor. Some sensor displays can display values of multiple "
+#| "sensors. Simply drag other sensors on to the display to add more sensors."
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they "
+"provide. Click and drag sensors into drop zones of a worksheet. A display "
+"will appear that visualizes the values provided by the sensor. Some sensor "
+"displays can display values of multiple sensors. Simply drag other sensors "
+"on to the display to add more sensors."
+msgstr ""
+"Die sensor blaaier lyste Die verbind bedieners en Die sensors wat hulle "
+"verskaf. Kliek en trek sensors binnein laat val sones van 'n werkvel van Die "
+"paneel miniprogram. 'n vertoon sal verskyn wat visualiseer Die waardes "
+"verskaf deur Die sensor. Sommige sensor vertoon kan vertoon waardes van "
+"veelvuldige sensors. Eenvoudig trek ander sensors op na Die vertoon na voeg "
+"by meer sensors."
+
 #: SensorDisplayLib/DancingBars.cpp:96 SensorDisplayLib/FancyPlotter.cpp:283
 msgid "OK"
 msgstr ""
@@ -27,137 +148,6 @@ msgstr ""
 #, fuzzy
 msgid "Error"
 msgstr "Foute"
-
-#: SensorDisplayLib/DummyDisplay.cpp:30 SensorDisplayLib/DummyDisplay.cpp:38
-msgid "Drop Sensor Here"
-msgstr "Laat val Sensor Hier"
-
-#: SensorDisplayLib/DummyDisplay.cpp:32
-msgid ""
-"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
-"and drop it here. A sensor display will appear that allows you to monitor "
-"the values of the sensor over time."
-msgstr ""
-"Hierdie is 'n leeg spasie in 'n werkvel. Trek 'n sensor van die sensor "
-"Blaaier en laat val dit hier. 'n sensor vertoon sal verskyn wat laat toe jy "
-"na monitor die waardes van die sensor bo tyd."
-
-#: SensorDisplayLib/ListViewSettings.cpp:30
-msgid "List View Settings"
-msgstr "Lys Aansig Instellings"
-
-#: SensorDisplayLib/MultiMeterSettings.cpp:31
-#, fuzzy
-#| msgid "Multimeter Settings"
-msgctxt ""
-"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
-msgid "Multimeter Settings"
-msgstr "Multimeter Instellings"
-
-#: SensorDisplayLib/SensorLoggerDlg.cpp:32
-#: SensorDisplayLib/SensorLogger.cpp:431
-msgid "Sensor Logger"
-msgstr "Sensor Logger"
-
-#: SensorDisplayLib/SensorLoggerSettings.cpp:30
-msgid "Sensor Logger Settings"
-msgstr "Sensor Logger Instellings"
-
-#: SensorDisplayLib/SensorModel.cpp:166
-msgid "Host"
-msgstr "Bediener"
-
-#: SensorDisplayLib/SensorModel.cpp:169
-msgid "Sensor"
-msgstr "Sensor"
-
-#: SensorDisplayLib/SensorModel.cpp:172
-msgid "Unit"
-msgstr "Eenheid"
-
-#: SensorDisplayLib/SensorModel.cpp:175
-msgid "Status"
-msgstr "Status"
-
-#: SensorDisplayLib/SensorModel.cpp:178
-msgid "Label"
-msgstr "Etiket"
-
-#: SensorDisplayLib/ListView.cpp:45
-#, fuzzy, kde-format
-msgid "%1 K"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:46
-#, fuzzy, kde-format
-msgid "%1 M"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:47
-#, fuzzy, kde-format
-msgid "%1 G"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:48
-#, fuzzy, kde-format
-msgid "%1 T"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:49
-#, fuzzy, kde-format
-msgid "%1 P"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:152
-#, fuzzy
-#| msgid "Display Range"
-msgid "Display Units"
-msgstr "Vertoon Omvang"
-
-#: SensorDisplayLib/ListView.cpp:156
-msgid "Mixed"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:162
-msgid "Kilobytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:168
-msgid "Megabytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:174
-msgid "Gigabytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:180
-#, fuzzy
-#| msgid "Temperature"
-msgid "Terabytes"
-msgstr "Temperatuur"
-
-#: SensorDisplayLib/SensorDisplay.cpp:118
-#: SensorDisplayLib/SensorLogger.cpp:598
-msgid "&Properties"
-msgstr "Eienskappe"
-
-#: SensorDisplayLib/SensorDisplay.cpp:123
-#: SensorDisplayLib/SensorLogger.cpp:603
-msgid "&Remove Display"
-msgstr "Verwyder Vertoon"
-
-#: SensorDisplayLib/SensorDisplay.cpp:190
-#, fuzzy, kde-format
-msgid ""
-"<qt><p>This is a sensor display. To customize a sensor display click the "
-"right mouse button here and select the <i>Properties</i> entry from the "
-"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
-"p>%1</qt>"
-msgstr ""
-"<qt><p>Hierdie is 'n sensor vertoon. Na pasmaak 'n sensor vertoon kliek en "
-"hou die regterkant muis knoppie op òf die raam of die vertoon boks en kies "
-"die <i>Eienskappe</i> inskrywing van die opspring kieslys. kies <i>Verwyder</"
-"i> Na uitvee die vertoon van die werkvel.</p>%1</qt>"
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:43
 msgid "Edit BarGraph Preferences"
@@ -338,6 +328,20 @@ msgstr "Etiket van Kolom Grafiese"
 #: SensorDisplayLib/DancingBarsSettings.cpp:367
 msgid "Enter new label:"
 msgstr "Invoer nuwe etiket:"
+
+#: SensorDisplayLib/DummyDisplay.cpp:30 SensorDisplayLib/DummyDisplay.cpp:38
+msgid "Drop Sensor Here"
+msgstr "Laat val Sensor Hier"
+
+#: SensorDisplayLib/DummyDisplay.cpp:32
+msgid ""
+"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
+"and drop it here. A sensor display will appear that allows you to monitor "
+"the values of the sensor over time."
+msgstr ""
+"Hierdie is 'n leeg spasie in 'n werkvel. Trek 'n sensor van die sensor "
+"Blaaier en laat val dit hier. 'n sensor vertoon sal verskyn wat laat toe jy "
+"na monitor die waardes van die sensor bo tyd."
 
 #: SensorDisplayLib/FancyPlotter.cpp:178
 msgctxt "Largest axis title"
@@ -560,6 +564,63 @@ msgstr "Beweeg Op"
 msgid "Move Down"
 msgstr "Beweeg Af"
 
+#: SensorDisplayLib/ListView.cpp:45
+#, fuzzy, kde-format
+msgid "%1 K"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:46
+#, fuzzy, kde-format
+msgid "%1 M"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:47
+#, fuzzy, kde-format
+msgid "%1 G"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:48
+#, fuzzy, kde-format
+msgid "%1 T"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:49
+#, fuzzy, kde-format
+msgid "%1 P"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:152
+#, fuzzy
+#| msgid "Display Range"
+msgid "Display Units"
+msgstr "Vertoon Omvang"
+
+#: SensorDisplayLib/ListView.cpp:156
+msgid "Mixed"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:162
+msgid "Kilobytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:168
+msgid "Megabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:174
+msgid "Gigabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:180
+#, fuzzy
+#| msgid "Temperature"
+msgid "Terabytes"
+msgstr "Temperatuur"
+
+#: SensorDisplayLib/ListViewSettings.cpp:30
+msgid "List View Settings"
+msgstr "Lys Aansig Instellings"
+
 #: SensorDisplayLib/LogFile.cpp:92
 #, fuzzy
 #| msgid "Log File Settings"
@@ -571,6 +632,37 @@ msgstr "Log Lêer Instellings"
 #: SensorDisplayLib/LogFile.cpp:98 rc.cpp:26
 msgid "Foreground color:"
 msgstr "Voorgrond kleur:"
+
+#: SensorDisplayLib/MultiMeterSettings.cpp:31
+#, fuzzy
+#| msgid "Multimeter Settings"
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgid "Multimeter Settings"
+msgstr "Multimeter Instellings"
+
+#: SensorDisplayLib/SensorDisplay.cpp:118
+#: SensorDisplayLib/SensorLogger.cpp:598
+msgid "&Properties"
+msgstr "Eienskappe"
+
+#: SensorDisplayLib/SensorDisplay.cpp:123
+#: SensorDisplayLib/SensorLogger.cpp:603
+msgid "&Remove Display"
+msgstr "Verwyder Vertoon"
+
+#: SensorDisplayLib/SensorDisplay.cpp:190
+#, fuzzy, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
+"<qt><p>Hierdie is 'n sensor vertoon. Na pasmaak 'n sensor vertoon kliek en "
+"hou die regterkant muis knoppie op òf die raam of die vertoon boks en kies "
+"die <i>Eienskappe</i> inskrywing van die opspring kieslys. kies <i>Verwyder</"
+"i> Na uitvee die vertoon van die werkvel.</p>%1</qt>"
 
 #: SensorDisplayLib/SensorLogger.cpp:138
 msgid "Logging"
@@ -594,6 +686,11 @@ msgstr "Bediener Naam"
 msgid "Log File"
 msgstr "Log Lêer"
 
+#: SensorDisplayLib/SensorLogger.cpp:431
+#: SensorDisplayLib/SensorLoggerDlg.cpp:32
+msgid "Sensor Logger"
+msgstr "Sensor Logger"
+
 #: SensorDisplayLib/SensorLogger.cpp:608
 msgid "&Remove Sensor"
 msgstr "Verwyder Sensor"
@@ -610,171 +707,29 @@ msgstr "Stop Afteken"
 msgid "S&tart Logging"
 msgstr "Begin Afteken"
 
-#: WorkSheetSettings.cpp:40
-#, fuzzy
-msgid "Tab Properties"
-msgstr "Eienskappe"
+#: SensorDisplayLib/SensorLoggerSettings.cpp:30
+msgid "Sensor Logger Settings"
+msgstr "Sensor Logger Instellings"
 
-#: WorkSheetSettings.cpp:61
-#, fuzzy
-msgid "Properties"
-msgstr "Eienskappe"
-
-#: WorkSheetSettings.cpp:70
-msgid "Rows:"
-msgstr "Rye:"
-
-#: WorkSheetSettings.cpp:79
-msgid "Columns:"
-msgstr "Kolomme:"
-
-#: WorkSheetSettings.cpp:87
-msgid "Enter the number of rows the sheet should have."
-msgstr "Invoer die nommer van rye die staat moet het."
-
-#: WorkSheetSettings.cpp:88
-msgid "Enter the number of columns the sheet should have."
-msgstr "Invoer die nommer van kolomme die staat moet het."
-
-#: WorkSheetSettings.cpp:90 TimerSettings.cpp:51
-msgid "Update interval:"
-msgstr "Dateer op interval:"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
-#. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: WorkSheetSettings.cpp:94 TimerSettings.cpp:58 rc.cpp:89
-msgid " sec"
-msgstr " sek"
-
-#: WorkSheetSettings.cpp:100 TimerSettings.cpp:61
-msgid "All displays of the sheet are updated at the rate specified here."
-msgstr ""
-"Alle vertoon van die staat word opgedateer na die tempo gespesifiseer hier."
-
-#: WorkSheetSettings.cpp:101
-msgid "Enter the title of the worksheet here."
-msgstr "Invoer die titel van die werkvel hier."
-
-#: HostConnector.cpp:44
-msgid "Connect Host"
-msgstr "Konnekteer Bediener"
-
-#: HostConnector.cpp:55
-msgid "Host:"
-msgstr "Bediener:"
-
-#: HostConnector.cpp:65
-msgid "Enter the name of the host you want to connect to."
-msgstr "Invoer die naam van die bediener jy wil hê na konnekteer na."
-
-#: HostConnector.cpp:71
-msgid "Connection Type"
-msgstr "Verbinding Tipe"
-
-#: HostConnector.cpp:77
-msgid "ssh"
-msgstr "ssh"
-
-#: HostConnector.cpp:80
-msgid "Select this to use the secure shell to login to the remote host."
-msgstr ""
-"Kies hierdie na gebruik die beveilig tolk na aanteken na die afgeleë "
-"bediener."
-
-#: HostConnector.cpp:83
-msgid "rsh"
-msgstr "rsh"
-
-#: HostConnector.cpp:84
-msgid "Select this to use the remote shell to login to the remote host."
-msgstr ""
-"Kies hierdie na gebruik die afgeleë tolk na aanteken na die afgeleë bediener."
-
-#: HostConnector.cpp:87
-msgid "Daemon"
+#: SensorDisplayLib/SensorModel.cpp:166
+msgid "Host"
 msgstr "Bediener"
 
-#: HostConnector.cpp:88
-msgid ""
-"Select this if you want to connect to a ksysguard daemon that is running on "
-"the machine you want to connect to, and is listening for client requests."
-msgstr ""
-"Kies hierdie as jy wil hê na konnekteer na 'n ksysguard bediener wat is wat "
-"loop op die masjien jy wil hê na konnekteer na, en is luister vir kliënt "
-"versoeke."
+#: SensorDisplayLib/SensorModel.cpp:169
+msgid "Sensor"
+msgstr "Sensor"
 
-#: HostConnector.cpp:91
-msgid "Custom command"
-msgstr "Pasmaak opdrag"
+#: SensorDisplayLib/SensorModel.cpp:172
+msgid "Unit"
+msgstr "Eenheid"
 
-#: HostConnector.cpp:92
-msgid ""
-"Select this to use the command you entered below to start ksysguardd on the "
-"remote host."
-msgstr ""
-"Kies hierdie na gebruik die opdrag jy ingevoerde onder na begin ksysguardd "
-"op die afgeleë bediener."
+#: SensorDisplayLib/SensorModel.cpp:175
+msgid "Status"
+msgstr "Status"
 
-#: HostConnector.cpp:95
-msgid "Port:"
-msgstr "Poort:"
-
-#: HostConnector.cpp:102
-msgid ""
-"Enter the port number on which the ksysguard daemon is listening for "
-"connections."
-msgstr ""
-"Invoer die poort nommer op wat die ksysguard bediener is luister vir "
-"koppelinge."
-
-#: HostConnector.cpp:105
-msgid "e.g.  3112"
-msgstr "e.g.  3112"
-
-#: HostConnector.cpp:108
-msgid "Command:"
-msgstr "Opdrag:"
-
-#: HostConnector.cpp:117
-msgid "Enter the command that runs ksysguardd on the host you want to monitor."
-msgstr ""
-"Invoer die opdrag wat loop ksysguardd op die bediener jy wil hê na monitor."
-
-#: HostConnector.cpp:121
-msgid "e.g. ssh -l root remote.host.org ksysguardd"
-msgstr "e.g. ssh -l root afgeleë.bediener.org ksysguardd"
-
-#: SensorBrowser.cpp:117
-msgid "Sensor Browser"
-msgstr "Sensor Blaaier"
-
-#: SensorBrowser.cpp:474
-#, fuzzy
-#| msgid "Drag sensors to empty fields in a worksheet."
-msgid "Drag sensors to empty cells of a worksheet "
-msgstr "Trek sensors na leë velde in 'n werkvel."
-
-#: SensorBrowser.cpp:475
-#, fuzzy
-#| msgid ""
-#| "The sensor browser lists the connected hosts and the sensors that they "
-#| "provide. Click and drag sensors into drop zones of a worksheet or the "
-#| "panel applet. A display will appear that visualizes the values provided "
-#| "by the sensor. Some sensor displays can display values of multiple "
-#| "sensors. Simply drag other sensors on to the display to add more sensors."
-msgid ""
-"The sensor browser lists the connected hosts and the sensors that they "
-"provide. Click and drag sensors into drop zones of a worksheet. A display "
-"will appear that visualizes the values provided by the sensor. Some sensor "
-"displays can display values of multiple sensors. Simply drag other sensors "
-"on to the display to add more sensors."
-msgstr ""
-"Die sensor blaaier lyste Die verbind bedieners en Die sensors wat hulle "
-"verskaf. Kliek en trek sensors binnein laat val sones van 'n werkvel van Die "
-"paneel miniprogram. 'n vertoon sal verskyn wat visualiseer Die waardes "
-"verskaf deur Die sensor. Sommige sensor vertoon kan vertoon waardes van "
-"veelvuldige sensors. Eenvoudig trek ander sensors op na Die vertoon na voeg "
-"by meer sensors."
+#: SensorDisplayLib/SensorModel.cpp:178
+msgid "Label"
+msgstr "Etiket"
 
 #: TimerSettings.cpp:38
 msgid "Timer Settings"
@@ -783,6 +738,21 @@ msgstr "Tydhouer Instellings"
 #: TimerSettings.cpp:48
 msgid "Use update interval of worksheet"
 msgstr "Gebruik opdateer interval van werkvel"
+
+#: TimerSettings.cpp:51 WorkSheetSettings.cpp:90
+msgid "Update interval:"
+msgstr "Dateer op interval:"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
+#. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
+#: TimerSettings.cpp:58 WorkSheetSettings.cpp:94 rc.cpp:89
+msgid " sec"
+msgstr " sek"
+
+#: TimerSettings.cpp:61 WorkSheetSettings.cpp:100
+msgid "All displays of the sheet are updated at the rate specified here."
+msgstr ""
+"Alle vertoon van die staat word opgedateer na die tempo gespesifiseer hier."
 
 #: WorkSheet.cpp:89
 #, kde-format
@@ -854,6 +824,36 @@ msgstr "Verwyder Vertoon"
 #: WorkSheet.cpp:571
 msgid "Dummy"
 msgstr ""
+
+#: WorkSheetSettings.cpp:40
+#, fuzzy
+msgid "Tab Properties"
+msgstr "Eienskappe"
+
+#: WorkSheetSettings.cpp:61
+#, fuzzy
+msgid "Properties"
+msgstr "Eienskappe"
+
+#: WorkSheetSettings.cpp:70
+msgid "Rows:"
+msgstr "Rye:"
+
+#: WorkSheetSettings.cpp:79
+msgid "Columns:"
+msgstr "Kolomme:"
+
+#: WorkSheetSettings.cpp:87
+msgid "Enter the number of rows the sheet should have."
+msgstr "Invoer die nommer van rye die staat moet het."
+
+#: WorkSheetSettings.cpp:88
+msgid "Enter the number of columns the sheet should have."
+msgstr "Invoer die nommer van kolomme die staat moet het."
+
+#: WorkSheetSettings.cpp:101
+msgid "Enter the title of the worksheet here."
+msgstr "Invoer die titel van die werkvel hier."
 
 #: Workspace.cpp:113
 #, kde-format
