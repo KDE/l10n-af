@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:46+0200\n"
+"POT-Creation-Date: 2011-09-09 11:37+0200\n"
 "PO-Revision-Date: 2005-11-24 21:19+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -371,6 +371,87 @@ msgctxt "session (location)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
+#: kgreeter.cpp:482
+msgctxt "@item:inlistbox session type"
+msgid "Default"
+msgstr ""
+
+#: kgreeter.cpp:483
+#, fuzzy
+#| msgid "Custom"
+msgctxt "@item:inlistbox session type"
+msgid "Custom"
+msgstr "Gebruik"
+
+#: kgreeter.cpp:484
+#, fuzzy
+#| msgid "Failsafe"
+msgctxt "@item:inlistbox session type"
+msgid "Failsafe"
+msgstr "Misluk stoor"
+
+#: kgreeter.cpp:560
+#, fuzzy, kde-format
+#| msgid " (previous)"
+msgctxt "@item:inmenu session type"
+msgid "%1 (previous)"
+msgstr " (vorige)"
+
+#: kgreeter.cpp:622
+#, kde-format
+msgid ""
+"Your saved session type '%1' is not valid any more.\n"
+"Please select a new one, otherwise 'default' will be used."
+msgstr ""
+"U gestoorde sessie tipe '%1' is nie meer geldig  nie.\n"
+"Kies asseblief 'n ander een, anderses sal 'verstek' gebruik word."
+
+#: kgreeter.cpp:745
+msgid "Warning: this is an unsecured session"
+msgstr "Waarskuwing: hierdie is 'n onsekere sessie"
+
+#: kgreeter.cpp:747
+msgid ""
+"This display requires no X authorization.\n"
+"This means that anybody can connect to it,\n"
+"open windows on it or intercept your input."
+msgstr ""
+"Hierdie vertoon verlang geen X magtiging.\n"
+"Die beteken dat enige iemand daarmee kan verbind,\n"
+"maak vensters oop op dit of sny af u invoer."
+
+#: kgreeter.cpp:799
+#, fuzzy
+#| msgid "L&ogin"
+msgctxt "@action:button"
+msgid "L&ogin"
+msgstr "Teken aan:"
+
+#: kgreeter.cpp:833 kgreeter.cpp:970
+#, fuzzy
+#| msgid "Session &Type"
+msgctxt "@title:menu"
+msgid "Session &Type"
+msgstr "Sessie Tipe"
+
+#: kgreeter.cpp:838 kgreeter.cpp:976
+#, fuzzy
+#| msgid "&Authentication Method"
+msgctxt "@title:menu"
+msgid "&Authentication Method"
+msgstr "Geldigheidstoets"
+
+#: kgreeter.cpp:843 kgreeter.cpp:981
+#, fuzzy
+#| msgid "&Remote Login"
+msgctxt "@action:inmenu"
+msgid "&Remote Login"
+msgstr "Afstand Aanteken"
+
+#: kgreeter.cpp:921 kgverify.cpp:1085
+msgid "Login failed"
+msgstr "Aanteken het gevaal"
+
 #: kgverify.cpp:187
 msgid "No greeter widget plugin loaded. Check the configuration."
 msgstr "Geen groter handvatseltjie inprop gelaai. Kontroleur die konfigurasie."
@@ -478,10 +559,6 @@ msgstr "Waarskuwing: Hoofletterslot aan"
 #: kgverify.cpp:1083
 msgid "Change failed"
 msgstr "Aanteken gevaal"
-
-#: kgverify.cpp:1085 kgreeter.cpp:921
-msgid "Login failed"
-msgstr "Aanteken het gevaal"
 
 #: kgverify.cpp:1136
 #, kde-format
@@ -647,83 +724,6 @@ msgstr "%1: %2"
 msgctxt "... host"
 msgid "X login on %1"
 msgstr "X aanteken op %1"
-
-#: kgreeter.cpp:482
-msgctxt "@item:inlistbox session type"
-msgid "Default"
-msgstr ""
-
-#: kgreeter.cpp:483
-#, fuzzy
-#| msgid "Custom"
-msgctxt "@item:inlistbox session type"
-msgid "Custom"
-msgstr "Gebruik"
-
-#: kgreeter.cpp:484
-#, fuzzy
-#| msgid "Failsafe"
-msgctxt "@item:inlistbox session type"
-msgid "Failsafe"
-msgstr "Misluk stoor"
-
-#: kgreeter.cpp:560
-#, fuzzy, kde-format
-#| msgid " (previous)"
-msgctxt "@item:inmenu session type"
-msgid "%1 (previous)"
-msgstr " (vorige)"
-
-#: kgreeter.cpp:622
-#, kde-format
-msgid ""
-"Your saved session type '%1' is not valid any more.\n"
-"Please select a new one, otherwise 'default' will be used."
-msgstr ""
-"U gestoorde sessie tipe '%1' is nie meer geldig  nie.\n"
-"Kies asseblief 'n ander een, anderses sal 'verstek' gebruik word."
-
-#: kgreeter.cpp:745
-msgid "Warning: this is an unsecured session"
-msgstr "Waarskuwing: hierdie is 'n onsekere sessie"
-
-#: kgreeter.cpp:747
-msgid ""
-"This display requires no X authorization.\n"
-"This means that anybody can connect to it,\n"
-"open windows on it or intercept your input."
-msgstr ""
-"Hierdie vertoon verlang geen X magtiging.\n"
-"Die beteken dat enige iemand daarmee kan verbind,\n"
-"maak vensters oop op dit of sny af u invoer."
-
-#: kgreeter.cpp:799
-#, fuzzy
-#| msgid "L&ogin"
-msgctxt "@action:button"
-msgid "L&ogin"
-msgstr "Teken aan:"
-
-#: kgreeter.cpp:833 kgreeter.cpp:970
-#, fuzzy
-#| msgid "Session &Type"
-msgctxt "@title:menu"
-msgid "Session &Type"
-msgstr "Sessie Tipe"
-
-#: kgreeter.cpp:838 kgreeter.cpp:976
-#, fuzzy
-#| msgid "&Authentication Method"
-msgctxt "@title:menu"
-msgid "&Authentication Method"
-msgstr "Geldigheidstoets"
-
-#: kgreeter.cpp:843 kgreeter.cpp:981
-#, fuzzy
-#| msgid "&Remote Login"
-msgctxt "@action:inmenu"
-msgid "&Remote Login"
-msgstr "Afstand Aanteken"
 
 #, fuzzy
 #~| msgid "abort all sessions"
