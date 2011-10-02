@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-30 02:26+0200\n"
+"POT-Creation-Date: 2011-10-02 02:35+0200\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -54,6 +54,16 @@ msgstr "Skep Werkvoorbeeld"
 msgid "A simple path shape"
 msgstr ""
 
+#: flake/KoShapePaste.cpp:168
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Paste Shapes"
+msgstr "Skep Werkvoorbeeld"
+
+#: flake/svg/SvgShapeFactory.cpp:35
+msgid "Embedded svg shape"
+msgstr ""
+
 #: flake/KoShapeController.cpp:67 kotext/InsertTextReferenceAction.cpp:63
 #: kotext/InsertVariableAction.cpp:51
 #: main/rdf/InsertSemanticObjectReferenceAction.cpp:64
@@ -61,16 +71,6 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "%1 Options"
 msgstr "Uitsonderings"
-
-#: flake/svg/SvgShapeFactory.cpp:35
-msgid "Embedded svg shape"
-msgstr ""
-
-#: flake/KoShapePaste.cpp:168
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Paste Shapes"
-msgstr "Skep Werkvoorbeeld"
 
 #: flake/KoToolManager.cpp:366
 #, kde-format
@@ -1349,8 +1349,8 @@ msgstr "Voltooiïng"
 msgid "Label"
 msgstr "Rooi"
 
-#: koreport/items/text/KoReportTextPlugin.cpp:34 kotext/KoTextEditor.cpp:174
-#: kotext/KoTextEditor.cpp:328 widgets/KoCsvImportDialog.cpp:217
+#: koreport/items/text/KoReportTextPlugin.cpp:34 kotext/KoTextEditor.cpp:190
+#: kotext/KoTextEditor.cpp:344 widgets/KoCsvImportDialog.cpp:217
 #: widgets/KoCsvImportDialog.cpp:581
 msgid "Text"
 msgstr "Teks"
@@ -1512,8 +1512,9 @@ msgstr "Voorwerp"
 
 #. i18n: file: koreport/wrtembed/sectioneditor.ui:200
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
-#: koreport/wrtembed/KoReportDesigner.cpp:838 kotext/KoTextEditor.cpp:1014
-#: kotext/KoTextEditor.cpp:1059 rc.cpp:170
+#: koreport/wrtembed/KoReportDesigner.cpp:838
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:297
+#: kotext/KoTextEditor.cpp:1178 kotext/KoTextEditor.cpp:1223 rc.cpp:170
 #, fuzzy
 msgid "Delete"
 msgstr "Uitvee Teks"
@@ -1635,216 +1636,252 @@ msgctxt "(qtundo-format)"
 msgid "Insert Row Above"
 msgstr "Voeg by Ry"
 
-#: kotext/styles/KoStyleManager.cpp:91
+#: kotext/commands/ChangeListCommand.cpp:83
+#: kotext/commands/ChangeListCommand.cpp:96
 #, fuzzy
-msgid "Default"
-msgstr "Verstek"
+msgctxt "(qtundo-format)"
+msgid "Change List"
+msgstr "Verander Karakter na Simbool"
 
-#: kotext/KoTextEditor.cpp:118
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:83
+#: kotext/commands/DeleteCommand.cpp:47
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete"
+msgstr "Uitvee Teks"
+
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:187
+#: kotext/KoTextEditor.cpp:885 kotext/KoTextEditor.cpp:1720
+#: kotext/KoTextEditor.cpp:1738 kotext/KoTextEditor.cpp:1873
+msgid "Key Press"
+msgstr ""
+
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:356
+#: kotext/commands/DeleteCommand.cpp:192 kotext/KoTextEditor.cpp:134
 #, fuzzy
 #| msgid "Text"
 msgctxt "(qtundo-format)"
 msgid "Text"
 msgstr "Teks"
 
-#: kotext/KoTextEditor.cpp:469 kotext/KoTextEditor.cpp:475
+#: kotext/commands/ListItemNumberingCommand.cpp:35
+#, fuzzy
+#| msgid "Change Line Spacing"
+msgctxt "(qtundo-format)"
+msgid "Change List Numbering"
+msgstr "Verander Lyn Spasiëring"
+
+#: kotext/commands/TextPasteCommand.cpp:61
+#, fuzzy
+#| msgid "Shadow:"
+msgid "Paste As Text"
+msgstr "Skadu:"
+
+#: kotext/commands/TextPasteCommand.cpp:63
+#, fuzzy
+#| msgid "Date"
+msgctxt "(qtundo-format)"
+msgid "Paste"
+msgstr "Datum"
+
+#: kotext/styles/KoStyleManager.cpp:92
+#, fuzzy
+msgid "Default"
+msgstr "Verstek"
+
+#: kotext/KoTextEditor.cpp:485 kotext/KoTextEditor.cpp:491
 #, fuzzy
 msgid "Bold"
 msgstr "Vetdruk:"
 
-#: kotext/KoTextEditor.cpp:485 kotext/KoTextEditor.cpp:491
+#: kotext/KoTextEditor.cpp:501 kotext/KoTextEditor.cpp:507
 #, fuzzy
 #| msgid "Italic:"
 msgid "Italic"
 msgstr "Kursief:"
 
-#: kotext/KoTextEditor.cpp:501 kotext/KoTextEditor.cpp:513
+#: kotext/KoTextEditor.cpp:517 kotext/KoTextEditor.cpp:529
 #, fuzzy
 msgid "Underline"
 msgstr "Onderstreep:"
 
-#: kotext/KoTextEditor.cpp:523 kotext/KoTextEditor.cpp:534
+#: kotext/KoTextEditor.cpp:539 kotext/KoTextEditor.cpp:550
 #, fuzzy
 #| msgid "Strikeout:"
 msgid "Strike Out"
 msgstr "Opgehewe:"
 
-#: kotext/KoTextEditor.cpp:555 kotext/KoTextEditor.cpp:556
+#: kotext/KoTextEditor.cpp:571 kotext/KoTextEditor.cpp:572
 #, fuzzy
 #| msgid "Vertical alignment:"
 msgid "Set Horizontal Alignment"
 msgstr "Vertikaal oplyn:"
 
-#: kotext/KoTextEditor.cpp:572 kotext/KoTextEditor.cpp:577
+#: kotext/KoTextEditor.cpp:588 kotext/KoTextEditor.cpp:593
 #, fuzzy
 #| msgid "Vertical alignment:"
 msgid "Set Vertical Alignment"
 msgstr "Vertikaal oplyn:"
 
-#: kotext/KoTextEditor.cpp:598 kotext/KoTextEditor.cpp:599
+#: kotext/KoTextEditor.cpp:614 kotext/KoTextEditor.cpp:615
 #, fuzzy
 #| msgid "Change Indent"
 msgid "Decrease Indent"
 msgstr "Verander Inkeep"
 
-#: kotext/KoTextEditor.cpp:620 kotext/KoTextEditor.cpp:621
+#: kotext/KoTextEditor.cpp:636 kotext/KoTextEditor.cpp:637
 #, fuzzy
 #| msgid "Change Indent"
 msgid "Increase Indent"
 msgstr "Verander Inkeep"
 
-#: kotext/KoTextEditor.cpp:655 kotext/KoTextEditor.cpp:657
+#: kotext/KoTextEditor.cpp:671 kotext/KoTextEditor.cpp:673
 #, fuzzy
 msgid "Decrease font size"
 msgstr "Basis skrif tipe grootte:"
 
-#: kotext/KoTextEditor.cpp:667 kotext/KoTextEditor.cpp:669
+#: kotext/KoTextEditor.cpp:683 kotext/KoTextEditor.cpp:685
 #, fuzzy
 msgid "Increase font size"
 msgstr "Basis skrif tipe grootte:"
 
-#: kotext/KoTextEditor.cpp:679 kotext/KoTextEditor.cpp:684
+#: kotext/KoTextEditor.cpp:695 kotext/KoTextEditor.cpp:700
 #, fuzzy
 #| msgid "Select Font"
 msgid "Set Font"
 msgstr "Kies Skrif tipe"
 
-#: kotext/KoTextEditor.cpp:694 kotext/KoTextEditor.cpp:699
+#: kotext/KoTextEditor.cpp:710 kotext/KoTextEditor.cpp:715
 #, fuzzy
 #| msgid "Select Font"
 msgid "Set Font Size"
 msgstr "Kies Skrif tipe"
 
-#: kotext/KoTextEditor.cpp:709 kotext/KoTextEditor.cpp:714
+#: kotext/KoTextEditor.cpp:725 kotext/KoTextEditor.cpp:730
 #, fuzzy
 msgid "Set Background Color"
 msgstr "Tweede"
 
-#: kotext/KoTextEditor.cpp:724 kotext/KoTextEditor.cpp:729
+#: kotext/KoTextEditor.cpp:740 kotext/KoTextEditor.cpp:745
 #, fuzzy
 msgid "Set Text Color"
 msgstr "Verstek Kleur"
 
-#: kotext/KoTextEditor.cpp:740 kotext/KoTextEditor.cpp:745
+#: kotext/KoTextEditor.cpp:756 kotext/KoTextEditor.cpp:761
 #, fuzzy
 msgid "Set Character Style"
 msgstr "Skep Nuwe Styl"
 
-#: kotext/KoTextEditor.cpp:755
+#: kotext/KoTextEditor.cpp:771
 #, fuzzy
 msgid "Set Paragraph Style"
 msgstr "Normale paragraaf teks"
 
-#: kotext/KoTextEditor.cpp:775 kotext/KoTextEditor.cpp:782
+#: kotext/KoTextEditor.cpp:791 kotext/KoTextEditor.cpp:798
 #, fuzzy
 msgid "Set default format"
 msgstr "Ongeldige datum formaat: %1"
 
-#: kotext/KoTextEditor.cpp:793
+#: kotext/KoTextEditor.cpp:809
 #, fuzzy
 #| msgid "Insert Line Break"
 msgid "Insert Bookmark"
 msgstr "Voeg by Lyn Breek"
 
-#: kotext/KoTextEditor.cpp:842
+#: kotext/KoTextEditor.cpp:858
 #, fuzzy
 #| msgid "Insert Text"
 msgid "Insert Index"
 msgstr "Voeg by Teks"
 
-#: kotext/KoTextEditor.cpp:855
+#: kotext/KoTextEditor.cpp:871
 #, fuzzy
 msgid "Insert Variable"
 msgstr "Voeg by Teks"
 
-#: kotext/KoTextEditor.cpp:869 kotext/KoTextEditor.cpp:1567
-#: kotext/KoTextEditor.cpp:1585 kotext/KoTextEditor.cpp:1714
-msgid "Key Press"
-msgstr ""
-
-#: kotext/KoTextEditor.cpp:897
+#: kotext/KoTextEditor.cpp:913
 #, fuzzy
 #| msgid "Insert Line Break"
 msgid "Insert Break"
 msgstr "Voeg by Lyn Breek"
 
-#: kotext/KoTextEditor.cpp:1230 kotext/KoTextEditor.cpp:1240
+#: kotext/KoTextEditor.cpp:1384 kotext/KoTextEditor.cpp:1394
 #, fuzzy
 msgid "Insert Table"
 msgstr "Voeg by Teks"
 
-#: kotext/KoTextEditor.cpp:1290 kotext/KoTextEditor.cpp:1308
+#: kotext/KoTextEditor.cpp:1444 kotext/KoTextEditor.cpp:1462
 #, fuzzy
 #| msgid "Insert Row"
 msgid "Insert Row Above"
 msgstr "Voeg by Ry"
 
-#: kotext/KoTextEditor.cpp:1326
+#: kotext/KoTextEditor.cpp:1480
 #, fuzzy
 #| msgid "Insert Column"
 msgid "Insert Column Left"
 msgstr "Voeg by Kolom"
 
-#: kotext/KoTextEditor.cpp:1344
+#: kotext/KoTextEditor.cpp:1498
 #, fuzzy
 #| msgid "Insert Column"
 msgid "Insert Column Right"
 msgstr "Voeg by Kolom"
 
-#: kotext/KoTextEditor.cpp:1362
+#: kotext/KoTextEditor.cpp:1516
 #, fuzzy
 msgid "Delete Column"
 msgstr "Uitvee Teks"
 
-#: kotext/KoTextEditor.cpp:1381
+#: kotext/KoTextEditor.cpp:1535
 #, fuzzy
 msgid "Delete Row"
 msgstr "Uitvee Teks"
 
-#: kotext/KoTextEditor.cpp:1394
+#: kotext/KoTextEditor.cpp:1548
 #, fuzzy
 msgid "Merge Cells"
 msgstr "Kantlyne"
 
-#: kotext/KoTextEditor.cpp:1411
+#: kotext/KoTextEditor.cpp:1565
 #, fuzzy
 msgid "Split Cells"
 msgstr "Vertikaal"
 
-#: kotext/KoTextEditor.cpp:1425
+#: kotext/KoTextEditor.cpp:1579
 #, fuzzy
 msgid "Insert Footnote"
 msgstr "Voeg by Skakel"
 
-#: kotext/KoTextEditor.cpp:1437
+#: kotext/KoTextEditor.cpp:1591
 #, fuzzy
 #| msgid "Insert Text"
 msgid "Insert Endnote"
 msgstr "Voeg by Teks"
 
-#: kotext/KoTextEditor.cpp:1453 kotext/KoTextEditor.cpp:1465
+#: kotext/KoTextEditor.cpp:1607 kotext/KoTextEditor.cpp:1619
 #, fuzzy
 msgid "Insert Table Of Contents"
 msgstr "Voeg by Teks"
 
-#: kotext/KoTextEditor.cpp:1496
+#: kotext/KoTextEditor.cpp:1650
 #, fuzzy
 msgid "Modify Table Of Contents"
 msgstr "Voeg by Teks"
 
-#: kotext/KoTextEditor.cpp:1510 kotext/KoTextEditor.cpp:1526
+#: kotext/KoTextEditor.cpp:1664 kotext/KoTextEditor.cpp:1677
 #, fuzzy
 #| msgid "Insert Line Break"
 msgid "Insert Bibliography"
 msgstr "Voeg by Lyn Breek"
 
-#: kotext/KoTextEditor.cpp:1551
+#: kotext/KoTextEditor.cpp:1704
 #, fuzzy
 #| msgid "Add Fraction"
 msgid "Add Citation"
 msgstr "Voeg by Fraksionele"
 
-#: kotext/KoTextEditor.cpp:1683
+#: kotext/KoTextEditor.cpp:1842
 #, fuzzy
 #| msgid "Change Borders"
 msgid "Line Break"
@@ -2980,7 +3017,7 @@ msgctxt "statement is an Rdf related term"
 msgid "Discard invalid statements?"
 msgstr ""
 
-#: main/rdf/KoDocumentRdf.cpp:916
+#: main/rdf/KoDocumentRdf.cpp:903
 msgid "Reference"
 msgstr ""
 
@@ -6215,10 +6252,6 @@ msgstr ""
 #~ msgstr "Kies Karakter"
 
 #, fuzzy
-#~ msgid "Change font"
-#~ msgstr "Verander Karakter na Simbool"
-
-#, fuzzy
 #~| msgid "Minute"
 #~ msgctxt "Size Policy"
 #~ msgid "Minimum"
@@ -6874,9 +6907,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Change Paragraph Background Color"
 #~ msgstr "Verander Agtergrond Kleur..."
-
-#~ msgid "Change Line Spacing"
-#~ msgstr "Verander Lyn Spasiëring"
 
 #~ msgid "Change Borders"
 #~ msgstr "Verander Grense"
