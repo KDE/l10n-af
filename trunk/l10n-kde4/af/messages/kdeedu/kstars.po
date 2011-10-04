@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-12 04:34+0200\n"
+"POT-Creation-Date: 2011-10-04 04:33+0200\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -42996,16 +42996,16 @@ msgstr "Daglig Stooring Tyd aktief"
 msgid "Daylight Saving Time inactive"
 msgstr "Daglig Stooring Tyd onaktiewe"
 
-#: timezonerule.cpp:89 timezonerule.cpp:129
-msgid "Could not parse "
-msgstr "Kon nie lees "
-
 #: timezonerule.cpp:89
-msgid " as a valid month code."
+#, fuzzy, kde-format
+#| msgid " as a valid month code."
+msgid "Could not parse %1 as a valid month code."
 msgstr " as 'n geldige maand kode."
 
 #: timezonerule.cpp:129
-msgid " as a valid day code."
+#, fuzzy, kde-format
+#| msgid " as a valid day code."
+msgid "Could not parse %1 as a valid day code."
 msgstr " as 'n geldige dag kode."
 
 #: timezonerule.cpp:241
@@ -43920,13 +43920,9 @@ msgstr ""
 msgid "Image saved to file: %1"
 msgstr "Ongeldige Url"
 
-#: printing/foveditordialog.cpp:222 printing/printingwizard.cpp:533
-msgid "FOV ("
-msgstr ""
-
-#: printing/foveditordialog.cpp:224 printing/foveditordialog.cpp:225
-#: printing/printingwizard.cpp:535 printing/printingwizard.cpp:536
-msgid "'"
+#: printing/foveditordialog.cpp:222
+#, kde-format
+msgid "FOV (%1/%2): %3 (%4' x %5')"
 msgstr ""
 
 #: printing/legend.cpp:351 printing/legend.cpp:386
@@ -44032,6 +44028,14 @@ msgstr "Soek Voorwerp"
 
 #: printing/printingwizard.cpp:527
 msgid "Field of View Snapshots"
+msgstr ""
+
+#: printing/printingwizard.cpp:533
+msgid "FOV ("
+msgstr ""
+
+#: printing/printingwizard.cpp:535 printing/printingwizard.cpp:536
+msgid "'"
 msgstr ""
 
 #: printing/printingwizard.cpp:545
@@ -47625,6 +47629,9 @@ msgstr "Kon nie uitvee die lêer: %1"
 #: oal/observeradd.cpp:77
 msgid "Write Error"
 msgstr ""
+
+#~ msgid "Could not parse "
+#~ msgstr "Kon nie lees "
 
 #, fuzzy
 #~| msgid "Find Object"
