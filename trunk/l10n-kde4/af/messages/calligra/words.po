@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-10 02:49+0200\n"
+"POT-Creation-Date: 2011-10-12 02:21+0200\n"
 "PO-Revision-Date: 2002-09-27 16:45+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -479,7 +479,7 @@ msgstr "Kolom"
 
 #. i18n: file: part/dialogs/KWStartupWidget.ui:71
 #. i18n: ectx: property (text), widget (QPushButton, createButton)
-#: rc.cpp:207 part/KWView.cpp:326
+#: rc.cpp:207 part/KWView.cpp:324
 #, fuzzy
 msgid "Create"
 msgstr "Skep Tabel"
@@ -815,13 +815,11 @@ msgstr "Vertoon veld kode"
 
 #. i18n: file: part/words_readonly.rc:29
 #. i18n: ectx: Menu (tools)
-#. i18n: file: part/words.rc:93
-#. i18n: ectx: Menu (tools)
-#: rc.cpp:381 rc.cpp:405
+#: rc.cpp:381
 msgid "&Tools"
 msgstr ""
 
-#. i18n: file: part/words.rc:51
+#. i18n: file: part/words.rc:52
 #. i18n: ectx: Menu (insert)
 #: rc.cpp:396
 #, fuzzy
@@ -829,25 +827,32 @@ msgctxt "Insert menu"
 msgid "&Insert"
 msgstr "Voeg by Ry"
 
-#. i18n: file: part/words.rc:64
+#. i18n: file: part/words.rc:65
 #. i18n: ectx: Menu (semantic_object_menu)
 #: rc.cpp:399
 msgid "Semantic Object"
 msgstr ""
 
-#. i18n: file: part/words.rc:77
+#. i18n: file: part/words.rc:78
 #. i18n: ectx: Menu (format)
 #: rc.cpp:402
 msgid "F&ormat"
 msgstr "Formaat"
 
 #. i18n: file: part/words.rc:94
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:405
+#, fuzzy
+msgid "&Settings"
+msgstr "Allerande Instellings"
+
+#. i18n: file: part/words.rc:98
 #. i18n: ectx: Menu (SpellCheck)
 #: rc.cpp:408
 msgid "Spellcheck"
 msgstr "Speltoets"
 
-#. i18n: file: part/words.rc:100
+#. i18n: file: part/words.rc:104
 #. i18n: ectx: Menu (Changes)
 #: rc.cpp:411
 #, fuzzy
@@ -856,29 +861,22 @@ msgid "Change Tracking"
 msgstr "Verander Skakel"
 
 #. i18n: file: part/words.rc:114
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:414
-#, fuzzy
-msgid "&Settings"
-msgstr "Allerande Instellings"
-
-#. i18n: file: part/words.rc:125
 #. i18n: ectx: ToolBar (edit_toolbar)
-#: rc.cpp:417
+#: rc.cpp:414
 #, fuzzy
 msgid "Edit"
 msgstr "Slaan uit Teks"
 
-#. i18n: file: part/words.rc:184
+#. i18n: file: part/words.rc:173
 #. i18n: ectx: Menu (check_spell_list)
-#: rc.cpp:420
+#: rc.cpp:417
 #, fuzzy
 msgid "Spell Check Result"
 msgstr "Spel Toetsing"
 
-#. i18n: file: part/words.rc:213
+#. i18n: file: part/words.rc:202
 #. i18n: ectx: Menu (variable_list)
-#: rc.cpp:423
+#: rc.cpp:420
 msgid "Change Variable To"
 msgstr "Verander Veranderlike Na"
 
@@ -969,19 +967,19 @@ msgctxt "(qtundo-format)"
 msgid "Delete Frame"
 msgstr "Uitvee Raam"
 
-#: part/commands/KWChangePageStyleCommand.cpp:27
-#, fuzzy
-#| msgid "&Page Mode"
-msgctxt "(qtundo-format)"
-msgid "Set Page Style"
-msgstr "Bladsy Modus"
-
 #: part/commands/KWClipFrameCommand.cpp:41
 #, fuzzy
 #| msgid "Inline Frame"
 msgctxt "(qtundo-format)"
 msgid "Clip Frame"
 msgstr "Inlyn Raam"
+
+#: part/commands/KWChangePageStyleCommand.cpp:27
+#, fuzzy
+#| msgid "&Page Mode"
+msgctxt "(qtundo-format)"
+msgid "Set Page Style"
+msgstr "Bladsy Modus"
 
 #: part/commands/KWNewPageStyleCommand.cpp:27
 #, fuzzy
@@ -1036,7 +1034,7 @@ msgid "Select Bookmark"
 msgstr "Kies Boekmerk"
 
 #: part/dialogs/KWStatisticsDialog.cpp:29
-#: part/dockers/KWStatisticsDocker.cpp:35 part/KWView.cpp:408
+#: part/dockers/KWStatisticsDocker.cpp:35 part/KWView.cpp:422
 msgid "Statistics"
 msgstr "Statistieke"
 
@@ -1142,7 +1140,7 @@ msgstr "Styl:"
 msgid "Clone"
 msgstr "Maak toe:"
 
-#: part/dialogs/KWPageSettingsDialog.cpp:62 part/KWView.cpp:447
+#: part/dialogs/KWPageSettingsDialog.cpp:62 part/KWView.cpp:453
 #, fuzzy
 msgid "Delete"
 msgstr "Uitvee Ry"
@@ -1465,15 +1463,10 @@ msgstr "Dokument Verstek"
 
 #: part/KWView.cpp:268
 #, fuzzy
-msgid "Disable Document Headers"
-msgstr "Dokument Verstek"
-
-#: part/KWView.cpp:269
-#, fuzzy
 msgid "Shows and hides header display"
 msgstr "Vertoon en steek weg opskrif vertoon."
 
-#: part/KWView.cpp:270
+#: part/KWView.cpp:269
 #, fuzzy
 #| msgid ""
 #| "Selecting this option toggles the display of headers in KWord."
@@ -1488,22 +1481,17 @@ msgstr ""
 "<br><br>opskrifte word spesiaal rame na die bo van elke bladsy wat kan bevat "
 "bladsy nommers of ander informasie."
 
-#: part/KWView.cpp:275
+#: part/KWView.cpp:274
 #, fuzzy
 msgid "Enable Document Footers"
 msgstr "Maak Teks Kursief"
 
-#: part/KWView.cpp:277
-#, fuzzy
-msgid "Disable Document Footers"
-msgstr "Dokument Verstek"
-
-#: part/KWView.cpp:278
+#: part/KWView.cpp:276
 #, fuzzy
 msgid "Shows and hides footer display"
 msgstr "Vertoon en steek weg voetskrif vertoon."
 
-#: part/KWView.cpp:279
+#: part/KWView.cpp:277
 #, fuzzy
 #| msgid ""
 #| "Selecting this option toggles the display of headers in KWord."
@@ -1518,17 +1506,17 @@ msgstr ""
 "<br><br>opskrifte word spesiaal rame na die bo van elke bladsy wat kan bevat "
 "bladsy nommers of ander informasie."
 
-#: part/KWView.cpp:284
+#: part/KWView.cpp:282
 #, fuzzy
 msgid "Snap to Grid"
 msgstr "Vertoon Voetskrif"
 
-#: part/KWView.cpp:289
+#: part/KWView.cpp:287
 #, fuzzy
 msgid "Raise Shape"
 msgstr "Lig Raam"
 
-#: part/KWView.cpp:292
+#: part/KWView.cpp:290
 #, fuzzy
 #| msgid ""
 #| "Raise the currently selected frame so that it appears above all the other "
@@ -1540,7 +1528,7 @@ msgstr ""
 "Lig die huidiglik gekose raam sodat wat dit verskyn boonste alle die ander "
 "rame"
 
-#: part/KWView.cpp:294
+#: part/KWView.cpp:292
 #, fuzzy
 #| msgid ""
 #| "Raise the currently selected frame so that it appears above all the other "
@@ -1555,12 +1543,12 @@ msgstr ""
 "rame. Hierdie is slegs bruikbare as rame oorvleuel elke ander. as "
 "veelvuldige rame word gekose hulle word alle ontpak in skakel."
 
-#: part/KWView.cpp:299
+#: part/KWView.cpp:297
 #, fuzzy
 msgid "Lower Shape"
 msgstr "Sagter Raam"
 
-#: part/KWView.cpp:302
+#: part/KWView.cpp:300
 #, fuzzy
 #| msgid ""
 #| "Raise the currently selected frame so that it appears above all the other "
@@ -1572,7 +1560,7 @@ msgstr ""
 "Lig die huidiglik gekose raam sodat wat dit verskyn boonste alle die ander "
 "rame"
 
-#: part/KWView.cpp:304
+#: part/KWView.cpp:302
 #, fuzzy
 #| msgid ""
 #| "Raise the currently selected frame so that it appears above all the other "
@@ -1587,47 +1575,45 @@ msgstr ""
 "rame. Hierdie is slegs bruikbare as rame oorvleuel elke ander. as "
 "veelvuldige rame word gekose hulle word alle ontpak in skakel."
 
-#: part/KWView.cpp:308
+#: part/KWView.cpp:306
 msgid "Bring to Front"
 msgstr "Bring na Voor"
 
-#: part/KWView.cpp:312
+#: part/KWView.cpp:310
 msgid "Send to Back"
 msgstr "Stuur na Terug"
 
-#: part/KWView.cpp:316
+#: part/KWView.cpp:314
 #, fuzzy
 #| msgid "&Variable"
 msgid "Variable"
 msgstr "Veranderlike"
 
-#: part/KWView.cpp:334
+#: part/KWView.cpp:332
 #, fuzzy
 msgid "Bookmark..."
 msgstr "Voeg by Boekmerk..."
 
-#: part/KWView.cpp:339
+#: part/KWView.cpp:337
 #, fuzzy
 msgid "Select Bookmark..."
 msgstr "Kies Boekmerk..."
 
-#: part/KWView.cpp:340
+#: part/KWView.cpp:338
 #, fuzzy
 msgid "Bookmark"
 msgstr "Voeg by Boekmerk..."
 
-#: part/KWView.cpp:346
-#, fuzzy
-#| msgid "Frame &Borders"
-msgid "Page Borders"
-msgstr "Raam Grense"
+#: part/KWView.cpp:344
+msgid "Show Text Shape Borders"
+msgstr ""
 
-#: part/KWView.cpp:347
+#: part/KWView.cpp:345
 #, fuzzy
 msgid "Turns the border display on and off"
 msgstr "Draai die grens vertoon op en af."
 
-#: part/KWView.cpp:352
+#: part/KWView.cpp:350
 #, fuzzy
 #| msgid ""
 #| "Turns the border display on and off.<br><br>The borders are never "
@@ -1642,17 +1628,52 @@ msgstr ""
 "Hierdie opsie is bruikbare na sien hoe die dokument sal verskyn op die "
 "printed bladsy."
 
-#: part/KWView.cpp:354
+#: part/KWView.cpp:352
+#, fuzzy
+#| msgid "&Formatting Characters"
+msgid "Show Formatting Characters"
+msgstr "Formatering Karakters"
+
+#: part/KWView.cpp:357
+#, fuzzy
+msgid "Toggle the display of non-printing characters"
+msgstr "Wissel die vertoon van non-printing karakters."
+
+#: part/KWView.cpp:358
+msgid ""
+"Toggle the display of non-printing characters.<br/><br/>When this is "
+"enabled, Words shows you tabs, spaces, carriage returns and other non-"
+"printing characters."
+msgstr ""
+
+#: part/KWView.cpp:360
+#, fuzzy
+#| msgid "Configure Table Borders"
+msgid "Show Table Borders"
+msgstr "Konfigureer Tabel Grense"
+
+#: part/KWView.cpp:365
+#, fuzzy
+msgid "Toggle the display of table borders"
+msgstr "Wissel die vertoon van non-printing karakters."
+
+#: part/KWView.cpp:366
+msgid ""
+"Toggle the display of table borders.<br/><br/>When this is enabled, Words "
+"shows you any invisible table borders with a thin gray line."
+msgstr ""
+
+#: part/KWView.cpp:368
 #, fuzzy
 msgid "Page Layout..."
 msgstr "Verander Uitleg"
 
-#: part/KWView.cpp:356
+#: part/KWView.cpp:370
 #, fuzzy
 msgid "Change properties of entire page"
 msgstr "Verander eienskappe van hele bladsy."
 
-#: part/KWView.cpp:357
+#: part/KWView.cpp:371
 #, fuzzy
 #| msgid ""
 #| "Change properties of the entire page.<p>Currently you can change paper "
@@ -1665,84 +1686,84 @@ msgstr ""
 "grootte, papier oriëntasie, opskrif en voetskrif grotes, en kolom "
 "instellings."
 
-#: part/KWView.cpp:361
+#: part/KWView.cpp:375
 #, fuzzy
 msgid "Semantic Stylesheets..."
 msgstr "In voer Styl..."
 
-#: part/KWView.cpp:363
+#: part/KWView.cpp:377
 msgid "Modify and add semantic stylesheets"
 msgstr ""
 
-#: part/KWView.cpp:364
+#: part/KWView.cpp:378
 msgid ""
 "Stylesheets are used to format contact, event, and location information "
 "which is stored in Rdf"
 msgstr ""
 
-#: part/KWView.cpp:368
+#: part/KWView.cpp:382
 msgid "Anchor"
 msgstr ""
 
-#: part/KWView.cpp:371
+#: part/KWView.cpp:385
 #, fuzzy
 msgid "As Character"
 msgstr "Skep Tabel"
 
-#: part/KWView.cpp:372
+#: part/KWView.cpp:386
 #, fuzzy
 msgid "Anchor the current shape as a character in the text"
 msgstr "Voeg by tabel van inhoud na die huidige plekaanduier posisie."
 
-#: part/KWView.cpp:377
+#: part/KWView.cpp:391
 #, fuzzy
 msgid "To Character"
 msgstr "Skep Tabel"
 
-#: part/KWView.cpp:378
+#: part/KWView.cpp:392
 #, fuzzy
 msgid "Anchor the current shape to the character at the current position"
 msgstr "Voeg by tabel van inhoud na die huidige plekaanduier posisie."
 
-#: part/KWView.cpp:383
+#: part/KWView.cpp:397
 #, fuzzy
 #| msgid "Paragraph"
 msgid "To Paragraph"
 msgstr "Paragraaf"
 
-#: part/KWView.cpp:384
+#: part/KWView.cpp:398
 msgid "Anchor the current shape to current paragraph"
 msgstr ""
 
-#: part/KWView.cpp:389
+#: part/KWView.cpp:403
 #, fuzzy
 msgid "To Page"
 msgstr "Verwyder Inskrywing"
 
-#: part/KWView.cpp:390
+#: part/KWView.cpp:404
 msgid "Anchor the current shape to current page"
 msgstr ""
 
-#: part/KWView.cpp:410
+#: part/KWView.cpp:424
 msgid "Sentence, word and letter counts for this document"
 msgstr "Sin, woord en brief tel vir hierdie dokument"
 
-#: part/KWView.cpp:411
+#: part/KWView.cpp:425
 msgid ""
 "Information on the number of letters, words, syllables and sentences for "
 "this document.<p>Evaluates readability using the Flesch reading score.</p>"
 msgstr ""
 
-#: part/KWView.cpp:414
+#: part/KWView.cpp:428
 msgid "Show Rulers"
 msgstr "Vertoon Lineale"
 
-#: part/KWView.cpp:416
+#: part/KWView.cpp:430
 #, fuzzy
 msgid "Shows or hides rulers"
 msgstr "Vertoon of steek weg lineale."
 
-#: part/KWView.cpp:417
+#: part/KWView.cpp:431
 msgid ""
 "The rulers are the white measuring spaces top and left of the document. The "
 "rulers show the position and width of pages and of frames and can be used to "
@@ -1750,91 +1771,67 @@ msgid ""
 "being displayed.</p>"
 msgstr ""
 
-#: part/KWView.cpp:425
+#: part/KWView.cpp:439
 #, fuzzy
 msgid "Page..."
 msgstr "Bladsy..."
 
-#: part/KWView.cpp:429
+#: part/KWView.cpp:443
 #, fuzzy
 msgid "Delete Page"
 msgstr "Uitvee Tabel"
 
-#: part/KWView.cpp:435
-#, fuzzy
-#| msgid "&Formatting Characters"
-msgid "Formatting Characters"
-msgstr "Formatering Karakters"
-
-#: part/KWView.cpp:439
-#, fuzzy
-msgid "Toggle the display of non-printing characters"
-msgstr "Wissel die vertoon van non-printing karakters."
-
-#: part/KWView.cpp:440
-msgid ""
-"Toggle the display of non-printing characters.<br/><br/>When this is "
-"enabled, Words shows you tabs, spaces, carriage returns and other non-"
-"printing characters."
-msgstr ""
-
-#: part/KWView.cpp:442
+#: part/KWView.cpp:449
 #, fuzzy
 msgid "Select All Shapes"
 msgstr "Kies Raamstel"
 
-#: part/KWView.cpp:460
+#: part/KWView.cpp:466
 #, fuzzy
 msgid "Create Linked Copy"
 msgstr "Skep 'n nuwe bladsy"
 
-#: part/KWView.cpp:462
+#: part/KWView.cpp:468
 msgid "Create a copy of the current frame, always showing the same contents"
 msgstr ""
 
-#: part/KWView.cpp:463
+#: part/KWView.cpp:469
 msgid ""
 "Create a copy of the current frame, that remains linked to it. This means "
 "they always show the same contents: modifying the contents in such a frame "
 "will update all its linked copies."
 msgstr ""
 
-#: part/KWView.cpp:466
+#: part/KWView.cpp:472
 #, fuzzy
 #| msgid "Create Text Frame"
 msgid "Create Frame-clip"
 msgstr "Skep Teks Raam"
 
-#: part/KWView.cpp:470
+#: part/KWView.cpp:476
 #, fuzzy
 msgid "Remove Frame-clip"
 msgstr "Verwyder Opneem"
 
-#: part/KWView.cpp:474
+#: part/KWView.cpp:480
 #, fuzzy
 #| msgid "Show &status bar"
 msgid "Show Status Bar"
 msgstr "Vertoon status kolom"
 
-#: part/KWView.cpp:475
-#, fuzzy
-#| msgid "Show &status bar"
-msgid "Hide Status Bar"
-msgstr "Vertoon status kolom"
-
-#: part/KWView.cpp:476
+#: part/KWView.cpp:481
 #, fuzzy
 #| msgid "Show &status bar"
 msgid "Shows or hides the status bar"
 msgstr "Vertoon status kolom"
 
-#: part/KWView.cpp:1016
+#: part/KWView.cpp:978
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Create Linked Copy"
 msgstr "Skep 'n nuwe bladsy"
 
-#: part/KWView.cpp:1407
+#: part/KWView.cpp:1369
 #, fuzzy
 msgid "Insert Image Options"
 msgstr "Voeg by Tabel"
@@ -2123,6 +2120,24 @@ msgstr ""
 msgid "Michael Johnson"
 msgstr ""
 
+#, fuzzy
+#~ msgid "Disable Document Headers"
+#~ msgstr "Dokument Verstek"
+
+#, fuzzy
+#~ msgid "Disable Document Footers"
+#~ msgstr "Dokument Verstek"
+
+#, fuzzy
+#~| msgid "Frame &Borders"
+#~ msgid "Page Borders"
+#~ msgstr "Raam Grense"
+
+#, fuzzy
+#~| msgid "Show &status bar"
+#~ msgid "Hide Status Bar"
+#~ msgstr "Vertoon status kolom"
+
 #~ msgid "Numbering"
 #~ msgstr "Nommering"
 
@@ -2355,9 +2370,6 @@ msgstr ""
 
 #~ msgid "Configure Frame Borders"
 #~ msgstr "Konfigureer Raam Grense"
-
-#~ msgid "Configure Table Borders"
-#~ msgstr "Konfigureer Tabel Grense"
 
 #, fuzzy
 #~ msgid "Document"
