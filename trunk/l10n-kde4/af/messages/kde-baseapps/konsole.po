@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-25 04:01+0200\n"
+"POT-Creation-Date: 2011-10-26 04:18+0200\n"
 "PO-Revision-Date: 2005-11-29 11:30+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -312,18 +312,19 @@ msgstr ""
 msgid "Copy Email Address"
 msgstr ""
 
-#: HistorySizeDialog.cpp:51
+#: HistorySizeDialog.cpp:49
 #, fuzzy
-msgid "Scrollback Options"
-msgstr "Oortjie en Opsies"
+#| msgid "Do not display scrollbar"
+msgid "Adjust Scrollback"
+msgstr "Doen nie vertoon rolstaaf"
 
-#: HistorySizeDialog.cpp:62
+#: HistorySizeDialog.cpp:60
 #, fuzzy
 #| msgid "Do not display scrollbar"
 msgid "No scrollback"
 msgstr "Doen nie vertoon rolstaaf"
 
-#: HistorySizeDialog.cpp:63
+#: HistorySizeDialog.cpp:61
 #, fuzzy
 #| msgid "Do not display scrollbar"
 msgid "Fixed size scrollback: "
@@ -331,22 +332,22 @@ msgstr "Doen nie vertoon rolstaaf"
 
 #. i18n: file: EditProfileDialog.ui:757
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedScrollbackButton)
-#: HistorySizeDialog.cpp:64 rc.cpp:236
+#: HistorySizeDialog.cpp:62 rc.cpp:236
 #, fuzzy
 #| msgctxt "Unlimited (number of lines)"
 #| msgid "Unlimited"
 msgid "Unlimited scrollback"
 msgstr "Onbeperk"
 
-#: HistorySizeDialog.cpp:88
+#: HistorySizeDialog.cpp:86
 msgid "lines"
 msgstr ""
 
-#: HistorySizeDialog.cpp:95
-#, fuzzy
-#| msgid "Save Sessions Profile"
-msgid "Save to current profile"
-msgstr "Stoor Sessies Profiel"
+#: HistorySizeDialog.cpp:93
+msgid ""
+"<span style=\"color:gray;\"><center><bold>The adjustment is only temporary.</"
+"bold></center></span>"
+msgstr ""
 
 #: IncrementalSearchBar.cpp:52
 #, fuzzy
@@ -709,7 +710,7 @@ msgstr "Aktiveer Kieslys"
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:422 SessionController.cpp:638 SessionController.cpp:664
+#: MainWindow.cpp:422 SessionController.cpp:639 SessionController.cpp:665
 msgid "Confirm Close"
 msgstr ""
 
@@ -1703,31 +1704,9 @@ msgstr ""
 msgid "&Set as Default"
 msgstr "Stoor as Verstek"
 
-#. i18n: file: ../desktop/sessionui.rc:17
-#. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:458
-msgid "Copy Input To"
-msgstr ""
-
-#. i18n: file: ../desktop/sessionui.rc:44
-#. i18n: ectx: Menu (debug)
-#: rc.cpp:461
-msgid "Debug"
-msgstr ""
-
-#. i18n: file: ../desktop/sessionui.rc:63
-#. i18n: ectx: Menu (switch-profile)
-#. i18n: file: ../desktop/partui.rc:23
-#. i18n: ectx: Menu (switch-profile)
-#: rc.cpp:464 rc.cpp:488
-#, fuzzy
-#| msgid "Save Sessions &Profile..."
-msgid "&Switch Profile"
-msgstr "Stoor Sessies Profiel..."
-
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:467
+#: rc.cpp:458
 #, fuzzy
 #| msgid "S&ize"
 msgid "File"
@@ -1735,14 +1714,14 @@ msgstr "Grootte"
 
 #. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:470
+#: rc.cpp:461
 #, fuzzy
 msgid "Edit"
 msgstr "Redigeer..."
 
 #. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:473
+#: rc.cpp:464
 #, fuzzy
 #| msgid "S&ize"
 msgid "View"
@@ -1750,7 +1729,7 @@ msgstr "Grootte"
 
 #. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:476
+#: rc.cpp:467
 #, fuzzy
 #| msgid "Shrink Font"
 msgid "Split View"
@@ -1758,7 +1737,7 @@ msgstr "Verklein Skrif tipe"
 
 #. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:479
+#: rc.cpp:470
 #, fuzzy
 #| msgid "Settings"
 msgid "Settings"
@@ -1766,17 +1745,39 @@ msgstr "Instellings"
 
 #. i18n: file: ../desktop/konsoleui.rc:44
 #. i18n: ectx: Menu (help)
-#: rc.cpp:482
+#: rc.cpp:473
 msgid "Help"
 msgstr ""
 
 #. i18n: file: ../desktop/partui.rc:7
 #. i18n: ectx: Menu (history)
-#: rc.cpp:485
+#: rc.cpp:476
 #, fuzzy
 #| msgid "Do not display scrollbar"
 msgid "S&crollback"
 msgstr "Doen nie vertoon rolstaaf"
+
+#. i18n: file: ../desktop/partui.rc:23
+#. i18n: ectx: Menu (switch-profile)
+#. i18n: file: ../desktop/sessionui.rc:63
+#. i18n: ectx: Menu (switch-profile)
+#: rc.cpp:479 rc.cpp:488
+#, fuzzy
+#| msgid "Save Sessions &Profile..."
+msgid "&Switch Profile"
+msgstr "Stoor Sessies Profiel..."
+
+#. i18n: file: ../desktop/sessionui.rc:17
+#. i18n: ectx: Menu (edit-copy-input-to)
+#: rc.cpp:482
+msgid "Copy Input To"
+msgstr ""
+
+#. i18n: file: ../desktop/sessionui.rc:44
+#. i18n: ectx: Menu (debug)
+#: rc.cpp:485
+msgid "Debug"
+msgstr ""
 
 #: RenameTabsDialog.cpp:32
 msgid "Rename Tab"
@@ -1922,66 +1923,66 @@ msgstr "Stoor Geskiedenis"
 #: SessionController.cpp:532
 #, fuzzy
 #| msgid "Save Sessions &Profile..."
-msgid "Configure Scrollback..."
+msgid "Adjust Scrollback..."
 msgstr "Stoor Sessies Profiel..."
 
-#: SessionController.cpp:536
+#: SessionController.cpp:537
 #, fuzzy
 #| msgid "Do not display scrollbar"
 msgid "Clear Scrollback"
 msgstr "Doen nie vertoon rolstaaf"
 
-#: SessionController.cpp:540
+#: SessionController.cpp:541
 #, fuzzy
 #| msgid "Clear &History"
 msgid "Clear Scrollback and Reset"
 msgstr "Maak skoon Geskiedenis"
 
-#: SessionController.cpp:546
+#: SessionController.cpp:547
 #, fuzzy
 #| msgid "Save Sessions &Profile..."
 msgid "Configure Current Profile..."
 msgstr "Stoor Sessies Profiel..."
 
-#: SessionController.cpp:549
+#: SessionController.cpp:550
 #, fuzzy
 #| msgid "Save Sessions &Profile..."
 msgid "Switch Profile"
 msgstr "Stoor Sessies Profiel..."
 
-#: SessionController.cpp:632
+#: SessionController.cpp:633
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr ""
 
-#: SessionController.cpp:635
+#: SessionController.cpp:636
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr ""
 
-#: SessionController.cpp:658
+#: SessionController.cpp:659
 msgid ""
 "A program in this session would not die.  Are you sure you want to kill it "
 "by force?"
 msgstr ""
 
-#: SessionController.cpp:661
+#: SessionController.cpp:662
 #, kde-format
 msgid ""
 "The program '%1' is in this session would not die.  Are you sure you want to "
 "kill it by force?"
 msgstr ""
 
-#: SessionController.cpp:1258
+#: SessionController.cpp:1240
 #, fuzzy
 #| msgid "&ZModem Upload..."
 msgid "Save ZModem Download to..."
 msgstr "Modem Oplaai..."
 
-#: SessionController.cpp:1267
+#: SessionController.cpp:1249
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1996,7 +1997,7 @@ msgstr ""
 "ZModem sagteware is gevind op die stelsel.\n"
 "<p>Jy mag dalk wens om te installeer die 'rzsz' of 'lrzsz' pakkette.\n"
 
-#: SessionController.cpp:1279
+#: SessionController.cpp:1261
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -2004,7 +2005,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>Die huidige sessie alreeds het 'n ZModem lêer oordrag in vordering."
 
-#: SessionController.cpp:1288
+#: SessionController.cpp:1270
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on the system.\n"
@@ -2016,23 +2017,23 @@ msgstr ""
 "<p>Geen geskikte ZModem sagteware was gevind op die stelsel.\n"
 "<p>Jy mag wens om te installeer die 'rzsz' of 'lrzsz' pakkette.\n"
 
-#: SessionController.cpp:1294
+#: SessionController.cpp:1276
 #, fuzzy
 #| msgid "Select Files to Upload"
 msgid "Select Files for ZModem Upload"
 msgstr "Kies Lêers om op te laai"
 
-#: SessionController.cpp:1366
+#: SessionController.cpp:1348
 #, fuzzy, kde-format
 msgid "Save Output From %1"
 msgstr "Stoor Geskiedenis"
 
-#: SessionController.cpp:1377
+#: SessionController.cpp:1359
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr ""
 
-#: SessionController.cpp:1455
+#: SessionController.cpp:1437
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2309,6 +2310,15 @@ msgid "&Stop"
 msgstr "Stop"
 
 #, fuzzy
+#~ msgid "Scrollback Options"
+#~ msgstr "Oortjie en Opsies"
+
+#, fuzzy
+#~| msgid "Save Sessions Profile"
+#~ msgid "Save to current profile"
+#~ msgstr "Stoor Sessies Profiel"
+
+#, fuzzy
 #~| msgid "Save Sessions &Profile..."
 #~ msgid "Configure Profiles..."
 #~ msgstr "Stoor Sessies Profiel..."
@@ -2372,11 +2382,6 @@ msgstr "Stop"
 #~| msgid "&Detach Session"
 #~ msgid "&Detach View"
 #~ msgstr "Afgeleë Sessie"
-
-#, fuzzy
-#~| msgid "Do not display scrollbar"
-#~ msgid "Scrollback"
-#~ msgstr "Doen nie vertoon rolstaaf"
 
 #, fuzzy
 #~ msgid "&Copy"
