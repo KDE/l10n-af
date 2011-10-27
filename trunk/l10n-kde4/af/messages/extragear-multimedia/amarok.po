@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-26 03:55+0200\n"
+"POT-Creation-Date: 2011-10-27 03:31+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -2820,6 +2820,20 @@ msgstr ""
 msgid "Close"
 msgstr "Afsluit"
 
+#: context/applets/currenttrack/CurrentTrack.h:38
+#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:150
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:421
+#: core/meta/Meta.cpp:394 covermanager/CoverFetchUnit.cpp:596
+#: covermanager/CoverFetchUnit.cpp:606
+msgid "Unknown Artist"
+msgstr "Onbekende Kunstenaar"
+
+#: context/applets/currenttrack/CurrentTrack.h:39
+#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:431
+#: core/meta/Meta.cpp:444
+msgid "Unknown Album"
+msgstr "Onbekende Album"
+
 #: context/applets/currenttrack/CurrentTrack.cpp:104
 #: core-impl/collections/db/sql/mysqlecollection/MySqlEmbeddedCollection.cpp:35
 #: core-impl/collections/db/sql/mysqlservercollection/MySqlServerCollection.cpp:41
@@ -2918,20 +2932,6 @@ msgstr "Media Bronne"
 #| msgid "Media Sources"
 msgid "Show Year in Media Sources"
 msgstr "Media Bronne"
-
-#: context/applets/currenttrack/CurrentTrack.h:38
-#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:150
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:421
-#: core/meta/Meta.cpp:394 covermanager/CoverFetchUnit.cpp:596
-#: covermanager/CoverFetchUnit.cpp:606
-msgid "Unknown Artist"
-msgstr "Onbekende Kunstenaar"
-
-#: context/applets/currenttrack/CurrentTrack.h:39
-#: core-impl/collections/mtpcollection/handler/MtpHandler.cpp:431
-#: core/meta/Meta.cpp:444
-msgid "Unknown Album"
-msgstr "Onbekende Album"
 
 #: context/applets/labels/LabelGraphicsItem.cpp:63
 #, fuzzy
@@ -9952,51 +9952,6 @@ msgid_plural "%1 artists."
 msgstr[0] "1 kunstenaar."
 msgstr[1] "%1 kunstenaars."
 
-#: services/magnatune/MagnatuneInfoParser.cpp:32
-msgid "Loading artist info..."
-msgstr "Laai kunstenaar inligting..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:44
-#, kde-format
-msgid "Fetching %1 Artist Info"
-msgstr "Haal %1 Kunstenaar Inligting"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:53
-msgid "Loading album info..."
-msgstr "Laai album inligting..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:75
-#, fuzzy, kde-format
-#| msgid "Release Year: "
-msgid "Release Year: %1"
-msgstr "Vrystellingsjaar: "
-
-#: services/magnatune/MagnatuneInfoParser.cpp:80
-msgid "Description:"
-msgstr "Beskrywing:"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:84
-msgid "From Magnatune.com"
-msgstr "Van Magnatune.com"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:166
-msgid "Loading Magnatune.com frontpage..."
-msgstr "Laai Magnatune.com voorblad..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:169
-msgid "Fetching Magnatune.com front page"
-msgstr "Haal Magnatune.com voorblad"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:182
-#: services/magnatune/MagnatuneInfoParser.cpp:198
-msgid "Loading your Magnatune.com favorites page..."
-msgstr "Laai jou Magnatune.com gunstelinge blad..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:211
-#: services/magnatune/MagnatuneInfoParser.cpp:227
-msgid "Loading your personal Magnatune.com recommendations page..."
-msgstr "Laai jou persoonlike Magnatune.com aanbevelings blad..."
-
 #: services/magnatune/MagnatuneAlbumDownloader.cpp:68
 #, kde-format
 msgid "Downloading '%1' by %2 from Magnatune.com"
@@ -10119,6 +10074,51 @@ msgstr "goed"
 #: services/magnatune/MagnatuneStore.cpp:680
 msgid "ERROR: Unknown argument."
 msgstr "FOUT: Onbekende argument"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:32
+msgid "Loading artist info..."
+msgstr "Laai kunstenaar inligting..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:44
+#, kde-format
+msgid "Fetching %1 Artist Info"
+msgstr "Haal %1 Kunstenaar Inligting"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:53
+msgid "Loading album info..."
+msgstr "Laai album inligting..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:75
+#, fuzzy, kde-format
+#| msgid "Release Year: "
+msgid "Release Year: %1"
+msgstr "Vrystellingsjaar: "
+
+#: services/magnatune/MagnatuneInfoParser.cpp:80
+msgid "Description:"
+msgstr "Beskrywing:"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:84
+msgid "From Magnatune.com"
+msgstr "Van Magnatune.com"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:166
+msgid "Loading Magnatune.com frontpage..."
+msgstr "Laai Magnatune.com voorblad..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:169
+msgid "Fetching Magnatune.com front page"
+msgstr "Haal Magnatune.com voorblad"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:182
+#: services/magnatune/MagnatuneInfoParser.cpp:198
+msgid "Loading your Magnatune.com favorites page..."
+msgstr "Laai jou Magnatune.com gunstelinge blad..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:211
+#: services/magnatune/MagnatuneInfoParser.cpp:227
+msgid "Loading your personal Magnatune.com recommendations page..."
+msgstr "Laai jou persoonlike Magnatune.com aanbevelings blad..."
 
 #: services/mp3tunes/Mp3tunesMeta.cpp:45
 msgid ""
