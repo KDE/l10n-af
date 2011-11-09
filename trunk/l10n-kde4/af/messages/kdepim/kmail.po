@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-08 04:39+0100\n"
+"POT-Creation-Date: 2011-11-09 04:00+0100\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -2888,7 +2888,11 @@ msgstr "Filter %1"
 msgid "Out of office reply active"
 msgstr "Redigeer \"Buite die Kantoor\" Antwoorde..."
 
-#: kmmainwidget.cpp:4410
+#: kmmainwidget.cpp:4373
+msgid "Network is unconnected, some infos from folder could not be updated."
+msgstr ""
+
+#: kmmainwidget.cpp:4409
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Properties of Folder %1"
@@ -2985,36 +2989,36 @@ msgstr "Gaan na die vorige ongeleesde boodskap"
 msgid "The file contains multiple messages. Only the first message is shown."
 msgstr ""
 
-#: kmcommands.cpp:846
+#: kmcommands.cpp:814
 msgid ""
 "Do you want to forward the selected messages as attachments in one message "
 "(as a MIME digest) or as individual messages?"
 msgstr ""
 
-#: kmcommands.cpp:849
+#: kmcommands.cpp:817
 #, fuzzy
 msgid "Send As Digest"
 msgstr "Skep Filter"
 
-#: kmcommands.cpp:850
+#: kmcommands.cpp:818
 msgid "Send Individually"
 msgstr ""
 
-#: kmcommands.cpp:1325
+#: kmcommands.cpp:1294
 #, fuzzy
 msgid "Filtering messages"
 msgstr "Vee boodskappe uit"
 
-#: kmcommands.cpp:1332
+#: kmcommands.cpp:1301
 #, fuzzy, kde-format
 msgid "Filtering message %1 of %2"
 msgstr "Vee boodskappe uit"
 
-#: kmcommands.cpp:1482
+#: kmcommands.cpp:1451
 msgid "Moving messages"
 msgstr "Skuif boodskappe"
 
-#: kmcommands.cpp:1482
+#: kmcommands.cpp:1451
 msgid "Deleting messages"
 msgstr "Vee boodskappe uit"
 
@@ -4051,6 +4055,41 @@ msgstr ""
 msgid "Select Tags"
 msgstr "Vee Gids uit"
 
+#: tagactionmanager.cpp:116
+#, fuzzy, kde-format
+msgid "Message Tag %1"
+msgstr "Boodskap"
+
+#: tagactionmanager.cpp:177
+#, fuzzy
+msgid "More..."
+msgstr "Stel KMail op..."
+
+#: tagactionmanager.cpp:211
+#, fuzzy, kde-format
+msgid "Toggle Message Tag %1"
+msgstr "Redigeer Boodksap"
+
+#: kmsearchmessagemodel.cpp:77
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This model can only handle email folders. The current collection holds "
+"mimetypes: %1"
+msgstr ""
+
+#: kmsearchmessagemodel.cpp:101
+msgctxt "@label No size available"
+msgid "-"
+msgstr ""
+
+#: kmsearchmessagemodel.cpp:143
+#, fuzzy
+#| msgid "Folder"
+msgctxt "@title:column, folder (e.g. email)"
+msgid "Folder"
+msgstr "Gids"
+
 #: messageactions.cpp:69
 msgctxt "Message->"
 msgid "&Reply"
@@ -4177,41 +4216,6 @@ msgstr "Pos"
 #, fuzzy
 msgid "Edit Note..."
 msgstr "Intekening..."
-
-#: tagactionmanager.cpp:116
-#, fuzzy, kde-format
-msgid "Message Tag %1"
-msgstr "Boodskap"
-
-#: tagactionmanager.cpp:177
-#, fuzzy
-msgid "More..."
-msgstr "Stel KMail op..."
-
-#: tagactionmanager.cpp:211
-#, fuzzy, kde-format
-msgid "Toggle Message Tag %1"
-msgstr "Redigeer Boodksap"
-
-#: kmsearchmessagemodel.cpp:77
-#, kde-format
-msgctxt "@label"
-msgid ""
-"This model can only handle email folders. The current collection holds "
-"mimetypes: %1"
-msgstr ""
-
-#: kmsearchmessagemodel.cpp:101
-msgctxt "@label No size available"
-msgid "-"
-msgstr ""
-
-#: kmsearchmessagemodel.cpp:143
-#, fuzzy
-#| msgid "Folder"
-msgctxt "@title:column, folder (e.g. email)"
-msgid "Folder"
-msgstr "Gids"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
