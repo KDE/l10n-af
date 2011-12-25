@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-24 02:24+0100\n"
+"POT-Creation-Date: 2011-12-25 02:22+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -4279,7 +4279,7 @@ msgstr ""
 
 #. i18n: file: plugins/extensions/shearimage/wdg_shearimage.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
-#: rc.cpp:1356 image/kis_image.cc:606
+#: rc.cpp:1356 image/kis_image.cc:650
 #: plugins/extensions/shearimage/dlg_shearimage.cc:32
 #: plugins/extensions/shearimage/shearimage.cc:90
 #, fuzzy
@@ -10345,7 +10345,7 @@ msgctxt "Category of brush engines"
 msgid "Stable"
 msgstr "Waarde"
 
-#: image/brushengine/kis_paintop_registry.cc:119
+#: image/brushengine/kis_paintop_registry.cc:135
 msgid "default"
 msgstr ""
 
@@ -10512,54 +10512,59 @@ msgstr "Sigbare"
 msgid "Locked"
 msgstr "Gekoppel"
 
-#: image/kis_image.cc:261
+#: image/kis_image.cc:260
 msgid "background"
 msgstr "agtergrond"
 
-#: image/kis_image.cc:264
+#: image/kis_image.cc:263
 #, fuzzy, kde-format
 msgid "Layer %1"
 msgstr "laag %1"
 
-#: image/kis_image.cc:420
+#: image/kis_image.cc:419
 #, fuzzy
 msgid "Crop Image"
 msgstr "Stoor Laag as Beeld..."
 
-#: image/kis_image.cc:420
+#: image/kis_image.cc:419
 #, fuzzy
 msgid "Resize Image"
 msgstr "Verwyder Beeld"
 
-#: image/kis_image.cc:452
+#: image/kis_image.cc:451
 #, fuzzy
 msgid "Crop Node"
 msgstr "Opvuller Program"
 
-#: image/kis_image.cc:626
+#: image/kis_image.cc:644
+#, fuzzy
+msgid "Shear layer"
+msgstr "Voeg by Laag..."
+
+#: image/kis_image.cc:660
 #, fuzzy
 msgid "Convert Image Color Space"
 msgstr "Voeg by Beeld as Laag..."
 
-#: image/kis_image.cc:643
+#: image/kis_image.cc:677
 msgid "Assign Profile"
 msgstr ""
 
-#: image/kis_image.cc:664
+#: image/kis_image.cc:698
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:838 ui/kis_layer_manager.cc:740
+#: image/kis_image.cc:872 ui/kis_layer_manager.cc:719
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: image/kis_image.cc:896
+#: image/kis_image.cc:930
 #, fuzzy
 msgid "Merge with Layer Below"
 msgstr "Saamvlans Alle Lae"
 
-#: image/kis_image.cc:921
+#: image/kis_image.cc:955
 #, fuzzy
 msgid "Flatten Layer"
 msgstr "Herbenaam Beeld..."
@@ -11091,7 +11096,7 @@ msgid "&Duplicate Layer or Mask"
 msgstr "Volgende Laag"
 
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:381
-#: ui/kis_layer_manager.cc:138
+#: ui/kis_layer_manager.cc:137
 #, fuzzy
 msgid "&Merge with Layer Below"
 msgstr "Saamvlans Alle Lae"
@@ -11492,7 +11497,7 @@ msgid "Rotate Layer of 90° to the Left"
 msgstr ""
 
 #: plugins/extensions/rotateimage/rotateimage.cc:151
-#: ui/kis_layer_manager.cc:678
+#: ui/kis_layer_manager.cc:675
 #, fuzzy
 msgid "Rotate Layer"
 msgstr "Verwyder Laag"
@@ -11556,7 +11561,7 @@ msgid "Separate Image..."
 msgstr "Herbenaam Beeld..."
 
 #: plugins/extensions/separate_channels/kis_channel_separator.cc:242
-#: ui/kis_layer_manager.cc:832
+#: ui/kis_layer_manager.cc:811
 #, fuzzy
 msgid "Export Layer"
 msgstr "Voer uit Beeld..."
@@ -11724,11 +11729,6 @@ msgstr "Kleur Modus"
 msgid "&Brightness/Contrast curve..."
 msgstr "Verlig Slegs"
 
-#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:370
-#, fuzzy
-msgid "&Color Adjustment curves..."
-msgstr "Kleur Modus"
-
 #: plugins/filters/colorsfilters/colorsfilters.cpp:89
 #, fuzzy
 msgid "&Auto Contrast"
@@ -11738,6 +11738,11 @@ msgstr "Hoeke:"
 #, fuzzy
 msgid "&Desaturate"
 msgstr "Versadiging"
+
+#: plugins/filters/colorsfilters/kis_perchannel_filter.cpp:376
+#, fuzzy
+msgid "&Color Adjustment curves..."
+msgstr "Kleur Modus"
 
 #: plugins/filters/convolutionfilters/convolutionfilters.h:34
 #, fuzzy
@@ -14360,97 +14365,92 @@ msgstr ""
 msgid "Apply Filter Again: %1"
 msgstr ""
 
-#: ui/kis_image_manager.cc:58
+#: ui/kis_image_manager.cc:55
 msgid "I&nsert Image as Layer..."
 msgstr "Voeg by Beeld as Laag..."
 
-#: ui/kis_image_manager.cc:62
+#: ui/kis_image_manager.cc:59
 #, fuzzy
 msgid "Properties..."
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_image_manager.cc:93
+#: ui/kis_image_manager.cc:90
 #, fuzzy
 msgid "Import Image"
 msgstr "In voer Beeld..."
 
-#: ui/kis_layer_manager.cc:133
+#: ui/kis_layer_manager.cc:132
 #, fuzzy
 msgid "&Flatten image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_layer_manager.cc:143
+#: ui/kis_layer_manager.cc:142
 #, fuzzy
 msgid "&Flatten Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:147 ui/kis_layer_manager.cc:804
+#: ui/kis_layer_manager.cc:146 ui/kis_layer_manager.cc:783
 #, fuzzy
 msgid "Rasterize Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_layer_manager.cc:151
+#: ui/kis_layer_manager.cc:150
 msgid "Save Layer as Image..."
 msgstr "Stoor Laag as Beeld..."
 
-#: ui/kis_layer_manager.cc:155
+#: ui/kis_layer_manager.cc:154
 #, fuzzy
 msgid "Size Canvas to Size of Current Layer"
 msgstr "Verwyder Huidige Laag"
 
-#: ui/kis_layer_manager.cc:223
+#: ui/kis_layer_manager.cc:220
 #, fuzzy
 msgid "Filter Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:252
+#: ui/kis_layer_manager.cc:249
 #, fuzzy
 msgid "Generator Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:305 ui/kis_layer_manager.cc:321
-#: ui/kis_layer_manager.cc:365 ui/kis_layer_manager.cc:398
-#: ui/kis_layer_manager.cc:536
+#: ui/kis_layer_manager.cc:302 ui/kis_layer_manager.cc:318
+#: ui/kis_layer_manager.cc:362 ui/kis_layer_manager.cc:395
+#: ui/kis_layer_manager.cc:533
 msgid "Could not add layer to image."
 msgstr "Kon nie voeg by laag na beeld."
 
-#: ui/kis_layer_manager.cc:305 ui/kis_layer_manager.cc:321
-#: ui/kis_layer_manager.cc:365 ui/kis_layer_manager.cc:398
-#: ui/kis_layer_manager.cc:536
+#: ui/kis_layer_manager.cc:302 ui/kis_layer_manager.cc:318
+#: ui/kis_layer_manager.cc:362 ui/kis_layer_manager.cc:395
+#: ui/kis_layer_manager.cc:533
 msgid "Layer Error"
 msgstr "Laag Fout"
 
-#: ui/kis_layer_manager.cc:428
+#: ui/kis_layer_manager.cc:425
 #, fuzzy
 msgid "New Filter Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:598 ui/kis_layer_manager.cc:608
+#: ui/kis_layer_manager.cc:595 ui/kis_layer_manager.cc:605
 #, fuzzy
 msgid "Mirror Layer X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_layer_manager.cc:625 ui/kis_layer_manager.cc:635
+#: ui/kis_layer_manager.cc:622 ui/kis_layer_manager.cc:632
 #: ui/kis_mask_manager.cc:316
 #, fuzzy
 msgid "Mirror Layer Y"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_layer_manager.cc:657
+#: ui/kis_layer_manager.cc:654
 #, fuzzy
 msgid "Scale Layer"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_manager.cc:710 ui/kis_layer_manager.cc:713
-#, fuzzy
-msgid "Shear layer"
-msgstr "Voeg by Laag..."
-
-#: ui/kis_layer_manager.cc:739
+#: ui/kis_layer_manager.cc:718
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:741
+#: ui/kis_layer_manager.cc:720
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "Herbenaam Beeld..."
