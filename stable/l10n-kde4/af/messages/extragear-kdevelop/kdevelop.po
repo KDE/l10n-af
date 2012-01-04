@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-04 12:27+0100\n"
+"POT-Creation-Date: 2011-10-05 03:19+0200\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,6 +25,19 @@ msgstr "Kode:"
 #, fuzzy
 msgid "KDevelop4 Project Files"
 msgstr "Vertoon Non-Project Lêers"
+
+#: runner/kdevelopsessions.cpp:58
+msgid "Finds KDevelop sessions matching :q:."
+msgstr ""
+
+#: runner/kdevelopsessions.cpp:62
+msgid "Lists all the KDevelop editor sessions in your account."
+msgstr ""
+
+#: runner/kdevelopsessions.cpp:154
+#, fuzzy
+msgid "Open KDevelop Session"
+msgstr "Ontwikkeling"
 
 #: main.cpp:91
 msgid "The KDevelop Integrated Development Environment"
@@ -537,7 +550,6 @@ msgstr "Maak oop 'n onlangse projek"
 
 #: main.cpp:223
 #, fuzzy
-#| msgid "union"
 msgid "[running]"
 msgstr "unie"
 
@@ -547,7 +559,6 @@ msgstr ""
 
 #: main.cpp:251 main.cpp:397
 #, fuzzy
-#| msgid "&Debug"
 msgid "Debug"
 msgstr "Ontfouting"
 
@@ -581,7 +592,6 @@ msgstr ""
 
 #: main.cpp:329
 #, fuzzy
-#| msgid "Remove file"
 msgid "remove lock file"
 msgstr "Verwyder lêer"
 
@@ -610,19 +620,6 @@ msgstr "Konfigureer lêer"
 msgid "Could not open %1"
 msgstr "Konfigureer lêer"
 
-#: runner/kdevelopsessions.cpp:58
-msgid "Finds KDevelop sessions matching :q:."
-msgstr ""
-
-#: runner/kdevelopsessions.cpp:62
-msgid "Lists all the KDevelop editor sessions in your account."
-msgstr ""
-
-#: runner/kdevelopsessions.cpp:154
-#, fuzzy
-msgid "Open KDevelop Session"
-msgstr "Ontwikkeling"
-
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -637,7 +634,7 @@ msgstr "frix@expertron.co.za"
 #. i18n: ectx: Menu (file)
 #. i18n: file: katepartui.rc:4
 #. i18n: ectx: Menu (file)
-#: rc.cpp:5 rc.cpp:29
+#: rc.cpp:5 rc.cpp:62
 #, fuzzy
 msgid "&File"
 msgstr "Lêers:"
@@ -646,7 +643,7 @@ msgstr "Lêers:"
 #. i18n: ectx: Menu (edit)
 #. i18n: file: katepartui.rc:13
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:8 rc.cpp:32
+#: rc.cpp:8 rc.cpp:65
 #, fuzzy
 msgid "&Edit"
 msgstr "Redigeer..."
@@ -655,7 +652,7 @@ msgstr "Redigeer..."
 #. i18n: ectx: Menu (view)
 #. i18n: file: katepartui.rc:43
 #. i18n: ectx: Menu (view)
-#: rc.cpp:11 rc.cpp:38
+#: rc.cpp:11 rc.cpp:71
 #, fuzzy
 msgid "&View"
 msgstr "Kykers"
@@ -664,7 +661,7 @@ msgstr "Kykers"
 #. i18n: ectx: Menu (codefolding)
 #. i18n: file: katepartui.rc:57
 #. i18n: ectx: Menu (codefolding)
-#: rc.cpp:14 rc.cpp:41
+#: rc.cpp:14 rc.cpp:74
 #, fuzzy
 msgid "&Code Folding"
 msgstr "Kode Hulp"
@@ -673,7 +670,7 @@ msgstr "Kode Hulp"
 #. i18n: ectx: Menu (tools)
 #. i18n: file: katepartui.rc:70
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:17 rc.cpp:44
+#: rc.cpp:17 rc.cpp:77
 #, fuzzy
 msgid "&Tools"
 msgstr "Gereedskap punt"
@@ -682,7 +679,7 @@ msgstr "Gereedskap punt"
 #. i18n: ectx: Menu (wordcompletion)
 #. i18n: file: katepartui.rc:81
 #. i18n: ectx: Menu (wordcompletion)
-#: rc.cpp:20 rc.cpp:47
+#: rc.cpp:20 rc.cpp:80
 #, fuzzy
 msgid "Word Completion"
 msgstr "Kode Voltooiïng"
@@ -696,26 +693,18 @@ msgstr "Instellings"
 
 #. i18n: file: vendor/kate/katepartui.rc:123
 #. i18n: ectx: ToolBar (mainToolBar)
-#. i18n: file: katepartui.rc:126
-#. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: kdevelopui.rc:157
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:26 rc.cpp:50 rc.cpp:83
+#. i18n: file: katepartui.rc:126
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:26 rc.cpp:59 rc.cpp:83
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "Bou Nutsbalk"
 
-#. i18n: file: katepartui.rc:23
-#. i18n: ectx: Menu (edit_advanced)
-#: rc.cpp:35
-#, fuzzy
-#| msgid "Show included files"
-msgid "&Advanced"
-msgstr "Vertoon ingesluite lêers"
-
 #. i18n: file: kdevelopui.rc:6
 #. i18n: ectx: Menu (session)
-#: rc.cpp:53
+#: rc.cpp:29
 #, fuzzy
 msgctxt "@title:menu"
 msgid "Session"
@@ -723,22 +712,21 @@ msgstr "Weergawe:"
 
 #. i18n: file: kdevelopui.rc:10
 #. i18n: ectx: Menu (project)
-#: rc.cpp:56
+#: rc.cpp:32
 #, fuzzy
-#| msgid "&Project"
 msgctxt "@title:menu"
 msgid "&Project"
 msgstr "Projek"
 
 #. i18n: file: kdevelopui.rc:29
 #. i18n: ectx: Menu (run)
-#: rc.cpp:59
+#: rc.cpp:35
 msgid "&Run"
 msgstr "Hardloop"
 
 #. i18n: file: kdevelopui.rc:51
 #. i18n: ectx: Menu (navigation)
-#: rc.cpp:62
+#: rc.cpp:38
 #, fuzzy
 msgctxt "@title:menu"
 msgid "&Navigation"
@@ -746,7 +734,7 @@ msgstr "Gaan na Verklaring"
 
 #. i18n: file: kdevelopui.rc:65
 #. i18n: ectx: Menu (file)
-#: rc.cpp:65
+#: rc.cpp:41
 #, fuzzy
 msgctxt "@title:menu"
 msgid "&File"
@@ -754,7 +742,7 @@ msgstr "Lêers:"
 
 #. i18n: file: kdevelopui.rc:76
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:68
+#: rc.cpp:44
 #, fuzzy
 msgctxt "@title:menu"
 msgid "&Edit"
@@ -762,16 +750,15 @@ msgstr "Redigeer..."
 
 #. i18n: file: kdevelopui.rc:89
 #. i18n: ectx: Menu (editor)
-#: rc.cpp:71
+#: rc.cpp:47
 #, fuzzy
-#| msgid "Editor"
 msgctxt "@title:menu"
 msgid "Editor"
 msgstr "Redigeerder"
 
 #. i18n: file: kdevelopui.rc:94
 #. i18n: ectx: Menu (code)
-#: rc.cpp:74
+#: rc.cpp:50
 #, fuzzy
 msgctxt "@title:menu"
 msgid "Code"
@@ -779,20 +766,26 @@ msgstr "Kode:"
 
 #. i18n: file: kdevelopui.rc:101
 #. i18n: ectx: Menu (window)
-#: rc.cpp:77
+#: rc.cpp:53
 #, fuzzy
-#| msgid "&Window"
 msgctxt "@title:menu"
 msgid "&Window"
 msgstr "Venster"
 
 #. i18n: file: kdevelopui.rc:142
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:80
+#: rc.cpp:56
 #, fuzzy
 msgctxt "@title:menu"
 msgid "Settings"
 msgstr "Instellings"
+
+#. i18n: file: katepartui.rc:23
+#. i18n: ectx: Menu (edit_advanced)
+#: rc.cpp:68
+#, fuzzy
+msgid "&Advanced"
+msgstr "Vertoon ingesluite lêers"
 
 #, fuzzy
 #~ msgid "Url to project to load"
@@ -838,7 +831,6 @@ msgstr "Instellings"
 #~ msgstr "Kykers"
 
 #, fuzzy
-#~| msgid "Project"
 #~ msgctxt "@title:menu"
 #~ msgid "Project"
 #~ msgstr "Projek"
@@ -864,7 +856,6 @@ msgstr "Instellings"
 #~ msgstr "Genereer 'n nuwe klas"
 
 #, fuzzy
-#~| msgid "File name:"
 #~ msgid "New name:"
 #~ msgstr "Lêer naam:"
 
@@ -881,7 +872,6 @@ msgstr "Instellings"
 #~ msgstr "Voeg by Nuwe Teiken"
 
 #, fuzzy
-#~| msgid "Code Generation"
 #~ msgid "Header generation error"
 #~ msgstr "Kode Genereering"
 
@@ -910,7 +900,6 @@ msgstr "Instellings"
 #~ msgstr "Rekursief"
 
 #, fuzzy
-#~| msgid "Output path"
 #~ msgid "Output was: %1"
 #~ msgstr "Uitset gids soeklys"
 
@@ -919,17 +908,14 @@ msgstr "Instellings"
 #~ msgstr "Gaan voort"
 
 #, fuzzy
-#~| msgid "Function"
 #~ msgid "Function macro"
 #~ msgstr "Funksie"
 
 #, fuzzy
-#~| msgid "macro"
 #~ msgid "Macro"
 #~ msgstr "makro"
 
 #, fuzzy
-#~| msgid "Preprocessor"
 #~ msgid "Preprocessed body:"
 #~ msgstr "Vooraf verwerker"
 
@@ -948,7 +934,6 @@ msgstr "Instellings"
 #~ msgstr "Sluit in"
 
 #, fuzzy
-#~| msgid "Predefined macros"
 #~ msgctxt "Count of macros defined in this header"
 #~ msgid "Defined macros"
 #~ msgstr "Vooraf gedefinieerde makros"
@@ -966,7 +951,6 @@ msgstr "Instellings"
 #~ msgstr "Stappe uit van die huidige funksie"
 
 #, fuzzy
-#~| msgid "Include file patterns"
 #~ msgid "Included file was not found: %1"
 #~ msgstr "Sluit in lêer patrone"
 
@@ -985,27 +969,22 @@ msgstr "Instellings"
 #~ msgstr "Sluit in gids soeklys"
 
 #, fuzzy
-#~| msgid "Include path"
 #~ msgid "Included through"
 #~ msgstr "Sluit in gids soeklys"
 
 #, fuzzy
-#~| msgid "Directory:"
 #~ msgid "Directory %1"
 #~ msgstr "Gids:"
 
 #, fuzzy
-#~| msgid "&Includes"
 #~ msgid "Includes"
 #~ msgstr "Sluit in"
 
 #, fuzzy
-#~| msgid "Include path"
 #~ msgid "Include Path"
 #~ msgstr "Sluit in gids soeklys"
 
 #, fuzzy
-#~| msgid "&Includes"
 #~ msgid "Includers"
 #~ msgstr "Sluit in"
 
@@ -1022,12 +1001,10 @@ msgstr "Instellings"
 #~ msgstr "Genereer 'n nuwe klas"
 
 #, fuzzy
-#~| msgid "Parsing file: %1"
 #~ msgid "Parsing included files"
 #~ msgstr "Verwerking lêer: %1"
 
 #, fuzzy
-#~| msgid "Parsing file: %1"
 #~ msgid "Parsing actual file"
 #~ msgstr "Verwerking lêer: %1"
 
@@ -1064,7 +1041,6 @@ msgstr "Instellings"
 #~ msgstr "Ingesit: %1"
 
 #, fuzzy
-#~| msgid "} expected"
 #~ msgid "expected ``:'' = %1"
 #~ msgstr "} verwag"
 
@@ -1085,12 +1061,10 @@ msgstr "Instellings"
 #~ msgstr "Volgende Fout"
 
 #, fuzzy
-#~| msgid "Generate binary TOC"
 #~ msgid "Generate Unit Under Test"
 #~ msgstr "Genereer binêre Toc"
 
 #, fuzzy
-#~| msgid "Generate binary TOC"
 #~ msgid "&Switch Test/Unit Under Test"
 #~ msgstr "Genereer binêre Toc"
 
@@ -1099,7 +1073,6 @@ msgstr "Instellings"
 #~ msgstr "Oorskryf kiesings"
 
 #, fuzzy
-#~| msgid "&Implements"
 #~ msgid "Implement"
 #~ msgstr "Implementeer"
 
@@ -1108,7 +1081,6 @@ msgstr "Instellings"
 #~ msgstr "Voeg by"
 
 #, fuzzy
-#~| msgid "or"
 #~ msgid "for"
 #~ msgstr "of"
 
@@ -1168,7 +1140,6 @@ msgstr "Instellings"
 #~ msgstr "Klas naam:"
 
 #, fuzzy
-#~| msgid "Search"
 #~ msgid "Search"
 #~ msgstr "Soektog"
 
@@ -1188,7 +1159,6 @@ msgstr "Instellings"
 #~ msgstr "Voeg by Bestaande Lêers..."
 
 #, fuzzy
-#~| msgid "Process exited with status %1"
 #~ msgid "Process failed to start."
 #~ msgstr "Proses uitgegaan met status %1"
 
@@ -1197,7 +1167,6 @@ msgstr "Instellings"
 #~ msgstr "Proses uitgegaan"
 
 #, fuzzy
-#~| msgid "Could not write the project file."
 #~ msgid "Process timed out."
 #~ msgstr "Kon nie skryf die projek lêer."
 
@@ -1236,7 +1205,6 @@ msgstr "Instellings"
 #~ msgstr "Skep Nuwe Projek"
 
 #, fuzzy
-#~| msgid "General"
 #~ msgctxt "Page for general configuration options"
 #~ msgid "General"
 #~ msgstr "Algemeen"
@@ -1274,22 +1242,18 @@ msgstr "Instellings"
 #~ msgstr "Voeg by na Stoorplek"
 
 #, fuzzy
-#~| msgid "Could not write the project file."
 #~ msgid "Could not import project into"
 #~ msgstr "Kon nie skryf die projek lêer."
 
 #, fuzzy
-#~| msgid "Could not read project file: %1"
 #~ msgid "Could not checkout imported project"
 #~ msgstr "Kon nie lees projek lêer: %1"
 
 #, fuzzy
-#~| msgid "Could not write the project file."
 #~ msgid "Could not import project"
 #~ msgstr "Kon nie skryf die projek lêer."
 
 #, fuzzy
-#~| msgid "Create New Project"
 #~ msgid "Could not create new project"
 #~ msgstr "Skep Nuwe Projek"
 
@@ -1302,7 +1266,6 @@ msgstr "Instellings"
 #~ msgstr "Hoof program (relatiewe na projek gids):"
 
 #, fuzzy
-#~| msgid "You have to choose a project name."
 #~ msgid "Please choose a project name."
 #~ msgstr "Jy het na kies 'n projek naam."
 
@@ -1319,7 +1282,6 @@ msgstr "Instellings"
 #~ msgstr "Ligging:"
 
 #, fuzzy
-#~| msgid "Project name"
 #~ msgid "Empty project name"
 #~ msgstr "Projek naam"
 
@@ -1328,9 +1290,6 @@ msgstr "Instellings"
 #~ msgstr "Kode Voorbeelde"
 
 #, fuzzy
-#~| msgid ""
-#~| "Failed to create subdirectory. Do you have write permission in the "
-#~| "project folder?"
 #~ msgid "Unable to create subdirectories, missing permissions on: %1"
 #~ msgstr ""
 #~ "Gevaal na skep subgids. Doen jy het skryf reg in die projek kabinet?"
@@ -1356,7 +1315,6 @@ msgstr "Instellings"
 #~ msgstr "Dokumentasie:"
 
 #, fuzzy
-#~| msgid "%1 Attributes"
 #~ msgid "<%1 items>"
 #~ msgstr "%1 Eienskappe"
 
@@ -1384,7 +1342,6 @@ msgstr "Instellings"
 #~ msgstr "Kode:"
 
 #, fuzzy
-#~| msgid "Internal Error"
 #~ msgid "Internal error"
 #~ msgstr "Intern Fout"
 
@@ -1393,7 +1350,6 @@ msgstr "Instellings"
 #~ msgstr "Ontfouting nutsbalk"
 
 #, fuzzy
-#~| msgid "Internal Error"
 #~ msgid "Invalid debugger command"
 #~ msgstr "Intern Fout"
 
@@ -1448,7 +1404,6 @@ msgstr "Instellings"
 #~ msgstr "Ontfouting nutsbalk"
 
 #, fuzzy
-#~| msgid "Debugger stopped"
 #~ msgid "Debugger status"
 #~ msgstr "Ontfouter op gehou"
 
@@ -1467,7 +1422,6 @@ msgstr "Instellings"
 #~ "\" instruksie."
 
 #, fuzzy
-#~| msgid "Disassemble"
 #~ msgid "Disassemble View"
 #~ msgstr "Ontsaamstel"
 
@@ -1479,12 +1433,10 @@ msgstr "Instellings"
 #~ msgstr "Funksie"
 
 #, fuzzy
-#~| msgid "set"
 #~ msgid "Offset"
 #~ msgstr "stel"
 
 #, fuzzy
-#~| msgid "struct"
 #~ msgid "Instruction"
 #~ msgstr "struktuur"
 
@@ -1510,7 +1462,6 @@ msgstr "Instellings"
 #~ msgstr "Ontfouting tolk nie gevind."
 
 #, fuzzy
-#~| msgid "Internal Error"
 #~ msgid "Internal debugger error"
 #~ msgstr "Intern Fout"
 
@@ -1607,7 +1558,6 @@ msgstr "Instellings"
 #~ msgstr "Gids soeklys"
 
 #, fuzzy
-#~| msgid "Reset"
 #~ msgid "Recent"
 #~ msgstr "Herstel"
 
@@ -1677,7 +1627,6 @@ msgstr "Instellings"
 #~ msgstr "Uitvee gekose item"
 
 #, fuzzy
-#~| msgid "Value"
 #~ msgid "Copy Value"
 #~ msgstr "Waarde"
 
@@ -1698,12 +1647,10 @@ msgstr "Instellings"
 #~ msgstr "struktuur"
 
 #, fuzzy
-#~| msgid "&Ant"
 #~ msgid "Amount"
 #~ msgstr "Mier"
 
 #, fuzzy
-#~| msgid "MemoryView:"
 #~ msgid "Memory view"
 #~ msgstr "Geheuebesigtig:"
 
@@ -1747,7 +1694,6 @@ msgstr "Instellings"
 #~ msgstr "Ligging:"
 
 #, fuzzy
-#~| msgid "&Conditional"
 #~ msgid "Condition"
 #~ msgstr "Voorwaarde"
 
@@ -1764,12 +1710,10 @@ msgstr "Instellings"
 #~ msgstr "Fout Navolg"
 
 #, fuzzy
-#~| msgid "Frame Stack"
 #~ msgid "Frame"
 #~ msgstr "Raam Stapel"
 
 #, fuzzy
-#~| msgid "Debugger"
 #~ msgid "C++ Debugger"
 #~ msgstr "Ontfouter"
 
@@ -1905,7 +1849,6 @@ msgstr "Instellings"
 #~ msgstr "Step Binnein"
 
 #, fuzzy
-#~| msgid "Steps into the next statement"
 #~ msgid "Step into the next statement"
 #~ msgstr "Stappe binnein die volgende stelling"
 
@@ -2052,7 +1995,6 @@ msgstr "Instellings"
 #~ msgstr "Gaan voort"
 
 #, fuzzy
-#~| msgid "Interrupt the application execution"
 #~ msgid "Continues the application execution"
 #~ msgstr "Interrupt die aansoek uitvoering"
 
@@ -2083,12 +2025,10 @@ msgstr "Instellings"
 #~ msgstr "kdevelop: Ontfouting aansoek konsole"
 
 #, fuzzy
-#~| msgid "QMake Manager"
 #~ msgid "CMake Manager"
 #~ msgstr "Qmake Bestuurder"
 
 #, fuzzy
-#~| msgid "fragment definition"
 #~ msgid "Jump to target definition"
 #~ msgstr "fragment definisie"
 
@@ -2097,12 +2037,10 @@ msgstr "Instellings"
 #~ msgstr "Skep Nuwe Lêer..."
 
 #, fuzzy
-#~| msgid "Could not create the new file."
 #~ msgid "Could not create the directory's CMakeLists.txt file."
 #~ msgstr "Kon nie skep die nuwe lêer."
 
 #, fuzzy
-#~| msgid "Could not create the new file."
 #~ msgid "Could not save the change."
 #~ msgstr "Kon nie skep die nuwe lêer."
 
@@ -2111,7 +2049,6 @@ msgstr "Instellings"
 #~ msgstr "Verwyder lêer"
 
 #, fuzzy
-#~| msgid "Could not read project file: %1"
 #~ msgid "Could not remove: %1.\n"
 #~ msgstr "Kon nie lees projek lêer: %1"
 
@@ -2131,7 +2068,6 @@ msgstr "Instellings"
 #~ msgstr "Projek naam"
 
 #, fuzzy
-#~| msgid "The process has finished successfully"
 #~ msgid "Created successfully"
 #~ msgstr "Die proses het klaar gemaak suksesvol"
 
@@ -2144,17 +2080,14 @@ msgstr "Instellings"
 #~ msgstr "Jy het na kies 'n metode."
 
 #, fuzzy
-#~| msgid "You have to choose a directory."
 #~ msgid "You need to specify a build directory"
 #~ msgstr "Jy het na kies 'n gids."
 
 #, fuzzy
-#~| msgid "Add Subdirectory"
 #~ msgid "Already used build directory"
 #~ msgstr "Voeg by Subgids"
 
 #, fuzzy
-#~| msgid "Add Subdirectory"
 #~ msgid "Using an already created build directory"
 #~ msgstr "Voeg by Subgids"
 
@@ -2193,7 +2126,6 @@ msgstr "Instellings"
 #~ msgstr "Bou Teiken"
 
 #, fuzzy
-#~| msgid "Build &Target"
 #~ msgid "Build target"
 #~ msgstr "Bou Teiken"
 
@@ -2293,7 +2225,6 @@ msgstr "Instellings"
 #~ msgstr "Bou lêer:"
 
 #, fuzzy
-#~| msgid "Indent &brackets"
 #~ msgid "Astyle Formatter"
 #~ msgstr "Inkeep hakkies"
 
@@ -2302,7 +2233,6 @@ msgstr "Instellings"
 #~ msgstr "Herformateer Bron"
 
 #, fuzzy
-#~| msgid "Indent &brackets"
 #~ msgid "Indent Formatter"
 #~ msgstr "Inkeep hakkies"
 
@@ -2315,7 +2245,6 @@ msgstr "Instellings"
 #~ msgstr "Qmake Bestuurder"
 
 #, fuzzy
-#~| msgid "Target: %1"
 #~ msgid "CMake: %1"
 #~ msgstr "Teiken: %1"
 
@@ -2328,12 +2257,10 @@ msgstr "Instellings"
 #~ msgstr "Projek naam"
 
 #, fuzzy
-#~| msgid "Target: %1"
 #~ msgid "QMake: %1"
 #~ msgstr "Teiken: %1"
 
 #, fuzzy
-#~| msgid "C&lose Project"
 #~ msgid "Configure error"
 #~ msgstr "Maak toe Projek"
 
@@ -2350,7 +2277,6 @@ msgstr "Instellings"
 #~ msgstr "deling"
 
 #, fuzzy
-#~| msgid "Build"
 #~ msgid "built"
 #~ msgstr "Bou"
 
@@ -2363,12 +2289,10 @@ msgstr "Instellings"
 #~ msgstr "deling"
 
 #, fuzzy
-#~| msgid "Target: %1"
 #~ msgid "Make: %1"
 #~ msgstr "Teiken: %1"
 
 #, fuzzy
-#~| msgid "Add Subdirectory"
 #~ msgid "Invalid build directory '%1'"
 #~ msgstr "Voeg by Subgids"
 
@@ -2377,17 +2301,14 @@ msgstr "Instellings"
 #~ msgstr "Kon nie skep subgids %1"
 
 #, fuzzy
-#~| msgid "*** Success ***"
 #~ msgid "*** Failed ***"
 #~ msgstr "*** Sukses ***"
 
 #, fuzzy
-#~| msgid "*** Process aborted ***"
 #~ msgid "*** Aborted ***"
 #~ msgstr "*** Proses gekanselleer ***"
 
 #, fuzzy
-#~| msgid "*** Success ***"
 #~ msgid "*** Finished ***"
 #~ msgstr "*** Sukses ***"
 
@@ -2460,17 +2381,14 @@ msgstr "Instellings"
 #~ msgstr "Etiket nie gevind"
 
 #, fuzzy
-#~| msgid "Could not write the project file."
 #~ msgid "Valgrind process timed out."
 #~ msgstr "Kon nie skryf die projek lêer."
 
 #, fuzzy
-#~| msgid "Could not write the project file."
 #~ msgid "Write to Valgrind process failed."
 #~ msgstr "Kon nie skryf die projek lêer."
 
 #, fuzzy
-#~| msgid "Could not write the project file."
 #~ msgid "Read from Valgrind process failed."
 #~ msgstr "Kon nie skryf die projek lêer."
 
@@ -2479,7 +2397,6 @@ msgstr "Instellings"
 #~ msgstr "Onbekende fout"
 
 #, fuzzy
-#~| msgid "Watch: %1"
 #~ msgid "at: %1"
 #~ msgstr "Waarneem: %1"
 
@@ -2496,10 +2413,6 @@ msgstr "Instellings"
 #~ msgstr "Onlangse lêers"
 
 #, fuzzy
-#~| msgid ""
-#~| "This is not a valid project file.\n"
-#~| "XML error in line %1, column %2:\n"
-#~| "%3"
 #~ msgid "Valgrind XML Parsing: error at line %1, column %2: %3"
 #~ msgstr ""
 #~ "Hierdie is nie 'n geldige projek lêer.\n"
@@ -2537,7 +2450,6 @@ msgstr "Instellings"
 #~ msgstr "Beskerm"
 
 #, fuzzy
-#~| msgid "Pri&vate"
 #~ msgid "Private"
 #~ msgstr "Private"
 
@@ -2555,7 +2467,6 @@ msgstr "Instellings"
 #~ msgstr "Prioriteit:"
 
 #, fuzzy
-#~| msgid "macro"
 #~ msgid "&Macro:"
 #~ msgstr "makro"
 
@@ -2588,7 +2499,6 @@ msgstr "Instellings"
 #~ msgstr "Kommentaar:"
 
 #, fuzzy
-#~| msgid "Run"
 #~ msgctxt "@title:menu"
 #~ msgid "Run"
 #~ msgstr "Hardloop"
@@ -2648,7 +2558,6 @@ msgstr "Instellings"
 #~ msgstr "Vertoon ontrafelde name"
 
 #, fuzzy
-#~| msgid "Try settings &breakpoints on library loading"
 #~ msgid "Try setting &breakpoints on library loading"
 #~ msgstr "Probeer instellings breekpunte op biblioteek laaiïng van"
 
@@ -2694,7 +2603,6 @@ msgstr "Instellings"
 #~ msgstr "Begin in Terminaal"
 
 #, fuzzy
-#~| msgid "Frame Stack"
 #~ msgid "Framestack"
 #~ msgstr "Raam Stapel"
 
@@ -2809,7 +2717,6 @@ msgstr "Instellings"
 #~ msgstr "Bou Teiken"
 
 #, fuzzy
-#~| msgid "Debug"
 #~ msgid "debug"
 #~ msgstr "Ontfouting"
 
@@ -2842,7 +2749,6 @@ msgstr "Instellings"
 #~ msgstr "Huis gids"
 
 #, fuzzy
-#~| msgid "Show included files"
 #~ msgid "Show Advanced Values"
 #~ msgstr "Vertoon ingesluite lêers"
 
@@ -2911,26 +2817,10 @@ msgstr "Instellings"
 #~ msgstr "Omgewing veranderlikes"
 
 #, fuzzy
-#~| msgid "&Pattern:"
 #~ msgid "Pattern:"
 #~ msgstr "Patroon:"
 
 #, fuzzy
-#~| msgid ""
-#~| "<qt>Enter the regular expression you want to search for here.<p>Possible "
-#~| "meta characters are:<ul><li><b>.</b> - Matches any character<li><b>^</b> "
-#~| "- Matches the beginning of a line<li><b>$</b> - Matches the end of a "
-#~| "line<li><b>\\&lt;</b> - Matches the beginning of a word<li><b>\\&gt;</b> "
-#~| "- Matches the end of a word</ul>The following repetition operators exist:"
-#~| "<ul><li><b>?</b> - The preceding item is matched at most once<li><b>*</"
-#~| "b> - The preceding item is matched zero or more times<li><b>+</b> - The "
-#~| "preceding item is matched one or more times<li><b>{<i>n</i>}</b> - The "
-#~| "preceding item is matched exactly <i>n</i> times<li><b>{<i>n</i>,}</b> - "
-#~| "The preceding item is matched <i>n</i> or more times<li><b>{,<i>n</i>}</"
-#~| "b> - The preceding item is matched at most <i>n</i> times<li><b>{<i>n</"
-#~| "i>,<i>m</i>}</b> - The preceding item is matched at least <i>n</i>, but "
-#~| "at most <i>m</i> times.</ul>Furthermore, backreferences to bracketed "
-#~| "subexpressions are available via the notation \\<i>n</i>.</qt>"
 #~ msgid ""
 #~ "Enter the regular expression you want to search for here.<p>Possible meta "
 #~ "characters are:<ul><li><b>.</b> - Matches any character</li><li><b>^</b> "
@@ -2968,12 +2858,10 @@ msgstr "Instellings"
 #~ "middel van die notasie \\<i>n</i>.</qt>"
 
 #, fuzzy
-#~| msgid "&Template:"
 #~ msgid "Template:"
 #~ msgstr "Werkvoorbeeld:"
 
 #, fuzzy
-#~| msgid "&Regular expression:"
 #~ msgid "Regular Expression:"
 #~ msgstr "Gewone uitdrukking:"
 
@@ -3008,10 +2896,6 @@ msgstr "Instellings"
 #~ msgstr "Sluit uit in:"
 
 #, fuzzy
-#~| msgid ""
-#~| "You can choose a template for the pattern from the combo box and edit it "
-#~| "here. The string %s in the template is replaced by the pattern input "
-#~| "field, resulting in the regular expression to search for."
 #~ msgid ""
 #~ "You can choose a template for the pattern from the combo box and edit it "
 #~ "here. The string %s in the template is replaced  by the pattern input "
@@ -3027,7 +2911,6 @@ msgstr "Instellings"
 #~ msgstr "In voer Bestaande Gids..."
 
 #, fuzzy
-#~| msgid "Directory:"
 #~ msgid "&Directory:"
 #~ msgstr "Gids:"
 
@@ -3051,12 +2934,10 @@ msgstr "Instellings"
 #~ msgstr "Lêer stelsel"
 
 #, fuzzy
-#~| msgid "&Make"
 #~ msgid "CMake"
 #~ msgstr "Maak"
 
 #, fuzzy
-#~| msgid "&Make"
 #~ msgid "QMake"
 #~ msgstr "Maak"
 
@@ -3081,7 +2962,6 @@ msgstr "Instellings"
 #~ msgstr "Aansoek naam:"
 
 #, fuzzy
-#~| msgid "&Indentation"
 #~ msgid "Indentation"
 #~ msgstr "Inkeping"
 
@@ -3090,7 +2970,6 @@ msgstr "Instellings"
 #~ msgstr "Gebruik oortjies"
 
 #, fuzzy
-#~| msgid "Use &tabs"
 #~ msgid "Force tabs"
 #~ msgstr "Gebruik oortjies"
 
@@ -3099,17 +2978,14 @@ msgstr "Instellings"
 #~ msgstr "Spark"
 
 #, fuzzy
-#~| msgid "File Templates"
 #~ msgid "Fill empt&y lines"
 #~ msgstr "Lêer Voorbeelde"
 
 #, fuzzy
-#~| msgid "Index"
 #~ msgid "Indent"
 #~ msgstr "Indeks"
 
 #, fuzzy
-#~| msgid "block"
 #~ msgid "Blocks"
 #~ msgstr "blok"
 
@@ -3118,7 +2994,6 @@ msgstr "Instellings"
 #~ msgstr "Hakkies"
 
 #, fuzzy
-#~| msgid "Classes"
 #~ msgid "Cases"
 #~ msgstr "Klasse"
 
@@ -3130,7 +3005,6 @@ msgstr "Instellings"
 #~ msgstr "etiket"
 
 #, fuzzy
-#~| msgid "namespace"
 #~ msgid "Namespaces"
 #~ msgstr "naam ruimte"
 
@@ -3152,7 +3026,6 @@ msgstr "Instellings"
 #~ msgstr "Maksimum in stelling:"
 
 #, fuzzy
-#~| msgid "&Other"
 #~ msgid "Other"
 #~ msgstr "Ander"
 
@@ -3165,12 +3038,10 @@ msgstr "Instellings"
 #~ msgstr "Weergawe Nee:"
 
 #, fuzzy
-#~| msgid "&Attach"
 #~ msgid "Attach"
 #~ msgstr "Aanheg"
 
 #, fuzzy
-#~| msgid "&Break"
 #~ msgid "Break"
 #~ msgstr "Breek"
 
@@ -3179,7 +3050,6 @@ msgstr "Instellings"
 #~ msgstr "Linux"
 
 #, fuzzy
-#~| msgid "&Breakpoints"
 #~ msgid "&Break blocks"
 #~ msgstr "Breekpunte"
 
@@ -3188,7 +3058,6 @@ msgstr "Instellings"
 #~ msgstr "Stopping"
 
 #, fuzzy
-#~| msgid "Parents"
 #~ msgid "Pad parenthesis"
 #~ msgstr "Ouers"
 
@@ -3205,7 +3074,6 @@ msgstr "Instellings"
 #~ msgstr "Een Lyners"
 
 #, fuzzy
-#~| msgid "Keep one-line &statements"
 #~ msgid "&Keep one-line statements"
 #~ msgstr "Hou one-line stellings"
 
@@ -3222,7 +3090,6 @@ msgstr "Instellings"
 #~ msgstr "Parameters:"
 
 #, fuzzy
-#~| msgid "Display static &members"
 #~ msgid "Display stack to &depth:"
 #~ msgstr "Vertoon statiese lede"
 
@@ -3259,7 +3126,6 @@ msgstr "Instellings"
 #~ msgstr "Etiket nie gevind"
 
 #, fuzzy
-#~| msgid "&Thread"
 #~ msgid "Threads"
 #~ msgstr "Rygdraad"
 
@@ -3307,7 +3173,6 @@ msgstr "Instellings"
 #~ msgstr "Telling"
 
 #, fuzzy
-#~| msgid "Global"
 #~ msgctxt "list of global plugins"
 #~ msgid "Global"
 #~ msgstr "Globale"
@@ -3464,7 +3329,6 @@ msgstr "Instellings"
 #~ msgstr "Naamplekke"
 
 #, fuzzy
-#~| msgid "Go to Declaration"
 #~ msgid "Forward Declaration"
 #~ msgstr "Gaan na Verklaring"
 
@@ -3475,12 +3339,10 @@ msgstr "Instellings"
 #~ msgstr "deling"
 
 #, fuzzy
-#~| msgid "expected a declaration"
 #~ msgid "resolved forward-declaration"
 #~ msgstr "verwag 'n verklaring"
 
 #, fuzzy
-#~| msgid "expected a declaration"
 #~ msgid "(unresolved forward-declaration)"
 #~ msgstr "verwag 'n verklaring"
 
@@ -3489,7 +3351,6 @@ msgstr "Instellings"
 #~ msgstr "Nuwe Lêer"
 
 #, fuzzy
-#~| msgid "Score"
 #~ msgid "Scope: "
 #~ msgstr "Telling"
 
@@ -3538,7 +3399,6 @@ msgstr "Instellings"
 #~ msgstr "Inkeping"
 
 #, fuzzy
-#~| msgid "&Style"
 #~ msgid "Style"
 #~ msgstr "Styl"
 
@@ -3554,7 +3414,6 @@ msgstr "Instellings"
 #~ msgstr "Herformateer Bron"
 
 #, fuzzy
-#~| msgid "Footer file"
 #~ msgid "Format files"
 #~ msgstr "Voetskrif lêer"
 
@@ -3590,12 +3449,10 @@ msgstr "Instellings"
 #~ msgstr "Asseblief invoer 'n naam vir die nuwe lêer."
 
 #, fuzzy
-#~| msgid "Custom"
 #~ msgid "Custom Style"
 #~ msgstr "Pasmaak"
 
 #, fuzzy
-#~| msgid "&Run"
 #~ msgid "QxRunner"
 #~ msgstr "Hardloop"
 
@@ -3648,7 +3505,6 @@ msgstr "Instellings"
 #~ msgstr "Ontfouting nutsbalk"
 
 #, fuzzy
-#~| msgid "Run"
 #~ msgid "Ran"
 #~ msgstr "Hardloop"
 
@@ -3665,12 +3521,10 @@ msgstr "Instellings"
 #~ msgstr "Gekose:"
 
 #, fuzzy
-#~| msgid "Run"
 #~ msgid "Run:"
 #~ msgstr "Hardloop"
 
 #, fuzzy
-#~| msgid "Sources"
 #~ msgid "Success"
 #~ msgstr "Bronkodes"
 
@@ -3711,7 +3565,6 @@ msgstr "Instellings"
 #~ msgstr "Hoof program (relatiewe na projek gids):"
 
 #, fuzzy
-#~| msgid "&Directory:"
 #~ msgid "&Directory"
 #~ msgstr "Gids:"
 
@@ -3746,7 +3599,6 @@ msgstr "Instellings"
 #~ msgstr "Bou"
 
 #, fuzzy
-#~| msgid "Project"
 #~ msgctxt "@title:meu"
 #~ msgid "Project"
 #~ msgstr "Projek"
@@ -3785,7 +3637,6 @@ msgstr "Instellings"
 #~ msgstr "Bou Nutsbalk"
 
 #, fuzzy
-#~| msgid "No such file or directory."
 #~ msgid "No such file or directory."
 #~ msgstr "Nee soos lêer of gids."
 
@@ -3831,7 +3682,6 @@ msgstr "Instellings"
 #~ msgstr "Daar is huidiglik 'n werk wat loop."
 
 #, fuzzy
-#~| msgid "local"
 #~ msgid "Locals"
 #~ msgstr "plaaslike"
 
@@ -3874,7 +3724,6 @@ msgstr "Instellings"
 #~ msgstr "Uitset lêer"
 
 #, fuzzy
-#~| msgid "Octal"
 #~ msgid "Oct&al"
 #~ msgstr "Oktaal"
 
@@ -3945,7 +3794,6 @@ msgstr "Instellings"
 #~ msgstr "Nuwe Lêer"
 
 #, fuzzy
-#~| msgid "Internet"
 #~ msgid "isInternal"
 #~ msgstr "Internet"
 
@@ -3993,7 +3841,6 @@ msgstr "Instellings"
 #~ msgstr "Kies 'n proses na aanheg na..."
 
 #, fuzzy
-#~| msgid "CGI URL"
 #~ msgid "URL"
 #~ msgstr "Cgi Url"
 
@@ -4053,7 +3900,6 @@ msgstr "Instellings"
 #~ msgstr "Log"
 
 #, fuzzy
-#~| msgid "Group"
 #~ msgid "GroupBox"
 #~ msgstr "Groep"
 
@@ -4194,7 +4040,6 @@ msgstr "Instellings"
 #~ msgstr "Kliënt:"
 
 #, fuzzy
-#~| msgid "gdb message:\n"
 #~ msgid "&Send message"
 #~ msgstr "gbd boodskap:\n"
 
@@ -4230,9 +4075,6 @@ msgstr "Instellings"
 #~ msgstr "Hardloop na Plekaanduier"
 
 #, fuzzy
-#~| msgctxt ""
-#~| "Breakpoint state. The 'clear ' state is appended to the other states"
-#~| msgid "clear "
 #~ msgid "Clear Log"
 #~ msgstr "maak skoon "
 
@@ -4265,7 +4107,6 @@ msgstr "Instellings"
 #~ msgstr "Hex"
 
 #, fuzzy
-#~| msgid "&Author:"
 #~ msgid "Author:"
 #~ msgstr "Outeur:"
 
@@ -4317,7 +4158,6 @@ msgstr "Instellings"
 #~ msgstr "Lêer Konteks Kieslys"
 
 #, fuzzy
-#~| msgid "Enter log message:"
 #~ msgid "Internal Message"
 #~ msgstr "Invoer log boodskap:"
 
@@ -4528,7 +4368,6 @@ msgstr "Instellings"
 #~ msgstr "Kon nie skep projek bestuuring inplak %1."
 
 #, fuzzy
-#~| msgid "hw %1"
 #~ msgid " (%1)"
 #~ msgstr "hw %1"
 
@@ -4541,7 +4380,6 @@ msgstr "Instellings"
 #~ msgstr "Verwyder alle bygevoeg lêers."
 
 #, fuzzy
-#~| msgid "Running htdig failed"
 #~ msgid "Listing editors failed"
 #~ msgstr "Wat loop htdig gevaal"
 
@@ -4549,7 +4387,6 @@ msgstr "Instellings"
 #~ msgstr "Datum"
 
 #, fuzzy
-#~| msgid "Man"
 #~ msgid "Machine"
 #~ msgstr "Man"
 
@@ -4628,7 +4465,6 @@ msgstr "Instellings"
 #~ msgstr "Cvs Stuur in"
 
 #, fuzzy
-#~| msgid "Running htdig failed"
 #~ msgid "Listing the files's log failed"
 #~ msgstr "Wat loop htdig gevaal"
 
@@ -4661,9 +4497,6 @@ msgstr "Instellings"
 #~ msgstr "Patroon:"
 
 #, fuzzy
-#~| msgctxt ""
-#~| "Breakpoint state. The 'Pending ' state is the first state displayed"
-#~| msgid "Pending "
 #~ msgid "Sending %1"
 #~ msgstr "Uitstaande "
 
@@ -4688,7 +4521,6 @@ msgstr "Instellings"
 #~ msgstr "Konfigureer lêer"
 
 #, fuzzy
-#~| msgid "Customize..."
 #~ msgid "Committed"
 #~ msgstr "Pasmaak..."
 
@@ -4729,7 +4561,6 @@ msgstr "Instellings"
 #~ msgstr "Dateer op"
 
 #, fuzzy
-#~| msgid "Customize..."
 #~ msgid "Commit..."
 #~ msgstr "Pasmaak..."
 
@@ -4778,7 +4609,6 @@ msgstr "Instellings"
 #~ msgstr "Voeg by na Stoorplek"
 
 #, fuzzy
-#~| msgid "Name"
 #~ msgid "Blame"
 #~ msgstr "Naam"
 
@@ -4795,7 +4625,6 @@ msgstr "Instellings"
 #~ msgstr "Beskrywing:"
 
 #, fuzzy
-#~| msgid "&Properties:"
 #~ msgid "Progress:"
 #~ msgstr "Eienskappe:"
 
@@ -4851,12 +4680,10 @@ msgstr "Instellings"
 #~ msgstr "Kon nie lees projek lêer: %1"
 
 #, fuzzy
-#~| msgid "This file is already in the target."
 #~ msgid "The files are identical."
 #~ msgstr "Hierdie lêer is alreeds in die teiken."
 
 #, fuzzy
-#~| msgid "Could not write the project file."
 #~ msgid "Could not write to the temporary file."
 #~ msgstr "Kon nie skryf die projek lêer."
 
@@ -4950,7 +4777,6 @@ msgstr "Instellings"
 #~ msgstr "Kdevelop"
 
 #, fuzzy
-#~| msgid "No optimization"
 #~ msgid "Notification"
 #~ msgstr "Nee optimisering"
 
