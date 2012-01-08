@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-07 02:37+0100\n"
+"POT-Creation-Date: 2012-01-08 02:34+0100\n"
 "PO-Revision-Date: 2002-09-27 16:45+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -544,7 +544,7 @@ msgstr "Kolom"
 
 #. i18n: file: part/dialogs/KWStartupWidget.ui:71
 #. i18n: ectx: property (text), widget (QPushButton, createButton)
-#: rc.cpp:264 part/KWView.cpp:297
+#: rc.cpp:264 part/KWView.cpp:318
 #, fuzzy
 msgid "Create"
 msgstr "Skep Tabel"
@@ -1233,7 +1233,7 @@ msgstr "Styl:"
 msgid "Clone"
 msgstr "Maak toe:"
 
-#: part/dialogs/KWPageSettingsDialog.cpp:62 part/KWView.cpp:392
+#: part/dialogs/KWPageSettingsDialog.cpp:62 part/KWView.cpp:360
 #, fuzzy
 msgid "Delete"
 msgstr "Uitvee Ry"
@@ -1297,9 +1297,22 @@ msgid "approximately %1"
 msgstr "ongeveer %1"
 
 #: part/dialogs/KWStatisticsDialog.cpp:29
-#: part/dockers/KWStatisticsDocker.cpp:35 part/KWView.cpp:371
+#: part/dockers/KWStatisticsDocker.cpp:35 part/KWView.cpp:339
 msgid "Statistics"
 msgstr "Statistieke"
+
+#: part/dialogs/KWFrameDialog.cpp:43
+#, fuzzy
+#| msgid "Position"
+msgid "Smart Positioning"
+msgstr "Posisie"
+
+#: part/dialogs/KWFrameDialog.cpp:77
+#, fuzzy
+#| msgid "Frame Properties"
+msgctxt "(qtundo-format)"
+msgid "Change Shape Properties"
+msgstr "Raam Eienskappe"
 
 #: part/dialogs/KWAnchoringProperties.cpp:413
 #, fuzzy
@@ -1359,19 +1372,6 @@ msgstr ""
 #: part/dialogs/KWAnchoringProperties.cpp:437
 msgid "Left paragraph border"
 msgstr ""
-
-#: part/dialogs/KWFrameDialog.cpp:43
-#, fuzzy
-#| msgid "Position"
-msgid "Smart Positioning"
-msgstr "Posisie"
-
-#: part/dialogs/KWFrameDialog.cpp:77
-#, fuzzy
-#| msgid "Frame Properties"
-msgctxt "(qtundo-format)"
-msgid "Change Shape Properties"
-msgstr "Raam Eienskappe"
 
 #: part/dockers/KWRdfDocker.cpp:53
 msgid "RDF"
@@ -1672,27 +1672,27 @@ msgstr ""
 msgid "Installation Error"
 msgstr ""
 
-#: part/KWView.cpp:231
+#: part/KWView.cpp:227
 #, fuzzy
 #| msgid "Frame Properties"
 msgid "Shape Properties..."
 msgstr "Raam Eienskappe"
 
-#: part/KWView.cpp:233
+#: part/KWView.cpp:229
 msgid "Change how the shape behave"
 msgstr ""
 
-#: part/KWView.cpp:241
+#: part/KWView.cpp:237
 #, fuzzy
 msgid "Page Break"
 msgstr "Lyn Breek"
 
-#: part/KWView.cpp:242
+#: part/KWView.cpp:238
 #, fuzzy
 msgid "Force the remainder of the text into the next page"
 msgstr "Forseer die res van die teks binnein die volgende raam."
 
-#: part/KWView.cpp:243
+#: part/KWView.cpp:239
 #, fuzzy
 msgid "All text after this point will be moved into the next page."
 msgstr ""
@@ -1700,17 +1700,17 @@ msgstr ""
 "posisie. Alle teks na Hierdie punt sal wees verskuif binnein die volgende "
 "raam in die raamstel."
 
-#: part/KWView.cpp:245
+#: part/KWView.cpp:241
 #, fuzzy
 msgid "Enable Document Headers"
 msgstr "Dokument Verstek"
 
-#: part/KWView.cpp:247
+#: part/KWView.cpp:243
 #, fuzzy
 msgid "Shows and hides header display"
 msgstr "Vertoon en steek weg opskrif vertoon."
 
-#: part/KWView.cpp:248
+#: part/KWView.cpp:244
 #, fuzzy
 #| msgid ""
 #| "Selecting this option toggles the display of headers in KWord."
@@ -1725,17 +1725,17 @@ msgstr ""
 "<br><br>opskrifte word spesiaal rame na die bo van elke bladsy wat kan bevat "
 "bladsy nommers of ander informasie."
 
-#: part/KWView.cpp:253
+#: part/KWView.cpp:249
 #, fuzzy
 msgid "Enable Document Footers"
 msgstr "Maak Teks Kursief"
 
-#: part/KWView.cpp:255
+#: part/KWView.cpp:251
 #, fuzzy
 msgid "Shows and hides footer display"
 msgstr "Vertoon en steek weg voetskrif vertoon."
 
-#: part/KWView.cpp:256
+#: part/KWView.cpp:252
 #, fuzzy
 #| msgid ""
 #| "Selecting this option toggles the display of headers in KWord."
@@ -1750,108 +1750,36 @@ msgstr ""
 "<br><br>opskrifte word spesiaal rame na die bo van elke bladsy wat kan bevat "
 "bladsy nommers of ander informasie."
 
-#: part/KWView.cpp:261
+#: part/KWView.cpp:257
 #, fuzzy
 msgid "Snap to Grid"
 msgstr "Vertoon Voetskrif"
 
-#: part/KWView.cpp:266
-#, fuzzy
-msgid "Raise Shape"
-msgstr "Lig Raam"
-
-#: part/KWView.cpp:269
-#, fuzzy
-#| msgid ""
-#| "Raise the currently selected frame so that it appears above all the other "
-#| "frames"
-msgid ""
-"Raise the currently selected shape so that it appears above all the other "
-"shape"
-msgstr ""
-"Lig die huidiglik gekose raam sodat wat dit verskyn boonste alle die ander "
-"rame"
-
-#: part/KWView.cpp:271
-#, fuzzy
-#| msgid ""
-#| "Raise the currently selected frame so that it appears above all the other "
-#| "frames. This is only useful if frames overlap each other. If multiple "
-#| "frames are selected they are all raised in turn."
-msgid ""
-"Raise the currently selected shape so that it appears above all the other "
-"shapes. This is only useful if shapes overlap each other. If multiple shapes "
-"are selected they are all raised in turn."
-msgstr ""
-"Lig die huidiglik gekose raam sodat wat dit verskyn boonste alle die ander "
-"rame. Hierdie is slegs bruikbare as rame oorvleuel elke ander. as "
-"veelvuldige rame word gekose hulle word alle ontpak in skakel."
-
-#: part/KWView.cpp:276
-#, fuzzy
-msgid "Lower Shape"
-msgstr "Sagter Raam"
-
-#: part/KWView.cpp:279
-#, fuzzy
-#| msgid ""
-#| "Raise the currently selected frame so that it appears above all the other "
-#| "frames"
-msgid ""
-"Lower the currently selected shape so that it disappears under any shape "
-"that overlaps it"
-msgstr ""
-"Lig die huidiglik gekose raam sodat wat dit verskyn boonste alle die ander "
-"rame"
-
-#: part/KWView.cpp:281
-#, fuzzy
-#| msgid ""
-#| "Raise the currently selected frame so that it appears above all the other "
-#| "frames. This is only useful if frames overlap each other. If multiple "
-#| "frames are selected they are all raised in turn."
-msgid ""
-"Lower the currently selected shape so that it disappears under any shape "
-"that overlaps it. If multiple shape are selected they are all lowered in "
-"turn."
-msgstr ""
-"Lig die huidiglik gekose raam sodat wat dit verskyn boonste alle die ander "
-"rame. Hierdie is slegs bruikbare as rame oorvleuel elke ander. as "
-"veelvuldige rame word gekose hulle word alle ontpak in skakel."
-
-#: part/KWView.cpp:285
-msgid "Bring to Front"
-msgstr "Bring na Voor"
-
-#: part/KWView.cpp:289
-msgid "Send to Back"
-msgstr "Stuur na Terug"
-
-#: part/KWView.cpp:305
+#: part/KWView.cpp:262
 #, fuzzy
 msgid "Bookmark..."
 msgstr "Voeg by Boekmerk..."
 
-#: part/KWView.cpp:310
+#: part/KWView.cpp:267
 #, fuzzy
 msgid "Select Bookmark..."
 msgstr "Kies Boekmerk..."
 
-#: part/KWView.cpp:311
+#: part/KWView.cpp:268
 #, fuzzy
 msgid "Bookmark"
 msgstr "Voeg by Boekmerk..."
 
-#: part/KWView.cpp:317
+#: part/KWView.cpp:274
 msgid "Show Text Shape Borders"
 msgstr ""
 
-#: part/KWView.cpp:318
+#: part/KWView.cpp:275
 #, fuzzy
 msgid "Turns the border display on and off"
 msgstr "Draai die grens vertoon op en af."
 
-#: part/KWView.cpp:324
+#: part/KWView.cpp:281
 #, fuzzy
 #| msgid ""
 #| "Turns the border display on and off.<br><br>The borders are never "
@@ -1866,52 +1794,52 @@ msgstr ""
 "Hierdie opsie is bruikbare na sien hoe die dokument sal verskyn op die "
 "printed bladsy."
 
-#: part/KWView.cpp:326
+#: part/KWView.cpp:283
 #, fuzzy
 #| msgid "&Formatting Characters"
 msgid "Show Formatting Characters"
 msgstr "Formatering Karakters"
 
-#: part/KWView.cpp:333
+#: part/KWView.cpp:290
 #, fuzzy
 msgid "Toggle the display of non-printing characters"
 msgstr "Wissel die vertoon van non-printing karakters."
 
-#: part/KWView.cpp:334
+#: part/KWView.cpp:291
 msgid ""
 "Toggle the display of non-printing characters.<br/><br/>When this is "
 "enabled, Words shows you tabs, spaces, carriage returns and other non-"
 "printing characters."
 msgstr ""
 
-#: part/KWView.cpp:336
+#: part/KWView.cpp:293
 #, fuzzy
 #| msgid "Configure Table Borders"
 msgid "Show Table Borders"
 msgstr "Konfigureer Tabel Grense"
 
-#: part/KWView.cpp:342
+#: part/KWView.cpp:299
 #, fuzzy
 msgid "Toggle the display of table borders"
 msgstr "Wissel die vertoon van non-printing karakters."
 
-#: part/KWView.cpp:343
+#: part/KWView.cpp:300
 msgid ""
 "Toggle the display of table borders.<br/><br/>When this is enabled, Words "
 "shows you any invisible table borders with a thin gray line."
 msgstr ""
 
-#: part/KWView.cpp:345
+#: part/KWView.cpp:302
 #, fuzzy
 msgid "Page Layout..."
 msgstr "Verander Uitleg"
 
-#: part/KWView.cpp:347
+#: part/KWView.cpp:304
 #, fuzzy
 msgid "Change properties of entire page"
 msgstr "Verander eienskappe van hele bladsy."
 
-#: part/KWView.cpp:348
+#: part/KWView.cpp:305
 #, fuzzy
 #| msgid ""
 #| "Change properties of the entire page.<p>Currently you can change paper "
@@ -1924,41 +1852,41 @@ msgstr ""
 "grootte, papier oriëntasie, opskrif en voetskrif grotes, en kolom "
 "instellings."
 
-#: part/KWView.cpp:352
+#: part/KWView.cpp:309
 #, fuzzy
 msgid "Semantic Stylesheets..."
 msgstr "In voer Styl..."
 
-#: part/KWView.cpp:354
+#: part/KWView.cpp:311
 msgid "Modify and add semantic stylesheets"
 msgstr ""
 
-#: part/KWView.cpp:355
+#: part/KWView.cpp:312
 msgid ""
 "Stylesheets are used to format contact, event, and location information "
 "which is stored in Rdf"
 msgstr ""
 
-#: part/KWView.cpp:373
+#: part/KWView.cpp:341
 msgid "Sentence, word and letter counts for this document"
 msgstr "Sin, woord en brief tel vir hierdie dokument"
 
-#: part/KWView.cpp:374
+#: part/KWView.cpp:342
 msgid ""
 "Information on the number of letters, words, syllables and sentences for "
 "this document.<p>Evaluates readability using the Flesch reading score.</p>"
 msgstr ""
 
-#: part/KWView.cpp:377
+#: part/KWView.cpp:345
 msgid "Show Rulers"
 msgstr "Vertoon Lineale"
 
-#: part/KWView.cpp:379
+#: part/KWView.cpp:347
 #, fuzzy
 msgid "Shows or hides rulers"
 msgstr "Vertoon of steek weg lineale."
 
-#: part/KWView.cpp:380
+#: part/KWView.cpp:348
 msgid ""
 "The rulers are the white measuring spaces top and left of the document. The "
 "rulers show the position and width of pages and of frames and can be used to "
@@ -1966,55 +1894,119 @@ msgid ""
 "being displayed.</p>"
 msgstr ""
 
-#: part/KWView.cpp:388
+#: part/KWView.cpp:356
 #, fuzzy
 msgid "Select All Shapes"
 msgstr "Kies Raamstel"
 
-#: part/KWView.cpp:405
+#: part/KWView.cpp:373
 #, fuzzy
 msgid "Create Linked Copy"
 msgstr "Skep 'n nuwe bladsy"
 
-#: part/KWView.cpp:407
+#: part/KWView.cpp:375
 msgid "Create a copy of the current frame, always showing the same contents"
 msgstr ""
 
-#: part/KWView.cpp:408
+#: part/KWView.cpp:376
 msgid ""
 "Create a copy of the current frame, that remains linked to it. This means "
 "they always show the same contents: modifying the contents in such a frame "
 "will update all its linked copies."
 msgstr ""
 
-#: part/KWView.cpp:411
+#: part/KWView.cpp:379
 #, fuzzy
 #| msgid "Create Text Frame"
 msgid "Create Frame-clip"
 msgstr "Skep Teks Raam"
 
-#: part/KWView.cpp:415
+#: part/KWView.cpp:383
 #, fuzzy
 msgid "Remove Frame-clip"
 msgstr "Verwyder Opneem"
 
-#: part/KWView.cpp:419
+#: part/KWView.cpp:387
 #, fuzzy
 #| msgid "Show &status bar"
 msgid "Show Status Bar"
 msgstr "Vertoon status kolom"
 
-#: part/KWView.cpp:420
+#: part/KWView.cpp:388
 #, fuzzy
 #| msgid "Show &status bar"
 msgid "Shows or hides the status bar"
 msgstr "Vertoon status kolom"
 
-#: part/KWView.cpp:828
+#: part/KWView.cpp:731
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Create Linked Copy"
 msgstr "Skep 'n nuwe bladsy"
+
+#, fuzzy
+#~ msgid "Raise Shape"
+#~ msgstr "Lig Raam"
+
+#, fuzzy
+#~| msgid ""
+#~| "Raise the currently selected frame so that it appears above all the "
+#~| "other frames"
+#~ msgid ""
+#~ "Raise the currently selected shape so that it appears above all the other "
+#~ "shape"
+#~ msgstr ""
+#~ "Lig die huidiglik gekose raam sodat wat dit verskyn boonste alle die "
+#~ "ander rame"
+
+#, fuzzy
+#~| msgid ""
+#~| "Raise the currently selected frame so that it appears above all the "
+#~| "other frames. This is only useful if frames overlap each other. If "
+#~| "multiple frames are selected they are all raised in turn."
+#~ msgid ""
+#~ "Raise the currently selected shape so that it appears above all the other "
+#~ "shapes. This is only useful if shapes overlap each other. If multiple "
+#~ "shapes are selected they are all raised in turn."
+#~ msgstr ""
+#~ "Lig die huidiglik gekose raam sodat wat dit verskyn boonste alle die "
+#~ "ander rame. Hierdie is slegs bruikbare as rame oorvleuel elke ander. as "
+#~ "veelvuldige rame word gekose hulle word alle ontpak in skakel."
+
+#, fuzzy
+#~ msgid "Lower Shape"
+#~ msgstr "Sagter Raam"
+
+#, fuzzy
+#~| msgid ""
+#~| "Raise the currently selected frame so that it appears above all the "
+#~| "other frames"
+#~ msgid ""
+#~ "Lower the currently selected shape so that it disappears under any shape "
+#~ "that overlaps it"
+#~ msgstr ""
+#~ "Lig die huidiglik gekose raam sodat wat dit verskyn boonste alle die "
+#~ "ander rame"
+
+#, fuzzy
+#~| msgid ""
+#~| "Raise the currently selected frame so that it appears above all the "
+#~| "other frames. This is only useful if frames overlap each other. If "
+#~| "multiple frames are selected they are all raised in turn."
+#~ msgid ""
+#~ "Lower the currently selected shape so that it disappears under any shape "
+#~ "that overlaps it. If multiple shape are selected they are all lowered in "
+#~ "turn."
+#~ msgstr ""
+#~ "Lig die huidiglik gekose raam sodat wat dit verskyn boonste alle die "
+#~ "ander rame. Hierdie is slegs bruikbare as rame oorvleuel elke ander. as "
+#~ "veelvuldige rame word gekose hulle word alle ontpak in skakel."
+
+#~ msgid "Bring to Front"
+#~ msgstr "Bring na Voor"
+
+#~ msgid "Send to Back"
+#~ msgstr "Stuur na Terug"
 
 #, fuzzy
 #~ msgid "Insert Page"
