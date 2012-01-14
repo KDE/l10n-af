@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-10 02:45+0100\n"
+"POT-Creation-Date: 2012-01-14 02:30+0100\n"
 "PO-Revision-Date: 2002-09-27 16:45+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -544,7 +544,7 @@ msgstr "Kolom"
 
 #. i18n: file: part/dialogs/KWStartupWidget.ui:71
 #. i18n: ectx: property (text), widget (QPushButton, createButton)
-#: rc.cpp:264 part/KWView.cpp:318
+#: rc.cpp:264 part/KWView.cpp:314
 #, fuzzy
 msgid "Create"
 msgstr "Skep Tabel"
@@ -1046,23 +1046,6 @@ msgstr "Nie moontlik na skep databasis voorwerp"
 msgid "Tools"
 msgstr ""
 
-#: part/KWOdfLoader.cpp:90
-#, fuzzy
-msgid "Invalid OASIS OpenDocument file. No office:body tag found."
-msgstr "Ongeldige dokument. Nee mime-tipe gespesifiseer."
-
-#: part/KWOdfLoader.cpp:102
-#, fuzzy
-msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
-msgstr "Ongeldige dokument. Nee mime-tipe gespesifiseer."
-
-#: part/KWOdfLoader.cpp:104
-#, kde-format
-msgid ""
-"This is not a word processing document, but %1. Please try opening it with "
-"the appropriate application."
-msgstr ""
-
 #: part/KWStatusBar.cpp:48
 msgid "Modified"
 msgstr ""
@@ -1233,7 +1216,7 @@ msgstr "Styl:"
 msgid "Clone"
 msgstr "Maak toe:"
 
-#: part/dialogs/KWPageSettingsDialog.cpp:62 part/KWView.cpp:365
+#: part/dialogs/KWPageSettingsDialog.cpp:62 part/KWView.cpp:361
 #, fuzzy
 msgid "Delete"
 msgstr "Uitvee Ry"
@@ -1297,22 +1280,9 @@ msgid "approximately %1"
 msgstr "ongeveer %1"
 
 #: part/dialogs/KWStatisticsDialog.cpp:29
-#: part/dockers/KWStatisticsDocker.cpp:35 part/KWView.cpp:344
+#: part/dockers/KWStatisticsDocker.cpp:35 part/KWView.cpp:340
 msgid "Statistics"
 msgstr "Statistieke"
-
-#: part/dialogs/KWFrameDialog.cpp:43
-#, fuzzy
-#| msgid "Position"
-msgid "Smart Positioning"
-msgstr "Posisie"
-
-#: part/dialogs/KWFrameDialog.cpp:77
-#, fuzzy
-#| msgid "Frame Properties"
-msgctxt "(qtundo-format)"
-msgid "Change Shape Properties"
-msgstr "Raam Eienskappe"
 
 #: part/dialogs/KWAnchoringProperties.cpp:413
 #, fuzzy
@@ -1372,6 +1342,19 @@ msgstr ""
 #: part/dialogs/KWAnchoringProperties.cpp:437
 msgid "Left paragraph border"
 msgstr ""
+
+#: part/dialogs/KWFrameDialog.cpp:43
+#, fuzzy
+#| msgid "Position"
+msgid "Smart Positioning"
+msgstr "Posisie"
+
+#: part/dialogs/KWFrameDialog.cpp:77
+#, fuzzy
+#| msgid "Frame Properties"
+msgctxt "(qtundo-format)"
+msgid "Change Shape Properties"
+msgstr "Raam Eienskappe"
 
 #: part/dockers/KWRdfDocker.cpp:53
 msgid "RDF"
@@ -1672,6 +1655,23 @@ msgstr ""
 msgid "Installation Error"
 msgstr ""
 
+#: part/KWOdfLoader.cpp:90
+#, fuzzy
+msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+msgstr "Ongeldige dokument. Nee mime-tipe gespesifiseer."
+
+#: part/KWOdfLoader.cpp:102
+#, fuzzy
+msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+msgstr "Ongeldige dokument. Nee mime-tipe gespesifiseer."
+
+#: part/KWOdfLoader.cpp:104
+#, kde-format
+msgid ""
+"This is not a word processing document, but %1. Please try opening it with "
+"the appropriate application."
+msgstr ""
+
 #: part/KWView.cpp:227
 #, fuzzy
 #| msgid "Frame Properties"
@@ -1705,81 +1705,41 @@ msgstr ""
 msgid "Enable Document Headers"
 msgstr "Dokument Verstek"
 
-#: part/KWView.cpp:243
-#, fuzzy
-msgid "Shows and hides header display"
-msgstr "Vertoon en steek weg opskrif vertoon."
-
-#: part/KWView.cpp:244
-#, fuzzy
-#| msgid ""
-#| "Selecting this option toggles the display of headers in KWord."
-#| "<br><br>Headers are special frames at the top of each page which can "
-#| "contain page numbers or other information."
-msgid ""
-"Selecting this option toggles the display of headers in Words.<br/><br/"
-">Headers are special frames at the top of each page which can contain page "
-"numbers or other information."
-msgstr ""
-"Deur te kies hierdie opsie skakel tussen die vertoon van opskrifte in Kword."
-"<br><br>opskrifte word spesiaal rame na die bo van elke bladsy wat kan bevat "
-"bladsy nommers of ander informasie."
-
-#: part/KWView.cpp:249
+#: part/KWView.cpp:247
 #, fuzzy
 msgid "Enable Document Footers"
 msgstr "Maak Teks Kursief"
 
-#: part/KWView.cpp:251
-#, fuzzy
-msgid "Shows and hides footer display"
-msgstr "Vertoon en steek weg voetskrif vertoon."
-
-#: part/KWView.cpp:252
-#, fuzzy
-#| msgid ""
-#| "Selecting this option toggles the display of headers in KWord."
-#| "<br><br>Headers are special frames at the top of each page which can "
-#| "contain page numbers or other information."
-msgid ""
-"Selecting this option toggles the display of footers in Words. <br/><br/"
-">Footers are special shapes at the bottom of each page which can contain "
-"page numbers or other information."
-msgstr ""
-"Deur te kies hierdie opsie skakel tussen die vertoon van opskrifte in Kword."
-"<br><br>opskrifte word spesiaal rame na die bo van elke bladsy wat kan bevat "
-"bladsy nommers of ander informasie."
-
-#: part/KWView.cpp:257
+#: part/KWView.cpp:253
 #, fuzzy
 msgid "Snap to Grid"
 msgstr "Vertoon Voetskrif"
 
-#: part/KWView.cpp:262
+#: part/KWView.cpp:258
 #, fuzzy
 msgid "Bookmark..."
 msgstr "Voeg by Boekmerk..."
 
-#: part/KWView.cpp:267
+#: part/KWView.cpp:263
 #, fuzzy
 msgid "Select Bookmark..."
 msgstr "Kies Boekmerk..."
 
-#: part/KWView.cpp:268
+#: part/KWView.cpp:264
 #, fuzzy
 msgid "Bookmark"
 msgstr "Voeg by Boekmerk..."
 
-#: part/KWView.cpp:274
+#: part/KWView.cpp:270
 msgid "Show Text Shape Borders"
 msgstr ""
 
-#: part/KWView.cpp:275
+#: part/KWView.cpp:271
 #, fuzzy
 msgid "Turns the border display on and off"
 msgstr "Draai die grens vertoon op en af."
 
-#: part/KWView.cpp:281
+#: part/KWView.cpp:277
 #, fuzzy
 #| msgid ""
 #| "Turns the border display on and off.<br><br>The borders are never "
@@ -1794,52 +1754,52 @@ msgstr ""
 "Hierdie opsie is bruikbare na sien hoe die dokument sal verskyn op die "
 "printed bladsy."
 
-#: part/KWView.cpp:283
+#: part/KWView.cpp:279
 #, fuzzy
 #| msgid "&Formatting Characters"
 msgid "Show Formatting Characters"
 msgstr "Formatering Karakters"
 
-#: part/KWView.cpp:290
+#: part/KWView.cpp:286
 #, fuzzy
 msgid "Toggle the display of non-printing characters"
 msgstr "Wissel die vertoon van non-printing karakters."
 
-#: part/KWView.cpp:291
+#: part/KWView.cpp:287
 msgid ""
 "Toggle the display of non-printing characters.<br/><br/>When this is "
 "enabled, Words shows you tabs, spaces, carriage returns and other non-"
 "printing characters."
 msgstr ""
 
-#: part/KWView.cpp:293
+#: part/KWView.cpp:289
 #, fuzzy
 #| msgid "Configure Table Borders"
 msgid "Show Table Borders"
 msgstr "Konfigureer Tabel Grense"
 
-#: part/KWView.cpp:299
+#: part/KWView.cpp:295
 #, fuzzy
 msgid "Toggle the display of table borders"
 msgstr "Wissel die vertoon van non-printing karakters."
 
-#: part/KWView.cpp:300
+#: part/KWView.cpp:296
 msgid ""
 "Toggle the display of table borders.<br/><br/>When this is enabled, Words "
 "shows you any invisible table borders with a thin gray line."
 msgstr ""
 
-#: part/KWView.cpp:302
+#: part/KWView.cpp:298
 #, fuzzy
 msgid "Page Layout..."
 msgstr "Verander Uitleg"
 
-#: part/KWView.cpp:304
+#: part/KWView.cpp:300
 #, fuzzy
 msgid "Change properties of entire page"
 msgstr "Verander eienskappe van hele bladsy."
 
-#: part/KWView.cpp:305
+#: part/KWView.cpp:301
 #, fuzzy
 #| msgid ""
 #| "Change properties of the entire page.<p>Currently you can change paper "
@@ -1852,41 +1812,41 @@ msgstr ""
 "grootte, papier oriëntasie, opskrif en voetskrif grotes, en kolom "
 "instellings."
 
-#: part/KWView.cpp:309
+#: part/KWView.cpp:305
 #, fuzzy
 msgid "Semantic Stylesheets..."
 msgstr "In voer Styl..."
 
-#: part/KWView.cpp:311
+#: part/KWView.cpp:307
 msgid "Modify and add semantic stylesheets"
 msgstr ""
 
-#: part/KWView.cpp:312
+#: part/KWView.cpp:308
 msgid ""
 "Stylesheets are used to format contact, event, and location information "
 "which is stored in Rdf"
 msgstr ""
 
-#: part/KWView.cpp:346
+#: part/KWView.cpp:342
 msgid "Sentence, word and letter counts for this document"
 msgstr "Sin, woord en brief tel vir hierdie dokument"
 
-#: part/KWView.cpp:347
+#: part/KWView.cpp:343
 msgid ""
 "Information on the number of letters, words, syllables and sentences for "
 "this document.<p>Evaluates readability using the Flesch reading score.</p>"
 msgstr ""
 
-#: part/KWView.cpp:350
+#: part/KWView.cpp:346
 msgid "Show Rulers"
 msgstr "Vertoon Lineale"
 
-#: part/KWView.cpp:352
+#: part/KWView.cpp:348
 #, fuzzy
 msgid "Shows or hides rulers"
 msgstr "Vertoon of steek weg lineale."
 
-#: part/KWView.cpp:353
+#: part/KWView.cpp:349
 msgid ""
 "The rulers are the white measuring spaces top and left of the document. The "
 "rulers show the position and width of pages and of frames and can be used to "
@@ -1894,55 +1854,91 @@ msgid ""
 "being displayed.</p>"
 msgstr ""
 
-#: part/KWView.cpp:361
+#: part/KWView.cpp:357
 #, fuzzy
 msgid "Select All Shapes"
 msgstr "Kies Raamstel"
 
-#: part/KWView.cpp:378
+#: part/KWView.cpp:374
 #, fuzzy
 msgid "Create Linked Copy"
 msgstr "Skep 'n nuwe bladsy"
 
-#: part/KWView.cpp:380
+#: part/KWView.cpp:376
 msgid "Create a copy of the current frame, always showing the same contents"
 msgstr ""
 
-#: part/KWView.cpp:381
+#: part/KWView.cpp:377
 msgid ""
 "Create a copy of the current frame, that remains linked to it. This means "
 "they always show the same contents: modifying the contents in such a frame "
 "will update all its linked copies."
 msgstr ""
 
-#: part/KWView.cpp:384
+#: part/KWView.cpp:380
 #, fuzzy
 #| msgid "Create Text Frame"
 msgid "Create Frame-clip"
 msgstr "Skep Teks Raam"
 
-#: part/KWView.cpp:388
+#: part/KWView.cpp:384
 #, fuzzy
 msgid "Remove Frame-clip"
 msgstr "Verwyder Opneem"
 
-#: part/KWView.cpp:392
+#: part/KWView.cpp:388
 #, fuzzy
 #| msgid "Show &status bar"
 msgid "Show Status Bar"
 msgstr "Vertoon status kolom"
 
-#: part/KWView.cpp:393
+#: part/KWView.cpp:389
 #, fuzzy
 #| msgid "Show &status bar"
 msgid "Shows or hides the status bar"
 msgstr "Vertoon status kolom"
 
-#: part/KWView.cpp:747
+#: part/KWView.cpp:745
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Create Linked Copy"
 msgstr "Skep 'n nuwe bladsy"
+
+#, fuzzy
+#~ msgid "Shows and hides header display"
+#~ msgstr "Vertoon en steek weg opskrif vertoon."
+
+#, fuzzy
+#~| msgid ""
+#~| "Selecting this option toggles the display of headers in KWord."
+#~| "<br><br>Headers are special frames at the top of each page which can "
+#~| "contain page numbers or other information."
+#~ msgid ""
+#~ "Selecting this option toggles the display of headers in Words.<br/><br/"
+#~ ">Headers are special frames at the top of each page which can contain "
+#~ "page numbers or other information."
+#~ msgstr ""
+#~ "Deur te kies hierdie opsie skakel tussen die vertoon van opskrifte in "
+#~ "Kword.<br><br>opskrifte word spesiaal rame na die bo van elke bladsy wat "
+#~ "kan bevat bladsy nommers of ander informasie."
+
+#, fuzzy
+#~ msgid "Shows and hides footer display"
+#~ msgstr "Vertoon en steek weg voetskrif vertoon."
+
+#, fuzzy
+#~| msgid ""
+#~| "Selecting this option toggles the display of headers in KWord."
+#~| "<br><br>Headers are special frames at the top of each page which can "
+#~| "contain page numbers or other information."
+#~ msgid ""
+#~ "Selecting this option toggles the display of footers in Words. <br/><br/"
+#~ ">Footers are special shapes at the bottom of each page which can contain "
+#~ "page numbers or other information."
+#~ msgstr ""
+#~ "Deur te kies hierdie opsie skakel tussen die vertoon van opskrifte in "
+#~ "Kword.<br><br>opskrifte word spesiaal rame na die bo van elke bladsy wat "
+#~ "kan bevat bladsy nommers of ander informasie."
 
 #, fuzzy
 #~ msgid "Raise Shape"
