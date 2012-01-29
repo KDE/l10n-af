@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-26 02:39+0100\n"
+"POT-Creation-Date: 2012-01-29 02:20+0100\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1520,7 +1520,7 @@ msgstr "Voorwerp"
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
 #: koreport/wrtembed/KoReportDesigner.cpp:840 kotext/KoTextEditor.cpp:1472
 #: kotext/KoTextEditor.cpp:1517
-#: kotext/commands/ChangeTrackedDeleteCommand.cpp:313 rc.cpp:170
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:316 rc.cpp:170
 #, fuzzy
 msgid "Delete"
 msgstr "Uitvee Teks"
@@ -1565,9 +1565,8 @@ msgstr ""
 msgid "Unable to add a new group because its name would not be unique"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:115
-#: kotext/commands/ChangeTrackedDeleteCommand.cpp:372
-#: kotext/commands/DeleteCommand.cpp:190
+#: kotext/KoTextEditor.cpp:115 kotext/commands/DeleteCommand.cpp:190
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:375
 #, fuzzy
 #| msgid "Text"
 msgctxt "(qtundo-format)"
@@ -1860,13 +1859,6 @@ msgstr "Dubbel"
 msgid "Format"
 msgstr "Datum Formaat"
 
-#: kotext/commands/ChangeTrackedDeleteCommand.cpp:83
-#: kotext/commands/DeleteCommand.cpp:47
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete"
-msgstr "Uitvee Teks"
-
 #: kotext/commands/DeleteTableColumnCommand.cpp:40
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -1914,13 +1906,12 @@ msgctxt "(qtundo-format)"
 msgid "Change List Numbering"
 msgstr "Verander Lyn Spasiëring"
 
-#: kotext/commands/ChangeListCommand.cpp:40
-#: kotext/commands/ChangeListCommand.cpp:85
-#: kotext/commands/ChangeListCommand.cpp:98
+#: kotext/commands/DeleteCommand.cpp:47
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:83
 #, fuzzy
 msgctxt "(qtundo-format)"
-msgid "Change List"
-msgstr "Verander Karakter na Simbool"
+msgid "Delete"
+msgstr "Uitvee Teks"
 
 #: kotext/commands/TextPasteCommand.cpp:61
 #, fuzzy
@@ -1940,6 +1931,14 @@ msgstr "Datum"
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Styles"
+msgstr "Verander Karakter na Simbool"
+
+#: kotext/commands/ChangeListCommand.cpp:40
+#: kotext/commands/ChangeListCommand.cpp:87
+#: kotext/commands/ChangeListCommand.cpp:100
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change List"
 msgstr "Verander Karakter na Simbool"
 
 #: kotext/styles/KoStyleManager.cpp:100 kotext/styles/KoStyleManager.cpp:105
