@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-24 04:22+0100\n"
+"POT-Creation-Date: 2012-02-26 04:14+0100\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -399,11 +399,95 @@ msgctxt "Status of an item"
 msgid "Ignored"
 msgstr "Ignoreer gesprekslyn"
 
-#: core/manager.cpp:100 core/model.cpp:293
+#: core/model.cpp:290
+#, fuzzy
+msgid "Today"
+msgstr "Aan: "
+
+#: core/model.cpp:291
+msgid "Yesterday"
+msgstr ""
+
+#: core/model.cpp:293 core/manager.cpp:100
 #, fuzzy
 msgctxt "Unknown date"
 msgid "Unknown"
 msgstr "Stuur aan"
+
+#: core/model.cpp:294
+msgid "Last Week"
+msgstr ""
+
+#: core/model.cpp:295
+msgid "Two Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:296
+msgid "Three Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:297
+msgid "Four Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:298
+msgid "Five Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:505 utils/themeeditor.cpp:204
+#, fuzzy
+#| msgid "Receiver"
+msgid "Receiver"
+msgstr "Ontvanger"
+
+#: core/model.cpp:506 utils/themeeditor.cpp:203
+msgid "Sender"
+msgstr "Stuurder"
+
+#: core/model.cpp:1331
+#, fuzzy, kde-format
+#| msgid "Mail"
+msgctxt "Message Aggregation Group Header: Month name and Year number"
+msgid "%1 %2"
+msgstr "Pos"
+
+#: core/model.cpp:3774
+#, fuzzy, kde-format
+msgid "Processed 1 Message of %2"
+msgid_plural "Processed %1 Messages of %2"
+msgstr[0] "Gesprekslyn boodskappe"
+msgstr[1] "Gesprekslyn boodskappe"
+
+#: core/model.cpp:3780 core/model.cpp:3786
+#, fuzzy, kde-format
+msgid "Threaded 1 Message of %2"
+msgid_plural "Threaded %1 Messages of %2"
+msgstr[0] "Gesprekslyn boodskappe"
+msgstr[1] "Gesprekslyn boodskappe"
+
+#: core/model.cpp:3792
+#, fuzzy, kde-format
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Grouped 1 Thread of %2"
+msgid_plural "Grouped %1 Threads of %2"
+msgstr[0] "Vou gesprekslyn uit"
+msgstr[1] "Vou gesprekslyn uit"
+
+#: core/model.cpp:3798
+#, fuzzy, kde-format
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Updated 1 Group of %2"
+msgid_plural "Updated %1 Groups of %2"
+msgstr[0] "Vou gesprekslyn uit"
+msgstr[1] "Vou gesprekslyn uit"
+
+#: core/model.cpp:3895
+#, fuzzy
+msgctxt "@info:status Finished view fill"
+msgid "Ready"
+msgstr "Ongelees"
 
 #: core/manager.cpp:321
 msgid "Current Activity, Threaded"
@@ -620,90 +704,6 @@ msgstr ""
 #, fuzzy
 msgid "Status"
 msgstr "Status:"
-
-#: core/model.cpp:290
-#, fuzzy
-msgid "Today"
-msgstr "Aan: "
-
-#: core/model.cpp:291
-msgid "Yesterday"
-msgstr ""
-
-#: core/model.cpp:294
-msgid "Last Week"
-msgstr ""
-
-#: core/model.cpp:295
-msgid "Two Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:296
-msgid "Three Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:297
-msgid "Four Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:298
-msgid "Five Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:505 utils/themeeditor.cpp:204
-#, fuzzy
-#| msgid "Receiver"
-msgid "Receiver"
-msgstr "Ontvanger"
-
-#: core/model.cpp:506 utils/themeeditor.cpp:203
-msgid "Sender"
-msgstr "Stuurder"
-
-#: core/model.cpp:1331
-#, fuzzy, kde-format
-#| msgid "Mail"
-msgctxt "Message Aggregation Group Header: Month name and Year number"
-msgid "%1 %2"
-msgstr "Pos"
-
-#: core/model.cpp:3774
-#, fuzzy, kde-format
-msgid "Processed 1 Message of %2"
-msgid_plural "Processed %1 Messages of %2"
-msgstr[0] "Gesprekslyn boodskappe"
-msgstr[1] "Gesprekslyn boodskappe"
-
-#: core/model.cpp:3780 core/model.cpp:3786
-#, fuzzy, kde-format
-msgid "Threaded 1 Message of %2"
-msgid_plural "Threaded %1 Messages of %2"
-msgstr[0] "Gesprekslyn boodskappe"
-msgstr[1] "Gesprekslyn boodskappe"
-
-#: core/model.cpp:3792
-#, fuzzy, kde-format
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Grouped 1 Thread of %2"
-msgid_plural "Grouped %1 Threads of %2"
-msgstr[0] "Vou gesprekslyn uit"
-msgstr[1] "Vou gesprekslyn uit"
-
-#: core/model.cpp:3798
-#, fuzzy, kde-format
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Updated 1 Group of %2"
-msgid_plural "Updated %1 Groups of %2"
-msgstr[0] "Vou gesprekslyn uit"
-msgstr[1] "Vou gesprekslyn uit"
-
-#: core/model.cpp:3895
-#, fuzzy
-msgctxt "@info:status Finished view fill"
-msgid "Ready"
-msgstr "Ongelees"
 
 #: core/widgetbase.cpp:141
 msgctxt "@action:button"
