@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-14 04:28+0200\n"
+"POT-Creation-Date: 2012-03-02 05:07+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -40,7 +40,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: file: ../../ui/ArtworkPatternOptionsWidget.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:12 rc.cpp:21 filterEffectTool/ArtworkFilterEffectsTool.cpp:462
+#: rc.cpp:12 rc.cpp:21
 msgid "X:"
 msgstr "X:"
 
@@ -67,7 +67,7 @@ msgstr "Patrone"
 
 #. i18n: file: ../../ui/ArtworkPatternOptionsWidget.ui:100
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:30 filterEffectTool/ArtworkFilterEffectsTool.cpp:474
+#: rc.cpp:30
 msgid "W:"
 msgstr ""
 
@@ -223,8 +223,10 @@ msgstr ""
 #: CalligraphyTool/ArtworkCalligraphyOptionWidget.cpp:200
 #: CalligraphyTool/ArtworkCalligraphyOptionWidget.cpp:224
 #, fuzzy
-msgid "Current"
-msgstr "Uitvee Voorwerp"
+#| msgid "Delete Objects"
+msgctxt "Current"
+msgid "Profile selected now"
+msgstr "Uitvee Objekte"
 
 #: CalligraphyTool/ArtworkCalligraphyOptionWidget.cpp:217
 msgid "Profile name"
@@ -294,6 +296,17 @@ msgstr ""
 msgid "Add Filter"
 msgstr "Laag"
 
+#: filterEffectTool/ArtworkFilterEffectsTool.cpp:462
+msgctxt "X:"
+msgid "X-Coordinate"
+msgstr ""
+
+#: filterEffectTool/ArtworkFilterEffectsTool.cpp:474
+#, fuzzy
+msgctxt "W:"
+msgid "Width"
+msgstr "Wydte:"
+
 #: filterEffectTool/ArtworkFilterEffectsTool.cpp:486
 #, fuzzy
 msgid "Effect Region"
@@ -341,57 +354,87 @@ msgid "Set filter stack"
 msgstr "Stel Lyn Wydte"
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:33
-msgid "Original"
+msgctxt "Original"
+msgid "Original Image"
 msgstr ""
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:34
 #, fuzzy
-msgid "Tiled"
+msgctxt "Tiled"
+msgid "Tiled Image"
 msgstr "Opvul"
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:35
-msgid "Stretched"
+msgctxt "Stretched"
+msgid "Stretched Image"
 msgstr ""
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:37
-msgid "Top Left"
+msgctxt "Top Left"
+msgid "Align to top-left corner"
 msgstr ""
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:38
-msgid "Top"
-msgstr ""
-
-#: ../../ui/ArtworkPatternOptionsWidget.cpp:39
 #, fuzzy
-msgid "Top Right"
+msgctxt "Top"
+msgid "Align to top side"
 msgstr "Opvul Objekte"
 
-#: ../../ui/ArtworkPatternOptionsWidget.cpp:40
-msgid "Left"
+#: ../../ui/ArtworkPatternOptionsWidget.cpp:39
+msgctxt "Top Right"
+msgid "Align to top-right corner"
 msgstr ""
 
+#: ../../ui/ArtworkPatternOptionsWidget.cpp:40
+#, fuzzy
+msgctxt "Left"
+msgid "Align to left side"
+msgstr "Opvul Objekte"
+
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:41
-msgid "Center"
-msgstr ""
+#, fuzzy
+msgctxt "Center"
+msgid "Align in the center"
+msgstr "Opvul Objekte"
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:42
 #, fuzzy
-#| msgid "Height:"
-msgid "Right"
-msgstr "Hoogte:"
+msgctxt "Right"
+msgid "Align to right side"
+msgstr "Opvul Objekte"
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:43
-msgid "Bottom Left"
+msgctxt "Bottom Left"
+msgid "Align to bottom-left corner"
 msgstr ""
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:44
 #, fuzzy
-msgid "Bottom"
+msgctxt "Bottom"
+msgid "Align to bottom side"
 msgstr "Opvul Objekte"
 
 #: ../../ui/ArtworkPatternOptionsWidget.cpp:45
-msgid "Bottom Right"
+msgctxt "Bottom Right"
+msgid "Align to bottom-right corner"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Current"
+#~ msgstr "Uitvee Voorwerp"
+
+#, fuzzy
+#~ msgid "Top Right"
+#~ msgstr "Opvul Objekte"
+
+#, fuzzy
+#~| msgid "Height:"
+#~ msgid "Right"
+#~ msgstr "Hoogte:"
+
+#, fuzzy
+#~ msgid "Bottom"
+#~ msgstr "Opvul Objekte"
 
 #~ msgid "Edit Gradient"
 #~ msgstr "Redigeer Gradiënt"
@@ -598,11 +641,6 @@ msgstr ""
 #, fuzzy
 #~| msgid "Delete Objects"
 #~ msgid "Delete selected objects"
-#~ msgstr "Uitvee Objekte"
-
-#, fuzzy
-#~| msgid "Delete Objects"
-#~ msgid "Raise selected objects"
 #~ msgstr "Uitvee Objekte"
 
 #, fuzzy
@@ -835,16 +873,8 @@ msgstr ""
 #~ msgstr "Stuur na Terug"
 
 #, fuzzy
-#~ msgid "Align Left"
-#~ msgstr "Opvul Objekte"
-
-#, fuzzy
 #~ msgid "Align Center (Horizontal)"
 #~ msgstr "Relatiewe sentrum"
-
-#, fuzzy
-#~ msgid "Align Right"
-#~ msgstr "Opvul Objekte"
 
 #, fuzzy
 #~ msgid "Align Top"
@@ -853,10 +883,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Align Middle (Vertical)"
 #~ msgstr "Relatiewe sentrum"
-
-#, fuzzy
-#~ msgid "Align Bottom"
-#~ msgstr "Opvul Objekte"
 
 #, fuzzy
 #~| msgid "Opacity:"

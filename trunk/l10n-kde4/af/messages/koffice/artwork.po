@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: karbon VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-29 04:01+0200\n"
+"POT-Creation-Date: 2012-03-02 05:07+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -177,32 +177,6 @@ msgstr "Lêer Na Open"
 msgid "Blend"
 msgstr "Opvul"
 
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
-msgid "Blend mode"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:37
-msgid "Normal"
-msgstr "Normale"
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:38
-msgid "Multiply"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:39
-msgid "Screen"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:40
-msgid "Darken"
-msgstr ""
-
-#: plugins/filtereffects/BlendEffectConfigWidget.cpp:41
-#, fuzzy
-#| msgid "Height:"
-msgid "Lighten"
-msgstr "Hoogte:"
-
 #: plugins/filtereffects/BlurEffect.cpp:276
 #: plugins/filtereffects/BlurEffectFactory.cpp:27
 msgid "Gaussian blur"
@@ -256,65 +230,6 @@ msgstr ""
 msgid "Component transfer"
 msgstr ""
 
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:58
-#, fuzzy
-msgid "Function"
-msgstr "Keuse Modus"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:60
-msgid "Identity"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:61
-#, fuzzy
-msgid "Table"
-msgstr "Opvul"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:62
-msgid "Discrete"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:63
-#, fuzzy
-#| msgid "Linear"
-msgid "Linear"
-msgstr "Liniêre"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:64
-msgid "Gamma"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:77
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:87
-msgid "Values"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:97
-#, fuzzy
-#| msgid "Shear"
-msgid "Slope"
-msgstr "Steilheid"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:101
-#, fuzzy
-#| msgid "Interface"
-msgid "Intercept"
-msgstr "Koppelvlak"
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:112
-msgid "Amplitude"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:116
-msgid "Exponent"
-msgstr ""
-
-#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
-#: plugins/filtereffects/OffsetEffect.cpp:31
-#: plugins/filtereffects/OffsetEffectFactory.cpp:26
-msgid "Offset"
-msgstr ""
-
 #: plugins/filtereffects/CompositeEffect.cpp:32
 #: plugins/filtereffects/CompositeEffectFactory.cpp:27
 #, fuzzy
@@ -332,55 +247,6 @@ msgstr "Bools Operasie"
 #: plugins/filtereffects/ConvolveMatrixEffectFactory.cpp:27
 msgid "Convolve Matrix"
 msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
-#, fuzzy
-#| msgid "&Duplicate"
-msgid "Duplicate"
-msgstr "Duplikaat"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:44
-msgid "Wrap"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:45
-#, fuzzy
-#| msgid "None"
-msgid "None"
-msgstr "Geen"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:46
-#, fuzzy
-#| msgid "Edges:"
-msgid "Edge mode:"
-msgstr "Randte:"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:53
-msgid "Kernel size:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:62
-#, fuzzy
-#| msgid "Target:"
-msgid "Target point:"
-msgstr "Teiken:"
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:69
-msgid "Divisor:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:71
-msgid "Bias:"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:74
-msgid "Preserve alpha"
-msgstr ""
-
-#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:77
-#, fuzzy
-msgid "Edit kernel"
-msgstr "Patrone"
 
 #: plugins/filtereffects/FloodEffect.cpp:30
 #: plugins/filtereffects/FloodEffectFactory.cpp:27
@@ -443,6 +309,12 @@ msgstr "Radius:"
 msgid "Radius y:"
 msgstr "Radius:"
 
+#: plugins/filtereffects/OffsetEffect.cpp:31
+#: plugins/filtereffects/OffsetEffectFactory.cpp:26
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:120
+msgid "Offset"
+msgstr ""
+
 #: plugins/filtereffects/OffsetEffectConfigWidget.cpp:35
 msgid "dx"
 msgstr ""
@@ -450,6 +322,135 @@ msgstr ""
 #: plugins/filtereffects/OffsetEffectConfigWidget.cpp:40
 msgid "dy"
 msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:35
+msgid "Blend mode"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:37
+msgctxt "Normal"
+msgid "No blend effect"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:38
+msgid "Multiply"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:39
+msgid "Screen"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:40
+msgid "Darken"
+msgstr ""
+
+#: plugins/filtereffects/BlendEffectConfigWidget.cpp:41
+#, fuzzy
+#| msgid "Height:"
+msgid "Lighten"
+msgstr "Hoogte:"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:58
+#, fuzzy
+msgid "Function"
+msgstr "Keuse Modus"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:60
+msgid "Identity"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:61
+#, fuzzy
+msgid "Table"
+msgstr "Opvul"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:62
+#, fuzzy
+msgctxt "Discrete"
+msgid "Discrete Function"
+msgstr "Keuse Modus"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:63
+#, fuzzy
+msgctxt "Linear"
+msgid "Linear Function"
+msgstr "Keuse Modus"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:64
+msgid "Gamma"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:77
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:87
+msgid "Values"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:97
+#, fuzzy
+#| msgid "Shear"
+msgid "Slope"
+msgstr "Steilheid"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:101
+#, fuzzy
+#| msgid "Interface"
+msgid "Intercept"
+msgstr "Koppelvlak"
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:112
+msgid "Amplitude"
+msgstr ""
+
+#: plugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:116
+msgid "Exponent"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:43
+msgctxt "Duplicate"
+msgid "Copy edge"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:44
+msgid "Wrap"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:45
+msgctxt "None"
+msgid "No edge effect"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:46
+#, fuzzy
+#| msgid "Edges:"
+msgid "Edge mode:"
+msgstr "Randte:"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:53
+msgid "Kernel size:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:62
+#, fuzzy
+#| msgid "Target:"
+msgid "Target point:"
+msgstr "Teiken:"
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:69
+msgid "Divisor:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:71
+msgid "Bias:"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:74
+msgid "Preserve alpha"
+msgstr ""
+
+#: plugins/filtereffects/ConvolveMatrixEffectConfigWidget.cpp:77
+#, fuzzy
+msgid "Edit kernel"
+msgstr "Patrone"
 
 #: plugins/flattenpath/ArtworkPathFlattenCommand.cpp:165
 #, fuzzy
@@ -663,59 +664,6 @@ msgstr ""
 
 #: ui/ArtworkConfigureDialog.cpp:151
 msgid "Canvas color:"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:33
-msgid "Original"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:34
-#, fuzzy
-msgid "Tiled"
-msgstr "Opvul"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:35
-msgid "Stretched"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:37
-msgid "Top Left"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:38
-msgid "Top"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:39
-#, fuzzy
-msgid "Top Right"
-msgstr "Opvul Objekte"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:40
-msgid "Left"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:41
-msgid "Center"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:42
-#, fuzzy
-#| msgid "Height:"
-msgid "Right"
-msgstr "Hoogte:"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:43
-msgid "Bottom Left"
-msgstr ""
-
-#: ui/ArtworkPatternOptionsWidget.cpp:44
-#, fuzzy
-msgid "Bottom"
-msgstr "Opvul Objekte"
-
-#: ui/ArtworkPatternOptionsWidget.cpp:45
-msgid "Bottom Right"
 msgstr ""
 
 #: ui/ArtworkLayerModel.cpp:172
@@ -1067,6 +1015,103 @@ msgstr "Keuse Modus"
 msgid "Zoom to Drawing"
 msgstr "Keuse Modus"
 
+#: ui/ArtworkPatternOptionsWidget.cpp:33
+msgctxt "Original"
+msgid "Original Image"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:34
+#, fuzzy
+msgctxt "Tiled"
+msgid "Tiled Image"
+msgstr "Opvul"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:35
+msgctxt "Stretched"
+msgid "Stretched Image"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:37
+msgctxt "Top Left"
+msgid "Align to top-left corner"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:38
+#, fuzzy
+msgctxt "Top"
+msgid "Align to top side"
+msgstr "Opvul Objekte"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:39
+msgctxt "Top Right"
+msgid "Align to top-right corner"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:40
+#, fuzzy
+msgctxt "Left"
+msgid "Align to left side"
+msgstr "Opvul Objekte"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:41
+#, fuzzy
+msgctxt "Center"
+msgid "Align in the center"
+msgstr "Opvul Objekte"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:42
+#, fuzzy
+msgctxt "Right"
+msgid "Align to right side"
+msgstr "Opvul Objekte"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:43
+msgctxt "Bottom Left"
+msgid "Align to bottom-left corner"
+msgstr ""
+
+#: ui/ArtworkPatternOptionsWidget.cpp:44
+#, fuzzy
+msgctxt "Bottom"
+msgid "Align to bottom side"
+msgstr "Opvul Objekte"
+
+#: ui/ArtworkPatternOptionsWidget.cpp:45
+msgctxt "Bottom Right"
+msgid "Align to bottom-right corner"
+msgstr ""
+
+#~ msgid "Normal"
+#~ msgstr "Normale"
+
+#, fuzzy
+#~| msgid "Linear"
+#~ msgid "Linear"
+#~ msgstr "Liniêre"
+
+#, fuzzy
+#~| msgid "&Duplicate"
+#~ msgid "Duplicate"
+#~ msgstr "Duplikaat"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgid "None"
+#~ msgstr "Geen"
+
+#, fuzzy
+#~ msgid "Top Right"
+#~ msgstr "Opvul Objekte"
+
+#, fuzzy
+#~| msgid "Height:"
+#~ msgid "Right"
+#~ msgstr "Hoogte:"
+
+#, fuzzy
+#~ msgid "Bottom"
+#~ msgstr "Opvul Objekte"
+
 #~ msgid "Type:"
 #~ msgstr "Tipe:"
 
@@ -1287,16 +1332,8 @@ msgstr "Keuse Modus"
 #~ msgstr "Stuur na Terug"
 
 #, fuzzy
-#~ msgid "Align Left"
-#~ msgstr "Opvul Objekte"
-
-#, fuzzy
 #~ msgid "Align Center (Horizontal)"
 #~ msgstr "Relatiewe sentrum"
-
-#, fuzzy
-#~ msgid "Align Right"
-#~ msgstr "Opvul Objekte"
 
 #, fuzzy
 #~ msgid "Align Top"
@@ -1305,10 +1342,6 @@ msgstr "Keuse Modus"
 #, fuzzy
 #~ msgid "Align Middle (Vertical)"
 #~ msgstr "Relatiewe sentrum"
-
-#, fuzzy
-#~ msgid "Align Bottom"
-#~ msgstr "Opvul Objekte"
 
 #, fuzzy
 #~| msgid "Opacity:"
