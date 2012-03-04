@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-02 03:04+0100\n"
+"POT-Creation-Date: 2012-03-04 11:31+0100\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -220,6 +220,19 @@ msgctxt "(qtundo-format)"
 msgid "Create shape"
 msgstr "Skep Werkvoorbeeld"
 
+#: flake/commands/KoShapeDeleteCommand.cpp:56
+#: flake/commands/KoShapeDeleteCommand.cpp:71
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete shape"
+msgstr "Uitvee Teks"
+
+#: flake/commands/KoShapeDeleteCommand.cpp:74
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete shapes"
+msgstr "Uitvee Teks"
+
 #: flake/commands/KoShapeDistributeCommand.cpp:128
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -265,6 +278,12 @@ msgstr "Skep Werkvoorbeeld"
 msgctxt "(qtundo-format)"
 msgid "Reorder shapes"
 msgstr "Uitvee Teks"
+
+#: flake/commands/KoShapeRunAroundCommand.cpp:56
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Shape RunAround"
+msgstr "Verander Tabel-vormer"
 
 #: flake/commands/KoShapeShadowCommand.cpp:67
 #: flake/commands/KoShapeShadowCommand.cpp:84
@@ -330,24 +349,19 @@ msgctxt "(qtundo-format)"
 msgid "Remove subpath"
 msgstr "Verwyder Groep"
 
-#: flake/commands/KoShapeDeleteCommand.cpp:56
-#: flake/commands/KoShapeDeleteCommand.cpp:71
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete shape"
-msgstr "Uitvee Teks"
+#: flake/tools/KoCreatePathTool.cpp:374 flake/tools/KoPathTool.cpp:185
+msgid "Snapping"
+msgstr ""
 
-#: flake/commands/KoShapeDeleteCommand.cpp:74
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete shapes"
-msgstr "Uitvee Teks"
+#: flake/tools/KoCreatePathTool.cpp:380
+msgid "Angle snapping delta"
+msgstr ""
 
-#: flake/commands/KoShapeRunAroundCommand.cpp:56
+#: flake/tools/KoCreatePathTool.cpp:388
 #, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Change Shape RunAround"
-msgstr "Verander Tabel-vormer"
+#| msgid "Change Indent"
+msgid "Angle Constraints"
+msgstr "Verander Inkeep"
 
 #: flake/tools/KoCreatePathToolFactory.cpp:33
 #, fuzzy
@@ -370,29 +384,6 @@ msgstr "Tan"
 msgctxt "(qtundo-format)"
 msgid "Change Segment"
 msgstr "Verander Oplyn"
-
-#: flake/tools/KoPathToolFactory.cpp:29
-msgid "Path editing tool"
-msgstr ""
-
-#: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:255
-#: widgets/KoZoomController.cpp:39
-msgid "Zoom"
-msgstr ""
-
-#: flake/tools/KoCreatePathTool.cpp:374 flake/tools/KoPathTool.cpp:185
-msgid "Snapping"
-msgstr ""
-
-#: flake/tools/KoCreatePathTool.cpp:380
-msgid "Angle snapping delta"
-msgstr ""
-
-#: flake/tools/KoCreatePathTool.cpp:388
-#, fuzzy
-#| msgid "Change Indent"
-msgid "Angle Constraints"
-msgstr "Verander Inkeep"
 
 #: flake/tools/KoPathTool.cpp:90
 #, fuzzy
@@ -484,30 +475,14 @@ msgstr ""
 msgid "Press B to break path at selected segments."
 msgstr ""
 
-#: kokross/KoScriptingDocker.cpp:76 kokross/KoScriptingPart.cpp:85
-#, fuzzy
-msgid "Scripts"
-msgstr "Onderskrif"
+#: flake/tools/KoPathToolFactory.cpp:29
+msgid "Path editing tool"
+msgstr ""
 
-#: kokross/KoScriptingDocker.cpp:111 kokross/KoScriptManager.cpp:297
-#, fuzzy
-msgid "Script Manager"
-msgstr "Styl Bestuurder"
-
-#: kokross/KoScriptingPart.cpp:81
-#, fuzzy
-msgid "Execute Script File..."
-msgstr "Onderskrif"
-
-#: kokross/KoScriptingPart.cpp:89
-#, fuzzy
-msgid "Script Manager..."
-msgstr "Styl Bestuurder"
-
-#: kokross/KoScriptingPart.cpp:158
-#, fuzzy
-msgid "Execute Script File"
-msgstr "Onderskrif"
+#: flake/tools/KoZoomToolFactory.cpp:29 widgets/KoZoomAction.cpp:255
+#: widgets/KoZoomController.cpp:39
+msgid "Zoom"
+msgstr ""
 
 #: kokross/KoScriptManager.cpp:177
 msgid "Install Script Package"
@@ -567,6 +542,11 @@ msgid ""
 "permissions to delete the folder \"%1\"."
 msgstr ""
 
+#: kokross/KoScriptManager.cpp:297 kokross/KoScriptingDocker.cpp:111
+#, fuzzy
+msgid "Script Manager"
+msgstr "Styl Bestuurder"
+
 #: kokross/KoScriptManager.cpp:299 main/KoMainWindow.cpp:587
 #, fuzzy
 msgid "Save"
@@ -620,6 +600,253 @@ msgstr "Onderskrif"
 #| msgid "Completion"
 msgid "Collection"
 msgstr "Voltooiïng"
+
+#: kokross/KoScriptingDocker.cpp:76 kokross/KoScriptingPart.cpp:85
+#, fuzzy
+msgid "Scripts"
+msgstr "Onderskrif"
+
+#: kokross/KoScriptingPart.cpp:81
+#, fuzzy
+msgid "Execute Script File..."
+msgstr "Onderskrif"
+
+#: kokross/KoScriptingPart.cpp:89
+#, fuzzy
+msgid "Script Manager..."
+msgstr "Styl Bestuurder"
+
+#: kokross/KoScriptingPart.cpp:158
+#, fuzzy
+msgid "Execute Script File"
+msgstr "Onderskrif"
+
+#: kopageapp/KoPADocumentModel.cpp:172 kopageapp/KoPAPageThumbnailModel.cpp:67
+#, fuzzy, kde-format
+msgid "Slide %1"
+msgstr "Vertoon %1 Nutsbalk"
+
+#: kopageapp/KoPADocumentModel.cpp:174
+#, fuzzy, kde-format
+msgid "Page  %1"
+msgstr "Datum"
+
+#: kopageapp/KoPADocumentModel.cpp:178
+#: kopageapp/KoPADocumentStructureDocker.cpp:121
+#, fuzzy
+msgid "Layer"
+msgstr "Rooi"
+
+#: kopageapp/KoPADocumentModel.cpp:181
+#, fuzzy
+#| msgid "Group:"
+msgid "Group"
+msgstr "Groep:"
+
+#: kopageapp/KoPADocumentModel.cpp:184
+#, fuzzy
+msgid "Shape"
+msgstr "graf"
+
+#: kopageapp/KoPADocumentModel.cpp:270
+#, fuzzy
+#| msgid "Paste Text"
+msgid "Rename Slide"
+msgstr "Plak Teks"
+
+#: kopageapp/KoPADocumentModel.cpp:273
+#, fuzzy
+msgid "Rename Page"
+msgstr "Uitvee Teks"
+
+#: kopageapp/KoPADocumentModel.cpp:277
+#, fuzzy
+msgid "Rename Layer"
+msgstr "Skep Werkvoorbeeld"
+
+#: kopageapp/KoPADocumentModel.cpp:313
+#: kopageapp/KoPADocumentStructureDocker.cpp:116
+#, fuzzy
+#| msgid "Size:"
+msgid "Slide"
+msgstr "Grootte:"
+
+#: kopageapp/KoPADocumentModel.cpp:316
+#, fuzzy
+#| msgid "Variable"
+msgid "Visible"
+msgstr "Veranderlike"
+
+#: kopageapp/KoPADocumentModel.cpp:317
+#, fuzzy
+msgid "Locked"
+msgstr "Lokalisering"
+
+#: kopageapp/KoPADocumentModel.cpp:525 kopageapp/KoPADocumentModel.cpp:546
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reparent shapes"
+msgstr "Uitvee Teks"
+
+#: kopageapp/KoPADocumentModel.cpp:667
+#, fuzzy
+msgid "&Move Here"
+msgstr "Uitvee Teks"
+
+#: kopageapp/KoPADocumentModel.cpp:671
+#, fuzzy
+msgid "&Copy Here"
+msgstr "Skerm"
+
+#: kopageapp/KoPADocumentModel.cpp:675
+#, fuzzy
+msgid "C&ancel"
+msgstr "Verander Kas"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:96 main/KoMainWindow.cpp:1735
+#, fuzzy
+msgid "Document"
+msgstr "Open Dokument"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:105
+#, fuzzy
+msgid "Add a new slide or layer"
+msgstr "Nuwe reel"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:108
+#, fuzzy
+msgid "Add a new page or layer"
+msgstr "Nuwe reel"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:119
+#: widgets/KoPageLayoutDialog.cpp:50
+#, fuzzy
+msgid "Page"
+msgstr "Volgende styl:"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:128
+#: kopageapp/KoPADocumentStructureDocker.cpp:644
+#, fuzzy
+#| msgid "Remove Selected Text"
+msgid "Delete selected objects"
+msgstr "Verwyder Gekose Teks"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:134
+#, fuzzy
+#| msgid "Remove Selected Text"
+msgid "Raise selected objects"
+msgstr "Verwyder Gekose Teks"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:140
+#, fuzzy
+msgid "Lower selected objects"
+msgstr "Open Dokument"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:149
+msgid "Minimal View"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:151
+msgid "Detailed View"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:153
+msgid "Thumbnail View"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:163
+#, fuzzy
+#| msgid "Change Borders"
+msgid "View mode"
+msgstr "Verander Grense"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:332
+msgid "New Layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:332
+msgid "Enter the name of the new layer:"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:333
+msgid "New layer"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:346
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Create Layer"
+msgstr "Skep Werkvoorbeeld"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:372
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete Layer"
+msgstr "Uitvee Teks"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:375
+msgid "Could not delete all layers. At least one layer is required."
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:375
+msgid "Error deleting layers"
+msgstr ""
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:639
+#, fuzzy
+msgid "Add a new slide"
+msgstr "Nuwe reel"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:642
+#, fuzzy
+msgid "Add a new page"
+msgstr "Nuwe reel"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:646
+#: koreport/wrtembed/KoReportDesigner.cpp:832
+#, fuzzy
+#| msgid "Custom"
+msgid "Cut"
+msgstr "Pasmaak"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:647
+#: koreport/wrtembed/KoReportDesigner.cpp:833
+#: pigment/KoCompositeOpRegistry.cpp:86
+#: pigment/compositeops/KoCompositeOpCopy.h:37
+#: pigment/compositeops/KoCompositeOpCopy2.h:45
+#, fuzzy
+msgid "Copy"
+msgstr "Maatskappy"
+
+#: kopageapp/KoPADocumentStructureDocker.cpp:648
+#: koreport/wrtembed/KoReportDesigner.cpp:836
+#, fuzzy
+#| msgid "Date"
+msgid "Paste"
+msgstr "Datum"
+
+#: kopageapp/KoPAPageThumbnailModel.cpp:69
+#, fuzzy, kde-format
+msgid "Page %1"
+msgstr "Datum"
+
+#: kopageapp/KoPAPastePage.cpp:132
+#, fuzzy
+#| msgid "Paste Text"
+msgctxt "(qtundo-format)"
+msgid "Paste Slide"
+msgid_plural "Paste Slides"
+msgstr[0] "Plak Teks"
+msgstr[1] "Plak Teks"
+
+#: kopageapp/KoPAPastePage.cpp:135
+#, fuzzy
+#| msgid "Paste Text"
+msgctxt "(qtundo-format)"
+msgid "Paste Page"
+msgid_plural "Paste Pages"
+msgstr[0] "Plak Teks"
+msgstr[1] "Plak Teks"
 
 #: kopageapp/KoPAView.cpp:311 main/KoToolBoxFactory.cpp:37
 #, fuzzy
@@ -900,233 +1127,6 @@ msgctxt "(qtundo-format)"
 msgid "Change background image"
 msgstr "Tweede"
 
-#: kopageapp/KoPADocumentModel.cpp:172 kopageapp/KoPAPageThumbnailModel.cpp:67
-#, fuzzy, kde-format
-msgid "Slide %1"
-msgstr "Vertoon %1 Nutsbalk"
-
-#: kopageapp/KoPADocumentModel.cpp:174
-#, fuzzy, kde-format
-msgid "Page  %1"
-msgstr "Datum"
-
-#: kopageapp/KoPADocumentModel.cpp:178
-#: kopageapp/KoPADocumentStructureDocker.cpp:121
-#, fuzzy
-msgid "Layer"
-msgstr "Rooi"
-
-#: kopageapp/KoPADocumentModel.cpp:181
-#, fuzzy
-#| msgid "Group:"
-msgid "Group"
-msgstr "Groep:"
-
-#: kopageapp/KoPADocumentModel.cpp:184
-#, fuzzy
-msgid "Shape"
-msgstr "graf"
-
-#: kopageapp/KoPADocumentModel.cpp:270
-#, fuzzy
-#| msgid "Paste Text"
-msgid "Rename Slide"
-msgstr "Plak Teks"
-
-#: kopageapp/KoPADocumentModel.cpp:273
-#, fuzzy
-msgid "Rename Page"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPADocumentModel.cpp:277
-#, fuzzy
-msgid "Rename Layer"
-msgstr "Skep Werkvoorbeeld"
-
-#: kopageapp/KoPADocumentModel.cpp:313
-#: kopageapp/KoPADocumentStructureDocker.cpp:116
-#, fuzzy
-#| msgid "Size:"
-msgid "Slide"
-msgstr "Grootte:"
-
-#: kopageapp/KoPADocumentModel.cpp:316
-#, fuzzy
-#| msgid "Variable"
-msgid "Visible"
-msgstr "Veranderlike"
-
-#: kopageapp/KoPADocumentModel.cpp:317
-#, fuzzy
-msgid "Locked"
-msgstr "Lokalisering"
-
-#: kopageapp/KoPADocumentModel.cpp:525 kopageapp/KoPADocumentModel.cpp:546
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPADocumentModel.cpp:667
-#, fuzzy
-msgid "&Move Here"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPADocumentModel.cpp:671
-#, fuzzy
-msgid "&Copy Here"
-msgstr "Skerm"
-
-#: kopageapp/KoPADocumentModel.cpp:675
-#, fuzzy
-msgid "C&ancel"
-msgstr "Verander Kas"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:96 main/KoMainWindow.cpp:1735
-#, fuzzy
-msgid "Document"
-msgstr "Open Dokument"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:105
-#, fuzzy
-msgid "Add a new slide or layer"
-msgstr "Nuwe reel"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:108
-#, fuzzy
-msgid "Add a new page or layer"
-msgstr "Nuwe reel"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:119
-#: widgets/KoPageLayoutDialog.cpp:50
-#, fuzzy
-msgid "Page"
-msgstr "Volgende styl:"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:128
-#: kopageapp/KoPADocumentStructureDocker.cpp:644
-#, fuzzy
-#| msgid "Remove Selected Text"
-msgid "Delete selected objects"
-msgstr "Verwyder Gekose Teks"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:134
-#, fuzzy
-#| msgid "Remove Selected Text"
-msgid "Raise selected objects"
-msgstr "Verwyder Gekose Teks"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:140
-#, fuzzy
-msgid "Lower selected objects"
-msgstr "Open Dokument"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:149
-msgid "Minimal View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:151
-msgid "Detailed View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:153
-msgid "Thumbnail View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:163
-#, fuzzy
-#| msgid "Change Borders"
-msgid "View mode"
-msgstr "Verander Grense"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:332
-msgid "New Layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:332
-msgid "Enter the name of the new layer:"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:333
-msgid "New layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:346
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Create Layer"
-msgstr "Skep Werkvoorbeeld"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:372
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete Layer"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:375
-msgid "Could not delete all layers. At least one layer is required."
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:375
-msgid "Error deleting layers"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:639
-#, fuzzy
-msgid "Add a new slide"
-msgstr "Nuwe reel"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:642
-#, fuzzy
-msgid "Add a new page"
-msgstr "Nuwe reel"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:646
-#: koreport/wrtembed/KoReportDesigner.cpp:832
-#, fuzzy
-#| msgid "Custom"
-msgid "Cut"
-msgstr "Pasmaak"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:647
-#: koreport/wrtembed/KoReportDesigner.cpp:833
-#: pigment/KoCompositeOpRegistry.cpp:86
-#: pigment/compositeops/KoCompositeOpCopy.h:37
-#: pigment/compositeops/KoCompositeOpCopy2.h:45
-#, fuzzy
-msgid "Copy"
-msgstr "Maatskappy"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:648
-#: koreport/wrtembed/KoReportDesigner.cpp:836
-#, fuzzy
-#| msgid "Date"
-msgid "Paste"
-msgstr "Datum"
-
-#: kopageapp/KoPAPageThumbnailModel.cpp:69
-#, fuzzy, kde-format
-msgid "Page %1"
-msgstr "Datum"
-
-#: kopageapp/KoPAPastePage.cpp:132
-#, fuzzy
-#| msgid "Paste Text"
-msgctxt "(qtundo-format)"
-msgid "Paste Slide"
-msgid_plural "Paste Slides"
-msgstr[0] "Plak Teks"
-msgstr[1] "Plak Teks"
-
-#: kopageapp/KoPAPastePage.cpp:135
-#, fuzzy
-#| msgid "Paste Text"
-msgctxt "(qtundo-format)"
-msgid "Paste Page"
-msgid_plural "Paste Pages"
-msgstr[0] "Plak Teks"
-msgstr[1] "Plak Teks"
-
 #. i18n: file: main/rdf/KoRdfLocationEditWidgetMarble.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: main/rdf/KoRdfLocationViewWidgetMarble.ui:24
@@ -1302,7 +1302,7 @@ msgstr "Land:"
 #: koreport/items/field/KoReportItemField.cpp:102
 #: koreport/items/label/KoReportItemLabel.cpp:104
 #: koreport/items/text/KoReportItemText.cpp:129
-#: widgets/KoUniColorChooser.cpp:418 widgets/KoColorPopupAction.cpp:86
+#: widgets/KoColorPopupAction.cpp:86 widgets/KoUniColorChooser.cpp:418
 msgid "Opacity"
 msgstr ""
 
@@ -1373,30 +1373,6 @@ msgstr "Rooi"
 #: widgets/KoCsvImportDialog.cpp:217 widgets/KoCsvImportDialog.cpp:581
 msgid "Text"
 msgstr "Teks"
-
-#: koreport/wrtembed/reportpropertiesbutton.cpp:27
-msgid ""
-"A button that allows a report's surface to be selected, allowing its "
-"properties to be seen."
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:279
-msgid "Ascending"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:280
-msgid "Descending"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:302
-#: koreport/wrtembed/sectioneditor.cpp:343
-msgid "Error Encountered"
-msgstr ""
-
-#: koreport/wrtembed/sectioneditor.cpp:303
-#: koreport/wrtembed/sectioneditor.cpp:344
-msgid "Unable to add a new group because its name would not be unique"
-msgstr ""
 
 #: koreport/wrtembed/KoReportDesigner.cpp:495
 msgid "Page Header (Any)"
@@ -1560,10 +1536,100 @@ msgctxt "<data-source>: <object>"
 msgid "%1: %2"
 msgstr ""
 
+#: koreport/wrtembed/reportpropertiesbutton.cpp:27
+msgid ""
+"A button that allows a report's surface to be selected, allowing its "
+"properties to be seen."
+msgstr ""
+
 #: koreport/wrtembed/reportsection.cpp:95
 #, fuzzy
 msgid "Detail"
 msgstr "Verstek"
+
+#: koreport/wrtembed/sectioneditor.cpp:279
+msgid "Ascending"
+msgstr ""
+
+#: koreport/wrtembed/sectioneditor.cpp:280
+msgid "Descending"
+msgstr ""
+
+#: koreport/wrtembed/sectioneditor.cpp:302
+#: koreport/wrtembed/sectioneditor.cpp:343
+msgid "Error Encountered"
+msgstr ""
+
+#: koreport/wrtembed/sectioneditor.cpp:303
+#: koreport/wrtembed/sectioneditor.cpp:344
+msgid "Unable to add a new group because its name would not be unique"
+msgstr ""
+
+#: kotext/InsertTextLocator.cpp:33
+msgid "Index Reference"
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:35
+#: kotext/InsertTextReferenceAction.cpp:63
+msgid "Text Reference"
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:44
+msgid "Please create an index to reference first."
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:53
+msgid "Select the index you want to reference"
+msgstr ""
+
+#: kotext/KoFindStrategy.cpp:63
+#, kde-format
+msgid "Found 1 match"
+msgid_plural "Found %1 matches"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kotext/KoFindStrategy.cpp:63
+msgid "Found no match"
+msgstr ""
+
+#: kotext/KoReplaceStrategy.cpp:56
+msgid ""
+"Found no match\n"
+"\n"
+"No text was replaced"
+msgstr ""
+
+#: kotext/KoReplaceStrategy.cpp:59
+#, fuzzy, kde-format
+msgid "1 replacement made"
+msgid_plural "%1 replacements made"
+msgstr[0] "Vervang Teks"
+msgstr[1] "Vervang Teks"
+
+#: kotext/KoReplaceStrategy.cpp:72
+#, fuzzy, kde-format
+#| msgctxt "We add the 1/2 char at the %1"
+#| msgid "Re&place 1/2... with %1..."
+msgid "Replace %1 with %2?"
+msgstr "Vervang 1/2... met %1..."
+
+#: kotext/KoText.cpp:30
+msgctxt "Underline Style"
+msgid "None"
+msgstr ""
+
+#: kotext/KoText.cpp:31
+#, fuzzy
+msgctxt "Underline Style"
+msgid "Single"
+msgstr "Enkel"
+
+#: kotext/KoText.cpp:32
+#, fuzzy
+msgctxt "Underline Style"
+msgid "Double"
+msgstr "Dubbel"
 
 #: kotext/KoTextEditor.cpp:165 kotext/KoTextEditor.cpp:1561
 #: kotext/KoTextEditor.cpp:1563
@@ -1707,78 +1773,135 @@ msgstr ""
 msgid "Typing"
 msgstr ""
 
-#: kotext/InsertTextLocator.cpp:33
-msgid "Index Reference"
-msgstr ""
-
-#: kotext/InsertTextReferenceAction.cpp:35
-#: kotext/InsertTextReferenceAction.cpp:63
-msgid "Text Reference"
-msgstr ""
-
-#: kotext/InsertTextReferenceAction.cpp:44
-msgid "Please create an index to reference first."
-msgstr ""
-
-#: kotext/InsertTextReferenceAction.cpp:53
-msgid "Select the index you want to reference"
-msgstr ""
-
-#: kotext/KoFindStrategy.cpp:63
-#, kde-format
-msgid "Found 1 match"
-msgid_plural "Found %1 matches"
-msgstr[0] ""
-msgstr[1] ""
-
-#: kotext/KoFindStrategy.cpp:63
-msgid "Found no match"
-msgstr ""
-
-#: kotext/KoReplaceStrategy.cpp:56
-msgid ""
-"Found no match\n"
-"\n"
-"No text was replaced"
-msgstr ""
-
-#: kotext/KoReplaceStrategy.cpp:59
-#, fuzzy, kde-format
-msgid "1 replacement made"
-msgid_plural "%1 replacements made"
-msgstr[0] "Vervang Teks"
-msgstr[1] "Vervang Teks"
-
-#: kotext/KoReplaceStrategy.cpp:72
-#, fuzzy, kde-format
-#| msgctxt "We add the 1/2 char at the %1"
-#| msgid "Re&place 1/2... with %1..."
-msgid "Replace %1 with %2?"
-msgstr "Vervang 1/2... met %1..."
-
-#: kotext/KoText.cpp:30
-msgctxt "Underline Style"
-msgid "None"
-msgstr ""
-
-#: kotext/KoText.cpp:31
+#: kotext/KoTextEditor_format.cpp:77 kotext/KoTextEditor_format.cpp:83
 #, fuzzy
-msgctxt "Underline Style"
-msgid "Single"
-msgstr "Enkel"
+msgctxt "(qtundo-format)"
+msgid "Bold"
+msgstr "Vetdruk:"
 
-#: kotext/KoText.cpp:32
+#: kotext/KoTextEditor_format.cpp:94 kotext/KoTextEditor_format.cpp:100
 #, fuzzy
-msgctxt "Underline Style"
-msgid "Double"
-msgstr "Dubbel"
+#| msgid "Italic:"
+msgctxt "(qtundo-format)"
+msgid "Italic"
+msgstr "Kursief:"
+
+#: kotext/KoTextEditor_format.cpp:111 kotext/KoTextEditor_format.cpp:123
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Underline"
+msgstr "Onderstreep:"
+
+#: kotext/KoTextEditor_format.cpp:134 kotext/KoTextEditor_format.cpp:145
+#, fuzzy
+#| msgid "Strikeout:"
+msgctxt "(qtundo-format)"
+msgid "Strike Out"
+msgstr "Opgehewe:"
+
+#: kotext/KoTextEditor_format.cpp:170 kotext/KoTextEditor_format.cpp:171
+#, fuzzy
+#| msgid "Change Alignment"
+msgctxt "(qtundo-format)"
+msgid "Change Alignment"
+msgstr "Verander Oplyn"
+
+#: kotext/KoTextEditor_format.cpp:188 kotext/KoTextEditor_format.cpp:193
+#, fuzzy
+#| msgid "Vertical alignment:"
+msgid "Set Vertical Alignment"
+msgstr "Vertikaal oplyn:"
+
+#: kotext/KoTextEditor_format.cpp:225 kotext/KoTextEditor_format.cpp:226
+#, fuzzy
+#| msgid "Change Indent"
+msgid "Decrease Indent"
+msgstr "Verander Inkeep"
+
+#: kotext/KoTextEditor_format.cpp:261 kotext/KoTextEditor_format.cpp:262
+#, fuzzy
+#| msgid "Change Indent"
+msgid "Increase Indent"
+msgstr "Verander Inkeep"
+
+#: kotext/KoTextEditor_format.cpp:297 kotext/KoTextEditor_format.cpp:299
+#, fuzzy
+msgid "Decrease font size"
+msgstr "Basis skrif tipe grootte:"
+
+#: kotext/KoTextEditor_format.cpp:310 kotext/KoTextEditor_format.cpp:312
+#, fuzzy
+msgid "Increase font size"
+msgstr "Basis skrif tipe grootte:"
+
+#: kotext/KoTextEditor_format.cpp:323 kotext/KoTextEditor_format.cpp:328
+#, fuzzy
+#| msgid "Select Font"
+msgid "Set Font"
+msgstr "Kies Skrif tipe"
+
+#: kotext/KoTextEditor_format.cpp:339 kotext/KoTextEditor_format.cpp:344
+#, fuzzy
+#| msgid "Select Font"
+msgid "Set Font Size"
+msgstr "Kies Skrif tipe"
+
+#: kotext/KoTextEditor_format.cpp:355 kotext/KoTextEditor_format.cpp:360
+#, fuzzy
+msgid "Set Background Color"
+msgstr "Tweede"
+
+#: kotext/KoTextEditor_format.cpp:371 kotext/KoTextEditor_format.cpp:376
+#, fuzzy
+msgid "Set Text Color"
+msgstr "Verstek Kleur"
+
+#: kotext/KoTextEditor_format.cpp:402 kotext/KoTextEditor_format.cpp:441
+#, fuzzy
+msgid "Set Character Style"
+msgstr "Skep Nuwe Styl"
+
+#: kotext/KoTextEditor_format.cpp:481
+#, fuzzy
+msgid "Set Paragraph Style"
+msgstr "Normale paragraaf teks"
 
 #. i18n: file: widgets/KoCsvImportDialog.ui:147
 #. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
-#: kotext/KoTextEditor_p.h:128 kotext/KoTextEditor_p.h:165 rc.cpp:469
+#: kotext/KoTextEditor_p.h:128 kotext/KoTextEditor_p.h:164 rc.cpp:469
 #, fuzzy
 msgid "Format"
 msgstr "Datum Formaat"
+
+#: kotext/KoTextEditor_undo.cpp:88
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:373
+#: kotext/commands/DeleteCommand.cpp:251
+#, fuzzy
+#| msgid "Text"
+msgctxt "(qtundo-format)"
+msgid "Text"
+msgstr "Teks"
+
+#: kotext/commands/ChangeListCommand.cpp:40
+#: kotext/commands/ChangeListCommand.cpp:82
+#: kotext/commands/ChangeListCommand.cpp:95
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change List"
+msgstr "Verander Karakter na Simbool"
+
+#: kotext/commands/ChangeStylesMacroCommand.cpp:37
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Styles"
+msgstr "Verander Karakter na Simbool"
+
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:83
+#: kotext/commands/DeleteCommand.cpp:50
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete"
+msgstr "Uitvee Teks"
 
 #: kotext/commands/DeleteTableColumnCommand.cpp:40
 #, fuzzy
@@ -1827,35 +1950,6 @@ msgctxt "(qtundo-format)"
 msgid "Change List Numbering"
 msgstr "Verander Lyn Spasiëring"
 
-#: kotext/commands/ChangeListCommand.cpp:40
-#: kotext/commands/ChangeListCommand.cpp:82
-#: kotext/commands/ChangeListCommand.cpp:95
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Change List"
-msgstr "Verander Karakter na Simbool"
-
-#: kotext/commands/ChangeStylesMacroCommand.cpp:37
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Change Styles"
-msgstr "Verander Karakter na Simbool"
-
-#: kotext/commands/ChangeTrackedDeleteCommand.cpp:83
-#: kotext/commands/DeleteCommand.cpp:50
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete"
-msgstr "Uitvee Teks"
-
-#: kotext/commands/ChangeTrackedDeleteCommand.cpp:373
-#: kotext/commands/DeleteCommand.cpp:251 kotext/KoTextEditor_undo.cpp:88
-#, fuzzy
-#| msgid "Text"
-msgctxt "(qtundo-format)"
-msgid "Text"
-msgstr "Teks"
-
 #: kotext/commands/TextPasteCommand.cpp:62
 #, fuzzy
 #| msgid "Shadow:"
@@ -1874,99 +1968,6 @@ msgstr "Datum"
 #, fuzzy
 msgid "Default"
 msgstr "Verstek"
-
-#: kotext/KoTextEditor_format.cpp:77 kotext/KoTextEditor_format.cpp:83
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Bold"
-msgstr "Vetdruk:"
-
-#: kotext/KoTextEditor_format.cpp:94 kotext/KoTextEditor_format.cpp:100
-#, fuzzy
-#| msgid "Italic:"
-msgctxt "(qtundo-format)"
-msgid "Italic"
-msgstr "Kursief:"
-
-#: kotext/KoTextEditor_format.cpp:111 kotext/KoTextEditor_format.cpp:123
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Underline"
-msgstr "Onderstreep:"
-
-#: kotext/KoTextEditor_format.cpp:134 kotext/KoTextEditor_format.cpp:145
-#, fuzzy
-#| msgid "Strikeout:"
-msgctxt "(qtundo-format)"
-msgid "Strike Out"
-msgstr "Opgehewe:"
-
-#: kotext/KoTextEditor_format.cpp:167 kotext/KoTextEditor_format.cpp:168
-#, fuzzy
-#| msgid "Change Alignment"
-msgctxt "(qtundo-format)"
-msgid "Change Alignment"
-msgstr "Verander Oplyn"
-
-#: kotext/KoTextEditor_format.cpp:185 kotext/KoTextEditor_format.cpp:190
-#, fuzzy
-#| msgid "Vertical alignment:"
-msgid "Set Vertical Alignment"
-msgstr "Vertikaal oplyn:"
-
-#: kotext/KoTextEditor_format.cpp:212 kotext/KoTextEditor_format.cpp:213
-#, fuzzy
-#| msgid "Change Indent"
-msgid "Decrease Indent"
-msgstr "Verander Inkeep"
-
-#: kotext/KoTextEditor_format.cpp:235 kotext/KoTextEditor_format.cpp:236
-#, fuzzy
-#| msgid "Change Indent"
-msgid "Increase Indent"
-msgstr "Verander Inkeep"
-
-#: kotext/KoTextEditor_format.cpp:271 kotext/KoTextEditor_format.cpp:273
-#, fuzzy
-msgid "Decrease font size"
-msgstr "Basis skrif tipe grootte:"
-
-#: kotext/KoTextEditor_format.cpp:284 kotext/KoTextEditor_format.cpp:286
-#, fuzzy
-msgid "Increase font size"
-msgstr "Basis skrif tipe grootte:"
-
-#: kotext/KoTextEditor_format.cpp:297 kotext/KoTextEditor_format.cpp:302
-#, fuzzy
-#| msgid "Select Font"
-msgid "Set Font"
-msgstr "Kies Skrif tipe"
-
-#: kotext/KoTextEditor_format.cpp:313 kotext/KoTextEditor_format.cpp:318
-#, fuzzy
-#| msgid "Select Font"
-msgid "Set Font Size"
-msgstr "Kies Skrif tipe"
-
-#: kotext/KoTextEditor_format.cpp:329 kotext/KoTextEditor_format.cpp:334
-#, fuzzy
-msgid "Set Background Color"
-msgstr "Tweede"
-
-#: kotext/KoTextEditor_format.cpp:345 kotext/KoTextEditor_format.cpp:350
-#, fuzzy
-msgid "Set Text Color"
-msgstr "Verstek Kleur"
-
-#: kotext/KoTextEditor_format.cpp:376 kotext/KoTextEditor_format.cpp:415
-#, fuzzy
-msgid "Set Character Style"
-msgstr "Skep Nuwe Styl"
-
-#: kotext/KoTextEditor_format.cpp:455
-#, fuzzy
-msgid "Set Paragraph Style"
-msgstr "Normale paragraaf teks"
 
 #: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:848
 #, kde-format
@@ -2041,17 +2042,17 @@ msgstr ""
 msgid "Calligra"
 msgstr ""
 
-#: main/KoApplication.cpp:272
+#: main/KoApplication.cpp:275
 #, fuzzy, kde-format
 msgid "No template found for: %1"
 msgstr "Nee handteerder gevind vir %1"
 
-#: main/KoApplication.cpp:275
+#: main/KoApplication.cpp:278
 #, fuzzy, kde-format
 msgid "Too many templates found for: %1"
 msgstr "Nee handteerder gevind vir %1"
 
-#: main/KoApplication.cpp:295
+#: main/KoApplication.cpp:298
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr ""
@@ -2805,13 +2806,13 @@ msgstr ""
 msgid "Open This Document"
 msgstr "Open Dokument"
 
-#: main/KoRecentDocumentsPane.cpp:153
+#: main/KoRecentDocumentsPane.cpp:154
 #, kde-format
 msgctxt "File modification date and time. %1 is date time"
 msgid "<tr><td><b>Modified:</b></td><td>%1</td></tr>"
 msgstr ""
 
-#: main/KoRecentDocumentsPane.cpp:156
+#: main/KoRecentDocumentsPane.cpp:157
 #, kde-format
 msgctxt "File access date and time. %1 is date time"
 msgid "<tr><td><b>Accessed:</b></td><td>%1</td></tr>"
@@ -2997,6 +2998,30 @@ msgstr ""
 msgid "Date: %1"
 msgstr "Datum"
 
+#: main/KoView.cpp:504
+#, fuzzy
+msgid "&New View"
+msgstr "Verwyder Besigtig"
+
+#: main/config/KoConfigDocumentPage.cpp:75
+msgid "Auto save (min):"
+msgstr ""
+
+#: main/config/KoConfigDocumentPage.cpp:76
+#, fuzzy
+#| msgid "No value"
+msgid "No auto save"
+msgstr "Nee waarde"
+
+#: main/config/KoConfigDocumentPage.cpp:77
+msgid "min"
+msgstr ""
+
+#: main/config/KoConfigDocumentPage.cpp:80
+#, fuzzy
+msgid "Create backup file"
+msgstr "Skep Werkvoorbeeld"
+
 #: main/config/KoConfigGridPage.cpp:67
 #, fuzzy
 msgid "Show grid:"
@@ -3030,25 +3055,6 @@ msgctxt "Vertical grid spacing"
 msgid "&Vertical:"
 msgstr "Vertikaal"
 
-#: main/config/KoConfigDocumentPage.cpp:75
-msgid "Auto save (min):"
-msgstr ""
-
-#: main/config/KoConfigDocumentPage.cpp:76
-#, fuzzy
-#| msgid "No value"
-msgid "No auto save"
-msgstr "Nee waarde"
-
-#: main/config/KoConfigDocumentPage.cpp:77
-msgid "min"
-msgstr ""
-
-#: main/config/KoConfigDocumentPage.cpp:80
-#, fuzzy
-msgid "Create backup file"
-msgstr "Skep Werkvoorbeeld"
-
 #: main/config/KoConfigMiscPage.cpp:89
 #, fuzzy
 #| msgid "Unit:"
@@ -3075,6 +3081,10 @@ msgstr ""
 
 #: main/rdf/InsertSemanticObjectReferenceAction.cpp:56
 msgid "Select the object you want to reference"
+msgstr ""
+
+#: main/rdf/KoDocumentRdf.cpp:902
+msgid "Reference"
 msgstr ""
 
 #: main/rdf/KoDocumentRdfEditWidget.cpp:274
@@ -3266,15 +3276,6 @@ msgstr "Datum"
 #: main/rdf/KoSopranoTableModel.cpp:140
 msgid "Stored In"
 msgstr ""
-
-#: main/rdf/KoDocumentRdf.cpp:902
-msgid "Reference"
-msgstr ""
-
-#: main/KoView.cpp:504
-#, fuzzy
-msgid "&New View"
-msgstr "Verwyder Besigtig"
 
 #: odf/KoEncryptedStore.cpp:164
 msgid ""
@@ -3599,6 +3600,10 @@ msgstr ""
 #: pigment/KoBasicHistogramProducers.cpp:428
 #: pigment/colorspaces/KoLabColorSpace.cpp:44
 msgid "b*"
+msgstr ""
+
+#: pigment/KoBasicHistogramProducers.h:231
+msgid "Generic L*a*b* Histogram"
 msgstr ""
 
 #: pigment/KoColorModelStandardIds.cpp:25
@@ -4225,10 +4230,6 @@ msgstr "Abstrak"
 msgid "SVG Gradient"
 msgstr ""
 
-#: pigment/KoBasicHistogramProducers.h:231
-msgid "Generic L*a*b* Histogram"
-msgstr ""
-
 #: textlayout/ListItemsHelper.cpp:179
 #, fuzzy
 #| msgid "None"
@@ -4439,6 +4440,32 @@ msgstr ""
 msgid "Cannot find encoding: %1"
 msgstr ""
 
+#: widgets/KoEditColorSetDialog.cpp:159
+msgid "Add Color To Palette"
+msgstr ""
+
+#: widgets/KoEditColorSetDialog.cpp:159
+#, fuzzy
+#| msgid "Color:"
+msgid "Color name:"
+msgstr "Kleur:"
+
+#: widgets/KoEditColorSetDialog.cpp:197
+#, kde-format
+msgid "Cannot write to palette file %1. Maybe it is read-only. "
+msgstr ""
+
+#: widgets/KoEditColorSetDialog.cpp:197
+#, fuzzy
+msgid "Palette"
+msgstr "maltees"
+
+#: widgets/KoEditColorSetDialog.cpp:211
+#, fuzzy
+#| msgid "Remove Column"
+msgid "Add/Remove Colors"
+msgstr "Verwyder Kolom"
+
 #: widgets/KoPageLayoutDialog.cpp:46
 msgid "Page Layout"
 msgstr "Bladsy Uitleg"
@@ -4447,6 +4474,53 @@ msgstr "Bladsy Uitleg"
 #, fuzzy
 msgid "Apply to document"
 msgstr "Open Dokument"
+
+#: widgets/KoPageLayoutWidget.cpp:184
+#, fuzzy
+#| msgid "Left:"
+msgid "Left Edge:"
+msgstr "Links:"
+
+#: widgets/KoPageLayoutWidget.cpp:185
+#, fuzzy
+#| msgid "Right:"
+msgid "Right Edge:"
+msgstr "Regterkant:"
+
+#: widgets/KoPageLayoutWidget.cpp:188
+#, fuzzy
+msgid "Binding Edge:"
+msgstr "Donker Oranje"
+
+#: widgets/KoPageLayoutWidget.cpp:189
+#, fuzzy
+#| msgid "Page Size"
+msgid "Page Edge:"
+msgstr "Bladsy Grootte"
+
+#: widgets/KoPageLayoutWidget.cpp:285
+#, fuzzy
+msgid "Facing Pages:"
+msgstr "Volgende styl:"
+
+#. i18n: file: widgets/KoPageLayoutWidget.ui:143
+#. i18n: ectx: property (text), widget (QRadioButton, facingPages)
+#: widgets/KoPageLayoutWidget.cpp:286 rc.cpp:583
+#, fuzzy
+msgid "Facing pages"
+msgstr "Volgende styl:"
+
+#: widgets/KoPageLayoutWidget.cpp:289
+#, fuzzy
+#| msgid "Page Layout"
+msgid "Page Layout:"
+msgstr "Bladsy Uitleg"
+
+#: widgets/KoPageLayoutWidget.cpp:290
+#, fuzzy
+#| msgid "Page Preview"
+msgid "Page spread"
+msgstr "Bladsy Voorskou"
 
 #: widgets/KoResourceItemChooser.cpp:93
 #, fuzzy
@@ -4472,6 +4546,18 @@ msgstr ""
 #, fuzzy
 msgid "Choose File to Add"
 msgstr "Kies"
+
+#: widgets/KoSelectionToggle.cpp:133
+msgctxt "@info:tooltip"
+msgid "Deselect Item"
+msgstr ""
+
+#: widgets/KoSelectionToggle.cpp:134
+#, fuzzy
+#| msgid "Select Character"
+msgctxt "@info:tooltip"
+msgid "Select Item"
+msgstr "Kies Karakter"
 
 #: widgets/KoStrokeConfigWidget.cpp:92
 #, fuzzy
@@ -4535,18 +4621,6 @@ msgstr "Verander Oplyn"
 #, fuzzy
 msgid "Set miter limit"
 msgstr "Skeisimbool"
-
-#: widgets/KoSelectionToggle.cpp:133
-msgctxt "@info:tooltip"
-msgid "Deselect Item"
-msgstr ""
-
-#: widgets/KoSelectionToggle.cpp:134
-#, fuzzy
-#| msgid "Select Character"
-msgctxt "@info:tooltip"
-msgid "Select Item"
-msgstr "Kies Karakter"
 
 #: widgets/KoUniColorChooser.cpp:134
 msgid "Value (brightness)"
@@ -4623,79 +4697,6 @@ msgstr "Volgende styl:"
 #: widgets/KoZoomMode.cpp:30
 msgid "Actual Pixels"
 msgstr ""
-
-#: widgets/KoPageLayoutWidget.cpp:184
-#, fuzzy
-#| msgid "Left:"
-msgid "Left Edge:"
-msgstr "Links:"
-
-#: widgets/KoPageLayoutWidget.cpp:185
-#, fuzzy
-#| msgid "Right:"
-msgid "Right Edge:"
-msgstr "Regterkant:"
-
-#: widgets/KoPageLayoutWidget.cpp:188
-#, fuzzy
-msgid "Binding Edge:"
-msgstr "Donker Oranje"
-
-#: widgets/KoPageLayoutWidget.cpp:189
-#, fuzzy
-#| msgid "Page Size"
-msgid "Page Edge:"
-msgstr "Bladsy Grootte"
-
-#: widgets/KoPageLayoutWidget.cpp:285
-#, fuzzy
-msgid "Facing Pages:"
-msgstr "Volgende styl:"
-
-#. i18n: file: widgets/KoPageLayoutWidget.ui:143
-#. i18n: ectx: property (text), widget (QRadioButton, facingPages)
-#: widgets/KoPageLayoutWidget.cpp:286 rc.cpp:583
-#, fuzzy
-msgid "Facing pages"
-msgstr "Volgende styl:"
-
-#: widgets/KoPageLayoutWidget.cpp:289
-#, fuzzy
-#| msgid "Page Layout"
-msgid "Page Layout:"
-msgstr "Bladsy Uitleg"
-
-#: widgets/KoPageLayoutWidget.cpp:290
-#, fuzzy
-#| msgid "Page Preview"
-msgid "Page spread"
-msgstr "Bladsy Voorskou"
-
-#: widgets/KoEditColorSetDialog.cpp:159
-msgid "Add Color To Palette"
-msgstr ""
-
-#: widgets/KoEditColorSetDialog.cpp:159
-#, fuzzy
-#| msgid "Color:"
-msgid "Color name:"
-msgstr "Kleur:"
-
-#: widgets/KoEditColorSetDialog.cpp:197
-#, kde-format
-msgid "Cannot write to palette file %1. Maybe it is read-only. "
-msgstr ""
-
-#: widgets/KoEditColorSetDialog.cpp:197
-#, fuzzy
-msgid "Palette"
-msgstr "maltees"
-
-#: widgets/KoEditColorSetDialog.cpp:211
-#, fuzzy
-#| msgid "Remove Column"
-msgid "Add/Remove Colors"
-msgstr "Verwyder Kolom"
 
 #: rc.cpp:1
 #, fuzzy
