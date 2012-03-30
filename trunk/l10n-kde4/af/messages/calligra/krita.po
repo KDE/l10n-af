@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-29 02:52+0200\n"
+"POT-Creation-Date: 2012-03-30 03:08+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1272,7 +1272,7 @@ msgstr "Skep nuwe Laag"
 
 #. i18n: file: plugins/extensions/bracketing2hdr/wdgbracketing2hdr.ui:162
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCancel)
-#: rc.cpp:80 ui/kis_view2.cpp:507
+#: rc.cpp:80 ui/kis_view2.cpp:505
 #, fuzzy
 msgid "Cancel"
 msgstr "Kanale"
@@ -3456,6 +3456,7 @@ msgstr "Vermenigvuldig"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFill)
 #: rc.cpp:977 rc.cpp:3308 rc.cpp:4130
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:61
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:118
 #, fuzzy
 msgid "Pattern"
 msgstr "Patrone"
@@ -4081,7 +4082,7 @@ msgstr ""
 #. i18n: file: plugins/extensions/rotateimage/wdg_rotateimage.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgRotateImage)
 #: rc.cpp:1275 plugins/extensions/rotateimage/dlg_rotateimage.cc:31
-#: plugins/extensions/rotateimage/rotateimage.cc:117
+#: plugins/extensions/rotateimage/rotateimage.cc:115
 #, fuzzy
 msgid "Rotate Image"
 msgstr "Herbenaam Beeld..."
@@ -4308,7 +4309,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
 #: rc.cpp:1371 image/kis_image.cc:690
 #: plugins/extensions/shearimage/dlg_shearimage.cc:32
-#: plugins/extensions/shearimage/shearimage.cc:90
+#: plugins/extensions/shearimage/shearimage.cc:88
 #, fuzzy
 msgid "Shear Image"
 msgstr "Nuwe Beeld"
@@ -4756,7 +4757,7 @@ msgstr "Driehoekvormige Golf"
 
 #. i18n: file: plugins/filters/blur/wdgblur.ui:65
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:1527
+#: rc.cpp:1527 plugins/paintops/libpaintop/kis_texture_option.cpp:84
 #, fuzzy
 msgid "Strength:"
 msgstr "Boonste Huidige %1"
@@ -6804,6 +6805,7 @@ msgstr "Borsels"
 #. i18n: file: plugins/paintops/spray/wdgshapeoptions.ui:221
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:2516 rc.cpp:3112
+#: plugins/paintops/libpaintop/kis_paintop_option.cpp:36
 #, fuzzy
 msgid "Texture"
 msgstr "Patrone"
@@ -10633,7 +10635,7 @@ msgstr "Verwyder Beeld"
 msgid "Crop Node"
 msgstr "Opvuller Program"
 
-#: image/kis_image.cc:617 plugins/extensions/rotateimage/rotateimage.cc:151
+#: image/kis_image.cc:617 plugins/extensions/rotateimage/rotateimage.cc:149
 #, fuzzy
 msgid "Rotate Layer"
 msgstr "Verwyder Laag"
@@ -10906,10 +10908,6 @@ msgstr ""
 msgid "Float32 Histogram"
 msgstr ""
 
-#: plugins/extensions/backgrounds/backgrounds.cpp:51
-msgid "Select Image Background..."
-msgstr ""
-
 #: plugins/extensions/backgrounds/dlg_backgrounds.cpp:35
 #, fuzzy
 msgid "Select a Background"
@@ -10926,6 +10924,10 @@ msgstr "Verwyder Huidige Laag"
 
 #: plugins/extensions/backgrounds/wdg_backgrounds.cpp:76
 msgid "Reset to default"
+msgstr ""
+
+#: plugins/extensions/backgrounds/backgrounds.cpp:49
+msgid "Select Image Background..."
 msgstr ""
 
 #: plugins/extensions/bigbrother/actionseditor/kis_actions_editor.cpp:105
@@ -10951,84 +10953,84 @@ msgstr "Voeg by Laag..."
 msgid "Discard changes"
 msgstr "Voeg by Kanaal"
 
-#: plugins/extensions/bigbrother/bigbrother.cc:87
+#: plugins/extensions/bigbrother/bigbrother.cc:85
 msgid "Open and play..."
 msgstr ""
 
-#: plugins/extensions/bigbrother/bigbrother.cc:91
+#: plugins/extensions/bigbrother/bigbrother.cc:89
 msgid "Open and edit..."
 msgstr ""
 
-#: plugins/extensions/bigbrother/bigbrother.cc:95
+#: plugins/extensions/bigbrother/bigbrother.cc:93
 #, fuzzy
 msgid "Save all actions"
 msgstr "Keuse"
 
-#: plugins/extensions/bigbrother/bigbrother.cc:99
+#: plugins/extensions/bigbrother/bigbrother.cc:97
 msgid "Start recording macro"
 msgstr ""
 
-#: plugins/extensions/bigbrother/bigbrother.cc:103
+#: plugins/extensions/bigbrother/bigbrother.cc:101
 msgid "Stop recording actions"
 msgstr ""
 
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:85
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:83
 msgid "HDR Layer from bracketing"
 msgstr ""
 
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:180
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:374
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:178
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:372
 msgid "HDR colorspace RGBAF32 not found, please check your installation."
 msgstr ""
 
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:180
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:178
 #, fuzzy
 #| msgid "Layer Error"
 msgid "Layer Creation Error"
 msgstr "Laag Fout"
 
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:183
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:181
 #: plugins/formats/exr/exr_converter.cc:313
 #, fuzzy
 msgid "HDR Layer"
 msgstr "Laag"
 
-#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:374
+#: plugins/extensions/bracketing2hdr/bracketing2hdr.cc:372
 msgid "Compute Camera Response Error"
 msgstr ""
 
-#: plugins/extensions/colorrange/colorrange.cc:66
+#: plugins/extensions/colorrange/colorrange.cc:64
 #, fuzzy
 msgid "Select from Color Range..."
 msgstr "Kleur Wisselaar"
 
-#: plugins/extensions/colorrange/colorrange.cc:71
-#: plugins/extensions/colorrange/colorrange.cc:103
+#: plugins/extensions/colorrange/colorrange.cc:69
+#: plugins/extensions/colorrange/colorrange.cc:101
 #, fuzzy
 msgid "Select Opaque"
 msgstr "Kies Geen"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:78
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:75
 #, fuzzy
 msgid "&Convert Image Type..."
 msgstr "Voeg by Beeld as Laag..."
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:81
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:78
 #, fuzzy
 msgid "&Convert Layer Type..."
 msgstr "Voeg by Beeld as Laag..."
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:102
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:99
 #, fuzzy
 msgid "Convert All Layers From "
 msgstr "Sagter Huidige Laag"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:127
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:124
 #, fuzzy
 msgid "Convert Current Layer From"
 msgstr "Sagter Huidige Laag"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:135
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:132
 #, fuzzy
 msgid "Convert Layer Type"
 msgstr "Voeg by Beeld as Laag..."
@@ -11039,12 +11041,12 @@ msgstr "Voeg by Beeld as Laag..."
 msgid "compose Layer"
 msgstr "Verwyder Laag"
 
-#: plugins/extensions/compose/kis_layer_compose_plugin.cpp:51
+#: plugins/extensions/compose/kis_layer_compose_plugin.cpp:49
 #, fuzzy
 msgid "Compose Layer..."
 msgstr "Volgende Laag"
 
-#: plugins/extensions/compose/kis_layer_compose_plugin.cpp:68
+#: plugins/extensions/compose/kis_layer_compose_plugin.cpp:66
 #, fuzzy
 msgid "Compose Layer"
 msgstr "Verwyder Laag"
@@ -11288,7 +11290,7 @@ msgstr "Palette"
 
 #: plugins/extensions/dropshadow/dlg_dropshadow.cc:42
 #: plugins/extensions/dropshadow/kis_dropshadow.cc:130
-#: plugins/extensions/dropshadow/kis_dropshadow_plugin.cc:83
+#: plugins/extensions/dropshadow/kis_dropshadow_plugin.cc:80
 msgid "Drop Shadow"
 msgstr ""
 
@@ -11296,7 +11298,7 @@ msgstr ""
 msgid "Add Drop Shadow"
 msgstr ""
 
-#: plugins/extensions/dropshadow/kis_dropshadow_plugin.cc:60
+#: plugins/extensions/dropshadow/kis_dropshadow_plugin.cc:57
 msgid "Add Drop Shadow..."
 msgstr ""
 
@@ -11326,10 +11328,6 @@ msgstr ""
 msgid "Continue"
 msgstr "Hoeke:"
 
-#: plugins/extensions/extensionsmanager/ExtensionsManagerPlugin.cc:50
-msgid "Extensions manager..."
-msgstr ""
-
 #: plugins/extensions/extensionsmanager/ExtensionsManagerWindow.cpp:43
 msgid ""
 "The installation was successful, you will need to restart Krita to use the "
@@ -11341,44 +11339,48 @@ msgstr ""
 msgid "Success"
 msgstr "Waarde"
 
-#: plugins/extensions/histogram/histogram.cc:67
-#, fuzzy
-msgid "&Histogram..."
-msgstr "Aftrek"
+#: plugins/extensions/extensionsmanager/ExtensionsManagerPlugin.cc:47
+msgid "Extensions manager..."
+msgstr ""
 
 #: plugins/extensions/histogram/dlg_histogram.cc:46
 #: plugins/extensions/histogram/dlg_histogram.cc:53
 msgid "Histogram"
 msgstr ""
 
-#: plugins/extensions/imagesize/imagesize.cc:77
+#: plugins/extensions/histogram/histogram.cc:64
+#, fuzzy
+msgid "&Histogram..."
+msgstr "Aftrek"
+
+#: plugins/extensions/imagesize/imagesize.cc:75
 #, fuzzy
 msgid "Scale To New Size..."
 msgstr "Stoor Laag as Beeld..."
 
-#: plugins/extensions/imagesize/imagesize.cc:81
+#: plugins/extensions/imagesize/imagesize.cc:79
 #, fuzzy
 #| msgid "Canvas"
 msgid "Size Canvas..."
 msgstr "Kanvas"
 
-#: plugins/extensions/imagesize/imagesize.cc:85
+#: plugins/extensions/imagesize/imagesize.cc:83
 #, fuzzy
 msgid "Scale &Layer..."
 msgstr "Voeg by Laag..."
 
-#: plugins/extensions/imagesize/imagesize.cc:91
+#: plugins/extensions/imagesize/imagesize.cc:89
 #, fuzzy
 msgid "&Scale..."
 msgstr "Waarde"
 
-#: plugins/extensions/imagesize/imagesize.cc:160
+#: plugins/extensions/imagesize/imagesize.cc:158
 #, fuzzy
 msgid "Layer Size"
 msgstr "Beeld"
 
-#: plugins/extensions/imagesize/imagesize.cc:199
-#: plugins/extensions/imagesize/imagesize.cc:213
+#: plugins/extensions/imagesize/imagesize.cc:197
+#: plugins/extensions/imagesize/imagesize.cc:211
 #, fuzzy
 msgid "Scale Selection"
 msgstr "Keuse"
@@ -11388,12 +11390,12 @@ msgstr "Keuse"
 msgid "Image Split"
 msgstr "Beeld"
 
-#: plugins/extensions/imagesplit/imagesplit.cpp:60
+#: plugins/extensions/imagesplit/imagesplit.cpp:59
 #, fuzzy
 msgid "Image Split "
 msgstr "Beeld"
 
-#: plugins/extensions/imagesplit/imagesplit.cpp:145
+#: plugins/extensions/imagesplit/imagesplit.cpp:144
 #, fuzzy
 msgid "Save Image on Split"
 msgstr "Nuwe Beeld"
@@ -11453,25 +11455,25 @@ msgstr "Roteer 90"
 msgid "Key"
 msgstr ""
 
-#: plugins/extensions/metadataeditor/metadataeditor.cc:63
-#, fuzzy
-msgid "&Edit metadata..."
-msgstr "Palette"
-
 #: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:141
 #, fuzzy
 msgid "List"
 msgstr "Laag"
 
+#: plugins/extensions/metadataeditor/metadataeditor.cc:61
+#, fuzzy
+msgid "&Edit metadata..."
+msgstr "Palette"
+
 #: plugins/extensions/modify_selection/dlg_border_selection.cc:31
-#: plugins/extensions/modify_selection/modify_selection.cc:176
+#: plugins/extensions/modify_selection/modify_selection.cc:174
 #: ui/kis_selection_manager_p.h:237
 #, fuzzy
 msgid "Border Selection"
 msgstr "Verwyder Keuse"
 
 #: plugins/extensions/modify_selection/dlg_feather_selection.cc:32
-#: plugins/extensions/modify_selection/modify_selection.cc:199
+#: plugins/extensions/modify_selection/modify_selection.cc:197
 #: ui/kis_selection_manager_p.h:458
 #, fuzzy
 #| msgid "Selection"
@@ -11479,35 +11481,35 @@ msgid "Feather Selection"
 msgstr "Keuse"
 
 #: plugins/extensions/modify_selection/dlg_grow_selection.cc:30
-#: plugins/extensions/modify_selection/modify_selection.cc:128
+#: plugins/extensions/modify_selection/modify_selection.cc:126
 #: ui/kis_selection_manager_p.h:507
 #, fuzzy
 msgid "Grow Selection"
 msgstr "Verwyder Keuse"
 
 #: plugins/extensions/modify_selection/dlg_shrink_selection.cc:30
-#: plugins/extensions/modify_selection/modify_selection.cc:151
+#: plugins/extensions/modify_selection/modify_selection.cc:149
 #: ui/kis_selection_manager_p.h:636
 #, fuzzy
 msgid "Shrink Selection"
 msgstr "Keuse"
 
-#: plugins/extensions/modify_selection/modify_selection.cc:72
+#: plugins/extensions/modify_selection/modify_selection.cc:70
 #, fuzzy
 msgid "Grow Selection..."
 msgstr "Verwyder Keuse"
 
-#: plugins/extensions/modify_selection/modify_selection.cc:75
+#: plugins/extensions/modify_selection/modify_selection.cc:73
 #, fuzzy
 msgid "Shrink Selection..."
 msgstr "Verwyder Keuse"
 
-#: plugins/extensions/modify_selection/modify_selection.cc:78
+#: plugins/extensions/modify_selection/modify_selection.cc:76
 #, fuzzy
 msgid "Border Selection..."
 msgstr "Verwyder Keuse"
 
-#: plugins/extensions/modify_selection/modify_selection.cc:81
+#: plugins/extensions/modify_selection/modify_selection.cc:79
 #, fuzzy
 #| msgid "Selection"
 msgid "Feather Selection..."
@@ -11546,47 +11548,47 @@ msgstr ""
 msgid "Painterly Color Mixer"
 msgstr "Verf Nutsprogramme"
 
-#: plugins/extensions/rotateimage/rotateimage.cc:67
+#: plugins/extensions/rotateimage/rotateimage.cc:65
 #, fuzzy
 msgid "&Rotate Image..."
 msgstr "Herbenaam Beeld..."
 
-#: plugins/extensions/rotateimage/rotateimage.cc:71
+#: plugins/extensions/rotateimage/rotateimage.cc:69
 #, fuzzy
 msgctxt "rotate image 90 degrees to the right"
 msgid "Rotate Image 90° to the Right"
 msgstr "Herbenaam Beeld..."
 
-#: plugins/extensions/rotateimage/rotateimage.cc:75
+#: plugins/extensions/rotateimage/rotateimage.cc:73
 #, fuzzy
 msgctxt "rotate image 180 degrees to the right"
 msgid "Rotate Image 180°"
 msgstr "Herbenaam Beeld..."
 
-#: plugins/extensions/rotateimage/rotateimage.cc:79
+#: plugins/extensions/rotateimage/rotateimage.cc:77
 #, fuzzy
 msgctxt "rotate image 90 degrees to the left"
 msgid "Rotate Image 90° to the Left"
 msgstr "Herbenaam Beeld..."
 
-#: plugins/extensions/rotateimage/rotateimage.cc:83
+#: plugins/extensions/rotateimage/rotateimage.cc:81
 #, fuzzy
 msgid "&Rotate Layer..."
 msgstr "Verwyder Laag"
 
-#: plugins/extensions/rotateimage/rotateimage.cc:87
+#: plugins/extensions/rotateimage/rotateimage.cc:85
 #, fuzzy
 msgctxt "rotate the layer 180 degrees"
 msgid "Rotate Layer 180°"
 msgstr "Verwyder Laag"
 
-#: plugins/extensions/rotateimage/rotateimage.cc:91
+#: plugins/extensions/rotateimage/rotateimage.cc:89
 #, fuzzy
 msgctxt "rotate the layer 90 degrees to the right"
 msgid "Rotate Layer 90° to the Right"
 msgstr "Verwyder Laag"
 
-#: plugins/extensions/rotateimage/rotateimage.cc:95
+#: plugins/extensions/rotateimage/rotateimage.cc:93
 #, fuzzy
 msgctxt "rotate the layer 90 degrees to the left"
 msgid "Rotate Layer 90° to the Left"
@@ -11632,15 +11634,15 @@ msgstr ""
 msgid "Index out of bound"
 msgstr ""
 
-#: plugins/extensions/scripting/scriptingpart.cpp:138
+#: plugins/extensions/scripting/scriptingpart.cpp:136
 #, fuzzy, kde-format
 msgid "&Show %1"
 msgstr "Steek weg/Vertoon Laag"
 
 #: plugins/extensions/separate_channels/dlg_separate.cc:40
 #: plugins/extensions/separate_channels/kis_channel_separator.cc:211
-#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:86
-#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:97
+#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:84
+#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:95
 #, fuzzy
 msgid "Separate Image"
 msgstr "Nuwe Beeld"
@@ -11651,22 +11653,22 @@ msgstr "Nuwe Beeld"
 msgid "Export Layer"
 msgstr "Voer uit Beeld..."
 
-#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:61
+#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:59
 #, fuzzy
 msgid "Separate Image..."
 msgstr "Herbenaam Beeld..."
 
-#: plugins/extensions/shearimage/shearimage.cc:64
+#: plugins/extensions/shearimage/shearimage.cc:62
 #, fuzzy
 msgid "&Shear Image..."
 msgstr "Herbenaam Beeld..."
 
-#: plugins/extensions/shearimage/shearimage.cc:68
+#: plugins/extensions/shearimage/shearimage.cc:66
 #, fuzzy
 msgid "&Shear Layer..."
 msgstr "Voeg by Laag..."
 
-#: plugins/extensions/shearimage/shearimage.cc:109
+#: plugins/extensions/shearimage/shearimage.cc:107
 #, fuzzy
 msgid "Shear Layer"
 msgstr "Voeg by Laag..."
@@ -11698,7 +11700,7 @@ msgstr ""
 msgid "Trilateral"
 msgstr "Wit"
 
-#: plugins/extensions/tonemapping/tonemapping.cc:53
+#: plugins/extensions/tonemapping/tonemapping.cc:51
 msgid "Tonemapping..."
 msgstr ""
 
@@ -12296,15 +12298,15 @@ msgstr "Volgende Laag"
 msgid "Painting Mode"
 msgstr "Hoeke:"
 
-#: plugins/paintops/deform/kis_deform_option.cpp:34
-#, fuzzy
-msgid "Deform Options"
-msgstr "Gradiënte Opsies"
-
 #: plugins/paintops/deform/kis_deform_paintop_factory.h:45
 #, fuzzy
 msgid "Deform brush"
 msgstr "Roteer 90"
+
+#: plugins/paintops/deform/kis_deform_option.cpp:34
+#, fuzzy
+msgid "Deform Options"
+msgstr "Gradiënte Opsies"
 
 #: plugins/paintops/dynadraw/dyna_paintop_plugin.cpp:41
 #, fuzzy
@@ -12517,7 +12519,7 @@ msgstr "Verdonker Slegs"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:31
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:203
-#: ui/kis_paintop_box.cc:202
+#: ui/kis_paintop_box.cc:207
 #, fuzzy
 msgid "Mirror"
 msgstr "Stoor Laag as Beeld..."
@@ -12675,6 +12677,56 @@ msgstr "Laag"
 #, fuzzy
 msgid "Near"
 msgstr "Nuwe Beeld"
+
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:70
+#, fuzzy
+msgid "Scale:"
+msgstr "Waarde"
+
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:74
+#, fuzzy
+msgid "Horizontal Offset:"
+msgstr "Driehoekvormige Golf"
+
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:78
+#, fuzzy
+msgid "Vertical Offset:"
+msgstr "Driehoekvormige Golf"
+
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:89
+msgid "Disregard Cutoff"
+msgstr ""
+
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:89
+#, fuzzy
+msgid "Mask Out"
+msgstr "Laag Eienskappe..."
+
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:89
+#, fuzzy
+msgid "Disregard Pattern"
+msgstr "Gebruik huidige patroon"
+
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:91
+#, fuzzy
+msgid "Cutoff Policy"
+msgstr "Borsels"
+
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:97
+msgid ""
+"When pattern texture values are outside the range specified by the slider, "
+"the cut-off policy will be applied."
+msgstr ""
+
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:99
+#, fuzzy
+msgid "Cutoff"
+msgstr "Borsels"
+
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:103
+#, fuzzy
+msgid "Invert Texture:"
+msgstr "Patrone"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:81
 msgid ""
@@ -13199,7 +13251,7 @@ msgstr "Kwas"
 msgid "WateryMix options"
 msgstr "Kwas"
 
-#: plugins/paintops/waterymixbrush/waterymix_paintop_plugin.cpp:46
+#: plugins/paintops/waterymixbrush/waterymix_paintop_plugin.cpp:44
 #, fuzzy
 msgid "Watery Mixbrush"
 msgstr "Kwas"
@@ -13908,7 +13960,6 @@ msgid ""
 msgstr ""
 
 #: ui/dialogs/kis_dlg_preferences.cc:712 ui/kis_aboutdata.h:31
-#: ui/kis_clipboard.cc:155
 msgid "Krita"
 msgstr "Krita"
 
@@ -14150,12 +14201,6 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "New configuration %1"
 msgstr "Hoeke:"
-
-#: ui/kis_clipboard.cc:153
-msgid ""
-"You are putting more than 10 megapixels on the clipboard. Do you want to "
-"make this data available to other applications as well?"
-msgstr ""
 
 #: ui/kis_clipboard.cc:268
 msgid "Pasting data from simple source"
@@ -14513,37 +14558,37 @@ msgstr "Steek weg/Vertoon Laag"
 msgid "Mode: "
 msgstr "Modus:"
 
-#: ui/kis_paintop_box.cc:161
+#: ui/kis_paintop_box.cc:164
 #, fuzzy
 msgid "Save to Palette"
 msgstr "Palette"
 
-#: ui/kis_paintop_box.cc:164
+#: ui/kis_paintop_box.cc:169
 #, fuzzy
 msgid "Choose workspace"
 msgstr "Kleur Kieser"
 
-#: ui/kis_paintop_box.cc:185
+#: ui/kis_paintop_box.cc:190
 #, fuzzy
 msgid "Brush composite"
 msgstr "Borsels"
 
-#: ui/kis_paintop_box.cc:189
+#: ui/kis_paintop_box.cc:194
 #, fuzzy
 msgid "Brush option slider 1"
 msgstr "Blou"
 
-#: ui/kis_paintop_box.cc:193
+#: ui/kis_paintop_box.cc:198
 #, fuzzy
 msgid "Brush option slider 2"
 msgstr "Blou"
 
-#: ui/kis_paintop_box.cc:206
+#: ui/kis_paintop_box.cc:211
 #, fuzzy
 msgid "Add to palette"
 msgstr "Palette"
 
-#: ui/kis_paintop_box.cc:210
+#: ui/kis_paintop_box.cc:215
 #, fuzzy
 msgid "Workspaces"
 msgstr "Kleur Kieser"
@@ -14705,109 +14750,109 @@ msgstr "Verwyder Keuse"
 msgid "No profile"
 msgstr ""
 
-#: ui/kis_view2.cpp:272
+#: ui/kis_view2.cpp:270
 msgid "Save Incremental &Version"
 msgstr ""
 
-#: ui/kis_view2.cpp:277
+#: ui/kis_view2.cpp:275
 msgid "Save Incremental Backup"
 msgstr ""
 
-#: ui/kis_view2.cpp:289
+#: ui/kis_view2.cpp:287
 msgid "Total Refresh"
 msgstr ""
 
-#: ui/kis_view2.cpp:294
+#: ui/kis_view2.cpp:292
 #, fuzzy
 msgid "&Create Template From Image..."
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_view2.cpp:298
+#: ui/kis_view2.cpp:296
 msgid "Load Tutorial"
 msgstr ""
 
-#: ui/kis_view2.cpp:302
+#: ui/kis_view2.cpp:300
 #, fuzzy
 msgid "Mirror Image"
 msgstr "Stoor Laag as Beeld..."
 
-#: ui/kis_view2.cpp:308
+#: ui/kis_view2.cpp:306
 msgid "Rotate Canvas Right"
 msgstr ""
 
-#: ui/kis_view2.cpp:313
+#: ui/kis_view2.cpp:311
 #, fuzzy
 msgid "Rotate Canvas Left"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_view2.cpp:318
+#: ui/kis_view2.cpp:316
 #, fuzzy
 msgid "Reset Canvas Transformations"
 msgstr "Uitveer Program"
 
-#: ui/kis_view2.cpp:323
+#: ui/kis_view2.cpp:321
 #, fuzzy
 msgid "Show Status Bar"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_view2.cpp:324
+#: ui/kis_view2.cpp:322
 msgid "Hide Status Bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:326
+#: ui/kis_view2.cpp:324
 msgid "Shows or hides the status bar"
 msgstr ""
 
-#: ui/kis_view2.cpp:330
+#: ui/kis_view2.cpp:328
 #, fuzzy
 msgid "Show Canvas Only"
 msgstr "Kleur"
 
-#: ui/kis_view2.cpp:331
+#: ui/kis_view2.cpp:329
 msgid "Return to Window"
 msgstr ""
 
-#: ui/kis_view2.cpp:332
+#: ui/kis_view2.cpp:330
 msgid "Shows just the canvas or the whole window"
 msgstr ""
 
-#: ui/kis_view2.cpp:461
+#: ui/kis_view2.cpp:459
 #, fuzzy
 msgid "Pasted Layer"
 msgstr "Laag"
 
-#: ui/kis_view2.cpp:499
+#: ui/kis_view2.cpp:497
 #, fuzzy
 msgid "Insert as New Layer"
 msgstr "Voeg by Beeld as Laag..."
 
-#: ui/kis_view2.cpp:500
+#: ui/kis_view2.cpp:498
 #, fuzzy
 msgid "Insert as New Layers"
 msgstr "Voeg by Beeld as Laag..."
 
-#: ui/kis_view2.cpp:502
+#: ui/kis_view2.cpp:500
 msgid "Open in New Document"
 msgstr ""
 
-#: ui/kis_view2.cpp:503
+#: ui/kis_view2.cpp:501
 msgid "Open in New Documents"
 msgstr ""
 
-#: ui/kis_view2.cpp:505
+#: ui/kis_view2.cpp:503
 msgid "Replace Current Document"
 msgstr ""
 
-#: ui/kis_view2.cpp:723
+#: ui/kis_view2.cpp:721
 #, fuzzy
 msgid "Edit Palette..."
 msgstr "Palette"
 
-#: ui/kis_view2.cpp:728
+#: ui/kis_view2.cpp:726
 msgid "&Themes"
 msgstr ""
 
-#: ui/kis_view2.cpp:859 ui/kis_view2.cpp:862
+#: ui/kis_view2.cpp:857 ui/kis_view2.cpp:860
 #, fuzzy
 msgid "Edit Palette"
 msgstr "Palette"
@@ -14928,7 +14973,7 @@ msgstr "Verwyder Keuse"
 msgid "Choose meta data merge strategy"
 msgstr ""
 
-#: ui/widgets/kis_multipliers_double_slider_spinbox.cpp:60
+#: ui/widgets/kis_multipliers_double_slider_spinbox.cpp:62
 #, kde-format
 msgid "x%1"
 msgstr ""
@@ -15414,10 +15459,6 @@ msgstr "Lêer(s) of Url(s) na open"
 #~ msgstr "Driehoekvormige Golf"
 
 #, fuzzy
-#~ msgid "Scale:"
-#~ msgstr "Waarde"
-
-#, fuzzy
 #~ msgid "Start"
 #~ msgstr "Pen Program"
 
@@ -15503,10 +15544,6 @@ msgstr "Lêer(s) of Url(s) na open"
 #, fuzzy
 #~ msgid "Shift"
 #~ msgstr "Wit"
-
-#, fuzzy
-#~ msgid "Cutoff"
-#~ msgstr "Borsels"
 
 #, fuzzy
 #~ msgid "Seed"
@@ -16715,10 +16752,6 @@ msgstr "Lêer(s) of Url(s) na open"
 #, fuzzy
 #~ msgid "Visible channels:"
 #~ msgstr "Verwyder Kanaal"
-
-#, fuzzy
-#~ msgid "Vertical sensor:"
-#~ msgstr "Driehoekvormige Golf"
 
 #, fuzzy
 #~ msgid "Rename Image"
