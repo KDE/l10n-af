@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-06 02:46+0200\n"
+"POT-Creation-Date: 2012-04-11 02:34+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1272,7 +1272,7 @@ msgstr "Skep nuwe Laag"
 
 #. i18n: file: plugins/extensions/bracketing2hdr/wdgbracketing2hdr.ui:162
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonCancel)
-#: rc.cpp:80 ui/kis_view2.cpp:519
+#: rc.cpp:80 ui/kis_view2.cpp:521
 #, fuzzy
 msgid "Cancel"
 msgstr "Kanale"
@@ -11225,9 +11225,14 @@ msgstr "Keuse"
 msgid "Image Docker"
 msgstr "Palette"
 
-#: plugins/extensions/dockers/smallcolorselector/smallcolorselector_dock.cc:38
+#: plugins/extensions/dockers/smallcolorselector/smallcolorselector_dock.cc:45
 #, fuzzy
 msgid "Small Color Selector"
+msgstr "Keuse"
+
+#: plugins/extensions/dockers/specificcolorselector/specificcolorselector_dock.cc:31
+#, fuzzy
+msgid "Specific Color Selector"
 msgstr "Keuse"
 
 #: plugins/extensions/dockers/specificcolorselector/kis_color_input.cc:47
@@ -11240,9 +11245,9 @@ msgstr ""
 msgid "Color name:"
 msgstr "Kleur Kieser"
 
-#: plugins/extensions/dockers/specificcolorselector/specificcolorselector_dock.cc:31
+#: plugins/extensions/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:53
 #, fuzzy
-msgid "Specific Color Selector"
+msgid "Show Colorspace Selector"
 msgstr "Keuse"
 
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:81
@@ -12519,7 +12524,7 @@ msgstr "Verdonker Slegs"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:31
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:203
-#: ui/kis_paintop_box.cc:207
+#: ui/kis_paintop_box.cc:208
 #, fuzzy
 msgid "Mirror"
 msgstr "Stoor Laag as Beeld..."
@@ -13321,11 +13326,6 @@ msgstr ""
 msgid "Paint with multibrushes"
 msgstr "Verf met patroon"
 
-#: plugins/tools/defaulttools/kis_tool_path.h:75
-#, fuzzy
-msgid "Draw a path."
-msgstr "Gradiënte"
-
 #: plugins/tools/defaulttools/kis_tool_rectangle.h:61
 #, fuzzy
 msgid "Draw a rectangle"
@@ -13518,6 +13518,10 @@ msgstr "Laag"
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_path.h:75
+msgid "Draw a path. Shift-mouseclick ends the path."
 msgstr ""
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.h:62
@@ -14243,7 +14247,7 @@ msgid "&Patterns"
 msgstr "Patroon"
 
 #: ui/kis_control_frame.cpp:87 ui/kis_control_frame.cpp:88
-#: ui/kis_control_frame.cpp:193
+#: ui/kis_control_frame.cpp:191
 msgid "Gradients"
 msgstr "Gradiënte"
 
@@ -14257,16 +14261,16 @@ msgstr "Gradiënte"
 msgid "&Color"
 msgstr "Kleur"
 
-#: ui/kis_control_frame.cpp:118
+#: ui/kis_control_frame.cpp:116
 #, fuzzy
 msgid "&Painter's Tools"
 msgstr "Verf Nutsprogramme"
 
-#: ui/kis_control_frame.cpp:153
+#: ui/kis_control_frame.cpp:151
 msgid "Patterns"
 msgstr "Patrone"
 
-#: ui/kis_control_frame.cpp:156 ui/kis_control_frame.cpp:158
+#: ui/kis_control_frame.cpp:154 ui/kis_control_frame.cpp:156
 #, fuzzy
 msgid "Custom Pattern"
 msgstr "Patrone"
@@ -14553,42 +14557,42 @@ msgstr "Keuse"
 msgid "Flow:"
 msgstr "Steek weg/Vertoon Laag"
 
-#: ui/kis_paintop_box.cc:158
+#: ui/kis_paintop_box.cc:159
 #, fuzzy
 msgid "Mode: "
 msgstr "Modus:"
 
-#: ui/kis_paintop_box.cc:164
+#: ui/kis_paintop_box.cc:165
 #, fuzzy
 msgid "Save to Palette"
 msgstr "Palette"
 
-#: ui/kis_paintop_box.cc:169
+#: ui/kis_paintop_box.cc:170
 #, fuzzy
 msgid "Choose workspace"
 msgstr "Kleur Kieser"
 
-#: ui/kis_paintop_box.cc:190
+#: ui/kis_paintop_box.cc:191
 #, fuzzy
 msgid "Brush composite"
 msgstr "Borsels"
 
-#: ui/kis_paintop_box.cc:194
+#: ui/kis_paintop_box.cc:195
 #, fuzzy
 msgid "Brush option slider 1"
 msgstr "Blou"
 
-#: ui/kis_paintop_box.cc:198
+#: ui/kis_paintop_box.cc:199
 #, fuzzy
 msgid "Brush option slider 2"
 msgstr "Blou"
 
-#: ui/kis_paintop_box.cc:211
+#: ui/kis_paintop_box.cc:212
 #, fuzzy
 msgid "Add to palette"
 msgstr "Palette"
 
-#: ui/kis_paintop_box.cc:215
+#: ui/kis_paintop_box.cc:216
 #, fuzzy
 msgid "Workspaces"
 msgstr "Kleur Kieser"
@@ -14816,38 +14820,38 @@ msgstr ""
 msgid "Shows just the canvas or the whole window"
 msgstr ""
 
-#: ui/kis_view2.cpp:511
+#: ui/kis_view2.cpp:513
 #, fuzzy
 msgid "Insert as New Layer"
 msgstr "Voeg by Beeld as Laag..."
 
-#: ui/kis_view2.cpp:512
+#: ui/kis_view2.cpp:514
 #, fuzzy
 msgid "Insert as New Layers"
 msgstr "Voeg by Beeld as Laag..."
 
-#: ui/kis_view2.cpp:514
+#: ui/kis_view2.cpp:516
 msgid "Open in New Document"
 msgstr ""
 
-#: ui/kis_view2.cpp:515
+#: ui/kis_view2.cpp:517
 msgid "Open in New Documents"
 msgstr ""
 
-#: ui/kis_view2.cpp:517
+#: ui/kis_view2.cpp:519
 msgid "Replace Current Document"
 msgstr ""
 
-#: ui/kis_view2.cpp:735
+#: ui/kis_view2.cpp:737
 #, fuzzy
 msgid "Edit Palette..."
 msgstr "Palette"
 
-#: ui/kis_view2.cpp:740
+#: ui/kis_view2.cpp:742
 msgid "&Themes"
 msgstr ""
 
-#: ui/kis_view2.cpp:871 ui/kis_view2.cpp:874
+#: ui/kis_view2.cpp:873 ui/kis_view2.cpp:876
 #, fuzzy
 msgid "Edit Palette"
 msgstr "Palette"
@@ -15051,6 +15055,10 @@ msgstr ""
 #: main.cc:50
 msgid "File(s) or URL(s) to open"
 msgstr "Lêer(s) of Url(s) na open"
+
+#, fuzzy
+#~ msgid "Draw a path."
+#~ msgstr "Gradiënte"
 
 #, fuzzy
 #~ msgid "Pasted Layer"
