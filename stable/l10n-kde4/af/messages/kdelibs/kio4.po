@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-26 12:44+0200\n"
+"POT-Creation-Date: 2012-05-01 19:11+0200\n"
 "PO-Revision-Date: 2005-11-25 05:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -4291,34 +4291,6 @@ msgstr "Herstel"
 msgid "&No"
 msgstr "Geen"
 
-#: kio/slaveinterface.cpp:415 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:81
-msgid "&Details"
-msgstr "Details"
-
-#: kio/slaveinterface.cpp:417 kio/tcpslavebase.cpp:848 kssl/sslui.cpp:120
-msgid "&Forever"
-msgstr "Veraltyd"
-
-#: kio/slaveinterface.cpp:422 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:82
-msgid "Co&ntinue"
-msgstr "Gaan voort"
-
-#: kio/slaveinterface.cpp:424 kio/tcpslavebase.cpp:849 kssl/sslui.cpp:121
-#, fuzzy
-#| msgid "&Current Sessions Only"
-msgid "&Current Session only"
-msgstr "Huidige Sessies Slegs"
-
-#: kio/slaveinterface.cpp:483
-#, fuzzy
-#| msgid "The peer SSL certificate appears to be corrupt."
-msgid "The peer SSL certificate chain appears to be corrupt."
-msgstr "Die ouer Ssl sertifikaat verskyn na wees korrup."
-
-#: kio/slaveinterface.cpp:485 kio/tcpslavebase.cpp:776
-msgid "SSL"
-msgstr "SSL"
-
 #: kio/tcpslavebase.cpp:328
 msgid ""
 "You are about to leave secure mode. Transmissions will no longer be "
@@ -4380,6 +4352,10 @@ msgstr "Nie moontlik na open die sertifikaat. Probeer 'n nuwe wagwoord?"
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Die prosedure na stel Die kliënt sertifikaat vir Die sessie gevaal."
 
+#: kio/tcpslavebase.cpp:776 kio/slaveinterface.cpp:498
+msgid "SSL"
+msgstr "SSL"
+
 #: kio/tcpslavebase.cpp:820 kssl/sslui.cpp:71
 #, fuzzy, kde-format
 #| msgid "The server certificate failed the authenticity test (%1)."
@@ -4393,12 +4369,30 @@ msgstr "Die bediener sertifikaat gevaal Die geldigheid toets (%1)."
 msgid "Server Authentication"
 msgstr "Bediener Geldigheidsverklaring"
 
+#: kio/tcpslavebase.cpp:831 kio/slaveinterface.cpp:427 kssl/sslui.cpp:81
+msgid "&Details"
+msgstr "Details"
+
+#: kio/tcpslavebase.cpp:831 kio/slaveinterface.cpp:434 kssl/sslui.cpp:82
+msgid "Co&ntinue"
+msgstr "Gaan voort"
+
 #: kio/tcpslavebase.cpp:844 kssl/sslui.cpp:116
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 "Sal jy hou van na aanvaar hierdie sertifikaat veraltyd sonder om te te wees "
 "gepor?"
+
+#: kio/tcpslavebase.cpp:848 kio/slaveinterface.cpp:429 kssl/sslui.cpp:120
+msgid "&Forever"
+msgstr "Veraltyd"
+
+#: kio/tcpslavebase.cpp:849 kio/slaveinterface.cpp:436 kssl/sslui.cpp:121
+#, fuzzy
+#| msgid "&Current Sessions Only"
+msgid "&Current Session only"
+msgstr "Huidige Sessies Slegs"
 
 #: kio/tcpslavebase.cpp:948
 msgid ""
@@ -4568,6 +4562,12 @@ msgstr "Spring"
 #, fuzzy
 msgid "AutoSkip"
 msgstr "Outo Spring"
+
+#: kio/slaveinterface.cpp:496
+#, fuzzy
+#| msgid "The peer SSL certificate appears to be corrupt."
+msgid "The peer SSL certificate chain appears to be corrupt."
+msgstr "Die ouer Ssl sertifikaat verskyn na wees korrup."
 
 #: kssl/kcm/displaycertdialog.cpp:54 kssl/ksslinfodialog.cpp:217
 #, fuzzy, kde-format
