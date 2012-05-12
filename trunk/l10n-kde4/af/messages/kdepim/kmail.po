@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-08 06:02+0200\n"
+"POT-Creation-Date: 2012-05-12 04:32+0200\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -118,58 +118,67 @@ msgstr "Enkodering"
 msgid "Access Control"
 msgstr ""
 
-#: collectionmaintenancepage.cpp:44
+#: collectionmaintenancepage.cpp:47
 #, fuzzy
 #| msgid "Maintainer"
 msgid "Maintenance"
 msgstr "Onderhouer"
 
-#: collectionmaintenancepage.cpp:54
+#: collectionmaintenancepage.cpp:57
 #, fuzzy
 msgid "Files"
 msgstr "Gevaal"
 
-#: collectionmaintenancepage.cpp:65
+#: collectionmaintenancepage.cpp:68
 #, fuzzy
 #| msgid "Folder"
 msgid "Folder type:"
 msgstr "Gids"
 
-#: collectionmaintenancepage.cpp:68
+#: collectionmaintenancepage.cpp:71
 msgctxt "folder size"
 msgid "Not available"
 msgstr ""
 
-#: collectionmaintenancepage.cpp:69
+#: collectionmaintenancepage.cpp:72
 #, fuzzy
 #| msgid "Size"
 msgid "Size:"
 msgstr "Grootte"
 
-#: collectionmaintenancepage.cpp:73
+#: collectionmaintenancepage.cpp:76
 #, fuzzy
 #| msgid "&Message"
 msgid "Messages"
 msgstr "Boodskap"
 
-#: collectionmaintenancepage.cpp:78
+#: collectionmaintenancepage.cpp:81
 #, fuzzy
 msgid "Total messages:"
 msgstr "Vee boodskappe uit"
 
-#: collectionmaintenancepage.cpp:81
+#: collectionmaintenancepage.cpp:84
 #, fuzzy
 #| msgid "&Thread Messages"
 msgid "Unread messages:"
 msgstr "Gesprekslyn boodskappe"
 
-#: collectionmaintenancepage.cpp:85
+#: collectionmaintenancepage.cpp:88
 #, fuzzy
 msgid "Indexing"
 msgstr "Stuurder"
 
-#: collectionmaintenancepage.cpp:87
+#: collectionmaintenancepage.cpp:90
 msgid "Enable Full Text Indexing"
+msgstr ""
+
+#: collectionmaintenancepage.cpp:93
+msgid "Still not indexed."
+msgstr ""
+
+#: collectionmaintenancepage.cpp:113
+#, kde-format
+msgid "Folder was indexed: %1"
 msgstr ""
 
 #: collectionquotapage.cpp:47
@@ -4281,6 +4290,49 @@ msgstr ""
 msgid "Configure Web Shortcuts..."
 msgstr "Stel Filters op..."
 
+#: tagactionmanager.cpp:105
+#, fuzzy, kde-format
+msgid "Message Tag %1"
+msgstr "Boodskap"
+
+#: tagactionmanager.cpp:168
+#, fuzzy
+msgid "More..."
+msgstr "Stel KMail op..."
+
+#: tagactionmanager.cpp:202
+#, fuzzy, kde-format
+msgid "Toggle Message Tag %1"
+msgstr "Redigeer Boodksap"
+
+#: newidentitydialog.cpp:46
+msgid "New Identity"
+msgstr ""
+
+#: newidentitydialog.cpp:61
+msgid "&New identity:"
+msgstr ""
+
+#: newidentitydialog.cpp:71
+msgid "&With empty fields"
+msgstr ""
+
+#: newidentitydialog.cpp:77
+msgid "&Use System Settings values"
+msgstr ""
+
+#: newidentitydialog.cpp:82
+msgid "&Duplicate existing identity"
+msgstr ""
+
+#: newidentitydialog.cpp:93
+msgid "&Existing identities:"
+msgstr ""
+
+#: snippetwidget.cpp:74
+msgid "Text Snippets"
+msgstr ""
+
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -6102,54 +6154,6 @@ msgstr "Maak alle Gemors Gidse skoon"
 msgid "Print only selected text"
 msgstr ""
 
-#: newidentitydialog.cpp:46
-msgid "New Identity"
-msgstr ""
-
-#: newidentitydialog.cpp:61
-msgid "&New identity:"
-msgstr ""
-
-#: newidentitydialog.cpp:71
-msgid "&With empty fields"
-msgstr ""
-
-#: newidentitydialog.cpp:77
-msgid "&Use System Settings values"
-msgstr ""
-
-#: newidentitydialog.cpp:82
-msgid "&Duplicate existing identity"
-msgstr ""
-
-#: newidentitydialog.cpp:93
-msgid "&Existing identities:"
-msgstr ""
-
-#: snippetwidget.cpp:74
-msgid "Text Snippets"
-msgstr ""
-
-#: tagselectdialog.cpp:43
-#, fuzzy
-msgid "Select Tags"
-msgstr "Vee Gids uit"
-
-#: tagactionmanager.cpp:105
-#, fuzzy, kde-format
-msgid "Message Tag %1"
-msgstr "Boodskap"
-
-#: tagactionmanager.cpp:167
-#, fuzzy
-msgid "More..."
-msgstr "Stel KMail op..."
-
-#: tagactionmanager.cpp:201
-#, fuzzy, kde-format
-msgid "Toggle Message Tag %1"
-msgstr "Redigeer Boodksap"
-
 #. i18n: file: tips:2
 #. i18n: ectx: @info:tipoftheday
 #: tips.cpp:3
@@ -6240,6 +6244,16 @@ msgid ""
 "<p align=\"right\"><em>contributed by David F. Newman</em></p>\n"
 msgstr ""
 
+#: tagselectdialog.cpp:46
+#, fuzzy
+msgid "Select Tags"
+msgstr "Vee Gids uit"
+
+#: tagselectdialog.cpp:59
+#, fuzzy
+msgid "Search tag"
+msgstr "Soek:"
+
 #, fuzzy
 #~ msgctxt "Search finished."
 #~ msgid "Done"
@@ -6281,12 +6295,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Account Name"
 #~ msgstr "Jou naam:"
-
-#, fuzzy
-#~ msgctxt ""
-#~ "@info/plain Displayed grayed-out inside the textbox, verb to search"
-#~ msgid "Search"
-#~ msgstr "Soek:"
 
 #, fuzzy
 #~ msgid "Copy"

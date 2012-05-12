@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-10 03:30+0200\n"
+"POT-Creation-Date: 2012-05-12 03:48+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1243,14 +1243,6 @@ msgstr "Filter boekmerke"
 msgid "Start typing to progressively filter the bookmarks"
 msgstr "Begin tik om die boekmerke geleidelik te filter"
 
-#: amarokurls/NavigationUrlRunner.cpp:132
-#, fuzzy
-#| msgctxt "The quality of music"
-#| msgid "Favorite"
-msgctxt "A type of command that affects the view in the browser category"
-msgid "Navigate"
-msgstr "Gunsteling"
-
 #: amarokurls/BookmarkModel.cpp:86
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:415
 msgid "Group"
@@ -1318,6 +1310,36 @@ msgstr "Konteks: %1"
 msgid "Bookmark Context View Applets"
 msgstr "Boekmerk Konteks Aansig Miniprogramme"
 
+#: amarokurls/PlayUrlGenerator.cpp:102
+msgid "Bookmark Track Position"
+msgstr "Boekmerk Snit Posisie"
+
+#: amarokurls/BookmarkTreeView.cpp:112
+msgctxt "Load the view represented by this bookmark"
+msgid "&Load"
+msgstr "&Laai"
+
+#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:403
+msgid "&Delete"
+msgstr "&Skrap"
+
+#: amarokurls/BookmarkTreeView.cpp:125
+msgid "&Create timecode track"
+msgstr "&Skep timecode snit"
+
+#: amarokurls/BookmarkTreeView.cpp:376
+msgid "New Timecode Track"
+msgstr "Nuwe Timecode Snit"
+
+#: amarokurls/BookmarkTreeView.cpp:377 amarokurls/BookmarkTreeView.cpp:378
+#: amarokurls/BookmarkTreeView.cpp:379 context/applets/albums/AlbumItem.cpp:97
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:447
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:448
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:449
+#: core-impl/collections/audiocd/AudioCdCollection.cpp:450 MainWindow.cpp:1179
+msgid "Unknown"
+msgstr "Onbekend"
+
 #: amarokurls/NavigationUrlGenerator.cpp:135 MainWindow.cpp:288
 msgid "Files"
 msgstr "Lêers"
@@ -1352,35 +1374,13 @@ msgstr "Kunstenaar \"%1\""
 msgid "Bookmark Media Sources View"
 msgstr "Boekmerk Media Bronne Aansig"
 
-#: amarokurls/PlayUrlGenerator.cpp:102
-msgid "Bookmark Track Position"
-msgstr "Boekmerk Snit Posisie"
-
-#: amarokurls/BookmarkTreeView.cpp:112
-msgctxt "Load the view represented by this bookmark"
-msgid "&Load"
-msgstr "&Laai"
-
-#: amarokurls/BookmarkTreeView.cpp:118 browsers/filebrowser/FileView.cpp:403
-msgid "&Delete"
-msgstr "&Skrap"
-
-#: amarokurls/BookmarkTreeView.cpp:125
-msgid "&Create timecode track"
-msgstr "&Skep timecode snit"
-
-#: amarokurls/BookmarkTreeView.cpp:376
-msgid "New Timecode Track"
-msgstr "Nuwe Timecode Snit"
-
-#: amarokurls/BookmarkTreeView.cpp:377 amarokurls/BookmarkTreeView.cpp:378
-#: amarokurls/BookmarkTreeView.cpp:379 context/applets/albums/AlbumItem.cpp:97
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:447
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:448
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:449
-#: core-impl/collections/audiocd/AudioCdCollection.cpp:450 MainWindow.cpp:1179
-msgid "Unknown"
-msgstr "Onbekend"
+#: amarokurls/NavigationUrlRunner.cpp:132
+#, fuzzy
+#| msgctxt "The quality of music"
+#| msgid "Favorite"
+msgctxt "A type of command that affects the view in the browser category"
+msgid "Navigate"
+msgstr "Gunsteling"
 
 #: browsers/BrowserDock.cpp:36
 #, fuzzy
@@ -1392,9 +1392,101 @@ msgstr "Media Bronne"
 msgid "Previous Browser"
 msgstr "Vorige Blaaier"
 
+#: browsers/CollectionTreeItemModelBase.cpp:238
+#: browsers/CollectionTreeItemModelBase.cpp:291
+msgctxt "The Name is not known"
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: browsers/CollectionTreeItemModelBase.cpp:316
+#: core-impl/collections/db/sql/SqlMeta.cpp:422
+#: core-impl/collections/ipodcollection/IpodMeta.cpp:96
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:155
+#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:703
+#: core-impl/collections/support/ArtistHelper.cpp:40
+#: core/support/Amarok.cpp:213 covermanager/CoverManager.cpp:841
+#: dialogs/TrackOrganizer.cpp:48 widgets/AlbumBreadcrumbWidget.cpp:60
+msgid "Various Artists"
+msgstr "Verskeie Kunstenaars"
+
+#: browsers/CollectionTreeItemModelBase.cpp:978
+msgid "Year - Album"
+msgstr "Jaar - Album"
+
+#: browsers/CollectionTreeItemModelBase.cpp:978
+#: browsers/CollectionTreeView.cpp:224
+#: context/applets/albums/AlbumsView.cpp:255
+#: context/applets/wikipedia/WikipediaApplet.cpp:618
+#: dialogs/FilenameLayoutDialog.cpp:74 dialogs/FilenameLayoutDialog.cpp:463
+#: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTags.cpp:360
+#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:896
+#: services/jamendo/JamendoInfoParser.cpp:83
+#: services/magnatune/MagnatuneStore.cpp:224
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+msgid "Album"
+msgstr "Album"
+
+#. i18n: file: context/applets/tabs/ReloadEditDialog.ui:73
+#. i18n: ectx: property (text), widget (QLabel, artistLabel)
+#: browsers/CollectionTreeItemModelBase.cpp:979
+#: context/applets/wikipedia/WikipediaApplet.cpp:612
+#: dialogs/FilenameLayoutDialog.cpp:62 dialogs/FilenameLayoutDialog.cpp:435
+#: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTags.cpp:359
+#: playlist/PlaylistModel.cpp:892 services/jamendo/JamendoInfoParser.cpp:51
+#: services/lastfm/LastFmService.cpp:507
+#: services/magnatune/MagnatuneStore.cpp:218
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+#: rc.cpp:1058
+msgid "Artist"
+msgstr "Kunstenaar"
+
+#. i18n: file: dialogs/FilenameLayoutDialog.ui:1049
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: browsers/CollectionTreeItemModelBase.cpp:980
+#: dialogs/FilenameLayoutDialog.cpp:78 dialogs/FilenameLayoutDialog.cpp:456
+#: musicbrainz/MusicBrainzTags.cpp:361 playlist/PlaylistModel.cpp:893
+#: rc.cpp:1899
+msgid "Album Artist"
+msgstr "Album Kunstenaar"
+
+#: browsers/CollectionTreeItemModelBase.cpp:981
+#: core/meta/support/MetaConstants.cpp:176 dialogs/FilenameLayoutDialog.cpp:66
+#: dialogs/FilenameLayoutDialog.cpp:442 playlist/PlaylistModel.cpp:894
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+msgid "Composer"
+msgstr "Komponis"
+
+#: browsers/CollectionTreeItemModelBase.cpp:982
+#: core/meta/support/MetaConstants.cpp:175 dialogs/FilenameLayoutDialog.cpp:86
+#: dialogs/FilenameLayoutDialog.cpp:477 dialogs/transferdialog.cpp:90
+#: playlist/ProgressiveSearchWidget.cpp:95 playlist/PlaylistModel.cpp:900
+#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
+msgid "Genre"
+msgstr "Genre"
+
+#: browsers/CollectionTreeItemModelBase.cpp:983
+#: core/meta/support/MetaConstants.cpp:177 dialogs/FilenameLayoutDialog.cpp:70
+#: dialogs/FilenameLayoutDialog.cpp:449 playlist/PlaylistModel.cpp:895
+#: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:197
+#: widgets/SmartPlaylistEditor.cpp:921
+msgid "Year"
+msgstr "Jaar"
+
+#: browsers/CollectionTreeItemModelBase.cpp:984
+#: core/meta/support/MetaConstants.cpp:201 widgets/SmartPlaylistEditor.cpp:187
+#: widgets/SmartPlaylistEditor.cpp:197
+msgid "Label"
+msgstr "Etiket"
+
 #: browsers/InfoProxy.cpp:164 browsers/filebrowser/FileBrowser.cpp:379
 msgid "Home"
 msgstr "Tuis"
+
+#: browsers/collectionbrowser/CollectionTreeItemDelegate.cpp:167
+#, kde-format
+msgctxt "Example: 3.5 GB free (unit is part of %1)"
+msgid "%1 free"
+msgstr ""
 
 #: browsers/collectionbrowser/CollectionWidget.cpp:146
 #, fuzzy
@@ -1408,110 +1500,104 @@ msgstr ""
 "Dit is waar jy jou plaaslike musiek sal vind, sowel as musiek van draagbare "
 "media spelers en CDs."
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:176 MainWindow.cpp:862
+#: browsers/collectionbrowser/CollectionWidget.cpp:179 MainWindow.cpp:862
 msgid "Search collection"
 msgstr "Deursoek versameling"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:181
+#: browsers/collectionbrowser/CollectionWidget.cpp:184
 #, fuzzy
 #| msgid "last month"
 msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added This Hour"
 msgstr "verlede maand"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:183
+#: browsers/collectionbrowser/CollectionWidget.cpp:186
 #, fuzzy
 #| msgid "Add Podcast"
 msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added Today"
 msgstr "Voeg Potgooi by"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:185
+#: browsers/collectionbrowser/CollectionWidget.cpp:188
 #, fuzzy
 #| msgid "last week"
 msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added This Week"
 msgstr "verlede week"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:187
+#: browsers/collectionbrowser/CollectionWidget.cpp:190
 #, fuzzy
 #| msgid "last month"
 msgctxt "@item:inlistbox Collection widget filter preset"
 msgid "Added This Month"
 msgstr "verlede maand"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:193
+#: browsers/collectionbrowser/CollectionWidget.cpp:196
 #: services/magnatune/MagnatuneStore.cpp:221
 msgid "Artist / Album"
 msgstr "Kunstenaar / Album"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:197
+#: browsers/collectionbrowser/CollectionWidget.cpp:200
 #, fuzzy
 #| msgid "Album Artist"
 msgid "Album / Artist"
 msgstr "Album Kunstenaar"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:201
+#: browsers/collectionbrowser/CollectionWidget.cpp:204
 #: services/jamendo/JamendoService.cpp:153
 #: services/magnatune/MagnatuneStore.cpp:227
 msgid "Genre / Artist"
 msgstr "Genre / Kunstenaar"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:205
+#: browsers/collectionbrowser/CollectionWidget.cpp:208
 #: services/jamendo/JamendoService.cpp:156
 #: services/magnatune/MagnatuneStore.cpp:230
 msgid "Genre / Artist / Album"
 msgstr "Genre / Kunstenaar / Album"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:212
+#: browsers/collectionbrowser/CollectionWidget.cpp:215
 msgid "First Level"
 msgstr "Vlak Een"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:213
+#: browsers/collectionbrowser/CollectionWidget.cpp:216
 msgid "Second Level"
 msgstr "Vlak Twee"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:214
+#: browsers/collectionbrowser/CollectionWidget.cpp:217
 msgid "Third Level"
 msgstr "Vlak Drie"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:223
+#: browsers/collectionbrowser/CollectionWidget.cpp:226
 #: dialogs/transferdialog.cpp:87
 #: playlist/navigators/NavigatorConfigAction.cpp:80
 msgid "None"
 msgstr "Geen"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:266
+#: browsers/collectionbrowser/CollectionWidget.cpp:269
 msgid "Show Years"
 msgstr "Vertoon Jare"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:271
+#: browsers/collectionbrowser/CollectionWidget.cpp:274
 #, fuzzy
 #| msgid "Track Number"
 msgctxt "@action:inmenu"
 msgid "Show Track Numbers"
 msgstr "Snit Nommer"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:276
+#: browsers/collectionbrowser/CollectionWidget.cpp:279
 msgid "Show Cover Art"
 msgstr "Vertoon Omslagkuns"
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:284
+#: browsers/collectionbrowser/CollectionWidget.cpp:287
 #: browsers/playlistbrowser/PlaylistBrowserCategory.cpp:87
 msgid "Merged View"
 msgstr ""
 
-#: browsers/collectionbrowser/CollectionWidget.cpp:291
+#: browsers/collectionbrowser/CollectionWidget.cpp:294
 #: services/jamendo/JamendoService.cpp:159
 #: services/magnatune/MagnatuneStore.cpp:233
 msgid "Sort Options"
 msgstr "Sortering Opsies"
-
-#: browsers/collectionbrowser/CollectionTreeItemDelegate.cpp:167
-#, kde-format
-msgctxt "Example: 3.5 GB free (unit is part of %1)"
-msgid "%1 free"
-msgstr ""
 
 #: browsers/filebrowser/FileBrowser.cpp:66
 #, fuzzy
@@ -1540,17 +1626,17 @@ msgstr ""
 msgid "Places"
 msgstr "Verbeteringe"
 
-#: browsers/filebrowser/FileView.cpp:122 browsers/CollectionTreeView.cpp:276
+#: browsers/filebrowser/FileView.cpp:122 browsers/CollectionTreeView.cpp:275
 msgid "Move to Collection"
 msgstr "Skuif na Versameling"
 
-#: browsers/filebrowser/FileView.cpp:131 browsers/CollectionTreeView.cpp:268
+#: browsers/filebrowser/FileView.cpp:131 browsers/CollectionTreeView.cpp:267
 msgid "Copy to Collection"
 msgstr "Kopieer na Versameling"
 
 #: browsers/filebrowser/FileView.cpp:362
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:49
-#: browsers/CollectionTreeView.cpp:881
+#: browsers/CollectionTreeView.cpp:880
 #: context/applets/albums/AlbumsView.cpp:240
 #: services/lastfm/LastFmTreeView.cpp:111
 msgid "&Add to Playlist"
@@ -1558,14 +1644,14 @@ msgstr "&Voeg by Speellys"
 
 #: browsers/filebrowser/FileView.cpp:374
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:60
-#: browsers/CollectionTreeView.cpp:892
+#: browsers/CollectionTreeView.cpp:891
 #: context/applets/albums/AlbumsView.cpp:241
 #: services/lastfm/LastFmTreeView.cpp:120
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
 msgstr "Vervang Speellys"
 
-#: browsers/filebrowser/FileView.cpp:386 browsers/CollectionTreeView.cpp:970
+#: browsers/filebrowser/FileView.cpp:386 browsers/CollectionTreeView.cpp:969
 msgid "&Edit Track Details"
 msgstr "Wysig Snit Besonderhede"
 
@@ -2070,6 +2156,33 @@ msgstr ""
 "bronne besigtig. Amarok word verskeep met 'n aantal bronne, maar veel meer "
 "kan bygevoeg word met skripte."
 
+#: browsers/CollectionTreeView.cpp:244
+msgid "Collection"
+msgstr "Versameling"
+
+#: browsers/CollectionTreeView.cpp:587 services/lastfm/LastFmTreeView.cpp:201
+msgid "More..."
+msgstr "Nog..."
+
+#: browsers/CollectionTreeView.cpp:938
+msgctxt "Organize Files"
+msgid "Organize Files"
+msgstr "Organiseer Lêers"
+
+#: browsers/CollectionTreeView.cpp:1116
+#, fuzzy
+#| msgid "Moving files to trash"
+msgid "Move Tracks to Trash"
+msgstr "Besig om lêers na die asblik te skuif"
+
+#: browsers/CollectionTreeView.cpp:1124
+msgid "Delete Tracks"
+msgstr "Skrap Snitte"
+
+#: browsers/BrowserCategoryList.cpp:52
+msgid "Filter Music Sources"
+msgstr "Filter Musiek Bronne"
+
 #: browsers/CollectionTreeItem.cpp:140
 #, fuzzy
 #| msgid "Labels"
@@ -2090,119 +2203,6 @@ msgid "1 track"
 msgid_plural "%1 tracks"
 msgstr[0] "1 snit"
 msgstr[1] "%1 snitte"
-
-#: browsers/CollectionTreeView.cpp:225
-#: browsers/CollectionTreeItemModelBase.cpp:981
-#: context/applets/albums/AlbumsView.cpp:255
-#: context/applets/wikipedia/WikipediaApplet.cpp:618
-#: dialogs/FilenameLayoutDialog.cpp:74 dialogs/FilenameLayoutDialog.cpp:463
-#: dialogs/transferdialog.cpp:89 musicbrainz/MusicBrainzTags.cpp:360
-#: playlist/view/PlaylistViewCommon.cpp:64 playlist/PlaylistModel.cpp:896
-#: services/jamendo/JamendoInfoParser.cpp:83
-#: services/magnatune/MagnatuneStore.cpp:224
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-msgid "Album"
-msgstr "Album"
-
-#: browsers/CollectionTreeView.cpp:245
-msgid "Collection"
-msgstr "Versameling"
-
-#: browsers/CollectionTreeView.cpp:588 services/lastfm/LastFmTreeView.cpp:201
-msgid "More..."
-msgstr "Nog..."
-
-#: browsers/CollectionTreeView.cpp:939
-msgctxt "Organize Files"
-msgid "Organize Files"
-msgstr "Organiseer Lêers"
-
-#: browsers/CollectionTreeView.cpp:1117
-#, fuzzy
-#| msgid "Moving files to trash"
-msgid "Move Tracks to Trash"
-msgstr "Besig om lêers na die asblik te skuif"
-
-#: browsers/CollectionTreeView.cpp:1125
-msgid "Delete Tracks"
-msgstr "Skrap Snitte"
-
-#: browsers/BrowserCategoryList.cpp:52
-msgid "Filter Music Sources"
-msgstr "Filter Musiek Bronne"
-
-#: browsers/CollectionTreeItemModelBase.cpp:238
-#: browsers/CollectionTreeItemModelBase.cpp:291
-msgctxt "The Name is not known"
-msgid "Unknown"
-msgstr "Onbekend"
-
-#: browsers/CollectionTreeItemModelBase.cpp:316
-#: core-impl/collections/db/sql/SqlMeta.cpp:422
-#: core-impl/collections/ipodcollection/IpodMeta.cpp:96
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:155
-#: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:703
-#: core-impl/collections/support/ArtistHelper.cpp:40
-#: core/support/Amarok.cpp:213 covermanager/CoverManager.cpp:841
-#: dialogs/TrackOrganizer.cpp:48 widgets/AlbumBreadcrumbWidget.cpp:60
-msgid "Various Artists"
-msgstr "Verskeie Kunstenaars"
-
-#: browsers/CollectionTreeItemModelBase.cpp:981
-msgid "Year - Album"
-msgstr "Jaar - Album"
-
-#. i18n: file: context/applets/tabs/ReloadEditDialog.ui:73
-#. i18n: ectx: property (text), widget (QLabel, artistLabel)
-#: browsers/CollectionTreeItemModelBase.cpp:982
-#: context/applets/wikipedia/WikipediaApplet.cpp:612
-#: dialogs/FilenameLayoutDialog.cpp:62 dialogs/FilenameLayoutDialog.cpp:435
-#: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTags.cpp:359
-#: playlist/PlaylistModel.cpp:892 services/jamendo/JamendoInfoParser.cpp:51
-#: services/lastfm/LastFmService.cpp:507
-#: services/magnatune/MagnatuneStore.cpp:218
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-#: rc.cpp:1058
-msgid "Artist"
-msgstr "Kunstenaar"
-
-#. i18n: file: dialogs/FilenameLayoutDialog.ui:1049
-#. i18n: ectx: property (text), widget (QLabel, label_13)
-#: browsers/CollectionTreeItemModelBase.cpp:983
-#: dialogs/FilenameLayoutDialog.cpp:78 dialogs/FilenameLayoutDialog.cpp:456
-#: musicbrainz/MusicBrainzTags.cpp:361 playlist/PlaylistModel.cpp:893
-#: rc.cpp:1899
-msgid "Album Artist"
-msgstr "Album Kunstenaar"
-
-#: browsers/CollectionTreeItemModelBase.cpp:984
-#: core/meta/support/MetaConstants.cpp:176 dialogs/FilenameLayoutDialog.cpp:66
-#: dialogs/FilenameLayoutDialog.cpp:442 playlist/PlaylistModel.cpp:894
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-msgid "Composer"
-msgstr "Komponis"
-
-#: browsers/CollectionTreeItemModelBase.cpp:985
-#: core/meta/support/MetaConstants.cpp:175 dialogs/FilenameLayoutDialog.cpp:86
-#: dialogs/FilenameLayoutDialog.cpp:477 dialogs/transferdialog.cpp:90
-#: playlist/ProgressiveSearchWidget.cpp:95 playlist/PlaylistModel.cpp:900
-#: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
-msgid "Genre"
-msgstr "Genre"
-
-#: browsers/CollectionTreeItemModelBase.cpp:986
-#: core/meta/support/MetaConstants.cpp:177 dialogs/FilenameLayoutDialog.cpp:70
-#: dialogs/FilenameLayoutDialog.cpp:449 playlist/PlaylistModel.cpp:895
-#: widgets/SmartPlaylistEditor.cpp:184 widgets/SmartPlaylistEditor.cpp:197
-#: widgets/SmartPlaylistEditor.cpp:921
-msgid "Year"
-msgstr "Jaar"
-
-#: browsers/CollectionTreeItemModelBase.cpp:987
-#: core/meta/support/MetaConstants.cpp:201 widgets/SmartPlaylistEditor.cpp:187
-#: widgets/SmartPlaylistEditor.cpp:197
-msgid "Label"
-msgstr "Etiket"
 
 #: browsers/BrowserBreadcrumbItem.cpp:68
 #, fuzzy
@@ -9357,6 +9357,11 @@ msgstr "Gee die bediener naam en wagwoord"
 msgid "Authentication Error"
 msgstr "Bekragtigingsfout"
 
+#: services/ampache/AmpacheServiceCollection.cpp:59
+#, kde-format
+msgid "Ampache Server %1"
+msgstr "Ampache Bediener %1"
+
 #: services/ampache/AmpacheService.cpp:100
 #, fuzzy
 #| msgid "Amarok frontend for your Ampache server."
@@ -9370,11 +9375,6 @@ msgid ""
 msgstr ""
 "Gebruik Amarok as a deursigtige voorkant tot jou Ampache bediener. Dit laat "
 "jou toe om deur alle Amapache inhoud te blaai en speel, van binne Amarok."
-
-#: services/ampache/AmpacheServiceCollection.cpp:59
-#, kde-format
-msgid "Ampache Server %1"
-msgstr "Ampache Bediener %1"
 
 #: services/jamendo/JamendoInfoParser.cpp:46
 #: services/jamendo/JamendoInfoParser.cpp:77
@@ -9401,6 +9401,36 @@ msgstr "Jamendo.com: Aflaai"
 #: services/jamendo/JamendoMeta.cpp:172
 msgid "A site where artists can freely share their music"
 msgstr "'n Werf waar kunstenaars hul musiek vrylik kan deel"
+
+#: services/jamendo/JamendoXmlParser.cpp:153
+#, kde-format
+msgctxt ""
+"First part of: Jamendo.com database update complete. Added 3 tracks on 4 "
+"albums from 5 artists."
+msgid "Jamendo.com database update complete. Added 1 track on "
+msgid_plural "Jamendo.com database update complete. Added %1 tracks on "
+msgstr[0] "Jamendo.com databasis opdatering voltooi. Een snit bygevoeg op "
+msgstr[1] "Jamendo.com databasis opdatering voltooi. %1 Snitte bygevoeg op "
+
+#: services/jamendo/JamendoXmlParser.cpp:154
+#, kde-format
+msgctxt ""
+"Middle part of: Jamendo.com database update complete. Added 3 tracks on 4 "
+"albums from 5 artists."
+msgid "1 album from "
+msgid_plural "%1 albums from "
+msgstr[0] "1 album van "
+msgstr[1] "%1 albums van "
+
+#: services/jamendo/JamendoXmlParser.cpp:155
+#, kde-format
+msgctxt ""
+"Last part of: Jamendo.com database update complete. Added 3 tracks on 4 "
+"albums from 5 artists."
+msgid "1 artist."
+msgid_plural "%1 artists."
+msgstr[0] "1 kunstenaar."
+msgstr[1] "%1 kunstenaars."
 
 #: services/jamendo/JamendoService.cpp:80
 msgid "A archive of free, Creative Commons licensed music"
@@ -9444,36 +9474,6 @@ msgstr "Jamendo.com Databasis Aflaai"
 #: services/jamendo/JamendoService.cpp:211
 msgid "Updating the local Jamendo database."
 msgstr "Opdateer die plaaslike Jamendo databasis."
-
-#: services/jamendo/JamendoXmlParser.cpp:153
-#, kde-format
-msgctxt ""
-"First part of: Jamendo.com database update complete. Added 3 tracks on 4 "
-"albums from 5 artists."
-msgid "Jamendo.com database update complete. Added 1 track on "
-msgid_plural "Jamendo.com database update complete. Added %1 tracks on "
-msgstr[0] "Jamendo.com databasis opdatering voltooi. Een snit bygevoeg op "
-msgstr[1] "Jamendo.com databasis opdatering voltooi. %1 Snitte bygevoeg op "
-
-#: services/jamendo/JamendoXmlParser.cpp:154
-#, kde-format
-msgctxt ""
-"Middle part of: Jamendo.com database update complete. Added 3 tracks on 4 "
-"albums from 5 artists."
-msgid "1 album from "
-msgid_plural "%1 albums from "
-msgstr[0] "1 album van "
-msgstr[1] "%1 albums van "
-
-#: services/jamendo/JamendoXmlParser.cpp:155
-#, kde-format
-msgctxt ""
-"Last part of: Jamendo.com database update complete. Added 3 tracks on 4 "
-"albums from 5 artists."
-msgid "1 artist."
-msgid_plural "%1 artists."
-msgstr[0] "1 kunstenaar."
-msgstr[1] "%1 kunstenaars."
 
 # Hierdie lyk na last.fm-spesifieke terminologie
 #: services/lastfm/LoveTrackAction.cpp:25
@@ -10002,6 +10002,67 @@ msgstr ""
 msgid "Could not process download"
 msgstr "Kon nie aflaai verwerk nie"
 
+#: services/magnatune/MagnatuneInfoParser.cpp:32
+msgid "Loading artist info..."
+msgstr "Laai kunstenaar inligting..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:44
+#, kde-format
+msgid "Fetching %1 Artist Info"
+msgstr "Haal %1 Kunstenaar Inligting"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:53
+msgid "Loading album info..."
+msgstr "Laai album inligting..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:75
+#, fuzzy, kde-format
+#| msgid "Release Year: "
+msgid "Release Year: %1"
+msgstr "Vrystellingsjaar: "
+
+#: services/magnatune/MagnatuneInfoParser.cpp:80
+msgid "Description:"
+msgstr "Beskrywing:"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:84
+msgid "From Magnatune.com"
+msgstr "Van Magnatune.com"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:166
+msgid "Loading Magnatune.com frontpage..."
+msgstr "Laai Magnatune.com voorblad..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:169
+msgid "Fetching Magnatune.com front page"
+msgstr "Haal Magnatune.com voorblad"
+
+#: services/magnatune/MagnatuneInfoParser.cpp:182
+#: services/magnatune/MagnatuneInfoParser.cpp:198
+msgid "Loading your Magnatune.com favorites page..."
+msgstr "Laai jou Magnatune.com gunstelinge blad..."
+
+#: services/magnatune/MagnatuneInfoParser.cpp:211
+#: services/magnatune/MagnatuneInfoParser.cpp:227
+msgid "Loading your personal Magnatune.com recommendations page..."
+msgstr "Laai jou persoonlike Magnatune.com aanbevelings blad..."
+
+#: services/magnatune/MagnatuneCollectionLocation.cpp:39
+msgid "Preview Tracks"
+msgstr "Voorskou Snitte"
+
+#: services/magnatune/MagnatuneCollectionLocation.cpp:42
+msgid ""
+"The tracks you are about to copy are Magnatune.com preview streams. For "
+"better quality and advert free streams, consider buying an album download. "
+"Remember that when buying from Magnatune the artist gets 50%. Also if you "
+"buy using Amarok, you support the Amarok project with 10%."
+msgstr ""
+"Die snitte wat jy wil kopieer is Magnatune.com voorskou strome. Oorweeg "
+"ditom 'n album aflaai aan te koop vir beter kwaliteit en reklame-vrye strome."
+"Onthou dat die kunstenaar 50% kry deur die aankoop vanaf Magnatune. En as "
+"jydeur Amarok koop, ondersteun jy die Amarok projek met 10%."
+
 #: services/magnatune/MagnatuneStore.cpp:106
 #, fuzzy
 #| msgid "\"Fair trade\" online music store."
@@ -10088,67 +10149,6 @@ msgstr "goed"
 msgid "ERROR: Unknown argument."
 msgstr "FOUT: Onbekende argument"
 
-#: services/magnatune/MagnatuneInfoParser.cpp:32
-msgid "Loading artist info..."
-msgstr "Laai kunstenaar inligting..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:44
-#, kde-format
-msgid "Fetching %1 Artist Info"
-msgstr "Haal %1 Kunstenaar Inligting"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:53
-msgid "Loading album info..."
-msgstr "Laai album inligting..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:75
-#, fuzzy, kde-format
-#| msgid "Release Year: "
-msgid "Release Year: %1"
-msgstr "Vrystellingsjaar: "
-
-#: services/magnatune/MagnatuneInfoParser.cpp:80
-msgid "Description:"
-msgstr "Beskrywing:"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:84
-msgid "From Magnatune.com"
-msgstr "Van Magnatune.com"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:166
-msgid "Loading Magnatune.com frontpage..."
-msgstr "Laai Magnatune.com voorblad..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:169
-msgid "Fetching Magnatune.com front page"
-msgstr "Haal Magnatune.com voorblad"
-
-#: services/magnatune/MagnatuneInfoParser.cpp:182
-#: services/magnatune/MagnatuneInfoParser.cpp:198
-msgid "Loading your Magnatune.com favorites page..."
-msgstr "Laai jou Magnatune.com gunstelinge blad..."
-
-#: services/magnatune/MagnatuneInfoParser.cpp:211
-#: services/magnatune/MagnatuneInfoParser.cpp:227
-msgid "Loading your personal Magnatune.com recommendations page..."
-msgstr "Laai jou persoonlike Magnatune.com aanbevelings blad..."
-
-#: services/magnatune/MagnatuneCollectionLocation.cpp:39
-msgid "Preview Tracks"
-msgstr "Voorskou Snitte"
-
-#: services/magnatune/MagnatuneCollectionLocation.cpp:42
-msgid ""
-"The tracks you are about to copy are Magnatune.com preview streams. For "
-"better quality and advert free streams, consider buying an album download. "
-"Remember that when buying from Magnatune the artist gets 50%. Also if you "
-"buy using Amarok, you support the Amarok project with 10%."
-msgstr ""
-"Die snitte wat jy wil kopieer is Magnatune.com voorskou strome. Oorweeg "
-"ditom 'n album aflaai aan te koop vir beter kwaliteit en reklame-vrye strome."
-"Onthou dat die kunstenaar 50% kry deur die aankoop vanaf Magnatune. En as "
-"jydeur Amarok koop, ondersteun jy die Amarok projek met 10%."
-
 #: services/mp3tunes/Mp3tunesMeta.cpp:45
 msgid ""
 "Online music locker where you can safely store and access your music: http://"
@@ -10201,6 +10201,28 @@ msgstr "Die e-pos adres om te gebruik vir bekragtiging."
 msgid "The pin to be used for authentication."
 msgstr "Die PIN om te gebruik vir bekragtiging."
 
+#: services/mp3tunes/Mp3tunesWorkers.cpp:240
+msgid "Upload to MP3tunes Initiated"
+msgstr "Aanvang van MP3tunes Oplaai"
+
+#: services/mp3tunes/Mp3tunesWorkers.cpp:264
+#, kde-format
+msgid "Uploading Track %1/%2"
+msgstr "Oplaai Snit %1/%2"
+
+#: services/mp3tunes/Mp3tunesServiceCollection.cpp:53
+#: services/mp3tunes/Mp3tunesServiceCollectionLocation.cpp:43
+msgid "MP3tunes Locker"
+msgstr "MP3tunes Kabinet"
+
+#: services/mp3tunes/Mp3tunesServiceCollectionLocation.cpp:77
+msgid ""
+"Only the following types of tracks can be uploaded to MP3tunes: mp3, mp4, "
+"m4a, m4p, aac, wma, and ogg. "
+msgstr ""
+"Slegs die volgende soorte snitte kan opgelaai word na MP3tunes: mp3, mp4, "
+"m4a, m4p, aac, wma, en ogg. "
+
 #: services/mp3tunes/Mp3tunesService.cpp:113
 msgid "The MP3tunes Locker: Your Music Everywhere!"
 msgstr "Die MP3tunes Kabinet: Jou Musiek Orals!"
@@ -10247,28 +10269,6 @@ msgid ""
 msgstr ""
 "Mp3tunes Harmony Fout\n"
 "%1"
-
-#: services/mp3tunes/Mp3tunesWorkers.cpp:240
-msgid "Upload to MP3tunes Initiated"
-msgstr "Aanvang van MP3tunes Oplaai"
-
-#: services/mp3tunes/Mp3tunesWorkers.cpp:264
-#, kde-format
-msgid "Uploading Track %1/%2"
-msgstr "Oplaai Snit %1/%2"
-
-#: services/mp3tunes/Mp3tunesServiceCollection.cpp:53
-#: services/mp3tunes/Mp3tunesServiceCollectionLocation.cpp:43
-msgid "MP3tunes Locker"
-msgstr "MP3tunes Kabinet"
-
-#: services/mp3tunes/Mp3tunesServiceCollectionLocation.cpp:77
-msgid ""
-"Only the following types of tracks can be uploaded to MP3tunes: mp3, mp4, "
-"m4a, m4p, aac, wma, and ogg. "
-msgstr ""
-"Slegs die volgende soorte snitte kan opgelaai word na MP3tunes: mp3, mp4, "
-"m4a, m4p, aac, wma, en ogg. "
 
 #: services/opmldirectory/OpmlDirectoryService.cpp:53
 msgid "Podcast Directory"
@@ -10392,24 +10392,6 @@ msgstr ""
 msgid "No service named %1 is currently loaded"
 msgstr "'n Diens getiteld %1 is nie tans gelaai nie"
 
-#. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:312
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: services/ServiceBase.cpp:147 rc.cpp:2030
-msgid "Group By"
-msgstr "Groepeer Volgens"
-
-#: services/ServiceBase.cpp:311
-msgid "This service does not accept any messages"
-msgstr "Hierdie diens aanvaar geen boodskappe"
-
-#: services/ServiceBase.cpp:318
-msgid "ERROR: unknown message"
-msgstr "FOUT: onbekende boodskap"
-
-#: services/amazon/AmazonMeta.cpp:139
-msgid "Snippet taken from the Amazon MP3 store"
-msgstr ""
-
 #: services/amazon/AmazonUrlRunner.cpp:41
 #, fuzzy
 #| msgctxt "The quality of music"
@@ -10426,42 +10408,40 @@ msgstr "Ongelooflik"
 msgid "Remove from Cart"
 msgstr "Verwyder Vanuit Speellys"
 
-#: services/amazon/AmazonShoppingCartDialog.cpp:34
-#: services/amazon/AmazonShoppingCartDialog.cpp:59
-#, kde-format
-msgid "Shopping cart value: %1"
-msgstr ""
-
-#: services/amazon/AmazonItemTreeView.cpp:278
+#: services/amazon/AmazonItemTreeView.cpp:277
 #, fuzzy
 #| msgid "&Add to Playlist"
 msgid "Add to Cart"
 msgstr "&Voeg by Speellys"
 
-#: services/amazon/AmazonItemTreeView.cpp:287
+#: services/amazon/AmazonItemTreeView.cpp:286
 #, fuzzy
 #| msgid "&Add to Playlist"
 msgid "Add Preview to Playlist"
 msgstr "&Voeg by Speellys"
 
-#: services/amazon/AmazonItemTreeView.cpp:296
+#: services/amazon/AmazonItemTreeView.cpp:295
 #, fuzzy
 #| msgid "Loading Thumbnails..."
 msgid "Load Details..."
 msgstr "Laai Duimnaelsketse..."
 
-#: services/amazon/AmazonItemTreeView.cpp:305
+#: services/amazon/AmazonItemTreeView.cpp:304
 #, fuzzy
 #| msgctxt "track from source"
 #| msgid "from <b>%1</b>"
 msgid "Direct Checkout"
 msgstr "van <b>%1</b>"
 
-#: services/amazon/AmazonItemTreeView.cpp:314
+#: services/amazon/AmazonItemTreeView.cpp:313
 #, fuzzy
 #| msgid "Search %1"
 msgid "Search for Album..."
 msgstr "Deursoek %1"
+
+#: services/amazon/AmazonMeta.cpp:137
+msgid "Snippet taken from the Amazon MP3 store"
+msgstr ""
 
 #: services/amazon/AmazonStore.cpp:101
 msgid "Access the Amazon MP3 Store directly from Amarok"
@@ -10553,6 +10533,12 @@ msgstr "Kon nie avatar beeld data ontleed nie."
 msgid "Error: Unable to parse temporary file. :-("
 msgstr "Kon nie avatar beeld data ontleed nie."
 
+#: services/amazon/AmazonShoppingCartDialog.cpp:34
+#: services/amazon/AmazonShoppingCartDialog.cpp:59
+#, kde-format
+msgid "Shopping cart value: %1"
+msgstr ""
+
 #: services/amazon/AmazonItemTreeModel.cpp:108
 #: services/amazon/AmazonItemTreeModel.cpp:129
 #, fuzzy
@@ -10583,6 +10569,20 @@ msgstr "<b>%1</b>"
 #: services/amazon/AmazonItemTreeModel.cpp:171
 msgid "Price"
 msgstr ""
+
+#. i18n: file: playlist/layouts/PlaylistLayoutEditDialog.ui:312
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: services/ServiceBase.cpp:147 rc.cpp:2030
+msgid "Group By"
+msgstr "Groepeer Volgens"
+
+#: services/ServiceBase.cpp:311
+msgid "This service does not accept any messages"
+msgstr "Hierdie diens aanvaar geen boodskappe"
+
+#: services/ServiceBase.cpp:318
+msgid "ERROR: unknown message"
+msgstr "FOUT: onbekende boodskap"
 
 #: statusbar/CompoundProgressBar.cpp:63 statusbar/CompoundProgressBar.cpp:186
 #: statusbar/ProgressBar.cpp:48
@@ -10740,37 +10740,6 @@ msgstr "Terugspeel"
 #| msgid "Paused"
 msgid "Pause"
 msgstr "Wagtend"
-
-#: widgets/TrackSelectWidget.cpp:67
-#, fuzzy, kde-format
-#| msgctxt "track from source"
-#| msgid "from <b>%1</b>"
-msgid "Checkpoint: <b>%1</b>"
-msgstr "van <b>%1</b>"
-
-#: widgets/TrackSelectWidget.cpp:87
-#, fuzzy, kde-format
-#| msgid "Track:"
-msgid "Track: %1"
-msgstr "Snit:"
-
-#: widgets/TrackSelectWidget.cpp:89
-#, fuzzy, kde-format
-#| msgid "Album \"%1\""
-msgid "Album: %1"
-msgstr "Album \"%1\""
-
-#: widgets/TrackSelectWidget.cpp:91
-#, fuzzy, kde-format
-#| msgid "Artist \"%1\""
-msgid "Artist: %1"
-msgstr "Kunstenaar \"%1\""
-
-#: widgets/TrackSelectWidget.cpp:95
-#, fuzzy
-#| msgid "<empty>"
-msgid "empty"
-msgstr "<empty>"
 
 #: widgets/SliderWidget.cpp:244
 msgid "Volume"
@@ -11204,6 +11173,37 @@ msgstr "Stop"
 #: widgets/Osd.cpp:750
 msgid "Paused"
 msgstr "Wagtend"
+
+#: widgets/TrackSelectWidget.cpp:70
+#, fuzzy, kde-format
+#| msgctxt "track from source"
+#| msgid "from <b>%1</b>"
+msgid "Checkpoint: <b>%1</b>"
+msgstr "van <b>%1</b>"
+
+#: widgets/TrackSelectWidget.cpp:90
+#, fuzzy, kde-format
+#| msgid "Track:"
+msgid "Track: %1"
+msgstr "Snit:"
+
+#: widgets/TrackSelectWidget.cpp:92
+#, fuzzy, kde-format
+#| msgid "Album \"%1\""
+msgid "Album: %1"
+msgstr "Album \"%1\""
+
+#: widgets/TrackSelectWidget.cpp:94
+#, fuzzy, kde-format
+#| msgid "Artist \"%1\""
+msgid "Artist: %1"
+msgstr "Kunstenaar \"%1\""
+
+#: widgets/TrackSelectWidget.cpp:98
+#, fuzzy
+#| msgid "<empty>"
+msgid "empty"
+msgstr "<empty>"
 
 #: PluginManager.cpp:256
 msgid ""
