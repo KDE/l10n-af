@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-18 03:52+0200\n"
+"POT-Creation-Date: 2012-05-20 04:36+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1382,6 +1382,27 @@ msgctxt "A type of command that affects the view in the browser category"
 msgid "Navigate"
 msgstr "Gunsteling"
 
+#: browsers/CollectionTreeItem.cpp:140
+#, fuzzy
+#| msgid "Labels"
+msgctxt "No labels are assigned to the given item are any of its subitems"
+msgid "No Labels"
+msgstr "Etikette"
+
+#: browsers/CollectionTreeItem.cpp:148
+#, fuzzy
+#| msgid "Counting"
+msgid "Counting..."
+msgstr "Telling"
+
+#: browsers/CollectionTreeItem.cpp:175
+#: playlist/proxymodels/GroupingProxy.cpp:186
+#, kde-format
+msgid "1 track"
+msgid_plural "%1 tracks"
+msgstr[0] "1 snit"
+msgstr[1] "%1 snitte"
+
 #: browsers/BrowserDock.cpp:36
 #, fuzzy
 #| msgid "Media Sources"
@@ -2182,27 +2203,6 @@ msgstr "Skrap Snitte"
 #: browsers/BrowserCategoryList.cpp:52
 msgid "Filter Music Sources"
 msgstr "Filter Musiek Bronne"
-
-#: browsers/CollectionTreeItem.cpp:140
-#, fuzzy
-#| msgid "Labels"
-msgctxt "No labels are assigned to the given item are any of its subitems"
-msgid "No Labels"
-msgstr "Etikette"
-
-#: browsers/CollectionTreeItem.cpp:148
-#, fuzzy
-#| msgid "Counting"
-msgid "Counting..."
-msgstr "Telling"
-
-#: browsers/CollectionTreeItem.cpp:175
-#: playlist/proxymodels/GroupingProxy.cpp:186
-#, kde-format
-msgid "1 track"
-msgid_plural "%1 tracks"
-msgstr[0] "1 snit"
-msgstr[1] "%1 snitte"
 
 #: browsers/BrowserBreadcrumbItem.cpp:68
 #, fuzzy
@@ -3713,100 +3713,28 @@ msgstr "Laai afgeleë versameling van gasheer %1"
 msgid "Music share at %1"
 msgstr "Musiek deling by %1"
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:548
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:541
 #, kde-format
 msgid "Could not create directory: %1"
 msgstr "Kon nie gids skep nie: %1"
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:625
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:618
 #, kde-format
 msgid "Transferring: %1"
 msgstr "Dra oor: %1"
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:627
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:620
 #, fuzzy, kde-format
 #| msgid "Transferring: %1"
 msgid "Transcoding: %1"
 msgstr "Dra oor: %1"
 
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:671
+#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:664
 #: core-impl/collections/support/FileCollectionLocation.cpp:87
 #, fuzzy, kde-format
 #| msgid "Playing: %1"
 msgid "Removing: %1"
 msgstr "Speel tans: %1"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:695
-#, fuzzy
-#| msgid "Organize Files"
-msgid "Organizing files"
-msgstr "Organiseer Lêers"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:696
-#, fuzzy
-#| msgid "Organize Files"
-msgid "Organize files"
-msgstr "Organiseer Lêers"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:698
-#, fuzzy
-#| msgid "Moving files to trash"
-msgid "Transcoding and organizing tracks"
-msgstr "Besig om lêers na die asblik te skuif"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:699
-#, fuzzy
-#| msgid "Moving files to trash"
-msgid "Transcode and organize tracks"
-msgstr "Besig om lêers na die asblik te skuif"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:704
-#, fuzzy
-#| msgid "Moving files to trash"
-msgid "Moving tracks"
-msgstr "Besig om lêers na die asblik te skuif"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:705
-#, fuzzy
-#| msgid "Repeat Track"
-msgid "Move tracks"
-msgstr "Herhaal Snit"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:707
-#, fuzzy
-#| msgid "Moving files to trash"
-msgid "Transcoding and moving tracks"
-msgstr "Besig om lêers na die asblik te skuif"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:708
-#, fuzzy
-#| msgid "Moving files to trash"
-msgid "Transcode and move tracks"
-msgstr "Besig om lêers na die asblik te skuif"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:713
-#, fuzzy
-#| msgid "Copying Tracks Failed"
-msgid "Copying tracks"
-msgstr "Snitte Kopieer Mislukking"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:714
-#, fuzzy
-#| msgid "Copying Tracks Failed"
-msgid "Copy tracks"
-msgstr "Snitte Kopieer Mislukking"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:716
-#, fuzzy
-#| msgid "Moving files to trash"
-msgid "Transcoding and copying tracks"
-msgstr "Besig om lêers na die asblik te skuif"
-
-#: core-impl/collections/db/sql/SqlCollectionLocation.cpp:717
-#, fuzzy
-#| msgid "Moving files to trash"
-msgid "Transcode and copy tracks"
-msgstr "Besig om lêers na die asblik te skuif"
 
 #: core-impl/collections/db/sql/SqlCollection.cpp:175
 #, kde-format
@@ -3892,23 +3820,7 @@ msgctxt "operation when iPod is connected"
 msgid "Reading iPod tracks"
 msgstr "Besig om lêers na die asblik te skuif"
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:66
-#, fuzzy, kde-format
-#| msgid "Copying Tracks Failed"
-msgid "Transferring one track to %2"
-msgid_plural "Transferring %1 tracks to %2"
-msgstr[0] "Snitte Kopieer Mislukking"
-msgstr[1] "Snitte Kopieer Mislukking"
-
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:69
-#, fuzzy, kde-format
-#| msgid "Copying Tracks Failed"
-msgid "Transcoding one track to %2"
-msgid_plural "Transcoding %1 tracks to %2"
-msgstr[0] "Snitte Kopieer Mislukking"
-msgstr[1] "Snitte Kopieer Mislukking"
-
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:228
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:217
 #, fuzzy, kde-format
 #| msgid "Copying Tracks Failed"
 msgctxt "%2 is collection name"
@@ -3917,7 +3829,7 @@ msgid_plural "Transferred %1 tracks to %2."
 msgstr[0] "Snitte Kopieer Mislukking"
 msgstr[1] "Snitte Kopieer Mislukking"
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:231
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:220
 #, fuzzy, kde-format
 #| msgid "Moving files to trash"
 msgctxt "%2 is collection name"
@@ -3926,14 +3838,14 @@ msgid_plural "Transcoded %1 tracks to %2."
 msgstr[0] "Besig om lêers na die asblik te skuif"
 msgstr[1] "Besig om lêers na die asblik te skuif"
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:240
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:229
 #, kde-format
 msgid "Transfer aborted. Managed to transfer one track."
 msgid_plural "Transfer aborted. Managed to transfer %1 tracks."
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:248
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:237
 #, kde-format
 msgctxt "%2 is the 'Transferred 123 tracks to Some collection.' message"
 msgid "%2 One track was already there."
@@ -3941,19 +3853,19 @@ msgid_plural "%2 %1 tracks were already there."
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:351
-#: core-impl/collections/ipodcollection/IpodCollectionLocation.cpp:50
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:340
+#: core-impl/collections/ipodcollection/IpodCollectionLocation.cpp:52
 msgid "Disconnected iPod/iPad/iPhone"
 msgstr ""
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:353
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:342
 #, fuzzy, kde-format
 #| msgid "Transferring Tracks to Device"
 msgctxt "%1 is collection pretty name, e.g. My Little iPod"
 msgid "Transferred Tracks to %1"
 msgstr "Dra Snitte oor na Toestel"
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:356
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:345
 #, kde-format
 msgid ""
 "One track successfully transferred, but transfer of some other tracks failed."
@@ -3962,13 +3874,13 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:360
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:349
 #, fuzzy
 #| msgid "Copying Tracks Failed"
 msgid "Transfer of tracks failed."
 msgstr "Snitte Kopieer Mislukking"
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:365
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:354
 #, kde-format
 msgid ""
 "One track was not transferred because it would exceed iPod capacity.<br>"
@@ -3977,13 +3889,13 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:371
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:360
 #, kde-format
 msgctxt "Example of %1 would be: 20.0 MiB"
 msgid "<i>Amarok reserves %1 on iPod for iTunes database writing.</i><br>"
 msgstr ""
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:378
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:367
 #, kde-format
 msgid ""
 "One track was not copied because it wouldn't be playable - its  %2 format is "
@@ -3994,7 +3906,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:387
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:376
 #, fuzzy, kde-format
 #| msgid "The playlist file \"%1\" could not be loaded."
 msgid "One file could not be copied.<br>"
@@ -4002,7 +3914,7 @@ msgid_plural "%1 files could not be copied.<br>"
 msgstr[0] "Kon nie die speellys lêer \"%1\" laai nie."
 msgstr[1] "Kon nie die speellys lêer \"%1\" laai nie."
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:393
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:382
 #, kde-format
 msgid "One track was not transferred due to an internal Amarok error.<br>"
 msgid_plural ""
@@ -4010,11 +3922,11 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:396
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:385
 msgid "<i>You can find details in Amarok debugging output.</i><br>"
 msgstr ""
 
-#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:401
+#: core-impl/collections/ipodcollection/jobs/IpodCopyTracksJob.cpp:390
 msgid "The rest was not transferred because iPod collection disappeared.<br>"
 msgstr ""
 
@@ -4212,6 +4124,13 @@ msgid ""
 "added back to the iTunes database. %4"
 msgstr ""
 
+#: core-impl/collections/ipodcollection/IpodMeta.cpp:200
+#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:92
+#, fuzzy
+#| msgid "Collection"
+msgid "Unknown Collection"
+msgstr "Versameling"
+
 #: core-impl/collections/ipodcollection/IpodCollection.cpp:102
 #: core-impl/collections/umscollection/UmsCollection.cpp:236
 #, fuzzy
@@ -4239,30 +4158,23 @@ msgctxt "iPod was successfully initialized"
 msgid "Initialization successful."
 msgstr "iPod Inisialisering Mislukking"
 
-#: core-impl/collections/ipodcollection/IpodCollection.cpp:646
+#: core-impl/collections/ipodcollection/IpodCollection.cpp:636
 #, kde-format
 msgctxt "%1: iPod collection name"
 msgid "iTunes database successfully written to %1"
 msgstr ""
 
-#: core-impl/collections/ipodcollection/IpodCollection.cpp:654
+#: core-impl/collections/ipodcollection/IpodCollection.cpp:644
 #, kde-format
 msgctxt "%1: iPod collection name"
 msgid "Writing iTunes database to %1 failed without an indication of error"
 msgstr ""
 
-#: core-impl/collections/ipodcollection/IpodCollection.cpp:658
+#: core-impl/collections/ipodcollection/IpodCollection.cpp:648
 #, kde-format
 msgctxt "%1: iPod collection name, %2: technical error from libgpod"
 msgid "Writing iTunes database to %1 failed: %2"
 msgstr ""
-
-#: core-impl/collections/ipodcollection/IpodMeta.cpp:200
-#: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:92
-#, fuzzy
-#| msgid "Collection"
-msgid "Unknown Collection"
-msgstr "Versameling"
 
 #: core-impl/collections/mediadevicecollection/handler/MediaDeviceHandler.cpp:315
 msgid "Copying Tracks Failed"
@@ -4421,18 +4333,6 @@ msgstr "twee maande gelede"
 msgid "three months ago"
 msgstr "drie maande gelede"
 
-#: core-impl/collections/support/TrashCollectionLocation.cpp:47
-#, fuzzy
-#| msgid "Tracks"
-msgid "Trash"
-msgstr "Snitte"
-
-#: core-impl/collections/support/TrashCollectionLocation.cpp:101
-#, fuzzy, kde-format
-#| msgid "Moving files to trash"
-msgid "Moving to trash: %1"
-msgstr "Besig om lêers na die asblik te skuif"
-
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:36
 #, fuzzy, kde-format
 #| msgctxt "@info"
@@ -4571,6 +4471,18 @@ msgctxt "%1 is track url, %2 artist name"
 msgid "%1 (by %2)"
 msgstr "%1 snit (%2)"
 
+#: core-impl/collections/support/TrashCollectionLocation.cpp:47
+#, fuzzy
+#| msgid "Tracks"
+msgid "Trash"
+msgstr "Snitte"
+
+#: core-impl/collections/support/TrashCollectionLocation.cpp:101
+#, fuzzy, kde-format
+#| msgid "Moving files to trash"
+msgid "Moving to trash: %1"
+msgstr "Besig om lêers na die asblik te skuif"
+
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:184
 #, fuzzy
 #| msgid "&Delete Folder"
@@ -4600,6 +4512,7 @@ msgid "&Delete Channel and Episodes"
 msgstr "&Skrap Afgelaaide Episode"
 
 #: core-impl/collections/umscollection/UmsCollectionLocation.cpp:99
+#: core/collections/CollectionLocation.cpp:411
 #, fuzzy, kde-format
 #| msgid "Copying Tracks Failed"
 msgid "Moving one track to %2"
@@ -4608,6 +4521,7 @@ msgstr[0] "Snitte Kopieer Mislukking"
 msgstr[1] "Snitte Kopieer Mislukking"
 
 #: core-impl/collections/umscollection/UmsCollectionLocation.cpp:102
+#: core/collections/CollectionLocation.cpp:420
 #, fuzzy, kde-format
 #| msgid "Copying Tracks Failed"
 msgid "Copying one track to %2"
@@ -4630,7 +4544,7 @@ msgstr[1] "Verwyder Snit van Toestel"
 msgid "&Activate This Collection"
 msgstr "Versameling Opdateer"
 
-#: core-impl/collections/umscollection/UmsCollection.cpp:374
+#: core-impl/collections/umscollection/UmsCollection.cpp:370
 #, kde-format
 msgctxt ""
 "Name of the USB Mass Storage collection that has not yet been activated. See "
@@ -4638,7 +4552,7 @@ msgctxt ""
 msgid "%1 (not activated)"
 msgstr ""
 
-#: core-impl/collections/umscollection/UmsCollection.cpp:610
+#: core-impl/collections/umscollection/UmsCollection.cpp:606
 #, fuzzy
 #| msgid "Configure Media Device"
 msgid "Configure USB Mass Storage Device"
@@ -4917,6 +4831,74 @@ msgstr "Besig om Podcast Media af te laai"
 #, kde-format
 msgid "Downloading Podcast \"%1\""
 msgstr "Besig om Podcast \"%1\" af te laai"
+
+#: core/collections/CollectionLocation.cpp:373
+#, fuzzy
+#| msgid "Find Orphaned Tracks"
+msgid "Organize tracks"
+msgstr "Vind Wees-snitte"
+
+#: core/collections/CollectionLocation.cpp:375
+#, fuzzy
+#| msgid "Moving files to trash"
+msgid "Transcode and organize tracks"
+msgstr "Besig om lêers na die asblik te skuif"
+
+#: core/collections/CollectionLocation.cpp:380
+#, fuzzy
+#| msgid "Repeat Track"
+msgid "Move tracks"
+msgstr "Herhaal Snit"
+
+#: core/collections/CollectionLocation.cpp:382
+#, fuzzy
+#| msgid "Moving files to trash"
+msgid "Transcode and move tracks"
+msgstr "Besig om lêers na die asblik te skuif"
+
+#: core/collections/CollectionLocation.cpp:387
+#, fuzzy
+#| msgid "Copying Tracks Failed"
+msgid "Copy tracks"
+msgstr "Snitte Kopieer Mislukking"
+
+#: core/collections/CollectionLocation.cpp:389
+#, fuzzy
+#| msgid "Moving files to trash"
+msgid "Transcode and copy tracks"
+msgstr "Besig om lêers na die asblik te skuif"
+
+#: core/collections/CollectionLocation.cpp:402
+#, fuzzy, kde-format
+#| msgid "Copying Tracks Failed"
+msgid "Organizing one track"
+msgid_plural "Organizing %1 tracks"
+msgstr[0] "Snitte Kopieer Mislukking"
+msgstr[1] "Snitte Kopieer Mislukking"
+
+#: core/collections/CollectionLocation.cpp:405
+#, fuzzy, kde-format
+#| msgid "Moving files to trash"
+msgid "Transcoding and organizing one track"
+msgid_plural "Transcoding and organizing %1 tracks"
+msgstr[0] "Besig om lêers na die asblik te skuif"
+msgstr[1] "Besig om lêers na die asblik te skuif"
+
+#: core/collections/CollectionLocation.cpp:414
+#, fuzzy, kde-format
+#| msgid "Moving files to trash"
+msgid "Transcoding and moving one track to %2"
+msgid_plural "Transcoding and moving %1 tracks to %2"
+msgstr[0] "Besig om lêers na die asblik te skuif"
+msgstr[1] "Besig om lêers na die asblik te skuif"
+
+#: core/collections/CollectionLocation.cpp:423
+#, fuzzy, kde-format
+#| msgid "Moving files to trash"
+msgid "Transcoding and copying one track to %2"
+msgid_plural "Transcoding and copying %1 tracks to %2"
+msgstr[0] "Besig om lêers na die asblik te skuif"
+msgstr[1] "Besig om lêers na die asblik te skuif"
 
 #: core/meta/support/MetaConstants.cpp:170
 #, fuzzy
@@ -10692,7 +10674,7 @@ msgstr ""
 msgid " (recommended)"
 msgstr "%1 se Voorgestelde Radio"
 
-#: transcoding/TranscodingSelectConfigWidget.cpp:30
+#: transcoding/TranscodingSelectConfigWidget.cpp:37
 #, fuzzy, kde-format
 #| msgid "Filter %1"
 msgctxt ""
@@ -10700,13 +10682,13 @@ msgctxt ""
 msgid "Always (%1)"
 msgstr "Filter %1"
 
-#: transcoding/TranscodingSelectConfigWidget.cpp:34
-#: transcoding/TranscodingSelectConfigWidget.cpp:36
+#: transcoding/TranscodingSelectConfigWidget.cpp:41
+#: transcoding/TranscodingSelectConfigWidget.cpp:43
 msgid "Ask before each transfer"
 msgstr ""
 
-#: transcoding/TranscodingSelectConfigWidget.cpp:40
-#: transcoding/TranscodingSelectConfigWidget.cpp:44
+#: transcoding/TranscodingSelectConfigWidget.cpp:47
+#: transcoding/TranscodingSelectConfigWidget.cpp:51
 #, fuzzy
 #| msgctxt "The amount of time since last played"
 #| msgid "Never"
@@ -17084,6 +17066,33 @@ msgid ""
 msgstr ""
 "'n Musiekpad (%1) is ingestel by Stelsel Instellings. \n"
 "Wil jy dit as 'n versameling gids gebruik?"
+
+#, fuzzy
+#~| msgid "Organize Files"
+#~ msgid "Organizing files"
+#~ msgstr "Organiseer Lêers"
+
+#, fuzzy
+#~| msgid "Organize Files"
+#~ msgid "Organize files"
+#~ msgstr "Organiseer Lêers"
+
+#, fuzzy
+#~| msgid "Moving files to trash"
+#~ msgid "Moving tracks"
+#~ msgstr "Besig om lêers na die asblik te skuif"
+
+#, fuzzy
+#~| msgid "Copying Tracks Failed"
+#~ msgid "Copying tracks"
+#~ msgstr "Snitte Kopieer Mislukking"
+
+#, fuzzy
+#~| msgid "Copying Tracks Failed"
+#~ msgid "Transferring one track to %2"
+#~ msgid_plural "Transferring %1 tracks to %2"
+#~ msgstr[0] "Snitte Kopieer Mislukking"
+#~ msgstr[1] "Snitte Kopieer Mislukking"
 
 #~ msgid "Enter &fullscreen"
 #~ msgstr "&Betree volskerm"
