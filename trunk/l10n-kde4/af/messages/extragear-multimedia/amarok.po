@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-30 04:08+0200\n"
+"POT-Creation-Date: 2012-05-31 03:46+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -9985,6 +9985,18 @@ msgstr "twee maande gelede"
 msgid "three months ago"
 msgstr "drie maande gelede"
 
+#: core-impl/collections/support/TrashCollectionLocation.cpp:47
+#, fuzzy
+#| msgid "Tracks"
+msgid "Trash"
+msgstr "Snitte"
+
+#: core-impl/collections/support/TrashCollectionLocation.cpp:101
+#, fuzzy, kde-format
+#| msgid "Moving files to trash"
+msgid "Moving to trash: %1"
+msgstr "Besig om lêers na die asblik te skuif"
+
 #: core-impl/collections/support/CollectionLocationDelegateImpl.cpp:36
 #, fuzzy, kde-format
 #| msgctxt "@info"
@@ -10020,10 +10032,10 @@ msgstr[1] ""
 msgctxt "@info"
 msgid ""
 "Do you really want to move this track to the trash? It will be removed from "
-"%1."
+"%2."
 msgid_plural ""
-"Do you really want to move these %2 tracks to the trash? They will be "
-"removed from %1."
+"Do you really want to move these %1 tracks to the trash? They will be "
+"removed from %2."
 msgstr[0] ""
 "Is jy doodseker hierdie snit moet geskrap word? Dit sal van die skyf sowel "
 "as van jou versameling verwyder word."
@@ -10122,18 +10134,6 @@ msgstr "%1 snit (%2)"
 msgctxt "%1 is track url, %2 artist name"
 msgid "%1 (by %2)"
 msgstr "%1 snit (%2)"
-
-#: core-impl/collections/support/TrashCollectionLocation.cpp:47
-#, fuzzy
-#| msgid "Tracks"
-msgid "Trash"
-msgstr "Snitte"
-
-#: core-impl/collections/support/TrashCollectionLocation.cpp:101
-#, fuzzy, kde-format
-#| msgid "Moving files to trash"
-msgid "Moving to trash: %1"
-msgstr "Besig om lêers na die asblik te skuif"
 
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:184
 #, fuzzy
@@ -12411,9 +12411,11 @@ msgid "There is a filename conflict, existing files will not be changed."
 msgstr ""
 
 #: dialogs/DiagnosticDialog.cpp:42
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "St&atistics"
+msgctxt "%1 is the program name"
 msgid "%1 Diagnostics"
-msgstr ""
+msgstr "St&atistieke"
 
 #: dialogs/DiagnosticDialog.cpp:45
 #, fuzzy
@@ -12434,7 +12436,7 @@ msgstr "Stop"
 #: dialogs/DiagnosticDialog.cpp:92
 #, fuzzy
 #| msgid "Failed"
-msgid "  (enabled)"
+msgid " (enabled)"
 msgstr "Misluk"
 
 #: dialogs/DiagnosticDialog.cpp:92
@@ -12458,7 +12460,7 @@ msgstr "Geen"
 #: dialogs/DiagnosticDialog.cpp:103
 #, kde-format
 msgid ""
-"%1-Diagnostics\n"
+"%1 Diagnostics\n"
 "\n"
 "%1 Version: %2\n"
 "KDE Version: %3\n"
