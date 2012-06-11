@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-10 04:26+0200\n"
+"POT-Creation-Date: 2012-06-11 04:48+0200\n"
 "PO-Revision-Date: 2005-11-25 05:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1310,69 +1310,6 @@ msgstr "Slegs uitvoerbares op plaaslike lêer sisteme word ondersteunde."
 msgid "Advanced Options for %1"
 msgstr "Gevorderde Opsies vir %1"
 
-#: kfile/kfilemetadataprovider.cpp:223
-#, fuzzy, kde-format
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "1 lêer"
-msgstr[1] "%1 lêers"
-
-#: kfile/kfilemetadataprovider.cpp:424
-#, fuzzy
-msgctxt "@label"
-msgid "Modified"
-msgstr "Veranderde:"
-
-#: kfile/kfilemetadataprovider.cpp:425
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@label"
-msgid "Owner"
-msgstr "Eienaar"
-
-#: kfile/kfilemetadataprovider.cpp:426
-#, fuzzy
-#| msgid "Permissions"
-msgctxt "@label"
-msgid "Permissions"
-msgstr "Regte"
-
-#: kfile/kfilemetadataprovider.cpp:427
-#, fuzzy
-msgctxt "@label"
-msgid "Rating"
-msgstr "Sortering"
-
-#: kfile/kfilemetadataprovider.cpp:428
-#, fuzzy
-#| msgid "Size"
-msgctxt "@label"
-msgid "Size"
-msgstr "Grootte"
-
-#: kfile/kfilemetadataprovider.cpp:429
-#, fuzzy
-#| msgctxt "to trash"
-#| msgid "&Trash"
-msgctxt "@label"
-msgid "Tags"
-msgstr "Gemors"
-
-#: kfile/kfilemetadataprovider.cpp:430
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size"
-msgstr "Grootte:"
-
-#: kfile/kfilemetadataprovider.cpp:431
-#, fuzzy
-#| msgid "Type"
-msgctxt "@label"
-msgid "Type"
-msgstr "Tipe"
-
 #: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
 msgid "Owner"
 msgstr "Eienaar"
@@ -1741,11 +1678,74 @@ msgstr ""
 msgid "Encoding:"
 msgstr "Laaiïng van"
 
-#: kio/accessmanager.cpp:234
+#: kfile/kfilemetadataprovider.cpp:223
+#, fuzzy, kde-format
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "1 lêer"
+msgstr[1] "%1 lêers"
+
+#: kfile/kfilemetadataprovider.cpp:424
+#, fuzzy
+msgctxt "@label"
+msgid "Modified"
+msgstr "Veranderde:"
+
+#: kfile/kfilemetadataprovider.cpp:425
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@label"
+msgid "Owner"
+msgstr "Eienaar"
+
+#: kfile/kfilemetadataprovider.cpp:426
+#, fuzzy
+#| msgid "Permissions"
+msgctxt "@label"
+msgid "Permissions"
+msgstr "Regte"
+
+#: kfile/kfilemetadataprovider.cpp:427
+#, fuzzy
+msgctxt "@label"
+msgid "Rating"
+msgstr "Sortering"
+
+#: kfile/kfilemetadataprovider.cpp:428
+#, fuzzy
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "Grootte"
+
+#: kfile/kfilemetadataprovider.cpp:429
+#, fuzzy
+#| msgctxt "to trash"
+#| msgid "&Trash"
+msgctxt "@label"
+msgid "Tags"
+msgstr "Gemors"
+
+#: kfile/kfilemetadataprovider.cpp:430
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Grootte:"
+
+#: kfile/kfilemetadataprovider.cpp:431
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "Tipe"
+
+#: kio/accessmanager.cpp:221
 msgid "Blocked request."
 msgstr ""
 
-#: kio/accessmanager.cpp:296
+#: kio/accessmanager.cpp:283
 #, fuzzy
 #| msgid "Unknown Error"
 msgid "Unknown HTTP verb."
@@ -4228,6 +4228,130 @@ msgstr "Onbekende protokol '%1'."
 msgid "Data format:"
 msgstr "Data formaat:"
 
+#: kio/tcpslavebase.cpp:334
+msgid ""
+"You are about to leave secure mode. Transmissions will no longer be "
+"encrypted.\n"
+"This means that a third party could observe your data in transit."
+msgstr ""
+"Jy word aangaande na los beveilig modus. Transmissies sal nee langer wees "
+"encrypted.\n"
+"Hierdie beteken wat 'n derde party kon observeer jou data in oordrag."
+
+#: kio/tcpslavebase.cpp:340 kio/tcpslavebase.cpp:700
+msgid "Security Information"
+msgstr "Sekuriteit Informasie"
+
+#: kio/tcpslavebase.cpp:341
+msgid "C&ontinue Loading"
+msgstr "Gaan voort met laai"
+
+#: kio/tcpslavebase.cpp:453
+#, fuzzy, kde-format
+#| msgid "Authentication Failed."
+msgctxt "%1 is a host name"
+msgid "%1: SSL negotiation failed"
+msgstr "Geldigheidsverklaring Gevaal."
+
+#: kio/tcpslavebase.cpp:694
+msgid ""
+"You are about to enter secure mode. All transmissions will be encrypted "
+"unless otherwise noted.\n"
+"This means that no third party will be able to easily observe your data in "
+"transit."
+msgstr ""
+"Jy word aangaande na invoer beveilig modus. Alle transmissies sal wees "
+"encrypted tensy andersins gestel.\n"
+"Hierdie beteken wat nee derde party sal wees in staat na maklik observeer "
+"jou data in oordrag."
+
+#: kio/tcpslavebase.cpp:701
+msgid "Display SSL &Information"
+msgstr "Vertoon SSL Informasie"
+
+#: kio/tcpslavebase.cpp:702
+msgid "C&onnect"
+msgstr "Koppel"
+
+#: kio/tcpslavebase.cpp:838
+msgid "Enter the certificate password:"
+msgstr "Invoer die sertifikaat wagwoord:"
+
+#: kio/tcpslavebase.cpp:839
+msgid "SSL Certificate Password"
+msgstr "Ssl Sertifikaat Wagwoord"
+
+#: kio/tcpslavebase.cpp:852
+msgid "Unable to open the certificate. Try a new password?"
+msgstr "Nie moontlik na open die sertifikaat. Probeer 'n nuwe wagwoord?"
+
+#: kio/tcpslavebase.cpp:865
+msgid "The procedure to set the client certificate for the session failed."
+msgstr "Die prosedure na stel Die kliënt sertifikaat vir Die sessie gevaal."
+
+#: kio/tcpslavebase.cpp:867 kio/slaveinterface.cpp:498
+msgid "SSL"
+msgstr "SSL"
+
+#: kio/tcpslavebase.cpp:911 kssl/sslui.cpp:71
+#, fuzzy, kde-format
+#| msgid "The server certificate failed the authenticity test (%1)."
+msgid ""
+"The server failed the authenticity check (%1).\n"
+"\n"
+msgstr "Die bediener sertifikaat gevaal Die geldigheid toets (%1)."
+
+#: kio/tcpslavebase.cpp:921 kio/tcpslavebase.cpp:938 kio/tcpslavebase.cpp:1040
+#: kio/tcpslavebase.cpp:1052 kssl/sslui.cpp:80 kssl/sslui.cpp:119
+msgid "Server Authentication"
+msgstr "Bediener Geldigheidsverklaring"
+
+#: kio/tcpslavebase.cpp:922 kio/slaveinterface.cpp:427 kssl/sslui.cpp:81
+msgid "&Details"
+msgstr "Details"
+
+#: kio/tcpslavebase.cpp:922 kio/slaveinterface.cpp:434 kssl/sslui.cpp:82
+msgid "Co&ntinue"
+msgstr "Gaan voort"
+
+#: kio/tcpslavebase.cpp:935 kssl/sslui.cpp:116
+msgid ""
+"Would you like to accept this certificate forever without being prompted?"
+msgstr ""
+"Sal jy hou van na aanvaar hierdie sertifikaat veraltyd sonder om te te wees "
+"gepor?"
+
+#: kio/tcpslavebase.cpp:939 kio/slaveinterface.cpp:429 kssl/sslui.cpp:120
+msgid "&Forever"
+msgstr "Veraltyd"
+
+#: kio/tcpslavebase.cpp:940 kio/slaveinterface.cpp:436 kssl/sslui.cpp:121
+#, fuzzy
+#| msgid "&Current Sessions Only"
+msgid "&Current Session only"
+msgstr "Huidige Sessies Slegs"
+
+#: kio/tcpslavebase.cpp:1039
+msgid ""
+"You have indicated that you wish to accept this certificate, but it is not "
+"issued to the server who is presenting it. Do you wish to continue loading?"
+msgstr ""
+"Jy het aangedui wat Jy wens na aanvaar hierdie sertifikaat, maar dit is nie "
+"uitgereik na die bediener wie is aangebied dit. Doen Jy wens na gaan voort "
+"laaiïng van?"
+
+#: kio/tcpslavebase.cpp:1051
+#, fuzzy
+#| msgid ""
+#| "SSL certificate is being rejected as requested. You can disable this in "
+#| "the KDE Control Center."
+msgid ""
+"SSL certificate is being rejected as requested. You can disable this in the "
+"KDE System Settings."
+msgstr ""
+"Ssl sertifikaat is te wees verwerp as versoekte. Jy kan deaktiveer hierdie "
+"in die Kde Kontrole Sentrum."
+
 #: kio/paste.cpp:98 kio/paste.cpp:191
 msgid "Filename for clipboard content:"
 msgstr "Lêernaam vir klipbord inhoud:"
@@ -4279,33 +4403,11 @@ msgstr "Herstel"
 msgid "&No"
 msgstr "Geen"
 
-#: kio/slaveinterface.cpp:427 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:81
-msgid "&Details"
-msgstr "Details"
-
-#: kio/slaveinterface.cpp:429 kio/tcpslavebase.cpp:848 kssl/sslui.cpp:120
-msgid "&Forever"
-msgstr "Veraltyd"
-
-#: kio/slaveinterface.cpp:434 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:82
-msgid "Co&ntinue"
-msgstr "Gaan voort"
-
-#: kio/slaveinterface.cpp:436 kio/tcpslavebase.cpp:849 kssl/sslui.cpp:121
-#, fuzzy
-#| msgid "&Current Sessions Only"
-msgid "&Current Session only"
-msgstr "Huidige Sessies Slegs"
-
 #: kio/slaveinterface.cpp:496
 #, fuzzy
 #| msgid "The peer SSL certificate appears to be corrupt."
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Die ouer Ssl sertifikaat verskyn na wees korrup."
-
-#: kio/slaveinterface.cpp:498 kio/tcpslavebase.cpp:776
-msgid "SSL"
-msgstr "SSL"
 
 #: kio/skipdialog.cpp:37
 #, fuzzy
@@ -4468,108 +4570,6 @@ msgstr "'n ouer item genaamd '%1' alreeds bestaan."
 #| msgid "&Rename"
 msgid "Rename:"
 msgstr "Herbenoem"
-
-#: kio/tcpslavebase.cpp:328
-msgid ""
-"You are about to leave secure mode. Transmissions will no longer be "
-"encrypted.\n"
-"This means that a third party could observe your data in transit."
-msgstr ""
-"Jy word aangaande na los beveilig modus. Transmissies sal nee langer wees "
-"encrypted.\n"
-"Hierdie beteken wat 'n derde party kon observeer jou data in oordrag."
-
-#: kio/tcpslavebase.cpp:334 kio/tcpslavebase.cpp:609
-msgid "Security Information"
-msgstr "Sekuriteit Informasie"
-
-#: kio/tcpslavebase.cpp:335
-msgid "C&ontinue Loading"
-msgstr "Gaan voort met laai"
-
-#: kio/tcpslavebase.cpp:391
-#, fuzzy, kde-format
-#| msgid "Authentication Failed."
-msgctxt "%1 is a host name"
-msgid "%1: SSL negotiation failed"
-msgstr "Geldigheidsverklaring Gevaal."
-
-#: kio/tcpslavebase.cpp:603
-msgid ""
-"You are about to enter secure mode. All transmissions will be encrypted "
-"unless otherwise noted.\n"
-"This means that no third party will be able to easily observe your data in "
-"transit."
-msgstr ""
-"Jy word aangaande na invoer beveilig modus. Alle transmissies sal wees "
-"encrypted tensy andersins gestel.\n"
-"Hierdie beteken wat nee derde party sal wees in staat na maklik observeer "
-"jou data in oordrag."
-
-#: kio/tcpslavebase.cpp:610
-msgid "Display SSL &Information"
-msgstr "Vertoon SSL Informasie"
-
-#: kio/tcpslavebase.cpp:611
-msgid "C&onnect"
-msgstr "Koppel"
-
-#: kio/tcpslavebase.cpp:747
-msgid "Enter the certificate password:"
-msgstr "Invoer die sertifikaat wagwoord:"
-
-#: kio/tcpslavebase.cpp:748
-msgid "SSL Certificate Password"
-msgstr "Ssl Sertifikaat Wagwoord"
-
-#: kio/tcpslavebase.cpp:761
-msgid "Unable to open the certificate. Try a new password?"
-msgstr "Nie moontlik na open die sertifikaat. Probeer 'n nuwe wagwoord?"
-
-#: kio/tcpslavebase.cpp:774
-msgid "The procedure to set the client certificate for the session failed."
-msgstr "Die prosedure na stel Die kliënt sertifikaat vir Die sessie gevaal."
-
-#: kio/tcpslavebase.cpp:820 kssl/sslui.cpp:71
-#, fuzzy, kde-format
-#| msgid "The server certificate failed the authenticity test (%1)."
-msgid ""
-"The server failed the authenticity check (%1).\n"
-"\n"
-msgstr "Die bediener sertifikaat gevaal Die geldigheid toets (%1)."
-
-#: kio/tcpslavebase.cpp:830 kio/tcpslavebase.cpp:847 kio/tcpslavebase.cpp:949
-#: kio/tcpslavebase.cpp:961 kssl/sslui.cpp:80 kssl/sslui.cpp:119
-msgid "Server Authentication"
-msgstr "Bediener Geldigheidsverklaring"
-
-#: kio/tcpslavebase.cpp:844 kssl/sslui.cpp:116
-msgid ""
-"Would you like to accept this certificate forever without being prompted?"
-msgstr ""
-"Sal jy hou van na aanvaar hierdie sertifikaat veraltyd sonder om te te wees "
-"gepor?"
-
-#: kio/tcpslavebase.cpp:948
-msgid ""
-"You have indicated that you wish to accept this certificate, but it is not "
-"issued to the server who is presenting it. Do you wish to continue loading?"
-msgstr ""
-"Jy het aangedui wat Jy wens na aanvaar hierdie sertifikaat, maar dit is nie "
-"uitgereik na die bediener wie is aangebied dit. Doen Jy wens na gaan voort "
-"laaiïng van?"
-
-#: kio/tcpslavebase.cpp:960
-#, fuzzy
-#| msgid ""
-#| "SSL certificate is being rejected as requested. You can disable this in "
-#| "the KDE Control Center."
-msgid ""
-"SSL certificate is being rejected as requested. You can disable this in the "
-"KDE System Settings."
-msgstr ""
-"Ssl sertifikaat is te wees verwerp as versoekte. Jy kan deaktiveer hierdie "
-"in die Kde Kontrole Sentrum."
 
 #: kssl/kcm/displaycertdialog.cpp:54 kssl/ksslinfodialog.cpp:217
 #, fuzzy, kde-format
@@ -6029,13 +6029,13 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5333
+#: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5353
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Jy mout 'n gebruikernaam en wagwoord verskaf om toegang te verkry tot "
 "hierdie tuiste."
 
-#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5335
+#: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5355
 msgid "Site:"
 msgstr "Tuiste:"
 
@@ -6053,8 +6053,8 @@ msgstr "Aanteken Goed"
 msgid "Could not login to %1."
 msgstr "Kon nie aanteken na %1."
 
-#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5222
-#: ../kioslave/http/http.cpp:5345
+#: ../kioslave/ftp/ftp.cpp:2564 ../kioslave/http/http.cpp:5243
+#: ../kioslave/http/http.cpp:5365
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
@@ -6062,19 +6062,19 @@ msgstr ""
 "Jy moet 'n gebruikernaam en wagwoord vir die volmag bediener wat hier onder "
 "vertoon word verskaf voordat toegang na die tuistes verleen sal word."
 
-#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5226
-#: ../kioslave/http/http.cpp:5348
+#: ../kioslave/ftp/ftp.cpp:2568 ../kioslave/http/http.cpp:5247
+#: ../kioslave/http/http.cpp:5368
 msgid "Proxy:"
 msgstr "Volmag:"
 
-#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5227
-#: ../kioslave/http/http.cpp:5428
+#: ../kioslave/ftp/ftp.cpp:2569 ../kioslave/http/http.cpp:5248
+#: ../kioslave/http/http.cpp:5448
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> na <b>%2</b>"
 
-#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5229
-#: ../kioslave/http/http.cpp:5365
+#: ../kioslave/ftp/ftp.cpp:2570 ../kioslave/http/http.cpp:5250
+#: ../kioslave/http/http.cpp:5385
 msgid "Proxy Authentication Failed."
 msgstr "Volmag Geldigheidsverklaring Gevaal."
 
@@ -6512,17 +6512,17 @@ msgstr "Stuur data na %1"
 msgid "Retrieving %1 from %2..."
 msgstr "Onttrek %1 van %2..."
 
-#: ../kioslave/http/http.cpp:5364
+#: ../kioslave/http/http.cpp:5384
 msgid "Authentication Failed."
 msgstr "Geldigheidsverklaring Gevaal."
 
-#: ../kioslave/http/http.cpp:5461
+#: ../kioslave/http/http.cpp:5481
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Geldigheidstoets Dialoog"
 
-#: ../kioslave/http/http.cpp:5477
+#: ../kioslave/http/http.cpp:5497
 #, fuzzy
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
