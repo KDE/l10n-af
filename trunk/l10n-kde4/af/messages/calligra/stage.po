@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-13 02:28+0200\n"
+"POT-Creation-Date: 2012-06-14 03:53+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -311,7 +311,7 @@ msgstr "Skuif"
 msgid "Copy the current slide"
 msgstr "Voor Huidige Bladsy"
 
-#: part/KPrView.cpp:88
+#: part/KPrView.cpp:88 part/KPrViewModeSlidesSorter.cpp:188
 #, fuzzy
 msgid "Delete Slide"
 msgstr "Gekose skyfies"
@@ -546,7 +546,7 @@ msgid "Export"
 msgstr ""
 
 #: part/ui/KPrHtmlExportDialog.cpp:158 part/ui/KPrHtmlExportDialog.cpp:210
-#: part/KPrViewModeSlidesSorter.cpp:692
+#: part/KPrViewModeSlidesSorter.cpp:695
 #, fuzzy
 #| msgid "Arrow"
 msgid "Error"
@@ -605,7 +605,7 @@ msgid "Configure Presenter View"
 msgstr "Konfigureer Kpresenter"
 
 #: part/ui/KPrConfigureSlideShowDialog.cpp:41
-#: part/KPrViewModeSlidesSorter.cpp:663
+#: part/KPrViewModeSlidesSorter.cpp:666
 #, fuzzy
 msgid "All slides"
 msgstr "Alle lêers"
@@ -617,84 +617,95 @@ msgstr "Alle lêers"
 msgid "Configure Slide Show"
 msgstr "Skyfievertoning"
 
-#: part/KPrViewModeSlidesSorter.cpp:77
-#, fuzzy
-msgid "Slides Sorter"
-msgstr "Skuif Titel"
-
-#: part/KPrViewModeSlidesSorter.cpp:86
-#, fuzzy
-msgid "Slide Show: "
-msgstr "Skyfievertoning"
-
-#: part/KPrViewModeSlidesSorter.cpp:95
-#, fuzzy
-#| msgid "Slideshow"
-msgid "Add a new custom slide show"
-msgstr "Skyfievertoning"
-
-#: part/KPrViewModeSlidesSorter.cpp:100
-#, fuzzy
-msgid "Delete current custom slide show"
-msgstr "Voor Huidige Bladsy"
-
-#: part/KPrViewModeSlidesSorter.cpp:104
-#, fuzzy
-msgid "Add slides to current custom slide show"
-msgstr "Skyfievertoning"
-
-#: part/KPrViewModeSlidesSorter.cpp:109
-msgid "Remove slides from current custom slide show"
-msgstr ""
-
-#: part/KPrViewModeSlidesSorter.cpp:537
-#, fuzzy
-#| msgid "Slideshow"
-msgid "Add a new slide"
-msgstr "Skyfievertoning"
-
-#: part/KPrViewModeSlidesSorter.cpp:538 part/KPrViewModeSlidesSorter.cpp:556
-#, fuzzy
-msgid "Delete selected slides"
-msgstr "Gekose skyfies"
-
-#: part/KPrViewModeSlidesSorter.cpp:542
-#, fuzzy
-msgid "Rename"
-msgstr "Verwyder Skakel"
-
-#: part/KPrViewModeSlidesSorter.cpp:546
-#, fuzzy
-#| msgid "&Custom"
-msgid "Cut"
-msgstr "Pasmaak"
-
-#: part/KPrViewModeSlidesSorter.cpp:547
-#, fuzzy
-#| msgid "Group"
-msgid "Copy"
-msgstr "Groep"
-
-#: part/KPrViewModeSlidesSorter.cpp:548
-#, fuzzy
-#| msgid "Path"
-msgid "Paste"
-msgstr "Gids soeklys"
-
-#: part/KPrViewModeSlidesSorter.cpp:644 part/KPrViewModeSlidesSorter.cpp:649
-#, fuzzy, kde-format
-msgid "Slide Show %1"
-msgstr "Skyfievertoning"
-
-#: part/KPrViewModeSlidesSorter.cpp:692
-msgid "There cannot be two slideshows with the same name."
-msgstr ""
-
 #: part/KPrViewModeNotes.cpp:52
 #, fuzzy
 #| msgid "Note"
 msgid "Notes"
 msgstr "Nota"
+
+#: part/KPrViewModeSlidesSorter.cpp:79
+#, fuzzy
+msgid "Slides Sorter"
+msgstr "Skuif Titel"
+
+#: part/KPrViewModeSlidesSorter.cpp:88
+#, fuzzy
+msgid "Slide Show: "
+msgstr "Skyfievertoning"
+
+#: part/KPrViewModeSlidesSorter.cpp:97
+#, fuzzy
+#| msgid "Slideshow"
+msgid "Add a new custom slide show"
+msgstr "Skyfievertoning"
+
+#: part/KPrViewModeSlidesSorter.cpp:102
+#, fuzzy
+msgid "Delete current custom slide show"
+msgstr "Voor Huidige Bladsy"
+
+#: part/KPrViewModeSlidesSorter.cpp:106
+#, fuzzy
+msgid "Add slides to current custom slide show"
+msgstr "Skyfievertoning"
+
+#: part/KPrViewModeSlidesSorter.cpp:111
+msgid "Remove slides from current custom slide show"
+msgstr ""
+
+#: part/KPrViewModeSlidesSorter.cpp:187
+#, fuzzy
+msgid "Duplicate Slide"
+msgstr "Gekose skyfies"
+
+#: part/KPrViewModeSlidesSorter.cpp:189
+#, fuzzy
+#| msgid "Create HTML Slideshow"
+msgid "Start Slideshow"
+msgstr "Skep Html Skyfievertoning"
+
+#: part/KPrViewModeSlidesSorter.cpp:540
+#, fuzzy
+#| msgid "Slideshow"
+msgid "Add a new slide"
+msgstr "Skyfievertoning"
+
+#: part/KPrViewModeSlidesSorter.cpp:541 part/KPrViewModeSlidesSorter.cpp:559
+#, fuzzy
+msgid "Delete selected slides"
+msgstr "Gekose skyfies"
+
+#: part/KPrViewModeSlidesSorter.cpp:545
+#, fuzzy
+msgid "Rename"
+msgstr "Verwyder Skakel"
+
+#: part/KPrViewModeSlidesSorter.cpp:549
+#, fuzzy
+#| msgid "&Custom"
+msgid "Cut"
+msgstr "Pasmaak"
+
+#: part/KPrViewModeSlidesSorter.cpp:550
+#, fuzzy
+#| msgid "Group"
+msgid "Copy"
+msgstr "Groep"
+
+#: part/KPrViewModeSlidesSorter.cpp:551
+#, fuzzy
+#| msgid "Path"
+msgid "Paste"
+msgstr "Gids soeklys"
+
+#: part/KPrViewModeSlidesSorter.cpp:647 part/KPrViewModeSlidesSorter.cpp:652
+#, fuzzy, kde-format
+msgid "Slide Show %1"
+msgstr "Skyfievertoning"
+
+#: part/KPrViewModeSlidesSorter.cpp:695
+msgid "There cannot be two slideshows with the same name."
+msgstr ""
 
 #: plugins/eventactions/sound/KPrSoundEventActionWidget.cpp:94
 #, fuzzy
@@ -2458,11 +2469,6 @@ msgstr "Spel Toetsing"
 #, fuzzy
 #~ msgid "Available Slides"
 #~ msgstr "Duplikaat Bladsy"
-
-#, fuzzy
-#~| msgid "Create HTML Slideshow"
-#~ msgid "Current Slideshow:"
-#~ msgstr "Skep Html Skyfievertoning"
 
 #, fuzzy
 #~| msgid "Slide"
