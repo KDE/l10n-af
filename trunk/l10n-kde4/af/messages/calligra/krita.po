@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-14 03:47+0200\n"
+"POT-Creation-Date: 2012-06-16 03:15+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -7915,14 +7915,14 @@ msgstr "Voeg by Laag..."
 
 #. i18n: file: ui/forms/kis_previewwidgetbase.ui:122
 #. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomOut)
-#: rc.cpp:3201
+#: rc.cpp:3201 ui/input/kis_zoom_action.cpp:49
 #, fuzzy
 msgid "Zoom Out"
 msgstr "Zoem Uit"
 
 #. i18n: file: ui/forms/kis_previewwidgetbase.ui:135
 #. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomIn)
-#: rc.cpp:3204
+#: rc.cpp:3204 ui/input/kis_zoom_action.cpp:48
 #, fuzzy
 msgid "Zoom In"
 msgstr "Zoem In"
@@ -13703,6 +13703,40 @@ msgid ""
 "<i>./0</i> represents the first child of the current layer"
 msgstr ""
 
+#: ui/tool/kis_tool_freehand_helper.cpp:127
+msgid "Freehand Stroke"
+msgstr ""
+
+#: ui/tool/kis_tool_freehand.cc:90
+#, fuzzy
+msgid "Increase Brush Size"
+msgstr "Kwas"
+
+#: ui/tool/kis_tool_freehand.cc:96
+#, fuzzy
+msgid "Decrease Brush Size"
+msgstr "Borsels"
+
+#: ui/tool/kis_tool.cc:111
+#, fuzzy
+msgid "Swap Foreground and Background Color"
+msgstr "Voorgrond kleur"
+
+#: ui/tool/kis_tool.cc:117
+#, fuzzy
+msgid "Reset Foreground and Background Color"
+msgstr "Voorgrond kleur"
+
+#: ui/tool/kis_tool.cc:519
+#, fuzzy
+msgid "Clear"
+msgstr "Kwas"
+
+#: ui/tool/kis_tool.cc:547
+#, fuzzy
+msgid "No options"
+msgstr "Alfa"
+
 #: ui/tool/kis_tool_paint.cc:92
 msgid "Make brush color lighter"
 msgstr ""
@@ -13720,40 +13754,6 @@ msgstr "Ondeursigtigheid:"
 #, fuzzy
 msgid "Decrease opacity"
 msgstr "Ondeursigtigheid:"
-
-#: ui/tool/kis_tool_freehand_helper.cpp:127
-msgid "Freehand Stroke"
-msgstr ""
-
-#: ui/tool/kis_tool.cc:111
-#, fuzzy
-msgid "Swap Foreground and Background Color"
-msgstr "Voorgrond kleur"
-
-#: ui/tool/kis_tool.cc:117
-#, fuzzy
-msgid "Reset Foreground and Background Color"
-msgstr "Voorgrond kleur"
-
-#: ui/tool/kis_tool.cc:595
-#, fuzzy
-msgid "Clear"
-msgstr "Kwas"
-
-#: ui/tool/kis_tool.cc:623
-#, fuzzy
-msgid "No options"
-msgstr "Alfa"
-
-#: ui/tool/kis_tool_freehand.cc:90
-#, fuzzy
-msgid "Increase Brush Size"
-msgstr "Kwas"
-
-#: ui/tool/kis_tool_freehand.cc:96
-#, fuzzy
-msgid "Decrease Brush Size"
-msgstr "Borsels"
 
 #: ui/widgets/kis_channelflags_widget.cpp:39
 msgid ""
@@ -13872,6 +13872,124 @@ msgstr "Hoeke:"
 msgid ""
 "Cannot start Colors Settings panel from KDE Control Center. Please check "
 "your system..."
+msgstr ""
+
+#: ui/input/kis_abstract_input_action.cpp:36
+#, fuzzy
+msgid "Activate"
+msgstr "Verwyder Laag"
+
+#: ui/input/kis_alternate_invocation_action.cpp:33
+#, fuzzy
+msgid "Alternate Invocation"
+msgstr "Verf Nutsprogramme"
+
+#: ui/input/kis_alternate_invocation_action.cpp:34
+msgid ""
+"Alternate Invocation performs an alternate action with the current tool. For "
+"example, using the brush tool it picks a color from the canvas."
+msgstr ""
+
+#: ui/input/kis_change_primary_setting_action.cpp:29
+msgid "Change Tool Primary Setting"
+msgstr ""
+
+#: ui/input/kis_change_primary_setting_action.cpp:30
+msgid ""
+"Changes a tool's \"Primary Setting\", for example the brush size for the "
+"brush tool."
+msgstr ""
+
+#: ui/input/kis_input_manager.cpp:100
+#, fuzzy
+msgid "Set Mirror Axis"
+msgstr "Stoor Laag as Beeld..."
+
+#: ui/input/kis_pan_action.cpp:47
+#, fuzzy
+#| msgid "Canvas"
+msgid "Pan Canvas"
+msgstr "Kanvas"
+
+#: ui/input/kis_pan_action.cpp:50
+msgid "Toggle Pan Mode"
+msgstr ""
+
+#: ui/input/kis_pan_action.cpp:51
+#, fuzzy
+msgid "Pan Left"
+msgstr "Kleur"
+
+#: ui/input/kis_pan_action.cpp:52
+#, fuzzy
+msgid "Pan Right"
+msgstr "Hoogte:"
+
+#: ui/input/kis_pan_action.cpp:53
+msgid "Pan Up"
+msgstr ""
+
+#: ui/input/kis_pan_action.cpp:54
+msgid "Pan Down"
+msgstr ""
+
+#: ui/input/kis_rotate_canvas_action.cpp:44
+#, fuzzy
+msgid "Rotate Canvas"
+msgstr "Herbenaam Beeld..."
+
+#: ui/input/kis_rotate_canvas_action.cpp:46
+#, fuzzy
+msgid "Toggle Rotate Mode"
+msgstr "Roteer 90"
+
+#: ui/input/kis_rotate_canvas_action.cpp:47
+#, fuzzy
+msgid "Rotate Left"
+msgstr "Verwyder Laag"
+
+#: ui/input/kis_rotate_canvas_action.cpp:48
+#, fuzzy
+msgid "Rotate Right"
+msgstr "Roteer 90"
+
+#: ui/input/kis_rotate_canvas_action.cpp:49
+#, fuzzy
+msgid "Reset Rotation"
+msgstr "Roteer 90"
+
+#: ui/input/kis_show_palette_action.cpp:31
+#, fuzzy
+msgid "Show Popup Palette"
+msgstr "Palette"
+
+#: ui/input/kis_tool_invocation_action.cpp:49
+#, fuzzy
+msgid "Tool Invocation"
+msgstr "Hoeke:"
+
+#: ui/input/kis_tool_invocation_action.cpp:50
+msgid ""
+"Tool Invocation invokes the current tool, for example, using the brush tool, "
+"it will start painting."
+msgstr ""
+
+#: ui/input/kis_zoom_action.cpp:44
+#, fuzzy
+msgid "Zoom Canvas"
+msgstr "Zoem In"
+
+#: ui/input/kis_zoom_action.cpp:47
+msgid "Toggle Zoom Mode"
+msgstr ""
+
+#: ui/input/kis_zoom_action.cpp:50
+#, fuzzy
+msgid "Reset Zoom to 100%"
+msgstr "Keuse"
+
+#: ui/input/kis_zoom_action.cpp:51
+msgid "Fit to Page"
 msgstr ""
 
 #: main.cc:50
@@ -14596,10 +14714,6 @@ msgstr "Lêer(s) of Url(s) na open"
 #~ msgstr "Borsels"
 
 #, fuzzy
-#~ msgid "Mirror: "
-#~ msgstr "Stoor Laag as Beeld..."
-
-#, fuzzy
 #~ msgid "Move a layer (SHIFT+V)"
 #~ msgstr "Verwyder Laag"
 
@@ -14815,11 +14929,6 @@ msgstr "Lêer(s) of Url(s) na open"
 #, fuzzy
 #~ msgid "Pixel Eraser"
 #~ msgstr "Keuse"
-
-#, fuzzy
-#~| msgid "Canvas"
-#~ msgid "Size Canvas"
-#~ msgstr "Kanvas"
 
 #, fuzzy
 #~ msgid "Active Settings"
@@ -15209,10 +15318,6 @@ msgstr "Lêer(s) of Url(s) na open"
 #~ msgstr "Kwas"
 
 #, fuzzy
-#~ msgid "&PopupPalette"
-#~ msgstr "Palette"
-
-#, fuzzy
 #~ msgid "All Images"
 #~ msgstr "Beeld"
 
@@ -15504,10 +15609,6 @@ msgstr "Lêer(s) of Url(s) na open"
 
 #, fuzzy
 #~ msgid "Rotate CCW"
-#~ msgstr "Roteer 90"
-
-#, fuzzy
-#~ msgid "Rotating"
 #~ msgstr "Roteer 90"
 
 #, fuzzy
