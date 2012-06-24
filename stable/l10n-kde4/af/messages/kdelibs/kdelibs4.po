@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-19 19:42+0200\n"
+"POT-Creation-Date: 2012-06-24 12:03+0200\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -5347,54 +5347,6 @@ msgstr "Onbekende fout"
 msgid "Operation not supported"
 msgstr "operasie word nie ondersteun nie"
 
-#: kdecore/network/netsupp.cpp:891 kdecore/network/k3resolver.cpp:545
-msgid "no error"
-msgstr "geen fout"
-
-#: kdecore/network/netsupp.cpp:892
-msgid "address family for nodename not supported"
-msgstr "adres familie vir nodenaam nie ondersteun"
-
-#: kdecore/network/netsupp.cpp:893 kdecore/network/k3resolver.cpp:547
-msgid "temporary failure in name resolution"
-msgstr "tydelike vaaling in naam opkyk"
-
-#: kdecore/network/netsupp.cpp:894
-msgid "invalid value for 'ai_flags'"
-msgstr "ongeldige waarde vir 'ai_flags'"
-
-#: kdecore/network/netsupp.cpp:895 kdecore/network/k3resolver.cpp:548
-msgid "non-recoverable failure in name resolution"
-msgstr "onherstelbare vaaling in naam opkyk"
-
-#: kdecore/network/netsupp.cpp:896
-msgid "'ai_family' not supported"
-msgstr "'ai_family' nie ondersteun"
-
-#: kdecore/network/netsupp.cpp:897 kdecore/network/k3resolver.cpp:550
-msgid "memory allocation failure"
-msgstr "geheue toekenning vaaling"
-
-#: kdecore/network/netsupp.cpp:898
-msgid "no address associated with nodename"
-msgstr "geen adres geassosieer met nodenaam"
-
-#: kdecore/network/netsupp.cpp:899 kdecore/network/k3resolver.cpp:551
-msgid "name or service not known"
-msgstr "naam of diens nie bekend"
-
-#: kdecore/network/netsupp.cpp:900
-msgid "servname not supported for ai_socktype"
-msgstr "bedienernaam nie ondersteun vir ai_socktype"
-
-#: kdecore/network/netsupp.cpp:901
-msgid "'ai_socktype' not supported"
-msgstr "'ai_socktype' nie ondersteun"
-
-#: kdecore/network/netsupp.cpp:902
-msgid "system error"
-msgstr "stelsel fout"
-
 #: kdecore/network/k3socks.cpp:137
 msgid "NEC SOCKS client"
 msgstr "NEC SOCKS kliënt"
@@ -5408,14 +5360,34 @@ msgstr "Dante SOCKS kliënt"
 msgid "Timed out trying to connect to remote host"
 msgstr ""
 
+#: kdecore/network/k3resolver.cpp:545 kdecore/network/netsupp.cpp:894
+msgid "no error"
+msgstr "geen fout"
+
 #: kdecore/network/k3resolver.cpp:546
 msgid "requested family not supported for this host name"
 msgstr ""
 "die familie wat aangevra is word nie deur hierdie masjien naam ondersteun nie"
 
+#: kdecore/network/k3resolver.cpp:547 kdecore/network/netsupp.cpp:896
+msgid "temporary failure in name resolution"
+msgstr "tydelike vaaling in naam opkyk"
+
+#: kdecore/network/k3resolver.cpp:548 kdecore/network/netsupp.cpp:898
+msgid "non-recoverable failure in name resolution"
+msgstr "onherstelbare vaaling in naam opkyk"
+
 #: kdecore/network/k3resolver.cpp:549
 msgid "invalid flags"
 msgstr "ongeldige vlaggies"
+
+#: kdecore/network/k3resolver.cpp:550 kdecore/network/netsupp.cpp:900
+msgid "memory allocation failure"
+msgstr "geheue toekenning vaaling"
+
+#: kdecore/network/k3resolver.cpp:551 kdecore/network/netsupp.cpp:902
+msgid "name or service not known"
+msgstr "naam of diens nie bekend"
 
 #: kdecore/network/k3resolver.cpp:552
 msgid "requested family not supported"
@@ -5525,6 +5497,34 @@ msgstr ""
 msgctxt "SSL error"
 msgid "Unknown error"
 msgstr "Onbekende fout"
+
+#: kdecore/network/netsupp.cpp:895
+msgid "address family for nodename not supported"
+msgstr "adres familie vir nodenaam nie ondersteun"
+
+#: kdecore/network/netsupp.cpp:897
+msgid "invalid value for 'ai_flags'"
+msgstr "ongeldige waarde vir 'ai_flags'"
+
+#: kdecore/network/netsupp.cpp:899
+msgid "'ai_family' not supported"
+msgstr "'ai_family' nie ondersteun"
+
+#: kdecore/network/netsupp.cpp:901
+msgid "no address associated with nodename"
+msgstr "geen adres geassosieer met nodenaam"
+
+#: kdecore/network/netsupp.cpp:903
+msgid "servname not supported for ai_socktype"
+msgstr "bedienernaam nie ondersteun vir ai_socktype"
+
+#: kdecore/network/netsupp.cpp:904
+msgid "'ai_socktype' not supported"
+msgstr "'ai_socktype' nie ondersteun"
+
+#: kdecore/network/netsupp.cpp:905
+msgid "system error"
+msgstr "stelsel fout"
 
 #: kdecore/services/kmimetyperepository.cpp:611
 #, fuzzy, kde-format
@@ -5830,20 +5830,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "Auto Korrigeer"
 
-#: kdeui/actions/kaction.cpp:122
-#, kde-format
-msgid ""
-"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
-"from the 'Settings' menu to solve the ambiguity.\n"
-"No action will be triggered."
-msgstr ""
-
-#: kdeui/actions/kaction.cpp:126
-#, fuzzy
-#| msgid "Ambiguous \"%1\" not handled"
-msgid "Ambiguous shortcut detected"
-msgstr "Onduidelike \"%1\" nog nie gehandteer"
-
 #: kdeui/actions/krecentfilesaction.cpp:81
 #, fuzzy
 msgid "No Entries"
@@ -5943,6 +5929,20 @@ msgstr "Volskerm Modus"
 msgctxt "@info:tooltip"
 msgid "Display the window in full screen"
 msgstr ""
+
+#: kdeui/actions/kaction.cpp:122
+#, kde-format
+msgid ""
+"The key sequence '%1' is ambiguous. Use 'Configure Shortcuts'\n"
+"from the 'Settings' menu to solve the ambiguity.\n"
+"No action will be triggered."
+msgstr ""
+
+#: kdeui/actions/kaction.cpp:126
+#, fuzzy
+#| msgid "Ambiguous \"%1\" not handled"
+msgid "Ambiguous shortcut detected"
+msgstr "Onduidelike \"%1\" nog nie gehandteer"
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
 #, fuzzy
