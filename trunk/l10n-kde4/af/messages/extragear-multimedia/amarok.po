@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-11 04:20+0200\n"
+"POT-Creation-Date: 2012-07-12 03:48+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1751,7 +1751,7 @@ msgstr "Gee nuwe gids naam:"
 
 #: browsers/playlistbrowser/PlaylistsInFoldersProxy.cpp:333
 #: core-impl/collections/umscollection/podcasts/UmsPodcastProvider.cpp:254
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:140
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:156
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:98
 msgid "Confirm Delete"
 msgstr "Bevestig Verwyder"
@@ -3250,7 +3250,7 @@ msgstr ""
 "konteksaansig."
 
 #: context/engines/current/CurrentEngine.cpp:136 mac/GrowlInterface.cpp:43
-#: widgets/Osd.cpp:651 EngineController.cpp:1462
+#: widgets/Osd.cpp:651 EngineController.cpp:1466
 msgid "No track playing"
 msgstr "Geen snit speel tans"
 
@@ -3892,10 +3892,6 @@ msgid ""
 "the Saved Playlists tab."
 msgstr ""
 
-#: core-impl/collections/ipodcollection/support/IphoneMountPoint.cpp:56
-msgid "Connecting to iPhone, iPad or iPod touch failed."
-msgstr ""
-
 #: core-impl/collections/ipodcollection/support/IpodDeviceHelper.cpp:45
 msgid "Cannot parse iTunes database due to an unreported error."
 msgstr ""
@@ -4042,6 +4038,10 @@ msgstr ""
 msgid "Cannot initialize iPod due to an unreported error."
 msgstr ""
 
+#: core-impl/collections/ipodcollection/support/IphoneMountPoint.cpp:56
+msgid "Connecting to iPhone, iPad or iPod touch failed."
+msgstr ""
+
 #: core-impl/collections/ipodcollection/IpodPlaylistProvider.cpp:322
 #, kde-format
 msgid ""
@@ -4118,7 +4118,7 @@ msgstr "Versameling"
 
 #: core-impl/collections/ipodcollection/IpodMeta.cpp:203
 #: core-impl/collections/mediadevicecollection/MediaDeviceMeta.cpp:95
-#: EngineController.cpp:1441
+#: EngineController.cpp:1445
 msgid "Unknown track"
 msgstr "Onbekende snit"
 
@@ -4519,19 +4519,19 @@ msgstr "Onbekend"
 msgid "Stream (%1)"
 msgstr "Stroom (%1)"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:34
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:41
 #, fuzzy
 #| msgid "&Delete"
 msgid "&Delete..."
 msgstr "&Skrap"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:42
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:49
 #, fuzzy
 #| msgid "&Rename"
 msgid "&Rename..."
 msgstr "Hernoem"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:114
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:130
 #, fuzzy, kde-format
 #| msgid "Remove From Playlist"
 msgctxt "Number of playlists is >= 2"
@@ -4540,7 +4540,7 @@ msgid_plural "Remove %1 tracks from %2 playlists"
 msgstr[0] "Verwyder Vanuit Speellys"
 msgstr[1] "Verwyder Vanuit Speellys"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:120
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:136
 #, fuzzy, kde-format
 #| msgid "Removing Track from Device"
 #| msgid_plural "Removing Tracks from Device"
@@ -4550,7 +4550,7 @@ msgid_plural "Remove %1 tracks from %2"
 msgstr[0] "Verwyder Snit van Toestel"
 msgstr[1] "Verwyder Snit van Toestel"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:142
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:158
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:100
 #, fuzzy, kde-format
 #| msgid "Are you sure you want to delete this playlist?"
@@ -4560,7 +4560,7 @@ msgid_plural "Are you sure you want to delete these %1 playlists?"
 msgstr[0] "Is jy seker jy wil hierdie speellys skrap?"
 msgstr[1] "Is jy seker jy wil hierdie %1 speellys lêers skrap?"
 
-#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:149
+#: core-impl/playlists/providers/user/UserPlaylistProvider.cpp:165
 #: playlistmanager/sql/SqlUserPlaylistProvider.cpp:107
 #, fuzzy, kde-format
 #| msgid "Yes, delete from disk."
@@ -4843,6 +4843,83 @@ msgid "Transcoding and copying one track to %2"
 msgid_plural "Transcoding and copying %1 tracks to %2"
 msgstr[0] "Besig om lêers na die asblik te skuif"
 msgstr[1] "Besig om lêers na die asblik te skuif"
+
+#: core/meta/support/MetaUtility.cpp:409
+msgctxt ""
+"the time format for a time length when the time is below 1 hour see QTime "
+"documentation."
+msgid "m:ss"
+msgstr ""
+
+#: core/meta/support/MetaUtility.cpp:416
+#, fuzzy, kde-format
+#| msgid "%1 layout"
+msgctxt "number of days with spacing for the pretty time"
+msgid "%1 day, "
+msgid_plural "%1 days, "
+msgstr[0] "%1 uitleg"
+msgstr[1] "%1 uitleg"
+
+#: core/meta/support/MetaUtility.cpp:417
+msgctxt ""
+"the time format for a time length when the time is 1 hour or above see QTime "
+"documentation."
+msgid "h:mm:ss"
+msgstr ""
+
+#: core/meta/support/MetaUtility.cpp:431
+#, fuzzy, kde-format
+#| msgid "year"
+msgctxt "number of years for the pretty time"
+msgid "%1 year"
+msgid_plural "%1 years"
+msgstr[0] "jaar"
+msgstr[1] "jaar"
+
+#: core/meta/support/MetaUtility.cpp:433
+#, fuzzy, kde-format
+#| msgid "Months"
+msgctxt "number of months for the pretty time"
+msgid "%1 month"
+msgid_plural "%1 months"
+msgstr[0] "Maande"
+msgstr[1] "Maande"
+
+#: core/meta/support/MetaUtility.cpp:435
+#, fuzzy, kde-format
+#| msgid "%1 layout"
+msgctxt "number of days for the pretty time"
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 uitleg"
+msgstr[1] "%1 uitleg"
+
+#: core/meta/support/MetaUtility.cpp:437
+#, fuzzy, kde-format
+#| msgid "Hours"
+msgctxt "number of hours for the pretty time"
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "Ure"
+msgstr[1] "Ure"
+
+#: core/meta/support/MetaUtility.cpp:439
+#, fuzzy, kde-format
+#| msgid "Minutes"
+msgctxt "number of minutes for the pretty time"
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "Minute"
+msgstr[1] "Minute"
+
+#: core/meta/support/MetaUtility.cpp:441
+#, fuzzy, kde-format
+#| msgid "Seconds"
+msgctxt "number of seconds for the pretty time"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "Sekondes"
+msgstr[1] "Sekondes"
 
 #: core/meta/support/MetaConstants.cpp:170
 #, fuzzy
@@ -5204,83 +5281,6 @@ msgstr "Etiket"
 msgctxt "One word translation used in the collection filter"
 msgid "modified"
 msgstr "gewysig"
-
-#: core/meta/support/MetaUtility.cpp:409
-msgctxt ""
-"the time format for a time length when the time is below 1 hour see QTime "
-"documentation."
-msgid "m:ss"
-msgstr ""
-
-#: core/meta/support/MetaUtility.cpp:416
-#, fuzzy, kde-format
-#| msgid "%1 layout"
-msgctxt "number of days with spacing for the pretty time"
-msgid "%1 day, "
-msgid_plural "%1 days, "
-msgstr[0] "%1 uitleg"
-msgstr[1] "%1 uitleg"
-
-#: core/meta/support/MetaUtility.cpp:417
-msgctxt ""
-"the time format for a time length when the time is 1 hour or above see QTime "
-"documentation."
-msgid "h:mm:ss"
-msgstr ""
-
-#: core/meta/support/MetaUtility.cpp:431
-#, fuzzy, kde-format
-#| msgid "year"
-msgctxt "number of years for the pretty time"
-msgid "%1 year"
-msgid_plural "%1 years"
-msgstr[0] "jaar"
-msgstr[1] "jaar"
-
-#: core/meta/support/MetaUtility.cpp:433
-#, fuzzy, kde-format
-#| msgid "Months"
-msgctxt "number of months for the pretty time"
-msgid "%1 month"
-msgid_plural "%1 months"
-msgstr[0] "Maande"
-msgstr[1] "Maande"
-
-#: core/meta/support/MetaUtility.cpp:435
-#, fuzzy, kde-format
-#| msgid "%1 layout"
-msgctxt "number of days for the pretty time"
-msgid "%1 day"
-msgid_plural "%1 days"
-msgstr[0] "%1 uitleg"
-msgstr[1] "%1 uitleg"
-
-#: core/meta/support/MetaUtility.cpp:437
-#, fuzzy, kde-format
-#| msgid "Hours"
-msgctxt "number of hours for the pretty time"
-msgid "%1 hour"
-msgid_plural "%1 hours"
-msgstr[0] "Ure"
-msgstr[1] "Ure"
-
-#: core/meta/support/MetaUtility.cpp:439
-#, fuzzy, kde-format
-#| msgid "Minutes"
-msgctxt "number of minutes for the pretty time"
-msgid "%1 minute"
-msgid_plural "%1 minutes"
-msgstr[0] "Minute"
-msgstr[1] "Minute"
-
-#: core/meta/support/MetaUtility.cpp:441
-#, fuzzy, kde-format
-#| msgid "Seconds"
-msgctxt "number of seconds for the pretty time"
-msgid "%1 second"
-msgid_plural "%1 seconds"
-msgstr[0] "Sekondes"
-msgstr[1] "Sekondes"
 
 #: core/podcasts/PodcastReader.cpp:455
 #, kde-format
@@ -9204,7 +9204,7 @@ msgstr ""
 msgid "Playlist Files on Disk"
 msgstr "Speellys Lêers op Skyf"
 
-#: playlistmanager/file/PlaylistFileProvider.cpp:276
+#: playlistmanager/file/PlaylistFileProvider.cpp:275
 #, kde-format
 msgid "The playlist file \"%1\" could not be loaded."
 msgstr "Kon nie die speellys lêer \"%1\" laai nie."
@@ -11139,7 +11139,7 @@ msgstr ""
 "besonderhede is beskikbaar in die README lêer. Vir nog bystand sluit aan by "
 "#amarok op irc.freenode.net.</p>"
 
-#: EngineController.cpp:297
+#: EngineController.cpp:299
 msgid ""
 "<p>Phonon claims it <b>cannot</b> play MP3 files. You may want to examine "
 "the installation of the backend that phonon uses.</p><p>You may find useful "
@@ -11150,11 +11150,11 @@ msgstr ""
 "nuttige inligting vind in die <i>FAQ</i> (Veel Voorkomende Vrae) afdeling "
 "van die <i>Amarok Handboek</i>.</p>"
 
-#: EngineController.cpp:320
+#: EngineController.cpp:322
 msgid "Install MP3 Support"
 msgstr "Installeer MP3 Ondersteuning"
 
-#: EngineController.cpp:322
+#: EngineController.cpp:324
 msgid ""
 "Amarok currently cannot play MP3 files. Do you want to install support for "
 "MP3?"
@@ -11162,49 +11162,49 @@ msgstr ""
 "Amarok is nie tans in staat om MP3 lêers te speel nie. Wil jy ondersteuning "
 "vir MP3 installeer?"
 
-#: EngineController.cpp:323
+#: EngineController.cpp:325
 msgid "No MP3 Support"
 msgstr "Geen MP3 Ondersteuning"
 
-#: EngineController.cpp:901
+#: EngineController.cpp:903
 msgid "Preamp"
 msgstr "Vooraf versterking"
 
-#: EngineController.cpp:907
+#: EngineController.cpp:909
 msgid ""
 "%0\n"
 "Hz"
 msgstr ""
 
-#: EngineController.cpp:911
+#: EngineController.cpp:913
 msgid ""
 "%0\n"
 "kHz"
 msgstr ""
 
-#: EngineController.cpp:1208
+#: EngineController.cpp:1212
 msgid "Too many errors encountered in playlist. Playback stopped."
 msgstr "Te veel foute teëgekom in speellys. Opgehou speel. "
 
-#: EngineController.cpp:1429
+#: EngineController.cpp:1433
 #, kde-format
 msgctxt "track by artist on album"
 msgid "<b>%1</b> by <b>%2</b> on <b>%3</b>"
 msgstr "<b>%1</b> deur <b>%2</b> op <b>%3</b>"
 
-#: EngineController.cpp:1432
+#: EngineController.cpp:1436
 #, kde-format
 msgctxt "track by artist"
 msgid "<b>%1</b> by <b>%2</b>"
 msgstr "<b>%1</b> deur <b>%2</b>"
 
-#: EngineController.cpp:1436
+#: EngineController.cpp:1440
 #, kde-format
 msgctxt "track on album"
 msgid "<b>%1</b> on <b>%2</b>"
 msgstr "<b>%1</b> op <b>%2</b>"
 
-#: EngineController.cpp:1448
+#: EngineController.cpp:1452
 #, kde-format
 msgctxt "track from source"
 msgid "from <b>%1</b>"
