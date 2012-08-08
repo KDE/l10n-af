@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-14 06:04+0200\n"
+"POT-Creation-Date: 2012-08-07 21:36+0200\n"
 "PO-Revision-Date: 2005-11-24 11:27+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -929,32 +929,6 @@ msgstr ""
 msgid "Document to open"
 msgstr "Dokument om oop te maak"
 
-#: app/kateviewspace.cpp:277 app/kateviewspace.cpp:389
-#, kde-format
-msgid " Line: %1 Col: %2 "
-msgstr " Lyn: %1 Kolom: %2 "
-
-#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:395
-#, kde-format
-msgid " Characters: %1 "
-msgstr ""
-
-#: app/kateviewspace.cpp:298
-msgid " INS "
-msgstr " INS "
-
-#: app/kateviewspace.cpp:303 app/kateviewspace.cpp:404
-#, fuzzy
-#| msgid " INS "
-msgid " LINE "
-msgstr " INS "
-
-#: app/kateviewspace.cpp:404
-#, fuzzy
-#| msgid " BLK "
-msgid " BLOCK "
-msgstr " BLK "
-
 #: app/katemdi.cpp:122
 msgid "Tool &Views"
 msgstr "Nutsprogram Aansigte"
@@ -1025,6 +999,40 @@ msgstr ""
 "nie. Om die kantbalk terug te bring, moet jy <b>Venster ^gt; Nuts aansigte "
 "&gt; Vertoon kantbalke</b> in die kieslys kies. Dit sal steeds moontlik wees "
 "om die nuts aansigte met die kortpad sleutels te wys of weg te steek."
+
+#: app/kateviewspace.cpp:277 app/kateviewspace.cpp:389
+#, kde-format
+msgid " Line: %1 Col: %2 "
+msgstr " Lyn: %1 Kolom: %2 "
+
+#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:395
+#, kde-format
+msgid " Characters: %1 "
+msgstr ""
+
+#: app/kateviewspace.cpp:298
+msgid " INS "
+msgstr " INS "
+
+#: app/kateviewspace.cpp:303 app/kateviewspace.cpp:404
+#, fuzzy
+#| msgid " INS "
+msgid " LINE "
+msgstr " INS "
+
+#: app/kateviewspace.cpp:404
+#, fuzzy
+#| msgid " BLK "
+msgid " BLOCK "
+msgstr " BLK "
+
+#: app/kateapp.cpp:226 app/kateapp.cpp:352
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr ""
+"Die lêer '%1' kon nie oopgemaak word nie: dit is nie 'n normale lêer nie, "
+"maar 'n gids."
 
 #: app/kateappcommands.cpp:89
 #, fuzzy
@@ -1145,6 +1153,73 @@ msgid ""
 "b></tt></p><p>Starts <b>e</b>diting the current document again. This is "
 "useful to re-edit the current file, when it has been changed by another "
 "program.</p>"
+msgstr ""
+
+#: app/katedocmanager.cpp:68
+#, fuzzy
+#| msgid ""
+#| "A KDE text-editor component could not be found;\n"
+#| "please check your KDE installation."
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation."
+msgstr ""
+"'n KDE teks redigeerder komponent kon nie gevind word nie;\n"
+"gaan asb. jou KDE installasie na."
+
+#: app/katedocmanager.cpp:308
+#, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
+msgstr ""
+
+#: app/katedocmanager.cpp:310
+#, fuzzy
+msgid "Delete File?"
+msgstr "Uitgevee"
+
+#: app/katedocmanager.cpp:450
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
+#| "save your changes or discard them?"
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr ""
+"<p>Die dokument '%1' was verander, maar nog nie gestoor nie.<p>Wil jy jou "
+"veranderinge stoor of weggooi?"
+
+#: app/katedocmanager.cpp:452
+msgid "Close Document"
+msgstr "Maak Dokument Toe"
+
+#: app/katedocmanager.cpp:459
+#, fuzzy
+msgid "Save As"
+msgstr "Stoor As..."
+
+#: app/katedocmanager.cpp:485 app/katemainwindow.cpp:432
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr ""
+"Nuwe lêer was oopgemaak terwyl Kate besig was om toe te maak. Toemaak "
+"gestaak."
+
+#: app/katedocmanager.cpp:486 app/katemainwindow.cpp:433
+msgid "Closing Aborted"
+msgstr "Toemaak gestaak"
+
+#: app/katedocmanager.cpp:558
+msgid "Starting Up"
+msgstr "Besig om op te start"
+
+#: app/katedocmanager.cpp:559
+msgid "Reopening files from the last session..."
+msgstr "Maak die lêers van die vorige sessie oop..."
+
+#: app/katedocmanager.cpp:738
+msgid "Errors/Warnings while opening documents"
 msgstr ""
 
 #: app/katemainwindow.cpp:229
@@ -1328,16 +1403,6 @@ msgstr ""
 msgid "Close all documents"
 msgstr "Maak toe alle open dokumente."
 
-#: app/katemainwindow.cpp:432 app/katedocmanager.cpp:485
-msgid "New file opened while trying to close Kate, closing aborted."
-msgstr ""
-"Nuwe lêer was oopgemaak terwyl Kate besig was om toe te maak. Toemaak "
-"gestaak."
-
-#: app/katemainwindow.cpp:433 app/katedocmanager.cpp:486
-msgid "Closing Aborted"
-msgstr "Toemaak gestaak"
-
 #: app/katemainwindow.cpp:725
 msgid "&Other..."
 msgstr "Ander..."
@@ -1352,71 +1417,6 @@ msgstr "Program: '%1' kon nie opgespoor word nie"
 #, fuzzy
 msgid "Application not found"
 msgstr "Program nie gevind"
-
-#: app/katedocmanager.cpp:68
-#, fuzzy
-#| msgid ""
-#| "A KDE text-editor component could not be found;\n"
-#| "please check your KDE installation."
-msgid ""
-"A KDE text-editor component could not be found.\n"
-"Please check your KDE installation."
-msgstr ""
-"'n KDE teks redigeerder komponent kon nie gevind word nie;\n"
-"gaan asb. jou KDE installasie na."
-
-#: app/katedocmanager.cpp:308
-#, kde-format
-msgid ""
-"The supposedly temporary file %1 has been modified. Do you want to delete it "
-"anyway?"
-msgstr ""
-
-#: app/katedocmanager.cpp:310
-#, fuzzy
-msgid "Delete File?"
-msgstr "Uitgevee"
-
-#: app/katedocmanager.cpp:450
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>The document '%1' has been modified, but not saved.<p>Do you want to "
-#| "save your changes or discard them?"
-msgid ""
-"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
-"save your changes or discard them?</p>"
-msgstr ""
-"<p>Die dokument '%1' was verander, maar nog nie gestoor nie.<p>Wil jy jou "
-"veranderinge stoor of weggooi?"
-
-#: app/katedocmanager.cpp:452
-msgid "Close Document"
-msgstr "Maak Dokument Toe"
-
-#: app/katedocmanager.cpp:459
-#, fuzzy
-msgid "Save As"
-msgstr "Stoor As..."
-
-#: app/katedocmanager.cpp:558
-msgid "Starting Up"
-msgstr "Besig om op te start"
-
-#: app/katedocmanager.cpp:559
-msgid "Reopening files from the last session..."
-msgstr "Maak die lêers van die vorige sessie oop..."
-
-#: app/katedocmanager.cpp:738
-msgid "Errors/Warnings while opening documents"
-msgstr ""
-
-#: app/kateapp.cpp:226 app/kateapp.cpp:352
-#, kde-format
-msgid ""
-"The file '%1' could not be opened: it is not a normal file, it is a folder."
-msgstr ""
-"Die lêer '%1' kon nie oopgemaak word nie: dit is nie 'n normale lêer nie, "
-"maar 'n gids."
 
 #: app/katemwmodonhddialog.cpp:65
 msgid "Documents Modified on Disk"
