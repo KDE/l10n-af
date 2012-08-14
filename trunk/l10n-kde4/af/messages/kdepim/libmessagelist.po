@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-07 08:29+0200\n"
+"POT-Creation-Date: 2012-08-14 07:31+0200\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -208,96 +208,6 @@ msgctxt "Status of an item"
 msgid "Ignored"
 msgstr "Ignoreer gesprekslyn"
 
-#: core/model.cpp:290
-#, fuzzy
-msgid "Today"
-msgstr "Aan: "
-
-#: core/model.cpp:291
-msgid "Yesterday"
-msgstr ""
-
-#: core/model.cpp:293 core/manager.cpp:100
-#, fuzzy
-msgctxt "Unknown date"
-msgid "Unknown"
-msgstr "Stuur aan"
-
-#: core/model.cpp:294
-msgid "Last Week"
-msgstr ""
-
-#: core/model.cpp:295
-msgid "Two Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:296
-msgid "Three Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:297
-msgid "Four Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:298
-msgid "Five Weeks Ago"
-msgstr ""
-
-#: core/model.cpp:505 utils/themeeditor.cpp:204
-#, fuzzy
-#| msgid "Receiver"
-msgid "Receiver"
-msgstr "Ontvanger"
-
-#: core/model.cpp:506 utils/themeeditor.cpp:203
-msgid "Sender"
-msgstr "Stuurder"
-
-#: core/model.cpp:1331
-#, fuzzy, kde-format
-#| msgid "Mail"
-msgctxt "Message Aggregation Group Header: Month name and Year number"
-msgid "%1 %2"
-msgstr "Pos"
-
-#: core/model.cpp:3774
-#, fuzzy, kde-format
-msgid "Processed 1 Message of %2"
-msgid_plural "Processed %1 Messages of %2"
-msgstr[0] "Gesprekslyn boodskappe"
-msgstr[1] "Gesprekslyn boodskappe"
-
-#: core/model.cpp:3780 core/model.cpp:3786
-#, fuzzy, kde-format
-msgid "Threaded 1 Message of %2"
-msgid_plural "Threaded %1 Messages of %2"
-msgstr[0] "Gesprekslyn boodskappe"
-msgstr[1] "Gesprekslyn boodskappe"
-
-#: core/model.cpp:3792
-#, fuzzy, kde-format
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Grouped 1 Thread of %2"
-msgid_plural "Grouped %1 Threads of %2"
-msgstr[0] "Vou gesprekslyn uit"
-msgstr[1] "Vou gesprekslyn uit"
-
-#: core/model.cpp:3798
-#, fuzzy, kde-format
-#| msgctxt "View->"
-#| msgid "&Expand Thread"
-msgid "Updated 1 Group of %2"
-msgid_plural "Updated %1 Groups of %2"
-msgstr[0] "Vou gesprekslyn uit"
-msgstr[1] "Vou gesprekslyn uit"
-
-#: core/model.cpp:3895
-#, fuzzy
-msgctxt "@info:status Finished view fill"
-msgid "Ready"
-msgstr "Ongelees"
-
 #: core/view.cpp:775
 msgid "Adjust Column Sizes"
 msgstr ""
@@ -496,6 +406,12 @@ msgid "<b>%1</b> message (<b>%2</b> unread)"
 msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
 msgstr[0] ""
 msgstr[1] ""
+
+#: core/manager.cpp:100 core/model.cpp:293
+#, fuzzy
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "Stuur aan"
 
 #: core/manager.cpp:321
 msgid "Current Activity, Threaded"
@@ -999,7 +915,7 @@ msgid "Ham"
 msgstr "Ham"
 
 #: core/widgetbase.cpp:490 core/widgetbase.cpp:578
-#: utils/themeconfigbutton.cpp:46 utils/aggregationconfigbutton.cpp:45
+#: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:62
 #, fuzzy
 msgid "Configure..."
 msgstr "Stel KMail op..."
@@ -1039,6 +955,90 @@ msgstr ""
 msgctxt "@info:tooltip"
 msgid "Lock search"
 msgstr ""
+
+#: core/model.cpp:290
+#, fuzzy
+msgid "Today"
+msgstr "Aan: "
+
+#: core/model.cpp:291
+msgid "Yesterday"
+msgstr ""
+
+#: core/model.cpp:294
+msgid "Last Week"
+msgstr ""
+
+#: core/model.cpp:295
+msgid "Two Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:296
+msgid "Three Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:297
+msgid "Four Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:298
+msgid "Five Weeks Ago"
+msgstr ""
+
+#: core/model.cpp:505 utils/themeeditor.cpp:204
+#, fuzzy
+#| msgid "Receiver"
+msgid "Receiver"
+msgstr "Ontvanger"
+
+#: core/model.cpp:506 utils/themeeditor.cpp:203
+msgid "Sender"
+msgstr "Stuurder"
+
+#: core/model.cpp:1331
+#, fuzzy, kde-format
+#| msgid "Mail"
+msgctxt "Message Aggregation Group Header: Month name and Year number"
+msgid "%1 %2"
+msgstr "Pos"
+
+#: core/model.cpp:3774
+#, fuzzy, kde-format
+msgid "Processed 1 Message of %2"
+msgid_plural "Processed %1 Messages of %2"
+msgstr[0] "Gesprekslyn boodskappe"
+msgstr[1] "Gesprekslyn boodskappe"
+
+#: core/model.cpp:3780 core/model.cpp:3786
+#, fuzzy, kde-format
+msgid "Threaded 1 Message of %2"
+msgid_plural "Threaded %1 Messages of %2"
+msgstr[0] "Gesprekslyn boodskappe"
+msgstr[1] "Gesprekslyn boodskappe"
+
+#: core/model.cpp:3792
+#, fuzzy, kde-format
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Grouped 1 Thread of %2"
+msgid_plural "Grouped %1 Threads of %2"
+msgstr[0] "Vou gesprekslyn uit"
+msgstr[1] "Vou gesprekslyn uit"
+
+#: core/model.cpp:3798
+#, fuzzy, kde-format
+#| msgctxt "View->"
+#| msgid "&Expand Thread"
+msgid "Updated 1 Group of %2"
+msgid_plural "Updated %1 Groups of %2"
+msgstr[0] "Vou gesprekslyn uit"
+msgstr[1] "Vou gesprekslyn uit"
+
+#: core/model.cpp:3895
+#, fuzzy
+msgctxt "@info:status Finished view fill"
+msgid "Ready"
+msgstr "Ongelees"
 
 #: core/sortorder.cpp:41 core/sortorder.cpp:85
 msgid "None (Storage Order)"
@@ -1177,6 +1177,25 @@ msgstr "Kaneleer"
 msgid "Fill view strategy:"
 msgstr ""
 
+#: utils/optionseteditor.cpp:40
+#, fuzzy
+msgctxt "@title:tab General options of a view mode"
+msgid "General"
+msgstr "Beantwoord"
+
+#: utils/optionseteditor.cpp:44
+#, fuzzy
+msgctxt "@label:textbox Name of the option"
+msgid "Name:"
+msgstr "Vee boodskappe uit"
+
+#: utils/optionseteditor.cpp:54
+#, fuzzy
+#| msgid "Subscription"
+msgctxt "@label:textbox Description of the option"
+msgid "Description:"
+msgstr "Intekenings"
+
 #: utils/configureaggregationsdialog.cpp:98
 msgid "Customize Message Aggregation Modes"
 msgstr ""
@@ -1230,30 +1249,11 @@ msgstr "Vee Uit"
 msgid "Unnamed Theme"
 msgstr "Onbenoem"
 
-#: utils/configurethemesdialog.cpp:326 utils/themeeditor.cpp:1289
+#: utils/configurethemesdialog.cpp:326 utils/themeeditor.cpp:1288
 #, fuzzy
 #| msgid "View Columns"
 msgid "New Column"
 msgstr "Besigtig Kolomme"
-
-#: utils/optionseteditor.cpp:40
-#, fuzzy
-msgctxt "@title:tab General options of a view mode"
-msgid "General"
-msgstr "Beantwoord"
-
-#: utils/optionseteditor.cpp:44
-#, fuzzy
-msgctxt "@label:textbox Name of the option"
-msgid "Name:"
-msgstr "Vee boodskappe uit"
-
-#: utils/optionseteditor.cpp:54
-#, fuzzy
-#| msgid "Subscription"
-msgctxt "@label:textbox Description of the option"
-msgid "Description:"
-msgstr "Intekenings"
 
 #: utils/themeeditor.cpp:84
 #, fuzzy
@@ -1326,52 +1326,52 @@ msgstr "Boodskap"
 msgid "Sample Tag 3"
 msgstr "Boodskap"
 
-#: utils/themeeditor.cpp:426
+#: utils/themeeditor.cpp:425
 msgctxt "Indicates whether or not a header label is visible"
 msgid "Visible"
 msgstr ""
 
-#: utils/themeeditor.cpp:882
+#: utils/themeeditor.cpp:881
 #, fuzzy
 msgctxt "@action:inmenu soften the text color"
 msgid "Soften"
 msgstr "Stuurder"
 
-#: utils/themeeditor.cpp:892
+#: utils/themeeditor.cpp:891
 #, fuzzy
 #| msgid "Delete Folder"
 msgctxt "@action:inmenu Font setting"
 msgid "Default"
 msgstr "Vee Gids uit"
 
-#: utils/themeeditor.cpp:897
+#: utils/themeeditor.cpp:896
 msgctxt "@action:inmenu Font setting"
 msgid "Custom..."
 msgstr ""
 
-#: utils/themeeditor.cpp:910
+#: utils/themeeditor.cpp:909
 #, fuzzy
 #| msgid "Contacts"
 msgid "Font"
 msgstr "Inhoud"
 
-#: utils/themeeditor.cpp:920
+#: utils/themeeditor.cpp:919
 #, fuzzy
 #| msgid "Delete Folder"
 msgctxt "@action:inmenu Foreground color setting"
 msgid "Default"
 msgstr "Vee Gids uit"
 
-#: utils/themeeditor.cpp:925
+#: utils/themeeditor.cpp:924
 msgctxt "@action:inmenu Foreground color setting"
 msgid "Custom..."
 msgstr ""
 
-#: utils/themeeditor.cpp:938
+#: utils/themeeditor.cpp:937
 msgid "Foreground Color"
 msgstr ""
 
-#: utils/themeeditor.cpp:949
+#: utils/themeeditor.cpp:948
 #, fuzzy
 #| msgctxt "View->attachments->"
 #| msgid "&Hide"
@@ -1381,200 +1381,127 @@ msgctxt ""
 msgid "Hide"
 msgstr "Steek weg"
 
-#: utils/themeeditor.cpp:954
+#: utils/themeeditor.cpp:953
 msgctxt ""
 "Keep a empty space in the list if the mail does not have the attribute, e.g. "
 "Important mark on a non important mail"
 msgid "Keep Empty Space"
 msgstr ""
 
-#: utils/themeeditor.cpp:959
+#: utils/themeeditor.cpp:958
 msgctxt ""
 "Show the icon softened in the list if the mail does not have the attribute, "
 "e.g. Important mark on a non important mail"
 msgid "Keep Softened Icon"
 msgstr ""
 
-#: utils/themeeditor.cpp:968
+#: utils/themeeditor.cpp:967
 msgid "When Disabled"
 msgstr ""
 
-#: utils/themeeditor.cpp:977
+#: utils/themeeditor.cpp:976
 #, fuzzy
 #| msgid "Remove Header"
 msgid "Group Header"
 msgstr "Verwyder Opskrif"
 
-#: utils/themeeditor.cpp:985
+#: utils/themeeditor.cpp:984
 #, fuzzy
 msgctxt "@action:inmenu Group header background color setting"
 msgid "None"
 msgstr "Klaar"
 
-#: utils/themeeditor.cpp:990
+#: utils/themeeditor.cpp:989
 #, fuzzy
 #| msgid "Auto"
 msgctxt "@action:inmenu Group header background color setting"
 msgid "Automatic"
 msgstr "Outo"
 
-#: utils/themeeditor.cpp:995
+#: utils/themeeditor.cpp:994
 msgctxt "@action:inmenu Group header background color setting"
 msgid "Custom..."
 msgstr ""
 
-#: utils/themeeditor.cpp:1008
+#: utils/themeeditor.cpp:1007
 msgid "Background Color"
 msgstr ""
 
-#: utils/themeeditor.cpp:1031
+#: utils/themeeditor.cpp:1030
 msgid "Background Style"
 msgstr ""
 
-#: utils/themeeditor.cpp:1224 utils/themeeditor.cpp:1323
+#: utils/themeeditor.cpp:1223 utils/themeeditor.cpp:1322
 #, fuzzy
 msgid "Column Properties"
 msgstr "Eienskappe"
 
-#: utils/themeeditor.cpp:1228
+#: utils/themeeditor.cpp:1227
 #, fuzzy
 #| msgid "Add Attachment..."
 msgid "Add Column..."
 msgstr "Voeg aangangesl by..."
 
-#: utils/themeeditor.cpp:1232
+#: utils/themeeditor.cpp:1231
 #, fuzzy
 #| msgid "Delete Folder"
 msgid "Delete Column"
 msgstr "Vee Gids uit"
 
-#: utils/themeeditor.cpp:1239
+#: utils/themeeditor.cpp:1238
 msgid "Move Column to Left"
 msgstr ""
 
-#: utils/themeeditor.cpp:1245
+#: utils/themeeditor.cpp:1244
 msgid "Move Column to Right"
 msgstr ""
 
-#: utils/themeeditor.cpp:1296
+#: utils/themeeditor.cpp:1295
 #, fuzzy
 #| msgid "View Columns"
 msgid "Add New Column"
 msgstr "Besigtig Kolomme"
 
-#: utils/themeeditor.cpp:1368
+#: utils/themeeditor.cpp:1367
 msgid "Appearance"
 msgstr ""
 
-#: utils/themeeditor.cpp:1372
+#: utils/themeeditor.cpp:1371
 #, fuzzy
 #| msgid "Contacts"
 msgid "Content Items"
 msgstr "Inhoud"
 
-#: utils/themeeditor.cpp:1513
+#: utils/themeeditor.cpp:1512
 msgid ""
 "Right click on the header to add or modify columns. Drag the content items "
 "and drop them on the columns in order to compose your theme. Right click on "
 "the items inside the view for more options."
 msgstr ""
 
-#: utils/themeeditor.cpp:1522
+#: utils/themeeditor.cpp:1521
 #, fuzzy
 msgctxt "@title:tab Advanced theme settings"
 msgid "Advanced"
 msgstr "Kaneleer"
 
-#: utils/themeeditor.cpp:1526
+#: utils/themeeditor.cpp:1525
 #, fuzzy
 msgid "Header:"
 msgstr "Voeg Opskrif By"
 
-#: utils/themeeditor.cpp:1532
+#: utils/themeeditor.cpp:1531
 #, fuzzy
 #| msgid "Size"
 msgid "Icon size:"
 msgstr "Grootte"
 
-#: utils/themeeditor.cpp:1538
+#: utils/themeeditor.cpp:1537
 msgctxt "suffix in a spinbox"
 msgid " pixel"
 msgid_plural " pixels"
 msgstr[0] ""
 msgstr[1] ""
-
-#: pane.cpp:132
-msgctxt "@info:tooltip"
-msgid "Open a new tab"
-msgstr ""
-
-#: pane.cpp:134
-msgid "New tab"
-msgstr ""
-
-#: pane.cpp:143
-#, fuzzy
-#| msgid "Collapse the current thread"
-msgctxt "@info:tooltip"
-msgid "Close the current tab"
-msgstr "Vou die huidige gesprekslyn in"
-
-#: pane.cpp:145 pane.cpp:208
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "C&ollapse All Threads"
-msgid "Close tab"
-msgstr "Vou alle gesprekslyne in"
-
-#: pane.cpp:197
-#, fuzzy
-msgid "Message List"
-msgstr "Boodskap"
-
-#: pane.cpp:202
-#, fuzzy
-msgid "Create new tab"
-msgstr "Redigeer Identiteit"
-
-#: pane.cpp:218
-#, kde-format
-msgid "Activate Tab %1"
-msgstr ""
-
-#: pane.cpp:224
-msgid "Activate Next Tab"
-msgstr ""
-
-#: pane.cpp:229
-msgid "Activate Previous Tab"
-msgstr ""
-
-#: pane.cpp:235
-msgid "Move Tab Left"
-msgstr ""
-
-#: pane.cpp:240
-msgid "Move Tab Right"
-msgstr ""
-
-#: pane.cpp:419 pane.cpp:650
-#, fuzzy
-msgctxt "@title:tab Empty messagelist"
-msgid "Empty"
-msgstr "Leeg"
-
-#: pane.cpp:582
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr ""
-
-#: pane.cpp:588
-#, fuzzy
-#| msgctxt "View->"
-#| msgid "C&ollapse All Threads"
-msgctxt "@action:inmenu"
-msgid "Close All Other Tabs"
-msgstr "Vou alle gesprekslyne in"
 
 #: storagemodel.cpp:261
 #, fuzzy
@@ -1635,6 +1562,79 @@ msgstr "Kopiëer hierna"
 #: widget.cpp:406
 msgid "C&ancel"
 msgstr "Kaneleer"
+
+#: pane.cpp:134
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr ""
+
+#: pane.cpp:136
+msgid "New tab"
+msgstr ""
+
+#: pane.cpp:145
+#, fuzzy
+#| msgid "Collapse the current thread"
+msgctxt "@info:tooltip"
+msgid "Close the current tab"
+msgstr "Vou die huidige gesprekslyn in"
+
+#: pane.cpp:147 pane.cpp:210
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "C&ollapse All Threads"
+msgid "Close tab"
+msgstr "Vou alle gesprekslyne in"
+
+#: pane.cpp:199
+#, fuzzy
+msgid "Message List"
+msgstr "Boodskap"
+
+#: pane.cpp:204
+#, fuzzy
+msgid "Create new tab"
+msgstr "Redigeer Identiteit"
+
+#: pane.cpp:220
+#, kde-format
+msgid "Activate Tab %1"
+msgstr ""
+
+#: pane.cpp:226
+msgid "Activate Next Tab"
+msgstr ""
+
+#: pane.cpp:231
+msgid "Activate Previous Tab"
+msgstr ""
+
+#: pane.cpp:237
+msgid "Move Tab Left"
+msgstr ""
+
+#: pane.cpp:242
+msgid "Move Tab Right"
+msgstr ""
+
+#: pane.cpp:419 pane.cpp:652
+#, fuzzy
+msgctxt "@title:tab Empty messagelist"
+msgid "Empty"
+msgstr "Leeg"
+
+#: pane.cpp:584
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr ""
+
+#: pane.cpp:590
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "C&ollapse All Threads"
+msgctxt "@action:inmenu"
+msgid "Close All Other Tabs"
+msgstr "Vou alle gesprekslyne in"
 
 #. i18n: file: core/settings.kcfg:10
 #. i18n: ectx: label, entry (MessageToolTipEnabled), group (MessageListView)
