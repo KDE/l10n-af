@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-14 05:14+0200\n"
+"POT-Creation-Date: 2012-08-15 03:58+0200\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -2384,7 +2384,7 @@ msgstr ""
 #: dialogs/FilenameLayoutDialog.cpp:62 dialogs/FilenameLayoutDialog.cpp:435
 #: dialogs/transferdialog.cpp:88 musicbrainz/MusicBrainzTags.cpp:359
 #: playlist/PlaylistModel.cpp:893 services/jamendo/JamendoInfoParser.cpp:51
-#: services/lastfm/LastFmService.cpp:507
+#: services/lastfm/LastFmService.cpp:490
 #: services/magnatune/MagnatuneStore.cpp:218
 #: widgets/SmartPlaylistEditor.cpp:183 widgets/SmartPlaylistEditor.cpp:197
 msgid "Artist"
@@ -2646,7 +2646,7 @@ msgstr ""
 
 #. i18n: file: context/applets/spectrumanalyzer/spectrumAnalyzerSettings.ui:137
 #. i18n: ectx: property (shortcut), widget (QCheckBox, cutCheckBox)
-#: rc.cpp:1176 services/lastfm/meta/LastFmMeta.cpp:109
+#: rc.cpp:1176 services/lastfm/meta/LastFmMeta.cpp:96
 msgid "Ctrl+S"
 msgstr "Ctrl+S"
 
@@ -5245,7 +5245,7 @@ msgstr "<a href=\"http://www.last.fm:80/signup.php\">Teken in op last.fm</a>"
 #. i18n: ectx: property (text), widget (QPushButton, testLogin)
 #. i18n: file: services/gpodder/GpodderConfigWidget.ui:91
 #. i18n: ectx: property (text), widget (QPushButton, testLogin)
-#: rc.cpp:2425 rc.cpp:2612 services/lastfm/LastFmServiceSettings.cpp:220
+#: rc.cpp:2425 rc.cpp:2612 services/lastfm/LastFmServiceSettings.cpp:216
 #: services/gpodder/GpodderServiceSettings.cpp:231
 msgid "&Test Login"
 msgstr "Toets Aanteken"
@@ -5595,7 +5595,7 @@ msgstr ""
 
 #. i18n: file: services/magnatune/MagnatuneSignupDialogBase.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, closeButton)
-#: rc.cpp:2550 context/applets/albums/Albums.cpp:342
+#: rc.cpp:2550 context/applets/albums/Albums.cpp:343
 #: context/applets/lyrics/LyricsApplet.cpp:473
 msgid "Close"
 msgstr "Afsluit"
@@ -7005,32 +7005,6 @@ msgstr "Filter boekmerke"
 msgid "Start typing to progressively filter the bookmarks"
 msgstr "Begin tik om die boekmerke geleidelik te filter"
 
-#: amarokurls/BookmarkModel.cpp:86
-#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:411
-msgid "Group"
-msgstr "Groep"
-
-#: amarokurls/BookmarkModel.cpp:266
-#: browsers/playlistbrowser/PodcastModel.cpp:333
-#: playlist/PlaylistModel.cpp:904
-msgid "Type"
-msgstr "Soort"
-
-#: amarokurls/BookmarkModel.cpp:522
-msgid "New Group"
-msgstr "Nuwe Groep"
-
-#: amarokurls/BookmarkModel.cpp:548
-#: context/applets/similarartists/ArtistWidget.cpp:442
-#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:162
-#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:163
-#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:165
-#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:166
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:205
-#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:229
-msgid "none"
-msgstr "geen"
-
 #: amarokurls/ContextUrlGenerator.cpp:56
 #, kde-format
 msgid "Context: %1"
@@ -7123,6 +7097,32 @@ msgstr "Nuwe Timecode Snit"
 #: core-impl/collections/audiocd/AudioCdCollection.cpp:450 MainWindow.cpp:1177
 msgid "Unknown"
 msgstr "Onbekend"
+
+#: amarokurls/BookmarkModel.cpp:86
+#: browsers/playlistbrowser/PlaylistBrowserModel.cpp:411
+msgid "Group"
+msgstr "Groep"
+
+#: amarokurls/BookmarkModel.cpp:266
+#: browsers/playlistbrowser/PodcastModel.cpp:333
+#: playlist/PlaylistModel.cpp:904
+msgid "Type"
+msgstr "Soort"
+
+#: amarokurls/BookmarkModel.cpp:522
+msgid "New Group"
+msgstr "Nuwe Groep"
+
+#: amarokurls/BookmarkModel.cpp:548
+#: context/applets/similarartists/ArtistWidget.cpp:442
+#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:162
+#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:163
+#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:165
+#: context/applets/upcomingevents/UpcomingEventsMapWidget.cpp:166
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:205
+#: context/applets/upcomingevents/UpcomingEventsWidget.cpp:229
+msgid "none"
+msgstr "geen"
 
 #: browsers/CollectionTreeItem.cpp:140
 #, fuzzy
@@ -7378,7 +7378,7 @@ msgstr "Kopieer na Versameling"
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:49
 #: browsers/CollectionTreeView.cpp:951
 #: context/applets/albums/AlbumsView.cpp:240
-#: services/lastfm/LastFmTreeView.cpp:111
+#: services/lastfm/LastFmTreeView.cpp:96
 msgid "&Add to Playlist"
 msgstr "&Voeg by Speellys"
 
@@ -7386,7 +7386,7 @@ msgstr "&Voeg by Speellys"
 #: browsers/playlistbrowser/PlaylistBrowserModel.cpp:60
 #: browsers/CollectionTreeView.cpp:965
 #: context/applets/albums/AlbumsView.cpp:241
-#: services/lastfm/LastFmTreeView.cpp:120
+#: services/lastfm/LastFmTreeView.cpp:105
 msgctxt "Replace the currently loaded tracks with these"
 msgid "&Replace Playlist"
 msgstr "Vervang Speellys"
@@ -7902,7 +7902,7 @@ msgstr ""
 msgid "Delete Tracks"
 msgstr "Skrap Snitte"
 
-#: browsers/CollectionTreeView.cpp:653 services/lastfm/LastFmTreeView.cpp:201
+#: browsers/CollectionTreeView.cpp:653 services/lastfm/LastFmTreeView.cpp:186
 msgid "More..."
 msgstr "Nog..."
 
@@ -8087,7 +8087,7 @@ msgstr "Wagtou"
 msgid "Recently Added Albums"
 msgstr "Onlangs bygevoegde albums"
 
-#: context/applets/albums/Albums.cpp:81 context/applets/albums/Albums.cpp:326
+#: context/applets/albums/Albums.cpp:81 context/applets/albums/Albums.cpp:327
 #, fuzzy
 #| msgid "Filter Files"
 msgid "Filter Albums"
@@ -8099,22 +8099,22 @@ msgstr "Filter Lêers"
 msgid "Albums"
 msgstr "Albums"
 
-#: context/applets/albums/Albums.cpp:221
+#: context/applets/albums/Albums.cpp:222
 #, kde-format
 msgid "Disc %1"
 msgstr "Skyf %1"
 
-#: context/applets/albums/Albums.cpp:254
+#: context/applets/albums/Albums.cpp:255
 msgid "Right align track lengths"
 msgstr ""
 
-#: context/applets/albums/Albums.cpp:259
+#: context/applets/albums/Albums.cpp:260
 #, fuzzy
 #| msgid "Recently added albums"
 msgid "Number of recently added albums:"
 msgstr "Onlangs bygevoegde albums"
 
-#: context/applets/albums/Albums.cpp:265
+#: context/applets/albums/Albums.cpp:266
 msgid "Albums Applet Settings"
 msgstr ""
 
@@ -9352,7 +9352,7 @@ msgid "Scanning music"
 msgstr "Skandeer musiek"
 
 #: core-impl/collections/db/sql/SqlMeta.cpp:274
-#: covermanager/CoverManager.cpp:842 services/lastfm/meta/LastFmMeta.cpp:134
+#: covermanager/CoverManager.cpp:842 services/lastfm/meta/LastFmMeta.cpp:121
 #, kde-format
 msgid "%1 - %2"
 msgstr "%1 - %2"
@@ -11560,7 +11560,7 @@ msgid "Enter Custom Search"
 msgstr "Invoer Pasmaak Soektog"
 
 #: covermanager/CoverFoundDialog.cpp:128
-#: services/lastfm/LastFmServiceCollection.cpp:141
+#: services/lastfm/LastFmServiceCollection.cpp:132
 #, fuzzy
 #| msgid "last.fm"
 msgid "Last.fm"
@@ -14721,18 +14721,6 @@ msgstr "%1 Suksesvol geïnstalleer"
 msgid "Connection failure"
 msgstr "Verbinding"
 
-#: services/ampache/LastfmInfoParser.cpp:67
-msgid "<p>No information found for this track.</p>"
-msgstr "<p>Daar was geen inligting vir hierdie snit nie.</p>"
-
-#: services/ampache/LastfmInfoParser.cpp:118
-msgid "<p>No information found for this album.</p>"
-msgstr "<p>Daar was geen inligting vir hierdie album nie.</p>"
-
-#: services/ampache/LastfmInfoParser.cpp:171
-msgid "<p>No information found for this artist.</p>"
-msgstr "<p>Daar was geen inligting vir hierdie kunstenaar nie.</p>"
-
 #: services/ampache/AmpacheAccountLogin.cpp:133
 msgid "Enter the server name and a password"
 msgstr "Gee die bediener naam en wagwoord"
@@ -14759,6 +14747,18 @@ msgid ""
 msgstr ""
 "Gebruik Amarok as a deursigtige voorkant tot jou Ampache bediener. Dit laat "
 "jou toe om deur alle Amapache inhoud te blaai en speel, van binne Amarok."
+
+#: services/ampache/LastfmInfoParser.cpp:67
+msgid "<p>No information found for this track.</p>"
+msgstr "<p>Daar was geen inligting vir hierdie snit nie.</p>"
+
+#: services/ampache/LastfmInfoParser.cpp:119
+msgid "<p>No information found for this album.</p>"
+msgstr "<p>Daar was geen inligting vir hierdie album nie.</p>"
+
+#: services/ampache/LastfmInfoParser.cpp:173
+msgid "<p>No information found for this artist.</p>"
+msgstr "<p>Daar was geen inligting vir hierdie kunstenaar nie.</p>"
 
 #: services/jamendo/JamendoInfoParser.cpp:46
 #: services/jamendo/JamendoInfoParser.cpp:77
@@ -14846,84 +14846,162 @@ msgstr "Jamendo.com Databasis Aflaai"
 msgid "Updating the local Jamendo database."
 msgstr "Opdateer die plaaslike Jamendo databasis."
 
-# Hierdie lyk na last.fm-spesifieke terminologie
-#: services/lastfm/LoveTrackAction.cpp:25
-#: services/lastfm/LastFmService.cpp:284
-msgid "Last.fm: Love"
-msgstr "Last.fm: Gaande oor"
-
-#: services/lastfm/biases/LastFmBias.cpp:48
+#: services/lastfm/biases/LastFmBias.cpp:39
 #, fuzzy
 #| msgid "Last.Fm Similar Artists"
 msgctxt "Name of the \"Last.fm\" similar bias"
 msgid "Last.fm similar"
 msgstr "Last.Fm Naverwante Kunstenaars"
 
-#: services/lastfm/biases/LastFmBias.cpp:57
+#: services/lastfm/biases/LastFmBias.cpp:48
 msgctxt "Description of the \"Last.fm\" bias"
 msgid ""
 "The \"Last.fm\" similar bias looks up tracks on Last.fm and only adds "
 "similar tracks."
 msgstr ""
 
-#: services/lastfm/biases/LastFmBias.cpp:132
+#: services/lastfm/biases/LastFmBias.cpp:123
 msgctxt "Last.fm bias representation"
 msgid "Similar to the previous track (as reported by Last.fm)"
 msgstr ""
 
-#: services/lastfm/biases/LastFmBias.cpp:135
+#: services/lastfm/biases/LastFmBias.cpp:126
 msgctxt "Last.fm bias representation"
 msgid "Similar to the previous artist (as reported by Last.fm)"
 msgstr ""
 
-#: services/lastfm/biases/LastFmBias.cpp:147
+#: services/lastfm/biases/LastFmBias.cpp:138
 msgid "Last.fm thinks the track is similar to"
 msgstr ""
 
-#: services/lastfm/biases/LastFmBias.cpp:150
+#: services/lastfm/biases/LastFmBias.cpp:141
 #, fuzzy
 #| msgid "Various Artists"
 msgid "the previous artist"
 msgstr "Verskeie Kunstenaars"
 
-#: services/lastfm/biases/LastFmBias.cpp:152
+#: services/lastfm/biases/LastFmBias.cpp:143
 #, fuzzy
 #| msgid "Previous Track"
 msgid "the previous track"
 msgstr "Vorige Snit"
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:50
+#: services/lastfm/biases/WeeklyTopBias.cpp:43
 #, fuzzy
 #| msgid "Weekly Top Artists"
 msgctxt "Name of the \"WeeklyTop\" bias"
 msgid "Last.fm weekly top artist"
 msgstr "Weeklikse Topkunstenaars"
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:59
+#: services/lastfm/biases/WeeklyTopBias.cpp:52
 msgctxt "Description of the \"WeeklyTop\" bias"
 msgid ""
 "The \"WeeklyTop\" bias adds tracks that are in the weekly top chart of Last."
 "fm."
 msgstr ""
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:133
+#: services/lastfm/biases/WeeklyTopBias.cpp:126
 #, kde-format
 msgctxt "WeeklyTopBias bias representation"
 msgid "Tracks from the Last.fm top lists from %1 to %2"
 msgstr ""
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:144
+#: services/lastfm/biases/WeeklyTopBias.cpp:137
 msgctxt "in WeeklyTopBias. Label for the date widget"
 msgid "from:"
 msgstr ""
 
-#: services/lastfm/biases/WeeklyTopBias.cpp:158
+#: services/lastfm/biases/WeeklyTopBias.cpp:151
 #, fuzzy
 #| msgctxt "From one date to another, this text is in between"
 #| msgid "to"
 msgctxt "in WeeklyTopBias. Label for the date widget"
 msgid "to:"
 msgstr "na"
+
+#: services/lastfm/meta/LastFmMeta.cpp:89
+msgid "Last.fm: &Ban"
+msgstr "Last.fm: Verban"
+
+#: services/lastfm/meta/LastFmMeta.cpp:90
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+#: services/lastfm/meta/LastFmMeta.cpp:91
+msgid "Ban this track"
+msgstr "Verban hierdie snit"
+
+#: services/lastfm/meta/LastFmMeta.cpp:95
+msgid "Last.fm: &Skip"
+msgstr "Last.fm: &Oorslaan"
+
+#: services/lastfm/meta/LastFmMeta.cpp:97
+msgid "Skip this track"
+msgstr "Slaan hierdie snit oor"
+
+#: services/lastfm/meta/LastFmMeta.cpp:135
+#: services/lastfm/meta/LastFmMeta.cpp:423
+msgid "Track Radio"
+msgstr "Snit Radio"
+
+#: services/lastfm/meta/LastFmMeta.cpp:365
+#, kde-format
+msgid "Global Tag Radio: \"%1\""
+msgstr "Algehele Merker Radio: \"%1\""
+
+#: services/lastfm/meta/LastFmMeta.cpp:371
+#, kde-format
+msgid "User Tag Radio: \"%1\""
+msgstr "Gebruiker Merker Radio: \"%1\""
+
+#: services/lastfm/meta/LastFmMeta.cpp:379
+#, kde-format
+msgid "Similar Artists to \"%1\""
+msgstr "Kunstenaars Naverwant aan \"%1\""
+
+#: services/lastfm/meta/LastFmMeta.cpp:383
+#, kde-format
+msgid "Artist Fan Radio: \"%1\""
+msgstr "Kunstenaar Aanhanger Radio: \"%1\""
+
+#: services/lastfm/meta/LastFmMeta.cpp:392
+#, kde-format
+msgid "%1's Neighbor Radio"
+msgstr "%1 se Woonbuurt Radio"
+
+#: services/lastfm/meta/LastFmMeta.cpp:396
+#, kde-format
+msgid "%1's Personal Radio"
+msgstr "%1 se Persoonlike Radio"
+
+#: services/lastfm/meta/LastFmMeta.cpp:400
+#, fuzzy, kde-format
+#| msgid "%1's Loved Radio"
+msgid "%1's Mix Radio"
+msgstr "%1 se Geliefkoosde Radio"
+
+#: services/lastfm/meta/LastFmMeta.cpp:404
+#, kde-format
+msgid "%1's Recommended Radio"
+msgstr "%1 se Voorgestelde Radio"
+
+#: services/lastfm/meta/LastFmMeta.cpp:408
+#, kde-format
+msgid "%1's Recommended Radio (Popularity %2)"
+msgstr "%1 se Voorgestelde Radio (Gewildheid %2)"
+
+#: services/lastfm/meta/LastFmMeta.cpp:415
+#, kde-format
+msgid "Group Radio: %1"
+msgstr "Groep Radio: %1"
+
+#: services/lastfm/meta/LastFmMeta.cpp:427
+msgid "Artist Radio"
+msgstr "Kunstenaar Radio"
+
+#: services/lastfm/meta/LastFmMeta.cpp:540
+msgid "Last.fm is cool..."
+msgstr "Last.fm is oulik..."
 
 #: services/lastfm/meta/MultiPlayableCapabilityImpl_p.h:111
 #, fuzzy
@@ -14943,170 +15021,26 @@ msgstr ""
 msgid "Error starting track from Last.fm radio"
 msgstr "Fout tydens aanvang van snit vanaf Last.Fm radio"
 
-#: services/lastfm/meta/LastFmMeta.cpp:102
-msgid "Last.fm: &Ban"
-msgstr "Last.fm: Verban"
-
-#: services/lastfm/meta/LastFmMeta.cpp:103
-msgid "Ctrl+B"
-msgstr "Ctrl+B"
-
-#: services/lastfm/meta/LastFmMeta.cpp:104
-msgid "Ban this track"
-msgstr "Verban hierdie snit"
-
-#: services/lastfm/meta/LastFmMeta.cpp:108
-msgid "Last.fm: &Skip"
-msgstr "Last.fm: &Oorslaan"
-
-#: services/lastfm/meta/LastFmMeta.cpp:110
-msgid "Skip this track"
-msgstr "Slaan hierdie snit oor"
-
-#: services/lastfm/meta/LastFmMeta.cpp:148
-#: services/lastfm/meta/LastFmMeta.cpp:436
-msgid "Track Radio"
-msgstr "Snit Radio"
-
-#: services/lastfm/meta/LastFmMeta.cpp:378
-#, kde-format
-msgid "Global Tag Radio: \"%1\""
-msgstr "Algehele Merker Radio: \"%1\""
-
-#: services/lastfm/meta/LastFmMeta.cpp:384
-#, kde-format
-msgid "User Tag Radio: \"%1\""
-msgstr "Gebruiker Merker Radio: \"%1\""
-
-#: services/lastfm/meta/LastFmMeta.cpp:392
-#, kde-format
-msgid "Similar Artists to \"%1\""
-msgstr "Kunstenaars Naverwant aan \"%1\""
-
-#: services/lastfm/meta/LastFmMeta.cpp:396
-#, kde-format
-msgid "Artist Fan Radio: \"%1\""
-msgstr "Kunstenaar Aanhanger Radio: \"%1\""
-
-#: services/lastfm/meta/LastFmMeta.cpp:405
-#, kde-format
-msgid "%1's Neighbor Radio"
-msgstr "%1 se Woonbuurt Radio"
-
-#: services/lastfm/meta/LastFmMeta.cpp:409
-#, kde-format
-msgid "%1's Personal Radio"
-msgstr "%1 se Persoonlike Radio"
-
-#: services/lastfm/meta/LastFmMeta.cpp:413
-#, fuzzy, kde-format
-#| msgid "%1's Loved Radio"
-msgid "%1's Mix Radio"
-msgstr "%1 se Geliefkoosde Radio"
-
-#: services/lastfm/meta/LastFmMeta.cpp:417
-#, kde-format
-msgid "%1's Recommended Radio"
-msgstr "%1 se Voorgestelde Radio"
-
-#: services/lastfm/meta/LastFmMeta.cpp:421
-#, kde-format
-msgid "%1's Recommended Radio (Popularity %2)"
-msgstr "%1 se Voorgestelde Radio (Gewildheid %2)"
-
-#: services/lastfm/meta/LastFmMeta.cpp:428
-#, kde-format
-msgid "Group Radio: %1"
-msgstr "Groep Radio: %1"
-
-#: services/lastfm/meta/LastFmMeta.cpp:440
-msgid "Artist Radio"
-msgstr "Kunstenaar Radio"
-
-#: services/lastfm/meta/LastFmMeta.cpp:553
-msgid "Last.fm is cool..."
-msgstr "Last.fm is oulik..."
-
-#: services/lastfm/LastFmServiceSettings.cpp:100
-#: services/gpodder/GpodderServiceSettings.cpp:89
-msgid "Testing..."
-msgstr "Toets..."
-
-#: services/lastfm/LastFmServiceSettings.cpp:138
-msgctxt "The operation was rejected by the server"
-msgid "Failed"
-msgstr "Misluk"
-
-#: services/lastfm/LastFmServiceSettings.cpp:143
-#: services/gpodder/GpodderServiceSettings.cpp:108
-msgctxt "The operation completed as expected"
-msgid "Success"
-msgstr "Sukses"
-
-#: services/lastfm/LastFmServiceSettings.cpp:151
-#: services/gpodder/GpodderServiceSettings.cpp:162
-msgid ""
-"Either the username or the password is incorrect, please correct and try "
-"again"
-msgstr ""
-"Óf die gebruikernaam óf die wagwoord is verkeerd, stel dit asb. reg en "
-"probeer weer"
-
-#: services/lastfm/LastFmServiceSettings.cpp:151
-#: services/lastfm/LastFmServiceSettings.cpp:176
-#: services/gpodder/GpodderServiceSettings.cpp:163
-#: services/gpodder/GpodderServiceSettings.cpp:172
-#: services/gpodder/GpodderServiceSettings.cpp:186
-msgid "Failed"
-msgstr "Misluk"
-
-#: services/lastfm/LastFmServiceSettings.cpp:152
-#: services/lastfm/LastFmServiceSettings.cpp:177
-#: services/gpodder/GpodderServiceSettings.cpp:165
-#: services/gpodder/GpodderServiceSettings.cpp:174
-msgid "Test Login"
-msgstr "Toets Aanteken"
-
-#: services/lastfm/LastFmServiceSettings.cpp:176
-#, fuzzy
-#| msgid "Unable to retrieve from Flickr.com "
-msgid "Unable to connect to Last.fm service."
-msgstr "Kon nie van Flickr.com onttrek nie "
-
-#: services/lastfm/LastFmServiceCollection.cpp:42
-#, kde-format
-msgid "%1's Streams"
-msgstr "%1 se Strome"
-
-#: services/lastfm/LastFmServiceCollection.cpp:46
-msgid "Global Tags"
-msgstr "Algehele Merkers"
-
-#: services/lastfm/LastFmServiceCollection.cpp:50
-msgid "Neighbors' Loved Radio"
-msgstr "Bure se Geliefkoosde Radio"
-
-#: services/lastfm/LastFmServiceCollection.cpp:54
-msgid "Neighbors' Personal Radio"
-msgstr "Bure se Persoonlike Radio"
-
-#: services/lastfm/LastFmServiceCollection.cpp:58
-msgid "Friends' Loved Radio"
-msgstr "Vriende se Geliefkoosde Radio"
-
-#: services/lastfm/LastFmServiceCollection.cpp:62
-msgid "Friends' Personal Radio"
-msgstr "Vriende se Persoonlike Radio"
-
-#: services/lastfm/SimilarArtistsAction.cpp:26
+#: services/lastfm/SimilarArtistsAction.cpp:24
 msgid "Play Similar Artists from Last.fm"
 msgstr "Speel Naverwante Kunstenaars van Last.fm"
 
-#: services/lastfm/LastFmService.cpp:195
+#: services/lastfm/LastFmServiceConfig.cpp:154
+msgid "Last.fm credentials"
+msgstr "Last.fm getuigskrifte"
+
+#: services/lastfm/LastFmServiceConfig.cpp:155
+msgid ""
+"No running KWallet found. Would you like Amarok to save your Last.fm "
+"credentials in plaintext?"
+msgstr ""
+"KWallet loop nie. Moet Amarok jou Last.fm getuigskrifte in gewone teks stoor?"
+
+#: services/lastfm/LastFmService.cpp:181
 msgid "Last.fm: The social music revolution"
 msgstr "Last.fm: Die sosiale musiek revolusie"
 
-#: services/lastfm/LastFmService.cpp:197
+#: services/lastfm/LastFmService.cpp:183
 #, fuzzy
 #| msgid ""
 #| "Last.fm is a popular online service that provides personal radio stations "
@@ -15130,16 +15064,22 @@ msgstr ""
 "'n kunstenaar is, en om na strome te luister van mense wat jy as vriende "
 "bygevoeg het of wie last.fm as jou musikale \"bure\" beskou."
 
-#: services/lastfm/LastFmService.cpp:286
+# Hierdie lyk na last.fm-spesifieke terminologie
+#: services/lastfm/LastFmService.cpp:267
+#: services/lastfm/LoveTrackAction.cpp:24
+msgid "Last.fm: Love"
+msgstr "Last.fm: Gaande oor"
+
+#: services/lastfm/LastFmService.cpp:269
 msgid "Ctrl+L"
 msgstr "Ctrl+L"
 
-#: services/lastfm/LastFmService.cpp:339
+#: services/lastfm/LastFmService.cpp:323
 msgctxt "Last.fm: errorMessage"
 msgid "Either the username was not recognized, or the password was incorrect."
 msgstr "Óf die gebruikernaam is onherkenbaar, óf die wagwoord was verkeerd"
 
-#: services/lastfm/LastFmService.cpp:343
+#: services/lastfm/LastFmService.cpp:327
 msgctxt "Last.fm: errorMessage"
 msgid ""
 "There was a problem communicating with the Last.fm services. Please try "
@@ -15148,102 +15088,162 @@ msgstr ""
 "Daar was 'n kommunikasieprobleem met die Last.fm diens. Probeer asb. weer "
 "later."
 
-#: services/lastfm/LastFmService.cpp:431
+#: services/lastfm/LastFmService.cpp:414
 msgid "Enter an artist name"
 msgstr "Gee 'n kunstenaar naam"
 
-#: services/lastfm/LastFmService.cpp:434
+#: services/lastfm/LastFmService.cpp:417
 msgid "Enter a tag"
 msgstr "Gee 'n merker"
 
-#: services/lastfm/LastFmService.cpp:437
+#: services/lastfm/LastFmService.cpp:420
 #, fuzzy
 #| msgid "Enter a last.fm user name"
 msgid "Enter a Last.fm user name"
 msgstr "Gee 'n last.fm gebruikernaam"
 
-#: services/lastfm/LastFmService.cpp:450
+#: services/lastfm/LastFmService.cpp:433
 #, fuzzy, kde-format
 #| msgid "Username: "
 msgid "Username: %1"
 msgstr "Gebruikernaam: "
 
-#: services/lastfm/LastFmService.cpp:455
+#: services/lastfm/LastFmService.cpp:438
 #, kde-format
 msgid "Play Count: %1 play"
 msgid_plural "Play Count: %1 plays"
 msgstr[0] "Speel Telling: %1 keer gespeel"
 msgstr[1] "Speel Telling: %1 kere gespeel"
 
-#: services/lastfm/LastFmService.cpp:504
+#: services/lastfm/LastFmService.cpp:487
 msgid "Create a Custom Last.fm Station"
 msgstr "Skep 'n Pasmaak Last.fm Stasie"
 
-#: services/lastfm/LastFmService.cpp:507
+#: services/lastfm/LastFmService.cpp:490
 msgid "Tag"
 msgstr "Merker"
 
-#: services/lastfm/LastFmService.cpp:507
+#: services/lastfm/LastFmService.cpp:490
 msgid "User"
 msgstr "Gebruiker"
 
-#: services/lastfm/LastFmService.cpp:543
+#: services/lastfm/LastFmService.cpp:526
 #: services/lastfm/ScrobblerAdapter.cpp:213
 #, kde-format
 msgctxt "As in, lastfm"
 msgid "Loved Track: %1"
 msgstr "Gaande oor Snit: %1"
 
-#: services/lastfm/LastFmTreeModel.cpp:172
+#: services/lastfm/LastFmServiceCollection.cpp:33
+#, kde-format
+msgid "%1's Streams"
+msgstr "%1 se Strome"
+
+#: services/lastfm/LastFmServiceCollection.cpp:37
+msgid "Global Tags"
+msgstr "Algehele Merkers"
+
+#: services/lastfm/LastFmServiceCollection.cpp:41
+msgid "Neighbors' Loved Radio"
+msgstr "Bure se Geliefkoosde Radio"
+
+#: services/lastfm/LastFmServiceCollection.cpp:45
+msgid "Neighbors' Personal Radio"
+msgstr "Bure se Persoonlike Radio"
+
+#: services/lastfm/LastFmServiceCollection.cpp:49
+msgid "Friends' Loved Radio"
+msgstr "Vriende se Geliefkoosde Radio"
+
+#: services/lastfm/LastFmServiceCollection.cpp:53
+msgid "Friends' Personal Radio"
+msgstr "Vriende se Persoonlike Radio"
+
+#: services/lastfm/LastFmServiceSettings.cpp:95
+#: services/gpodder/GpodderServiceSettings.cpp:89
+msgid "Testing..."
+msgstr "Toets..."
+
+#: services/lastfm/LastFmServiceSettings.cpp:134
+msgctxt "The operation was rejected by the server"
+msgid "Failed"
+msgstr "Misluk"
+
+#: services/lastfm/LastFmServiceSettings.cpp:139
+#: services/gpodder/GpodderServiceSettings.cpp:108
+msgctxt "The operation completed as expected"
+msgid "Success"
+msgstr "Sukses"
+
+#: services/lastfm/LastFmServiceSettings.cpp:147
+#: services/gpodder/GpodderServiceSettings.cpp:162
+msgid ""
+"Either the username or the password is incorrect, please correct and try "
+"again"
+msgstr ""
+"Óf die gebruikernaam óf die wagwoord is verkeerd, stel dit asb. reg en "
+"probeer weer"
+
+#: services/lastfm/LastFmServiceSettings.cpp:147
+#: services/lastfm/LastFmServiceSettings.cpp:172
+#: services/gpodder/GpodderServiceSettings.cpp:163
+#: services/gpodder/GpodderServiceSettings.cpp:172
+#: services/gpodder/GpodderServiceSettings.cpp:186
+msgid "Failed"
+msgstr "Misluk"
+
+#: services/lastfm/LastFmServiceSettings.cpp:148
+#: services/lastfm/LastFmServiceSettings.cpp:173
+#: services/gpodder/GpodderServiceSettings.cpp:165
+#: services/gpodder/GpodderServiceSettings.cpp:174
+msgid "Test Login"
+msgstr "Toets Aanteken"
+
+#: services/lastfm/LastFmServiceSettings.cpp:172
+#, fuzzy
+#| msgid "Unable to retrieve from Flickr.com "
+msgid "Unable to connect to Last.fm service."
+msgstr "Kon nie van Flickr.com onttrek nie "
+
+#: services/lastfm/LastFmTreeModel.cpp:167
 msgid "Personal Radio"
 msgstr "Persoonlike Radio"
 
-#: services/lastfm/LastFmTreeModel.cpp:173
+#: services/lastfm/LastFmTreeModel.cpp:168
 msgid "Neighborhood"
 msgstr "Woonbuurt"
 
-#: services/lastfm/LastFmTreeModel.cpp:331
+#: services/lastfm/LastFmTreeModel.cpp:326
 msgid "My Recommendations"
 msgstr "My Aanbevelings"
 
-#: services/lastfm/LastFmTreeModel.cpp:333
+#: services/lastfm/LastFmTreeModel.cpp:328
 msgid "My Radio Station"
 msgstr "My Radiostasie"
 
-#: services/lastfm/LastFmTreeModel.cpp:335
+#: services/lastfm/LastFmTreeModel.cpp:330
 msgid "My Mix Radio"
 msgstr ""
 
-#: services/lastfm/LastFmTreeModel.cpp:337
+#: services/lastfm/LastFmTreeModel.cpp:332
 msgid "My Neighborhood"
 msgstr "My Woonbuurt"
 
-#: services/lastfm/LastFmTreeModel.cpp:342
+#: services/lastfm/LastFmTreeModel.cpp:337
 msgid "My Top Artists"
 msgstr "My Topkunstenaars"
 
-#: services/lastfm/LastFmTreeModel.cpp:344
+#: services/lastfm/LastFmTreeModel.cpp:339
 msgid "My Tags"
 msgstr "My Merkers"
 
-#: services/lastfm/LastFmTreeModel.cpp:346
+#: services/lastfm/LastFmTreeModel.cpp:341
 msgid "Friends"
 msgstr "Vriende"
 
-#: services/lastfm/LastFmTreeModel.cpp:348
+#: services/lastfm/LastFmTreeModel.cpp:343
 msgid "Neighbors"
 msgstr "Bure"
-
-#: services/lastfm/LastFmServiceConfig.cpp:154
-msgid "Last.fm credentials"
-msgstr "Last.fm getuigskrifte"
-
-#: services/lastfm/LastFmServiceConfig.cpp:155
-msgid ""
-"No running KWallet found. Would you like Amarok to save your Last.fm "
-"credentials in plaintext?"
-msgstr ""
-"KWallet loop nie. Moet Amarok jou Last.fm getuigskrifte in gewone teks stoor?"
 
 #: services/magnatune/MagnatuneDownloadInfo.cpp:210
 #, kde-format
@@ -15851,38 +15851,34 @@ msgstr ""
 msgid "<em>%1</em> has been added to your shopping cart."
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:293
-msgid "Select your Amazon locale - Amarok"
-msgstr ""
-
-#: services/amazon/AmazonStore.cpp:307
+#: services/amazon/AmazonStore.cpp:299
 msgid ""
 "<b>MP3 Music Store</b><br/><br/>Please select a valid country in the "
 "settings to make the store work."
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:338
+#: services/amazon/AmazonStore.cpp:330
 #, fuzzy
 #| msgid "Unable to parse avatar image data."
 msgid "Error: Unable to write temporary file. :-("
 msgstr "Kon nie avatar beeld data ontleed nie."
 
-#: services/amazon/AmazonStore.cpp:437
+#: services/amazon/AmazonStore.cpp:429
 msgid "Select results page to show"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:461
+#: services/amazon/AmazonStore.cpp:453
 #, fuzzy
 #| msgid "&Add to Playlist"
 msgctxt "Add selected item to your shopping cart"
 msgid "Add to Cart"
 msgstr "&Voeg by Speellys"
 
-#: services/amazon/AmazonStore.cpp:462
+#: services/amazon/AmazonStore.cpp:454
 msgid "Add selected item to your shopping cart"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:469
+#: services/amazon/AmazonStore.cpp:461
 #, fuzzy
 #| msgctxt "@item:inmenu"
 #| msgid "&View"
@@ -15890,11 +15886,11 @@ msgctxt "View your shopping cart contents"
 msgid "View Cart"
 msgstr "Aansig"
 
-#: services/amazon/AmazonStore.cpp:470
+#: services/amazon/AmazonStore.cpp:462
 msgid "View your shopping cart contents"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:477
+#: services/amazon/AmazonStore.cpp:469
 #, fuzzy
 #| msgctxt "track from source"
 #| msgid "from <b>%1</b>"
@@ -15902,15 +15898,15 @@ msgctxt "Checkout your shopping cart"
 msgid "Checkout"
 msgstr "van <b>%1</b>"
 
-#: services/amazon/AmazonStore.cpp:478
+#: services/amazon/AmazonStore.cpp:470
 msgid "Checkout your shopping cart"
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:499
+#: services/amazon/AmazonStore.cpp:508
 msgid "Error: Querying MP3 Music Store database failed. :-("
 msgstr ""
 
-#: services/amazon/AmazonStore.cpp:534
+#: services/amazon/AmazonStore.cpp:543
 msgid "Error: Received an invalid reply. :-("
 msgstr ""
 
