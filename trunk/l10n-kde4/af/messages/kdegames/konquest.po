@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konquest VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-15 04:59+0200\n"
+"POT-Creation-Date: 2012-08-18 04:17+0200\n"
 "PO-Revision-Date: 2002-11-07 11:32+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -33,11 +33,11 @@ msgid "Russ Steffen"
 msgstr ""
 
 #: Konquest.cc:41
-msgid "Stephan Zehetner"
+msgid "Computer/AI Player"
 msgstr ""
 
 #: Konquest.cc:41
-msgid "Computer/AI Player"
+msgid "Stephan Zehetner"
 msgstr ""
 
 #: Konquest.cc:42
@@ -49,57 +49,178 @@ msgid "Port to KDE4"
 msgstr ""
 
 #: Konquest.cc:43
-msgid "Inge Wallin"
-msgstr ""
-
-#: Konquest.cc:43
 msgid "Cleaning and bugfixing"
 msgstr ""
 
-#: Konquest.cc:44
-msgid "Pierre Ducroquet"
+#: Konquest.cc:43
+msgid "Inge Wallin"
 msgstr ""
 
 #: Konquest.cc:44
 msgid "Cleaning and bugfixing, maintenance"
 msgstr ""
 
-#: Konquest.cc:45
-msgid "Sean D'Epagnier"
+#: Konquest.cc:44
+msgid "Pierre Ducroquet"
 msgstr ""
 
 #: Konquest.cc:45
 msgid "Gameplay Enhancements"
 msgstr ""
 
-#: mainwin.cc:48 mainwin.cc:55
-msgid "Galactic Conquest"
-msgstr "Galaktiese Kruistog"
-
-#: mainwin.cc:79
-msgid "&Measure Distance"
-msgstr "Meet Afstand"
-
-#: mainwin.cc:85
-msgid "&Show Standings"
-msgstr "Vertoon Stand"
-
-#: mainwin.cc:91
-msgid "&Fleet Overview"
+#: Konquest.cc:45
+msgid "Sean D'Epagnier"
 msgstr ""
 
-#: mainwin.cc:145
+#: dialogs/fleetdlg.cc:44
+#, fuzzy
+msgid "Fleet Overview"
+msgstr "Vloot Vernietig"
+
+#: dialogs/fleetdlg.cc:50
+msgid "Destination"
+msgstr ""
+
+#: dialogs/fleetdlg.cc:50
+#, fuzzy
+msgid "Fleet No."
+msgstr "Floot Arriveer"
+
+#: dialogs/fleetdlg.cc:50
+#, fuzzy
+msgid "Ships"
+msgstr "Skepe: "
+
+#: dialogs/fleetdlg.cc:51
+msgid "Arrival Turn"
+msgstr ""
+
+#: dialogs/fleetdlg.cc:51
+#, fuzzy
+msgid "Kill Percentage"
+msgstr "Stop persent: "
+
+#: dialogs/fleetdlg.cc:87 gameview.cc:121
+msgid "Standing order"
+msgstr ""
+
+#: dialogs/newgamedlg.cc:71
 #, fuzzy, kde-format
-msgid "Turn # %1"
-msgstr "Skakel #: %1 van %2"
+msgctxt "Default player name is \"player \" + player number"
+msgid "Player %1"
+msgstr "Speler"
+
+#: dialogs/newgamedlg.cc:109 dialogs/newgamedlg.cc:160
+#: dialogs/newgamedlg.cc:169 dialogs/newgamedlg.cc:268
+msgctxt "A human player"
+msgid "Human"
+msgstr ""
+
+#: dialogs/newgamedlg.cc:115 dialogs/newgamedlg.cc:154
+#: dialogs/newgamedlg.cc:172 dialogs/newgamedlg.cc:269
+msgid "Computer Weak"
+msgstr ""
+
+#: dialogs/newgamedlg.cc:116 dialogs/newgamedlg.cc:156
+#: dialogs/newgamedlg.cc:174 dialogs/newgamedlg.cc:270
+msgid "Computer Normal"
+msgstr ""
+
+#: dialogs/newgamedlg.cc:117 dialogs/newgamedlg.cc:158
+#: dialogs/newgamedlg.cc:176 dialogs/newgamedlg.cc:271
+msgid "Computer Hard"
+msgstr ""
+
+#: dialogs/newgamedlg.cc:130
+#, fuzzy
+msgctxt "The player name"
+msgid "Name"
+msgstr "Einde Speletjie"
+
+#: dialogs/newgamedlg.cc:131
+msgid "Type"
+msgstr ""
+
+#: dialogs/newgamedlg.cc:299
+#, fuzzy
+msgid "Start New Game"
+msgstr "Begin Speletjie"
+
+#: dialogs/newgamedlg.cc:338
+msgid "vacant"
+msgstr ""
+
+#: dialogs/newgamedlg.cc:341
+#, fuzzy
+msgid "neutral"
+msgstr "Nommer van nutrale planete: %1"
+
+#: dialogs/newgamedlg.cc:431
+msgid "The game is much more fun when you add a human player!"
+msgstr ""
+
+#: dialogs/scoredlg.cc:43
+#, fuzzy
+#| msgid "Player"
+msgctxt "The player name"
+msgid "Player"
+msgstr "Speler"
+
+#: dialogs/scoredlg.cc:43
+#, fuzzy
+msgid ""
+"Ships\n"
+"Built"
+msgstr "Skepe Gebou"
+
+#: dialogs/scoredlg.cc:44
+#, fuzzy
+msgid ""
+"Fleets\n"
+"Launched"
+msgstr "Vloot Geloop"
+
+#: dialogs/scoredlg.cc:44
+#, fuzzy
+msgid ""
+"Planets\n"
+"Conquered"
+msgstr "Planete Verower"
+
+#: dialogs/scoredlg.cc:45
+#, fuzzy
+msgid ""
+"Fleets\n"
+"Destroyed"
+msgstr "Vloot Vernietig"
+
+#: dialogs/scoredlg.cc:45
+#, fuzzy
+msgid ""
+"Ships\n"
+"Destroyed"
+msgstr "Skepe Vernietig"
+
+#: game.cpp:111
+#, fuzzy, kde-format
+msgid "Reinforcements (1 ship) have arrived for planet %2."
+msgid_plural "Reinforcements (%1 ships) have arrived for planet %2."
+msgstr[0] "Versterkings het gearriveer vir planeet %1"
+msgstr[1] "Versterkings het gearriveer vir planeet %1"
+
+#: game.cpp:156
+#, fuzzy, kde-format
+msgid "Planet %2 has held against an attack from %1."
+msgstr "Planeet %1 het behou teen 'n aanval van %2"
+
+#: game.cpp:164
+#, fuzzy, kde-format
+msgid "Planet %2 has fallen to %1."
+msgstr "Planeet %1 het verval na %2"
 
 #: gameview.cc:108
 msgid "End Turn"
 msgstr "Einde Skakel"
-
-#: gameview.cc:121 dialogs/fleetdlg.cc:87
-msgid "Standing order"
-msgstr ""
 
 #: gameview.cc:283
 #, fuzzy, kde-format
@@ -163,6 +284,27 @@ msgstr "Finale Stand"
 msgid "Current Standings"
 msgstr "Huidige Stand"
 
+#: mainwin.cc:48 mainwin.cc:55
+msgid "Galactic Conquest"
+msgstr "Galaktiese Kruistog"
+
+#: mainwin.cc:79
+msgid "&Measure Distance"
+msgstr "Meet Afstand"
+
+#: mainwin.cc:85
+msgid "&Show Standings"
+msgstr "Vertoon Stand"
+
+#: mainwin.cc:91
+msgid "&Fleet Overview"
+msgstr ""
+
+#: mainwin.cc:145
+#, fuzzy, kde-format
+msgid "Turn # %1"
+msgstr "Skakel #: %1 van %2"
+
 #: map/mapitems.cc:228
 #, kde-format
 msgid "Planet name: %1"
@@ -194,148 +336,6 @@ msgstr "Produksie: %1"
 #, kde-format
 msgid "Kill percent: %1"
 msgstr "Stop persent: %1"
-
-#: dialogs/scoredlg.cc:43
-#, fuzzy
-#| msgid "Player"
-msgctxt "The player name"
-msgid "Player"
-msgstr "Speler"
-
-#: dialogs/scoredlg.cc:43
-#, fuzzy
-msgid ""
-"Ships\n"
-"Built"
-msgstr "Skepe Gebou"
-
-#: dialogs/scoredlg.cc:44
-#, fuzzy
-msgid ""
-"Planets\n"
-"Conquered"
-msgstr "Planete Verower"
-
-#: dialogs/scoredlg.cc:44
-#, fuzzy
-msgid ""
-"Fleets\n"
-"Launched"
-msgstr "Vloot Geloop"
-
-#: dialogs/scoredlg.cc:45
-#, fuzzy
-msgid ""
-"Fleets\n"
-"Destroyed"
-msgstr "Vloot Vernietig"
-
-#: dialogs/scoredlg.cc:45
-#, fuzzy
-msgid ""
-"Ships\n"
-"Destroyed"
-msgstr "Skepe Vernietig"
-
-#: dialogs/fleetdlg.cc:44
-#, fuzzy
-msgid "Fleet Overview"
-msgstr "Vloot Vernietig"
-
-#: dialogs/fleetdlg.cc:50
-#, fuzzy
-msgid "Fleet No."
-msgstr "Floot Arriveer"
-
-#: dialogs/fleetdlg.cc:50
-msgid "Destination"
-msgstr ""
-
-#: dialogs/fleetdlg.cc:50
-#, fuzzy
-msgid "Ships"
-msgstr "Skepe: "
-
-#: dialogs/fleetdlg.cc:51
-#, fuzzy
-msgid "Kill Percentage"
-msgstr "Stop persent: "
-
-#: dialogs/fleetdlg.cc:51
-msgid "Arrival Turn"
-msgstr ""
-
-#: dialogs/newgamedlg.cc:71
-#, fuzzy, kde-format
-msgctxt "Default player name is \"player \" + player number"
-msgid "Player %1"
-msgstr "Speler"
-
-#: dialogs/newgamedlg.cc:109 dialogs/newgamedlg.cc:160
-#: dialogs/newgamedlg.cc:169 dialogs/newgamedlg.cc:268
-msgctxt "A human player"
-msgid "Human"
-msgstr ""
-
-#: dialogs/newgamedlg.cc:115 dialogs/newgamedlg.cc:154
-#: dialogs/newgamedlg.cc:172 dialogs/newgamedlg.cc:269
-msgid "Computer Weak"
-msgstr ""
-
-#: dialogs/newgamedlg.cc:116 dialogs/newgamedlg.cc:156
-#: dialogs/newgamedlg.cc:174 dialogs/newgamedlg.cc:270
-msgid "Computer Normal"
-msgstr ""
-
-#: dialogs/newgamedlg.cc:117 dialogs/newgamedlg.cc:158
-#: dialogs/newgamedlg.cc:176 dialogs/newgamedlg.cc:271
-msgid "Computer Hard"
-msgstr ""
-
-#: dialogs/newgamedlg.cc:130
-#, fuzzy
-msgctxt "The player name"
-msgid "Name"
-msgstr "Einde Speletjie"
-
-#: dialogs/newgamedlg.cc:131
-msgid "Type"
-msgstr ""
-
-#: dialogs/newgamedlg.cc:299
-#, fuzzy
-msgid "Start New Game"
-msgstr "Begin Speletjie"
-
-#: dialogs/newgamedlg.cc:338
-msgid "vacant"
-msgstr ""
-
-#: dialogs/newgamedlg.cc:341
-#, fuzzy
-msgid "neutral"
-msgstr "Nommer van nutrale planete: %1"
-
-#: dialogs/newgamedlg.cc:431
-msgid "The game is much more fun when you add a human player!"
-msgstr ""
-
-#: game.cpp:111
-#, fuzzy, kde-format
-msgid "Reinforcements (1 ship) have arrived for planet %2."
-msgid_plural "Reinforcements (%1 ships) have arrived for planet %2."
-msgstr[0] "Versterkings het gearriveer vir planeet %1"
-msgstr[1] "Versterkings het gearriveer vir planeet %1"
-
-#: game.cpp:156
-#, fuzzy, kde-format
-msgid "Planet %2 has held against an attack from %1."
-msgstr "Planeet %1 het behou teen 'n aanval van %2"
-
-#: game.cpp:164
-#, fuzzy, kde-format
-msgid "Planet %2 has fallen to %1."
-msgstr "Planeet %1 het verval na %2"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"

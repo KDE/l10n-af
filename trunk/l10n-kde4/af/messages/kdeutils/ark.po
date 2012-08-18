@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-17 04:38+0200\n"
+"POT-Creation-Date: 2012-08-18 04:25+0200\n"
 "PO-Revision-Date: 2008-03-11 11:41+0200\n"
 "Last-Translator: Petri Jooste <Petri.Jooste@nwu.ac.za>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -260,11 +260,11 @@ msgid_plural "Failed to locate programs <filename>%2</filename> on disk."
 msgstr[0] "Kon nie die argief '%1' oopmaak om daarin te skryf nie."
 msgstr[1] "Kon nie die argief '%1' oopmaak om daarin te skryf nie."
 
-#: kerfuffle/cliinterface.cpp:519 kerfuffle/cliinterface.cpp:559
+#: kerfuffle/cliinterface.cpp:521 kerfuffle/cliinterface.cpp:561
 msgid "Incorrect password."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:526 kerfuffle/cliinterface.cpp:566
+#: kerfuffle/cliinterface.cpp:528 kerfuffle/cliinterface.cpp:568
 msgid "Extraction failed because of an unexpected error."
 msgstr ""
 
@@ -286,15 +286,7 @@ msgid "The subfolder name may not contain the character '/'."
 msgstr ""
 
 #: kerfuffle/extractiondialog.cpp:109
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The folder <filename>%1</filename> already exists. Are you sure you want to "
-"extract here?"
-msgstr ""
-
-#: kerfuffle/extractiondialog.cpp:109
-msgid "Folder exists"
+msgid "Cancel"
 msgstr ""
 
 #: kerfuffle/extractiondialog.cpp:109
@@ -304,11 +296,19 @@ msgid "Extract here"
 msgstr "Pak uit"
 
 #: kerfuffle/extractiondialog.cpp:109
+msgid "Folder exists"
+msgstr ""
+
+#: kerfuffle/extractiondialog.cpp:109
 msgid "Retry"
 msgstr ""
 
 #: kerfuffle/extractiondialog.cpp:109
-msgid "Cancel"
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The folder <filename>%1</filename> already exists. Are you sure you want to "
+"extract here?"
 msgstr ""
 
 #: kerfuffle/extractiondialog.cpp:119 kerfuffle/extractiondialog.cpp:125
@@ -599,14 +599,6 @@ msgid "<filename>%1</filename> is a directory."
 msgstr ""
 
 #: part/part.cpp:384
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The archive <filename>%1</filename> already exists. Would you like to open "
-"it instead?"
-msgstr ""
-
-#: part/part.cpp:384
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr ""
@@ -618,10 +610,12 @@ msgstr ""
 msgid "Open File"
 msgstr "Maak oop"
 
-#: part/part.cpp:392
+#: part/part.cpp:384
 #, kde-format
 msgctxt "@info"
-msgid "The archive <filename>%1</filename> was not found."
+msgid ""
+"The archive <filename>%1</filename> already exists. Would you like to open "
+"it instead?"
 msgstr ""
 
 #: part/part.cpp:392 part/part.cpp:444 part/part.cpp:480
@@ -630,6 +624,12 @@ msgstr ""
 msgctxt "@title:window"
 msgid "Error Opening Archive"
 msgstr "Maak 'n argief oop"
+
+#: part/part.cpp:392
+#, kde-format
+msgctxt "@info"
+msgid "The archive <filename>%1</filename> was not found."
+msgstr ""
 
 #: part/part.cpp:424
 msgctxt "@title:window"
