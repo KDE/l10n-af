@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-20 05:36+0200\n"
+"POT-Creation-Date: 2012-08-19 15:37+0200\n"
 "PO-Revision-Date: 2002-11-07 11:32+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -15,6 +15,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "WEB-Vertaler (http://kde.af.org.za)"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "frix@expertron.co.za"
 
 #: boardwidget.cpp:483
 msgid "Undo operation done successfully."
@@ -171,6 +179,46 @@ msgstr "Die bord het al veranderde, sal jy daarvan hou na stoor Die verander?"
 msgid "Save failed. Aborting operation."
 msgstr "Stoor gevaal. Gaan staak operasie."
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RandomLayout)
+#: gametype.ui:25
+#, fuzzy
+#| msgid "Edit Board Layout"
+msgid "Random Layout"
+msgstr "Redigeer Bord Uitleg"
+
+#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: gametype.ui:51
+msgid "&Get New Layouts"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: gametype.ui:60
+msgid "Preview"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: gametype.ui:93
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Layout Details"
+msgstr "frix@expertron.co.za"
+
+#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
+#: gametype.ui:113
+msgid "Author:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelContact)
+#: gametype.ui:123
+msgid "Contact:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelDescription)
+#: gametype.ui:133
+msgid "Description:"
+msgstr ""
+
 #: kmahjongg.cpp:136
 msgid "New Numbered Game..."
 msgstr "Nuwe Genommerde Speletjie..."
@@ -271,6 +319,58 @@ msgstr "Stoor Tema"
 msgid "Could not write saved game."
 msgstr "Kon nie skryf na lêer. Gaan staak."
 
+#. i18n: ectx: label, entry (TileSet), group (General)
+#: kmahjongg.kcfg:9
+msgid "The tile-set to use."
+msgstr ""
+
+#. i18n: ectx: label, entry (Background), group (General)
+#: kmahjongg.kcfg:12
+#, fuzzy
+msgid "The background to use."
+msgstr "Verander Agtergrond Beeld"
+
+#. i18n: ectx: label, entry (Layout), group (General)
+#: kmahjongg.kcfg:15
+msgid "The layout of the tiles."
+msgstr ""
+
+#. i18n: ectx: label, entry (RandomLayout), group (General)
+#: kmahjongg.kcfg:21
+msgid "Whether a random layout is chosen on startup."
+msgstr ""
+
+#. i18n: ectx: label, entry (SolvableGames), group (General)
+#: kmahjongg.kcfg:25
+msgid "Whether all games should be solvable."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowMatchingTiles), group (General)
+#: kmahjongg.kcfg:29
+msgid "Whether matching tiles are shown."
+msgstr ""
+
+#. i18n: ectx: Menu (game)
+#: kmahjonggui.rc:10
+#, fuzzy
+msgid "&Game"
+msgstr "Naam"
+
+#. i18n: ectx: Menu (move)
+#: kmahjonggui.rc:14
+msgid "&Move"
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#: kmahjonggui.rc:17
+msgid "&View"
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kmahjonggui.rc:23
+msgid "Main Toolbar"
+msgstr ""
+
 #: main.cpp:26
 #, fuzzy
 msgid "Mahjongg Solitaire for KDE"
@@ -364,136 +464,15 @@ msgstr ""
 msgid "Code cleanup"
 msgstr ""
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "WEB-Vertaler (http://kde.af.org.za)"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "frix@expertron.co.za"
-
-#. i18n: file: kmahjonggui.rc:10
-#. i18n: ectx: Menu (game)
-#: rc.cpp:5
-#, fuzzy
-msgid "&Game"
-msgstr "Naam"
-
-#. i18n: file: kmahjonggui.rc:14
-#. i18n: ectx: Menu (move)
-#: rc.cpp:8
-msgid "&Move"
-msgstr ""
-
-#. i18n: file: kmahjonggui.rc:17
-#. i18n: ectx: Menu (view)
-#: rc.cpp:11
-msgid "&View"
-msgstr ""
-
-#. i18n: file: kmahjonggui.rc:23
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:14
-msgid "Main Toolbar"
-msgstr ""
-
-#. i18n: file: gametype.ui:25
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RandomLayout)
-#: rc.cpp:17
-#, fuzzy
-#| msgid "Edit Board Layout"
-msgid "Random Layout"
-msgstr "Redigeer Bord Uitleg"
-
-#. i18n: file: gametype.ui:51
-#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
-#: rc.cpp:20
-msgid "&Get New Layouts"
-msgstr ""
-
-#. i18n: file: gametype.ui:60
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:23
-msgid "Preview"
-msgstr ""
-
-#. i18n: file: gametype.ui:93
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:26
-#, fuzzy
-#| msgctxt "EMAIL OF TRANSLATORS"
-#| msgid "Your emails"
-msgid "Layout Details"
-msgstr "frix@expertron.co.za"
-
-#. i18n: file: gametype.ui:113
-#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
-#: rc.cpp:29
-msgid "Author:"
-msgstr ""
-
-#. i18n: file: gametype.ui:123
-#. i18n: ectx: property (text), widget (QLabel, labelContact)
-#: rc.cpp:32
-msgid "Contact:"
-msgstr ""
-
-#. i18n: file: gametype.ui:133
-#. i18n: ectx: property (text), widget (QLabel, labelDescription)
-#: rc.cpp:35
-msgid "Description:"
-msgstr ""
-
-#. i18n: file: settings.ui:22
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMatchingTiles)
-#: rc.cpp:38
+#: settings.ui:22
 msgid "Blink matching tiles when first one is selected"
 msgstr ""
 
-#. i18n: file: settings.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolvableGames)
-#: rc.cpp:41
+#: settings.ui:29
 msgid "Generate solvable games"
 msgstr "Genereer oplosbaar speletjies"
-
-#. i18n: file: kmahjongg.kcfg:9
-#. i18n: ectx: label, entry (TileSet), group (General)
-#: rc.cpp:44
-msgid "The tile-set to use."
-msgstr ""
-
-#. i18n: file: kmahjongg.kcfg:12
-#. i18n: ectx: label, entry (Background), group (General)
-#: rc.cpp:47
-#, fuzzy
-msgid "The background to use."
-msgstr "Verander Agtergrond Beeld"
-
-#. i18n: file: kmahjongg.kcfg:15
-#. i18n: ectx: label, entry (Layout), group (General)
-#: rc.cpp:50
-msgid "The layout of the tiles."
-msgstr ""
-
-#. i18n: file: kmahjongg.kcfg:21
-#. i18n: ectx: label, entry (RandomLayout), group (General)
-#: rc.cpp:53
-msgid "Whether a random layout is chosen on startup."
-msgstr ""
-
-#. i18n: file: kmahjongg.kcfg:25
-#. i18n: ectx: label, entry (SolvableGames), group (General)
-#: rc.cpp:56
-msgid "Whether all games should be solvable."
-msgstr ""
-
-#. i18n: file: kmahjongg.kcfg:29
-#. i18n: ectx: label, entry (ShowMatchingTiles), group (General)
-#: rc.cpp:59
-msgid "Whether matching tiles are shown."
-msgstr ""
 
 #, fuzzy
 #~ msgid "&Edit"
