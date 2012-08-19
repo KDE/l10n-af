@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaudiocreator VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 03:45+0200\n"
+"POT-Creation-Date: 2012-08-19 03:34+0200\n"
 "PO-Revision-Date: 2002-11-07 11:33+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -64,12 +64,6 @@ msgstr ""
 msgid "Jobs have started"
 msgstr "Werke het beginne"
 
-#: encodefilemodel.cpp:29 tracksimp.cpp:51 tracksimp.cpp:171 tracksimp.cpp:183
-#: tracksimp.cpp:624
-#, fuzzy
-msgid "Artist"
-msgstr "Kunstenaar"
-
 #: encodefilemodel.cpp:29
 #, fuzzy
 msgid "File"
@@ -80,6 +74,12 @@ msgstr "Nee Titel"
 #, fuzzy
 msgid "Title"
 msgstr "Nee Titel"
+
+#: encodefilemodel.cpp:29 tracksimp.cpp:51 tracksimp.cpp:171 tracksimp.cpp:183
+#: tracksimp.cpp:624
+#, fuzzy
+msgid "Artist"
+msgstr "Kunstenaar"
 
 #: encodefilemodel.cpp:30
 #, fuzzy
@@ -97,12 +97,6 @@ msgstr ""
 msgid "Genre"
 msgstr "Kategorie"
 
-#: encodefilemodel.cpp:31
-#, fuzzy
-msgctxt "@title:column"
-msgid "Encoder"
-msgstr "Onbekende"
-
 #: encodefilemodel.cpp:31 tracksimp.cpp:51 tracksimp.cpp:171 tracksimp.cpp:183
 #: tracksimp.cpp:624
 msgid "Track"
@@ -113,11 +107,68 @@ msgstr "Navolg"
 msgid "Year"
 msgstr "Jaar"
 
-#: encoder.cpp:76 encoderconfigimp.cpp:150 encoderconfigimp.cpp:189
-#: encoderconfigimp.cpp:230
+#: encodefilemodel.cpp:31
+#, fuzzy
+msgctxt "@title:column"
+msgid "Encoder"
+msgstr "Onbekende"
+
+#: encoderconfigimp.cpp:101
+msgid "The default encoder has to accept wav as input."
+msgstr ""
+
+#: encoderconfigimp.cpp:101 encoderconfigimp.cpp:194 encoderconfigimp.cpp:235
+msgid "Not Allowed"
+msgstr ""
+
+#: encoderconfigimp.cpp:128
+#, fuzzy
+msgid "Add Encoder"
+msgstr "Onbekende"
+
+#: encoderconfigimp.cpp:150 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
+#, fuzzy
+msgid "Please select an encoder."
+msgstr "Asseblief kies 'n navolg."
+
+#: encoderconfigimp.cpp:150 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
+#: encoder.cpp:76
 #, fuzzy
 msgid "No Encoder Selected"
 msgstr "Nee Navolg Gekose"
+
+#: encoderconfigimp.cpp:173
+#, fuzzy
+msgid "Copy Encoder"
+msgstr "Onbekende"
+
+#: encoderconfigimp.cpp:194
+msgid "WAV is not allowed to be removed."
+msgstr ""
+
+#: encoderconfigimp.cpp:198
+#, fuzzy
+msgid "Delete encoder?"
+msgstr "Uitbreiding"
+
+#: encoderconfigimp.cpp:198
+msgid "Delete Encoder"
+msgstr ""
+
+#: encoderconfigimp.cpp:235
+msgid ""
+"WAV is not allowed to be changed.\n"
+"You can copy it to adjust it to your needs."
+msgstr ""
+
+#: encoderconfigimp.cpp:250
+#, fuzzy
+msgid "Configure Encoder"
+msgstr "Onbekende"
+
+#: encoderconfigimp.cpp:384 kaudiocreator.cpp:426
+msgid "Encoder Configuration"
+msgstr ""
 
 #: encoder.cpp:76
 msgid ""
@@ -152,14 +203,6 @@ msgstr ""
 "Asseblief bevestig jou lêer gids soeklys opsie.\n"
 "Die wav lêer het al verwyder."
 
-#: encoder.cpp:327 encoder.cpp:344
-msgid "Show Output"
-msgstr ""
-
-#: encoder.cpp:327 encoder.cpp:344
-msgid "Skip Output"
-msgstr ""
-
 #: encoder.cpp:327
 #, fuzzy
 msgid ""
@@ -169,6 +212,14 @@ msgstr ""
 "Die verlangde geënkodeerde lêer kon nie wees geskep.\n"
 "Asseblief bevestig jou lêer gids soeklys opsie.\n"
 "Die wav lêer het al verwyder."
+
+#: encoder.cpp:327 encoder.cpp:344
+msgid "Show Output"
+msgstr ""
+
+#: encoder.cpp:327 encoder.cpp:344
+msgid "Skip Output"
+msgstr ""
 
 #: encoder.cpp:344
 #, fuzzy
@@ -182,67 +233,12 @@ msgstr ""
 "Asseblief bevestig jou lêer gids soeklys opsie.\n"
 "Die wav lêer het al verwyder."
 
-#: encoderconfigimp.cpp:101 encoderconfigimp.cpp:194 encoderconfigimp.cpp:235
-msgid "Not Allowed"
-msgstr ""
-
-#: encoderconfigimp.cpp:101
-msgid "The default encoder has to accept wav as input."
-msgstr ""
-
-#: encoderconfigimp.cpp:128
-#, fuzzy
-msgid "Add Encoder"
-msgstr "Onbekende"
-
-#: encoderconfigimp.cpp:150 encoderconfigimp.cpp:189 encoderconfigimp.cpp:230
-#, fuzzy
-msgid "Please select an encoder."
-msgstr "Asseblief kies 'n navolg."
-
-#: encoderconfigimp.cpp:173
-#, fuzzy
-msgid "Copy Encoder"
-msgstr "Onbekende"
-
-#: encoderconfigimp.cpp:194
-msgid "WAV is not allowed to be removed."
-msgstr ""
-
-#: encoderconfigimp.cpp:198
-msgid "Delete Encoder"
-msgstr ""
-
-#: encoderconfigimp.cpp:198
-#, fuzzy
-msgid "Delete encoder?"
-msgstr "Uitbreiding"
-
-#: encoderconfigimp.cpp:235
-msgid ""
-"WAV is not allowed to be changed.\n"
-"You can copy it to adjust it to your needs."
-msgstr ""
-
-#: encoderconfigimp.cpp:250
-#, fuzzy
-msgid "Configure Encoder"
-msgstr "Onbekende"
-
-#: encoderconfigimp.cpp:384 kaudiocreator.cpp:426
-msgid "Encoder Configuration"
-msgstr ""
-
 #: general.cpp:61
 #, kde-format
 msgid ""
 "The replacement string still contains incompatible characters (%1).\n"
 "Copying to FAT32 might not work as expected."
 msgstr ""
-
-#: job.h:35
-msgid "Other"
-msgstr "Ander"
 
 #: jobdelegate.cpp:47
 msgid "Queued"
@@ -261,16 +257,16 @@ msgid "Done"
 msgstr ""
 
 #: jobqueimp.cpp:51
-msgid "Description"
-msgstr "Beskrywing"
-
-#: jobqueimp.cpp:51
 msgid "Job"
 msgstr "Werk"
 
 #: jobqueimp.cpp:51
 msgid "Progress"
 msgstr "Vordering"
+
+#: jobqueimp.cpp:51
+msgid "Description"
+msgstr "Beskrywing"
 
 #: jobqueimp.cpp:84 jobqueimp.cpp:162 jobqueimp.cpp:223
 #, kde-format
@@ -283,13 +279,13 @@ msgid "KAudioCreator has not finished %1. Remove anyway?"
 msgstr ""
 
 #: jobqueimp.cpp:145 jobqueimp.cpp:197
-msgid "Keep"
-msgstr ""
-
-#: jobqueimp.cpp:145 jobqueimp.cpp:197
 #, fuzzy
 msgid "Unfinished Job in Queue"
 msgstr "Onafgehandelde Werke in die wagtou"
+
+#: jobqueimp.cpp:145 jobqueimp.cpp:197
+msgid "Keep"
+msgstr ""
 
 #. i18n: file: jobque.ui:17
 #. i18n: ectx: property (text), widget (QLabel, queLabel)
@@ -1564,15 +1560,15 @@ msgid "Track %1"
 msgstr "Navolg"
 
 #: tracksimp.cpp:51 tracksimp.cpp:171 tracksimp.cpp:183 tracksimp.cpp:624
-msgid "Length"
-msgstr "Lengte"
-
-#: tracksimp.cpp:51 tracksimp.cpp:171 tracksimp.cpp:183 tracksimp.cpp:624
 #, fuzzy
 #| msgid "Rip"
 msgctxt "@title:column"
 msgid "Rip"
 msgstr "Rip"
+
+#: tracksimp.cpp:51 tracksimp.cpp:171 tracksimp.cpp:183 tracksimp.cpp:624
+msgid "Length"
+msgstr "Lengte"
 
 #: tracksimp.cpp:116 tracksimp.cpp:273 tracksimp.cpp:288
 #, fuzzy
@@ -1582,13 +1578,13 @@ msgstr "Nee Navolg Gekose"
 #: tracksimp.cpp:167 tracksimp.cpp:179
 #, fuzzy
 #| msgid "Unknown Artist - Unknown Album"
-msgid "Unknown Album"
+msgid "Unknown Artist"
 msgstr "Onbekende Kunstenaar - Onbekende Album"
 
 #: tracksimp.cpp:167 tracksimp.cpp:179
 #, fuzzy
 #| msgid "Unknown Artist - Unknown Album"
-msgid "Unknown Artist"
+msgid "Unknown Album"
 msgstr "Onbekende Kunstenaar - Onbekende Album"
 
 #: tracksimp.cpp:299
@@ -1639,10 +1635,6 @@ msgid "Protocol Not Found"
 msgstr ""
 
 #: tracksimp.cpp:523
-msgid "Album Information Incomplete"
-msgstr "Album Informasie Onvolledig"
-
-#: tracksimp.cpp:523
 #, fuzzy, kde-format
 msgid ""
 "Part of the album is not set: %1.\n"
@@ -1652,6 +1644,10 @@ msgstr ""
 "Deel van die album is nie stel: %1.\n"
 " (Na verander album informasie kliek die \"Redigeer informasie\" knoppie.)\n"
 " Sal jy hou van Na rip die gekose volg in elkgeval?"
+
+#: tracksimp.cpp:523
+msgid "Album Information Incomplete"
+msgstr "Album Informasie Onvolledig"
 
 #: tracksimp.cpp:523
 msgid "Rip"
@@ -1665,6 +1661,10 @@ msgstr ""
 #, kde-format
 msgid "Example: %1"
 msgstr ""
+
+#: job.h:35
+msgid "Other"
+msgstr "Ander"
 
 #, fuzzy
 #~ msgid "Number of tracks to rip at a time"
