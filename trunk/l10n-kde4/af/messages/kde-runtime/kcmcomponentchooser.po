@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:46+0200\n"
+"POT-Creation-Date: 2012-08-20 04:50+0200\n"
 "PO-Revision-Date: 2005-11-23 16:50+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -17,9 +17,37 @@ msgstr ""
 "X-Generator: KBabel 1.10.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: componentchooserbrowser.cpp:103
-msgid "Select preferred Web browser application:"
-msgstr "Kies voorkeur Web blaaier program:"
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kobus Venter"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kabousv@therugby.co.za"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: browserconfig_ui.ui:12
+msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
+msgstr "<qt>Maak <b>http</b> en <b>https</b> URLs oop</qt>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
+#: browserconfig_ui.ui:19
+msgid "in an application based on the contents of the URL"
+msgstr "in 'n applikasie gebaseer op die inhoud van die URL"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
+#: browserconfig_ui.ui:29
+msgid "in the following browser:"
+msgstr "in die volgende blaaier"
+
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectBrowser)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
+#: browserconfig_ui.ui:64 emailclientconfig_ui.ui:69
+#: filemanagerconfig_ui.ui:41 terminalemulatorconfig_ui.ui:60
+msgid "..."
+msgstr "..."
 
 #: componentchooser.cpp:135
 msgid "Unknown"
@@ -46,6 +74,57 @@ msgid ""
 msgstr ""
 "Kies uit die onderstaande lys watter komponent moet as die verstek gebruik "
 "word vir die %1 diens."
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
+#: componentchooser_ui.ui:26
+msgid ""
+"Here you can change the component program. Components are programs that "
+"handle basic tasks, like the terminal emulator, the text editor and the "
+"email client. Different KDE applications sometimes need to invoke a console "
+"emulator, send a mail or display some text. To do so consistently, these "
+"applications always call the same components. You can choose here which "
+"programs these components are."
+msgstr ""
+"Hier kan jy die komponent program verander. Komponente is programme wat "
+"basiese take hanteer, soos die terminaal emuleerder, die teks redigeerder en "
+"die e-pos kliënt. Verskillende KDE applikasies moet soms 'n konsole "
+"emuleeder aktiveer, 'n boodskap stuur of teks vertoon. Om dit konsekwent te "
+"doen, sal hierdie applikasies altyd dieselfde komponent oproep. Jy kan hier "
+"kies watter programme hierdie komponente is."
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: componentchooser_ui.ui:29
+msgid "Default Component"
+msgstr "Verstek Komponent"
+
+#. i18n: ectx: property (whatsThis), widget (KListWidget, ServiceChooser)
+#: componentchooser_ui.ui:44
+msgid ""
+"<qt>\n"
+"<p>This list shows the configurable component types. Click the component you "
+"want to configure.</p>\n"
+"<p>In this dialog you can change KDE default components. Components are "
+"programs that handle basic tasks, like the terminal emulator, the text "
+"editor and the email client. Different KDE applications sometimes need to "
+"invoke a console emulator, send a mail or display some text. To do so "
+"consistently, these applications always call the same components. Here you "
+"can select which programs these components are.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>Hierdie lys wys die konfigureerbare komponent tipes. Kliek op die "
+"komponent wat jy wil konfigureer.</p>\n"
+"<p>In hierdie dialoog kan jy KDE se verstek komponente verander. Komponente "
+"is programme wat basiese take hanteer, soos die terminaal emuleerder, die "
+"teks redigeerder en dei e-pos kliënt. Verskillende KDE applikasies moet soms "
+"'n konsole emuleeder aktiveer, 'n boodskap stuur of teks vertoon. Om dit "
+"konsekwent te doen, sal hierdie applikasies altyd dieselfde komponent "
+"oproep. Jy kan hier kies watter programme hierdie komponente is.</p>\n"
+"</qt>"
+
+#: componentchooserbrowser.cpp:103
+msgid "Select preferred Web browser application:"
+msgstr "Kies voorkeur Web blaaier program:"
 
 #: componentchooseremail.cpp:79
 msgid "Select preferred email client:"
@@ -115,148 +194,28 @@ msgstr ""
 msgid "Running the configuration tool failed"
 msgstr ""
 
-#: kcm_componentchooser.cpp:46
-msgid "kcmcomponentchooser"
-msgstr "kcmkomponentkieser"
-
-#: kcm_componentchooser.cpp:46
-msgid "Component Chooser"
-msgstr "Komponent Kieser"
-
-#: kcm_componentchooser.cpp:48
-msgid "(c), 2002 Joseph Wenninger"
-msgstr "(c), 2002 Joseph Wenninger"
-
-#: kcm_componentchooser.cpp:50
-#, fuzzy
-#| msgid "(c), 2002 Joseph Wenninger"
-msgid "Joseph Wenninger"
-msgstr "(c), 2002 Joseph Wenninger"
-
-#: ktimerdialog.cpp:164
-#, kde-format
-msgid "1 second remaining:"
-msgid_plural "%1 seconds remaining:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Kobus Venter"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "kabousv@therugby.co.za"
-
-#. i18n: file: browserconfig_ui.ui:12
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:5
-msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
-msgstr "<qt>Maak <b>http</b> en <b>https</b> URLs oop</qt>"
-
-#. i18n: file: browserconfig_ui.ui:19
-#. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
-#: rc.cpp:8
-msgid "in an application based on the contents of the URL"
-msgstr "in 'n applikasie gebaseer op die inhoud van die URL"
-
-#. i18n: file: browserconfig_ui.ui:29
-#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
-#: rc.cpp:11
-msgid "in the following browser:"
-msgstr "in die volgende blaaier"
-
-#. i18n: file: browserconfig_ui.ui:64
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectBrowser)
-#. i18n: file: emailclientconfig_ui.ui:69
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
-#. i18n: file: filemanagerconfig_ui.ui:41
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
-#. i18n: file: terminalemulatorconfig_ui.ui:60
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
-#: rc.cpp:14 rc.cpp:52 rc.cpp:67 rc.cpp:82
-msgid "..."
-msgstr "..."
-
-#. i18n: file: componentchooser_ui.ui:26
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
-#: rc.cpp:17
-msgid ""
-"Here you can change the component program. Components are programs that "
-"handle basic tasks, like the terminal emulator, the text editor and the "
-"email client. Different KDE applications sometimes need to invoke a console "
-"emulator, send a mail or display some text. To do so consistently, these "
-"applications always call the same components. You can choose here which "
-"programs these components are."
-msgstr ""
-"Hier kan jy die komponent program verander. Komponente is programme wat "
-"basiese take hanteer, soos die terminaal emuleerder, die teks redigeerder en "
-"die e-pos kliënt. Verskillende KDE applikasies moet soms 'n konsole "
-"emuleeder aktiveer, 'n boodskap stuur of teks vertoon. Om dit konsekwent te "
-"doen, sal hierdie applikasies altyd dieselfde komponent oproep. Jy kan hier "
-"kies watter programme hierdie komponente is."
-
-#. i18n: file: componentchooser_ui.ui:29
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: rc.cpp:20
-msgid "Default Component"
-msgstr "Verstek Komponent"
-
-#. i18n: file: componentchooser_ui.ui:44
-#. i18n: ectx: property (whatsThis), widget (KListWidget, ServiceChooser)
-#: rc.cpp:23
-msgid ""
-"<qt>\n"
-"<p>This list shows the configurable component types. Click the component you "
-"want to configure.</p>\n"
-"<p>In this dialog you can change KDE default components. Components are "
-"programs that handle basic tasks, like the terminal emulator, the text "
-"editor and the email client. Different KDE applications sometimes need to "
-"invoke a console emulator, send a mail or display some text. To do so "
-"consistently, these applications always call the same components. Here you "
-"can select which programs these components are.</p>\n"
-"</qt>"
-msgstr ""
-"<qt>\n"
-"<p>Hierdie lys wys die konfigureerbare komponent tipes. Kliek op die "
-"komponent wat jy wil konfigureer.</p>\n"
-"<p>In hierdie dialoog kan jy KDE se verstek komponente verander. Komponente "
-"is programme wat basiese take hanteer, soos die terminaal emuleerder, die "
-"teks redigeerder en dei e-pos kliënt. Verskillende KDE applikasies moet soms "
-"'n konsole emuleeder aktiveer, 'n boodskap stuur of teks vertoon. Om dit "
-"konsekwent te doen, sal hierdie applikasies altyd dieselfde komponent "
-"oproep. Jy kan hier kies watter programme hierdie komponente is.</p>\n"
-"</qt>"
-
-#. i18n: file: emailclientconfig_ui.ui:12
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
-#: rc.cpp:29
+#: emailclientconfig_ui.ui:12
 msgid "Kmail is the standard Mail program for the KDE desktop."
 msgstr "KPos is die standaard Pos program vir die KDE werkskerm."
 
-#. i18n: file: emailclientconfig_ui.ui:15
 #. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
-#: rc.cpp:32
+#: emailclientconfig_ui.ui:15
 msgid "&Use KMail as preferred email client"
 msgstr "Gebruik KPos as voorkeur e-pos klient"
 
-#. i18n: file: emailclientconfig_ui.ui:22
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
-#: rc.cpp:35
+#: emailclientconfig_ui.ui:22
 msgid "Select this option if you want to use any other mail program."
 msgstr "Kies hierdie opsie om 'n ander e-pos program te gebruik"
 
-#. i18n: file: emailclientconfig_ui.ui:25
 #. i18n: ectx: property (text), widget (QRadioButton, otherCB)
-#: rc.cpp:38
+#: emailclientconfig_ui.ui:25
 msgid "Use a different &email client:"
 msgstr "Gebruik 'n ander e-pos kliënt:"
 
-#. i18n: file: emailclientconfig_ui.ui:53
 #. i18n: ectx: property (toolTip), widget (KLineEdit, txtEMailClient)
-#: rc.cpp:42
+#: emailclientconfig_ui.ui:53
 #, fuzzy, no-c-format
 msgid ""
 "<ul> <li>%t: Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon "
@@ -267,9 +226,8 @@ msgstr ""
 "Kopie (CC)</li> <li>%b: Geheime Deurslag Kopie (GDK)</li> <li>%B: Sjabloon "
 "inhoud teks</li> <li>%A: Byvoegsel </li> </ul>"
 
-#. i18n: file: emailclientconfig_ui.ui:56
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, txtEMailClient)
-#: rc.cpp:46
+#: emailclientconfig_ui.ui:56
 #, fuzzy, no-c-format
 #| msgid ""
 #| "Press this button to select your favorite email client. Please note that "
@@ -296,15 +254,13 @@ msgstr ""
 "Kopie (DK)</li> <li>%b: Geheime Deurslag Kopie (GDK)</li> <li>%B: Sjabloon "
 "inhoud teks</li> <li>%A: Byvoegsel </li> </ul>"
 
-#. i18n: file: emailclientconfig_ui.ui:66
 #. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectEmail)
-#: rc.cpp:49
+#: emailclientconfig_ui.ui:66
 msgid "Click here to browse for the mail program file."
 msgstr "Kliek hier om na die e-pos kliënt se program lêer te soek"
 
-#. i18n: file: emailclientconfig_ui.ui:99
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkRunTerminal)
-#: rc.cpp:55
+#: emailclientconfig_ui.ui:99
 msgid ""
 "Activate this option if you want the selected email client to be executed in "
 "a terminal (e.g. <em>Konsole</em>)."
@@ -312,39 +268,58 @@ msgstr ""
 "Kies hierdie opsie indien jy wil hê dat die e-pos kliënt in 'n terminaal "
 "venster (bv. <em>Konsole</em>) moet oopmaak."
 
-#. i18n: file: emailclientconfig_ui.ui:102
 #. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
-#: rc.cpp:58
+#: emailclientconfig_ui.ui:102
 msgid "&Run in terminal"
 msgstr "Hardloop in terminaal"
 
-#. i18n: file: filemanagerconfig_ui.ui:12
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:61
+#: filemanagerconfig_ui.ui:12
 msgid "Browse directories using the following file manager:"
 msgstr ""
 
-#. i18n: file: filemanagerconfig_ui.ui:24
 #. i18n: ectx: property (text), widget (QRadioButton, radioExec)
-#: rc.cpp:64
+#: filemanagerconfig_ui.ui:24
 msgid "Other: click Add... in the dialog shown here:"
 msgstr ""
 
-#. i18n: file: terminalemulatorconfig_ui.ui:12
+#: kcm_componentchooser.cpp:46
+msgid "kcmcomponentchooser"
+msgstr "kcmkomponentkieser"
+
+#: kcm_componentchooser.cpp:46
+msgid "Component Chooser"
+msgstr "Komponent Kieser"
+
+#: kcm_componentchooser.cpp:48
+msgid "(c), 2002 Joseph Wenninger"
+msgstr "(c), 2002 Joseph Wenninger"
+
+#: kcm_componentchooser.cpp:50
+#, fuzzy
+#| msgid "(c), 2002 Joseph Wenninger"
+msgid "Joseph Wenninger"
+msgstr "(c), 2002 Joseph Wenninger"
+
+#: ktimerdialog.cpp:164
+#, kde-format
+msgid "1 second remaining:"
+msgid_plural "%1 seconds remaining:"
+msgstr[0] ""
+msgstr[1] ""
+
 #. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
-#: rc.cpp:70
+#: terminalemulatorconfig_ui.ui:12
 msgid "&Use Konsole as terminal application"
 msgstr "Gebruik Konsole as die terminaal applikasie"
 
-#. i18n: file: terminalemulatorconfig_ui.ui:19
 #. i18n: ectx: property (text), widget (QRadioButton, otherCB)
-#: rc.cpp:73
+#: terminalemulatorconfig_ui.ui:19
 msgid "Use a different &terminal program:"
 msgstr "Gebruik 'n ander &terminaal program:"
 
-#. i18n: file: terminalemulatorconfig_ui.ui:47
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, terminalLE)
-#: rc.cpp:76
+#: terminalemulatorconfig_ui.ui:47
 #, fuzzy
 #| msgid ""
 #| "Press this button to select your favorite terminal client. Please note "
@@ -364,35 +339,30 @@ msgstr ""
 "Terminaal Emuleerder gebruik nie sal werk indien jy opdrag argumente (Bv. "
 "konsole -ls) byvoeg nie."
 
-#. i18n: file: terminalemulatorconfig_ui.ui:57
 #. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectTerminal)
-#: rc.cpp:79
+#: terminalemulatorconfig_ui.ui:57
 msgid "Click here to browse for terminal program."
 msgstr "Kliek hier om na terminaal program te soek"
 
-#. i18n: file: wmconfig_ui.ui:12
 #. i18n: ectx: property (text), widget (QRadioButton, kwinRB)
-#: rc.cpp:85
+#: wmconfig_ui.ui:12
 msgid "&Use the default KDE window manager (KWin)"
 msgstr ""
 
-#. i18n: file: wmconfig_ui.ui:19
 #. i18n: ectx: property (text), widget (QRadioButton, differentRB)
-#: rc.cpp:88
+#: wmconfig_ui.ui:19
 #, fuzzy
 #| msgid "Use a different &terminal program:"
 msgid "Use a different &window manager:"
 msgstr "Gebruik 'n ander &terminaal program:"
 
-#. i18n: file: wmconfig_ui.ui:60
 #. i18n: ectx: property (text), widget (KPushButton, configureButton)
-#: rc.cpp:91
+#: wmconfig_ui.ui:60
 msgid "Configure"
 msgstr ""
 
-#. i18n: file: wmconfig_ui.ui:87
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:94
+#: wmconfig_ui.ui:87
 msgid ""
 "Note: Most window managers have their own configuration and do not follow "
 "KDE settings."

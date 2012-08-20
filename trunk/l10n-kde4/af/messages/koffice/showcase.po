@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:51+0200\n"
+"POT-Creation-Date: 2012-08-20 05:48+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -15,6 +15,54 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "WEB-Vertaler (http://kde.af.org.za)"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "frix@expertron.co.za"
+
+#: part/commands/SCAnimationCreateCommand.cpp:33
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgid "Create shape animation"
+msgstr "Skep Html Aanbieding"
+
+#: part/commands/SCPageEffectSetCommand.cpp:38
+#, fuzzy
+msgid "Create page effect"
+msgstr "Verander Kas van Teks"
+
+#: part/commands/SCPageEffectSetCommand.cpp:41
+#, fuzzy
+msgid "Modify page effect"
+msgstr "Nee Effek"
+
+#: part/commands/SCPageEffectSetCommand.cpp:45
+#, fuzzy
+msgid "Delete page effect"
+msgstr "Nee Effek"
+
+#. i18n: ectx: ToolBar (editToolBar)
+#: part/commands/SCSetCustomSlideShowsCommand.cpp:33 part/showcase.rc:91
+msgid "Edit"
+msgstr ""
+
+#: part/dockers/SCPageLayoutDocker.cpp:46
+#, fuzzy
+msgid "Slide Layouts"
+msgstr "Bladsy Uitleg..."
+
+#: part/main.cpp:36
+msgid "File to open"
+msgstr "Lêer na open"
+
+#: part/pagelayout/SCPlaceholders.cpp:58 part/pagelayout/SCPlaceholders.cpp:59
+#, fuzzy
+msgid "Set Layout"
+msgstr "Bladsy Uitleg..."
 
 #: part/SCAboutData.h:27
 msgid "KOffice Presentation Tool"
@@ -250,9 +298,8 @@ msgstr "Skuif"
 msgid "Copy the current slide"
 msgstr "Voor Huidige Bladsy"
 
-#. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:136
 #. i18n: ectx: property (text), widget (QPushButton, deleteSlideButton)
-#: part/SCView.cpp:75 rc.cpp:26
+#: part/SCView.cpp:75 part/ui/SCCustomSlideShowsDialog.ui:136
 #, fuzzy
 msgid "Delete Slide"
 msgstr "Gekose skyfies"
@@ -367,54 +414,53 @@ msgstr ""
 msgid "Blackscreen on the presentation..."
 msgstr ""
 
-#. i18n: file: part/showcase.rc:91
-#. i18n: ectx: ToolBar (editToolBar)
-#: part/commands/SCSetCustomSlideShowsCommand.cpp:33 rc.cpp:119
-msgid "Edit"
-msgstr ""
+#: part/SCViewModeSlidesSorter.cpp:325 part/ui/SCCustomSlideShowsDialog.cpp:82
+#: part/ui/SCCustomSlideShowsDialog.cpp:239
+#: part/ui/SCCustomSlideShowsDialog.cpp:257 part/ui/SCHtmlExportDialog.cpp:119
+#, kde-format
+msgid "Slide %1"
+msgstr "Skuif %1"
 
-#: part/commands/SCAnimationCreateCommand.cpp:33
+#. i18n: ectx: Menu (edit)
+#: part/showcase.rc:8
 #, fuzzy
-#| msgid "Create HTML Presentation"
-msgid "Create shape animation"
-msgstr "Skep Html Aanbieding"
+msgid "&Edit"
+msgstr "Einde:"
 
-#: part/commands/SCPageEffectSetCommand.cpp:38
+#. i18n: ectx: Menu (view)
+#: part/showcase.rc:27
 #, fuzzy
-msgid "Create page effect"
-msgstr "Verander Kas van Teks"
+msgid "&View"
+msgstr "Pastei"
 
-#: part/commands/SCPageEffectSetCommand.cpp:41
+#. i18n: ectx: Menu (insert)
+#: part/showcase.rc:50
 #, fuzzy
-msgid "Modify page effect"
-msgstr "Nee Effek"
+msgid "&Insert"
+msgstr "Voeg by Lêer"
 
-#: part/commands/SCPageEffectSetCommand.cpp:45
+#. i18n: ectx: Menu (format)
+#: part/showcase.rc:55
+msgid "F&ormat"
+msgstr "Formaat"
+
+#. i18n: ectx: Menu (page)
+#: part/showcase.rc:64
 #, fuzzy
-msgid "Delete page effect"
-msgstr "Nee Effek"
+msgid "&Slide"
+msgstr "Skuif"
 
-#: part/dockers/SCPageLayoutDocker.cpp:46
+#. i18n: ectx: Menu (slideshow)
+#: part/showcase.rc:75
 #, fuzzy
-msgid "Slide Layouts"
-msgstr "Bladsy Uitleg..."
+msgid "Sli&de Show"
+msgstr "Skyfievertoning"
 
-#: part/main.cpp:36
-msgid "File to open"
-msgstr "Lêer na open"
-
-#: part/pagelayout/SCPlaceholders.cpp:58 part/pagelayout/SCPlaceholders.cpp:59
+#. i18n: ectx: Menu (settings)
+#: part/showcase.rc:82
 #, fuzzy
-msgid "Set Layout"
-msgstr "Bladsy Uitleg..."
-
-#: part/tools/SCAnimationToolFactory.cpp:32
-msgid "Animation tool"
-msgstr ""
-
-#: part/tools/SCPlaceholderToolFactory.cpp:28
-msgid "Layout Tool"
-msgstr ""
+msgid "&Settings"
+msgstr "Gids soeklys Instellings"
 
 #: part/tools/SCAnimationTool.cpp:69
 #, fuzzy
@@ -435,10 +481,9 @@ msgstr ""
 msgid "Shape Animation"
 msgstr "Skep Html Aanbieding"
 
-#: part/tools/SCPlaceholderTool.cpp:78
-#, fuzzy
-msgid "Edit Shape"
-msgstr "Vorm"
+#: part/tools/SCAnimationToolFactory.cpp:32
+msgid "Animation tool"
+msgstr ""
 
 #: part/tools/SCPageEffectDocker.cpp:57
 msgid "No Effect"
@@ -449,6 +494,31 @@ msgstr "Nee Effek"
 #| msgid " seconds"
 msgid " sec"
 msgstr " sekondes"
+
+#: part/tools/SCPlaceholderTool.cpp:78
+#, fuzzy
+msgid "Edit Shape"
+msgstr "Vorm"
+
+#: part/tools/SCPlaceholderToolFactory.cpp:28
+msgid "Layout Tool"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: part/ui/SCConfigurePresenterView.ui:16
+msgid "Multiple monitors"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: part/ui/SCConfigurePresenterView.ui:24
+#, fuzzy
+msgid "Presentation monitor:"
+msgstr "Aanbieding"
+
+#. i18n: ectx: property (text), widget (QCheckBox, presenterViewCheckBox)
+#: part/ui/SCConfigurePresenterView.ui:39
+msgid "Enable presenter view"
+msgstr ""
 
 #: part/ui/SCConfigurePresenterViewDialog.cpp:42
 #, kde-format
@@ -466,26 +536,37 @@ msgstr ""
 msgid "Configure Presenter View"
 msgstr "Konfigureer Kpresenter"
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, SCConfigureSlideShow)
+#: part/ui/SCConfigureSlideShow.ui:13
+#: part/ui/SCConfigureSlideShowDialog.cpp:46
+#, fuzzy
+msgid "Configure Slide Show"
+msgstr "Skyfievertoning"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: part/ui/SCConfigureSlideShow.ui:19
+#, fuzzy
+msgid "Slides"
+msgstr "Skuif"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: part/ui/SCConfigureSlideShow.ui:27
+#, fuzzy
+#| msgid "Presentation"
+msgid "Presentation Slides:"
+msgstr "Aanbieding"
+
+#. i18n: ectx: property (text), widget (QPushButton, editSlidesButton)
+#: part/ui/SCConfigureSlideShow.ui:54
+#, fuzzy
+msgid "Edit Custom Slide Shows ..."
+msgstr "Konfigureer Voltooiïng..."
+
 #: part/ui/SCConfigureSlideShowDialog.cpp:40
 #: part/ui/SCConfigureSlideShowDialog.cpp:84
 #, fuzzy
 msgid "All slides"
 msgstr "Alle lêers"
-
-#. i18n: file: part/ui/SCConfigureSlideShow.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, SCConfigureSlideShow)
-#: part/ui/SCConfigureSlideShowDialog.cpp:46 rc.cpp:47
-#, fuzzy
-msgid "Configure Slide Show"
-msgstr "Skyfievertoning"
-
-#: part/ui/SCCustomSlideShowsDialog.cpp:82
-#: part/ui/SCCustomSlideShowsDialog.cpp:239
-#: part/ui/SCCustomSlideShowsDialog.cpp:257 part/ui/SCHtmlExportDialog.cpp:119
-#: part/SCViewModeSlidesSorter.cpp:325
-#, kde-format
-msgid "Slide %1"
-msgstr "Skuif %1"
 
 #: part/ui/SCCustomSlideShowsDialog.cpp:96
 #: part/ui/SCCustomSlideShowsDialog.cpp:100
@@ -516,6 +597,139 @@ msgstr "Doen jy wil hê na verwyder die huidige bladsy?"
 #| msgid "Save Configuration..."
 msgid "Confirm action"
 msgstr "Stoor Opstelling..."
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CustomSlideShowsWidget)
+#: part/ui/SCCustomSlideShowsDialog.ui:22
+#, fuzzy
+msgid "Custom Slideshows editor"
+msgstr "Skyfievertoning"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: part/ui/SCCustomSlideShowsDialog.ui:36
+#, fuzzy
+msgid "Customs Slideshows"
+msgstr "Skyfievertoning"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: part/ui/SCCustomSlideShowsDialog.ui:59
+#, fuzzy
+#| msgid "Slideshow"
+msgid "Add new slideshow"
+msgstr "Skyfievertoning"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: part/ui/SCCustomSlideShowsDialog.ui:66
+#, fuzzy
+msgid "Delete slideshow"
+msgstr "Gekose skyfies"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: part/ui/SCCustomSlideShowsDialog.ui:75
+#, fuzzy
+msgid "Available Slides"
+msgstr "Duplikaat Bladsy"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: part/ui/SCCustomSlideShowsDialog.ui:106
+#, fuzzy
+#| msgid "Create HTML Slideshow"
+msgid "Current Slideshow:"
+msgstr "Skep Html Skyfievertoning"
+
+#. i18n: ectx: property (text), widget (QPushButton, addSlideButton)
+#: part/ui/SCCustomSlideShowsDialog.ui:129
+#, fuzzy
+#| msgid "Slide"
+msgid "Add Slide"
+msgstr "Skuif"
+
+#. i18n: ectx: property (text), widget (QPushButton, undoButton)
+#: part/ui/SCCustomSlideShowsDialog.ui:182
+msgid "Undo"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, okButton)
+#: part/ui/SCCustomSlideShowsDialog.ui:189
+msgid "Ok"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: part/ui/SCCustomSlideShowsDialog.ui:196
+#, fuzzy
+msgid "Close"
+msgstr "Kleur:"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SCHtmlExport)
+#: part/ui/SCHtmlExport.ui:20
+msgid "HTML Export"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_slideslist)
+#: part/ui/SCHtmlExport.ui:29
+msgid "Tick the slide should be exported :"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, kPushButton_selectAll)
+#: part/ui/SCHtmlExport.ui:55
+#, fuzzy
+msgid "Select all"
+msgstr "Deur te kies..."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel_css)
+#: part/ui/SCHtmlExport.ui:65
+#, fuzzy
+msgid "Select template (.css) :"
+msgstr "Uitvee Bladsy"
+
+#. i18n: ectx: property (text), widget (KPushButton, kPushButton_deselectAll)
+#: part/ui/SCHtmlExport.ui:78
+#, fuzzy
+msgid "Deselect all"
+msgstr "Deur te kies..."
+
+#. i18n: ectx: property (text), widget (QLabel, textlable_top)
+#: part/ui/SCHtmlExport.ui:101
+#, fuzzy
+#| msgid "Title:"
+msgid "Title"
+msgstr "Titel:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_preview)
+#: part/ui/SCHtmlExport.ui:117
+#, fuzzy
+msgid "Output preview"
+msgstr "Vertoon voorskou"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_previous)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_next)
+#: part/ui/SCHtmlExport.ui:148 part/ui/SCHtmlExport.ui:164
+#, fuzzy
+#| msgid "New..."
+msgid "..."
+msgstr "Nuwe..."
+
+#. i18n: ectx: property (text), widget (KPushButton, kpushbuttonBrowseTemplate)
+#: part/ui/SCHtmlExport.ui:227
+msgid "Browse"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_author)
+#: part/ui/SCHtmlExport.ui:243
+#, fuzzy
+#| msgid "Author:"
+msgid "Author"
+msgstr "Outeur:"
+
+#. i18n: ectx: property (text), widget (KPushButton, kPushButton_Favorite)
+#: part/ui/SCHtmlExport.ui:258
+#, fuzzy
+msgid "Delete Favorite"
+msgstr "Gekose skyfies"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_browser)
+#: part/ui/SCHtmlExport.ui:286
+msgid "Open in browser"
+msgstr ""
 
 #: part/ui/SCHtmlExportDialog.cpp:44
 msgid "Html Export"
@@ -1801,261 +2015,6 @@ msgstr "Opskrif"
 #: plugins/variable/PresentationVariableFactory.cpp:47
 msgid "Footer"
 msgstr "Voetskrif"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "WEB-Vertaler (http://kde.af.org.za)"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "frix@expertron.co.za"
-
-#. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:22
-#. i18n: ectx: property (windowTitle), widget (QWidget, CustomSlideShowsWidget)
-#: rc.cpp:5
-#, fuzzy
-msgid "Custom Slideshows editor"
-msgstr "Skyfievertoning"
-
-#. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:36
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:8
-#, fuzzy
-msgid "Customs Slideshows"
-msgstr "Skyfievertoning"
-
-#. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:59
-#. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: rc.cpp:11
-#, fuzzy
-#| msgid "Slideshow"
-msgid "Add new slideshow"
-msgstr "Skyfievertoning"
-
-#. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:66
-#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: rc.cpp:14
-#, fuzzy
-msgid "Delete slideshow"
-msgstr "Gekose skyfies"
-
-#. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:75
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:17
-#, fuzzy
-msgid "Available Slides"
-msgstr "Duplikaat Bladsy"
-
-#. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:106
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:20
-#, fuzzy
-#| msgid "Create HTML Slideshow"
-msgid "Current Slideshow:"
-msgstr "Skep Html Skyfievertoning"
-
-#. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:129
-#. i18n: ectx: property (text), widget (QPushButton, addSlideButton)
-#: rc.cpp:23
-#, fuzzy
-#| msgid "Slide"
-msgid "Add Slide"
-msgstr "Skuif"
-
-#. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:182
-#. i18n: ectx: property (text), widget (QPushButton, undoButton)
-#: rc.cpp:29
-msgid "Undo"
-msgstr ""
-
-#. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:189
-#. i18n: ectx: property (text), widget (QPushButton, okButton)
-#: rc.cpp:32
-msgid "Ok"
-msgstr ""
-
-#. i18n: file: part/ui/SCCustomSlideShowsDialog.ui:196
-#. i18n: ectx: property (text), widget (QPushButton, closeButton)
-#: rc.cpp:35
-#, fuzzy
-msgid "Close"
-msgstr "Kleur:"
-
-#. i18n: file: part/ui/SCConfigurePresenterView.ui:16
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:38
-msgid "Multiple monitors"
-msgstr ""
-
-#. i18n: file: part/ui/SCConfigurePresenterView.ui:24
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:41
-#, fuzzy
-msgid "Presentation monitor:"
-msgstr "Aanbieding"
-
-#. i18n: file: part/ui/SCConfigurePresenterView.ui:39
-#. i18n: ectx: property (text), widget (QCheckBox, presenterViewCheckBox)
-#: rc.cpp:44
-msgid "Enable presenter view"
-msgstr ""
-
-#. i18n: file: part/ui/SCConfigureSlideShow.ui:19
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:50
-#, fuzzy
-msgid "Slides"
-msgstr "Skuif"
-
-#. i18n: file: part/ui/SCConfigureSlideShow.ui:27
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:53
-#, fuzzy
-#| msgid "Presentation"
-msgid "Presentation Slides:"
-msgstr "Aanbieding"
-
-#. i18n: file: part/ui/SCConfigureSlideShow.ui:54
-#. i18n: ectx: property (text), widget (QPushButton, editSlidesButton)
-#: rc.cpp:56
-#, fuzzy
-msgid "Edit Custom Slide Shows ..."
-msgstr "Konfigureer Voltooiïng..."
-
-#. i18n: file: part/ui/SCHtmlExport.ui:20
-#. i18n: ectx: property (windowTitle), widget (QWidget, SCHtmlExport)
-#: rc.cpp:59
-msgid "HTML Export"
-msgstr ""
-
-#. i18n: file: part/ui/SCHtmlExport.ui:29
-#. i18n: ectx: property (text), widget (QLabel, textLabel_slideslist)
-#: rc.cpp:62
-msgid "Tick the slide should be exported :"
-msgstr ""
-
-#. i18n: file: part/ui/SCHtmlExport.ui:55
-#. i18n: ectx: property (text), widget (KPushButton, kPushButton_selectAll)
-#: rc.cpp:65
-#, fuzzy
-msgid "Select all"
-msgstr "Deur te kies..."
-
-#. i18n: file: part/ui/SCHtmlExport.ui:65
-#. i18n: ectx: property (text), widget (QLabel, textLabel_css)
-#: rc.cpp:68
-#, fuzzy
-msgid "Select template (.css) :"
-msgstr "Uitvee Bladsy"
-
-#. i18n: file: part/ui/SCHtmlExport.ui:78
-#. i18n: ectx: property (text), widget (KPushButton, kPushButton_deselectAll)
-#: rc.cpp:71
-#, fuzzy
-msgid "Deselect all"
-msgstr "Deur te kies..."
-
-#. i18n: file: part/ui/SCHtmlExport.ui:101
-#. i18n: ectx: property (text), widget (QLabel, textlable_top)
-#: rc.cpp:74
-#, fuzzy
-#| msgid "Title:"
-msgid "Title"
-msgstr "Titel:"
-
-#. i18n: file: part/ui/SCHtmlExport.ui:117
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_preview)
-#: rc.cpp:77
-#, fuzzy
-msgid "Output preview"
-msgstr "Vertoon voorskou"
-
-#. i18n: file: part/ui/SCHtmlExport.ui:148
-#. i18n: ectx: property (text), widget (QToolButton, toolButton_previous)
-#. i18n: file: part/ui/SCHtmlExport.ui:164
-#. i18n: ectx: property (text), widget (QToolButton, toolButton_next)
-#: rc.cpp:80 rc.cpp:83
-#, fuzzy
-#| msgid "New..."
-msgid "..."
-msgstr "Nuwe..."
-
-#. i18n: file: part/ui/SCHtmlExport.ui:227
-#. i18n: ectx: property (text), widget (KPushButton, kpushbuttonBrowseTemplate)
-#: rc.cpp:86
-msgid "Browse"
-msgstr ""
-
-#. i18n: file: part/ui/SCHtmlExport.ui:243
-#. i18n: ectx: property (text), widget (QLabel, label_author)
-#: rc.cpp:89
-#, fuzzy
-#| msgid "Author:"
-msgid "Author"
-msgstr "Outeur:"
-
-#. i18n: file: part/ui/SCHtmlExport.ui:258
-#. i18n: ectx: property (text), widget (KPushButton, kPushButton_Favorite)
-#: rc.cpp:92
-#, fuzzy
-msgid "Delete Favorite"
-msgstr "Gekose skyfies"
-
-#. i18n: file: part/ui/SCHtmlExport.ui:286
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_browser)
-#: rc.cpp:95
-msgid "Open in browser"
-msgstr ""
-
-#. i18n: file: part/showcase.rc:8
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:98
-#, fuzzy
-msgid "&Edit"
-msgstr "Einde:"
-
-#. i18n: file: part/showcase.rc:27
-#. i18n: ectx: Menu (view)
-#: rc.cpp:101
-#, fuzzy
-msgid "&View"
-msgstr "Pastei"
-
-#. i18n: file: part/showcase.rc:50
-#. i18n: ectx: Menu (insert)
-#: rc.cpp:104
-#, fuzzy
-msgid "&Insert"
-msgstr "Voeg by Lêer"
-
-#. i18n: file: part/showcase.rc:55
-#. i18n: ectx: Menu (format)
-#: rc.cpp:107
-msgid "F&ormat"
-msgstr "Formaat"
-
-#. i18n: file: part/showcase.rc:64
-#. i18n: ectx: Menu (page)
-#: rc.cpp:110
-#, fuzzy
-msgid "&Slide"
-msgstr "Skuif"
-
-#. i18n: file: part/showcase.rc:75
-#. i18n: ectx: Menu (slideshow)
-#: rc.cpp:113
-#, fuzzy
-msgid "Sli&de Show"
-msgstr "Skyfievertoning"
-
-#. i18n: file: part/showcase.rc:82
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:116
-#, fuzzy
-msgid "&Settings"
-msgstr "Gids soeklys Instellings"
 
 #, fuzzy
 #~| msgid "Presentation"
