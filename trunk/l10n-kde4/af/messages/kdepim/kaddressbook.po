@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-28 08:20+0200\n"
+"POT-Creation-Date: 2012-08-31 07:33+0200\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -61,7 +61,7 @@ msgctxt "@item Undefined import field type"
 msgid "Undefined"
 msgstr ""
 
-#: contactfields.cpp:56
+#: contactfields.cpp:56 grantleecontactformatter.cpp:210
 msgid "Anniversary"
 msgstr "Herdenking"
 
@@ -93,15 +93,15 @@ msgctxt "Fourth email address"
 msgid "EMail (4)"
 msgstr "E-pos"
 
-#: contactfields.cpp:155
+#: contactfields.cpp:155 grantleecontactformatter.cpp:253
 msgid "Blog Feed"
 msgstr ""
 
-#: contactfields.cpp:158
+#: contactfields.cpp:158 grantleecontactformatter.cpp:296
 msgid "Profession"
 msgstr "Aambag"
 
-#: contactfields.cpp:161
+#: contactfields.cpp:161 grantleecontactformatter.cpp:300
 msgid "Office"
 msgstr "Kantoor"
 
@@ -241,21 +241,66 @@ msgctxt "@info:status"
 msgid "%1 out of %2"
 msgstr ""
 
-#: grantleecontactformatter.cpp:214
+#. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
+#: grantleecontactformatter.cpp:199 printing/rbs_appearance.ui:99
+#, fuzzy
+msgid "Birthday"
+msgstr "Verjaardag:"
+
+#: grantleecontactformatter.cpp:222
 #, fuzzy
 #| msgid "Email"
-msgctxt "a contact's email address"
-msgid "Email"
+msgid "Emails"
 msgstr "E-pos"
 
-#: grantleecontactformatter.cpp:351
+#: grantleecontactformatter.cpp:245
+msgid "Website"
+msgstr ""
+
+#: grantleecontactformatter.cpp:261 mainwidget.cpp:564
+#, fuzzy
+msgid "Address Book"
+msgstr "K-adresboek"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbNote)
+#: grantleecontactformatter.cpp:275 printing/rbs_appearance.ui:112
+#, fuzzy
+#| msgid "Note:"
+msgid "Note"
+msgstr "Nota:"
+
+#: grantleecontactformatter.cpp:289
+msgid "Department"
+msgstr "Departement"
+
+#: grantleecontactformatter.cpp:305
+msgid "Manager's Name"
+msgstr "Bestuurder se Naam"
+
+#: grantleecontactformatter.cpp:310
+#, fuzzy
+#| msgid "Assistant's name:"
+msgid "Assistant's Name"
+msgstr "Assistent se naam:"
+
+#: grantleecontactformatter.cpp:315
+#, fuzzy
+msgid "Partner's Name"
+msgstr "Bestuurder se Naam"
+
+#: grantleecontactformatter.cpp:320
+#, fuzzy
+msgid "IM Address"
+msgstr "Adresse:"
+
+#: grantleecontactformatter.cpp:367
 #, fuzzy
 #| msgid "Types"
 msgctxt "Boolean value"
 msgid "yes"
 msgstr "Tipes"
 
-#: grantleecontactformatter.cpp:353
+#: grantleecontactformatter.cpp:369
 msgctxt "Boolean value"
 msgid "no"
 msgstr ""
@@ -455,11 +500,6 @@ msgstr "In voer Kde 2 Adres Boek..."
 #: mainwidget.cpp:557
 #, fuzzy
 msgid "Export contacts to a GMX address book file."
-msgstr "K-adresboek"
-
-#: mainwidget.cpp:564
-#, fuzzy
-msgid "Address Book"
 msgstr "K-adresboek"
 
 #: mainwidget.cpp:570 printing/printingwizard.cpp:56
@@ -884,12 +924,6 @@ msgstr "Redigeer Kontak"
 msgid "Check this box if you want contact birthdays to be printed."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
-#: printing/rbs_appearance.ui:99
-#, fuzzy
-msgid "Birthday"
-msgstr "Verjaardag:"
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbNote)
 #: printing/rbs_appearance.ui:106
 #, fuzzy
@@ -901,13 +935,6 @@ msgstr "Redigeer Kontak"
 #: printing/rbs_appearance.ui:109
 msgid "Check this box if you want contact notes to be printed."
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbNote)
-#: printing/rbs_appearance.ui:112
-#, fuzzy
-#| msgid "Note:"
-msgid "Note"
-msgstr "Nota:"
 
 #: printing/ringbinderstyle.cpp:150
 #, fuzzy
@@ -1824,9 +1851,6 @@ msgstr ""
 #~ msgid "Country"
 #~ msgstr "Land"
 
-#~ msgid "Department"
-#~ msgstr "Departement"
-
 #~ msgid "Description"
 #~ msgstr "Beskrywing"
 
@@ -2285,9 +2309,6 @@ msgstr ""
 #~ msgid "Manager's name:"
 #~ msgstr "Bestuurder se naam:"
 
-#~ msgid "Assistant's name:"
-#~ msgstr "Assistent se naam:"
-
 #, fuzzy
 #~ msgid "Dates"
 #~ msgstr "Staat"
@@ -2499,10 +2520,6 @@ msgstr ""
 #~ msgstr "Suid Korea"
 
 #, fuzzy
-#~ msgid "IM address:"
-#~ msgstr "Adresse:"
-
-#, fuzzy
 #~ msgid "Edit IM Addresses..."
 #~ msgstr "Redigeer Adresse..."
 
@@ -2513,14 +2530,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "All Fields"
 #~ msgstr "Kies Velde"
-
-#~ msgid "Manager's Name"
-#~ msgstr "Bestuurder se Naam"
-
-#, fuzzy
-#~ msgctxt "Wife/Husband/..."
-#~ msgid "Partner's Name"
-#~ msgstr "Bestuurder se Naam"
 
 #, fuzzy
 #~| msgid "Contact Headers"
