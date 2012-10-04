@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kate stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-09-27 04:43+0200\n"
+"POT-Creation-Date: 2012-10-04 04:25+0200\n"
 "PO-Revision-Date: 2005-11-24 11:27+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1005,7 +1005,9 @@ msgid "Documents Modified on Disk"
 msgstr "Dokument het op skyf verander"
 
 #: app/katemwmodonhddialog.cpp:67
-msgid "&Ignore"
+#, fuzzy
+#| msgid "&Ignore"
+msgid "&Ignore Changes"
 msgstr "Ignoreer"
 
 #: app/katemwmodonhddialog.cpp:69
@@ -1013,30 +1015,25 @@ msgid "&Reload"
 msgstr ""
 
 #: app/katemwmodonhddialog.cpp:76
-msgid ""
-"Removes the modified flag from the selected documents and closes the dialog "
-"if there are no more unhandled documents."
+msgid "Remove modified flag from selected documents"
 msgstr ""
-"Verwyder die 'verander' vlaggie van die gekiesde dokumente en maak die "
-"dialoog toe as daar nie meer dokumente is nie."
 
-#: app/katemwmodonhddialog.cpp:79
-msgid ""
-"Overwrite selected documents, discarding the disk changes and closes the "
-"dialog if there are no more unhandled documents."
+#: app/katemwmodonhddialog.cpp:78
+#, fuzzy
+#| msgid ""
+#| "Overwrite selected documents, discarding the disk changes and closes the "
+#| "dialog if there are no more unhandled documents."
+msgid "Overwrite selected documents, discarding disk changes"
 msgstr ""
 "Oorskryf die gekiesde dokumente. Die veranderinge op skyf sal verlore gaan. "
 "Die dialoog sal toegemaak word sodra daar nie meer dokumente oor is nie."
 
-#: app/katemwmodonhddialog.cpp:82
-msgid ""
-"Reloads the selected documents from disk and closes the dialog if there are "
-"no more unhandled documents."
-msgstr ""
-"Herlaai die gekiesde dokumente vanaf die skyf en maak die dialoog toe as "
-"daar nie meer dokumente uitstaande is nie"
+#: app/katemwmodonhddialog.cpp:80
+#, fuzzy
+msgid "Reload selected documents from disk"
+msgstr "Maak toe alle open dokumente."
 
-#: app/katemwmodonhddialog.cpp:96
+#: app/katemwmodonhddialog.cpp:93
 #, fuzzy
 #| msgid ""
 #| "<qt>The documents listed below has changed on disk.<p>Select one or more "
@@ -1049,31 +1046,31 @@ msgstr ""
 "<p>Kies een of meer op 'n slag en druk 'n aksie knoppie totdat die lys leeg "
 "is.</qt>"
 
-#: app/katemwmodonhddialog.cpp:103
+#: app/katemwmodonhddialog.cpp:100
 msgid "Filename"
 msgstr "Lêernaam"
 
-#: app/katemwmodonhddialog.cpp:103
+#: app/katemwmodonhddialog.cpp:100
 msgid "Status on Disk"
 msgstr "Status op die skyf"
 
-#: app/katemwmodonhddialog.cpp:109
+#: app/katemwmodonhddialog.cpp:106
 msgid "Modified"
 msgstr "Verander"
 
-#: app/katemwmodonhddialog.cpp:109
+#: app/katemwmodonhddialog.cpp:106
 msgid "Created"
 msgstr "Geskep"
 
-#: app/katemwmodonhddialog.cpp:109
+#: app/katemwmodonhddialog.cpp:106
 msgid "Deleted"
 msgstr "Uitgevee"
 
-#: app/katemwmodonhddialog.cpp:124
+#: app/katemwmodonhddialog.cpp:121
 msgid "&View Difference"
 msgstr "Kyk na verskille"
 
-#: app/katemwmodonhddialog.cpp:127
+#: app/katemwmodonhddialog.cpp:124
 #, fuzzy
 #| msgid ""
 #| "Calculates the difference between the the editor contents and the disk "
@@ -1088,7 +1085,7 @@ msgstr ""
 "vir die gekiesde dokument, en vertoon die verskille met die standaard "
 "program.Benodig diff(1)"
 
-#: app/katemwmodonhddialog.cpp:187
+#: app/katemwmodonhddialog.cpp:184
 #, kde-format
 msgid ""
 "Could not save the document \n"
@@ -1097,7 +1094,7 @@ msgstr ""
 "Kon nie die volgende dokument stoor nie: \n"
 "%1"
 
-#: app/katemwmodonhddialog.cpp:285
+#: app/katemwmodonhddialog.cpp:282
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
@@ -1105,15 +1102,15 @@ msgstr ""
 "Die diff opdrag het gevaal. Maak asb. seker dat diff(i) geinstalleer is, en "
 "in jou gids (PATH) is."
 
-#: app/katemwmodonhddialog.cpp:287
+#: app/katemwmodonhddialog.cpp:284
 msgid "Error Creating Diff"
 msgstr "Kon nie die verskille skep nie"
 
-#: app/katemwmodonhddialog.cpp:296
+#: app/katemwmodonhddialog.cpp:293
 msgid "Besides white space changes, the files are identical."
 msgstr ""
 
-#: app/katemwmodonhddialog.cpp:297
+#: app/katemwmodonhddialog.cpp:294
 msgid "Diff Output"
 msgstr ""
 
@@ -2337,6 +2334,20 @@ msgstr ""
 "<p>Druk <strong>F8</strong> of <strong>Shift+F8</strong> om \n"
 "na die volgende/vorige raam te wissel.</p>\n"
 
+#~ msgid ""
+#~ "Removes the modified flag from the selected documents and closes the "
+#~ "dialog if there are no more unhandled documents."
+#~ msgstr ""
+#~ "Verwyder die 'verander' vlaggie van die gekiesde dokumente en maak die "
+#~ "dialoog toe as daar nie meer dokumente is nie."
+
+#~ msgid ""
+#~ "Reloads the selected documents from disk and closes the dialog if there "
+#~ "are no more unhandled documents."
+#~ msgstr ""
+#~ "Herlaai die gekiesde dokumente vanaf die skyf en maak die dialoog toe as "
+#~ "daar nie meer dokumente uitstaande is nie"
+
 #, fuzzy
 #~| msgid "Create a new document"
 #~ msgid "Cannot go to the document"
@@ -2413,10 +2424,6 @@ msgstr ""
 #~| msgid "&Save Selected"
 #~ msgid "Close Selected"
 #~ msgstr "Stoor gekiesde"
-
-#, fuzzy
-#~ msgid "Close selected open documents."
-#~ msgstr "Maak toe alle open dokumente."
 
 #, fuzzy
 #~| msgid "&Save Selected"
