@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-10 01:47+0100\n"
+"POT-Creation-Date: 2012-11-11 01:50+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1030,11 +1030,18 @@ msgstr "Waarde"
 msgid "default"
 msgstr ""
 
-#: image/commands/kis_change_filter_command.h:48
+#: image/commands/kis_change_filter_command.h:40
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Filter"
 msgstr "Wit"
+
+#: image/commands/kis_change_generator_command.h:40
+#, fuzzy
+#| msgid "General"
+msgctxt "(qtundo-format)"
+msgid "Change Generator"
+msgstr "Algemeen"
 
 #: image/commands/kis_deselect_global_selection_command.cpp:30
 #, fuzzy
@@ -1176,14 +1183,14 @@ msgstr ""
 msgid "Other"
 msgstr "Laag"
 
-#: image/generator/kis_generator_layer.cpp:104
+#: image/generator/kis_generator_layer.cpp:119
 #, fuzzy
 #| msgid "General"
 msgid "Generator"
 msgstr "Algemeen"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: image/kis_adjustment_layer.cc:123
+#: image/kis_adjustment_layer.cc:139
 #: plugins/paintops/libpaintop/kis_filter_option.cpp:51
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:844
 #: ui/recorder/kis_recorded_filter_action_creator.cpp:59
@@ -1315,7 +1322,7 @@ msgstr "Voeg by Beeld as Laag..."
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:910 ui/kis_layer_manager.cc:778
+#: image/kis_image.cc:910 ui/kis_layer_manager.cc:767
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
@@ -2791,12 +2798,12 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, m_bnSelectConfigurationFile)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnSelectLut)
 #. i18n: ectx: property (text), widget (QToolButton, bnFont)
+#. i18n: ectx: property (text), widget (QToolButton, bnSelectOcioConfigPath)
 #. i18n: ectx: property (text), widget (QToolButton, bnPortrait)
 #. i18n: ectx: property (text), widget (QToolButton, bnLandscape)
 #. i18n: ectx: property (text), widget (QToolButton, paintColor)
 #. i18n: ectx: property (text), widget (QToolButton, backgroundColor)
 #. i18n: ectx: property (text), widget (QToolButton, viewModeButton)
-#. i18n: ectx: property (text), widget (QToolButton, bnSelectOcioConfigPath)
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:50
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:99
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:124
@@ -3489,8 +3496,8 @@ msgstr "Herstel Knoppie"
 
 #. i18n: ectx: property (text), widget (QLabel, labelResolution)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#. i18n: ectx: property (text), widget (QLabel, lblResolution)
 #. i18n: ectx: property (text), widget (QLabel, lblYResolution_3)
+#. i18n: ectx: property (text), widget (QLabel, lblResolution)
 #: plugins/extensions/imagesize/wdg_imagescale.ui:369
 #: plugins/formats/pdf/pdfimportwidgetbase.ui:81 ui/forms/wdg_resolution.ui:87
 #: ui/forms/wdgimageproperties.ui:51 ui/forms/wdgnewimage.ui:211
@@ -4555,7 +4562,7 @@ msgid "Separate Image"
 msgstr "Nuwe Beeld"
 
 #: plugins/extensions/separate_channels/kis_channel_separator.cc:236
-#: ui/kis_layer_manager.cc:875
+#: ui/kis_layer_manager.cc:864
 #, fuzzy
 msgid "Export Layer"
 msgstr "Voer uit Beeld..."
@@ -9492,8 +9499,8 @@ msgstr ""
 msgid "Preferences"
 msgstr "Voorkeure"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #. i18n: ectx: property (title), widget (QGroupBox, grpDisplay)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
 #: ui/dialogs/kis_dlg_preferences.cc:624 ui/dialogs/kis_dlg_preferences.cc:625
 #: ui/forms/wdgcolorsettings.ui:53 ui/forms/wdgdisplaysettings.ui:20
 #, fuzzy
@@ -9563,8 +9570,8 @@ msgstr "laag %1"
 msgid "Matrix Widget"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
 #: ui/forms/kis_previewwidgetbase.ui:36 ui/forms/wdgfilterdialog.ui:56
 msgid "Preview"
 msgstr ""
@@ -9789,8 +9796,8 @@ msgstr ""
 msgid "Delete"
 msgstr "Keuse"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgTabletSettings)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgColorSettings)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgTabletSettings)
 #: ui/forms/wdgcolorsettings.ui:14 ui/forms/wdgtabletsettings.ui:20
 #, fuzzy
 msgid "Color Settings"
@@ -11194,7 +11201,7 @@ msgstr "Herbenaam Beeld..."
 msgid "&Flatten Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:295 ui/kis_layer_manager.cc:847
+#: ui/kis_layer_manager.cc:295 ui/kis_layer_manager.cc:836
 #, fuzzy
 msgid "Rasterize Layer"
 msgstr "Verwyder Laag"
@@ -11223,47 +11230,47 @@ msgstr "Laag"
 msgid "Filter Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:423
+#: ui/kis_layer_manager.cc:419
 #, fuzzy
 msgid "Generator Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:481 ui/kis_layer_manager.cc:495
-#: ui/kis_layer_manager.cc:536 ui/kis_layer_manager.cc:567
-#: ui/kis_layer_manager.cc:668
+#: ui/kis_layer_manager.cc:470 ui/kis_layer_manager.cc:484
+#: ui/kis_layer_manager.cc:525 ui/kis_layer_manager.cc:556
+#: ui/kis_layer_manager.cc:657
 msgid "Could not add layer to image."
 msgstr "Kon nie voeg by laag na beeld."
 
-#: ui/kis_layer_manager.cc:481 ui/kis_layer_manager.cc:495
-#: ui/kis_layer_manager.cc:536 ui/kis_layer_manager.cc:567
-#: ui/kis_layer_manager.cc:668
+#: ui/kis_layer_manager.cc:470 ui/kis_layer_manager.cc:484
+#: ui/kis_layer_manager.cc:525 ui/kis_layer_manager.cc:556
+#: ui/kis_layer_manager.cc:657
 msgid "Layer Error"
 msgstr "Laag Fout"
 
-#: ui/kis_layer_manager.cc:591
+#: ui/kis_layer_manager.cc:580
 #, fuzzy
 msgid "New Filter Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:735
+#: ui/kis_layer_manager.cc:724
 #, fuzzy
 msgid "Scale Layer"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_manager.cc:777
+#: ui/kis_layer_manager.cc:766
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:779
+#: ui/kis_layer_manager.cc:768
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_layer_manager.cc:935
+#: ui/kis_layer_manager.cc:924
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:938
+#: ui/kis_layer_manager.cc:927
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
@@ -11929,12 +11936,6 @@ msgstr "Kleur Kieser"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Kleur Kieser"
-
-#, fuzzy
-#~| msgid "General"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Generator"
-#~ msgstr "Algemeen"
 
 #, fuzzy
 #~ msgctxt "default theme name"
