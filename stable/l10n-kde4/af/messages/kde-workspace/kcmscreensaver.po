@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmscreensaver stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-11 07:57+0100\n"
+"POT-Creation-Date: 2012-08-19 15:44+0200\n"
 "PO-Revision-Date: 2005-09-13 15:21+0200\n"
 "Last-Translator: Kobus Venter <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -75,20 +75,25 @@ msgctxt "Screen saver category"
 msgid "Visit to Flatland"
 msgstr "Besoek die Platland"
 
+#. i18n: ectx: property (title), widget (QGroupBox, mSettingsGroup)
+#: screensaver.ui:70
+msgid "Settings"
+msgstr "Instellings"
+
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mEnabledCheckBox)
-#: screensaver.ui:29
+#: screensaver.ui:76
 msgid "Automatically start the screen saver after a period of inactivity."
 msgstr "Outomaties begin die skerm spaarder na 'n periode van onaktiwiteit."
 
 #. i18n: ectx: property (text), widget (QCheckBox, mEnabledCheckBox)
-#: screensaver.ui:32
+#: screensaver.ui:79
 #, fuzzy
 #| msgid "Start a&utomatically"
 msgid "Start a&utomatically after:"
 msgstr "Begin outomaties"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, mLockCheckBox)
-#: screensaver.ui:55
+#: screensaver.ui:102
 msgid ""
 "Prevent potential unauthorized use by requiring a password to stop the "
 "screen saver."
@@ -97,14 +102,14 @@ msgstr ""
 "die skerm spaarder te stop."
 
 #. i18n: ectx: property (text), widget (QCheckBox, mLockCheckBox)
-#: screensaver.ui:58
+#: screensaver.ui:105
 #, fuzzy
 #| msgid "&Require password to stop"
 msgid "&Require password after:"
 msgstr "Vereis wagwoord om te stop"
 
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, mWaitLockEdit)
-#: screensaver.ui:65
+#: screensaver.ui:112
 msgid ""
 "The amount of time, after the screen saver has started, to ask for the "
 "unlock password."
@@ -112,60 +117,52 @@ msgstr ""
 "Die hoeveelheid tyd, waarna die skerm spaarder begin is, om te vra vir die "
 "ontsluit wagwoord. "
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: screensaver.ui:87
-msgid "&Screen locker type:"
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mPlasmaCheckBox)
+#: screensaver.ui:132
+msgid "Add widgets to your screensaver."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, mSimpleLockerRadio)
-#: screensaver.ui:97
-msgid "S&imple locker"
+#. i18n: ectx: property (text), widget (QCheckBox, mPlasmaCheckBox)
+#: screensaver.ui:135
+msgid "Allow widgets on screen saver"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, mPlasmaWidgetsRadio)
-#: screensaver.ui:109
-#, fuzzy
-#| msgctxt "Screen saver category"
-#| msgid "Desktop Distortions"
-msgid "&Desktop Widgets"
-msgstr "Werkskerm vervormings"
 
 #. i18n: ectx: property (text), widget (KPushButton, mPlasmaSetup)
-#: screensaver.ui:119
-msgid "Configure..."
+#: screensaver.ui:160
+msgid "Configure Widgets..."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, mScreenSaverRadio)
-#: screensaver.ui:128
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: screensaver.ui:185
 #, fuzzy
 #| msgid "Screen Saver"
-msgid "S&creen saver"
+msgid "Screen Saver"
 msgstr "Skerm Spaarder"
 
-#. i18n: ectx: property (whatsThis), widget (QTreeWidget, mSaverListView)
-#: screensaver.ui:163
-msgid "Select the screen saver to use."
-msgstr "Kies die skerm spaarder om te gebruik."
-
 #. i18n: ectx: property (whatsThis), widget (KPushButton, mTestBt)
-#: screensaver.ui:233
+#: screensaver.ui:207
 msgid "Show a full screen preview of the screen saver."
 msgstr "Wys 'n vol skerm voorskou van die skerm spaarder."
 
 #. i18n: ectx: property (text), widget (KPushButton, mTestBt)
-#: screensaver.ui:236
+#: screensaver.ui:210
 msgid "&Test"
 msgstr "Toets"
 
 #. i18n: ectx: property (whatsThis), widget (KPushButton, mSetupBt)
-#: screensaver.ui:246
+#: screensaver.ui:220
 msgid "Configure the screen saver's options, if any."
 msgstr "Konfigureer die skerm spaarder se opsies, indien enige."
 
 #. i18n: ectx: property (text), widget (KPushButton, mSetupBt)
-#: screensaver.ui:249
+#: screensaver.ui:223
 msgid "&Setup..."
 msgstr "Opstelling..."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, mSaverListView)
+#: screensaver.ui:230
+msgid "Select the screen saver to use."
+msgstr "Kies die skerm spaarder om te gebruik."
 
 #: scrnsave.cpp:115
 #, fuzzy
@@ -244,12 +241,15 @@ msgstr ""
 msgid "Martin R. Jones"
 msgstr ""
 
-#: scrnsave.cpp:394
+#: scrnsave.cpp:382
 msgid "Loading..."
 msgstr "Besig om te laai..."
 
-#~ msgid "Settings"
-#~ msgstr "Instellings"
+#, fuzzy
+#~| msgctxt "Screen saver category"
+#~| msgid "Desktop Distortions"
+#~ msgid "&Desktop Widgets"
+#~ msgstr "Werkskerm vervormings"
 
 #~ msgid "Advanced Options"
 #~ msgstr "Gevorderde Opsies"
