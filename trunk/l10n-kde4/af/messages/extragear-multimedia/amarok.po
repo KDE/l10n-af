@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-02 02:22+0100\n"
+"POT-Creation-Date: 2013-01-05 02:26+0100\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -252,81 +252,88 @@ msgstr "Besoek bydraer se StackOverflow profiel"
 msgid "Name"
 msgstr "Naam"
 
-#: ActionClasses.cpp:85
+#: ActionClasses.cpp:86
 msgid "Amarok Menu"
 msgstr "Amarok Kieslys"
 
-#: ActionClasses.cpp:175
+#: ActionClasses.cpp:176
 msgid "Play/Pause"
 msgstr "Speel/Wag"
 
-#: ActionClasses.cpp:312
+#: ActionClasses.cpp:313
 msgid "Click to change"
 msgstr "Kliek om te wysig"
 
-#: ActionClasses.cpp:329
+#: ActionClasses.cpp:330
 msgid "&Replay Gain Mode"
 msgstr "&Replay Gain Modus"
 
-#: ActionClasses.cpp:331
+#: ActionClasses.cpp:332
 msgctxt "Replay Gain state, as in, disabled"
 msgid "&Off"
 msgstr "Af"
 
-#: ActionClasses.cpp:331
+#: ActionClasses.cpp:332
 msgctxt "Item, as in, music"
 msgid "&Track"
 msgstr "Snit"
 
-#: ActionClasses.cpp:332
+#: ActionClasses.cpp:333
 msgid "&Album"
 msgstr "Album"
 
-#: ActionClasses.cpp:341
+#: ActionClasses.cpp:342
 msgid "&Equalizer"
 msgstr "Band menger"
 
-#: ActionClasses.cpp:369
+#: ActionClasses.cpp:370
 msgid "Your current setup does not support the equalizer feature"
 msgstr "Jou huidige opstelling ondersteun nie die band menger funksie nie"
 
-#: ActionClasses.cpp:374
+#: ActionClasses.cpp:375
 msgctxt "Equalizer state, as in, disabled"
 msgid "&Off"
 msgstr "Af"
 
-#: ActionClasses.cpp:397
+#: ActionClasses.cpp:398
 msgid "Burn"
 msgstr "Skryf"
 
-#: ActionClasses.cpp:436
+#: ActionClasses.cpp:437
 msgid "Current Playlist"
 msgstr "Huidige Speellys"
 
-#: ActionClasses.cpp:437
+#: ActionClasses.cpp:438
 msgid "Selected Tracks"
 msgstr "Geselekteerde Snitte"
 
-#: ActionClasses.cpp:468
+#: ActionClasses.cpp:469
 msgid "Stop"
 msgstr "Stop"
 
-#: ActionClasses.cpp:514
+#: ActionClasses.cpp:515
 msgid "Stop after current Track"
 msgstr "Stop na huidige Snit"
 
-#: ActionClasses.cpp:527 context/engines/current/CurrentEngine.cpp:136
+#: ActionClasses.cpp:532
+msgid "Stop after current track: Off"
+msgstr "Stop na huidige snit: Af"
+
+#: ActionClasses.cpp:537
+msgid "Stop after current track: On"
+msgstr "Stop na huidige snit: Aan"
+
+#: ActionClasses.cpp:541 context/engines/current/CurrentEngine.cpp:136
 #: EngineController.cpp:1418 mac/GrowlInterface.cpp:43 widgets/Osd.cpp:652
 msgid "No track playing"
 msgstr "Geen snit speel tans"
 
-#: ActionClasses.cpp:535
-msgid "Stop after current track: Off"
-msgstr "Stop na huidige snit: Af"
-
-#: ActionClasses.cpp:541
-msgid "Stop after current track: On"
-msgstr "Stop na huidige snit: Aan"
+#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
+#: ActionClasses.cpp:545
+#: core-impl/collections/audiocd/FormatSelectionDialog.ui:14 main.cpp:43
+#: MainWindow.cpp:106
+msgid "Amarok"
+msgstr "Amarok"
 
 #. i18n: ectx: label, entry, group (General Options)
 #: amarokconfig.kcfg:13
@@ -1790,7 +1797,7 @@ msgstr ""
 "'n Musiekpad (%1) is ingestel by Stelsel Instellings. \n"
 "Wil jy dit as 'n versameling gids gebruik?"
 
-#: browsers/BrowserBreadcrumbItem.cpp:68
+#: browsers/BrowserBreadcrumbItem.cpp:69
 #, fuzzy
 #| msgid "Media Sources"
 msgid "Media Sources Home"
@@ -2092,18 +2099,11 @@ msgstr "Organiseer Lêers"
 msgid "&Edit Track Details"
 msgstr "Wysig Snit Besonderhede"
 
-#: browsers/filebrowser/FileBrowser.cpp:69
-#, fuzzy
-#| msgid "Patches"
-msgctxt "Show Dolphin Places the user configured"
-msgid "Places"
-msgstr "Verbeteringe"
-
-#: browsers/filebrowser/FileBrowser.cpp:79
+#: browsers/filebrowser/FileBrowser.cpp:77
 msgid "Filter Files"
 msgstr "Filter Lêers"
 
-#: browsers/filebrowser/FileBrowser.cpp:177
+#: browsers/filebrowser/FileBrowser.cpp:188
 msgid ""
 "The file browser lets you browse files anywhere on your system, regardless "
 "of whether these files are part of your local collection. You can then add "
@@ -2112,16 +2112,6 @@ msgstr ""
 "Die lêer blaaier laat jou blaai deur lêers oral op jou stelsel, ongeag of "
 "dié lêers deel uitmaak van jou plaaslike versameling. Jy kan dié lêers dan "
 "by die speellys voeg en ander basiese lêer take uitvoer."
-
-#: browsers/filebrowser/FileBrowser.cpp:349 browsers/InfoProxy.cpp:164
-msgid "Home"
-msgstr "Tuis"
-
-#: browsers/filebrowser/FileBrowser.cpp:494
-#, fuzzy
-#| msgid "Patches"
-msgid "Places"
-msgstr "Verbeteringe"
 
 #: browsers/filebrowser/FileView.cpp:408
 #, fuzzy
@@ -2171,6 +2161,10 @@ msgid "Moving to trash: 1 file"
 msgid_plural "Moving to trash: %1 files"
 msgstr[0] "Besig om lêers na die asblik te skuif"
 msgstr[1] "Besig om lêers na die asblik te skuif"
+
+#: browsers/InfoProxy.cpp:164
+msgid "Home"
+msgstr "Tuis"
 
 #: browsers/playlistbrowser/APGCategory.cpp:39
 msgid "Automated Playlist Generator"
@@ -5196,12 +5190,6 @@ msgstr ""
 #: core-impl/collections/audiocd/FormatSelectionDialog.cpp:113
 msgid "Audio CD settings - Amarok"
 msgstr "Oudio CD instellings - Amarok"
-
-#. i18n: ectx: property (windowTitle), widget (QDialog, FormatSelectionDialog)
-#: core-impl/collections/audiocd/FormatSelectionDialog.ui:14 main.cpp:43
-#: MainWindow.cpp:106
-msgid "Amarok"
-msgstr "Amarok"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: core-impl/collections/audiocd/FormatSelectionDialog.ui:26
@@ -10617,7 +10605,7 @@ msgstr "Oudio Modus"
 msgid "Data Mode"
 msgstr "Data Modus"
 
-#: KNotificationBackend.cpp:117
+#: KNotificationBackend.cpp:121
 msgid "Now playing"
 msgstr "Speel tans"
 
@@ -15933,42 +15921,42 @@ msgstr ""
 "Aanlyn musiek kabinet waar jy jou musiek veilig kan berg en toegang verkry: "
 "http://mp3tunes.com"
 
-#: services/mp3tunes/Mp3tunesService.cpp:111
+#: services/mp3tunes/Mp3tunesService.cpp:108
 msgid "The MP3tunes Locker: Your Music Everywhere!"
 msgstr "Die MP3tunes Kabinet: Jou Musiek Orals!"
 
-#: services/mp3tunes/Mp3tunesService.cpp:224
+#: services/mp3tunes/Mp3tunesService.cpp:221
 msgid "MP3tunes AutoSync Enabled"
 msgstr "MP3tunes AutoSync Geaktiveer"
 
-#: services/mp3tunes/Mp3tunesService.cpp:240
+#: services/mp3tunes/Mp3tunesService.cpp:237
 msgid "MP3tunes AutoSync Disabled"
 msgstr "MP3tunes AutoSync Afgeskakel"
 
-#: services/mp3tunes/Mp3tunesService.cpp:260
+#: services/mp3tunes/Mp3tunesService.cpp:257
 msgid "Authenticating"
 msgstr "Bekragtiging"
 
-#: services/mp3tunes/Mp3tunesService.cpp:272
+#: services/mp3tunes/Mp3tunesService.cpp:269
 #, fuzzy
 #| msgid "Mp3tunes failed to Authenticate."
 msgid "MP3tunes failed to Authenticate."
 msgstr "Mp3tunes Bekragtiging het misluk."
 
-#: services/mp3tunes/Mp3tunesService.cpp:303
+#: services/mp3tunes/Mp3tunesService.cpp:300
 msgid "MP3tunes Harmony: Disconnected"
 msgstr "MP3tunes Harmony: Ontkoppel"
 
-#: services/mp3tunes/Mp3tunesService.cpp:310
-#: services/mp3tunes/Mp3tunesService.cpp:323
+#: services/mp3tunes/Mp3tunesService.cpp:307
+#: services/mp3tunes/Mp3tunesService.cpp:320
 msgid "MP3tunes Harmony: Waiting for PIN Input"
 msgstr "MP3tunes Harmony: Wag op PIN Invoer"
 
-#: services/mp3tunes/Mp3tunesService.cpp:335
+#: services/mp3tunes/Mp3tunesService.cpp:332
 msgid "MP3tunes Harmony: Successfully Connected"
 msgstr "MP3tunes Harmony: Suksesvol Gekoppel"
 
-#: services/mp3tunes/Mp3tunesService.cpp:350
+#: services/mp3tunes/Mp3tunesService.cpp:347
 #, fuzzy, kde-format
 #| msgid ""
 #| "Mp3tunes Harmony Error\n"
@@ -17062,6 +17050,17 @@ msgstr "<empty>"
 #, kde-format
 msgid "Volume: %1%"
 msgstr "Luidheid: %1%"
+
+#, fuzzy
+#~| msgid "Patches"
+#~ msgctxt "Show Dolphin Places the user configured"
+#~ msgid "Places"
+#~ msgstr "Verbeteringe"
+
+#, fuzzy
+#~| msgid "Patches"
+#~ msgid "Places"
+#~ msgstr "Verbeteringe"
 
 #, fuzzy
 #~| msgid "E&xit fullscreen"
