@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmartcard stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:51+0100\n"
+"POT-Creation-Date: 2012-08-20 05:29+0200\n"
 "PO-Revision-Date: 2005-06-30 11:29+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -23,6 +23,45 @@ msgstr "Frikkie Thirion, Juanita Franz"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za, juanita.franz@vr-web.de "
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: nosmartcardbase.ui:24
+msgid "<b>Unable to contact the KDE smartcard service.</b>"
+msgstr "<b>Nie moontlik om te kontak die Kde smartkaart diens.</b>"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: nosmartcardbase.ui:35
+msgid "Possible Reasons"
+msgstr "Moontlik Redes"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: nosmartcardbase.ui:49
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "1) The KDE daemon, 'kded' is not running. You can restart it by running "
+#| "the command 'kdeinit' and then try reloading the KDE Control Center to "
+#| "see if this message goes away.\n"
+#| "\n"
+#| "2) You don't appear to have smartcard support in the KDE libraries. You "
+#| "will need to recompile the kdelibs package with libpcsclite installed."
+msgid ""
+"\n"
+"1) The KDE daemon, 'kded' is not running. You can restart it by running the "
+"command 'kdeinit' and then try reloading the KDE System Settings to see if "
+"this message goes away.\n"
+"\n"
+"2) You do not appear to have smartcard support in the KDE libraries. You "
+"will need to recompile the kdelibs package with libpcsclite installed."
+msgstr ""
+"\n"
+"1) Die Kde bediener, 'kded' loop nie. Jy kan herbegin dit deur wat loop die "
+"opdrag 'kdeinit' en dan probeer om te herlaai die Kde Kontrole Sentrum om te "
+"sien of die boodskap weggaan.\n"
+"\n"
+"2) Jy verskyn om nie smartkaart ondersteun te hê in die Kde biblioteke nie. "
+"Jy sal nodig hê om te herkompileer die kdelibs pakket met libpcsclite "
+"geïnstalleer."
 
 #: smartcard.cpp:65
 msgid "kcmsmartcard"
@@ -84,89 +123,84 @@ msgstr ""
 "vir smartkaarte. Hierdie kan wees gebruik word vir verskeie take soos as "
 "storing Ssl sertifikate en afteken in na die stelsel."
 
-#~ msgid "<b>Unable to contact the KDE smartcard service.</b>"
-#~ msgstr "<b>Nie moontlik om te kontak die Kde smartkaart diens.</b>"
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: smartcardbase.ui:31
+msgid "Smartcard Support"
+msgstr "Smartkaart Ondersteun"
 
-#~ msgid "Possible Reasons"
-#~ msgstr "Moontlik Redes"
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:42
+msgid "&Enable smartcard support"
+msgstr "Aktiveer smartkaart ondersteun"
 
-#, fuzzy
-#~| msgid ""
-#~| "\n"
-#~| "1) The KDE daemon, 'kded' is not running. You can restart it by running "
-#~| "the command 'kdeinit' and then try reloading the KDE Control Center to "
-#~| "see if this message goes away.\n"
-#~| "\n"
-#~| "2) You don't appear to have smartcard support in the KDE libraries. You "
-#~| "will need to recompile the kdelibs package with libpcsclite installed."
-#~ msgid ""
-#~ "\n"
-#~ "1) The KDE daemon, 'kded' is not running. You can restart it by running "
-#~ "the command 'kdeinit' and then try reloading the KDE System Settings to "
-#~ "see if this message goes away.\n"
-#~ "\n"
-#~ "2) You do not appear to have smartcard support in the KDE libraries. You "
-#~ "will need to recompile the kdelibs package with libpcsclite installed."
-#~ msgstr ""
-#~ "\n"
-#~ "1) Die Kde bediener, 'kded' loop nie. Jy kan herbegin dit deur wat loop "
-#~ "die opdrag 'kdeinit' en dan probeer om te herlaai die Kde Kontrole "
-#~ "Sentrum om te sien of die boodskap weggaan.\n"
-#~ "\n"
-#~ "2) Jy verskyn om nie smartkaart ondersteun te hê in die Kde biblioteke "
-#~ "nie. Jy sal nodig hê om te herkompileer die kdelibs pakket met "
-#~ "libpcsclite geïnstalleer."
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:61
+msgid "Enable &polling to autodetect card events"
+msgstr "Aktiveer stemmery na outospeur kaart aktiwiteite"
 
-#~ msgid "Smartcard Support"
-#~ msgstr "Smartkaart Ondersteun"
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: smartcardbase.ui:64
+msgid ""
+"In most cases you should have this enabled. It allows KDE to automatically "
+"detect card insertion and reader hotplug events."
+msgstr ""
+"In mees gevalle jy moet het hierdie geaktiveer. Dit laat toe Kde na "
+"automaties verklik kaart invoeg en leser warmprop aktiwiteite."
 
-#~ msgid "&Enable smartcard support"
-#~ msgstr "Aktiveer smartkaart ondersteun"
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:92
+msgid "Automatically &launch card manager if inserted card is unclaimed"
+msgstr "Automaties lanseer kaart bestuurder as ingesit kaart is ongeeis"
 
-#~ msgid "Enable &polling to autodetect card events"
-#~ msgstr "Aktiveer stemmery na outospeur kaart aktiwiteite"
+#. i18n: ectx: property (whatsThis), widget (QCheckBox)
+#: smartcardbase.ui:95
+msgid ""
+"When you insert a smartcard, KDE can automatically launch a management tool "
+"if no other application attempts to use the card."
+msgstr ""
+"Wanneer jy voeg by 'n smartkaart, Kde kan automaties lanseer 'n bestuuring "
+"program as nee ander aansoek probeerslae na gebruik die kaart."
 
-#~ msgid ""
-#~ "In most cases you should have this enabled. It allows KDE to "
-#~ "automatically detect card insertion and reader hotplug events."
-#~ msgstr ""
-#~ "In mees gevalle jy moet het hierdie geaktiveer. Dit laat toe Kde na "
-#~ "automaties verklik kaart invoeg en leser warmprop aktiwiteite."
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: smartcardbase.ui:106
+msgid "&Beep on card insert and removal"
+msgstr "Biep op kaart voeg by en verwydering"
 
-#~ msgid "Automatically &launch card manager if inserted card is unclaimed"
-#~ msgstr "Automaties lanseer kaart bestuurder as ingesit kaart is ongeeis"
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: smartcardbase.ui:135
+msgid "Readers"
+msgstr "Lesers"
 
-#~ msgid ""
-#~ "When you insert a smartcard, KDE can automatically launch a management "
-#~ "tool if no other application attempts to use the card."
-#~ msgstr ""
-#~ "Wanneer jy voeg by 'n smartkaart, Kde kan automaties lanseer 'n "
-#~ "bestuuring program as nee ander aansoek probeerslae na gebruik die kaart."
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:152
+msgid "Reader"
+msgstr "Leser"
 
-#~ msgid "&Beep on card insert and removal"
-#~ msgstr "Biep op kaart voeg by en verwydering"
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:163
+msgid "Type"
+msgstr "Tipe"
 
-#~ msgid "Readers"
-#~ msgstr "Lesers"
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:174
+msgid "Subtype"
+msgstr "Subtipe"
 
-#~ msgid "Reader"
-#~ msgstr "Leser"
+#. i18n: ectx: property (text), widget (K3ListView)
+#: smartcardbase.ui:185
+msgid "SubSubtype"
+msgstr "Subsubtipe"
 
-#~ msgid "Type"
-#~ msgstr "Tipe"
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: smartcardbase.ui:228
+msgid "PCSCLite Configuration"
+msgstr "Pcsclite Opstelling"
 
-#~ msgid "Subtype"
-#~ msgstr "Subtipe"
-
-#~ msgid "SubSubtype"
-#~ msgstr "Subsubtipe"
-
-#~ msgid "PCSCLite Configuration"
-#~ msgstr "Pcsclite Opstelling"
-
-#~ msgid ""
-#~ "To add new readers you have to modify /etc/readers.conf file and re-start "
-#~ "pcscd"
-#~ msgstr ""
-#~ "Na voeg by nuwe lesers jy het Na verander /etc/lesers.conf lêer en re-"
-#~ "start pcscd"
+#. i18n: ectx: property (text), widget (QLabel)
+#: smartcardbase.ui:251
+msgid ""
+"To add new readers you have to modify /etc/readers.conf file and re-start "
+"pcscd"
+msgstr ""
+"Na voeg by nuwe lesers jy het Na verander /etc/lesers.conf lêer en re-start "
+"pcscd"
