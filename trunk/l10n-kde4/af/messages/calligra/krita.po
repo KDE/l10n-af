@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-25 02:20+0100\n"
+"POT-Creation-Date: 2013-03-29 02:16+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1136,7 +1136,7 @@ msgstr "Voeg by Beeld as Laag..."
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:920 ui/kis_layer_manager.cc:770
+#: image/kis_image.cc:920 ui/kis_layer_manager.cc:761
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
@@ -1161,7 +1161,7 @@ msgstr "Volgende Laag"
 #: image/kis_layer.cc:176 plugins/paintops/hairy/wdghairyeoptions.ui:278
 #: plugins/paintops/hairy/wdgInkOptions.ui:55
 #: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:26
-#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:30
+#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:32
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:27
 #, fuzzy
 msgid "Opacity"
@@ -1415,7 +1415,7 @@ msgstr "Naam"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #. i18n: ectx: Menu (Select)
-#: krita.rc:115 plugins/extensions/colorrange/wdg_colorrange.ui:131
+#: krita.rc:116 plugins/extensions/colorrange/wdg_colorrange.ui:131
 #: plugins/extensions/imagesize/imagesize.rc:12
 #: plugins/extensions/modify_selection/modify_selection.rc:4
 #, fuzzy
@@ -1423,24 +1423,24 @@ msgid "&Select"
 msgstr "Keuse"
 
 #. i18n: ectx: Menu (Filter)
-#: krita.rc:129
+#: krita.rc:130
 #, fuzzy
 msgid "Filte&r"
 msgstr "Wit"
 
 #. i18n: ectx: Menu (Tools)
-#: krita.rc:146
+#: krita.rc:147
 #, fuzzy
 msgid "&Tools"
 msgstr "Pen Program"
 
 #. i18n: ectx: Menu (settings)
-#: krita.rc:149
+#: krita.rc:150
 msgid "Settings"
 msgstr "Instellings"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: krita.rc:161
+#: krita.rc:162
 msgid "Brushes and Stuff"
 msgstr ""
 
@@ -2610,7 +2610,7 @@ msgid "&Transformation Mask..."
 msgstr "Uitveer Program"
 
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:479
-#: ui/kis_layer_manager.cc:286
+#: ui/kis_layer_manager.cc:282
 #, fuzzy
 msgid "&Merge with Layer Below"
 msgstr "Saamvlans Alle Lae"
@@ -4511,14 +4511,14 @@ msgstr "Herbenaam Beeld..."
 
 #: plugins/extensions/rotateimage/rotateimage.cc:62
 #: plugins/extensions/rotateimage/rotateimage.cc:143
-#: ui/kis_node_manager.cpp:150
+#: ui/kis_node_manager.cpp:153
 #, fuzzy
 msgid "Mirror Horizontally"
 msgstr "Driehoekvormige Golf"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:66
 #: plugins/extensions/rotateimage/rotateimage.cc:136
-#: ui/kis_node_manager.cpp:156
+#: ui/kis_node_manager.cpp:159
 #, fuzzy
 msgid "Mirror Vertically"
 msgstr "Driehoekvormige Golf"
@@ -4612,7 +4612,6 @@ msgid "Separate Image"
 msgstr "Nuwe Beeld"
 
 #: plugins/extensions/separate_channels/kis_channel_separator.cc:236
-#: ui/kis_layer_manager.cc:867
 #, fuzzy
 msgid "Export Layer"
 msgstr "Voer uit Beeld..."
@@ -7801,7 +7800,7 @@ msgid "Darken"
 msgstr "Verdonker Slegs"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:34
+#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:36
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:30
 #: ui/forms/wdgnewimage.ui:371
 #, fuzzy
@@ -7809,7 +7808,7 @@ msgid "Transparent"
 msgstr "Voorgrond na Transparent"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:35
+#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:37
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:31
 #: ui/forms/wdgnewimage.ui:403
 msgid "Opaque"
@@ -11523,99 +11522,101 @@ msgid "Apply Filter Again: %1"
 msgstr ""
 
 #: ui/kis_image_manager.cc:50
-msgid "I&nsert Image as Layer..."
-msgstr "Voeg by Beeld as Laag..."
+#, fuzzy
+msgid "I&mport Layer..."
+msgstr "Volgende Laag"
 
 #: ui/kis_image_manager.cc:54
+#, fuzzy
+msgid "Import &Transparency Mask..."
+msgstr "Voorgrond na Transparent"
+
+#: ui/kis_image_manager.cc:58
 #, fuzzy
 msgid "Properties..."
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_image_manager.cc:79
+#: ui/kis_image_manager.cc:86
 #, fuzzy
 msgid "Import Image"
 msgstr "In voer Beeld..."
 
-#: ui/kis_layer_manager.cc:281
+#: ui/kis_layer_manager.cc:277
 #, fuzzy
 msgid "&Flatten image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_layer_manager.cc:291
+#: ui/kis_layer_manager.cc:287
 #, fuzzy
 msgid "&Flatten Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:295 ui/kis_layer_manager.cc:839
+#: ui/kis_layer_manager.cc:291 ui/kis_layer_manager.cc:830
 #, fuzzy
 msgid "Rasterize Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_layer_manager.cc:301
-msgid "Save Layer as Image..."
-msgstr "Stoor Laag as Beeld..."
-
-#: ui/kis_layer_manager.cc:306
+#: ui/kis_layer_manager.cc:297
 #, fuzzy
 msgid "Save Group Layers..."
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_manager.cc:310
+#: ui/kis_layer_manager.cc:301
 #, fuzzy
 msgid "Size Canvas to Size of Current Layer"
 msgstr "Verwyder Huidige Laag"
 
-#: ui/kis_layer_manager.cc:315
+#: ui/kis_layer_manager.cc:306
 #, fuzzy
 msgid "Add new paint layer"
 msgstr "Laag"
 
-#: ui/kis_layer_manager.cc:370
+#: ui/kis_layer_manager.cc:361
 #, fuzzy
 msgid "Filter Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:415
+#: ui/kis_layer_manager.cc:406
 #, fuzzy
 msgid "Generator Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:473 ui/kis_layer_manager.cc:487
-#: ui/kis_layer_manager.cc:528 ui/kis_layer_manager.cc:559
-#: ui/kis_layer_manager.cc:660
+#: ui/kis_layer_manager.cc:464 ui/kis_layer_manager.cc:478
+#: ui/kis_layer_manager.cc:519 ui/kis_layer_manager.cc:550
+#: ui/kis_layer_manager.cc:651
 msgid "Could not add layer to image."
 msgstr "Kon nie voeg by laag na beeld."
 
-#: ui/kis_layer_manager.cc:473 ui/kis_layer_manager.cc:487
-#: ui/kis_layer_manager.cc:528 ui/kis_layer_manager.cc:559
-#: ui/kis_layer_manager.cc:660
+#: ui/kis_layer_manager.cc:464 ui/kis_layer_manager.cc:478
+#: ui/kis_layer_manager.cc:519 ui/kis_layer_manager.cc:550
+#: ui/kis_layer_manager.cc:651
 msgid "Layer Error"
 msgstr "Laag Fout"
 
-#: ui/kis_layer_manager.cc:583
+#: ui/kis_layer_manager.cc:574
 #, fuzzy
 msgid "New Filter Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:727
+#: ui/kis_layer_manager.cc:718
 #, fuzzy
 msgid "Scale Layer"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_manager.cc:769
+#: ui/kis_layer_manager.cc:760
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:771
+#: ui/kis_layer_manager.cc:762
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_layer_manager.cc:927
+#: ui/kis_layer_manager.cc:866
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:930
+#: ui/kis_layer_manager.cc:869
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
@@ -11669,45 +11670,56 @@ msgstr "Volgende Laag"
 msgid "Effect Mask Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_mirror_visitor.cpp:94 ui/kis_node_manager.cpp:520
+#: ui/kis_mirror_visitor.cpp:94 ui/kis_node_manager.cpp:526
 #, fuzzy
 msgid "Mirror Layer X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_mirror_visitor.cpp:96 ui/kis_node_manager.cpp:533
+#: ui/kis_mirror_visitor.cpp:96 ui/kis_node_manager.cpp:539
 #, fuzzy
 msgid "Mirror Layer Y"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_mirror_visitor.cpp:128 ui/kis_node_manager.cpp:522
+#: ui/kis_mirror_visitor.cpp:128 ui/kis_node_manager.cpp:528
 #, fuzzy
 msgid "Mirror Mask X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_mirror_visitor.cpp:130 ui/kis_node_manager.cpp:535
+#: ui/kis_mirror_visitor.cpp:130 ui/kis_node_manager.cpp:541
 #, fuzzy
 msgid "Mirror Mask Y"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:162
+#: ui/kis_node_manager.cpp:165
 #, fuzzy
 msgid "Duplicate current layer"
 msgstr "Verwyder Huidige Laag"
 
-#: ui/kis_node_manager.cpp:168
+#: ui/kis_node_manager.cpp:171
 #, fuzzy
 msgid "Delete current layer"
 msgstr "Verwyder Huidige Laag"
 
-#: ui/kis_node_manager.cpp:173
+#: ui/kis_node_manager.cpp:176
 #, fuzzy
 msgid "Activate next layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_node_manager.cpp:179
+#: ui/kis_node_manager.cpp:182
 #, fuzzy
 msgid "Activate previous layer"
 msgstr "Verwyder Laag"
+
+#: ui/kis_node_manager.cpp:188
+#, fuzzy
+#| msgid "Save Layer as Image..."
+msgid "Save Layer/Mask..."
+msgstr "Stoor Laag as Beeld..."
+
+#: ui/kis_node_manager.cpp:632
+#, fuzzy
+msgid "Export Node"
+msgstr "Kleur Modus"
 
 #: ui/kis_painting_assistants_manager.cc:41
 msgid "Painting assistants"
@@ -12258,6 +12270,9 @@ msgstr "Kleur Kieser"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Kleur Kieser"
+
+#~ msgid "I&nsert Image as Layer..."
+#~ msgstr "Voeg by Beeld as Laag..."
 
 #, fuzzy
 #~ msgid "HR Canvas 01"
