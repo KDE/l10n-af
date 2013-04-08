@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-07 02:17+0200\n"
+"POT-Creation-Date: 2013-04-08 02:27+0200\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1405,7 +1405,7 @@ msgid "Path editing tool"
 msgstr ""
 
 #: flake/tools/KoZoomToolFactory.cpp:30 widgets/KoZoomAction.cpp:307
-#: widgets/KoZoomController.cpp:39
+#: widgets/KoZoomController_p.h:42
 msgid "Zoom"
 msgstr ""
 
@@ -3988,76 +3988,76 @@ msgstr "Kort In voer Filter"
 msgid "Choose Filter"
 msgstr "Kies"
 
-#: main/KoFindText.cpp:89
+#: main/KoFindText.cpp:59
 msgid "Case Sensitive"
 msgstr ""
 
-#: main/KoFindText.cpp:89
+#: main/KoFindText.cpp:59
 msgid "Match cases when searching"
 msgstr ""
 
-#: main/KoFindText.cpp:90
+#: main/KoFindText.cpp:60
 msgid "Whole Words Only"
 msgstr ""
 
-#: main/KoFindText.cpp:90
+#: main/KoFindText.cpp:60
 msgid "Match only whole words"
 msgstr ""
 
-#: main/KoFindText.cpp:91
+#: main/KoFindText.cpp:61
 msgid "Find from Cursor"
 msgstr ""
 
-#: main/KoFindText.cpp:91
+#: main/KoFindText.cpp:61
 msgid "Start searching from the current cursor"
 msgstr ""
 
-#: main/KoFindToolbar.cpp:109
+#: main/KoFindToolbar.cpp:71
 #, fuzzy
 #| msgid "&Find:"
 msgctxt "Label for the Find text input box"
 msgid "Find:"
 msgstr "Soek:"
 
-#: main/KoFindToolbar.cpp:122
+#: main/KoFindToolbar.cpp:84
 #, fuzzy
 #| msgid "Text"
 msgctxt "Next search result"
 msgid "Next"
 msgstr "Teks"
 
-#: main/KoFindToolbar.cpp:132
+#: main/KoFindToolbar.cpp:94
 #, fuzzy
 msgctxt "Previous search result"
 msgid "Previous"
 msgstr "Voorskou"
 
-#: main/KoFindToolbar.cpp:141
+#: main/KoFindToolbar.cpp:103
 #, fuzzy
 msgctxt "Search options"
 msgid "Options"
 msgstr "Uitsonderings"
 
-#: main/KoFindToolbar.cpp:168
+#: main/KoFindToolbar.cpp:130
 #, fuzzy
 #| msgid "&Replace:"
 msgctxt "Label for the Replace text input box"
 msgid "Replace:"
 msgstr "Vervang:"
 
-#: main/KoFindToolbar.cpp:178
+#: main/KoFindToolbar.cpp:140
 #, fuzzy
 msgctxt "Replace the current match"
 msgid "Replace"
 msgstr "Vervang:"
 
-#: main/KoFindToolbar.cpp:184
+#: main/KoFindToolbar.cpp:146
 #, fuzzy
 msgctxt "Replace all found matches"
 msgid "Replace All"
 msgstr "Vervang:"
 
-#: main/KoFindToolbar.cpp:250
+#: main/KoFindToolbar.cpp:212
 #, fuzzy, kde-format
 msgctxt "Total number of matches"
 msgid "1 match found"
@@ -4065,16 +4065,16 @@ msgid_plural "%1 matches found"
 msgstr[0] "Nee handteerder gevind vir %1"
 msgstr[1] "Nee handteerder gevind vir %1"
 
-#: main/KoFindToolbar.cpp:260
+#: main/KoFindToolbar.cpp:222
 #, fuzzy
 msgid "No matches found"
 msgstr "Nee handteerder gevind vir %1"
 
-#: main/KoFindToolbar.cpp:266
+#: main/KoFindToolbar.cpp:228
 msgid "Search hit bottom, continuing from top."
 msgstr ""
 
-#: main/KoFindToolbar.cpp:268
+#: main/KoFindToolbar.cpp:230
 msgid "Search hit top, continuing from bottom."
 msgstr ""
 
@@ -4265,22 +4265,22 @@ msgstr ""
 "Kon nie open %1\n"
 "Rede: %2"
 
-#: main/KoPrintingDialog.cpp:147
+#: main/KoPrintingDialog.cpp:57
+msgid "Stop"
+msgstr ""
+
+#: main/KoPrintingDialog_p.h:150
 #, fuzzy
 msgid "Printing done"
 msgstr "Donker Oranje"
 
-#: main/KoPrintingDialog.cpp:148
+#: main/KoPrintingDialog_p.h:151
 #, fuzzy
 msgid "Close"
 msgstr "Kleure:"
 
-#: main/KoPrintingDialog.cpp:168
+#: main/KoPrintingDialog_p.h:171
 msgid "Stopped"
-msgstr ""
-
-#: main/KoPrintingDialog.cpp:210
-msgid "Stop"
 msgstr ""
 
 #: main/KoRecentDocumentsPane.cpp:82
@@ -6078,12 +6078,12 @@ msgstr ""
 msgid "ArabicAlphabet"
 msgstr ""
 
-#: widgets/KoColorSetWidget.cpp:184
+#: widgets/KoColorSetWidget.cpp:163
 #, fuzzy
 msgid "Recent:"
 msgstr "Onlangse Lêer:"
 
-#: widgets/KoColorSetWidget.cpp:197
+#: widgets/KoColorSetWidget.cpp:176
 #, fuzzy
 #| msgid "More Colors..."
 msgid "Add / Remove Colors..."
