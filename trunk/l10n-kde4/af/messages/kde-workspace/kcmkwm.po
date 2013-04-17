@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-08 03:27+0100\n"
+"POT-Creation-Date: 2013-04-17 03:47+0200\n"
 "PO-Revision-Date: 2005-11-25 19:56+0200\n"
 "Last-Translator: Kobus Venter <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1214,76 +1214,66 @@ msgstr "Titelbalk Aksies"
 msgid "Maximize Button"
 msgstr "Vergroot Knoppie"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, geometryTipOn)
-#: moving.ui:45
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, OverlapSnap)
+#: moving.ui:32
 msgid ""
-"Enable this option if you want a window's geometry to be displayed while it "
-"is being moved or resized. The window position relative to the top-left "
-"corner of the screen is displayed together with its size."
+"Here you can set that windows will be only snapped if you try to overlap "
+"them, i.e. they will not be snapped if the windows comes only near another "
+"window or border."
 msgstr ""
-"Aktiveer hierdie opsie as jy wil hê die vesnter se geometrie moet vertoon "
-"word wanneer dit geskuif hervergroot word. Die venster posissie relatief tot "
-"die linker-bo hoek van die skerm word vertoon saam met sy groote."
+"Hier kan jy kies dat vensters net klamp as jy probeer om dit oor mekaar te "
+"plaas, hulle sal byvoorbeeld nie klamp wanneer 'n venster naby 'n ander "
+"venster of raam kom nie."
 
-#. i18n: ectx: property (text), widget (QCheckBox, geometryTipOn)
-#: moving.ui:48
-msgid "Display window &geometry when moving or resizing"
-msgstr "Verstoon venster geometrie wanneer 'n venster skuif of hervergroot"
+#. i18n: ectx: property (text), widget (QCheckBox, OverlapSnap)
+#: moving.ui:35
+msgid "Snap windows onl&y when overlapping"
+msgstr "Klamp vensters slegs wanneer oorvleuel"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, moveResizeMaximized)
-#: moving.ui:68
-msgid ""
-"When enabled, this feature activates the border of maximized windows and "
-"allows you to move or resize them, just like for normal windows"
-msgstr ""
-"Wanneer aangeskakel, sal hierdie funksie die raam van vergrote vensters "
-"aktiveer,en toelaat dat jy dit beweeg of hervergroot, net soos normale "
-"vensters"
-
-#. i18n: ectx: property (text), widget (QCheckBox, moveResizeMaximized)
-#: moving.ui:71
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, centerSnap)
+#: moving.ui:55
 #, fuzzy
-#| msgid "Display content in &resizing windows"
-msgid "Display borders on &maximized windows"
-msgstr "Vertoon inhoud tydens hervergroot vensters"
-
-#. i18n: ectx: property (text), widget (QLabel, borderSnapLabel)
-#: moving.ui:85
-msgid "&Border snap zone:"
-msgstr "Grens klamp sone:"
-
-#. i18n: ectx: property (whatsThis), widget (KIntNumInput, borderSnap)
-#: moving.ui:104
+#| msgid ""
+#| "Here you can set the snap zone for screen borders, i.e. the 'strength' of "
+#| "the magnetic field which will make windows snap to the border when moved "
+#| "near it."
 msgid ""
-"Here you can set the snap zone for screen borders, i.e. the 'strength' of "
-"the magnetic field which will make windows snap to the border when moved "
-"near it."
+"Here you can set the snap zone for the screen center, i.e. the 'strength' of "
+"the magnetic field which will make windows snap to the center of the screen "
+"when moved near it."
 msgstr ""
 "Hier kan jy die klamp sone van die skerm rame stel, byvoorbeeld die "
 "'sterkte' van die magnetiese veld wat sal veroorsaak dat vensters aan die "
 "raam klamp wanneer hulle naby daaraan gekuif word."
 
-#. i18n: ectx: property (suffix), widget (KIntNumInput, borderSnap)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, windowSnap)
 #. i18n: ectx: property (suffix), widget (KIntNumInput, centerSnap)
-#: moving.ui:116 moving.ui:157 moving.ui:198
+#. i18n: ectx: property (suffix), widget (KIntNumInput, windowSnap)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, borderSnap)
+#: moving.ui:67 moving.ui:134 moving.ui:162
 msgid " pixel"
 msgstr ""
 
-#. i18n: ectx: property (specialValueText), widget (KIntNumInput, borderSnap)
-#: moving.ui:119
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, centerSnap)
+#: moving.ui:70
 #, fuzzy
 #| msgid "&Border snap zone:"
-msgid "no border snap zone"
+msgid "no center snap zone"
 msgstr "Grens klamp sone:"
 
-#. i18n: ectx: property (text), widget (QLabel, windowSnapLabel)
-#: moving.ui:126
-msgid "&Window snap zone:"
-msgstr "Venster klamp sone:"
+#. i18n: ectx: property (text), widget (QLabel, borderSnapLabel)
+#: moving.ui:90
+msgid "&Border snap zone:"
+msgstr "Grens klamp sone:"
+
+#. i18n: ectx: property (text), widget (QLabel, centerSnapLabel)
+#: moving.ui:103
+#, fuzzy
+#| msgid "&Border snap zone:"
+msgid "&Center snap zone:"
+msgstr "Grens klamp sone:"
 
 #. i18n: ectx: property (whatsThis), widget (KIntNumInput, windowSnap)
-#: moving.ui:145
+#: moving.ui:122
 #, fuzzy
 #| msgid ""
 #| "Here you can set the snap zone for windows, i.e. the 'strength' of the "
@@ -1299,67 +1289,73 @@ msgstr ""
 "wanneer hulle naby aan 'n ander venster gekuif word."
 
 #. i18n: ectx: property (specialValueText), widget (KIntNumInput, windowSnap)
-#: moving.ui:160
+#: moving.ui:137
 #, fuzzy
 #| msgid "&Window snap zone:"
 msgid "no window snap zone"
 msgstr "Venster klamp sone:"
 
-#. i18n: ectx: property (text), widget (QLabel, centerSnapLabel)
-#: moving.ui:167
-#, fuzzy
-#| msgid "&Border snap zone:"
-msgid "&Center snap zone:"
-msgstr "Grens klamp sone:"
-
-#. i18n: ectx: property (whatsThis), widget (KIntNumInput, centerSnap)
-#: moving.ui:186
-#, fuzzy
-#| msgid ""
-#| "Here you can set the snap zone for screen borders, i.e. the 'strength' of "
-#| "the magnetic field which will make windows snap to the border when moved "
-#| "near it."
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, borderSnap)
+#: moving.ui:150
 msgid ""
-"Here you can set the snap zone for the screen center, i.e. the 'strength' of "
-"the magnetic field which will make windows snap to the center of the screen "
-"when moved near it."
+"Here you can set the snap zone for screen borders, i.e. the 'strength' of "
+"the magnetic field which will make windows snap to the border when moved "
+"near it."
 msgstr ""
 "Hier kan jy die klamp sone van die skerm rame stel, byvoorbeeld die "
 "'sterkte' van die magnetiese veld wat sal veroorsaak dat vensters aan die "
 "raam klamp wanneer hulle naby daaraan gekuif word."
 
-#. i18n: ectx: property (specialValueText), widget (KIntNumInput, centerSnap)
-#: moving.ui:201
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, borderSnap)
+#: moving.ui:165
 #, fuzzy
 #| msgid "&Border snap zone:"
-msgid "no center snap zone"
+msgid "no border snap zone"
 msgstr "Grens klamp sone:"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, OverlapSnap)
-#: moving.ui:221
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, geometryTipOn)
+#: moving.ui:172
 msgid ""
-"Here you can set that windows will be only snapped if you try to overlap "
-"them, i.e. they will not be snapped if the windows comes only near another "
-"window or border."
+"Enable this option if you want a window's geometry to be displayed while it "
+"is being moved or resized. The window position relative to the top-left "
+"corner of the screen is displayed together with its size."
 msgstr ""
-"Hier kan jy kies dat vensters net klamp as jy probeer om dit oor mekaar te "
-"plaas, hulle sal byvoorbeeld nie klamp wanneer 'n venster naby 'n ander "
-"venster of raam kom nie."
+"Aktiveer hierdie opsie as jy wil hê die vesnter se geometrie moet vertoon "
+"word wanneer dit geskuif hervergroot word. Die venster posissie relatief tot "
+"die linker-bo hoek van die skerm word vertoon saam met sy groote."
 
-#. i18n: ectx: property (text), widget (QCheckBox, OverlapSnap)
-#: moving.ui:224
-msgid "Snap windows onl&y when overlapping"
-msgstr "Klamp vensters slegs wanneer oorvleuel"
+#. i18n: ectx: property (text), widget (QCheckBox, geometryTipOn)
+#: moving.ui:175
+msgid "Display window &geometry when moving or resizing"
+msgstr "Verstoon venster geometrie wanneer 'n venster skuif of hervergroot"
+
+#. i18n: ectx: property (text), widget (QLabel, windowSnapLabel)
+#: moving.ui:182
+msgid "&Window snap zone:"
+msgstr "Venster klamp sone:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: moving.ui:244
+#: moving.ui:221
 msgid "Windows"
 msgstr "Vensters"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: moving.ui:257
+#: moving.ui:234
 msgid "Snap Zones"
 msgstr "Klamp Sones"
+
+#~ msgid ""
+#~ "When enabled, this feature activates the border of maximized windows and "
+#~ "allows you to move or resize them, just like for normal windows"
+#~ msgstr ""
+#~ "Wanneer aangeskakel, sal hierdie funksie die raam van vergrote vensters "
+#~ "aktiveer,en toelaat dat jy dit beweeg of hervergroot, net soos normale "
+#~ "vensters"
+
+#, fuzzy
+#~| msgid "Display content in &resizing windows"
+#~ msgid "Display borders on &maximized windows"
+#~ msgstr "Vertoon inhoud tydens hervergroot vensters"
 
 #, fuzzy
 #~| msgid "Minimize"
