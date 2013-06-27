@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-26 01:41+0000\n"
+"POT-Creation-Date: 2013-06-27 01:36+0000\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -123,18 +123,6 @@ msgstr ""
 
 #: aboutdata.cpp:242
 msgid "Copyright © 1997–2013, KMail authors"
-msgstr ""
-
-#: addressvalidationjob.cpp:81
-#, kde-format
-msgid "Distribution list %2 is empty, it cannot be used."
-msgid_plural "Distribution lists %2 are empty, they cannot be used."
-msgstr[0] ""
-msgstr[1] ""
-
-#: addressvalidationjob.cpp:84 addressvalidationjob.cpp:93
-#: identity/identitydialog.cpp:654
-msgid "Invalid Email Address"
 msgstr ""
 
 #: antispamwizard.cpp:116
@@ -1573,25 +1561,6 @@ msgstr "Voeg Opskrif By"
 msgid "Remove"
 msgstr "Verwyder Opskrif"
 
-#: createnewcontactjob.cpp:80 kmreaderwin.cpp:174
-msgid "Add to Address Book"
-msgstr ""
-
-#: createnewcontactjob.cpp:132
-#, fuzzy
-msgid "Contact created successfully"
-msgstr "Boodskappe suksesvol geskuif"
-
-#: createnewcontactjob.cpp:137 kmreaderwin.cpp:776
-#, kde-format
-msgid "Contact cannot be stored: %1"
-msgstr ""
-
-#: createnewcontactjob.cpp:137 kmreaderwin.cpp:776
-#, fuzzy
-msgid "Failed to store contact"
-msgstr "Verwyder lêer aanhangsel"
-
 #: foldershortcutactionmanager.cpp:138 foldershortcutactionmanager.cpp:139
 #, kde-format
 msgid "Folder Shortcut %1"
@@ -1884,6 +1853,11 @@ msgstr "Heg Handtekening Aan"
 msgid "Invalid Email Alias \"%1\""
 msgstr ""
 
+#: identity/identitydialog.cpp:654 job/addressvalidationjob.cpp:84
+#: job/addressvalidationjob.cpp:93
+msgid "Invalid Email Address"
+msgstr ""
+
 #: identity/identitydialog.cpp:689
 #, kde-format
 msgid ""
@@ -2101,6 +2075,32 @@ msgstr ""
 #: identity/xfaceconfigurator.cpp:280 identity/xfaceconfigurator.cpp:290
 msgid "No picture set for your address book entry."
 msgstr ""
+
+#: job/addressvalidationjob.cpp:81
+#, kde-format
+msgid "Distribution list %2 is empty, it cannot be used."
+msgid_plural "Distribution lists %2 are empty, they cannot be used."
+msgstr[0] ""
+msgstr[1] ""
+
+#: job/createnewcontactjob.cpp:80 kmreaderwin.cpp:174
+msgid "Add to Address Book"
+msgstr ""
+
+#: job/createnewcontactjob.cpp:132
+#, fuzzy
+msgid "Contact created successfully"
+msgstr "Boodskappe suksesvol geskuif"
+
+#: job/createnewcontactjob.cpp:137 kmreaderwin.cpp:776
+#, kde-format
+msgid "Contact cannot be stored: %1"
+msgstr ""
+
+#: job/createnewcontactjob.cpp:137 kmreaderwin.cpp:776
+#, fuzzy
+msgid "Failed to store contact"
+msgstr "Verwyder lêer aanhangsel"
 
 #. i18n: ectx: whatsthis, entry (ExcludeImportantMailFromExpiry), group (Behaviour)
 #: kmail.kcfg.cmake:49
@@ -3628,8 +3628,7 @@ msgid "Notification"
 msgstr "Nuwe pos inkennisstelling"
 
 #: kmmainwidget.cpp:325
-msgid ""
-"An other mailer was found on system. Do you want to import data from it?"
+msgid "Another mailer was found on system. Do you want to import data from it?"
 msgstr ""
 
 #: kmmainwidget.cpp:328 kmmainwidget.cpp:4373
