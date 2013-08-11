@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kword VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-10 05:23+0000\n"
+"POT-Creation-Date: 2013-08-11 05:28+0000\n"
 "PO-Revision-Date: 2002-09-27 16:45+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -23,6 +23,10 @@ msgstr "WEB-Vertaler (http://kde.af.org.za)"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za"
+
+#: app/main.cpp:36 part/author/main.cpp:38
+msgid "File to open"
+msgstr "Lêer na open"
 
 #. i18n: ectx: Menu (file)
 #: part/author/author.rc:3 part/author/author_readonly.rc:3 part/words.rc:3
@@ -53,45 +57,51 @@ msgstr "Nuwe"
 msgid "&Display Mode"
 msgstr "Vertoon veld kode"
 
+#. i18n: ectx: Menu (book)
+#: part/author/author.rc:53
+#, fuzzy
+msgid "Book"
+msgstr "Voeg by Boekmerk..."
+
 #. i18n: ectx: Menu (semantic)
-#: part/author/author.rc:53 part/words.rc:54
+#: part/author/author.rc:57 part/words.rc:55
 #, fuzzy
 #| msgid "Statistics"
 msgid "Semantics"
 msgstr "Statistieke"
 
 #. i18n: ectx: Menu (format)
-#: part/author/author.rc:64 part/words.rc:66
+#: part/author/author.rc:68 part/words.rc:67
 #, fuzzy
 #| msgid "Style:"
 msgid "S&tyles"
 msgstr "Styl:"
 
 #. i18n: ectx: Menu (settings)
-#: part/author/author.rc:70 part/words.rc:72
+#: part/author/author.rc:74 part/words.rc:71
 #, fuzzy
 msgid "&Settings"
 msgstr "Allerande Instellings"
 
 #. i18n: ectx: Menu (SpellCheck)
-#: part/author/author.rc:71 part/words.rc:73
+#: part/author/author.rc:75 part/words.rc:72
 msgid "Spellcheck"
 msgstr "Speltoets"
 
 #. i18n: ectx: ToolBar (edit_toolbar)
-#: part/author/author.rc:84 part/words.rc:86
+#: part/author/author.rc:88 part/words.rc:85
 #, fuzzy
 msgid "Edit"
 msgstr "Slaan uit Teks"
 
 #. i18n: ectx: Menu (check_spell_list)
-#: part/author/author.rc:140 part/words.rc:142
+#: part/author/author.rc:144 part/words.rc:141
 #, fuzzy
 msgid "Spell Check Result"
 msgstr "Spel Toetsing"
 
 #. i18n: ectx: Menu (variable_list)
-#: part/author/author.rc:167 part/words.rc:169
+#: part/author/author.rc:171 part/words.rc:168
 msgid "Change Variable To"
 msgstr "Verander Veranderlike Na"
 
@@ -140,13 +150,54 @@ msgstr ""
 msgid "Can not find needed text component, Author will quit now"
 msgstr ""
 
-#: part/author/CAuPart.cpp:60 part/KWPart.cpp:140
+#: part/author/CAuPart.cpp:60 part/KWPart.cpp:158
 msgid "Installation Error"
 msgstr ""
 
-#: part/author/main.cpp:38 part/main.cpp:36
-msgid "File to open"
-msgstr "Lêer na open"
+#: part/author/CAuView.cpp:46
+#, fuzzy
+msgid "Select Cover Image..."
+msgstr "Voeg by Tabel"
+
+#: part/author/CAuView.cpp:48
+msgid "Set cover for your ebook"
+msgstr ""
+
+#: part/author/CoverSelectionDialog.cpp:54
+#, fuzzy
+#| msgid "Open Existing..."
+msgid "Open..."
+msgstr "Open Bestaande..."
+
+#: part/author/CoverSelectionDialog.cpp:69
+#, fuzzy
+#| msgid "Open Link"
+msgid "Open File"
+msgstr "Open Skakel"
+
+#: part/author/CoverSelectionDialog.cpp:71
+msgid "Images (*.png *.xpm *.jpg *.jpeg)"
+msgstr ""
+
+#: part/author/CoverSelectionDialog.cpp:76
+#, fuzzy
+#| msgid "Import Style"
+msgid "Import problem"
+msgstr "In voer Styl"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, CoverSelectionDialog)
+#: part/author/CoverSelectionDialog.ui:26
+#, fuzzy
+#| msgid "Completion"
+msgid "Cover selection"
+msgstr "Voltooiïng"
+
+#. i18n: ectx: property (text), widget (QLabel, coverSelectLabel)
+#: part/author/CoverSelectionDialog.ui:49
+#, fuzzy
+#| msgid "Completion"
+msgid "No cover selected yet"
+msgstr "Voltooiïng"
 
 #: part/commands/KWChangePageStyleCommand.cpp:27
 #, fuzzy
@@ -194,69 +245,69 @@ msgctxt "(qtundo-format)"
 msgid "Page Properties"
 msgstr "Raam Eienskappe"
 
-#: part/commands/KWShapeCreateCommand.cpp:58
+#: part/commands/KWShapeCreateCommand.cpp:57
 #, fuzzy
 #| msgid "Create Text Frame"
 msgctxt "(qtundo-format)"
 msgid "Create shape"
 msgstr "Skep Teks Raam"
 
-#: part/dialogs/KWAnchoringProperties.cpp:432
+#: part/dialogs/KWAnchoringProperties.cpp:433
 #, fuzzy
 #| msgid "Frame is inline"
 msgid "Baseline"
 msgstr "Raam is inlyn"
 
-#: part/dialogs/KWAnchoringProperties.cpp:433
-#: part/dialogs/KWAnchoringProperties.cpp:444
+#: part/dialogs/KWAnchoringProperties.cpp:434
+#: part/dialogs/KWAnchoringProperties.cpp:445
 #, fuzzy
 msgid "Character"
 msgstr "Skep Tabel"
 
-#: part/dialogs/KWAnchoringProperties.cpp:436
+#: part/dialogs/KWAnchoringProperties.cpp:437
 msgid "Row"
 msgstr "Ry"
 
-#: part/dialogs/KWAnchoringProperties.cpp:437
-#: part/dialogs/KWAnchoringProperties.cpp:445
+#: part/dialogs/KWAnchoringProperties.cpp:438
+#: part/dialogs/KWAnchoringProperties.cpp:446
 msgid "Page (entire) area"
 msgstr ""
 
-#: part/dialogs/KWAnchoringProperties.cpp:438
-#: part/dialogs/KWAnchoringProperties.cpp:446
+#: part/dialogs/KWAnchoringProperties.cpp:439
+#: part/dialogs/KWAnchoringProperties.cpp:447
 #, fuzzy
 msgid "Page text area"
 msgstr "Plekaanduier in beskerm area"
 
-#: part/dialogs/KWAnchoringProperties.cpp:439
-#: part/dialogs/KWAnchoringProperties.cpp:453
+#: part/dialogs/KWAnchoringProperties.cpp:440
+#: part/dialogs/KWAnchoringProperties.cpp:454
 #, fuzzy
 #| msgid "Paragraph"
 msgid "Paragraph area"
 msgstr "Paragraaf"
 
-#: part/dialogs/KWAnchoringProperties.cpp:440
-#: part/dialogs/KWAnchoringProperties.cpp:454
+#: part/dialogs/KWAnchoringProperties.cpp:441
+#: part/dialogs/KWAnchoringProperties.cpp:455
 #, fuzzy
 #| msgid "Paragraph Settings"
 msgid "Paragraph text area"
 msgstr "Paragraaf Instellings"
 
-#: part/dialogs/KWAnchoringProperties.cpp:447
+#: part/dialogs/KWAnchoringProperties.cpp:448
 #, fuzzy
 msgid "Left page border"
 msgstr "Verander Links Grens Raam"
 
-#: part/dialogs/KWAnchoringProperties.cpp:448
+#: part/dialogs/KWAnchoringProperties.cpp:449
 #, fuzzy
 msgid "Right page border"
 msgstr "Verander Regterkant Grens Raam"
 
-#: part/dialogs/KWAnchoringProperties.cpp:455
+#: part/dialogs/KWAnchoringProperties.cpp:456
 msgid "Right paragraph border"
 msgstr ""
 
-#: part/dialogs/KWAnchoringProperties.cpp:456
+#: part/dialogs/KWAnchoringProperties.cpp:457
 msgid "Left paragraph border"
 msgstr ""
 
@@ -385,7 +436,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, CreateBookmark)
 #: part/dialogs/KWCreateBookmark.ui:13
-#: part/dialogs/KWCreateBookmarkDialog.cpp:48
+#: part/dialogs/KWCreateBookmarkDialog.cpp:50
 msgid "Create New Bookmark"
 msgstr "Skep Nuwe Boekmerk"
 
@@ -748,36 +799,36 @@ msgstr "Afstand tussen raam en teks (%1):"
 msgid "Columns"
 msgstr "Kolom"
 
-#: part/dialogs/KWPageSettingsDialog.cpp:54
+#: part/dialogs/KWPageSettingsDialog.cpp:53
 #, fuzzy
 #| msgid "Style:"
 msgid "Style"
 msgstr "Styl:"
 
-#: part/dialogs/KWPageSettingsDialog.cpp:60
+#: part/dialogs/KWPageSettingsDialog.cpp:59
 #, fuzzy
 msgid "Clone"
 msgstr "Maak toe:"
 
-#: part/dialogs/KWPageSettingsDialog.cpp:63 part/KWView.cpp:284
+#: part/dialogs/KWPageSettingsDialog.cpp:62 part/KWView.cpp:264
 #, fuzzy
 msgid "Delete"
 msgstr "Uitvee Ry"
 
-#: part/dialogs/KWPageSettingsDialog.cpp:151
+#: part/dialogs/KWPageSettingsDialog.cpp:148
 #, fuzzy
 #| msgid "&Page Mode"
 msgctxt "(qtundo-format)"
 msgid "Change Page Style"
 msgstr "Bladsy Modus"
 
-#: part/dialogs/KWPageSettingsDialog.cpp:219
+#: part/dialogs/KWPageSettingsDialog.cpp:214
 #, fuzzy
 #| msgid "&Page Mode"
 msgid "Clone Page Style"
 msgstr "Bladsy Modus"
 
-#: part/dialogs/KWPageSettingsDialog.cpp:219
+#: part/dialogs/KWPageSettingsDialog.cpp:214
 msgid "Add a new page style with the name:"
 msgstr ""
 
@@ -878,7 +929,7 @@ msgid "Page Size && Margins"
 msgstr "Beskerm Grootte"
 
 #. i18n: ectx: property (text), widget (QPushButton, createButton)
-#: part/dialogs/KWStartupWidget.ui:71 part/KWView.cpp:355
+#: part/dialogs/KWStartupWidget.ui:71 part/KWView.cpp:344
 #, fuzzy
 msgid "Create"
 msgstr "Skep Tabel"
@@ -891,47 +942,47 @@ msgstr ""
 msgid "Statistics"
 msgstr "Statistieke"
 
-#: part/dockers/KWStatisticsWidget.cpp:144
+#: part/dockers/KWStatisticsWidget.cpp:142
 msgid "Words:"
 msgstr "Woorde:"
 
-#: part/dockers/KWStatisticsWidget.cpp:147
+#: part/dockers/KWStatisticsWidget.cpp:145
 msgid "Sentences:"
 msgstr "Sinne:"
 
-#: part/dockers/KWStatisticsWidget.cpp:150
+#: part/dockers/KWStatisticsWidget.cpp:148
 msgid "Syllables:"
 msgstr "Woorddele:"
 
-#: part/dockers/KWStatisticsWidget.cpp:153
+#: part/dockers/KWStatisticsWidget.cpp:151
 #, fuzzy
 #| msgid "Characters including spaces:"
 msgid "Characters (spaces):"
 msgstr "Karakters insluitend spasies:"
 
-#: part/dockers/KWStatisticsWidget.cpp:156
+#: part/dockers/KWStatisticsWidget.cpp:154
 #, fuzzy
 #| msgid "Characters including spaces:"
 msgid "Characters (no spaces):"
 msgstr "Karakters insluitend spasies:"
 
-#: part/dockers/KWStatisticsWidget.cpp:159
+#: part/dockers/KWStatisticsWidget.cpp:157
 #, fuzzy
 #| msgid "Dot Line"
 msgid "Lines:"
 msgstr "Punt Lyn"
 
-#: part/dockers/KWStatisticsWidget.cpp:162
+#: part/dockers/KWStatisticsWidget.cpp:160
 msgid "Readability:"
 msgstr ""
 
-#: part/dockers/KWStatisticsWidget.cpp:164
+#: part/dockers/KWStatisticsWidget.cpp:162
 #, fuzzy
 #| msgid "Flesch reading ease:"
 msgid "Flesch reading ease"
 msgstr "Flesch lees maklikheid:"
 
-#: part/dockers/KWStatisticsWidget.cpp:166
+#: part/dockers/KWStatisticsWidget.cpp:164
 #, fuzzy
 #| msgid "&Formatting Characters"
 msgid "East asian characters:"
@@ -1472,34 +1523,48 @@ msgstr ""
 msgid "Page break icon"
 msgstr "Lyn Breek"
 
-#: part/KWDocument.cpp:493
+#: part/KWDocument.cpp:496
 #, fuzzy
 #| msgid "Copy%1-%2"
 msgid "Copy"
 msgstr "Copy%1-%2"
 
-#: part/KWDocument.cpp:538
+#: part/KWDocument.cpp:541 part/KWStatusBar.cpp:159
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Standard"
+msgid "Standard"
+msgstr "Standaard"
+
+#: part/KWDocument.cpp:547
+#, fuzzy
+#| msgctxt "Style name"
+#| msgid "Document Title"
+msgid "Document Title"
+msgstr "Dokument Titel"
+
+#: part/KWDocument.cpp:554
 #, fuzzy
 #| msgctxt "Style name"
 #| msgid "Head 1"
 msgid "Head 1"
 msgstr "Kop 1"
 
-#: part/KWDocument.cpp:544
+#: part/KWDocument.cpp:560
 #, fuzzy
 #| msgctxt "Style name"
 #| msgid "Head 2"
 msgid "Head 2"
 msgstr "Kop 2"
 
-#: part/KWDocument.cpp:550
+#: part/KWDocument.cpp:566
 #, fuzzy
 #| msgctxt "Style name"
 #| msgid "Head 3"
 msgid "Head 3"
 msgstr "Kop 3"
 
-#: part/KWDocument.cpp:556
+#: part/KWDocument.cpp:572
 #, fuzzy
 #| msgctxt "Style name"
 #| msgid "Bullet List"
@@ -1527,7 +1592,7 @@ msgid ""
 "the appropriate application."
 msgstr ""
 
-#: part/KWPart.cpp:139
+#: part/KWPart.cpp:157
 msgid "Can not find needed text component, Words will quit now"
 msgstr ""
 
@@ -1542,94 +1607,91 @@ msgstr "Stoor Prent"
 
 #: part/KWStatusBar.cpp:50
 #, fuzzy, kde-format
-#| msgid "Page %1"
-msgid "Page %1/%2"
-msgstr "Bladsy %1"
+msgid "Page %1 of %2"
+msgstr "Bladsy %1/%2"
 
 #: part/KWStatusBar.cpp:51
+#, fuzzy, kde-format
+msgid "Page %1-%2 of %3"
+msgstr "Bladsy %1/%2"
+
+#: part/KWStatusBar.cpp:52
 #, fuzzy, kde-format
 #| msgid "Dot Line"
 msgid "Line %1"
 msgstr "Punt Lyn"
 
-#: part/KWStatusBar.cpp:136
+#: part/KWStatusBar.cpp:137
 #, fuzzy
 msgid "Page Number"
 msgstr "Beginne bladsy nommer:"
 
-#: part/KWStatusBar.cpp:149
+#: part/KWStatusBar.cpp:150
 #, fuzzy
 #| msgid "Number"
 msgid "Line Number"
 msgstr "Nommer"
 
-#: part/KWStatusBar.cpp:158
-#, fuzzy
-#| msgctxt "Style name"
-#| msgid "Standard"
-msgid "Standard"
-msgstr "Standaard"
-
-#: part/KWStatusBar.cpp:166
+#: part/KWStatusBar.cpp:167
 #, fuzzy
 #| msgid "&Page Mode"
 msgid "Page Style"
 msgstr "Bladsy Modus"
 
-#: part/KWStatusBar.cpp:180
+#: part/KWStatusBar.cpp:181
 #, fuzzy
 #| msgid "Protect Size"
 msgid "Page Size"
 msgstr "Beskerm Grootte"
 
-#: part/KWStatusBar.cpp:195
+#: part/KWStatusBar.cpp:196
 msgid "Saved/Modified"
 msgstr ""
 
-#: part/KWStatusBar.cpp:208
+#: part/KWStatusBar.cpp:209
 msgid "Mouse Cursor X:Y"
 msgstr ""
 
-#: part/KWStatusBar.cpp:222
+#: part/KWStatusBar.cpp:223
 msgid "Zoom Controller"
 msgstr ""
 
-#: part/KWView.cpp:243
+#: part/KWView.cpp:223
 #, fuzzy
 #| msgid "Frame Properties"
 msgid "Shape Properties..."
 msgstr "Raam Eienskappe"
 
-#: part/KWView.cpp:245
+#: part/KWView.cpp:225
 msgid "Change how the shape behave"
 msgstr ""
 
-#: part/KWView.cpp:249
+#: part/KWView.cpp:229
 #, fuzzy
 msgid "Bookmark..."
 msgstr "Voeg by Boekmerk..."
 
-#: part/KWView.cpp:254
+#: part/KWView.cpp:234
 #, fuzzy
 msgid "Select Bookmark..."
 msgstr "Kies Boekmerk..."
 
-#: part/KWView.cpp:255
+#: part/KWView.cpp:235
 #, fuzzy
 msgid "Bookmark"
 msgstr "Voeg by Boekmerk..."
 
-#: part/KWView.cpp:266
+#: part/KWView.cpp:246
 #, fuzzy
 #| msgid "&Create Template From Document..."
 msgid "Create Template From Document..."
 msgstr "Skep Werkvoorbeeld Van Dokument..."
 
-#: part/KWView.cpp:267
+#: part/KWView.cpp:247
 msgid "Save this document and use it later as a template"
 msgstr "Stoor hierdie dokument en gebruik dit later as 'n werkvoorbeeld"
 
-#: part/KWView.cpp:268
+#: part/KWView.cpp:248
 msgid ""
 "You can save this document as a template.<br><br>You can use this new "
 "template as a starting point for another document."
@@ -1637,39 +1699,53 @@ msgstr ""
 "Jy kan stoor hierdie dokument as 'n werkvoorbeeld.<br><br>Jy kan gebruik "
 "hierdie nuwe werkvoorbeeld as 'n beginne punt vir nog 'n dokument."
 
-#: part/KWView.cpp:280
+#: part/KWView.cpp:260
 #, fuzzy
 msgid "Select All Shapes"
 msgstr "Kies Raamstel"
 
-#: part/KWView.cpp:291
+#: part/KWView.cpp:271
 #, fuzzy
 #| msgid "&Formatting Characters"
 msgid "Show Formatting Characters"
 msgstr "Formatering Karakters"
 
-#: part/KWView.cpp:297
+#: part/KWView.cpp:277
 #, fuzzy
 msgid "Toggle the display of non-printing characters"
 msgstr "Wissel die vertoon van non-printing karakters."
 
-#: part/KWView.cpp:298
+#: part/KWView.cpp:278
 msgid ""
 "Toggle the display of non-printing characters.<br/><br/>When this is "
 "enabled, Words shows you tabs, spaces, carriage returns and other non-"
 "printing characters."
 msgstr ""
 
-#: part/KWView.cpp:300
+#: part/KWView.cpp:280
+msgid "Show Field Shadings"
+msgstr ""
+
+#: part/KWView.cpp:286
+msgid "Toggle the shaded background of fields"
+msgstr ""
+
+#: part/KWView.cpp:287
+msgid ""
+"Toggle the visualization of fields (variables etc.) by drawing their "
+"background in a contrasting color."
+msgstr ""
+
+#: part/KWView.cpp:289
 msgid "Show Text Shape Borders"
 msgstr ""
 
-#: part/KWView.cpp:301
+#: part/KWView.cpp:290
 #, fuzzy
 msgid "Turns the border display on and off"
 msgstr "Draai die grens vertoon op en af."
 
-#: part/KWView.cpp:307
+#: part/KWView.cpp:296
 #, fuzzy
 #| msgid ""
 #| "Turns the border display on and off.<br><br>The borders are never "
@@ -1684,33 +1760,33 @@ msgstr ""
 "Hierdie opsie is bruikbare na sien hoe die dokument sal verskyn op die "
 "printed bladsy."
 
-#: part/KWView.cpp:309
+#: part/KWView.cpp:298
 #, fuzzy
 #| msgid "Configure Table Borders"
 msgid "Show Table Borders"
 msgstr "Konfigureer Tabel Grense"
 
-#: part/KWView.cpp:315
+#: part/KWView.cpp:304
 #, fuzzy
 msgid "Toggle the display of table borders"
 msgstr "Wissel die vertoon van non-printing karakters."
 
-#: part/KWView.cpp:316
+#: part/KWView.cpp:305
 msgid ""
 "Toggle the display of table borders.<br/><br/>When this is enabled, Words "
 "shows you any invisible table borders with a thin gray line."
 msgstr ""
 
-#: part/KWView.cpp:318
+#: part/KWView.cpp:307
 msgid "Show Rulers"
 msgstr "Vertoon Lineale"
 
-#: part/KWView.cpp:320
+#: part/KWView.cpp:309
 #, fuzzy
 msgid "Shows or hides rulers"
 msgstr "Vertoon of steek weg lineale."
 
-#: part/KWView.cpp:321
+#: part/KWView.cpp:310
 msgid ""
 "The rulers are the white measuring spaces top and left of the document. The "
 "rulers show the position and width of pages and of frames and can be used to "
@@ -1718,71 +1794,71 @@ msgid ""
 "being displayed.</p>"
 msgstr ""
 
-#: part/KWView.cpp:332
+#: part/KWView.cpp:321
 #, fuzzy
 msgid "Snap to Grid"
 msgstr "Vertoon Voetskrif"
 
-#: part/KWView.cpp:340
+#: part/KWView.cpp:329
 #, fuzzy
 #| msgid "Show &status bar"
 msgid "Show Status Bar"
 msgstr "Vertoon status kolom"
 
-#: part/KWView.cpp:341
+#: part/KWView.cpp:330
 #, fuzzy
 #| msgid "Show &status bar"
 msgid "Shows or hides the status bar"
 msgstr "Vertoon status kolom"
 
-#: part/KWView.cpp:346
+#: part/KWView.cpp:335
 #, fuzzy
 msgid "Semantic Stylesheets..."
 msgstr "In voer Styl..."
 
-#: part/KWView.cpp:348
+#: part/KWView.cpp:337
 msgid "Modify and add semantic stylesheets"
 msgstr ""
 
-#: part/KWView.cpp:349
+#: part/KWView.cpp:338
 msgid ""
 "Stylesheets are used to format contact, event, and location information "
 "which is stored in Rdf"
 msgstr ""
 
-#: part/KWView.cpp:364
+#: part/KWView.cpp:353
 #, fuzzy
 msgid "Create Linked Copy"
 msgstr "Skep 'n nuwe bladsy"
 
-#: part/KWView.cpp:366
+#: part/KWView.cpp:355
 msgid "Create a copy of the current frame, always showing the same contents"
 msgstr ""
 
-#: part/KWView.cpp:367
+#: part/KWView.cpp:356
 msgid ""
 "Create a copy of the current frame, that remains linked to it. This means "
 "they always show the same contents: modifying the contents in such a frame "
 "will update all its linked copies."
 msgstr ""
 
-#: part/KWView.cpp:371
+#: part/KWView.cpp:360
 #, fuzzy
 #| msgid "C&onfigure..."
 msgid "Configure..."
 msgstr "Konfigureer..."
 
-#: part/KWView.cpp:376
+#: part/KWView.cpp:365
 #, fuzzy
 msgid "Page Layout..."
 msgstr "Verander Uitleg"
 
-#: part/KWView.cpp:378
+#: part/KWView.cpp:367
 #, fuzzy
 msgid "Change properties of entire page"
 msgstr "Verander eienskappe van hele bladsy."
 
-#: part/KWView.cpp:379
+#: part/KWView.cpp:368
 #, fuzzy
 #| msgid ""
 #| "Change properties of the entire page.<p>Currently you can change paper "
@@ -1795,31 +1871,31 @@ msgstr ""
 "grootte, papier oriëntasie, opskrif en voetskrif grotes, en kolom "
 "instellings."
 
-#: part/KWView.cpp:382
+#: part/KWView.cpp:371
 #, fuzzy
 #| msgid "Create Text Frame"
 msgid "Create Header"
 msgstr "Skep Teks Raam"
 
-#: part/KWView.cpp:388
+#: part/KWView.cpp:377
 #, fuzzy
 #| msgid "Create Text Frame"
 msgid "Create Footer"
 msgstr "Skep Teks Raam"
 
-#: part/KWView.cpp:693
+#: part/KWView.cpp:689
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Create Linked Copy"
 msgstr "Skep 'n nuwe bladsy"
 
-#: part/pagetool/KWPageTool.cpp:101
+#: part/pagetool/KWPageTool.cpp:97
 #, fuzzy
 #| msgid "Protect Size"
 msgid "Page Setup"
 msgstr "Beskerm Grootte"
 
-#: part/pagetool/KWPageTool.cpp:105
+#: part/pagetool/KWPageTool.cpp:101
 #, fuzzy
 #| msgid "Even Pages Footer"
 msgid "Header & Footer"
@@ -1868,46 +1944,9 @@ msgid "Other text"
 msgstr "Voeg by Tabel"
 
 #, fuzzy
-#~ msgid "Book"
-#~ msgstr "Voeg by Boekmerk..."
-
-#, fuzzy
-#~ msgid "Select Cover Image..."
-#~ msgstr "Voeg by Tabel"
-
-#, fuzzy
-#~| msgid "Open Existing..."
-#~ msgid "Open..."
-#~ msgstr "Open Bestaande..."
-
-#, fuzzy
-#~| msgid "Open Link"
-#~ msgid "Open File"
-#~ msgstr "Open Skakel"
-
-#, fuzzy
-#~| msgid "Import Style"
-#~ msgid "Import problem"
-#~ msgstr "In voer Styl"
-
-#, fuzzy
-#~| msgid "Completion"
-#~ msgid "Cover selection"
-#~ msgstr "Voltooiïng"
-
-#, fuzzy
-#~| msgctxt "Style name"
-#~| msgid "Document Title"
-#~ msgid "Document Title"
-#~ msgstr "Dokument Titel"
-
-#, fuzzy
-#~ msgid "Page %1 of %2"
-#~ msgstr "Bladsy %1/%2"
-
-#, fuzzy
-#~ msgid "Page %1-%2 of %3"
-#~ msgstr "Bladsy %1/%2"
+#~| msgid "Page %1"
+#~ msgid "Page %1/%2"
+#~ msgstr "Bladsy %1"
 
 #, fuzzy
 #~| msgid "Characters including spaces:"
