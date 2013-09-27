@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-26 01:44+0000\n"
+"POT-Creation-Date: 2013-09-27 01:50+0000\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -13,8 +13,108 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+#: adblock/adblockmanager.cpp:352
+#, fuzzy
+msgctxt "@title:window"
+msgid "Ad Block Settings"
+msgstr "Stel Enkodering"
+
+#: adblock/adblocksettingwidget.cpp:53
+msgid ""
+"<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a href="
+"\"filterhelp\">more information</a>):"
+msgstr ""
+
+#: adblock/adblocksettingwidget.cpp:69
+#, fuzzy
+msgid " day"
+msgid_plural " days"
+msgstr[0] "in proses"
+msgstr[1] "in proses"
+
+#: adblock/adblocksettingwidget.cpp:86
+msgid ""
+"<qt><p>Enter an expression to filter. Filters can be defined as either:"
+"<ul><li>a shell-style wildcard, e.g. <tt>http://www.example.com/ads*</tt>, "
+"the wildcards <tt>*?[]</tt> may be used</li><li>a full regular expression by "
+"surrounding the string with '<tt>/</tt>', e.g. <tt>/\\/(ad|banner)\\./</tt></"
+"li></ul><p>Any filter string can be preceded by '<tt>@@</tt>' to whitelist "
+"(allow) any matching URL, which takes priority over any blacklist (blocking) "
+"filter."
+msgstr ""
+
 #: adblock/networkaccessmanager.cpp:51
 msgid "Blocked by ad filter"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, BlockedLabel)
+#: adblock/ui/blocked_elements.ui:17
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Blocked elements</"
+"span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, HidedLabel)
+#: adblock/ui/blocked_elements.ui:101
+#, fuzzy
+#| msgid "Hidden Recipients"
+msgid "<b>Hidden elements</b>"
+msgstr "Versteekte Ontvangers"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: adblock/ui/blocked_elements.ui:108
+msgid "TextLabel"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkEnableAdblock)
+#: adblock/ui/settings_adblock.ui:17
+msgid "&Enable Ad Block"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkHideAds)
+#: adblock/ui/settings_adblock.ui:24
+msgid "&Hide filtered elements"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: adblock/ui/settings_adblock.ui:38
+#, fuzzy
+#| msgid "Auto"
+msgid "Automatic Filters"
+msgstr "Outo"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: adblock/ui/settings_adblock.ui:49
+msgid "Update enabled automatic filters every:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: adblock/ui/settings_adblock.ui:88
+#, fuzzy
+#| msgid "A&pply Filter"
+msgid "Manual Filters"
+msgstr "Wend Filters Aan"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: adblock/ui/settings_adblock.ui:96
+#, fuzzy
+msgid "Search:"
+msgstr "Soek:"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, insertButton)
+#: adblock/ui/settings_adblock.ui:123
+msgid "Add filter expression"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, insertButton)
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: adblock/ui/settings_adblock.ui:126 adblock/ui/settings_adblock.ui:136
+msgid "..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: adblock/ui/settings_adblock.ui:133
+msgid "Remove filter expression"
 msgstr ""
 
 #: findbar/findbarbase.cpp:48 findbar/findbarbase.cpp:51
@@ -3612,11 +3712,6 @@ msgstr ""
 #~ msgstr "BCC"
 
 #, fuzzy
-#~| msgid "A&pply Filter"
-#~ msgid "KMail Filter"
-#~ msgstr "Wend Filters Aan"
-
-#, fuzzy
 #~ msgid "in addressbook"
 #~ msgstr "Adresboek"
 
@@ -3831,11 +3926,6 @@ msgstr ""
 #~ msgctxt "@title:column Email of the recipient."
 #~ msgid "Email"
 #~ msgstr "Pos"
-
-#, fuzzy
-#~ msgctxt "Search for recipient."
-#~ msgid "Search:"
-#~ msgstr "Soek:"
 
 #, fuzzy
 #~ msgid "&Cancel"
@@ -4402,11 +4492,6 @@ msgstr ""
 #~| msgid "Check &Mail"
 #~ msgid "Check inter&val:"
 #~ msgstr "Kyk vir nuwe pos"
-
-#, fuzzy
-#~ msgctxt "@title:tab"
-#~ msgid "IMAP Settings"
-#~ msgstr "Stel Enkodering"
 
 #, fuzzy
 #~| msgid "Show attachments as suggested by sender."
@@ -5264,13 +5349,6 @@ msgstr ""
 #~ msgstr "Eienskappe"
 
 #, fuzzy
-#~ msgctxt "Expire messages after %1"
-#~ msgid " day"
-#~ msgid_plural " days"
-#~ msgstr[0] "in proses"
-#~ msgstr[1] "in proses"
-
-#, fuzzy
 #~ msgid "Expire unread messages after"
 #~ msgstr "Gaan na die vorige ongeleesde boodskap"
 
@@ -6081,12 +6159,6 @@ msgstr ""
 #~ msgstr "Klaar"
 
 #, fuzzy
-#~| msgid "Auto"
-#~ msgctxt "@action:inmenu Group header background color setting"
-#~ msgid "Automatic"
-#~ msgstr "Outo"
-
-#, fuzzy
 #~ msgid "Column Properties"
 #~ msgstr "Eienskappe"
 
@@ -6558,9 +6630,6 @@ msgstr ""
 
 #~ msgid "&Blind copy to (BCC):"
 #~ msgstr "Versteekte kopie aan (BCC):"
-
-#~ msgid "Hidden Recipients"
-#~ msgstr "Versteekte Ontvangers"
 
 #~ msgid "&To"
 #~ msgstr "Aan"
