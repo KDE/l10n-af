@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: amarok\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-21 01:29+0000\n"
+"POT-Creation-Date: 2013-10-23 01:24+0000\n"
 "PO-Revision-Date: 2010-01-30 14:30+0000\n"
 "Last-Translator: Emile Joubert <emile.joubert@gmail.com>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -6640,43 +6640,43 @@ msgid ""
 "This can be changed for each channel individually."
 msgstr ""
 
-#: core/collections/CollectionLocation.cpp:386
+#: core/collections/CollectionLocation.cpp:380
 #, fuzzy
 #| msgid "Find Orphaned Tracks"
 msgid "Organize tracks"
 msgstr "Vind Wees-snitte"
 
-#: core/collections/CollectionLocation.cpp:388
+#: core/collections/CollectionLocation.cpp:382
 #, fuzzy
 #| msgid "Moving files to trash"
 msgid "Transcode and organize tracks"
 msgstr "Besig om lêers na die asblik te skuif"
 
-#: core/collections/CollectionLocation.cpp:393
+#: core/collections/CollectionLocation.cpp:387
 #, fuzzy
 #| msgid "Repeat Track"
 msgid "Move tracks"
 msgstr "Herhaal Snit"
 
-#: core/collections/CollectionLocation.cpp:395
+#: core/collections/CollectionLocation.cpp:389
 #, fuzzy
 #| msgid "Moving files to trash"
 msgid "Transcode and move tracks"
 msgstr "Besig om lêers na die asblik te skuif"
 
-#: core/collections/CollectionLocation.cpp:400
+#: core/collections/CollectionLocation.cpp:394
 #, fuzzy
 #| msgid "Copying Tracks Failed"
 msgid "Copy tracks"
 msgstr "Snitte Kopieer Mislukking"
 
-#: core/collections/CollectionLocation.cpp:402
+#: core/collections/CollectionLocation.cpp:396
 #, fuzzy
 #| msgid "Moving files to trash"
 msgid "Transcode and copy tracks"
 msgstr "Besig om lêers na die asblik te skuif"
 
-#: core/collections/CollectionLocation.cpp:415
+#: core/collections/CollectionLocation.cpp:409
 #, fuzzy, kde-format
 #| msgid "Copying Tracks Failed"
 msgid "Organizing one track"
@@ -6684,7 +6684,7 @@ msgid_plural "Organizing %1 tracks"
 msgstr[0] "Snitte Kopieer Mislukking"
 msgstr[1] "Snitte Kopieer Mislukking"
 
-#: core/collections/CollectionLocation.cpp:418
+#: core/collections/CollectionLocation.cpp:412
 #, fuzzy, kde-format
 #| msgid "Moving files to trash"
 msgid "Transcoding and organizing one track"
@@ -6692,7 +6692,7 @@ msgid_plural "Transcoding and organizing %1 tracks"
 msgstr[0] "Besig om lêers na die asblik te skuif"
 msgstr[1] "Besig om lêers na die asblik te skuif"
 
-#: core/collections/CollectionLocation.cpp:424
+#: core/collections/CollectionLocation.cpp:418
 #, fuzzy, kde-format
 #| msgid "Copying Tracks Failed"
 msgid "Moving one track to %2"
@@ -6700,7 +6700,7 @@ msgid_plural "Moving %1 tracks to %2"
 msgstr[0] "Snitte Kopieer Mislukking"
 msgstr[1] "Snitte Kopieer Mislukking"
 
-#: core/collections/CollectionLocation.cpp:427
+#: core/collections/CollectionLocation.cpp:421
 #, fuzzy, kde-format
 #| msgid "Moving files to trash"
 msgid "Transcoding and moving one track to %2"
@@ -6708,7 +6708,7 @@ msgid_plural "Transcoding and moving %1 tracks to %2"
 msgstr[0] "Besig om lêers na die asblik te skuif"
 msgstr[1] "Besig om lêers na die asblik te skuif"
 
-#: core/collections/CollectionLocation.cpp:433
+#: core/collections/CollectionLocation.cpp:427
 #, fuzzy, kde-format
 #| msgid "Copying Tracks Failed"
 msgid "Copying one track to %2"
@@ -6716,7 +6716,7 @@ msgid_plural "Copying %1 tracks to %2"
 msgstr[0] "Snitte Kopieer Mislukking"
 msgstr[1] "Snitte Kopieer Mislukking"
 
-#: core/collections/CollectionLocation.cpp:436
+#: core/collections/CollectionLocation.cpp:430
 #, fuzzy, kde-format
 #| msgid "Moving files to trash"
 msgid "Transcoding and copying one track to %2"
@@ -16174,14 +16174,14 @@ msgstr "Omslag Gevind"
 msgid "Just move the tracks without transcoding them."
 msgstr ""
 
-#: transcoding/TranscodingAssistantDialog.cpp:140
+#: transcoding/TranscodingAssistantDialog.cpp:145
 #, fuzzy
 #| msgid "No description available..."
 msgctxt "Tooltip of a disabled transcoding encoder option"
 msgid "Not currently available on your system."
 msgstr "Geen beskrywing beskikbaar..."
 
-#: transcoding/TranscodingAssistantDialog.cpp:147
+#: transcoding/TranscodingAssistantDialog.cpp:152
 msgid "Target collection indicates this format would not be playable."
 msgstr ""
 
@@ -16232,8 +16232,18 @@ msgstr ""
 msgid "Transcode only when source and destination formats are different"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, rememberCheckBox)
+#. i18n: ectx: property (text), widget (QLabel, encoderNotFoundLabel)
 #: transcoding/TranscodingAssistantDialog.ui:265
+msgid ""
+"<b>Note:</b> No encoder is available. If you want to transcode tracks please "
+"install <i>ffmpeg</i> or <i>libav</i> package (with <i>ffmpeg</i> wrapper) "
+"with appropriate encoders. Otherwise you may check <i>Remember this choice "
+"for the next time</i> option in order to skip this dialog for future "
+"transfers."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, rememberCheckBox)
+#: transcoding/TranscodingAssistantDialog.ui:275
 msgid "Remember this choice for the next time"
 msgstr ""
 
