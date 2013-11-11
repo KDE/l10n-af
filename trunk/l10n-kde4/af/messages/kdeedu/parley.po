@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-04 01:32+0000\n"
+"POT-Creation-Date: 2013-11-11 01:32+0000\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1579,49 +1579,57 @@ msgid "Change practice settings"
 msgstr "Aansig Opsies"
 
 #: src/parleyactions.cpp:151
+msgid "Export results..."
+msgstr ""
+
+#: src/parleyactions.cpp:152
+msgid "Write a file with the results of the practice"
+msgstr ""
+
+#: src/parleyactions.cpp:156
 #, fuzzy
 msgid "Editor"
 msgstr "Verstrek"
 
-#: src/parleyactions.cpp:152
+#: src/parleyactions.cpp:157
 #, fuzzy
 msgid "Switch to vocabulary editor"
 msgstr "Stoor die huidige dokument"
 
-#: src/parleyactions.cpp:156
+#: src/parleyactions.cpp:161
 #, fuzzy
 msgid "Show Se&arch"
 msgstr "Luukse Soektog"
 
-#: src/parleyactions.cpp:157
+#: src/parleyactions.cpp:162
 msgid "Toggle display of the search bar"
 msgstr ""
 
-#: src/parleyactions.cpp:166
+#: src/parleyactions.cpp:171
 #, fuzzy
 msgid "&Script Manager"
 msgstr "Taal"
 
-#: src/parleyactions.cpp:167
+#: src/parleyactions.cpp:172
 msgid "Enable and disable scripts"
 msgstr ""
 
-#: src/parleyactions.cpp:183
+#: src/parleyactions.cpp:188
 #, fuzzy
 msgid "Download New Vocabularies..."
 msgstr "Open Woordeskat Lêer"
 
-#: src/parleyactions.cpp:185
+#: src/parleyactions.cpp:190
 #, fuzzy
 msgid "Downloads new vocabulary collections"
 msgstr "Open Woordeskat Lêer"
 
-#: src/parleyactions.cpp:191
+#: src/parleyactions.cpp:196
 #, fuzzy
 msgid "&Upload Vocabulary Document..."
 msgstr "Open Voorbeeld Woordeskat Lêer"
 
-#: src/parleyactions.cpp:192
+#: src/parleyactions.cpp:197
 #, fuzzy
 msgid "Share the current vocabulary collection with other users"
 msgstr "Stoor die huidige dokument"
@@ -1759,7 +1767,7 @@ msgid "Statistics Toolbar"
 msgstr "Vertoon Statistieke"
 
 #. i18n: ectx: ToolBar (practiceSummaryToolBar)
-#: src/parleyui.rc:43 src/practice/practicesummaryui.rc:19
+#: src/parleyui.rc:43 src/practice/practicesummaryui.rc:20
 #, fuzzy
 #| msgid "Article"
 msgid "Practice Summary Toolbar"
@@ -2060,13 +2068,13 @@ msgid ""
 "This shortcut changes how the answer is counted."
 msgstr ""
 
-#: src/practice/practicesummarycomponent.cpp:60
+#: src/practice/practicesummarycomponent.cpp:66
 #, kde-format
 msgctxt "number of words, minutes, seconds"
 msgid "You practiced %1 in %2 and %3."
 msgstr ""
 
-#: src/practice/practicesummarycomponent.cpp:61
+#: src/practice/practicesummarycomponent.cpp:67
 #, fuzzy, kde-format
 #| msgid "Enter the word:"
 msgid "one word"
@@ -2074,7 +2082,7 @@ msgid_plural "%1 words"
 msgstr[0] "Invoer die woord:"
 msgstr[1] "Invoer die woord:"
 
-#: src/practice/practicesummarycomponent.cpp:62
+#: src/practice/practicesummarycomponent.cpp:68
 #, fuzzy, kde-format
 #| msgid "Contained In"
 msgid "one minute"
@@ -2082,7 +2090,7 @@ msgid_plural "%1 minutes"
 msgstr[0] "Versamel In"
 msgstr[1] "Versamel In"
 
-#: src/practice/practicesummarycomponent.cpp:63
+#: src/practice/practicesummarycomponent.cpp:69
 #, fuzzy, kde-format
 #| msgid "&Append Language"
 msgid "one second"
@@ -2090,11 +2098,73 @@ msgid_plural "%1 seconds"
 msgstr[0] "Voeg-agteraan-by Taal"
 msgstr[1] "Voeg-agteraan-by Taal"
 
-#: src/practice/practicesummarycomponent.cpp:79
-#: src/practice/practicesummarycomponent.cpp:80
+#: src/practice/practicesummarycomponent.cpp:86
+#: src/practice/practicesummarycomponent.cpp:87
 #, fuzzy
 msgid "Practice Again"
 msgstr "Aansig Opsies"
+
+#: src/practice/practicesummarycomponent.cpp:156
+msgid "HTML Files"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:156
+#, fuzzy
+#| msgid "Document Properties"
+msgid "OpenDocument text files"
+msgstr "Dokument Eienskappe"
+
+#: src/practice/practicesummarycomponent.cpp:164
+#, fuzzy
+#| msgid "Not Queried Yet"
+msgid "Practice results"
+msgstr "Nie Bevraag Nog"
+
+#: src/practice/practicesummarycomponent.cpp:169
+#, kde-format
+msgid "Answered questions: %1\n"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:170
+#, kde-format
+msgid "Correct answers: %1\n"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:171
+#, fuzzy, kde-format
+#| msgid "&Wrong:"
+msgid "Wrong answers: %1\n"
+msgstr "Verkeerde:"
+
+#: src/practice/practicesummarycomponent.cpp:178
+msgid "<b>Attempts</b>"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:179
+#, fuzzy
+#| msgid "Question"
+msgid "<b>Question</b>"
+msgstr "Vraag"
+
+#: src/practice/practicesummarycomponent.cpp:180
+msgid "<b>Correct answer</b>"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:181
+msgid "<b>Your errors</b>"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:195
+#, fuzzy, kde-format
+#| msgid "Could not read "
+msgid "Could not write to %1"
+msgstr "Kon nie lees "
+
+#: src/practice/practicesummarycomponent.cpp:196
+#, fuzzy
+#| msgid "Could not read "
+msgid "Could not write file"
+msgstr "Kon nie lees "
 
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: src/practice/practicesummarywidget.ui:28
@@ -4132,11 +4202,6 @@ msgstr ""
 #~ msgstr[0] "Artikel"
 #~ msgstr[1] "Artikel"
 
-#, fuzzy
-#~| msgid "Not Queried Yet"
-#~ msgid "Your practice result:"
-#~ msgstr "Nie Bevraag Nog"
-
 #~ msgid "without name"
 #~ msgstr "sonder om te naam"
 
@@ -4324,11 +4389,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Total:"
 #~ msgstr "Manlik:"
-
-#, fuzzy
-#~| msgid "&Wrong:"
-#~ msgid "Wrong answer:"
-#~ msgstr "Verkeerde:"
 
 #, fuzzy
 #~| msgid "S&kip"
@@ -5369,9 +5429,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Delete subtype"
 #~ msgstr "Voeg-agteraan-by Nuwe Inskrywing"
-
-#~ msgid "Document Properties"
-#~ msgstr "Dokument Eienskappe"
 
 #, fuzzy
 #~| msgid "&Stop Query"
