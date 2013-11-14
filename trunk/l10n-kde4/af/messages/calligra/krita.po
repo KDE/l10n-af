@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-13 01:23+0000\n"
+"POT-Creation-Date: 2013-11-14 01:22+0000\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1831,8 +1831,8 @@ msgstr ""
 #: plugins/paintops/libpaintop/sensors/SensorDistanceConfiguration.ui:85
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:57
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:83
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:141
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:164
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:161
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:184
 msgid "px"
 msgstr ""
 
@@ -3428,7 +3428,7 @@ msgstr "Keuse"
 #: plugins/extensions/separate_channels/imageseparate.rc:4
 #: plugins/paintops/experiment/wdgshapeoptions.ui:80
 #: plugins/paintops/spray/wdgshapeoptions.ui:80
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:212
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:232
 #, fuzzy
 msgid "Image"
 msgstr "Beeld"
@@ -3436,7 +3436,7 @@ msgstr "Beeld"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
 #. i18n: ectx: Menu (Layer)
 #: plugins/extensions/imagesize/imagesize.rc:9
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:207
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:227
 msgid "Layer"
 msgstr "Laag"
 
@@ -3450,7 +3450,7 @@ msgstr "Gekoppel"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, intWidth)
 #: plugins/extensions/imagesize/wdg_canvassize.ui:53
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:138
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:158
 #, fuzzy
 msgid "Width"
 msgstr "Wydte:"
@@ -3458,7 +3458,7 @@ msgstr "Wydte:"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, intHeight)
 #: plugins/extensions/imagesize/wdg_canvassize.ui:73
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:161
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:181
 #, fuzzy
 msgid "Height"
 msgstr "Hoogte:"
@@ -4134,7 +4134,7 @@ msgstr "Gradiënt:"
 #: plugins/extensions/metadataeditor/editors/exif.ui:666
 #: plugins/formats/tiff/kis_wdg_options_tiff.ui:66
 #: plugins/formats/tiff/kis_wdg_options_tiff.ui:138
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:248
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:268
 msgid "None"
 msgstr "Geen"
 
@@ -9565,7 +9565,7 @@ msgstr "Keuse"
 msgid "Select similar colors"
 msgstr "Keuse Nutsprogramme"
 
-#: plugins/tools/tool_crop/kis_tool_crop.h:200
+#: plugins/tools/tool_crop/kis_tool_crop.h:195
 msgid "Crop the image to an area"
 msgstr ""
 
@@ -9585,57 +9585,85 @@ msgstr "Driehoekvormige Golf"
 msgid "Vertical Position"
 msgstr "Driehoekvormige Golf"
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, boolCenter)
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:95
+msgid "resize keeping center fixed"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, boolCenter)
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:98
+#, fuzzy
+msgid "center"
+msgstr "Hoeke:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, boolGrow)
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:105
+msgid "allow growing the image by dragging outside bounds of the image"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, boolGrow)
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:108
+msgid "grow"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolWidth)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:128
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:148
 msgid "Will keep the width of the crop constant"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolHeight)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:151
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:171
 msgid "Will keep the height of the crop constant"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KDoubleNumInput, doubleRatio)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:174
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:194
 #, fuzzy
 msgid "Ratio"
 msgstr "Herhaal:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolRatio)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:184
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:204
 msgid "Will keep the ratio constant"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnCrop)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:220
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:240
 msgid "&Crop"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:227
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:247
 msgid "Applies to:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:237
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:257
 #, fuzzy
 msgid "Decoration:"
 msgstr "Versadiging"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:253
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:273
 msgid "Thirds"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:258
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:278
 msgid "Fifths"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:263
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:283
 msgid "Passport photo"
 msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:288
+#: ui/dialogs/kis_dlg_preferences.cc:97
+#, fuzzy
+msgid "Crosshair"
+msgstr "Spasiëring: "
 
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:46
 msgctxt "(qtundo-format)"
@@ -10014,11 +10042,6 @@ msgstr "Laag Eienskappe..."
 #, fuzzy
 msgid "Tool Icon"
 msgstr "Patroon"
-
-#: ui/dialogs/kis_dlg_preferences.cc:97
-#, fuzzy
-msgid "Crosshair"
-msgstr "Spasiëring: "
 
 #: ui/dialogs/kis_dlg_preferences.cc:98
 msgid "Arrow"
@@ -14214,10 +14237,6 @@ msgstr "Kleur Kieser"
 #, fuzzy
 #~ msgid "Near center:"
 #~ msgstr "Boonste Huidige %1"
-
-#, fuzzy
-#~ msgid "Center:"
-#~ msgstr "Hoeke:"
 
 #, fuzzy
 #~ msgid "Brightness correction:"
