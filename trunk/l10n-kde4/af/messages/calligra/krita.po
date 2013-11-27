@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-26 01:23+0000\n"
+"POT-Creation-Date: 2013-11-27 01:26+0000\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1256,26 +1256,26 @@ msgid "Dilate Selection"
 msgstr "Keuse"
 
 #: image/kis_selection_filters.cpp:254
-#: plugins/extensions/modify_selection/dlg_border_selection.cc:26
+#: plugins/extensions/modify_selection/dlg_border_selection.cc:31
 #, fuzzy
 msgid "Border Selection"
 msgstr "Verwyder Keuse"
 
 #: image/kis_selection_filters.cpp:473
-#: plugins/extensions/modify_selection/dlg_feather_selection.cc:27
+#: plugins/extensions/modify_selection/dlg_feather_selection.cc:31
 #, fuzzy
 #| msgid "Selection"
 msgid "Feather Selection"
 msgstr "Keuse"
 
 #: image/kis_selection_filters.cpp:521
-#: plugins/extensions/modify_selection/dlg_grow_selection.cc:27
+#: plugins/extensions/modify_selection/dlg_grow_selection.cc:31
 #, fuzzy
 msgid "Grow Selection"
 msgstr "Verwyder Keuse"
 
 #: image/kis_selection_filters.cpp:648
-#: plugins/extensions/modify_selection/dlg_shrink_selection.cc:26
+#: plugins/extensions/modify_selection/dlg_shrink_selection.cc:31
 #, fuzzy
 msgid "Shrink Selection"
 msgstr "Keuse"
@@ -4393,41 +4393,32 @@ msgstr "Keuse"
 msgid "Smooth"
 msgstr "Lyn dikheid:"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_border_selection.ui:19
+#. i18n: ectx: property (text), widget (QLabel, lblWidth)
+#: plugins/extensions/modify_selection/wdg_border_selection.ui:110
 #, fuzzy
-msgid "Border selection by"
-msgstr "Verwyder Keuse"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox1)
-#: plugins/extensions/modify_selection/wdg_border_selection.ui:40
-#: plugins/extensions/modify_selection/wdg_feather_selection.ui:31
-#: plugins/extensions/modify_selection/wdg_grow_selection.ui:31
-#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:40
-#, fuzzy
-msgid "pixels"
-msgstr "Beeld"
+msgid "Border width:"
+msgstr "Wydte:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_feather_selection.ui:39
+#: plugins/extensions/modify_selection/wdg_feather_selection.ui:17
 #, fuzzy
-msgid "Feather selection by"
-msgstr "Keuse"
+msgid "Feather radius:"
+msgstr "Kleur Kieser"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_grow_selection.ui:39
+#: plugins/extensions/modify_selection/wdg_grow_selection.ui:20
 #, fuzzy
-msgid "Grow selection by"
-msgstr "Verwyder Keuse"
+msgid "Grow by"
+msgstr "Blou"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:19
+#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:65
 #, fuzzy
-msgid "Shrink selection by"
-msgstr "Verwyder Keuse"
+msgid "Shrink by"
+msgstr "Skerpheid:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, shrinkFromImageBorderCheckBox)
-#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, ckbShrinkFromImageBorder)
+#: plugins/extensions/modify_selection/wdg_shrink_selection.ui:123
 msgid "Shrink from image border"
 msgstr ""
 
@@ -12905,6 +12896,26 @@ msgstr "Kleur Kieser"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Kleur Kieser"
+
+#, fuzzy
+#~ msgid "Border selection by"
+#~ msgstr "Verwyder Keuse"
+
+#, fuzzy
+#~ msgid "pixels"
+#~ msgstr "Beeld"
+
+#, fuzzy
+#~ msgid "Feather selection by"
+#~ msgstr "Keuse"
+
+#, fuzzy
+#~ msgid "Grow selection by"
+#~ msgstr "Verwyder Keuse"
+
+#, fuzzy
+#~ msgid "Shrink selection by"
+#~ msgstr "Verwyder Keuse"
 
 #, fuzzy
 #~ msgid "Percent"
