@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-22 01:28+0000\n"
+"POT-Creation-Date: 2014-02-23 01:33+0000\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -965,7 +965,7 @@ msgctxt "(qtundo-format)"
 msgid "Set Image Resolution"
 msgstr "Herstel Knoppie"
 
-#: image/commands_new/kis_node_move_command2.cpp:32
+#: image/commands_new/kis_move_command_common.h:40
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Move"
@@ -1137,86 +1137,91 @@ msgstr ""
 msgid "Mitchell"
 msgstr ""
 
-#: image/kis_image.cc:282
+#: image/kis_image.cc:283
 msgid "background"
 msgstr "agtergrond"
 
-#: image/kis_image.cc:285
+#: image/kis_image.cc:286
 #, fuzzy, kde-format
 msgid "Layer %1"
 msgstr "laag %1"
 
-#: image/kis_image.cc:421
+#: image/kis_image.cc:422
 #, fuzzy
 msgid "Crop Image"
 msgstr "Stoor Laag as Beeld..."
 
-#: image/kis_image.cc:421
+#: image/kis_image.cc:422
 #, fuzzy
 msgid "Resize Image"
 msgstr "Verwyder Beeld"
 
-#: image/kis_image.cc:454
+#: image/kis_image.cc:455
 #, fuzzy
 msgid "Crop Node"
 msgstr "Opvuller Program"
 
-#: image/kis_image.cc:481
+#: image/kis_image.cc:482
 #, fuzzy
 msgid "Scale Image"
 msgstr "Nuwe Beeld"
 
-#: image/kis_image.cc:481
+#: image/kis_image.cc:482
 #, fuzzy
 msgid "Change Image Resolution"
 msgstr "Herstel Knoppie"
 
-#: image/kis_image.cc:528
+#: image/kis_image.cc:529
 #, fuzzy
 msgid "Scale Layer"
 msgstr "Voeg by Laag..."
 
-#: image/kis_image.cc:622 plugins/extensions/rotateimage/rotateimage.cc:155
+#: image/kis_image.cc:623 plugins/extensions/rotateimage/rotateimage.cc:155
 #, fuzzy
 msgid "Rotate Layer"
 msgstr "Verwyder Laag"
 
-#: image/kis_image.cc:689
+#: image/kis_image.cc:690
 #, fuzzy
 msgid "Shear layer"
 msgstr "Voeg by Laag..."
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
-#: image/kis_image.cc:695 plugins/extensions/shearimage/dlg_shearimage.cc:32
+#: image/kis_image.cc:696 plugins/extensions/shearimage/dlg_shearimage.cc:32
 #: plugins/extensions/shearimage/shearimage.cc:64
 #: plugins/extensions/shearimage/wdg_shearimage.ui:14
 #, fuzzy
 msgid "Shear Image"
 msgstr "Nuwe Beeld"
 
-#: image/kis_image.cc:708
+#: image/kis_image.cc:709
 #, fuzzy
 msgid "Convert Image Color Space"
 msgstr "Voeg by Beeld as Laag..."
 
-#: image/kis_image.cc:741
+#: image/kis_image.cc:742
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:920 ui/kis_layer_manager.cc:710
+#: image/kis_image.cc:921 ui/kis_layer_manager.cc:710
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: image/kis_image.cc:1020
+#: image/kis_image.cc:1021
 #, fuzzy
 msgid "Merge with Layer Below"
 msgstr "Saamvlans Alle Lae"
 
-#: image/kis_image.cc:1066
+#: image/kis_image.cc:1067
 #, fuzzy
 msgid "Flatten Layer"
 msgstr "Herbenaam Beeld..."
+
+#: image/kis_image.cc:1623
+#, fuzzy
+msgid "Crop Selections"
+msgstr "Verwyder Keuse"
 
 #. i18n: ectx: property (text), widget (QCheckBox, opacityCBox)
 #: image/kis_layer.cc:174 plugins/paintops/hairy/wdghairyeoptions.ui:297
@@ -9443,7 +9448,7 @@ msgid "Select a polygonal region"
 msgstr "Kleur Wisselaar"
 
 #: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:42
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:98
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:88
 #, fuzzy
 msgid "Rectangular Selection"
 msgstr "Vierkantige Kies"
@@ -9866,7 +9871,7 @@ msgstr "Plak Program"
 msgid "Convert to Vector Selection"
 msgstr "Verwyder Keuse"
 
-#: ui/canvas/kis_canvas_controller.cpp:185
+#: ui/canvas/kis_canvas_controller.cpp:184
 msgid ""
 "You are activating wrap-around mode, but have not enabled OpenGL.\n"
 "To visualize wrap-around mode, enable OpenGL."
