@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-23 01:44+0000\n"
+"POT-Creation-Date: 2014-03-24 01:37+0000\n"
 "PO-Revision-Date: 2005-11-25 11:24+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -83,7 +83,7 @@ msgstr "Stop"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
 #: completion/katecompletionmodel.cpp:1334
-#: dialogs/commandmenuconfigwidget.ui:22 dialogs/katedialogs.cpp:1048
+#: dialogs/commandmenuconfigwidget.ui:22 dialogs/katedialogs.cpp:1077
 msgid "Name"
 msgstr "Naam"
 
@@ -283,7 +283,7 @@ msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbBorders)
-#: dialogs/bordersappearanceconfigwidget.ui:9 dialogs/katedialogs.cpp:624
+#: dialogs/bordersappearanceconfigwidget.ui:9 dialogs/katedialogs.cpp:653
 #, fuzzy
 #| msgid "Borders"
 msgid "Borders"
@@ -434,7 +434,7 @@ msgid "Scrollbars visibility:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:168 dialogs/katedialogs.cpp:628
+#: dialogs/bordersappearanceconfigwidget.ui:168 dialogs/katedialogs.cpp:657
 msgid "Always On"
 msgstr "Altyd Aan"
 
@@ -490,8 +490,8 @@ msgstr "Deur posisie"
 #. i18n: ectx: property (text), widget (QTableWidget, tblNormalModeMappings)
 #. i18n: ectx: property (text), widget (QTableWidget, tblInsertModeMappings)
 #. i18n: ectx: property (text), widget (QTableWidget, tblVisualModeMappings)
-#: dialogs/commandmenuconfigwidget.ui:27 vimode/viinputmodeconfigwidget.ui:105
-#: vimode/viinputmodeconfigwidget.ui:143 vimode/viinputmodeconfigwidget.ui:181
+#: dialogs/commandmenuconfigwidget.ui:27 vimode/viinputmodeconfigwidget.ui:95
+#: vimode/viinputmodeconfigwidget.ui:133 vimode/viinputmodeconfigwidget.ui:171
 #, fuzzy
 #| msgid "Comment"
 msgid "Command"
@@ -585,8 +585,8 @@ msgstr "Patroon:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
-#: dialogs/completionconfigtab.ui:12 dialogs/katedialogs.cpp:507
-#: dialogs/katedialogs.cpp:620 dialogs/katedialogs.cpp:807
+#: dialogs/completionconfigtab.ui:12 dialogs/katedialogs.cpp:519
+#: dialogs/katedialogs.cpp:649 dialogs/katedialogs.cpp:836
 #: vimode/viinputmodeconfigwidget.ui:29
 msgid "General"
 msgstr ""
@@ -855,9 +855,21 @@ msgstr ""
 "As die Woord Oorvloei opsie is gekose hierdie inskrywing bepaal die lengte "
 "(in karakters) na wat die redigeerder sal automaties begin 'n nuwe lyn."
 
+#. i18n: ectx: property (title), widget (QGroupBox, gbInputMode)
+#: dialogs/editconfigwidget.ui:87
+msgid "InputMode"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblInputMode)
+#: dialogs/editconfigwidget.ui:93
+#, fuzzy
+#| msgid "&Indentation mode:"
+msgid "Default input mode"
+msgstr "Inkeping module:"
+
 #. i18n: ectx: property (title), widget (QGroupBox, gbMisc)
 #. i18n: ectx: property (title), widget (QGroupBox, cbNavigationMisc)
-#: dialogs/editconfigwidget.ui:87 dialogs/navigationconfigwidget.ui:84
+#: dialogs/editconfigwidget.ui:119 dialogs/navigationconfigwidget.ui:84
 #, fuzzy
 #| msgctxt "Language"
 #| msgid "Cisco"
@@ -865,7 +877,7 @@ msgid "Misc"
 msgstr "Cisco"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSmartCopyCut)
-#: dialogs/editconfigwidget.ui:93
+#: dialogs/editconfigwidget.ui:125
 msgid "Copy/Cut the current line if no selection"
 msgstr ""
 
@@ -899,7 +911,7 @@ msgid "Delete the current file type."
 msgstr "Verwyder die huidige lêer tipe."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDelete)
-#: dialogs/filetypeconfigwidget.ui:44 schema/kateschemaconfig.cpp:931
+#: dialogs/filetypeconfigwidget.ui:44 schema/kateschemaconfig.cpp:930
 #, fuzzy
 msgid "&Delete"
 msgstr "Gekose"
@@ -1228,191 +1240,191 @@ msgstr ""
 msgid "Increase indentation level if in l&eading blank space"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:200 dialogs/katedialogs.cpp:203
+#: dialogs/katedialogs.cpp:201 dialogs/katedialogs.cpp:204
 #, fuzzy
 #| msgid "Character"
 msgctxt "spinbox special value for 1"
 msgid "1 character"
 msgstr "Karakter"
 
-#: dialogs/katedialogs.cpp:201 dialogs/katedialogs.cpp:204
+#: dialogs/katedialogs.cpp:202 dialogs/katedialogs.cpp:205
 #, fuzzy
 #| msgid "Character"
 msgctxt "suffix for spinbox >1"
 msgid " characters"
 msgstr "Karakter"
 
-#: dialogs/katedialogs.cpp:231
+#: dialogs/katedialogs.cpp:232
 msgid "Indentation"
 msgstr "Inkeping"
 
-#: dialogs/katedialogs.cpp:301
+#: dialogs/katedialogs.cpp:302
 #, fuzzy
 #| msgid "Word Completion Plugin"
 msgid "Auto Completion"
 msgstr "Woord Klaarmaak Inprop"
 
-#: dialogs/katedialogs.cpp:365
+#: dialogs/katedialogs.cpp:366
 msgid "Spellcheck"
 msgstr "Spelltoetser"
 
-#: dialogs/katedialogs.cpp:441
+#: dialogs/katedialogs.cpp:442
 #, fuzzy
 #| msgctxt "Language Section"
 #| msgid "Configuration"
 msgid "Text Navigation"
 msgstr "Konfigurasie"
 
-#: dialogs/katedialogs.cpp:500
+#: dialogs/katedialogs.cpp:509
 #, fuzzy
 #| msgid "Character"
 msgctxt "suffix for spinbox >1 wrap words at (value is at 20 or larger)"
 msgid " characters"
 msgstr "Karakter"
 
-#: dialogs/katedialogs.cpp:592 script/data/commands/utils.js:330
+#: dialogs/katedialogs.cpp:621 script/data/commands/utils.js:330
 msgid "Editing"
 msgstr "Redigering"
 
-#: dialogs/katedialogs.cpp:597
+#: dialogs/katedialogs.cpp:626
 msgid "Editing Options"
 msgstr "Redigering Opsies"
 
-#: dialogs/katedialogs.cpp:626
+#: dialogs/katedialogs.cpp:655
 #, fuzzy
 msgid "Off"
 msgstr "Af"
 
-#: dialogs/katedialogs.cpp:627
+#: dialogs/katedialogs.cpp:656
 msgid "Follow Line Numbers"
 msgstr "Volg Lyn nommers"
 
-#: dialogs/katedialogs.cpp:737 dialogs/katedialogs.cpp:742
+#: dialogs/katedialogs.cpp:766 dialogs/katedialogs.cpp:771
 #, fuzzy
 msgid "Appearance"
 msgstr "Boonste kas"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/katedialogs.cpp:808 dialogs/textareaappearanceconfigwidget.ui:102
+#: dialogs/katedialogs.cpp:837 dialogs/textareaappearanceconfigwidget.ui:102
 msgid "Advanced"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:863
+#: dialogs/katedialogs.cpp:892
 msgid ""
 "You did not provide a backup suffix or prefix. Using default suffix: '~'"
 msgstr ""
 "Jy het nie 'n terugvalkopie voorvoegsel of agtervoegsel gegee nie. Gebruik "
 "verstek agtervoegsel: '~'"
 
-#: dialogs/katedialogs.cpp:864
+#: dialogs/katedialogs.cpp:893
 msgid "No Backup Suffix or Prefix"
 msgstr "Geen terugvalkopie Voorvoegstel of agtervoegsel"
 
-#: dialogs/katedialogs.cpp:875
+#: dialogs/katedialogs.cpp:904
 msgid ""
 "Selected directory for swap file storage does not exist. Do you want to "
 "create it?"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:876
+#: dialogs/katedialogs.cpp:905
 msgid "Missing Swap File Directory"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:933
+#: dialogs/katedialogs.cpp:962
 msgid "KDE Default"
 msgstr "KDE Verstek"
 
-#: dialogs/katedialogs.cpp:1017
+#: dialogs/katedialogs.cpp:1046
 msgid "Open/Save"
 msgstr "Open/Stoor"
 
-#: dialogs/katedialogs.cpp:1022
+#: dialogs/katedialogs.cpp:1051
 msgid "File Opening & Saving"
 msgstr "Lêer oopmaak en Stoor"
 
-#: dialogs/katedialogs.cpp:1036
+#: dialogs/katedialogs.cpp:1065
 msgid "Highlight Download"
 msgstr "Verlig Aflaai"
 
-#: dialogs/katedialogs.cpp:1043
+#: dialogs/katedialogs.cpp:1072
 msgid "Select the syntax highlighting files you want to update:"
 msgstr "Kies die syntaks verligting lêers wat jy wil opdateer:"
 
-#: dialogs/katedialogs.cpp:1048
+#: dialogs/katedialogs.cpp:1077
 msgid "Installed"
 msgstr "Geïnstalleer"
 
-#: dialogs/katedialogs.cpp:1048
+#: dialogs/katedialogs.cpp:1077
 msgid "Latest"
 msgstr "Nuutste"
 
-#: dialogs/katedialogs.cpp:1055
+#: dialogs/katedialogs.cpp:1084
 msgid "<b>Note:</b> New versions are selected automatically."
 msgstr "<b>Nota:</b> Nuwe uitgawens word outomaties gekies."
 
-#: dialogs/katedialogs.cpp:1062
+#: dialogs/katedialogs.cpp:1091
 msgid "&Install"
 msgstr "Installeer"
 
-#: dialogs/katedialogs.cpp:1105
+#: dialogs/katedialogs.cpp:1134
 msgid ""
 "The list of highlightings could not be found on / retrieved from the server"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1213
+#: dialogs/katedialogs.cpp:1242
 msgid "&Go to line:"
 msgstr "Gaan na lyn:"
 
-#: dialogs/katedialogs.cpp:1219
+#: dialogs/katedialogs.cpp:1248
 msgid "Go"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1281
+#: dialogs/katedialogs.cpp:1310
 #, fuzzy
 #| msgid "&Section:"
 msgid "Dictionary:"
 msgstr "Seksie:"
 
-#: dialogs/katedialogs.cpp:1329
+#: dialogs/katedialogs.cpp:1358
 msgid "File Was Deleted on Disk"
 msgstr "Lêer het verwyder op Disket"
 
-#: dialogs/katedialogs.cpp:1330
+#: dialogs/katedialogs.cpp:1359
 msgid "&Save File As..."
 msgstr "Stoor Lêer as..."
 
-#: dialogs/katedialogs.cpp:1332
+#: dialogs/katedialogs.cpp:1361
 msgid "Lets you select a location and save the file again."
 msgstr "Laat you kies 'n area en stoor die lêer weer."
 
-#: dialogs/katedialogs.cpp:1334
+#: dialogs/katedialogs.cpp:1363
 msgid "File Changed on Disk"
 msgstr "Lêer het verander op Disket"
 
-#: dialogs/katedialogs.cpp:1335 document/katedocument.cpp:3927
+#: dialogs/katedialogs.cpp:1364 document/katedocument.cpp:3938
 msgid "&Reload File"
 msgstr "Herlaai Lêer"
 
-#: dialogs/katedialogs.cpp:1337
+#: dialogs/katedialogs.cpp:1366
 msgid ""
 "Reload the file from disk. If you have unsaved changes, they will be lost."
 msgstr ""
 "Herlaai die lêer van skyf. As jy nie die veranderinge gestoor het nie, sal "
 "hulle weg wees."
 
-#: dialogs/katedialogs.cpp:1351 document/katedocument.cpp:3925
+#: dialogs/katedialogs.cpp:1380 document/katedocument.cpp:3936
 msgid "What do you want to do?"
 msgstr "Wat wil jy doen?"
 
-#: dialogs/katedialogs.cpp:1362 document/katedocument.cpp:3928
+#: dialogs/katedialogs.cpp:1391 document/katedocument.cpp:3939
 msgid "&Ignore Changes"
 msgstr "Ignoreer Veranderinge"
 
-#: dialogs/katedialogs.cpp:1363
+#: dialogs/katedialogs.cpp:1392
 msgid "Ignore the changes. You will not be prompted again."
 msgstr "Ignoreer die veranderings. Jy sal nie weer gepor word nie."
 
-#: dialogs/katedialogs.cpp:1369
+#: dialogs/katedialogs.cpp:1398
 msgid ""
 "Do nothing. Next time you focus the file, or try to save it or close it, you "
 "will be prompted again."
@@ -1420,11 +1432,11 @@ msgstr ""
 "Doen niks. Die volgende keer wat jy op hierdie lêer fokus, of probeer om dit "
 "te stoor of dit toe te maak sal jy weer gepor word."
 
-#: dialogs/katedialogs.cpp:1378
+#: dialogs/katedialogs.cpp:1407
 msgid "Overwrite the disk file with the editor content."
 msgstr "Oorskryf die disket lêer met die redigeerder inhoud."
 
-#: dialogs/katedialogs.cpp:1452 swapfile/kateswapdiffcreator.cpp:137
+#: dialogs/katedialogs.cpp:1481 swapfile/kateswapdiffcreator.cpp:137
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
@@ -1432,24 +1444,24 @@ msgstr ""
 "Die verskil opdrag het gevaal. Maak asseblief seker dat verskil(1) is "
 "installeer en in jou PATH."
 
-#: dialogs/katedialogs.cpp:1454 swapfile/kateswapdiffcreator.cpp:139
+#: dialogs/katedialogs.cpp:1483 swapfile/kateswapdiffcreator.cpp:139
 msgid "Error Creating Diff"
 msgstr "Fout by maak van Verskil"
 
-#: dialogs/katedialogs.cpp:1463 swapfile/kateswapdiffcreator.cpp:147
+#: dialogs/katedialogs.cpp:1492 swapfile/kateswapdiffcreator.cpp:147
 msgid "The files are identical."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1464 dialogs/katedialogs.cpp:1468
+#: dialogs/katedialogs.cpp:1493 dialogs/katedialogs.cpp:1497
 #: swapfile/kateswapdiffcreator.cpp:148
 msgid "Diff Output"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1467
+#: dialogs/katedialogs.cpp:1496
 msgid "Ignoring amount of white space changed, the files are identical."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1492
+#: dialogs/katedialogs.cpp:1521
 msgid ""
 "Ignoring means that you will not be warned again (unless the disk file "
 "changes once more): if you save the document, you will overwrite the file on "
@@ -1460,7 +1472,7 @@ msgstr ""
 "op die skyf; as jy dan nie stoor nie, is die skyf lêer (indien teenwoordig) "
 "wat jy het."
 
-#: dialogs/katedialogs.cpp:1496
+#: dialogs/katedialogs.cpp:1525
 msgid "You Are on Your Own"
 msgstr "Jy Is op Jou Eie"
 
@@ -1564,7 +1576,7 @@ msgid "Text selection mode:"
 msgstr "Kiesing Module"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbTextSelectionMode)
-#: dialogs/navigationconfigwidget.ui:103 view/kateview.cpp:1170
+#: dialogs/navigationconfigwidget.ui:103 inputmode/katenormalinputmode.cpp:82
 #, fuzzy
 #| msgid "Normal"
 msgid "Normal"
@@ -1906,7 +1918,7 @@ msgid "Append newline at end of file on save"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, gbWordWrap)
-#: dialogs/textareaappearanceconfigwidget.ui:9 view/kateview.cpp:530
+#: dialogs/textareaappearanceconfigwidget.ui:9 view/kateview.cpp:521
 msgid ""
 "If this option is checked, the text lines will be wrapped at the view border "
 "on the screen."
@@ -1915,7 +1927,7 @@ msgstr ""
 "besigtig grens op die skerm."
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbWordWrap)
-#: dialogs/textareaappearanceconfigwidget.ui:12 view/kateview.cpp:527
+#: dialogs/textareaappearanceconfigwidget.ui:12 view/kateview.cpp:518
 msgid "&Dynamic Word Wrap"
 msgstr "Dinamiese Woord Oorvloei"
 
@@ -2065,7 +2077,7 @@ msgstr "Nuwe Lêertipe"
 msgid "The file %1 does not exist."
 msgstr ""
 
-#: document/katedocument.cpp:2046
+#: document/katedocument.cpp:2062
 #, fuzzy, kde-format
 #| msgid ""
 #| "The file %1 could not be loaded, as it was not possible to read from it.\n"
@@ -2080,20 +2092,20 @@ msgstr ""
 "\n"
 "Kyk of jy lees toegang tot hierdie lêer het."
 
-#: document/katedocument.cpp:2049
+#: document/katedocument.cpp:2065
 msgctxt "translators: you can also translate 'Try Again' with 'Reload'"
 msgid "Try Again"
 msgstr ""
 
-#: document/katedocument.cpp:2052 document/katedocument.cpp:5651
+#: document/katedocument.cpp:2068 document/katedocument.cpp:5614
 msgid "&Close"
 msgstr ""
 
-#: document/katedocument.cpp:2053 document/katedocument.cpp:5652
+#: document/katedocument.cpp:2069 document/katedocument.cpp:5615
 msgid "Close message"
 msgstr ""
 
-#: document/katedocument.cpp:2064
+#: document/katedocument.cpp:2080
 #, kde-format
 msgid ""
 "The file %1 could not be loaded, as it was not possible to read from it.\n"
@@ -2105,7 +2117,7 @@ msgstr ""
 "\n"
 "Kyk of jy lees toegang tot hierdie lêer het."
 
-#: document/katedocument.cpp:2184
+#: document/katedocument.cpp:2200
 #, kde-format
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters."
@@ -2114,7 +2126,7 @@ msgid ""
 "write mode again in the menu to be able to edit it."
 msgstr ""
 
-#: document/katedocument.cpp:2194
+#: document/katedocument.cpp:2210
 #, kde-format
 msgid ""
 "The file %1 was opened with %2 encoding but contained invalid characters. It "
@@ -2123,7 +2135,7 @@ msgid ""
 "again in the menu to be able to edit it."
 msgstr ""
 
-#: document/katedocument.cpp:2205
+#: document/katedocument.cpp:2221
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2132,15 +2144,15 @@ msgid ""
 "only mode, as saving will modify its content."
 msgstr ""
 
-#: document/katedocument.cpp:2210
+#: document/katedocument.cpp:2226
 msgid "Temporarily raise limit and reload file"
 msgstr ""
 
-#: document/katedocument.cpp:2213
+#: document/katedocument.cpp:2229
 msgid "Close"
 msgstr ""
 
-#: document/katedocument.cpp:2219
+#: document/katedocument.cpp:2235
 #, kde-format
 msgid ""
 "The file %1 was opened and contained lines longer than the configured Line "
@@ -2149,7 +2161,7 @@ msgid ""
 "only mode, as saving will modify its content."
 msgstr ""
 
-#: document/katedocument.cpp:2241
+#: document/katedocument.cpp:2257
 msgid ""
 "Do you really want to save this unmodified file? You could overwrite changed "
 "data in the file on disk."
@@ -2157,16 +2169,16 @@ msgstr ""
 "Wil jy regtig hierdie onmodifiseerde lêer stoor? Jy kan oorskryf veranderde "
 "data in die lêer op die skyf."
 
-#: document/katedocument.cpp:2241
+#: document/katedocument.cpp:2257
 msgid "Trying to Save Unmodified File"
 msgstr "Probeer om onveranderde Lêer te stoor"
 
-#: document/katedocument.cpp:2241 document/katedocument.cpp:2246
-#: document/katedocument.cpp:2258
+#: document/katedocument.cpp:2257 document/katedocument.cpp:2262
+#: document/katedocument.cpp:2274
 msgid "Save Nevertheless"
 msgstr "Stoor nogsteeds"
 
-#: document/katedocument.cpp:2246
+#: document/katedocument.cpp:2262
 msgid ""
 "Do you really want to save this file? Both your open file and the file on "
 "disk were changed. There could be some data lost."
@@ -2174,12 +2186,12 @@ msgstr ""
 "Wil jy regtig hierdie lêer stoor? Beide you geopende lêer en die lêer op die "
 "skyf was verander. Daar kan sommige data verlies wees."
 
-#: document/katedocument.cpp:2246 document/katedocument.cpp:2258
-#: document/katedocument.cpp:2500
+#: document/katedocument.cpp:2262 document/katedocument.cpp:2274
+#: document/katedocument.cpp:2516
 msgid "Possible Data Loss"
 msgstr "Moontlike Data Verlies"
 
-#: document/katedocument.cpp:2258
+#: document/katedocument.cpp:2274
 msgid ""
 "The selected encoding cannot encode every unicode character in this "
 "document. Do you really want to save it? There could be some data lost."
@@ -2187,7 +2199,7 @@ msgstr ""
 "Die verkose enkodering van nie enkodeer elke unikode karakter in hierdie "
 "dokument. Wil jy dit werklik stoor? Daar kan somige data verlies wees."
 
-#: document/katedocument.cpp:2325
+#: document/katedocument.cpp:2341
 #, kde-format
 msgid ""
 "For file %1 no backup copy could be created before saving. If an error "
@@ -2196,16 +2208,16 @@ msgid ""
 "only for you."
 msgstr ""
 
-#: document/katedocument.cpp:2328
+#: document/katedocument.cpp:2344
 msgid "Failed to create backup copy."
 msgstr ""
 
-#: document/katedocument.cpp:2329
+#: document/katedocument.cpp:2345
 #, fuzzy
 msgid "Try to Save Nevertheless"
 msgstr "Stoor nogsteeds"
 
-#: document/katedocument.cpp:2368 document/katedocument.cpp:4050
+#: document/katedocument.cpp:2384 document/katedocument.cpp:4061
 #, kde-format
 msgid ""
 "The document could not be saved, as it was not possible to write to %1.\n"
@@ -2219,69 +2231,69 @@ msgstr ""
 "Kontroleur dat jy skryf toegang het na hierdie lêer of dat daar genoeg skryf "
 "spasie beskikbaar is."
 
-#: document/katedocument.cpp:2499
+#: document/katedocument.cpp:2515
 msgid "Do you really want to continue to close this file? Data loss may occur."
 msgstr ""
 "Wil jy regtig voortgaan om die lêer te sluit? Data verlies mag voorkom."
 
-#: document/katedocument.cpp:2500
+#: document/katedocument.cpp:2516
 msgid "Close Nevertheless"
 msgstr "Maak nogsteeds toe"
 
-#: document/katedocument.cpp:3817
+#: document/katedocument.cpp:3828
 #, fuzzy
 msgid "Untitled"
 msgstr "Onbeperk"
 
-#: document/katedocument.cpp:3853 document/katedocument.cpp:4018
-#: document/katedocument.cpp:4672
+#: document/katedocument.cpp:3864 document/katedocument.cpp:4029
+#: document/katedocument.cpp:4683
 msgid "Save File"
 msgstr "Stoor Lêer"
 
-#: document/katedocument.cpp:3860
+#: document/katedocument.cpp:3871
 msgid "Save failed"
 msgstr "Stoor gevaal"
 
-#: document/katedocument.cpp:3926
+#: document/katedocument.cpp:3937
 msgid "File Was Changed on Disk"
 msgstr "Lêer Was Verander op Disket"
 
-#: document/katedocument.cpp:4034
+#: document/katedocument.cpp:4045
 #, fuzzy
 #| msgid "Save File"
 msgid "Save Copy of File"
 msgstr "Stoor Lêer"
 
-#: document/katedocument.cpp:4265
+#: document/katedocument.cpp:4276
 msgid ""
 "Using deprecated modeline 'remove-trailing-space'. Please replace with "
 "'remove-trailing-spaces modified;', see http://docs.kde.org/stable/en/kde-"
 "baseapps/kate/config-variables.html#variable-remove-trailing-spaces"
 msgstr ""
 
-#: document/katedocument.cpp:4270
+#: document/katedocument.cpp:4281
 msgid ""
 "Using deprecated modeline 'replace-trailing-space-save'. Please replace with "
 "'remove-trailing-spaces all;', see http://docs.kde.org/stable/en/kde-"
 "baseapps/kate/config-variables.html#variable-remove-trailing-spaces"
 msgstr ""
 
-#: document/katedocument.cpp:4547
+#: document/katedocument.cpp:4558
 #, kde-format
 msgid "The file '%1' was modified by another program."
 msgstr "Die lêer '%1' was modifiseerd deur 'n ander program."
 
-#: document/katedocument.cpp:4550
+#: document/katedocument.cpp:4561
 #, kde-format
 msgid "The file '%1' was created by another program."
 msgstr "Die lêer '%1' is gemaak deur 'n ander program."
 
-#: document/katedocument.cpp:4553
+#: document/katedocument.cpp:4564
 #, kde-format
 msgid "The file '%1' was deleted by another program."
 msgstr "Die lêer '%1' was uitgevee deur 'n ander program."
 
-#: document/katedocument.cpp:4700
+#: document/katedocument.cpp:4711
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
@@ -2289,35 +2301,64 @@ msgstr ""
 "'n lêer genaamd \"%1\" alreeds bestaan. Word jy seker jy wil hê na oorskryf "
 "dit?"
 
-#: document/katedocument.cpp:4702
+#: document/katedocument.cpp:4713
 msgid "Overwrite File?"
 msgstr "Oorskryf Lêer?"
 
-#: document/katedocument.cpp:4910
+#: document/katedocument.cpp:4921
 #, kde-format
 msgid ""
 "The document \"%1\" has been modified.\n"
 "Do you want to save your changes or discard them?"
 msgstr ""
 
-#: document/katedocument.cpp:4912
+#: document/katedocument.cpp:4923
 #, fuzzy
 #| msgid "&Word Wrap Document"
 msgid "Close Document"
 msgstr "Woord Oorvloei Dokument"
 
-#: document/katedocument.cpp:5045
+#: document/katedocument.cpp:5056
 #, kde-format
 msgid "The file <a href=\"%1\">%2</a> is still loading."
 msgstr ""
 
-#: document/katedocument.cpp:5052
+#: document/katedocument.cpp:5063
 msgid "&Abort Loading"
 msgstr ""
 
-#: export/exporter.cpp:64
+#: export/exporter.cpp:63
 msgid "Export File as HTML"
 msgstr "Voer uit Lêer as HTML"
+
+#: inputmode/katenormalinputmode.cpp:92
+msgid "OVERWRITE"
+msgstr ""
+
+#: inputmode/katenormalinputmode.cpp:92
+msgid "INSERT"
+msgstr ""
+
+#: inputmode/katenormalinputmodefactory.cpp:52
+#, fuzzy
+#| msgid "Normal Text"
+msgid "Normal Mode"
+msgstr "Normale Teks"
+
+#: inputmode/kateviinputmode.cpp:116
+msgid "vi-mode"
+msgstr ""
+
+#: inputmode/kateviinputmode.cpp:129
+#, fuzzy
+#| msgid "E&ncoding"
+msgid "recording"
+msgstr "Enkodering"
+
+#: inputmode/kateviinputmodefactory.cpp:54 utils/kateglobal.cpp:106
+#: vimode/kateviinputmodeconfigtab.cpp:231
+msgid "Vi Input Mode"
+msgstr ""
 
 #: mode/katemodeconfigpage.cpp:60
 msgid "<Unchanged>"
@@ -2542,7 +2583,7 @@ msgstr ""
 msgid "L&ayout"
 msgstr "Uitleg"
 
-#: printing/printconfigwidgets.cpp:507 schema/kateschemaconfig.cpp:918
+#: printing/printconfigwidgets.cpp:507 schema/kateschemaconfig.cpp:917
 msgid "&Schema:"
 msgstr "Skema:"
 
@@ -2635,7 +2676,7 @@ msgid "Replace current schema?"
 msgstr "Vervang Opstelling"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioReplaceExisting)
-#: schema/howtoimportschema.ui:34 schema/kateschemaconfig.cpp:1076
+#: schema/howtoimportschema.ui:34 schema/kateschemaconfig.cpp:1075
 #, fuzzy, no-c-format, kde-format
 #| msgid "Replace Confirmation"
 msgid "Replace existing schema %1"
@@ -2652,34 +2693,34 @@ msgstr "Naam vir Nuwe Skema"
 msgid "Use default color from the KDE color scheme"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:60
+#: schema/kateschemaconfig.cpp:59
 #, fuzzy
 #| msgid "Font & Color Schemas"
 msgid "Use KDE Color Scheme"
 msgstr "Skriftipe & Kleur Skemas"
 
-#: schema/kateschemaconfig.cpp:86
+#: schema/kateschemaconfig.cpp:85
 #, fuzzy
 #| msgid "Unset Background Color"
 msgid "Editor Background Colors"
 msgstr "Wegstel van Agtergrond Kleur"
 
-#: schema/kateschemaconfig.cpp:88
+#: schema/kateschemaconfig.cpp:87
 #, fuzzy
 msgid "Text Area"
 msgstr "Teks Area Agtergrond"
 
-#: schema/kateschemaconfig.cpp:90
+#: schema/kateschemaconfig.cpp:89
 msgid "<p>Sets the background color of the editing area.</p>"
 msgstr "<p>Verstel die agtergrond kleur van die redigering area.</p>"
 
-#: schema/kateschemaconfig.cpp:94
+#: schema/kateschemaconfig.cpp:93
 #, fuzzy
 #| msgid "Selected text:"
 msgid "Selected Text"
 msgstr "Gekose teks:"
 
-#: schema/kateschemaconfig.cpp:96
+#: schema/kateschemaconfig.cpp:95
 #, fuzzy
 #| msgid ""
 #| "<p>Sets the background color of the selection.</p><p>To set the text "
@@ -2694,13 +2735,13 @@ msgstr ""
 "kleur vir gekose teks, gebruik die \"<b>Konfigureer Verligting</b>\" dialoog."
 "</p>"
 
-#: schema/kateschemaconfig.cpp:100
+#: schema/kateschemaconfig.cpp:99
 #, fuzzy
 #| msgid "Current line:"
 msgid "Current Line"
 msgstr "Huidige lyn:"
 
-#: schema/kateschemaconfig.cpp:102
+#: schema/kateschemaconfig.cpp:101
 msgid ""
 "<p>Sets the background color of the currently active line, which means the "
 "line where your cursor is positioned.</p>"
@@ -2708,55 +2749,55 @@ msgstr ""
 "<p>Verstel die agtergrond kleur van die huidiglik aktiewe lyn, wat beteken "
 "die lyn waar jou plekaanduier is geposisioneer.</p>"
 
-#: schema/kateschemaconfig.cpp:106
+#: schema/kateschemaconfig.cpp:105
 #, fuzzy
 #| msgid "Highlighting"
 msgid "Search Highlight"
 msgstr "Verligting"
 
-#: schema/kateschemaconfig.cpp:108
+#: schema/kateschemaconfig.cpp:107
 #, fuzzy
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid "<p>Sets the background color of search results.</p>"
 msgstr "<p>Verstel die agtergrond kleur van die redigering area.</p>"
 
-#: schema/kateschemaconfig.cpp:112
+#: schema/kateschemaconfig.cpp:111
 #, fuzzy
 #| msgid "Highlighting"
 msgid "Replace Highlight"
 msgstr "Verligting"
 
-#: schema/kateschemaconfig.cpp:114
+#: schema/kateschemaconfig.cpp:113
 #, fuzzy
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid "<p>Sets the background color of replaced text.</p>"
 msgstr "<p>Verstel die agtergrond kleur van die redigering area.</p>"
 
-#: schema/kateschemaconfig.cpp:121
+#: schema/kateschemaconfig.cpp:120
 #, fuzzy
 #| msgid "Show &Icon Border"
 msgid "Icon Border"
 msgstr "Vertoon Ikoon Grens"
 
-#: schema/kateschemaconfig.cpp:123
+#: schema/kateschemaconfig.cpp:122
 #, fuzzy
 #| msgid "Background"
 msgid "Background Area"
 msgstr "Agtergrond"
 
-#: schema/kateschemaconfig.cpp:125
+#: schema/kateschemaconfig.cpp:124
 #, fuzzy
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid "<p>Sets the background color of the icon border.</p>"
 msgstr "<p>Verstel die agtergrond kleur van die redigering area.</p>"
 
-#: schema/kateschemaconfig.cpp:129
+#: schema/kateschemaconfig.cpp:128
 #, fuzzy
 #| msgid "Line numbers:"
 msgid "Line Numbers"
 msgstr "Lyn nommers:"
 
-#: schema/kateschemaconfig.cpp:131
+#: schema/kateschemaconfig.cpp:130
 #, fuzzy
 #| msgid ""
 #| "<p>This color will be used to draw the line numbers (if enabled) and the "
@@ -2766,11 +2807,11 @@ msgstr ""
 "<p>Die kleut sal gebruik word om te trek die lyn nommers (as aktiveer) en "
 "die lyne in die kode-vou skrifstuk.<p>"
 
-#: schema/kateschemaconfig.cpp:135
+#: schema/kateschemaconfig.cpp:134
 msgid "Separator"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:137
+#: schema/kateschemaconfig.cpp:136
 #, fuzzy
 #| msgid ""
 #| "<p>This color will be used to draw the line numbers (if enabled) and the "
@@ -2782,13 +2823,13 @@ msgstr ""
 "<p>Die kleut sal gebruik word om te trek die lyn nommers (as aktiveer) en "
 "die lyne in die kode-vou skrifstuk.<p>"
 
-#: schema/kateschemaconfig.cpp:141
+#: schema/kateschemaconfig.cpp:140
 #, fuzzy
 #| msgid "Word wrap markers:"
 msgid "Word Wrap Marker"
 msgstr "Woord oorvloei markeerders:"
 
-#: schema/kateschemaconfig.cpp:143
+#: schema/kateschemaconfig.cpp:142
 msgid ""
 "<p>Sets the color of Word Wrap-related markers:</p><dl><dt>Static Word Wrap</"
 "dt><dd>A vertical line which shows the column where text is going to be "
@@ -2800,89 +2841,89 @@ msgstr ""
 "gaan oorvloei</dd><dt>Dinamiese Woord Oorvloei</dt><dd>'n Pyltjie wys na "
 "links van die visuele-oorvloei lyne</dd></dl>"
 
-#: schema/kateschemaconfig.cpp:147
+#: schema/kateschemaconfig.cpp:146
 msgid "Code Folding"
 msgstr "Kode vou"
 
-#: schema/kateschemaconfig.cpp:149
+#: schema/kateschemaconfig.cpp:148
 #, fuzzy
 #| msgid "<p>Sets the background color of the editing area.</p>"
 msgid "<p>Sets the color of the code folding bar.</p>"
 msgstr "<p>Verstel die agtergrond kleur van die redigering area.</p>"
 
-#: schema/kateschemaconfig.cpp:153
+#: schema/kateschemaconfig.cpp:152
 #, fuzzy
 #| msgid "Scroll Line Up"
 msgid "Modified Lines"
 msgstr "Rol Lyn Begin"
 
-#: schema/kateschemaconfig.cpp:155
+#: schema/kateschemaconfig.cpp:154
 #, fuzzy
 #| msgid "<p>Sets the color of the tabulator marks:</p>"
 msgid ""
 "<p>Sets the color of the line modification marker for modified lines.</p>"
 msgstr "<p>Verstel die kleur van die tabelle merke:</p>"
 
-#: schema/kateschemaconfig.cpp:159
+#: schema/kateschemaconfig.cpp:158
 #, fuzzy
 #| msgid "Save File"
 msgid "Saved Lines"
 msgstr "Stoor Lêer"
 
-#: schema/kateschemaconfig.cpp:161
+#: schema/kateschemaconfig.cpp:160
 #, fuzzy
 #| msgid "<p>Sets the color of the tabulator marks:</p>"
 msgid "<p>Sets the color of the line modification marker for saved lines.</p>"
 msgstr "<p>Verstel die kleur van die tabelle merke:</p>"
 
-#: schema/kateschemaconfig.cpp:168
+#: schema/kateschemaconfig.cpp:167
 #, fuzzy
 #| msgid "Selection Mode"
 msgid "Text Decorations"
 msgstr "Kiesing Module"
 
-#: schema/kateschemaconfig.cpp:170
+#: schema/kateschemaconfig.cpp:169
 msgid "Spelling Mistake Line"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:172
+#: schema/kateschemaconfig.cpp:171
 #, fuzzy
 #| msgid "<p>Sets the color of the tabulator marks:</p>"
 msgid ""
 "<p>Sets the color of the line that is used to indicate spelling mistakes.</p>"
 msgstr "<p>Verstel die kleur van die tabelle merke:</p>"
 
-#: schema/kateschemaconfig.cpp:176
+#: schema/kateschemaconfig.cpp:175
 #, fuzzy
 #| msgid "Tab markers:"
 msgid "Tab and Space Markers"
 msgstr "GUI-element markeerders:"
 
-#: schema/kateschemaconfig.cpp:178
+#: schema/kateschemaconfig.cpp:177
 #, fuzzy
 #| msgid "<p>Sets the color of the tabulator marks:</p>"
 msgid "<p>Sets the color of the tabulator marks.</p>"
 msgstr "<p>Verstel die kleur van die tabelle merke:</p>"
 
-#: schema/kateschemaconfig.cpp:182
+#: schema/kateschemaconfig.cpp:181
 #, fuzzy
 #| msgid "Indentation"
 msgid "Indentation Line"
 msgstr "Inkeping"
 
-#: schema/kateschemaconfig.cpp:184
+#: schema/kateschemaconfig.cpp:183
 #, fuzzy
 #| msgid "<p>Sets the color of the tabulator marks:</p>"
 msgid "<p>Sets the color of the vertical indentation lines.</p>"
 msgstr "<p>Verstel die kleur van die tabelle merke:</p>"
 
-#: schema/kateschemaconfig.cpp:188
+#: schema/kateschemaconfig.cpp:187
 #, fuzzy
 #| msgid "Bracket highlight:"
 msgid "Bracket Highlight"
 msgstr "Hakkie verlig:"
 
-#: schema/kateschemaconfig.cpp:190
+#: schema/kateschemaconfig.cpp:189
 msgid ""
 "<p>Sets the bracket matching color. This means, if you place the cursor e.g. "
 "at a <b>(</b>, the matching <b>)</b> will be highlighted with this color.</p>"
@@ -2891,43 +2932,43 @@ msgstr ""
 "die plekaanduier bv. na 'n <b>(</b>, die ooreenstemmende <b>)</b> sal wees "
 "verlig met hierdie kleur.</p>"
 
-#: schema/kateschemaconfig.cpp:197
+#: schema/kateschemaconfig.cpp:196
 #, fuzzy
 #| msgid "Colors"
 msgid "Marker Colors"
 msgstr "Kleure"
 
-#: schema/kateschemaconfig.cpp:200 view/kateviewhelpers.cpp:1206
+#: schema/kateschemaconfig.cpp:199 view/kateviewhelpers.cpp:1189
 msgid "Bookmark"
 msgstr "Boekmerk"
 
-#: schema/kateschemaconfig.cpp:201
+#: schema/kateschemaconfig.cpp:200
 msgid "Active Breakpoint"
 msgstr "Aktiewe Breekpunt"
 
-#: schema/kateschemaconfig.cpp:202
+#: schema/kateschemaconfig.cpp:201
 msgid "Reached Breakpoint"
 msgstr "Bereikte Breekpunt"
 
-#: schema/kateschemaconfig.cpp:203
+#: schema/kateschemaconfig.cpp:202
 msgid "Disabled Breakpoint"
 msgstr "Gebreklike Breekpunt"
 
-#: schema/kateschemaconfig.cpp:204
+#: schema/kateschemaconfig.cpp:203
 msgid "Execution"
 msgstr "Uitvoering"
 
-#: schema/kateschemaconfig.cpp:205
+#: schema/kateschemaconfig.cpp:204
 #, fuzzy
 msgid "Warning"
 msgstr "String"
 
-#: schema/kateschemaconfig.cpp:206
+#: schema/kateschemaconfig.cpp:205
 #, fuzzy
 msgid "Error"
 msgstr "Fout: "
 
-#: schema/kateschemaconfig.cpp:209
+#: schema/kateschemaconfig.cpp:208
 #, fuzzy
 #| msgid ""
 #| "<p>Sets the background color of the selected marker type.</p><p><b>Note</"
@@ -2939,29 +2980,29 @@ msgstr ""
 "<p>Verstel die agtergrond kleur van die verkose merker tipe.<p><p><b>Nota</"
 "b>: Die merker kleur word ligter vertoon as gevolg van deursigtigheid.<p>"
 
-#: schema/kateschemaconfig.cpp:220
+#: schema/kateschemaconfig.cpp:219
 msgid "Text Templates & Snippets"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:224
+#: schema/kateschemaconfig.cpp:223
 #, fuzzy
 #| msgid "Background"
 msgid "Background"
 msgstr "Agtergrond"
 
-#: schema/kateschemaconfig.cpp:229
+#: schema/kateschemaconfig.cpp:228
 msgid "Editable Placeholder"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:234
+#: schema/kateschemaconfig.cpp:233
 msgid "Focused Editable Placeholder"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:239
+#: schema/kateschemaconfig.cpp:238
 msgid "Not Editable Placeholder"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:467
+#: schema/kateschemaconfig.cpp:466
 #, fuzzy
 #| msgid ""
 #| "This list displays the default styles for the current schema and offers "
@@ -2983,54 +3024,54 @@ msgstr ""
 "die Agtergrond en Verkose Agtergrond kleure van die opspring kieslys wanneer "
 "verkies."
 
-#: schema/kateschemaconfig.cpp:502
+#: schema/kateschemaconfig.cpp:501
 #, fuzzy
 #| msgid "Normal Text"
 msgctxt "@item:intable"
 msgid "Normal Text & Source Code"
 msgstr "Normale Teks"
 
-#: schema/kateschemaconfig.cpp:511
+#: schema/kateschemaconfig.cpp:510
 msgctxt "@item:intable"
 msgid "Numbers, Types & Constants"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:520
+#: schema/kateschemaconfig.cpp:519
 #, fuzzy
 #| msgid "Character"
 msgctxt "@item:intable"
 msgid "Strings & Characters"
 msgstr "Karakter"
 
-#: schema/kateschemaconfig.cpp:529
+#: schema/kateschemaconfig.cpp:528
 #, fuzzy
 #| msgid "Show indentation lines"
 msgctxt "@item:intable"
 msgid "Comments & Documentation"
 msgstr "Vertoon inkeping Reëls"
 
-#: schema/kateschemaconfig.cpp:538
+#: schema/kateschemaconfig.cpp:537
 msgctxt "@item:intable"
 msgid "Miscellaneous"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:611
+#: schema/kateschemaconfig.cpp:610
 msgid "H&ighlight:"
 msgstr "Verlig:"
 
-#: schema/kateschemaconfig.cpp:621 schema/kateschemaconfig.cpp:935
+#: schema/kateschemaconfig.cpp:620 schema/kateschemaconfig.cpp:934
 #, fuzzy
 #| msgid "E&xport as HTML..."
 msgid "Export..."
 msgstr "Uitvoer as Html..."
 
-#: schema/kateschemaconfig.cpp:625 schema/kateschemaconfig.cpp:939
+#: schema/kateschemaconfig.cpp:624 schema/kateschemaconfig.cpp:938
 #, fuzzy
 #| msgid "Normal &Color..."
 msgid "Import..."
 msgstr "Normale Kleur..."
 
-#: schema/kateschemaconfig.cpp:658
+#: schema/kateschemaconfig.cpp:657
 #, fuzzy
 #| msgid ""
 #| "This list displays the contexts of the current syntax highlight mode and "
@@ -3058,136 +3099,136 @@ msgstr ""
 "Agtergrond en Verkose Agtergrond kleure van die konteks kieslys wanneer "
 "verkies."
 
-#: schema/kateschemaconfig.cpp:679
+#: schema/kateschemaconfig.cpp:678
 #, fuzzy
 #| msgid "Highlighting for Scheme"
 msgid "Loading all highlightings for schema"
 msgstr "Verligting vir Skema"
 
-#: schema/kateschemaconfig.cpp:800
+#: schema/kateschemaconfig.cpp:799
 msgid "Importing colors for single highlighting"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:802 schema/kateschemaconfig.cpp:873
-#: schema/kateschemaconfig.cpp:992 schema/kateschemaconfig.cpp:1123
+#: schema/kateschemaconfig.cpp:801 schema/kateschemaconfig.cpp:872
+#: schema/kateschemaconfig.cpp:991 schema/kateschemaconfig.cpp:1122
 #, fuzzy
 #| msgid "Font & Color Schemas"
 msgid "Kate color schema"
 msgstr "Skriftipe & Kleur Skemas"
 
-#: schema/kateschemaconfig.cpp:816
+#: schema/kateschemaconfig.cpp:815
 msgid "File is not a single highlighting color file"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:817 schema/kateschemaconfig.cpp:1134
+#: schema/kateschemaconfig.cpp:816 schema/kateschemaconfig.cpp:1133
 #, fuzzy
 #| msgid "File Format"
 msgid "Fileformat error"
 msgstr "Lêer Formaat"
 
-#: schema/kateschemaconfig.cpp:827
+#: schema/kateschemaconfig.cpp:826
 #, kde-format
 msgid "The selected file contains colors for a non existing highlighting:%1"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:828
+#: schema/kateschemaconfig.cpp:827
 msgid "Import failure"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:851
+#: schema/kateschemaconfig.cpp:850
 #, kde-format
 msgid "Colors have been imported for highlighting: %1"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:852
+#: schema/kateschemaconfig.cpp:851
 msgid "Import has finished"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:871
+#: schema/kateschemaconfig.cpp:870
 #, kde-format
 msgid "Exporting colors for single highlighting: %1"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:927
+#: schema/kateschemaconfig.cpp:926
 msgid "&New..."
 msgstr "Nuwe..."
 
-#: schema/kateschemaconfig.cpp:950
+#: schema/kateschemaconfig.cpp:949
 msgid "Colors"
 msgstr "Kleure"
 
-#: schema/kateschemaconfig.cpp:954
+#: schema/kateschemaconfig.cpp:953
 msgid "Font"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:958
+#: schema/kateschemaconfig.cpp:957
 #, fuzzy
 #| msgid "Normal Text Styles"
 msgid "Default Text Styles"
 msgstr "Normale Teks Style"
 
-#: schema/kateschemaconfig.cpp:962
+#: schema/kateschemaconfig.cpp:961
 msgid "Highlighting Text Styles"
 msgstr "Verligting Teks Style"
 
-#: schema/kateschemaconfig.cpp:968
+#: schema/kateschemaconfig.cpp:967
 #, kde-format
 msgid "&Default schema for %1:"
 msgstr "Verstek skema vir %1:"
 
-#: schema/kateschemaconfig.cpp:990
+#: schema/kateschemaconfig.cpp:989
 #, fuzzy, kde-format
 #| msgid "Font & Color Schemas"
 msgid "Exporting color schema: %1"
 msgstr "Skriftipe & Kleur Skemas"
 
-#: schema/kateschemaconfig.cpp:1022
+#: schema/kateschemaconfig.cpp:1021
 msgid "Exporting schema"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:1121
+#: schema/kateschemaconfig.cpp:1120
 #, fuzzy
 #| msgid "Font & Color Schemas"
 msgid "Importing Color Schema"
 msgstr "Skriftipe & Kleur Skemas"
 
-#: schema/kateschemaconfig.cpp:1133
+#: schema/kateschemaconfig.cpp:1132
 msgid "The file does not contain a full color schema."
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:1140
+#: schema/kateschemaconfig.cpp:1139
 #, fuzzy
 msgid "Name unspecified"
 msgstr "Terugruimte"
 
-#: schema/kateschemaconfig.cpp:1190
+#: schema/kateschemaconfig.cpp:1189
 msgid "Importing schema"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:1333
+#: schema/kateschemaconfig.cpp:1332
 msgid "Name for New Schema"
 msgstr "Naam vir Nuwe Skema"
 
-#: schema/kateschemaconfig.cpp:1333
+#: schema/kateschemaconfig.cpp:1332
 msgid "Name:"
 msgstr "Naam:"
 
-#: schema/kateschemaconfig.cpp:1333 schema/kateschemaconfig.cpp:1341
+#: schema/kateschemaconfig.cpp:1332 schema/kateschemaconfig.cpp:1340
 msgid "New Schema"
 msgstr "Nuwe Skema"
 
-#: schema/kateschemaconfig.cpp:1341
+#: schema/kateschemaconfig.cpp:1340
 #, kde-format
 msgid ""
 "<p>The schema %1 already exists.</p><p>Please choose a different schema name."
 "</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:1376
+#: schema/kateschemaconfig.cpp:1375
 msgid "Fonts & Colors"
 msgstr "Skriftipes &Kleure"
 
-#: schema/kateschemaconfig.cpp:1381
+#: schema/kateschemaconfig.cpp:1380
 msgid "Font & Color Schemas"
 msgstr "Skriftipe & Kleur Skemas"
 
@@ -3760,7 +3801,7 @@ msgid "Bad quoting in call: %1. Please escape single quotes with a backslash."
 msgstr ""
 
 #: script/katecommandlinescript.cpp:124 script/katescriptmanager.cpp:344
-#: utils/katecmds.cpp:203 vimode/katevicmds.cpp:53
+#: utils/katecmds.cpp:203 vimode/katevicmds.cpp:54
 msgid "Could not access view"
 msgstr "Kon nie toegang verkry na uitsig"
 
@@ -3774,13 +3815,13 @@ msgstr ""
 msgid "No help specified for command '%1' in script %2"
 msgstr ""
 
-#: script/katescript.cpp:248
+#: script/katescript.cpp:247
 #, fuzzy, kde-format
 #| msgid "Error: %1"
 msgid "Error loading script %1\n"
 msgstr "Fout: %1"
 
-#: script/katescript.cpp:249
+#: script/katescript.cpp:248
 #, kde-format
 msgid "Error loading script %1"
 msgstr ""
@@ -6115,18 +6156,18 @@ msgctxt "Language"
 msgid "Zsh"
 msgstr ""
 
-#: syntax/katehighlight.cpp:75
+#: syntax/katehighlight.cpp:73
 #, fuzzy
 #| msgid "None"
 msgctxt "Syntax highlighting"
 msgid "None"
 msgstr "Geen"
 
-#: syntax/katehighlight.cpp:836
+#: syntax/katehighlight.cpp:834
 msgid "Normal Text"
 msgstr "Normale Teks"
 
-#: syntax/katehighlight.cpp:1010
+#: syntax/katehighlight.cpp:1008
 #, fuzzy, kde-format
 #| msgid ""
 #| "<B>%1</B>: Deprecated syntax. Attribute (%2) not addressed by symbolic "
@@ -6138,13 +6179,13 @@ msgstr ""
 "<B>%1</B>: Afwysende syntaks. Eienskap (%2) nie geadresseer deur simboliese "
 "naam<BR>"
 
-#: syntax/katehighlight.cpp:1517
+#: syntax/katehighlight.cpp:1515
 #, fuzzy, kde-format
 #| msgid "<B>%1</B>: Deprecated syntax. Context %2 has no symbolic name<BR>"
 msgid "<b>%1</b>: Deprecated syntax. Context %2 has no symbolic name<br />"
 msgstr "<B>%1</B>: Afwysende syntaks. Konteks %2 het geen simboliese naam<BR>"
 
-#: syntax/katehighlight.cpp:1600
+#: syntax/katehighlight.cpp:1598
 #, kde-format
 msgid ""
 "<B>%1</B>:Deprecated syntax. Context %2 not addressed by a symbolic name"
@@ -6152,7 +6193,7 @@ msgstr ""
 "<B>%1</B>:Afwysende syntaks. Konteks %2 nie geadresseer deur 'n simboliese "
 "naam"
 
-#: syntax/katehighlight.cpp:1744
+#: syntax/katehighlight.cpp:1742
 msgid ""
 "There were warning(s) and/or error(s) while parsing the syntax highlighting "
 "configuration."
@@ -6160,11 +6201,11 @@ msgstr ""
 "Daar was waarskuwing(s) en/of fout(e) gedurende verdeling van die syntaks "
 "verligting konfigurasie."
 
-#: syntax/katehighlight.cpp:1746
+#: syntax/katehighlight.cpp:1744
 msgid "Kate Syntax Highlighting Parser"
 msgstr "Kate Sintaks verligting ondersteun"
 
-#: syntax/katehighlight.cpp:1912
+#: syntax/katehighlight.cpp:1910
 msgid ""
 "Since there has been an error parsing the highlighting description, this "
 "highlighting will be disabled"
@@ -6172,7 +6213,7 @@ msgstr ""
 "Sedert daar het al 'n fout verwerking die verligting beskrywing, hierdie "
 "verligting sal wees gestremde"
 
-#: syntax/katehighlight.cpp:2139
+#: syntax/katehighlight.cpp:2137
 #, fuzzy, kde-format
 #| msgid ""
 #| "<B>%1</B>: Specified multiline comment region (%2) could not be "
@@ -6420,50 +6461,50 @@ msgctxt "Autoindent mode"
 msgid "Normal"
 msgstr "Normale"
 
-#: utils/katebookmarks.cpp:61
+#: utils/katebookmarks.cpp:62
 msgid "Set &Bookmark"
 msgstr "Instel van Boekmerk"
 
-#: utils/katebookmarks.cpp:65
+#: utils/katebookmarks.cpp:66
 msgid "If a line has no bookmark then add one, otherwise remove it."
 msgstr ""
 "As 'n lyn het nee boekmerk dan word voeg by een, andersins verwyder dit."
 
-#: utils/katebookmarks.cpp:68
+#: utils/katebookmarks.cpp:69
 msgid "Clear &All Bookmarks"
 msgstr "Maak skoon Alle Boekmerke"
 
-#: utils/katebookmarks.cpp:70
+#: utils/katebookmarks.cpp:71
 msgid "Remove all bookmarks of the current document."
 msgstr "Verwyder alle boekmerke van die huidige dokument."
 
-#: utils/katebookmarks.cpp:73 utils/katebookmarks.cpp:244
+#: utils/katebookmarks.cpp:74 utils/katebookmarks.cpp:245
 msgid "Next Bookmark"
 msgstr "Volgende Boekmerk"
 
-#: utils/katebookmarks.cpp:77
+#: utils/katebookmarks.cpp:78
 msgid "Go to the next bookmark."
 msgstr "Gaan na die volgende boekmerk."
 
-#: utils/katebookmarks.cpp:80 utils/katebookmarks.cpp:245
+#: utils/katebookmarks.cpp:81 utils/katebookmarks.cpp:246
 msgid "Previous Bookmark"
 msgstr "Vorige Boekmerk"
 
-#: utils/katebookmarks.cpp:84
+#: utils/katebookmarks.cpp:85
 msgid "Go to the previous bookmark."
 msgstr "Gaan na die vorige boekmerk."
 
-#: utils/katebookmarks.cpp:87
+#: utils/katebookmarks.cpp:88
 #, fuzzy
 msgid "&Bookmarks"
 msgstr "Boekmerk"
 
-#: utils/katebookmarks.cpp:205
+#: utils/katebookmarks.cpp:206
 #, kde-format
 msgid "&Next: %1 - \"%2\""
 msgstr "Volgende: %1 - \"%2\""
 
-#: utils/katebookmarks.cpp:212
+#: utils/katebookmarks.cpp:213
 #, kde-format
 msgid "&Previous: %1 - \"%2\""
 msgstr "Vorige: %1 - \"%2\""
@@ -6675,7 +6716,7 @@ msgid ""
 "Usage: set-remove-trailing-spaces 0|-|none or 1|+|mod|modified or 2|*|all"
 msgstr ""
 
-#: utils/katecmds.cpp:432 vimode/katevicmds.cpp:176
+#: utils/katecmds.cpp:432 vimode/katevicmds.cpp:177
 #, kde-format
 msgid "Unknown command '%1'"
 msgstr "Onbekende opdrag '%1'"
@@ -6716,342 +6757,338 @@ msgid ""
 "replaced by either \"am\" or \"pm\".</td></tr></table></p>"
 msgstr ""
 
-#: utils/kateglobal.cpp:73
+#: utils/kateglobal.cpp:76
 msgid "Kate Part"
 msgstr "Kate Deel"
 
-#: utils/kateglobal.cpp:74
+#: utils/kateglobal.cpp:77
 msgid "Embeddable editor component"
 msgstr "Inlegbare redigeerder komponent"
 
-#: utils/kateglobal.cpp:75
+#: utils/kateglobal.cpp:78
 #, fuzzy
 msgid "(c) 2000-2014 The Kate Authors"
 msgstr "(c) 2000-2004 Die Kate Deel Outeure"
 
-#: utils/kateglobal.cpp:99
+#: utils/kateglobal.cpp:102
 msgid "Christoph Cullmann"
 msgstr ""
 
-#: utils/kateglobal.cpp:99
+#: utils/kateglobal.cpp:102
 msgid "Maintainer"
 msgstr "Onderhouer"
 
-#: utils/kateglobal.cpp:100
+#: utils/kateglobal.cpp:103
 msgid "Dominik Haumann"
 msgstr ""
 
-#: utils/kateglobal.cpp:100 utils/kateglobal.cpp:101 utils/kateglobal.cpp:102
-#: utils/kateglobal.cpp:105 utils/kateglobal.cpp:108 utils/kateglobal.cpp:113
+#: utils/kateglobal.cpp:103 utils/kateglobal.cpp:104 utils/kateglobal.cpp:105
+#: utils/kateglobal.cpp:108 utils/kateglobal.cpp:111 utils/kateglobal.cpp:116
 msgid "Core Developer"
 msgstr "Kern Ontwikkelaar"
 
-#: utils/kateglobal.cpp:101
+#: utils/kateglobal.cpp:104
 msgid "Milian Wolff"
 msgstr ""
 
-#: utils/kateglobal.cpp:102
+#: utils/kateglobal.cpp:105
 msgid "Joseph Wenninger"
 msgstr ""
 
-#: utils/kateglobal.cpp:103
+#: utils/kateglobal.cpp:106
 msgid "Erlend Hamberg"
 msgstr ""
 
-#: utils/kateglobal.cpp:103 vimode/kateviinputmodeconfigtab.cpp:235
-msgid "Vi Input Mode"
-msgstr ""
-
-#: utils/kateglobal.cpp:104
+#: utils/kateglobal.cpp:107
 msgid "Bernhard Beschow"
 msgstr ""
 
-#: utils/kateglobal.cpp:104 utils/kateglobal.cpp:120
+#: utils/kateglobal.cpp:107 utils/kateglobal.cpp:123
 #, fuzzy
 msgid "Developer"
 msgstr "Kern Ontwikkelaar"
 
-#: utils/kateglobal.cpp:105
+#: utils/kateglobal.cpp:108
 msgid "Anders Lund"
 msgstr ""
 
-#: utils/kateglobal.cpp:106
+#: utils/kateglobal.cpp:109
 msgid "Michel Ludwig"
 msgstr ""
 
-#: utils/kateglobal.cpp:106
+#: utils/kateglobal.cpp:109
 #, fuzzy
 #| msgid "Spellcheck"
 msgid "On-the-fly spell checking"
 msgstr "Spelltoetser"
 
-#: utils/kateglobal.cpp:107
+#: utils/kateglobal.cpp:110
 msgid "Pascal Létourneau"
 msgstr ""
 
-#: utils/kateglobal.cpp:107
+#: utils/kateglobal.cpp:110
 msgid "Large scale bug fixing"
 msgstr ""
 
-#: utils/kateglobal.cpp:108
+#: utils/kateglobal.cpp:111
 msgid "Hamish Rodda"
 msgstr ""
 
-#: utils/kateglobal.cpp:109
+#: utils/kateglobal.cpp:112
 msgid "Waldo Bastian"
 msgstr ""
 
-#: utils/kateglobal.cpp:109
+#: utils/kateglobal.cpp:112
 msgid "The cool buffersystem"
 msgstr "Die oulike bufferstelsel"
 
-#: utils/kateglobal.cpp:110
+#: utils/kateglobal.cpp:113
 msgid "Charles Samuels"
 msgstr ""
 
-#: utils/kateglobal.cpp:110
+#: utils/kateglobal.cpp:113
 msgid "The Editing Commands"
 msgstr "Die Redigering Opdragte"
 
-#: utils/kateglobal.cpp:111
+#: utils/kateglobal.cpp:114
 msgid "Matt Newell"
 msgstr ""
 
-#: utils/kateglobal.cpp:111
+#: utils/kateglobal.cpp:114
 msgid "Testing, ..."
 msgstr "Toetsing, ..."
 
-#: utils/kateglobal.cpp:112
+#: utils/kateglobal.cpp:115
 msgid "Michael Bartl"
 msgstr ""
 
-#: utils/kateglobal.cpp:112
+#: utils/kateglobal.cpp:115
 msgid "Former Core Developer"
 msgstr "Vorige Kern Ontwikkelaar"
 
-#: utils/kateglobal.cpp:113
+#: utils/kateglobal.cpp:116
 msgid "Michael McCallum"
 msgstr ""
 
-#: utils/kateglobal.cpp:114
+#: utils/kateglobal.cpp:117
 msgid "Michael Koch"
 msgstr ""
 
-#: utils/kateglobal.cpp:114
+#: utils/kateglobal.cpp:117
 msgid "KWrite port to KParts"
 msgstr "Kskryf poort na Kparts"
 
-#: utils/kateglobal.cpp:115
+#: utils/kateglobal.cpp:118
 msgid "Christian Gebauer"
 msgstr ""
 
-#: utils/kateglobal.cpp:116
+#: utils/kateglobal.cpp:119
 msgid "Simon Hausmann"
 msgstr ""
 
-#: utils/kateglobal.cpp:117
+#: utils/kateglobal.cpp:120
 #, fuzzy
 #| msgid "Region Marker"
 msgid "Glen Parker"
 msgstr "Area Merker"
 
-#: utils/kateglobal.cpp:117
+#: utils/kateglobal.cpp:120
 msgid "KWrite Undo History, Kspell integration"
 msgstr "Kskryf Herstel Geskiedenis, Kspell integrasie"
 
-#: utils/kateglobal.cpp:118
+#: utils/kateglobal.cpp:121
 msgid "Scott Manson"
 msgstr ""
 
-#: utils/kateglobal.cpp:118
+#: utils/kateglobal.cpp:121
 msgid "KWrite XML Syntax highlighting support"
 msgstr "Kskryf Xml Sintaks verligting ondersteun"
 
-#: utils/kateglobal.cpp:119
+#: utils/kateglobal.cpp:122
 msgid "John Firebaugh"
 msgstr ""
 
-#: utils/kateglobal.cpp:119
+#: utils/kateglobal.cpp:122
 msgid "Patches and more"
 msgstr "Lappe en meer"
 
-#: utils/kateglobal.cpp:120
+#: utils/kateglobal.cpp:123
 msgid "Andreas Kling"
 msgstr ""
 
-#: utils/kateglobal.cpp:121
+#: utils/kateglobal.cpp:124
 msgid "Mirko Stocker"
 msgstr ""
 
-#: utils/kateglobal.cpp:121
+#: utils/kateglobal.cpp:124
 msgid "Various bugfixes"
 msgstr ""
 
-#: utils/kateglobal.cpp:122
+#: utils/kateglobal.cpp:125
 msgid "Matthew Woehlke"
 msgstr ""
 
-#: utils/kateglobal.cpp:122
+#: utils/kateglobal.cpp:125
 msgid "Selection, KColorScheme integration"
 msgstr ""
 
-#: utils/kateglobal.cpp:123
+#: utils/kateglobal.cpp:126
 msgid "Sebastian Pipping"
 msgstr ""
 
-#: utils/kateglobal.cpp:123
+#: utils/kateglobal.cpp:126
 msgid "Search bar back- and front-end"
 msgstr ""
 
-#: utils/kateglobal.cpp:124
+#: utils/kateglobal.cpp:127
 msgid "Jochen Wilhelmy"
 msgstr ""
 
-#: utils/kateglobal.cpp:124
+#: utils/kateglobal.cpp:127
 #, fuzzy
 #| msgid "KWrite Author"
 msgid "Original KWrite Author"
 msgstr "Kskryf Outeur"
 
-#: utils/kateglobal.cpp:125
+#: utils/kateglobal.cpp:128
 msgid "Gerald Senarclens de Grancy"
 msgstr ""
 
-#: utils/kateglobal.cpp:125
+#: utils/kateglobal.cpp:128
 #, fuzzy
 #| msgctxt "Language"
 #| msgid "Quake Script"
 msgid "QA and Scripting"
 msgstr "Quake Skript"
 
-#: utils/kateglobal.cpp:127
+#: utils/kateglobal.cpp:130
 msgid "Matteo Merli"
 msgstr ""
 
-#: utils/kateglobal.cpp:127
+#: utils/kateglobal.cpp:130
 msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
 msgstr "Verligting vir Rpm Spec-Files, Perl, Diff en meer"
 
-#: utils/kateglobal.cpp:128
+#: utils/kateglobal.cpp:131
 msgid "Rocky Scaletta"
 msgstr ""
 
-#: utils/kateglobal.cpp:128
+#: utils/kateglobal.cpp:131
 msgid "Highlighting for VHDL"
 msgstr "Verligting vir Vhdl"
 
-#: utils/kateglobal.cpp:129
+#: utils/kateglobal.cpp:132
 msgid "Yury Lebedev"
 msgstr ""
 
-#: utils/kateglobal.cpp:129
+#: utils/kateglobal.cpp:132
 msgid "Highlighting for SQL"
 msgstr "Verligting vir Sql"
 
-#: utils/kateglobal.cpp:130
+#: utils/kateglobal.cpp:133
 msgid "Chris Ross"
 msgstr ""
 
-#: utils/kateglobal.cpp:130
+#: utils/kateglobal.cpp:133
 msgid "Highlighting for Ferite"
 msgstr "Verligting vir Feriet"
 
-#: utils/kateglobal.cpp:131
+#: utils/kateglobal.cpp:134
 msgid "Nick Roux"
 msgstr ""
 
-#: utils/kateglobal.cpp:131
+#: utils/kateglobal.cpp:134
 msgid "Highlighting for ILERPG"
 msgstr "Verligting vir Ilerpg"
 
-#: utils/kateglobal.cpp:132
+#: utils/kateglobal.cpp:135
 msgid "Carsten Niehaus"
 msgstr ""
 
-#: utils/kateglobal.cpp:132
+#: utils/kateglobal.cpp:135
 msgid "Highlighting for LaTeX"
 msgstr "Verligting vir Latex"
 
-#: utils/kateglobal.cpp:133
+#: utils/kateglobal.cpp:136
 msgid "Per Wigren"
 msgstr ""
 
-#: utils/kateglobal.cpp:133
+#: utils/kateglobal.cpp:136
 msgid "Highlighting for Makefiles, Python"
 msgstr "Verligting vir Makefiles, Python"
 
-#: utils/kateglobal.cpp:134
+#: utils/kateglobal.cpp:137
 msgid "Jan Fritz"
 msgstr ""
 
-#: utils/kateglobal.cpp:134
+#: utils/kateglobal.cpp:137
 msgid "Highlighting for Python"
 msgstr "Verligting vir Python"
 
-#: utils/kateglobal.cpp:135
+#: utils/kateglobal.cpp:138
 msgid "Daniel Naber"
 msgstr ""
 
-#: utils/kateglobal.cpp:136
+#: utils/kateglobal.cpp:139
 msgid "Roland Pabel"
 msgstr ""
 
-#: utils/kateglobal.cpp:136
+#: utils/kateglobal.cpp:139
 msgid "Highlighting for Scheme"
 msgstr "Verligting vir Skema"
 
-#: utils/kateglobal.cpp:137
+#: utils/kateglobal.cpp:140
 msgid "Cristi Dumitrescu"
 msgstr ""
 
-#: utils/kateglobal.cpp:137
+#: utils/kateglobal.cpp:140
 msgid "PHP Keyword/Datatype list"
 msgstr " php  Sleutelwoord/Datatipe lys"
 
-#: utils/kateglobal.cpp:138
+#: utils/kateglobal.cpp:141
 msgid "Carsten Pfeiffer"
 msgstr ""
 
-#: utils/kateglobal.cpp:138
+#: utils/kateglobal.cpp:141
 msgid "Very nice help"
 msgstr "Baie oulike hulp"
 
-#: utils/kateglobal.cpp:139
+#: utils/kateglobal.cpp:142
 msgid "Bruno Massa"
 msgstr ""
 
-#: utils/kateglobal.cpp:139
+#: utils/kateglobal.cpp:142
 #, fuzzy
 #| msgid "Highlighting for LaTeX"
 msgid "Highlighting for Lua"
 msgstr "Verligting vir Latex"
 
-#: utils/kateglobal.cpp:141
+#: utils/kateglobal.cpp:144
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr "Alle mense wie het bygedra en I het vergeet na vermeld"
 
-#: utils/kateglobal.cpp:143
+#: utils/kateglobal.cpp:146
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "WEB-Vertaler (http://kde.af.org.za), Juanita Franz "
 
-#: utils/kateglobal.cpp:143
+#: utils/kateglobal.cpp:146
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za, juanita.franz@vr-web.de "
 
-#: utils/kateglobal.cpp:248
+#: utils/kateglobal.cpp:258
 #, fuzzy
 msgid "Configure"
 msgstr "Konfigureer..."
 
-#: utils/katesedcmd.cpp:266
+#: utils/katesedcmd.cpp:264
 #, fuzzy, kde-format
 #| msgid "Replace Confirmation"
 msgid "replace with %1?"
 msgstr "Vervang Opstelling"
 
-#: utils/katesedcmd.cpp:272
+#: utils/katesedcmd.cpp:270
 #, fuzzy, kde-format
 msgctxt "%2 is the translation of the next message"
 msgid "1 replacement done on %2"
@@ -7059,7 +7096,7 @@ msgid_plural "%1 replacements done on %2"
 msgstr[0] "1 plaasvervanger gemaak"
 msgstr[1] "%1 plaasvervangings gemaak"
 
-#: utils/katesedcmd.cpp:274
+#: utils/katesedcmd.cpp:272
 #, fuzzy, kde-format
 msgctxt "substituted into the previous message"
 msgid "1 line"
@@ -7067,7 +7104,7 @@ msgid_plural "%1 lines"
 msgstr[0] "Onderstreep"
 msgstr[1] "Onderstreep"
 
-#: utils/templateinterface.cpp:62
+#: utils/templateinterface.cpp:63
 msgid ""
 "The template needs information about you, which is stored in your address "
 "book.\n"
@@ -7343,164 +7380,164 @@ msgctxt "short translation please"
 msgid "Enable word wrap while typing text."
 msgstr ""
 
-#: view/katestatusbar.cpp:82
+#: view/katestatusbar.cpp:83
 msgid "Current cursor position. Doubleclick to go to specific line."
 msgstr ""
 
-#: view/katestatusbar.cpp:92
+#: view/katestatusbar.cpp:93
 msgid "Insert mode and VI input mode indicator"
-msgstr ""
-
-#: view/katestatusbar.cpp:97
-#, kde-format
-msgid "Soft Tabs: %1"
 msgstr ""
 
 #: view/katestatusbar.cpp:98
 #, kde-format
-msgid "Soft Tabs: %1 (%2)"
+msgid "Soft Tabs: %1"
 msgstr ""
 
 #: view/katestatusbar.cpp:99
+#, kde-format
+msgid "Soft Tabs: %1 (%2)"
+msgstr ""
+
+#: view/katestatusbar.cpp:100
 #, fuzzy, kde-format
 msgid "Tab Size: %1"
 msgstr "Lyn: %1"
 
-#: view/katestatusbar.cpp:100
+#: view/katestatusbar.cpp:101
 #, kde-format
 msgid "Indent/Tab: %1/%2"
 msgstr ""
 
-#: view/katestatusbar.cpp:112
+#: view/katestatusbar.cpp:113
 msgid "Show Tabs As"
 msgstr ""
 
-#: view/katestatusbar.cpp:118
+#: view/katestatusbar.cpp:119
 #, fuzzy
 #| msgid "Indentation with Spaces"
 msgid "Indentation Width"
 msgstr "Inkeping met Spasies"
 
-#: view/katestatusbar.cpp:127
+#: view/katestatusbar.cpp:128
 msgid "Mixed Tabs (Spaces + Tabs)"
 msgstr ""
 
-#: view/katestatusbar.cpp:131
+#: view/katestatusbar.cpp:132
 msgid "Hard Tabs (Tabs)"
 msgstr ""
 
-#: view/katestatusbar.cpp:135
+#: view/katestatusbar.cpp:136
 msgid "Soft Tabs (Spaces)"
 msgstr ""
 
-#: view/katestatusbar.cpp:151
+#: view/katestatusbar.cpp:152
 #, fuzzy
 #| msgid "E&ncoding"
 msgid "Encoding"
 msgstr "Enkodering"
 
-#: view/katestatusbar.cpp:162
+#: view/katestatusbar.cpp:163
 #, fuzzy
 #| msgid "Kate Syntax Highlighting Parser"
 msgid "Syntax highlighting"
 msgstr "Kate Sintaks verligting ondersteun"
 
-#: view/katestatusbar.cpp:239
+#: view/katestatusbar.cpp:238
 #, kde-format
 msgid "<em>[BLOCK]</em> %1"
 msgstr ""
 
-#: view/katestatusbar.cpp:249
+#: view/katestatusbar.cpp:248
 #, fuzzy, kde-format
 msgid "Line %1, Column %2"
 msgstr "Lyn: %1"
 
-#: view/katestatusbar.cpp:272
+#: view/katestatusbar.cpp:271
 msgid "Meaning of current icon: Document was modified since it was loaded"
 msgstr ""
 
-#: view/katestatusbar.cpp:277
+#: view/katestatusbar.cpp:276
 #, fuzzy
 #| msgid "The file '%1' was modified by another program."
 msgid ""
 "Meaning of current icon: Document was modified or deleted by another program"
 msgstr "Die lêer '%1' was modifiseerd deur 'n ander program."
 
-#: view/katestatusbar.cpp:288
+#: view/katestatusbar.cpp:287
 msgid "Meaning of current icon: Document was not modified since it was loaded"
 msgstr ""
 
-#: view/katestatusbar.cpp:338 view/katestatusbar.cpp:358
+#: view/katestatusbar.cpp:337 view/katestatusbar.cpp:357
 #, fuzzy
 msgid "Other..."
 msgstr "Ander"
 
-#: view/katestatusbar.cpp:360
+#: view/katestatusbar.cpp:359
 #, fuzzy, kde-format
 msgid "Other (%1)"
 msgid_plural "Other (%1)"
 msgstr[0] "Ander"
 msgstr[1] "Ander"
 
-#: view/katestatusbar.cpp:370
+#: view/katestatusbar.cpp:369
 #, fuzzy
 #| msgid "Tab width:"
 msgid "Tab width"
 msgstr "Oortjie wydte:"
 
-#: view/katestatusbar.cpp:370 view/katestatusbar.cpp:381
+#: view/katestatusbar.cpp:369 view/katestatusbar.cpp:380
 msgid "[1-16]"
 msgstr ""
 
-#: view/katestatusbar.cpp:381
+#: view/katestatusbar.cpp:380
 #, fuzzy
 #| msgid "Indentation with Spaces"
 msgid "Indentation width"
 msgstr "Inkeping met Spasies"
 
-#: view/kateview.cpp:330
+#: view/kateview.cpp:321
 msgid "Cut the selected text and move it to the clipboard"
 msgstr "Knip die gekose teks en beweeg dit na die klipbord"
 
-#: view/kateview.cpp:333
+#: view/kateview.cpp:324
 msgid "Paste previously copied or cut clipboard contents"
 msgstr "Plak vorige gekopieër of knip klipbord inhoud"
 
-#: view/kateview.cpp:336
+#: view/kateview.cpp:327
 msgid ""
 "Use this command to copy the currently selected text to the system clipboard."
 msgstr ""
 "Gebruik hierdie opdrag om te kopieër die huidiglik gekose teks na die "
 "stelsel klipbord."
 
-#: view/kateview.cpp:338
+#: view/kateview.cpp:329
 msgid "Clipboard &History"
 msgstr ""
 
-#: view/kateview.cpp:343
+#: view/kateview.cpp:334
 msgid "Save the current document"
 msgstr "Stoor die huidige dokument"
 
-#: view/kateview.cpp:346
+#: view/kateview.cpp:337
 msgid "Revert the most recent editing actions"
 msgstr "Ongedaan maak die mees onlangse redigering aksies"
 
-#: view/kateview.cpp:349
+#: view/kateview.cpp:340
 msgid "Revert the most recent undo operation"
 msgstr "Ongedaan maak die mees onlangse herstel operasie"
 
-#: view/kateview.cpp:352
+#: view/kateview.cpp:343
 #, fuzzy
 msgid "&Scripts"
 msgstr "Skripte"
 
-#: view/kateview.cpp:356
+#: view/kateview.cpp:347
 #, fuzzy
 #| msgid "Word Wrap"
 msgid "Apply &Word Wrap"
 msgstr "Woord Oorvloei"
 
-#: view/kateview.cpp:357
+#: view/kateview.cpp:348
 #, fuzzy
 #| msgid ""
 #| "Use this command to wrap all lines of the current document which are "
@@ -7517,11 +7554,11 @@ msgstr ""
 "besigtig.<br><br> hierdie is 'n statiese woord oorvloei, wat beteken dit is "
 "nie opgedateer wanneer die besigtig is hervergroot."
 
-#: view/kateview.cpp:363
+#: view/kateview.cpp:354
 msgid "&Clean Indentation"
 msgstr "Maak skoon Inkeping"
 
-#: view/kateview.cpp:364
+#: view/kateview.cpp:355
 #, fuzzy
 #| msgid ""
 #| "Use this to clean the indentation of a selected block of text (only tabs/"
@@ -7537,11 +7574,11 @@ msgstr ""
 "en gebruik moet word of vervang moet word met spasies, in die konfigurasie "
 "dialoog."
 
-#: view/kateview.cpp:369
+#: view/kateview.cpp:360
 msgid "&Align"
 msgstr "In lyn"
 
-#: view/kateview.cpp:370
+#: view/kateview.cpp:361
 msgid ""
 "Use this to align the current line or block of text to its proper indent "
 "level."
@@ -7549,11 +7586,11 @@ msgstr ""
 "Gebruik hierdie om die huidige lyn of blok van teks inlyn te bring na sy "
 "ordentlike inkeep vlak."
 
-#: view/kateview.cpp:374
+#: view/kateview.cpp:365
 msgid "C&omment"
 msgstr "Kommentaar"
 
-#: view/kateview.cpp:376
+#: view/kateview.cpp:367
 #, fuzzy
 #| msgid ""
 #| "This command comments out the current line or a selected block of text."
@@ -7568,11 +7605,11 @@ msgstr ""
 "<BR><BR>die karakters vir enkel/veelvuldige lyn kommentaar word gedefinieër "
 "binne in die taal se verligting."
 
-#: view/kateview.cpp:381
+#: view/kateview.cpp:372
 msgid "Unco&mment"
 msgstr "Verwyder kommentaar"
 
-#: view/kateview.cpp:383
+#: view/kateview.cpp:374
 #, fuzzy
 #| msgid ""
 #| "This command removes comments from the current line or a selected block "
@@ -7587,25 +7624,25 @@ msgstr ""
 "van teks.<BR><BR>die karakters vir enkel/veelvuldige lyn kommentaar word "
 "gedefinieër binne in die taal se verligting."
 
-#: view/kateview.cpp:388
+#: view/kateview.cpp:379
 #, fuzzy
 #| msgid "Comment"
 msgid "Toggle Comment"
 msgstr "Kommentaar"
 
-#: view/kateview.cpp:391
+#: view/kateview.cpp:382
 msgid "&Read Only Mode"
 msgstr "Lees Slegs Modus"
 
-#: view/kateview.cpp:392
+#: view/kateview.cpp:383
 msgid "Lock/unlock the document for writing"
 msgstr "Sluit/Ontsluit die dokument vir skryf"
 
-#: view/kateview.cpp:398
+#: view/kateview.cpp:389
 msgid "Uppercase"
 msgstr "Boonste kas"
 
-#: view/kateview.cpp:400
+#: view/kateview.cpp:391
 msgid ""
 "Convert the selection to uppercase, or the character to the right of the "
 "cursor if no text is selected."
@@ -7613,11 +7650,11 @@ msgstr ""
 "Omskakel die verkiesde na die boonste kas, of die karakter na die regterkant "
 "van die plekwyser as geen teks gekies is nie. "
 
-#: view/kateview.cpp:405
+#: view/kateview.cpp:396
 msgid "Lowercase"
 msgstr "Onderste kas"
 
-#: view/kateview.cpp:407
+#: view/kateview.cpp:398
 msgid ""
 "Convert the selection to lowercase, or the character to the right of the "
 "cursor if no text is selected."
@@ -7625,11 +7662,11 @@ msgstr ""
 "Omskakel die verkiesde na die onderste kas, of die karakter na die "
 "regterkant van die plekwyser as geen teks gekies is nie. "
 
-#: view/kateview.cpp:412
+#: view/kateview.cpp:403
 msgid "Capitalize"
 msgstr "Kapitaliseer"
 
-#: view/kateview.cpp:414
+#: view/kateview.cpp:405
 msgid ""
 "Capitalize the selection, or the word under the cursor if no text is "
 "selected."
@@ -7637,56 +7674,56 @@ msgstr ""
 "Kapitaliseer die verkose deel, of die woord onder die plekwyser as geen teks "
 "gekies is nie."
 
-#: view/kateview.cpp:419
+#: view/kateview.cpp:410
 msgid "Join Lines"
 msgstr "Verbind Lyne"
 
-#: view/kateview.cpp:424
+#: view/kateview.cpp:415
 #, fuzzy
 msgid "Invoke Code Completion"
 msgstr "Told Voltooi"
 
-#: view/kateview.cpp:425
+#: view/kateview.cpp:416
 msgid ""
 "Manually invoke command completion, usually by using a shortcut bound to "
 "this action."
 msgstr ""
 
-#: view/kateview.cpp:437
+#: view/kateview.cpp:428
 msgid "Print the current document."
 msgstr "Druk die huidige dokument."
 
-#: view/kateview.cpp:440
+#: view/kateview.cpp:431
 #, fuzzy
 #| msgid "Print the current document."
 msgid "Show print preview of current document"
 msgstr "Druk die huidige dokument."
 
-#: view/kateview.cpp:444
+#: view/kateview.cpp:435
 msgid "Reloa&d"
 msgstr "Herlaai"
 
-#: view/kateview.cpp:446
+#: view/kateview.cpp:437
 msgid "Reload the current document from disk."
 msgstr "Herlaai die huidige dokument van disket."
 
-#: view/kateview.cpp:450
+#: view/kateview.cpp:441
 msgid "Save the current document to disk, with a name of your choice."
 msgstr "Stoor die huidige dokument na disket, met 'n naam van jou keuse."
 
-#: view/kateview.cpp:454
+#: view/kateview.cpp:445
 #, fuzzy
 #| msgid "&Save File As..."
 msgid "Save &Copy As..."
 msgstr "Stoor Lêer as..."
 
-#: view/kateview.cpp:455
+#: view/kateview.cpp:446
 #, fuzzy
 #| msgid "Reload the current document from disk."
 msgid "Save a copy of the current document to disk."
 msgstr "Herlaai die huidige dokument van disket."
 
-#: view/kateview.cpp:459
+#: view/kateview.cpp:450
 msgid ""
 "This command opens a dialog and lets you choose a line that you want the "
 "cursor to move to."
@@ -7694,69 +7731,69 @@ msgstr ""
 "Hierdie opdrag maak oop 'n dialoog en laat jy jy kies 'n lyn wat jy wil hê "
 "die plekaanduier na beweeg na."
 
-#: view/kateview.cpp:462
+#: view/kateview.cpp:453
 #, fuzzy
 #| msgid "Move to Previous Line"
 msgid "Move to Previous Modified Line"
 msgstr "Beweeg na Vorige Lyn"
 
-#: view/kateview.cpp:463
+#: view/kateview.cpp:454
 #, fuzzy
 #| msgid "Move to Matching Bracket"
 msgid "Move upwards to the previous modified line."
 msgstr "Beweeg na Ooreenstemmende Hakkie"
 
-#: view/kateview.cpp:467
+#: view/kateview.cpp:458
 #, fuzzy
 #| msgid "Move to Next Line"
 msgid "Move to Next Modified Line"
 msgstr "Beweeg na Volgende Lyn"
 
-#: view/kateview.cpp:468
+#: view/kateview.cpp:459
 msgid "Move downwards to the next modified line."
 msgstr ""
 
-#: view/kateview.cpp:472
+#: view/kateview.cpp:463
 msgid "&Configure Editor..."
 msgstr "Konfigureer Redigeerder..."
 
-#: view/kateview.cpp:473
+#: view/kateview.cpp:464
 msgid "Configure various aspects of this editor."
 msgstr "Konfigureer verskeie aspekte van hierdie redigeerder."
 
-#: view/kateview.cpp:476
+#: view/kateview.cpp:467
 #, fuzzy
 #| msgid "&Bold"
 msgid "&Mode"
 msgstr "Vetdruk"
 
-#: view/kateview.cpp:478
+#: view/kateview.cpp:469
 msgid ""
 "Here you can choose which mode should be used for the current document. This "
 "will influence the highlighting and folding being used, for example."
 msgstr ""
 
-#: view/kateview.cpp:481
+#: view/kateview.cpp:472
 msgid "&Highlighting"
 msgstr "Verligting"
 
-#: view/kateview.cpp:483
+#: view/kateview.cpp:474
 msgid "Here you can choose how the current document should be highlighted."
 msgstr "Hier jy kan kies hoe die huidige dokument moet wees verlig."
 
-#: view/kateview.cpp:486
+#: view/kateview.cpp:477
 msgid "&Schema"
 msgstr "Skema"
 
-#: view/kateview.cpp:491
+#: view/kateview.cpp:482
 msgid "&Indentation"
 msgstr "Inkeping"
 
-#: view/kateview.cpp:495
+#: view/kateview.cpp:486
 msgid "Select the entire text of the current document."
 msgstr "Kies die hele teks van die huidige dokument."
 
-#: view/kateview.cpp:498
+#: view/kateview.cpp:489
 msgid ""
 "If you have selected something within the current document, this will no "
 "longer be selected."
@@ -7764,27 +7801,27 @@ msgstr ""
 "As jy het gekose iets binne in die huidige dokument, hierdie sal nee langer "
 "wees gekose."
 
-#: view/kateview.cpp:502
+#: view/kateview.cpp:493
 msgid "Enlarge Font"
 msgstr "Vergroot skriftipe"
 
-#: view/kateview.cpp:504
+#: view/kateview.cpp:495
 msgid "This increases the display font size."
 msgstr "Hierdie vermeerder die grootte van die vertoonde teks."
 
-#: view/kateview.cpp:509
+#: view/kateview.cpp:500
 msgid "Shrink Font"
 msgstr "Verklein skriftipe"
 
-#: view/kateview.cpp:511
+#: view/kateview.cpp:502
 msgid "This decreases the display font size."
 msgstr "Hierdie verklein die grootte van die vertoonde teks."
 
-#: view/kateview.cpp:514
+#: view/kateview.cpp:505
 msgid "Bl&ock Selection Mode"
 msgstr "Blok Keuse Module"
 
-#: view/kateview.cpp:517
+#: view/kateview.cpp:508
 msgid ""
 "This command allows switching between the normal (line based) selection mode "
 "and the block selection mode."
@@ -7792,11 +7829,11 @@ msgstr ""
 "Hierdie opdrag laat toe omskakeling tussen die normale (lyn gebaseerde) "
 "keuse modus en die blok keuse modus."
 
-#: view/kateview.cpp:520
+#: view/kateview.cpp:511
 msgid "Overwr&ite Mode"
 msgstr "Oorskryf Modus"
 
-#: view/kateview.cpp:523
+#: view/kateview.cpp:514
 msgid ""
 "Choose whether you want the text you type to be inserted or to overwrite "
 "existing text."
@@ -7804,31 +7841,31 @@ msgstr ""
 "Kies hetsy jy wil hê die teks jy tipe na wees ingesit of na oorskryf "
 "bestaande teks."
 
-#: view/kateview.cpp:533
+#: view/kateview.cpp:524
 msgid "Dynamic Word Wrap Indicators"
 msgstr "Dinamiese Woord Oorvloei Inkepings"
 
-#: view/kateview.cpp:535
+#: view/kateview.cpp:526
 msgid "Choose when the Dynamic Word Wrap Indicators should be displayed"
 msgstr "Kies wanneer die Dinamiese Woord Oorvloei Indikators vertoon moet word"
 
-#: view/kateview.cpp:539
+#: view/kateview.cpp:530
 msgid "&Off"
 msgstr "Af"
 
-#: view/kateview.cpp:540
+#: view/kateview.cpp:531
 msgid "Follow &Line Numbers"
 msgstr "Volg Lyn Nommers"
 
-#: view/kateview.cpp:541
+#: view/kateview.cpp:532
 msgid "&Always On"
 msgstr "Altyd Aan"
 
-#: view/kateview.cpp:545
+#: view/kateview.cpp:536
 msgid "Show Folding &Markers"
 msgstr "Vertoon Vou en Merkers"
 
-#: view/kateview.cpp:548
+#: view/kateview.cpp:539
 msgid ""
 "You can choose if the codefolding marks should be shown, if codefolding is "
 "possible."
@@ -7836,11 +7873,11 @@ msgstr ""
 "Jy kan kies of die kodevou merkers getoon moet word, indien kodevouing "
 "moontlik is."
 
-#: view/kateview.cpp:551
+#: view/kateview.cpp:542
 msgid "Show &Icon Border"
 msgstr "Vertoon Ikoon Grens"
 
-#: view/kateview.cpp:554
+#: view/kateview.cpp:545
 #, fuzzy
 #| msgid ""
 #| "Show/hide the icon border.<BR><BR> The icon border shows bookmark "
@@ -7852,20 +7889,20 @@ msgstr ""
 "Vertoon/steek weg die ikoon grens.<BR><BR> die ikoon grens vertoon boekmerk "
 "simbole, vir voorbeeld."
 
-#: view/kateview.cpp:557
+#: view/kateview.cpp:548
 msgid "Show &Line Numbers"
 msgstr "Vertoon Lyn Nommers"
 
-#: view/kateview.cpp:560
+#: view/kateview.cpp:551
 msgid "Show/hide the line numbers on the left hand side of the view."
 msgstr ""
 "Vertoon/steek weg die lyn nommers op die links hand kant van die besigtig."
 
-#: view/kateview.cpp:563
+#: view/kateview.cpp:554
 msgid "Show Scroll&bar Marks"
 msgstr "Wys Rolstaaf Merke"
 
-#: view/kateview.cpp:565
+#: view/kateview.cpp:556
 #, fuzzy
 #| msgid ""
 #| "Show/hide the marks on the vertical scrollbar.<BR><BR>The marks, for "
@@ -7877,13 +7914,13 @@ msgstr ""
 "Vertoon/steekweg die merke op die vertikale rolstaaf.<BR><BR>Die merke, "
 "byvoorbeeld, wys boekmerke."
 
-#: view/kateview.cpp:568
+#: view/kateview.cpp:559
 #, fuzzy
 #| msgid "Show Scroll&bar Marks"
 msgid "Show Scrollbar Mini-Map"
 msgstr "Wys Rolstaaf Merke"
 
-#: view/kateview.cpp:570
+#: view/kateview.cpp:561
 #, fuzzy
 #| msgid ""
 #| "Show/hide the marks on the vertical scrollbar.<BR><BR>The marks, for "
@@ -7895,11 +7932,11 @@ msgstr ""
 "Vertoon/steekweg die merke op die vertikale rolstaaf.<BR><BR>Die merke, "
 "byvoorbeeld, wys boekmerke."
 
-#: view/kateview.cpp:579
+#: view/kateview.cpp:570
 msgid "Show Static &Word Wrap Marker"
 msgstr "Wys Statiese Woord Oorvloei Merker"
 
-#: view/kateview.cpp:582
+#: view/kateview.cpp:573
 msgid ""
 "Show/hide the Word Wrap Marker, a vertical line drawn at the word wrap "
 "column as defined in the editing properties"
@@ -7907,110 +7944,111 @@ msgstr ""
 "Vertoon/Versteek die Woord Oorvloei Merker,'n vertikale lyn getrek by die "
 "woord oorvloei kolom soos gedefinieerd in die redigeerde eienskappe"
 
-#: view/kateview.cpp:586
+#: view/kateview.cpp:577
 msgid "Show Non-Printable Spaces"
 msgstr ""
 
-#: view/kateview.cpp:588
+#: view/kateview.cpp:579
 msgid "Show/hide bounding box around non-printable spaces"
 msgstr ""
 
-#: view/kateview.cpp:592
+#: view/kateview.cpp:583
 msgid "Switch to Command Line"
 msgstr "Verander na Opdrag Lyn"
 
-#: view/kateview.cpp:594
+#: view/kateview.cpp:585
 msgid "Show/hide the command line on the bottom of the view."
 msgstr "Vertoon/steekweg die opdrag lyn op die onderkant van die besigtig."
 
-#: view/kateview.cpp:597
-msgid "&VI Input Mode"
+#: view/kateview.cpp:588
+msgid "Input Modes"
+msgstr ""
+
+#: view/kateview.cpp:594
+#, kde-format
+msgid "Activate/deactivate %1"
 msgstr ""
 
 #: view/kateview.cpp:600
-msgid "Activate/deactivate VI input mode"
-msgstr ""
-
-#: view/kateview.cpp:603
 msgid "&End of Line"
 msgstr "Einde van Lyn"
 
-#: view/kateview.cpp:605
+#: view/kateview.cpp:602
 msgid "Choose which line endings should be used, when you save the document"
 msgstr ""
 "Kies watter lyn eindiging gebruik moet word, wanneer jy die dokument stoor"
 
-#: view/kateview.cpp:607
+#: view/kateview.cpp:604
 #, fuzzy
 #| msgid "UNIX"
 msgctxt "@item:inmenu End of Line"
 msgid "&UNIX"
 msgstr "UNIX"
 
-#: view/kateview.cpp:608
+#: view/kateview.cpp:605
 #, fuzzy
 #| msgid "DOS/Windows"
 msgctxt "@item:inmenu End of Line"
 msgid "&Windows/DOS"
 msgstr "DOS/Windows"
 
-#: view/kateview.cpp:609
+#: view/kateview.cpp:606
 #, fuzzy
 #| msgid "Macintosh"
 msgctxt "@item:inmenu End of Line"
 msgid "&Macintosh"
 msgstr "Macintosh"
 
-#: view/kateview.cpp:614
+#: view/kateview.cpp:611
 msgid "Add &Byte Order Mark (BOM)"
 msgstr ""
 
-#: view/kateview.cpp:617
+#: view/kateview.cpp:614
 msgid ""
 "Enable/disable adding of byte order markers for UTF-8/UTF-16 encoded files "
 "while saving"
 msgstr ""
 
-#: view/kateview.cpp:620
+#: view/kateview.cpp:617
 msgid "E&ncoding"
 msgstr "Enkodering"
 
-#: view/kateview.cpp:624
+#: view/kateview.cpp:621
 msgid "Look up the first occurrence of a piece of text or regular expression."
 msgstr ""
 "Kyk begin die eerste voorkoms van 'n stuk van teks of gewone uitdrukking."
 
-#: view/kateview.cpp:628
+#: view/kateview.cpp:625
 #, fuzzy
 #| msgid "Selected"
 msgid "Find Selected"
 msgstr "Gekose"
 
-#: view/kateview.cpp:630
+#: view/kateview.cpp:627
 msgid "Finds next occurrence of selected text."
 msgstr ""
 
-#: view/kateview.cpp:634
+#: view/kateview.cpp:631
 #, fuzzy
 #| msgid "Selected"
 msgid "Find Selected Backwards"
 msgstr "Gekose"
 
-#: view/kateview.cpp:636
+#: view/kateview.cpp:633
 #, fuzzy
 #| msgid "Look up the previous occurrence of the search phrase."
 msgid "Finds previous occurrence of selected text."
 msgstr "Kyk begin die vorige voorkoms van die soektog frase."
 
-#: view/kateview.cpp:640
+#: view/kateview.cpp:637
 msgid "Look up the next occurrence of the search phrase."
 msgstr "Kyk begin die volgende voorkoms van die soektog frase."
 
-#: view/kateview.cpp:644
+#: view/kateview.cpp:641
 msgid "Look up the previous occurrence of the search phrase."
 msgstr "Kyk begin die vorige voorkoms van die soektog frase."
 
-#: view/kateview.cpp:648
+#: view/kateview.cpp:645
 msgid ""
 "Look up a piece of text or regular expression and replace the result with "
 "some given text."
@@ -8018,39 +8056,39 @@ msgstr ""
 "Kyk begin 'n stuk van teks of gewone uitdrukking en vervang die resultaat "
 "met sommige gegewe teks."
 
-#: view/kateview.cpp:651
+#: view/kateview.cpp:648
 #, fuzzy
 #| msgid "&Automatic end of line detection"
 msgid "Automatic Spell Checking"
 msgstr "Automaties einde van lyn opsporing"
 
-#: view/kateview.cpp:652
+#: view/kateview.cpp:649
 msgid "Enable/disable automatic spell checking"
 msgstr ""
 
-#: view/kateview.cpp:658
+#: view/kateview.cpp:655
 #, fuzzy
 msgid "Change Dictionary..."
 msgstr "Konfigureer Redigeerder..."
 
-#: view/kateview.cpp:659
+#: view/kateview.cpp:656
 msgid "Change the dictionary that is used for spell checking."
 msgstr ""
 
-#: view/kateview.cpp:663
+#: view/kateview.cpp:660
 msgid "Clear Dictionary Ranges"
 msgstr ""
 
-#: view/kateview.cpp:665
+#: view/kateview.cpp:662
 msgid ""
 "Remove all the separate dictionary ranges that were set for spell checking."
 msgstr ""
 
-#: view/kateview.cpp:671
+#: view/kateview.cpp:668
 msgid "Copy as &HTML"
 msgstr "Kopie maak as &HTML"
 
-#: view/kateview.cpp:672
+#: view/kateview.cpp:669
 msgid ""
 "Use this command to copy the currently selected text as HTML to the system "
 "clipboard."
@@ -8058,13 +8096,13 @@ msgstr ""
 "Gebruik hierdie opdrag om te kopier die huidiglik gekose teks  as HTML na "
 "die stelsel klipbord."
 
-#: view/kateview.cpp:675
+#: view/kateview.cpp:672
 #, fuzzy
 #| msgid "Export File as HTML"
 msgid "E&xport as HTML..."
 msgstr "Voer uit Lêer as HTML"
 
-#: view/kateview.cpp:676
+#: view/kateview.cpp:673
 msgid ""
 "This command allows you to export the current document with all highlighting "
 "information into a HTML document."
@@ -8072,184 +8110,184 @@ msgstr ""
 "Hierdie opdrag laat jou toe om uit te voer die huidige dokument met alle "
 "verligting informasie binne in 'n Html dokument."
 
-#: view/kateview.cpp:714
+#: view/kateview.cpp:711
 msgid "Move Word Left"
 msgstr "Beweeg Woord Links"
 
-#: view/kateview.cpp:720
+#: view/kateview.cpp:717
 msgid "Select Character Left"
 msgstr "Kies Karakter Links"
 
-#: view/kateview.cpp:726
+#: view/kateview.cpp:723
 msgid "Select Word Left"
 msgstr "Kies Woord Links"
 
-#: view/kateview.cpp:732
+#: view/kateview.cpp:729
 msgid "Move Word Right"
 msgstr "Beweeg Woord Regterkant"
 
-#: view/kateview.cpp:738
+#: view/kateview.cpp:735
 msgid "Select Character Right"
 msgstr "Kies Karakter Regterkant"
 
-#: view/kateview.cpp:744
+#: view/kateview.cpp:741
 msgid "Select Word Right"
 msgstr "Kies Woord Regterkant"
 
-#: view/kateview.cpp:750
+#: view/kateview.cpp:747
 msgid "Move to Beginning of Line"
 msgstr "Beweeg na Begin van Lyn"
 
-#: view/kateview.cpp:756
+#: view/kateview.cpp:753
 msgid "Move to Beginning of Document"
 msgstr "Beweeg na Begin van Dokument"
 
-#: view/kateview.cpp:762
+#: view/kateview.cpp:759
 msgid "Select to Beginning of Line"
 msgstr "Kies na Begin van Lyn"
 
-#: view/kateview.cpp:768
+#: view/kateview.cpp:765
 msgid "Select to Beginning of Document"
 msgstr "Kies na Begin van Dokument"
 
-#: view/kateview.cpp:774
+#: view/kateview.cpp:771
 msgid "Move to End of Line"
 msgstr "Beweeg na Einde van Lyn"
 
-#: view/kateview.cpp:780
+#: view/kateview.cpp:777
 msgid "Move to End of Document"
 msgstr "Beweeg na Einde van Dokument"
 
-#: view/kateview.cpp:786
+#: view/kateview.cpp:783
 msgid "Select to End of Line"
 msgstr "Kies na Einde van Lyn"
 
-#: view/kateview.cpp:792
+#: view/kateview.cpp:789
 msgid "Select to End of Document"
 msgstr "Kies na Einde van Dokument"
 
-#: view/kateview.cpp:798
+#: view/kateview.cpp:795
 msgid "Select to Previous Line"
 msgstr "Kies na Vorige Lyn"
 
-#: view/kateview.cpp:804
+#: view/kateview.cpp:801
 msgid "Scroll Line Up"
 msgstr "Rol Lyn Begin"
 
-#: view/kateview.cpp:810
+#: view/kateview.cpp:807
 msgid "Move to Next Line"
 msgstr "Beweeg na Volgende Lyn"
 
-#: view/kateview.cpp:816
+#: view/kateview.cpp:813
 msgid "Move to Previous Line"
 msgstr "Beweeg na Vorige Lyn"
 
-#: view/kateview.cpp:822
+#: view/kateview.cpp:819
 #, fuzzy
 #| msgid "Move Word Right"
 msgid "Move Cursor Right"
 msgstr "Beweeg Woord Regterkant"
 
-#: view/kateview.cpp:828
+#: view/kateview.cpp:825
 #, fuzzy
 #| msgid "Move Word Left"
 msgid "Move Cursor Left"
 msgstr "Beweeg Woord Links"
 
-#: view/kateview.cpp:834
+#: view/kateview.cpp:831
 msgid "Select to Next Line"
 msgstr "Kies na Volgende Lyn"
 
-#: view/kateview.cpp:840
+#: view/kateview.cpp:837
 msgid "Scroll Line Down"
 msgstr "Rol Lyn Ondertoe"
 
-#: view/kateview.cpp:846
+#: view/kateview.cpp:843
 msgid "Scroll Page Up"
 msgstr "Rol Bladsy Begin"
 
-#: view/kateview.cpp:852
+#: view/kateview.cpp:849
 msgid "Select Page Up"
 msgstr "Kies Bladsy Begin"
 
-#: view/kateview.cpp:858
+#: view/kateview.cpp:855
 msgid "Move to Top of View"
 msgstr "Beweeg na Bo van Besigtig"
 
-#: view/kateview.cpp:864
+#: view/kateview.cpp:861
 msgid "Select to Top of View"
 msgstr "Kies na Bo van Besigtig"
 
-#: view/kateview.cpp:870
+#: view/kateview.cpp:867
 msgid "Scroll Page Down"
 msgstr "Rol Bladsy Ondertoe"
 
-#: view/kateview.cpp:876
+#: view/kateview.cpp:873
 msgid "Select Page Down"
 msgstr "Kies Bladsy Ondertoe"
 
-#: view/kateview.cpp:882
+#: view/kateview.cpp:879
 msgid "Move to Bottom of View"
 msgstr "Beweeg na Bodem van Besigtig"
 
-#: view/kateview.cpp:888
+#: view/kateview.cpp:885
 msgid "Select to Bottom of View"
 msgstr "Kies na Bodem van Besigtig"
 
-#: view/kateview.cpp:894
+#: view/kateview.cpp:891
 msgid "Move to Matching Bracket"
 msgstr "Beweeg na Ooreenstemmende Hakkie"
 
-#: view/kateview.cpp:900
+#: view/kateview.cpp:897
 msgid "Select to Matching Bracket"
 msgstr "Kies na Ooreenstemmende Hakkie"
 
-#: view/kateview.cpp:908
+#: view/kateview.cpp:905
 msgid "Transpose Characters"
 msgstr "Oordraende Karakters"
 
-#: view/kateview.cpp:914
+#: view/kateview.cpp:911
 msgid "Delete Line"
 msgstr "Uitvee Lyn"
 
-#: view/kateview.cpp:920
+#: view/kateview.cpp:917
 msgid "Delete Word Left"
 msgstr "Uitvee Woord Links"
 
-#: view/kateview.cpp:926
+#: view/kateview.cpp:923
 msgid "Delete Word Right"
 msgstr "Uitvee Woord Regterkant"
 
-#: view/kateview.cpp:932
+#: view/kateview.cpp:929
 msgid "Delete Next Character"
 msgstr "Verwyder Volgende Karakter"
 
-#: view/kateview.cpp:938
+#: view/kateview.cpp:935
 msgid "Backspace"
 msgstr "Terugruimte"
 
-#: view/kateview.cpp:947
+#: view/kateview.cpp:944
 #, fuzzy
 msgid "Insert Tab"
 msgstr "Inkeep"
 
-#: view/kateview.cpp:952
+#: view/kateview.cpp:949
 #, fuzzy
 #| msgid "Indent current &line"
 msgid "Insert Smart Newline"
 msgstr "Inkeping huidige lyn"
 
-#: view/kateview.cpp:953
+#: view/kateview.cpp:950
 msgid ""
 "Insert newline including leading characters of the current line which are "
 "not letters or numbers."
 msgstr ""
 
-#: view/kateview.cpp:963
+#: view/kateview.cpp:960
 msgid "&Indent"
 msgstr "Inkeep"
 
-#: view/kateview.cpp:964
+#: view/kateview.cpp:961
 #, fuzzy
 #| msgid ""
 #| "Use this to indent a selected block of text.<br><br>You can configure "
@@ -8264,65 +8302,47 @@ msgstr ""
 "konfigureer of oortjies geëerd en gebruik moet word of vervang moet word met "
 "spasies, in die konfigurasie dialoog."
 
-#: view/kateview.cpp:971
+#: view/kateview.cpp:968
 msgid "&Unindent"
 msgstr "Uitkeep"
 
-#: view/kateview.cpp:972
+#: view/kateview.cpp:969
 msgid "Use this to unindent a selected block of text."
 msgstr "Gebruik hierdie na uitkeep 'n gekose blok van teks."
 
-#: view/kateview.cpp:992
+#: view/kateview.cpp:989
 #, fuzzy
 #| msgid "Collapse Toplevel"
 msgid "Fold Toplevel Nodes"
 msgstr "Saambreek Boonstevlak"
 
-#: view/kateview.cpp:1010
+#: view/kateview.cpp:1007
 #, fuzzy
 #| msgid "Current line:"
 msgid "Fold Current Node"
 msgstr "Huidige lyn:"
 
-#: view/kateview.cpp:1014
+#: view/kateview.cpp:1011
 msgid "Unfold Current Node"
 msgstr ""
 
-#: view/kateview.cpp:1119
-msgid "OVERWRITE"
-msgstr ""
-
-#: view/kateview.cpp:1119
-msgid "INSERT"
-msgstr ""
-
-#: view/kateview.cpp:1132
-#, fuzzy
-#| msgid "E&ncoding"
-msgid "recording"
-msgstr "Enkodering"
-
-#: view/kateview.cpp:1154
+#: view/kateview.cpp:1115
 #, kde-format
 msgid "(R/O) %1"
 msgstr ""
 
-#: view/kateview.cpp:1170
-msgid "vi-mode"
-msgstr ""
-
 #: view/kateviewhelpers.cpp:197 view/kateviewhelpers.cpp:244
-#: view/kateviewhelpers.cpp:699
+#: view/kateviewhelpers.cpp:685
 #, kde-format
 msgctxt "from line - to line"
 msgid "<center>%1<br/>&#x2014;<br/>%2</center>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:873
+#: view/kateviewhelpers.cpp:859
 msgid "Available Commands"
 msgstr "Beskikbare Opdragte"
 
-#: view/kateviewhelpers.cpp:875
+#: view/kateviewhelpers.cpp:861
 msgid ""
 "<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
 "p>"
@@ -8330,17 +8350,17 @@ msgstr ""
 "<p>Vir hulp op individuele opdragte, doen <code>'help &lt;opdrag&gt;'</"
 "code></p>"
 
-#: view/kateviewhelpers.cpp:883
+#: view/kateviewhelpers.cpp:869
 #, kde-format
 msgid "No help for '%1'"
 msgstr "Geen hulp vir '%1'"
 
-#: view/kateviewhelpers.cpp:886
+#: view/kateviewhelpers.cpp:872
 #, kde-format
 msgid "No such command <b>%1</b>"
 msgstr "Geen so opdrag <b>%1</b>"
 
-#: view/kateviewhelpers.cpp:892
+#: view/kateviewhelpers.cpp:878
 #, fuzzy
 #| msgid ""
 #| "<p>This is the Katepart <b>command line</b>.<br>Syntax: <code><b>command "
@@ -8358,35 +8378,35 @@ msgstr ""
 "<kode><b>hulp lys</b></kode><br>Vir hulp vir individuele opdragte, voortgaan "
 "<kode><b>hulp &lt;opdrag&gt;</b></kode></p>"
 
-#: view/kateviewhelpers.cpp:980 vimode/kateviemulatedcommandbar.cpp:1158
+#: view/kateviewhelpers.cpp:966 vimode/kateviemulatedcommandbar.cpp:1158
 #, kde-format
 msgid "Error: No range allowed for command \"%1\"."
 msgstr ""
 
-#: view/kateviewhelpers.cpp:993 vimode/kateviemulatedcommandbar.cpp:1165
+#: view/kateviewhelpers.cpp:979 vimode/kateviemulatedcommandbar.cpp:1165
 msgid "Success: "
 msgstr "Sukses: "
 
-#: view/kateviewhelpers.cpp:1007 vimode/kateviemulatedcommandbar.cpp:1174
+#: view/kateviewhelpers.cpp:993 vimode/kateviemulatedcommandbar.cpp:1174
 #, kde-format
 msgid "Command \"%1\" failed."
 msgstr "Opdrag \"%1\" gevaal."
 
-#: view/kateviewhelpers.cpp:1011 vimode/kateviemulatedcommandbar.cpp:1178
+#: view/kateviewhelpers.cpp:997 vimode/kateviemulatedcommandbar.cpp:1178
 #, kde-format
 msgid "No such command: \"%1\""
 msgstr "Geen so opdrag: \"%1\""
 
-#: view/kateviewhelpers.cpp:2032 view/kateviewhelpers.cpp:2033
+#: view/kateviewhelpers.cpp:2015 view/kateviewhelpers.cpp:2016
 #, kde-format
 msgid "Mark Type %1"
 msgstr "Merk Tipe %1"
 
-#: view/kateviewhelpers.cpp:2055
+#: view/kateviewhelpers.cpp:2038
 msgid "Set Default Mark Type"
 msgstr "Instel Verstek Merk Tipe"
 
-#: view/kateviewhelpers.cpp:2114
+#: view/kateviewhelpers.cpp:2097
 msgid "Disable Annotation Bar"
 msgstr ""
 
@@ -8394,7 +8414,7 @@ msgstr ""
 msgid "All documents written to disk"
 msgstr ""
 
-#: vimode/kateviappcommands.cpp:76 vimode/katevicmds.cpp:310
+#: vimode/kateviappcommands.cpp:76 vimode/katevicmds.cpp:311
 msgid "Document written to disk"
 msgstr ""
 
@@ -8505,33 +8525,33 @@ msgstr ""
 msgid "<p><b>ls</b></p><p>list current buffers<p>"
 msgstr ""
 
-#: vimode/katevicmds.cpp:68
+#: vimode/katevicmds.cpp:69
 #, fuzzy, kde-format
 #| msgid "Missing argument. Usage: %1 <value>"
 msgid "Missing argument. Usage: %1 <from>"
 msgstr "Vermisde argument. Gebruik: %1 <waarde>"
 
-#: vimode/katevicmds.cpp:75
+#: vimode/katevicmds.cpp:76
 #, kde-format
 msgid "No mapping found for \"%1\""
 msgstr ""
 
-#: vimode/katevicmds.cpp:78
+#: vimode/katevicmds.cpp:79
 #, kde-format
 msgid "\"%1\" is mapped to \"%2\""
 msgstr ""
 
-#: vimode/katevicmds.cpp:84
+#: vimode/katevicmds.cpp:85
 #, fuzzy, kde-format
 #| msgid "Missing argument. Usage: %1 <value>"
 msgid "Missing argument(s). Usage: %1 <from> [<to>]"
 msgstr "Vermisde argument. Gebruik: %1 <waarde>"
 
-#: vimode/katevicmds.cpp:152 vimode/katevicmds.cpp:169
+#: vimode/katevicmds.cpp:153 vimode/katevicmds.cpp:170
 msgid "Wrong arguments"
 msgstr ""
 
-#: vimode/katevicmds.cpp:321
+#: vimode/katevicmds.cpp:322
 msgid ""
 "<p><b>w/wa &mdash; write document(s) to disk</b></p><p>Usage: <tt><b>w[a]</"
 "b></tt></p><p>Writes the current document(s) to disk. It can be called in "
@@ -8540,86 +8560,73 @@ msgid ""
 "associated with the document, a file dialog will be shown.</p>"
 msgstr ""
 
-#: vimode/kateviinputmodeconfigtab.cpp:211
+#: vimode/kateviinputmodeconfigtab.cpp:207
 #, fuzzy
 #| msgid "Unable to open %1"
 msgid "Unable to open the config file for reading."
 msgstr "Nie moontlik na open %1"
 
-#: vimode/kateviinputmodeconfigtab.cpp:211
+#: vimode/kateviinputmodeconfigtab.cpp:207
 #, fuzzy
 #| msgid "Unable to open %1"
 msgid "Unable to open file"
 msgstr "Nie moontlik na open %1"
 
-#: vimode/kateviinputmodemanager.cpp:778
+#: vimode/kateviinputmodemanager.cpp:772
 #, fuzzy, kde-format
 #| msgid "Mark Type %1"
 msgid "Mark set: %1"
 msgstr "Merk Tipe %1"
 
-#: vimode/kateviinputmodemanager.cpp:820
+#: vimode/kateviinputmodemanager.cpp:814
 #, fuzzy
 #| msgid "Go to the next bookmark."
 msgid "There are no more chars for the next bookmark."
 msgstr "Gaan na die volgende boekmerk."
 
-#: vimode/kateviinputmodemanager.cpp:888
+#: vimode/kateviinputmodemanager.cpp:880
 msgid "VI: INSERT MODE"
 msgstr ""
 
-#: vimode/kateviinputmodemanager.cpp:891
+#: vimode/kateviinputmodemanager.cpp:883
 msgid "VI: NORMAL MODE"
 msgstr ""
 
-#: vimode/kateviinputmodemanager.cpp:894
+#: vimode/kateviinputmodemanager.cpp:886
 msgid "VI: VISUAL"
 msgstr ""
 
-#: vimode/kateviinputmodemanager.cpp:897
+#: vimode/kateviinputmodemanager.cpp:889
 msgid "VI: VISUAL BLOCK"
 msgstr ""
 
-#: vimode/kateviinputmodemanager.cpp:900
+#: vimode/kateviinputmodemanager.cpp:892
 msgid "VI: VISUAL LINE"
 msgstr ""
 
-#: vimode/kateviinputmodemanager.cpp:903
+#: vimode/kateviinputmodemanager.cpp:895
 msgid "VI: REPLACE"
 msgstr ""
 
-#: vimode/kateviinsertmode.cpp:268 vimode/katevimodebase.cpp:937
-#: vimode/katevinormalmode.cpp:3708
+#: vimode/kateviinsertmode.cpp:270 vimode/katevimodebase.cpp:937
+#: vimode/katevinormalmode.cpp:3709
 #, kde-format
 msgid "Nothing in register %1"
 msgstr ""
 
-#: vimode/katevinormalmode.cpp:1626
+#: vimode/katevinormalmode.cpp:1627
 #, kde-format
 msgid "'%1' %2,  Hex %3,  Octal %4"
 msgstr ""
 
-#: vimode/katevinormalmode.cpp:2448
+#: vimode/katevinormalmode.cpp:2449
 #, fuzzy, kde-format
 #| msgid "Mark Type %1"
 msgid "Mark not set: %1"
 msgstr "Merk Tipe %1"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkViInputModeDefault)
-#: vimode/viinputmodeconfigwidget.ui:35
-msgid ""
-"When selected, the vi input mode will be enabled when opening a new view. "
-"You can still toggle the vi input mode on/off for a particular view in the "
-"Edit menu."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkViInputModeDefault)
-#: vimode/viinputmodeconfigwidget.ui:38
-msgid "Use Vi input mode"
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkViCommandsOverride)
-#: vimode/viinputmodeconfigwidget.ui:45
+#: vimode/viinputmodeconfigwidget.ui:35
 msgid ""
 "When selected, vi commands will override Kate's built-in commands. For "
 "example: Ctrl+R will redo, and override the standard action (showing the "
@@ -8627,12 +8634,12 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkViCommandsOverride)
-#: vimode/viinputmodeconfigwidget.ui:48
+#: vimode/viinputmodeconfigwidget.ui:38
 msgid "Let Vi commands override Kate shortcuts"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkViRelLineNumbers)
-#: vimode/viinputmodeconfigwidget.ui:55
+#: vimode/viinputmodeconfigwidget.ui:45
 #, fuzzy
 #| msgid "Show/hide the line numbers on the left hand side of the view."
 msgid ""
@@ -8642,14 +8649,14 @@ msgstr ""
 "Vertoon/steek weg die lyn nommers op die links hand kant van die besigtig."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkViRelLineNumbers)
-#: vimode/viinputmodeconfigwidget.ui:58
+#: vimode/viinputmodeconfigwidget.ui:48
 #, fuzzy
 #| msgid "Print &line numbers"
 msgid "Display relative line numbers"
 msgstr "Druk lyn nommers"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
-#: vimode/viinputmodeconfigwidget.ui:73
+#: vimode/viinputmodeconfigwidget.ui:63
 msgid ""
 "Key mapping is used to change the meaning of typed keys. This allows you to "
 "move commands to other keys or make special keypresses for doing a series of "
@@ -8662,12 +8669,12 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: vimode/viinputmodeconfigwidget.ui:76
+#: vimode/viinputmodeconfigwidget.ui:66
 msgid "Key Mapping"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, normalTab)
-#: vimode/viinputmodeconfigwidget.ui:86
+#: vimode/viinputmodeconfigwidget.ui:76
 #, fuzzy
 #| msgid "Normal Text"
 msgid "Normal mode"
@@ -8676,8 +8683,8 @@ msgstr "Normale Teks"
 #. i18n: ectx: property (text), widget (QTableWidget, tblNormalModeMappings)
 #. i18n: ectx: property (text), widget (QTableWidget, tblInsertModeMappings)
 #. i18n: ectx: property (text), widget (QTableWidget, tblVisualModeMappings)
-#: vimode/viinputmodeconfigwidget.ui:110 vimode/viinputmodeconfigwidget.ui:148
-#: vimode/viinputmodeconfigwidget.ui:186
+#: vimode/viinputmodeconfigwidget.ui:100 vimode/viinputmodeconfigwidget.ui:138
+#: vimode/viinputmodeconfigwidget.ui:176
 #, fuzzy
 msgid "Replacement"
 msgstr "Vervang"
@@ -8685,45 +8692,45 @@ msgstr "Vervang"
 #. i18n: ectx: property (text), widget (QTableWidget, tblNormalModeMappings)
 #. i18n: ectx: property (text), widget (QTableWidget, tblInsertModeMappings)
 #. i18n: ectx: property (text), widget (QTableWidget, tblVisualModeMappings)
-#: vimode/viinputmodeconfigwidget.ui:115 vimode/viinputmodeconfigwidget.ui:153
-#: vimode/viinputmodeconfigwidget.ui:191
+#: vimode/viinputmodeconfigwidget.ui:105 vimode/viinputmodeconfigwidget.ui:143
+#: vimode/viinputmodeconfigwidget.ui:181
 msgid "Recursive?"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, insertTab)
-#: vimode/viinputmodeconfigwidget.ui:124
+#: vimode/viinputmodeconfigwidget.ui:114
 #, fuzzy
 msgid "Insert mode"
 msgstr "Inkeep"
 
 #. i18n: ectx: attribute (title), widget (QWidget, visualTab)
-#: vimode/viinputmodeconfigwidget.ui:162
+#: vimode/viinputmodeconfigwidget.ui:152
 #, fuzzy
 #| msgid "Normal Text"
 msgid "Visual mode"
 msgstr "Normale Teks"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRemoveSelectedRows)
-#: vimode/viinputmodeconfigwidget.ui:205
+#: vimode/viinputmodeconfigwidget.ui:195
 #, fuzzy
 #| msgid "Selected"
 msgid "Remove selected"
 msgstr "Gekose"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAddNewRow)
-#: vimode/viinputmodeconfigwidget.ui:212
+#: vimode/viinputmodeconfigwidget.ui:202
 msgid "Add new mapping"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, btnImportNormal)
-#: vimode/viinputmodeconfigwidget.ui:219
+#: vimode/viinputmodeconfigwidget.ui:209
 msgid ""
 "Read a vimrc file and attempt to import mappings specified with the \"[n]"
 "noremap\" command."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, btnImportNormal)
-#: vimode/viinputmodeconfigwidget.ui:222
+#: vimode/viinputmodeconfigwidget.ui:212
 msgid "Import from vimrc file"
 msgstr ""
 
