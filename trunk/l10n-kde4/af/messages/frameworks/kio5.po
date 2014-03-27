@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-26 01:43+0000\n"
+"POT-Creation-Date: 2014-03-27 01:44+0000\n"
 "PO-Revision-Date: 2005-11-25 05:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -15,6 +15,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Frikkie Thirion,Juanita Franz "
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "frix@expertron.co.za,juanita.franz@vr-web.de "
 
 #: autotests/jobtest.cpp:1035
 #, fuzzy
@@ -2076,7 +2084,7 @@ msgstr "Kies 'n ander lêer naam vir die bestemming lêer."
 msgid "Undocumented Error"
 msgstr "Ongedokumenteerde Fout"
 
-#: src/core/kcoredirlister.cpp:397 src/widgets/krun.cpp:834
+#: src/core/kcoredirlister.cpp:397 src/widgets/krun.cpp:836
 #: src/widgets/paste.cpp:260 src/widgets/renamedialog.cpp:410
 #, kde-format
 msgid ""
@@ -2429,22 +2437,22 @@ msgstr "Herstel"
 msgid "&No"
 msgstr "Geen"
 
-#: src/core/slaveinterface.cpp:413 src/core/tcpslavebase.cpp:822
+#: src/core/slaveinterface.cpp:410 src/core/tcpslavebase.cpp:822
 #: src/widgets/sslui.cpp:78
 msgid "&Details"
 msgstr "Details"
 
-#: src/core/slaveinterface.cpp:415 src/core/tcpslavebase.cpp:839
+#: src/core/slaveinterface.cpp:412 src/core/tcpslavebase.cpp:839
 #: src/widgets/sslui.cpp:114
 msgid "&Forever"
 msgstr "Veraltyd"
 
-#: src/core/slaveinterface.cpp:419 src/core/tcpslavebase.cpp:822
+#: src/core/slaveinterface.cpp:416 src/core/tcpslavebase.cpp:822
 #: src/widgets/sslui.cpp:79
 msgid "Co&ntinue"
 msgstr "Gaan voort"
 
-#: src/core/slaveinterface.cpp:421 src/core/tcpslavebase.cpp:840
+#: src/core/slaveinterface.cpp:418 src/core/tcpslavebase.cpp:840
 #: src/widgets/sslui.cpp:115
 #, fuzzy
 #| msgid "&Current Sessions Only"
@@ -4174,6 +4182,117 @@ msgstr "Bedieners, bladsy skripte"
 msgid "You do not have permission to access the %1 protocol."
 msgstr "Jy het nie toestemming om toegang tot protokol %1 te verkry nie."
 
+#: src/kioexec/main.cpp:46
+msgid "KIO Exec - Opens remote files, watches modifications, asks for upload"
+msgstr ""
+"KIO Exec - Maak afgeleë lêers oop, kyk vir veranderinge en bevestig oplaai "
+"aansoeke"
+
+#: src/kioexec/main.cpp:80
+#, kde-format
+msgid ""
+"The URL %1\n"
+"is malformed"
+msgstr ""
+"Die URL '%1'\n"
+" is verkeerd geformatteer."
+
+#: src/kioexec/main.cpp:82
+#, kde-format
+msgid ""
+"Remote URL %1\n"
+"not allowed with --tempfiles switch"
+msgstr ""
+"Afgeleë URL %1\n"
+"--tempfiles opsie word nie toegelaat nie"
+
+#: src/kioexec/main.cpp:213
+#, kde-format
+msgid ""
+"The supposedly temporary file\n"
+"%1\n"
+"has been modified.\n"
+"Do you still want to delete it?"
+msgstr ""
+"Die tydelike dokument\n"
+"%1\n"
+"was verander.\n"
+"Wil jy dit nogsteeds uitvee?"
+
+#: src/kioexec/main.cpp:214 src/kioexec/main.cpp:221
+msgid "File Changed"
+msgstr "Lêer het verander"
+
+#: src/kioexec/main.cpp:214
+msgid "Do Not Delete"
+msgstr "Moenie uitvee nie"
+
+#: src/kioexec/main.cpp:220
+#, kde-format
+msgid ""
+"The file\n"
+"%1\n"
+"has been modified.\n"
+"Do you want to upload the changes?"
+msgstr ""
+"Die lêer\n"
+"%1\n"
+"het verander.\n"
+"Wil jy die verskille oplaai?"
+
+#: src/kioexec/main.cpp:221
+msgid "Upload"
+msgstr "Oplaai"
+
+#: src/kioexec/main.cpp:221
+msgid "Do Not Upload"
+msgstr "Moenie oplaai nie"
+
+#: src/kioexec/main.cpp:252
+msgid "KIOExec"
+msgstr "KIOExec"
+
+#: src/kioexec/main.cpp:254
+msgid "(c) 1998-2000,2003 The KFM/Konqueror Developers"
+msgstr ""
+
+#: src/kioexec/main.cpp:255
+msgid "David Faure"
+msgstr ""
+
+#: src/kioexec/main.cpp:256
+msgid "Stephan Kulow"
+msgstr ""
+
+#: src/kioexec/main.cpp:257
+msgid "Bernhard Rosenkraenzer"
+msgstr ""
+
+#: src/kioexec/main.cpp:258
+msgid "Waldo Bastian"
+msgstr ""
+
+#: src/kioexec/main.cpp:259
+msgid "Oswald Buddenhagen"
+msgstr ""
+
+#: src/kioexec/main.cpp:264
+msgid "Treat URLs as local files and delete them afterwards"
+msgstr "Handteer URLs as plaaslike lêers en vee hulle na die tyd uit."
+
+#: src/kioexec/main.cpp:265
+#, fuzzy
+msgid "Suggested file name for the downloaded file"
+msgstr "Kies 'n alternatiwe lêernaam vir die nuwe lêer."
+
+#: src/kioexec/main.cpp:266
+msgid "Command to execute"
+msgstr "Opdrag om uit te voer"
+
+#: src/kioexec/main.cpp:267
+msgid "URL(s) or local file(s) used for 'command'"
+msgstr "URL(s) en plaaslike lêer(s) gebruik vir 'opdrag'"
+
 #: src/kpac/discovery.cpp:112
 msgid "Could not find a usable proxy configuration script"
 msgstr "Kon nie 'n bruikbare proxy opstel skrip vind nie"
@@ -4217,6 +4336,31 @@ msgstr ""
 #, kde-format
 msgid "Got an invalid reply when calling %1"
 msgstr ""
+
+#: src/kpasswdserver/kpasswdserver.cpp:556
+#, fuzzy
+#| msgid "  Do you want to retry?"
+msgid "Do you want to retry?"
+msgstr "  Wil jy weer probeer?"
+
+#: src/kpasswdserver/kpasswdserver.cpp:561
+#, fuzzy
+#| msgid "Server Authentication"
+msgid "Retry Authentication"
+msgstr "Bediener Geldigheidsverklaring"
+
+#: src/kpasswdserver/kpasswdserver.cpp:565
+#, fuzzy
+#| msgid "Retry"
+msgctxt "@action:button filter-continue"
+msgid "Retry"
+msgstr "Probeer weer"
+
+#: src/kpasswdserver/kpasswdserver.cpp:858
+#, fuzzy
+#| msgid "Authorization Dialog"
+msgid "Authentication Dialog"
+msgstr "Geldigheidstoets Dialoog"
 
 #: src/widgets/accessmanager.cpp:221
 msgid "Blocked request."
@@ -5635,7 +5779,7 @@ msgstr "Slegs uitvoerbares op plaaslike lêer sisteme word ondersteunde."
 msgid "Advanced Options for %1"
 msgstr "Gevorderde Opsies vir %1"
 
-#: src/widgets/krun.cpp:168
+#: src/widgets/krun.cpp:170
 #, kde-format
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
@@ -5644,7 +5788,7 @@ msgstr ""
 "<qt>Nie moontlik na invoer <b>%1</b>.\n"
 "Jy doen nie het toegang verkry regte na hierdie ligging.</qt>"
 
-#: src/widgets/krun.cpp:197
+#: src/widgets/krun.cpp:199
 #, kde-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
@@ -5653,60 +5797,60 @@ msgstr ""
 "<qt>Die lêer <b>%1</b> is 'n uitvoerbare program. Vir veiligheid sal dit nie "
 "begin word nie.</qt>"
 
-#: src/widgets/krun.cpp:203
+#: src/widgets/krun.cpp:205
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>Jy doen nie het reg na hardloop <b>%1</b>.</qt>"
 
-#: src/widgets/krun.cpp:233
+#: src/widgets/krun.cpp:235
 #, fuzzy
 msgid "You are not authorized to select an application to open this file."
 msgstr "Jy is nie gemagtig om hierdie lêer oop te maak nie."
 
-#: src/widgets/krun.cpp:244
+#: src/widgets/krun.cpp:246
 msgid "Open with:"
 msgstr "Open met:"
 
-#: src/widgets/krun.cpp:294
+#: src/widgets/krun.cpp:296
 msgid "You are not authorized to execute this file."
 msgstr "Jy word nie gemagtig na uitvoer hierdie lêer."
 
-#: src/widgets/krun.cpp:317
+#: src/widgets/krun.cpp:319
 #, kde-format
 msgid "Launching %1"
 msgstr "Besig om te %1 begin"
 
-#: src/widgets/krun.cpp:422
+#: src/widgets/krun.cpp:424
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr ""
 
-#: src/widgets/krun.cpp:594
+#: src/widgets/krun.cpp:596
 msgid "You are not authorized to execute this service."
 msgstr "Jy word nie gemagtig na uitvoer hierdie diens."
 
-#: src/widgets/krun.cpp:599
+#: src/widgets/krun.cpp:601
 #, fuzzy
 #| msgid "Examining"
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "Ondersoek"
 
-#: src/widgets/krun.cpp:616
+#: src/widgets/krun.cpp:618
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr ""
 
-#: src/widgets/krun.cpp:633
+#: src/widgets/krun.cpp:635
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 
-#: src/widgets/krun.cpp:676
+#: src/widgets/krun.cpp:678
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
-#: src/widgets/krun.cpp:858
+#: src/widgets/krun.cpp:860
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -5715,7 +5859,7 @@ msgstr ""
 "<qt>Kon nie die gespesifiseerde opdrag uitvoer nie. Die lêer of gids <b>%1</"
 "b> bestaan nie.</qt>"
 
-#: src/widgets/krun.cpp:1445
+#: src/widgets/krun.cpp:1455
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "Kon nie die program '%1' vind nie."
@@ -6075,14 +6219,6 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "Frikkie Thirion,Juanita Franz "
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "frix@expertron.co.za,juanita.franz@vr-web.de "
 
 #, fuzzy
 #~| msgid "New Folder"
@@ -6814,9 +6950,6 @@ msgstr ""
 #~ msgid "ERROR: Unknown protocol '%1'"
 #~ msgstr "Onbekende protokol '%1'."
 
-#~ msgid "Authorization Dialog"
-#~ msgstr "Geldigheidstoets Dialoog"
-
 #~ msgid "The clipboard is empty"
 #~ msgstr "Die klipbord is leeg"
 
@@ -7353,11 +7486,6 @@ msgstr ""
 
 #~ msgid "Add Bookmark"
 #~ msgstr "Voeg Boekmerk By"
-
-#, fuzzy
-#~| msgid "  Do you want to retry?"
-#~ msgid " Do you want to retry?"
-#~ msgstr "  Wil jy weer probeer?"
 
 #~ msgid "Authentication"
 #~ msgstr "Geldigheidsverklaring"
@@ -8152,78 +8280,8 @@ msgstr ""
 #~ msgid " %1/s "
 #~ msgstr " %1/s "
 
-#~ msgid ""
-#~ "KIO Exec - Opens remote files, watches modifications, asks for upload"
-#~ msgstr ""
-#~ "KIO Exec - Maak afgeleë lêers oop, kyk vir veranderinge en bevestig "
-#~ "oplaai aansoeke"
-
-#~ msgid "Treat URLs as local files and delete them afterwards"
-#~ msgstr "Handteer URLs as plaaslike lêers en vee hulle na die tyd uit."
-
-#, fuzzy
-#~ msgid "Suggested file name for the downloaded file"
-#~ msgstr "Kies 'n alternatiwe lêernaam vir die nuwe lêer."
-
-#~ msgid "Command to execute"
-#~ msgstr "Opdrag om uit te voer"
-
-#~ msgid "URL(s) or local file(s) used for 'command'"
-#~ msgstr "URL(s) en plaaslike lêer(s) gebruik vir 'opdrag'"
-
 #~ msgid "'command' expected.\n"
 #~ msgstr "verwag 'opdrag'.\n"
-
-#~ msgid ""
-#~ "The URL %1\n"
-#~ "is malformed"
-#~ msgstr ""
-#~ "Die URL '%1'\n"
-#~ " is verkeerd geformatteer."
-
-#~ msgid ""
-#~ "Remote URL %1\n"
-#~ "not allowed with --tempfiles switch"
-#~ msgstr ""
-#~ "Afgeleë URL %1\n"
-#~ "--tempfiles opsie word nie toegelaat nie"
-
-#~ msgid ""
-#~ "The supposedly temporary file\n"
-#~ "%1\n"
-#~ "has been modified.\n"
-#~ "Do you still want to delete it?"
-#~ msgstr ""
-#~ "Die tydelike dokument\n"
-#~ "%1\n"
-#~ "was verander.\n"
-#~ "Wil jy dit nogsteeds uitvee?"
-
-#~ msgid "File Changed"
-#~ msgstr "Lêer het verander"
-
-#~ msgid "Do Not Delete"
-#~ msgstr "Moenie uitvee nie"
-
-#~ msgid ""
-#~ "The file\n"
-#~ "%1\n"
-#~ "has been modified.\n"
-#~ "Do you want to upload the changes?"
-#~ msgstr ""
-#~ "Die lêer\n"
-#~ "%1\n"
-#~ "het verander.\n"
-#~ "Wil jy die verskille oplaai?"
-
-#~ msgid "Upload"
-#~ msgstr "Oplaai"
-
-#~ msgid "Do Not Upload"
-#~ msgstr "Moenie oplaai nie"
-
-#~ msgid "KIOExec"
-#~ msgstr "KIOExec"
 
 #~ msgid "s"
 #~ msgstr "s"
