@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-12 01:34+0000\n"
+"POT-Creation-Date: 2014-04-13 01:37+0000\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1598,7 +1598,7 @@ msgstr "Voeg by Beeld as Laag..."
 msgid "Convert Projection Color Space"
 msgstr ""
 
-#: image/kis_image.cc:918 ui/kis_layer_manager.cc:716
+#: image/kis_image.cc:918 ui/kis_layer_manager.cc:710
 #, fuzzy
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
@@ -2962,7 +2962,7 @@ msgid "&Select Opaque"
 msgstr "Kies Geen"
 
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:459
-#: ui/kis_layer_manager.cc:285
+#: ui/kis_layer_manager.cc:284
 #, fuzzy
 msgid "&Merge with Layer Below"
 msgstr "Saamvlans Alle Lae"
@@ -5294,7 +5294,7 @@ msgstr "Kleur Wisselaar"
 msgid "&Desaturate"
 msgstr "Versadiging"
 
-#: plugins/filters/colorsfilters/kis_desaturate_filter.h:47
+#: plugins/filters/colorsfilters/kis_desaturate_filter.h:46
 #, fuzzy
 msgid "Desaturate"
 msgstr "Versadiging"
@@ -10583,33 +10583,53 @@ msgstr ""
 msgid "Grid"
 msgstr "Blou"
 
-#: ui/canvas/kis_grid_manager.cpp:69
+#: ui/canvas/kis_grid_manager.cpp:70
 #, fuzzy
 msgid "Snap To Grid"
 msgstr "Blou"
 
-#: ui/canvas/kis_grid_manager.cpp:74
+#: ui/canvas/kis_grid_manager.cpp:76
 msgid "1x1"
 msgstr ""
 
-#: ui/canvas/kis_grid_manager.cpp:78
+#: ui/canvas/kis_grid_manager.cpp:80
 msgid "2x2"
 msgstr ""
 
-#: ui/canvas/kis_grid_manager.cpp:82
+#: ui/canvas/kis_grid_manager.cpp:84
+msgid "4x4"
+msgstr ""
+
+#: ui/canvas/kis_grid_manager.cpp:88
 msgid "5x5"
 msgstr ""
 
-#: ui/canvas/kis_grid_manager.cpp:86
+#: ui/canvas/kis_grid_manager.cpp:92
+msgid "8x8"
+msgstr ""
+
+#: ui/canvas/kis_grid_manager.cpp:96
 msgid "10x10"
 msgstr ""
 
-#: ui/canvas/kis_grid_manager.cpp:90
+#: ui/canvas/kis_grid_manager.cpp:100
+msgid "16x16"
+msgstr ""
+
+#: ui/canvas/kis_grid_manager.cpp:104
 msgid "20x20"
 msgstr ""
 
-#: ui/canvas/kis_grid_manager.cpp:94
+#: ui/canvas/kis_grid_manager.cpp:108
+msgid "32x32"
+msgstr ""
+
+#: ui/canvas/kis_grid_manager.cpp:112
 msgid "40x40"
+msgstr ""
+
+#: ui/canvas/kis_grid_manager.cpp:116
+msgid "64x64"
 msgstr ""
 
 #: ui/canvas/kis_infinity_manager.cpp:38
@@ -12925,86 +12945,86 @@ msgstr "Laag Eienskappe..."
 msgid "Import Image"
 msgstr "In voer Beeld..."
 
-#: ui/kis_layer_manager.cc:280
+#: ui/kis_layer_manager.cc:279
 #, fuzzy
 msgid "&Flatten image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_layer_manager.cc:290
+#: ui/kis_layer_manager.cc:289
 #, fuzzy
 msgid "&Flatten Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:294
+#: ui/kis_layer_manager.cc:293
 #, fuzzy
 msgid "Rename current layer"
 msgstr "Verwyder Huidige Laag"
 
-#: ui/kis_layer_manager.cc:300 ui/kis_layer_manager.cc:785
+#: ui/kis_layer_manager.cc:299 ui/kis_layer_manager.cc:779
 #, fuzzy
 msgid "Rasterize Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_layer_manager.cc:306
+#: ui/kis_layer_manager.cc:305
 #, fuzzy
 msgid "Save Group Layers..."
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_manager.cc:310
+#: ui/kis_layer_manager.cc:309
 #, fuzzy
 msgid "Size Canvas to Size of Current Layer"
 msgstr "Verwyder Huidige Laag"
 
-#: ui/kis_layer_manager.cc:365
+#: ui/kis_layer_manager.cc:359
 #, fuzzy
 msgid "Filter Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:410
+#: ui/kis_layer_manager.cc:404
 #, fuzzy
 msgid "Generator Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:491
+#: ui/kis_layer_manager.cc:485
 #, fuzzy
 msgid "Convert to a Paint Layer"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_layer_manager.cc:570
+#: ui/kis_layer_manager.cc:564
 #, fuzzy
 msgid "New Filter Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:629
+#: ui/kis_layer_manager.cc:623
 msgid "Could not add layer to image."
 msgstr "Kon nie voeg by laag na beeld."
 
-#: ui/kis_layer_manager.cc:629
+#: ui/kis_layer_manager.cc:623
 msgid "Layer Error"
 msgstr "Laag Fout"
 
-#: ui/kis_layer_manager.cc:715
+#: ui/kis_layer_manager.cc:709
 msgid "The image contains hidden layers that will be lost."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:717
+#: ui/kis_layer_manager.cc:711
 #, fuzzy
 msgid "&Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_layer_manager.cc:821
+#: ui/kis_layer_manager.cc:815
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:824
+#: ui/kis_layer_manager.cc:818
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:882
+#: ui/kis_layer_manager.cc:876
 msgid "No file name specified."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:882
+#: ui/kis_layer_manager.cc:876
 msgid "No file specified"
 msgstr ""
 
