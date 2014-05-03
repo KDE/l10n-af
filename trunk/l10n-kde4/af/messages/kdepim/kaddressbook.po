@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-01 01:42+0000\n"
+"POT-Creation-Date: 2014-05-03 01:42+0000\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -55,6 +55,47 @@ msgstr ""
 #| msgid "Current maintainer"
 msgid "Previous maintainer"
 msgstr "Huidige onderhouer"
+
+#: categoryselectwidget.cpp:118
+#, fuzzy
+#| msgid "Use last active filter"
+msgctxt "@action:button"
+msgid "Reset category filter"
+msgstr "Gebruik laaste aktief filter"
+
+#: categoryselectwidget.cpp:125
+#, fuzzy
+#| msgid "Use last active filter"
+msgctxt "@action:button"
+msgid "Clear category filter"
+msgstr "Gebruik laaste aktief filter"
+
+#: categoryselectwidget.cpp:129
+msgid "(Untagged)"
+msgstr ""
+
+#: categoryselectwidget.cpp:134
+msgid "(Groups)"
+msgstr ""
+
+#: categoryselectwidget.cpp:252
+msgid "(All)"
+msgstr ""
+
+#: categoryselectwidget.cpp:255
+#, fuzzy
+#| msgid "None"
+msgid "(None)"
+msgstr "Geen"
+
+#: categoryselectwidget.cpp:260
+msgid ", "
+msgstr ""
+
+#: categoryselectwidget.cpp:260
+#, kde-format
+msgid "<qt>Category filter: %1"
+msgstr ""
 
 #: contactfields.cpp:29
 msgctxt "@item Undefined import field type"
@@ -304,182 +345,187 @@ msgstr "Skrif tipe Instellings"
 msgid "Main Toolbar"
 msgstr "Kontak Nutsbalk"
 
-#: mainwidget.cpp:346
+#: mainwidget.cpp:361
 #, fuzzy, kde-format
 msgctxt "@label Search contacts in list"
 msgid "Search...<%1>"
 msgstr "Soektog"
 
-#: mainwidget.cpp:543
+#: mainwidget.cpp:561
 msgid "&Themes"
 msgstr ""
 
-#: mainwidget.cpp:554
+#: mainwidget.cpp:572
 msgctxt "@info:whatsthis"
 msgid "Print the complete address book or a selected number of contacts."
 msgstr ""
 
-#: mainwidget.cpp:560
+#: mainwidget.cpp:578
 #, fuzzy
 #| msgid "Recursive search"
 msgid "Quick search"
 msgstr "Rekursief soektog"
 
-#: mainwidget.cpp:564
+#: mainwidget.cpp:582
+#, fuzzy
+msgid "Category filter"
+msgstr "Katagoriee"
+
+#: mainwidget.cpp:586
 #, fuzzy
 msgid "Select All"
 msgstr "Nie gekies Alle"
 
-#: mainwidget.cpp:566
+#: mainwidget.cpp:588
 #, fuzzy
 msgid "Select all contacts in the current address book view."
 msgstr "K-adresboek"
 
-#: mainwidget.cpp:572
+#: mainwidget.cpp:594
 msgid "Show QR Codes"
 msgstr ""
 
-#: mainwidget.cpp:573
+#: mainwidget.cpp:595
 msgid "Show QR Codes in the contact."
 msgstr ""
 
-#: mainwidget.cpp:579
+#: mainwidget.cpp:601
 msgctxt "@action:inmenu"
 msgid "Simple (one column)"
 msgstr ""
 
-#: mainwidget.cpp:583
+#: mainwidget.cpp:605
 #, fuzzy
 msgid "Show a simple mode of the address book view."
 msgstr "In voer Kde 2 Adresboek"
 
-#: mainwidget.cpp:586
+#: mainwidget.cpp:608
 msgctxt "@action:inmenu"
 msgid "Two Columns"
 msgstr ""
 
-#: mainwidget.cpp:592
+#: mainwidget.cpp:614
 msgctxt "@action:inmenu"
 msgid "Three Columns"
 msgstr ""
 
-#: mainwidget.cpp:602
+#: mainwidget.cpp:624
 msgid "Import vCard..."
 msgstr "In voer Vkaart..."
 
-#: mainwidget.cpp:603
+#: mainwidget.cpp:625
 #, fuzzy
 msgid "Import contacts from a vCard file."
 msgstr "Kontak Nutsbalk"
 
-#: mainwidget.cpp:607
+#: mainwidget.cpp:629
 #, fuzzy
 msgid "Import CSV file..."
 msgstr "In voer Lys..."
 
-#: mainwidget.cpp:608
+#: mainwidget.cpp:630
 msgid "Import contacts from a file in comma separated value format."
 msgstr ""
 
-#: mainwidget.cpp:612
+#: mainwidget.cpp:634
 #, fuzzy
 msgid "Import LDIF file..."
 msgstr "In voer Kde 2 Adres Boek..."
 
-#: mainwidget.cpp:613
+#: mainwidget.cpp:635
 #, fuzzy
 msgid "Import contacts from an LDIF file."
 msgstr "Kontak Nutsbalk"
 
-#: mainwidget.cpp:617
+#: mainwidget.cpp:639
 #, fuzzy
 msgid "Import From LDAP server..."
 msgstr "Voer uit Vkaart 3.0..."
 
-#: mainwidget.cpp:618
+#: mainwidget.cpp:640
 #, fuzzy
 msgid "Import contacts from an LDAP server."
 msgstr "Kontak Nutsbalk"
 
-#: mainwidget.cpp:622
+#: mainwidget.cpp:644
 #, fuzzy
 msgid "Import GMX file..."
 msgstr "In voer Vkaart..."
 
-#: mainwidget.cpp:623
+#: mainwidget.cpp:645
 #, fuzzy
 msgid "Import contacts from a GMX address book file."
 msgstr "K-adresboek"
 
-#: mainwidget.cpp:628
+#: mainwidget.cpp:650
 #, fuzzy
 msgid "Export vCard 3.0..."
 msgstr "Voer uit Vkaart 3.0..."
 
-#: mainwidget.cpp:629
+#: mainwidget.cpp:651
 #, fuzzy
 msgid "Export contacts to a vCard 3.0 file."
 msgstr "Voer uit Vkaart 3.0..."
 
-#: mainwidget.cpp:633
+#: mainwidget.cpp:655
 #, fuzzy
 msgid "Export vCard 2.1..."
 msgstr "Voer uit Vkaart 3.0..."
 
-#: mainwidget.cpp:634
+#: mainwidget.cpp:656
 #, fuzzy
 msgid "Export contacts to a vCard 2.1 file."
 msgstr "Voer uit Vkaart 3.0..."
 
-#: mainwidget.cpp:638
+#: mainwidget.cpp:660
 #, fuzzy
 msgid "Export CSV file..."
 msgstr "Voer uit Lys..."
 
-#: mainwidget.cpp:639
+#: mainwidget.cpp:661
 msgid "Export contacts to a file in comma separated value format."
 msgstr ""
 
-#: mainwidget.cpp:643
+#: mainwidget.cpp:665
 #, fuzzy
 msgid "Export LDIF file..."
 msgstr "In voer Kde 2 Adres Boek..."
 
-#: mainwidget.cpp:644
+#: mainwidget.cpp:666
 #, fuzzy
 msgid "Export contacts to an LDIF file."
 msgstr "In voer Kde 2 Adres Boek..."
 
-#: mainwidget.cpp:648
+#: mainwidget.cpp:670
 #, fuzzy
 msgid "Export GMX file..."
 msgstr "In voer Kde 2 Adres Boek..."
 
-#: mainwidget.cpp:649
+#: mainwidget.cpp:671
 #, fuzzy
 msgid "Export contacts to a GMX address book file."
 msgstr "K-adresboek"
 
-#: mainwidget.cpp:657
+#: mainwidget.cpp:679
 #, fuzzy
 msgid "Merge Contacts..."
 msgstr "Kontak Nutsbalk"
 
-#: mainwidget.cpp:661
+#: mainwidget.cpp:683
 #, fuzzy
 msgid "Search Duplicate Contacts..."
 msgstr "Uitvee Kontak"
 
-#: mainwidget.cpp:664
+#: mainwidget.cpp:686
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: mainwidget.cpp:674 mainwidget.cpp:695
+#: mainwidget.cpp:696 mainwidget.cpp:717
 #, fuzzy
 msgid "Address Book"
 msgstr "K-adresboek"
 
-#: mainwidget.cpp:702 printing/printingwizard.cpp:59
+#: mainwidget.cpp:724 printing/printingwizard.cpp:59
 #, fuzzy
 #| msgid "Edit Contact"
 msgid "Print Contacts"
@@ -2884,9 +2930,6 @@ msgstr ""
 #~ msgid "No default filter"
 #~ msgstr "Nee verstek filter"
 
-#~ msgid "Use last active filter"
-#~ msgstr "Gebruik laaste aktief filter"
-
 #~ msgid "Use filter:"
 #~ msgstr "Gebruik filter:"
 
@@ -3989,10 +4032,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Addressbook Bookmarks"
 #~ msgstr "Adres Boek Blaaier"
-
-#, fuzzy
-#~ msgid "Category"
-#~ msgstr "Katagoriee"
 
 #, fuzzy
 #~ msgid "Unable to load '%1'."
