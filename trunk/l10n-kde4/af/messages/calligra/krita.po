@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-01 01:42+0000\n"
+"POT-Creation-Date: 2014-07-02 01:43+0000\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -121,7 +121,7 @@ msgstr "Kleur"
 msgid "&Restart Krita"
 msgstr ""
 
-#: gemini/desktopviewproxy.cpp:124 gemini/MainWindow.cpp:534
+#: gemini/desktopviewproxy.cpp:124 gemini/MainWindow.cpp:545
 msgid "Open Document"
 msgstr ""
 
@@ -219,7 +219,7 @@ msgstr "Instellings"
 msgid "Brushes and Stuff"
 msgstr ""
 
-#: gemini/main.cpp:70 gemini/MainWindow.cpp:245 gemini/MainWindow.cpp:287
+#: gemini/main.cpp:70 gemini/MainWindow.cpp:251 gemini/MainWindow.cpp:293
 #, fuzzy
 #| msgid "Krita"
 msgid "Krita Gemini"
@@ -248,12 +248,16 @@ msgstr ""
 msgid "Use full-screen display"
 msgstr "Laag Eienskappe..."
 
-#: gemini/MainWindow.cpp:286 gemini/MainWindow.cpp:625
+#: gemini/main.cpp:85
+msgid "Start with the Sketch interface"
+msgstr ""
+
+#: gemini/MainWindow.cpp:292 gemini/MainWindow.cpp:636
 #: sketch/MainWindow.cpp:150
 msgid "Untitled"
 msgstr ""
 
-#: gemini/MainWindow.cpp:628
+#: gemini/MainWindow.cpp:639
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
@@ -7851,7 +7855,6 @@ msgstr "Roteer 90"
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:46
 #: plugins/paintops/libpaintop/kis_pressure_rotation_option.cpp:29
 #: plugins/paintops/spray/wdgshapedynamicsoptions.ui:42
-#: plugins/tools/defaulttools/kis_tool_line.cc:72
 #, fuzzy
 msgid "Rotation"
 msgstr "Roteer 90"
@@ -8503,7 +8506,6 @@ msgstr "Verf"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:74
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:47
-#: plugins/tools/defaulttools/kis_tool_line.cc:70
 msgid "Pressure"
 msgstr ""
 
@@ -10496,33 +10498,24 @@ msgstr "Verf drempelpunt:"
 msgid "Draw a gradient."
 msgstr "Gradiënte"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:71
-#, fuzzy
-msgid "Tilt"
-msgstr "Gekoppel"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:73
-msgid "Tangential Pressure"
-msgstr ""
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:74
-#, fuzzy
-msgid "Varying End-Points"
-msgstr "Alfa"
-
-#: plugins/tools/defaulttools/kis_tool_line.cc:186
+#: plugins/tools/defaulttools/kis_tool_line.cc:54
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Line"
 msgstr "Verf drempelpunt:"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:259
+#: plugins/tools/defaulttools/kis_tool_line.cc:79
+#, fuzzy
+msgid "Use sensors"
+msgstr "Kleur"
+
+#: plugins/tools/defaulttools/kis_tool_line.cc:240
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_line.h:85
+#: plugins/tools/defaulttools/kis_tool_line.h:93
 #, fuzzy
 msgid "Line Tool"
 msgstr "Lyn Program"
@@ -13026,7 +13019,7 @@ msgid "Edit Mouse Wheel Input"
 msgstr ""
 
 #: ui/input/kis_abstract_input_action.cpp:44
-#: ui/input/kis_tool_invocation_action.cpp:49
+#: ui/input/kis_tool_invocation_action.cpp:50
 #, fuzzy
 msgid "Activate"
 msgstr "Verwyder Laag"
@@ -13350,26 +13343,31 @@ msgstr "Palette"
 msgid "The <i>Show Popup Palette</i> displays the popup palette."
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:45
+#: ui/input/kis_tool_invocation_action.cpp:46
 #, fuzzy
 msgid "Tool Invocation"
 msgstr "Hoeke:"
 
-#: ui/input/kis_tool_invocation_action.cpp:46
+#: ui/input/kis_tool_invocation_action.cpp:47
 msgid ""
 "The <i>Tool Invocation</i> action invokes the current tool, for example, "
 "using the brush tool, it will start painting."
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:50
+#: ui/input/kis_tool_invocation_action.cpp:51
 #, fuzzy
 msgid "Confirm"
 msgstr "Hoeke:"
 
-#: ui/input/kis_tool_invocation_action.cpp:51 ui/kis_view2.cpp:570
+#: ui/input/kis_tool_invocation_action.cpp:52 ui/kis_view2.cpp:570
 #, fuzzy
 msgid "Cancel"
 msgstr "Kanale"
+
+#: ui/input/kis_tool_invocation_action.cpp:53
+#, fuzzy
+msgid "Activate Line Tool"
+msgstr "Verwyder Laag"
 
 #: ui/input/kis_zoom_action.cpp:112
 #, fuzzy
@@ -15011,6 +15009,14 @@ msgstr ""
 #, fuzzy
 msgid "&Close"
 msgstr "Kleur"
+
+#, fuzzy
+#~ msgid "Tilt"
+#~ msgstr "Gekoppel"
+
+#, fuzzy
+#~ msgid "Varying End-Points"
+#~ msgstr "Alfa"
 
 #, fuzzy
 #~ msgid "Gradient Fill"
