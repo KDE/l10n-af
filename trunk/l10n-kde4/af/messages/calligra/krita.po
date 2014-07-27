@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-26 01:39+0000\n"
+"POT-Creation-Date: 2014-07-27 01:40+0000\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -2155,6 +2155,7 @@ msgstr "Driehoek"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:118
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:113
 msgid "Columns:"
 msgstr ""
 
@@ -3571,10 +3572,43 @@ msgstr ""
 msgid "Overview"
 msgstr "Oorleg"
 
+#. i18n: ectx: property (text), widget (QPushButton, saveBrush)
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:98
+#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:121
+#: ui/widgets/kis_workspace_chooser.cpp:89
+#, fuzzy
+msgid "Save"
+msgstr "Modus:"
+
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:102
+#: ui/widgets/kis_workspace_chooser.cpp:93
+#, fuzzy
+msgid "Insert name"
+msgstr "Laag Fout"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_15)
+#. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:111
+#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:188
+#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:131
+#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:22
+#: ui/forms/wdgautogradient.ui:25 ui/forms/wdgfilternodecreation.ui:17
+#: ui/forms/wdgflipbookselector.ui:28 ui/forms/wdgpaintopsettings.ui:93
+#, fuzzy
+msgid "Name:"
+msgstr "Naam:"
+
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:142
 #: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:117
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:297
 #, fuzzy
 msgid "Palette"
+msgstr "Palette"
+
+#: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:153
+#, fuzzy, kde-format
+msgid "Palette %1"
 msgstr "Palette"
 
 #: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:162
@@ -3647,18 +3681,6 @@ msgstr "Laag Eienskappe..."
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:187
 #, fuzzy
 msgid "Taskset Name"
-msgstr "Naam:"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, label_15)
-#. i18n: ectx: property (text), widget (QLabel, brushNameLbl)
-#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:188
-#: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:131
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:22
-#: ui/forms/wdgautogradient.ui:25 ui/forms/wdgfilternodecreation.ui:17
-#: ui/forms/wdgflipbookselector.ui:28 ui/forms/wdgpaintopsettings.ui:93
-#, fuzzy
-msgid "Name:"
 msgstr "Naam:"
 
 #: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:209
@@ -8700,13 +8722,6 @@ msgstr ""
 #, fuzzy
 msgid "Save Tip:"
 msgstr "Voeg by Laag..."
-
-#. i18n: ectx: property (text), widget (QPushButton, saveBrush)
-#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:121
-#: ui/widgets/kis_workspace_chooser.cpp:89
-#, fuzzy
-msgid "Save"
-msgstr "Modus:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, colorPerParticleCHBox)
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:47
@@ -14127,7 +14142,7 @@ msgstr ""
 msgid "Failed to save the selection for local selection %1."
 msgstr ""
 
-#: ui/opengl/kis_opengl_canvas2.cpp:533 ui/opengl/kis_opengl_canvas2.cpp:605
+#: ui/opengl/kis_opengl_canvas2.cpp:519 ui/opengl/kis_opengl_canvas2.cpp:591
 #, kde-format
 msgid ""
 "Krita could not initialize the OpenGL canvas:\n"
@@ -14455,11 +14470,6 @@ msgstr "Voeg by Laag..."
 #, fuzzy
 msgid "No configuration options."
 msgstr "Hoeke:"
-
-#: ui/widgets/kis_workspace_chooser.cpp:93
-#, fuzzy
-msgid "Insert name"
-msgstr "Laag Fout"
 
 #: ui/widgets/kis_workspace_chooser.cpp:124
 #, fuzzy
