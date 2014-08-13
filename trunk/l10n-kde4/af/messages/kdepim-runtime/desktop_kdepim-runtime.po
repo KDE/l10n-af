@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdepim stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-05 02:09+0000\n"
+"POT-Creation-Date: 2014-08-13 02:18+0000\n"
 "PO-Revision-Date: 2007-01-08 13:25+0200\n"
 "Last-Translator: Frikkie Thirion <kde.afrikaans@gmail.com>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -47,14 +47,6 @@ msgstr "Groupware bediener"
 msgctxt "Comment"
 msgid "Tine 2.0 Groupware Server"
 msgstr "Groupware bediener"
-
-#: agents/akonadinepomukfeederagent.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Kontact KNode Plugin"
-msgctxt "Name"
-msgid "Akonadi Nepomuk Feeder"
-msgstr "Kontact KNode inprop module"
 
 #: agents/invitations/invitationsagent.desktop:2
 msgctxt "Name"
@@ -181,18 +173,23 @@ msgctxt "Name"
 msgid "Akonadi Configuration"
 msgstr "KOrganizer aansig opstelling"
 
-#: kcm/kcm_akonadi.desktop:65 kcm/kcm_akonadi_resources.desktop:64
+#: kcm/kcm_akonadi.desktop:65
 msgctxt "Comment"
 msgid "Configuration of the Akonadi Personal Information Management framework"
 msgstr ""
 
-#: kcm/kcm_akonadi_resources.desktop:16
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "KOrganizer View Configuration"
+#: kcm/kcm_akonadi_resources.desktop:17
 msgctxt "Name"
-msgid "Akonadi Resources Configuration"
-msgstr "KOrganizer aansig opstelling"
+msgid "PIM Accounts and Resources"
+msgstr ""
+
+#: kcm/kcm_akonadi_resources.desktop:65
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Personal Information Manager"
+msgctxt "Comment"
+msgid "Personal Information Management Resources (Akonadi)"
+msgstr "Personlike informasie bestuurder"
 
 #: kcm/kcm_akonadi_server.desktop:15
 #, fuzzy
@@ -201,29 +198,6 @@ msgstr "KOrganizer aansig opstelling"
 msgctxt "Name"
 msgid "Akonadi Server Configuration"
 msgstr "KOrganizer aansig opstelling"
-
-#: kresources/kabc/akonadi.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Configure the Address Book"
-msgctxt "Name"
-msgid "Akonadi Address Books"
-msgstr "Stel die adres boek op"
-
-#: kresources/kabc/akonadi.desktop:50
-msgctxt "Comment"
-msgid "Provides access to contacts stored in Akonadi address book folders"
-msgstr ""
-
-#: kresources/kcal/akonadi.desktop:2
-msgctxt "Name"
-msgid "Akonadi"
-msgstr ""
-
-#: kresources/kcal/akonadi.desktop:55
-msgctxt "Comment"
-msgid "Provides access to calendars stored in Akonadi calendar folders"
-msgstr ""
 
 #: migration/kaddressbook/kaddressbookmigrator.desktop:2
 #, fuzzy
@@ -291,7 +265,6 @@ msgid "An Akonadi serializer plugin for KAlarm events"
 msgstr ""
 
 #: plugins/akonadi_serializer_kcalcore.desktop:2
-#: plugins/akonadi_serializer_kcal.desktop:2
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Address Manager"
@@ -300,7 +273,6 @@ msgid "Incidence Serializer"
 msgstr "Adres Bestuurder"
 
 #: plugins/akonadi_serializer_kcalcore.desktop:48
-#: plugins/akonadi_serializer_kcal.desktop:48
 msgctxt "Comment"
 msgid "An Akonadi serializer plugin for events, tasks and journal entries"
 msgstr ""
@@ -595,22 +567,6 @@ msgctxt "Comment"
 msgid "Imap account"
 msgstr "kmail,accounts"
 
-#: resources/kabc/kabcresource.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Calendar Decoration Plugin"
-msgctxt "Name"
-msgid "KDE Address Book (traditional)"
-msgstr "Kalender Versiering Inplak"
-
-#: resources/kabc/kabcresource.desktop:49
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "KAB Distribution List Plugin"
-msgctxt "Comment"
-msgid "Loads data from a traditional KDE address book resource"
-msgstr "KAB verspreiding lys inprop module"
-
 #: resources/kalarm/kalarmdir/kalarmdirresource.desktop:2
 #, fuzzy
 msgctxt "Name"
@@ -639,19 +595,6 @@ msgstr "Name=Kalender filter"
 msgctxt "Comment"
 msgid "Loads data from a KAlarm calendar file"
 msgstr "KAB verspreiding lys inprop module"
-
-#: resources/kcal/kcalresource.desktop:2
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Calendar Decoration Plugin"
-msgctxt "Name"
-msgid "KDE Calendar (traditional)"
-msgstr "Kalender Versiering Inplak"
-
-#: resources/kcal/kcalresource.desktop:49
-msgctxt "Comment"
-msgid "Loads data from a traditional KDE calendar resource"
-msgstr ""
 
 #: resources/kdeaccounts/kdeaccountsresource.desktop:2
 #, fuzzy
@@ -921,15 +864,47 @@ msgctxt "Comment"
 msgid "Loads contact from VCard File"
 msgstr "KAB verspreiding lys inprop module"
 
-#: tray/akonaditray.desktop:6
-msgctxt "Name"
-msgid "Akonaditray"
-msgstr ""
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Kontact KNode Plugin"
+#~ msgctxt "Name"
+#~ msgid "Akonadi Nepomuk Feeder"
+#~ msgstr "Kontact KNode inprop module"
 
-#: tray/akonaditray.desktop:55
-msgctxt "GenericName"
-msgid "Akonadi Tray Utility"
-msgstr ""
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "KOrganizer View Configuration"
+#~ msgctxt "Name"
+#~ msgid "Akonadi Resources Configuration"
+#~ msgstr "KOrganizer aansig opstelling"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the Address Book"
+#~ msgctxt "Name"
+#~ msgid "Akonadi Address Books"
+#~ msgstr "Stel die adres boek op"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Calendar Decoration Plugin"
+#~ msgctxt "Name"
+#~ msgid "KDE Address Book (traditional)"
+#~ msgstr "Kalender Versiering Inplak"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "KAB Distribution List Plugin"
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a traditional KDE address book resource"
+#~ msgstr "KAB verspreiding lys inprop module"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Calendar Decoration Plugin"
+#~ msgctxt "Name"
+#~ msgid "KDE Calendar (traditional)"
+#~ msgstr "Kalender Versiering Inplak"
 
 #, fuzzy
 #~| msgctxt "Comment"
@@ -2768,13 +2743,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Email Info"
 #~ msgstr "E-pos informasie"
-
-#, fuzzy
-#~| msgctxt "GenericName"
-#~| msgid "Personal Information Manager"
-#~ msgctxt "Name"
-#~ msgid "Personal Information Management"
-#~ msgstr "Personlike informasie bestuurder"
 
 #, fuzzy
 #~| msgctxt "GenericName"
