@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-21 05:38+0000\n"
+"POT-Creation-Date: 2014-08-22 05:47+0000\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -3591,8 +3591,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, preGradeColorLabel)
 #: src/settings/viewoptionsbase.ui:127
-msgid "Base color for displaying early progress:"
-msgstr ""
+#, fuzzy
+msgid "Color for displaying early progress:"
+msgstr "Kon nie lees "
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_PreGradeColor)
 #: src/settings/viewoptionsbase.ui:146
@@ -3642,12 +3643,36 @@ msgstr "Verwyder inskrywings met selfde inhoud van woordeskat"
 msgid "Remove confidence level from this unit and all sub-units"
 msgstr "Verwyder inskrywings met selfde inhoud van woordeskat"
 
-#: src/statistics/statisticslegendwidget.cpp:105
+#: src/statistics/statisticslegendwidget.cpp:42
+#, fuzzy
+#| msgid "Progress"
+msgid "Progress gradients"
+msgstr "Vordering"
+
+#: src/statistics/statisticslegendwidget.cpp:44
+#, fuzzy
+#| msgid "Progress"
+msgid "Early progress"
+msgstr "Vordering"
+
+#: src/statistics/statisticslegendwidget.cpp:46
+#, fuzzy
+#| msgid "Not Queried Yet"
+msgid "Not Practiced"
+msgstr "Nie Bevraag Nog"
+
+#: src/statistics/statisticslegendwidget.cpp:48
+#, fuzzy
+#| msgid "Entries"
+msgid "Invalid Entries"
+msgstr "Inskrywings"
+
+#: src/statistics/statisticslegendwidget.cpp:165
 msgctxt "adjective, The word has been properly and fully learned by the user"
 msgid "Fully learned"
 msgstr ""
 
-#: src/statistics/statisticslegendwidget.cpp:106
+#: src/statistics/statisticslegendwidget.cpp:166
 #, fuzzy
 #| msgid "Not Queried Yet"
 msgctxt "adjective, The word has not even been practiced once by the user"
@@ -3741,7 +3766,7 @@ msgstr "Kroatiese"
 msgid "Practice Direction"
 msgstr "Aansig Opsies"
 
-#: src/statistics/statisticsmodel.cpp:36
+#: src/statistics/statisticsmodel.cpp:34
 #, kde-format
 msgctxt "Confidence level in language, table header"
 msgid "Confidence (%1)"
@@ -4702,9 +4727,6 @@ msgstr ""
 #~ msgid "T&ype:"
 #~ msgstr "Tipe:"
 
-#~ msgid "Progress"
-#~ msgstr "Vordering"
-
 #~ msgid "Count:"
 #~ msgstr "Tel:"
 
@@ -5226,9 +5248,6 @@ msgstr ""
 
 #~ msgid "Grade TO"
 #~ msgstr "Graad Na"
-
-#~ msgid "Entries"
-#~ msgstr "Inskrywings"
 
 #, fuzzy
 #~ msgid "Reset"
