@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-26 01:42+0000\n"
+"POT-Creation-Date: 2014-11-27 01:43+0000\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -87,14 +87,14 @@ msgid "New"
 msgstr "Naam"
 
 #. i18n: ectx: Menu (LayerConvert)
-#: animator/kritaanimation.rc:96 gemini/kritagemini.rc:101 krita.rc:103
+#: animator/kritaanimation.rc:96 gemini/kritagemini.rc:101
 #: sketch/kritasketch.rc:101
 msgid "Convert"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #. i18n: ectx: Menu (Select)
-#: animator/kritaanimation.rc:121 gemini/kritagemini.rc:126 krita.rc:129
+#: animator/kritaanimation.rc:121 gemini/kritagemini.rc:126 krita.rc:140
 #: plugins/extensions/colorrange/wdg_colorrange.ui:131
 #: plugins/extensions/imagesize/imagesize.rc:12
 #: plugins/extensions/modify_selection/modify_selection.rc:4
@@ -104,14 +104,14 @@ msgid "&Select"
 msgstr "Keuse"
 
 #. i18n: ectx: Menu (Filter)
-#: animator/kritaanimation.rc:134 gemini/kritagemini.rc:139 krita.rc:144
+#: animator/kritaanimation.rc:134 gemini/kritagemini.rc:139 krita.rc:155
 #: sketch/kritasketch.rc:139
 #, fuzzy
 msgid "Filte&r"
 msgstr "Wit"
 
 #. i18n: ectx: Menu (Tools)
-#: animator/kritaanimation.rc:151 gemini/kritagemini.rc:156 krita.rc:161
+#: animator/kritaanimation.rc:151 gemini/kritagemini.rc:156 krita.rc:172
 #: sketch/kritasketch.rc:156
 #, fuzzy
 msgid "&Tools"
@@ -119,7 +119,7 @@ msgstr "Pen Program"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: Menu (settings)
-#: animator/kritaanimation.rc:154 gemini/kritagemini.rc:159 krita.rc:164
+#: animator/kritaanimation.rc:154 gemini/kritagemini.rc:159 krita.rc:175
 #: plugins/extensions/dockers/animator/kis_timeline.cpp:203
 #: plugins/extensions/dockers/animator/kis_timeline.cpp:218
 #: plugins/paintops/spray/wdgshapedynamicsoptions.ui:42
@@ -128,7 +128,7 @@ msgid "Settings"
 msgstr "Instellings"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: animator/kritaanimation.rc:166 gemini/kritagemini.rc:172 krita.rc:177
+#: animator/kritaanimation.rc:166 gemini/kritagemini.rc:172 krita.rc:188
 #: sketch/kritasketch.rc:172
 msgid "Brushes and Stuff"
 msgstr ""
@@ -1915,6 +1915,31 @@ msgstr "Herstel Knoppie"
 msgid "<html><head/><body><p align=\"center\"><b>Recent Files</b></p>"
 msgstr ""
 
+#. i18n: ectx: Menu (LayerImportExport)
+#: krita.rc:101
+#, fuzzy
+msgid "&Import/Export"
+msgstr "In voer Beeld..."
+
+#. i18n: ectx: Menu (LayerImportAs)
+#: krita.rc:106
+#, fuzzy
+msgid "Import"
+msgstr "In voer Beeld..."
+
+#. i18n: ectx: Menu (LayerConvert)
+#: krita.rc:113
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:491
+msgid "&Convert"
+msgstr ""
+
+#. i18n: ectx: Menu (LayerSplitAlpha)
+#: krita.rc:120
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:498
+#, fuzzy
+msgid "S&plit Alpha"
+msgstr "Kleur Kieser"
+
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #: plugins/assistants/RulerAssistant/AssistantsToolOptions.ui:46
 #, fuzzy
@@ -3455,10 +3480,6 @@ msgstr ""
 #, fuzzy
 msgid "&Merge with Layer Below"
 msgstr "Saamvlans Alle Lae"
-
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:491
-msgid "&Convert"
-msgstr ""
 
 #: plugins/extensions/dockers/defaultdockers/kis_palette_docker.cc:38
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:194
@@ -11665,7 +11686,7 @@ msgid "Image Properties"
 msgstr "Laag Eienskappe..."
 
 #: ui/dialogs/kis_dlg_image_properties.cc:72
-#: ui/dialogs/kis_dlg_preferences.cc:426 ui/kis_image_manager.cc:60
+#: ui/dialogs/kis_dlg_preferences.cc:426 ui/kis_image_manager.cc:76
 #, fuzzy
 msgid "Change the background color of the image"
 msgstr "Agtergrond kleur"
@@ -14167,15 +14188,35 @@ msgstr "Volgende Laag"
 
 #: ui/kis_image_manager.cc:55
 #, fuzzy
+msgid "as Paint Layer..."
+msgstr "Laag"
+
+#: ui/kis_image_manager.cc:59
+#, fuzzy
+msgid "as Transparency Mask..."
+msgstr "Voorgrond na Transparent"
+
+#: ui/kis_image_manager.cc:63
+#, fuzzy
+msgid "as Filter Mask..."
+msgstr "Wit"
+
+#: ui/kis_image_manager.cc:67
+#, fuzzy
+msgid "as Selection Mask..."
+msgstr "Keuse"
+
+#: ui/kis_image_manager.cc:71
+#, fuzzy
 msgid "Properties..."
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_image_manager.cc:59
+#: ui/kis_image_manager.cc:75
 #, fuzzy
 msgid "Image Background Color and Transparency..."
 msgstr "Agtergrond kleur"
 
-#: ui/kis_image_manager.cc:84
+#: ui/kis_image_manager.cc:116
 #, fuzzy
 msgid "Import Image"
 msgstr "In voer Beeld..."
@@ -14333,180 +14374,218 @@ msgstr "Volgende Laag"
 msgid "Filter Mask Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_node_manager.cpp:153
+#: ui/kis_node_manager.cpp:174
 #, fuzzy
 msgid "&Merge Selected Layers"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_node_manager.cpp:202
+#: ui/kis_node_manager.cpp:223
 #, fuzzy
 msgid "Mirror Layer Horizontally"
 msgstr "Driehoekvormige Golf"
 
-#: ui/kis_node_manager.cpp:208
+#: ui/kis_node_manager.cpp:229
 #, fuzzy
 msgid "Mirror Layer Vertically"
 msgstr "Driehoekvormige Golf"
 
-#: ui/kis_node_manager.cpp:214
+#: ui/kis_node_manager.cpp:235
 #, fuzzy
 msgid "Activate next layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_node_manager.cpp:220
+#: ui/kis_node_manager.cpp:241
 #, fuzzy
 msgid "Activate previous layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_node_manager.cpp:226
+#: ui/kis_node_manager.cpp:247
 #, fuzzy
 #| msgid "Save Layer as Image..."
 msgid "Save Layer/Mask..."
 msgstr "Stoor Laag as Beeld..."
 
-#: ui/kis_node_manager.cpp:231
+#: ui/kis_node_manager.cpp:252
 #, fuzzy
 msgid "&Duplicate Layer or Mask"
 msgstr "Volgende Laag"
 
-#: ui/kis_node_manager.cpp:238
+#: ui/kis_node_manager.cpp:259
 #, fuzzy
 msgid "&Paint Layer"
 msgstr "Laag"
 
-#: ui/kis_node_manager.cpp:242
+#: ui/kis_node_manager.cpp:263
 #, fuzzy
 msgid "&Group Layer"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_node_manager.cpp:245
+#: ui/kis_node_manager.cpp:266
 #, fuzzy
 msgid "&Clone Layer"
 msgstr "Volgende Laag"
 
-#: ui/kis_node_manager.cpp:248
+#: ui/kis_node_manager.cpp:269
 #, fuzzy
 msgid "&Vector Layer"
 msgstr "Volgende Laag"
 
-#: ui/kis_node_manager.cpp:251
+#: ui/kis_node_manager.cpp:272
 #, fuzzy
 msgid "&Filter Layer..."
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:254
+#: ui/kis_node_manager.cpp:275
 #, fuzzy
 msgid "&Fill Layer..."
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:257
+#: ui/kis_node_manager.cpp:278
 #, fuzzy
 msgid "&File Layer..."
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:260
+#: ui/kis_node_manager.cpp:281
 #, fuzzy
 msgid "&Transparency Mask"
 msgstr "Voorgrond na Transparent"
 
-#: ui/kis_node_manager.cpp:263
+#: ui/kis_node_manager.cpp:284
 #, fuzzy
 msgid "&Filter Mask..."
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:266
+#: ui/kis_node_manager.cpp:287
 #, fuzzy
 msgid "&Transform Mask..."
 msgstr "Uitveer Program"
 
-#: ui/kis_node_manager.cpp:269
+#: ui/kis_node_manager.cpp:290
 #, fuzzy
 msgid "&Local Selection"
 msgstr "Keuse"
 
-#: ui/kis_node_manager.cpp:275
+#: ui/kis_node_manager.cpp:296
 #, fuzzy
 msgid "to &Paint Layer"
 msgstr "Laag"
 
-#: ui/kis_node_manager.cpp:278
+#: ui/kis_node_manager.cpp:299
 #, fuzzy
 msgid "to &Selection Mask"
 msgstr "Keuse"
 
-#: ui/kis_node_manager.cpp:281
+#: ui/kis_node_manager.cpp:302
 #, fuzzy
 msgid "to &Filter Mask..."
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:284
+#: ui/kis_node_manager.cpp:305
 #, fuzzy
 msgid "to &Transparency Mask"
 msgstr "Voorgrond na Transparent"
 
-#: ui/kis_node_manager.cpp:290
+#: ui/kis_node_manager.cpp:311
 #, fuzzy
 msgid "&Isolate Layer"
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:477
+#: ui/kis_node_manager.cpp:317
+#, fuzzy
+msgid "Alpha into Mask"
+msgstr "Alfa"
+
+#: ui/kis_node_manager.cpp:323
+#, fuzzy
+msgid "Write as Alpha"
+msgstr "Kleur Kieser"
+
+#: ui/kis_node_manager.cpp:329
+#, fuzzy
+msgid "Save Merged..."
+msgstr "Herbenaam Beeld..."
+
+#: ui/kis_node_manager.cpp:516
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "Keuse"
 
-#: ui/kis_node_manager.cpp:704
+#: ui/kis_node_manager.cpp:743
 #, fuzzy
 #| msgid "Remove Layer"
 msgctxt "(qtundo-format)"
 msgid "Remove Last Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_node_manager.cpp:718
+#: ui/kis_node_manager.cpp:757
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Remove Multiple Layers and Masks"
 msgstr "Verwyder Laag"
 
-#: ui/kis_node_manager.cpp:749
+#: ui/kis_node_manager.cpp:788
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:751
+#: ui/kis_node_manager.cpp:790
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:762
+#: ui/kis_node_manager.cpp:801
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:764
+#: ui/kis_node_manager.cpp:803
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:863
+#: ui/kis_node_manager.cpp:902
 #, fuzzy
 msgid "Merged"
 msgstr "blou"
 
-#: ui/kis_node_manager.cpp:866
+#: ui/kis_node_manager.cpp:905
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "Verwyder Keuse"
 
-#: ui/kis_node_manager.cpp:957
+#: ui/kis_node_manager.cpp:994
 #, fuzzy, kde-format
 msgid "Export \"%1\""
 msgstr "Voer uit Beeld..."
+
+#: ui/kis_node_manager.cpp:1065
+msgctxt "(qtundo-format)"
+msgid "Split Alpha into a Mask"
+msgstr ""
+
+#: ui/kis_node_manager.cpp:1095
+#, kde-format
+msgid ""
+"Cannot write alpha channel of the parent layer \"%1\".\n"
+"The operation will be cancelled."
+msgstr ""
+
+#: ui/kis_node_manager.cpp:1098
+#, fuzzy, kde-format
+msgid "Layer %1 is not editable"
+msgstr "Beeld"
+
+#: ui/kis_node_manager.cpp:1121
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Write Alpha into a Layer"
+msgstr "Skep nuwe Laag"
 
 #: ui/kis_painting_assistants_decoration.cpp:114
 msgid "Show Painting Assistants"
@@ -15668,10 +15747,6 @@ msgstr "Kleur"
 #, fuzzy
 #~ msgid "Create Set"
 #~ msgstr "Hoeke:"
-
-#, fuzzy
-#~ msgid "Import"
-#~ msgstr "In voer Beeld..."
 
 #, fuzzy
 #~ msgid "Export"
@@ -16948,10 +17023,6 @@ msgstr "Kleur"
 #~ msgstr "Voeg by Laag..."
 
 #, fuzzy
-#~ msgid "Create a new Shape Layer"
-#~ msgstr "Skep nuwe Laag"
-
-#, fuzzy
 #~ msgid "Add a New Local Selection Mask"
 #~ msgstr "Keuse"
 
@@ -17435,10 +17506,6 @@ msgstr "Kleur"
 #, fuzzy
 #~ msgid "Select with curves"
 #~ msgstr "Keuse Nutsprogramme"
-
-#, fuzzy
-#~ msgid "Sample merged"
-#~ msgstr "Herbenaam Beeld..."
 
 #, fuzzy
 #~ msgid "GRAY/Alpha16 Histogram"
