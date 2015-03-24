@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-18 08:07+0000\n"
+"POT-Creation-Date: 2015-03-24 11:24+0000\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -115,7 +115,7 @@ msgid "Multiple encryption keys per address"
 msgstr ""
 
 #: aboutdata.cpp:363 collectionpage/collectionmailinglistpage.cpp:104
-#: editor/kmcomposewin.cpp:2144 kmsystemtray.cpp:74 kmsystemtray.cpp:116
+#: editor/kmcomposewin.cpp:2105 kmsystemtray.cpp:74 kmsystemtray.cpp:116
 msgid "KMail"
 msgstr ""
 
@@ -1699,12 +1699,12 @@ msgstr "Stoor aanhangsel as"
 msgid "Show attachment list"
 msgstr "Stoor aanhangsel as"
 
-#: editor/codecaction.cpp:57
+#: editor/codec/codecaction.cpp:61
 msgctxt "Encodings menu"
 msgid "us-ascii"
 msgstr ""
 
-#: editor/codecaction.cpp:67
+#: editor/codec/codecaction.cpp:71
 #, fuzzy
 #| msgid "Encoding"
 msgctxt "Menu item"
@@ -1830,7 +1830,7 @@ msgid "Send"
 msgstr "Stuurder"
 
 #: editor/kmcomposewin.cpp:1105 editor/kmcomposewin.cpp:1118
-#: editor/kmcomposewin.cpp:2819
+#: editor/kmcomposewin.cpp:2780
 msgid "Send &Later"
 msgstr ""
 
@@ -2063,13 +2063,13 @@ msgstr ""
 msgid "Configure KMail..."
 msgstr "Stel KMail op..."
 
-#: editor/kmcomposewin.cpp:1437 editor/kmcomposewin.cpp:3217
+#: editor/kmcomposewin.cpp:1437 editor/kmcomposewin.cpp:3178
 #, kde-format
 msgctxt "Shows the linenumber of the cursor position."
 msgid " Line: %1 "
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1442 editor/kmcomposewin.cpp:3219
+#: editor/kmcomposewin.cpp:1442 editor/kmcomposewin.cpp:3180
 #, kde-format
 msgid " Column: %1 "
 msgstr ""
@@ -2129,44 +2129,44 @@ msgstr "Boodskap skuif het gevaal."
 msgid "Sending Message Failed"
 msgstr "Boodskap skuif het gevaal."
 
-#: editor/kmcomposewin.cpp:2127
+#: editor/kmcomposewin.cpp:2088
 msgid "Add as &Inline Image"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2128
+#: editor/kmcomposewin.cpp:2089
 #, fuzzy
 msgid "Add as &Attachment"
 msgstr "Verwyder lêer aanhangsel"
 
-#: editor/kmcomposewin.cpp:2144 editor/kmcomposewin.cpp:2223
+#: editor/kmcomposewin.cpp:2105 editor/kmcomposewin.cpp:2184
 #, fuzzy
 msgid "Name of the attachment:"
 msgstr "Verwyder lêer aanhangsel"
 
-#: editor/kmcomposewin.cpp:2182
+#: editor/kmcomposewin.cpp:2143
 #, fuzzy
 msgid "Add URL into Message"
 msgid_plural "Add URLs into Message"
 msgstr[0] "Skuif boodskappe"
 msgstr[1] "Skuif boodskappe"
 
-#: editor/kmcomposewin.cpp:2183
+#: editor/kmcomposewin.cpp:2144
 #, fuzzy
 msgid "Add File as &Attachment"
 msgid_plural "Add Files as &Attachment"
 msgstr[0] "Verwyder lêer aanhangsel"
 msgstr[1] "Verwyder lêer aanhangsel"
 
-#: editor/kmcomposewin.cpp:2222
+#: editor/kmcomposewin.cpp:2183
 #, fuzzy
 msgid "Insert clipboard text as attachment"
 msgstr "Stoor Aanhangsels..."
 
-#: editor/kmcomposewin.cpp:2327
+#: editor/kmcomposewin.cpp:2288
 msgid "unnamed"
 msgstr "onbenoem"
 
-#: editor/kmcomposewin.cpp:2353
+#: editor/kmcomposewin.cpp:2314
 msgid ""
 "<qt><p>You have requested that messages be encrypted to yourself, but the "
 "currently selected identity does not define an (OpenPGP or S/MIME) "
@@ -2174,152 +2174,135 @@ msgid ""
 "identity configuration.</p></qt>"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2360
+#: editor/kmcomposewin.cpp:2321
 msgid "Undefined Encryption Key"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2404
+#: editor/kmcomposewin.cpp:2365
 msgid ""
 "<qt><p>In order to be able to sign this message you first have to define the "
 "(OpenPGP or S/MIME) signing key to use.</p><p>Please select the key to use "
 "in the identity configuration.</p></qt>"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2411
+#: editor/kmcomposewin.cpp:2372
 msgid "Undefined Signing Key"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2537
+#: editor/kmcomposewin.cpp:2498
 #, kde-format
 msgid "There is %1 file upload in progress."
 msgid_plural "There are %1 file uploads in progress."
 msgstr[0] ""
 msgstr[1] ""
 
-#: editor/kmcomposewin.cpp:2557
+#: editor/kmcomposewin.cpp:2518
 msgid ""
 "You must enter your email address in the From: field. You should also set "
 "your email address for all identities, so that you do not have to enter it "
 "for each message."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2566
+#: editor/kmcomposewin.cpp:2527
 msgid ""
 "You must specify at least one receiver, either in the To: field or as CC or "
 "as BCC."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2572
+#: editor/kmcomposewin.cpp:2533
 msgid "To: field is empty. Send message anyway?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2574
+#: editor/kmcomposewin.cpp:2535
 msgid "No To: specified"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2588
+#: editor/kmcomposewin.cpp:2549
 msgid "You did not specify a subject. Send message anyway?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2590
+#: editor/kmcomposewin.cpp:2551
 msgid "No Subject Specified"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2591
+#: editor/kmcomposewin.cpp:2552
 msgid "S&end as Is"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2592
+#: editor/kmcomposewin.cpp:2553
 msgid "&Specify the Subject"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2627
+#: editor/kmcomposewin.cpp:2588
 msgid ""
 "You must specify at least one receiver in order to be able to encrypt a "
 "draft."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2816
+#: editor/kmcomposewin.cpp:2777
 msgid "About to send email..."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2817
+#: editor/kmcomposewin.cpp:2778
 msgid "Send Confirmation"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2818
+#: editor/kmcomposewin.cpp:2779
 msgid "&Send Now"
 msgstr "Stuur Nou"
 
-#: editor/kmcomposewin.cpp:2882
+#: editor/kmcomposewin.cpp:2843
 #, kde-format
 msgid ""
 "You are trying to send the mail to more than %1 recipients. Send message "
 "anyway?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2883
+#: editor/kmcomposewin.cpp:2844
 #, fuzzy
 msgid "Too many recipients"
 msgstr "Versteekte Ontvangers"
 
-#: editor/kmcomposewin.cpp:2884
+#: editor/kmcomposewin.cpp:2845
 msgid "&Send as Is"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2885
+#: editor/kmcomposewin.cpp:2846
 #, fuzzy
 #| msgid "Additional Recipients"
 msgid "&Edit Recipients"
 msgstr "Addisionele Ontvangers"
 
-#: editor/kmcomposewin.cpp:2924
+#: editor/kmcomposewin.cpp:2885
 msgid ""
 "Turning HTML mode off will cause the text to lose the formatting. Are you "
 "sure?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2926
+#: editor/kmcomposewin.cpp:2887
 msgid "Lose the formatting?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2926
+#: editor/kmcomposewin.cpp:2887
 #, fuzzy
 #| msgid "Formatting (HTML)"
 msgid "Lose Formatting"
 msgstr "Formateering (HTML)"
 
-#: editor/kmcomposewin.cpp:2926
+#: editor/kmcomposewin.cpp:2887
 #, fuzzy
 msgid "Add Markup Plain Text"
 msgstr "Verwyder lêer aanhangsel"
 
-#: editor/kmcomposewin.cpp:3262
+#: editor/kmcomposewin.cpp:3223
 #, fuzzy
 msgid "Insert Special Character"
 msgstr "Voeg lêer by..."
 
-#: editor/kmcomposewin.cpp:3263
+#: editor/kmcomposewin.cpp:3224
 #, fuzzy
 msgid "Insert"
 msgstr "Voeg lêer by..."
-
-#: editor/kmstorageservice.cpp:53
-msgid "An error occurred while sending the file."
-msgstr ""
-
-#: editor/kmstorageservice.cpp:53
-msgid "Upload file"
-msgstr ""
-
-#: editor/kmstorageservice.cpp:72
-#, kde-format
-msgid "%1 return an error '%2'"
-msgstr ""
-
-#: editor/kmstorageservice.cpp:72
-msgid "Error"
-msgstr ""
 
 #: editor/potentialphishingemail/potentialphishingdetaildialog.cpp:36
 #, fuzzy
@@ -2336,6 +2319,23 @@ msgstr ""
 msgid ""
 "Some email address seems a potential phishing email <a href=\"phishingdetails"
 "\">(Details...)</a>"
+msgstr ""
+
+#: editor/storageservice/kmstorageservice.cpp:53
+msgid "An error occurred while sending the file."
+msgstr ""
+
+#: editor/storageservice/kmstorageservice.cpp:53
+msgid "Upload file"
+msgstr ""
+
+#: editor/storageservice/kmstorageservice.cpp:72
+#, kde-format
+msgid "%1 return an error '%2'"
+msgstr ""
+
+#: editor/storageservice/kmstorageservice.cpp:72
+msgid "Error"
 msgstr ""
 
 #: editor/validatesendmailshortcut.cpp:44
