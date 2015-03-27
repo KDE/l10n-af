@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-26 06:36+0000\n"
+"POT-Creation-Date: 2015-03-27 06:05+0000\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -523,152 +523,6 @@ msgctxt "@info:status Finished view fill"
 msgid "Ready"
 msgstr "Ongelees"
 
-#: core/quicksearchline.cpp:62
-msgctxt "@action:button"
-msgid "Lock search"
-msgstr ""
-
-#: core/quicksearchline.cpp:66
-msgctxt "@info:whatsthis"
-msgid ""
-"Toggle this button if you want to keep your quick search locked when moving "
-"to other folders or when narrowing the search by message status."
-msgstr ""
-
-#: core/quicksearchline.cpp:80
-#, fuzzy
-#| msgid "A&pply Filter"
-msgid "Quick Filter:"
-msgstr "Wend Filters Aan"
-
-#: core/quicksearchline.cpp:86
-#, fuzzy
-msgctxt "Search for messages."
-msgid "Search"
-msgstr "Soek:"
-
-#: core/quicksearchline.cpp:96
-#, fuzzy
-msgid "More..."
-msgstr "Stel KMail op..."
-
-#: core/quicksearchline.cpp:123
-#, fuzzy
-msgid "Filter message by:"
-msgstr "Vee boodskappe uit"
-
-#: core/quicksearchline.cpp:126
-#, fuzzy
-msgid "Full Message"
-msgstr "1 boodskap, %2"
-
-#: core/quicksearchline.cpp:134
-msgid "Body"
-msgstr ""
-
-#: core/quicksearchline.cpp:141
-#, fuzzy
-#| msgid "Subject"
-msgid "Subject"
-msgstr "Onderwerp"
-
-#: core/quicksearchline.cpp:156
-msgid "Bcc"
-msgstr ""
-
-#: core/quicksearchline.cpp:299
-msgctxt "@info:tooltip"
-msgid "Clear the quick search field when changing folders"
-msgstr ""
-
-#: core/quicksearchline.cpp:303
-msgctxt "@info:tooltip"
-msgid "Prevent the quick search field from being cleared when changing folders"
-msgstr ""
-
-#: core/quicksearchline.cpp:358
-#, fuzzy
-msgid "To"
-msgstr "Aan"
-
-#: core/quicksearchline.cpp:360 core/view.cpp:2401 core/view.cpp:2405
-#, fuzzy
-#| msgid "From: "
-msgid "From"
-msgstr "Vanaf: "
-
-#: core/quicksearchline.cpp:370
-#, fuzzy
-#| msgid "Unread"
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
-msgstr "Ongelees"
-
-#: core/quicksearchline.cpp:373
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "Vervang"
-
-#: core/quicksearchline.cpp:377
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "Stuur aan"
-
-#: core/quicksearchline.cpp:381
-#, fuzzy
-#| msgid "&Import Messages..."
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
-msgstr "Voer Boodskappe In..."
-
-#: core/quicksearchline.cpp:385
-#, fuzzy
-#| msgid "Remove &Important Message Mark"
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
-msgstr "Verwyder boodskap merk: belangrik"
-
-#: core/quicksearchline.cpp:389
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr "Hou gesprekslyn dop"
-
-#: core/quicksearchline.cpp:393
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "Ignoreer gesprekslyn"
-
-#: core/quicksearchline.cpp:397
-#, fuzzy
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr "Stoor Aanhangsels..."
-
-#: core/quicksearchline.cpp:401
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
-msgstr ""
-
-#: core/quicksearchline.cpp:405
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Spam"
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr "Spam"
-
-#: core/quicksearchline.cpp:409
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Ham"
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr "Ham"
-
 #. i18n: ectx: label, entry (MessageToolTipEnabled), group (MessageListView)
 #: core/settings.kcfg:10
 #, fuzzy
@@ -1017,6 +871,12 @@ msgstr "frix@expertron.co.za"
 msgid "Display Tooltips"
 msgstr "Aan"
 
+#: core/view.cpp:2401 core/view.cpp:2405 core/widgets/quicksearchline.cpp:360
+#, fuzzy
+#| msgid "From: "
+msgid "From"
+msgstr "Vanaf: "
+
 #: core/view.cpp:2402 core/view.cpp:2406
 #, fuzzy
 msgctxt "Receiver of the email"
@@ -1175,45 +1035,185 @@ msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/widgetbase.cpp:391 messagelistutil.cpp:136
+#: core/widgetbase.cpp:393 messagelistutil.cpp:136
 msgid "Theme"
 msgstr ""
 
-#: core/widgetbase.cpp:415 core/widgetbase.cpp:506
+#: core/widgetbase.cpp:417 core/widgetbase.cpp:508
 #: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:62
 #, fuzzy
 msgid "Configure..."
 msgstr "Stel KMail op..."
 
-#: core/widgetbase.cpp:482 messagelistutil.cpp:130
+#: core/widgetbase.cpp:484 messagelistutil.cpp:130
 msgid "Aggregation"
 msgstr ""
 
-#: core/widgetbase.cpp:566
+#: core/widgetbase.cpp:568
 #, fuzzy
 #| msgid "Message Body"
 msgid "Message Sort Order"
 msgstr "Boodskap Lyf"
 
-#: core/widgetbase.cpp:591
+#: core/widgetbase.cpp:593
 #, fuzzy
 msgid "Message Sort Direction"
 msgstr "Boodskap"
 
-#: core/widgetbase.cpp:610
+#: core/widgetbase.cpp:612
 #, fuzzy
 #| msgid "Delete Folder"
 msgid "Group Sort Order"
 msgstr "Vee Gids uit"
 
-#: core/widgetbase.cpp:631
+#: core/widgetbase.cpp:633
 #, fuzzy
 msgid "Group Sort Direction"
 msgstr "Boodskap"
 
-#: core/widgetbase.cpp:648
+#: core/widgetbase.cpp:650
 msgid "Folder Always Uses This Sort Order"
 msgstr ""
+
+#: core/widgets/quicksearchline.cpp:62
+msgctxt "@action:button"
+msgid "Lock search"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:66
+msgctxt "@info:whatsthis"
+msgid ""
+"Toggle this button if you want to keep your quick search locked when moving "
+"to other folders or when narrowing the search by message status."
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:80
+#, fuzzy
+#| msgid "A&pply Filter"
+msgid "Quick Filter:"
+msgstr "Wend Filters Aan"
+
+#: core/widgets/quicksearchline.cpp:86
+#, fuzzy
+msgctxt "Search for messages."
+msgid "Search"
+msgstr "Soek:"
+
+#: core/widgets/quicksearchline.cpp:96
+#, fuzzy
+msgid "More..."
+msgstr "Stel KMail op..."
+
+#: core/widgets/quicksearchline.cpp:123
+#, fuzzy
+msgid "Filter message by:"
+msgstr "Vee boodskappe uit"
+
+#: core/widgets/quicksearchline.cpp:126
+#, fuzzy
+msgid "Full Message"
+msgstr "1 boodskap, %2"
+
+#: core/widgets/quicksearchline.cpp:134
+msgid "Body"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:141
+#, fuzzy
+#| msgid "Subject"
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: core/widgets/quicksearchline.cpp:156
+msgid "Bcc"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:299
+msgctxt "@info:tooltip"
+msgid "Clear the quick search field when changing folders"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:303
+msgctxt "@info:tooltip"
+msgid "Prevent the quick search field from being cleared when changing folders"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:358
+#, fuzzy
+msgid "To"
+msgstr "Aan"
+
+#: core/widgets/quicksearchline.cpp:370
+#, fuzzy
+#| msgid "Unread"
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "Ongelees"
+
+#: core/widgets/quicksearchline.cpp:373
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "Vervang"
+
+#: core/widgets/quicksearchline.cpp:377
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "Stuur aan"
+
+#: core/widgets/quicksearchline.cpp:381
+#, fuzzy
+#| msgid "&Import Messages..."
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "Voer Boodskappe In..."
+
+#: core/widgets/quicksearchline.cpp:385
+#, fuzzy
+#| msgid "Remove &Important Message Mark"
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr "Verwyder boodskap merk: belangrik"
+
+#: core/widgets/quicksearchline.cpp:389
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr "Hou gesprekslyn dop"
+
+#: core/widgets/quicksearchline.cpp:393
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "Ignoreer gesprekslyn"
+
+#: core/widgets/quicksearchline.cpp:397
+#, fuzzy
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr "Stoor Aanhangsels..."
+
+#: core/widgets/quicksearchline.cpp:401
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr ""
+
+#: core/widgets/quicksearchline.cpp:405
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Spam"
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr "Spam"
+
+#: core/widgets/quicksearchline.cpp:409
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Ham"
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr "Ham"
 
 #: messagelistutil.cpp:124
 #, fuzzy
