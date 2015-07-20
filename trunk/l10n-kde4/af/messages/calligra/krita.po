@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-07-12 01:53+0000\n"
+"POT-Creation-Date: 2015-07-20 01:50+0000\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -72,7 +72,7 @@ msgstr "Laag"
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #: ui/dialogs/kis_dlg_preferences.cc:232 ui/input/kis_input_manager.cpp:545
 #: ui/kis_filter_manager.cc:218 ui/kis_filter_manager.cc:227
-#: ui/kis_layer_manager.cc:660 ui/kis_layer_manager.cc:911
+#: ui/kis_layer_manager.cc:673 ui/kis_layer_manager.cc:929
 #: ui/KisApplication.cpp:215 ui/KisApplication.cpp:218
 #: ui/KisApplication.cpp:243 ui/KisApplication.cpp:269
 #: ui/KisApplication.cpp:291 ui/KisDocument.cpp:742 ui/KisDocument.cpp:744
@@ -216,7 +216,7 @@ msgid "&Image"
 msgstr "Beeld"
 
 #. i18n: ectx: Menu (Layer)
-#: gemini/kritagemini.rc:91 krita.rc:148
+#: gemini/kritagemini.rc:91 krita.rc:149
 #: plugins/extensions/histogram/histogram.rc:4
 #: plugins/extensions/layersplit/layersplit.rc:4 sketch/kritasketch.rc:91
 #, fuzzy
@@ -224,7 +224,7 @@ msgid "&Layer"
 msgstr "Laag"
 
 #. i18n: ectx: Menu (LayerNew)
-#: gemini/kritagemini.rc:92 krita.rc:150 sketch/kritasketch.rc:92
+#: gemini/kritagemini.rc:92 krita.rc:151 sketch/kritasketch.rc:92
 #, fuzzy
 msgid "New"
 msgstr "Naam"
@@ -236,7 +236,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #. i18n: ectx: Menu (Select)
-#: gemini/kritagemini.rc:126 krita.rc:215
+#: gemini/kritagemini.rc:126 krita.rc:216
 #: plugins/extensions/colorrange/wdg_colorrange.ui:131
 #: plugins/extensions/imagesize/imagesize.rc:12
 #: plugins/extensions/modify_selection/modify_selection.rc:4
@@ -246,13 +246,13 @@ msgid "&Select"
 msgstr "Keuse"
 
 #. i18n: ectx: Menu (Filter)
-#: gemini/kritagemini.rc:139 krita.rc:240 sketch/kritasketch.rc:139
+#: gemini/kritagemini.rc:139 krita.rc:241 sketch/kritasketch.rc:139
 #, fuzzy
 msgid "Filte&r"
 msgstr "Wit"
 
 #. i18n: ectx: Menu (tools)
-#: gemini/kritagemini.rc:156 krita.rc:260
+#: gemini/kritagemini.rc:156 krita.rc:261
 #: plugins/extensions/bigbrother/bigbrother.rc:4 sketch/kritasketch.rc:156
 #, fuzzy
 msgid "&Tools"
@@ -267,7 +267,7 @@ msgid "Settings"
 msgstr "Instellings"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: gemini/kritagemini.rc:172 krita.rc:317 sketch/kritasketch.rc:172
+#: gemini/kritagemini.rc:172 krita.rc:318 sketch/kritasketch.rc:172
 msgid "Brushes and Stuff"
 msgstr ""
 
@@ -1414,7 +1414,7 @@ msgctxt "(qtundo-format)"
 msgid "Reselect"
 msgstr "Keuse"
 
-#: image/commands_new/kis_image_resize_command.cpp:28 image/kis_image.cc:431
+#: image/commands_new/kis_image_resize_command.cpp:28 image/kis_image.cc:433
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
@@ -1607,106 +1607,117 @@ msgstr ""
 msgid "Mitchell"
 msgstr ""
 
-#: image/kis_image.cc:332
+#: image/kis_image.cc:334
 msgid "background"
 msgstr "agtergrond"
 
-#: image/kis_image.cc:335
+#: image/kis_image.cc:337
 #, fuzzy, kde-format
 msgid "Layer %1"
 msgstr "laag %1"
 
-#: image/kis_image.cc:430
+#: image/kis_image.cc:432
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "Stoor Laag as Beeld..."
 
-#: image/kis_image.cc:472
+#: image/kis_image.cc:474
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "Voeg by Laag..."
 
-#: image/kis_image.cc:473
+#: image/kis_image.cc:475
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "Alfa"
 
-#: image/kis_image.cc:505
+#: image/kis_image.cc:507
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "Nuwe Beeld"
 
-#: image/kis_image.cc:506
+#: image/kis_image.cc:508
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "Herstel Knoppie"
 
-#: image/kis_image.cc:553
+#: image/kis_image.cc:555
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr "Voeg by Laag..."
 
-#: image/kis_image.cc:641
+#: image/kis_image.cc:643
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "Herbenaam Beeld..."
 
-#: image/kis_image.cc:646
+#: image/kis_image.cc:648
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr "Verwyder Laag"
 
-#: image/kis_image.cc:713
+#: image/kis_image.cc:715
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Shear layer"
 msgstr "Voeg by Laag..."
 
-#: image/kis_image.cc:719
+#: image/kis_image.cc:721
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "Nuwe Beeld"
 
-#: image/kis_image.cc:731
+#: image/kis_image.cc:733
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "Voeg by Beeld as Laag..."
 
-#: image/kis_image.cc:764
+#: image/kis_image.cc:766
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "Voeg by Beeld as Laag..."
 
-#: image/kis_image.cc:943
+#: image/kis_image.cc:945
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: image/kis_image.cc:990
+#: image/kis_image.cc:1043
+#, fuzzy
+msgid "Merged"
+msgstr "blou"
+
+#: image/kis_image.cc:1054
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge Selected Nodes"
+msgstr "Verwyder Keuse"
+
+#: image/kis_image.cc:1114
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge with Layer Below"
 msgstr "Saamvlans Alle Lae"
 
-#: image/kis_image.cc:1036
+#: image/kis_image.cc:1180
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "Herbenaam Beeld..."
 
-#: image/kis_image.cc:1613
+#: image/kis_image.cc:1757
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
@@ -1764,8 +1775,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, palettename)
 #: image/kis_psd_layer_style.cpp:99 ui/forms/wdgcustompalette.ui:18
-#: ui/KisDocument.cpp:2477 ui/KisMainWindow.cpp:859 ui/KisPart.cpp:580
-#: ui/KisPart.cpp:596 ui/kra/kis_kra_saver.cpp:71
+#: ui/KisDocument.cpp:2477 ui/KisMainWindow.cpp:859 ui/KisPart.cpp:579
+#: ui/KisPart.cpp:595 ui/kra/kis_kra_saver.cpp:71
 msgid "Unnamed"
 msgstr ""
 
@@ -1830,7 +1841,7 @@ msgid "Updating..."
 msgstr "Herbenaam Beeld..."
 
 #: image/layerstyles/kis_ls_bevel_emboss_filter.cpp:56
-#: image/layerstyles/kis_ls_stroke_filter.cpp:50
+#: image/layerstyles/kis_ls_stroke_filter.cpp:49
 msgid "Stroke (style)"
 msgstr ""
 
@@ -1838,12 +1849,12 @@ msgstr ""
 msgid "Drop Shadow (style)"
 msgstr ""
 
-#: image/layerstyles/kis_ls_overlay_filter.cpp:50
+#: image/layerstyles/kis_ls_overlay_filter.cpp:49
 #, fuzzy
 msgid "Overlay (style)"
 msgstr "Oorleg"
 
-#: image/layerstyles/kis_ls_satin_filter.cpp:46
+#: image/layerstyles/kis_ls_satin_filter.cpp:45
 #, fuzzy
 msgid "Satin (style)"
 msgstr "Versadiging"
@@ -1980,64 +1991,64 @@ msgid "&Canvas"
 msgstr "Kanvas"
 
 #. i18n: ectx: Menu (Rotate)
-#: krita.rc:127 krita.rc:190 plugins/extensions/rotateimage/rotateimage.rc:5
+#: krita.rc:128 krita.rc:191 plugins/extensions/rotateimage/rotateimage.rc:5
 #: plugins/extensions/rotateimage/rotateimage.rc:18
 #, fuzzy
 msgid "&Rotate"
 msgstr "Roteer 90"
 
 #. i18n: ectx: Menu (LayerImportExport)
-#: krita.rc:158
+#: krita.rc:159
 #, fuzzy
 msgid "&Import/Export"
 msgstr "In voer Beeld..."
 
 #. i18n: ectx: Menu (LayerImportAs)
-#: krita.rc:164
+#: krita.rc:165
 #, fuzzy
 msgid "Import"
 msgstr "In voer Beeld..."
 
 #. i18n: ectx: Menu (LayerConvert)
-#: krita.rc:172
+#: krita.rc:173
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:534
 msgid "&Convert"
 msgstr ""
 
 #. i18n: ectx: Menu (LayerSplitAlpha)
-#: krita.rc:180
+#: krita.rc:181
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:540
 #, fuzzy
 msgid "S&plit Alpha"
 msgstr "Kleur Kieser"
 
 #. i18n: ectx: Menu (Recording)
-#: krita.rc:262 plugins/extensions/bigbrother/bigbrother.rc:5
+#: krita.rc:263 plugins/extensions/bigbrother/bigbrother.rc:5
 #, fuzzy
 msgid "Recording"
 msgstr "Driehoek"
 
 #. i18n: ectx: Menu (Macros)
-#: krita.rc:267 plugins/extensions/bigbrother/bigbrother.rc:9
+#: krita.rc:268 plugins/extensions/bigbrother/bigbrother.rc:9
 #, fuzzy
 msgid "Macros"
 msgstr "Voeg by Mask"
 
 #. i18n: ectx: Menu (settings)
-#: krita.rc:273
+#: krita.rc:274
 #, fuzzy
 #| msgid "Settings"
 msgid "Setti&ngs"
 msgstr "Instellings"
 
 #. i18n: ectx: Menu (help)
-#: krita.rc:294
+#: krita.rc:295
 #, fuzzy
 msgid "&Help"
 msgstr "Steek weg/Vertoon Laag"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: krita.rc:308 ui/kis_file_layer.cpp:96
+#: krita.rc:309 ui/kis_file_layer.cpp:96
 #, fuzzy
 msgid "File"
 msgstr "Wit"
@@ -6330,7 +6341,7 @@ msgstr "Boonste Huidige %1"
 msgid "Circle"
 msgstr "Keuse"
 
-#: plugins/filters/colors/kis_color_to_alpha.cpp:38
+#: plugins/filters/colors/kis_color_to_alpha.cpp:39
 #, fuzzy
 msgid "&Color to Alpha..."
 msgstr "Kleur Kieser"
@@ -12295,7 +12306,7 @@ msgstr "Instellings"
 msgid "Canvas Input"
 msgstr "Kanvas"
 
-#: ui/flake/kis_shape_controller.cpp:178
+#: ui/flake/kis_shape_controller.cpp:177
 #, fuzzy, kde-format
 msgid "Vector Layer %1"
 msgstr "laag %1"
@@ -17050,67 +17061,72 @@ msgstr "Verwyder Huidige Laag"
 
 #: ui/kis_layer_manager.cc:333
 #, fuzzy
+msgid "Trim to Image Size"
+msgstr "Nuwe Beeld"
+
+#: ui/kis_layer_manager.cc:338
+#, fuzzy
 msgid "Layer Style..."
 msgstr "Voeg by Laag..."
 
-#: ui/kis_layer_manager.cc:374
+#: ui/kis_layer_manager.cc:379
 #, fuzzy
 msgctxt "floating message in layer manager"
 msgid "Layer is empty "
 msgstr "Beeld"
 
-#: ui/kis_layer_manager.cc:393
+#: ui/kis_layer_manager.cc:406
 #, fuzzy
 msgid "Filter Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:438
+#: ui/kis_layer_manager.cc:451
 #, fuzzy
 msgid "Fill Layer Properties"
 msgstr "Laag Eienskappe..."
 
-#: ui/kis_layer_manager.cc:519
+#: ui/kis_layer_manager.cc:532
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_layer_manager.cc:598
+#: ui/kis_layer_manager.cc:611
 #, fuzzy
 msgid "New Filter Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:661
+#: ui/kis_layer_manager.cc:674
 msgid "Could not add layer to image."
 msgstr "Kon nie voeg by laag na beeld."
 
-#: ui/kis_layer_manager.cc:747
+#: ui/kis_layer_manager.cc:760
 #, fuzzy
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_layer_manager.cc:748
+#: ui/kis_layer_manager.cc:761
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
 "the image?"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:815
+#: ui/kis_layer_manager.cc:833
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_layer_manager.cc:851
+#: ui/kis_layer_manager.cc:869
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:854
+#: ui/kis_layer_manager.cc:872
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:911
+#: ui/kis_layer_manager.cc:929
 msgid "No file name specified"
 msgstr ""
 
@@ -17172,215 +17188,199 @@ msgstr "Laag Eienskappe..."
 msgid "Mirror View"
 msgstr "Stoor Laag as Beeld..."
 
-#: ui/kis_node_manager.cpp:175
-#, fuzzy
-msgid "&Merge Selected Layers"
-msgstr "Voeg by Laag..."
-
-#: ui/kis_node_manager.cpp:251
+#: ui/kis_node_manager.cpp:242
 #, fuzzy
 msgid "Mirror Layer Horizontally"
 msgstr "Driehoekvormige Golf"
 
-#: ui/kis_node_manager.cpp:257
+#: ui/kis_node_manager.cpp:248
 #, fuzzy
 msgid "Mirror Layer Vertically"
 msgstr "Driehoekvormige Golf"
 
-#: ui/kis_node_manager.cpp:263
+#: ui/kis_node_manager.cpp:254
 #, fuzzy
 msgid "Activate next layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_node_manager.cpp:269
+#: ui/kis_node_manager.cpp:260
 #, fuzzy
 msgid "Activate previous layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_node_manager.cpp:275
+#: ui/kis_node_manager.cpp:266
 #, fuzzy
 #| msgid "Save Layer as Image..."
 msgid "Save Layer/Mask..."
 msgstr "Stoor Laag as Beeld..."
 
-#: ui/kis_node_manager.cpp:280
+#: ui/kis_node_manager.cpp:271
 #, fuzzy
 msgid "&Duplicate Layer or Mask"
 msgstr "Volgende Laag"
 
-#: ui/kis_node_manager.cpp:287
+#: ui/kis_node_manager.cpp:278
 #, fuzzy
 msgid "&Paint Layer"
 msgstr "Laag"
 
-#: ui/kis_node_manager.cpp:291
+#: ui/kis_node_manager.cpp:282
 #, fuzzy
 msgid "&Group Layer"
 msgstr "Voeg by Laag..."
 
-#: ui/kis_node_manager.cpp:295
+#: ui/kis_node_manager.cpp:286
 #, fuzzy
 msgid "&Clone Layer"
 msgstr "Volgende Laag"
 
-#: ui/kis_node_manager.cpp:298
+#: ui/kis_node_manager.cpp:289
 #, fuzzy
 msgid "&Vector Layer"
 msgstr "Volgende Laag"
 
-#: ui/kis_node_manager.cpp:301
+#: ui/kis_node_manager.cpp:292
 #, fuzzy
 msgid "&Filter Layer..."
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:304
+#: ui/kis_node_manager.cpp:295
 #, fuzzy
 msgid "&Fill Layer..."
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:307
+#: ui/kis_node_manager.cpp:298
 #, fuzzy
 msgid "&File Layer..."
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:310
+#: ui/kis_node_manager.cpp:301
 #, fuzzy
 msgid "&Transparency Mask"
 msgstr "Voorgrond na Transparent"
 
-#: ui/kis_node_manager.cpp:313
+#: ui/kis_node_manager.cpp:304
 #, fuzzy
 msgid "&Filter Mask..."
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:316
+#: ui/kis_node_manager.cpp:307
 #, fuzzy
 msgid "&Transform Mask..."
 msgstr "Uitveer Program"
 
-#: ui/kis_node_manager.cpp:319
+#: ui/kis_node_manager.cpp:310
 #, fuzzy
 msgid "&Local Selection"
 msgstr "Keuse"
 
-#: ui/kis_node_manager.cpp:325
+#: ui/kis_node_manager.cpp:316
 #, fuzzy
 msgid "to &Paint Layer"
 msgstr "Laag"
 
-#: ui/kis_node_manager.cpp:328
+#: ui/kis_node_manager.cpp:319
 #, fuzzy
 msgid "to &Selection Mask"
 msgstr "Keuse"
 
-#: ui/kis_node_manager.cpp:331
+#: ui/kis_node_manager.cpp:322
 #, fuzzy
 msgid "to &Filter Mask..."
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:334
+#: ui/kis_node_manager.cpp:325
 #, fuzzy
 msgid "to &Transparency Mask"
 msgstr "Voorgrond na Transparent"
 
-#: ui/kis_node_manager.cpp:340
+#: ui/kis_node_manager.cpp:331
 #, fuzzy
 msgid "&Isolate Layer"
 msgstr "Wit"
 
-#: ui/kis_node_manager.cpp:346
+#: ui/kis_node_manager.cpp:337
 #, fuzzy
 msgid "Alpha into Mask"
 msgstr "Alfa"
 
-#: ui/kis_node_manager.cpp:352
+#: ui/kis_node_manager.cpp:343
 #, fuzzy
 msgid "Write as Alpha"
 msgstr "Kleur Kieser"
 
-#: ui/kis_node_manager.cpp:358
+#: ui/kis_node_manager.cpp:349
 #, fuzzy
 msgid "Save Merged..."
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_node_manager.cpp:549
+#: ui/kis_node_manager.cpp:540
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "Keuse"
 
-#: ui/kis_node_manager.cpp:804
+#: ui/kis_node_manager.cpp:795
 #, fuzzy
 #| msgid "Remove Layer"
 msgctxt "(qtundo-format)"
 msgid "Remove Last Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_node_manager.cpp:818
+#: ui/kis_node_manager.cpp:809
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Remove Multiple Layers and Masks"
 msgstr "Verwyder Laag"
 
-#: ui/kis_node_manager.cpp:846
+#: ui/kis_node_manager.cpp:837
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:848
+#: ui/kis_node_manager.cpp:839
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:859
+#: ui/kis_node_manager.cpp:850
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:861
+#: ui/kis_node_manager.cpp:852
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:960
-#, fuzzy
-msgid "Merged"
-msgstr "blou"
-
-#: ui/kis_node_manager.cpp:963
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Merge Selected Nodes"
-msgstr "Verwyder Keuse"
-
-#: ui/kis_node_manager.cpp:1063
+#: ui/kis_node_manager.cpp:971
 #, fuzzy, kde-format
 msgid "Export \"%1\""
 msgstr "Voer uit Beeld..."
 
-#: ui/kis_node_manager.cpp:1136
+#: ui/kis_node_manager.cpp:1044
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:1166
+#: ui/kis_node_manager.cpp:1074
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Layer %1 is not editable"
 msgstr "Beeld"
 
-#: ui/kis_node_manager.cpp:1167
+#: ui/kis_node_manager.cpp:1075
 #, kde-format
 msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
 "The operation will be cancelled."
 msgstr ""
 
-#: ui/kis_node_manager.cpp:1198
+#: ui/kis_node_manager.cpp:1106
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
@@ -18324,12 +18324,12 @@ msgstr ""
 msgid "Custom Document"
 msgstr "Gradiënte"
 
-#: ui/KisPart.cpp:437
+#: ui/KisPart.cpp:436
 #, fuzzy
 msgid "Print"
 msgstr "Verf Nutsprogramme"
 
-#: ui/KisPart.cpp:598
+#: ui/KisPart.cpp:597
 #, fuzzy
 msgid "Create from Clipboard"
 msgstr "Hoeke:"
@@ -18808,7 +18808,8 @@ msgid "Failed to save the vector selection data for layer %1."
 msgstr "Skep nuwe Laag"
 
 #: ui/kra/kis_kra_save_visitor.cpp:402
-msgid "The metadata backend failed to save the metadata for %!"
+#, kde-format
+msgid "The metadata backend failed to save the metadata for %1"
 msgstr ""
 
 #: ui/kra/kis_kra_save_visitor.cpp:413
@@ -20063,6 +20064,10 @@ msgstr "Kleur Kieser"
 #, fuzzy, kde-format
 msgid "Workspace %1"
 msgstr "Kleur Kieser"
+
+#, fuzzy
+#~ msgid "&Merge Selected Layers"
+#~ msgstr "Voeg by Laag..."
 
 #, fuzzy
 #~ msgid "All Files"
