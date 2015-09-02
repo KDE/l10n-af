@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-01 09:56+0000\n"
+"POT-Creation-Date: 2015-09-02 07:54+0000\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1375,7 +1375,7 @@ msgid "Change Styles"
 msgstr "Verander Karakter na Simbool"
 
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:77
-#: kotext/commands/DeleteCommand.cpp:54
+#: kotext/commands/DeleteCommand.cpp:69
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Delete"
@@ -1391,7 +1391,7 @@ msgid "Delete"
 msgstr "Uitvee Teks"
 
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:332
-#: kotext/commands/DeleteCommand.cpp:416 kotext/KoTextEditor_undo.cpp:87
+#: kotext/commands/DeleteCommand.cpp:518 kotext/KoTextEditor_undo.cpp:87
 #: kotext/KoTextEditor_undo.cpp:166 kotext/KoTextEditor_undo.cpp:201
 #: kotext/KoTextEditor_undo.cpp:218 kotext/KoTextEditor_undo.cpp:260
 #, fuzzy
@@ -1481,7 +1481,7 @@ msgctxt "(qtundo-format)"
 msgid "Direct Paragraph Formatting"
 msgstr "Verander Paragraaf Spasiëring"
 
-#: kotext/commands/RenameSectionCommand.cpp:32
+#: kotext/commands/RenameSectionCommand.cpp:35
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rename Section"
@@ -1496,6 +1496,16 @@ msgstr "Pasmaak Petroon"
 #: kotext/commands/ResizeTableCommand.cpp:47
 msgctxt "(qtundo-format)"
 msgid "Adjust Row Height"
+msgstr ""
+
+#: kotext/commands/SplitSectionsCommand.cpp:39
+msgctxt "(qtundo-format)"
+msgid "Split sections startings"
+msgstr ""
+
+#: kotext/commands/SplitSectionsCommand.cpp:41
+msgctxt "(qtundo-format)"
+msgid "Split sections endings"
 msgstr ""
 
 #: kotext/commands/TextPasteCommand.cpp:66
@@ -1561,7 +1571,7 @@ msgstr[1] "Vervang Teks"
 msgid "Replace %1 with %2?"
 msgstr "Vervang 1/2... met %1..."
 
-#: kotext/KoSectionManager.cpp:129
+#: kotext/KoSectionModel.cpp:87
 #, fuzzy, kde-format
 #| msgid "Current Section"
 msgctxt "new numbered section name"
@@ -1585,108 +1595,108 @@ msgctxt "Underline Style"
 msgid "Double"
 msgstr "Dubbel"
 
-#: kotext/KoTextEditor.cpp:192 kotext/KoTextEditor.cpp:1536
-#: kotext/KoTextEditor.cpp:1538
+#: kotext/KoTextEditor.cpp:193 kotext/KoTextEditor.cpp:1559
+#: kotext/KoTextEditor.cpp:1561
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "New Paragraph"
 msgstr "Normale paragraaf teks"
 
-#: kotext/KoTextEditor.cpp:482
+#: kotext/KoTextEditor.cpp:483
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Add Bookmark"
 msgstr "Voeg by Naam"
 
-#: kotext/KoTextEditor.cpp:501
+#: kotext/KoTextEditor.cpp:502
 #, fuzzy
 #| msgid "Add Fraction"
 msgctxt "(qtundo-format)"
 msgid "Add Annotation"
 msgstr "Voeg by Fraksionele"
 
-#: kotext/KoTextEditor.cpp:525
+#: kotext/KoTextEditor.cpp:526
 #, fuzzy
 #| msgid "Insert Text"
 msgctxt "(qtundo-format)"
 msgid "Insert Index"
 msgstr "Voeg by Teks"
 
-#: kotext/KoTextEditor.cpp:551
+#: kotext/KoTextEditor.cpp:552
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Insert Variable"
 msgstr "Voeg by Teks"
 
-#: kotext/KoTextEditor.cpp:618
+#: kotext/KoTextEditor.cpp:619
 #, fuzzy
 #| msgid "Insert Line Break"
 msgctxt "(qtundo-format)"
 msgid "Insert Break"
 msgstr "Voeg by Lyn Breek"
 
-#: kotext/KoTextEditor.cpp:939 kotext/KoTextEditor.cpp:941
-#: kotext/KoTextEditor.cpp:956
+#: kotext/KoTextEditor.cpp:940 kotext/KoTextEditor.cpp:942
+#: kotext/KoTextEditor.cpp:957
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Insert Table"
 msgstr "Voeg by Teks"
 
-#: kotext/KoTextEditor.cpp:1096
+#: kotext/KoTextEditor.cpp:1097
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Cells"
 msgstr "Kantlyne"
 
-#: kotext/KoTextEditor.cpp:1113
+#: kotext/KoTextEditor.cpp:1114
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Split Cells"
 msgstr "Vertikaal"
 
-#: kotext/KoTextEditor.cpp:1142
+#: kotext/KoTextEditor.cpp:1143
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Adjust Table Width"
 msgstr "Pasmaak Petroon"
 
-#: kotext/KoTextEditor.cpp:1159
+#: kotext/KoTextEditor.cpp:1160
 #, fuzzy
 #| msgid "Change Text Format"
 msgctxt "(qtundo-format)"
 msgid "Change Border Formatting"
 msgstr "Verander Teks Formaat"
 
-#: kotext/KoTextEditor.cpp:1206 kotext/KoTextEditor.cpp:1208
-#: kotext/KoTextEditor.cpp:1226
+#: kotext/KoTextEditor.cpp:1207 kotext/KoTextEditor.cpp:1209
+#: kotext/KoTextEditor.cpp:1227
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Insert Table Of Contents"
 msgstr "Voeg by Teks"
 
-#: kotext/KoTextEditor.cpp:1265
+#: kotext/KoTextEditor.cpp:1266
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Modify Table Of Contents"
 msgstr "Voeg by Teks"
 
-#: kotext/KoTextEditor.cpp:1282 kotext/KoTextEditor.cpp:1284
-#: kotext/KoTextEditor.cpp:1303
+#: kotext/KoTextEditor.cpp:1283 kotext/KoTextEditor.cpp:1285
+#: kotext/KoTextEditor.cpp:1304
 #, fuzzy
 #| msgid "Insert Line Break"
 msgctxt "(qtundo-format)"
 msgid "Insert Bibliography"
 msgstr "Voeg by Lyn Breek"
 
-#: kotext/KoTextEditor.cpp:1340 kotext/KoTextEditor.cpp:1342
+#: kotext/KoTextEditor.cpp:1341 kotext/KoTextEditor.cpp:1343
 #, fuzzy
 #| msgid "Add Fraction"
 msgctxt "(qtundo-format)"
 msgid "Add Citation"
 msgstr "Voeg by Fraksionele"
 
-#: kotext/KoTextEditor.cpp:1369 kotext/KoTextEditor.cpp:1371
-#: kotext/KoTextEditor.cpp:1409
+#: kotext/KoTextEditor.cpp:1370 kotext/KoTextEditor.cpp:1372
+#: kotext/KoTextEditor.cpp:1410
 msgctxt "(qtundo-format)"
 msgid "Typing"
 msgstr ""
