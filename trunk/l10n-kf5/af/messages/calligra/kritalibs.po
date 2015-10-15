@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koffice VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-08 08:33+0000\n"
+"POT-Creation-Date: 2015-10-13 10:02+0000\n"
 "PO-Revision-Date: 2002-09-27 16:44+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -15,18 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#, fuzzy
-#| msgid "Color:"
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Kleur:"
-
-#, fuzzy
-#| msgid "Color:"
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "Kleur:"
 
 #: basicflakes/plugin/KoCreatePathToolFactory.cpp:30
 #, fuzzy
@@ -372,7 +360,7 @@ msgstr "Lemmetjie Groen"
 #. i18n: ectx: property (text), widget (QLabel)
 #. i18n: ectx: property (text), widget (QLabel, lblTypeDesc)
 #: flake/KoConnectionShapeConfigWidget.ui:17
-#: widgets/koDocumentInfoAboutWidget.ui:141
+#: widgets/koDocumentInfoAboutWidget.ui:94
 #: widgets/KoGradientEditWidget.cpp:169
 #, fuzzy
 msgid "Type:"
@@ -408,8 +396,6 @@ msgstr ""
 
 #: flake/KoShapeController.cpp:71 kotext/InsertTextReferenceAction.cpp:63
 #: kotext/InsertVariableAction.cpp:58
-#: rdf/InsertSemanticObjectCreateAction.cpp:59
-#: rdf/InsertSemanticObjectReferenceAction.cpp:64
 #, fuzzy, kde-format
 msgid "%1 Options"
 msgstr "Uitsonderings"
@@ -425,7 +411,7 @@ msgstr "Skep Werkvoorbeeld"
 msgid "Active tool: %1"
 msgstr ""
 
-#: flake/KoToolProxy.cpp:600
+#: flake/KoToolProxy.cpp:578
 #, fuzzy
 #| msgid "Paste Text"
 msgctxt "(qtundo-format)"
@@ -627,6 +613,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, remove)
 #. i18n: ectx: property (text), widget (QToolButton, open)
 #. i18n: ectx: property (text), widget (QToolButton, save)
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectFile)
 #: flake/tools/PathToolOptionWidgetBase.ui:39
 #: flake/tools/PathToolOptionWidgetBase.ui:46
 #: flake/tools/PathToolOptionWidgetBase.ui:53
@@ -641,7 +628,7 @@ msgstr ""
 #: flake/tools/PathToolOptionWidgetBase.ui:129
 #: flake/tools/PathToolOptionWidgetBase.ui:136 widgets/KoEditColorSet.ui:48
 #: widgets/KoEditColorSet.ui:58 widgets/KoEditColorSet.ui:68
-#: widgets/KoEditColorSet.ui:78
+#: widgets/KoEditColorSet.ui:78 widgets/wdg_url_requester.ui:35
 #, fuzzy
 msgid "..."
 msgstr "Voeg by Groep..."
@@ -651,722 +638,6 @@ msgstr "Voeg by Groep..."
 #, fuzzy
 msgid "Convert To Path"
 msgstr "Skakel om na Grieks"
-
-#: kokross/KoScriptingDocker.cpp:76 kokross/KoScriptingPart.cpp:84
-#, fuzzy
-msgid "Scripts"
-msgstr "Onderskrif"
-
-#: kokross/KoScriptingDocker.cpp:111 kokross/KoScriptManager.cpp:299
-#, fuzzy
-msgid "Script Manager"
-msgstr "Styl Bestuurder"
-
-#: kokross/KoScriptingPart.cpp:80
-#, fuzzy
-msgid "Execute Script File..."
-msgstr "Onderskrif"
-
-#: kokross/KoScriptingPart.cpp:88
-#, fuzzy
-msgid "Script Manager..."
-msgstr "Styl Bestuurder"
-
-#: kokross/KoScriptingPart.cpp:157
-#, fuzzy
-msgid "Execute Script File"
-msgstr "Onderskrif"
-
-#: kokross/KoScriptManager.cpp:179
-msgid "Install Script Package"
-msgstr ""
-
-#: kokross/KoScriptManager.cpp:217
-#, fuzzy, kde-format
-msgid "Could not read the package \"%1\"."
-msgstr "Kon nie voer uit lêer"
-
-#: kokross/KoScriptManager.cpp:224
-#, kde-format
-msgid "The package \"%1\" does not contain a valid install.rc file."
-msgstr ""
-
-#: kokross/KoScriptManager.cpp:231
-#, kde-format
-msgid "Failed to parse the install.rc file at package \"%1\"."
-msgstr ""
-
-#: kokross/KoScriptManager.cpp:237
-#, kde-format
-msgid ""
-"Failed to determinate location where the package \"%1\" should be installed "
-"to."
-msgstr ""
-
-#: kokross/KoScriptManager.cpp:247
-#, kde-format
-msgid ""
-"A script package with the name \"%1\" already exists. Replace this package?"
-msgstr ""
-
-#: kokross/KoScriptManager.cpp:248 main/KoFindToolbar.cpp:152
-#, fuzzy
-msgid "Replace"
-msgstr "Vervang:"
-
-#: kokross/KoScriptManager.cpp:251
-#, kde-format
-msgid ""
-"Could not uninstall this script package. You may not have sufficient "
-"permissions to delete the folder \"%1\"."
-msgstr ""
-
-#: kokross/KoScriptManager.cpp:281
-#, kde-format
-msgid ""
-"Could not uninstall the script package \"%1\" since the script is not "
-"installed."
-msgstr ""
-
-#: kokross/KoScriptManager.cpp:287
-#, kde-format
-msgid ""
-"Could not uninstall the script package \"%1\". You may not have sufficient "
-"permissions to delete the folder \"%1\"."
-msgstr ""
-
-#: kokross/KoScriptManager.cpp:301 main/KoMainWindow.cpp:681
-#, fuzzy
-msgid "Save"
-msgstr "graf"
-
-#: kokross/KoScriptManagerAdd.cpp:52
-msgid ""
-"<qt>This wizard will guide you through the proccess of adding a new resource "
-"to your scripts.</qt>"
-msgstr ""
-
-#: kokross/KoScriptManagerAdd.cpp:57
-#, fuzzy
-msgid "Add script file"
-msgstr "Onderskrif"
-
-#: kokross/KoScriptManagerAdd.cpp:62
-#, fuzzy
-#| msgid "Add Completion Entry"
-msgid "Add collection folder"
-msgstr "Voeg by Voltooiïng Inskrywing"
-
-#: kokross/KoScriptManagerAdd.cpp:65
-msgid "Install script package file"
-msgstr ""
-
-#: kokross/KoScriptManagerAdd.cpp:69
-msgid "Install online script package"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QToolButton, add)
-#: kokross/KoScriptManagerAdd.cpp:272 kokross/KoScriptManagerAdd.cpp:275
-#: widgets/KoEditColorSet.ui:45
-#, fuzzy
-msgid "Add"
-msgstr "Voeg by"
-
-#: kokross/KoScriptManagerAdd.cpp:279
-#, fuzzy
-msgid "Script File"
-msgstr "Onderskrif"
-
-#: kokross/KoScriptManagerAdd.cpp:282
-#, fuzzy
-msgid "Script"
-msgstr "Onderskrif"
-
-#: kokross/KoScriptManagerAdd.cpp:285
-#, fuzzy
-#| msgid "Completion"
-msgid "Collection"
-msgstr "Voltooiïng"
-
-#: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:34
-#, fuzzy
-#| msgid "Change List Type"
-msgctxt "(qtundo-format)"
-msgid "Change master slide"
-msgstr "Verander Lys Tipe"
-
-#: kopageapp/commands/KoPAChangeMasterPageCommand.cpp:37
-#, fuzzy
-#| msgid "Change List Type"
-msgctxt "(qtundo-format)"
-msgid "Change master page"
-msgstr "Verander Lys Tipe"
-
-#: kopageapp/commands/KoPAChangePageLayoutCommand.cpp:32
-#, fuzzy
-#| msgid "Page Layout"
-msgctxt "(qtundo-format)"
-msgid "Set Page Layout"
-msgstr "Bladsy Uitleg"
-
-#: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:31
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Display master background"
-msgstr "Tweede"
-
-#: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:35
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Display slide background"
-msgstr "Tweede"
-
-#: kopageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:38
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Display page background"
-msgstr "Tweede"
-
-#: kopageapp/commands/KoPADisplayMasterShapesCommand.cpp:31
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Show master shapes"
-msgstr "Skep Werkvoorbeeld"
-
-#: kopageapp/commands/KoPADisplayMasterShapesCommand.cpp:34
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Hide master shapes"
-msgstr "Skep Werkvoorbeeld"
-
-#: kopageapp/commands/KoPAPageDeleteCommand.cpp:39
-#: kopageapp/commands/KoPAPageDeleteCommand.cpp:63
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete slide"
-msgid_plural "Delete slides"
-msgstr[0] "Uitvee Teks"
-msgstr[1] "Uitvee Teks"
-
-#: kopageapp/commands/KoPAPageDeleteCommand.cpp:42
-#: kopageapp/commands/KoPAPageDeleteCommand.cpp:66
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete page"
-msgid_plural "Delete pages"
-msgstr[0] "Uitvee Teks"
-msgstr[1] "Uitvee Teks"
-
-#: kopageapp/commands/KoPAPageInsertCommand.cpp:37
-#, fuzzy
-#| msgid "Insert Text"
-msgctxt "(qtundo-format)"
-msgid "Insert slide"
-msgstr "Voeg by Teks"
-
-#: kopageapp/commands/KoPAPageInsertCommand.cpp:40
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Insert page"
-msgstr "Voeg by Teks"
-
-#: kopageapp/commands/KoPAPageMoveCommand.cpp:58
-#, fuzzy
-#| msgid "Paste Text"
-msgctxt "(qtundo-format)"
-msgid "Move slide"
-msgid_plural "Move slides"
-msgstr[0] "Plak Teks"
-msgstr[1] "Plak Teks"
-
-#: kopageapp/commands/KoPAPageMoveCommand.cpp:61
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Move page"
-msgid_plural "Move pages"
-msgstr[0] "Uitvee Teks"
-msgstr[1] "Uitvee Teks"
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:41
-msgid "Configure"
-msgstr ""
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:46
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:47
-#: main/config/KoConfigMiscPage.cpp:79 pigment/KoCompositeOp.cpp:43
-#: pigment/KoCompositeOpRegistry.cpp:42
-msgid "Misc"
-msgstr ""
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:51
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:52
-#: main/config/KoConfigGridPage.cpp:68
-#, fuzzy
-msgid "Grid"
-msgstr "Vertoon %1 Nutsbalk"
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:58
-#, fuzzy
-msgctxt "@title:tab Document settings page"
-msgid "Document"
-msgstr "Open Dokument"
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:59
-#: main/config/KoConfigDocumentPage.cpp:59
-#, fuzzy
-msgid "Document Settings"
-msgstr "Dokument Abstrak"
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:63
-#, fuzzy
-#| msgid "Author"
-msgctxt "@title:tab Author page"
-msgid "Author"
-msgstr "Outeur"
-
-#: kopageapp/dialogs/KoPAConfigureDialog.cpp:64
-#: widgets/KoDocumentInfoDlg.cpp:143
-msgid "Author"
-msgstr "Outeur"
-
-#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:40
-msgid "Select a master slide design:"
-msgstr ""
-
-#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:41
-#, fuzzy
-#| msgid "Paste Text"
-msgid "Master Slide"
-msgstr "Plak Teks"
-
-#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:43
-msgid "Select a master page design:"
-msgstr ""
-
-#: kopageapp/dialogs/KoPAMasterPageDialog.cpp:44
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:110
-#, fuzzy
-#| msgid "Paste Text"
-msgid "Master Page"
-msgstr "Plak Teks"
-
-#: kopageapp/KoPADocumentModel.cpp:180 kopageapp/KoPAPageThumbnailModel.cpp:67
-#, fuzzy, kde-format
-msgid "Slide %1"
-msgstr "Vertoon %1 Nutsbalk"
-
-#: kopageapp/KoPADocumentModel.cpp:182
-#, fuzzy, kde-format
-msgid "Page  %1"
-msgstr "Datum"
-
-#: kopageapp/KoPADocumentModel.cpp:185
-#: kopageapp/KoPADocumentStructureDocker.cpp:113
-#, fuzzy
-msgid "Layer"
-msgstr "Rooi"
-
-#: kopageapp/KoPADocumentModel.cpp:187
-#, fuzzy
-#| msgid "Group:"
-msgid "Group"
-msgstr "Groep:"
-
-#: kopageapp/KoPADocumentModel.cpp:189
-#, fuzzy
-msgid "Shape"
-msgstr "graf"
-
-#: kopageapp/KoPADocumentModel.cpp:280
-#, fuzzy
-#| msgid "Paste Text"
-msgctxt "(qtundo-format)"
-msgid "Rename Slide"
-msgstr "Plak Teks"
-
-#: kopageapp/KoPADocumentModel.cpp:282
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Rename Page"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPADocumentModel.cpp:286
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Rename Layer"
-msgstr "Skep Werkvoorbeeld"
-
-#: kopageapp/KoPADocumentModel.cpp:322
-#: kopageapp/KoPADocumentStructureDocker.cpp:111
-#, fuzzy
-#| msgid "Size:"
-msgid "Slide"
-msgstr "Grootte:"
-
-#: kopageapp/KoPADocumentModel.cpp:325
-#, fuzzy
-#| msgid "Variable"
-msgid "Visible"
-msgstr "Veranderlike"
-
-#: kopageapp/KoPADocumentModel.cpp:326
-#, fuzzy
-msgid "Locked"
-msgstr "Lokalisering"
-
-#: kopageapp/KoPADocumentModel.cpp:541 kopageapp/KoPADocumentModel.cpp:560
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPADocumentModel.cpp:692
-#, fuzzy
-msgid "&Move Here"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPADocumentModel.cpp:696
-#, fuzzy
-msgid "&Copy Here"
-msgstr "Skerm"
-
-#: kopageapp/KoPADocumentModel.cpp:700
-#, fuzzy
-msgid "C&ancel"
-msgstr "Verander Kas"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:91 main/KoMainWindow.cpp:1707
-#, fuzzy
-msgid "Document"
-msgstr "Open Dokument"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:100
-#, fuzzy
-msgid "Add a new slide or layer"
-msgstr "Nuwe reel"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:103
-#, fuzzy
-msgid "Add a new page or layer"
-msgstr "Nuwe reel"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:111
-#: widgets/KoPageLayoutDialog.cpp:50
-#, fuzzy
-msgid "Page"
-msgstr "Volgende styl:"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:120
-#: kopageapp/KoPADocumentStructureDocker.cpp:627
-#, fuzzy
-#| msgid "Remove Selected Text"
-msgid "Delete selected objects"
-msgstr "Verwyder Gekose Teks"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:126
-#, fuzzy
-#| msgid "Remove Selected Text"
-msgid "Raise selected objects"
-msgstr "Verwyder Gekose Teks"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:132
-#, fuzzy
-msgid "Lower selected objects"
-msgstr "Open Dokument"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:141
-msgid "Minimal View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:143
-msgid "Detailed View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:145
-msgid "Thumbnail View"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:155
-#, fuzzy
-#| msgid "Change Borders"
-msgid "View mode"
-msgstr "Verander Grense"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:312
-msgid "Enter the name of the new layer:"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:312
-msgid "New Layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:313
-msgid "New layer"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:326
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Create Layer"
-msgstr "Skep Werkvoorbeeld"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:352
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Delete Layer"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:355
-msgid "Could not delete all layers. At least one layer is required."
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:355
-msgid "Error deleting layers"
-msgstr ""
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:622
-#, fuzzy
-msgid "Add a new slide"
-msgstr "Nuwe reel"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:625
-#, fuzzy
-msgid "Add a new page"
-msgstr "Nuwe reel"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:629
-#, fuzzy
-#| msgid "Custom"
-msgid "Cut"
-msgstr "Pasmaak"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:630
-#: pigment/compositeops/KoCompositeOpCopy.h:37
-#: pigment/compositeops/KoCompositeOpCopy2.h:45
-#: pigment/KoCompositeOpRegistry.cpp:97
-#, fuzzy
-msgid "Copy"
-msgstr "Maatskappy"
-
-#: kopageapp/KoPADocumentStructureDocker.cpp:631
-#, fuzzy
-#| msgid "Date"
-msgid "Paste"
-msgstr "Datum"
-
-#: kopageapp/KoPAPageThumbnailModel.cpp:69
-#, fuzzy, kde-format
-msgid "Page %1"
-msgstr "Datum"
-
-#: kopageapp/KoPAPastePage.cpp:131
-#, fuzzy
-#| msgid "Paste Text"
-msgctxt "(qtundo-format)"
-msgid "Paste Slide"
-msgid_plural "Paste Slides"
-msgstr[0] "Plak Teks"
-msgstr[1] "Plak Teks"
-
-#: kopageapp/KoPAPastePage.cpp:134
-#, fuzzy
-#| msgid "Paste Text"
-msgctxt "(qtundo-format)"
-msgid "Paste Page"
-msgid_plural "Paste Pages"
-msgstr[0] "Plak Teks"
-msgstr[1] "Plak Teks"
-
-#: kopageapp/KoPAView.cpp:319 widgets/KoToolBoxDocker.cpp:41
-#, fuzzy
-msgid "Tools"
-msgstr "Verstek Kleur"
-
-#: kopageapp/KoPAView.cpp:360
-#, fuzzy
-msgid "D&elete"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPAView.cpp:371
-msgid "Snap to Grid"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:381
-msgid "Show Master Pages"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:385
-msgid "Show Rulers"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:387
-msgid "Show/hide the view's rulers"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:391
-#, fuzzy
-msgid "Insert Page"
-msgstr "Voeg by Teks"
-
-#: kopageapp/KoPAView.cpp:393 kopageapp/KoPAView.cpp:394
-msgid "Insert a new page after the current one"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:397
-#, fuzzy
-#| msgid "Company Name"
-msgid "Copy Page"
-msgstr "Maatskappy Naam"
-
-#: kopageapp/KoPAView.cpp:399 kopageapp/KoPAView.cpp:400
-msgid "Copy the current page"
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:403
-#, fuzzy
-msgid "Delete Page"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPAView.cpp:406 kopageapp/KoPAView.cpp:407
-#, fuzzy
-msgid "Delete the current page"
-msgstr "Uitvee Teks"
-
-#: kopageapp/KoPAView.cpp:410
-#, fuzzy
-#| msgid "Paste Text"
-msgid "Master Page..."
-msgstr "Plak Teks"
-
-#: kopageapp/KoPAView.cpp:414
-msgid "Page Layout..."
-msgstr "Bladsy Uitleg..."
-
-#. i18n: ectx: property (text), widget (QTableWidget, variables)
-#: kopageapp/KoPAView.cpp:424 rdf/KoSemanticStylesheetsEditor.ui:57
-msgid "Variable"
-msgstr "Veranderlike"
-
-#: kopageapp/KoPAView.cpp:429
-#, fuzzy
-msgid "Import Document..."
-msgstr "Open Dokument"
-
-#: kopageapp/KoPAView.cpp:433
-msgid "Configure..."
-msgstr ""
-
-#: kopageapp/KoPAView.cpp:508
-#, fuzzy
-msgid "Import Slideshow"
-msgstr "In voer Styl"
-
-#: kopageapp/KoPAView.cpp:511 main/KoMainWindow.cpp:1303
-#, fuzzy
-msgid "Import Document"
-msgstr "Open Dokument"
-
-#: kopageapp/KoPAView.cpp:536 kopageapp/KoPAView.cpp:540
-#, fuzzy, kde-format
-#| msgid ""
-#| "Could not open\n"
-#| "%1"
-msgid ""
-"Could not import\n"
-"%1"
-msgstr ""
-"Kon nie open\n"
-"%1"
-
-#: kopageapp/KoPAView.cpp:653
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Change page layout"
-msgstr "Verander Tabel-vormer"
-
-#. i18n: ectx: property (text), widget (QPushButton, backgroundImage)
-#: kopageapp/tools/backgroundTool/BackgroundToolWidget.ui:43
-#, fuzzy
-msgid "Set image ..."
-msgstr "Tweede"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:103
-#: kopageapp/widgets/KoPABackgroundFillWidget.cpp:34
-#, fuzzy
-msgid "Background"
-msgstr "Tweede"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundTool.cpp:103
-#, fuzzy
-msgid "Page Background"
-msgstr "Tweede"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:52
-#, fuzzy
-#| msgid "Page Preview"
-msgid "Page Design"
-msgstr "Bladsy Voorskou"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:52
-#, fuzzy
-msgid "Slide Design"
-msgstr "Vertoon %1 Nutsbalk"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:54
-#, fuzzy
-msgid "Use background of master page"
-msgstr "Tweede"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:54
-#, fuzzy
-msgid "Use background of master slide"
-msgstr "Tweede"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:57
-#, fuzzy
-#| msgid "Change List Type"
-msgid "Display shapes of master page"
-msgstr "Verander Lys Tipe"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:57
-#, fuzzy
-#| msgid "Change List Type"
-msgid "Display shapes of master slide"
-msgstr "Verander Lys Tipe"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:115
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Change slide background image"
-msgstr "Tweede"
-
-#: kopageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:116
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Change page background image"
-msgstr "Tweede"
-
-#: kopageapp/widgets/KoPageNavigator.cpp:68
-#, fuzzy, kde-format
-#| msgid "Paste Text"
-msgid "Master Slide %1/%2"
-msgstr "Plak Teks"
-
-#: kopageapp/widgets/KoPageNavigator.cpp:69
-#, fuzzy, kde-format
-msgid "Slide %1/%2"
-msgstr "Vertoon %1 Nutsbalk"
-
-#: kopageapp/widgets/KoPageNavigator.cpp:70
-#, fuzzy, kde-format
-#| msgid "Paste Text"
-msgid "Master Page %1/%2"
-msgstr "Plak Teks"
-
-#: kopageapp/widgets/KoPageNavigator.cpp:71
-#, fuzzy, kde-format
-msgid "Page %1/%2"
-msgstr "Datum"
 
 #: kotext/commands/ChangeListCommand.cpp:41
 #: kotext/commands/ChangeListCommand.cpp:88
@@ -1546,38 +817,6 @@ msgstr ""
 #: kotext/InsertTextReferenceAction.cpp:53
 msgid "Select the index you want to reference"
 msgstr ""
-
-#: kotext/KoFindStrategy.cpp:63
-#, kde-format
-msgid "Found 1 match"
-msgid_plural "Found %1 matches"
-msgstr[0] ""
-msgstr[1] ""
-
-#: kotext/KoFindStrategy.cpp:63
-msgid "Found no match"
-msgstr ""
-
-#: kotext/KoReplaceStrategy.cpp:56
-msgid ""
-"Found no match\n"
-"\n"
-"No text was replaced"
-msgstr ""
-
-#: kotext/KoReplaceStrategy.cpp:59
-#, fuzzy, kde-format
-msgid "1 replacement made"
-msgid_plural "%1 replacements made"
-msgstr[0] "Vervang Teks"
-msgstr[1] "Vervang Teks"
-
-#: kotext/KoReplaceStrategy.cpp:72
-#, fuzzy, kde-format
-#| msgctxt "We add the 1/2 char at the %1"
-#| msgid "Re&place 1/2... with %1..."
-msgid "Replace %1 with %2?"
-msgstr "Vervang 1/2... met %1..."
 
 #: kotext/KoSectionModel.cpp:87
 #, fuzzy, kde-format
@@ -1830,7 +1069,6 @@ msgid "Undo"
 msgstr ""
 
 #: kundo2/kundo2group.cpp:359 kundo2/kundo2stack.cpp:1079
-#: main/KoUndoStackAction.cpp:54
 #, kde-format
 msgid "Undo %1"
 msgstr ""
@@ -1842,7 +1080,6 @@ msgid "Redo"
 msgstr "Antwoord"
 
 #: kundo2/kundo2group.cpp:386 kundo2/kundo2stack.cpp:1105
-#: main/KoUndoStackAction.cpp:54
 #, fuzzy, kde-format
 msgid "Redo %1"
 msgstr "Antwoord"
@@ -1851,1017 +1088,14 @@ msgstr "Antwoord"
 msgid "<empty>"
 msgstr ""
 
-#: kundo2/kundo2stack.cpp:1350 main/KoMainWindow.cpp:1528
-#: main/KoUndoStackAction.cpp:46
+#: kundo2/kundo2stack.cpp:1350
 #, fuzzy
 msgid "Redo"
 msgstr "Antwoord"
 
-#: kundo2/kundo2stack.cpp:1369 main/KoMainWindow.cpp:1527
-#: main/KoUndoStackAction.cpp:38
+#: kundo2/kundo2stack.cpp:1369
 msgid "Undo"
 msgstr ""
-
-#. i18n: ectx: Menu (file)
-#: main/calligra_shell.rc:4
-#, fuzzy
-msgid "&File"
-msgstr "Lêernaam"
-
-#. i18n: ectx: Menu (settings)
-#: main/calligra_shell.rc:32
-#, fuzzy
-msgid "&Settings"
-msgstr "Enkel"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: main/calligra_shell.rc:46
-#, fuzzy
-msgid "File"
-msgstr "Lêernaam"
-
-#: main/config/KoConfigDocumentPage.cpp:75
-#, fuzzy
-#| msgid "No value"
-msgid "No autosave"
-msgstr "Nee waarde"
-
-#: main/config/KoConfigDocumentPage.cpp:76
-msgctxt "unit symbol for minutes, leading space as separator"
-msgid " min"
-msgstr ""
-
-#: main/config/KoConfigDocumentPage.cpp:78
-msgid "Autosave interval:"
-msgstr ""
-
-#: main/config/KoConfigDocumentPage.cpp:82
-#, fuzzy
-msgid "Create backup file:"
-msgstr "Skep Werkvoorbeeld"
-
-#: main/config/KoConfigGridPage.cpp:76
-#, fuzzy
-msgid "Show grid:"
-msgstr "Vertoon %1 Nutsbalk"
-
-#: main/config/KoConfigGridPage.cpp:77
-msgid "Snap to grid:"
-msgstr ""
-
-#: main/config/KoConfigGridPage.cpp:78
-#, fuzzy
-msgid "Grid color:"
-msgstr "Agtergrond kleur:"
-
-#: main/config/KoConfigGridPage.cpp:80
-#, fuzzy
-msgid "Spacing"
-msgstr "Lyn Spasiëring"
-
-#: main/config/KoConfigGridPage.cpp:91
-#, fuzzy
-#| msgid "&Horizontal"
-msgctxt "Horizontal grid spacing"
-msgid "&Horizontal:"
-msgstr "Horisontaal"
-
-#: main/config/KoConfigGridPage.cpp:92
-#, fuzzy
-#| msgid "&Vertical"
-msgctxt "Vertical grid spacing"
-msgid "&Vertical:"
-msgstr "Vertikaal"
-
-#: main/config/KoConfigMiscPage.cpp:89
-#, fuzzy
-#| msgid "Unit:"
-msgid "Units:"
-msgstr "Eenheid:"
-
-#: main/config/KoConfigMiscPage.cpp:98
-msgid "Handle radius:"
-msgstr ""
-
-#: main/config/KoConfigMiscPage.cpp:105
-msgid "Grab sensitivity:"
-msgstr ""
-
-#: main/config/KoConfigMiscPage.cpp:112
-#, fuzzy
-#| msgid "Shadow:"
-msgid "Paste offset:"
-msgstr "Skadu:"
-
-#: main/config/KoConfigMiscPage.cpp:116
-msgid "Paste at Cursor:"
-msgstr ""
-
-#: main/KoApplication.cpp:201
-msgid "Only print and exit"
-msgstr ""
-
-#: main/KoApplication.cpp:202
-#, fuzzy
-msgid "Open a new document with a template"
-msgstr "Skep nuwe dokument van 'n werkvoorbeeld"
-
-#: main/KoApplication.cpp:203
-msgid "Override display DPI"
-msgstr ""
-
-#: main/KoApplication.cpp:204
-msgid "Only export to PDF and exit"
-msgstr ""
-
-#: main/KoApplication.cpp:205
-msgid "Filename for export-pdf"
-msgstr ""
-
-#: main/KoApplication.cpp:206
-msgid "just load the file and then exit"
-msgstr ""
-
-#: main/KoApplication.cpp:207
-msgid "load the file, show the window and progressbar and then exit"
-msgstr ""
-
-#: main/KoApplication.cpp:208
-msgid "Filename to write profiling information into."
-msgstr ""
-
-#: main/KoApplication.cpp:209
-msgid "Load a file and save it as an ODF file. Meant for debugging."
-msgstr ""
-
-#: main/KoApplication.cpp:210
-msgid "File(s) or URL(s) to open"
-msgstr ""
-
-#: main/KoApplication.cpp:220
-msgid ""
-"You are running a 32 bits build on a 64 bits Windows.\n"
-"This is not recommended.\n"
-"Please download and install the x64 build instead."
-msgstr ""
-
-#: main/KoApplication.cpp:260
-#, fuzzy, kde-format
-msgid "%1: Critical Error"
-msgstr "Voltooiïng Woord"
-
-#: main/KoApplication.cpp:260
-msgid ""
-"Essential application components could not be found.\n"
-"This might be an installation issue.\n"
-"Try restarting or reinstalling."
-msgstr ""
-
-#: main/KoApplication.cpp:505
-#, fuzzy, kde-format
-msgid "No template found for: %1"
-msgstr "Nee handteerder gevind vir %1"
-
-#: main/KoApplication.cpp:508
-#, fuzzy, kde-format
-msgid "Too many templates found for: %1"
-msgstr "Nee handteerder gevind vir %1"
-
-#: main/KoApplication.cpp:530
-#, kde-format
-msgid "Template %1 failed to load."
-msgstr ""
-
-#: main/KoAutoSaveRecoveryDialog.cpp:179
-msgctxt "@title:window"
-msgid "Recover Files"
-msgstr ""
-
-#: main/KoAutoSaveRecoveryDialog.cpp:184
-msgid "The following autosave file can be recovered:"
-msgstr ""
-
-#: main/KoAutoSaveRecoveryDialog.cpp:187
-msgid "The following autosave files can be recovered:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, m_alwaysUseCheckBox)
-#: main/KoDetailsPaneBase.ui:94
-msgid "Always use this template at application start up"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_alwaysUseCheckBox)
-#: main/KoDetailsPaneBase.ui:97
-#, fuzzy
-msgid "Always use this template"
-msgstr "Skep Werkvoorbeeld"
-
-#: main/KoDocument.cpp:557
-msgid "Making backup..."
-msgstr ""
-
-#: main/KoDocument.cpp:572
-#, fuzzy
-msgid "Saving..."
-msgstr "Lêer Stooring"
-
-#: main/KoDocument.cpp:600
-#, kde-format
-msgid ""
-"Could not save\n"
-"%1"
-msgstr ""
-"Kon nie stoor\n"
-"%1"
-
-#: main/KoDocument.cpp:602
-#, kde-format
-msgid ""
-"Could not save %1\n"
-"Reason: %2"
-msgstr ""
-"Kon nie stoor %1\n"
-"Rede: %2"
-
-#: main/KoDocument.cpp:631
-#, fuzzy, kde-format
-#| msgid "Document Title"
-msgid "Document <i>%1</i> saved"
-msgstr "Dokument Titel"
-
-#: main/KoDocument.cpp:719
-msgid ""
-"The password of this encrypted document is not known. Autosave aborted! "
-"Please save your work manually."
-msgstr ""
-
-#: main/KoDocument.cpp:722
-msgid "Autosaving..."
-msgstr ""
-
-#: main/KoDocument.cpp:734
-msgid "Error during autosave! Partition full?"
-msgstr ""
-
-#: main/KoDocument.cpp:827
-msgid "Could not create the file for saving"
-msgstr ""
-
-#: main/KoDocument.cpp:871 main/KoDocument.cpp:893 main/KoDocument.cpp:924
-#: main/KoDocument.cpp:958
-#, kde-format
-msgid "Not able to write '%1'. Partition full?"
-msgstr ""
-
-#: main/KoDocument.cpp:878
-msgid "Not able to write RDF metadata. Partition full?"
-msgstr ""
-
-#: main/KoDocument.cpp:886 main/KoDocument.cpp:933 main/KoDocument.cpp:2001
-#, kde-format
-msgid "Error while trying to write '%1'. Partition full?"
-msgstr ""
-
-#: main/KoDocument.cpp:1210
-#, kde-format
-msgid ""
-"Malformed URL\n"
-"%1"
-msgstr ""
-"Misformde Url\n"
-"%1"
-
-#: main/KoDocument.cpp:1226
-msgid ""
-"An autosaved file exists for this document.\n"
-"Do you want to open it instead?"
-msgstr ""
-"'n autogered lêer bestaan vir hierdie dokument.\n"
-"Doen jy wil hê na open dit in plaas van?"
-
-#: main/KoDocument.cpp:1343 main/KoDocument.cpp:1689 main/KoMainWindow.cpp:719
-#, kde-format
-msgid "The file %1 does not exist."
-msgstr ""
-
-#: main/KoDocument.cpp:1468
-#, fuzzy
-#| msgid "Open Document"
-msgid "Opening Document"
-msgstr "Open Dokument"
-
-#: main/KoDocument.cpp:1483
-#, fuzzy
-msgid "Could not create the filter plugin"
-msgstr "Kon nie voer uit lêer"
-
-#: main/KoDocument.cpp:1486
-#, fuzzy
-msgid "Could not create the output document"
-msgstr "Kon nie voer uit lêer"
-
-#: main/KoDocument.cpp:1489
-#, fuzzy
-msgid "File not found"
-msgstr "Fout: Lêer nie gevind."
-
-#: main/KoDocument.cpp:1492
-msgid "Cannot create storage"
-msgstr ""
-
-#: main/KoDocument.cpp:1495
-msgid "Bad MIME type"
-msgstr ""
-
-#: main/KoDocument.cpp:1498
-#, fuzzy
-msgid "Error in embedded document"
-msgstr "Fout terwyl stooring ingebedde dokumente"
-
-#: main/KoDocument.cpp:1501
-msgid "Format not recognized"
-msgstr ""
-
-#: main/KoDocument.cpp:1504
-#, fuzzy
-msgid "Not implemented"
-msgstr "byvoeging"
-
-#: main/KoDocument.cpp:1507
-msgid "Parsing error"
-msgstr ""
-
-#: main/KoDocument.cpp:1510
-msgid "Document is password protected"
-msgstr ""
-
-#: main/KoDocument.cpp:1513
-#, fuzzy
-msgid "Invalid file format"
-msgstr "Datum Formaat"
-
-#: main/KoDocument.cpp:1520
-#, fuzzy
-msgid "Internal error"
-msgstr "Internet"
-
-#: main/KoDocument.cpp:1523
-msgid "Out of memory"
-msgstr ""
-
-#: main/KoDocument.cpp:1526
-msgid "Empty Filter Plugin"
-msgstr ""
-
-#: main/KoDocument.cpp:1529
-msgid "Trying to load into the wrong kind of document"
-msgstr ""
-
-#: main/KoDocument.cpp:1532
-#, fuzzy
-msgid "Failed to download remote file"
-msgstr "Kon nie open lêer %1"
-
-#: main/KoDocument.cpp:1539
-msgid "Unknown error"
-msgstr ""
-
-#: main/KoDocument.cpp:1543
-#, fuzzy, kde-format
-msgid ""
-"Could not open %2.\n"
-"Reason: %1.\n"
-"%3"
-msgstr ""
-"Kon nie open %1\n"
-"Rede: %2"
-
-#: main/KoDocument.cpp:1600
-#, fuzzy, kde-format
-#| msgid "Document Title"
-msgid "Document <i>%1</i> loaded"
-msgstr "Dokument Titel"
-
-#: main/KoDocument.cpp:1662 odf/KoOdfReadStore.cpp:111
-#, fuzzy, kde-format
-msgid "Could not find %1"
-msgstr "Kon nie soek module %1"
-
-#: main/KoDocument.cpp:1674
-#, fuzzy, kde-format
-msgid ""
-"Parsing error in %1 at line %2, column %3\n"
-"Error message: %4"
-msgstr "Verwerking fout in lêer na lyn %1, kolom %2"
-
-#: main/KoDocument.cpp:1696
-#, fuzzy, kde-format
-msgid "%1 is not a file."
-msgstr "%1 is nie 'n geldige skakel."
-
-#: main/KoDocument.cpp:1711
-msgid "Could not open the file for reading (check read permissions)."
-msgstr ""
-
-#: main/KoDocument.cpp:1722
-#, fuzzy
-msgid "Could not read the beginning of the file."
-msgstr "Kon nie voer uit lêer"
-
-#: main/KoDocument.cpp:1752
-#, fuzzy, kde-format
-msgid ""
-"parsing error in the main document at line %1, column %2\n"
-"Error message: %3"
-msgstr "Verwerking fout in lêer na lyn %1, kolom %2"
-
-#: main/KoDocument.cpp:1773
-#, fuzzy, kde-format
-msgid "Not a valid Calligra file: %1"
-msgstr "Nie 'n geldige Koffice lêer"
-
-#: main/KoDocument.cpp:1858
-msgid "Invalid document: no file 'maindoc.xml'."
-msgstr ""
-
-#: main/KoDocument.cpp:1882
-#, kde-format
-msgid ""
-"Document <i>%1</i> contains several versions. Go to File->Versions to open "
-"an old version."
-msgstr ""
-
-#: main/KoDocument.cpp:2081 main/KoDocument.cpp:2568
-#: main/KoMainWindow.cpp:1225 pigment/resources/KoColorSet.cpp:336
-#: pigment/resources/KoColorSet.cpp:434
-#, fuzzy
-msgid "Untitled"
-msgstr "Titel"
-
-#: main/KoDocument.cpp:2084 main/KoMainWindow.cpp:1228
-#, kde-format
-msgid ""
-"<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
-"</p>"
-msgstr ""
-"<p>Die dokument <b>'%1'</b> het al veranderde.</p><p>Doen jy wil hê na stoor "
-"dit?</p>"
-
-#: main/KoDocument.cpp:2167
-msgid "Internal error: saveXML not implemented"
-msgstr ""
-
-#: main/KoDocument.cpp:2204
-#, kde-format
-msgid ""
-"Could not open\n"
-"%1"
-msgstr ""
-"Kon nie open\n"
-"%1"
-
-#: main/KoDocument.cpp:2207
-#, kde-format
-msgid ""
-"Could not open %1\n"
-"Reason: %2"
-msgstr ""
-"Kon nie open %1\n"
-"Rede: %2"
-
-#: main/KoDocument.cpp:2276
-msgid "a word processing"
-msgstr ""
-
-#: main/KoDocument.cpp:2277
-msgid "a spreadsheet"
-msgstr ""
-
-#: main/KoDocument.cpp:2278
-#, fuzzy
-msgid "a presentation"
-msgstr "Aanbieding"
-
-#: main/KoDocument.cpp:2279
-msgid "a chart"
-msgstr ""
-
-#: main/KoDocument.cpp:2280
-#, fuzzy
-msgid "a drawing"
-msgstr "Donker Oranje"
-
-#: main/KoDocument.cpp:2572
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save "
-#| "it?</p>"
-msgid ""
-"The document \"%1\" has been modified.\n"
-"Do you want to save your changes or discard them?"
-msgstr ""
-"<p>Die dokument <b>'%1'</b> het al veranderde.</p><p>Doen jy wil hê na stoor "
-"dit?</p>"
-
-#: main/KoDocument.cpp:2574
-#, fuzzy
-msgid "Close Document"
-msgstr "Open Dokument"
-
-#: main/KoDocumentSectionDelegate.cpp:522
-#, kde-format
-msgid "%1 %"
-msgstr ""
-
-#: main/KoDocumentSectionToolTip.cpp:50
-#, fuzzy
-msgid "No"
-msgstr "Nota"
-
-#: main/KoDocumentSectionToolTip.cpp:50
-msgid "Yes"
-msgstr ""
-
-#: main/KoFilterManager.cpp:228 main/KoFilterManager.cpp:237
-#, fuzzy
-msgid "Could not export file."
-msgstr "Kon nie voer uit lêer"
-
-#: main/KoFilterManager.cpp:228 main/KoFilterManager.cpp:237
-msgid "Missing Export Filter"
-msgstr "Kort Voer uit Filter"
-
-#: main/KoFilterManager.cpp:529
-#, kde-format
-msgid ""
-"Could not import file of type\n"
-"%1"
-msgstr ""
-"Kon nie in voer lêer van tipe\n"
-"%1"
-
-#: main/KoFilterManager.cpp:531
-msgid "Missing Import Filter"
-msgstr "Kort In voer Filter"
-
-#: main/KoFilterManager_p.cpp:43
-#, fuzzy
-msgid "Choose Filter"
-msgstr "Kies"
-
-#: main/KoFindText.cpp:59
-msgid "Case Sensitive"
-msgstr ""
-
-#: main/KoFindText.cpp:59
-msgid "Match cases when searching"
-msgstr ""
-
-#: main/KoFindText.cpp:60
-msgid "Match only whole words"
-msgstr ""
-
-#: main/KoFindText.cpp:60
-msgid "Whole Words Only"
-msgstr ""
-
-#: main/KoFindText.cpp:61
-msgid "Find from Cursor"
-msgstr ""
-
-#: main/KoFindText.cpp:61
-msgid "Start searching from the current cursor"
-msgstr ""
-
-#: main/KoFindToolbar.cpp:68
-#, fuzzy
-#| msgid "&Find:"
-msgctxt "Label for the Find text input box"
-msgid "Find:"
-msgstr "Soek:"
-
-#: main/KoFindToolbar.cpp:81
-#, fuzzy
-#| msgid "Text"
-msgctxt "Next search result"
-msgid "Next"
-msgstr "Teks"
-
-#: main/KoFindToolbar.cpp:91
-#, fuzzy
-msgctxt "Previous search result"
-msgid "Previous"
-msgstr "Voorskou"
-
-#: main/KoFindToolbar.cpp:100
-#, fuzzy
-msgctxt "Search options"
-msgid "Options"
-msgstr "Uitsonderings"
-
-#: main/KoFindToolbar.cpp:128
-#, fuzzy
-#| msgid "&Replace:"
-msgctxt "Label for the Replace text input box"
-msgid "Replace:"
-msgstr "Vervang:"
-
-#: main/KoFindToolbar.cpp:138
-#, fuzzy
-msgctxt "Replace the current match"
-msgid "Replace"
-msgstr "Vervang:"
-
-#: main/KoFindToolbar.cpp:144
-#, fuzzy
-msgctxt "Replace all found matches"
-msgid "Replace All"
-msgstr "Vervang:"
-
-#: main/KoFindToolbar.cpp:213
-#, fuzzy, kde-format
-msgctxt "Total number of matches"
-msgid "1 match found"
-msgid_plural "%1 matches found"
-msgstr[0] "Nee handteerder gevind vir %1"
-msgstr[1] "Nee handteerder gevind vir %1"
-
-#: main/KoFindToolbar.cpp:223
-#, fuzzy
-msgid "No matches found"
-msgstr "Nee handteerder gevind vir %1"
-
-#: main/KoFindToolbar.cpp:229
-msgid "Search hit bottom, continuing from top."
-msgstr ""
-
-#: main/KoFindToolbar.cpp:231
-msgid "Search hit top, continuing from bottom."
-msgstr ""
-
-#: main/KoMainWindow.cpp:168
-#, fuzzy, kde-format
-msgid "%1 unsaved document (%2)"
-msgstr "Stoor Dokument As"
-
-#: main/KoMainWindow.cpp:279
-msgid "Export as PDF..."
-msgstr ""
-
-#: main/KoMainWindow.cpp:289
-#, fuzzy
-msgid "Reload"
-msgstr "Aflaai"
-
-#: main/KoMainWindow.cpp:293
-msgid "Versions..."
-msgstr ""
-
-#: main/KoMainWindow.cpp:297
-#, fuzzy
-msgid "Open ex&isting Document as Untitled Document..."
-msgstr "Open 'n bestaande dokument"
-
-#: main/KoMainWindow.cpp:301
-msgid "E&xport..."
-msgstr ""
-
-#: main/KoMainWindow.cpp:305
-#, fuzzy
-msgid "En&crypt Document"
-msgstr "Open Dokument"
-
-#: main/KoMainWindow.cpp:310
-msgid "&Uncompress to Directory"
-msgstr ""
-
-#: main/KoMainWindow.cpp:315
-#, fuzzy
-msgid "&New View"
-msgstr "Verwyder Besigtig"
-
-#: main/KoMainWindow.cpp:321 widgets/KoDocumentInfoDlg.cpp:98
-msgid "Document Information"
-msgstr "Dokument Informasie"
-
-#: main/KoMainWindow.cpp:345
-msgid "Full Screen Mode"
-msgstr ""
-
-#: main/KoMainWindow.cpp:350
-msgid "Show Dockers"
-msgstr ""
-
-#: main/KoMainWindow.cpp:355
-#, fuzzy
-#| msgid "Show %1 Toolbar"
-msgctxt "@action:inmenu"
-msgid "Show Docker Titlebars"
-msgstr "Vertoon %1 Nutsbalk"
-
-#: main/KoMainWindow.cpp:362
-msgid "Dockers"
-msgstr ""
-
-#: main/KoMainWindow.cpp:674
-#, fuzzy
-msgid "(write protected)"
-msgstr "Rigting:"
-
-#: main/KoMainWindow.cpp:679
-#, kde-format
-msgid "Save as %1"
-msgstr ""
-
-#: main/KoMainWindow.cpp:853 widgets/KoDocumentInfoDlg.cpp:400
-#, fuzzy, kde-format
-msgid "%1 (unknown file type)"
-msgstr "Onbekende lêer tipe %1"
-
-#: main/KoMainWindow.cpp:861
-#, kde-format
-msgid ""
-"<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
-"want to save in this format?</qt>"
-msgstr ""
-
-#: main/KoMainWindow.cpp:864
-msgid "Confirm Save"
-msgstr ""
-
-#: main/KoMainWindow.cpp:873
-#, kde-format
-msgid ""
-"<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still "
-"want to export to this format?</qt>"
-msgstr ""
-
-#: main/KoMainWindow.cpp:876
-msgid "Confirm Export"
-msgstr ""
-
-#: main/KoMainWindow.cpp:877
-msgid "Export"
-msgstr ""
-
-#: main/KoMainWindow.cpp:969
-#, fuzzy
-msgid "untitled"
-msgstr "Titel"
-
-#: main/KoMainWindow.cpp:1294
-msgid "Open Document"
-msgstr "Open Dokument"
-
-#: main/KoMainWindow.cpp:1471
-msgid "Export as PDF"
-msgstr ""
-
-#: main/KoMainWindow.cpp:1508
-msgid "Cannot export to the specified file"
-msgstr ""
-
-#: main/KoMainWindow.cpp:1715
-#, fuzzy, kde-format
-msgid "Document - %1"
-msgstr "Dokument Titel"
-
-#: main/KoMainWindow.cpp:1745
-msgid ""
-"You will lose all changes made since your last save\n"
-"Do you want to continue?"
-msgstr ""
-
-#: main/KoMainWindow.cpp:1747
-#, fuzzy
-msgid "Warning"
-msgstr "Donker Oranje"
-
-#: main/KoMainWindow.cpp:2119
-#, kde-format
-msgid "Show %1 Toolbar"
-msgstr "Vertoon %1 Nutsbalk"
-
-#: main/KoMainWindow.cpp:2121
-#, fuzzy, kde-format
-msgid "Hide %1 Toolbar"
-msgstr "Vertoon %1 Nutsbalk"
-
-#. i18n: ectx: property (text), widget (QPushButton, m_openExistingButton)
-#: main/KoOpenPane.cpp:137 main/KoOpenPane.cpp:201 main/KoOpenPaneBase.ui:60
-#, fuzzy
-msgid "Open Existing Document"
-msgstr "Open 'n bestaande dokument"
-
-#: main/KoOpenPane.cpp:213
-#, fuzzy
-msgid "Recent Documents"
-msgstr "Open 'n onlangse dokument"
-
-#: main/KoOpenPane.cpp:313
-#, fuzzy
-msgid "Custom Document"
-msgstr "Open Dokument"
-
-#: main/KoPrintingDialog.cpp:56
-msgid "Stop"
-msgstr ""
-
-#: main/KoPrintingDialog.cpp:145
-#, fuzzy
-msgid "Printing"
-msgstr "Donker Oranje"
-
-#: main/KoPrintingDialog_p.h:149
-#, fuzzy
-msgid "Printing done"
-msgstr "Donker Oranje"
-
-#: main/KoPrintingDialog_p.h:150
-#, fuzzy
-msgid "Close"
-msgstr "Kleure:"
-
-#: main/KoPrintingDialog_p.h:170
-msgid "Stopped"
-msgstr ""
-
-#: main/KoRecentDocumentsPane.cpp:84
-#, fuzzy
-msgid "Open This Document"
-msgstr "Open Dokument"
-
-#: main/KoRecentDocumentsPane.cpp:188
-#, kde-format
-msgctxt "File modification date and time. %1 is date time"
-msgid "<tr><td><b>Modified:</b></td><td>%1</td></tr>"
-msgstr ""
-
-#: main/KoRecentDocumentsPane.cpp:191
-#, kde-format
-msgctxt "File access date and time. %1 is date time"
-msgid "<tr><td><b>Accessed:</b></td><td>%1</td></tr>"
-msgstr ""
-
-#: main/KoStandardAction.cpp:31
-msgid "Show Guides"
-msgstr ""
-
-#: main/KoStandardAction.cpp:32
-msgid "Shows or hides guides"
-msgstr ""
-
-#: main/KoTemplateCreateDia.cpp:116
-msgid "Create Template"
-msgstr "Skep Werkvoorbeeld"
-
-#: main/KoTemplateCreateDia.cpp:125
-#, fuzzy
-#| msgid "Name:"
-msgctxt "Template name"
-msgid "Name:"
-msgstr "Naam:"
-
-#: main/KoTemplateCreateDia.cpp:135
-msgid "Group:"
-msgstr "Groep:"
-
-#: main/KoTemplateCreateDia.cpp:150
-msgid "&Add Group..."
-msgstr "Voeg by Groep..."
-
-#: main/KoTemplateCreateDia.cpp:153 main/KoVersionDialog.cpp:74
-#, fuzzy
-msgid "&Remove"
-msgstr "Verwyder Besigtig"
-
-#: main/KoTemplateCreateDia.cpp:159
-msgid "Picture"
-msgstr "Prent"
-
-#: main/KoTemplateCreateDia.cpp:162
-#, fuzzy
-#| msgid "Preview"
-msgid "&Preview"
-msgstr "Voorskou"
-
-#: main/KoTemplateCreateDia.cpp:167
-#, fuzzy
-#| msgid "Custom"
-msgid "Custom:"
-msgstr "Pasmaak"
-
-#: main/KoTemplateCreateDia.cpp:171
-msgid "&Select..."
-msgstr "Kies..."
-
-#: main/KoTemplateCreateDia.cpp:180
-msgid "Use the new template as default"
-msgstr ""
-
-#: main/KoTemplateCreateDia.cpp:320
-#, kde-format
-msgid "Do you really want to overwrite the existing '%1' template?"
-msgstr "Doen jy rerig wil hê na oorskryf die bestaande '%1' werkvoorbeeld?"
-
-#: main/KoTemplateCreateDia.cpp:433 main/KoTemplateCreateDia.cpp:440
-msgid "Add Group"
-msgstr "Voeg by Groep"
-
-#: main/KoTemplateCreateDia.cpp:433
-msgid "Enter group name:"
-msgstr "Invoer groep naam:"
-
-#: main/KoTemplateCreateDia.cpp:440
-msgid "This name is already used."
-msgstr ""
-
-#: main/KoTemplateCreateDia.cpp:464
-msgid "Do you really want to remove that group?"
-msgstr "Doen jy rerig wil hê na verwyder wat groep?"
-
-#: main/KoTemplateCreateDia.cpp:465
-msgid "Remove Group"
-msgstr "Verwyder Groep"
-
-#: main/KoTemplateCreateDia.cpp:467
-msgid "Do you really want to remove that template?"
-msgstr "Doen jy rerig wil hê na verwyder wat werkvoorbeeld?"
-
-#: main/KoTemplateCreateDia.cpp:468
-msgid "Remove Template"
-msgstr "Verwyder Werkvoorbeeld"
-
-#: main/KoTemplateCreateDia.cpp:472
-#, fuzzy
-msgid "&Delete"
-msgstr "Uitvee Teks"
-
-#: main/KoTemplateCreateDia.cpp:519
-msgid "Could not load picture."
-msgstr "Kon nie las prent."
-
-#: main/KoTemplateCreateDia.cpp:522
-msgid "No picture available."
-msgstr "Nee prent beskikbaar."
-
-#: main/KoTemplatesPane.cpp:50
-#, fuzzy
-msgid "Use This Template"
-msgstr "Skep Werkvoorbeeld"
-
-#: main/KoVersionDialog.cpp:48
-msgid "Version"
-msgstr ""
-
-#: main/KoVersionDialog.cpp:62
-#, fuzzy
-msgid "Date & Time"
-msgstr "Datum (Vasgemaakte)"
-
-#: main/KoVersionDialog.cpp:63
-msgid "Saved By"
-msgstr ""
-
-#: main/KoVersionDialog.cpp:64 main/KoVersionDialog.cpp:229
-msgid "Comment"
-msgstr "Kommentaar"
-
-#: main/KoVersionDialog.cpp:71
-msgid "&Add"
-msgstr "Voeg by"
-
-#: main/KoVersionDialog.cpp:77
-#, fuzzy
-msgid "&Modify"
-msgstr "Middelste:"
-
-#: main/KoVersionDialog.cpp:80
-msgid "&Open"
-msgstr ""
-
-#: main/KoVersionDialog.cpp:134
-msgid "A new version could not be added"
-msgstr ""
-
-#: main/KoVersionDialog.cpp:241 main/KoVersionDialog.cpp:243
-#, fuzzy, kde-format
-msgid "Date: %1"
-msgstr "Datum"
-
-#: main/KoView.cpp:341
-msgid "Active Author Profile"
-msgstr ""
-
-#: main/KoView.cpp:353 main/KoView.cpp:407
-msgctxt "choice for author profile"
-msgid "Anonymous"
-msgstr ""
-
-#: main/KoView.cpp:406 widgets/KoConfigAuthorPage.cpp:82
-#, fuzzy
-msgid "Default Author Profile"
-msgstr "Verstek Kleur"
 
 #: odf/KoDocumentInfo.cpp:53
 msgid "Unknown"
@@ -2870,6 +1104,11 @@ msgstr ""
 #: odf/KoOdfReadStore.cpp:104
 msgid "No store backend"
 msgstr ""
+
+#: odf/KoOdfReadStore.cpp:111
+#, fuzzy, kde-format
+msgid "Could not find %1"
+msgstr "Kon nie soek module %1"
 
 #: odf/KoOdfReadStore.cpp:139
 #, fuzzy, kde-format
@@ -3209,6 +1448,13 @@ msgstr ""
 #: pigment/KoCompositeOpRegistry.cpp:80
 msgid "Behind"
 msgstr ""
+
+#: pigment/compositeops/KoCompositeOpCopy.h:37
+#: pigment/compositeops/KoCompositeOpCopy2.h:45
+#: pigment/KoCompositeOpRegistry.cpp:97
+#, fuzzy
+msgid "Copy"
+msgstr "Maatskappy"
 
 #: pigment/compositeops/KoCompositeOpDissolve.h:61
 #: pigment/KoCompositeOpRegistry.cpp:93
@@ -3735,6 +1981,10 @@ msgstr ""
 msgid "Mix"
 msgstr ""
 
+#: pigment/KoCompositeOp.cpp:43 pigment/KoCompositeOpRegistry.cpp:42
+msgid "Misc"
+msgstr ""
+
 #: pigment/KoCompositeOpRegistry.cpp:52
 #, fuzzy
 msgid "Inverse Subtract"
@@ -3764,354 +2014,13 @@ msgstr ""
 msgid "Combine Normal Map"
 msgstr "Pasmaak Petroon"
 
-#: pigment/resources/KoStopGradient.cpp:412
-msgid "SVG Gradient"
-msgstr ""
-
-#: rdf/InsertSemanticObjectReferenceAction.cpp:56
-msgid "Select the object you want to reference"
-msgstr ""
-
-#: rdf/KoDocumentRdf.cpp:631
-msgid "Reference"
-msgstr ""
-
-#: rdf/KoDocumentRdfEditWidget.cpp:242
-msgid "Set For All Existing"
-msgstr ""
-
-#: rdf/KoDocumentRdfEditWidget.cpp:310
-#, kde-format
-msgctxt "statement is an Rdf related term"
-msgid "<qt>Edits will be lost.<p>There is %1 invalid statement left.</qt>"
-msgid_plural ""
-"<qt>Edits will be lost.<p>There are %1 invalid statements left.</qt>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: rdf/KoDocumentRdfEditWidget.cpp:313
-msgctxt "statement is an Rdf related term"
-msgid "Discard invalid statements?"
-msgstr ""
-
-#: rdf/KoDocumentRdfEditWidget.cpp:354
+#: pigment/resources/KoColorSet.cpp:336 pigment/resources/KoColorSet.cpp:434
 #, fuzzy
-msgid "Rdf"
-msgstr "Antwoord"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: rdf/KoDocumentRdfEditWidget.ui:21
-#, fuzzy
-#| msgid "Title"
-msgid "Triples"
+msgid "Untitled"
 msgstr "Titel"
 
-#. i18n: ectx: property (text), widget (QPushButton, newStylesheet)
-#. i18n: ectx: property (text), widget (QPushButton, newTripleButton)
-#. i18n: ectx: property (text), widget (QPushButton, newNamespaceButton)
-#: rdf/KoDocumentRdfEditWidget.ui:39 rdf/KoDocumentRdfEditWidget.ui:84
-#: rdf/KoSemanticStylesheetsEditor.ui:77
-#, fuzzy
-#| msgid "New"
-msgid "new"
-msgstr "Nuwe"
-
-#. i18n: ectx: property (text), widget (QPushButton, copyTripleButton)
-#: rdf/KoDocumentRdfEditWidget.ui:46
-#, fuzzy
-msgid "copy"
-msgstr "Maatskappy"
-
-#. i18n: ectx: property (text), widget (QPushButton, deleteStylesheet)
-#. i18n: ectx: property (text), widget (QPushButton, deleteTripleButton)
-#. i18n: ectx: property (text), widget (QPushButton, deleteNamespaceButton)
-#: rdf/KoDocumentRdfEditWidget.ui:53 rdf/KoDocumentRdfEditWidget.ui:91
-#: rdf/KoSemanticStylesheetsEditor.ui:84
-#, fuzzy
-msgid "delete"
-msgstr "Uitvee Teks"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rdf/KoDocumentRdfEditWidget.ui:76
-#, fuzzy
-msgid "Namespaces"
-msgstr "Vervang:"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
-#: rdf/KoDocumentRdfEditWidget.ui:123
-#, fuzzy
-msgid "Prefix"
-msgstr "Voorvoegsel teks:"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
-#: rdf/KoDocumentRdfEditWidget.ui:128
-#, fuzzy
-msgid "Namespace"
-msgstr "Vervang:"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: rdf/KoDocumentRdfEditWidget.ui:137
-msgid "Semantic"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: rdf/KoDocumentRdfEditWidget.ui:156
-msgid "SPARQL"
-msgstr ""
-
-#. i18n: ectx: property (html), widget (QTextEdit, m_sparqlQuery)
-#: rdf/KoDocumentRdfEditWidget.ui:182
-msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
-"size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Verdana'; font-size:13pt;\"># Insert your SPARQL query here<br /># "
-"Results are shown below.</span></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"family:'Verdana'; font-size:13pt;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Verdana'; font-size:13pt;\">prefix rdf:  &lt;http://www.w3."
-"org/1999/02/22-rdf-syntax-ns#&gt; </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Verdana'; font-size:13pt;\">prefix foaf: &lt;http://xmlns.com/"
-"foaf/0.1/&gt; </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Verdana'; font-size:13pt;\">prefix pkg:  &lt;http://docs.oasis-open."
-"org/ns/office/1.2/meta/pkg#&gt; </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Verdana'; font-size:13pt;\">prefix geo84: &lt;http://www.w3."
-"org/2003/01/geo/wgs84_pos#&gt;</span></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"family:'Verdana'; font-size:13pt;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Verdana'; font-size:13pt;\">select ?s ?p ?o </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Verdana'; font-size:13pt;\">where { </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Verdana'; font-size:13pt;\"> ?s ?p ?o </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Verdana'; font-size:13pt;\">}</span></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"family:'Verdana'; font-size:13pt;\"></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"family:'Verdana'; font-size:13pt;\"></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"family:'Verdana'; font-size:13pt;\"></p></body></html>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, m_sparqlExecute)
-#: rdf/KoDocumentRdfEditWidget.ui:191
-#, fuzzy
-msgid "Execute"
-msgstr "Us Uitvoerbare"
-
-#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
-#: rdf/KoDocumentRdfEditWidget.ui:221
-#, fuzzy
-msgid "Stylesheets"
-msgstr "Styl"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rdf/KoDocumentRdfEditWidget.ui:227
-msgid ""
-"Set the default stylesheet for Semantic objects in this document. New RDF "
-"objects will use this stylesheet automatically. The buttons allow you to set "
-"the stylesheet for all existing semantic objects to the new default "
-"stylesheet as well."
-msgstr ""
-
-#: rdf/KoRdfSemanticTreeWidgetItem.cpp:114
-#, fuzzy
-#| msgid "Apply Style %1"
-msgid "Apply Stylesheet"
-msgstr "Wend aan Styl %1"
-
-#: rdf/KoRdfSemanticTreeWidgetItem.cpp:116
-#: rdf/KoSemanticStylesheetsEditor.cpp:120
-msgid "System"
-msgstr ""
-
-#: rdf/KoRdfSemanticTreeWidgetItem.cpp:125
-#: rdf/KoSemanticStylesheetsEditor.cpp:136
-#, fuzzy
-msgid "User"
-msgstr "Voeg by:"
-
-#: rdf/KoRdfSemanticTreeWidgetItem.cpp:139
-msgid "Reapply Current"
-msgstr ""
-
-#: rdf/KoRdfSemanticTreeWidgetItem.cpp:144
-msgid "Disassociate"
-msgstr ""
-
-#: rdf/KoRdfSemanticTreeWidgetItem.cpp:164
-#, kde-format
-msgid "Edit %1"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rdf/KoSemanticStylesheetsEditor.ui:17
-#, fuzzy
-msgid "Stylesheet Definition"
-msgstr "Styl"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rdf/KoSemanticStylesheetsEditor.ui:29
-#, fuzzy
-#| msgid "Variable Name"
-msgid "Variables Available"
-msgstr "Veranderlike Naam"
-
-#. i18n: ectx: property (text), widget (QTableWidget, variables)
-#: rdf/KoSemanticStylesheetsEditor.ui:62
-#, fuzzy
-msgid "Description"
-msgstr "Versiering"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, stylesheets)
-#: rdf/KoSemanticStylesheetsEditor.ui:107
-#, fuzzy
-msgid "Stylesheet Name"
-msgstr "Styl"
-
-#: rdf/KoSopranoTableModel.cpp:82
-msgid "Empty"
-msgstr ""
-
-#: rdf/KoSopranoTableModel.cpp:84 rdf/KoSopranoTableModelDelegate.cpp:43
-msgid "URI"
-msgstr ""
-
-#: rdf/KoSopranoTableModel.cpp:86 rdf/KoSopranoTableModelDelegate.cpp:44
-#, fuzzy
-msgid "Literal"
-msgstr "Ligte Koraal"
-
-#: rdf/KoSopranoTableModel.cpp:88 rdf/KoSopranoTableModelDelegate.cpp:45
-msgid "Blank"
-msgstr "Leë"
-
-#: rdf/KoSopranoTableModel.cpp:130
-#, fuzzy
-#| msgid "Size:"
-msgid "Valid"
-msgstr "Grootte:"
-
-#: rdf/KoSopranoTableModel.cpp:132
-#, fuzzy
-msgid "Subject"
-msgstr "Voorwerp"
-
-#: rdf/KoSopranoTableModel.cpp:134
-#, fuzzy
-#| msgid "Picture"
-msgid "Predicate"
-msgstr "Prent"
-
-#: rdf/KoSopranoTableModel.cpp:136
-msgid "Object"
-msgstr "Voorwerp"
-
-#: rdf/KoSopranoTableModel.cpp:138
-#, fuzzy
-msgid "Obj Type"
-msgstr "Bo:"
-
-#: rdf/KoSopranoTableModel.cpp:140
-#, fuzzy
-msgid "DataType"
-msgstr "Datum"
-
-#: rdf/KoSopranoTableModel.cpp:142
-msgid "Stored In"
-msgstr ""
-
-#: store/KoEncryptedStore.cpp:241
-msgid ""
-"This document contains an unknown checksum. When you give a password it "
-"might not be verified."
-msgstr ""
-
-#: store/KoEncryptedStore.cpp:267 store/KoEncryptedStore.cpp:284
-msgid ""
-"This document contains an unknown encryption method. Some parts may be "
-"unreadable."
-msgstr ""
-
-#: store/KoEncryptedStore.cpp:299
-msgid ""
-"This document contains incomplete encryption data. Some parts may be "
-"unreadable."
-msgstr ""
-
-#: store/KoEncryptedStore.cpp:313
-msgid ""
-"QCA has currently no support for SHA1 or PBKDF2 using SHA1. The document can "
-"not be opened."
-msgstr ""
-
-#: store/KoEncryptedStore.cpp:343
-msgid ""
-"The manifest file seems to be corrupted. It cannot be modified and the "
-"document will remain unreadable. Please try and save the document again to "
-"prevent losing your work."
-msgstr ""
-
-#: store/KoEncryptedStore.cpp:441
-msgid ""
-"The manifest file cannot be written. The document will remain unreadable. "
-"Please try and save the document again to prevent losing your work."
-msgstr ""
-
-#: store/KoEncryptedStore.cpp:563
-msgid "Please enter the password to open this file."
-msgstr ""
-
-#: store/KoEncryptedStore.cpp:738
-msgid "Please enter the password to encrypt the document with."
-msgstr ""
-
-#: store/KoEncryptedStore.cpp:752
-#, fuzzy
-msgid "Do you want to save the password?"
-msgstr "Doen jy rerig wil hê na verwyder wat werkvoorbeeld?"
-
-#: store/KoNetAccess.cpp:103
-#, fuzzy, kde-format
-msgid "File '%1' is not readable"
-msgstr "%1 is nie 'n geldige skakel."
-
-#: store/KoNetAccess.cpp:437
-#, kde-format
-msgid "ERROR: Unknown protocol '%1'"
-msgstr ""
-
-#: store/KoStore.cpp:181
-msgid "The directory mode is not supported for remote locations."
-msgstr ""
-
-#: store/KoStore.cpp:182
-msgid "Calligra Storage"
+#: pigment/resources/KoStopGradient.cpp:412
+msgid "SVG Gradient"
 msgstr ""
 
 #: textlayout/ListItemsHelper.cpp:223
@@ -4257,6 +2166,15 @@ msgstr ""
 msgid "Image"
 msgstr "Volgende styl:"
 
+#: widgets/kis_url_requester.cpp:106
+#, fuzzy
+msgid "Select a file to load..."
+msgstr "Kies Karakter"
+
+#: widgets/kis_url_requester.cpp:110
+msgid "Select a directory to load..."
+msgstr ""
+
 #: widgets/KoColorPopupAction.cpp:89
 msgid "Opacity"
 msgstr ""
@@ -4280,6 +2198,11 @@ msgstr ""
 #, fuzzy
 msgid "Delete the author profile"
 msgstr "Uitvee Teks"
+
+#: widgets/KoConfigAuthorPage.cpp:82
+#, fuzzy
+msgid "Default Author Profile"
+msgstr "Verstek Kleur"
 
 #: widgets/KoConfigAuthorPage.cpp:142
 msgid "Name (not duplicate or blank name):"
@@ -4359,199 +2282,6 @@ msgstr "Stad:"
 msgid "Country:"
 msgstr "Land:"
 
-#: widgets/KoCsvImportDialog.cpp:96
-#, fuzzy
-msgid "Import Data"
-msgstr "Open Dokument"
-
-#: widgets/KoCsvImportDialog.cpp:99
-#, kde-format
-msgctxt "Descriptive encoding name"
-msgid "Recommended ( %1 )"
-msgstr ""
-
-#: widgets/KoCsvImportDialog.cpp:100
-#, kde-format
-msgctxt "Descriptive encoding name"
-msgid "Locale ( %1 )"
-msgstr ""
-
-#: widgets/KoCsvImportDialog.cpp:103
-#, kde-format
-msgctxt "Descriptive encoding name"
-msgid "Other ( %1 )"
-msgstr ""
-
-#: widgets/KoCsvImportDialog.cpp:218 widgets/KoCsvImportDialog.cpp:559
-#: widgets/KoCsvImportDialog.cpp:582
-#, fuzzy
-#| msgid "General"
-msgid "Generic"
-msgstr "Algemeen"
-
-#: widgets/KoCsvImportDialog.cpp:220 widgets/KoCsvImportDialog.cpp:584
-#: widgets/KoModeBox.cpp:600
-msgid "Text"
-msgstr "Teks"
-
-#: widgets/KoCsvImportDialog.cpp:222 widgets/KoCsvImportDialog.cpp:586
-msgid "Date"
-msgstr "Datum"
-
-#: widgets/KoCsvImportDialog.cpp:224 widgets/KoCsvImportDialog.cpp:588
-#, fuzzy
-msgid "Currency"
-msgstr "Huidige Seksie"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: widgets/KoCsvImportDialog.cpp:226 widgets/KoCsvImportDialog.cpp:590
-#: widgets/KoCsvImportDialog.cpp:697 widgets/KoCsvImportDialog.ui:265
-msgid "None"
-msgstr "Geen"
-
-#: widgets/KoCsvImportDialog.cpp:724
-msgid ""
-"Please check the ranges you specified. The start value must be lower than "
-"the end value."
-msgstr ""
-
-#: widgets/KoCsvImportDialog.cpp:770
-#, kde-format
-msgid "Cannot find encoding: %1"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, m_dataTab)
-#: widgets/KoCsvImportDialog.ui:52
-#, fuzzy
-msgid "Data"
-msgstr "Datum"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
-#: widgets/KoCsvImportDialog.ui:63
-#, fuzzy
-msgid "E&ncoding:"
-msgstr "Onderstreep:"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_firstRowHeader)
-#: widgets/KoCsvImportDialog.ui:107
-msgid "First row contains headers"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_firstColHeader)
-#: widgets/KoCsvImportDialog.ui:120
-msgid "First column contains headers"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
-#: widgets/KoCsvImportDialog.ui:144
-#, fuzzy
-msgid "Format"
-msgstr "Datum Formaat"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_delimiterBox)
-#: widgets/KoCsvImportDialog.ui:156
-#, fuzzy
-msgid "Delimiter"
-msgstr "Links Skeisimbool"
-
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioComma)
-#: widgets/KoCsvImportDialog.ui:162
-#, fuzzy
-msgid "Comma"
-msgstr "Maatskappy"
-
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioSemicolon)
-#: widgets/KoCsvImportDialog.ui:172
-#, fuzzy
-msgid "Semicolon"
-msgstr "Tweede"
-
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioOther)
-#: widgets/KoCsvImportDialog.ui:179
-#, fuzzy
-msgid "Other"
-msgstr "Internet"
-
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioTab)
-#: widgets/KoCsvImportDialog.ui:186
-#, fuzzy
-msgid "Tabulator"
-msgstr "Tabelleerders"
-
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioSpace)
-#: widgets/KoCsvImportDialog.ui:193
-#, fuzzy
-msgid "Space"
-msgstr "Voeg by Spasie"
-
-#. i18n: ectx: property (text), widget (QLabel, label2)
-#: widgets/KoCsvImportDialog.ui:238
-msgid "Text&quote:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: widgets/KoCsvImportDialog.ui:255
-msgid "\""
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#: widgets/KoCsvImportDialog.ui:260
-msgid "'"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label3)
-#: widgets/KoCsvImportDialog.ui:289
-msgid "Decimal symbol:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label4)
-#: widgets/KoCsvImportDialog.ui:318
-msgid "Thousands separator:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_ignoreDuplicates)
-#: widgets/KoCsvImportDialog.ui:363
-msgid "Ignore duplicate delimiters"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label1)
-#: widgets/KoCsvImportDialog.ui:370
-#, fuzzy
-msgid "&Format:"
-msgstr "Datum Formaat"
-
-#. i18n: ectx: attribute (title), widget (QWidget, m_rangesTab)
-#: widgets/KoCsvImportDialog.ui:384
-#, fuzzy
-msgid "Ranges"
-msgstr "Oranje"
-
-#. i18n: ectx: property (text), widget (QPushButton, m_updateButton)
-#: widgets/KoCsvImportDialog.ui:390
-#, fuzzy
-msgid "Update"
-msgstr "Datum"
-
-#. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
-#: widgets/KoCsvImportDialog.ui:457
-#, fuzzy
-msgid "Import columns:"
-msgstr "Open Dokument"
-
-#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
-#: widgets/KoCsvImportDialog.ui:476
-#, fuzzy
-msgid "Import lines:"
-msgstr "In voer Styl"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: widgets/KoCsvImportDialog.ui:486 widgets/KoCsvImportDialog.ui:509
-#, fuzzy
-#| msgid "Author"
-msgid "to"
-msgstr "Outeur"
-
 #: widgets/KoDialog.cpp:264
 msgid "&Try"
 msgstr ""
@@ -4575,65 +2305,53 @@ msgstr "Verstek"
 msgid "Get help..."
 msgstr ""
 
-#: widgets/KoDockWidgetTitleBar.cpp:65
+#: widgets/KoDockWidgetTitleBar.cpp:54
 msgctxt "@info:tooltip"
 msgid "Float Docker"
 msgstr ""
 
-#: widgets/KoDockWidgetTitleBar.cpp:72
+#: widgets/KoDockWidgetTitleBar.cpp:62
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Close Docker"
 msgstr "Open Dokument"
 
-#: widgets/KoDockWidgetTitleBar.cpp:80
+#: widgets/KoDockWidgetTitleBar.cpp:72
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Collapse Docker"
 msgstr "Open Dokument"
 
-#: widgets/KoDockWidgetTitleBar.cpp:89
+#: widgets/KoDockWidgetTitleBar.cpp:82
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Lock Docker"
 msgstr "Solied Lyn"
 
-#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
-#: widgets/koDocumentInfoAboutWidget.ui:23 widgets/KoDocumentInfoDlg.cpp:247
-#: widgets/KoDocumentInfoDlg.cpp:343
-msgid "&Encrypt"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
-#: widgets/koDocumentInfoAboutWidget.ui:64
+#: widgets/koDocumentInfoAboutWidget.ui:17
 #, fuzzy
 msgid "Keywords:"
 msgstr "Dokument Titel"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
-#: widgets/koDocumentInfoAboutWidget.ui:111
+#: widgets/koDocumentInfoAboutWidget.ui:64
 #, fuzzy
 msgid "Subject:"
 msgstr "Voorwerp"
 
 #. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
-#: widgets/koDocumentInfoAboutWidget.ui:124
+#: widgets/koDocumentInfoAboutWidget.ui:77
 msgid "Last printed:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
-#: widgets/koDocumentInfoAboutWidget.ui:158
+#: widgets/koDocumentInfoAboutWidget.ui:118
 msgid "Total editing time:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
-#: widgets/koDocumentInfoAboutWidget.ui:178
-#, fuzzy
-msgid "Encryption:"
-msgstr "Versiering"
-
 #. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
-#: widgets/koDocumentInfoAboutWidget.ui:188
+#: widgets/koDocumentInfoAboutWidget.ui:131
 #, fuzzy
 #| msgid "Title:"
 msgctxt "Document title"
@@ -4641,162 +2359,76 @@ msgid "Title:"
 msgstr "Titel:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
-#: widgets/koDocumentInfoAboutWidget.ui:201
+#: widgets/koDocumentInfoAboutWidget.ui:144
 #, fuzzy
 #| msgid "Page Number"
 msgid "Revision number:"
 msgstr "Bladsy Nommer"
 
 #. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
-#: widgets/koDocumentInfoAboutWidget.ui:211
+#: widgets/koDocumentInfoAboutWidget.ui:154
 #, fuzzy
 msgid "Modified:"
 msgstr "Middelste:"
 
 #. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
-#: widgets/koDocumentInfoAboutWidget.ui:231
+#: widgets/koDocumentInfoAboutWidget.ui:174
 #, fuzzy
 msgid "Comments:"
 msgstr "Kommentaar"
 
 #. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
-#: widgets/koDocumentInfoAboutWidget.ui:251
+#: widgets/koDocumentInfoAboutWidget.ui:194
 #, fuzzy
 msgid "Created:"
 msgstr "Skep Werkvoorbeeld"
 
 #. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
-#: widgets/koDocumentInfoAboutWidget.ui:261
+#: widgets/koDocumentInfoAboutWidget.ui:204
 #, fuzzy
 #| msgid "Edit Path"
 msgid "Path:"
 msgstr "Redigeer Gids soeklys"
 
 #. i18n: ectx: property (text), widget (QPushButton, pbReset)
-#: widgets/koDocumentInfoAboutWidget.ui:280
+#: widgets/koDocumentInfoAboutWidget.ui:223
 msgid "&Reset"
 msgstr "Herstel"
 
 #. i18n: ectx: property (text), widget (QLabel, lbLanguageDesc)
-#: widgets/koDocumentInfoAboutWidget.ui:297
+#: widgets/koDocumentInfoAboutWidget.ui:240
 #, fuzzy
 #| msgid "Paste Text"
 msgid "Language:"
 msgstr "Plak Teks"
 
-#: widgets/KoDocumentInfoDlg.cpp:116 widgets/KoDocumentInfoDlg.cpp:117
+#: widgets/KoDocumentInfoDlg.cpp:87
+msgid "Document Information"
+msgstr "Dokument Informasie"
+
+#: widgets/KoDocumentInfoDlg.cpp:99 widgets/KoDocumentInfoDlg.cpp:100
 msgid "General"
 msgstr "Algemeen"
 
-#: widgets/KoDocumentInfoDlg.cpp:144
+#: widgets/KoDocumentInfoDlg.cpp:126
+msgid "Author"
+msgstr "Outeur"
+
+#: widgets/KoDocumentInfoDlg.cpp:127
 #, fuzzy
 #| msgid "Paste Text"
 msgid "Last saved by"
 msgstr "Plak Teks"
 
-#: widgets/KoDocumentInfoDlg.cpp:201
+#: widgets/KoDocumentInfoDlg.cpp:184
 msgid "Use ';' (Example: Office;KDE;Calligra)"
 msgstr ""
 
-#: widgets/KoDocumentInfoDlg.cpp:231 widgets/KoDocumentInfoDlg.cpp:327
-msgid "This document will be decrypted"
-msgstr ""
-
-#: widgets/KoDocumentInfoDlg.cpp:233 widgets/KoDocumentInfoDlg.cpp:329
+#. i18n: ectx: property (toolTip), widget (QToolButton, add)
+#: widgets/KoEditColorSet.ui:45
 #, fuzzy
-msgid "Do not decrypt"
-msgstr "Versiering"
-
-#: widgets/KoDocumentInfoDlg.cpp:235 widgets/KoDocumentInfoDlg.cpp:331
-msgid "This document is encrypted"
-msgstr ""
-
-#: widgets/KoDocumentInfoDlg.cpp:237 widgets/KoDocumentInfoDlg.cpp:333
-#, fuzzy
-msgid "D&ecrypt"
-msgstr "Versiering"
-
-#: widgets/KoDocumentInfoDlg.cpp:241 widgets/KoDocumentInfoDlg.cpp:337
-msgid "This document will be encrypted."
-msgstr ""
-
-#: widgets/KoDocumentInfoDlg.cpp:243 widgets/KoDocumentInfoDlg.cpp:339
-#, fuzzy
-msgid "Do not encrypt"
-msgstr "Versiering"
-
-#: widgets/KoDocumentInfoDlg.cpp:245 widgets/KoDocumentInfoDlg.cpp:341
-msgid "This document is not encrypted"
-msgstr ""
-
-#: widgets/KoDocumentInfoDlg.cpp:251
-msgid "This document does not support encryption"
-msgstr ""
-
-#: widgets/KoDocumentInfoDlg.cpp:363
-msgid ""
-"<qt>Decrypting the document will remove the password protection from it."
-"<p>Do you still want to decrypt the file?</qt>"
-msgstr ""
-
-#: widgets/KoDocumentInfoDlg.cpp:365
-msgid "Confirm Decrypt"
-msgstr ""
-
-#: widgets/KoDocumentInfoDlg.cpp:366
-#, fuzzy
-msgid "Decrypt"
-msgstr "Versiering"
-
-#: widgets/KoDocumentInfoDlg.cpp:377
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"decryption, please save the document.</qt>"
-msgstr ""
-
-#: widgets/KoDocumentInfoDlg.cpp:379 widgets/KoDocumentInfoDlg.cpp:387
-#: widgets/KoDocumentInfoDlg.cpp:421 widgets/KoDocumentInfoDlg.cpp:429
-#, fuzzy
-msgid "Save Document"
-msgstr "Stoor Dokument As"
-
-#: widgets/KoDocumentInfoDlg.cpp:385
-msgid ""
-"<qt>The document has been changed since it was opened. To complete the "
-"decryption the document needs to be saved.<p>Do you want to save the "
-"document now?</qt>"
-msgstr ""
-
-#: widgets/KoDocumentInfoDlg.cpp:403
-#, kde-format
-msgid ""
-"<qt>The document is currently saved as %1. The document needs to be changed "
-"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
-"file to OASIS OpenDocument?</qt>"
-msgstr ""
-
-#: widgets/KoDocumentInfoDlg.cpp:405
-#, fuzzy
-msgid "Change Filetype"
-msgstr "Verander Lys Tipe"
-
-#: widgets/KoDocumentInfoDlg.cpp:406
-#, fuzzy
-msgid "Change"
-msgstr "Verander Kas"
-
-#: widgets/KoDocumentInfoDlg.cpp:419
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"encryption, please save the document.</qt>"
-msgstr ""
-
-#: widgets/KoDocumentInfoDlg.cpp:427
-msgid ""
-"<qt>The document has been changed since it was opened. To complete the "
-"encryption the document needs to be saved.<p>Do you want to save the "
-"document now?</qt>"
-msgstr ""
+msgid "Add"
+msgstr "Voeg by"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, remove)
 #: widgets/KoEditColorSet.ui:55
@@ -4943,42 +2575,14 @@ msgstr ""
 msgid "&Add to Predefined Gradients"
 msgstr ""
 
-#: widgets/KoModeBox.cpp:603
-#, fuzzy
-#| msgid "Text"
-msgid "Icon and Text"
-msgstr "Teks"
-
-#: widgets/KoModeBox.cpp:604
-msgid "Icon only"
-msgstr ""
-
-#: widgets/KoModeBox.cpp:607
-msgid "Tabs side"
-msgstr ""
-
-#: widgets/KoModeBox.cpp:611
-msgid "Top side"
-msgstr ""
-
-#: widgets/KoModeBox.cpp:612
-#, fuzzy
-msgid "Bottom side"
-msgstr "Oplyn"
-
-#: widgets/KoModeBox.cpp:615
-#, fuzzy
-msgid "Left side"
-msgstr "Lyn"
-
-#: widgets/KoModeBox.cpp:616
-#, fuzzy
-msgid "Right side"
-msgstr "Ligte Groen"
-
 #: widgets/KoPageLayoutDialog.cpp:46
 msgid "Page Layout"
 msgstr "Bladsy Uitleg"
+
+#: widgets/KoPageLayoutDialog.cpp:50
+#, fuzzy
+msgid "Page"
+msgstr "Volgende styl:"
 
 #: widgets/KoPageLayoutDialog.cpp:107
 #, fuzzy
@@ -5144,32 +2748,19 @@ msgstr "Bladsy Voorskou"
 msgid "Bottom:"
 msgstr "Oplyn"
 
-#: widgets/KoResourceItemChooser.cpp:158
+#: widgets/KoResourceItemChooser.cpp:150
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Import resource"
 msgstr "Open Dokument"
 
-#: widgets/KoResourceItemChooser.cpp:165
+#: widgets/KoResourceItemChooser.cpp:157
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Delete resource"
 msgstr "Uitvee Teks"
 
-#: widgets/KoResourceItemChooser.cpp:172
-#, fuzzy
-#| msgid "Download"
-msgctxt "@info:tooltip"
-msgid "Download resource"
-msgstr "Aflaai"
-
-#: widgets/KoResourceItemChooser.cpp:180
-#, fuzzy
-msgctxt "@info:tooltip"
-msgid "Share Resource"
-msgstr "Uitvee Teks"
-
-#: widgets/KoResourceItemChooser.cpp:229
+#: widgets/KoResourceItemChooser.cpp:205
 #, fuzzy
 msgctxt "@title:window"
 msgid "Choose File to Add"
@@ -5374,13 +2965,13 @@ msgstr "Verstek"
 msgid "%1x%2"
 msgstr ""
 
-#: widgets/KoToolBoxButton.cpp:50
+#: widgets/KoToolBoxButton.cpp:51
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "%1"
 msgstr ""
 
-#: widgets/KoToolBoxButton.cpp:51
+#: widgets/KoToolBoxButton.cpp:52
 #, kde-format
 msgctxt "@info:tooltip %2 is shortcut"
 msgid "%1 (%2)"
@@ -5389,6 +2980,11 @@ msgstr ""
 #: widgets/KoToolBoxDocker.cpp:29
 #, fuzzy
 msgid "Toolbox"
+msgstr "Verstek Kleur"
+
+#: widgets/KoToolBoxDocker.cpp:41
+#, fuzzy
+msgid "Tools"
 msgstr "Verstek Kleur"
 
 #: widgets/KoToolDocker.cpp:197
@@ -5449,7 +3045,516 @@ msgstr ""
 msgid "Zoom to All"
 msgstr ""
 
-#: widgetutils/KoFileDialog.cpp:477
+#. i18n: ectx: property (toolTip), widget (QLineEdit, txtFileName)
+#: widgets/wdg_url_requester.ui:25
+#, fuzzy
+msgid "Selected file name"
+msgstr "Skep Werkvoorbeeld"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, btnSelectFile)
+#: widgets/wdg_url_requester.ui:32
+#, fuzzy
+msgid "Select file name..."
+msgstr "Kies Karakter"
+
+#: widgetutils/config/klanguagebutton.cpp:194
+#, fuzzy
+#| msgid "Color:"
+msgid "without name"
+msgstr "Kleur:"
+
+#: widgetutils/config/krecentfilesaction.cpp:78
+msgid "No Entries"
+msgstr "Nee Inskrywings"
+
+#: widgetutils/config/krecentfilesaction.cpp:84
+#, fuzzy
+msgid "Clear List"
+msgstr "Verander Karakter na Simbool"
+
+#: widgetutils/config/kstandardaction.cpp:88
+msgctxt "go back"
+msgid "&Back"
+msgstr ""
+
+#: widgetutils/config/kstandardaction.cpp:95
+#, fuzzy
+msgctxt "go forward"
+msgid "&Forward"
+msgstr "Datum Formaat"
+
+#: widgetutils/config/kstandardaction.cpp:102
+#, fuzzy
+msgctxt "home page"
+msgid "&Home"
+msgstr "Uitvee Teks"
+
+#: widgetutils/config/kstandardaction.cpp:105
+msgctxt "show help"
+msgid "&Help"
+msgstr ""
+
+#: widgetutils/config/kstandardaction.cpp:518
+#: widgetutils/config/kstandardaction_p.h:96
+msgid "Show &Menubar"
+msgstr ""
+
+#: widgetutils/config/kstandardaction.cpp:526
+msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
+msgstr ""
+
+#: widgetutils/config/kstandardaction.cpp:544
+#: widgetutils/config/kstandardaction_p.h:98
+msgid "Show St&atusbar"
+msgstr ""
+
+#: widgetutils/config/kstandardaction.cpp:547
+msgid ""
+"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
+"window used for status information.</p>"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:41
+#, fuzzy
+msgid "&New"
+msgstr "Nuwe"
+
+#: widgetutils/config/kstandardaction_p.h:41
+#, fuzzy
+msgid "Create new document"
+msgstr "Begin met 'n leeg dokument"
+
+#: widgetutils/config/kstandardaction_p.h:42
+msgid "&Open..."
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:42
+#, fuzzy
+msgid "Open an existing document"
+msgstr "Open 'n bestaande dokument"
+
+#: widgetutils/config/kstandardaction_p.h:43
+#, fuzzy
+msgid "Open &Recent"
+msgstr "Open 'n onlangse dokument"
+
+#: widgetutils/config/kstandardaction_p.h:43
+#, fuzzy
+msgid "Open a document which was recently opened"
+msgstr "Skep nuwe dokument van 'n werkvoorbeeld"
+
+#: widgetutils/config/kstandardaction_p.h:44
+#, fuzzy
+msgid "&Save"
+msgstr "graf"
+
+#: widgetutils/config/kstandardaction_p.h:44
+#, fuzzy
+msgid "Save document"
+msgstr "Stoor Dokument As"
+
+#: widgetutils/config/kstandardaction_p.h:45
+msgid "Save &As..."
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:45
+msgid "Save document under a new name"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:46
+msgid "Re&vert"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:46
+msgid "Revert unsaved changes made to document"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:47
+#, fuzzy
+msgid "&Close"
+msgstr "Kleure:"
+
+#: widgetutils/config/kstandardaction_p.h:47
+#, fuzzy
+msgid "Close document"
+msgstr "Open Dokument"
+
+#: widgetutils/config/kstandardaction_p.h:48
+#, fuzzy
+msgid "&Print..."
+msgstr "Verwyder..."
+
+#: widgetutils/config/kstandardaction_p.h:48
+#, fuzzy
+msgid "Print document"
+msgstr "Open Dokument"
+
+#: widgetutils/config/kstandardaction_p.h:49
+#, fuzzy
+#| msgid "Page Preview"
+msgid "Print Previe&w"
+msgstr "Bladsy Voorskou"
+
+#: widgetutils/config/kstandardaction_p.h:49
+msgid "Show a print preview of document"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:50
+#, fuzzy
+#| msgid "&Mail Merge..."
+msgid "&Mail..."
+msgstr "Pos Saamvlans..."
+
+#: widgetutils/config/kstandardaction_p.h:50
+msgid "Send document by mail"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:51
+msgid "&Quit"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:51
+#, fuzzy
+#| msgid "File location:"
+msgid "Quit application"
+msgstr "Lêer ligging:"
+
+#: widgetutils/config/kstandardaction_p.h:53
+msgid "&Undo"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:53
+msgid "Undo last action"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:54
+msgid "Re&do"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:54
+#, fuzzy
+#| msgid "Change Indent"
+msgid "Redo last undone action"
+msgstr "Verander Inkeep"
+
+#: widgetutils/config/kstandardaction_p.h:55
+msgid "Cu&t"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:55
+msgid "Cut selection to clipboard"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:56
+#, fuzzy
+msgid "&Copy"
+msgstr "Maatskappy"
+
+#: widgetutils/config/kstandardaction_p.h:56
+#, fuzzy
+#| msgid "Completion Word"
+msgid "Copy selection to clipboard"
+msgstr "Voltooiïng Woord"
+
+#: widgetutils/config/kstandardaction_p.h:57
+#: widgetutils/config/kstandardaction_p.h:58
+#, fuzzy
+#| msgid "Date"
+msgid "&Paste"
+msgstr "Datum"
+
+#: widgetutils/config/kstandardaction_p.h:57
+#: widgetutils/config/kstandardaction_p.h:58
+msgid "Paste clipboard content"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:59
+msgid "C&lear"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:60
+#, fuzzy
+#| msgid "Select Character"
+msgid "Select &All"
+msgstr "Kies Karakter"
+
+#: widgetutils/config/kstandardaction_p.h:61
+#, fuzzy
+#| msgid "Select Character"
+msgid "Dese&lect"
+msgstr "Kies Karakter"
+
+#: widgetutils/config/kstandardaction_p.h:62
+#, fuzzy
+#| msgid "Find"
+msgid "&Find..."
+msgstr "Soek"
+
+#: widgetutils/config/kstandardaction_p.h:63
+msgid "Find &Next"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:64
+#, fuzzy
+msgid "Find Pre&vious"
+msgstr "Voorskou"
+
+#: widgetutils/config/kstandardaction_p.h:65
+#, fuzzy
+msgid "&Replace..."
+msgstr "Vervang:"
+
+#: widgetutils/config/kstandardaction_p.h:67
+#, fuzzy
+msgid "&Actual Size"
+msgstr "Kies Skrif tipe"
+
+#: widgetutils/config/kstandardaction_p.h:67
+msgid "View document at its actual size"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:68
+#, fuzzy
+msgid "&Fit to Page"
+msgstr "Volgende styl:"
+
+#: widgetutils/config/kstandardaction_p.h:68
+msgid "Zoom to fit page in window"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:69
+#, fuzzy
+msgid "Fit to Page &Width"
+msgstr "Volgende styl:"
+
+#: widgetutils/config/kstandardaction_p.h:69
+msgid "Zoom to fit page width in window"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:70
+#, fuzzy
+msgid "Fit to Page &Height"
+msgstr "Volgende styl:"
+
+#: widgetutils/config/kstandardaction_p.h:70
+msgid "Zoom to fit page height in window"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:71
+msgid "Zoom &In"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:72
+msgid "Zoom &Out"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:73
+#, fuzzy
+msgid "&Zoom..."
+msgstr "Pasmaak..."
+
+#: widgetutils/config/kstandardaction_p.h:73
+#, fuzzy
+msgid "Select zoom level"
+msgstr "Kies Karakter"
+
+#: widgetutils/config/kstandardaction_p.h:74
+#, fuzzy
+msgid "&Redisplay"
+msgstr "Teks na soek:"
+
+#: widgetutils/config/kstandardaction_p.h:74
+#, fuzzy
+msgid "Redisplay document"
+msgstr "Open Dokument"
+
+#: widgetutils/config/kstandardaction_p.h:76
+msgid "&Up"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:76
+msgid "Go up"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:81
+#, fuzzy
+msgid "&Previous Page"
+msgstr "Bladsy Nommer"
+
+#: widgetutils/config/kstandardaction_p.h:81
+msgid "Go to previous page"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:82
+#, fuzzy
+msgid "&Next Page"
+msgstr "Volgende styl:"
+
+#: widgetutils/config/kstandardaction_p.h:82
+#, fuzzy
+msgid "Go to next page"
+msgstr "Nuwe reel"
+
+#: widgetutils/config/kstandardaction_p.h:83
+msgid "&Go To..."
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:84
+#, fuzzy
+#| msgid "Paste Text"
+msgid "&Go to Page..."
+msgstr "Plak Teks"
+
+#: widgetutils/config/kstandardaction_p.h:85
+#, fuzzy
+#| msgid "Foot Line"
+msgid "&Go to Line..."
+msgstr "Voet Lyn"
+
+#: widgetutils/config/kstandardaction_p.h:86
+#, fuzzy
+msgid "&First Page"
+msgstr "Volgende styl:"
+
+#: widgetutils/config/kstandardaction_p.h:86
+#, fuzzy
+msgid "Go to first page"
+msgstr "Volgende styl:"
+
+#: widgetutils/config/kstandardaction_p.h:87
+#, fuzzy
+#| msgid "Paste Text"
+msgid "&Last Page"
+msgstr "Plak Teks"
+
+#: widgetutils/config/kstandardaction_p.h:87
+#, fuzzy
+#| msgid "Paste Text"
+msgid "Go to last page"
+msgstr "Plak Teks"
+
+#: widgetutils/config/kstandardaction_p.h:88
+msgid "&Back"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:88
+msgid "Go back in document"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:89
+#, fuzzy
+msgid "&Forward"
+msgstr "Datum Formaat"
+
+#: widgetutils/config/kstandardaction_p.h:89
+msgid "Go forward in document"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:91
+#, fuzzy
+msgid "&Add Bookmark"
+msgstr "Voeg by Naam"
+
+#: widgetutils/config/kstandardaction_p.h:92
+#, fuzzy
+msgid "&Edit Bookmarks..."
+msgstr "Voeg by Naam"
+
+#: widgetutils/config/kstandardaction_p.h:94
+#, fuzzy
+msgid "&Spelling..."
+msgstr "Lêer Stooring"
+
+#: widgetutils/config/kstandardaction_p.h:94
+#, fuzzy
+#| msgid "Open Document"
+msgid "Check spelling in document"
+msgstr "Open Dokument"
+
+#: widgetutils/config/kstandardaction_p.h:96
+#, fuzzy
+#| msgid "Show %1 Toolbar"
+msgid "Show or hide menubar"
+msgstr "Vertoon %1 Nutsbalk"
+
+#: widgetutils/config/kstandardaction_p.h:97
+#, fuzzy
+#| msgid "Show %1 Toolbar"
+msgid "Show &Toolbar"
+msgstr "Vertoon %1 Nutsbalk"
+
+#: widgetutils/config/kstandardaction_p.h:97
+#, fuzzy
+#| msgid "Show %1 Toolbar"
+msgid "Show or hide toolbar"
+msgstr "Vertoon %1 Nutsbalk"
+
+#: widgetutils/config/kstandardaction_p.h:98
+#, fuzzy
+#| msgid "Show %1 Toolbar"
+msgid "Show or hide statusbar"
+msgstr "Vertoon %1 Nutsbalk"
+
+#: widgetutils/config/kstandardaction_p.h:99
+msgid "F&ull Screen Mode"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:100
+#, fuzzy
+msgid "&Save Settings"
+msgstr "Enkel"
+
+#: widgetutils/config/kstandardaction_p.h:101
+msgid "Configure S&hortcuts..."
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:102
+#, kde-format
+msgid "&Configure %1..."
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:103
+#, fuzzy
+#| msgid "More Colors..."
+msgid "Configure Tool&bars..."
+msgstr "Meer Kleure..."
+
+#: widgetutils/config/kstandardaction_p.h:104
+msgid "Configure &Notifications..."
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:109
+#, kde-format
+msgid "%1 &Handbook"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:110
+msgid "What's &This?"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:111
+msgid "Tip of the &Day"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:112
+#, fuzzy
+msgid "&Report Bug..."
+msgstr "Verwyder..."
+
+#: widgetutils/config/kstandardaction_p.h:113
+msgid "Switch Application &Language..."
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:114
+#, kde-format
+msgid "&About %1"
+msgstr ""
+
+#: widgetutils/config/kstandardaction_p.h:115
+msgid "About &KDE"
+msgstr ""
+
+#: widgetutils/KoFileDialog.cpp:476
 msgid "All supported formats"
 msgstr ""
 
@@ -5556,6 +3661,1119 @@ msgstr "Gids Naam"
 #, fuzzy
 msgid "Import Directory"
 msgstr "Open Dokument"
+
+#, fuzzy
+#~| msgid "Color:"
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "Kleur:"
+
+#, fuzzy
+#~ msgid "Scripts"
+#~ msgstr "Onderskrif"
+
+#, fuzzy
+#~ msgid "Script Manager"
+#~ msgstr "Styl Bestuurder"
+
+#, fuzzy
+#~ msgid "Execute Script File..."
+#~ msgstr "Onderskrif"
+
+#, fuzzy
+#~ msgid "Script Manager..."
+#~ msgstr "Styl Bestuurder"
+
+#, fuzzy
+#~ msgid "Execute Script File"
+#~ msgstr "Onderskrif"
+
+#, fuzzy
+#~ msgid "Could not read the package \"%1\"."
+#~ msgstr "Kon nie voer uit lêer"
+
+#, fuzzy
+#~ msgid "Add script file"
+#~ msgstr "Onderskrif"
+
+#, fuzzy
+#~| msgid "Add Completion Entry"
+#~ msgid "Add collection folder"
+#~ msgstr "Voeg by Voltooiïng Inskrywing"
+
+#, fuzzy
+#~ msgid "Script File"
+#~ msgstr "Onderskrif"
+
+#, fuzzy
+#~ msgid "Script"
+#~ msgstr "Onderskrif"
+
+#, fuzzy
+#~| msgid "Completion"
+#~ msgid "Collection"
+#~ msgstr "Voltooiïng"
+
+#, fuzzy
+#~| msgid "Change List Type"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change master slide"
+#~ msgstr "Verander Lys Tipe"
+
+#, fuzzy
+#~| msgid "Change List Type"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change master page"
+#~ msgstr "Verander Lys Tipe"
+
+#, fuzzy
+#~| msgid "Page Layout"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Set Page Layout"
+#~ msgstr "Bladsy Uitleg"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Display master background"
+#~ msgstr "Tweede"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Display slide background"
+#~ msgstr "Tweede"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Display page background"
+#~ msgstr "Tweede"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Show master shapes"
+#~ msgstr "Skep Werkvoorbeeld"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Hide master shapes"
+#~ msgstr "Skep Werkvoorbeeld"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete slide"
+#~ msgid_plural "Delete slides"
+#~ msgstr[0] "Uitvee Teks"
+#~ msgstr[1] "Uitvee Teks"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete page"
+#~ msgid_plural "Delete pages"
+#~ msgstr[0] "Uitvee Teks"
+#~ msgstr[1] "Uitvee Teks"
+
+#, fuzzy
+#~| msgid "Insert Text"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert slide"
+#~ msgstr "Voeg by Teks"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Insert page"
+#~ msgstr "Voeg by Teks"
+
+#, fuzzy
+#~| msgid "Paste Text"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Move slide"
+#~ msgid_plural "Move slides"
+#~ msgstr[0] "Plak Teks"
+#~ msgstr[1] "Plak Teks"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Move page"
+#~ msgid_plural "Move pages"
+#~ msgstr[0] "Uitvee Teks"
+#~ msgstr[1] "Uitvee Teks"
+
+#, fuzzy
+#~ msgid "Grid"
+#~ msgstr "Vertoon %1 Nutsbalk"
+
+#, fuzzy
+#~ msgctxt "@title:tab Document settings page"
+#~ msgid "Document"
+#~ msgstr "Open Dokument"
+
+#, fuzzy
+#~ msgid "Document Settings"
+#~ msgstr "Dokument Abstrak"
+
+#, fuzzy
+#~| msgid "Author"
+#~ msgctxt "@title:tab Author page"
+#~ msgid "Author"
+#~ msgstr "Outeur"
+
+#, fuzzy
+#~| msgid "Paste Text"
+#~ msgid "Master Slide"
+#~ msgstr "Plak Teks"
+
+#, fuzzy
+#~| msgid "Paste Text"
+#~ msgid "Master Page"
+#~ msgstr "Plak Teks"
+
+#, fuzzy
+#~ msgid "Slide %1"
+#~ msgstr "Vertoon %1 Nutsbalk"
+
+#, fuzzy
+#~ msgid "Page  %1"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~ msgid "Layer"
+#~ msgstr "Rooi"
+
+#, fuzzy
+#~| msgid "Group:"
+#~ msgid "Group"
+#~ msgstr "Groep:"
+
+#, fuzzy
+#~ msgid "Shape"
+#~ msgstr "graf"
+
+#, fuzzy
+#~| msgid "Paste Text"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rename Slide"
+#~ msgstr "Plak Teks"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rename Page"
+#~ msgstr "Uitvee Teks"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Rename Layer"
+#~ msgstr "Skep Werkvoorbeeld"
+
+#, fuzzy
+#~| msgid "Size:"
+#~ msgid "Slide"
+#~ msgstr "Grootte:"
+
+#, fuzzy
+#~| msgid "Variable"
+#~ msgid "Visible"
+#~ msgstr "Veranderlike"
+
+#, fuzzy
+#~ msgid "Locked"
+#~ msgstr "Lokalisering"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Reparent shapes"
+#~ msgstr "Uitvee Teks"
+
+#, fuzzy
+#~ msgid "&Move Here"
+#~ msgstr "Uitvee Teks"
+
+#, fuzzy
+#~ msgid "&Copy Here"
+#~ msgstr "Skerm"
+
+#, fuzzy
+#~ msgid "C&ancel"
+#~ msgstr "Verander Kas"
+
+#, fuzzy
+#~ msgid "Document"
+#~ msgstr "Open Dokument"
+
+#, fuzzy
+#~ msgid "Add a new slide or layer"
+#~ msgstr "Nuwe reel"
+
+#, fuzzy
+#~ msgid "Add a new page or layer"
+#~ msgstr "Nuwe reel"
+
+#, fuzzy
+#~| msgid "Remove Selected Text"
+#~ msgid "Delete selected objects"
+#~ msgstr "Verwyder Gekose Teks"
+
+#, fuzzy
+#~| msgid "Remove Selected Text"
+#~ msgid "Raise selected objects"
+#~ msgstr "Verwyder Gekose Teks"
+
+#, fuzzy
+#~ msgid "Lower selected objects"
+#~ msgstr "Open Dokument"
+
+#, fuzzy
+#~| msgid "Change Borders"
+#~ msgid "View mode"
+#~ msgstr "Verander Grense"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create Layer"
+#~ msgstr "Skep Werkvoorbeeld"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete Layer"
+#~ msgstr "Uitvee Teks"
+
+#, fuzzy
+#~ msgid "Add a new slide"
+#~ msgstr "Nuwe reel"
+
+#, fuzzy
+#~| msgid "Custom"
+#~ msgid "Cut"
+#~ msgstr "Pasmaak"
+
+#, fuzzy
+#~ msgid "Page %1"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~| msgid "Paste Text"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paste Slide"
+#~ msgid_plural "Paste Slides"
+#~ msgstr[0] "Plak Teks"
+#~ msgstr[1] "Plak Teks"
+
+#, fuzzy
+#~| msgid "Paste Text"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paste Page"
+#~ msgid_plural "Paste Pages"
+#~ msgstr[0] "Plak Teks"
+#~ msgstr[1] "Plak Teks"
+
+#, fuzzy
+#~ msgid "D&elete"
+#~ msgstr "Uitvee Teks"
+
+#, fuzzy
+#~ msgid "Insert Page"
+#~ msgstr "Voeg by Teks"
+
+#, fuzzy
+#~| msgid "Company Name"
+#~ msgid "Copy Page"
+#~ msgstr "Maatskappy Naam"
+
+#, fuzzy
+#~ msgid "Delete Page"
+#~ msgstr "Uitvee Teks"
+
+#, fuzzy
+#~ msgid "Delete the current page"
+#~ msgstr "Uitvee Teks"
+
+#~ msgid "Page Layout..."
+#~ msgstr "Bladsy Uitleg..."
+
+#~ msgid "Variable"
+#~ msgstr "Veranderlike"
+
+#, fuzzy
+#~ msgid "Import Document..."
+#~ msgstr "Open Dokument"
+
+#, fuzzy
+#~ msgid "Import Slideshow"
+#~ msgstr "In voer Styl"
+
+#, fuzzy
+#~| msgid ""
+#~| "Could not open\n"
+#~| "%1"
+#~ msgid ""
+#~ "Could not import\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Kon nie open\n"
+#~ "%1"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change page layout"
+#~ msgstr "Verander Tabel-vormer"
+
+#, fuzzy
+#~ msgid "Set image ..."
+#~ msgstr "Tweede"
+
+#, fuzzy
+#~ msgid "Background"
+#~ msgstr "Tweede"
+
+#, fuzzy
+#~ msgid "Page Background"
+#~ msgstr "Tweede"
+
+#, fuzzy
+#~| msgid "Page Preview"
+#~ msgid "Page Design"
+#~ msgstr "Bladsy Voorskou"
+
+#, fuzzy
+#~ msgid "Slide Design"
+#~ msgstr "Vertoon %1 Nutsbalk"
+
+#, fuzzy
+#~ msgid "Use background of master page"
+#~ msgstr "Tweede"
+
+#, fuzzy
+#~ msgid "Use background of master slide"
+#~ msgstr "Tweede"
+
+#, fuzzy
+#~| msgid "Change List Type"
+#~ msgid "Display shapes of master page"
+#~ msgstr "Verander Lys Tipe"
+
+#, fuzzy
+#~| msgid "Change List Type"
+#~ msgid "Display shapes of master slide"
+#~ msgstr "Verander Lys Tipe"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change slide background image"
+#~ msgstr "Tweede"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change page background image"
+#~ msgstr "Tweede"
+
+#, fuzzy
+#~| msgid "Paste Text"
+#~ msgid "Master Slide %1/%2"
+#~ msgstr "Plak Teks"
+
+#, fuzzy
+#~ msgid "Slide %1/%2"
+#~ msgstr "Vertoon %1 Nutsbalk"
+
+#, fuzzy
+#~| msgid "Paste Text"
+#~ msgid "Master Page %1/%2"
+#~ msgstr "Plak Teks"
+
+#, fuzzy
+#~ msgid "Page %1/%2"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~ msgid "1 replacement made"
+#~ msgid_plural "%1 replacements made"
+#~ msgstr[0] "Vervang Teks"
+#~ msgstr[1] "Vervang Teks"
+
+#, fuzzy
+#~| msgctxt "We add the 1/2 char at the %1"
+#~| msgid "Re&place 1/2... with %1..."
+#~ msgid "Replace %1 with %2?"
+#~ msgstr "Vervang 1/2... met %1..."
+
+#, fuzzy
+#~ msgid "&File"
+#~ msgstr "Lêernaam"
+
+#, fuzzy
+#~ msgid "File"
+#~ msgstr "Lêernaam"
+
+#, fuzzy
+#~| msgid "No value"
+#~ msgid "No autosave"
+#~ msgstr "Nee waarde"
+
+#, fuzzy
+#~ msgid "Create backup file:"
+#~ msgstr "Skep Werkvoorbeeld"
+
+#, fuzzy
+#~ msgid "Show grid:"
+#~ msgstr "Vertoon %1 Nutsbalk"
+
+#, fuzzy
+#~ msgid "Grid color:"
+#~ msgstr "Agtergrond kleur:"
+
+#, fuzzy
+#~ msgid "Spacing"
+#~ msgstr "Lyn Spasiëring"
+
+#, fuzzy
+#~| msgid "&Horizontal"
+#~ msgctxt "Horizontal grid spacing"
+#~ msgid "&Horizontal:"
+#~ msgstr "Horisontaal"
+
+#, fuzzy
+#~| msgid "&Vertical"
+#~ msgctxt "Vertical grid spacing"
+#~ msgid "&Vertical:"
+#~ msgstr "Vertikaal"
+
+#, fuzzy
+#~| msgid "Unit:"
+#~ msgid "Units:"
+#~ msgstr "Eenheid:"
+
+#, fuzzy
+#~| msgid "Shadow:"
+#~ msgid "Paste offset:"
+#~ msgstr "Skadu:"
+
+#, fuzzy
+#~ msgid "%1: Critical Error"
+#~ msgstr "Voltooiïng Woord"
+
+#, fuzzy
+#~ msgid "No template found for: %1"
+#~ msgstr "Nee handteerder gevind vir %1"
+
+#, fuzzy
+#~ msgid "Too many templates found for: %1"
+#~ msgstr "Nee handteerder gevind vir %1"
+
+#, fuzzy
+#~ msgid "Always use this template"
+#~ msgstr "Skep Werkvoorbeeld"
+
+#~ msgid ""
+#~ "Could not save\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Kon nie stoor\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "Could not save %1\n"
+#~ "Reason: %2"
+#~ msgstr ""
+#~ "Kon nie stoor %1\n"
+#~ "Rede: %2"
+
+#, fuzzy
+#~| msgid "Document Title"
+#~ msgid "Document <i>%1</i> saved"
+#~ msgstr "Dokument Titel"
+
+#~ msgid ""
+#~ "Malformed URL\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Misformde Url\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "An autosaved file exists for this document.\n"
+#~ "Do you want to open it instead?"
+#~ msgstr ""
+#~ "'n autogered lêer bestaan vir hierdie dokument.\n"
+#~ "Doen jy wil hê na open dit in plaas van?"
+
+#, fuzzy
+#~ msgid "Could not create the filter plugin"
+#~ msgstr "Kon nie voer uit lêer"
+
+#, fuzzy
+#~ msgid "Could not create the output document"
+#~ msgstr "Kon nie voer uit lêer"
+
+#, fuzzy
+#~ msgid "File not found"
+#~ msgstr "Fout: Lêer nie gevind."
+
+#, fuzzy
+#~ msgid "Error in embedded document"
+#~ msgstr "Fout terwyl stooring ingebedde dokumente"
+
+#, fuzzy
+#~ msgid "Not implemented"
+#~ msgstr "byvoeging"
+
+#, fuzzy
+#~ msgid "Invalid file format"
+#~ msgstr "Datum Formaat"
+
+#, fuzzy
+#~ msgid "Internal error"
+#~ msgstr "Internet"
+
+#, fuzzy
+#~ msgid "Failed to download remote file"
+#~ msgstr "Kon nie open lêer %1"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not open %2.\n"
+#~ "Reason: %1.\n"
+#~ "%3"
+#~ msgstr ""
+#~ "Kon nie open %1\n"
+#~ "Rede: %2"
+
+#, fuzzy
+#~| msgid "Document Title"
+#~ msgid "Document <i>%1</i> loaded"
+#~ msgstr "Dokument Titel"
+
+#, fuzzy
+#~ msgid ""
+#~ "Parsing error in %1 at line %2, column %3\n"
+#~ "Error message: %4"
+#~ msgstr "Verwerking fout in lêer na lyn %1, kolom %2"
+
+#, fuzzy
+#~ msgid "%1 is not a file."
+#~ msgstr "%1 is nie 'n geldige skakel."
+
+#, fuzzy
+#~ msgid "Could not read the beginning of the file."
+#~ msgstr "Kon nie voer uit lêer"
+
+#, fuzzy
+#~ msgid ""
+#~ "parsing error in the main document at line %1, column %2\n"
+#~ "Error message: %3"
+#~ msgstr "Verwerking fout in lêer na lyn %1, kolom %2"
+
+#, fuzzy
+#~ msgid "Not a valid Calligra file: %1"
+#~ msgstr "Nie 'n geldige Koffice lêer"
+
+#~ msgid ""
+#~ "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save "
+#~ "it?</p>"
+#~ msgstr ""
+#~ "<p>Die dokument <b>'%1'</b> het al veranderde.</p><p>Doen jy wil hê na "
+#~ "stoor dit?</p>"
+
+#~ msgid ""
+#~ "Could not open\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Kon nie open\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "Could not open %1\n"
+#~ "Reason: %2"
+#~ msgstr ""
+#~ "Kon nie open %1\n"
+#~ "Rede: %2"
+
+#, fuzzy
+#~ msgid "a presentation"
+#~ msgstr "Aanbieding"
+
+#, fuzzy
+#~ msgid "a drawing"
+#~ msgstr "Donker Oranje"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save "
+#~| "it?</p>"
+#~ msgid ""
+#~ "The document \"%1\" has been modified.\n"
+#~ "Do you want to save your changes or discard them?"
+#~ msgstr ""
+#~ "<p>Die dokument <b>'%1'</b> het al veranderde.</p><p>Doen jy wil hê na "
+#~ "stoor dit?</p>"
+
+#, fuzzy
+#~ msgid "No"
+#~ msgstr "Nota"
+
+#, fuzzy
+#~ msgid "Could not export file."
+#~ msgstr "Kon nie voer uit lêer"
+
+#~ msgid "Missing Export Filter"
+#~ msgstr "Kort Voer uit Filter"
+
+#~ msgid ""
+#~ "Could not import file of type\n"
+#~ "%1"
+#~ msgstr ""
+#~ "Kon nie in voer lêer van tipe\n"
+#~ "%1"
+
+#~ msgid "Missing Import Filter"
+#~ msgstr "Kort In voer Filter"
+
+#, fuzzy
+#~ msgid "Choose Filter"
+#~ msgstr "Kies"
+
+#, fuzzy
+#~| msgid "&Find:"
+#~ msgctxt "Label for the Find text input box"
+#~ msgid "Find:"
+#~ msgstr "Soek:"
+
+#, fuzzy
+#~| msgid "Text"
+#~ msgctxt "Next search result"
+#~ msgid "Next"
+#~ msgstr "Teks"
+
+#, fuzzy
+#~ msgctxt "Search options"
+#~ msgid "Options"
+#~ msgstr "Uitsonderings"
+
+#, fuzzy
+#~| msgid "&Replace:"
+#~ msgctxt "Label for the Replace text input box"
+#~ msgid "Replace:"
+#~ msgstr "Vervang:"
+
+#, fuzzy
+#~ msgctxt "Replace the current match"
+#~ msgid "Replace"
+#~ msgstr "Vervang:"
+
+#, fuzzy
+#~ msgctxt "Replace all found matches"
+#~ msgid "Replace All"
+#~ msgstr "Vervang:"
+
+#, fuzzy
+#~ msgctxt "Total number of matches"
+#~ msgid "1 match found"
+#~ msgid_plural "%1 matches found"
+#~ msgstr[0] "Nee handteerder gevind vir %1"
+#~ msgstr[1] "Nee handteerder gevind vir %1"
+
+#, fuzzy
+#~ msgid "No matches found"
+#~ msgstr "Nee handteerder gevind vir %1"
+
+#, fuzzy
+#~ msgid "%1 unsaved document (%2)"
+#~ msgstr "Stoor Dokument As"
+
+#, fuzzy
+#~ msgid "Reload"
+#~ msgstr "Aflaai"
+
+#, fuzzy
+#~ msgid "Open ex&isting Document as Untitled Document..."
+#~ msgstr "Open 'n bestaande dokument"
+
+#, fuzzy
+#~ msgid "En&crypt Document"
+#~ msgstr "Open Dokument"
+
+#, fuzzy
+#~ msgid "&New View"
+#~ msgstr "Verwyder Besigtig"
+
+#, fuzzy
+#~ msgid "(write protected)"
+#~ msgstr "Rigting:"
+
+#, fuzzy
+#~ msgid "%1 (unknown file type)"
+#~ msgstr "Onbekende lêer tipe %1"
+
+#, fuzzy
+#~ msgid "untitled"
+#~ msgstr "Titel"
+
+#~ msgid "Open Document"
+#~ msgstr "Open Dokument"
+
+#, fuzzy
+#~ msgid "Document - %1"
+#~ msgstr "Dokument Titel"
+
+#, fuzzy
+#~ msgid "Warning"
+#~ msgstr "Donker Oranje"
+
+#, fuzzy
+#~ msgid "Hide %1 Toolbar"
+#~ msgstr "Vertoon %1 Nutsbalk"
+
+#, fuzzy
+#~ msgid "Recent Documents"
+#~ msgstr "Open 'n onlangse dokument"
+
+#, fuzzy
+#~ msgid "Custom Document"
+#~ msgstr "Open Dokument"
+
+#, fuzzy
+#~ msgid "Printing"
+#~ msgstr "Donker Oranje"
+
+#, fuzzy
+#~ msgid "Printing done"
+#~ msgstr "Donker Oranje"
+
+#, fuzzy
+#~ msgid "Close"
+#~ msgstr "Kleure:"
+
+#, fuzzy
+#~ msgid "Open This Document"
+#~ msgstr "Open Dokument"
+
+#~ msgid "Create Template"
+#~ msgstr "Skep Werkvoorbeeld"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "Template name"
+#~ msgid "Name:"
+#~ msgstr "Naam:"
+
+#~ msgid "Group:"
+#~ msgstr "Groep:"
+
+#~ msgid "&Add Group..."
+#~ msgstr "Voeg by Groep..."
+
+#, fuzzy
+#~ msgid "&Remove"
+#~ msgstr "Verwyder Besigtig"
+
+#~ msgid "Picture"
+#~ msgstr "Prent"
+
+#, fuzzy
+#~| msgid "Preview"
+#~ msgid "&Preview"
+#~ msgstr "Voorskou"
+
+#, fuzzy
+#~| msgid "Custom"
+#~ msgid "Custom:"
+#~ msgstr "Pasmaak"
+
+#~ msgid "&Select..."
+#~ msgstr "Kies..."
+
+#~ msgid "Do you really want to overwrite the existing '%1' template?"
+#~ msgstr "Doen jy rerig wil hê na oorskryf die bestaande '%1' werkvoorbeeld?"
+
+#~ msgid "Add Group"
+#~ msgstr "Voeg by Groep"
+
+#~ msgid "Enter group name:"
+#~ msgstr "Invoer groep naam:"
+
+#~ msgid "Do you really want to remove that group?"
+#~ msgstr "Doen jy rerig wil hê na verwyder wat groep?"
+
+#~ msgid "Remove Group"
+#~ msgstr "Verwyder Groep"
+
+#~ msgid "Do you really want to remove that template?"
+#~ msgstr "Doen jy rerig wil hê na verwyder wat werkvoorbeeld?"
+
+#~ msgid "Remove Template"
+#~ msgstr "Verwyder Werkvoorbeeld"
+
+#, fuzzy
+#~ msgid "&Delete"
+#~ msgstr "Uitvee Teks"
+
+#~ msgid "Could not load picture."
+#~ msgstr "Kon nie las prent."
+
+#~ msgid "No picture available."
+#~ msgstr "Nee prent beskikbaar."
+
+#, fuzzy
+#~ msgid "Use This Template"
+#~ msgstr "Skep Werkvoorbeeld"
+
+#, fuzzy
+#~ msgid "Date & Time"
+#~ msgstr "Datum (Vasgemaakte)"
+
+#~ msgid "Comment"
+#~ msgstr "Kommentaar"
+
+#~ msgid "&Add"
+#~ msgstr "Voeg by"
+
+#, fuzzy
+#~ msgid "&Modify"
+#~ msgstr "Middelste:"
+
+#, fuzzy
+#~ msgid "Date: %1"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~ msgid "Rdf"
+#~ msgstr "Antwoord"
+
+#, fuzzy
+#~| msgid "Title"
+#~ msgid "Triples"
+#~ msgstr "Titel"
+
+#, fuzzy
+#~| msgid "New"
+#~ msgid "new"
+#~ msgstr "Nuwe"
+
+#, fuzzy
+#~ msgid "copy"
+#~ msgstr "Maatskappy"
+
+#, fuzzy
+#~ msgid "delete"
+#~ msgstr "Uitvee Teks"
+
+#, fuzzy
+#~ msgid "Namespaces"
+#~ msgstr "Vervang:"
+
+#, fuzzy
+#~ msgid "Prefix"
+#~ msgstr "Voorvoegsel teks:"
+
+#, fuzzy
+#~ msgid "Namespace"
+#~ msgstr "Vervang:"
+
+#, fuzzy
+#~ msgid "Execute"
+#~ msgstr "Us Uitvoerbare"
+
+#, fuzzy
+#~ msgid "Stylesheets"
+#~ msgstr "Styl"
+
+#, fuzzy
+#~| msgid "Apply Style %1"
+#~ msgid "Apply Stylesheet"
+#~ msgstr "Wend aan Styl %1"
+
+#, fuzzy
+#~ msgid "User"
+#~ msgstr "Voeg by:"
+
+#, fuzzy
+#~ msgid "Stylesheet Definition"
+#~ msgstr "Styl"
+
+#, fuzzy
+#~| msgid "Variable Name"
+#~ msgid "Variables Available"
+#~ msgstr "Veranderlike Naam"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "Versiering"
+
+#, fuzzy
+#~ msgid "Stylesheet Name"
+#~ msgstr "Styl"
+
+#, fuzzy
+#~ msgid "Literal"
+#~ msgstr "Ligte Koraal"
+
+#~ msgid "Blank"
+#~ msgstr "Leë"
+
+#, fuzzy
+#~| msgid "Size:"
+#~ msgid "Valid"
+#~ msgstr "Grootte:"
+
+#, fuzzy
+#~ msgid "Subject"
+#~ msgstr "Voorwerp"
+
+#, fuzzy
+#~| msgid "Picture"
+#~ msgid "Predicate"
+#~ msgstr "Prent"
+
+#~ msgid "Object"
+#~ msgstr "Voorwerp"
+
+#, fuzzy
+#~ msgid "Obj Type"
+#~ msgstr "Bo:"
+
+#, fuzzy
+#~ msgid "DataType"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~ msgid "Do you want to save the password?"
+#~ msgstr "Doen jy rerig wil hê na verwyder wat werkvoorbeeld?"
+
+#, fuzzy
+#~ msgid "File '%1' is not readable"
+#~ msgstr "%1 is nie 'n geldige skakel."
+
+#, fuzzy
+#~ msgid "Import Data"
+#~ msgstr "Open Dokument"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgid "Generic"
+#~ msgstr "Algemeen"
+
+#~ msgid "Text"
+#~ msgstr "Teks"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~ msgid "Currency"
+#~ msgstr "Huidige Seksie"
+
+#~ msgid "None"
+#~ msgstr "Geen"
+
+#, fuzzy
+#~ msgid "Data"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~ msgid "E&ncoding:"
+#~ msgstr "Onderstreep:"
+
+#, fuzzy
+#~ msgid "Format"
+#~ msgstr "Datum Formaat"
+
+#, fuzzy
+#~ msgid "Delimiter"
+#~ msgstr "Links Skeisimbool"
+
+#, fuzzy
+#~ msgid "Comma"
+#~ msgstr "Maatskappy"
+
+#, fuzzy
+#~ msgid "Semicolon"
+#~ msgstr "Tweede"
+
+#, fuzzy
+#~ msgid "Other"
+#~ msgstr "Internet"
+
+#, fuzzy
+#~ msgid "Tabulator"
+#~ msgstr "Tabelleerders"
+
+#, fuzzy
+#~ msgid "Space"
+#~ msgstr "Voeg by Spasie"
+
+#, fuzzy
+#~ msgid "Ranges"
+#~ msgstr "Oranje"
+
+#, fuzzy
+#~ msgid "Update"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~ msgid "Import columns:"
+#~ msgstr "Open Dokument"
+
+#, fuzzy
+#~ msgid "Import lines:"
+#~ msgstr "In voer Styl"
+
+#, fuzzy
+#~| msgid "Author"
+#~ msgid "to"
+#~ msgstr "Outeur"
+
+#, fuzzy
+#~ msgid "Encryption:"
+#~ msgstr "Versiering"
+
+#, fuzzy
+#~ msgid "Do not decrypt"
+#~ msgstr "Versiering"
+
+#, fuzzy
+#~ msgid "D&ecrypt"
+#~ msgstr "Versiering"
+
+#, fuzzy
+#~ msgid "Do not encrypt"
+#~ msgstr "Versiering"
+
+#, fuzzy
+#~ msgid "Decrypt"
+#~ msgstr "Versiering"
+
+#, fuzzy
+#~ msgid "Change Filetype"
+#~ msgstr "Verander Lys Tipe"
+
+#, fuzzy
+#~ msgid "Change"
+#~ msgstr "Verander Kas"
+
+#, fuzzy
+#~| msgid "Text"
+#~ msgid "Icon and Text"
+#~ msgstr "Teks"
+
+#, fuzzy
+#~ msgid "Bottom side"
+#~ msgstr "Oplyn"
+
+#, fuzzy
+#~ msgid "Left side"
+#~ msgstr "Lyn"
+
+#, fuzzy
+#~ msgid "Right side"
+#~ msgstr "Ligte Groen"
+
+#, fuzzy
+#~| msgid "Download"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Download resource"
+#~ msgstr "Aflaai"
+
+#, fuzzy
+#~ msgctxt "@info:tooltip"
+#~ msgid "Share Resource"
+#~ msgstr "Uitvee Teks"
 
 #, fuzzy
 #~ msgid "Testing: OpenFile"
@@ -5743,11 +4961,6 @@ msgstr "Open Dokument"
 #, fuzzy
 #~ msgid "Record deleting failed."
 #~ msgstr "Skep Werkvoorbeeld"
-
-#, fuzzy
-#~| msgid "Change Indent"
-#~ msgid "Test Connection"
-#~ msgstr "Verander Inkeep"
 
 #, fuzzy
 #~ msgid "Number"
@@ -5993,10 +5206,6 @@ msgstr "Open Dokument"
 #~ msgstr "Bladsy Voorskou"
 
 #, fuzzy
-#~ msgid "First page:"
-#~ msgstr "Volgende styl:"
-
-#, fuzzy
 #~| msgid "Company Name"
 #~ msgid "Even pages:"
 #~ msgstr "Maatskappy Naam"
@@ -6005,11 +5214,6 @@ msgstr "Open Dokument"
 #~| msgid "Company Name"
 #~ msgid "Any pages:"
 #~ msgstr "Maatskappy Naam"
-
-#, fuzzy
-#~| msgid "Paste Text"
-#~ msgid "Last page:"
-#~ msgstr "Plak Teks"
 
 #, fuzzy
 #~| msgid "Company Name"
@@ -6198,10 +5402,6 @@ msgstr "Open Dokument"
 #~ msgstr "Bladsy Nommer"
 
 #, fuzzy
-#~ msgid "&Home Page:"
-#~ msgstr "Uitvee Teks"
-
-#, fuzzy
 #~| msgid "Document Information"
 #~ msgid "Contact Information"
 #~ msgstr "Dokument Informasie"
@@ -6264,10 +5464,6 @@ msgstr "Open Dokument"
 #~ msgstr "Verander Kas"
 
 #, fuzzy
-#~ msgid "First Page"
-#~ msgstr "Volgende styl:"
-
-#, fuzzy
 #~| msgid "Company Name"
 #~ msgid "Even Pages(s)"
 #~ msgstr "Maatskappy Naam"
@@ -6280,10 +5476,6 @@ msgstr "Open Dokument"
 #, fuzzy
 #~ msgid "&Edit"
 #~ msgstr "Voeg by Groep..."
-
-#, fuzzy
-#~ msgid "&Close"
-#~ msgstr "Kleure:"
 
 #, fuzzy
 #~ msgid "Dodge"
@@ -6364,10 +5556,6 @@ msgstr "Open Dokument"
 #, fuzzy
 #~ msgid "Embedding Object"
 #~ msgstr "Kon nie las prent."
-
-#, fuzzy
-#~ msgid "I&mport..."
-#~ msgstr "Verwyder..."
 
 #~ msgid "&Default"
 #~ msgstr "Verstek"
@@ -6783,9 +5971,6 @@ msgstr "Open Dokument"
 #~ msgid "Different header for the first page"
 #~ msgstr "Ander opskrif vir die eerste bladsy"
 
-#~ msgid "Page Preview"
-#~ msgstr "Bladsy Voorskou"
-
 #, fuzzy
 #~ msgid "Page Size && &Margins"
 #~ msgstr "Bladsy Grootte && Kantlyne"
@@ -6802,9 +5987,6 @@ msgstr "Open Dokument"
 
 #~ msgid "Right:"
 #~ msgstr "Regterkant:"
-
-#~ msgid "Foot Line"
-#~ msgstr "Voet Lyn"
 
 #~ msgid "You can insert several tags in the text:"
 #~ msgstr "Jy kan voeg by klomp etiket in die teks:"
@@ -6891,11 +6073,6 @@ msgstr "Open Dokument"
 #~ msgstr "Voeg by Veranderlike"
 
 #, fuzzy
-#~| msgid "Select Character"
-#~ msgid "Select Char"
-#~ msgstr "Kies Karakter"
-
-#, fuzzy
 #~| msgid "Minute"
 #~ msgctxt "Size Policy"
 #~ msgid "Minimum"
@@ -6958,10 +6135,6 @@ msgstr "Open Dokument"
 #~ msgstr "Voeg by Onderstreep"
 
 #, fuzzy
-#~ msgid "Select a filter:"
-#~ msgstr "Kies Karakter"
-
-#, fuzzy
 #~ msgid "Fit to width"
 #~ msgstr "Wydte:"
 
@@ -6978,24 +6151,12 @@ msgstr "Open Dokument"
 #~ msgstr "Skep Nuwe Styl"
 
 #, fuzzy
-#~ msgid "Selected Template"
-#~ msgstr "Skep Werkvoorbeeld"
-
-#, fuzzy
-#~ msgid "Creates an empty document"
-#~ msgstr "Begin met 'n leeg dokument"
-
-#, fuzzy
 #~ msgid "Choose Template"
 #~ msgstr "Verwyder Werkvoorbeeld"
 
 #, fuzzy
 #~ msgid "No description available"
 #~ msgstr "Nee onlangse lêers beskikbaar"
-
-#, fuzzy
-#~ msgid "&Custom..."
-#~ msgstr "Pasmaak..."
 
 #, fuzzy
 #~ msgid "*.svg *.wmf *.qpic|Clipart (*.svg *.wmf *.qpic)"
@@ -7007,22 +6168,12 @@ msgstr "Open Dokument"
 #~ msgid "Mail & News"
 #~ msgstr "Pos & Nuus"
 
-#, fuzzy
-#~ msgid "Text to display:"
-#~ msgstr "Teks na soek:"
-
 #~ msgid "Internet address:"
 #~ msgstr "Internet adres:"
 
 #, fuzzy
 #~ msgid "Recent file:"
 #~ msgstr "Onlangse Lêer:"
-
-#~ msgid "No Entries"
-#~ msgstr "Nee Inskrywings"
-
-#~ msgid "File location:"
-#~ msgstr "Lêer ligging:"
 
 #~ msgid "Tabulator &Left"
 #~ msgstr "Tabel-vormer Links"
@@ -7202,25 +6353,14 @@ msgstr "Open Dokument"
 #~ msgid "Custom..."
 #~ msgstr "Pasmaak..."
 
-#~ msgid "&Mail Merge..."
-#~ msgstr "Pos Saamvlans..."
-
 #~ msgid "Page Current Num"
 #~ msgstr "Bladsy Huidige Num"
 
 #~ msgid "Total Page Num"
 #~ msgstr "Totaal Bladsy Num"
 
-#, fuzzy
-#~ msgid "Previous Page Number"
-#~ msgstr "Bladsy Nommer"
-
 #~ msgid "Number of Pages"
 #~ msgstr "Nommer van Bladsye"
-
-#, fuzzy
-#~ msgid "Next Page"
-#~ msgstr "Volgende styl:"
 
 #~ msgid "Filename"
 #~ msgstr "Lêernaam"
@@ -7425,9 +6565,6 @@ msgstr "Open Dokument"
 #~ msgid "Insert a special character..."
 #~ msgstr "Voeg by Spesiaal Karakter"
 
-#~ msgid "Find"
-#~ msgstr "Soek"
-
 #, fuzzy
 #~ msgid "Change Format..."
 #~ msgstr "Verander Formaat"
@@ -7593,9 +6730,6 @@ msgstr "Open Dokument"
 
 #~ msgid "Add Author Name"
 #~ msgstr "Voeg by Outeur Naam"
-
-#~ msgid "Completion Word"
-#~ msgstr "Voltooiïng Woord"
 
 #, fuzzy
 #~ msgid "Autocorrect Word"
@@ -7825,10 +6959,6 @@ msgstr "Open Dokument"
 #~ msgstr "Die spasie 'n oortjie gebruik kan wees gevul met 'n patroon."
 
 #, fuzzy
-#~ msgid "&New"
-#~ msgstr "Nuwe"
-
-#, fuzzy
 #~ msgid "&Tabulators"
 #~ msgstr "Tabelleerders"
 
@@ -7855,9 +6985,6 @@ msgstr "Open Dokument"
 
 #~ msgid "Default Color"
 #~ msgstr "Verstek Kleur"
-
-#~ msgid "More Colors..."
-#~ msgstr "Meer Kleure..."
 
 #, fuzzy
 #~ msgctxt "color"
@@ -8601,10 +7728,6 @@ msgstr "Open Dokument"
 #~ msgstr "Diep Lug Blou"
 
 #, fuzzy
-#~ msgid "Open &Recent Document"
-#~ msgstr "Open 'n onlangse dokument"
-
-#, fuzzy
 #~ msgid "&Document Information"
 #~ msgstr "Dokument Informasie"
 
@@ -8627,10 +7750,6 @@ msgstr "Open Dokument"
 #, fuzzy
 #~ msgid "Bold Italic"
 #~ msgstr "Kursief:"
-
-#, fuzzy
-#~ msgid "Actual Font"
-#~ msgstr "Kies Skrif tipe"
 
 #~ msgid "Remove Tabulator"
 #~ msgstr "Verwyder Tabel-vormer"
