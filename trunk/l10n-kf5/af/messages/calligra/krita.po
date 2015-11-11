@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-08 08:19+0000\n"
+"POT-Creation-Date: 2015-11-11 07:46+0000\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -208,7 +208,7 @@ msgstr ""
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #: ui/dialogs/kis_dlg_preferences.cc:224 ui/input/kis_tablet_debugger.cpp:100
 #: ui/kis_filter_manager.cc:217 ui/kis_filter_manager.cc:226
-#: ui/kis_layer_manager.cc:674 ui/kis_layer_manager.cc:950
+#: ui/kis_layer_manager.cc:677 ui/kis_layer_manager.cc:953
 #: ui/KisApplication.cpp:238 ui/KisApplication.cpp:241
 #: ui/KisApplication.cpp:266 ui/KisApplication.cpp:292
 #: ui/KisApplication.cpp:313 ui/KisDocument.cpp:617 ui/KisDocument.cpp:619
@@ -1359,7 +1359,7 @@ msgid "Convert Image Type"
 msgstr "Voeg by Beeld as Laag..."
 
 #: image/commands/kis_layer_props_command.cpp:42
-#: image/commands/kis_node_property_list_command.cpp:27
+#: image/commands/kis_node_property_list_command.cpp:31
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Property Changes"
@@ -1377,11 +1377,35 @@ msgctxt "(qtundo-format)"
 msgid "Opacity Change"
 msgstr "Ondeursigtigheid:"
 
-#: image/commands/kis_node_property_list_command.cpp:57
-#: image/commands/kis_node_property_list_command.cpp:63
-#: image/kis_group_layer.cc:286 image/kis_group_layer.cc:293
+#: image/commands/kis_node_property_list_command.cpp:61
+#: image/commands/kis_node_property_list_command.cpp:67
+#: image/kis_group_layer.cc:304 image/kis_layer_properties_icons.cpp:35
 msgid "Pass Through"
 msgstr ""
+
+#: image/commands/kis_node_property_list_command.cpp:87
+#: image/kis_layer_properties_icons.cpp:30
+msgid "Visible"
+msgstr "Sigbare"
+
+#: image/commands/kis_node_property_list_command.cpp:88
+#: image/kis_layer_properties_icons.cpp:29
+#: plugins/extensions/dockers/channeldocker/channelmodel.cpp:68
+#, fuzzy
+msgid "Locked"
+msgstr "Gekoppel"
+
+#: image/commands/kis_node_property_list_command.cpp:89
+#: image/kis_layer_properties_icons.cpp:36
+#, fuzzy
+msgid "Active"
+msgstr "Verwyder Laag"
+
+#: image/commands/kis_node_property_list_command.cpp:96
+#: image/kis_layer_properties_icons.cpp:33 image/kis_paint_layer.cc:192
+#, fuzzy
+msgid "Alpha Locked"
+msgstr "Gekoppel"
 
 #: image/commands/kis_reselect_global_selection_command.cpp:30
 #, fuzzy
@@ -1389,7 +1413,7 @@ msgctxt "(qtundo-format)"
 msgid "Reselect"
 msgstr "Keuse"
 
-#: image/commands_new/kis_image_resize_command.cpp:28 image/kis_image.cc:444
+#: image/commands_new/kis_image_resize_command.cpp:28 image/kis_image.cc:447
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
@@ -1502,17 +1526,6 @@ msgstr "Wit"
 msgid "Gaussian"
 msgstr "Blou"
 
-#: image/kis_base_node.cpp:138 ui/kis_node_model.cpp:491
-msgid "Visible"
-msgstr "Sigbare"
-
-#: image/kis_base_node.cpp:139
-#: plugins/extensions/dockers/channeldocker/channelmodel.cpp:68
-#: ui/kis_node_model.cpp:492
-#, fuzzy
-msgid "Locked"
-msgstr "Gekoppel"
-
 #: image/kis_clone_layer.cpp:307
 #, fuzzy
 msgid "Copy From"
@@ -1589,123 +1602,123 @@ msgstr ""
 msgid "Mitchell"
 msgstr ""
 
-#: image/kis_image.cc:350
+#: image/kis_image.cc:353
 msgid "background"
 msgstr "agtergrond"
 
-#: image/kis_image.cc:353
+#: image/kis_image.cc:356
 #, fuzzy, kde-format
 msgid "Layer %1"
 msgstr "laag %1"
 
-#: image/kis_image.cc:443
+#: image/kis_image.cc:446
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "Stoor Laag as Beeld..."
 
-#: image/kis_image.cc:485
+#: image/kis_image.cc:488
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "Voeg by Laag..."
 
-#: image/kis_image.cc:486
+#: image/kis_image.cc:489
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "Alfa"
 
-#: image/kis_image.cc:518
+#: image/kis_image.cc:521
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "Nuwe Beeld"
 
-#: image/kis_image.cc:519
+#: image/kis_image.cc:522
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "Herstel Knoppie"
 
-#: image/kis_image.cc:566
+#: image/kis_image.cc:569
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr "Voeg by Laag..."
 
-#: image/kis_image.cc:654
+#: image/kis_image.cc:657
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "Herbenaam Beeld..."
 
-#: image/kis_image.cc:659
+#: image/kis_image.cc:662
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr "Verwyder Laag"
 
-#: image/kis_image.cc:726
+#: image/kis_image.cc:729
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Shear layer"
 msgstr "Voeg by Laag..."
 
-#: image/kis_image.cc:732
+#: image/kis_image.cc:735
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "Nuwe Beeld"
 
-#: image/kis_image.cc:744
+#: image/kis_image.cc:747
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "Voeg by Beeld as Laag..."
 
-#: image/kis_image.cc:777
+#: image/kis_image.cc:780
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "Voeg by Beeld as Laag..."
 
-#: image/kis_image.cc:956
+#: image/kis_image.cc:959
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: image/kis_image.cc:1102
+#: image/kis_image.cc:1105
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selection Masks"
 msgstr "Keuse"
 
-#: image/kis_image.cc:1157
+#: image/kis_image.cc:1160
 #, fuzzy
 msgid "Merged"
 msgstr "blou"
 
-#: image/kis_image.cc:1168
+#: image/kis_image.cc:1171
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "Verwyder Keuse"
 
-#: image/kis_image.cc:1239
+#: image/kis_image.cc:1242
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge with Layer Below"
 msgstr "Saamvlans Alle Lae"
 
-#: image/kis_image.cc:1309
+#: image/kis_image.cc:1312
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "Herbenaam Beeld..."
 
-#: image/kis_image.cc:1913
+#: image/kis_image.cc:1918
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
@@ -1716,13 +1729,13 @@ msgstr "Verwyder Keuse"
 msgid "Content"
 msgstr "Hoeke:"
 
-#: image/kis_layer.cc:212
+#: image/kis_layer.cc:216
 #, kde-format
 msgid "%1%"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, opacityCBox)
-#: image/kis_layer.cc:212
+#: image/kis_layer.cc:216
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:235
 #: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:36
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
@@ -1742,29 +1755,25 @@ msgstr ""
 msgid "Opacity"
 msgstr "Ondeursigtigheid:"
 
-#: image/kis_layer.cc:215
+#: image/kis_layer.cc:219
 #, fuzzy
 msgid "Composite Mode"
 msgstr "Byvoeging"
 
-#: image/kis_layer.cc:219 image/kis_layer.cc:236
+#: image/kis_layer.cc:236 image/kis_layer_properties_icons.cpp:32
+msgid "Inherit Alpha"
+msgstr ""
+
+#: image/kis_layer.cc:240 image/kis_layer_properties_icons.cpp:31
 #, fuzzy
 msgid "Layer Style"
 msgstr "Beeld"
 
-#: image/kis_layer.cc:222 image/kis_layer.cc:232
-msgid "Inherit Alpha"
-msgstr ""
-
-#: image/kis_paint_layer.cc:168 image/kis_paint_layer.cc:180
-#: ui/kis_node_model.cpp:500
+#: image/kis_layer_properties_icons.cpp:34 image/kis_paint_layer.cc:195
+#: plugins/extensions/dockers/animation/animation_docker.cpp:126
 #, fuzzy
-msgid "Alpha Locked"
-msgstr "Gekoppel"
-
-#: image/kis_paint_layer.cc:171 image/kis_paint_layer.cc:183
-msgid "Onion skin"
-msgstr ""
+msgid "Onion Skins"
+msgstr "Alfa"
 
 #: image/kis_processing_visitor.cpp:34
 msgid "Processing"
@@ -1833,11 +1842,6 @@ msgctxt "(qtundo-format)"
 msgid "Invert Selection"
 msgstr "Keuse"
 
-#: image/kis_selection_mask.cpp:118 ui/kis_node_model.cpp:493
-#, fuzzy
-msgid "Active"
-msgstr "Verwyder Laag"
-
 #: image/kis_sync_lod_cache_stroke_strategy.cpp:34
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -1848,6 +1852,17 @@ msgstr "Herhaal:"
 #, fuzzy
 msgid "Updating..."
 msgstr "Herbenaam Beeld..."
+
+#: image/krita_utils.cpp:360
+#, fuzzy
+msgid "off"
+msgstr "Borsels"
+
+#: image/krita_utils.cpp:360
+#, fuzzy
+#| msgid "None"
+msgid "on"
+msgstr "Geen"
 
 #: image/layerstyles/kis_ls_bevel_emboss_filter.cpp:56
 #: image/layerstyles/kis_ls_stroke_filter.cpp:49
@@ -3289,62 +3304,123 @@ msgstr ""
 msgid "Luma"
 msgstr ""
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:41
+#: plugins/extensions/dockers/animation/animation_docker.cpp:43
 #, fuzzy
 msgid "Animation"
 msgstr "Roteer 90"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:51
+#: plugins/extensions/dockers/animation/animation_docker.cpp:54
 #, fuzzy
-msgid "Move to previous frame"
+msgid "Previous Frame"
+msgstr "Wit"
+
+#: plugins/extensions/dockers/animation/animation_docker.cpp:58
+#, fuzzy
+#| msgid "Remove Layer"
+msgid "Next Frame"
 msgstr "Verwyder Laag"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:55
+#: plugins/extensions/dockers/animation/animation_docker.cpp:62
 #, fuzzy
-msgid "Move to next frame"
-msgstr "Verwyder Laag"
+msgid "Previous Key Frame"
+msgstr "Wit"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:59
+#: plugins/extensions/dockers/animation/animation_docker.cpp:66
 #, fuzzy
-msgid "Play / pause animation"
+msgid "Next Key Frame"
+msgstr "Laag Fout"
+
+#: plugins/extensions/dockers/animation/animation_docker.cpp:70
+#, fuzzy
+msgid "First Frame"
+msgstr "Wit"
+
+#: plugins/extensions/dockers/animation/animation_docker.cpp:74
+#, fuzzy
+msgid "Last Frame"
+msgstr "Kleur"
+
+#: plugins/extensions/dockers/animation/animation_docker.cpp:78
+#, fuzzy
+msgid "Play / Pause"
 msgstr "Voeg by Laag..."
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:63
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:32
 #, fuzzy
-msgid "Add blank frame"
-msgstr "Laag Fout"
+msgid "New Frame"
+msgstr "Naam:"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:67
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:33
 #, fuzzy
-msgid "Add duplicate frame"
-msgstr "Volgende Laag"
+msgid "Copy Frame"
+msgstr "groen"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:71
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:34
 #, fuzzy
-msgid "Delete keyframe"
-msgstr "Laag Fout"
+#| msgid "Remove Layer"
+msgid "Remove Frame"
+msgstr "Verwyder Laag"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:153
-#: plugins/extensions/dockers/animation/animation_docker.cpp:173
-#: plugins/extensions/dockers/animation/animation_docker.cpp:191
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:35
+#, fuzzy
+#| msgid "Remove Layer"
+msgid "Remove Frames"
+msgstr "Verwyder Laag"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:36
+#, fuzzy
+msgid "Auto Frame Mode"
+msgstr "Kwas"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:37
+#, fuzzy
+msgid "Show in Timeline"
+msgstr "Wydte:"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:54
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:146
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Copy Keyframe"
+msgid_plural "Copy Keyframes"
+msgstr[0] "Laag Fout"
+msgstr[1] "Laag Fout"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:62
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Add Keyframe"
 msgstr "Laag Fout"
 
-#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:40
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:74
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Keyframe"
+msgid_plural "Remove Keyframes"
+msgstr[0] "Laag Fout"
+msgstr[1] "Laag Fout"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:143
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move Keyframe"
+msgid_plural "Move Keyframes"
+msgstr[0] "Laag Fout"
+msgstr[1] "Laag Fout"
+
+#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:42
 msgid "Tint: "
 msgstr ""
 
-#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:46
+#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:48
 msgid "Tint color for past frames"
 msgstr ""
 
-#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:47
+#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:49
 msgid "Tint color for future frames"
 msgstr ""
 
-#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:55
+#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:57
 #, fuzzy
 msgid "Number of onion skins"
 msgstr "Herstel Knoppie"
@@ -3355,21 +3431,41 @@ msgstr "Herstel Knoppie"
 msgid "Onion skin options"
 msgstr "Alfa"
 
-#: plugins/extensions/dockers/animation/timeline_docker.cpp:33
+#: plugins/extensions/dockers/animation/timeline_docker.cpp:58
 #, fuzzy
 msgid "Timeline"
 msgstr "Wydte:"
 
-#: plugins/extensions/dockers/animation/timeline_docker.cpp:42
-#, fuzzy
-msgid "Toggle onion skin"
-msgstr "Oplos"
+#: plugins/extensions/dockers/animation/timeline_ruler_header.cpp:368
+#, fuzzy, kde-format
+msgid "Insert %1 left"
+msgstr "Laag Fout"
 
-#: plugins/extensions/dockers/animation/timeline_view.cpp:126
+#: plugins/extensions/dockers/animation/timeline_ruler_header.cpp:369
+#, fuzzy, kde-format
+msgid "Insert %1 right"
+msgstr "Hoogte:"
+
+#: plugins/extensions/dockers/animation/timeline_ruler_header.cpp:370
+#, fuzzy, kde-format
+msgid "Clear %1 columns"
+msgstr "Herstel Knoppie"
+
+#: plugins/extensions/dockers/animation/timeline_ruler_header.cpp:371
+#, fuzzy, kde-format
+msgid "Remove %1 columns"
+msgstr "Herstel Knoppie"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/extensions/dockers/animation/wdg_animation.ui:59
 #, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Move keyframes"
-msgstr "Voer uit Beeld..."
+msgid "Start:"
+msgstr "Pen Program"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/extensions/dockers/animation/wdg_animation.ui:76
+msgid "End:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (KColorButton, bnColor)
 #. i18n: ectx: property (text), widget (KColorButton, bnHighlightColor)
@@ -3388,13 +3484,18 @@ msgstr "Voer uit Beeld..."
 #. i18n: ectx: property (text), widget (QToolButton, m_bnFileName)
 #. i18n: ectx: property (text), widget (QToolButton, bnSwapFile)
 #. i18n: ectx: property (text), widget (QToolButton, bnBackgroundColor)
+#. i18n: ectx: property (text), widget (QToolButton, btnFirstFrame)
+#. i18n: ectx: property (text), widget (QToolButton, btnPreviousKeyFrame)
 #. i18n: ectx: property (text), widget (QToolButton, btnPreviousFrame)
 #. i18n: ectx: property (text), widget (QToolButton, btnPlay)
 #. i18n: ectx: property (text), widget (QToolButton, btnNextFrame)
+#. i18n: ectx: property (text), widget (QToolButton, btnNextKeyFrame)
+#. i18n: ectx: property (text), widget (QToolButton, btnLastFrame)
 #. i18n: ectx: property (text), widget (QToolButton, btnAddKeyframe)
 #. i18n: ectx: property (text), widget (QToolButton, btnAddDuplicateFrame)
 #. i18n: ectx: property (text), widget (QToolButton, btnDeleteKeyframe)
 #. i18n: ectx: property (text), widget (QToolButton, btnOnionSkinOptions)
+#. i18n: ectx: property (text), widget (QToolButton, btnLazyFrame)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnSelectConfigurationFile)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnSelectLut)
 #. i18n: ectx: property (text), widget (QToolButton, bnViewMode)
@@ -3412,13 +3513,18 @@ msgstr "Voer uit Beeld..."
 #. i18n: ectx: property (text), widget (QToolButton, bnSelectSaveLocation)
 #. i18n: ectx: property (text), widget (QToolButton, bnGetPreview)
 #. i18n: ectx: property (text), widget (QToolButton, bnFont)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:22
-#: plugins/extensions/dockers/animation/wdg_animation.ui:29
-#: plugins/extensions/dockers/animation/wdg_animation.ui:36
-#: plugins/extensions/dockers/animation/wdg_animation.ui:47
-#: plugins/extensions/dockers/animation/wdg_animation.ui:54
-#: plugins/extensions/dockers/animation/wdg_animation.ui:61
-#: plugins/extensions/dockers/animation/wdg_animation.ui:68
+#: plugins/extensions/dockers/animation/wdg_animation.ui:146
+#: plugins/extensions/dockers/animation/wdg_animation.ui:178
+#: plugins/extensions/dockers/animation/wdg_animation.ui:210
+#: plugins/extensions/dockers/animation/wdg_animation.ui:242
+#: plugins/extensions/dockers/animation/wdg_animation.ui:274
+#: plugins/extensions/dockers/animation/wdg_animation.ui:306
+#: plugins/extensions/dockers/animation/wdg_animation.ui:338
+#: plugins/extensions/dockers/animation/wdg_animation.ui:385
+#: plugins/extensions/dockers/animation/wdg_animation.ui:395
+#: plugins/extensions/dockers/animation/wdg_animation.ui:405
+#: plugins/extensions/dockers/animation/wdg_animation.ui:422
+#: plugins/extensions/dockers/animation/wdg_animation.ui:432
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:66
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:151
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:170
@@ -3455,35 +3561,17 @@ msgstr "Voer uit Beeld..."
 msgid "..."
 msgstr "Naam"
 
+#. i18n: ectx: property (text), widget (QLabel, lblPlaySpeed)
+#: plugins/extensions/dockers/animation/wdg_animation.ui:464
+#, fuzzy
+msgid "Play Speed:"
+msgstr "Skerpheid:"
+
 #. i18n: ectx: property (text), widget (QLabel, lblFramerate)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:79
+#: plugins/extensions/dockers/animation/wdg_animation.ui:487
 #, fuzzy
-msgid "Framerate"
+msgid "Frame Rate:"
 msgstr "In voer Beeld..."
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:93
-#, fuzzy
-msgid "From"
-msgstr "groen"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:100
-msgid "To"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, lblVersion)
-#. i18n: ectx: property (text), widget (QLabel, lblSwapFileLocation)
-#. i18n: ectx: property (text), widget (QLabel, lblDescription)
-#. i18n: ectx: property (text), widget (QLabel, lblInfo)
-#. i18n: ectx: property (text), widget (QLabel, lblSaveLocation)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:122
-#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:342
-#: ui/forms/wdgimageproperties.ui:193 ui/forms/wdgperformancesettings.ui:200
-#: ui/wdgsplash.ui:343
-#, fuzzy
-msgid "TextLabel"
-msgstr "Patrone"
 
 #: plugins/extensions/dockers/artisticcolorselector/artisticcolorselector_dock.cpp:51
 #, fuzzy
@@ -6026,6 +6114,17 @@ msgstr ""
 #, fuzzy
 msgid "Save to:"
 msgstr "Voeg by Laag..."
+
+#. i18n: ectx: property (text), widget (QLabel, lblVersion)
+#. i18n: ectx: property (text), widget (QLabel, lblSwapFileLocation)
+#. i18n: ectx: property (text), widget (QLabel, lblDescription)
+#. i18n: ectx: property (text), widget (QLabel, lblSaveLocation)
+#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:342
+#: ui/forms/wdgimageproperties.ui:193 ui/forms/wdgperformancesettings.ui:200
+#: ui/wdgsplash.ui:343
+#, fuzzy
+msgid "TextLabel"
+msgstr "Patrone"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:370
@@ -15756,7 +15855,7 @@ msgstr ""
 msgid "The %1 filter will convert your %2 data to 16-bit RGBA and vice versa. "
 msgstr ""
 
-#: ui/kis_filter_manager.cc:309
+#: ui/kis_filter_manager.cc:310
 #, kde-format
 msgid "Apply Filter Again: %1"
 msgstr ""
@@ -15863,42 +15962,42 @@ msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_layer_manager.cc:612
+#: ui/kis_layer_manager.cc:615
 #, fuzzy
 msgid "New Filter Layer"
 msgstr "Wit"
 
-#: ui/kis_layer_manager.cc:675
+#: ui/kis_layer_manager.cc:678
 msgid "Could not add layer to image."
 msgstr "Kon nie voeg by laag na beeld."
 
-#: ui/kis_layer_manager.cc:761
+#: ui/kis_layer_manager.cc:764
 #, fuzzy
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_layer_manager.cc:762
+#: ui/kis_layer_manager.cc:765
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
 "the image?"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:860
+#: ui/kis_layer_manager.cc:863
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_layer_manager.cc:896
+#: ui/kis_layer_manager.cc:899
 msgid "Convert Invisible Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:899
+#: ui/kis_layer_manager.cc:902
 msgid "Export Only Toplevel Groups"
 msgstr ""
 
-#: ui/kis_layer_manager.cc:950
+#: ui/kis_layer_manager.cc:953
 msgid "No file name specified"
 msgstr ""
 
@@ -16086,73 +16185,73 @@ msgstr "Kleur Kieser"
 msgid "Save Merged..."
 msgstr "Herbenaam Beeld..."
 
-#: ui/kis_node_manager.cpp:528
+#: ui/kis_node_manager.cpp:538
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "Keuse"
 
-#: ui/kis_node_manager.cpp:783
+#: ui/kis_node_manager.cpp:793
 #, fuzzy
 #| msgid "Remove Layer"
 msgctxt "(qtundo-format)"
 msgid "Remove Last Layer"
 msgstr "Verwyder Laag"
 
-#: ui/kis_node_manager.cpp:797
+#: ui/kis_node_manager.cpp:807
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Remove Multiple Layers and Masks"
 msgstr "Verwyder Laag"
 
-#: ui/kis_node_manager.cpp:825
+#: ui/kis_node_manager.cpp:835
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:827
+#: ui/kis_node_manager.cpp:837
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:838
+#: ui/kis_node_manager.cpp:848
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:840
+#: ui/kis_node_manager.cpp:850
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "Sagter Huidige Laag"
 
-#: ui/kis_node_manager.cpp:959
+#: ui/kis_node_manager.cpp:969
 #, fuzzy, kde-format
 msgid "Export \"%1\""
 msgstr "Voer uit Beeld..."
 
-#: ui/kis_node_manager.cpp:1033
+#: ui/kis_node_manager.cpp:1043
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:1063
+#: ui/kis_node_manager.cpp:1073
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Layer %1 is not editable"
 msgstr "Beeld"
 
-#: ui/kis_node_manager.cpp:1064
+#: ui/kis_node_manager.cpp:1074
 #, kde-format
 msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
 "The operation will be cancelled."
 msgstr ""
 
-#: ui/kis_node_manager.cpp:1095
+#: ui/kis_node_manager.cpp:1105
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
@@ -16543,12 +16642,6 @@ msgstr "Verwyder Keuse"
 #: ui/kis_statusbar.cc:317
 msgid "No profile"
 msgstr ""
-
-#: ui/kis_timeline_model.cpp:264
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Move Keyframe"
-msgstr "Laag Fout"
 
 #: ui/kis_zoom_manager.cc:245
 #, fuzzy, kde-format
@@ -17527,7 +17620,7 @@ msgstr ""
 msgid "Failure loading layer %1 of type: %2."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:770
+#: ui/kra/kis_kra_loader.cpp:773
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -17535,7 +17628,7 @@ msgid ""
 "><nl/>Expected path:<nl/>%2<nl/><nl/>Do you want to locate it manually?"
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:775
+#: ui/kra/kis_kra_loader.cpp:778
 msgctxt "@title:window"
 msgid "File not found"
 msgstr ""
@@ -19329,6 +19422,39 @@ msgid "Workspace %1"
 msgstr "Kleur Kieser"
 
 #, fuzzy
+#~ msgid "Move to previous frame"
+#~ msgstr "Verwyder Laag"
+
+#, fuzzy
+#~ msgid "Move to next frame"
+#~ msgstr "Verwyder Laag"
+
+#, fuzzy
+#~ msgid "Add blank frame"
+#~ msgstr "Laag Fout"
+
+#, fuzzy
+#~ msgid "Add duplicate frame"
+#~ msgstr "Volgende Laag"
+
+#, fuzzy
+#~ msgid "Delete keyframe"
+#~ msgstr "Laag Fout"
+
+#, fuzzy
+#~ msgid "Toggle onion skin"
+#~ msgstr "Oplos"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Move keyframes"
+#~ msgstr "Voer uit Beeld..."
+
+#, fuzzy
+#~ msgid "From"
+#~ msgstr "groen"
+
+#, fuzzy
 #~ msgid "Maintainer"
 #~ msgstr "Laag"
 
@@ -19683,10 +19809,6 @@ msgstr "Kleur Kieser"
 #~ msgstr "Versadiging"
 
 #, fuzzy
-#~ msgid "Number of columns"
-#~ msgstr "Herstel Knoppie"
-
-#, fuzzy
 #~ msgid "Number of rows"
 #~ msgstr "Herstel Knoppie"
 
@@ -19866,15 +19988,6 @@ msgstr "Kleur Kieser"
 #, fuzzy
 #~ msgid "Move animation layer down"
 #~ msgstr "Verwyder Keuse"
-
-#, fuzzy
-#~| msgid "Remove Layer"
-#~ msgid "Remove Frame"
-#~ msgstr "Verwyder Laag"
-
-#, fuzzy
-#~ msgid "Previous Frame"
-#~ msgstr "Wit"
 
 #, fuzzy
 #~ msgid "Stop Animation"
@@ -21479,10 +21592,6 @@ msgstr "Kleur Kieser"
 #, fuzzy
 #~ msgid "Magnetic selection tool (SHIFT+E)"
 #~ msgstr "Keuse"
-
-#, fuzzy
-#~ msgid "Start"
-#~ msgstr "Pen Program"
 
 #, fuzzy
 #~ msgid "KOffice image manipulation application"
