@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-13 07:41+0000\n"
+"POT-Creation-Date: 2016-01-15 07:49+0000\n"
 "PO-Revision-Date: 2008-03-11 11:41+0200\n"
 "Last-Translator: Petri Jooste <Petri.Jooste@nwu.ac.za>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -27,8 +27,15 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr ""
 
+#. i18n: ectx: Menu (archive)
+#: app/arkui.rc:5 part/ark_part.rc:5
+#, fuzzy
+#| msgid "Open an archive"
+msgid "&Archive"
+msgstr "Maak 'n argief oop"
+
 #. i18n: ectx: ToolBar (mainToolBar)
-#: app/arkui.rc:13
+#: app/arkui.rc:20
 msgid "Main Toolbar"
 msgstr ""
 
@@ -236,34 +243,34 @@ msgstr ""
 msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr "Kon nie Ark se KPart komponent vind nie. Gaan jou installasie na."
 
-#: app/mainwindow.cpp:172
+#: app/mainwindow.cpp:174
 msgctxt "action, to open an archive"
 msgid "Open"
 msgstr "Maak oop"
 
-#: app/mainwindow.cpp:173
+#: app/mainwindow.cpp:175
 msgid ""
 "Click to open an archive, click and hold to open a recently-opened archive"
 msgstr ""
 "Kliek om 'n argief oop te maak. Kliek-en-hou om 'n onlangs oopgemaakte "
 "argief weer oop te maak"
 
-#: app/mainwindow.cpp:174
+#: app/mainwindow.cpp:176
 msgid "Open an archive"
 msgstr "Maak 'n argief oop"
 
-#: app/mainwindow.cpp:224
+#: app/mainwindow.cpp:226
 #, fuzzy
 #| msgid "Open an archive"
 msgctxt "to open an archive"
 msgid "Open Archive"
 msgstr "Maak 'n argief oop"
 
-#: app/mainwindow.cpp:233
+#: app/mainwindow.cpp:235
 msgid "All supported archives ("
 msgstr ""
 
-#: app/mainwindow.cpp:314
+#: app/mainwindow.cpp:316
 #, fuzzy
 #| msgid "Open an archive"
 msgid "Create a new Archive"
@@ -779,11 +786,6 @@ msgctxt "Unnamed column"
 msgid "??"
 msgstr ""
 
-#. i18n: ectx: Menu (file)
-#: part/ark_part.rc:5
-msgid "&File"
-msgstr ""
-
 #. i18n: ectx: Menu (action)
 #: part/ark_part.rc:9
 msgid "&Action"
@@ -1230,60 +1232,66 @@ msgid "Could not add the file <filename>%1</filename> to the archive."
 msgstr "Kon nie die lêer %1 byvoeg by die argief nie."
 
 #: plugins/libarchive/libarchivehandler.cpp:105
-#: plugins/libarchive/libarchivehandler.cpp:178
-#, fuzzy, kde-format
+#, fuzzy
 #| msgid "Could not locate file '%1' in the archive"
 msgctxt "@info"
-msgid ""
-"Could not open the archive <filename>%1</filename>, libarchive cannot handle "
-"it."
+msgid "Could not open the archive."
 msgstr "Kon nie die lêer '%1' opspoor in die argief nie"
 
-#: plugins/libarchive/libarchivehandler.cpp:129
-#, kde-format
+#: plugins/libarchive/libarchivehandler.cpp:130
+#, fuzzy
+#| msgid "Could not locate file '%1' in the archive"
+msgctxt "@info"
+msgid "Could not read until the end of the archive"
+msgstr "Kon nie die lêer '%1' opspoor in die argief nie"
+
+#: plugins/libarchive/libarchivehandler.cpp:179
+#, fuzzy, kde-format
+#| msgid "Could not open the archive '%1' for reading"
 msgctxt "@info"
 msgid ""
-"The archive reading failed with the following error: <message>%1</message>"
-msgstr ""
+"Could not open the archive <filename>%1</filename>.<nl/>Check whether you "
+"have sufficient permissions."
+msgstr "Kon nie die argief '%1' oopmaak om daaruit te lees nie."
 
-#: plugins/libarchive/libarchivehandler.cpp:249
+#: plugins/libarchive/libarchivehandler.cpp:251
 msgid ""
 "This archive contains archive entries with absolute paths, which are not "
 "supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:388
+#: plugins/libarchive/libarchivehandler.cpp:390
 #, fuzzy, kde-format
 #| msgid "Could not open the archive '%1' for writing."
 msgctxt "@info"
 msgid "Extraction failed at:<nl/><filename>%1</filename>"
 msgstr "Kon nie die argief '%1' oopmaak om daarin te skryf nie."
 
-#: plugins/libarchive/libarchivehandler.cpp:442
-#: plugins/libarchive/libarchivehandler.cpp:635
+#: plugins/libarchive/libarchivehandler.cpp:444
+#: plugins/libarchive/libarchivehandler.cpp:637
 msgid "The archive reader could not be initialized."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:455
-#: plugins/libarchive/libarchivehandler.cpp:648
+#: plugins/libarchive/libarchivehandler.cpp:457
+#: plugins/libarchive/libarchivehandler.cpp:650
 msgid "The source file could not be read."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:466
+#: plugins/libarchive/libarchivehandler.cpp:468
 #, fuzzy, kde-format
 #| msgid "Could not open the archive '%1' for writing."
 msgctxt "@info"
 msgid "Failed to create a temporary file to compress <filename>%1</filename>."
 msgstr "Kon nie die argief '%1' oopmaak om daarin te skryf nie."
 
-#: plugins/libarchive/libarchivehandler.cpp:472
-#: plugins/libarchive/libarchivehandler.cpp:664
+#: plugins/libarchive/libarchivehandler.cpp:474
+#: plugins/libarchive/libarchivehandler.cpp:666
 msgid "The archive writer could not be initialized."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:502
-#: plugins/libarchive/libarchivehandler.cpp:530
-#: plugins/libarchive/libarchivehandler.cpp:694
+#: plugins/libarchive/libarchivehandler.cpp:504
+#: plugins/libarchive/libarchivehandler.cpp:532
+#: plugins/libarchive/libarchivehandler.cpp:696
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1291,14 +1299,14 @@ msgid ""
 "%1</message>"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:524
-#: plugins/libarchive/libarchivehandler.cpp:689
+#: plugins/libarchive/libarchivehandler.cpp:526
+#: plugins/libarchive/libarchivehandler.cpp:691
 #, kde-format
 msgid "The compression type '%1' is not supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:538
-#: plugins/libarchive/libarchivehandler.cpp:701
+#: plugins/libarchive/libarchivehandler.cpp:540
+#: plugins/libarchive/libarchivehandler.cpp:703
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1306,8 +1314,8 @@ msgid ""
 "><message>%1</message>"
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:605
-#: plugins/libarchive/libarchivehandler.cpp:732
+#: plugins/libarchive/libarchivehandler.cpp:607
+#: plugins/libarchive/libarchivehandler.cpp:734
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1315,14 +1323,14 @@ msgid ""
 ">Operation aborted."
 msgstr ""
 
-#: plugins/libarchive/libarchivehandler.cpp:658
+#: plugins/libarchive/libarchivehandler.cpp:660
 #, fuzzy
 #| msgid "Could not open the archive '%1' for writing."
 msgctxt "@info"
 msgid "Failed to create a temporary file."
 msgstr "Kon nie die argief '%1' oopmaak om daarin te skryf nie."
 
-#: plugins/libarchive/libarchivehandler.cpp:895
+#: plugins/libarchive/libarchivehandler.cpp:897
 #, kde-format
 msgctxt "@info Error in a message box"
 msgid "Ark could not compress <filename>%1</filename>:<nl/>%2"
@@ -1349,6 +1357,14 @@ msgctxt "@info"
 msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr "Kon nie die argief '%1' oopmaak om daarin te skryf nie."
+
+#, fuzzy
+#~| msgid "Could not locate file '%1' in the archive"
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Could not open the archive <filename>%1</filename>, libarchive cannot "
+#~ "handle it."
+#~ msgstr "Kon nie die lêer '%1' opspoor in die argief nie"
 
 #~ msgid "URL of an archive to be opened"
 #~ msgstr "URL van 'n argief om oop te maak"
@@ -1409,11 +1425,6 @@ msgstr "Kon nie die argief '%1' oopmaak om daarin te skryf nie."
 #~ msgstr "Kon nie na die teikenlêer skryf nie"
 
 #~ msgid "Could not locate file '%1' in the archive"
-#~ msgstr "Kon nie die lêer '%1' opspoor in die argief nie"
-
-#, fuzzy
-#~| msgid "Could not locate file '%1' in the archive"
-#~ msgid "Could not locate file #%1 in the archive"
 #~ msgstr "Kon nie die lêer '%1' opspoor in die argief nie"
 
 #~ msgid "Could not read from the input file '%1'"
