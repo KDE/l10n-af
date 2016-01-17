@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-13 07:32+0000\n"
+"POT-Creation-Date: 2016-01-17 07:32+0000\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -356,7 +356,7 @@ msgstr "Kon nie Open Lêer"
 msgid "KStars image viewer: %1"
 msgstr " Welkom na K-sterre "
 
-#: auxiliary/imageviewer.cpp:132 tools/eyepiecefield.cpp:83
+#: auxiliary/imageviewer.cpp:132 tools/eyepiecefield.cpp:87
 msgid "Invert colors"
 msgstr ""
 
@@ -3506,7 +3506,7 @@ msgid "Display received FITS images unto solver FOV rectangle in the sky map"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_solverOverlay)
-#: ekos/align.ui:286 tools/eyepiecefield.cpp:82
+#: ekos/align.ui:286 tools/eyepiecefield.cpp:86
 msgid "Overlay"
 msgstr ""
 
@@ -8540,7 +8540,7 @@ msgstr "Kon nie Open Lêer"
 #. i18n: ectx: property (text), item, widget (QComboBox, driverComboBox)
 #. i18n: ectx: property (text), widget (QPushButton, NoneButton)
 #: indi/drivermanager.cpp:1230 indi/indidriver.cpp:751
-#: oal/equipmentwriter.ui:197 oal/log.cpp:262 tools/eyepiecefield.cpp:103
+#: oal/equipmentwriter.ui:197 oal/log.cpp:262 tools/eyepiecefield.cpp:111
 #: tools/obslistwizard.ui:147 tools/whatsinteresting/wiequipsettings.ui:344
 #, fuzzy
 msgid "None"
@@ -46746,7 +46746,7 @@ msgstr "Moore"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, Type)
 #. i18n: ectx: property (text), item, widget (QComboBox, typeComboBox)
-#: oal/equipmentwriter.ui:94 tools/eyepiecefield.cpp:106
+#: oal/equipmentwriter.ui:94 tools/eyepiecefield.cpp:114
 #: tools/whatsinteresting/wiequipsettings.ui:328
 #, fuzzy
 #| msgid "Mercury"
@@ -51755,47 +51755,57 @@ msgstr ""
 msgid "Winter solstice:"
 msgstr "Wenner"
 
-#: tools/eyepiecefield.cpp:47
+#: tools/eyepiecefield.cpp:48
 #, fuzzy
 msgid "Eyepiece Field View"
 msgstr "Datum:"
 
-#: tools/eyepiecefield.cpp:80
+#: tools/eyepiecefield.cpp:84
 msgid "Invert view"
 msgstr ""
 
-#: tools/eyepiecefield.cpp:81
+#: tools/eyepiecefield.cpp:85
 #, fuzzy
 msgid "Flip view"
 msgstr "Sirkel"
 
-#: tools/eyepiecefield.cpp:100
+#: tools/eyepiecefield.cpp:88
+#, fuzzy
+msgid "Fetch DSS image"
+msgstr "Vertoon beeld van "
+
+#: tools/eyepiecefield.cpp:108
 #, fuzzy
 msgid "Rotation: "
 msgstr "Ster Naam"
 
-#: tools/eyepiecefield.cpp:104
+#: tools/eyepiecefield.cpp:112
 #, fuzzy
 msgid "Vanilla"
 msgstr "Malta"
 
-#: tools/eyepiecefield.cpp:105
+#: tools/eyepiecefield.cpp:113
 #, fuzzy
 msgid "Flipped"
 msgstr "Sirkel"
 
-#: tools/eyepiecefield.cpp:107
+#: tools/eyepiecefield.cpp:115
 #, fuzzy
 #| msgctxt "Country name (optional, but should be translated)"
 #| msgid "Estonia"
 msgid "Dobsonian"
 msgstr "Estlandies"
 
-#: tools/eyepiecefield.cpp:109
+#: tools/eyepiecefield.cpp:117
 #, fuzzy
 #| msgid "Stars"
 msgid "Preset: "
 msgstr "Sterre"
+
+#: tools/eyepiecefield.cpp:498 tools/observinglist.cpp:1128
+#, fuzzy
+msgid "Failed to download DSS/SDSS image!"
+msgstr "Kon nie Open Lêer"
 
 #: tools/flagmanager.cpp:57
 msgid "Flag manager"
@@ -53177,11 +53187,6 @@ msgstr ""
 #, fuzzy
 msgid "Specify version: "
 msgstr "Stoor Beeld"
-
-#: tools/observinglist.cpp:1128
-#, fuzzy
-msgid "Failed to download DSS/SDSS image!"
-msgstr "Kon nie Open Lêer"
 
 #: tools/observinglist.cpp:1219
 msgid "This will delete all saved images. Are you sure you want to do this?"
