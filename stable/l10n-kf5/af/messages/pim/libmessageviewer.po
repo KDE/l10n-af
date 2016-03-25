@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-24 08:12+0000\n"
+"POT-Creation-Date: 2016-03-25 11:29+0000\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -617,7 +617,7 @@ msgstr ""
 msgid "Move to Trash"
 msgstr "Beweeg na Gemors"
 
-#: header/headerstyle_util.cpp:415 viewer/urlhandlermanager.cpp:132
+#: header/headerstyle_util.cpp:415 viewer/urlhandlermanager.cpp:131
 #, fuzzy
 msgid "Reply"
 msgstr "Antwoord Aan"
@@ -627,12 +627,12 @@ msgstr "Antwoord Aan"
 msgid "Reply to All"
 msgstr "Beantwoord"
 
-#: header/headerstyle_util.cpp:425 viewer/urlhandlermanager.cpp:136
+#: header/headerstyle_util.cpp:425 viewer/urlhandlermanager.cpp:135
 #, fuzzy
 msgid "Forward"
 msgstr "Stuur aan"
 
-#: header/headerstyle_util.cpp:430 viewer/urlhandlermanager.cpp:138
+#: header/headerstyle_util.cpp:430 viewer/urlhandlermanager.cpp:137
 msgid "New Message"
 msgstr "Nuwe boodskap"
 
@@ -1415,6 +1415,351 @@ msgstr ""
 msgid "Unable to edit attachment"
 msgstr "Verwyder lêer aanhangsel"
 
+#: viewer/messagepart.cpp:179 viewer/messagepart.cpp:181
+#, fuzzy
+msgid "Encapsulated message"
+msgstr "Soek Boodskappe..."
+
+#: viewer/messagepart.cpp:200
+#, fuzzy
+msgid "End of encapsulated message"
+msgstr "Soek Boodskappe..."
+
+#: viewer/messagepart.cpp:222
+#, fuzzy
+msgid "Please wait while the message is being decrypted..."
+msgstr "Merk gekose boodskappe as ongelees"
+
+#: viewer/messagepart.cpp:224
+#, fuzzy
+msgid "Encrypted message"
+msgstr "Vee boodskappe uit"
+
+#: viewer/messagepart.cpp:226
+msgid "Encrypted message (decryption not possible)"
+msgstr ""
+
+#: viewer/messagepart.cpp:228
+#, kde-format
+msgid "Reason: %1"
+msgstr ""
+
+#: viewer/messagepart.cpp:245
+#, fuzzy
+msgid "End of encrypted message"
+msgstr "Vee boodskappe uit"
+
+#: viewer/messagepart.cpp:290
+msgid "Error: Signature not verified"
+msgstr ""
+
+#: viewer/messagepart.cpp:293
+#, fuzzy
+msgid "Good signature"
+msgstr "Heg Handtekening Aan"
+
+#: viewer/messagepart.cpp:296
+#, fuzzy
+#| msgid "Append S&ignature"
+msgid "<b>Bad</b> signature"
+msgstr "Heg Handtekening Aan"
+
+#: viewer/messagepart.cpp:299
+msgid "No public key to verify the signature"
+msgstr ""
+
+#: viewer/messagepart.cpp:302
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "No signature found"
+msgstr "frix@expertron.co.za"
+
+#: viewer/messagepart.cpp:305
+#, fuzzy
+msgid "Error verifying the signature"
+msgstr "Verwyder lêer aanhangsel"
+
+#: viewer/messagepart.cpp:308
+msgid "Different results for signatures"
+msgstr ""
+
+#: viewer/messagepart.cpp:327
+msgid "No status information available."
+msgstr ""
+
+#: viewer/messagepart.cpp:334 viewer/messagepart.cpp:420
+#, fuzzy
+#| msgid "Append S&ignature"
+msgid "Good signature."
+msgstr "Heg Handtekening Aan"
+
+#: viewer/messagepart.cpp:355
+msgid "One key has expired."
+msgstr ""
+
+#: viewer/messagepart.cpp:359
+#, fuzzy
+msgid "The signature has expired."
+msgstr "Heg Handtekening Aan"
+
+#: viewer/messagepart.cpp:364
+msgid "Unable to verify: key missing."
+msgstr ""
+
+#: viewer/messagepart.cpp:371
+msgid "CRL not available."
+msgstr ""
+
+#: viewer/messagepart.cpp:375
+msgid "Available CRL is too old."
+msgstr ""
+
+#: viewer/messagepart.cpp:379
+msgid "A policy was not met."
+msgstr ""
+
+#: viewer/messagepart.cpp:383
+msgid "A system error occurred."
+msgstr ""
+
+#: viewer/messagepart.cpp:394
+msgid "One key has been revoked."
+msgstr ""
+
+#: viewer/messagepart.cpp:422
+#, fuzzy
+#| msgid "Append S&ignature"
+msgid "<b>Bad</b> signature."
+msgstr "Heg Handtekening Aan"
+
+#: viewer/messagepart.cpp:448
+#, fuzzy
+#| msgid "Append S&ignature"
+msgid "Invalid signature."
+msgstr "Heg Handtekening Aan"
+
+#: viewer/messagepart.cpp:451
+msgid "Not enough information to check signature validity."
+msgstr ""
+
+#: viewer/messagepart.cpp:465
+#, fuzzy
+msgid "Signature is valid."
+msgstr "Heg Handtekening Aan"
+
+#: viewer/messagepart.cpp:467
+#, kde-format
+msgid "Signed by <a href=\"mailto:%1\">%2</a>."
+msgstr ""
+
+#: viewer/messagepart.cpp:472
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Unknown signature state"
+msgstr "frix@expertron.co.za"
+
+#: viewer/messagepart.cpp:480
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Show Details"
+msgstr "frix@expertron.co.za"
+
+#: viewer/messagepart.cpp:503
+msgid "No Audit Log available"
+msgstr ""
+
+#: viewer/messagepart.cpp:505
+#, kde-format
+msgid "Error Retrieving Audit Log: %1"
+msgstr ""
+
+#: viewer/messagepart.cpp:516
+#, fuzzy
+msgctxt "The Audit Log is a detailed error log from the gnupg backend"
+msgid "Show Audit Log"
+msgstr "Skep Filter"
+
+#: viewer/messagepart.cpp:527
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Hide Details"
+msgstr "frix@expertron.co.za"
+
+#: viewer/messagepart.cpp:548
+#, fuzzy
+msgid "Please wait while the signature is being verified..."
+msgstr "Merk gekose boodskappe as ongelees"
+
+#: viewer/messagepart.cpp:639 viewer/messagepart.cpp:641
+#, fuzzy
+msgid "certificate"
+msgstr "Sertifikaat Bestuurder..."
+
+#: viewer/messagepart.cpp:647 viewer/messagepart.cpp:673
+msgctxt "Start of warning message."
+msgid "Warning:"
+msgstr ""
+
+#: viewer/messagepart.cpp:649
+#, kde-format
+msgid "Sender's mail address is not stored in the %1 used for signing."
+msgstr ""
+
+#: viewer/messagepart.cpp:652
+#, fuzzy
+#| msgid "Sender"
+msgid "sender: "
+msgstr "Stuurder"
+
+#: viewer/messagepart.cpp:655
+msgid "stored: "
+msgstr ""
+
+#: viewer/messagepart.cpp:675
+#, kde-format
+msgid ""
+"No mail address is stored in the %1 used for signing, so we cannot compare "
+"it to the sender's address %2."
+msgstr ""
+
+#: viewer/messagepart.cpp:698
+#, kde-format
+msgid "Not enough information to check signature. %1"
+msgstr ""
+
+#: viewer/messagepart.cpp:714 viewer/messagepart.cpp:781
+msgid "Message was signed with unknown key."
+msgstr ""
+
+#: viewer/messagepart.cpp:716 viewer/messagepart.cpp:811
+#: viewer/messagepart.cpp:844
+#, fuzzy, kde-format
+msgid "Message was signed by %1."
+msgstr "Boodskap"
+
+#: viewer/messagepart.cpp:723 viewer/messagepart.cpp:730
+#: viewer/messagepart.cpp:739
+#, fuzzy, kde-format
+msgid "Message was signed with key %1."
+msgstr "Boodskap"
+
+#: viewer/messagepart.cpp:725
+#, fuzzy, kde-format
+msgid "Message was signed on %1 with key %2."
+msgstr "Boodskap"
+
+#: viewer/messagepart.cpp:732
+#, kde-format
+msgid "Message was signed by %3 on %1 with key %2"
+msgstr ""
+
+#: viewer/messagepart.cpp:741
+#, fuzzy, kde-format
+msgid "Message was signed by %2 with key %1."
+msgstr "Boodskap"
+
+#: viewer/messagepart.cpp:750 viewer/messagepart.cpp:788
+#: viewer/messagepart.cpp:1854
+#, fuzzy
+#| msgid "Stat&us:"
+msgid "Status: "
+msgstr "Status:"
+
+#: viewer/messagepart.cpp:774
+#, kde-format
+msgid "Message was signed on %1 with unknown key %2."
+msgstr ""
+
+#: viewer/messagepart.cpp:778
+#, kde-format
+msgid "Message was signed with unknown key %1."
+msgstr ""
+
+#: viewer/messagepart.cpp:784
+msgid "The validity of the signature cannot be verified."
+msgstr ""
+
+#: viewer/messagepart.cpp:807 viewer/messagepart.cpp:840
+#, kde-format
+msgid "Message was signed by %2 (Key ID: %1)."
+msgstr ""
+
+#: viewer/messagepart.cpp:817
+msgid "The signature is valid, but the key's validity is unknown."
+msgstr ""
+
+#: viewer/messagepart.cpp:821
+msgid "The signature is valid and the key is marginally trusted."
+msgstr ""
+
+#: viewer/messagepart.cpp:825
+msgid "The signature is valid and the key is fully trusted."
+msgstr ""
+
+#: viewer/messagepart.cpp:829
+msgid "The signature is valid and the key is ultimately trusted."
+msgstr ""
+
+#: viewer/messagepart.cpp:833
+msgid "The signature is valid, but the key is untrusted."
+msgstr ""
+
+#: viewer/messagepart.cpp:847
+#, fuzzy
+msgid "Warning: The signature is bad."
+msgstr "Heg Handtekening Aan"
+
+#: viewer/messagepart.cpp:879
+#, fuzzy
+#| msgid "Moving messages"
+msgid "End of signed message"
+msgstr "Skuif boodskappe"
+
+#: viewer/messagepart.cpp:1440
+msgid ""
+"<b>Note:</b> This HTML message may contain external references to images "
+"etc. For security/privacy reasons external references are not loaded. If you "
+"trust the sender of this message then you can load the external references "
+"for this message <a href=\"kmail:loadExternal\">by clicking here</a>."
+msgstr ""
+
+#: viewer/messagepart.cpp:1453
+msgid ""
+"<b>Note:</b> This is an HTML message. For security reasons, only the raw "
+"HTML code is shown. If you trust the sender of this message then you can "
+"activate formatted HTML display for this message <a href=\"kmail:showHTML"
+"\">by clicking here</a>."
+msgstr ""
+
+#: viewer/messagepart.cpp:1658 viewer/objecttreeparser.cpp:1342
+msgid "Wrong Crypto Plug-In."
+msgstr ""
+
+#: viewer/messagepart.cpp:1818
+#, fuzzy
+msgid "This message is encrypted."
+msgstr "Merk gekose boodskappe as ongelees"
+
+#: viewer/messagepart.cpp:1823
+#, fuzzy
+msgid "Decrypt Message"
+msgstr "Vee boodskappe uit"
+
+#: viewer/messagepart.cpp:1851
+msgid "The crypto engine returned no cleartext data."
+msgstr ""
+
+#: viewer/messagepart.cpp:1860
+#, fuzzy
+#| msgid "unknown"
+msgctxt "Status of message unknown."
+msgid "(unknown)"
+msgstr "onbekend"
+
 #: viewer/mimeparttree/mimetreemodel.cpp:59
 msgid "body part"
 msgstr ""
@@ -1427,6 +1772,127 @@ msgstr ""
 msgid "Size"
 msgstr "Grootte"
 
+#: viewer/objecttreeparser.cpp:555
+#, kde-format
+msgid "Sorry, certificate could not be imported.<br />Reason: %1"
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:565
+msgid "Sorry, no certificates were found in this message."
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:568
+msgid "Certificate import status:"
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:570
+#, kde-format
+msgid "1 new certificate was imported."
+msgid_plural "%1 new certificates were imported."
+msgstr[0] ""
+msgstr[1] ""
+
+#: viewer/objecttreeparser.cpp:573
+#, fuzzy, kde-format
+#| msgid "Certificate Manager..."
+msgid "1 certificate was unchanged."
+msgid_plural "%1 certificates were unchanged."
+msgstr[0] "Sertifikaat Bestuurder..."
+msgstr[1] "Sertifikaat Bestuurder..."
+
+#: viewer/objecttreeparser.cpp:576
+#, kde-format
+msgid "1 new secret key was imported."
+msgid_plural "%1 new secret keys were imported."
+msgstr[0] ""
+msgstr[1] ""
+
+#: viewer/objecttreeparser.cpp:579
+#, kde-format
+msgid "1 secret key was unchanged."
+msgid_plural "%1 secret keys were unchanged."
+msgstr[0] ""
+msgstr[1] ""
+
+#: viewer/objecttreeparser.cpp:589
+msgid "Sorry, no details on certificate import available."
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:592
+msgid "Certificate import details:"
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:596
+#, fuzzy, kde-format
+#| msgid "Mail"
+msgctxt "Certificate import failed."
+msgid "Failed: %1 (%2)"
+msgstr "Pos"
+
+#: viewer/objecttreeparser.cpp:600
+#, kde-format
+msgid "New or changed: %1 (secret key available)"
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:602
+#, kde-format
+msgid "New or changed: %1"
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:639
+#, fuzzy
+msgid "Could not decrypt the data."
+msgstr "Merk gekose boodskappe as ongelees"
+
+#: viewer/objecttreeparser.cpp:734
+#, fuzzy, kde-format
+msgid "Crypto plug-in \"%1\" could not decrypt the data."
+msgstr "Merk gekose boodskappe as ongelees"
+
+#: viewer/objecttreeparser.cpp:736
+#, kde-format
+msgid "Error: %1"
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:749 viewer/objecttreeparser.cpp:1411
+#, kde-format
+msgid "Crypto plug-in \"%1\" is not initialized."
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:753
+#, kde-format
+msgid "Crypto plug-in \"%1\" cannot decrypt messages."
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:757 viewer/objecttreeparser.cpp:1420
+msgid "No appropriate crypto plug-in was found."
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:1288
+#, fuzzy
+#| msgid "Unnamed"
+msgctxt "display name for an unnamed attachment"
+msgid "Unnamed"
+msgstr "Onbenoem"
+
+#: viewer/objecttreeparser.cpp:1415
+#, kde-format
+msgid "Crypto plug-in \"%1\" cannot verify signatures."
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:1423
+#, kde-format
+msgctxt "%1 is either 'OpenPGP' or 'S/MIME'"
+msgid "No %1 plug-in was found."
+msgstr ""
+
+#: viewer/objecttreeparser.cpp:1428
+#, kde-format
+msgid ""
+"The message is signed, but the validity of the signature cannot be verified."
+"<br />Reason: %1"
+msgstr ""
+
 #: viewer/pluginloaderbase.cpp:89
 #, fuzzy
 #| msgid "Unnamed"
@@ -1437,183 +1903,183 @@ msgstr "Onbenoem"
 msgid "No description available"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:130
+#: viewer/urlhandlermanager.cpp:129
 #, fuzzy
 #| msgid "Move to Trash"
 msgid "Move To Trash"
 msgstr "Beweeg na Gemors"
 
-#: viewer/urlhandlermanager.cpp:134
+#: viewer/urlhandlermanager.cpp:133
 #, fuzzy
 msgid "Reply To All"
 msgstr "Beantwoord"
 
-#: viewer/urlhandlermanager.cpp:140
+#: viewer/urlhandlermanager.cpp:139
 #, fuzzy
 msgid "Print Message"
 msgstr "Skuif boodskappe"
 
-#: viewer/urlhandlermanager.cpp:142
+#: viewer/urlhandlermanager.cpp:141
 #, fuzzy
 #| msgid "&Previous Message"
 msgid "Print Preview Message"
 msgstr "Volgende boodskap"
 
-#: viewer/urlhandlermanager.cpp:641
+#: viewer/urlhandlermanager.cpp:640
 msgid "Turn on HTML rendering for this message."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:643 viewer/viewer_p.cpp:1683
+#: viewer/urlhandlermanager.cpp:642 viewer/viewer_p.cpp:1683
 msgid "Load external references from the Internet for this message."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:645
+#: viewer/urlhandlermanager.cpp:644
 msgid "Work online."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:647
+#: viewer/urlhandlermanager.cpp:646
 msgid "Make account online."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:649
+#: viewer/urlhandlermanager.cpp:648
 #, fuzzy
 msgid "Decrypt message."
 msgstr "Vee boodskappe uit"
 
-#: viewer/urlhandlermanager.cpp:651
+#: viewer/urlhandlermanager.cpp:650
 #, fuzzy
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
 msgid "Show signature details."
 msgstr "frix@expertron.co.za"
 
-#: viewer/urlhandlermanager.cpp:653
+#: viewer/urlhandlermanager.cpp:652
 #, fuzzy
 #| msgid "Append S&ignature"
 msgid "Hide signature details."
 msgstr "Heg Handtekening Aan"
 
-#: viewer/urlhandlermanager.cpp:655
+#: viewer/urlhandlermanager.cpp:654
 #, fuzzy
 #| msgid "Save Attachment As"
 msgid "Show attachment list."
 msgstr "Stoor aanhangsel as"
 
-#: viewer/urlhandlermanager.cpp:657
+#: viewer/urlhandlermanager.cpp:656
 #, fuzzy
 #| msgid "Save Attachment As"
 msgid "Hide attachment list."
 msgstr "Stoor aanhangsel as"
 
-#: viewer/urlhandlermanager.cpp:659
+#: viewer/urlhandlermanager.cpp:658
 #, fuzzy
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
 msgid "Show full \"To\" list"
 msgstr "frix@expertron.co.za"
 
-#: viewer/urlhandlermanager.cpp:661
+#: viewer/urlhandlermanager.cpp:660
 #, fuzzy
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
 msgid "Hide full \"To\" list"
 msgstr "frix@expertron.co.za"
 
-#: viewer/urlhandlermanager.cpp:663
+#: viewer/urlhandlermanager.cpp:662
 #, fuzzy
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
 msgid "Show full \"Cc\" list"
 msgstr "frix@expertron.co.za"
 
-#: viewer/urlhandlermanager.cpp:665
+#: viewer/urlhandlermanager.cpp:664
 #, fuzzy
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
 msgid "Hide full \"Cc\" list"
 msgstr "frix@expertron.co.za"
 
-#: viewer/urlhandlermanager.cpp:670
+#: viewer/urlhandlermanager.cpp:669
 #, fuzzy
 #| msgid "Documentation"
 msgid "Open Documentation"
 msgstr "Dokumentasie"
 
-#: viewer/urlhandlermanager.cpp:700
+#: viewer/urlhandlermanager.cpp:699
 msgid "Expand all quoted text."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:702
+#: viewer/urlhandlermanager.cpp:701
 msgid "Collapse quoted text."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:769
+#: viewer/urlhandlermanager.cpp:768
 msgid "Could not start certificate manager. Please check your installation."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:771
+#: viewer/urlhandlermanager.cpp:770
 msgid "KMail Error"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:783
+#: viewer/urlhandlermanager.cpp:782
 #, kde-format
 msgid "Show certificate 0x%1"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:853
+#: viewer/urlhandlermanager.cpp:852
 #, fuzzy
 #| msgid "&Address Book"
 msgid "&Open in Address Book"
 msgstr "Adresboek"
 
-#: viewer/urlhandlermanager.cpp:856
+#: viewer/urlhandlermanager.cpp:855
 #, fuzzy
 msgid "&Copy Email Address"
 msgstr "E-pos adres:"
 
-#: viewer/urlhandlermanager.cpp:869 viewer/viewer_p.cpp:2607
+#: viewer/urlhandlermanager.cpp:868 viewer/viewer_p.cpp:2607
 msgid "Address copied to clipboard."
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:881
+#: viewer/urlhandlermanager.cpp:880
 msgid "Lookup the contact in KAddressbook"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:1008
+#: viewer/urlhandlermanager.cpp:1007
 #, kde-format
 msgid "Attachment: %1"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:1011
+#: viewer/urlhandlermanager.cpp:1010
 #, kde-format
 msgid "Encapsulated Message (Subject: %1)"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:1014
+#: viewer/urlhandlermanager.cpp:1013
 #, fuzzy
 msgid "Encapsulated Message"
 msgstr "Soek Boodskappe..."
 
-#: viewer/urlhandlermanager.cpp:1017
+#: viewer/urlhandlermanager.cpp:1016
 #, fuzzy
 msgid "Unnamed attachment"
 msgstr "Verwyder lêer aanhangsel"
 
-#: viewer/urlhandlermanager.cpp:1056
+#: viewer/urlhandlermanager.cpp:1055
 msgid "Show GnuPG Audit Log for this operation"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:1096
+#: viewer/urlhandlermanager.cpp:1095
 msgid "Opening URL..."
 msgstr "Maak URL oop..."
 
-#: viewer/urlhandlermanager.cpp:1105
+#: viewer/urlhandlermanager.cpp:1104
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to execute <filename>%1</filename>?"
 msgstr ""
 
-#: viewer/urlhandlermanager.cpp:1106
+#: viewer/urlhandlermanager.cpp:1105
 msgid "Execute"
 msgstr ""
 
@@ -2063,59 +2529,6 @@ msgstr "Vee Gids uit"
 #: widgets/zoomactionmenu.cpp:184
 msgid "Zoom"
 msgstr ""
-
-#, fuzzy
-#~ msgid "Please wait while the message is being decrypted..."
-#~ msgstr "Merk gekose boodskappe as ongelees"
-
-#, fuzzy
-#~| msgid "Append S&ignature"
-#~ msgid "Invalid signature."
-#~ msgstr "Heg Handtekening Aan"
-
-#, fuzzy
-#~ msgid "Signature is valid."
-#~ msgstr "Heg Handtekening Aan"
-
-#, fuzzy
-#~| msgctxt "EMAIL OF TRANSLATORS"
-#~| msgid "Your emails"
-#~ msgid "Show Details"
-#~ msgstr "frix@expertron.co.za"
-
-#, fuzzy
-#~ msgid "certificate"
-#~ msgstr "Sertifikaat Bestuurder..."
-
-#, fuzzy
-#~ msgid "This message is encrypted."
-#~ msgstr "Merk gekose boodskappe as ongelees"
-
-#, fuzzy
-#~ msgid "Decrypt Message"
-#~ msgstr "Vee boodskappe uit"
-
-#, fuzzy
-#~| msgid "unknown"
-#~ msgctxt "Status of message unknown."
-#~ msgid "(unknown)"
-#~ msgstr "onbekend"
-
-#, fuzzy
-#~| msgid "Mail"
-#~ msgctxt "Certificate import failed."
-#~ msgid "Failed: %1 (%2)"
-#~ msgstr "Pos"
-
-#, fuzzy
-#~ msgid "Could not decrypt the data."
-#~ msgstr "Merk gekose boodskappe as ongelees"
-
-#, fuzzy
-#~| msgid "Unnamed"
-#~ msgctxt "display name for an unnamed attachment"
-#~ msgid "Unnamed"
-#~ msgstr "Onbenoem"
 
 #, fuzzy
 #~| msgid "&Create Filter"
@@ -2969,11 +3382,6 @@ msgstr ""
 #~ msgstr "Stuur Boodskappe in Wagtou"
 
 #, fuzzy
-#~| msgid "Certificate Manager..."
-#~ msgid "Certificate Manager"
-#~ msgstr "Sertifikaat Bestuurder..."
-
-#, fuzzy
 #~| msgid "GnuPG Log Viewer..."
 #~ msgid "GnuPG Log Viewer"
 #~ msgstr "GnuPG Log Blaaier..."
@@ -3462,10 +3870,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "&Copy Global Templates"
 #~ msgstr "Vervang"
-
-#, fuzzy
-#~ msgid "Signature"
-#~ msgstr "Heg Handtekening Aan"
 
 #, fuzzy
 #~ msgid "Picture"
@@ -5621,9 +6025,6 @@ msgstr ""
 #~ msgid "Today"
 #~ msgstr "Aan: "
 
-#~ msgid "Sender"
-#~ msgstr "Stuurder"
-
 #, fuzzy
 #~ msgid "Processed 1 Message of %2"
 #~ msgid_plural "Processed %1 Messages of %2"
@@ -6026,10 +6427,6 @@ msgstr ""
 #~ msgstr "Boodskap"
 
 #, fuzzy
-#~ msgid "Messages sent by %1"
-#~ msgstr "Boodskap"
-
-#, fuzzy
 #~| msgid "Messages moved successfully"
 #~ msgid "Messages received by %1"
 #~ msgstr "Boodskappe suksesvol geskuif"
@@ -6236,9 +6633,6 @@ msgstr ""
 #~ msgctxt "Unknown mail header."
 #~ msgid "Unknown"
 #~ msgstr "Onbekend"
-
-#~ msgid "Stat&us:"
-#~ msgstr "Status:"
 
 #, fuzzy
 #~| msgid "View Columns"
