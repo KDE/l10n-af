@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-13 10:41+0000\n"
+"POT-Creation-Date: 2016-04-25 11:35+0000\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -601,84 +601,107 @@ msgid ""
 msgstr ""
 
 #: main.cpp:401
-msgid "Shows all available sessions and lets you select one to open."
-msgstr ""
-
-#: main.cpp:402
-msgid "List all available sessions on shell and lets you select one to open."
+msgid ""
+"Delete the given session.\n"
+"You can pass either hash or the name of the session."
 msgstr ""
 
 #: main.cpp:403
-msgid "List available sessions and quit."
+msgid "Shows all available sessions and lets you select one to open."
 msgstr ""
 
 #: main.cpp:404
-msgid "Open KDevelop and load the given project."
+msgid "List all available sessions on shell and lets you select one to open."
+msgstr ""
+
+#: main.cpp:405
+msgid "List available sessions and quit."
 msgstr ""
 
 #: main.cpp:406
+msgid "Open KDevelop and load the given project."
+msgstr ""
+
+#: main.cpp:408
 msgid ""
 "Start debugging an application in KDevelop with the given debugger.\n"
 "The binary that should be debugged must follow - including arguments.\n"
 "Example: kdevelop --debug gdb myapp --foo bar"
 msgstr ""
 
-#: main.cpp:419
+#: main.cpp:421
 #, fuzzy
 msgid "Files to load"
 msgstr "Projek na open"
 
-#: main.cpp:430
+#: main.cpp:432
 msgid "Available sessions (use '-s HASH' or '-s NAME' to open a specific one):"
 msgstr ""
 
-#: main.cpp:431
+#: main.cpp:433
 msgid "Hash"
 msgstr ""
 
-#: main.cpp:431
+#: main.cpp:433
 #, fuzzy
 msgid "Name: Opened Projects"
 msgstr "Maak oop 'n onlangse projek"
 
-#: main.cpp:440
+#: main.cpp:442
 #, fuzzy
 #| msgid "union"
 msgid "[running]"
 msgstr "unie"
 
-#: main.cpp:518
+#: main.cpp:520
 msgid "Select the session you would like to use"
 msgstr ""
 
-#: main.cpp:526
+#: main.cpp:528
 msgctxt "@info:shell"
 msgid "Specify the binary you want to debug."
 msgstr ""
 
-#: main.cpp:529
+#: main.cpp:531
 #, fuzzy, kde-format
 #| msgid "&Debug"
 msgid "Debug %1"
 msgstr "Ontfouting"
 
-#: main.cpp:538
+#: main.cpp:540
 #, kde-format
 msgid ""
 "A session with the name %1 exists already. Use the -s switch to open it."
 msgstr ""
 
-#: main.cpp:643
+#: main.cpp:556
+#, fuzzy, kde-format
+#| msgid "A file with this name already exists."
+msgid "No session with the name %1 exists."
+msgstr "'n lêer met hierdie naam alreeds bestaan."
+
+#: main.cpp:563
+#, fuzzy, kde-format
+#| msgid "Could not open file for writing."
+msgid "Could not lock session %1 for deletion."
+msgstr "Kon nie open lêer vir om te skryf."
+
+#: main.cpp:568
+#, kde-format
+msgid "Session with name %1 was successfully removed."
+msgstr ""
+
+#: main.cpp:665
 #, fuzzy
 msgid "Cannot find native launch configuration type"
 msgstr "Opstelling:"
 
-#: main.cpp:662
+#: main.cpp:684
 #, fuzzy, kde-format
 msgid "Cannot find launcher %1"
 msgstr "Konfigureer lêer"
 
-#: main.cpp:677
+#: main.cpp:699
 #, fuzzy, kde-format
 msgid "Could not open %1"
 msgstr "Konfigureer lêer"
@@ -13881,9 +13904,6 @@ msgstr "Ontwikkeling"
 #~ msgid "Please enter the file name without '/' and so on."
 #~ msgstr "Asseblief invoer die lêer naam sonder om te '/' en sodat op."
 
-#~ msgid "A file with this name already exists."
-#~ msgstr "'n lêer met hierdie naam alreeds bestaan."
-
 #~ msgid "A file template for this extension does not exist."
 #~ msgstr "'n lêer werkvoorbeeld vir hierdie uitbreiding doen nie bestaan."
 
@@ -14323,9 +14343,6 @@ msgstr "Ontwikkeling"
 
 #~ msgid "A file with this name exists already."
 #~ msgstr "'n lêer met hierdie naam bestaan alreeds."
-
-#~ msgid "Could not open file for writing."
-#~ msgstr "Kon nie open lêer vir om te skryf."
 
 #~ msgid "Short View"
 #~ msgstr "Kort Besigtig"
