@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-01 07:29+0000\n"
+"POT-Creation-Date: 2016-06-02 07:50+0000\n"
 "PO-Revision-Date: 2008-03-11 11:41+0200\n"
 "Last-Translator: Petri Jooste <Petri.Jooste@nwu.ac.za>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -332,7 +332,7 @@ msgstr ""
 msgid "Preview file size limit in megabytes."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:247
+#: kerfuffle/cliinterface.cpp:246
 #, fuzzy, kde-format
 #| msgid "Could not open the archive '%1' for writing."
 msgctxt "@info"
@@ -341,17 +341,17 @@ msgid_plural "Failed to locate programs <filename>%2</filename> on disk."
 msgstr[0] "Kon nie die argief '%1' oopmaak om daarin te skryf nie."
 msgstr[1] "Kon nie die argief '%1' oopmaak om daarin te skryf nie."
 
-#: kerfuffle/cliinterface.cpp:347
+#: kerfuffle/cliinterface.cpp:346
 msgid "Extraction failed. Make sure that enough space is available."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:350
+#: kerfuffle/cliinterface.cpp:349
 msgid ""
 "Extraction failed. Make sure you provided the correct password and that "
 "enough space is available."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:361 kerfuffle/cliinterface.cpp:376
+#: kerfuffle/cliinterface.cpp:360 kerfuffle/cliinterface.cpp:375
 #, fuzzy
 #| msgid "Could not write to the destination file"
 msgctxt "@info"
@@ -360,25 +360,25 @@ msgid_plural "Could not move the extracted files to the destination directory."
 msgstr[0] "Kon nie na die teikenlêer skryf nie"
 msgstr[1] "Kon nie na die teikenlêer skryf nie"
 
-#: kerfuffle/cliinterface.cpp:1020
+#: kerfuffle/cliinterface.cpp:994
 msgctxt "@info"
 msgid "Extraction failed because the disk is full."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:1028
+#: kerfuffle/cliinterface.cpp:1002
 msgctxt "@info"
 msgid "Extraction failed: Incorrect password"
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:1035 kerfuffle/cliinterface.cpp:1077
+#: kerfuffle/cliinterface.cpp:1009 kerfuffle/cliinterface.cpp:1051
 msgid "Extraction failed because of an unexpected error."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:1070
+#: kerfuffle/cliinterface.cpp:1044
 msgid "Incorrect password."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:1101
+#: kerfuffle/cliinterface.cpp:1075
 msgid "Ark does not currently support testing password-protected archives."
 msgstr ""
 
@@ -1004,7 +1004,7 @@ msgstr "Simboliese skakel"
 msgid "Unknown size"
 msgstr ""
 
-#: part/infopanel.cpp:145
+#: part/infopanel.cpp:144
 #, kde-format
 msgid "One file selected"
 msgid_plural "%1 files selected"
@@ -1012,29 +1012,33 @@ msgstr[0] "1 lêer is gekies"
 msgstr[1] "%1 lêers is gekies"
 
 #: part/infopanel.cpp:182
-#, kde-format
-msgid "<b>Type:</b> %1<br/>"
+#, fuzzy, kde-format
+#| msgid "<b>Type:</b> %1<br/>"
+msgid "<b>Type:</b> %1"
 msgstr "<b>Tipe:</b> %1<br/>"
 
-#: part/infopanel.cpp:185
-#, kde-format
-msgid "<b>Owner:</b> %1<br/>"
+#: part/infopanel.cpp:186
+#, fuzzy, kde-format
+#| msgid "<b>Owner:</b> %1<br/>"
+msgid "<b>Owner:</b> %1"
 msgstr "<b>Eienaar:</b> %1<br/>"
 
-#: part/infopanel.cpp:189
-#, kde-format
-msgid "<b>Group:</b> %1<br/>"
+#: part/infopanel.cpp:193
+#, fuzzy, kde-format
+#| msgid "<b>Group:</b> %1<br/>"
+msgid "<b>Group:</b> %1"
 msgstr "<b>Groep:</b> %1<br/>"
 
-#: part/infopanel.cpp:193
-#, kde-format
-msgid "<b>Target:</b> %1<br/>"
+#: part/infopanel.cpp:200
+#, fuzzy, kde-format
+#| msgid "<b>Target:</b> %1<br/>"
+msgid "<b>Target:</b> %1"
 msgstr "<b>Teiken:</b> %1<br/>"
 
-#: part/infopanel.cpp:197
+#: part/infopanel.cpp:207
 #, fuzzy
 #| msgid "<b>Target:</b> %1<br/>"
-msgid "<b>Password protected:</b> Yes<br/>"
+msgid "<b>Password protected:</b> Yes"
 msgstr "<b>Teiken:</b> %1<br/>"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, InformationPanel)
@@ -1045,11 +1049,6 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, additionalInfo)
 #: part/infopanel.ui:64
 msgid "Unknown file type"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, metadataLabel)
-#: part/infopanel.ui:84
-msgid "Metadata Label"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, JobTrackerWidget)
@@ -1476,7 +1475,7 @@ msgctxt "@info"
 msgid "Could not read until the end of the archive"
 msgstr "Kon nie die lêer '%1' opspoor in die argief nie"
 
-#: plugins/libarchive/libarchiveplugin.cpp:185
+#: plugins/libarchive/libarchiveplugin.cpp:179
 #, fuzzy, kde-format
 #| msgid "Could not open the archive '%1' for reading"
 msgctxt "@info"
@@ -1485,13 +1484,13 @@ msgid ""
 "have sufficient permissions."
 msgstr "Kon nie die argief '%1' oopmaak om daaruit te lees nie."
 
-#: plugins/libarchive/libarchiveplugin.cpp:257
+#: plugins/libarchive/libarchiveplugin.cpp:251
 msgid ""
 "This archive contains archive entries with absolute paths, which are not "
 "supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:396
+#: plugins/libarchive/libarchiveplugin.cpp:379
 #, fuzzy, kde-format
 #| msgid "Could not open the archive '%1' for writing."
 msgctxt "@info"
