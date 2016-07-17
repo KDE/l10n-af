@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ark\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-13 08:13+0000\n"
+"POT-Creation-Date: 2016-07-17 07:58+0000\n"
 "PO-Revision-Date: 2008-03-11 11:41+0200\n"
 "Last-Translator: Petri Jooste <Petri.Jooste@nwu.ac.za>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -311,6 +311,15 @@ msgstr "Maak 'n argief oop"
 msgid "Create New Archive"
 msgstr "Maak 'n argief oop"
 
+#: kerfuffle/adddialog.cpp:61 kerfuffle/adddialog.cpp:98
+msgid "Advanced Options"
+msgstr ""
+
+#: kerfuffle/adddialog.cpp:70
+msgctxt "@action:button"
+msgid "Add"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupCompressFiles)
 #: kerfuffle/adddialog.ui:35
 msgid "Files/Folders to Compress"
@@ -435,90 +444,95 @@ msgstr ""
 msgid "Ark does not currently support testing password-protected archives."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:132
+#: kerfuffle/compressionoptionswidget.cpp:94
+#, kde-format
+msgid "Protection of the list of files is not possible with the %1 format."
+msgstr ""
+
+#: kerfuffle/compressionoptionswidget.cpp:103
 #, kde-format
 msgid ""
 "Protection of the archive with password is not possible with the %1 format."
 msgstr ""
 
-#: kerfuffle/createdialog.cpp:150
+#: kerfuffle/compressionoptionswidget.cpp:112
 #, kde-format
-msgctxt "the argument is a file extension (the period is not a typo)"
-msgid "Automatically add .%1"
-msgstr ""
-
-#: kerfuffle/createdialog.cpp:222
-msgid "The chosen password does not match the given verification password."
-msgstr ""
-
-#: kerfuffle/createdialog.cpp:244
-#, kde-format
-msgid "Protection of the list of files is not possible with the %1 format."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: kerfuffle/createdialog.ui:28
-#, fuzzy
-#| msgid "Add Folder"
-msgid "Folder:"
-msgstr "Voeg vouer by"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kerfuffle/createdialog.ui:45
-#, fuzzy
-#| msgid "Open an archive"
-msgid "Filename:"
-msgstr "Maak 'n argief oop"
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, filenameLineEdit)
-#: kerfuffle/createdialog.ui:52
-#, fuzzy
-#| msgid "Open an archive"
-msgid "Type archive name..."
-msgstr "Maak 'n argief oop"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kerfuffle/createdialog.ui:59
-msgid "Type:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: kerfuffle/createdialog.ui:76
-msgid "Extension:"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (KCollapsibleGroupBox, collapsibleEncryption)
-#: kerfuffle/createdialog.ui:104
-#, fuzzy
-#| msgid "<b>Target:</b> %1<br/>"
-msgid "Password Protection"
-msgstr "<b>Teiken:</b> %1<br/>"
-
-#. i18n: ectx: property (text), widget (QCheckBox, encryptHeaderCheckBox)
-#: kerfuffle/createdialog.ui:126
-msgid "Ask for password before showing the list of files in the archive"
+msgid "It is not possible to set compression level for the %1 format."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (KCollapsibleGroupBox, collapsibleCompression)
-#: kerfuffle/createdialog.ui:142
+#: kerfuffle/compressionoptionswidget.ui:20
 #, fuzzy
 #| msgid "Open an archive"
 msgid "Compression"
 msgstr "Maak 'n argief oop"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: kerfuffle/createdialog.ui:151
+#: kerfuffle/compressionoptionswidget.ui:29
 msgid "Min"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: kerfuffle/createdialog.ui:158
+#: kerfuffle/compressionoptionswidget.ui:36
 msgid "Max"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: kerfuffle/createdialog.ui:174
+#: kerfuffle/compressionoptionswidget.ui:52
 msgid "Level:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (KCollapsibleGroupBox, collapsibleEncryption)
+#: kerfuffle/compressionoptionswidget.ui:102
+#, fuzzy
+#| msgid "<b>Target:</b> %1<br/>"
+msgid "Password Protection"
+msgstr "<b>Teiken:</b> %1<br/>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, encryptHeaderCheckBox)
+#: kerfuffle/compressionoptionswidget.ui:124
+msgid "Ask for password before showing the list of files in the archive"
+msgstr ""
+
+#: kerfuffle/createdialog.cpp:123
+#, kde-format
+msgctxt "the argument is a file extension (the period is not a typo)"
+msgid "Automatically add .%1"
+msgstr ""
+
+#: kerfuffle/createdialog.cpp:192
+msgid "The chosen password does not match the given verification password."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kerfuffle/createdialog.ui:30
+#, fuzzy
+#| msgid "Add Folder"
+msgid "Folder:"
+msgstr "Voeg vouer by"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kerfuffle/createdialog.ui:47
+#, fuzzy
+#| msgid "Open an archive"
+msgid "Filename:"
+msgstr "Maak 'n argief oop"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, filenameLineEdit)
+#: kerfuffle/createdialog.ui:54
+#, fuzzy
+#| msgid "Open an archive"
+msgid "Type archive name..."
+msgstr "Maak 'n argief oop"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kerfuffle/createdialog.ui:61
+msgid "Type:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kerfuffle/createdialog.ui:78
+msgid "Extension:"
 msgstr ""
 
 #: kerfuffle/extractiondialog.cpp:62
@@ -766,39 +780,44 @@ msgctxt "@title:window"
 msgid "Properties for %1"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:66 kerfuffle/propertiesdialog.cpp:67
+#: kerfuffle/propertiesdialog.cpp:66 kerfuffle/propertiesdialog.cpp:68
 msgid "yes"
 msgstr ""
 
 #: kerfuffle/propertiesdialog.cpp:66 kerfuffle/propertiesdialog.cpp:67
-#: kerfuffle/propertiesdialog.cpp:80
+#: kerfuffle/propertiesdialog.cpp:68 kerfuffle/propertiesdialog.cpp:81
 msgid "no"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:68
+#: kerfuffle/propertiesdialog.cpp:67
+#, kde-format
+msgid "yes (%1 volumes)"
+msgstr ""
+
+#: kerfuffle/propertiesdialog.cpp:69
 #, kde-format
 msgid "%1 file"
 msgid_plural "%1 files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kerfuffle/propertiesdialog.cpp:69
+#: kerfuffle/propertiesdialog.cpp:70
 #, kde-format
 msgid ", %1 folder"
 msgid_plural ", %1 folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kerfuffle/propertiesdialog.cpp:83
+#: kerfuffle/propertiesdialog.cpp:84
 msgid "yes (excluding the list of files)"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:86
+#: kerfuffle/propertiesdialog.cpp:87
 msgid "yes (including the list of files)"
 msgstr ""
 
-#: kerfuffle/propertiesdialog.cpp:103 kerfuffle/propertiesdialog.cpp:104
-#: kerfuffle/propertiesdialog.cpp:105
+#: kerfuffle/propertiesdialog.cpp:104 kerfuffle/propertiesdialog.cpp:105
+#: kerfuffle/propertiesdialog.cpp:106
 msgid "Calculating..."
 msgstr ""
 
@@ -880,6 +899,11 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: kerfuffle/propertiesdialog.ui:228
 msgid "SHA-256 hash:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_15)
+#: kerfuffle/propertiesdialog.ui:245
+msgid "Multi-volume:"
 msgstr ""
 
 #: kerfuffle/queries.cpp:96
@@ -1005,7 +1029,7 @@ msgid "??"
 msgstr ""
 
 #. i18n: ectx: Menu (ark_file)
-#: part/ark_part.rc:15
+#: part/ark_part.rc:14
 #, fuzzy
 #| msgctxt "action, to open an archive"
 #| msgid "Open"
@@ -1013,12 +1037,12 @@ msgid "&File"
 msgstr "Maak oop"
 
 #. i18n: ectx: Menu (settings)
-#: part/ark_part.rc:24
+#: part/ark_part.rc:23
 msgid "&Settings"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: part/ark_part.rc:29
+#: part/ark_part.rc:28
 msgid "Main Toolbar"
 msgstr ""
 
@@ -1134,33 +1158,33 @@ msgstr ""
 msgid "Some Information about the job"
 msgstr ""
 
-#: part/part.cpp:113
+#: part/part.cpp:114
 msgid "Comment"
 msgstr ""
 
-#: part/part.cpp:123
+#: part/part.cpp:124
 msgid "Comment has been modified."
 msgstr ""
 
-#: part/part.cpp:128
+#: part/part.cpp:129
 msgid "Save"
 msgstr ""
 
-#: part/part.cpp:218
+#: part/part.cpp:219
 msgid "ArkPart"
 msgstr "ArkPart"
 
-#: part/part.cpp:262
+#: part/part.cpp:263
 msgctxt "@info"
 msgid "Ark can only extract to local destinations."
 msgstr ""
 
-#: part/part.cpp:319
+#: part/part.cpp:320
 msgctxt "@action:inmenu"
 msgid "Show information panel"
 msgstr ""
 
-#: part/part.cpp:328
+#: part/part.cpp:329
 #, fuzzy
 #| msgctxt "action, to open an archive"
 #| msgid "Open"
@@ -1168,14 +1192,14 @@ msgctxt "open a file with external program"
 msgid "&Open"
 msgstr "Maak oop"
 
-#: part/part.cpp:330
+#: part/part.cpp:331
 #, fuzzy
 #| msgid "Click to preview the selected file"
 msgctxt "@info:tooltip"
 msgid "Click to open the selected file with the associated application"
 msgstr "Kliek om die gekose lêer te bekyk"
 
-#: part/part.cpp:335
+#: part/part.cpp:336
 #, fuzzy
 #| msgctxt "action, to open an archive"
 #| msgid "Open"
@@ -1183,33 +1207,33 @@ msgctxt "open a file with external program"
 msgid "Open &With..."
 msgstr "Maak oop"
 
-#: part/part.cpp:337
+#: part/part.cpp:338
 #, fuzzy
 #| msgid "Click to preview the selected file"
 msgctxt "@info:tooltip"
 msgid "Click to open the selected file with an external program"
 msgstr "Kliek om die gekose lêer te bekyk"
 
-#: part/part.cpp:342
+#: part/part.cpp:343
 msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "&Voorskou"
 
-#: part/part.cpp:344
+#: part/part.cpp:345
 #, fuzzy
 #| msgid "Click to preview the selected file"
 msgctxt "@info:tooltip"
 msgid "Click to preview the selected file"
 msgstr "Kliek om die gekose lêer te bekyk"
 
-#: part/part.cpp:350
+#: part/part.cpp:351
 #, fuzzy
 #| msgid "Extract"
 msgctxt "@action:inmenu"
 msgid "E&xtract All"
 msgstr "Pak uit"
 
-#: part/part.cpp:352
+#: part/part.cpp:353
 #, fuzzy
 #| msgid ""
 #| "Click to open an extraction dialog, where you can choose to extract "
@@ -1221,14 +1245,14 @@ msgstr ""
 "Kliek om 'n uitpakdialoog oop te maak, waar jy kan kies om alle lêers of net "
 "'n paar uit te pak."
 
-#: part/part.cpp:358
+#: part/part.cpp:359
 #, fuzzy
 #| msgid "Extract"
 msgctxt "@action:inmenu"
 msgid "&Extract"
 msgstr "Pak uit"
 
-#: part/part.cpp:361
+#: part/part.cpp:362
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
@@ -1236,105 +1260,96 @@ msgstr ""
 "Kliek om 'n uitpakdialoog oop te maak, waar jy kan kies om alle lêers of net "
 "'n paar uit te pak."
 
-#: part/part.cpp:367
-msgid "Add &File..."
+#: part/part.cpp:368
+#, fuzzy
+#| msgid "Add &File..."
+msgid "Add &Files..."
 msgstr "Voeg 'n &lêer by..."
 
-#: part/part.cpp:368
+#: part/part.cpp:369
 #, fuzzy
 #| msgid "Click to add files to the archive"
 msgctxt "@info:tooltip"
 msgid "Click to add files to the archive"
 msgstr "Kliek om lêers by die argief te voeg"
 
-#: part/part.cpp:374
-msgid "Add Fo&lder..."
-msgstr "Voeg vouer/gids by..."
-
 #: part/part.cpp:375
-#, fuzzy
-#| msgid "Click to add a folder to the archive"
-msgctxt "@info:tooltip"
-msgid "Click to add a folder to the archive"
-msgstr "Kliek om 'n vouer/gids by die argief te voeg"
-
-#: part/part.cpp:381
 msgid "De&lete"
 msgstr "Vee ui&t"
 
-#: part/part.cpp:383
+#: part/part.cpp:377
 #, fuzzy
 #| msgid "Click to delete the selected files"
 msgctxt "@info:tooltip"
 msgid "Click to delete the selected files"
 msgstr "Kliek om gekose lêers uit te vee"
 
-#: part/part.cpp:389
+#: part/part.cpp:383
 msgctxt "@action:inmenu"
 msgid "&Properties"
 msgstr ""
 
-#: part/part.cpp:391
+#: part/part.cpp:385
 #, fuzzy
 #| msgid "Click to add files to the archive"
 msgctxt "@info:tooltip"
 msgid "Click to see properties for archive"
 msgstr "Kliek om lêers by die argief te voeg"
 
-#: part/part.cpp:398
+#: part/part.cpp:392
 #, fuzzy
 #| msgid "Click to add a folder to the archive"
 msgctxt "@info:tooltip"
 msgid "Click to add or edit comment"
 msgstr "Kliek om 'n vouer/gids by die argief te voeg"
 
-#: part/part.cpp:403
+#: part/part.cpp:397
 msgctxt "@action:inmenu"
 msgid "&Test Integrity"
 msgstr ""
 
-#: part/part.cpp:405
+#: part/part.cpp:399
 #, fuzzy
 #| msgid "Click to add files to the archive"
 msgctxt "@info:tooltip"
 msgid "Click to test the archive for integrity"
 msgstr "Kliek om lêers by die argief te voeg"
 
-#: part/part.cpp:468
+#: part/part.cpp:460
 msgctxt "@action:inmenu mutually exclusive with Add &Comment"
 msgid "Edit &Comment"
 msgstr ""
 
-#: part/part.cpp:469 part/part.cpp:476
+#: part/part.cpp:461 part/part.cpp:468
 msgctxt "@action:inmenu mutually exclusive with Edit &Comment"
 msgid "Add &Comment"
 msgstr ""
 
-#: part/part.cpp:526
+#: part/part.cpp:518
 msgid "The archive passed the integrity test."
 msgstr ""
 
-#: part/part.cpp:526 part/part.cpp:528
+#: part/part.cpp:518 part/part.cpp:520
 msgid "Test Results"
 msgstr ""
 
-#: part/part.cpp:528
+#: part/part.cpp:520
 msgid "The archive failed the integrity test."
 msgstr ""
 
-#: part/part.cpp:549
+#: part/part.cpp:541
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Extract To..."
 msgstr "Pak &uit..."
 
-#: part/part.cpp:563
+#: part/part.cpp:555
 #, fuzzy
 #| msgid "E&xtract..."
 msgid "Quick Extract To..."
 msgstr "Pak &uit..."
 
-#: part/part.cpp:638
+#: part/part.cpp:630
 #, fuzzy, kde-format
 #| msgid "Could not locate file '%1' in the archive"
 msgctxt "@info"
@@ -1343,7 +1358,7 @@ msgid ""
 "<nl/>Ark does not seem to support this file type."
 msgstr "Kon nie die lêer '%1' opspoor in die argief nie"
 
-#: part/part.cpp:645
+#: part/part.cpp:637
 #, fuzzy, kde-format
 #| msgid "Could not locate file '%1' in the archive"
 msgctxt "@info"
@@ -1353,7 +1368,7 @@ msgid ""
 "installed."
 msgstr "Kon nie die lêer '%1' opspoor in die argief nie"
 
-#: part/part.cpp:695
+#: part/part.cpp:687
 #, fuzzy
 #| msgid "Extracting one file"
 #| msgid_plural "Extracting %1 files"
@@ -1361,7 +1376,7 @@ msgctxt "@title:tab"
 msgid "Extraction Settings"
 msgstr "Een lêer word uitgepak"
 
-#: part/part.cpp:696
+#: part/part.cpp:688
 #, fuzzy
 #| msgctxt "to preview a file inside an archive"
 #| msgid "Pre&view"
@@ -1369,13 +1384,13 @@ msgctxt "@title:tab"
 msgid "Preview Settings"
 msgstr "&Voorskou"
 
-#: part/part.cpp:709
+#: part/part.cpp:701
 #, kde-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is a directory."
 msgstr ""
 
-#: part/part.cpp:718
+#: part/part.cpp:710
 #, fuzzy, kde-format
 #| msgid "Could not open the archive '%1' for reading"
 msgctxt "@info"
@@ -1384,7 +1399,7 @@ msgid ""
 "permission."
 msgstr "Kon nie die argief '%1' oopmaak om daaruit te lees nie."
 
-#: part/part.cpp:724
+#: part/part.cpp:716
 #, fuzzy, kde-format
 #| msgid "Could not open the archive '%1'"
 msgctxt "@info"
@@ -1393,13 +1408,13 @@ msgid ""
 "file."
 msgstr "Kon nie die argief '%1' oopmaak nie"
 
-#: part/part.cpp:727
+#: part/part.cpp:719
 #, kde-format
 msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr ""
 
-#: part/part.cpp:732
+#: part/part.cpp:724
 #, fuzzy, kde-format
 #| msgid "Could not open the archive '%1'"
 msgctxt "@info"
@@ -1408,7 +1423,7 @@ msgid ""
 "possible to read from it."
 msgstr "Kon nie die argief '%1' oopmaak nie"
 
-#: part/part.cpp:745
+#: part/part.cpp:737
 #, fuzzy, kde-format
 #| msgid "Could not open the archive '%1'"
 msgctxt "@info"
@@ -1417,17 +1432,17 @@ msgid ""
 "it?"
 msgstr "Kon nie die argief '%1' oopmaak nie"
 
-#: part/part.cpp:747
+#: part/part.cpp:739
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr ""
 
-#: part/part.cpp:748
+#: part/part.cpp:740
 msgctxt "@action:button"
 msgid "Overwrite"
 msgstr ""
 
-#: part/part.cpp:769
+#: part/part.cpp:761
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1435,21 +1450,21 @@ msgid ""
 "<nl/><message>%2</message>"
 msgstr ""
 
-#: part/part.cpp:811
+#: part/part.cpp:803
 msgctxt "@info"
 msgid "The archive is empty or Ark could not open its content."
 msgstr ""
 
-#: part/part.cpp:816
+#: part/part.cpp:808
 msgctxt "@info"
 msgid "Ark does not currently support ISO files with UDF filesystem."
 msgstr ""
 
-#: part/part.cpp:871
+#: part/part.cpp:863
 msgid "Ark cannot open symlinks."
 msgstr ""
 
-#: part/part.cpp:976
+#: part/part.cpp:968
 #, fuzzy, kde-format
 #| msgid "Could not open the archive '%1'"
 msgid ""
@@ -1457,26 +1472,19 @@ msgid ""
 "archive?"
 msgstr "Kon nie die argief '%1' oopmaak nie"
 
-#: part/part.cpp:978
+#: part/part.cpp:970
 msgctxt "@title:window"
 msgid "File Modified"
 msgstr ""
 
-#: part/part.cpp:1251
+#: part/part.cpp:1254
 #, fuzzy
 #| msgid "Add Files"
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr "Voeg lêers by"
 
-#: part/part.cpp:1258
-#, fuzzy
-#| msgid "Add Folder"
-msgctxt "@title:window"
-msgid "Add Folder"
-msgstr "Voeg vouer by"
-
-#: part/part.cpp:1288
+#: part/part.cpp:1291
 msgctxt "@info"
 msgid "Deleting this file is not undoable. Are you sure you want to do this?"
 msgid_plural ""
@@ -1484,7 +1492,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: part/part.cpp:1291
+#: part/part.cpp:1294
 #, fuzzy
 #| msgid "Add Files"
 msgctxt "@title:window"
@@ -1493,14 +1501,14 @@ msgid_plural "Delete Files"
 msgstr[0] "Voeg lêers by"
 msgstr[1] "Voeg lêers by"
 
-#: part/part.cpp:1334
+#: part/part.cpp:1337
 #, fuzzy
 #| msgid "Open an archive"
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "Maak 'n argief oop"
 
-#: part/part.cpp:1341
+#: part/part.cpp:1344
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1508,7 +1516,7 @@ msgid ""
 "want to overwrite it?"
 msgstr ""
 
-#: part/part.cpp:1355
+#: part/part.cpp:1358
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1516,7 +1524,7 @@ msgid ""
 "location. The archive does not exist anymore."
 msgstr ""
 
-#: part/part.cpp:1369
+#: part/part.cpp:1372
 #, fuzzy, kde-format
 #| msgid "Could not open the archive '%1' for writing."
 msgctxt "@info"
@@ -1663,6 +1671,21 @@ msgctxt "@info"
 msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr "Kon nie die argief '%1' oopmaak om daarin te skryf nie."
+
+#~ msgid "Add Fo&lder..."
+#~ msgstr "Voeg vouer/gids by..."
+
+#, fuzzy
+#~| msgid "Click to add a folder to the archive"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Click to add a folder to the archive"
+#~ msgstr "Kliek om 'n vouer/gids by die argief te voeg"
+
+#, fuzzy
+#~| msgid "Add Folder"
+#~ msgctxt "@title:window"
+#~ msgid "Add Folder"
+#~ msgstr "Voeg vouer by"
 
 #, fuzzy
 #~| msgid "Deleting a file from the archive"
