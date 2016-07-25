@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-23 08:05+0000\n"
+"POT-Creation-Date: 2016-07-25 07:36+0000\n"
 "PO-Revision-Date: 2005-11-26 17:02+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -3471,7 +3471,7 @@ msgstr ""
 msgid "Do not ask again"
 msgstr ""
 
-#: filewidgets/knewfilemenu.cpp:542 filewidgets/knewfilemenu.cpp:622
+#: filewidgets/knewfilemenu.cpp:542 filewidgets/knewfilemenu.cpp:624
 #, fuzzy
 msgid "File name:"
 msgstr "Toestel:"
@@ -3482,44 +3482,44 @@ msgstr "Toestel:"
 msgid "Create Symlink"
 msgstr "Kon Nie Skep Simboliese Skakel"
 
-#: filewidgets/knewfilemenu.cpp:626
+#: filewidgets/knewfilemenu.cpp:628
 #, fuzzy
 msgid "Create link to URL"
 msgstr "Bestemming:"
 
-#: filewidgets/knewfilemenu.cpp:671 filewidgets/knewfilemenu.cpp:716
+#: filewidgets/knewfilemenu.cpp:673 filewidgets/knewfilemenu.cpp:718
 #, fuzzy, kde-format
 #| msgid "%1 B"
 msgctxt "@item:inmenu Create New"
 msgid "%1"
 msgstr "%1 B"
 
-#: filewidgets/knewfilemenu.cpp:1055
+#: filewidgets/knewfilemenu.cpp:1057
 #, fuzzy
 #| msgid "C&reate"
 msgid "Create New"
 msgstr "Skep"
 
-#: filewidgets/knewfilemenu.cpp:1070
+#: filewidgets/knewfilemenu.cpp:1072
 #, fuzzy
 msgid "Link to Device"
 msgstr "Toestel:"
 
-#: filewidgets/knewfilemenu.cpp:1124
+#: filewidgets/knewfilemenu.cpp:1126
 #, fuzzy
 #| msgid "New Folder"
 msgctxt "Default name for a new folder"
 msgid "New Folder"
 msgstr "Nuwe Gids"
 
-#: filewidgets/knewfilemenu.cpp:1134
+#: filewidgets/knewfilemenu.cpp:1136
 #, fuzzy
 #| msgid "New Folder"
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "Nuwe Gids"
 
-#: filewidgets/knewfilemenu.cpp:1137
+#: filewidgets/knewfilemenu.cpp:1139
 #, kde-format
 msgid ""
 "Create new folder in:\n"
@@ -3532,13 +3532,18 @@ msgstr ""
 msgid "The desktop is offline"
 msgstr ""
 
-#: filewidgets/kurlnavigator.cpp:450
+#. i18n: ectx: property (text), widget (QPushButton, sha1CopyButton)
+#. i18n: ectx: property (text), widget (QPushButton, sha256CopyButton)
+#. i18n: ectx: property (text), widget (QPushButton, md5CopyButton)
+#: filewidgets/kurlnavigator.cpp:450 widgets/checksumswidget.ui:101
+#: widgets/checksumswidget.ui:146 widgets/checksumswidget.ui:184
 #, fuzzy
 #| msgid "Copying"
 msgid "Copy"
 msgstr "Besig om te kopiëer"
 
-#: filewidgets/kurlnavigator.cpp:454
+#. i18n: ectx: property (text), widget (QPushButton, pasteButton)
+#: filewidgets/kurlnavigator.cpp:454 widgets/checksumswidget.ui:36
 #, fuzzy
 msgid "Paste"
 msgstr "Plak URL"
@@ -6724,7 +6729,7 @@ msgid "Lakeridge Meadows"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: widgets/checksumswidget.ui:19
+#: widgets/checksumswidget.ui:17
 msgid ""
 "Copy and paste a checksum in the field below.<br/>A checksum is usually "
 "provided by the website you downloaded this file from."
@@ -6736,29 +6741,42 @@ msgstr ""
 msgid "Expected checksum (MD5, SHA1 or SHA256)..."
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, pasteButton)
+#: widgets/checksumswidget.ui:33
+msgid "Click to paste the checksum from the clipboard to the input field."
+msgstr ""
+
 #. i18n: MD5 is the hashing algorithm
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: widgets/checksumswidget.ui:48
+#: widgets/checksumswidget.ui:62
 msgid "MD5:"
 msgstr ""
 
 #. i18n: SHA1 is the hashing algorithm
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: widgets/checksumswidget.ui:55
+#: widgets/checksumswidget.ui:69
 msgid "SHA1:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, md5Button)
 #. i18n: ectx: property (text), widget (QPushButton, sha1Button)
 #. i18n: ectx: property (text), widget (QPushButton, sha256Button)
-#: widgets/checksumswidget.ui:62 widgets/checksumswidget.ui:69
-#: widgets/checksumswidget.ui:83 widgets/kpropertiesdialog.cpp:1084
+#. i18n: ectx: property (text), widget (QPushButton, md5Button)
+#: widgets/checksumswidget.ui:78 widgets/checksumswidget.ui:123
+#: widgets/checksumswidget.ui:161 widgets/kpropertiesdialog.cpp:1085
 msgid "Calculate"
 msgstr "Bereken"
 
+#. i18n: ectx: property (toolTip), widget (QPushButton, sha1CopyButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, sha256CopyButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, md5CopyButton)
+#: widgets/checksumswidget.ui:98 widgets/checksumswidget.ui:143
+#: widgets/checksumswidget.ui:181
+msgid "Click to copy the checksum to the clipboard."
+msgstr ""
+
 #. i18n: SHA256 is the hashing algorithm
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: widgets/checksumswidget.ui:76
+#: widgets/checksumswidget.ui:114
 msgid "SHA256:"
 msgstr ""
 
@@ -6926,7 +6944,7 @@ msgid "Owning Group"
 msgstr "Besitter Groep"
 
 #: widgets/kacleditwidget.cpp:61 widgets/kacleditwidget.cpp:458
-#: widgets/kpropertiesdialog.cpp:2017
+#: widgets/kpropertiesdialog.cpp:2018
 msgid "Others"
 msgstr "Andere"
 
@@ -7658,97 +7676,97 @@ msgstr ""
 msgid "Ad&vanced Options"
 msgstr "Gevorderde Opsies"
 
-#: widgets/kpropertiesdialog.cpp:213 widgets/kpropertiesdialog.cpp:228
-#: widgets/kpropertiesdialog.cpp:240 widgets/kpropertiesdialog.cpp:256
-#: widgets/kpropertiesdialog.cpp:276 widgets/kpropertiesdialog.cpp:300
+#: widgets/kpropertiesdialog.cpp:214 widgets/kpropertiesdialog.cpp:229
+#: widgets/kpropertiesdialog.cpp:241 widgets/kpropertiesdialog.cpp:257
+#: widgets/kpropertiesdialog.cpp:277 widgets/kpropertiesdialog.cpp:301
 #, kde-format
 msgid "Properties for %1"
 msgstr "Eienskappe vir %1"
 
-#: widgets/kpropertiesdialog.cpp:238 widgets/kpropertiesdialog.cpp:274
+#: widgets/kpropertiesdialog.cpp:239 widgets/kpropertiesdialog.cpp:275
 #, fuzzy, kde-format
 msgid "Properties for 1 item"
 msgid_plural "Properties for %1 Selected Items"
 msgstr[0] "Eienskappe vir %1"
 msgstr[1] "Eienskappe vir %1"
 
-#: widgets/kpropertiesdialog.cpp:830
+#: widgets/kpropertiesdialog.cpp:831
 #, fuzzy
 #| msgid "&General"
 msgctxt "@title:tab File properties"
 msgid "&General"
 msgstr "Algemeen"
 
-#: widgets/kpropertiesdialog.cpp:1013
+#: widgets/kpropertiesdialog.cpp:1014
 msgid "Type:"
 msgstr "Tipe:"
 
-#: widgets/kpropertiesdialog.cpp:1032
+#: widgets/kpropertiesdialog.cpp:1033
 #, fuzzy
 #| msgid "Create new file type"
 msgid "Create New File Type"
 msgstr "Skep nuwe gids lêer tipe"
 
-#: widgets/kpropertiesdialog.cpp:1034
+#: widgets/kpropertiesdialog.cpp:1035
 #, fuzzy
 #| msgid "File types:"
 msgid "File Type Options"
 msgstr "Lêer tipes:"
 
-#: widgets/kpropertiesdialog.cpp:1045
+#: widgets/kpropertiesdialog.cpp:1046
 msgid "Contents:"
 msgstr "Inhoud:"
 
-#: widgets/kpropertiesdialog.cpp:1053 widgets/kurlrequesterdialog.cpp:57
+#: widgets/kpropertiesdialog.cpp:1054 widgets/kurlrequesterdialog.cpp:57
 msgid "Location:"
 msgstr "Ligging:"
 
-#: widgets/kpropertiesdialog.cpp:1068
+#: widgets/kpropertiesdialog.cpp:1069
 msgid "Size:"
 msgstr "Grootte:"
 
-#: widgets/kpropertiesdialog.cpp:1085
+#: widgets/kpropertiesdialog.cpp:1086
 #, fuzzy
 msgid "Stop"
 msgstr "Op gehou"
 
-#: widgets/kpropertiesdialog.cpp:1094 widgets/kpropertiesdialog.cpp:1292
+#: widgets/kpropertiesdialog.cpp:1095 widgets/kpropertiesdialog.cpp:1293
 msgid "Refresh"
 msgstr "Verfris"
 
-#: widgets/kpropertiesdialog.cpp:1102
+#: widgets/kpropertiesdialog.cpp:1103
 msgid "Points to:"
 msgstr "Punte na:"
 
-#: widgets/kpropertiesdialog.cpp:1113
+#: widgets/kpropertiesdialog.cpp:1114
 msgid "Created:"
 msgstr "Geskep:"
 
-#: widgets/kpropertiesdialog.cpp:1122
+#: widgets/kpropertiesdialog.cpp:1123
 msgid "Modified:"
 msgstr "Veranderde:"
 
-#: widgets/kpropertiesdialog.cpp:1131
+#: widgets/kpropertiesdialog.cpp:1132
 msgid "Accessed:"
 msgstr "Toegang verkry:"
 
-#: widgets/kpropertiesdialog.cpp:1147
+#: widgets/kpropertiesdialog.cpp:1148
 msgid "Mounted on:"
 msgstr "Gekoppel by:"
 
-#: widgets/kpropertiesdialog.cpp:1156 widgets/kpropertiesdialog.cpp:3167
+#: widgets/kpropertiesdialog.cpp:1157 widgets/kpropertiesdialog.cpp:3192
 #, fuzzy
 msgid "Device usage:"
 msgstr "Toestel:"
 
-#: widgets/kpropertiesdialog.cpp:1160 widgets/kpropertiesdialog.cpp:1258
+#: widgets/kpropertiesdialog.cpp:1161 widgets/kpropertiesdialog.cpp:1259
 #, fuzzy
 #| msgid "Unknown Host"
 msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "Onbekende Bediener"
 
-#: widgets/kpropertiesdialog.cpp:1251 widgets/kpropertiesdialog.cpp:3299
+#: widgets/kpropertiesdialog.cpp:1252 widgets/kpropertiesdialog.cpp:3324
 #, fuzzy, kde-format
 #| msgctxt "Available space out of total partition size (percent used)"
 #| msgid "%1 out of %2 (%3% used)"
@@ -7756,7 +7774,7 @@ msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 free of %2 (%3% used)"
 msgstr "%1 van %2 (%3% gebruik)"
 
-#: widgets/kpropertiesdialog.cpp:1269
+#: widgets/kpropertiesdialog.cpp:1270
 #, kde-format
 msgid ""
 "Calculating... %1 (%2)\n"
@@ -7765,36 +7783,36 @@ msgstr ""
 "Besig om te bereken... %1 (%2)\n"
 "%3, %4"
 
-#: widgets/kpropertiesdialog.cpp:1272 widgets/kpropertiesdialog.cpp:1287
+#: widgets/kpropertiesdialog.cpp:1273 widgets/kpropertiesdialog.cpp:1288
 #, fuzzy, kde-format
 msgid "1 file"
 msgid_plural "%1 files"
 msgstr[0] "1 lêer"
 msgstr[1] "%1 lêers"
 
-#: widgets/kpropertiesdialog.cpp:1273 widgets/kpropertiesdialog.cpp:1288
+#: widgets/kpropertiesdialog.cpp:1274 widgets/kpropertiesdialog.cpp:1289
 #, fuzzy, kde-format
 msgid "1 sub-folder"
 msgid_plural "%1 sub-folders"
 msgstr[0] "1 sub-gids"
 msgstr[1] "%1 sub-gidse"
 
-#: widgets/kpropertiesdialog.cpp:1301
+#: widgets/kpropertiesdialog.cpp:1302
 msgid "Calculating..."
 msgstr "Besig om te bereken..."
 
-#: widgets/kpropertiesdialog.cpp:1326
+#: widgets/kpropertiesdialog.cpp:1327
 #, fuzzy, kde-format
 #| msgid " Files: %1 "
 msgid "At least %1"
 msgstr " Lêers: %1 "
 
-#: widgets/kpropertiesdialog.cpp:1364
+#: widgets/kpropertiesdialog.cpp:1365
 msgid "The new file name is empty."
 msgstr "Die nuwe lêernaam is leeg."
 
-#: widgets/kpropertiesdialog.cpp:1547 widgets/kpropertiesdialog.cpp:3044
-#: widgets/kpropertiesdialog.cpp:3344 widgets/kpropertiesdialog.cpp:3598
+#: widgets/kpropertiesdialog.cpp:1548 widgets/kpropertiesdialog.cpp:3069
+#: widgets/kpropertiesdialog.cpp:3369 widgets/kpropertiesdialog.cpp:3623
 #, kde-format
 msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
@@ -7803,74 +7821,74 @@ msgstr ""
 "<qt>Kon nie stoor eienskappe. Jy doen nie het voldoende toegang verkry na "
 "skryf na <b>%1</b>.</qt>"
 
-#: widgets/kpropertiesdialog.cpp:1623 widgets/kpropertiesdialog.cpp:1629
-#: widgets/kpropertiesdialog.cpp:1636
+#: widgets/kpropertiesdialog.cpp:1624 widgets/kpropertiesdialog.cpp:1630
+#: widgets/kpropertiesdialog.cpp:1637
 msgid "Forbidden"
 msgstr "Verbode"
 
-#: widgets/kpropertiesdialog.cpp:1624
+#: widgets/kpropertiesdialog.cpp:1625
 msgid "Can Read"
 msgstr "Kan Lees"
 
-#: widgets/kpropertiesdialog.cpp:1625
+#: widgets/kpropertiesdialog.cpp:1626
 msgid "Can Read & Write"
 msgstr "Kan Lees & Skryf"
 
-#: widgets/kpropertiesdialog.cpp:1630
+#: widgets/kpropertiesdialog.cpp:1631
 msgid "Can View Content"
 msgstr "Kan Inhoud Besigtig"
 
-#: widgets/kpropertiesdialog.cpp:1631
+#: widgets/kpropertiesdialog.cpp:1632
 msgid "Can View & Modify Content"
 msgstr "Kan Inhoud Besigtig en Verander"
 
-#: widgets/kpropertiesdialog.cpp:1637
+#: widgets/kpropertiesdialog.cpp:1638
 msgid "Can View Content & Read"
 msgstr "Kan Inhoud Besigtig en Lees"
 
-#: widgets/kpropertiesdialog.cpp:1638
+#: widgets/kpropertiesdialog.cpp:1639
 msgid "Can View/Read & Modify/Write"
 msgstr "Kan Besigtig/Lees & Verander/Skryf"
 
-#: widgets/kpropertiesdialog.cpp:1735
+#: widgets/kpropertiesdialog.cpp:1736
 msgid "&Permissions"
 msgstr "Regte"
 
-#: widgets/kpropertiesdialog.cpp:1747 widgets/kpropertiesdialog.cpp:1950
+#: widgets/kpropertiesdialog.cpp:1748 widgets/kpropertiesdialog.cpp:1951
 msgid "Access Permissions"
 msgstr "Toegang verkry Regte"
 
-#: widgets/kpropertiesdialog.cpp:1755
+#: widgets/kpropertiesdialog.cpp:1756
 msgid "This file is a link and does not have permissions."
 msgid_plural "All files are links and do not have permissions."
 msgstr[0] "Hierdie lêer is 'n skakel en het daarom nie eienskappe nie."
 msgstr[1] "Al die lêers is skakels en het daarom nie eienskappe nie."
 
-#: widgets/kpropertiesdialog.cpp:1759
+#: widgets/kpropertiesdialog.cpp:1760
 msgid "Only the owner can change permissions."
 msgstr "Net die eienaar kan die regte verander."
 
-#: widgets/kpropertiesdialog.cpp:1763
+#: widgets/kpropertiesdialog.cpp:1764
 msgid "O&wner:"
 msgstr "Eienaar:"
 
-#: widgets/kpropertiesdialog.cpp:1769
+#: widgets/kpropertiesdialog.cpp:1770
 msgid "Specifies the actions that the owner is allowed to do."
 msgstr "Spesifiseer watter aksies die eienaar toegelaat word om uit te voer."
 
-#: widgets/kpropertiesdialog.cpp:1771
+#: widgets/kpropertiesdialog.cpp:1772
 msgid "Gro&up:"
 msgstr "Groep:"
 
-#: widgets/kpropertiesdialog.cpp:1777
+#: widgets/kpropertiesdialog.cpp:1778
 msgid "Specifies the actions that the members of the group are allowed to do."
 msgstr "Spesifiseer die aktiwiteite wat die lede van die groep mag uitvoer."
 
-#: widgets/kpropertiesdialog.cpp:1779
+#: widgets/kpropertiesdialog.cpp:1780
 msgid "O&thers:"
 msgstr "Ander:"
 
-#: widgets/kpropertiesdialog.cpp:1785
+#: widgets/kpropertiesdialog.cpp:1786
 msgid ""
 "Specifies the actions that all users, who are neither owner nor in the "
 "group, are allowed to do."
@@ -7878,15 +7896,15 @@ msgstr ""
 "Spesifiseer watter aksies alle gebruikers, nie die eienaar of aan die groep "
 "behoort nie, toegelaat word om uit te voer."
 
-#: widgets/kpropertiesdialog.cpp:1790
+#: widgets/kpropertiesdialog.cpp:1791
 msgid "Only own&er can rename and delete folder content"
 msgstr "Net die eienaar mag die gids inhoud uitvee of herbenoem."
 
-#: widgets/kpropertiesdialog.cpp:1791
+#: widgets/kpropertiesdialog.cpp:1792
 msgid "Is &executable"
 msgstr "Is Uitvoerbaar"
 
-#: widgets/kpropertiesdialog.cpp:1795
+#: widgets/kpropertiesdialog.cpp:1796
 msgid ""
 "Enable this option to allow only the folder's owner to delete or rename the "
 "contained files and folders. Other users can only add new files, which "
@@ -7897,7 +7915,7 @@ msgstr ""
 "kan slegs nuwe lêers byvoeg, wat ook afhanklik is van die 'Verander Inhoud' "
 "opsie."
 
-#: widgets/kpropertiesdialog.cpp:1799
+#: widgets/kpropertiesdialog.cpp:1800
 msgid ""
 "Enable this option to mark the file as executable. This only makes sense for "
 "programs and scripts. It is required when you want to execute them."
@@ -7905,35 +7923,35 @@ msgstr ""
 "Aktiveer hierdie opsie om die lêer as uitvoerbaar te merk. Dit maak net sin "
 "vir programme en skripte."
 
-#: widgets/kpropertiesdialog.cpp:1806
+#: widgets/kpropertiesdialog.cpp:1807
 msgid "A&dvanced Permissions"
 msgstr "Gevorderde Regte"
 
-#: widgets/kpropertiesdialog.cpp:1814
+#: widgets/kpropertiesdialog.cpp:1815
 msgid "Ownership"
 msgstr "Eienaarskap"
 
-#: widgets/kpropertiesdialog.cpp:1821
+#: widgets/kpropertiesdialog.cpp:1822
 msgid "User:"
 msgstr "Gebruiker:"
 
-#: widgets/kpropertiesdialog.cpp:1865
+#: widgets/kpropertiesdialog.cpp:1866
 msgid "Group:"
 msgstr "Groep:"
 
-#: widgets/kpropertiesdialog.cpp:1902
+#: widgets/kpropertiesdialog.cpp:1903
 msgid "Apply changes to all subfolders and their contents"
 msgstr "Wend veranderinge aan op al die sub-gidse en hulle inhoud"
 
-#: widgets/kpropertiesdialog.cpp:1941
+#: widgets/kpropertiesdialog.cpp:1942
 msgid "Advanced Permissions"
 msgstr "Gevorderde Regte"
 
-#: widgets/kpropertiesdialog.cpp:1958
+#: widgets/kpropertiesdialog.cpp:1959
 msgid "Class"
 msgstr "Klas"
 
-#: widgets/kpropertiesdialog.cpp:1965
+#: widgets/kpropertiesdialog.cpp:1966
 msgid ""
 "Show\n"
 "Entries"
@@ -7941,20 +7959,20 @@ msgstr ""
 "Vertoon\n"
 "Inskrywings"
 
-#: widgets/kpropertiesdialog.cpp:1966
+#: widgets/kpropertiesdialog.cpp:1967
 msgid "This flag allows viewing the content of the folder."
 msgstr "Hierdie vlaggie laat toe dat die inhoud van 'n gids vertoon word."
 
-#: widgets/kpropertiesdialog.cpp:1968
+#: widgets/kpropertiesdialog.cpp:1969
 msgid "Read"
 msgstr "Lees"
 
-#: widgets/kpropertiesdialog.cpp:1969
+#: widgets/kpropertiesdialog.cpp:1970
 msgid "The Read flag allows viewing the content of the file."
 msgstr ""
 "Die lees vlaggie laat toe dat die inhoud van die lêer besigtig mag word."
 
-#: widgets/kpropertiesdialog.cpp:1975
+#: widgets/kpropertiesdialog.cpp:1976
 msgid ""
 "Write\n"
 "Entries"
@@ -7962,7 +7980,7 @@ msgstr ""
 "Skryf\n"
 "Inskrywings"
 
-#: widgets/kpropertiesdialog.cpp:1976
+#: widgets/kpropertiesdialog.cpp:1977
 msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
 "and renaming can be limited using the Sticky flag."
@@ -7970,38 +7988,38 @@ msgstr ""
 "Die vlaggie laat toe dat lêers bygevoeg, herbenoem en uitgevee mag word. "
 "Uitvee en herbenoem kan beperk word met die 'sticky' vlaggie."
 
-#: widgets/kpropertiesdialog.cpp:1979
+#: widgets/kpropertiesdialog.cpp:1980
 msgid "Write"
 msgstr "Skryf"
 
-#: widgets/kpropertiesdialog.cpp:1980
+#: widgets/kpropertiesdialog.cpp:1981
 msgid "The Write flag allows modifying the content of the file."
 msgstr ""
 "Die skryf vlaggie laat toe dat die inhoud van 'n lêer verander kan word."
 
-#: widgets/kpropertiesdialog.cpp:1986
+#: widgets/kpropertiesdialog.cpp:1987
 msgctxt "Enter folder"
 msgid "Enter"
 msgstr "Gaan in"
 
-#: widgets/kpropertiesdialog.cpp:1987
+#: widgets/kpropertiesdialog.cpp:1988
 msgid "Enable this flag to allow entering the folder."
 msgstr "Aktiveer hierdie vlaggie om toegang na die gids toe te laat."
 
-#: widgets/kpropertiesdialog.cpp:1989
+#: widgets/kpropertiesdialog.cpp:1990
 msgid "Exec"
 msgstr "Voer uit"
 
-#: widgets/kpropertiesdialog.cpp:1990
+#: widgets/kpropertiesdialog.cpp:1991
 msgid "Enable this flag to allow executing the file as a program."
 msgstr ""
 "Hierdie vlaggie laat toe dat die lêer as 'n program uitgevoer kan word."
 
-#: widgets/kpropertiesdialog.cpp:1998
+#: widgets/kpropertiesdialog.cpp:1999
 msgid "Special"
 msgstr "Spesiaal"
 
-#: widgets/kpropertiesdialog.cpp:2002
+#: widgets/kpropertiesdialog.cpp:2003
 msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
 "be seen in the right hand column."
@@ -8009,7 +8027,7 @@ msgstr ""
 "Spesiale vlaggie. Die betekenis van die vlaggie kan in die regterkantste "
 "kolom gesien word en is van toepassing op die hele gids."
 
-#: widgets/kpropertiesdialog.cpp:2005
+#: widgets/kpropertiesdialog.cpp:2006
 msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
 "column."
@@ -8017,15 +8035,15 @@ msgstr ""
 "Spesiale vlaggie. Die betekenis van die vlaggie kan in die regterkantste "
 "kolom gesien word."
 
-#: widgets/kpropertiesdialog.cpp:2009
+#: widgets/kpropertiesdialog.cpp:2010
 msgid "User"
 msgstr "Gebruiker"
 
-#: widgets/kpropertiesdialog.cpp:2013
+#: widgets/kpropertiesdialog.cpp:2014
 msgid "Group"
 msgstr "Groep"
 
-#: widgets/kpropertiesdialog.cpp:2023
+#: widgets/kpropertiesdialog.cpp:2024
 msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
 "files."
@@ -8033,7 +8051,7 @@ msgstr ""
 "As hierdie vlaggie gestel is, sal die eienaar van die gids ook die eienaar "
 "wees van al die nuwe lêers in die gids."
 
-#: widgets/kpropertiesdialog.cpp:2026
+#: widgets/kpropertiesdialog.cpp:2027
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the owner."
@@ -8041,14 +8059,14 @@ msgstr ""
 "As hierdie lêer 'n uitvoerbare program is en die vlaggie is gestel, sal dit "
 "uitgevoer word onder die regte van die eienaar."
 
-#: widgets/kpropertiesdialog.cpp:2031
+#: widgets/kpropertiesdialog.cpp:2032
 msgid ""
 "If this flag is set, the group of this folder will be set for all new files."
 msgstr ""
 "As hierdie vlaggie gestel is, sal alle nuwe lêers aan die groep van die gids "
 "behoort"
 
-#: widgets/kpropertiesdialog.cpp:2034
+#: widgets/kpropertiesdialog.cpp:2035
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the group."
@@ -8056,7 +8074,7 @@ msgstr ""
 "As hierdie lêer 'n uitvoerbare program is en die vlaggie is gestel, sal dit "
 "uitgevoer word onder die regte van die groep."
 
-#: widgets/kpropertiesdialog.cpp:2039
+#: widgets/kpropertiesdialog.cpp:2040
 msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
 "rename files. Otherwise everybody with write permissions can do this."
@@ -8065,7 +8083,7 @@ msgstr ""
 "lêers uitvee of herbenoem. Andersins kan enige iemand met skryf regte dit "
 "doen."
 
-#: widgets/kpropertiesdialog.cpp:2043
+#: widgets/kpropertiesdialog.cpp:2044
 msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some "
 "systems"
@@ -8073,147 +8091,147 @@ msgstr ""
 "Die 'Sticky' vlaggie op 'n lêer word geïgnoreer onder Linux, maar mag "
 "miskien onder ander stelsels gebruik word."
 
-#: widgets/kpropertiesdialog.cpp:2108
+#: widgets/kpropertiesdialog.cpp:2109
 msgid "Set UID"
 msgstr "Stel Uid"
 
-#: widgets/kpropertiesdialog.cpp:2112
+#: widgets/kpropertiesdialog.cpp:2113
 msgid "Set GID"
 msgstr "Stel Gid"
 
-#: widgets/kpropertiesdialog.cpp:2116
+#: widgets/kpropertiesdialog.cpp:2117
 msgctxt "File permission"
 msgid "Sticky"
 msgstr "Sticky"
 
-#: widgets/kpropertiesdialog.cpp:2236
+#: widgets/kpropertiesdialog.cpp:2237
 msgid "Link"
 msgstr "Skakel"
 
-#: widgets/kpropertiesdialog.cpp:2255
+#: widgets/kpropertiesdialog.cpp:2256
 msgid "Varying (No Change)"
 msgstr "Warieering (Geen Verandering)"
 
-#: widgets/kpropertiesdialog.cpp:2368
+#: widgets/kpropertiesdialog.cpp:2369
 msgid "This file uses advanced permissions"
 msgid_plural "These files use advanced permissions."
 msgstr[0] "Hierdie lêer gebruik gevorderde regte"
 msgstr[1] "Hierdie lêers gebruik gevorderde regte."
 
-#: widgets/kpropertiesdialog.cpp:2389
+#: widgets/kpropertiesdialog.cpp:2390
 msgid "This folder uses advanced permissions."
 msgid_plural "These folders use advanced permissions."
 msgstr[0] "Hierdie gids gebruik gevorderde regte"
 msgstr[1] "Hierdie gidss gebruik gevorderde regte."
 
-#: widgets/kpropertiesdialog.cpp:2404
+#: widgets/kpropertiesdialog.cpp:2405
 msgid "These files use advanced permissions."
 msgstr "Hierdie lêers gebruik gevorderde regte."
 
-#: widgets/kpropertiesdialog.cpp:2643
+#: widgets/kpropertiesdialog.cpp:2644
 msgctxt "@title:tab"
 msgid "&Checksums"
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2680 widgets/kpropertiesdialog.cpp:2691
-#: widgets/kpropertiesdialog.cpp:2702
+#: widgets/kpropertiesdialog.cpp:2702 widgets/kpropertiesdialog.cpp:2714
+#: widgets/kpropertiesdialog.cpp:2726
 #, fuzzy
 #| msgid "Calculating..."
 msgctxt "@action:button"
 msgid "Calculating..."
 msgstr "Besig om te bereken..."
 
-#: widgets/kpropertiesdialog.cpp:2843
+#: widgets/kpropertiesdialog.cpp:2868
 msgid "Invalid checksum."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2846
+#: widgets/kpropertiesdialog.cpp:2871
 msgctxt "@info:tooltip"
 msgid "The given input is not a valid MD5, SHA1 or SHA256 checksum."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2857
+#: widgets/kpropertiesdialog.cpp:2882
 msgid "Checksums match."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2860
+#: widgets/kpropertiesdialog.cpp:2885
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum match."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2871
+#: widgets/kpropertiesdialog.cpp:2896
 msgid ""
 "<p>Checksums do not match.</p>This may be due to a faulty download. Try re-"
 "downloading the file.<br/>If the verification still fails, contact the "
 "source of the file."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2876
+#: widgets/kpropertiesdialog.cpp:2901
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum differ."
 msgstr ""
 
-#: widgets/kpropertiesdialog.cpp:2955
+#: widgets/kpropertiesdialog.cpp:2980
 msgid "U&RL"
 msgstr "URL"
 
-#: widgets/kpropertiesdialog.cpp:2962
+#: widgets/kpropertiesdialog.cpp:2987
 msgid "URL:"
 msgstr "Url:"
 
-#: widgets/kpropertiesdialog.cpp:3102
+#: widgets/kpropertiesdialog.cpp:3127
 msgid "De&vice"
 msgstr "Toestel"
 
-#: widgets/kpropertiesdialog.cpp:3131
+#: widgets/kpropertiesdialog.cpp:3156
 msgid "Device (/dev/fd0):"
 msgstr "Toestel (/dev/fd0):"
 
-#: widgets/kpropertiesdialog.cpp:3132
+#: widgets/kpropertiesdialog.cpp:3157
 msgid "Device:"
 msgstr "Toestel:"
 
-#: widgets/kpropertiesdialog.cpp:3145
+#: widgets/kpropertiesdialog.cpp:3170
 msgid "Read only"
 msgstr "Lees slegs"
 
-#: widgets/kpropertiesdialog.cpp:3149
+#: widgets/kpropertiesdialog.cpp:3174
 msgid "File system:"
 msgstr "Lêer stelsel:"
 
-#: widgets/kpropertiesdialog.cpp:3157
+#: widgets/kpropertiesdialog.cpp:3182
 msgid "Mount point (/mnt/floppy):"
 msgstr "Mount punt (/mnt/sagteskyf):"
 
-#: widgets/kpropertiesdialog.cpp:3158
+#: widgets/kpropertiesdialog.cpp:3183
 msgid "Mount point:"
 msgstr "Mount punt:"
 
-#: widgets/kpropertiesdialog.cpp:3402
+#: widgets/kpropertiesdialog.cpp:3427
 msgid "&Application"
 msgstr "Aansoek"
 
-#: widgets/kpropertiesdialog.cpp:3528
+#: widgets/kpropertiesdialog.cpp:3553
 #, kde-format
 msgid "Add File Type for %1"
 msgstr "Voeg Lêer Tipe by vir %1"
 
-#: widgets/kpropertiesdialog.cpp:3529
+#: widgets/kpropertiesdialog.cpp:3554
 msgid "Select one or more file types to add:"
 msgstr "Kies een of meer lêer tipes om by te voeg:"
 
-#: widgets/kpropertiesdialog.cpp:3590
+#: widgets/kpropertiesdialog.cpp:3615
 #, fuzzy
 #| msgid "Only executables on local file systems are supported."
 msgid ""
 "Could not save properties. Only entries on local file systems are supported."
 msgstr "Slegs uitvoerbares op plaaslike lêer sisteme word ondersteunde."
 
-#: widgets/kpropertiesdialog.cpp:3669
+#: widgets/kpropertiesdialog.cpp:3694
 msgid "Only executables on local file systems are supported."
 msgstr "Slegs uitvoerbares op plaaslike lêer sisteme word ondersteunde."
 
-#: widgets/kpropertiesdialog.cpp:3683
+#: widgets/kpropertiesdialog.cpp:3708
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "Gevorderde Opsies vir %1"
