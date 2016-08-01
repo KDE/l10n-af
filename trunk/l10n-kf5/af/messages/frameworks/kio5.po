@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-25 07:36+0000\n"
+"POT-Creation-Date: 2016-08-01 07:34+0000\n"
 "PO-Revision-Date: 2005-11-26 17:02+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -4531,14 +4531,14 @@ msgid "Disk cache &size:"
 msgstr "Disket kas grootte:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbMaxCacheSize)
-#: kcms/kio/cache.ui:101
+#: kcms/kio/cache.ui:104
 #, fuzzy
 #| msgid "%1 KB"
 msgid " KiB"
 msgstr "%1 Kb"
 
 #. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
-#: kcms/kio/cache.ui:111
+#: kcms/kio/cache.ui:114
 msgid "C&lear Cache"
 msgstr "Maak skoon Kas"
 
@@ -5145,12 +5145,14 @@ msgstr ""
 "ftp bedieners mag dalk nie passiewe Ftp ondersteun nie."
 
 #. i18n: ectx: label, entry (MarkPartial), group (DesktopIcons)
-#: kcms/kio/kio_ftprc.kcfg:16
+#. i18n: ectx: label, entry (MarkPartial), group (Global Options)
+#: kcms/kio/kio_ftprc.kcfg:16 kcms/kio/kioslave.kcfg:34
 msgid "Mark partially uploaded files"
 msgstr "Merk gedeeltelik opgelaaide lêers"
 
 #. i18n: ectx: whatsthis, entry (MarkPartial), group (DesktopIcons)
-#: kcms/kio/kio_ftprc.kcfg:17
+#. i18n: ectx: whatsthis, entry (MarkPartial), group (Global Options)
+#: kcms/kio/kio_ftprc.kcfg:17 kcms/kio/kioslave.kcfg:35
 msgid ""
 "While a file is being uploaded its extension is \".part\". When fully "
 "uploaded it is renamed to its real name."
@@ -5700,14 +5702,40 @@ msgid "&Server response:"
 msgstr "Bediener antwoord:"
 
 #: kcms/kio/netpref.cpp:67
+#, fuzzy
+#| msgid "Operation"
+msgid "Global Options"
+msgstr "Operasie"
+
+#: kcms/kio/netpref.cpp:71 kcms/kio/netpref.cpp:93
+msgid "Mark &partially uploaded files"
+msgstr "Merk gedeeltelik opgelaaide lêers"
+
+#: kcms/kio/netpref.cpp:72
+#, fuzzy
+#| msgid ""
+#| "<p>Marks partially uploaded FTP files.</p><p>When this option is enabled, "
+#| "partially uploaded files will have a \".part\" extension. This extension "
+#| "will be removed once the transfer is complete.</p>"
+msgid ""
+"<p>Marks partially uploaded files through SMB, SFTP and other protocols.</"
+"p><p>When this option is enabled, partially uploaded files will have a \"."
+"part\" extension. This extension will be removed once the transfer is "
+"complete.</p>"
+msgstr ""
+"<p>Merk gedeeltelik opgelaaide Ftp lêers.</p><p>Wanneer hierdie opsie aan "
+"is, sal gedeeltelik opgelaaide lêers 'n \".deel\" uitbreiding hê. Hierdie "
+"uitbreiding sal verander as die oordra volledig is.</p>"
+
+#: kcms/kio/netpref.cpp:82
 msgid "FTP Options"
 msgstr "Ftp Opsies"
 
-#: kcms/kio/netpref.cpp:71
+#: kcms/kio/netpref.cpp:86
 msgid "Enable passive &mode (PASV)"
 msgstr "Aktiveer passief modus (Pasv)"
 
-#: kcms/kio/netpref.cpp:72
+#: kcms/kio/netpref.cpp:87
 msgid ""
 "Enables FTP's \"passive\" mode. This is required to allow FTP to work from "
 "behind firewalls."
@@ -5715,11 +5743,7 @@ msgstr ""
 "Skakel Ftp se \"passiewe\" modus aan. Dit is nodig om Ftp te laat werk agter "
 "vuur-mure."
 
-#: kcms/kio/netpref.cpp:78
-msgid "Mark &partially uploaded files"
-msgstr "Merk gedeeltelik opgelaaide lêers"
-
-#: kcms/kio/netpref.cpp:79
+#: kcms/kio/netpref.cpp:94
 msgid ""
 "<p>Marks partially uploaded FTP files.</p><p>When this option is enabled, "
 "partially uploaded files will have a \".part\" extension. This extension "
@@ -5729,7 +5753,7 @@ msgstr ""
 "is, sal gedeeltelik opgelaaide lêers 'n \".deel\" uitbreiding hê. Hierdie "
 "uitbreiding sal verander as die oordra volledig is.</p>"
 
-#: kcms/kio/netpref.cpp:147
+#: kcms/kio/netpref.cpp:168
 msgid ""
 "<h1>Network Preferences</h1>Here you can define the behavior of KDE programs "
 "when using Internet and network connections. If you experience timeouts or "
