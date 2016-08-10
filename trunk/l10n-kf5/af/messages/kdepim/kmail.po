@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-09 08:00+0000\n"
+"POT-Creation-Date: 2016-08-10 07:18+0000\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -67,38 +67,38 @@ msgstr "Heg lêer aan"
 msgid "Add Archive Mail"
 msgstr "Heg lêer aan"
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:69
+#: agents/archivemailagent/addarchivemaildialog.cpp:62
 #: src/dialog/archivefolderdialog.cpp:85
 #, fuzzy
 #| msgid "Folder"
 msgid "&Folder:"
 msgstr "Gids"
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:83
+#: agents/archivemailagent/addarchivemaildialog.cpp:76
 #, fuzzy
 msgid "Format:"
 msgstr "Wys:"
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:91
+#: agents/archivemailagent/addarchivemaildialog.cpp:84
 #: src/dialog/archivefolderdialog.cpp:126
 #, fuzzy
 msgid "Archive all subfolders"
 msgstr "Nuwe Gids..."
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:97
+#: agents/archivemailagent/addarchivemaildialog.cpp:90
 #, fuzzy
 msgid "Path:"
 msgstr "1 boodskap, %2"
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:107
+#: agents/archivemailagent/addarchivemaildialog.cpp:100
 msgid "Backup each:"
 msgstr ""
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:123
+#: agents/archivemailagent/addarchivemaildialog.cpp:116
 msgid "Maximum number of archive:"
 msgstr ""
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:128
+#: agents/archivemailagent/addarchivemaildialog.cpp:121
 #, fuzzy
 msgid "unlimited"
 msgstr "Vee Uit"
@@ -367,7 +367,7 @@ msgstr ""
 msgid "Follow Up Mail"
 msgstr ""
 
-#: agents/followupreminderagent/followupremindernoanswerdialog.cpp:49
+#: agents/followupreminderagent/followupremindernoanswerdialog.cpp:42
 msgid "You still wait an answer about this mail:"
 msgstr ""
 
@@ -883,24 +883,24 @@ msgstr[1] ""
 msgid "Quota"
 msgstr "Totaal"
 
-#: src/collectionpage/collectionquotawidget.cpp:51
+#: src/collectionpage/collectionquotawidget.cpp:49
 #, fuzzy
 #| msgid "&Message"
 msgid "Usage:"
 msgstr "Boodskap"
 
-#: src/collectionpage/collectionquotawidget.cpp:57
+#: src/collectionpage/collectionquotawidget.cpp:55
 #, fuzzy
 #| msgid "Stat&us:"
 msgid "Status:"
 msgstr "Status:"
 
-#: src/collectionpage/collectionquotawidget.cpp:61
+#: src/collectionpage/collectionquotawidget.cpp:59
 #, no-c-format
 msgid "%p% full"
 msgstr ""
 
-#: src/collectionpage/collectionquotawidget.cpp:71
+#: src/collectionpage/collectionquotawidget.cpp:68
 #, fuzzy, kde-format
 #| msgid "Mail"
 msgid "%1 of %2 used"
@@ -920,7 +920,7 @@ msgid ""
 msgstr ""
 
 #: src/collectionpage/collectiontemplatespage.cpp:41
-#: src/identity/identitydialog.cpp:572
+#: src/identity/identitydialog.cpp:715
 msgid "Templates"
 msgstr ""
 
@@ -929,7 +929,7 @@ msgid "&Use custom message templates in this folder"
 msgstr ""
 
 #: src/collectionpage/collectiontemplatespage.cpp:78
-#: src/identity/identitydialog.cpp:565
+#: src/identity/identitydialog.cpp:708
 #, fuzzy
 msgid "&Copy Global Templates"
 msgstr "Vervang"
@@ -2544,7 +2544,7 @@ msgstr "Verwyder lêer aanhangsel"
 msgid "Details"
 msgstr "frix@expertron.co.za"
 
-#: src/editor/potentialphishingemail/potentialphishingdetailwidget.cpp:33
+#: src/editor/potentialphishingemail/potentialphishingdetailwidget.cpp:34
 msgid "Select email to put in whitelist:"
 msgstr ""
 
@@ -2677,7 +2677,7 @@ msgid "Folder Shortcut %1"
 msgstr ""
 
 #: src/identity/identityaddvcarddialog.cpp:36
-#: src/identity/identityeditvcarddialog.cpp:53
+#: src/identity/identityeditvcarddialog.cpp:58
 #, fuzzy
 msgid "Create own vCard"
 msgstr "Jou naam:"
@@ -2710,43 +2710,64 @@ msgstr ""
 msgid "&Existing identities:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:123
+#: src/identity/identitydialog.cpp:221
+#, kde-format
+msgid "Error while generating new key pair: %1"
+msgstr ""
+
+#: src/identity/identitydialog.cpp:222
+msgid "Key Generation Error"
+msgstr ""
+
+#: src/identity/identitydialog.cpp:266
+msgid "No key"
+msgstr ""
+
+#: src/identity/identitydialog.cpp:269
+msgid "Generate a new key pair"
+msgstr ""
+
+#: src/identity/identitydialog.cpp:283
+msgid "Generating new key pair..."
+msgstr ""
+
+#: src/identity/identitydialog.cpp:296
 msgid "Edit Identity"
 msgstr "Redigeer Identiteit"
 
-#: src/identity/identitydialog.cpp:159
+#: src/identity/identitydialog.cpp:329
 #, fuzzy
 msgctxt "@title:tab General identity settings."
 msgid "General"
 msgstr "Beantwoord"
 
-#: src/identity/identitydialog.cpp:168
+#: src/identity/identitydialog.cpp:338
 msgid "&Your name:"
 msgstr "Jou naam:"
 
-#: src/identity/identitydialog.cpp:171
+#: src/identity/identitydialog.cpp:341
 msgid ""
 "<qt><h3>Your name</h3><p>This field should contain your name as you would "
 "like it to appear in the email header that is sent out;</p><p>if you leave "
 "this blank your real name will not appear, only the email address.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:183
+#: src/identity/identitydialog.cpp:353
 msgid "Organi&zation:"
 msgstr "Organisiasie"
 
-#: src/identity/identitydialog.cpp:186
+#: src/identity/identitydialog.cpp:356
 msgid ""
 "<qt><h3>Organization</h3><p>This field should have the name of your "
 "organization if you would like it to be shown in the email header that is "
 "sent out.</p><p>It is safe (and normal) to leave this blank.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:199
+#: src/identity/identitydialog.cpp:369
 msgid "&Email address:"
 msgstr "E-pos adres:"
 
-#: src/identity/identitydialog.cpp:202
+#: src/identity/identitydialog.cpp:372
 msgid ""
 "<qt><h3>Email address</h3><p>This field should have your full email address."
 "</p><p>This address is the primary one, used for all outgoing mail. If you "
@@ -2755,13 +2776,13 @@ msgid ""
 "wrong, people will have trouble replying to you.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:223
+#: src/identity/identitydialog.cpp:393
 #, fuzzy
 #| msgid "&Email address:"
 msgid "Email a&liases:"
 msgstr "E-pos adres:"
 
-#: src/identity/identitydialog.cpp:226
+#: src/identity/identitydialog.cpp:396
 msgid ""
 "<qt><h3>Email aliases</h3><p>This field contains alias addresses that should "
 "also be considered as belonging to this identity (as opposed to representing "
@@ -2771,25 +2792,11 @@ msgid ""
 "alias address per line.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:244
+#: src/identity/identitydialog.cpp:414
 msgid "Cryptography"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:251 src/identity/identitydialog.cpp:275
-#: src/identity/identitydialog.cpp:300 src/identity/identitydialog.cpp:327
-msgid "Chang&e..."
-msgstr "Verander..."
-
-#: src/identity/identitydialog.cpp:252
-msgid "Your OpenPGP Signature Key"
-msgstr ""
-
-#: src/identity/identitydialog.cpp:253
-msgid ""
-"Select the OpenPGP key which should be used to digitally sign your messages."
-msgstr ""
-
-#: src/identity/identitydialog.cpp:257
+#: src/identity/identitydialog.cpp:421
 msgid ""
 "<qt><p>The OpenPGP key you choose here will be used to digitally sign "
 "messages. You can also use GnuPG keys.</p><p>You can leave this blank, but "
@@ -2798,21 +2805,11 @@ msgid ""
 "<a>http://www.gnupg.org</a></p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:264
+#: src/identity/identitydialog.cpp:427
 msgid "OpenPGP signing key:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:276
-msgid "Your OpenPGP Encryption Key"
-msgstr ""
-
-#: src/identity/identitydialog.cpp:277
-msgid ""
-"Select the OpenPGP key which should be used when encrypting to yourself and "
-"for the \"Attach My Public Key\" feature in the composer."
-msgstr ""
-
-#: src/identity/identitydialog.cpp:282
+#: src/identity/identitydialog.cpp:438
 msgid ""
 "<qt><p>The OpenPGP key you choose here will be used to encrypt messages to "
 "yourself and for the \"Attach My Public Key\" feature in the composer. You "
@@ -2822,21 +2819,11 @@ msgid ""
 "at <a>http://www.gnupg.org</a></p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:289
+#: src/identity/identitydialog.cpp:445
 msgid "OpenPGP encryption key:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:301
-msgid "Your S/MIME Signature Certificate"
-msgstr ""
-
-#: src/identity/identitydialog.cpp:302
-msgid ""
-"Select the S/MIME certificate which should be used to digitally sign your "
-"messages."
-msgstr ""
-
-#: src/identity/identitydialog.cpp:306
+#: src/identity/identitydialog.cpp:456
 msgid ""
 "<qt><p>The S/MIME (X.509) certificate you choose here will be used to "
 "digitally sign messages.</p><p>You can leave this blank, but KMail will not "
@@ -2844,21 +2831,11 @@ msgid ""
 "not be affected.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:311
+#: src/identity/identitydialog.cpp:461
 msgid "S/MIME signing certificate:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:328
-msgid "Your S/MIME Encryption Certificate"
-msgstr ""
-
-#: src/identity/identitydialog.cpp:329
-msgid ""
-"Select the S/MIME certificate which should be used when encrypting to "
-"yourself and for the \"Attach My Certificate\" feature in the composer."
-msgstr ""
-
-#: src/identity/identitydialog.cpp:334
+#: src/identity/identitydialog.cpp:477
 msgid ""
 "<qt><p>The S/MIME certificate you choose here will be used to encrypt "
 "messages to yourself and for the \"Attach My Certificate\" feature in the "
@@ -2867,36 +2844,36 @@ msgid ""
 "functions will not be affected.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:340
+#: src/identity/identitydialog.cpp:483
 msgid "S/MIME encryption certificate:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:362
+#: src/identity/identitydialog.cpp:505
 msgctxt "preferred format of encrypted messages"
 msgid "Preferred format:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:369
+#: src/identity/identitydialog.cpp:512
 #, fuzzy
 msgid "Automatically sign messages"
 msgstr "Vee boodskappe uit"
 
-#: src/identity/identitydialog.cpp:373
+#: src/identity/identitydialog.cpp:516
 #, fuzzy
 msgid "Automatically encrypt messages when possible"
 msgstr "Vee boodskappe uit"
 
-#: src/identity/identitydialog.cpp:387
+#: src/identity/identitydialog.cpp:530
 #, fuzzy
 msgctxt "@title:tab Advanced identity settings."
 msgid "Advanced"
 msgstr "Kaneleer"
 
-#: src/identity/identitydialog.cpp:399
+#: src/identity/identitydialog.cpp:542
 msgid "&Reply-To address:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:402
+#: src/identity/identitydialog.cpp:545
 msgid ""
 "<qt><h3>Reply-To addresses</h3><p>This sets the <tt>Reply-to:</tt> header to "
 "contain a different email address to the normal <tt>From:</tt> address.</"
@@ -2906,13 +2883,13 @@ msgid ""
 "address.</p><p>If in doubt, leave this field blank.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:421
+#: src/identity/identitydialog.cpp:564
 #, fuzzy
 #| msgid "&Email address:"
 msgid "&CC addresses:"
 msgstr "E-pos adres:"
 
-#: src/identity/identitydialog.cpp:424
+#: src/identity/identitydialog.cpp:567
 msgid ""
 "<qt><h3>CC (Carbon Copy) addresses</h3><p>The addresses that you enter here "
 "will be added to each outgoing mail that is sent with this identity.</"
@@ -2922,11 +2899,11 @@ msgid ""
 "blank.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:441
+#: src/identity/identitydialog.cpp:584
 msgid "&BCC addresses:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:444
+#: src/identity/identitydialog.cpp:587
 msgid ""
 "<qt><h3>BCC (Blind Carbon Copy) addresses</h3><p>The addresses that you "
 "enter here will be added to each outgoing mail that is sent with this "
@@ -2936,80 +2913,80 @@ msgid ""
 "list of BCC recipients.</p><p>If in doubt, leave this field blank.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:460
+#: src/identity/identitydialog.cpp:603
 msgid "D&ictionary:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:469
+#: src/identity/identitydialog.cpp:612
 msgid "Sent-mail &folder:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:478
+#: src/identity/identitydialog.cpp:621
 msgid "&Drafts folder:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:487
+#: src/identity/identitydialog.cpp:630
 #, fuzzy
 msgid "&Templates folder:"
 msgstr "Vervang"
 
-#: src/identity/identitydialog.cpp:493
+#: src/identity/identitydialog.cpp:636
 msgid "Outgoing Account:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:501
+#: src/identity/identitydialog.cpp:644
 msgid "Attach my vCard to message"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:503 src/identity/identitydialog.cpp:1023
+#: src/identity/identitydialog.cpp:646 src/identity/identitydialog.cpp:1140
 #, fuzzy
 #| msgid "Chang&e..."
 msgid "Create..."
 msgstr "Verander..."
 
-#: src/identity/identitydialog.cpp:510
+#: src/identity/identitydialog.cpp:653
 msgid "Autocorrection language:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:522
+#: src/identity/identitydialog.cpp:665
 msgid "Restore default domain name"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:526
+#: src/identity/identitydialog.cpp:669
 msgid "Defaul&t domain:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:531
+#: src/identity/identitydialog.cpp:674
 msgid ""
 "<qt><p>The default domain is used to complete email addresses that only "
 "consist of the user's name.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:551
+#: src/identity/identitydialog.cpp:694
 msgid "&Use custom message templates for this identity"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:578
+#: src/identity/identitydialog.cpp:721
 #, fuzzy
 msgid "Signature"
 msgstr "Heg Handtekening Aan"
 
-#: src/identity/identitydialog.cpp:585
+#: src/identity/identitydialog.cpp:728
 #, fuzzy
 msgid "Picture"
 msgstr "Heg Handtekening Aan"
 
-#: src/identity/identitydialog.cpp:680
+#: src/identity/identitydialog.cpp:782
 #, kde-format
 msgid "Invalid Email Alias \"%1\""
 msgstr ""
 
-#: src/identity/identitydialog.cpp:689 src/job/addressvalidationjob.cpp:85
+#: src/identity/identitydialog.cpp:791 src/job/addressvalidationjob.cpp:85
 #: src/job/addressvalidationjob.cpp:94
 msgid "Invalid Email Address"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:727
+#: src/identity/identitydialog.cpp:847
 #, kde-format
 msgid ""
 "One of the configured OpenPGP signing keys does not contain any user ID with "
@@ -3018,14 +2995,14 @@ msgid ""
 "verify signatures made with this configuration."
 msgstr ""
 
-#: src/identity/identitydialog.cpp:735
+#: src/identity/identitydialog.cpp:854
 #, kde-format
 msgid ""
 "One of the configured OpenPGP encryption keys does not contain any user ID "
 "with the configured email address for this identity (%1)."
 msgstr ""
 
-#: src/identity/identitydialog.cpp:741
+#: src/identity/identitydialog.cpp:859
 #, kde-format
 msgid ""
 "One of the configured S/MIME signing certificates does not contain the "
@@ -3034,59 +3011,59 @@ msgid ""
 "verify signatures made with this configuration."
 msgstr ""
 
-#: src/identity/identitydialog.cpp:749
+#: src/identity/identitydialog.cpp:866
 #, kde-format
 msgid ""
 "One of the configured S/MIME encryption certificates does not contain the "
 "configured email address for this identity (%1)."
 msgstr ""
 
-#: src/identity/identitydialog.cpp:757
+#: src/identity/identitydialog.cpp:874
 msgid "Email Address Not Found in Key/Certificates"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:770
+#: src/identity/identitydialog.cpp:887
 msgid "The signature file is not valid"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:787
+#: src/identity/identitydialog.cpp:904
 #, kde-format
 msgid "Edit Identity \"%1\""
 msgstr ""
 
-#: src/identity/identitydialog.cpp:849
+#: src/identity/identitydialog.cpp:966
 msgid ""
 "Some custom folder for identity does not exist (anymore); therefore, default "
 "folders will be used."
 msgstr ""
 
-#: src/identity/identitydialog.cpp:1025
+#: src/identity/identitydialog.cpp:1142
 #, fuzzy
 msgid "Edit..."
 msgstr "Intekening..."
 
-#: src/identity/identityeditvcarddialog.cpp:47
+#: src/identity/identityeditvcarddialog.cpp:52
 #, fuzzy
 msgid "Edit own vCard"
 msgstr "Jou naam:"
 
-#: src/identity/identityeditvcarddialog.cpp:50
+#: src/identity/identityeditvcarddialog.cpp:55
 #, fuzzy
 #| msgid "Collapse the current thread"
 msgid "Delete current vCard"
 msgstr "Vou die huidige gesprekslyn in"
 
-#: src/identity/identityeditvcarddialog.cpp:77
+#: src/identity/identityeditvcarddialog.cpp:75
 msgid "Are you sure to want to delete this vCard?"
 msgstr ""
 
-#: src/identity/identityeditvcarddialog.cpp:77
-#: src/identity/identityeditvcarddialog.cpp:94
+#: src/identity/identityeditvcarddialog.cpp:75
+#: src/identity/identityeditvcarddialog.cpp:92
 #, fuzzy
 msgid "Delete vCard"
 msgstr "Vee Uit"
 
-#: src/identity/identityeditvcarddialog.cpp:94
+#: src/identity/identityeditvcarddialog.cpp:92
 msgid "We cannot delete vCard file."
 msgstr ""
 
@@ -6679,6 +6656,9 @@ msgid "Out of office reply active on server"
 msgid_plural "Out of office reply active on servers"
 msgstr[0] "Redigeer \"Buite die Kantoor\" Antwoorde..."
 msgstr[1] "Redigeer \"Buite die Kantoor\" Antwoorde..."
+
+#~ msgid "Chang&e..."
+#~ msgstr "Verander..."
 
 #, fuzzy
 #~ msgid "Show unread mail in tray icon"
