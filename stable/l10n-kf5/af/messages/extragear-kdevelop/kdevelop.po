@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-08 11:09+0000\n"
+"POT-Creation-Date: 2016-09-09 10:32+0000\n"
 "PO-Revision-Date: 2002-09-27 16:42+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -667,41 +667,47 @@ msgctxt "@info:shell"
 msgid "Specify the binary you want to debug."
 msgstr ""
 
-#: main.cpp:569
+#: main.cpp:575
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Specified binary does not exists."
+msgstr "Kon nie open lêer vir om te skryf."
+
+#: main.cpp:581
 #, fuzzy, kde-format
 #| msgid "&Debug"
 msgid "Debug %1"
 msgstr "Ontfouting"
 
-#: main.cpp:578
+#: main.cpp:590
 #, kde-format
 msgid ""
 "A session with the name %1 exists already. Use the -s switch to open it."
 msgstr ""
 
-#: main.cpp:594
+#: main.cpp:606
 #, fuzzy, kde-format
 #| msgid "A file with this name already exists."
 msgid "No session with the name %1 exists."
 msgstr "'n lêer met hierdie naam alreeds bestaan."
 
-#: main.cpp:601
+#: main.cpp:613
 #, fuzzy, kde-format
 #| msgid "Could not open file for writing."
 msgid "Could not lock session %1 for deletion."
 msgstr "Kon nie open lêer vir om te skryf."
 
-#: main.cpp:606
+#: main.cpp:618
 #, kde-format
 msgid "Session with name %1 was successfully removed."
 msgstr ""
 
-#: main.cpp:696
+#: main.cpp:708
 #, fuzzy
 msgid "Cannot find native launch configuration type"
 msgstr "Opstelling:"
 
-#: main.cpp:715
+#: main.cpp:727
 #, fuzzy, kde-format
 msgid "Cannot find launcher %1"
 msgstr "Konfigureer lêer"
@@ -1507,10 +1513,6 @@ msgstr "Ontwikkeling"
 #~ "As root jy dalk mag benodig na \"chmod ug+rw\" tty* en pty* toestelle en/"
 #~ "of voeg by die gebruiker na die tty groep te gebruik \"usermod -G tty "
 #~ "gebruikernaam\"."
-
-#, fuzzy
-#~ msgid "Application does not exist"
-#~ msgstr "Kon nie open lêer vir om te skryf."
 
 #, fuzzy
 #~ msgid "Could not run application"
