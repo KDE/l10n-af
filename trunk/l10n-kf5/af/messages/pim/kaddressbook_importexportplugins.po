@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-11 08:12+0000\n"
+"POT-Creation-Date: 2016-10-12 07:15+0000\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -34,14 +34,28 @@ msgstr "In voer Lys..."
 msgid "Import contacts from a file in comma separated value format."
 msgstr ""
 
-#: csv/csvimportexportplugininterface.cpp:201
-#: ldif/ldifimportexportplugininterface.cpp:135
+#: csv/csvimportexportplugininterface.cpp:168
+#: ldif/ldifimportexportplugininterface.cpp:137
+#: vcards/vcardimportexportplugininterface.cpp:416
+#, fuzzy
+msgid "Which contact do you want to export?"
+msgstr "Uitvee Kontak"
+
+#: csv/csvimportexportplugininterface.cpp:178
+#: ldif/ldifimportexportplugininterface.cpp:147
+#: vcards/vcardimportexportplugininterface.cpp:428
+#, fuzzy
+msgid "You have not selected any contacts to export."
+msgstr "Uitvee Kontak"
+
+#: csv/csvimportexportplugininterface.cpp:207 gmx/engine/gmx_xxport.cpp:375
+#: ldif/ldifimportexportplugininterface.cpp:163
 #, fuzzy, kde-format
 msgid "<qt>Unable to open file <b>%1</b></qt>"
 msgstr "Verspreiding Lys"
 
-#: csv/csvimportexportplugininterface.cpp:215
-#: ldif/ldifimportexportplugininterface.cpp:167
+#: csv/csvimportexportplugininterface.cpp:219 gmx/engine/gmx_xxport.cpp:390
+#: ldif/ldifimportexportplugininterface.cpp:195
 #, fuzzy, kde-format
 msgid "<qt>Unable to open file <b>%1</b>.</qt>"
 msgstr "Verspreiding Lys"
@@ -381,81 +395,91 @@ msgctxt "@info"
 msgid "Please select a template, that matches the CSV file:"
 msgstr ""
 
-#: gmx/gmximportexportplugininterface.cpp:40
+#: gmx/engine/gmx_xxport.cpp:98
 #, fuzzy
-msgid "Import GMX file..."
-msgstr "In voer Vkaart..."
-
-#: gmx/gmximportexportplugininterface.cpp:41
-#, fuzzy
-msgid "Import contacts from a GMX address book file."
+msgid "GMX address book file (*.gmxa)"
 msgstr "K-adresboek"
 
-#: gmx/gmximportexportplugininterface.cpp:46
-#, fuzzy
-msgid "Export GMX file..."
-msgstr "In voer Kde 2 Adres Boek..."
-
-#: gmx/gmximportexportplugininterface.cpp:47
-#, fuzzy
-msgid "Export contacts to a GMX address book file."
-msgstr "K-adresboek"
-
-#: ldap/ldapimportexportplugininterface.cpp:45
-#, fuzzy
-msgid "Import From LDAP server..."
-msgstr "Voer uit Vkaart 3.0..."
-
-#: ldap/ldapimportexportplugininterface.cpp:46
-#, fuzzy
-msgid "Import contacts from an LDAP server."
-msgstr "Kontak Nutsbalk"
-
-#: ldif/ldifimportexportplugininterface.cpp:50
-#, fuzzy
-msgid "Import LDIF file..."
-msgstr "In voer Kde 2 Adres Boek..."
-
-#: ldif/ldifimportexportplugininterface.cpp:51
-#, fuzzy
-msgid "Import contacts from an LDIF file."
-msgstr "Kontak Nutsbalk"
-
-#: ldif/ldifimportexportplugininterface.cpp:56
-#, fuzzy
-msgid "Export LDIF file..."
-msgstr "In voer Kde 2 Adres Boek..."
-
-#: ldif/ldifimportexportplugininterface.cpp:57
-#, fuzzy
-msgid "Export contacts to an LDIF file."
-msgstr "In voer Kde 2 Adres Boek..."
-
-#: ldif/ldifimportexportplugininterface.cpp:90
-#: ldif/ldifimportexportplugininterface.cpp:127
-msgid "LDif Files (*.ldif)"
-msgstr ""
-
-#: ldif/ldifimportexportplugininterface.cpp:97
+#: gmx/engine/gmx_xxport.cpp:138 ldif/ldifimportexportplugininterface.cpp:100
 #, fuzzy, kde-format
 msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
 msgstr "Verspreiding Lys"
 
-#: shared/importexportengine.cpp:81
+#: gmx/engine/gmx_xxport.cpp:153
+#, fuzzy, kde-format
+msgid "%1 is not a GMX address book file."
+msgstr "K-adresboek"
+
+#: gmx/gmximportexportplugininterface.cpp:41
+#, fuzzy
+msgid "Import GMX file..."
+msgstr "In voer Vkaart..."
+
+#: gmx/gmximportexportplugininterface.cpp:42
+#, fuzzy
+msgid "Import contacts from a GMX address book file."
+msgstr "K-adresboek"
+
+#: gmx/gmximportexportplugininterface.cpp:47
+#, fuzzy
+msgid "Export GMX file..."
+msgstr "In voer Kde 2 Adres Boek..."
+
+#: gmx/gmximportexportplugininterface.cpp:48
+#, fuzzy
+msgid "Export contacts to a GMX address book file."
+msgstr "K-adresboek"
+
+#: ldap/ldapimportexportplugininterface.cpp:44
+#, fuzzy
+msgid "Import From LDAP server..."
+msgstr "Voer uit Vkaart 3.0..."
+
+#: ldap/ldapimportexportplugininterface.cpp:45
+#, fuzzy
+msgid "Import contacts from an LDAP server."
+msgstr "Kontak Nutsbalk"
+
+#: ldif/ldifimportexportplugininterface.cpp:53
+#, fuzzy
+msgid "Import LDIF file..."
+msgstr "In voer Kde 2 Adres Boek..."
+
+#: ldif/ldifimportexportplugininterface.cpp:54
+#, fuzzy
+msgid "Import contacts from an LDIF file."
+msgstr "Kontak Nutsbalk"
+
+#: ldif/ldifimportexportplugininterface.cpp:59
+#, fuzzy
+msgid "Export LDIF file..."
+msgstr "In voer Kde 2 Adres Boek..."
+
+#: ldif/ldifimportexportplugininterface.cpp:60
+#, fuzzy
+msgid "Export contacts to an LDIF file."
+msgstr "In voer Kde 2 Adres Boek..."
+
+#: ldif/ldifimportexportplugininterface.cpp:93
+#: ldif/ldifimportexportplugininterface.cpp:155
+msgid "LDif Files (*.ldif)"
+msgstr ""
+
+#: shared/importexportengine.cpp:77
 #, fuzzy
 msgid "Select Address Book"
 msgstr "K-adresboek"
 
-#: shared/importexportengine.cpp:83
+#: shared/importexportengine.cpp:79
 msgid "Select the address book the imported contact(s) shall be saved in:"
 msgstr ""
 
-#: shared/importexportengine.cpp:96
+#: shared/importexportengine.cpp:93
 #, fuzzy
 msgid "Import Contacts"
 msgstr "Kontak Nutsbalk"
 
-#: shared/importexportengine.cpp:98
+#: shared/importexportengine.cpp:95
 #, fuzzy, kde-format
 msgid "Importing one contact to %2"
 msgid_plural "Importing %1 contacts to %2"
@@ -463,6 +487,7 @@ msgstr[0] "Kontak Nutsbalk"
 msgstr[1] "Kontak Nutsbalk"
 
 #: vcards/engine/vcard_xxport.cpp:94
+#: vcards/vcardimportexportplugininterface.cpp:469
 msgctxt "@info"
 msgid ""
 "You have selected a list of contacts, shall they be exported to several "
@@ -470,24 +495,28 @@ msgid ""
 msgstr ""
 
 #: vcards/engine/vcard_xxport.cpp:97
+#: vcards/vcardimportexportplugininterface.cpp:472
 #, fuzzy
 msgctxt "@action:button"
 msgid "Export to One File"
 msgstr "Voer uit Vkaart 3.0..."
 
 #: vcards/engine/vcard_xxport.cpp:98
+#: vcards/vcardimportexportplugininterface.cpp:473
 #, fuzzy
 msgctxt "@action:button"
 msgid "Export to Several Files"
 msgstr "Voer uit Vkaart 3.0..."
 
 #: vcards/engine/vcard_xxport.cpp:162
+#: vcards/vcardimportexportplugininterface.cpp:137
 msgid ""
 "*.vcf|vCard (*.vcf)\n"
 "*|all files (*)"
 msgstr ""
 
 #: vcards/engine/vcard_xxport.cpp:164
+#: vcards/vcardimportexportplugininterface.cpp:139
 #, fuzzy
 #| msgid "Select vCard to Import"
 msgctxt "@title:window"
@@ -495,6 +524,7 @@ msgid "Select vCard to Import"
 msgstr "Kies Vkaart na In voer"
 
 #: vcards/engine/vcard_xxport.cpp:173
+#: vcards/vcardimportexportplugininterface.cpp:148
 #, fuzzy
 #| msgid "vCard Import Failed"
 msgctxt "@title:window"
@@ -502,17 +532,20 @@ msgid "vCard Import Failed"
 msgstr "Vkaart In voer Gevaal"
 
 #: vcards/engine/vcard_xxport.cpp:191
+#: vcards/vcardimportexportplugininterface.cpp:166
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "<para>Unable to access vCard:</para><para>%1</para>"
 msgstr "Verspreiding Lys"
 
 #: vcards/engine/vcard_xxport.cpp:203
+#: vcards/vcardimportexportplugininterface.cpp:178
 msgctxt "@info"
 msgid "No contacts were imported, due to errors with the vCards."
 msgstr ""
 
 #: vcards/engine/vcard_xxport.cpp:207
+#: vcards/vcardimportexportplugininterface.cpp:182
 msgctxt "@info"
 msgid "The vCard does not contain any contacts."
 msgstr ""
@@ -657,43 +690,41 @@ msgctxt "@action:button"
 msgid "Import All..."
 msgstr "In voer Vkaart..."
 
-#: vcards/vcardimportexportplugininterface.cpp:40
-#: vcards/vcardimportexportplugininterface.cpp:47
+#: vcards/vcardimportexportplugininterface.cpp:58
 msgid "Import vCard..."
 msgstr "In voer Vkaart..."
 
-#: vcards/vcardimportexportplugininterface.cpp:41
-#: vcards/vcardimportexportplugininterface.cpp:48
+#: vcards/vcardimportexportplugininterface.cpp:59
 #, fuzzy
 msgid "Import contacts from a vCard file."
 msgstr "Kontak Nutsbalk"
 
-#: vcards/vcardimportexportplugininterface.cpp:52
+#: vcards/vcardimportexportplugininterface.cpp:66
 #, fuzzy
 msgid "Export contacts to a vCard 4.0 file."
 msgstr "Voer uit Vkaart 3.0..."
 
-#: vcards/vcardimportexportplugininterface.cpp:53
+#: vcards/vcardimportexportplugininterface.cpp:67
 #, fuzzy
 msgid "Export vCard 4.0..."
 msgstr "Voer uit Vkaart 3.0..."
 
-#: vcards/vcardimportexportplugininterface.cpp:57
+#: vcards/vcardimportexportplugininterface.cpp:72
 #, fuzzy
 msgid "Export vCard 3.0..."
 msgstr "Voer uit Vkaart 3.0..."
 
-#: vcards/vcardimportexportplugininterface.cpp:58
+#: vcards/vcardimportexportplugininterface.cpp:73
 #, fuzzy
 msgid "Export contacts to a vCard 3.0 file."
 msgstr "Voer uit Vkaart 3.0..."
 
-#: vcards/vcardimportexportplugininterface.cpp:62
+#: vcards/vcardimportexportplugininterface.cpp:78
 #, fuzzy
 msgid "Export vCard 2.1..."
 msgstr "Voer uit Vkaart 3.0..."
 
-#: vcards/vcardimportexportplugininterface.cpp:63
+#: vcards/vcardimportexportplugininterface.cpp:79
 #, fuzzy
 msgid "Export contacts to a vCard 2.1 file."
 msgstr "Voer uit Vkaart 3.0..."
@@ -1214,14 +1245,6 @@ msgstr "Voer uit Vkaart 3.0..."
 #~ msgstr "Uitvee Kontak"
 
 #, fuzzy
-#~ msgid "GMX address book file (*.gmxa)"
-#~ msgstr "K-adresboek"
-
-#, fuzzy
-#~ msgid "%1 is not a GMX address book file."
-#~ msgstr "K-adresboek"
-
-#, fuzzy
 #~ msgctxt "@action:inmenu"
 #~ msgid "Sync Contacts"
 #~ msgstr "Uitvee Kontak"
@@ -1265,10 +1288,6 @@ msgstr "Voer uit Vkaart 3.0..."
 #~ msgstr "Nuwe Kontak..."
 
 #, fuzzy
-#~ msgid "You have not selected any contacts."
-#~ msgstr "Uitvee Kontak"
-
-#, fuzzy
 #~ msgid "No emails found in selected contacts."
 #~ msgstr "Uitvee Kontak"
 
@@ -1287,10 +1306,6 @@ msgstr "Voer uit Vkaart 3.0..."
 
 #, fuzzy
 #~ msgid "Select Contacts to merge"
-#~ msgstr "Uitvee Kontak"
-
-#, fuzzy
-#~ msgid "Select contacts that you really want to merge:"
 #~ msgstr "Uitvee Kontak"
 
 #, fuzzy
