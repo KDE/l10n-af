@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeprint4 stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-25 02:38+0100\n"
+"POT-Creation-Date: 2016-11-19 11:46+0100\n"
 "PO-Revision-Date: 2005-11-28 6:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -17,42 +17,49 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: cups/cupsaddsmb2.cpp:54 cups/cupsaddsmb2.cpp:342
+#, kde-format
 msgid "&Export"
 msgstr "Voer uit"
 
 #: cups/cupsaddsmb2.cpp:62
+#, kde-format
 msgid "Export Printer Driver to Windows Clients"
 msgstr "Voer uit drukker drywer na Vensters kliënte"
 
 #: cups/cupsaddsmb2.cpp:73
+#, kde-format
 msgid "&Username:"
 msgstr "&Gebruikernaam:"
 
 #: cups/cupsaddsmb2.cpp:74
+#, kde-format
 msgid "&Samba server:"
 msgstr "Samba bediener:"
 
 #: cups/cupsaddsmb2.cpp:75 management/kmwpassword.cpp:49
+#, kde-format
 msgid "&Password:"
 msgstr "Wagwoord:"
 
 #: cups/cupsaddsmb2.cpp:80
+#, kde-format
 msgid ""
 "<p><b>Samba server</b></p>Adobe Windows PostScript driver files plus the "
 "CUPS printer PPD will be exported to the <tt>[print$]</tt> special share of "
 "the Samba server (to change the source CUPS server, use the "
-"<nobr><i>Configure Manager -> CUPS server</i></nobr> first). The <tt>[print$]"
-"</tt> share must exist on the Samba side prior to clicking the <b>Export</b> "
-"button below."
+"<nobr><i>Configure Manager -> CUPS server</i></nobr> first). The <tt>[print"
+"$]</tt> share must exist on the Samba side prior to clicking the <b>Export</"
+"b> button below."
 msgstr ""
 "<p><b>Samba bediener</b></p>Adobe Vensters Postscript drywer lêers plus die "
 "Cups drukker Ppd sal wees uitgevoer word na die <tt>[druk$]</tt> spesiaal "
 "deel van die Samba bediener (na verander die bron Cups bediener, gebruik die "
-"<nobr><i>Konfigureer Bestuurder -> Cups bediener</i></nobr> eerste). die <tt>"
-"[druk$]</tt> deel moet bestaan op die Samba kant prior na te kliek die "
+"<nobr><i>Konfigureer Bestuurder -> Cups bediener</i></nobr> eerste). die "
+"<tt>[druk$]</tt> deel moet bestaan op die Samba kant prior na te kliek die "
 "<b>Voer uit</b> knoppie onder."
 
 #: cups/cupsaddsmb2.cpp:89
+#, kde-format
 msgid ""
 "<p><b>Samba username</b></p>User needs to have write access to the <tt>[print"
 "$]</tt> share on the Samba server. <tt>[print$]</tt> holds printer drivers "
@@ -62,42 +69,49 @@ msgid ""
 msgstr ""
 
 #: cups/cupsaddsmb2.cpp:97
+#, kde-format
 msgid ""
 "<p><b>Samba password</b></p>The Samba setting <tt>encrypt passwords = yes</"
 "tt> (default) requires prior use of <tt>smbpasswd -a [username]</tt> "
 "command, to create an encrypted Samba password and have Samba recognize it."
 msgstr ""
 
+#. i18n("Creating directory %1").arg(m_actions[m_actionindex]));
 #: cups/cupsaddsmb2.cpp:261
 #, kde-format
 msgid "Creating folder %1"
 msgstr "Besig om te skep gids %1"
 
+#. i18n("Uploading %1").arg(m_actions[m_actionindex+1]));
 #: cups/cupsaddsmb2.cpp:267
 #, kde-format
 msgid "Uploading %1"
 msgstr "Oplaaiïng %1"
 
+#. i18n("Installing driver for %1").arg(m_actions[m_actionindex]));
 #: cups/cupsaddsmb2.cpp:273
 #, kde-format
 msgid "Installing driver for %1"
 msgstr "Installering drywer vir %1"
 
+#. i18n("Installing printer %1").arg(m_actions[m_actionindex]));
 #: cups/cupsaddsmb2.cpp:279
 #, kde-format
 msgid "Installing printer %1"
 msgstr "Installering drukker %1"
 
 #: cups/cupsaddsmb2.cpp:309
-#, fuzzy
+#, fuzzy, kde-format
 msgid "&Close"
 msgstr "Klasse"
 
 #: cups/cupsaddsmb2.cpp:315
+#, kde-format
 msgid "Driver successfully exported."
 msgstr "Drywer suksesvol uitgevoer word."
 
 #: cups/cupsaddsmb2.cpp:324
+#, kde-format
 msgid ""
 "Operation failed. Possible reasons are: permission denied or invalid Samba "
 "configuration (see <a href=\"man:/cupsaddsmb\">cupsaddsmb</a> manual page "
@@ -112,6 +126,7 @@ msgstr ""
 "aanteken/wagwoord."
 
 #: cups/cupsaddsmb2.cpp:331
+#, kde-format
 msgid "Operation aborted (process killed)."
 msgstr "Operasie gekanselleer (proses doodgemaak)."
 
@@ -133,6 +148,7 @@ msgid ""
 msgstr ""
 
 #: cups/cupsaddsmb2.cpp:371
+#, kde-format
 msgid ""
 "Some driver files are missing. You can get them on <a href=\"http://www."
 "adobe.com\">Adobe</a> web site. See <a href=\"man:/cupsaddsmb\">cupsaddsmb</"
@@ -140,12 +156,14 @@ msgid ""
 "\">CUPS</a> version 1.1.11 or higher)."
 msgstr ""
 
+#. i18n("<p>Preparing to upload driver to host <b>%1</b>").arg(m_servered->text()));
 #: cups/cupsaddsmb2.cpp:382
 #, kde-format
 msgid "Preparing to upload driver to host %1"
 msgstr "Berei voor na oplaai drywer na bediener %1"
 
 #: cups/cupsaddsmb2.cpp:387 management/networkscanner.cpp:139
+#, kde-format
 msgid "&Abort"
 msgstr "Staak"
 
@@ -154,45 +172,54 @@ msgstr "Staak"
 msgid "The driver for printer <b>%1</b> could not be found."
 msgstr "Die drywer vir drukker <b>%1</b> kon nie wees gevind."
 
+#. i18n("Preparing to install driver on host <b>%1</b>").arg(m_servered->text()));
 #: cups/cupsaddsmb2.cpp:433
 #, kde-format
 msgid "Preparing to install driver on host %1"
 msgstr "Berei voor na installeer drywer op bediener %1"
 
 #: cups/ippreportdlg.cpp:37
+#, kde-format
 msgid "IPP Report"
 msgstr "Ipp Raporteer"
 
 #: cups/ippreportdlg.cpp:39 cups/ippreportdlg.cpp:48 kprintdialog.cpp:307
+#, kde-format
 msgid "&Print"
 msgstr "Druk"
 
 #: cups/ippreportdlg.cpp:94
+#, kde-format
 msgid "Internal error: unable to generate HTML report."
 msgstr "Intern fout: nie moontlik na genereer Html raporteer."
 
 #: cups/ipprequest.cpp:101
-#, fuzzy
+#, fuzzy, kde-format
 msgid "You do not have access to the requested resource."
 msgstr "Jy het dalk nie regte na die gekose hulpbron."
 
 #: cups/ipprequest.cpp:104
+#, kde-format
 msgid "You are not authorized to access the requested resource."
 msgstr "Jy is nie gemagtig om uit te voer hierdie verkose hulpbron."
 
 #: cups/ipprequest.cpp:107
+#, kde-format
 msgid "The requested operation cannot be completed."
 msgstr "Die versoekte operasie kon nie klaargemaak word nie."
 
 #: cups/ipprequest.cpp:110
+#, kde-format
 msgid "The requested service is currently unavailable."
 msgstr "Die verkose diens is huidiglik nie beskikbaar nie."
 
 #: cups/ipprequest.cpp:113
+#, kde-format
 msgid "The target printer is not accepting print jobs."
 msgstr "Die doel drukker aanvaar nie die druk opdragte nie."
 
 #: cups/ipprequest.cpp:219
+#, kde-format
 msgid ""
 "Connection to CUPS server failed. Check that the CUPS server is correctly "
 "installed and running."
@@ -201,107 +228,133 @@ msgstr ""
 "geïnstalleer en wat loop."
 
 #: cups/ipprequest.cpp:222
+#, kde-format
 msgid "The IPP request failed for an unknown reason."
 msgstr "Die Ipp versoek gevaal vir 'n onbekende rede."
 
 #: cups/ipprequest.cpp:331
+#, kde-format
 msgid "Attribute"
 msgstr "Kenmerk"
 
 #: cups/ipprequest.cpp:332
+#, kde-format
 msgid "Values"
 msgstr "Waardes"
 
 #: cups/ipprequest.cpp:358
+#, kde-format
 msgid "True"
 msgstr "Waar"
 
 #: cups/ipprequest.cpp:358
+#, kde-format
 msgid "False"
 msgstr "Vals"
 
 #: cups/kmconfigcups.cpp:33
+#, kde-format
 msgid "CUPS Server"
 msgstr "Cups bediener"
 
 #: cups/kmconfigcups.cpp:34
+#, kde-format
 msgid "CUPS Server Settings"
 msgstr "Cups Bediener Instellings"
 
 #: cups/kmconfigcupsdir.cpp:35
+#, kde-format
 msgid "Folder"
 msgstr "Gids"
 
 #: cups/kmconfigcupsdir.cpp:36
+#, kde-format
 msgid "CUPS Folder Settings"
 msgstr "Cups Gids Instellings"
 
 #: cups/kmconfigcupsdir.cpp:39
+#, kde-format
 msgid "Installation Folder"
 msgstr "Installasie Gids"
 
 #: cups/kmconfigcupsdir.cpp:43
+#, kde-format
 msgid "Standard installation (/)"
 msgstr "Standaard installasie (/)"
 
 #: cups/kmcupsconfigwidget.cpp:69
+#, kde-format
 msgid "Server Information"
 msgstr "Bediener Informasie"
 
 #: cups/kmcupsconfigwidget.cpp:71
+#, kde-format
 msgid "Account Information"
 msgstr "Rekening Informasie"
 
 #: cups/kmcupsconfigwidget.cpp:73 rlpr/kmproxywidget.cpp:36
+#, kde-format
 msgid "&Host:"
 msgstr "Bediener:"
 
 #: cups/kmcupsconfigwidget.cpp:74 management/kmwsocketutil.cpp:61
 #: management/networkscanner.cpp:318 rlpr/kmproxywidget.cpp:37
+#, kde-format
 msgid "&Port:"
 msgstr "Poort:"
 
 #: cups/kmcupsconfigwidget.cpp:81
+#, kde-format
 msgid "&User:"
 msgstr "Gebruiker:"
 
 #: cups/kmcupsconfigwidget.cpp:82
+#, kde-format
 msgid "Pass&word:"
 msgstr "Wagwoord:"
 
 #: cups/kmcupsconfigwidget.cpp:85
+#, kde-format
 msgid "&Store password in configuration file"
 msgstr "Stoor wagwoord in opstelling lêer."
 
 #: cups/kmcupsconfigwidget.cpp:87
+#, kde-format
 msgid "Use &anonymous access"
 msgstr "Gebruik anoniem toegang verkry"
 
 #: cups/kmcupsjobmanager.cpp:263
+#, kde-format
 msgid "Job Report"
 msgstr "Werk Raporteer"
 
 #: cups/kmcupsjobmanager.cpp:265 cups/kmcupsjobmanager.cpp:372
+#, kde-format
 msgid "Unable to retrieve job information: "
 msgstr "Nie moontlik na onttrek werk informasie: "
 
 #: cups/kmcupsjobmanager.cpp:274
+#, kde-format
 msgid "&Job IPP Report"
 msgstr "Werk Ipp Raport"
 
 #: cups/kmcupsjobmanager.cpp:277
+#, kde-format
 msgid "&Increase Priority"
 msgstr "Vermeerder Prioriteit"
 
 #: cups/kmcupsjobmanager.cpp:280
+#, kde-format
 msgid "&Decrease Priority"
 msgstr "Verklein Prioriteit"
 
 #: cups/kmcupsjobmanager.cpp:283
+#, kde-format
 msgid "&Edit Attributes..."
 msgstr "Redigeer Eienskappe..."
 
 #: cups/kmcupsjobmanager.cpp:337
+#, kde-format
 msgid "Unable to change job priority: "
 msgstr "Nie moontlik na verander werk prioriteit: "
 
@@ -316,11 +369,12 @@ msgid "Attributes of Job %1@%2 (%3)"
 msgstr "Eienskappe van Werk %1@%2 (%3)"
 
 #: cups/kmcupsjobmanager.cpp:429
+#, kde-format
 msgid "Unable to set job attributes: "
 msgstr "Nie moontlik na stel werk eienskappe: "
 
-#: cups/kmcupsmanager.cpp:506 lpr/matichandler.cpp:228
-#: lpr/matichandler.cpp:309
+#: cups/kmcupsmanager.cpp:506 lpr/matichandler.cpp:228 lpr/matichandler.cpp:309
+#, kde-format
 msgid ""
 "Unable to find the executable foomatic-datafile in your PATH. Check that "
 "Foomatic is correctly installed."
@@ -328,8 +382,7 @@ msgstr ""
 "Nie moontlik na soek die uitvoerbare Foomaties-datafile in jou Gids soeklys. "
 "Bevestig wat Foomaties is korrek geïnstalleer."
 
-#: cups/kmcupsmanager.cpp:522 lpr/matichandler.cpp:244
-#: lpr/matichandler.cpp:347
+#: cups/kmcupsmanager.cpp:522 lpr/matichandler.cpp:244 lpr/matichandler.cpp:347
 #, kde-format
 msgid ""
 "Unable to create the Foomatic driver [%1,%2]. Either that driver does not "
@@ -339,6 +392,7 @@ msgstr ""
 "bestaan, of jy moet nie het die benodig regte na aan te bring wat operasie."
 
 #: cups/kmcupsmanager.cpp:658
+#, kde-format
 msgid "Library cupsdconf not found. Check your installation."
 msgstr "Biblioteek cupsdconf nie gevind. Bevestig jou installasie."
 
@@ -348,10 +402,12 @@ msgid "Symbol %1 not found in cupsdconf library."
 msgstr "Simbool %1 nie gevind in cupsdconf biblioteek."
 
 #: cups/kmcupsmanager.cpp:732
+#, kde-format
 msgid "&Export Driver..."
 msgstr "Voer uit Drywer..."
 
 #: cups/kmcupsmanager.cpp:738
+#, kde-format
 msgid "&Printer IPP Report"
 msgstr "Drukker Ipp Raporteer"
 
@@ -361,10 +417,12 @@ msgid "IPP Report for %1"
 msgstr "Ipp Raporteer vir %1"
 
 #: cups/kmcupsmanager.cpp:786
+#, kde-format
 msgid "Unable to retrieve printer information. Error received:"
 msgstr "Nie moontlik na onttrek drukker informasie. Fout ontvang:"
 
 #: cups/kmcupsmanager.cpp:799
+#, kde-format
 msgid "Server"
 msgstr "Bediener"
 
@@ -378,14 +436,17 @@ msgstr ""
 "geïnstalleer en wat loop. Fout: %1."
 
 #: cups/kmcupsmanager.cpp:831
+#, kde-format
 msgid "the IPP request failed for an unknown reason"
 msgstr "die Ipp versoek gevaal vir 'n onbekende rede"
 
 #: cups/kmcupsmanager.cpp:868
+#, kde-format
 msgid "connection refused"
 msgstr "verbinding geweier"
 
 #: cups/kmcupsmanager.cpp:871
+#, kde-format
 msgid "host not found"
 msgstr "bediener nie gevind"
 
@@ -404,6 +465,7 @@ msgstr ""
 "geïnstalleer en wat loop. Fout: %1."
 
 #: cups/kmcupsuimanager.cpp:97
+#, kde-format
 msgid ""
 "<qt><p>Print queue on remote CUPS server</p><p>Use this for a print queue "
 "installed on a remote machine running a CUPS server. This allows to use "
@@ -411,6 +473,7 @@ msgid ""
 msgstr ""
 
 #: cups/kmcupsuimanager.cpp:104
+#, kde-format
 msgid ""
 "<qt><p>Network IPP printer</p><p>Use this for a network-enabled printer "
 "using the IPP protocol. Modern high-end printers can use this mode. Use this "
@@ -418,6 +481,7 @@ msgid ""
 msgstr ""
 
 #: cups/kmcupsuimanager.cpp:111
+#, kde-format
 msgid ""
 "<qt><p>Fax/Modem printer</p><p>Use this for a fax/modem printer. This "
 "requires the installation of the <a href=\"http://vigna.dsi.unimi.it/"
@@ -426,6 +490,7 @@ msgid ""
 msgstr ""
 
 #: cups/kmcupsuimanager.cpp:118
+#, kde-format
 msgid ""
 "<qt><p>Other printer</p><p>Use this for any printer type. To use this "
 "option, you must know the URI of the printer you want to install. Refer to "
@@ -435,6 +500,7 @@ msgid ""
 msgstr ""
 
 #: cups/kmcupsuimanager.cpp:126
+#, kde-format
 msgid ""
 "<qt><p>Class of printers</p><p>Use this to create a class of printers. When "
 "sending a document to a class, the document is actually sent to the first "
@@ -443,135 +509,168 @@ msgid ""
 msgstr ""
 
 #: cups/kmcupsuimanager.cpp:139
+#, kde-format
 msgid "Re&mote CUPS server (IPP/HTTP)"
 msgstr "Afgeleë Cups bediener (Ipp/Http)"
 
 #: cups/kmcupsuimanager.cpp:140
+#, kde-format
 msgid "Network printer w/&IPP (IPP/HTTP)"
 msgstr "Netwerk drukker w/Ipp (Ipp/Http)"
 
 #: cups/kmcupsuimanager.cpp:141
+#, kde-format
 msgid "S&erial Fax/Modem printer"
 msgstr "Reeksnommer Faks/Modem drukker"
 
 #: cups/kmcupsuimanager.cpp:142
+#, kde-format
 msgid "Other &printer type"
 msgstr "Ander drukker tipe"
 
 #: cups/kmcupsuimanager.cpp:144
+#, kde-format
 msgid "Cl&ass of printers"
 msgstr "Klas van drukkers"
 
 #: cups/kmcupsuimanager.cpp:175
+#, kde-format
 msgid "An error occurred while retrieving the list of available backends:"
 msgstr "'n fout voorgekom terwyl onttrek die lys van beskikbare agtereindes:"
 
 #: cups/kmcupsuimanager.cpp:230
+#, kde-format
 msgid "Priority"
 msgstr "Prioriteit"
 
 #: cups/kmcupsuimanager.cpp:230
+#, kde-format
 msgid "Billing Information"
 msgstr "Betaling Informasie"
 
 #: cups/kmpropbanners.cpp:37 cups/kmwbanners.cpp:92
+#, kde-format
 msgid "&Starting banner:"
 msgstr "Beginne bannier:"
 
 #: cups/kmpropbanners.cpp:38 cups/kmwbanners.cpp:93
+#, kde-format
 msgid "&Ending banner:"
 msgstr "Wat eindig bannier:"
 
 #: cups/kmpropbanners.cpp:53 kpgeneralpage.cpp:300
+#, kde-format
 msgid "Banners"
 msgstr "Baniere"
 
 #: cups/kmpropbanners.cpp:54
+#, kde-format
 msgid "Banner Settings"
 msgstr "Bannier Instellings"
 
 #: cups/kmpropquota.cpp:39 cups/kmwquota.cpp:96
+#, kde-format
 msgid "&Period:"
 msgstr "Periode:"
 
 #: cups/kmpropquota.cpp:40 cups/kmwquota.cpp:97
+#, kde-format
 msgid "&Size limit (KB):"
 msgstr "Grootte beperk (Kb):"
 
 #: cups/kmpropquota.cpp:41 cups/kmwquota.cpp:98
+#, kde-format
 msgid "&Page limit:"
 msgstr "Bladsy beperk:"
 
 #: cups/kmpropquota.cpp:59
+#, kde-format
 msgid "Quotas"
 msgstr "Kwotas"
 
 #: cups/kmpropquota.cpp:60
+#, kde-format
 msgid "Quota Settings"
 msgstr "Kwota Instellings"
 
 #: cups/kmpropquota.cpp:79 cups/kmwquota.cpp:84
+#, kde-format
 msgid "No quota"
 msgstr "Nee kwota"
 
 #: cups/kmpropquota.cpp:80 cups/kmpropquota.cpp:81 cups/kmwquota.cpp:87
 #: cups/kmwquota.cpp:90
+#, kde-format
 msgid "None"
 msgstr "Geen"
 
 #: cups/kmpropusers.cpp:40 cups/kmwusers.cpp:39
+#, kde-format
 msgid "Users"
 msgstr "Gebruikers"
 
 #: cups/kmpropusers.cpp:41 cups/kmwusers.cpp:36
+#, kde-format
 msgid "Users Access Settings"
 msgstr "Gebruikers Toegang verkry Instellings"
 
 #: cups/kmpropusers.cpp:55
+#, kde-format
 msgid "Denied users"
 msgstr "Verbied gebruikers"
 
 #: cups/kmpropusers.cpp:60
+#, kde-format
 msgid "Allowed users"
 msgstr "Toegelaat gebruikers"
 
 #: cups/kmpropusers.cpp:72
+#, kde-format
 msgid "All users allowed"
 msgstr "Alle gebruikers toegelaat"
 
 #: cups/kmwbanners.cpp:57
+#, kde-format
 msgid "No Banner"
 msgstr "Nee Bannier"
 
 #: cups/kmwbanners.cpp:58
+#, kde-format
 msgid "Classified"
 msgstr "Geklassifiseer"
 
 #: cups/kmwbanners.cpp:59
+#, kde-format
 msgid "Confidential"
 msgstr "Konfidentiële"
 
 #: cups/kmwbanners.cpp:60
+#, kde-format
 msgid "Secret"
 msgstr "Geheim"
 
 #: cups/kmwbanners.cpp:61
+#, kde-format
 msgid "Standard"
 msgstr "Standaard"
 
 #: cups/kmwbanners.cpp:62
+#, kde-format
 msgid "Top Secret"
 msgstr "Bo Geheim"
 
 #: cups/kmwbanners.cpp:63
+#, kde-format
 msgid "Unclassified"
 msgstr "Ongeklasifiseerde"
 
 #: cups/kmwbanners.cpp:86
+#, kde-format
 msgid "Banner Selection"
 msgstr "Bannier Keuse"
 
 #: cups/kmwbanners.cpp:100
+#, kde-format
 msgid ""
 "<p>Select the default banners associated with this printer. These banners "
 "will be inserted before and/or after each print job sent to the printer. If "
@@ -582,22 +681,27 @@ msgstr ""
 "moet nie wil hê na gebruik baniere, Kies <b>Nee Bannier</b>.</p>"
 
 #: cups/kmwfax.cpp:37
+#, kde-format
 msgid "Fax Serial Device"
 msgstr "Faks Reeksnommer Toestel"
 
 #: cups/kmwfax.cpp:42
+#, kde-format
 msgid "<p>Select the device which your serial Fax/Modem is connected to.</p>"
 msgstr "<p>Kies die toestel wat jou reeksnommer Faks/Modem is verbind na.</p>"
 
 #: cups/kmwfax.cpp:73
+#, kde-format
 msgid "You must select a device."
 msgstr "Jy moet kies 'n toestel."
 
 #: cups/kmwipp.cpp:35
+#, kde-format
 msgid "Remote IPP server"
 msgstr "Afgeleë Ipp bediener"
 
 #: cups/kmwipp.cpp:39
+#, kde-format
 msgid ""
 "<p>Enter the information concerning the remote IPP server owning the "
 "targeted printer. This wizard will poll the server before continuing.</p>"
@@ -608,18 +712,22 @@ msgstr ""
 
 #: cups/kmwipp.cpp:42 management/kmwlpd.cpp:48 rlpr/kmproprlpr.cpp:34
 #: rlpr/kmwrlpr.cpp:62
+#, kde-format
 msgid "Host:"
 msgstr "Bediener:"
 
 #: cups/kmwipp.cpp:43
+#, kde-format
 msgid "Port:"
 msgstr "Poort:"
 
 #: cups/kmwipp.cpp:51 management/kmwsmb.cpp:87
+#, kde-format
 msgid "Empty server name."
 msgstr "Leeg bediener naam."
 
 #: cups/kmwipp.cpp:57
+#, kde-format
 msgid "Incorrect port number."
 msgstr "Verkeerde poort nommer."
 
@@ -630,14 +738,17 @@ msgstr ""
 "<nobr>Nie moontlik om te konnekteer na <b>%1</b> op poort <b>%2</b> .</nobr>"
 
 #: cups/kmwippprinter.cpp:43
+#, kde-format
 msgid "IPP Printer Information"
 msgstr "Ipp Drukker Informasie"
 
 #: cups/kmwippprinter.cpp:53
+#, kde-format
 msgid "&Printer URI:"
 msgstr "Drukker Uri:"
 
 #: cups/kmwippprinter.cpp:61
+#, kde-format
 msgid ""
 "<p>Either enter the printer URI directly, or use the network scanning "
 "facility.</p>"
@@ -646,14 +757,17 @@ msgstr ""
 "fasiliteit.</p>"
 
 #: cups/kmwippprinter.cpp:62
+#, kde-format
 msgid "&IPP Report"
 msgstr "Ipp Raport"
 
 #: cups/kmwippprinter.cpp:110
+#, kde-format
 msgid "You must enter a printer URI."
 msgstr "Jy moet invoer 'n drukker Uri."
 
 #: cups/kmwippprinter.cpp:116 management/kmwsocket.cpp:118
+#, kde-format
 msgid "No printer found at this address/port."
 msgstr "Geen drukker gevind na hierdie adres/poort."
 
@@ -688,20 +802,23 @@ msgid "<b>Model</b>: %1<br />"
 msgstr "<b>Model</b>: %1<br>"
 
 #: cups/kmwippprinter.cpp:180 kmprinter.cpp:135
+#, kde-format
 msgid "Idle"
 msgstr "Luier"
 
 #: cups/kmwippprinter.cpp:181 kmprinter.cpp:137
+#, kde-format
 msgid "Stopped"
 msgstr "Op gehou"
 
 #: cups/kmwippprinter.cpp:182 kmjob.cpp:110 kmprinter.cpp:136
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Processing..."
 msgid "Processing..."
 msgstr "Verwerking..."
 
 #: cups/kmwippprinter.cpp:183 kmjob.cpp:131 kmprinter.cpp:138
+#, kde-format
 msgctxt "Unknown State"
 msgid "Unknown"
 msgstr "Onbekende"
@@ -727,18 +844,22 @@ msgstr ""
 "%2)."
 
 #: cups/kmwippselect.cpp:36
+#, kde-format
 msgid "Remote IPP Printer Selection"
 msgstr "Afgeleë Ipp Drukker Keuse"
 
 #: cups/kmwippselect.cpp:50
+#, kde-format
 msgid "You must select a printer."
 msgstr "Jy moet 'n drukker kies."
 
 #: cups/kmwother.cpp:41
+#, kde-format
 msgid "URI Selection"
 msgstr "Uri Keuse"
 
 #: cups/kmwother.cpp:47
+#, kde-format
 msgid ""
 "<p>Enter the URI corresponding to the printer to be installed. Examples:</"
 "p><ul><li>smb://[login[:passwd]@]server/printer</li><li>lpd://server/queue</"
@@ -750,6 +871,7 @@ msgstr ""
 
 #: cups/kmwother.cpp:52 management/kminfopage.cpp:53
 #: management/kmpropbackend.cpp:35 management/kmwlocal.cpp:54
+#, kde-format
 msgid "URI:"
 msgstr "Uri:"
 
@@ -759,35 +881,42 @@ msgid "CUPS Server %1:%2"
 msgstr "Cups bediener %1:%2"
 
 #: cups/kmwquota.cpp:46
+#, kde-format
 msgid "second(s)"
 msgstr "tweede(s)"
 
 #: cups/kmwquota.cpp:47
+#, kde-format
 msgid "minute(s)"
 msgstr "minuut(s)"
 
 #: cups/kmwquota.cpp:48
+#, kde-format
 msgid "hour(s)"
 msgstr "uur(s)"
 
 #: cups/kmwquota.cpp:49
+#, kde-format
 msgid "day(s)"
 msgstr "dag(s)"
 
 #: cups/kmwquota.cpp:50
+#, kde-format
 msgid "week(s)"
 msgstr "week(s)"
 
 #: cups/kmwquota.cpp:51
+#, kde-format
 msgid "month(s)"
 msgstr "maand(s)"
 
 #: cups/kmwquota.cpp:79
+#, kde-format
 msgid "Printer Quota Settings"
 msgstr "Drukker Kwota Instellings"
 
 #: cups/kmwquota.cpp:106
-#, fuzzy
+#, fuzzy, kde-format
 msgid ""
 "<p>Set here the quota for this printer. Using limits of <b>0</b> means that "
 "no quota will be used. This is equivalent to setting the quota period to "
@@ -800,27 +929,33 @@ msgstr ""
 "gedefinieër op 'n per-user basis en aangewend na alle gebruikers.</p>"
 
 #: cups/kmwquota.cpp:133
+#, kde-format
 msgid "You must specify at least one quota limit."
 msgstr "Jy moet ten minste spesifiseer een kwota beperk."
 
 #: cups/kmwusers.cpp:41
+#, kde-format
 msgid "Allowed Users"
 msgstr "Toegelaat Gebruikers"
 
 #: cups/kmwusers.cpp:42
+#, kde-format
 msgid "Denied Users"
 msgstr "Verbied Gebruikers"
 
 #: cups/kmwusers.cpp:44
+#, kde-format
 msgid "Define here a group of allowed/denied users for this printer."
 msgstr ""
 "Definieer hier 'n groep van toegelaat/verbied gebruikers vir hierdie drukker."
 
 #: cups/kmwusers.cpp:45 management/kxmlcommanddlg.cpp:116
+#, kde-format
 msgid "&Type:"
 msgstr "Tipe:"
 
 #: cups/kphpgl2page.cpp:32
+#, kde-format
 msgid ""
 " <qt> <b>Print in Black Only (Blackplot)</b>  <p>The 'blackplot' option "
 "specifies that all pens should plot in black-only: The default is to use the "
@@ -832,6 +967,7 @@ msgid ""
 msgstr ""
 
 #: cups/kphpgl2page.cpp:47
+#, kde-format
 msgid ""
 " <qt> <b>Scale Print Image to Page Size</b>  <p>The 'fitplot' option "
 "specifies that the HP-GL image should be scaled to fill exactly the page "
@@ -849,6 +985,7 @@ msgid ""
 msgstr ""
 
 #: cups/kphpgl2page.cpp:67
+#, kde-format
 msgid ""
 " <qt> <b>Set Pen Width for HP-GL (if not defined in file)</b>.  <p>The pen "
 "width value can be set here in case the original HP-GL file does not have it "
@@ -863,6 +1000,7 @@ msgid ""
 msgstr ""
 
 #: cups/kphpgl2page.cpp:84
+#, kde-format
 msgid ""
 " <qt> <b>HP-GL Print Options</b> <p>All options on this page are only "
 "applicable if you use KDEPrint to send HP-GL and HP-GL/2 files to one of "
@@ -881,22 +1019,27 @@ msgid ""
 msgstr ""
 
 #: cups/kphpgl2page.cpp:112
+#, kde-format
 msgid "HP-GL/2 Options"
 msgstr "HP-GL/2 Opsies"
 
 #: cups/kphpgl2page.cpp:115
+#, kde-format
 msgid "&Use only black pen"
 msgstr "Gebruik slegs swart pen"
 
 #: cups/kphpgl2page.cpp:118
+#, kde-format
 msgid "&Fit plot to page"
 msgstr "Pas tema na bladsy"
 
 #: cups/kphpgl2page.cpp:122
+#, kde-format
 msgid "&Pen width:"
 msgstr "Pen wydte:"
 
 #: cups/kpimagepage.cpp:43
+#, kde-format
 msgid ""
 " <qt> <p><b>Brightness:</b> Slider to control the brightness value of all "
 "colors used.</p> <p>The brightness value can range from 0 to 200. Values "
@@ -908,6 +1051,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpimagepage.cpp:57
+#, kde-format
 msgid ""
 " <qt> <p><b>Hue (Tint):</b> Slider to control the hue value for color "
 "rotation.</p> <p>The hue value is a number from -360 to 360 and represents "
@@ -928,6 +1072,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpimagepage.cpp:82
+#, kde-format
 msgid ""
 " <qt>  <p><b>Saturation:</b> Slider to control the saturation value for all "
 "colors used.</p> <p> The saturation value adjusts the saturation of the "
@@ -942,6 +1087,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpimagepage.cpp:100
+#, kde-format
 msgid ""
 " <qt>  <p><b>Gamma:</b> Slider to control the gamma value for color "
 "correction.</p> <p> The gamma value can range from 1 to 3000. A gamma value "
@@ -954,6 +1100,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpimagepage.cpp:117
+#, kde-format
 msgid ""
 " <qt>  <p><b>Image Printing Options</b></p> <p>All options controlled on "
 "this page only apply to printing images. Most image file formats are "
@@ -966,6 +1113,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpimagepage.cpp:135
+#, kde-format
 msgid ""
 " <qt> <p><b>Coloration Preview Thumbnail</b></p> <p>The coloration preview "
 "thumbnail indicates change of image coloration by different settings. "
@@ -977,6 +1125,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpimagepage.cpp:151
+#, kde-format
 msgid ""
 " <qt>  <p><b>Image Size:</b> Drop-down menu to control the image size on the "
 "printed paper. The menu works in conjunction with slider below. The options "
@@ -1010,6 +1159,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpimagepage.cpp:191
+#, kde-format
 msgid ""
 " <qt> <p><b>Position Preview Thumbnail</b></p> <p>This position preview "
 "thumbnail indicates the position of the image on the paper sheet.</p> "
@@ -1021,6 +1171,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpimagepage.cpp:209
+#, kde-format
 msgid ""
 "<qt> <p><b>Reset to Default Values</b></p> <p>Reset all coloration settings "
 "to default values. Default values are: <ul> <li> Brightness: 100 </li> <li> "
@@ -1029,6 +1180,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpimagepage.cpp:221
+#, kde-format
 msgid ""
 " <qt>  <p><b>Image Positioning:</b></p> <p>Select a pair of radio buttons to "
 "move the image to the position you want on the paper printout. Default is "
@@ -1039,64 +1191,77 @@ msgid ""
 msgstr ""
 
 #: cups/kpimagepage.cpp:236
+#, kde-format
 msgid "Image"
 msgstr "Beeld"
 
 #: cups/kpimagepage.cpp:238
+#, kde-format
 msgid "Color Settings"
 msgstr "Kleur Instellings"
 
 #: cups/kpimagepage.cpp:241
+#, kde-format
 msgid "Image Size"
 msgstr "Beeld Grootte"
 
 #: cups/kpimagepage.cpp:244
+#, kde-format
 msgid "Image Position"
 msgstr "Beeld Posisie"
 
 #: cups/kpimagepage.cpp:249
+#, kde-format
 msgid "&Brightness:"
 msgstr "Helderheid:"
 
 #: cups/kpimagepage.cpp:254
+#, kde-format
 msgid "&Hue (Color rotation):"
 msgstr "Hue (Kleur rotering):"
 
 #: cups/kpimagepage.cpp:259
+#, kde-format
 msgid "&Saturation:"
 msgstr "Versadiging:"
 
 #: cups/kpimagepage.cpp:264
+#, kde-format
 msgid "&Gamma (Color correction):"
 msgstr "Gamma (Kleur regstelling):"
 
 #: cups/kpimagepage.cpp:285
+#, kde-format
 msgid "&Default Settings"
 msgstr "Verstek Instellings"
 
 #: cups/kpimagepage.cpp:291
+#, kde-format
 msgid "Natural Image Size"
 msgstr "Natuurlike Beeld Grootte"
 
 #: cups/kpimagepage.cpp:292
+#, kde-format
 msgid "Resolution (ppi)"
 msgstr "Opkyk (ppi)"
 
 #: cups/kpimagepage.cpp:294
-#, no-c-format
+#, no-c-format, kde-format
 msgid "% of Page"
 msgstr "% van Bladsy"
 
 #: cups/kpimagepage.cpp:296
-#, no-c-format
+#, no-c-format, kde-format
 msgid "% of Natural Image Size"
 msgstr "% van Natuurlike Beeld Grootte"
 
 #: cups/kpimagepage.cpp:306
+#, kde-format
 msgid "&Image size type:"
 msgstr "Beeld grootte tipe:"
 
 #: cups/kpschedulepage.cpp:39
+#, kde-format
 msgid ""
 " <qt> <p><b>Print Job Billing and Accounting</b></p>  <p>Insert a meaningful "
 "string here to associate the current print job with a certain account. This "
@@ -1112,6 +1277,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpschedulepage.cpp:59
+#, kde-format
 msgid ""
 " <qt> <p><b>Scheduled Printing</b></p>  <p>Scheduled printing lets you "
 "control the time of the actual printout, while you can still send away your "
@@ -1131,6 +1297,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpschedulepage.cpp:86
+#, kde-format
 msgid ""
 " <qt> <p><b>Page Labels</b></p>  <p>Page Labels are printed by CUPS at the "
 "top and bottom of each page. They appear on the pages surrounded by a little "
@@ -1142,6 +1309,7 @@ msgid ""
 msgstr ""
 
 #: cups/kpschedulepage.cpp:101
+#, kde-format
 msgid ""
 " <qt> <p><b>Job Priority</b></p>  <p>Usually CUPS prints all jobs per queue "
 "according to the \"FIFO\" principle: <em>First In, First Out</em>.</p> <p> "
@@ -1159,70 +1327,84 @@ msgid ""
 msgstr ""
 
 #: cups/kpschedulepage.cpp:125
+#, kde-format
 msgid "Advanced Options"
 msgstr "Gevorderde Opsies"
 
 #: cups/kpschedulepage.cpp:136
+#, kde-format
 msgid "Immediately"
 msgstr "Dadelik"
 
 #: cups/kpschedulepage.cpp:137
+#, kde-format
 msgid "Never (hold indefinitely)"
 msgstr "Moet nooit (hou onbepaald)"
 
 #: cups/kpschedulepage.cpp:138
+#, kde-format
 msgid "Daytime "
 msgstr ""
 
 #: cups/kpschedulepage.cpp:139
+#, kde-format
 msgid "Evening"
 msgstr ""
 
 #: cups/kpschedulepage.cpp:140
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "&Right:"
 msgid "Night"
 msgstr "Regterkant:"
 
 #: cups/kpschedulepage.cpp:141
+#, kde-format
 msgid "Weekend"
 msgstr "Naweek"
 
 #: cups/kpschedulepage.cpp:142
+#, kde-format
 msgid "Second Shift (after close of business)"
 msgstr ""
 
 #: cups/kpschedulepage.cpp:143
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Third Shift (12 am - 8 am)"
 msgid "Third Shift (after midnight)"
 msgstr "Derde Verskuiwende (12 vm - 8 vm)"
 
 #: cups/kpschedulepage.cpp:144
+#, kde-format
 msgid "Specified Time"
 msgstr "Gespesifiseer Tyd"
 
 #: cups/kpschedulepage.cpp:162
+#, kde-format
 msgid "&Scheduled printing:"
 msgstr "&Skeduleer besig om te druk:"
 
 #: cups/kpschedulepage.cpp:165
+#, kde-format
 msgid "&Billing information:"
 msgstr "Betaling informasie:"
 
 #: cups/kpschedulepage.cpp:168
+#, kde-format
 msgid "T&op/Bottom page label:"
 msgstr "Bo/Bodem bladsy etiket:"
 
 #: cups/kpschedulepage.cpp:171
+#, kde-format
 msgid "&Job priority:"
 msgstr "Werk prioriteit:"
 
 #: cups/kpschedulepage.cpp:204
+#, kde-format
 msgid "The time specified is not valid."
 msgstr "Die tyd gespesifiseer is nie geldige."
 
 #: cups/kptagspage.cpp:36
+#, kde-format
 msgid ""
 " <ul> <li>'Use any current or future standard CUPS job option' is not "
 "supported by the KDEPrint GUI.</li> <li>Control any custom job option you "
@@ -1256,20 +1438,24 @@ msgid ""
 msgstr ""
 
 #: cups/kptagspage.cpp:73
+#, kde-format
 msgid "Additional Tags"
 msgstr "Aditionele Etiket"
 
 #: cups/kptagspage.cpp:77 kfilelist.cpp:100 kpfilterpage.cpp:396
 #: management/kmjobviewer.cpp:258 management/kmwend.cpp:54
 #: management/kxmlcommanddlg.cpp:141 management/kxmlcommanddlg.cpp:551
+#, kde-format
 msgid "Name"
 msgstr "Naam"
 
 #: cups/kptagspage.cpp:77
+#, kde-format
 msgid "Value"
 msgstr "Waarde"
 
 #: cups/kptagspage.cpp:93
+#, kde-format
 msgid "Read-Only"
 msgstr "Lees-alleen"
 
@@ -1281,6 +1467,7 @@ msgstr ""
 "b>."
 
 #: cups/kptextpage.cpp:40
+#, kde-format
 msgid ""
 " <qt> <p><b>Characters Per Inch</b></p> <p>This setting controls the "
 "horizontal size of characters when printing a text file. </p> <p>The default "
@@ -1292,6 +1479,7 @@ msgid ""
 msgstr ""
 
 #: cups/kptextpage.cpp:54
+#, kde-format
 msgid ""
 " <qt> <p><b>Lines Per Inch</b></p>  <p>This setting controls the vertical "
 "size of characters when printing a text file. </p> <p>The default value is "
@@ -1303,6 +1491,7 @@ msgid ""
 msgstr ""
 
 #: cups/kptextpage.cpp:68
+#, kde-format
 msgid ""
 " <qt> <p><b>Columns</b></p> <p>This setting controls how many columns of "
 "text will be printed on each page when printing text files. </p> <p>The "
@@ -1314,10 +1503,12 @@ msgid ""
 msgstr ""
 
 #: cups/kptextpage.cpp:83
+#, kde-format
 msgid " <qt>  Preview icon changes when you turn on or off prettyprint.  </qt>"
 msgstr ""
 
 #: cups/kptextpage.cpp:86
+#, kde-format
 msgid ""
 " <qt> <p><b>Text Formats</b></p> <p>These settings control the appearance of "
 "text on printouts. They are only valid for printing text files or input "
@@ -1334,6 +1525,7 @@ msgid ""
 msgstr ""
 
 #: cups/kptextpage.cpp:107
+#, kde-format
 msgid ""
 " <qt> <p><b>Margins</b></p> <p>These settings control the margins of "
 "printouts on the paper. They are not valid for jobs originating from "
@@ -1354,6 +1546,7 @@ msgid ""
 msgstr ""
 
 #: cups/kptextpage.cpp:133
+#, kde-format
 msgid ""
 " <qt> <p><b>Turn Text Printing with Syntax Highlighting (Prettyprint) On.</"
 "b></p> <p>ASCII text file printouts can be 'prettyfied' by enabling this "
@@ -1369,6 +1562,7 @@ msgid ""
 msgstr ""
 
 #: cups/kptextpage.cpp:152
+#, kde-format
 msgid ""
 " <qt> <p><b>Turn Text Printing with Syntax Highlighting (Prettyprint) Off.</"
 "b></p> <p>ASCII text file printed with this option turned off appear without "
@@ -1379,6 +1573,7 @@ msgid ""
 msgstr ""
 
 #: cups/kptextpage.cpp:166
+#, kde-format
 msgid ""
 " <qt> <p><b>Print Text with Syntax Highlighting (Prettyprint)</b></p>  "
 "<p>ASCII file printouts can be 'prettyfied' by enabling this option. If you "
@@ -1394,60 +1589,74 @@ msgid ""
 msgstr ""
 
 #: cups/kptextpage.cpp:187
+#, kde-format
 msgid "Text"
 msgstr "Teks"
 
 #: cups/kptextpage.cpp:190
+#, kde-format
 msgid "Text Format"
 msgstr "Teks Formaat"
 
 #: cups/kptextpage.cpp:193
+#, kde-format
 msgid "Syntax Highlighting"
 msgstr "Sintaks Verligting"
 
 #: cups/kptextpage.cpp:196 kpmarginpage.cpp:41 kpmarginpage.cpp:44
+#, kde-format
 msgid "Margins"
 msgstr "Kantlyne"
 
 #: cups/kptextpage.cpp:202
+#, kde-format
 msgid "&Chars per inch:"
 msgstr "Karakters per duim:"
 
 #: cups/kptextpage.cpp:206
+#, kde-format
 msgid "&Lines per inch:"
 msgstr "Lyne per duim:"
 
 #: cups/kptextpage.cpp:210
+#, kde-format
 msgid "C&olumns:"
 msgstr "Kolomme:"
 
 #: cups/kptextpage.cpp:221
+#, kde-format
 msgid "&Disabled"
 msgstr "Gestremde"
 
 #: cups/kptextpage.cpp:223
+#, kde-format
 msgid "&Enabled"
 msgstr "Geaktiveer"
 
 #: driver.cpp:359 kpgeneralpage.cpp:257 lpd/lpdtools.cpp:290
 #: management/kmconfiggeneral.cpp:45 management/kmpropgeneral.cpp:56
 #: management/kmwend.cpp:52
+#, kde-format
 msgid "General"
 msgstr "Algemeen"
 
 #: driver.cpp:367 foomatic2loader.cpp:234
+#, kde-format
 msgid "Adjustments"
 msgstr "Verstellings"
 
 #: driver.cpp:369
+#, kde-format
 msgid "JCL"
 msgstr "JCL"
 
 #: driver.cpp:371 management/kmwlocal.cpp:60
+#, kde-format
 msgid "Others"
 msgstr "Andere"
 
 #: driverview.cpp:39
+#, kde-format
 msgid ""
 " <qt> <b>List of Driver Options (from PPD)</b>. <p>The upper pane of this "
 "dialog page contains all print job options as laid down in the printer's "
@@ -1471,6 +1680,7 @@ msgid ""
 msgstr ""
 
 #: driverview.cpp:63
+#, kde-format
 msgid ""
 " <qt> <b>List of Possible Values for given Option (from PPD)</b>. <p>The "
 "lower pane of this dialog page contains all possible values of the print "
@@ -1493,30 +1703,37 @@ msgid ""
 msgstr ""
 
 #: droptionview.cpp:61
+#, kde-format
 msgid "Value:"
 msgstr "Waarde:"
 
 #: droptionview.cpp:169
+#, kde-format
 msgid "String value:"
 msgstr "String waarde:"
 
 #: droptionview.cpp:297 droptionview.cpp:351
+#, kde-format
 msgid "No Option Selected"
 msgstr "Nee Opsie Gekose"
 
 #: ext/kextprinterimpl.cpp:46
+#, kde-format
 msgid "Empty print command."
 msgstr "Leeg druk opdrag."
 
 #: ext/kmextmanager.cpp:40
+#, kde-format
 msgid "PS_printer"
 msgstr "PS_printer"
 
 #: ext/kmextmanager.cpp:42
+#, kde-format
 msgid "PostScript file generator"
 msgstr "Postscript lêer genereerder"
 
 #: foomatic/kfoomaticprinterimpl.cpp:49 lpdunix/klpdunixprinterimpl.cpp:70
+#, kde-format
 msgid ""
 "No valid print executable was found in your path. Check your installation."
 msgstr ""
@@ -1524,11 +1741,12 @@ msgstr ""
 "installasie."
 
 #: foomatic/kmfoomaticmanager.cpp:67
+#, kde-format
 msgid "This is not a Foomatic printer"
 msgstr "Hierdie is nie 'n Foomaties drukker"
 
 #: foomatic/kmfoomaticmanager.cpp:70
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Some printer information is missing"
 msgstr "Sommige drukker informasie word kort"
 
@@ -1545,6 +1763,7 @@ msgstr ""
 "p><br>%1"
 
 #: kdeprintd/kdeprintd.cpp:185
+#, kde-format
 msgid ""
 "Some of the files to printed are not readable by the KDE print daemon. This "
 "may happen if you are trying to print as a different user to the one "
@@ -1553,7 +1772,7 @@ msgid ""
 msgstr ""
 
 #: kdeprintd/kdeprintd.cpp:190
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Enter the root password"
 msgstr "Voorsien root se Wagwoord"
 
@@ -1563,6 +1782,7 @@ msgid "Printing Status - %1"
 msgstr "Besig om te druk Status - %1"
 
 #: kdeprintd/kdeprintd.cpp:267
+#, kde-format
 msgid "Printing system"
 msgstr "Druk stelsel"
 
@@ -1572,6 +1792,7 @@ msgid "Authentication failed (user name=%1)"
 msgstr "Geldigheidsverklaring Gevaal (gebruiker naam=%1)"
 
 #: kdeprintd/kprintprocess.cpp:81
+#, kde-format
 msgid "File transfer failed."
 msgstr "Lêer oordrag gevaal."
 
@@ -1586,6 +1807,7 @@ msgid "<b>%1</b>: execution failed with message:<p>%2</p>"
 msgstr "<b>%1</b>: uitvoering gevaal met boodskap:<p>%2</p>"
 
 #: kfilelist.cpp:40
+#, kde-format
 msgid ""
 " <qt> <b>Add File button</b> <p>This button calls the <em>'File Open'</em> "
 "dialog to let you select a file for printing. Note, that  <ul><li>you can "
@@ -1596,12 +1818,14 @@ msgid ""
 msgstr ""
 
 #: kfilelist.cpp:52
+#, kde-format
 msgid ""
 " <qt> <b>Remove File button</b> <p>This button removes the highlighted file "
 "from the list of to-be-printed files.</p> </qt>"
 msgstr ""
 
 #: kfilelist.cpp:57
+#, kde-format
 msgid ""
 " <qt> <b>Move File Up button</b> <p>This button moves the highlighted file "
 "up in the list of files to be printed.</p> <p>In effect, this changes the "
@@ -1609,6 +1833,7 @@ msgid ""
 msgstr ""
 
 #: kfilelist.cpp:64
+#, kde-format
 msgid ""
 " <qt> <b>Move File Down button</b> <p>This button moves the highlighted file "
 "down in the list of files to be printed.</p> <p>In effect, this changes the "
@@ -1616,6 +1841,7 @@ msgid ""
 msgstr ""
 
 #: kfilelist.cpp:71
+#, kde-format
 msgid ""
 " <qt> <b>File Open button</b> <p>This button tries to open the highlighted "
 "file, so you can view or edit it before you send it to the printing system.</"
@@ -1624,6 +1850,7 @@ msgid ""
 msgstr ""
 
 #: kfilelist.cpp:80
+#, kde-format
 msgid ""
 " <qt> <b>File List view</b> <p>This list displays all the files you selected "
 "for printing. You can see the file name(s), file path(s) and the file (MIME) "
@@ -1640,34 +1867,42 @@ msgstr ""
 
 #: kfilelist.cpp:100 management/kmwend.cpp:53 management/kmwend.cpp:104
 #: management/kmwend.cpp:106
+#, kde-format
 msgid "Type"
 msgstr "Tipe"
 
 #: kfilelist.cpp:100
+#, kde-format
 msgid "Path"
 msgstr "Gids soeklys"
 
 #: kfilelist.cpp:109
+#, kde-format
 msgid "Add file"
 msgstr "Voeg by lêer"
 
 #: kfilelist.cpp:115
+#, kde-format
 msgid "Remove file"
 msgstr "Verwyder lêer"
 
 #: kfilelist.cpp:122
+#, kde-format
 msgid "Open file"
 msgstr "Open lêer"
 
 #: kfilelist.cpp:129 management/kxmlcommanddlg.cpp:157
+#, kde-format
 msgid "Move up"
 msgstr "Beweeg op"
 
 #: kfilelist.cpp:136 management/kxmlcommanddlg.cpp:158
+#, kde-format
 msgid "Move down"
 msgstr "Beweeg ondertoe"
 
 #: kfilelist.cpp:143
+#, kde-format
 msgid ""
 "Drag file(s) here or use the button to open a file dialog. Leave empty for "
 "<b>&lt;STDIN&gt;</b>."
@@ -1681,49 +1916,52 @@ msgid "<qt>There was an error loading %1. The diagnostic is:<p>%2</p></qt>"
 msgstr "<qt>Daar was 'n fout laaiïng van %1. Die diagnose is:<p>%2</p></qt>"
 
 #: kmjob.cpp:113
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Queued"
 msgid "Queued"
 msgstr "Getou"
 
 #: kmjob.cpp:116
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Held"
 msgid "Held"
 msgstr "Behou"
 
 #: kmjob.cpp:119 tools/escputil/escpwidget.cpp:228
+#, kde-format
 msgid "Error"
 msgstr ""
 
 #: kmjob.cpp:122
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Canceled"
 msgid "Canceled"
 msgstr "Gekanseleer"
 
 #: kmjob.cpp:125
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Aborted"
 msgid "Aborted"
 msgstr "Gekanselleer"
 
 #: kmjob.cpp:128
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Completed"
 msgid "Completed"
 msgstr "Klaar"
 
 #: kmmanager.cpp:75
+#, kde-format
 msgid "This operation is not implemented."
 msgstr "Hierdie operasie is nie geimplementeer."
 
 #: kmmanager.cpp:172
+#, kde-format
 msgid "Unable to locate test page."
 msgstr "Nie moontlik na opspoor toets bladsy."
 
 #: kmmanager.cpp:455
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Can not overwrite regular printer with special printer settings."
 msgstr "Kan nie oorskryf gewone drukker met spesiale drukker instellings."
 
@@ -1738,30 +1976,37 @@ msgid "Unable to load KDE print management library: %1"
 msgstr "Nie moontlik na las Kde druk bestuuring biblioteek: %1"
 
 #: kmmanager.cpp:495 kxmlcommand.cpp:633
+#, kde-format
 msgid "Unable to find wizard object in management library."
 msgstr "Nie moontlik na soek assistent voorwerp in bestuuring biblioteek."
 
 #: kmmanager.cpp:510
+#, kde-format
 msgid "Unable to find options dialog in management library."
 msgstr "Nie moontlik na soek opsies dialoog in bestuuring biblioteek."
 
 #: kmmanager.cpp:537
+#, kde-format
 msgid "No plugin information available"
 msgstr "Nee inplak informasie beskikbaar"
 
 #: kmprinter.cpp:140
+#, kde-format
 msgid "(rejecting jobs)"
 msgstr "(verwerp werke)"
 
 #: kmprinter.cpp:140
+#, kde-format
 msgid "(accepting jobs)"
 msgstr "(aanvaading werke)"
 
 #: kmprinter.cpp:185 kprintdialog.cpp:960
+#, kde-format
 msgid "All Files"
 msgstr "Alle Lêers"
 
 #: kmspecialmanager.cpp:51
+#, kde-format
 msgid ""
 "A file share/kdeprint/specials.desktop was found in your local KDE "
 "directory. This file probably comes from a previous KDE release and should "
@@ -1787,10 +2032,12 @@ msgid ""
 msgstr ""
 
 #: kmvirtualmanager.cpp:159 management/kminstancepage.cpp:93
+#, kde-format
 msgid "Set as Default"
 msgstr "Stel as Verstek"
 
 #: kpcopiespage.cpp:46
+#, kde-format
 msgid ""
 " <qt><p><b>Page Selection</b></p>  <p>Here you can control if you print a "
 "certain selection only out of all the pages from the complete document. </p> "
@@ -1798,12 +2045,14 @@ msgid ""
 msgstr ""
 
 #: kpcopiespage.cpp:51
+#, kde-format
 msgid ""
 " <qt><b>All Pages:</b> Select \"All\" to print the complete document. Since "
 "this is the default, it is pre-selected. </qt>"
 msgstr ""
 
 #: kpcopiespage.cpp:54
+#, kde-format
 msgid ""
 " <qt><b>Current Page:</b> Select <em>\"Current\"</em> if you want to print "
 "the page currently visible in your KDE application. <p><b>Note:</b> this "
@@ -1813,6 +2062,7 @@ msgid ""
 msgstr ""
 
 #: kpcopiespage.cpp:59
+#, kde-format
 msgid ""
 " <qt><b>Page Range:</b> Choose a \"Page Range\" to select a subset of the "
 "complete document pages to be printed. The format is <em>\"n,m,o-p,q,r,s-t, u"
@@ -1825,6 +2075,7 @@ msgid ""
 msgstr ""
 
 #: kpcopiespage.cpp:73
+#, kde-format
 msgid ""
 " <qt><b>Page Set:</b> <p>Choose <em>\"All Pages\"</em>, <em>\"Even Pages\"</"
 "em> or <em>\"Odd Pages\"</em> if you want to print a page selection matching "
@@ -1843,6 +2094,7 @@ msgid ""
 msgstr ""
 
 #: kpcopiespage.cpp:95
+#, kde-format
 msgid ""
 " <qt><b>Output Settings:</b> <p>Here you can determine the number of copies, "
 "the output order and the collate mode for the pages of your print job. "
@@ -1856,6 +2108,7 @@ msgid ""
 msgstr ""
 
 #: kpcopiespage.cpp:113
+#, kde-format
 msgid ""
 " <qt><b>Number of Copies:</b> Determine the number of requested copies here. "
 "<p>You can increase or decrease the number of printed copies by clicking on "
@@ -1867,6 +2120,7 @@ msgid ""
 msgstr ""
 
 #: kpcopiespage.cpp:126
+#, kde-format
 msgid ""
 " <qt><b>Collate Copies</b> <p>If the <em>\"Collate\"</em> checkbox is "
 "enabled (default), the output order for multiple copies of a multi-page "
@@ -1880,6 +2134,7 @@ msgid ""
 msgstr ""
 
 #: kpcopiespage.cpp:140
+#, kde-format
 msgid ""
 " <qt><b>Reverse Order</b> <p> If the <em>\"Reverse\"</em> checkbox is "
 "enabled, the output order for multiple copies of a multi-page document will "
@@ -1895,26 +2150,32 @@ msgid ""
 msgstr ""
 
 #: kpcopiespage.cpp:161
+#, kde-format
 msgid "C&opies"
 msgstr "Kopieë"
 
 #: kpcopiespage.cpp:167
+#, kde-format
 msgid "Page Selection"
 msgstr "Bladsy Keuse"
 
 #: kpcopiespage.cpp:169
+#, kde-format
 msgid "&All"
 msgstr "Alle"
 
 #: kpcopiespage.cpp:171
+#, kde-format
 msgid "Cu&rrent"
 msgstr "Huidige"
 
 #: kpcopiespage.cpp:173
+#, kde-format
 msgid "Ran&ge"
 msgstr "Omvang"
 
 #: kpcopiespage.cpp:178
+#, kde-format
 msgid ""
 "<p>Enter pages or group of pages to print separated by commas (1,2-5,8).</p>"
 msgstr ""
@@ -1922,47 +2183,57 @@ msgstr ""
 "</p>"
 
 #: kpcopiespage.cpp:184
+#, kde-format
 msgid "Output Settings"
 msgstr "Uitset Instellings"
 
 #: kpcopiespage.cpp:186
+#, kde-format
 msgid "Co&llate"
 msgstr "Kollate"
 
 #: kpcopiespage.cpp:188
+#, kde-format
 msgid "Re&verse"
 msgstr "Omgekeerde"
 
 #: kpcopiespage.cpp:193
+#, kde-format
 msgid "Cop&ies:"
 msgstr "Kopieër:"
 
 #: kpcopiespage.cpp:200
+#, kde-format
 msgid "All Pages"
 msgstr "Alle Bladsye"
 
 #: kpcopiespage.cpp:201
+#, kde-format
 msgid "Odd Pages"
 msgstr "Onewe Bladsye"
 
 #: kpcopiespage.cpp:202
+#, kde-format
 msgid "Even Pages"
 msgstr "Al Bladsye"
 
 #: kpcopiespage.cpp:204
+#, kde-format
 msgid "Page &set:"
 msgstr "Bladsy stel:"
 
 #: kpcopiespage.cpp:268
+#, kde-format
 msgid "Pages"
 msgstr "Bladsye"
 
 #: kpdriverpage.cpp:30 management/kmpropdriver.cpp:56
+#, kde-format
 msgid "Driver Settings"
 msgstr "Drywer Instellings"
 
 #: kpdriverpage.cpp:48
-#, fuzzy
+#, fuzzy, kde-format
 msgid ""
 "<qt>Some options selected are in conflict. You must resolve those conflicts "
 "before continuing. See the <b>Driver Settings</b> tab for detailed "
@@ -1973,10 +2244,12 @@ msgstr ""
 "</qt>"
 
 #: kpfileselectpage.cpp:32
+#, kde-format
 msgid "&Files"
 msgstr "Lêers"
 
 #: kpfilterpage.cpp:40
+#, kde-format
 msgid ""
 " <qt> <b>Add Filter button</b> <p>This button calls a little dialog to let "
 "you select a filter here.</p> <p><b>Note 1:</b> You can chain different "
@@ -1988,12 +2261,14 @@ msgid ""
 msgstr ""
 
 #: kpfilterpage.cpp:51
+#, kde-format
 msgid ""
 " <qt> <b>Remove Filter button</b> <p>This button removes the highlighted "
 "filter from the list of filters.</p> </qt>"
 msgstr ""
 
 #: kpfilterpage.cpp:56
+#, kde-format
 msgid ""
 " <qt> <b>Move Filter Up button</b> <p>This button moves the highlighted "
 "filter up in the list of filters, towards the front of the filtering chain. "
@@ -2001,6 +2276,7 @@ msgid ""
 msgstr ""
 
 #: kpfilterpage.cpp:61
+#, kde-format
 msgid ""
 " <qt> <b>Move Filter Down button</b> <p>This button moves the highlighted "
 "filter down in the list of filters, towards the end of the filtering chain.."
@@ -2008,12 +2284,14 @@ msgid ""
 msgstr ""
 
 #: kpfilterpage.cpp:66
+#, kde-format
 msgid ""
 " <qt> <b>Configure Filter button</b> <p>This button lets you configure the "
 "currently highlighted filter. It opens a separate dialog.  </p> </qt>"
 msgstr ""
 
 #: kpfilterpage.cpp:72
+#, kde-format
 msgid ""
 " <qt> <b>Filter Info Pane</b> <p>This field shows some general info about "
 "the selected filter. Amongst them are:  <ul>  <li>the <em>filter name</em> "
@@ -2027,6 +2305,7 @@ msgid ""
 msgstr ""
 
 #: kpfilterpage.cpp:88
+#, kde-format
 msgid ""
 " <qt> <b>Filtering Chain</b> (if enabled, is run <em>before</em> actual job "
 "submission to print system.) <p>This field shows which filters are currently "
@@ -2057,34 +2336,42 @@ msgid ""
 msgstr ""
 
 #: kpfilterpage.cpp:122
+#, kde-format
 msgid "Filters"
 msgstr "Filters"
 
 #: kpfilterpage.cpp:134
+#, kde-format
 msgid "Add filter"
 msgstr "Voeg by filter"
 
 #: kpfilterpage.cpp:139
+#, kde-format
 msgid "Remove filter"
 msgstr "Verwyder filter"
 
 #: kpfilterpage.cpp:144
+#, kde-format
 msgid "Move filter up"
 msgstr "Beweeg filter begin"
 
 #: kpfilterpage.cpp:149
+#, kde-format
 msgid "Move filter down"
 msgstr "Beweeg filter ondertoe"
 
 #: kpfilterpage.cpp:154
+#, kde-format
 msgid "Configure filter"
 msgstr "Konfigureer filter"
 
 #: kpfilterpage.cpp:281
+#, kde-format
 msgid "Internal error: unable to load filter."
 msgstr "Intern fout: nie moontlik na las filter."
 
 #: kpfilterpage.cpp:385
+#, kde-format
 msgid ""
 "<p>The filter chain is wrong. The output format of at least one filter is "
 "not supported by its follower. See <b>Filters</b> tab for more information.</"
@@ -2095,90 +2382,112 @@ msgstr ""
 "meer informasie.</p>"
 
 #: kpfilterpage.cpp:397 management/kxmlcommanddlg.cpp:845
+#, kde-format
 msgid "Requirements"
 msgstr "Benodighede"
 
 #: kpfilterpage.cpp:398
+#, kde-format
 msgid "Input"
 msgstr "Invoer"
 
 #: kpfilterpage.cpp:399 tools/escputil/escpwidget.cpp:226
+#, kde-format
 msgid "Output"
 msgstr "Uitset"
 
 #: kpgeneralpage.cpp:83
+#, kde-format
 msgid "ISO A4"
 msgstr "Iso A4"
 
 #: kpgeneralpage.cpp:84 lpd/lpdtools.cpp:30
+#, kde-format
 msgid "US Letter"
 msgstr "Us Brief"
 
 #: kpgeneralpage.cpp:85 lpd/lpdtools.cpp:29
+#, kde-format
 msgid "US Legal"
 msgstr "Us Wettig"
 
 #: kpgeneralpage.cpp:86 lpd/lpdtools.cpp:28
+#, kde-format
 msgid "Ledger"
 msgstr "Lêer"
 
 #: kpgeneralpage.cpp:87
+#, kde-format
 msgid "Folio"
 msgstr "Folio"
 
 #: kpgeneralpage.cpp:88
+#, kde-format
 msgid "US #10 Envelope"
 msgstr "Us #10 Koevert"
 
 #: kpgeneralpage.cpp:89
+#, kde-format
 msgid "ISO DL Envelope"
 msgstr "Iso Dl Koevert"
 
 #: kpgeneralpage.cpp:90
+#, kde-format
 msgid "Tabloid"
 msgstr "Blad"
 
 #: kpgeneralpage.cpp:91
+#, kde-format
 msgid "ISO A3"
 msgstr "Iso A3"
 
 #: kpgeneralpage.cpp:92
+#, kde-format
 msgid "ISO A2"
 msgstr "Iso A2"
 
 #: kpgeneralpage.cpp:93
+#, kde-format
 msgid "ISO A1"
 msgstr "Iso A1"
 
 #: kpgeneralpage.cpp:94
+#, kde-format
 msgid "ISO A0"
 msgstr "Iso A0"
 
 #: kpgeneralpage.cpp:104
+#, kde-format
 msgid "Upper Tray"
 msgstr "Boonste Laai"
 
 #: kpgeneralpage.cpp:105
+#, kde-format
 msgid "Lower Tray"
 msgstr "Sagter Laai"
 
 #: kpgeneralpage.cpp:106
+#, kde-format
 msgid "Multi-Purpose Tray"
 msgstr "Multi-Purpose Laai"
 
 #: kpgeneralpage.cpp:107
+#, kde-format
 msgid "Large Capacity Tray"
 msgstr "Groot Kapasiteit Laai"
 
 #: kpgeneralpage.cpp:111
+#, kde-format
 msgid "Normal"
 msgstr "Normale"
 
 #: kpgeneralpage.cpp:112
+#, kde-format
 msgid "Transparency"
 msgstr "Deursigtigheid"
 
 #: kpgeneralpage.cpp:121
+#, kde-format
 msgid ""
 " <qt> <p><b>\"General\"</b> </p>  <p>This dialog page contains <em>general</"
 "em> print job settings. General settings are applicable to most printers, "
@@ -2188,6 +2497,7 @@ msgid ""
 msgstr ""
 
 #: kpgeneralpage.cpp:129
+#, kde-format
 msgid ""
 " <qt> <p><b>Page size:</b> Select paper size to be printed on from the drop-"
 "down menu.</p> <p>The exact list of choices depends on the printer driver "
@@ -2198,6 +2508,7 @@ msgid ""
 msgstr ""
 
 #: kpgeneralpage.cpp:142
+#, kde-format
 msgid ""
 " <qt> <p><b>Paper type:</b> Select paper type to be printed on from the drop-"
 "down menu. </p> <p>The exact list of choices depends on the printer driver "
@@ -2208,6 +2519,7 @@ msgid ""
 msgstr ""
 
 #: kpgeneralpage.cpp:155
+#, kde-format
 msgid ""
 " <qt> <p><b>Paper source:</b> Select paper source tray for the paper to be "
 "printed on from the drop-down menu.</p> <p>The exact list of choices depends "
@@ -2219,6 +2531,7 @@ msgid ""
 msgstr ""
 
 #: kpgeneralpage.cpp:168
+#, kde-format
 msgid ""
 " <qt> <p><b>Image Orientation:</b> Orientation of the printed page image on "
 "your paper is controlled by the radio buttons. By default, the orientation "
@@ -2234,6 +2547,7 @@ msgid ""
 msgstr ""
 
 #: kpgeneralpage.cpp:189
+#, kde-format
 msgid ""
 "<qt> <p><b>Duplex Printing:</b> These controls may be grayed out if your "
 "printer does not support <em>duplex printing</em> (i.e. printing on both "
@@ -2255,6 +2569,7 @@ msgid ""
 msgstr ""
 
 #: kpgeneralpage.cpp:214
+#, kde-format
 msgid ""
 " <qt> <p><b>Banner Page(s):</b> Select banner(s) to print one or two special "
 "sheets of paper just before or after your main job.</p> <p>Banners may "
@@ -2275,6 +2590,7 @@ msgid ""
 msgstr ""
 
 #: kpgeneralpage.cpp:236
+#, kde-format
 msgid ""
 "<qt> <p><b>Pages per Sheet:</b>  You can choose to print more than one page "
 "onto each sheet of paper. This is sometimes useful to save paper.</p> "
@@ -2292,82 +2608,100 @@ msgid ""
 msgstr ""
 
 #: kpgeneralpage.cpp:260 kpqtpage.cpp:117
+#, kde-format
 msgid "Page s&ize:"
 msgstr "Bladsy grootte:"
 
 #: kpgeneralpage.cpp:264
+#, kde-format
 msgid "Paper t&ype:"
 msgstr "Papier tipe:"
 
 #: kpgeneralpage.cpp:268
+#, kde-format
 msgid "Paper so&urce:"
 msgstr "Papier bron:"
 
 #: kpgeneralpage.cpp:287 kpqtpage.cpp:122
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Orientation"
 msgstr "Oriëntasie"
 
 #: kpgeneralpage.cpp:291
+#, kde-format
 msgid "Duplex Printing"
 msgstr "Dupleks Besig om te druk"
 
 #: kpgeneralpage.cpp:297 kpqtpage.cpp:148
+#, kde-format
 msgid "Pages per Sheet"
 msgstr "Bladsye per Staat"
 
 #: kpgeneralpage.cpp:304 kpqtpage.cpp:128
+#, kde-format
 msgid "&Portrait"
 msgstr "Portret"
 
 #: kpgeneralpage.cpp:305 kpqtpage.cpp:131
+#, kde-format
 msgid "&Landscape"
 msgstr "Landskap"
 
 #: kpgeneralpage.cpp:306
+#, kde-format
 msgid "&Reverse landscape"
 msgstr "Omgekeerde landskap"
 
 #: kpgeneralpage.cpp:307
+#, kde-format
 msgid "R&everse portrait"
 msgstr "Omgekeerde portret"
 
 #: kpgeneralpage.cpp:312
+#, kde-format
 msgctxt "duplex orientation"
 msgid "&None"
 msgstr "Geen"
 
 #: kpgeneralpage.cpp:313
+#, kde-format
 msgctxt "duplex orientation"
 msgid "Lon&g side"
 msgstr "Lang kant"
 
 #: kpgeneralpage.cpp:314
+#, kde-format
 msgctxt "duplex orientation"
 msgid "S&hort side"
 msgstr "Kort kant"
 
 #: kpgeneralpage.cpp:326
+#, kde-format
 msgid "S&tart:"
 msgstr "Begin:"
 
 #: kpgeneralpage.cpp:327
+#, kde-format
 msgid "En&d:"
 msgstr "Einde:"
 
 #: kpgeneralpage.cpp:424 lpd/lpdtools.cpp:40 management/kmconfiggeneral.cpp:54
+#, kde-format
 msgid "Disabled"
 msgstr "Gestremde"
 
 #: kpgeneralpage.cpp:425 lpd/lpdtools.cpp:39 lpr/editentrydialog.cpp:54
+#, kde-format
 msgid "Enabled"
 msgstr "Geaktiveer"
 
 #: kpposterpage.cpp:40
+#, kde-format
 msgid " <qt>  5.  </qt>"
 msgstr " <qt>  5.  </qt>"
 
 #: kpposterpage.cpp:44
+#, kde-format
 msgid ""
 " <qt>  <b>Print Poster</b> (enabled or disabled). <p>If you enable this "
 "option, you can print posters of different sizes The printout will happen in "
@@ -2377,11 +2711,11 @@ msgid ""
 "dialog. </p> <p>This tab is only visible if the external <em>'poster'</em> "
 "utility is discovered by KDEPrint on your system. [<em>'poster'</em> is a "
 "command line utility that enables you to convert PostScript files into tiled "
-"printouts, with overlap to allow the tiles to be joined together seamlessly.]"
-"</p> <p><b>Note:</b> The standard version of 'poster' will not work. Your "
-"system must use a patched version of 'poster'. Ask your operating system "
-"vendor to provide a patched version of 'poster' if they do not do so already."
-"</p> <p><b>Additional hint for power users:</b> A patched version of "
+"printouts, with overlap to allow the tiles to be joined together "
+"seamlessly.]</p> <p><b>Note:</b> The standard version of 'poster' will not "
+"work. Your system must use a patched version of 'poster'. Ask your operating "
+"system vendor to provide a patched version of 'poster' if they do not do so "
+"already.</p> <p><b>Additional hint for power users:</b> A patched version of "
 "'poster' is available from the <a href=\"http://printing.kde.org/\">KDEPrint "
 "Website</a> at <a href=\"http://printing.kde.org/downloads/\">http://"
 "printing.kde.org/downloads/</a>. The direct link to the patched source "
@@ -2390,10 +2724,11 @@ msgid ""
 msgstr ""
 
 #: kpposterpage.cpp:66
+#, kde-format
 msgid ""
 " <qt> <b>Tile Selection widget</b> <p>This GUI element is <em>not only for "
-"viewing</em> your selections: it also lets you interactively select the tile"
-"(s) you want to print. </p> <p><b>Hints</b> <ul> <li>Click any tile to "
+"viewing</em> your selections: it also lets you interactively select the "
+"tile(s) you want to print. </p> <p><b>Hints</b> <ul> <li>Click any tile to "
 "select it for printing.</li> <li>To select multiple tiles to be printed at "
 "once, <em>'shift-click'</em> on the tiles ('shift-click' means: hold down "
 "the [SHIFT]-key on your keyboard and click with the mouse while [SHIFT]-key "
@@ -2407,6 +2742,7 @@ msgid ""
 msgstr ""
 
 #: kpposterpage.cpp:87
+#, kde-format
 msgid ""
 " <qt> <b>Poster Size</b> <p>Select the poster size you want from the drop-"
 "down list.</p> <p>Available sizes are all standard paper sizes up to 'A0'. "
@@ -2427,6 +2763,7 @@ msgid ""
 msgstr ""
 
 #: kpposterpage.cpp:106
+#, kde-format
 msgid ""
 " <qt> <b>Paper Size</b> <p>This field indicates the paper size the poster "
 "tiles will be printed on. To select a different paper size for your poster "
@@ -2454,6 +2791,7 @@ msgid ""
 msgstr ""
 
 #: kpposterpage.cpp:130
+#, kde-format
 msgid ""
 " <qt>  <b>Cut Margin selection</b>  <p>This slider and spinbox let you "
 "determine a <em>'cut margin'</em> to be printed onto each tile of your "
@@ -2467,6 +2805,7 @@ msgid ""
 msgstr ""
 
 #: kpposterpage.cpp:141
+#, kde-format
 msgid ""
 " <qt> <b>Order and number of tile pages to be printed</b>. <p>This field "
 "displays and sets the individual tiles to be printed, as well as the order "
@@ -2479,43 +2818,52 @@ msgid ""
 msgstr ""
 
 #: kpposterpage.cpp:158
+#, kde-format
 msgid "Poster"
 msgstr "Stuurder"
 
 #: kpposterpage.cpp:160
+#, kde-format
 msgid "&Print poster"
 msgstr "Druk stuurder"
 
 #: kpposterpage.cpp:174
+#, kde-format
 msgid "Poste&r size:"
 msgstr "Stuurder grootte:"
 
 #: kpposterpage.cpp:176
+#, kde-format
 msgid "Media size:"
 msgstr "Media grootte:"
 
 #: kpposterpage.cpp:178
+#, kde-format
 msgid "Pri&nt size:"
 msgstr "Druk grootte:"
 
 #: kpposterpage.cpp:185
-#, no-c-format
+#, no-c-format, kde-format
 msgid "C&ut margin (% of media):"
 msgstr "Knip kantlyn (% van media):"
 
 #: kpposterpage.cpp:189
+#, kde-format
 msgid "&Tile pages (to be printed):"
 msgstr "Teël bladsye (na wees printed):"
 
 #: kpposterpage.cpp:196
+#, kde-format
 msgid "Link/unlink poster and print size"
 msgstr "Skakel/ontkoppel stuurder en druk grootte"
 
 #: kpposterpage.cpp:261
+#, kde-format
 msgid "Unknown"
 msgstr "Onbekende"
 
 #: kpqtpage.cpp:69
+#, kde-format
 msgid ""
 " <qt>  <b>Selection of color mode:</b> You can choose between 2 options:  "
 "<ul><li><b>Color</b> and</li>  <li><b>Grayscale</b></li></ul>  <b>Note:</b> "
@@ -2526,6 +2874,7 @@ msgid ""
 msgstr ""
 
 #: kpqtpage.cpp:78
+#, kde-format
 msgid ""
 " <qt>  <b>Selection of page size:</b> Select the paper size to be printed on "
 "from the drop-down menu. <p>The exact list of choices depends on the printer "
@@ -2533,6 +2882,7 @@ msgid ""
 msgstr ""
 
 #: kpqtpage.cpp:83
+#, kde-format
 msgid ""
 " <qt> <b>Selection of pages per sheet:</b>  You can choose to print more "
 "than one page onto each sheet of paper. This is sometimes useful to save "
@@ -2550,6 +2900,7 @@ msgid ""
 msgstr ""
 
 #: kpqtpage.cpp:101
+#, kde-format
 msgid ""
 " <qt> <b>Selection of image orientation:</b> Orientation of the printed page "
 "image on your paper is controlled by these radio buttons. By default, the "
@@ -2559,30 +2910,37 @@ msgid ""
 msgstr ""
 
 #: kpqtpage.cpp:112
+#, kde-format
 msgid "Print Format"
 msgstr "Druk Formaat"
 
 #: kpqtpage.cpp:126
+#, kde-format
 msgid "Color Mode"
 msgstr "Kleur Modus"
 
 #: kpqtpage.cpp:138
+#, kde-format
 msgid "Colo&r"
 msgstr "Kleur"
 
 #: kpqtpage.cpp:141
+#, kde-format
 msgid "&Grayscale"
 msgstr "Gryskleur"
 
 #: kpqtpage.cpp:156
+#, kde-format
 msgid "Ot&her"
 msgstr "Ander"
 
 #: kprintaction.cpp:106 kprintaction.cpp:114 kprintaction.cpp:122
+#, kde-format
 msgid "&Export..."
 msgstr "Voer uit..."
 
 #: kprintdialog.cpp:95
+#, kde-format
 msgid ""
 " <qt><b>Printer Location:</b> The <em>Location</em> may describe where the "
 "selected printer is located. The Location description is created by the "
@@ -2590,12 +2948,14 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:100
+#, kde-format
 msgid ""
 " <qt><b>Printer Type:</b>  The <em>Type</em> indicates your printer type. </"
 "qt>"
 msgstr ""
 
 #: kprintdialog.cpp:102
+#, kde-format
 msgid ""
 " <qt><b>Printer State:</b>  The <em>State</em> indicates the state of the "
 "print queue on the print server (which could be your localhost). The state "
@@ -2603,6 +2963,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:106
+#, kde-format
 msgid ""
 " <qt><b>Printer Comment:</b>  The <em>Comment</em> may describe the selected "
 "printer. This comment is created by the administrator of the print system "
@@ -2610,6 +2971,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:110
+#, kde-format
 msgid ""
 " <qt><b>Printer Selection Menu:</b>  <p>Use this combo box to select the "
 "printer to which you want to print. Initially (if you run KDEPrint for the "
@@ -2632,12 +2994,14 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:135
+#, kde-format
 msgid ""
 " <qt><b>Print Job Properties:</b>  <p>This button opens a dialog where you "
 "can make decisions regarding all supported print job options.</p> </qt>"
 msgstr ""
 
 #: kprintdialog.cpp:139
+#, kde-format
 msgid ""
 " <qt><b>Selective View on List of Printers:</b> <p> This button reduces the "
 "list of visible printers to a shorter, more convenient, pre-defined list.</"
@@ -2653,6 +3017,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:152
+#, kde-format
 msgid ""
 "<qt><b>KDE Add Printer Wizard</b> <p>This button starts the <em>KDE Add "
 "Printer Wizard</em>.</p> <p>Use the Wizard (with <em>\"CUPS\"</em> or <em>"
@@ -2663,6 +3028,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:161
+#, kde-format
 msgid ""
 " <qt><b>External Print Command</b> <p>Here you can enter any command that "
 "would also print for you in a <em>konsole</em> window. </p> <b>Example:</b> "
@@ -2670,12 +3036,14 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:166
+#, kde-format
 msgid ""
 " <qt><b>Additional Print Job Options</b> <p>This button shows or hides "
 "additional printing options.</p></qt>"
 msgstr ""
 
 #: kprintdialog.cpp:168
+#, kde-format
 msgid ""
 " <qt><b>System Options:</b> <p>This button starts a new dialog where you can "
 "adjust various settings of your printing system. Amongst them: <ul><li> "
@@ -2686,6 +3054,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:180
+#, kde-format
 msgid ""
 " <qt><b>Help:</b> This button takes you to the complete <em>KDEPrint Manual</"
 "em>. </qt>"
@@ -2694,6 +3063,7 @@ msgstr ""
 "Handleidung</em>. </qt>"
 
 #: kprintdialog.cpp:184
+#, kde-format
 msgid ""
 " <qt><b>Cancel:</b> This button cancels your print job and quits the "
 "kprinter dialog. </qt>"
@@ -2702,6 +3072,7 @@ msgstr ""
 "die kdrukker dialoog. </qt>"
 
 #: kprintdialog.cpp:188
+#, kde-format
 msgid ""
 " <qt><b>Print:</b> This button sends the job to the printing process. If you "
 "are sending non-PostScript files, you may be asked if you want KDE to "
@@ -2710,6 +3081,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:194
+#, kde-format
 msgid ""
 " <qt><b>Keep Printing Dialog Open</b><p>If you enable this checkbox, the "
 "printing dialog stays open after you hit the <em>Print</em> button.</p> <p> "
@@ -2720,6 +3092,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:204
+#, kde-format
 msgid ""
 " <qt><b>Output File Name and Path:</b> The \"Output file:\" shows  you where "
 "your file will be saved if you decide to \"Print to File\" your job, using "
@@ -2730,6 +3103,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:212
+#, kde-format
 msgid ""
 " <qt><b>Output File Name and Path:</b> Edit this line to create a  path and "
 "filename that suits your needs. (Button and Lineedit field are only "
@@ -2737,6 +3111,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:217
+#, kde-format
 msgid ""
 " <qt><b>Browse Directories button:</b> This button calls the \"File Open / "
 "Browse Directories\" dialog to let you choose a directory and file name "
@@ -2744,6 +3119,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:223
+#, kde-format
 msgid ""
 " <qt><b>Add File to Job</b> <p>This button calls the \"File Open / Browse "
 "Directories\" dialog to allow you to select a file for printing. Note, that</"
@@ -2754,6 +3130,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:235
+#, kde-format
 msgid ""
 " <qt><b>Print Preview</b> Enable this checkbox if you want to see a preview "
 "of your printout. A preview lets you check if, for instance, your intended "
@@ -2767,6 +3144,7 @@ msgid ""
 msgstr ""
 
 #: kprintdialog.cpp:248
+#, kde-format
 msgid ""
 " <qt><b>Set as Default Printer</b> This button sets the current printer as "
 "the user's default.  <p><b>Note:</b> (Button is only visible if the checkbox "
@@ -2778,116 +3156,141 @@ msgstr ""
 #: kprintdialog.cpp:258 kprintdialog.cpp:732 kprinterimpl.cpp:442
 #: kprintpreview.cpp:130 kprintpreview.cpp:151 kprintpreview.cpp:157
 #: kprintpreview.cpp:313
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Print"
 msgstr "Druk"
 
+#. i18n( "Printer" ), menu );
 #: kprintdialog.cpp:264 management/kmmainview.cpp:380 management/kmwend.cpp:89
 #: management/smbview.cpp:43
+#, kde-format
 msgid "Printer"
 msgstr "Drukker"
 
 #: kprintdialog.cpp:278 management/kmspecialprinterdlg.cpp:60
 #: management/kxmlcommanddlg.cpp:113
+#, kde-format
 msgid "&Name:"
 msgstr "Naam:"
 
 #: kprintdialog.cpp:280 management/kminfopage.cpp:51
+#, kde-format
 msgctxt "Status"
 msgid "State:"
 msgstr "Staat:"
 
 #: kprintdialog.cpp:282 management/kminfopage.cpp:49
+#, kde-format
 msgid "Type:"
 msgstr "Tipe:"
 
 #: kprintdialog.cpp:284 management/kmwname.cpp:40
+#, kde-format
 msgid "Location:"
 msgstr "Ligging:"
 
 #: kprintdialog.cpp:286 management/kxmlcommanddlg.cpp:177
+#, kde-format
 msgid "Comment:"
 msgstr "Kommentaar:"
 
 #: kprintdialog.cpp:289
+#, kde-format
 msgid "P&roperties"
 msgstr "Eienskappe"
 
 #: kprintdialog.cpp:291
+#, kde-format
 msgid "System Op&tions"
 msgstr "Stelsel Opsies"
 
 #: kprintdialog.cpp:293
+#, kde-format
 msgid "Set as &Default"
 msgstr "Stel as Verstek"
 
 #: kprintdialog.cpp:300
+#, kde-format
 msgid "Toggle selective view on printer list"
 msgstr "Toggle uitkiesing vertoon op drukker lys."
 
 #: kprintdialog.cpp:305
+#, kde-format
 msgid "Add printer..."
 msgstr "Voeg by drukker..."
 
 #: kprintdialog.cpp:313
+#, kde-format
 msgid "Previe&w"
 msgstr "Voorskou"
 
 #: kprintdialog.cpp:315
+#, kde-format
 msgid "O&utput file:"
 msgstr "Uitset lêer:"
 
 #: kprintdialog.cpp:321
+#, kde-format
 msgid "Print co&mmand:"
 msgstr "Druk opdrag:"
 
 #: kprintdialog.cpp:330
+#, kde-format
 msgid "Show/hide advanced options"
 msgstr "Vertoon/versteek gevorderde opsies"
 
 #: kprintdialog.cpp:332
+#, kde-format
 msgid "&Keep this dialog open after printing"
 msgstr "Hou hierdie dialoog open na besig om te druk"
 
 #: kprintdialog.cpp:553 kprintdialog.cpp:922
+#, kde-format
 msgid "An error occurred while retrieving the printer list:"
 msgstr "'n fout voorgekom terwyl onttrek die drukker lys:"
 
 #: kprintdialog.cpp:718
+#, kde-format
 msgid "The output filename is empty."
 msgstr "Die uitset lêernaam is leeg."
 
 #: kprintdialog.cpp:752
-#, fuzzy
+#, fuzzy, kde-format
 msgid "You do not have write permissions to this file."
 msgstr "Jy moet nie het skryf regte na hierdie lêer."
 
 #: kprintdialog.cpp:756
+#, kde-format
 msgid "The output directory does not exist."
 msgstr "Die lêer gids bestaan nie."
 
 #: kprintdialog.cpp:758
-#, fuzzy
+#, fuzzy, kde-format
 msgid "You do not have write permissions in that directory."
 msgstr "Jy moet nie het skryf regte in wat gids."
 
 #: kprintdialog.cpp:863
+#, kde-format
 msgid "&Options <<"
 msgstr "&Opsies <<"
 
 #: kprintdialog.cpp:872
+#, kde-format
 msgid "&Options >>"
 msgstr "&Opsies >>"
 
 #: kprintdialog.cpp:912
+#, kde-format
 msgid "Initializing printing system..."
 msgstr "Initialisering besig om te druk stelsel..."
 
 #: kprintdialog.cpp:945
+#, kde-format
 msgid "Print to File"
 msgstr "Druk na Lêer"
 
 #: kprinter.cpp:246
+#, kde-format
 msgid "Initialization..."
 msgstr "Inisialisasie..."
 
@@ -2897,10 +3300,12 @@ msgid "Generating print data: page %1"
 msgstr "Genereer druk data: bladsy %1"
 
 #: kprinter.cpp:560
+#, kde-format
 msgid "Previewing..."
 msgstr "Voorskouing..."
 
 #: kprinterimpl.cpp:149
+#, kde-format
 msgid "Cannot copy multiple files into one file."
 msgstr "Kan nie kopie veelvuldige lêers binnein een lêer."
 
@@ -2922,10 +3327,12 @@ msgid "Sending print data to printer: %1"
 msgstr "Stuur druk data na drukker: %1"
 
 #: kprinterimpl.cpp:228
+#, kde-format
 msgid "Unable to start child print process. "
 msgstr "Nie moontlik na begin kind druk proses. "
 
 #: kprinterimpl.cpp:230
+#, kde-format
 msgid ""
 "The KDE print server (<b>kdeprintd</b>) could not be contacted. Check that "
 "this server is running."
@@ -2944,11 +3351,13 @@ msgstr ""
 "%1 <lêer>"
 
 #: kprinterimpl.cpp:239
+#, kde-format
 msgid "No valid file was found for printing. Operation aborted."
 msgstr ""
 "Nee geldige lêer was gevind vir besig om te druk. Operasie gekanselleer."
 
 #: kprinterimpl.cpp:271
+#, kde-format
 msgid ""
 "<p>Unable to perform the requested page selection. The filter <b>psselect</"
 "b> cannot be inserted in the current filter chain. See <b>Filter</b> tab in "
@@ -2986,22 +3395,27 @@ msgstr ""
 "na 'n ondersteunde formaat?</p>"
 
 #: kprinterimpl.cpp:328 kprinterimpl.cpp:427
+#, kde-format
 msgid "Convert"
 msgstr "Skakel om"
 
 #: kprinterimpl.cpp:336
+#, kde-format
 msgid "Select MIME Type"
 msgstr "Kies Mime Tipe"
 
 #: kprinterimpl.cpp:337
+#, kde-format
 msgid "Select the target format for the conversion:"
 msgstr "Kies die teiken formaat vir die omskakeling:"
 
 #: kprinterimpl.cpp:340 kprinterimpl.cpp:358
+#, kde-format
 msgid "Operation aborted."
 msgstr "Operasie gekanselleer."
 
 #: kprinterimpl.cpp:345
+#, kde-format
 msgid "No appropriate filter found. Select another target format."
 msgstr "Nee geskikte filter gevind. Kies nog 'n teiken formaat."
 
@@ -3017,6 +3431,7 @@ msgstr ""
 "<qt>Operasie gevaal met boodskap:<br>%1<br>Kies nog 'n teiken formaat.</qt>"
 
 #: kprinterimpl.cpp:369
+#, kde-format
 msgid "Filtering print data"
 msgstr "Gefilter het druk data"
 
@@ -3050,6 +3465,7 @@ msgstr ""
 "hierdie lêer omskakel en aanpas na %2?</qt>"
 
 #: kprinterimpl.cpp:428 management/kmwname.cpp:59
+#, kde-format
 msgid "Keep"
 msgstr "Hou"
 
@@ -3064,23 +3480,27 @@ msgid ""
 msgstr ""
 
 #: kprinterpropertydialog.cpp:82 kprinterpropertydialog.cpp:141
+#, kde-format
 msgid "Printer Configuration"
 msgstr "Drukker Opstelling"
 
 #: kprinterpropertydialog.cpp:141
+#, kde-format
 msgid "No configurable options for that printer."
 msgstr "Geen konfigureerbaar opsies vir daardie drukker."
 
 #: kprintpreview.cpp:129
+#, kde-format
 msgid "Do you want to continue printing anyway?"
 msgstr "Doen jy wil hê na gaan voort besig om te druk in elkgeval?"
 
 #: kprintpreview.cpp:140 kprintpreview.cpp:232
+#, kde-format
 msgid "Print Preview"
 msgstr "Druk Voorskou"
 
 #: kprintpreview.cpp:163
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Cancel"
 msgstr "Gekanseleer"
 
@@ -3096,6 +3516,7 @@ msgstr ""
 "omgewing veranderlike."
 
 #: kprintpreview.cpp:297
+#, kde-format
 msgid ""
 "Preview failed: neither the internal KDE PostScript viewer (KGhostView) nor "
 "any other external PostScript viewer could be found."
@@ -3116,33 +3537,37 @@ msgid "Preview failed: unable to start program %1."
 msgstr "Voorskou gevaal: nie moontlik na begin program %1."
 
 #: kprintpreview.cpp:313
+#, kde-format
 msgid "Do you want to continue printing?"
 msgstr "Doen jy wil hê na gaan voort besig om te druk?"
 
 #. i18n: ectx: Menu (file)
 #: kprintpreviewui.rc:4
-#, fuzzy
+#, fuzzy, kde-format
 msgid "&File"
 msgstr "Lêers"
 
 #. i18n: ectx: Menu (view)
 #: kprintpreviewui.rc:11 management/kmmainview.cpp:186
+#, kde-format
 msgid "&View"
 msgstr ""
 
 #. i18n: ectx: Menu (pagemarks)
 #: kprintpreviewui.rc:13
+#, kde-format
 msgid "&PageMarks"
 msgstr "Blaaimerke"
 
 #. i18n: ectx: Menu (settings)
 #: kprintpreviewui.rc:16 management/kmwdrivertest.cpp:57
 #: management/networkscanner.cpp:105
-#, fuzzy
+#, fuzzy, kde-format
 msgid "&Settings"
 msgstr "Instellings"
 
 #: kxmlcommand.cpp:736
+#, kde-format
 msgid "One of the command object's requirements is not met."
 msgstr "Een van die opdrag object's benodighede is nie nagekom."
 
@@ -3161,6 +3586,7 @@ msgstr ""
 "jou installasie."
 
 #: lpd/kmlpdmanager.cpp:88
+#, kde-format
 msgctxt "Unknown type of local printer queue"
 msgid "Unknown"
 msgstr "Onbekende"
@@ -3171,10 +3597,12 @@ msgid "Local printer queue (%1)"
 msgstr "Plaaslike drukker wagtou (%1)"
 
 #: lpd/kmlpdmanager.cpp:89
+#, kde-format
 msgid "<Not available>"
 msgstr "<Not available>"
 
 #: lpd/kmlpdmanager.cpp:90
+#, kde-format
 msgctxt "Unknown Driver"
 msgid "Unknown"
 msgstr "Onbekende"
@@ -3203,6 +3631,7 @@ msgstr ""
 "Nie moontlik na stel korrek regte op spoel gids %1 vir drukker <b>%2</b>."
 
 #: lpd/kmlpdmanager.cpp:207
+#, kde-format
 msgid "Permission denied: you must be root."
 msgstr "Reg verbied: jy moet wees root."
 
@@ -3212,6 +3641,7 @@ msgid "Unable to execute command \"%1\"."
 msgstr "Nie moontlik na uitvoer opdrag \"%1\"."
 
 #: lpd/kmlpdmanager.cpp:282
+#, kde-format
 msgid "Unable to write printcap file."
 msgstr "Nie moontlik na skryf printcap lêer."
 
@@ -3226,10 +3656,12 @@ msgid "Could not find printer <b>%1</b> in printcap file."
 msgstr "Kon nie vind drukker <b>%1</b> in drukcap lêer."
 
 #: lpd/kmlpdmanager.cpp:396
+#, kde-format
 msgid "No driver found (raw printer)"
 msgstr "Geen drywer gevind (rou drukker)"
 
 #: lpd/kmlpdmanager.cpp:398
+#, kde-format
 msgid "Printer type not recognized."
 msgstr "Drukker tipe nie herken."
 
@@ -3243,100 +3675,124 @@ msgstr ""
 "verspreiding. Bevestig jou installasie of gebruik nog 'n drywer."
 
 #: lpd/kmlpdmanager.cpp:501
+#, kde-format
 msgid "Unable to write driver associated files in spool directory."
 msgstr "Nie moontlik na skryf drywer geassosieer lêers in spoel gids."
 
 #: lpd/kmlpduimanager.cpp:44
+#, kde-format
 msgid "Local printer (parallel, serial, USB)"
 msgstr "Plaaslike drukker (parallelle, reeksnommer, Usb)"
 
 #: lpd/kmlpduimanager.cpp:45 management/kmpropbackend.cpp:69
 #: rlpr/kmwrlpr.cpp:118
+#, kde-format
 msgid "Remote LPD queue"
 msgstr "Afgeleë Lpd wagtou"
 
 #: lpd/kmlpduimanager.cpp:46
+#, kde-format
 msgid "SMB shared printer (Windows)"
 msgstr "Smb gedeelde drukker (Vensters)"
 
 #: lpd/kmlpduimanager.cpp:47
+#, kde-format
 msgid "Network printer (TCP)"
 msgstr "Netwerk drukker (Tcp)"
 
 #: lpd/kmlpduimanager.cpp:48
+#, kde-format
 msgid "File printer (print to file)"
 msgstr "Lêer drukker (druk na Lêer)"
 
 #: lpd/lpdtools.cpp:31
+#, kde-format
 msgid "A4"
 msgstr "A4"
 
 #: lpd/lpdtools.cpp:32
+#, kde-format
 msgid "A3"
 msgstr "A3"
 
 #: lpd/lpdtools.cpp:33
+#, kde-format
 msgid "B4"
 msgstr "B4"
 
 #: lpd/lpdtools.cpp:34
+#, kde-format
 msgid "B5"
 msgstr "B5"
 
 #: lpd/lpdtools.cpp:214
+#, kde-format
 msgid "GhostScript settings"
 msgstr "Ghostscript instellings"
 
 #: lpd/lpdtools.cpp:220 management/kmpropdriver.cpp:55
 #: management/kmwend.cpp:102
+#, kde-format
 msgid "Driver"
 msgstr "Drywer"
 
 #: lpd/lpdtools.cpp:234
+#, kde-format
 msgid "Resolution"
 msgstr "Opkyk"
 
 #: lpd/lpdtools.cpp:258
+#, kde-format
 msgid "Color depth"
 msgstr "Kleur diepte"
 
 #: lpd/lpdtools.cpp:284
+#, kde-format
 msgid "Additional GS options"
 msgstr "Aditionele Gs opsies"
 
 #: lpd/lpdtools.cpp:296
+#, kde-format
 msgid "Page size"
 msgstr "Bladsy grootte"
 
 #: lpd/lpdtools.cpp:311
+#, kde-format
 msgid "Pages per sheet"
 msgstr "Bladsye per staat"
 
 #: lpd/lpdtools.cpp:326
+#, kde-format
 msgid "Left/right margin (1/72 in)"
 msgstr "Links/regterkant kantlyn (1/72 in)"
 
 #: lpd/lpdtools.cpp:331
+#, kde-format
 msgid "Top/bottom margin (1/72 in)"
 msgstr "Bo/bodem kantlyn (1/72 in)"
 
 #: lpd/lpdtools.cpp:337
+#, kde-format
 msgid "Text options"
 msgstr "Teks opsies"
 
 #: lpd/lpdtools.cpp:343
+#, kde-format
 msgid "Send EOF after job to eject page"
 msgstr "Stuur Eof na werk na uitskiet bladsy"
 
 #: lpd/lpdtools.cpp:351
+#, kde-format
 msgid "Fix stair-stepping text"
 msgstr "Regmaak stair-stepping teks"
 
 #: lpd/lpdtools.cpp:362
+#, kde-format
 msgid "Fast text printing (non-PS printers only)"
 msgstr "Vinnige teks besig om te druk (non-PS drukkers slegs)"
 
 #: lpdunix/kmlpdunixmanager.cpp:194
+#, kde-format
 msgid "Description unavailable"
 msgstr "Beskrywing onbeskikbaar"
 
@@ -3349,6 +3805,7 @@ msgstr "Afgeleë drukker wagtou op %1"
 #: lpdunix/kmlpdunixmanager.cpp:204 lpdunix/kmlpdunixmanager.cpp:248
 #: lpdunix/kmlpdunixmanager.cpp:287 lpdunix/kmlpdunixmanager.cpp:305
 #: lpdunix/kmlpdunixmanager.cpp:338 management/kminfopage.cpp:122
+#, kde-format
 msgid "Local printer"
 msgstr "Plaaslike drukker"
 
@@ -3389,6 +3846,7 @@ msgid "Unable to create the file %1."
 msgstr "Nie moontlik na skep die lêer %1."
 
 #: lpr/apshandler.cpp:286
+#, kde-format
 msgid "The APS driver is not defined."
 msgstr "Die Aps drywer is nie gedefinieër."
 
@@ -3398,18 +3856,22 @@ msgid "Unable to remove directory %1."
 msgstr "Nie moontlik na verwyder gids %1."
 
 #: lpr/editentrydialog.cpp:44
+#, kde-format
 msgid "Aliases:"
 msgstr "Skuilname:"
 
 #: lpr/editentrydialog.cpp:50 management/kxmlcommanddlg.cpp:106
+#, kde-format
 msgid "String"
 msgstr "String"
 
 #: lpr/editentrydialog.cpp:51
+#, kde-format
 msgid "Number"
 msgstr "Nommer"
 
 #: lpr/editentrydialog.cpp:52 management/kxmlcommanddlg.cpp:110
+#, kde-format
 msgid "Boolean"
 msgstr "Bools"
 
@@ -3419,22 +3881,27 @@ msgid "Printcap Entry: %1"
 msgstr "Printcap inskrywing: %1"
 
 #: lpr/kmconfiglpr.cpp:34 lpr/kmconfiglpr.cpp:38
+#, kde-format
 msgid "Spooler"
 msgstr "Spoeler"
 
 #: lpr/kmconfiglpr.cpp:35
+#, kde-format
 msgid "Spooler Settings"
 msgstr "Spoeler Instellings"
 
 #: lpr/kmlprjobmanager.cpp:81
+#, kde-format
 msgid "Unsupported operation."
 msgstr "Nie ondersteunde operasie."
 
 #: lpr/kmlprmanager.cpp:278
+#, kde-format
 msgid "The printcap file is a remote file (NIS). It cannot be written."
 msgstr "Die printcap lêer is 'n afgeleë lêer (Nis). Dit kan nie wees geskryf."
 
 #: lpr/kmlprmanager.cpp:291
+#, kde-format
 msgid ""
 "Unable to save printcap file. Check that you have write permissions for that "
 "file."
@@ -3443,11 +3910,12 @@ msgstr ""
 "lêer."
 
 #: lpr/kmlprmanager.cpp:315
+#, kde-format
 msgid "Internal error: no handler defined."
 msgstr "Intern fout: nee handteerder gedefinieër."
 
 #: lpr/kmlprmanager.cpp:328
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Could not determine spool directory. See options dialog."
 msgstr "Kon nie bepaal spool gids. Kyk na die opsie dialoog."
 
@@ -3477,10 +3945,12 @@ msgstr ""
 "wat gids."
 
 #: lpr/kmlprmanager.cpp:431
+#, kde-format
 msgid "&Edit printcap Entry..."
 msgstr "Redigeer printcap Inskrywing..."
 
 #: lpr/kmlprmanager.cpp:449
+#, kde-format
 msgid ""
 "Editing a printcap entry manually should only be done by confirmed system "
 "administrator. This may prevent your printer from working. Do you want to "
@@ -3502,6 +3972,7 @@ msgid "The executable %1 could not be found in your PATH."
 msgstr "Die uitvoerbare %1 kon nie wees gevind word in jou Path nie."
 
 #: lpr/lpchelper.cpp:237 lpr/lpchelper.cpp:260 lpr/lpchelper.cpp:276
+#, kde-format
 msgid "Permission denied."
 msgstr "Reg verbied."
 
@@ -3521,6 +3992,7 @@ msgid "Execution of lprm failed: %1"
 msgstr "Uitvoering van lprm gevaal: %1"
 
 #: lpr/lprhandler.cpp:59 lpr/lprhandler.cpp:88
+#, kde-format
 msgid "Unknown (unrecognized entry)"
 msgstr "Onbekende (onherkenbaar inskrywing)"
 
@@ -3535,10 +4007,12 @@ msgid "Local printer on %1"
 msgstr "Plaaslike drukker op %1"
 
 #: lpr/lprhandler.cpp:95 lpr/lprhandler.cpp:101 lpr/lprhandler.cpp:107
+#, kde-format
 msgid "Unrecognized entry."
 msgstr "Onherkenbaar inskrywing."
 
 #: lpr/lprngtoolhandler.cpp:95 lpr/lprngtoolhandler.cpp:160
+#, kde-format
 msgid "unknown"
 msgstr "onbekende"
 
@@ -3548,6 +4022,7 @@ msgid "IFHP Driver (%1)"
 msgstr "Ifhp Drywer (%1)"
 
 #: lpr/lprngtoolhandler.cpp:153
+#, kde-format
 msgid "No driver defined for that printer. It might be a raw printer."
 msgstr "Nee drywer gedefinieër vir wat drukker. Dit dalk wees 'n rou drukker."
 
@@ -3557,21 +4032,24 @@ msgid "LPRngTool Common Driver (%1)"
 msgstr "Lprng-nutsprogram Gemeenskaplike Drywer (%1)"
 
 #: lpr/matichandler.cpp:81
+#, kde-format
 msgid "Network printer"
 msgstr "Netwerk drukker"
 
 #: lpr/matichandler.cpp:220
+#, kde-format
 msgid "Internal error."
 msgstr "Intern fout."
 
 #: lpr/matichandler.cpp:291
-#, fuzzy
+#, fuzzy, kde-format
 msgid ""
 "You probably do not have the required permissions to perform that operation."
 msgstr ""
 "Jy waarskynlik moet nie het die benodig regte na aan te bring wat operasie."
 
 #: lpr/matichandler.cpp:366
+#, kde-format
 msgid ""
 "Unable to find executable lpdomatic. Check that Foomatic is correctly "
 "installed and that lpdomatic is installed in a standard location."
@@ -3586,40 +4064,47 @@ msgid "Unable to remove driver file %1."
 msgstr "Nie moontlik na verwyder drywer lêer %1."
 
 #: management/kaddprinterwizard.cpp:30
+#, kde-format
 msgid "Configure KDE Print"
 msgstr "Konfigureer Kde Druk"
 
 #: management/kaddprinterwizard.cpp:31
+#, kde-format
 msgid "Configure print server"
 msgstr "Konfigureer druk bediener"
 
 #: management/kaddprinterwizard.cpp:33
-#, fuzzy
+#, fuzzy, kde-format
 msgid "KAddPrinterWizard"
 msgstr "Voeg by Drukker Assistent"
 
 #: management/kaddprinterwizard.cpp:34
+#, kde-format
 msgid "Start the add printer wizard"
 msgstr "Begin die voeg by drukker assistent"
 
 #: management/kdeprint_management_module.cpp:47
+#, kde-format
 msgid "Select Command"
 msgstr "Kies Opdrag"
 
 #: management/kmconfigcommand.cpp:33
+#, kde-format
 msgid "Commands"
 msgstr "Opdragte"
 
 #: management/kmconfigcommand.cpp:34
+#, kde-format
 msgid "Command Settings"
 msgstr "Opdrag Instellings"
 
 #: management/kmconfigcommand.cpp:37
+#, kde-format
 msgid "Edit/Create Commands"
 msgstr "Redigeer/Skep Opdragte"
 
 #: management/kmconfigcommand.cpp:40
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "<p>Command objects perform a conversion from input to output.<br>They are "
 #| "used as the basis to build both print filters and special printers. They "
@@ -3642,22 +4127,27 @@ msgstr ""
 "vir jy."
 
 #: management/kmconfigdialog.cpp:44
+#, kde-format
 msgid "KDE Print Configuration"
 msgstr "Kde Druk Opstelling"
 
 #: management/kmconfigfilter.cpp:42
+#, kde-format
 msgid "Filter"
 msgstr "Filter"
 
 #: management/kmconfigfilter.cpp:43
+#, kde-format
 msgid "Printer Filtering Settings"
 msgstr "Drukker Gefilter het Instellings"
 
 #: management/kmconfigfilter.cpp:46
+#, kde-format
 msgid "Printer Filter"
 msgstr "Drukker Filter"
 
 #: management/kmconfigfilter.cpp:59
+#, kde-format
 msgid ""
 "The printer filtering allows you to view only a specific set of printers "
 "instead of all of them. This may be useful when there are a lot of printers "
@@ -3673,52 +4163,62 @@ msgstr ""
 "kommulatiewe en geignoreer as leeg."
 
 #: management/kmconfigfilter.cpp:66
+#, kde-format
 msgid "Location filter:"
 msgstr "Ligging filter:"
 
 #: management/kmconfigfonts.cpp:43
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Fonts"
 msgstr "Skriftipes Gids soeklys"
 
 #: management/kmconfigfonts.cpp:44
+#, kde-format
 msgid "Font Settings"
 msgstr "Skrif tipe Instellings"
 
 #: management/kmconfigfonts.cpp:47
+#, kde-format
 msgid "Fonts Embedding"
 msgstr "Skriftipes Inbed"
 
 #: management/kmconfigfonts.cpp:49
+#, kde-format
 msgid "Fonts Path"
 msgstr "Skriftipes Gids soeklys"
 
 #: management/kmconfigfonts.cpp:52
+#, kde-format
 msgid "&Embed fonts in PostScript data when printing"
 msgstr "Inbed skriftipes in Postscript data wanneer besig om te druk"
 
 #: management/kmconfigfonts.cpp:60
+#, kde-format
 msgid "&Up"
 msgstr "Begin"
 
 #: management/kmconfigfonts.cpp:61
+#, kde-format
 msgid "&Down"
 msgstr "Ondertoe"
 
 #: management/kmconfigfonts.cpp:62
+#, kde-format
 msgid "&Add"
 msgstr "Voeg by"
 
 #: management/kmconfigfonts.cpp:63 management/kmmainview.cpp:225
-#, fuzzy
+#, fuzzy, kde-format
 msgid "&Remove"
 msgstr "Verwyder"
 
 #: management/kmconfigfonts.cpp:64
+#, kde-format
 msgid "Additional director&y:"
 msgstr "Aditionele gids:"
 
 #: management/kmconfigfonts.cpp:95
+#, kde-format
 msgid ""
 "These options will automatically put fonts in the PostScript file which are "
 "not present on the printer. Font embedding usually produces better print "
@@ -3731,6 +4231,7 @@ msgstr ""
 "as goed."
 
 #: management/kmconfigfonts.cpp:98
+#, kde-format
 msgid ""
 "When using font embedding you can select additional directories where KDE "
 "should search for embeddable font files. By default, the X server font path "
@@ -3744,18 +4245,22 @@ msgstr ""
 "gevalle."
 
 #: management/kmconfiggeneral.cpp:46 management/kmpropgeneral.cpp:57
+#, kde-format
 msgid "General Settings"
 msgstr "Algemeen Instellings"
 
 #: management/kmconfiggeneral.cpp:49
+#, kde-format
 msgid "Refresh Interval"
 msgstr "Verfris Interval"
 
 #: management/kmconfiggeneral.cpp:53
+#, kde-format
 msgid " sec"
 msgstr " sek"
 
 #: management/kmconfiggeneral.cpp:55
+#, kde-format
 msgid ""
 "This time setting controls the refresh rate of various <b>KDE Print</b> "
 "components like the print manager and the job viewer."
@@ -3764,30 +4269,37 @@ msgstr ""
 "komponente hou van die Druk bestuurder en die werk aansig."
 
 #: management/kmconfiggeneral.cpp:59
+#, kde-format
 msgid "Test Page"
 msgstr "Toets Bladsy"
 
 #: management/kmconfiggeneral.cpp:61
+#, kde-format
 msgid "&Specify personal test page"
 msgstr "Spesifiseer persoonlike toets bladsy"
 
 #: management/kmconfiggeneral.cpp:65
+#, kde-format
 msgid "Preview..."
 msgstr "Voorskou..."
 
 #: management/kmconfiggeneral.cpp:74
+#, kde-format
 msgid "Miscellaneous"
 msgstr ""
 
 #: management/kmconfiggeneral.cpp:76
+#, kde-format
 msgid "Sho&w printing status message box"
 msgstr "Vertoon besig om te druk status boodskap boks"
 
 #: management/kmconfiggeneral.cpp:77
+#, kde-format
 msgid "De&faults to the last printer used in the application"
 msgstr "Verstek na die laaste drukker gebruik word in die aansoek"
 
 #: management/kmconfiggeneral.cpp:140
+#, kde-format
 msgid ""
 "The selected test page is not a PostScript file. You may not be able to test "
 "your printer anymore."
@@ -3796,47 +4308,58 @@ msgstr ""
 "staat na toets jou drukker meer."
 
 #: management/kmconfiggeneral.cpp:150 management/kmwfile.cpp:64
+#, kde-format
 msgid "Empty file name."
 msgstr "Leeg lêer naam."
 
 #: management/kmconfigjobs.cpp:34 management/kmpages.cpp:58
+#, kde-format
 msgid "Jobs"
 msgstr "Werke"
 
 #: management/kmconfigjobs.cpp:35 management/kmjobviewer.cpp:742
+#, kde-format
 msgid "Print Job Settings"
 msgstr "Druk Werk Instellings"
 
 #: management/kmconfigjobs.cpp:38
+#, kde-format
 msgid "Jobs Shown"
 msgstr "Werke Vertoon"
 
 #: management/kmconfigjobs.cpp:43 management/kmjobviewer.cpp:193
 #: management/kmjobviewer.cpp:379
+#, kde-format
 msgid "Unlimited"
 msgstr "Onbeperk"
 
 #: management/kmconfigjobs.cpp:44
+#, kde-format
 msgid "Maximum number of jobs shown:"
 msgstr "Maksimum nommer van werke vertoon:"
 
 #: management/kmconfigpreview.cpp:35
+#, kde-format
 msgid "Preview"
 msgstr "Voorskou"
 
 #: management/kmconfigpreview.cpp:36
+#, kde-format
 msgid "Preview Settings"
 msgstr "Voorskou Instellings"
 
 #: management/kmconfigpreview.cpp:39
+#, kde-format
 msgid "Preview Program"
 msgstr "Voorskou Program"
 
 #: management/kmconfigpreview.cpp:42
+#, kde-format
 msgid "&Use external preview program"
 msgstr "Gebruik eksterne voorskou program"
 
 #: management/kmconfigpreview.cpp:45
+#, kde-format
 msgid ""
 "You can use an external preview program (PS viewer) instead of the KDE built-"
 "in preview system. Note that if the KDE default PS viewer (KGhostView) "
@@ -3849,6 +4372,7 @@ msgstr ""
 "eksterne Postscript aansig"
 
 #: management/kmdbcreator.cpp:94
+#, kde-format
 msgid ""
 "No executable defined for the creation of the driver database. This "
 "operation is not implemented."
@@ -3875,72 +4399,88 @@ msgstr ""
 "%1 gevaal."
 
 #: management/kmdbcreator.cpp:122
+#, kde-format
 msgid "Please wait while KDE rebuilds a driver database."
 msgstr "Asseblief wag terwyl Kde herbou 'n drywer databasis."
 
 #: management/kmdbcreator.cpp:123
+#, kde-format
 msgid "Driver Database"
 msgstr "Drywer Databasis"
 
 #: management/kmdbcreator.cpp:168
+#, kde-format
 msgid ""
 "Error while creating driver database: abnormal child-process termination."
 msgstr "Fout terwyl drywer skep databasis: abnormale kind proses beëindiging."
 
 #: management/kmdriverdbwidget.cpp:49
+#, kde-format
 msgid "&PostScript printer"
 msgstr "&Postscript drukker"
 
 #: management/kmdriverdbwidget.cpp:50
+#, kde-format
 msgid "&Raw printer (no driver needed)"
 msgstr "Rou drukker (nee drywer benodig)"
 
 #: management/kmdriverdbwidget.cpp:53
+#, kde-format
 msgid "&Other..."
 msgstr "Ander..."
 
 #: management/kmdriverdbwidget.cpp:54
+#, kde-format
 msgid "&Manufacturer:"
 msgstr "Vervaardiger:"
 
 #: management/kmdriverdbwidget.cpp:55
+#, kde-format
 msgid "Mo&del:"
 msgstr "Model:"
 
 #: management/kmdriverdbwidget.cpp:169 management/kmdriverdbwidget.cpp:181
+#, kde-format
 msgid "Loading..."
 msgstr "Laaiïng van..."
 
 #: management/kmdriverdbwidget.cpp:235
+#, kde-format
 msgid "Unable to find the PostScript driver."
 msgstr "Nie moontlik om te vind die Postscript drywer."
 
 #: management/kmdriverdbwidget.cpp:248
+#, kde-format
 msgid "Select Driver"
 msgstr "Kies 'n Drywer"
 
 #: management/kmdriverdbwidget.cpp:262 management/kmdriverdbwidget.cpp:264
+#, kde-format
 msgid "<Unknown>"
 msgstr "<Unknown>"
 
 #: management/kmdriverdbwidget.cpp:267
+#, kde-format
 msgid "Database"
 msgstr "Databasis"
 
 #: management/kmdriverdbwidget.cpp:272
+#, kde-format
 msgid "Wrong driver format."
 msgstr "Verkeerde drywer formaat."
 
 #: management/kmdriverdbwidget.cpp:279
+#, kde-format
 msgid "Other"
 msgstr "Ander"
 
 #: management/kmdriverdialog.cpp:29
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Configure"
 msgstr "Konfigureer %1"
 
 #: management/kmdriverdialog.cpp:54
+#, kde-format
 msgid ""
 "Some options are in conflict. You must resolve those conflicts before "
 "continuing."
@@ -3948,54 +4488,66 @@ msgstr ""
 "Sommige opsies word in konflik. Jy moet oplos daardie konflik voor voortgaan."
 
 #: management/kminfopage.cpp:45 management/kmpropgeneral.cpp:38
+#, kde-format
 msgctxt "Physical Location"
 msgid "Location:"
 msgstr "Ligging:"
 
 #: management/kminfopage.cpp:47 management/kmpropgeneral.cpp:39
 #: management/kmwname.cpp:41
+#, kde-format
 msgid "Description:"
 msgstr "Beskrywing:"
 
 #: management/kminfopage.cpp:55 management/kminfopage.cpp:100
 #: tools/escputil/escpwidget.cpp:111
+#, kde-format
 msgid "Device:"
 msgstr "Toestel:"
 
 #: management/kminfopage.cpp:57
+#, kde-format
 msgid "Model:"
 msgstr "Model:"
 
 #: management/kminfopage.cpp:99
+#, kde-format
 msgid "Members:"
 msgstr "Lede:"
 
 #: management/kminfopage.cpp:116
+#, kde-format
 msgid "Implicit class"
 msgstr "Implesiete klas"
 
 #: management/kminfopage.cpp:118
+#, kde-format
 msgid "Remote class"
 msgstr "Afgeleë klas"
 
 #: management/kminfopage.cpp:119
+#, kde-format
 msgid "Local class"
 msgstr "Plaaslike klas"
 
 #: management/kminfopage.cpp:121
+#, kde-format
 msgid "Remote printer"
 msgstr "Afgeleë drukker"
 
 #: management/kminfopage.cpp:124
+#, kde-format
 msgid "Special (pseudo) printer"
 msgstr "Spesiaal (pseudo) drukker"
 
 #: management/kminfopage.cpp:125
+#, kde-format
 msgctxt "Unknown class of printer"
 msgid "Unknown"
 msgstr "Onbekende"
 
 #: management/kminstancepage.cpp:63
+#, kde-format
 msgid ""
 "Define/Edit here instances for the current selected printer. An instance is "
 "a combination of a real (physical) printer and a set of predefined options. "
@@ -4013,23 +4565,27 @@ msgstr ""
 "jy wil hê."
 
 #: management/kminstancepage.cpp:89
+#, kde-format
 msgid "New..."
 msgstr "Nuwe..."
 
 #: management/kminstancepage.cpp:90
+#, kde-format
 msgid "Copy..."
 msgstr "Kopie..."
 
 #: management/kminstancepage.cpp:91 management/kmjobviewer.cpp:545
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Remove"
 msgstr "Verwyder"
 
 #: management/kminstancepage.cpp:94
+#, kde-format
 msgid "Settings"
 msgstr "Instellings"
 
 #: management/kminstancepage.cpp:96
+#, kde-format
 msgid "Test..."
 msgstr "Toets..."
 
@@ -4039,18 +4595,22 @@ msgstr "Toets..."
 #: management/kminstancepage.cpp:190 management/kminstancepage.cpp:195
 #: management/kminstancepage.cpp:197 management/kminstancepage.cpp:216
 #: management/kminstancepage.cpp:248 management/kminstancepage.cpp:265
+#, kde-format
 msgid "(Default)"
 msgstr "(Verstek)"
 
 #: management/kminstancepage.cpp:142 management/kminstancepage.cpp:189
+#, kde-format
 msgid "Instance Name"
 msgstr "Voorbeeld Naam"
 
 #: management/kminstancepage.cpp:142 management/kminstancepage.cpp:189
+#, kde-format
 msgid "Enter name for new instance (leave untouched for default):"
 msgstr "Invoer naam vir nuwe voorbeeld (los onaangeraak vir verstek):"
 
 #: management/kminstancepage.cpp:146 management/kminstancepage.cpp:193
+#, kde-format
 msgid "Instance name must not contain any spaces or slashes."
 msgstr "Voorbeeld naam dalk mag nie bevat enige spasies of skuinstrepe nie."
 
@@ -4078,10 +4638,12 @@ msgid ""
 msgstr "Nie moontlik om te onttrek drukker informasie. Fout ontvang:"
 
 #: management/kminstancepage.cpp:235
+#, kde-format
 msgid "The instance name is empty. Please select an instance."
 msgstr "Die gebeurtenis naam is leeg. Asseblief kies een."
 
 #: management/kminstancepage.cpp:269
+#, kde-format
 msgid "Internal error: printer not found."
 msgstr "Intern fout: drukker nie gevind."
 
@@ -4093,6 +4655,7 @@ msgstr ""
 "voort?"
 
 #: management/kminstancepage.cpp:270 management/kmmainview.cpp:714
+#, kde-format
 msgid "Print Test Page"
 msgstr "Druk Toets Bladsy"
 
@@ -4107,12 +4670,14 @@ msgid "Test page successfully sent to printer %1."
 msgstr "Toets bladsy suksesvol gestuur na drukker %1."
 
 #: management/kmjobviewer.cpp:127 management/kmjobviewer.cpp:179
+#, kde-format
 msgid "No Printer"
 msgstr "Nee Drukker"
 
 #: management/kmjobviewer.cpp:162 management/kmjobviewer.cpp:200
 #: management/kmjobviewer.cpp:216 management/kmjobviewer.cpp:231
 #: management/kmjobviewer.cpp:398 management/kmjobviewer.cpp:589
+#, kde-format
 msgid "All Printers"
 msgstr "Alle Drukkers"
 
@@ -4128,67 +4693,83 @@ msgid "Max.: %1"
 msgstr "Max.: %1"
 
 #: management/kmjobviewer.cpp:258
+#, kde-format
 msgid "Job ID"
 msgstr "Werk Id"
 
 #: management/kmjobviewer.cpp:258
+#, kde-format
 msgid "Owner"
 msgstr "Eienaar"
 
 #: management/kmjobviewer.cpp:259
+#, kde-format
 msgctxt "Status"
 msgid "State"
 msgstr "Staat"
 
 #: management/kmjobviewer.cpp:259
+#, kde-format
 msgid "Size (KB)"
 msgstr "Grootte (Kb)"
 
 #: management/kmjobviewer.cpp:259
+#, kde-format
 msgid "Page(s)"
 msgstr "Bladsy(s)"
 
 #: management/kmjobviewer.cpp:277
+#, kde-format
 msgid "&Hold"
 msgstr "Hou"
 
 #: management/kmjobviewer.cpp:282
+#, kde-format
 msgid "&Resume"
 msgstr "Voortgaan"
 
 #: management/kmjobviewer.cpp:287
+#, kde-format
 msgid "Remo&ve"
 msgstr "Verwyder"
 
 #: management/kmjobviewer.cpp:293
+#, kde-format
 msgid "Res&tart"
 msgstr "Herbegin"
 
 #: management/kmjobviewer.cpp:298
+#, kde-format
 msgid "&Move to Printer"
 msgstr "Beweeg na Drukker"
 
 #: management/kmjobviewer.cpp:306
+#, kde-format
 msgid "&Toggle Completed Jobs"
 msgstr "Wissel Klaar Werke"
 
 #: management/kmjobviewer.cpp:312
+#, kde-format
 msgid "Show Only User Jobs"
 msgstr "Vertoon Slegs Gebruiker Werke"
 
 #: management/kmjobviewer.cpp:324
+#, kde-format
 msgid "User Name"
 msgstr "Gebruiker Naam"
 
 #: management/kmjobviewer.cpp:342
+#, kde-format
 msgid "&Select Printer"
 msgstr "Kies Drukker"
 
 #: management/kmjobviewer.cpp:370
+#, kde-format
 msgid "Refresh"
 msgstr "Verfris"
 
 #: management/kmjobviewer.cpp:377
+#, kde-format
 msgid "Keep window permanent"
 msgstr "Hou venster permanent"
 
@@ -4202,14 +4783,17 @@ msgstr ""
 "bestuurder:"
 
 #: management/kmjobviewer.cpp:535
+#, kde-format
 msgid "Hold"
 msgstr "Hou"
 
 #: management/kmjobviewer.cpp:540
+#, kde-format
 msgid "Resume"
 msgstr "Voortgaan"
 
 #: management/kmjobviewer.cpp:550
+#, kde-format
 msgid "Restart"
 msgstr "Herbegin"
 
@@ -4219,22 +4803,27 @@ msgid "Move to %1"
 msgstr "Beweeg na %1"
 
 #: management/kmjobviewer.cpp:717
+#, kde-format
 msgid "Operation failed."
 msgstr "Operasie gevaal."
 
 #: management/kmlistview.cpp:127
+#, kde-format
 msgid "Print System"
 msgstr "Druk Stelsel"
 
 #: management/kmlistview.cpp:130
+#, kde-format
 msgid "Classes"
 msgstr "Klasse"
 
 #: management/kmlistview.cpp:133
+#, kde-format
 msgid "Printers"
 msgstr "Drukkers"
 
 #: management/kmlistview.cpp:136
+#, kde-format
 msgid "Specials"
 msgstr "Spesiaal"
 
@@ -4249,99 +4838,122 @@ msgstr ""
 
 #: management/kmmainview.cpp:141 management/kmmainview.cpp:852
 #: management/kmmainview.cpp:923 management/kmmainview.cpp:947
+#, kde-format
 msgid "Initializing manager..."
 msgstr "Initialisering bestuurder..."
 
 #: management/kmmainview.cpp:190
+#, kde-format
 msgid "&Icons,&List,&Tree"
 msgstr "&Icons,&List,Tree"
 
 #: management/kmmainview.cpp:194
+#, kde-format
 msgid "Start/Stop Printer"
 msgstr "Begin/Stop Drukker"
 
 #: management/kmmainview.cpp:197
+#, kde-format
 msgid "&Start Printer"
 msgstr "Begin Drukker"
 
 #: management/kmmainview.cpp:203
+#, kde-format
 msgid "Sto&p Printer"
 msgstr "Stop Drukker"
 
 #: management/kmmainview.cpp:209
+#, kde-format
 msgid "Enable/Disable Job Spooling"
 msgstr "Aktiveer/Deaktiveer Werk Spoelling"
 
 #: management/kmmainview.cpp:213
+#, kde-format
 msgid "&Enable Job Spooling"
 msgstr "Aktiveer Werk Spoelling"
 
 #: management/kmmainview.cpp:219
+#, kde-format
 msgid "&Disable Job Spooling"
 msgstr "Deaktiveer Werk Spoelling"
 
 #: management/kmmainview.cpp:230
+#, kde-format
 msgid "&Configure..."
 msgstr "Konfigureer..."
 
 #: management/kmmainview.cpp:235
+#, kde-format
 msgid "Add &Printer/Class..."
 msgstr "Voeg by Drukker/Klas..."
 
 #: management/kmmainview.cpp:240
+#, kde-format
 msgid "Add &Special (pseudo) Printer..."
 msgstr "Voeg by Spesiaal (pseudo) Drukker..."
 
 #: management/kmmainview.cpp:245
+#, kde-format
 msgid "Set as &Local Default"
 msgstr "Stel as Plaaslike Verstek"
 
 #: management/kmmainview.cpp:250
+#, kde-format
 msgid "Set as &User Default"
 msgstr "Stel as Gebruiker Verstek"
 
 #: management/kmmainview.cpp:255
+#, kde-format
 msgid "&Test Printer..."
 msgstr "Toets Drukker..."
 
 #: management/kmmainview.cpp:260
+#, kde-format
 msgid "Configure &Manager..."
 msgstr "Konfigureer Bestuurder..."
 
 #: management/kmmainview.cpp:265
+#, kde-format
 msgid "Initialize Manager/&View"
 msgstr "Inisialiseer Bestuurder/Besigtig"
 
 #: management/kmmainview.cpp:270
+#, kde-format
 msgid "&Orientation"
 msgstr "Oriëntasie"
 
 #: management/kmmainview.cpp:274
+#, kde-format
 msgid "&Vertical,&Horizontal"
 msgstr "&Vertical,Horizontal"
 
 #: management/kmmainview.cpp:278
+#, kde-format
 msgid "R&estart Server"
 msgstr "Herbegin Bediener"
 
 #: management/kmmainview.cpp:283
+#, kde-format
 msgid "Configure &Server..."
 msgstr "Konfigureer Bediener..."
 
 #: management/kmmainview.cpp:289
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Show &Toolbar"
 msgstr "Vertoon Kieslys Nutsbalk"
 
 #: management/kmmainview.cpp:292
+#, kde-format
 msgid "Show Me&nu Toolbar"
 msgstr "Vertoon Kieslys Nutsbalk"
 
 #: management/kmmainview.cpp:295
+#, kde-format
 msgid "Show Pr&inter Details"
 msgstr "Vertoon Drukker Details"
 
 #: management/kmmainview.cpp:301
+#, kde-format
 msgid "Toggle Printer &Filtering"
 msgstr "Wissel Drukker Gefilter het"
 
@@ -4356,31 +4968,41 @@ msgid "%1 &Web Site"
 msgstr "%1 Web Tuiste"
 
 #: management/kmmainview.cpp:317
+#, kde-format
 msgid "Pri&nter Tools"
 msgstr "Drukker Nutsprogramme"
 
+#. i18n( "Add" ), menu );
 #: management/kmmainview.cpp:362
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Add"
 msgstr "Voeg by"
 
+#. i18n( "Server" ), menu );
 #: management/kmmainview.cpp:389
+#, kde-format
 msgid "Print Server"
 msgstr "Druk Bediener"
 
+#. i18n( "Manager" ), menu );
 #: management/kmmainview.cpp:398
+#, kde-format
 msgid "Print Manager"
 msgstr "Druk Bestuurder"
 
+#. i18n( "View" ), menu );
 #: management/kmmainview.cpp:413
+#, kde-format
 msgid "View"
 msgstr ""
 
 #: management/kmmainview.cpp:422
+#, kde-format
 msgid "Documentation"
 msgstr "Dokumentasie"
 
 #: management/kmmainview.cpp:445
+#, kde-format
 msgid "An error occurred while retrieving the printer list."
 msgstr "'n fout voorgekom terwyl onttrek die drukker lys."
 
@@ -4420,6 +5042,7 @@ msgid "Unable to load a valid driver for printer %1."
 msgstr "Nie moontlik na las 'n geldige drywer vir drukker %1."
 
 #: management/kmmainview.cpp:668
+#, kde-format
 msgid "Unable to create printer."
 msgstr "Nie moontlik na skep drukker."
 
@@ -4434,6 +5057,7 @@ msgid "Unable to test printer %1."
 msgstr "Nie moontlik na toets drukker %1."
 
 #: management/kmmainview.cpp:732
+#, kde-format
 msgid "Internal error (no error message)."
 msgstr "Intern fout (nee fout boodskap)."
 
@@ -4444,22 +5068,27 @@ msgid "<p>Error message received from manager:</p><p>%1</p>"
 msgstr "Fout boodskap ontvang van bestuurder:</p><p>%1</p>"
 
 #: management/kmmainview.cpp:750
+#, kde-format
 msgid "Unable to restart print server."
 msgstr "Nie moontlik na herbegin druk bediener."
 
 #: management/kmmainview.cpp:753
+#, kde-format
 msgid "Restarting server..."
 msgstr "Herbeginne bediener..."
 
 #: management/kmmainview.cpp:762
+#, kde-format
 msgid "Unable to configure print server."
 msgstr "Nie moontlik na konfigureer druk bediener."
 
 #: management/kmmainview.cpp:765
+#, kde-format
 msgid "Configuring server..."
 msgstr "Konfigurering van bediener..."
 
 #: management/kmmainview.cpp:906
+#, kde-format
 msgid ""
 "Unable to start printer tool. Possible reasons are: no printer selected, the "
 "selected printer doesn't have any local device defined (printer port), or "
@@ -4467,97 +5096,118 @@ msgid ""
 msgstr ""
 
 #: management/kmmainview.cpp:930
+#, kde-format
 msgid "Unable to retrieve the printer list."
 msgstr "Nie moontlik na onttrek die drukker lys."
 
 #: management/kmpages.cpp:52 management/kxmlcommandselector.cpp:59
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Information"
 msgstr "Bevestiging"
 
 #: management/kmpages.cpp:64
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Properties"
 msgstr "Eienskappe"
 
 #: management/kmpages.cpp:70
+#, kde-format
 msgid "Instances"
 msgstr "Instansies"
 
 #: management/kmpropbackend.cpp:34
+#, kde-format
 msgid "Printer type:"
 msgstr "Drukker tipe:"
 
 #: management/kmpropbackend.cpp:50
+#, kde-format
 msgid "Interface"
 msgstr "Koppelvlak"
 
 #: management/kmpropbackend.cpp:51
+#, kde-format
 msgid "Interface Settings"
 msgstr "Koppelvlak Instellings"
 
 #: management/kmpropbackend.cpp:63
+#, kde-format
 msgid "IPP Printer"
 msgstr "Ipp Drukker"
 
 #: management/kmpropbackend.cpp:64
+#, kde-format
 msgid "Local USB Printer"
 msgstr "Plaaslike Usb Drukker"
 
 #: management/kmpropbackend.cpp:65
+#, kde-format
 msgid "Local Parallel Printer"
 msgstr "Plaaslike Parallelle Drukker"
 
 #: management/kmpropbackend.cpp:66
+#, kde-format
 msgid "Local Serial Printer"
 msgstr "Plaaslike Reeksnommer Drukker"
 
 #: management/kmpropbackend.cpp:67
+#, kde-format
 msgid "Network Printer (socket)"
 msgstr "Netwerk Drukker (soket)"
 
 #: management/kmpropbackend.cpp:68
+#, kde-format
 msgid "SMB printers (Windows)"
 msgstr "Smb drukkers (Vensters)"
 
 #: management/kmpropbackend.cpp:70
+#, kde-format
 msgid "File printer"
 msgstr "Lêer drukker"
 
 #: management/kmpropbackend.cpp:71
+#, kde-format
 msgid "Serial Fax/Modem printer"
 msgstr "Reeksnommer Faks/Modem drukker"
 
 #: management/kmpropbackend.cpp:72
+#, kde-format
 msgctxt "Unknown Protocol"
 msgid "Unknown"
 msgstr "Onbekende"
 
 #: management/kmpropcontainer.cpp:35
+#, kde-format
 msgid "Change..."
 msgstr "Verander..."
 
 #: management/kmpropdriver.cpp:36
+#, kde-format
 msgid "Manufacturer:"
 msgstr "Vervaardiger:"
 
 #: management/kmpropdriver.cpp:37
+#, kde-format
 msgid "Printer model:"
 msgstr "Drukker model:"
 
 #: management/kmpropdriver.cpp:38
+#, kde-format
 msgid "Driver info:"
 msgstr "Drywer inligting:"
 
 #: management/kmpropgeneral.cpp:37
+#, kde-format
 msgid "Printer name:"
 msgstr "Drukker naam:"
 
 #: management/kmpropmembers.cpp:41 management/kmwend.cpp:61
+#, kde-format
 msgid "Members"
 msgstr "Lede"
 
 #: management/kmpropmembers.cpp:42
+#, kde-format
 msgid "Class Members"
 msgstr "Klas Lede"
 
@@ -4571,39 +5221,48 @@ msgstr ""
 "<p>%1</p></qt>"
 
 #: management/kmspecialprinterdlg.cpp:50
+#, kde-format
 msgid "Add Special Printer"
 msgstr "Voeg by Spesiaal Drukker"
 
 #: management/kmspecialprinterdlg.cpp:61 management/kxmlcommanddlg.cpp:114
 #: management/kxmlcommanddlg.cpp:872
+#, kde-format
 msgid "&Description:"
 msgstr "Beskrywing:"
 
 #: management/kmspecialprinterdlg.cpp:62
+#, kde-format
 msgid "&Location:"
 msgstr "Ligging:"
 
 #: management/kmspecialprinterdlg.cpp:70
+#, kde-format
 msgid "Command &Settings"
 msgstr "Opdrag Instellings"
 
 #: management/kmspecialprinterdlg.cpp:76
+#, kde-format
 msgid "Outp&ut File"
 msgstr "Uitset Lêer"
 
 #: management/kmspecialprinterdlg.cpp:79
+#, kde-format
 msgid "&Enable output file"
 msgstr "Aktiveer uitset lêer"
 
 #: management/kmspecialprinterdlg.cpp:90 management/kxmlcommanddlg.cpp:115
+#, kde-format
 msgid "&Format:"
 msgstr "Formaat:"
 
 #: management/kmspecialprinterdlg.cpp:95
+#, kde-format
 msgid "Filename e&xtension:"
 msgstr "Lêernaam uitbreiding:"
 
 #: management/kmspecialprinterdlg.cpp:111
+#, kde-format
 msgid ""
 "<p>The command will use an output file. If checked, make sure the command "
 "contains an output tag.</p>"
@@ -4612,7 +5271,7 @@ msgstr ""
 "bevat 'n uitset etiket.</p>"
 
 #: management/kmspecialprinterdlg.cpp:113
-#, c-format
+#, kde-format
 msgid ""
 "<p>The command to execute when printing on this special printer. Either "
 "enter the command to execute directly, or associate/create a command object "
@@ -4638,6 +5297,7 @@ msgstr ""
 "boonste kas.</li></ul>"
 
 #: management/kmspecialprinterdlg.cpp:123
+#, kde-format
 msgid ""
 "<p>The default mimetype for the output file (e.g. application/postscript).</"
 "p>"
@@ -4646,11 +5306,13 @@ msgstr ""
 "p>"
 
 #: management/kmspecialprinterdlg.cpp:126
+#, kde-format
 msgid "<p>The default extension for the output file (e.g. ps, pdf, ps.gz).</p>"
 msgstr ""
 "<p>Die verstek uitbreiding vir die uitset lêer (bv. ps, pdf, ps.gz).</p>"
 
 #: management/kmspecialprinterdlg.cpp:181
+#, kde-format
 msgid "You must provide a non-empty name."
 msgstr "Jy moet verskaf 'n non-empty naam."
 
@@ -4665,28 +5327,34 @@ msgid "Configuring %1"
 msgstr "Konfigurering van %1"
 
 #: management/kmwbackend.cpp:39
+#, kde-format
 msgid "Backend Selection"
 msgstr "Agterkant Keuse"
 
 #: management/kmwbackend.cpp:48
+#, kde-format
 msgid "You must select a backend."
 msgstr "Jy moet kies 'n agterkant."
 
 #: management/kmwbackend.cpp:96
+#, kde-format
 msgid "&Local printer (parallel, serial, USB)"
 msgstr "Plaaslike drukker (parallelle, reeksnommer, Usb)"
 
 #: management/kmwbackend.cpp:97
+#, kde-format
 msgid ""
 "<qt><p>Locally-connected printer</p><p>Use this for a printer connected to "
 "the computer via a parallel, serial or USB port.</p></qt>"
 msgstr ""
 
 #: management/kmwbackend.cpp:103
+#, kde-format
 msgid "&SMB shared printer (Windows)"
 msgstr "Smb gedeelde drukker (Vensters)"
 
 #: management/kmwbackend.cpp:104
+#, kde-format
 msgid ""
 "<qt><p>Shared Windows printer</p><p>Use this for a printer installed on a "
 "Windows server and shared on the network using the SMB protocol (samba).</"
@@ -4694,20 +5362,24 @@ msgid ""
 msgstr ""
 
 #: management/kmwbackend.cpp:111
+#, kde-format
 msgid "&Remote LPD queue"
 msgstr "Afgeleë Lpd wagtou"
 
 #: management/kmwbackend.cpp:112
+#, kde-format
 msgid ""
 "<qt><p>Print queue on a remote LPD server</p><p>Use this for a print queue "
 "existing on a remote machine running a LPD print server.</p></qt>"
 msgstr ""
 
 #: management/kmwbackend.cpp:118
+#, kde-format
 msgid "Ne&twork printer (TCP)"
 msgstr "Netwerk drukker (Tcp)"
 
 #: management/kmwbackend.cpp:119
+#, kde-format
 msgid ""
 "<qt><p>Network TCP printer</p><p>Use this for a network-enabled printer "
 "using TCP (usually on port 9100) as communication protocol. Most network "
@@ -4715,39 +5387,48 @@ msgid ""
 msgstr ""
 
 #: management/kmwclass.cpp:37
+#, kde-format
 msgid "Class Composition"
 msgstr "Klas Samestelling"
 
 #: management/kmwclass.cpp:52
+#, kde-format
 msgid "Available printers:"
 msgstr "Beskikbaar drukkers:"
 
 #: management/kmwclass.cpp:53
+#, kde-format
 msgid "Class printers:"
 msgstr "Klas drukkers:"
 
 #: management/kmwclass.cpp:87
+#, kde-format
 msgid "You must select at least one printer."
 msgstr "Jy moet ten minste een drukker kies."
 
 #: management/kmwdriver.cpp:33
+#, kde-format
 msgid "Printer Model Selection"
 msgstr "Drukker Model Keuse"
 
 #: management/kmwdriver.cpp:76 management/kmwend.cpp:104
 #: management/kmwname.cpp:79
+#, kde-format
 msgid "Raw printer"
 msgstr "Rou drukker"
 
 #: management/kmwdriver.cpp:101
+#, kde-format
 msgid "Internal error: unable to locate the driver."
 msgstr "Intern fout: nie moontlik om op te spoor die drywer."
 
 #: management/kmwdriverselect.cpp:37
+#, kde-format
 msgid "Driver Selection"
 msgstr "Drywer Keuse"
 
 #: management/kmwdriverselect.cpp:44
+#, kde-format
 msgid ""
 "<p>Several drivers have been detected for this model. Select the driver you "
 "want to use. You will have the opportunity to test it as well as to change "
@@ -4758,42 +5439,52 @@ msgstr ""
 "verander dit as nodige.</p>"
 
 #: management/kmwdriverselect.cpp:47
+#, kde-format
 msgid "Driver Information"
 msgstr "Drywer Informasie"
 
 #: management/kmwdriverselect.cpp:66
+#, kde-format
 msgid "You must select a driver."
 msgstr "Jy moet kies 'n drywer."
 
 #: management/kmwdriverselect.cpp:84
+#, kde-format
 msgid " [recommended]"
 msgstr " [aanbeveel]"
 
 #: management/kmwdriverselect.cpp:112
+#, kde-format
 msgid "No information about the selected driver."
 msgstr "Nee informasie aangaande die gekose drywer."
 
 #: management/kmwdrivertest.cpp:42
+#, kde-format
 msgid "Printer Test"
 msgstr "Drukker Toets"
 
 #: management/kmwdrivertest.cpp:52
+#, kde-format
 msgid "<b>Manufacturer:</b>"
 msgstr "<b>Vervaardiger:</b>"
 
 #: management/kmwdrivertest.cpp:53
+#, kde-format
 msgid "<b>Model:</b>"
 msgstr "<b>Model:</b>"
 
 #: management/kmwdrivertest.cpp:54
+#, kde-format
 msgid "<b>Description:</b>"
 msgstr "<b>Beskrywing:</b>"
 
 #: management/kmwdrivertest.cpp:56
+#, kde-format
 msgid "&Test"
 msgstr "Toets"
 
 #: management/kmwdrivertest.cpp:61
+#, kde-format
 msgid ""
 "<p>Now you can test the printer before finishing installation. Use the "
 "<b>Settings</b> button to configure the printer driver and the <b>Test</b> "
@@ -4812,6 +5503,7 @@ msgid "<qt>Unable to load the requested driver:<p>%1</p></qt>"
 msgstr "<qt>Nie moontlik na las die versoekte drywer:<p>%1</p></qt>"
 
 #: management/kmwdrivertest.cpp:150
+#, kde-format
 msgid ""
 "Test page successfully sent to printer. Wait until printing is complete, "
 "then click the OK button."
@@ -4820,88 +5512,108 @@ msgstr ""
 "volledige, dan word kliek die Goed knoppie."
 
 #: management/kmwdrivertest.cpp:152
+#, kde-format
 msgid "Unable to test printer: "
 msgstr "Nie moontlik na toets drukker: "
 
 #: management/kmwdrivertest.cpp:154
+#, kde-format
 msgid "Unable to remove temporary printer."
 msgstr "Nie moontlik na verwyder tydelike drukker."
 
 #: management/kmwdrivertest.cpp:156
+#, kde-format
 msgid "Unable to create temporary printer."
 msgstr "Nie moontlik na skep tydelike drukker."
 
 #: management/kmwend.cpp:34
+#, kde-format
 msgid "Confirmation"
 msgstr "Bevestiging"
 
 #: management/kmwend.cpp:55
+#, kde-format
 msgid "Location"
 msgstr "Ligging"
 
 #: management/kmwend.cpp:56 management/kmwend.cpp:109
 #: management/kxmlcommanddlg.cpp:142 management/kxmlcommanddlg.cpp:551
+#, kde-format
 msgid "Description"
 msgstr "Beskrywing"
 
 #: management/kmwend.cpp:69
+#, kde-format
 msgid "Backend"
 msgstr "Agterkant"
 
 #: management/kmwend.cpp:73
+#, kde-format
 msgid "Device"
 msgstr "Toestel"
 
 #: management/kmwend.cpp:76
+#, kde-format
 msgid "Printer IP"
 msgstr "Drukker  ip "
 
 #: management/kmwend.cpp:77 management/kmwend.cpp:88
+#, kde-format
 msgid "Port"
 msgstr "Poort"
 
 #: management/kmwend.cpp:80 management/kmwend.cpp:87
+#, kde-format
 msgid "Host"
 msgstr "Bediener"
 
 #: management/kmwend.cpp:81 rlpr/kmproprlpr.cpp:50
+#, kde-format
 msgid "Queue"
 msgstr "Wagtou"
 
 #: management/kmwend.cpp:84
-#, fuzzy
+#, fuzzy, kde-format
 msgid "File"
 msgstr "Lêer:"
 
 #: management/kmwend.cpp:90
+#, kde-format
 msgid "Account"
 msgstr "Rekening"
 
 #: management/kmwend.cpp:95
+#, kde-format
 msgid "URI"
 msgstr "Uri"
 
 #: management/kmwend.cpp:106
+#, kde-format
 msgid "DB driver"
 msgstr "Db drywer"
 
 #: management/kmwend.cpp:106
+#, kde-format
 msgid "External driver"
 msgstr "Eksterne drywer"
 
 #: management/kmwend.cpp:107
+#, kde-format
 msgid "Manufacturer"
 msgstr "Vervaardiger"
 
 #: management/kmwend.cpp:108
+#, kde-format
 msgid "Model"
 msgstr "Model"
 
 #: management/kmwfile.cpp:35
+#, kde-format
 msgid "File Selection"
 msgstr "Lêer Keuse"
 
 #: management/kmwfile.cpp:42
+#, kde-format
 msgid ""
 "<p>The printing will be redirected to a file. Enter here the path of the "
 "file you want to use for redirection. Use an absolute path or the browse "
@@ -4912,18 +5624,22 @@ msgstr ""
 "absolute gids soeklys of Die blaai knoppie vir grafiese keuse.</p>"
 
 #: management/kmwfile.cpp:45
+#, kde-format
 msgid "Print to file:"
 msgstr "Druk na lêer:"
 
 #: management/kmwfile.cpp:69
+#, kde-format
 msgid "Directory does not exist."
 msgstr "Gids bestaan nie."
 
 #: management/kmwinfopage.cpp:31
+#, kde-format
 msgid "Introduction"
 msgstr "Inleiding"
 
 #: management/kmwinfopage.cpp:35
+#, kde-format
 msgid ""
 "<p>Welcome,</p><br /><p>This wizard will help to install a new printer on "
 "your computer. It will guide you through the various steps of the process of "
@@ -4934,51 +5650,63 @@ msgid ""
 msgstr ""
 
 #: management/kmwizard.cpp:66 management/kmwizard.cpp:217
+#, kde-format
 msgid "&Next >"
 msgstr "Volgende >"
 
 #: management/kmwizard.cpp:68
+#, kde-format
 msgid "< &Back"
 msgstr "< Terug"
 
 #: management/kmwizard.cpp:140 management/kmwizard.cpp:176
 #: management/kmwizard.cpp:199
+#, kde-format
 msgid "Add Printer Wizard"
 msgstr "Voeg by Drukker Assistent"
 
 #: management/kmwizard.cpp:176
+#, kde-format
 msgid "Modify Printer"
 msgstr "Verander drukker"
 
 #: management/kmwizard.cpp:199
+#, kde-format
 msgid "Unable to find the requested page."
 msgstr "Nie moontlik na soek die versoekte bladsy."
 
 #: management/kmwizard.cpp:215 management/kmwizard.cpp:238
+#, kde-format
 msgid "&Finish"
 msgstr "Einde"
 
 #: management/kmwlocal.cpp:38
+#, kde-format
 msgid "Local Port Selection"
 msgstr "Plaaslike Poort Keuse"
 
 #: management/kmwlocal.cpp:50
+#, kde-format
 msgid "Local System"
 msgstr "Plaaslike stelsel"
 
 #: management/kmwlocal.cpp:57
+#, kde-format
 msgid "Parallel"
 msgstr "Parallelle"
 
 #: management/kmwlocal.cpp:58
+#, kde-format
 msgid "Serial"
 msgstr "Reeksnommer"
 
 #: management/kmwlocal.cpp:59
+#, kde-format
 msgid "USB"
 msgstr "Usb"
 
 #: management/kmwlocal.cpp:65
+#, kde-format
 msgid ""
 "<p>Select a valid detected port, or enter directly the corresponding URI in "
 "the bottom edit field.</p>"
@@ -4987,27 +5715,33 @@ msgstr ""
 "in die bodem redigeer veld.</p>"
 
 #: management/kmwlocal.cpp:83
+#, kde-format
 msgctxt "The URI is empty"
 msgid "Empty URI."
 msgstr ""
 
 #: management/kmwlocal.cpp:86
+#, kde-format
 msgid "The local URI does not correspond to a detected port. Continue?"
 msgstr ""
 
 #: management/kmwlocal.cpp:87
+#, kde-format
 msgid "Select a valid port."
 msgstr "Kies 'n geldige poort."
 
 #: management/kmwlocal.cpp:163
+#, kde-format
 msgid "Unable to detect local ports."
 msgstr "Nie moontlik na verklik plaaslike poorte."
 
 #: management/kmwlpd.cpp:43
+#, kde-format
 msgid "LPD Queue Information"
 msgstr "Lpd Wagtou Informasie"
 
 #: management/kmwlpd.cpp:46
+#, kde-format
 msgid ""
 "<p>Enter the information concerning the remote LPD queue; this wizard will "
 "check it before continuing.</p>"
@@ -5016,10 +5750,12 @@ msgstr ""
 "sal dit bevestig voor voortgaan.</p>"
 
 #: management/kmwlpd.cpp:49 rlpr/kmproprlpr.cpp:35 rlpr/kmwrlpr.cpp:63
+#, kde-format
 msgid "Queue:"
 msgstr "Wagtou:"
 
 #: management/kmwlpd.cpp:55
+#, kde-format
 msgid "Some information is missing."
 msgstr "Sommige informasie is tekort."
 
@@ -5029,10 +5765,12 @@ msgid "Cannot find queue %1 on server %2; do you want to continue anyway?"
 msgstr "Kan nie vind tou %1 op bediener %2; wil jy nogsteeds voortgaan?"
 
 #: management/kmwname.cpp:34
+#, kde-format
 msgid "General Information"
 msgstr "Algemeen Informasie"
 
 #: management/kmwname.cpp:37
+#, kde-format
 msgid ""
 "<p>Enter the information concerning your printer or class. <b>Name</b> is "
 "mandatory, <b>Location</b> and <b>Description</b> are not (they may even not "
@@ -5043,10 +5781,12 @@ msgstr ""
 "nie wees gebruik word op sommige sisteme).</p>"
 
 #: management/kmwname.cpp:39
+#, kde-format
 msgid "Name:"
 msgstr "Naam:"
 
 #: management/kmwname.cpp:47
+#, kde-format
 msgid "You must supply at least a name."
 msgstr "Jy moet verskaf ten minste 'n naam."
 
@@ -5062,14 +5802,17 @@ msgstr ""
 "strip alle spasies van jou ingevoerde string, gevolglik in %1. Wat wil doen?"
 
 #: management/kmwname.cpp:59
+#, kde-format
 msgid "Strip"
 msgstr "Strip"
 
 #: management/kmwpassword.cpp:35
+#, kde-format
 msgid "User Identification"
 msgstr "Gebruiker Identifikasie"
 
 #: management/kmwpassword.cpp:42
+#, kde-format
 msgid ""
 "<p>This backend may require a login/password to work properly. Select the "
 "type of access to use and fill in the login and password entries if needed.</"
@@ -5080,58 +5823,72 @@ msgstr ""
 "wagwoord inskrywings indien benodig.</p>"
 
 #: management/kmwpassword.cpp:48
+#, kde-format
 msgid "&Login:"
 msgstr "Aanteken:"
 
 #: management/kmwpassword.cpp:52
+#, kde-format
 msgid "&Anonymous (no login/password)"
 msgstr ""
 
 #: management/kmwpassword.cpp:53
+#, kde-format
 msgid "&Guest account (login=\"guest\")"
 msgstr "Gas rekening (login=\"guest\") "
 
 #: management/kmwpassword.cpp:54
+#, kde-format
 msgid "Nor&mal account"
 msgstr "Normale rekening"
 
 #: management/kmwpassword.cpp:86
+#, kde-format
 msgid "Select one option"
 msgstr "Kies een opsie"
 
 #: management/kmwpassword.cpp:88
+#, kde-format
 msgid "User name is empty."
 msgstr "Gebruiker naam is leeg."
 
 #: management/kmwsmb.cpp:36
+#, kde-format
 msgid "SMB Printer Settings"
 msgstr "Smb Drukker Instellings"
 
 #: management/kmwsmb.cpp:43
+#, kde-format
 msgid "Scan"
 msgstr "Skandeer"
 
 #: management/kmwsmb.cpp:44
+#, kde-format
 msgid "Abort"
 msgstr "Staak"
 
 #: management/kmwsmb.cpp:46
+#, kde-format
 msgid "Workgroup:"
 msgstr "Werksgroep:"
 
 #: management/kmwsmb.cpp:47
+#, kde-format
 msgid "Server:"
 msgstr "Bediener:"
 
 #: management/kmwsmb.cpp:48 tools/escputil/escpwidget.cpp:109
+#, kde-format
 msgid "Printer:"
 msgstr "Drukker:"
 
 #: management/kmwsmb.cpp:89 rlpr/kmrlprmanager.cpp:45
+#, kde-format
 msgid "Empty printer name."
 msgstr "Leeg drukker naam."
 
 #: management/kmwsmb.cpp:106
+#, kde-format
 msgid "<anonymous>"
 msgstr "<anoniem>"
 
@@ -5141,145 +5898,179 @@ msgid "Login: %1"
 msgstr "Aanteken: %1"
 
 #: management/kmwsocket.cpp:38
+#, kde-format
 msgid "Network Printer Information"
 msgstr "Netwerk Drukker Informasie"
 
 #: management/kmwsocket.cpp:48
+#, kde-format
 msgid "&Printer address:"
 msgstr "Drukker adres:"
 
 #: management/kmwsocket.cpp:49
+#, kde-format
 msgid "P&ort:"
 msgstr "Poort:"
 
 #: management/kmwsocket.cpp:101
+#, kde-format
 msgid "You must enter a printer address."
 msgstr "Jy moet invoer 'n drukker adres."
 
 #: management/kmwsocket.cpp:110
+#, kde-format
 msgid "Wrong port number."
 msgstr "Verkeerde poort nommer."
 
 #: management/kmwsocketutil.cpp:60 management/networkscanner.cpp:317
+#, kde-format
 msgid "&Subnetwork:"
 msgstr "Sub netwerk:"
 
 #: management/kmwsocketutil.cpp:62 management/networkscanner.cpp:319
+#, kde-format
 msgid "&Timeout (ms):"
 msgstr "Tydverstreke (mev):"
 
 #: management/kmwsocketutil.cpp:105 management/networkscanner.cpp:362
+#, kde-format
 msgid "Scan Configuration"
 msgstr "Skandeer Opstelling"
 
 #: management/kmwsocketutil.cpp:118 management/kmwsocketutil.cpp:122
 #: management/networkscanner.cpp:375 management/networkscanner.cpp:379
+#, kde-format
 msgid "Wrong subnetwork specification."
 msgstr "Verkeerde sub netwerk spesifikasie."
 
 #: management/kmwsocketutil.cpp:130 management/networkscanner.cpp:387
+#, kde-format
 msgid "Wrong timeout specification."
 msgstr "Verkeerde tydverstreke spesifikasie."
 
 #: management/kmwsocketutil.cpp:133 management/networkscanner.cpp:390
+#, kde-format
 msgid "Wrong port specification."
 msgstr "Verkeerde poort spesifikasie."
 
 #: management/kxmlcommanddlg.cpp:107
+#, kde-format
 msgid "Integer"
 msgstr "Heelgetal"
 
 #: management/kxmlcommanddlg.cpp:108
+#, kde-format
 msgid "Float"
 msgstr "Dryf"
 
 #: management/kxmlcommanddlg.cpp:109
+#, kde-format
 msgid "List"
 msgstr "Lys"
 
 #: management/kxmlcommanddlg.cpp:117
+#, kde-format
 msgid "Default &value:"
 msgstr "Verstek waarde:"
 
 #: management/kxmlcommanddlg.cpp:118
+#, kde-format
 msgid "Co&mmand:"
 msgstr "Opdrag:"
 
 #: management/kxmlcommanddlg.cpp:125
+#, kde-format
 msgid "&Persistent option"
 msgstr "Oriëntasie opsie"
 
 #: management/kxmlcommanddlg.cpp:127
+#, kde-format
 msgid "Va&lues"
 msgstr "Waardes"
 
 #: management/kxmlcommanddlg.cpp:136
+#, kde-format
 msgid "Minimum v&alue:"
 msgstr "Minimum waarde:"
 
 #: management/kxmlcommanddlg.cpp:137
+#, kde-format
 msgid "Ma&ximum value:"
 msgstr "Maksimum waarde:"
 
 #: management/kxmlcommanddlg.cpp:150
+#, kde-format
 msgid "Add value"
 msgstr "Voeg by waarde"
 
 #: management/kxmlcommanddlg.cpp:151
+#, kde-format
 msgid "Delete value"
 msgstr "Uitvee waarde"
 
 #: management/kxmlcommanddlg.cpp:153
+#, kde-format
 msgid "Apply changes"
 msgstr "Wend aan verander"
 
 #: management/kxmlcommanddlg.cpp:154
+#, kde-format
 msgid "Add group"
 msgstr "Voeg by groep"
 
 #: management/kxmlcommanddlg.cpp:155
+#, kde-format
 msgid "Add option"
 msgstr "Voeg by opsie"
 
 #: management/kxmlcommanddlg.cpp:156
+#, kde-format
 msgid "Delete item"
 msgstr "Uitvee item"
 
 #: management/kxmlcommanddlg.cpp:162
+#, kde-format
 msgid "&Input From"
 msgstr "Invoer Van"
 
 #: management/kxmlcommanddlg.cpp:164
+#, kde-format
 msgid "O&utput To"
 msgstr "Uitset Na"
 
 #: management/kxmlcommanddlg.cpp:166 management/kxmlcommanddlg.cpp:168
+#, kde-format
 msgid "File:"
 msgstr "Lêer:"
 
 #: management/kxmlcommanddlg.cpp:167 management/kxmlcommanddlg.cpp:169
+#, kde-format
 msgid "Pipe:"
 msgstr "Pyp:"
 
 #: management/kxmlcommanddlg.cpp:309
+#, kde-format
 msgid ""
 "An identification string. Use only alphanumeric characters except spaces. "
 "The string <b>__root__</b> is reserved for internal use."
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:313
+#, kde-format
 msgid ""
 "A description string. This string is shown in the interface, and should be "
 "explicit enough about the role of the corresponding option."
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:317
+#, kde-format
 msgid ""
 "The type of the option. This determines how the option is presented "
 "graphically to the user."
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:321
+#, kde-format
 msgid ""
 "The format of the option. This determines how the option is formatted for "
 "inclusion in the global command line. The tag <b>%value</b> can be used to "
@@ -5288,6 +6079,7 @@ msgid ""
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:327
+#, kde-format
 msgid ""
 "The default value of the option. For non persistent options, nothing is "
 "added to the command line if the option has that default value. If this "
@@ -5296,6 +6088,7 @@ msgid ""
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:333
+#, kde-format
 msgid ""
 "Make the option persistent. A persistent option is always written to the "
 "command line, whatever its value. This is useful when the chosen default "
@@ -5303,7 +6096,7 @@ msgid ""
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:337
-#, c-format
+#, kde-format
 msgid ""
 "The full command line to execute the associated underlying utility. This "
 "command line is based on a mechanism of tags that are replaced at run-time. "
@@ -5314,32 +6107,35 @@ msgid ""
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:347
-#, c-format
+#, kde-format
 msgid ""
 "Input specification when the underlying utility reads input data from a "
 "file. Use the tag <b>%in</b> to represent the input filename."
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:351
-#, c-format
+#, kde-format
 msgid ""
 "Output specification when the underlying utility writes output data to a "
 "file. Use the tag <b>%out</b> to represent the output filename."
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:355
+#, kde-format
 msgid ""
 "Input specification when the underlying utility reads input data from its "
 "standard input."
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:359
+#, kde-format
 msgid ""
 "Output specification when the underlying utility writes output data to its "
 "standard output."
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:363
+#, kde-format
 msgid ""
 "A comment about the underlying utility, which can be viewed by the user from "
 "the interface. This comment string supports basic HTML tags like &lt;a&gt;, "
@@ -5347,6 +6143,7 @@ msgid ""
 msgstr ""
 
 #: management/kxmlcommanddlg.cpp:572
+#, kde-format
 msgid ""
 "Invalid identification name. Empty strings and \"__root__\" are not allowed."
 msgstr ""
@@ -5354,10 +6151,12 @@ msgstr ""
 "toegelaat."
 
 #: management/kxmlcommanddlg.cpp:653 management/kxmlcommanddlg.cpp:656
+#, kde-format
 msgid "New Group"
 msgstr "Nuwe Groep"
 
 #: management/kxmlcommanddlg.cpp:671 management/kxmlcommanddlg.cpp:674
+#, kde-format
 msgid "New Option"
 msgstr "Nuwe Opsie"
 
@@ -5367,50 +6166,62 @@ msgid "Command Edit for %1"
 msgstr "Opdrag Redigeer vir %1"
 
 #: management/kxmlcommanddlg.cpp:835
+#, kde-format
 msgid "&Mime Type Settings"
 msgstr "Mime Tipe Instellings"
 
 #: management/kxmlcommanddlg.cpp:843
+#, kde-format
 msgid "Supported &Input Formats"
 msgstr "Ondersteunde Invoer Formate"
 
 #: management/kxmlcommanddlg.cpp:857
+#, kde-format
 msgid "&Edit Command..."
 msgstr "Redigeer Opdrag..."
 
 #: management/kxmlcommanddlg.cpp:874
+#, kde-format
 msgid "Output &format:"
 msgstr "Uitset formaat:"
 
 #: management/kxmlcommanddlg.cpp:876
+#, kde-format
 msgid "ID name:"
 msgstr "Id naam:"
 
 #: management/kxmlcommanddlg.cpp:1055
+#, kde-format
 msgid "exec:/"
 msgstr "voer uit:/"
 
 #: management/kxmlcommandselector.cpp:53
+#, kde-format
 msgid "New command"
 msgstr "Nuwe opdrag"
 
 #: management/kxmlcommandselector.cpp:54
+#, kde-format
 msgid "Edit command"
 msgstr "Redigeer opdrag"
 
 #: management/kxmlcommandselector.cpp:72
+#, kde-format
 msgid "&Browse..."
 msgstr "Blaai..."
 
 #: management/kxmlcommandselector.cpp:73
+#, kde-format
 msgid "Use co&mmand:"
 msgstr "Gebruik opdrag:"
 
 #: management/kxmlcommandselector.cpp:179
+#, kde-format
 msgid "Command Name"
 msgstr "Opdrag Naam"
 
 #: management/kxmlcommandselector.cpp:179
+#, kde-format
 msgid "Enter an identification name for the new command:"
 msgstr "Invoer 'n identifikasie naam vir die nuwe opdrag:"
 
@@ -5429,26 +6240,32 @@ msgid "Internal error. The XML driver for the command %1 could not be found."
 msgstr "Intern Fout. Die Xml drywer vir die opdrag %1 kon nie gevind word nie."
 
 #: management/kxmlcommandselector.cpp:237
+#, kde-format
 msgid "output"
 msgstr "uitset"
 
 #: management/kxmlcommandselector.cpp:240
+#, kde-format
 msgid "undefined"
 msgstr "ongedefinieerd"
 
 #: management/kxmlcommandselector.cpp:244
+#, kde-format
 msgid "not allowed"
 msgstr "nie toegelaat"
 
 #: management/kxmlcommandselector.cpp:248
+#, kde-format
 msgid "(Unavailable: requirements not satisfied)"
 msgstr "(Onbeskikbaar: benodighede nie bevredigend)"
 
 #: management/networkscanner.cpp:106 management/networkscanner.cpp:168
+#, kde-format
 msgid "Sc&an"
 msgstr "Skandeer"
 
 #: management/networkscanner.cpp:109
+#, kde-format
 msgid "Network scan:"
 msgstr "Netwerk skandeer:"
 
@@ -5470,18 +6287,22 @@ msgstr ""
 "die gespesifiseer subnet in elkgeval?"
 
 #: management/networkscanner.cpp:153
+#, kde-format
 msgid "&Scan"
 msgstr "Skandeer"
 
 #: management/smbview.cpp:44
+#, kde-format
 msgid "Comment"
 msgstr "Kommentaar"
 
 #: marginpreview.cpp:128
+#, kde-format
 msgid "No preview available"
 msgstr "Geen voorskou beskikbaar"
 
 #: marginwidget.cpp:36
+#, kde-format
 msgid ""
 " <qt> <p><b>Top Margin</b>.</p> <p>This spinbox/text edit field lets you "
 "control the top margin of your printout if the printing application does not "
@@ -5498,6 +6319,7 @@ msgid ""
 msgstr ""
 
 #: marginwidget.cpp:56
+#, kde-format
 msgid ""
 " <qt> <p><b>Bottom Margin</b>.</p> <p>This spinbox/text edit field lets you "
 "control the bottom margin of your printout if the printing application does "
@@ -5514,6 +6336,7 @@ msgid ""
 msgstr ""
 
 #: marginwidget.cpp:76
+#, kde-format
 msgid ""
 " <qt> <p><b>Left Margin</b>.</p> <p>This spinbox/text edit field lets you "
 "control the left margin of your printout if the printing application does "
@@ -5530,6 +6353,7 @@ msgid ""
 msgstr ""
 
 #: marginwidget.cpp:96
+#, kde-format
 msgid ""
 " <qt> <p><b>Right Margin</b>.</p> <p>This spinbox/text edit field lets you "
 "control the right margin of your printout if the printing application does "
@@ -5546,6 +6370,7 @@ msgid ""
 msgstr ""
 
 #: marginwidget.cpp:116
+#, kde-format
 msgid ""
 " <qt> <p><b>Change Measurement Unit</b>.</p> <p>You can change the units of "
 "measurement for the page margins here. Select from Millimeters, Centimeters, "
@@ -5553,6 +6378,7 @@ msgid ""
 msgstr ""
 
 #: marginwidget.cpp:123
+#, kde-format
 msgid ""
 " <qt> <p><b>Custom Margins Checkbox</b>.</p> <p>Enable this checkbox if you "
 "want to modify the margins of your printouts.</p> <p>You can change margin "
@@ -5567,48 +6393,59 @@ msgid ""
 msgstr ""
 
 #: marginwidget.cpp:140
+#, kde-format
 msgid ""
 " <qt> <p><b>\"Drag-your-Margins\"</b>.</p> <p>Use your mouse to drag and set "
 "each margin on this little preview window.</p> </qt>"
 msgstr ""
 
 #: marginwidget.cpp:150
+#, kde-format
 msgid "&Use custom margins"
 msgstr "Gebruik pasmaak kantlyne"
 
 #: marginwidget.cpp:160
+#, kde-format
 msgid "&Top:"
 msgstr "Bo:"
 
 #: marginwidget.cpp:161
+#, kde-format
 msgid "&Bottom:"
 msgstr "Bodem:"
 
 #: marginwidget.cpp:162
+#, kde-format
 msgid "Le&ft:"
 msgstr "Links:"
 
 #: marginwidget.cpp:163
+#, kde-format
 msgid "&Right:"
 msgstr "Regterkant:"
 
 #: marginwidget.cpp:166
+#, kde-format
 msgid "Pixels (1/72nd in)"
 msgstr "Pixels (1/72nd in)"
 
 #: marginwidget.cpp:168
+#, kde-format
 msgid "Inches (in)"
 msgstr "Duime (in)"
 
 #: marginwidget.cpp:169
+#, kde-format
 msgid "Centimeters (cm)"
 msgstr "Sentimeters (cm)"
 
 #: marginwidget.cpp:170
+#, kde-format
 msgid "Millimeters (mm)"
 msgstr "Millimeters (cm)"
 
 #: plugincombobox.cpp:32
+#, kde-format
 msgid ""
 " <qt><b>Print Subsystem Selection</b> <p>This combo box shows (and lets you "
 "select) a print subsystem to be used by KDEPrint. (This print subsystem "
@@ -5619,15 +6456,17 @@ msgid ""
 msgstr ""
 
 #: plugincombobox.cpp:45
+#, kde-format
 msgid "Print s&ystem currently used:"
 msgstr "Druk stelsel huidiglik gebruik word:"
 
 #: plugincombobox.cpp:49
-#, fuzzy
+#, fuzzy, kde-format
 msgid "Plugin information"
 msgstr "Betaling informasie:"
 
 #: plugincombobox.cpp:91
+#, kde-format
 msgid ""
 " <qt><b>Current Connection</b> <p>This line shows which CUPS server your PC "
 "is currently connected to for printing and retrieving printer info. To "
@@ -5636,6 +6475,7 @@ msgid ""
 msgstr ""
 
 #: posterpreview.cpp:123
+#, kde-format
 msgid ""
 "Poster preview not available. Either the <b>poster</b> executable is not "
 "properly installed, or you don't have the required version; available at "
@@ -5651,38 +6491,47 @@ msgid "(line %1): "
 msgstr "(lyn %1): "
 
 #: rlpr/kmconfigproxy.cpp:30
+#, kde-format
 msgid "Proxy"
 msgstr "Volmag"
 
 #: rlpr/kmconfigproxy.cpp:31
+#, kde-format
 msgid "RLPR Proxy Server Settings"
 msgstr "Rlpr volmag bediener instellings"
 
 #: rlpr/kmproprlpr.cpp:51 rlpr/kmwrlpr.cpp:50
+#, kde-format
 msgid "Remote LPD Queue Settings"
 msgstr "Afgeleë Lpd Wagtou Instellings"
 
 #: rlpr/kmproxywidget.cpp:32
+#, kde-format
 msgid "Proxy Settings"
 msgstr "Volmag Instellings"
 
 #: rlpr/kmproxywidget.cpp:38
+#, kde-format
 msgid "&Use proxy server"
 msgstr "Gebruik volmag bediener"
 
 #: rlpr/kmrlprmanager.cpp:47 rlpr/kmwrlpr.cpp:89
+#, kde-format
 msgid "Empty host name."
 msgstr "Leeg bediener naam."
 
 #: rlpr/kmrlprmanager.cpp:49 rlpr/kmwrlpr.cpp:91
+#, kde-format
 msgid "Empty queue name."
 msgstr "Leeg wagtou naam."
 
 #: rlpr/kmrlprmanager.cpp:62
+#, kde-format
 msgid "Printer not found."
 msgstr "Drukker nie gevind."
 
 #: rlpr/kmrlprmanager.cpp:73
+#, kde-format
 msgid "Not implemented yet."
 msgstr "Nie geimplementeer nog."
 
@@ -5692,42 +6541,52 @@ msgid "Remote queue %1 on %2"
 msgstr "Afgeleë wagtou %1 op %2"
 
 #: rlpr/kmwrlpr.cpp:191
+#, kde-format
 msgid "No Predefined Printers"
 msgstr "Geen vooraf gedefinieerde drukkers"
 
 #: rlpr/krlprprinterimpl.cpp:68
+#, kde-format
 msgid "The printer is incompletely defined. Try to reinstall it."
 msgstr "Die drukker is onvolledig gedefinieër. Probeer na herinstalleer dit."
 
 #: tools/escputil/escpwidget.cpp:49
+#, kde-format
 msgid "EPSON InkJet Printer Utilities"
 msgstr "Epson Inkstraal Drukker Nutsprogramme"
 
 #: tools/escputil/escpwidget.cpp:101
+#, kde-format
 msgid "&Use direct connection (might need root permissions)"
 msgstr "Gebruik direkte verbinding (dalk benodig root regte)"
 
 #: tools/escputil/escpwidget.cpp:113
+#, kde-format
 msgid "Clea&n print head"
 msgstr "Maak skoon druk kop"
 
 #: tools/escputil/escpwidget.cpp:114
+#, kde-format
 msgid "&Print a nozzle test pattern"
 msgstr "Druk 'n spuitkop toets patroon"
 
 #: tools/escputil/escpwidget.cpp:115
+#, kde-format
 msgid "&Align print head"
 msgstr "Oplyn druk kop"
 
 #: tools/escputil/escpwidget.cpp:116
+#, kde-format
 msgid "&Ink level"
 msgstr "Ink vlak"
 
 #: tools/escputil/escpwidget.cpp:117
+#, kde-format
 msgid "P&rinter identification"
 msgstr "Drukker identifikasie"
 
 #: tools/escputil/escpwidget.cpp:166
+#, kde-format
 msgid "Internal error: no device set."
 msgstr "Intern fout: nee toestel stel."
 
@@ -5737,6 +6596,7 @@ msgid "Unsupported connection type: %1"
 msgstr "Nie ondersteunde verbinding tipe: %1"
 
 #: tools/escputil/escpwidget.cpp:180
+#, kde-format
 msgid ""
 "An escputil process is still running. You must wait until its completion "
 "before continuing."
@@ -5745,6 +6605,7 @@ msgstr ""
 "voor voortgaan."
 
 #: tools/escputil/escpwidget.cpp:187
+#, kde-format
 msgid ""
 "The executable escputil cannot be found in your PATH environment variable. "
 "Make sure gimp-print is installed and that escputil is in your PATH."
@@ -5754,10 +6615,12 @@ msgstr ""
 "jou Gids soeklys."
 
 #: tools/escputil/escpwidget.cpp:214
+#, kde-format
 msgid "Internal error: unable to start escputil process."
 msgstr "Intern fout: nie moontlik na begin escputil proses."
 
 #: tools/escputil/escpwidget.cpp:223
+#, kde-format
 msgid "Operation terminated with errors."
 msgstr "Operasie beëindig met foute."
 
