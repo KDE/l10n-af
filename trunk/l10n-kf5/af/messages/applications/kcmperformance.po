@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmperformance stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-15 07:15+0000\n"
+"POT-Creation-Date: 2016-11-19 20:06+0100\n"
 "PO-Revision-Date: 2005-06-13 16:33+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: kcmperformance.cpp:44
+#, kde-format
 msgid ""
 "<h1>KDE Performance</h1> You can configure settings that improve KDE "
 "performance here."
@@ -25,14 +26,17 @@ msgstr ""
 "werkverrigting verbeter."
 
 #: kcmperformance.cpp:51
+#, kde-format
 msgid "Konqueror"
 msgstr "Konqueror"
 
 #: kcmperformance.cpp:54
+#, kde-format
 msgid "System"
 msgstr "Stelsel"
 
 #: kcmperformance.cpp:79
+#, kde-format
 msgid ""
 "<h1>Konqueror Performance</h1> You can configure several settings that "
 "improve Konqueror performance here. These include options for reusing "
@@ -44,7 +48,7 @@ msgstr ""
 "voorgelaai te hou."
 
 #: konqueror.cpp:35
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "If enabled, an instance of Konqueror will be preloaded after the ordinary "
 #| "KDE startup sequence.<p>This will make the first Konqueror window open "
@@ -65,7 +69,7 @@ msgstr ""
 "opmerk dat dit langer neem nie)."
 
 #: konqueror.cpp:41
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid ""
 #| "If enabled, KDE will always try to have one preloaded Konqueror instance "
 #| "ready; preloading a new instance in the background whenever there is not "
@@ -87,23 +91,25 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: konqueror_ui.ui:17
+#, kde-format
 msgid "Preloading"
 msgstr "Voorlaai"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_preload_on_startup)
 #: konqueror_ui.ui:23
+#, kde-format
 msgid "Preload an instance after KDE startup"
 msgstr "Voorlaai van 'n voorbeeld na KDE selflaai"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_always_have_preloaded)
 #: konqueror_ui.ui:30
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Always try to have at least one preloaded instance"
 msgid "Always try to have one preloaded instance"
 msgstr "Probeer altyd om ten minste een voorgelaaide voorbeeld te hê"
 
 #: system.cpp:34
-#, fuzzy
+#, fuzzy, kde-format
 msgid ""
 "<p>During startup KDE needs to perform a check of its system configuration "
 "(mimetypes, installed applications, etc.), and in case the configuration has "
@@ -130,28 +136,30 @@ msgstr ""
 "noodwendig is voor hierdie vertraagde kontrole deurgevoer word, kan hierdie "
 "opsie lei tot verskillende probleme (vermisde aanwendings in die K kieslys,  "
 "verslae van aanwendings aangaande vermisde benodigde mimetipes, ens.).</"
-"p><p>Veranderinge van stelsel konfigurasie gebeur meestal by (on)"
-"installering van aanwendings. Dit word daarom aanbeveel om hierdie opsies "
-"tydelik af te skakel gedurende (on)installering van aanwendings.</p><p>Vir "
-"hierdie rede, word die gebruik van hierdie opsie nie aanbeveel nie. Die KDE "
-"omval hanteerder sal weier om 'n terugvalkopië te verskaf vir die "
+"p><p>Veranderinge van stelsel konfigurasie gebeur meestal by "
+"(on)installering van aanwendings. Dit word daarom aanbeveel om hierdie "
+"opsies tydelik af te skakel gedurende (on)installering van aanwendings.</"
+"p><p>Vir hierdie rede, word die gebruik van hierdie opsie nie aanbeveel nie. "
+"Die KDE omval hanteerder sal weier om 'n terugvalkopië te verskaf vir die "
 "foutverslag met hierdie opsie aangeskakel (u sal nodig hê om dit weer te "
 "produseer met hierdie opsie afgeskakel, of skakel die ontwikkelaar modus vir "
 "die omval hanteerder aan).</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gb_)
 #: system_ui.ui:8
+#, kde-format
 msgid "System Configuration"
 msgstr "Stelsel Konfigurasie"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_disable_kbuildsycoca)
 #: system_ui.ui:14
+#, kde-format
 msgid "Disable &system configuration startup check"
 msgstr "Versper &stelsel konfigurasie selflaai funksie"
 
 #. i18n: ectx: property (text), widget (QLabel, label_kbuildsycoca)
 #: system_ui.ui:21
-#, fuzzy
+#, fuzzy, kde-format
 msgid ""
 "This option may in rare cases lead to various problems. Consult the What's "
 "This (Shift+F1) help for details."
