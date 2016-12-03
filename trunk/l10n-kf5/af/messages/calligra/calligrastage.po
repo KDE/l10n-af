@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpresenter VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -58,6 +58,90 @@ msgstr "Skyfievertoning"
 msgid "&Settings"
 msgstr "Gids soeklys Instellings"
 
+#: part/commands/KPrAddCustomSlideShowCommand.cpp:32
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add custom slide show"
+msgstr "Skyfievertoning"
+
+#: part/commands/KPrAnimationCreateCommand.cpp:32
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgctxt "(qtundo-format)"
+msgid "Create shape animation"
+msgstr "Skep Html Aanbieding"
+
+#: part/commands/KPrAnimationEditNodeTypeCommand.cpp:35
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgctxt "(qtundo-format)"
+msgid "Edit animation trigger event"
+msgstr "Skep Html Aanbieding"
+
+#: part/commands/KPrAnimationRemoveCommand.cpp:30
+#, fuzzy
+#| msgid "Create HTML Presentation"
+msgctxt "(qtundo-format)"
+msgid "Remove shape animation"
+msgstr "Skep Html Aanbieding"
+
+#: part/commands/KPrDelCustomSlideShowCommand.cpp:33
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete custom slide show"
+msgstr "Gekose skyfies"
+
+#: part/commands/KPrDeleteSlidesCommand.cpp:38
+#: part/commands/KPrDeleteSlidesCommand.cpp:57
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete slide"
+msgid_plural "Delete slides"
+msgstr[0] "Gekose skyfies"
+msgstr[1] "Gekose skyfies"
+
+#: part/commands/KPrEditAnimationTimeLineCommand.cpp:37
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Edit animation delay/duration"
+msgstr "Aanbieding Duur: "
+
+#: part/commands/KPrEditCustomSlideShowsCommand.cpp:32
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Edit custom slide show"
+msgstr "Skyfievertoning"
+
+#: part/commands/KPrPageEffectSetCommand.cpp:38
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Create Slide Effect"
+msgstr "Verander Kas van Teks"
+
+#: part/commands/KPrPageEffectSetCommand.cpp:41
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify Slide Effect"
+msgstr "Nee Effek"
+
+#: part/commands/KPrPageEffectSetCommand.cpp:45
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete Slide Effect"
+msgstr "Gekose skyfies"
+
+#: part/commands/KPrRenameCustomSlideShowCommand.cpp:33
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rename custom slide show"
+msgstr "Skyfievertoning"
+
+#: part/commands/KPrReorderAnimationCommand.cpp:33
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reorder animations"
+msgstr "Skuif Titel"
+
 #: part/KPrAboutData.h:34
 #, fuzzy, kde-format
 msgctxt "application name"
@@ -82,16 +166,16 @@ msgstr ""
 msgid "Copyright 1998-%1, The Stage Team"
 msgstr "(c) 1998-2002, Die Kpresenter Span"
 
-#: part/KPrAboutData.h:48
-#, kde-format
-msgid "Thorsten Zachmann"
-msgstr ""
-
 #: part/KPrAboutData.h:48 part/KPrAboutData.h:49
 #, fuzzy, kde-format
 #| msgid "current maintainer"
 msgid "Former maintainer"
 msgstr "huidige onderhouer"
+
+#: part/KPrAboutData.h:48
+#, kde-format
+msgid "Thorsten Zachmann"
+msgstr ""
 
 #: part/KPrAboutData.h:49
 #, kde-format
@@ -99,15 +183,15 @@ msgid "Laurent Montel"
 msgstr ""
 
 #: part/KPrAboutData.h:50
-#, kde-format
-msgid "Reginald Stadlbauer"
-msgstr ""
-
-#: part/KPrAboutData.h:50
 #, fuzzy, kde-format
 #| msgid "original author"
 msgid "Original author"
 msgstr "oorspronklike outeur"
+
+#: part/KPrAboutData.h:50
+#, kde-format
+msgid "Reginald Stadlbauer"
+msgstr ""
 
 #: part/KPrAboutData.h:51
 #, kde-format
@@ -245,6 +329,13 @@ msgstr ""
 #, kde-format
 msgid "Installation Error"
 msgstr ""
+
+#: part/KPrPicturesImport.cpp:75
+#, fuzzy
+#| msgid "Insert Picture"
+msgctxt "(qtundo-format)"
+msgid "Insert Pictures"
+msgstr "Voeg by Prent"
 
 #: part/KPrPlaceholderShapeFactory.cpp:32
 #, kde-format
@@ -675,17 +766,24 @@ msgstr "Skyfievertoning"
 msgid "All slides"
 msgstr "Alle lêers"
 
-#: part/KPrViewModeSlidesSorter.cpp:699
-#, kde-format
-msgid "There cannot be two slideshows with the same name."
-msgstr ""
-
 #: part/KPrViewModeSlidesSorter.cpp:699 part/ui/KPrHtmlExportDialog.cpp:162
 #: part/ui/KPrHtmlExportDialog.cpp:216
 #, fuzzy, kde-format
 #| msgid "Arrow"
 msgid "Error"
 msgstr "Pyl"
+
+#: part/KPrViewModeSlidesSorter.cpp:699
+#, kde-format
+msgid "There cannot be two slideshows with the same name."
+msgstr ""
+
+#: part/pagelayout/KPrPlaceholders.cpp:59
+#: part/pagelayout/KPrPlaceholders.cpp:60
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Layout"
+msgstr "Bladsy Uitleg..."
 
 #: part/tools/animationtool/KPrAnimationSelectorWidget.cpp:67
 #, fuzzy, kde-format
@@ -777,6 +875,13 @@ msgstr " sekondes"
 #| msgid "Apply Styles"
 msgid "Apply To All Slides"
 msgstr "Wend aan Style"
+
+#: part/tools/animationtool/KPrPageEffectDocker.cpp:236
+#, fuzzy
+#| msgid "Apply Style to Frames"
+msgctxt "(qtundo-format)"
+msgid "Apply Slide Effect to all Slides"
+msgstr "Wend aan Styl na Rame"
 
 #: part/tools/animationtool/KPrPredefinedAnimationsLoader.cpp:178
 #, kde-format
@@ -939,6 +1044,12 @@ msgstr "Bladsy"
 #, fuzzy, kde-format
 msgid "&Crop"
 msgstr "Bo:"
+
+#: part/tools/KPrPlaceholderTool.cpp:92
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Edit Shape"
+msgstr "Vorm"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: part/ui/KPrConfigurePresenterView.ui:16
@@ -1118,14 +1229,21 @@ msgstr ""
 
 #: part/ui/KPrHtmlExportDialog.cpp:330
 #, fuzzy, kde-format
+msgid "Are you sure you want to remove \"%1\"?"
+msgstr "Doen jy wil hê na verwyder die huidige bladsy?"
+
+#: part/ui/KPrHtmlExportDialog.cpp:330
+#, fuzzy, kde-format
 #| msgid "Save Configuration..."
 msgid "Confirm remove"
 msgstr "Stoor Opstelling..."
 
-#: part/ui/KPrHtmlExportDialog.cpp:330
-#, fuzzy, kde-format
-msgid "Are you sure you want to remove \"%1\"?"
-msgstr "Doen jy wil hê na verwyder die huidige bladsy?"
+#: plugins/eventactions/sound/KPrSoundEventActionWidget.cpp:95
+#, fuzzy
+#| msgid "Change Rotation"
+msgctxt "(qtundo-format)"
+msgid "Change sound action"
+msgstr "Verander Rotering"
 
 #: plugins/eventactions/sound/KPrSoundEventActionWidget.cpp:118
 #, fuzzy, kde-format
@@ -2576,65 +2694,6 @@ msgstr "Voetskrif"
 #~ msgstr "Konfigureer Kpresenter"
 
 #, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add custom slide show"
-#~ msgstr "Skyfievertoning"
-
-#, fuzzy
-#~| msgid "Create HTML Presentation"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Create shape animation"
-#~ msgstr "Skep Html Aanbieding"
-
-#, fuzzy
-#~| msgid "Create HTML Presentation"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove shape animation"
-#~ msgstr "Skep Html Aanbieding"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete custom slide show"
-#~ msgstr "Gekose skyfies"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete slide"
-#~ msgid_plural "Delete slides"
-#~ msgstr[0] "Gekose skyfies"
-#~ msgstr[1] "Gekose skyfies"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Edit custom slide show"
-#~ msgstr "Skyfievertoning"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Create Slide Effect"
-#~ msgstr "Verander Kas van Teks"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Slide Effect"
-#~ msgstr "Nee Effek"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Slide Effect"
-#~ msgstr "Gekose skyfies"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rename custom slide show"
-#~ msgstr "Skyfievertoning"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reorder animations"
-#~ msgstr "Skuif Titel"
-
-#, fuzzy
 #~ msgctxt "(qtundo-format) application name"
 #~ msgid "Calligra Stage"
 #~ msgstr "Konfigureer Voltooiïng..."
@@ -2708,12 +2767,6 @@ msgstr "Voetskrif"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Layout"
 #~ msgstr "Bladsy Uitleg..."
-
-#, fuzzy
-#~| msgid "Insert Picture"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Pictures"
-#~ msgstr "Voeg by Prent"
 
 #, fuzzy
 #~| msgid "Color"
@@ -3070,11 +3123,6 @@ msgstr "Voetskrif"
 
 #, fuzzy
 #~ msgctxt "(qtundo-format)"
-#~ msgid "Set Layout"
-#~ msgstr "Bladsy Uitleg..."
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
 #~ msgid "Automatic animation preview"
 #~ msgstr "Vertoon voorskou"
 
@@ -3154,12 +3202,6 @@ msgstr "Voetskrif"
 #~ msgstr "Wend aan Style"
 
 #, fuzzy
-#~| msgid "Apply Style to Frames"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Apply Slide Effect to all Slides"
-#~ msgstr "Wend aan Styl na Rame"
-
-#, fuzzy
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Custom"
 #~ msgstr "Skyfievertoning"
@@ -3211,11 +3253,6 @@ msgstr "Voetskrif"
 #~ msgstr "Voor Huidige Bladsy"
 
 #, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Edit Shape"
-#~ msgstr "Vorm"
-
-#, fuzzy
 #~| msgid "Configure KPresenter"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Configure Presenter View"
@@ -3246,12 +3283,6 @@ msgstr "Voetskrif"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Confirm remove"
 #~ msgstr "Stoor Opstelling..."
-
-#, fuzzy
-#~| msgid "Change Rotation"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change sound action"
-#~ msgstr "Verander Rotering"
 
 #, fuzzy
 #~| msgid " seconds"
