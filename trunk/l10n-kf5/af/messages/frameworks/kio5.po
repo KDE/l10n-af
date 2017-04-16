@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-04-02 02:42+0200\n"
+"POT-Creation-Date: 2017-04-16 02:46+0200\n"
 "PO-Revision-Date: 2005-11-26 17:02+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -6629,26 +6629,57 @@ msgid ""
 "keyboard shortcut) and enter the shortcut in the Run Command dialog."
 msgstr ""
 
-#: kioexec/main.cpp:55
+#: kioexec/kioexecd.cpp:85
+#, fuzzy, kde-format
+#| msgid ""
+#| "The file\n"
+#| "%1\n"
+#| "has been modified.\n"
+#| "Do you want to upload the changes?"
+msgid ""
+"The file %1\n"
+"has been modified. Do you want to upload the changes?"
+msgstr ""
+"Die lêer\n"
+"%1\n"
+"het verander.\n"
+"Wil jy die verskille oplaai?"
+
+#: kioexec/kioexecd.cpp:86 kioexec/main.cpp:233 kioexec/main.cpp:238
+#, kde-format
+msgid "File Changed"
+msgstr "Lêer het verander"
+
+#: kioexec/kioexecd.cpp:86 kioexec/main.cpp:238
+#, kde-format
+msgid "Upload"
+msgstr "Oplaai"
+
+#: kioexec/kioexecd.cpp:86 kioexec/main.cpp:238
+#, kde-format
+msgid "Do Not Upload"
+msgstr "Moenie oplaai nie"
+
+#: kioexec/main.cpp:56
 #, kde-format
 msgid "KIO Exec - Opens remote files, watches modifications, asks for upload"
 msgstr ""
 "KIO Exec - Maak afgeleë lêers oop, kyk vir veranderinge en bevestig oplaai "
 "aansoeke"
 
-#: kioexec/main.cpp:71
+#: kioexec/main.cpp:73
 #, fuzzy, kde-format
 #| msgid "Malformed URL %1."
 msgid "Invalid URL: %1"
 msgstr "Misformde URL %1"
 
-#: kioexec/main.cpp:77
+#: kioexec/main.cpp:79
 #, fuzzy, kde-format
 #| msgid "Could not bind %1."
 msgid "File not found: %1"
 msgstr "Kon nie aan %1 bind nie."
 
-#: kioexec/main.cpp:94
+#: kioexec/main.cpp:96
 #, kde-format
 msgid ""
 "The URL %1\n"
@@ -6657,7 +6688,7 @@ msgstr ""
 "Die URL '%1'\n"
 " is verkeerd geformatteer."
 
-#: kioexec/main.cpp:96
+#: kioexec/main.cpp:98
 #, kde-format
 msgid ""
 "Remote URL %1\n"
@@ -6666,7 +6697,7 @@ msgstr ""
 "Afgeleë URL %1\n"
 "--tempfiles opsie word nie toegelaat nie"
 
-#: kioexec/main.cpp:224
+#: kioexec/main.cpp:232
 #, kde-format
 msgid ""
 "The supposedly temporary file\n"
@@ -6679,17 +6710,12 @@ msgstr ""
 "was verander.\n"
 "Wil jy dit nogsteeds uitvee?"
 
-#: kioexec/main.cpp:225 kioexec/main.cpp:230
-#, kde-format
-msgid "File Changed"
-msgstr "Lêer het verander"
-
-#: kioexec/main.cpp:225
+#: kioexec/main.cpp:233
 #, kde-format
 msgid "Do Not Delete"
 msgstr "Moenie uitvee nie"
 
-#: kioexec/main.cpp:229
+#: kioexec/main.cpp:237
 #, kde-format
 msgid ""
 "The file\n"
@@ -6702,67 +6728,57 @@ msgstr ""
 "het verander.\n"
 "Wil jy die verskille oplaai?"
 
-#: kioexec/main.cpp:230
-#, kde-format
-msgid "Upload"
-msgstr "Oplaai"
-
-#: kioexec/main.cpp:230
-#, kde-format
-msgid "Do Not Upload"
-msgstr "Moenie oplaai nie"
-
-#: kioexec/main.cpp:261
+#: kioexec/main.cpp:268
 #, kde-format
 msgid "KIOExec"
 msgstr "KIOExec"
 
-#: kioexec/main.cpp:263
+#: kioexec/main.cpp:270
 #, kde-format
 msgid "(c) 1998-2000,2003 The KFM/Konqueror Developers"
 msgstr ""
 
-#: kioexec/main.cpp:264
+#: kioexec/main.cpp:271
 #, kde-format
 msgid "David Faure"
 msgstr ""
 
-#: kioexec/main.cpp:265
+#: kioexec/main.cpp:272
 #, kde-format
 msgid "Stephan Kulow"
 msgstr ""
 
-#: kioexec/main.cpp:266
+#: kioexec/main.cpp:273
 #, kde-format
 msgid "Bernhard Rosenkraenzer"
 msgstr ""
 
-#: kioexec/main.cpp:267
+#: kioexec/main.cpp:274
 #, kde-format
 msgid "Waldo Bastian"
 msgstr ""
 
-#: kioexec/main.cpp:268
+#: kioexec/main.cpp:275
 #, kde-format
 msgid "Oswald Buddenhagen"
 msgstr ""
 
-#: kioexec/main.cpp:275
+#: kioexec/main.cpp:282
 #, kde-format
 msgid "Treat URLs as local files and delete them afterwards"
 msgstr "Handteer URLs as plaaslike lêers en vee hulle na die tyd uit."
 
-#: kioexec/main.cpp:276
+#: kioexec/main.cpp:283
 #, fuzzy, kde-format
 msgid "Suggested file name for the downloaded file"
 msgstr "Kies 'n alternatiwe lêernaam vir die nuwe lêer."
 
-#: kioexec/main.cpp:277
+#: kioexec/main.cpp:284
 #, kde-format
 msgid "Command to execute"
 msgstr "Opdrag om uit te voer"
 
-#: kioexec/main.cpp:278
+#: kioexec/main.cpp:285
 #, kde-format
 msgid "URL(s) or local file(s) used for 'command'"
 msgstr "URL(s) en plaaslike lêer(s) gebruik vir 'opdrag'"
