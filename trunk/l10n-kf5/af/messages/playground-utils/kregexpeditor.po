@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kregexpeditor VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-06-08 03:14+0200\n"
+"POT-Creation-Date: 2017-06-28 06:53+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -779,12 +779,23 @@ msgstr "Opgelope gewone uitdrukking:"
 msgid "Enter name:"
 msgstr "Invoer naam:"
 
-#: regexpeditorwindow.cpp:397
+#: regexpeditorwindow.cpp:390
+#, kde-format
+msgid "Empty name is not supporting"
+msgstr ""
+
+#: regexpeditorwindow.cpp:390
+#, fuzzy, kde-format
+#| msgid "&Save Regular Expression..."
+msgid "Save Regular Expression"
+msgstr "Stoor Gewone Uitdrukking..."
+
+#: regexpeditorwindow.cpp:398
 #, kde-format
 msgid "<p>Overwrite named regular expression <b>%1</b></p>"
 msgstr "<p>Oorskryf genaamd gewone uitdrukking <b>%1</b></p>"
 
-#: regexpeditorwindow.cpp:405
+#: regexpeditorwindow.cpp:406
 #, kde-format
 msgid "Could not open file for writing: %1"
 msgstr "Kon nie open lêer vir om te skryf: %1"
