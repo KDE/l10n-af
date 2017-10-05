@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-04 05:55+0200\n"
+"POT-Creation-Date: 2017-10-05 03:20+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -9576,6 +9576,7 @@ msgid "Colors"
 msgstr "Kleur"
 
 #: libs/image/filter/kis_filter.cc:55
+#: plugins/filters/edgedetection/kis_edge_detection_filter.h:43
 #, fuzzy, kde-format
 msgid "Edge Detection"
 msgstr "Verwyder Keuse"
@@ -12130,7 +12131,7 @@ msgstr "Kleur"
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #: libs/ui/dialogs/kis_delayed_save_dialog.cpp:62
 #: libs/ui/dialogs/KisAsyncAnimationRenderDialogBase.cpp:126
-#: libs/ui/forms/KisOpenPaneBase.ui:67 libs/ui/forms/wdgpaintopsettings.ui:509
+#: libs/ui/forms/KisOpenPaneBase.ui:67 libs/ui/forms/wdgpaintopsettings.ui:734
 #: libs/ui/forms/wdgsavebrushpreset.ui:201
 #: libs/ui/input/kis_tool_invocation_action.cpp:58 libs/ui/kis_clipboard.cc:274
 #: libs/ui/KisView.cpp:534
@@ -13638,8 +13639,8 @@ msgstr "Patrone"
 #. i18n: ectx: property (text), widget (KisHighlightedToolButton, showPresetsButton)
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemovePresets)
 #: libs/ui/forms/wdgdlgblacklistcleanup.ui:93
-#: libs/ui/forms/wdgpaintopsettings.ui:548
-#: libs/ui/widgets/kis_paintop_presets_popup.cpp:190
+#: libs/ui/forms/wdgpaintopsettings.ui:369
+#: libs/ui/widgets/kis_paintop_presets_popup.cpp:188
 #, fuzzy, kde-format
 msgid "Presets"
 msgstr "Laag Eienskappe..."
@@ -14594,81 +14595,91 @@ msgstr "Byvoeging"
 msgid "Brush Editor"
 msgstr "Borsels"
 
+#. i18n: ectx: property (text), widget (QLabel, currentBrushNameLabel)
+#: libs/ui/forms/wdgpaintopsettings.ui:223
+#, fuzzy, kde-format
+msgid "Current Brush Name"
+msgstr "Kwas"
+
+#. i18n: ectx: property (text), widget (QLabel, currentBrushEngineLabel)
+#: libs/ui/forms/wdgpaintopsettings.ui:254
+#, fuzzy, kde-format
+msgid "Current Brush Engine"
+msgstr "Kwas"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: libs/ui/forms/wdgpaintopsettings.ui:342
+#, fuzzy, kde-format
+msgid "Show:"
+msgstr "Steek weg/Vertoon Laag"
+
+#. i18n: ectx: property (text), widget (KisHighlightedToolButton, showEditorButton)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: libs/ui/forms/wdgpaintopsettings.ui:394
+#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:42
+#, kde-format
+msgid "Settings"
+msgstr "Instellings"
+
+#. i18n: ectx: property (text), widget (KisHighlightedToolButton, showScratchpadButton)
+#: libs/ui/forms/wdgpaintopsettings.ui:419
+#, fuzzy, kde-format
+msgid "Scratchpad"
+msgstr "Voeg by Laag..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libs/ui/forms/wdgpaintopsettings.ui:462
+#, fuzzy, kde-format
+msgid "Engine:"
+msgstr "Kleur Wisselaar"
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, eraserBrushSizeCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:110
+#: libs/ui/forms/wdgpaintopsettings.ui:591
 #, kde-format
 msgid "Erase mode will use a separate brush size"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, eraserBrushSizeCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:113
+#: libs/ui/forms/wdgpaintopsettings.ui:594
 #, kde-format
 msgid "Eraser switch size"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, dirtyPresetCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:129
+#: libs/ui/forms/wdgpaintopsettings.ui:610
 #, kde-format
 msgid "Temporarily Save Tweaks To Presets"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, eraserBrushOpacityCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:145
+#: libs/ui/forms/wdgpaintopsettings.ui:626
 #, kde-format
 msgid "Erase mode will use a separate brush opacity"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, eraserBrushOpacityCheckBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:148
+#: libs/ui/forms/wdgpaintopsettings.ui:629
 #, fuzzy, kde-format
 msgid "Eraser switch opacity"
 msgstr "Ondeursigtigheid:"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDefaultPreset)
-#: libs/ui/forms/wdgpaintopsettings.ui:206
+#: libs/ui/forms/wdgpaintopsettings.ui:691
 #, kde-format
 msgid "Load Engine Defaults"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, saveBrushPresetButton)
-#: libs/ui/forms/wdgpaintopsettings.ui:226
+#. i18n: ectx: property (text), widget (QPushButton, renameButton)
+#. i18n: ectx: property (text), widget (QPushButton, renameBrushPresetButton)
+#: libs/ui/forms/wdgpaintopsettings.ui:704
+#: libs/ui/input/config/kis_edit_profiles_dialog.ui:47
 #, fuzzy, kde-format
-msgid "Overwrite Brush"
-msgstr "Laag Eienskappe..."
-
-#. i18n: ectx: property (text), widget (QPushButton, saveNewBrushPresetButton)
-#: libs/ui/forms/wdgpaintopsettings.ui:233
-#, fuzzy, kde-format
-msgid "Save New Brush Preset..."
-msgstr "Laag Eienskappe..."
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, fillGradient)
-#: libs/ui/forms/wdgpaintopsettings.ui:331
-#, fuzzy, kde-format
-msgid "Fill area with gradient"
-msgstr "Opvul met patroon"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, fillSolid)
-#: libs/ui/forms/wdgpaintopsettings.ui:341
-#, fuzzy, kde-format
-msgid "Fill area with background color"
-msgstr "Voorgrond kleur"
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, eraseScratchPad)
-#: libs/ui/forms/wdgpaintopsettings.ui:351
-#, kde-format
-msgid "Reset area to white"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, currentBrushNameLabel)
-#: libs/ui/forms/wdgpaintopsettings.ui:425
-#, fuzzy, kde-format
-msgid "Current Brush Name"
-msgstr "Kwas"
+msgid "Rename"
+msgstr "Gekoppel"
 
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (text), widget (QPushButton, savePresetButton)
-#: libs/ui/forms/wdgpaintopsettings.ui:502
+#: libs/ui/forms/wdgpaintopsettings.ui:727
 #: libs/ui/forms/wdgsavebrushpreset.ui:208 libs/ui/KisColorsetChooser.cpp:100
 #: libs/ui/KisMainWindow.cpp:753 libs/ui/widgets/kis_workspace_chooser.cpp:93
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:61
@@ -14676,31 +14687,35 @@ msgstr "Kwas"
 msgid "Save"
 msgstr "Modus:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: libs/ui/forms/wdgpaintopsettings.ui:529
+#. i18n: ectx: property (text), widget (QPushButton, saveBrushPresetButton)
+#: libs/ui/forms/wdgpaintopsettings.ui:754
 #, fuzzy, kde-format
-msgid "Show:"
-msgstr "Steek weg/Vertoon Laag"
+msgid "Overwrite Brush"
+msgstr "Laag Eienskappe..."
 
-#. i18n: ectx: property (text), widget (KisHighlightedToolButton, showEditorButton)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: libs/ui/forms/wdgpaintopsettings.ui:567
-#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:42
+#. i18n: ectx: property (text), widget (QPushButton, saveNewBrushPresetButton)
+#: libs/ui/forms/wdgpaintopsettings.ui:761
+#, fuzzy, kde-format
+msgid "Save New Brush Preset..."
+msgstr "Laag Eienskappe..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, fillGradient)
+#: libs/ui/forms/wdgpaintopsettings.ui:859
+#, fuzzy, kde-format
+msgid "Fill area with gradient"
+msgstr "Opvul met patroon"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, fillSolid)
+#: libs/ui/forms/wdgpaintopsettings.ui:869
+#, fuzzy, kde-format
+msgid "Fill area with background color"
+msgstr "Voorgrond kleur"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, eraseScratchPad)
+#: libs/ui/forms/wdgpaintopsettings.ui:879
 #, kde-format
-msgid "Settings"
-msgstr "Instellings"
-
-#. i18n: ectx: property (text), widget (KisHighlightedToolButton, showScratchpadButton)
-#: libs/ui/forms/wdgpaintopsettings.ui:586
-#, fuzzy, kde-format
-msgid "Scratchpad"
-msgstr "Voeg by Laag..."
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: libs/ui/forms/wdgpaintopsettings.ui:627
-#, fuzzy, kde-format
-msgid "Engine:"
-msgstr "Kleur Wisselaar"
+msgid "Reset area to white"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: libs/ui/forms/wdgperformancesettings.ui:17
@@ -15325,12 +15340,6 @@ msgstr "Volgende Laag"
 #, fuzzy, kde-format
 msgid "Reset All"
 msgstr "Keuse"
-
-#. i18n: ectx: property (text), widget (QPushButton, renameButton)
-#: libs/ui/input/config/kis_edit_profiles_dialog.ui:47
-#, fuzzy, kde-format
-msgid "Rename"
-msgstr "Gekoppel"
 
 #: libs/ui/input/config/kis_input_button.cpp:53
 #, fuzzy, kde-format
@@ -19627,7 +19636,7 @@ msgstr "Laag Eienskappe..."
 msgid "Rename the brush preset"
 msgstr "Boonste Huidige Laag"
 
-#: libs/ui/widgets/kis_paintop_presets_popup.cpp:612
+#: libs/ui/widgets/kis_paintop_presets_popup.cpp:600
 #, kde-format
 msgid "All"
 msgstr ""
@@ -19636,6 +19645,11 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Save New Brush Preset"
 msgstr "Laag Eienskappe..."
+
+#: libs/ui/widgets/kis_preset_live_preview_view.cpp:176
+#, kde-format
+msgid "No Preview for this engine"
+msgstr ""
 
 #: libs/ui/widgets/kis_tone_curve_widget.cpp:341
 #, fuzzy, kde-format
@@ -24169,19 +24183,19 @@ msgid "Fi&le format:"
 msgstr "Normale"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:331
+#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:334
 #, fuzzy, kde-format
 msgid "Image location:"
 msgstr "Keuse"
 
 #. i18n: ectx: property (text), widget (QLineEdit, txtBasename)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:341
+#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:344
 #, fuzzy, kde-format
 msgid "frame"
 msgstr "Kleure"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:348
+#: plugins/extensions/animationrenderer/wdg_animationrenderer.ui:351
 #, fuzzy, kde-format
 msgid "Start numbering at:"
 msgstr "Begin na:"
@@ -26763,6 +26777,7 @@ msgstr "Blou"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/filters/blur/wdg_gaussian_blur.ui:68
 #: plugins/filters/blur/wdgblur.ui:65
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:49
 #, fuzzy, kde-format
 msgid "Vertical Radius:"
 msgstr "Driehoekvormige Golf"
@@ -26771,6 +26786,7 @@ msgstr "Driehoekvormige Golf"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/filters/blur/wdg_gaussian_blur.ui:78
 #: plugins/filters/blur/wdgblur.ui:29
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:45
 #, fuzzy, kde-format
 msgid "Horizontal Radius:"
 msgstr "Driehoekvormige Golf"
@@ -27207,8 +27223,10 @@ msgstr "Kanale"
 msgid "Logarithmic"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, labelOut)
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:289
+#: plugins/filters/edgedetection/wdg_edge_detection.ui:73
 #, kde-format
 msgid "Output:"
 msgstr ""
@@ -27313,6 +27331,96 @@ msgstr "Modus:"
 #, fuzzy, kde-format
 msgid "Dodge"
 msgstr "Modus:"
+
+#: plugins/filters/edgedetection/kis_edge_detection_filter.cpp:50
+#, fuzzy, kde-format
+msgid "&Edge Detection..."
+msgstr "Verwyder Keuse"
+
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:31
+#, kde-format
+msgid "Prewitt"
+msgstr ""
+
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:31
+#, fuzzy, kde-format
+msgid "Simple"
+msgstr "Blou"
+
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:31
+#, kde-format
+msgid "Sobol"
+msgstr ""
+
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:33
+#, fuzzy, kde-format
+msgid "All sides"
+msgstr "Laag Eienskappe..."
+
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:34
+#, fuzzy, kde-format
+msgid "Top Edge"
+msgstr "Hoogte:"
+
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:35
+#, fuzzy, kde-format
+msgid "Bottom Edge"
+msgstr "Verwyder Laag"
+
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:36
+#, fuzzy, kde-format
+msgid "Right Edge"
+msgstr "Regterkant:"
+
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:37
+#, fuzzy, kde-format
+msgid "Left Edge"
+msgstr "Links:"
+
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:38
+#, fuzzy, kde-format
+msgid "Direction in Radians"
+msgstr "Kleur Kieser"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WidgetEdgeDetection)
+#: plugins/filters/edgedetection/wdg_edge_detection.ui:14
+#, fuzzy, kde-format
+msgid "Form"
+msgstr "Wit"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, cmbOutput)
+#: plugins/filters/edgedetection/wdg_edge_detection.ui:20
+#, kde-format
+msgid "Output decides what type of information you want from the lines."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, cmbType)
+#: plugins/filters/edgedetection/wdg_edge_detection.ui:27
+#, kde-format
+msgid ""
+"The formula decides how the kernel is created, so different formulas choose "
+"different values in the kernel, and thus give subtly different results."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkTransparent)
+#: plugins/filters/edgedetection/wdg_edge_detection.ui:53
+#, kde-format
+msgid ""
+"This will take a desaturated result and use it to determine what is "
+"transparent. This is useful for creating edge and fringe effects."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkTransparent)
+#: plugins/filters/edgedetection/wdg_edge_detection.ui:56
+#, fuzzy, kde-format
+msgid "Apply result to alpha channel"
+msgstr "Voeg by Kanaal"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/filters/edgedetection/wdg_edge_detection.ui:63
+#, fuzzy, kde-format
+msgid "Formula:"
+msgstr "Normale"
 
 #: plugins/filters/embossfilter/kis_emboss_filter.cpp:53
 #, kde-format
@@ -38362,10 +38470,6 @@ msgstr ""
 #~ msgstr "Kon nie voer uit lêer"
 
 #, fuzzy
-#~ msgid "Form"
-#~ msgstr "Wit"
-
-#, fuzzy
 #~ msgid "New layer(s)"
 #~ msgstr "Volgende Laag"
 
@@ -40348,11 +40452,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format) @item:inlistbox Layer Style: Source"
 #~ msgid "Center"
 #~ msgstr "Hoeke:"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format) @item:inlistbox Layer Style: Source"
-#~ msgid "Edge"
-#~ msgstr "Hoogte:"
 
 #, fuzzy
 #~ msgctxt "(qtundo-format)"
@@ -58128,11 +58227,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgctxt "(qtundo-format)"
-#~ msgid "Bottom Left"
-#~ msgstr "Verwyder Laag"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
 #~ msgid "Bottom"
 #~ msgstr "Opvul Objekte"
 
@@ -59006,10 +59100,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Use as Tip"
 #~ msgstr "Keuse"
-
-#, fuzzy
-#~ msgid "All Files"
-#~ msgstr "Laag Eienskappe..."
 
 #, fuzzy
 #~ msgctxt "./data/brushes/LJF_smoke_c.gih"
@@ -60054,10 +60144,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Colorspace"
 #~ msgstr "Kleur Kieser"
-
-#, fuzzy
-#~ msgid "simple"
-#~ msgstr "Blou"
 
 #, fuzzy
 #~ msgid "Local contrast threshold:"
