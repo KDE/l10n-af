@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio stable\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-11-12 03:52+0100\n"
+"POT-Creation-Date: 2018-11-14 03:52+0100\n"
 "PO-Revision-Date: 2005-11-26 17:02+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -2971,7 +2971,7 @@ msgstr "Vertoon Voorskou"
 msgid "Open Containing Folder"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:1996 filewidgets/kfileplacesview.cpp:790
+#: filewidgets/kdiroperator.cpp:1996 filewidgets/kfileplacesview.cpp:803
 #, fuzzy, kde-format
 msgid "Properties"
 msgstr "Eienskappe vir %1"
@@ -3211,38 +3211,50 @@ msgctxt "@item"
 msgid "Removable Devices"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:231
+#: filewidgets/kfileplacesitem.cpp:125
+#, kde-format
+msgctxt "@item"
+msgid "Tags"
+msgstr ""
+
+#: filewidgets/kfileplacesmodel.cpp:193
+#, kde-format
+msgctxt "KFile System Bookmarks"
+msgid "All tags"
+msgstr ""
+
+#: filewidgets/kfileplacesmodel.cpp:281
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Home"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:239
+#: filewidgets/kfileplacesmodel.cpp:289
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:245
+#: filewidgets/kfileplacesmodel.cpp:295
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:250
+#: filewidgets/kfileplacesmodel.cpp:300
 #, fuzzy, kde-format
 #| msgid "Network Folders"
 msgctxt "KFile System Bookmarks"
 msgid "Network"
 msgstr "Netwerk Gidse"
 
-#: filewidgets/kfileplacesmodel.cpp:262
+#: filewidgets/kfileplacesmodel.cpp:312
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Root"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:266
+#: filewidgets/kfileplacesmodel.cpp:316
 #, fuzzy, kde-format
 #| msgctxt "to trash"
 #| msgid "&Trash"
@@ -3250,73 +3262,73 @@ msgctxt "KFile System Bookmarks"
 msgid "Trash"
 msgstr "Gemors"
 
-#: filewidgets/kfileplacesmodel.cpp:286
+#: filewidgets/kfileplacesmodel.cpp:337
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Today"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:289
+#: filewidgets/kfileplacesmodel.cpp:340
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Yesterday"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:292
+#: filewidgets/kfileplacesmodel.cpp:343
 #, fuzzy, kde-format
 #| msgid "FIXME: Document this"
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
 msgstr "Maakreg: Dokument hierdie"
 
-#: filewidgets/kfileplacesmodel.cpp:295
+#: filewidgets/kfileplacesmodel.cpp:346
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Images"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:298
+#: filewidgets/kfileplacesmodel.cpp:349
 #, fuzzy, kde-format
 #| msgid "*|All Files"
 msgctxt "KFile System Bookmarks"
 msgid "Audio Files"
 msgstr "*|Alle Lêers"
 
-#: filewidgets/kfileplacesmodel.cpp:301
+#: filewidgets/kfileplacesmodel.cpp:352
 #, kde-format
 msgctxt "KFile System Bookmarks"
 msgid "Videos"
 msgstr ""
 
-#: filewidgets/kfileplacesmodel.cpp:1156
+#: filewidgets/kfileplacesmodel.cpp:1207
 #, fuzzy, kde-format
 msgid "&Release '%1'"
 msgstr "Verwyder Inskrywing"
 
-#: filewidgets/kfileplacesmodel.cpp:1158
+#: filewidgets/kfileplacesmodel.cpp:1209
 #, fuzzy, kde-format
 msgid "&Safely Remove '%1'"
 msgstr "Verwyder Inskrywing"
 
-#: filewidgets/kfileplacesmodel.cpp:1161
+#: filewidgets/kfileplacesmodel.cpp:1212
 #, fuzzy, kde-format
 #| msgid "Unmount"
 msgid "&Unmount '%1'"
 msgstr "Ontkoppel"
 
-#: filewidgets/kfileplacesmodel.cpp:1182
+#: filewidgets/kfileplacesmodel.cpp:1233
 #, fuzzy, kde-format
 #| msgid "Eject"
 msgid "&Eject '%1'"
 msgstr "Uitskiet"
 
-#: filewidgets/kfileplacesmodel.cpp:1216
+#: filewidgets/kfileplacesmodel.cpp:1267
 #, fuzzy, kde-format
 #| msgid "The specified resource may not exist."
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Die gespesifiseer hulpbron dalk mag nie bestaan."
 
-#: filewidgets/kfileplacesmodel.cpp:1252
+#: filewidgets/kfileplacesmodel.cpp:1303
 #, fuzzy, kde-format
 #| msgid ""
 #| "An error occurred while attempting to %1, %2. A summary of the reasons is "
@@ -3326,23 +3338,23 @@ msgstr ""
 "'n fout voorgekom terwyl probeer na %1, %2. 'n opsomming van die redes is "
 "onder.<ul>"
 
-#: filewidgets/kfileplacesmodel.cpp:1256
+#: filewidgets/kfileplacesmodel.cpp:1307
 #, fuzzy, kde-format
 #| msgid "An unexpected error (%1) occurred while attempting to %2."
 msgid "An error occurred while accessing '%1'"
 msgstr "'n onverwagte fout (%1) voorgekom terwyl probeer na %2."
 
-#: filewidgets/kfileplacesview.cpp:434
+#: filewidgets/kfileplacesview.cpp:436
 #, kde-format
 msgid "%1 (hidden)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:751
+#: filewidgets/kfileplacesview.cpp:754
 #, kde-format
 msgid "Hide Section"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:758
+#: filewidgets/kfileplacesview.cpp:761
 #, fuzzy, kde-format
 #| msgctxt "to trash"
 #| msgid "&Trash"
@@ -3350,32 +3362,32 @@ msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "Gemors"
 
-#: filewidgets/kfileplacesview.cpp:763 filewidgets/kfileplacesview.cpp:787
-#: filewidgets/kfileplacesview.cpp:803 widgets/kacleditwidget.cpp:97
+#: filewidgets/kfileplacesview.cpp:766 filewidgets/kfileplacesview.cpp:800
+#: filewidgets/kfileplacesview.cpp:816 widgets/kacleditwidget.cpp:97
 #, kde-format
 msgid "Add Entry..."
 msgstr "Voeg by Inskrywing..."
 
-#: filewidgets/kfileplacesview.cpp:779
+#: filewidgets/kfileplacesview.cpp:792
 #, fuzzy, kde-format
 #| msgid "Mount"
 msgctxt "@action:inmenu"
 msgid "Mount"
 msgstr "Mount"
 
-#: filewidgets/kfileplacesview.cpp:793
+#: filewidgets/kfileplacesview.cpp:806
 #, fuzzy, kde-format
 #| msgid "&Edit Entry..."
 msgid "&Edit Entry '%1'..."
 msgstr "Redigeer Inskrywing..."
 
-#: filewidgets/kfileplacesview.cpp:796
+#: filewidgets/kfileplacesview.cpp:809
 #, fuzzy, kde-format
 #| msgid "&Add Entry..."
 msgid "&Hide Entry '%1'"
 msgstr "Voeg by Inskrywing..."
 
-#: filewidgets/kfileplacesview.cpp:808
+#: filewidgets/kfileplacesview.cpp:821
 #, fuzzy, kde-format
 #| msgid ""
 #| "Show\n"
@@ -3385,7 +3397,7 @@ msgstr ""
 "Vertoon\n"
 "Inskrywings"
 
-#: filewidgets/kfileplacesview.cpp:819
+#: filewidgets/kfileplacesview.cpp:832
 #, fuzzy, kde-format
 #| msgid "&Remove Entry"
 msgid "&Remove Entry '%1'"
