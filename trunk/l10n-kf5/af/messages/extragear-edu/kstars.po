@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-26 02:52+0100\n"
+"POT-Creation-Date: 2019-01-30 02:51+0100\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -2553,7 +2553,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, filterCombo)
 #. i18n: ectx: property (text), widget (QLabel, avgFPS)
 #: dialogs/details_data.ui:384 ekos/capture/capture.ui:1903
-#: ekos/focus/focus.ui:503 ekos/guide/guide.ui:420 indi/streamform.ui:327
+#: ekos/focus/focus.ui:503 ekos/guide/guide.ui:420 indi/streamform.ui:331
 #, kde-format
 msgid "--"
 msgstr ""
@@ -5643,9 +5643,7 @@ msgstr "Dag duur"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ekos/align/align.ui:538 ekos/focus/focus.ui:288 ekos/guide/guide.ui:225
-#: indi/streamform.ui:276
 #, kde-format
 msgid "Exp:"
 msgstr ""
@@ -8019,43 +8017,43 @@ msgstr "Kon nie Open Lêer"
 msgid "Dark frame saved to %1"
 msgstr "Ongeldige Url"
 
-#: ekos/auxiliary/darklibrary.cpp:268
+#: ekos/auxiliary/darklibrary.cpp:270
 #, kde-format
 msgid "Remove cover from the telescope in order to continue."
 msgstr ""
 
-#: ekos/auxiliary/darklibrary.cpp:268 ekos/auxiliary/darklibrary.cpp:307
-#: ekos/auxiliary/darklibrary.cpp:324
+#: ekos/auxiliary/darklibrary.cpp:270 ekos/auxiliary/darklibrary.cpp:309
+#: ekos/auxiliary/darklibrary.cpp:326
 #, fuzzy, kde-format
 msgid "Dark Exposure"
 msgstr "Ewenaar"
 
-#: ekos/auxiliary/darklibrary.cpp:306
+#: ekos/auxiliary/darklibrary.cpp:308
 #, kde-format
 msgid "Does %1 have a shutter?"
 msgstr ""
 
-#: ekos/auxiliary/darklibrary.cpp:324
+#: ekos/auxiliary/darklibrary.cpp:326
 #, kde-format
 msgid "Cover the telescope in order to take a dark exposure."
 msgstr ""
 
-#: ekos/auxiliary/darklibrary.cpp:328
+#: ekos/auxiliary/darklibrary.cpp:330
 #, fuzzy, kde-format
 msgid "Dark frame capture cancelled."
 msgstr "Beeld"
 
-#: ekos/auxiliary/darklibrary.cpp:349
+#: ekos/auxiliary/darklibrary.cpp:351
 #, fuzzy, kde-format
 msgid "Capturing dark frame..."
 msgstr "Stoor Beeld"
 
-#: ekos/auxiliary/darklibrary.cpp:372
+#: ekos/auxiliary/darklibrary.cpp:374
 #, fuzzy, kde-format
 msgid "Dark frame received."
 msgstr "Beeld"
 
-#: ekos/auxiliary/darklibrary.cpp:387
+#: ekos/auxiliary/darklibrary.cpp:389
 #, kde-format
 msgid "Warning: Cannot load calibration file %1"
 msgstr ""
@@ -19278,7 +19276,7 @@ msgid "Video Stream"
 msgstr "Inligting Bokse"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, recordB)
-#: indi/streamform.ui:58 indi/streamwg.cpp:262 indi/streamwg.cpp:272
+#: indi/streamform.ui:58 indi/streamwg.cpp:260 indi/streamwg.cpp:270
 #, fuzzy, kde-format
 msgid "Start recording"
 msgstr "Spanje"
@@ -19295,53 +19293,83 @@ msgstr "Des:"
 msgid "Reset frame"
 msgstr "Maak skoon Velde"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, zoomInB)
-#: indi/streamform.ui:146
+#. i18n: ectx: property (toolTip), widget (QComboBox, zoomLevelCombo)
+#: indi/streamform.ui:143
+#, fuzzy, kde-format
+msgid "Zoom level"
+msgstr "Kleur Skemas"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, zoomLevelCombo)
+#: indi/streamform.ui:147
 #, kde-format
-msgid "Zoom in"
+msgid "1x"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, zoomOutB)
-#: indi/streamform.ui:171
+#. i18n: ectx: property (text), item, widget (QComboBox, zoomLevelCombo)
+#: indi/streamform.ui:152
 #, kde-format
-msgid "Zoom out"
+msgid "5x"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QSlider, WESlider)
-#: indi/streamform.ui:223
+#. i18n: ectx: property (text), item, widget (QComboBox, zoomLevelCombo)
+#: indi/streamform.ui:157
 #, kde-format
-msgid "Move zoomed view Left/Right"
+msgid "10x"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSlider, NSSlider)
-#: indi/streamform.ui:248
+#: indi/streamform.ui:185
 #, kde-format
 msgid "Move zoomed view Up/Down"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QSlider, WESlider)
+#: indi/streamform.ui:210
+#, kde-format
+msgid "Move zoomed view Left/Right"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: indi/streamform.ui:254
+#, fuzzy, kde-format
+msgid "FPS"
+msgstr "St:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, targetFPSSpin)
+#: indi/streamform.ui:267
+#, fuzzy, kde-format
+msgid "Target FPS"
+msgstr "Leon"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, changeFPSB)
+#: indi/streamform.ui:286
+#, kde-format
+msgid "Apply FPS and restart stream"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: indi/streamform.ui:302
+#: indi/streamform.ui:306
 #, kde-format
 msgid "FPS:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, avgFPS)
-#: indi/streamform.ui:315
+#: indi/streamform.ui:319
 #, kde-format
 msgid "Average FPS"
 msgstr ""
 
-#: indi/streamwg.cpp:60
+#: indi/streamwg.cpp:61
 #, fuzzy, kde-format
 msgid "SER Record Directory"
 msgstr "Stoor Beeld"
 
-#: indi/streamwg.cpp:89
+#: indi/streamwg.cpp:90
 #, fuzzy, kde-format
 msgid "%1 Live Video"
 msgstr "Planeet"
 
-#: indi/streamwg.cpp:257 indi/streamwg.cpp:298
+#: indi/streamwg.cpp:255 indi/streamwg.cpp:296
 #, fuzzy, kde-format
 msgid "Stop recording"
 msgstr "Stop Horlosie"
@@ -102487,10 +102515,6 @@ msgstr "Wissel Diep Lug Objekte"
 #, fuzzy
 #~ msgid "Clear dark library"
 #~ msgstr "Maak skoon Velde"
-
-#, fuzzy
-#~ msgid "Target FOV:"
-#~ msgstr "Leon"
 
 #, fuzzy
 #~ msgctxt "object name (optional)"
