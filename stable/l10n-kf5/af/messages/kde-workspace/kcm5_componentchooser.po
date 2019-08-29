@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 07:46+0200\n"
+"POT-Creation-Date: 2019-08-29 07:24+0200\n"
 "PO-Revision-Date: 2005-11-23 16:50+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -68,16 +68,7 @@ msgstr "..."
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: componentchooser.cpp:151
-#, kde-format
-msgid ""
-"Choose from the list below which component should be used by default for the "
-"%1 service."
-msgstr ""
-"Kies uit die onderstaande lys watter komponent moet as die verstek gebruik "
-"word vir die %1 diens."
-
-#: componentchooser.cpp:183
+#: componentchooser.cpp:150
 #, fuzzy, kde-format
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
@@ -86,10 +77,19 @@ msgstr ""
 "<qt>Jy het die verstek komponent van jou keuse verander, wil jy die "
 "veranderinge nou stoor?</qt>"
 
-#: componentchooser.cpp:188
+#: componentchooser.cpp:154
 #, kde-format
 msgid "No description available"
 msgstr "Geen beskrywing beskikbaar"
+
+#: componentchooser.cpp:165 componentchooser.cpp:170
+#, kde-format
+msgid ""
+"Choose from the list below which component should be used by default for the "
+"%1 service."
+msgstr ""
+"Kies uit die onderstaande lys watter komponent moet as die verstek gebruik "
+"word vir die %1 diens."
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
 #: componentchooser_ui.ui:26
@@ -146,12 +146,12 @@ msgstr ""
 msgid "Select preferred Web browser application:"
 msgstr "Kies voorkeur Web blaaier program:"
 
-#: componentchooseremail.cpp:86
+#: componentchooseremail.cpp:83
 #, kde-format
 msgid "Select preferred email client:"
 msgstr "Kies voorkeur e-pos kliënt:"
 
-#: componentchooserterminal.cpp:104
+#: componentchooserterminal.cpp:103
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Kies voorkeur terminaal program:"
@@ -271,6 +271,13 @@ msgstr "(c), 2002 Joseph Wenninger"
 #| msgid "(c), 2002 Joseph Wenninger"
 msgid "Joseph Wenninger"
 msgstr "(c), 2002 Joseph Wenninger"
+
+#: ktimerdialog.cpp:163
+#, kde-format
+msgid "1 second remaining:"
+msgid_plural "%1 seconds remaining:"
+msgstr[0] ""
+msgstr[1] ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
 #: terminalemulatorconfig_ui.ui:12
