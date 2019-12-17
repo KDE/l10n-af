@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail 3_3_branch\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-11 03:23+0100\n"
+"POT-Creation-Date: 2019-12-17 03:20+0100\n"
 "PO-Revision-Date: 2004-11-10 16:33+0200\n"
 "Last-Translator: Frikkie Thirion <frix@expertron.co.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -649,7 +649,7 @@ msgstr "Vee boodskappe uit"
 msgid "Fixed Width Font"
 msgstr ""
 
-#: configuredialog/configureappearancepage.cpp:145 editor/kmcomposerwin.cpp:396
+#: configuredialog/configureappearancepage.cpp:145
 #, kde-format
 msgid "Composer"
 msgstr ""
@@ -1551,6 +1551,7 @@ msgstr ""
 
 #: dialog/addemailtoexistingcontactdialog.cpp:41
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Select Contact"
 msgstr "Vee Gids uit"
 
@@ -1638,6 +1639,7 @@ msgstr "Verwyder Opskrif"
 #: dialog/kmknotify.cpp:39
 #, fuzzy, kde-format
 #| msgid "New Mail Notification"
+msgctxt "@title:window"
 msgid "Notification"
 msgstr "Nuwe pos inkennisstelling"
 
@@ -1736,6 +1738,13 @@ msgstr ""
 msgctxt "@label:textbox Subject of email."
 msgid "S&ubject:"
 msgstr "Onderwerp"
+
+#: editor/kmcomposerwin.cpp:396
+#, fuzzy, kde-format
+#| msgid "&New Composer"
+msgctxt "@title:window"
+msgid "Composer"
+msgstr "Nuwe Brief"
 
 #: editor/kmcomposerwin.cpp:1088 editor/kmcomposerwin.cpp:1122
 #, fuzzy, kde-format
@@ -2325,6 +2334,7 @@ msgstr "Jou naam:"
 #, fuzzy, kde-format
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
+msgctxt "@title:window"
 msgid "Details"
 msgstr "frix@expertron.co.za"
 
@@ -2517,6 +2527,7 @@ msgstr ""
 #: identity/identityaddvcarddialog.cpp:35
 #: identity/identityeditvcarddialog.cpp:54
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Create own vCard"
 msgstr "Jou naam:"
 
@@ -2571,7 +2582,9 @@ msgid "Generating new key pair..."
 msgstr ""
 
 #: identity/identitydialog.cpp:274
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Edit Identity"
+msgctxt "@title:window"
 msgid "Edit Identity"
 msgstr "Redigeer Identiteit"
 
@@ -2902,9 +2915,11 @@ msgid "The signature file is not valid"
 msgstr ""
 
 #: identity/identitydialog.cpp:874
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Edit Identity"
+msgctxt "@title:window"
 msgid "Edit Identity \"%1\""
-msgstr ""
+msgstr "Redigeer Identiteit"
 
 #: identity/identitydialog.cpp:932
 #, kde-format
@@ -2920,6 +2935,7 @@ msgstr "Intekening..."
 
 #: identity/identityeditvcarddialog.cpp:48
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Edit own vCard"
 msgstr "Jou naam:"
 
@@ -3001,9 +3017,11 @@ msgid "Set as Default"
 msgstr ""
 
 #: identity/newidentitydialog.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "&Identity"
+msgctxt "@title:window"
 msgid "New Identity"
-msgstr ""
+msgstr "Identiteit"
 
 #: identity/newidentitydialog.cpp:72
 #, kde-format
@@ -3138,10 +3156,11 @@ msgid_plural "Distribution lists %2 are empty, they cannot be used."
 msgstr[0] ""
 msgstr[1] ""
 
-#: job/createnewcontactjob.cpp:81 kmreaderwin.cpp:147
-#, kde-format
+#: job/createnewcontactjob.cpp:81
+#, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Add to Address Book"
-msgstr ""
+msgstr "Adresboek"
 
 #: job/createnewcontactjob.cpp:135
 #, fuzzy, kde-format
@@ -3257,6 +3276,7 @@ msgstr ""
 #: job/saveasfilejob.cpp:41
 #, fuzzy, kde-format
 #| msgid "Save to File"
+msgctxt "@title:window"
 msgid "Save File as"
 msgstr "Stoor na Lêer"
 
@@ -3428,6 +3448,7 @@ msgstr ""
 
 #: kmcommands.cpp:321
 #, kde-format
+msgctxt "@title:window"
 msgid "Please wait"
 msgstr ""
 
@@ -3880,6 +3901,7 @@ msgstr "Skuif van boodskappe gekanseleer."
 
 #: kmmainwidget.cpp:1783
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Move Messages to Folder"
 msgstr "Skuif boodskappe na gids"
 
@@ -3910,6 +3932,7 @@ msgstr "Skuif van boodskappe gekanseleer."
 #: kmmainwidget.cpp:1836
 #, fuzzy, kde-format
 #| msgid "Copy Message to Folder"
+msgctxt "@title:window"
 msgid "Copy Messages to Folder"
 msgstr "Kopiëer boodskappe na gids"
 
@@ -3963,6 +3986,7 @@ msgstr "Skuif van boodskappe gekanseleer."
 
 #: kmmainwidget.cpp:2195
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Jump to Folder"
 msgstr "Kopiëer na hierdie gids"
 
@@ -4577,6 +4601,7 @@ msgstr "Identiteit:"
 
 #: kmmainwidget.cpp:3591
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Add Favorite Folder"
 msgstr "Nuwe Gids..."
 
@@ -4702,6 +4727,11 @@ msgstr ""
 #: kmreaderwin.cpp:140
 #, kde-format
 msgid "Forward To..."
+msgstr ""
+
+#: kmreaderwin.cpp:147
+#, kde-format
+msgid "Add to Address Book"
 msgstr ""
 
 #: kmreaderwin.cpp:153
@@ -5266,6 +5296,7 @@ msgstr "Stuur Nou"
 
 #: searchdialog/incompleteindexdialog.cpp:222
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Indexing"
 msgstr "Stuurder"
 
@@ -5330,6 +5361,7 @@ msgstr ""
 
 #: searchdialog/searchwindow.cpp:78
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Find Messages"
 msgstr "Soek Boodskappe..."
 
@@ -5886,6 +5918,7 @@ msgstr "Redigeer Boodksap"
 
 #: tag/tagselectdialog.cpp:49
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Select Tags"
 msgstr "Vee Gids uit"
 
@@ -7751,10 +7784,6 @@ msgstr ""
 #~ msgctxt "@info:status finished searching."
 #~ msgid "Ready."
 #~ msgstr "Ongelees"
-
-#, fuzzy
-#~ msgid "Add address book"
-#~ msgstr "Adresboek"
 
 #, fuzzy
 #~| msgid "File Already Exists"
