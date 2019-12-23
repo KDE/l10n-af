@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-19 02:49+0100\n"
+"POT-Creation-Date: 2019-12-23 02:52+0100\n"
 "PO-Revision-Date: 2005-11-26 17:02+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -278,7 +278,7 @@ msgid ""
 "continue?"
 msgstr ""
 
-#: core/job.cpp:311
+#: core/job.cpp:311 ioslaves/file/file_unix.cpp:110
 #, fuzzy, kde-format
 #| msgid "&Rename"
 msgid "Rename"
@@ -291,6 +291,7 @@ msgid ""
 msgstr ""
 
 #: core/job.cpp:316 filewidgets/knewfilemenu.cpp:524
+#: ioslaves/file/file_unix.cpp:114
 #, fuzzy, kde-format
 #| msgid "Could Not Create Symbolic Link"
 msgid "Create Symlink"
@@ -2082,7 +2083,7 @@ msgstr ""
 msgid "The server was too busy responding to other requests to respond."
 msgstr "Die bediener was te besig reageer na ander versoeke na antwoord."
 
-#: core/job_error.cpp:957 core/slavebase.cpp:1518
+#: core/job_error.cpp:957 core/slavebase.cpp:1505
 #, kde-format
 msgid "Unknown Error"
 msgstr "Onbekende Fout"
@@ -2510,131 +2511,131 @@ msgstr "Kon nie met klauncher praat nie"
 msgid "klauncher said: %1"
 msgstr "Besig om te %1 begin"
 
-#: core/slavebase.cpp:861
+#: core/slavebase.cpp:848
 #, kde-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "Om koppelinge met dié protokol %1 te maak word nie aangeraai nie."
 
-#: core/slavebase.cpp:863
+#: core/slavebase.cpp:850
 #, kde-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "Toemaak van koppelinge met protokol %1 word nie ondersteun nie."
 
-#: core/slavebase.cpp:865
+#: core/slavebase.cpp:852
 #, kde-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr "Toegang na lêers met protokol %1 word nie ondersteun nie."
 
-#: core/slavebase.cpp:867
+#: core/slavebase.cpp:854
 #, kde-format
 msgid "Writing to %1 is not supported."
 msgstr "Skryf na %1 word nie ondersteun nie."
 
-#: core/slavebase.cpp:869
+#: core/slavebase.cpp:856
 #, kde-format
 msgid "There are no special actions available for protocol %1."
 msgstr "Daar is geen spesiale aksies beskikbaar vir protokol %1 nie."
 
-#: core/slavebase.cpp:871
+#: core/slavebase.cpp:858
 #, kde-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr "'Luister gidse' word nie deur protokol %1 ondersteun nie."
 
-#: core/slavebase.cpp:873
+#: core/slavebase.cpp:860
 #, kde-format
 msgid "Retrieving data from %1 is not supported."
 msgstr "Onttrekking van data van %1 word nie ondersteun nie"
 
-#: core/slavebase.cpp:875
+#: core/slavebase.cpp:862
 #, kde-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr "Onttrekking van mime tipe informasie van %1 word nie ondersteun nie."
 
-#: core/slavebase.cpp:877
+#: core/slavebase.cpp:864
 #, kde-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr "Herbenaming of skuif van lêers binne in %1 word nie ondersteun nie."
 
-#: core/slavebase.cpp:879
+#: core/slavebase.cpp:866
 #, kde-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "Skep van simboliese skakels word nie deur protokol %1 ondersteun nie."
 
-#: core/slavebase.cpp:881
+#: core/slavebase.cpp:868
 #, kde-format
 msgid "Copying files within %1 is not supported."
 msgstr "Kopiëer van lêers binne in %1 word nie ondersteun nie."
 
-#: core/slavebase.cpp:883
+#: core/slavebase.cpp:870
 #, kde-format
 msgid "Deleting files from %1 is not supported."
 msgstr "Uitvee van lêers binne in %1 word nie ondersteun nie."
 
-#: core/slavebase.cpp:885
+#: core/slavebase.cpp:872
 #, kde-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "Skep van gidse word nie deur protokol %1 ondersteun nie."
 
-#: core/slavebase.cpp:887
+#: core/slavebase.cpp:874
 #, kde-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr ""
 "Verandering van lêer eienskappe word nie deur protokol %1 ondersteun nie."
 
-#: core/slavebase.cpp:889
+#: core/slavebase.cpp:876
 #, fuzzy, kde-format
 #| msgid "Changing the attributes of files is not supported with protocol %1."
 msgid "Changing the ownership of files is not supported with protocol %1."
 msgstr ""
 "Verandering van lêer eienskappe word nie deur protokol %1 ondersteun nie."
 
-#: core/slavebase.cpp:891
+#: core/slavebase.cpp:878
 #, kde-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr "Gebruik van sub-URLs met %1 word nie ondersteun nie."
 
-#: core/slavebase.cpp:893
+#: core/slavebase.cpp:880
 #, kde-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr "Veelvoudige 'gets' word nie deur protokol %1 ondersteun nie."
 
-#: core/slavebase.cpp:895
+#: core/slavebase.cpp:882
 #, fuzzy, kde-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "Skep van gidse word nie deur protokol %1 ondersteun nie."
 
-#: core/slavebase.cpp:897
+#: core/slavebase.cpp:884
 #, kde-format
 msgid "Protocol %1 does not support action %2."
 msgstr "Die protokol %1 laat nie aksie %2 toe nie."
 
-#: core/slavebase.cpp:1050
+#: core/slavebase.cpp:1037
 #, fuzzy, kde-format
 #| msgid "&Reset"
 msgid "&Yes"
 msgstr "Herstel"
 
-#: core/slavebase.cpp:1051
+#: core/slavebase.cpp:1038
 #, fuzzy, kde-format
 msgid "&No"
 msgstr "Geen"
 
-#: core/slaveinterface.cpp:410 core/tcpslavebase.cpp:749 widgets/sslui.cpp:77
+#: core/slaveinterface.cpp:412 core/tcpslavebase.cpp:749 widgets/sslui.cpp:77
 #, kde-format
 msgid "&Details"
 msgstr "Details"
 
-#: core/slaveinterface.cpp:412 core/tcpslavebase.cpp:762 widgets/sslui.cpp:114
+#: core/slaveinterface.cpp:414 core/tcpslavebase.cpp:762 widgets/sslui.cpp:114
 #, kde-format
 msgid "&Forever"
 msgstr "Veraltyd"
 
-#: core/slaveinterface.cpp:416 core/tcpslavebase.cpp:749 widgets/sslui.cpp:78
+#: core/slaveinterface.cpp:418 core/tcpslavebase.cpp:749 widgets/sslui.cpp:78
 #, kde-format
 msgid "Co&ntinue"
 msgstr "Gaan voort"
 
-#: core/slaveinterface.cpp:418 core/tcpslavebase.cpp:763 widgets/sslui.cpp:115
+#: core/slaveinterface.cpp:420 core/tcpslavebase.cpp:763 widgets/sslui.cpp:115
 #, fuzzy, kde-format
 #| msgid "&Current Sessions Only"
 msgid "&Current Session only"
@@ -4111,23 +4112,106 @@ msgstr "Kon nie vind program \"ontheg\""
 msgid "unmounting is not supported by wince."
 msgstr "Skryf na %1 word nie ondersteun nie."
 
-#: ioslaves/file/file_unix.cpp:295
+#: ioslaves/file/file_unix.cpp:86
+#, fuzzy, kde-format
+#| msgid "Advanced Permissions"
+msgid "Change File Permissions"
+msgstr "Gevorderde Regte"
+
+#: ioslaves/file/file_unix.cpp:87
+#, fuzzy, kde-format
+#| msgid "Permissions"
+msgid "New Permissions: %1"
+msgstr "Regte"
+
+#: ioslaves/file/file_unix.cpp:90
+#, kde-format
+msgid "Change File Owner"
+msgstr ""
+
+#: ioslaves/file/file_unix.cpp:91
+#, kde-format
+msgid "New Owner: UID=%1, GID=%2"
+msgstr ""
+
+#: ioslaves/file/file_unix.cpp:94
+#, fuzzy, kde-format
+msgid "Remove File"
+msgstr "Verwyder Inskrywing"
+
+#: ioslaves/file/file_unix.cpp:97
+#, fuzzy, kde-format
+msgid "Remove Directory"
+msgstr "Skep Gids"
+
+#: ioslaves/file/file_unix.cpp:100
+#, fuzzy, kde-format
+msgid "Create Directory"
+msgstr "Skep Gids"
+
+#: ioslaves/file/file_unix.cpp:101
+#, fuzzy, kde-format
+#| msgid "Permissions"
+msgid "Directory Permissions: %1"
+msgstr "Regte"
+
+#: ioslaves/file/file_unix.cpp:104
+#, fuzzy, kde-format
+#| msgid "Open file dialog"
+msgid "Open File"
+msgstr "Maak Lêer Oop dialoog"
+
+#: ioslaves/file/file_unix.cpp:107
+#, fuzzy, kde-format
+msgid "Open Directory"
+msgstr "Skep Gids"
+
+#: ioslaves/file/file_unix.cpp:111
+#, fuzzy, kde-format
+msgid "New Filename: %1"
+msgstr "Toestel:"
+
+#: ioslaves/file/file_unix.cpp:115
+#, fuzzy, kde-format
+msgid "Target: %1"
+msgstr "grootte %1"
+
+#: ioslaves/file/file_unix.cpp:118
+#, kde-format
+msgid "Change Timestamp"
+msgstr ""
+
+#: ioslaves/file/file_unix.cpp:121
+#, fuzzy, kde-format
+#| msgid "Unknown Interruption"
+msgid "Unknown Action"
+msgstr "Onbekende Onderbreking"
+
+#: ioslaves/file/file_unix.cpp:125
+#, kde-format
+msgid ""
+"Action: %1\n"
+"Source: %2\n"
+"%3"
+msgstr ""
+
+#: ioslaves/file/file_unix.cpp:345
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr "Kan nie kopie maak nie van lêer van %1 na %2. (Foutnommer: %3)"
 
-#: ioslaves/file/file_unix.cpp:517
+#: ioslaves/file/file_unix.cpp:567
 #, kde-format
 msgid "No media in device for %1"
 msgstr "Geen media in toestel %1 gevind"
 
-#: ioslaves/file/file_unix.cpp:789
+#: ioslaves/file/file_unix.cpp:839
 #, fuzzy, kde-format
 #| msgid "Could not enter folder %1."
 msgid "Could not get user id for given user name %1"
 msgstr "Kon nie toegang tot gids %1 verkry nie"
 
-#: ioslaves/file/file_unix.cpp:802
+#: ioslaves/file/file_unix.cpp:852
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr ""
@@ -9920,11 +10004,6 @@ msgstr ""
 #~ msgstr "Kon nie regte vir %1 verander nie."
 
 #, fuzzy
-#~ msgctxt "@action:button"
-#~ msgid "Create directory"
-#~ msgstr "Skep Gids"
-
-#, fuzzy
 #~ msgid "Create hidden directory?"
 #~ msgstr "Skep Gids"
 
@@ -10069,11 +10148,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Cancel"
 #~ msgstr "Dante"
-
-#, fuzzy
-#~| msgid "Open file dialog"
-#~ msgid "Open File Manager"
-#~ msgstr "Maak Lêer Oop dialoog"
 
 #, fuzzy
 #~| msgid ""
