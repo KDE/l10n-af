@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-11 03:41+0100\n"
+"POT-Creation-Date: 2020-01-21 03:50+0100\n"
 "PO-Revision-Date: 2005-11-23 16:50+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -26,42 +26,6 @@ msgstr "Kobus Venter"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "kabousv@therugby.co.za"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: browserconfig_ui.ui:29
-#, kde-format
-msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
-msgstr "<qt>Maak <b>http</b> en <b>https</b> URLs oop</qt>"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
-#: browserconfig_ui.ui:36
-#, kde-format
-msgid "in an application based on the contents of the URL"
-msgstr "in 'n applikasie gebaseer op die inhoud van die URL"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioService)
-#: browserconfig_ui.ui:46
-#, fuzzy, kde-format
-#| msgid "in the following browser:"
-msgid "in the following application:"
-msgstr "in die volgende blaaier"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
-#: browserconfig_ui.ui:80
-#, fuzzy, kde-format
-#| msgid "in the following browser:"
-msgid "with the following command:"
-msgstr "in die volgende blaaier"
-
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectApplication)
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
-#: browserconfig_ui.ui:115 emailclientconfig_ui.ui:69
-#: filemanagerconfig_ui.ui:41 terminalemulatorconfig_ui.ui:60
-#, kde-format
-msgid "..."
-msgstr "..."
 
 #: componentchooser.cpp:145
 #, kde-format
@@ -91,7 +55,7 @@ msgstr ""
 msgid "No description available"
 msgstr "Geen beskrywing beskikbaar"
 
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, GroupBox1)
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, headerGroupBox)
 #: componentchooser_ui.ui:26
 #, kde-format
 msgid ""
@@ -109,7 +73,7 @@ msgstr ""
 "doen, sal hierdie applikasies altyd dieselfde komponent oproep. Jy kan hier "
 "kies watter programme hierdie komponente is."
 
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#. i18n: ectx: property (title), widget (QGroupBox, headerGroupBox)
 #: componentchooser_ui.ui:29
 #, kde-format
 msgid "Default Component"
@@ -141,120 +105,22 @@ msgstr ""
 "oproep. Jy kan hier kies watter programme hierdie komponente is.</p>\n"
 "</qt>"
 
-#: componentchooserbrowser.cpp:171
+#: componentchooserbrowser.cpp:115 componentchooseremail.cpp:126
+#: componentchooserfilemanager.cpp:119 componentchooserterminal.cpp:97
 #, kde-format
-msgid "Select preferred Web browser application:"
-msgstr "Kies voorkeur Web blaaier program:"
+msgid "Other..."
+msgstr ""
 
-#: componentchooseremail.cpp:93
-#, kde-format
-msgid "Select preferred email client:"
+#: componentchooserfilemanager.cpp:58
+#, fuzzy, kde-format
+#| msgid "Select preferred email client:"
+msgid "Select preferred file manager:"
 msgstr "Kies voorkeur e-pos kliënt:"
 
-#: componentchooserterminal.cpp:101
+#: componentchooserterminal.cpp:122
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "Kies voorkeur terminaal program:"
-
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
-#: emailclientconfig_ui.ui:12
-#, fuzzy, kde-format
-#| msgid "Kmail is the standard Mail program for the KDE desktop."
-msgid "Kmail is the standard Mail program for the Plasma desktop."
-msgstr "KPos is die standaard Pos program vir die KDE werkskerm."
-
-#. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
-#: emailclientconfig_ui.ui:15
-#, kde-format
-msgid "&Use KMail as preferred email client"
-msgstr "Gebruik KPos as voorkeur e-pos klient"
-
-#. i18n: ectx: property (whatsThis), widget (QRadioButton, otherCB)
-#: emailclientconfig_ui.ui:22
-#, kde-format
-msgid "Select this option if you want to use any other mail program."
-msgstr "Kies hierdie opsie om 'n ander e-pos program te gebruik"
-
-#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
-#: emailclientconfig_ui.ui:25
-#, kde-format
-msgid "Use a different &email client:"
-msgstr "Gebruik 'n ander e-pos kliënt:"
-
-#. i18n: ectx: property (toolTip), widget (KLineEdit, txtEMailClient)
-#: emailclientconfig_ui.ui:53
-#, fuzzy, no-c-format, kde-format
-msgid ""
-"Optional placeholders: <ul> <li>%t: Recipient's address</li> <li>%s: "
-"Subject</li> <li>%c: Carbon Copy (CC)</li> <li>%b: Blind Carbon Copy (BCC)</"
-"li> <li>%B: Template body text</li> <li>%A: Attachment </li> <li>%u: Full "
-"mailto: URL </li></ul>"
-msgstr ""
-"<ul> <li>%t: Ontvanger Adres</li> <li>%s: Onderwerp</li> <li>%c: Deurslag "
-"Kopie (CC)</li> <li>%b: Geheime Deurslag Kopie (GDK)</li> <li>%B: Sjabloon "
-"inhoud teks</li> <li>%A: Byvoegsel </li> </ul>"
-
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, txtEMailClient)
-#: emailclientconfig_ui.ui:56
-#, fuzzy, no-c-format, kde-format
-#| msgid ""
-#| "Press this button to select your favorite email client. Please note that "
-#| "the file you select has to have the executable attribute set in order to "
-#| "be accepted.<br> You can also use several placeholders which will be "
-#| "replaced with the actual values when the email client is called:<ul> <li>"
-#| "%t: Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon Copy "
-#| "(CC)</li> <li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body "
-#| "text</li> <li>%A: Attachment </li> </ul>"
-msgid ""
-"Press this button to select your favorite email client. Please note that the "
-"file you select has to have the executable attribute set in order to be "
-"accepted.<br/> You can also use several placeholders which will be replaced "
-"with the actual values when the email client is called:<ul> <li>%t: "
-"Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon Copy (CC)</li> "
-"<li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body text</li> <li>%A: "
-"Attachment </li> </ul>"
-msgstr ""
-"Kliek hierdie knoppie om jou voorkeur e-pos program te kies. Let daarop dat "
-"die lêer wat jy kies 'n opdrag uivoerbare kenmerk moet hê, om dit "
-"aanvaarbaar te maak.<br> Jy kan ook 'n aantal plek houers gebruik wat "
-"vervang sal word met werklike waardes wanneer die e-pos program geroep word:"
-"<ul> <li>%t: Ontvanger Adres</li> <li>%s: Onderwerp</li> <li>%c: Deurslag "
-"Kopie (DK)</li> <li>%b: Geheime Deurslag Kopie (GDK)</li> <li>%B: Sjabloon "
-"inhoud teks</li> <li>%A: Byvoegsel </li> </ul>"
-
-#. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectEmail)
-#: emailclientconfig_ui.ui:66
-#, kde-format
-msgid "Click here to browse for the mail program file."
-msgstr "Kliek hier om na die e-pos kliënt se program lêer te soek"
-
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, chkRunTerminal)
-#: emailclientconfig_ui.ui:99
-#, kde-format
-msgid ""
-"Activate this option if you want the selected email client to be executed in "
-"a terminal (e.g. <em>Konsole</em>)."
-msgstr ""
-"Kies hierdie opsie indien jy wil hê dat die e-pos kliënt in 'n terminaal "
-"venster (bv. <em>Konsole</em>) moet oopmaak."
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkRunTerminal)
-#: emailclientconfig_ui.ui:102
-#, kde-format
-msgid "&Run in terminal"
-msgstr "Hardloop in terminaal"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: filemanagerconfig_ui.ui:12
-#, kde-format
-msgid "Browse directories using the following file manager:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
-#: filemanagerconfig_ui.ui:24
-#, kde-format
-msgid "Other: click Add... in the dialog shown here:"
-msgstr ""
 
 #: kcm_componentchooser.cpp:43
 #, kde-format
@@ -272,44 +138,120 @@ msgstr "(c), 2002 Joseph Wenninger"
 msgid "Joseph Wenninger"
 msgstr "(c), 2002 Joseph Wenninger"
 
-#. i18n: ectx: property (text), widget (QRadioButton, terminalCB)
-#: terminalemulatorconfig_ui.ui:12
-#, kde-format
-msgid "&Use Konsole as terminal application"
-msgstr "Gebruik Konsole as die terminaal applikasie"
+#~ msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
+#~ msgstr "<qt>Maak <b>http</b> en <b>https</b> URLs oop</qt>"
 
-#. i18n: ectx: property (text), widget (QRadioButton, otherCB)
-#: terminalemulatorconfig_ui.ui:19
-#, kde-format
-msgid "Use a different &terminal program:"
-msgstr "Gebruik 'n ander &terminaal program:"
+#~ msgid "in an application based on the contents of the URL"
+#~ msgstr "in 'n applikasie gebaseer op die inhoud van die URL"
 
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, terminalLE)
-#: terminalemulatorconfig_ui.ui:47
-#, fuzzy, kde-format
-#| msgid ""
-#| "Press this button to select your favorite terminal client. Please note "
-#| "that the file you select has to have the executable attribute set in "
-#| "order to be accepted.<br> Also note that some programs that utilize "
-#| "Terminal Emulator will not work if you add command line arguments "
-#| "(Example: konsole -ls)."
-msgid ""
-"Press this button to select your favorite terminal client. Please note that "
-"the file you select has to have the executable attribute set in order to be "
-"accepted.<br/> Also note that some programs that utilize Terminal Emulator "
-"will not work if you add command line arguments (Example: konsole -ls)."
-msgstr ""
-"Kliek hierdie knoppie om jou voorkeur terminaal program te kies. Let daarop "
-"dat die lêer wat jy kies 'n opdrag uivoerbare kenmerk moet hê, om dit "
-"aanvaarbaar te maak.<br> Let ook daarop dat sommige programme wat die "
-"Terminaal Emuleerder gebruik nie sal werk indien jy opdrag argumente (Bv. "
-"konsole -ls) byvoeg nie."
+#, fuzzy
+#~| msgid "in the following browser:"
+#~ msgid "in the following application:"
+#~ msgstr "in die volgende blaaier"
 
-#. i18n: ectx: property (whatsThis), widget (QToolButton, btnSelectTerminal)
-#: terminalemulatorconfig_ui.ui:57
-#, kde-format
-msgid "Click here to browse for terminal program."
-msgstr "Kliek hier om na terminaal program te soek"
+#, fuzzy
+#~| msgid "in the following browser:"
+#~ msgid "with the following command:"
+#~ msgstr "in die volgende blaaier"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Select preferred Web browser application:"
+#~ msgstr "Kies voorkeur Web blaaier program:"
+
+#, fuzzy
+#~| msgid "Kmail is the standard Mail program for the KDE desktop."
+#~ msgid "Kmail is the standard Mail program for the Plasma desktop."
+#~ msgstr "KPos is die standaard Pos program vir die KDE werkskerm."
+
+#~ msgid "&Use KMail as preferred email client"
+#~ msgstr "Gebruik KPos as voorkeur e-pos klient"
+
+#~ msgid "Select this option if you want to use any other mail program."
+#~ msgstr "Kies hierdie opsie om 'n ander e-pos program te gebruik"
+
+#~ msgid "Use a different &email client:"
+#~ msgstr "Gebruik 'n ander e-pos kliënt:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Optional placeholders: <ul> <li>%t: Recipient's address</li> <li>%s: "
+#~ "Subject</li> <li>%c: Carbon Copy (CC)</li> <li>%b: Blind Carbon Copy "
+#~ "(BCC)</li> <li>%B: Template body text</li> <li>%A: Attachment </li> <li>"
+#~ "%u: Full mailto: URL </li></ul>"
+#~ msgstr ""
+#~ "<ul> <li>%t: Ontvanger Adres</li> <li>%s: Onderwerp</li> <li>%c: Deurslag "
+#~ "Kopie (CC)</li> <li>%b: Geheime Deurslag Kopie (GDK)</li> <li>%B: "
+#~ "Sjabloon inhoud teks</li> <li>%A: Byvoegsel </li> </ul>"
+
+#, fuzzy
+#~| msgid ""
+#~| "Press this button to select your favorite email client. Please note that "
+#~| "the file you select has to have the executable attribute set in order to "
+#~| "be accepted.<br> You can also use several placeholders which will be "
+#~| "replaced with the actual values when the email client is called:<ul> <li>"
+#~| "%t: Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon Copy "
+#~| "(CC)</li> <li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body "
+#~| "text</li> <li>%A: Attachment </li> </ul>"
+#~ msgid ""
+#~ "Press this button to select your favorite email client. Please note that "
+#~ "the file you select has to have the executable attribute set in order to "
+#~ "be accepted.<br/> You can also use several placeholders which will be "
+#~ "replaced with the actual values when the email client is called:<ul> <li>"
+#~ "%t: Recipient's address</li> <li>%s: Subject</li> <li>%c: Carbon Copy "
+#~ "(CC)</li> <li>%b: Blind Carbon Copy (BCC)</li> <li>%B: Template body "
+#~ "text</li> <li>%A: Attachment </li> </ul>"
+#~ msgstr ""
+#~ "Kliek hierdie knoppie om jou voorkeur e-pos program te kies. Let daarop "
+#~ "dat die lêer wat jy kies 'n opdrag uivoerbare kenmerk moet hê, om dit "
+#~ "aanvaarbaar te maak.<br> Jy kan ook 'n aantal plek houers gebruik wat "
+#~ "vervang sal word met werklike waardes wanneer die e-pos program geroep "
+#~ "word:<ul> <li>%t: Ontvanger Adres</li> <li>%s: Onderwerp</li> <li>%c: "
+#~ "Deurslag Kopie (DK)</li> <li>%b: Geheime Deurslag Kopie (GDK)</li> <li>"
+#~ "%B: Sjabloon inhoud teks</li> <li>%A: Byvoegsel </li> </ul>"
+
+#~ msgid "Click here to browse for the mail program file."
+#~ msgstr "Kliek hier om na die e-pos kliënt se program lêer te soek"
+
+#~ msgid ""
+#~ "Activate this option if you want the selected email client to be executed "
+#~ "in a terminal (e.g. <em>Konsole</em>)."
+#~ msgstr ""
+#~ "Kies hierdie opsie indien jy wil hê dat die e-pos kliënt in 'n terminaal "
+#~ "venster (bv. <em>Konsole</em>) moet oopmaak."
+
+#~ msgid "&Run in terminal"
+#~ msgstr "Hardloop in terminaal"
+
+#~ msgid "&Use Konsole as terminal application"
+#~ msgstr "Gebruik Konsole as die terminaal applikasie"
+
+#~ msgid "Use a different &terminal program:"
+#~ msgstr "Gebruik 'n ander &terminaal program:"
+
+#, fuzzy
+#~| msgid ""
+#~| "Press this button to select your favorite terminal client. Please note "
+#~| "that the file you select has to have the executable attribute set in "
+#~| "order to be accepted.<br> Also note that some programs that utilize "
+#~| "Terminal Emulator will not work if you add command line arguments "
+#~| "(Example: konsole -ls)."
+#~ msgid ""
+#~ "Press this button to select your favorite terminal client. Please note "
+#~ "that the file you select has to have the executable attribute set in "
+#~ "order to be accepted.<br/> Also note that some programs that utilize "
+#~ "Terminal Emulator will not work if you add command line arguments "
+#~ "(Example: konsole -ls)."
+#~ msgstr ""
+#~ "Kliek hierdie knoppie om jou voorkeur terminaal program te kies. Let "
+#~ "daarop dat die lêer wat jy kies 'n opdrag uivoerbare kenmerk moet hê, om "
+#~ "dit aanvaarbaar te maak.<br> Let ook daarop dat sommige programme wat die "
+#~ "Terminaal Emuleerder gebruik nie sal werk indien jy opdrag argumente (Bv. "
+#~ "konsole -ls) byvoeg nie."
+
+#~ msgid "Click here to browse for terminal program."
+#~ msgstr "Kliek hier om na terminaal program te soek"
 
 #, fuzzy
 #~| msgid "Use a different &terminal program:"
