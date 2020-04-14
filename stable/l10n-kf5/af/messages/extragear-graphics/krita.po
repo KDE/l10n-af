@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-09 09:13+0200\n"
+"POT-Creation-Date: 2020-04-14 08:47+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -14760,7 +14760,7 @@ msgstr "Hoeke:"
 #. i18n: ectx: property (text), widget (QPushButton, clipboardButton)
 #: libs/ui/forms/wdgnewimage.ui:287
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:90
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:327
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:338
 #, kde-format
 msgid "Clipboard"
 msgstr ""
@@ -17266,7 +17266,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, btnMaskMode)
 #: libs/ui/kis_statusbar.cc:377
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:228
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:359
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:370
 #, fuzzy, kde-format
 msgid "Mask"
 msgstr "Voeg by Mask"
@@ -27684,7 +27684,7 @@ msgid "List"
 msgstr "Laag"
 
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:59
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:357
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:368
 #, kde-format
 msgid "Invalid"
 msgstr ""
@@ -36225,7 +36225,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, stampButton)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:77
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:310
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:321
 #, kde-format
 msgid "Stamp"
 msgstr ""
@@ -36254,8 +36254,14 @@ msgstr "Keuse"
 msgid "Brush mode"
 msgstr "Borsels"
 
+#. i18n: ectx: property (text), widget (QPushButton, btnResetAdjustments)
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:278
+#, fuzzy, kde-format
+msgid "Reset Adjustments"
+msgstr "Kleur Modus"
+
 #. i18n: ectx: property (text), widget (QCheckBox, preserveBrushPresetSettings)
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:285
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:292
 #, fuzzy, kde-format
 msgid "Preserve Brush Preset Settings"
 msgstr "Laag Eienskappe..."
@@ -36389,18 +36395,28 @@ msgctxt "@label:slider"
 msgid "Contrast: "
 msgstr "Hoeke:"
 
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:361
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:195
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Resets all the adjustments to default values:\n"
+" Neutral Point: 127\n"
+" Brightness: 0%\n"
+" Contrast: 0%"
+msgstr ""
+
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:372
 #, fuzzy, kde-format
 #| msgid "RGB"
 msgid "GBR"
 msgstr "Rgb"
 
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:363
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:374
 #, fuzzy, kde-format
 msgid "Animated Mask"
 msgstr "Roteer 90"
 
-#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:372
+#: plugins/paintops/libpaintop/kis_brush_chooser.cpp:383
 #, fuzzy, kde-format
 msgid "Animated Image"
 msgstr "Skep nuwe Laag"
@@ -65541,10 +65557,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "ColorBalanceMidtones Adjustment"
-#~ msgstr "Kleur Modus"
-
-#, fuzzy
-#~ msgid "Desaturate Adjustment"
 #~ msgstr "Kleur Modus"
 
 #, fuzzy
