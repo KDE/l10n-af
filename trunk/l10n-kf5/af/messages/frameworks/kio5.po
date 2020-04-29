@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-28 03:04+0200\n"
+"POT-Creation-Date: 2020-04-29 03:07+0200\n"
 "PO-Revision-Date: 2005-11-26 17:02+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -2363,7 +2363,7 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr "Ongedokumenteerde Fout"
 
-#: core/kcoredirlister.cpp:396 widgets/krun.cpp:754 widgets/paste.cpp:275
+#: core/kcoredirlister.cpp:396 widgets/krun.cpp:475 widgets/paste.cpp:275
 #: widgets/renamedialog.cpp:460
 #, kde-format
 msgid ""
@@ -2632,7 +2632,7 @@ msgstr "Nie moontlik na open die sertifikaat. Probeer 'n nuwe wagwoord?"
 msgid "The procedure to set the client certificate for the session failed."
 msgstr "Die prosedure na stel Die kliënt sertifikaat vir Die sessie gevaal."
 
-#: core/tcpslavebase.cpp:698 widgets/jobuidelegate.cpp:382
+#: core/tcpslavebase.cpp:698 widgets/jobuidelegate.cpp:391
 #, kde-format
 msgid "SSL"
 msgstr "SSL"
@@ -2742,9 +2742,9 @@ msgstr "Lees"
 msgid "New Folder..."
 msgstr "Nuwe Gids..."
 
-#: filewidgets/kdiroperator.cpp:1982 widgets/jobuidelegate.cpp:273
-#: widgets/jobuidelegate.cpp:274 widgets/jobuidelegate.cpp:282
-#: widgets/jobuidelegate.cpp:283
+#: filewidgets/kdiroperator.cpp:1982 widgets/jobuidelegate.cpp:282
+#: widgets/jobuidelegate.cpp:283 widgets/jobuidelegate.cpp:291
+#: widgets/jobuidelegate.cpp:292
 #, kde-format
 msgid "Move to Trash"
 msgstr "Beweeg na die Asblik"
@@ -3970,6 +3970,18 @@ msgstr ""
 msgid "Click to Edit Location"
 msgstr ""
 
+#: gui/applicationlauncherjob.cpp:103 gui/kprocessrunner.cpp:183
+#, kde-format
+msgid "You are not authorized to execute this file."
+msgstr "Jy word nie gemagtig na uitvoer hierdie lêer."
+
+#: gui/applicationlauncherjob.cpp:143
+#, kde-format
+msgid ""
+"Unable to make the service %1 executable, aborting execution.\n"
+"%2."
+msgstr ""
+
 #: gui/faviconrequestjob.cpp:119
 #, fuzzy, kde-format
 #| msgid "No media in device for %1"
@@ -4016,11 +4028,6 @@ msgstr ""
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr ""
-
-#: gui/kprocessrunner.cpp:183
-#, kde-format
-msgid "You are not authorized to execute this file."
-msgstr "Jy word nie gemagtig na uitvoer hierdie lêer."
 
 #: gui/kprocessrunner.cpp:207
 #, kde-format
@@ -7718,7 +7725,7 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr "Besig om Stelsel Opstelling Op te dateer"
 
-#: widgets/jobuidelegate.cpp:241
+#: widgets/jobuidelegate.cpp:250
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7727,14 +7734,14 @@ msgid ""
 "emphasis>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:242 widgets/jobuidelegate.cpp:251
-#: widgets/jobuidelegate.cpp:261
+#: widgets/jobuidelegate.cpp:251 widgets/jobuidelegate.cpp:260
+#: widgets/jobuidelegate.cpp:270
 #, fuzzy, kde-format
 #| msgid "Delete Entry"
 msgid "Delete Permanently"
 msgstr "Uitvee Inskrywing"
 
-#: widgets/jobuidelegate.cpp:249
+#: widgets/jobuidelegate.cpp:258
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7746,7 +7753,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/jobuidelegate.cpp:260
+#: widgets/jobuidelegate.cpp:269
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7754,7 +7761,7 @@ msgid ""
 "><emphasis strong='true'>This action cannot be undone.</emphasis>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:262
+#: widgets/jobuidelegate.cpp:271
 #, fuzzy, kde-format
 #| msgctxt "to trash"
 #| msgid "&Trash"
@@ -7762,7 +7769,7 @@ msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Gemors"
 
-#: widgets/jobuidelegate.cpp:272
+#: widgets/jobuidelegate.cpp:281
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7770,14 +7777,14 @@ msgid ""
 "filename>"
 msgstr "Wil jy rerig hierdie item uitvee?"
 
-#: widgets/jobuidelegate.cpp:280
+#: widgets/jobuidelegate.cpp:289
 #, fuzzy, kde-format
 msgid "Do you really want to move this item to the Trash?"
 msgid_plural "Do you really want to move these %1 items to the Trash?"
 msgstr[0] "Wil jy rerig hierdie item uitvee?"
 msgstr[1] "Wil jy rerig hierdie item uitvee?"
 
-#: widgets/jobuidelegate.cpp:381
+#: widgets/jobuidelegate.cpp:390
 #, fuzzy, kde-format
 #| msgid "The peer SSL certificate appears to be corrupt."
 msgid "The peer SSL certificate chain appears to be corrupt."
@@ -9302,25 +9309,7 @@ msgstr "Slegs uitvoerbares op plaaslike lêer sisteme word ondersteunde."
 msgid "Advanced Options for %1"
 msgstr "Gevorderde Opsies vir %1"
 
-#: widgets/krun.cpp:252
-#, fuzzy, kde-format
-#| msgid "Examining"
-msgctxt "Warning about executing unknown program"
-msgid "Warning"
-msgstr "Ondersoek"
-
-#: widgets/krun.cpp:269
-#, kde-format
-msgctxt "program name follows in a line edit below"
-msgid "This will start the program:"
-msgstr ""
-
-#: widgets/krun.cpp:279
-#, kde-format
-msgid "If you do not trust this program, click Cancel"
-msgstr ""
-
-#: widgets/krun.cpp:347
+#: widgets/krun.cpp:190
 #, kde-format
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
@@ -9329,7 +9318,7 @@ msgstr ""
 "<qt>Nie moontlik na invoer <b>%1</b>.\n"
 "Jy doen nie het toegang verkry regte na hierdie ligging.</qt>"
 
-#: widgets/krun.cpp:378
+#: widgets/krun.cpp:221
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
@@ -9341,7 +9330,7 @@ msgstr ""
 "<qt>Kon nie die gespesifiseerde opdrag uitvoer nie. Die lêer of gids <b>%1</"
 "b> bestaan nie.</qt>"
 
-#: widgets/krun.cpp:409
+#: widgets/krun.cpp:253
 #, kde-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
@@ -9350,29 +9339,17 @@ msgstr ""
 "<qt>Die lêer <b>%1</b> is 'n uitvoerbare program. Vir veiligheid sal dit nie "
 "begin word nie.</qt>"
 
-#: widgets/krun.cpp:415
+#: widgets/krun.cpp:259
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt>Jy doen nie het reg na hardloop <b>%1</b>.</qt>"
 
-#: widgets/krun.cpp:445
+#: widgets/krun.cpp:289
 #, fuzzy, kde-format
 msgid "You are not authorized to select an application to open this file."
 msgstr "Jy is nie gemagtig om hierdie lêer oop te maak nie."
 
-#: widgets/krun.cpp:581
-#, kde-format
-msgid "You are not authorized to execute this service."
-msgstr "Jy word nie gemagtig na uitvoer hierdie diens."
-
-#: widgets/krun.cpp:611
-#, kde-format
-msgid ""
-"Unable to make the service %1 executable, aborting execution.\n"
-"%2."
-msgstr ""
-
-#: widgets/krun.cpp:789
+#: widgets/krun.cpp:510
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -9381,7 +9358,7 @@ msgstr ""
 "<qt>Kon nie die gespesifiseerde opdrag uitvoer nie. Die lêer of gids <b>%1</"
 "b> bestaan nie.</qt>"
 
-#: widgets/krun.cpp:857
+#: widgets/krun.cpp:578
 #, fuzzy, kde-format
 #| msgid "Could not change permissions for %1."
 msgid "Could not find any application or handler for %1"
@@ -9885,6 +9862,27 @@ msgid ""
 "The remote host did not send any SSL certificates.\n"
 "Aborting because the identity of the host cannot be established."
 msgstr ""
+
+#: widgets/widgetsuntrustedprogramhandler.cpp:110
+#, fuzzy, kde-format
+#| msgid "Examining"
+msgctxt "Warning about executing unknown program"
+msgid "Warning"
+msgstr "Ondersoek"
+
+#: widgets/widgetsuntrustedprogramhandler.cpp:128
+#, kde-format
+msgctxt "program name follows in a line edit below"
+msgid "This will start the program:"
+msgstr ""
+
+#: widgets/widgetsuntrustedprogramhandler.cpp:138
+#, kde-format
+msgid "If you do not trust this program, click Cancel"
+msgstr ""
+
+#~ msgid "You are not authorized to execute this service."
+#~ msgstr "Jy word nie gemagtig na uitvoer hierdie diens."
 
 #, fuzzy
 #~| msgid "The certificate is invalid."
