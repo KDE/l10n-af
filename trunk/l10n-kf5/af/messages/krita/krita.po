@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-31 02:08+0200\n"
+"POT-Creation-Date: 2020-08-01 02:13+0200\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -12593,8 +12593,7 @@ msgstr "Kleur"
 #: plugins/extensions/imagesize/wdg_canvassize.ui:45
 #: plugins/extensions/imagesize/wdg_imagesize.ui:67
 #: plugins/extensions/imagesize/wdg_layersize.ui:58
-#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:41
-#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:82
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:84
 #: plugins/generators/pattern/wdgpatternoptions.ui:106
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:161
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:163
@@ -14197,7 +14196,7 @@ msgstr "Hoogte:"
 #: plugins/extensions/resourcemanager/wdgdlgembedtags.ui:54
 #: plugins/flake/pathshapes/ellipse/EllipseShapeConfigWidget.ui:35
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.ui:20
-#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:70
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:72
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:195
 #: plugins/tools/basictools/wdgmultihandtool.ui:164
 #, fuzzy, kde-format
@@ -21146,7 +21145,6 @@ msgstr "Wit"
 #. i18n: ectx: property (text), widget (QLabel, colorLabel1)
 #. i18n: ectx: property (text), widget (QLabel, colorLabel3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/layerstyles/WdgStroke.ui:159
 #: libs/ui/widgets/KoFillConfigWidget.ui:159
 #: plugins/filters/colors/wdgcolortoalphabase.ui:40
@@ -21154,7 +21152,6 @@ msgstr "Wit"
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:634
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:826
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:1012
-#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:92
 #, fuzzy, kde-format
 msgid "Color:"
 msgstr "Kleur"
@@ -25654,7 +25651,7 @@ msgid "Next frames"
 msgstr "Verwyder Laag"
 
 #: plugins/dockers/animation/timeline_docker.cpp:63
-#: plugins/dockers/animation/timeline_docker.cpp:205
+#: plugins/dockers/animation/timeline_docker.cpp:234
 #, fuzzy, kde-format
 msgid "Animation Timeline"
 msgstr "Wydte:"
@@ -25699,22 +25696,32 @@ msgstr ""
 msgid "Frame Rate: "
 msgstr "In voer Beeld..."
 
-#: plugins/dockers/animation/timeline_docker.cpp:397
+#: plugins/dockers/animation/timeline_docker.cpp:164
+#, kde-format
+msgid "AutoKey Blank"
+msgstr ""
+
+#: plugins/dockers/animation/timeline_docker.cpp:166
+#, fuzzy, kde-format
+msgid "AutoKey Duplicate"
+msgstr "Volgende Laag"
+
+#: plugins/dockers/animation/timeline_docker.cpp:426
 #, kde-format
 msgid "Enable to preserve playback timing."
 msgstr ""
 
-#: plugins/dockers/animation/timeline_docker.cpp:405
+#: plugins/dockers/animation/timeline_docker.cpp:434
 #, kde-format
 msgid "Effective FPS:\t%1"
 msgstr ""
 
-#: plugins/dockers/animation/timeline_docker.cpp:406
+#: plugins/dockers/animation/timeline_docker.cpp:435
 #, kde-format
 msgid "Real FPS:\t%1"
 msgstr ""
 
-#: plugins/dockers/animation/timeline_docker.cpp:407
+#: plugins/dockers/animation/timeline_docker.cpp:436
 #, kde-format
 msgid "Frames dropped:\t%1%"
 msgstr ""
@@ -31468,43 +31475,54 @@ msgstr "Patroon"
 msgid "Multigrid"
 msgstr "Borsels"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbShapes)
-#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:17
+#. i18n: ectx: attribute (title), widget (QWidget, tabShapes)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:21
 #, fuzzy, kde-format
 msgid "Shapes"
 msgstr "Skerpheid:"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbLines)
-#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:35
+#. i18n: ectx: attribute (title), widget (QWidget, tabLines)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:50
 #, fuzzy, kde-format
-msgctxt "Line label in Multigrid pattern options"
 msgid "Lines"
 msgstr "Laag"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:51
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:56
 #, fuzzy, kde-format
-msgid "Color: "
-msgstr "Kleur"
+msgid "Line Width:"
+msgstr "Wydte:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbConnector)
-#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:64
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:66
 #, fuzzy, kde-format
 msgid "Connector Lines"
 msgstr "Aaneenlopende Kies"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbColors)
+#. i18n: ectx: attribute (title), widget (QWidget, tabColor)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:111
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:100
 #: plugins/tools/svgtexttool/WdgSvgTextSettings.ui:72
 #, fuzzy, kde-format
 msgid "Colors"
 msgstr "Kleur"
 
-#. i18n: ectx: property (text), widget (QLabel, lblColor2)
-#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:117
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:106
 #, fuzzy, kde-format
-msgid "Color Factors:"
+msgid "Lines: "
+msgstr "Laag"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:119
+#, fuzzy, kde-format
+msgid "Connector:"
+msgstr "Voltooiïng"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbColors)
+#: plugins/generators/multigridpattern/wdgmultigridpatternoptions.ui:146
+#, fuzzy, kde-format
+msgid "Color Factors"
 msgstr "Kleur:"
 
 #: plugins/generators/pattern/patterngenerator.cpp:128
@@ -42084,6 +42102,15 @@ msgstr ""
 #, kde-format
 msgid "Work Recursively"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "Line label in Multigrid pattern options"
+#~ msgid "Lines"
+#~ msgstr "Laag"
+
+#, fuzzy
+#~ msgid "Color: "
+#~ msgstr "Kleur"
 
 #, fuzzy
 #~ msgid "Form"
@@ -63694,11 +63721,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Drag to create new connection."
 #~ msgstr "Skep nuwe Laag"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Connection"
-#~ msgstr "Voltooiïng"
 
 #, fuzzy
 #~ msgctxt "(qtundo-format)"
