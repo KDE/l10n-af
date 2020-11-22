@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-16 02:10+0100\n"
+"POT-Creation-Date: 2020-11-22 02:10+0100\n"
 "PO-Revision-Date: 2005-11-26 17:02+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -53,13 +53,13 @@ msgstr "Nie moontlik na skep io-slave: %1"
 msgid "Folder Already Exists"
 msgstr "Die Gids Bestaan Alreeds"
 
-#: core/copyjob.cpp:1504 core/copyjob.cpp:2048 core/filecopyjob.cpp:338
+#: core/copyjob.cpp:1504 core/copyjob.cpp:2026 core/filecopyjob.cpp:338
 #: core/job_error.cpp:506 widgets/paste.cpp:81
 #, kde-format
 msgid "File Already Exists"
 msgstr "Die lêer Bestaan Alreeds"
 
-#: core/copyjob.cpp:1504 core/copyjob.cpp:2048
+#: core/copyjob.cpp:1504 core/copyjob.cpp:2026
 #, kde-format
 msgid "Already Exists as Folder"
 msgstr "Bestaan alreeds as 'n gids"
@@ -2400,7 +2400,7 @@ msgid "Undocumented Error"
 msgstr "Ongedokumenteerde Fout"
 
 #: core/kcoredirlister.cpp:374 gui/openurljob.cpp:155 widgets/krun.cpp:407
-#: widgets/paste.cpp:267 widgets/renamedialog.cpp:582
+#: widgets/paste.cpp:267 widgets/renamedialog.cpp:579
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -2576,28 +2576,28 @@ msgstr "Herstel"
 msgid "&No"
 msgstr "Geen"
 
-#: core/slaveinterface.cpp:413 core/tcpslavebase.cpp:739 widgets/sslui.cpp:66
+#: core/slaveinterface.cpp:413 core/tcpslavebase.cpp:546 widgets/sslui.cpp:66
 #, kde-format
 msgid "&Details"
 msgstr "Details"
 
-#: core/slaveinterface.cpp:415 core/tcpslavebase.cpp:752 widgets/sslui.cpp:103
+#: core/slaveinterface.cpp:415 core/tcpslavebase.cpp:559 widgets/sslui.cpp:103
 #, kde-format
 msgid "&Forever"
 msgstr "Veraltyd"
 
-#: core/slaveinterface.cpp:419 core/tcpslavebase.cpp:739 widgets/sslui.cpp:67
+#: core/slaveinterface.cpp:419 core/tcpslavebase.cpp:546 widgets/sslui.cpp:67
 #, kde-format
 msgid "Co&ntinue"
 msgstr "Gaan voort"
 
-#: core/slaveinterface.cpp:421 core/tcpslavebase.cpp:753 widgets/sslui.cpp:104
+#: core/slaveinterface.cpp:421 core/tcpslavebase.cpp:560 widgets/sslui.cpp:104
 #, fuzzy, kde-format
 #| msgid "&Current Sessions Only"
 msgid "&Current Session only"
 msgstr "Huidige Sessies Slegs"
 
-#: core/tcpslavebase.cpp:298
+#: core/tcpslavebase.cpp:288
 #, kde-format
 msgid ""
 "You are about to leave secure mode. Transmissions will no longer be "
@@ -2608,24 +2608,24 @@ msgstr ""
 "encrypted.\n"
 "Hierdie beteken wat 'n derde party kon observeer jou data in oordrag."
 
-#: core/tcpslavebase.cpp:304 core/tcpslavebase.cpp:507
+#: core/tcpslavebase.cpp:294 core/tcpslavebase.cpp:495
 #, kde-format
 msgid "Security Information"
 msgstr "Sekuriteit Informasie"
 
-#: core/tcpslavebase.cpp:305
+#: core/tcpslavebase.cpp:295
 #, kde-format
 msgid "C&ontinue Loading"
 msgstr "Gaan voort met laai"
 
-#: core/tcpslavebase.cpp:357
+#: core/tcpslavebase.cpp:347
 #, fuzzy, kde-format
 #| msgid "Authentication Failed."
 msgctxt "%1 is a host name"
 msgid "%1: SSL negotiation failed"
 msgstr "Geldigheidsverklaring Gevaal."
 
-#: core/tcpslavebase.cpp:501
+#: core/tcpslavebase.cpp:489
 #, kde-format
 msgid ""
 "You are about to enter secure mode. All transmissions will be encrypted "
@@ -2638,42 +2638,17 @@ msgstr ""
 "Hierdie beteken wat nee derde party sal wees in staat na maklik observeer "
 "jou data in oordrag."
 
-#: core/tcpslavebase.cpp:508
+#: core/tcpslavebase.cpp:496
 #, kde-format
 msgid "Display SSL &Information"
 msgstr "Vertoon SSL Informasie"
 
-#: core/tcpslavebase.cpp:509
+#: core/tcpslavebase.cpp:497
 #, kde-format
 msgid "C&onnect"
 msgstr "Koppel"
 
-#: core/tcpslavebase.cpp:653
-#, kde-format
-msgid "Enter the certificate password:"
-msgstr "Invoer die sertifikaat wagwoord:"
-
-#: core/tcpslavebase.cpp:654
-#, kde-format
-msgid "SSL Certificate Password"
-msgstr "Ssl Sertifikaat Wagwoord"
-
-#: core/tcpslavebase.cpp:668
-#, kde-format
-msgid "Unable to open the certificate. Try a new password?"
-msgstr "Nie moontlik na open die sertifikaat. Probeer 'n nuwe wagwoord?"
-
-#: core/tcpslavebase.cpp:682
-#, kde-format
-msgid "The procedure to set the client certificate for the session failed."
-msgstr "Die prosedure na stel Die kliënt sertifikaat vir Die sessie gevaal."
-
-#: core/tcpslavebase.cpp:684 widgets/jobuidelegate.cpp:387
-#, kde-format
-msgid "SSL"
-msgstr "SSL"
-
-#: core/tcpslavebase.cpp:728 widgets/sslui.cpp:57
+#: core/tcpslavebase.cpp:535 widgets/sslui.cpp:57
 #, fuzzy, kde-format
 #| msgid "The server certificate failed the authenticity test (%1)."
 msgid ""
@@ -2681,14 +2656,13 @@ msgid ""
 "\n"
 msgstr "Die bediener sertifikaat gevaal Die geldigheid toets (%1)."
 
-#: core/tcpslavebase.cpp:738 core/tcpslavebase.cpp:751
-#: core/tcpslavebase.cpp:865 core/tcpslavebase.cpp:877 widgets/sslui.cpp:65
+#: core/tcpslavebase.cpp:545 core/tcpslavebase.cpp:558 widgets/sslui.cpp:65
 #: widgets/sslui.cpp:102
 #, kde-format
 msgid "Server Authentication"
 msgstr "Bediener Geldigheidsverklaring"
 
-#: core/tcpslavebase.cpp:748 widgets/sslui.cpp:99
+#: core/tcpslavebase.cpp:555 widgets/sslui.cpp:99
 #, kde-format
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
@@ -2696,282 +2670,260 @@ msgstr ""
 "Sal jy hou van na aanvaar hierdie sertifikaat veraltyd sonder om te te wees "
 "gepor?"
 
-#: core/tcpslavebase.cpp:864
-#, kde-format
-msgid ""
-"You have indicated that you wish to accept this certificate, but it is not "
-"issued to the server who is presenting it. Do you wish to continue loading?"
-msgstr ""
-"Jy het aangedui wat Jy wens na aanvaar hierdie sertifikaat, maar dit is nie "
-"uitgereik na die bediener wie is aangebied dit. Doen Jy wens na gaan voort "
-"laaiïng van?"
-
-#: core/tcpslavebase.cpp:876
-#, fuzzy, kde-format
-#| msgid ""
-#| "SSL certificate is being rejected as requested. You can disable this in "
-#| "the KDE Control Center."
-msgid ""
-"SSL certificate is being rejected as requested. You can disable this in the "
-"KDE System Settings."
-msgstr ""
-"Ssl sertifikaat is te wees verwerp as versoekte. Jy kan deaktiveer hierdie "
-"in die Kde Kontrole Sentrum."
-
-#: filewidgets/kdiroperator.cpp:747
+#: filewidgets/kdiroperator.cpp:746
 #, kde-format
 msgid "A file or folder named %1 already exists."
 msgstr "'n Lêer of gids met die naam: %1 bestaan alreeds."
 
-#: filewidgets/kdiroperator.cpp:750
+#: filewidgets/kdiroperator.cpp:749
 #, kde-format
 msgid "You do not have permission to create that folder."
 msgstr "Jy het nie die regte om hieride gids te skep nie."
 
-#: filewidgets/kdiroperator.cpp:765
+#: filewidgets/kdiroperator.cpp:764
 #, kde-format
 msgid "You did not select a file to delete."
 msgstr "Jy het nie 'n lêer gekies om uit te vee nie."
 
-#: filewidgets/kdiroperator.cpp:766
+#: filewidgets/kdiroperator.cpp:765
 #, kde-format
 msgid "Nothing to Delete"
 msgstr "Niks om uit te vee nie"
 
-#: filewidgets/kdiroperator.cpp:808
+#: filewidgets/kdiroperator.cpp:807
 #, kde-format
 msgid "You did not select a file to trash."
 msgstr "Jy het nie 'n lêer gekies om weg te gooi nie."
 
-#: filewidgets/kdiroperator.cpp:809
+#: filewidgets/kdiroperator.cpp:808
 #, kde-format
 msgid "Nothing to Trash"
 msgstr "Niks om uit te vee nie"
 
-#: filewidgets/kdiroperator.cpp:1044 filewidgets/kdiroperator.cpp:1188
+#: filewidgets/kdiroperator.cpp:986 filewidgets/kdiroperator.cpp:1130
 #, kde-format
 msgid "The specified folder does not exist or was not readable."
 msgstr "Die gespesifiseer gids bestaan nie of is nie leesbaar nie."
 
-#: filewidgets/kdiroperator.cpp:1997
+#: filewidgets/kdiroperator.cpp:1939
 #, kde-format
 msgid "Menu"
 msgstr "Kieslys"
 
-#: filewidgets/kdiroperator.cpp:2001
+#: filewidgets/kdiroperator.cpp:1943
 #, kde-format
 msgid "Parent Folder"
 msgstr "Ouer Gids"
 
-#: filewidgets/kdiroperator.cpp:2005
+#: filewidgets/kdiroperator.cpp:1947
 #, kde-format
 msgctxt "@info"
 msgid "Go back"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2008
+#: filewidgets/kdiroperator.cpp:1950
 #, kde-format
 msgctxt "@info"
 msgid "Go forward"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2011
+#: filewidgets/kdiroperator.cpp:1953
 #, kde-format
 msgid "Home Folder"
 msgstr "Tuis Gids"
 
-#: filewidgets/kdiroperator.cpp:2014
+#: filewidgets/kdiroperator.cpp:1956
 #, fuzzy, kde-format
 msgid "Reload"
 msgstr "Lees"
 
-#: filewidgets/kdiroperator.cpp:2017
+#: filewidgets/kdiroperator.cpp:1959
 #, kde-format
 msgid "New Folder..."
 msgstr "Nuwe Gids..."
 
-#: filewidgets/kdiroperator.cpp:2025 widgets/jobuidelegate.cpp:278
+#: filewidgets/kdiroperator.cpp:1967 widgets/jobuidelegate.cpp:278
 #: widgets/jobuidelegate.cpp:279 widgets/jobuidelegate.cpp:287
 #: widgets/jobuidelegate.cpp:288
 #, kde-format
 msgid "Move to Trash"
 msgstr "Beweeg na die Asblik"
 
-#: filewidgets/kdiroperator.cpp:2031
+#: filewidgets/kdiroperator.cpp:1973
 #, fuzzy, kde-format
 msgid "Delete"
 msgstr "Uitveeïng"
 
-#: filewidgets/kdiroperator.cpp:2038
+#: filewidgets/kdiroperator.cpp:1980
 #, kde-format
 msgid "Sorting"
 msgstr "Sortering"
 
-#: filewidgets/kdiroperator.cpp:2043
+#: filewidgets/kdiroperator.cpp:1985
 #, fuzzy, kde-format
 #| msgid "Site Name"
 msgid "Sort by Name"
 msgstr "Tuiste Naam"
 
-#: filewidgets/kdiroperator.cpp:2047
+#: filewidgets/kdiroperator.cpp:1989
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgid "Sort by Size"
 msgstr "Kort Aansig"
 
-#: filewidgets/kdiroperator.cpp:2051
+#: filewidgets/kdiroperator.cpp:1993
 #, fuzzy, kde-format
 #| msgid "By Date"
 msgid "Sort by Date"
 msgstr "Volgens Datum"
 
-#: filewidgets/kdiroperator.cpp:2055
+#: filewidgets/kdiroperator.cpp:1997
 #, fuzzy, kde-format
 #| msgid "Entry Type"
 msgid "Sort by Type"
 msgstr "Inskrywing Tipe"
 
-#: filewidgets/kdiroperator.cpp:2062
+#: filewidgets/kdiroperator.cpp:2004
 #, fuzzy, kde-format
 msgid "Ascending"
 msgstr " (Uitveeïng)"
 
-#: filewidgets/kdiroperator.cpp:2069
+#: filewidgets/kdiroperator.cpp:2011
 #, fuzzy, kde-format
 msgid "Descending"
 msgstr " (Uitveeïng)"
 
-#: filewidgets/kdiroperator.cpp:2076
+#: filewidgets/kdiroperator.cpp:2018
 #, kde-format
 msgid "Folders First"
 msgstr "Gidse Eerste"
 
-#: filewidgets/kdiroperator.cpp:2081
+#: filewidgets/kdiroperator.cpp:2023
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgid "Icons View"
 msgstr "Kort Aansig"
 
-#: filewidgets/kdiroperator.cpp:2086
+#: filewidgets/kdiroperator.cpp:2028
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgid "Compact View"
 msgstr "Kort Aansig"
 
-#: filewidgets/kdiroperator.cpp:2091
+#: filewidgets/kdiroperator.cpp:2033
 #, fuzzy, kde-format
 #| msgid "Detailed View"
 msgid "Details View"
 msgstr "Gedetaileerde Aansig"
 
-#: filewidgets/kdiroperator.cpp:2108
+#: filewidgets/kdiroperator.cpp:2050
 #, kde-format
 msgid "Icon Position"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2111
+#: filewidgets/kdiroperator.cpp:2053
 #, kde-format
 msgid "Next to File Name"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2115
+#: filewidgets/kdiroperator.cpp:2057
 #, fuzzy, kde-format
 #| msgid "Local Filename"
 msgid "Above File Name"
 msgstr "Plaaslike Lêernaam"
 
-#: filewidgets/kdiroperator.cpp:2127
+#: filewidgets/kdiroperator.cpp:2069
 #, kde-format
 msgid "Short View"
 msgstr "Kort Aansig"
 
-#: filewidgets/kdiroperator.cpp:2132
+#: filewidgets/kdiroperator.cpp:2074
 #, kde-format
 msgid "Detailed View"
 msgstr "Gedetaileerde Aansig"
 
-#: filewidgets/kdiroperator.cpp:2137
+#: filewidgets/kdiroperator.cpp:2079
 #, fuzzy, kde-format
 #| msgid "Detailed View"
 msgid "Tree View"
 msgstr "Gedetaileerde Aansig"
 
-#: filewidgets/kdiroperator.cpp:2142
+#: filewidgets/kdiroperator.cpp:2084
 #, fuzzy, kde-format
 #| msgid "Detailed View"
 msgid "Detailed Tree View"
 msgstr "Gedetaileerde Aansig"
 
-#: filewidgets/kdiroperator.cpp:2153
+#: filewidgets/kdiroperator.cpp:2095
 #, kde-format
 msgid "Allow Expansion in Details View"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2157
+#: filewidgets/kdiroperator.cpp:2099
 #, kde-format
 msgid "Show Hidden Files"
 msgstr "Vertoon weg gesteekte Lêers"
 
-#: filewidgets/kdiroperator.cpp:2162
+#: filewidgets/kdiroperator.cpp:2104
 #, fuzzy, kde-format
 #| msgid "Show Preview"
 msgid "Show Preview Panel"
 msgstr "Vertoon Voorskou"
 
-#: filewidgets/kdiroperator.cpp:2169
+#: filewidgets/kdiroperator.cpp:2111
 #, kde-format
 msgid "Show Preview"
 msgstr "Vertoon Voorskou"
 
-#: filewidgets/kdiroperator.cpp:2174
+#: filewidgets/kdiroperator.cpp:2116
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2179 filewidgets/kfileplacesview.cpp:828
+#: filewidgets/kdiroperator.cpp:2121 filewidgets/kfileplacesview.cpp:828
 #, fuzzy, kde-format
 msgid "Properties"
 msgstr "Eienskappe vir %1"
 
-#: filewidgets/kdiroperator.cpp:2186
+#: filewidgets/kdiroperator.cpp:2128
 #, fuzzy, kde-format
 msgid "&View"
 msgstr "Voorskou"
 
-#: filewidgets/kdiroperator.cpp:2284 filewidgets/kdiroperator.cpp:2296
+#: filewidgets/kdiroperator.cpp:2226 filewidgets/kdiroperator.cpp:2238
 #, kde-format
 msgctxt "Sort descending"
 msgid "Z-A"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2285 filewidgets/kdiroperator.cpp:2297
+#: filewidgets/kdiroperator.cpp:2227 filewidgets/kdiroperator.cpp:2239
 #, kde-format
 msgctxt "Sort ascending"
 msgid "A-Z"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2288
+#: filewidgets/kdiroperator.cpp:2230
 #, fuzzy, kde-format
 #| msgid "Folders First"
 msgctxt "Sort descending"
 msgid "Newest First"
 msgstr "Gidse Eerste"
 
-#: filewidgets/kdiroperator.cpp:2289
+#: filewidgets/kdiroperator.cpp:2231
 #, fuzzy, kde-format
 #| msgid "Folders First"
 msgctxt "Sort ascending"
 msgid "Oldest First"
 msgstr "Gidse Eerste"
 
-#: filewidgets/kdiroperator.cpp:2292
+#: filewidgets/kdiroperator.cpp:2234
 #, fuzzy, kde-format
 #| msgid "Folders First"
 msgctxt "Sort descending"
 msgid "Largest First"
 msgstr "Gidse Eerste"
 
-#: filewidgets/kdiroperator.cpp:2293
+#: filewidgets/kdiroperator.cpp:2235
 #, fuzzy, kde-format
 #| msgid "Folders First"
 msgctxt "Sort ascending"
@@ -3661,7 +3613,7 @@ msgid "*|All Folders"
 msgstr "*|Alle Gidse"
 
 #: filewidgets/kfilewidget.cpp:2083 widgets/executablefileopendialog.cpp:30
-#: widgets/kfileitemactions.cpp:506
+#: widgets/kfileitemactions.cpp:503
 #, fuzzy, kde-format
 msgid "&Open"
 msgstr "Open"
@@ -4369,19 +4321,19 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ioslaves/ftp/ftp.cpp:562 ioslaves/http/http.cpp:5379
+#: ioslaves/ftp/ftp.cpp:562 ioslaves/http/http.cpp:5354
 #, kde-format
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
 "Jy mout 'n gebruikernaam en wagwoord verskaf om toegang te verkry tot "
 "hierdie tuiste."
 
-#: ioslaves/ftp/ftp.cpp:564 ioslaves/http/http.cpp:5381
+#: ioslaves/ftp/ftp.cpp:564 ioslaves/http/http.cpp:5356
 #, kde-format
 msgid "Site:"
 msgstr "Tuiste:"
 
-#: ioslaves/ftp/ftp.cpp:565 ioslaves/ftp/ftp.cpp:2611
+#: ioslaves/ftp/ftp.cpp:565 ioslaves/ftp/ftp.cpp:2539
 #, kde-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
@@ -4396,7 +4348,7 @@ msgstr "Aanteken Goed"
 msgid "Could not login to %1."
 msgstr "Kon nie aanteken na %1."
 
-#: ioslaves/ftp/ftp.cpp:1079
+#: ioslaves/ftp/ftp.cpp:1072
 #, fuzzy, kde-format
 #| msgid "Launching %1"
 msgid ""
@@ -4404,8 +4356,8 @@ msgid ""
 "The server said: \"%1\""
 msgstr "Besig om te %1 begin"
 
-#: ioslaves/ftp/ftp.cpp:2606 ioslaves/http/http.cpp:5260
-#: ioslaves/http/http.cpp:5393
+#: ioslaves/ftp/ftp.cpp:2534 ioslaves/http/http.cpp:5235
+#: ioslaves/http/http.cpp:5368
 #, kde-format
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
@@ -4414,14 +4366,14 @@ msgstr ""
 "Jy moet 'n gebruikernaam en wagwoord vir die volmag bediener wat hier onder "
 "vertoon word verskaf voordat toegang na die tuistes verleen sal word."
 
-#: ioslaves/ftp/ftp.cpp:2610 ioslaves/http/http.cpp:5264
-#: ioslaves/http/http.cpp:5396
+#: ioslaves/ftp/ftp.cpp:2538 ioslaves/http/http.cpp:5239
+#: ioslaves/http/http.cpp:5371
 #, kde-format
 msgid "Proxy:"
 msgstr "Volmag:"
 
-#: ioslaves/ftp/ftp.cpp:2613 ioslaves/http/http.cpp:5267
-#: ioslaves/http/http.cpp:5413
+#: ioslaves/ftp/ftp.cpp:2541 ioslaves/http/http.cpp:5242
+#: ioslaves/http/http.cpp:5388
 #, kde-format
 msgid "Proxy Authentication Failed."
 msgstr "Volmag Geldigheidsverklaring Gevaal."
@@ -4685,12 +4637,12 @@ msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "'n onverwagte fout (%1) voorgekom terwyl probeer na %2."
 
-#: ioslaves/http/http.cpp:2678
+#: ioslaves/http/http.cpp:2666
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 gekontak. Wag vir antwoord..."
 
-#: ioslaves/http/http.cpp:3022
+#: ioslaves/http/http.cpp:2997
 #, kde-format
 msgctxt "@info Security check on url being accessed"
 msgid ""
@@ -4699,44 +4651,44 @@ msgid ""
 "you.</p><p>Is \"%1\" the site you want to visit?</p>"
 msgstr ""
 
-#: ioslaves/http/http.cpp:3028
+#: ioslaves/http/http.cpp:3003
 #, kde-format
 msgctxt "@title:window"
 msgid "Confirm Website Access"
 msgstr ""
 
-#: ioslaves/http/http.cpp:3117
+#: ioslaves/http/http.cpp:3092
 #, kde-format
 msgid "Server processing request, please wait..."
 msgstr "Bediener verwerk versoek, wag asseblief..."
 
-#: ioslaves/http/http.cpp:3843 ioslaves/http/http.cpp:3901
+#: ioslaves/http/http.cpp:3818 ioslaves/http/http.cpp:3876
 #, kde-format
 msgid "Sending data to %1"
 msgstr "Stuur data na %1"
 
-#: ioslaves/http/http.cpp:4356
+#: ioslaves/http/http.cpp:4331
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "Onttrek %1 van %2..."
 
-#: ioslaves/http/http.cpp:5265 ioslaves/http/http.cpp:5502
+#: ioslaves/http/http.cpp:5240 ioslaves/http/http.cpp:5477
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> na <b>%2</b>"
 
-#: ioslaves/http/http.cpp:5412
+#: ioslaves/http/http.cpp:5387
 #, kde-format
 msgid "Authentication Failed."
 msgstr "Geldigheidsverklaring Gevaal."
 
-#: ioslaves/http/http.cpp:5543
+#: ioslaves/http/http.cpp:5518
 #, fuzzy, kde-format
 #| msgid "Authorization Dialog"
 msgid "Authorization failed."
 msgstr "Geldigheidstoets Dialoog"
 
-#: ioslaves/http/http.cpp:5560
+#: ioslaves/http/http.cpp:5535
 #, fuzzy, kde-format
 #| msgid "Authorization Dialog"
 msgid "Unknown Authorization method."
@@ -5199,12 +5151,12 @@ msgstr ""
 msgid "Restore a trashed file to its original location"
 msgstr ""
 
-#: ioslaves/trash/trashimpl.cpp:1390
+#: ioslaves/trash/trashimpl.cpp:1379
 #, kde-format
 msgid "The file is too large to be trashed."
 msgstr ""
 
-#: ioslaves/trash/trashimpl.cpp:1396
+#: ioslaves/trash/trashimpl.cpp:1385
 #, kde-format
 msgid ""
 "The trash has reached its maximum size!\n"
@@ -7965,6 +7917,11 @@ msgstr[1] "Wil jy rerig hierdie item uitvee?"
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Die ouer Ssl sertifikaat verskyn na wees korrup."
 
+#: widgets/jobuidelegate.cpp:387
+#, kde-format
+msgid "SSL"
+msgstr "SSL"
+
 #: widgets/kacleditwidget.cpp:74
 #, kde-format
 msgid "Edit Entry..."
@@ -7975,133 +7932,133 @@ msgstr "Redigeer Inskrywing..."
 msgid "Delete Entry"
 msgstr "Uitvee Inskrywing"
 
-#: widgets/kacleditwidget.cpp:261
+#: widgets/kacleditwidget.cpp:230
 #, fuzzy, kde-format
 #| msgid "Owner"
 msgctxt "Unix permissions"
 msgid "Owner"
 msgstr "Eienaar"
 
-#: widgets/kacleditwidget.cpp:265
+#: widgets/kacleditwidget.cpp:234
 #, fuzzy, kde-format
 #| msgid "Owning Group"
 msgctxt "UNIX permissions"
 msgid "Owning Group"
 msgstr "Besitter Groep"
 
-#: widgets/kacleditwidget.cpp:269 widgets/kacleditwidget.cpp:281
+#: widgets/kacleditwidget.cpp:238 widgets/kacleditwidget.cpp:250
 #, fuzzy, kde-format
 #| msgid "Others"
 msgctxt "UNIX permissions"
 msgid "Others"
 msgstr "Andere"
 
-#: widgets/kacleditwidget.cpp:273
+#: widgets/kacleditwidget.cpp:242
 #, fuzzy, kde-format
 #| msgid "Mask"
 msgctxt "UNIX permissions"
 msgid "Mask"
 msgstr "Masker"
 
-#: widgets/kacleditwidget.cpp:277
+#: widgets/kacleditwidget.cpp:246
 #, fuzzy, kde-format
 #| msgid "Named User"
 msgctxt "UNIX permissions"
 msgid "Named User"
 msgstr "Genoemde Gebruiker"
 
-#: widgets/kacleditwidget.cpp:288
+#: widgets/kacleditwidget.cpp:257
 #, fuzzy, kde-format
 #| msgid " (Default)"
 msgid "Owner (Default)"
 msgstr " (Verstek)"
 
-#: widgets/kacleditwidget.cpp:409
+#: widgets/kacleditwidget.cpp:378
 #, kde-format
 msgid "Edit ACL Entry"
 msgstr "Redigeer ACL Inskrywing"
 
-#: widgets/kacleditwidget.cpp:413
+#: widgets/kacleditwidget.cpp:382
 #, kde-format
 msgid "Entry Type"
 msgstr "Inskrywing Tipe"
 
-#: widgets/kacleditwidget.cpp:419
+#: widgets/kacleditwidget.cpp:388
 #, kde-format
 msgid "Default for new files in this folder"
 msgstr "Verstek vir nuwe lêers in die gids"
 
-#: widgets/kacleditwidget.cpp:428
+#: widgets/kacleditwidget.cpp:397
 #, kde-format
 msgid "Owner"
 msgstr "Eienaar"
 
-#: widgets/kacleditwidget.cpp:433
+#: widgets/kacleditwidget.cpp:402
 #, kde-format
 msgid "Owning Group"
 msgstr "Besitter Groep"
 
-#: widgets/kacleditwidget.cpp:438 widgets/kpropertiesdialog.cpp:2157
+#: widgets/kacleditwidget.cpp:407 widgets/kpropertiesdialog.cpp:2157
 #, kde-format
 msgid "Others"
 msgstr "Andere"
 
-#: widgets/kacleditwidget.cpp:443
+#: widgets/kacleditwidget.cpp:412
 #, kde-format
 msgid "Mask"
 msgstr "Masker"
 
-#: widgets/kacleditwidget.cpp:448
+#: widgets/kacleditwidget.cpp:417
 #, fuzzy, kde-format
 #| msgid "Named User"
 msgid "Named user"
 msgstr "Genoemde Gebruiker"
 
-#: widgets/kacleditwidget.cpp:453
+#: widgets/kacleditwidget.cpp:422
 #, fuzzy, kde-format
 #| msgid "Named Group"
 msgid "Named group"
 msgstr "Genoemde Groep"
 
-#: widgets/kacleditwidget.cpp:473
+#: widgets/kacleditwidget.cpp:442
 #, kde-format
 msgid "User: "
 msgstr "Gebruiker:"
 
-#: widgets/kacleditwidget.cpp:488
+#: widgets/kacleditwidget.cpp:457
 #, kde-format
 msgid "Group: "
 msgstr "Groep:"
 
-#: widgets/kacleditwidget.cpp:625
+#: widgets/kacleditwidget.cpp:594
 #, kde-format
 msgid "Type"
 msgstr "Tipe"
 
-#: widgets/kacleditwidget.cpp:626
+#: widgets/kacleditwidget.cpp:595
 #, kde-format
 msgid "Name"
 msgstr "Naam"
 
-#: widgets/kacleditwidget.cpp:627
+#: widgets/kacleditwidget.cpp:596
 #, kde-format
 msgctxt "read permission"
 msgid "r"
 msgstr "r"
 
-#: widgets/kacleditwidget.cpp:628
+#: widgets/kacleditwidget.cpp:597
 #, kde-format
 msgctxt "write permission"
 msgid "w"
 msgstr "w"
 
-#: widgets/kacleditwidget.cpp:629
+#: widgets/kacleditwidget.cpp:598
 #, kde-format
 msgctxt "execute permission"
 msgid "x"
 msgstr "x"
 
-#: widgets/kacleditwidget.cpp:630
+#: widgets/kacleditwidget.cpp:599
 #, kde-format
 msgid "Effective"
 msgstr "Effektief"
@@ -8203,54 +8160,54 @@ msgctxt "@title:column"
 msgid "Type"
 msgstr "Tipe"
 
-#: widgets/kfileitemactions.cpp:305
+#: widgets/kfileitemactions.cpp:302
 #, fuzzy, kde-format
 #| msgid "Actions"
 msgctxt "@title:menu"
 msgid "&Actions"
 msgstr "Aksies"
 
-#: widgets/kfileitemactions.cpp:495
+#: widgets/kfileitemactions.cpp:492
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "&Open with %1"
 msgstr "Open met:"
 
-#: widgets/kfileitemactions.cpp:527
+#: widgets/kfileitemactions.cpp:524
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "Open Met"
 
-#: widgets/kfileitemactions.cpp:545
+#: widgets/kfileitemactions.cpp:542
 #, fuzzy, kde-format
 #| msgid "&Application"
 msgctxt "@action:inmenu Open With"
 msgid "&Other Application..."
 msgstr "Aansoek"
 
-#: widgets/kfileitemactions.cpp:547 widgets/kfileitemactions.cpp:558
+#: widgets/kfileitemactions.cpp:544 widgets/kfileitemactions.cpp:555
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "Open Met"
 
-#: widgets/kfileitemactions.cpp:674
+#: widgets/kfileitemactions.cpp:671
 #, fuzzy, kde-format
 #| msgid "Open with:"
 msgid "Open &with %1"
 msgstr "Open met:"
 
-#: widgets/kfileitemactions.cpp:676
+#: widgets/kfileitemactions.cpp:673
 #, fuzzy, kde-format
 #| msgid "%1 B"
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
 msgstr "%1 B"
 
-#: widgets/kfileitemdelegate.cpp:207
+#: widgets/kfileitemdelegate.cpp:199
 #, fuzzy, kde-format
 msgctxt "Items in a folder"
 msgid "1 item"
@@ -8258,7 +8215,7 @@ msgid_plural "%1 items"
 msgstr[0] "1 lêer"
 msgstr[1] "%1 lêers"
 
-#: widgets/kfileitemdelegate.cpp:263 widgets/kfileitemdelegate.cpp:267
+#: widgets/kfileitemdelegate.cpp:255 widgets/kfileitemdelegate.cpp:259
 #, fuzzy, kde-format
 #| msgid "Unknown"
 msgctxt "@info mimetype"
@@ -9496,7 +9453,7 @@ msgstr ""
 "<qt>Kon nie die gespesifiseerde opdrag uitvoer nie. Die lêer of gids <b>%1</"
 "b> bestaan nie.</qt>"
 
-#: widgets/krun.cpp:510
+#: widgets/krun.cpp:502
 #, fuzzy, kde-format
 #| msgid "Could not change permissions for %1."
 msgid "Could not find any application or handler for %1"
@@ -9696,23 +9653,23 @@ msgstr "Data formaat:"
 msgid "Filename for dropped contents:"
 msgstr "Lêernaam vir klipbord inhoud:"
 
-#: widgets/renamedialog.cpp:63 widgets/renamedialog.cpp:379
+#: widgets/renamedialog.cpp:60 widgets/renamedialog.cpp:376
 #, fuzzy, kde-format
 msgid "Date: %1"
 msgstr "grootte %1"
 
-#: widgets/renamedialog.cpp:69 widgets/renamedialog.cpp:397
+#: widgets/renamedialog.cpp:66 widgets/renamedialog.cpp:394
 #, fuzzy, kde-format
 #| msgid "Size:"
 msgid "Size: %1"
 msgstr "Grootte:"
 
-#: widgets/renamedialog.cpp:232
+#: widgets/renamedialog.cpp:229
 #, kde-format
 msgid "Appl&y to All"
 msgstr ""
 
-#: widgets/renamedialog.cpp:233
+#: widgets/renamedialog.cpp:230
 #, kde-format
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent "
@@ -9721,46 +9678,46 @@ msgid ""
 "an existing file in the directory."
 msgstr ""
 
-#: widgets/renamedialog.cpp:234
+#: widgets/renamedialog.cpp:231
 #, kde-format
 msgid ""
 "When this is checked the button pressed will be applied to all subsequent "
 "conflicts for the remainder of the current job."
 msgstr ""
 
-#: widgets/renamedialog.cpp:239
+#: widgets/renamedialog.cpp:236
 #, kde-format
 msgid "&Rename"
 msgstr "Herbenoem"
 
-#: widgets/renamedialog.cpp:241
+#: widgets/renamedialog.cpp:238
 #, kde-format
 msgid "Suggest New &Name"
 msgstr "Stel nuwe naam voor"
 
-#: widgets/renamedialog.cpp:247
+#: widgets/renamedialog.cpp:244
 #, kde-format
 msgid "&Skip"
 msgstr "Spring"
 
-#: widgets/renamedialog.cpp:248
+#: widgets/renamedialog.cpp:245
 #, kde-format
 msgid "Do not copy or move this folder, skip to the next item instead"
 msgstr ""
 
-#: widgets/renamedialog.cpp:249
+#: widgets/renamedialog.cpp:246
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
 msgstr ""
 
-#: widgets/renamedialog.cpp:258
+#: widgets/renamedialog.cpp:255
 #, fuzzy, kde-format
 #| msgid "Write"
 msgctxt "Write files into an existing folder"
 msgid "&Write Into"
 msgstr "Skryf"
 
-#: widgets/renamedialog.cpp:260
+#: widgets/renamedialog.cpp:257
 #, kde-format
 msgid ""
 "Files and folders will be copied into the existing directory, alongside its "
@@ -9769,12 +9726,12 @@ msgid ""
 "the directory."
 msgstr ""
 
-#: widgets/renamedialog.cpp:266
+#: widgets/renamedialog.cpp:263
 #, kde-format
 msgid "&Resume"
 msgstr "Voortgaan"
 
-#: widgets/renamedialog.cpp:275
+#: widgets/renamedialog.cpp:272
 #, kde-format
 msgid ""
 "This action would overwrite '%1' with itself.\n"
@@ -9783,12 +9740,12 @@ msgstr ""
 "Hierdie aksie sal '%1' met homself oorskryf.\n"
 "Sleutel 'n nuwe lêernaam in:"
 
-#: widgets/renamedialog.cpp:280
+#: widgets/renamedialog.cpp:277
 #, kde-format
 msgid "C&ontinue"
 msgstr "Gaan voort"
 
-#: widgets/renamedialog.cpp:340
+#: widgets/renamedialog.cpp:337
 #, fuzzy, kde-format
 #| msgid ""
 #| "This action would overwrite '%1' with itself.\n"
@@ -9798,74 +9755,74 @@ msgstr ""
 "Hierdie aksie sal '%1' met homself oorskryf.\n"
 "Sleutel 'n nuwe lêernaam in:"
 
-#: widgets/renamedialog.cpp:346
+#: widgets/renamedialog.cpp:343
 #, fuzzy, kde-format
 msgid "Source"
 msgstr "Bron:"
 
-#: widgets/renamedialog.cpp:348
+#: widgets/renamedialog.cpp:345
 #, fuzzy, kde-format
 msgid "Destination"
 msgstr "Bestemming:"
 
-#: widgets/renamedialog.cpp:370
+#: widgets/renamedialog.cpp:367
 #, kde-format
 msgid "Differences"
 msgstr ""
 
-#: widgets/renamedialog.cpp:390
+#: widgets/renamedialog.cpp:387
 #, fuzzy, kde-format
 #| msgid "the extension <b>%1</b>"
 msgid "The destination is <b>smaller by %1</b>"
 msgstr "die uitbreiding <b>%1</b>"
 
-#: widgets/renamedialog.cpp:393
+#: widgets/renamedialog.cpp:390
 #, fuzzy, kde-format
 #| msgid "the extension <b>%1</b>"
 msgid "The destination is <b>bigger by %1</b>"
 msgstr "die uitbreiding <b>%1</b>"
 
-#: widgets/renamedialog.cpp:407
+#: widgets/renamedialog.cpp:404
 #, fuzzy, kde-format
 #| msgid "The new file name is empty."
 msgid "The files are identical."
 msgstr "Die nuwe lêernaam is leeg."
 
-#: widgets/renamedialog.cpp:408
+#: widgets/renamedialog.cpp:405
 #, kde-format
 msgid "The files seem identical."
 msgstr ""
 
-#: widgets/renamedialog.cpp:409
+#: widgets/renamedialog.cpp:406
 #, fuzzy, kde-format
 #| msgid "The new file name is empty."
 msgid "The files are different."
 msgstr "Die nuwe lêernaam is leeg."
 
-#: widgets/renamedialog.cpp:416
+#: widgets/renamedialog.cpp:413
 #, kde-format
 msgid ""
 "The files are likely to be identical: they have the same size and their "
 "contents are the same at the beginning, middle and end."
 msgstr ""
 
-#: widgets/renamedialog.cpp:435
+#: widgets/renamedialog.cpp:432
 #, kde-format
 msgid "An older item named '%1' already exists."
 msgstr "'n ouer item genaamd '%1' alreeds bestaan."
 
-#: widgets/renamedialog.cpp:437
+#: widgets/renamedialog.cpp:434
 #, kde-format
 msgid "A similar file named '%1' already exists."
 msgstr "'n soortgelyk lêer genaamd '%1' alreeds bestaan."
 
-#: widgets/renamedialog.cpp:439
+#: widgets/renamedialog.cpp:436
 #, fuzzy, kde-format
 #| msgid "An older item named '%1' already exists."
 msgid "A more recent item named '%1' already exists."
 msgstr "'n ouer item genaamd '%1' alreeds bestaan."
 
-#: widgets/renamedialog.cpp:452
+#: widgets/renamedialog.cpp:449
 #, fuzzy, kde-format
 #| msgid "&Rename"
 msgid "Rename:"
@@ -10049,6 +10006,38 @@ msgstr ""
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
+
+#~ msgid "Enter the certificate password:"
+#~ msgstr "Invoer die sertifikaat wagwoord:"
+
+#~ msgid "SSL Certificate Password"
+#~ msgstr "Ssl Sertifikaat Wagwoord"
+
+#~ msgid "Unable to open the certificate. Try a new password?"
+#~ msgstr "Nie moontlik na open die sertifikaat. Probeer 'n nuwe wagwoord?"
+
+#~ msgid "The procedure to set the client certificate for the session failed."
+#~ msgstr "Die prosedure na stel Die kliënt sertifikaat vir Die sessie gevaal."
+
+#~ msgid ""
+#~ "You have indicated that you wish to accept this certificate, but it is "
+#~ "not issued to the server who is presenting it. Do you wish to continue "
+#~ "loading?"
+#~ msgstr ""
+#~ "Jy het aangedui wat Jy wens na aanvaar hierdie sertifikaat, maar dit is "
+#~ "nie uitgereik na die bediener wie is aangebied dit. Doen Jy wens na gaan "
+#~ "voort laaiïng van?"
+
+#, fuzzy
+#~| msgid ""
+#~| "SSL certificate is being rejected as requested. You can disable this in "
+#~| "the KDE Control Center."
+#~ msgid ""
+#~ "SSL certificate is being rejected as requested. You can disable this in "
+#~ "the KDE System Settings."
+#~ msgstr ""
+#~ "Ssl sertifikaat is te wees verwerp as versoekte. Jy kan deaktiveer "
+#~ "hierdie in die Kde Kontrole Sentrum."
 
 #, fuzzy
 #~| msgid "A folder named %1 already exists."
