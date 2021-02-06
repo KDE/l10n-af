@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-03 02:46+0100\n"
+"POT-Creation-Date: 2021-02-06 02:22+0100\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -519,7 +519,7 @@ msgstr "Kon nie soek diens '%1'."
 msgid "Get Hot New Stuff!"
 msgstr "Kry 'Hot New Stuff'"
 
-#: downloadwidget.cpp:263 qtquick/qml/Page.qml:199
+#: downloadwidget.cpp:263
 #, fuzzy, kde-format
 #| msgid "Icon Size"
 msgid "Icons view mode"
@@ -553,7 +553,7 @@ msgstr "Steek %1 weg"
 
 #. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
 #. i18n: ectx: property (text), widget (QLabel, mCategoryLabel)
-#: downloadwidget.ui:71 uploaddialog.ui:304
+#: downloadwidget.ui:71 qtquick/qml/Page.qml:347 uploaddialog.ui:304
 #, fuzzy, kde-format
 #| msgid "Categories"
 msgid "Category:"
@@ -574,14 +574,14 @@ msgid "Newest"
 msgstr "Nuwe Lys"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
-#: downloadwidget.ui:110
+#: downloadwidget.ui:110 qtquick/qml/Page.qml:274
 #, fuzzy, kde-format
 #| msgid "Rating"
 msgid "Rating"
 msgstr "Gradering"
 
 #. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
-#: downloadwidget.ui:117
+#: downloadwidget.ui:117 qtquick/qml/Page.qml:223
 #, fuzzy, kde-format
 #| msgid "Install"
 msgid "Installed"
@@ -601,7 +601,7 @@ msgid "Search:"
 msgstr "Soek:"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_searchEdit)
-#: downloadwidget.ui:217 qtquick/qml/Page.qml:213
+#: downloadwidget.ui:217 qtquick/qml/Page.qml:327 qtquick/qml/Page.qml:332
 #, fuzzy, kde-format
 #| msgctxt "QAccel"
 #| msgid "Search"
@@ -993,7 +993,7 @@ msgctxt "List option which will set the filter to show everything"
 msgid "Show Everything"
 msgstr ""
 
-#: qtquick/qml/NewStuffList.qml:69 qtquick/qml/Page.qml:253
+#: qtquick/qml/NewStuffList.qml:69
 #, fuzzy, kde-format
 #| msgid "Installation"
 msgctxt ""
@@ -1001,7 +1001,7 @@ msgctxt ""
 msgid "Installed Only"
 msgstr "Installasie"
 
-#: qtquick/qml/NewStuffList.qml:70 qtquick/qml/Page.qml:254
+#: qtquick/qml/NewStuffList.qml:70
 #, kde-format
 msgctxt ""
 "List option which will set the filter so only installed items with updates "
@@ -1049,62 +1049,127 @@ msgid ""
 "not be found."
 msgstr ""
 
-#: qtquick/qml/Page.qml:190
+#: qtquick/qml/Page.qml:176
 #, fuzzy, kde-format
-#| msgid "Details"
-msgid "Tiles view mode"
-msgstr "Details"
+#| msgid "&Tile"
+msgid "Tiles"
+msgstr "Teël"
 
-#: qtquick/qml/Page.qml:208
-#, fuzzy, kde-format
-#| msgid "Details"
-msgid "Preview view mode"
-msgstr "Details"
-
-#: qtquick/qml/Page.qml:234
-#, fuzzy, kde-format
-#| msgid "Show %1"
-msgid "Show:"
-msgstr "Vertoon %1"
-
-#: qtquick/qml/Page.qml:252
+#: qtquick/qml/Page.qml:178
 #, kde-format
-msgctxt "List option which will set the filter to show everything"
+msgid "Icons"
+msgstr "Ikoone"
+
+#: qtquick/qml/Page.qml:180
+#, fuzzy, kde-format
+#| msgid "Preview URL:"
+msgid "Preview"
+msgstr "Voorskou URL:"
+
+#: qtquick/qml/Page.qml:195
+#, fuzzy, kde-format
+#| msgid "Details"
+msgid "Detailed Tiles View Mode"
+msgstr "Details"
+
+#: qtquick/qml/Page.qml:203
+#, fuzzy, kde-format
+#| msgid "Icon Size"
+msgid "Icons Only View Mode"
+msgstr "Ikoon Grootte"
+
+#: qtquick/qml/Page.qml:211
+#, fuzzy, kde-format
+#| msgid "Details"
+msgid "Large Preview View Mode"
+msgstr "Details"
+
+#: qtquick/qml/Page.qml:221
+#, kde-format
 msgid "Everything"
 msgstr ""
 
-#: qtquick/qml/Page.qml:266
+#: qtquick/qml/Page.qml:225
+#, fuzzy, kde-format
+#| msgid "Update"
+msgid "Updateable"
+msgstr "Update"
+
+#: qtquick/qml/Page.qml:244
+#, fuzzy, kde-format
+#| msgid "Show all options"
+msgctxt "List option which will set the filter to show everything"
+msgid "Show All Entries"
+msgstr "Vertoon alle opsies"
+
+#: qtquick/qml/Page.qml:252
+#, fuzzy, kde-format
+#| msgid "Show all options"
+msgctxt ""
+"List option which will set the filter so only installed items are shown"
+msgid "Show Only Installed Entries"
+msgstr "Vertoon alle opsies"
+
+#: qtquick/qml/Page.qml:260
+#, fuzzy, kde-format
+#| msgid "Show all options"
+msgctxt ""
+"List option which will set the filter so only installed items with updates "
+"available are shown"
+msgid "Show Only Updateable Entries"
+msgstr "Vertoon alle opsies"
+
+#: qtquick/qml/Page.qml:270
+#, fuzzy, kde-format
+#| msgctxt "QAccel"
+#| msgid "Percent"
+msgid "Recent"
+msgstr "Percent"
+
+#: qtquick/qml/Page.qml:272
 #, kde-format
+msgid "Alphabetical"
+msgstr ""
+
+#: qtquick/qml/Page.qml:276
+#, fuzzy, kde-format
+#| msgid "Download"
+msgid "Downloads"
+msgstr "Aflaai"
+
+#: qtquick/qml/Page.qml:295
+#, fuzzy, kde-format
+#| msgid "Most Downloads"
 msgctxt ""
 "List option which will set the sort order to based on when items were most "
 "recently updated"
-msgid "Most recent first"
-msgstr ""
+msgid "Show Most Recent First"
+msgstr "Meeste keer afgelaai"
 
-#: qtquick/qml/Page.qml:267
+#: qtquick/qml/Page.qml:303
 #, kde-format
 msgctxt ""
 "List option which will set the sort order to be alphabetical based on the "
 "name"
-msgid "A-Z"
+msgid "Sort Alphabetically By Name"
 msgstr ""
 
-#: qtquick/qml/Page.qml:268
+#: qtquick/qml/Page.qml:311
 #, fuzzy, kde-format
 #| msgid "Highest Rated"
 msgctxt "List option which will set the sort order to based on user ratings"
-msgid "Highest rated first"
+msgid "Show Highest Rated First"
 msgstr "Hoogste Geag"
 
-#: qtquick/qml/Page.qml:269
+#: qtquick/qml/Page.qml:319
 #, fuzzy, kde-format
 #| msgid "Most Downloads"
 msgctxt ""
 "List option which will set the sort order to based on number of downloads"
-msgid "Most downloaded first"
+msgid "Show Most Downloaded First"
 msgstr "Meeste keer afgelaai"
 
-#: qtquick/qml/Page.qml:344
+#: qtquick/qml/Page.qml:426
 #, fuzzy, kde-format
 #| msgid "Print Previe&w..."
 msgctxt ""
@@ -1112,7 +1177,7 @@ msgctxt ""
 msgid "Loading more..."
 msgstr "Druk Voorskou..."
 
-#: qtquick/qml/Page.qml:355
+#: qtquick/qml/Page.qml:437
 #, kde-format
 msgctxt ""
 "A message shown when there are no entries in the list, and when it is not "
@@ -1717,6 +1782,23 @@ msgstr ""
 #| msgid "Start replace"
 msgid "Start Upload"
 msgstr "Begin vervang"
+
+#, fuzzy
+#~| msgid "Details"
+#~ msgid "Tiles view mode"
+#~ msgstr "Details"
+
+#, fuzzy
+#~| msgid "Show %1"
+#~ msgid "Show:"
+#~ msgstr "Vertoon %1"
+
+#, fuzzy
+#~| msgid "Most Downloads"
+#~ msgctxt ""
+#~ "List option which will set the sort order to based on number of downloads"
+#~ msgid "Most downloaded first"
+#~ msgstr "Meeste keer afgelaai"
 
 #, fuzzy
 #~| msgid "Unshade"
@@ -2600,9 +2682,6 @@ msgstr "Begin vervang"
 
 #~ msgid "HTML documentation"
 #~ msgstr "Html dokumentasie"
-
-#~ msgid "Icons"
-#~ msgstr "Ikoone"
 
 #~ msgid "Configuration description files"
 #~ msgstr "Konfigurasie beskrywing lêers"
@@ -8864,9 +8943,6 @@ msgstr "Begin vervang"
 #~ msgid "Missing Plugin"
 #~ msgstr "Kort Inprop Module"
 
-#~ msgid "Download"
-#~ msgstr "Aflaai"
-
 #~ msgid "Do Not Download"
 #~ msgstr "Moenie aflaai"
 
@@ -11018,11 +11094,6 @@ msgstr "Begin vervang"
 #~| msgid "Comment"
 #~ msgid "Community"
 #~ msgstr "Kommentaar"
-
-#, fuzzy
-#~| msgid "Preview URL:"
-#~ msgid "Preview"
-#~ msgstr "Voorskou URL:"
 
 #, fuzzy
 #~| msgid "BSD"
@@ -13280,11 +13351,6 @@ msgstr "Begin vervang"
 #~ msgstr "Steek %1 weg"
 
 #, fuzzy
-#~| msgid "Show all options"
-#~ msgid "&Show All Entries"
-#~ msgstr "Vertoon alle opsies"
-
-#, fuzzy
 #~| msgid "&Remove"
 #~ msgid "&Remove '%1'"
 #~ msgstr "Verwyder"
@@ -13525,11 +13591,6 @@ msgstr "Begin vervang"
 #~| msgid "&New View"
 #~ msgid "Tree View"
 #~ msgstr "Nuwe Aansig"
-
-#, fuzzy
-#~| msgid "Details"
-#~ msgid "Detailed Tree View"
-#~ msgstr "Details"
 
 #, fuzzy
 #~ msgid "Show Hidden Files"
@@ -14904,10 +14965,6 @@ msgstr "Begin vervang"
 #~ msgstr "Dollar"
 
 #~ msgctxt "QAccel"
-#~ msgid "Percent"
-#~ msgstr "Percent"
-
-#~ msgctxt "QAccel"
 #~ msgid "NumberSign"
 #~ msgstr "NumberSign"
 
@@ -15375,9 +15432,6 @@ msgstr "Begin vervang"
 
 #~ msgid "&MDI Mode"
 #~ msgstr "MDI Modus"
-
-#~ msgid "&Tile"
-#~ msgstr "Teël"
 
 #~ msgid "Ca&scade Windows"
 #~ msgstr "Kaskade Vensters"
