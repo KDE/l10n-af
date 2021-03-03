@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-24 02:50+0100\n"
+"POT-Creation-Date: 2021-03-03 03:37+0100\n"
 "PO-Revision-Date: 2005-11-29 11:30+0200\n"
 "Last-Translator: Frikkie Thirion <frikkie.thirion@deneloptronics.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -1078,7 +1078,7 @@ msgctxt "@item"
 msgid "Activate Menu"
 msgstr "Aktiveer Kieslys"
 
-#: MainWindow.cpp:607 MainWindow.cpp:626
+#: MainWindow.cpp:612 MainWindow.cpp:631
 #, kde-format
 msgctxt "@info"
 msgid "There is a process running in this window. Do you still want to quit?"
@@ -1087,59 +1087,59 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: MainWindow.cpp:613 MainWindow.cpp:632 MainWindow.cpp:650
+#: MainWindow.cpp:618 MainWindow.cpp:637 MainWindow.cpp:655
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr ""
 
-#: MainWindow.cpp:615 MainWindow.cpp:634 MainWindow.cpp:651
+#: MainWindow.cpp:620 MainWindow.cpp:639 MainWindow.cpp:656
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "Konsole"
 
-#: MainWindow.cpp:637 MainWindow.cpp:654
+#: MainWindow.cpp:642 MainWindow.cpp:659
 #, fuzzy, kde-format
 #| msgid "Close the current session"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "Maak toe huidige sessie"
 
-#: MainWindow.cpp:647
+#: MainWindow.cpp:652
 #, kde-format
 msgctxt "@info"
 msgid "There are %1 open terminals in this window. Do you still want to quit?"
 msgstr ""
 
-#: MainWindow.cpp:769
+#: MainWindow.cpp:774
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr ""
 
-#: MainWindow.cpp:774 Part.cpp:313
+#: MainWindow.cpp:779 Part.cpp:313
 #, fuzzy, kde-format
 #| msgid "Save Sessions &Profile..."
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "Stoor Sessies Profiel..."
 
-#: MainWindow.cpp:779
+#: MainWindow.cpp:784
 #, fuzzy, kde-format
 #| msgid "Tab &Options"
 msgctxt "@title Preferences page name"
 msgid "Tab Bar / Splitters"
 msgstr "Oortjie en Opsies"
 
-#: MainWindow.cpp:784
+#: MainWindow.cpp:789
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Temporary Files"
 msgstr ""
 
-#: MainWindow.cpp:789
+#: MainWindow.cpp:794
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Thumbnails"
@@ -1211,12 +1211,20 @@ msgid "Shortcut"
 msgstr ""
 
 #: profile/ProfileModel.cpp:82
+#, kde-format
+msgctxt ""
+"@label:textbox added to the name of the Default/fallback profile, to point "
+"out it's read-only/hardcoded"
+msgid " [Read-only]"
+msgstr ""
+
+#: profile/ProfileModel.cpp:86
 #, fuzzy, kde-format
-msgctxt "@label:textbox Name of the current default profile"
-msgid " (Default)"
+msgctxt "@label:textbox added to the name of the current default profile"
+msgid " (default)"
 msgstr "Standaard Konsole"
 
-#: profile/ProfileModel.cpp:100
+#: profile/ProfileModel.cpp:111
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Double click to change shortcut"
@@ -2082,7 +2090,7 @@ msgid ""
 "a change to how these are handled.</body></html>"
 msgstr ""
 
-#: settings/ProfileSettings.cpp:142
+#: settings/ProfileSettings.cpp:138
 #, fuzzy, kde-format
 #| msgid "Save Sessions &Profile..."
 msgctxt "@item This will be used as part of the file name"
@@ -2091,9 +2099,10 @@ msgstr "Stoor Sessies Profiel..."
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, newProfileButton)
 #: settings/ProfileSettings.ui:39
-#, kde-format
-msgid "Create a new profile based upon the selected profile"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "List available session profiles"
+msgid "Create a new profile based on the selected profile"
+msgstr "Lys beskikbare sessie profiel"
 
 #. i18n: ectx: property (text), widget (QPushButton, newProfileButton)
 #: settings/ProfileSettings.ui:42
@@ -2105,7 +2114,8 @@ msgstr "Nuwe "
 #: settings/ProfileSettings.ui:52
 #, fuzzy, kde-format
 #| msgid "List available session profiles"
-msgid "Edit the selected profile(s)"
+msgid ""
+"Edit the selected profile (this button is disabled for read-only profiles)"
 msgstr "Lys beskikbare sessie profiel"
 
 #. i18n: ectx: property (text), widget (QPushButton, editProfileButton)
@@ -2118,7 +2128,7 @@ msgstr "Redigeer..."
 #: settings/ProfileSettings.ui:65
 #, fuzzy, kde-format
 #| msgid "List available session profiles"
-msgid "Delete the selected profile(s)"
+msgid "Delete the selected profile"
 msgstr "Lys beskikbare sessie profiel"
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteProfileButton)
@@ -4235,6 +4245,16 @@ msgid "Close Tab"
 msgstr "Maak toe huidige sessie"
 
 #, fuzzy
+#~ msgctxt "@label:textbox Name of the current default profile"
+#~ msgid " (Default)"
+#~ msgstr "Standaard Konsole"
+
+#, fuzzy
+#~| msgid "List available session profiles"
+#~ msgid "Edit the selected profile(s)"
+#~ msgstr "Lys beskikbare sessie profiel"
+
+#, fuzzy
 #~| msgid "List available session profiles"
 #~ msgid "Color from theme"
 #~ msgstr "Lys beskikbare sessie profiel"
@@ -4256,11 +4276,6 @@ msgstr "Maak toe huidige sessie"
 #~ "menu"
 #~ msgid "Show profile in menu"
 #~ msgstr "Wegsteek Kieslysbalk"
-
-#, fuzzy
-#~ msgctxt "@item:intable Default list item's name suffix (with separator)"
-#~ msgid " (default)"
-#~ msgstr "Standaard Konsole"
 
 #, fuzzy
 #~| msgid "&Tab Bar"
