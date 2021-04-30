@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpgpcertmanager VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-28 00:19+0000\n"
+"POT-Creation-Date: 2021-04-30 00:19+0000\n"
 "PO-Revision-Date: 2002-11-07 11:35+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -8020,7 +8020,7 @@ msgstr "Sertifikate"
 msgid "View Columns"
 msgstr ""
 
-#: src/view/netkeywidget.cpp:80 src/view/p15cardwidget.cpp:58
+#: src/view/netkeywidget.cpp:80 src/view/p15cardwidget.cpp:70
 #: src/view/pgpcardwidget.cpp:143 src/view/pivcardwidget.cpp:110
 #, fuzzy, kde-format
 msgid "Serial number:"
@@ -8164,30 +8164,51 @@ msgstr ""
 msgid "Set initial PIN"
 msgstr ""
 
-#: src/view/p15cardwidget.cpp:68
+#: src/view/p15cardwidget.cpp:82
 #, fuzzy, kde-format
 #| msgid "Certificate Manager Error"
 msgid "OpenPGP keys:"
 msgstr "Sertifikaat Bestuurder Fout"
 
-#: src/view/p15cardwidget.cpp:83
+#: src/view/p15cardwidget.cpp:109
+#, fuzzy, kde-format
+#| msgid "Search for external certificates initially"
+msgid "Searching in directory service..."
+msgstr "Soektog vir eksterne sertifikate aanvanklik"
+
+#: src/view/p15cardwidget.cpp:120
+#, kde-format
+msgid "Automatic import finished."
+msgstr ""
+
+#: src/view/p15cardwidget.cpp:126
+#, kde-format
+msgid "Error multiple keys found on server."
+msgstr ""
+
+#: src/view/p15cardwidget.cpp:129
+#, kde-format
+msgid "Key not found in directory service."
+msgstr ""
+
+#: src/view/p15cardwidget.cpp:140
 #, kde-format
 msgctxt "%1 is a smartcard manufacturer"
 msgid "%1 PKCS#15 card"
 msgstr ""
 
-#: src/view/p15cardwidget.cpp:90
+#: src/view/p15cardwidget.cpp:162
 #, fuzzy, kde-format
 msgid "Signing key:"
 msgstr "Kies Sertifikaat Lêer"
 
-#: src/view/p15cardwidget.cpp:99 src/view/p15cardwidget.cpp:126
+#: src/view/p15cardwidget.cpp:171 src/view/p15cardwidget.cpp:199
 #: src/view/pgpcardwidget.cpp:558
 #, kde-format
 msgid "Public key not found."
 msgstr ""
 
-#: src/view/p15cardwidget.cpp:120
+#: src/view/p15cardwidget.cpp:192
 #, fuzzy, kde-format
 msgid "Encryption key:"
 msgstr "Sertifikaat Genereering"
