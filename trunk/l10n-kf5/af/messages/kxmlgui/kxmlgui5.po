@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-30 00:15+0000\n"
+"POT-Creation-Date: 2021-05-13 00:15+0000\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -295,10 +295,12 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "Ondersteun KDE"
 
-#: kabstractaboutdialog_p.cpp:35
-#, kde-format
-msgid "<html><font size=\"5\">%1</font><br />Version %2</html>"
-msgstr ""
+#: kabstractaboutdialog_p.cpp:36
+#, fuzzy, kde-format
+#| msgid "Version"
+msgctxt "Version version-number"
+msgid "Version %1"
+msgstr "Weergawe"
 
 #: kabstractaboutdialog_p.cpp:79
 #, fuzzy, kde-format
@@ -306,24 +308,19 @@ msgstr ""
 msgid "License: %1"
 msgstr "Lisensie:"
 
-#: kabstractaboutdialog_p.cpp:111
+#: kabstractaboutdialog_p.cpp:112
 #, fuzzy, kde-format
-#| msgid ""
-#| "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
-#| "report bugs.\n"
-msgid ""
-"Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
-"report bugs.\n"
-msgstr ""
-"Gebruik asseblief <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> om "
-"foute te raporteer.\n"
+#| msgid "Please use http://bugs.kde.org to report bugs.\n"
+msgctxt "Reference to website"
+msgid "Please use %1 to report bugs.\n"
+msgstr "Gebruik asseblief http://bugs.kde.org om foute te raporteer.\n"
 
-#: kabstractaboutdialog_p.cpp:117
+#: kabstractaboutdialog_p.cpp:120
 #, fuzzy, kde-format
-#| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
-msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
-msgstr ""
-"Gebruik asseblief <a href=\"mailto:%1\">%2</a> om foute te rapporteer.\n"
+#| msgid "Please report bugs to %1.\n"
+msgctxt "Reference to email address"
+msgid "Please report bugs to %1.\n"
+msgstr "Gebruik asseblief %1 .\n"
 
 #: kactionconflictdetector.cpp:38
 #, kde-format
@@ -1632,6 +1629,23 @@ msgid "Main Toolbar"
 msgstr "Hoof Nutsbalk"
 
 #, fuzzy
+#~| msgid ""
+#~| "Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to "
+#~| "report bugs.\n"
+#~ msgid ""
+#~ "Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
+#~ "report bugs.\n"
+#~ msgstr ""
+#~ "Gebruik asseblief <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> "
+#~ "om foute te raporteer.\n"
+
+#, fuzzy
+#~| msgid "Please report bugs to <a href=\"mailto:%1\">%2</a>.\n"
+#~ msgid "Please report bugs to <a href=\"%1\">%2</a>.\n"
+#~ msgstr ""
+#~ "Gebruik asseblief <a href=\"mailto:%1\">%2</a> om foute te rapporteer.\n"
+
+#, fuzzy
 #~| msgid "Untrusted"
 #~ msgctxt "@title:window"
 #~ msgid "Unsupported Key"
@@ -2840,12 +2854,6 @@ msgstr "Hoof Nutsbalk"
 #~ msgid ""
 #~ "This application was written by somebody who wants to remain anonymous."
 #~ msgstr "Hierdie program was geskryf deur iemand wat anoniem wil bly."
-
-#~ msgid "Please use http://bugs.kde.org to report bugs.\n"
-#~ msgstr "Gebruik asseblief http://bugs.kde.org om foute te raporteer.\n"
-
-#~ msgid "Please report bugs to %1.\n"
-#~ msgstr "Gebruik asseblief %1 .\n"
 
 #~ msgid "Unexpected argument '%1'."
 #~ msgstr "Onverwagte opsie '%1'."
@@ -9241,11 +9249,6 @@ msgstr "Hoof Nutsbalk"
 #~| msgid "New Distribution List"
 #~ msgid "KNewStuff contributions"
 #~ msgstr "Nuwe Verspreidingslys"
-
-#, fuzzy
-#~| msgid "Version"
-#~ msgid "Version %1"
-#~ msgstr "Weergawe"
 
 #, fuzzy
 #~| msgid "Comment"
