@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-21 00:19+0000\n"
+"POT-Creation-Date: 2021-07-10 00:16+0000\n"
 "PO-Revision-Date: 2002-11-07 11:37+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -1772,16 +1772,60 @@ msgid "&View"
 msgstr ""
 
 #. i18n: ectx: Menu (actions)
-#: data/kalarmui.rc:54
+#: data/kalarmui.rc:56
 #, kde-format
 msgid "&Actions"
 msgstr "Aksies"
 
 #. i18n: ectx: Menu (settings)
-#: data/kalarmui.rc:66
+#: data/kalarmui.rc:68
 #, fuzzy, kde-format
 msgid "&Settings"
 msgstr "Aksies"
+
+#: datepicker.cpp:32
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select dates to show in the alarm list. Only alarms due on these dates will "
+"be shown."
+msgstr ""
+
+#: datepicker.cpp:38
+#, fuzzy, kde-format
+msgctxt "@title:group"
+msgid "Alarm Date Selector"
+msgstr "Url van kalender lêer"
+
+#: datepicker.cpp:65
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the previous year"
+msgstr ""
+
+#: datepicker.cpp:66
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the previous month"
+msgstr ""
+
+#: datepicker.cpp:67
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the next year"
+msgstr "Redigeer Alarm"
+
+#: datepicker.cpp:68
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show the next month"
+msgstr ""
+
+#: daymatrix.cpp:205
+#, kde-format
+msgctxt "delimiter for joining holiday names"
+msgid ","
+msgstr ""
 
 #: deferdlg.cpp:38
 #, fuzzy, kde-format
@@ -3583,7 +3627,7 @@ msgstr ""
 msgid "Copyright © 2001-%1, David Jarvie"
 msgstr ""
 
-#: mainwindow.cpp:387
+#: mainwindow.cpp:418
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3593,112 +3637,118 @@ msgstr ""
 "Kan nie oplaai kalender na\n"
 "'%1'"
 
-#: mainwindow.cpp:407
+#: mainwindow.cpp:438
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "&Templates..."
 msgstr "Alarm Verstek"
 
-#: mainwindow.cpp:411
+#: mainwindow.cpp:442
 #, fuzzy, kde-format
 #| msgid "&New..."
 msgctxt "@action"
 msgid "&New"
 msgstr "Nuwe..."
 
-#: mainwindow.cpp:417
+#: mainwindow.cpp:448
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Create Tem&plate..."
 msgstr "Nuwe Alarm"
 
-#: mainwindow.cpp:421
+#: mainwindow.cpp:452
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "&Copy..."
 msgstr "Verander..."
 
-#: mainwindow.cpp:426 resourceselector.cpp:300
+#: mainwindow.cpp:457 resourceselector.cpp:300
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "&Edit..."
 msgstr "Verander..."
 
-#: mainwindow.cpp:431
+#: mainwindow.cpp:462
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "&Delete"
 msgstr "Uitvee Alarm"
 
-#: mainwindow.cpp:437
+#: mainwindow.cpp:468
 #, kde-format
 msgctxt "@action"
 msgid "Delete Without Confirmation"
 msgstr ""
 
-#: mainwindow.cpp:442
+#: mainwindow.cpp:473
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Reac&tivate"
 msgstr "Aktiveer %1"
 
-#: mainwindow.cpp:452
+#: mainwindow.cpp:483
 #, kde-format
 msgctxt "@action"
 msgid "Wake From Suspend..."
 msgstr ""
 
-#: mainwindow.cpp:460
+#: mainwindow.cpp:491
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Show Archi&ved Alarms"
 msgstr "Redigeer Alarm"
 
-#: mainwindow.cpp:465
+#: mainwindow.cpp:496
 #, fuzzy, kde-format
 #| msgid "Show in System &Tray"
 msgctxt "@action"
 msgid "Show in System &Tray"
 msgstr "Vertoon in Stelsel Laai"
 
-#: mainwindow.cpp:469
+#: mainwindow.cpp:500
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Show &Calendars"
 msgstr "Url van kalender lêer"
 
-#: mainwindow.cpp:477
+#: mainwindow.cpp:504
+#, kde-format
+msgctxt "@action"
+msgid "Show Date Selector"
+msgstr ""
+
+#: mainwindow.cpp:512
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Import &Alarms..."
 msgstr "Nuwe Alarm"
 
-#: mainwindow.cpp:481
+#: mainwindow.cpp:516
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Import &Birthdays..."
 msgstr "Nuwe Alarm"
 
-#: mainwindow.cpp:485
+#: mainwindow.cpp:520
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "E&xport Selected Alarms..."
 msgstr "Nuwe Alarm"
 
-#: mainwindow.cpp:489 resourceselector.cpp:318
+#: mainwindow.cpp:524 resourceselector.cpp:318
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "E&xport..."
 msgstr "Nuwe Alarm"
 
-#: mainwindow.cpp:493
+#: mainwindow.cpp:528
 #, fuzzy, kde-format
 #| msgid "&Refresh Alarms"
 msgctxt "@action"
 msgid "&Refresh Alarms"
 msgstr "Verfris Alarms"
 
-#: mainwindow.cpp:706
+#: mainwindow.cpp:742
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Do you really want to delete the selected alarm?"
@@ -3706,7 +3756,7 @@ msgid_plural "Do you really want to delete the %1 selected alarms?"
 msgstr[0] "Doen jy rerig wil hê na uitvee die gekose alarm?"
 msgstr[1] "Doen jy rerig wil hê na uitvee die %1 gekose alarms?"
 
-#: mainwindow.cpp:708
+#: mainwindow.cpp:744
 #, fuzzy, kde-format
 #| msgid "Delete Alarm"
 #| msgid_plural "Delete Alarms"
@@ -3716,31 +3766,31 @@ msgid_plural "Delete Alarms"
 msgstr[0] "Uitvee Alarm"
 msgstr[1] "Uitvee Alarms"
 
-#: mainwindow.cpp:709 templatedlg.cpp:181
+#: mainwindow.cpp:745 templatedlg.cpp:181
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "&Delete"
 msgstr "Uitvee Alarm"
 
-#: mainwindow.cpp:803
+#: mainwindow.cpp:839
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Hide Archived Alarms"
 msgstr "Redigeer Alarm"
 
-#: mainwindow.cpp:804
+#: mainwindow.cpp:840
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Show Archived Alarms"
 msgstr "Redigeer Alarm"
 
-#: mainwindow.cpp:876
+#: mainwindow.cpp:912
 #, kde-format
 msgctxt "@info"
 msgid "Import birthdays"
 msgstr ""
 
-#: mainwindow.cpp:1046
+#: mainwindow.cpp:1137
 #, fuzzy, kde-format
 #| msgctxt "Hours and Minutes"
 #| msgid "%1H %2M"
@@ -3748,49 +3798,49 @@ msgctxt "@action Undo/Redo [action]"
 msgid "%1 %2"
 msgstr "%1H %2M"
 
-#: mainwindow.cpp:1047
+#: mainwindow.cpp:1138
 #, fuzzy, kde-format
 msgctxt "@action Undo [action]: message"
 msgid "%1 %2: %3"
 msgstr "%1H %2M"
 
-#: mainwindow.cpp:1342
+#: mainwindow.cpp:1433
 #, fuzzy, kde-format
 msgctxt "@item:inlistbox"
 msgid "Display Alarm"
 msgstr "Aktiveer Alarms"
 
-#: mainwindow.cpp:1344
+#: mainwindow.cpp:1435
 #, fuzzy, kde-format
 msgctxt "@item:inlistbox"
 msgid "Email Alarm"
 msgstr "Aktiveer Alarms"
 
-#: mainwindow.cpp:1346
+#: mainwindow.cpp:1437
 #, fuzzy, kde-format
 msgctxt "@item:inlistbox"
 msgid "Command Alarm"
 msgstr "Opdrag"
 
-#: mainwindow.cpp:1348
+#: mainwindow.cpp:1439
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Alarm Type"
 msgstr "Alarm Verstek"
 
-#: mainwindow.cpp:1349
+#: mainwindow.cpp:1440
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Choose alarm type to create:"
 msgstr "Nuwe Alarm"
 
-#: mainwindow.cpp:1478
+#: mainwindow.cpp:1569
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Ena&ble"
 msgstr "Aktiveer Alarms"
 
-#: mainwindow.cpp:1478
+#: mainwindow.cpp:1569
 #, fuzzy, kde-format
 msgctxt "@action"
 msgid "Disa&ble"
@@ -6186,100 +6236,100 @@ msgstr ""
 "Kan nie open kalender:\n"
 "%1"
 
-#: resources/resourcedatamodelbase.cpp:71
+#: resources/resourcedatamodelbase.cpp:66
 #, fuzzy, kde-format
 msgctxt "@item:intext"
 msgid "Active Alarms"
 msgstr "Aktiveer %1"
 
-#: resources/resourcedatamodelbase.cpp:73
+#: resources/resourcedatamodelbase.cpp:68
 #, fuzzy, kde-format
 msgctxt "@item:intext"
 msgid "Archived Alarms"
 msgstr "Aktiveer %1"
 
-#: resources/resourcedatamodelbase.cpp:75
+#: resources/resourcedatamodelbase.cpp:70
 #, fuzzy, kde-format
 msgctxt "@item:intext"
 msgid "Alarm Templates"
 msgstr "Alarm Verstek"
 
-#: resources/resourcedatamodelbase.cpp:91
+#: resources/resourcedatamodelbase.cpp:86
 #, fuzzy, kde-format
 msgctxt "@item:intext Calendar status"
 msgid "Read-only"
 msgstr "Uitvee Alarm"
 
-#: resources/resourcedatamodelbase.cpp:94
+#: resources/resourcedatamodelbase.cpp:89
 #, kde-format
 msgctxt "@item:intext Calendar status"
 msgid "Read-only (old format)"
 msgstr ""
 
-#: resources/resourcedatamodelbase.cpp:97
+#: resources/resourcedatamodelbase.cpp:92
 #, kde-format
 msgctxt "@item:intext Calendar status"
 msgid "Read-only (other format)"
 msgstr ""
 
-#: resources/resourcedatamodelbase.cpp:119
+#: resources/resourcedatamodelbase.cpp:114
 #, fuzzy, kde-format
 #| msgid "Time"
 msgctxt "@title:column"
 msgid "Time"
 msgstr "Tyd"
 
-#: resources/resourcedatamodelbase.cpp:121
+#: resources/resourcedatamodelbase.cpp:116
 #, fuzzy, kde-format
 msgctxt "@title:column"
 msgid "Time To"
 msgstr "Tyd"
 
-#: resources/resourcedatamodelbase.cpp:123
+#: resources/resourcedatamodelbase.cpp:118
 #, fuzzy, kde-format
 #| msgid "Repeat"
 msgctxt "@title:column"
 msgid "Repeat"
 msgstr "Herhaal"
 
-#: resources/resourcedatamodelbase.cpp:125
+#: resources/resourcedatamodelbase.cpp:120
 #, kde-format
 msgctxt "@title:column"
 msgid "Color"
 msgstr ""
 
-#: resources/resourcedatamodelbase.cpp:127
+#: resources/resourcedatamodelbase.cpp:122
 #, kde-format
 msgctxt "@title:column"
 msgid "Type"
 msgstr ""
 
-#: resources/resourcedatamodelbase.cpp:129
+#: resources/resourcedatamodelbase.cpp:124
 #, fuzzy, kde-format
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Tyd"
 
-#: resources/resourcedatamodelbase.cpp:131
+#: resources/resourcedatamodelbase.cpp:126
 #, fuzzy, kde-format
 #| msgid "Message, File or Command"
 msgctxt "@title:column"
 msgid "Message, File or Command"
 msgstr "Boodskap, Lêer of Opdrag"
 
-#: resources/resourcedatamodelbase.cpp:133
+#: resources/resourcedatamodelbase.cpp:128
 #, fuzzy, kde-format
 msgctxt "@title:column Template name"
 msgid "Name"
 msgstr "Tyd"
 
-#: resources/resourcedatamodelbase.cpp:145
+#: resources/resourcedatamodelbase.cpp:140
 #, fuzzy, kde-format
 msgctxt "@title:column"
 msgid "Calendars"
 msgstr "Url van kalender lêer"
 
-#: resources/resourcedatamodelbase.cpp:454
+#: resources/resourcedatamodelbase.cpp:449
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Command execution failed"
@@ -6287,31 +6337,31 @@ msgstr ""
 "Opdrag uitgevoerde:\n"
 "%1"
 
-#: resources/resourcedatamodelbase.cpp:456
+#: resources/resourcedatamodelbase.cpp:451
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Pre-alarm action execution failed"
 msgstr "Aktiveer Alarms"
 
-#: resources/resourcedatamodelbase.cpp:458
+#: resources/resourcedatamodelbase.cpp:453
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Post-alarm action execution failed"
 msgstr "Aktiveer Alarms"
 
-#: resources/resourcedatamodelbase.cpp:460
+#: resources/resourcedatamodelbase.cpp:455
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Pre- and post-alarm action execution failed"
 msgstr ""
 
-#: resources/resourcedatamodelbase.cpp:491
+#: resources/resourcedatamodelbase.cpp:486
 #, fuzzy, kde-format
 msgctxt "@item:intext Calendar status"
 msgid "Disabled"
 msgstr "Aktiveer Alarms"
 
-#: resources/resourcedatamodelbase.cpp:494
+#: resources/resourcedatamodelbase.cpp:489
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "%1\n"
@@ -6322,7 +6372,7 @@ msgstr ""
 "%1\n"
 "is nie leesbaar"
 
-#: resources/resourcedatamodelbase.cpp:499
+#: resources/resourcedatamodelbase.cpp:494
 #, fuzzy, kde-kuit-format
 #| msgid ""
 #| "%1\n"
@@ -6333,45 +6383,45 @@ msgstr ""
 "%1\n"
 "is nie leesbaar"
 
-#: resources/resourcedatamodelbase.cpp:560
+#: resources/resourcedatamodelbase.cpp:555
 #, fuzzy, kde-format
 #| msgid "Next scheduled date and time of the alarm"
 msgctxt "@info:whatsthis"
 msgid "Next scheduled date and time of the alarm"
 msgstr "Volgende geskeduleerd datum en tyd van die alarm"
 
-#: resources/resourcedatamodelbase.cpp:562
+#: resources/resourcedatamodelbase.cpp:557
 #, fuzzy, kde-format
 msgctxt "@info:whatsthis"
 msgid "How long until the next scheduled trigger of the alarm"
 msgstr "Volgende geskeduleerd datum en tyd van die alarm"
 
-#: resources/resourcedatamodelbase.cpp:564
+#: resources/resourcedatamodelbase.cpp:559
 #, fuzzy, kde-format
 msgctxt "@info:whatsthis"
 msgid "How often the alarm recurs"
 msgstr "Interval tussen alarm herhalings"
 
-#: resources/resourcedatamodelbase.cpp:566
+#: resources/resourcedatamodelbase.cpp:561
 #, fuzzy, kde-format
 #| msgid "Background color of alarm message"
 msgctxt "@info:whatsthis"
 msgid "Background color of alarm message"
 msgstr "Agtergrond kleur van alarm boodskap"
 
-#: resources/resourcedatamodelbase.cpp:568
+#: resources/resourcedatamodelbase.cpp:563
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Alarm type (message, file, command or email)"
 msgstr ""
 
-#: resources/resourcedatamodelbase.cpp:570
+#: resources/resourcedatamodelbase.cpp:565
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Alarm name, or alarm text if name is blank"
 msgstr ""
 
-#: resources/resourcedatamodelbase.cpp:572
+#: resources/resourcedatamodelbase.cpp:567
 #, fuzzy, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6381,26 +6431,26 @@ msgstr ""
 "alarm boodskap teks, Url van teks lêer na vertoon, of opdrag na uitvoer. Die "
 "alarm tipe is aangedui deur Die ikoon na Die links."
 
-#: resources/resourcedatamodelbase.cpp:574
+#: resources/resourcedatamodelbase.cpp:569
 #, fuzzy, kde-format
 msgctxt "@info:whatsthis"
 msgid "Name of the alarm template"
 msgstr "Invoer die teks van die alarm boodskap. Dit dalk mag wees multi-line."
 
-#: resources/resourcedatamodelbase.cpp:670
-#: resources/resourcedatamodelbase.cpp:772
+#: resources/resourcedatamodelbase.cpp:662
+#: resources/resourcedatamodelbase.cpp:764
 #, kde-format
 msgctxt "@info Alarm never occurs"
 msgid "Never"
 msgstr ""
 
-#: resources/resourcedatamodelbase.cpp:778
+#: resources/resourcedatamodelbase.cpp:770
 #, fuzzy, no-c-format, kde-format
 msgctxt "@info n days"
 msgid "%1d"
 msgstr "Ure/Minute"
 
-#: resources/resourcedatamodelbase.cpp:787
+#: resources/resourcedatamodelbase.cpp:779
 #, fuzzy, kde-format
 #| msgctxt "Hours and Minutes"
 #| msgid "%1H %2M"
@@ -6408,7 +6458,7 @@ msgctxt "@info hours:minutes"
 msgid "%1:%2"
 msgstr "%1H %2M"
 
-#: resources/resourcedatamodelbase.cpp:794
+#: resources/resourcedatamodelbase.cpp:786
 #, fuzzy, kde-format
 msgctxt "@info days hours:minutes"
 msgid "%1d %2:%3"
