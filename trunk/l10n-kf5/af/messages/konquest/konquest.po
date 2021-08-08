@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konquest VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-01 02:18+0100\n"
+"POT-Creation-Date: 2021-08-08 00:14+0000\n"
 "PO-Revision-Date: 2002-11-07 11:32+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -28,6 +28,7 @@ msgstr "frix@expertron.co.za"
 
 #: dialogs/fleetdlg.cc:33
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Fleet Overview"
 msgstr "Vloot Vernietig"
 
@@ -115,7 +116,8 @@ msgid "&Height:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: dialogs/newGameDialog.ui:153
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: dialogs/newGameDialog.ui:153 dialogs/newGameDialog.ui:287
 #, fuzzy, kde-format
 #| msgid "Production: "
 msgid "Production:"
@@ -124,7 +126,7 @@ msgstr "Produksie: "
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: dialogs/newGameDialog.ui:192
 #, fuzzy, kde-format
-msgid "Kill Percentage:"
+msgid "Kill percentage:"
 msgstr "Stop persent: "
 
 #. i18n: ectx: property (text), widget (QPushButton, randomizeMap)
@@ -137,7 +139,7 @@ msgstr ""
 #: dialogs/newGameDialog.ui:209
 #, fuzzy, kde-format
 #| msgid "Owner: "
-msgid "Owner"
+msgid "Owner:"
 msgstr "Eienaar: "
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -149,21 +151,21 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, BlindMapCB)
 #: dialogs/newGameDialog.ui:234
 #, kde-format
-msgid "Blind Map"
+msgid "Blind map"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, CumulativeProductionCB)
 #: dialogs/newGameDialog.ui:241
 #, fuzzy, kde-format
 #| msgid "Production: "
-msgid "Cumulative Production"
+msgid "Cumulative production"
 msgstr "Produksie: "
 
 #. i18n: ectx: property (text), widget (QCheckBox, ProductionAfterConquereCB)
 #: dialogs/newGameDialog.ui:248
 #, fuzzy, kde-format
 #| msgid "Production: "
-msgid "Production After Capture"
+msgid "Production after capture"
 msgstr "Produksie: "
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
@@ -175,22 +177,15 @@ msgstr "Nommer van nutrale planete: %1"
 #. i18n: ectx: property (text), widget (QCheckBox, NeutralsShowShipsCB)
 #: dialogs/newGameDialog.ui:273
 #, fuzzy, kde-format
-msgid "Show Ships"
+msgid "Show ships"
 msgstr "Skepe: "
 
 #. i18n: ectx: property (text), widget (QCheckBox, NeutralsShowStatsCB)
 #: dialogs/newGameDialog.ui:280
 #, fuzzy, kde-format
 #| msgid "&Show Standings"
-msgid "Show Stats"
+msgid "Show stats"
 msgstr "Vertoon Stand"
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: dialogs/newGameDialog.ui:287
-#, fuzzy, kde-format
-#| msgid "Production: "
-msgid "Production"
-msgstr "Produksie: "
 
 #: dialogs/newgamedlg.cc:80
 #, fuzzy, kde-format
@@ -211,6 +206,7 @@ msgstr ""
 
 #: dialogs/newgamedlg.cc:315
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Start New Game"
 msgstr "Begin Speletjie"
 
@@ -302,12 +298,16 @@ msgid "Do you wish to retire this game?"
 msgstr "Doen jy wens na aftree hierdie speletjie?"
 
 #: gameview.cc:524
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "End Game"
+msgctxt "@title:window"
 msgid "End Game"
 msgstr "Einde Speletjie"
 
 #: gameview.cc:552
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Final Standings"
+msgctxt "@title:window"
 msgid "Final Standings"
 msgstr "Finale Stand"
 
@@ -400,20 +400,28 @@ msgstr ""
 msgid "Main Toolbar"
 msgstr ""
 
-#: mainwin.cc:33 mainwin.cc:40
+#: mainwin.cc:33
+#, fuzzy, kde-format
+#| msgid "Galactic Conquest"
+msgctxt "@title:window"
+msgid "Galactic Conquest"
+msgstr "Galaktiese Kruistog"
+
+#: mainwin.cc:40
 #, kde-format
 msgid "Galactic Conquest"
 msgstr "Galaktiese Kruistog"
 
 #: mainwin.cc:74
-#, kde-format
-msgid "&Measure Distance"
+#, fuzzy, kde-format
+#| msgid "&Measure Distance"
+msgid "&Measure Distance..."
 msgstr "Meet Afstand"
 
 #: mainwin.cc:80
-#, kde-format
-msgid "&Fleet Overview"
-msgstr ""
+#, fuzzy, kde-format
+msgid "&Fleet Overview..."
+msgstr "Vloot Vernietig"
 
 #: mainwin.cc:89
 #, kde-format
@@ -568,6 +576,11 @@ msgid ""
 "Current\n"
 "Fleet Size"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Production: "
+#~ msgid "Production"
+#~ msgstr "Produksie: "
 
 #~ msgid "Current Standings"
 #~ msgstr "Huidige Stand"
