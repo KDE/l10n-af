@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-08 00:14+0000\n"
+"POT-Creation-Date: 2021-08-10 00:14+0000\n"
 "PO-Revision-Date: 2005-11-26 17:02+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -51,28 +51,48 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr "Nie moontlik na skep io-slave: %1"
 
-#: core/copyjob.cpp:1291 core/job_error.cpp:556
+#: core/copyjob.cpp:1323 core/job_error.cpp:556
 #, kde-format
 msgid "Folder Already Exists"
 msgstr "Die Gids Bestaan Alreeds"
 
-#: core/copyjob.cpp:1536 core/copyjob.cpp:2117 core/filecopyjob.cpp:373
+#: core/copyjob.cpp:1365
+#, kde-format
+msgid ""
+"Could not create \"%1\".\n"
+"The destination filesystem (%2) disallows the following characters in folder "
+"names: %3\n"
+"Selecting Replace will replace any invalid characters (in the destination "
+"folder name) with an underscore \"_\"."
+msgstr ""
+
+#: core/copyjob.cpp:1656 core/copyjob.cpp:2322 core/filecopyjob.cpp:373
 #: core/job_error.cpp:545 widgets/paste.cpp:80
 #, kde-format
 msgid "File Already Exists"
 msgstr "Die lêer Bestaan Alreeds"
 
-#: core/copyjob.cpp:1536 core/copyjob.cpp:2117
+#: core/copyjob.cpp:1656 core/copyjob.cpp:2322
 #, kde-format
 msgid "Already Exists as Folder"
 msgstr "Bestaan alreeds as 'n gids"
 
-#: core/copyjob.cpp:1697 ioslaves/trash/kio_trash.cpp:285
+#: core/copyjob.cpp:1817 ioslaves/trash/kio_trash.cpp:285
 #, fuzzy, kde-format
 #| msgctxt "to trash"
 #| msgid "&Trash"
 msgid "Trash"
 msgstr "Gemors"
+
+#: core/copyjob.cpp:1888
+#, kde-format
+msgid ""
+"Could not create \"%1\".\n"
+"The destination filesystem (%2) disallows the following characters in file "
+"names: %3\n"
+"Selecting Replace will replace any invalid characters (in the destination "
+"file name) with an underscore \"_\"."
+msgstr ""
 
 #: core/desktopexecparser.cpp:320
 #, kde-format
@@ -5425,7 +5445,7 @@ msgctxt "@title:window"
 msgid "Duplicate Policy"
 msgstr "Duplikaat Beleid"
 
-#: kcms/cookies/kcookiespolicies.cpp:208
+#: kcms/cookies/kcookiespolicies.cpp:208 widgets/skipdialog.cpp:41
 #, kde-format
 msgid "Replace"
 msgstr ""
@@ -9515,17 +9535,23 @@ msgstr ""
 msgid "Information"
 msgstr "Kde Ssl Informasie"
 
-#: widgets/skipdialog.cpp:38
+#: widgets/skipdialog.cpp:47
 #, kde-format
 msgid "Retry"
 msgstr "Probeer weer"
 
-#: widgets/skipdialog.cpp:43
+#: widgets/skipdialog.cpp:54
+#, fuzzy, kde-format
+#| msgid "D&elete All"
+msgid "Replace All"
+msgstr "Uitvee Alle"
+
+#: widgets/skipdialog.cpp:61
 #, kde-format
 msgid "Skip"
 msgstr "Spring"
 
-#: widgets/skipdialog.cpp:47
+#: widgets/skipdialog.cpp:65
 #, fuzzy, kde-format
 #| msgid "Skip"
 msgid "Skip All"
@@ -10960,9 +10986,6 @@ msgstr ""
 
 #~ msgid "Remove all proxy exception addresses from the list."
 #~ msgstr "Verwyder alle volmag uitsonderings adresse van die lys."
-
-#~ msgid "D&elete All"
-#~ msgstr "Uitvee Alle"
 
 #~ msgid "Remove the selected proxy exception address from the list."
 #~ msgstr "Verwyder die gekose volmag uitsonderings adres van die lys."
