@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-14 00:14+0000\n"
+"POT-Creation-Date: 2021-09-12 00:15+0000\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -13,35 +13,63 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: kaboutapplicationdialog.cpp:59 kaboutplugindialog.cpp:65
+#: kaboutapplicationcomponentlistdelegate_p.cpp:52
+#, fuzzy, kde-format
+#| msgid "Homepage"
+msgid "Visit component's homepage"
+msgstr "Tuisblad"
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:100
+#, fuzzy, kde-format
+#| msgid "Homepage"
+msgctxt "@info:tooltip"
+msgid ""
+"Visit components's homepage\n"
+"%1"
+msgstr "Tuisblad"
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:141
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@item Component name in about dialog."
+msgid "%1"
+msgstr "%1%"
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:144
+#, fuzzy, kde-format
+#| msgid "Version"
+msgid "Version %1"
+msgstr "Weergawe"
+
+#: kaboutapplicationcomponentlistdelegate_p.cpp:153
+#: kabstractaboutdialog_p.cpp:85
+#, fuzzy, kde-format
+#| msgid "License:"
+msgid "License: %1"
+msgstr "Lisensie:"
+
+#: kaboutapplicationdialog.cpp:60 kaboutplugindialog.cpp:65
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgctxt "@title:window"
 msgid "About %1"
 msgstr "Aangaande %1"
 
-#: kaboutapplicationdialog.cpp:97 kaboutplugindialog.cpp:83
+#: kaboutapplicationdialog.cpp:98 kaboutplugindialog.cpp:83
 #, fuzzy, kde-format
 #| msgid "&About"
 msgctxt "@title:tab"
 msgid "About"
 msgstr "Aangaande"
 
-#: kaboutapplicationdialog.cpp:103
-#, kde-format
-msgid ""
-"<ul><li>KDE Frameworks %1</li><li>Qt %2 (built against %3)</li><li>The <em>"
-"%4</em> windowing system</li></ul>"
-msgstr ""
-
-#: kaboutapplicationdialog.cpp:111
+#: kaboutapplicationdialog.cpp:104
 #, fuzzy, kde-format
-#| msgid "Libraries"
+#| msgid "Comment"
 msgctxt "@title:tab"
-msgid "Libraries"
-msgstr "Biblioteke"
+msgid "Components"
+msgstr "Kommentaar"
 
-#: kaboutapplicationdialog.cpp:123 kaboutplugindialog.cpp:91
+#: kaboutapplicationdialog.cpp:117 kaboutplugindialog.cpp:91
 #, fuzzy, kde-format
 #| msgid "Author"
 msgctxt "@title:tab"
@@ -50,14 +78,14 @@ msgid_plural "Authors"
 msgstr[0] "Outeur"
 msgstr[1] "Outeur"
 
-#: kaboutapplicationdialog.cpp:130 kaboutplugindialog.cpp:98
+#: kaboutapplicationdialog.cpp:124 kaboutplugindialog.cpp:98
 #, fuzzy, kde-format
 #| msgid "&Thanks To"
 msgctxt "@title:tab"
 msgid "Thanks To"
 msgstr "Bedankinge Na"
 
-#: kaboutapplicationdialog.cpp:137 kaboutplugindialog.cpp:104
+#: kaboutapplicationdialog.cpp:131 kaboutplugindialog.cpp:104
 #, fuzzy, kde-format
 #| msgid "Translation"
 msgctxt "@title:tab"
@@ -247,38 +275,53 @@ msgctxt "@title:tab"
 msgid "&Support KDE"
 msgstr "Ondersteun KDE"
 
-#: kabstractaboutdialog_p.cpp:38
+#: kabstractaboutdialog_p.cpp:42
 #, fuzzy, kde-format
 #| msgid "Version"
 msgctxt "Version version-number"
 msgid "Version %1"
 msgstr "Weergawe"
 
-#: kabstractaboutdialog_p.cpp:81
-#, fuzzy, kde-format
-#| msgid "License:"
-msgid "License: %1"
-msgstr "Lisensie:"
+#: kabstractaboutdialog_p.cpp:107
+#, kde-format
+msgid "The <em>%1</em> windowing system"
+msgstr ""
 
-#: kabstractaboutdialog_p.cpp:101
+#: kabstractaboutdialog_p.cpp:108
+#, fuzzy, kde-format
+#| msgid "Quit"
+msgid "Qt"
+msgstr "Gaan uit"
+
+#: kabstractaboutdialog_p.cpp:108
+#, kde-format
+msgid "%1 (built against %2)"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:109
+#, kde-format
+msgid "KDE Frameworks"
+msgstr ""
+
+#: kabstractaboutdialog_p.cpp:130
 #, fuzzy, kde-format
 #| msgid "Show author information"
 msgid "Show author photos"
 msgstr "Vertoon outeur informasie"
 
-#: kabstractaboutdialog_p.cpp:102
+#: kabstractaboutdialog_p.cpp:131
 #, kde-format
 msgid "Enabling this will fetch images from an online location"
 msgstr ""
 
-#: kabstractaboutdialog_p.cpp:141
+#: kabstractaboutdialog_p.cpp:170
 #, fuzzy, kde-format
 #| msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgctxt "Reference to website"
 msgid "Please use %1 to report bugs.\n"
 msgstr "Gebruik asseblief http://bugs.kde.org om foute te raporteer.\n"
 
-#: kabstractaboutdialog_p.cpp:149
+#: kabstractaboutdialog_p.cpp:178
 #, fuzzy, kde-format
 #| msgid "Please report bugs to %1.\n"
 msgctxt "Reference to email address"
@@ -1616,6 +1659,12 @@ msgid "Main Toolbar"
 msgstr "Hoof Nutsbalk"
 
 #, fuzzy
+#~| msgid "Libraries"
+#~ msgctxt "@title:tab"
+#~ msgid "Libraries"
+#~ msgstr "Biblioteke"
+
+#, fuzzy
 #~| msgid "Homepage"
 #~ msgctxt "@info:tooltip"
 #~ msgid ""
@@ -2852,11 +2901,6 @@ msgstr "Hoof Nutsbalk"
 #~| msgid "Application: "
 #~ msgid "KDE Application"
 #~ msgstr "Aansoek: "
-
-#, fuzzy
-#~| msgid "Quit"
-#~ msgid "Qt"
-#~ msgstr "Gaan uit"
 
 #~ msgid "KDE"
 #~ msgstr "Kde"
@@ -9199,11 +9243,6 @@ msgstr "Hoof Nutsbalk"
 #~| msgid "Print Previe&w..."
 #~ msgid "Loading Preview"
 #~ msgstr "Druk Voorskou..."
-
-#, fuzzy
-#~| msgid "Comment"
-#~ msgid "Comments"
-#~ msgstr "Kommentaar"
 
 #, fuzzy
 #~| msgid "Change"
