@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-08-30 00:14+0000\n"
+"POT-Creation-Date: 2021-09-29 00:14+0000\n"
 "PO-Revision-Date: 2002-11-07 11:31+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -25,25 +25,6 @@ msgstr "WEB-Vertaler (http://kde.af.org.za)"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "frix@expertron.co.za"
-
-#: plugins/example.py:19
-msgid "Mark as known (highest grade)"
-msgstr ""
-
-#: plugins/example.py:20
-msgid "Sets the grade for the selected words to 7 (highest grade)"
-msgstr ""
-
-#: plugins/wiktionary/wiktionary_sound.py:131
-#, fuzzy
-#| msgctxt "Describing the sound of the character"
-#| msgid "Sound: "
-msgid "Fetch Sound"
-msgstr "Klank: "
-
-#: plugins/wiktionary/wiktionary_sound.py:132
-msgid "Fetches a sound file from commons.wikimedia.org for the selected word"
-msgstr ""
 
 #: src/collection/containermodel.cpp:150
 #, kde-format
@@ -300,8 +281,8 @@ msgstr "Stoor die huidige dokument"
 msgid "Practice Anyway"
 msgstr "Aansig Opsies"
 
-#: src/dashboard/collectionwidget.cpp:98 src/editor/editor.cpp:372
-#: src/editor/editor.cpp:373
+#: src/dashboard/collectionwidget.cpp:98 src/editor/editor.cpp:369
+#: src/editor/editor.cpp:370
 #, fuzzy, kde-format
 #| msgid "Article"
 msgid "Practice"
@@ -364,7 +345,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, playButton)
 #. i18n: ectx: property (text), widget (Practice::AudioButton, solutionSoundButton)
 #. i18n: ectx: property (text), widget (Practice::AudioButton, questionSoundButton)
-#: src/editor/audiowidget.ui:18 src/practice/audiobutton.cpp:18
+#: src/editor/audiowidget.ui:19 src/practice/audiobutton.cpp:18
 #: src/practice/audiobutton.cpp:19 src/practice/audiobutton.cpp:63
 #: src/practice/audiobutton.cpp:64 src/practice/practice_widget_flashcard.ui:48
 #: src/practice/practice_widget_flashcard.ui:103
@@ -374,11 +355,24 @@ msgid "Play"
 msgstr "Meervoud"
 
 #. i18n: ectx: property (text), widget (QPushButton, recordButton)
-#: src/editor/audiowidget.ui:25
+#: src/editor/audiowidget.ui:26
 #, fuzzy, kde-format
 #| msgid "&Append Language"
 msgid "Record"
 msgstr "Voeg-agteraan-by Taal"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, downloadButton)
+#: src/editor/audiowidget.ui:33
+#, kde-format
+msgid "Download audio file with webservice"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, downloadButton)
+#: src/editor/audiowidget.ui:36
+#, fuzzy, kde-format
+#| msgid "German"
+msgid "Download"
+msgstr "Duits"
 
 #. i18n: ectx: property (text), widget (QPushButton, showCurrentButton)
 #: src/editor/browserwidget.ui:18
@@ -662,12 +656,12 @@ msgstr "November"
 msgid "Next"
 msgstr "Volgende"
 
-#: src/editor/editor.cpp:139
+#: src/editor/editor.cpp:136
 #, fuzzy, kde-format
 msgid "Units"
 msgstr "R:"
 
-#: src/editor/editor.cpp:150
+#: src/editor/editor.cpp:147
 #, kde-format
 msgid ""
 "Right click to add, delete, or rename units. \n"
@@ -675,25 +669,25 @@ msgid ""
 "Only checked units [x] will be asked in the practice!"
 msgstr ""
 
-#: src/editor/editor.cpp:161
+#: src/editor/editor.cpp:158
 #, fuzzy, kde-format
 #| msgid "Word t&ype:"
 msgid "Word Types"
 msgstr "Woord tipe:"
 
-#: src/editor/editor.cpp:181
+#: src/editor/editor.cpp:178
 #, kde-format
 msgid "Inflection (verbs, adjectives, nouns)"
 msgstr ""
 
-#: src/editor/editor.cpp:195
+#: src/editor/editor.cpp:192
 #, fuzzy, kde-format
 #| msgid "Compar&ison"
 msgid "Comparison forms"
 msgstr "Vergelyking"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/editor/editor.cpp:210
+#: src/editor/editor.cpp:207
 #: src/practice/configure/specificpracticeoptions.ui:17
 #, kde-format
 msgid "Multiple Choice"
@@ -701,44 +695,44 @@ msgstr "Veelvuldige Keuse"
 
 #. i18n: ectx: property (text), widget (QLabel, synonymLabel)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/editor/editor.cpp:224 src/editor/synonymwidget.ui:16
+#: src/editor/editor.cpp:221 src/editor/synonymwidget.ui:16
 #: src/practice/configure/generalpracticeoptions.ui:152
 #, fuzzy, kde-format
 #| msgid "Synonym Training"
 msgid "Synonyms"
 msgstr "Sinoniem Oefening"
 
-#: src/editor/editor.cpp:237
+#: src/editor/editor.cpp:234
 #, fuzzy, kde-format
 #| msgid "Synonym Training"
 msgid "Antonyms"
 msgstr "Sinoniem Oefening"
 
-#: src/editor/editor.cpp:251
+#: src/editor/editor.cpp:248
 #, fuzzy, kde-format
 #| msgid "&False friend:"
 msgid "False Friends"
 msgstr "Vals vriend:"
 
-#: src/editor/editor.cpp:266
+#: src/editor/editor.cpp:263
 #, kde-format
 msgid "Phonetic Symbols"
 msgstr ""
 
-#: src/editor/editor.cpp:281
+#: src/editor/editor.cpp:278
 #, fuzzy, kde-format
 #| msgid "&male:\t"
 msgid "Image"
 msgstr "manlik:\t"
 
-#: src/editor/editor.cpp:296
+#: src/editor/editor.cpp:293
 #, fuzzy, kde-format
 #| msgid "Article"
 msgid "Summary"
 msgstr "Artikel"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PracticeSoundEnabled)
-#: src/editor/editor.cpp:310
+#: src/editor/editor.cpp:307
 #: src/practice/configure/generalpracticeoptions.ui:139
 #, fuzzy, kde-format
 #| msgctxt "Describing the sound of the character"
@@ -746,27 +740,27 @@ msgstr "Artikel"
 msgid "Sound"
 msgstr "Klank: "
 
-#: src/editor/editor.cpp:325
+#: src/editor/editor.cpp:322
 #, kde-format
 msgid "Internet"
 msgstr ""
 
-#: src/editor/editor.cpp:340
+#: src/editor/editor.cpp:337
 #, kde-format
 msgid "LaTeX"
 msgstr ""
 
-#: src/editor/editor.cpp:418
+#: src/editor/editor.cpp:414
 #, kde-format
 msgid "Enter search terms here"
 msgstr ""
 
-#: src/editor/editor.cpp:419
+#: src/editor/editor.cpp:415
 #, fuzzy, kde-format
 msgid "Search your vocabulary"
 msgstr "Stoor die huidige dokument"
 
-#: src/editor/editor.cpp:421
+#: src/editor/editor.cpp:417
 #, fuzzy, kde-format
 msgid "S&earch:"
 msgstr "Opmerking:"
@@ -785,33 +779,27 @@ msgid "&Edit"
 msgstr "Verstrek"
 
 #. i18n: ectx: Menu (view)
-#: src/editor/editorui.rc:23 src/practice/practiceui.rc:12
+#: src/editor/editorui.rc:25 src/practice/practiceui.rc:12
 #, kde-format
 msgid "&View"
 msgstr ""
 
 #. i18n: ectx: Menu (lesson)
-#: src/editor/editorui.rc:49
+#: src/editor/editorui.rc:51
 #, kde-format
 msgid "&Unit"
 msgstr ""
 
 #. i18n: ectx: Menu (learning)
-#: src/editor/editorui.rc:63 src/practice/practicesummaryui.rc:12
+#: src/editor/editorui.rc:65 src/practice/practicesummaryui.rc:12
 #: src/statistics/statisticsui.rc:12
 #, fuzzy, kde-format
 #| msgid "&Articles"
 msgid "&Practice"
 msgstr "Aktikels"
 
-#. i18n: ectx: Menu (scripts)
-#: src/editor/editorui.rc:68
-#, fuzzy, kde-format
-msgid "&Scripts"
-msgstr "Verstrek"
-
 #. i18n: ectx: ToolBar (editorToolBar)
-#: src/editor/editorui.rc:77 src/parleyui.rc:27
+#: src/editor/editorui.rc:72 src/parleyui.rc:27
 #, fuzzy, kde-format
 msgid "Editor Toolbar"
 msgstr "Vertoon Statistieke"
@@ -1163,13 +1151,13 @@ msgstr "Open Voorbeeld Woordeskat Lêer"
 msgid "Enable/Disable the columns for each language"
 msgstr ""
 
-#: src/editor/vocabularydelegate.cpp:157
+#: src/editor/vocabularydelegate.cpp:146
 #, fuzzy, kde-format
 #| msgid "No picture selected"
 msgid "Sound file selected: %1"
 msgstr "Nee prent gekose"
 
-#: src/editor/vocabularydelegate.cpp:159
+#: src/editor/vocabularydelegate.cpp:148
 #, fuzzy, kde-format
 #| msgid "No picture selected"
 msgid "Image file selected: %1"
@@ -1244,18 +1232,18 @@ msgstr[1] "Doen jy rerig wil hê na uitvee die gekose inskrywing?\n"
 msgid "Delete"
 msgstr "Herstel"
 
-#: src/editor/vocabularyview.cpp:374
+#: src/editor/vocabularyview.cpp:365
 #, kde-format
 msgid "Nothing to spell check."
 msgstr ""
 
-#: src/editor/vocabularyview.cpp:399
+#: src/editor/vocabularyview.cpp:390
 #, kde-format
 msgctxt "@title of a popup"
 msgid "No Spell Checker Available"
 msgstr ""
 
-#: src/editor/vocabularyview.cpp:400
+#: src/editor/vocabularyview.cpp:391
 #, kde-format
 msgctxt "@popupmessage"
 msgid ""
@@ -1761,22 +1749,12 @@ msgstr "Luukse Soektog"
 msgid "Toggle display of the search bar"
 msgstr ""
 
-#: src/parleyactions.cpp:236
-#, fuzzy, kde-format
-msgid "&Script Manager"
-msgstr "Taal"
-
-#: src/parleyactions.cpp:237
-#, kde-format
-msgid "Enable and disable scripts"
-msgstr ""
-
-#: src/parleyactions.cpp:253
+#: src/parleyactions.cpp:244
 #, fuzzy, kde-format
 msgid "Download New Vocabularies..."
 msgstr "Open Woordeskat Lêer"
 
-#: src/parleyactions.cpp:259
+#: src/parleyactions.cpp:250
 #, fuzzy, kde-format
 msgid "Downloads new vocabulary collections"
 msgstr "Open Woordeskat Lêer"
@@ -3058,47 +3036,6 @@ msgstr ""
 #| msgid "Synonym Training"
 msgid "Synonym: "
 msgstr "Sinoniem Oefening"
-
-#: src/scripts/script.cpp:37
-#, kde-format
-msgid "The script file does not exist."
-msgstr ""
-
-#: src/scripts/script.cpp:68
-#, fuzzy, kde-format
-#| msgid "Error in lex file"
-msgid "Error in file %1 at line %2:"
-msgstr "Fout in lex lêer"
-
-#: src/scripts/script.cpp:69
-#, kde-format
-msgctxt "debug information in error message"
-msgid "Backtrace:"
-msgstr ""
-
-#: src/scripts/scriptdialog.cpp:26
-#, kde-format
-msgid "Script Dialog"
-msgstr ""
-
-#: src/scripts/scriptmanager.cpp:121
-#, kde-format
-msgid "A script could not be activated and has been disabled."
-msgid_plural "%1 scripts could not be activated and have been disabled."
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/scripts/scriptmanager.cpp:122
-#, kde-format
-msgid ""
-"This probably means that there are errors in the script or that the required "
-"packages are not installed."
-msgstr ""
-
-#: src/scripts/scriptmanager.cpp:124
-#, fuzzy, kde-format
-msgid "Script Activation"
-msgstr "Verstrek"
 
 #. i18n: ectx: property (title), widget (QGroupBox, tiltle_group)
 #: src/settings/documentproperties.ui:38
@@ -4642,6 +4579,29 @@ msgid ""
 "<a href=\"https://edu.kde.org/contrib/kvtml2.php\">https://edu.kde.org/"
 "contrib/kvtml2.php</a>.</p>\n"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Describing the sound of the character"
+#~| msgid "Sound: "
+#~ msgid "Fetch Sound"
+#~ msgstr "Klank: "
+
+#, fuzzy
+#~ msgid "&Scripts"
+#~ msgstr "Verstrek"
+
+#, fuzzy
+#~ msgid "&Script Manager"
+#~ msgstr "Taal"
+
+#, fuzzy
+#~| msgid "Error in lex file"
+#~ msgid "Error in file %1 at line %2:"
+#~ msgstr "Fout in lex lêer"
+
+#, fuzzy
+#~ msgid "Script Activation"
+#~ msgstr "Verstrek"
 
 #, fuzzy
 #~ msgid "&Upload Vocabulary Document..."
