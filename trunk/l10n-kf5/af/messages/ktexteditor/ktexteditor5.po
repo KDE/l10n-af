@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart4 stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-06 00:15+0000\n"
+"POT-Creation-Date: 2021-10-15 00:13+0000\n"
 "PO-Revision-Date: 2005-11-25 11:24+0200\n"
 "Last-Translator: Juanita Franz <juanita.franz@vr-web.de>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -130,10 +130,8 @@ msgstr ""
 msgid "Word Wrap"
 msgstr "Statiese Woord Oorvloei"
 
-#. i18n: ectx: property (title), widget (QGroupBox, gbBorders)
 #. i18n: ectx: Menu (view_menu_borders)
-#: data/katepart5ui.rc:75 dialogs/bordersappearanceconfigwidget.ui:17
-#: dialogs/katedialogs.cpp:679
+#: data/katepart5ui.rc:75 dialogs/katedialogs.cpp:679
 #, fuzzy, kde-format
 #| msgid "Borders"
 msgid "Borders"
@@ -176,8 +174,15 @@ msgstr "Teks Instellings"
 msgid "Main Toolbar"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/bordersappearanceconfigwidget.ui:25
+#, fuzzy, kde-format
+#| msgid "Code Folding"
+msgid "Code block folding:"
+msgstr "Kode vou"
+
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowFoldingMarkers)
-#: dialogs/bordersappearanceconfigwidget.ui:23
+#: dialogs/bordersappearanceconfigwidget.ui:32
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will display marks for code "
@@ -189,14 +194,13 @@ msgstr ""
 "kode vou, indien kode vou beskikbaar is."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowFoldingMarkers)
-#: dialogs/bordersappearanceconfigwidget.ui:26
-#, fuzzy, kde-format
-#| msgid "Show Folding &Markers"
-msgid "Show &folding markers"
-msgstr "Vertoon Vou en Merkers"
+#: dialogs/bordersappearanceconfigwidget.ui:35
+#, kde-format
+msgid "Show arrows to collapse code blocks"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowFoldingPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:51
+#: dialogs/bordersappearanceconfigwidget.ui:42
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will show marks on the vertical "
@@ -209,14 +213,20 @@ msgstr ""
 "vertikale rolstaaf.<br><br>Hierdie merke sal, byvoorbeeld, wys boekmerke."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowFoldingPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:54
+#: dialogs/bordersappearanceconfigwidget.ui:45
 #, fuzzy, kde-format
 #| msgid "Print the current document."
-msgid "Show preview of folded code"
+msgid "Show preview of folded blocks on hover"
 msgstr "Druk die huidige dokument."
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/bordersappearanceconfigwidget.ui:68
+#, kde-format
+msgid "Left side:"
+msgstr ""
+
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkIconBorder)
-#: dialogs/bordersappearanceconfigwidget.ui:63
+#: dialogs/bordersappearanceconfigwidget.ui:75
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will display an icon border on "
@@ -232,13 +242,16 @@ msgstr ""
 "voorbeeld."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkIconBorder)
-#: dialogs/bordersappearanceconfigwidget.ui:66
-#, kde-format
-msgid "Show &icon border"
-msgstr "Vertoon ikoon grens"
+#. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMarks)
+#: dialogs/bordersappearanceconfigwidget.ui:78
+#: dialogs/bordersappearanceconfigwidget.ui:131
+#, fuzzy, kde-format
+#| msgid "Show &scrollbar marks"
+msgid "Show marks"
+msgstr "Wys rolstaaf merke"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkLineNumbers)
-#: dialogs/bordersappearanceconfigwidget.ui:73
+#: dialogs/bordersappearanceconfigwidget.ui:85
 #, kde-format
 msgid ""
 "If this option is checked, every new view will display line numbers on the "
@@ -248,13 +261,13 @@ msgstr ""
 "die links hand kant."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkLineNumbers)
-#: dialogs/bordersappearanceconfigwidget.ui:76
+#: dialogs/bordersappearanceconfigwidget.ui:88
 #, kde-format
 msgid "Show &line numbers"
 msgstr "Vertoon lyn nommers"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkShowLineModification)
-#: dialogs/bordersappearanceconfigwidget.ui:83
+#: dialogs/bordersappearanceconfigwidget.ui:95
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will display line numbers on "
@@ -267,14 +280,20 @@ msgstr ""
 "die links hand kant."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowLineModification)
-#: dialogs/bordersappearanceconfigwidget.ui:86
+#: dialogs/bordersappearanceconfigwidget.ui:98
+#, kde-format
+msgid "Highlight changed and unsaved lines"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/bordersappearanceconfigwidget.ui:121
 #, fuzzy, kde-format
-#| msgid "Show Folding &Markers"
-msgid "Show line modification markers"
-msgstr "Vertoon Vou en Merkers"
+#| msgid "Show &scrollbar marks"
+msgid "Scrollbars"
+msgstr "Wys rolstaaf merke"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMarks)
-#: dialogs/bordersappearanceconfigwidget.ui:93
+#: dialogs/bordersappearanceconfigwidget.ui:128
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will show marks on the vertical "
@@ -286,14 +305,8 @@ msgstr ""
 "As hierdie opsie nagegaan is, elke nuwe besigtig sal vertoon merke op die "
 "vertikale rolstaaf.<br><br>Hierdie merke sal, byvoorbeeld, wys boekmerke."
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMarks)
-#: dialogs/bordersappearanceconfigwidget.ui:96
-#, kde-format
-msgid "Show &scrollbar marks"
-msgstr "Wys rolstaaf merke"
-
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:103
+#: dialogs/bordersappearanceconfigwidget.ui:138
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will show marks on the vertical "
@@ -306,13 +319,21 @@ msgstr ""
 "vertikale rolstaaf.<br><br>Hierdie merke sal, byvoorbeeld, wys boekmerke."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarPreview)
-#: dialogs/bordersappearanceconfigwidget.ui:106
-#, kde-format
-msgid "Show text &preview on scrollbar"
-msgstr ""
+#: dialogs/bordersappearanceconfigwidget.ui:141
+#, fuzzy, kde-format
+#| msgid "Print the current document."
+msgid "Show preview when hovering over scrollbar"
+msgstr "Druk die huidige dokument."
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/bordersappearanceconfigwidget.ui:164
+#, fuzzy, kde-format
+#| msgid "&Minimal matching"
+msgid "Minimap:"
+msgstr "Minimale passing"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMiniMap)
-#: dialogs/bordersappearanceconfigwidget.ui:113
+#: dialogs/bordersappearanceconfigwidget.ui:171
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will display line numbers on "
@@ -325,14 +346,14 @@ msgstr ""
 "die links hand kant."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMiniMap)
-#: dialogs/bordersappearanceconfigwidget.ui:116
+#: dialogs/bordersappearanceconfigwidget.ui:174
 #, fuzzy, kde-format
 #| msgid "Show &scrollbar marks"
-msgid "Show scrollbar mini-map"
+msgid "Show minimap"
 msgstr "Wys rolstaaf merke"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, chkScrollbarMiniMapAll)
-#: dialogs/bordersappearanceconfigwidget.ui:132
+#: dialogs/bordersappearanceconfigwidget.ui:184
 #, fuzzy, kde-format
 #| msgid ""
 #| "If this option is checked, every new view will display line numbers on "
@@ -345,59 +366,45 @@ msgstr ""
 "die links hand kant."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkScrollbarMiniMapAll)
-#: dialogs/bordersappearanceconfigwidget.ui:135
+#: dialogs/bordersappearanceconfigwidget.ui:187
 #, fuzzy, kde-format
 #| msgid "Save the current document"
 msgid "Map the whole document"
 msgstr "Stoor die huidige dokument"
 
 #. i18n: ectx: property (text), widget (QLabel, labelMiniMapWidth)
-#: dialogs/bordersappearanceconfigwidget.ui:145
+#: dialogs/bordersappearanceconfigwidget.ui:213
 #, fuzzy, kde-format
 #| msgid "&Minimal matching"
 msgid "Minim&ap width:"
 msgstr "Minimale passing"
 
-#. i18n: ectx: property (text), widget (QLabel, lblShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:205
-#, kde-format
-msgid "Scro&llbars visibility:"
-msgstr ""
-
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:216 dialogs/katedialogs.cpp:683
+#: dialogs/bordersappearanceconfigwidget.ui:224 dialogs/katedialogs.cpp:683
 #, kde-format
 msgid "Always On"
 msgstr "Altyd Aan"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:221
+#: dialogs/bordersappearanceconfigwidget.ui:229
 #, kde-format
 msgid "Show When Needed"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:226
+#: dialogs/bordersappearanceconfigwidget.ui:234
 #, fuzzy, kde-format
 msgid "Always Off"
 msgstr "Altyd Aan"
 
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, gbSortBookmarks)
-#: dialogs/bordersappearanceconfigwidget.ui:246
+#. i18n: ectx: property (text), widget (QLabel, lblShowScrollbars)
+#: dialogs/bordersappearanceconfigwidget.ui:242
 #, kde-format
-msgid ""
-"Choose how the bookmarks should be ordered in the <b>Bookmarks</b> menu."
+msgid "Scro&llbars visibility:"
 msgstr ""
-"Kies hoe die boekmerke moet wees gesorteer in die <b>boekmerke</b> kieslys."
-
-#. i18n: ectx: property (title), widget (QGroupBox, gbSortBookmarks)
-#: dialogs/bordersappearanceconfigwidget.ui:249
-#, kde-format
-msgid "Sort Bookmarks Menu"
-msgstr "Sorteer Boekmerke Kieslys"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbSortBookmarksByCreation)
-#: dialogs/bordersappearanceconfigwidget.ui:255
+#: dialogs/bordersappearanceconfigwidget.ui:252
 #, kde-format
 msgid ""
 "Each new bookmark will be added to the bottom, independently from where it "
@@ -407,25 +414,31 @@ msgstr ""
 "dit posisioneer is in die dokument."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbSortBookmarksByCreation)
-#: dialogs/bordersappearanceconfigwidget.ui:258
-#, fuzzy, kde-format
-#| msgid "By c&reation"
-msgid "B&y creation"
-msgstr "Deur skep"
+#: dialogs/bordersappearanceconfigwidget.ui:255
+#, kde-format
+msgid "By date created"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbSortBookmarksByPosition)
-#: dialogs/bordersappearanceconfigwidget.ui:265
+#: dialogs/bordersappearanceconfigwidget.ui:262
 #, kde-format
 msgid "The bookmarks will be ordered by the line numbers they are placed at."
 msgstr ""
 "Die boekmerke sal wees gesorteer deur Die lyn nommers hulle word rangorde na."
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbSortBookmarksByPosition)
-#: dialogs/bordersappearanceconfigwidget.ui:268
+#: dialogs/bordersappearanceconfigwidget.ui:265
 #, fuzzy, kde-format
-#| msgid "By &position"
-msgid "By posi&tion"
-msgstr "Deur posisie"
+#| msgid "Show &line numbers"
+msgid "By line number"
+msgstr "Vertoon lyn nommers"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: dialogs/bordersappearanceconfigwidget.ui:272
+#, fuzzy, kde-format
+#| msgid "Sort Bookmarks Menu"
+msgid "Sort bookmarks menu:"
+msgstr "Sorteer Boekmerke Kieslys"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
@@ -7869,6 +7882,35 @@ msgstr ""
 #| msgid "Mark Type %1"
 msgid "Mark not set: %1"
 msgstr "Merk Tipe %1"
+
+#, fuzzy
+#~| msgid "Show Folding &Markers"
+#~ msgid "Show &folding markers"
+#~ msgstr "Vertoon Vou en Merkers"
+
+#~ msgid "Show &icon border"
+#~ msgstr "Vertoon ikoon grens"
+
+#, fuzzy
+#~| msgid "Show Folding &Markers"
+#~ msgid "Show line modification markers"
+#~ msgstr "Vertoon Vou en Merkers"
+
+#~ msgid ""
+#~ "Choose how the bookmarks should be ordered in the <b>Bookmarks</b> menu."
+#~ msgstr ""
+#~ "Kies hoe die boekmerke moet wees gesorteer in die <b>boekmerke</b> "
+#~ "kieslys."
+
+#, fuzzy
+#~| msgid "By c&reation"
+#~ msgid "B&y creation"
+#~ msgstr "Deur skep"
+
+#, fuzzy
+#~| msgid "By &position"
+#~ msgid "By posi&tion"
+#~ msgstr "Deur posisie"
 
 #, fuzzy
 #~| msgid ""
