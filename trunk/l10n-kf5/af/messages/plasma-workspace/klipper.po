@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-16 00:46+0000\n"
+"POT-Creation-Date: 2022-01-29 00:45+0000\n"
 "PO-Revision-Date: 2005-11-23 23:00+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -33,7 +33,7 @@ msgstr "Verwyder witspasie by uitvoering van aksies"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableMagicMimeActions)
 #. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
-#: actionsconfig.ui:31 klipper.kcfg:84
+#: actionsconfig.ui:31 klipper.kcfg:88
 #, fuzzy, kde-format
 #| msgid "Enable/Disable Clipboard Actions"
 msgid "Enable MIME-based actions"
@@ -96,71 +96,143 @@ msgid ""
 "wikipedia.org/wiki/Regular_expression\">Wikipedia entry about this topic</a>."
 msgstr ""
 
-#: configdialog.cpp:24
+#: configdialog.cpp:71
+#, fuzzy, kde-format
+#| msgid "Pre&vent empty clipboard"
+msgid "Selection and Clipboard:"
+msgstr "Verhoed leegmaak van klipbord"
+
+#: configdialog.cpp:78
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"When text or an area of the screen is highlighted with the mouse or "
+"keyboard, this is the <emphasis>selection</emphasis>. It can be pasted using "
+"the middle mouse button.<nl/><nl/>If the selection is explicitly copied "
+"using a <interface>Copy</interface> or <interface>Cut</interface> action, it "
+"is saved to the <emphasis>clipboard</emphasis>. It can be pasted using a "
+"<interface>Paste</interface> action. <nl/><nl/>When turned on this option "
+"keeps the selection and the clipboard the same, so that any selection is "
+"immediately available to paste by any means. If it is turned off, the "
+"selection may still be saved in the clipboard history (subject to the "
+"options below), but it can only be pasted using the middle mouse button."
+msgstr ""
+
+#: configdialog.cpp:104 configdialog.cpp:139
+#, fuzzy, kde-format
+#| msgid "&Replay actions on an item selected from history"
+msgid "Always save in history"
+msgstr "Weerspeel aksies op 'n item gekose van geskiedenis"
+
+#: configdialog.cpp:107
+#, fuzzy, kde-format
+#| msgid "&Ignore selection"
+msgid "Text selection:"
+msgstr "Ignoreer keuse"
+
+#: configdialog.cpp:109 configdialog.cpp:144
+#, kde-format
+msgid "Only when explicitly copied"
+msgstr ""
+
+#: configdialog.cpp:114
+#, fuzzy, kde-format
+#| msgid "C&lear Clipboard History"
+msgid "Whether text selections are saved in the clipboard history."
+msgstr "Maak skoon Klipbord Geskiedenis"
+
+#: configdialog.cpp:142
+#, fuzzy, kde-format
+#| msgid "&Ignore selection"
+msgid "Non-text selection:"
+msgstr "Ignoreer keuse"
+
+#: configdialog.cpp:149
+#, fuzzy, kde-format
+#| msgid "&Replay actions on an item selected from history"
+msgid "Never save in history"
+msgstr "Weerspeel aksies op 'n item gekose van geskiedenis"
+
+#: configdialog.cpp:154
+#, kde-format
+msgid ""
+"Whether non-text selections (such as images) are saved in the clipboard "
+"history."
+msgstr ""
+
+#: configdialog.cpp:163
 #, fuzzy, kde-format
 #| msgid " sec"
+msgctxt "Unit of time"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] " sek"
 msgstr[1] " sek"
 
-#: configdialog.cpp:25
+#: configdialog.cpp:164
+#, kde-format
+msgctxt "No timeout"
+msgid "None"
+msgstr ""
+
+#: configdialog.cpp:173
 #, fuzzy, kde-format
 #| msgid " entry"
 #| msgid_plural " entries"
+msgctxt "NUmber of entries"
 msgid " entry"
 msgid_plural " entries"
 msgstr[0] "inskrywing"
 msgstr[1] "inskrywing"
 
-#: configdialog.cpp:235
+#: configdialog.cpp:424
 #, kde-format
 msgid "Advanced Settings"
 msgstr "Gevorderde Instellings"
 
-#: configdialog.cpp:259
+#: configdialog.cpp:448
 #, fuzzy, kde-format
 #| msgid "&General"
 msgctxt "General Config"
 msgid "General"
 msgstr "Algemeen"
 
-#: configdialog.cpp:259
+#: configdialog.cpp:448
 #, fuzzy, kde-format
 #| msgid "&General"
 msgid "General Configuration"
 msgstr "Algemeen"
 
-#: configdialog.cpp:260
+#: configdialog.cpp:449
 #, fuzzy, kde-format
 #| msgid "Ac&tions"
 msgctxt "Actions Config"
 msgid "Actions"
 msgstr "Aksies"
 
-#: configdialog.cpp:260
+#: configdialog.cpp:449
 #, fuzzy, kde-format
 #| msgid "Ac&tions"
 msgid "Actions Configuration"
 msgstr "Aksies"
 
-#: configdialog.cpp:263
+#: configdialog.cpp:452
 #, fuzzy, kde-format
 msgctxt "Shortcuts Config"
 msgid "Shortcuts"
 msgstr "Kortpaaie"
 
-#: configdialog.cpp:263
+#: configdialog.cpp:452
 #, fuzzy, kde-format
 msgid "Shortcuts Configuration"
 msgstr "Kortpaaie"
 
-#: configdialog.cpp:321
+#: configdialog.cpp:518
 #, kde-format
 msgid "D&isable Actions for Windows of Type WM_CLASS"
 msgstr "Deaktiveer Aksies vir Vensters van Tipe WM_CLASS"
 
-#: configdialog.cpp:330
+#: configdialog.cpp:527
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>This lets you specify windows in which Klipper should not invoke "
@@ -275,70 +347,6 @@ msgstr "Verwyder Opdrag"
 #, kde-format
 msgid "Double-click an item to edit"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepClipboardContents)
-#: generalconfig.ui:17
-#, fuzzy, kde-format
-#| msgid "Save clipboard contents on e&xit"
-msgid "Save clipboard contents on exit"
-msgstr "Stoor klipbord inhoud op beïendig"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PreventEmptyClipboard)
-#. i18n: ectx: label, entry (PreventEmptyClipboard), group (General)
-#: generalconfig.ui:24 klipper.kcfg:16
-#, fuzzy, kde-format
-#| msgid "Pre&vent empty clipboard"
-msgid "Prevent empty clipboard"
-msgstr "Verhoed leegmaak van klipbord"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreImages)
-#. i18n: ectx: label, entry (IgnoreImages), group (General)
-#: generalconfig.ui:31 klipper.kcfg:21
-#, kde-format
-msgid "Ignore images"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, selection_group)
-#: generalconfig.ui:38
-#, fuzzy, kde-format
-#| msgid "Pre&vent empty clipboard"
-msgid "Selection and Clipboard"
-msgstr "Verhoed leegmaak van klipbord"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
-#: generalconfig.ui:44
-#, fuzzy, kde-format
-#| msgid "&Ignore selection"
-msgid "Ignore selection"
-msgstr "Ignoreer keuse"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SelectionTextOnly)
-#: generalconfig.ui:51
-#, fuzzy, kde-format
-#| msgid "&Ignore selection"
-msgid "Text selection only"
-msgstr "Ignoreer keuse"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SyncClipboards)
-#: generalconfig.ui:58
-#, fuzzy, kde-format
-#| msgid "Sy&nchronize contents of the clipboard and the selection"
-msgid "Synchronize contents of the clipboard and the selection"
-msgstr "Sinkroniseer inhoud van die klipbord en die keuse"
-
-#. i18n: ectx: property (text), widget (QLabel, timeout_label)
-#: generalconfig.ui:68
-#, fuzzy, kde-format
-#| msgid "Tim&eout for action popups:"
-msgid "Timeout for action popups:"
-msgstr "Tydverstreke vir aksie opspring:"
-
-#. i18n: ectx: property (text), widget (QLabel, history_size_label)
-#: generalconfig.ui:82
-#, fuzzy, kde-format
-#| msgid "C&lipboard history size:"
-msgid "Clipboard history size:"
-msgstr "Klipbord geskiedenis grootte:"
 
 #: historyimageitem.cpp:38
 #, kde-format
@@ -487,148 +495,182 @@ msgstr "Klipper"
 
 #. i18n: ectx: label, entry (KeepClipboardContents), group (General)
 #: klipper.kcfg:12
+#, kde-format
+msgid "Save the clipboard history across desktop sessions"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (KeepClipboardContents), group (General)
+#: klipper.kcfg:14
+#, kde-format
+msgid ""
+"Retain the clipboard history, so it will be available the next time you log "
+"in."
+msgstr ""
+
+#. i18n: ectx: label, entry (PreventEmptyClipboard), group (General)
+#: klipper.kcfg:17
 #, fuzzy, kde-format
-#| msgid "Save clipboard contents on e&xit"
-msgid "Keep clipboard contents"
-msgstr "Stoor klipbord inhoud op beïendig"
+#| msgid "Pre&vent empty clipboard"
+msgid "Prevent the clipboard from being cleared"
+msgstr "Verhoed leegmaak van klipbord"
 
 #. i18n: ectx: whatsthis, entry (PreventEmptyClipboard), group (General)
-#: klipper.kcfg:18
+#: klipper.kcfg:19
 #, kde-format
 msgid ""
-"Selecting this option has the effect, that the clipboard can never be "
-"emptied. E.g. when an application exits, the clipboard would usually be "
-"emptied."
-msgstr ""
-"Die kies van hierdie opsie het die effek, dat die klipbord nooit leeg gemaak "
-"kan word nie. Byvoorbeeld wanneer 'n aansoek uitgaan, sal die klipbord "
-"gewoonlik leeggemaak word."
-
-#. i18n: ectx: label, entry (IgnoreSelection), group (General)
-#: klipper.kcfg:25
-#, fuzzy, kde-format
-#| msgid "&Ignore selection"
-msgid "Ignore Selection"
-msgstr "Ignoreer keuse"
-
-#. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)
-#: klipper.kcfg:27
-#, kde-format
-msgid ""
-"When an area of the screen is selected with mouse or keyboard, this is "
-"called \"the selection\".<br/>If this option is set, the selection is not "
-"entered into the clipboard history, though it is still available for pasting "
-"using the middle mouse button."
+"Do not allow the clipboard to be cleared, for example when an application "
+"exits."
 msgstr ""
 
 #. i18n: ectx: label, entry (SyncClipboards), group (General)
-#: klipper.kcfg:34
+#: klipper.kcfg:26
 #, fuzzy, kde-format
-#| msgid "Separate clipboard and selection"
-msgid "Synchronize clipboard and selection"
-msgstr "Aparte klipbord en keuse"
+#| msgid "Pre&vent empty clipboard"
+msgid "Keep the selection and clipboard the same"
+msgstr "Verhoed leegmaak van klipbord"
 
 #. i18n: ectx: whatsthis, entry (SyncClipboards), group (General)
-#: klipper.kcfg:36
+#: klipper.kcfg:28
 #, kde-format
 msgid ""
-"When an area of the screen is selected with mouse or keyboard, this is "
-"called \"the selection\".<br/>If this option is selected, the selection and "
-"the clipboard is kept the same, so that anything in the selection is "
-"immediately available for pasting elsewhere using any method, including the "
-"traditional middle mouse button. Otherwise, the selection is recorded in the "
-"clipboard history, but the selection can only be pasted using the middle "
-"mouse button. Also see the 'Ignore Selection' option."
+"Content selected with the cursor is automatically copied to the clipboard so "
+"that it can be pasted with either a Paste action or a middle-click.<br/><a "
+"href=\"1\">More about the selection and clipboard</a>."
+msgstr ""
+
+#. i18n: ectx: label, entry (IgnoreSelection), group (General)
+#: klipper.kcfg:31
+#, fuzzy, kde-format
+#| msgid "&Ignore selection"
+msgid "Ignore the selection"
+msgstr "Ignoreer keuse"
+
+#. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)
+#: klipper.kcfg:33
+#, kde-format
+msgid ""
+"Content selected with the cursor but not explicitly copied to the clipboard "
+"is not automatically stored in the clipboard history, and can only be pasted "
+"using a middle-click."
 msgstr ""
 
 #. i18n: ectx: label, entry (SelectionTextOnly), group (General)
-#: klipper.kcfg:39
+#: klipper.kcfg:36
 #, fuzzy, kde-format
 #| msgid "&Ignore selection"
-msgid "Selection text only"
+msgid "Text selection only"
 msgstr "Ignoreer keuse"
 
 #. i18n: ectx: whatsthis, entry (SelectionTextOnly), group (General)
-#: klipper.kcfg:41
+#: klipper.kcfg:38
 #, kde-format
 msgid ""
-"When an area of the screen is selected with mouse or keyboard, this is "
-"called \"the selection\".<br/>If this option is selected, only text "
-"selections are stored in the history, while images and other selections are "
-"not."
+"Only store text selections in the clipboard history, not images or any other "
+"type of data."
+msgstr ""
+
+#. i18n: ectx: label, entry (IgnoreImages), group (General)
+#: klipper.kcfg:41
+#, kde-format
+msgid "Always ignore images"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (IgnoreImages), group (General)
+#: klipper.kcfg:43
+#, kde-format
+msgid ""
+"Do not store images in the clipboard history, even if explicitly copied."
 msgstr ""
 
 #. i18n: ectx: label, entry (UseGUIRegExpEditor), group (General)
-#: klipper.kcfg:44
+#: klipper.kcfg:46
 #, kde-format
 msgid "Use graphical regexp editor"
 msgstr ""
 
 #. i18n: ectx: label, entry (URLGrabberEnabled), group (General)
-#: klipper.kcfg:48
+#: klipper.kcfg:50
 #, kde-format
 msgid "URL grabber enabled"
 msgstr ""
 
 #. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
-#: klipper.kcfg:53
+#: klipper.kcfg:55
 #, kde-format
 msgid "No actions for WM_CLASS"
 msgstr ""
 
 #. i18n: ectx: label, entry (TimeoutForActionPopups), group (General)
-#: klipper.kcfg:56
+#: klipper.kcfg:58
 #, fuzzy, kde-format
 #| msgid "Tim&eout for action popups:"
-msgid "Timeout for action popups (seconds)"
+msgid "Automatic action popup time:"
 msgstr "Tydverstreke vir aksie opspring:"
 
 #. i18n: ectx: tooltip, entry (TimeoutForActionPopups), group (General)
-#: klipper.kcfg:60
+#: klipper.kcfg:62
 #, kde-format
-msgid "A value of 0 disables the timeout"
-msgstr "'n waarde van 0 deaktiveer die tydverstreke"
+msgid "Display the automatic action popup for this time."
+msgstr ""
 
 #. i18n: ectx: label, entry (MaxClipItems), group (General)
-#: klipper.kcfg:63
+#: klipper.kcfg:65
 #, fuzzy, kde-format
 #| msgid "C&lipboard history size:"
-msgid "Clipboard history size"
+msgid "Clipboard history size:"
 msgstr "Klipbord geskiedenis grootte:"
 
-#. i18n: ectx: label, entry (ActionList), group (General)
+#. i18n: ectx: tooltip, entry (MaxClipItems), group (General)
 #: klipper.kcfg:69
+#, kde-format
+msgid "The clipboard history will store up to this many items."
+msgstr ""
+
+#. i18n: ectx: label, entry (ActionList), group (General)
+#: klipper.kcfg:72
 #, kde-format
 msgid "Dummy entry for indicating changes in an action's tree widget"
 msgstr ""
 
 #. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
-#: klipper.kcfg:75
+#: klipper.kcfg:78
 #, fuzzy, kde-format
 #| msgid "Remove whitespace when executing actions"
 msgid "Strip whitespace when executing an action"
 msgstr "Verwyder witspasie by uitvoering van aksies"
 
-#. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
-#: klipper.kcfg:77
+#. i18n: ectx: tooltip, entry (StripWhiteSpace), group (Actions)
+#: klipper.kcfg:80
 #, kde-format
 msgid ""
-"Sometimes, the selected text has some whitespace at the end, which, if "
-"loaded as URL in a browser would cause an error. Enabling this option "
-"removes any whitespace at the beginning or end of the selected string (the "
-"original clipboard contents will not be modified)."
+"Remove white space from the start and end of clipboard text before "
+"performing an action. For example, this ensures that the URL pasted in a "
+"browser is interpreted as expected.<br/><br/>The text saved on the clipboard "
+"is not affected."
 msgstr ""
-"Soms, het die verkose teks somige witspasie aan die einde, wat as gelaai "
-"word as URL in 'n blaaier foute kan veroorsaak. Ontspering van hierdie opsie "
-"verwyder enige witspasies aan die begin of einde van die verkose string (die "
-"oorspronklike klipbord inhoud sal nie modifiseer word nie)."
 
 #. i18n: ectx: label, entry (ReplayActionInHistory), group (Actions)
-#: klipper.kcfg:80
+#: klipper.kcfg:83
 #, fuzzy, kde-format
 #| msgid "&Replay actions on an item selected from history"
 msgid "Replay action in history"
 msgstr "Weerspeel aksies op 'n item gekose van geskiedenis"
+
+#. i18n: ectx: tooltip, entry (ReplayActionInHistory), group (Actions)
+#: klipper.kcfg:85
+#, kde-format
+msgid ""
+"When a clipboard item is selected from the history popup, automatically "
+"perform the configured actions on it."
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (EnableMagicMimeActions), group (Actions)
+#: klipper.kcfg:90
+#, kde-format
+msgid ""
+"If this option is set, and a file name or URL is selected, include "
+"applications that can handle its MIME type in the actions popup."
+msgstr ""
 
 #: klipperpopup.cpp:60 tray.cpp:25 tray.cpp:41
 #, fuzzy, kde-format
@@ -763,6 +805,69 @@ msgstr "Versper hierdie opspring"
 #, kde-format
 msgid "&Cancel"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Save clipboard contents on e&xit"
+#~ msgid "Save clipboard contents on exit"
+#~ msgstr "Stoor klipbord inhoud op beïendig"
+
+#, fuzzy
+#~| msgid "Sy&nchronize contents of the clipboard and the selection"
+#~ msgid "Synchronize contents of the clipboard and the selection"
+#~ msgstr "Sinkroniseer inhoud van die klipbord en die keuse"
+
+#, fuzzy
+#~| msgid "Save clipboard contents on e&xit"
+#~ msgid "Keep clipboard contents"
+#~ msgstr "Stoor klipbord inhoud op beïendig"
+
+#~ msgid ""
+#~ "Selecting this option has the effect, that the clipboard can never be "
+#~ "emptied. E.g. when an application exits, the clipboard would usually be "
+#~ "emptied."
+#~ msgstr ""
+#~ "Die kies van hierdie opsie het die effek, dat die klipbord nooit leeg "
+#~ "gemaak kan word nie. Byvoorbeeld wanneer 'n aansoek uitgaan, sal die "
+#~ "klipbord gewoonlik leeggemaak word."
+
+#, fuzzy
+#~| msgid "&Ignore selection"
+#~ msgid "Ignore Selection"
+#~ msgstr "Ignoreer keuse"
+
+#, fuzzy
+#~| msgid "Separate clipboard and selection"
+#~ msgid "Synchronize clipboard and selection"
+#~ msgstr "Aparte klipbord en keuse"
+
+#, fuzzy
+#~| msgid "&Ignore selection"
+#~ msgid "Selection text only"
+#~ msgstr "Ignoreer keuse"
+
+#, fuzzy
+#~| msgid "Tim&eout for action popups:"
+#~ msgid "Timeout for action popups (seconds)"
+#~ msgstr "Tydverstreke vir aksie opspring:"
+
+#~ msgid "A value of 0 disables the timeout"
+#~ msgstr "'n waarde van 0 deaktiveer die tydverstreke"
+
+#, fuzzy
+#~| msgid "C&lipboard history size:"
+#~ msgid "Clipboard history size"
+#~ msgstr "Klipbord geskiedenis grootte:"
+
+#~ msgid ""
+#~ "Sometimes, the selected text has some whitespace at the end, which, if "
+#~ "loaded as URL in a browser would cause an error. Enabling this option "
+#~ "removes any whitespace at the beginning or end of the selected string "
+#~ "(the original clipboard contents will not be modified)."
+#~ msgstr ""
+#~ "Soms, het die verkose teks somige witspasie aan die einde, wat as gelaai "
+#~ "word as URL in 'n blaaier foute kan veroorsaak. Ontspering van hierdie "
+#~ "opsie verwyder enige witspasies aan die begin of einde van die verkose "
+#~ "string (die oorspronklike klipbord inhoud sal nie modifiseer word nie)."
 
 #, fuzzy
 #~| msgid " - Actions For: "
