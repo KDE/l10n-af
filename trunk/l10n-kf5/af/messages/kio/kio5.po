@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-07 00:40+0000\n"
+"POT-Creation-Date: 2022-03-08 00:40+0000\n"
 "PO-Revision-Date: 2005-11-26 17:02+0200\n"
 "Last-Translator: Kobus <kabousv@therugby.co.za>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -3303,39 +3303,52 @@ msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "*|Alle Lêers"
 
-#: filewidgets/kfileplacesmodel.cpp:1404
+#: filewidgets/kfileplacesmodel.cpp:1129
+#, fuzzy, kde-format
+#| msgid "Could not find the program '%1'"
+msgctxt "Placeholder is error message"
+msgid "Could not add to the Places panel: %1"
+msgstr "Kon nie die program '%1' vind nie."
+
+#: filewidgets/kfileplacesmodel.cpp:1136
+#, fuzzy, kde-format
+#| msgid "The file or folder %1 does not exist."
+msgid "Only folders can be added to the Places panel."
+msgstr "Die lêer of gids %1 bestaan nie."
+
+#: filewidgets/kfileplacesmodel.cpp:1395
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&Release"
 msgstr "Verwyder Inskrywing"
 
-#: filewidgets/kfileplacesmodel.cpp:1406
+#: filewidgets/kfileplacesmodel.cpp:1397
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
 msgstr "Verwyder Inskrywing"
 
-#: filewidgets/kfileplacesmodel.cpp:1409
+#: filewidgets/kfileplacesmodel.cpp:1400
 #, fuzzy, kde-format
 #| msgid "Unmount"
 msgctxt "@action:inmenu"
 msgid "&Unmount"
 msgstr "Ontkoppel"
 
-#: filewidgets/kfileplacesmodel.cpp:1428
+#: filewidgets/kfileplacesmodel.cpp:1419
 #, fuzzy, kde-format
 #| msgid "Eject"
 msgctxt "@action:inmenu"
 msgid "&Eject"
 msgstr "Uitskiet"
 
-#: filewidgets/kfileplacesmodel.cpp:1464
+#: filewidgets/kfileplacesmodel.cpp:1455
 #, fuzzy, kde-format
 #| msgid "The specified resource may not exist."
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "Die gespesifiseer hulpbron dalk mag nie bestaan."
 
-#: filewidgets/kfileplacesmodel.cpp:1499
+#: filewidgets/kfileplacesmodel.cpp:1490
 #, fuzzy, kde-format
 #| msgid ""
 #| "An error occurred while attempting to %1, %2. A summary of the reasons is "
@@ -3345,7 +3358,7 @@ msgstr ""
 "'n fout voorgekom terwyl probeer na %1, %2. 'n opsomming van die redes is "
 "onder.<ul>"
 
-#: filewidgets/kfileplacesmodel.cpp:1501
+#: filewidgets/kfileplacesmodel.cpp:1492
 #, fuzzy, kde-format
 #| msgid "An unexpected error (%1) occurred while attempting to %2."
 msgid "An error occurred while accessing '%1'"
