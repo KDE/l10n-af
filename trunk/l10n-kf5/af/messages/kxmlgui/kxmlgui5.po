@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-22 00:42+0000\n"
+"POT-Creation-Date: 2022-06-01 00:44+0000\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -574,13 +574,16 @@ msgid "&Submit Bug Report"
 msgstr "Stuur in Fout Raporteer"
 
 #: kbugreport.cpp:380
-#, fuzzy, kde-format
-#| msgid "Could not find '%1' executable."
-msgctxt "The arg is the command kcmshell5"
-msgid "Could not find '%1' executable in PATH."
-msgstr "Kon nie die program '%1' vind nie."
+#, kde-format
+msgctxt ""
+"The second arg is 'kde-cli-tools' which is the package that contains "
+"kcmshell5 (the first arg)"
+msgid ""
+"Could not find <application>%1</application> executable (usually it's part "
+"of the \"%2\" package)."
+msgstr ""
 
-#: kbugreport.cpp:430
+#: kbugreport.cpp:432
 #, kde-format
 msgid ""
 "You must specify both a subject and a description before the report can be "
@@ -589,7 +592,7 @@ msgstr ""
 "Jy moet spesifiseer beide 'n onderwerp en 'n beskrywing voor die raporteer "
 "kan wees gestuur."
 
-#: kbugreport.cpp:439
+#: kbugreport.cpp:441
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>You chose the severity <b>Critical</b>. Please note that this severity "
@@ -616,7 +619,7 @@ msgstr ""
 "<p>Doen die fout Jy word raporteer veroorsaak enige van die boonste skade? "
 "As dit Doen nie, Asseblief kies 'n sagter ernstigheidsgraad. Dank Jy!</p>"
 
-#: kbugreport.cpp:455
+#: kbugreport.cpp:457
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
@@ -643,7 +646,7 @@ msgstr ""
 "<p>Doen die fout Jy word raporteer veroorsaak enige van die boonste skade? "
 "As dit Doen nie, Asseblief kies 'n sagter ernstigheidsgraad. Dank Jy!</p>"
 
-#: kbugreport.cpp:474
+#: kbugreport.cpp:476
 #, fuzzy, kde-format
 #| msgid ""
 #| "Unable to send the bug report.\n"
@@ -658,12 +661,12 @@ msgstr ""
 "Asseblief stuur in 'n fout raporteer eiehandig...\n"
 "Sien http://bugs.kde.org/ vir instruksies."
 
-#: kbugreport.cpp:481
+#: kbugreport.cpp:483
 #, kde-format
 msgid "Bug report sent, thank you for your input."
 msgstr "Fout raporteer gestuur, dank jy vir jou invoer."
 
-#: kbugreport.cpp:489
+#: kbugreport.cpp:491
 #, kde-format
 msgid ""
 "Close and discard\n"
@@ -672,7 +675,7 @@ msgstr ""
 "Maak toe en gooi weg\n"
 "geredigeerde boodskap?"
 
-#: kbugreport.cpp:490
+#: kbugreport.cpp:492
 #, fuzzy, kde-format
 #| msgid "Close Message"
 msgctxt "@title:window"
@@ -1706,6 +1709,12 @@ msgstr "Instellings"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "Hoof Nutsbalk"
+
+#, fuzzy
+#~| msgid "Could not find '%1' executable."
+#~ msgctxt "The arg is the command kcmshell5"
+#~ msgid "Could not find '%1' executable in PATH."
+#~ msgstr "Kon nie die program '%1' vind nie."
 
 #, fuzzy
 #~| msgid "Libraries"
