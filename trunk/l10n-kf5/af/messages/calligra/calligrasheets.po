@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kspread VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-07-25 00:46+0000\n"
+"POT-Creation-Date: 2022-08-01 00:44+0000\n"
 "PO-Revision-Date: 2002-11-07 11:41+0200\n"
 "Last-Translator: WEB-Translator <http://kde.af.org.za>\n"
 "Language-Team: AFRIKAANS <AF@lia.org.za>\n"
@@ -3359,7 +3359,7 @@ msgstr "Hierdie dokument het nee tabel."
 msgid "Invalid document. Sheet name is empty."
 msgstr "Ongeldige dokument. Tabel naam is leeg"
 
-#: core/Map.cpp:242 engine/MapBase.cpp:186
+#: core/Map.cpp:242 engine/MapBase.cpp:187
 #, kde-format
 msgid "Sheet%1"
 msgstr "Sheet%1"
@@ -3521,15 +3521,15 @@ msgstr ""
 msgid "Related Functions"
 msgstr "<h2>Verwanter Funksie</h2><ul>"
 
-#: engine/Localization.cpp:237
-#, fuzzy, kde-format
-msgid "false"
-msgstr "As vals"
-
-#: engine/Localization.cpp:237
+#: engine/Localization.cpp:413
 #, fuzzy, kde-format
 msgid "true"
 msgstr "As waar"
+
+#: engine/Localization.cpp:414
+#, fuzzy, kde-format
+msgid "false"
+msgstr "As vals"
 
 #: engine/SheetBase.cpp:343
 #, fuzzy, kde-format
@@ -18035,10 +18035,9 @@ msgstr "Stel 'n bodem grens na die gekose area."
 msgid "All Borders"
 msgstr "Alle Grense"
 
-#: ui/CellToolBase.cpp:319 ui/CellToolBase.cpp:546
-#: ui/dialogs/FormulaDialog.cpp:84 ui/dialogs/FormulaDialog.cpp:190
-#: ui/dialogs/FormulaDialog.cpp:722 ui/dialogs/ValidityDialog.cpp:64
-#: ui/FilterPopup.cpp:55
+#: ui/CellToolBase.cpp:319 ui/dialogs/FormulaDialog.cpp:84
+#: ui/dialogs/FormulaDialog.cpp:190 ui/dialogs/FormulaDialog.cpp:722
+#: ui/dialogs/ValidityDialog.cpp:64 ui/FilterPopup.cpp:55
 #, kde-format
 msgid "All"
 msgstr "Alle"
@@ -18481,7 +18480,7 @@ msgstr "Verwyder Selle..."
 msgid "Removes the cells from the spreadsheet"
 msgstr "Verwyder die huidige sel van die spreiblad."
 
-#: ui/CellToolBase.cpp:547
+#: ui/CellToolBase.cpp:546 ui/CellToolBase.cpp:547
 #, fuzzy, kde-format
 #| msgid "Clear &All"
 msgid "Clear All"
@@ -18854,7 +18853,7 @@ msgstr "Formule Keuse"
 msgid "Insert a function"
 msgstr "Voeg by 'n funksie."
 
-#: ui/CellToolBase.cpp:730 ui/CellToolBase.cpp:2931
+#: ui/CellToolBase.cpp:730 ui/CellToolBase.cpp:2930
 #, kde-format
 msgid "Others..."
 msgstr "Andere..."
@@ -19111,13 +19110,13 @@ msgstr "Voeg by Skakel"
 msgid "Edit Link"
 msgstr "Voeg by Skakel"
 
-#: ui/CellToolBase.cpp:2573 ui/CellToolBase.cpp:2585 ui/CellToolBase.cpp:2607
-#: ui/CellToolBase.cpp:2894 ui/CellToolBase.cpp:2906
+#: ui/CellToolBase.cpp:2572 ui/CellToolBase.cpp:2584 ui/CellToolBase.cpp:2606
+#: ui/CellToolBase.cpp:2893 ui/CellToolBase.cpp:2905
 #, kde-format
 msgid "You must select multiple cells."
 msgstr "Jy moet kies veelvuldige selle."
 
-#: ui/CellToolBase.cpp:2812
+#: ui/CellToolBase.cpp:2811
 #, fuzzy, kde-format
 msgid ""
 "No database drivers available. To use this feature you need to install the "
@@ -19126,7 +19125,7 @@ msgstr ""
 "Nee databasis drywers beskikbaar! Jy benodig na kompileer Qt met die nodige "
 "drywers."
 
-#: ui/CellToolBase.cpp:3395
+#: ui/CellToolBase.cpp:3394
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Replace"
@@ -19535,7 +19534,7 @@ msgctxt "(qtundo-format)"
 msgid "Remove Cells"
 msgstr "Verwyder Selle"
 
-#: ui/commands/DeleteCommand.cpp:20
+#: ui/commands/DeleteCommand.cpp:22
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Delete"
@@ -19553,13 +19552,13 @@ msgctxt "(qtundo-format)"
 msgid "Decrease Indentation"
 msgstr "Verklein Inkeep"
 
-#: ui/commands/LinkCommand.cpp:25
+#: ui/commands/LinkCommand.cpp:23
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Remove Link"
 msgstr "Verwyder Sel"
 
-#: ui/commands/LinkCommand.cpp:25
+#: ui/commands/LinkCommand.cpp:23
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Set Link"
@@ -21413,26 +21412,6 @@ msgstr "Grootte van Sel"
 msgid "Cell or Named Area:"
 msgstr "Verwyder Sel"
 
-#: ui/dialogs/LinkDialog.cpp:288
-#, fuzzy, kde-format
-msgid "Internet address is empty"
-msgstr "Internet adres:"
-
-#: ui/dialogs/LinkDialog.cpp:290
-#, fuzzy, kde-format
-msgid "Mail address is empty"
-msgstr "Area teks is leeg!"
-
-#: ui/dialogs/LinkDialog.cpp:292
-#, fuzzy, kde-format
-msgid "File name is empty"
-msgstr "Area teks is leeg!"
-
-#: ui/dialogs/LinkDialog.cpp:294
-#, fuzzy, kde-format
-msgid "Destination cell is empty"
-msgstr "Area Teks of sel is leeg!"
-
 #: ui/dialogs/ListDialog.cpp:47
 #, kde-format
 msgid "Custom Lists"
@@ -22719,6 +22698,22 @@ msgstr ""
 #, kde-format
 msgid "Open Link?"
 msgstr "Open Skakel?"
+
+#, fuzzy
+#~ msgid "Internet address is empty"
+#~ msgstr "Internet adres:"
+
+#, fuzzy
+#~ msgid "Mail address is empty"
+#~ msgstr "Area teks is leeg!"
+
+#, fuzzy
+#~ msgid "File name is empty"
+#~ msgstr "Area teks is leeg!"
+
+#, fuzzy
+#~ msgid "Destination cell is empty"
+#~ msgstr "Area Teks of sel is leeg!"
 
 #, fuzzy
 #~ msgid "You cannot change a protected sheet"
