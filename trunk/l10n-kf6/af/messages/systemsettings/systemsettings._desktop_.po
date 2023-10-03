@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-22 01:50+0000\n"
+"POT-Creation-Date: 2023-10-03 01:43+0000\n"
 "PO-Revision-Date: 2008-05-16 16:39+0200\n"
 "Last-Translator: Petri Jooste <Petri.Jooste@nwu.ac.za>\n"
 "Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
@@ -72,6 +72,7 @@ msgid "Screen Locking"
 msgstr ""
 
 #: app/systemsettings.desktop:415
+#: categories/settings-hardware-powermanagement.desktop:8
 msgctxt "Name"
 msgid "Energy Saving"
 msgstr ""
@@ -89,35 +90,70 @@ msgctxt "Name"
 msgid "Hidden"
 msgstr ""
 
-#: categories/settings-appearance-color.desktop:8
+#: categories/settings-accounts.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Details"
 msgctxt "Name"
-msgid "Colors"
-msgstr ""
+msgid "Accounts"
+msgstr "Besonderhede"
 
-#: categories/settings-appearance.desktop:10
+#: categories/settings-appearance.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Application Launcher"
 msgctxt "Name"
-msgid "Appearance"
+msgid "Appearance & Style"
 msgstr "Programlanseerder"
 
 #: categories/settings-appearance-font.desktop:8
 msgctxt "Name"
-msgid "Fonts"
+msgid "Text & Fonts"
 msgstr ""
 
-#: categories/settings-hardware.desktop:8
+#: categories/settings-appearance-themes.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
 msgctxt "Name"
-msgid "Hardware"
+msgid "Colors & Themes"
+msgstr "Programlanseerder"
+
+#: categories/settings-applications-defaults.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Default Applications"
+msgstr "Programlanseerder"
+
+#: categories/settings-applications.desktop:8
+msgctxt "Name"
+msgid "Apps & Windows"
 msgstr ""
+
+#: categories/settings-applications-permissions.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Application Permissions"
+msgstr "Programlanseerder"
+
+#: categories/settings-hardware.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
+msgctxt "Name"
+msgid "Connected Devices"
+msgstr "Toestelle"
 
 #: categories/settings-hardware-display.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "File Management"
 msgctxt "Name"
-msgid "Display and Monitor"
+msgid "Display & Monitor"
 msgstr "Lêer Bestuurder"
 
 #: categories/settings-hardware-display.desktop:78
@@ -126,33 +162,29 @@ msgid "Display Settings"
 msgstr "Skerm Instellings"
 
 #: categories/settings-hardware-input.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Devices"
 msgctxt "Name"
-msgid "Input Devices"
-msgstr "Toestelle"
+msgid "Input & Output"
+msgstr ""
+
+#: categories/settings-hardware-input-touchscreen.desktop:8
+msgctxt "Name"
+msgid "Touchscreen"
+msgstr ""
+
+#: categories/settings-hardware-keyboard.desktop:8
+msgctxt "Name"
+msgid "Keyboard"
+msgstr ""
 
 #: categories/settings-hardware-multimedia.desktop:8
 msgctxt "Name"
 msgid "Multimedia"
 msgstr "Multimedia"
 
-#: categories/settings-hardware-powermanagement.desktop:8
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Power Management Backend"
+#: categories/settings-hardware-removable-storage.desktop:8
 msgctxt "Name"
-msgid "Power Management"
-msgstr "Krag-beheer agtergrondprogram"
-
-#: categories/settings-hardware-removable-storage.desktop:7
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "USB Devices"
-msgctxt "Name"
-msgid "Removable Storage"
-msgstr "USB Toestelle"
+msgid "Disks & Cameras"
+msgstr ""
 
 #: categories/settings-network-connectivity.desktop:8
 #, fuzzy
@@ -162,29 +194,15 @@ msgctxt "Name"
 msgid "Connectivity"
 msgstr "Netwerk Program"
 
-#: categories/settings-network.desktop:7
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Settings"
+#: categories/settings-network.desktop:8
 msgctxt "Name"
-msgid "Network"
-msgstr "Instellings"
+msgid "Internet"
+msgstr ""
 
 #: categories/settings-network-networksettings.desktop:8
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "System Locations"
 msgctxt "Name"
-msgid "Settings"
-msgstr "Stelsel Liggings"
-
-#: categories/settings-personalization-applications.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Application Launcher"
-msgctxt "Name"
-msgid "Applications"
-msgstr "Programlanseerder"
+msgid "Wi-Fi & Networking"
+msgstr ""
 
 #: categories/settings-personalization.desktop:8
 #, fuzzy
@@ -194,7 +212,7 @@ msgctxt "Name"
 msgid "Personalization"
 msgstr "Verwerker informasie "
 
-#: categories/settings-personalization-regionalsettings.desktop:8
+#: categories/settings-regionalsettings.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Settings"
@@ -202,18 +220,25 @@ msgctxt "Name"
 msgid "Regional Settings"
 msgstr "Instellings"
 
+#: categories/settings-regionalsettings-formats.desktop:8
+msgctxt "Name"
+msgid "Region & Language"
+msgstr ""
+
 #: categories/settings-root-category.desktop:8
 msgctxt "Name"
 msgid "Root"
 msgstr ""
 
-#: categories/settings-system-administration.desktop:8
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "SAM System-Administration"
+#: categories/settings-security-privacy.desktop:8
 msgctxt "Name"
-msgid "System Administration"
-msgstr "SAM Stelsel Administrasie"
+msgid "Security & Privacy"
+msgstr ""
+
+#: categories/settings-system-administration.desktop:8
+msgctxt "Name"
+msgid "System"
+msgstr ""
 
 #: categories/settings-workspace.desktop:8
 #, fuzzy
@@ -237,9 +262,12 @@ msgid "Search"
 msgstr ""
 
 #: categories/settings-workspace-session.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Partitions"
 msgctxt "Name"
-msgid "Startup and Shutdown"
-msgstr ""
+msgid "Session"
+msgstr "Partisies"
 
 #: categories/settings-workspace-shortcuts.desktop:8
 msgctxt "Name"
@@ -253,6 +281,41 @@ msgstr ""
 msgctxt "Name"
 msgid "Window Management"
 msgstr "Krag-beheer agtergrondprogram"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Power Management Backend"
+#~ msgctxt "Name"
+#~ msgid "Power Management"
+#~ msgstr "Krag-beheer agtergrondprogram"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "USB Devices"
+#~ msgctxt "Name"
+#~ msgid "Removable Storage"
+#~ msgstr "USB Toestelle"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Settings"
+#~ msgctxt "Name"
+#~ msgid "Network"
+#~ msgstr "Instellings"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "System Locations"
+#~ msgctxt "Name"
+#~ msgid "Settings"
+#~ msgstr "Stelsel Liggings"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "SAM System-Administration"
+#~ msgctxt "Name"
+#~ msgid "System Administration"
+#~ msgstr "SAM Stelsel Administrasie"
 
 #, fuzzy
 #~| msgctxt "Name"
@@ -292,13 +355,6 @@ msgstr "Krag-beheer agtergrondprogram"
 #~ msgctxt "Name"
 #~ msgid "Accessibility"
 #~ msgstr "Toeganklikheid"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Details"
-#~ msgctxt "Name"
-#~ msgid "Account Details"
-#~ msgstr "Besonderhede"
 
 #, fuzzy
 #~| msgctxt "Name"
@@ -365,13 +421,6 @@ msgstr "Krag-beheer agtergrondprogram"
 
 #, fuzzy
 #~| msgctxt "Name"
-#~| msgid "Partitions"
-#~ msgctxt "Name"
-#~ msgid "Permissions"
-#~ msgstr "Partisies"
-
-#, fuzzy
-#~| msgctxt "Name"
 #~| msgid "Processor Information"
 #~ msgctxt "Name"
 #~ msgid "Personal Information"
@@ -407,13 +456,6 @@ msgstr "Krag-beheer agtergrondprogram"
 #~| msgid "Application Launcher"
 #~ msgctxt "Name"
 #~ msgid "Application Style"
-#~ msgstr "Programlanseerder"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Application Launcher"
-#~ msgctxt "Name"
-#~ msgid "Workspace Theme"
 #~ msgstr "Programlanseerder"
 
 #, fuzzy
