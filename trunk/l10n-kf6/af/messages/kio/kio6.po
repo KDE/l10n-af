@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-07 00:42+0000\n"
+"POT-Creation-Date: 2026-10-13 00:41+0000\n"
 "PO-Revision-Date: 2026-10-07 15:22+0200\n"
 "Last-Translator: Stéfan Driaan Turvey <stefanturvey1912@gmail.com>\n"
 "Language-Team: Afrikaans <kde-i18n-doc@kde.org>\n"
@@ -1021,14 +1021,13 @@ msgstr "Misformde URL"
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered was not properly formatted. The format "
-"of a URL is generally as follows:<blockquote><strong>protocol://"
-"user:password@www.example.org:port/folder/filename.extension?query=value</"
+"of a URL is generally as follows:<blockquote><strong>protocol://user:"
+"password@www.example.org:port/folder/filename.extension?query=value</"
 "strong></blockquote>"
 msgstr ""
 "Die URL wat jy ingetik het was nie korrek saamgestel nie. Die formaat van 'n "
-"URL is gewoonlik as volg:<blockquote><strong>protocol://"
-"user:password@www.example.org:port/folder/filename.extension?query=value</"
-"strong></blockquote>"
+"URL is gewoonlik as volg:<blockquote><strong>protocol://user:password@www."
+"example.org:port/folder/filename.extension?query=value</strong></blockquote>"
 
 #: core/job_error.cpp:498
 #, kde-format
@@ -1065,9 +1064,9 @@ msgid ""
 "\"KIO worker\") which supports this protocol. Places to search include <a "
 "href=\"https://store.kde.org/\">https://store.kde.org</a>."
 msgstr ""
-"Jy kan op die Internet soek na 'n sagteware-inprop (genoem 'n \"KIO-"
-"werker\") wat hierdie protokol ondersteun. Plekke om te soek sluit <a "
-"href=\"https://store.kde.org/\">https://store.kde.org</a> in."
+"Jy kan op die Internet soek na 'n sagteware-inprop (genoem 'n \"KIO-werker"
+"\") wat hierdie protokol ondersteun. Plekke om te soek sluit <a href="
+"\"https://store.kde.org/\">https://store.kde.org</a> in."
 
 #: core/job_error.cpp:517
 #, kde-format
@@ -1109,8 +1108,8 @@ msgid ""
 "The requested action is not supported by the KDE program which is "
 "implementing the <strong>%1</strong> protocol."
 msgstr ""
-"Die versoekte aksie word nie ondersteun deur die KDE-program wat die "
-"<strong>%1</strong>-protokol implementeer nie."
+"Die versoekte aksie word nie ondersteun deur die KDE-program wat die <strong>"
+"%1</strong>-protokol implementeer nie."
 
 #: core/job_error.cpp:538
 #, kde-format
@@ -1719,9 +1718,8 @@ msgstr "Kon Nie Statistiek Hulpbron"
 #: core/job_error.cpp:912
 #, kde-format
 msgid ""
-"An attempt to determine information about the status of the resource "
-"<strong>%1</strong>, such as the resource name, type, size, etc., was "
-"unsuccessful."
+"An attempt to determine information about the status of the resource <strong>"
+"%1</strong>, such as the resource name, type, size, etc., was unsuccessful."
 msgstr ""
 "'n Poging om inligting oor die status van die hulpbron <strong>%1</strong> "
 "te bepaal, soos die hulpbronnaam, tipe, grootte, ens., was onsuksesvol."
@@ -1942,9 +1940,9 @@ msgid ""
 "Please file a bug at <a href=\"https://bugs.kde.org/\">https://bugs.kde.org/"
 "</a> to inform the KDE team of the unsupported authentication method."
 msgstr ""
-"Dien asseblief 'n fout by <a href=\"https://bugs.kde.org/\">https://"
-"bugs.kde.org/</a> in om die KDE-span in te lig van die stawingsmetode wat "
-"nie ondersteun word nie."
+"Dien asseblief 'n fout by <a href=\"https://bugs.kde.org/\">https://bugs.kde."
+"org/</a> in om die KDE-span in te lig van die stawingsmetode wat nie "
+"ondersteun word nie."
 
 #: core/job_error.cpp:1072
 #, kde-format
@@ -2077,8 +2075,8 @@ msgstr "Kon Nie Herbenaam Oorspronklike Lêer"
 #: core/job_error.cpp:1162
 #, kde-format
 msgid ""
-"The requested operation required the renaming of the original file "
-"<strong>%1</strong>, however it could not be renamed."
+"The requested operation required the renaming of the original file <strong>"
+"%1</strong>, however it could not be renamed."
 msgstr ""
 "Die versoekte operasie benodig Die herbenaming van Die oorspronklike lêer "
 "<strong>%1</strong>, egter dit kon nie wees herbenaam."
@@ -2091,8 +2089,8 @@ msgstr "Kon Nie Herbenaam Tydelike Lêer"
 #: core/job_error.cpp:1173
 #, kde-format
 msgid ""
-"The requested operation required the creation of a temporary file "
-"<strong>%1</strong>, however it could not be created."
+"The requested operation required the creation of a temporary file <strong>"
+"%1</strong>, however it could not be created."
 msgstr ""
 "Die versoekte operasie benodig Die skep van 'n tydelike lêer <strong>%1</"
 "strong>, egter dit kon nie wees geskep."
@@ -2307,7 +2305,33 @@ msgstr ""
 msgid "Unable to determine the type of file for %1"
 msgstr "Kan nie die lêertipe vir %1 bepaal nie"
 
-#: core/openwith.cpp:91
+#: core/openwith.cpp:85
+#, kde-format
+msgctxt "@info %1 is a file name extension"
+msgid "No file type can be defined for the extension \"%1\"."
+msgstr ""
+
+#: core/openwith.cpp:96
+#, fuzzy, kde-format
+#| msgid "Could not enter folder %1."
+msgctxt "@info %1 is a folder path"
+msgid "Could not create the folder %1."
+msgstr "Kon nie toegang tot gids %1 verkry nie"
+
+#: core/openwith.cpp:100 core/openwith.cpp:113
+#, fuzzy, kde-format
+#| msgid "Could not write to file %1."
+msgctxt "@info %1 is a file path, %2 the error"
+msgid "Could not write the file type definition %1: %2"
+msgstr "Kon nie na lêer %1 skryf nie."
+
+#: core/openwith.cpp:120
+#, kde-format
+msgctxt "@info %1 is a file name extension"
+msgid "Could not update the file type database with the extension \"%1\"."
+msgstr ""
+
+#: core/openwith.cpp:149
 #, kde-format
 msgid ""
 "Could not extract executable name from '%1', please type a valid program "
@@ -2316,13 +2340,13 @@ msgstr ""
 "Kon nie die uitvoerbare naam uit '%1' onttrek nie, tik asseblief 'n geldige "
 "programnaam."
 
-#: core/openwith.cpp:143
+#: core/openwith.cpp:201
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<filename>%1</filename> does not appear to be an executable program."
 msgstr "<filename>%1</filename> lyk nie na 'n uitvoerbare program nie."
 
-#: core/openwith.cpp:144
+#: core/openwith.cpp:202
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2468,24 +2492,24 @@ msgstr "Kan nie 'n soket skep om 'n KIO-werker vir protokol '%1' te begin nie."
 msgid "Can not find 'kioworker' executable at '%1'"
 msgstr "Kan nie die uitvoerbare 'kioworker' by '%1' vind nie"
 
-#: core/workerinterface.cpp:340 widgets/sslui.cpp:61
-#: widgets/widgetsaskuseractionhandler.cpp:517
+#: core/workerinterface.cpp:333 widgets/sslui.cpp:61
+#: widgets/widgetsaskuseractionhandler.cpp:528
 #, kde-format
 msgid "&Details"
 msgstr "&Besonderhede"
 
-#: core/workerinterface.cpp:342 kioworkers/http/http.cpp:320
+#: core/workerinterface.cpp:335 kioworkers/http/http.cpp:320
 #: widgets/sslui.cpp:97
 #, kde-format
 msgid "&Forever"
 msgstr "&Vir altyd"
 
-#: core/workerinterface.cpp:346 widgets/sslui.cpp:62
+#: core/workerinterface.cpp:339 widgets/sslui.cpp:62
 #, kde-format
 msgid "Co&ntinue"
 msgstr "Gaan &voort"
 
-#: core/workerinterface.cpp:348 kioworkers/http/http.cpp:321
+#: core/workerinterface.cpp:341 kioworkers/http/http.cpp:321
 #: widgets/sslui.cpp:98
 #, kde-format
 msgid "&Current Session only"
@@ -2574,7 +2598,7 @@ msgstr "Nuwe gids…"
 
 #: filewidgets/kdiroperator.cpp:2081 widgets/jobuidelegate.cpp:271
 #: widgets/jobuidelegate.cpp:272 widgets/jobuidelegate.cpp:281
-#: widgets/jobuidelegate.cpp:282 widgets/widgetsaskuseractionhandler.cpp:312
+#: widgets/jobuidelegate.cpp:282 widgets/widgetsaskuseractionhandler.cpp:314
 #, kde-format
 msgid "Move to Trash"
 msgstr "Beweeg na die Asblik"
@@ -2871,15 +2895,14 @@ msgstr "Voer beskrywende etiket hier in"
 #, kde-format
 msgid ""
 "<qt>This is the location associated with the entry. Any valid URL may be "
-"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://"
-"ftp.kde.org/pub/kde/stable<br /><br />By clicking on the button next to the "
-"text edit box you can browse to an appropriate URL.</qt>"
+"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
+"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
+"edit box you can browse to an appropriate URL.</qt>"
 msgstr ""
 "<qt>Dit is die ligging wat met die inskrywing geassosieer word. Enige "
-"geldige URL mag gebruik word. Byvoorbeeld:<br /><br />%1<br />http://"
-"www.kde.org<br />ftp://ftp.kde.org/pub/kde/stable<br /><br />Deur op die "
-"knoppie langs die teksredigeerboks te klik, kan jy na 'n gepaste URL blaai.</"
-"qt>"
+"geldige URL mag gebruik word. Byvoorbeeld:<br /><br />%1<br />http://www.kde."
+"org<br />ftp://ftp.kde.org/pub/kde/stable<br /><br />Deur op die knoppie "
+"langs die teksredigeerboks te klik, kan jy na 'n gepaste URL blaai.</qt>"
 
 #: filewidgets/kfileplaceeditdialog.cpp:100
 #, kde-format
@@ -3121,14 +3144,14 @@ msgstr "Een of meer lêers op hierdie toestel is oop in 'n toepassing."
 #: filewidgets/kfileplacesmodel.cpp:1574
 #, kde-kuit-format
 msgid ""
-"One or more files on this device are opened in application "
-"<application>\"%2\"</application>."
+"One or more files on this device are opened in application <application>"
+"\"%2\"</application>."
 msgid_plural ""
 "One or more files on this device are opened in following applications: "
 "<application>%2</application>."
 msgstr[0] ""
-"Een of meer lêers op hierdie toestel is oop in toepassing "
-"<application>\"%2\"</application>."
+"Een of meer lêers op hierdie toestel is oop in toepassing <application>"
+"\"%2\"</application>."
 msgstr[1] ""
 "Een of meer lêers op hierdie toestel is oop in die volgende toepassings: "
 "<application>%2</application>."
@@ -3544,8 +3567,8 @@ msgstr ""
 "Hierdie opsie aktiveer 'n paar gerieflike funksies vir die stoor van lêers "
 "met uitbreidings:<br /><ol><li>Enige uitbreiding wat in die <b>%1</b>-"
 "teksarea gespesifiseer is, sal bygewerk word as jy die lêertipe verander "
-"waarin gestoor moet word.<br /><br /></li><li>As geen uitbreiding in die "
-"<b>%2</b>-teksarea gespesifiseer is wanneer jy <b>Stoor</b> klik nie, sal %3 "
+"waarin gestoor moet word.<br /><br /></li><li>As geen uitbreiding in die <b>"
+"%2</b>-teksarea gespesifiseer is wanneer jy <b>Stoor</b> klik nie, sal %3 "
 "aan die einde van die lêernaam gevoeg word (as die lêernaam nog nie bestaan "
 "nie). Hierdie uitbreiding is gebaseer op die lêertipe wat jy gekies het om "
 "in te stoor.<br /><br />As jy nie wil hê dat KDE 'n uitbreiding vir die "
@@ -3554,12 +3577,12 @@ msgstr ""
 "verwyder word).</li></ol>As jy onseker is, hou hierdie opsie aangeskakel, "
 "want dit maak jou lêers makliker om te bestuur."
 
-#: filewidgets/kfilewidget.cpp:2964
+#: filewidgets/kfilewidget.cpp:2967
 #, kde-format
 msgid "&File type:"
 msgstr "&Lêertipe:"
 
-#: filewidgets/kfilewidget.cpp:2968
+#: filewidgets/kfilewidget.cpp:2971
 #, kde-format
 msgid ""
 "<qt>This is the file type selector. It is used to select the format that the "
@@ -3568,7 +3591,7 @@ msgstr ""
 "<qt>Hierdie is die lêertipekieser. Dit word gebruik om die formaat te kies "
 "waarin die lêer gestoor sal word.</qt>"
 
-#: filewidgets/kfilewidget.cpp:2970
+#: filewidgets/kfilewidget.cpp:2973
 #, kde-format
 msgid ""
 "<qt>This is the file type selector. It is used to select the format of the "
@@ -3808,13 +3831,13 @@ msgstr "Navigeer"
 msgid "Show Full Path"
 msgstr "Wys volle pad"
 
-#: filewidgets/kurlnavigator.cpp:840
+#: filewidgets/kurlnavigator.cpp:844
 #, kde-kuit-format
 msgctxt "@info:tooltip for button. 1 is path"
 msgid "Go to any location on the path <filename>%1</filename>"
 msgstr "Gaan na enige ligging op die pad <filename>%1</filename>"
 
-#: filewidgets/kurlnavigatorbutton.cpp:726
+#: filewidgets/kurlnavigatorbutton.cpp:741
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "More"
@@ -4225,12 +4248,12 @@ msgstr "Kon nie vind program \"ontheg\""
 msgid "No media in device for %1"
 msgstr "Geen media in toestel %1 gevind"
 
-#: kioworkers/file/file_unix.cpp:762
+#: kioworkers/file/file_unix.cpp:797
 #, kde-format
 msgid "Could not get user id for given user name %1"
 msgstr "Kon nie gebruiker-id vir die gegewe gebruikernaam %1 kry nie"
 
-#: kioworkers/file/file_unix.cpp:773
+#: kioworkers/file/file_unix.cpp:808
 #, kde-format
 msgid "Could not get group id for given group name %1"
 msgstr "Kon nie groep-id vir die gegewe groepnaam %1 kry nie"
@@ -4381,7 +4404,7 @@ msgstr ""
 "gepor?"
 
 #: kioworkers/http/http.cpp:319 widgets/sslui.cpp:60 widgets/sslui.cpp:96
-#: widgets/widgetsaskuseractionhandler.cpp:515
+#: widgets/widgetsaskuseractionhandler.cpp:526
 #, kde-format
 msgid "Server Authentication"
 msgstr "Bedienerstawing"
@@ -4654,23 +4677,23 @@ msgstr "Herstel 'n lêer in die asblik na sy oorspronklike ligging"
 msgid "The trash is full. Empty it or remove items manually."
 msgstr "Die asblik is vol. Maak dit leeg of verwyder items handmatig."
 
-#: kpasswdserver/kpasswdserver.cpp:529
+#: kpasswdserver/kpasswdserver.cpp:617
 #, kde-format
 msgid "Do you want to retry?"
 msgstr "Wil jy weer probeer?"
 
-#: kpasswdserver/kpasswdserver.cpp:533
+#: kpasswdserver/kpasswdserver.cpp:621
 #, kde-format
 msgid "Retry Authentication"
 msgstr "Probeer geldigverklaring weer"
 
-#: kpasswdserver/kpasswdserver.cpp:536
+#: kpasswdserver/kpasswdserver.cpp:624
 #, kde-format
 msgctxt "@action:button filter-continue"
 msgid "Retry"
 msgstr "Probeer weer"
 
-#: kpasswdserver/kpasswdserver.cpp:797
+#: kpasswdserver/kpasswdserver.cpp:904
 #, kde-format
 msgid "Authentication Dialog"
 msgstr "Geldigverklaringdialoog"
@@ -5087,15 +5110,15 @@ msgstr ""
 "</emphasis>"
 
 #: widgets/jobuidelegate.cpp:233 widgets/jobuidelegate.cpp:247
-#: widgets/jobuidelegate.cpp:259 widgets/widgetsaskuseractionhandler.cpp:203
+#: widgets/jobuidelegate.cpp:259 widgets/widgetsaskuseractionhandler.cpp:205
 #, kde-format
 msgid "Delete Permanently"
 msgstr "Skrap permanent"
 
 #: widgets/jobuidelegate.cpp:234 widgets/jobuidelegate.cpp:248
-#: widgets/widgetsaskuseractionhandler.cpp:246
-#: widgets/widgetsaskuseractionhandler.cpp:268
-#: widgets/widgetsaskuseractionhandler.cpp:290
+#: widgets/widgetsaskuseractionhandler.cpp:248
+#: widgets/widgetsaskuseractionhandler.cpp:270
+#: widgets/widgetsaskuseractionhandler.cpp:292
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete Permanently"
@@ -5117,7 +5140,7 @@ msgstr[1] ""
 "Wil jy regtig hierdie %1 items permanent skrap?<nl/><nl/><emphasis "
 "strong='true'>Hierdie aksie kan nie ongedaan gemaak word nie.</emphasis>"
 
-#: widgets/jobuidelegate.cpp:258 widgets/widgetsaskuseractionhandler.cpp:297
+#: widgets/jobuidelegate.cpp:258 widgets/widgetsaskuseractionhandler.cpp:299
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5127,13 +5150,13 @@ msgstr ""
 "Wil jy alle items permanent uit die asblik skrap?<nl/><nl/><emphasis "
 "strong='true'>Hierdie aksie kan nie ongedaan gemaak word nie.</emphasis>"
 
-#: widgets/jobuidelegate.cpp:260 widgets/widgetsaskuseractionhandler.cpp:299
+#: widgets/jobuidelegate.cpp:260 widgets/widgetsaskuseractionhandler.cpp:301
 #, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "Maak asblik leeg"
 
-#: widgets/jobuidelegate.cpp:270 widgets/widgetsaskuseractionhandler.cpp:305
+#: widgets/jobuidelegate.cpp:270 widgets/widgetsaskuseractionhandler.cpp:307
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5300,43 +5323,43 @@ msgstr "Besig om Stelsel Opstelling Op te dateer"
 msgid "Updating system configuration…"
 msgstr "Besig om stelselopstelling by te werk…"
 
-#: widgets/kdirmodel.cpp:1269
+#: widgets/kdirmodel.cpp:1306
 #, kde-format
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Naam"
 
-#: widgets/kdirmodel.cpp:1271
+#: widgets/kdirmodel.cpp:1308
 #, kde-format
 msgctxt "@title:column"
 msgid "Size"
 msgstr "Grootte"
 
-#: widgets/kdirmodel.cpp:1273
+#: widgets/kdirmodel.cpp:1310
 #, kde-format
 msgctxt "@title:column"
 msgid "Date"
 msgstr "Datum"
 
-#: widgets/kdirmodel.cpp:1275
+#: widgets/kdirmodel.cpp:1312
 #, kde-format
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr "Regte"
 
-#: widgets/kdirmodel.cpp:1277
+#: widgets/kdirmodel.cpp:1314
 #, kde-format
 msgctxt "@title:column"
 msgid "Owner"
 msgstr "Eienaar"
 
-#: widgets/kdirmodel.cpp:1279
+#: widgets/kdirmodel.cpp:1316
 #, kde-format
 msgctxt "@title:column"
 msgid "Group"
 msgstr "Groep"
 
-#: widgets/kdirmodel.cpp:1281
+#: widgets/kdirmodel.cpp:1318
 #, kde-format
 msgctxt "@title:column"
 msgid "Type"
@@ -5545,17 +5568,17 @@ msgstr "Vrye spasie:"
 msgid "Unknown size"
 msgstr "Onbekende grootte"
 
-#: widgets/kopenwithdialog.cpp:299
+#: widgets/kopenwithdialog.cpp:301
 #, kde-format
 msgid "Known Applications"
 msgstr "Bekend Programme"
 
-#: widgets/kopenwithdialog.cpp:558
+#: widgets/kopenwithdialog.cpp:565
 #, kde-format
 msgid "Open With"
 msgstr "Open Met"
 
-#: widgets/kopenwithdialog.cpp:563
+#: widgets/kopenwithdialog.cpp:570
 #, kde-format
 msgid ""
 "<qt>Select the program that should be used to open <b>%1</b>. If the program "
@@ -5564,17 +5587,17 @@ msgstr ""
 "<qt>Kies die program wat moet wees gebruik word na open <b>%1</b>. As die "
 "program is nie gelys, invoer die naam of kliek die blaai knoppie.</qt>"
 
-#: widgets/kopenwithdialog.cpp:570
+#: widgets/kopenwithdialog.cpp:577
 #, kde-format
 msgid "Choose the name of the program with which to open the selected files."
 msgstr "Kies die naam van die program met wat na open die gekose lêers."
 
-#: widgets/kopenwithdialog.cpp:591
+#: widgets/kopenwithdialog.cpp:598
 #, kde-format
 msgid "<qt>Select the program you want to use to open the file<br/>%1</qt>"
 msgstr "<qt>Kies die program waarmee jy die lêer wil oopmaak<br/>%1</qt>"
 
-#: widgets/kopenwithdialog.cpp:593
+#: widgets/kopenwithdialog.cpp:600
 #, kde-format
 msgid "<qt>Select the program you want to use to open the file.</qt>"
 msgid_plural ""
@@ -5582,17 +5605,17 @@ msgid_plural ""
 msgstr[0] "<qt>Kies die program waarmee jy die lêer wil oopmaak.</qt>"
 msgstr[1] "<qt>Kies die program waarmee jy die %1 lêers wil oopmaak.</qt>"
 
-#: widgets/kopenwithdialog.cpp:598 widgets/kopenwithdialog.cpp:629
+#: widgets/kopenwithdialog.cpp:605 widgets/kopenwithdialog.cpp:638
 #, kde-format
 msgid "Choose Application"
 msgstr "Kies toepassing"
 
-#: widgets/kopenwithdialog.cpp:613
+#: widgets/kopenwithdialog.cpp:622
 #, kde-format
 msgid "Choose Application for %1"
 msgstr "Kies toepassing vir %1"
 
-#: widgets/kopenwithdialog.cpp:615
+#: widgets/kopenwithdialog.cpp:624
 #, kde-format
 msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
@@ -5601,7 +5624,7 @@ msgstr ""
 "<qt>Kies die program vir die lêer tipe: <b>%1</b>. As die program is nie "
 "gelys, invoer die naam of kliek die blaai knoppie.</qt>"
 
-#: widgets/kopenwithdialog.cpp:631
+#: widgets/kopenwithdialog.cpp:640
 #, kde-format
 msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
@@ -5610,7 +5633,7 @@ msgstr ""
 "<qt>Kies 'n program. As die program is nie gelys, invoer die naam of kliek "
 "die blaai knoppie.</qt>"
 
-#: widgets/kopenwithdialog.cpp:677
+#: widgets/kopenwithdialog.cpp:698
 #, kde-format
 msgid ""
 "Type to filter the applications below, or specify the name of a command.\n"
@@ -5620,7 +5643,7 @@ msgstr ""
 "opdrag.\n"
 "Druk die afpyltjie om deur die resultate te beweeg."
 
-#: widgets/kopenwithdialog.cpp:700
+#: widgets/kopenwithdialog.cpp:721
 #, kde-format
 msgid ""
 "Following the command, you can have several place holders which will be "
@@ -5648,7 +5671,7 @@ msgstr ""
 "%m - die klein ikoon\n"
 "%c - die opmerking"
 
-#: widgets/kopenwithdialog.cpp:744
+#: widgets/kopenwithdialog.cpp:765
 #, kde-format
 msgid ""
 "&Remember application association for all files of type\n"
@@ -5657,7 +5680,7 @@ msgstr ""
 "&Onthou toepassingassosiasie vir alle lêers van tipe\n"
 "\"%1\" (%2)"
 
-#: widgets/kopenwithdialog.cpp:746
+#: widgets/kopenwithdialog.cpp:767
 #, kde-format
 msgid ""
 "&Remember application association for all files of type\n"
@@ -5666,22 +5689,33 @@ msgstr ""
 "&Onthou toepassingassosiasie vir alle lêers van tipe\n"
 "\"%1\""
 
-#: widgets/kopenwithdialog.cpp:756
+#: widgets/kopenwithdialog.cpp:773
+#, fuzzy, kde-format
+#| msgid ""
+#| "&Remember application association for all files of type\n"
+#| "\"%1\""
+msgctxt "@option:check %1 is a file name extension"
+msgid "&Remember application association for all \"*.%1\" files"
+msgstr ""
+"&Onthou toepassingassosiasie vir alle lêers van tipe\n"
+"\"%1\""
+
+#: widgets/kopenwithdialog.cpp:781
 #, kde-format
 msgid "Terminal options"
 msgstr "Terminaalopsies"
 
-#: widgets/kopenwithdialog.cpp:761
+#: widgets/kopenwithdialog.cpp:786
 #, kde-format
 msgid "Run in &terminal"
 msgstr "Hardloop in &terminaal"
 
-#: widgets/kopenwithdialog.cpp:779
+#: widgets/kopenwithdialog.cpp:804
 #, kde-format
 msgid "&Do not close when command exits"
 msgstr "&Moet nie toemaak wanneer die opdrag afsluit nie"
 
-#: widgets/kopenwithdialog.cpp:798
+#: widgets/kopenwithdialog.cpp:823
 #, kde-format
 msgid "Get more Apps from Discover"
 msgstr "Kry meer toepassings van Discover"
@@ -5977,12 +6011,12 @@ msgstr ""
 "<p>MIME, wat vir die Engelse afkorting Multipurpose Internet (e)Mail "
 "Extension staan, is 'n standaard protokol om die tipe data in 'n lêer te "
 "identifiseer. Bv. die \"bmp\" agtervoegsel in die lêernaam 'blomme.bmp' dui "
-"aan dat die lêer 'n prentjie bevat wat as <u>image/x-bmp</u> geënkodeer "
-"is.Die stelsel gebruik die mime tipe inligting om te weet watter program om "
-"te gebruik om elke lêer meer oop te maak.</p><p>As jy hierdie program met "
-"mime tipes wil assosieer wat nog nie in die lys voorkom nie kan jy op die "
-"<b>Voeg by</b> knoppie hier onder druk. As daar mime tipes in die lys is wat "
-"hierdie program nie kan handteer nie, kan hulle verwyder word deur op die "
+"aan dat die lêer 'n prentjie bevat wat as <u>image/x-bmp</u> geënkodeer is."
+"Die stelsel gebruik die mime tipe inligting om te weet watter program om te "
+"gebruik om elke lêer meer oop te maak.</p><p>As jy hierdie program met mime "
+"tipes wil assosieer wat nog nie in die lys voorkom nie kan jy op die <b>Voeg "
+"by</b> knoppie hier onder druk. As daar mime tipes in die lys is wat hierdie "
+"program nie kan handteer nie, kan hulle verwyder word deur op die "
 "<b>Verwyder</b> knoppie hier onder te druk.</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
@@ -6075,8 +6109,8 @@ msgstr "Deel"
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"Could not save properties due to insufficient write access to:<nl/"
-"><filename>%1</filename>."
+"Could not save properties due to insufficient write access to:<nl/><filename>"
+"%1</filename>."
 msgstr ""
 "Kon nie eienskappe stoor nie weens onvoldoende skryftoegang tot:<nl/"
 "><filename>%1</filename>."
@@ -6584,36 +6618,62 @@ msgstr[1] "Hierdie gidss gebruik gevorderde regte."
 msgid "These files use advanced permissions."
 msgstr "Hierdie lêers gebruik gevorderde regte."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2136
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2141
 #, kde-format
 msgctxt "@title:tab"
 msgid "C&hecksums"
 msgstr "&Kontrolesomme"
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2427
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2306
+#, fuzzy, kde-format
+#| msgctxt "@info:progress computation in the background"
+#| msgid "Verifying checksum…"
+msgctxt "@info:progress computation in the background"
+msgid "Verifying checksum… (%1%)"
+msgstr "Besig om kontrolesom te verifieer…"
+
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2414
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2636
+#, fuzzy, kde-format
+#| msgctxt "@info:progress"
+#| msgid "Calculating…"
+msgctxt "@info:progress Calculating hash for multiple files"
+msgid "Calculating… (%1/%2)"
+msgstr "Besig om te bereken…"
+
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2431
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2638
+#, fuzzy, kde-format
+#| msgctxt "@info:progress"
+#| msgid "Calculating…"
+msgctxt "@info:progress Calculating hash"
+msgid "Calculating… (%1%)"
+msgstr "Besig om te bereken…"
+
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2501
 #, kde-format
 msgid "Invalid checksum."
 msgstr "Ongeldige kontrolesom."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2430
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2504
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The given input is not a valid MD5, SHA1 or SHA256 checksum."
 msgstr ""
 "Die gegewe invoer is nie 'n geldige MD5-, SHA1- of SHA256-kontrolesom nie."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2441
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2515
 #, kde-format
 msgid "Checksums match."
 msgstr "Kontrolesomme stem ooreen."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2444
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2518
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum match."
 msgstr "Die berekende kontrolesom en die verwagte kontrolesom stem ooreen."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2456
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2530
 #, kde-format
 msgid ""
 "<p>Checksums do not match.</p>This may be due to a faulty download. Try re-"
@@ -6624,46 +6684,46 @@ msgstr ""
 "foutiewe aflaai. Probeer om die lêer weer af te laai.<br/>As die verifikasie "
 "steeds misluk, kontak die bron van die lêer."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2462
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2536
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "The computed checksum and the expected checksum differ."
 msgstr "Die berekende kontrolesom en die verwagte kontrolesom verskil."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2470
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2544
 #, kde-format
 msgctxt "@info:progress computation in the background"
 msgid "Verifying checksum…"
 msgstr "Besig om kontrolesom te verifieer…"
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2499
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2612
 #, kde-format
 msgid "The checksums of all files are identical."
 msgstr "Die kontrolesomme van alle lêers is identies."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2504
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2617
 #, kde-format
 msgid "The selected files have different checksums."
 msgstr "Die gekose lêers het verskillende kontrolesomme."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2510
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2623
 #, kde-format
 msgctxt "@info:progress"
 msgid "Calculating…"
 msgstr "Besig om te bereken…"
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2621
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2754
 #, kde-format
 msgid "U&RL"
 msgstr "U&RL"
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2627
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2760
 #, kde-format
 msgid "URL:"
 msgstr "Url:"
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2696
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2967
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2829
+#: widgets/kpropertiesdialogbuiltin_p.cpp:3100
 #, kde-format
 msgid ""
 "Could not save properties. Only entries on local file systems are supported."
@@ -6671,27 +6731,27 @@ msgstr ""
 "Kon nie eienskappe stoor nie. Slegs inskrywings op plaaslike lêerstelsels "
 "word ondersteun."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2767
+#: widgets/kpropertiesdialogbuiltin_p.cpp:2900
 #, kde-format
 msgid "&Application"
 msgstr "&Toepassing"
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2907
+#: widgets/kpropertiesdialogbuiltin_p.cpp:3040
 #, kde-format
 msgid "Add File Type for %1"
 msgstr "Voeg Lêer Tipe by vir %1"
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:2908
+#: widgets/kpropertiesdialogbuiltin_p.cpp:3041
 #, kde-format
 msgid "Select one or more file types to add:"
 msgstr "Kies een of meer lêer tipes om by te voeg:"
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:3046
+#: widgets/kpropertiesdialogbuiltin_p.cpp:3179
 #, kde-format
 msgid "Only executables on local file systems are supported."
 msgstr "Slegs uitvoerbares op plaaslike lêer sisteme word ondersteunde."
 
-#: widgets/kpropertiesdialogbuiltin_p.cpp:3061
+#: widgets/kpropertiesdialogbuiltin_p.cpp:3194
 #, kde-format
 msgid "Advanced Options for %1"
 msgstr "Gevorderde Opsies vir %1"
@@ -7331,7 +7391,7 @@ msgstr "Versteek hierdie lêer?"
 
 #: widgets/renamefilewarningdialog.cpp:68
 #: widgets/renamefilewarningdialog.cpp:118
-#: widgets/widgetsaskuseractionhandler.cpp:411
+#: widgets/widgetsaskuseractionhandler.cpp:417
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not ask again"
@@ -7489,7 +7549,7 @@ msgstr ""
 "Die afgeleë gasheer het geen SSL-sertifikate gestuur nie.\n"
 "Staak omdat die identiteit van die gasheer nie vasgestel kan word nie."
 
-#: widgets/sslui.cpp:50 widgets/widgetsaskuseractionhandler.cpp:508
+#: widgets/sslui.cpp:50 widgets/widgetsaskuseractionhandler.cpp:519
 #, kde-format
 msgid ""
 "The server failed the authenticity check (%1).\n"
@@ -7498,7 +7558,7 @@ msgstr ""
 "Die bediener het nie die outentisiteitstoets geslaag nie (%1).\n"
 "\n"
 
-#: widgets/widgetsaskuseractionhandler.cpp:234
+#: widgets/widgetsaskuseractionhandler.cpp:236
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7510,7 +7570,7 @@ msgstr ""
 "filename><nl/><nl/><emphasis strong='true'>Hierdie aksie kan nie ongedaan "
 "gemaak word nie.</emphasis>"
 
-#: widgets/widgetsaskuseractionhandler.cpp:240
+#: widgets/widgetsaskuseractionhandler.cpp:242
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7526,7 +7586,7 @@ msgstr[1] ""
 "Wil jy hierdie %1 items regtig permanent skrap?<nl/><nl/><emphasis "
 "strong='true'>Hierdie aksie kan nie ongedaan gemaak word nie.</emphasis>"
 
-#: widgets/widgetsaskuseractionhandler.cpp:253
+#: widgets/widgetsaskuseractionhandler.cpp:255
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7538,7 +7598,7 @@ msgstr ""
 "<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>Hierdie "
 "aksie kan nie ongedaan gemaak word nie.</emphasis>"
 
-#: widgets/widgetsaskuseractionhandler.cpp:260
+#: widgets/widgetsaskuseractionhandler.cpp:262
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7557,7 +7617,7 @@ msgstr[1] ""
 "permanent?<nl/><nl/><emphasis strong='true'>Hierdie aksie kan nie ongedaan "
 "gemaak word nie.</emphasis>"
 
-#: widgets/widgetsaskuseractionhandler.cpp:275
+#: widgets/widgetsaskuseractionhandler.cpp:277
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7569,7 +7629,7 @@ msgstr ""
 "eerder permanent?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis "
 "strong='true'>Hierdie aksie kan nie ongedaan gemaak word nie.</emphasis>"
 
-#: widgets/widgetsaskuseractionhandler.cpp:282
+#: widgets/widgetsaskuseractionhandler.cpp:284
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7589,7 +7649,7 @@ msgstr[1] ""
 "hulle eerder permanent?<nl/><nl/><emphasis strong='true'>Hierdie aksie kan "
 "nie ongedaan gemaak word nie.</emphasis>"
 
-#: widgets/widgetsaskuseractionhandler.cpp:310
+#: widgets/widgetsaskuseractionhandler.cpp:312
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to move this %1 item to the Trash?"
@@ -7597,24 +7657,24 @@ msgid_plural "Do you really want to move these %1 items to the Trash?"
 msgstr[0] "Wil jy hierdie %1 item regtig na die asblik skuif?"
 msgstr[1] "Wil jy hierdie %1 items regtig na die asblik skuif?"
 
-#: widgets/widgetsaskuseractionhandler.cpp:367
+#: widgets/widgetsaskuseractionhandler.cpp:369
 #, kde-format
 msgctxt "@option:checkbox"
 msgid "Do not ask again"
 msgstr "Moenie weer vra nie"
 
-#: widgets/widgetsaskuseractionhandler.cpp:437
+#: widgets/widgetsaskuseractionhandler.cpp:443
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not show this message again"
 msgstr "Moenie hierdie boodskap weer wys nie"
 
-#: widgets/widgetsaskuseractionhandler.cpp:574
+#: widgets/widgetsaskuseractionhandler.cpp:585
 #, kde-format
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "Die eweknie se SSL-sertifikaatketting blyk korrup te wees."
 
-#: widgets/widgetsaskuseractionhandler.cpp:577
+#: widgets/widgetsaskuseractionhandler.cpp:588
 #, kde-format
 msgid "SSL"
 msgstr "SSL"
@@ -8345,8 +8405,8 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 
 #~ msgid ""
 #~ "<qt>\n"
-#~ "Enter the host or domain to which this policy applies, e.g. "
-#~ "<b>www.kde.org</b> or <b>.kde.org</b>.\n"
+#~ "Enter the host or domain to which this policy applies, e.g. <b>www.kde."
+#~ "org</b> or <b>.kde.org</b>.\n"
 #~ "</qt>"
 #~ msgstr ""
 #~ "<qt>\n"
@@ -8473,8 +8533,8 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 #, fuzzy
 #~ msgid ""
 #~ "<p>Marks partially uploaded files through SMB, SFTP and other protocols.</"
-#~ "p><p>When this option is enabled, partially uploaded files will have a "
-#~ "\".part\" extension. This extension will be removed once the transfer is "
+#~ "p><p>When this option is enabled, partially uploaded files will have a \"."
+#~ "part\" extension. This extension will be removed once the transfer is "
 #~ "complete.</p>"
 #~ msgstr ""
 #~ "<p>Merk gedeeltelik opgelaaide Ftp lêers.</p><p>Wanneer hierdie opsie aan "
@@ -8939,9 +8999,9 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 #~ "tuiste en wanneer jy gevra word of jy die koekie wil aanvaar, kliek op "
 #~ "<i> Hierdie domein </i> onder die 'maak van toepassing' oortjie en kies "
 #~ "aanvaar of spesifiseer eenvoudig die naam van die tuiste in die <i> "
-#~ "Domein Spesifike Beleid </i> oortjie, en stel dit om koekies te "
-#~ "aanvaar.Dit stel jou in staat om die web tuistes te besoek sonder dat jy "
-#~ "weer gevra word of jy die koekies wil aanvaar of nie."
+#~ "Domein Spesifike Beleid </i> oortjie, en stel dit om koekies te aanvaar."
+#~ "Dit stel jou in staat om die web tuistes te besoek sonder dat jy weer "
+#~ "gevra word of jy die koekies wil aanvaar of nie."
 
 #~ msgid ""
 #~ "<h1>Network Preferences</h1>Here you can define the behavior of KDE "
@@ -9034,8 +9094,8 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 #~ "<qt>Unable to run the command specified. The file or folder <b>%1</b> "
 #~ "does not exist.</qt>"
 #~ msgstr ""
-#~ "<qt>Kon nie die gespesifiseerde opdrag uitvoer nie. Die lêer of gids "
-#~ "<b>%1</b> bestaan nie.</qt>"
+#~ "<qt>Kon nie die gespesifiseerde opdrag uitvoer nie. Die lêer of gids <b>"
+#~ "%1</b> bestaan nie.</qt>"
 
 #, fuzzy
 #~ msgid "Could not find any application or handler for %1"
@@ -9281,8 +9341,8 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 #~ "</qt>"
 #~ msgstr ""
 #~ "<qt>Hier jy kan verander die verstek browser-identifikasie string en/of "
-#~ "stel 'n tuiste <code>(bv:www.kde.org)</code> of 'n domein "
-#~ "<code>(bv:kde.org)</code> spesifieke identifikasie. <p>\n"
+#~ "stel 'n tuiste <code>(bv:www.kde.org)</code> of 'n domein <code>(bv:kde."
+#~ "org)</code> spesifieke identifikasie. <p>\n"
 #~ "Na voeg deur 'n nuwe agent string, eenvoudig kliek op die <code>nuwe</"
 #~ "code> knoppie en verskaf die nodige informasie versoekte deur die dialoog "
 #~ "boks. Na verander 'n bestaande tuiste spesifieke inskrywing, kliek op die "
@@ -9405,8 +9465,8 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 #~ "toegelaat. In plaas van Invoer die bo vlak adres van 'n tuiste na maak "
 #~ "generies ooreenstemmende inskrywings vir alle liggings gevind onder dit. "
 #~ "vir voorbeeld, as jy wil hê alle tuistes na <code>.kde.org</code> na "
-#~ "ontvang nagemaakte browser-identification, eenvoudig Invoer "
-#~ "<code>.kde.org</code> hier.\n"
+#~ "ontvang nagemaakte browser-identification, eenvoudig Invoer <code>.kde."
+#~ "org</code> hier.\n"
 #~ "</qt>"
 
 #~ msgid "&When browsing the following site:"
@@ -9804,8 +9864,8 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 #, fuzzy
 #~ msgid "<qt>The file or folder <b>%1</b> does not exist.</qt>"
 #~ msgstr ""
-#~ "<qt>Kon nie die gespesifiseerde opdrag uitvoer nie. Die lêer of gids "
-#~ "<b>%1</b> bestaan nie.</qt>"
+#~ "<qt>Kon nie die gespesifiseerde opdrag uitvoer nie. Die lêer of gids <b>"
+#~ "%1</b> bestaan nie.</qt>"
 
 #, fuzzy
 #~ msgid "Advanced options"
@@ -10059,8 +10119,8 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 #~ "(*), of aanhalings tekens nie.<p><u>Voorbeelde van geldige inskrywings:</"
 #~ "u><br/><code>http://mymaatskappy.com, 192.168.10.1, mymaatskappy.com, "
 #~ "localhost, http://localhost</code><p><u>Voorbeelde van ongeldige "
-#~ "inskrywings:</u><br/><code>http://my maatskappy.com, http:/"
-#~ "mymaatskappy,com file:/localhost</code></qt>"
+#~ "inskrywings:</u><br/><code>http://my maatskappy.com, http:/mymaatskappy,"
+#~ "com file:/localhost</code></qt>"
 
 #~ msgid "Enter the URL or address that should use the above proxy settings:"
 #~ msgstr ""
@@ -10077,15 +10137,13 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 #~ msgid ""
 #~ "<qt>Enter a valid address or URL.<br /><br /><b><u>NOTE:</u></b> Wildcard "
 #~ "matching such as <code>*.kde.org</code> is not supported. If you want to "
-#~ "match any host in the <code>.kde.org</code> domain, e.g. "
-#~ "<code>printing.kde.org</code>, then simply enter <code>.kde.org</code>.</"
-#~ "qt>"
+#~ "match any host in the <code>.kde.org</code> domain, e.g. <code>printing."
+#~ "kde.org</code>, then simply enter <code>.kde.org</code>.</qt>"
 #~ msgstr ""
 #~ "<qt>Sleutel 'n geldige adres of url in.<p><b><u>NOTA:</u></b> Wildekaarte "
 #~ "wat ooreenstem met <code>*.kde.org</code> word nie ondersteun. Indien jy "
-#~ "enige bediener in die <code>.kde.org</code> domain, bv. "
-#~ "<code>printing.kde.org</code> soek, sleutel dan net <code>.kde.org</"
-#~ "code>in.</qt>"
+#~ "enige bediener in die <code>.kde.org</code> domain, bv. <code>printing."
+#~ "kde.org</code> soek, sleutel dan net <code>.kde.org</code>in.</qt>"
 
 #, fuzzy
 #~ msgid ""
@@ -10278,9 +10336,9 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 #~ "are actually offered by the host. <i>Never</i> means that you will never "
 #~ "have the links to the services. In both cases you will not contact the "
 #~ "host, so nobody will ever regard you as an attacker.<br /><br />More "
-#~ "information about <b>LISa</b> can be found at <a href=\"http://lisa-"
-#~ "home.sourceforge.net\">the LISa Homepage</a> or contact Alexander "
-#~ "Neundorf &lt;<a href=\"mailto:neundorf@kde.org\">neundorf@kde.org</a>&gt;."
+#~ "information about <b>LISa</b> can be found at <a href=\"http://lisa-home."
+#~ "sourceforge.net\">the LISa Homepage</a> or contact Alexander Neundorf &lt;"
+#~ "<a href=\"mailto:neundorf@kde.org\">neundorf@kde.org</a>&gt;."
 #~ msgstr ""
 #~ "<h1>Lokale Netwerk Blaaiing</h1>Hier kan jy jou <b>\"Netwerk Omgewing\"</"
 #~ "b> opstel. Jy kan of die LISa gids en die lan:/ioslave, of die ResLISa "
@@ -10293,10 +10351,10 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 #~ "aanbieder aangebied word of nie. <i>Nooit</i> beteken dat jy nooit die "
 #~ "skkakels na die dienste toe sal hê nie. In beide gevalle sal jy nie die "
 #~ "aanbieder kontak nie, so niemand sal jou beskou as 'n aanvaller nie. "
-#~ "<br><br>Meer inligting omtrent <b>LISa</b> kan gevind word by <a "
-#~ "href=\"http://lisa-home.sourceforge.net\">die LISa Tuisbladsy</a> or "
-#~ "Kontakt Alexander Neundorf &lt;<a "
-#~ "href=\"mailto:neundorf@kde.org\">neundorf@kde.org</a>&gt;."
+#~ "<br><br>Meer inligting omtrent <b>LISa</b> kan gevind word by <a href="
+#~ "\"http://lisa-home.sourceforge.net\">die LISa Tuisbladsy</a> or Kontakt "
+#~ "Alexander Neundorf &lt;<a href=\"mailto:neundorf@kde.org\">neundorf@kde."
+#~ "org</a>&gt;."
 
 #~ msgid "&Windows Shares"
 #~ msgstr "Vensters Gedeelde bronne"
@@ -10421,10 +10479,10 @@ msgstr "As jy nie hierdie program vertrou nie, klik Kanselleer"
 #~ msgstr ""
 #~ "<h1>SOCKS</h1><p>Hierdie module laat jou toe om KDE se ondersteuning van "
 #~ "'n SOCKS bediener of volmag te konfigureer.</p><p>SOCKS is 'n protokol om "
-#~ "vuur-mure te oorkom, soos beskryf in <a href=\"http://rfc.net/"
-#~ "rfc1928.html\">RFC 1928</a>. <p>Indien jy nie weet wat hierdie is nie, en "
-#~ "indien jy nie deur jou Stelsel administrateur aangesê word om dit te "
-#~ "gebruik nie, laat dit onaktief.</p>"
+#~ "vuur-mure te oorkom, soos beskryf in <a href=\"http://rfc.net/rfc1928.html"
+#~ "\">RFC 1928</a>. <p>Indien jy nie weet wat hierdie is nie, en indien jy "
+#~ "nie deur jou Stelsel administrateur aangesê word om dit te gebruik nie, "
+#~ "laat dit onaktief.</p>"
 
 #~ msgid "&Path:"
 #~ msgstr "Gids soeklys:"
